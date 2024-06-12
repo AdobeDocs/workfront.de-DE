@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2619'
 ht-degree: 3%
 
 ---
@@ -264,6 +264,8 @@ Beachten Sie Folgendes beim Arbeiten mit Filtern in der Tabellenansicht:
 
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
 
+* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise einen Filter für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projekteigentümer in dem Filter referenzieren, den Sie für den Aktivitäts-Record-Typ erstellen.
+
 So fügen Sie einer Tabellenansicht einen Filter hinzu:
 
 1. Erstellen Sie eine Tabellenansicht für eine Seite vom Typ Datensatz, wie im Artikel beschrieben [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
@@ -373,6 +375,7 @@ Beachten Sie Folgendes:
 * Durch das Entfernen von Gruppierungen werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
 * Sie können die unter einer Gruppierung aufgelisteten Datensätze bearbeiten.
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern gruppieren, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
+* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Gruppierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projekteigentümer in der für den Aktivitäts-Record-Typ erstellten Gruppierung referenzieren.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -428,6 +431,8 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht Folgendes:
 * Wenn Sie Sortierungskriterien entfernen, werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp wie Sie zugreifen, und es wird die gleiche Ansicht wie Sie verwendet.
 
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern sortieren, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
+
+* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Sortierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektinhaber in der Art referenzieren, die Sie für den Aktivitäts-Record-Typ erstellen.
 
 Zum Sortieren <!--ungrouped (add this when sorting for groupings will be available--> -Einträge, führen Sie folgende Schritte aus:
 

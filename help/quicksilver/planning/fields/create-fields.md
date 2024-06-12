@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3360'
 ht-degree: 2%
 
 ---
@@ -382,9 +382,9 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
    >[!NOTE]
    >
-   > Es ist nicht möglich, Felder vom Typ Mehrfachauswahl in einer Formel hinzuzufügen.
-
-
+   >* Es ist nicht möglich, Felder vom Typ Mehrfachauswahl in einer Formel hinzuzufügen.
+   >
+   >* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise ein Formelfeld für einen Aktivitäts-Datensatztyp erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatztyp verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie in der für den Aktivitäts-Datensatztyp erstellten Formel auf den Projekteigentümer verweisen.
 
 1. Klicken Sie auf **Erstellen**.
 
