@@ -6,16 +6,20 @@ description: Die Bedingung einer Aufgabe oder eines Problems ist eine Markierung
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # Aktualisierungsbedingung für Aufgaben und Probleme
 
-{{highlighted-preview}}
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Die Bedingung einer Aufgabe oder eines Problems ist eine Markierung, die darauf platziert wird, um anzugeben, wie es funktioniert. Dies unterscheidet sich vom Status des Arbeitselements, der die aktuelle Phase der Entwicklung des Elements angibt.
 
@@ -136,7 +140,7 @@ Führen Sie einen der folgenden Schritte aus, um die Bedingung einer Aufgabe ode
 
 1. So aktualisieren Sie die Bedingung einer Aufgabe oder eines Problems im Abschnitt &quot;Aufgaben- oder Problemdetails&quot;:
 
-   1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator das Feld Bedingung zum Bereich Details einer Aufgabe oder eines Problems in Ihrer Layoutvorlage hinzugefügt hat, klicken Sie auf **Details** Klicken Sie im linken Bereich auf das **Bedingung** und wählen Sie aus den folgenden Optionen aus:
+   1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator das Feld Bedingung zum Bereich Details einer Aufgabe oder eines Problems in Ihrer Layoutvorlage hinzugefügt hat, klicken Sie auf **Details** Klicken Sie im linken Bereich auf **Aufgabenbedingung** oder **Problembedingung** und wählen Sie aus den folgenden Optionen aus:
       * Keine Probleme
       * Kleinere Probleme
       * Größere Probleme

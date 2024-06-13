@@ -6,9 +6,9 @@ description: Sie können Smart-Zuweisungen verwenden, um zu ermitteln, wer der b
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -75,22 +75,29 @@ Smart-Zuweisungen sind an den meisten Stellen verfügbar, an denen Sie Zuweisung
 
 1. Platzieren Sie den Cursor in das Zuweisungsfeld und warten Sie zwei Sekunden.
 
-   <span class="preview">Die **Vorgeschlagene Zuweisungen** Liste angezeigt.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   Ein oder mehrere der folgenden Abschnitte mit Vorschlägen für die intelligente Zuweisung werden angezeigt:
 
-   >[!TIP]
-   >
-   >   Die Listenüberschrift wird angezeigt **Im Folgenden finden Sie einige Empfehlungen** anstelle von **Vorgeschlagene Zuweisungen** in einer Problemliste.
+   * **Vorgeschlagene Zuweisungen**: Wird für Aufgaben angezeigt.
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   Die Listenüberschrift wird angezeigt **Im Folgenden finden Sie einige Empfehlungen** anstelle von **Vorgeschlagene Zuweisungen** in der Produktionsumgebung.
+     >
+   * **Sonstige Zuweisungen**: Wird für Aufgaben und Probleme angezeigt.
+   * **Benutzer und Teams**: Wird für Aufgaben und Probleme angezeigt.
+   * **Vorgangsrollen**: Zeigt Aufgaben und Probleme an.
+   </div>
 
-   Bei Problemen werden die Vorschläge für die intelligente Zuweisung im **Vorgeschlagene Zuweisungen** Bereich.
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    Bei Aufgaben werden die Smart-Zuweisungen in den folgenden Abschnitten angezeigt, je nachdem, in welcher Phase der Algorithmusberechnung die Zuweisungen identifiziert wurden:
 
    * **Vorgeschlagene Zuweisungen**: Zuweisungen, die in der ersten Phase der Algorithmusberechnung der intelligenten Aufgabenzuweisung identifiziert wurden. <span class="preview">Dieser Abschnitt ist nicht für Probleme verfügbar.</span>
-   * <span class="preview">**Sonstige Zuweisungen** (oder **Benutzer und Teams** oder **Vorgangsrollen**): Zuweisungen, die in der zweiten Phase der Algorithmusberechnung der intelligenten Aufgabenzuweisung identifiziert werden. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Sonstige Zuweisungen**, **Benutzer und Teams** oder **Vorgangsrollen**: Zuweisungen, die in der zweiten Phase der Algorithmusberechnung der intelligenten Aufgabenzuweisung identifiziert werden. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

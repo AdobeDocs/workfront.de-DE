@@ -7,7 +7,7 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 6e6115829412b537f6a196a564088c3b6d1d6e8a
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -69,11 +69,11 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
 * Das Feld Zuweisungen für ein Element, das im Startbereich aufgeführt ist, wenn Sie eine Aufgabe oder ein Problem öffnen
 
-  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
 
 * Arbeitslastausgleich im Bereich &quot;Zugeordneter Benutzer&quot;, wenn Sie eine Aufgabe oder ein Problem zuweisen
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Kriterien für intelligente Zuweisungen
@@ -122,7 +122,7 @@ Bei der Berechnung des Ähnlichkeitswerts und der Reihenfolge, in der die Zuweis
 
   Wenn Rick beispielsweise zu einem früheren Zeitpunkt einer ähnlichen Aufgabe zugewiesen wurde und Jennifer vor zwei Tagen einer ähnlichen Aufgabe zugewiesen wurde, wird Rick zuerst angezeigt.
 
-* Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt    **Vorgeschlagene Zuweisungen**  im Feld &quot;Zuweisungen&quot;.
+* Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt    **Vorgeschlagene Zuweisungen**  im Aufgabenfeld &quot;Zuweisungen&quot;.
 
 * Wenn bei dieser Berechnung keine Übereinstimmung vorliegt, beginnt die zweite Phase der intelligenten Zuweisungen, die anhand eines anderen Algorithmus berechnet wird.
 
@@ -132,7 +132,7 @@ Wenn im ersten Schritt von Aufgaben-Smart-Zuweisungen keine Übereinstimmungen g
 
 Weitere Informationen finden Sie im Abschnitt . [Kriterien für intelligente Zuweisungen für Aufgaben und Probleme](#smart-assignments-criteria-for-tasks-and-issues) in diesem Artikel.
 
-Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt   **Sonstige Zuweisungen** (oder im Abschnitt &quot;Benutzer und Teams&quot;oder &quot;Aufgabenrollenzuweisungen&quot;) des Felds &quot;Zuweisungen&quot;für Aufgaben.
+Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt   **Sonstige Zuweisungen**, **Benutzer und Teams** oder **Aufgabenrollenzuweisungen**  Abschnitte des Felds Zuweisungen für Aufgaben.
 
 ### Kriterien für intelligente Zuweisungen für Aufgaben und Probleme
 
@@ -142,7 +142,7 @@ Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt   **Sonstige Z
 >
 ><span class="preview">Die folgenden Kriterien gelten nur für Aufgaben, wenn in der ersten Phase der Berechnung der intelligenten Aufgabenzuweisung keine Übereinstimmungen gefunden wurden. Weitere Informationen finden Sie im Abschnitt . [Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben](#first-phase-of-smart-assignment-calculation-for-tasks) in diesem Artikel. Die folgenden Kriterien gelten standardmäßig immer für Probleme. </span>
 
-![](assets/smart-assignments-issue-header.png)
+<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 
 Benutzer werden in der Dropdown-Liste &quot;Smart-Zuweisungen&quot;empfohlen, die auf einer Kombination der folgenden Kriterien basiert (aufgelistet in der Reihenfolge von am wichtigsten zu am wenigsten wichtig):
 
