@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6ddbe56dd187d62489c41ff721d0f071202e54e4
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # Freigeben eines benutzerdefinierten Formulars
-
-{{highlighted-preview}}
 
 Sie können den Zugriff für ein benutzerdefiniertes Formular konfigurieren, um zu steuern, wer - Person, Rolle, Gruppe, Team, Unternehmen - es anzeigen, freigeben und bearbeiten kann.
 
@@ -109,8 +107,6 @@ Anstatt ein benutzerdefiniertes Formular im standardmäßigen Freigabestatus zu 
 
 1. Klicken Sie auf **Speichern**.
 
-<div class="preview">
-
 ## Freigeben eines benutzerdefinierten Formulars aus dem Formularentwickler
 
 {{step-1-to-setup}}
@@ -160,8 +156,6 @@ Anstatt ein benutzerdefiniertes Formular im standardmäßigen Freigabestatus zu 
    >Wenn Sie sich Sorgen um ein benutzerdefiniertes Formular machen, in das Benutzer beim Anhängen vertrauliche Daten eingeben können, beschränken Sie die Freigabe für diese *Objekte* kann besser sein, als den Zugriff auf das Formular selbst zu beschränken.
 
 1. Klicken Sie auf **Speichern**.
-
-</div>
 
 ## Zugriff auf ein benutzerdefiniertes Formular aus der Liste der Formulare entfernen
 
