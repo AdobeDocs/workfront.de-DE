@@ -8,7 +8,7 @@ description: Die folgenden Zeichenfolgen-Funktionen sind im Zuordnungsbereich f�
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
+source-git-commit: 0b286e43ed77669329fbee25618394ee5641e428
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -56,121 +56,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL ascii (text; [Diakritik entfernen])]
-
-Entfernt alle nichtascii-Zeichen aus einer Textzeichenfolge.
-
->[!INFO]
->
->**Beispiele:**
->
->* `ascii(` `Wěošrčkřfžrýoáníté` `)`
->
->   Gibt Folgendes zurück: [!DNL Workfront]
->
->* `ascii(` `ěščřž` `;` `true` `)`
->
->   Gibt Folgendes zurück: [!UICONTROL escrz]
-
-## [!UICONTROL base64 (text)]
-
-Wandelt Text in base64 um.
-
->[!INFO]
->
->**Beispiel:**
->
->`base64( workfront )`
->
->Gibt Folgendes zurück: d29ya2Zyb250===
-
-## [!UICONTROL Großschreibung (Text)]
-
-Konvertiert das erste Zeichen in einer Textzeichenfolge in Großbuchstaben.
-
->[!INFO]
->
->**Beispiel:**
->
->`capitalize( workfront )`
->
->Gibt Folgendes zurück: [!DNL Workfront]
-
-## contains (text, search string)
-
-Überprüft, ob Text die Suchzeichenfolge enthält.
-
->[!INFO]
->
->**Beispiele:**
->
->* `contains( Hello World ; Hello )`
->
->   Gibt Folgendes zurück: [!UICONTROL true]
->
->* `contains( Hello World ; Bye )`
->
->   Gibt Folgendes zurück: [!UICONTROL false]
-
-## [!UICONTROL decodeURL (text)]
-
-Dekodiert Sonderzeichen in einer URL in Text.
-
->[!INFO]
->
->**Beispiel:**
->`decodeURL( Automate%20your%20workflow )`
->
->Gibt Folgendes zurück: [!UICONTROL Automatisieren Ihres Workflows]
-
-## [!UICONTROL encodeURL (text)]
-
-Kodiert Sonderzeichen in einem Text in eine gültige URL-Adresse.
-
-## [!UICONTROL escapeHTML (text)]
-
-Schließt alle HTML-Tags im Text aus.
-
->[!INFO]
->
->**Beispiel:**
->
->`escapeHTML( <b>Hello</b> )`
->
-> Gibt Folgendes zurück: `&lt;b&gt;Hello&lt;/b&gt;`
-
-## [!UICONTROL escapeMarkdown(text)]
-
-Schließt alle Markdown-Tags im Text aus.
-
->[!INFO]
->
->**Beispiel:**
->
->`escapeMarkdown( # Header )`
->
->Gibt Folgendes zurück: `&#35; Header`
-
-## [!DNL indexOf (string; value; [start])]
-
-Gibt die Position des ersten Vorkommens eines angegebenen Werts in einer Zeichenfolge zurück. Diese Methode gibt &quot;-1&quot;zurück, wenn der gesuchte Wert nicht vorhanden ist. Der Startwert gibt an, wo in der Zeichenfolge die Suche beginnen soll.
-
->[!INFO]
->
->**Beispiele:**
->
->* `indexOf( Workfront ; o )`
->
->   Gibt Folgendes zurück: 1
->
->* `indexOf( Workfront ; x )`
->
->   Gibt Folgendes zurück: -1
->
->* `indexOf( Workfront ; o ; 3 )`
->
->   Gibt Folgendes zurück: 6
-
 ## [!UICONTROL length (text oder buffer)]
 
 Gibt die Länge der Textzeichenfolge (Anzahl der Zeichen) oder des Binärpuffers (Puffergröße in Byte) zurück.
@@ -195,17 +80,46 @@ Konvertiert alle Buchstaben eines Textzeichenders in Kleinbuchstaben.
 >
 >Gibt Folgendes zurück: hello
 
-## [!UICONTROL md5 (Text)]
+## [!UICONTROL Großschreibung (Text)]
 
-Berechnet den md5-Hash einer Zeichenfolge.
+Konvertiert das erste Zeichen in einer Textzeichenfolge in Großbuchstaben.
 
 >[!INFO]
 >
 >**Beispiel:**
 >
->`md5( Workfront )`
+>`capitalize( workfront )`
 >
->Gibt Folgendes zurück: `1448bbbeaa7a9b8091d426999f1f666b`
+>Gibt Folgendes zurück: [!DNL Workfront]
+
+## [!UICONTROL startcase (text)]
+
+Großschreibung des ersten Buchstabens jedes Wortes und Kleinschreibung aller anderen Buchstaben.
+
+>[!INFO]
+>
+>**Beispiel:**
+>`startcase( hello WORLD )`
+>
+>Gibt Folgendes zurück: [!UICONTROL Hello World]
+
+## [!UICONTROL ascii (text; [Diakritik entfernen])]
+
+Entfernt alle nichtascii-Zeichen aus einer Textzeichenfolge.
+
+>[!INFO]
+>
+>**Beispiele:**
+>
+>* `ascii(` `Wěošrčkřfžrýoáníté` `)`
+>
+>   Gibt Folgendes zurück: [!DNL Workfront]
+>
+>* `ascii(` `ěščřž` `;` `true` `)`
+>
+>   Gibt Folgendes zurück: [!UICONTROL escrz]
+
+
 
 ## [!UICONTROL replace (text; Suchzeichenfolge; Ersatzzeichenfolge)]
 
@@ -251,6 +165,169 @@ Die Ersatzzeichenfolge kann die folgenden speziellen Ersatzmuster enthalten:
 >Verwenden Sie keine benannten Erfassungsgruppen wie `/ is (?<number>\d+)/` im Ersetzungszeichenfolgenargument. Dies führt zu einem Fehler.
 
 Weitere Informationen zu regulären Ausdrücken finden Sie unter [Text-Parser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+
+## [!UICONTROL trim (text)]
+
+Entfernt Leerzeichen am Anfang oder Ende des Textes.
+
+## [!UICONTROL upper (text)]
+
+Konvertiert alle Buchstaben einer Textzeichenfolge in Großbuchstaben.
+
+>[!INFO]
+>
+>**Beispiel:**
+>
+>`upper( Hello )`
+>
+>Gibt Folgendes zurück: [!UICONTROL HELLO]
+
+## [!UICONTROL substring (text; start; end)]
+
+Gibt einen Teil einer Textzeichenfolge zwischen der Position &quot;Start&quot;und der Position &quot;Ende&quot;zurück.
+
+>[!INFO]
+>
+>**Beispiele:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Gibt Folgendes zurück: Hel
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Gibt Folgendes zurück: el
+
+## [!DNL indexOf (string; value; [start])]
+
+Gibt die Position des ersten Vorkommens eines angegebenen Werts in einer Zeichenfolge zurück. Diese Methode gibt &quot;-1&quot;zurück, wenn der gesuchte Wert nicht vorhanden ist. Der Startwert gibt an, wo in der Zeichenfolge die Suche beginnen soll.
+
+>[!INFO]
+>
+>**Beispiele:**
+>
+>* `indexOf( Workfront ; o )`
+>
+>   Gibt Folgendes zurück: 1
+>
+>* `indexOf( Workfront ; x )`
+>
+>   Gibt Folgendes zurück: -1
+>
+>* `indexOf( Workfront ; o ; 3 )`
+>
+>   Gibt Folgendes zurück: 6
+
+## [!UICONTROL toBinary (Wert)]
+
+Konvertiert jeden Wert in Binärdaten.
+
+Sie können auch die Kodierung als zweites Argument angeben, um binäre Konversionen von Hex oder base64 auf Binärdaten anzuwenden.
+
+>[!INFO]
+>
+>**Beispiele:**
+>
+>* `toBinary( Workfront )`
+>
+>   Gibt Folgendes zurück: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Gibt Folgendes zurück: 57 6f 72 6b 66 72 6f 6e 74
+
+## [!UICONTROL toString (Wert)]
+
+Konvertiert jeden Wert in eine Zeichenfolge.
+
+## [!UICONTROL encodeURL (text)]
+
+Kodiert Sonderzeichen in einem Text in eine gültige URL-Adresse.
+
+## [!UICONTROL decodeURL (text)]
+
+Dekodiert Sonderzeichen in einer URL in Text.
+
+>[!INFO]
+>
+>**Beispiel:**
+>`decodeURL( Automate%20your%20workflow )`
+>
+>Gibt Folgendes zurück: [!UICONTROL Automatisieren Ihres Workflows]
+
+## [!UICONTROL escapeHTML (text)]
+
+Schließt alle HTML-Tags im Text aus.
+
+>[!INFO]
+>
+>**Beispiel:**
+>
+>`escapeHTML( <b>Hello</b> )`
+>
+> Gibt Folgendes zurück: `&lt;b&gt;Hello&lt;/b&gt;`
+
+## [!UICONTROL escapeMarkdown(text)]
+
+Schließt alle Markdown-Tags im Text aus.
+
+>[!INFO]
+>
+>**Beispiel:**
+>
+>`escapeMarkdown( # Header )`
+>
+>Gibt Folgendes zurück: `&#35; Header`
+
+## [!UICONTROL streifenHTML (text)]
+
+Entfernt alle HTML-Tags aus Text.
+
+>[!INFO]
+>
+>**Beispiel:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Gibt Folgendes zurück: Hallo
+
+## contains (text, search string)
+
+Überprüft, ob Text die Suchzeichenfolge enthält.
+
+>[!INFO]
+>
+>**Beispiele:**
+>
+>* `contains( Hello World ; Hello )`
+>
+>   Gibt Folgendes zurück: [!UICONTROL true]
+>
+>* `contains( Hello World ; Bye )`
+>
+>   Gibt Folgendes zurück: [!UICONTROL false]
+
+## [!UICONTROL split (text; separator)]
+
+Teilt eine Zeichenfolge in ein Zeichenfolgen-Array, indem die Zeichenfolge in Teilzeichenfolgen unterteilt wird.
+
+>[!INFO]
+>
+>**Beispiel:**
+>
+>`split( John, George, Paul ; , )`
+
+## [!UICONTROL md5 (Text)]
+
+Berechnet den md5-Hash einer Zeichenfolge.
+
+>[!INFO]
+>
+>**Beispiel:**
+>
+>`md5( Workfront )`
+>
+>Gibt Folgendes zurück: `1448bbbeaa7a9b8091d426999f1f666b`
 
 ## [!UICONTROL sha1 (Text; [encoding]; [key])]
 
@@ -302,89 +379,14 @@ Bei Verwendung von[!UICONTROL binary]&quot; Schlüssel kodieren, muss ein Schlü
 >
 >Gibt Folgendes zurück: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd11119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
 
-## [!UICONTROL split (text; separator)]
+## [!UICONTROL base64 (text)]
 
-Teilt eine Zeichenfolge in ein Zeichenfolgen-Array, indem die Zeichenfolge in Teilzeichenfolgen unterteilt wird.
-
->[!INFO]
->
->**Beispiel:**
->
->`split( John, George, Paul ; , )`
-
-## [!UICONTROL startcase (text)]
-
-Großschreibung des ersten Buchstabens jedes Wortes und Kleinschreibung aller anderen Buchstaben.
-
->[!INFO]
->
->**Beispiel:**
->`startcase( hello WORLD )`
->
->Gibt Folgendes zurück: [!UICONTROL Hello World]
-
-## [!UICONTROL streifenHTML (text)]
-
-Entfernt alle HTML-Tags aus Text.
+Wandelt Text in base64 um.
 
 >[!INFO]
 >
 >**Beispiel:**
 >
->`stripHTML( <b>Hello</b> )`
+>`base64( workfront )`
 >
->Gibt Folgendes zurück: Hallo
-
-## [!UICONTROL substring (text; start; end)]
-
-Gibt einen Teil einer Textzeichenfolge zwischen der Position &quot;Start&quot;und der Position &quot;Ende&quot;zurück.
-
->[!INFO]
->
->**Beispiele:**
->
->* `substring( Hello ; 0 ; 3)`
->
->   Gibt Folgendes zurück: Hel
->
->* `substring( Hello ; 1 ; 3 )`
->
->   Gibt Folgendes zurück: el
-
-## [!UICONTROL toBinary (Wert)]
-
-Konvertiert jeden Wert in Binärdaten.
-
-Sie können auch die Kodierung als zweites Argument angeben, um binäre Konversionen von Hex oder base64 auf Binärdaten anzuwenden.
-
->[!INFO]
->
->**Beispiele:**
->
->* `toBinary( Workfront )`
->
->   Gibt Folgendes zurück: 57 6f 72 6b 66 72 6f 6e 74
->
->* `toBinary( V29ya2Zyb250 ; base64 )`
->
->   Gibt Folgendes zurück: 57 6f 72 6b 66 72 6f 6e 74
-
-## [!UICONTROL toString (Wert)]
-
-Konvertiert jeden Wert in eine Zeichenfolge.
-
-## [!UICONTROL trim (text)]
-
-Entfernt Leerzeichen am Anfang oder Ende des Textes.
-
-## [!UICONTROL upper (text)]
-
-Konvertiert alle Buchstaben einer Textzeichenfolge in Großbuchstaben.
-
->[!INFO]
->
->**Beispiel:**
->
->`upper( Hello )`
->
->Gibt Folgendes zurück: [!UICONTROL HELLO]
+>Gibt Folgendes zurück: d29ya2Zyb250===
