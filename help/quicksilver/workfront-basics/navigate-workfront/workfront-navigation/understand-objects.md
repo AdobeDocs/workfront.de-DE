@@ -6,16 +6,14 @@ description: "Die Informationen, die Sie unter [!DNL Adobe Workfront] wird durch
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
+source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2419'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] Objektübersicht
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 <!--Audited: 12/2023-->
 
@@ -211,14 +209,11 @@ Weitere Informationen zum Ausführen grundlegender und erweiterter Suchvorgänge
 
 ## Eingeschränkter Zugriff auf Objekte
 
-<span class="preview">
-Wenn ein Benutzer keinen Zugriff auf ein Objekt hat, wird ihm an einer beliebigen Stelle in Workfront der Objektname "Kein Zugriff"angezeigt.
+Wenn ein Benutzer keinen Zugriff auf ein Objekt hat, wird ihm an einer beliebigen Stelle in Workfront der Objektname &quot;Kein Zugriff&quot;angezeigt.
 
 Der Zugriff auf Objekte kann auf Zugriffsebene oder in den Berechtigungen eines bestimmten Objekts eingeschränkt werden.
 
 Dies gilt für alle Objekte und Objekte, die im [Abhängigkeit und Hierarchie von Objekten](#interdependency-and-hierarchy-of-objects) in diesem Artikel beschrieben. Dies gilt nicht für Team- und User-Objekte.
-
-</span>
 
 ## Berichte zu Objekten
 
