@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,15 @@ Weitere Informationen zu Status finden Sie unter [Status der Umgebungsförderung
 
 ## Kollisionen
 
-Kollisionen treten auf, wenn ein Objekt, das Teil des Installationspakets ist, denselben Namen wie ein Objekt hat, das bereits in der Zielumgebung vorhanden ist. In diesem Fall können Sie auswählen, wie die Kollision gelöst werden soll. Kollisionen werden auf Objektebene aufgelöst.
+Eine Kollision ist ein Objekt in der Zielumgebung einer Installation, das mit einem der in der Quellumgebung installierten Objekte übereinstimmt. Kollisionen werden erkannt, indem die Namen und IDs der Quellobjekte mit den Objekten in der Zielumgebung verglichen werden. Kollisionen werden auch erkannt, indem Quellobjekte mit Datensätzen zuvor installierter Objekte verglichen werden.
+
+Wenn eine Kollision auftritt, können Sie auswählen, wie die Kollision gelöst werden soll. Kollisionen werden auf Objektebene aufgelöst.
 
 Sie können Kollisionen anzeigen, indem Sie auf die Dropdown-Liste neben jedem Objekttyp klicken. Kollisionen werden in der Spalte Kollision angezeigt.
+
+>[!NOTE]
+>
+>Möglicherweise sind Kollisionen nicht die Objekte, die Sie in Ihrer Installation überschreiben oder verwenden möchten. Es wird empfohlen, erkannte Kollisionen zu validieren, um sicherzustellen, dass die Installationsziele korrekt sind.
 
 Um eine Kollision zu beheben, wählen Sie eine Aktion in der Spalte Aktion für Freigabe aus oder verwenden Sie die bereits angezeigte Standardaktion.
 
