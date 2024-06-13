@@ -7,9 +7,9 @@ description: Die Benutzeroberfläche von Workfront Fusion wurde für Benutzer ak
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
+source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ Workfront Fusion wurde für Benutzer aktualisiert, die nicht über die Adobe Exp
 
 >[!IMPORTANT]
 >
->Das veraltete Fusion-Erlebnis wird am 15. August 2024 eingestellt.
+>* Das veraltete Fusion-Erlebnis wird am 15. August 2024 eingestellt.
+>* Beim ersten Laden kann das neue Fusion-Erlebnis langsam geladen werden (30-60 Sekunden). Nach dem ersten Mal wird Fusion schneller geladen.
 
 ## Zugriffsanforderungen
 
