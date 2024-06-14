@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
 
 # Zuweisen von Problemen
+
+<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
@@ -130,7 +132,7 @@ Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes
      <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
      <span class="preview">![Zuweisungssuche](assets/smart-assignments-issue-header.png)</span>
 
-   * (Bedingt) Klicken Sie auf einen der Namen im **Vorgeschlagene Zuweisungen** Liste
+   * (Bedingt) Klicken Sie auf einen der Namen, Rollen oder Teams in den verfügbaren Listen.
    * Klicks **Zuweisen** , um es sich selbst zuzuweisen
    * Klicks **Erweitert**.
 
@@ -143,6 +145,10 @@ Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes
      >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
      >
      >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >
+
+     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
 1. Klicks **Speichern** , um die Zuweisung des Problems abzuschließen.

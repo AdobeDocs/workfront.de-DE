@@ -7,14 +7,16 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Smart-Zuweisungen
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
@@ -122,7 +124,7 @@ Bei der Berechnung des Ähnlichkeitswerts und der Reihenfolge, in der die Zuweis
 
   Wenn Rick beispielsweise zu einem früheren Zeitpunkt einer ähnlichen Aufgabe zugewiesen wurde und Jennifer vor zwei Tagen einer ähnlichen Aufgabe zugewiesen wurde, wird Rick zuerst angezeigt.
 
-* Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt    **Vorgeschlagene Zuweisungen**  im Aufgabenfeld &quot;Zuweisungen&quot;.
+* Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt    **Vorgeschlagene Zuweisungen**  im Feld &quot;Zuweisungen&quot;für Aufgaben.
 
 * Wenn bei dieser Berechnung keine Übereinstimmung vorliegt, beginnt die zweite Phase der intelligenten Zuweisungen, die anhand eines anderen Algorithmus berechnet wird.
 
@@ -132,7 +134,7 @@ Wenn im ersten Schritt von Aufgaben-Smart-Zuweisungen keine Übereinstimmungen g
 
 Weitere Informationen finden Sie im Abschnitt . [Kriterien für intelligente Zuweisungen für Aufgaben und Probleme](#smart-assignments-criteria-for-tasks-and-issues) in diesem Artikel.
 
-Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt   **Sonstige Zuweisungen**, **Benutzer und Teams** oder **Aufgabenrollenzuweisungen**  Abschnitte des Felds Zuweisungen für Aufgaben.
+Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt **Benutzer und Teams**, **Aufgabenrollenzuweisungen**, und **Kartenrollen festlegen**  -Abschnitte des Felds Zuweisungen . Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Kriterien für intelligente Zuweisungen für Aufgaben und Probleme
 

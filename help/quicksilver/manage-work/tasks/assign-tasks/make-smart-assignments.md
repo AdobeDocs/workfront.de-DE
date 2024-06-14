@@ -6,14 +6,16 @@ description: Sie können Smart-Zuweisungen verwenden, um zu ermitteln, wer der b
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # Smart-Zuweisungen vornehmen
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
@@ -25,7 +27,7 @@ Sie können Smart-Zuweisungen verwenden, um zu ermitteln, wer der beste Benutzer
 
 Smart-Zuweisungen sind Vorschläge für Benutzer, Rollen oder Teams, die Ihnen Adobe Workfront präsentiert, wenn Sie Ressourcen Arbeitselemente zuweisen. Workfront basiert seine Vorschläge auf einem Algorithmus, der die am besten geeignete Ressource für den Auftrag bestimmt.
 
-<span class="preview">In Workfront gibt es zwei separate Algorithmen für Aufgaben und Probleme. </span>
+<span class="preview">Es gibt zwei separate Algorithmen in Workfront, die Smart-Zuweisungen berechnen, die für Aufgaben und Probleme unterschiedlich funktionieren. </span>
 
 Weitere Informationen zu den Kriterien für die Bestimmung von Smart-Zuweisungen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -73,20 +75,20 @@ Smart-Zuweisungen sind an den meisten Stellen verfügbar, an denen Sie Zuweisung
    * Das Feld Zuweisungen für ein Element, das im Startbereich aufgeführt ist
    * Eine Aufgabe oder ein Problem im Arbeitslastausgleich
 
-1. Platzieren Sie den Cursor in das Zuweisungsfeld und warten Sie zwei Sekunden.
+1. Platzieren Sie den Cursor im Feld Zuweisungen und warten Sie zwei Sekunden.
 
    <div class="preview">
    Ein oder mehrere der folgenden Abschnitte mit Vorschlägen für die intelligente Zuweisung werden angezeigt:
 
-   * **Vorgeschlagene Zuweisungen**: Wird für Aufgaben angezeigt.
+   * **Vorgeschlagene Zuweisungen**: Wird für Aufgaben angezeigt. <!--remove the note when we go to production with smarter assignments-->
 
      >[!TIP]
      >
      >   Die Listenüberschrift wird angezeigt **Im Folgenden finden Sie einige Empfehlungen** anstelle von **Vorgeschlagene Zuweisungen** in der Produktionsumgebung.
      >
-   * **Sonstige Zuweisungen**: Wird für Aufgaben und Probleme angezeigt.
    * **Benutzer und Teams**: Wird für Aufgaben und Probleme angezeigt.
    * **Vorgangsrollen**: Zeigt Aufgaben und Probleme an.
+   * **Auftragsrollen auf Ratenkarten**: Wird für Aufgaben angezeigt. Weitere Informationen finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
    </div>
 
    <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
@@ -95,7 +97,7 @@ Smart-Zuweisungen sind an den meisten Stellen verfügbar, an denen Sie Zuweisung
    Bei Aufgaben werden die Smart-Zuweisungen in den folgenden Abschnitten angezeigt, je nachdem, in welcher Phase der Algorithmusberechnung die Zuweisungen identifiziert wurden:
 
    * **Vorgeschlagene Zuweisungen**: Zuweisungen, die in der ersten Phase der Algorithmusberechnung der intelligenten Aufgabenzuweisung identifiziert wurden. <span class="preview">Dieser Abschnitt ist nicht für Probleme verfügbar.</span>
-   * <span class="preview">**Sonstige Zuweisungen**, **Benutzer und Teams** oder **Vorgangsrollen**: Zuweisungen, die in der zweiten Phase der Algorithmusberechnung der intelligenten Aufgabenzuweisung identifiziert werden. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Benutzer und Teams**, **Vorgangsrollen** oder **Auftragsrollen auf Ratenkarten**: Zuweisungen, die in der zweiten Phase der Algorithmusberechnung der intelligenten Aufgabenzuweisung identifiziert werden. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 

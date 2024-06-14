@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 50e52f27f1f3f6f5b601b50303aba409559d8ca8
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2070'
 ht-degree: 1%
 
 ---
 
 # Aufgaben zuweisen
+
+<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
@@ -51,6 +53,8 @@ Zusätzlich zu diesem Artikel empfehlen wir, die folgenden Artikel zu lesen, um 
 * [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <!--drafted for P&P - replace table below with this:
 
@@ -112,6 +116,8 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </table>
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Überlegungen zur Mehrfachzuweisung von Stellenrollen, Teams und Benutzern
 
@@ -191,10 +197,12 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">Beim Hinzufügen einer Auftrags-Rollenzuweisung können Sie nach der Auftragsrolle oder dem Ort suchen. Wählen Sie die System-/Standardauftragsrolle aus, um die standardmäßige Abrechnungsrate für die Zuweisung zu verwenden, oder wählen Sie eine Ratenkarten-Auftragsrolle aus, um die Abrechnungsrate aus der Ratenkarte zu verwenden. Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Beim Hinzufügen einer Auftrags-Rollenzuweisung können Sie nach der Auftragsrolle oder dem Ort suchen. Wählen Sie in der Liste Auftragsrollen eine Rolle aus, um die standardmäßige Abrechnungsrate für die Zuweisung zu verwenden, oder wählen Sie eine Auftragsrolle für die Ratenkarte aus, um die Abrechnungsrate aus der Ratenkarte zu verwenden. Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Bedingt) Klicken Sie auf einen der Namen im **Vorgeschlagene Zuweisungen** Liste, wenn diese Liste angezeigt wird. Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Bedingt) Klicken Sie auf einen der Namen im <span class="preview">**Vorgeschlagene Zuweisungen**, **Benutzer und Teams** oder **Vorgangsrollen** oder **Kartenrollen festlegen**</span> wird angezeigt, wenn sie angezeigt werden. Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+     Sie können mit der Eingabe des Namens jedes Benutzers, Teams oder Auftrags beginnen, der der Aufgabe zuzuweisen, und diese dann auswählen, wenn sie in der Liste angezeigt wird.
 
    * Klicks **Erweitert**
 

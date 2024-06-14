@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2268'
 ht-degree: 0%
 
 ---
@@ -212,6 +212,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * **Beschreibung**: Zusätzliche Informationen zum verbundenen Datensatzfeld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Mehrere Datensätze zulassen**: Wählen Sie diese Option, um anzugeben, dass Benutzer mehrere Datensätze hinzufügen können, wenn das Feld des verknüpften Datensatztyps in den Originaldatensätzen angezeigt wird. Diese Option ist standardmäßig aktiviert.
    * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie verknüpft sind. Durch die Verknüpfung werden Informationen aus dem Datensatz oder Objekt angezeigt, mit dem Sie in dem Datensatz verknüpfen, den Sie möchten. Diese Option ist standardmäßig aktiviert.
+
+     >[!TIP]
+     >
+     > Sie können die folgenden Feldtypen nicht als Suchfelder hinzufügen:
+     >
+     >    * Personen
+     >    * Erstellt von
+     >    * Zuletzt geändert von
+     >    * Workfront typeahead-Felder
 
 1. (Bedingt und optional) Wenn Sie die Verbindung eines Workfront-Objekts ausgewählt haben, wählen Sie eine **Benutzerdefiniertes Formular** aus dem **Nur Objekte verknüpfen, die diesen Kriterien entsprechen** Abschnitt. Nur Objekte, an die die ausgewählten benutzerdefinierten Formulare angehängt sind, können mit dem ausgewählten Datensatztyp verknüpft werden. Sie können mehrere Formulare auswählen.
 
