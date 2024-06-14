@@ -6,9 +6,9 @@ description: Sie können in Adobe Workfront in mehreren Bereichen Dokumente zu P
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
+source-git-commit: 187e33c088177affd246aaf90cea33d6201e7a1b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Es gibt keine Einschränkungen hinsichtlich der Dateitypen und -größen, die Si
 Informationen zum Hochladen neuer Dokumentversionen in Workfront finden Sie unter [Eine neue Version eines Dokuments hochladen](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -50,15 +52,19 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Hinzufügen von Dokumenten zu Workfront
 
 Sie können Workfront über das Dateisystem auf Ihrer Workstation neue Dokumente hinzufügen. Sie können auch Dokumente aus Drittanbieteranwendungen wie Google Drive und SharePoint verknüpfen.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Zwar gibt es keine Größenbeschränkung für Dokumenten-Uploads, doch sind Dokumentdownloads auf 4 GB beschränkt.
+>* Sie können bis zu 150 Dokumente gleichzeitig hochladen.
+>* Die Dateigröße ist nicht beschränkt.
+>* Dokumentdownloads sind auf 4 GB beschränkt.
 
 Hinzufügen eines Dokuments:
 
