@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 742de02474455f3518fb9d3422fe38dde59a076e
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version vom dritten Quartal 2024 enthalten sind. Diese Verbesserungen sollen während des gesamten Quartals in der Produktionsumgebung verfügbar sein.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+Das Webinar zur Version 24.7 wird am 27. Juni 2024 veröffentlicht. Sie können [Melden Sie sich hier für das Webinar an](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
 
 <span class="preview">Funktionen außerhalb des Kreislaufs (Funktionen, die vor dem Veröffentlichungsdatum des dritten Quartals 2024 für die Produktion freigegeben wurden) sind gelb hervorgehoben.</span>
 
@@ -59,6 +59,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Verschieben von Objekten zwischen Workfront-Umgebungen mit Umgebungsförderung</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Mit der Umgebungsförderung können Sie Objekte von einer Workfront-Umgebung in eine andere verschieben, z. B. von einer Sandbox-Umgebung in eine Produktionsumgebung. Sie können Objekte so konfigurieren und testen, dass die Daten und Datensätze Ihrer Organisation nicht gefährdet werden. Sie können diese Objekte dann in die Produktion verschieben, ohne sie neu konfigurieren zu müssen, was Zeit und Mühe spart.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -72,7 +73,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Benutzerdefinierte Formulare und benutzerdefinierte Felder im benutzerdefinierten Formularentwickler freigeben</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In Production ]{type=Informative}
                         <p>Sie können jetzt sowohl benutzerdefinierte Formulare als auch benutzerdefinierte Felder im neuen Formularentwickler freigeben. Dies ermöglicht eine bessere Zusammenarbeit zwischen Benutzern bei benutzerdefinierten Formularen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -81,7 +82,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 6. Juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktionsversion für alle Kunden: TBD</p>
+                                <p><span class="preview">Produktionsversion für alle Kunden: 13. Juni</span></p>
                             </li>
                         </ul>
                     </td>
@@ -89,7 +90,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Neues benutzerdefiniertes Feld aus dem Bereich "Felder"hinzufügen</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>Sie können jetzt ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zum Erstellen des Felds zu öffnen. Auf diese Weise können Sie schnell wiederverwendbare benutzerdefinierte Felder erstellen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -142,7 +142,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Abrechenbare und nicht abrechnungsfähige Ausgabenfelder für Projekte und Aufgaben</a></p>
-                        <p>[!BADGE In Production ]{type=Informative}</p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Damit Sie die Ausgabetypen leichter erkennen können, wurden die Ausgaben in abrechenbare und nicht abrechnungsfähige Ausgaben für Projekte und Aufgaben unterteilt. Die folgenden Felder stehen Ihnen zum Hinzufügen zu Ansichten und Berichten zur Verfügung:</p>
                         <ul>
                             <li><p>Geplante abrechenbare Ausgabenkosten</p></li>
@@ -184,7 +184,8 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Bearbeiten Sie die Aufgabe und geben Sie das Datum und die Bedingung für die Übermittlung aus der Kopfzeile oder dem Detailabschnitt aus.</a></p>
-                        <p>Um die Aktualisierung von Aufgaben und Problemen zu vereinfachen, haben wir jetzt die Felder "Datum und Bedingung für die Übermittlung"als Optionen hinzugefügt, die in einer Layout-Vorlage zum Abschnitt "Aufgaben- und Problemkopfzeilen und Details"hinzugefügt werden können. Benutzer können diese Felder jetzt über die Kopfzeile oder den Detailabschnitt einer Seite aktualisieren, wenn sie der geänderten Layoutvorlage zugewiesen sind.   </p>
+                        [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
+                        <p>Um die Aktualisierung von Aufgaben und Problemen zu vereinfachen, haben wir jetzt die Felder "Datum und Bedingung für die Übermittlung"als Optionen hinzugefügt, die in einer Layout-Vorlage zum Abschnitt "Aufgaben- und Problemkopfzeilen und Details"hinzugefügt werden können. Benutzer können diese Felder jetzt über die Kopfzeile oder den Detailabschnitt einer Seite aktualisieren, wenn sie der geänderten Layoutvorlage zugewiesen sind.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -262,7 +263,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Die Auszeit wird jetzt im Lastenausgleich angezeigt.</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>Um die Arbeit nahtlos anzupassen, wenn der primäre Verantwortliche für eine Aufgabe eine geplante Zeitüberschreitung aufweist, weist der Arbeitslastausgleich jetzt sowohl den primären als auch den sekundären Benutzern Stunden zu, wenn die Projekt-Timeline neu berechnet wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -298,7 +298,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience ist jetzt für mehr Workfront-Organisationen verfügbar</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>Um Unternehmen den Zugriff auf die Vorteile des Adobe Unified Experience zu ermöglichen, haben wir begonnen, es bestehenden Workfront-Kunden zur Verfügung zu stellen. </p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -316,7 +315,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Schaltfläche "Hilfe"aus der Hauptnavigationsleiste entfernt</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>Um das Erlebnis für Benutzer zu vereinheitlichen, die nicht Unified Shell verwenden, wurde die Schaltfläche Hilfe in der Hauptnavigationsleiste entfernt. Diese Schaltfläche, die nicht für Unified Shell-Benutzer vorhanden ist und mit der Workfront-Dokumentation verknüpft ist, war redundant und mit einer ähnlichen Schaltfläche für alle Benutzer im Hauptmenü verfügbar.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -333,7 +331,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserte Benutzeroberfläche für Benutzer mit eingeschränktem Objektzugriff</a></p>
-                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
+                        [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
                         <p>Wenn ein Benutzer keinen Zugriff auf ein Objekt hat, wird ihm überall dort "Kein Zugriff"angezeigt, wo der Objektname in Workfront angezeigt wird. Dieses verbesserte Erlebnis gilt auch für die Workfront-API.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>

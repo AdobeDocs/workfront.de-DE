@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,20 @@ Mit der Umgebungsförderung können Sie Objekte von einer Workfront-Umgebung in 
 
 Zuvor mussten Objekte in Produktionsumgebungen separat von Sandbox- oder Vorschauumgebungen konfiguriert werden.
 
-Weitere Informationen und Anweisungen zur Umgebungsförderung sind verfügbar, wenn die Umgebungswerbung mit Version 24.6 live geschaltet wird.
+Weitere Informationen zur Umgebungsförderung finden Sie unter [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungsförderung)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
+>[!IMPORTANT]
+>
+>Die Förderung der Umwelt steht nur Organisationen zur Verfügung, die die neuen Pläne von Prime oder Ultimate verfolgen.
+>
 
 ## Benutzerdefinierte Formulare und benutzerdefinierte Felder im benutzerdefinierten Formularentwickler freigeben
 
 >[!NOTE]
 >
->Vorschau-Version: 6. Juni 2024; Produktionsversion für alle Kunden: TBD
+>Vorschau-Version: 6. Juni 2024; Produktionsversion für alle Kunden: 13. Juni
 
 Sie können jetzt sowohl benutzerdefinierte Formulare als auch benutzerdefinierte Felder im neuen Formularentwickler freigeben. Dies ermöglicht eine bessere Zusammenarbeit zwischen Benutzern bei benutzerdefinierten Formularen.
 
