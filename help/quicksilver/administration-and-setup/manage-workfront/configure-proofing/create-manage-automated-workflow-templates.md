@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,9 @@ Informationen zu automatisierten Workflows finden Sie unter [Übersicht über de
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,6 +60,8 @@ Sie müssen über Folgendes verfügen:
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Erstellen einer Automated Workflow-Vorlage
 
 {{step1-to-proofing}}
@@ -77,7 +81,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Vorlageninhaber</td> 
-      <td>Sie können den Workfront-Administrator oder den Workfront Proof-Administrator auswählen, der die Vorlage verwaltet.</td> 
+      <td>Sie können den Workfront-Administrator oder Workfront Proof-Administrator auswählen, der die Vorlage verwaltet.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vorlagengruppe</td> 
@@ -131,7 +135,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Nur eine Entscheidung erforderlich</td> 
-      <td>Der Überprüfungsprozess für die Phase wird abgeschlossen, sobald einer der Entscheidungsträger seine Entscheidung vorlegt. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Konfigurieren von Testeinstellungen in Workfront Testversand</a>.</td> 
+      <td>Der Überprüfungsprozess für die Phase wird abgeschlossen, sobald einer der Entscheidungsträger seine Entscheidung vorlegt. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Konfigurieren der Testversandeinstellungen in Workfront Proof</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Private Bühne</td> 
@@ -148,7 +152,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Wählen Sie die **Rolle** für die Testsendungen, die diese Vorlage verwenden, und die **E-Mail-Warnungen** Sie möchten, dass der Benutzer beim Arbeiten an Testsendungen, die diese Vorlage verwenden, erhält.
 
-   Informationen zu den Rollen bei einem Testversand finden Sie unter [Konfigurieren von standardmäßigen Testrollen](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Informationen zu Testversand-E-Mail-Warnungen finden Sie im Abschnitt [Konfigurieren der Standardwerte für den Testversand eines Benutzers](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) im Artikel  [E-Mail-Benachrichtigungseinstellungen in Workfront Testversand konfigurieren](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   Informationen zu den Rollen bei einem Testversand finden Sie unter [Konfigurieren von standardmäßigen Testrollen](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Informationen zu Testversand-E-Mail-Warnungen finden Sie im Abschnitt [Konfigurieren der Standardwerte für den Testversand eines Benutzers](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) im Artikel  [E-Mail-Benachrichtigungseinstellungen in Workfront Proof konfigurieren](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
    Jeder Benutzer kann nur einer Phase hinzugefügt werden. Sie können so viele Benutzer hinzufügen, wie Sie für eine Bühne benötigen.
 
@@ -170,7 +174,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Ändern einer Automated Workflow-Vorlage
 
-Als Workfront-Testadministrator können Sie eine Vorlage für automatisierte Workflows ändern. Ihre Änderungen werden automatisch gespeichert, wenn Sie sie vornehmen.
+Als Workfront Proof-Administrator können Sie eine Vorlage für den automatisierten Workflow ändern. Ihre Änderungen werden automatisch gespeichert, wenn Sie sie vornehmen.
 
 {{step1-to-proofing}}
 
@@ -188,7 +192,7 @@ Als Workfront-Testadministrator können Sie eine Vorlage für automatisierte Wor
      </tr> 
      <tr> 
       <td role="rowheader">Vorlageninhaber</td> 
-      <td>Sie können den Workfront-Administrator oder den Workfront Proof-Administrator auswählen, der die Vorlage verwaltet.</td> 
+      <td>Sie können den Workfront-Administrator oder Workfront Proof-Administrator auswählen, der die Vorlage verwaltet.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vorlagengruppe</td> 
@@ -229,7 +233,7 @@ Als Workfront-Testadministrator können Sie eine Vorlage für automatisierte Wor
      </tr> 
      <tr> 
       <td role="rowheader">Entscheidung</td> 
-      <td>Beendet die Phase, wenn ein Entscheidungsträger seine Entscheidung zum ersten Mal vorlegt. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Konfigurieren von Testeinstellungen in Workfront Testversand</a>.</td> 
+      <td>Beendet die Phase, wenn ein Entscheidungsträger seine Entscheidung zum ersten Mal vorlegt. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Konfigurieren der Testversandeinstellungen in Workfront Proof</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Datenschutz</td> 
@@ -241,7 +245,7 @@ Als Workfront-Testadministrator können Sie eine Vorlage für automatisierte Wor
      </tr> 
      <tr> 
       <td role="rowheader">Mehr <img src="assets/more-icon.png"></td> 
-      <td>Fügen Sie Überprüfer zur Bühne hinzu oder löschen Sie die Bühne.<p>Wenn jeder Ihrer Testsendungen an dieselben Personen in einer bestimmten Phase gesendet wird, können Sie hier seinen Namen angeben, damit Sie ihn nicht jedes Mal hinzufügen müssen, wenn Sie einen Testversand erstellen. Geben Sie den Namen eines Benutzers ein, den Sie der Bühne hinzufügen möchten, und fügen Sie dann dessen <strong>Rolle</strong> auf den Nachweis und <strong>E-Mail-Warnungen</strong> -Einstellungen, die Sie für den Benutzer wünschen. Informationen zu Testing-Rollen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Konfigurieren von standardmäßigen Testrollen</a>. Informationen zu Testversand-E-Mail-Warnungen finden Sie im Abschnitt <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Konfigurieren der Standardwerte für den Testversand eines Benutzers</a> im Artikel <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">E-Mail-Benachrichtigungseinstellungen in Workfront Testversand konfigurieren</a>.</p><p>Sie können so viele Benutzer hinzufügen, wie Sie möchten</p><p>Tipp: Sie können Überprüfernamen per Drag-and-Drop zwischen Bühnen in das Bühnen-Diagramm ziehen. Die verfügbaren Bühnen sind blau hervorgehoben.</p></td> 
+      <td>Fügen Sie Überprüfer zur Bühne hinzu oder löschen Sie die Bühne.<p>Wenn jeder Ihrer Testsendungen an dieselben Personen in einer bestimmten Phase gesendet wird, können Sie hier seinen Namen angeben, damit Sie ihn nicht jedes Mal hinzufügen müssen, wenn Sie einen Testversand erstellen. Geben Sie den Namen eines Benutzers ein, den Sie der Bühne hinzufügen möchten, und fügen Sie dann dessen <strong>Rolle</strong> auf den Nachweis und <strong>E-Mail-Warnungen</strong> -Einstellungen, die Sie für den Benutzer wünschen. Informationen zu Testing-Rollen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Konfigurieren von standardmäßigen Testrollen</a>. Informationen zu Testversand-E-Mail-Warnungen finden Sie im Abschnitt <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Konfigurieren der Standardwerte für den Testversand eines Benutzers</a> im Artikel <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">E-Mail-Benachrichtigungseinstellungen in Workfront Proof konfigurieren</a>.</p><p>Sie können so viele Benutzer hinzufügen, wie Sie möchten</p><p>Tipp: Sie können Überprüfernamen per Drag-and-Drop zwischen Bühnen in das Bühnen-Diagramm ziehen. Die verfügbaren Bühnen sind blau hervorgehoben.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -272,7 +276,7 @@ Sie können die Vorlagen durch Ziehen und Ablegen zwischen Gruppen verschieben.
 
 {{step1-to-proofing}}
 
-1. Klicken Sie im linken Bereich des Workfront-Testversands auf **Workflows**.
+1. Klicken Sie im linken Bereich in Workfront Proof auf **Workflows**.
 1. Im **Workflows** -Seite angezeigt wird, führen Sie einen der folgenden Schritte aus:
 
    * Neue Vorlage hinzufügen

@@ -6,9 +6,9 @@ description: Sie können Zugriff auf die Informationen gewähren, die Ihr Untern
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1828'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Informationen zum Erstellen eines Berichts durch Kopieren finden Sie unter [Beri
 Weitere Informationen zum Erstellen und Verwalten von Berichten, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt &quot;Lernen&quot;auf der Adobe Experience League-Site.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -57,6 +59,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Bericht erstellen {#create-a-report}
 
@@ -166,7 +170,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Benutzerdefinierte Spaltenbeschriftung</td> 
+      <td role="rowheader">Benutzerdefiniertes Spalten-Label</td> 
       <td> <p>Geben Sie eine benutzerdefinierte Bezeichnung für die Spalte an. Diese Bezeichnung ersetzt die Standardbeschriftung.</p> </td> 
      </tr> 
      <tr> 

@@ -6,9 +6,9 @@ description: Aufgaben und Probleme können einem agilen Team zugewiesen und dem 
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Aufgaben oder Probleme können dem Team von überall in zugewiesen (und anschlie
 >Wenn Sie einem Rückholelement mehrere Teams hinzufügen, wird die Aufgabe bzw. das Problem nur im Rückstand des Hauptteams angezeigt. Das Hauptteam ist das zuerst zugewiesene Team.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -56,6 +58,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erstellen und Verwalten von Storys im Backlog
 
@@ -182,7 +186,7 @@ So weisen Sie einem agilen Team eine Aufgabe oder ein Problem zu:
 1. (Optional) Löschen Sie alle vorhandenen Bevollmächtigten.
 1. Klicks **[!UICONTROL Bevollmächtigten hinzufügen]**.
 1. Beginnen Sie mit der Eingabe des Namens des agilen Teams, das Sie der Aufgabe oder dem Problem zuweisen möchten, und klicken Sie dann auf den Teamnamen, wenn er in der Dropdown-Liste angezeigt wird.
-1. Klicks **[!UICONTROL Änderungen speichern]**.\
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.\
    Die Aufgabe oder das Problem ist jetzt im Team-Backlog verfügbar.
 
 ## Verschieben von Meldungen in den oder aus dem Rückstand

@@ -7,9 +7,9 @@ description: Lag ist die Zeit, die nach dem Abschluss eines erzwungenen Vorgäng
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Lag ist die Zeit, die nach dem geplanten Abschluss eines Vorgängers verstreiche
 Die geplanten, geplanten und geschätzten Daten der Nachfolgeaufgaben werden unter Berücksichtigung der Zeitverzögerung und der geplanten, geplanten und geschätzten Startdaten (Ende) der Voraufgaben berechnet.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <!--drafted - replace table at P&P:
 
@@ -82,6 +84,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Anzeigen von Lag- und Lag-Typen für Aufgaben
 

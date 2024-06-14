@@ -7,9 +7,9 @@ description: Sie können die Breite von Spalten vorübergehend ändern, indem Si
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 261c1b73d785094de4ee8549c856a091920ba04a
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Sie können die Breite von Spalten vorübergehend ändern, indem Sie die Ränder
 Um die Breite einer beliebigen Spalte einer Ansicht dauerhaft zu ändern, müssen Sie den Textmodus in der Spalte verwenden, während Sie die Ansicht bearbeiten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -50,6 +52,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Dauerhaftes Bearbeiten der Spaltenbreite
 

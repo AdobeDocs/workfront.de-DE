@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 5%
+source-wordcount: '1379'
+ht-degree: 1%
 
 ---
 
@@ -30,13 +30,15 @@ Die folgenden Abschnitte auf der Seite &quot;Timesheet- und Stundeneinstellungen
 
 * Gelöschte Projekte, Aufgaben und Probleme
 
-Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde freischaltet, finden Sie im Abschnitt [Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde freischaltet, finden Sie im Abschnitt . [Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 >[!TIP]
 >
 >Eine Konfiguration auf Gruppenebene ist auch für Projektvoreinstellungen sowie für Aufgaben- und Problemvoreinstellungen möglich. Weitere Informationen finden Sie unter [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) und [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -46,7 +48,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -57,7 +59,9 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
 
-## Voreinstellungen für Gruppenzeiträume
++++
+
+## Voreinstellungen für Gruppenzeitpläne und -zeiten
 
 Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zeitblatts oder einer Stundenvoreinstellung für eine Gruppe:
 
@@ -65,7 +69,7 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
 * In der Regel bleibt eine entsperrte Voreinstellung auf unbestimmte Zeit entsperrt. Wenn der Workfront-Administrator sie erneut sperrt, wird die Systemeinstellung erneut wirksam und die Einstellungen für die von den Gruppenadministratoren vorgenommene Voreinstellung gehen verloren.
 * Ein Timesheet übernimmt die für die Startseite des Timesheet-Eigentümers konfigurierten Voreinstellungen für das Zeitblatt und die Stunde.
 
-   <!--
+  <!--
   Add example here?
   -->
 
@@ -95,7 +99,7 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Zeit für zukünftige Termine protokollieren</td> 
+      <td role="rowheader">Protokollzeit für zukünftige Daten</td> 
       <td> <p>Ermöglicht Benutzern, die Zeit für zukünftige Daten im gesamten System zu protokollieren in:</p> 
        <ul> 
        <li>Alle Projekte, Aufgaben und Probleme, auf die sie Zugriff auf die Protokollzeit haben, unabhängig von der Gruppe des Projekts</li> 
@@ -105,13 +109,13 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
        <p><b>NOTE</b>: Sie können Benutzer nicht daran hindern, die Zeit für Aufgaben oder Probleme zu protokollieren, die geschlossen oder abgebrochen werden. Sie können Benutzer nur daran hindern, die Zeit für komplette oder tote Projekte zu protokollieren. Es wird empfohlen, Filter in Listen mit Aufgaben und Problemen zu verwenden, um auszuschließen, dass abgeschlossene oder abgebrochene Aufgaben für Benutzer nicht sichtbar sind.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Kosten aus einer Arbeitszeittabelle hinzufügen</td> 
-      <td> <p>Ermöglicht Benutzern die Aufzeichnung von Zeit und Ausgaben im Zeitblatt.</p> 
+      <td role="rowheader">Aufwendungen aus einem Zeitblatt hinzufügen</td> 
+      <td> <p>Ermöglicht Benutzern, sowohl Zeit als auch Ausgaben im Timesheet aufzuzeichnen.</p> 
       <p>Wenn diese Voreinstellung für eine Gruppe aktiviert ist und die Gruppe als Startseite für bestimmte Benutzer festgelegt ist, wird neben den Projekten und Aufgaben in den Timesheets dieser Benutzer ein Ausgabensymbol angezeigt. Benutzer können auf dieses Symbol klicken, um Ausgaben für das Projekt oder die Aufgabe hinzuzufügen oder zu bearbeiten.</p>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Aufgabenbiete Stundeneinträgen manuell zuweisen</td> 
+      <td role="rowheader">Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen</td> 
       <td> <p>Benutzern die manuelle Auswahl von Aufgaben ermöglichen, die in ihrem Benutzerprofil zugewiesen oder dem Objekt zugewiesen sind.</p> <p><b>WICHTIG</b>:  
         <ul> 
          <li>Wenn Sie diese Einstellung deaktivieren, nachdem Sie Stundeneinträgen Auftragsrollen zugewiesen haben, müssen die Benutzer die Stunden anpassen, die auf der Registerkarte Stunden des Projekts, der Aufgabe oder des Problems unter verschiedenen Rollen protokolliert wurden.</li> 
@@ -119,7 +123,7 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Bearbeitung von Stundenzetteln auf Eigentümer und Administratoren beschränken</td> 
+      <td role="rowheader">Beschränken der Bearbeitung von Zeitblättern auf Eigentümer und Administratoren</td> 
       <td> <p>Beschränken Sie die Bearbeitung auf die Inhaber von Zeitblättern, unabhängig von der Gruppe des Projekts und den Workfront-Administratoren. Wenn diese Option deaktiviert ist, können Timesheets auch wie folgt bearbeitet werden:</p> 
        <ul> 
         <li> <p>Benutzer mit administrativem Zugriff auf Timesheets und Stunden in ihrer Zugriffsebene</p> </li> 
@@ -129,7 +133,7 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Beschränkung der Stundenbearbeitung auf Inhaber und Administratoren</td> 
-      <td>Beschränken Sie die Bearbeitung auf den Benutzer, der die Stunden eingibt, und auf Workfront-Administratoren. Diese Einstellung gilt für die Registerkarte Stunden in einem Projekt oder in einem Stundenbericht.</td> 
+      <td>Beschränken Sie die Bearbeitung auf Benutzer, die die Stunden eingeben, und Workfront-Administratoren. Diese Einstellung gilt für die Registerkarte Stunden in einem Projekt oder in einem Stundenbericht.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -141,15 +145,15 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
     <col>
     <tbody>
      <tr>
-      <td role="rowheader">Zeit direkt in Projekten protokollieren</td> 
+      <td role="rowheader">Direkte Protokollzeit für Projekte</td> 
       <td>Ermöglicht Benutzern die Protokollzeit für das Projekt (sowohl auf der Registerkarte Updates als auch im Timesheet). Wenn Sie die Aufnahmezeit Ihrer Benutzer auf Projektebene beschränken möchten, lassen Sie diese Option deaktiviert.</td>
      </tr>
      <tr>
-      <td role="rowheader">Zeit für abgeschlossene Projekte protokollieren</td>
+      <td role="rowheader">Protokollzeit für abgeschlossene Projekte</td>
       <td>Ermöglicht Benutzern das Aufzeichnen der Zeit für ein Projekt, das als abgeschlossen gekennzeichnet wurde. Wenn diese Option deaktiviert ist, können Benutzer die Zeit für die Arbeit, die sie an Projekten abgeschlossen haben, nicht im Status Fertig stellen aufzeichnen.</td>
      </tr>
      <tr>
-      <td role="rowheader">Zeit für eingestellte Projekte protokollieren</td> 
+      <td role="rowheader">Protokollzeit für Projekte, die tot sind</td> 
       <td>Wenn diese Option aktiviert ist, können Benutzer Stunden für Projekte mit dem Status "Dead"protokollieren.</td>
      </tr>
     </tbody>
@@ -174,7 +178,7 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
       <td>Wenn normalerweise mehrere Ressourcen einer einzelnen Aufgabe zugewiesen sind, empfehlen wir diese Einstellung. Das bedeutet, dass die anderen Ressourcen, die der Aufgabe zugewiesen sind, die Aufgabe bzw. das Problem in ihrem Timesheet finden können, um ihre Stunden aufzuzeichnen, wenn eine Ressource die Zeit für die Aufgabe aufzeichnet und sie als abgeschlossen kennzeichnet.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Aufgaben &amp; Problemen, die über geplante Termine innerhalb des Datumsbereichs der Arbeitszeittabelle verfügen</td> 
+      <td role="rowheader">Aufgaben und Probleme, bei denen im Datumsbereich des Zeitplans Daten geplant sind</td> 
       <td> <p>Wenn diese Option aktiviert ist, enthält das Timesheet Aufgaben und Probleme mit einem geplanten Startdatum oder einem geplanten Abschlussdatum, das in den Datumsbereich des Zeitblatts fällt.</p> </td> 
      </tr> 
      <tr> 

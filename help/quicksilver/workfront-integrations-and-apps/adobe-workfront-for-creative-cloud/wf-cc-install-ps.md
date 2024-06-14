@@ -6,9 +6,9 @@ description: Sie können das Adobe Workfront für Photoshop-Plug-in über den Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 316c85d4809f6833441f63578038624a7ebfcb39
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ Sie können die [!DNL Adobe Workfront for Photoshop] Plug-in aus dem [!DNL Adobe
 * Koreanisch
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -51,7 +53,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+
++++
 
 ## Voraussetzungen
 

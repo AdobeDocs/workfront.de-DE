@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 5%
+source-wordcount: '1956'
+ht-degree: 6%
 
 ---
 
@@ -30,6 +30,8 @@ Wenn Sie eine [!UICONTROL OAuth2] -Anwendung verwenden, generieren Sie eine Clie
 * Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit PKCE finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des PKCE-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -55,6 +57,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+
++++
 
 ## OAuth2-Übersicht
 
@@ -130,7 +134,7 @@ Wählen Sie beim Erstellen einer OAuth2-Anwendung den Anwendungstyp aus, der den
 Die **Neue OAuth2-Anwendung** angezeigt.
 1. Im **Neue OAuth2-Anwendung** auswählen **[!UICONTROL Maschinelle Anwendung]**.
 1. Geben Sie einen Namen für die neue Anwendung ein, beispielsweise &quot;[!DNL Workfront] für ClientApp.&quot;
-1. Klicks **[!UICONTROL Erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 1. Füllen Sie die Felder für die neue App aus.
 
    <table style="table-layout:auto"> 
@@ -182,7 +186,7 @@ Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranm
    Die **Neue OAuth2-Anwendung** angezeigt.
 1. Im **Neue OAuth2-Anwendung** auswählen **[!UICONTROL Webanwendung]**.
 1. Geben Sie einen Namen für die neue OAuth2-Anwendung ein, beispielsweise &quot;[!DNL Workfront] für ClientApp.&quot;
-1. Klicks **[!UICONTROL Erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 1. Füllen Sie die Felder für die neue App aus.
 
    <table style="table-layout:auto"> 
@@ -250,7 +254,7 @@ Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranm
    Die **Neue OAuth2-Anwendung** angezeigt.
 1. Im **Neue OAuth2-Anwendung** auswählen **[!UICONTROL Einzelseiten-Webanwendung]**.
 1. Geben Sie einen Namen für die neue [!UICONTROL OAuth2] -Anwendung, z. B. &quot;[!DNL Workfront] für ClientApp.&quot;
-1. Klicks **[!UICONTROL Erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 1. Füllen Sie die Felder für die neue App aus.
 
    <table style="table-layout:auto"> 

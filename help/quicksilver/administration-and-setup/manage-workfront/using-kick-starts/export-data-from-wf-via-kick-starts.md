@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '994'
 ht-degree: 8%
 
 ---
@@ -29,6 +29,8 @@ Als Adobe Workfront-Administrator können Sie den Kick-Starts-Datenexporteur ver
 Der Datenexport über Kick-Starts ist auch hilfreich, um zu verstehen, welche Felder mit den einzelnen Objekten verknüpft sind, wie diese Felder codiert werden und wie die Werte dieser Felder in der Datenbank formatiert sind.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -56,6 +58,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vorteile und Nachteile der Verwendung von Schnellstarts zum Exportieren von Daten
 

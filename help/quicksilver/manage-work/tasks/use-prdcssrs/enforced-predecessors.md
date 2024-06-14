@@ -6,9 +6,9 @@ description: Vorläufer sind Aufgaben, von denen andere Aufgaben zur Erfüllung 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Sie können die Vorgängerbeziehung erzwingen, wenn Sie Vorgänger für ein Proj
 Wenn ein Vorgänger erzwungen wird, kann die Nachfolgeaufgabe nicht gestartet werden, bevor der Vorgänger abgeschlossen ist. Beispielsweise bedeutet das Erzwingen einer Finish-Start-Beziehung zwischen Aufgabe A und Aufgabe B, dass Aufgabe B nicht starten kann (der Status muss neu bleiben und der Prozentsatz Complete muss 0 % bleiben), bis Aufgabe A als abgeschlossen markiert ist. Die Durchsetzung von Beziehungen gilt für alle Vorgängertypen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -67,6 +69,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erzwingen eines Vorgängers auf Aufgabenebene
 

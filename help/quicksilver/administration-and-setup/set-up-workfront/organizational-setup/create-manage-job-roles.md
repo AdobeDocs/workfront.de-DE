@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Erstellen und Verwalten von Vorgangsrollen
+title: Erstellen und Verwalten von Aufgabengebieten
 description: Als [!DNL Adobe Workfront] -Administrator oder Benutzer mit Administratorzugriff auf "Auftragsrollen"können Sie Auftragsrollen erstellen, die Benutzern zugewiesen werden können, und Standardauftragsrollen löschen, die für Ihr Unternehmen nicht relevant sind.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 32441df90b915077f57ead791116dcbd32c9557a
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
 
-# Erstellen und Verwalten von Vorgangsrollen
+# Erstellen und Verwalten von Aufgabengebieten
 
 <!-- Audited: 1/2024 -->
 
@@ -24,6 +24,8 @@ ht-degree: 0%
 Als [!DNL Adobe Workfront] -Administrator oder Benutzer mit Administratorzugriff auf &quot;Auftragsrollen&quot;können Sie Auftragsrollen erstellen, die Benutzern zugewiesen werden können, und Standardauftragsrollen löschen, die für Ihr Unternehmen nicht relevant sind. Weitere Informationen zum Administratorzugriff finden Sie unter [!DNL Workfront], siehe [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -49,6 +51,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+
++++
 
 ## Erstellen einer Auftragsrolle
 

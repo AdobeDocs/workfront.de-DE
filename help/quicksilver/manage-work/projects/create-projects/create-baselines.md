@@ -6,9 +6,9 @@ description: Eine Grundlinie ist ein Projekt-Schnappschuss, der wichtige Informa
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Eine Grundlinie ist ein Projekt-Schnappschuss, der wichtige Informationen darste
 Sie können die Grundlinie verwenden, um diese Informationen aus dem aktuellen Plan mit dem ursprünglichen Plan oder einem anderen Zeitpunkt zu vergleichen, um Problemaufgaben, Schlupflöcher und andere Trends im Zeitverlauf zu identifizieren.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <!--
 drafted for P&P:
@@ -83,6 +85,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen zum Arbeiten mit Grundlinien
 

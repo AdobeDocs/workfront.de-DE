@@ -6,9 +6,9 @@ description: Mit einem einfachen Workflow können mehrere Validierungsverantwort
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1853'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Mit einem einfachen Workflow können mehrere Validierungsverantwortliche einen Testversand durchführen, diese sind jedoch nicht in Phasen unterteilt. Alle hinzugefügten Validierungsverantwortlichen können sofort nach der Erstellung auf den Testversand zugreifen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -51,7 +53,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## Erstellen eines erweiterten Testversands mit einem einfachen Workflow
 
@@ -298,7 +302,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td role="rowheader">Anmeldung erforderlich - Testversand kann nur für andere Benutzer freigegeben werden</td> 
       <td>Wenn diese Option deaktiviert ist (Standard), kann jeder mit der URL den Testversand anzeigen. <br>Wenn diese Option ausgewählt ist:
        <ul>
-        <li>Nur Testbenutzer von Workfront können den Testversand anzeigen.</li>
+        <li>Nur Workfront Proof-Benutzer können den Testversand anzeigen.</li>
         <li>Benutzer können sich nur dann beim Testversand anmelden, wenn sie zum Testversand hinzugefügt wurden.</li>
         <li>Abonnements können nicht aktiviert werden.</li>
        </ul></td> 

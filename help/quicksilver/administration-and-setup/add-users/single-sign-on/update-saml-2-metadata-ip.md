@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 96f1d50024605328713ca2019f3b726e27dc569c
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ In den folgenden Abschnitten wird beschrieben, wie Sie Ihre SAML 2.0-Metadaten (
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -31,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -39,10 +41,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Verwenden Sie ADFS als Identitätsanbieter
 
@@ -55,7 +59,7 @@ Sie können Ihre ADFS-Metadaten vor oder nach der Aktualisierung des SAML 2.0-Ze
 
 Um die automatische Aktualisierung Ihrer ADFS-Metadaten festzulegen, führen Sie die Schritte in diesem Abschnitt aus.
 
-Standardmäßig ist ADFS so konfiguriert, dass es automatisch nach Aktualisierungen aller vertraulichen Trust-Metadaten der Parteien sucht. Der Standardwert ist jedoch nur alle 24 Stunden auf &quot;Umfrage&quot;. Sie können diesen Wert mit powershell-Befehlen ändern.
+Standardmäßig ist ADFS so konfiguriert, dass es automatisch nach Aktualisierungen aller vertraulichen Trust-Metadaten der Parteien sucht. Der Standardwert ist jedoch nur alle 24 Stunden auf &quot;Abfrage&quot;. Sie können diesen Wert mit powershell-Befehlen ändern.
 
 1. Melden Sie sich beim ADFS-Server an und öffnen Sie die ADFS Management Console.
 1. Erweitern Sie im linken Bedienfeld **ADFS 2.0,** dann erweitern **Vertrauensbeziehungen.**
@@ -66,10 +70,10 @@ Standardmäßig ist ADFS so konfiguriert, dass es automatisch nach Aktualisierun
 
    1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-   1. Klicken **System** > **Single Sign-On (SSO)**.
+   1. Klicks **System** > **Single Sign-On (SSO)**.
 
-   1. Klicken **Einstellungen bearbeiten.**
-   1. Klicken **Konfiguration bearbeiten**, wählen Sie **SAML 2.0** im **Typ** Dropdown-Liste.
+   1. Klicks **Einstellungen bearbeiten.**
+   1. Klicks **Konfiguration bearbeiten**, wählen Sie **SAML 2.0** im **Typ** Dropdown-Liste.
 
    1. Kopieren Sie die **Metadaten-URL**, die in etwa wie folgt aussehen sollte:
 
@@ -80,10 +84,10 @@ Standardmäßig ist ADFS so konfiguriert, dass es automatisch nach Aktualisierun
 
    1. Aktivieren Sie die Optionen zum **Sichern von vertrauenswürdigen Parteien** und **Automatische Aktualisierung der abhängigen Partei**.
 
-   1. Klicken **OK.**
+   1. Klicks **OK.**
    1. Wählen Sie die Vertrauenswürdigkeit des Vertrauenden aus, die Sie zuvor für die Verwendung mit Workfront konfiguriert haben. Klicken Sie dann im rechten Bereich auf **Aktualisierung von Föderierungsmetadaten.**
 
-1. Klicken **OK** , um die Meldung zu ignorieren, dass einige Inhalte in den Verknüpfungs-Metadaten von ADFS 2.0 nicht unterstützt werden.
+1. Klicks **OK** , um die Meldung zu ignorieren, dass einige Inhalte in den Verknüpfungs-Metadaten von ADFS 2.0 nicht unterstützt werden.
 1. Öffnen **Windows Powershell-Module.**
 1. Nachdem alle Module geladen wurden, führen Sie den folgenden Befehl in powershell aus:
 
@@ -127,22 +131,22 @@ So erzwingen Sie den Austausch von Metadaten zwischen Workfront und Ihrem SAML 2
 
       So greifen Sie auf die Informationen für die **Metadaten-URL**:
 
-      1. Klicken **Einrichtung** in der rechten oberen Ecke von Adobe Workfront in der Symbolleiste für globale Navigation.
+      1. Klicks **Einrichtung** in der rechten oberen Ecke von Adobe Workfront in der Symbolleiste für globale Navigation.
       1. Klicken Sie auf > **System** > **Single Sign-On (SSO)**.
-      1. Klicken **Einstellungen bearbeiten.**
-      1. Klicken **Konfiguration bearbeiten**, wählen Sie **SAML 2.0** im **Typ** Dropdown-Liste.
+      1. Klicks **Einstellungen bearbeiten.**
+      1. Klicks **Konfiguration bearbeiten**, wählen Sie **SAML 2.0** im **Typ** Dropdown-Liste.
       1. Kopieren Sie die **Metadaten-URL**, die in etwa wie folgt aussehen sollte:
 
          `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
+
    1. Klicken Sie auf dem ADFS-Server mit der rechten Maustaste auf die zuvor konfigurierte Vertrauenswürdigkeit der abhängigen Partei und klicken Sie dann auf **Eigenschaften.**
    1. Klicken Sie auf **Überwachung** die URL, die Sie aus Workfront kopiert haben, in die **Verknüpfungs-Metadaten-URL des Antragstellers** -Feld.
    1. Aktivieren Sie die Optionen zum **Sichern von vertrauenswürdigen Parteien** und **Automatische Aktualisierung der abhängigen Partei**.
-   1. Klicken **OK**.
+   1. Klicks **OK**.
    1. Wählen Sie die Vertrauenswürdigkeit des Vertrauenden aus, die Sie zuvor für die Verwendung mit Workfront konfiguriert haben, und klicken Sie dann im rechten Bereich auf **Aktualisierung von Föderierungsmetadaten.**
 
-
-1. Klicken **OK** , um die Meldung zu ignorieren, dass einige Inhalte in den Verknüpfungs-Metadaten von ADFS 2.0 nicht unterstützt werden.
-1. Klicken **Aktualisieren** , um die Aktualisierung Ihrer Verknüpfungsmetadaten abzuschließen.
+1. Klicks **OK** , um die Meldung zu ignorieren, dass einige Inhalte in den Verknüpfungs-Metadaten von ADFS 2.0 nicht unterstützt werden.
+1. Klicks **Aktualisieren** , um die Aktualisierung Ihrer Verknüpfungsmetadaten abzuschließen.
 
 Benutzer, die über den nativen Anmeldebildschirm mit Workfront-Anmeldedaten auf Workfront zugreifen dürfen (dies kann über die Profilseite der einzelnen Benutzer im Abschnitt **Zugriff** -Abschnitt) können sich mit ihrem Workfront-Benutzernamen und -Kennwort anmelden, indem Sie zur folgenden URL navigieren: `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`.
 

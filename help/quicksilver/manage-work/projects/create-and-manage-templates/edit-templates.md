@@ -6,9 +6,9 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen in Projektpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '4710'
+source-wordcount: '4721'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 Sie können Projektvorlagen bearbeiten, um Änderungen in Projektprozessen und -einstellungen widerzuspiegeln. Nachdem Sie die Änderungen auf einer Vorlage aktualisiert und gespeichert haben, sind die neuen Änderungen in neuen Projekten sichtbar, wenn die Projekte mit der Vorlage erstellt werden. Die Änderungen, die Sie an der Vorlage vornehmen, beziehen sich nicht auf das Projekt, das diese Vorlage verwendet.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -57,6 +59,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vorlagen bearbeiten {#edit-a-template}
 

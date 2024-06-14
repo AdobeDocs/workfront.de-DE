@@ -7,10 +7,10 @@ description: Sie können einem der unten aufgeführten Objekte ein vorhandenes b
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 1%
+source-wordcount: '822'
+ht-degree: 2%
 
 ---
 
@@ -32,11 +32,13 @@ Sie können einem der unten aufgeführten Objekte ein vorhandenes benutzerdefini
 * Benutzende
 * Wiederholungen
 * Ausgaben
-* Rechnungsdatensätze
+* Abrechnungs-Datensätze
 
 Sie können ein benutzerdefiniertes Formular nur zu den Objekttypen hinzufügen, für die das Formular erstellt wurde.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschriebenen Aktionen durchzuführen:
 
@@ -68,6 +70,8 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -140,6 +144,6 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
    >Wenn Sie das Formular nicht im Dropdown-Menü finden können, bedeutet dies, dass mindestens einem der Objekte das Formular bereits zugeordnet ist. Bestimmen Sie, welches Objekt das Element ist, und entfernen Sie es aus Ihrer Auswahl, bevor Sie das Formular zu den restlichen Objekten hinzufügen können.
 
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
    Wenn das Formular erforderliche Felder enthält (mit einem roten Sternchen markiert), müssen Sie sie derzeit nicht ausfüllen.

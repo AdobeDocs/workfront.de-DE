@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2690'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,8 @@ Sie können eine Anforderungswarteschlange einrichten, in die Benutzer gelegentl
 In diesem Artikel wird beschrieben, wie Sie eine Anforderungswarteschlange erstellen können, in der Benutzer Anforderungen senden können. Informationen zum Senden einer neuen Anforderung an eine Anforderungswarteschlange finden Sie unter [Anforderungen kopieren und senden](../create-requests/copy-and-submit-requests.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,9 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 
 <!--old access levels: 
@@ -216,7 +220,7 @@ So erstellen Sie eine Anforderungswarteschlange:
 
      Der Workfront-Administrator kann die standardmäßigen Anfragetypen umbenennen. Weitere Informationen zum Umbenennen der Anfragetypen finden Sie unter [Anpassen von Standardausgabetypen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
-      * Bug-Bericht
+      * Fehlerbericht
       * Änderungsanforderung
       * Problem
       * Anfrage

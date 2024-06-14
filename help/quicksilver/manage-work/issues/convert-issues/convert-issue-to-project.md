@@ -6,10 +6,10 @@ description: Konvertieren eines Problems in ein Projekt in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b091b62d3afe822c92f96641332077b5a211ee58
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1969'
-ht-degree: 0%
+source-wordcount: '1980'
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,8 @@ Sie können ein Problem in ein neues Projekt konvertieren oder es mithilfe einer
 Beim Erstellen eines Projekts aus einem Problem werden einige Felder im Projekt von anderen Objekten ausgefüllt. Weitere Informationen finden Sie im Abschnitt &quot;Neue Standardeinstellungen für Projekte&quot;im Artikel [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -57,6 +59,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Konvertieren eines Problems in ein Projekt
 
@@ -90,7 +94,7 @@ Sie können ein Problem in ein leeres Projekt konvertieren.
 
 1. (Optional und bedingt) Klicken Sie auf [!UICONTROL **Optionen**] Wählen Sie im linken Bereich eine der verfügbaren Optionen aus:
 
-   * [!UICONTROL **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an dieses Projekt**]
+   * [!UICONTROL **Ursprüngliche Anfrage beibehalten und deren Lösung mit dem Projekt verknüpfen**]
 
      Wenn diese Option deaktiviert ist, wird das ursprüngliche Problem gelöscht.
 
@@ -198,7 +202,7 @@ Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
 
 1. (Optional und bedingt) Klicken Sie auf [!UICONTROL **Optionen**] Wählen Sie im linken Bereich eine der verfügbaren Optionen aus:
 
-   * [!UICONTROL **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an dieses Projekt**]
+   * [!UICONTROL **Ursprüngliche Anfrage beibehalten und deren Lösung mit dem Projekt verknüpfen**]
 
      Wenn diese Option deaktiviert ist, wird das ursprüngliche Problem gelöscht.
 

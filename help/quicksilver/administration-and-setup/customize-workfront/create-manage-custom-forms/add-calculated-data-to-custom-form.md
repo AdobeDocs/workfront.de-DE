@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: '2911'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Informationen zum Erstellen benutzerdefinierter Formulare für Ihre Organisation
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -73,6 +75,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welche Konfigurationen für Plan, Lizenztyp oder Zugriffsstufe Sie verwenden. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 
 ## Berechnetes Feld zu einem benutzerdefinierten Formular hinzufügen {#add-a-calculated-field-to-a-custom-form}
 
@@ -97,7 +101,7 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td>Geben Sie eine Beschriftung für das Feld ein. Dies ist es, was Benutzer sehen, wenn sie das benutzerdefinierte Formular verwenden. Das Feld <b>Name</b>, der automatisch ausgefüllt wird und mit der Beschriftung übereinstimmt, wird von Workfront in Berichten referenziert. Dies ist ein Pflichtfeld.</td> 
      </tr>
 

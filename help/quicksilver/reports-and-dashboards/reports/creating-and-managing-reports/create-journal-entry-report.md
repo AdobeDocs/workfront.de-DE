@@ -5,10 +5,10 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 3%
+source-wordcount: '2776'
+ht-degree: 4%
 
 ---
 
@@ -30,6 +30,8 @@ Der Journaleintragsbericht kann Folgendes anzeigen:
 * Wenn sich der Eigentümer eines Projekts geändert hat
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -57,6 +59,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -268,7 +272,7 @@ Diese Informationen können verwendet werden, um bei der Prüfung zu helfen und 
 
    Weitere Informationen zum Hinzufügen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klicks **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 
    Ihr neuer Bericht wird geladen.
 
@@ -351,7 +355,7 @@ So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
 
    Weitere Informationen zum Hinzufügen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klicks **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 
    Ihr neuer Bericht wird geladen.
 
@@ -459,7 +463,7 @@ So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyk
 
    Weitere Informationen zum Hinzufügen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klicks **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 
    Ihr neuer Bericht wird geladen.
 
@@ -560,7 +564,7 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
 
    Weitere Informationen zum Hinzufügen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klicks **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 
    Ihr neuer Bericht wird geladen.
 
@@ -649,6 +653,6 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
 
    Weitere Informationen zum Hinzufügen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klicks **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 
    Ihr neuer Bericht wird geladen.

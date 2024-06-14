@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Portfolio-Manager definieren in der Regel die Scorecard-Fragen und -Antworten, u
 Die für eine Scorecard gewählten Fragen und Antworten müssen quantifizierbar sein, um einen Ausrichtungswert für den Vergleich verschiedener Projekte zu bieten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -51,6 +53,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Scorecard erstellen
 

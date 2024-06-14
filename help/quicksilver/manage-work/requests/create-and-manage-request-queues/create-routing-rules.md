@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 0%
+source-wordcount: '522'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,8 @@ Routing-Regeln steuern, was Adobe Workfront mit Problemen unternimmt, wenn sie a
 Routing-Regeln senden Probleme an bestimmte Benutzer oder Auftragsrollen, die am besten für die Lösung des gesendeten Problems oder der Anfrage geeignet sind. Routing-Regeln sind normalerweise mit Warteschlangenthemen verknüpft, mit denen gesteuert wird, welche Routing-Regel auf das Problem oder die Anfrage angewendet wird.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <!--drafted - replace the table at P&P:
 
@@ -84,6 +86,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erstellen einer Routing-Regel
 

@@ -6,9 +6,9 @@ description: Sie können Ihre Arbeit mit Ihren Inhalten in [!DNL Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Sie können Ihre Arbeit mit Ihren Inhalten in [!DNL Experience Manager Assets]&#
 >Sie können auch mehrere [!DNL Experience Manager Assets] Repositorys zu einem [!UICONTROL Workfront] Umgebung oder mehreren [!DNL Workfront] Umgebungen auf eine [!DNL Experience Manager Assets] Repository über Organisations-IDs hinweg. Befolgen Sie die Konfigurationsanweisungen in diesem Artikel für jede Integration, die Sie einrichten möchten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -74,6 +76,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Voraussetzungen

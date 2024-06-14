@@ -6,10 +6,10 @@ description: Ein Programm stellt eine Sammlung von Projekten dar, die eine gemei
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 0%
+source-wordcount: '1038'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 Ein Programm stellt eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben, die über Projektgrenzen hinausgehen. Programme können nicht außerhalb eines Portfolios existieren.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -49,6 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Programm erstellen
 
@@ -120,12 +123,12 @@ Sie können die folgenden Informationen angeben:
    >Sie müssen bereits benutzerdefinierte Programmformulare erstellt haben, bevor Sie sie an Programme anhängen können.
 
 1. (Optional und bedingt) Wenn Sie ein benutzerdefiniertes Formular hinzufügen, klicken Sie auf ein beliebiges Feld im benutzerdefinierten Formular, um die Informationen in diesem Feld zu aktualisieren.
-1. Klicks **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 1. Klicks **[!UICONTROL Projekte]** im linken Bereich, dann **[!UICONTROL Projekte hinzufügen]** , um dem Programm Projekte hinzuzufügen.
 
    Weitere Informationen zum Hinzufügen von Projekten zu Programmen finden Sie unter [Hinzufügen eines Projekts zu einem Programm](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-1. Klicks **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 1. (Optional) Klicken Sie auf die **[!UICONTROL Mehr Menü]** ![](assets/more-icon.png) neben dem Programmnamen und klicken Sie auf **[!UICONTROL Programm deaktivieren]**.
 
    Wenn Sie ein Programm deaktivieren, wird das Programm nicht mehr in einer Programmliste angezeigt, wenn Benutzer versuchen, es einem Projekt hinzuzufügen. Der Zugriff auf das Programm erfolgt weiterhin über die [!UICONTROL Programme] Bereich.

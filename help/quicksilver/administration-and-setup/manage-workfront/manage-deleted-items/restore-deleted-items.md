@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ Ein Gruppenadministrator kann diese Objekte auch für eine von ihm verwaltete Gr
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -59,6 +61,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan oder welchen Lizenztyp Sie haben.
 
++++
+
 ## Informationen, die beim Wiederherstellen eines Projekts, einer Aufgabe oder eines Problems abgerufen werden
 
 Wenn Sie ein Projekt, eine Aufgabe oder ein Problem wiederherstellen, werden die folgenden zugehörigen Informationen zusammen mit diesem wiederhergestellt:
@@ -77,14 +81,14 @@ Wenn Sie ein Projekt, eine Aufgabe oder ein Problem wiederherstellen, werden die
 * Statuswerte
 * Finanzinformationen:
 
-   * Rechnungsdatensätze
+   * Abrechnungs-Datensätze
    * Abrechnungssätze
    * Ausgaben
 
 * Informationen zur Zeitleiste:
 
    * Vorgänger
-   * Aufgabenbegrenzungen
+   * Aufgabenbeschränkungen
    * Art der Dauer
 
 * Baselines

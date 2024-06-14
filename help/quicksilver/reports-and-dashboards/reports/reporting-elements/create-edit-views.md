@@ -6,9 +6,9 @@ description: Sie können den Informationstyp, den Sie auf dem Bildschirm anzeige
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1788'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ Sie können den Informationstyp, den Sie auf dem Bildschirm anzeigen, mithilfe v
 In diesem Artikel wird beschrieben, wie Sie Standardansichten für Listen und Berichte erstellen und bearbeiten und wie Sie Agile-Ansichten erstellen. Weitere Informationen finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,6 +49,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Erstellen oder Anpassen einer Ansicht
 
@@ -104,7 +108,7 @@ Sie können eine neue Standardansicht erstellen oder eine vorhandene Standardans
          <col> 
          <tbody> 
           <tr> 
-           <td role="rowheader"><strong>Benutzerdefinierte Spaltenbeschriftung</strong></td> 
+           <td role="rowheader"><strong>Benutzerdefiniertes Spalten-Label</strong></td> 
            <td><p>Geben Sie eine benutzerdefinierte Bezeichnung für die Spalte an. Diese Bezeichnung ersetzt die Standardbeschriftung.</p></td> 
           </tr> 
           <tr> 

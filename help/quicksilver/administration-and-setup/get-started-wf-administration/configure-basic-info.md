@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 5f11e6ccda9fa3b37ec1300edb8f322521013a52
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 1%
 Im Rahmen der Konfiguration Ihres Adobe Workfront-Systems können Sie Details zu Ihrem Unternehmen im Abschnitt &quot;Basisinformationen&quot;auf Ihrer Seite &quot;Kundeninformationen&quot;verwalten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,6 +49,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Auf Kundeninformationen zugreifen
 

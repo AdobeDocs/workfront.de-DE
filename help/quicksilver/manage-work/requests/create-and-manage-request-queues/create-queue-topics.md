@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ Die Themen der Warteschlange funktionieren zusammen mit Routing-Regeln, um einge
 Die Anzahl der Warteschlangenthemen, die einer Themengruppe oder einem Projekt zugewiesen werden können, ist unbegrenzt. Die Themen der Warteschlange sind ein berichtspflichtiger Objekttyp.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <!--drafted - replace table with P&P:
 
@@ -81,6 +83,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erstellen eines Warteschlangenthemas
 
@@ -154,7 +158,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Typen werden nur dann als Auswahl im Bereich Anforderungen angezeigt, wenn der Anfragetyp sowohl auf den Seiten Warteschlangendetails als auch Warteschlangenthema ausgewählt ist. Informationen zum Einrichten des Bereichs &quot;Queue Details&quot;eines Projekts finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a>. </p> <p>Wählen Sie aus den folgenden Typen aus:</p>
    <ul>
-   <li>Bug-Bericht</li>
+   <li>Fehlerbericht</li>
    <li>Änderungsanforderung</li>
    <li>Problem</li>
    <li>Anfrage</li>

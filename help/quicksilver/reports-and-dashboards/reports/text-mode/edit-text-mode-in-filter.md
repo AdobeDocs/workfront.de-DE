@@ -6,9 +6,9 @@ description: Sie können Filter in einer Liste oder in einem Bericht im Textmodu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Sie können Filter in einer Liste oder in einem Bericht im Textmodus bearbeiten,
 Weitere Beispiele für den Textmodus beim Erstellen eines Filters finden Sie im Abschnitt [Beispiele für benutzerdefinierte Filter](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) im Artikel [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -55,6 +57,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 

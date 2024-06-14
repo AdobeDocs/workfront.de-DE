@@ -6,10 +6,10 @@ description: Sie können die Einstellungen des Home-Kalenders so konfigurieren, 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Sie können die [!UICONTROL Startseitenkalender] -Einstellungen, um Folgendes zu tun:
 
-* Integration in eine webbasierte Version von [!DNL Outlook] in Cloud-gehostet [!DNL Office 365] oder [!DNL Outlook Live]. Sie können alle Ereignisse aus Ihrem Outlook-Kalender sowie alle zugehörigen Kalender anzeigen, die Sie in Ihrem [!UICONTROL Startseitenkalender] in Adobe Workfront.
+* Integration mit einer Web-basierten Version von [!DNL Outlook] in [!DNL Office 365] oder [!DNL Outlook Live] auf der Cloud. Sie können alle Ereignisse aus Ihrem Outlook-Kalender sowie alle zugehörigen Kalender anzeigen, die Sie in Ihrem [!UICONTROL Startseitenkalender] in Adobe Workfront.
 * Helfen Sie Ihnen, Ihre Arbeitslast anhand der verfügbaren Arbeitszeiten auf der [!UICONTROL Zuordnung] Bar.
 
 Weitere Informationen zum Home-Kalender finden Sie unter [[!UICONTROL Startseitenkalender] Ansicht](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
@@ -27,6 +27,8 @@ Weitere Informationen zum Home-Kalender finden Sie unter [[!UICONTROL Startseite
 In diesem Artikel wird beschrieben, wie Sie die Einstellungen des Home-Kalenders konfigurieren und den Home-Kalender in Ihren externen Outlook-Kalender integrieren können.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -51,6 +53,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 *Wenden Sie sich an Ihren [!DNL Workfront] Administrator. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Über die Integration [!DNL Microsoft Outlook] Kalender
 

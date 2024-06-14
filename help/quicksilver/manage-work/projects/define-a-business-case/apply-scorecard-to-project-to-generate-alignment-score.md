@@ -5,9 +5,9 @@ description: Mit einer Scorecard können Sie messen, wie gut ein Projekt mit den
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Mit einer Scorecard können Sie messen, wie gut ein Projekt mit den zuvor festge
 Weitere Informationen zu Scorecards und dazu, wie Sie eine erstellen können, finden Sie unter [Scorecard erstellen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -54,6 +56,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Projekt-Scorecards {#project-scorecards}
 

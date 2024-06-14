@@ -6,14 +6,16 @@ description: Sie erstellen ein Kanban- oder Scrum-agile-Team in [!DNL Adobe Work
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 0%
+source-wordcount: '1487'
+ht-degree: 1%
 
 ---
 
 # Konfigurieren [!UICONTROL Kanban]
+
+<!--Audited: 12/2023-->
 
 Sie können ein agiles Team in [!DNL Adobe Workfront] wie in [Erstellen eines agilen Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Beim Erstellen eines agilen Teams können Sie die Methodik auswählen, die das Team zum Abschließen seiner Arbeit verwendet. Sie können aus den folgenden Optionen auswählen:
 
@@ -33,7 +35,7 @@ Informationen zum Konfigurieren eines Scrum-Teams finden Sie unter [Konfiguriere
 
 ## Zugriffsanforderungen
 
-<!--Audited: 12/2023-->
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -65,6 +67,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 *Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
++++
+
 ## Konfigurieren, ob Meldungen in Punkten oder Stunden geschätzt werden
 
 Sie können Geschichten so konfigurieren, dass sie entweder anhand von Punkten oder Stunden geschätzt werden.
@@ -83,7 +87,7 @@ So konfigurieren Sie, wie Geschichten für Ihr agile Team geschätzt werden:
 
    **Beispiel:** Wenn Sie sich dafür entschieden haben, Geschichten in Punkten und 1 Punkt gleich 8 Stunden zu schätzen, und eine Geschichte auf 3 Punkte geschätzt wird, werden 24 geplante Stunden zu der Geschichte hinzugefügt.
 
-1. Klicks **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
 ## Statusspalten auf der agilen Story-Pinnwand konfigurieren
 
@@ -115,7 +119,7 @@ So definieren Sie die Status, die für die mit dem agile Team verknüpfte Story-
 
    Sie können benutzerdefinierte Status hinzufügen, wenn Ihre [!DNL Workfront] -Administrator hat sie konfiguriert. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines Status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Klicks **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
 ## Zusätzliche Felder konfigurieren, die auf den Storykarten auf der Karte für Mobilgeräte angezeigt werden sollen
 
@@ -154,7 +158,7 @@ So konfigurieren Sie dem agile Team zugewiesene Storykarten, um zusätzliche Fel
 
 1. Wählen Sie den Namen des Felds aus, das Sie hinzufügen möchten.
 1. Geben Sie die **[!UICONTROL Anzeigename]** für das Feld, das auf der Meldung oder der Ausgabekarte angezeigt wird.
-1. Klicks **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
 ## Konfigurieren der Grenze für laufende Arbeit (WIP)
 
@@ -181,7 +185,7 @@ So begrenzen Sie die WIP für Ihr Kanban-Team:
 
    ![WIP-Beschränkung](assets/wip-limit-350x193.png)
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
 ## Automatisches Hinzufügen von Meldungen aus dem Rückstau konfigurieren
 
@@ -205,7 +209,7 @@ Sie können Storys aus dem Backlog so konfigurieren, dass sie automatisch zur er
    Jedes Mal, wenn eine Geschichte aus dem [!UICONTROL In Bearbeitung] in eine Spalte auf der Story-Pinnwand, die eine [!UICONTROL Fertig] Status (oder ein Status, der mit [!UICONTROL Fertig]), wird ein Artikel aus der Spalte &quot;Backlog&quot;automatisch in den [!UICONTROL Neu] Spalte [!UICONTROL Kanban Board].
 Wenn die Meldung aus dem Rückstand hinzugefügt wird, wird die Meldung mit der höchsten Priorität zum Storyboard hinzugefügt.
 
-1. Klicks **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
 ## Konfigurieren Sie, wie lange Karten auf der Seite bleiben [!UICONTROL Kanban] Pinnwand
 
@@ -222,4 +226,4 @@ Sie können festlegen, wie lange abgeschlossene Karten auf der [!UICONTROL Kanba
 1. Im **[!UICONTROL Anzahl der Tage Abgeschlossene Karten bleiben auf der Kanban-Pinnwand]** aus.
 
    Sie können eine Zahl zwischen 1 und 30 Tagen wählen.
-1. Klicks **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.

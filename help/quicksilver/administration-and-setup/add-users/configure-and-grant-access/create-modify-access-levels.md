@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1463'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,8 @@ Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen 
 >Wir empfehlen dringend, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie nach der Einrichtung Ihrer Benutzer darauf verweisen können. Um eine Zugriffsebene anzupassen, kopieren Sie die standardmäßige Zugriffsebene und ändern Sie die Kopie. Sie können dies für jede Zugriffsstufe mit Ausnahme von &quot;Systemadministrator&quot;und &quot;Externer Benutzer&quot;tun.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -56,6 +58,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Benutzerdefinierte Zugriffsebene erstellen oder bearbeiten
 
@@ -104,7 +108,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td>Fügen Sie neue hinzu und bearbeiten Sie bestehende Unternehmen in Workfront.<br><p>Ohne diesen Zugriff können Benutzer nur bestehende Unternehmen anzeigen.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Benutzerdefinierte Formulare in meiner Gruppe</td> 
+      <td role="rowheader">Benutzerdefinierte Formulare</td> 
       <td>Erstellen und verwalten Sie alle benutzerdefinierten Formulare in ihrer Gruppe. <br><p>Ohne diesen Zugriff können Benutzer nur vorhandene Formulare an Objekte anhängen, auf die sie Zugriff haben, um sie beizutragen oder zu verwalten.</p></td> 
      </tr> 
      <tr> 

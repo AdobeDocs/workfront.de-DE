@@ -6,9 +6,9 @@ description: Die Filter im Bereich "Erweiterte Analyse"von Adobe Workfront helfe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1486'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Die Filter im Bereich &quot;Erweiterte Analyse&quot;von Adobe Workfront helfen I
 Sie können Filter nach Bedarf hinzufügen und entfernen. Workfront behält die angewendeten Filter bei, selbst wenn Sie sich abmelden.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -60,6 +62,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -117,7 +121,7 @@ Die folgenden Projektfeldfiltertypen sind verfügbar:
 | **Bedingung** | Zeigt Daten nur für Projekte an, bei denen die ausgewählte(n) Bedingung(en) zuletzt ausgewählt wurde(n) (Zielgruppe/n, Risiko/Probleme) |
 | **Status** | Zeigt nur Daten zu Projekten an, die zuletzt den ausgewählten Status hatten (vollständig, aktuell, auf Abruf, abgebrochen usw.) |
 | **Sponsor** | Zeigt nur Daten für Projekte mit den ausgewählten Sponsoren an |
-| **Projektinhaber** | Zeigt Daten nur für Projekte mit den ausgewählten Projekteigentümern an |
+| **Projektbesitzer** | Zeigt Daten nur für Projekte mit den ausgewählten Projekteigentümern an |
 
 Benutzerdefinierte Formularfilter funktionieren anders. Weitere Informationen finden Sie unter [Hinzufügen eines benutzerdefinierten Formularfilters für ein Projekt](#add-a-project-custom-form-filter).
 

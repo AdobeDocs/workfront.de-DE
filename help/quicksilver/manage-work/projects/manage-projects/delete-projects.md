@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '908'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ Als Alternative zum Löschen eines Projekts wird empfohlen, das Projekt zu bearb
 Sie können ein Projekt in einer Projektliste oder auf Projektebene löschen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,6 +57,8 @@ Sie können ein Projekt in einer Projektliste oder auf Projektebene löschen.
 </table>
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Grundlegendes zum Löschen von Projekten
 
@@ -94,7 +100,7 @@ Sie können ein Projekt in einer Projektliste oder auf Projektebene löschen.
    * Informationen zu Geschäftsfällen
    * Informationen zu Warteschlangendetails
    * Abrechnungssätze
-   * Rechnungsnachweise
+   * Abrechnungseinträge
 
      Sie können ein Projekt mit dem Status Rechnungseinträge nicht löschen. Weitere Informationen finden Sie unter [Erstellen von Rechnungsdatensätzen](../../projects/project-finances/create-billing-records.md).
 

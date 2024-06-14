@@ -6,9 +6,9 @@ description: Sie können Vorlagen als Framework zum Erstellen von Projekten in A
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ Sie haben die folgenden Optionen zum Erstellen eines Projekts aus einer Vorlage:
 * Erstellen eines Projekts aus einer Vorlage im Bereich &quot;Gruppen&quot;
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <!--drafted for P&P:
 
@@ -102,6 +104,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erstellen eines Projekts aus einer Vorlage im Bereich &quot;Projekte&quot;
 

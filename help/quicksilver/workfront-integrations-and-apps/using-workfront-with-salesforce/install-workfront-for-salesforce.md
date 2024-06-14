@@ -6,9 +6,9 @@ description: So installieren Sie die App, bevor sie im [!DNL Salesforce] AppExch
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: e823589247a2231e038142ae8d19f366769060e2
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Für allgemeine Informationen zu den Erwartungen durch die Installation von [!DN
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
 
 <table style="table-layout:auto"> 
@@ -47,6 +49,8 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel besc
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen für die Installation und Verwendung [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
 

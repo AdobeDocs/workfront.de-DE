@@ -8,9 +8,9 @@ author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ Als Adobe Workfront-Administrator können Sie Meilensteinpfade erstellen, die da
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -33,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -41,10 +43,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Meilensteine und Meilensteinpfade
 
@@ -60,9 +64,9 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
 
-1. Klicken **Prozesse** > **Milestone-Pfade**.
-1. Klicken **Neuer Milestone-Pfad.**
-1. Geben Sie die folgenden Informationen in der **Basisinformationen** Bereich:
+1. Klicks **Prozesse** > **Milestone-Pfade**.
+1. Klicks **Neuer Milestone-Pfad.**
+1. Geben Sie die folgenden Informationen in der **Grundlegende Informationen** Bereich:
 
    <table style="table-layout:auto">
     <tr>
@@ -99,13 +103,13 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
      </tr> 
      <tr> 
       <td role="rowheader">Farbe</td> 
-      <td> <p>Wählen Sie eine Farbe für den Meilenstein aus. </p> <p>Wenn Sie keine Farbe auswählen, wählt das System die letzte Farbe, die in einem Meilensteinpfad verwendet wird. Es wird empfohlen, für jeden Meilenstein eine eindeutige Farbe auszuwählen. Die Farbe wird für visuelle und Berichterstattungszwecke verwendet.</p> </td> 
+      <td> <p>Wählen Sie eine Farbe, die mit Ihrem Meilenstein verknüpft werden soll. </p> <p>Wenn Sie keine Farbe auswählen, wählt das System die letzte Farbe, die in einem Meilensteinpfad verwendet wird. Es wird empfohlen, für jeden Meilenstein eine eindeutige Farbe auszuwählen. Die Farbe wird für visuelle und Berichterstattungszwecke verwendet.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **Milestone hinzufügen** und fügen Sie bei Bedarf Meilensteine hinzu, bis der Pfad abgeschlossen ist.
-1. Klicken **Milestone-Pfad erstellen** , um Ihre Änderungen zu speichern.
+1. Klicks **Milestone hinzufügen** und fügen Sie bei Bedarf Meilensteine hinzu, bis der Pfad abgeschlossen ist.
+1. Klicks **Milestone-Pfad erstellen** , um Ihre Änderungen zu speichern.
 
    Ihr Meilensteinpfad kann mit einem Projekt verknüpft werden.
 

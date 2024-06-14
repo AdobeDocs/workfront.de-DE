@@ -6,9 +6,9 @@ description: Portfolios sind Sammlungen von Projekten oder Programmen in Adobe W
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Portfolios sind Sammlungen von Projekten oder Programmen in [!DNL Adobe Workfron
 Wir empfehlen, ein Portfolio, das nicht mehr mit zukünftigen Projekten verknüpft werden muss, zu deaktivieren, anstatt es zu löschen, um die historischen Informationen über die Projekte zu behalten, die derzeit mit dem Portfolio und seinen Programmen verknüpft sind.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -50,6 +52,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Übersicht über das Löschen und Deaktivieren von Portfolios
 

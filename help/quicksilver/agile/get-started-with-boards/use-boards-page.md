@@ -6,9 +6,9 @@ description: Die [!UICONTROL Pinnwände] Dashboard zeigt die Liste der Pinnwänd
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Informationen zum Erstellen einer neuen Pinnwand oder Bearbeiten einer vorhanden
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Filtern von Foren und Workflows {#filter-boards}

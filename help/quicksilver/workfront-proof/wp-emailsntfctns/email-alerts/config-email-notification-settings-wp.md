@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: E-Mail-Benachrichtigungseinstellungen konfigurieren in [!DNL Workfront Proof]
-description: Von Workfront Testversand generierte E-Mail-Benachrichtigungen informieren die Mitwirkenden über die letzten Aktivitäten bei Testsendungen, wie Kommentare, Antworten oder Entscheidungen.
+description: Von Workfront Proof generierte E-Mail-Benachrichtigungen informieren die Mitarbeiter über die letzten Aktivitäten bei Testsendungen, wie Kommentare, Antworten oder Entscheidungen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ ht-degree: 0%
 E-Mail-Benachrichtigungen informieren Mitarbeiter über die letzten Aktivitäten bei Testsendungen, wie Kommentare, Antworten oder Entscheidungen.
 
 Sie können E-Mail-Benachrichtigungen für Prüfer in den folgenden Bereichen einrichten:
-
-## Zugriffsanforderungen
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>Workfront Teststandalone</td> 
-  </tr> 
-</table>
 
 E-Mail-Benachrichtigungen für Validierungsverantwortliche können auf der Seite Neuer Testversand eingestellt werden. [!UICONTROL Neue Version] und in der [!UICONTROL Workflow] Abschnitt [!UICONTROL Testversanddetails] Seite. Weitere Informationen finden Sie unter [Testsendungen generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -63,9 +52,20 @@ Benutzer mit [!UICONTROL Administrator] oder [!UICONTROL Rechnungsadministrator]
 
 Weitere Informationen zu Profilen finden Sie unter [Profile für Testberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Konfigurieren Sie die standardmäßigen Testsendungen in den persönlichen Einstellungen ([!DNL Workfront Proof] nur Benutzer)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [E-Mail-Warnungen für einen Empfänger ändern](#change-email-alerts-for-a-recipient)
-* [Konfigurieren der Standardwerte für den Testversand eines Benutzers](#configure-proof-defaults-for-a-user)
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Produkt</td> 
+   <td>Workfront Proof Standalone</td> 
+  </tr> 
+</table>
+
++++
 
 ## Konfigurieren Sie die standardmäßigen Testsendungen in den persönlichen Einstellungen ([!DNL Workfront Proof] nur Benutzer)
 

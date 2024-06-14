@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ Das standardmäßige Workfront-Layout jedes Benutzers hängt von seiner Zugriffs
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -64,6 +66,8 @@ Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern k
 </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Konzepte zum Erstellen und Verwalten von Layoutvorlagen
 

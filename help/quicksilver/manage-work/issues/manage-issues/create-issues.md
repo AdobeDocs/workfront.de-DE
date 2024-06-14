@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Sie können Projekte auch als Anfragen hinzufügen. Weitere Informationen finden
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -62,7 +64,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
@@ -171,7 +175,7 @@ Das Feld Neues Problem wird angezeigt.
 
 1. (Bedingt) Wenn der Projektersteller für die **Anfragetyp** -Feld, das im Formular Neues Problem angezeigt werden soll, wählen Sie aus den folgenden Optionen den Typ Ihres Problems aus:
 
-   * Bug-Bericht
+   * Fehlerbericht
    * Änderungsanforderung
    * Problem
    * Anfrage\

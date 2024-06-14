@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2338'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,8 @@ Informationen zum Hinzufügen eines Asset-Widgets zu einem benutzerdefinierten F
 >In einem benutzerdefinierten Formular, das viele benutzerdefinierte Felder oder eine Vielzahl von Mehrfachauswahloptionen in benutzerdefinierten Feldern enthält, kann es vorkommen, dass Benutzer beim Hinzufügen oder Ändern von Werten in diesen Feldern langsamer arbeiten. Beispielsweise kann ein Formular mit 100 benutzerdefinierten Feldern oder benutzerdefinierten Feldern mit mehreren Auswahlen mit mehr als 200 Optionen langsamer sein, wenn Benutzer damit interagieren.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -56,6 +58,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen {#add-custom-field-to-custom-form}
 
@@ -144,7 +148,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
      </tr> 
      <tr> 

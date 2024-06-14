@@ -6,9 +6,9 @@ description: Referenzieren von Sammlungen in einem Bericht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2598'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Wenn Sie einen Bericht in Adobe Workfront erstellen, können Sie eine Reihe von 
 Weitere Informationen zum Erstellen eines Berichts in Workfront finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,6 +49,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Sammlungen
 
@@ -103,7 +107,7 @@ Sie können in den folgenden Berichterstellungselementen auf Objekte aus einer S
 
 * Ansichten
 * Filter
-* Eingabeaufforderungen
+* Prompts
 
 Sie können in den folgenden Berichterstellungselementen nicht auf Objekte aus einer Sammlung verweisen:
 
@@ -419,7 +423,7 @@ So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts eine
 
    >[!NOTE]
    >
-   Beachten Sie, dass Sie **issues** für den Sammlungsobjektnamen. Der API Explorer bietet derzeit keinen Sammlungsobjektnamen für Probleme.
+   >Beachten Sie, dass Sie **issues** für den Sammlungsobjektnamen. Der API Explorer bietet derzeit keinen Sammlungsobjektnamen für Probleme.
 
 1. Klicks **Fertig**.
 1. (Optional) Fahren Sie mit der Bearbeitung des Berichts fort.

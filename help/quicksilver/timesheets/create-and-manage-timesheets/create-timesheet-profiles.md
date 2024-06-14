@@ -6,9 +6,9 @@ description: Sie können Timesheet-Profile erstellen, bearbeiten und zuweisen, d
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Sie können Timesheet-Profile erstellen, bearbeiten und zuweisen, die wiederkehr
 Weitere Informationen zum manuellen Erstellen eines Zeitblatts finden Sie unter [Erstellen eines Datenblatts für die einmalige Verwendung](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -50,6 +52,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erstellen oder Bearbeiten eines Zeitleistenprofils
 
@@ -161,7 +165,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >* Wenn Sie eine Gruppe hinzufügen, wird nur der Gruppenname auf der Registerkarte &quot;Personen zuweisen&quot;angezeigt, nicht die Liste der Gruppenmitglieder. Wenn Sie die hier aufgelisteten Gruppenmitglieder sehen möchten, klicken Sie auf Änderungen speichern und dann auf den Namen des soeben erstellten Timesheet-Profils.
    >* Wenn Sie diese Schritte abschließen, generiert das Timesheet-Profil nur Timesheets für die zugewiesenen Benutzer oder Gruppenmitglieder, die keine Timesheets für den aktuellen Zeitraum haben.
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
    Wenn das Timesheet-Profil zum ersten Mal Timesheets generiert, werden für jeden Benutzer zwei Timesheets erstellt. Danach wird jedes Mal, wenn neue Timesheets erstellt werden, pro Benutzer ein Timesheet erstellt.
 

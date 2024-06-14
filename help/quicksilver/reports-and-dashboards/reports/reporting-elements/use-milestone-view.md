@@ -6,9 +6,9 @@ description: Sie können die Meilensteinansicht auf eine Projektliste oder einen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Bevor Sie die Meilensteinansicht verwenden können, müssen Meilensteine konfigu
 Die Meilensteinansicht ist verfügbar, wenn Sie eine Projektliste oder einen Projektbericht anzeigen. In den folgenden Abschnitten wird beschrieben, wie Sie die Meilensteinansicht anzeigen und verwenden.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -55,6 +57,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Wechseln zur Meilensteinansicht {#switch-to-the-milestone-view}
 

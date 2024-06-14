@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Sie können wiederkehrende Aufgaben für Aufgaben erstellen, die Sie im Rahmen e
 Allgemeine Informationen zu wiederkehrenden Aufgaben, einschließlich der Auswirkungen der Bearbeitung einer vorhandenen wiederkehrenden Aufgabe, finden Sie unter [Übersicht über wiederkehrende Aufgaben](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -53,6 +55,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Wiederkehrende Aufgabe erstellen
 

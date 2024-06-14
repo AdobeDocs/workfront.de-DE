@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Standardmäßig sind die Voreinstellungen für Aufgaben und Ausgaben gesperrt un
 
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -54,6 +56,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Konfigurieren Sie die Voreinstellungen für Aufgaben und Probleme für alle Benutzer in [!DNL Workfront]
 
 {{step-1-to-setup}}
@@ -70,7 +74,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Arbeiten daran</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL Zugriff]](#access)
 
@@ -114,7 +118,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Beim Konvertieren eines Problems in eine Aufgabe]</td> 
+    <td role="rowheader" [!UICONTROL>Beim Konvertieren eines Problems in eine Aufgabe]</td> 
     <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von Problem zu Aufgabe geschieht:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe.]</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis die Aufgabe abgeschlossen ist. Der Status des Problems ändert sich automatisch in [!UICONTROL Geschlossen] , wenn die Aufgabe abgeschlossen ist. Wenn diese Option deaktiviert ist, wird das Problem gelöscht.</p> <p><b>NOTE</b>:  <p>Benutzer ohne Zugriff oder Berechtigung zum Löschen von Problemen können das Problem beim Konvertieren nicht löschen, unabhängig vom Status dieser Einstellung. Informationen zum Zugriff auf und zu Berechtigungen für Probleme finden Sie unter:</p> 
