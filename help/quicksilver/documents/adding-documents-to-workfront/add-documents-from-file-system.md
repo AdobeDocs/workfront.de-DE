@@ -6,7 +6,7 @@ description: Sie können in Adobe Workfront in mehreren Bereichen Dokumente zu P
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c6fc7325700f220fcda5c7cb1b4aa0b94cb67880
+source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 1%
@@ -53,8 +53,6 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
-
-+++
 
 +++
 
