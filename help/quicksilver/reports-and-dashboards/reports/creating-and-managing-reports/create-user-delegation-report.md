@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 4%
+source-wordcount: '379'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -70,7 +70,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichte**.
 
-1. Klicken **Neuer Bericht**, wählen Sie **Benutzerdelegation**.\
+1. Klicks **Neuer Bericht**, wählen Sie **Benutzerdelegierung**.\
    ![](assets/classic-new-report-user-delegation-350x644.png)
 
    Die folgenden Felder werden in diesem Bericht standardmäßig angezeigt:
@@ -78,11 +78,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    | Feld | Beschreibung |
    |---|---|
    | **Vom Benutzer** | Dies ist der Benutzer, der seine Aufgaben-, Problem- und Projektgenehmigungen an einen anderen Benutzer delegiert. |
-   | **An den Benutzer** | Dies ist der Benutzer, dem Aufgaben-, Problem- und Projektgenehmigungen zugewiesen wurden. |
-   | **Start** | Dies ist der Beginn der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
+   | **An Benutzer** | Dies ist der Benutzer, dem Aufgaben-, Problem- und Projektgenehmigungen zugewiesen wurden. |
+   | **Starten** | Dies ist der Beginn der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
    | **Ende** | Dies ist das Ende der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Optional) Ändern Sie im ReportBuilder Folgendes:
 
