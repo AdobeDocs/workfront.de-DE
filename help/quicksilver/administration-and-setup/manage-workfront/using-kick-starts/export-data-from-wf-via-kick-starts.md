@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -334,13 +334,13 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
 
    Matrix-Berichte können nicht exportiert werden. Weitere Informationen zu Matrix-Berichten finden Sie unter [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
+   Kick-Starts unterstützt keine Textmodus-Filter. Für einen erfolgreichen Export müssen die Berichtsfilter in den Standardmodus umgestellt werden.
+
    Sie können bis zu 100 Dashboards und 100 Berichte in einem Export auswählen.
 
    ![](assets/kickstart-export-350x381.png)
 
    Sie können mehrere Objekte gleichzeitig exportieren.
-
-
 
 1. (Empfohlen) Analysieren Sie die exportierten Daten, um sicherzustellen, dass alle erwarteten Informationen exportiert wurden.
 
