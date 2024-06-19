@@ -1,7 +1,7 @@
 ---
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -256,7 +256,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
    * **Meine Arbeitsbereiche**: Zeigt die erstellten Arbeitsbereiche an.
    * **Andere Arbeitsbereiche**: Zeigt alle Arbeitsbereiche in der Workfront-Planung an, einschließlich der für Sie freigegebenen Arbeitsbereiche.
 
-   Für alle anderen Benutzer werden alle Arbeitsbereiche, die sie erstellt haben oder für sie freigegeben wurden, im **Arbeitsbereiche** Bereich.
+   Für alle anderen Benutzer werden alle Arbeitsbereiche, die Sie erstellt haben oder die für Sie freigegeben wurden, im **Arbeitsbereiche** Bereich.
 
 ## Wichtiger Einstieg in die Workfront-Planung - {#planning-important-intro}
 

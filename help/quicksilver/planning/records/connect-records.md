@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2573'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
    <td> <p>Berechtigungen für einen Arbeitsbereich zum Verbinden von Datensätzen verwalten </p>  
-   <p>Zeigen Sie die Berechtigungen für einen Arbeitsbereich oder höher an, um alle Verbindungen zu Objekten und Feldern aus anderen Anwendungen anzuzeigen, unabhängig von Ihrem Zugriff in einer anderen Anwendung. </p>
+   <p>Zeigen Sie die Berechtigungen für einen Arbeitsbereich oder höher an, um alle Verbindungen zu Objekten und Feldern aus anderen Anwendungen anzuzeigen, unabhängig von Ihrem Zugriff in der anderen Anwendung. </p>
+   <p>Zeigen Sie die Berechtigungen für die Objekte an, die Sie über Workfront oder Experience Manager Assets verknüpfen möchten. </p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p>
 </td>
   </tr>
@@ -129,28 +130,41 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Nachdem Sie die Datensatztypen miteinander verbunden haben, werden die verbundenen Datensatztypen in der Tabelle der Datensatztypen, von denen sie verknüpft sind, und auf den Datensatzseiten als verknüpfte Datensatzfelder angezeigt.
 * Sie können Datensätze und Objekte der verknüpften Datensätze und Objekttypen aus den verknüpften Datensatzfeldern durchsuchen und hinzufügen.
-* Sie können Felder der verknüpften Datensatztypen zur Tabelle des Datensatztyps hinzufügen, von dem Sie die Verknüpfung herstellen.
-* Die Werte verknüpfter Felder in den Datensätzen, aus denen Sie die Relation herstellen, können nicht manuell aktualisiert werden.
+* Sie können in der Tabelle des Datensatztyps, von dem Sie die Relation herstellen, Felder (Suchfelder) der verknüpften Datensatztypen hinzufügen.
 
-  Die Werte der verknüpften Felder der verknüpften Datensätze füllen den Workfront Planning-Datensatz aus, den Sie automatisch aus dem ursprünglichen Datensatz oder Objekt verknüpfen.
+  Sie können in der Tabelle des Datensatztyps, zu dem Sie die Relation herstellen, Felder (Suchfelder) der Datensatztypen hinzufügen.
+
+  Wenn Sie beispielsweise den Datensatztyp Produkt aus dem Datensatztyp von Campaign verknüpfen, können Sie Produktfelder für Kampagnen sowie Kampagnenfelder für Produkte anzeigen.
+* Sie können die Werte der Suchfelder in den Datensätzen, von denen Sie eine Verknüpfung herstellen, nicht manuell aktualisieren.
+
+  Die Werte der Lookup-Felder der verknüpften Datensätze füllen den Workfront Planning-Datensatz, den Sie aus dem ursprünglichen Datensatz oder Objekt verknüpfen.
 
 * Jeder, der Zugriff auf die Workfront-Planung und -Ansicht oder höhere Berechtigungen für den Arbeitsbereich hat, kann die Verbindungen sehen, die Sie zwischen Datensätzen oder zwischen Datensätzen und Objekten anderer Anwendungen herstellen. Sie können verbundene Datensätze und Objekte unabhängig von ihren Berechtigungen in den Anwendungen anzeigen, mit denen Sie eine Verbindung herstellen.
 * Sie können die Verbindungen aller anderen Benutzer anzeigen und bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, in dem die verbundenen Datensätze gespeichert sind.
 * Sie können einen Datensatz mit einem oder mehreren Objekten aus einer anderen Anwendung verbinden.
-* Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgendes erforderlich:
 
-   * Mindestens ein Arbeitsbereich, ein Datensatztyp und ein Datensatz.
-
-     Weitere Informationen finden Sie in den folgenden Artikeln:
-
-      * [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
-
-   * Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und Objekten aus anderen Anwendungen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md)
 * Sie können Objekte aus Workfront mit Datensätzen der Workfront-Planung in den folgenden Bereichen verbinden:
    * Aus einem Planungsbericht in der Workfront-Planung.
    * Im Planungsabschnitt eines Workfront-Objekts.
+
+* In den folgenden Bereichen können Sie Workfront-Planungsdatensätze mit Experience Manager Assets verbinden:
+
+   * Aus einem Planungsdatensatz in der Workfront-Planung
+
+
+## Voraussetzungen für die Verknüpfung von Datensätzen
+
+Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgendes erforderlich:
+
+* Mindestens ein Arbeitsbereich, ein Datensatztyp und ein Datensatz.
+
+  Weitere Informationen finden Sie in den folgenden Artikeln:
+
+   * [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md)
+   * [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md)
+   * [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
+
+* Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und Objekten aus anderen Anwendungen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Datensätze aus der Workfront-Planung verbinden
 
@@ -186,7 +200,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!TIP]
    >
-   >    Sie können die Seite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf **Datensätze verbinden** im Feld, um Datensätze aus dem verbundenen Datensatz oder Objekttyp hinzuzufügen.
+   >    Sie können die Seite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das verbundene Feld klicken (wenn bereits Datensätze verbunden sind) oder auf **Datensätze verbinden** (wenn das Feld leer ist), um Datensätze aus dem verbundenen Datensatz oder Objekttyp hinzuzufügen.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -307,6 +321,11 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 >Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Manager Assets hergestellt haben, können Sie einzelne Datensätze mit Experience Manager-Assets verbinden. Die Asset-Felder, mit denen Sie eine Verbindung aus Experience Manager Assets hergestellt haben, werden automatisch in den Datensatztyp eingetragen, von dem aus Sie die Verbindung hergestellt haben.
+
+>[!NOTE]
+>
+>Auf die Planung von Datensätzen und deren Feldern kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator das Metadaten-Mapping über die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
 {{step1-to-planning}}
 

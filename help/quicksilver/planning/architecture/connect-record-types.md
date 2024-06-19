@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
@@ -151,11 +151,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      Wenn Sie beispielsweise den Datensatztyp &quot;Kampagne&quot;mit dem Datensatztyp &quot;Produkt&quot;verbinden, wird ein verknüpftes Datensatzfeld, das Sie &quot;Verknüpftes Produkt&quot;nennen, für den Datensatztyp &quot;Kampagne&quot;erstellt und ein verknüpfter Datensatztyp automatisch mit dem Namen &quot;Kampagne&quot;für den Produktdatensatz erstellt.
 
-   * **Wenn Sie einen Datensatztyp mit einem Objekttyp aus einer anderen Anwendung verbinden**: Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, aus dem Sie eine Verbindung herstellen. Für den Objekttyp der anderen Anwendung wird kein verknüpftes Datensatzfeld erstellt.
+   * **Wenn Sie einen Datensatztyp mit einem Objekttyp aus einer anderen Anwendung verbinden**:
 
-     Ein neuer schreibgeschützter Workfront-Planungstyp wird nur dann für das Objekt der anderen Anwendung erstellt, wenn die eigentlichen Objekte mit Datensätzen der Workfront-Planung verbunden sind.
+      * Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, aus dem Sie eine Verbindung herstellen. Für den Objekttyp der anderen Anwendung wird kein verknüpftes Datensatzfeld erstellt.
 
-     Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+      * Ein neuer schreibgeschützter Workfront-Planungstyp wird nur dann für das Objekt der anderen Anwendung erstellt, wenn die eigentlichen Objekte mit Datensätzen der Workfront-Planung verbunden sind.
+
+        Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+
+      * Über Workfront können keine Datensätze oder deren Felder geplant werden.
+      * Auf die Planung von Datensätzen und deren Feldern kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator das Metadaten-Mapping über die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
    * **Beim Hinzufügen von Suchfeldern des Datensatzes oder Objekts, zu dem Sie eine Verbindung herstellen**: Sie können Felder vom -Objekt der anderen Anwendung mit dem Datensatztyp für die Workfront-Planung verbinden. Diese Felder sind verknüpft oder Suchfelder. Verknüpfte Felder zeigen automatisch Informationen aus verbundenen Datensätzen oder Objekten an, wenn Sie die Datensätze oder Objekte verbinden. Die verknüpften Suchfelder sind immer schreibgeschützt und werden automatisch mit den Werten der verbundenen Datensätze oder Objekte ausgefüllt.
 
@@ -167,7 +172,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Verknüpfte Datensatzfelder erhalten ein Beziehungssymbol ![](assets/relationship-field-icon.png).
 
-  Verknüpfte Felder erhalten ein Symbol, das den Feldtyp identifiziert. Beispielsweise Symbole, die angeben, dass es sich bei einem Feld um eine Zahl, einen Absatz oder ein Datum handelt.
+  Verknüpfte Felder erhalten ein Symbol, das den Feldtyp identifiziert. Verknüpfte (oder Lookup-) Felder weisen beispielsweise Symbole darauf hin, dass es sich bei einem Feld um eine Zahl, einen Absatz oder ein Datum handelt.
+
 
 ## Datensatztypen verbinden
 
@@ -220,7 +226,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      >    * Personen
      >    * Erstellt von
      >    * Zuletzt geändert von
-     >    * Workfront typeahead-Felder
+     >    * Workfront typeahead-Felder (einschließlich Feldern wie Projekteigentümer oder Projektsponsor)
 
 1. (Bedingt und optional) Wenn Sie die Verbindung eines Workfront-Objekts ausgewählt haben, wählen Sie eine **Benutzerdefiniertes Formular** aus dem **Nur Objekte verknüpfen, die diesen Kriterien entsprechen** Abschnitt. Nur Objekte, an die die ausgewählten benutzerdefinierten Formulare angehängt sind, können mit dem ausgewählten Datensatztyp verknüpft werden. Sie können mehrere Formulare auswählen.
 
@@ -235,6 +241,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
+
+   >[!NOTE]
+   >
+   >Ihr Workfront-Administrator kann Experience Manager Assets-Feldern Planungsfelder über das Metadaten-Mapping in Workfront zuordnen. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
+
+    >[!TIP]
+    >
+    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
+    >
+    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+-->
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -258,6 +279,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. (Optional) Klicken Sie auf **Überspringen** und fügen keine Felder aus dem verknüpften Datensatz oder Objekt hinzu. Die **Name** des verknüpften Datensatzes ist das einzige sichtbare Feld in der Tabellenansicht des ursprünglichen Datensatzes.
 
 1. (Optional und bedingt) Wenn Sie ein Feld vom Typ Zahl, Währung, Prozentsatz oder Datum verknüpfen möchten, wählen Sie auch einen Aggregatorwert aus. Die Werte der verknüpften Felder werden je nach ausgewähltem Aggregator entweder durch Kommas oder als aggregierter Wert angezeigt, wenn Benutzer im verknüpften Datensatzfeld mehr als einen verknüpften Datensatz auswählen.
+
+   >[!IMPORTANT]
+   >
+   >    Sie müssen beim Hinzufügen von Datumsfeldern einen Aggregatorwert auswählen, wenn Sie möchten, dass die Felder als Start- und Enddaten für die Timeline- und Kalenderansichten hinzugefügt werden können.
+
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 

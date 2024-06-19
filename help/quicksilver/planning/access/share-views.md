@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,12 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
 1. Klicks **Link kopieren** , um einen Link zur Ansicht in die Zwischenablage zu kopieren.
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf die Seite vom Typ Datensatz zugreifen und sie in der ausgewählten Ansicht anzeigen zu können.
 1. Klicken Sie auf **Speichern**.
+
+   >[!TIP]
+   >
+   >   Für Sie freigegebene Ansichten verfügen über einen Personenindikator ![](assets/view-shared-with-others-people-icon.png) neben dem Ansichtssymbol. Ansichten ohne Personen-Indikator sind Ansichten, die Sie erstellt haben.
+
+
 
 <!--
 ## Share permissions to a view publicly

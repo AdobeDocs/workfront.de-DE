@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Aktuell: Arbeit oder höher</p>
+   <p>Neu: Standard</p>  
   </td>
   </tr>
 
@@ -67,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Beitragen oder höhere Berechtigungen zu einem Arbeitsbereich </p>  
+   <td> <p>Berechtigungen für einen Arbeitsbereich verwalten </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
@@ -80,23 +81,33 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Arbeitsdokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Überlegungen zu Miniaturansichten von Datensätzen
 
 Um in einer Tabellenansicht visuell zwischen Datensätzen zu unterscheiden, können Sie jedem Datensatz ein eindeutiges Miniaturbild zuordnen.
 
 Beachten Sie Folgendes:
 
+* Eine Miniaturansicht ist für einen Datensatz eindeutig und gilt nicht für alle Datensätze desselben Typs.
 * Sie können nur Bilddateien als Miniaturansichten hinzufügen.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* Sie können einzelnen Datensätzen in der Tabellenansicht ein Miniaturbild hinzufügen.
-* Miniaturansichten gehören zu den Datensatzinformationen und werden in Ansichten angezeigt, in denen Datensätze angezeigt werden. Beispielsweise werden Miniaturansichten neben Datensatzinformationen in den folgenden Bereichen angezeigt:
+* Sie können einzelnen Datensätzen in der Tabellenansicht oder auf der Datensatzseite oder im Vorschaufeld eine Miniaturansicht hinzufügen.
+* Workfront lädt jedes Mal, wenn Sie einen Datensatz erstellen, automatisch ein Miniaturbild hoch. Sie können dieses Bild später ändern.
+* Miniaturansichten gehören zu den Datensatzinformationen und werden in Bereichen angezeigt, in denen Datensätze angezeigt werden. Beispielsweise werden Miniaturansichten neben Datensatzinformationen in den folgenden Bereichen angezeigt:
 
    * Das primäre Feld eines Datensatzes in der Tabellenansicht
    * Die Datensatzleiste in der Timeline-Ansicht.
-* Sie können keine Miniaturansichten aus der Datensatzseite oder aus einer anderen Ansicht hinzufügen.
-* Miniaturansichten werden nicht auf der Datensatzseite angezeigt.
+   * Vorschau und Seite der Details des Datensatzes.
 
 ## Hinzufügen einer Miniaturansicht zu einem Datensatz
+
+Sie können eine Miniaturansicht wie folgt hinzufügen:
+
+* [Hinzufügen einer Miniaturansicht zu einem Datensatz aus der Tabellenansicht](#add-a-thumbnail-to-a-record-from-the-table-view)
+* [Hinzufügen einer Miniaturansicht zu einem Datensatz von der Detailseite](#add-a-thumbnail-to-a-record-from-the-details-page)
+
+### Hinzufügen einer Miniaturansicht zu einem Datensatz aus der Tabellenansicht
 
 {{step1-to-planning}}
 
@@ -110,72 +121,85 @@ Beachten Sie Folgendes:
 
    >[!TIP]
    >
-   >   Das primäre Feld ist das Feld, das in der ersten Spalte einer Tabellenansicht angezeigt wird. Das Primärfeld ist immer eingefroren und kann nicht ausgeblendet oder neu positioniert werden.
+   >   Das primäre Feld ist das Feld, das in der ersten Spalte einer Tabellenansicht angezeigt wird. Das Primärfeld ist immer eingefroren und kann nicht ausgeblendet oder neu positioniert werden. Die Option Miniaturansicht ist im Menü Mehr nicht verfügbar, wenn das primäre Feld ein Formelfeld ist.
 
-   Die **Miniaturansicht aufzeichnen** wird geöffnet.
+   Die **Hochladen** Registerkarte wird standardmäßig in der **Miniaturansicht aufzeichnen** ankreuzen.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
-
-   <!--update screen shot with correct casing-->
-
-1. Im **Hochladen** Registerkarte eine Datei per Drag-and-Drop als Miniaturansicht hinzufügen, oder klicken Sie auf **Hochladen auswählen**, suchen Sie dann nach einer Bilddatei, die hinzugefügt werden soll. Die Datei muss auf Ihrem Computer gespeichert werden.
-1. (Optional) Verwenden Sie das Größenanpassungs-Tool, um das Bild zu beschneiden und seine Größe zu ändern.
-1. Klicks **Bild verwenden** , um das Bild als Miniaturansicht hinzuzufügen.
-Dadurch wird die **Miniaturansicht aufzeichnen** ankreuzen.
-1. (Bedingt) Wenn Sie mindestens über Beitragsberechtigungen für die Tabellenansicht verfügen, klicken Sie auf **Felder** in der oberen rechten Ecke der Tabellenansicht.
-1. Wählen Sie die **Miniatur** umschalten, um die Miniaturansicht anzuzeigen. Diese Option ist standardmäßig deaktiviert.
-
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
-
-   Die Miniaturansicht wird links neben dem primären Feldwert angezeigt.
-1. (Optional und bedingt) Wenn Sie nicht über Beitragsberechtigungen oder höhere Berechtigungen für die Ansicht verfügen, wählen Sie eine neue Ansicht aus der **Ansicht** oder eine Ansicht erstellen.
-1. (Optional) Um die Miniaturansicht zu entfernen, bewegen Sie den Mauszeiger über das primäre Feld und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)> **Miniatur** > die **Entfernen** icon ![](assets/remove-image-icon.png)Klicken Sie auf **Änderungen speichern**.
+   Weitere Informationen zum Hochladen der Miniaturansicht finden Sie im Abschnitt . [Hinzufügen einer Miniaturansicht zu einem Datensatz von der Detailseite](#add-a-thumbnail-to-a-record-from-the-details-page) in diesem Artikel, beginnend mit Schritt 6. <!--see if this is accurate-->
 
 <!--
-Replace the section above with the following when we release generate thumbnails:
+   ![](assets/record-thumbnail-box-for-upload.png) 
 
-## Add a thumbnail to a record
+  *****update screen shot with correct casing****
 
-You can add a thumbnail to a record in the following ways:
+1. Drag and drop a file to add as a thumbnail
+   
+   Or
+   
+   Click **Browse images**, then browse for an image file to add. The file must be saved on your computer. 
+1. (Optional) After the image uploads in the **Record thumbnail** box, use the sizing tool to crop and resize the image.
+1. (Optional) Click the **Upload new image** icon ![](assets/upload-new-image-icon.png) to upload another image. 
+1. (Optional) To remove a thumbnail before it is saved, click  **Remove uploaded image** icon ![](assets/remove-image-icon.png) to the right of the image. 
+1. (Optional) Click the **Gallery** tab, then click an image. The gallery of images cannot be modified.
 
-* Upload a file from your computer
-* Generate an image with a prompt
+   ![](assets/record-thumbnail-box-for-gallery.png)
+1. Click **Use image** to add the image as a thumbnail. 
+   This closes the **Record thumbnail** box.
+   The thumbnail displays in areas of Workfront Planning where the record displays. 
 
-### Upload a thumbnail to a record
+   >[!TIP]
+   >
+   >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
+
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**. -->
+
+### Hinzufügen einer Miniaturansicht zu einem Datensatz von der Detailseite
 
 {{step1-to-planning}}
 
-1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Klicken Sie auf den Arbeitsbereich, für dessen Datensätze Sie Miniaturansichten hinzufügen möchten, und dann auf die Karte vom Typ Datensatz.
 
-   This opens the record type page. 
-1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
-1. Hover over the primary field information, click the **More** menu ![](assets/more-menu.png), then click **Thumbnail**. 
+   Dadurch wird die Seite mit dem Datensatztyp geöffnet.
+1. Klicken Sie in einer beliebigen Ansicht auf einen Datensatz, um ihn zu öffnen.
 
-   ![](assets/record-more-menu-expanded.png)
+   Das Vorschaufeld für Details wird angezeigt.
+1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke.
 
-      >[!TIP]
-      >
-      >   The primary field is the field that displays in the first column of a table view. The primary field is always frozen and cannot be hidden or relocated. 
+   Die Detailseite des Datensatzes wird geöffnet.
+1. Bewegen Sie den Mauszeiger über das Miniaturbild oder Symbol ![](assets/record-thumbnail-icon-on-details-page.png)und klicken Sie dann auf **Mehr** Menü ![](assets/more-menu.png) > **Miniaturansicht bearbeiten**.
 
-   The **Record thumbnail** box opens.
+   Die **Hochladen** Registerkarte wird standardmäßig in der **Miniaturansicht aufzeichnen** ankreuzen.
 
-   ![](assets/record-thumbnail-box-for-upload.png) 
+   ![](assets/record-thumbnail-box-for-upload.png)
 
-1. Click the **Upload** tab, and drag and drop a file to add as a thumbnail
-   Or
-   Click **Select to upload**, then browse for an image file to add. The file must be saved on your computer. 
-1. (Optional) Use the sizing tool to crop and resize the image.
-1. Click **Use image** to add the image as a thumbnail. 
-   This closes the **Record thumbnail** box.
-1. (Conditional) If you have at least Contribute permissions to the table view, click **Fields** in the upper-right corner of the table view. 
-1. Select the **Thumbnail** toggle to display the thumbnail. This is deselected by default. 
+1. Datei per Drag-and-Drop als Miniaturansicht hinzufügen
 
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
+   Oder
 
-   The thumbnail displays to the left of the primary field value. 
-1. (Optional and conditional) If you do not have Contribute or higher permissions to the view, select a new view from the **View** drop-down menu, or create a view. 
-1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**.
+   Klicks **Bilder durchsuchen**, suchen Sie dann nach einer Bilddatei, die hinzugefügt werden soll. Die Datei muss auf Ihrem Computer gespeichert werden.
 
+1. (Optional) Nach dem Hochladen des Bilds im **Miniaturansicht aufzeichnen** verwenden, verwenden Sie das Größenanpassungs-Tool, um das Bild zu beschneiden und seine Größe zu ändern.
+1. (Optional) Klicken Sie auf die **Neues Bild hochladen** icon ![](assets/upload-new-image-icon.png) , um ein anderes Bild hochzuladen.
+1. (Optional) Klicken Sie auf die **Galerie** und klicken Sie auf ein Bild. Die Bildergalerie kann nicht geändert werden.
+
+   ![](assets/record-thumbnail-box-for-gallery.png)
+
+1. (Optional) Um die Miniaturansicht vor dem Speichern zu entfernen, klicken Sie auf die Schaltfläche **Entfernen** icon ![](assets/remove-image-icon.png) rechts neben dem Bild.
+
+1. Klicks **Bild verwenden** , um das Bild als Miniaturansicht hinzuzufügen.
+Dadurch wird die **Miniaturansicht aufzeichnen** ankreuzen.
+Die Miniaturansicht wird in Bereichen der Workfront-Planung angezeigt, in denen der Datensatz angezeigt wird.
+
+   >[!TIP]
+   >
+   >   Sie müssen das Feld &quot;Miniaturansicht&quot;in der Tabellenansicht aktivieren, damit in dieser Ansicht Miniaturansichten angezeigt werden. Sie ist standardmäßig deaktiviert.
+
+1. (Optional) Um die Miniaturansicht nach dem Speichern zu entfernen, klicken Sie in einer beliebigen Ansicht auf einen Datensatz, um die Detailseite zu öffnen. Bewegen Sie dann den Mauszeiger über das Miniaturbild und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)> **Entfernen** icon ![](assets/remove-image-icon.png). Das Miniaturbild wird entfernt.
+
+
+
+
+<!--
 ### Generate a thumbnail for a record
 
 {{step1-to-planning}}

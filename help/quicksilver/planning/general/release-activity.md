@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 216ddc77c76d3e607cc56f32f347aa3544a03ebf
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7510'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Vorschau: zu bestimmen
 
 Wir haben das Erlebnis zum Hinzufügen einer Miniaturansicht oder eines Titelbilds zu einem Datensatz auf der Detailseite aktualisiert. Zu den Verbesserungen gehören die folgenden Updates:
 
-* Ein Miniaturbild wird einem Datensatz nach dem Zufallsprinzip zugewiesen, wenn Sie es erstellen. Sie können dieses Bild später bearbeiten.
+* Ein Miniaturbild und ein Titelbild werden automatisch einem Datensatz zugewiesen, wenn Sie es erstellen. Sie können diese Bilder später bearbeiten.
 
 * Sie können eine Miniaturansicht von der Detailseite hinzufügen. Vor dieser Verbesserung können Sie eine Miniaturansicht nur aus der Tabellenansicht hinzufügen.
 
@@ -129,7 +129,7 @@ Produktion: 17. Juni 2024
 
 Vorschau: zu bestimmen
 
-Wir haben einen Link &quot;Mehr anzeigen/Weniger anzeigen&quot;in einem verbundenen Datensatzfeld hinzugefügt, wenn Datensätze vorhanden sind, die sonst in mehr als zwei Zeilen angezeigt würden.
+Wir haben einen Link &quot;Mehr anzeigen/Weniger anzeigen&quot;in einem verbundenen Datensatzfeld hinzugefügt, wenn Datensätze vorhanden sind, die sonst in mehr als zwei Zeilen auf der Detailseite eines Datensatzes angezeigt würden.
 
 Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
 
@@ -169,7 +169,7 @@ Nachdem Sie im Hauptmenü auf Planung geklickt haben, stellen wir eine neue Land
 
 Zu den Informationen auf der Landingpage gehören:
 
-* Ein Bereich, in dem Ihre für Sie freigegebenen Arbeitsbereiche und Arbeitsbereiche angezeigt werden. Der Workspace-Eigentümer wird auf jeder Workspace-Karte aufgeführt.
+* Ein Bereich, in dem Ihre für Sie freigegebenen Arbeitsbereiche und Arbeitsbereiche angezeigt werden. Der Workspace-Eigentümer wird auf jeder Workspace-Karte angezeigt.
 
 * Wenn Sie Workfront-Administrator sind, werden die folgenden Registerkarten angezeigt:
 
@@ -324,7 +324,7 @@ Vorschau: zu bestimmen
 
 Um Informationen auf der Datensatzseite für eine effizientere Lesbarkeit und Navigation besser zu organisieren, haben wir Abschnitte zur Datensatzseite eingeführt. Die Abschnittstitel dienen als Kopfzeilen, die die Felder in verschiedene Kategorien organisieren. Die Abschnitte sind vollständig anpassbar und können bei Bedarf erweitert oder reduziert werden.
 
-Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+Weitere Informationen finden Sie unter [Layout der Datensatzseite verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Echtzeit-Aktualisierungen für Feldkonfigurationsänderungen
 
@@ -433,7 +433,7 @@ Vorschau: zu bestimmen
 
 Als Workspace-Manager können Sie jetzt die auf der Datensatzseite oder in der Vorschau aufgelisteten Felder neu anordnen. Durch die Aktualisierung der Reihenfolge der Felder wird die Reihenfolge der Felder in allen Datensätzen desselben Typs für alle geändert, die die Datensatzseite oder die Datensatzvorschau anzeigen.
 
-Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+Weitere Informationen finden Sie unter [Layout der Datensatzseite verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Hinzufügen eines Titelbilds zum Aufzeichnen von Seiten
@@ -444,7 +444,7 @@ Vorschau: zu bestimmen
 
 Bei der Verwaltung von Datensatzseiten können Sie jetzt ein Titelbild auf einer Datensatzseite oder in einer Vorschau hinzufügen, neu positionieren und ersetzen, um die Präsentation des Datensatzes und die Interaktion der Interessenträger zu bereichern. Titelbilder sind für alle Benutzer sichtbar, die die Datensätze anzeigen.
 
-Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+Weitere Informationen finden Sie unter [Layout der Datensatzseite verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Woche vom 25. März 2024
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 1%
+source-wordcount: '1965'
+ht-degree: 2%
 
 ---
 
@@ -100,6 +100,7 @@ Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [
 | Adobe Workfront-Planungsmodule für Adobe Workfront Fusion | ✓ |                                  |                 |
 | Informationen aus einem Feld in ein anderes kopieren und einfügen | ✓ |                                  |                 |
 | Auf Planungsdatensätze von Workfront-Objekten zugreifen | ✓ |                                  |                 |
+| Planen von Datensätzen aus Workfront-Objekten | ✓ |                                  |                 |
 
 ## Aktivieren der Adobe Workfront-Planung für Benutzer in Ihrer Workfront-Instanz
 
@@ -208,9 +209,18 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
 * **Verknüpfte Felder** (oder Suchfelder): Nachdem Sie die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze miteinander verknüpft haben, können Sie auf die Felder der verknüpften Datensätze in dem Datensatz verweisen, aus dem Sie eine Verbindung herstellen.
 
-  Wenn Sie beispielsweise einen Campaign-Datensatz mit einem Workfront-Projektobjekttyp verbinden, können Sie das Feld Projektinhaber der verbundenen Projekte in den Kampagnensätzen anzeigen.
+  Wenn Sie beispielsweise einen Campaign-Datensatz mit einem Workfront-Projektobjekttyp verbinden, können Sie das Feld Budget der verbundenen Projekte in den Kampagnensätzen anzeigen.
 
   ![](assets/add-lookup-fields-modal.png)
+
+  >[!TIP]
+  >
+  > Sie können die folgenden Feldtypen nicht als Suchfelder hinzufügen:
+  >
+  >* Personen
+  >* Erstellt von
+  >* Zuletzt geändert von
+  >* Workfront typeahead-Felder (einschließlich Feldern wie Projekteigentümer oder Projektsponsor)
 
   Informationen zum Verknüpfen von Datensatztypen und Datensätzen sowie zum Erstellen verknüpfter Felder finden Sie in den folgenden Artikeln:
 
@@ -285,7 +295,7 @@ So suchen Sie die Workfront-Planung:
 
    ![](assets/planning-landing-page-admin.png)
 
-   1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
+1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
    * **Meine Arbeitsbereiche**: Zeigt die erstellten Arbeitsbereiche an.
    * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche des Systems an, einschließlich der für Sie freigegebenen Arbeitsbereiche.
 

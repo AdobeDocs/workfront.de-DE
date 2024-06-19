@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quic
 
 ## Zugriffsanforderungen
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -58,9 +58,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Aktuell: Arbeit oder höher</p>
+   <p>Neu: Standard</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Beitragen oder höhere Berechtigungen zu einem Arbeitsbereich </p>  
+   <td> <p>Berechtigungen für einen Arbeitsbereich verwalten </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Arbeitsdokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Überlegungen zu Hintergrundbildern von Datensatzseiten
 
 Sie können die Seite eines Datensatzes personalisieren, indem Sie ihm ein Titelbild hinzufügen.
@@ -94,7 +97,8 @@ Beachten Sie Folgendes:
 * Sie können nur Bilddateien als Titelbilder hinzufügen.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Sie können einzelnen Datensätzen über die Datensatzvorschau in jeder Ansicht oder über die Datensatzseite ein Titelbild hinzufügen.
-* Es ist nicht möglich, Titelbilder inline aus Datensatzansichten hinzuzufügen.
+* Es ist nicht möglich, Titelbilder aus einer Datensatzansicht hinzuzufügen.
+* Workfront lädt jedes Mal, wenn Sie einen Datensatz erstellen, automatisch ein Titelbild hoch. Sie können dieses Bild später ändern.
 
 ## Hinzufügen eines Titelbilds zu einem Datensatz
 
@@ -114,19 +118,15 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    Die Seite mit dem Datensatztyp wird geöffnet.
 
-1. Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes.
+1. Klicken Sie in einer Ansicht eines beliebigen Typs auf einen Datensatz
 
    Oder
 
-   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite eines Datensatznamens.
+   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte.
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >Sie können die **Details öffnen** Symbol links neben dem Feld &quot;Name&quot;eines Datensatzes in einer Tabellenansicht nur dann angezeigt, wenn das Feld &quot;Name&quot;ein primäres Feld ist.
 
 1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der rechten oberen Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
@@ -134,10 +134,25 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    ![](assets/details-page.png)
 
-1. Klicken Sie in der Datensatzvorschau oder -seite auf **Deckblatt hinzufügen**. <!--check the casing here; I logged a bug for this-->
-Die **Datensatzabdeckung** wird geöffnet.
+1. Klicken Sie in der Datensatzvorschau oder -seite auf **Deckblatt hinzufügen**
 
-1. Klicks **Hochladen auswählen** und suchen Sie nach einem Bild auf Ihrem Computer, das Sie auswählen, hinzufügen und klicken Sie dann auf **Bild verwenden**.
+
+   Oder
+
+   Bewegen Sie den Mauszeiger über ein vorhandenes Titelbild und klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) Klicken Sie auf **Hochladen**. <!--check the casing here; I logged a bug for this-->
+Die **Datensatzabdeckung** wird in der **Hochladen** Registerkarte.
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. Klicks **Bilder durchsuchen** und suchen Sie nach einem Bild auf Ihrem Computer, um es auszuwählen und hinzuzufügen.
+
+1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das **Neues Bild hochladen** icon ![](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
+
+1. (Optional) Klicken Sie auf die **Galerie** und klicken Sie auf ein Bild in der Bildergalerie. Die Bildergalerie kann nicht geändert werden.
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. Klicks **Bild verwenden**.
 
    Das Bild wird oben auf der Datensatzvorschau oder Seite hochgeladen und die Änderungen werden automatisch gespeichert.
 

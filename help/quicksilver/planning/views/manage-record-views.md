@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1097'
 ht-degree: 1%
 
 ---
@@ -198,7 +198,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
    >[!TIP]
    >
-   >    Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensätzen oder Objekttypen suchen.
+   >    Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensätzen oder Objekttypen suchen. Sie müssen Aggregatoren für Datumsfelder (MAX oder MIN) verwenden, wenn Sie Suchfelder als Start- und Enddatum für die Timeline- und Kalenderansichten auswählen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Klicken Sie auf **Erstellen**.
 
