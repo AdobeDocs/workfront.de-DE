@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,9 @@ Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, u
 
 1. (Optional und bedingt) Klicken Sie auf **Vorschau** in einer der folgenden vordefinierten Arbeitsbereichsvorlagen:
 
-   * Marketing-Management
+   * Allgemein: Marketing-Management
+   * Erweitert: Marketing-Management
+   * Unternehmen: Marketing-Management
    * Vertriebsmanagement
    * Produktverwaltung
 
@@ -133,7 +135,7 @@ Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, u
 
    Oder
 
-   Klicks **Zurück** Klicken Sie auf **Arbeitsbereich erstellen** , um einen neuen Arbeitsbereich zu erstellen.
+   Klicks **Zurück** Klicken Sie auf **Neuer Arbeitsbereich** , um einen neuen Arbeitsbereich zu erstellen.
 
    Eine für die folgenden Arten von Arbeitsbereichen wird erstellt:
 

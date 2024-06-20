@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '2619'
+source-wordcount: '2645'
 ht-degree: 3%
 
 ---
@@ -145,9 +145,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
      >
      >* Sie können das Feld Name nicht an eine andere Position verschieben, es sei denn, Sie bestimmen ein anderes Feld als primäres Feld. Weitere Informationen erhalten Sie, wenn Sie mit Schritt 4 fortfahren. <!--accurate?-->
      >
-     >* Ein primäres Feld kann nicht ausgeblendet oder gelöscht werden.
      >
-     >* Das Primärfeld ist eingefroren und nicht Teil des horizontalen Bildlaufs.
 
    * Ersetzen Sie das Feld in der ersten Spalte durch ein anderes Feld, indem Sie das primäre Feld ändern. Weitere Informationen erhalten Sie, wenn Sie mit Schritt 4 fortfahren. <!--accurate?-->
 
@@ -167,7 +165,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >       * Zahl
    >       * Formel
    >
-   >   * Das Primärfeld ist immer eingefroren und kann nicht verschoben werden. Sie können ein primäres Feld durch ein anderes ersetzen, wenn Sie es an eine andere Position verschieben möchten.
+   >   * Das Primärfeld ist immer eingefroren und kann nicht verschoben oder ausgeblendet werden. Das Primärfeld ist eingefroren und nicht Teil des horizontalen Bildlaufs. Sie können ein primäres Feld durch ein anderes ersetzen, wenn Sie es an eine andere Position verschieben möchten.
    >
    >   * Das Ändern des Primärfelds in der Tabellenansicht wirkt sich auf die Ansicht aller anderen Benutzer aus, die das Feld auswählen.
    >
@@ -176,6 +174,8 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >   * Ein primäres Feld kann nicht gelöscht oder ausgeblendet werden.
    >
    >   * Der im primären Feld angegebene Wert ist immer per Hyperlink zur Datensatzseite gekennzeichnet.
+   >
+   >   * Primäre Felder werden zum Titel des Datensatzes und werden auf den Datensatzseiten im Header-Bereich der Datensätze und überall dort angezeigt, wo die Datensätze angezeigt werden. Beispielsweise wird der Datensatztitel in verbundenen Feldern und allen Ansichten angezeigt.
 
 1. Klicken Sie auf die Spaltentrennlinien und ziehen Sie sie an die gewünschte Stelle, um die Spaltenbreite zu vergrößern.
 
@@ -230,7 +230,7 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
 
    Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Optional) Wählen Sie einen oder mehrere Datensätze in einer Zeile aus, ziehen Sie die **handle** icon ![](assets/handle-icon.png) links neben dem Datensatznamen, um die Zeilen neu anzuordnen.
+1. (Optional) Wählen Sie einen oder mehrere Datensätze in einer Zeile aus, ziehen Sie die **handle** icon ![](assets/handle-icon.png) auf der linken Seite des Datensatzes, um die Zeilen neu anzuordnen.
 
    >[!NOTE]
    >
@@ -264,7 +264,7 @@ Beachten Sie Folgendes beim Arbeiten mit Filtern in der Tabellenansicht:
 
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
 
-* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise einen Filter für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projekteigentümer in dem Filter referenzieren, den Sie für den Aktivitäts-Record-Typ erstellen.
+* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise einen Filter für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie das Budget des Projekts in dem Filter referenzieren, den Sie für den Aktivitäts-Record-Typ erstellen.
 
 So fügen Sie einer Tabellenansicht einen Filter hinzu:
 
@@ -375,7 +375,7 @@ Beachten Sie Folgendes:
 * Durch das Entfernen von Gruppierungen werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
 * Sie können die unter einer Gruppierung aufgelisteten Datensätze bearbeiten.
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern gruppieren, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
-* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Gruppierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projekteigentümer in der für den Aktivitäts-Record-Typ erstellten Gruppierung referenzieren.
+* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Gruppierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatz-Typ verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der für den Aktivitäts-Record-Typ erstellten Gruppierung referenzieren.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -403,7 +403,7 @@ So fügen Sie eine Gruppierung hinzu:
    Klicks **Alle löschen** um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb der **Gruppiert Datensätze nach** zum Schließen.
-1. (Optional) Klicken Sie auf **+ Neu &lt; Name des Datensatztyps >** am Ende jeder Gruppierung, um neue Datensätze hinzuzufügen, und aktualisieren Sie dann Ihre Seite, um den neuen Datensatz zur entsprechenden Gruppierung hinzuzufügen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. (Optional) Klicken Sie auf **+ Neuer Datensatz** am Ende jeder Gruppierung, um neue Datensätze hinzuzufügen, und aktualisieren Sie dann Ihre Seite, um den neuen Datensatz zur entsprechenden Gruppierung hinzuzufügen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Sortierung hinzufügen {#sort-information}
 
@@ -432,7 +432,7 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht Folgendes:
 
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern sortieren, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
 
-* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Sortierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektinhaber in der Art referenzieren, die Sie für den Aktivitäts-Record-Typ erstellen.
+* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Sortierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der Art referenzieren, die Sie für den Aktivitäts-Record-Typ erstellen.
 
 Zum Sortieren <!--ungrouped (add this when sorting for groupings will be available--> -Einträge, führen Sie folgende Schritte aus:
 

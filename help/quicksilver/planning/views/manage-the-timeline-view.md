@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,13 @@ Aktualisieren Sie die Einstellungen der Timeline-Ansicht, um anzugeben, welche I
 
    * **Standard (grau)**: Die Farbe der Gruppierungen ist auf grau eingestellt. Dies ist die Standardeinstellung.
    * **Feldwerte**: Die Farbe der Gruppierungen entspricht der Farbe des Felds, nach dem Sie die Gruppe bilden.
-Sie können die Farbe der Gruppierungen nur mit Feldern mit farbcodierten Optionen abgleichen.
+
+     >[!NOTE]
+     >
+     >    * Sie können die Farbe nur mit Feldern mit farbcodierten Optionen abgleichen. Beispielsweise können Sie die Farbe mit Statusfeldern oder Feldern mit Optionen, die Farben zugeordnet sind, abgleichen.
+     >    
+     >    * Sie können die Farbe nicht mit Suchfeldern aus verknüpften Datensätzen oder Objekttypen abgleichen.
+
 
    Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbkodierte Optionen aufweisen.
 

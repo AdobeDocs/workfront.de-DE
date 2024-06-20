@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -106,14 +106,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Datensätze können nicht stapelweise bearbeitet werden. <!--this will probably change-->
 * URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit den folgenden Begriffen beginnen: http://, https://, ftp:// oder www. .
 * Sie können jedem Datensatz ein Titelbild hinzufügen. Das Bild ist für jeden Datensatz eindeutig und gilt nicht für alle Datensätze derselben Zeit.
-* Sie können die Reihenfolge der Felder auf einer Datensatzseite bearbeiten und ein Titelbild für einen Datensatz hinzufügen. Weitere Informationen finden Sie unter [Datensatzseite verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+* Sie können die Reihenfolge der Felder auf einer Datensatzseite bearbeiten und ein Titelbild für einen Datensatz hinzufügen. Weitere Informationen finden Sie unter [Layout der Datensatzseite verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Datensätze bearbeiten
 
 Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
-* [Aus der Tabellenansicht eines Datensatztyps](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Über die Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-box-in-a-view)
+* [Aus der Tabellenansicht eines Datensatztyps](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Über die Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view)
 * [Auf der Datensatzseite](#edit-a-record-from-the-records-page)
 
 ### Datensatz in der Tabellenansicht eines Datensatztyps inline bearbeiten
@@ -200,17 +200,17 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
    Die Seite mit dem Datensatztyp wird geöffnet.
 
-1. Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes.
+1. Klicken Sie in einer Ansicht beliebigen Typs auf den Datensatz.
 
    Oder
 
-   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) auf der linken Seite eines Datensatznamens. Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
+   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte. Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    ![](assets/details-box.png)
 
-   >[!TIP]
-   >
-   >Sie können die **Details öffnen** Symbol links neben dem Feld &quot;Name&quot;eines Datensatzes in einer Tabellenansicht nur dann angezeigt, wenn das Feld &quot;Name&quot;ein primäres Feld ist.
+1. (Optional) Klicken Sie auf die **Mehr** Menü rechts neben dem Titel des Datensatzes und klicken Sie auf **Umbenennen**. Dadurch wird das Feld aktualisiert, das als Titel des Datensatzes angezeigt wird.
+
+   Der Titel des Datensatzes ist das primäre Feld des Datensatzes bei der Anzeige in einer Tabellenansicht. Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 1. Beginnen Sie mit der Bearbeitung der Feldinformationen in der Datensatzvorschau.
 
@@ -218,10 +218,12 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
    >
    >  Sie können Informationen für die folgenden Felder nicht bearbeiten, da sie schreibgeschützt sind und Workfront sie automatisch aktualisiert:
    >  
-   >  * Verknüpfte Felder, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Suchfelder aus anderen Datensätzen, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Letztes Änderungsdatum, Formelfelder.
 
 1. (Optional) Klicken Sie auf **Deckblatt hinzufügen** , um dem Datensatz ein Titelbild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (Optional) Bewegen Sie den Mauszeiger über das Miniaturansichtssymbol und klicken Sie auf **Mehr** ![](assets/more-menu.png) > **Miniaturansicht bearbeiten** , um ein Miniaturbild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront speichert Ihre Änderungen automatisch.
 
@@ -251,6 +253,10 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
      ![](assets/details-page.png)
 
+1. (Optional) Klicken Sie auf die **Mehr** Menü rechts neben dem Titel des Datensatzes und klicken Sie auf **Umbenennen**. Dadurch wird das Feld aktualisiert, das als Titel des Datensatzes angezeigt wird.
+
+   Der Titel des Datensatzes ist das primäre Feld des Datensatzes bei der Anzeige in einer Tabellenansicht. Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 1. Klicken Sie auf ein beliebiges bearbeitbares Feld auf der Datensatzseite, um es zu bearbeiten.
 
    >[!TIP]
@@ -260,7 +266,17 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
    >  * Verknüpfte Felder, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Felder der folgenden Typen: Erstellt von, Erstellungsdatum, Letzte Änderung durch, Letztes Änderungsdatum, Formelfelder.
 
-1. (Optional) Klicken Sie auf **Deckblatt hinzufügen** , um dem Datensatz ein Titelbild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. (Optional) Klicken Sie auf **Deckblatt hinzufügen** , um dem Datensatz ein Titelbild hinzuzufügen
+
+   Oder
+
+   Bewegen Sie den Mauszeiger über das vorhandene Titelbild und klicken Sie dann auf **Mehr** Menü ![](assets/more-menu.png) > **Hochladen** , um ein neues Titelbild für den Datensatz hinzuzufügen.
+
+   Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (Optional) Bewegen Sie den Mauszeiger über eine vorhandene Miniaturansicht oder die **Miniaturansichtssymbol** ![](assets/record-thumbnail-icon-on-details-page.png)und klicken Sie dann auf **Mehr** Menü ![](assets/more-menu.png) > **Miniaturansicht bearbeiten** , um eine Miniaturansicht für den Datensatz hinzuzufügen.
+
+   Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront speichert Ihre Änderungen automatisch.
 

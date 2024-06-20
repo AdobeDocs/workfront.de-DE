@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -100,55 +100,81 @@ You must have the following:
 
 Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anzahl der darin enthaltenen Felder:
 
-* **Marketing-Management**: Sie können alle Ihre Marketing-Kampagnen verwalten, wenn Sie diese Vorlage verwenden. Die Vorlage enthält Folgendes:
+* **Allgemein: Marketing-Management**: Ideal für Organisationen, die die Grundlage eines grundlegenden Marketing-Systems schaffen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Betriebsdatentypen:
+   * Betriebliche Datensatztypen:
 
-      * **Marketingplan**: 7 Felder und 5 verknüpfte Felder
-      * **Kampagne**: 9 Felder und 7 verknüpfte Felder
-      * **Programm**: 9 Felder und 5 verknüpfte Felder
-      * **Aktivität**: 6 Felder und 5 verknüpfte Felder
+      * **Kampagne**: 15 Felder
    * Taxonomien:
-      * **Zielgruppe**: 3 Felder und 3 verknüpfte Felder
-      * **Segment**: 5 Felder und 1 verknüpftes Feld
-      * **Journey**: 4 Felder
-      * **Produktangebot**: 3 Felder und 1 verknüpftes Feld
-      * **Region**: 1 Feld
-      * **Tacetisch**: 1 Feld
-      * **Kanäle**: 1 Feld und 1 verknüpftes Feld
-      * **Geschäftsbereich**: 1 Feld
-      * **Funktion**: 1 Feld
 
-* **Vertriebsmanagement**: Sie können ein umfassendes Vertriebssystem erstellen, das Ihren Verkaufsprozess optimiert und die Effizienz erhöht. Die Vorlage enthält Folgendes:
+      * **Personas**: 7 Felder
+      * **Marken**: 6 Felder
+      * **Produkte**: 5 Felder
 
-   * Betriebsdatentypen:
+* **Erweitert: Marketing-Management**: Geeignet für Teams, die zur Erforschung nuancierter Marketing-Strategien bereit sind. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-      * **Chancen**: 7 Felder und 4 verknüpfte Felder
-      * **Aktivität**: 4 Felder und 5 verknüpfte Felder
-      * **Kampagne**: 5 Felder und 3 verknüpfte Felder
+   * Betriebliche Datensatztypen:
+
+      * **Kampagnen**: 14 Felder
+      * **Programme**: 23 Felder
+
    * Taxonomien:
-      * **Konto**: 4 Felder und 3 verknüpfte Felder
-      * **Lead**: 12 Felder und 2 verknüpfte Felder
-      * **Kontakt**: 10 Felder und 2 verknüpfte Felder
-      * **Region**: 1 Feld und 2 verknüpfte Felder
-      * **Branche**: 1 Feld
+      * **Regionen**: 1 Feld
+      * **Journey-Phasen für Kunden**: 4 Felder
+      * **Zielgruppen**: 8 Felder
+      * **Lieferziele**: 12 Felder
+      * **Marken**: 6 Felder
+
+* **Unternehmen: Marketing-Management**: Für große oder ausgereifte Unternehmen mit komplexen Marketingsystemen entwickelt. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+
+   * Betriebliche Datensatztypen:
+
+      * **Kampagnen**: 15 Felder
+      * **Programme**: 15 Felder
+      * **Taktik**: 11 Felder
+      * **Tätigkeiten**: 18 Felder
+
+   * Taxonomien:
+
+      * **Produkte**: 10 Felder
+      * **Lieferziele**: 18 Felder
+      * **Zielgruppen**: 8 Felder
+      * **Regionen**: 8 Felder
+      * **Unterregionen**: 7 Felder
+      * **Partner**: 7 Felder
+      * **Nutzungsszenarios**: 7 Felder
+      * **Journey-Phasen für Kunden**: 3 Felder
+
+* **Vertriebsmanagement**: Sie können ein umfassendes Vertriebssystem erstellen, das Ihren Verkaufsprozess optimiert und die Effizienz erhöht. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+
+   * Betriebliche Datensatztypen:
+
+      * **Chancen**: 11 Felder
+      * **Aktivität**: 9 Felder
+      * **Kampagne**: 8 Felder
+   * Taxonomien:
+      * **Konto**: 7 Felder
+      * **Lead**: 14 Felder
+      * **Kontakt**: 12 Felder
+      * **Region**: 3 Felder
+      * **Branche**: 2 Feld
       * **Einkaufszentrum**: 1 Feld
       * **Produkt/Service**: 1 Feld
       * **Wettbewerb**: 1 Feld
 
-* **Produktverwaltung**: Mit dieser Vorlage können Sie einen effizienten und strukturierten Produktverwaltungsprozess erstellen. Die Vorlage enthält Folgendes:
+* **Produktverwaltung**: Mit dieser Vorlage können Sie einen effizienten und strukturierten Produktverwaltungsprozess erstellen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Betriebsdatentypen:
+   * Betriebliche Datensatztypen:
 
-      * **Design**: 8 Felder und 2 verknüpfte Felder
-      * **Initiative**: 8 Felder und 2 verknüpfte Felder
-      * **Epic**: 9 Felder und 3 verknüpfte Felder
-      * **Benutzergeschichte**: 9 Felder und 2 verknüpfte Felder
+      * **Design**: 10 Felder
+      * **Initiative**: 10 Felder
+      * **Epic**: 12 Felder
+      * **Benutzergeschichte**: 11 Felder
 
    * Taxonomien:
 
-      * **Kunde**: 6 Felder und 1 verknüpftes Feld
-      * **Sprint**: 7 Felder und 1 verknüpftes Feld
-      * **Produktteam**: 3 Felder
-      * **Funktionsanforderungen**: 8 Felder und 1 verknüpftes Feld
-      * **Branche**: 1 Feld und 1 verknüpftes Feld
+      * **Kunde**: 8 Felder
+      * **Sprint**: 9 Felder
+      * **Produktteam**: 4 Felder
+      * **Funktionsanforderungen**: 9 Felder
+      * **Branche**: 2 Felder

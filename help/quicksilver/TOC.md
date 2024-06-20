@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '14351'
+source-wordcount: '14352'
 ht-degree: 1%
 
 ---
@@ -2091,7 +2091,7 @@ ht-degree: 1%
       * [Übersicht über den Verlaufsabschnitt](planning/records/history-section-overview.md)
       * [Hinzufügen einer Miniaturansicht zu einem Datensatz](planning/records/add-thumbnails-to-records.md)
       * [Hinzufügen eines Titelbilds zu einem Datensatz](planning/records/add-a-cover-image-to-a-record.md)
-      * [Datensatzseite verwalten](planning/records/manage-the-record-page.md)
+      * [Layout der Datensatzseite verwalten](planning/records/manage-the-record-page.md)
       * [Verwalten von Datensätzen im Bereich &quot;Planung&quot;von Adobe Workfront-Objekten](planning/records/manage-records-in-planning-section.md)
    * Adobe Workfront-Planungsansichten {#adobe-workfront-planning-views}
       * [Ansichten: Artikelindex](planning/views/views-information.md)

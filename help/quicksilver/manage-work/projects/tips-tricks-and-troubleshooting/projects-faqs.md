@@ -5,10 +5,10 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Das Datum des tatsächlichen Abschlusses stellt das Datum und die Uhrzeit des Ab
 
 ### Antwort
 
-Um die Einzug-/Ausschlussschaltfläche zu verwenden, stellen Sie sicher, dass die Aufgaben nach der Aufgabennummer sortiert sind und keine Gruppierungen angewendet werden.
+Um die Schaltfläche &quot;Einzug/Ausrücken&quot;verwenden zu können, müssen Sie sicherstellen, dass die Aufgaben nach der Aufgabennummer sortiert sind und keine Gruppierungen angewendet werden.
 
 ## Warum kann ich den Projektstatus nicht in Abgeschlossen ändern?
 
@@ -51,7 +51,7 @@ Sie können den Status eines zu beendenden Projekts nicht ändern, wenn Sie Folg
 
 ### Antwort
 
-Wenn der Abschlussmodus des Projekts auf Automatisch eingestellt ist, wechselt der Status des Projekts nach Abschluss aller Aufgaben und Probleme automatisch zu Abgeschlossen und Sie können ihn nicht in einen anderen Status ändern. Der Abschlussmodus des Projekts muss auf Manuell eingestellt sein, damit ein komplettes Projekt in &quot;Aktuell&quot;umgewandelt werden kann. Weitere Informationen finden Sie unter [Der Projektstatus ändert sich nicht von Abgeschlossen zu Aktuell](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Wenn der Abschlussmodus des Projekts auf Automatisch eingestellt ist, wechselt der Status des Projekts nach Abschluss aller Aufgaben und Probleme automatisch zu Abgeschlossen und Sie können ihn nicht in einen anderen Status ändern. Der Abschlussmodus des Projekts muss auf Manuell eingestellt sein, damit ein komplettes Projekt in &quot;Aktuell&quot;umgewandelt werden kann. Weitere Informationen finden Sie unter [Der Projektstatus ändert sich nicht von Fertig stellen in Aktuell](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
 ## Warum kann ich einem Portfolio kein Projekt hinzufügen, obwohl ich über die entsprechenden Berechtigungen verfügt?
 
@@ -73,7 +73,7 @@ Die Ursache liegt darin, dass der Portfolio-Status inaktiv ist. So ändern Sie d
 
 Ressourcen-Manager erhalten automatisch Zugriff auf Projekte verwalten. Wenn Sie den Benutzer aus der Rolle &quot;Ressourcen-Manager&quot;entfernen, wird der Zugriff auf &quot;Freigabe verwalten&quot;nicht entfernt.
 
-## Warum ändert sich der Projektstatus, wenn ich eine Gruppe hinzufüge?
+## Warum ändert sich der Projektstatus beim Hinzufügen einer Gruppe?
 
 ### Antwort
 
@@ -101,4 +101,4 @@ Der Adobe Workfront-Administrator beschränkte sich auf die Anzeige von Unterneh
 
 ![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
-Informationen dazu, wie Sie einem Benutzer die Anzeige aller Teams im System ermöglichen, finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Informationen dazu, wie Sie einem Benutzer ermöglichen, alle Teams im System anzuzeigen, finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
