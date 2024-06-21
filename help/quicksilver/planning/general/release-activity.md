@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
+source-wordcount: '7781'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,16 @@ Der Titel eines Datensatzes ist entweder der Name des Datensatzes oder jedes Fel
 Diese Verbesserung ist für Datensätze verfügbar, die über die Workfront-Planung verbunden sind, sowie für Assets, die über die Adobe Experience Manager verbunden sind.
 
 Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Nur Benutzer mit einer Lizenz vom Typ Standard oder Geplant können über die Berechtigung &quot;Arbeitsbereiche verwalten&quot;(Titel) verfügen.
+
+Produktion: 21. Juni 2024
+
+Vorschau: zu bestimmen
+
+Es wurde geändert, welche Benutzertypen vollen Zugriff auf Arbeitsbereiche haben können. Jetzt können nur Benutzer mit der Lizenz Standard oder Plan über die Berechtigung &quot;Verwalten&quot;für Arbeitsbereiche verfügen. Der Zugriff auf Datensatztypen, Datensätze und Felder wird von einem Arbeitsbereich übernommen. Alle anderen Benutzer haben schreibgeschützten Zugriff auf Arbeitsbereiche und deren Objekttypen. Vor dieser Aktualisierung konnten Benutzer mit Light- und Worker-Lizenz Contribute-Berechtigungen für Arbeitsbereiche erhalten.
+
+Weitere Informationen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Woche vom 10. Juni 2024
 
@@ -366,7 +376,7 @@ Wenn ein Benutzer eine Feldkonfiguration (Name, Beschreibung, Optionsliste usw.)
 >
 >Es gibt keine Benachrichtigung für andere Benutzer, dass die Feldkonfiguration geändert wurde.
 
-Weitere Informationen finden Sie unter [Felder bearbeiten](/help/quicksilver/planning/fields/edit-fields.md).
+Weitere Informationen finden Sie unter [Feldeinstellungen bearbeiten](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Woche vom 6. Mai 2024
 

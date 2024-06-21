@@ -1,13 +1,13 @@
 ---
-title: Felder bearbeiten
+title: Feldeinstellungen bearbeiten
 description: In der Adobe Workfront-Planung können Sie die Feldeinstellungen für bereits erstellte Felder bearbeiten. In diesem Artikel wird beschrieben, wie Sie die Einstellungen für die Workfront-Planungsfelder bearbeiten können.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
-title: Edit foelds
+title: Edit fields
 description: In Adobe Workfront Planning, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes
@@ -25,7 +25,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Felder bearbeiten
+# Feldeinstellungen bearbeiten
 
 {{planning-important-intro}}
 
@@ -34,33 +34,6 @@ Sie können die Feldeinstellungen für Felder bearbeiten, die bereits in der Ado
 Informationen zum Erstellen von Adobe Workfront-Planungsfeldern finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
 In diesem Artikel wird beschrieben, wie Sie die Einstellungen für die Workfront-Planungsfelder bearbeiten können. Informationen zum Bearbeiten von Feldwerten für Datensätze finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
-
-## Überlegungen zum Bearbeiten von Feldeinstellungen
-
-Beachten Sie Folgendes, bevor Sie Änderungen an der Konfiguration eines Felds vornehmen:
-
-* Sie können von Ihnen erstellte Felder oder von anderen Benutzern erstellte Felder bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem die Felder gehören.
-* Sie können ein Feld in der Tabelle vom Typ Datensatz bearbeiten.
-* Sie können ein Feld auf der Datensatzseite oder in einer anderen Ansicht außerhalb der Tabellenansicht nicht bearbeiten.
-* Nach dem Speichern des Felds können Sie den Feldtyp nicht mehr bearbeiten.
-* Die Auswahl der zuvor ausgewählten Einstellung Negative Zahlen zulassen für ein Feld vom Typ Zahl, Prozentsatz oder Währung kann nicht aufgehoben werden, wenn bereits negative Werte in den Datensätzen gespeichert sind, an die das Feld angehängt ist.
-* Nach dem Speichern des Felds können Sie die Konfiguration der folgenden Feldelemente bearbeiten:
-
-   * Der Name oder die Beschreibung eines beliebigen Felds
-   * Die Optionen eines Einzelauswahl- oder eines Mehrfachauswahlfelds.
-   * Der Ausdruck eines Formelfelds.
-
-  >[!WARNING]
-  >
-  >Wenn sich Formelausdrücke ändern oder Optionen aus einem Auswahlfeld hinzugefügt oder entfernt werden, gehen Daten für die Datensätze verloren, die bereits über Informationen verfügen, die in den Feldern gespeichert sind, deren Konfiguration geändert wird.
-  >
-  >Es gibt keine Warnung oder Hinweise darauf, dass dieser Datenverlust auftreten kann, wenn Sie die Konfiguration der Felder ändern.
-  >
-  >Es gibt keine Benachrichtigung für andere Benutzer, dass die Feldkonfiguration geändert wurde.
-
-<!--this is not yet true, but it might come later:
-* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
--->
 
 ## Zugriffsanforderungen
 
@@ -91,9 +64,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Neu: Standard</p>
+   <p>Aktuell: Plan</p> 
   </td>
   </tr>
 
@@ -118,10 +92,39 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+## Überlegungen zum Bearbeiten von Feldeinstellungen
+
+Beachten Sie Folgendes, bevor Sie Änderungen an der Konfiguration eines Felds vornehmen:
+
+* Sie können von Ihnen erstellte Felder oder von anderen Benutzern erstellte Felder bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem die Felder gehören.
+* Sie können ein Feld in der Tabelle vom Typ Datensatz bearbeiten.
+* Sie können ein Feld auf der Datensatzseite oder in einer anderen Ansicht außerhalb der Tabellenansicht nicht bearbeiten.
+* Nach dem Speichern des Felds können Sie den Feldtyp nicht mehr bearbeiten.
+* Die Auswahl der zuvor ausgewählten Einstellung Negative Zahlen zulassen für ein Feld vom Typ Zahl, Prozentsatz oder Währung kann nicht aufgehoben werden, wenn bereits negative Werte in den Datensätzen gespeichert sind, an die das Feld angehängt ist.
+* Nach dem Speichern des Felds können Sie die Konfiguration der folgenden Feldelemente bearbeiten:
+
+   * Der Name oder die Beschreibung eines beliebigen Felds
+   * Die Optionen eines Einzelauswahl- oder eines Mehrfachauswahlfelds.
+   * Der Ausdruck eines Formelfelds.
+
+  >[!WARNING]
+  >
+  >Wenn sich Formelausdrücke ändern oder Optionen aus einem Auswahlfeld hinzugefügt oder entfernt werden, gehen Daten für die Datensätze verloren, die bereits über Informationen verfügen, die in den Feldern gespeichert sind, deren Konfiguration geändert wird.
+  >
+  >Es gibt keine Warnung oder Hinweise darauf, dass dieser Datenverlust auftreten kann, wenn Sie die Konfiguration der Felder ändern.
+  >
+  >Es gibt keine Benachrichtigung für andere Benutzer, dass die Feldkonfiguration geändert wurde.
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
+-->
 
 ## Feldeinstellungen bearbeiten
 

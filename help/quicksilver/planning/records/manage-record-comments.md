@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -30,38 +30,6 @@ Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 
 * **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzer zu Datensätzen hinzufügen.
 * **Geschichte**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen. Weitere Informationen finden Sie unter [Übersicht über den Verlaufsabschnitt](/help/quicksilver/planning/records/history-section-overview.md).
-
-## Überlegungen zum Kommentieren eines Datensatzes
-
-* Sie können in der Workfront-Planung im Abschnitt Kommentare eines Datensatzes Kommentare und Antworten zu Datensätzen hinzufügen.
-
-* Kommentare zu verknüpften Datensätzen werden nicht in den Datensätzen angezeigt, von denen Sie eine Verknüpfung herstellen. Wenn Sie beispielsweise einen Workfront Planning-Produktdatensatz kommentieren, der mit einem Campaign-Datensatz verknüpft ist, wird der Kommentar nur im Produktdatensatz in der Workfront-Planung und nicht im Campaign-Datensatz angezeigt, mit dem Sie eine Verknüpfung herstellen.
-
-* Sie können Workfront-Planungsdatensätzen Kommentare hinzufügen, die durch eine Verbindung zwischen einem Datensatz und einem Objekt aus einer anderen Anwendung erstellt wurden.
-
-  Beispielsweise können Sie den Datensatz &quot;Projekt-Workfront-Planung&quot;kommentieren, nachdem Sie Workfront-Projekte mit Workfront-Planungsdatensätzen verbunden haben. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
-
-* Kommentare zu verknüpften Objekten in anderen Anwendungen werden nicht in der Workfront-Planung angezeigt und Kommentare, die zu verknüpften Objekten in der Workfront-Planung hinzugefügt wurden, werden in anderen Anwendungen nicht angezeigt.
-
-  Beispielsweise werden zu Projekten in Workfront hinzugefügte Kommentare nicht im selben Projekt angezeigt, das mit einer Kampagne in der Workfront-Planung verknüpft ist, und Kommentare, die zum Projekt Workfront Planning Record hinzugefügt wurden, werden nicht in Workfront angezeigt.
-
-* Sie können Benutzer taggen, um sie auf eine Aktualisierung aufmerksam zu machen. Mit Tags versehene Benutzer erhalten keine In-App-Benachrichtigung oder E-Mail über Ihre Aktualisierung. <!--this might change??-->
-
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
-
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
-
-* Sie können Datensätze aktualisieren und den Verlauf von Änderungen in den folgenden Bereichen der Workfront-Planung überprüfen:
-
-   * Auf der Seite mit den Datensatzdetails .
-   * In einer Ansicht im Feld &quot;Datensatzdetails&quot;.
 
 ## Zugriffsanforderungen
 
@@ -117,6 +85,39 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
  </tbody>
 </table>
+
+
+## Überlegungen zum Kommentieren eines Datensatzes
+
+* Sie können in der Workfront-Planung im Abschnitt Kommentare eines Datensatzes Kommentare und Antworten zu Datensätzen hinzufügen.
+
+* Kommentare zu verknüpften Datensätzen werden nicht in den Datensätzen angezeigt, von denen Sie eine Verknüpfung herstellen. Wenn Sie beispielsweise einen Workfront Planning-Produktdatensatz kommentieren, der mit einem Campaign-Datensatz verknüpft ist, wird der Kommentar nur im Produktdatensatz in der Workfront-Planung und nicht im Campaign-Datensatz angezeigt, mit dem Sie eine Verknüpfung herstellen.
+
+* Sie können Workfront-Planungsdatensätzen Kommentare hinzufügen, die durch eine Verbindung zwischen einem Datensatz und einem Objekt aus einer anderen Anwendung erstellt wurden.
+
+  Beispielsweise können Sie den Datensatz &quot;Projekt-Workfront-Planung&quot;kommentieren, nachdem Sie Workfront-Projekte mit Workfront-Planungsdatensätzen verbunden haben. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+
+* Kommentare zu verknüpften Objekten in anderen Anwendungen werden nicht in der Workfront-Planung angezeigt und Kommentare, die zu verknüpften Objekten in der Workfront-Planung hinzugefügt wurden, werden in anderen Anwendungen nicht angezeigt.
+
+  Beispielsweise werden zu Projekten in Workfront hinzugefügte Kommentare nicht im selben Projekt angezeigt, das mit einer Kampagne in der Workfront-Planung verknüpft ist, und Kommentare, die zum Projekt Workfront Planning Record hinzugefügt wurden, werden nicht in Workfront angezeigt.
+
+* Sie können Benutzer taggen, um sie auf eine Aktualisierung aufmerksam zu machen. Mit Tags versehene Benutzer erhalten keine In-App-Benachrichtigung oder E-Mail über Ihre Aktualisierung. <!--this might change??-->
+
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
+
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
+
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
+* Sie können Datensätze aktualisieren und den Verlauf von Änderungen in den folgenden Bereichen der Workfront-Planung überprüfen:
+
+   * Auf der Seite mit den Datensatzdetails .
+   * In einer Ansicht im Feld &quot;Datensatzdetails&quot;.
 
 ### Kommentare zu Datensätzen verwalten
 

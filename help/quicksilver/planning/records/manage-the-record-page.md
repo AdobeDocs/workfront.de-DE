@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Neu: Licht oder höher</p>
+   <p>Neu: Standard</p>
    Oder
-   <p>Aktuell: Arbeit oder höher</p> 
+   <p>Aktuell: Plan</p> 
   </td>
   </tr>
 
@@ -78,7 +78,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Verwalten oder höhere Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <td> <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>

@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 6%
+source-wordcount: '663'
+ht-degree: 7%
 
 ---
 
@@ -41,20 +41,25 @@ Sie können die folgenden Objekte freigeben:
 
 * Ansichten
 
+  Sie müssen Benutzern, einschließlich Systemadministratoren, Berechtigungen erteilen, unabhängig von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche auf Ansichten zuzugreifen. Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md).
+
+Sie können einen Arbeitsbereich oder eine Ansicht für die folgenden Entitäten freigeben:
+
+* Benutzende
+* Gruppen
+
+<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+
 ## Überlegungen zum Freigeben von Objekten in der Adobe Workfront-Planung
 
-* Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Workfront Planning-Berechtigungen zusammen, um Ihnen bei der Verwendung der Workfront-Planung Zugriff auf die Anzeige, den Beitrag oder die Verwaltung von Objekten zu gewähren.
+* Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Workfront Planning-Berechtigungen zusammen, um Ihnen Zugriff auf die Ansicht, den Beitrag und die Verwaltung von Arbeitsbereichen und deren Objekten zu gewähren.
 
   Informationen darüber, wie sich Lizenztypen auf die Berechtigungsstufen für die Workfront-Planung auswirken, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md).
-* Systemadministratoren können von anderen Benutzern erstellte Arbeitsbereiche verwalten und freigeben.
-* Wenn Sie kein Systemadministrator sind, können Sie zu Arbeitsbereichen beitragen, die von anderen erstellt wurden, wenn diese für Sie freigegeben sind.
-* Sie können keine Arbeitsbereiche oder Ansichten gemeinsam nutzen.
-* Sie können einen Arbeitsbereich oder eine Ansicht für die folgenden Entitäten freigeben:
-   * Benutzende
-   * Gruppen
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+* Systemadministratoren können alle Arbeitsbereiche im System verwalten, einschließlich derjenigen, die sie nicht erstellt haben.
 * Andere Benutzer, einschließlich Systemadministratoren, können nur auf Ansichten zugreifen, die sie erstellt haben oder die für sie freigegeben wurden. Systemadministratoren können nur Berechtigungen zum Verwalten einer Ansicht erhalten.
-* Sie können einen Link zu einem Arbeitsbereich oder zu einer Ansicht von einer Seite vom Typ Datensatz für andere freigeben. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich oder die Seite vom Typ Datensatz zugreifen zu können, die in der ausgewählten Ansicht angezeigt wird.
+* Sie können einen Link zu einem Arbeitsbereich oder einer Ansicht für andere freigeben.
+
+  Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich oder die Seite vom Typ Datensatz zugreifen zu können, die in der ausgewählten Ansicht angezeigt wird.
 
 ## Berechtigungen für Adobe Workfront Planning-Objekte freigeben
 
@@ -63,6 +68,8 @@ Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berech
 >[!IMPORTANT]
 >
 >Nicht alle Benutzer können über die unten beschriebenen Berechtigungsstufen verfügen. Die individuelle Lizenz eines Benutzers legt fest, welche Berechtigungen er für Workfront Planning-Objekte erhalten kann.
+>
+>Nur Benutzer mit einer Standardlizenz (oder Plan) können über Contribute- oder Verwaltungsberechtigungen für Arbeitsbereiche verfügen.
 >
 >Weitere Informationen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -75,9 +82,6 @@ Sie müssen Benutzern Berechtigungen für Arbeitsbereiche erteilen, damit sie Zu
 * Datensatztypen
 * Datensätze
 * Felder
-* Ansichten*
-
-  *Sie können allen Benutzern mit der Berechtigung Ansicht oder höher für einen Arbeitsbereich erlauben, auch auf die Ansichten im Arbeitsbereich zuzugreifen. Dies ist eine zusätzliche Berechtigung, die Sie beim Freigeben einer Ansicht aktivieren müssen. Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md).
 
 Im Folgenden finden Sie die Berechtigungsstufen für Arbeitsbereiche:
 
