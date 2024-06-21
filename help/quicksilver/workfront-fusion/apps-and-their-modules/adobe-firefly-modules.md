@@ -9,9 +9,9 @@ description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automa
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
+source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -241,8 +241,8 @@ Dieses Aktionsmodul füllt den maskierten Bereich eines Bildes, optional mit Inh
    <td>Wählen Sie die Größe aus, die das ausgefüllte Bild aufweisen soll.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Geben Sie eine Ganzzahl ein oder ordnen Sie sie zu. Sie können dieses Samen in einem anderen Modul Bild erweitern verwenden, um ein ähnliches Bild mit unterschiedlichen Stilen zu generieren. </td> 
+   <td role="rowheader">[!UICONTROL Seeds]</td> 
+   <td>Klicken Sie für jedes Bild, das vom Modul generiert wird, auf <b>Element hinzufügen<b> und eine Ganzzahl eingeben oder zuordnen. Sie können dieses Samen in einem anderen Modul Bild erweitern verwenden, um ein ähnliches Bild mit unterschiedlichen Stilen zu generieren. Die Anzahl der hinzugefügten Samen muss dem Feld Anzahl der Varianten entsprechen.</td> 
   </tr> 
  </tbody> 
 </table>
