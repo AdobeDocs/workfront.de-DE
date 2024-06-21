@@ -8,9 +8,10 @@ title: Adobe Firefly-Module
 description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Adobe Firefly], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
+exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
+source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -177,6 +178,10 @@ Dieses Aktionsmodul erweitert ein Bild, optional mit Inhalt aus einer von Ihnen 
    <td>Geben Sie eine Eingabeaufforderung für den Inhalt ein, mit dem Sie das Bild erweitern möchten, oder ordnen Sie ihn zu. Wenn keine Eingabeaufforderung angegeben wird, wird das Bild mit Inhalten erweitert, die mit dem Originalbild übereinstimmen.</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Anzahl der Varianten]</td> 
+   <td>Geben Sie eine Zahl zwischen 1 und 4 ein. Das Modul generiert diese Anzahl erweiterter Bildvarianten.</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL Erweitertes Bildformat]</td> 
    <td>Wählen Sie das Dateiformat aus, als das erweiterte Bild gespeichert werden soll.</td> 
   </tr> 
@@ -212,6 +217,10 @@ Dieses Aktionsmodul füllt den maskierten Bereich eines Bildes, optional mit Inh
   <tr> 
    <td role="rowheader">[!UICONTROL Eingabeaufforderung]</td> 
    <td>Geben Sie eine Eingabeaufforderung für den Inhalt ein, mit dem Sie das Bild ausfüllen möchten, oder ordnen Sie ihn zu. Wenn keine Eingabeaufforderung angegeben wird, wird das Bild mit Inhalten gefüllt, die dem Originalbild entsprechen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Anzahl der Varianten]</td> 
+   <td>Geben Sie eine Zahl zwischen 1 und 4 ein. Das Modul generiert diese Anzahl an ausgefüllten Bildvarianten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bildformat ausgefüllt]</td> 
@@ -253,6 +262,10 @@ Dieses Aktionsmodul generiert und erstellt ein Bild basierend auf einer von Ihne
   <tr> 
    <td role="rowheader">[!UICONTROL Eingabeaufforderung]</td> 
    <td>Geben Sie eine Eingabeaufforderung für das Bild ein, das Sie erstellen möchten, oder ordnen Sie es zu. Weitere Details in der Eingabeaufforderung ermöglichen Ihnen mehr Kontrolle darüber, was im Bild angezeigt wird.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Anzahl der Varianten]</td> 
+   <td>Geben Sie eine Zahl zwischen 1 und 4 ein. Das Modul generiert diese Anzahl an Bildvarianten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Generiertes Bildformat]</td> 
@@ -297,5 +310,3 @@ Dieses Aktionsmodul generiert und erstellt ein Bild basierend auf einer von Ihne
   </tr> 
  </tbody> 
 </table>
-
-
