@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,7 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 * [Aus der Tabellenansicht eines Datensatztyps](#edit-a-record-inline-in-the-table-view-of-a-record-type)
 * [Über die Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view)
 * [Auf der Datensatzseite](#edit-a-record-from-the-records-page)
+* [Von einem Workfront-Objekt im Abschnitt Planung](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Datensatz in der Tabellenansicht eines Datensatztyps inline bearbeiten
 
@@ -210,7 +211,7 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
 1. (Optional) Klicken Sie auf die **Mehr** Menü rechts neben dem Titel des Datensatzes und klicken Sie auf **Umbenennen**. Dadurch wird das Feld aktualisiert, das als Titel des Datensatzes angezeigt wird.
 
-   Der Titel des Datensatzes ist das primäre Feld des Datensatzes bei der Anzeige in einer Tabellenansicht. Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+   Der Titel des Datensatzes ist das primäre Feld des Datensatzes bei der Anzeige in einer Tabellenansicht. Weitere Informationen finden Sie unter [Primäre Feldübersicht](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Beginnen Sie mit der Bearbeitung der Feldinformationen in der Datensatzvorschau.
 
@@ -280,3 +281,8 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
    Workfront speichert Ihre Änderungen automatisch.
 
+## Datensatz aus einem Workfront-Objekt im Abschnitt Planung bearbeiten
+
+Nachdem Sie Datensätze mit Workfront-Objekten verbunden haben, können Sie die Workfront-Planungsdatensätze in Workfront im Bereich Planung des Objekts bearbeiten.
+
+Weitere Informationen finden Sie unter [Verwalten von Datensätzen im Bereich &quot;Planung&quot;von Adobe Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

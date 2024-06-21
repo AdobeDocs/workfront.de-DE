@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2543'
 ht-degree: 3%
 
 ---
@@ -157,25 +157,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    Das Feld wird zu einem primären Feld, was bedeutet, dass es als erste Spalte der Tabellenansicht angezeigt wird. Das vorherige primäre Feld wechselt zur zweiten Spalte.
 
-   >[!NOTE]
-   >
-   >   * Nur Felder der folgenden Typen können Primärfelder sein:
-   >
-   >       * Einzeiliger Text
-   >       * Zahl
-   >       * Formel
-   >
-   >   * Das Primärfeld ist immer eingefroren und kann nicht verschoben oder ausgeblendet werden. Das Primärfeld ist eingefroren und nicht Teil des horizontalen Bildlaufs. Sie können ein primäres Feld durch ein anderes ersetzen, wenn Sie es an eine andere Position verschieben möchten.
-   >
-   >   * Das Ändern des Primärfelds in der Tabellenansicht wirkt sich auf die Ansicht aller anderen Benutzer aus, die das Feld auswählen.
-   >
-   >   * Eine Änderung des Primärfelds in einer Tabellenansicht wirkt sich auf alle Tabellenansichten aus.
-   >
-   >   * Ein primäres Feld kann nicht gelöscht oder ausgeblendet werden.
-   >
-   >   * Der im primären Feld angegebene Wert ist immer per Hyperlink zur Datensatzseite gekennzeichnet.
-   >
-   >   * Primäre Felder werden zum Titel des Datensatzes und werden auf den Datensatzseiten im Header-Bereich der Datensätze und überall dort angezeigt, wo die Datensätze angezeigt werden. Beispielsweise wird der Datensatztitel in verbundenen Feldern und allen Ansichten angezeigt.
+   Primäre Felder werden zum Titel des Datensatzes und werden im Kopfzeilenbereich der Datensatzseite und überall dort angezeigt, wo die Datensätze angezeigt werden. Beispielsweise wird der Datensatztitel in verbundenen Feldern und allen Ansichten angezeigt. Weitere Informationen zu Primärfeldern finden Sie unter [Primäre Feldübersicht](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Klicken Sie auf die Spaltentrennlinien und ziehen Sie sie an die gewünschte Stelle, um die Spaltenbreite zu vergrößern.
 

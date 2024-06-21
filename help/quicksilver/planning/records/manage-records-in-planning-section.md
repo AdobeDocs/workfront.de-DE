@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
 * Sie können den Abschnitt Planung in einem Workfront-Objekt anzeigen, auch wenn dem Workfront-Objekt keine Datensätze zugeordnet sind.
 * Sie können über Workfront im Bereich Planung Datensätze mit Workfront-Objekten verbinden, wenn mit dem Workfront-Objekt mindestens ein Datensatz verbunden ist.
-* Sie müssen über Beitragsberechtigungen oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Datensätze aus den Workfront-Objekten zu verbinden.
+* Sie müssen über die Berechtigung &quot;Verwalten&quot;für einen Arbeitsbereich verfügen, um Datensätze aus den Workfront-Objekten zu verbinden.
 
 ## Verwalten von Datensätzen im Abschnitt &quot;Planung&quot;
 
@@ -138,7 +138,7 @@ Die Seite der Objekte wird in der Workfront-Planung geöffnet.
 
 1. Klicken Sie auf eine Datensatzkarte, um weitere Informationen zum Datensatz anzuzeigen. Das Vorschaufeld für Datensätze wird angezeigt.
 1. (Optional) Beginnen Sie mit der Änderung der Felder im Vorschaufeld des Datensatzes. Ihre Änderungen werden automatisch gespeichert.
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der rechten oberen Ecke des Vorschaufelds, um die Detailseite des Datensatzes zu öffnen.
+1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der rechten oberen Ecke des Vorschaufelds, um die Detailseite des Datensatzes zu öffnen. Die Detailseite des Datensatzes wird in der Workfront-Planung geöffnet.
 1. Bewegen Sie den Mauszeiger über eine Datensatzkarte und klicken Sie dann auf das Symbol zum Trennen des Datensatzes **-** Klicken Sie auf **Trennen**.
 Folgendes geschieht:
    * Der Datensatz ist nicht mehr mit dem Workfront-Objekt verbunden.
@@ -148,7 +148,7 @@ Folgendes geschieht:
 
    >[!NOTE]
    >
-   >   Die Schaltfläche Verbinden wird nur für die Arbeitsbereiche angezeigt, für die Sie Beitragsberechtigungen haben.
+   >   Die Schaltfläche Verbinden wird nur für die Arbeitsbereiche angezeigt, für die Sie Beitragsberechtigungen haben. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. Klicken Sie auf die Datensätze, die Sie verbinden möchten. Folgendes geschieht:
 

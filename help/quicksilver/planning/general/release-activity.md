@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '7510'
+source-wordcount: '7684'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,30 @@ Vorschau: zu bestimmen
 Wir haben einen Link &quot;Mehr anzeigen/Weniger anzeigen&quot;in einem verbundenen Datensatzfeld hinzugefügt, wenn Datensätze vorhanden sind, die sonst in mehr als zwei Zeilen auf der Detailseite eines Datensatzes angezeigt würden.
 
 Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+
+### Beim Verbinden von Datensatztypen automatisch das Feld Name mit dem Datensatznamen ausfüllen
+
+Produktion: 20. Juni 2024
+
+Vorschau: zu bestimmen
+
+Wenn Sie eine Verbindung zwischen zwei Datensätzen oder zwischen einem Datensatz und einem Objekt aus einer anderen Anwendung herstellen, wird der Name des Verbindungsfelds automatisch mit dem Namen des verbundenen Datensatzes ausgefüllt. Vor dieser Verbesserung mussten Sie manuell einen Namen für das Verbindungsfeld hinzufügen.
+
+Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Definieren der Anzeige von verbundenen Datensätzen in verbundenen Feldern
+
+Produktion: 20. Juni 2024
+
+Vorschau: zu bestimmen
+
+Jetzt können Sie festlegen, wie verbundene Datensätze in verbundenen Feldern angezeigt werden. Beim Hinzufügen einer neuen Verbindung zu einem Datensatztyp haben Sie jetzt die Möglichkeit, entweder den Titel des verbundenen Datensatzes und dessen Miniaturansicht oder nur die Miniaturansicht anzuzeigen.
+
+Der Titel eines Datensatzes ist entweder der Name des Datensatzes oder jedes Feld, das in der Tabellenansicht des Datensatztyps als primäres Feld festgelegt ist.
+
+Diese Verbesserung ist für Datensätze verfügbar, die über die Workfront-Planung verbunden sind, sowie für Assets, die über die Adobe Experience Manager verbunden sind.
+
+Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Woche vom 10. Juni 2024
 
@@ -563,6 +587,7 @@ Produktion: 14. März 2024 Vorschau: noch festzulegen
 Wir haben das Erscheinungsbild der Ansichten auf der Seite vom Typ Datensatz aktualisiert. Die neuen Ansichten sind dynamisch responsiv und passen sich schnell an die Bildschirmgröße an. Die Beschriftungen der Symbolleistenoptionen werden auf kleineren Bildschirmen ausgeblendet, um die Verwendung der Symbolleiste zu vereinfachen.
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
+
 * [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

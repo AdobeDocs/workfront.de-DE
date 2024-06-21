@@ -1,13 +1,13 @@
 ---
 title: Beispiel für das Verbinden von Datensatztypen und Datensätzen
-description: In diesem Artikel wird ein Beispiel beschrieben, wie Sie eine Verbindung zwischen einem Adobe Workspace-Planungs-Datensatztyp und einem Workfront-Projektobjekttyp herstellen. Außerdem wird beschrieben, wie Sie einen Workfront-Planungsdatensatz mit einem einzelnen Projekt verbinden können.
+description: In diesem Artikel wird ein Beispiel für das Erstellen einer Verbindung zwischen einem Adobe Workfront-Planungs-Datensatztyp und einem Workfront-Projektobjekttyp beschrieben. Außerdem wird beschrieben, wie Sie einen Workfront-Planungsdatensatz mit einem einzelnen Projekt verbinden können.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,8 @@ Gehen Sie dazu folgendermaßen vor:
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Bedingt) Wenn Sie die Option **Option &quot;Suchfelder auswählen&quot;** im vorherigen Schritt aus der Liste der Felder, die mit der **Produkt** Record Type, klicken Sie auf die **+** -Symbol für **Budget** und klicken Sie auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Budget (aus Produktinformationen)**, der Name des verknüpften Felds. Alle Informationen zum Produktbudget werden in diesem Feld für die Campaign-Datensätze angezeigt.
+1. (Optional) Deaktivieren Sie die **Titel** Umschalten in der **Anzeige von Datensätzen** -Abschnitt, um nur das Miniaturbild des Datensatzes in den verbundenen Feldern anzuzeigen. Wenn diese Option aktiviert ist, zeigen Datensätze sowohl die Miniaturansicht als auch den Titel an. Der Umschalter ist standardmäßig aktiviert.
+1. (Bedingt) Wenn Sie die Option **Option &quot;Suchfelder auswählen&quot;** im vorherigen Schritt aus der Liste der Felder, die mit der **Produkt** Record Type, klicken Sie auf die **+** -Symbol für **Budget** und klicken Sie auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Budget (aus Produktinformationen)**, der Name des verknüpften Felds. Alle Informationen zum Produktbudget werden in diesem Feld für die Kampagnendatensätze angezeigt.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
@@ -78,7 +79,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 1. Aus dem **Kampagne** Tabellenansicht des Datensatztyps erstellen, erstellen Sie eine Kampagne, indem Sie in der Tabelle des Kampagnentyps eine neue Zeile hinzufügen.
 
-1. Doppelklicken Sie in die  **Produktinformationen** Spalte der neuen Kampagne.
+1. Doppelklicken Sie in die **Produktinformationen** Spalte der neuen Kampagne.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -96,7 +97,7 @@ Gehen Sie dazu folgendermaßen vor:
 
    Oder
 
-   Wählen Sie die Produktdatensätze aus, die Sie mit den Campaign-Datensätzen verbinden möchten, und klicken Sie auf **Objekte verbinden**.
+   Wählen Sie die Produktdatensätze aus, mit denen Sie eine Verbindung herstellen möchten, und klicken Sie auf **Objekte verbinden**.
 
    >[!TIP]
    >
@@ -166,7 +167,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 1. Aus dem **Kampagne** Tabellenansicht des Datensatztyps erstellen Sie eine Kampagne, indem Sie der Tabelle eine neue Zeile hinzufügen.
 
-1. Doppelklicken Sie in die  **Projektinformationen** Spalte der neuen Kampagne.
+1. Doppelklicken Sie in die Spalte Projektinformationen** der neuen Kampagne.
 
    ![](assets/connect-projects-smaller-box-in-table.png)
 
@@ -204,7 +205,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 1. Klicken Sie im Feld &quot;Verbundener Datensatz&quot;auf den Namen eines Projekts.
 
-   Dadurch wird die Seite des schreibgeschützten Woekfront-Planungsprojekts geöffnet.
+   Dadurch wird die Seite des schreibgeschützten Workfront-Planungsprojekts geöffnet.
 Überprüfen Sie die Informationen zum Projekt. Auf der Datensatzseite werden nur ausgewählte Projektfelder angezeigt.
 
 1. Klicks **Zu Quelle wechseln** in der rechten oberen Ecke des Bildschirms, um das Projekt in Workfront zu öffnen, wenn Sie mindestens über Anzeigeberechtigungen für das Projekt verfügen.

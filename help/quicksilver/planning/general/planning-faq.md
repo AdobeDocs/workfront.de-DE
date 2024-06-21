@@ -4,7 +4,7 @@ description: Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
 workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 
 
 # Häufig gestellte Fragen zur Adobe Workfront-Planung
+
+{{planning-important-intro}}
 
 <!-- add to TOC and mini TOC-->
 
