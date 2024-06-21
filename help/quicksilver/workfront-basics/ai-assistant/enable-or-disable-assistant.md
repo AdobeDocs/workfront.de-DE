@@ -6,9 +6,10 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4ab71bfa3d93da8250748ba5aaa90f01dda9d8e3
+exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
+source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -16,6 +17,31 @@ ht-degree: 1%
 # Aktivieren oder Deaktivieren des AI-Assistenten
 
 Als Workfront-Administrator können Sie festlegen, für welche Benutzer in Ihrem Unternehmen der KI-Assistent aktiviert ist. Dies wird über Zugriffsebenen verwaltet.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td>Alle</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Plan</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Aktivieren oder Deaktivieren des KI-Assistenten in Workfront
 
 Der KI-Assistent ist standardmäßig aktiviert.
 
