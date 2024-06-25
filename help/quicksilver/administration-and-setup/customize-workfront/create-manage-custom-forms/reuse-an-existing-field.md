@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Verwenden Sie ein benutzerdefiniertes Feld oder Asset-Widget in einem benutzerdefinierten Formular mit dem Legacy-Formular
 description: Wenn Sie ein benutzerdefiniertes Formular erstellen oder bearbeiten, können Sie ein benutzerdefiniertes Feld oder Widget hinzufügen, das bereits einem anderen benutzerdefinierten Formular hinzugefügt wurde.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Verwenden Sie ein benutzerdefiniertes Feld oder Asset-Widget in einem benutzerdefinierten Formular mit dem Legacy-Formular
+
+{{form-designer-default}}
 
 Wenn Sie ein benutzerdefiniertes Formular erstellen oder bearbeiten, können Sie ein benutzerdefiniertes Feld oder Asset-Widget hinzufügen, das bereits einem anderen benutzerdefinierten Formular hinzugefügt wurde.
 
@@ -33,7 +35,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2502'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,15 @@ ht-degree: 1%
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Einrichtung]** ![Einrichtungssymbol](/help/_includes/assets/gear-icon-setup.png).
 
+## Formularentwickler zu allgemein {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>Mit Version 24.7 ist der Formularentwickler allgemein verfügbar und wird zum Standarderlebnis beim Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront. Der alte Formular-Builder ist nicht mehr verfügbar. Es wird empfohlen, jetzt zum Formularentwickler zu wechseln und dessen Funktionen zu nutzen.
+>
+>Weitere Informationen finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+>Der alte Formular-Builder wurde am 19. Juni 2024 aus der Vorschau-Umgebung entfernt und wird mit der Version 24.7 im Juli aus der Produktionsumgebung entfernt.
 
 ## Verknüpfen der rechten Gruppe mit dem Team {#right-group-team}
 

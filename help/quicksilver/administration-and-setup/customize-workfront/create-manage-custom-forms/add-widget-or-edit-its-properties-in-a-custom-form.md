@@ -1,18 +1,20 @@
 ---
 title: Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder
 description: Sie können die Eigenschaften der folgenden Asset-Widgets wie Bilder, Videos, PDF-Dateien und Adobe XD-Dateien in einem benutzerdefinierten Formular hinzufügen oder bearbeiten. Dies ist nützlich, wenn Sie visuelle Inhalte wie Branding-Bilder, ein Video mit Anweisungen oder einen interaktiven Prototyp für eine App einbeziehen müssen, die Sie entwerfen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
 
 # Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder
+
+{{form-designer-default}}
 
 Sie können die Eigenschaften der folgenden Asset-Widgets in einem benutzerdefinierten Formular hinzufügen oder bearbeiten:
 
@@ -46,7 +48,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -82,7 +84,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Widget angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
      </tr> 
      <tr> 
@@ -137,7 +139,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Widget angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
      </tr> 
      <tr> 

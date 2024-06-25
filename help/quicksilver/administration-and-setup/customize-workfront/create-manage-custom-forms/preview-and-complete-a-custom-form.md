@@ -3,12 +3,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Erstellen Sie eine Vorschau und füllen Sie ein benutzerdefiniertes Formular mit dem alten Formular-Builder aus.
-description: Wenn Sie mit dem Erstellen oder Bearbeiten eines benutzerdefinierten Formulars fertig sind, können Sie eine Vorschau des Formulars anzeigen, um zu sehen, wie es für Benutzer aussehen wird, und es dann speichern und schließen.
-author: Caroline
+description: Wenn Sie mit dem Erstellen oder Bearbeiten eines benutzerdefinierten Formulars fertig sind, können Sie eine Vorschau davon anzeigen, wie es für Benutzer aussehen wird, und dieses dann speichern und schließen.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -17,7 +17,9 @@ ht-degree: 0%
 
 # Erstellen Sie eine Vorschau und füllen Sie ein benutzerdefiniertes Formular mit dem alten Formular-Builder aus.
 
-Wenn Sie mit dem Erstellen oder Bearbeiten eines benutzerdefinierten Formulars fertig sind, können Sie eine Vorschau des Formulars anzeigen, um zu sehen, wie es für Benutzer aussehen wird, und es dann speichern und schließen.
+{{form-designer-default}}
+
+Wenn Sie mit dem Erstellen oder Bearbeiten eines benutzerdefinierten Formulars fertig sind, können Sie eine Vorschau davon anzeigen, wie es für Benutzer aussehen wird, und dieses dann speichern und schließen.
 
 ## Zugriffsanforderungen
 
@@ -29,7 +31,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets mit dem alten Formular-Builder
+
+{{form-designer-default}}
 
 Wenn Sie ein neues benutzerdefiniertes Feld oder Widget zu einem benutzerdefinierten Formular hinzufügen, kann standardmäßig jeder Benutzer im System mit Zugriff auf benutzerdefinierte Formulare die Eigenschaften für dieses Element bearbeiten (z. B. Titel und Name). Sie können dies ändern, indem Sie steuern, für wen es freigegeben werden kann.
 

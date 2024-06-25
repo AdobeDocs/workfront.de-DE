@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Positionieren Sie benutzerdefinierte Felder und Widgets in einem benutzerdefinierten Formular mit dem Legacy-Formular
 description: Sie können benutzerdefinierte Felder und Widgets in einem benutzerdefinierten Formular neu positionieren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Positionieren Sie benutzerdefinierte Felder und Widgets in einem benutzerdefinierten Formular mit dem Legacy-Formular
+
+{{form-designer-default}}
 
 Sie können benutzerdefinierte Felder und Widgets in einem benutzerdefinierten Formular neu positionieren.
 
@@ -31,7 +33,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
