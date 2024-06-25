@@ -4,13 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: Connector
 navigation-topic: apps-and-their-modules
-title: "Adobe I/O-Ereignismodule"
-description: "Mit den Adobe I/O-Ereignismodulen können Sie ein Adobe Workfront Fusion-Szenario starten, das auf Ereignissen in Ihren Adobe-Anwendungen basiert."
+title: Adobe I/O-Ereignismodule
+description: Mit den Adobe I/O-Ereignismodulen können Sie ein Adobe Workfront Fusion-Szenario starten, das auf Ereignissen in Ihren Adobe-Anwendungen basiert.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 508f21b6860f13a9cf2a5b19713ed70aaba638c3
+exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
+source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -113,7 +114,7 @@ So erstellen Sie eine Verbindung für Ihre Adobe I/O-Ereignismodule:
       </tr>
       <tr>
         <td role="rowheader">Workspace-ID</td>
-        <td>Geben Sie Ihre Workspace-ID ein. </td>
+        <td>Um die Workspace-ID Ihres Projekts anzuzeigen, laden Sie Ihre Projektdetails von der Projektübersichtsseite in der Adobe Developer Console herunter. </td>
       </tr>
     </tbody>
     </table>
@@ -341,4 +342,3 @@ This trigger module starts a scenario when an event occurs in the chosen Adobe p
 </table>
 
 -->
-
