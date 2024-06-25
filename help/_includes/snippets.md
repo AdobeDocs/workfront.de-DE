@@ -1,7 +1,7 @@
 ---
-source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
+source-git-commit: 9960d5a100e710afefed3036958a3435528cafa3
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2510'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Mit Version 24.7 ist der Formularentwickler allgemein verfügbar und wird zum Standarderlebnis beim Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront. Der alte Formular-Builder ist nicht mehr verfügbar. Es wird empfohlen, jetzt zum Formularentwickler zu wechseln und dessen Funktionen zu nutzen.
+>Mit der kommenden Version vom 15. Juli (Version 24.7) ist der Formularentwickler allgemein verfügbar und wird zum Standarderlebnis beim Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront. Der alte Formular-Builder ist nicht mehr verfügbar. Es wird empfohlen, jetzt zum Formularentwickler zu wechseln und dessen Funktionen zu nutzen.
 >
 >Weitere Informationen finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
