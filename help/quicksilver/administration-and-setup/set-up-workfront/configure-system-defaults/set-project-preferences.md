@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prozentsatz abschließen basierend auf] berechnen</td> 
-   <td> <p>Der prozentuale Abschluss eines Projekts oder einer übergeordneten Aufgabe basiert auf dem Gesamtfortschritt der Aufgaben. Diese Informationen können entweder anhand der Dauer oder der geplanten Stunden der Aufgaben eines Projekts berechnet werden.</p> <p>Wenn Sie die [!UICONTROL Dauer] auswählen, bestimmt die Dauer jeder Aufgabe in einem Projekt den Gesamtprozentsatz der Abschlüsse für das Projekt und die Dauer jeder Unteraufgabe bestimmt den Gesamtprozentsatz der Abschlüsse für die übergeordnete Aufgabe.</p> <p>Wenn Sie [!UICONTROL Dauer] auswählen, stellen Sie sicher, dass Sie im Abschnitt [!UICONTROL Timelines] die [!UICONTROL Typischen Arbeitsstunden pro Arbeitstag] und [!UICONTROL Typische Arbeitstage pro Woche] angeben. [!DNL Workfront] verwendet diese Informationen bei der Berechnung des prozentualen Abschlusses einer Aufgabe basierend auf der Dauer. </p> <p>Wenn Sie die Option [!UICONTROL Geplante Stunden] auswählen, stellen Sie sicher, dass für alle Aufgaben in jedem Projekt der Betrag von [!UICONTROL Geplante Stunden] definiert ist und der Betrag nicht null ist.</p> </td> 
+   <td> <p>Workfront berechnet den prozentualen Abschluss einer Projekt- oder einer übergeordneten Aufgabe anhand des Prozentsatzes, der für jede Aufgabe im Projekt abgeschlossen ist, und entweder anhand der Dauer oder der geplanten Stunden jeder Aufgabe.</p><p>Der prozentuale Abschluss jeder Aufgabe wird von Aufgabenverantwortlichen manuell festgelegt.</p><p>Hier können Sie auswählen, ob Workfront die Dauer oder die geplanten Stunden für die Berechnung des Prozentsatzes der abgeschlossenen Projekte verwendet.</p> <p>Wenn Sie die [!UICONTROL Dauer] auswählen, bestimmt die Dauer jeder Aufgabe in einem Projekt den Gesamtprozentsatz der Abschlüsse für das Projekt und die Dauer jeder Unteraufgabe bestimmt den Gesamtprozentsatz der Abschlüsse für die übergeordnete Aufgabe.</p> <p>Wenn Sie [!UICONTROL Dauer] auswählen, stellen Sie sicher, dass Sie im Abschnitt [!UICONTROL Timelines] die [!UICONTROL Typischen Arbeitsstunden pro Arbeitstag] und [!UICONTROL Typische Arbeitstage pro Woche] angeben. [!DNL Workfront] verwendet diese Informationen bei der Berechnung des prozentualen Abschlusses einer Aufgabe basierend auf der Dauer. </p> <p>Wenn Sie die Option [!UICONTROL Geplante Stunden] auswählen, stellen Sie sicher, dass für alle Aufgaben in jedem Projekt der Betrag von [!UICONTROL Geplante Stunden] definiert ist und der Betrag nicht null ist.</p><p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Projekt-Prozent Vollständige Übersicht</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatische Festlegung der Projektbedingung auf der Grundlage des Fortschrittsstatus]</td> 
