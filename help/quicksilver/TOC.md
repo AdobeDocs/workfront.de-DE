@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 6ae31d24aaea1d5e94301ec5fd0f840ef45927ca
+source-git-commit: c4ee5b01750d28b2715c35594123ebe8619c2508
 workflow-type: tm+mt
-source-wordcount: '14373'
+source-wordcount: '14367'
 ht-degree: 1%
 
 ---
@@ -341,45 +341,45 @@ ht-degree: 1%
          * Version 2018.3 {#release-18-3}
             * [Aktivität &quot;Version 2018.3&quot;](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [Übersicht über die Release-Aktivitäten 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
-            * [Aktivität &quot;Beta-Version 2018.3&quot;](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
-            * [Aktivität &quot;Beta 2&quot;(Version 2)](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
-            * [Aktivität &quot;Beta-Version 3&quot;2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
-            * [Aktivität &quot;Beta 4&quot;(Version 2018.3)](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
-            * [Aktivität &quot;Beta-Version 5&quot;2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
-            * [2018.3 Beta endgültig](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
+            * [Beta 1-Release-Aktivität von 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
+            * [Beta 2-Release-Aktivität 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
+            * [Beta 3-Release-Aktivität 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
+            * [Beta-Version 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
+            * [Beta 5-Release-Aktivität von 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
+            * [Beta endgültig 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
          * Version 2018.2 {#release-18-2}
             * [Aktivität &quot;Version 2018.2&quot;](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [Übersicht über die Versionsaktivität 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
-            * [Aktivität &quot;Beta-Version 2018.2&quot;](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
-            * [Aktivität &quot;Beta-Version 2&quot;2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
-            * [Aktivität &quot;Beta-Version 3&quot;2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
-            * [Aktivität &quot;Beta 4&quot;(Version 2018.2)](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
-            * [Aktivität &quot;Beta-Version 5&quot;2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
-            * [2018.2 Beta-Version](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
+            * [Beta 1-Release-Aktivität von 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
+            * [Beta 2-Release-Aktivität 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
+            * [Beta 3-Release-Aktivität 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
+            * [Beta-Version 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
+            * [Beta 5-Release-Aktivität 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
+            * [Beta-Version 2018.2 - Aktivität &quot;Abschließende Version&quot;](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
          * Version 2018.1 {#release-18-1}
             * [Aktivität &quot;Version 2018.1&quot;](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [Übersicht über die Versionsaktivität 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
-            * [Aktivität &quot;Beta-Version 2018.1&quot;](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
-            * [Aktivität &quot;Beta 2&quot;](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
-            * [Aktivität &quot;Beta-Version 3&quot;2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
-            * [Aktivität &quot;Beta 4&quot;(Version 2018.1)](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
-            * [2018.1 Beta-Version](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
+            * [Beta 1-Release-Aktivität von 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
+            * [Beta 2-Release-Aktivität 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
+            * [Beta 3-Release-Aktivität 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
+            * [Beta-Version 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
+            * [Beta-Version 2018.1 - Aktivität &quot;Abschließende Version&quot;](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
          * Version 2017.3 {#release-17-3}
             * [Aktivität &quot;Version 2017.3&quot;](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
             * [Übersicht über die Release-Aktivitäten 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
-            * [Aktivität &quot;Beta-Version 2017.3&quot;](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
-            * [Aktivität &quot;Beta-Version 2&quot;2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
-            * [Aktivität &quot;Beta-Version 3&quot;2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
-            * [Aktivität &quot;Beta 4&quot;(Version 2017.3)](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
-            * [Beta-Version 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
+            * [Beta 1-Release-Aktivität von 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
+            * [Beta 2-Release-Aktivität 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
+            * [Beta 3-Release-Aktivität 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
+            * [Beta-Version 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
+            * [Beta-Abschlussversion 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [Webinare der Version 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
          * Version 2017.2 {#release-17-2}
             * [Aktivität &quot;Version 2017.2&quot;](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [Übersicht über die Versionsaktivität 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
-            * [Aktivität &quot;Beta-Version 2017.2&quot;](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
-            * [Aktivität &quot;Beta-Version 2&quot;2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
-            * [Aktivität &quot;Beta-Version 3&quot;2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
-            * [2017.2 Beta endgültig](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
+            * [Beta 1-Release-Aktivität 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
+            * [Beta 2-Release-Aktivität 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
+            * [Beta 3-Release-Aktivität 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
+            * [Beta endgültig 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
             * [Webinare der Version 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
          * Workfront R1-Version {#r1-release}
             * [Workfront R1-Version](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
@@ -400,7 +400,7 @@ ht-degree: 1%
       * [Abmeldung von Nachrichten aus dem Ankündigungs-Center im neuen Adobe Workfront-Erlebnis](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Ankündigungsarchiv {#announcement-archive}
          * [Ankündigungsarchiv](product-announcements/announcements/announcement-archive/announcement-archive.md)
-         * [Aktualisierte mobile App für iOS und Android (Anfang August 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
+         * [Aktualisierte Mobile App für iOS und Android (Anfang August 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [TLS 1.2 in Adobe Workfront erforderlich](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Das Outlook 365-Add-In ist jetzt verfügbar.](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
          * [Ersetzen von Flash-basierten Tools in Adobe Workfront](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
@@ -790,7 +790,7 @@ ht-degree: 1%
       * [Integrationen konfigurieren](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-Integrationen](administration-and-setup/configure-integrations/workfront-integrations-1.md)
       * [Konfigurieren Sie die [!DNL Workfront] und [!DNL Frame.io] Integration](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
-      * [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](administration-and-setup/configure-integrations/configure-aacs-integration.md)
+      * [Experience Manager Assets as a Cloud Service-Integration konfigurieren](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Integration von Experience Manager Assets Essentials konfigurieren](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Konfigurieren von Workfront mit dem Legacy-Connector von Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [Benutzer für den Zugriff auf die Mobile App aktivieren](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
@@ -982,7 +982,7 @@ ht-degree: 1%
       * Verwenden der mobilen Adobe Workfront-Apps {#use-workfront-mobile-app}
          * [Verwenden der mobilen Adobe Workfront-App](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [Adobe Workfront für Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-         * [Beta-Test für Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+         * [Sei ein Android-Betatester](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
          * [Adobe Workfront für iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
          * [Sei ein iOS-Betatester](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
          * [Startbereich-Widgets](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
@@ -994,7 +994,6 @@ ht-degree: 1%
          * [Kommentar zu Testsendungen in iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [Adobe Workfront für Mobilgeräte-Management (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [Adobe Workfront für MobileIron konfigurieren](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Virtueller Adobe Workfront-Assistent für mobile Apps](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Genehmigungen in der mobilen Adobe Workfront-App](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Adobe Workfront-Ansicht verwenden {#use-workfront-view}
          * [Adobe Workfront-Ansicht verwenden](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -1175,7 +1174,7 @@ ht-degree: 1%
          * [Fehlerbehebung bei der Adobe Experience Manager-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migration von alten oder erweiterten Connectoren {#migrate-from-legacy-enhanced-connectors}
       * [Migration von alten oder erweiterten Connectoren](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Migration vom alten oder erweiterten Connector zu Workfront für die as a Cloud Service Integration von Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Migration vom alten oder erweiterten Connector zu Workfront zur Adobe Experience Manager as a Cloud Service-Integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migration vom alten Connector zum erweiterten Connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Deinstallieren des Legacy-Connectors von Workfront mit Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Deinstallieren des erweiterten Connectors von Workfront mit Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -2220,7 +2219,7 @@ ht-degree: 1%
          * [Szenario-Vorlagen](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] Vorlagen - Übersicht](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Erstellen neuer Vorlagen in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-         * [Adobe Workfront Fusion-Vorlagen veröffentlichen und freigeben](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+         * [Publish und Freigabe von Adobe Workfront Fusion-Vorlagen](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Erstellen von Szenarien mit Adobe Workfront Fusion-Vorlagen](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
          * [Anzeigen, Bearbeiten und Löschen von Adobe Workfront Fusion-Vorlagen](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
          * [Verwaltung von Adobe Workfront-Fusionsvorlagen](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
@@ -2421,7 +2420,7 @@ ht-degree: 1%
       * [Suchen nach Adobe Workfront-Elementen über Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [Zugriff auf Adobe Workfront-Objekte über einen freigegebenen Link in Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [Zugriff auf Adobe Workfront über Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [Slack-Kommentar als Update posten](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [Post einen Slack-Kommentar als Update](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Empfangen von Adobe Workfront-Benachrichtigungen in Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront mit Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront mit Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
@@ -2755,7 +2754,7 @@ ht-degree: 1%
       * [Allgemein](proofhq-api/general/general.md)
       * [Übersicht](proofhq-api/general/overview.md)
       * [Codebeispiele](proofhq-api/general/code-samples.md)
-      * [FAQs zur SOAP-API](proofhq-api/general/soap-api-faqs.md)
+      * [Häufig gestellte Fragen zu SOAP API](proofhq-api/general/soap-api-faqs.md)
 * [Ausgeblendetes Testdokument](hidden-test.md)
 
 

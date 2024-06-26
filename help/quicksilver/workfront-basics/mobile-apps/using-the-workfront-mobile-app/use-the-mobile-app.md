@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -62,5 +62,4 @@ Weitere Informationen über [!DNL Adobe Workfront] mobile App, lesen Sie die fol
 * [Genehmigungen in der [!DNL Adobe Workfront] mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [[!DNL Adobe Workfront] für [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [Konfigurieren [!DNL Adobe Workfront] für [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-* [[!DNL Adobe Workfront] Mobile-App-virtueller Assistent](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
 

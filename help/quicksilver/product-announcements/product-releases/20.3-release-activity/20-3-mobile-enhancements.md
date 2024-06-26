@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Informationen zum Konfigurieren der App finden Sie unter [Adobe Workfront für M
 
 ## Neuer mobiler virtueller Assistent
 
-Der neue virtuelle Assistent für die mobile Workfront-App ist jetzt sowohl für Android als auch für iOS verfügbar.
+Der neue virtuelle Workfront-Assistent für mobile Apps ist jetzt sowohl für Android als auch für iOS verfügbar.
 
 Sprachbefehle
 
@@ -52,5 +52,5 @@ Pin-Befehle
 
 Sie können die Pin-Funktion verwenden, um auf gespeicherte virtuelle Assistentenbefehle sowie Pins aus Ihrem Webbrowser zuzugreifen.
 
-Weitere Informationen zu beiden Funktionen finden Sie unter [Virtueller Adobe Workfront-Assistent für mobile Apps](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**Hinweis: Der mobile Virtual Assistant wird seit April 2024 nicht mehr unterstützt.**
 

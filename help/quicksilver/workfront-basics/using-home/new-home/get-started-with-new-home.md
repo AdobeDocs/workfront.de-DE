@@ -6,9 +6,9 @@ description: Das neue Home ist eine leistungsstarke neue Funktion für die Verwa
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1140'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen könn
     Zeigt Aufgaben an, die Ihnen in einer Liste zugewiesen sind. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können eine Aufgabe direkt über das Widget erstellen. Sie können Ihre Aufgaben auch außerhalb des Büros delegieren.
 
 * **Meine Probleme**\
-    Zeigt Probleme an, die Ihnen in einer Liste zugewiesen sind. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Problem direkt über das Widget erstellen. Dieses Widget enthält nur Probleme, deren verknüpfte Projekte auf &quot;Aktuell&quot;eingestellt sind. Sie können Ihre Probleme auch delegieren, während Sie nicht im Büro sind.
+    Zeigt Probleme an, die Ihnen in einer Liste zugewiesen sind. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Problem direkt über das Widget erstellen. Dieses Widget enthält nur Probleme, deren verknüpfte Projekte auf &quot;Aktuell&quot;eingestellt sind, nicht aber abgeschlossene Projekte. Sie können Ihre Probleme auch delegieren, während Sie nicht im Büro sind.
 
 * **Meine Anforderungen**\
     Zeigt alle von Ihnen gesendeten Anfragen, einen Filter zur ausschließlichen Anzeige offener Anforderungen und eine Schaltfläche an, die den Zusammenfassungsbereich für eine Anforderung öffnet.
