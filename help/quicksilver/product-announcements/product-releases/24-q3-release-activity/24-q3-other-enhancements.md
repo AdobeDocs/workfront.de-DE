@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des drit
 >[!NOTE]
 >
 >* Die Adobe Unified Shell wird in einem stufenweisen Rollout zur Verfügung gestellt. Weitere Organisationen werden mit den Versionen 24.10 und 25.1 in die Adobe Unified Shell integriert.
->* Vorschau-Version: 11. Juni 2024; Produktionsversion für bestimmte Kunden: Mit Version 24.7 (Juli 2024)
+>* Vorschau-Version: 20. Juni 2024; Produktionsversion für bestimmte Kunden: Mit Version 24.7 (Juli 2024)
 
 Um Unternehmen den Zugriff auf die Vorteile des Adobe Unified Experience zu ermöglichen, haben wir begonnen, es bestehenden Workfront-Kunden zur Verfügung zu stellen.
 
