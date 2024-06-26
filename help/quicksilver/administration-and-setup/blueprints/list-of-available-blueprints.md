@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,11 @@ Dieser Blueprint enthält eine Vorlage für die [!DNL Workfront] Die professione
 
 Dieser Blueprint enthält ein Dashboard mit 13 Berichten, die Ihnen helfen, die Objekte und Zuweisungen zu finden, neu zuzuweisen oder anderweitig zu verwalten, die mit einem Benutzer in Workfront verknüpft sind. Sie können diese Berichte auch für Benutzer verwenden, die zu einer neuen Rolle oder Gruppe wechseln, um ihre Arbeit neu zuzuweisen.
 
-**[!UICONTROL Nach der Implementierung: Neuer Anwendungsfall-Rollout]**
+[!BADGE Neu]{type=negative}**Personen-Manager-Dashboard**
+
+Dieser Blueprint enthält ein Dashboard mit 12 Berichten, die Managern einen Einblick in die Arbeit ihrer direkt unterstellten Mitarbeiter verschaffen.
+
+**[!UICONTROL Post-Implementierung: Neuer Anwendungsfall-Rollout]**
 Dieser Blueprint enthält eine einzelne Vorlage, die die Arbeit organisiert, die ein [!DNL Workfront] Der Kunde muss abgeschlossen sein, um die Erweiterung auf die nächsten Prozesse nach der ersten Implementierung verwalten zu können.
 
 **[!UICONTROL Drucken von Asset-Produktion] (integriert)**
@@ -133,6 +137,10 @@ Dieser Blueprint enthält ein Dashboard mit 21 Berichten, mit denen Sie den Wert
 **Wertrealisierung | Dashboard für kundenorientierte Dienste bereitstellen**
 
 Dieser Blueprint enthält ein Dashboard mit 8 Berichten, die Ihnen bei der Nutzung der Vorteile von Workfront helfen. Diese Berichte sollen Ihnen dabei helfen, Ihre kundenorientierten Dienste in messbare Werte zu übersetzen, die Sie im Laufe der Zeit nachverfolgen können, um bessere Ergebnisse zu erzielen.
+
+[!BADGE Neu]{type=negative}**Wertrealisierung | Dashboard für Compliance-Workflows verwalten**
+
+Dieser Blueprint enthält ein Dashboard mit 7 Berichten, die Ihnen bei der Wertschöpfung von Workfront helfen. Für den täglichen Gebrauch oder in stark regulierten Branchen fördern diese zeitsparenden Berichte die Rechenschaftspflicht und verbessern die Ergebnisse im Laufe der Zeit, indem sie dazu beitragen, Workflows und Compliance-Anforderungen zu verfolgen und zu steuern.
 
 **Wertrealisierung | Dashboard überprüfen und genehmigen**
 
