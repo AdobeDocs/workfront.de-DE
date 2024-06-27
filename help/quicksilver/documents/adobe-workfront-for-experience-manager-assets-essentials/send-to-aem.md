@@ -6,20 +6,24 @@ description: Sie können Dokumente von Workfront an Experience Manager Assets od
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # Senden eines Dokuments an Experience Manager Assets oder Assets Essentials
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
+
 Sie können Dokumente von Workfront an Experience Manager Assets oder Assets Essentials senden. Dokumente, die von Workfront hochgeladen und an Assets Essentials gesendet wurden, werden weiterhin mit Ihrem gesamten Dokumentenspeicher angerechnet. Von Assets Essentials verknüpfte Assets zählen nicht zum Gesamtspeicher.
 
-Assets, die über diese Integration an Experience Manager gesendet werden, haben eine Größenbeschränkung von **5 GB**.
+Assets, das über diese Integration an Experience Manager gesendet wird, hat eine Größenbeschränkung von **5 GB**.
 
-Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Experience Manager Assets oder Assets Essentials senden. Alle Metadaten, die für die Zuordnung zu übergeordneten Objekten konfiguriert wurden, werden ebenfalls gesendet. Weitere Informationen zum Konfigurieren der Metadaten-Zuordnung finden Sie unter [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+<span class="preview">In der Vorschauumgebung hat Assets, das über diese Integration an Experience Manager gesendet wird, eine Größenbeschränkung von **30 GB**.</span>
+
+Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Experience Manager Assets oder Assets Essentials senden. Alle Metadaten, die für die Zuordnung zu übergeordneten Objekten konfiguriert wurden, werden ebenfalls gesendet. Weitere Informationen zum Konfigurieren der Metadaten-Zuordnung finden Sie unter [Experience Manager Assets as a Cloud Service-Integration konfigurieren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]
 >
@@ -43,7 +47,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über as a Cloud Service oder Assets Essentials Experience Manager verfügen und dem Produkt als Benutzer in der Admin Console hinzugefügt werden.
+   <td>Sie müssen über Experience Manager as a Cloud Service oder Assets Essentials verfügen und dem Produkt als Benutzer in der Admin Console hinzugefügt werden.
 </td> 
   </tr> 
   <tr> 
@@ -63,12 +67,12 @@ Sie müssen über Folgendes verfügen:
 
 Bevor Sie beginnen
 
-* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Experience Manager Assets as a Cloud Service-Integration konfigurieren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Senden eines Dokuments aus Workfront
 
-Wenn ein Benutzer ein Dokument aus Workfront an Experience Manager Assets oder Assets Essentials sendet, werden zugeordnete Metadaten entlang des Dokuments übertragen. Nachdem das Dokument gesendet wurde, werden Änderungen an den Dokumentmetadaten in Workfront nicht in Assets oder Assets Essentials angezeigt. Wenn ein zugeordnetes Feld in Workfront geändert wird, müssen Sie eine neue Dokumentversion mit den aktualisierten Metadaten an Assets oder Assets Essentials senden. Informationen zum Einrichten oder Bearbeiten von Metadaten finden Sie unter [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Integration von Experience Manager Assets Essentials konfigurieren](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Wenn ein Benutzer ein Dokument aus Workfront an Experience Manager Assets oder Assets Essentials sendet, werden zugeordnete Metadaten entlang des Dokuments übertragen. Nachdem das Dokument gesendet wurde, werden Änderungen an den Dokumentmetadaten in Workfront nicht in Assets oder Assets Essentials übernommen. Wenn ein zugeordnetes Feld in Workfront geändert wird, müssen Sie eine neue Dokumentversion mit den aktualisierten Metadaten an Assets oder Assets Essentials senden. Informationen zum Einrichten oder Bearbeiten von Metadaten finden Sie unter [Experience Manager Assets as a Cloud Service-Integration konfigurieren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Integration von Experience Manager Assets Essentials konfigurieren](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 So senden Sie ein Dokument:
 
@@ -77,7 +81,7 @@ So senden Sie ein Dokument:
 
    >[!NOTE]
    >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration wählen, sodass Assets oder Assets Essentials nicht ausdrücklich erwähnt werden.
+   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration wählen, sodass Assets oder Assets Essentials möglicherweise nicht speziell erwähnt werden.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
@@ -99,7 +103,7 @@ So senden Sie die neueste Version:
 
    >[!NOTE]
    >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration wählen, sodass möglicherweise keine Assets oder Assets Essentials erwähnt werden.
+   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration wählen, sodass Assets oder Assets Essentials möglicherweise nicht speziell erwähnt werden.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
