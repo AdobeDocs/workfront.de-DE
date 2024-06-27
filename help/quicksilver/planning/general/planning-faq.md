@@ -1,12 +1,12 @@
 ---
 title: "Häufig gestellte Fragen zur Adobe Workfront-Planung"
-description: Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams organisieren. Dies sind einige häufig gestellte Fragen zur Workfront-Planung.
+description: Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams organisieren. Dieser Artikel enthält einige der häufig gestellten Fragen zur Workfront-Planung.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
@@ -30,146 +30,171 @@ Die zuvor als Project Maestro bezeichnete Workfront-Planung ist eine neue Funkti
 
 Das Workfront-Planungsmodul ist eine von drei unterschiedlichen, aber miteinander verbundenen Workfront-Funktionen, die zusammen ein Marketing-Aufzeichnungssystem erstellen. Die drei Funktionen sind:
 
-* Planung: Die neuen erweiterten Funktionen der Workfront-Planung.
+* **Planung**: Die neuen erweiterten Funktionen der Workfront-Planung.
 
-* Workflow: Die kollaborativen Arbeitsverwaltungsfunktionen, die Sie heute in Workfront verwenden (Projektmanagement, Ressourcenverwaltung usw.).
+* **Workflow**: Die kollaborativen Arbeitsverwaltungsfunktionen, die Sie heute in Workfront verwenden (Projektmanagement, Ressourcenverwaltung usw.)
 
-* Automatisierung und Integration: Die umfassenden Integrations- und Automatisierungsfunktionen von Workfront Fusion.
+* **Automatisierung und Integration**: Die umfassenden Integrations- und Automatisierungsfunktionen von Workfront Fusion.
 
 ## Wann wird Workfront Planning veröffentlicht?
 
-Die neueste geplante Workfront-Planungsversion für die allgemeine Zielgruppe ist der 28. August 2024. Aktuelle Informationen zu den derzeit veröffentlichten Funktionen finden Sie unter [Adobe Workfront-Planungs-Release-Aktivität](/help/quicksilver/planning/general/release-activity.md).
+Die neueste Version der Workfront-Planung zur allgemeinen Verfügbarkeit ist für den 28. August 2024 geplant. Aktuelle Informationen zu den derzeit veröffentlichten Funktionen finden Sie unter [Adobe Workfront-Planungs-Release-Aktivität](/help/quicksilver/planning/general/release-activity.md).
 
-<!-- To verify this: are we even saying "Beta"? - What happens after the beta program concludes? 
+## Was geschieht nach Abschluss der frühen Phase der Workfront-Planung?
 
-Beta participants that want to leverage Planning in production will be able to purchase it at the GA date. We encourage you to reach out to your sales rep to discuss further details. The environment used for the beta program is not in production and will not be migrated. The data stored in the beta environment will be available until December 2024. -->
+Kunden, die an der Beta- und Frühphase der Workfront-Planung teilgenommen haben, können ab dem 28. August 2024 Workfront Planning erwerben. Wir empfehlen Ihnen, sich an Ihren Kundenbetreuer zu wenden, um weitere Details zu besprechen.
 
+## Der Prozess der kurzen Erstellung (KI verwendet das Einfügen verschiedener Dokumente, um eine Kurzbeschreibung dynamisch zu erstellen). Ist das Teil der Beta-Version?
 
+Diese Funktion wird in Kürze verfügbar sein.
 
-KUNDENFRAGEN - SITZUNG 1 6/13
+## Müssen wir auf IMS migrieren?
 
+Ja. Kunden, die Workfront Planning erwerben möchten, müssen zur Adobe Unified Experience/Adobe Business Platform migrieren. Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
+## Können Sie Beispiele für verschiedene Arbeitsbereiche bereitstellen?
 
-Der Prozess der kurzen Erstellung (KI verwendet das Einfügen verschiedener Dokumente, um eine Kurzbeschreibung dynamisch zu erstellen). Ist das Teil der Beta-Version?
+Sie können Arbeitsbereiche auf verschiedenen Ebenen Ihrer Organisation haben. Aufgrund der Flexibilität des Systems können Arbeitsbereiche auf verschiedenen Ebenen für mehrere Zwecke auf Team- oder persönlicher Ebene eingesetzt werden. Sie können Arbeitsbereiche für ein Team, eine Abteilung oder eine Gruppe in Ihrem Unternehmen erstellen. Benutzer können einen eigenen Arbeitsbereich erstellen, in dem sie persönliche Aufgaben verfolgen können.
 
-Wir gehen davon aus, dass diese Funktion getestet werden kann.
+Der primäre Anwendungsfall für einen Arbeitsbereich besteht darin, einen größeren, zentralisierten Raum für eine Organisation zu schaffen.
 
-Müssen wir auf IMS migriert werden?
+Arbeitsbereiche können für Gruppen oder einzelne Benutzer freigegeben werden.
 
-Ja, Kunden, die Planung erwerben möchten, müssen in die ABP migriert werden.
+<!--## Can workspaces share funding accounts? -->
 
-Können Sie Beispiele für verschiedene Arbeitsbereiche bereitstellen?
+## Können Arbeitsbereiche miteinander reden? Oder müssen Informationen in jeden Arbeitsbereich eingegeben werden?
 
-Sie können Arbeitsbereiche auf verschiedenen Ebenen haben, und aufgrund der Flexibilität des Systems kann das auf Team- und persönlicher Ebene für mehrere Zwecke genutzt werden. Primäre Anwendungsfälle sind größere zentralisierte Arbeitsbereiche für Unternehmen. Beispiele für Arbeitsbereiche: .....
+Ab Juni 2024 können Arbeitsbereiche keine Verbindung zueinander herstellen. Diese Funktion ist jedoch für eine künftige Version geplant.
 
-Können Arbeitsbereiche Finanzierungskonten gemeinsam nutzen?
+## Gibt es weiche oder harte Beschränkungen für die Anzahl der Arbeitsbereiche, die in einer Organisation zulässig sind?
 
-Können Arbeitsbereiche miteinander reden? Oder müssen Informationen in jeden Arbeitsbereich eingegeben werden?
+Sie können bis zu 1.000 Arbeitsbereiche in der Workfront-Instanz Ihres Unternehmens haben. Weitere Informationen zu Beschränkungen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 
-Gibt es im aktuellen Status Softbounces für die Anzahl der Arbeitsbereiche, die eingerichtet werden können (d. h. Leistungsverschlechterung nach diesem Punkt)? Beliebige harte Beschränkungen für die Anzahl der Arbeitsbereiche, die eingerichtet werden können (d. h. das System erlaubt nicht mehr als diese #)?
+## Können aktuelle Objekte im Workfront-System in der Planung verfügbar sein oder muss dies manuell erstellt werden?
 
-Bis zu 1.000 Arbeitsbereiche in der Workfront-Instanz Ihres Unternehmens. Link zu Dokumenten: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/create-workspaces
+Sie können Verbindungen zwischen einem Datensatz vom Typ Planung und Workfront-Portfolios, -Programmen, -Projekten, -Gruppen und -Unternehmen herstellen.
 
-Können aktuelle Objekte im System angeschlossen werden oder muss dies alles manuell erstellt werden?
+Sobald Sie eine Verbindung hergestellt haben, z. B. mit Workfront-Projekten, können Sie Datensätze in Planung mit Workfront-Projekten verbinden.
 
-Sie können Verbindungen zwischen einer Planung von Datensatztypen mit WF-Portfolios, -Programmen, -Projekten, -Gruppen und -Unternehmen herstellen. Nachdem Sie eine Verbindung hergestellt haben, z. B. mit WF-Projekten, können Sie Datensätze in der Planungstabelle mit WF-Projekten verknüpfen. Das bedeutet, dass WF-Objekte weiterhin in Workfront erstellt und verwaltet werden. Sie können sie jedoch an den Datensätzen der Planung ausrichten. Sie haben hier eine Dokumentation: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types und wir planen auch eine Feedback-Sitzung über Verbindungen!
+Das bedeutet, dass Sie weiterhin Workfront-Projekte in Workfront erstellen und verwalten müssen, diese jedoch an den Planungsdatensätzen (wie Kampagnen) in der Workfront-Planung ausrichten können.
 
-Aus Tests habe ich bemerkt, wenn Sie viele Datensätze hinzufügen, werden sie schwierig zu unterscheiden, wenn sie nicht in der Tabellenansicht sind. Gibt es eine Möglichkeit, Datensätze in verschiedenen Farben zu machen? Es wäre gut, wenn Sie sie farblich konfigurierbar machen könnten, sodass sie sich in den Ansichten &quot;Timeline&quot;und &quot;Kalender&quot;besser voneinander unterscheiden.
+Weitere Informationen zum Verbinden von Datensatztypen mit Workfront-Objekttypen und Datensätzen mit Workfront-Objekten finden Sie in den folgenden Artikeln:
 
-Sind die Personen, die Workfront sind, oder IMS?
+* [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
 
-Workfront-Instanz
+Wir planen auch Feedback-Sitzungen zu Verbindungen.
 
-Können diese Listen mit mehreren Arbeitsbereichen verknüpft werden?
+## Nachdem Sie viele Datensätze hinzugefügt haben, ist es schwierig, sie voneinander zu unterscheiden, wenn sie sich nicht in der Tabellenansicht befinden. Gibt es eine Möglichkeit, Datensätze in verschiedenen Farben anzuzeigen?
 
-Wir haben vor, Datensatztypen zwischen Workspaces zu verknüpfen! Noch nicht fertig.
+Ab Juni 2024 sind Datensätze in keiner der verfügbaren Ansichten (Tabelle, Timeline oder Kalenderansicht) farblich konfigurierbar. Sie können jedoch jedem Datensatz ein Miniaturbild hinzufügen, um ihn leichter identifizieren zu können.
 
-Sind benutzerdefinierte Felder, die Sie hinzufügen, für den Datensatztyp gesperrt, unter dem sie erstellt wurden?
+## Kommen die Benutzer in der Planung aus Workfront oder aus der Adobe Admin Console (IMS)?
 
-Es ermöglicht mir nicht, eine Verbindung mit den Standardfeldern Start-/Enddatum herzustellen. Sollte ich eine neue hinzufügen, wenn ich eine Verbindung zu einem bereits existierenden Feld herstellen möchte?
+Benutzer der Workfront-Planung sind Workfront-Benutzer.
 
-Gibt es Pläne für echte externe Lookup-Stilfelder als Feldtyp in der Planung?
+## Können die Listen für jeden Datensatztyp zwischen Datensatztypen in mehreren Arbeitsbereichen verknüpft werden?
 
-Möchten Sie einfach nur die Felder &quot;Erstellt&quot;, &quot;Erstellt von&quot;, &quot;Geändert von&quot;und &quot;Geändert von&quot;standardmäßig in Datensätzen verwenden, so sieht es so aus, als ob Felder genutzt werden müssen, um sie hinzuzufügen, wenn wir Datensätze verfolgen möchten?
+Das Verbinden von Datensatztypen zwischen verschiedenen Arbeitsbereichen erfolgt zu einem späteren Zeitpunkt.
 
-Wird das Modul durch die Live-Objekte in WF verlinkt, von den Aktivitäten der Beta-Planung betroffen sein?
+## Sind benutzerdefinierte Felder, die Sie hinzufügen, gesperrt für den Datensatztyp, unter dem sie erstellt wurden?
 
-Werden wir Updates für die Änderungen erhalten, die in Fusion eintreten, oder wird das etwas, das separat verwaltet wird?
+Vorerst sind Datensatzfelder eindeutig für den Datensatz, unter dem sie erstellt wurden. Beim Verbinden von Datensatztypen können Sie auf Felder aus anderen Datensätzen verweisen. Es ist nicht möglich, dasselbe Feld, das Sie für einen Datensatztyp erstellt haben, in einem anderen Datensatztyp zu verwenden, selbst wenn es sich im selben Arbeitsbereich befindet. Sie können keine Felder aus Datensätzen referenzieren, die sich nicht im selben Arbeitsbereich befinden, da Sie zum gegenwärtigen Zeitpunkt keine Verbindung zwischen Datensätzen aus verschiedenen Arbeitsbereichen herstellen können.
 
-Ist die Integration mit Canvas-Dashboards geplant? Wie melde ich Daten?
+<!--## It isn't allowing me to make a connection with the Start/End Date fields that are default. Should I add a new one if I want to connect to a field that already exists? -->
 
-Bald verfügbare Dashboard-Arbeitsfläche wird verfügbar sein, um Planungsdaten zu visualisieren
+<!--## Any plans for true external lookup style fields as a field type in Planning? -->
 
-Können wir Arbeitsbereichsvorlagen erstellen?
+<!-- ## Any plans to just have the fields "Created" "Created by" "Modified" and "Modified by" by default in records - seems like a consumption for fields to have to add it if we want to track records? -->
 
-Ist diese Taxonomie/Datensatzstruktur NUR verfügbar, wenn Sie Planung erwerben?  Eine Taxonomie wäre auch für Standardbenutzer von Workfront von Vorteil
+<!--## Since the module links through to live objects in WF, will they be affected by the Planning beta's activities? -->
 
-Können Administratoren eigene Vorlagen erstellen?
+<!--## Are we going to be getting updates for the changes putting into Fusion or is that something that is managed separately? -->
 
-Nicht während der Beta-Phase.
+## Ist die Integration mit Canvas-Dashboards geplant? Wie können wir sonst Berichte zu Workfront-Planungsdaten erstellen?
 
-Verfügen Sie alle über eine ERD, die dokumentiert ist und für das Planungsmodell und die Datensatztypen freigegeben werden kann? Derzeit kein ERD, aber wir verfügen über detaillierte Hilfeartikel, die Sie durch den Prozess der Erstellung und Verbindung von Datensatztypen führen: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/overview-of-record-types https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types
+Wir planen, in Kürze Canvas-Dashboards zur Visualisierung von Planungsdaten verfügbar zu machen.
 
-So ist es einmal (jährliche Preise), um PLANUNG nutzen, und da können wir so viele Benutzer wie nötig hinzufügen? oder wir werden pro Benutzer berechnet?
+<!--## Will we be able to create workspace templates? -->
 
-Planung ist ein kostenpflichtiges Angebot mit einem GA-Zieldatum 28. August, dem Zeitpunkt, zu dem Sie Planung erwerben müssen, um es in der Produktion genießen zu können. Wenden Sie sich an Ihren Vertriebsmitarbeiter, um weitere Details zu erhalten.
+<!--## Is this Taxonomy / Record structure ONLY available if you purchase Planning?  A taxonomy structure would be beneficial for standard Workfront users too -->
 
-Ist AI-Aktivierung nur für WF-Systemadministratoren verfügbar ODER kann sie auf bestimmten Zugriffsebenen aktiviert werden ODER kann sie NUR für bestimmte Benutzer (1 oder 2) aktiviert werden?
+## Können Workfront-Administratoren eigene Vorlagen erstellen?
 
-Zunächst haben nur Primäre Systemadministratoren Zugriff, sodass sie über Zugriffsebenen konfigurieren können, auf die in ihrer Organisation Zugriff besteht. Nach dem 21. Juni wird die KI für den Rest der Organisation aktiviert und sie haben Zugriff oder hängen nicht von der vom Systemadministrator festgelegten Konfiguration ab.
+Nicht während der frühen Zugriffsphase.
 
-Wo sind die hier erstellten FELDS live? Können vorhandene FELDER von denen übernommen werden, die wir für andere Objekte erstellt haben? Sind sie von anderen erstellten Feldern getrennt?
+## Verfügen Sie über eine ERD, die dokumentiert ist und für die Freigabe für das Planungsmodell und die Datensatztypen verfügbar ist?
 
-Derzeit befinden sich die Felder in dem Rekordtyp, in dem sie erstellt wurden, aber wir haben eine Initiative mit hoher Priorität für H2 &#39;24, um die Planungs- und Workfront-Felder in einer zentralisierten Feldbibliothek zusammenzuführen.
+Derzeit verfügen wir nicht über eine ERD, aber wir verfügen über eine ausführliche Dokumentation, die Sie durch alle Einzelheiten im Zusammenhang mit der Workfront-Planung führt. Weitere Informationen finden Sie unter [Adobe Workfront-Planung: Artikelindex](/help/quicksilver/planning/planning-information.md).
 
-Können wir Berichte erstellen, die auf den Datensätzen/Feldern basieren, die wir in der Planung erstellen?
+## Wie ist der Preis für die Workfront-Planung strukturiert: Ist dies eine einmalige jährliche Gebühr? Oder werden wir pro Benutzer berechnet?
 
-Ja! In Kürze über Dashboards-Arbeitsfläche verfügbar
+Planen ist ein kostenpflichtiges Angebot zusätzlich zu Ihrer Workfront-Lizenz. Die Planung steht am 28. August 2024 zum Kauf zur Verfügung. Zu diesem Zeitpunkt müssen Sie die Planung erwerben, um sie in der Produktion weiterhin verwenden zu können. Wenden Sie sich an Ihren Kundenbetreuer, um weitere Informationen zu erhalten.
 
-Können wir diese Daten auch mithilfe der API abrufen?
+## Ist der KI-Assistent nur für Systemadministratoren von Workfront verfügbar oder kann er für bestimmte Zugriffsebenen oder nur für bestimmte Benutzer aktiviert werden?
 
-Ja! Wir haben bereits eine API und einen Fusion Connector.
+Der KI-Assistent ist derzeit in der Beta-Phase verfügbar und kann für Ihre Umgebung aktiviert werden, wenn Sie eine besondere Anfrage an Ihren Kundenbetreuer richten. Nachdem die Anfrage genehmigt und der KI-Assistent (Beta) in Ihrer Umgebung aktiviert wurde, kann jeder in der Umgebung den KI-Assistenten in allen Bereichen von Workfront verwenden, einschließlich Planung. Workfront-Administratoren müssen die Layoutvorlagen aller Benutzer um Planung ergänzen. Außerdem können sie den KI-Assistenten für Benutzer in ihren Zugriffsebenen deaktivieren.
 
-Von einem Marketing-Arbeitsbereich aus: Ist es am besten, einen Master-Arbeitsbereich für ein Global Marketing-Team zu verwenden, ODER ist es am besten, einzelne Arbeitsbereiche für jede Geschäftszeile, jedes Land, jede Marke usw. zu verwenden? Ich habe gesehen, dass wir bis zu 1000 Arbeitsbereiche haben und Arbeitsbereiche miteinander verbinden können. Ist es möglich, Datensätze mit verschiedenen Arbeitsbereichen zu verknüpfen? Der Anwendungsfall wäre: Gewähren Sie jedem Produkt einen eigenen Arbeitsbereich, jedoch mit freigegebenen Datensatztypen. Und dann möchte ich eine gemeinsame Ansicht sehen, die alles kombiniert.
+## Wo leben die hier erstellten Felder? Können vorhandene Felder, die wir für andere Objekte erstellt haben, eingefügt werden? Sind sie von anderen Feldern getrennt, die anderswo erstellt wurden?
 
-Können wir den Kampagnen Portfolio und Programm einbringen? Das bringt wiederum Projekte mit sich?
+Derzeit befinden sich die Felder in dem Datensatztyp, aus dem sie erstellt wurden. Sie sind nicht für andere Datensatztypen oder für Workfront-Objekte verfügbar. Auch in der Planung sind keine Workfront-Felder verfügbar. Wir haben eine Initiative für unseren Fahrplan, um die Bereiche Planung und Workfront in einer zentralen Feldbibliothek zusammenzuführen.
 
-Ist es möglich, Projekte bei der Projekterstellung mit Datensätzen in einem Arbeitsbereich zu verknüpfen, ohne dass Sie zum Arbeitsbereich wechseln müssen, um ihn zu verknüpfen?
+## Können wir Berichte erstellen, die auf den Datensätzen und Feldern basieren, die wir in der Planung erstellen?
 
-Derzeit verfügen wir über den Bereich Planung in Projekten, die Verbindungsdatensätze aus Datensatztypen planen anzeigen. Sie können Datensätze zu diesen Verbindungen hinzufügen oder daraus entfernen. Wir werden auch bald die Möglichkeit hinzufügen, eine Relation zu Datensätzen in allen anderen Typen der Planung von Datensätzen herzustellen, auch wenn diese Verbindung derzeit keine verknüpften Datensätze aufweist.
+Ja. In Kürze werden wir in der Lage sein, mithilfe von Leinwand-Dashboards Berichte über Planungsinformationen zu erstellen.
 
-Ich verstehe, dass wir irgendwann in der Lage sein werden, Informationen/Daten von jemandem außerhalb unserer Organisation zu erfassen. Wann wird diese Funktion in der Beta-Version verfügbar gemacht?
+## Können wir auch Planungsdaten mithilfe der API abrufen?
 
-Kann der Arbeitsbereich für die Ressourcen- und Kapazitätsplanung nach der Rolle des Arbeitsplatzes in einer Kampagne verwendet werden?
+Ja. Wir haben bereits eine Planungs-API sowie einen Fusion-Connector zur Verfügung. Weitere Informationen finden Sie unter [Adobe Workfront-Planungsmodule](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Die Dokumentation zur Workfront Planning API wird in Kürze verfügbar sein.
 
-Wir können einen Workspace-Datensatz verknüpfen, um eine Anfrage zu starten?
+<!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
-AMTSSTUNDEN 6/18
+## Können wir Portfolio und Programm in Kampagnen integrieren? Das bringt wiederum Projekte mit sich?
 
-Die Möglichkeit, Daten mit verbundenen Workfront-Daten zu verknüpfen. Ist dies derzeit auf allen Ebenen aktiv (Projekte, Portfolios, Programm usw.)?
+Ja, Sie können Workfront-Planungskampagnen mit Workfront-Portfolios und -Programmen verbinden. Projekte werden jedoch nicht hinzugefügt, wenn Sie Portfolios und Programme verbinden. Sie müssen Datensatztypen als separate Objekte mit Portfolios, Programmen und Projekten verbinden.
 
-Ja, es ist möglich, Projekte über Suchfelder zu verbinden.
+## Ist es möglich, Projekte bei der Projekterstellung mit Datensätzen in einem Arbeitsbereich zu verknüpfen, ohne dass Sie zum Arbeitsbereich wechseln müssen, um ihn zu verknüpfen?
 
-Woher weiß ich, dass eine öffentliche Ansicht zur Ansicht bereit ist?
+Zurzeit befindet sich der Abschnitt Planung in Projekten, der alle verbundenen Datensätze aus den Datensatztypen für die Planung anzeigt, die mit Projektobjekten verbunden sind. Sie können im Abschnitt Planung weitere Datensätze hinzufügen oder entfernen. Bald werden wir auch die Möglichkeit hinzufügen, Datensätze anderer Typen der Planung zu verknüpfen, auch wenn diese Verbindung keine verknüpften Datensätze aufweist. Sie müssen den Datensatztyp jedoch mit dem Workfront-Objekttyp (Projekt) verknüpfen, um tatsächliche Datensätze mit Projekten aus Workfront zu verbinden.
 
-Freigegebene öffentliche Ansichten sind sichtbar
+<!--I'm understanding eventually we will be able to intake information/data from someone outside our organization. When will this feature be made available in beta? 
 
-Wie können Sie eine Ansicht intern freigeben?
+Can the workspace be used for resource and capacity planning by job role across a campaign? 
 
-Jedes Mal, wenn Sie einen neuen Arbeitsbereich erstellen, müssen Sie Ansichten erneut freigeben?
+We will be able to link a Workspace record to start a request? -->
 
-Ja, jedes Mal, wenn Sie einen neuen Arbeitsbereich erstellen, sodass es sich um einen neuen Datensatztyp handelt. Ansichten sind für Datensatztypen spezifisch. Daher müssen Sie sie erneut freigeben.
+## Können Sie Daten aus verbundenen Workfront-Daten verknüpfen? Ist dies derzeit auf allen Ebenen aktiv (Projekte, Portfolios, Programm)?
 
-Können Miniaturansichten aus dem Inhalt stammen? Das heißt, legen Sie die Miniaturansicht auf .pdf oder Video fest. Wir arbeiten mit Kreativschaffenden zusammen und haben eine auswählbare Miniaturansicht, die eine hervorragende Möglichkeit wäre, Teams an solchen Treffen auf höherer Ebene zu beteiligen, wo sie unsere Inhaltskarte besprechen - ein Link zu den Inhalten direkt wäre auch großartig.
+Ja, es ist möglich, Projekt-, Programm- oder Portfoliodaten über Suchfelder zu verbinden.
 
-Können Sie die Berechtigungen über die Basis hinaus anpassen? Zurzeit können Sie mit anderen Workfront-Objekten anpassen, was der Beitrags-/Verwaltungs-/Anzeigezugriff kann.
+<!-- ******************not sure about the answer here: 
 
-Derzeit verfügen wir nur über Berechtigungen auf Arbeitsbereich- und Ansichtsebene, jedoch nicht über Berechtigungen zum Typ oder einzelne Datensatzebene.
+## How do I know there are public view ready to view? 
 
-Können wir Workspace-Symbole ähnlich wie Miniaturansichten anpassen?
+Public views that are shared are visible  -->
 
-Gibt es anpassbare APIs, um unser eigenes DAM anstelle von Adobe DAM zu verwenden?
+## Wie können Sie eine Ansicht intern freigeben?
 
-Wir haben eine öffentliche API für die Planung erstellt und haben auch den Fusion Connector. Die API-Dokumentation wird veröffentlicht und kann zum Erstellen von Verbindungen verwendet werden.
+Informationen zum Freigeben von Ansichten finden Sie unter [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md).
 
-Ich sehe Wert in Planung (Mitarbeiter, die Airtable verwenden). Bis jetzt waren wir .. neugierige Backend-Verbindung nach x, die auf ~10.47 Uhr zurückgeht
+## Jedes Mal, wenn Sie einen Arbeitsbereich erstellen, müssen Sie Ansichten erneut freigeben?
+
+Ja, jedes Mal, wenn Sie einen Arbeitsbereich erstellen, erstellen Sie auch Datensatztypen. Ansichten sind für Datensatztypen spezifisch. Daher müssen Sie die Ansichten erneut freigeben.
+
+Ansichten werden separat von Arbeitsbereichen freigegeben. Sie müssen den Arbeitsbereich freigeben, damit Benutzer auf die Datensatztypen und Ansichten zugreifen können, damit Benutzer auf die Felder der Datensätze zugreifen können.
+
+<!--Can thumbnails be from the content? i.e. Set the thumbnail to the .pdf or video. We work with creative people and to have a thumbnail view that is selectable would be a great way to keep teams engaged in those higher-level meetings where they will discuss our Content Map – a link to the content directly would be great too. -->
+
+## Können Sie die Berechtigungen über die Basis hinaus anpassen? Derzeit können Sie mit anderen Workfront-Objekten anpassen, was die Berechtigungen Contribute/Verwalten/Anzeigen können.
+
+Zum jetzigen Zeitpunkt nicht. Weitere Informationen zu den einzelnen Berechtigungen finden Sie unter [Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+Derzeit verfügen wir nur über Berechtigungen auf Arbeitsbereichs- und Ansichtsebene, jedoch nicht über Berechtigungen auf Typ- oder einzelnen Datensatzebene. Datensätze und Datensätze erben Berechtigungen von dem Arbeitsbereich, zu dem sie gehören.
+
+## Können wir Workspace-Symbole ähnlich wie Miniaturansichten anpassen?
+
+Anzahl
+
+## Gibt es anpassbare APIs, um unser eigenes DAM anstelle von Adobe DAM zu verwenden?
+
+Wir haben bereits eine Planungs-API sowie einen Fusion-Connector zur Verfügung. Weitere Informationen finden Sie unter [Adobe Workfront-Planungsmodule](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Die Dokumentation zur Workfront Planning API wird in Kürze verfügbar sein. Sie können die API verwenden, um benutzerdefinierte Integrationen zu erstellen.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
    <td> <p>Zeigen Sie in Workfront die Berechtigungen für ein Projekt, ein Portfolio oder ein Programm an oder höher</a> </p> 
-   <p>In der Workfront-Planung können Sie Berechtigungen für einen Arbeitsbereich anzeigen oder höher anzeigen</a> </p>  
+   <p>In der Workfront-Planung Contribute oder höhere Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche der Workfront-Planung, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
@@ -103,7 +103,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
 * Sie können den Abschnitt Planung in einem Workfront-Objekt anzeigen, auch wenn dem Workfront-Objekt keine Datensätze zugeordnet sind.
 * Sie können über Workfront im Bereich Planung Datensätze mit Workfront-Objekten verbinden, wenn mit dem Workfront-Objekt mindestens ein Datensatz verbunden ist.
-* Sie müssen über die Berechtigung &quot;Verwalten&quot;für einen Arbeitsbereich verfügen, um Datensätze aus den Workfront-Objekten zu verbinden.
 
 ## Verwalten von Datensätzen im Abschnitt &quot;Planung&quot;
 
@@ -114,8 +113,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
 1. Klicken Sie auf die Karte eines Datensatztyps, der mit einem Workfront-Projekt, -Portfolio oder -Programm verbunden ist.
-1. Wählen Sie eine Tabellenansicht aus dem **Ansicht** Dropdown-Menü.
-1. (Bedingt) Wechseln Sie zum Feld für den verbundenen Datensatz in der Tabelle und fügen Sie ein Workfront-Objekt hinzu. Klicken Sie dann im Feld auf den Namen des Workfront-Objekts. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+1. Wechseln Sie zu einem verbundenen Datensatzfeld, das über eine Verbindung mit einem Workfront-Objekt verfügt, entweder in der Tabellenansicht oder auf der Detailseite eines Datensatzes. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+1. Klicken Sie im Feld &quot;Verbundener Datensatz&quot;auf den Namen eines Workfront-Objekts.
 Die Seite der Objekte wird in der Workfront-Planung geöffnet.
 1. Klicks **Zu Quelle wechseln** in der oberen rechten Ecke des Bildschirms.
 
@@ -148,7 +147,7 @@ Folgendes geschieht:
 
    >[!NOTE]
    >
-   >   Die Schaltfläche Verbinden wird nur für die Arbeitsbereiche angezeigt, für die Sie Beitragsberechtigungen haben. <!--they might replace this with one button at the top of the page. Rephrase-->
+   >   Die Schaltfläche Verbinden wird nur für die Arbeitsbereiche angezeigt, für die Sie über Contribute-Berechtigungen verfügen. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. Klicken Sie auf die Datensätze, die Sie verbinden möchten. Folgendes geschieht:
 
