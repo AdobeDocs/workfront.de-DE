@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit der Version vom 3. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Benutzerdefinierter Formularentwickler, der allgemein in Adobe Workfront verfügbar ist
+
+>[!NOTE]
+>
+>Vorschau-Version: 19. Juni 2024; Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024).
+
+Der benutzerdefinierte Formularentwickler wurde im April 2023 (Version 23.2) zur Beta-Version freigegeben. Seitdem wurden weitere Funktionen hinzugefügt, z. B. externe Suchfelder und native Workfront-Felder. Im Jahr 2024 hat der Formularentwickler die funktionale Parität mit dem alten Formular-Builder erreicht.
+
+Mit Version 24.7 ist der Formularentwickler allgemein verfügbar und wird zum Standarderlebnis beim Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront. Wenn Sie ein neues benutzerdefiniertes Formular erstellen oder ein vorhandenes Formular öffnen, wird der Arbeitsbereich im Arbeitsbereich des Formulardesigners angezeigt.
+
+Nach dieser Version haben Sie nicht mehr die Möglichkeit, zum alten Formular-Builder zurückzukehren.
+
+Weitere Informationen zum Formularentwickler und eine Videodemonstration finden Sie in der [Beta-Version von Formularentwickler](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Verschieben von Objekten zwischen Workfront-Umgebungen mit Umgebungsförderung
 
@@ -51,7 +65,7 @@ Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau-Version: 6. Juni 2024; Produktionsversion für alle Kunden: Mit Version 24.7 (Juli 2024)
+>Vorschau-Version: 6. Juni 2024; Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024)
 
 Sie können jetzt ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zum Erstellen des Felds zu öffnen. Auf diese Weise können Sie schnell wiederverwendbare benutzerdefinierte Felder erstellen.
 

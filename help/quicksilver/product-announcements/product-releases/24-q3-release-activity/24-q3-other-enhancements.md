@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des drit
 >[!NOTE]
 >
 >* Die Adobe Unified Shell wird in einem stufenweisen Rollout zur Verfügung gestellt. Weitere Organisationen werden mit den Versionen 24.10 und 25.1 in die Adobe Unified Shell integriert.
->* Vorschau-Version: 20. Juni 2024; Produktionsversion für bestimmte Kunden: Mit Version 24.7 (Juli 2024)
+>* Vorschau-Version: 20. Juni 2024; Produktionsversion für bestimmte Kunden: Mit Version 24.7 (18. Juli 2024)
 
 Um Unternehmen den Zugriff auf die Vorteile des Adobe Unified Experience zu ermöglichen, haben wir begonnen, es bestehenden Workfront-Kunden zur Verfügung zu stellen.
 
@@ -45,7 +45,7 @@ Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront]
 
 >[!NOTE]
 >
->Vorschau-Version: 6. Juni 2024; Produktion für alle Kunden: Mit Version 24.7 (Juli 2024)
+>Vorschau-Version: 6. Juni 2024; Produktion für alle Kunden: Mit Version 24.7 (18. Juli 2024)
 
 Um das Erlebnis für Benutzer zu vereinheitlichen, die nicht Unified Shell verwenden, wurde die Schaltfläche Hilfe in der Hauptnavigationsleiste entfernt. Diese Schaltfläche, die nicht für Unified Shell-Benutzer vorhanden ist und mit der Workfront-Dokumentation verknüpft ist, war redundant und mit einer ähnlichen Schaltfläche für alle Benutzer im Hauptmenü verfügbar.
 

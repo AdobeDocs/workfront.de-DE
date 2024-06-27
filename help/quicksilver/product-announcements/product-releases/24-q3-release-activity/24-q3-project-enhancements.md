@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des drit
 
 >[!NOTE]
 >
->Vorschau-Version: 30. Mai 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.6 (13. Juni 2024); Produktionsversion für alle Kunden: Mit Version 24.7 (Juli 2024).
+>Vorschau-Version: 30. Mai 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.6 (13. Juni 2024); Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024).
 
 Um die Aktualisierung von Aufgaben und Problemen zu vereinfachen, haben wir jetzt die Felder &quot;Datum und Bedingung für die Übermittlung&quot;als Optionen hinzugefügt, die in einer Layout-Vorlage zum Abschnitt &quot;Aufgaben- und Problemkopfzeilen und Details&quot;hinzugefügt werden können. Benutzer können diese Felder jetzt über die Kopfzeile oder den Detailabschnitt einer Seite aktualisieren, wenn sie der geänderten Layoutvorlage zugewiesen sind. Vor dieser Verbesserung konnten Sie bei der Anpassung der Kopfzeilen die Bedingung und das Datum der Veröffentlichung von Aufgaben und Problemen nicht hinzufügen.
 
@@ -38,7 +38,7 @@ Informationen zum Aktualisieren des Zustimmungsdatums und der sCondition finden 
 
 >[!NOTE]
 >
->Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit Version 24.5 (16. Mai 2024); Produktionsversion für alle Kunden: Mit Version 24.7 (Juli 2024).
+>Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit Version 24.5 (16. Mai 2024); Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024).
 
 Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.
 
