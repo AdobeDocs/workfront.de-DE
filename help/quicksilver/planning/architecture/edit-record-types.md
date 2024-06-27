@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen und wählen Sie den Arbeitsbereich aus, dessen Datensatztypen Sie bearbeiten möchten.
+   Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
 1. Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) in der rechten oberen Ecke der Datensatztypkarte klicken Sie auf **Bearbeiten**.
@@ -130,4 +130,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    <!--check this screen shot - not sure this is valid ???-->
 
-1. (Optional) Erweitern Sie den nach unten zeigenden Pfeil rechts neben einem Datensatztypnamen und wählen Sie einen anderen zu bearbeitenden Datensatztyp aus.
+1. (Optional) Um einen anderen Datensatztyp zu bearbeiten, erweitern Sie den nach unten zeigenden Pfeil rechts neben einem Namen des Datensatztyps, suchen Sie nach einem Datensatztyp und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.

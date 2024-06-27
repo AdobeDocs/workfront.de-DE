@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
 1. Klicken Sie auf eine Workspace-Karte, um den Arbeitsbereich zu öffnen.
 1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste **Eingabe**.
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)rechts neben dem Workspace-Namen in der Kopfzeile klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Workspace-Namen in der Kopfzeile klicken Sie auf **Bearbeiten**.
 
    ![](assets/edit-workspace-box.png)
 

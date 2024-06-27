@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3384'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >    Einige Felder sind möglicherweise ausgeblendet. Klicken Sie auf Felder und aktivieren Sie den Umschalter der Felder, die in der Tabellenansicht als Spalten angezeigt werden sollen.
 
-1. Klicken Sie auf **+** rechts oben in der Tabellenansicht, um neue Felder hinzuzufügen.
+1. Klicken Sie auf **+** Symbol oben rechts in der Tabellenansicht
+
+   Oder
+
+   Bewegen Sie den Mauszeiger über die Kopfzeile einer Spalte, klicken Sie auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Links einfügen** oder **Berechtigung einfügen** , um das neue Feld hinzuzufügen.
 1. Im **Neues Feld** -Registerkarte nach einem Feldtyp in der **Feldtyp** oder wählen Sie aus den folgenden Feldtypen aus:
 
    * [Einzeiliger Text](#single-line-text)
