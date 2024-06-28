@@ -4,9 +4,9 @@ description: Sie können den KI-Assistenten verwenden, um Datensätze basierend 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf die Adobe Workfront-Planung und den AI-Assistenten, bei denen es sich um neue Angebote von Adobe Workfront handelt.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning und die Workfront AI Assistant (Beta), die neue Angebote von Adobe Workfront sind.
 >
->Workfront Planning und der AI Assistant befinden sich derzeit in einer frühen Zugriffsphase, die nur einer begrenzten Anzahl von Kunden zugänglich ist.
+>Die Workfront-Planung befindet sich derzeit in einer frühen Zugriffsphase und der Workfront AI-Assistent befindet sich in der Beta-Phase.
+>
+>Workfront Planning und der AI Assistant (Beta) stehen nur einer begrenzten Anzahl von Kunden zur Verfügung.
 >
 >Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
 >
@@ -28,7 +30,7 @@ ht-degree: 0%
 >
 >Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 
-Sie können den KI-Assistenten verwenden, um Datensätze basierend auf dem aktuellen Seitenkontext und der aktuellen Datensatzstruktur zu generieren, zu aktualisieren oder zu entfernen.
+Sie können den AI-Assistenten verwenden, um Datensätze basierend auf dem aktuellen Seitenkontext und der aktuellen Datensatzstruktur zu generieren, zu aktualisieren oder zu entfernen.
 
 Die Befehle des Benutzers und die Ausführung dieser Befehle durch die KI arbeiten zusammen, um sicherzustellen, dass von der KI vorgenommene Änderungen in Ihrer Umgebung korrekt widergespiegelt werden.
 
@@ -40,25 +42,27 @@ Die Befehle des Benutzers und die Ausführung dieser Befehle durch die KI arbeit
 
 * Der KI-Assistent arbeitet im Kontext jeder Seite. Die Anfragen, die Sie für den AI-Assistenten senden, müssen auf Funktionen verweisen, die auf der geöffneten Seite verfügbar sind.
 
-* Die vom AI-Assistenten durchgeführten Aktionen beziehen sich auf Ihre Workfront Planning-Berechtigungen und Ihre Workfront-Zugriffsebene. Weitere Informationen finden Sie in den folgenden Artikeln:
+* Die vom AI-Assistenten im Planungsbereich durchgeführten Aktionen beziehen sich auf Ihre Workfront Planning-Berechtigungen und Ihre Workfront-Zugriffsebene. Weitere Informationen finden Sie in den folgenden Artikeln:
 
    * [Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md)
 
 * Änderungen, die vom AI-Assistenten im Namen des Benutzers vorgenommen werden, werden im Verlaufsfenster des Datensatzes verfolgt.
 
-* Sie können Befehle verwenden, um Ihre Aktionen rückgängig zu machen.
+* Sie können Befehle verwenden, um Ihre Aktionen rückgängig zu machen. Sie können beispielsweise &quot;Letzte Änderung rückgängig machen&quot;eingeben, um Ihre Änderung wiederherzustellen.
 
 ## Derzeit für den AI-Assistenten verfügbare Funktionen
 
 Derzeit ist der AI-Assistent im Planungsbereich von Workfront für die folgenden Seiten verfügbar:
 
+* Workspace-Seite
 * Seite mit Datentyp
 * Seite aufzeichnen
 
 Sie können den AI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden Aktionen durchzuführen:
 
-* Erstellen Sie Datensätze. Eine ID mit einem Link zum neuen Datensatz wird nach der Erstellung des Datensatzes angezeigt.
+* Suchen Sie nach Datensätzen. Sie können nach Informationen in beliebigen Datensatzfeldern suchen.
+* Erstellen Sie Datensätze. Eine ID mit einem Link zum neuen Datensatz wird nach der Erstellung des Datensatzes angezeigt. Sie können die Felder angeben, die Sie während des Erstellungsprozesses aktualisieren möchten, z. B. Datumsangaben oder Beschreibungen.
 * Erstellen Sie Datensätze anhand eines hochgeladenen Dokuments. Workfront unterstützt die folgenden Dokumentenformate für den AI-Assistenten:
 
   .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt und die meisten Bildformate
@@ -70,7 +74,9 @@ Sie können den AI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 
 1. Melden Sie sich bei Workfront an und wechseln Sie dann zum **Planung** Bereich.
 
-1. Klicken Sie auf **Arbeitsfläche** > **Record Type Card**.
+1. Klicken Sie auf **Arbeitsfläche**.
+
+1. (Optional) Klicken Sie auf eine **Record Type Card**.
 
 1. (Optional) Klicken Sie auf eine **record** , um den Datensatz zu öffnen **Details** Seite.
 
@@ -84,7 +90,7 @@ Sie können den AI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 
    Sie können beispielsweise eine der folgenden eingeben:
 
-   * Datensatz erstellen
+   * Erstellen Sie eine Kampagne mit dem Startdatum 4. Juli und dem Enddatum 30. Juli.
    * Aktualisieren Sie das Feld Beschreibung des Datensatzes der Sommerkampagne mit dem noch festzulegenden Datum.
    * Letzten Datensatz löschen
    * Datensatz wiederherstellen

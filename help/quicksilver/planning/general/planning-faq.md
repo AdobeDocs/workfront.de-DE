@@ -4,9 +4,9 @@ description: Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Das Workfront-Planungsmodul ist eine von drei unterschiedlichen, aber miteinande
 
 ## Wann wird Workfront Planning veröffentlicht?
 
-Die neueste Version der Workfront-Planung zur allgemeinen Verfügbarkeit ist für den 28. August 2024 geplant. Aktuelle Informationen zu den derzeit veröffentlichten Funktionen finden Sie unter [Adobe Workfront-Planungs-Release-Aktivität](/help/quicksilver/planning/general/release-activity.md).
+Die neueste Version der Workfront-Planung zur allgemeinen Verfügbarkeit ist für den 28. August 2024 geplant. Aktuelle Informationen zu den derzeit veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planung der aktuellen Release-Aktivität](/help/quicksilver/planning/general/release-activity.md).
 
 ## Was geschieht nach Abschluss der frühen Phase der Workfront-Planung?
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1967'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Im Folgenden finden Sie einige der wichtigsten Funktionen:
 
 Die folgende Tabelle zeigt die wichtigsten Funktionen, die in der Workfront-Planung verfügbar sein werden, und einen Zeitplan ihrer Verfügbarkeit. Die Liste enthält nicht alle Funktionen.
 
-Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [Adobe Workfront-Planungs-Release-Aktivität](/help/quicksilver/planning/general/release-activity.md).
+Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [Adobe Workfront Planung der aktuellen Release-Aktivität](/help/quicksilver/planning/general/release-activity.md).
 
 | Funktion | Jetzt verfügbar | In Kürze verfügbar | Forschung |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -116,7 +116,7 @@ Das Framework für die Workfront-Planung ist vollständig anpassbar. Sie können
 
 Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planung:
 
-* **Arbeitsbereich**: Eine Sammlung von Datensatztypen, die den Lebenszyklus einer bestimmten Organisation definieren. Ein Arbeitsbereich ist der Arbeitsbereich einer Organisationseinheit.
+* **Workspace**: Eine Sammlung von Datensatztypen, die den Lebenszyklus einer bestimmten Organisation definieren. Ein Arbeitsbereich ist der Arbeitsbereich einer Organisationseinheit.
 
   Eine Workfront-Instanz kann über maximal 1.000 Arbeitsbereiche verfügen.
 
@@ -328,5 +328,5 @@ So suchen Sie die Workfront-Planung:
 
 Wir veröffentlichen regelmäßig neue Funktionen für die Workfront-Planung.
 
-Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Workfront-Planungs-Release-Aktivität](/help/quicksilver/planning/general/release-activity.md)
+Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planung der aktuellen Release-Aktivität](/help/quicksilver/planning/general/release-activity.md)
 
