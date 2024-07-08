@@ -7,17 +7,16 @@ description: Sie können auswählen, ob Sie monatlich oder vierteljährlich neue
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
-source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Bearbeiten von Geschäftsregeln
+
+{{highlighted-preview-article-level}}
 
 Mit einer Geschäftsregel können Sie eine Validierung auf Workfront-Objekte anwenden und verhindern, dass Benutzer ein Objekt erstellen, bearbeiten oder löschen, wenn bestimmte Bedingungen erfüllt sind. Geschäftsregeln helfen bei der Verbesserung der Datenqualität und der betrieblichen Effizienz, indem sie Aktionen verhindern, die die Datenintegrität beeinträchtigen könnten.
 
@@ -25,7 +24,7 @@ Eine einzelne Geschäftsregel kann nur einem Objekt zugewiesen werden. Wenn Sie 
 
 Zugriffsebenen und die Objektfreigabe haben eine höhere Priorität als Geschäftsregeln, wenn ein Benutzer mit einem Objekt interagiert. Wenn ein Benutzer beispielsweise über eine Zugriffsebene oder -berechtigung verfügt, die die Bearbeitung eines Projekts nicht zulässt, haben diese Vorrang vor einer Geschäftsregel, die die Bearbeitung eines Projekts unter bestimmten Bedingungen zulässt.
 
-Eine Hierarchie existiert auch, wenn mehrere Geschäftsregeln auf ein Objekt angewendet werden. Sie haben beispielsweise zwei Geschäftsregeln. Man beschränkt die Erstellung von Ausgaben im Februar. Das zweite verhindert die Bearbeitung eines Projekts, wenn der Projektstatus Abgeschlossen ist. Wenn ein Benutzer versucht, einem im Juni abgeschlossenen Projekt eine Ausgabe hinzuzufügen, kann die Ausgabe nicht hinzugefügt werden, da sie die zweite Regel ausgelöst hat.
+Wenn mehr als eine Geschäftsregel auf ein Objekt angewendet wird, werden die Regeln alle befolgt, aber nicht in einer bestimmten Reihenfolge angewendet. Sie haben beispielsweise zwei Geschäftsregeln. Man beschränkt die Erstellung von Ausgaben im Februar. Das zweite verhindert die Bearbeitung eines Projekts, wenn der Projektstatus Abgeschlossen ist. Wenn ein Benutzer versucht, einem im Juni abgeschlossenen Projekt eine Ausgabe hinzuzufügen, kann die Ausgabe nicht hinzugefügt werden, da sie die zweite Regel ausgelöst hat.
 
 Geschäftsregeln gelten für das Erstellen, Bearbeiten und Löschen von Objekten über die API sowie die Benutzeroberfläche von Workfront.
 
@@ -64,18 +63,36 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Szenarien für Geschäftsregeln
 
-Einige einfache Geschäftsregelszenarien sind:
+Das Format einer Geschäftsregel lautet &quot;WENN die definierte Bedingung erfüllt ist, wird der Benutzer an der Aktion für das Objekt gehindert und die Nachricht wird angezeigt.&quot;
 
-* Benutzer können in der letzten Februar-Woche keine neuen Ausgaben hinzufügen. Diese Formel könnte wie folgt lauten: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Benutzer können kein Projekt bearbeiten, das sich im Status Abgeschlossen befindet. Diese Formel könnte wie folgt lauten: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-Die Syntax zum Erstellen einer Geschäftsregel entspricht der Erstellung eines berechneten Felds in einem benutzerdefinierten Formular. Weitere Informationen zur Syntax finden Sie unter [Berechnete Felder mit dem Formularentwickler hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Die Syntax für die Eigenschaften und anderen Funktionen einer Geschäftsregel entspricht der Syntax für ein berechnetes Feld in einem benutzerdefinierten Formular. Weitere Informationen zur Syntax finden Sie unter [Berechnete Felder mit dem Formularentwickler hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Weitere Informationen zu IF-Anweisungen finden Sie unter [Übersicht über &quot;IF&quot;-Anweisungen](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Weitere Informationen zu nutzerbasierten Platzhaltern finden Sie unter [Verwenden benutzerbasierter Platzhalter zum Generalisieren von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Informationen zu datumsbasierten Platzhaltern finden Sie unter [Verwenden datumsbasierter Platzhalter zum Generalisieren von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+In Geschäftsregeln ist auch ein API-Platzhalter verfügbar. Sie können `$$ISAPI` , um die Regel nur in der Benutzeroberfläche oder nur in der API Trigger.
+
+Einige einfache Geschäftsregelszenarien sind:
+
+* Benutzer können in der letzten Februar-Woche keine neuen Ausgaben hinzufügen. Diese Formel könnte wie folgt lauten: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Benutzer können kein Projekt bearbeiten, das sich im Status Abgeschlossen befindet. Diese Formel könnte wie folgt lauten: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+Ein Szenario mit verschachtelten IF-Anweisungen ist:
+
+Benutzer können keine abgeschlossenen Projekte bearbeiten und keine Projekte mit dem geplanten Abschlussdatum im März bearbeiten. Diese Formel könnte wie folgt lauten:
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## Neue Geschäftsregel hinzufügen
 

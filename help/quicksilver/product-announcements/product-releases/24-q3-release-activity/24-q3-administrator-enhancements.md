@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit der Version vom 3. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Geschäftsregeln sind jetzt verfügbar
+
+>[!NOTE]
+>
+>Vorschau-Version: 4. Juli 2024; Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024).
+
+Administratoren können nun im Einrichtungsbereich von Workfront Geschäftsregeln hinzufügen.
+
+Mit einer Geschäftsregel können Sie eine Validierung auf Workfront-Objekte anwenden und verhindern, dass Benutzer ein Objekt erstellen, bearbeiten oder löschen, wenn bestimmte Bedingungen erfüllt sind. Die Regeln werden mit einer Formel erstellt, die der berechneten Feldern in benutzerdefinierten Formularen ähnelt.
+
+Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>Geschäftsregeln sind nur für Organisationen mit dem neuen Ultimate-Plan verfügbar.
 
 ## Benutzerdefinierter Formularentwickler, der allgemein in Adobe Workfront verfügbar ist
 
