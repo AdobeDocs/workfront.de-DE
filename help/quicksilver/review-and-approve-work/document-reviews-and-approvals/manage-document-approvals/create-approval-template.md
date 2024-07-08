@@ -5,13 +5,13 @@ title: Erstellen einer Validierungsvorlage
 description: Sie können Genehmigungsvorlagen erstellen, um Ihren Genehmigungsprozess zu optimieren.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
+source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '228'
 ht-degree: 2%
 
 ---
-
 
 # Erstellen einer Validierungsvorlage
 
@@ -37,7 +37,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Standard</p> </td> 
+   <td> <p>Neu: Standard</p> 
+   <p>oder</p>
+   <p>Aktuell: Plan</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,4 +68,3 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
 ![](assets/assign-template.png)-->
-
