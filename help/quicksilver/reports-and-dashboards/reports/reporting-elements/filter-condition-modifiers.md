@@ -6,9 +6,9 @@ description: Mit Filter- und Bedingungsmodifikatoren können Sie Filter erstelle
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -127,16 +127,16 @@ Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur
    <td> <p><strong>Ungleich</strong> </p> </td> 
    <td> <p><strong>notin</strong> </p> </td> 
    <td> <p>Dies ist die <i>Groß-/Kleinschreibung</i> entgegengesetzt von <strong>in</strong>. Es werden nur Ergebnisse zurückgegeben, die nicht in der angegebenen Liste enthalten sind.</p> <p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p> <p>Hinweis: <span>Wenn das Feld, nach dem Sie filtern, mehrere Optionen aufweist, werden die Ergebnisse herausgefiltert, die sowohl die von Ihnen festgelegte Auswahl als auch die von Ihnen festgelegte Auswahl und zusätzliche Optionen enthalten.</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>like</strong> </p> </td> 
+   <td> <p>Dieser Modifikator sucht nach Teilen eines <i>Groß-/Kleinschreibung</i> Textzeichenfolge auf ähnliche Weise wie <strong>contains</strong>. Allerdings <strong>like</strong> bietet die Möglichkeit, Platzhalterzeichen einzufügen, um den Text aufzuteilen.</p> <p>Wenn Sie beispielsweise nach Notizen suchen, verwenden Sie <code>like %Current% %Dead%</code> gibt einen Hinweis zurück, der die Wortgruppe "Aktuell bis tot"enthält. Es enthält keine Hinweise, die "Dead to Current"(Taubheit bis aktuell) enthalten. Jeder Wert wird in der angegebenen Reihenfolge durchsucht. Der % stellt eine Platzhalterkarte dar, um Zeichen oder Textsegmente zu ersetzen. Ein Unterstrich kann auch für ein einzelnes Platzhalterzeichen verwendet werden, wie in <code>like Project_</code> , das sowohl "Projekt"als auch "Projekte"zurückgibt. Wenn Sie eine <strong>like</strong> oder <strong>clike</strong> in Ihrer Filterung sollten Sie %- oder _-Zeichen in benutzerdefinierten Datenfeldnamen, Parameteroptionenwerten oder anderen Objektnamen vermeiden.</p><p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
    <td> <p>Dies ist die <i>Groß-/Kleinschreibung nicht berücksichtigt</i> Version von <strong>like</strong>. Beispiel: <code>cilike %Current% %Dead%</code> gibt alle Notizen zurück, die <code>Current to Dead</code> oder <code>current to dead</code>.</p> <p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>like</strong> </p> </td> 
-   <td> <p>Dieser Modifikator sucht nach Teilen eines <i>Groß-/Kleinschreibung</i> Textzeichenfolge auf ähnliche Weise wie <strong>contains</strong>. Allerdings <strong>like</strong> bietet die Möglichkeit, Platzhalterzeichen einzufügen, um den Text aufzuteilen.</p> <p>Wenn Sie beispielsweise nach Notizen suchen, verwenden Sie <code>like %Current% %Dead%</code> gibt einen Hinweis zurück, der die Wortgruppe "Aktuell bis tot"enthält. Es enthält keine Hinweise, die "Dead to Current"(Taubheit bis aktuell) enthalten. Jeder Wert wird in der angegebenen Reihenfolge durchsucht. Der % stellt eine Platzhalterkarte dar, um Zeichen oder Textsegmente zu ersetzen.</p> <p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Nicht vorhanden</strong> </td> 

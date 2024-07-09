@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
 1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie beschrieben in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klicken Sie auf den Abwärtspfeil. ![](assets/dropdown-arrow.png) under **Anpassen der Ansicht von Benutzern** Klicken Sie auf **Startseite**.
+1. Klicken Sie auf den Abwärtspfeil. ![](assets/dropdown-arrow.png) under **Anpassen der Ansicht von Benutzern** Klicken Sie auf **Startseite Workspace**.
 
 1. Klicken Sie in den rechts angezeigten Registerkarten auf **Design und Layout** Widgets und den Hintergrund auszuwählen und anzuordnen oder **Widget-Einstellungen** um Einstellungen für einzelne Widgets zu verwalten, wie z. B. verfügbare Filter und Gruppen.
 
@@ -132,3 +132,8 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
    Oder
 
    Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern** in der unteren linken Ecke.
+
+
+>[!NOTE]
+>
+>Administratoren, die ihre eigene Layoutvorlage anpassen, müssen die Seite aktualisieren, damit Änderungen angezeigt werden.
