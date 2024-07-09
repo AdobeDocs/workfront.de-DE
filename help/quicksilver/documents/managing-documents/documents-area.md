@@ -7,9 +7,9 @@ description: Im Bereich "Dokumente"können Sie Metadaten für in Adobe Workfront
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,21 @@ Im Bereich &quot;Dokumente&quot;können Sie Metadaten für in Adobe Workfront ho
 
 Es gibt zwei Arten von Dokumenten-Bereichen. Die Funktionen sind für beide identisch:
 
-* **Dokumentbereich in einem Projekt, einer Aufgabe oder einem Problem:** Listet alle Dokumente auf, auf die Sie Zugriff für ein bestimmtes Projekt, eine bestimmte Aufgabe oder ein bestimmtes Problem haben. Um auf diesen Bereich zuzugreifen, klicken Sie auf **Dokumente** ![](assets/document-icon-12x14.png) im linken Bereich beim Anzeigen eines Projekts, einer Aufgabe oder eines Problems.
+* **Dokumentbereich in einem Programm, Portfolio, Projekt, Aufgabe oder Problem:** Listet alle Dokumente auf, auf die Sie Zugriff für ein bestimmtes Projekt, eine bestimmte Aufgabe oder ein bestimmtes Problem haben. Klicken Sie auf **Dokumente** ![](assets/document-icon-12x14.png) im linken Bereich beim Anzeigen eines Projekts, einer Aufgabe oder eines Problems.
 
-* **Bereich &quot;Globale Dokumente&quot;:** Listet alle Dokumente auf, auf die Sie in Workfront Zugriff haben. Um auf diesen Bereich zuzugreifen, klicken Sie auf **Dokumente** ![](assets/document-icon.png) im Hauptmenü ![](assets/main-menu-icon.png).
+* **Bereich &quot;Globale Dokumente&quot;** Listet alle Dokumente auf, auf die Sie in Workfront Zugriff haben. Klicken Sie auf **Dokumente** ![](assets/document-icon.png) im Hauptmenü ![](assets/main-menu-icon.png).
 
 Informationen zum Hochladen von Dokumenten in Workfront finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-## Zusammenfassungsbereich
+
+Im Dokumentbereich werden die folgenden Elemente aufgezeichnet:
+
+* Workfront-Ordner
+* Aus dem Dateisystem hochgeladene Dateien
+* Dateien, die aus Integrationen zu Workfront hinzugefügt wurden
+* Verknüpftes Experience Manager Assets
+
+## Bedienfeld „Zusammenfassung“
 
 Wenn Sie ein Dokument im Dokumentbereich auswählen, können Sie die Zusammenfassung auf der rechten Seite verwenden, um Dokumentdetails anzuzeigen, Dokumentaktualisierungen und -genehmigungen zu verwalten, Dokumentversionen anzuzeigen und benutzerdefinierte Forms für das Dokument hinzuzufügen und zu bearbeiten.
 
@@ -52,7 +60,7 @@ Bei einem Projekt, einer Aufgabe oder einem Problem, bei dem Dokumente hochgelad
 
 Im Bereich &quot;Globale Dokumente&quot;können Sie zwei Ordnertypen einrichten, um die Dokumente zu organisieren, auf die Sie Zugriff haben:
 
-* **Smart-Ordner:** Zeigt nur die Dokumente an, die Sie sehen möchten. Weitere Informationen finden Sie unter [Erstellen und Verwalten intelligenter Ordner](../../documents/organizing-documents/create-manage-smart-folders.md).
+* **Smart-Ordner:** Zeigt nur die Dokumente an, die Sie sehen möchten. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Smart-Ordnern](../../documents/organizing-documents/create-manage-smart-folders.md).
 
 * **Meine Ordner:** Organisieren Sie Dokumente wie gewünscht. Weitere Informationen finden Sie unter [Erstellen von Dokumentordnern](../../documents/organizing-documents/create-documents-folder.md).
 
