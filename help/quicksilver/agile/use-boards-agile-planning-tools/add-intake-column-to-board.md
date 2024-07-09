@@ -7,7 +7,7 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: d2d96baa060cb3306f1767d179d514b569b0156a
+source-git-commit: 14448432922ec1fa478b805dead2ba1e6c211e86
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 3%
@@ -166,5 +166,3 @@ Die Symbole oben rechts in der Aufnahmespalte zeigen an, wie viele Karten sich d
    Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Verschieben]**. Klicken Sie anschließend auf die **[!UICONTROL Element verschieben]** auswählen, eine andere Spalte auswählen und **[!UICONTROL Verschieben]**.
 
 1. (Optional) Klicken Sie zum Löschen der Annahmespalte auf die **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) und wählen **[!UICONTROL Löschen]**.
-
-
