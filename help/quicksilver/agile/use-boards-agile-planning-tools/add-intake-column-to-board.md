@@ -7,10 +7,10 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4fd097395a3122caa5ba63765e572186c31c75ac
+source-git-commit: d2d96baa060cb3306f1767d179d514b569b0156a
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ Die Ansaugspalte ist auf einer dynamischen Pinnwand nicht verfügbar. Sie könne
 
 >[!NOTE]
 >
->Aus Sicherheitsgründen kann nur der Inhaber einer Pinnwand die Pinnwandfilter im Fenster &quot;Konfigurieren&quot;ändern.
+>Aus Sicherheitsgründen können nur Pinnwandbesitzende die Pinnwandfilter im Panel „Konfigurieren“ ändern.
 
 Die Ansauspalte ist auf 300 Aufgaben und 300 Probleme beschränkt. Die Standardreihenfolge der Elemente in der Ansaugluft-Spalte lautet wie folgt:
 
@@ -166,4 +166,5 @@ Die Symbole oben rechts in der Aufnahmespalte zeigen an, wie viele Karten sich d
    Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Verschieben]**. Klicken Sie anschließend auf die **[!UICONTROL Element verschieben]** auswählen, eine andere Spalte auswählen und **[!UICONTROL Verschieben]**.
 
 1. (Optional) Klicken Sie zum Löschen der Annahmespalte auf die **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) und wählen **[!UICONTROL Löschen]**.
+
 
