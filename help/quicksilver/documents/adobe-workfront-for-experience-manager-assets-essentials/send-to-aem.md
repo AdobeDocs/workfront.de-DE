@@ -6,22 +6,20 @@ description: Sie können Dokumente von Workfront an Experience Manager Assets od
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
 # Senden eines Dokuments an Experience Manager Assets oder Assets Essentials
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
-
 Sie können Dokumente von Workfront an Experience Manager Assets oder Assets Essentials senden. Dokumente, die von Workfront hochgeladen und an Assets Essentials gesendet wurden, werden weiterhin mit Ihrem gesamten Dokumentenspeicher angerechnet. Von Assets Essentials verknüpfte Assets zählen nicht zum Gesamtspeicher.
 
 Assets, das über diese Integration an Experience Manager gesendet wird, hat eine Größenbeschränkung von **5 GB**.
 
-<span class="preview">In der Vorschauumgebung hat Assets, das über diese Integration an Experience Manager gesendet wird, eine Größenbeschränkung von **30 GB**.</span>
+In der Vorschauumgebung hat Assets, das über diese Integration an Experience Manager gesendet wird, eine Größenbeschränkung von **30 GB**.
 
 Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Experience Manager Assets oder Assets Essentials senden. Alle Metadaten, die für die Zuordnung zu übergeordneten Objekten konfiguriert wurden, werden ebenfalls gesendet. Weitere Informationen zum Konfigurieren der Metadaten-Zuordnung finden Sie unter [Experience Manager Assets as a Cloud Service-Integration konfigurieren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -31,7 +29,9 @@ Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Ex
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel abzuschließen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,6 +62,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Voraussetzungen
 
