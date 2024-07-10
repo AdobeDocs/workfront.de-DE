@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
+source-git-commit: 02b025f228b6e2abc58dbc30f88c055c7850b803
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2895'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ Um beispielsweise auf die ausgewählte Option in einem benutzerdefinierten Feld 
 
 ## Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten {#calculated-custom-fields-in-multi-object-custom-forms}
 
-In einem benutzerdefinierten Formular mit mehreren Objekten müssen die ausgewählten Objektarten mit allen Feldern kompatibel sein, auf die in den berechneten benutzerdefinierten Feldern des Formulars verwiesen wird. Wenn eine Inkompatibilität vorliegt, werden Sie durch eine Meldung darauf hingewiesen, dass Sie Anpassungen vornehmen müssen.
+In einem benutzerdefinierten Formular mit mehreren Objekten müssen die ausgewählten Objektarten mit allen Feldern kompatibel sein, auf die in den berechneten benutzerdefinierten Feldern des Formulars verwiesen wird.
 
 >[!INFO]
 >
@@ -310,11 +310,11 @@ In einem benutzerdefinierten Formular mit mehreren Objekten müssen die ausgewä
 >
 >`{assignedTo}.{name}`
 >
->Später fügen Sie dem benutzerdefinierten Formular den Projektobjekttyp hinzu. Eine Warnmeldung weist Sie darauf hin, dass der Projektobjekttyp nicht mit dem berechneten benutzerdefinierten Feld kompatibel ist.
+>Später fügen Sie den Projektobjekttyp zum benutzerdefinierten Formular hinzu, der Projektobjekttyp ist jedoch mit dem berechneten benutzerdefinierten Feld nicht kompatibel.
 
 In diesem Fall haben Sie folgende Möglichkeiten:
 
-* Entfernen Sie eines der beiden inkompatiblen Elemente aus dem benutzerdefinierten Formular - entweder den Objekttyp oder das referenzierte berechnete benutzerdefinierte Feld.
+* Entfernen Sie eines der beiden inkompatiblen Elemente aus dem benutzerdefinierten Formular - entweder dem Objekttyp oder dem referenzierten berechneten benutzerdefinierten Feld.
 * Beides beibehalten und die Platzhalterfiltervariable verwenden `$$OBJCODE` als Bedingung in einem IF-Ausdruck verwenden, um zwei verschiedene Versionen des Felds In Charge zu erstellen. Dadurch kann das Feld unabhängig vom Objekttyp, an den das Formular angehängt ist, erfolgreich funktionieren.
 
 >[!INFO]
@@ -325,7 +325,7 @@ In diesem Fall haben Sie folgende Möglichkeiten:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-Weitere Informationen zu Variablen finden Sie unter `$$OBJCODE,` see [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Weitere Informationen zu Variablen finden Sie unter `$$OBJCODE,` see [Übersicht über Wildcard-Filtervariablen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Automatische Aktualisierung berechneter benutzerdefinierter Felder
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 0%
@@ -143,7 +143,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld:
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td>Geben Sie eine Beschriftung für das Feld ein. Dies wird Benutzern bei der Verwendung des benutzerdefinierten Formulars angezeigt. Das Feld <b>Name</b>, die automatisch ausgefüllt wird, wird von Workfront in Berichten referenziert.</td> 
      </tr> 
      <tr> 
@@ -278,6 +278,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
       Wenn Sie eine öffnende Klammer eingeben, wird die schließende Klammer automatisch hinzugefügt.
 
 +++ **Erweitern, um nützliche Tipps anzuzeigen**
+
       >[!TIP]
       >
       >Sie können eine der folgenden Aktionen ausführen, um Hilfe bei der Berechnung zu erhalten:
