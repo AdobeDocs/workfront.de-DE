@@ -6,7 +6,7 @@ description: Benutzer können ein Problem per E-Mail an ein Anforderungswartesch
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Diese Bedingungen müssen erfüllt sein, bevor diese Funktion aktiviert wird:
 
 1. Gehen Sie zu dem Projekt, das Sie für den Empfang von Problemen per E-Mail aktivieren möchten.
 1. Klicks **Warteschlangendetails** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen** zuerst.
-1. Im **Queue Type** Bereich, auswählen **Als Warteschlange für Hilfeanfragen veröffentlichen**.
+1. Im **Queue Type** Bereich, auswählen **Publish as Help Request Queue**.
 
 1. Scrollen Sie nach unten zum **E-Mail-Warteschlangeneinstellungen** Bereich und wählen Sie **Anfrageaufnahme per E-Mail aktivieren**.
 
@@ -102,7 +102,7 @@ Diese Bedingungen müssen erfüllt sein, bevor diese Funktion aktiviert wird:
 
    Diese E-Mail-Adresse erhält Informationen zu E-Mails, die nicht an das Projekt gesendet werden konnten.
 
-1. Klicks **Speichern**. Wenn jetzt Benutzer mit einem aktiven Workfront-Konto eine E-Mail an diese E-Mail-Adresse senden, wird im Workfront-Projekt ein Problem erstellt.
+1. Klicken Sie auf **Speichern**. Wenn jetzt Benutzer mit einem aktiven Workfront-Konto eine E-Mail an diese E-Mail-Adresse senden, wird im Workfront-Projekt ein Problem erstellt.
 
    >[!NOTE]
    >
