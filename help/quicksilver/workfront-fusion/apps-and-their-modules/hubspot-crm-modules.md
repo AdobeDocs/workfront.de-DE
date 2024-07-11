@@ -4,14 +4,14 @@ description: Die [!DNL Adobe Workfront Fusion] Mit HubSpot CRM-Modulen können S
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
+source-git-commit: 1c56cf8aa9da7ec2644955d5533c71f60160d580
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
 
-# [!DNL HubSpot CRM]-Module
+# [!DNL HubSpot CRM] Module
 
 Die [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] -Module ermöglichen es Ihnen, Ereignisse, Datensätze, Kontakte, Interaktionen, Dateien und Formularübermittlungen zu überwachen oder Datensätze, Kontakte, Interaktionen, Ereignisse oder Dateien in Ihren [!DNL HubSpot CRM] -Konto.
 
@@ -24,7 +24,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -61,6 +61,10 @@ Verwendung [!DNL HubSpot CRM] -Module, müssen Sie über eine [!DNL HubSpot CRM]
 ## Verbinden [!DNL Adobe Workfront Fusion] nach [!DNL HubSpot CRM]
 
 Anweisungen zum Verbinden der [!DNL HubSpot CRM] -Konto [!DNL Workfront Fusion], siehe [Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Wählen Sie beim Konfigurieren einer Verbindung die **HubSpot CRM** Verbindungstyp. Der HubSpot CRM-Typ (nicht mehr unterstützt) unterstützt vorhandene Verbindungen. Wir empfehlen jedoch nicht, ihn zum Erstellen neuer Verbindungen zu verwenden.
 
 ## [!DNL HubSpot CRM] Module und ihre Felder
 
