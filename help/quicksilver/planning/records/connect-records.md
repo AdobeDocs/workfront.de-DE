@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
@@ -288,19 +288,13 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
 1. (Optional) Klicken Sie entweder im verknüpften Feld einer Tabellenansicht oder im verknüpften Feld auf der Datensatzseite auf den Namen eines Workfront-Objekts, das mit einem Workfront-Planungsdatensatz verbunden ist.
 
-   Dadurch wird die schreibgeschützte Datensatzseite für die Workfront-Planung für das verknüpfte Workfront-Objekt geöffnet. Die Felder, die Sie als Suchfelder ausgewählt haben, als Sie den Datensatztyp mit der Workfront-Objektanzeige auf der Datensatzseite Workfront-Planung verbunden haben.
+   Dadurch wird das Workfront-Objekt in Workfront geöffnet, wenn Sie mindestens über Anzeigeberechtigungen für das Objekt verfügen.
 
    >[!TIP]
    >
    >* Wenn Sie die Einstellung Mehrere Datensätze zulassen aktivieren, werden die Werte der Lookup-Felder entweder durch Kommas getrennt angezeigt oder entsprechend dem ausgewählten Aggregator aggregiert.
    >
    >* Für die verknüpften Workfront-Objekte in Workfront wird kein verknüpftes Datensatzfeld erstellt.
-
-1. (Optional) Um das verknüpfte Workfront-Objekt in Workfront zu öffnen, klicken Sie auf **Zu Quelle wechseln** in der rechten oberen Ecke der Datensatzseite des Workfront-Objekts.
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   Dadurch wird die Workfront-Objektseite geöffnet, wenn Sie zumindest über Anzeigeberechtigungen für das Objekt verfügen. Sie können Informationen zum Workfront-Objekt bearbeiten, sofern Sie dazu berechtigt sind.
 
 1. (Optional) Bewegen Sie in der Tabellenansicht des Datensatztyps den Mauszeiger über die Spaltenüberschrift des verknüpften Workfront-Objekts, klicken Sie auf das Dropdown-Menü und klicken Sie auf **Suchfelder bearbeiten**.
 
@@ -345,7 +339,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
    >
    >  Klicken Sie auf das **+** im Feld verknüpftes Objekt auf der Datensatzseite, um Assets mit dem Datensatz zu verbinden.
 
-   Die **Auswählen von Assets** angezeigt. <!--we might change this to Connect assets-->
+   Die **Assets auswählen** angezeigt. <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -391,7 +385,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
    * Erstellungsdatum
    * Änderungsdatum
 
-1. (Optional) Um die Datensatzseite für Experience Manager-Assets in Experience Manager zu öffnen, wechseln Sie zur Seite mit dem Datensatztyp des Datensatzes, von dem Sie die Verknüpfung herstellen, klicken Sie auf den Namen eines Assets im verknüpften Datensatzfeld, um das Popup-Fenster zu öffnen, und klicken Sie dann auf das **Öffnen** icon ![](assets/open-asset-icon.png) , um das Asset zu öffnen.
+1. (Optional) Um die Datensatzseite für Experience Manager-Assets in Experience Manager zu öffnen, wechseln Sie zur Seite mit dem Datensatztyp des Datensatzes, von dem Sie die Verknüpfung herstellen, klicken Sie auf den Namen eines Assets im verknüpften Datensatzfeld, um das Popup-Fenster zu öffnen, und klicken Sie dann auf das **In AEM öffnen** icon ![](assets/open-asset-icon.png) , um das Asset zu öffnen.
 
    Dadurch wird das Experience Manager-Asset in Adobe Experience Manager Assets geöffnet.
 

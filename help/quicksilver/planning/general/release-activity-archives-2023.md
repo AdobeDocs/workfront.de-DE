@@ -4,9 +4,9 @@ description: Adobe Workfront-Planungsfunktionen stehen derzeit ausgewählten Wor
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2988'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/plan
 
 Vorschau und Produktion: 31. Oktober 2023
 
-Sie können die Workfront-Objektseiten jetzt aus den folgenden Bereichen in den Planungsfunktionen öffnen:
+Sie können die Workfront-Objektseiten jetzt aus den folgenden Bereichen in der Workfront-Planung öffnen:
 
 * Die schreibgeschützte verknüpfte Tabellenansicht der Workfront-Objektdatensätze
 

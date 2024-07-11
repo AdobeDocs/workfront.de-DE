@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1113'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,8 @@ In diesem Artikel werden die folgenden Informationen zu Datensatzansichten besch
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -69,32 +71,37 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p> 
-   <p>Systemadministratoren haben nur Zugriff auf die von ihnen erstellten oder für sie freigegebenen Ansichten. </p>
+   <p>Neu: Standard</p>
+   Oder
+   <p>Aktuell: Plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Für die Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
+   <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
+   <td> Es gibt keine Zugriffskontrollen für die Adobe Workfront-Planung</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Berechtigungen für die Ansicht verwalten</p>  
+   <td> <p>Berechtigungen für eine Ansicht verwalten</p>  
+   <p>Berechtigungen für eine Ansicht anzeigen, um die Anzeigeeinstellungen vorübergehend zu ändern</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Layout-Vorlage</td>
-   <td> <p>Ihr Systemadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Überlegungen zum Arbeiten mit Datensatzansichten
 

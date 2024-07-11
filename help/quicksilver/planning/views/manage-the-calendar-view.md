@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 1%
 
 ---
 
@@ -30,11 +30,9 @@ hide: yes
 
 Sie können Datensätze und ihre Felder in einer Kalenderansicht auf der Seite vom Typ Datensatz anzeigen.
 
-Informationen zu den Ansichten der Adobe Workfront-Planungsfunktionen und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Informationen zu den Ansichten für die Adobe Workfront-Planung und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
-## Zugriffsanforderungen
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -61,33 +59,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p> 
-   <p>Systemadministratoren haben nur Zugriff auf die von ihnen erstellten oder für sie freigegebenen Ansichten. </p>
+   <p>Neu: Standard</p>
+   Oder
+   <p>Aktuell: Plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
+   <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
+   <td> Es gibt keine Zugriffskontrollen für die Adobe Workfront-Planung</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Berechtigungen für die Ansicht verwalten</p>  
+   <td> <p>Berechtigungen für eine Ansicht verwalten</p>  
+   <p>Berechtigungen für eine Ansicht anzeigen, um die Anzeigeeinstellungen vorübergehend zu ändern</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Layout-Vorlage</td>
-   <td> <p>Ihr Systemadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Kalenderansicht verwalten {#manage-a-calendar-view}
 
@@ -148,4 +149,6 @@ Beachten Sie beim Arbeiten mit Filtern in der Kalenderansicht Folgendes:
 
   Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern.
+
+* Sie können nach Suchfeldern filtern, die mehrere Werte anzeigen.

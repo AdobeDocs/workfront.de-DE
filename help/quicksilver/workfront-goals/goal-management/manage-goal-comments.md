@@ -6,9 +6,9 @@ description: Sie können allen Zielen, die Sie in Adobe Workfront-Zielen anzeige
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -127,12 +127,12 @@ Dadurch wird die Zielliste geöffnet.
 
    >[!TIP]
    >
-   >Wenn Sie den Abschnitt Updates verlassen, bevor Sie mit der Eingabe und dem Senden eines Kommentars fertig sind, bleibt der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich abmelden und wieder anmelden. Bilder, die dem Kommentar hinzugefügt werden, werden ebenfalls im Entwurf gespeichert. Entwürfe werden sieben Tage lang gespeichert und können nicht wiederhergestellt werden. Entworfene Kommentare sind nur für den Benutzer sichtbar, der sie eingibt.
+   >Wenn Sie den Abschnitt Updates verlassen, bevor Sie mit der Eingabe und dem Senden eines Kommentars fertig sind, bleibt der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich abmelden und wieder anmelden. Entwürfe werden sieben Tage lang gespeichert und können nicht wiederhergestellt werden. Entworfene Kommentare sind nur für den Benutzer sichtbar, der sie eingibt.
 
 1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um eine Änderung rückgängig zu machen oder wiederherzustellen:
    * STRG + Z ( ⌘ + z für Mac) zum Rückgängigmachen einer Änderung
    * STRG + Y ( ⌘ + y für Mac) zum Wiederholen einer Änderung
-1. (Optional) Um Ihrer Aktualisierung, einem Hyperlink oder einem Bild Rich-Text-Formatierung hinzuzufügen, verwenden Sie alle Optionen in der Rich-Text-Symbolleiste oder die zugehörigen Symbole. Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Um Ihrem Update, einem Hyperlink oder einem Emoji Rich-Text-Format hinzuzufügen, verwenden Sie alle Optionen in der Rich-Text-Symbolleiste oder die zugehörigen Symbole. Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Im **Personen oder Teams taggen** eingeben, den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams eingeben, das Sie in diesen Kommentar aufnehmen möchten, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
 1. Wählen Sie die **Privatperson in meinem Unternehmen** umschalten, um den Kommentar nur für Personen in Ihrem Unternehmen sichtbar zu machen.
 
@@ -150,7 +150,7 @@ Dadurch wird die Zielliste geöffnet.
    >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
-1. Bearbeiten Sie die Informationen im Kommentar, fügen Sie Bilder hinzu, entfernen Sie sie oder entfernen Sie einen der getaggten Benutzer.
+1. Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer.
 Sie können Ihren Kommentar innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird ein Indikator &quot;bearbeitet&quot;hinzugefügt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

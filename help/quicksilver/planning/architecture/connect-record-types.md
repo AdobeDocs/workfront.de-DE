@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2515'
 ht-degree: 0%
 
 ---
@@ -156,10 +156,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
       * Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, aus dem Sie eine Verbindung herstellen. Für den Objekttyp der anderen Anwendung wird kein verknüpftes Datensatzfeld erstellt.
 
-      * Ein neuer schreibgeschützter Workfront-Planungstyp wird nur dann für das Objekt der anderen Anwendung erstellt, wenn die eigentlichen Objekte mit Datensätzen der Workfront-Planung verbunden sind.
-
-        Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
-
       * Über Workfront-Objekte ist der Zugriff auf die Felder für die Planung von Datensätzen nicht möglich.
       * Die Planung von Datensatzfeldern ist über Experience Manager-Assets verfügbar, wenn der Workfront-Administrator die Metadaten-Zuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
@@ -274,7 +270,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Optional) Klicken Sie auf **Überspringen** , um das Hinzufügen von Feldern aus dem verknüpften Datensatz oder Objekttyp zu überspringen. Die **Name** oder **Titel** des verknüpften Datensatzes ist das einzige sichtbare Feld in der Tabellenansicht des Datensatztyps, von dem Sie eine Verbindung herstellen.
 
-1. (Optional und bedingt) Wenn Sie ein Feld vom Typ Zahl, Währung, Prozentsatz oder Datum verknüpfen möchten, wählen Sie auch einen Aggregatorwert aus. Die Werte der verknüpften Felder werden je nach ausgewähltem Aggregator entweder durch Kommas oder als aggregierter Wert angezeigt, wenn Benutzer im verknüpften Datensatzfeld mehr als einen verknüpften Datensatz auswählen.
+1. (Optional und bedingt) Wenn Sie ein Feld vom Typ Zahl, Währung, Prozentsatz oder Datum verknüpfen möchten, wählen Sie auch einen Aggregatorwert aus, um mehrere Werte zusammenzufassen. Die Werte der verknüpften Felder werden entweder durch Kommas getrennt oder als zusammengefasster Wert entsprechend dem ausgewählten Aggregator angezeigt, wenn Benutzer im verknüpften Datensatzfeld mehr als einen verknüpften Datensatz auswählen.
+
+   Wenn das Suchfeld mehrere Werte enthält, die nicht zusammengefasst sind, sollten Sie Folgendes beachten, wenn Sie das Feld bei der Sortierung oder Gruppierung in einer Ansicht verwenden:
+
+   * Die Sortierung erfolgt durch den ersten Wert.
+
+   * Datensätze werden nach jeder eindeutigen Kombination von Feldwerten gruppiert
+
+   * Die Timeline-Ansicht basiert auf dem ersten Datumswert.
 
    >[!IMPORTANT]
    >

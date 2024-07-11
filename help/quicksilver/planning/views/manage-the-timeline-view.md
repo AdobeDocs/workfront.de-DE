@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Informationen zu Datensatzansichten finden Sie unter [Verwalten von Datensatzans
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p> 
-   <p>Systemadministratoren haben nur Zugriff auf die von ihnen erstellten oder für sie freigegebenen Ansichten. </p>
+   <p>Neu: Standard</p>
+   Oder
+   <p>Aktuell: Plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente </p>  
+   <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
+   <td> Es gibt keine Zugriffskontrollen für die Adobe Workfront-Planung</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Berechtigungen für die Ansicht verwalten</p>  
+   <td> <p>Berechtigungen für eine Ansicht verwalten</p>  
+   <p>Berechtigungen für eine Ansicht anzeigen, um die Anzeigeeinstellungen vorübergehend zu ändern</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Layout-Vorlage</td>
-   <td> <p>Ihr Systemadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Verwalten einer Timeline-Ansicht {#manage-a-timeline-view}
@@ -179,7 +185,9 @@ Beachten Sie beim Arbeiten mit Filtern in der Timeline-Ansicht Folgendes:
 
   Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern.
+* Sie können nach Suchfeldern filtern, die mehrere Werte anzeigen.
+
 
 ### Gruppierung hinzufügen
 
@@ -193,11 +201,16 @@ Beachten Sie beim Arbeiten mit Gruppierungen in der Timeline-Ansicht Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Timeline-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Timeline-Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der von Ihnen ausgewählten Reihenfolge gruppiert.
-* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen verwenden.
-* Die Gruppierungen unterscheiden sich je nach ausgewählter Ansicht. Bei zwei Timeline-Ansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzer, die sich dieselbe Timeline-Ansicht ansehen, sehen dieselbe Gruppierung, die derzeit angewendet wird.
-* Sie können die für eine Timeline-Ansicht erstellten Gruppierungen nicht benennen.
+&lt;!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen verwenden. —jetzt mit diesem hier abgleichen—>
+* Die Gruppierungen unterscheiden sich je nach ausgewählter Ansicht. Bei zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzer, die sich dieselbe Tabellenansicht ansehen, sehen dieselbe Gruppierung, die derzeit angewendet wird.
+* Sie können die für eine Tabellenansicht erstellten Gruppierungen nicht benennen.
 * Durch das Entfernen von Gruppierungen werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
-* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern gruppieren, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
+* Sie können die unter einer Gruppierung aufgelisteten Datensätze bearbeiten.
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern gruppieren.
+* Wenn Sie nach Suchfeldern mit mehreren Werten gruppieren (die nicht von einem Aggregator zusammengefasst wurden), werden Datensätze nach jeder eindeutigen Kombination von Feldwerten gruppiert.
+* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Gruppierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatz-Typ verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der für den Aktivitäts-Record-Typ erstellten Gruppierung referenzieren.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
 So fügen Sie eine Gruppierung in der Timeline-Ansicht hinzu:
 

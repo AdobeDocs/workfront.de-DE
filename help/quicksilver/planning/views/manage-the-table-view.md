@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2569'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ Informationen zu Datensatzansichten und deren Verwaltung finden Sie unter [Verwa
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p> 
-   <p>Systemadministratoren haben nur Zugriff auf die von ihnen erstellten oder für sie freigegebenen Ansichten. </p>
+   <p>Neu: Standard</p>
+   Oder
+   <p>Aktuell: Plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Konfiguration der Zugriffsebene</td>
-   <td> <p>Es gibt keine Zugriffsebenen-Steuerelemente für die Adobe Workspace-Planung</p>  
+   <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
+   <td> Es gibt keine Zugriffskontrollen für die Adobe Workfront-Planung</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Berechtigungen für die Ansicht verwalten</p>  
+   <td> <p>Berechtigungen für eine Ansicht verwalten</p>  
+   <p>Berechtigungen für eine Ansicht anzeigen, um die Anzeigeeinstellungen vorübergehend zu ändern</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Layout-Vorlage</td>
-   <td> <p>Ihr Systemadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Tabellenansicht verwalten {#manage-a-table-view}
 
@@ -244,7 +250,9 @@ Beachten Sie Folgendes beim Arbeiten mit Filtern in der Tabellenansicht:
 
 * Das Hinzufügen von Filtern zur Tabellenansicht entspricht dem Hinzufügen von Filtern zur Timeline-Ansicht.
 
-* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern.
+
+* Sie können nach Suchfeldern filtern, die mehrere Werte anzeigen.
 
 * Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise einen Filter für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie das Budget des Projekts in dem Filter referenzieren, den Sie für den Aktivitäts-Record-Typ erstellen.
 
@@ -356,7 +364,8 @@ Beachten Sie Folgendes:
 * Sie können die für eine Tabellenansicht erstellten Gruppierungen nicht benennen.
 * Durch das Entfernen von Gruppierungen werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
 * Sie können die unter einer Gruppierung aufgelisteten Datensätze bearbeiten.
-* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern gruppieren, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern gruppieren.
+* Wenn Sie nach Suchfeldern mit mehreren Werten gruppieren (die nicht von einem Aggregator zusammengefasst wurden), werden Datensätze nach jeder eindeutigen Kombination von Feldwerten gruppiert.
 * Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Gruppierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatz-Typ verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der für den Aktivitäts-Record-Typ erstellten Gruppierung referenzieren.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
@@ -408,11 +417,11 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht Folgendes:
 
 * Sie können so viele Felder sortieren, wie in der Tabellenansicht eines Datensatztyps angezeigt werden.
 
-* Verknüpfte Felder können nur sortiert werden, wenn sie einzelne Werte zulassen oder wenn sie Mehrfachauswahlwerte mit ausgewählter Zusammenfassungsoption zulassen (Summe, Durchschnitt, max, min).
+* Sie können nicht nach verbundenen Datensatzfeldern sortieren, sondern nach Suchfeldern aus verbundenen Datensatztypen.
+
+* Wenn Sie nach Suchfeldern mit mehreren Werten sortieren (die nicht von einem Aggregator zusammengefasst wurden), wird der erste Wert für die Sortierung verwendet.
 
 * Wenn Sie Sortierungskriterien entfernen, werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp wie Sie zugreifen, und es wird die gleiche Ansicht wie Sie verwendet.
-
-* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern sortieren, jedoch nicht nach Feldern, die eine Verknüpfung mit mehreren Datensätzen ermöglichen.
 
 * Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Sortierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der Art referenzieren, die Sie für den Aktivitäts-Record-Typ erstellen.
 

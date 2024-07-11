@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,17 @@ Um herauszufinden, welcher Entwicklungsstatus derzeit für ein Projekt, eine Auf
 In diesem Projekt zeigt die Statusplanung beispielsweise an, dass der Projektmanager derzeit Aspekte des Projekts plant, wie z. B. den Timeline-Zeitplan, Aufgabenzuweisungen und Genehmigungen.
 
 ![Beispielprojektstatus](assets/statuses-overview.png)
+
+Sie müssen über die folgenden Berechtigungen und Berechtigungen für ein Projekt, eine Aufgabe oder ein Problem verfügen, um ihren Status anzuzeigen:
+
+* Anzeigen oder höherer Zugriff auf Projekte, Aufgaben und Probleme auf Ihrer Zugriffsebene
+* Anzeigen von oder höheren Berechtigungen für das Objekt
+
+Sie müssen über die folgenden Berechtigungen und Berechtigungen für ein Projekt, eine Aufgabe oder ein Problem verfügen, um ihren Status manuell zu ändern:
+
+* Zugriff auf Projekte, Aufgaben und Probleme in Ihrer Zugriffsebene bearbeiten
+* Contribute oder höhere Berechtigungen für Aufgaben oder Probleme
+* Verwalten Sie Berechtigungen für das Projekt.
 
 Das Ändern des Status eines Projekts, einer Aufgabe oder eines Problems ist normalerweise ein manueller Prozess. Es gibt jedoch Fälle, in denen der Status eines Problems automatisch geändert wird, abhängig von anderen Faktoren, die im System auftreten.
 

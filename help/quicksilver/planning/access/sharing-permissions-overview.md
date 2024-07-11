@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 7%
+source-wordcount: '692'
+ht-degree: 6%
 
 ---
 
@@ -69,7 +69,9 @@ Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berech
 >
 >Nicht alle Benutzer können über die unten beschriebenen Berechtigungsstufen verfügen. Die individuelle Lizenz eines Benutzers legt fest, welche Berechtigungen er für Workfront Planning-Objekte erhalten kann.
 >
->Nur Benutzer mit einer Standardlizenz (oder Plan) können über Contribute- oder Verwaltungsberechtigungen für Arbeitsbereiche verfügen.
+>Nur Standardlizenzbenutzer (oder -planbenutzer) können über Contribute- oder Verwaltungsberechtigungen für Arbeitsbereiche verfügen und Berechtigungen für Ansichten verwalten.
+> 
+>Benutzer mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Arbeitsbereiche und Ansichten verfügen.
 >
 >Weitere Informationen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -157,7 +159,8 @@ Im Folgenden finden Sie die Berechtigungsebenen für Ansichten und Ansichtseleme
 | Löschen | ✓ |       |                            |
 | Freigeben | ✓ |       |                           |
 | Anzeigen | ✓ | ✓ | ✓ |
-| Anwenden | ✓ | ✓ | ✓ |
+| Zugriff auf die Ansicht | ✓ | ✓ | ✓ |
+| Anwenden von temporären Filtern, Gruppierungen, Sortieren | ✓ | ✓ | ✓ |
 
 *Benutzer müssen über Ansicht oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Zugriff auf diese Ansicht zu erhalten.
 

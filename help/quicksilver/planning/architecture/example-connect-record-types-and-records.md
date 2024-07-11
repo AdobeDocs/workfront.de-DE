@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Sie möchten ein Verbindungsfeld für den Kampagnentyp erstellen, in dem Sie die
 
 Gehen Sie dazu folgendermaßen vor:
 
-1. Wechseln Sie zu einem Arbeitsbereich, in dem Sie den Campaign-Datensatztyp mit Workfront-Projekten verbinden möchten.
+1. Wechseln Sie zu einer Workspace, wo Sie den Campaign-Datensatztyp mit Workfront-Projekten verbinden möchten.
 1. Öffnen Sie die Tabellenansicht für den Campaign-Datensatztyp im ausgewählten Arbeitsbereich.
 1. Klicken Sie auf **+** in der oberen rechten Ecke der Tabellenansicht ein neues Feld hinzufügen, und klicken Sie dann auf **Neue Verbindung** Klicken Sie auf **Projekt** im **Workfront-Objekttypen** Abschnitt.
 1. Fügen Sie die folgenden Informationen hinzu, beispielsweise:
@@ -205,10 +205,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 1. Klicken Sie im Feld &quot;Verbundener Datensatz&quot;auf den Namen eines Projekts.
 
-   Dadurch wird die Seite des schreibgeschützten Workfront-Planungsprojekts geöffnet.
-Überprüfen Sie die Informationen zum Projekt. Auf der Datensatzseite werden nur ausgewählte Projektfelder angezeigt.
-
-1. Klicks **Zu Quelle wechseln** in der rechten oberen Ecke des Bildschirms, um das Projekt in Workfront zu öffnen, wenn Sie mindestens über Anzeigeberechtigungen für das Projekt verfügen.
+   Dadurch wird das Projekt in Workfront geöffnet, wenn Sie mindestens über Anzeigeberechtigungen für das Projekt verfügen.
 1. (Optional) Aktualisieren Sie die Informationen zum Projekt in Workfront, sofern Sie dazu berechtigt sind.
 
 1. (Optional) Bewegen Sie in der Tabellenansicht von Campaign den Mauszeiger über die **Projektinformationen** -Feldüberschrift, klicken Sie auf den nach unten zeigenden Pfeil und klicken Sie dann auf **Suchfelder bearbeiten.**

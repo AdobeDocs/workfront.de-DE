@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 99b8d6371a718b7268edfda81959ae3170d1962b
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -19,26 +19,10 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Adobe Workfront Planning-Berechtigungen zusammen, um Ihnen Zugriff auf die Ansicht, den Beitrag und die Verwaltung von Arbeitsbereichen zu gewähren. <!--add more objects here when we can grant other object-specific permissions-->
+Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Adobe Workfront Planning-Berechtigungen zusammen, um folgenden Zugriff zu gewähren:
 
-Workfront-Planungsberechtigungen zum Aufzeichnen von Ansichten sind unabhängig von den Workfront-Lizenztypen.
-
-Benutzer mit allen Lizenztypen können Workfront-Planungsansichten anzeigen, erstellen, bearbeiten oder verwalten.
-
-In diesem Artikel werden die in Workfront erforderlichen Lizenztypen und die Berechtigungen beschrieben, die Arbeitsbereichen in der Workfront-Planung je nach Lizenztyp gewährt werden.
-
-Ein Benutzer mit einem Lizenztyp der unteren Ebene hat bei der Verwendung von Workfront-Planungsfunktionen nur eingeschränkte Berechtigungen für Arbeitsbereiche.
-
->[!INFO]
->
->**BEISPIEL**
->
->Antragsteller (oder Mitwirkende, je nach dem neuen Lizenzmodell) können nicht zu Arbeitsbereichen und deren Objekten beitragen oder diese verwalten.
->
->Es gibt einen Hinweis im Freigabefeld, dass Benutzern keine Berechtigungen zum Beitrag zu oder zur Verwaltung eines Arbeitsbereichs erteilt werden können, wenn sie über eine Lizenz der unteren Ebene verfügen, da diese Berechtigungsebenen abgeblendet sind.
->
->![](assets/permissions-grayed-out-for-requestor-user.png)
-
+* Arbeitsbereiche anzeigen, einbringen oder verwalten
+* Anzeigen oder Verwalten von Ansichten
 
 Informationen zu Berechtigungen für Objekte in der Workfront-Planung finden Sie unter [Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
@@ -55,3 +39,52 @@ Wenn Sie einem Benutzer Berechtigungen für einen Arbeitsbereich erteilen, erhal
 | Neu: Light, Contributor <br> oder <br>Aktuell: Arbeit, Anforderer, Prüfer | Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen, Datensätze und Felder dieser Arbeitsbereiche anzeigen. <br> Benutzer können keine Arbeitsbereiche, Datensatztypen, Datensätze oder Felder erstellen, bearbeiten oder löschen. |
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+### Lizenztypen und Workspace-Berechtigungen
+
+Nur Benutzer mit einer Standard-(oder Plan-)Lizenz können über Contribute- oder Verwaltungsberechtigungen für Arbeitsbereiche verfügen. Benutzer mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Arbeitsbereiche verfügen, die für sie freigegeben sind.
+
+Systemadministratoren können alle Arbeitsbereiche im System anzeigen, selbst die Arbeitsbereiche, die sie nicht erstellt haben.
+
+>[!INFO]
+>
+>**BEISPIEL**
+>
+>Antragsteller (oder Mitwirkende, je nach dem neuen Lizenzmodell) können nicht zu Arbeitsbereichen und deren Objekten beitragen oder diese verwalten.
+>
+>Es gibt einen Hinweis im Freigabefeld, dass Benutzern keine Berechtigungen zum Beitrag zu oder zur Verwaltung eines Arbeitsbereichs erteilt werden können, wenn sie über eine Lizenz der unteren Ebene verfügen, da diese Berechtigungsebenen abgeblendet sind.
+>
+>![](assets/permissions-grayed-out-for-requestor-user.png)
+
+### Lizenztypen und Anzeigeberechtigungen
+
+Nur Benutzer mit einer Standard-(oder Plan-)Lizenz können über die Berechtigung &quot;Ansichten verwalten&quot;verfügen. Benutzer mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Ansichten verfügen, die für sie freigegeben sind.
+
+>[!INFO]
+>
+>**BEISPIEL**
+>
+>Mitwirkende (oder Anforderer und Überprüfer) können keine Ansichten verwalten. Sie können temporäre Filter, Sorten oder Gruppierungen auf Ansichten anwenden, auf die sie zugreifen können.
+>
+>Es gibt einen Hinweis im Freigabefeld, dass Benutzern keine Berechtigungen zum Verwalten einer Ansicht erteilt werden können, wenn sie eine Lizenz der unteren Ebene besitzen, da diese Berechtigungsebenen abgeblendet sind.
+>
+>![](assets/permissions-grayed-out-for-reviewer-user-on-a-view.png)
+
+
+<!--Replace all of the above with this:
+
+The table below describes the relationship between the license type of a user in Adobe Workfront and the level of permissions you can grant to them to Adobe Workfront Planning objects based on that license. 
+
+Granting a user permissions to a workspace also grants them permissions to record types, records, and fields. 
+
+You must grant view permissions separately from workspace permissions. 
+
+
+| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|New: Standard <br> or <br>Current: Plan                    | <ul><li>Users can contribute to or manage workspaces and they can manage views. They can create, edit, or delete workspaces, record types, records, fields, and views.</li> <li> System administrators have Manage permissions to all workspaces, including the ones they did not create.</li> <li> System administrators can only access views they created.</li></ul>                                                                                                                     |
+|New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | <ul><li>Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces.</li> <li>Users can access views shared with them and apply temporary filters, sorts, or groupings, but they cannot modify the views. </li><li> Users cannot create, edit, or delete workspaces, record types, records, fields, or views.</li></ul>|
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+-->
