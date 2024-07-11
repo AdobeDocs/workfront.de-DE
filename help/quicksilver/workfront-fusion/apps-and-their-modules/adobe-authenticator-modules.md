@@ -8,9 +8,10 @@ title: Adobe Authenticator-Modul
 description: Mit dem Adobe Authenticator-Modul können Sie über eine einzige Verbindung eine Verbindung zu einem beliebigen Adobe-Produkt mit einer API herstellen.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
+exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
+source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '993'
 ht-degree: 1%
 
 ---
@@ -63,7 +64,7 @@ Eine Liste der verfügbaren Adobe-APIs finden Sie unter [Adobe-APIs](https://dev
 ## Voraussetzungen
 
 * Sie müssen Zugriff auf das Adobe-Produkt haben, mit dem das Modul eine Verbindung herstellen soll.
-* Sie müssen Zugriff auf die Adobe Developer-Konsole haben.
+* Sie müssen Zugriff auf die Adobe Developer Console haben.
 * Sie müssen über ein Projekt in der Adobe Developer Console verfügen, das die API enthält, mit der das Modul eine Verbindung herstellen soll. Sie können:
 
    * Erstellen Sie ein neues Projekt mit der API.
@@ -157,6 +158,14 @@ So erstellen Sie eine Verbindung:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL Basis-URLs]</td>
+        <td>Sie müssen die Basis-URLs hinzufügen, die dieser Authentifizierer zulassen soll. Wenn Sie das Modul zum Erstellen eines benutzerdefinierten API-Aufrufs später im Szenario verwenden, fügen Sie einen relativen Pfad zur ausgewählten URL hinzu. Durch Eingabe von URLs hier können Sie steuern, worauf das Modul Benutzerdefinierte API-Aufrufe erstellen eine Verbindung herstellen kann, was die Sicherheit erhöht.<p>Klicken Sie für jede Basis-URL, die Sie dem Authentifizierer hinzufügen möchten, auf <b>Element hinzufügen</b> und geben Sie die Basis-URL ein.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentifizierungs-URL]</td>
+        <td>Lassen Sie dieses Feld leer, um die standardmäßige Adobe IMS-Authentifizierungs-URL von zu verwenden. <code>https://ims-na1.adobelogin.com</code>. Wenn Sie Adobe IMS nicht zur Authentifizierung verwenden, geben Sie die URL ein, die für die Authentifizierung verwendet werden soll.</td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL Umgebung]</td>
         <td>Wählen Sie aus, ob Sie eine Verbindung zu einer Produktions- oder Nicht-Produktionsumgebung herstellen möchten.</td>
       </tr>
@@ -229,4 +238,3 @@ Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen.
     </tr>
   </tbody>
 </table>
-
