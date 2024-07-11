@@ -2,28 +2,26 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Dokumentenprüfung und -genehmigung
+title: "Asset- und Dokumentüberprüfung und -genehmigung: Artikelindex"
 description: Dieser Abschnitt enthält Artikel über Dokumentgenehmigungen in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
-source-git-commit: c1acfe1e6abd621c21404b738d355e1c9ee0c583
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
 
-# Dokumentenprüfung und -genehmigung
-
->[!IMPORTANT]
->
->Der Inhalt dieses Artikels bezieht sich auf die aktualisierte Funktion zur Dokumentgenehmigung, die nur für bestimmte Konten verfügbar ist. Informationen zu Standardgenehmigungsverfahren finden Sie in den Artikeln unter [Arbeitsgenehmigungen](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+# Asset- und Dokumentüberprüfung und -genehmigung: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Abschnitte:
 
-* [Übersicht über Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-* [Dokumente überprüfen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-* [Dokumente genehmigen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+* [Übersicht über die neuen Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+* [Entscheidungsstatus des Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
 * [Erste Schritte mit Asset-Überprüfung und -Genehmigung mit Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
+* [Asset- und Dokumentgenehmigungen einrichten und verwalten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+* [Assets und Dokumente überprüfen und genehmigen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+

@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 1c9deb747ee9e9598949bcd0b64513b222fa0bc1
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '14395'
+source-wordcount: '14434'
 ht-degree: 1%
 
 ---
@@ -1820,22 +1820,22 @@ ht-degree: 1%
       * [Validierungsanfrage delegieren](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Zurückrufen von eingereichten Genehmigungen](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Dokumentenprüfung und -genehmigung {#document-reviews-and-approvals}
-      * [Dokumentenprüfung und -genehmigung](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+   * Asset- und Dokumentüberprüfung und -genehmigung {#document-reviews-and-approvals}
+      * [Asset- und Dokumentüberprüfung und -genehmigung: Artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Übersicht über Dokumentgenehmigungen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [Übersicht über den Entscheidungsstatus von Dokumenten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Erste Schritte mit Asset-Überprüfung und -Genehmigung mit Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
-      * Dokumente überprüfen {#review-and-approve-documents}
-         * [Dokumente überprüfen: Artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [Dokument überprüfen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-         * [Verbinden von Workfront und Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-         * [Hinzufügen eines Frame.io-Assets zu einem verbundenen Workfront-Projekt](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * Dokumente genehmigen {#approve-documents}
-         * [Dokumente genehmigen: Artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+      * [Asset- und Dokumentgenehmigungen einrichten und verwalten]{#manage-asset-review-and-approval}
+         * [Asset- und Dokumentgenehmigungen einrichten und verwalten: Artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Hinzufügen zusätzlicher Validierer oder Genehmiger zu einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [Entfernen von Genehmigern oder Prüfern aus einem Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [Erstellen einer Validierungsvorlage](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Entscheidungsstatus des Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [Erstellen einer Überprüfungs- oder Genehmigungsanforderung für ein Frame.io-Asset](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
+         * [Hinzufügen zusätzlicher Validierer oder Genehmiger zu einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Entfernen von Genehmigern oder Prüfern aus einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Erstellen einer Genehmigungsvorlage für Assets und Dokumente](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [Hinzufügen eines Frame.io-Assets zu einem verbundenen Workfront-Projekt](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+      * Assets und Dokumente genehmigen und überprüfen {#review-and-approve-documents}
+         * [Dokumente genehmigen und überprüfen: Artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [Dokument überprüfen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Dokument genehmigen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Testing {#proofing}
       * [Testversand: Artikelindex](review-and-approve-work/proofing/proofing.md)

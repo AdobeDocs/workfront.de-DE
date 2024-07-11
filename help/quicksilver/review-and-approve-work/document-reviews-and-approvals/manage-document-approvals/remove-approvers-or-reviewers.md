@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Entfernen von Genehmigern oder Prüfern aus einem Dokument
+title: Entfernen von Genehmigern oder Prüfern aus einem Asset oder Dokument
 description: Sie können einzelne Genehmiger oder Prüfer aus einem Dokument entfernen.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-# Entfernen von Genehmigern oder Prüfern aus einem Dokument
+# Entfernen von Genehmigern oder Prüfern aus einem Asset oder Dokument
 
-Sie können einzelne Genehmiger oder Prüfer aus einem Dokument entfernen, nachdem sie zugewiesen wurden.
+Sie können einzelne Genehmiger oder Prüfer aus einem Asset oder Dokument entfernen, nachdem sie zugewiesen wurden.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Entfernen Sie Genehmiger oder Prüfer aus der Dokumentseite.
+## Entfernen Sie Genehmiger oder Prüfer von der Seite &quot;Dokumentdetails&quot;.
 
 1. Klicken Sie auf die Dokumentseite, um auf den Namen des Dokuments zu klicken, und wählen Sie dann die Version des Dokuments aus, für das Sie die Genehmigung im Dropdown-Menü Version entfernen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
@@ -64,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer zu entfernen.
 
-## Entfernen Sie Genehmiger oder Prüfer aus dem Bereich &quot;Dokumentzusammenfassung&quot;
+## Entfernen Sie Genehmiger oder Prüfer aus der Dokumentzusammenfassung.
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 

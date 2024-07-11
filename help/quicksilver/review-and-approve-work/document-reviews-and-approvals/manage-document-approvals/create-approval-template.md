@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Erstellen einer Validierungsvorlage
+title: Erstellen einer Genehmigungsvorlage für Assets und Dokumente
 description: Sie können Genehmigungsvorlagen erstellen, um Ihren Genehmigungsprozess zu optimieren.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
 
-# Erstellen einer Validierungsvorlage
+# Erstellen einer Genehmigungsvorlage für Assets und Dokumente
 
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 

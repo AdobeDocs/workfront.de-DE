@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Validierungsverantwortliche und Validierungsverantwortliche können zu einem ein
 
 * **Einzelanwendungsgenehmigungen**: Im Projekt oder in der Aufgabe, in dem sich das Asset befindet, kann der Projektkoordinator Prüfer und Genehmiger zuweisen und einen Abschlusszeitpunkt festlegen. Validierungsverantwortliche und validierungsverantwortliche Benutzer werden per E-Mail an 72 und 24 Stunden vor Ablauf der Frist sowie an die Frist selbst erinnert.
 
-  Weitere Informationen finden Sie unter [Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+  Weitere Informationen finden Sie unter * [Erstellen einer Überprüfungs- oder Genehmigungsanforderung für ein Frame.io-Asset](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
 * **Validierungsvorlagen**: Im Workfront-Setup-Bereich können Projektkoordinatoren wiederverwendbare Genehmigungsvorlagen erstellen. In einer Vorlage können Benutzer Überprüfer und Genehmiger hinzufügen und einen Abschlusszeitrahmen festlegen. Wenn die Validierungsvorlage auf ein Asset angewendet wird, wird der Termin aus dem festgelegten Zeitraum berechnet.
 

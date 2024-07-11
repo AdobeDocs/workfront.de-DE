@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Hinzufügen zusätzlicher Genehmiger oder Validierer zu einem Dokument
+title: Hinzufügen zusätzlicher Genehmiger oder Validierer zu einem Asset oder Dokument
 description: Sie können einem Dokument, für das bereits ausstehende Genehmigungen vorliegen, weitere Genehmiger oder Validierer hinzufügen.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# Hinzufügen zusätzlicher Genehmiger oder Validierer zu einem Dokument
+# Hinzufügen zusätzlicher Genehmiger oder Validierer zu einem Asset oder Dokument
 
-Sie können einem Dokument, für das bereits ausstehende Genehmigungen vorliegen, weitere Genehmiger oder Validierer hinzufügen.
+Sie können einem Asset oder Dokument, für das bereits ausstehende Genehmigungen vorliegen, weitere Genehmiger oder Validierer hinzufügen.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Zusätzliche Genehmiger oder Validierer von der Dokumentseite hinzufügen
+## Fügen Sie auf der Seite &quot;Dokumentdetails&quot;weitere Genehmiger oder Validierer hinzu.
 
 1. Klicken Sie auf die Dokumentseite, um auf den Namen des Dokuments zu klicken, und wählen Sie dann die Version des Dokuments aus, zu der Sie im Dropdown-Menü Version einen Genehmiger oder Überprüfer hinzufügen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
@@ -60,7 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
 
-## Fügen Sie im Bereich &quot;Dokumentzusammenfassung&quot;zusätzliche Genehmiger oder Validierer hinzu.
+## Zusätzliche Genehmiger oder Validierer aus der Dokumentzusammenfassung hinzufügen
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 
