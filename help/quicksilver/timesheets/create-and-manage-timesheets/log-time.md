@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '3589'
+source-wordcount: '3581'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Sie können die Arbeitszeit für Arbeitselemente in Adobe Workfront protokollieren, um die Anzahl der Arbeitsstunden anzugeben, die Sie damit verbringen. Sie können auch Zeit protokollieren, die nicht mit der Arbeit in Zusammenhang steht, wie Urlaub, Krankheitszeit oder Zeit, die Sie in Meetings verbringen. Die Login-Zeit wird in Ihrem Timesheet angezeigt.
 
-Weitere Informationen über die Art der Stunden, die Sie sich in Workfront anmelden können, finden Sie unter [Verwalten von Stundentypen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+Weitere Informationen zu den Stunden, die Sie in Workfront anmelden können, finden Sie unter [Verwalten von Stundentypen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Zugriffsanforderungen
 
@@ -62,12 +62,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen oder höhere Berechtigungen für das Arbeitselement, für das Sie die Zeit protokollieren, einschließlich der Berechtigungen für "Log Hours"</p> </td> 
+   <td> <p>Contribute oder höhere Berechtigungen für das Arbeitselement, für das Sie die Zeit protokollieren, einschließlich Berechtigungen für Protokollzeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,12 +75,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 * Sie können die Zeit für Projekte, Aufgaben oder Probleme protokollieren oder die Zeit direkt in Ihrem Timesheet protokollieren.
 
-  Informationen zum Erstellen von Timesheets finden Sie unter [Erstellen eines Datenblatts für die einmalige Verwendung](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+  Weitere Informationen zum Erstellen von Timesheets finden Sie unter [Erstellen eines Zeitplans für die einmalige Verwendung](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 * Alle Zeitangaben, die mit anderen Werkzeugen als dem Timesheet protokolliert werden, werden im Zeitblatt für den entsprechenden Zeitraum angezeigt.
 * Aufgaben und Probleme in einem nicht aktuellen Projekt werden nicht vorab in ein Timesheet eingefügt.
 * Die im Timesheet protokollierte Zeit wird sofort auf die Aufgabe, das Problem oder das Projekt angewendet.
-* Timesheets enthalten die Gesamtdauer für alle protokollierten Daten. Wochenenden werden immer eingeschlossen, auch wenn Zeitleistenberechnungen so konfiguriert wurden, dass sie sie ausschließen (wie hier beschrieben: [Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
+* Timesheets enthalten die Gesamtdauer für alle protokollierten Daten. Wochenenden werden immer eingeschlossen, auch wenn Timeline-Berechnungen so konfiguriert wurden, dass sie ausgeschlossen werden (wie unter [Systemweite Projekteigenschaften konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) beschrieben).
 * Die maximale Anzahl der in einem Zeitblatt angezeigten Elemente beträgt 45. Wenn mehr als 45 Elemente vorhanden sind, deren Daten mit dem Zeitrahmen des Zeitblatts übereinstimmen, werden nur die zuletzt aktualisierten Elemente angezeigt.
 * Stündliche Einträge, die in abgerechneten Rechnungsdatensätzen enthalten sind, werden abgeblendet dargestellt und können nicht im Timesheet bearbeitet werden. Weitere Informationen finden Sie unter [Erstellen von Rechnungsdatensätzen](../../manage-work/projects/project-finances/create-billing-records.md).
 * Persönliche Aufgaben werden nicht standardmäßig im Timesheet angezeigt. Persönliche Aufgaben werden nur dann im Timesheet angezeigt, wenn sie über eine längere Zeit protokolliert wurden. Nachdem Sie die Zeit für eine persönliche Aufgabe protokolliert haben, können Sie die Aufgabe in das Timesheet einbinden und es bleibt auf dem Timesheet, wenn es fixiert bleibt. Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem Startbereich](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
@@ -89,7 +89,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können die Zeit in den folgenden Bereichen in Workfront protokollieren:
 
-* [Datenblatt](#timesheet)
+* [Zeitblatt](#timesheet)
 * [Startseite](#home)
 * [Projekt, Aufgabe oder Problem](#project-task-or-issue)
 * [Bedienfeld „Zusammenfassung“](#summary-panel)
@@ -102,7 +102,7 @@ Sie können die Zeit in den folgenden Bereichen in Workfront protokollieren:
 
 Sie können die Zeit auf die folgenden Elemente im Timesheet protokollieren:
 
-* Vorausgefüllte Aufgaben, Probleme und Projekte, die automatisch angezeigt werden, je nachdem, wie Ihr Workfront-Administrator die Timesheet-Voreinstellungen festlegt. Informationen dazu, wie Timesheets vorausgefüllt werden, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Vorausgefüllte Aufgaben, Probleme und Projekte, die automatisch angezeigt werden, je nachdem, wie Ihr Workfront-Administrator die Timesheet-Voreinstellungen festlegt. Informationen dazu, wie Timesheets vorausgefüllt werden, finden Sie unter [Konfigurieren von Voreinstellungen für Zeitblätter und Stunden](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
   Nur die Ihnen zugewiesenen Aufgaben und Probleme werden vorab in Ihr Timesheet eingefügt. Aufgaben und Probleme, die Ihren Teams oder Auftragsrollen zugewiesen sind, werden nicht automatisch in Ihr Arbeitsblatt eingefügt.
 
@@ -118,27 +118,27 @@ Sie können die Zeit auf die folgenden Elemente im Timesheet protokollieren:
 
 So protokollieren Sie die Zeit auf einem Timesheet:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
 
-1. Klicks [!UICONTROL **Timesheets**]. Ihr aktuelles Timesheet wird standardmäßig angezeigt.
-   ![Datenblatt](assets/timesheet-redesigned-nwe.png)
+1. Klicken Sie auf [!UICONTROL **Timesheets**]. Ihr aktuelles Timesheet wird standardmäßig angezeigt.
+   ![Zeitblatt](assets/timesheet-redesigned-nwe.png)
 
 
-1. (Optional) Klicken Sie auf die **Vollbild** icon ![](assets/full-screen.png) um das Timesheet im Vollbildmodus anzuzeigen, klicken Sie auf **exit-full-screen** ![](assets/exit-full-screen.png) -Symbol, um zum Timesheet zurückzukehren.
+1. (Optional) Klicken Sie auf das Symbol **Vollbild** ![](assets/full-screen.png), um das Timesheet im Vollbildmodus anzuzeigen, und klicken Sie dann auf das Symbol **Vollbild verlassen** ![](assets/exit-full-screen.png) , um zum Timesheet zurückzukehren.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
-1. (Optional) Um ein Projekt, eine Aufgabe oder ein Problem zum Timesheet hinzuzufügen, klicken Sie auf das **Element hinzufügen** Dropdown-Menü in der oberen linken Ecke des Zeitplans und klicken Sie auf **Projekte hinzufügen**, **Aufgaben hinzufügen** oder **Hinzufügen von Problemen**.
+1. (Optional) Um ein Projekt, eine Aufgabe oder ein Problem zum Timesheet hinzuzufügen, klicken Sie auf das Dropdown-Menü **Element hinzufügen** in der oberen linken Ecke des Zeitblatts und klicken Sie dann auf **Projekte hinzufügen**, **Aufgaben hinzufügen** oder **Probleme hinzufügen**.
 
    Eine Liste mit Projekten, Aufgaben oder Problemen wird angezeigt.
 
    <!--drafted for full screen mode for add projects story - align it with the rest of the steps when you enable this:: 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the list of objects in full-screen mode.-->
 
-1. (Optional) Klicken Sie auf das Suchsymbol ![Nach einem Element suchen](assets/search-icon.png) , um mithilfe eines Suchbegriffs, der zum Datenblatt hinzugefügt wird, nach einem bestimmten Element zu suchen.
+1. (Optional) Klicken Sie auf das Suchsymbol ![Nach einem Element suchen](assets/search-icon.png) , um mithilfe eines Suchbegriffs, der zum Zeitblatt hinzugefügt werden soll, nach einem bestimmten Element zu suchen.
 
 1. (Optional) Erweitern Sie die Dropdown-Menüs Filter, Ansicht oder Gruppierung, um sie anzuwenden oder anzupassen und um die gewünschten Elementinformationen anzuzeigen.
 
-1. Wählen Sie ein oder mehrere Elemente in der Liste aus und klicken Sie auf **Hinzufügen**.
+1. Wählen Sie ein oder mehrere Elemente in der Liste aus und klicken Sie dann auf **Hinzufügen**.
 
    Wenn Sie weniger als 50 Elemente gleichzeitig hinzugefügt haben, werden die Elemente zum Timesheet hinzugefügt. Aufgaben und Probleme werden unter dem Namen des Projekts aufgelistet.
 
@@ -149,7 +149,9 @@ So protokollieren Sie die Zeit auf einem Timesheet:
 
 1. (Bedingt) Wenn Sie 50 oder mehr Elemente gleichzeitig hinzufügen, wird eine Bestätigungsmeldung angezeigt, die die Anzahl der zu Ihrem Zeitblatt hinzugefügten Elemente anzeigt.
 
-   Klicks **Alle hinzufügen** zum Hinzufügen aller Elemente oder Klicken auf **Abbrechen** , um das Hinzufügen der ausgewählten Elemente zu beenden, und **Abbrechen** , um die Liste der Elemente zu schließen.
+   Klicken Sie auf **Alle hinzufügen** , um alle Elemente hinzuzufügen.
+Oder
+Klicken Sie auf **Abbrechen** , um das Hinzufügen der ausgewählten Elemente abzubrechen, und dann auf **Abbrechen** , um die Liste der Elemente zu schließen.
 
    Aufgaben und Probleme werden unter dem Namen des Projekts aufgelistet.
 
@@ -159,7 +161,7 @@ So protokollieren Sie die Zeit auf einem Timesheet:
 
    <!--(ensure this stays accurate)-->
 
-1. (Optional) Klicken Sie auf die **Reduzieren** ![](assets/collapse-icon.png) oder **Erweitern** ![](assets/expand-icon.png) Symbole neben dem Projektnamen zum Anzeigen oder Ausblenden der Liste der Aufgaben und Probleme für das Projekt.
+1. (Optional) Klicken Sie auf die Symbole **Reduzieren** ![](assets/collapse-icon.png) oder **Erweitern** ![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt ein- oder auszublenden.
 
 
    >[!TIP]
@@ -173,7 +175,7 @@ So protokollieren Sie die Zeit auf einem Timesheet:
    >     * Umschalttaste + Wahltaste + Abwärtspfeil für Mac-Computer.
 
 
-1. (Optional) Wenn Sie ein Element, das automatisch auf dem Timesheet angezeigt wird, manuell veröffentlichen möchten, halten Sie den Mauszeiger über den Namen des Elements und klicken Sie auf die Schaltfläche **pin** icon ![](assets/empty-pin-icon.png).
+1. (Optional) Wenn Sie ein Element, das automatisch auf dem Timesheet angezeigt wird, manuell veröffentlichen möchten, halten Sie den Mauszeiger über den Namen des Elements und klicken Sie dann auf das Symbol **pin** ![](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -181,14 +183,14 @@ So protokollieren Sie die Zeit auf einem Timesheet:
    >   * Option + P für Windows- und Mac-Computer.
 
 
-1. (Optional) Klicken Sie auf das Suchsymbol ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Suchbegriffs, um ein Projekt, eine Aufgabe oder ein Problem auf dem Timesheet zu finden.
+1. (Optional) Klicken Sie auf das Suchsymbol ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Suchbegriffs, um ein Projekt, eine Aufgabe oder ein Problem auf dem Zeitblatt zu finden.
 
-1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Funktion **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** festlegen, wählen Sie im Dropdown-Menü eine Auftragsrolle aus. Die Rolle, die beim Zuweisen zum Arbeitselement angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Einstellung **Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen** aktiviert hat, wählen Sie im Dropdownmenü eine Auftragsrolle aus. Die Rolle, die beim Zuweisen zum Arbeitselement angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Konfigurieren von Voreinstellungen für das Zeitblatt und die Stunde](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   ![Protokollzeit für mehrere Rollen im Timesheet](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
+   ![Protokollzeit für mehrere Rollen im Zeitblatt](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
 
 
-1. (Optional) Klicken Sie auf die **+** Symbol, um eine weitere Zeile hinzuzufügen, und wählen Sie dann aus dem Dropdown-Menü im [!UICONTROL Stündentyp] Spalte, um die Zeit für einen anderen Stundentyp zu protokollieren.
+1. (Optional) Klicken Sie auf das Symbol &quot;**+**&quot;, um eine weitere Zeile hinzuzufügen, und wählen Sie dann aus dem Dropdown-Menü in der Spalte [!UICONTROL Stündentyp] einen neuen Stundentyp aus, um die Zeit für einen anderen Stundentyp zu protokollieren.
 
    ![Dropdown-Menü &quot;Stündentyp&quot;](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
@@ -199,7 +201,7 @@ So protokollieren Sie die Zeit auf einem Timesheet:
    >   * Strg + Wahltaste + + + für Windows-Computer
    >   * Befehl + Wahltaste + + für Mac-Computer
 
-   Je nachdem, was auf System-, Projekt- und Benutzerebene definiert wurde, sind die Stunden-Typen verfügbar, wie unter [Festlegen von Stundentypen und Verfügbarkeit für Timesheets](define-hour-types-and-availability.md).
+   Stündungstypen sind verfügbar, je nachdem, was auf System-, Projekt- und Benutzerebene definiert wurde, wie in [Definieren Sie die Stündentypen und -verfügbarkeit](define-hour-types-and-availability.md) beschrieben.
 
    Der Stundentyp kann nach dem Schließen eines Zeitblatts nicht mehr geändert werden.
 
@@ -209,7 +211,7 @@ So protokollieren Sie die Zeit auf einem Timesheet:
    >
    >Erwägen Sie, eine neue Zeile für das Arbeitselement hinzuzufügen, für das Sie zusätzliche Zeit protokollieren möchten, und einen neuen Stundentyp auszuwählen, wenn Sie den deaktivierten Stundentyp beibehalten möchten, der mit der letzten protokollierten Zeit verknüpft ist.
 
-1. Klicken Sie auf **delete** icon  ![](assets/delete.png) neben der Rolle &quot;Job&quot;klicken, um sie zu entfernen. Jede für die Rolle protokollierte Zeit wird ebenfalls entfernt.
+1. Klicken Sie auf das Symbol **Löschen** ![](assets/delete.png) neben der Auftragsrolle, um sie zu entfernen. Jede für die Rolle protokollierte Zeit wird ebenfalls entfernt.
 
    >[!TIP]
    >
@@ -219,19 +221,19 @@ So protokollieren Sie die Zeit auf einem Timesheet:
 
 1. Geben Sie im Zeitleistensegment-Bereich des Zeitplans an, wie lange Sie sich an einem bestimmten Tag anmelden möchten, und klicken Sie dann außerhalb des Stundenfelds, um den Stundeneintrag zu speichern. Die Stunden werden automatisch gespeichert. Die Zeile, für die Sie die Protokollzeit festlegen, wird hellblau hervorgehoben und das Feld für die Stundeneingabe ist dunkelblau dargestellt.
 
-   ![Zeitfeld des Protokolls in einem Zeitblatt](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
+   ![Feld für Protokollzeit im Zeitblatt](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
 
-   Sie melden die Zeit entweder in Stunden oder Tagen an. Diese Einstellung wird von Benutzern mit einer Planungslizenz oder vom Systemadministrator konfiguriert, wie unter [Konfigurieren, ob die Zeit in Stunden oder Tagen protokolliert wird](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+   Sie melden die Zeit entweder in Stunden oder Tagen an. Diese Einstellung wird von Benutzern mit einer Planungslizenz oder vom Systemadministrator konfiguriert, wie unter [Konfigurieren, ob die Zeit in Stunden oder Tagen protokolliert wird](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md) beschrieben.
 
    >[!IMPORTANT]
    >
    >Wenn eines der folgenden Szenarien eintritt, müssen Sie das Timesheet manuell speichern:
    >
-   >* Die Auftragsrolle, die mit der Zeit verknüpft ist, die Sie zuvor angemeldet haben, hat sich geändert und die **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** wurde deaktiviert. Die Protokollierungszeit für neue Datumswerte ordnet sie einer anderen Auftragsrolle zu.
+   >* Die Auftragsrolle, die mit der Zeit verknüpft ist, die Sie zuvor angemeldet haben, hat sich geändert und die Einstellung **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** wurde deaktiviert. Die Protokollierungszeit für neue Datumswerte ordnet sie einer anderen Auftragsrolle zu.
    >   
-   >   Wenn sich die Rolle geändert hat und die **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** aktiviert ist, können Sie die Zeit protokollieren oder die Rolle aktualisieren. Ihre Änderungen werden automatisch gespeichert.
+   >   Wenn die Rolle geändert wurde und die Einstellung **Auftragsrollen manuell zu Stundeneinträgen zuweisen** aktiviert ist, können Sie die Zeit protokollieren oder die Rolle aktualisieren. Ihre Änderungen werden automatisch gespeichert.
    >
-   >* Die einer Aufgabe oder einem Problem zugewiesene Auftragsrolle unterscheidet sich von der Stellenrolle, mit der der Timesheet-Eigentümer die Zeit protokolliert. <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >* Die einer Aufgabe oder einem Problem zugewiesene Auftragsrolle unterscheidet sich von der Auftragsrolle, die der Timesheet-Eigentümer bei der Protokollierung der Zeit mit <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.--> verwendet.
    >
    >Das Timesheet speichert die Zeit automatisch, wenn zwischen den beiden Rollen keine Einträge mehr in Konflikt stehen.
    >
@@ -251,7 +253,7 @@ So protokollieren Sie die Zeit auf einem Timesheet:
    >   Wenn Sie eine standardmäßige QWERTY-Tastatur verwenden, nachdem Sie auf das Stundeneingabefeld geklickt haben, drücken Sie die folgenden Tasten, um das Kommentarfeld zu öffnen:
    >   * Umschalt + F2 für Windows- und Mac-Computer.
 
-1. Klicks **Fertig** , um den Kommentar zu speichern.
+1. Klicken Sie auf **Fertig** , um den Kommentar zu speichern.
 
    >[!TIP]
    >
@@ -260,15 +262,15 @@ So protokollieren Sie die Zeit auf einem Timesheet:
    >   * Befehl + Rückgabe für Mac-Computer.
 
 
-1. (Optional) Klicken Sie auf **Kommentare anzeigen** in der Symbolleiste, um Kommentare zu Stundeneinträgen unter dem Arbeitselement anzuzeigen.
+1. (Optional) Klicken Sie in der Symbolleiste auf **Kommentare anzeigen** , um Kommentare zu Stundeneinträgen unter dem Arbeitselement anzuzeigen.
 
-   ![Anmerkungen, die unter dem Punkt &quot;Zeitblatt&quot;aufgeführt sind](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![Kommentare, die unter dem Eintrag im Zeitblatt aufgeführt sind](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
    >[!TIP]
    >
    >   Alle Änderungen, die Sie am Timesheet vornehmen, werden automatisch gespeichert.
 
-1. (Optional) Klicken Sie auf die Zeile einer Aufgabe oder eines Problems und dann auf **Zusammenfassung öffnen** in der oberen rechten Ecke des Zeitblatts, um ein Update hinzuzufügen oder Informationen über die Aufgabe oder das Problem zu aktualisieren. Das Bedienfeld &quot;Zusammenfassung&quot;wird rechts geöffnet.
+1. (Optional) Klicken Sie auf die Zeile einer Aufgabe oder eines Problems und klicken Sie dann oben rechts im Arbeitsblatt auf **Zusammenfassung öffnen** , um eine Aktualisierung hinzuzufügen oder Informationen über die Aufgabe oder das Problem zu aktualisieren. Das Bedienfeld &quot;Zusammenfassung&quot;wird rechts geöffnet.
 
    ![summary-panel-for-task-opened-in-timesheet](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
@@ -278,21 +280,21 @@ So protokollieren Sie die Zeit auf einem Timesheet:
    >
    >Sie können keine Kommentare zu Projekten oder Einträgen zur allgemeinen Zeit erstellen.
 
-1. Klicks [!UICONTROL **Zusammenfassung schließen**] , um das Bedienfeld Zusammenfassung zu schließen und zum Timesheet zurückzukehren.
+1. Klicken Sie auf [!UICONTROL **Zusammenfassung schließen**] , um das Bedienfeld &quot;Zusammenfassung&quot;zu schließen und zum Timesheet zurückzukehren.
 
-1. (Optional) Klicken Sie auf [!UICONTROL **Updates**] Fügen Sie im linken Bereich ein Update zum Timesheet hinzu. Weitere Informationen zu Workfront-Aktualisierungen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Klicken Sie im linken Bereich auf [!UICONTROL **Aktualisierungen**] und fügen Sie dann eine Aktualisierung zum Timesheet hinzu. Weitere Informationen zu Workfront-Aktualisierungen finden Sie unter [Funktionsweise aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![enter-an-update-in-redesign-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
-1. (Optional) Kehren Sie zum **Datenblatt** zum Schließen oder Senden Ihres Zeitplans.
+1. (Optional) Kehren Sie zum Bereich **Timesheet** zurück, um Ihr Timesheet zu schließen oder zu senden.
 
-   * **Schließen**: Schließen Sie das Timesheet, wenn Sie die Aktualisierung abgeschlossen haben. Diese Option ist nur verfügbar, wenn Ihr Timesheet keinem Genehmiger zugeordnet ist.
+   * **Schließen**: Schließen Sie das Timesheet, wenn Sie es aktualisiert haben. Diese Option ist nur verfügbar, wenn Ihr Timesheet keinem Genehmiger zugeordnet ist.
 
-   * **Zur Genehmigung einreichen:** Diese Option ist nur verfügbar, wenn ein Genehmiger auf dem Timesheet vorhanden ist. Speichern Sie Ihre Änderungen und übermitteln Sie sie zur Genehmigung. Sie können das Timesheet nach dem Schließen öffnen, indem Sie auf **Rückruf**, wenn noch keine Genehmigung erteilt wurde. Weitere Informationen finden Sie unter [Zeitblatt zur Genehmigung einreichen](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+   * **Zur Genehmigung übermitteln:** Diese Option ist nur verfügbar, wenn ein Genehmiger auf dem Timesheet vorhanden ist. Speichern Sie Ihre Änderungen und übermitteln Sie sie zur Genehmigung. Wenn noch keine Genehmigung erteilt wurde, können Sie das Timesheet öffnen, nachdem Sie es geschlossen haben, indem Sie auf **Erinnern** klicken. Weitere Informationen finden Sie unter [Zeitblatt zur Genehmigung einreichen](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
-   * **Ablehnen**: Diese Option wird angezeigt, wenn Sie ein Timesheet-Genehmiger sind und das Timesheet zur Genehmigung übermittelt wurde. Wenn Sie darauf klicken, wird der Status des Zeitblatts in Abgelehnt geändert und das Zeitblatt bleibt geöffnet.
+   * **Ablehnen**: Diese Option wird angezeigt, wenn Sie Timesheet-Genehmiger sind und das Timesheet zur Genehmigung übermittelt wurde. Wenn Sie darauf klicken, wird der Status des Zeitblatts in Abgelehnt geändert und das Zeitblatt bleibt geöffnet.
 
-   * **Genehmigen**: Diese Option wird angezeigt, wenn Sie ein Timesheet-Genehmiger sind und das Timesheet zur Genehmigung übermittelt wurde. Wenn Sie darauf klicken, ändert sich der Status des Timesheets in Genehmigt und das Timesheet wird geschlossen.
+   * **Genehmigen**: Diese Option wird angezeigt, wenn Sie Timesheet-Genehmiger sind und das Timesheet zur Genehmigung übermittelt wurde. Wenn Sie darauf klicken, ändert sich der Status des Timesheets in Genehmigt und das Timesheet wird geschlossen.
 
    >[!TIP]
    >
@@ -300,8 +302,8 @@ So protokollieren Sie die Zeit auf einem Timesheet:
 
 1. (Bedingt) Wenn Sie das Datenblatt geschlossen oder zur Genehmigung eingereicht haben, wählen Sie eine der folgenden Optionen aus:
 
-   * **Neu öffnen**: Diese Option steht für Zeitpläne zur Verfügung, die Sie bereits geschlossen haben und für die keine Genehmiger oder Timesheets vorhanden sind, die bereits genehmigt wurden. Öffnen Sie das Timesheet erneut, um die Stundeneinträge zu ändern.
-   * **Rückruf**: Diese Option ist für Timesheets verfügbar, die zur Genehmigung eingereicht, aber noch nicht genehmigt oder abgelehnt wurden. Klicks **Rückruf** , um das Timesheet erneut zu öffnen und die Stundeneinträge zu ändern.
+   * **Erneut öffnen**: Diese Option ist für Timesheets verfügbar, die Sie bereits geschlossen haben und die keine Genehmiger oder Timesheets haben, die bereits genehmigt wurden. Öffnen Sie das Timesheet erneut, um die Stundeneinträge zu ändern.
+   * **Erinnerung**: Diese Option ist für Zeitpläne verfügbar, die zur Genehmigung eingereicht, aber noch nicht genehmigt oder abgelehnt wurden. Klicken Sie auf **Recall** , um das Zeitblatt erneut zu öffnen und die Stundeneinträge zu ändern.
 
 #### Entfernen eines Elements aus dem Timesheet
 
@@ -310,18 +312,20 @@ Sie können einen Stundeneintrag oder ein Element (Projekt, Aufgabe oder Problem
 So entfernen Sie einen Stundeneintrag aus einem Timesheet:
 
 1. Gehen Sie zum Timesheet und suchen Sie nach dem Stundeneintrag, den Sie entfernen möchten.
-1. Ersetzen Sie die eingegebenen Stunden durch 0 oder Entfernen Sie die Stunden, ersetzen Sie sie durch 0, und drücken Sie dann die Eingabetaste.
+1. Ersetzen Sie die eingegebenen Stunden durch 0.
+Oder
+Entfernen Sie die Stunden, ersetzen Sie sie durch 0 und drücken Sie dann die Eingabetaste.
 
    Die Stunden werden entfernt und das Timesheet wird automatisch gespeichert.
 
-Sie können ein Element (Projekt, Aufgabe oder Problem) aus dem Timesheet entfernen, indem Sie es entschlüsseln, wenn Sie noch keine Zeit dafür protokolliert haben und das Element manuell hinzugefügt haben (wie in den Schritten 4 bis 8 im Abschnitt [Login-Zeit auf einem Zeitblatt](#log-time-on-a-timesheet) in diesem Artikel). <!--ensure this stays accurate-->
+Sie können ein Element (Projekt, Aufgabe oder Problem) aus dem Timesheet entfernen, indem Sie es wieder aufheben, wenn Sie noch keine Zeit dafür protokolliert haben und wenn Sie das Element manuell hinzugefügt haben (wie in den Schritten 4 bis 8 im Abschnitt [Protokollzeit auf einem Timesheet](#log-time-on-a-timesheet) in diesem Artikel beschrieben). <!--ensure this stays accurate-->
 
-Es ist nicht möglich, im Timesheet enthaltene Elemente automatisch entsprechend den Timesheet-Voreinstellungen in Ihrem Workfront-System oder Ihrer-Gruppe zu entfernen, die für das Vorausfüllen der Timesheets konfiguriert sind (siehe [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). Die Elemente werden nicht mehr vorausgefüllt, wenn die Daten der Elemente außerhalb des Zeitrahmens des Zeitblatts liegen.
+Sie können keine Elemente entfernen, die gemäß den Timesheet-Voreinstellungen in Ihrem Workfront-System oder Ihrer-Gruppe automatisch im Timesheet enthalten sind und so konfiguriert sind, dass die Timesheets vorbelegt werden (wie unter [Zeitblatt- und Stundeneinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) beschrieben). Die Elemente werden nicht mehr vorausgefüllt, wenn die Daten der Elemente außerhalb des Zeitrahmens des Zeitblatts liegen.
 
 So entfernen Sie ein manuell hinzugefügtes Element aus dem Timesheet:
 
 1. Stellen Sie sicher, dass keine Zeit für das Element protokolliert wird.
-1. Klicken Sie auf **unpin** icon ![Element fixieren](assets/pin-icon.png) neben dem Element, um die Bindung des Elements aus dem Datenblatt aufzuheben.
+1. Klicken Sie auf das Symbol **Entpolieren** ![Ein Element fixieren](assets/pin-icon.png) neben dem Element, um die Bindung des Elements aus dem Zeitblatt aufzuheben.
 
    >[!TIP]
    >
@@ -336,37 +340,37 @@ Sie können projektspezifische Zeit auf der Startseite protokollieren.
 
 Allgemeine Informationen zur Verwendung des Startbereichs finden Sie in den folgenden Abschnitten:
 
-* Weitere Informationen zur Verwendung des veralteten Home-Bereichs finden Sie unter [Verwenden des Startbereichs](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* Weitere Informationen zur Verwendung des veralteten Home-Bereichs finden Sie unter [Verwenden des Home-Bereichs](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 * Informationen zur Verwendung des neuen Startbereichs finden Sie unter [Erste Schritte mit der neuen Startseite](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Protokollierung der Zeit eines Arbeitselements aus dem neuen Startbereich
 
-Sie können die Zeit für Aufgaben und Probleme in einem der Widgets über das Bedienfeld &quot;Zusammenfassung&quot;im Bereich &quot;Startseite&quot;protokollieren. Weitere Informationen finden Sie unter [Zusammenfassungsbereich](#summary-panel) in diesem Artikel beschrieben.
+Sie können die Zeit für Aufgaben und Probleme in einem der Widgets über das Bedienfeld &quot;Zusammenfassung&quot;im Bereich &quot;Startseite&quot;protokollieren. Weitere Informationen finden Sie im Abschnitt [Zusammenfassungsbereich](#summary-panel) in diesem Artikel.
 
 Außerdem, um die Zeit für ein Element im Widget Meine Arbeit zu protokollieren:
 
-1. Zum **Startseite** Bereich.
-1. Fügen Sie die **Meine Arbeit** Widget auf Ihrer Startseite.
-1. (Optional) Wählen Sie eine Aufgabe, ein Problem oder eine Anforderung in einer Liste aus und klicken Sie auf **Arbeiten daran**
-1. Bewegen Sie den Mauszeiger über die Aufgabe oder das Problem, für die Sie die Zeit protokollieren möchten, und klicken Sie dann auf **Protokollzeit** icon ![](assets/log-time-icon-in-new-home.png) rechts neben den Aufgabeninformationen.
+1. Wechseln Sie zum Bereich **Home** .
+1. Fügen Sie das Widget **Meine Arbeit** zu Ihrer Startseite hinzu.
+1. (Optional) Wählen Sie eine Aufgabe, ein Problem oder eine Anforderung in einer Liste aus und klicken Sie dann auf **Bearbeiten**
+1. Bewegen Sie den Mauszeiger über die Aufgabe oder das Problem, für die Sie die Zeit protokollieren möchten, und klicken Sie dann rechts neben den Aufgabeninformationen auf das Symbol **Protokollzeit** ![](assets/log-time-icon-in-new-home.png) .
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
-1. Klicks **Protokollzeit**.
+1. Klicken Sie auf **Protokollzeit**.
 
    Die protokollierte Zeit wird im Bereich Stunden des Objekts und in Ihrem Zeitblatt angezeigt.
 
 #### Protokollieren der Zeit für ein Arbeitselement aus dem alten Startbereich
 
-1. Im **Arbeitsliste** Bereich, wählen Sie das Element aus, in dem Sie die Zeit protokollieren möchten.
+1. Wählen Sie im Bereich **Arbeitsliste** das Element aus, in dem Sie die Zeit protokollieren möchten.
 1. Klicken Sie im rechten Bereich auf **Protokollzeit**.
 
    ![](assets/log-time-home-350x181.png)
 
-1. Im **Stunden eingeben** aus dem Dropdown-Menü den entsprechenden Stundentyp auswählen.\
-   Je nachdem, was auf System-, Projekt- und Benutzerebene definiert wurde, sind die Stunden-Typen verfügbar, wie unter [Festlegen von Stundentypen und Verfügbarkeit für Timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Funktion **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** festlegen, wählen Sie im Dropdown-Menü eine Auftragsrolle aus. Die Rolle, die beim Zuweisen zum Arbeitselement angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-1. Geben Sie die Zeit für die Protokollierung an und klicken Sie auf **Protokollzeit**.
+1. Wählen Sie im Dropdownmenü **Stunden eingeben** den entsprechenden Stundentyp aus.\
+   Stündungstypen sind verfügbar, je nachdem, was auf System-, Projekt- und Benutzerebene definiert wurde, wie in [Definieren Sie die Stündentypen und -verfügbarkeit](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) beschrieben.
+1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Einstellung **Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen** aktiviert hat, wählen Sie im Dropdownmenü eine Auftragsrolle aus. Die Rolle, die beim Zuweisen zum Arbeitselement angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Konfigurieren von Voreinstellungen für das Zeitblatt und die Stunde](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Geben Sie die Zeit für die Protokollierung an und klicken Sie dann auf **Protokollzeit**.
 
    Die protokollierte Zeit wird im Bereich Stunden des Objekts und in Ihrem Zeitblatt angezeigt.
 
@@ -381,17 +385,17 @@ Sie können projektspezifische Zeit für ein Projekt, eine Aufgabe oder ein Prob
 
 Um die Zeit im Abschnitt Updates eines Projekts, einer Aufgabe oder eines Problems zu protokollieren, müssen Sie über Folgendes verfügen:
 
-* Den richtigen Zugriff und die richtigen Berechtigungen, wie im Abschnitt [Zugriffsanforderungen](#access-requirements) in diesem Artikel beschrieben.
+* Die richtigen Zugriffs- und Berechtigungen, wie im Abschnitt [Zugriffsanforderungen](#access-requirements) in diesem Artikel beschrieben.
 
-* Ihr Workfront-Administrator muss die Protokollzeit direkt für Projekte unter aktivieren. [!UICONTROL **Datenblatt und Stunden**]> [!UICONTROL **Voreinstellungen**] im Systembereich, wenn Sie die Zeit direkt in einem Projekt protokollieren möchten.
+* Der Workfront-Administrator muss die Einstellung Protokollzeit direkt für Projekte unter [!UICONTROL **Timesheet &amp; Hours**]> [!UICONTROL **Voreinstellungen**] im Systembereich aktivieren, wenn Sie die Zeit direkt in einem Projekt protokollieren möchten.
 
-  Weitere Informationen dazu, wie Sie Benutzern erlauben, Stunden direkt in Projekten zu protokollieren, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Weitere Informationen dazu, wie Sie Benutzern erlauben, Stunden direkt in Projekten zu protokollieren, finden Sie unter [Konfigurieren von Voreinstellungen für Zeitblätter und Stunden](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 So protokollieren Sie die Zeit im Abschnitt &quot;Aktualisierungen&quot;eines Projekts, einer Aufgabe oder eines Problems:
 
 1. Wechseln Sie zu einem Projekt, einer Aufgabe oder einem Problem.
-1. Wählen Sie im linken Bereich die Option **Updates**.
-1. Klicks **Protokollzeit**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
+1. Wählen Sie im linken Bereich **Aktualisierungen** aus.
+1. Klicken Sie auf **Protokollzeit**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
    Das Dialogfeld Protokollzeit wird angezeigt.
 
@@ -405,15 +409,15 @@ So protokollieren Sie die Zeit im Abschnitt &quot;Aktualisierungen&quot;eines Pr
 
 1. Geben Sie die folgenden Informationen an:
 
-   * **Stündentyp**: Wählen Sie im Dropdown-Menü einen Stundentyp aus, wenn dieser sich von dem standardmäßig angezeigten unterscheidet.
+   * **Stündentyp**: Wählen Sie aus dem Dropdown-Menü einen Stündentyp aus, wenn dieser sich von dem standardmäßig angezeigten unterscheidet.
 
-     Je nachdem, welche Stundentypen in Ihrem System konfiguriert sind, können die Optionen hier variieren. Weitere Informationen zum Konfigurieren von Stundentypen finden Sie unter [Festlegen von Stundentypen und Verfügbarkeit für Timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Je nachdem, welche Stundentypen in Ihrem System konfiguriert sind, können die Optionen hier variieren. Weitere Informationen zum Konfigurieren von Stundentypen finden Sie unter [Festlegen von Stundentypen und Verfügbarkeit](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **Auftragsrolle**: (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Funktion **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** -Einstellung festlegen, wählen Sie eine **Auftragsrolle** aus dem Dropdown-Menü. Die Rolle, die beim Zuweisen zum Objekt angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Auftragsrolle**: (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Einstellung **Auftragsrollen manuell zu Stundeneinträgen zuweisen** aktiviert hat, wählen Sie eine **Auftragsrolle** aus dem Dropdownmenü aus. Die Rolle, die beim Zuweisen zum Objekt angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Konfigurieren von Voreinstellungen für das Zeitblatt und die Stunde](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
    * **Stunden**: Geben Sie die Anzahl der Stunden für das Projekt, die Aufgabe oder das Problem ein.
 
-1. Klicks **Protokollzeit**.
+1. Klicken Sie auf **Protokollzeit**.
 
    Die protokollierte Zeit wird im Bereich Stunden des Objekts und in Ihrem Zeitblatt angezeigt.
 
@@ -425,15 +429,15 @@ Oder
 
 Sie müssen über Folgendes verfügen:
 
-* Eine Planungslizenz mit administrativem Zugriff auf Timesheets und Stunden. Weitere Informationen zum Gewähren des administrativen Zugriffs auf Timesheets und Stunden finden Sie unter [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* Beitragen Sie oder höhere Berechtigungen zum Projekt mit Zugriff auf &quot;Log Hours&quot;. Weitere Informationen zum Gewähren von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Ihr Workfront-Administrator muss die Protokollzeit direkt für Projekte aktivieren, die in der **Zeitblatt &amp; Stunden > Voreinstellungen** im Bereich &quot;Einrichtung&quot;, wenn Sie die Zeit direkt in einem Projekt protokollieren möchten. Weitere Informationen dazu, wie Sie Benutzern erlauben, Stunden direkt in Projekten zu protokollieren, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Eine Planungslizenz mit administrativem Zugriff auf Timesheets und Stunden. Weitere Informationen zum Gewähren des administrativen Zugriffs auf Timesheets und Stunden finden Sie unter [Gewähren des administrativen Zugriffs von Benutzern auf bestimmte Bereiche](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Contribute oder höhere Berechtigungen für das Projekt mit Zugriff auf Protokollzeiten. Weitere Informationen zum Gewähren von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* Wenn Sie die Zeit direkt in einem Projekt protokollieren möchten, muss Ihr Workfront-Administrator die Einstellung &quot;Log time on projects&quot;im Bereich **Timesheet &amp; Hours > Voreinstellungen** des Einrichtungsbereichs aktivieren. Weitere Informationen dazu, wie Sie Benutzern erlauben, Stunden direkt in Projekten zu protokollieren, finden Sie unter [Konfigurieren von Voreinstellungen für Zeitblätter und Stunden](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 So melden Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgabe oder eines Problems an:
 
 1. Wechseln Sie zu einem Projekt, einer Aufgabe oder einem Problem.
 1. Klicken Sie im linken Bereich auf **Stunden**.
-1. Klicks **Protokollzeit**.
+1. Klicken Sie auf **Protokollzeit**.
 
    Das Dialogfeld Protokollzeiten wird angezeigt.
 
@@ -442,28 +446,28 @@ So melden Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgabe oder e
    * **Inhaber:** Ihr Name wird standardmäßig in diesem Feld angezeigt.\
      Wenn Sie die Stunden für einen anderen Benutzer protokollieren, geben Sie dessen Namen an.
 
-   * **Stündentyp**: Wählen Sie im Dropdown-Menü einen Stundentyp aus, wenn dieser sich von dem standardmäßig angezeigten unterscheidet.
+   * **Stündentyp**: Wählen Sie aus dem Dropdown-Menü einen Stündentyp aus, wenn dieser sich von dem standardmäßig angezeigten unterscheidet.
 
-     Je nachdem, welche Stundentypen in Ihrem System konfiguriert sind, können die Optionen hier variieren. Weitere Informationen zum Konfigurieren von Stundentypen finden Sie unter [Festlegen von Stundentypen und Verfügbarkeit für Timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Je nachdem, welche Stundentypen in Ihrem System konfiguriert sind, können die Optionen hier variieren. Weitere Informationen zum Konfigurieren von Stundentypen finden Sie unter [Festlegen von Stundentypen und Verfügbarkeit](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **Auftragsrolle**: (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Funktion **Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen** -Einstellung festlegen, wählen Sie eine **Auftragsrolle** aus dem Dropdown-Menü. Die Rolle, die beim Zuweisen zum Objekt angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Auftragsrolle**: (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Einstellung **Auftragsrollen manuell zu Stundeneinträgen zuweisen** aktiviert hat, wählen Sie eine **Auftragsrolle** aus dem Dropdownmenü aus. Die Rolle, die beim Zuweisen zum Objekt angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Konfigurieren von Voreinstellungen für das Zeitblatt und die Stunde](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
      ![](assets/log-time-box-in-hours-section-on-task.png)
    * **Stunden**: Geben Sie die Anzahl der Stunden für das Projekt, die Aufgabe oder das Problem ein.
 
-1. Klicks **Protokollzeit**.
+1. Klicken Sie auf **Protokollzeit**.
 
 ### Bedienfeld „Zusammenfassung“
 
 Sie können die Zeit für Aufgaben und Probleme im Bereich &quot;Zusammenfassung&quot;protokollieren.
-Weitere Informationen finden Sie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Weitere Informationen finden Sie unter [Übersicht der Zusammenfassung](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ![](assets/summary-hour-log.png)
 
 ### Pinnwände {#boards}
 
 Sie können die Zeit auf verbundenen Karten auf einer Workfront-Pinnwand protokollieren. Dies entspricht dem Protokollierungszeitpunkt für eine Aufgabe oder ein Problem und die auf der Karte protokollierten Stunden werden für die verbundene Aufgabe oder das Problem gespeichert.
-Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Weitere Informationen finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ### Mobile App {#mobile-app}
 
