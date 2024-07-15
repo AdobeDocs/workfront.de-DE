@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -53,15 +53,15 @@ Geben Sie Ihrem Netzwerkadministrator die folgenden Informationen an:
   </tr> 
   <tr> 
    <td role="rowheader">Ihr Cluster</td> 
-   <td>Informationen zum Auffinden des Clusters Ihres Unternehmens finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Cluster- und Workfront-Plan Ihres Unternehmens anzeigen</a>.</td> 
+   <td>Informationen zum Auffinden des Clusters Ihres Unternehmens finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Cluster- und Workfront-Plan für Ihr Unternehmen anzeigen</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ihr Workfront-Abo</td> 
-   <td> <p>Informationen zum Auffinden des Unternehmensplans finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Anzeigen des Clusters und des Workfront-Plans Ihres Unternehmens</a></p> </td> 
+   <td> <p>Informationen zum Finden des Unternehmensplans finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Cluster- und Workfront-Plan Ihres Unternehmens anzeigen.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ihre Domäne</td> 
-   <td> <p>Um Ihre Domäne zu finden, sehen Sie sich die Webadresse an, mit der Sie eine Verbindung zu Workfront herstellen.</p> <p>Beispiel: in der Webadresse <code>greatcompany.my.workfront.com</code>lautet, lautet die Domäne "Großunternehmen".</p> </td> 
+   <td> <p>Um Ihre Domäne zu finden, sehen Sie sich die Webadresse an, mit der Sie eine Verbindung zu Workfront herstellen.</p> <p>Beispiel: In der Webadresse <code>greatcompany.my.workfront.com</code> lautet die Domäne "Großunternehmen".</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sonstige Adobe Workfront-Produkte</td> 
@@ -76,7 +76,7 @@ Geben Sie Ihrem Netzwerkadministrator die folgenden Informationen an:
    <td>Informieren Sie Ihren Netzwerkadministrator, wenn Sie Folgendes verwenden:
     <ul>
      <li><p>Workfront für Jira</p></li>
-     <li><p>Workfront für G Suite</p></li>
+     <li><p>Workfront für Google Workspace</p></li>
      <li><p>Workfront für Microsoft Teams</p></li>
      <li><p>Workfront für Outlook</p></li>
      <li><p>Workfront für Salesforce</p></li>
@@ -98,16 +98,16 @@ Geben Sie Ihrem Netzwerkadministrator die folgenden Informationen an:
 
 ### Cluster- und Workfront-Plan Ihres Unternehmens anzeigen {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Einrichtung]** ![Einrichtungssymbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf das Symbol **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).![
 
-1. Klicks **System** im linken Bereich
-1. Um den Cluster anzuzeigen, wählen Sie **Kundeninformationen**.
+1. Klicken Sie im linken Bereich auf **System** .
+1. Um den Cluster anzuzeigen, wählen Sie **Kundeninformationen** aus.
 
-   Ihr Cluster wird in der Nähe der oberen rechten Ecke des **Grundlegende Informationen** Abschnitt.
+   Ihr Cluster wird oben rechts im Abschnitt **Grundlegende Informationen** angezeigt.
 
    ![](assets/locate-cluster.png)
 
-1. Um Ihren Workfront-Plan anzuzeigen, wählen Sie **Lizenzen**.
+1. Um Ihren Workfront-Plan anzuzeigen, wählen Sie **Lizenzen** aus.
 
    Ihr Plan wird unten auf der Seite angezeigt.
 

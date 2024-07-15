@@ -2,25 +2,25 @@
 product-area: workfront-integrations
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Zugriff [!DNL Adobe Workfront] Startinhalte von G Suite
-description: Sie können auf Ihre [!DNL Adobe Workfront] Startinhalte, einschließlich aller Ihnen zugewiesenen Aufgaben, Probleme, Genehmigungen und Zugriffsanforderungen, ohne G Suite verlassen zu müssen.
+title: Zugriff auf [!DNL Adobe Workfront] Home-Inhalte aus Google Workspace
+description: Sie können auf Ihren [!DNL Adobe Workfront] Home-Inhalt zugreifen, einschließlich aller Ihnen zugewiesenen Aufgaben, Probleme, Genehmigungen und Zugriffsanforderungen, ohne Google Workspace verlassen zu müssen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-# Zugriff [!DNL Adobe Workfront] [!UICONTROL Startseite] Inhalt aus [!DNL G Suite]
+# Zugriff auf [!DNL Adobe Workfront] [!UICONTROL Home]-Inhalt von [!DNL Google Workspace]
 
 >[!NOTE]
 >
 >Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
 
-Sie können auf Ihre [!DNL Adobe Workfront] [!UICONTROL Startseite] Inhalte, einschließlich aller Ihnen zugewiesenen Aufgaben, Probleme, Genehmigungen und Zugriffsanforderungen, ohne G Suite verlassen zu müssen.
+Sie können auf Ihren [!DNL Adobe Workfront] [!UICONTROL Home]-Inhalt zugreifen, einschließlich aller Aufgaben, Probleme, Genehmigungen und Zugriffsanforderungen, die Ihnen zugewiesen sind, ohne Google Workspace zu verlassen.
 
 ## Zugriffsanforderungen
 
@@ -31,8 +31,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -41,38 +41,38 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
-Bevor Sie auf [!UICONTROL Startseite] Inhalt aus [!DNL G Suite], müssen Sie
+Bevor Sie über [!DNL Google Workspace] auf den Inhalt von [!UICONTROL Home] zugreifen können, müssen Sie
 
-* Installieren [!DNL Workfront for G suite]\
-   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Installieren Sie [!DNL Workfront for Google Workspace]\
+   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Zugriff [!DNL Workfront] [!UICONTROL Startseite] von [!DNL G Suite]
+## Zugriff auf [!DNL Workfront] [!UICONTROL Home] von [!DNL Google Workspace]
 
-1. Stellen Sie sicher, dass Sie bei angemeldet sind. [!DNL Workfront].
-1. Wenn die Variable [!UICONTROL Workfront für G Suite] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront] icon ![](assets/wf-lion-icon.png) im [!DNL G Suite] Seitenleiste für Add-ons ganz rechts auf der Seite.
-1. Wenn oben ein Linkspfeil angezeigt wird [!DNL Workfront] für [!DNL G Suite]Klicken Sie auf den Pfeil , um zum [!UICONTROL Startseite] Bereich.
+1. Stellen Sie sicher, dass Sie bei [!DNL Workfront] angemeldet sind.
+1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie in der Seitenleiste [!DNL Google Workspace] der Add-ons ganz rechts auf das Symbol [!DNL Workfront] ![](assets/wf-lion-icon.png) .
+1. Wenn oben bei [!DNL Google Workspace] ein Linkspfeil von [!DNL Workfront] angezeigt wird, klicken Sie auf den Pfeil, um zum Bereich [!UICONTROL Home] zu gelangen.
 
-1. Im **[!UICONTROL Sortieren nach]** Bereich, klicken Sie auf den Erweiterungspfeil ![](assets/dropdown-arrow.png)und klicken Sie dann auf eine Option, um festzulegen, wie Sie Ihre Arbeitselemente gruppieren möchten, damit Sie die gewünschte finden können.
+1. Klicken Sie im Bereich **[!UICONTROL Sortieren nach]** auf den Erweiterungspfeil ![](assets/dropdown-arrow.png) und dann auf eine Option, um festzulegen, wie Sie Ihre Arbeitselemente gruppieren möchten, damit Sie den gewünschten finden können.
 
-   Wenn Sie nach **[!UICONTROL Commit date]** oder **[!UICONTROL Geplanter Abschluss]** -Datum, befinden sich die ältesten Arbeitselemente oben.
+   Wenn Sie nach dem Datum **[!UICONTROL Datum der Veröffentlichung begrenzen]** oder dem Datum der geplanten Fertigstellung **[!UICONTROL 3} sortieren, befinden sich die ältesten Arbeitselemente oben.]**
 
-   Wenn Sie nach **[!UICONTROL Projekt]**, werden Arbeitselemente in der Reihenfolge ihrer übergeordneten Projekte angezeigt, die alphabetisch von A bis Z aufgelistet sind. Arbeitselemente ohne übergeordnetes Projekt werden unter **[!UICONTROL Kein Projekt]**.
+   Wenn Sie nach **[!UICONTROL Projekt]** sortieren, werden Arbeitselemente in der Reihenfolge ihrer übergeordneten Projekte angezeigt, die alphabetisch von A bis Z aufgelistet werden. Arbeitselemente ohne übergeordnetes Projekt werden unter **[!UICONTROL Kein Projekt]** angezeigt.
 
-1. Klicken Sie auf den Erweiterungspfeil ![](assets/dropdown-arrow.png) für die Gruppierung, die Sie anzeigen möchten.
+1. Klicken Sie für die anzuzeigende Gruppierung auf den Erweiterungspfeil ![](assets/dropdown-arrow.png) .
 
-   Die Anzahl der Elemente in den einzelnen Gruppen wird in Klammern angezeigt. Wenn Sie auf die [!UICONTROL Erweitern] -Pfeil, werden alle Arbeitselemente in der Gruppe angezeigt.
+   Die Anzahl der Elemente in den einzelnen Gruppen wird in Klammern angezeigt. Wenn Sie auf den Pfeil [!UICONTROL expand] klicken, werden alle Arbeitselemente in der Gruppe angezeigt.
 
    Arbeitselemente werden wie folgt angezeigt:
 
-   * ![](assets/task-icon.png) **Aufgaben** den Namen des übergeordneten Projekts, den Aufgabennamen und das geplante Abschlussdatum anzeigen.
+   * ![](assets/task-icon.png) **Aufgaben** zeigen den Namen des übergeordneten Projekts, den Aufgabennamen und das geplante Abschlussdatum an.
 
-   * ![](assets/issue-icon.png) **Probleme** den Namen des übergeordneten Projekts, den Namen des Problems und das geplante Abschlussdatum anzeigen.
+   * ![](assets/issue-icon.png) **Probleme** zeigen den Namen des übergeordneten Projekts, den Namen des Problems und das geplante Abschlussdatum an.
 
-   * ![](assets/document-icon.png)  **Genehmigungen** den Namen, den Dokumentnamen und das Übermittlungsdatum des Anforderers anzeigen.
-   * **Zugriffsanforderungen** den Namen, den Objektnamen und das Übermittlungsdatum des Anforderers anzeigen. Das Symbol für den Objekttyp wird auf der linken Seite angezeigt.
+   * ![](assets/document-icon.png) **Genehmigungen** zeigen den Namen, den Dokumentnamen und das Übermittlungsdatum des Anfragenden an.
+   * **Zugriffsanfragen** zeigen den Namen, den Objektnamen und das Übermittlungsdatum des Anfragenden an. Das Symbol für den Objekttyp wird auf der linken Seite angezeigt.
 
 1. Klicken Sie auf eine beliebige Stelle eines Arbeitselements, um dessen Details, Aktualisierungen und Dokumente anzuzeigen.

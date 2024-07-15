@@ -2,25 +2,25 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Ansicht [!DNL Adobe Workfront] Objektaktualisierungen von G Suite
-description: Ohne die G Suite verlassen zu müssen, können Sie Aktualisierungen und Antworten auf Aktualisierungen auf einer [!DNL Adobe Workfront] -Objekt.
+title: Anzeigen von [!DNL Adobe Workfront] Objektaktualisierungen von Google Workspace
+description: Ohne Google Workspace verlassen zu müssen, können Sie Aktualisierungen und Antworten auf Aktualisierungen eines [!DNL Adobe Workfront] Objekts anzeigen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
-# Ansicht [!DNL Adobe Workfront] Objektaktualisierungen von [!DNL G Suite]
+# Anzeigen von [!DNL Adobe Workfront]-Objektaktualisierungen von [!DNL Google Workspace]
 
 >[!NOTE]
 >
 >Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
 
-Ohne Abfahren [!DNL G Suite], können Sie Aktualisierungen und Antworten auf Aktualisierungen auf einer [!DNL Adobe Workfront] -Objekt.
+Ohne [!DNL Google Workspace] verlassen zu müssen, können Sie Aktualisierungen und Antworten auf Aktualisierungen eines [!DNL Adobe Workfront] -Objekts anzeigen.
 
 ## Zugriffsanforderungen
 
@@ -31,8 +31,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -41,22 +41,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
-Vor der Anzeige von Objektaktualisierungen in [!DNL G Suite], müssen Sie
+Bevor Sie Objektaktualisierungen in [!DNL Google Workspace] anzeigen können, müssen Sie
 
-* Installieren [!DNL Workfront for G suite]\
-   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Installieren Sie [!DNL Workfront for Google Workspace]\
+   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Anzeigen von Objektaktualisierungen in [!DNL G Suite]
+## Anzeigen von Objektaktualisierungen in [!DNL Google Workspace]
 
-1. Anzeigen des Objekts in [!DNL G Suite] wie in [Anzeigen und Verwalten [!DNL Adobe Workfront] Objektdetails von [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
-1. Klicken Sie auf **[!UICONTROL Updates]** Registerkarte.
+1. Zeigen Sie das Objekt in [!DNL Google Workspace] an, wie unter [Anzeigen und Verwalten von [!DNL Adobe Workfront] Objektdetails aus  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md) beschrieben.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Aktualisierungen]**.
 1. Verwenden Sie die angezeigte Option, die durch die dem Objekt bereits hinzugefügten Aktualisierungen bestimmt wird:
 
-   * Wenn die Aktualisierung Kommentare enthält, klicken Sie auf **[!UICONTROL Kommentare anzeigen]** um den Kommentar-Thread anzuzeigen.
-   * Wenn Sie die erste Antwort zur Aktualisierung hinzufügen möchten, klicken Sie auf **[!UICONTROL Antwort]** und geben Sie Ihren Kommentar ein.
+   * Wenn die Aktualisierung Kommentare enthält, klicken Sie auf **[!UICONTROL Kommentare anzeigen]** , um den Kommentar-Thread anzuzeigen.
+   * Wenn Sie die erste Antwort zur Aktualisierung hinzufügen möchten, klicken Sie auf **[!UICONTROL Antworten]** und geben Sie Ihren Kommentar ein.
 
-1. So kehren Sie zur **[!UICONTROL Updates]** Registerkarte, klicken Sie auf **[!UICONTROL Alle Updates anzeigen]**.
+1. Um zur Registerkarte **[!UICONTROL Aktualisierungen]** zurückzukehren, klicken Sie auf **[!UICONTROL Alle Aktualisierungen anzeigen]**.

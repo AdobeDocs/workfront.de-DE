@@ -2,19 +2,19 @@
 product-area: workfront-integrations;user-management
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Anmelden und Abmelden von [!DNL Adobe Workfront] für G Suite
-description: In diesem Artikel wird beschrieben, wie Sie sich bei der [!DNL Adobe Workfront for] G-Suite-Integration.
+title: Anmelden und Abmelden von [!DNL Adobe Workfront] für Google Workspace
+description: In diesem Artikel wird beschrieben, wie Sie sich bei oder aus der [!DNL Adobe Workfront for] Google Workspace-Integration anmelden.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 1%
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
-# Anmelden und Abmelden von [!DNL Adobe Workfront for G Suite]
+# Anmelden und Abmelden von [!DNL Adobe Workfront for Google Workspace]
 
 >[!NOTE]
 >
@@ -29,8 +29,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -39,36 +39,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
-Vor der Anmeldung oder Abmeldung von [!DNL Workfront for G Suite], müssen Sie
+Bevor Sie sich bei [!DNL Workfront for Google Workspace] anmelden oder von ihm abmelden können, müssen Sie
 
-* Installieren [!DNL Workfront for G suite]\
-   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Installieren Sie [!DNL Workfront for Google Workspace]\
+   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Anmelden [!DNL Adobe Workfront for G Suite]
+## Anmelden bei [!DNL Adobe Workfront for Google Workspace]
 
-1. Klicken Sie auf [!DNL Workfront] icon ![](assets/wf-lion-icon.png) im [!DNL G Suite] Seitenleiste für Add-ons ganz rechts von [!DNL Gmail], [!DNL Google Calendar]oder [!DNL Google Drive].
+1. Klicken Sie auf das Symbol [!DNL Workfront] ![](assets/wf-lion-icon.png) in der Seitenleiste der [!DNL Google Workspace] Add-ons ganz rechts von [!DNL Gmail], [!DNL Google Calendar] oder [!DNL Google Drive].
 
-   Wenn Sie die [!DNL Workfront for G Suite] -Add-on verwenden und dieses Symbol nicht angezeigt wird, sollten Sie die Browser-Seite aktualisieren.
+   Wenn Sie gerade das [!DNL Workfront for Google Workspace] -Add-on installiert haben und dieses Symbol nicht sehen können, versuchen Sie, die Browser-Seite zu aktualisieren.
 
-1. Klicken **[!UICONTROL Anmelden]** im [!DNL Workfront for G Suite] -Add-on.
-1. Geben Sie Ihre [!DNL Workfront] Domain-Adresse, z. B. *companyname.my.workfront.com*.
+1. Klicken Sie im Add-on [!DNL Workfront for Google Workspace] auf **[!UICONTROL Anmelden]** .
+1. Geben Sie Ihre [!DNL Workfront] -Domänenadresse ein, z. B. *companyname.my.workfront.com*.
 1. Befolgen Sie die Anweisungen zum Anmelden bei [!DNL Workfront].
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] verbindet [!DNL G Suite] mit OAuth 2.0, einem sicheren Standard, der von den meisten webbasierten Integrationen für die Authentifizierung und Autorisierung von Benutzern verwendet wird.
-   >* Wenn Sie aufgefordert werden, die [Domäne oder Host] Ihrer [!DNL Workfront] -Konto angeben, geben Sie es in folgendem Format ein: *yourCompany&#39;sDomain.my.workfront.com*. Die Domäne Ihres Unternehmens ist normalerweise der Name Ihres Unternehmens.
+   >* [!DNL Workfront] verbindet sich mit [!DNL Google Workspace] mit OAuth 2.0, einem sicheren Standard, der von den meisten webbasierten Integrationen für die Authentifizierung und Autorisierung von Benutzern verwendet wird.
+   >* Wenn Sie aufgefordert werden, die [Domäne oder den Host] Ihres [!DNL Workfront]-Kontos einzugeben, geben Sie es in folgendem Format ein: *sDomain.my.workfront.com* Ihres Unternehmens. Die Domäne Ihres Unternehmens ist normalerweise der Name Ihres Unternehmens.
 
 
-## Abmelden von [!DNL Workfront for G Suite]
+## Abmelden von [!DNL Workfront for Google Workspace]
 
-1. Wenn die Variable [!UICONTROL Workfront für G Suite] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront] icon ![](assets/wf-lion-icon.png) im [!DNL G Suite] Seitenleiste für Add-ons ganz rechts auf der Seite.
-1. Klicken Sie auf **[!UICONTROL Mehr Aktionen]** -Symbol oben im [!DNL Workfront for G Suite] Bereich.
+1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie in der Seitenleiste [!DNL Google Workspace] der Add-ons ganz rechts auf das Symbol [!DNL Workfront] ![](assets/wf-lion-icon.png) .
+1. Klicken Sie oben im Bedienfeld [!DNL Workfront for Google Workspace] auf das Symbol **[!UICONTROL Mehr Aktionen]** .
 
-1. Klicken **[!UICONTROL Abmelden]** im angezeigten Menü.
+1. Klicken Sie im angezeigten Menü auf **[!UICONTROL Abmelden]** .
 
-   Dadurch werden Sie nicht von [!DNL G Suite].
+   Dadurch werden Sie nicht von [!DNL Google Workspace] abgemeldet.

@@ -5,37 +5,37 @@ product-area: workfront-integrations;documents
 keywords: Connector
 navigation-topic: apps-and-their-modules
 title: Google Docs-Module
-description: Die Adobe Workfront-Fusion [!DNL Google Docs] -Module ermöglichen es Ihnen, Dokumente in Ihrer [!DNL Google Docs] und [!DNL Google Docs] (für [!DNL G Suite]-Benutzer).
+description: Mit den Adobe Workfront Fusion- [!DNL Google Docs] Modulen können Sie Dokumente in Ihren [!DNL Google Docs] und  [!DNL Google Docs]  (für  [!DNL Google Workspace] Benutzer) überwachen, erstellen, bearbeiten und abrufen.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '4090'
+source-wordcount: '4085'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Docs]-Module
+# [!DNL Google Docs] Module
 
-Die [!DNL Adobe Workfront Fusion] [!DNL Google Docs] -Module ermöglichen es Ihnen, Dokumente in Ihrer [!DNL Google Docs] und [!DNL Google Docs] (für [!DNL G Suite] Benutzer).
+Mit den Modulen [!DNL Adobe Workfront Fusion] [!DNL Google Docs] können Sie Dokumente in Ihren [!DNL Google Docs] und in [!DNL Google Docs] überwachen, erstellen, bearbeiten und abrufen (für [!DNL Google Workspace] Benutzer).
 
-Zur Verwendung [!DNL Google Docs] mit [!DNL Adobe Workfront Fusion], muss ein [!DNL Google] -Konto. Wenn Sie keine [!DNL Google] -Konto erstellen können, können Sie eines im [!DNL Google] Hilfeseite für Konten.
+Um [!DNL Google Docs] mit [!DNL Adobe Workfront Fusion] zu verwenden, ist ein [!DNL Google] -Konto erforderlich. Wenn Sie noch kein [!DNL Google] -Konto haben, können Sie eines auf der Hilfeseite für das [!DNL Google] Konto erstellen.
 
-Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -45,50 +45,50 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Verwendung [!DNL Google Docs] -Module verwenden, müssen Sie über ein Google-Konto verfügen.
+Um [!DNL Google Docs] -Module zu verwenden, müssen Sie über ein Google-Konto verfügen.
 
 ## [!DNL Google Docs] Module und ihre Felder
 
-Bei der Konfiguration [!DNL Google Docs] Module, [!UICONTROL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL Google Docs] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie [!DNL Google Docs] -Module konfigurieren, zeigt [!UICONTROL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL Google Docs] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 ### Dokument
 
 * [[!UICONTROL Dokumente ansehen]](#watch-documents)
-* [[!UICONTROL Auflisten von Dokumenten]](#list-documents)
+* [[!UICONTROL Listendokumente]](#list-documents)
 * [[!UICONTROL Inhalt eines Dokuments abrufen]](#get-content-of-a-document)
-* [[!UICONTROL Dokument erstellen]](#create-a-document)
+* [[!UICONTROL Erstellen eines Dokuments]](#create-a-document)
 * [[!UICONTROL Erstellen eines Dokuments aus einer Vorlage]](#create-a-document-from-a-template)
-* [[!UICONTROL Einfügen eines Absatzes in ein Dokument]](#insert-a-paragraph-to-a-document)
+* [[!UICONTROL Absatz in ein Dokument einfügen]](#insert-a-paragraph-to-a-document)
 * [[!UICONTROL Einfügen eines Bildes in ein Dokument]](#insert-an-image-to-a-document)
 * [[!UICONTROL Ersetzen eines Bildes durch ein neues Bild]](#replace-an-image-with-a-new-image)
 * [[!UICONTROL Text in einem Dokument ersetzen]](#replace-text-in-a-document)
-* [[!UICONTROL Dokument herunterladen]](#download-a-document)
+* [[!UICONTROL Herunterladen eines Dokuments]](#download-a-document)
 * [[!UICONTROL Löschen eines Dokuments]](#delete-a-document)
 
 #### [!UICONTROL Dokumente ansehen]
@@ -101,7 +101,7 @@ Dieses Trigger-Modul gibt Dokumentdetails zurück, wenn ein neues Dokument im au
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dokumente ansehen]</td> 
@@ -113,7 +113,7 @@ Dieses Trigger-Modul gibt Dokumentdetails zurück, wenn ein neues Dokument im au
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, den Sie für erstellte oder geänderte Dokumente überwachen möchten.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, den Sie für erstellte oder geänderte Dokumente überwachen möchten.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, das Sie sehen möchten.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Shared Drive] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, das Sie sehen möchten.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Shared Drive] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -123,7 +123,7 @@ Dieses Trigger-Modul gibt Dokumentdetails zurück, wenn ein neues Dokument im au
  </tbody> 
 </table>
 
-#### [!UICONTROL Auflisten von Dokumenten]
+#### [!UICONTROL Listendokumente]
 
 Dieses Aktionsmodul ruft eine Liste von Dokumenten aus dem ausgewählten Ordner ab.
 
@@ -133,7 +133,7 @@ Dieses Aktionsmodul ruft eine Liste von Dokumenten aus dem ausgewählten Ordner 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Laufwerk auswählen]</td> 
@@ -141,12 +141,12 @@ Dieses Aktionsmodul ruft eine Liste von Dokumenten aus dem ausgewählten Ordner 
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, aus dem Sie Dokumente auflisten möchten.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, aus dem Sie Dokumente auflisten möchten.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, aus dem Dokumente aufgelistet werden sollen.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, aus dem Dokumente aufgelistet werden sollen.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Maximale Anzahl an Dokumenten festlegen [!DNL Workfront Fusion] in einem Ausführungszyklus zurückgibt.</p> </td> 
+   <td> <p>Legen Sie die maximale Anzahl von Dokumenten fest, die [!DNL Workfront Fusion] in einem Ausführungszyklus zurückgibt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -163,11 +163,11 @@ Möglicherweise müssen Sie Ihre Berechtigungen erweitern.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Inhalt eines Dokuments abrufen]</td> 
-   <td> <p>Wählen Sie aus, ob Sie die Dokument-ID des Dokuments zuordnen möchten, oder wählen Sie das Dokument manuell aus dem Dropdown-Menü aus.</p> </td> 
+   <td> <p>Wählen Sie aus, ob Sie die Dokument-ID des Dokuments zuordnen möchten, oder wählen Sie das Dokument manuell aus dem Dropdownmenü aus.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Laufwerk auswählen]</td> 
@@ -175,7 +175,7 @@ Möglicherweise müssen Sie Ihre Berechtigungen erweitern.
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, der das Dokument enthält, das Sie abrufen möchten.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, der das Dokument enthält, das Sie abrufen möchten.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, das das Dokument enthält, das Sie abrufen möchten.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, das das Dokument enthält, das Sie abrufen möchten.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -185,12 +185,12 @@ Möglicherweise müssen Sie Ihre Berechtigungen erweitern.
      <li>[!UICONTROL Bild] (Standard)</li> 
      <li>[!UICONTROL Drawing]</li> 
      <li>[!UICONTROL Diagramm]</li> 
-    </ul> <p>Notiz:  <p>Verwenden Sie für die weitere Zuordnung dieser Objekte den Wert [!UICONTROL Inline Objects Array] in der Ausgabe dieses Moduls (anstelle von [!UICONTROL inlineObjects]).</p> <p>Die [!UICONTROL Inline Objects Array]-Objekte werden in derselben Reihenfolge sortiert, in der sie im Dokument angezeigt werden. Dadurch wird jede weitere Verarbeitung erleichtert.</p> </p> </td> 
+    </ul> <p>Hinweis:  <p>Verwenden Sie für die weitere Zuordnung dieser Objekte den Wert [!UICONTROL Inline Objects Array] in der Ausgabe dieses Moduls (anstelle von [!UICONTROL inlineObjects]).</p> <p>Die [!UICONTROL Inline Objects Array]-Objekte werden in der gleichen Reihenfolge sortiert wie im Dokument. Dadurch wird jede weitere Verarbeitung erleichtert.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Dokument erstellen]
+#### [!UICONTROL Erstellen eines Dokuments]
 
 Mit diesem Aktionsmodul können Sie ein neues Dokument im ausgewählten Ordner erstellen.
 
@@ -200,7 +200,7 @@ Mit diesem Aktionsmodul können Sie ein neues Dokument im ausgewählten Ordner e
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name] </td> 
@@ -216,7 +216,7 @@ Mit diesem Aktionsmodul können Sie ein neues Dokument im ausgewählten Ordner e
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem Sie ein Dokument erstellen möchten.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem Sie ein Dokument erstellen möchten.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem Sie ein Dokument erstellen möchten.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem Sie ein Dokument erstellen möchten.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -225,7 +225,7 @@ Mit diesem Aktionsmodul können Sie ein neues Dokument im ausgewählten Ordner e
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fußzeile einfügen] </td> 
-   <td> <p>Aktivieren Sie diese Option, um die Fußzeile zum Dokument einzufügen, und geben Sie dann den Text der Kopfzeile ein oder ordnen Sie ihn zu.</p> </td> 
+   <td> <p>Aktivieren Sie diese Option, um die Fußzeile zum Dokument einzufügen und den Text der Kopfzeile einzugeben oder zuzuordnen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -240,14 +240,14 @@ Dieses Aktionsmodul erstellt eine Kopie eines vorhandenen Vorlagendokuments und 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Dokument aus einer Vorlage erstellen]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Nach Zuordnung]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage zuzuordnen.</li> 
-     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br>Wählen Sie diese Option aus, um die Dokumentvorlage aus dem Dropdown-Menü auszuwählen.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage zuzuordnen.</li> 
+     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage aus dem Dropdown-Menü auszuwählen.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -256,20 +256,20 @@ Dieses Aktionsmodul erstellt eine Kopie eines vorhandenen Vorlagendokuments und 
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich Ihre Vorlage befindet.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich Ihre Vorlage befindet.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich Ihre Vorlage befindet.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich Ihre Vorlage befindet.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Werte]</p> </td> 
    <td> <p>Geben Sie die Werte ein, die anstelle der Variablen in das neue Dokument eingegeben werden sollen.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Tags]</strong> <br>Geben Sie die Tags ein, die in der Dokumentvorlage enthalten sind. Nicht anwenden <code>&#123;&#123;&#125;&#125;</code>. Beispiel: use <code>name</code> anstelle von <code>&#123;&#123;name&#125;&#125;</code>.</li> 
+     <li><strong>[!UICONTROL Tags]</strong> <br>Geben Sie die Tags ein, die in der Dokumentvorlage enthalten sind. Verwenden Sie nicht <code>&#123;&#123;&#125;&#125;</code>. Beispiel: Verwenden Sie <code>name</code> anstelle von <code>&#123;&#123;name&#125;&#125;</code>.</li> 
      <li><strong>[!UICONTROL Ersetzter Wert]</strong><br>Geben Sie den Wert des Tags ein.</li> 
-    </ul> <p>Beispiel:<code> &#123;&#123;name&#125;&#125;</code> im Quelldokument wird hier als Namensfeld angezeigt, in das der Wert eingefügt werden kann, z. B. <code>John</code>.</p> </td> 
+    </ul> <p>Beispielsweise wird die Variable <code> &#123;&#123;name&#125;&#125;</code> im Quelldokument als Namensfeld angezeigt, in das der Wert eingefügt werden kann, z. B. <code>John</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Implacement]</p> </td> 
-   <td> <p>Geben Sie den Link zur [!UICONTROL Image Object ID] und [!UICONTROL Image URL] ein, die das aktuelle Bild ersetzen.</p> <p>Hinweis: Sie können die Bild-IDs mithilfe des Moduls [!UICONTROL Dokument abrufen] abrufen, in dem die IDs im Array [!UICONTROL Inline Object Array] enthalten sind.</p> <p>Es wird empfohlen, den Bildern in der [!DNL Google] Dokument. </p> <p>So fügen Sie ALT-Text zum [!DNL Google Docs] image:</p> 
+   <td> <p>Geben Sie den Link zur [!UICONTROL Image Object ID] und [!UICONTROL Image URL] ein, die das aktuelle Bild ersetzen.</p> <p>Hinweis: Sie können die Bild-IDs mithilfe des Moduls [!UICONTROL Dokument abrufen] abrufen, in dem die IDs im Array [!UICONTROL Inline Object Array] enthalten sind.</p> <p>Es wird empfohlen, den Bildern in Ihrem [!DNL Google] -Dokument ALT-Text hinzuzufügen. </p> <p>Hinzufügen eines ALT-Texts zum Bild [!DNL Google Docs] :</p> 
     <ol> 
      <li value="1">Klicken Sie mit der rechten Maustaste auf das Bild.</li> 
      <li value="2">Wählen Sie die Option [!UICONTROL ALT Text] aus.</li> 
@@ -286,13 +286,13 @@ Dieses Aktionsmodul erstellt eine Kopie eines vorhandenen Vorlagendokuments und 
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem das Dokument erstellt werden soll.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem das Dokument erstellt werden soll.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem das Dokument erstellt werden soll.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem das Dokument erstellt werden soll.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Einfügen eines Absatzes in ein Dokument]
+#### [!UICONTROL Absatz in ein Dokument einfügen]
 
 Dieses Aktionsmodul hängt einen neuen Absatz an ein vorhandenes Dokument an oder fügt ihn ein.
 
@@ -302,14 +302,14 @@ Dieses Aktionsmodul hängt einen neuen Absatz an ein vorhandenes Dokument an ode
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Dokument auswählen]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Nach Zuordnung]</strong> <br>Wählen Sie diese Option, um das Dokument zuzuordnen.</li> 
-     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br> Wählen Sie diese Option aus, um das Dokument aus dem Dropdown-Menü auszuwählen.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Wählen Sie diese Option, um das Dokument zuzuordnen.</li> 
+     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br> Wählen Sie diese Option, um das Dokument aus dem Dropdown-Menü auszuwählen.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -318,14 +318,14 @@ Dieses Aktionsmodul hängt einen neuen Absatz an ein vorhandenes Dokument an ode
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, dem Sie einen Absatz hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, dem Sie einen Absatz hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das Dokument befindet, dem Sie einen Absatz hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das Dokument befindet, dem Sie einen Absatz hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Absatz einfügen]</p> </td> 
    <td> <p>Wählen Sie aus, wie der neue Text in das Dokument eingefügt werden soll.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Nach Ortsangabe]</strong> </p> 
+     <li> <p><strong>[!UICONTROL Nach Spezifikation des Standorts]</strong> </p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Nach Index]</strong> </p> 
         <ul> 
@@ -357,14 +357,14 @@ Dieses Aktionsmodul fügt ein Bild aus der URL zum Dokument ein.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Dokument auswählen]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Nach Zuordnung]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage zuzuordnen.</li> 
-     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br> Wählen Sie diese Option aus, um das Dokument aus dem Dropdown-Menü auszuwählen.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage zuzuordnen.</li> 
+     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br> Wählen Sie diese Option, um das Dokument aus dem Dropdown-Menü auszuwählen.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -373,14 +373,14 @@ Dieses Aktionsmodul fügt ein Bild aus der URL zum Dokument ein.
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, dem Sie ein Bild hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, dem Sie ein Bild hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das Dokument befindet, dem Sie ein Bild hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das Dokument befindet, dem Sie ein Bild hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Bild einfügen]</p> </td> 
    <td> <p>Wählen Sie aus, wie das neue Bild in das Dokument eingefügt werden soll.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Nach Ortsangabe]</strong> </p> 
+     <li> <p><strong>[!UICONTROL Nach Spezifikation des Standorts]</strong> </p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Nach Index]</strong> </p> 
         <ul> 
@@ -412,14 +412,14 @@ Dieses Aktionsmodul ersetzt ein vorhandenes Bild. Das Seitenverhältnis des Orig
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Dokument auswählen]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Nach Zuordnung]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage zuzuordnen.</li> 
-     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br> Wählen Sie diese Option aus, um das Dokument aus dem Dropdown-Menü auszuwählen.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage zuzuordnen.</li> 
+     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br> Wählen Sie diese Option, um das Dokument aus dem Dropdown-Menü auszuwählen.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -428,12 +428,12 @@ Dieses Aktionsmodul ersetzt ein vorhandenes Bild. Das Seitenverhältnis des Orig
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, das Sie ersetzen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, das Sie ersetzen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das Dokument befindet, das Sie ein Bild ersetzen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das Dokument befindet, das Sie ersetzen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Bild-URL]</p> </td> 
-   <td> <p>Geben Sie die URL des neuen Bildes ein, das das vorhandene Bild ersetzen soll, oder ordnen Sie es zu.</p> <p>Bilder werden in der Reihenfolge aufgelistet, in der sie im Dokument angezeigt werden. Beispiel: <code>Body: Image No. 1</code> ist das erste Bild im Dokument.</p> </td> 
+   <td> <p>Geben Sie die URL des neuen Bildes ein, das das vorhandene Bild ersetzen soll, oder ordnen Sie es zu.</p> <p>Bilder werden in der Reihenfolge aufgelistet, in der sie im Dokument angezeigt werden. Beispielsweise ist <code>Body: Image No. 1</code> das erste Bild im Dokument.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -448,14 +448,14 @@ Dieses Aktionsmodul ersetzt Text in einem Dokument.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Dokument auswählen]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Nach Zuordnung]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage zuzuordnen.</li> 
-     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br> Wählen Sie diese Option aus, um das Dokument aus dem Dropdown-Menü auszuwählen.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage zuzuordnen.</li> 
+     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br> Wählen Sie diese Option, um das Dokument aus dem Dropdown-Menü auszuwählen.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -464,7 +464,7 @@ Dieses Aktionsmodul ersetzt Text in einem Dokument.
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, dem Sie Text hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, dem Sie Text hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das Dokument befindet, dem Sie Text hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das Dokument befindet, dem Sie Text hinzufügen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -478,7 +478,7 @@ Dieses Aktionsmodul ersetzt Text in einem Dokument.
  </tbody> 
 </table>
 
-#### [!UICONTROL Dokument herunterladen]
+#### [!UICONTROL Herunterladen eines Dokuments]
 
 Dieses Aktionsmodul konvertiert das ausgewählte Dokument und lädt es herunter.
 
@@ -488,7 +488,7 @@ Dieses Aktionsmodul konvertiert das ausgewählte Dokument und lädt es herunter.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Laufwerk auswählen]</td> 
@@ -496,7 +496,7 @@ Dieses Aktionsmodul konvertiert das ausgewählte Dokument und lädt es herunter.
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, das Sie herunterladen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, das Sie herunterladen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf das sich das Dokument befindet, das Sie herunterladen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf das sich das Dokument befindet, das Sie herunterladen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -516,20 +516,20 @@ Dieses Aktionsmodul löscht ein Dokument.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Laufwerk auswählen]</td> 
    <td> <p>Wählen Sie den Laufwerkstyp aus, unter dem sich das zu löschende Dokument befindet.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, das Sie löschen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
-     <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, das Sie löschen möchten, und wählen Sie dann das Dokument aus.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das zu löschende Dokument befindet, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das zu löschende Dokument befindet, und wählen Sie dann das Dokument aus.</p> </li> 
+     <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das zu löschende Dokument befindet, und wählen Sie dann das Dokument aus.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das zu löschende Dokument befindet, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Freigegebenes Laufwerk]</td> 
-   <td> <p>Wählen Sie das Laufwerk aus, das das Dokument enthält, das Sie herunterladen möchten, und wählen Sie dann ein Dokument aus. Diese Option ist verfügbar, wenn Sie [!DNL Google Docs] im Feld [!UICONTROL Laufwerk auswählen]</p> </td> 
+   <td> <p>Wählen Sie das Laufwerk aus, das das herunterzuladende Dokument enthält, und wählen Sie dann ein Dokument aus. Diese Option ist verfügbar, wenn Sie im Feld [!UICONTROL Laufwerk auswählen] die Option "[!DNL Google Docs]" ausgewählt haben.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dokument-ID]</td> 
@@ -553,11 +553,11 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Geben Sie einen Pfad relativ zu ein <code>https://docs.googleapis.com/</code>. Beispiel: <code>/v1/documents/{presentationID}</code>. </p> </td> 
+   <td> <p>Geben Sie einen Pfad relativ zu <code>https://docs.googleapis.com/</code> ein. Beispiel: <code>/v1/documents/{presentationID}</code>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Methode]</td> 
@@ -565,7 +565,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Header]</td> 
-   <td> <p>Fügen Sie die Header der Anforderung in Form eines standardmäßigen JSON-Objekts hinzu. Beispiel: <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] fügt die Autorisierungskopfzeilen für Sie hinzu.</p> </td> 
+   <td> <p>Fügen Sie die Header der Anfrage in Form eines standardmäßigen JSON-Objekts hinzu, z. B. <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] fügt die Autorisierungskopfzeilen für Sie hinzu.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Abfragezeichenfolge]</td> 
@@ -573,7 +573,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -581,7 +581,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
  </tbody> 
 </table>
 
-**Beispiel:** Mit dem folgenden API-Aufruf werden die Details für das angegebene Dokument in Ihren Google-Dokumenten abgerufen:
+**Beispiel:** Der folgende API-Aufruf ruft die Details für das angegebene Dokument in Ihren Google-Dokumenten ab:
 
 **URL:**
 
@@ -593,13 +593,13 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
 
 ![](assets/api-call-example.png)
 
-Details zum abgerufenen Dokument finden Sie in der Ausgabe des Moduls unter [!UICONTROL Bundle] > [!UICONTROL body].
+Details zum abgerufenen Dokument finden Sie in der Ausgabe des Moduls unter [!UICONTROL Bundle] > [!UICONTROL Hauptteil].
 
 ![](assets/api-output.png)
 
 #### [!UICONTROL Alle Links in einem Dokument anklickbar machen]
 
-Dieses Aktionsmodul sucht alle Links im Dokument und lässt sie anklickbar werden.
+Dieses Aktionsmodul sucht alle Links im Dokument und macht sie klickbar.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -607,14 +607,14 @@ Dieses Aktionsmodul sucht alle Links im Dokument und lässt sie anklickbar werde
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Alle Links in einem Dokument erstellen]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Nach Zuordnung]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage zuzuordnen.</li> 
-     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br> Wählen Sie diese Option aus, um das Dokument aus dem Dropdown-Menü auszuwählen.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Wählen Sie diese Option, um die Dokumentvorlage zuzuordnen.</li> 
+     <li><strong>[!UICONTROL Nach Dropdown]</strong> <br> Wählen Sie diese Option, um das Dokument aus dem Dropdown-Menü auszuwählen.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -623,12 +623,12 @@ Dieses Aktionsmodul sucht alle Links im Dokument und lässt sie anklickbar werde
     <ul> 
      <li> <p><strong>[!UICONTROL Mein Laufwerk]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, in dem die Links angeklickt werden sollen, und wählen Sie dann das Dokument aus.</p> </li> 
      <li> <p><strong>[!UICONTROL Für mich freigegeben]</strong> </p> <p>Wählen Sie den Ordner aus, in dem sich das Dokument befindet, in dem die Links angeklickt werden sollen, und wählen Sie dann das Dokument aus.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (verfügbar für [!DNL G Suite] nur Benutzer)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das Dokument befindet, auf das Sie Links anklickbar machen möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie die Option [!DNL Google Docs] in diesem Feld ein und Sie sind keine [!DNL G Suite] Benutzer, der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Freigegebenes Laufwerk]</strong> (nur für [!DNL Google Workspace] Benutzer verfügbar)</p> <p>Wählen Sie aus, ob Sie [!UICONTROL Domain Admin Access] verwenden möchten. Wenn Sie [!UICONTROL Ja] auswählen, wird die Anfrage als Domain-Administrator ausgegeben und alle freigegebenen Laufwerke, bei denen der Anforderer ein Administrator ist, werden zurückgegeben.</p> <p>Wählen Sie das freigegebene Laufwerk aus, auf dem sich das Dokument befindet, auf das Sie Links anklicken möchten, und wählen Sie dann das Dokument aus.</p> <p>Hinweis: Wenn Sie in diesem Feld die Option [!DNL Google Docs] ausgewählt haben und kein [!DNL Google Workspace] Benutzer sind, wird der Fehler <code>[400] Invalid Value</code> zurückgegeben.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Freigegebenes Laufwerk]</td> 
-   <td> <p>Wählen Sie das Laufwerk aus, das das Dokument enthält, in dem Sie Links aktualisieren möchten, und wählen Sie dann ein Dokument aus. Diese Option ist verfügbar, wenn Sie [!DNL Google Docs] im Feld [!UICONTROL Laufwerk auswählen].</p> </td> 
+   <td> <p>Wählen Sie das Laufwerk aus, das das Dokument enthält, in dem Sie Links aktualisieren möchten, und wählen Sie dann ein Dokument aus. Diese Option ist verfügbar, wenn Sie im Feld [!UICONTROL Laufwerk auswählen] die Option "[!DNL Google Docs]"ausgewählt haben.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dokument-ID]</td> 

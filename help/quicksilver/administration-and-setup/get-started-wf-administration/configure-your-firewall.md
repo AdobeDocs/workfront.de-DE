@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 0%
@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domänen, die für Adobe-Apps und -Dienste zulässig sein sollen](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domänen, die für Adobe-Apps und -Dienste zugelassen werden dürfen](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Wenn Ihre Firewall oder Ihr Mail-Server so konfiguriert ist, dass nur bestimmte 
 * Verwenden von Dokument-Webhooks beim Konfigurieren von benutzerdefinierten Dokumentintegrationen
 * Verwenden von Workfront-Ereignisabonnements
 
-  Weitere Informationen finden Sie unter [Ereignisabonnement-API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  Weitere Informationen finden Sie unter [Ereignis-Abonnement-API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 Sie müssen auch bestimmte Ports öffnen, damit E-Mail-Nachrichten beim Versand verschlüsselt werden können.
 
@@ -51,7 +51,7 @@ Sie müssen auch bestimmte Ports öffnen, damit E-Mail-Nachrichten beim Versand 
 Wenn Ihr Unternehmen über den Enterprise-Plan verfügt, können Sie auch zwei Workfront-auf die Zulassungsliste setzte konfigurieren:
 
 * **E-Mail-Zulassungsliste**: Hiermit können Sie steuern, wo Benutzer in Workfront gespeicherte E-Mail-Daten versenden können. Weitere Informationen finden Sie unter [Konfigurieren der E-Mail-Zulassungsliste](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP-Zulassungsliste**: Beschränkt den Zugriff auf Workfront auf 45 IP-Adressen oder IP-Adressbereiche, die Sie angeben, und bietet eine zusätzliche Sicherheitsschicht für die Workfront-Anwendung. Weitere Informationen finden Sie unter [Zugriff auf Adobe Workfront nach IP-Adresse einschränken](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **IP-Zulassungsliste**: Beschränkt den Zugriff auf Workfront auf 45 von Ihnen angegebene IP-Adressen oder IP-Adressbereiche und bietet eine zusätzliche Sicherheitsschicht für die Workfront-Anwendung. Weitere Informationen finden Sie unter [Zugriffsbeschränkung auf Adobe Workfront nach IP-Adresse](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Workfront-Cluster suchen
 
@@ -59,13 +59,13 @@ Die IP-Adressen, die Sie Ihrer Zulassungsliste in Ihrer Firewall hinzufügen mü
 
 So suchen Sie den Cluster Ihres Unternehmens:
 
-1. Als Workfront-Administrator klicken Sie auf das **Hauptmenü** icon ![Hauptmenü](assets/main-menu-icon.png)Klicken Sie auf **Einrichtung**.
-1. Klicken Sie im linken Navigationsbereich auf **System**, wählen Sie **Kundeninformationen**.
-1. Suchen Sie die **Cluster-Einrichtung** -Feld in der rechten oberen Ecke der Seite. Der Cluster Ihres Unternehmens ist hier aufgeführt.
+1. Als Workfront-Administrator klicken Sie auf das Symbol **Hauptmenü** ![Hauptmenü](assets/main-menu-icon.png) und dann auf **Setup**.
+1. Klicken Sie im linken Navigationsbereich auf **System** und wählen Sie dann **Kundeninformationen** aus.
+1. Suchen Sie das Feld **Cluster-Setup** in der rechten oberen Ecke der Seite. Der Cluster Ihres Unternehmens ist hier aufgeführt.
 
    CL01 bezieht sich auf Cluster 1, CL02 ist Cluster 2 usw.
 
-Weitere Informationen finden Sie im Abschnitt . [Cluster- und Workfront-Plan Ihres Unternehmens anzeigen](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Weitere Informationen finden Sie im Abschnitt [Cluster- und Workfront-Plan Ihrer Organisation anzeigen](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## IP-Adressen, die der Zulassungsliste hinzugefügt werden sollen
 
@@ -73,18 +73,18 @@ Weitere Informationen finden Sie im Abschnitt . [Cluster- und Workfront-Plan Ihr
 >
 >Einige Workfront-Integrationen funktionieren nicht, wenn die Zulassungsliste aktiviert ist, da sie nicht mit einer statischen IP-Adresse konfiguriert werden können. Um die folgenden Integrationen zu verwenden, müssen Sie die Zulassungsliste deaktivieren.
 >
->* Workfront für G Suite
+>* Workfront für Google Workspace
 >* Workfront für Outlook
 >* Workfront für Salesforce
 
-* [IP-Adressen, die die Cluster 1, 2, 3, 5, 7, 8 und 9 zulassen](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
+* [IP-Adressen für die Verwendung von Clustern 1, 2, 3, 5, 7, 8 und 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP-Adressen für Cluster 4](#ip-addresses-to-allow-for-cluster-4)
 * [IP-Adressen für Cluster 6](#ip-addresses-to-allow-for-cluster-6)
 * [IP-Adressen, um ein Testlaufwerk zu ermöglichen](#IP%20Addre2)
 * [IP-Adressen, die bei der Implementierung von Ereignisabonnements zulässig sind](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [IP-Adressen, um eine erweiterte Authentifizierung zu ermöglichen](#ip-addresses-to-allow-for-enhanced-authentication)
-* [IP-Adressen für den Zugriff auf Workfront Fusion hinzufügen](#ip-addresses-to-add-for-accessing-workfront-fusion)
-* [IP-Adressen, die zur Verwendung von Workfront für Jira hinzugefügt werden sollen](#ip-addresses-to-add-for-using-workfront-for-jira)
+* [IP-Adressen, die für den Zugriff auf Workfront Fusion hinzugefügt werden sollen](#ip-addresses-to-add-for-accessing-workfront-fusion)
+* [IP-Adressen, die für die Verwendung von Workfront für Jira hinzugefügt werden sollen](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [URLs, die für alle Cluster Workfront hinzugefügt werden sollen](#urls-to-add-for-all-clusters-workfront)
 
 ### IP-Adressen, die die Cluster 1, 2, 3, 5, 7, 8 und 9 zulassen {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -126,7 +126,7 @@ Wenn sich Ihre Produktionsumgebung auf Cluster 1, 2, 3, 5 oder 7 befindet, müss
      <li>52 14 70 114</li> 
      <li>52 15 230 220</li> 
      <li>54 71 252 65</li> 
-    </ul> <p>Weitere Informationen zu den folgenden IP-Adressen finden Sie unter <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Neue IP-Adressen für Adobe Workfront-E-Mails mit Version 21.1</a></p> 
+    </ul> <p>Weitere Informationen zu den folgenden IP-Adressen finden Sie unter <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Neue IP-Adressen für Adobe Workfront-E-Mails mit Version 21.1</a> .</p> 
     <ul> 
      <li>23 251 237 107</li> 
      <li>23 251 237 108</li> 
@@ -163,7 +163,7 @@ Wenn sich Ihre Produktionsumgebung auf Cluster 4 befindet, fügen Sie die folgen
 * 46.51.194.192/32
 * 54.229.129.66/32
 
-Weitere Informationen zu den folgenden IP-Adressen finden Sie unter [Neue IP-Adressen für Adobe Workfront-E-Mails mit Version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
+Weitere Informationen zu den folgenden IP-Adressen finden Sie unter [Neue IP-Adressen für Adobe Workfront-E-Mails mit Version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md) .
 
 * 23 251 239 98
 * 23 251 239 99
@@ -520,7 +520,7 @@ Wenn Ihr Unternehmen ausgehende Netzwerkfilter verwendet, fügen Sie Ihrer Zulas
 
 Sie müssen die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen, um verschiedene Funktionen nutzen zu können.
 
-* [Für Rückrufe und Weberfassungs-Testsendungen](#for-callbacks-and-webcapture-proofs)
+* [Für Rückrufe und WebCapture-Testsendungen](#for-callbacks-and-webcapture-proofs)
 * [Ausgehende E-Mail](#for-outgoing-email)
 
 ### Für Rückrufe und Weberfassungs-Testsendungen {#for-callbacks-and-webcapture-proofs}
@@ -573,7 +573,7 @@ Sie müssen die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen, um v
      <li>52 30 133 50</li> 
      <li>54 220 93 204</li> 
      <li>34 254 76 122</li> 
-    </ul> <p><b>NOTE</b>: DNS-Serveroptionen werden nicht mehr unterstützt.</p> </td> 
+    </ul> <p><b>HINWEIS</b>: DNS-Serveroptionen werden nicht mehr unterstützt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
