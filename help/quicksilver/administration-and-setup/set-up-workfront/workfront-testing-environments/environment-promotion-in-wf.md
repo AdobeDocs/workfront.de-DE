@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
+source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -30,9 +30,9 @@ Sie können diesen Vorgang in Workfront durchführen, indem Sie ein Objekt-Packa
    * [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Anweisungen zum Ausführen dieses Prozesses über die Workfront-API finden Sie unter [Objekte verschieben zwischen [!DNL Workfront] Umgebungen, die [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Anweisungen zum Ausführen dieses Vorgangs über die Workfront-API finden Sie unter [Objekte mithilfe der API [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md) zwischen [!DNL Workfront] Umgebungen verschieben.
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Unterstützte Objekte für die Umgebungsförderung
 
@@ -51,21 +51,21 @@ Da die Umgebungswerbung die Objektkonfiguration behandelt, sind Transaktionsobje
 
 | Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
 | --- | --- |
-| Projekt (PROJ) | Projekt<br>Aufgabe<br>Zuweisung<br>Vorgänger<br>Firma<br>Überschreibungsrate<br>Gruppe<br>Rolle<br>Team<br>Validierungsprozess<br>Validierungspfad<br>Validierungsschritt<br>Schritt-Genehmiger<br>Zeitplan<br>Nichtarbeitstag<br>Warteschlangendefinition<br>Themengruppe &quot;Warteschlange&quot;<br>Warteschlangenthema<br>Routing-Regel<br>Milestone-Pfad<br>Milestone<br>Stündentyp<br>Ressourcenpool<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
-| Vorlage (TMPL) | Vorlage<br>Vorlagenaufgabe<br>Vorlagenaufgaben zuweisen<br>VorlagenTask-Vorgänger<br>Firma<br>Überschreibungsrate<br>Gruppe<br>Rolle<br>Team<br>Validierungsprozess<br>Validierungspfad<br>Validierungsschritt<br>Schritt-Genehmiger<br>Zeitplan<br>Nichtarbeitstag<br>Warteschlangendefinition<br>Themengruppe &quot;Warteschlange&quot;<br>Warteschlangenthema<br>Routing-Regel<br>Milestone-Pfad<br>Milestone<br>Stündentyp<br>Ressourcenpool<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
+| Projekt (PROJ) | Projekt<br>Aufgabe<br>Zuweisung<br>Vorgänger<br>Firma<br>Überschreiben der Rate<br>Gruppe<br>Rolle<br>Team<br>Genehmigungsprozess<br>Genehmigungspfad<br>Genehmigungs-Schritt<br>Schritt-Genehmiger<br>Zeitplan<br>Nicht Arbeitstag<br>Warteschlangendefinition<br>Warteschlangenthementgruppe{1 6}Queue Topic<br>Routing Rule<br>Milestone Path<br>Milestone<br>Hour Type<br>Resource Pool<br>Category<br>Category Parameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik<br> |
+| Vorlage (TMPL) | Vorlage<br>Vorlagenaufgabe<br>Vorlagenaufgabe-Zuweisung<br>Vorlagenaufgaben-Vorgänger<br>Firma<br>Überschreibungsrate<br>Gruppe<br>Rolle<br>Team<br>Genehmigungsprozess<br>Genehmigungspfad<br>Genehmigungsschritt<br>Schritt-Genehmiger<br>Zeitplan<br>Nicht-Arbeitstag<br>Warteschlangendefinition<br>Warteschlange ic group<br>Queue topic<br>Routing rule<br>Milestone path<br>milestone<br>Hour Type<br>Resource Pool<br>Category<br>Category Parameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
 
 ### Reporting-Objekte
 
 | Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
 | --- | --- |
-| Layout Template (UITMPL) | Layout-Vorlage<br>Dashboard<br>Kalender<br>Kalenderabschnitt<br>Externe Seite<br>Bericht<br>Filter<br>Gruppierung<br>Ansicht<br>Parameter |
+| Layout Template (UITMPL) | Layout template<br>Dashboard<br>Calendar<br>Calendar section<br>External Page<br>report<br>filter<br>Grouping<br>view<br>parameter<br>group |
 | Dashboard (PTLTAB) | Dashboard<br>Kalender<br>Kalenderabschnitt<br>Externe Seite<br>Bericht<br>Filter<br>Gruppierung<br>Ansicht<br>Parameter |
-| Kalender (CALEND) | Kalender<br>Kalenderabschnitt |
+| Kalender (CALEND) | Calendar<br>Kalenderabschnitt |
 | Externe Seite (EXTSEC) | Externe Seite |
 | Bericht (PTLSEC) | Bericht<br>Filter<br>Gruppierung<br>Ansicht<br>Parameter |
 | Filter (UIFT) | Filter<br>Parameter |
-| Gruppierung (UIGB) | Gruppierung<br>Parameter |
-| Anzeigen (UIVW) | Ansicht<br>Parameter |
+| Gruppierung (UIGB) | Grouping<br>Parameter |
+| Anzeigen (UIVW) | Parameter anzeigen<br> |
 
 ### Benutzerdefinierte Datenobjekte
 
@@ -79,10 +79,10 @@ Da die Umgebungswerbung die Objektkonfiguration behandelt, sind Transaktionsobje
 
 | Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
 | --- | --- |
-| Gruppe (GRUPPE) | Gruppe <br>Untergruppen (bis zu 5 Stufen) *<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
+| Gruppe (GRUPPE) | Gruppe <br>Untergruppen (bis zu 5 Ebenen) *<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Logik der Kategorieanzeige |
 | Rolle (ROLE) | Funktion |
-| Team (TEAM) | Team<br>Gruppe |
-| Unternehmen (CMPY) | Firma<br>Überschreibungsrate<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameter <br>Kategorieanzeigelogik<br>Gruppe |
+| Team (TEAM) | Team<br>group |
+| Unternehmen (CMPY) | Unternehmen<br>Überschreibungsrate<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameter <br>Kategorieanzeigelogik<br>Gruppe |
 | Portfolio (HAFEN) | Portfolio<br>Programm<br>Gruppe<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
 | Programm (PRGM) | Programm<br>Portfolio<br>Gruppe<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
 
@@ -90,9 +90,9 @@ Da die Umgebungswerbung die Objektkonfiguration behandelt, sind Transaktionsobje
 
 | Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
 | --- | --- |
-| Genehmigungsverfahren (ARVVR) | Validierungsprozess<br>Validierungspfad<br>Validierungsschritt<br>Schritt-Genehmiger<br>Rolle<br>Team<br>Gruppe |
-| Zeitplan (SCHED) | Zeitplan<br>Nichtarbeitstag<br>Gruppe |
-| Meilensteinpfad (MPATH) | Milestone-Pfad<br>Milestone |
+| Genehmigungsverfahren (ARVVR) | Genehmigungsprozess<br>Genehmigungspfad<br>Genehmigungsschritt<br>Schritt-Genehmiger<br>Rolle<br>Team<br>Gruppe |
+| Zeitplan (SCHED) | Zeitplan<br>Nicht-Arbeitstag<br> Gruppe |
+| Meilensteinpfad (MPATH) | Milestone Path<br>Milestone |
 | Datenblatt-Profil (TSPRO) | Datenblatt-Profil<br>Stündentyp |
 | Stundentyp (STUNDE) | Stundentyp |
 | Ausgabentyp (EXPTYP) | Ausgabentyp |
@@ -142,15 +142,15 @@ Zu diesen Status gehören:
   </tr> 
   <tr> 
    <td>AKTIV</td> 
-   <td><p>Dieser Status ermöglicht die Installation eines Promotion-Pakets in einer beliebigen Umgebung, einschließlich der Produktion.</p><p>Wenn ein Paketstatus auf "ACTIVE"gesetzt ist, wird die <code>publishedAt</code> Datum wird automatisch auf den aktuellen Zeitstempel der Anforderung gesetzt.</p></td> 
+   <td><p>Dieser Status ermöglicht die Installation eines Promotion-Pakets in einer beliebigen Umgebung, einschließlich der Produktion.</p><p>Wenn ein Paketstatus auf AKTIV gesetzt ist, wird das Datum <code>publishedAt</code> automatisch auf den aktuellen Zeitstempel der Anfrage gesetzt.</p></td> 
   </tr> 
   <tr> 
    <td>DISABLED</td> 
-   <td><p>Dieser Status wird verwendet, um zuvor verwendete Promotionspakete auszublenden, die in Zukunft in keiner Umgebung installiert werden.</p><p>Wenn ein Paket diesen Status aufweist, kann es in keiner Umgebung installiert werden.</p><p>Wenn ein Paketstatus auf DEAKTIVIERT gesetzt ist, wird die <code>retiredAt</code> Datum wird automatisch auf den aktuellen Zeitstempel der Anforderung gesetzt.</p><p>Die Verwendung dieses Status wird empfohlen, da die <code>DELETE /package</code> -Endpunkt, da er abgerufen werden kann und der Installationsverlauf für alle mit diesem Paket durchgeführten Bereitstellungen beibehalten wird.</p></td> 
+   <td><p>Dieser Status wird verwendet, um zuvor verwendete Promotionspakete auszublenden, die in Zukunft in keiner Umgebung installiert werden.</p><p>Wenn ein Paket diesen Status aufweist, kann es in keiner Umgebung installiert werden.</p><p>Wenn ein Paketstatus auf DEAKTIVIERT gesetzt ist, wird das Datum <code>retiredAt</code> automatisch auf den aktuellen Zeitstempel der Anfrage gesetzt.</p><p>Die Verwendung dieses Status wird für die Verwendung des Endpunkts <code>DELETE /package</code> empfohlen, da dieser abgerufen werden kann und der Installationsverlauf für alle Implementierungen, die mit diesem Paket durchgeführt werden, beibehalten wird.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Wenn die ASSEMBLING-Phase fehlschlägt, wird das Promotionpaket automatisch in diesen Status versetzt.</p><p>Um das Package in die Phase der ASSEMBLING zurückzusetzen, müssen Sie den Assembling-Prozess erneut Trigger haben.</p><p>Weitere Informationen zum Zusammenstellen eines Pakets finden Sie im Abschnitt . <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenführen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
+   <td><p>Wenn die ASSEMBLING-Phase fehlschlägt, wird das Promotionpaket automatisch in diesen Status versetzt.</p><p>Um das Package in die Phase der ASSEMBLING zurückzusetzen, müssen Sie den Assembling-Prozess erneut Trigger haben.</p><p>Weitere Informationen zum Zusammenstellen eines Pakets finden Sie im Abschnitt <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenführen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
   </tr> 
   </tbody> 
 </table>
