@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 3b3dd815b5618853bdf8fc29304ed60d686195c3
+source-git-commit: d38dbad360db7317e05d4b9829c574596cca1c34
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,11 @@ Adobe Workfront Fusion verbindet Ihre Apps und Webdienste nahtlos miteinander, s
 Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Fusionsfreigaben 2024
+
+### Juli 2024
+
+* [Workfront Fusion-Release-Aktivität: Woche vom 8. Juli 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md)
+
 
 ### Juni 2024
 
@@ -56,7 +61,7 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 
 ## Fusionsfreigaben 2023
 
-+++**Zum Öffnen klicken**
++++**Klicken zum Öffnen**
 
 ### November 2023
 
@@ -105,7 +110,7 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 
 ## Fusionsfreigaben 2022
 
-+++**Zum Öffnen klicken**
++++**Klicken zum Öffnen**
 
 ### Dezember 2022
 
@@ -167,7 +172,7 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 
 ## Fusionsfreigaben 2021
 
-+++**Zum Öffnen klicken**
++++**Klicken zum Öffnen**
 
 ### November 2021
 
@@ -231,7 +236,7 @@ Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfr
 
 ## Fusionsfreigaben 2020
 
-+++**Zum Öffnen klicken**
++++**Klicken zum Öffnen**
 
 ### Dezember 2020
 
