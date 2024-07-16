@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 Auf dieser Seite werden Verbesserungen beschrieben, die mit der Version 2024 des dritten Quartals in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Versionsübersicht des dritten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Backend-Änderung an produktinternen Handbüchern
+
+>[!NOTE]
+>
+>Produktion für alle Kunden: schrittweise bis Mitte August 2024
+
+In den nächsten Wochen führen wir für unsere produktinternen Leitfäden eine Technologieänderung durch. Während wir versucht haben, die Auswirkungen dieser Transition zu minimieren, können einige Benutzer auf Leitfäden stoßen, die sie zuvor gesehen haben.
 
 ## Adobe Unified Experience ist jetzt für mehr Workfront-Organisationen verfügbar
 
@@ -37,9 +45,9 @@ Wenn Ihr Unternehmen mit Version 24.7 auf das Adobe Unified Experience umstellt,
 
 Zuvor war das Adobe Unified Experience nur für neue Workfront-Kunden verfügbar.
 
-Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## Schaltfläche &quot;Hilfe&quot;aus der Hauptnavigationsleiste entfernt
 
@@ -55,4 +63,4 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt hat, wird ihm überall dort &quo
 
 Teams und Benutzer sind von dieser Änderung nicht betroffen. Benutzer können weiterhin Team- und Benutzernamen anzeigen.
 
-Weitere Informationen finden Sie im Abschnitt . [Eingeschränkter Zugriff auf Objekte](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) im [!DNL Adobe Workfront] Objekte - Überblick .
+Weitere Informationen finden Sie im Abschnitt [Eingeschränkter Zugriff auf Objekte](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) im Artikel [!DNL Adobe Workfront] Objektübersicht .
