@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: Projekte nach dem Eingangsdatum"
+title: "Gruppierung: Projekte nach Datum der Einreichung"
 description: Bei dieser benutzerdefinierten Projektgruppierung können Sie Projekte anzeigen, die nach ihren Datumswerten für die Einsendung gruppiert sind.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 0%
+source-wordcount: '253'
+ht-degree: 1%
 
 ---
 
-# Gruppierung: Projekte nach dem Datum der Einsendung
+# Gruppierung: Projekte nach Datum der Einsendung
 
 Bei dieser benutzerdefinierten Projektgruppierung können Sie Projekte anzeigen, die nach ihren Datumswerten für die Einsendung gruppiert sind.
 
@@ -34,7 +34,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -49,7 +49,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,12 +61,12 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So wenden Sie diese Gruppierung an:
 
 1. Wechseln Sie zu einem vorhandenen Projektbericht oder erstellen Sie einen neuen Projektbericht.\
-   Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Aus dem **Gruppierung** Registerkarte, klicken Sie auf **Gruppierung hinzufügen**.
+1. Klicken Sie auf der Registerkarte **Gruppierung** auf **Gruppierung hinzufügen**.
 
-1. Klicken **In den Textmodus wechseln**.
-1. Entfernen Sie den Text im **Gruppieren Ihres Berichts** Bereich.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Entfernen Sie den Text im Bereich **Gruppieren Sie Ihren Bericht** .
 1. Ersetzen Sie den Text durch den folgenden Code:
 
    ```
@@ -89,4 +89,4 @@ So wenden Sie diese Gruppierung an:
    textmode=true
    ```
 
-1. Klicken **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.

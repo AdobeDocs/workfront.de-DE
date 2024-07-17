@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Testversand - Übersicht](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+* [Testversandübersicht](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
 * [Testsendungen erstellen](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
 * [Verwalten von Testsendungen in Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
 * [Überprüfen von Testsendungen in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)

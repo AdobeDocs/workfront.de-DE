@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Mithilfe automatisierter Workflows können Sie eine Reihe sequenzieller oder paralleler Prüfungsschritte erstellen, Abhängigkeiten zwischen diesen Phasen festlegen und deren Sichtbarkeit auf bestimmte Benutzer beschränken. Wenn Ihr Überprüfungsprozess voneinander abhängig ist, verschieben die automatisierten Workflows Ihren Testversand automatisch durch die Phasen und benachrichtigen dabei die relevanten Validierer und Genehmiger. Informationen zum Einrichten eines automatisierten Workflows finden Sie unter [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-**Beispiele:**  Automatisierte Workflows helfen Ihnen bei der Verwaltung komplexer Testprozesse wie:
+**Beispiele:** Automatisierte Workflows helfen Ihnen bei der Verwaltung komplexer Testprozesse wie:
 
 * Wenn verschiedene Gruppen oder Validierer Inhalte in einer bestimmten Reihenfolge überprüfen müssen
 * Wenn es Abhängigkeiten zwischen der Aktivität von Benutzern beim Überprüfen von Inhalten gibt

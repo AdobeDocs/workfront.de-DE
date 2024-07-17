@@ -3,14 +3,14 @@ content-type: reference;how-to-procedural
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
-title: Spracheinstellungen in [!DNL Workfront Proof]
-description: Als [!DNL Workfront Proof] Administrator können Sie die Sprache auswählen, in der [!DNL Workfront Proof] für alle Benutzer in Ihrem Konto.
+title: Spracheinstellungen in  [!DNL Workfront Proof]
+description: Als [!DNL Workfront Proof] Administrator können Sie die Sprache auswählen, die in [!DNL Workfront Proof] für alle Benutzer in Ihrem Konto verwendet werden soll.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
 source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
-Als [!DNL Workfront Proof] Administrator können Sie die Sprache auswählen, in der [!DNL Workfront Proof] für alle Benutzer in Ihrem Konto.
+Als [!DNL Workfront Proof] -Administrator können Sie die Sprache auswählen, die in [!DNL Workfront Proof] für alle Benutzer in Ihrem Konto verwendet werden soll.
 
-## Unterstützte Sprachen in [!DNL Workfront Proof]
+## In [!DNL Workfront Proof] unterstützte Sprachen
 
 [!DNL Workfront Proof] ist in den folgenden Sprachen verfügbar:
 
@@ -38,27 +38,27 @@ Als [!DNL Workfront Proof] Administrator können Sie die Sprache auswählen, in 
 * Spanisch
 * schwedisch
 
-## Standardsprache ändern in [!UICONTROL Kontoeinstellungen]
+## Standardsprache in [!UICONTROL Kontoeinstellungen] ändern
 
 Gehen Sie wie folgt vor, um die Standardsprache Ihres Kontos zu ändern.
 
-1. Navigieren Sie zu **[!UICONTROL Details]** Registerkarte in **[!UICONTROL Kontoeinstellungen]** in [!DNL Workfront Proof].
+1. Wechseln Sie in den **[!UICONTROL Kontoeinstellungen]** in [!DNL Workfront Proof] zur Registerkarte **[!UICONTROL Details]** .
 
-1. In **[!UICONTROL Kontodetails]** Abschnitt, klicken Sie auf **[!UICONTROL Bearbeiten]** für **[!UICONTROL Standardsprache]** -Einstellungen.
+1. Klicken Sie im Abschnitt **[!UICONTROL Kontodetails]** auf **[!UICONTROL Bearbeiten]** für die Einstellungen für die **[!UICONTROL Standardsprache]**.
 
 1. Wählen Sie im Dropdown-Menü Ihre Standardsprache aus.\
    ![account_language_setting.png](assets/account-language-setting-350x230.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern].**
 
-## Ändern der Standardsprache in [!UICONTROL Persönliche Einstellungen]
+## Ändern der Standardsprache in den [!UICONTROL persönlichen Einstellungen]
 
-Individuum [!DNL Workfront Proof] Benutzer können eine andere Sprache als die Standardsprache in ihrem Konto angeben. Gehen Sie wie folgt vor, um Ihre persönliche Standardsprache zu ändern.
+Einzelne [!DNL Workfront Proof] Benutzer können eine Sprache angeben, die von der in ihrem Konto standardmäßig verwendeten Sprache abweicht. Gehen Sie wie folgt vor, um Ihre persönliche Standardsprache zu ändern.
 
-1. Navigieren Sie zu **[!UICONTROL Persönliche Daten]** in der **[!UICONTROL Persönliche Einstellungen]** in [!DNL Workfront Proof].\
-   Weitere Informationen finden Sie unter [Verwalten [!DNL Workfront Proof] Benutzer](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md).
+1. Navigieren Sie zur Registerkarte **[!UICONTROL Persönliche Details]** in Ihren **[!UICONTROL persönlichen Einstellungen]** in [!DNL Workfront Proof].\
+   Weitere Informationen finden Sie unter [Verwalten [!DNL Workfront Proof] von Benutzern](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md).
 
-1. Klicken Sie auf die Sprache, die im **[!UICONTROL Sprache]** -Einstellung.
+1. Klicken Sie auf die Sprache, die in der Einstellung **[!UICONTROL Sprache]** angezeigt wird.
 1. Wählen Sie im Dropdown-Menü Ihre bevorzugte Sprache aus. Ihre Auswahl wird automatisch gespeichert.\
    ![personal_language_setting.png](assets/personal-language-setting-350x197.png)
 
@@ -81,9 +81,9 @@ Sie können aus den folgenden Alphabeten wählen:
 
 Die Möglichkeit, die Sprache im Testversand-Viewer anzupassen, hängt davon ab, ob die Person, die auf einen Testversand zugreift, ein Benutzer oder ein Gast ist.
 
-Für [!DNL Workfront Proof] Benutzer, zeigt der Proof-Viewer Inhalte in der Standardsprache an, die in ihren [!UICONTROL Persönliche Einstellungen].
+Für Benutzer vom Typ [!DNL Workfront Proof] zeigt der Testversand-Viewer Inhalte in der Standardsprache an, die in ihren [!UICONTROL persönlichen Einstellungen] festgelegt ist.
 
-Für Gäste zeigt der Testversand-Viewer Inhalte in der Sprache an, die der Testversand-Besitzer in der [!UICONTROL Persönliche Einstellungen].
+Für Gäste zeigt der Testversand-Viewer Inhalte in der Sprache an, die der Besitzer des Testversands in den [!UICONTROL persönlichen Einstellungen] festgelegt hat.
 
 >[!NOTE]
 >

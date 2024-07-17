@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 
-Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Kalender mit einem privaten Link freigeben
 
@@ -26,7 +26,7 @@ Um die Freigabe von Kalendern in Workfront zu erleichtern, können Sie einen pri
 
 Zuvor konnten Sie eine öffentliche URL freigeben, für die keine Anmeldung erforderlich war.
 
-Weitere Informationen finden Sie unter [Kalenderberichte freigeben](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+Weitere Informationen finden Sie unter [Kalenderbericht freigeben](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 ## Neuer Entwurfsbereich beim Erstellen von Anforderungen
 
@@ -60,7 +60,7 @@ Um Ihnen mehr Kontrolle darüber zu geben, wie Objekte in Kalenderberichten ange
 
 Zuvor verwendete der Kalender automatisch die tatsächlichen Daten, sobald sie verfügbar waren.
 
-Weitere Informationen finden Sie unter [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über Kalenderberichte](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ## Verwenden benutzerdefinierter Datumsfelder in Kalenderberichten
 
@@ -76,13 +76,13 @@ Weitere Informationen finden Sie unter [Verwenden benutzerdefinierter Datumsfeld
 
 ## E-Mail-Änderungen
 
-**Ausgehende E-Mail-Änderungen:** Alle E-Mails von Workfront werden von notifications@my.workfront.com stammen. Dies umfasst automatisierte Warnungen und die Kommunikation zwischen Benutzern und Benutzern.
+**Ausgehende E-Mail-Änderungen:** Alle E-Mails von Workfront stammen von notifications@my.workfront.com. Dies umfasst automatisierte Warnungen und die Kommunikation zwischen Benutzern und Benutzern.
 
 Zuvor konnten Systemadministratoren im Bereich E-Mail-Einrichtung eine benutzerdefinierte E-Mail-Adresse hinzufügen.
 
-**Änderungen an der POP-Antwort der eingehenden E-Mail:** Systemadministratoren können keinen benutzerdefinierten POP-E-Mail-Server mehr für eingehende E-Mail-Antworten auf Benachrichtigungen konfigurieren.
+**Änderungen der POP-Antworten für eingehende E-Mails:** Systemadministratoren haben nicht mehr die Möglichkeit, einen benutzerdefinierten POP-E-Mail-Server für eingehende E-Mail-Antworten auf Benachrichtigungen zu konfigurieren.
 
-Weitere Informationen finden Sie unter [E-Mail-Spoofing- und POP-Antwort-E-Mail-Änderungen](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+Weitere Informationen finden Sie unter [E-Mail-Spoofing und Änderungen an POP-Antwort-E-Mails](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
 
 ## DomainKeys Identified Mail (DKIM) ist jetzt in ausgehenden Workfront-E-Mails enthalten
 
@@ -107,7 +107,7 @@ Es gibt jetzt auch einen Link Benutzerdetails , der die folgenden Benutzerinform
 
 Jetzt können Sie eine Layout-Vorlage verwenden, um die Logos im oberen Navigationsbereich und im Hauptmenü für bestimmte Gruppen, Teams, Jobrollen und Benutzer mit ihrem eigenen Branding zu ändern.
 
-Weitere Informationen finden Sie unter [Markieren Sie Ihre Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Weitere Informationen finden Sie unter [Markieren Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Gruppenadministratoren können Genehmigungsprozesse erstellen und verwalten
 
@@ -129,7 +129,7 @@ Hier sind die wichtigsten Highlights:
 * Liste der Untergruppen: Zeigen Sie die Untergruppen in einer von Ihnen verwalteten Gruppe an, bearbeiten Sie sie, kopieren, exportieren und löschen Sie sie.
 * Statusliste: Zeigen Sie die Status Ihrer Gruppe an und verwalten Sie sie.
 
-Weitere Informationen finden Sie unter [Gruppe erstellen](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Weitere Informationen finden Sie unter [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ## Neu für Administratoren: Erstellen Sie bis zu 14 Ebenen von Untergruppen
 
@@ -164,10 +164,10 @@ Informationen zum Bereich &quot;Kundeninformationen&quot;finden Sie unter [Grund
 
 Das Feld base64Encoding ist ein optionales Feld, das verwendet wird, um die Base64-Kodierung von Payloads für Ereignisabonnements zu aktivieren. Wenn eine Anfrage mit dem base64Encoding -Feld auf true gestellt wird, werden die Objekte newState und oldState in der Payload als Base64-Kodierungszeichenfolgen bereitgestellt. Diese Funktion kann nützlich sein, wenn Ihr Netzwerk so konfiguriert ist, dass Sonderzeichen in Ereignisanmeldungen nicht zulässig sind.
 
-Weitere Informationen finden Sie unter [Ereignisabonnement-API](../../../wf-api/general/event-subs-api.md).
+Weitere Informationen finden Sie unter [Ereignis-Abonnement-API](../../../wf-api/general/event-subs-api.md).
 
 ## Die Möglichkeit zur Erstellung doppelter Ereignisanmeldungen wurde entfernt
 
 Um den Versand doppelter Nachrichten zu verhindern, können Sie keine doppelten Abonnements mehr erstellen. Darüber hinaus wurden alle zuvor erstellten doppelten Abonnements entfernt.
 
-Weitere Informationen finden Sie unter [Häufig gestellte Fragen - Ereignisabos](../../../wf-api/general/event-subs-faq.md).
+Weitere Informationen finden Sie unter [FAQs - Ereignis-Abonnements](../../../wf-api/general/event-subs-faq.md).

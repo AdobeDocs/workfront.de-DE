@@ -8,8 +8,8 @@ feature: Product Announcements
 exl-id: 77d43206-1db7-4075-a063-043f8c9f75ed
 source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 4%
+source-wordcount: '317'
+ht-degree: 0%
 
 ---
 
@@ -21,29 +21,29 @@ Im Rahmen dieser Änderung müssen Sie die folgenden IPs zu Ihren Zulassungslist
 
 Für SSO und POP:
 
-* 34.215.145.168
-* 54.69.155.48
-* 35.160.44.226
-* 34.213.96.218
-* 3.16.210.22
-* 3.16.229.153
-* 18.224.117.99
-* 3.18.123.153
-* 3.211.159.196
-* 3.85.255.45
-* 3.210.78.197
-* 3.211.23.183
+* 34 215 145 168
+* 54 69 155 48
+* 35 160 44 226
+* 34 213 96 218
+* 3 16 210 22
+* 3 16 229 153
+* 18 224 117 99
+* 3 18 123 153
+* 3 211 159 196
+* 3 85 255 45
+* 3 210 78 197
+* 3 211 23 183
 
 E-Mail:
 
-* 54.240.60.174
-* 54.240.60.175
+* 54 240 60 174
+* 54 240 60 175
 
-Stellen Sie sicher, dass die IP-Blöcke Ihrer Zulassungsliste bis zum 13. Mai 2019 aktualisiert sind. Weitere Informationen finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Stellen Sie sicher, dass die IP-Blöcke Ihrer Zulassungsliste bis zum 13. Mai 2019 aktualisiert sind. Weitere Informationen finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall-](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 Vielen Dank für Ihre kontinuierliche Unterstützung von Workfront, da wir daran arbeiten, unseren Kunden ein zuverlässigeres und robusteres Erlebnis zu bieten.
 
-Wenn Sie weitere Fragen haben, wenden Sie sich bitte an unser Support-Team, indem Sie experience.workfront.com besuchen oder unter +44.306.4357 (US) oder +44.1256.274200 (EMEA) an unser Supportteam.
+Wenn Sie weitere Fragen haben, wenden Sie sich bitte an unser Support-Team unter experience.workfront.com oder unter der Telefonnummer +44.306.4357 (US) oder +44.1256.274200 (EMEA).
 
 ## FAQs
 

@@ -21,13 +21,13 @@ ht-degree: 0%
 
 Dieser Index enthält Links zu den folgenden Artikeln:
 
-* [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-* [Aktualisierung des Zeitdauer-Typs einer Aufgabe](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
-* [Übersicht über den Dauer-Typ: Berechnete Zuweisung](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
+* [Überblick über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+* [Aktualisierungsdauer einer Aufgabe ](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
+* [Durationstyp - Übersicht: Berechnete Zuweisung](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
 * [Übersicht über den Durationstyp: Aufwandsorientiert](../../../manage-work/tasks/taskdurtn/effort-driven.md)
 * [Übersicht über den Dauer-Typ: Berechnete Arbeit](../../../manage-work/tasks/taskdurtn/calculated-work.md)
-* [Übersicht über den Dauer-Typ: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
-* [Aktualisieren der geplanten Stunden und Dauer einer Aufgabe mit dem einfachen Typ Dauer](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
+* [Übersicht über den Durationstyp: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
+* [Aktualisieren der geplanten Stunden und Dauer einer Aufgabe mit einem einfachen Dauer-Typ](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
 * [Arten von Dauer in Adobe Workfront- und Microsoft-Projekten](../../../manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
 
 

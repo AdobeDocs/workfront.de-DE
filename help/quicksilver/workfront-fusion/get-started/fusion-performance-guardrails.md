@@ -15,13 +15,13 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] Performance-Limits
+# [!DNL Adobe Workfront Fusion] Leistungsgarantien
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einem [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion] -Lizenz.
 
-Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung. [!DNL Adobe Workfront Fusion] ist für hohe Leistung ausgelegt. Da langwierige Szenarien das Tempo Ihrer Arbeit verlangsamen können, haben wir [!DNL Workfront Fusion] mit leistungserhaltenden Limits, die die Ausführungszeit, Datengröße und andere Szenario-Parameter begrenzen. [!DNL Workfront Fusion] -Designer sollten sich dieser Limits bewusst sein und sie in ihre Designpraktiken integrieren.
+Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung, daher ist [!DNL Adobe Workfront Fusion] für hohe Leistung ausgelegt. Da langwierige Szenarien das Tempo Ihrer Arbeit verlangsamen können, haben wir [!DNL Workfront Fusion] mit leistungserhaltenden Limits entwickelt, die die Ausführungszeit, Datengröße und andere Szenario-Parameter begrenzen. [!DNL Workfront Fusion] -Designer sollten sich dieser Limits bewusst sein und sie in ihre Designpraktiken integrieren.
 
 ## Browser
 
@@ -29,19 +29,19 @@ Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung. [!DNL Adobe Wor
 
 ## Szenarios
 
-* Der standardmäßige Ausführungstimeout des Szenarios lautet **40 Minuten**. Wenn die Ausführung diesen Timeout erreicht, [!DNL Workfront Fusion] unterbricht die Ausführung des Szenarios nach dem nächsten Zyklus oder Vorgang, je nach Szenario. Dadurch wird das Szenario kurz nach Erreichen der 40-Minuten-Grenze angehalten
-* Die maximale Größe eines Szenario-Blueprints beträgt **5 MB** Wir empfehlen jedoch, die Szenario-Größe unter **3 MB**.
+* Der standardmäßige Ausführungstimeout des Szenarios ist **40 Minuten**. Wenn die Ausführung diesen Timeout erreicht, unterbricht [!DNL Workfront Fusion] die Ausführung des Szenarios nach dem nächsten Zyklus oder Vorgang, je nach Szenario. Dadurch wird das Szenario kurz nach Erreichen der 40-Minuten-Grenze angehalten
+* Die maximale Größe eines Szenario-Blueprints beträgt **5 MB**, wir empfehlen jedoch, die Szenariogröße unter **3 MB** zu belassen.
 
   App-Module, die Daten mit einer großen Anzahl von Feldern erstellen oder aktualisieren, können zu sehr großen Blueprints führen.
 
-   * Bei Verwendung von [!DNL Workfront] nur die Felder auswählen, die für Ihre Anwendungsfälle zum Erstellen oder Aktualisieren benötigt werden.
+   * Stellen Sie bei Verwendung der [!DNL Workfront] -App sicher, dass Sie nur die Felder auswählen, die für Ihre Anwendungsfälle zum Erstellen oder Aktualisieren erforderlich sind.
    * Verwenden Sie bei Verwendung anderer Apps benutzerdefinierte API-Module, um mit jedem Datensatztyp zu interagieren, der über eine große Anzahl von Feldern verfügt.
 
-* Es gibt zwar keine Obergrenze für die Anzahl der Module in einem Szenario, Szenarien mit mehr als 150 Modulen wirken sich jedoch negativ auf die Leistung Ihrer [!DNL Workfront Fusion] System. Aus diesem Grund empfehlen wir nicht, Szenarien mit über 150 Modulen zu erstellen.
+* Es gibt zwar keine Obergrenze für die Anzahl der Module in einem Szenario, Szenarien mit mehr als 150 Modulen wirken sich jedoch negativ auf die Leistung Ihres [!DNL Workfront Fusion]-Systems aus. Aus diesem Grund empfehlen wir nicht, Szenarien mit über 150 Modulen zu erstellen.
 
 ## Vorgänge
 
-* Die standardmäßige Zeitüberschreitung bei Vorgängen ist normalerweise **40 Sekunden**.
+* Der Standardwert für das Zeitlimit für den Vorgang ist normalerweise **40 Sekunden**.
 
 <!--
 * The operation timeout for calls to Adobe Workfront is **120 seconds**.
@@ -49,19 +49,19 @@ Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung. [!DNL Adobe Wor
 
 ## Dateien
 
-* Die Gesamtverarbeitungskapazität der Fusion für Dateien beträgt **1 GB**. Die Begrenzung basiert auf den Gesamtspeicherkosten. Jeder Vorgang trägt zu diesen Kosten bei. Wenn eine einzelne Datei von 400 MB heruntergeladen und hochgeladen wird, belaufen sich die Gesamtkosten für die Dateikapazität auf 800 MB.
+* Die Gesamtverarbeitungskapazität von Fusion für Dateien beträgt **1 GB**. Die Begrenzung basiert auf den Gesamtspeicherkosten. Jeder Vorgang trägt zu diesen Kosten bei. Wenn eine einzelne Datei von 400 MB heruntergeladen und hochgeladen wird, belaufen sich die Gesamtkosten für die Dateikapazität auf 800 MB.
 
 ## Speichernutzung des Servers
 
-* Die Speichernutzung des Servers für eine einzelne Ausführung ist auf **1 GB**.
+* Die Speicherauslastung des Servers für eine einzelne Ausführung ist auf **1 GB** beschränkt.
 
   Viele Faktoren, wie große Dateien oder komplexe Module, können die Speichernutzung von Servern auf eine Weise beeinflussen, die schwer vorherzusagen oder zu steuern ist. Aus diesem Grund kann die Ausführung Ihres Szenarios die Speichergrenze von 1 GB überschreiten, selbst wenn das Szenario alle anderen Leistungsgarantien erfüllt. Wenn Sie die Speicherbegrenzung überschreiten, schlägt die Ausführung fehl.
 
 ## Webhooks
 
 * Die standardmäßige Maximalgröße einer Payload beträgt **5 MB**.
-* Webhooks sind auf **100 Anfragen pro Sekunde**. Wenn diese Grenze erreicht ist, sendet Workfront Fusion einen 429 ([!UICONTROL Zu viele Anforderungen]).
-* [!DNL Workfront Fusion] speichert Webhook-Payloads für 30 Tage. Wenn Sie mehr als 30 Tage nach dem Erhalt auf eine Webhook-Payload zugreifen, tritt der Fehler auf &quot;[!UICONTROL Datei konnte nicht aus Speicher gelesen werden.]&quot;
+* Webhooks sind auf **100 Anforderungen pro Sekunde** beschränkt. Wenn diese Grenze erreicht ist, sendet Workfront Fusion den Status 429 ([!UICONTROL Zu viele Anforderungen]).
+* [!DNL Workfront Fusion] speichert Webhook-Payloads für 30 Tage. Wenn Sie mehr als 30 Tage nach dem Erhalt auf eine Webhook-Payload zugreifen, wird der Fehler &quot;[!UICONTROL Datei konnte nicht aus dem Speicher gelesen werden.]&quot; angezeigt.
 * Webhooks werden automatisch deaktiviert, wenn eine der folgenden Aktionen zutrifft:
 
    * Der Webhook ist seit mehr als 5 Tagen mit keinem Szenario verbunden
@@ -71,11 +71,11 @@ Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung. [!DNL Adobe Wor
 
 ## Ausführungsverlauf
 
-* Die Protokolle im Ausführungsverlauf sind auf eine Größe von **100 MB**. Wenn der Ausführungsverlauf diese Größe überschreitet, werden nur die ersten 100 MB angezeigt.
+* Die Ausführungsverlauflogs sind auf eine Größe von **100 MB** beschränkt. Wenn der Ausführungsverlauf diese Größe überschreitet, werden nur die ersten 100 MB angezeigt.
 
 ## Unvollständige Ausführungen
 
-* Unvollständige Ausführungen sind auf die Gesamtgröße von **500 MB**. Bei Erreichen der Grenze von 500 MB werden keine unvollständigen Ausführungen mehr gespeichert.
+* Unvollständige Ausführungen sind auf eine Gesamtgröße von **500 MB** beschränkt. Bei Erreichen der Grenze von 500 MB werden keine unvollständigen Ausführungen mehr gespeichert.
 
 ## Weitere Zustellversuche
 

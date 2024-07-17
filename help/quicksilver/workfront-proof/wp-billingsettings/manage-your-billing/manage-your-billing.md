@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: billing-settings
 title: Rechnungsstellung verwalten
-description: Erfahren Sie mehr über die Rechnungsverwaltung in Workfront Testversand.
+description: Erfahren Sie mehr über die Rechnungsverwaltung in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Die [!DNL Workfront Proof] Rechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+* [Die Seite [!DNL Workfront Proof] Rechnungsstellung](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
 * [Auswählen Ihrer Zahlungsmethode in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
 * [Herunterladen Ihrer [!DNL Workfront Proof] Rechnung](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-* [Schließen Sie Ihre [!DNL Workfront Proof] account](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+* [Ihr [!DNL Workfront Proof] Konto schließen](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)

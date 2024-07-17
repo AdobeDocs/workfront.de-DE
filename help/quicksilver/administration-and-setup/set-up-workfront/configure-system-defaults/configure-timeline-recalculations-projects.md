@@ -10,7 +10,7 @@ role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
 source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Durch die Neuberechnung der Zeitpläne können Manager sehen, wie Kräfte außer
 
 Als [!DNL Adobe Workfront] -Administrator können Sie Zeitpläne für alle Projekte im System manuell neu berechnen. Projekteigentümer können Zeitpläne für einzelne Projekte auch manuell neu berechnen. Weitere Informationen finden Sie unter [Projektzeitpläne neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-In diesem Artikel wird beschrieben, wie Sie [!DNL Workfront] -Administrator kann bestimmen, wie und wann [!DNL Workfront] berechnet automatisch die Projektzeitpläne, indem Sie die Projektvoreinstellungen im Abschnitt [!UICONTROL Einrichtung] Bereich.
+In diesem Artikel wird beschrieben, wie Sie als [!DNL Workfront] -Administrator feststellen können, wie und wann [!DNL Workfront] Projektzeitpläne automatisch berechnet, indem Sie die Projekteinstellungen im Bereich [!UICONTROL Einrichtung] konfigurieren.
 
 ## Zugriffsanforderungen
 
@@ -33,7 +33,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -41,34 +41,34 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriffsstufe des Systemadministrators</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriffsstufe des Systemadministrators</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Automatische Neuberechnungen konfigurieren
 
-Als [!DNL Adobe Workfront] Administrator können Sie konfigurieren, wann [!DNL Workfront] berechnet automatisch die Projektzeitpläne neu. [!DNL Workfront] kann die Projektzeitpläne entweder jede Nacht neu berechnen, den Projektumfang ändern oder beides.
+Als [!DNL Adobe Workfront] -Administrator können Sie konfigurieren, wann [!DNL Workfront] die Projektzeitpläne automatisch neu berechnet. [!DNL Workfront] kann die Projektzeitpläne entweder jede Nacht neu berechnen, wenn sich der Projektumfang ändert oder beides.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder [!UICONTROL **Hauptmenü**] icon ![](assets/lines-main-menu.png) in der linken oberen Ecke von [!DNL Workfront], falls verfügbar, klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts oder, falls verfügbar, auf das Symbol [!UICONTROL **Hauptmenü**] ![](assets/lines-main-menu.png) in der oberen linken Ecke von [!DNL Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **[!UICONTROL Projektvoreinstellungen]** > **[!UICONTROL Projekte].**
+1. Klicken Sie auf **[!UICONTROL Projekteinstellungen]** > **[!UICONTROL Projekte].**
 
-1. Im **[!UICONTROL Zeitpläne]** -Abschnitt, aktivieren oder deaktivieren Sie eine oder beide der unten stehenden Einstellungen. Standardmäßig sind beide Einstellungen aktiviert.
+1. Aktivieren oder deaktivieren Sie im Abschnitt **[!UICONTROL Zeitleisten]** eine oder beide der unten stehenden Einstellungen. Standardmäßig sind beide Einstellungen aktiviert.
 
-   * **Jede Nacht:** [!DNL Workfront&#x200B;&#x200B;&#x200B;] berechnet die Zeitpläne nur bei Projekten mit dem Status [!UICONTROL Aktuell] und die in den letzten drei Monaten aktualisiert wurden. Abhängig von der Systemlast und anderen Faktoren kann die Neuberechnungszeit um mehr als 24 Stunden verzögert sein.
+   * **Jede Nacht:** [!DNL Workfront&#x200B;&#x200B;&#x200B;] berechnet die Zeitpläne einmal alle 24 Stunden nachts neu, nur für Projekte mit dem Status [!UICONTROL Aktuell] und die in den letzten drei Monaten aktualisiert wurden. Abhängig von der Systemlast und anderen Faktoren kann die Neuberechnungszeit um mehr als 24 Stunden verzögert sein.
 
-     In diesem Fall [!DNL Workfront] berechnet die Zeitleiste für alle Projekte mit [!UICONTROL Aktualisierungstyp] von [!UICONTROL Automatisch] oder [!UICONTROL Automatisch und Bei Änderung].
+     In diesem Fall berechnet [!DNL Workfront] die Timeline für alle Projekte neu, deren [!UICONTROL Aktualisierungstyp] den Wert [!UICONTROL Automatisch] oder [!UICONTROL Automatisch und Bei Änderung] aufweist.
 
-   * **Wenn sich der Umfang eines Projekts ändert**: Weitere Informationen zu einer Änderung des Projektumfangs finden Sie unter [Projektzeitpläne neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+   * **Wenn sich der Umfang eines Projekts ändert**: Informationen dazu, was eine Änderung des Projektumfangs darstellt, finden Sie unter [Projektzeitpläne neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-     In diesem Fall [!DNL Workfront] berechnet die Timeline für alle Projekte mit dem Aktualisierungstyp neu [!UICONTROL Automatisch und Bei Änderung] oder [!UICONTROL Nur bei Änderung].
-Weitere Informationen zu den Aktualisierungstypen für Projekte finden Sie unter [Übersicht über den Projektaktualisierungstyp](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+     In diesem Fall berechnet [!DNL Workfront] die Timeline für alle Projekte mit dem Aktualisierungstyp [!UICONTROL Automatisch und Bei Änderung] oder [!UICONTROL Nur bei Änderung] neu.
+Informationen zu den Aktualisierungstypen für Projekte finden Sie unter [Übersicht über den Aktualisierungstyp für Projekte](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Die Timeline aller Projekte im System wird automatisch basierend auf dem Aktualisierungstyp jedes Projekts neu berechnet.
 
-## Neuberechnung der Zeitpläne für das gesamte [!DNL Workfront] instance
+## Neuberechnen von Zeitleisten für die gesamte [!DNL Workfront]-Instanz
 
-Sie können die [!UICONTROL Timeline neu berechnen] Diagnose, um alle Zeitleisten im [!DNL Workfront] System. Dadurch können alle Projektmanager den Einfluss externer Änderungen sofort an geplanten und geplanten Terminen erkennen. Weitere Informationen finden Sie unter [Verwenden der Diagnose für den Trigger automatisierter Prozesse](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+Sie können die Diagnose [!UICONTROL Timeline neu berechnen] ausführen, um alle Timelines im System [!DNL Workfront] manuell neu zu berechnen. Dadurch können alle Projektmanager den Einfluss externer Änderungen sofort an geplanten und geplanten Terminen erkennen. Weitere Informationen finden Sie unter [Verwenden der Diagnose für den Trigger automatisierter Prozesse](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).

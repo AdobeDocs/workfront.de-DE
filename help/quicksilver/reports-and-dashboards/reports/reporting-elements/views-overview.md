@@ -18,17 +18,17 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-Sie können die Art der Informationen, die in einer Liste oder einem Bericht angezeigt werden, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und deren Attribute in einer Ansicht anzeigen. Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront verstehen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Sie können die Art der Informationen, die in einer Liste oder einem Bericht angezeigt werden, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und deren Attribute in einer Ansicht anzeigen. Weitere Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront verstehen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Überlegungen zu Ansichten
 
 * Sie können vorhandene Ansichten anpassen. Alle Benutzer, die die Ansichten anzeigen können, können Ihre Änderungen ebenfalls sehen.
 * Ihr Adobe Workfront-Administrator muss Ihnen Zugriff auf die Bearbeitung von Filtern, Ansichten und Gruppierungen gewähren, damit Sie Ansichten erstellen können.
 
-  Informationen zur Gewährung des Zugriffs finden Sie unter [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Informationen zur Gewährung des Zugriffs finden Sie unter [Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Ihre Berechtigungen für eine Ansicht bestimmen, wie eine Ansicht gespeichert wird. Wenn Sie die Ansicht ursprünglich erstellt haben, können Sie die Änderungen speichern. Andernfalls werden Sie aufgefordert, eine Version der Ansicht zu speichern. Wenn Sie Änderungen an einer Ansicht vornehmen, die Sie für andere freigegeben haben, wirkt sich dies auch auf diese aus.
-* Sie können eine Ansicht anpassen, die nur für Sie freigegeben wurde, wenn der Benutzer, der sie freigegeben hat, Ihnen Zugriff auf Verwalten gewährt hat. Informationen zum Freigeben einer Ansicht finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Sie können eine Ansicht anpassen, die nur für Sie freigegeben wurde, wenn der Benutzer, der sie freigegeben hat, Ihnen Zugriff auf Verwalten gewährt hat. Informationen zum Freigeben einer Ansicht finden Sie unter [Freigeben eines Filters, einer Ansicht oder einer Gruppierung](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 Sie können vorhandene Ansichten anpassen, Ansichten basierend auf vorhandenen Ansichten erstellen oder Ansichten von Grund auf neu erstellen.
 
@@ -55,7 +55,7 @@ Im Folgenden finden Sie Arten von Ansichten, die Sie in Listen oder Berichten in
 
 ## Anzeigen freigeben
 
-Informationen zum Freigeben einer Ansicht finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Informationen zum Freigeben einer Ansicht finden Sie unter [Freigeben eines Filters, einer Ansicht oder einer Gruppierung](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Entfernen einer Ansicht
 

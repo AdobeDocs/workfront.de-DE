@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Aktualisieren oder Bearbeiten eines Arbeitselements im Startbereich
-description: Sie können Aktualisierungen eines Arbeitselements innerhalb der [!UICONTROL Startseite] in Adobe Workfront. Sie können auch andere Daten im Zusammenhang mit dem Arbeitselement bearbeiten, wenn Sie Zugriff darauf haben.
+description: Sie können ein Arbeitselement im Bereich [!UICONTROL Startseite] in Adobe Workfront anzeigen und ihm Aktualisierungen hinzufügen. Sie können auch andere Daten im Zusammenhang mit dem Arbeitselement bearbeiten, wenn Sie Zugriff darauf haben.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Aktualisieren oder bearbeiten Sie ein Arbeitselement im [!UICONTROL Startseite] area
+# Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich [!UICONTROL Home]
 
 <!--Audited: April 2024-->
 
-Sie können Aktualisierungen eines Arbeitselements innerhalb der [!UICONTROL Startseite] Gebiet in [!DNL Adobe Workfront]. Sie können auch andere Daten im Zusammenhang mit dem Arbeitselement bearbeiten, wenn Sie Zugriff darauf haben.
+Sie können ein Arbeitselement im Bereich [!UICONTROL Startseite] in [!DNL Adobe Workfront] anzeigen und ihm Aktualisierungen hinzufügen. Sie können auch andere Daten im Zusammenhang mit dem Arbeitselement bearbeiten, wenn Sie Zugriff darauf haben.
 
 ## Zugriffsanforderungen
 
@@ -46,19 +46,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Beitragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen, an denen Sie arbeiten müssen.</p> </td> 
+   <td> <p>Contribute-Berechtigungen oder höher für die Aufgaben und Probleme, an denen Sie arbeiten müssen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren [!DNL Workfront] Administrator. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Anzeigen von Aktualisierungen für ein Arbeitselement
 
-Sie können Aktualisierungen zu jedem Arbeitselement im [!UICONTROL Arbeitsliste]:
+Sie können Aktualisierungen für jedes Arbeitselement in der [!UICONTROL Arbeitsliste] anzeigen:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, klicken Sie auf **[!UICONTROL Startseite]**.
-1. Im **[!UICONTROL Arbeitsliste]** Bereich, wählen Sie das Element aus, in dem Sie Updates anzeigen möchten.\
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. Wählen Sie im Bereich **[!UICONTROL Arbeitsliste]** das Element aus, für das Sie Aktualisierungen anzeigen möchten.\
    Aktualisierungen werden im rechten Bereich angezeigt.
 
 1. (Optional) Um Systemaktualisierungen so zu filtern, dass nur Benutzeraktualisierungen angezeigt werden, schalten Sie **[!UICONTROL Systemaktualisierungen anzeigen]** auf Aus.
@@ -67,29 +67,29 @@ Sie können Aktualisierungen zu jedem Arbeitselement im [!UICONTROL Arbeitsliste
 
 ## Bereitstellen von Aktualisierungen für ein Arbeitselement
 
-Sie können Aktualisierungen für jedes Arbeitselement im [!UICONTROL Arbeit] Liste:
+Sie können Aktualisierungen für jedes Arbeitselement in der Liste [!UICONTROL Arbeit] bereitstellen:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, klicken Sie auf **[!UICONTROL Startseite]**.
-1. Im **[!UICONTROL Arbeitsliste]** Bereich, wählen Sie das Element aus, für das Sie eine Aktualisierung bereitstellen möchten.
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. Wählen Sie im Bereich **[!UICONTROL Arbeitsliste]** das Element aus, für das Sie eine Aktualisierung bereitstellen möchten.
 1. Klicken Sie im rechten Bereich auf **[!UICONTROL Aktualisieren]** , um ein Textfeld anzuzeigen.
 
    ![](assets/make-an-update-box-expanded-home-nwe-350x204.png)
 
 1. Geben Sie im entsprechenden Feld Ihre Aktualisierung an.
 1. (Optional) Geben Sie eine der folgenden Informationen an:\
-   **[!UICONTROL Datum der Übermittlung]:** Wählen Sie ein Datum aus der Datumsauswahl aus, wenn Sie sich zum Abschließen des Arbeitselements verpflichten.\
+   **[!UICONTROL Veröffentlichungsdatum]:** Wählen Sie ein Datum aus der Datumsauswahl aus, wenn Sie sich verpflichten, das Arbeitselement abzuschließen.\
    **[!UICONTROL Wie geht es?]:** Wählen Sie eine neue Bedingung für die Aufgabe oder das Problem aus. Weitere Informationen zu Aufgaben- und Problembedingungen finden Sie unter [Aktualisierungsbedingung für Aufgaben und Probleme](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
-   **[!UICONTROL Status]:** Wählen Sie einen neuen Status für die Aufgabe oder das Problem aus. Weitere Informationen zum Aufgabenstatus finden Sie unter [Aktualisierung des Aufgabenstatus](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Weitere Informationen zum Status von Problemen finden Sie unter [Zugriff auf die Liste der Systemfehlerstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
-   **[!UICONTROL Abschlussleiste]:** Geben Sie den Prozentsatz der abgeschlossenen Arbeiten an, indem Sie den Fortschrittsbalken auf den gewünschten Prozentsatz verschieben. Sie können auch auf die Abschlussleiste doppelklicken und den Prozentsatz eingeben, der abgeschlossen ist.
+   **[!UICONTROL Status]:** Wählen Sie einen neuen Status für die Aufgabe oder das Problem aus. Weitere Informationen zum Aufgabenstatus finden Sie unter [Aufgabenstatus aktualisieren](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Weitere Informationen zu den Problemstatus finden Sie unter [Zugriff auf die Liste der Systemfehlerstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
+   **[!UICONTROL Abschlussleiste]:** Gibt den Prozentsatz der abgeschlossenen Arbeit an, indem der Fortschrittsbalken auf den gewünschten Prozentsatz verschoben wird. Sie können auch auf die Abschlussleiste doppelklicken und den Prozentsatz eingeben, der abgeschlossen ist.
 
-1. Klicks **[!UICONTROL Aktualisieren]**.
+1. Klicken Sie auf **[!UICONTROL Aktualisieren]**.
 
 ## Arbeitselement bearbeiten
 
 Sie können jedes Feld eines beliebigen Arbeitselements bearbeiten, auf das Sie Zugriff haben.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder **Hauptmenü** ![](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, klicken Sie auf **[!UICONTROL Startseite]**.
-1. Im **[!UICONTROL Arbeitsliste]** Bereich, wählen Sie das Element aus, das Sie bearbeiten möchten.\
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. Wählen Sie im Bereich **[!UICONTROL Arbeitsliste]** das Element aus, das Sie bearbeiten möchten.\
    Alle Felder, auf die Sie Zugriff haben, werden im rechten Bereich angezeigt.
 
 1. Bewegen Sie im rechten Bereich den Mauszeiger über das Feld, das Sie bearbeiten möchten.\

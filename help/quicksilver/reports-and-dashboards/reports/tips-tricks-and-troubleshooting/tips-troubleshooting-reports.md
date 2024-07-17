@@ -22,5 +22,5 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Häufig gestellte Fragen zu Berichten](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
 * [Fehlermeldung im Kalender: &quot;Dieser Kalender hat die Anzeigerechte eines deaktivierten Benutzers.&quot;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
 * [Fehlermeldung bei Ausführung eines Berichts: &quot;Sie sind derzeit nicht angemeldet.&quot;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
-* [Inline-Bearbeitungsdaten verschiebt die Kalenderanzeige außerhalb des Kästchens](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
+* [Inline-Bearbeitungsdaten verschiebt die Kalenderanzeige außerhalb des Felds](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
 * [Daten aus freigegebenen Spalten werden nicht in Dashboard-Berichten angezeigt](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)

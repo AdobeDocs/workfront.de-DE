@@ -9,7 +9,7 @@ role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -31,21 +31,21 @@ In diesem Abschnitt wird beschrieben, wie Sie mithilfe einer Kombination aus Wor
 
 Die ProofHQ-API enthält eine Reihe von Aktionen, die für Testsendungen in der Workfront-API nicht verfügbar sind. Mithilfe dieser Aktionen können Sie den Testversand genauer ändern oder konfigurieren, als in der Workfront-API verfügbar ist.
 
-Einen Überblick über die ProofHQ-API finden Sie im Abschnitt [Übersicht über PoofHQ](../../proofhq-api/general/overview.md). Weitere Informationen finden Sie unter [Dokumentation zu ProofHQ](https://api.proofhq.com/home.html).
+Einen Überblick über die ProofHQ-API finden Sie in der [Übersicht über POOFHQ](../../proofhq-api/general/overview.md) . Weitere Informationen finden Sie in der Dokumentation zu [ProofHQ](https://api.proofhq.com/home.html) .
 
 >[!NOTE]
 >
->* Die Workfront-API ist eine REST-fähige API. Die ProofHQ-API ist eine SOAP-API.
+>* Die Workfront-API ist eine REST-fähige API. Die ProofHQ-API ist eine SOAP API.
 >* In der ProofHQ-API erstellte Testsendungen werden nicht automatisch mit Workfront verknüpft. Es wird daher empfohlen, in der Workfront-API Testsendungen zu erstellen, bevor diese mit der ProofHQ-API aktualisiert werden.
 >
 
 ### Erstellen eines Testversands mit erweiterten Testversandoptionen
 
-1. Erstellen Sie einen Testversand mit der `Document createProof` -Aktion in der Workfront-API.
+1. Erstellen Sie einen Testversand mithilfe der Aktion `Document createProof` in der Workfront-API.
 
    >[!NOTE]
    >
-   Legen Sie bei der Erstellung des Testversands `{}` als Wert für die `advancedProofingOptions` -Parameter.
+   >Legen Sie beim Erstellen des Testversands `{}` als Wert für den Parameter `advancedProofingOptions` fest.
 
 1. Verwenden Sie nach der Erstellung des Testversands die ProofHQ-API, um alle erweiterten Optionen hinzuzufügen.
 
@@ -55,13 +55,13 @@ Dieser Abschnitt enthält einige Beispielaktualisierungen, die Sie mit der Proof
 
 **Beispiele:**
 
-* [Ein Testversand kann heruntergeladen, eine Nachricht gesendet und öffentlich freigegeben werden.](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [Ein Testversand kann heruntergeladen werden, hat eine Nachricht und wird öffentlich freigegeben](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
 * [Aktualisieren Sie eine Phase, sodass sie nicht privat, nicht obligatorisch ist und nur eine Genehmigung erfordert](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
 * [Hinzufügen von zwei Empfängern zu einem Testversand ohne Entscheidungsträger](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**Ein Testversand kann heruntergeladen, eine Nachricht gesendet und öffentlich freigegeben werden.**
+**Ein Testversand kann heruntergeladen werden, hat eine Nachricht und wird öffentlich freigegeben**
 
-Die Dokumentation für diesen Endpunkt finden Sie im Abschnitt [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) Seite.
+Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) .
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -85,7 +85,7 @@ Die Dokumentation für diesen Endpunkt finden Sie im Abschnitt [ProofHQ API upda
 
 **Aktualisieren Sie eine Phase, sodass sie nicht privat, nicht obligatorisch ist und nur eine Genehmigung erfordert**
 
-Die Dokumentation für diesen Endpunkt finden Sie im Abschnitt [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) Seite.
+Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) .
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -108,9 +108,9 @@ Die Dokumentation für diesen Endpunkt finden Sie im Abschnitt [ProofHQ API upda
 </soapenv:Envelope>
 ```
 
-**Hinzufügen von zwei Empfängern zu einem Testversand ohne Entscheidungsträger**
+**Fügen Sie zwei Empfänger zu einem Testversand ohne primären Entscheidungsträger hinzu**
 
-Die Dokumentation für diesen Endpunkt finden Sie im Abschnitt [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) Seite.
+Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) .
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -149,17 +149,17 @@ In diesem Abschnitt wird beschrieben, wie Sie einen Testversand mit erweiterten 
 
 ### Erstellen eines Testversands mit erweiterten Testversandoptionen
 
-Sie können Testsendungen über die Workfront-API erstellen, indem Sie die `Document createProof` Aktion. Diese Aktion akzeptiert die `advancedProofingOptions` -Parameter, der den Werttyp von `string`. So fügen Sie erweiterte Testversandoptionen in Ihre `createProof` -Aktion verwenden, müssen Sie die Optionen in die `advancedProofingOptions` -Parameter im JSON-Format.
+Sie können Testsendungen über die Workfront-API mit der Aktion `Document createProof` erstellen. Diese Aktion akzeptiert den Parameter `advancedProofingOptions` , der den Werttyp `string` aufweist. Um erweiterte Testversandoptionen in Ihre `createProof` -Aktion aufzunehmen, müssen Sie die Optionen im Parameter `advancedProofingOptions` im JSON-Format eingeben.
 
 >[!NOTE]
 >
-Es kann schwierig sein, die Felder vorherzusagen, die in Ihre JSON für advancedProofingOptions einbezogen werden sollen. Möglicherweise möchten Sie die Netzwerkdaten Ihres Unternehmens untersuchen, während Sie erweiterte Testsendungen in Workfront verwenden, und Ihre JSON auf den Feldern und Werten basieren, die üblicherweise von Ihrem Unternehmen verwendet werden.
+>Es kann schwierig sein, die Felder vorherzusagen, die in Ihre JSON für advancedProofingOptions einbezogen werden sollen. Möglicherweise möchten Sie die Netzwerkdaten Ihres Unternehmens untersuchen, während Sie erweiterte Testsendungen in Workfront verwenden, und Ihre JSON auf den Feldern und Werten basieren, die üblicherweise von Ihrem Unternehmen verwendet werden.
 >
-Da diese Felder schwer vorherzusagen sind, empfehlen wir, einen Testversand mithilfe der Workfront-API zu erstellen und ihn dann mithilfe der ProofHQ-API zu aktualisieren. Weitere Informationen finden Sie unter [Erstellen eines Testversands mit den Workfront- und ProofHQ-APIs (empfohlen)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) in diesem Artikel
+>Da diese Felder schwer vorherzusagen sind, empfehlen wir, einen Testversand mithilfe der Workfront-API zu erstellen und ihn dann mithilfe der ProofHQ-API zu aktualisieren. Weitere Informationen finden Sie unter [Erstellen eines Testversands mit den Workfront- und ProofHQ-APIs (empfohlen)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) in diesem Artikel
 
 ### Beispiel
 
-Dieses Beispiel zeigt Felder und Formatierungen, die Sie beim Erstellen Ihrer JSON für die `advancedProofingOptions` -Parameter. Ihre `advancedProofingOptions` Die JSON-Datei kann mehr oder weniger Felder als hier angezeigt haben.
+Dieses Beispiel zeigt Felder und Formatierungen, die Sie beim Erstellen Ihrer JSON-Datei für den Parameter `advancedProofingOptions` verwenden können. Ihre JSON-Datei `advancedProofingOptions` kann mehr oder weniger Felder als hier angezeigt haben.
 
 **Beispiel:**
 

@@ -24,6 +24,6 @@ Die Art der Benachrichtigungen, die Sie erhalten, hängt davon ab, ob Ihr Untern
 
 In den folgenden Artikeln wird beschrieben, welche Art von Workfront-Planungs-Benachrichtigungen Sie erhalten können und wie Sie Ihre Voreinstellungen verwalten:
 
-* [Voreinstellungen für Adobe Workfront-Planungen verwalten](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+* [Voreinstellungen für Adobe Workfront-Planungs-Benachrichtigungen verwalten](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 * [Verwalten von Adobe Workfront-Planungs-E-Mail-Benachrichtigungen](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
 * [Verwalten von Adobe Workfront-Planungs-In-App-Benachrichtigungen](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)

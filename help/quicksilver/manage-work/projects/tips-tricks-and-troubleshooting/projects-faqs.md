@@ -20,7 +20,7 @@ Im Folgenden finden Sie häufig gestellte Fragen zu Projekten.
 
 ### Antwort
 
-Um die Einfügeoptionen verwenden zu können, muss die Aufgabenliste nach Anzahl sortiert sein. Um die Spalte nach Zahl zu sortieren, klicken Sie auf **#** in der Spaltenüberschrift links von **Aufgabenname** , um die Aufgabe nach Anzahl auszuführen.
+Um die Einfügeoptionen verwenden zu können, muss die Aufgabenliste nach Anzahl sortiert sein. Um die Spalte nach Zahl zu sortieren, klicken Sie in der Spaltenüberschrift links von **Aufgabenname** auf **#** , um die Aufgabe nach Zahl neu zu ordnen.
 
 ## Welches ist das tatsächliche Abschlussdatum?
 
@@ -51,7 +51,7 @@ Sie können den Status eines zu beendenden Projekts nicht ändern, wenn Sie Folg
 
 ### Antwort
 
-Wenn der Abschlussmodus des Projekts auf Automatisch eingestellt ist, wechselt der Status des Projekts nach Abschluss aller Aufgaben und Probleme automatisch zu Abgeschlossen und Sie können ihn nicht in einen anderen Status ändern. Der Abschlussmodus des Projekts muss auf Manuell eingestellt sein, damit ein komplettes Projekt in &quot;Aktuell&quot;umgewandelt werden kann. Weitere Informationen finden Sie unter [Der Projektstatus ändert sich nicht von Fertig stellen in Aktuell](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Wenn der Abschlussmodus des Projekts auf Automatisch eingestellt ist, wechselt der Status des Projekts nach Abschluss aller Aufgaben und Probleme automatisch zu Abgeschlossen und Sie können ihn nicht in einen anderen Status ändern. Der Abschlussmodus des Projekts muss auf Manuell eingestellt sein, damit ein komplettes Projekt in &quot;Aktuell&quot;umgewandelt werden kann. Weitere Informationen finden Sie unter [Der Projektstatus ändert sich nicht von &quot;Complete&quot;in &quot;Current](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)&quot;.
 
 ## Warum kann ich einem Portfolio kein Projekt hinzufügen, obwohl ich über die entsprechenden Berechtigungen verfügt?
 
@@ -62,10 +62,10 @@ Ich habe zwar die richtigen Berechtigungen, aber die Schaltfläche Projekte hinz
 Die Ursache liegt darin, dass der Portfolio-Status inaktiv ist. So ändern Sie den Status des Portfolios:
 
 1. Klicken Sie auf **Portfolio Details > Übersicht**.
-1. Ändern Sie die **Status** nach **Aktiv.**
+1. Ändern Sie den **Status** in **Aktiv.**
 
 1. Klicken Sie auf **Speichern**.\
-   Die **Projekte hinzufügen** -Schaltfläche angezeigt werden. **Projekte** Registerkarte.
+   Die Schaltfläche **Projekte hinzufügen** sollte jetzt auf der Registerkarte **Projekte** angezeigt werden.
 
 ## Welchen Zugriff erhält ein Ressourcen-Manager beim Hinzufügen zu einem Projekt?
 
@@ -79,7 +79,7 @@ Ressourcen-Manager erhalten automatisch Zugriff auf Projekte verwalten. Wenn Sie
 
 Der Projektstatus ändert sich aufgrund des Standardstatus der Gruppe. Wenn Sie eine Gruppe zu einem Projekt hinzufügen, wird die Liste der Status zu den für die Gruppe festgelegten Standardstatus geändert.
 
-Weitere Informationen finden Sie im Artikel [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Weitere Informationen finden Sie im Artikel [Status erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) .
 
 ## Was ist der Budgetstatus?
 
@@ -101,4 +101,4 @@ Der Adobe Workfront-Administrator beschränkte sich auf die Anzeige von Unterneh
 
 ![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
-Informationen dazu, wie Sie einem Benutzer ermöglichen, alle Teams im System anzuzeigen, finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Informationen dazu, wie Sie einem Benutzer die Anzeige aller Teams im System ermöglichen, finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

@@ -25,7 +25,7 @@ Wenn Single Sign-on (SSO) in Ihrer Adobe Workfront-Instanz aktiviert ist, könne
 
 Wenn Sie über ein vorhandenes System verfügen, das bereits mit Benutzern gefüllt ist, die SSO-Anmeldeinformationen zugeordnet sind, können Sie die IDs der Benutzer in Workfront importieren, indem Sie eine Datei mit kommagetrennten Werten (CSV) in Workfront importieren.
 
-Weitere Informationen zur Integration von Workfront in ein SSO-System finden Sie unter [Überblick über Single Sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Weitere Informationen zur Integration von Workfront in ein SSO-System finden Sie unter [Überblick über die einmalige Anmeldung in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 
 ## Zugriffsanforderungen
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +82,7 @@ Sie können mit der Vorbereitung Ihrer Importdatei beginnen, indem Sie einen Ber
 
 1. Erstellen Sie einen Benutzerbericht in Workfront.
 
-   Anweisungen zum Erstellen von Benutzerberichten in Workfront finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Anweisungen zum Erstellen von Benutzerberichten in Workfront finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Wählen Sie die folgenden Felder in Ihrem Bericht aus:
 
@@ -95,18 +95,18 @@ Sie können mit der Vorbereitung Ihrer Importdatei beginnen, indem Sie einen Ber
    ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Speichern Sie den Bericht.
-1. Klicks **Export** oben im Bericht und exportieren Sie den Bericht nach Excel.
+1. Klicken Sie oben im Bericht auf **Exportieren** und exportieren Sie den Bericht nach Excel.
 1. Öffnen Sie die exportierte Excel-Datei und fügen Sie in der Spalte SSO-Benutzername Ihre SSO-Benutzernamen für jeden Benutzer in den Bericht ein.
 
    >[!IMPORTANT]
    >
    >Bei SSO-Benutzernamen wird zwischen Groß- und Kleinschreibung unterschieden.
 
-1. Löschen Sie alle Spalten in der Excel-Datei mit Ausnahme der **ID** und **SSO-Benutzername** Spalten.
+1. Löschen Sie alle Spalten in der Excel-Datei mit Ausnahme der Spalten **ID** und **SSO-Benutzername**.
 
 1. Löschen Sie die Spaltenüberschriften und stellen Sie sicher, dass oben im Bericht keine leeren Zeilen vorhanden sind.
 
-   Die Datei, die Sie zum Aktualisieren Ihrer Workfront-Benutzer mit den SSO-Benutzernamen verwenden **must** enthalten nur 2 Spalten in der folgenden Reihenfolge:
+   Die Datei, die Sie zum Aktualisieren Ihrer Workfront-Benutzer mit den SSO-Benutzernamen **muss** verwenden, enthält nur zwei Spalten in dieser Reihenfolge:
 
    * In der ersten Spalte muss die Workfront-Benutzer-ID (die Benutzer-GUID, wie in Workfront zu finden) angezeigt werden.
    * Die zweite Spalte muss den SSO-Benutzernamen enthalten, wie er in Ihrem SSO-System angezeigt wird.
@@ -120,23 +120,23 @@ Sie können mit der Vorbereitung Ihrer Importdatei beginnen, indem Sie einen Ber
 
 Durch die Aktualisierung von Benutzern für SSO wird das Feld SSO-Benutzername entweder zu Ihren Workfront-Benutzern hinzugefügt, wenn kein Benutzer vorhanden ist, oder der Wert in diesem Feld aktualisiert, wenn bereits ein mit den Benutzern verknüpfter Wert vorhanden ist.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![
 
-1. Klicken Sie auf **System** und wählen Sie **Benutzer für SSO aktualisieren**.
+1. Klicken Sie auf &quot;**System**&quot;und wählen Sie dann &quot;**Benutzer für SSO aktualisieren**&quot;.
 
-1. Klicks **Datei auswählen** um nach der von Ihnen vorbereiteten Datei zu suchen.
+1. Klicken Sie auf **Datei auswählen** , um nach der von Ihnen vorbereiteten Datei zu suchen.
 
-   Weitere Informationen zum Vorbereiten dieser Datei finden Sie unter [Importdatei vorbereiten](#prepare-the-import-file).
+   Weitere Informationen zum Vorbereiten dieser Datei finden Sie unter [Vorbereiten der Importdatei](#prepare-the-import-file).
 
 1. Wählen Sie die Datei aus, in der sie auf Ihrem Computer gespeichert ist, und klicken Sie dann auf **Öffnen**.
 
    Dadurch werden die SSO-Anmeldeinformationen in Workfront eingefügt, sodass sich alle Benutzer mit ihren SSO-Anmeldeinformationen bei Workfront anmelden können.
 
-   Die **Nur erlauben `<SSO Configuration>` Authentifizierung** ist für alle Benutzer aktiviert, die in der CSV-Datei enthalten sind. Dadurch wird sichergestellt, dass sich Benutzer über SSO anmelden müssen.
+   Die Einstellung **Nur `<SSO Configuration>` Authentifizierung zulassen** ist für alle in der CSV enthaltenen Benutzer aktiviert. Dadurch wird sichergestellt, dass sich Benutzer über SSO anmelden müssen.
 
 ## SSO anhand der Workfront-Benutzernamen Ihrer Benutzer überprüfen
 
-Anweisungen zum Erstellen eines Benutzerberichts mit Informationen zu SSO-Benutzernamen finden Sie unter [Importdatei vorbereiten](#prepare-the-import-file).
+Anweisungen zum Erstellen eines Benutzerberichts mit Informationen zu SSO-Benutzernamen finden Sie unter [Vorbereiten der Importdatei](#prepare-the-import-file).
 
 1. Führen Sie einen Benutzerbericht aus, der Informationen zu SSO-Benutzernamen enthält.
 
@@ -147,4 +147,4 @@ Anweisungen zum Erstellen eines Benutzerberichts mit Informationen zu SSO-Benutz
 
    ![](assets/users-with-sso-field-updated.png)
 
-   Anweisungen zum Aktualisieren Ihrer Benutzer für SSO finden Sie unter [Benutzer für SSO aktualisieren](#update-your-users-for-sso).
+   Anweisungen zum Aktualisieren Ihrer Benutzer für SSO finden Sie unter [Aktualisieren Ihrer Benutzer für SSO](#update-your-users-for-sso).

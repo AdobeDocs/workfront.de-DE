@@ -10,7 +10,7 @@ role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Wenn ein Objekt wie ein Projekt, ein Problem oder eine Aufgabe Rich-Text enthält, wird es gespeichert und über die Workfront-API als Parameterwert zugänglich gemacht.
 
-Das Anfordern von Textinformationen aus einem Projektobjekt, das Rich-Text enthält, kann mithilfe des Felds erfolgen **parameterValues**.
+Das Anfordern von Textinformationen aus einem Projektobjekt, das Rich-Text enthält, kann mit dem Feld **parameterValues** erfolgen.
 
 Beispielsweise könnte eine einfache HTTP-Anforderung wie folgt aussehen:
 
 `https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*`
 
-Wenn dieses Beispielprojekt ein benutzerdefiniertes Formular mit 3 benutzerdefinierten Feldern enthielt: Berechnungsfeld, Absatztext und Rich 1. Dann gibt die obige Anfrage eine Antwort zurück, die der folgenden ähnelt, wobei das Feld &quot;rich 1&quot;ein Rich-Text-Parameterfeld und der Textwert &quot;ist&quot;**Hallo** *Welt!*&quot;:
+Wenn dieses Beispielprojekt ein benutzerdefiniertes Formular mit 3 benutzerdefinierten Feldern enthielt: Berechnungsfeld, Absatztext und Rich 1. Dann gibt die obige Anfrage eine Antwort zurück, die der folgenden ähnelt, wobei das Feld &quot;rich 1&quot;ein Rich-Text-Parameterfeld und der Textwert &quot;**Hallo** *Welt!*&quot; ist:
 
 ```
 {

@@ -33,12 +33,12 @@ Sie können den Ressourcen-Planer verwenden, um die Verfügbarkeit von Benutzern
 >[!IMPORTANT]
 >
 >Sie können den Ressourcen-Planer nicht verwenden, um Benutzern tatsächliche Arbeit (Aufgaben und Probleme) zuzuweisen. Sie können nur schätzen, wie viel Zeit die Benutzer oder Aufgabenrollen zum Abschluss eines Projekts benötigen, unabhängig von den Aufgaben und Problemen, denen sie zugewiesen sind.\
->Um Benutzern tatsächliche Arbeit zuzuweisen, müssen Sie den Lastenausgleich verwenden. Weitere Informationen zum Arbeitslastausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Um Benutzern tatsächliche Arbeit zuzuweisen, müssen Sie den Lastenausgleich verwenden. Weitere Informationen zum Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Sie können Informationen im Ressourcenplaner in drei separaten Ansichten anzeigen. Sie können jede Ansicht verwenden, um einen der folgenden Zwecke zu erfüllen:
 
 * Um die Zeit oder Kosten Ihrer Ressourcen für die Arbeit zu planen, die mithilfe der Projekt- und Rollenansichten erreicht werden muss. Dies ist der Hauptzweck des Ressourcenplaners.\
-  Weitere Informationen zum Budget im Ressourcen-Planer finden Sie im Artikel [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Weitere Informationen zum Budgeting im Ressourcenplaner finden Sie im Artikel [Budgetressourcen im Ressourcenplaner unter Verwendung der Projekt- und Rollenansichten](../resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * So zeigen Sie die folgenden Informationen mithilfe der Benutzeransicht an:
 
@@ -46,13 +46,13 @@ Sie können Informationen im Ressourcenplaner in drei separaten Ansichten anzeig
    * Die geplante Dauer, die zum Abschluss der Arbeit gemäß dem Projektplan erforderlich ist
    * Die Zeit, die Benutzer bereits bei tatsächlichen Arbeitselementen angemeldet haben
 
-  Weitere Informationen zum Anzeigen der Verfügbaren, geplanten und tatsächlichen Stunden oder der FTE für Benutzer im Resource Planer finden Sie im Artikel [Anzeigen der verfügbaren, geplanten und tatsächlichen Stunden oder der FTE im Ressourcenplaner bei Verwendung der Benutzeransicht](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
+  Weitere Informationen zum Anzeigen der Verfügbaren, geplanten und tatsächlichen Stunden oder der FTE für Benutzer im Resource Planer finden Sie im Artikel [Verfügbare, geplante und tatsächliche Stunden oder die tatsächlichen Stunden anzeigen im Resource Planer bei Verwendung der Benutzeransicht](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
 ## Überlegungen zum Ressourcenplaner
 
 * Sie können die Projekte, an denen Sie arbeiten, priorisieren und Ihre Ressourcenzuweisung entsprechend ihrer Priorität planen, um sicherzustellen, dass Sie zunächst über Ressourcen für die wichtigsten Projekte verfügen.
 
-  Informationen zur Priorisierung von Projekten im Ressourcenplaner finden Sie unter [Priorisieren von Projekten im Ressourcenplaner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Informationen zur Priorisierung von Projekten im Resource Planer finden Sie unter [Priorisieren von Projekten im Resource Planer](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 * Sie können Stunden-, FTE- und Kosteninformationen aus den Aufgaben und Ausgaben von Projekten anzeigen.
 
@@ -74,9 +74,9 @@ Sie können Informationen im Ressourcenplaner in drei separaten Ansichten anzeig
 * Sie können die Zuweisung von Teams nicht für die Projekte verwalten, für die sie Aufgaben oder Probleme im Ressourcenplaner haben.
 * Sie können Ressourcen für mehrere Projekte gleichzeitig mit dem Resource Planer oder für ein einzelnes Projekt im Bereich Resource Budgeting des Business Case einsetzen. Die Informationen, die Sie für ein Projekt planen, werden auch im Ressourcenplaner angezeigt.
 
-  Informationen dazu, wie Sie Ressourcen für ein einzelnes Projekt einsetzen können, finden Sie im Artikel [Haushaltsmittel im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Informationen dazu, wie Sie Ressourcen für ein einzelnes Projekt einsetzen können, finden Sie im Artikel [Budgetressourcen im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Informationen dazu, wie Sie Ressourcen im Ressourcenplaner für mehrere Projekte gleichzeitig einsetzen können, finden Sie im Artikel unter &quot;Budgetressourcen im Ressourcenplaner&quot;im Abschnitt [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Informationen dazu, wie Sie Ressourcen im Ressourcenplaner für mehrere Projekte gleichzeitig einsetzen können, finden Sie im Abschnitt &quot;Budgetressourcen im Ressourcenplaner&quot;im Artikel [Budgetressourcen im Ressourcenplaner unter Verwendung der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## Voraussetzungen für die Arbeit im Ressourcenplaner {#prerequisites-for-working-in-the-resource-planner}
 
@@ -99,8 +99,8 @@ Um den Ressourcen-Planer erfolgreich für die Budgetierung Ihrer Ressourcen zu v
 
 Die folgenden Arten von Voraussetzungen sind erforderlich, damit der Ressourcen-Planer bei der Anzeige nach Projekt oder Rolle die richtigen Funktionen bietet:
 
-* [Benutzervoraussetzungen](#user-prerequisites)
-* [Projektvoraussetzungen](#project-prerequisites)
+* [Voraussetzungen für Benutzer](#user-prerequisites)
+* [Projekterfordernisse](#project-prerequisites)
 * [Voraussetzungen für Aufgaben und Probleme](#tasks-and-issues-prerequisites)
 * [Voraussetzungen auf Systemebene](#system-level-prerequisites)
 
@@ -110,7 +110,7 @@ Stellen Sie sicher, dass die folgende Benutzereinrichtung vorhanden ist, bevor S
 
 * Sie haben den richtigen Zugriff auf Budgetressourcen.
 
-  Informationen zum benötigten Zugriff auf Budgetressourcen finden Sie im Artikel [Erforderlicher Zugriff auf Budgetressourcen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Informationen zum benötigten Zugriff auf Budgetressourcen finden Sie im Artikel [Zugriff erforderlich für Budgetressourcen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Benutzer, die Aufgaben zugewiesen sind, werden zu den Ressourcenpools hinzugefügt, die mit dem Projekt verknüpft sind.
 
@@ -130,7 +130,7 @@ Stellen Sie sicher, dass die folgende Benutzereinrichtung vorhanden ist, bevor S
 
 * Benutzern, die Arbeits- und Ressourcenpools zugewiesen sind, müssen Zeitpläne und Vorgangsrollen mit ihrem Profil zugeordnet sein.
 
-  Informationen zum Verknüpfen von Zeitplänen und Auftragsrollen mit Benutzern finden Sie unter [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Weitere Informationen zum Verknüpfen von Zeitplänen und Auftragsrollen mit Benutzern finden Sie unter [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
   >[!NOTE]
   >
@@ -142,12 +142,12 @@ Stellen Sie sicher, dass die folgende Benutzereinrichtung vorhanden ist, bevor S
   >
   >Wenn ein Benutzer keinem Zeitplan zugeordnet ist, wird der Standardzeitplan Ihres Workfront-Systems standardmäßig dem Benutzer zum Zwecke des Ressourcenplaners zugeordnet.
 
-  Informationen zum Erstellen von Zeitplänen finden Sie im Artikel [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Weitere Informationen zum Erstellen von Zeitplänen finden Sie im Artikel [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Wenn Sie Ihre Ressourcen nach Kosten aufschlüsseln möchten, müssen Sie &quot;Auftragsrollen&quot;Kosten/Stunde zuordnen. -Tarife. Die Kosten, die mit den Benutzerrollen in Ihren Ressourcenpools verbunden sind, werden zur Berechnung der budgetierten Arbeitskosten und der Budgetierten Kosten des Projekts verwendet.\
-  Informationen zum Verknüpfen von Auftrags-Rollen mit Raten finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-  Informationen zur Berechnung der budgetierten Arbeitskosten finden Sie in diesem Artikel [Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
-  Weitere Informationen zur Berechnung von budgetierten Kosten finden Sie im Artikel [Berechnete veranschlagte Kosten](../../manage-work/projects/project-finances/budgeted-cost.md).
+  Informationen zum Verknüpfen von Auftrags-Rollen mit Raten finden Sie im Artikel [Erstellen und Verwalten von Auftragsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+  Weitere Informationen zur Berechnung der budgetierten Arbeitskosten finden Sie im Artikel [Grundlegendes zu den budgetierten Arbeitskosten und den geplanten Arbeitsstunden für Projekte](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
+  Weitere Informationen zur Berechnung der budgetierten Kosten finden Sie im Artikel [Budgetierte Kosten berechnen](../../manage-work/projects/project-finances/budgeted-cost.md).
 
 ### Projektvoraussetzungen {#project-prerequisites}
 
@@ -201,7 +201,7 @@ Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverw
 
 Sie können den Ressourcenplaner in zwei Bereichen von Workfront finden, je nachdem, ob Sie Ihre Ressourcen für mehrere Projekte oder nur für ein Projekt einsetzen möchten.
 
-Informationen zum Auffinden des Ressourcen-Planers finden Sie unter [Suchen Sie den Ressourcen-Planer .](../../resource-mgmt/resource-planning/locate-resource-planner.md).
+Informationen zum Auffinden des Ressourcen-Planers finden Sie unter [Suchen des Ressourcen-Planers](../../resource-mgmt/resource-planning/locate-resource-planner.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -241,21 +241,21 @@ Sie können die folgenden Informationen anzeigen oder die folgenden Aktionen im 
 * Überzuweisung oder Unterauslastung Ihrer Ressourcen im Ressourcenplaner.
 * Budgets für Ihre Ressourcen für die Arbeit manuell oder automatisch.
 
-Weitere Informationen dazu, welche Bereiche im Ressourcenplaner angezeigt werden und wie Sie konfigurieren, welche Informationen in diesen Bereichen angezeigt werden, finden Sie im Artikel [Navigationsübersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Weitere Informationen dazu, welche Bereiche im Ressourcenplaner angezeigt werden und wie Sie konfigurieren können, welche Informationen in diesen Bereichen angezeigt werden, finden Sie im Artikel [Navigationsübersicht für Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Einschränkungen bei der Anzeige von Informationen im Ressourcenplaner
 
 Um die Leistung zu verbessern, beschränkt Workfront die Anzahl der Elemente, die Sie im Ressourcenplaner anzeigen können.
 
-Weitere Informationen zu diesen Einschränkungen finden Sie im Artikel [Anzeigebeschränkungen für den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
+Weitere Informationen zu diesen Einschränkungen finden Sie im Artikel [Anzeigebeschränkungen für Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
 
 ## FTE im Ressourcenplaner berechnen
 
 Sie können Verfügbarkeits-, Zuordnungs- und geplante Werte im Ressourcenplaner in Stunden, FTE oder Kosten anzeigen.
 
-Weitere Informationen zum Ändern der im Ressourcenplaner angezeigten Informationen finden Sie im Abschnitt [Anzeigen von Informationen nach Stunde, FTE oder Kosten](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) im Artikel [Überprüfen der Ressourcenverfügbarkeit und -zuordnung mithilfe des Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+Weitere Informationen zum Ändern der Informationen, die Sie im Ressourcenplaner anzeigen, finden Sie im Abschnitt [Informationen nach Stunde, FTE oder Kosten anzeigen](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) im Artikel [Überprüfen der Ressourcenverfügbarkeit und -zuordnung mithilfe des Adobe Workfront Resource Planers](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
-Weitere Informationen zur Berechnung der Stunden und der FTE für Benutzer und Rollen in Workfront finden Sie im Artikel [Übersicht über die Berechnung der Stunden und der FTE für Benutzer und Rollen im Resource Planer](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Weitere Informationen dazu, wie die Stunden und die FTE für Benutzer und Rollen in Workfront berechnet werden, finden Sie im Artikel [Übersicht über die Berechnung der Stunden und der FTE für Benutzer und Rollen im Resource Planer](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ## Berechnen der Kosten im Ressourcenplaner
 
@@ -267,8 +267,8 @@ Neben der Anzeige von Verfügbarkeit, Zuordnung und geplanten Werten im Ressourc
 >
 >Sie müssen Ihre Benutzer und Ihre Jobrollen mit den Kosten pro Stunde-Raten verknüpfen, um Informationen nach Kosten im Ressourcen-Planer anzuzeigen.
 
-Weitere Informationen zum Verknüpfen von Kosten pro Stunde-Raten mit Stellenrollen finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-Weitere Informationen zum Verknüpfen von Kosten pro Stunde mit Benutzern finden Sie im Artikel [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Weitere Informationen zum Verknüpfen von Kosten pro Stunde mit Auftragsrollen finden Sie im Artikel [Erstellen und Verwalten von Auftragsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+Weitere Informationen zum Verknüpfen von Kosten pro Stunde mit Benutzern finden Sie im Artikel [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 Beachten Sie beim Anzeigen von Informationen nach Kosten im Ressourcenplaner Folgendes:
 
@@ -294,4 +294,4 @@ Weitere Informationen zur Berechnung der Kosten im Ressourcenplaner für Benutze
 ## Filtern von Informationen im Ressourcenplaner
 
 Sie können die Anzahl der im Ressourcenplaner angezeigten Projekte, Rollen oder Benutzer verringern, indem Sie einen Filter erstellen.\
-Weitere Informationen finden Sie im Artikel [Filtern von Informationen im Ressourcenplaner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Weitere Informationen finden Sie im Artikel [Filterinformationen im Ressourcen-Planer](../../resource-mgmt/resource-planning/filter-resource-planner.md).

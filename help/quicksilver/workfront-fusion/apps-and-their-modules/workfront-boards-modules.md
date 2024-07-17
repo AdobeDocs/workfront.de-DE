@@ -20,13 +20,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Dieser Connector befindet sich derzeit in der Betaversion.
+>Dieser Connector befindet sich derzeit in Beta.
 
 Adobe Workfront-Pinnwände sind flexible Tools, die die Teamzusammenarbeit ermöglichen, indem sie Zugriff auf eine freigegebene Pinnwand mit Spalten und Karten bieten.
 
 Sie können die Adobe Workfront-Pinnwandmodule verwenden, um Datensätze zu lesen oder zu aktualisieren, einen API-Aufruf an die Workfront-Pinnwand-API durchzuführen oder ein Trigger zu erstellen, wenn eine Aktion auf einer Pinnwand stattfindet.
 
-Allgemeine Informationen zu Workfront-Pinnwänden finden Sie unter [Übersicht über Pinnwände](/help/quicksilver/agile/boards-overview.md).
+Allgemeine Informationen zu Workfront-Pinnwänden finden Sie unter [Überblick über Pinnwände](/help/quicksilver/agile/boards-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -47,25 +47,25 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 
 ## Voraussetzungen
@@ -80,7 +80,7 @@ Sie müssen eine Pinnwand in Adobe Workfront konfiguriert haben, bevor Sie eine 
 
 So erstellen Sie eine Workfront-Pinnwandverbindung:
 
-1. In jeder [!DNL Adobe Workfront Boards] Modul, klicken Sie auf **[!UICONTROL Hinzufügen]** neben dem Feld Verbindung .
+1. Klicken Sie in einem beliebigen [!DNL Adobe Workfront Boards]-Modul neben dem Feld &quot;Verbindung&quot;auf **[!UICONTROL Hinzufügen]** .
 
 1. Füllen Sie die folgenden Felder aus:
 
@@ -106,11 +106,11 @@ So erstellen Sie eine Workfront-Pinnwandverbindung:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client-ID]<p>(Optional)</p></td>
-          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Client ID]. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].</td>
+          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Client-ID] ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]<p>(Optional)</p></td>
-          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Client Secret]. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].
+          <td>Geben Sie Ihren [!DNL Adobe] [!UICONTROL Client Secret] ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Authentifizierungs-URL]<p>(Optional)</p></td>
@@ -122,13 +122,13 @@ So erstellen Sie eine Workfront-Pinnwandverbindung:
         </tr>
       </tbody>
     </table>
-1. Klicks **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+1. Klicken Sie auf **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 ## Adobe Workfront-Forumsmodule und ihre Felder
 
-Wenn Sie Workfront-Forumsmodule konfigurieren, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche Workfront-Pinnwände-Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie Workfront-Pinnwandmodule konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche Workfront-Pinnwände-Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -203,7 +203,7 @@ Dieses Aktionsmodul fügt der angegebenen Karte ein Element der Checkliste hinzu
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Karten-ID]</td> 
@@ -226,7 +226,7 @@ Dieses Aktionsmodul fügt einer Karte in Foren eine Unteraufgabe hinzu. Die Kart
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Übergeordnete Karten-ID]</td> 
@@ -253,7 +253,7 @@ Dieses Aktionsmodul erstellt eine neue Karte auf einer Workfront-Pinnwand.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pinnwandkennung]</td> 
@@ -280,7 +280,7 @@ Dieses Aktionsmodul verschiebt eine Karte in eine andere Spalte auf derselben Pi
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Karten-ID]</td> 
@@ -311,7 +311,7 @@ Dieses Aktionsmodul ruft Informationen zu einer bestimmten Karte ab.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Karten-ID]</td> 
@@ -330,7 +330,7 @@ Dieses Aktionsmodul aktualisiert Informationen für eine von Ihnen angegebene Ka
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Karten-ID]</td> 
@@ -366,7 +366,7 @@ Dieses Aktionsmodul erstellt eine Pinnwand in Workfront. Sie können den Typ der
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pinnwandname]</td> 
@@ -389,7 +389,7 @@ Dieses Aktionsmodul gibt Informationen zu einer einzelnen Pinnwand zurück, z. B
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pinnwandkennung]</td> 
@@ -414,7 +414,7 @@ Dieses Aktionsmodul erstellt eine neue Spalte auf der angegebenen Pinnwand.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pinnwandkennung]</td> 
@@ -445,7 +445,7 @@ Dieses Suchmodul gibt Informationen zur Spalte mit dem angegebenen Namen zurück
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pinnwandkennung]</td> 
@@ -468,7 +468,7 @@ Dieses Aktionsmodul aktualisiert den Namen oder die WIP-Grenze der angegebenen S
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pinnwandkennung]</td> 
@@ -496,7 +496,7 @@ Dieses Aktionsmodul fügt einer Karte ein Tag hinzu.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Karten-ID]</td> 
@@ -523,7 +523,7 @@ Dieses Aktionsmodul erstellt ein neues Tag und weist ihm eine Farbe zu.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pinnwandkennung]</td> 
@@ -555,7 +555,7 @@ Dieses Aktionsmodul hat einen Kommentar für die angegebene Karte erstellt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Karten-ID]</td> 
@@ -578,7 +578,7 @@ Dieses Aktionsmodul ruft die Kommentare von der angegebenen Karte ab.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Karten-ID]</td> 
@@ -603,11 +603,11 @@ Dieses Aktionsmodul führt einen benutzerdefinierten Aufruf an die Workfront-For
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden der [!DNL Workfront] App auf [!DNL Workfront Fusion], siehe <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Herstellen einer Verbindung zu Workfront-Pinnwänden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können eine bestehende Workfront-Verbindung verwenden, um eine Verbindung zu Workfront-Pinnwänden herzustellen, oder Sie können eine bestimmte Workfront-Pinnwand-Verbindung verwenden. </p><p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Erstellen einer Verbindung zu Workfront-Pinnwänden</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Geben Sie einen Pfad relativ zu ein<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
+   <td> <p>Geben Sie einen Pfad relativ zu <code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code> ein.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Methode]</td> 
@@ -623,7 +623,7 @@ Dieses Aktionsmodul führt einen benutzerdefinierten Aufruf an die Workfront-For
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form einer eingebetteten JSON-Grafik hinzu. </p> <p>Beispiel:</p><p>In diesem Beispiel wird der Spaltenname aktualisiert. Sie können <code>boardId</code> und <code>columnId</code> als GUIDs, die von einem vorherigen Modul entweder hartcodiert oder zugeordnet wurden.<p><pre>{
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form einer eingebetteten JSON-Grafik hinzu. </p> <p>Beispiel:</p><p>In diesem Beispiel wird der Spaltenname aktualisiert. Sie können die <code>boardId</code> und <code>columnId</code> als GUIDs einbeziehen, die entweder hartcodiert sind oder von einem vorherigen Modul zugeordnet wurden.<p><pre>{
 
   &quot;query&quot;: &quot;mutation { updateColumn(boardId: \&quot;\&quot;, columnId: \&quot;\&quot;, updateColumnInput: { name: \&quot;\&quot; }) { id name }}&quot;
 

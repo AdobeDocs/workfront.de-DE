@@ -28,7 +28,7 @@ Die Konfiguration einer Ereignisbenachrichtigung für eine Gruppe wirkt sich auf
 
 Informationen dazu, wie ein Workfront-Administrator eine Ereignisbenachrichtigung entsperrt, finden Sie unter [Entsperren oder Sperren der Konfiguration von Ereignisbenachrichtigungen für alle Gruppen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-Informationen zur standardmäßigen Benachrichtigungseinstellung für ein Ereignis finden Sie unter [Typen von Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Informationen zur standardmäßigen Benachrichtigungseinstellung für ein Ereignis finden Sie unter [Ereignistypen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Zugriffsanforderungen
 
@@ -44,34 +44,34 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Anzeigen und Konfigurieren von Ereignisbenachrichtigungen einer Gruppe
 
-1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind und sich bereits auf der Seite &quot;E-Mail-Benachrichtigungen&quot;befinden (Einrichtung > E-Mail > Benachrichtigungen), können Sie Folgendes tun und dann zu Schritt 6 &quot;Löschen&quot;überspringen. **Systemereignisbenachrichtigungen** Geben Sie in das Feld oberhalb der Liste den Gruppennamen in das Feld ein und klicken Sie dann auf die Gruppenname, sobald sie angezeigt wird.
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind und sich bereits auf der Seite &quot;E-Mail-Benachrichtigungen&quot;befinden (Setup > E-Mail > Benachrichtigungen), können Sie Folgendes tun und dann zu Schritt 6 wechseln: Löschen Sie **Systemereignisbenachrichtigungen** im Feld über der Liste, beginnen Sie mit der Eingabe des Gruppennamen in das Feld und klicken Sie dann auf die Gruppe, wenn sie angezeigt wird.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe der obersten Ebene.
 1. Klicken Sie im linken Menü auf **Ereignisbenachrichtigungen**.
 
-   In der angezeigten Liste wird die **Aktiv** zeigt links an, welche Benachrichtigungen für die Gruppe aktiv (blau) und inaktiv (grau) sind.
+   In der angezeigten Liste zeigt die Spalte **Aktiv** links an, welche Benachrichtigungen für die Gruppe aktiv (blau) und inaktiv (grau) sind.
 
-1. So aktivieren oder deaktivieren Sie eine Benachrichtigung zum entsperrten Ereignis: Klicken Sie auf die Schaltfläche im <strong>Aktiv</strong> zu aktivierende Spalte <img src="assets/email-notification-enabled-unlocked.png"> oder deaktivieren Sie <img src="assets/email-notification-disabled-unlocked.png"> es.
+1. So aktivieren oder deaktivieren Sie eine Benachrichtigung über ein entsperrtes Ereignis: Klicken Sie auf die Schaltfläche in der Spalte <strong>Aktiv</strong> , um sie zu aktivieren <img src="assets/email-notification-enabled-unlocked.png"> oder deaktivieren <img src="assets/email-notification-disabled-unlocked.png"> it.
 
    >[!INFO]
    >
-   >**Beispiel:** Sie können die beiden wichtigsten Marketing-Gruppe-Ereignisbenachrichtigungen konfigurieren, die unten angezeigt werden und für Gruppen entsperrt wurden.</p> <p> <img src="assets/configure-group-event-notifications.png">
-   >* Wenn eine Schaltfläche in <strong>Aktiv</strong> Spalte ist grau und abgeblendet <img src="assets/email-notification-disabled-locked.png">, wird die Ereignisbenachrichtigung für alle Benutzer deaktiviert und Gruppenadministratoren können sie nicht aktivieren oder die Betreffzeile der E-Mail bearbeiten
-   >* Wenn eine Schaltfläche in <strong>Aktiv</strong> Spalte ist grau und nicht abgeblendet <img src="assets/email-notification-disabled-unlocked.png">, lautet die Ereignisbenachrichtigung . <strong>deaktiviert für alle Benutzer und</strong> -Gruppenadministratoren können sie für ihre Gruppen aktivieren.
-   >* Wenn eine Schaltfläche in <strong>Aktiv</strong> Spalte ist blau und abgeblendet <img src="assets/email-notification-enabled-locked.png">, wird die Ereignisbenachrichtigung für alle Benutzer aktiviert und Gruppenadministratoren können sie nicht deaktivieren oder die E-Mail-Betreffzeile für ihre Gruppen bearbeiten.
-   >* Wenn eine Schaltfläche in <strong>Aktiv</strong> -Spalte ist blau und nicht abgeblendet <img src="assets/email-notification-enabled-unlocked.png">, lautet die Ereignisbenachrichtigung . <strong>für alle Benutzer aktiviert und</strong> -Gruppenadministratoren können sie für ihre Gruppen deaktivieren.
+   >**Beispiel:** Sie können die beiden wichtigsten Marketing-Gruppen-Ereignisbenachrichtigungen konfigurieren, die unten angezeigt werden und für Gruppen entsperrt wurden.</p> <p> <img src="assets/configure-group-event-notifications.png">
+   >* Wenn eine Schaltfläche in der Spalte <strong>Aktiv</strong> grau und abgeblendet ist <img src="assets/email-notification-disabled-locked.png">, die Ereignisbenachrichtigung ist für alle Benutzer deaktiviert und Gruppenadministratoren können sie nicht aktivieren oder die Betreffzeile der E-Mail bearbeiten
+   >* Wenn eine Schaltfläche in der Spalte <strong>Aktiv</strong> grau und nicht abgeblendet ist <img src="assets/email-notification-disabled-unlocked.png"> ist die Ereignisbenachrichtigung für alle Benutzer deaktiviert und </strong> Gruppenadministratoren können sie für ihre Gruppen aktivieren.<strong>
+   >* Wenn eine Schaltfläche in der Spalte <strong>Aktiv</strong> blau und abgeblendet ist <img src="assets/email-notification-enabled-locked.png">, wird die Ereignisbenachrichtigung für alle Benutzer aktiviert und Gruppenadministratoren können sie nicht deaktivieren oder die E-Mail-Betreffzeile für ihre Gruppen bearbeiten.
+   >* Wenn eine Schaltfläche in der Spalte <strong>Aktiv</strong> blau und nicht abgeblendet ist <img src="assets/email-notification-enabled-unlocked.png"> ist die Ereignisbenachrichtigung für alle Benutzer aktiviert und </strong> Gruppenadministratoren können sie für ihre Gruppen deaktivieren.<strong>
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

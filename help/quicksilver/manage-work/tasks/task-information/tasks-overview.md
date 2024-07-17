@@ -22,7 +22,7 @@ Eine Aufgabe ist ein Arbeitselement innerhalb eines Projekts. Es ist ein endlich
 
 Aufgaben können Benutzern zugewiesen werden, die abgeschlossen werden sollen. Wenn alle Aufgaben in einem Projekt abgeschlossen sind, kann der Projektstatus als Abgeschlossen markiert werden.
 
-Weitere Informationen zu Projekten in Adobe Workfront finden Sie unter [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
+Weitere Informationen zu Projekten in Adobe Workfront finden Sie unter [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
 Die folgenden Aufgaben in einem Projekt sind verfügbar:
 
@@ -44,7 +44,7 @@ Weitere Informationen zum Zusammenfassungsabschlussmodus von Projekten finden Si
 
 Unteraufgaben oder untergeordnete Aufgaben sind Aufgaben, die unter einer übergeordneten Aufgabe aufgeführt sind. Sie beeinflussen normalerweise die Aktualisierung und Auflösung der übergeordneten Aufgabe.
 
-Weitere Informationen zu übergeordneten Aufgaben finden Sie unter [Übersicht über übergeordnete Aufgaben](#overview-of-parent-tasks) in diesem Artikel.
+Weitere Informationen zu übergeordneten Aufgaben finden Sie unter [Überblick über übergeordnete Aufgaben](#overview-of-parent-tasks) in diesem Artikel.
 
 Weitere Informationen zum Erstellen einer untergeordneten Aufgabe finden Sie unter [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
@@ -62,4 +62,4 @@ Sie können Arbeitsaufgaben aktualisieren und abschließen, ohne die Aktualisier
 
 ## Wiederkehrende Aufgaben
 
-Wenn eine Aufgabe wiederholt auftritt, können Sie sie als wiederkehrende Aufgabe mit mehreren Wiederholungen erstellen. Informationen zu wiederkehrenden Aufgaben finden Sie unter [Übersicht über wiederkehrende Aufgaben](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+Wenn eine Aufgabe wiederholt auftritt, können Sie sie als wiederkehrende Aufgabe mit mehreren Wiederholungen erstellen. Weitere Informationen zu wiederkehrenden Aufgaben finden Sie unter [Übersicht über wiederkehrende Aufgaben](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

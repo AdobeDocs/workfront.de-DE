@@ -10,7 +10,7 @@ exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ Die Visualisierung &quot;Aktivität nach Team&quot;zeigt Aktivitäten an, die w�
 >[!NOTE]
 >
 >Die Visualisierung der Projektaktivität ähnelt dieser Visualisierung, zeigt jedoch Aktivitäten basierend auf Personen an, die Projekten zugewiesen sind, anstatt auf Personen, die einem Startseiten-Team zugewiesen sind.\
->Informationen zur Visualisierung der Projektaktivität finden Sie unter [Anzeigen der Visualisierung der Projektaktivität in der erweiterten Analyse](../enhanced-analytics/project-activity-overview.md).
+>Informationen zur Visualisierung der Projektaktivität finden Sie unter [Anzeigen der Visualisierung der Projektaktivität in Enhanced Analytics](../enhanced-analytics/project-activity-overview.md).
 
 ![](assets/activity-by-team-350x113.png){width="700"}
 
@@ -59,25 +59,25 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
-Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;in der [Übersicht über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Erläuterung der Visualisierung &quot;Aktivität nach Team&quot;
 
 Die verschiedenen Aktivitäten werden in verschiedenen Farben angezeigt, um bestimmte Ereignisse über den gefilterten Zeitraum zusammenzufassen:
 
-* **Benutzer angemeldet**: Die lilafarbenen Kästchen zeigen, dass sich Personen des Startseiten-Teams an diesem Tag angemeldet haben. Ein dunklerer Schatten zeigt eine höhere Anzahl von Personen an, die sich anmelden.
+* **Benutzer, die sich angemeldet haben**: Die lilafarbenen Felder zeigen, dass sich Personen des Startseiten-Teams an diesem Tag angemeldet haben. Je dunkler der Farbton, umso mehr Personen haben sich angemeldet.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Änderung des Aufgabenstatus**: Rosa Kästchen zeigen an, dass Personen im Startseiten-Team den Status einer Aufgabe an diesem Tag geändert haben. Eine dunklere Schattierung weist auf eine höhere Anzahl von Aufgabenstatus hin, die sich ändern.
+* **Änderung des Aufgabenstatus**: Rosa Kästchen zeigen an, dass Personen im Startteam den Status einer Aufgabe an diesem Tag geändert haben. Je dunkler der Farbton, umso mehr Aufgabenstatus haben sich geändert.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Abgeschlossene Aufgaben**: Blaue Kästchen zeigen, dass Personen im Zuhause-Team an diesem Tag eine Aufgabe abgeschlossen haben. Eine dunklere Schattierung weist auf eine höhere Anzahl an auszuführenden Aufgaben hin.
+* **Aufgaben abgeschlossen**: blaue Kästchen zeigen an, dass Personen im Startseiten-Team eine Aufgabe an diesem Tag abgeschlossen haben. Je dunkler der Farbton, umso mehr Aufgaben wurden abgeschlossen.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -87,14 +87,14 @@ Anhand dieser Informationen können Sie Folgendes feststellen:
 
 * Welche Aktivitäten werden in einem Home-Team durchgeführt und wie hoch ist der Anteil?
 * Welche Home-Teams überarbeitet werden oder das System verwenden mehr.
-* Wenn die Verteilung der Arbeit für das Heimteam geeignet ist.
+* ob die Arbeitsteilung für das Stamm-Team angemessen ist.
 
-Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Überblick über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Ansicht der Aktivität nach Teamvisualisierung
 
-1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon-16x12.png), wählen Sie **Analytics**.
-1. Wählen Sie im linken Bereich die Option **Personen**.
+1. Klicken Sie auf das Hauptmenü-Symbol ![](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics** aus.
+1. Wählen Sie im linken Bereich **Personen** aus.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
@@ -102,11 +102,11 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Bedingt) Wenn Sie Ihren Team-Filter nicht festgelegt haben, fügen Sie den Team-Filter hinzu und wählen Sie die Teams aus, für die Sie Daten anzeigen möchten.
 
-   Weitere Informationen zum Hinzufügen von Filtern in der erweiterten Analyse finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Weitere Informationen zum Hinzufügen von Filtern in Enhanced Analytics finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nach dem Hinzufügen von Filtern werden Daten für bis zu 50 Projekte angezeigt und die Filter bleiben auch dann aktiv, wenn Sie die Seite verlassen oder sich von Workfront abmelden.
 
@@ -138,7 +138,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    ![](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das Symbol Exportieren . ![](assets/export.png) Wählen Sie oben rechts in der Visualisierung das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie in der oberen rechten Ecke der Visualisierung auf das Symbol Exportieren ![](assets/export.png) und wählen Sie dann das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**

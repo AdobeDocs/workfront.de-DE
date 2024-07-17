@@ -32,11 +32,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Select oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Beliebig</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Alle</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,11 +49,11 @@ Der Desktop Proofing Viewer sucht beim Start automatisch nach Aktualisierungen.�
 
 So suchen Sie manuell nach Updates:
 
-1. Klicken Sie in einem Mac auf **Workfront-Testversand** > **Informationen zum Workfront-Testversand** in der Navigationsleiste von Apple über dem Desktop Proofing Viewer. 
+1. Klicken Sie in einer Mac in der Navigationsleiste von Apple über dem Desktop Proofing Viewer auf **Workfront Proof** > **About Workfront Proof** . 
 
    Oder
 
-   Klicken Sie unter Windows auf **Fenster** > **Informationen zum Workfront-Testversand** in der Menüleiste über dem Desktop Proofing Viewer.
+   Klicken Sie unter Windows in der Menüleiste über dem Desktop Proofing Viewer auf **Window** > **About Workfront Proof** .
 
    Der Desktop Proofing Viewer sucht nach Aktualisierungen.
 
@@ -61,21 +61,21 @@ So suchen Sie manuell nach Updates:
 
 ## Standardaktualisierungen
 
-Der Desktop Proofing Viewer kann ohne nicht kritische Updates funktionieren. Um eine optimale Funktionalität zu erzielen, wird jedoch empfohlen, sie anzuwenden, sobald sie verfügbar sind. Sie werden benachrichtigt, wenn sie von einer **App-Update** in der linken Seitenleiste des Desktop Proofing-Viewers.
+Der Desktop Proofing Viewer kann ohne nicht kritische Updates funktionieren. Um eine optimale Funktionalität zu erzielen, wird jedoch empfohlen, sie anzuwenden, sobald sie verfügbar sind. Sie werden benachrichtigt, wenn sie über die Schaltfläche **App-Update** in der linken Seitenleiste des Desktop Proofing-Viewers verfügbar sind.
 
-1. Klicken **App-Aktualisierung.**
+1. Klicken Sie auf **App-Update.**
 
    Die Updates werden heruntergeladen.
 
-1. Klicken **Starten Sie neu.**
+1. Klicken Sie auf **Neu starten.**
 
-   Die **Desktop Proofing Viewer** wird neu gestartet und Sie können die Arbeit an Ihrem Testversand fortsetzen.
+   Der **Desktop Proofing Viewer** wird neu gestartet und Sie können die Arbeit an Ihrem Testversand fortsetzen.
 
 ## Erforderliche Updates
 
 Es ist wichtig, dass Sie die erforderlichen Aktualisierungen für den Desktop Proofing Viewer ausführen. Danach müssen Sie neu starten, um den Viewer weiterhin zu verwenden.
 
 1. Öffnen Sie den Desktop Proofing Viewer.
-1. Klicken Sie im angezeigten Feld auf **Starten Sie neu.**
+1. Klicken Sie in dem angezeigten Feld auf **Neu starten.**
 
    Der Desktop Proofing Viewer wird neu gestartet und Sie können die Arbeit an Ihrem Testversand fortsetzen. 

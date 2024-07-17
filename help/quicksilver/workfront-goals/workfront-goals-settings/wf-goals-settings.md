@@ -25,7 +25,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -38,6 +38,6 @@ Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Vorausse
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Benachrichtigungen zu Adobe Workfront-Zielen aktivieren](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* [ Adobe Workfront-Zielbenachrichtigungen aktivieren](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * [Freigeben eines Ziels in Workfront-Zielen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 * [Terminologie für Adobe Workfront-Ziele anpassen](../workfront-goals-settings/customize-wf-goals-terminology.md)

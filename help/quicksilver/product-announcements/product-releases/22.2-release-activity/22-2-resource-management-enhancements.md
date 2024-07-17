@@ -25,7 +25,7 @@ in January 2022
 
 die Woche vom 4. April 2022.
 
-Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [2.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [22.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Verbesserungen der Navigation des Workload Balancer
 
@@ -37,23 +37,23 @@ Um Ihr Erlebnis bei der Verwendung des Workload Balancer zu verbessern, haben wi
 * Die Größe des linken Bedienfelds kann jetzt ebenfalls geändert werden.
 * Es gibt jetzt einen Vollbildmodus für den Arbeitslastausgleich.
 
-Weitere Informationen zum Navigieren in Workload Balancer finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Weitere Informationen zum Navigieren in den Lastenausgleich finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Zugriff auf erweiterte Zuweisungen im Arbeitslastausgleich
 
 Um das Zuweisen von Arbeitselementen zu vereinfachen und genauer zu gestalten, können Sie jetzt erweiterte Zuweisungen vornehmen, wenn Sie Arbeitselemente manuell im Arbeitslastausgleich zuweisen. Vor dieser Verbesserung konnten Sie beim Bearbeiten von Elementen über die Kopfzeilen der Elemente oder in Listen auf erweiterte Zuweisungen zugreifen.
 
-Weitere Informationen finden Sie unter [Manuelles Zuweisen von Arbeiten mithilfe des Lastenausgleichs](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+Weitere Informationen finden Sie unter [Manuelles Zuweisen der Arbeit mit dem Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## Neue Formel zur Berechnung der Benutzerverfügbarkeit bei Auswahl der Voreinstellung Standardzeitplan
 
 Um genauere Informationen in den Tools zur Ressourcenverwaltung bereitzustellen, wurde die Formel, die Workfront verwendet, um die Benutzerverfügbarkeit zu berechnen, geändert, wenn der Workfront-Administrator unter &quot;Voreinstellungen für die Ressourcenverwaltung&quot;die Option &quot;Standardzeitplan&quot;auswählt. Mit der neuen Aktualisierung berechnet Workfront die Benutzerverfügbarkeit anhand der folgenden Formel:
 
-Verfügbare Stunden des Benutzers = (Standardzeitplan - Ausnahmen) &#42; FTE - Zeitdauer
+Verfügbare Stunden für Benutzer = (Standardzeiträume - Ausnahmen) &#42; FTE - Zeitdauer
 
 Vor dieser Aktualisierung verwendete Workfront die folgende Formel, um die Benutzerverfügbarkeit bei Auswahl des Standardzeitplans zu berechnen:
 
-Verfügbare Stunden des Benutzers = (Standardzeitplan - (Ausnahmen planen + Zeitdauer)) &#42; FTE-Wert des Benutzers
+User Available Hours = (Standard Schedule Hours - (Schedule Exceptions + Time of hours) &#42; User FTE value
 
 Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

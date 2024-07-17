@@ -23,10 +23,10 @@ Eine Bedingung ist eine visuelle Darstellung des Fortschritts eines Projekts, ei
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Benutzerdefinierte Bedingung erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
-* [Anzeigereihenfolge der Bedingungen ändern](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
+* [Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
+* [Ändern der Anzeigereihenfolge der Bedingungen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
 * [Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
-* [Benutzerdefinierte Bedingung als Standard für Aufgaben und Probleme festlegen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
+* [Legen Sie eine benutzerdefinierte Bedingung als Standard für Aufgaben und Probleme fest](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
 * [Benutzerdefinierte Bedingung löschen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
 
-Weitere Informationen zu Bedingungen und deren Anwendung auf Projekte, Aufgaben und Probleme finden Sie unter [Übersicht über Projektbedingung und Bedingungstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) und [Aktualisierungsbedingung für Aufgaben und Probleme](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+Weitere Informationen zu Bedingungen und deren Anwendung auf Projekte, Aufgaben und Probleme finden Sie unter [Übersicht über Projektbedingungen und Bedingungstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) und [Bedingung für Aufgaben und Probleme aktualisieren](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).

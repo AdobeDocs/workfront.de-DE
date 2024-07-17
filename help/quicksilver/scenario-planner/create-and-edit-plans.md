@@ -8,14 +8,14 @@ feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
 source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 1%
+source-wordcount: '2427'
+ht-degree: 0%
 
 ---
 
 # Erstellen und Bearbeiten von Plänen im [!DNL Scenario Planner]
 
-Sie können Pläne erstellen, indem Sie die [!DNL Workfront Scenario Planner], wenn Sie die Strategie Ihres Unternehmens auf höherer Ebene priorisieren. Weitere Informationen zu Plänen finden Sie unter [Übersicht über Pläne im [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
+Sie können Pläne im Rahmen der Verwendung von [!DNL Workfront Scenario Planner] erstellen, wenn Sie die übergeordnete Strategie Ihres Unternehmens priorisieren. Weitere Informationen zu Plänen finden Sie unter [Übersicht über Pläne in der [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -34,7 +34,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] Plan*</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td>[!UICONTROL Business] oder höher</td> 
   </tr> 
   <tr> 
@@ -43,20 +43,20 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td>Produkt</td> 
-   <td> <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] , um auf die in diesem Artikel beschriebene Funktionalität zuzugreifen.</p> <p>Informationen zum Abrufen des [!UICONTROL Workfront Scenario Planner] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Zugriff erforderlich für die Verwendung des [!UICONTROL Szenario-Planers]</a>. </p> </td> 
+   <td> <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können.</p> <p>Weitere Informationen zum Abrufen des [!UICONTROL Workfront Scenario Planners] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!UICONTROL Scenario Planners] benötigten Zugriffs</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Konfigurationen auf Zugriffsebene* </td> 
-   <td> <p>Zugriff auf [!UICONTROL Bearbeiten] oder höher auf die [!DNL Scenario Planner]</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Für Informationen zur [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL Bearbeiten] oder höher auf die [!DNL Scenario Planner]</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektberechtigungen </p> </td> 
-   <td> <p>[!DNL Manage] Berechtigungen für einen Plan</p> <p>Informationen über die Anforderung eines zusätzlichen Zugangs zu einem Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>[!DNL Manage] Berechtigungen für einen Plan</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan in der [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Erstellen und Bearbeiten von Plänen
 
@@ -68,27 +68,27 @@ Sie können einen Plan von Grund auf neu erstellen oder einen existierenden bear
 
 In diesem Artikel wird beschrieben, wie Sie einen Plan von Grund auf neu erstellen oder einen bestehenden Plan bearbeiten können.
 
-Alle Überlegungen zu Plänen, einschließlich der für einen Plan verfügbaren Informationen, finden Sie unter [Übersicht über Pläne im [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
+Alle Überlegungen zu Plänen, einschließlich der für einen Plan verfügbaren Informationen, finden Sie unter [Übersicht über Pläne in der [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
-Informationen zum Löschen von Plänen finden Sie unter [Löschen von Plänen in [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
+Weitere Informationen zum Löschen von Plänen finden Sie unter [Pläne löschen in der  [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
 
 So erstellen oder bearbeiten Sie einen Plan:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png)Klicken Sie auf [!UICONTROL Szenarien].
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf [!UICONTROL Szenarien].
 
-   Eine Liste der von Ihnen erstellten Pläne wird im [!DNL Workfront Scenario Planner].
+   Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfront Scenario Planner] angezeigt.
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Filter]** icon ![](assets/filter-icon-34x37.png)in der oberen rechten Ecke der Planliste aus und wählen Sie eine der folgenden Optionen aus:
+1. (Optional) Klicken Sie oben rechts in der Planliste auf das Symbol **[!UICONTROL Filter]** ![](assets/filter-icon-34x37.png) und wählen Sie eine der folgenden Optionen aus:
 
    | Filter | Beschreibung |
    |---|---|
    | [!UICONTROL Alle] | Zeigt alle Pläne an, die Sie erstellt haben oder die für Sie freigegeben wurden. |
-   | [!UICONTROL Meine Pläne] | Zeigt von Ihnen erstellte Pläne an. |
+   | [!UICONTROL Meine Pläne] | Zeigt die von Ihnen erstellten Pläne an. |
    | [!UICONTROL Für mich freigegeben] | Zeigt die für Sie freigegebenen Pläne an. |
 
    ![](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Suche]** icon ![](assets/search-icon.png) um einen Suchbegriff einzugeben und einen Plan schnell in der Liste zu finden.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Suchen]** ![](assets/search-icon.png), um einen Suchbegriff einzugeben und einen Plan schnell in der Liste zu finden.
 
 1. Klicken Sie auf den Namen eines bestehenden Plans, um ihn zu bearbeiten und mit Schritt 7 fortzufahren.
 
@@ -98,7 +98,7 @@ So erstellen oder bearbeiten Sie einen Plan:
 
    Oder
 
-   Klicken **[!UICONTROL Neuer Plan]** in der linken oberen Ecke, um einen Plan zu erstellen und mit Schritt 5 fortzufahren.
+   Klicken Sie oben links auf **[!UICONTROL Neuer Plan]** , um einen Plan zu erstellen und mit Schritt 5 fortzufahren.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
@@ -106,7 +106,7 @@ So erstellen oder bearbeiten Sie einen Plan:
 
    ![](assets/new-plan-button.png)
 
-   Die [!UICONTROL Neuer Plan] angezeigt.
+   Das Feld [!UICONTROL Neuer Plan] wird angezeigt.
 
    ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -127,9 +127,9 @@ So erstellen oder bearbeiten Sie einen Plan:
       <td role="rowheader"><span>FTE ([!UICONTROL Vollzeitäquivalent]) oder [!UICONTROL Stunden]</span> </td> 
       <td> <p><span>Wählen Sie eine der folgenden Optionen aus, um anzugeben, wie Sie die Informationen zur Rolle des Auftrags für diesen Plan schätzen möchten:</span> </p> 
        <ul> 
-      <li> <p><span><strong>FTE</strong>. Dies ist die Standardeinstellung </span> </p> 
+      <li> <p><span><strong>FTE</strong>. Dies ist der Standardwert </span> </p> 
       <p><b>WICHTIG</b></p>  
-      <p>Für alle Berechnungen im [!DNL Scenario Planner], [!DNL Workfront] verwendet den folgenden Wert: 1 VZÄ = 8 Stunden. </p> </li> 
+      <p>Für alle Berechnungen im [!DNL Scenario Planner] verwendet [!DNL Workfront] den folgenden Wert: 1 FTE = 8 Stunden. </p> </li> 
       <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
        </ul> <p><b>WICHTIG</b></p>
 
@@ -153,11 +153,11 @@ So erstellen oder bearbeiten Sie einen Plan:
 
 <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
-1. (Bedingt) Klicken Sie auf **[!UICONTROL Nächste]**.
+1. (Bedingt) Klicken Sie auf **[!UICONTROL Weiter]**.
 
-   Die Zeitleiste des Plans wird als **[!UICONTROL Ursprüngliches Szenario]**.
+   Die Zeitleiste des Plans wird als **[!UICONTROL Anfangsszenario]** angezeigt.
 
-   Weitere Informationen zum Erstellen zusätzlicher Szenarien finden Sie unter [Erstellen und Vergleichen von Planszenarien in [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+   Informationen zum Erstellen zusätzlicher Szenarien finden Sie unter [Erstellen und Vergleichen von Planszenarien in der  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
 1. (Optional) Wählen Sie aus dem Dropdownmenü &quot;Timeline&quot;eine der Optionen in der folgenden Tabelle aus, um die Ansicht der Zeitleiste des Plans zu ändern.
 
@@ -166,25 +166,25 @@ So erstellen oder bearbeiten Sie einen Plan:
    | Dropdown-Menüoption | Beschreibung |
    |---|---|
    | [!UICONTROL Monat] | Zeigt die Timeline nach Monat an. Dies ist die Standardoption und die einzige Option für einen Jahresplan. |
-   | [!UICONTROL Quartal] | Zeigt die Timeline vierteljährlich an. Diese Option ist nur verfügbar, wenn die Variable [!UICONTROL Dauer] des Plans beträgt 3 oder 5 Jahre. Dies ist die Standardoption für einen Dreijahresplan. |
-   | [!UICONTROL Jahr] | Zeigt die Timeline nach Jahr an. Diese Option ist nur verfügbar, wenn die Variable [!UICONTROL Dauer] des Plans beträgt fünf Jahre. Dies ist die Standardoption für einen Fünfjahresplan. |
+   | [!UICONTROL Quartal] | Zeigt die Timeline vierteljährlich an. Diese Option ist nur verfügbar, wenn die [!UICONTROL Laufzeit] des Plans 3 oder 5 Jahre beträgt. Dies ist die Standardoption für einen Dreijahresplan. |
+   | [!UICONTROL Year] | Zeigt die Timeline nach Jahr an. Diese Option ist nur verfügbar, wenn die [!UICONTROL Laufzeit] des Plans 5 Jahre beträgt. Dies ist die Standardoption für einen Fünfjahresplan. |
 
 1. (Optional) Scrollen Sie von links nach rechts, um die gesamte Dauer des Plans anzuzeigen.
-1. (Optional) Klicken Sie auf die **[!UICONTROL Heute]** Indikatorlinie, um zum aktuellen Tag zurückzukehren.
+1. (Optional) Klicken Sie auf die Indikatorlinie **[!UICONTROL Today]** , um zum aktuellen Tag zurückzukehren.
 
    ![](assets/today-indicator-350x160.png)
 
-1. Klicken Sie auf **[!UICONTROL Vorgangsrollen]** in der Kopfzeile des Plans zum Hinzufügen von Auftragsrollen, die zur Ausführung des Plans verfügbar sein werden.
+1. Klicken Sie in der Kopfzeile des Plans auf das Feld **[!UICONTROL Vorgangsrollen]** , um Auftragsrollen hinzuzufügen, die für die Ausführung des Plans verfügbar sein werden.
 
-   Die Einzelheiten der [!UICONTROL Vorgangsrollen] angezeigt.
+   Die Details des Felds [!UICONTROL Auftragsrollen] werden angezeigt.
 
    >[!TIP]
    >
-   >Die Rollenzuweisungseinheit (VZÄ oder Stunden), die [!DNL Workfront] verwendet für diesen Plan wird in Klammern im Titel des Felds angezeigt.
+   >Die Rollenzuordnungseinheit (VZÄ oder Stunden), die [!DNL Workfront] für diesen Plan verwendet, wird im Titel des Feldes in Klammern angezeigt.
 
    ![](assets/adding-people-to-plan-350x206.png)
 
-1. Klicken Sie auf **[!UICONTROL Eingabe der Auftragsrolle beginnen]** und wählen Sie eine Rolle aus der Liste aus oder geben Sie den Namen einer aktiven Rolle ein.
+1. Klicken Sie auf das Feld **[!UICONTROL Eingeben der Auftragsrolle beginnen]** und wählen Sie eine Rolle aus der Liste aus oder geben Sie den Namen einer aktiven Auftragsrolle ein.
 
    Wenn Sie auf dieses Feld klicken, werden alle aktiven Vorgangsrollen im System aufgelistet.
 
@@ -198,19 +198,19 @@ So erstellen oder bearbeiten Sie einen Plan:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Max. verfügbar] (für FTE) </p> <p role="rowheader">oder </p> <p role="rowheader"><span>[!UICONTROL Insgesamt verfügbar] (für Stunden)</span> </p> </td> 
-      <td> <p><span>Je nachdem, ob Sie sich für die Verwendung von Stunden oder FTE für Ihren Plan entschieden haben, geben Sie</span> die Anzahl der FTE für die berufliche Rolle <span>oder Stunden</span> die zur Ausführung der Planarbeiten in den folgenden Feldern verfügbar sind: </p> 
+      <td> <p><span>Je nachdem, ob Sie die Verwendung von Stunden oder FTE für Ihren Plan ausgewählt haben, geben Sie </span> die Anzahl der FTEs für die Auftragsrolle <span>oder Stunden</span> ein, die für die Ausführung der Planarbeiten verfügbar sind, und zwar in den folgenden Feldern: </p> 
        <ul> 
-        <li> <p style="font-weight: normal;"><strong>[!UICONTROL Insgesamt verfügbar]</strong> (für Stunden): Geben Sie die Gesamtzahl der Stunden für alle Monate während der Dauer des Szenarios an. Standardmäßig [!DNL Workfront] teilt die verfügbare Gesamtanzahl gleichmäßig auf alle Monate während der Dauer des Szenarios. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Wenn Sie für einen Designer 1200 Stunden eingeben, bedeutet dies, dass der Designer während der Laufzeit des Plans für 100 Stunden pro Monat verfügbar ist, wenn die Plandauer [!UICONTROL Dauer] 1 Jahr beträgt. </p> </li> 
-        <li> <p><b>[!UICONTROL Max. verfügbar]</b> (für VZÄ): Geben Sie an, wie viele FTE für jeden Monat während der Laufzeit des Plans zur Verfügung stehen. Standardmäßig <strong>Workfront</strong> weist jedem Monat während der Dauer des Szenarios die maximal verfügbare Zahl [!UICONTROL] zu.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Wenn Sie eine FTE für einen Berater eingeben, bedeutet dies, dass der Berater während der Laufzeit des Plans für jeden Monat für eine FTE zur Verfügung steht. </p> <p>Sie können eine Zahl unter 1 FTE eingeben. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Eine 0,5-Beraterrolle würde bedeuten, dass ein Berater die Hälfte seiner FTE (in der Regel 4 Stunden, wobei 8 Stunden 1 FTE betragen) für die Arbeit an diesem Plan aufwenden würde. Für alle Berechnungen im Szenario-Planer verwendet Workfront den folgenden Wert: 1 VZÄ = 8 Stunden. </p> </li> 
+        <li> <p style="font-weight: normal;"><strong>[!UICONTROL Gesamt verfügbar]</strong> (für Stunden): Geben Sie die Gesamtanzahl der Stunden für alle Monate während der Dauer des Szenarios an. Standardmäßig teilt [!DNL Workfront] die verfügbare Gesamtanzahl gleichmäßig auf alle Monate während der Dauer des Szenarios. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Wenn Sie für eine Designer 1200 Stunden eingeben, bedeutet dies, dass die Designer während der Laufzeit des Plans für jeden Monat 100 Stunden zur Verfügung steht, wenn die Plandauer [!UICONTROL Dauer] 1 Jahr beträgt. </p> </li> 
+        <li> <p><b>[!UICONTROL Max. verfügbar]</b> (für FTE): Geben Sie die Anzahl der FTEs an, für die während der Laufzeit des Plans die Jobrolle für jeden Monat verfügbar ist. Standardmäßig weist <strong>Workfront</strong> jedem Monat während der Laufzeit des Szenarios die Zahl [!UICONTROL Max. verfügbare] Zahl zu.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Wenn Sie eine FTE für einen Berater eingeben, bedeutet dies, dass der Berater während der Laufzeit des Plans für jeden Monat für eine FTE zur Verfügung steht. </p> <p>Sie können eine Zahl unter 1 FTE eingeben. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Eine 0,5-Beraterrolle würde bedeuten, dass ein Berater die Hälfte seiner VZÄ (normalerweise 4 Stunden, wobei 8 Stunden 1 VZÄ betragen) für die Arbeit an diesem Plan aufwendet. Für alle Berechnungen im Szenario-Planer verwendet Workfront den folgenden Wert: 1 FTE = 8 Stunden. </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Max erforderlich] (für FTE)</p> <p role="rowheader">oder </p> <p role="rowheader"><span>[!UICONTROL Gesamt erforderlich] (für Stunden)</span> </p> </td> 
-      <td> <p><span>Je nachdem, ob Sie sich für die Verwendung von Stunden oder FTE für Ihren Plan entschieden haben, lesen Sie</span> die Anzahl der FTE für die berufliche Rolle <span>oder Stunden</span> die zum Abschließen der im Szenario vorgesehenen Initiativen erforderlich sind. Überprüfen Sie die folgenden Felder:</p> 
+      <td> <p><span>Je nachdem, ob Sie sich für die Verwendung von Stunden oder FTE für Ihren Plan entschieden haben, überprüfen Sie die Anzahl der FTEs für die Rolle als Job <span> oder Stunden</span>, die zum Abschließen der Initiativen im Szenario erforderlich sind. </span> Überprüfen Sie die folgenden Felder:</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Gesamt erforderlich]</strong> (für Stunden): Die Gesamtzahl der Stunden, die während der Laufzeit des Plans für alle Monate erforderlich sind.</p> </li> 
-        <li> <p><strong>[!UICONTROL Max. erforderlich]</strong> (für VZÄ): Die maximale Anzahl von VZÄ, die während der Laufzeit des Plans für einen der Monate benötigt werden. </p> </li> 
-       </ul> <p>Tipp: Die <span>maximum</span> Anzahl der FTE <span>oder die Gesamtzahl der Stunden</span> für diese Rolle erforderlich ist, wird angezeigt, nachdem Sie mit dem Hinzufügen von Initiativen begonnen haben. Informationen zum Hinzufügen von Initiativen zu einem Plan finden Sie unter <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]</a>.</p> </td> 
+        <li> <p><strong>[!UICONTROL Gesamt erforderlich]</strong> (für Stunden): Die Gesamtanzahl der Stunden, die für alle Monate während der Dauer des Plans erforderlich sind.</p> </li> 
+        <li> <p><strong>[!UICONTROL Max erforderlich]</strong> (für VZÄ): Die maximale Anzahl von VZÄ, die während der Laufzeit des Plans für einen der Monate erforderlich sind. </p> </li> 
+       </ul> <p>Tipp: Nach dem Hinzufügen von Initiativen wird die <span>maximale </span> Anzahl von FTEs <span> oder die Gesamtzahl der Stunden</span> angezeigt, die für diese Auftragsrolle erforderlich sind. Informationen zum Hinzufügen von Initiativen zu einem Plan finden Sie unter <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]</a>.</p> </td> 
      </tr> <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">[!UICONTROL Avg utilization]</td> 
@@ -223,19 +223,19 @@ So erstellen oder bearbeiten Sie einen Plan:
      --> 
      <tr> 
       <td role="rowheader">[!UICONTROL Stündliche Rate]</td> 
-      <td> <p>Dies ist der [!UICONTROL Kosten-Stunden]-Satz für die Stellenfunktion. Der Stundensatz wird in der Währung Ihres Systems angezeigt. Informationen zum Einrichten von Wechselkursen für Ihr System finden Sie unter <a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wechselkurse einrichten</a>.</p> </td> 
+      <td> <p>Dies ist der [!UICONTROL Kosten-Stunden]-Satz für die Stellenfunktion. Der Stundensatz wird in der Währung Ihres Systems angezeigt. Informationen zum Einrichten von Wechselkursen für Ihr System finden Sie unter <a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Bewegen Sie den Mauszeiger nach der Aktualisierung der Rolleninformationen über den Namen einer Auftragsrolle oder klicken Sie auf die Registerkarte . Klicken Sie dann auf **[!UICONTROL Papierkorbsymbol]** ![](assets/delete.png) , um sie aus dem Plan zu entfernen.
-1. Klicken **[!UICONTROL Aufgabenverteilung]**.
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Auftragsrolle oder klicken Sie auf die Registerkarte , nachdem Sie die Rolleninformationen aktualisiert haben, und klicken Sie dann auf das Papierkorbsymbol ]**![](assets/delete.png) , um sie aus dem Plan zu entfernen.**[!UICONTROL 
+1. Klicken Sie auf **[!UICONTROL Verteilung der Auftragsrolle]**.
 
    Der Bereich für die Auftragsrollenverteilung wird für alle Monate während der Dauer des Szenarios angezeigt.
 
    ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
-1. Geben Sie den Namen einer Auftragsrolle ein, um sie dem Plan im **[!UICONTROL Eingabe des Aufgabenrollenfelds beginnen]** und klicken Sie dann auf die Schaltfläche Eingabetaste , wenn sie in der Liste angezeigt wird. Dadurch wird die Stellenrolle zum [!UICONTROL Vorgangsrollen] Spalte.
+1. Geben Sie den Namen einer Auftragsrolle ein, die zum Plan hinzugefügt werden soll, im Feld **[!UICONTROL Aufgabenrolle beim Eingeben des Auftrags beginnen]** und klicken Sie dann auf &quot;Enter&quot;, wenn sie in der Liste angezeigt wird. Dadurch wird die Auftragsrolle zur Spalte [!UICONTROL Vorgangsrollen] hinzugefügt.
 1. Aktualisieren oder überprüfen Sie die folgenden Informationen für jeden Monat des Szenarios:
 
    <table style="table-layout:auto"> 
@@ -247,36 +247,36 @@ So erstellen oder bearbeiten Sie einen Plan:
       <td>Sowohl die für das Szenario verfügbare Rolle als auch die für die Initiativen im Szenario erforderlichen Aufgaben werden im Bereich "Verteilung der Rolle der Arbeitsplätze"angezeigt. Es gibt einen Hinweis darauf, ob die Schätzungen für die Rolle des Auftrags in FTEs oder Stunden in der Spaltenüberschrift enthalten sind. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Verfügbar] (max. &lt;number of="" ftes=""&gt;) </p> 
+      <td role="rowheader"> <p>[!UICONTROL Verfügbar] (max. &lt;Anzahl der VZÄ&gt;) </p> 
        <div> 
         <p>oder</p> 
-        <p>[!UICONTROL Verfügbar] (gesamt &lt;number of="" hours=""&gt;) </p> 
+        <p>[!UICONTROL Verfügbar] (insgesamt &lt;Anzahl der Stunden&gt;) </p> 
        </div> </td> 
-      <td> <p><span>Je nachdem, ob Sie sich für die Verwendung von Stunden oder FTE für Ihren Plan entschieden haben, überprüfen oder aktualisieren Sie</span> die monatliche Anzahl von FTE für die berufliche Rolle <span>oder Stunden</span> für das Szenario in den folgenden Feldern verfügbar:</p> 
+      <td> <p><span>Je nachdem, ob Sie die Verwendung von Stunden oder FTE für Ihren Plan ausgewählt haben, überprüfen oder aktualisieren Sie</span> die monatliche Anzahl von FTEs für die Rolle "Auftrag"<span>oder Stunden</span>, die für das Szenario in den folgenden Feldern verfügbar sind:</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Verfügbar] (max. &lt;number of="" ftes=""&gt;)</strong>: Die Zahl in Klammern zeigt die maximale Anzahl der Rollen an, die für einen der Monate des Szenarios verfügbar sind. Überprüfen oder aktualisieren Sie die Anzahl der VZÄ für jeden Monat des Szenarios. Durch eine Änderung der monatlichen Zuweisung könnte die Anzahl der VZÄ in den Klammern aktualisiert werden. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL Verfügbar] (gesamt &lt;number of="" hours=""&gt;)</strong>: Die Zahl in Klammern zeigt die Gesamtanzahl der Stunden an, die für alle Monate im Szenario verfügbar sind. Überprüfen oder aktualisieren Sie die Anzahl der Stunden für jeden Monat des Szenarios. Durch Änderung der monatlichen Zuordnung wird die Anzahl der Stunden in den Klammern aktualisiert.</span> </p> </li> 
+        <li> <p><strong>[!UICONTROL Verfügbar] (max &lt;Anzahl der FTE&gt;)</strong>: Die Anzahl in Klammern zeigt die maximale Anzahl der Rollen an, die für einen der Monate des Szenarios verfügbar sind. Überprüfen oder aktualisieren Sie die Anzahl der VZÄ für jeden Monat des Szenarios. Durch eine Änderung der monatlichen Zuweisung könnte die Anzahl der VZÄ in den Klammern aktualisiert werden. </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Verfügbar] (gesamt &lt;Anzahl der Stunden&gt;)</strong>: Die Zahl in Klammern zeigt die Gesamtanzahl der Stunden an, die für alle Monate im Szenario verfügbar sind. Überprüfen oder aktualisieren Sie die Anzahl der Stunden für jeden Monat des Szenarios. Durch Änderung der monatlichen Zuordnung wird die Anzahl der Stunden in den Klammern aktualisiert.</span> </p> </li> 
        </ul> <p>Die manuelle Aktualisierung der monatlichen Zuordnung von Aufgaben für Arbeitsplätze ist eine weitere Möglichkeit, um Konflikte zwischen Aufgabenrollen zwischen Initiativen im Szenario zu lösen. </p> <p>Tipp:   <p><span>Um die monatliche Rollenverfügbarkeit für mehrere Monate zu aktualisieren, geben Sie die Anzahl der Stunden oder FTEs in das Feld [!UICONTROL Verfügbar] eines Monats ein und ziehen Sie dann die Ecke des Felds über die angrenzenden Monate, um denselben Wert für jeden Monat zu kopieren. Legen Sie sie ab, um alle Monate zu aktualisieren.</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL Erforderlich] (max. &lt;number&gt;)</p> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL Erforderlich] (max &lt;Zahl&gt;)</p> 
        <div> 
         <p role="rowheader">oder</p> 
-        <p role="rowheader">[!UICONTROL Erforderlich] (insgesamt &lt;number&gt;)</p> 
+        <p role="rowheader">[!UICONTROL Erforderlich] (insgesamt &lt;Zahl&gt;)</p> 
        </div> </td> 
-      <td> <p><span>Je nachdem, ob Sie sich für die Verwendung von Stunden oder FTE für Ihren Plan entschieden haben, lesen Sie</span> die monatliche Anzahl von FTEs für die Rolle als Job, die für das Szenario erforderlich sind, in den folgenden Feldern: </p> 
+      <td> <p><span>Je nachdem, ob Sie die Verwendung von Stunden oder FTE für Ihren Plan ausgewählt haben, überprüfen Sie die monatliche Anzahl von FTEs für die Rolle als Job in den folgenden Feldern:</span> Die für das Szenario erforderliche Anzahl von FTEs für die Rolle als Job. </p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Erforderlich] (max. &lt;number of="" ftes=""&gt;)</strong>: Die Zahl in Klammern zeigt die maximale Anzahl von Rollen an, die für einen der Monate des Szenarios erforderlich sind. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL Erforderlich] (insgesamt &lt;number of="" hours=""&gt;)</strong>: Die Zahl in Klammern zeigt die Gesamtzahl der Stunden an, die für alle Monate des Szenarios erforderlich sind.</span> </p> </li> 
-       </ul> <p>Tipp: Sie können die erforderliche Anzahl von FTEs nicht ändern <span>oder Stunden</span> für die Rolle "Arbeit". Diese Zahl wird für das Szenario angezeigt, nachdem Sie mit dem Hinzufügen von Initiativen und deren Anforderungen an die Rolle in der Arbeitswelt begonnen haben. </p> </td> 
+        <li> <p><strong>[!UICONTROL Erforderlich] (max &lt;Anzahl der FTE&gt;)</strong>: Die Anzahl in Klammern zeigt die maximale Anzahl der Rollen an, die für einen der Monate des Szenarios erforderlich sind. </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Erforderlich] (total &lt;Anzahl der Stunden&gt;)</strong>: Die Anzahl in Klammern zeigt die Gesamtanzahl der Stunden an, die für alle Monate im Szenario erforderlich sind.</span> </p> </li> 
+       </ul> <p>Tipp: Sie können die erforderliche Anzahl von FTEs <span>oder Stunden</span> für die Auftragsrolle nicht ändern. Diese Zahl wird für das Szenario angezeigt, nachdem Sie mit dem Hinzufügen von Initiativen und deren Anforderungen an die Rolle in der Arbeitswelt begonnen haben. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Unterschied]</td> 
       <td> 
        <div> 
-        <p>Die monatliche Differenz zwischen den erforderlichen und verfügbaren Auftragsrollen für das Szenario. [!DNL Workfront] berechnet den Unterschied für jede Stellenrolle für jeden Monat mithilfe der folgenden Formel:</p> 
+        <p>Die monatliche Differenz zwischen den erforderlichen und verfügbaren Auftragsrollen für das Szenario. [!DNL Workfront] berechnet die Differenz für jede Auftragsrolle für jeden Monat mithilfe der folgenden Formel:</p> 
         <p><code>Monthly role difference = Monthly required roles - Monthly available roles</code> (in VZÄ oder Stunden) </p> 
-        <p>Tipp: Wenn der Unterschied eine negative Zahl anzeigt, erfordert das Szenario mehr Stellenrollen als der Plan verfügbar ist. Ihre Ressourcen sind überzugewiesen. </p> 
+        <p>Tipp: Wenn der Unterschied eine negative Zahl anzeigt, erfordert das Szenario mehr Auftragsrollen als der Plan verfügbar ist. Ihre Ressourcen sind überzugewiesen. </p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -288,67 +288,67 @@ So erstellen oder bearbeiten Sie einen Plan:
         <p><code>Monthly role utilization % = Monthly required roles / Monthly available roles * 100</code> </p> 
         <p>Der Prozentsatz der Auslastung kann je nach Zuordnung Ihrer Ressourcen in den folgenden Farben angezeigt werden:</p> 
         <ul> 
-         <li> <p><b>Grün</b>: Die verfügbare und die erforderliche Anzahl von Auftragsrollen stimmen überein. Die Ressourcen sind vollständig zugewiesen und der Prozentsatz der Verwendung beträgt 100%. </p> </li> 
-         <li> <p><b>Rot</b>: Es gibt mehr erforderliche Jobrollen als der Plan verfügbar ist. Die Ressourcen werden überverteilt und der Prozentsatz der Auslastung liegt bei über 100 %.</p> </li> 
-         <li> <p><b>Blau</b>: Es stehen mehr Jobrollen zur Verfügung, als erforderlich sind. Die Mittel sind zu niedrig zugewiesen und der Prozentsatz der Auslastung liegt unter 100 %. </p> </li> 
+         <li> <p><b>Grün</b>: Die verfügbare und die erforderliche Anzahl von Vorgangsrollen stimmen überein. Die Ressourcen sind vollständig zugewiesen und der Prozentsatz der Verwendung beträgt 100%. </p> </li> 
+         <li> <p><b>Rot</b>: Es gibt mehr erforderliche Vorgangsrollen, als der Plan verfügbar ist. Die Ressourcen werden überverteilt und der Prozentsatz der Auslastung liegt bei über 100 %.</p> </li> 
+         <li> <p><b>Blau</b>: Es gibt mehr verfügbare Auftragsrollen, als erforderlich sind. Die Mittel sind zu niedrig zugewiesen und der Prozentsatz der Auslastung liegt unter 100 %. </p> </li> 
         </ul> 
        </div> <p> <img src="assets/utilization-percent-colors-sp-350x61.png" style="width: 350;height: 61;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **[!UICONTROL Anwenden]** Speichern der monatlichen Aufgabenrollenverteilung
+1. Klicken Sie auf **[!UICONTROL Anwenden]** , um die monatliche Aufgabenrollenverteilung zu speichern.
 
    Oder
 
-   Klicken **[!UICONTROL Abbrechen]** , um die Verteilungsliste für die Auftragsrolle zu schließen und zum Szenario zurückzukehren.
+   Klicken Sie auf **[!UICONTROL Abbrechen]** , um die Aufgabenrollenverteilungsliste zu schließen und zum Szenario zurückzukehren.
 
-1. Klicken Sie auf **[!UICONTROL Finanzausstattung]** in der Kopfzeile des Plans, um das Budget für diesen Plan hinzuzufügen.
+1. Klicken Sie in der Kopfzeile des Plans auf das Feld **[!UICONTROL Finanzen]** , um das Budget für diesen Plan hinzuzufügen.
 
-   Die Einzelheiten der [!UICONTROL Finanzausstattung] angezeigt.
+   Die Details des Feldes [!UICONTROL Financial] werden angezeigt.
 
    >[!TIP]
    >
-   >Die Währung, in der [!DNL Workfront] verwendet für diesen Plan wird in Klammern im Titel des Felds angezeigt.
+   >Die Währung, die [!DNL Workfront] für diesen Plan verwendet, wird im Titel des Felds in Klammern angezeigt.
 
-1. Geben Sie die **[!UICONTROL Jahresbudget]**.
+1. Geben Sie das **[!UICONTROL jährliche Budget]** an.
 
    >[!NOTE]
    >
    >Wenn Ihr Plan mehrere Jahre umfasst, müssen Sie für jedes Jahr einen Budgetbetrag angeben.
 
-1. Drücken Sie die Eingabetaste , um das jährliche Budget zu speichern, und [!UICONTROL Registerkarte] , um zum folgenden Jahr zu wechseln.
+1. Drücken Sie die Eingabetaste , um das jährliche Budget zu speichern, und dann [!UICONTROL Tab] , um zum folgenden Jahr zu wechseln.
 
    Das jährliche Budget wird automatisch zu gleichen Teilen für jeden Monat des ausgewählten Jahres verteilt.
 
-1. Klicken **[!UICONTROL Erweitert]** um die monatliche Budgetverteilung anzuzeigen. Die jährlichen und monatlichen Budgets sind immer auf Zahlen gerundet. Wenn der Budgetbetrag aufgrund von Dezimalstellen nicht gleichmäßig auf alle Monate innerhalb eines Jahres verteilt werden kann **[!UICONTROL Verbleibend]** wird unter der jährlichen Budgetverteilung angezeigt.
+1. Klicken Sie auf **[!UICONTROL Erweitert]** , um die monatliche Budgetverteilung anzuzeigen. Die jährlichen und monatlichen Budgets sind immer auf Zahlen gerundet. Wenn der Budgetbetrag aufgrund von Dezimalstellen nicht gleichmäßig auf alle Monate innerhalb eines Jahres verteilt werden kann, wird unter der jährlichen Budgetverteilung ein Indikator **[!UICONTROL Verbleibend]** angezeigt.
 
    ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. Passen Sie die monatlichen Budgets manuell an, um die überschrittenen Beträge zu eliminieren.
 
-   Wenn die Summe aller monatlichen Budgetbeträge den Jahreshaushalt übersteigt, wird ein **[!UICONTROL mehr]** Warnhinweis wird unter der jährlichen Budgetverteilung angezeigt. Passen Sie die monatlichen Budgetbeträge manuell an, bis sie dem für den Plan verfügbaren Budget entsprechen oder darunter liegen.
+   Wenn die Summe aller monatlichen Budgetbeträge größer ist als das jährliche Budget, wird unter der jährlichen Budgetverteilung ein Warnhinweis mit dem Wert **[!UICONTROL Überschreiten]** angezeigt. Passen Sie die monatlichen Budgetbeträge manuell an, bis sie dem für den Plan verfügbaren Budget entsprechen oder darunter liegen.
 
    ![](assets/exceeding-budget-warning-on-plan-350x483.png)
 
-1. Deaktivieren Sie die **[!UICONTROL Personenkosten einschließen]** Festlegung, um die mit Stellenangeboten verbundenen Kosten von der Zählung auf die Gesamtkosten des Plans auszuschließen. Feste Kosten werden immer auf die Gesamtkosten des Plans angerechnet. Diese Einstellung ist standardmäßig aktiviert und wirkt sich auf alle Szenarien im Plan aus.
-1. Klicken Sie auf eine beliebige Stelle außerhalb von [!UICONTROL Finanzausstattung] zum Schließen. Die eingegebenen Informationen werden automatisch gespeichert.
+1. Deaktivieren Sie die Einstellung **[!UICONTROL Personenkosten einschließen]** , um die Kosten im Zusammenhang mit Stellenrollen von der Zählung auf die Gesamtkosten des Plans auszuschließen. Feste Kosten werden immer auf die Gesamtkosten des Plans angerechnet. Diese Einstellung ist standardmäßig aktiviert und wirkt sich auf alle Szenarien im Plan aus.
+1. Klicken Sie auf eine beliebige Stelle außerhalb des Felds [!UICONTROL Financial] , um es zu schließen. Die eingegebenen Informationen werden automatisch gespeichert.
 
    Sie können nun mit der Erstellung der Initiativen für den Plan und dem Hinzufügen von Szenarien beginnen.
 
-1. (Empfohlen) Klicken Sie auf **[!UICONTROL Neue Initiative]** um eine neue Initiative hinzuzufügen.
+1. (Empfohlen) Klicken Sie auf **[!UICONTROL Neue Initiative]** , um eine neue Initiative hinzuzufügen.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Should this include information on how to create scenarios - see also information about scenarios in Manage Plans?)</p>
    -->
 
-   Informationen zum Hinzufügen von Initiativen finden Sie im Artikel [Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   Weitere Informationen zum Hinzufügen von Initiativen finden Sie im Artikel [Erstellen und Bearbeiten von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
-1. (Optional) Erstellen Sie eine Kopie des vorhandenen Szenarios, um ein neues Szenario desselben Plans zu erstellen. Weitere Informationen zum Erstellen und Verwenden mehrerer Szenarien finden Sie unter [Erstellen und Vergleichen von Planszenarien in [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
-1. Klicken **[!UICONTROL Plan speichern]**.
+1. (Optional) Erstellen Sie eine Kopie des vorhandenen Szenarios, um ein neues Szenario desselben Plans zu erstellen. Weitere Informationen zum Erstellen und Arbeiten mit mehreren Szenarien finden Sie unter [Erstellen und Vergleichen von Planszenarien in der  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+1. Klicken Sie auf **[!UICONTROL Plan speichern]**.
 
    Ihr Plan wird erstellt oder aktualisiert.
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Favoriten-Symbol]** ![](assets/favorites-icon-small.png) rechts neben dem Namen des Plans klicken, um den Plan Ihrer Favoritenliste hinzuzufügen.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Favoriten]** ![](assets/favorites-icon-small.png) rechts neben dem Namen des Plans, um den Plan Ihrer Favoritenliste hinzuzufügen.
 
-1. (Optional) Kopieren Sie die URL des Plans und senden Sie sie an jeden anderen Benutzer, der sie möglicherweise überprüfen oder aktualisieren muss. Sie müssen mindestens [!UICONTROL Ansicht] Zugriff auf die Zugriffsstufe, um den Plan anzeigen zu können. Sie müssen [!UICONTROL Bearbeiten] Zugriff auf die Bearbeitung. Wenn sie die finanziellen Informationen über den Plan, wie Informationen über Budgets, Kosten und Stellenkosten, überprüfen müssen, müssen sie auch Zugang zu [!UICONTROL Finanzdaten] in ihrer Zugriffsebene. Informationen über den für die [!DNL Scenario Planner], siehe [Zugriff erforderlich für die Verwendung der [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+1. (Optional) Kopieren Sie die URL des Plans und senden Sie sie an jeden anderen Benutzer, der sie möglicherweise überprüfen oder aktualisieren muss. Sie müssen mindestens über den Zugriff auf die Zugriffsebene verfügen, um den Plan anzeigen zu können.  Sie müssen über den Zugriff [!UICONTROL Bearbeiten] verfügen, um sie zu bearbeiten. Wenn sie finanzielle Informationen zum Plan, wie Informationen zu Budgets, Kosten und Stellenraten, überprüfen müssen, müssen sie auch Zugriff auf [!UICONTROL Finanzdaten] in ihrer Zugriffsebene haben. Informationen über den für [!DNL Scenario Planner] benötigten Zugriff finden Sie unter [Für die Verwendung des  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) benötigten Zugriff.

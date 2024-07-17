@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Sie können Aufgaben- oder Problemzuweisungen mit erweiterten Zuweisungen verwalten.
 
@@ -34,7 +34,7 @@ Bei erweiterten Zuweisungen können Sie die folgenden Zuweisungsinformationen an
 
 >[!NOTE]
 >
->Wenn Benutzer zur Arbeit zugewiesen werden, wirkt sich ihre Verfügbarkeit entsprechend ihren Zeitplänen auf die geplanten und geplanten Daten von Aufgaben und Problemen aus. Weitere Informationen zu Zeitplänen finden Sie unter [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Wenn Benutzer zur Arbeit zugewiesen werden, wirkt sich ihre Verfügbarkeit entsprechend ihren Zeitplänen auf die geplanten und geplanten Daten von Aufgaben und Problemen aus. Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## Bereiche von Adobe Workfront, in denen Sie erweiterte Zuweisungen vornehmen können
 
@@ -45,7 +45,7 @@ Darüber hinaus können Sie erweiterte Zuweisungen in den folgenden Bereichen vo
 * In Listen und Berichten, wenn das Feld Zuweisungen in der Ansicht angezeigt wird.
 * Im Abschnitt Zuweisungen beim Bearbeiten einer Aufgabe. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * In der Aufgaben- oder Problemüberschrift im Bereich &quot;Zuweisungen&quot;.
-* Im Arbeitslast-Balancer. Weitere Informationen finden Sie unter [Manuelles Zuweisen von Arbeiten mithilfe des Lastenausgleichs](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+* Im Arbeitslast-Balancer. Weitere Informationen finden Sie unter [Manuelles Zuweisen der Arbeit mit dem Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## Zugriffsanforderungen
 
@@ -71,7 +71,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen oder höhere Berechtigungen zu einer Aufgabe oder einem Problem</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Contribute oder höhere Berechtigungen für eine Aufgabe oder ein Problem</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,35 +81,35 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Erweiterte Zuweisungen vornehmen
 
 1. Gehen Sie zum Projekt, dem Sie eine Aufgabe oder ein Problem zuweisen möchten.
-1. Klicks **Aufgaben** oder **Probleme** Klicken Sie im linken Bereich auf den Namen einer Aufgabe oder eines Problems in der Liste.
+1. Klicken Sie im linken Bereich auf **Aufgaben** oder **Probleme** und klicken Sie dann auf den Namen einer Aufgabe oder eines Problems in der Liste.
 
    >[!TIP]
    >
-   >Sie können erweiterte Zuweisungen direkt in der Aufgaben- oder Problemliste vornehmen, wenn zwei oder mehr Personen zugewiesen sind. Klicken Sie in die **Zuweisungen** in der gleichen Zeile wie die Aufgabe oder das Problem und klicken Sie dann auf die Schaltfläche **Personensymbol** , um das Fenster Erweiterte Zuweisungen zu öffnen. Fahren Sie mit Schritt 5 fort, um mit der Erstellung erweiterter Zuweisungen fortzufahren.\
+   >Sie können erweiterte Zuweisungen direkt in der Aufgaben- oder Problemliste vornehmen, wenn zwei oder mehr Personen zugewiesen sind. Klicken Sie in das Feld **Zuweisungen** in derselben Zeile wie die Aufgabe oder das Problem und klicken Sie dann auf das Symbol **Personen** , um das Fenster &quot;Erweiterte Zuweisungen&quot;zu öffnen. Fahren Sie mit Schritt 5 fort, um mit der Erstellung erweiterter Zuweisungen fortzufahren.\
    >![](assets/nwe-advanced-assignments-350x55.png)
    >
 
-1. Klicks **Zuweisen zu** im **Zuweisungen** -Feld in der Kopfzeile der Aufgabe oder des Problems
+1. Klicken Sie im Feld **Zuweisungen** in der Kopfzeile der Aufgabe oder des Problems auf **Zuweisen zu** .
 
    Oder
 
    Klicken Sie auf den Namen der Zuweisungen, falls die Aufgabe oder das Problem bereits zugewiesen wurde.
 
-1. Klicks **Erweitert**.
+1. Klicken Sie auf **Erweitert**.
 
    Beispielbild in der Produktionsumgebung:
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
    ![Klicken Sie auf Erweitert](assets/assignments-box-in-task-header.png)
 
-1. Im **Suchen nach Personen, Rollen und Teams** eingeben, beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Geben Sie im Feld **Personen, Rollen und Teams durchsuchen** den Namen eines Benutzers, einer Rolle oder eines Teams ein und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!NOTE]
    >
    >Wenn der Name des Benutzers ein Sonderzeichen enthält, müssen Sie das Sonderzeichen in das Suchfeld einfügen.
 
-1. (Optional) Fügen Sie im Abschnitt **Suchen nach Personen, Rollen oder Teams** zum Hinzufügen mehrerer Ressourcen zur Aufgabe oder zum Problem.
+1. (Optional) Fügen Sie im Feld **Personen, Rollen oder Teams durchsuchen** weitere Zuweisende hinzu, um der Aufgabe oder dem Problem mehrere Ressourcen hinzuzufügen.
 
    >[!TIP]
    >
@@ -118,7 +118,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >
    >* Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden.
    >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
-   >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
    >* Wenn ein Benutzer, eine Rolle oder ein Team zugewiesen wurde, bevor sie deaktiviert wurden, bleiben sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
@@ -131,16 +131,16 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
     -->
 
-1. Für jeden Benutzer im **Bevollmächtigter** Geben Sie die folgenden Informationen an:
+1. Geben Sie für jeden Benutzer in der Spalte **Zuweisung** die folgenden Informationen an:
 
 
-   * **Inhaber**: Bewegen Sie den Mauszeiger über den Namen des Bevollmächtigten und klicken Sie auf **Primär machen** im Feld Inhaber , wenn Sie den Verantwortlichen als Aufgabe- oder Problemeigentümer markieren möchten. Ein grünes Kontrollkästchen zeigt an, dass der angegebene Benutzer der Primäre Kontakt der Aufgabe oder des Problems ist. Adobe Workfront markiert die erste Benutzer- oder Auftragsrolle, die Sie einer Aufgabe oder einem Problem zuweisen, als Inhaber oder Primäre Zuweisung. Ein Team kann nicht als Primärer Eigentümer einer Aufgabe oder eines Problems bestimmt werden.
+   * **Inhaber**: Bewegen Sie den Mauszeiger über den Namen des Bevollmächtigten und klicken Sie im Feld &quot;Eigentümer&quot;auf **Als Primär machen** , wenn Sie den Bevollmächtigten als Aufgaben- oder Problemeigentümer markieren möchten. Ein grünes Kontrollkästchen zeigt an, dass der angegebene Benutzer der Primäre Kontakt der Aufgabe oder des Problems ist. Adobe Workfront markiert die erste Benutzer- oder Auftragsrolle, die Sie einer Aufgabe oder einem Problem zuweisen, als Inhaber oder Primäre Zuweisung. Ein Team kann nicht als Primärer Eigentümer einer Aufgabe oder eines Problems bestimmt werden.
 
      >[!IMPORTANT]
      >
-     >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Projekteinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um die Zeitleiste der Aufgabe zu berechnen, wenn mehrere Benutzer der Aufgabe zugewiesen sind. Weitere Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt &quot;Assign multiple users to a task&quot;im Artikel [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+     >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Projekteinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um die Zeitleiste der Aufgabe zu berechnen, wenn mehrere Benutzer der Aufgabe zugewiesen sind. Weitere Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt &quot;Assign multiple users to a task&quot;im Artikel [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Zuordnungen** : Wenn der Typ Dauer einer Aufgabe einfach ist, geben Sie an, wie viele Stunden jeder Benutzer oder jede Aufgabenrolle der Aufgabe zugewiesen werden soll. Die Summe aller zugewiesenen Stunden für jeden Benutzer entspricht der Zahl in der **Geplante Stunden** unten in der Spalte Zuordnungen . Geben Sie in allen anderen Fällen den Prozentsatz der Zeit (oder Zuordnung) an, die der Verantwortliche für die Lösung der Aufgabe oder des Problems verwenden soll.
+   * **Zuordnungen** : Wenn der Dauer-Typ einer Aufgabe einfach ist, geben Sie an, wie viele Stunden jeder Benutzer oder jede Auftragsrolle der Aufgabe zugewiesen werden soll. Die Summe aller zugewiesenen Stunden für jeden Benutzer entspricht der Zahl im Feld **Geplante Stunden** unten in der Spalte &quot;Zuweisungen&quot;. Geben Sie in allen anderen Fällen den Prozentsatz der Zeit (oder Zuordnung) an, die der Verantwortliche für die Lösung der Aufgabe oder des Problems verwenden soll.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
@@ -151,7 +151,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
      >
      >   
      >   
-     >   * Nachdem Sie die Zuweisung von Aufgaben manuell geändert haben, werden die geplanten Stunden der Aufgaben möglicherweise entsprechend aktualisiert. Weitere Informationen finden Sie im Artikel unter &quot;Aktualisieren von geplanten Aufgaben bei der Verwaltung von Benutzerzuweisungen&quot;. [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
+     >   * Nachdem Sie die Zuweisung von Aufgaben manuell geändert haben, werden die geplanten Stunden der Aufgaben möglicherweise entsprechend aktualisiert. Weitere Informationen finden Sie im Abschnitt &quot;Aktualisieren der geplanten Aufgaben bei der Verwaltung von Benutzerzuweisungen&quot;im Artikel [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * Sie können die Zuweisungszuordnungen für Probleme nicht manuell ändern.
      >   * Sie können die Zuordnungen für Teams, die Aufgaben zugewiesen sind, nicht manuell ändern.
      >   
@@ -162,7 +162,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
      Beispielbild in der Produktionsumgebung:
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-     <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+     <span class="preview">Beispielbild in der Vorschauumgebung:</span>
      ![Rolle des Bevollmächtigten](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -173,13 +173,13 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    </div>-->
 
-   * **Dauer Typ**: Dies ist nur für Aufgaben verfügbar. Klicken Sie auf den Namen des Typs Dauer und wählen Sie aus dem Dropdown-Menü einen Typ Dauer aus. Weitere Informationen zu den Typen der Dauer finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Dauer-Typ**: Dies ist nur für Aufgaben verfügbar. Klicken Sie auf den Namen des Typs Dauer und wählen Sie aus dem Dropdown-Menü einen Typ Dauer aus. Weitere Informationen zu den Arten der Dauer finden Sie unter [Übersicht über die Aufgabendauer und den -dauer-Typ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    * **Dauer:** Sie können dieses Feld für eine Aufgabe aktualisieren, wenn Sie über Verwaltungsberechtigungen für die Aufgabe verfügen.
 
-     Weitere Informationen finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Bei Massenbearbeitung von Zuweisungsinformationen wird ein ähnliches Dialogfeld angezeigt, in dem Benutzer, Stunden, Zuordnungen und Aufgabeneigentümer zugewiesen werden.
+     Weitere Informationen finden Sie unter [Übersicht über die Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Bei Massenbearbeitung von Zuweisungsinformationen wird ein ähnliches Dialogfeld angezeigt, in dem Benutzer, Stunden, Zuordnungen und Aufgabeneigentümer zugewiesen werden.
 
-   * **Geplante Stunden**: Wenn der Ereignistyp &quot;Dauer&quot;berechnet wird oder einfach ist, aktualisieren Sie die Anzahl der geplanten Stunden. Die Zuordnungsprozentsätze oder die Stunden für jede Ressource werden als Ergebnis gleichmäßig verteilt. Workfront berechnet die geplanten Stunden, wenn die Dauer berechnet wird (Work or Effort Driven). Weitere Informationen finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Geplante Stunden**: Wenn der Typ &quot;Dauer&quot;für die berechnete Zuweisung oder einfach ist, aktualisieren Sie die Anzahl der geplanten Stunden. Die Zuordnungsprozentsätze oder die Stunden für jede Ressource werden als Ergebnis gleichmäßig verteilt. Workfront berechnet die geplanten Stunden, wenn die Dauer berechnet wird (Work or Effort Driven). Weitere Informationen finden Sie unter [Übersicht über die Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
      Beispielbild in der Produktionsumgebung:
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)

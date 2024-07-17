@@ -20,7 +20,7 @@ Die in Adobe Workfront verfügbaren Durationstypen unterscheiden sich von den en
 
 Informationen zum Importieren und Exportieren von Projekten zwischen Workfront und Microsoft Project finden Sie in den folgenden Artikeln:
 
-* [Projekt in ein Microsoft-Projekt exportieren](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [Projekt in Microsoft-Projekt exportieren](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Importieren eines Projekts aus einem Microsoft-Projekt](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
 
 ## Arten von Dauer in Workfront- und Microsoft-Projekten
@@ -32,7 +32,7 @@ Workfront verfügt über vier Aufgabenlaufzeittypen:
 * Berechnete Arbeit
 * Berechnete Zuweisung
 
-Weitere Informationen finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Weitere Informationen finden Sie unter [Übersicht über die Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Diese Dauertypen werden vom Microsoft-Projekt nicht erkannt. Derzeit gibt es in Microsoft Project drei Aufgabentypen, die den Duration Types in Workfront ähneln:
 
@@ -46,7 +46,7 @@ Beim Export von Projekten aus Workfront in Microsoft Project werden anstrengende
 
 ## Änderungen des Durationstyps beim Import aus MS Project in Workfront
 
-Beim Importieren von Projekten aus Microsoft Project in Workfront werden feste Einheiten zu Aufwandsorientiert. Feste Arbeit und feste Dauer erhalten den Standardlaufzeittyp, den Ihr Workfront-Administrator für Ihr System ausgewählt hat. Weitere Informationen finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Beim Importieren von Projekten aus Microsoft Project in Workfront werden feste Einheiten zu Aufwandsorientiert. Feste Arbeit und feste Dauer erhalten den Standardlaufzeittyp, den Ihr Workfront-Administrator für Ihr System ausgewählt hat. Weitere Informationen finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--
 <note type="warning">

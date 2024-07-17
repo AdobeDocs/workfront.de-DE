@@ -5,13 +5,13 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: Dokumentname nach dem Hochladen geändert und enthält ungültiges Zeichen
 description: Bestimmte Dokumente können nicht in Testsendungen umgewandelt werden.
 author: Courtney
-source-git-commit: a01c2e42dad1a7c00ac73fcaeb1202c56238a8bb
+exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
+source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
 
 ---
-
 
 # Dokumentname nach dem Hochladen geändert und enthält ungültiges Zeichen
 
@@ -29,7 +29,7 @@ Wenn ein Dokumentname aktualisiert wird, um nach dem ersten Upload ein ungültig
 
 Entfernen Sie das ungültige Zeichen aus dem Dokumentnamen:
 
-1. Wählen Sie das Dokument aus und klicken Sie auf **Dokumentdetails**.
+1. Wählen Sie das Dokument aus und klicken Sie dann auf **Dokumentdetails**.
 1. Klicken Sie auf den Dokumentnamen, entfernen Sie das ungültige Zeichen und drücken Sie die Eingabetaste.
 
    Ungültige Zeichen: `! # % * \ | ' " / ? < > { } [ ]`

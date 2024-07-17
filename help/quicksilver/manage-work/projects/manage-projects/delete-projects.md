@@ -56,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Wenn das Projekt Aufgaben oder Probleme mit angemeldeten Stunden hat, muss der Workfront- oder Gruppenadministrator das Löschen dieser Aufgaben zulassen, indem er die Voreinstellungen für Aufgaben und Probleme in Ihrer Workfront-Instanz konfiguriert, damit Sie das Projekt, das die Aufgaben enthält, löschen können.
 
-  Weitere Informationen zum Aktivieren des Löschens von Aufgaben, Problemen oder Projekten, bei denen Stunden protokolliert werden, finden Sie im Abschnitt &quot;Löschen&quot;unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Weitere Informationen zum Aktivieren des Löschens von Aufgaben, Problemen oder Projekten, bei denen Stunden protokolliert werden, finden Sie im Abschnitt &quot;Löschung&quot;unter [Systemweite Aufgaben und Ausgabevoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -109,7 +109,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Die Stunden bleiben auf dem Timesheet als allgemeine Zeit.
    * Die Stunden werden gelöscht und wiederhergestellt, wenn das Projekt jemals wiederhergestellt wird.
 
-  Weitere Informationen zum Konfigurieren der Löscheinstellungen für Stunden, die bei Problemen protokolliert werden, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Weitere Informationen zum Konfigurieren der Löschvoreinstellungen für Stunden, die bei Problemen protokolliert werden, finden Sie unter [Konfigurieren von Voreinstellungen für Zeitblätter und Stunden](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * Wenn das Projekt, das Sie löschen, mit einer Initiative im Workfront-Szenario-Planer verknüpft ist:
 
@@ -117,7 +117,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Wenn das Projekt, das Sie löschen, mit der einzigen veröffentlichten Initiative aus einem Plan verknüpft ist, wird auch der Hinweis, dass der Plan veröffentlicht wurde, entfernt.
    * Wenn Sie ein gelöschtes Projekt wiederherstellen, wird das Projekt zwar wiederhergestellt, die Verknüpfung zur Initiative jedoch nicht wiederhergestellt und der Bereich &quot;Szenario-Planer&quot;wird nicht mehr in den Projektdetails angezeigt.
 
-     Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+     Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
 
      Informationen zu Projekten, die mit Initiativen im Szenario-Planer verknüpft sind, finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen im Szenario-Planer](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -129,30 +129,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      Dies erfordert eine zusätzliche Lizenz. Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     Weitere Informationen zum Verknüpfen von Projekten mit Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     Informationen zum Verknüpfen von Projekten mit Zielen finden Sie unter [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Projekt in einer Liste löschen
 
 Sie können Projekte aus einer Liste von Projekten löschen.
 
 1. Gehen Sie zu einer Liste von Projekten oder einem Projektbericht.
-1. Wählen Sie das Projekt bzw. die Projekte aus, das/die Sie löschen möchten, und klicken Sie dann auf **Löschen** icon ![](assets/delete-icon.png) oben in der Liste.
+1. Wählen Sie das oder die Projekte aus, die Sie löschen möchten, und klicken Sie dann oben in der Liste auf das Symbol **Löschen** ![](assets/delete-icon.png) .
 
-1. Klicks **Ja, löschen** , um den Löschvorgang zu bestätigen.
+1. Klicken Sie auf **Ja, löschen Sie es** , um den Löschvorgang zu bestätigen.
 
    Die Projekte werden gelöscht und 30 Tage lang im Papierkorb gespeichert. Ihr Workfront-Administrator kann während dieser Zeit gelöschte Projekte aus dem Papierkorb wiederherstellen.
 
 ## Löschen eines Projekts auf Projektebene
 
 1. Wechseln Sie zu dem Projekt, das Sie löschen möchten.
-1. Klicken Sie auf **Mehr** icon ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und klicken Sie auf **Projekt löschen**.
+1. Klicken Sie auf das Symbol **Mehr** ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann auf **Projekt löschen**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 
-1. Klicks **Ja, löschen**.
+1. Klicken Sie auf **Ja, löschen Sie es**.
 
    Das Projekt wird gelöscht und 30 Tage lang im Papierkorb gespeichert. Ihr Workfront-Administrator kann ihn während dieser Zeit aus dem Papierkorb wiederherstellen.
 
 ## Wiederherstellen gelöschter Projekte
 
-Ein System- oder Gruppenadministrator kann Projekte innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie im Artikel beschrieben. [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Ein System- oder Gruppenadministrator kann Projekte innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie im Artikel [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) beschrieben.

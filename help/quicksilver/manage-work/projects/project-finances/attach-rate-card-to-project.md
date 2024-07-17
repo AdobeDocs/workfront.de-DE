@@ -4,7 +4,8 @@ description: Wenn Sie einem Projekt eine Ratenkarte anhängen, werden alle Rolle
 author: Lisa
 feature: Work Management
 role: User
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-Ratenkarten speichern mehrere Abrechnungsraten pro Auftragsrolle basierend auf dem Standort. Sie könnten eine berufliche Rolle in Designer mit Sitz in Paris und einen zweiten Designer mit Sitz in New York mit jeweils unterschiedlichen Abrechnungsraten haben. Für Auftragsrollen auf einer Ratenkarte ist jedoch kein Ort erforderlich. Eine Abrechnungsrate für eine Stellenrolle (und möglicherweise einen Ort) auf einer Ratenkarte kann auch effektive Daten enthalten.
+Ratenkarten speichern mehrere Abrechnungsraten pro Auftragsrolle basierend auf dem Standort. Sie könnten eine berufliche Rolle mit Designer mit Sitz in Paris und eine zweite Designer mit Sitz in New York mit jeweils unterschiedlichen Abrechnungsraten haben. Für Auftragsrollen auf einer Ratenkarte ist jedoch kein Ort erforderlich. Eine Abrechnungsrate für eine Stellenrolle (und möglicherweise einen Ort) auf einer Ratenkarte kann auch effektive Daten enthalten.
 
 Wenn Sie einem Projekt eine Ratenkarte anhängen, werden alle Rollen nach Standort und die zugehörigen Abrechnungsraten zum Projekt hinzugefügt.
 
@@ -27,7 +28,7 @@ Sie können die Abrechnungsraten von der Preiskarte direkt im Projekt bearbeiten
 
 Informationen zum Erstellen von Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
 
-Allgemeine Informationen über die Überschreitung der Abrechnungssätze für Stellenausschreibungen für Projekte und die Berechnung der Projekterlöse finden Sie unter [Übersicht über die Außerkraftsetzung der Abrechnungsraten von Auftragsrollen und die Berechnung des Umsatzes eines Projekts](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Allgemeine Informationen zum Außerkraftsetzen der Abrechnungssätze für Stellenrollen für Projekte und zur Berechnung der Projekterlöse finden Sie unter [Übersicht über die Außerbetriebnahme von Auftragsrollenabrechnungen und Berechnung der Umsätze für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Zugriffsanforderungen
 
@@ -39,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -51,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten der Finanzen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten der Finanzen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,12 +62,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Eine Ratenkarte an ein Projekt anhängen
 
 1. Wechseln Sie zum Projekt.
-1. Klicken **Abrechnungssätze** im linken Bereich. Möglicherweise müssen Sie zuerst klicken **Mehr anzeigen**.
-1. Klicken **Abrechnungsrate hinzufügen > Eine Ratenkarte anhängen**.
+1. Klicken Sie im linken Bereich auf **Abrechnungsraten**. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
+1. Klicken Sie auf **Abrechnungsrate hinzufügen > Eine Ratenkarte anhängen**.
 
-   Die Seite Ratenkarte anhängen wird geöffnet. Weitere Informationen finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+   Die Seite Ratenkarte anhängen wird geöffnet. Weitere Informationen finden Sie unter [Verwalten von Ratenkarten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
 
-1. Wählen Sie die zum Projekt hinzuzufügende Ratenkarte aus und klicken Sie auf **Attach**.
+1. Wählen Sie die Ratenkarte aus, die dem Projekt hinzugefügt werden soll, und klicken Sie auf **Anhängen**.
 
    Die Ratenkarte und alle ihre Auftragseingangsraten werden der Liste der Abrechnungssätze hinzugefügt.
 
@@ -75,4 +76,3 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >[!NOTE]
    >
    >Auf der Liste der Abrechnungssätze können Sie eine oder mehrere Auftragsrollen entfernen, die von einer Ratenkarte stammten. Wenn Sie eine Abrechnungsrate für Auftragsrollen aus dem Projekt entfernen, wird sie nicht von der Standardratenkarte entfernt.
-

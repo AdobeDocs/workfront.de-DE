@@ -44,7 +44,7 @@ Die folgende Tabelle zeigt die Verbindung zwischen dem Workfront-Plan, den Ihr U
 
 Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://www.workfront.com/plans).
 
-Informationen darüber, wo Sie den Lastenausgleich in Workfront finden können, finden Sie unter [Suchen Sie den Lastenausgleich .](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Informationen darüber, wo Sie den Lastenausgleich in Workfront finden können, finden Sie unter [Suchen des Lastenausgleichs](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Zugriff erforderlich, um den Lastenausgleich anzuzeigen
 
@@ -61,13 +61,13 @@ Sie müssen über folgenden Zugriff verfügen, um den Lastenausgleich anzuzeigen
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf die Ressourcenverwaltung anzeigen oder höher</p> <p>Weitere Informationen zur Zugriffsebene auf Resource Management finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Zugriff auf Resource Management gewähren</a>.</p> <p><b>NOTIZ</b>
+   <td> <p>Zugriff auf die Ressourcenverwaltung anzeigen oder höher</p> <p>Weitere Informationen zur Zugriffsebene für die Ressourcenverwaltung finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Zugriff auf die Ressourcenverwaltung gewähren</a>.</p> <p><b>NOTIZ</b>
 
 Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Sie verfügen über Anzeigeberechtigungen für das Projekt, dessen Zuweisungen Sie anzeigen möchten. </p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Sie verfügen über Anzeigeberechtigungen für das Projekt, dessen Zuweisungen Sie anzeigen möchten. </p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Projekt in Adobe Workfront freigeben</a> .</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,14 +91,14 @@ Sie müssen über folgenden Zugriff verfügen, um den Lastenausgleich zu verwalt
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
    <td> <p>Zugriff auf die Ressourcenverwaltung bearbeiten</p> 
-     <p>Weitere Informationen zur Zugriffsebene auf Resource Management finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Zugriff auf Resource Management gewähren</a>.</p>
+     <p>Weitere Informationen zur Zugriffsebene für die Ressourcenverwaltung finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Zugriff auf die Ressourcenverwaltung gewähren</a>.</p>
      <p><b>NOTIZ</b>
 
 Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p> Fügen Sie Berechtigungen für das Projekt hinzu, dessen Zuweisungen Sie verwalten möchten. Dazu gehören Berechtigungen zum Zuweisen. </p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p> Contribute oder höhere Berechtigungen für das Projekt, dessen Zuweisungen Sie verwalten möchten, einschließlich Berechtigungen zum Zuweisen. </p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Projekt in Adobe Workfront freigeben</a> .</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

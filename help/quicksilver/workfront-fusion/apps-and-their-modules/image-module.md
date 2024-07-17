@@ -10,25 +10,25 @@ feature: Workfront Fusion, Digital Content and Documents
 exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
 
 # Bildmodule
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Bild] -Module ermöglichen es Ihnen, Informationen über ein bestimmtes Bild (Abmessungen, Typ usw.) zu erhalten, ein Bild in ein anderes Dateiformat zu konvertieren und die Bildgröße direkt zu ändern.
+Mit den [!DNL Adobe Workfront Fusion] [!UICONTROL Bild] -Modulen können Sie Informationen zu einem bestimmten Bild (Dimensionen, Typ usw.) abrufen, ein Bild in ein anderes Dateiformat konvertieren und die Bildgröße direkt ändern.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -38,27 +38,27 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Bild] Module und ihre Felder
+## [!UICONTROL Bild] -Module und ihre Felder
 
 Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
@@ -75,16 +75,16 @@ Dieses Transformatormodul ändert die Höhe und Breite eines Bildes gemäß den 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quelldatei]</td> 
+   <td role="rowheader">[!UICONTROL Source-Datei]</td> 
    <td> <p>Wählen Sie die Quelle des Bildes aus, das Sie konvertieren möchten. Sie können die Ausgabe aus einem vorherigen Modul auswählen oder die Datendatei und den Dateinamen zuordnen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Daten]</td> 
-   <td>Ordnen Sie die Datei zu, die Sie konvertieren möchten. Dieses Feld ist verfügbar, wenn Sie [!UICONTROL Map] im Feld [!UICONTROL Quelldatei] ausgewählt haben.</td> 
+   <td>Ordnen Sie die Datei zu, die Sie konvertieren möchten. Dieses Feld ist verfügbar, wenn Sie [!UICONTROL Map] im Feld [!UICONTROL Source-Datei] ausgewählt haben.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dateiname]</td> 
-   <td>Geben Sie einen Namen für die konvertierte Datei ein. Dieses Feld ist verfügbar, wenn Sie [!UICONTROL Map] im Feld [!UICONTROL Quelldatei] ausgewählt haben.</td> 
+   <td>Geben Sie einen Namen für die konvertierte Datei ein. Dieses Feld ist verfügbar, wenn Sie [!UICONTROL Map] im Feld [!UICONTROL Source-Datei] ausgewählt haben.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ich möchte]</td> 
@@ -123,23 +123,23 @@ Dieses Transformatormodul ändert das Format einer Bilddatei. Dieses Modul ist m
 * GIF
 * BMP
 
-Sowohl die Quelldatei als auch die Ausgabe müssen in einem dieser Formate vorliegen. Beispiel: die [!UICONTROL Bild] >[!UICONTROL Konvertieren eines Formats] -Modul kann eine PNG-Datei in eine BMP-Datei oder eine BMP in eine JPG umwandeln.
+Sowohl die Quelldatei als auch die Ausgabe müssen in einem dieser Formate vorliegen. Beispielsweise kann das Modul [!UICONTROL Bild] >[!UICONTROL Format konvertieren] eine PNG-Datei in eine BMP-Datei oder eine BMP in eine JPG umwandeln.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quelldatei]</td> 
+   <td role="rowheader">[!UICONTROL Source-Datei]</td> 
    <td> <p>Wählen Sie die Quelle des Bildes aus, das Sie konvertieren möchten. Sie können die Ausgabe aus einem vorherigen Modul auswählen oder die Datendatei und den Dateinamen zuordnen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Daten]</td> 
-   <td>Ordnen Sie die Datei zu, die Sie konvertieren möchten. Dieses Feld ist verfügbar, wenn Sie [!UICONTROL Map] im Feld [!UICONTROL Quelldatei] ausgewählt haben.</td> 
+   <td>Ordnen Sie die Datei zu, die Sie konvertieren möchten. Dieses Feld ist verfügbar, wenn Sie [!UICONTROL Map] im Feld [!UICONTROL Source-Datei] ausgewählt haben.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dateiname]</td> 
-   <td>Geben Sie einen Namen für die konvertierte Datei ein. Dieses Feld ist verfügbar, wenn Sie [!UICONTROL Map] im Feld [!UICONTROL Quelldatei] ausgewählt haben.</td> 
+   <td>Geben Sie einen Namen für die konvertierte Datei ein. Dieses Feld ist verfügbar, wenn Sie [!UICONTROL Map] im Feld [!UICONTROL Source-Datei] ausgewählt haben.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ausgabeformat]</td> 
@@ -157,16 +157,16 @@ Dieses Transformatormodul gibt grundlegende Informationen zu einem Modul zurück
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quelldatei]</td> 
+   <td role="rowheader">[!UICONTROL Source-Datei]</td> 
    <td> <p>Wählen Sie die Quelle des Bildes aus, das Sie konvertieren möchten. Sie können die Ausgabe aus einem vorherigen Modul auswählen oder die Datendatei und den Dateinamen zuordnen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Daten]</td> 
-   <td>Ordnen Sie die Datei zu, die Sie konvertieren möchten. Dieses Feld ist verfügbar, wenn Sie im Feld [!UICONTROL Quelldatei] die Option Zuordnung ausgewählt haben.</td> 
+   <td>Ordnen Sie die Datei zu, die Sie konvertieren möchten. Dieses Feld ist verfügbar, wenn Sie im Feld [!UICONTROL Source-Datei] die Option Karte ausgewählt haben.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dateiname]</td> 
-   <td>Geben Sie einen Namen für die konvertierte Datei ein. Dieses Feld ist verfügbar, wenn Sie im Feld [!UICONTROL Quelldatei] die Option Zuordnung ausgewählt haben.</td> 
+   <td>Geben Sie einen Namen für die konvertierte Datei ein. Dieses Feld ist verfügbar, wenn Sie im Feld [!UICONTROL Source-Datei] die Option Karte ausgewählt haben.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -177,6 +177,6 @@ Dieses Transformatormodul gibt grundlegende Informationen zu einem Modul zurück
 
 Es gibt drei Fälle, in denen eine Aktion mit einem Fehler beendet werden kann:
 
-* Die empfangenen Daten waren nicht im Format JPG/GIF/PNG/BMP enthalten.
-* Die maximale Breite/Höhe wurde beim Ändern der Bildabmessungen überschritten. Die Bildgröße darf 3840 px Breite und 2160 px Höhe nicht überschreiten
+* Die empfangenen Daten lagen nicht im Format JPG/GIF/PNG/BMP vor.
+* Die maximale Breite/Höhe wurde beim Ändern der Bildabmessungen überschritten. Die Bildgröße darf 3840 Pixel Breite und 2160 Pixel Höhe nicht überschreiten
 * Die maximal zulässige Größe eines Bildes wurde beim Ändern der Abmessungen oder des Formats des Bildes überschritten.

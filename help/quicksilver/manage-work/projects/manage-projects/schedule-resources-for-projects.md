@@ -9,7 +9,7 @@ exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
 source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -27,25 +27,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
+   <td role="rowheader">Zugriffsstufe*</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf Folgendes:</p> 
     <ul> 
      <li> <p>Ressourcenverwaltung</p> </li> 
      <li> <p>Projekte</p> </li> 
      <li> <p>Aufgaben</p> </li> 
      <li> <p>Probleme</p> </li> 
-    </ul> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+    </ul> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen Sie Berechtigungen oder höher zu den Projekten, Aufgaben und Problemen. </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,12 +56,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 So greifen Sie in einem Projekt auf das Planungs-Tool zu:
 
-1. Gehen Sie zu dem Projekt, für das Sie Ressourcen planen möchten.
-1. Klicken Sie auf **Planung** oder Arbeitslastausgleich im linken Bereich. Der Abschnitt Planung oder Lastenausgleich befindet sich möglicherweise unter **Mehr anzeigen**.
+1. Wechseln Sie zu dem Projekt, für das Sie Ressourcen planen möchten.
+1. Klicken Sie im linken Bereich auf den Abschnitt **Planung** oder Arbeitslast-Ausgleich . Der Abschnitt &quot;Planung&quot;oder &quot;Lastenausgleich&quot;befindet sich möglicherweise unter **Mehr anzeigen**.
 
    Informationen zur Planung von Ressourcen mithilfe des Planungs-Tools in einem Projekt finden Sie im Abschnitt &quot;Ändern von Benutzerzuweisungen und Zuordnungen&quot;im Artikel &quot;Erste Schritte mit der Ressourcenplanung&quot;.
 
-1. (Bedingt und empfohlen) Wenn Sie auf Planung klicken, klicken Sie auf **Wechseln zum Lastenausgleich** , um Ressourcen mit dem Lastenausgleich zu planen.
+1. (Bedingt und empfohlen) Wenn Sie auf Planung klicken, klicken Sie auf **Zu Workload Balancer wechseln** , um Ressourcen mit dem Workload Balancer zu planen.
 
    >[!TIP]
    >
@@ -69,7 +69,7 @@ So greifen Sie in einem Projekt auf das Planungs-Tool zu:
 
    Informationen zum Planen von Ressourcen mithilfe des Workload Balancer finden Sie in den folgenden Artikeln:
 
-   * [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+   * [Übersicht über die Zuweisung von Arbeit im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
    * [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
  

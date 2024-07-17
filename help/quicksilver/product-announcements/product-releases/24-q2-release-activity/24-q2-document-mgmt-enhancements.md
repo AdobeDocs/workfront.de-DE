@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Auf dieser Seite werden alle Verbesserungen der Dokumentenverwaltung beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom zweiten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des zweiten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zwei
 
 Sie können jetzt einen Termin für Benutzer oder Teams festlegen, die zum Überprüfen oder Genehmigen eines Dokuments zugewiesen sind. Überprüfer und Genehmiger erhalten 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist E-Mail-Benachrichtigungen. Der Termin wird auch im Widget Genehmigungen im neuen Bereich Startseite angezeigt.
 
-Weitere Informationen finden Sie unter [Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfung oder Genehmigungsanforderung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ## Erstellen und Verwenden von Genehmigungsvorlagen
 
@@ -45,7 +45,7 @@ Jetzt können Sie im Bereich &quot;Einrichtung&quot;Genehmigungsvorlagen erstell
 
 Beim Erstellen eines Validierungsprozesses für ein Dokument können Sie im Bereich Dokumente Validierungsvorlagen anwenden.
 
-Weitere Informationen finden Sie unter [Erstellen einer Validierungsvorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Weitere Informationen finden Sie unter [Erstellen einer Genehmigungsvorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ## Anzeigen von Informationen zu allen Ihren Genehmigungen an einem Ort
 

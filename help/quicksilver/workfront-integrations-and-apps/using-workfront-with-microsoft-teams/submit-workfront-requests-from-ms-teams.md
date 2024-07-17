@@ -1,7 +1,7 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Einsenden [!DNL Adobe Workfront] Anforderungen von [!DNL Microsoft] Teams
+title: Senden [!DNL Adobe Workfront] von Anforderungen von  [!DNL Microsoft] Teams
 description: Nachdem Ihr Teaminhaber Adobe Workfront für Microsoft Teams installiert hat, können Sie Workfront-Anfragen von Ihrem Microsoft Teams-Konto senden. Dazu benötigen Sie ein Workfront-Konto mit Zugriff auf die Übermittlung von Anfragen. Informationen zum Installieren von Workfront für Microsoft Teams finden Sie unter Installieren von Workfront für Microsoft Teams.
 author: Becky
 feature: Workfront Integrations and Apps
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Einsenden [!DNL Adobe Workfront] Anforderungen von [!DNL Microsoft] Teams
+# Senden von [!DNL Adobe Workfront] -Anfragen von [!DNL Microsoft] Teams
 
 >[!NOTE]
 >
 >Die Adobe Workfront für Microsoft Teams-Integration wird derzeit nur für das klassische Microsoft Teams-Erlebnis unterstützt.
 
-Nach der Installation des Team-Eigentümers [!DNL Adobe Workfront for Microsoft Teams], können Sie [!DNL Workfront] -Anfragen von [!DNL Microsoft Teams] -Konto. Dazu benötigen Sie ein Workfront-Konto mit Zugriff auf die Übermittlung von Anfragen. Informationen zur Installation [!DNL Workfront for Microsoft Teams], siehe [Installieren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Nachdem Ihr Teambesitzer [!DNL Adobe Workfront for Microsoft Teams] installiert hat, können Sie [!DNL Workfront] -Anfragen von Ihrem [!DNL Microsoft Teams] -Konto senden. Dazu benötigen Sie ein Workfront-Konto mit Zugriff auf die Übermittlung von Anfragen. Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] finden Sie unter [Installieren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] unterstützt nicht mehr [!DNL Internet Explorer]. So verwenden Sie die [!DNL Adobe Workfront for Microsoft Teams integration]müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] unterstützt [!DNL Internet Explorer] nicht mehr. Um den [!DNL Adobe Workfront for Microsoft Teams integration] zu verwenden, müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer] verwenden.
 
 
 ## Zugriffsanforderungen
@@ -45,24 +45,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
-Ihre [!DNL Microsoft Teams] Teameigentümer muss installieren [!DNL Workfront] für [!DNL Microsoft Teams] bevor Sie sie verwenden können.
+Ihr [!DNL Microsoft Teams] Team-Besitzer muss [!DNL Workfront] für [!DNL Microsoft Teams] installieren, bevor Sie es verwenden können.
 
-## Einsenden [!DNL Workfront] Anforderungen von [!DNL Microsoft Teams]
+## Senden von [!DNL Workfront] -Anforderungen von [!DNL Microsoft Teams]
 
-1. Klicken Sie auf **[!UICONTROL Weitere Apps]** (drei Punkte) auf der linken Navigationsleiste in [!DNL Microsoft Teams].
+1. Klicken Sie auf das Symbol **[!UICONTROL Weitere hinzugefügte Apps]** (drei Punkte) in der linken Navigationsleiste in [!DNL Microsoft Teams].
 
-1. Klicks **[!DNL Workfront]** in der Liste, die angezeigt wird.
-1. Klicken Sie auf **[!UICONTROL Anforderungen]** Registerkarte.
-1. Klicks **[!UICONTROL Neue Anforderung]**.
-1. Im **[!UICONTROL Anfragetyp auswählen]** auswählen, wählen Sie die Anforderungswarteschlange aus, an die Sie die Anforderung senden möchten.
+1. Klicken Sie in der angezeigten Liste auf **[!DNL Workfront]** .
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Anforderungen]**.
+1. Klicken Sie auf **[!UICONTROL Neue Anforderung]**.
+1. Wählen Sie im Feld **[!UICONTROL Einen Anforderungstyp auswählen]** die Anforderungswarteschlange aus, an die Sie die Anforderung senden möchten.
 1. (Optional) Wählen Sie eine Themengruppe oder ein Warteschlangenthema aus, wenn sie in der Anforderungswarteschlange verfügbar sind.
 1. Geben Sie die folgenden Informationen an:
 
-   (Je nachdem, wie die Anforderungswarteschlange eingerichtet wurde, können die angezeigten Optionen und Felder variieren. Eine vollständige Liste der möglichen Felder und eine Beschreibung finden Sie unter [Erstellen und Senden [!DNL Adobe Workfront] requests](../../manage-work/requests/create-requests/create-submit-requests.md).
+   (Je nachdem, wie die Anforderungswarteschlange eingerichtet wurde, können die angezeigten Optionen und Felder variieren. Eine vollständige Liste und Beschreibung der möglichen Felder finden Sie unter [Erstellen und Senden [!DNL Adobe Workfront] Anforderungen](../../manage-work/requests/create-requests/create-submit-requests.md).)
 
    <table style="table-layout:auto"> 
     <col> 
@@ -83,28 +83,28 @@ Ihre [!DNL Microsoft Teams] Teameigentümer muss installieren [!DNL Workfront] f
     </tbody> 
    </table>
 
-1. (Optional) Wenn die Variable [!DNL Workfront] Administrator hat benutzerdefinierte Formulare an die Anforderungswarteschlange angehängt und die Informationen in den Feldern bereitgestellt, die in den benutzerdefinierten Formularen verfügbar sind.
+1. (Optional) Wenn der [!DNL Workfront] -Administrator benutzerdefinierte Formulare an die Anforderungswarteschlange angehängt hat, geben Sie die Informationen in den Feldern an, die in den benutzerdefinierten Formularen verfügbar sind.
 1. Die benutzerdefinierten Formulare werden am unteren Rand der neuen Anforderung angezeigt.
-1. Klicks **[!UICONTROL Einsenden]**.
+1. Klicken Sie auf **[!UICONTROL Senden]**.
 
-   Die Anforderung wird in [!DNL Workfront], in der angegebenen Anforderungswarteschlange. Sie erhalten eine Bestätigung, dass die Anfrage erfolgreich eingereicht wurde.
+   Die Anforderung wird in [!DNL Workfront] in der angegebenen Anforderungswarteschlange angezeigt. Sie erhalten eine Bestätigung, dass die Anfrage erfolgreich eingereicht wurde.
 
-## Ansicht [!DNL Workfront] -Anfragen, die Sie in [!DNL Microsoft Teams]
+## Anzeigen von [!DNL Workfront]-Anforderungen, die Sie in [!DNL Microsoft Teams] gesendet haben
 
-1. Klicken Sie auf **[!UICONTROL Weitere Apps]** (drei Punkte) auf der linken Navigationsleiste in [!DNL Microsoft Teams].
+1. Klicken Sie auf das Symbol **[!UICONTROL Weitere hinzugefügte Apps]** (drei Punkte) in der linken Navigationsleiste in [!DNL Microsoft Teams].
 
-1. Klicks **[!DNL Workfront]** in der Liste, die angezeigt wird.
-1. Klicken Sie auf **[!UICONTROL Anforderungen]** Registerkarte.
+1. Klicken Sie in der angezeigten Liste auf **[!DNL Workfront]** .
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Anforderungen]**.
 
-   Die von Ihnen eingereichten Anfragen werden in der [!UICONTROL Meine eingereichten Anfragen] der [!UICONTROL Anforderungen] Registerkarte. Sie können die auf diesem Tab angezeigten Informationen zu den von Ihnen gesendeten Anfragen nicht konfigurieren.
+   Anforderungen, die Sie gesendet haben, werden im Bereich [!UICONTROL Meine gesendeten Anforderungen] der Registerkarte [!UICONTROL Anforderungen] aufgelistet. Sie können die auf diesem Tab angezeigten Informationen zu den von Ihnen gesendeten Anfragen nicht konfigurieren.
 
-   Die folgenden Informationen zu Ihren gesendeten Anfragen finden Sie in der [!UICONTROL Meine eingereichten Anfragen] der [!UICONTROL Anforderungen] tab:
+   Sie können die folgenden Informationen zu Ihren gesendeten Anfragen im Bereich [!UICONTROL Meine gesendeten Anfragen] auf der Registerkarte [!UICONTROL Anforderungen] anzeigen:
 
    * **[!UICONTROL Betreff]**: Der Name der Anforderung
-   * **[!UICONTROL Bezugsnummer]**
-   * **[!UICONTROL Anfragetyp]**: Der Name der Anforderungswarteschlange, an die Sie die Anforderung gesendet haben
+   * **[!UICONTROL Referenznummer]**
+   * **[!UICONTROL Anforderungstyp]**: Der Name der Anforderungswarteschlange, an die Sie die Anforderung gesendet haben
    * **[!UICONTROL Status]**
    * **[!UICONTROL Gesendet am]**: Das Datum, an dem Sie die Anfrage gesendet haben
-   * **[!UICONTROL Zugeordnet zu]**
+   * **[!UICONTROL Zugeordneter]**
 
-1. (Optional) Klicken Sie auf die Kopfzeile einer der Spalten in der Liste, um die Liste nach dieser Spalte zu sortieren. Standardmäßig ist [!DNL Workfront] sortiert die Liste nach [!UICONTROL Gesendet am] Datum, beginnend mit der zuletzt gesendeten Anfrage.
+1. (Optional) Klicken Sie auf die Kopfzeile einer der Spalten in der Liste, um die Liste nach dieser Spalte zu sortieren. Standardmäßig sortiert [!DNL Workfront] die Liste nach dem Datum [!UICONTROL Gesendet am] , beginnend mit der zuletzt gesendeten Anfrage.

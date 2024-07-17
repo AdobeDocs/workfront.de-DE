@@ -64,31 +64,31 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten Sie Berechtigungen für das Objekt, an das Sie ein benutzerdefiniertes Formular anhängen möchten.</p> <p>Anzeigen von oder höheren Berechtigungen für das benutzerdefinierte Formular mit der Berechtigung zum <b>Anhängen an benutzerdefinierte Daten</b> Objekte (Projekte, Aufgaben und Probleme). Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Freigeben eines benutzerdefinierten Formulars</a>.</p> <p>Wichtig: Wenn Sie keine Planungslizenz mit Administratorzugriff auf Custom Forms haben, müssen Sie über bestimmte Berechtigungen verfügen, um zumindest das benutzerdefinierte Formular anzuzeigen, wie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Freigeben eines benutzerdefinierten Formulars</a>. Diese Berechtigungen müssen Ihnen gewährt werden, selbst wenn das Formular systemweit sichtbar ist. </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern</a>.</p> </td> 
+   <td> <p>Verwalten Sie Berechtigungen für das Objekt, an das Sie ein benutzerdefiniertes Formular anhängen möchten.</p> <p>Anzeigen oder höherer Berechtigungen für das benutzerdefinierte Formular mit der Berechtigung <b>An benutzerdefinierte Datenobjekte anhängen</b> (Projekte, Aufgaben und Probleme). Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Freigeben eines benutzerdefinierten Formulars</a>.</p> <p>Wichtig: Wenn Sie keine Planungslizenz mit Administratorzugriff auf Custom Forms haben, müssen Sie über bestimmte Berechtigungen verfügen, um zumindest das benutzerdefinierte Formular anzuzeigen, wie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular freigeben</a> beschrieben. Diese Berechtigungen müssen Ihnen gewährt werden, selbst wenn das Formular systemweit sichtbar ist. </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Ihr Workfront-Administrator oder ein Benutzer mit einer Planungslizenz und Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen, bevor Sie sie zu Objekten hinzufügen können. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Ihr Workfront-Administrator oder ein Benutzer mit einer Planungslizenz und Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen, bevor Sie sie zu Objekten hinzufügen können. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Benutzerdefiniertes Formular zu einem Objekt hinzufügen
 
 Sie können einem Objekt auf zwei Arten ein benutzerdefiniertes Formular hinzufügen:
 
-* [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt durch Bearbeiten des Objekts](#add-a-custom-form-to-an-object-by-editing-the-object)
+* [Fügen Sie ein benutzerdefiniertes Formular zu einem Objekt hinzu, indem Sie das Objekt bearbeiten](#add-a-custom-form-to-an-object-by-editing-the-object)
 * [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt aus dem Bereich &quot;Details&quot;](#add-a-custom-form-to-an-object-from-the-details-area)
 
 ### Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt durch Bearbeiten des Objekts {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Wechseln Sie zu dem Objekt, dem Sie das benutzerdefinierte Formular hinzufügen möchten.
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png)Klicken Sie auf **Bearbeiten** ![](assets/edit-icon.png).
-1. Klicks **Benutzerdefinierte Forms** > **Forms hinzufügen** und wählen Sie dann bis zu 10 Formulare aus dem Dropdownmenü aus.
+1. Klicken Sie auf das Menü **Mehr** ![](assets/more-icon.png) und dann auf **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf **Benutzerdefinierter Forms** > **Forms hinzufügen** und wählen Sie dann aus dem Dropdownmenü bis zu 10 Formulare aus.
 
 1. (Optional) Aktualisieren Sie die Informationen in den bearbeitbaren Feldern des benutzerdefinierten Formulars.
 
@@ -99,14 +99,14 @@ Sie können einem Objekt auf zwei Arten ein benutzerdefiniertes Formular hinzuf�
 ### Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt aus dem Bereich &quot;Details&quot; {#add-a-custom-form-to-an-object-from-the-details-area}
 
 1. Wechseln Sie zu dem Objekt, dem Sie das benutzerdefinierte Formular hinzufügen möchten.
-1. Klicken Sie auf **`<Object type>`Details** im linken Bereich. Klicken Sie beispielsweise auf **Projektdetails** zum Hinzufügen benutzerdefinierter Formulare zu einem Projekt oder **Problemdetails** , um einem Problem benutzerdefinierte Formulare hinzuzufügen.
-1. Klicken Sie auf **Benutzerdefiniertes Formular hinzufügen** in der oberen rechten Ecke und wählen Sie dann bis zu 10 benutzerdefinierte Formulare aus der angezeigten Liste aus.
+1. Klicken Sie im linken Bereich auf den Bereich **`<Object type>`Details** . Klicken Sie beispielsweise auf **Projektdetails** , um einem Projekt benutzerdefinierte Formulare hinzuzufügen, oder auf **Problemdetails** , um benutzerdefinierte Formulare zu einem Problem hinzuzufügen.
+1. Klicken Sie oben rechts auf das Feld **Benutzerdefiniertes Formular hinzufügen** und wählen Sie dann bis zu 10 benutzerdefinierte Formulare aus der angezeigten Liste aus.
 
    Wenn das Formular erforderliche Felder enthält (mit einem roten Sternchen markiert), müssen Sie sie derzeit nicht ausfüllen.
 
    Die ausgewählten Formulare werden automatisch an das Objekt angehängt.
 
-1. (Optional) Aktualisieren Sie die Informationen in den benutzerdefinierten Feldern des Formulars und klicken Sie auf **Änderungen speichern**.
+1. (Optional) Aktualisieren Sie die Informationen in den benutzerdefinierten Feldern des Formulars und klicken Sie dann auf **Änderungen speichern**.
 
 ## Mehrere benutzerdefinierte Formulare auf einem Objekt
 
@@ -125,19 +125,19 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 >Das Hinzufügen benutzerdefinierter Formulare zu Objekten ist für alle Objekte mit Ausnahme von Projekten identisch.
 >
->Informationen zum Hinzufügen benutzerdefinierter Formulare zu Projekten in Stapeln finden Sie im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+>Informationen zum Hinzufügen benutzerdefinierter Formulare zu Projekten in großen Mengen finden Sie im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md) .
 
 
 1. Navigieren Sie zu einer Liste von Objekten.
 1. Auswählen mehrerer Objekte in der Liste.
 
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png)und klicken Sie dann auf **Bearbeiten** icon  ![](assets/edit-icon.png).
+1. Klicken Sie auf das Menü **Mehr** und dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).![](assets/more-icon.png)
 
    Oder
 
-   Klicken Sie auf **Bearbeiten** icon ![](assets/edit-icon.png) oben in der Liste.
-1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
-1. im **Auswahl treffen** Wählen Sie im Dropdown-Menü das Formular aus, das Sie mit allen ausgewählten Objekten verknüpfen möchten.
+   Klicken Sie oben in der Liste auf das Symbol **Bearbeiten** ![](assets/edit-icon.png) .
+1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** .
+1. Wählen Sie im Dropdownmenü **Auswahl treffen** das Formular aus, das Sie mit allen ausgewählten Objekten verknüpfen möchten.
 
    >[!NOTE]
    >

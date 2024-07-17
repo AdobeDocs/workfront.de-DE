@@ -7,7 +7,7 @@ feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
 source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für ein Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für ein Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +56,7 @@ Beachten Sie bei der Genehmigung eines Geschäftsfalls eines Projekts Folgendes:
 * Sie müssen manuell zu den einzelnen Projekten wechseln, für die die Genehmigung von Geschäftsfällen erforderlich ist, um zu sehen, dass die Genehmigung aussteht. Es gibt keinen Workfront-Benachrichtigungsmechanismus, der jemanden darauf hinweist, dass er den Geschäftsfall eines Projekts genehmigen muss.
 * Sie können die Projekte finden, die auf die Genehmigung des Geschäftsfalls warten, indem Sie entweder einen Projektbericht erstellen oder auf das Portfolio zugreifen, mit dem sie verknüpft sind. 
 
-  Weitere Informationen zu Portfolios finden Sie im Artikel [Übersicht über Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Weitere Informationen zu Portfolios finden Sie im Artikel [Überblick über Portfolios in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Genehmigen Sie den Geschäftsfall, indem Sie einen Projektbericht erstellen
 
@@ -66,18 +66,18 @@ So erstellen Sie einen Bericht für Projekte, deren Geschäftsszenarios noch nic
 
 1. Erstellen Sie einen Bericht für Projekte.
 
-   Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Wählen Sie die **Ansicht** auf der Registerkarte des Berichts klicken **Spalte hinzufügen**.
+1. Wählen Sie die Registerkarte **Ansicht** des Berichts aus und klicken Sie dann auf **Spalte hinzufügen**.
 
-1. Beginnen Sie mit der Eingabe von &quot;Status&quot;im **In dieser Spalte anzeigen** und wählen Sie dieses Feld aus, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie mit der Eingabe von &quot;Status&quot;in das Feld **In dieser Spalte anzeigen** und wählen Sie dieses Feld aus, wenn es in der Liste angezeigt wird.
 
     Diese Spalte zeigt den Status der Projekte an.
 
-1. Wählen Sie die **Filter** auf der Registerkarte des Berichts klicken **Filterregel hinzufügen**.
+1. Wählen Sie die Registerkarte **Filter** des Berichts aus und klicken Sie dann auf **Filterregel hinzufügen**.
 
-1. Beginnen Sie mit der Eingabe von &quot;Status&quot;im **Nur zeigen Sie mir Projekte, in denen die ...** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
-1. Auswählen **Gleich** für den Filter-Modifikator.
+1. Beginnen Sie mit der Eingabe von &quot;Status&quot;in das Feld **Nur Projekte anzeigen, in denen das Feld ...** erscheint, und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Wählen Sie **Equal** für den Filtermodifikator aus.
 1. Beginnen Sie mit der Eingabe von &quot;Angefordert&quot; in das verfügbare Feld. 
 
    Dadurch wird sichergestellt, dass der Bericht nur Projekte enthält, die sich im Status &quot;Angefordert&quot;befinden.
@@ -108,19 +108,19 @@ So erstellen Sie einen Bericht für Projekte, deren Geschäftsszenarios noch nic
 
    , um anzuzeigen, wo Sie als Portfolio-Manager benannt sind. 
 
-1. Klicks **Speichern+Schließen**.
+1. Klicken Sie auf **Speichern+Schließen**.
 
-   Beachten Sie, dass alle Projekte im Bericht den Status von **Angefordert**.
+   Beachten Sie, dass sich alle Projekte im Bericht im Status &quot;**Angefordert**&quot;befinden.
 
 1. Klicken Sie auf den Namen eines Projekts im Bericht, um es zu öffnen.
-1. Klicks **Geschäftsfall** im linken Bereich.
-1. Klicks **Genehmigen** oder **Ablehnen** im Bereich &quot;Business Case Summary&quot;, um den Geschäftsfall zu genehmigen oder abzulehnen.
+1. Klicken Sie im linken Bereich auf **Geschäftsszenario** .
+1. Klicken Sie im Bereich &quot;Zusammenfassung der Geschäftsfälle&quot;auf **Genehmigen** oder **Ablehnen** , um den Geschäftsfall zu genehmigen oder abzulehnen.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 
-   Der Projektstatus ändert sich in **Genehmigt** wenn der Geschäftsfall genehmigt wurde.
+   Der Projektstatus wird in &quot;**Genehmigt**&quot; geändert, wenn der Geschäftsfall genehmigt wurde.
 
-   Der Projektstatus ändert sich in **Abgelehnt** wenn der Geschäftsfall abgelehnt wird.
+   Der Projektstatus wird in **Abgelehnt** geändert, wenn der Geschäftsfall abgelehnt wird.
 
    >[!NOTE]
    >
@@ -128,4 +128,4 @@ So erstellen Sie einen Bericht für Projekte, deren Geschäftsszenarios noch nic
 
 ## Genehmigen Sie den Geschäftsfall, indem Sie auf angeforderte Projekte in einem Portfolio zugreifen
 
-Weitere Informationen zum Überprüfen angeforderter Projekte finden Sie im Artikel [Überprüfen angeforderter Projekte](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+Weitere Informationen zum Überprüfen angeforderter Projekte finden Sie im Artikel [Angeforderte Projekte überprüfen](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

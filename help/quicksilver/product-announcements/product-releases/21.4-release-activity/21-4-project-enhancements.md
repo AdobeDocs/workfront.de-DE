@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Bilder in Aktualisierungen einschließen
 
@@ -27,9 +27,9 @@ Sie können Bilder sowohl in Updates als auch in Antworten hinzufügen. Eine Min
 
 Zuvor bestand die einzige Möglichkeit, ein Bild in Workfront freizugeben, darin, es als Dokument an ein Objekt anzuhängen. Auf der Registerkarte Aktualisierungen hinzugefügte Bilder sind nur auf dieser Registerkarte und nicht auf der Registerkarte Dokumente verfügbar.
 
-Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Bevor Workfront-Benutzer Bilder in Aktualisierungen einbeziehen können, muss diese Funktion zunächst vom Adobe Workfront-Administrator aktiviert werden, wie hier beschrieben: [Voreinstellungen für Benutzeraktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+Bevor Workfront-Benutzer Bilder in Aktualisierungen einbeziehen können, muss diese Funktion zunächst vom Adobe Workfront-Administrator aktiviert werden, wie unter [Voreinstellungen für Benutzeraktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md) beschrieben.
 
 ## Aktualisierter Algorithmus für Smart-Zuweisungen
 
@@ -48,7 +48,7 @@ Damit Ihre Verwendung von Workfront mit dem neuen Workfront-Erlebnis konsistent 
 
 Wir haben die Benutzeroberfläche für die Erstellung des Projekts aktualisiert, sowohl wenn Sie es aus den Projekten als auch aus dem Bereich Vorlagen erstellen.
 
-Für Informationen: [Erstellen eines Projekts mit einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Weitere Informationen finden Sie unter [Erstellen eines Projekts mit einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Neues Erlebnis beim Anhängen von Vorlagen an Projekte
 
@@ -62,7 +62,7 @@ Damit Ihre Verwendung von Workfront mit dem neuen Workfront-Erlebnis konsistent 
 * Hinzufügen von Vorlagen zu einer Favoritenliste während des Anlagenprozesses
 * Alle Optionen zum Verwalten von Vorlagen- und Projekteinstellungen auf einer durchgehenden Seite anzeigen
 
-Weitere Informationen finden Sie unter [Eine Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Weitere Informationen finden Sie unter [Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 ## Einheitliche Werte für Dauer und Dauer je Einheit für Aufgaben
 
@@ -97,5 +97,5 @@ Dies hängt davon ab, wie Sie die Felder im benutzerdefinierten Formular positio
 
 Informationen zum Ausfüllen eines benutzerdefinierten Formulars finden Sie unter [Informationen in benutzerdefinierten Formularfeldern bearbeiten](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-Informationen zum Erstellen eines Kontrollkästchen- oder Optionsfeld-Felds in einem benutzerdefinierten Formular finden Sie in den Abschnitten . [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) und [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Informationen zum Erstellen eines Kontrollkästchen- oder Optionsfeld-Felds in einem benutzerdefinierten Formular finden Sie in den Abschnitten [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) und [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) im Artikel [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

@@ -2,27 +2,27 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Markieren Sie die [!DNL Workfront] Testseite - erweitert
+title: Marke der [!DNL Workfront] Testversand-Site - erweitert
 description: Erweitertes Branding ist in den Plänen Select und Premium verfügbar und ist in den Kosten des Plans enthalten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
 
-# Markieren Sie die [!DNL Workfront Proof] site - advanced
+# Marke der [!DNL Workfront Proof]-Site - erweitert
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Erweitertes Branding ist in den Plänen Select und Premium verfügbar und ist in den Kosten des Plans enthalten.
 
-Informationen zum grundlegenden Branding, einschließlich Anmeldeseite, E-Mail-Benachrichtigungen und Testsendungen, finden Sie unter [Markieren Sie die [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Informationen zum grundlegenden Branding, einschließlich Anmeldeseite, E-Mail-Benachrichtigungen und Testsendungen, finden Sie unter [Marke der [!DNL Workfront Proof] Site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 Erweiterte Branding-Optionen umfassen die Anpassung der folgenden Bereiche:
 
@@ -39,14 +39,14 @@ In den folgenden Abschnitten wird das erweiterte Branding genauer beschrieben:
 
 ## Überblick über erweitertes Branding
 
-Sie finden die [!UICONTROL Branding-Konfiguration] im Tab Ihres [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) Seite. Um die Änderungen auf Ihr Konto anzuwenden, stellen Sie sicher, dass die Option Branding auf [!UICONTROL Aktiviert] Absatz 1.
+Den Abschnitt [!UICONTROL Branding-Konfiguration] finden Sie auf der Registerkarte Ihrer Seite [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) . Um die Änderungen auf Ihr Konto anzuwenden, stellen Sie sicher, dass die Option Branding auf [!UICONTROL Aktiviert] (1) gesetzt ist.
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 Weitere Informationen zum Konfigurieren der erweiterten Branding-Optionen (2-14) finden Sie im folgenden Abschnitt.
 
 ## Erweiterte Branding-Konfiguration
 
-Sie können die folgenden Bereiche von [!DNL Workfront Proof]:
+Sie können die folgenden Bereiche von [!DNL Workfront Proof] markieren:
 
 * [Web-Anwendung](#web-application)
 * [Header](#header)
@@ -63,7 +63,7 @@ Sie haben drei Branding-Optionen für den Webanwendungs-Header (2):
 
 * Branding-Bild in der Kopfzeile
 * Ihr Kontoname in der Kopfzeile
-* Wenn Sie das Branding deaktivieren, [!DNL Workfront Proof] Das Logo bleibt in der Kopfzeile der Web-App
+* Wenn Sie das Branding deaktivieren, bleibt das [!DNL Workfront Proof] -Logo in der Kopfzeile der Webanwendung
 
 Branding-Bild: Die Größe wird auf maximal 550 x 90 Pixel geändert. Sie können JPG, GIF oder PNGs verwenden, und der transparente Hintergrund wird unterstützt.
 
@@ -80,13 +80,13 @@ Farbe - Hier können Sie wie in allen anderen Branding-Feldern der Farbschemakon
 Hintergrundbild - kann mit dem Branding-Bild kombiniert werden.
 
 * Sie können JPG, GIF oder PNGs verwenden - für Dateien mit Transparenz wird eine weiße Hintergrundfarbe angezeigt.
-* Die Höhe der Kopfzeile beträgt 96 Pixel, und die Größe des hochgeladenen Bildes wird für die [!UICONTROL Keine Wiederholung] -Option.
+* Die Höhe der Kopfzeile beträgt 96 Pixel, und die Größe des hochgeladenen Bildes wird für die Option [!UICONTROL Keine Wiederholung] nicht geändert.
 * Das Hintergrundbild wird oben links positioniert.
 
 ### Kopfzeilenlinks {#header-links}
 
 In diesem Feld (4) können Sie die Farbe und Farbe des Benutzernamens für die Links im Menü Kopfzeile ändern, das oben rechts in Ihrem Konto angezeigt wird.
-![Header_links.png](assets/header-links-350x140.png)
+![header_links.png](assets/header-links-350x140.png)
 
 ### Seitenleiste {#sidebar}
 
@@ -107,13 +107,13 @@ In diesem Feld (7) können Sie die Farbe des Begrüßungsfelds festlegen, das au
 
 ### Bereichs-Kopfzeilen {#section-headers}
 
-Mit diesen Feldern können Sie den Hintergrund (8) und die Schriftfarbe (9) der Bereichs-Header auf der [[!UICONTROL Kontoeinstellungen]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) Seiten.
+Mit diesen Feldern können Sie den Hintergrund (8) und die Schriftfarbe (9) der Abschnittsüberschriften auf den Seiten [[!UICONTROL Kontoeinstellungen]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) anpassen.
 ![Section_headers.png](assets/section-headers-350x138.png)
 
-**Fußzeile**
+**Footer**
 
 In diesem Feld (10) der Branding-Konfiguration können Sie eine Fußzeile erstellen, die unten auf allen Kontoseiten angezeigt wird. Sie können den integrierten WYSIWYG-Editor verwenden oder einfach Ihr eigenes Design einfügen.
-![Footer.png](assets/footer-350x157.png)
+![footer.png](assets/footer-350x157.png)
 
 >[!NOTE]
 >
@@ -121,22 +121,22 @@ In diesem Feld (10) der Branding-Konfiguration können Sie eine Fußzeile erstel
 
 **Favicon und Seitentitel**
 
-Sie können anpassen, wie Ihre [!DNL Workfront Proof] Die Seiten werden in den Browsern angezeigt, indem Sie Ihr eigenes Favicon-Bild (.ICO-Datei) (11) und Ihren Seitentitel (12) festlegen. Diese werden in den Registerkarten/Windows-Kopfzeilen des Browsers für alle Kontoseiten angezeigt.
-![Favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
+Sie können anpassen, wie Ihre [!DNL Workfront Proof]-Seiten in den Browsern dargestellt werden, indem Sie Ihr eigenes Favicon-Bild (.ICO-Datei) (11) und Ihren Seitentitel (12) festlegen - diese werden in den Registerkarten/Fensterhandbüchern des Browsers für alle Kontoseiten angezeigt.
+![favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
 
 >[!NOTE]
 >
->Ihr Favicon wird auch in den Kopfzeilen der [!DNL Workfront Proof] Viewer-Fenster für alle Testsendungen, die auf Ihrem Konto erstellt wurden.
+>Ihr Favicon wird auch in den Kopfzeilen der Viewer-Fenster [!DNL Workfront Proof] für alle Testsendungen angezeigt, die auf Ihrem Konto erstellt wurden.
 
 **Hilfe-Links**
 
-Sie können Ihre eigenen Hilfelinks so anpassen, dass Ihre Benutzer und Validierer auf Ihre eigenen Inhalte verweisen. Um diese Funktion zu aktivieren, legen Sie die [!UICONTROL Hilfe-Links] (13) auf Aktiviert und fügen Sie Ihre Links in die nächsten Felder (14) ein. Sie können bis zu vier Links konfigurieren, die dann verfügbar sein werden:
+Sie können Ihre eigenen Hilfelinks so anpassen, dass Ihre Benutzer und Validierer auf Ihre eigenen Inhalte verweisen. Setzen Sie dazu die Option [!UICONTROL Hilfe-Links] (13) auf Aktiviert und fügen Sie Ihre Links in die nächsten Felder (14) ein. Sie können bis zu vier Links konfigurieren, die dann verfügbar sein werden:
 
-* im [!UICONTROL Kopfzeile] Menü unter [!UICONTROL Hilfe] link
-   ![Help_links1.png](assets/help-links1-350x170.png)
+* im Menü [!UICONTROL Kopfzeile] unter dem Link [!UICONTROL Hilfe]
+  ![Help_links1.png](assets/help-links1-350x170.png)
 
-* im [!UICONTROL Hilfe] -Bedienfeld der [!DNL Workfront Proof] [!UICONTROL Viewer] Seitenleiste
-   ![Help_links2.png](assets/help-links2-350x532.png)
+* im Bedienfeld [!UICONTROL Hilfe] der Seitenleiste [!DNL Workfront Proof] [!UICONTROL Viewer]
+  ![Help_links2.png](assets/help-links2-350x532.png)
 
 Zusätzlich können Kunden, die Pläne für Unternehmen nutzen, Folgendes vollständig anpassen:
 

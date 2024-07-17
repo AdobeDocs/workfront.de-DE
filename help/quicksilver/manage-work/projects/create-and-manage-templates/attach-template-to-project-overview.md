@@ -10,7 +10,7 @@ feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1258'
 ht-degree: 5%
 
 ---
@@ -19,16 +19,16 @@ ht-degree: 5%
 
 Wenn Sie eine Vorlage an ein vorhandenes Projekt anhängen, ändern Sie einige Informationen im Projekt entsprechend der Vorlage. Einige der Angaben zum Projekt bleiben unverändert.
 
-Informationen zum Anhängen einer Vorlage an ein Projekt finden Sie unter [Eine Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Informationen zum Anhängen einer Vorlage an ein Projekt finden Sie unter [Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 ## Überlegungen zum Hinzufügen von Vorlagen zu Projekten
 
 Beachten Sie beim Hinzufügen von Vorlagen zu Projekten Folgendes:
 
 * Sie können nur aktive Vorlagen an Projekte anhängen.
-* Sie können eine Vorlage nur dann an ein Projekt anhängen, wenn der Status des Projekts &quot;Abgeschlossen&quot;, &quot;Unbeendet&quot;oder &quot;Ausstehende Genehmigung&quot;lautet, wenn der Adobe Workfront-Administrator oder ein Gruppenadministrator diese Funktion im Bereich &quot;Projekteinstellungen&quot;aktiviert hat. Weitere Informationen zum Festlegen von Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Sie können eine Vorlage nur dann an ein Projekt anhängen, wenn der Status des Projekts &quot;Abgeschlossen&quot;, &quot;Unbeendet&quot;oder &quot;Ausstehende Genehmigung&quot;lautet, wenn der Adobe Workfront-Administrator oder ein Gruppenadministrator diese Funktion im Bereich &quot;Projekteinstellungen&quot;aktiviert hat. Weitere Informationen zum Festlegen von Projektvoreinstellungen finden Sie unter [Konfigurieren von systemweiten Projekteigenschaften](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Sofern Sie bestimmte Vorlagenaufgaben nicht aus dem Anlagenprozess ausschließen, werden alle Vorlagenaufgaben zum vorhandenen Projekt hinzugefügt.
-* Die meisten Vorlageneinstellungen werden dem Projekt hinzugefügt. Einige Projekteinstellungen bleiben erhalten. Weitere Informationen finden Sie im Abschnitt . [Grundlegendes zu Änderungen an Projektfeldern beim Anhängen einer Vorlage](#understand-changes-to-project-fields-when-attaching-a-template) in diesem Artikel.
+* Die meisten Vorlageneinstellungen werden dem Projekt hinzugefügt. Einige Projekteinstellungen bleiben erhalten. Weitere Informationen finden Sie im Abschnitt [Grundlegendes zu Änderungen an Projektfeldern beim Anhängen einer Vorlage](#understand-changes-to-project-fields-when-attaching-a-template) in diesem Artikel.
 
 ## Grundlegendes zu Änderungen an Projektfeldern beim Anhängen einer Vorlage {#understand-changes-to-project-fields-when-attaching-a-template}
 
@@ -38,7 +38,7 @@ Beachten Sie beim Hinzufügen von Vorlagen zu Projekten Folgendes:
 
 Einige Vorlageneinstellungen werden automatisch in das Projekt übertragen, es sei denn, Sie markieren sie explizit, damit sie während des Vorlagenanlagenanlagenprozesses ausgeschlossen werden. Wenn Sie sie zum Ausschließen markieren, bleiben die Projektfeldwerte erhalten.
 
-Es sind jedoch nicht alle Projektfelder verfügbar, die beim Anhängen einer Vorlage an ein Projekt verwaltet werden können. Weitere Informationen finden Sie unter [Eine Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Es sind jedoch nicht alle Projektfelder verfügbar, die beim Anhängen einer Vorlage an ein Projekt verwaltet werden können. Weitere Informationen finden Sie unter [Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für die Arbeit mit Projektfeldern beim Anhängen einer Vorlage und die Felder, die Sie während des Anlagenprozesses verwalten können, angewendet werden, um das Standardverhalten zu überschreiben:
 
@@ -209,7 +209,7 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
   </tr> 
   <tr> 
    <td>Ressourcenpools</td> 
-   <td>Zur Liste der vorhandenen Ressourcen-Pools im Projekt hinzugefügt</td> 
+   <td>Zur Liste der vorhandenen Ressourcenpools im Projekt hinzugefügt</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -228,7 +228,7 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Benutzerdefinierter Forms für Aufgaben</td> 
+   <td>Benutzerdefinierter Forms-Task Standard</td> 
    <td>Projektinformationen werden beibehalten</td> 
    <td> </td> 
   </tr> 
@@ -273,7 +273,7 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
    <td> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td>Rechnungsnachweise</td> 
+   <td>Abrechnungseinträge</td> 
    <td>Projektinformationen werden beibehalten</td> 
    <td> </td> 
   </tr> 
@@ -304,7 +304,7 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
   </tr> 
   <tr> 
    <td>Warteschlangendetails, Themengruppen, Warteschlangenthemen, Routing-Regeln</td> 
-   <td> <p>Aus Vorlage übertragen</p> <p>Wenn Sie die <strong>Einrichten von Warteschlangeneigenschaften und Problemen</strong> während des Anlagenvorgangs überschreiben die Queue Details der Vorlage die des Projekts. In diesem Fall werden die Routing-Regeln, Warteschlangenthemen und Themengruppen der Vorlage zu denen des Projekts hinzugefügt. <br>Wenn das Projekt als Anforderungswarteschlange eingerichtet ist und die dem Projekt angehängte Vorlage nicht als Anforderungswarteschlange eingerichtet ist, werden die Warteschlangeninformationen des Projekts entfernt, wenn Sie das Projekt verlassen <strong>Einrichten von Warteschlangeneigenschaften und Problemen</strong> aktiviert. <br>Wenn Sie die <strong>Warteschlangeneigenschaften und Problemeinrichtung</strong> bleiben alle Einstellungen für die Warteschlangeneinstellungen des Projekts erhalten und es werden keine Einstellungen für die Warteschlangeneinrichtung aus der Vorlage angehängt.</p> </td> 
+   <td> <p>Aus Vorlage übertragen</p> <p>Wenn Sie während des Anlagenvorgangs die Option <strong>Einrichten der Warteschlangen-Eigenschaften und Probleme</strong> auswählen, überschreiben die Warteschlangendetails der Vorlage die des Projekts. In diesem Fall werden die Routing-Regeln, Warteschlangenthemen und Themengruppen der Vorlage zu denen des Projekts hinzugefügt. <br>Wenn das Projekt als Anforderungswarteschlange eingerichtet ist und die dem Projekt angehängte Vorlage nicht als Anforderungswarteschlange eingerichtet ist, werden die Warteschlangeninformationen des Projekts entfernt, wenn Sie das Kontrollkästchen <strong>Eigenschaften und Einrichtung der Warteschlange</strong> aktiviert lassen. <br>Wenn Sie das Feld <strong>Eigenschaften der Warteschlange und Problemeinrichtung</strong> deaktivieren, werden alle Einstellungen für die Warteschlangeneinrichtung des Projekts beibehalten und es werden keine Einstellungen für die Warteschlangeneinrichtung aus der Vorlage angehängt.</p> </td> 
    <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 

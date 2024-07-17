@@ -27,7 +27,7 @@ Indem Sie Projekte mit Zielen verbinden, können Sie die strategische Planung (Z
 
 >[!IMPORTANT]
 >
->Ziele auf Projektebene, die im Geschäftsfallbereich eines Projekts erstellt wurden, sind nicht mit strategischen Zielen verknüpft, die in Workfront-Zielen erstellt wurden. Weitere Informationen zu den Geschäftsfallprojektzielen finden Sie unter [Geschäftsfallziele erstellen](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>Ziele auf Projektebene, die im Geschäftsfallbereich eines Projekts erstellt wurden, sind nicht mit strategischen Zielen verknüpft, die in Workfront-Zielen erstellt wurden. Weitere Informationen zu den Projektzielen von Business Case finden Sie unter [Ziele für Geschäftsfälle erstellen](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 
 ## Zugriffsanforderungen
@@ -90,7 +90,7 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Verbinden von Projekten mit Zielen
 
@@ -125,17 +125,17 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Hinzufügen von Projekten zu Zielen
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) (Entwurf für Shell: oder klicken Sie auf die Schaltfläche **Hauptmenü** ![](assets/three-line-main-menu-icon.png) in der oberen linken Ecke, sofern verfügbar.) , dann **Ziele**.
+1. Klicken Sie auf das **Hauptmenü** ![](assets/main-menu-icon.png) (Entwurf für Shell: oder klicken Sie auf das **Hauptmenü** ![](assets/three-line-main-menu-icon.png) in der oberen linken Ecke, falls verfügbar.) und dann auf **Ziele**.
 1. Klicken Sie in der Zielliste auf den Namen eines Ziels, um die Zielseite zu öffnen.
-1. Klicks **Fortschrittsanzeigen** im linken Bereich.
-1. Aus dem **Neuer Fortschrittsanzeiger** Dropdown-Menü, klicken Sie auf **Vorhandenes Projekt hinzufügen**.
+1. Klicken Sie im linken Bereich auf **Fortschrittsanzeigen** .
+1. Klicken Sie im Dropdownmenü **Neuer Fortschrittsanzeige** auf **Vorhandenes Projekt hinzufügen**.
 
    Das Feld Projekte zum Ziel hinzufügen wird angezeigt.
-1. (Optional) Aktualisieren Sie die **Ansicht**, **Filter** oder **Gruppierung** durch Klicken auf die entsprechenden Symbole in der oberen rechten Ecke der Liste, um die Anzeige der Projektliste zu ändern.
-1. (Optional) Klicken Sie auf die **Suche** icon ![](assets/search-icon.png) und beginnen Sie mit der Eingabe des Namens eines Projekts, um es schnell in der Liste zu finden.
+1. (Optional) Aktualisieren Sie die **Ansicht**, den **Filter** oder die **Gruppierung**, indem Sie auf die entsprechenden Symbole oben rechts in der Liste klicken, um die Anzeige der Projektliste zu ändern.
+1. (Optional) Klicken Sie auf das Symbol **Suchen** ![](assets/search-icon.png) und geben Sie den Namen eines Projekts ein, um es schnell in der Liste zu finden.
 1. Wählen Sie die Projekte aus, die Sie zum Ziel hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
 
-   Die ausgewählten Projekte werden zum Ziel hinzugefügt und im Abschnitt Fortschrittsindikatoren der Zielseite unter dem **Projekt** Gruppierung.
+   Die ausgewählten Projekte werden zum Ziel hinzugefügt und im Abschnitt Fortschrittsanzeigen der Zielseite unter der Gruppe **Projekt** angezeigt.
 
    Nachdem Sie das Ziel aktiviert haben, wird der Fortschritt des Ziels automatisch aktualisiert, sobald der Fortschritt eines Projekts aktualisiert wird. Informationen zum Aktivieren eines Ziels finden Sie unter [Ziele in Adobe Workfront aktivieren](../goal-management/activate-goals.md).
 

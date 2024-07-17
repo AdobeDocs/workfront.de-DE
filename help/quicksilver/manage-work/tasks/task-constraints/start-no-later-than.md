@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '"Task Constraint - Übersicht: Start nicht später als'''
-description: Start nicht später als (SNLT) ist eine Aufgabenbegrenzung, die den Beginn einer Aufgabe vor dem angegebenen Datum plant.
+title: "Task Constraint overview: start not later als"
+description: Start nicht später als (SNLT) ist eine Aufgabenbegrenzung, die den Beginn einer Aufgabe vor dem von Ihnen angegebenen Datum plant.
 author: Alina
 feature: Work Management
 exl-id: 86139ce6-c6b1-4ac4-a5cb-fd4aa899a025
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbeschränkungen: Start nicht später als
+# Übersicht über Aufgabenbegrenzungen: Start nicht später als
 
-Start nicht später als (SNLT) ist eine Aufgabenbegrenzung, die den Beginn einer Aufgabe vor dem angegebenen Datum plant.
+Start nicht später als (SNLT) ist eine Aufgabenbegrenzung, die den Beginn einer Aufgabe vor dem von Ihnen angegebenen Datum plant.
 
 Beachten Sie beim Arbeiten mit der SNLT-Beschränkung Folgendes:
 
 * Sie sollten die Beschränkung &quot;Start nicht später als&quot;verwenden, wenn das Projekt ab dem vollständigen Datum geplant ist. In diesem Fall können Sie eine weiche Einschränkung für eine Aufgabe festlegen, bevor andere abhängige Aufgaben als &quot;Risiko&quot;angezeigt werden.
-* &quot;Start nicht später als&quot;ist die Standardeinschränkung, wenn ein Projekt den Planungsmodus &quot;Zeitplan ab Abschlussdatum&quot;verwendet und der standardmäßige System- oder Gruppenstandard für das Startdatum einer Aufgabe &quot;Heute&quot;lautet. Informationen darüber, wo die Standardbegrenzung für eine neue Aufgabe festgelegt werden soll, finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* &quot;Start nicht später als&quot;ist die Standardeinschränkung, wenn ein Projekt den Planungsmodus &quot;Zeitplan ab Abschlussdatum&quot;verwendet und der standardmäßige System- oder Gruppenstandard für das Startdatum einer Aufgabe &quot;Heute&quot;lautet. Informationen darüber, wo die Standardbegrenzung für eine neue Aufgabe festgelegt werden soll, finden Sie unter [Systemweite Aufgaben konfigurieren und Ausgabeeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Wenn Sie die SNLT-Beschränkung mit einem Projekt &quot;Schedule From Start Date&quot;verwenden, plant Adobe Workfront die Aufgabe so, wie es eine Aufgabe so bald wie möglich wäre.
 * Wenn Sie eine Aufgabe mit einer SNLT-Einschränkung in ein anderes Projekt verschieben oder kopieren, können sich die Beschränkung der Aufgabe oder die Daten des Projekts je nach den Einschränkungsdaten und den Start- und Abschlussdaten des Projekts ändern. Die folgenden Szenarien existieren:
 
@@ -34,11 +34,12 @@ Beachten Sie beim Arbeiten mit der SNLT-Beschränkung Folgendes:
 
          * Wenn das Beschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbegrenzung in &quot;So spät wie möglich&quot;.
          * Wenn das Beschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts entsprechend dem Startbegrenzungsdatum der Aufgabe.
+
       * Wenn das Beschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Zeitplan des Projekts keine Änderungen an der Aufgabenbegrenzung oder den Projektzeitpunkten.
 
-   Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+  Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-   Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 

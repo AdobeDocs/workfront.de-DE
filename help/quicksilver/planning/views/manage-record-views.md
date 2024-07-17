@@ -22,7 +22,7 @@ Nach Auswahl eines Datensatztyps im Adobe Workfront-Planungsbereich können Sie 
 
 * Tabelle
 
-  Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Timeline
 
@@ -36,7 +36,7 @@ In diesem Artikel werden die folgenden Informationen zu Datensatzansichten besch
 
 * [Erstellen und Bearbeiten einer Ansicht](#create-or-edit-record-views)
 * [Ansicht löschen](#delete-views)
-* [Ansicht duplizieren](#duplicate-views)
+* [Duplizieren einer Ansicht](#duplicate-views)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -100,7 +100,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Überlegungen zum Arbeiten mit Datensatzansichten
@@ -168,7 +168,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-1. Klicks **+ Ansicht** , um eine neue Ansicht hinzuzufügen.
+1. Klicken Sie auf **+ Ansicht** , um eine neue Ansicht hinzuzufügen.
 1. Wählen Sie aus den folgenden Arten von Ansichten:
 
    * Tabelle
@@ -177,7 +177,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
    Eine neue Registerkarte wird mit der ausgewählten Ansicht erstellt.
 
-   Je nach Breite des Bildschirms können zusätzliche Ansichten im **Mehr** Menü ![](assets/more-menu.png).
+   Abhängig von der Breite Ihres Bildschirms können im Menü **Mehr** ![](assets/more-menu.png) zusätzliche Ansichten angezeigt werden.
 
 
 >[!TIP]
@@ -191,7 +191,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
 
-1. (Bedingt) Klicken Sie auf **Nächste** beim Erstellen einer Timeline- oder Kalenderansicht.
+1. (Bedingt) Klicken Sie beim Erstellen einer Timeline- oder Kalenderansicht auf **Weiter**.
 
    Standardmäßig gibt Workfront der Ansicht einen der folgenden Namen:
 
@@ -201,19 +201,19 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
    Die Zahl ist ein automatisch generiertes Inkrement.
 
-1. (Bedingt) Wählen Sie die **Starten** und **Enddaten** für die Datensätze, die in der Timeline- oder Kalenderansicht angezeigt werden.
+1. (Bedingt) Wählen Sie für die Datensätze, die in der Timeline- oder Kalenderansicht angezeigt werden sollen, die **Start** und das **Enddatum** aus.
 
    >[!TIP]
    >
-   >    Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensätzen oder Objekttypen suchen. Sie müssen Aggregatoren für Datumsfelder (MAX oder MIN) verwenden, wenn Sie Suchfelder als Start- und Enddatum für die Timeline- und Kalenderansichten auswählen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensätzen oder Objekttypen suchen. Sie müssen Aggregatoren für Datumsfelder (MAX oder MIN) verwenden, wenn Sie Suchfelder als Start- und Enddatum für die Timeline- und Kalenderansichten auswählen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Klicken Sie auf **Erstellen**.
 
    Die Ansicht wird als neue Registerkarte angezeigt. Ansichten werden in chronologischer Reihenfolge angezeigt, nachdem sie erstellt oder für Sie freigegeben wurden.
-1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
+1. (Optional) Klicken Sie auf das Menü **Mehr** neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.![](assets/more-caret-down-icon-views.png)
 
-   Weitere Ansichten werden unter der **Mehr** Menü hinter der Registerkarte &quot;Letzte Ansicht&quot;aus. Die Zahl neben dem **Mehr** zeigt die Anzahl weiterer Ansichten an.
-1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;und dann auf **Mehr** Menü ![](assets/more-menu.png) > **Umbenennen** , um den Ansichtsnamen zu aktualisieren
+   Zusätzliche Ansichten werden nach der Registerkarte &quot;Letzte Ansicht&quot;im Menü **Mehr** angezeigt. Die Zahl neben dem Menü **Mehr** gibt die Anzahl der zusätzlichen Ansichten an.
+1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü &quot;Ansicht&quot;und dann auf das Menü **Mehr** Menü ![](assets/more-menu.png) > **Umbenennen** , um den Ansichtsnamen zu aktualisieren
 
    Oder
 
@@ -240,10 +240,10 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-1. Bewegen Sie den Mauszeiger über einen der Namen der Ansicht auf der Registerkarte &quot;Ansicht&quot;und klicken Sie dann auf **Mehr** ![](assets/more-menu.png) auf der linken Seite des Ansichtsnamens und klicken Sie dann auf **Löschen**.
-Zunächst müssen Sie möglicherweise auf **Mehr** auf der linken Seite der letzten Registerkarte, um die Ansicht zu finden, die Sie löschen möchten.
+1. Bewegen Sie den Mauszeiger über einen der Namen der Ansicht auf der Registerkarte &quot;Ansicht&quot;, klicken Sie dann links neben dem Ansichtsnamen auf **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Löschen**.
+Zunächst müssen Sie möglicherweise links neben der letzten Registerkarte auf **Mehr** klicken, um die Ansicht zu finden, die Sie löschen möchten.
 
-1. Klicks **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
+1. Klicken Sie zur Bestätigung auf **Löschen** . <!--ensure there is not another saving step here?!-->
 
    Die Ansicht wird für alle Benutzer gelöscht, die auf den Datensatzbereich zugreifen können, und kann nicht wiederhergestellt werden.
 
@@ -270,7 +270,7 @@ Die Freigabeberechtigungen der ursprünglichen Ansicht werden nicht an die dupli
    Die Seite mit dem Datensatztyp wird geöffnet.
 Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-1. Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie duplizieren möchten, und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen der Ansicht klicken Sie auf **Duplizieren**.
+1. Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie duplizieren möchten, klicken Sie auf das Menü **Mehr** rechts neben dem Ansichtsnamen und klicken Sie dann auf **Duplizieren** .![](assets/more-menu.png)
 
    ![](assets/view-more-menu-with-duplicate-option.png)
 

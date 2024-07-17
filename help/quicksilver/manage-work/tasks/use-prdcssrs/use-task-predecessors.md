@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)
+* [Übersicht über die Aufgabenverfasser](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)
 * [Erstellen einer Vorgängerbeziehung auf der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
-* [Erstellen einer Vorgängerbeziehung im Bereich &quot;Vorgänger&quot;](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
+* [Erstellen einer Vorgängerbeziehung mithilfe des Bereichs &quot;Vorgänger&quot;](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
 * [Erstellen von Vorgängerbeziehungen durch Verketten von Aufgaben](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
 * [Erstellen projektübergreifender Vorgänger](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
 * [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
-* [Durchsetzen von Vorgängern](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-* [Übersicht über Launch-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
+* [Erzwingen von Vorgängern](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
+* [Übersicht über die Lag-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
 * [Übersicht über Aufgabenabhängigkeitsschleife](../../../manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)

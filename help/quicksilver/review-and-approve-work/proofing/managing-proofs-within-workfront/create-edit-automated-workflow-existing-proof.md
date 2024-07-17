@@ -29,11 +29,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Erstellen oder bearbeiten Sie einen automatisierten Workflow für einen vorhandenen Testversand:
 
@@ -54,24 +54,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Wenn Sie den Testversand im Testversand-Viewer überprüfen, klicken Sie auf **Workflow** ![](assets/workflow-icon-proofing-viewer.png) Klicken Sie im linken Bereich auf das Symbol Bearbeiten . ![](assets/edit-icon-proofing-viewer.png) , um die Einstellungen für den automatisierten Workflow für den Testversand zu öffnen.
+   Wenn Sie den Testversand im Testversand-Viewer überprüfen, klicken Sie im linken Bedienfeld auf **Workflow** ![](assets/workflow-icon-proofing-viewer.png) und dann auf das Bearbeitungssymbol ![](assets/edit-icon-proofing-viewer.png) , um die Einstellungen für den automatisierten Workflow für den Testversand zu öffnen.
 
-1. (Bedingt) Wenn der Testversand derzeit einen einfachen Workflow verwendet (ohne Phasen), klicken Sie auf **In automatisierten Workflow konvertieren** im angezeigten Bildschirm.
+1. (Bedingt) Wenn der Testversand derzeit einen einfachen Workflow (ohne Phasen) verwendet, klicken Sie im angezeigten Bildschirm auf **In automatisierten Workflow konvertieren** .
 
    >[!NOTE]
    >
    >Sie können den ersten Schritt nicht bearbeiten, wenn Sie von einem einfachen Workflow in einen automatisierten Workflow konvertieren. Sie können jedoch neue Phasen hinzufügen und konfigurieren.
 
-1. (Bedingt) Um eine Vorlage für einen automatisierten Workflow zu verwenden, die Ihr Adobe Workfront-Administrator erstellt und für Sie freigegeben hat, klicken Sie auf **Vorlage hinzufügen**, wählen Sie die Vorlage im angezeigten Feld aus und klicken Sie auf **Vorlage hinzufügen**.
+1. (Bedingt) Um eine Vorlage für einen automatisierten Workflow zu verwenden, die Ihr Adobe Workfront-Administrator erstellt und für Sie freigegeben hat, klicken Sie auf **Vorlage hinzufügen**, wählen Sie die Vorlage im angezeigten Feld aus und klicken Sie dann auf **Vorlage hinzufügen**.
 
-   Weitere Informationen finden Sie unter [Über die Verwendung automatisierter Workflow-Vorlagen](#about-using-automated-workflow-templates) in diesem Artikel.
+   Weitere Informationen finden Sie unter [Über die Verwendung von Vorlagen für automatisierte Workflows](#about-using-automated-workflow-templates) in diesem Artikel.
 
 1. Fügen Sie dem automatisierten Workflow eine Bühne hinzu:
 
-   1. Klicken **Neue Phase** in der Nähe der oberen rechten Ecke.
-   1. Geben Sie in das angezeigte Feld einen **Name** für die Bühne.
+   1. Klicken Sie oben rechts auf **Neue Phase**.
+   1. Geben Sie in das angezeigte Feld einen **Namen** für die Bühne ein.
    1. (Optional) Legen Sie einen Termin für die Phase fest.
-   1. Im **Phase aktivieren** wählen Sie aus, wie die Bühne aktiviert werden soll:
+   1. Wählen Sie im Abschnitt **Phase aktivieren** aus, wie die Bühne aktiviert werden soll:
 
 
       <table>
@@ -82,23 +82,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       </tr>
       <tr>
       <td><strong>Nach Ablauf der Frist für die vorige Phase</strong></td>
-      <td>Klicken Sie auf die vorherige Phase im <strong>Übergeordnete Phase</strong> Dropdown-Liste .</td>
+      <td>Klicken Sie in der Dropdownliste <strong>Übergeordnete Phase</strong> auf die vorherige Phase .</td>
       </tr>
       <tr>
       <td><strong>An einem bestimmten Datum und zu einer bestimmten Uhrzeit</strong></td>
-      <td>Klicken Sie auf <strong>on</strong> zum Auswählen des Datums und klicken Sie dann auf das Feld rechts, um die Zeit auszuwählen.</td>
+      <td>Klicken Sie auf das Feld <strong>An</strong> , um das Datum auszuwählen, und klicken Sie dann auf das Feld rechts, um die Zeit auszuwählen.</td>
       </tr>
       <tr>
       <td><strong>Alle Entscheidungen werden mit Änderungen in der übergeordneten Phase genehmigt oder genehmigt</strong></td>
-      <td>Klicken Sie auf die übergeordnete Phase im <strong>Übergeordnete Phase</strong> Dropdown-Liste.</td>
+      <td>Klicken Sie in der Dropdownliste <strong>Übergeordnete Phase</strong> auf die übergeordnete Phase.</td>
       </tr>
       <tr>
       <td><strong>Alle Entscheidungen werden in der übergeordneten Phase genehmigt</strong></td>
-      <td>Klicken Sie auf die übergeordnete Phase im <strong>Übergeordnete Phase</strong> Dropdown-Liste.</td>
+      <td>Klicken Sie in der Dropdownliste <strong>Übergeordnete Phase</strong> auf die übergeordnete Phase.</td>
       </tr>
       <tr>
       <td><strong>Alle Entscheidungen werden getroffen</strong></td>
-      <td>Klicken Sie auf die übergeordnete Phase im <strong>Übergeordnete Phase</strong> Dropdown-Liste.</td>
+      <td>Klicken Sie in der Dropdownliste <strong>Übergeordnete Phase</strong> auf die übergeordnete Phase.</td>
       </tr>
       </tbody>
       </table>
@@ -115,11 +115,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
        <col>
        <tbody>
         <tr>
-         <td role="rowheader"><strong>Fristoptionen</strong> </td>
-         <td><p>Um einen Termin für die Phase festzulegen, klicken Sie auf eine Option im <strong>Optionen für Fristen</strong> Dropdown-Liste. Dann, unter <strong>Termin</strong>führen Sie einen der folgenden Schritte aus:</p>
+         <td role="rowheader"><strong>Deadline options</strong> </td>
+         <td><p>Um einen Termin für die Phase festzulegen, klicken Sie auf eine Option in der Dropdownliste <strong>Deadline-Optionen</strong> . Führen Sie dann unter <strong>Deadline</strong> einen der folgenden Schritte aus:</p>
           <ul>
-           <li>Wenn Sie <strong>Bestimmtes Datum festlegen</strong>: Wählen Sie das gewünschte Datum und die gewünschte Uhrzeit aus.</li>
-           <li>Wenn Sie <strong>Vom Aktivierungsdatum der Phase berechnen</strong>: Wählen Sie die Anzahl der Geschäftstage aus, die Sie dem Datum der Staging-Aktivierung hinzufügen möchten, um den Termin zu bestimmen.</li>
+           <li>Wenn Sie <strong>Bestimmtes Datum festlegen</strong> auswählen: Wählen Sie das gewünschte Datum und die gewünschte Uhrzeit für die Frist aus.</li>
+           <li>Wenn Sie "<strong>Von der Staging-Aktivierungsdatum berechnen</strong>": Wählen Sie die Anzahl der Geschäftstage aus, die Sie zum Staging-Aktivierungsdatum hinzufügen möchten, um den Termin zu bestimmen.</li>
           </ul></td>
         </tr>
         <tr>
@@ -128,24 +128,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         </tr>
         <tr>
          <td role="rowheader">Primärer Entscheidungsträger</td>
-         <td><p>Wählen Sie den Primären Entscheidungsträger auf der Bühne aus (der nur verfügbar ist, wenn Sie mindestens eine Person zur Bühne hinzufügen, die die Rolle "Genehmiger"oder höher besitzt). Wenn Sie einen Primären Entscheidungsträger auswählen, wird die <strong>Nur eine Entscheidung erforderlich</strong> in dieser Phase deaktiviert ist.</p></td>
+         <td><p>Wählen Sie den Primären Entscheidungsträger auf der Bühne aus (der nur verfügbar ist, wenn Sie mindestens eine Person zur Bühne hinzufügen, die die Rolle "Genehmiger"oder höher besitzt). Wenn Sie einen Primären Entscheidungsträger auswählen, ist die Option <strong>Nur eine Entscheidung erforderlich</strong> in dieser Phase deaktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Nur eine Entscheidung erforderlich</td>
-         <td>Beendet den gesamten Überprüfungsprozess, wenn einer der Entscheidungsträger eine Entscheidung trifft.<p>Diese Option ist nicht verfügbar, wenn Sie einen Benutzer in der <strong>Primärer Entscheidungsträger</strong> Dropdown-Menü.</p></td>
+         <td>Beendet den gesamten Überprüfungsprozess, wenn einer der Entscheidungsträger eine Entscheidung trifft.<p>Diese Option ist nicht verfügbar, wenn Sie einen Benutzer im Dropdownmenü <strong>Primärer Entscheidungsträger</strong> ausgewählt haben.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Private Bühne</td>
-         <td>Ermöglicht es nur den folgenden Personen, während dieser Phase vorgenommene Kommentare und Entscheidungen anzuzeigen: Supervisoren, Adobe Workfront-Administratoren und Workfront Proof-Administratoren</td>
+         <td>Ermöglicht nur den folgenden Personen die Anzeige von Kommentaren und Entscheidungen, die in dieser Phase getroffen wurden: Supervisoren, Adobe Workfront-Administratoren und Workfront Proof-Administratoren</td>
         </tr>
         <tr>
          <td role="rowheader">Personen per E-Mail benachrichtigen</td>
-         <td>Benachrichtigt die Prüfer per E-Mail, wenn sie an der Reihe sind, an einem Testversand zu arbeiten.</td>
+         <td>Warnt die validierungsverantwortlichen Benutzer mit einer E-Mail-Benachrichtigung an, wenn sie an der Reihe sind, an einem Testversand zu arbeiten.</td>
         </tr>
        </tbody>
       </table>
 
-   1. Klicken **Phase hinzufügen**.
+   1. Klicken Sie auf **Phase hinzufügen**.
 
 1. Wiederholen Sie den vorherigen Schritt nach Bedarf, um weitere Phasen hinzuzufügen.
 
@@ -153,7 +153,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
-1. Wenn Sie alle Etappen hinzugefügt haben, klicken Sie auf **Fertig**.
+1. Wenn Sie alle Bühnen hinzugefügt haben, klicken Sie auf **Fertig**.
 
 ## Über die Verwendung automatisierter Workflow-Vorlagen {#about-using-automated-workflow-templates}
 
@@ -168,9 +168,9 @@ Beachten Sie Folgendes, wenn Sie eine Vorlage für einen automatisierten Workflo
 Beachten Sie beim Hinzufügen von Validierern zu einer Phase Folgendes:
 
 * Nachdem Sie einen Benutzer zu einer Bühne hinzugefügt haben, können Sie Einstellungen für diesen Benutzer für den Testversand konfigurieren, z. B. die Rolle des Testversands und etwaige zusätzliche Berechtigungen, die dieser Benutzer erhalten sollte, sowie den Typ der E-Mail-Warnungen, die er erhalten wird, wenn er zu einem Testversand Kommentare und Entscheidungen trifft.
-* Sie können einen oder mehrere Benutzer von einer Phase auf eine andere ziehen. Sie können Benutzer direkt in eine andere Bühne ziehen oder Benutzer auf eine Bühne ziehen **Phasen** Diagramm. Um mehrere Benutzer auszuwählen, drücken Sie Umschalt+Strg (unter Windows) bzw. Umschalt+Befehl (unter Mac).
+* Sie können einen oder mehrere Benutzer von einer Phase auf eine andere ziehen. Sie können Benutzer direkt in eine andere Bühne ziehen oder Benutzer auf eine Bühne im Diagramm **Phasen** ziehen. Um mehrere Benutzer auszuwählen, drücken Sie Umschalt+Strg (unter Windows) bzw. Umschalt+Befehl (unter Mac).
 * Sie können einen Validierer nur einmal zu einem Testversand hinzufügen. Das bedeutet, dass Sie dieselbe Person nicht mehr als einer Testphase hinzufügen können.
 * Prüfer, die nicht zu einer privaten Bühne hinzugefügt wurden, können diese Phase nicht auf dem Testversand oder den Kommentaren sehen, die in dieser Phase abgegeben wurden.
 * Wenn ein Benutzer zu einer Phase hinzugefügt wird, erhält dieser Benutzer standardmäßig Zugriff auf den Testversand ab der Erstellung des Testversands.
 
-   Ihr Workfront-Administrator kann den Zugriff auf den Testversand einschränken, bis der Workflow in die Phase gelangt, in der der Benutzer hinzugefügt wurde. Weitere Informationen finden Sie unter .
+  Ihr Workfront-Administrator kann den Zugriff auf den Testversand einschränken, bis der Workflow in die Phase gelangt, in der der Benutzer hinzugefügt wurde. Weitere Informationen finden Sie unter  in .

@@ -34,7 +34,7 @@ Sie können auswählen, ob das auflösbare Objekt beim Konvertieren in eine Aufg
 >
 >Auflösbare Objekte sind immer Probleme, deren Auflösung und Status von der Auflösung und dem Status des auflösenden Objekts abhängen, mit dem sie verknüpft sind. Beim Beheben von Objekten kann es sich um Probleme, Aufgaben oder Projekte handeln.
 
-Informationen zum Einrichten von Voreinstellungen für die Verarbeitung von auflösbaren Objekten finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Weitere Informationen zum Einrichten von Voreinstellungen für die Verarbeitung von auflösbaren Objekten finden Sie unter [Konfigurieren von systemweiten Aufgaben und Ausgabevoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -78,13 +78,13 @@ Je nachdem, wie der Workfront- oder Gruppenadministrator die System- oder Gruppe
 
 Die folgenden Szenarien existieren:
 
-* Wenn der Workfront- oder Gruppenadministrator über die **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe** und **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an das Projekt** und die **Diese Einstellungen können während der Konvertierung geändert werden** deaktiviert ist, können Sie diese Einstellungen nicht ändern, da Sie Probleme in Aufgaben oder Projekte konvertieren.\
+* Wenn der Workfront- oder Gruppenadministrator über die Schaltfläche &quot;**Behalten Sie das ursprüngliche Problem bei und binden Sie dessen Lösung mit der Aufgabe &quot;**&quot;, das ursprüngliche Problem weiterhin mit dem ausgewählten Projekt &quot;**&quot;. Wenn die Option &quot;**&#x200B;Änderung dieser Einstellungen während der Konvertierung zulassen&quot;**nicht ausgewählt ist, können Sie diese Einstellungen nicht ändern, da Sie Probleme in Aufgaben oder Projekte konvertieren.**\
   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Wenn der Workfront- oder Gruppenadministrator über die **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an die Aufgabe** und **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an das Projekt** entweder ausgewählt oder nicht ausgewählt und die **Diese Einstellungen können während der Konvertierung geändert werden** ausgewählt haben, können Sie diese Einstellungen ändern, während Sie Probleme in Aufgaben oder Projekte konvertieren.\
+* Wenn der Workfront- oder Gruppenadministrator über die Option &quot;**Das ursprüngliche Problem beibehalten&quot;verfügt und seine Lösung mit der Aufgabe &quot;**&quot;und dem Befehl &quot;**Behalten Sie das ursprüngliche Problem und binden Sie seine Auflösung an das Projekt**&quot;, das entweder ausgewählt oder nicht ausgewählt ist, und die Option &quot;**Diese Einstellungen während der Konvertierung ändern**&quot;aktiviert ist, können Sie diese Einstellungen ändern, wenn Sie Probleme in Aufgaben oder Projekte konvertieren.\
   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
-Weitere Informationen zum Konvertieren von Problemen in Aufgaben und Projekte finden Sie unter [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Weitere Informationen zum Konvertieren von Problemen in Aufgaben und Projekte finden Sie unter [Überblick über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -115,7 +115,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## Synchronisieren Sie den Status des auflösbaren Objekts mit dem des auflösenden Objekts {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
-* [Synchronisieren von Status, wenn das Auflösungsobjekt ein Problem darstellt](#synchronize-statuses-when-the-resolving-object-is-an-issue)
+* [Synchronisierungsstatus, wenn das Auflösungsobjekt ein Problem darstellt](#synchronize-statuses-when-the-resolving-object-is-an-issue)
 * [Synchronisieren von Status, wenn das Auflösungsobjekt eine Aufgabe oder ein Projekt ist](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
 
 ### Synchronisieren von Status, wenn das Auflösungsobjekt ein Problem darstellt {#synchronize-statuses-when-the-resolving-object-is-an-issue}
@@ -135,7 +135,7 @@ Unabhängig davon, ob die Option &quot;Behebbares Problem automatisch aktualisie
 
 Die folgenden Standardstatus für Aufgaben Trigger ändern die Standardstatus für Probleme, wenn das Problem als auflösendes Objekt einer Aufgabe festgelegt ist:
 
-| **AUFGABENSTATUS** | **PROBLEMSTATUS** |
+| **AUFGABENSTATUS** | **PROBLEM-STATUS** |
 |---|---|
 | Neu | Neu |
 | In Arbeit | In Arbeit |
@@ -143,7 +143,7 @@ Die folgenden Standardstatus für Aufgaben Trigger ändern die Standardstatus f�
 
 Die folgenden Standardstatus für Projekte ändern den Trigger der folgenden Änderungen in den Standardstatus für Probleme, wenn das Problem als auflösbares Objekt eines Projekts festgelegt ist. In einigen Projektstatus werden Änderungen am Status der Probleme nicht Trigger. Die Probleme bleiben in dem Status, den sie vor der Umwandlung des Projekts in einen dieser Status hatten:
 
-| **PROJEKTSTATUS** | **PROBLEMSTATUS** |
+| **PROJEKTSTATUS** | **PROBLEM-STATUS** |
 |---|---|
 | In Planung | Neu |
 | Aktuell | In Arbeit |
@@ -163,13 +163,14 @@ Die folgenden Standardstatus für Projekte ändern den Trigger der folgenden Än
 
 Wenn Sie den Status der Aufgabe oder des Projekts in einen benutzerdefinierten Status ändern, ändert sich der Status des Problems nur dann in den Status eines benutzerdefinierten Problems, wenn die folgenden beiden Bedingungen erfüllt sind:
 
-* Der Status &quot;Behebbares Problem automatisch aktualisieren, wenn der Status der Option &quot;Objektänderungen auflösen&quot;ausgewählt ist. Weitere Informationen zum Aktivieren dieser Einstellung finden Sie unter [Einrichten von Adobe Workfront für die Verarbeitung von auflösbaren Objekten](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* Der Status &quot;Behebbares Problem automatisch aktualisieren, wenn der Status der Option &quot;Objektänderungen auflösen&quot;ausgewählt ist. Weitere Informationen zum Aktivieren dieser Einstellung finden Sie unter [Einrichten von Adobe Workfront für die Verarbeitung auflösbarer Objekte](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
 * Der benutzerdefinierte Status des Projekts oder der Aufgabe hat denselben dreistelligen Code wie der benutzerdefinierte Status des Problems.
 
 Sie können benutzerdefinierte Status mit demselben Schlüssel für Probleme und Projekte oder Aufgaben erstellen. Wenn das Projekt oder die Aufgabe (als auflösendes Objekt) in den benutzerdefinierten Status geändert wird, spiegelt die Änderung auch den Status des Problems wider. Der Statusschlüssel muss für das Problem und den Projekt- oder Aufgabenstatus identisch sein.
 
-Erstellen Sie beispielsweise einen benutzerdefinierten Projektstatus mit dem Namen &quot;Gestartet&quot;mit dem dreistelligen Code &quot;LCD&quot;, der mit &quot;Aktuell&quot;übereinstimmt. Erstellen Sie außerdem einen benutzerspezifischen Problemstatus mit dem Namen &quot;Projekt gestartet&quot;, auch mit dem Buchstabencode &quot;LCD&quot;, der mit &quot;In Bearbeitung&quot;übereinstimmt. Wenn Sie das Projekt als &quot;Gestartet&quot;markieren, ändert sich der Status des Problems automatisch in &quot;Projekt gestartet&quot;. Wenn die Einstellung &quot;Behebbares Problem automatisch aktualisieren, wenn der Status der Auflösen von Objektänderungen nicht aktiviert ist, ändert sich der Problemstatus stattdessen in &quot;Wird ausgeführt&quot;(Standardstatus).
+Erstellen Sie beispielsweise einen benutzerdefinierten Projektstatus mit dem Namen &quot;Gestartet&quot;mit dem dreistelligen Code &quot;LCD&quot;, der mit &quot;Aktuell&quot;übereinstimmt. Erstellen Sie außerdem einen benutzerspezifischen Problemstatus mit dem Namen &quot;Projekt gestartet&quot;, auch mit dem Buchstabencode &quot;LCD&quot;, der mit &quot;In Bearbeitung&quot;übereinstimmt. Wenn Sie das Projekt als &quot;Gestartet&quot;markieren, ändert sich der Status des Problems automatisch in &quot;Projekt gestartet&quot;. Wenn die
+Automatische Aktualisierung des Status &quot;Behebbares Problem&quot;, wenn der Status der Einstellung &quot;Objektänderungen auflösen&quot;nicht aktiviert war, ändert sich der Problemstatus stattdessen in &quot;Wird ausgeführt&quot;(Standardstatus).
 
 Weitere Informationen zum Erstellen eines benutzerdefinierten Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -187,9 +188,9 @@ Wenn und Problem durch ein anderes Problem behoben werden, wird der Prozentsatz 
 Die Position des auflösenden Objekts ist für Aufgaben und Projekte identisch.
 
 1. Navigieren Sie zu einem Projekt oder einer Aufgabe, die Sie erstellt haben, indem Sie ein Problem in das Projekt oder die Aufgabe konvertieren.
-1. Klicken Sie auf **Projektdetails** oder **Aufgabendetails** und klicken Sie auf , um es zu erweitern.
-1. Klicks **Übersicht**.
-1. Suchen Sie unten auf der Registerkarte nach **Diese Lösung** field: Das Problem, das das auflösbare Objekt des Projekts oder der Aufgabe ist, wird in diesem Feld aufgelistet.
+1. Klicken Sie auf das Symbol **Projektdetails** oder auf das Symbol **Aufgabendetails** und klicken Sie auf , um es zu erweitern.
+1. Klicken Sie auf **Überblick**.
+1. Suchen Sie unten auf der Registerkarte nach dem Feld **This Resolves** : Das Problem, das das auflösbare Objekt des Projekts oder der Aufgabe ist, wird in diesem Feld aufgelistet.
 
    >[!NOTE]
    >
@@ -197,7 +198,7 @@ Die Position des auflösenden Objekts ist für Aufgaben und Projekte identisch.
 
 ## Identifizieren eines Problems mit einem auflösenden Objekt in einer Liste
 
-In einer Liste von Problemen können Sie mithilfe von Statussymbolen Probleme identifizieren, die als gelöste Objekte bezeichnet werden, indem Sie dieses Symbol im **Statussymbole** oder **Flags** Spalten:
+In einer Liste von Problemen können Sie Probleme identifizieren, die über Statussymbole als gelöste Objekte gekennzeichnet sind, indem Sie dieses Symbol in den Spalten **Statussymbole** oder **Flags** suchen:
 
 ![](assets/ro1.png)
 
@@ -221,31 +222,31 @@ Die folgende Tabelle zeigt, welche Felder angezeigt werden können und in welche
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Enthält Resolvables</strong>: Zeigt eine <strong>True</strong> Wert, wenn dem Projekt oder der Aufgabe auflösbare Probleme zugeordnet sind, und eine <strong>False</strong> Wert, wenn dies nicht der Fall ist.</td> 
+   <td><strong>Enthält Auflösungen</strong>: Zeigt einen <strong>True</strong> -Wert an, wenn dem Projekt oder der Aufgabe auflösbare Probleme zugeordnet sind, und einen <strong>False</strong> -Wert, wenn dies nicht der Fall ist.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Ursprünglicher Name des Problems, Ursprüngliches Datum der Ausgabe, Name des Urhebers</strong>: Zeigt den Namen und das Einstiegsdatum des ursprünglichen Problems sowie den Namen des Benutzers an, der das Problem in einer benutzerdefinierten Textmodus-Ansicht erstellt hat.<br>Weitere Informationen zum Erstellen einer benutzerdefinierten Ansicht für einen Textmodus für ein Projekt, einen Aufgabenbericht oder eine Liste zum Anzeigen von Informationen zum ursprünglichen Problem finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Ansicht: Zeigt Informationen zu ursprünglichen Problemen in Aufgaben- und Projektlisten an</a>.<br></td> 
+   <td><strong>Ursprünglicher Name des Problems, Ursprüngliches Datum der Ausgabe, Urheber-Name</strong>: Zeigt den Namen und das Eintragsdatum des ursprünglichen Problems sowie den Namen des Benutzers an, der das Problem in einer angepassten Textmodus-Ansicht erstellt hat.<br>Weitere Informationen zum Erstellen einer benutzerdefinierten Ansicht für einen Textmodus für einen Projekt- oder Aufgabenbericht oder eine Liste zur Anzeige von Informationen zum ursprünglichen Problem finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Ansicht: Informationen zu ursprünglichen Problemen in Aufgaben- und Projektlisten anzeigen</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Resolvables:</strong> Zeigt eine Liste aller auflösbaren Objekte in einer benutzerdefinierten Ansicht für einen Projekt- oder Aufgabenbericht oder eine Liste im Textmodus an.</p> <p>Weitere Informationen zum Erstellen dieser Ansicht finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Ansicht: Auflösbare Objekte in einem Aufgaben- oder Projektbericht</a></p> </td> 
+   <td> <p><strong>Auflösbare Elemente:</strong> Zeigt eine Liste aller auflösbaren Objekte in einer benutzerdefinierten Ansicht für den Textmodus für einen Projekt- oder Aufgabenbericht oder eine Liste an.</p> <p>Weitere Informationen zum Erstellen dieser Ansicht finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Ansicht: Auflösbare Objekte in einer Aufgabe oder einem Projektbericht</a></p> </td> 
    <td> </td> 
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Urheber einer konvertierten Ausgabe</strong>: Zeigt Informationen über den Benutzer an, der das Problem ursprünglich protokolliert hat, das später in die Aufgabe konvertiert wurde. </td> 
+   <td><strong>Converted Issue Originator</strong>: Zeigt Informationen über den Benutzer an, der das Problem ursprünglich protokolliert hat, das später in die Aufgabe konvertiert wurde. </td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Projekt auflösen</strong>: Zeigt Informationen zum Auflösungsprojekt an, das entweder aus dem ursprünglichen Problem konvertiert oder manuell als Auflösungsobjekt eines Problems festgelegt wurde.</td> 
+   <td><strong>Projekt auflösen</strong>: Zeigt Informationen über das Auflösungsprojekt an, das entweder aus dem ursprünglichen Problem konvertiert oder manuell als Auflösungsobjekt eines Problems festgelegt wurde.</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -257,7 +258,7 @@ Die folgende Tabelle zeigt, welche Felder angezeigt werden können und in welche
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Problem beheben</strong>: Zeigt Informationen zum Beheben eines Problems an, das manuell als Auflösungsobjekt eines Problems festgelegt wurde.</td> 
+   <td><strong>Problem beheben</strong>: Zeigt Informationen über das Problem "Beheben"an, das manuell als "Auflösungsobjekt"eines Problems bezeichnet wurde.</td> 
    <td> ✓</td> 
    <td> </td> 
    <td> </td> 

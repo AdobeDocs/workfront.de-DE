@@ -31,15 +31,15 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Benutzer bearbeiten, wobei die Option "Benutzeradministrator (Alle Benutzer)"ausgewählt ist</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Benutzer bearbeiten, wobei die Option "Benutzeradministrator (Alle Benutzer)"ausgewählt ist</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,14 +48,14 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 ## Mitglieder der Untergruppen unter einer Gruppe anzeigen und verwalten
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken **Gruppen**.
+1. Klicken Sie auf **Gruppen**.
 
    In der angezeigten Liste können Sie die von Ihnen verwalteten Gruppen sowie die darin enthaltenen Untergruppen sehen. Adobe Workfront-Administratoren können alle Gruppen sehen.
 
 1. Klicken Sie auf den Namen der Gruppe, deren Mitglieder Sie anzeigen oder verwalten möchten.
-1. Klicken Sie im linken Bereich auf **Untergruppenmitglieder**.
+1. Klicken Sie im linken Bereich auf **Mitglieder der Untergruppe**.
 
    Dieses linke Bedienfeldelement ist nur verfügbar, wenn die Gruppe Untergruppen enthält.
 
@@ -63,14 +63,14 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    * Wählen Sie ein Mitglied in der Liste aus und klicken Sie auf Bearbeiten ![](assets/edit-icon.png) , um das Benutzerprofil dieser Person zu ändern.
 
-      Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) oder [Massenbearbeitung von Benutzerprofilen](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
+     Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) oder [Benutzerprofile stapelweise bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) .
 
    * Wählen Sie eine beliebige Anzahl von Mitgliedern in der Liste aus und klicken Sie auf Aktualisieren ![](assets/comment-icon.png) , um ihren Benutzerprofilen einen Kommentar hinzuzufügen.
 
-      Der Benutzer erhält eine In-App-Benachrichtigung sowie eine E-Mail-Benachrichtigung mit Ihrem Kommentar. Der Kommentar wird im Bereich Updates des Benutzerprofils angezeigt.
+     Der Benutzer erhält eine In-App-Benachrichtigung sowie eine E-Mail-Benachrichtigung mit Ihrem Kommentar. Der Kommentar wird im Bereich Updates des Benutzerprofils angezeigt.
 
-   * Wählen Sie eine beliebige Anzahl von Mitgliedern in der Liste aus und klicken Sie dann auf &quot;Deaktivieren&quot; ![](assets/deactivate-user.png) oder aktivieren ![](assets/activate-user.png).
+   * Wählen Sie eine beliebige Anzahl von Mitgliedern in der Liste aus und klicken Sie dann auf &quot;Deaktivieren&quot;![](assets/deactivate-user.png) oder &quot;Aktivieren&quot;![](assets/activate-user.png).
 
-      Weitere Informationen finden Sie unter [Benutzer deaktivieren oder reaktivieren](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+     Weitere Informationen finden Sie unter [Deaktivieren oder Reaktivieren eines Benutzers](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-   * Export ![](assets/export.png) die Liste der Mitglieder.
+   * Exportieren Sie ![](assets/export.png) die Liste der Mitglieder.

@@ -9,7 +9,7 @@ exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -42,7 +42,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Sie müssen über Administratorzugriff auf Timesheets verfügen. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> <p><b>NOTIZ</b>
+   <td> <p>Sie müssen über Administratorzugriff auf Timesheets verfügen. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche</a>.</p> <p><b>NOTIZ</b>
 
 Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
@@ -53,27 +53,27 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Timesheets bearbeiten
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Timesheets**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Timesheets**.![](assets/main-menu-icon.png)
 
-   Die **Alle** ist standardmäßig ausgewählt, wodurch alle Timesheets angezeigt werden, auf die Sie Zugriff haben.
+   Der Filter &quot;**Alle**&quot; ist standardmäßig ausgewählt, um alle Zeitpläne anzuzeigen, auf die Sie Zugriff haben.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Optional) Klicken Sie auf die **suchen** icon ![](assets/search-icon.png) und geben Sie einen Suchbegriff ein und suchen Sie nach einem bestimmten Zeitblatt. Sie können beispielsweise nach einem Zeitrahmen für ein Zeitblatt oder nach dem Namen des Eigentümers suchen.
+1. (Optional) Klicken Sie auf das Symbol **Suchen** ![](assets/search-icon.png), geben Sie einen Suchbegriff ein und suchen Sie nach einem bestimmten Zeitblatt. Sie können beispielsweise nach einem Zeitrahmen für ein Zeitblatt oder nach dem Namen des Eigentümers suchen.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Filter in der Liste der Timesheets zu aktualisieren:
 
-   * Auswählen **Meine Datenblatt-Genehmigungen** oben rechts auf der Seite, um nur die von Ihnen genehmigten Timesheets anzuzeigen
+   * Wählen Sie oben rechts auf der Seite die Option **My Timesheet Approvals** aus, um nur die von Ihnen genehmigten Zeitpläne anzuzeigen
 
      Oder
 
-     Auswählen **Meine Timesheets** , um nur Ihre Timesheets anzuzeigen.
+     Wählen Sie **Meine Timesheets** aus, um nur Ihre Timesheets anzuzeigen.
 
      Dadurch wird die Liste der Timesheets mit den Filtern My Timesheet Approvals oder My Timesheet aktualisiert.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicken Sie auf das Filtersymbol ![](assets/filter-nwepng.png) um einen anderen Filter anzuwenden oder einen neuen zu erstellen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicken Sie auf das Filtersymbol ![](assets/filter-nwepng.png) , um einen anderen Filter anzuwenden, oder erstellen Sie einen neuen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -81,19 +81,19 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >
    >   
    >   
-   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Optional) Klicken Sie auf die **Ansicht** ![](assets/view-icon.png) oder **Gruppierung** ![](assets/grouping.png) Symbole, um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
+1. (Optional) Klicken Sie auf die Symbole **Ansicht** ![](assets/view-icon.png) oder **Gruppierung** ![](assets/grouping.png) , um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
 
    Informationen zum Erstellen von Filtern, Ansichten oder Gruppierungen finden Sie in den folgenden Artikeln:
 
-   * [Filter in Adobe Workfront erstellen oder bearbeiten](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
    * [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Erstellen von Gruppierungen in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Wählen Sie einen oder mehrere Timesheets aus und klicken Sie dann auf das **Bearbeiten** icon ![](assets/edit-icon.png) oben in der Liste der Zeitpläne.
+1. Wählen Sie einen oder mehrere Timesheets aus und klicken Sie dann oben in der Timesheet-Liste auf das Symbol **Bearbeiten** ![](assets/edit-icon.png) .
 1. Zeigen Sie die folgenden Informationen an oder geben Sie sie an:
 
    <table style="table-layout:auto"> 
@@ -101,7 +101,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Besitzerin bzw. Besitzer</strong> </td> 
+      <td role="rowheader"><strong>Besitzer bzw. Besitzerin</strong> </td> 
       <td> <p>Dies ist der Name des Benutzers, für den das Timesheet erstellt wurde. Dieses Feld kann nicht bearbeitet werden. </p> <p>Das Feld wird nicht angezeigt, wenn Sie mehrere Timesheets auswählen. </p> </td> 
      </tr> 
      <tr> 
@@ -117,17 +117,17 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
       <td> Dies ist der Status des Zeitblatts.
       Die folgenden Optionen sind für den Status von Zeitblättern möglich: 
       <ul><li><b>Öffnen</b>: Das Timesheet ist geöffnet und die Stundeneinträge können bearbeitet werden.</li>
-      <li><b>Gesendet</b>: Das Timesheet wird den vorgesehenen Genehmigern zur Genehmigung vorgelegt.</li>
+      <li><b>Gesendet</b>: Das Zeitblatt wird den vorgesehenen Genehmigern zur Genehmigung vorgelegt.</li>
       <li><b>Abgelehnt</b>: Das Timesheet wurde von den Genehmigern nicht genehmigt und steht nun dem Benutzer erneut zur Bearbeitung der Zeiteinträge zur Verfügung.</li>
       <li><b>Geschlossen</b>: Das Timesheet wird entweder vom Benutzer geschlossen oder vom Genehmiger genehmigt, sodass es nun geschlossen wird. Sie können einem geschlossenen Timesheet keine Zeit hinzufügen.</li>
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Genehmigende Personen</strong> </td> 
-      <td> <p>Genehmiger sind Benutzer, die das Timesheet für die mit dem Timesheet verknüpften Benutzer validieren. Nur Benutzer mit administrativem Zugriff auf Timesheets können als Genehmiger festgelegt werden. </p> <p>Weitere Informationen zu den Verwaltungsrechten für Zeitblätter finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> <p>Geben Sie die Namen der Timesheet-Genehmiger ein und wählen Sie sie aus, wenn sie in der Liste angezeigt werden.</p> <p>Sie können mehrere Genehmiger auf einem Zeitblatt haben. In diesem Fall wird das Timesheet nach Genehmigung durch einen der Genehmiger als <strong>Geschlossen</strong> und wird aus der Liste der Zeitdatenblatt-Genehmigungen aller verbleibenden Genehmiger entfernt.</p> </td> 
+      <td role="rowheader"><strong>Genehmiger</strong> </td> 
+      <td> <p>Genehmiger sind Benutzer, die das Timesheet für die mit dem Timesheet verknüpften Benutzer validieren. Nur Benutzer mit administrativem Zugriff auf Timesheets können als Genehmiger festgelegt werden. </p> <p>Weitere Informationen zu den Verwaltungsrechten für Zeitblätter finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche</a>.</p> <p>Geben Sie die Namen der Timesheet-Genehmiger ein und wählen Sie sie aus, wenn sie in der Liste angezeigt werden.</p> <p>Sie können mehrere Genehmiger auf einem Zeitblatt haben. In diesem Fall wird das Timesheet nach Genehmigung durch einen der Genehmiger als <strong>Geschlossen</strong> markiert und aus der Liste der Zeitblatt-Genehmigungen aller verbleibenden Genehmiger entfernt.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Kann Zeit bearbeiten</strong> </td> 
+      <td role="rowheader"><strong>Kann die Zeit bearbeiten</strong> </td> 
       <td> <p>Wählen Sie diese Option aus, wenn Sie zulassen möchten, dass Genehmiger Stunden auf dem Timesheet bearbeiten können.</p> <p>Diese Option ist nicht verfügbar, wenn Sie mehrere Timesheets auswählen. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

@@ -28,7 +28,7 @@ Die mit einer Aufgabe, einem Problem oder einem Projekt verknüpften geplanten S
 * Sie müssen den Wert für &quot;Geplante Stunden&quot;für Aufgaben und Probleme definieren, wenn Sie die Tools für die Ressourcenverwaltung in Workfront verwenden möchten.
 * Sie können den Wert für &quot;Geplante Stunden&quot;für Aufgaben nur für einige Dauer-Typen ändern.
 
-  Weitere Informationen zum Ändern der geplanten Stunden für Aufgaben im Verhältnis zum Aufgabentyp finden Sie im Abschnitt . [Aktualisieren der geplanten Aufgaben auf Grundlage des Durationstyps](#update-task-planned-hours-based-on-duration-type) in diesem Artikel.
+  Weitere Informationen zum Ändern der geplanten Stunden für Aufgaben in Bezug auf den Typ der Dauer der Aufgaben finden Sie im Abschnitt [Geplante Stunden für Aufgabe basierend auf dem Typ der Dauer aktualisieren](#update-task-planned-hours-based-on-duration-type) in diesem Artikel.
 
 * Sie können den Wert von &quot;Geplante Stunden&quot;für Probleme jederzeit ändern.
 * Sie können den Wert der geplanten Stunden von Projekten oder übergeordneten Aufgaben nicht ändern, da es sich um eine berechnete Gesamtsumme aller geplanten Stunden aller Aufgaben und Unteraufgaben handelt.
@@ -44,7 +44,7 @@ In diesem Abschnitt werden die Unterschiede zwischen der geplanten und der Aufga
 
 Die geplanten Stunden einer Aufgabe geben an, wie lange die tatsächliche Arbeit an der Aufgabe vermutlich dauern wird. Standardmäßig verteilt Workfront die Gesamtdauer der geplanten Stunden für jeden Tag innerhalb der Dauer jeder Aufgabe gleichmäßig. Die tägliche geplante Zeitdauer wird zur täglichen Zuteilung für die Aufgabe. Wenn die Aufgabe mehreren Ressourcen zugewiesen ist, wird standardmäßig jeder Ressource die gleiche Anzahl von Stunden pro Tag zugeordnet.
 
-Mithilfe des Lastenausgleichs können Sie die täglichen Zuordnungen für die den Aufgaben zugewiesenen Benutzer ändern. Auf diese Weise können auch die geplanten Stunden der Aufgabe aktualisiert werden, wenn der Aufgabendauertyp einfach ist. Weitere Informationen finden Sie im Abschnitt &quot;Aktualisierung der geplanten Aufgaben bei der Verwaltung von Benutzerzuweisungen&quot;im Artikel [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Mithilfe des Lastenausgleichs können Sie die täglichen Zuordnungen für die den Aufgaben zugewiesenen Benutzer ändern. Auf diese Weise können auch die geplanten Stunden der Aufgabe aktualisiert werden, wenn der Aufgabendauertyp einfach ist. Weitere Informationen finden Sie im Abschnitt &quot;Aktualisierung der geplanten Aufgaben bei der Verwaltung von Benutzerzuweisungen&quot;im Artikel [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Wenn eine Aufgabe Unteraufgaben enthält, entsprechen die geplanten Stunden der übergeordneten Aufgabe der Summe aller geplanten Stunden für alle Unteraufgaben. Sie können die geplanten Stunden einer übergeordneten Aufgabe nicht aktualisieren.
 
@@ -59,11 +59,11 @@ Sie können die geplante Stundenzahl eines Projekts nicht bearbeiten. &quot;Gepl
 
 Ob in der Berechnung für geplante Stunden Probleme enthalten sind, hängt von der Position im Projekt ab, an der Sie geplante Stunden anzeigen. Sie können geplante Projektstunden an den folgenden Stellen in einem Projekt anzeigen:
 
-* **Projektdetails und das Feld &quot;Projekt bearbeiten&quot;**: Nur die geplanten Stunden für die Aufgaben im Rahmen des Projekts werden berücksichtigt. Die geplanten Stunden für die Probleme im Projekt werden bei der Anzeige der Gesamtanzahl der geplanten Stunden für das Projekt im Abschnitt Projektdetails oder im Feld Projekt bearbeiten nicht berücksichtigt.
+* **Projektdetails und das Feld &quot;Projekt bearbeiten&quot;**: Nur die geplanten Stunden für die Aufgaben im Projekt werden berücksichtigt. Die geplanten Stunden für die Probleme im Projekt werden bei der Anzeige der Gesamtanzahl der geplanten Stunden für das Projekt im Abschnitt Projektdetails oder im Feld Projekt bearbeiten nicht berücksichtigt.
 
-* **Der Lastenausgleich**: Nur die geplanten Stunden, die mit den Aufgaben verknüpft sind, die im Lastenausgleich sichtbar sind, werden im Arbeitslastausgleich für Projekte angezeigt. Die tägliche Zuordnung von Benutzern kann das Projekt täglich geplante Stunden im Arbeitslastausgleich ändern.
-* **Abschnitt &quot;Nutzung&quot;**: Die mit den den Aufgaben zugeordneten Benutzern verknüpften geplanten Stunden und die Probleme im Projekt werden bei der Anzeige der Gesamtanzahl der geplanten Stunden für das Projekt im Abschnitt &quot;Nutzung&quot;berücksichtigt.
-* **Bereich &quot;Rollenzuweisung&quot;** in der Aufgabenliste: Die geplanten Stunden für die Aufgaben und die Probleme im Projekt, die einer Auftrags- oder Benutzerrolle zugeordnet sind, werden in diesem Bereich angezeigt. Geplante Stunden, die mit Aufgaben und Problemen verknüpft sind, die nicht zugewiesen oder Teams zugewiesen sind, werden in diesem Bereich nicht angezeigt. Weitere Informationen finden Sie unter [Anzeigen von geplanten Projektstunden im Bereich &quot;Rollenzuweisung&quot;](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
+* **Der Lastenausgleich**: Nur die geplanten Stunden, die mit den Aufgaben verknüpft sind, die im Lastenausgleich sichtbar sind, werden im Lastenausgleich für Projekte angezeigt. Die tägliche Zuordnung von Benutzern kann das Projekt täglich geplante Stunden im Arbeitslastausgleich ändern.
+* **Abschnitt &quot;Nutzung&quot;**: Die mit den den Aufgaben zugewiesenen Benutzern verknüpften geplanten Stunden sowie die Probleme im Projekt werden bei der Anzeige der Gesamtanzahl der geplanten Stunden für das Projekt im Abschnitt &quot;Nutzung&quot;berücksichtigt.
+* **Bedienfeld &quot;Rollenzuweisung&quot;** in der Aufgabenliste: Die geplanten Stunden für die Aufgaben und die Probleme im Projekt, die einer Auftrags- oder Benutzerrolle zugewiesen sind, werden in diesem Bereich angezeigt. Geplante Stunden, die mit Aufgaben und Problemen verknüpft sind, die nicht zugewiesen oder Teams zugewiesen sind, werden in diesem Bereich nicht angezeigt. Weitere Informationen finden Sie unter [Anzeigen der geplanten Projektstunden im Bereich &quot;Rollenzuweisung&quot;](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 
 ## Verteilung der geplanten Stunden über die Dauer einer Aufgabe
 
@@ -83,7 +83,7 @@ Die angezeigte Anzahl der geplanten Stunden stammt entweder aus den Arbeitseleme
 
 Geplante Stunden finden Sie in den folgenden Bereichen von Workfront:
 
-* [Der Bereich Details eines Projekts, einer Aufgabe oder eines Problems](#the-details-section-of-a-project-task-or-issue)
+* [Der Detailabschnitt eines Projekts, einer Aufgabe oder eines Problems](#the-details-section-of-a-project-task-or-issue)
 * [Das Feld &quot;Aufgabe bearbeiten&quot;oder &quot;Problem bearbeiten&quot;](#the-edit-task-or-edit-issue-box)
 * [Berichte](#reports)
 * [Der Lastenausgleich](#the-workload-balancer)
@@ -93,21 +93,21 @@ Geplante Stunden finden Sie in den folgenden Bereichen von Workfront:
 
 ### Der Bereich Details eines Projekts, einer Aufgabe oder eines Problems {#the-details-section-of-a-project-task-or-issue}
 
-![Abschnitt &quot;Geplante Stunden im Detail&quot;](assets/planned-hours-on-details-for-project.png)
+![Abschnitt &quot;Geplante Stunden für Details&quot;](assets/planned-hours-on-details-for-project.png)
 
 Die im Abschnitt &quot;Details&quot;einer Aufgabe, eines Problems oder eines Projekts unter &quot;Geplante Stunden&quot;angegebenen Gesamtstunden sind mit dem Element verknüpft.
 
-Weitere Informationen zu geplanten Projektstunden finden Sie im Abschnitt [Geplante Stunden für Aufgaben vs. geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel beschrieben.
+Weitere Informationen zu geplanten Projektstunden finden Sie im Abschnitt [Geplante Stunden für Aufgaben vs. geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
 
 ### Das Feld &quot;Aufgabe bearbeiten&quot;oder &quot;Problem bearbeiten&quot; {#the-edit-task-or-edit-issue-box}
 
-![Aufgabenfeld bearbeiten](assets/planned-hours-on-edit-task-box-nwe.png)
+![Feld &quot;Aufgabe bearbeiten&quot;](assets/planned-hours-on-edit-task-box-nwe.png)
 
 Die geplanten Stunden im Feld &quot;Bearbeiten&quot;einer Aufgabe oder eines Problems entsprechen der Gesamtanzahl der geplanten Stunden des jeweiligen Elements.
 
-Weitere Informationen zu geplanten Projektstunden finden Sie im Abschnitt [Geplante Stunden für Aufgaben vs. geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel beschrieben.
+Weitere Informationen zu geplanten Projektstunden finden Sie im Abschnitt [Geplante Stunden für Aufgaben vs. geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
 
-Für Aufgaben können Sie die geplante Stundenanzahl nur für bestimmte Arten von Dauer bearbeiten. Weitere Informationen finden Sie unter [Aktualisieren der geplanten Aufgaben auf Grundlage des Durationstyps](#update-task-planned-hours-based-on-duration-type) in diesem Artikel beschrieben.
+Für Aufgaben können Sie die geplante Stundenanzahl nur für bestimmte Arten von Dauer bearbeiten. Weitere Informationen finden Sie im Abschnitt [Geplante Stunden für Aufgaben basierend auf dem Durationstyp aktualisieren](#update-task-planned-hours-based-on-duration-type) in diesem Artikel.
 
 Sie können die individuelle Zuweisung der geplanten Stunden für jeden Benutzer oder jede Auftragsrolle, die der Aufgabe oder dem Problem zugewiesen ist, im Bereich Zuweisungen anzeigen.
 
@@ -164,7 +164,7 @@ Die tägliche Stundenanzahl der geplanten Stunden stellt eine der folgenden dar:
 * den von Workfront gleichmäßig verteilten Standardbetrag für jeden Tag der Dauer der Aufgaben, Probleme oder des Projekts
 * bereinigte tägliche Zuordnung, die von Ressourcenmanagern verwaltet wird
 
-  Informationen zum Anpassen der täglichen Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Informationen zum Anpassen der täglichen Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### Der Ressourcen-Planer {#the-resource-planner}
 
@@ -178,14 +178,14 @@ Sie können die wöchentlichen Zuordnungen von geplanten Stunden für die mit Ar
 >
 >Tägliche Zuordnungsanpassungen im Arbeitslasten-Balancer beeinflussen die wöchentlichen Zuordnungen für Aufgaben und Probleme im Ressourcenplaner.
 
-Die Anzahl der geplanten Stunden für jedes Objekt hängt davon ab, welche Ansicht Sie auf den Ressourcenplaner anwenden. Weitere Informationen finden Sie unter [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Die Anzahl der geplanten Stunden für jedes Objekt hängt davon ab, welche Ansicht Sie auf den Ressourcenplaner anwenden. Weitere Informationen finden Sie unter [Übersicht über Stunden, FTE und Kosten in den Projekt- und Rollenansichten des Resource Planers](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 Die wöchentliche Stundenzahl für geplante Aufgaben und Probleme stellt eine der folgenden dar:
 
 * den von Workfront gleichmäßig verteilten wöchentlichen Standardbetrag für jeden Tag der Dauer der Aufgaben oder Probleme
 * die angepasste wöchentliche Zuordnung, die von Ressourcenmanagern im Lastenausgleich verwaltet wird
 
-  Informationen zum Anpassen der täglichen Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Informationen zum Anpassen der täglichen Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Der wöchentliche Betrag für Projekte, Benutzer und Rollen wird durch die wöchentlichen Beträge der geplanten Stunden für die damit verbundenen Aufgaben und Probleme beeinflusst.
 
@@ -202,7 +202,7 @@ Sie können die folgenden Arten von geplanten Stunden im Nutzungsbericht anzeige
 * die Gesamtdauer der geplanten Zeiträume aller Zuweisungen für das Projekt während der gesamten Dauer der einbezogenen Projekte;
 * die insgesamt geplanten Stunden aller Zuweisungen nur für den angegebenen Datumsbereich (Sie können eine einzelne Woche oder einen einzelnen Monat angeben).
 
-  Wenn die tägliche Zuweisung der Stunden durch den Benutzer mithilfe des Workload Balancer angepasst wurde, kann sich dies auf die geplanten Stunden für einen bestimmten Datumsbereich auswirken, wenn die im Auslastungsbericht ausgewählten Daten nur einen Teil der Dauer einer Aufgabe oder eines Problems enthalten. Informationen zur Anpassung der täglichen Zuordnungen für Benutzer finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Wenn die tägliche Zuweisung der Stunden durch den Benutzer mithilfe des Workload Balancer angepasst wurde, kann sich dies auf die geplanten Stunden für einen bestimmten Datumsbereich auswirken, wenn die im Auslastungsbericht ausgewählten Daten nur einen Teil der Dauer einer Aufgabe oder eines Problems enthalten. Informationen zum Anpassen der täglichen Zuordnungen für Benutzer finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Weitere Informationen finden Sie unter [Informationen zur Ressourcenauslastung anzeigen](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
@@ -212,7 +212,7 @@ Die im Bereich &quot;Rollenzuweisung&quot;unter &quot;Geplante Stunden&quot;ange
 
 >[!TIP]
 >
-Beachten Sie, dass die mit Benutzern verknüpften geplanten Stunden nicht im Bereich Rollenzuweisung angezeigt werden.
+>Beachten Sie, dass die mit Benutzern verknüpften geplanten Stunden nicht im Bereich Rollenzuweisung angezeigt werden.
 
 Weitere Informationen finden Sie unter [Rollenzuweisung für Projekte und Initiativen im Arbeitslastausgleich anzeigen](../../../scenario-planner/show-role-allocation-workload-balancer.md).
 
@@ -226,12 +226,12 @@ Die folgenden Szenarien existieren:
 
   Weitere Informationen zum Typ der berechneten Zuweisungsdauer finden Sie unter [Übersicht über den Dauer-Typ: Berechnete Zuweisung](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).
 
-  Weitere Informationen zum Typ &quot;Einfache Dauer&quot;finden Sie unter [Übersicht über den Dauer-Typ: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+  Weitere Informationen zum Typ &quot;Einfache Dauer&quot;finden Sie unter [Übersicht über den Durationstyp: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
-* Sie können die Aufgaben Geplante Stunden im Arbeitslastausgleich nur für Aufgaben vom Typ Einfache Dauer aktualisieren, wenn Sie die Zuordnung der Benutzer zu Aufgaben verwalten. Informationen zum Verwalten von Benutzerzuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* Sie können die Aufgaben Geplante Stunden im Arbeitslastausgleich nur für Aufgaben vom Typ Einfache Dauer aktualisieren, wenn Sie die Zuordnung der Benutzer zu Aufgaben verwalten. Informationen zum Verwalten von Benutzerzuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 * Sie können die geplanten Stunden für Aufgaben mit einer Dauer vom Typ &quot;Aufwandsorientiert&quot;oder &quot;Berechnete Arbeit&quot;nicht ändern. In diesen Fällen bestimmt Workfront geplante Stunden anhand der Dauer der Aufgabe. In diesem Fall sind die geplanten Stunden jedoch immer gleich der Dauer (in Stunden) und werden von der Prozentzuweisung der zugewiesenen Ressourcen nicht beeinflusst.
 
-  Weitere Informationen zum Typ der anfechtbaren Dauer finden Sie unter [Übersicht über den Durationstyp: Aufwandsorientiert](../../../manage-work/tasks/taskdurtn/effort-driven.md).
+  Weitere Informationen zum Typ &quot;Dynamische Dauer&quot;finden Sie unter [Übersicht über den Dehnungstyp: Dynamische Dauer](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
   Weitere Informationen zum Typ der berechneten Arbeitsdauer finden Sie unter [Übersicht über den Dauer-Typ: Berechnete Arbeit](../../../manage-work/tasks/taskdurtn/calculated-work.md).
 
@@ -239,13 +239,13 @@ Die folgenden Szenarien existieren:
 
 Sie können geplante Stunden für Aufgaben aktualisieren, wenn Sie die Zuweisung von Benutzer- oder Auftragsrollen zu Aufgaben manuell aktualisieren. Dies ist nur möglich, wenn für Aufgaben der Typ &quot;Dauer&quot;einfach ist.
 
-Weitere Informationen finden Sie unter [Übersicht über den Dauer-Typ: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+Weitere Informationen finden Sie unter [Übersicht über den Durationstyp: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
 Sie können entweder die Gesamtzuordnung der Benutzer und Rollen, die der Aufgabe zugewiesen sind, oder die tägliche Zuordnung des Benutzers bei Verwendung des Workload Balancer aktualisieren.
 
-Informationen zum Verwalten der Gesamtzahl der Benutzer- und Stellenzuweisungen für Aufgaben finden Sie unter [Verwalten von Benutzer- und Rollenzuordnungsstunden für Aufgaben](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
+Weitere Informationen zum Verwalten der Gesamtzahl der Benutzer- und Aufgabenrollenzuweisungen für Aufgaben finden Sie unter [Verwalten der Benutzer- und Rollenzuordnungsstunden für Aufgaben](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
-Informationen zur Verwaltung der täglichen Zuweisung von Aufgaben finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Informationen zum Verwalten der täglichen Zuordnungen für Aufgaben finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Die folgenden Szenarien bestehen beim manuellen Aktualisieren der Zuweisung von Benutzer- oder Auftragsrollen für Aufgaben:
 
@@ -257,16 +257,16 @@ Die folgenden Szenarien bestehen beim manuellen Aktualisieren der Zuweisung von 
 
 >[!NOTE]
 >
-Wenn eine Aufgabe beispielsweise 10 geplante Stunden hat und Sie zwei Bevollmächtigte haben, werden ihnen standardmäßig fünf Stunden zugewiesen.
+>Wenn eine Aufgabe beispielsweise 10 geplante Stunden hat und Sie zwei Bevollmächtigte haben, werden ihnen standardmäßig fünf Stunden zugewiesen.
 >
-* Wenn Sie die Zuordnung der einzelnen Benutzer oder die täglichen Zuordnungen nicht mit dem Arbeitslastausgleich aktualisieren und einen oder alle Verantwortlichen aus der Aufgabe entfernen, bleibt die Aufgabe Geplant Stunden 10 Stunden.
-* Wenn Sie die Zuweisung der Aufgaben manuell auf 4 bzw. 6 Stunden ändern und den Benutzer, der 6 Stunden zugewiesen ist, sowie die Rolle des Auftrags entfernen, wird die Aufgabe Geplante Stunden auf 4 Stunden aktualisiert. Wenn Sie auch den Benutzer entfernen, der 4 Stunden zugewiesen ist, aber die mit dem entfernten Benutzer verknüpfte Auftragsrolle beibehalten, bleiben die geplanten Stunden der Aufgabe 4 Stunden. Wenn Sie den letzten Benutzer entfernen, der 4 Stunden zugewiesen ist, sowie dessen Rolle als Job und die Aufgabe nicht zugewiesen ist, wird die Aufgabe Geplant Stunden zu 0.
+>* Wenn Sie die Zuordnung der einzelnen Benutzer oder die täglichen Zuordnungen nicht mit dem Arbeitslastausgleich aktualisieren und einen oder alle Verantwortlichen aus der Aufgabe entfernen, bleibt die Aufgabe Geplant Stunden 10 Stunden.
+>* Wenn Sie die Zuweisung der Aufgaben manuell auf 4 bzw. 6 Stunden ändern und den Benutzer, der 6 Stunden zugewiesen ist, sowie die Rolle des Auftrags entfernen, wird die Aufgabe Geplante Stunden auf 4 Stunden aktualisiert. Wenn Sie auch den Benutzer entfernen, der 4 Stunden zugewiesen ist, aber die mit dem entfernten Benutzer verknüpfte Auftragsrolle beibehalten, bleiben die geplanten Stunden der Aufgabe 4 Stunden. Wenn Sie den letzten Benutzer entfernen, der 4 Stunden zugewiesen ist, sowie dessen Rolle als Job und die Aufgabe nicht zugewiesen ist, wird die Aufgabe Geplant Stunden zu 0.
 
 ## Automatisches Aktualisieren von geplanten Aufgaben mithilfe von Arbeitsaufwand
 
 Wenn Sie die Arbeitsaufgabe verwenden, um den für den Abschluss einer Aufgabe erforderlichen Aufwand zu schätzen, wird die Anzahl der geplanten Stunden für die Aufgaben automatisch aktualisiert. Dies ist nur für Aufgaben mit dem Typ Einfache Dauer möglich.
 
-Informationen zur Verwendung von &quot;Arbeitsaufwand&quot;zur Schätzung des Aufgabenaufwands finden Sie unter [Übersicht über den Arbeitsaufwand](../../../manage-work/tasks/task-information/work-effort.md).
+Informationen zur Verwendung von &quot;Arbeitsaufwand&quot;zur Schätzung des Aufgabenaufwands finden Sie unter [Arbeitsaufwand - Übersicht](../../../manage-work/tasks/task-information/work-effort.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this issue has the explanation of how Planned Hours should work - from Vazgen and Anna: https://hub.workfront.com/issue/6217dced00730b7034c4b808339a35ce/</p>

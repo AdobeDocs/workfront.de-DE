@@ -25,7 +25,7 @@ in January 2022
 
 die Woche vom 4. April 2022.
 
-Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [2.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [22.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Verbesserungen der Filter in der Liste &quot;Home Work&quot;
 
@@ -33,5 +33,5 @@ Um mehr Kontrolle über Ihre Arbeitsliste zu erhalten, haben wir verschiedene Ve
 
 Vor diesem Erlebnis lieferten die Filter im Bereich &quot;Startseite&quot;keine präzise Zählung der Arbeitselemente in der Liste, wenn Sie einen oder mehrere Filter ausgewählt haben, und sie führten zu Verwirrung über den Status der Arbeitselemente.
 
-Weitere Informationen finden Sie unter [Anzeigen von Elementen in der Arbeitsliste im Startbereich](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Weitere Informationen finden Sie unter [Elemente in der Arbeitsliste im Startbereich anzeigen](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 

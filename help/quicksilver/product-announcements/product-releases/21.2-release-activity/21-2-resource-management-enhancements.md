@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2 Verbesserungen bei der Ressourcenverwaltung
 
-Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 21.2 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 21.2 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 - Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Ansicht auf Monatsebene im Arbeitslastausgleich
 
 Um Ihnen bei der Verwaltung der Ressourcenzuweisung für längere Zeiträume zu helfen, haben wir jetzt eine Ansicht auf Monatsebene für den Arbeitslastausgleich implementiert. Sie können bis zu drei Monate gleichzeitig anzeigen und die monatlichen Ressourcenzuweisungen aktualisieren. Vor dieser Änderung konnten Sie den Lastenausgleich nur nach Tag oder Woche anzeigen.
 
-Weitere Informationen finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Weitere Informationen finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Verbindung zwischen dem Szenario-Planer, dem Arbeitslastausgleich und der Aufgabenliste
 
@@ -35,7 +35,7 @@ Um Sie bei der strategischen Planung Ihrer Projekte zu unterstützen und sicherz
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+* [Überblick über die Abstimmung von Ressourcenzuweisungen zwischen Projekten und Initiativen](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 * [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
@@ -48,13 +48,13 @@ Eine neue Einstellung im Resource Planer ermöglicht die Verwendung von &quot;Ge
 
 Vor dieser Verbesserung berechnete Workfront die Nettowerte nur unter Verwendung von Budgetzeit. Der Nettowert zeigt die Differenz zwischen verfügbaren und geplanten Stunden, FTE oder Kosten an. Budgetierte Stunden sind bei der Berechnung der Nettowerte weiterhin die Standardeinstellung.
 
-Weitere Informationen finden Sie unter [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Weitere Informationen finden Sie unter [Übersicht über Stunden, FTE und Kosten in den Projekt- und Rollenansichten des Resource Planers](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## 12-wöchige Ansicht im Arbeitslastausgleich
 
 Sie können jetzt bis zu 12 Wochen Informationen im Arbeitslastausgleich anzeigen. Vor dieser Verbesserung konnten Sie Informationen zu 2, 4 und 6 Wochen anzeigen.
 
-Informationen zum Anzeigen des Lastenausgleichs finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)Navigieren Sie zum Lastenausgleich.
+Weitere Informationen zum Anzeigen des Lastenausgleichs finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)Navigieren im Arbeitslastausgleich .
 
 ## Änderung der Funktionsweise des Filters &quot;Auftragsrolle&quot;im Bereich &quot;Nicht zugewiesen&quot;des Workload-Balancers
 
@@ -62,4 +62,4 @@ Um die Funktionsweise des Filters &quot;Auftragsrolle&quot;im Arbeitslastausglei
 
 Vor dieser Verbesserung wurden beim Anwenden des Filters Auftragsrolle auf den nicht zugewiesenen Bereich im Arbeitslastausgleich alle Stunden angezeigt, die mit den den Auftragsrollen zugewiesenen Arbeitselementen verknüpft sind.
 
-Informationen zum Filtern von Informationen im Arbeitslastausgleich finden Sie unter [Verwalten von Filtern im Lastenausgleich](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Weitere Informationen zum Filtern von Informationen im Arbeitslade-Balancer finden Sie unter [Verwalten von Filtern im Arbeitslast-Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

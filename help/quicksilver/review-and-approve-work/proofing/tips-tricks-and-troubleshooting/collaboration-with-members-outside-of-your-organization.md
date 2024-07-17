@@ -18,13 +18,13 @@ Bei der Kommunikation mit Personen außerhalb Ihres Unternehmens, die zu einem T
 
 In einer Testumgebung gibt es drei Kontakttypen:
 
-* **Benutzer**: Benutzer haben eine Workfront-Testversandanmeldung in der Umgebung Ihres Unternehmens.
-* **Mitglieder**: Mitglieder haben ihre eigene Workfront-Testversandanmeldung in der Umgebung eines anderen Unternehmens (nicht in Ihrer eigenen). Mitglieder können nicht in Benutzer in Ihrer Umgebung konvertiert werden.
-* **Gäste**: Gäste haben keine eigene Workfront-Testversandanmeldung in der Umgebung Ihres Unternehmens, aber Sie haben ihre Details zu Ihrem Konto hinzugefügt (z. B. Gastreviewer bei Testsendungen). Sie können Gäste in Benutzer umwandeln.
+* **Benutzer**: Benutzer haben eine Workfront Proof-Anmeldung in der Umgebung Ihres Unternehmens.
+* **Mitglieder**: Mitglieder haben ihre eigene Workfront Proof-Anmeldung in der Umgebung eines anderen Unternehmens (nicht in Ihrer eigenen). Mitglieder können nicht in Benutzer in Ihrer Umgebung konvertiert werden.
+* **Gäste**: Gäste haben keine eigene Workfront Proof-Anmeldung in der Umgebung Ihres Unternehmens, aber Sie haben ihre Details zu Ihrem Konto hinzugefügt (z. B. Gastreviewer bei Testsendungen). Sie können Gäste in Benutzer umwandeln.
 
-Da Mitglieder nicht in Benutzer konvertiert werden können, ist ihre Fähigkeit, Personen in Testkommentaren mit Tags zu versehen, auf Benutzer von beschränkt *ihrer ursprünglichen Organisation*.
+Da Mitglieder nicht in Benutzer konvertiert werden können, ist ihre Fähigkeit, Personen in Testkommentaren mit Tags zu versehen, auf Benutzer aus *ihrer ursprünglichen Organisation* beschränkt.
 
-**Beispiel:** Firma A lädt einen externen Benutzer ein, einen Testversand zu überprüfen. Dieser Benutzer ist bereits in einer separaten Testumgebung, Firma B, vorhanden.
+**Beispiel:** Firma A lädt einen externen Benutzer ein, einen Testversand zu prüfen. Dieser Benutzer ist bereits in einer separaten Testumgebung, Firma B, vorhanden.
 
  
 

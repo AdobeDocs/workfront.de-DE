@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 verfügbar sind, finden Sie unter [23.3 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Eine Liste aller Änderungen, die derzeit im 23.3-Versionszyklus verfügbar sind, finden Sie unter [23.3 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Neues Starterlebnis
 
@@ -32,7 +32,7 @@ Die neue Startseite wird bei ihrer Veröffentlichung für alle Benutzer das Stan
 
 Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Startseite in Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3420969/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## Neues Kommentierungserlebnis für zusätzliche Objekte
 
@@ -40,13 +40,13 @@ Die neue Kommentarfunktion steht für die folgenden Objekte kurz nach der Versio
 
 Dies ist das einzige Kommentarerlebnis für diese Objekte, da das veraltete Kommentarerlebnis entfernt wird.
 
-Weitere Informationen finden Sie unter [Neue Kommentarerlebnis-Release-Aktivität](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Weitere Informationen finden Sie unter [Neue Kommentarerlebnis-Veröffentlichungsaktivität](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
-## Neues Kommentierungserlebnis für Beta für Projekte, Aufgaben und Probleme
+## Neues Kommentieren von Beta-Erfahrungen für Projekte, Aufgaben und Probleme
 
-Das neue Beta-Kommentarerlebnis ist jetzt für Projekte, Aufgaben und Dokumente verfügbar. Vor dieser Aktualisierung war das Beta-Kommentarerlebnis nur für Probleme und Ziele verfügbar.
+Das neue Kommentierungserlebnis in Beta ist jetzt für Projekte, Aufgaben und Dokumente verfügbar. Vor dieser Aktualisierung war das kommentierende Beta-Erlebnis nur für Probleme und Ziele verfügbar.
 
-Informationen zu den derzeit verfügbaren Funktionen im Beta-Kommentar-Erlebnis finden Sie unter [Neue Kommentar-Erlebnis-Release-Aktivität](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Informationen zu den derzeit verfügbaren Funktionen im kommentierenden Beta-Erlebnis finden Sie unter [Neue Kommentarthema-Beta-Erlebnisveröffentlichungsaktivität](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Benutzerinitialen werden jetzt in Profilen ohne Avatare angezeigt
 

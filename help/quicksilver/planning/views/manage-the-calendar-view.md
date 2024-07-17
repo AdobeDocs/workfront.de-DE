@@ -30,7 +30,7 @@ hide: yes
 
 Sie können Datensätze und ihre Felder in einer Kalenderansicht auf der Seite vom Typ Datensatz anzeigen.
 
-Informationen zu den Ansichten für die Adobe Workfront-Planung und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen zu Adobe Workfront-Planungsansichten und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -88,7 +88,7 @@ Informationen zu den Ansichten für die Adobe Workfront-Planung und deren Verwal
  </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Kalenderansicht verwalten {#manage-a-calendar-view}
 
@@ -108,7 +108,7 @@ Beachten Sie Folgendes:
 So verwalten Sie eine Kalenderansicht:
 
 1. Rufen Sie die Seite mit dem Datensatztyp auf, für die Sie den Kalender anzeigen möchten.
-1. Erstellen Sie eine Kalenderansicht, wie im Artikel beschrieben. [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+1. Erstellen Sie eine Kalenderansicht, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
    ![](assets/calendar-view-example.png)
 
@@ -117,7 +117,7 @@ So verwalten Sie eine Kalenderansicht:
 1. Führen Sie einen der folgenden Schritte aus, um durch den Kalender zu navigieren:
 
    * Klicken Sie auf die Symbole links und rechts oder verwenden Sie den horizontalen Bildlauf, um im Kalender rückwärts und vorwärts zu gehen.
-   * Klicks **Heute** um den Kalender auf das heutige Datum zu zentrieren.
+   * Klicken Sie auf **Heute** , um den Kalender auf das aktuelle Datum zu zentrieren.
    * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü für den Zeitrahmen aus, um die Zeitabstände zu aktualisieren:
 
       * Monat
@@ -147,7 +147,7 @@ Beachten Sie beim Arbeiten mit Filtern in der Kalenderansicht Folgendes:
 
 * Das Hinzufügen von Filtern in der Kalenderansicht entspricht dem Hinzufügen von Filtern in der Tabellenansicht.
 
-  Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern.
 

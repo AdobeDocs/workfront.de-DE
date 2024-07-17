@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-die Woche vom 4. April 2022. Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [2.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+die Woche vom 4. April 2022. Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [22.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Benutzerdefiniertes Formular für die Verwendung mit mehreren Objekttypen konfigurieren
 
@@ -33,13 +33,13 @@ Zuvor konnten Sie ein benutzerdefiniertes Formular so konfigurieren, dass es nur
 
 Diese Funktion funktioniert mit allen benutzerdefinierten Formularen, die zuvor in Ihrem Workfront-System erstellt wurden. Wenn Sie beispielsweise bereits über ein benutzerdefiniertes Formular verfügen, das für den Objekttyp &quot;Aufgabe&quot;erstellt wurde, können Sie jetzt das Formular so konfigurieren, dass es auch mit anderen Objekttypen wie Projekt und Problem funktioniert.
 
-Weitere Informationen finden Sie im Abschnitt . [Erstellen eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Weitere Informationen finden Sie im Abschnitt [Erstellen eines benutzerdefinierten Formulars beginnen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) im Artikel [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >
->* Zum Zeitpunkt der ersten Vorschau dieser Funktion haben wir die Möglichkeit, ein benutzerdefiniertes Formular mit mehreren Objekten zu kopieren, vorübergehend deaktiviert. Diese Fähigkeit wurde am 24. März aktiviert. Informationen zum Kopieren eines benutzerdefinierten Formulars finden Sie unter [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* In einem berechneten benutzerdefinierten Feld sind einige Felder, auf die Sie verweisen, möglicherweise nicht mit Objekttypen kompatibel, die für das Formular konfiguriert sind. Unsere Lösung ist eine Platzhalterkarte, mit der die Berechnung je nach dem Objekt, an das das Formular angehängt ist, unterschiedliche Werte ausgeben kann. Am 24. März haben wir die Platzhalter hinzugefügt. Informationen zur Verwendung finden Sie im Abschnitt [Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) im Artikel [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* Für Abschnittsumbrüche in benutzerdefinierten Formularen haben wir eine Reihe allgemeiner Anzeigeberechtigungen und Bearbeitungsberechtigungen erstellt, die für alle Objekttypen gelten, die Sie für ein Formular konfigurieren können. In einem Szenario haben wir festgestellt, dass eine dieser Berechtigungen, &quot;Eingeschränkte Bearbeitung&quot;, Fehler in einem Formular verursachen kann. Dieses Problem wurde am 24. März behoben. Weitere Informationen zu Abschnittspausen finden Sie unter [Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* Zum Zeitpunkt der ersten Vorschau dieser Funktion haben wir die Möglichkeit, ein benutzerdefiniertes Formular mit mehreren Objekten zu kopieren, vorübergehend deaktiviert. Diese Fähigkeit wurde am 24. März aktiviert. Informationen zum Kopieren eines benutzerdefinierten Formulars finden Sie unter [Kopieren eines benutzerdefinierten Formulars, um ein neues zu erstellen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+>* In einem berechneten benutzerdefinierten Feld sind einige Felder, auf die Sie verweisen, möglicherweise nicht mit Objekttypen kompatibel, die für das Formular konfiguriert sind. Unsere Lösung ist eine Platzhalterkarte, mit der die Berechnung je nach dem Objekt, an das das Formular angehängt ist, unterschiedliche Werte ausgeben kann. Am 24. März haben wir die Platzhalter hinzugefügt. Informationen zur Verwendung finden Sie im Abschnitt [Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) im Artikel [Berechnete Daten zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>* Für Abschnittsumbrüche in benutzerdefinierten Formularen haben wir eine Reihe allgemeiner Anzeigeberechtigungen und Bearbeitungsberechtigungen erstellt, die für alle Objekttypen gelten, die Sie für ein Formular konfigurieren können. In einem Szenario haben wir festgestellt, dass eine dieser Berechtigungen, &quot;Eingeschränkte Bearbeitung&quot;, Fehler in einem Formular verursachen kann. Dieses Problem wurde am 24. März behoben. Weitere Informationen zu Abschnittspausen finden Sie unter [Einen Abschnittsumbruch zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 >
 
 ## Der Blueprints-Katalog steht allen Benutzern zur Verfügung und Administratoren können Anfragen zulassen
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines Asset-
 
 ## Neue standardmäßige Zugriffsstufenkonfigurationen
 
-Um die Anforderungen der meisten Administratoren, die neue Zugriffsebenen erstellen, besser zu erfüllen, haben wir die Standardkonfiguration für die unten aufgeführten Optionen zur Anpassung Ihrer Einstellungen geändert. Diese werden beim Klicken auf das Zahnradsymbol angezeigt ![](assets/gear-icon-in-access-levels.png) auf der Schaltfläche Bearbeiten klicken.
+Um die Anforderungen der meisten Administratoren, die neue Zugriffsebenen erstellen, besser zu erfüllen, haben wir die Standardkonfiguration für die unten aufgeführten Optionen zur Anpassung Ihrer Einstellungen geändert. Diese werden angezeigt, wenn Sie auf das Zahnradsymbol ![](assets/gear-icon-in-access-levels.png) auf einer Schaltfläche &quot;Bearbeiten&quot;klicken.
 
 Alle diese Änderungen deaktivieren eine Option, die zuvor standardmäßig aktiviert war. Wenn dies nicht den Anforderungen Ihrer Organisation entspricht, können Sie sie bei der Einrichtung einer neuen Zugriffsebene oder zu einem späteren Zeitpunkt aktivieren.
 
@@ -95,7 +95,7 @@ Sie können weiterhin Optionen, Voreinstellungen und Objektverknüpfungen für v
 
 Zuvor war es nicht möglich, eine Gruppe zu deaktivieren.
 
-Weitere Informationen finden Sie unter [Gruppe deaktivieren oder reaktivieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+Weitere Informationen finden Sie unter [Deaktivieren oder Reaktivieren einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 ## Verbesserungen am Installationsverlauf von Blueprints
 

@@ -23,43 +23,43 @@ ht-degree: 1%
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Überblick über die Version des vierten Quartals 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
 
 ## Artikelebene - Vorschau und schnelle Veröffentlichung Q4 2023 {#article-preview-and-fast-release}
 
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Überblick über die Version des vierten Quartals 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
 
 ## Wichtiger Hinweis für Navigationsfunktionen, die nicht für AEC/Shell gelten {#important-not-on-aec}
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht integriert sind in [!DNL Adobe Experience Cloud].
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht mit [!DNL Adobe Experience Cloud] integriert sind.
 >
-> Wenn Ihr Unternehmen bei [!DNL Adobe Experience Cloud], siehe [[!DNL Adobe Unified Experience] für [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+> Wenn Ihr Unternehmen in [!DNL Adobe Experience Cloud] integriert wurde, finden Sie weitere Informationen unter [[!DNL Adobe Unified Experience] für [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Schritt 1: Nur auf Hauptmenü klicken {#step1-click-main-menu}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
 
 ## Schritt 1: Klicken Sie auf Hauptmenü und dann auf - {#step1-click-mm-then-click}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf![
 
 ## Schritt 1: Klicken Sie auf Ihr Profilbild - {#step1-click-profile-pic}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf Ihren Benutzernamen neben Ihrem Profilbild. Oder (falls verfügbar) klicken Sie auf Ihr Profilbild im oberen Navigationsbereich und dann auf **[!UICONTROL Workfront-Profil]**.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) und klicken Sie dann auf Ihren Benutzernamen neben Ihrem Profilbild. Oder (falls verfügbar) klicken Sie im oberen Navigationsbereich auf Ihr Profilbild und dann auf **[!UICONTROL Workfront-Profil]**.
 
 <!-- Admin and Setup -->
 
 ## Schritt 1: Erste Schritte mit dem Setup {#step-1-to-setup}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Einrichtung]** ![Einrichtungssymbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf das Symbol **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).![
 
 ## Formularentwickler zu allgemein {#form-designer-default}
 
@@ -67,13 +67,13 @@ ht-degree: 1%
 >
 >Mit der kommenden Version vom 15. Juli (Version 24.7) ist der Formularentwickler allgemein verfügbar und wird zum Standarderlebnis beim Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront. Der alte Formular-Builder ist nicht mehr verfügbar. Es wird empfohlen, jetzt zum Formularentwickler zu wechseln und dessen Funktionen zu nutzen.
 >
->Weitere Informationen finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
 >Der alte Formular-Builder wurde am 19. Juni 2024 aus der Vorschau-Umgebung entfernt und wird mit der Version 24.7 im Juli aus der Produktionsumgebung entfernt.
 
 ## Verknüpfen der rechten Gruppe mit dem Team {#right-group-team}
 
-Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber halten und auf das Informationssymbol klicken <img src="assets/info-icon.png"> neben dem angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und die Namen der Administratoren.
+Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber halten und auf das Informationssymbol klicken <img src="assets/info-icon.png"> , der daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und die Namen der Administratoren.
 
 
 ## Wichtiger Hinweis für das Onboarding von Admin Consolen {#important-admin-console-onboard}
@@ -82,36 +82,36 @@ Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in der Adobe Admin Console integriert sind.
 >
->Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, lesen Sie [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Wenn Ihr Unternehmen in Adobe Admin Console integriert wurde, finden Sie weitere Informationen unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Schritt 1: Aufrufen von Benutzern {#step-1-to-users}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Benutzer]** ![Benutzersymbol](/help/_includes/assets/users-icon-in-main-menu.png).
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** oben links auf das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und klicken Sie dann auf das Symbol **[!UICONTROL Benutzer]** ![Benutzer](/help/_includes/assets/users-icon-in-main-menu.png).
 
 
 <!-- Agile -->
 
 ## Schritt 1: Wechseln zu Pinnwänden - {#step1-to-boards}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Pinnwände]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
 
 <!-- Blueprints -->
 
 ## Schritt 1: Aufrufen von Blueprints - {#step1-to-blueprints}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Blueprints]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Blueprints]**.![
 
 <!-- Calendars -->
 
 ## Schritt 1: Erste Schritte mit Kalendern - {#step1-to-calendars}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Kalender]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Kalender]**.
 
 <!-- Documents -->
 
 ## Schritt 1: Aufrufen von Dokumenten - {#step1-to-documents}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Dokumente]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Dokumente]**.
 
 ## Einrichten verknüpfter Ordner {#setup-linked-folder}
 
@@ -121,7 +121,7 @@ Geben Sie in den folgenden Schritten an, wo die verknüpften Ordner erstellt wer
 
 Einrichten verknüpfter Ordner:
 
-1. Umschalten **Aktivierter verknüpfter Ordner** auf.
+1. Schalten Sie **Aktivierten verknüpften Ordner** ein.
 1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle mit dieser Integration verknüpften Ordner live sein sollen.
    ![Setup-Bildschirm für verknüpfte Ordner](/help/_includes/assets/linked-folder-setup.png)
 
@@ -136,17 +136,17 @@ Einrichten verknüpfter Ordner:
 
 ## Schritt 1: Aufrufen der Startseite - {#step1-to-home}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Startseite]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Startseite]**.
 
 ## Symbol &quot;Startseite&quot; {#click-home}
 
-1. Klicken Sie auf [!UICONTROL Startseite] icon ![Startseite](/help/_includes/assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie oben links in Adobe Workfront auf das Symbol [!UICONTROL Startseite] ![Startseite](/help/_includes/assets/home-icon-30x29.png) .
 
 >[!NOTE]
->Ihr Workfront-Administrator kann die folgenden Änderungen an der [!UICONTROL Startseite] -Symbol in Ihrer Umgebung:
+>Ihr Workfront-Administrator kann die folgenden Änderungen am Symbol [!UICONTROL Startseite] in Ihrer Umgebung vornehmen:
 >
 >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
->* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke der Seite oder (falls verfügbar) klicken Sie auf die **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Startseite]**.
+>* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall oben rechts auf der Seite auf das Hauptmenü **[!UICONTROL 1} ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol**[!UICONTROL  Hauptmenü&#x200B;]**![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf**[!UICONTROL  Startseite ]**.]**
 >
 
 <!-- Integrations -->
@@ -256,16 +256,16 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 ## Schritt 1: Erste Schritte mit Maestro - {#step1-to-planning}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Planung]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Planung]**.
 
    Die Landingpage für die Workfront-Planung wird geöffnet.
 
 1. (Optional und bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf die folgenden Registerkarten:
 
-   * **Meine Arbeitsbereiche**: Zeigt die erstellten Arbeitsbereiche an.
-   * **Andere Arbeitsbereiche**: Zeigt alle Arbeitsbereiche in der Workfront-Planung an, einschließlich der für Sie freigegebenen Arbeitsbereiche.
+   * **Meine Arbeitsbereiche**: Zeigt die von Ihnen erstellten Arbeitsbereiche an.
+   * **Sonstige Arbeitsbereiche**: Zeigt alle Arbeitsbereiche in der Workfront-Planung an, einschließlich der für Sie freigegebenen Arbeitsbereiche.
 
-   Für alle anderen Benutzer werden alle Arbeitsbereiche, die Sie erstellt haben oder die für Sie freigegeben wurden, im **Arbeitsbereiche** Bereich.
+   Für alle anderen Benutzer werden alle Arbeitsbereiche, die Sie erstellt haben oder die für Sie freigegeben wurden, im Bereich **Arbeitsbereiche** angezeigt.
 
 ## Wichtiger Einstieg in die Workfront-Planung - {#planning-important-intro}
 
@@ -285,35 +285,35 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 ## 1. Schritt - Erste Schritte mit Portfolios - {#step1-to-portfolios}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Portfolios]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Portfolio]**.
 
 ## 1. Schritt - Erste Schritte - Programme {#step1-to-programs}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Programme]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Programme]**.
 
 ## Schritt 1: Erste Schritte zu Projekten - {#step1-to-projects}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Projekte]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Projekte]**.
 
 ## 1. Schritt - Anfordern - {#step1-to-requests}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Anforderungen]**.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** oben links auf das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und klicken Sie dann auf **[!UICONTROL Anforderungen]**.
 
 ## Schritt 1: Aufrufen von Vorlagen - {#step1-to-templates}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Vorlagen]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Vorlagen]**.
 
 <!-- Mobile -->
 
 ## Mobilgerät - Testversand - Mehr Menü {#mobile-proof-more-menu}
 
-1. Öffnen Sie den Dokumentversand und wählen Sie die **[!UICONTROL Mehr]** Menü ![Mehr Menü](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) rechts oben im Dokument. Wählen Sie anschließend **[!UICONTROL Mehr]**.
+1. Öffnen Sie den Dokumenttest und wählen Sie das Menü **[!UICONTROL Mehr]** im Menü ![Mehr Menü](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) oben rechts im Dokument aus. Wählen Sie dann **[!UICONTROL Mehr]** aus.
 
 <!-- My Updates -->
 
 ## Schritt 1: Erste Schritte mit meinen Aktualisierungen - {#step1-to-my-updates}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Meine Aktualisierungen]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Meine Updates]**.
 
 <!-- Notifications -->
 
@@ -323,7 +323,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 ## Schritt 1: Erste Schritte mit dem Testversand - {#step1-to-proofing}
 
-1. Klicken Sie in Workfront auf die **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png)oder (falls verfügbar) auf **[!UICONTROL Hauptmenü]** Symbol oben links ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png)Klicken Sie auf **[!UICONTROL Testing]** , um auf Workfront Proof zuzugreifen.
+1. Klicken Sie in Workfront auf das Symbol &quot;**[!UICONTROL Hauptmenü]**&quot;![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol &quot;**[!UICONTROL Hauptmenü]**&quot;in der linken oberen Ecke ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und klicken Sie dann auf &quot;**[!UICONTROL Testen]**&quot;, um auf Workfront Proof zuzugreifen.
 
 ## Neueste DPV-Version {#latest-version}
 
@@ -335,25 +335,25 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 ## Schritt 1: Erste Schritte mit Berichten - {#step1-to-reports}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Berichte]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Berichte]**.
 
 ## Schritt 1: Aufrufen von Dashboards - {#step1-to-dashboards}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Dashboards]**.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Dashboards]**.
 
 ## Schritt 1: Erste Schritte mit Analytics - {#step1-to-analytics}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Analytics]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Analytics]**.
 
 <!-- Resource Management -->
 
 ## Schritt 1: Erste Schritte mit der Ressourcenverwaltung - {#step1-to-resourcing}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Ressourcen]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Ressourcen]**.
 
 ## Schritt 1: Aufrufen des Nutzungsberichts - {#step1-to-utilization-report}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Ressourcen]**, dann [!UICONTROL **Nutzung**] im linken Bereich.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** oben links auf das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und klicken Sie dann auf **[!UICONTROL Ressourcen]** und anschließend im linken Bereich auf [!UICONTROL **Nutzung**].
 
 <!-- Review and approve work -->
 
@@ -361,23 +361,23 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 ## Schritt 1: Wechseln zum Szenario-Planer - {#step1-to-scenario-planner}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Szenarien]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Szenarios]**.
 
 <!-- Teams -->
 
 ## Schritt 1: Einstieg in ein Team - {#step1-to-team}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Teams]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Teams]**.
 
 ## Schaltfläche &quot;Fertig&quot;für einen oder mehrere Status {#configure-done-button}
 
 Mit der Schaltfläche Fertig können Sie ändern, welcher Status auf das Arbeitselement angewendet wird. Sie können auch mehrere Status festlegen und dem Benutzer die Auswahl des entsprechenden Status ermöglichen.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Teams]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Teams]**.
 
-1. Klicken Sie auf **[!UICONTROL Switch Team]** und wählen Sie entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü und klicken Sie auf **[!UICONTROL Bearbeiten]**.
-1. Suchen Sie die **[!UICONTROL Schaltfläche Fertig]** -Abschnitt am unteren Rand des **[!UICONTROL Team-Einstellungen]** Seite.
+1. Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** und wählen Sie dann entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und dann auf **[!UICONTROL Bearbeiten]**.
+1. Suchen Sie den Abschnitt **[!UICONTROL Fertige Schaltfläche]** unten auf der Seite **[!UICONTROL Team-Einstellungen]** .
 
 1. Wählen Sie für jeden Arbeitselementtyp einen oder mehrere Status aus.
 
@@ -411,15 +411,15 @@ Um die Änderungen an der Funktion der Schaltfläche Fertig für Benutzer sichtb
 
 So verknüpfen Sie Benutzer mit einem Home-Team:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
 
-1. Klicks **[!UICONTROL Benutzer]** und wählen Sie dann den oder die Benutzer aus, die Sie mit einem Startseiten-Team verbinden möchten.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü und wählen Sie **[!UICONTROL Bearbeiten]**.\
+1. Klicken Sie auf **[!UICONTROL Benutzer]** und wählen Sie dann den Benutzer aus, den/die Sie mit einem Home-Team verbinden möchten.
+1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.\
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
-1. Im **[!UICONTROL Einrichtung]** auswählen, wählen Sie die **[!UICONTROL Startseite]** -Feld. Geben Sie den Namen des Teams ein, dessen Einstellungen Sie den Benutzern zuweisen möchten. Klicken Sie auf den Namen des Teams, sobald es in der Liste angezeigt wird.
+1. Wählen Sie im Abschnitt **[!UICONTROL Organisation]** das Feld **[!UICONTROL Home Team]** aus. Geben Sie den Namen des Teams ein, dessen Einstellungen Sie den Benutzern zuweisen möchten. Klicken Sie auf den Namen des Teams, sobald es in der Liste angezeigt wird.
 
-1. Klicks **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 Die von Ihnen ausgewählten Benutzer sind jetzt mit einem Home-Team verknüpft.
 Alle Teameinstellungen, einschließlich der mit der Schaltfläche Fertig verknüpften Status, sind nun für diese Benutzer sichtbar.
 
@@ -427,13 +427,13 @@ Alle Teameinstellungen, einschließlich der mit der Schaltfläche Fertig verknü
 
 ## Schritt 1: Aufrufen von Timesheets - {#step1-to-timesheets}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Timesheets]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Timesheets]**.![
 
 <!-- Workfront Goals -->
 
 ## Schritt 1: Erste Schritte - Ziele - {#step1-to-goals}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Ziele]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Ziele]**.
 
 <!-- Workfront Fusion -->
 

@@ -54,7 +54,7 @@ Sie können einen Arbeitsbereich oder eine Ansicht für die folgenden Entitäten
 
 * Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Workfront Planning-Berechtigungen zusammen, um Ihnen Zugriff auf die Ansicht, den Beitrag und die Verwaltung von Arbeitsbereichen und deren Objekten zu gewähren.
 
-  Informationen darüber, wie sich Lizenztypen auf die Berechtigungsstufen für die Workfront-Planung auswirken, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md).
+  Informationen dazu, wie sich Lizenztypen auf die Berechtigungsstufen für die Workfront-Planung auswirken, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md).
 * Systemadministratoren können alle Arbeitsbereiche im System verwalten, einschließlich derjenigen, die sie nicht erstellt haben.
 * Andere Benutzer, einschließlich Systemadministratoren, können nur auf Ansichten zugreifen, die sie erstellt haben oder die für sie freigegeben wurden. Systemadministratoren können nur Berechtigungen zum Verwalten einer Ansicht erhalten.
 * Sie können einen Link zu einem Arbeitsbereich oder einer Ansicht für andere freigeben.

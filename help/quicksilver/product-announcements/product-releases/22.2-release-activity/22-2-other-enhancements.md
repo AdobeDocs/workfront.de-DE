@@ -25,7 +25,7 @@ in January 2022
 
 die Woche vom 4. April 2022.
 
-Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [2.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [22.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Verbesserungen der oberen Navigationsleiste
 
@@ -35,7 +35,7 @@ Die Navigationsleiste am oberen Bildschirmrand von Adobe Workfront wurde verbess
 * Das Erscheinungsbild der Pins und des Hauptmenüs wurde auf Adobe-Design-Standards aktualisiert, einschließlich Farben und Schriften. Die Art und Weise, wie Sie Pins hinzufügen und entfernen und auf welche Bereiche Sie im Hauptmenü zugreifen können, hat sich nicht geändert.
 * Die Symbole auf der rechten Seite der oberen Navigationsleiste wurden neu angeordnet, um intuitiver zu sein. Die Symbolreihenfolge lautet: Hilfelink, Benachrichtigungen, Favoriten, Neuigkeiten, Suche, Hauptmenü.
 
-Weitere Informationen finden Sie unter [Übersicht über die Navigationsleiste oben](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über die oberste Navigationsleiste](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
 ## Neu entworfene Listen von Zeitblättern
 
@@ -46,5 +46,5 @@ Zu den Highlights dieser Neugestaltung gehören:
 * Die Timesheet-Liste entspricht nun dem Erlebnis in allen anderen Listen in Workfront.
 * Das Filtererlebnis entspricht nun den Filtern in allen anderen Listen. Sie haben mehr Flexibilität bei der Erstellung eigener Filter mit den Feldern und Attributen, die für Sie am sinnvollsten sind, und bei der Freigabe für andere Benutzer.
 
-Weitere Informationen zum Erstellen von Timesheets mithilfe der neuen Listen finden Sie unter [Erstellen eines Datenblatts für die einmalige Verwendung](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+Weitere Informationen zum Erstellen von Timesheets mit den neuen Listen finden Sie unter [Erstellen eines Zeitplans für die einmalige Verwendung](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 

@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der R1.3-Version verfügbar sind. Die Funktionalität auf dieser Seite wurde am 1. Februar 2017 in der Vorschau-Umgebung bereitgestellt.
 
-Eine Liste aller in R1 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivität R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Eine Liste aller Änderungen, die in R1 vorgenommen wurden, finden Sie unter [R1 - Übersicht über die Release-Aktivität](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Verbesserte Methode zum Verknüpfen externer Dateien
 
@@ -28,13 +28,13 @@ Darüber hinaus ist die erstmalige Autorisierung eines Dokumentanbieters vor der
 
 Vor diesen Änderungen befand sich die Option zum Verknüpfen von Dateien aus einer externen Quelle im Dialogfeld &quot;Dokumente hinzufügen&quot;im Bereich &quot;Dokumente&quot;. Vor dem erstmaligen Verknüpfen eines Dokuments aus einer externen Quelle musste der Benutzer, der das Dokument verknüpft hat, diesen Dokumentanbieter im Bereich &quot;Einrichtung&quot;autorisieren.
 
-Weitere Informationen finden Sie unter  [Verknüpfen von Dokumenten mit externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Weitere Informationen finden Sie unter  [Verknüpfen von Dokumenten aus externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Aktualisiertes Team zur Kalenderarbeit
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Der für Teams verfügbare Arbeitskalender enthält jetzt zusätzliche Funktionen und ein aktualisiertes Erscheinungsbild. Das Team, das mit dem Kalender arbeitet, funktioniert jetzt ähnlich wie das Tool zur Ressourcenplanung für Projekte.
 
@@ -70,7 +70,7 @@ Die Planung umfasst die folgenden Erweiterungen:
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Der Filter kann jetzt verwendet werden, um zu steuern, welche Benutzer in der Planung angezeigt werden und welche Aufgaben und Probleme im Bereich Nicht zugewiesen angezeigt werden. Wenn Benutzer im Filter ausgewählt sind, werden nur die ausgewählten Benutzer angezeigt, unabhängig davon, ob sie über eine Rollenzuweisung verfügen, die der Rollenzuweisung für Aufgaben im Bereich Nicht zugewiesen entspricht. Alle Aufgaben, die diesem Benutzer derzeit zugewiesen sind, werden ebenfalls angezeigt.
 
@@ -120,7 +120,7 @@ In den folgenden Bereichen wird der aktualisierte Name der Objekte nicht angezei
 * Mobile Apps
 * Outlook-Add-in
 
-Weitere Informationen zum Anpassen der Workfront-Terminologie mithilfe einer Layoutvorlage finden Sie im Abschnitt &quot;Anpassung der Terminologie&quot;unter &quot;Erstellen und Verwalten von Layoutvorlagen&quot;und im Abschnitt &quot;Auswirkungen des Anpassens von Objektnamen&quot;unter [Objekte in Adobe Workfront verstehen](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zum Anpassen der Workfront-Terminologie mithilfe einer Layoutvorlage finden Sie im Abschnitt &quot;Terminologie anpassen&quot;unter &quot;Erstellen und Verwalten von Layoutvorlagen&quot;und im Abschnitt &quot;Grundlegendes zu den Auswirkungen des Anpassens von Objektnamen&quot;in [Grundlegendes zu Objekten in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Aufnahme von Start- und Enddaten für die Genehmigung in Berichte
 
@@ -133,7 +133,7 @@ Mit diesen Feldern erhalten Sie einen Einblick in den Beginn des aktuellen oder 
 
 Weitere Informationen zu diesen Feldern finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-Weitere Informationen zu Validierungspfaden, deren Erstellung und Auslösung sowie zu den Funktionen, die sie in Genehmigungsprozessen verwenden, finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Weitere Informationen zu Genehmigungspfaden, ihrer Erstellung und Auslösung sowie zu der Funktion, die sie in Genehmigungsprozessen verwenden, finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 Die folgenden Felder wurden aus Workfront entfernt und können nicht mehr in Berichte aufgenommen werden (diese Felder enthielten Informationen zum Projekt und nicht Informationen über die Genehmigungen selbst, und wurden häufig falsch verwendet):
 
@@ -145,7 +145,7 @@ Die folgenden Felder wurden aus Workfront entfernt und können nicht mehr in Ber
 
 Die Option Täglicher Digest-Versand wurde zum Bereich &quot;Anforderungen, die ich durchgeführt habe&quot;in Ihren Benachrichtigungseinstellungen hinzugefügt.
 
-Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können. Dies ist erforderlich, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht.
 
@@ -166,4 +166,4 @@ Die Meilensteinansicht, die beim Anzeigen einer Projektliste oder eines Projektb
 
 Vor dieser Änderung mussten Sie zur Änderung der Daten oder zum Anzeigen des Prozentsatzes zum Abschluss der einzelnen Aufgaben gehen.
 
-Weitere Informationen finden Sie unter [Verwenden der Milestone-Ansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+Weitere Informationen finden Sie unter [Verwenden der Meilensteinansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).

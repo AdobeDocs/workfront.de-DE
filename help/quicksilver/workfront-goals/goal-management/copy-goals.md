@@ -78,11 +78,11 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Kopieren von Zielen
 
-Sie müssen auf der Zugriffsebene Zugriff auf Ziele bearbeiten haben, bevor Sie Ziele kopieren können. Informationen zur Gewährung des Zugriffs auf Ziele finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Sie müssen auf der Zugriffsebene Zugriff auf Ziele bearbeiten haben, bevor Sie Ziele kopieren können. Informationen zur Gewährung des Zugriffs auf Ziele finden Sie unter [Gewähren des Zugriffs auf Adobe Workfront-Ziele](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 Mögliche Gründe für das Kopieren eines vorhandenen Ziels sind:
 
@@ -92,7 +92,7 @@ Mögliche Gründe für das Kopieren eines vorhandenen Ziels sind:
 
 >[!TIP]
 >
->Sie können ein Ziel in einen beliebigen Status kopieren. Weitere Informationen zum Zielstatus finden Sie unter [Zielstatusübersicht in Adobe Workfront-Zielen](../../workfront-goals/goal-management/goal-status-overview.md).
+>Sie können ein Ziel in einen beliebigen Status kopieren. Informationen zu den Zielstatus finden Sie unter [Zielstatusübersicht in Adobe Workfront-Zielen](../../workfront-goals/goal-management/goal-status-overview.md).
 
 Beachten Sie beim Kopieren von Zielen Folgendes:
 
@@ -178,32 +178,32 @@ To copy goals in the Production environment:
 -->
 
 
-1. Gehen Sie zu einem Ziel und klicken Sie auf **Mehr** Menü ![](assets/more-icon.png)Klicken Sie auf **Ziel kopieren**.
+1. Gehen Sie zu einem Ziel, klicken Sie auf das Menü **Mehr** ![](assets/more-icon.png) und dann auf **Ziel kopieren**.
 
    ![](assets/copy-goal-box-unshimmed.png)
 
 1. Aktualisieren Sie die folgenden Informationen für das kopierte Ziel:
-   * **Zielname**: Der Name des neuen Ziels. Der Standardname für das kopierte Ziel lautet &quot;Kopie von &lt;original goal=&quot;&quot;>&quot;.
+   * **Zielname**: Der Name des neuen Ziels. Der Standardname für das kopierte Ziel ist &quot;Kopie von &lt;ursprüngliches Ziel>&quot;.
    * **Zeitraum**: Der Zeitraum, in dem Sie das Ziel erreichen möchten. Wählen Sie einen Zeitraum aus dem Dropdownmenü aus
 
      Oder
 
-     Auswählen **Benutzerdefinierte Datumswerte aktivieren** zum Angeben benutzerdefinierter Datumswerte für das Ziel **Starten** und **Enddaten**. Die Einstellung Benutzerdefinierte Datumswerte aktivieren ist standardmäßig deaktiviert.
+     Wählen Sie **Benutzerdefinierte Datumswerte aktivieren** aus, um benutzerdefinierte Datumswerte für das Ziel **Start** und das Enddatum **5} festzulegen.** Die Einstellung Benutzerdefinierte Datumswerte aktivieren ist standardmäßig deaktiviert.
 
      >[!TIP]
      >
      >   Wenn Sie Benutzerdefinierte Datumswerte aktivieren deaktivieren, wird der Zeitraum des ursprünglichen Ziels zurückgesetzt.
 
-      * **Goal Owner**: Der Eigentümer des Ziels. Dabei kann es sich um einen Benutzer, ein Team, eine Gruppe oder ein Unternehmen handeln. Standardmäßig ist es der Eigentümer des ursprünglichen Ziels.
+      * **Zieleigentümer**: Der Eigentümer des Ziels. Dabei kann es sich um einen Benutzer, ein Team, eine Gruppe oder ein Unternehmen handeln. Standardmäßig ist es der Eigentümer des ursprünglichen Ziels.
       * **Beschreibung**: Zusätzliche Informationen zum Ziel.
-      * **Ergebnisse kopieren**: Wählen Sie diese Option aus, wenn Sie die Ergebnisse vom aktuellen Ziel an das kopierte Ziel übertragen möchten. Dadurch werden die ursprünglichen Ergebnisse dupliziert und an das kopierte Ziel angehängt. Die Ergebnisse des kopierten Ziels haben dieselben Eigentümer, Namen und Messwerte wie die Ergebnisse des ursprünglichen Ziels.
+      * **Ergebnisse kopieren**: Wählen Sie diese Option, wenn Sie die Ergebnisse vom aktuellen Ziel an das kopierte Ziel übertragen möchten. Dadurch werden die ursprünglichen Ergebnisse dupliziert und an das kopierte Ziel angehängt. Die Ergebnisse des kopierten Ziels haben dieselben Eigentümer, Namen und Messwerte wie die Ergebnisse des ursprünglichen Ziels.
 
         >[!NOTE]
         >
         >* Der Fortschritt des ursprünglichen Ergebnisses wird nicht an das kopierte Ziel übertragen.
         >* Wenn der ursprüngliche Eigentümer aus Workfront gelöscht oder deaktiviert wurde, wird das neue Ergebnis dem angemeldeten Benutzer zugewiesen.
 
-1. Klicks **Ziel kopieren**.
+1. Klicken Sie auf **Ziel kopieren**.
 
    Ein dem ursprünglichen Ziel ähnliches Ziel wird erstellt und erhält den Status Entwurf .
 
@@ -211,7 +211,7 @@ To copy goals in the Production environment:
    >
    >Wenn Sie die Ergebnisse nicht aus dem ursprünglichen Ziel kopiert haben, müssen Sie zunächst das neue Ziel mit einem Fortschrittsanzeige verknüpfen, bevor Sie es aktivieren und anfangen, es zu erreichen.
    >Informationen zur Verknüpfung von Zielen mit Fortschrittsanzeigen finden Sie in den folgenden Artikeln:
-   >* [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-results-to-goals.md)
+   >* [Ergebnisse zu Zielen in Adobe Workfront-Zielen hinzufügen](../results-and-activities/add-results-to-goals.md)
    >* [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-activities-to-goals.md)
    >* [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../goal-alignment/align-goals-by-connecting-them.md)
    >

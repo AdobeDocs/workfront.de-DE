@@ -70,7 +70,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Antwort auf eine Aktualisierung einer E-Mail-Benachrichtigung
 
@@ -79,15 +79,15 @@ Wenn Sie eine E-Mail-Benachrichtigung erhalten, können Sie das zugehörige Work
 1. Öffnen Sie die durch ein Update in Workfront generierte E-Mail-Benachrichtigung.
 
    ![email.png](assets/email-350x202.png)
-1. Klicks **Kommentar** aus der E-Mail-Benachrichtigung.
+1. Klicken Sie in der E-Mail-Benachrichtigung auf **Kommentar** .
 
    Die Detailseite für das Objekt wird in Workfront geöffnet.
 
 1. Gehen Sie zu der Aktualisierung, auf die Sie eine Antwort hinzufügen möchten.
 
-   Neben der Anzeige der Benutzer, die aktiv an der Konversation beteiligt sind, können Sie in jeder Antwort sehen, wer in diesem Aktualisierungs-Thread getaggt wurde. Diese Benutzer sowie alle Benutzer, die das Objekt abonniert haben, erhalten eine Benachrichtigung, sobald eine Aktualisierung oder Antwort am Objekt vorgenommen wird. Weitere Informationen zum Tagging von Benutzern finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Neben der Anzeige der Benutzer, die aktiv an der Konversation beteiligt sind, können Sie in jeder Antwort sehen, wer in diesem Aktualisierungs-Thread getaggt wurde. Diese Benutzer sowie alle Benutzer, die das Objekt abonniert haben, erhalten eine Benachrichtigung, sobald eine Aktualisierung oder Antwort am Objekt vorgenommen wird. Informationen zum Taggen weiterer Benutzer finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Klicks **Antwort,** Geben Sie Ihre Antwort ein und klicken Sie auf **Antwort**.
+1. Klicken Sie auf **Antworten,** geben Sie Ihre Antwort ein und klicken Sie dann auf **Antworten**.
 
    Die Antwort wird als neuer Kommentar zum Kommentar-Thread hinzugefügt.
 

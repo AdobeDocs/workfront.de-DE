@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 2020.2 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Mai 2020 bereitgestellt.
 
-Eine Liste aller in Version 2020.2 verfügbaren Änderungen finden Sie unter [Versionsübersicht 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 2020.2 verfügbar sind, finden Sie unter [Versionsübersicht 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Für Workfront-Administratoren: Neue Notfallsicherung, wenn der Projektstatus für neue Projekte ausgeblendet oder entsperrt wird
 
@@ -26,7 +26,7 @@ Unter Einrichtung konfigurieren Sie eine Voreinstellung, um sicherzustellen, das
 
 Um sicherzustellen, dass neue Projekte immer einen Status haben, selbst wenn ein Administrator den für neue Projekte konfigurierten Status ausblendet oder entsperrt, weist das System allen neuen Projekten jetzt den ersten Status in der Liste Status zu, bis Sie den neuen Status für neue Projekte erneut konfigurieren.
 
-Informationen zum Festlegen der Voreinstellung für den Status aller neuen Projekte finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Festlegen von Projektvoreinstellungen](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Weitere Informationen zum Festlegen der Voreinstellung für den Status aller neuen Projekte finden Sie unter [Systemweite Projektanvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oder, wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Festlegen von Projektanvoreinstellungen](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -42,7 +42,7 @@ Die Erfahrung mit dem Festlegen von Projektvoreinstellungen ist jetzt intuitiver
 * Wenn Sie eine ungültige Zahl für eine Option wie &quot;Typische Stunden pro Arbeitstag&quot;eingeben, wird sofort eine Warnmeldung angezeigt, anstatt nach dem Klicken auf &quot;Speichern&quot;angezeigt zu werden.
 * Optionsbeschriftungen stimmen mit dem entsprechenden Schnittstellentext an anderer Stelle in Workfront überein, z. B. im Detailbereich und in Berichten.
 
-Weitere Informationen zum Bereich &quot;Projekteinstellungen&quot;finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Festlegen von Projektvoreinstellungen](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Weitere Informationen zum Bereich &quot;Projektvoreinstellungen&quot;finden Sie unter [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (bzw. bei Verwendung von Adobe Workfront Classic finden Sie unter [Festlegen von Projektvoreinstellungen](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -68,11 +68,11 @@ Wenn Sie beispielsweise eine Aufgabe mit der Einschränkung Must Start On in ein
 
 Vor dieser Änderung ändert sich die Aufgabenbegrenzung immer in So bald wie möglich.
 
-Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Verschieben von Aufgaben](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md) (oder bei Verwendung von Adobe Workfront Classic finden Sie unter [Verschieben von Aufgaben](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
 
-Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Kopieren und Duplizieren von Aufgaben](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Weitere Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (bzw. bei Verwendung von Adobe Workfront Classic finden Sie unter [Aufgaben kopieren und duplizieren](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
 
-Eine Übersicht über alle Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Übersicht über Aufgabenbegrenzungen](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Einen Überblick über alle Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Übersicht über Aufgabenbegrenzungen](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
 **In diesen Umgebungen verfügbar:**
 

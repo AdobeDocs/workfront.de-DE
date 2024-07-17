@@ -37,13 +37,13 @@ Sie finden die Risiken für ein Projekt und die potenziellen Kosten in den folge
 
 * Auf der Registerkarte Risiken des Projekts.
 * In der Zusammenfassung der Geschäftsszenarios.\
-   Weitere Informationen zum Geschäftsfall eines Projekts finden Sie im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  Weitere Informationen zum Geschäftsfall eines Projekts finden Sie im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 * In einem Projektbericht, wenn Sie das Feld &quot;Geplante Risikokosten&quot;zu den Spalten des Berichts hinzufügen.\
-   Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Wenn das Portfolio-Optimizer mit einem Portfolio verknüpft ist, in der Spalte &quot;Risiko&quot;.\
-   Die Summe aller potenziellen Risikokosten aller Projekte im Portfolio erhöht das Risiko des Portfolios.\
-   Weitere Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+* Wenn das Portfolio-Optimizer mit einem Portfolio verknüpft ist, in der Spalte Risiko .\
+  Die Summe aller potenziellen Risikokosten aller Projekte im Portfolio erhöht das Risiko des Portfolios.\
+  Weitere Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 Weitere Informationen zum Erstellen von Risiken für ein Projekt finden Sie im Artikel [Erstellen und Bearbeiten von Risiken für Projekte](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
 

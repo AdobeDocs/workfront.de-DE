@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einem [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion] -Lizenz.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
-* [Über die Zuordnung von Dateien in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
-* [Elementdatentypen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
-* [Zuordnen eines Arrays in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
-* [Typenkonvertierung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)
+* [Ordnen Sie Informationen von einem Modul zum anderen in [!DNL Adobe Workfront Fusion] zu.](../../workfront-fusion/mapping/map-information-between-modules.md)
+* [Über die Zuordnung von Dateien in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
+* [Elementdatentypen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+* [Zuordnen eines Arrays in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
+* [Typerzwingung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)

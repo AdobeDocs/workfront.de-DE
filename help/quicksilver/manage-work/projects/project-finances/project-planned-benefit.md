@@ -10,7 +10,7 @@ exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten der Finanzen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten der Finanzen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,18 +57,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Sie können den geplanten Nutzen eines Projekts in den folgenden Bereichen in Workfront anzeigen oder aktualisieren:
 
 * In der Zusammenfassung der Geschäftsszenarios.\
-   Weitere Informationen zum Geschäftsfall eines Projekts finden Sie im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  Weitere Informationen zum Geschäftsfall eines Projekts finden Sie im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 * Wenn Sie in einem Projektbericht die Spalte Geplanter Nutzen zur Ansicht des Berichts hinzufügen.\
-   Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Im Portfolio Optimizer.\
-   Weitere Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Weitere Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Aktualisieren des geplanten Nutzens eines Projekts
 
 1. Gehen Sie zu einem Projekt, für das Sie den geplanten Nutzen aktualisieren möchten.
-1. Klicken **Geschäftsfall** im linken Bereich.
-1. Klicken **Projektinformationen bearbeiten** und geben Sie den geplanten Nutzen im **Geplanter Vorteil** -Feld.
+1. Klicken Sie im linken Bereich auf **Geschäftsszenario** .
+1. Klicken Sie auf **Projektinfo bearbeiten** und geben Sie den geplanten Nutzen im Feld **Geplanter Nutzen** an.
 
 1. Klicken Sie auf **Speichern**.

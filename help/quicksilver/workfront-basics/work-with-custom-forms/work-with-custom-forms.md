@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
+* [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [Informationen in benutzerdefinierten Formularfeldern bearbeiten](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Exportieren benutzerdefinierter Formulare und Objektdetails](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
 * [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt werden](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)

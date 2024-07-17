@@ -16,7 +16,7 @@ ht-degree: 0%
 # Aufheben der Verknüpfung von Problemen mit den aufgelösten Objekten
 
 Wenn Sie ein Projekt oder eine Aufgabe erstellen, indem Sie ein Problem in das Projekt oder die Aufgabe konvertieren, haben Sie die Möglichkeit, das ursprüngliche Problem beizubehalten. Ihr Adobe Workfront-Administrator muss diese Voreinstellung aktivieren, damit Sie diese Option während der Konvertierung des Problems nutzen können.\
-Weitere Informationen zum Konvertieren von Problemen in Projekte und Aufgaben finden Sie unter [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Weitere Informationen zum Konvertieren von Problemen in Projekte und Aufgaben finden Sie unter [Überblick über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 Wenn Sie sich dafür entscheiden, das in das Projekt oder die Aufgabe konvertierte Problem beizubehalten, ist die Lösung des Problems an das Projekt oder die Aufgabe gebunden. Das Problem wird zum auflösbaren Objekt des Projekts oder der Aufgabe. Das Projekt oder die Aufgabe sind die Auflösungsobjekte des Problems.
 
@@ -39,19 +39,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Anforderung oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Zugriff auf Aufgaben und Projekte anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Zugriffsstufe*</td> 
+   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Zugriff auf Aufgaben und Projekte anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen zum Problem verwalten</p> <p>Berechtigungen für die Aufgabe oder das Projekt anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen zum Problem verwalten</p> <p>Berechtigungen für die Aufgabe oder das Projekt anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,12 +61,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Aufheben der Verknüpfung eines Problems mit einem Projekt, einer Aufgabe oder einem Problem
 
 1. Gehen Sie zu dem Problem, das mit einem Projekt, einer Aufgabe oder einem Problem verknüpft ist.
-1. Klicken Sie auf **Problemdetails** Abschnitt.
-1. Navigieren Sie zu **Übersicht** der **Problemdetails** Abschnitt.
-1. Im **Gelöst von** -Feld den auflösbaren Objekttyp entfernen.\
+1. Klicken Sie auf den Abschnitt **Problemdetails** .
+1. Wechseln Sie zum Bereich **Überblick** im Abschnitt **Problemdetails** .
+1. Entfernen Sie im Feld **Aufgelöst von** den auflösbaren Objekttyp.\
    Ein Problem kann durch ein Projekt, eine Aufgabe oder ein Problem behoben werden.
 
    Dadurch wird das aufgelöste Objekt aus dem Problem entfernt.
 
-1. Klicken **Speichern** **Änderungen**.\
+1. Klicken Sie auf **Speichern** **Änderungen**.\
    Das Problem ist nicht mehr mit einem Projekt, einer Aufgabe oder einem Problem verknüpft und Sie können das Problem jetzt unabhängig voneinander lösen.

@@ -28,7 +28,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für ein Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für ein Projekt</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Das tatsächliche Startdatum wird ausgefüllt, wenn die Arbeit tatsächlich mit dem Projekt, der Aufgabe oder dem Problem beginnt.
 * Das tatsächliche Startdatum wird nicht auf der Registerkarte Projektdetails angezeigt, wenn die Arbeit am Projekt noch nicht begonnen hat.
 
-   Das tatsächliche Startdatum wird auf den Registerkarten &quot;Aufgabe&quot;und &quot;Problemdetails&quot;leer angezeigt, wenn die Arbeit noch nicht begonnen hat.
+  Das tatsächliche Startdatum wird auf den Registerkarten &quot;Aufgabe&quot;und &quot;Problemdetails&quot;leer angezeigt, wenn die Arbeit noch nicht begonnen hat.
 
 * Sie können das tatsächliche Startdatum einer Aufgabe oder eines Problems manuell ändern, aber das tatsächliche Startdatum eines Projekts kann nicht geändert werden.
 
@@ -62,15 +62,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Workfront legt automatisch das tatsächliche Datum eines Projekts fest, an dem eines der folgenden Ereignisse eintritt:
 
-   * Ein Aufgabenverantwortlicher ändert den Status einer Aufgabe von *Neu* zu jedem anderen Status hinzu, der nicht *Neu*.
+   * Ein Aufgabenverantwortlicher ändert den Status einer Aufgabe von *Neu* in einen anderen Status, der nicht *Neu* entspricht.
 
    * Ein Aufgabenverantwortlicher ändert den &quot;Percent Complete&quot;einer Aufgabe.
 
-      >[!IMPORTANT]
-      >
-      >Das tatsächliche Projektstartdatum wird nicht angezeigt, wenn das Projekt als &quot;Aktuell&quot;markiert ist. Die tatsächliche Arbeit muss mit den Aufgaben des Projekts beginnen, bevor das tatsächliche Anfangsdatum des Projekts eingetragen wird.
+     >[!IMPORTANT]
+     >
+     >Das tatsächliche Projektstartdatum wird nicht angezeigt, wenn das Projekt als &quot;Aktuell&quot;markiert ist. Die tatsächliche Arbeit muss mit den Aufgaben des Projekts beginnen, bevor das tatsächliche Anfangsdatum des Projekts eingetragen wird.
 
-      In diesen Fällen wird das tatsächliche Anfangsdatum des Projekts auf das Datum und die Uhrzeit festgelegt, zu der diese Aktionen für die früheste Aufgabe des Projekts durchgeführt wurden. Dies bedeutet, dass das Projekt an diesem Datum und zu dieser Uhrzeit tatsächlich gestartet wurde.
+     In diesen Fällen wird das tatsächliche Anfangsdatum des Projekts auf das Datum und die Uhrzeit festgelegt, zu der diese Aktionen für die früheste Aufgabe des Projekts durchgeführt wurden. Dies bedeutet, dass das Projekt an diesem Datum und zu dieser Uhrzeit tatsächlich gestartet wurde.
 
 ## Tatsächliches Projektstartdatum ermitteln
 
@@ -79,13 +79,13 @@ Sie können das tatsächliche Startdatum eines Projekts in den folgenden Bereich
 * Im Bereich Details eines Projekts.
 * Wenn Sie in einem Projektbericht oder einer Ansicht das tatsächliche Startdatum für das Objektprojekt zum Bericht hinzufügen.
 
-   Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 So suchen Sie das tatsächliche Startdatum im Abschnitt Details des Projekts:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Projekte**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Workfront und klicken Sie dann auf **Projekte**.![](assets/main-menu-icon.png)
 1. Klicken Sie auf das Projekt, für das Sie das tatsächliche Startdatum anzeigen möchten.
-1. Klicken **Projektdetails** Navigieren Sie im linken Bereich zu **Übersicht** Abschnitt.
+1. Klicken Sie im linken Bereich auf **Projektdetails** und gehen Sie dann zum Abschnitt **Überblick** .
 
    Das tatsächliche Startdatum wird zusammen mit anderen Projektdaten angezeigt.
 

@@ -20,8 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Erstellen eines statischen Website-Testversands mit [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
+* [Erstellen eines statischen Website-Testversands mit  [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)

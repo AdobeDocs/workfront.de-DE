@@ -8,20 +8,20 @@ feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 0%
 
 ---
 
-# Informationen in der Aufgabenliste aktualisieren [!UICONTROL Gantt-Diagramm]
+# Informationen in der Aufgabenliste [!UICONTROL Gantt-Diagramm] aktualisieren
 
-Aufgabenliste [!UICONTROL Gantt-Diagramm] zeigt Details zu Aufgaben an, die sich auf ein Projekt oder eine Vorlage beziehen.
+Die Aufgabenliste [!UICONTROL Gantt-Diagramm] enthält Details zu Aufgaben, die sich auf ein Projekt oder eine Vorlage beziehen.
 
-In einer Vorlage die Aufgabenliste [!UICONTROL Gantt-Diagramm] spiegelt Aktualisierungen wider, die auf Aufgabenebene in der Aufgabenliste der Vorlage vorgenommen wurden. Sie können die [!UICONTROL Gantt-Diagramm] mit einer Vorlage verknüpft ist.
+In einer Vorlage spiegelt die Aufgabenliste [!UICONTROL Gantt-Diagramm] die in der Aufgabenliste der Vorlage auf Aufgabenebene vorgenommenen Aktualisierungen wider. Das mit einer Vorlage verknüpfte [!UICONTROL Gantt-Diagramm] kann nicht bearbeitet werden.
 
-In einem Projekt können Sie Aufgabeninformationen direkt in der Aufgabenliste aktualisieren [!UICONTROL Gantt-Diagramm].
+In einem Projekt können Sie Aufgabeninformationen direkt in der Aufgabenliste [!UICONTROL Gantt-Diagramm] aktualisieren.
 
-In diesem Artikel werden die folgenden Aktionen beschrieben, die Sie direkt in der Aufgabenliste ausführen können [!UICONTROL Gantt-Diagramm]:
+In diesem Artikel werden die folgenden Aktionen beschrieben, die Sie direkt in der Aufgabenliste [!UICONTROL Gantt-Diagramm] ausführen können:
 
 * Ändern der Aufgabendauer
 * Erstellen oder Entfernen von Vorgängerbeziehungen
@@ -38,8 +38,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -47,37 +47,37 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL Zugriff auf Projekte und Aufgaben bearbeiten</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Zugriff auf Projekte und Aufgaben bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL] Zugriff auf das Projekt und die Aufgaben verwalten </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>[!UICONTROL] Zugriff auf das Projekt und die Aufgaben verwalten </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Ändern der Aufgabendauer
 
 1. Wechseln Sie zu dem Projekt, das Sie ändern möchten.
-1. Klicken **[!UICONTROL Aufgaben]** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Aufgaben]** .
 
    ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
-1. Klicken Sie auf **[!UICONTROL Gantt-Diagramm]** Symbol.
+1. Klicken Sie auf das Symbol **[!UICONTROL Gantt chart]** .
 
-   ![Klicken Sie auf das Symbol &quot;Gantt-Diagramm&quot;](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Gantt-Diagramm-Symbol](assets/click-gantt-chart-icon.png)
 
-   Alle Änderungen werden automatisch gespeichert, wenn die Variable **[!UICONTROL Automatische Speicherung]** aktiviert ist. Sie ist standardmäßig aktiviert.
+   Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Autosave]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Planmodus]** Symbol und wählen Sie **[!UICONTROL Manuelles Speichern Standard]** oder **[!UICONTROL Timeline-Planung]** , um Ihre Änderungen manuell zu speichern.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline-Planung]** aus, um Ihre Änderungen manuell zu speichern.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Bewegen Sie den Mauszeiger über die Zeitleiste einer Aufgabe und ziehen Sie die Zeitleistenanzeige an ein anderes Datum.
 1. Legen Sie den Indikator ab, wenn Sie das richtige neue Abschlussdatum für die Aufgabe erreicht haben.
-1. (Optional und bedingt) Wenn Sie ausgewählt haben, Ihre Änderungen manuell zu speichern, klicken Sie auf die Schaltfläche **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** -Symbole, wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
+1. (Optional und bedingt) Wenn Sie ausgewählt haben, Ihre Änderungen manuell zu speichern, klicken Sie auf die Symbole **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** , wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
 
    >[!TIP]
    >
@@ -85,31 +85,31 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
    >
    >   
    >   
-   >   * [!DNL Mac]: Verwendung [!UICONTROL Befehl + Z] zum Rückgängigmachen und [!UICONTROL Befehl + Umschalt + Z] zurück.
-   >   * [!DNL Windows]: Verwendung [!UICONTROL Strg + Z] zum Rückgängigmachen und [!UICONTROL Strg + Y] zurück.
+   >   * [!DNL Mac]: Verwenden Sie [!UICONTROL Befehl + Z], um das Rückgängigmachen rückgängig zu machen, und [!UICONTROL Befehl + Umschalt + Z], um es erneut auszuführen.
+   >   * [!DNL Windows]: Verwenden Sie [!UICONTROL Strg + Z], um das Rückgängigmachen rückgängig zu machen, und [!UICONTROL Strg + Y], um es erneut durchzuführen.
    >   
    >
 
-1. Klicken **[!UICONTROL Speichern]** in der oberen rechten Ecke des [!UICONTROL Gantt-Diagramm].
+1. Klicken Sie oben rechts im [!UICONTROL Gantt-Diagramm] auf **[!UICONTROL Speichern]**.
 
 ## Erstellen oder Entfernen von Vorgängerbeziehungen
 
 1. Wechseln Sie zu dem Projekt, das Sie ändern möchten.
-1. Im **[!UICONTROL Aufgaben]** Bereich, klicken Sie auf **[!UICONTROL Gantt-Diagramm]** Symbol.
+1. Klicken Sie im Bereich **[!UICONTROL Aufgaben]** auf das Symbol **[!UICONTROL Gantt-Diagramm]**.
 
-   Die **[!UICONTROL Automatische Speicherung]** standardmäßig aktiviert ist, werden alle Änderungen automatisch gespeichert.
+   Die Option **[!UICONTROL Automatisches Speichern]** ist standardmäßig ausgewählt. In diesem Fall werden alle Änderungen automatisch gespeichert.
 
-   ![Klicken Sie auf das Symbol &quot;Gantt-Diagramm&quot;](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Gantt-Diagramm-Symbol](assets/click-gantt-chart-icon.png)
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Planmodus]** Symbol und wählen Sie **[!UICONTROL Manuelles Speichern Standard]** oder **[!UICONTROL Timeline-Planung]** , um Ihre Änderungen manuell zu speichern.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline-Planung]** aus, um Ihre Änderungen manuell zu speichern.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Um eine Vorgängerbeziehung zu erstellen, klicken Sie auf den Startpunkt einer Aufgabe und ziehen Sie sie an den Endpunkt der Aufgabe.
-1. Um eine Vorgängerbeziehung zu löschen, klicken Sie auf eine Vorgängerzeile, die zwei Aufgaben miteinander verbindet, um sie auszuwählen, und drücken Sie dann die Eingabetaste **[!UICONTROL Löschen]** auf Ihrer Tastatur.\
+1. Um eine Vorgängerbeziehung zu löschen, klicken Sie auf eine Vorgängerzeile, die zwei Aufgaben miteinander verbindet, um sie auszuwählen, und drücken Sie dann **[!UICONTROL Löschen]** auf Ihrer Tastatur.\
    ![Delete_predecessor.png](assets/delete-predecessor-350x152.png)
 
-1. (Optional und bedingt) Wenn Sie ausgewählt haben, um Ihre Änderungen manuell zu speichern, klicken Sie auf die **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** -Symbole, wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
+1. (Optional und bedingt) Wenn Sie Ihre Änderungen manuell speichern möchten, klicken Sie auf die Symbole **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** , wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
 
    >[!TIP]
    >
@@ -117,8 +117,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
    >
    >   
    >   
-   >   * [!DNL Mac]: Verwendung [!UICONTROL Befehl + Z] zum Rückgängigmachen und [!UICONTROL Befehl + Umschalt + Z] zurück.
-   >   * [!DNL Windows]: [!UICONTROL Strg + Z verwenden] zum Rückgängigmachen und [!UICONTROL Strg + Y] zurück.
+   >   * [!DNL Mac]: Verwenden Sie [!UICONTROL Befehl + Z], um das Rückgängigmachen rückgängig zu machen, und [!UICONTROL Befehl + Umschalt + Z], um es erneut auszuführen.
+   >   * [!DNL Windows]: [!UICONTROL Verwenden Sie Strg + Z], um das Rückgängigmachen rückgängig zu machen, und [!UICONTROL Strg + Y], um es wiederherzustellen.
    >   
    >
 
@@ -127,13 +127,13 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 ## Beginn und Ende von Aufgaben ändern
 
 1. Wechseln Sie zu dem Projekt, das Sie ändern möchten.
-1. Im **[!UICONTROL Aufgaben]** Bereich, klicken Sie auf **[!UICONTROL Gantt-Diagramm]** Symbol.
+1. Klicken Sie im Bereich **[!UICONTROL Aufgaben]** auf das Symbol **[!UICONTROL Gantt-Diagramm]**.
 
-   Alle Änderungen werden automatisch gespeichert, wenn die Variable **[!UICONTROL Automatische Speicherung]** aktiviert ist. Sie ist standardmäßig aktiviert.
+   Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Autosave]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
-   ![Klicken Sie auf das Symbol &quot;Gantt-Diagramm&quot;](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Gantt-Diagramm-Symbol](assets/click-gantt-chart-icon.png)
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Planmodus]** Symbol und wählen Sie **[!UICONTROL Manuelles Speichern Standard]** oder **[!UICONTROL Timeline-Planung]** , um Ihre Änderungen manuell zu speichern.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline-Planung]** aus, um Ihre Änderungen manuell zu speichern.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -142,32 +142,32 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
    ![Change_start_end_date.png](assets/change-start-end-date.png)
 
-1. Wenn Sie das Aufgabendatum in einer Weise ändern, die sich auf die Aufgabenbegrenzung auswirkt, klicken Sie auf **[!UICONTROL Accept]** um die Änderung der Aufgabenbegrenzung zu bestätigen.
+1. Wenn Sie das Aufgabendatum in einer Weise ändern, die sich auf die Aufgabenbegrenzung auswirkt, klicken Sie auf **[!UICONTROL Annehmen]** , um die Änderung der Aufgabenbegrenzung zu bestätigen.
 
    >[!NOTE]
    >
-   >Wenn die Aufgabe eine der folgenden Einschränkungen aufweist, aktualisiert das System die [!UICONTROL Aufgabenbegrenzung] nach [!UICONTROL Anfang 2007] Ist der Fall, wenn das Projekt von der [!UICONTROL Startdatum] oder [!UICONTROL Finish No Later Than] , wenn das Projekt über die [!UICONTROL Abschlussdatum]:
+   >Wenn die Aufgabe eine der folgenden Einschränkungen aufweist, aktualisiert das System die [!UICONTROL Aufgabenbegrenzung] auf [!UICONTROL Anfang Nr. früher] als , wenn das Projekt vom [!UICONTROL Startdatum] geplant ist, oder auf [!UICONTROL Beenden nicht später als], wenn das Projekt ab dem [!UICONTROL Abschlussdatum] geplant ist:
    >
    >   
    >   
-   >   * [!UICONTROL So bald wie möglich (SBWM)]
-   >   * [!UICONTROL So spät wie möglich (SSWM)]
-   >   * [!UICONTROL Frühestmögliche Zeit]
-   >   * [!UICONTROL Spätestmögliche Zeit]
+   >   * [!UICONTROL Sobald wie möglich]
+   >   * [!UICONTROL So spät wie möglich]
+   >   * [!UICONTROL früheste verfügbare Zeit]
+   >   * [!UICONTROL Neueste verfügbare Zeit]
    >   
    >   
    >In einigen Fällen können die Vorgängerbeziehungen verhindern, dass die Aufgaben früher gestartet werden, und die Verschiebung der Aufgabe ist nicht zulässig.
 
-1. (Optional und bedingt) Wenn Sie ausgewählt haben, Ihre Änderungen manuell zu speichern, klicken Sie auf die Schaltfläche **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** -Symbole, wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
+1. (Optional und bedingt) Wenn Sie ausgewählt haben, Ihre Änderungen manuell zu speichern, klicken Sie auf die Symbole **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** , wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
 
    >[!TIP]
    >
-   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen an der [!UICONTROL Gantt-Diagramm]:
+   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen am [!UICONTROL Gantt-Diagramm] rückgängig zu machen oder wiederherzustellen:
    >
    >   
    >   
-   >   * [!DNL Mac]: Verwendung [!UICONTROL Befehl + Z] zum Rückgängigmachen und [!UICONTROL Befehl + Umschalt + Z] zurück.
-   >   * [!DNL Windows]: Verwendung [!UICONTROL Strg + Z] zum Rückgängigmachen und [!UICONTROL Strg + Y] zurück.
+   >   * [!DNL Mac]: Verwenden Sie [!UICONTROL Befehl + Z], um das Rückgängigmachen rückgängig zu machen, und [!UICONTROL Befehl + Umschalt + Z], um es erneut auszuführen.
+   >   * [!DNL Windows]: Verwenden Sie [!UICONTROL Strg + Z], um das Rückgängigmachen rückgängig zu machen, und [!UICONTROL Strg + Y], um es erneut durchzuführen.
    >   
    >
 
@@ -176,43 +176,43 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 ## Prozentsatz aktualisieren abgeschlossen
 
 1. Wechseln Sie zu dem Projekt, das Sie ändern möchten.
-1. Im **[!UICONTROL Aufgaben]** Bereich, klicken Sie auf **[!UICONTROL Gantt-Diagramm]** Symbol.
+1. Klicken Sie im Bereich **[!UICONTROL Aufgaben]** auf das Symbol **[!UICONTROL Gantt-Diagramm]**.
 
-   ![Klicken Sie auf das Symbol &quot;Gantt-Diagramm&quot;](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Gantt-Diagramm-Symbol](assets/click-gantt-chart-icon.png)
 
-   Alle Änderungen werden automatisch gespeichert, wenn die Variable **[!UICONTROL Automatische Speicherung]** aktiviert ist. Sie ist standardmäßig aktiviert.
+   Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Autosave]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Planmodus]** Symbol und wählen Sie **[!UICONTROL Manuelles Speichern Standard]** oder **[!UICONTROL Timeline-Planung]** , um Ihre Änderungen manuell zu speichern.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline-Planung]** aus, um Ihre Änderungen manuell zu speichern.
 1. Doppelklicken Sie auf die Prozentzahl innerhalb der Aufgabe und geben Sie die Nummer ein.
 
    >[!IMPORTANT]
    >
-   >Sie müssen [!UICONTROL % Complete] in der [!UICONTROL Optionen] angezeigt, um den Prozentsatz des Abschlusses zu aktualisieren. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Optionen]** Symbol und wählen Sie **[!UICONTROL % Complete]**.
+   >Sie müssen [!UICONTROL % Complete] im Dialogfeld [!UICONTROL Options] ausgewählt haben, um den Prozentsatz abzuschließen. Klicken Sie dazu auf das Symbol **[!UICONTROL Optionen]** und wählen Sie **[!UICONTROL % Complete]** aus.
    >
    >
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
    >
 
-1. (Optional und bedingt) Wenn Sie ausgewählt haben, um Ihre Änderungen manuell zu speichern, klicken Sie auf die **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** -Symbole, wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
+1. (Optional und bedingt) Wenn Sie Ihre Änderungen manuell speichern möchten, klicken Sie auf die Symbole **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** , wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
 
    >[!TIP]
    >
-   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen an der [!UICONTROL Gantt-Diagramm]:
+   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen am [!UICONTROL Gantt-Diagramm] rückgängig zu machen oder wiederherzustellen:
    >
    >   
    >   
-   >   * [!DNL Mac]: Verwendung [!UICONTROL Befehl + Z] zum Rückgängigmachen und [!UICONTROL Befehl + Umschalt + Z] zurück.
-   >   * [!DNL Windows]: Verwendung [!UICONTROL Strg + Z] zum Rückgängigmachen und [!UICONTROL Strg + Y] zurück.
+   >   * [!DNL Mac]: Verwenden Sie [!UICONTROL Befehl + Z], um das Rückgängigmachen rückgängig zu machen, und [!UICONTROL Befehl + Umschalt + Z], um es erneut auszuführen.
+   >   * [!DNL Windows]: Verwenden Sie [!UICONTROL Strg + Z], um das Rückgängigmachen rückgängig zu machen, und [!UICONTROL Strg + Y], um es erneut durchzuführen.
    >   
    >
 
-1. Klicken **[!UICONTROL Speichern]** in der oberen rechten Ecke des [!UICONTROL Gantt-Diagramm].
+1. Klicken Sie oben rechts im [!UICONTROL Gantt-Diagramm] auf **[!UICONTROL Speichern]**.
 
 ## Level-Projektressourcen
 
-Sie können die Aufgabenliste verwenden [!UICONTROL Gantt-Diagramm] , um Ressourcen zu sammeln.
+Sie können die Aufgabenliste [!UICONTROL Gantt-Diagramm] verwenden, um Ihre Ressourcen zu unterteilen.
 
-Informationen zur Ressourcenebene finden Sie im Abschnitt [!UICONTROL Gantt-Diagramm], siehe [Level-Ressourcen in [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
+Informationen zum Leveln von Ressourcen im [!UICONTROL Gantt-Diagramm] finden Sie unter [Level-Ressourcen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

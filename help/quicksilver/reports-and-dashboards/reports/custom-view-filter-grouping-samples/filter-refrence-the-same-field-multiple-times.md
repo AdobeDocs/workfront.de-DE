@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: mehrere Filterregeln erstellen, die auf dasselbe Feld verweisen ('AND'-Anweisungen)"
+title: "Filter: Erstellen Sie mehrere Filterregeln, die auf dasselbe Feld verweisen ('AND'-Anweisungen)"
 description: Wenn Sie in der Benutzeroberfläche des Standardmodus versuchen, mehrere Filter zu erstellen, die auf dasselbe Feld verweisen (mithilfe des AND-Qualifizierers), wird einer der Filter beim Speichern des Berichts und Beenden des ReportBuilder gelöscht.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Filter: mehrere Filterregeln erstellen, die auf dasselbe Feld verweisen (&quot;AND&quot;-Anweisungen)
+# Filter: Erstellen Sie mehrere Filterregeln, die auf dasselbe Feld verweisen (&quot;AND&quot;-Anweisungen)
 
 Wenn Sie in der Benutzeroberfläche des Standardmodus versuchen, mehrere Filter zu erstellen, die auf dasselbe Feld verweisen (mithilfe des AND-Qualifizierers), wird einer der Filter beim Speichern des Berichts und Beenden des ReportBuilder gelöscht.
 
-**Beispiel:** Möglicherweise möchten Sie nur Aufgaben anzeigen, die das Wort &quot;grün&quot;enthalten, im Namen jedoch nicht das Wort &quot;rot&quot;enthalten. Adobe Workfront ermöglicht es Ihnen nicht, die folgenden Filterregeln mithilfe der Benutzeroberfläche des Standardmodus zu speichern, da sie dasselbe Feld (Aufgabenname) referenziert, aber unterschiedliche Modifikatoren verwendet und sich auf unterschiedliche Werte bezieht:
+**Beispiel:** Möglicherweise möchten Sie nur Aufgaben anzeigen, die das Wort &quot;grün&quot;enthalten, jedoch nicht das Wort &quot;rot&quot;im Namen enthalten. Adobe Workfront ermöglicht es Ihnen nicht, die folgenden Filterregeln mithilfe der Benutzeroberfläche des Standardmodus zu speichern, da sie dasselbe Feld (Aufgabenname) referenziert, aber unterschiedliche Modifikatoren verwendet und sich auf unterschiedliche Werte bezieht:
 
 * Aufgabenname > Enthält > Grün
 * Aufgabenname > enthält nicht > Rot
@@ -35,11 +35,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Filteränderung anfordern </p>
+   <td> <p>Filteranforderung </p>
    <p>Berichtänderung planen</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,8 +60,8 @@ Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, 
 ## Mehrere Filterregeln erstellen, die auf dasselbe Feld verweisen
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Filter** Dropdown-Menü auswählen **Neuer Filter**.
-1. Klicken **In den Textmodus wechseln**.
+1. Wählen Sie aus dem Dropdownmenü **Filter** die Option **Neuer Filter** aus.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
 1. Fügen Sie im Bereich Filterregeln für Ihren Bericht festlegen den folgenden Code hinzu:
 
@@ -76,19 +76,17 @@ Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, 
    >
    >Um ähnliche Filter zu erstellen, erstellen Sie zuerst die erste Anweisung. Beispiel:
    >
-   >
-   ```
+   >```
    >name=green
    >name_Mod=cicontains
    >```
    >
    >Kopieren Sie die Anweisung und fügen Sie sie beliebig oft ein. Anschließend können Sie so viele Anweisungen hinzufügen, wie Sie benötigen, um auf dasselbe Feld zu verweisen (in unserem Fall &quot;name&quot;), und die folgenden Änderungen an den zusätzlichen Anweisungen vornehmen:
    >
-   >1. Stellen Sie den beiden kopierten Zeilen den Vorrang vor &quot;AND&quot;.:1:&quot;, &quot;AND:2:&quot;, &quot;AND:3:&quot;, etc für jeden neuen Feld möglichen Wert.
+   >1. Stellen Sie den beiden kopierten Zeilen &quot;AND:1:&quot;, &quot;AND:2:&quot;, &quot;AND:3:&quot; usw. für jeden neuen Feld möglichen Wert voran.
    >1. Ersetzen Sie die Feldzeile durch den neuen Feldwert (nach dem Zeichen &quot;=&quot;).
    >1. Ersetzen Sie die Modifikatorzeile (_Mod) durch den neuen Modifikator.
-
    >   
    >Bei diesen Anweisungen wird zwischen Groß- und Kleinschreibung unterschieden.
 
-1. Klicken **Fertig**, dann **Filter speichern**.
+1. Klicken Sie auf **Fertig** und dann auf **Filter speichern**.

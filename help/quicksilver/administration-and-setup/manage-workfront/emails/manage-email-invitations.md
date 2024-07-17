@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als Adobe Workfront-Administrator können Sie Workfront mithilfe von E-Mail-Einladungen Benutzer hinzufügen und diese über das Hinzufügen benachrichtigen.
 
@@ -40,7 +40,7 @@ Sie können die neuen Benutzer-E-Mails für Folgendes konfigurieren:
 
 Alle neuen Benutzer sehen dieselbe E-Mail, wenn eine Einladung in eine E-Mail gesendet wird.
 
-Informationen zum Empfang von E-Mail-Einladungen finden Sie unter [E-Mail-Einladungen empfangen und ein Kennwort für Adobe Workfront erstellen](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
+Informationen zum Empfangen von E-Mail-Einladungen finden Sie unter [Empfangen von E-Mail-Einladungen und Erstellen eines Kennworts für Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
 ## Zugriffsanforderungen
 
@@ -69,23 +69,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 E-Mail-Einladungen werden in den folgenden Szenarien generiert:
 
-* Wenn Sie einen neuen Benutzer erstellen und die **Eine Einladungs-E-Mail an diese Person senden** auf **Neuer Benutzer** Formular. Weitere Informationen zum Erstellen neuer Benutzer finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-* Wenn Sie mehrere neue Benutzer importieren, wählen Sie die **Einladungs-E-Mails an diese Personen senden** -Option. Weitere Informationen zum Importieren mehrerer neuer Benutzer finden Sie unter [Benutzer importieren](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* Wenn Sie einen neuen Benutzer erstellen und im Formular **Neuer Benutzer** die Option **Einladungs-E-Mail an diese Person senden** auswählen. Weitere Informationen zum Erstellen neuer Benutzer finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* Wenn Sie mehrere neue Benutzer importieren und die Option **Einladungs-E-Mails an diese Personen senden** auswählen. Weitere Informationen zum Importieren mehrerer neuer Benutzer finden Sie unter [Benutzer importieren](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 * Nachdem die Benutzer erstellt wurden, können Sie die Einladungen manuell für Benutzer generieren, die ihr Konto noch nicht bei Workfront registriert haben und noch kein Workfront-Kennwort festgelegt haben.\
-  Benutzer, die ein Konto erstellt, aber noch kein Konto registriert haben, werden als **Nicht registriert** in Workfront.
+  Benutzer, die ein Konto erstellt, aber noch kein Konto registriert haben, werden in Workfront als **Abgemeldet** markiert.
 
   >[!NOTE]
   >
-  >Wenn Sie die **Diese Person per E-Mail einladen** Wenn Sie den Benutzer erstellen, kann die E-Mail-Einladung nicht manuell generiert werden. Das manuelle Zurücksetzen der E-Mail-Einladungen ist nur für Benutzer möglich, die zum Zeitpunkt der Kontoerstellung die ursprüngliche E-Mail-Einladung erhalten haben. Weitere Informationen zum Erstellen neuer Benutzer finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  >Wenn Sie bei der Erstellung des Benutzers das Feld **E-Mail-Einladung an diese Person senden** deaktivieren, kann die E-Mail-Einladung nicht manuell generiert werden. Das manuelle Zurücksetzen der E-Mail-Einladungen ist nur für Benutzer möglich, die zum Zeitpunkt der Kontoerstellung die ursprüngliche E-Mail-Einladung erhalten haben. Weitere Informationen zum Erstellen neuer Benutzer finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 So generieren Sie manuell E-Mail-Einladungen für bestehende nicht registrierte Benutzer:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
-1. Wählen Sie den Benutzer aus, der die **Nicht registriert** nach ihrem Namen.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
+1. Wählen Sie den Benutzer aus, der die Bezeichnung **Unregistered** nach seinem Namen anzeigt.
 
    ![](assets/unreg-user-qs-350x221.png)
 
-1. Klicken Sie auf das Symbol Mehr . ![](assets/more-icon.png)Klicken Sie auf **Benutzer zur Registrierung erinnern**.
+1. Klicken Sie auf das Symbol &quot;Mehr&quot;![](assets/more-icon.png) und dann auf **Benutzer zur Registrierung erinnern**.
 
    Dem neuen Benutzer wird eine E-Mail-Einladung mit einem neuen Link gesendet, den er zum Erstellen seines Workfront-Kennworts verwenden kann.
 
@@ -101,30 +101,30 @@ So generieren Sie manuell E-Mail-Einladungen für bestehende nicht registrierte 
 
 Als Workfront-Administrator können Sie die Nachricht konfigurieren, die Sie in die E-Mail-Einladungen für neue Benutzer einfügen.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken Sie links in der Liste auf **Email** > **Einladungen**.
+1. Klicken Sie links in der Liste auf **E-Mail** > **Einladungen**.
 
-1. Im **Allgemeine Optionen** -Abschnitt eine der folgenden Änderungen vornehmen:
+1. Nehmen Sie im Abschnitt **Allgemeine Optionen** eine der folgenden Änderungen vor:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Einladungs-Links nach ... Tagen deaktivieren</strong> </td> 
+      <td role="rowheader"><strong>Deaktivieren von Einladungs-Links nach ... Tagen</strong> </td> 
       <td> <p>Wählen Sie die Zeitspanne aus, nach der die E-Mail-Einladungen keinen gültigen Link mehr zu Workfront enthalten. Der Standardzeitraum beträgt 45 Tage.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Nachricht und/oder Dienstzeit einschließen</strong> </td> 
+      <td role="rowheader"><strong>Eine Meldung und/oder eine Dienstdauer einschließen</strong> </td> 
       <td> <p>Wählen Sie diese Option aus, wenn Sie die Einladung für alle neuen Benutzer ändern möchten, die zu Workfront hinzugefügt wurden. Benutzer mit einer Requestor-Lizenz sind hiervon nicht betroffen.</p> 
        <ul> 
-        <li><strong>Nachricht</strong>: Wenn Sie die E-Mail-Einladung für alle neuen Benutzer ändern möchten, geben Sie den Text an, den Sie in Ihre E-Mail-Einladungen aufnehmen möchten.</li> 
-        <li><strong>Geschäftsbedingungen</strong>: Wenn Sie die E-Mail-Einladung für alle neuen Benutzer ändern möchten, geben Sie den Text, den Sie in Ihre E-Mail-Einladungen aufnehmen möchten, als Nutzungsbedingungen an.<br></li> 
-        <li><strong>Meldung und/oder Dienstdauer für Helpdesk-Benutzer einschließen</strong>: Wählen Sie diese Option aus, wenn Sie die Einladung in die E-Mail für alle neuen Benutzer ändern möchten, die zu Workfront hinzugefügt wurden und über eine Requestor-Lizenz verfügen.</li> 
-        <li><strong>Nachricht</strong>: Wenn Sie die Änderung der E-Mail-Einladung für alle neuen Benutzer mit einer Requestor-Lizenz auswählen, geben Sie den Text an, den Sie als E-Mail-Textkörper in Ihre E-Mail-Einladungen aufnehmen möchten.</li> 
-        <li><strong>Geschäftsbedingungen</strong>: Wenn Sie die Änderung der Einladung in die E-Mail für alle neuen Benutzer mit einer Requestor-Lizenz auswählen, geben Sie den Text an, den Sie in Ihre E-Mail-Einladungen aufnehmen möchten.<br></li> 
-        <li> <p>Im <strong>Einladungsvorschau</strong> angezeigt, können Sie eine Vorschau Ihrer Einladung in eine E-Mail anzeigen. Wenn Sie sich dafür entschieden haben, eine benutzerdefinierte Nachricht in Ihre E-Mail-Einladung aufzunehmen, wird die angepasste Nachricht in diesem Bereich angezeigt.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
+        <li><strong>Nachricht</strong>: Wenn Sie die Einladung in die E-Mail für alle neuen Benutzer ändern möchten, geben Sie den Text an, den Sie in Ihre E-Mail-Einladungen aufnehmen möchten.</li> 
+        <li><strong>Nutzungsbedingungen</strong>: Wenn Sie die Einladung in die E-Mail für alle neuen Benutzer ändern möchten, geben Sie den Text an, den Sie in Ihre E-Mail-Einladungen aufnehmen möchten.<br></li> 
+        <li><strong>Nachricht und/oder Dienstdauer für Helpdesk-Benutzer einschließen</strong>: Wählen Sie diese Option aus, wenn Sie die Einladung für alle neuen Benutzer ändern möchten, die zu Workfront hinzugefügt wurden und über eine Requestor-Lizenz verfügen.</li> 
+        <li><strong>Nachricht</strong>: Wenn Sie die Einladung in die E-Mail für alle neuen Benutzer mit der Lizenz "Anforderer"ändern möchten, geben Sie den Text an, den Sie in Ihre E-Mail-Einladungen aufnehmen möchten.</li> 
+        <li><strong>Nutzungsbedingungen</strong>: Wenn Sie die E-Mail-Einladung für alle neuen Benutzer mit der Lizenz "Antragsteller"ändern möchten, geben Sie den Text an, den Sie in Ihre E-Mail-Einladungen aufnehmen möchten.<br></li> 
+        <li> <p>Im Abschnitt <strong>Einladungsvorschau</strong> können Sie eine Vorschau Ihrer E-Mail-Einladung anzeigen. Wenn Sie sich dafür entschieden haben, eine benutzerdefinierte Nachricht in Ihre E-Mail-Einladung aufzunehmen, wird die angepasste Nachricht in diesem Bereich angezeigt.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

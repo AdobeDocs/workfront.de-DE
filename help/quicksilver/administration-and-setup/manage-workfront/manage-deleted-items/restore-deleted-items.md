@@ -59,7 +59,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan oder welchen Lizenztyp Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
 
 +++
 
@@ -97,7 +97,7 @@ Wenn Sie ein Projekt, eine Aufgabe oder ein Problem wiederherstellen, werden die
 
 * Stunden (und Stunden-IDs)
 
-  Ob Stunden für das gelöschte Element wiederhergestellt werden, hängt von den Einstellungen ab, die Sie beim Konfigurieren der Voreinstellungen für Zeitpläne und Stunden ausgewählt haben. Weitere Informationen finden Sie unter [Konfigurieren der Auswirkungen auf die Stunden, in denen ein Objekt gelöscht und wiederhergestellt wird](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+  Ob Stunden für das gelöschte Element wiederhergestellt werden, hängt von den Einstellungen ab, die Sie beim Konfigurieren der Voreinstellungen für Zeitpläne und Stunden ausgewählt haben. Weitere Informationen finden Sie unter [Auswirkungen der Konfiguration auf Stunden beim Löschen und Wiederherstellen eines Objekts konfigurieren](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
 * Die URL des Elements
 
@@ -131,20 +131,20 @@ Wenn Sie ein Projekt, eine Aufgabe oder ein Problem wiederherstellen, werden die
 
 * Objekte auflösen
 
-  Ein aufgelöstes Objekt ist ein konvertiertes Problem, das mit der Option konfiguriert wurde **Behalten Sie das ursprüngliche Problem bei und binden Sie seine Lösung an dieses Problem** &lt;**Projekt** oder **task)**>. Wenn Sie das übergeordnete Projekt oder die übergeordnete Aufgabe löschen, wird das Problem nicht mehr als aufgelöstes Objekt identifiziert, da keine Verknüpfung mehr mit dem Projekt oder der Aufgabe besteht. Wenn Sie das übergeordnete Element wiederherstellen, wird der Link nicht wiederhergestellt.
+  Ein aufgelöstes Objekt ist ein konvertiertes Problem, das mit der Option &quot;**Das ursprüngliche Problem beibehalten&quot;konfiguriert wurde und dessen Auflösung mit diesem &quot;** &lt;**Projekt**&quot; oder &quot;**Aufgabe)**&quot; verknüpft ist. Wenn Sie das übergeordnete Projekt oder die übergeordnete Aufgabe löschen, wird das Problem nicht mehr als aufgelöstes Objekt identifiziert, da keine Verknüpfung mehr mit dem Projekt oder der Aufgabe besteht. Wenn Sie das übergeordnete Element wiederherstellen, wird der Link nicht wiederhergestellt.
 
-  Weitere Informationen dazu, wie ein Workfront-Administrator oder Gruppenadministrator Probleme so konfiguriert, dass sie bei der Konvertierung mit dem aufgelösten Objekt übereinstimmen, finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) und [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Weitere Informationen dazu, wie ein Workfront-Administrator oder Gruppenadministrator Probleme so konfiguriert, dass sie bei der Konvertierung mit dem aufgelösten Objekt übereinstimmen, finden Sie unter [Systemweite Aufgaben und Ausgabevoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) und [Konfigurieren von Aufgaben und Ausgabevoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-  Weitere Informationen zu Konvertierungsproblemen finden Sie unter [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+  Weitere Informationen zu Konvertierungsproblemen finden Sie unter [Überblick über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Elemente wiederherstellen
 
 {{step-1-to-setup}}
 
-1. Klicks **Papierkorb** > **Kürzlich gelöscht**.
-1. Klicken Sie auf **Projekte**, **Aufgaben**, **Probleme**, **Vorlagen** oder **Dokumente** -Tab, abhängig vom Elementtyp, den Sie wiederherstellen möchten.
+1. Klicken Sie auf **Papierkorb wiederverwenden** > **Kürzlich gelöscht**.
+1. Klicken Sie je nach Elementtyp auf die Registerkarte **Projekte**, **Aufgaben**, **Probleme**, **Vorlagen** oder **Dokumente**.
 
-   Elemente werden nach **Löschdatum** -Spalte standardmäßig aus.
+   Elemente werden standardmäßig nach der Spalte **Löschdatum** sortiert.
 
 1. Wählen Sie bis zu 10 Elemente aus, die Sie wiederherstellen möchten.
 
@@ -152,10 +152,10 @@ Wenn Sie ein Projekt, eine Aufgabe oder ein Problem wiederherstellen, werden die
 
    Wenn Sie eine übergeordnete Aufgabe löschen, wird nur die übergeordnete Aufgabe in der Liste angezeigt. Alle untergeordneten Aufgaben werden jedoch wiederhergestellt, wenn Sie eine übergeordnete Aufgabe wiederherstellen.
 
-1. Klicks **Wiederherstellen** , um die ausgewählten Elemente an ihrem ursprünglichen Speicherort wiederherzustellen.
-1. (Optional) Um das wiederhergestellte Element schnell anzuzeigen, führen Sie die Schritte unter [Wiederhergestelltes Element anzeigen](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+1. Klicken Sie auf **Wiederherstellen** , um die ausgewählten Elemente an ihrem ursprünglichen Speicherort wiederherzustellen.
+1. (Optional) Um das wiederhergestellte Element schnell anzuzeigen, führen Sie die Schritte unter [Wiederhergestelltes Element anzeigen](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md) aus.
 
-   Weitere Informationen dazu, was nach dem Wiederherstellen eines Elements geschieht, finden Sie im Abschnitt [Was passiert nach dem Wiederherstellen von Elementen?](#what-happens-after-you-restore-items) in diesem Artikel.
+   Weitere Informationen dazu, was nach dem Wiederherstellen eines Elements passiert, finden Sie im Abschnitt [Was passiert, nachdem Sie Elemente wiederhergestellt haben](#what-happens-after-you-restore-items) in diesem Artikel.
 
 ## Was passiert nach dem Wiederherstellen von Elementen? {#what-happens-after-you-restore-items}
 

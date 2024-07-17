@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Änderungen beschrieben, die mit Version 2019.3 vorgenommen wurden. Es wurde in der Produktionsumgebung in der Woche vom 19. August 2019 zur Verfügung gestellt.
 
-Eine Liste aller 2019.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivitäten 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.3 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Aktualisierungen des Erscheinungsbilds in der Startseite
 

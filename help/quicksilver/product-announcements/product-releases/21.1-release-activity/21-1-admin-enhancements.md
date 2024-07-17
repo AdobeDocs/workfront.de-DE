@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen für Administratoren beschrieben, die mit Version 21.1 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
 
-Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [21.1 - Versionsübersicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Einführung neuer Einstellungen für die Zugriffsebene für das Kopieren von Projekten
 
@@ -27,11 +27,11 @@ Damit Sie als Systemadministrator mehr Kontrolle darüber haben, was Planer mit 
 
 Wenn Ihre Benutzer vor dieser Änderung Zugriff auf Projekte bearbeiten in ihrer Zugriffsebene hatten, wird diese Einstellung automatisch aktiviert, wenn diese Funktion veröffentlicht wird.
 
-Informationen zur Zugriffsebene des Plans finden Sie unter [Projektzugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Weitere Informationen zur Zugriffsebene &quot;Plan&quot;finden Sie unter [Gewähren des Zugriffs auf Projekte](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Informationen zum Kopieren eines Projekts finden Sie unter [Projekt kopieren](../../../manage-work/projects/manage-projects/copy-project.md).
+Weitere Informationen zum Kopieren eines Projekts finden Sie unter [Kopieren eines Projekts](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Diese Funktion ist jetzt im [Administratorgrundlagen im neuen Workfront-Erlebnis, Teil 1: Benutzerorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Administrator-Grundlagen des neuen Workfront-Erlebnisses, Teil 1: Benutzerorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) in Workfront One, enthalten.
 
 ## Wählen Sie in einem benutzerdefinierten Formular für ein Objekt alle Elemente in einem Dropdown-Feld mit Mehrfachauswahl aus
 
@@ -61,9 +61,9 @@ Weitere Informationen finden Sie unter [Informationen in benutzerdefinierten For
 
 Adobe Workfront-Administratoren können Gruppenadministratoren jetzt mehr Autonomie gewähren, indem sie einzelne Aufgaben entsperren und Voreinstellungen festlegen. Wenn eine Voreinstellung entsperrt ist, können Gruppenadministratoren sie für ihre Gruppen so konfigurieren, dass sie den individuellen Anforderungen und internen Prozessen jeder Gruppe gerecht werden.
 
-Weitere Informationen finden Sie unter [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für Aufgaben und Ausgaben für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Diese Funktion ist jetzt im [Administratorgrundlagen im neuen Workfront-Erlebnis, Teil 2: Projekteinrichtung](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Administrator-Grundlagen des neuen Workfront-Erlebnisses, Teil 2: Projekt-Setup](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) in Workfront One enthalten.
 
 ## Einstellungen für Zugriffsebene separat für Portfolios und Programme konfigurieren
 
@@ -71,11 +71,11 @@ Jetzt ist es einfacher, den Benutzerzugriff auf Portfolios und Programme zu verw
 
 Zuvor wurden die Einstellungen für die Zugriffsebene für Portfolios und Programme kombiniert. Dies bedeutet, dass Sie die Zugriffseinstellungen für Programme nicht konfigurieren konnten, ohne sie für Portfolios auf die gleiche Weise zu konfigurieren, und das Gleiche galt umgekehrt.
 
-Informationen zum Konfigurieren einer Zugriffsebene finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Informationen zum Konfigurieren einer Zugriffsebene finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Informationen zu den Zugriffseinstellungen, die Sie für Programme und Portfolios konfigurieren können, finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Diese Funktion ist jetzt im [Administratorgrundlagen im neuen Workfront-Erlebnis, Teil 1: Benutzerorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Administrator-Grundlagen des neuen Workfront-Erlebnisses, Teil 1: Benutzerorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) in Workfront One, enthalten.
 
 ## Auswählen aller Kontrollkästchen in einer Reihe beim Bearbeiten von Informationen in einem benutzerdefinierten Formular
 
@@ -98,7 +98,7 @@ Um Ihre Daten besser zu schützen, können Sie jetzt eine E-Mail-Domain-Zulassun
 
 Wenn Sie beispielsweise sensible Daten schützen möchten, z. B. einen Bericht, der Ihre risikobehafteten Kunden auflistet, können Sie nur Ihre interne E-Mail-Domäne oder Domänen in die E-Mail-Zulassungsliste aufnehmen. Auf diese Weise können Benutzer diesen Bericht (oder einen anderen Workfront-Bericht) nicht an eine externe E-Mail-Adresse senden.
 
-Weitere Informationen finden Sie im Abschnitt . [Konfigurieren der Zulassungsliste Ihrer Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) im Artikel [Konfigurieren der Zulassungsliste Ihrer Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Zulassungsliste Ihrer Firewall &quot;&quot;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) im Artikel [Konfigurieren der Zulassungsliste Ihrer Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Zuweisen eines Gruppenadministrators für eine Untergruppe
 
@@ -106,9 +106,9 @@ Um die unabhängige Funktionsweise der Ebenen Ihres Unternehmens zu vereinfachen
 
 Zuvor konnte nur eine Gruppe der obersten Ebene Gruppenadministratoren haben, und diese Administratoren haben alle Untergruppen unterhalb der Gruppe der obersten Ebene verwaltet.
 
-Weitere Informationen finden Sie im Abschnitt . [Gruppenadministratoren für Untergruppen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) im Artikel [Übersicht über Untergruppen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+Weitere Informationen finden Sie im Abschnitt [Gruppenadministratoren für Untergruppen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) im Artikel [Übersicht über Untergruppen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Diese Funktion ist jetzt im [Administratorgrundlagen im neuen Workfront-Erlebnis, Teil 1: Benutzerorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Administrator-Grundlagen des neuen Workfront-Erlebnisses, Teil 1: Benutzerorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) in Workfront One, enthalten.
 
 ## Ereignisbenachrichtigungen für Gruppen konfigurieren
 
@@ -125,9 +125,9 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 * [Entsperren oder Sperren der Konfiguration von Ereignisbenachrichtigungen für alle Gruppen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-Diese Funktion ist jetzt im [Administratorgrundlagen im neuen Workfront-Erlebnis, Teil 1: Benutzerorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Administrator-Grundlagen des neuen Workfront-Erlebnisses, Teil 1: Benutzerorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) in Workfront One, enthalten.
 
-Diese Funktion ist jetzt im [E-Mail- und In-App-Benachrichtigungen im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [E-Mail- und In-App-Benachrichtigungen des neuen Workfront-Erlebnisses](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) auf Workfront One enthalten.
 
 ## Arbeiten mit Gruppenprojekten und Genehmigungsprozessen im Bereich &quot;Gruppen&quot;
 
@@ -139,7 +139,7 @@ Wenn Sie Gruppenadministrator sind, können Sie die Projekte und Genehmigungspro
 
 * Klicken Sie im linken Menü auf Validierungen , um alle mit der Gruppe verknüpften Validierungsprozesse anzuzeigen und zu verwalten.
 
-  Weitere Informationen finden Sie unter [Validierungsprozesse auf Gruppenebene](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+  Weitere Informationen finden Sie unter [Genehmigungsprozesse auf Gruppenebene](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 Diese Funktion steht auch Workfront-Administratoren zur Verfügung.
 
@@ -149,5 +149,5 @@ Um festzustellen, wie gut Ihre Lizenzen verteilt sind, können Sie jetzt die Anz
 
 Wenn Sie eine Gruppe der obersten Ebene verwalten, können Sie sowohl die Anzahl der in einer Gruppe verwendeten Lizenzen (und deren Untergruppen) als auch die maximale Anzahl der der Gruppe zugewiesenen Lizenzen anzeigen.
 
-Weitere Informationen finden Sie unter [Anzahl der einer Gruppe zugewiesenen und verwendeten Lizenzen im neuen Adobe Workfront-Erlebnis anzeigen](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+Weitere Informationen finden Sie unter [Anzeigen der Anzahl der in einer Gruppe zugewiesenen und verwendeten Lizenzen im neuen Adobe Workfront-Erlebnis](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 

@@ -19,7 +19,7 @@ Der Bericht Journaleintrag enthält Systemaktualisierungen aus dem Bereich Updat
 >[!TIP]
 >
 >Der Bericht Journaleintrag enthält nur Systemaktualisierungen aus dem Bereich Updates der Objekte. Um über Kommentare zu berichten, die im Bereich Updates übrig geblieben sind, müssen Sie den Bericht Hinweis verwenden.\
->Weitere Informationen zum Bericht &quot;Notizen&quot;finden Sie unter [Alle Aktualisierungen in einem Hinweis-Bericht anzeigen](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)‍
+>Weitere Informationen zum Bericht &quot;Hinweis&quot;finden Sie unter [Alle Aktualisierungen in einem Hinweis-Bericht anzeigen](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). ‍
 
 Der Journaleintragsbericht kann Folgendes anzeigen:
 
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,11 +68,11 @@ Bevor Sie die in diesem Artikel beschriebenen Aktionen durchführen können, mü
 
 * Alle Felder, über die Sie Berichte erstellen möchten, werden in Workfront nachverfolgt. Sie können nur Berichte zu Daten aus dem verfolgten Bereich Updates erstellen.
 
-  Informationen zum Hinzufügen von Feldern, die von Workfront verfolgt werden sollen, finden Sie unter [Systemaktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Informationen zum Hinzufügen von Feldern, die von Workfront verfolgt werden sollen, finden Sie unter [Konfigurieren von Systemaktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-* Alle benutzerdefinierten Felder, für die Sie Berichte erstellen möchten, haben die Einstellung **Anzeigen von Feldänderungen in Update-Feeds** aktiviert.
+* Für alle benutzerdefinierten Felder, für die Sie einen Bericht erstellen möchten, ist die Einstellung &quot;**Feldänderungen in Update-Feeds anzeigen**&quot;aktiviert.
 
-  Informationen zum Aktivieren dieser Einstellung für ein benutzerdefiniertes Feld finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
+  Informationen zum Aktivieren dieser Einstellung für ein benutzerdefiniertes Feld finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Übersicht über den Journaleintrag
 
@@ -98,7 +98,7 @@ Die Standardansicht für diesen Bericht enthält die folgenden Spalten:
  <tbody> 
   <tr> 
    <td><strong>Feldname</strong> </td> 
-   <td> <p><span style="font-weight: normal;">Der Name des betroffenen Felds. Je nachdem, wie Sie den Bericht einrichten, kann diese Spalte Status, Inhaber-ID, Aufgabenname, Geplantes Abschlussdatum oder andere Felder enthalten.</span> </p> <p><span style="font-weight: normal;">Wann</span> <strong>DE</strong>:<span style="font-weight: normal;"> in dieser Spalte angezeigt wird, bedeutet dies, dass es sich bei dem aufgelisteten Feld um ein benutzerdefiniertes Feld handelt.</span></p> </td> 
+   <td> <p><span style="font-weight: normal;">Der Name des betroffenen Felds. Je nachdem, wie Sie den Bericht einrichten, kann diese Spalte Status, Inhaber-ID, Aufgabenname, Geplantes Abschlussdatum oder andere Felder enthalten.</span> </p> <p><span style="font-weight: normal;">Wenn in dieser Spalte </span> <strong>DE</strong>:<span style="font-weight: normal;"> angezeigt wird, bedeutet dies, dass es sich bei dem aufgelisteten Feld um ein benutzerdefiniertes Feld handelt.</span></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Änderungstyp</strong> </td> 
@@ -113,15 +113,15 @@ Die Standardansicht für diesen Bericht enthält die folgenden Spalten:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Top ObjCode</strong> </td> 
+   <td><strong>Top objCode</strong> </td> 
    <td> <p>Das höchste übergeordnete Objekt in der Hierarchie.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Anwendungsbereich</strong> </td> 
+   <td><strong>Umfang</strong> </td> 
    <td> <p>Der Typ des geänderten Objekts.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Datum der Einsendung</strong> </td> 
+   <td><strong>Einstiegsdatum</strong> </td> 
    <td> <p>Das Datum der Änderung des Felds.</p> </td> 
   </tr> 
   <tr> 
@@ -142,10 +142,10 @@ Informationen zum Einrichten der für Ihren Bericht gewünschten Ansichten, Filt
 </div>
 -->
 
-* [Erfahren Sie, welche Statusänderungen aufgetreten sind](#see-what-status-changes-occurred)
+* [Ermitteln Sie, welche Statusänderungen aufgetreten sind](#see-what-status-changes-occurred)
 * [Ermitteln, wann eine Aufgabe oder ein Problem gelöscht wurde](#see-when-a-task-or-issue-was-deleted)
-* [Erfahren Sie, wie sich benutzerdefinierte Felder im Laufe des Lebenszyklus eines Projekts verändert haben](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
-* [Erfahren Sie, wie sich das geplante Abschlussdatum im Laufe des Lebenszyklus eines Projekts geändert hat.](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
+* [Erfahren Sie, wie sich benutzerdefinierte Felder im Laufe des Lebenszyklus eines Projekts änderten](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
+* [Erfahren Sie, wie sich das geplante Abschlussdatum im Laufe des Lebenszyklus eines Projekts geändert hat](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
 * [Überprüfen, ob der Eigentümer eines Projekts geändert hat](#see-if-the-owner-of-a-project-changed)
 
 ## Erfahren Sie, welche Statusänderungen aufgetreten sind {#see-what-status-changes-occurred}
@@ -158,7 +158,7 @@ Sie können den Journaleintragsbericht so einrichten, dass er Folgendes anzeigt:
 * Wer hat den Status geändert
 * Zeitpunkt der Statusänderung
 
-Wenn Sie den Zustand eines Projekts anzeigen möchten, können Sie den Bericht auch so einrichten, dass dieselben Informationen mit dem Projekt angezeigt werden **Bedingung** -Feld.
+Wenn Sie den Zustand eines Projekts anzeigen möchten, können Sie den Bericht auch so einrichten, dass dieselben Informationen über das Feld **Bedingung** des Projekts angezeigt werden.
 
 Diese Informationen können verwendet werden, um bei der Prüfung zu helfen und zu veranschaulichen, wie gut Sie und Ihr Unternehmen planen.
 
@@ -169,16 +169,16 @@ Diese Informationen können verwendet werden, um bei der Prüfung zu helfen und 
 >[!TIP]
 >
 >Wenn Sie den Unterschied in Tagen zwischen Bedingungsänderungen vergleichen möchten, können Sie die erweiterte Analyse verwenden.\
->Weitere Informationen zur erweiterten Analyse finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>Weitere Informationen zu erweiterten Analysen finden Sie unter [Überblick über erweiterte Analysen](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Berichte**.
-1. Klicks **Neuer Bericht**, wählen Sie **Journaleintrag**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Berichte**.
+1. Klicken Sie auf **Neuer Bericht** und wählen Sie dann **Journaleintrag** aus.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Die Berichterstellung wird geladen.
 
-1. Im **Spalten (Ansicht)** Fügen Sie die folgenden Spalten hinzu:
+1. Fügen Sie auf der Registerkarte **Spalten (Ansicht)** die folgenden Spalten hinzu:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -192,11 +192,11 @@ Diese Informationen können verwendet werden, um bei der Prüfung zu helfen und 
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Feldname</p> </td> 
-      <td> <p>Der Name des betroffenen Felds. In diesem Fall <strong>status</strong> sollte in dieser Spalte angezeigt werden.</p> </td> 
+      <td> <p>Der Name des betroffenen Felds. In diesem Fall sollte <strong>status</strong> in dieser Spalte angezeigt werden.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Typ ändern</p> </td> 
-      <td> <p>Die Art der an dem betroffenen Feld vorgenommenen Änderungen, z. B. <strong>Hinzufügen</strong>, <strong>Löschen</strong>oder <strong>Bearbeiten</strong>.</p> </td> 
+      <td> <p>Die Art der Änderung, die am betroffenen Feld vorgenommen wurde, z. B. <strong>Hinzufügen</strong>, <strong>Löschen</strong> oder <strong>Bearbeiten</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Bearbeitet nach Name</p> </td> 
@@ -212,9 +212,9 @@ Diese Informationen können verwendet werden, um bei der Prüfung zu helfen und 
        <ul> 
         <li> <p> <strong>CUR</strong>: Aktuell</p> </li> 
         <li> <p><strong>DED</strong>: Dead</p> </li> 
-        <li> <p><strong>ONH</strong>: Bei gedrückter</p> </li> 
+        <li> <p><strong>ONH</strong>: Bei gedrückter Taste</p> </li> 
         <li> <p><strong>PLN</strong>: Planung</p> </li> 
-        <li> <p><strong>CPL</strong>: Abgeschlossen</p> </li> 
+        <li> <p><strong>CPL</strong>: Complete</p> </li> 
         <li> <p><strong>REQ</strong>: angefordert</p> </li> 
         <li> <p><strong>APR</strong>: Genehmigt</p> </li> 
         <li> <p><strong>REJ</strong>: Abgelehnt</p> </li> 
@@ -234,25 +234,25 @@ Diese Informationen können verwendet werden, um bei der Prüfung zu helfen und 
       <td> <p>Der Typ des Objekts, für das die Statusänderung erfolgte.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Problemname<br>(Optional)</p> </td> 
+      <td> <p style="font-weight: bold;">Problemname<br> (optional)</p> </td> 
       <td> <p>Der Name des Problems, das eine Statusänderung aufweist.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Aufgabenname<br>(Optional)</p> </td> 
+      <td> <p style="font-weight: bold;">Aufgabenname<br>(optional)</p> </td> 
       <td> <p>Der Name der Aufgabe, deren Status geändert wurde.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Im **Filter** Registerkarte, klicken **Filterregel hinzufügen** und fügen Sie dann die Filterregel hinzu. **Feldname** > **Gleich** > **status**.
+1. Klicken Sie auf der Registerkarte **Filter** auf **Filterregel hinzufügen** und fügen Sie dann die Filterregel **Feldname** > **Gleich** > **Status** hinzu.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
-   >Um Berichte zu Bedingungsänderungen zu erstellen, können Sie stattdessen die Filterregel hinzufügen **Feldname** > **Gleich** > **Bedingung**.
+   >Um über Bedingungsänderungen zu berichten, können Sie stattdessen die Filterregel **Feldname** > **Gleich** > **Bedingung** hinzufügen.
 
    Weitere Informationen zum Hinzufügen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -264,11 +264,11 @@ Diese Informationen können verwendet werden, um bei der Prüfung zu helfen und 
 
    >[!IMPORTANT]
    >
-   >Filterregel erstellen, die den Modifikator verwendet **Enthält** kann tatsächlich die Ladezeiten erhöhen. Aus diesem Grund empfehlen wir die Verwendung eines anderen Modifikators wie **Gleich** nach Möglichkeit nach einem bestimmten Projekt oder einer ID auf höherer Ebene filtern.
+   >Das Erstellen einer Filterregel, die den Modifikator **Enthält** verwendet, kann die Ladezeit tatsächlich erhöhen. Daher empfehlen wir, nach Möglichkeit einen anderen Modifikator wie **Equal** zu verwenden, um nach einer bestimmten Projekt- oder Objekt-ID einer höheren Ebene zu filtern.
 
-   Informationen zum Hinzufügen einer Eingabeaufforderung finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Informationen zum Hinzufügen einer Eingabeaufforderung finden Sie unter [Eine Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Im **Gruppierungen** Registerkarte, klicken **Vorhandene Gruppierung anwenden**, wählen Sie **Projekt**.
+1. Klicken Sie auf der Registerkarte **Gruppierungen** auf **Vorhandene Gruppierung anwenden** und wählen Sie dann **Projekt** aus.
 
    Weitere Informationen zum Hinzufügen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -285,14 +285,14 @@ Sie können den Journaleintragsbericht so einrichten, dass er Folgendes anzeigt:
 
 So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Berichte**.
-1. Klicks **Neuer Bericht**, wählen Sie **Journaleintrag**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Berichte**.
+1. Klicken Sie auf **Neuer Bericht** und wählen Sie dann **Journaleintrag** aus.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Die Berichterstellung wird geladen.
 
-1. Im **Spalten (Ansicht)** Fügen Sie die folgenden Spalten hinzu:
+1. Fügen Sie auf der Registerkarte **Spalten (Ansicht)** die folgenden Spalten hinzu:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -310,7 +310,7 @@ So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Typ ändern</p> </td> 
-      <td> <p>Die Art der Veränderung, die stattgefunden hat. Die <strong>Löschen</strong> in dieser Spalte angezeigt.</p> </td> 
+      <td> <p>Die Art der Veränderung, die stattgefunden hat. Die Änderung <strong>Löschen</strong> wird in dieser Spalte angezeigt.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Eingabedatum</p> </td> 
@@ -327,12 +327,12 @@ So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
     </tbody> 
    </table>
 
-   Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Im **Filter** Registerkarte, klicken **Filterregel hinzufügen** und fügen Sie dann die folgenden Filter hinzu:
+1. Klicken Sie auf der Registerkarte **Filter** auf **Filterregel hinzufügen** und fügen Sie dann die folgenden Filter hinzu:
 
-   * **Änderungstyp** > **Gleich** > **Löschen**
-   * **Projekt-ID** > **Gleich** > **`<project>`**
+   * **Änderungstyp** > **Equal** > **Delete**
+   * **Projekt-ID** > **Equal** > **`<project>`**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -347,11 +347,11 @@ So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
 
    >[!IMPORTANT]
    >
-   >Filterregel erstellen, die den Modifikator verwendet **Enthält** kann tatsächlich die Ladezeiten erhöhen. Aus diesem Grund empfehlen wir die Verwendung eines anderen Modifikators wie **Gleich** nach Möglichkeit nach einem bestimmten Projekt oder einer ID auf höherer Ebene filtern.
+   >Das Erstellen einer Filterregel, die den Modifikator **Enthält** verwendet, kann die Ladezeit tatsächlich erhöhen. Daher empfehlen wir, nach Möglichkeit einen anderen Modifikator wie **Equal** zu verwenden, um nach einer bestimmten Projekt- oder Objekt-ID einer höheren Ebene zu filtern.
 
-   Informationen zum Hinzufügen einer Eingabeaufforderung finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Informationen zum Hinzufügen einer Eingabeaufforderung finden Sie unter [Eine Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. (Optional) Im **Gruppierungen** Registerkarte, klicken **Vorhandene Gruppierung anwenden**, wählen Sie **Projekt**.
+1. (Optional) Klicken Sie auf der Registerkarte **Gruppierungen** auf **Vorhandene Gruppierung anwenden** und wählen Sie dann **Projekt** aus.
 
    Weitere Informationen zum Hinzufügen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -369,14 +369,14 @@ Sie können wichtige Feldänderungen im Laufe des Projekts verfolgen. Dazu könn
 
 So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyklus verändert haben:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Berichte**.
-1. Klicks **Neuer Bericht**, wählen Sie **Journaleintrag**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Berichte**.
+1. Klicken Sie auf **Neuer Bericht** und wählen Sie dann **Journaleintrag** aus.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Die Berichterstellung wird geladen.
 
-1. Im **Spalten (Ansicht)** Fügen Sie die folgenden Spalten hinzu:
+1. Fügen Sie auf der Registerkarte **Spalten (Ansicht)** die folgenden Spalten hinzu:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -390,11 +390,11 @@ So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyk
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Feldname</p> </td> 
-      <td> <p>Der Name des betroffenen benutzerdefinierten Felds.</p> <p><span style="font-weight: normal;">Wann</span> <strong>DE</strong>:<span style="font-weight: normal;"> in dieser Spalte angezeigt wird, bedeutet dies, dass es sich bei dem aufgelisteten Feld um ein benutzerdefiniertes Feld handelt.</span></p> </td> 
+      <td> <p>Der Name des betroffenen benutzerdefinierten Felds.</p> <p><span style="font-weight: normal;">Wenn in dieser Spalte </span> <strong>DE</strong>:<span style="font-weight: normal;"> angezeigt wird, bedeutet dies, dass es sich bei dem aufgelisteten Feld um ein benutzerdefiniertes Feld handelt.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Typ ändern</p> </td> 
-      <td> <p>Die Art der an dem betroffenen Feld vorgenommenen Änderungen, z. B. <strong>Hinzufügen</strong>, <strong>Löschen</strong>oder <strong>Bearbeiten</strong>.</p> </td> 
+      <td> <p>Die Art der Änderung, die am betroffenen Feld vorgenommen wurde, z. B. <strong>Hinzufügen</strong>, <strong>Löschen</strong> oder <strong>Bearbeiten</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Bearbeitet nach Name</p> </td> 
@@ -426,22 +426,22 @@ So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyk
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Neuer Textwert</p> </td> 
-      <td> <p>Der aktuelle Textwert im benutzerdefinierten Feld.</p> <p>Wenn das benutzerdefinierte Feld ein typeahead -Feld ist, wird die <strong>Neuer Textwert</strong> zeigt die Objekt-ID an.</p> </td> 
+      <td> <p>Der aktuelle Textwert im benutzerdefinierten Feld.</p> <p>Wenn das benutzerdefinierte Feld ein typeahead -Feld ist, zeigt die Spalte <strong>Neuer Textwert</strong> die Objekt-ID an.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Im **Filter** Registerkarte, klicken **Filterregel hinzufügen** und fügen Sie dann die folgenden Filter hinzu:
+1. Klicken Sie auf der Registerkarte **Filter** auf **Filterregel hinzufügen** und fügen Sie dann die folgenden Filter hinzu:
 
-   * **Name des Journaleintragsfelds** > **Enthält** > **DE**
+   * **Journal Entry Field Name** > **contains** > **DE**
 
      >[!TIP]
      >
-     >Fügen Sie die Filterregel hinzu, um diesen Bericht auf bestimmte benutzerdefinierte Felder zu beschränken **Name des Journaleintragsfelds** > **Gleich** > **`<custom field>`**.
+     >Um diesen Bericht auf bestimmte benutzerdefinierte Felder zu beschränken, fügen Sie die Filterregel **Journal Entry Field Name** > **Equal** > **`<custom field>`** hinzu.
 
-   * **Projekt-ID** > **Gleich** > **`<project>`**
+   * **Projekt-ID** > **Equal** > **`<project>`**
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -455,11 +455,11 @@ So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyk
 
    >[!IMPORTANT]
    >
-   >Filterregel erstellen, die den Modifikator verwendet **Enthält** kann tatsächlich die Ladezeiten erhöhen. Aus diesem Grund empfehlen wir die Verwendung eines anderen Modifikators wie **Gleich** nach Möglichkeit nach einem bestimmten Projekt oder einer ID auf höherer Ebene filtern.
+   >Das Erstellen einer Filterregel, die den Modifikator **Enthält** verwendet, kann die Ladezeit tatsächlich erhöhen. Daher empfehlen wir, nach Möglichkeit einen anderen Modifikator wie **Equal** zu verwenden, um nach einer bestimmten Projekt- oder Objekt-ID einer höheren Ebene zu filtern.
 
-   Informationen zum Hinzufügen einer Eingabeaufforderung finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Informationen zum Hinzufügen einer Eingabeaufforderung finden Sie unter [Eine Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Im **Gruppierungen** Registerkarte, klicken **Vorhandene Gruppierung anwenden**, wählen Sie **Projekt**.
+1. Klicken Sie auf der Registerkarte **Gruppierungen** auf **Vorhandene Gruppierung anwenden** und wählen Sie dann **Projekt** aus.
 
    Weitere Informationen zum Hinzufügen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -471,14 +471,14 @@ So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyk
 
 Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft sich das geplante Abschlussdatum im Laufe des Projektlebens ändert.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Berichte**.
-1. Klicks **Neuer Bericht**, wählen Sie **Journaleintrag**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Berichte**.
+1. Klicken Sie auf **Neuer Bericht** und wählen Sie dann **Journaleintrag** aus.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Die Berichterstellung wird geladen.
 
-1. Im **Spalten (Ansicht)** Fügen Sie die folgenden Spalten hinzu:
+1. Fügen Sie auf der Registerkarte **Spalten (Ansicht)** die folgenden Spalten hinzu:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -492,11 +492,11 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Feldname</p> </td> 
-      <td> <p>Der Name des betroffenen Felds.</p> <p><span style="font-weight: normal;">Wann</span> <strong>DE</strong>:<span style="font-weight: normal;"> in dieser Spalte angezeigt wird, bedeutet dies, dass es sich bei dem aufgelisteten Feld um ein benutzerdefiniertes Feld handelt.</span></p> </td> 
+      <td> <p>Der Name des betroffenen Felds.</p> <p><span style="font-weight: normal;">Wenn in dieser Spalte </span> <strong>DE</strong>:<span style="font-weight: normal;"> angezeigt wird, bedeutet dies, dass es sich bei dem aufgelisteten Feld um ein benutzerdefiniertes Feld handelt.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Typ ändern</p> </td> 
-      <td>Die Art der vorgenommenen Änderung, z. B. <strong>Hinzufügen</strong>, <strong>Löschen</strong>oder <strong>Bearbeiten</strong>.</td> 
+      <td>Die Art der vorgenommenen Änderung, z. B. <strong>Hinzufügen</strong>, <strong>Löschen</strong> oder <strong>Bearbeiten</strong>.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Bearbeitet nach Name</p> </td> 
@@ -537,12 +537,12 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
     </tbody> 
    </table>
 
-   Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Im **Filter** Registerkarte, klicken **Filterregel hinzufügen** und fügen Sie dann Folgendes hinzu:
+1. Klicken Sie auf der Registerkarte **Filter** auf **Filterregel hinzufügen** und fügen Sie dann Folgendes hinzu:
 
-   * **Feldname** > **Gleich** > **Datum**
-   * **Projekt-ID** > **Gleich** > **`<project>`**
+   * **Feldname** > **Equal** > **Datum**
+   * **Projekt-ID** > **Equal** > **`<project>`**
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -556,11 +556,11 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
 
    >[!IMPORTANT]
    >
-   >Filterregel erstellen, die den Modifikator verwendet **Enthält** kann tatsächlich die Ladezeiten erhöhen. Aus diesem Grund empfehlen wir die Verwendung eines anderen Modifikators wie **Gleich** nach Möglichkeit nach einem bestimmten Projekt oder einer ID auf höherer Ebene filtern.
+   >Das Erstellen einer Filterregel, die den Modifikator **Enthält** verwendet, kann die Ladezeit tatsächlich erhöhen. Daher empfehlen wir, nach Möglichkeit einen anderen Modifikator wie **Equal** zu verwenden, um nach einer bestimmten Projekt- oder Objekt-ID einer höheren Ebene zu filtern.
 
-   Informationen zum Hinzufügen einer Eingabeaufforderung finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Informationen zum Hinzufügen einer Eingabeaufforderung finden Sie unter [Eine Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Im **Gruppierungen** Registerkarte, klicken **Vorhandene Gruppierung anwenden**, wählen Sie **Projekt**.
+1. Klicken Sie auf der Registerkarte **Gruppierungen** auf **Vorhandene Gruppierung anwenden** und wählen Sie dann **Projekt** aus.
 
    Weitere Informationen zum Hinzufügen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -572,14 +572,14 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
 
 Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft sich der Projektinhaber - oder Projektmanager - im Laufe der Lebensdauer eines Projekts ändert.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Berichte**.
-1. Klicks **Neuer Bericht**, wählen Sie **Journaleintrag**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Berichte**.
+1. Klicken Sie auf **Neuer Bericht** und wählen Sie dann **Journaleintrag** aus.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Die Berichterstellung wird geladen.
 
-1. Im **Spalten (Ansicht)** Fügen Sie die folgenden Spalten hinzu:
+1. Fügen Sie auf der Registerkarte **Spalten (Ansicht)** die folgenden Spalten hinzu:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -593,11 +593,11 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Feldname</p> </td> 
-      <td>Der Name des betroffenen Felds. Die <strong>ownerID</strong> in dieser Spalte angezeigt.</td> 
+      <td>Der Name des betroffenen Felds. In dieser Spalte wird die <strong>ownerID</strong> angezeigt.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Typ ändern</p> </td> 
-      <td> <p>Die Art der vorgenommenen Änderung, z. B. <strong>Hinzufügen</strong>, <strong>Löschen</strong>oder <strong>Bearbeiten</strong>.</p> </td> 
+      <td> <p>Die Art der vorgenommenen Änderung, z. B. <strong>Hinzufügen</strong>, <strong>Löschen</strong> oder <strong>Bearbeiten</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Top ObjCode</p> </td> 
@@ -605,7 +605,7 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Eingabedatum</p> </td> 
-      <td>Das Datum, an dem der Projektinhaber geändert wurde.<br>Sie sollten dieses Feld in absteigender Reihenfolge sortieren.</td> 
+      <td>Das Datum, an dem der Projektinhaber geändert wurde.<br>Sie sollten nach diesem Feld in absteigender Reihenfolge sortieren.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Bearbeitet nach Name</p> </td> 
@@ -626,12 +626,12 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
     </tbody> 
    </table>
 
-   Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Weitere Informationen zum Hinzufügen von Spalten finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Im **Filter** Registerkarte, klicken **Filterregel hinzufügen** und fügen Sie dann Folgendes hinzu:
+1. Klicken Sie auf der Registerkarte **Filter** auf **Filterregel hinzufügen** und fügen Sie dann Folgendes hinzu:
 
-   * **Feldname** > **Gleich** > **ownerID**
-   * **Projekt-ID** > **Gleich** > **`<project name>`**
+   * **Feldname** > **Equal** > **ownerID**
+   * **Projekt-ID** > **Equal** > **`<project name>`**
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -645,11 +645,11 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
 
    >[!IMPORTANT]
    >
-   >Filterregel erstellen, die den Modifikator verwendet **Enthält** kann tatsächlich die Ladezeiten erhöhen. Aus diesem Grund empfehlen wir die Verwendung eines anderen Modifikators wie **Gleich** nach Möglichkeit nach einem bestimmten Projekt oder einer ID auf höherer Ebene filtern.
+   >Das Erstellen einer Filterregel, die den Modifikator **Enthält** verwendet, kann die Ladezeit tatsächlich erhöhen. Daher empfehlen wir, nach Möglichkeit einen anderen Modifikator wie **Equal** zu verwenden, um nach einer bestimmten Projekt- oder Objekt-ID einer höheren Ebene zu filtern.
 
-   Informationen zum Hinzufügen einer Eingabeaufforderung finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Informationen zum Hinzufügen einer Eingabeaufforderung finden Sie unter [Eine Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. (Optional) Im **Gruppierungen** Registerkarte, klicken **Vorhandene Gruppierung anwenden**, wählen Sie **Projekt**.
+1. (Optional) Klicken Sie auf der Registerkarte **Gruppierungen** auf **Vorhandene Gruppierung anwenden** und wählen Sie dann **Projekt** aus.
 
    Weitere Informationen zum Hinzufügen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 

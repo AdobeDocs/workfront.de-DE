@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf das Objekt, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen oder höherer Zugriff auf das Objekt, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,21 +54,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf die Dokumentseite, um auf den Namen des Dokuments zu klicken, und wählen Sie dann die Version des Dokuments aus, zu der Sie im Dropdown-Menü Version einen Genehmiger oder Überprüfer hinzufügen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Auswählen **Genehmigungen** im linken Bereich. Alle vorhandenen Genehmiger und Validierungsverantwortlichen sind hier aufgeführt.
+1. Wählen Sie im linken Bereich **Genehmigungen** aus. Alle vorhandenen Genehmiger und Validierungsverantwortlichen sind hier aufgeführt.
 
-1. Um einen Genehmiger hinzuzufügen, stellen Sie sicher, dass das **Genehmiger** das Kontrollkästchen aktiviert ist und die Eingabe im **Überprüfer** Textfeld. Sie können Workfront-Benutzer oder -Teams anhand des Namens hinzufügen. Wenn Sie stattdessen einen Validierer hinzufügen möchten, deaktivieren Sie einfach die **Genehmiger** vor der Eingabe aktivieren.
+1. Um einen Genehmiger hinzuzufügen, stellen Sie sicher, dass das Kontrollkästchen **Genehmiger** aktiviert ist, und beginnen Sie dann, in das Textfeld **Überprüfer** zu tippen. Sie können Workfront-Benutzer oder -Teams anhand des Namens hinzufügen. Wenn Sie stattdessen einen Validierer hinzufügen möchten, deaktivieren Sie einfach das Kontrollkästchen **Genehmiger** , bevor Sie tippen.
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
 
 ## Zusätzliche Genehmiger oder Validierer aus der Dokumentzusammenfassung hinzufügen
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 
 1. Klicken Sie auf das gewünschte Dokument und der Bereich Dokumentzusammenfassung wird geöffnet.
 
 1. Wählen Sie die Version des Dokuments aus, zu dem Sie einen Genehmiger oder Überprüfer im Dropdown-Menü Version hinzufügen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Scrollen Sie nach unten zum **Genehmigungen** im Bereich &quot;Dokumentzusammenfassung&quot;, in dem alle vorhandenen Genehmiger und Validierer aufgelistet sind. Um einen Genehmiger hinzuzufügen, stellen Sie sicher, dass das **Genehmiger** das Kontrollkästchen aktiviert ist und die Eingabe im **Überprüfer** Textfeld. Sie können Workfront-Benutzer oder -Teams anhand des Namens hinzufügen. Wenn Sie stattdessen einen Validierer hinzufügen möchten, deaktivieren Sie einfach die **Genehmiger** vor der Eingabe aktivieren.
+1. Scrollen Sie im Bereich Dokumentzusammenfassung nach unten zum Abschnitt **Genehmigungen**, in dem alle vorhandenen Genehmiger und Validierer aufgelistet sind. Um einen Genehmiger hinzuzufügen, stellen Sie sicher, dass das Kontrollkästchen **Genehmiger** aktiviert ist, und beginnen Sie dann, in das Textfeld **Überprüfer** zu tippen. Sie können Workfront-Benutzer oder -Teams anhand des Namens hinzufügen. Wenn Sie stattdessen einen Validierer hinzufügen möchten, deaktivieren Sie einfach das Kontrollkästchen **Genehmiger** , bevor Sie tippen.
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
 

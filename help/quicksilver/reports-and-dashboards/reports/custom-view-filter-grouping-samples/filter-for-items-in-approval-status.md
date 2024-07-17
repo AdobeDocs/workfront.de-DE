@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Filter: Nur Elemente im Genehmigungsstatus anzeigen"'
+title: 'Filter: Nur Elemente im Genehmigungsstatus anzeigen'
 description: Sie können nur Elemente mit einem bestimmten Status anzeigen, der sich derzeit in "Ausstehende Genehmigung"befindet. Dies gilt für alle anderen Objekte mit Genehmigungsstatus.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -34,11 +34,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Filteränderung anfordern </p>
+   <td> <p>Filteranforderung </p>
    <p>Berichtänderung planen</p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,19 +59,19 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Nur Elemente im Genehmigungsstatus anzeigen
 
 1. Navigieren Sie zum Filter, den Sie für eine Liste von Projekten anpassen möchten, z. B. .
-1. Klicken **Filterregel hinzufügen** für **Status** -Feld des Listenobjekts.\
-   Fügen Sie beispielsweise in einem Projektbericht **Status Gleiche Planung**, wenn Sie nur Projekte anzeigen möchten, die sich im Status **Planung - Ausstehende Genehmigung**.
+1. Klicken Sie auf **Filterregel hinzufügen** für das Feld **Status** des Objekts Ihrer Liste.\
+   Fügen Sie beispielsweise in einem Projektbericht **Status gleich Planung** hinzu, wenn Sie nur Projekte anzeigen möchten, die den Status **Planung - Ausstehende Genehmigung** aufweisen.
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Ändern Sie die
 
    ```
    status
    ```
 
-   Zeile durch Hinzufügen **:A** zum 3-Buchstaben-Schlüssel des Status:
+   durch Hinzufügen von **:A** zum 3-Buchstaben-Schlüssel des Status:
    <pre>status=PLN:A<br>status_Mod=in</pre>
 
-1. Klicken **Fertig**, dann **Filter speichern**.
+1. Klicken Sie auf **Fertig** und dann auf **Filter speichern**.
 
    In der Liste werden nur Projekte angezeigt, die den Status Planung - Ausstehende Genehmigung aufweisen.

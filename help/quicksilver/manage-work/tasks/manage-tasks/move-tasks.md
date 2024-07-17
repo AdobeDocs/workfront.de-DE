@@ -51,7 +51,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Aufgaben verwalten</p> <p>Beitragen oder höhere Berechtigungen zum Projekt mit der Möglichkeit, Aufgaben hinzuzufügen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für Aufgaben verwalten</p> <p>Contribute oder höhere Berechtigungen für das Projekt mit der Möglichkeit, Aufgaben hinzuzufügen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,14 +79,14 @@ Die folgenden Elemente werden standardmäßig nicht mit der Aufgabe verschoben:
 ## Verschieben von Aufgaben in eine Liste
 
 1. Wechseln Sie zu dem Projekt, das die zu verschiebenden Aufgaben enthält.
-1. Klicks **Aufgaben** im linken Bereich, um die Aufgabenliste anzuzeigen.
-1. Klicken Sie auf **Planmodus** icon ![](assets/plan-mode-icon.png) und stellen sicher, dass **Automatische Speicherung** Umschalten aktiviert ist, wählen Sie dann die Aufgabe oder die Aufgaben aus, die Sie verschieben möchten.
+1. Klicken Sie im linken Bereich auf **Aufgaben** , um die Aufgabenliste anzuzeigen.
+1. Klicken Sie auf das Symbol **Planmodus** ![](assets/plan-mode-icon.png), stellen Sie sicher, dass der Umschalter **Automatisches Speichern** aktiviert ist, und wählen Sie dann die Aufgabe oder die Aufgaben aus, die verschoben werden sollen.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
-   >Aufgaben können nicht verschoben werden, wenn die **Automatische Speicherung** Umschalter ist deaktiviert.
+   >Sie können Aufgaben nicht verschieben, wenn der Umschalter **Automatisches Speichern** deaktiviert ist.
 
 1. (Optional und bedingt) Wenn Sie die ausgewählten Aufgaben innerhalb desselben Projekts verschieben möchten, klicken Sie auf die ausgewählten Aufgaben, ziehen Sie sie und legen Sie sie dort ab, wo sie in das Projekt verschoben werden sollen.
 
@@ -94,15 +94,15 @@ Die folgenden Elemente werden standardmäßig nicht mit der Aufgabe verschoben:
 
 1. (Bedingt) Wählen Sie die zu verschiebenden Aufgaben aus und führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **Mehr** Menü ![](assets/qs-more-menu.png) Klicken Sie oben in der Aufgabenliste auf **Verschieben nach**.
+   * Klicken Sie oben in der Aufgabenliste auf das Menü **Mehr** ![](assets/qs-more-menu.png) und klicken Sie dann auf **Verschieben nach**.
    * Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und klicken Sie dann auf **Verschieben nach**.
-   * Klicken Sie bei der Auswahl einer Aufgabe auf die **Mehr** Menü ![](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Verschieben nach**.
+   * Klicken Sie bei der Auswahl einer Aufgabe auf das Menü **Mehr** Menü ![](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Verschieben nach**.
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
    Das Feld Aufgabe verschieben wird angezeigt
 
-1. Fahren Sie mit dem Verschieben der Aufgabe fort, wie im Abschnitt beschrieben [Verschieben einer Aufgabe auf Aufgabenebene](#move-a-task-at-the-task-level) in diesem Artikel, beginnend mit Schritt 4.
+1. Fahren Sie mit dem Verschieben der Aufgabe fort, wie im Abschnitt [Verschieben einer Aufgabe auf Aufgabenebene](#move-a-task-at-the-task-level) in diesem Artikel beschrieben, beginnend mit Schritt 4.
 
    <!--
    is this still accurate?!
@@ -114,11 +114,11 @@ Sie können Aufgaben nicht nur aus einer Aufgabenliste verschieben, sondern auch
 
 1. Suchen Sie eine Aufgabe in Ihrem Workfront-System, indem Sie danach suchen.
 1. Klicken Sie auf den Namen der Aufgabe, um sie zu öffnen.
-1. Klicken Sie auf **Mehr** Dropdown-Menü ![](assets/qs-more-menu.png) neben dem Namen der Aufgabe klicken Sie auf **Verschieben nach**. Das Feld Aufgabe verschieben wird angezeigt.
+1. Klicken Sie auf das Dropdown-Menü **Mehr** neben dem Namen der Aufgabe und dann auf **Verschieben nach**. ![](assets/qs-more-menu.png) Das Feld Aufgabe verschieben wird angezeigt.
 
    ![](assets/move-task-at-task-level-nwe-350x222.png)
 
-1. (Optional) Aktualisieren Sie die **Aufgabenname**. Die Aufgabe wechselt mit dem neuen Namen am neuen Speicherort. Workfront zeichnet den ursprünglichen Namen der Aufgabe nicht auf.
+1. (Optional) Aktualisieren Sie den **Aufgabennamen**. Die Aufgabe wechselt mit dem neuen Namen am neuen Speicherort. Workfront zeichnet den ursprünglichen Namen der Aufgabe nicht auf.
 
    >[!TIP]
    >
@@ -127,7 +127,7 @@ Sie können Aufgaben nicht nur aus einer Aufgabenliste verschieben, sondern auch
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
-1. Geben Sie den Namen der **Zielprojekt** wo die Aufgabe verschoben werden soll **Zielprojekt auswählen** -Feld.
+1. Geben Sie den Namen des **Zielprojekts** ein, in das die Aufgabe verschoben werden soll, und zwar im Feld **Zielprojekt auswählen** .
 
    Wenn Sie die Aufgabe innerhalb desselben Projekts verschieben möchten, geben Sie den Namen des aktuellen Projekts ein.
 
@@ -137,20 +137,20 @@ Sie können Aufgaben nicht nur aus einer Aufgabenliste verschieben, sondern auch
    >* Sie können auch mit der Eingabe der Referenznummer beginnen oder die Kennung des Projekts eingeben. Auf diese Weise können Sie zwischen Projekten mit identischen Namen unterscheiden.
    >* In der Liste werden nur 100 Projekte angezeigt.
 
-1. (Bedingt) Klicken Sie auf **Zugriff anfordern** , um Zugriff auf das Projekt anzufordern, wenn Sie keinen Zugriff auf das ausgewählte Projekt haben.
+1. (Bedingt) Klicken Sie auf **Zugriff anfordern** , um den Zugriff auf das Projekt anzufordern, wenn Sie keinen Zugriff auf das ausgewählte Projekt haben.
 1. (Bedingt) Verschieben Sie die Aufgabe weiterhin in das ausgewählte Zielprojekt, ohne Zugriff anzufordern, wenn Sie Zugriff haben, um Aufgaben zu einer der Aufgaben im Zielprojekt hinzuzufügen.
 
    ![](assets/move-task-request-access-from-project-nwe-350x120.png)
 
    >[!TIP]
    >
-   >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass diesen Projekten Aufgaben hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass diesen Projekten Aufgaben hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Optional) Klicken Sie auf **Optionen** im linken Bereich
+1. (Optional) Klicken Sie im linken Bereich auf **Optionen** .
 
    Oder
 
-   Scrollen Sie nach unten zum **Optionen** im Feld Aufgabe verschieben die Auswahl eines Elements aufheben, das in der unten stehenden Tabelle aufgeführt ist, um es aus den verschobenen Aufgaben zu entfernen. Alle Optionen sind standardmäßig ausgewählt.
+   Scrollen Sie im Feld &quot;Aufgabe verschieben&quot;nach unten zum Abschnitt **Optionen** und deaktivieren Sie dann die Option eines der in der folgenden Tabelle aufgeführten Elemente, um sie aus den verschobenen Aufgaben zu entfernen. Alle Optionen sind standardmäßig ausgewählt.
 
    >[!IMPORTANT]
    >
@@ -229,11 +229,11 @@ Sie können Aufgaben nicht nur aus einer Aufgabenliste verschieben, sondern auch
 
 
 
-1. (Optional) Klicken Sie auf **Übergeordnetes Element auswählen** im linken Bereich
+1. (Optional) Klicken Sie im linken Bereich auf **Übergeordnetes Element auswählen** .
 
    Oder
 
-   Scrollen Sie zum **Übergeordnetes Element auswählen** und wählen Sie dann die Aufgabe im Zielprojekt aus, die Sie der verschobenen Aufgabe übergeordnet werden möchten.
+   Scrollen Sie zum Abschnitt **Übergeordnetes Element auswählen** und wählen Sie dann die Aufgabe im Zielprojekt aus, die Sie zum übergeordneten Element der verschobenen Aufgabe werden möchten.
 
    >[!TIP]
    >
@@ -252,10 +252,10 @@ Sie können Aufgaben nicht nur aus einer Aufgabenliste verschieben, sondern auch
 
    Wenn Sie keine übergeordnete Aufgabe auswählen, werden die Aufgaben als Hauptaufgaben und nicht als Unteraufgaben verschoben und am Ende der Aufgabenliste im Zielprojekt platziert.
 
-1. Klicks **Aufgabe verschieben**
+1. Klicken Sie auf **Aufgabe verschieben**
 
    Oder
 
-   Klicks **Aufgaben verschieben** wenn Sie mehrere Aufgaben in einer Liste auswählen.
+   Klicken Sie auf **Aufgaben verschieben** , wenn Sie mehrere Aufgaben in einer Liste auswählen.
 
    Die verschobenen Aufgaben befinden sich jetzt im angegebenen Projekt und sind entweder Unteraufgaben einer übergeordneten Aufgabe oder die letzten Aufgaben im Projekt.

@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verknüpft sind</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verknüpft sind</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,17 +52,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Suchen von Genehmigungen in Adobe Workfront
 
-Sie können Genehmigungen in verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zur Verwaltung von Genehmigungen in verschiedenen Bereichen finden Sie unter [Validierung der Arbeit](../../review-and-approve-work/manage-approvals/approving-work.md).
+Sie können Genehmigungen in verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Genehmigungen in verschiedenen Bereichen finden Sie unter [Arbeiten genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Sie können Genehmigungen in den folgenden Bereichen anzeigen oder verwalten:
 
 * Im Startbereich
 
    * Alle Projekte, Aufgaben, Probleme, Timesheets, Dokumente und Zugriffe, die auf Ihre Genehmigung warten, werden im Bereich Startseite angezeigt, wenn Sie Alle oder Genehmigungen anzeigen.
-   * Genehmigungen, die Sie selbst eingereicht haben, werden auch im Bereich &quot;Startseite&quot;im Abschnitt &quot;Von mir gesendete Genehmigungen&quot;der Arbeitsliste angezeigt. Weitere Informationen finden Sie unter [Überprüfen Sie die Arbeit, die Sie zur Genehmigung im Startbereich einreichen.](#review-work-you-submit-for-approval-in-the-home-area) in diesem Artikel beschrieben.
+   * Genehmigungen, die Sie selbst eingereicht haben, werden auch im Bereich &quot;Startseite&quot;im Abschnitt &quot;Von mir gesendete Genehmigungen&quot;der Arbeitsliste angezeigt. Weitere Informationen finden Sie im Abschnitt [Arbeiten zur Überprüfung, die Sie zur Genehmigung im Startbereich einreichen](#review-work-you-submit-for-approval-in-the-home-area) in diesem Artikel.
    * Genehmigungen werden aus dem Startbereich entfernt, wenn das zugehörige Projekt, die Aufgabe oder das Problem mit &quot;Gelöst&quot;, &quot;Auf Halten&quot;, &quot;Geschlossen&quot;oder &quot;Abgebrochen&quot;markiert ist.
 
-  Informationen zur Verwendung von Home finden Sie unter [Erste Schritte mit der Startseite](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Informationen zur Verwendung von Home finden Sie unter [Erste Schritte mit Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * In der Kopfzeile eines Projekts, einer Aufgabe, eines Problems, eines Dokuments oder eines Testversands
 * Im Abschnitt Genehmigungen eines Projekts, einer Aufgabe oder eines Problems
@@ -78,17 +78,17 @@ Sie können Genehmigungen in den folgenden Bereichen anzeigen oder verwalten:
 
 ## Überprüfen Sie die Arbeit, die Sie zur Genehmigung im Startbereich einreichen. {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie oben links in Adobe Workfront auf das Symbol **Startseite** ![](assets/home-icon-30x29.png) .
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
-   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
+   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf das **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und klicken Sie dann auf **Startseite**.
 
-1. Auswählen **Arbeitsliste** und klicken Sie dann auf **Filter** Dropdown-Menü und wählen Sie **Genehmigungen**.
-1. Erweitern Sie die **Gesendete Genehmigungen** und finden Sie die von Ihnen eingereichten Validierungen.
+1. Wählen Sie **Arbeitsliste**, klicken Sie dann auf das Dropdown-Menü **Filter** und wählen Sie **Genehmigungen** aus.
+1. Erweitern Sie den Abschnitt **Gesendete Genehmigungen** und suchen Sie nach den von Ihnen gesendeten Genehmigungen.
 
    ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
@@ -102,7 +102,7 @@ Sie können den Genehmigungsstatus eines Objekts in den folgenden Abschnitten de
  <tbody> 
   <tr> 
    <td role="rowheader">Updates </td> 
-   <td> <p>Zeigt alle Genehmigungsstatus an, wenn sie auftreten. Der Genehmigungsstatus wird entsprechend den anderen Status angezeigt, die auf der Seite <strong>Updates</strong> Abschnitt.</p> </td> 
+   <td> <p>Zeigt alle Genehmigungsstatus an, wenn sie auftreten. Der Genehmigungsstatus wird entsprechend den anderen Status angezeigt, die im Abschnitt <strong>Aktualisierungen</strong> angezeigt werden.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Genehmigungen</td> 
@@ -111,12 +111,12 @@ Sie können den Genehmigungsstatus eines Objekts in den folgenden Abschnitten de
  </tbody> 
 </table>
 
-* [Im Bereich Updates können Sie einen Genehmigungsstatus anzeigen.](#use-the-updates-area-to-view-an-approval-status)
+* [Verwenden Sie den Bereich Updates , um einen Genehmigungsstatus anzuzeigen](#use-the-updates-area-to-view-an-approval-status)
 * [Verwenden Sie den Bereich Genehmigungen , um einen Genehmigungsstatus anzuzeigen.](#use-the-approvals-area-to-view-an-approval-status)
 
 ### Im Bereich Updates können Sie einen Genehmigungsstatus anzeigen. {#use-the-updates-area-to-view-an-approval-status}
 
-Wenn eine Genehmigung für ein Projekt, eine Aufgabe oder ein Problem eingeleitet wird, wird ein Status in der Variablen **Updates** -Tab des Objekts, der den Genehmigungsstatus angibt. Ein neuer Status wird immer dann angezeigt, wenn das Objekt durch den Genehmigungsprozess wechselt. Dazu gehören die folgenden Ereignisse:
+Wenn eine Genehmigung für ein Projekt, eine Aufgabe oder ein Problem eingeleitet wird, wird auf der Registerkarte **Aktualisierungen** des Objekts ein Status angezeigt, der den Genehmigungsstatus angibt. Ein neuer Status wird immer dann angezeigt, wenn das Objekt durch den Genehmigungsprozess wechselt. Dazu gehören die folgenden Ereignisse:
 
 * Ein Genehmigungsprozess wird für ein Objekt eingeleitet. Der Validierungsprozess wird bei Änderung des Status eingeleitet.
 * Das Objekt wird zurückgewiesen
@@ -137,7 +137,7 @@ Sie können sehen, wo sich eine Aufgabe oder ein Problem, an der Sie derzeit arb
 So zeigen Sie den aktuellen Status an, an dem sich eine Aufgabe oder ein Problem im Genehmigungsprozess befindet:
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zum Problem, mit dem die Genehmigung verknüpft ist.
-1. Klicken Sie im linken Bereich auf **Genehmigungen**. Möglicherweise müssen Sie zuerst klicken **Mehr anzeigen**.
+1. Klicken Sie im linken Bereich auf **Genehmigungen**. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
 
    Auf der Registerkarte Genehmigungen werden alle Informationen zu allen bisherigen Genehmigungspfaden und -phasen angezeigt. Sie können genau sehen, wer eine Entscheidung über die Genehmigung getroffen hat oder ob die Genehmigung für ein Team, eine Rolle oder einen Benutzer festgelegt wurde.
 

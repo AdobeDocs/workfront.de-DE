@@ -1,5 +1,5 @@
 ---
-title: Benutzerdefinierte Formulare in meiner Gruppe
+title: Benutzerdefinierte Formulare
 user-type: administrator
 content-type: reference
 product-area: system-administration

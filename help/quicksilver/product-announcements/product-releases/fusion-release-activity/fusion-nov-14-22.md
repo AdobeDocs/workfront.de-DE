@@ -31,4 +31,4 @@ Mit den Microsoft Power BI-Modulen können Sie:
 * Hinzufügen oder Löschen von Zeilen in einer Datensatztabelle
 * Erstellen eines benutzerdefinierten API-Aufrufs an die Microsoft Power BI-API
 
-Weitere Informationen finden Sie unter [Microsoft Power BI-Module](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).
+Weitere Informationen finden Sie unter [Microsoft Power BI modules](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).

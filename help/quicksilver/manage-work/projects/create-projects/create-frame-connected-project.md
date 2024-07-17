@@ -5,13 +5,13 @@ title: Erstellen Sie ein Projekt, das mit Frame.io verbunden ist
 description: Ein Projekt ist eine große Arbeitseinheit in Adobe Workfront. Sie können Projekte von Grund auf neu erstellen, eine Vorlage verwenden oder Probleme oder Aufgaben in Projekte konvertieren.
 author: Courtney
 feature: Work Management
-source-git-commit: 089173acb8fecd920ca096c5bf9c6ee61910c20b
+exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
+source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
 
 ---
-
 
 # Erstellen Sie ein Projekt, das mit Frame.io verbunden ist
 
@@ -19,16 +19,16 @@ Durch die Integration von Workfront und Frame.io können Sie in Workfront Projek
 
 Wenn ein Workfront-Projekt mit Frame.io verbunden ist, können Sie
 
-* **Weisen Sie den Aufgaben Frame.io-Benutzer zu**: Benutzer, die für Frame.io aktiviert sind, werden per E-Mail benachrichtigt, wenn sie einer Workfront-Aufgabe zugewiesen werden. Dies signalisiert, dass die Arbeit abgeschlossen ist.
-* **Projekt für Frame.io-Benutzer freigeben**: Wenn ein Projekt für Benutzer freigegeben wird, die mit Frame.io aktiviert sind, haben sie sowohl in Workfront als auch in Frame.io Zugriff auf das Projekt.
-* **Geben Sie kreative Materialien mit Frame.io frei**: Projektkoordinatoren können Anweisungen und Materialien von Workfront direkt an den kreativen Benutzer in Frame.io senden, indem sie einen unidirektionalen Synchronisierungsprojektordner verwenden. [!BADGE In Kürze verfügbar]{type=Informative}
+* **Weisen Sie den Aufgaben Frame.io-Benutzer zu**: Benutzer, die für Frame.io aktiviert sind, werden per E-Mail benachrichtigt, wenn sie einer Workfront-Aufgabe zugewiesen werden. Dies zeigt an, dass die Arbeit abgeschlossen sein muss.
+* **Freigeben des Projekts für Frame.io-Benutzer**: Wenn ein Projekt für Benutzer mit Frame.io freigegeben wird, haben diese sowohl in Workfront als auch in Frame.io Zugriff auf das Projekt.
+* **Teilen Sie kreative Materialien mit Frame.io**: Projektkoordinatoren können Anweisungen und Materialien von Workfront direkt an den kreativen Benutzer in Frame.io senden, indem sie einen unidirektionalen Synchronisierungsprojektordner verwenden. [!BADGE In Kürze verfügbar]{type=Informative}
 * **Fortschritt der Aufgabe verfolgen**: Kreative Benutzer können fertige Assets senden und Aufgaben als abgeschlossen markieren - alles ohne Frame.io zu verlassen.
 
 ## Zugriffsanforderungen
 
 >[!IMPORTANT]
 >
->Diese Funktion ist nur für Unternehmen verfügbar, die in der [!DNL Adobe Admin Console].
+>Diese Funktion ist nur für Unternehmen verfügbar, die in den [!DNL Adobe Admin Console] integriert wurden.
 
 Sie müssen über Folgendes verfügen:
 
@@ -55,14 +55,14 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
 * Einrichten des standardmäßigen Frame.io-Kontos im Workfront-Setup-Bereich
 * Frame.io-Benutzer im Workfront-Benutzerprofil aktivieren
 
-Weitere Informationen zu den oben genannten Voraussetzungen finden Sie unter [Konfigurieren Sie die [!DNL Workfront] und [!DNL Frame.io] Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+Weitere Informationen zu den oben genannten Voraussetzungen finden Sie unter [Konfigurieren der Integration [!DNL Workfront] und [!DNL Frame.io] Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 
 ## Neue Projektvorlage erstellen
@@ -82,10 +82,10 @@ Wenn Sie sich dafür entscheiden, das Projekt von Grund auf neu zu erstellen, f�
 
 {{step1-to-templates}}
 
-1. Klicks **Neue Vorlage**.
-1. Geben Sie einen Namen für Ihre Vorlage ein und drücken Sie dann die Eingabetaste **Eingabe** , um den Namen zu speichern.
+1. Klicken Sie auf **Neue Vorlage**.
+1. Geben Sie einen Namen für Ihre Vorlage ein und drücken Sie dann die **Eingabetaste** , um den Namen zu speichern.
 1. Klicken Sie im linken Bereich auf **Vorlagendetails**.
-1. Im **Vorlagenzuordnung** -Abschnitt, stellen Sie sicher, dass Sie eine Gruppe angeben. Wenn Sie keine Gruppe hinzufügen, wird die standardmäßige Projektgruppe hinzugefügt und das Projekt in Frame.io wird unter dem entsprechenden Standardteam in Frame.io erstellt.
+1. Stellen Sie im Abschnitt **Vorlagenzuordnung** sicher, dass Sie eine Gruppe angeben. Wenn Sie keine Gruppe hinzufügen, wird die standardmäßige Projektgruppe hinzugefügt und das Projekt in Frame.io wird unter dem entsprechenden Standardteam in Frame.io erstellt.
 
 Fahren Sie mit dem nächsten Abschnitt fort.
 
@@ -94,21 +94,21 @@ Fahren Sie mit dem nächsten Abschnitt fort.
 ### Aufgaben hinzufügen und Benutzer zuweisen, für die Frame.io aktiviert ist
 
 1. Klicken Sie im linken Bereich auf **Vorlagenaufgaben**.
-1. Klicks **Beginnen mit dem Hinzufügen von Vorlagenaufgaben** , um Ihrer Vorlage schnell Aufgaben hinzuzufügen. Sie können später weitere Einstellungen konfigurieren.
+1. Klicken Sie auf **Hinzufügen von Vorlagenaufgaben starten** , um Ihrer Vorlage schnell Aufgaben hinzuzufügen. Sie können später weitere Einstellungen konfigurieren.
 
    Oder
 
-   Klicks **Neue Vorlagenaufgabe** , um jeweils eine Aufgabe hinzuzufügen und zusätzliche Einstellungen zu konfigurieren.
+   Klicken Sie auf **Neue Vorlagenaufgabe** , um jeweils eine Aufgabe hinzuzufügen und zusätzliche Einstellungen zu konfigurieren.
    ![](assets/add-tasks-to-template.png)
 1. Fügen Sie einen Aufgabennamen hinzu.
-1. Im **Zuweisungen** -Bereich, Benutzer oder Teams zuweisen. Wenn Sie einen Frame.io-fähigen Benutzer entweder einzeln oder in einem Team zuweisen, erhalten diese Mitarbeiter Zugriff auf das Frame.io-Projekt und werden per E-Mail über die Aufgabe im Frame.io-Projekt benachrichtigt. Von dieser E-Mail aus können sie dem Projekt Frame.io beitreten und mit der Arbeit beginnen.
+1. Weisen Sie im Bereich **Zuweisungen** Benutzer oder Teams zu. Wenn Sie einen Frame.io-fähigen Benutzer entweder einzeln oder in einem Team zuweisen, erhalten diese Mitarbeiter Zugriff auf das Frame.io-Projekt und werden per E-Mail über die Aufgabe im Frame.io-Projekt benachrichtigt. Von dieser E-Mail aus können sie dem Projekt Frame.io beitreten und mit der Arbeit beginnen.
 1. Wiederholen Sie die Schritte 1 und 2 nach Bedarf.
 
 Fahren Sie mit dem nächsten Abschnitt fort.
 
 ### Zusätzliche Vorlagendetails konfigurieren
 
-Workfront verfügt über robuste Projektverwaltungsfunktionen. Es wird empfohlen, [Bearbeiten von Projektvorlagen](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) Artikel zum Konfigurieren der folgenden Bereiche der Vorlage:
+Workfront verfügt über robuste Projektverwaltungsfunktionen. Es wird empfohlen, den Artikel [Projektvorlagen bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) zu verwenden, um die folgenden Bereiche der Vorlage zu konfigurieren:
 
 * Übersicht
 * Finanzielle Details
@@ -124,11 +124,11 @@ Nachdem Sie eine Vorlage erstellt haben, können Sie sie zum Erstellen von Proje
 
 {{step1-to-projects}}
 
-1. Klicks **Neues Projekt aus Vorlage**.
+1. Klicken Sie auf **Neues Projekt aus Vorlage**.
 1. Geben Sie über das Suchfeld den Namen der gewünschten Vorlage ein.
 1. Wählen Sie den Vorlagennamen aus und klicken Sie auf **Vorlage verwenden**.
    ![](assets/find-your-template.png)
-1. Passen Sie die gewünschten Projekteinstellungen an und klicken Sie auf **Projekt erstellen**.
+1. Passen Sie die gewünschten Projekteinstellungen an und klicken Sie dann auf **Projekt erstellen**.
 1. Klicken Sie im linken Bereich auf **Dokumente**.
 1. Verwenden Sie den unidirektionalen Synchronisierungsordner, um kreative Materialien automatisch für Frame.io freizugeben. [!BADGE In Kürze verfügbar]{type=Informative}
 
@@ -136,9 +136,9 @@ Nachdem Sie eine Vorlage erstellt haben, können Sie sie zum Erstellen von Proje
    >
    >Diese Funktion wird derzeit entwickelt. Um Informationen für Benutzer in Frame.io freizugeben, laden Sie die Dateien auf die Registerkarte &quot;Dokument&quot;hoch. Wenn der Status des Projekts auf Aktuell festgelegt ist, werden diese Dateien automatisch an Frame.io gesendet.
 
-1. Ändern Sie in der Projektüberschrift das Projekt von **Planung** nach **Aktuell**.
+1. Ändern Sie in der Projektheader das Projekt von **Planung** in **Aktuell**.
 
-Nachdem das Projekt erstellt wurde und Kreative abgeschlossene Assets hochladen, können Sie dem Asset in Workfront einen Arbeitsablauf für Überprüfung und Genehmigung zuweisen. Weitere Informationen finden Sie unter [Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+Nachdem das Projekt erstellt wurde und Kreative abgeschlossene Assets hochladen, können Sie dem Asset in Workfront einen Arbeitsablauf für Überprüfung und Genehmigung zuweisen. Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfungs- oder Genehmigungsanforderung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) <!-- name may need to change -->.
 
 ## Neues Projekt von Grund auf neu erstellen
 
@@ -157,22 +157,22 @@ Sie können bei Bedarf ein neues Projekt von Grund auf neu erstellen.
 
 {{step1-to-projects}}
 
-1. Klicks **Neues Projekt**.
-1. Geben Sie einen Namen für Ihr Projekt ein und drücken Sie dann die Eingabetaste **Eingabe** , um den Namen zu speichern.
+1. Klicken Sie auf **Neues Projekt**.
+1. Geben Sie einen Namen für Ihr Projekt ein und drücken Sie dann **Enter** , um den Namen zu speichern.
 
 Fahren Sie mit dem nächsten Abschnitt fort.
 
 ### Aufgaben hinzufügen und Benutzer zuweisen, für die Frame.io aktiviert ist
 
 1. Klicken Sie im linken Bereich auf **Aufgaben**.
-1. Klicks **Hinzufügen von Aufgaben beginnen** , um Ihrem Projekt schnell Aufgaben hinzuzufügen. Sie können später weitere Einstellungen konfigurieren.
+1. Klicken Sie auf **Starten des Hinzufügens von Aufgaben** , um Ihrem Projekt schnell Aufgaben hinzuzufügen. Sie können später weitere Einstellungen konfigurieren.
 
    Oder
 
-   Klicks **Neue Aufgabe** , um jeweils eine Aufgabe hinzuzufügen und zusätzliche Einstellungen zu konfigurieren.
+   Klicken Sie auf **Neue Aufgabe** , um jeweils eine Aufgabe hinzuzufügen und zusätzliche Einstellungen zu konfigurieren.
    ![](assets/add-project-tasks.png)
 1. Fügen Sie einen Aufgabennamen hinzu.
-1. Im **Zuweisungen** -Bereich, Benutzer oder Teams zuweisen. Wenn Sie einen Frame.io-fähigen Benutzer entweder einzeln oder in einem Team zuweisen, erhalten diese Mitarbeiter Zugriff auf das Frame.io-Projekt und werden per E-Mail über die Aufgabe im Frame.io-Projekt benachrichtigt. Von dieser E-Mail aus können sie dem Projekt Frame.io beitreten und mit der Arbeit beginnen.
+1. Weisen Sie im Bereich **Zuweisungen** Benutzer oder Teams zu. Wenn Sie einen Frame.io-fähigen Benutzer entweder einzeln oder in einem Team zuweisen, erhalten diese Mitarbeiter Zugriff auf das Frame.io-Projekt und werden per E-Mail über die Aufgabe im Frame.io-Projekt benachrichtigt. Von dieser E-Mail aus können sie dem Projekt Frame.io beitreten und mit der Arbeit beginnen.
 1. Wiederholen Sie die Schritte 1 und 2 nach Bedarf.
 
 Fahren Sie mit dem nächsten Abschnitt fort.
@@ -190,7 +190,7 @@ Fahren Sie mit dem nächsten Abschnitt fort.
 
 ### Konfigurieren zusätzlicher Projektdetails
 
-Workfront verfügt über robuste Projektverwaltungsfunktionen. Es wird empfohlen, [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) Artikel zum Konfigurieren der folgenden Bereiche des Projekts:
+Workfront verfügt über robuste Projektverwaltungsfunktionen. Es wird empfohlen, den Artikel [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) zu verwenden, um die folgenden Bereiche des Projekts zu konfigurieren:
 
 * Übersicht
 * Finanzielle Details
@@ -207,4 +207,4 @@ Nachdem das Projekt erstellt wurde und Kreative abgeschlossene Assets hochladen,
 
 Nachdem das Projekt erstellt wurde und Kreative abgeschlossene Assets hochladen, können Sie dem Asset in Workfront einen Arbeitsablauf für Überprüfung und Genehmigung zuweisen.
 
-Weitere Informationen finden Sie unter [Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfungs- oder Genehmigungsanforderung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) <!-- name may need to change -->.

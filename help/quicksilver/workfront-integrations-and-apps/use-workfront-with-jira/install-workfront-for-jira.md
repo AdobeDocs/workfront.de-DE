@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
-title: Installieren [!DNL Adobe Workfront] für [!DNL Jira]
-description: Sie können [!DNL Adobe Workfront] für [!DNL Jira] zur Integration Ihrer [!DNL Jira] und [!DNL Workfront] Systeme.
+title: Installieren Sie [!DNL Adobe Workfront] für [!DNL Jira]
+description: Sie können [!DNL Adobe Workfront] für [!DNL Jira] zur Integration Ihrer [!DNL Jira] und [!DNL Workfront] Systeme verwenden.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Installieren [!DNL Adobe Workfront for Jira]
+# Installieren Sie [!DNL Adobe Workfront for Jira]
 
-Sie können [!DNL Adobe Workfront for Jira] zur Integration Ihrer [!DNL Jira] und [!DNL Workfront] Systeme.
+Sie können [!DNL Adobe Workfront for Jira] verwenden, um Ihre [!DNL Jira]- und [!DNL Workfront]-Systeme zu integrieren.
 
-Nach der Installation des Add-ons können Sie Workflows definieren, die [!DNL Jira] automatisch Probleme bei [!DNL Workfront] Arbeitselemente werden erstellt. Die Elemente in beiden Anwendungen werden verknüpft und einige ihrer Informationen können automatisch in beiden Systemen aktualisiert werden.
+Nach der Installation des Add-ons können Sie Workflows definieren, die bei der Erstellung von [!DNL Workfront] Arbeitselementen automatisch [!DNL Jira] Probleme verursachen. Die Elemente in beiden Anwendungen werden verknüpft und einige ihrer Informationen können automatisch in beiden Systemen aktualisiert werden.
 
-Alle Benutzer in [!DNL Workfront] und [!DNL Jira] kann von dieser Integration profitieren. Sie benötigen nur eine Lizenz für das System, in dem sie am besten funktionieren, und nicht für beide Systeme.
+Alle Benutzer in [!DNL Workfront] und [!DNL Jira] können von dieser Integration profitieren. Sie benötigen nur eine Lizenz für das System, in dem sie am besten funktionieren, und nicht für beide Systeme.
 
-Dieses Add-on ist für das [!UICONTROL Server] und [!UICONTROL OnDemand] (oder [!UICONTROL Cloud]) Versionen von [!DNL Jira] Software. Dieses Add-on steht nicht für die [!DNL Data Center] Version von [!DNL Jira] Software.
+Dieses Add-on ist für die Versionen [!UICONTROL Server] und [!UICONTROL OnDemand] (oder [!UICONTROL Cloud]) der Software [!DNL Jira] verfügbar. Dieses Add-on ist nicht für die [!DNL Data Center] -Version der [!DNL Jira] -Software verfügbar.
 
-Für eine Liste von [!DNL Jira] Versionen [!DNL Workfront for Jira] unterstützt derzeit, siehe [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) im Atlassian Marketplace.
+Eine Liste der von [!DNL Workfront for Jira] derzeit unterstützten [!DNL Jira] Versionen finden Sie unter [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) im Atlassian Marketplace.
 
 ## Zugriffsanforderungen
 
@@ -42,59 +42,59 @@ Sie müssen über Folgendes verfügen:
    <p>Aktuell: [!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] Lizenzübersicht</td> 
+   <td role="rowheader">Übersicht über Adobe [!DNL Workfront] -Lizenzen</td> 
    <td> 
    <p>Neu: Standard</p>
    <p>Aktuell: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] access</td> 
-   <td> <p>Systemadministratorzugriff</p> <p>Wichtig: Es wird empfohlen, separate Systemadministratorkonten in der [!DNL Jira] und [!DNL Workfront] , um dieser Integration zu widmen, anstatt vorhandene zu verwenden, die möglicherweise mit Benutzern verbunden sind.</p> </td> 
+   <td> <p>Systemadministratorzugriff</p> <p>Wichtig: Es wird empfohlen, separate Systemadministratorkonten in [!DNL Jira] und [!DNL Workfront] zu erstellen, um diese Integration zu widmen, anstatt vorhandene zu Benutzern gehörende Konten zu verwenden.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td><p>Sie müssen [!DNL Workfront] Administrator.</p></td> 
+   <td><p>Sie müssen ein [!DNL Workfront] -Administrator sein.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Installieren [!DNL Workfront] für [!DNL Jira]
+## Installieren Sie [!DNL Workfront] für [!DNL Jira]
 
-Installieren [!DNL Workfront] für [!DNL Jira] OnDemand ist mit der Installation auf einer [!DNL Jira] Serverinstanz.
+Die Installation von [!DNL Workfront] für [!DNL Jira] OnDemand entspricht der Installation auf einer [!DNL Jira] Server-Instanz.
 
-Sie müssen [!DNL Jira] Administrator zum Installieren der [!DNL Workfront] -Add-on.
+Sie müssen ein [!DNL Jira] -Administrator sein, um das [!DNL Workfront]-Add-on zu installieren.
 
-Wenn Sie keine [!DNL Jira] Administrator können Sie nach der [!DNL Workfront] -Add-on hinzufügen und die Installation anfordern. Ihre Anfrage wird an die [!DNL Jira] Administrator für Genehmigung und Installation.
+Wenn Sie kein [!DNL Jira] -Administrator sind, können Sie nach dem [!DNL Workfront] -Add-on suchen und dessen Installation anfordern. Ihre Anfrage wird zur Genehmigung und Installation an den [!DNL Jira] -Administrator gesendet.
 
-Weitere Informationen zum Anfordern eines Add-ons zur Installation auf Ihrem [!DNL Jira] -Anwendung, siehe [Verwalten von Benutzeranforderungen für Add-ons.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
+Weitere Informationen zum Anfordern eines Add-ons für die Installation in Ihrer [!DNL Jira]-Anwendung finden Sie unter [Verwalten von Benutzeranforderungen für Add-ons](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html).
 
-Installieren [!DNL Workfront for Jira]:
+So installieren Sie [!DNL Workfront for Jira]:
 
-1. Anmelden bei [!DNL Jira] as a [!DNL Jira] Administrator.
-1. Suchen Sie die **[!DNL Workfront for Jira]** -Add-on im [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview).
+1. Melden Sie sich bei [!DNL Jira] als [!DNL Jira] -Administrator an.
+1. Suchen Sie das Add-on **[!DNL Workfront for Jira]** im [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview).
 
-1. Klicks **[!UICONTROL Jetzt downloaden]** um es zu installieren.
+1. Klicken Sie auf **[!UICONTROL Jetzt herunterladen]** , um es zu installieren.
 
-   Nach Abschluss der Installation können Sie sich bei [!DNL Workfront] von [!DNL Jira] und konfigurieren Sie Ihre Integration.
+   Nach Abschluss der Installation können Sie sich von [!DNL Jira] bei [!DNL Workfront] anmelden und Ihre Integration konfigurieren.
 
    Weitere Informationen finden Sie unter [Adobe Workfront für Jira konfigurieren](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## Überlegungen zu einer [!DNL Jira Server] Installation
+## Überlegungen zur Installation von [!DNL Jira Server]
 
 >[!NOTE]
 >
->Diese Anforderungen gelten nicht für die [!UICONTROL OnDemand] ([!UICONTROL Cloud]) Version von [!DNL Jira] Software.
+>Diese Anforderungen gelten nicht für die Version [!UICONTROL OnDemand] ([!UICONTROL Cloud]) der [!DNL Jira] -Software.
 
-Obwohl die [!DNL Workfront] Add-on in den beiden [!DNL Jira] -Umgebungen ähneln, müssen Sie beim Arbeiten mit einer [!DNL Jira Server] Installation:
+Obwohl die Installation des [!DNL Workfront]-Add-ons in den beiden [!DNL Jira] -Umgebungen ähnlich ist, müssen Sie beim Arbeiten mit einer [!DNL Jira Server] -Installation Folgendes beachten:
 
-* Beim Konfigurieren des Add-ons in [!DNL Jira], die in der **[!DNL JIRA Base URL]** darf nicht mit der URL übereinstimmen, auf die Sie zugreifen [!DNL Jira] auf Ihrem privaten Server. Die **[!DNL JIRA Base URL]** muss eine öffentlich zugängliche Adresse sein, die über NAT- oder Reverse-Proxy-Protokolle mit Ihrem privaten Server verbunden ist. [!DNL Workfront] kann darauf zugreifen, um Anfragen an Ihren Server zu senden.
+* Beim Konfigurieren des Add-ons in [!DNL Jira] ist die im Feld **[!DNL JIRA Base URL]** angegebene Adresse möglicherweise nicht dieselbe URL, die Sie für den Zugriff auf [!DNL Jira] auf Ihrem privaten Server verwenden. Die **[!DNL JIRA Base URL]** muss eine öffentlich zugängliche Adresse sein, die über NAT- oder Reverse-Proxy-Protokolle mit Ihrem privaten Server verbunden ist, sodass [!DNL Workfront] darauf zugreifen kann, um Anfragen an Ihren Server zu senden.
 
-* Sie müssen die SSL-Verschlüsselung verwenden, um die Kommunikation zwischen [!DNL Jira] und [!DNL Workfront]. Wenn Sie SSL aktivieren, müssen Sie über einen vollständigen SSL-Zertifikatstapel von einer Zertifizierungsstelle verfügen. Selbstsignierte Zertifikate werden nicht unterstützt.
-* Sie müssen sicherstellen, dass [!DNL jira.workfront.com] auf die Domäne von Ihren Unternehmensservern aus zugegriffen werden kann. Es dient als Middleware-Umgebung zwischen [!DNL Workfront] und [!DNL Jira] und ist erforderlich, damit das Add-on funktioniert.
+* Sie müssen die SSL-Verschlüsselung verwenden, um die Kommunikation zwischen [!DNL Jira] und [!DNL Workfront] zu sichern. Wenn Sie SSL aktivieren, müssen Sie über einen vollständigen SSL-Zertifikatstapel von einer Zertifizierungsstelle verfügen. Selbstsignierte Zertifikate werden nicht unterstützt.
+* Sie müssen sicherstellen, dass der Zugriff auf die Domäne [!DNL jira.workfront.com] von Ihren Unternehmensservern aus erfolgt. Es dient als Middleware-Umgebung zwischen [!DNL Workfront] und [!DNL Jira] und ist erforderlich, damit das Add-on funktioniert.
 
   Sie müssen außerdem die folgenden statischen IP-Adressen zur Zulassungsliste in Ihrer Firewall für ausgehende und eingehende Verbindungen hinzufügen.
 
@@ -108,4 +108,4 @@ Obwohl die [!DNL Workfront] Add-on in den beiden [!DNL Jira] -Umgebungen ähneln
 
   `18.205.251.4`
 
-  Weitere Informationen zum Konfigurieren der Firewall für optimale Funktionalität finden Sie unter [!DNL Workfront], siehe [Konfigurieren der Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+  Weitere Informationen zum Konfigurieren Ihrer Firewall für eine optimale Funktionalität mit [!DNL Workfront] finden Sie unter [Konfigurieren Ihrer Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

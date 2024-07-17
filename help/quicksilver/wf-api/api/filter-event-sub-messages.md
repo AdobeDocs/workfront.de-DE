@@ -10,7 +10,7 @@ role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 Sie können intermediäre Verarbeitungskomponenten erstellen, die Ihnen dabei helfen, nur die für Ihr Unternehmen benötigten Ereignisabonnementnachrichten zu filtern und zu verarbeiten.
 
-Weitere Informationen zu Ereignisanmeldungen finden Sie unter [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md).
+Weitere Informationen zu Ereignisabonnements finden Sie unter [Ereignis-Abonnement-API](../../wf-api/general/event-subs-api.md).
 
 ## Filtern von Ereignismeldungen
 
 Dieser Abschnitt enthält Code-Snippets zum Filtern, die Sie implementieren können, um das Laden von Ereignis-Abonnementnachrichten zu verringern.  Um die Unterschiede in der Syntax verschiedener Sprachen zu veranschaulichen, veranschaulichen diese Snippets denselben Satz von Filtern, die in den folgenden Sprachen geschrieben wurden:
 
-Sie können Beispiele für die Filterung unter [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), wo Sie die Unterschiede in der Syntax für jede Sprache und die Möglichkeiten der Interaktion mit dem AWS SDK sehen können. Diese Beispiele werden als AWS Lambdas geschrieben, eine gängige Methode zur Verwendung von intermediären Filter- und Verarbeitungskomponenten.
+Beispiele für die Filterung finden Sie unter [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), wo Sie die Unterschiede in der Syntax für jede Sprache und die Möglichkeiten zur Interaktion mit dem AWS SDK sehen. Diese Beispiele werden als AWS Lambdas geschrieben, eine gängige Methode zur Verwendung von intermediären Filter- und Verarbeitungskomponenten.
 
 Die folgenden Code-Snippets sind nahezu einsatzbereit und können als Ausgangspunkt verwendet werden, um Ihnen beim Schreiben Ihrer eigenen, komplexeren Filter und Verarbeitungskomponenten zu helfen.
 
 ### Java
 
-Das folgende Beispiel in Java zeigt, wie Projektnutzlasten basierend auf der Gruppen-ID des Projekts gefiltert werden, wie in [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
+Das folgende Beispiel in Java zeigt, wie Projekt-Payloads basierend auf der Gruppen-ID des Projekts gefiltert werden, wie in [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java) ausgeführt.
 
 1. Richten Sie die gesuchte Gruppen-ID ein und erstellen Sie sie als statische Konstante.
 
@@ -65,7 +65,7 @@ Das folgende Beispiel in Java zeigt, wie Projektnutzlasten basierend auf der Gru
 
 3. Stellen Sie nach dem Analysieren der &quot;newState&quot;-Zuordnung aus der Nachricht sicher, dass die Gruppen-ID des Objekts mit der in Schritt 1 identifizierten Gruppen-ID übereinstimmt.
 
-4. (Bedingt) Wenn die IDs **nicht** übereinstimmen, legen Sie die Nachricht ab, sodass eine leere Antwort zurückgegeben wird.
+4. (Bedingt) Wenn die IDs **nicht** übereinstimmen, legen Sie die Nachricht ab, damit eine leere Antwort zurückgegeben wird.
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -111,13 +111,13 @@ Das folgende Beispiel in Java zeigt, wie Projektnutzlasten basierend auf der Gru
 
    Der Zweck der Absendung der Nachricht an ein anderes Lambda besteht darin, eine Zeitüberschreitung bei der Versandanfrage zu vermeiden, die vom Event Subscription Service stammt. Derzeit ist der zulässige Timeout für die Bereitstellung auf fünf Sekunden festgelegt. Wenn der Filter länger dauert, als von der Einstellung erlaubt, können Sie die Anforderung verarbeiten. Der Ereignisabonnementdienst reagiert jedoch mit einer Zeitüberschreitung und fällt in eine Wiederholungsschleife, bis er innerhalb der Zeitüberschreitungsdauer eine Antwort von 200 Ebenen erhält.
 
-   Weitere Informationen zur Verwaltung des Nachrichtenversands finden Sie unter [Verbessern der Nachrichtenbereitstellung bei gleichzeitiger Unterstützung von Timeouts](#improving-message-delivery-while-accommodating-timeouts).
+   Weitere Informationen zur Verwaltung des Nachrichtenversands finden Sie unter [Verbessern der Nachrichtenbereitstellung bei gleichzeitiger Bestätigung von Timeouts](#improving-message-delivery-while-accommodating-timeouts).
 
 ### Python
 
 Der Hauptunterschied zwischen den Java- und Python-Beispielen besteht darin, dass im Java-Beispiel die Ereignisabonnementnachricht als erster Parameter empfangen wird und im Python-Beispiel der erste Parameter ein Lambda-Proxy-Ereignis ist, das die Ereignisabonnementnachricht zusammen mit Informationen zur AWS-Lambda-Proxy-Anfrage enthält.
 
-Das folgende Beispiel in Python zeigt, wie Projektnutzlasten basierend auf der Gruppen-ID des Projekts gefiltert werden, wie in  [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
+Das folgende Beispiel in Python zeigt, wie Projektnutzlasten basierend auf der Gruppen-ID des Projekts gefiltert werden, wie in [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py) getan.
 
 1. Richten Sie die gesuchte Gruppen-ID ein und erstellen Sie sie als statische Konstante.
 
@@ -188,7 +188,7 @@ Das folgende Beispiel in Python zeigt, wie Projektnutzlasten basierend auf der G
 
 Das Node.js-Beispiel für die Filterung der Projektgruppen-ID liest ähnlich den Beispielen für Java und Python. Wie beim Python-Beispiel ist der erste Parameter ein Lambda-Proxy-Ereignis und der zweite Parameter der Lambda-Kontext.
 
-Im folgenden Beispiel in Node.js wird gezeigt, wie Projektnutzlasten basierend auf der Gruppen-ID des Projekts gefiltert werden, wie dies in  [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
+Im folgenden Beispiel in Node.js wird gezeigt, wie Projektnutzlasten basierend auf der Gruppen-ID des Projekts gefiltert werden, wie in [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
 
 1. Richten Sie die gesuchte Gruppen-ID ein und erstellen Sie sie als statische Konstante.
 
@@ -261,15 +261,15 @@ Im folgenden Beispiel in Node.js wird gezeigt, wie Projektnutzlasten basierend a
 
    Das AWS SDK wird verwendet, um ein weiteres Lambda aufzurufen, das für die Bereitstellung der gefilterten Nachricht an den gewünschten Endpunkt zuständig ist.\
    Der Zweck der Absendung der Nachricht an ein anderes Lambda besteht darin, eine Zeitüberschreitung bei der Versandanfrage zu vermeiden, die vom Event Subscription Service stammt. Derzeit ist der Timeout für die Bereitstellung auf fünf Sekunden festgelegt. Wenn der Filter länger dauert, als von der Einstellung erlaubt, können Sie die Anforderung verarbeiten. Der Ereignisabonnementdienst reagiert jedoch mit einer Zeitüberschreitung und fällt in eine Wiederholungsschleife, bis er innerhalb der Zeitüberschreitungsdauer eine Antwort von 200 Ebenen erhält.\
-   Weitere Informationen zur Verwaltung des Nachrichtenversands finden Sie unter [Verbessern der Nachrichtenbereitstellung bei gleichzeitiger Unterstützung von Timeouts](#improving-message-delivery-while-accommodating-timeouts).
+   Weitere Informationen zur Verwaltung des Nachrichtenversands finden Sie unter [Verbessern der Nachrichtenbereitstellung bei gleichzeitiger Bestätigung von Timeouts](#improving-message-delivery-while-accommodating-timeouts).
 
 ## Verbessern der Nachrichtenbereitstellung bei gleichzeitiger Unterstützung von Timeouts
 
-Der Ereignisabonnement-Dienst hat eine strikte Zeitüberschreitung von **fünf Sekunden** für alle Versandanfragen. Falls der Versand einer Nachricht die zulässige Zeit überschreitet, beginnt der Ereignisabonnement-Dienst einen Wiederholungszyklus für diese Nachricht.
+Der Ereignisabonnementdienst hat für alle Versandanfragen einen strikten Timeout von **5 Sekunden**. Falls der Versand einer Nachricht die zulässige Zeit überschreitet, beginnt der Ereignisabonnement-Dienst einen Wiederholungszyklus für diese Nachricht.
 
-Sie erstellen beispielsweise einen Projektgruppen-ID-Filter ähnlich einem der Beispiele unter [Filtern von Ereignismeldungen](#filtering-event-messages) und Sie fügen eine Datenbanksuche hinzu, um zu bestimmen, ob die Nachricht benötigt wird. Es ist möglich, dass die Datenbanksuche zusammen mit der für die erforderliche Verarbeitung und den Kaltstart des Lambda erforderlichen Zeit mehr als fünf Sekunden dauern kann, wodurch der Ereignisabonnementdienst den Nachrichtenversand erneut versucht.
+Sie erstellen beispielsweise einen Projektgruppen-ID-Filter, der einem der Beispiele in [Filtern von Ereignismeldungen](#filtering-event-messages) ähnelt, und fügen eine Datenbanksuche hinzu, um zu ermitteln, ob die Nachricht benötigt wird. Es ist möglich, dass die Datenbanksuche zusammen mit der für die erforderliche Verarbeitung und den Kaltstart des Lambda erforderlichen Zeit mehr als fünf Sekunden dauern kann, wodurch der Ereignisabonnementdienst den Nachrichtenversand erneut versucht.
 
-Sie können einen erneuten Versuch verhindern, indem Sie die zeitaufwendigen Teile des Prozesses von der Logik trennen, die dafür verantwortlich ist, zu bestimmen, ob die Nachricht verarbeitet und bereitgestellt werden soll. Auf diese Weise können Sie die Nachricht akzeptieren und eine 200-Grad-Antwort an den Event Subscription-Dienst zurücksenden, während Sie die Nachricht asynchron weiter im Hintergrund verarbeiten oder filtern (siehe Schritt 5 unter [Java](#java) Beispiel).
+Sie können einen erneuten Versuch verhindern, indem Sie die zeitaufwendigen Teile des Prozesses von der Logik trennen, die dafür verantwortlich ist, zu bestimmen, ob die Nachricht verarbeitet und bereitgestellt werden soll. Auf diese Weise können Sie die Nachricht akzeptieren und eine 200-Grad-Antwort an den Ereignisabonnementdienst zurücksenden, während Sie die Nachricht asynchron weiter im Hintergrund verarbeiten oder filtern (ein Beispiel finden Sie unter Schritt 5 in [Java](#java) ).
 
 
 Auch wenn Ihre Verarbeitung oder Filterung die Zeitüberschreitung von fünf Sekunden nicht überschreitet, ist es dennoch von Vorteil, den ersten Touchpoint der Nachrichtenfilterung oder -verarbeitung von den anderen Verarbeitungs- oder Versandschritten auf der Clientseite zu trennen. Auf diese Weise hat die Übergabe der Nachricht vom Event Subscription-Dienst an das Ziel nur geringe Zeit- und Leistungseinbußen für beide Parteien.
@@ -278,7 +278,7 @@ Weitere Informationen zum Wiederholungsmechanismus finden Sie unter [Wiederholun
 
 ## Implementieren von gehosteten Filtern in Cloudless Architecture
 
-Wenn Sie keine Cloud-Architektur für die Filterung von Ereignisabonnements nutzen können, können Sie die Beispiele unter [Filtern von Ereignismeldungen](#filtering-event-messages) als Roadmaps zur Implementierung Ihrer eigenen gehosteten Filter oder Verarbeitungskomponenten.
+Wenn Sie keine Cloud-Architektur für die Filterung von Ereignisabonnements nutzen können, können Sie die Beispiele in [Filtern von Ereignismeldungen](#filtering-event-messages) weiterhin als Roadmaps für die Implementierung Ihrer eigenen gehosteten Filter oder Verarbeitungskomponenten verwenden.
 
 ### Anpassen von Filterbeispielen für eigenständige Dienste
 
@@ -288,7 +288,7 @@ Bevor Sie die Filterbeispiele in einer Cloudless-Umgebung verwenden, gehen Sie w
 
 * Ändern Sie die Aufrufe anderer Lambdas in den Beispielen, um zusätzliche asynchrone HTTP-Anfragen an andere Filter oder Verarbeitungskomponenten zu senden, die Sie hosten.
 
-* Wenn Sie auf die Beispiele Python und Node.js verweisen, ersetzen Sie den ersten Ereignisparameter durch den ersten Payload-Parameter, der im Java-Beispiel gezeigt wird. Siehe Schritt 1 unter [Java](#java).
+* Wenn Sie auf die Beispiele Python und Node.js verweisen, ersetzen Sie den ersten Ereignisparameter durch den ersten Payload-Parameter, der im Java-Beispiel gezeigt wird. Siehe Schritt 1 in [Java](#java).
 
 * Stellen Sie die Filter oder Prozessoren mit einer webbasierten API bereit.
 
@@ -330,6 +330,6 @@ Durch die Abfrage von Ressourcen stellen Sie sicher, dass Ihre Integrationssyste
 
 ### Implementieren der asynchronen Verarbeitung im Versand von Nachrichten
 
-Alle Beispiele im [Filtern von Ereignismeldungen](#filtering-event-messages) übergibt die Verantwortung für den Versand gefilterter Nachrichten an ein anderes AWS Lambda. Dies geschieht, um zu vermeiden, dass die 5-Sekunden-Zeitüberschreitung in der Versandanfrage überschritten wird, die vom Event Subscription Service erzwungen wird, der die Anfrage ausgibt.
+Alle Beispiele im Abschnitt [Filtern von Ereignismeldungen](#filtering-event-messages) übergeben die Verantwortung für die Bereitstellung gefilterter Nachrichten an ein anderes AWS-Lambda. Dies geschieht, um zu vermeiden, dass die 5-Sekunden-Zeitüberschreitung in der Versandanfrage überschritten wird, die vom Event Subscription Service erzwungen wird, der die Anfrage ausgibt.
 
 In einer Cloud-losen Architektur müssen Sie möglicherweise einen asynchronen Verarbeitungsmechanismus implementieren, ähnlich wie das AWS SDK asynchrone Aufrufe an andere AWS Lambdas ermöglicht. Die meisten modernen Programmiersprachen verfügen über Drittanbieter- oder Core-Bibliotheken, die die asynchrone Verarbeitung handhaben, sodass Sie den in unseren Beispielen implementierten asynchronen Verarbeitungsstil nutzen können.

@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,16 +55,16 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Einzüge von Aufgaben in einer Spalte einer Aufgabenliste anzeigen
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
+1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
 
-1. Klicks **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Task Name&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen** und beginnen Sie mit der Eingabe &quot;Aufgabenname&quot;im Feld **In dieser Spalte anzeigen** und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
 
 1. Klicken Sie in der neuen Spalte auf **In den Textmodus wechseln**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im `valuefield=` und ersetzen Sie sie durch den folgenden Code:
+1. Entfernen Sie den Text, den Sie in der Zeile `valuefield=` finden, und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))
    ```
 
-1. Klicks **Speichern**, dann **Ansicht speichern**.
+1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.

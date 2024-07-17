@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Einrichten [!DNL Adobe Workfront]
-description: Als [!DNL Workfront] -Administrator können Sie die Systemstandardeinstellungen, Timesheets, Zeitpläne, Zeitpläne, die Organisation Ihrer Benutzer im System, automatische Systemaktualisierungen und die [!DNL Workfront] Testumgebungen verwenden.
+description: Als [!DNL Workfront] Administrator können Sie die Systemstandards, Zeitpläne, Zeitpläne, Zeitpläne, die Organisation Ihrer Benutzer im System, automatische Systemaktualisierungen und die von Ihnen verwendeten [!DNL Workfront] Testumgebungen konfigurieren.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ---
 
-# Einrichten [!DNL Adobe Workfront]: Artikelindex
+# Einrichten von [!DNL Adobe Workfront]: Artikelindex
 
 <!--Audited: 01/2024-->
 
-Als [!DNL Adobe Workfront] -Administrator können Sie die Systemstandardeinstellungen, Timesheets, Zeitpläne, Zeitpläne, die Organisation Ihrer Benutzer im System, automatische Systemaktualisierungen und die [!DNL Workfront] Testumgebungen verwenden.
+Als [!DNL Adobe Workfront] -Administrator können Sie die Systemstandards, Zeitpläne, Zeitpläne, Zeitpläne, die Organisation Ihrer Benutzer im System, automatische Systemaktualisierungen und die von Ihnen verwendeten [!DNL Workfront] Testumgebungen konfigurieren.
 
 Die folgenden Unterabschnitte enthalten Artikel zum Konfigurieren Ihrer Workfront-Instanz und zum Festlegen der Systemvoreinstellungen:
 

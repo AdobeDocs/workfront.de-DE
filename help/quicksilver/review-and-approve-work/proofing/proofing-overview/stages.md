@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Testsendungen sind Zeitsegmente, in denen verschiedene Benutzer einen Testversand überprüfen. Wenn der Testversand von einer Phase zur nächsten wechselt, benachrichtigt Adobe Workfront die Prüfer, dass sie darüber informiert werden, wann sie daran arbeiten müssen.
 
-![states_chart.png](assets/stages-diagram-350x63.png)
+![stage_diagramm.png](assets/stages-diagram-350x63.png)
 
 Phasen treten in zwei verschiedenen Situationen auf:
 
@@ -39,7 +39,7 @@ Anweisungen zum Erstellen von Testsendungen für einen Testversand mit einem aut
 
 >[!NOTE]
 >
->Wenn ein Benutzer in keiner Phase enthalten ist, aber Zugriff auf das Dokument hat und den Testversand öffnet, erstellt das System eine Phase namens *Workfront*.
+>Wenn ein Benutzer in keiner Phase enthalten ist, aber Zugriff auf das Dokument hat und den Testversand öffnet, erstellt das System eine Phase mit dem Namen *Workfront*.
 >
 >Dem Benutzer, der den Testversand geöffnet hat, wird die unter Einrichtung > Überprüfen und Genehmigung > Rollen für Nicht-Empfänger zugewiesen, die einen Testversand öffnen.
 
@@ -47,7 +47,7 @@ Anweisungen zum Erstellen von Testsendungen für einen Testversand mit einem aut
 
 Wenn Sie den Prüfern auf einem Testversand unterschiedliche Testfristen zuweisen, erstellt das System eine Phase für jeden Termin und gruppiert die Validierer für jeden Termin in der entsprechenden Phase. 
 
-**Beispiel:** Wenn Sie beispielsweise einen Testversand mit vier Validierungsverantwortlichen erstellen:
+**Beispiel:** Beispiel: Wenn Sie einen Testversand mit vier Validierungsverantwortlichen erstellen:
 
 * Für die Prüfer Olivia und Tony geben Sie einen Termin für 14:00 in ein paar Tagen an.
 * Für Aaron und Amy legen Sie einen Termin für 17:00 Uhr ein paar Tage später fest.
@@ -55,6 +55,6 @@ Wenn Sie den Prüfern auf einem Testversand unterschiedliche Testfristen zuweise
 
 Das System erstellt eine Phase für jede dieser drei &quot;Gruppen&quot;von Validierern:
 
-![states.png](assets/stages-350x239.png)
+![stage.png](assets/stages-350x239.png)
 
 Wenn Sie den Testversand für einen anderen Validierer freigeben und keinen Termin angeben, fügt Workfront den Benutzer zu Stufe 3 hinzu, für die kein Termin festgelegt wurde. 

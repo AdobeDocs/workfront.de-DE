@@ -86,7 +86,7 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Voraussetzungen
@@ -109,7 +109,7 @@ Führen Sie mindestens einen der folgenden Schritte aus, um ein Ziel aktivieren 
 
 * Ein anderes Ziel an das Ziel ausrichten, das aktiviert werden soll
 
-  Weitere Informationen finden Sie unter [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Weitere Informationen finden Sie unter [Ziele ausrichten, indem Sie sie in Adobe Workfront-Zielen verbinden](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Aktivieren von Zielen
 
@@ -117,7 +117,7 @@ Sie können von Ihnen erstellte Ziele oder ein Ziel, für das Sie über Verwaltu
 
 1. Gehen Sie zu einem Ziel, das Sie aktivieren möchten. Die Zielseite wird geöffnet.
 
-1. Klicken Sie auf **Mehr** Menü ![](../goal-management/assets/more-icon.png) rechts neben dem Zielnamen, klicken Sie auf **Aktivieren**.
+1. Klicken Sie auf das Menü **Mehr** rechts neben dem Zielnamen und dann auf **Aktivieren**.![](../goal-management/assets/more-icon.png)
 
    ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 

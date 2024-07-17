@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -35,11 +35,11 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für das Dashboard verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Dashboard verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,12 +50,12 @@ Sie müssen über Folgendes verfügen:
 
 Wenn Sie ein Dashboard löschen möchten, können Sie es über das Menü Aktionen löschen.
 
-Informationen zum Löschen eines Dashboards mit einer externen Seite finden Sie unter [Löschen eines Dashboards aus dem Bereich &quot;Dashboards&quot;](#delete-a-dashboard-from-the-dashboards-area).
+Informationen zum Löschen eines Dashboards mit einer externen Seite, die eingebettet ist, finden Sie unter [Löschen eines Dashboards aus dem Bereich &quot;Dashboards&quot;](#delete-a-dashboard-from-the-dashboards-area).
 
 So löschen Sie ein Dashboard:
 
 1. Gehen Sie zum Dashboard, das Sie bearbeiten möchten.
-1. Klicken **Dashboard-Aktionen** Klicken Sie auf **Löschen**.
+1. Klicken Sie auf **Dashboard-Aktionen** und dann auf **Löschen**.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
@@ -66,9 +66,9 @@ Das Dashboard wird aus Workfront entfernt.
 
 Wenn Sie mehrere Dashboards löschen, können Sie die Dashboards aus dem Bereich &quot;Dashboards&quot;löschen. Dies ist auch die einzige Möglichkeit, ein Dashboard mit einer externen Seite zu löschen.
 
-So löschen Sie mehrere Dashboards:
+Löschen mehrerer Dashboards:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Dashboards**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Workfront und klicken Sie dann auf **Dashboards**.![](assets/main-menu-icon.png)
 1. Wählen Sie jedes Dashboard in der Liste aus, das Sie löschen möchten, und klicken Sie dann auf **Löschen** ![](assets/delete.png).
 
    ![](assets/nwe-deletedashboard2021-350x182.png)

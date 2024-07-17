@@ -71,7 +71,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,15 +84,15 @@ Im Folgenden finden Sie Prioritätstypen, mit denen Sie Projekte in Adobe Workfr
 
 * **Feld &quot;Projektpriorität&quot;**: Sie können einem Projekt manuell eine Priorität zuweisen. In diesem Artikel wird beschrieben, wie Sie einem Projekt manuell eine Priorität zuweisen.
 
-  Weitere Informationen finden Sie im Abschnitt . [Überlegungen zur Projektpriorität](#considerations-about-project-priority) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Überlegungen zur Projektpriorität](#considerations-about-project-priority) in diesem Artikel.
 
-* **Die Priorität eines Projekts im Portfolio Optimizer**, wenn das Projekt mit einem Portfolio verknüpft ist:
+* **Die Priorität eines Portfolio Optimizer**, wenn das Projekt mit einem Portfolio verknüpft ist:
 
-  Weitere Informationen zur Priorität eines Portfolios im Projektoptimierer finden Sie im Artikel [Priorisieren von Projekten in Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Weitere Informationen zur Priorität eines Portfolios im Projektoptimierer finden Sie im Artikel [Projektpriorität im Portfolio-Optimizer festlegen](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-* **Die Priorität eines Projekts im Ressourcenplaner**: Sie können Projekte im Ressourcenplaner manuell priorisieren, um anzugeben, welche Projekte zuerst Ressourcen erhalten sollen.
+* **Priorität eines Projekts im Ressourcenplaner**: Sie können Projekte im Ressourcenplaner manuell priorisieren, um anzugeben, welche Projekte zuerst Ressourcen erhalten sollen.
 
-  Weitere Informationen zur Priorisierung von Projekten im Ressourcen-Planer finden Sie im Abschnitt &quot;Project Planning Priority&quot;im Artikel [Navigationsübersicht über den Ressourcenplaner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Weitere Informationen zur Priorisierung von Projekten im Resource Planer finden Sie im Abschnitt &quot;Project Planning Priority&quot;im Artikel [Navigationsübersicht über Resource Planer](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Überlegungen zur Projektpriorität {#considerations-about-project-priority}
 
@@ -111,17 +111,17 @@ Beachten Sie bei der Auswahl einer Priorität für Ihre Projekte Folgendes:
 * Aufgaben und Probleme haben auch Prioritäten, aber die Aufgaben-, Problem- und Projektprioritäten funktionieren unabhängig voneinander und beeinflussen sich nicht automatisch gegenseitig. Sie können in einem Projekt mit niedriger Priorität ein Problem mit hoher Priorität oder eine Aufgabe mit mittlerer Priorität haben.
 * Sie können die Projektpriorität in den folgenden Bereichen von Workfront aktualisieren:
 
-   * Im **Projekt bearbeiten** Dialogfeld.
-   * Im **Projektdetails** -Registerkarte eines Projekts.
+   * Im Dialogfeld **Projekt bearbeiten** .
+   * Auf der Registerkarte **Projektdetails** eines Projekts.
    * In einer Projektliste oder einem Bericht.
 
 ## Aktualisieren des Felds &quot;Projektpriorität&quot;
 
 1. Wechseln Sie zu dem Projekt, dessen Priorität Sie aktualisieren möchten.
-1. Klicks **Projektdetails** im linken Bereich.
-1. Klicken Sie auf **Bearbeiten** icon ![](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails klicken Sie auf **Übersicht**.
+1. Klicken Sie im linken Bereich auf **Projektdetails** .
+1. Klicken Sie oben rechts im Bereich &quot;Projektdetails&quot;auf das Symbol **Bearbeiten** ![](assets/qs-edit-icon.png) und klicken Sie dann auf **Überblick**.
 
-1. Im **Priorität** aus den folgenden Optionen auswählen:
+1. Wählen Sie im Feld **Priorität** eine der folgenden Optionen aus:
 
    * Keine
    * Niedrig

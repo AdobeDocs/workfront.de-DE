@@ -30,7 +30,7 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte:
 * [Projekte: Artikelindex](../manage-work/projects/projects-overview.md)
 * [Aufgaben: Artikelindex](../manage-work/tasks/tasks-overview.md)
 * [Probleme](../manage-work/issues/issues-overview.md)
-* [Gantt-Diagramm](../manage-work/gantt-chart/the-gantt-chart.md)
+* [Das Gantt-Diagramm](../manage-work/gantt-chart/the-gantt-chart.md)
 * [Portfolio-Management](../manage-work/portfolios/portfolio-management-overview.md)
 * [Anforde- rungen](../manage-work/requests/requests-overview.md)
 * [Delegieren von Arbeiten](../manage-work/delegate-work/delegate-work.md)

@@ -27,9 +27,9 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Lay
 
 Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Layoutvorlagen für Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../use-layout-templates/assign-users-to-layout-template.md).
+Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
@@ -38,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-Abo</strong>
+   <td><strong>Adobe Workfront-Plan</strong>
    </td>
    <td>Alle
    </td>
@@ -62,17 +62,17 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Objektüberschriften anpassen
 
-1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie beschrieben in [Erstellen und Verwalten von Layoutvorlagen](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Im **Anpassen der Ansicht von Benutzern** Dropdown-Menü auswählen **Projekte**, **Aufgaben** oder **Probleme**.
+1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
+1. Wählen Sie im Dropdownmenü **Anpassen, was Benutzer sehen** die Option **Projekte**, **Aufgaben** oder **Probleme** aus.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. Im [!UICONTROL Kopfzeilenfelder] -Bereich, bewegen Sie den Mauszeiger über die angezeigten Felder und führen Sie einen der folgenden Schritte aus:
-   * Klicken Sie auf **x** Symbol zum Entfernen eines Felds
+1. Bewegen Sie im Abschnitt [!UICONTROL Kopfzeilenfelder] den Mauszeiger über die angezeigten Felder und führen Sie einen der folgenden Schritte aus:
+   * Klicken Sie auf das Symbol **x** , um ein Feld zu entfernen.
 
      Oder
 
-   * Klicken Sie auf und halten Sie die **Grab** -Symbol, um das Feld an eine neue Position zu ziehen und abzulegen.
+   * Klicken Sie auf das Symbol **Grab** und halten Sie es gedrückt, um das Feld an eine neue Position zu ziehen.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -80,7 +80,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 1. Sie können bis zu fünf Felder in der Kopfzeile eines Objekts haben.
 Wenn Sie bereits fünf Felder ausgewählt haben, müssen Sie ein Feld entfernen, bevor Sie ein neues hinzufügen können.
-1. Im **Feld hinzufügen** Geben Sie den Namen eines nicht bearbeitbaren Workfront-Felds ein, das Sie hinzufügen möchten, und wählen Sie es dann aus, wenn es in der Liste angezeigt wird. Das Feld wird direkt rechts neben dem Feld Feld hinzufügen hinzugefügt und wird als erstes Feld in der oberen linken Ecke der Kopfzeile des Objekts angezeigt.
+1. Geben Sie im Feld **Feld hinzufügen** den Namen eines nicht bearbeitbaren Workfront-Felds ein, das Sie hinzufügen möchten, und wählen Sie es dann aus, wenn es in der Liste angezeigt wird. Das Feld wird direkt rechts neben dem Feld Feld hinzufügen hinzugefügt und wird als erstes Feld in der oberen linken Ecke der Kopfzeile des Objekts angezeigt.
 
    >[!TIP]
    >
@@ -100,7 +100,7 @@ Wenn Sie bereits fünf Felder ausgewählt haben, müssen Sie ein Feld entfernen,
 
    Oder
 
-   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern**.
+   Wenn Sie mit dem Anpassen fertig sind, klicken Sie auf **Speichern**.
 
    >[!TIP]
    >

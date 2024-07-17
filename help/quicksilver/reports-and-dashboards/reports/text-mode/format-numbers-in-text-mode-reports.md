@@ -19,7 +19,7 @@ ht-degree: 7%
 
 Numerische Werte wie die Währung können so konfiguriert werden, dass sie in Adobe Workfront in verschiedenen Formaten in Berichten und Listen angezeigt werden.
 
-Um das Format eines numerischen Werts zu ändern, müssen Sie die **valueFormat** -Zeile Ihrer Spalte.
+Um das Format eines numerischen Werts zu ändern, müssen Sie die Zeile **valueFormat** in Ihrer Spalte bearbeiten.
 
 Wenn Sie beispielsweise die Spalte Budget als 1000 USD anzeigen möchten, würde die Zeile für das Wertformat wie folgt aussehen:
 
@@ -30,7 +30,7 @@ valuefield=budget
 
 Weitere Informationen zum Anwenden der bedingten Formatierung in Workfront-Berichten und -Listen im Textmodus finden Sie unter [Bedingte Formatierung im Textmodus verwenden](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-Sie können Zahlen mit den folgenden Werten für die `valueformat` Zeile Ihrer Spalte:
+Sie können Zahlen mit den folgenden Werten für die Zeile `valueformat` Ihrer Spalte formatieren:
 
 | Beispiel | `valueformat=` |
 |---|---|

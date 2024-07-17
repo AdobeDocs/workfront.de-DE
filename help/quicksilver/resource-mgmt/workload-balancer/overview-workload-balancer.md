@@ -26,11 +26,11 @@ Nachdem Projektmanager die Arbeit an Projekten geplant haben, indem sie Aufgaben
 >
 >Sie können den Lastenausgleich verwenden, um Benutzern tatsächliche Arbeit (Aufgaben und Probleme) zuzuweisen.
 >
->Sie müssen den Ressourcen-Planer und nicht den Arbeitslast-Balancer verwenden, um die Auftragsrollenzuweisungen für Ihre Projekte auf hoher Ebene zu schätzen. Weitere Informationen zum Ressourcen-Planer finden Sie unter [Übersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+>Sie müssen den Ressourcen-Planer und nicht den Arbeitslast-Balancer verwenden, um die Auftragsrollenzuweisungen für Ihre Projekte auf hoher Ebene zu schätzen. Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 In diesem Artikel werden der allgemeine Zweck des Workload Balancer und einige der Best Practices für die Einrichtung Ihrer Projekte und Ressourcen für die erfolgreiche Verwendung beschrieben.
 
-Um die Video-Tutorials des Workload Balancer zu überprüfen, gehen Sie zum [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Seite. Wählen Sie im linken Menü die Option **Ressourcen verwalten** > **Lastenausgleich** und wählen Sie ein Tutorial aus.
+Um die Video-Tutorials des Workload Balancer zu überprüfen, gehen Sie zur Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de) . Wählen Sie im linken Menü **Ressourcen verwalten** > **Lastenausgleich** aus und wählen Sie ein Tutorial.
 
 ## Suchen Sie den Lastenausgleich .
 
@@ -44,7 +44,7 @@ Es wird empfohlen, den Workflow-Lastenausgleich in den folgenden Bereichen für 
 * Auf Projektebene im Abschnitt Lastenausgleich eines Projekts.
 * Auf Teamebene im Bereich Lastenausgleich eines Teams.
 
-Weitere Informationen zum Auffinden des Lastenausgleichs finden Sie unter [Suchen Sie den Lastenausgleich .](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Weitere Informationen zum Auffinden des Lastenausgleichs finden Sie unter [Suchen des Lastenausgleichs](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Vorteile des Lastenausgleichs
 
@@ -58,18 +58,18 @@ Beachten Sie bei der Verwendung des Workload Balancers die folgenden Vorteile:
 * Als Personalverantwortlicher können Sie Ihre Menschen vor Burnout schützen und sie in die Lage versetzen, ihre beste Arbeit mit besserer Konzentration, Qualität und Interaktion zu erledigen. Sie können ihre volle Nutzung sicherstellen, Silos unterbrechen und die Abstimmung der Arbeit zwischen Teams ermöglichen.
 * Wenn Sie Arbeiten auf Aufgaben- oder Problemebene zuweisen, können Sie nicht erkennen, wie beschäftigt ein Benutzer sein könnte. Wenn Sie den Lastenausgleich verwenden, können Sie sehen, welche Benutzer in ihrer Arbeitslast verfügbar sind, um die Aufgabe oder das Problem rechtzeitig abzuschließen. Dazu gehören die Zeitdauer und Details zur Planung von Ausnahmen.
 
-  Weitere Informationen finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  Weitere Informationen finden Sie unter [Übersicht über das Zuweisen von Arbeit im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  Sie können Arbeitselemente auch stapelweise zuweisen, was die gleichzeitige Verteilung vieler Arbeitselemente über mehrere Projekte hinweg erleichtert. Weitere Informationen finden Sie unter [Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Sie können Arbeitselemente auch stapelweise zuweisen, was die gleichzeitige Verteilung vieler Arbeitselemente über mehrere Projekte hinweg erleichtert. Weitere Informationen finden Sie unter [Stapelweises Zuweisen von Aufgaben mithilfe des Lastenausgleichs](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * Führungskräfte können durch Transparenz in der Art und Weise, wie Menschen in ihrer Organisation genutzt werden, zeitnahe Personalentscheidungen treffen.
-* Teammitglieder profitieren von einer besseren Zusammenarbeit, da sie alle jederzeit sehen können, woran ihre Mitarbeiter arbeiten. Informationen über den Zugriff, der zum Anzeigen oder Verwalten von Ressourcen im Workload Balancer erforderlich ist, finden Sie unter [Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* Geben Sie ihn für alle Benutzer frei, die keinen Zugriff auf den Bereich &quot;Ressourcen&quot;haben, indem Sie einen Link dazu in eine benutzerdefinierte Registerkarte einbetten. Weitere Informationen finden Sie unter [Den Lastenausgleich über einen Link freigeben](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* Teammitglieder profitieren von einer besseren Zusammenarbeit, da sie alle jederzeit sehen können, woran ihre Mitarbeiter arbeiten. Informationen über den Zugriff, der zum Anzeigen oder Verwalten von Ressourcen im Lastenausgleich erforderlich ist, finden Sie unter [Für die Verwaltung von Ressourcen im Lastenausgleich benötigter Zugriff](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+* Geben Sie ihn für alle Benutzer frei, die keinen Zugriff auf den Bereich &quot;Ressourcen&quot;haben, indem Sie einen Link dazu in eine benutzerdefinierte Registerkarte einbetten. Weitere Informationen finden Sie unter [Freigeben des Lastenausgleichs für einen Link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
 * Visualisieren und verwalten Sie die Arbeitslasten und Anforderungen von Personen in einer Ansicht auf globaler, Projekt- oder Teamebene, je nach Ihrer Rolle. Bei der Projektverwaltung umfasst dies nicht nur die Ressourcenzuweisung für das Projekt, sondern auch die Visualisierung der Ressourcenzuordnung über den Adobe Workfront-Szenario-Planer. Manager von Personen verwenden den Workfront-Szenario-Planer, um die beruflichen Fertigkeiten in der gesamten Organisation zu verwalten. Der Szenario-Planer ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
 
   >[!NOTE]
   >
-  >  Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../scenario-planner/scenario-planner-overview.md).
+  >  Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../scenario-planner/scenario-planner-overview.md).
 
 
 ## Best Practices für die Verwendung des Lastenausgleichs
@@ -84,13 +84,13 @@ Wir empfehlen die folgenden Best Practices für die Planung von Projekten, die K
 
 Es wird empfohlen, Filter zu verwenden, damit Sie nur die Informationen anzeigen können, die für nicht zugewiesene und zugewiesene Arbeitselemente relevant sind.
 
-Informationen zum Erstellen und Verwenden von Filtern im Arbeitslastausgleich finden Sie unter [Filtern von Informationen im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Informationen zum Erstellen und Verwenden von Filtern im Arbeitslastausgleich finden Sie unter [Filterinformationen im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ### Best Practices zum Einrichten von Benutzern
 
 * Da der Benutzer, der Zeitpläne einplant, für andere Benutzer funktioniert, müssen Sie über die richtigen Zugriffsrechte und Berechtigungen verfügen, um Ressourcen für die Arbeit planen zu können.
 
-  Informationen über den Zugriff, der für die Verwaltung der Arbeitslast Ihrer Ressourcen im Workload-Balancer erforderlich ist, finden Sie unter [Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+  Informationen über den Zugriff, der für die Verwaltung der Arbeitslast Ihrer Ressourcen im Arbeitslade-Balancer erforderlich ist, finden Sie unter [Für die Verwaltung der Ressourcen im Arbeitslade-Balancer benötigter Zugriff](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 * Die Benutzer, deren Arbeitsaufwand Sie verwalten möchten, müssen die folgenden Kriterien erfüllen, damit die Informationen über ihre Verfügbarkeit und Fähigkeiten korrekt sind:
 
@@ -104,7 +104,7 @@ Informationen zum Erstellen und Verwenden von Filtern im Arbeitslastausgleich fi
 
    * Lassen Sie den Kalender in ihrem Profil aktualisiert.
 
-     Weitere Informationen zum Aktualisieren des Zeitlimitkalenders eines Benutzers finden Sie unter [Persönliche Zeit konfigurieren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Weitere Informationen zum Aktualisieren des Zeitlimitkalenders eines Benutzers finden Sie unter [Persönliche Zeit von ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) konfigurieren.
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
@@ -131,15 +131,15 @@ Stellen Sie sicher, dass die folgende Aufgabe und das Einrichten von Problemen v
 
 * Lesen Sie die folgenden Artikel, bevor Sie mit der Verwendung des Workload Balancers beginnen:
 
-   * In diesem Artikel erfahren Sie, wie Sie im Arbeitslastausgleich navigieren, um die folgenden Aktionen durchzuführen: [Navigieren Sie zum Lastenausgleich .](../workload-balancer/navigate-the-workload-balancer.md).
+   * Dieser Artikel führt Sie durch, wie Sie im Arbeitslastausgleich navigieren, um die folgenden Aktionen durchzuführen: [Navigieren Sie zum Arbeitslastausgleich](../workload-balancer/navigate-the-workload-balancer.md).
 
    * In den folgenden Artikeln erfahren Sie, wie Sie Arbeit zuweisen und Benutzerzuweisungen verwalten:
 
-      * [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../workload-balancer/assign-work-in-workload-balancer.md).
-      * [Verwalten von Benutzerzuordnungen im Lastenausgleich](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [Übersicht über die Zuweisung von Arbeit im Arbeitslade-Balancer](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [Verwalten Sie Benutzerzuordnungen im Arbeitslade-Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* Der Lastenausgleich ist in verschiedenen Bereichen von Workfront zu finden. Informationen darüber, wo Sie den Lastenausgleich finden können, finden Sie unter [Suchen Sie den Lastenausgleich .](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* Der Lastenausgleich ist in verschiedenen Bereichen von Workfront zu finden. Informationen darüber, wo Sie den Lastenausgleich finden können, finden Sie unter [Suchen des Lastenausgleichs](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Zugriff erforderlich, um den Lastenausgleich zu verwenden
 
-Sie müssen über den richtigen Workfront-Zugriff und die richtigen Berechtigungen für bestimmte Projekte verfügen, um den Workload Balancer in Workfront anzeigen und verwenden zu können. Informationen über den für die Verwendung des Workload Balancer benötigten Zugriff finden Sie im Artikel [Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+Sie müssen über den richtigen Workfront-Zugriff und die richtigen Berechtigungen für bestimmte Projekte verfügen, um den Workload Balancer in Workfront anzeigen und verwenden zu können. Informationen zum Zugriff, der für die Verwendung des Workload-Balancers erforderlich ist, finden Sie im Artikel [Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

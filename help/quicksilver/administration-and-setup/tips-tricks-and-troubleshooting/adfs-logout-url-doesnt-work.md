@@ -22,9 +22,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die [!UICONTROL Adobe Admin Console].
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in den [!UICONTROL Adobe Admin Console] integriert sind.
 >
->Wenn Ihr Unternehmen bei der [!UICONTROL Adobe Admin Console], siehe [Plattformbasierte Verwaltungsunterschiede ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Wenn Ihr Unternehmen in den [!UICONTROL Adobe Admin Console] integriert wurde, finden Sie weitere Informationen unter [Plattformbasierte Verwaltungsunterschiede ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Problem
 
@@ -54,20 +54,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen [!DNL Workfront] Administrator. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p>  </td> 
+   <td> <p>Sie müssen ein [!DNL Workfront] -Administrator sein. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für einen Benutzer</a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Lösung
 
-1. Wechseln Sie in Ihrem ADFS-Manager-Server zu **[!UICONTROL Vertrauensbeziehungen]** > **[!UICONTROL Vertrauen in Partei]** > `<your party trust>` Eigenschaften.
+1. Wechseln Sie in Ihrem ADFS-Manager-Server zu den Eigenschaften **[!UICONTROL Vertrauensbeziehungen]** > **[!UICONTROL Vertrauenswürdige Parteitreuen]** > `<your party trust>` .
 
-1. Unter dem **[!UICONTROL Endpunkte]** Registerkarte, klicken **[!UICONTROL Hinzufügen]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Endpunkte]** auf **[!UICONTROL Hinzufügen]**.
 
 1. **[!UICONTROL Endpunkttyp]** = SAML-Abmeldung, Bindung = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 

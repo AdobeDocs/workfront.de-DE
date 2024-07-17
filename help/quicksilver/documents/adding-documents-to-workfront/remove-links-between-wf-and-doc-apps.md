@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Beim erstmaligen Hochladen eines Dokuments von einem Dienst fordert Adobe Workfront die Berechtigung des Benutzers für den Zugriff auf seinen Dokumentdienst an. Wenn der Benutzer seine Document Service-Anmeldeinformationen zur Anmeldung bereitstellt, verknüpft sich der Document Service selbst mit Workfront.
 
-Informationen zum Verknüpfen externer Dokumentdienste mit Workfront finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Informationen zum Verknüpfen externer Dokumentdienste mit Workfront finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Da es sich bei dem Dokumentdienst um den Dienst handelt, der die Berechtigung zum Verknüpfen mit Workfront zulässt, ist es nicht möglich, dass Workfront die vom Dokumentdienst erteilte Berechtigung entfernt. Sie müssen die Berechtigung aus der Document Service-Anwendung entfernen oder Sie müssen unser Support-Team anrufen, um diesen Link von unseren Servern zu entfernen.
 
@@ -31,7 +31,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -50,28 +50,28 @@ Sie müssen über Folgendes verfügen:
 
 1. Melden Sie sich bei Dropbox an.
 1. Klicken Sie auf Ihr Profilbild in der oberen rechten Ecke und dann auf **Einstellungen**.
-1. Klicken Sie auf **Connected Apps** Registerkarte und scrollen Sie dann nach unten zu **Verknüpfte Apps**.
+1. Klicken Sie auf die Registerkarte **Connected apps** und scrollen Sie dann nach unten zu **Linked apps**.
 
-1. Klicken Sie auf **X** neben Workfront.
+1. Klicken Sie auf den **X** neben Workfront.
 
-## Verknüpfung zwischen Workfront und Box entfernen
+## Entfernen Sie die Verknüpfung zwischen Workfront und Box
 
 1. Melden Sie sich bei Ihrem Box-Konto an.
 1. Klicken Sie auf Ihr Profilbild in der oberen rechten Ecke.
-1. Klicken **Kontoeinstellungen**, dann **Sicherheit** Registerkarte.
+1. Klicken Sie auf **Kontoeinstellungen** und dann auf die Registerkarte **Sicherheit**.
 
-1. Suchen **MyWorkfront** und klicken Sie auf **X** unter &quot;App vergessen&quot;.
+1. Suchen Sie **MyWorkfront** und klicken Sie unter &quot;vergessene App&quot;auf das Symbol **X**.
 
 ## Entfernen Sie die Verknüpfung zwischen Workfront und Google Drive.
 
 1. Melden Sie sich bei Ihrem Google-Laufwerk an.
-1. Klicken Sie auf das Zahnradsymbol oben rechts und dann auf **Einstellungen**.
-1. Klicken **Apps verwalten** auf der linken Seite und suchen Sie **Workfront** in der Liste.
+1. Klicken Sie auf das Zahnradsymbol in der oberen rechten Ecke und dann auf **Einstellungen**.
+1. Klicken Sie auf der linken Seite auf **Apps verwalten** und suchen Sie in der Liste nach **Workfront** .
 
-1. Klicken Sie im Dropdown-Menü Optionen auf **Trennen Sie das Laufwerk.**.
+1. Klicken Sie im Dropdown-Menü &quot;Optionen&quot;auf **Verbindung vom Laufwerk trennen**.
 
 ## Entfernen der Verknüpfungen zwischen Workfront und anderen Dokumentenspeicheranbietern
 
 Sie müssen unser Supportteam anrufen, um die Verbindung zwischen Microsoft One Drive oder WebDAM und Workfront zu trennen.
 
-Informationen zur Kontaktaufnahme mit unserem Support-Team finden Sie unter [Support kontaktieren](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Weitere Informationen zur Kontaktaufnahme mit unserem Support-Team finden Sie unter [Wenden Sie sich an den Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

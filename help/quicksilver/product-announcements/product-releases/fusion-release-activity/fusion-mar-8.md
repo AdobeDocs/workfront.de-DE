@@ -23,12 +23,12 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfr
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 ## Suche nach Elementen im Zuordnungsbereich
 
 Damit Sie die Elemente, die Sie zuordnen möchten, in Ihren Szenarien leichter finden können, haben wir die Möglichkeit hinzugefügt, das Zuordnungsbedienfeld zu durchsuchen. Dies erleichtert die Zuordnung in Szenarien mit vielen Modulen oder Daten.
 
-Weitere Informationen zur Zuordnung finden Sie unter [Informationen in Adobe Workfront Fusion von einem Modul zum anderen zuordnen](../../../workfront-fusion/mapping/map-information-between-modules.md).
+Weitere Informationen zur Zuordnung finden Sie unter [Zuordnen von Informationen zwischen Modulen in Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
-Diese Funktion ist jetzt im [Universelle Connectoren und Routing in Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) Lernpfad auf Adobe Experience League.
+Diese Funktion ist jetzt im Lernpfad [Universelle Connectoren und Routing in Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) in Adobe Experience League enthalten.

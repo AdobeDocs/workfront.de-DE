@@ -10,7 +10,7 @@ exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
 source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 1%
 
 <!-- Audited: 01/2024 -->
 
-Ein Kalenderbericht ist ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. Sie können Datumsinformationen für die folgenden Objekte in einem Kalenderbericht anzeigen:
+Ein Kalenderbericht ist ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. In einem Kalenderbericht können Sie Datumsinformationen für folgende Objekte anzeigen:
 
 * Aufgaben
 * Probleme
 * Projekte
 
-Zugriff auf Kalenderberichte in [!DNL Adobe Workfront] wird durch Ihre Zugriffsstufe bestimmt. Weitere Informationen zum Zugriff, der zum Anzeigen von Kalenderberichten erforderlich ist, finden Sie unter [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Ihre Fähigkeit, auf Kalenderberichte in [!DNL Adobe Workfront] zuzugreifen, wird durch Ihre Zugriffsebene bestimmt. Weitere Informationen zum Zugriff auf Kalenderberichte finden Sie unter [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Erstellen eigener Kalender
 
@@ -40,18 +40,18 @@ Zugriff auf Kalenderberichte in [!DNL Adobe Workfront] wird durch Ihre Zugriffss
 >
 >Der persönliche Kalender wird nicht erstellt, wenn Sie Zugriff auf andere Kalender haben, z. B. einen systemweiten freigegebenen Kalender oder Kalender, die speziell für Sie freigegeben wurden.
 
-Darüber hinaus können Sie Kalender erstellen und auf Kalender zugreifen, die von anderen Benutzern für Sie freigegeben wurden. Die Anzahl der Kalender, auf die Sie in zugreifen können, ist unbegrenzt [!DNL Workfront].
+Darüber hinaus können Sie Kalender erstellen und auf Kalender zugreifen, die von anderen Benutzern für Sie freigegeben wurden. Die Anzahl der Kalender, auf die Sie in [!DNL Workfront] zugreifen können, ist unbegrenzt.
 
 >[!NOTE]
 >
->Sie müssen [!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards], und [!UICONTROL Kalender] in Ihrer Zugriffsebene, um einen Kalenderbericht zu erstellen. Wenden Sie sich an [!DNL Workfront] Administrator für weitere Informationen.
+>Sie müssen auf Ihrer Zugriffsebene über den Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards] und [!UICONTROL Kalender] verfügen, um einen Kalenderbericht zu erstellen.  Wenden Sie sich für weitere Informationen an Ihren [!DNL Workfront] -Administrator.
 
 ## Gruppieren von Elementen nach Datum
 
 In jedem Kalenderbericht können Sie Gruppen von Elementen erstellen, mit denen Sie den Fokus des Kalenders eingrenzen können. Sie können beispielsweise eine Kalendergruppierung einrichten, die die Daten für alle Aufgaben eines bestimmten Projekts, die Mitglieder des Marketing-Teams, die derzeit an dem Projekt arbeiten, und die dem Projekt-Team zugewiesenen überfälligen Probleme anzeigt. Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Verwendung [!UICONTROL Geplante Datumswerte] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-* [Verwendung [!UICONTROL Vorgeschlagene Datumswerte] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+* [Verwenden von [!UICONTROL geplanten Datumswerten] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [Verwendung von [!UICONTROL prognostizierten Datumswerten] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
 >[!NOTE]
@@ -60,4 +60,4 @@ In jedem Kalenderbericht können Sie Gruppen von Elementen erstellen, mit denen 
 
 ## Kalender zu einem Dashboard hinzufügen
 
-Sie können schnell auf Ihre Kalenderberichte zugreifen, indem Sie sie in einem Dashboard anzeigen. Informationen zum Hinzufügen eines Kalenders zu einem Dashboard finden Sie unter [Dashboard bearbeiten](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
+Sie können schnell auf Ihre Kalenderberichte zugreifen, indem Sie sie in einem Dashboard anzeigen. Informationen zum Hinzufügen eines Kalenders zu einem Dashboard finden Sie unter [Bearbeiten eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

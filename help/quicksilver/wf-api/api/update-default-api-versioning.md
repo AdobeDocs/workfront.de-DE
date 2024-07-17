@@ -9,7 +9,7 @@ role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Integrationen, die keine Version der API im URI angeben, werden automatisch an &
 >
 >Wenn Ihr Unternehmen derzeit die Standard-API verwendet, hat Ihr Workfront-Administrator eine Mitteilung zum Ankündigungszentrum mit weiteren Anweisungen zur Standard-API erhalten.
 
-Informationen zum Festlegen einer Version in Ihren API-Anfragen finden Sie unter [API-Version in Ihren Integrationen angeben](../../wf-api/api/specify-api-version-integrations.md).
+Weitere Informationen zum Angeben einer Version in Ihren API-Anfragen finden Sie unter [API-Version in Ihren Integrationen angeben](../../wf-api/api/specify-api-version-integrations.md).
 
 ## Überlegungen zur Verwendung der Standard-API
 
 Beachten Sie beim Arbeiten mit der Workfront-Standard-API Folgendes:
 
-* Die Standardversion der API ist die neueste Version. Für jeden API-Aufruf ohne die angegebene Version wird die Standardversion verwendet. Jedes Mal, wenn Workfront eine neue API-Version veröffentlicht, wird die Standardversion auf die neueste Version aktualisiert. **Daher sollten nach Veröffentlichung einer neuen Version der Workfront-API alle API-Aufrufe, die die Standardversion verwenden, überprüft werden, um sicherzustellen, dass die Funktionalität weiterhin unterstützt wird.**.
+* Die Standardversion der API ist die neueste Version. Für jeden API-Aufruf ohne die angegebene Version wird die Standardversion verwendet. Jedes Mal, wenn Workfront eine neue API-Version veröffentlicht, wird die Standardversion auf die neueste Version aktualisiert. **Daher sollten nach Veröffentlichung einer neuen Version der Workfront-API alle API-Aufrufe, die die Standardversion verwenden, überprüft werden, um sicherzustellen, dass die Funktionalität weiterhin unterstützt wird**.
 * Wenn Ihr Unternehmen derzeit die veraltete Standard-API verwendet, hat Ihr Workfront-Administrator eine Mitteilung zum Ankündigungszentrum mit weiteren Anweisungen zur Standard-API erhalten.
 
-Die neueste Version der API finden Sie unter [API-Versionierung und Support-Zeitplan](../../wf-api/api/api-version-support-schedule.md).
+Informationen zur neuesten Version der API finden Sie unter [API-Versionierung und Support-Zeitplan](../../wf-api/api/api-version-support-schedule.md).
 
 ## Aktualisieren Ihrer Integrationen auf unterstützte API-Versionen
 
@@ -51,7 +51,7 @@ Um eine Standard-API-Anfrage in eine versionierte API-Anfrage umzuwandeln, rufen
 
 Beim Aktualisieren Ihrer Workfront-API-Anfragen können Sie eine beliebige unterstützte Version unserer API angeben. Weitere Informationen zum Referenzieren einer bestimmten API finden Sie unter [API-Version in Ihren Integrationen angeben](../../wf-api/api/specify-api-version-integrations.md).
 
-Um das maximale Support-Fenster sicherzustellen, sollten Sie die neueste Version aufrufen. Eine Liste der unterstützten APIs finden Sie in [API-Versionierung und Support-Zeitplan](../../wf-api/api/api-version-support-schedule.md).
+Um das maximale Support-Fenster sicherzustellen, sollten Sie die neueste Version aufrufen. Eine Liste der unterstützten APIs finden Sie im [API-Versionierungs- und Support-Zeitplan](../../wf-api/api/api-version-support-schedule.md).
 
 ## Verlauf der Standardversion der API
 

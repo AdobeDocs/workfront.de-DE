@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,20 +59,20 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 >[!IMPORTANT]
 >
->Wenn Sie die Breite einer Spalte manuell ändern, wie im Abschnitt beschrieben [Länge und Reihenfolge der Spalten vorübergehend ändern](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) im Artikel [Spaltenbreite und -reihenfolge ändern](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) Wenn Sie die Breite der Spalte dauerhaft geändert haben, wird die Breite der Spalte entsprechend der manuellen Größenanpassung beibehalten. In diesem Fall wird die Breite der Spalte, die gemäß den folgenden Schritten aktualisiert wurde, überschrieben. Sie können die Spalte entsprechend der in den folgenden Schritten definierten Breite anzeigen, nachdem Sie Ihren Cache gelöscht oder sich über einen anderen Browser angemeldet haben.
+>Wenn Sie die Breite einer Spalte manuell ändern, wie im Abschnitt [Breite und Reihenfolge der Spalten vorübergehend ändern](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) im Artikel [Spaltenbreite und -reihenfolge ändern](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) beschrieben, nachdem Sie die Breite der Spalte dauerhaft geändert haben, wird die Breite der Spalte entsprechend der manuellen Größenanpassung beibehalten. In diesem Fall wird die Breite der Spalte, die gemäß den folgenden Schritten aktualisiert wurde, überschrieben. Sie können die Spalte entsprechend der in den folgenden Schritten definierten Breite anzeigen, nachdem Sie Ihren Cache gelöscht oder sich über einen anderen Browser angemeldet haben.
 >
 >Weitere Informationen zum Anpassen der Spaltenbreite bei Verwendung der Benutzeroberfläche für den Textmodus finden Sie in den Definitionen &quot;Breite&quot;und &quot;Stretch&quot;im [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Navigieren Sie zu einer Liste von Objekten.
-1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
+1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
 
-1. Klicks **Spalte hinzufügen** um eine neue Spalte hinzuzufügen.
+1. Klicken Sie auf **Spalte hinzufügen** , um eine neue Spalte hinzuzufügen.
 
    Oder
 
    Klicken Sie auf die Spaltenüberschrift einer vorhandenen Spalte.
 
-1. Klicks **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
 1. Fügen Sie den folgenden Code zum Textmodus der Spalte hinzu:
 
@@ -81,8 +81,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    usewidths=true
    ```
 
-   Für **width** eine beliebige Zahl (in Pixel) angeben, die angibt, wie breit die Spalte in der Ansicht angezeigt werden soll.
+   Geben Sie für die Zeile **width** eine beliebige Zahl (in Pixel) an, die angibt, wie breit die Spalte in der Ansicht angezeigt werden soll.
 
-1. Klicks **Speichern**, dann **Ansicht speichern**.
+1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.
 
 

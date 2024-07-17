@@ -29,7 +29,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -48,23 +48,23 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 Wenn Sie Timesheets manuell generieren:
 
-* Sie werden entsprechend den mit Ihren Benutzern verknüpften Timesheet-Profilen erstellt. Benutzer, denen keine Timesheet-Profile zugeordnet sind, erhalten keine Timesheets. 
+* Sie werden entsprechend den mit Ihren Benutzern verknüpften Timesheet-Profilen erstellt. Benutzer, denen keine Timesheet-Profile zugeordnet sind, erhalten keine Zeitpläne. 
 * Es werden nur das aktuelle und das folgende Timesheet erzeugt. Workfront generiert keine zwei Timesheets für denselben Zeitraum. Wenn Sie bereits über ein Timesheet für einen bestimmten Zeitraum verfügen, wird kein anderer erstellt, wenn Sie den manuellen Prozess zum Generieren von Timesheets verwenden.
 
 ## Manuelles Generieren von Timesheets aus dem Bereich &quot;Timesheets und Stunden&quot;
 
 Sie können Timesheets auf System- oder Gruppenebene manuell aus dem Bereich &quot;Timesheets und Stunden&quot;im Setup generieren.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Wenn Sie im gesamten System verwendete Timesheets generieren, klicken Sie auf **Timesheets und Stunden.**
+1. Wenn Sie Timesheets generieren, die im gesamten System verwendet werden, klicken Sie auf **Timesheets und Stunden.**
 
    Oder
 
-   Wenn Sie von einer bestimmten Gruppe verwendete Timesheets generieren, klicken Sie auf **Gruppen** und klicken Sie dann auf den Namen der Gruppe.
+   Wenn Sie Timesheets generieren, die von einer bestimmten Gruppe verwendet werden, klicken Sie auf **Gruppen** und dann auf den Namen der Gruppe.
 
-1. Klicken **Datenblatt-Profile**.
-1. Klicken **Mehr**, dann **Generieren von Timesheets**.
+1. Klicken Sie auf **Timesheet-Profile**.
+1. Klicken Sie auf **Mehr** und dann auf **Timesheets generieren**.
 
    Neue Timesheets werden für Benutzer erstellt, die mit Timesheet-Profilen verknüpft sind, und zwar für bis zu zwei Zeiträume.
 
@@ -72,9 +72,9 @@ Sie können Timesheets auf System- oder Gruppenebene manuell aus dem Bereich &qu
 
 Sie können Timesheets auf Systemebene manuell über den Bereich Diagnose im Setup generieren.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Erweitern **System** Klicken Sie auf **Diagnose**.
+1. Erweitern Sie **System** und klicken Sie dann auf **Diagnose**.
 
-1. Klicken **Produktdiagnose**. 
-1. Klicken **Generieren von Timesheets**.
+1. Klicken Sie auf **Diagnose durchführen**. 
+1. Klicken Sie auf **Timesheets generieren**.

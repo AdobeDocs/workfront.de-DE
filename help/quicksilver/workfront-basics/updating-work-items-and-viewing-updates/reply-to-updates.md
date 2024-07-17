@@ -49,7 +49,7 @@ Wenn ein Benutzer auf einen Kommentar oder ein Systemaktualisierung zu einem Arb
 >
 >Es ist nicht möglich, auf Systemaktualisierungen auf der Registerkarte Systemaktivität zu antworten. Alle Antworten auf Systemaktualisierungen, die vor dem 11. April 2024 in der bisherigen Kommentierungserfahrung vorgenommen wurden, werden als schreibgeschützt angezeigt.
 
-In diesem Artikel wird beschrieben, wie Sie auf Kommentare von den meisten Objekten in Workfront antworten. Unterschiede zwischen den Abschnitten &quot;Updates&quot;verschiedener Objekte finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+In diesem Artikel wird beschrieben, wie Sie auf Kommentare von den meisten Objekten in Workfront antworten. Unterschiede zwischen den Abschnitten &quot;Aktualisierungen&quot;verschiedener Objekte finden Sie unter Überblick über den Abschnitt [Aktualisierungen&quot;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -79,39 +79,39 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Antworten auf ein Update oder eine Antwort in Workfront
 
-Sie können auf einen Kommentar im Thread eines Objekts antworten, das Sie anzeigen können, oder sich als Workfront- oder Gruppenadministrator anmelden und im Namen eines anderen Benutzers auf einen Kommentar antworten. Weitere Informationen finden Sie unter [Melden Sie sich als anderer Benutzer an](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Sie können auf einen Kommentar im Thread eines Objekts antworten, das Sie anzeigen können, oder sich als Workfront- oder Gruppenadministrator anmelden und im Namen eines anderen Benutzers auf einen Kommentar antworten. Weitere Informationen finden Sie unter [Als anderer Benutzer anmelden](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 ### Antworten auf Kommentare
 
 Antworten Sie auf einen Kommentar im Abschnitt &quot;Aktualisierungen&quot;eines Objekts ist für die meisten Objekte in Workfront ähnlich.
 
 1. Markieren Sie das Objekt, dem Sie eine Antwort hinzufügen möchten.
-1. Klicks **Updates** und klicken Sie dann auf **Kommentare** Registerkarte für das Objekt und suchen Sie den Kommentar oder die Antwort, auf den/die Sie antworten möchten
+1. Klicken Sie auf **Aktualisierungen**, klicken Sie dann auf die Registerkarte **Kommentare** für das Objekt und suchen Sie den Kommentar oder die Antwort, auf den/die Sie antworten möchten
 
    Oder
 
-   Klicken Sie auf **Alle** Registerkarte und klicken Sie dann auf **In Kommentaren antworten** , um den Kommentar auf der Registerkarte Kommentare zu öffnen und darauf zu antworten. Sie können auf der Registerkarte &quot;Alle&quot;nicht antworten.
+   Klicken Sie auf die Registerkarte **Alle** und dann auf **In Kommentaren antworten** , um den Kommentar auf der Registerkarte &quot;Kommentare&quot;zu öffnen und darauf zu antworten. Sie können auf der Registerkarte &quot;Alle&quot;nicht antworten.
 
-1. (Optional) Wenn Sie Text aus einer vorherigen Aktualisierung in Ihre Antwort aufnehmen möchten, klicken Sie auf die **Mehr** in der oberen rechten Ecke des Kommentars, auf den Sie antworten möchten, klicken Sie auf **Anführungsantwort**. Text aus der vorherigen Aktualisierung wird im Eingabefeld mit einer vertikalen grauen Linie markiert.
-1. Klicks **Antwort**.
+1. (Optional) Um Text aus einer vorherigen Aktualisierung in Ihre Antwort aufzunehmen, klicken Sie auf das Menü **Mehr** in der oberen rechten Ecke des Kommentars, auf den Sie antworten möchten, und klicken Sie dann auf **Antwort anfügen**. Text aus der vorherigen Aktualisierung wird im Eingabefeld mit einer vertikalen grauen Linie markiert.
+1. Klicken Sie auf **Antworten**.
 
    ![](assets/reply-to-update-empty-box.png)
 
-   Sie können die Benutzer sehen, die aktiv an der Unterhaltung beteiligt sind am unteren Rand der **Antwort hinzufügen...** und Sie können weitere hinzufügen oder die nicht mehr relevanten entfernen. Diese Benutzer erhalten zusammen mit allen Benutzern, die das Objekt abonniert haben, eine Benachrichtigung, sobald ein Objekt aktualisiert oder beantwortet wird. Sie können auch weitere Benutzer taggen, um sie in Ihre Antwort einzubeziehen.  Weitere Informationen zum Tagging von Benutzern finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Sie können die Benutzer sehen, die aktiv an der Konversation beteiligt sind, am unteren Rand des Felds **Antwort hinzufügen..** und Sie können weitere hinzufügen oder diejenigen entfernen, die nicht mehr relevant sind. Diese Benutzer erhalten zusammen mit allen Benutzern, die das Objekt abonniert haben, eine Benachrichtigung, sobald ein Objekt aktualisiert oder beantwortet wird. Sie können auch weitere Benutzer taggen, um sie in Ihre Antwort einzubeziehen.  Informationen zum Taggen weiterer Benutzer finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    >[!TIP]
    >
-   >   Um zusätzliche Antworten auf eine vorhandene Antwort hinzuzufügen, können Sie die Variable **Antwort hinzufügen ...** oder klicken Sie **Antwort** zum ursprünglichen Kommentar. Ihre Antwort wird am Ende des Threads hinzugefügt.
+   >   Um zusätzliche Antworten auf eine vorhandene Antwort hinzuzufügen, können Sie mit der Eingabe in das Feld **Antwort hinzufügen ...** beginnen oder auf **Antwort** im ursprünglichen Kommentar klicken. Ihre Antwort wird am Ende des Threads hinzugefügt.
 
-1. Beginnen Sie mit der Eingabe Ihrer Antwort und verwenden Sie zusätzliche Optionen aus der Rich-Text-Symbolleiste. Informationen zur Verwendung von Rich Text oder anderen Aktualisierungsfunktionen finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+1. Beginnen Sie mit der Eingabe Ihrer Antwort und verwenden Sie zusätzliche Optionen aus der Rich-Text-Symbolleiste. Informationen zur Verwendung von Rich Text oder anderen Aktualisierungsfunktionen finden Sie unter [Arbeit aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
 
-1. Klicks **Einsenden** , um die Antwort zu speichern.
+1. Klicken Sie auf **Senden** , um die Antwort zu speichern.
 
-1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) in der oberen rechten Ecke des Kommentars, auf den Sie antworten möchten, finden Sie weitere Optionen zum Verwalten der Antwort. Weitere Informationen finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Klicken Sie oben rechts im Kommentar, auf den Sie antworten möchten, auf das Menü **Mehr** ![](assets/more-menu.png) , um weitere Optionen zum Verwalten der Antwort zu erhalten. Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
@@ -149,7 +149,7 @@ Im Folgenden finden Sie ein Beispiel für eine E-Mail-Benachrichtigung, die durc
 
 ![email.png](assets/email-350x202.png)
 
-Weitere Informationen finden Sie unter [Antworten auf E-Mail-Benachrichtigungen](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
+Weitere Informationen finden Sie unter [Antworten auf E-Mail-Benachrichtigungen ](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
 
 

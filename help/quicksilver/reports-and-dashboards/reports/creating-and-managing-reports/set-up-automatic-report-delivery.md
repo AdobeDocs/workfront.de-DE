@@ -8,8 +8,8 @@ feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 3%
+source-wordcount: '1165'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 Sie können Berichte so planen, dass sie den Benutzern automatisch nach einem festgelegten Zeitplan bereitgestellt werden, oder Sie können Berichte manuell einmalig versenden. Wenn Sie einen Bericht von Adobe Workfront senden, erhält der Benutzer eine E-Mail mit dem Workfront-Bericht in einem separaten Anhang.
 
-Weitere Informationen, einschließlich Größenbeschränkungen, die sich auf die Bereitstellung Ihrer Berichte auswirken können, finden Sie unter [Berichtversand - Übersicht](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Weitere Informationen, einschließlich Größenbeschränkungen, die sich auf die Bereitstellung Ihrer Berichte auswirken können, finden Sie unter [Übersicht über die Berichtbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Zugriffsanforderungen
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,16 +66,16 @@ So planen Sie einen Bericht für die automatische Bereitstellung oder zum Bearbe
    >
    >Berichtbereitstellungen enthalten keine Eingabeaufforderungen. Wenn Sie Daten in einem Berichtversand begrenzen möchten, empfehlen wir, Filter auf den Bericht anzuwenden, den Sie senden möchten.
 
-1. Klicken **Berichtaktionen**, dann **Bericht senden**.
+1. Klicken Sie auf **Berichtaktionen** und dann auf **Bericht senden**.
 
-   Die **Bericht senden** angezeigt.
+   Das Dialogfeld **Bericht senden** wird angezeigt.
 
    >[!TIP]
    >
-   >Um einen Bericht zu einem beliebigen Zeitpunkt manuell zu senden, rufen Sie den Bericht auf und klicken Sie auf **Berichtaktionen** > **Bericht senden** > **Jetzt senden**.
+   >Um einen Bericht jederzeit manuell zu senden, gehen Sie zum Bericht und klicken Sie dann auf **Berichtaktionen** > **Bericht senden** > **Jetzt senden** .
 
-1. Wählen Sie die **Wiederholen von Sendungen** Registerkarte.
-1. (Bedingt) Um einen vorhandenen wiederholten Berichtversand zu ändern, wählen Sie den Berichtversand im **Wiederholen von Sendungen** Abschnitt.
+1. Wählen Sie den Tab **Sendungen wiederholen** aus.
+1. (Bedingt) Um einen vorhandenen wiederholten Berichtversand zu ändern, wählen Sie den Berichtversand im Abschnitt **Sendungen wiederholen** aus.
 1. Geben Sie die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
@@ -84,9 +84,9 @@ So planen Sie einen Bericht für die automatische Bereitstellung oder zum Bearbe
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Senden an</p> </td> 
-      <td> <p>Beginnen Sie mit der Eingabe des Namens des Benutzers, der Gruppe, des Teams oder der Rolle, an den/die Sie den Bericht senden möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdownliste angezeigt wird.</p> <p>Oder</p> <p>Geben Sie die E-Mail-Adresse einer außerhalb des Workfront-Systems befindlichen Person an, die Zugriff auf den Bericht erhalten soll.</p> <p>Wiederholen Sie diesen Vorgang, um den Bericht an mehrere Benutzer, Gruppen, Teams oder Rollen zu senden.</p> <p>Notiz:  <p>Beachten Sie beim Hinzufügen von Empfängern für die Berichtbereitstellung Folgendes:</p> 
+      <td> <p>Beginnen Sie mit der Eingabe des Namens des Benutzers, der Gruppe, des Teams oder der Rolle, an den/die Sie den Bericht senden möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdownliste angezeigt wird.</p> <p>Oder</p> <p>Geben Sie die E-Mail-Adresse einer außerhalb des Workfront-Systems befindlichen Person an, die Zugriff auf den Bericht erhalten soll.</p> <p>Wiederholen Sie diesen Vorgang, um den Bericht an mehrere Benutzer, Gruppen, Teams oder Rollen zu senden.</p> <p>Hinweis:  <p>Beachten Sie beim Hinzufügen von Empfängern für die Berichtbereitstellung Folgendes:</p> 
         <ul> 
-         <li>Wenn Ihre Organisation Workfront-Benachrichtigungen auf bestimmte E-Mail-Domänen beschränkt, können Sie Berichte nur an die in der E-Mail-Zulassungsliste aufgelisteten E-Mail-Adressen senden.<p>Informationen dazu, wie ein Workfront-Administrator die E-Mail-Zulassungsliste aktualisiert, finden Sie im Abschnitt . <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Konfigurieren der E-Mail-Zulassungsliste</a>.</p></li> 
+         <li>Wenn Ihre Organisation Workfront-Benachrichtigungen auf bestimmte E-Mail-Domänen beschränkt, können Sie Berichte nur an die in der E-Mail-Zulassungsliste aufgelisteten E-Mail-Adressen senden.<p>Informationen dazu, wie ein Workfront-Administrator die E-Mail-Zulassungsliste aktualisiert, finden Sie im Abschnitt <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">E-Mail konfigurieren</a>.</p></li> 
          <li> <p>Das Hinzufügen einer großen Anzahl von Benutzern als Empfänger kann dazu führen, dass der Versand fehlschlägt. Wenn bei Ihnen Versandfehler auftreten, können Sie mehrere Berichtbereitstellungen mit kleineren Benutzergruppen planen.</p> </li> 
         </ul> </p> </td> 
      </tr> 
@@ -96,25 +96,25 @@ So planen Sie einen Bericht für die automatische Bereitstellung oder zum Bearbe
      </tr> 
      <tr> 
       <td role="rowheader"> <p>E-Mail-Nachricht</p> </td> 
-      <td> <p>Geben Sie eine Nachricht an, die in die E-Mail aufgenommen werden soll.</p> <p>Standardmäßig lautet die E-Mail-Nachricht:</p> <p><em>Angehängt ist der [Berichtsfrequenz]-Bericht [Name des Berichts], der von Workfront am [Datum] generiert wurde.</em> </p> <p>Hinweis: Nur für Berichte, die als Excel-Datei übermittelt werden, wird die folgende Nachricht der E-Mail hinzugefügt: "Bitte beachten Sie, dass bei MS Excel (XLS)-Dateitypen die Anzahl der von diesen Dateitypen unterstützten Hyperlinks (65.530) begrenzt ist. Wenn Sie diese Beschränkungen überschreiten, wird Ihre Datei nicht geöffnet und es wird empfohlen, ohne die Hyperlinks erneut zu senden. Gehen Sie zurück zur Planung des Berichts, um Hyperlinks zu entfernen und den Bericht erneut zu senden." Die Wortgruppe "Bitte gehen Sie zurück zur Berichtsplanung" ist ein Link zurück zum Bericht.</p> </td> 
+      <td> <p>Geben Sie eine Nachricht an, die in die E-Mail aufgenommen werden soll.</p> <p>Standardmäßig lautet die E-Mail-Nachricht:</p> <p><em>Angehängt ist der [Berichtsfrequenz]-Bericht [Name des Berichts], der von Workfront am [Datum] generiert wurde.</em> </p> <p>Hinweis: Bei Berichten, die nur als Excel-Datei gesendet werden, wird der E-Mail auch die folgende Meldung hinzugefügt: "Beachten Sie, dass bei MS Excel (XLS)-Dateitypen die Anzahl der Hyperlinks, die diese Dateitypen unterstützen, begrenzt ist (65.530). Wenn Sie diese Beschränkungen überschreiten, wird Ihre Datei nicht geöffnet und es wird empfohlen, ohne die Hyperlinks erneut zu senden. Gehen Sie zurück zur Planung des Berichts, um Hyperlinks zu entfernen und den Bericht erneut zu senden." Die Wortgruppe "Bitte gehen Sie zurück zur Berichtsplanung" ist ein Link zurück zum Bericht.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Diesen Bericht senden mit Zugriffsrechten von</p> </td> 
-      <td> <p>Beginnen Sie mit der Eingabe des Namens eines Benutzers, der Zugriff auf den Bericht hat, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Benutzern, die den Bericht erhalten, wird derselbe Zugriff auf den Bericht gewährt wie dem Benutzer, den Sie hier angeben.<br> Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Einen Bericht mit Zugriffsrechten für einen anderen Benutzer ausführen und bereitstellen</a>.</p> <p>Hinweis: Dieses Feld unterstützt keine Platzhalter. Beispielsweise führt die Verwendung des Platzhalters $$User.ID den Bericht nicht mit den Zugriffsrechten des Benutzers aus, der den Bericht erhält.</p> </td> 
+      <td role="rowheader"> <p>Bereitstellen dieses Berichts mit den Zugriffsrechten von</p> </td> 
+      <td> <p>Geben Sie den Namen eines Benutzers ein, der Zugriff auf den Bericht hat, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Benutzern, die den Bericht erhalten, wird derselbe Zugriff auf den Bericht gewährt wie dem Benutzer, den Sie hier angeben.<br> Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ausführen und Bereitstellen eines Berichts mit den Zugriffsrechten eines anderen Benutzers</a>.</p> <p>Hinweis: Dieses Feld unterstützt keine Platzhalter. Beispielsweise führt die Verwendung des Platzhalters $$User.ID den Bericht nicht mit den Zugriffsrechten des Benutzers aus, der den Bericht erhält.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Format</p> </td> 
       <td> <p>Wählen Sie das Format für den gelieferten Bericht aus:</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>Wenn Sie diese Option auswählen, können Sie die Ausgabe mit dem zusätzlichen <strong>Papierformat</strong> und <strong>Ausrichtung</strong> Optionen, die angezeigt werden.</p> </li> 
+        <li> <p>PDF</p> <p>Wenn Sie diese Option auswählen, können Sie die Ausgabe mit den zusätzlichen angezeigten Optionen <strong>Papiergröße</strong> und <strong>Ausrichtung</strong> formatieren.</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Links einbeziehen</p> </td> 
-      <td> <p>Diese Option ist nur verfügbar, wenn <strong>MS Excel</strong> wird im <strong>Format</strong> Dropdown-Menü. Wenn diese Option aktiviert ist, werden alle Hyperlinks in das exportierte Excel-Dokument aufgenommen.</p> <p>Dokumente mit mehr als 65.530 Links können nicht geöffnet werden. Wenn das exportierte Dokument mehr als 65.530 Links enthält, deaktivieren Sie diese Option.</p> <p>Diese Option ist standardmäßig aktiviert.</p> </td> 
+      <td> <p>Diese Option ist nur verfügbar, wenn im Dropdown-Menü <strong>Format</strong> die Option <strong>MS Excel</strong> ausgewählt ist. Wenn diese Option aktiviert ist, werden alle Hyperlinks in das exportierte Excel-Dokument aufgenommen.</p> <p>Dokumente mit mehr als 65.530 Links können nicht geöffnet werden. Wenn das exportierte Dokument mehr als 65.530 Links enthält, deaktivieren Sie diese Option.</p> <p>Diese Option ist standardmäßig aktiviert.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Zusammenfassung</p> </td> 
@@ -126,7 +126,7 @@ So planen Sie einen Bericht für die automatische Bereitstellung oder zum Bearbe
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Wiederholung alle</p> </td> 
-      <td> <p>Wählen Sie die Häufigkeit aus, mit der der Versand wiederholt werden soll. Der Wert, den Sie für diese Option auswählen, basiert auf der in der Variablen <strong>Wiederholungen</strong> Dropdown-Liste.</p> </td> 
+      <td> <p>Wählen Sie die Häufigkeit aus, mit der der Versand wiederholt werden soll. Der Wert, den Sie für diese Option auswählen, basiert auf der Option, die in der Dropdownliste <strong>Wiederholungen</strong> ausgewählt ist.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Uhrzeit</p> </td> 
@@ -134,10 +134,10 @@ So planen Sie einen Bericht für die automatische Bereitstellung oder zum Bearbe
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Wiederholung am</p> </td> 
-      <td> <p>Diese Option ist verfügbar, wenn die Variable <strong>Wiederholungen</strong> ist auf <strong>Wöchentlich</strong> oder <strong>Monatlich</strong>:</p> 
+      <td> <p>Diese Option ist verfügbar, wenn die Option <strong>Wiederholungen</strong> auf <strong>Wöchentlich</strong> oder <strong>Monatlich</strong> festgelegt ist:</p> 
        <ul> 
-        <li> <p>Wenn die <strong>Wiederholungen</strong> ist auf <strong>Wöchentlich</strong>: Wählen Sie die Wochentage aus, an die der Versand durchgeführt wird.</p> </li> 
-        <li> <p>Wenn die <strong>Wiederholungen</strong> ist auf <strong>Monatlich</strong>: Wählen Sie aus, ob der Versand am Tag des Monats, des Wochentags oder des letzten Tages des Monats erfolgt (bei diesen Optionen wird das im <strong>Beginnt bei</strong> -Feld).</p> </li> 
+        <li> <p>Wenn die Option <strong>Wiederholungen</strong> auf <strong>Wöchentlich</strong> eingestellt ist: Wählen Sie die Wochentage aus, an die der Versand durchgeführt wird.</p> </li> 
+        <li> <p>Wenn die Option <strong>Wiederholungen</strong> auf <strong>Monatlich</strong> eingestellt ist: Wählen Sie aus, ob der Versand am Tag des Monats, des Wochentags oder des letzten Tages des Monats erfolgt (bei diesen Optionen wird das im Feld <strong>Starts am</strong> ausgewählte Datum verwendet).</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -150,27 +150,27 @@ So planen Sie einen Bericht für die automatische Bereitstellung oder zum Bearbe
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Nie</p> </td> 
-      <td>Auswählen <strong>Nie</strong> , wenn der geplante Versand unbegrenzt halten soll.</td> 
+      <td>Wählen Sie <strong>Nie</strong> aus, wenn der geplante Versand unbegrenzt lange dauern soll.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **Speichern** , um den Berichtversand zu speichern.
+1. Klicken Sie auf **Speichern** , um die Berichtbereitstellung zu speichern.
 
-   Der Bericht wird im **Wiederholen von Sendungen** -Abschnitt (im Abschnitt **Bericht senden** ) und wird zum geplanten Zeitpunkt gesendet.
+   Der Bericht wird im Abschnitt **Wiederholende Sendungen** (im Dialogfeld **Bericht senden** ) angezeigt und zum geplanten Zeitpunkt gesendet.
 
-   Informationen zu Größenbeschränkungen, die sich auf die Bereitstellung Ihrer Berichte auswirken können, finden Sie in den Abschnitten . [Versandbeschränkungen für Berichte](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) und [Ausfuhrbeschränkungen](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+   Informationen zu Größenbeschränkungen, die sich auf die Bereitstellung Ihrer Berichte auswirken können, finden Sie in den Abschnitten [Einschränkungen bei der Berichtauslieferung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) und [Exportbeschränkungen](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
 1. (Optional) So löschen Sie einen geplanten Versand:
 
-   1. Im **Wiederholen von Sendungen** Bereich, klicken Sie auf den terminierten Versand und dann auf **Löschen**.
-   1. Klicken **Löschen** zur Bestätigung.
+   1. Klicken Sie im Bedienfeld **Sich wiederholende Sendungen** auf den geplanten Versand und dann auf **Löschen**.
+   1. Klicken Sie zur Bestätigung auf **Löschen** .
 
 ## Video-Beispiel
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie einen Berichtversand planen. Dieses Video wurde in Workfront Classic aufgezeichnet. Der Inhalt gilt jedoch auch für das neue Workfront-Erlebnis.
 
-[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
+[![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>

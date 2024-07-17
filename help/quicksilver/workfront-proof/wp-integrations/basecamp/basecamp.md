@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Hinzufügen eines Testversands zu einem [!DNL Basecamp] Projekt](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-* [Integrieren [!DNL Workfront Proof] mit [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
-* [Testversand in überprüfen [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-* [Verstehen Sie die [!DNL Basecamp] Integration mit [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+* [Integrieren von [!DNL Workfront Proof] mit [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+* [Testversand in [!DNL Basecamp] überprüfen](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
+* [Grundlegendes zur [!DNL Basecamp] Integration mit [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

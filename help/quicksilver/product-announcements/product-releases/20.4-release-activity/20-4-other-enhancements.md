@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 20.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab dem 9. November 2020 verfügbar sein.
 
-Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [20.4 - Versionsübersicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Neu für Administratoren: Option der Workfront-Umgebung wechseln verfügbar
 
@@ -27,13 +27,13 @@ Im neuen Workfront-Erlebnis wird die Option Zu Classic wechseln im Hauptmenü an
 
 In Workfront Classic wird die Option Zum neuen Erlebnis wechseln im Menü angezeigt, das angezeigt wird, wenn Sie auf das Profilbild in der oberen rechten Ecke der Leiste für globale Navigation klicken.
 
-Diese Funktion ist jetzt im [Administratorgrundlagen, Lernpfad in Teil 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Administrator-Grundlagen, Teil 1 des Lernpfads](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One enthalten.
 
-## Verbesserte Verschlüsselung für Workfront Testversand
+## Verbesserte Verschlüsselung für Workfront Proof
 
 Wir nehmen einige Änderungen vor, um die Datenverschlüsselung der Workfront-Testversand-Anwendung für die Dateneingabe in Bewegung zu verbessern. Die schwachen TLS-Chiffren werden am 11. November 2020 eingestellt.
 
-Stellen Sie sicher, dass Sie beim Zugriff auf Workfront einen unterstützten Browser verwenden. Weitere Informationen zu unterstützten Browsern finden Sie unter [Adobe Workfront-Browseranforderungen](../../../workfront-basics/workfront-browser-requirements.md).
+Stellen Sie sicher, dass Sie beim Zugriff auf Workfront einen unterstützten Browser verwenden. Weitere Informationen zu unterstützten Browsern finden Sie unter [Browseranforderungen für Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).
 
 ## Neues Erscheinungsbild für 3 E-Mail-Vorlagen
 
@@ -43,7 +43,7 @@ Um die Lesbarkeit und das Gesamterlebnis zu verbessern, haben die folgenden E-Ma
 * Eine abhängige Aufgabe, der Sie zugewiesen sind, kann jetzt gestartet werden
 * Team-E-Mail-Benachrichtigung mit Vorgänger-Abschluss
 
-Informationen zum Aktivieren von E-Mails für Testzwecke in Ihrer Vorschauumgebung finden Sie im Abschnitt E-Mails in der Vorschau verwalten unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Um E-Mails für Testzwecke in Ihrer Vorschauumgebung zu aktivieren, lesen Sie den Abschnitt Verwalten von E-Mails in der Vorschau in [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) .
 
 ## Neue E-Mail-Benachrichtigungen für Teams
 
@@ -62,10 +62,10 @@ Beachten Sie außerdem, dass unser moderner Stil jetzt die Konfiguration von Ere
 
 Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Diese Funktion ist jetzt im [Lernpfad für E-Mail- und In-App-Benachrichtigungen](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [E-Mail- und In-App-Benachrichtigungen](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) in Workfront One enthalten.
 
 ## Neue API-Objekte, die die Trigger-Ereignisabonnement-Aktualisierung durchführen
 
 Zwei neue API-Objekte, documentVersion und proofApproval, wurden erstellt und sind so konfiguriert, dass Trigger-Abonnementaktualisierungen durchgeführt werden, wenn ein Dokument versioniert oder genehmigt wird.
 
-Eine vollständige Liste der Felder, die mit den einzelnen Objekten verknüpft sind, finden Sie unter [Ressourcen-Felder für Ereignisabonnements](../../../wf-api/api/event-sub-resource-fields.md).
+Eine vollständige Liste der Felder, die mit den einzelnen Objekten verknüpft sind, finden Sie unter [Felder der Ereignisabonnement-Ressource](../../../wf-api/api/event-sub-resource-fields.md).

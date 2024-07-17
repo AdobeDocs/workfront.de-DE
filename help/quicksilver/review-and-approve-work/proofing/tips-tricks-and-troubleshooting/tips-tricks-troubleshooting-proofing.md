@@ -18,8 +18,8 @@ ht-degree: 0%
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Benutzer mit einer Testlizenz in Adobe Workfront auflisten](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
-* [Testberechtigungsprofil stapelweise bearbeiten](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
-* [Freigabe über öffentliche URL oder Einbettungscode deaktivieren](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
+* [Bearbeiten Sie das Feld &quot;Testberechtigungsprofil&quot;stapelweise](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
+* [Deaktivieren der Freigabe eines Testversands über eine öffentliche URL oder einen Einbettungscode](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
 * [Häufig gestellte Fragen: Testversand innerhalb von Adobe Workfront - Migration von USA zu EMEA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [Dokumentname nach dem Hochladen geändert und enthält ungültiges Zeichen](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [Testen eines PowerPoint mit einem eingebetteten Video](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)

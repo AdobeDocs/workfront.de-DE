@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: '''Filter: Validierungsbericht zum Weglassen früherer Testversionen'
+title: 'Filter: Bericht zur Testbestätigung , um frühere Testversandversionen wegzulassen'
 description: Sie können den Filter Aktuelle Dokumentversion verwenden, um in einem Bericht zur Bestätigung nur die aktuellen Testversionen aufzunehmen, die auf Ihre Genehmigung warten.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Filter: Bericht zur Testbestätigung , um frühere Testversandversionen wegzulassen
 
-In einem Bericht zur Testbestätigung können Sie die Variable **Ist aktuelle Dokumentversion** filtern, um nur die aktuellen Versionen von Testsendungen einzuschließen, die auf Ihre Genehmigung warten.
+Sie können in einem Bericht zur Bestätigung des Testversands den Filter **Ist aktuelle Dokumentversion** verwenden, um nur die aktuellen Testversionen aufzunehmen, die auf Ihre Genehmigung warten.
 
 Dies ist beispielsweise nützlich, wenn Sie aufgefordert wurden, Testsendungen mit mehreren Versionen zu genehmigen. Wenn Sie den Bericht über die Validierung des Testversands mit dem Filter Ist aktuelle Dokumentversion ausführen, listet der Bericht nur die aktuelle Version jedes Testversands auf, der auf Ihre Genehmigung wartet, wobei frühere Versionen weggelassen werden, an denen Sie nicht mehr arbeiten müssen. 
 
@@ -30,11 +30,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Filteränderung anfordern </p>
+   <td> <p>Filteranforderung </p>
    <p>Berichtänderung planen</p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,15 +62,15 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Um einen eigenen Bericht zur Validierung des Testversands zu erstellen, klicken Sie auf das Hauptmenü ![](assets/main-menu-icon.png)Klicken Sie auf **Berichte** ![](assets/reports-in-main-menu.png). Klicken **Neuer Bericht**. Scrollen Sie in der angezeigten Liste zu und klicken Sie auf **Validierung des Testversands**. Klicken **Speichern und schließen**, geben Sie einen **Berichtsname** (optional) und klicken Sie auf **Bericht speichern**.
+   Um einen eigenen Bericht zur Testbestätigung zu erstellen, klicken Sie auf das Hauptmenü ![](assets/main-menu-icon.png) und dann auf **Berichte** ![](assets/reports-in-main-menu.png). Klicken Sie auf **Neuer Bericht**. Scrollen Sie in der angezeigten Liste zu und klicken Sie auf **Bestätigung testen**. Klicken Sie auf **Speichern + Schließen**, geben Sie einen **Berichtsnamen** ein (optional) und klicken Sie dann auf **Bericht speichern**.
 
-1. Klicken **Berichtaktionen > Bearbeiten**.
-1. Klicken **Filter** Klicken Sie auf **Filterregel hinzufügen**.
+1. Klicken Sie auf **Berichtaktionen > Bearbeiten**.
+1. Klicken Sie auf **Filter** und dann auf **Filterregel hinzufügen**.
 
    <!--
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Tell Proof Lehi this isn't visible unless you scroll to it over on the right, not at all obvious. When on a laptop.</p>
    -->
 
-1. Klicken **Validierung des Testversands**.
+1. Klicken Sie auf **Validierung des Testversands**.
 1. Klicken Sie in der angezeigten Liste auf **Ist aktuelle Dokumentversion**.
-1. Klicken **Speichern und schließen** Klicken Sie in der linken unteren Ecke von Adobe Workfront auf **Bericht speichern** in das Feld, das angezeigt wird.
+1. Klicken Sie links unten in Adobe Workfront auf **Speichern + Schließen** und dann im angezeigten Feld auf **Bericht speichern** .

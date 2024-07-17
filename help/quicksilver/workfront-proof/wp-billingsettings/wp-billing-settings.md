@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront-Abrechnungseinstellungen für Testsendungen
-description: Erfahren Sie mehr über Workfront Testversand-Abrechnung.
+title: Workfront Proof-Rechnungseinstellungen
+description: Erfahren Sie mehr über die Abrechnung in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 

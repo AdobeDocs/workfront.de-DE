@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta 4"(Version 2018.2)
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.2 verfügbar waren. Die Funktion ist ab dem 17. Mai 2018 in der Vorschau-Umgebung verfügbar. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Beta-Version 2018.2
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4-Version 2018.2 verfügbar waren. Die Funktion ist ab dem 17. Mai 2018 in der Vorschau-Umgebung verfügbar. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta 4&quot;(Version 2018.2)
+# Beta-Version 2018.2
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.2 verfügbar waren. Die Funktion ist ab dem 17. Mai 2018 in der Vorschau-Umgebung verfügbar. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4-Version 2018.2 verfügbar waren. Die Funktion ist ab dem 17. Mai 2018 in der Vorschau-Umgebung verfügbar. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
 
 >[!IMPORTANT]
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter  [Übersicht über die Versionsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Die Beta-Version 2018.2 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Beta 4-Version 2018.2 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren**
 
@@ -32,15 +32,15 @@ Die Beta-Version 2018.2 enthält Verbesserungen für Workfront-Administratoren u
 
 **Für alle Benutzer**
 
-* [Laufende Arbeiten (WIP) - Verbesserungen bei der Beschränkung auf das Kanban-Board](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
+* [Verbesserungen bei der laufenden Arbeit (WIP) - Limit für Verbesserungen am Kanban-Board](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
 * [Verbesserte Benutzeroberfläche zum Konfigurieren von Status für ein Agile-Team](#improved-interface-for-configuring-statuses-for-an-agile-team)
-* [Arbeitsliste (linker Bereich) im Startbereich aktualisiert](#updated-work-list-left-panel-in-the-home-area)
-* [Neuer Desktop Proofing Viewer für den Proofing interaktiver (Rich Media) Inhalte](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
-* [Exportieren der Benutzeransicht in den Ressourcenplaner](#export-the-user-view-in-the-resource-planner)
+* [Aktualisierte Arbeitsliste (linker Bereich) im Startbereich](#updated-work-list-left-panel-in-the-home-area)
+* [Neuer Desktop Proofing Viewer für den Proof von interaktiven (Rich Media-)Inhalten](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
+* [Exportieren der Benutzeransicht im Ressourcenplaner](#export-the-user-view-in-the-resource-planner)
 * [Support für Google-Team-Laufwerke](#support-for-google-team-drives)
 * [Neue Exportbeschränkung für das Gantt-Diagramm](#new-export-limit-for-the-gantt-chart)
 * [Option &quot;Aus Zwischenablage einfügen&quot;wird jetzt bei Verwendung von Internet Explorer oder Safari als ausgeblendet angezeigt](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
-* [Neue Beta-Umgebung für Android und neue Funktionen](#new-beta-environment-for-android-along-with-new-features)
+* [Neue Beta-Umgebung für Android zusammen mit neuen Funktionen](#new-beta-environment-for-android-along-with-new-features)
 * [Beispiele für Filter für Meldungen zu Ereignisabonnements](#examples-of-filters-for-event-subscriptions-messages)
 
 ## Laufende Arbeiten (WIP) - Verbesserungen bei der Beschränkung auf das Kanban-Board {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
@@ -51,7 +51,7 @@ Jetzt können Sie die Work in Progress (WIP)-Beschränkungen für jede Spalte au
 
 Vor dieser Änderung konnten Sie nur eine WIP-Begrenzung konfigurieren, die für alle Spalten auf der Kanban-Pinnwand galt. 
 
-Weitere Informationen finden Sie im Abschnitt .  [Konfigurieren der Grenze für laufende Arbeit (WIP)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) im Artikel  [Kanban konfigurieren](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Weitere Informationen finden Sie im Abschnitt .  [Konfigurieren der Grenze für laufende Arbeit (WIP)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) im Artikel  [Konfigurieren Sie Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ### Direkte Aktualisierung des Grenzwerts für laufende Arbeiten (WIP) durch das Kanban-Board
 
@@ -59,7 +59,7 @@ Jetzt können Teammitglieder mit Bearbeitungsrechten für das Team die WIP-Grenz
 
 Vor dieser Änderung können Sie die WIP-Beschränkung nur im Bereich Team Settings aktualisieren.
 
-Weitere Informationen finden Sie im Artikel .
+Weitere Informationen finden Sie unter  im Artikel .
 
 ## Verbesserte Benutzeroberfläche zum Konfigurieren von Status für ein Agile-Team {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -70,7 +70,7 @@ Die Benutzeroberfläche zum Konfigurieren von Status für ein agiles Team wurde 
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Kanban konfigurieren](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
+* [Konfigurieren von Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
 * [Konfigurieren von Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
 ## Arbeitsliste (linker Bereich) im Startbereich aktualisiert {#updated-work-list-left-panel-in-the-home-area}
@@ -81,7 +81,7 @@ Die Arbeitsliste im Bereich &quot;Startseite&quot;enthält folgende Verbesserung
 
   Elemente, die außerhalb des Startbereichs angezeigt werden, werden weiterhin im Startbereich als Ungelesen angezeigt.
 
-  Weitere Informationen finden Sie unter [Anzeigen von Elementen in der Arbeitsliste im Startbereich](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Weitere Informationen finden Sie unter [Elemente in der Arbeitsliste im Startbereich anzeigen](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Probleme werden jetzt durch ein Symbol für ein Problem unterschieden, das neben dem Problem angezeigt wird.
 * Genehmigungen werden nun nach Genehmigungstyp unterschieden, wobei der Typ der Genehmigung angezeigt wird. Mögliche Validierungstypen sind &quot;Aufgabe&quot;, &quot;Projekt&quot;, &quot;Problem&quot;, &quot;Zugriff&quot;, &quot;Dokument&quot;, &quot;Datenblatt&quot;und &quot;Testversand&quot;.
@@ -102,13 +102,13 @@ Die Arbeitsliste im Bereich &quot;Startseite&quot;enthält folgende Verbesserung
 
   Diese Zahl steht für die Gruppe Abgeschlossen nicht zur Verfügung.
 
-  Weitere Informationen finden Sie unter [Anzeigen von Elementen in der Arbeitsliste im Startbereich](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Weitere Informationen finden Sie unter [Elemente in der Arbeitsliste im Startbereich anzeigen](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Passen Sie die Größe der Arbeitsliste per Drag &amp; Drop an. Sie können die Größe der Arbeitsliste ändern, um bis zu die Hälfte des Bildschirms zu verbrauchen. Die von Ihnen festgelegte Größe wird beibehalten, wenn Sie das nächste Mal auf Home zugreifen.
 
   Vor dieser Änderung konnte die Größe der Arbeitsliste nicht geändert werden.
 
-* Für Anfragen wird nun der Benutzeravatar des Benutzers angezeigt, der die Anfrage gestellt hat, mit dem Text &quot;[Genehmiger_Name] Ich möchte Ihre Genehmigung einholen.&quot;
+* Bei Anfragen wird nun der Benutzeravatar des Benutzers angezeigt, der die Anfrage gestellt hat. Der Text &quot;[Genehmiger_Name]&quot; soll Ihre Genehmigung einholen.
 * Bei der Erstellung einer neuen persönlichen Aufgabe wird die Schaltfläche &quot;Aufgaben&quot;jetzt als &quot;persönlich&quot;bezeichnet.
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem Startbereich](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) im Artikel [Erstellen von Arbeitselementen aus dem Startbereich](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
@@ -137,15 +137,15 @@ Der Desktop Proofing Viewer enthält die folgenden Verbesserungen gegenüber dem
 
 Weitere Informationen zum Herunterladen, Installieren und Verwenden des Desktop Proofing Viewers finden Sie unter .
 
-Informationen zu den Funktionsunterschieden zwischen dem Desktop Proofing Viewer und den browserbasierten Proofing-Viewern finden Sie unter [Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Informationen zu Funktionsunterschieden zwischen dem Desktop Proofing Viewer und den browserbasierten Proofing-Viewern finden Sie unter [Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 ## Exportieren der Benutzeransicht in den Ressourcenplaner {#export-the-user-view-in-the-resource-planner}
 
 Der Export der Daten aus dem Ressourcen-Planer wurde vorübergehend deaktiviert, wenn er in der Benutzeransicht angezeigt wurde, um einige Leistungsprobleme zu beheben. Mit dieser Version wird der Export von Daten erneut aktiviert, wenn der Ressourcen-Planer in der Benutzeransicht angezeigt wird.
 
-Weitere Informationen zum Exportieren der Ressourcenplandaten in Excel finden Sie im Abschnitt &quot;Exportoption&quot;unter [Navigationsübersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Weitere Informationen zum Exportieren der Ressourcenplandaten in Excel finden Sie im Abschnitt &quot;Exportoption&quot;in der Navigationsübersicht für den [Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Informationen zur Teilnahme an unserem aktuellen Betaprogramm für den Ressourcen-Planer finden Sie unter [Beta-Leistung des Ressourcenplaners.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+Informationen zur Teilnahme an unserem aktuellen Betaprogramm für den Ressourcen-Planer finden Sie unter [Performance-Beta für den Ressourcenplaner](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) .
 
 ## Systemeinstellung: Sitzungsinformationen auf externen Seiten {#system-setting-session-information-in-external-pages}
 
@@ -161,7 +161,7 @@ Sie können jetzt ein Dokument oder einen Ordner auf einem Google Team Drive von
 
 Vor dieser Verbesserung könnten Sie ein Dokument oder einen Ordner verknüpfen, der sich nur auf dem Google My Drive befindet.
 
-Weitere Informationen zum Verknüpfen von Dokumenten und Ordnern aus verschiedenen Anwendungen mit Workfront finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Weitere Informationen zum Verknüpfen von Dokumenten und Ordnern aus verschiedenen Anwendungen mit Workfront finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Neue Exportbeschränkung für das Gantt-Diagramm {#new-export-limit-for-the-gantt-chart}
 
@@ -169,7 +169,7 @@ Sie können nun bis zu 500 Aufgaben in die Gantt-Grafik exportieren.
 
 Zuvor konnten Sie nur bis zu 250 Aufgaben exportieren.
 
-Weitere Informationen finden Sie unter [Gantt-Diagramm in PDF exportieren](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+Weitere Informationen finden Sie unter [Exportieren des Gantt-Diagramms in PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
 ## Option &quot;Aus Zwischenablage einfügen&quot;wird jetzt bei Verwendung von Internet Explorer oder Safari als ausgeblendet angezeigt {#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari}
 
@@ -177,7 +177,7 @@ Die Option Aus Zwischenablage einfügen wird jetzt bei Verwendung des Internet E
 
 Vor dieser Änderung wurde diese Option bei Verwendung von Internet Explorer oder Safari nicht angezeigt. 
 
-Weitere Informationen zum Einfügen von Bildern aus der Zwischenablage finden Sie unter [Bilder aus der Zwischenablage einfügen](../../../../documents/managing-documents/paste-image-clipboard.md).
+Weitere Informationen zum Einfügen von Bildern aus der Zwischenablage finden Sie unter [Einfügen von Bildern aus der Zwischenablage](../../../../documents/managing-documents/paste-image-clipboard.md).
 
 ## Neue Beta-Umgebung für Android und neue Funktionen {#new-beta-environment-for-android-along-with-new-features}
 
@@ -215,4 +215,4 @@ Die folgenden Verbesserungen sind jetzt in der Betaversion der Mobile App verfü
 
 ## Beispiele für Filter für Meldungen zu Ereignisabonnements {#examples-of-filters-for-event-subscriptions-messages}
 
-Um zu demonstrieren, wie Sie Ereignisabos filtern können, um nur die für Ihr Unternehmen relevanten Nachrichten zu erhalten, stehen jetzt Beispielcode-Snippets zum Filtern des Ereignisflusses, der zu Ihren Endpunkten kommt, zur Verfügung. Weitere Informationen zur Anzeige der Filterbeispiele finden Sie unter [Filtern von Ereignis-Abonnementnachrichten](../../../../wf-api/api/filter-event-sub-messages.md).
+Um zu demonstrieren, wie Sie Ereignisabos filtern können, um nur die für Ihr Unternehmen relevanten Nachrichten zu erhalten, stehen jetzt Beispielcode-Snippets zum Filtern des Ereignisflusses, der zu Ihren Endpunkten kommt, zur Verfügung. Weitere Informationen zum Anzeigen der Filterbeispiele finden Sie unter [Abonnementmeldungen für Ereignisse filtern](../../../../wf-api/api/filter-event-sub-messages.md).

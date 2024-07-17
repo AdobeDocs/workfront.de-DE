@@ -8,7 +8,8 @@ title: Adobe Lightroom-Module
 description: Mit den Adobe Lightroom-Modulen können Sie ein Adobe Workfront Fusion-Szenario starten, das auf Ereignissen in Ihrem Adobe Lightroom-Konto basiert.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: e99bd69c712a7685512eecc7fccc8211013a259d
+exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '2244'
 ht-degree: 0%
@@ -19,11 +20,11 @@ ht-degree: 0%
 
 <!--Add Connection info-->
 
-In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Adobe Lightroom], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
+In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!DNL Adobe Lightroom] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 
-Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen eines Szenarios](../../workfront-fusion/scenarios/create-a-scenario.md).
+Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
@@ -53,22 +54,22 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
-      <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td>
+      <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</td>
     </tr>
     </tr>
   </tbody>
 </table>
 
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-&#42;&#42;Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Informationen zu [!DNL Adobe Workfront Fusion] Lizenzen finden Sie unter [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Voraussetzungen
 
-Bevor Sie die [!DNL Adobe Lightroom] müssen Sie sicherstellen, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie den Connector [!DNL Adobe Lightroom] verwenden können, müssen Sie sicherstellen, dass die folgenden Voraussetzungen erfüllt sind:
 
-* Sie müssen über eine aktive [!DNL Adobe Lightroom] -Konto.
+* Sie müssen über ein aktives [!DNL Adobe Lightroom] -Konto verfügen.
 
 ## Herstellen einer Verbindung zu Adobe Lightroom
 
@@ -76,9 +77,9 @@ Bevor Sie die [!DNL Adobe Lightroom] müssen Sie sicherstellen, dass die folgend
 
 ## Adobe Lightroom-Module und ihre Felder
 
-Bei der Konfiguration [!DNL Adobe Lightroom] Module, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL Adobe Lightroom] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie [!DNL Adobe Lightroom] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL Adobe Lightroom] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -101,7 +102,7 @@ Dieses Aktionsmodul ruft eine Versionskennung des Lightroom-Servers ab und zeigt
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Credentials]</td>
@@ -120,7 +121,7 @@ Dieses Aktionsmodul ruft eine Versionskennung des Lightroom-Servers ab und zeigt
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Credentials]</td>
@@ -153,7 +154,7 @@ Dieses Aktionsmodul erstellt und lädt eine Originaldatei für ein Asset hoch.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -199,7 +200,7 @@ Dieses Aktionsmodul erstellt ein neues Asset mit anfänglichen Metadaten und Imp
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -222,19 +223,19 @@ Dieses Aktionsmodul erstellt ein neues Asset mit anfänglichen Metadaten und Imp
     <tr>
       <td role="rowheader">[!UICONTROL Datetime user created]</td>
       <td>
-        <p>Datum im Format eingeben oder zuordnen <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p>Geben Sie ein Datum im Format <code>YYYY-MM-DDT00:00:00-00:00</code> ein oder ordnen Sie es zu.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Datetime user updated]</td>
       <td>
-        <p>Datum im Format eingeben oder zuordnen <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p>Geben Sie ein Datum im Format <code>YYYY-MM-DDT00:00:00-00:00</code> ein oder ordnen Sie es zu.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Datum erfasst]</td>
       <td>
-        <p>Datum im Format eingeben oder zuordnen <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p>Geben Sie ein Datum im Format <code>YYYY-MM-DDT00:00:00-00:00</code> ein oder ordnen Sie es zu.</p>
       </td>
     </tr>
   </tbody>
@@ -250,7 +251,7 @@ Dieses Aktionsmodul unterstützt zwei Workflows. Der erste Workflow besteht dari
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Länge des Inhalts in Byte]</td>
@@ -295,7 +296,7 @@ Dieses Aktionsmodul generiert asynchron Ausgabedarstellungen für eine Originald
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Ausgabetyp(en) (durch Semikolon getrennt)]</td>
@@ -334,7 +335,7 @@ Dieses Aktionsmodul ruft Informationen zu einem einzelnen Asset in einem Katalog
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -362,7 +363,7 @@ Dieses Aktionsmodul ruft die letzte externe Asset-XMP-Einstellungsdatei ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -389,7 +390,7 @@ Dieses Aktionsmodul ruft die neueste Asset-Ausgabedarstellung des angegebenen Ty
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -422,7 +423,7 @@ Dieses Aktionsmodul ruft Assets ab, die dem Benutzer gehören, dessen Anmeldeinf
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -439,13 +440,13 @@ Dieses Aktionsmodul ruft Assets ab, die dem Benutzer gehören, dessen Anmeldeinf
     <tr>
       <td role="rowheader">[!UICONTROL Rückgabe von bereits erfassten Assets]</td>
       <td>
-        <p>Datum im Format eingeben <code>YYYY-MM-DDT00:00:00</code>. Das Modul gibt Ergebnisse zurück, die vor diesem Datum erfasst wurden.</p><p> Dieses Feld kann nicht mit dem Feld verwendet werden <code>Return assets captured after</code>.</p>
+        <p>Geben Sie ein Datum im Format <code>YYYY-MM-DDT00:00:00</code> ein. Das Modul gibt Ergebnisse zurück, die vor diesem Datum erfasst wurden.</p><p> Dieses Feld kann nicht mit dem Feld <code>Return assets captured after</code> verwendet werden.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Maximale Anzahl zurückgegebener Assets]</td>
       <td>
-        <p>Legen Sie die maximale Anzahl von Assets fest, die [!DNL Workfront Fusion] wird während eines Ausführungszyklus zurückgegeben. Diese Zahl muss kleiner oder gleich 100 sein.</p>
+        <p>Legen Sie die maximale Anzahl von Assets fest, die [!DNL Workfront Fusion] während eines Ausführungszyklus zurückgibt. Diese Zahl muss kleiner oder gleich 100 sein.</p>
       </td>
     </tr>
     <tr>
@@ -519,7 +520,7 @@ Dieses Aktionsmodul fügt dem angegebenen Album mindestens ein Asset hinzu. Sie 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -577,7 +578,7 @@ Dieses Aktionsmodul erstellt ein neues Album in Lightroom.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -604,13 +605,13 @@ Dieses Aktionsmodul erstellt ein neues Album in Lightroom.
     <tr>
       <td role="rowheader">[!UICONTROL Datetime user created]</td>
       <td>
-        <p>Datum im Format eingeben oder zuordnen <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p>Geben Sie ein Datum im Format <code>YYYY-MM-DDT00:00:00-00:00Z</code> ein oder ordnen Sie es zu.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Datetime user updated]</td>
       <td>
-        <p>Datum im Format eingeben oder zuordnen <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p>Geben Sie ein Datum im Format <code>YYYY-MM-DDT00:00:00-00:00Z</code> ein oder ordnen Sie es zu.</p>
       </td>
     </tr>
     <tr>
@@ -632,12 +633,12 @@ Dieses Aktionsmodul erstellt ein neues Album in Lightroom.
     <tr>
       <td role="rowheader">[!UICONTROL Erstellungsdatum]</td>
       <td>
-        <p>Datum im Format eingeben oder zuordnen <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p>Geben Sie ein Datum im Format <code>YYYY-MM-DDT00:00:00-00:00Z</code> ein oder ordnen Sie es zu.</p>
       </td>
     <tr>
       <td role="rowheader">[!UICONTROL Aktualisiertes Datum]</td>
       <td>
-        <p>Datum im Format eingeben oder zuordnen <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p>Geben Sie ein Datum im Format <code>YYYY-MM-DDT00:00:00-00:00Z</code> ein oder ordnen Sie es zu.</p>
       </td>
     </tr>
     <tr>
@@ -665,7 +666,7 @@ Dieses Aktionsmodul erstellt ein neues Album in Lightroom.
 
 Dieses Aktionsmodul löscht ein Album.
 
-Das gelöschte Album muss von derselben Client-App erstellt worden sein, die es jetzt löscht, und es muss vom Untertyp sein `project` oder `project_set`.
+Das gelöschte Album muss von derselben Client-App erstellt worden sein, die es jetzt löscht, und es muss vom Untertyp `project` oder `project_set` sein.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -673,7 +674,7 @@ Das gelöschte Album muss von derselben Client-App erstellt worden sein, die es 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -706,7 +707,7 @@ Dieses Aktionsmodul ruft das angegebene Album ab
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -739,7 +740,7 @@ Dieses Aktionsmodul ruft eine Liste von Alben im angegebenen Katalog ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -762,7 +763,7 @@ Dieses Aktionsmodul ruft eine Liste von Alben im angegebenen Katalog ab.
     <tr>
       <td role="rowheader">[!UICONTROL Maximale Anzahl zurückgegebener Alben]</td>
       <td>
-        <p>Legen Sie die maximale Anzahl von Assets fest, die [!DNL Workfront Fusion] wird während eines Ausführungszyklus zurückgegeben. Der Standardwert für dieses Feld ist 100. Dieses Modul kann mehr Alben als diese Grenze zurückgeben, wenn mehrere Alben an der Grenze dieselbe Anzahl aufweisen <code>name_after</code> -Wert.</p>
+        <p>Legen Sie die maximale Anzahl von Assets fest, die [!DNL Workfront Fusion] während eines Ausführungszyklus zurückgibt. Der Standardwert für dieses Feld ist 100. Dieses Modul kann mehr Alben als diesen Grenzwert zurückgeben, wenn mehrere Alben an der Grenze denselben <code>name_after</code> -Wert aufweisen.</p>
       </td>
     </tr>
   </tbody>
@@ -772,7 +773,7 @@ Dieses Aktionsmodul ruft eine Liste von Alben im angegebenen Katalog ab.
 
 Dieses Aktionsmodul aktualisiert das angegebene Album.
 
-Das aktualisierte Album muss von derselben Client-App erstellt worden sein, die es jetzt aktualisiert, und es muss vom Untertyp sein `project` oder `project_set`.
+Das aktualisierte Album muss von derselben Client-App erstellt worden sein, die es jetzt aktualisiert, und es muss vom Untertyp `project` oder `project_set` sein.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -780,7 +781,7 @@ Das aktualisierte Album muss von derselben Client-App erstellt worden sein, die 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom], siehe <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Lightroom]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Lightroom] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Katalog-ID]</td>
@@ -797,18 +798,8 @@ Das aktualisierte Album muss von derselben Client-App erstellt worden sein, die 
     <tr>
       <td role="rowheader">Andere Felder</td>
       <td>
-      <td>Beschreibungen anderer Felder in diesem Modul finden Sie unter <a href="#create-an-album" class="MCXref xref" >Album erstellen</a> in diesem Artikel.</td>
+      <td>Beschreibungen anderer Felder in diesem Modul finden Sie unter <a href="#create-an-album" class="MCXref xref" >Erstellen eines Albums</a> in diesem Artikel.</td>
       </td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-

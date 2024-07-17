@@ -49,7 +49,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,13 +61,13 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So fügen Sie diese Spalte einer Aufgabenansicht hinzu:
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
+1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
 
-1. Klicks **Spalte hinzufügen**, dann **In den Textmodus wechseln**.
+1. Klicken Sie auf **Spalte hinzufügen** und dann auf **In den Textmodus wechseln**.
 
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
-   <pre>displayName=Wochentagsunterschied<br>textmode=true<br>valueExpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueFormat=HTML</pre>
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
+   <pre>displayName=Week Day Difference<br>textmode=true<br>valueExpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueFormat=HTML</pre>
 
-1. (Optional) Um die in der Ansicht angezeigten Werte in einer Gruppierung zusammenzufassen, gehen Sie wie folgt vor: [Gruppierung: Anzeige des Ergebnisses der Aggregation mehrerer berechneter Werte in einer Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
-1. Klicks **Speichern**, dann **Ansicht speichern**.
+1. (Optional) Um die in der Ansicht angezeigten Werte in einer Gruppierung zu aggregieren, führen Sie die unter [Gruppierung: Zeigen Sie das Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md) beschriebenen Schritte an.
+1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.

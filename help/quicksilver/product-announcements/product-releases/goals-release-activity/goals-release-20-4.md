@@ -7,7 +7,7 @@ feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
 source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -22,44 +22,46 @@ Die Verwendung von Workfront-Zielen wird anhand des Feedbacks, das wir von Ihnen
 
 * Die Erfahrung beim Drucken einer Liste von Zielen mit einem intuitiveren Drucklink im Abschnitt &quot;Zielliste&quot;wurde aktualisiert.
 
-   Weitere Informationen zu Druckzielen finden Sie unter &quot;Drucken der Zielliste in Adobe Workfront-Zielen&quot;.
+  Weitere Informationen zu Druckzielen finden Sie unter &quot;Drucken der Zielliste in Adobe Workfront-Zielen&quot;.
 
-   >[!NOTE]
-   >
-   >  Die Funktion zum Drucken von Zielen wurde eingestellt und aus Workfront entfernt.
+  >[!NOTE]
+  >
+  >  Die Funktion zum Drucken von Zielen wurde eingestellt und aus Workfront entfernt.
 
 
 * Es wurden zusätzliche Informationen zu Ergebnissen und Aktivitäten im Bereich &quot;Zieldetails&quot;hinzugefügt, sodass Sie den Unterschied zwischen ihnen verstehen können.
 
-   Informationen zum Hinzufügen von Aktivitäten zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Informationen zum Hinzufügen von Aktivitäten zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
-   Informationen zum Hinzufügen von Ergebnissen zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Informationen zum Hinzufügen von Ergebnissen zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Es wurden Informationen darüber hinzugefügt, dass ein vergangenes Ziel im Bereich &quot;Zieldetails&quot;nicht aktualisiert werden kann.
 
-   Weitere Informationen zum Bearbeiten von Zielen finden Sie unter [Ziele in Adobe Workfront bearbeiten](../../../workfront-goals/goal-management/edit-goals.md).
+  Weitere Informationen zum Bearbeiten von Zielen finden Sie unter [Bearbeiten von Zielen in Adobe Workfront-Zielen](../../../workfront-goals/goal-management/edit-goals.md).
 
 * Verbesserte Fehlermeldungen und Warnungen beim Löschen oder Bearbeiten des einzigen Fortschrittsindikators eines Ziels.
 
 >[!NOTE]
 >
->**Vorschau der Verfügbarkeit:** 22. Oktober 2020
+>**Verfügbarkeit der Vorschau:** 22. Oktober 2020
 >
->**Produktionsverfügbarkeit:** Mit Version 20.4
+>**Produktionsverfügbarkeit:** Mit Version 20.4
 
-Diese Funktion ist jetzt im [Workfront Goals-Lernpfad](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Workfront Goals Learning Path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) in Workfront One enthalten.
 
 ## Zugangssteuerung für Workfront-Ziele
 
 In den Zugriffsebenen können Sie jetzt den Zugriff auf Workfront-Ziele einschränken. Sie können Benutzern keinen Zugriff gewähren oder auf Informationen in Workfront-Zielen anzeigen oder bearbeiten zugreifen. Dieser Zugriff ist für alle Lizenztypen mit Ausnahme von &quot;Externe Lizenzen&quot;verfügbar. Vor dieser Verbesserung hatten alle Benutzer Zugriff auf alle Ziele.
 
-Informationen zur Gewährung von Zugriff auf Workfront-Ziele finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Informationen zur Gewährung des Zugriffs auf Workfront-Ziele finden Sie unter [Gewähren des Zugriffs auf Adobe Workfront-Ziele](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
-**Vorschau der Verfügbarkeit:** 9. Oktober 2020
-**Produktionsverfügbarkeit:** Mit Version 20.4
+>
+>**Verfügbarkeit der Vorschau:** 9. Oktober 2020
+>
+>**Produktionsverfügbarkeit:** Mit Version 20.4
 
-Diese Funktion ist jetzt im [Workfront Goals-Lernpfad](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Workfront Goals Learning Path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) in Workfront One enthalten.
 
 ## Verbesserungen der Benutzerfreundlichkeit von Workfront-Zielen
 
@@ -70,12 +72,14 @@ Auf der Grundlage des bisher erhaltenen Feedbacks haben wir die folgenden Verbes
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Aktivieren von Zielen in Adobe Workfront-Zielen](../../../workfront-goals/goal-management/activate-goals.md)
+* [Ziele in Adobe Workfront aktivieren](../../../workfront-goals/goal-management/activate-goals.md)
 * [Aktualisieren des Zielfortschritts in Adobe Workfront-Zielen](../../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [Erstellen von Zielen in Adobe Workfront-Zielen](../../../workfront-goals/goal-management/create-goals.md)
+* [Ziele in Adobe Workfront erstellen](../../../workfront-goals/goal-management/create-goals.md)
 
 >[!NOTE]
-**Vorschau der Verfügbarkeit:** 25. September 2020
-**Produktionsverfügbarkeit:** Mit Version 20.4
+>
+>**Verfügbarkeit der Vorschau:** 25. September 2020
+>
+>**Produktionsverfügbarkeit:** Mit Version 20.4
 
-Diese Funktion ist jetzt im [Workfront Goals-Lernpfad](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Workfront Goals Learning Path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) in Workfront One enthalten.

@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,8 +65,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicks **Zugriffsebenen** im linken Bereich.
-1. Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie auf **Kopieren**.
+1. Klicken Sie im linken Bereich auf **Zugriffsebenen** .
+1. Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie dann auf **Kopieren**.
 
    Oder
 
@@ -80,7 +80,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>Geben Sie einen Namen für Ihre Zugriffsebene ein. </p> <p>Wenn Sie gerade eine Zugriffsebene kopiert haben, um eine neue zu erstellen, lautet der Standardname Zugriffsstufenname (Kopie), wobei Zugriffsstufenname die von Ihnen kopierte Zugriffsebene ist.</p> <p><strong>Tipp</strong>: Es wird empfohlen, den ursprünglichen Namen der Zugriffsebene in den Namen der Kopie einzufügen. Im ACME-Unternehmen kann beispielsweise eine Kopie der Standardzugriffsstufe ACME Standard heißen.</p> </td> 
+      <td> <p>Geben Sie einen Namen für Ihre Zugriffsebene ein. </p> <p>Wenn Sie gerade eine Zugriffsebene kopiert haben, um eine neue zu erstellen, lautet der Standardname Zugriffsstufenname (Kopie), wobei Zugriffsstufenname die von Ihnen kopierte Zugriffsebene ist.</p> <p><strong>Tipp</strong>: Es wird empfohlen, den ursprünglichen Namen der Zugriffsebene in den Namen der Kopie aufzunehmen. Im ACME-Unternehmen kann beispielsweise eine Kopie der Standardzugriffsstufe ACME Standard heißen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung </td> 
@@ -93,7 +93,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     </tbody> 
    </table>
 
-1. (Bedingt) Wenn **Standard** oder **Plan** wird im Feld **Lizenztyp** zum Bereich **Administratorzugriff zulassen für** und wählen Sie die administrativen Zugriffsberechtigungen für diejenigen aus, die diese Zugriffsebene haben werden.
+1. (Bedingt) Wenn im Feld **Lizenztyp** die Option **Standard** oder **Plan** ausgewählt ist, blättern Sie zum Abschnitt **Administratorzugriff für** erlauben und wählen Sie für diejenigen, die über diese Zugriffsstufe verfügen sollen, Administratorberechtigungen aus.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -122,7 +122,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
         <li>Ausgaben für von ihnen verwaltete Projekte, Aufgaben oder Probleme</li>
         <li>Ihre eigenen Ausgaben</li>
         <li>Die Kosten für ihre Untergebenen</li>
-       </ul><p><b>NOTE</b>: Benutzer können hierdurch keine neuen Ausgabetypen erstellen.</p></td> 
+       </ul><p><b>HINWEIS</b>: Benutzer können hierdurch keine neuen Ausgabentypen erstellen.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aufgabengebiete</td> 
@@ -156,7 +156,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     </tbody> 
    </table>
 
-1. Klicks **Weitere Einschränkungen festlegen** und legen Sie dann eine der folgenden Einschränkungen für die Zugriffsebene fest.
+1. Klicken Sie auf **Zusätzliche Einschränkungen festlegen** und legen Sie dann die folgenden Einschränkungen für die Zugriffsebene fest.
 
    >[!IMPORTANT]
    >
@@ -176,15 +176,15 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Nur Aktualisierungen anzeigen, in denen Sie an der Konversation beteiligt waren</td> 
-      <td> Ermöglicht Benutzern, nur Kommentare anzuzeigen, in denen ihr Name oder der Name ihres Teams enthalten war. <p> <p><b>NOTE</b>: Dadurch wird verhindert, dass Benutzer Artikel in Workfront abonnieren. Weitere Informationen zum Abonnieren von Elementen finden Sie unter <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonnieren von Elementen in Adobe Workfront</a>.</p> </p> </td> 
+      <td> Ermöglicht Benutzern, nur Kommentare anzuzeigen, in denen ihr Name oder der Name ihres Teams enthalten war. <p> <p><b>HINWEIS</b>: Dadurch wird verhindert, dass Benutzer Artikel in Workfront abonnieren. Weitere Informationen zum Abonnieren von Elementen finden Sie unter <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonnieren von Elementen in Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nicht zulassen, dass Benutzer Kommentare löschen </td> 
-      <td> Verhindert, dass Benutzer Kommentare zu Elementen löschen.  <p><b>NOTE</b>: Keiner kann die Kommentare anderer Benutzer löschen.</p> </td> 
+      <td> Verhindert, dass Benutzer Kommentare zu Elementen löschen.  <p><b>HINWEIS</b>: Niemand kann die Kommentare anderer Benutzer löschen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nur Firmen, Gruppen &amp; Teams anzeigen, der Sie angehören</td> 
-      <td>Ermöglicht Benutzern, Elemente nur für Unternehmen, Gruppen und Teams anzuzeigen und freizugeben, denen sie angehören.<p><strong>NOTE</strong>: Benutzer mit Anfragenlizenzen können keine Unternehmen anzeigen, zu denen sie nicht gehören, selbst wenn diese Option aktiviert ist.</td> 
+      <td>Ermöglicht Benutzern, Elemente nur für Unternehmen, Gruppen und Teams anzuzeigen und freizugeben, denen sie angehören.<p><strong>HINWEIS</strong>: Benutzer mit Anforderungslizenzen können keine Unternehmen anzeigen, zu denen sie nicht gehören, selbst wenn diese Option aktiviert ist.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anzeige von "Geplante Stunden" oder "Tatsächliche Stunden" nicht zulassen</td> 
@@ -197,22 +197,22 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     </tbody> 
    </table>
 
-1. (Bedingt und optional) Wenn Ihr Workfront-System für Benutzer eingerichtet ist, die mehreren Unternehmen angehören, beschränken Sie die Sichtbarkeit auf andere Benutzer, basierend darauf, zu welchem Unternehmen sie gehören. **Personen in anderen Unternehmen sollten nur Benutzer von**.
+1. (Bedingt und optional) Wenn Ihr Workfront-System für Benutzer eingerichtet ist, die mehreren Unternehmen angehören, beschränken Sie die Sichtbarkeit auf andere Benutzer, basierend darauf, zu welchem Unternehmen sie gehören, im Abschnitt &quot;**Personen in anderen Unternehmen sollten Benutzer nur aus** anzeigen.
 
-   Sie können die Benutzer so einschränken, dass sie nur Benutzer aus ihrem eigenen Unternehmen oder aus dem Unternehmen sehen, das Sie als Hauptunternehmen benannt haben. Das primäre Unternehmen stellt normalerweise Ihr Workfront-Konto dar, in dem die meisten Ihrer Benutzer arbeiten. Weitere Informationen zum primären Unternehmen finden Sie unter [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Sie können die Benutzer so einschränken, dass sie nur Benutzer aus ihrem eigenen Unternehmen oder aus dem Unternehmen sehen, das Sie als Hauptunternehmen benannt haben. Das primäre Unternehmen stellt normalerweise Ihr Workfront-Konto dar, in dem die meisten Ihrer Benutzer arbeiten. Weitere Informationen zum primären Unternehmen finden Sie unter [Unternehmen erstellen und bearbeiten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >
    >Wenn zwei Benutzer zu zwei verschiedenen Unternehmen gehören, aber beide Benutzer vom primären Unternehmen sehen können, können sie den Bereich Updates sehen, der mit dem primären Unternehmen verknüpft ist.
 
-1. (Optional) Um die Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene zu konfigurieren, mit einem der Artikel fortzufahren, die unter [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), beispielsweise [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Optional) Um die Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene zu konfigurieren, an der Sie arbeiten, fahren Sie mit einem der unter [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) aufgelisteten Artikel fort, z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Klicken Sie auf **Speichern**.
 
    Nachdem die Zugriffsebene erstellt wurde, können Sie sie einem Benutzer zuweisen (es sei denn, es handelt sich um eine Zugriffsstufe für Systemadministratoren).
 
    Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Informationen dazu, wie ein Adobe-Administrator einem Benutzer eine Systemadministratorzugriffsstufe zuweist, finden Sie unter [Gewähren eines vollen Administratorzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Informationen dazu, wie ein Adobe-Administrator einem Benutzer eine Systemadministratorzugriffsstufe zuweist, finden Sie unter [Gewähren eines vollen Administratorzugriffs für einen-Administrator](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Standard- oder Planer-Benutzer mit Administratorzugriff auf Stellenrollen {#planner-users}
 

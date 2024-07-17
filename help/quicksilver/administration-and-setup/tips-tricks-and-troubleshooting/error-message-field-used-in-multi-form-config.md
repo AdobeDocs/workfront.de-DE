@@ -11,7 +11,7 @@ role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Problem
 
-Wenn Sie eine Berechnung für ein berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular ändern, [!DNL Adobe Workfront] kann die folgende Warnung anzeigen:
+Wenn Sie eine Berechnung für ein berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular ändern, zeigt [!DNL Adobe Workfront] möglicherweise die folgende Warnung an:
 
 Hier gibt es ein kleines Problem.
 
@@ -28,11 +28,11 @@ Hier gibt es ein kleines Problem.
 
 ## Ursache
 
-Mindestens zwei benutzerdefinierte Formulare, die das berechnete benutzerdefinierte Feld enthalten, das Sie ändern möchten, werden an ein einzelnes Objekt in Ihrem [!DNL Workfront] -Instanz.
+Mindestens zwei benutzerdefinierte Formulare, die das berechnete benutzerdefinierte Feld enthalten, das Sie ändern möchten, werden an ein einzelnes Objekt in Ihrer [!DNL Workfront]-Instanz angehängt.
 
-**Beispiel:** Benutzerdefinierte Formulare A und B werden jeweils an dieselbe Aufgabe angehängt. Beide Formulare enthalten ein berechnetes benutzerdefiniertes Feld namens &quot;Profit&quot;. Dieser Fehler tritt auf, wenn Sie versuchen, die Berechnung im Feld Gewinn in benutzerdefiniertem Formular A zu bearbeiten.
+**Beispiel:** Benutzerdefinierte Formulare A und B sind beide an dieselbe Aufgabe angehängt. Beide Formulare enthalten ein berechnetes benutzerdefiniertes Feld namens &quot;Profit&quot;. Dieser Fehler tritt auf, wenn Sie versuchen, die Berechnung im Feld Gewinn in benutzerdefiniertem Formular A zu bearbeiten.
 
-Sie können die Berechnung für das benutzerdefinierte Feld in einem der Formulare nicht ändern, da dies mit der Formel im selben Feld im anderen Formular in Konflikt gerät.
+Sie können die Berechnung für das benutzerdefinierte Feld in einem der Formulare nicht ändern, da dies mit der Formel im selben Feld im anderen Formular in Konflikt stünde.
 Um diesen Konflikt zu beheben, müssen Sie das Objekt finden, an das mehrere Formulare mit demselben berechneten benutzerdefinierten Feld angehängt sind. Führen Sie dann einen der folgenden Schritte aus:
 
 * Entfernen Sie eines der Formulare aus dem Objekt.
@@ -43,32 +43,32 @@ In diesem Artikel wird erläutert, wie Sie das Objekt finden und dann das Proble
 
 ## Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind. {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Benutzer]** ![](assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Benutzer]** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
 
-1. Klicken **[!UICONTROL Benutzerdefinierte Forms]** > **[!UICONTROL Felder]**.
-1. Wenden Sie die **[!UICONTROL Feldliste]** anzeigen, um das berechnete Feld zu finden, das Sie ändern möchten, und notieren Sie sich jedes benutzerdefinierte Formular, in dem es verwendet wird (z. B. Formular 1, Formular 2, Formular 3) .
-1. Klicken **[!UICONTROL Forms]**, wenden Sie dann die **[!UICONTROL Formularliste]** anzeigen.
-1. Klicken Sie auf **[!UICONTROL Filter]** Dropdown-Liste und **[!UICONTROL Neuer Filter]**.
+1. Klicken Sie auf **[!UICONTROL Benutzerdefinierter Forms]** > **[!UICONTROL Felder]**.
+1. Wenden Sie die Ansicht **[!UICONTROL Feldliste]** an, um das berechnete Feld zu finden, das Sie ändern möchten, und notieren Sie sich jedes benutzerdefinierte Formular, in dem es verwendet wird (z. B. Formular 1, Formular 2, Formular 3) .
+1. Klicken Sie auf **[!UICONTROL Forms]** und wenden Sie dann die Ansicht **[!UICONTROL Formularliste]** an.
+1. Klicken Sie auf die Dropdownliste **[!UICONTROL Filter]** und dann auf **[!UICONTROL Neuer Filter]**.
 
-1. Klicken **[!UICONTROL Filterregel hinzufügen]** Geben Sie dann &quot;benutzerdefinierten Formularnamen&quot;ein und wählen Sie diesen Wert aus, wenn er in der Liste angezeigt wird.
-1. Auswählen **[!UICONTROL Gleich]** Geben Sie für den Filter-Modifikator den Namen jedes Formulars ein, das Sie in Schritt 1 zur Kenntnis genommen haben, und wählen Sie es dann aus, wenn es angezeigt wird.
+1. Klicken Sie auf **[!UICONTROL Filterregel hinzufügen]**, geben Sie dann &quot;benutzerdefinierten Formularnamen&quot;ein und wählen Sie diesen Wert aus, wenn er in der Liste angezeigt wird.
+1. Wählen Sie **[!UICONTROL Gleich]** für den Filter-Modifikator, beginnen Sie mit der Eingabe des Namens jedes Formulars, von dem Sie in Schritt 1 Notiz genommen haben, und wählen Sie es dann aus, wenn es angezeigt wird.
 
    **Beispiel:** Benutzerdefinierter Formularname entspricht Formular 1, Formular 2, Formular 3.
 
-1. Klicken **[!UICONTROL Filter speichern]**, benennen Sie den neuen Filter und klicken Sie auf **[!UICONTROL Filter speichern]**.
+1. Klicken Sie auf **[!UICONTROL Filter speichern]**, geben Sie dem neuen Filter einen Namen und klicken Sie auf **[!UICONTROL Filter speichern]**.
 
-1. Notieren Sie sich in der Liste der Formulare den Objekttyp des Filters, z. B. Aufgabe oder Problem, der im **[!UICONTROL Typ]** Spalte.
+1. Notieren Sie sich in der Liste der Formulare den Objekttyp des Filters, z. B. Aufgabe oder Problem, der in der Spalte **[!UICONTROL Typ]** angezeigt wird.
 1. Erstellen Sie für jedes benutzerdefinierte Formular, das Sie in Schritt 1 gefunden haben, ein neues benutzerdefiniertes Kontrollkästchen mit dem Standardwert Ja .
 
-   **Beispiel:** Feld 1 auf Formular 1 = Ja, Feld 2 auf Formular 2 = Ja, Feld 3 auf Formular 3 = Ja. Das bedeutet &quot;Das berechnete benutzerdefinierte Feld ist in Formular 1 vorhanden&quot;oder &quot;Das berechnete benutzerdefinierte Feld ist in Formular 2 vorhanden&quot;usw.
+   **Beispiel:** Feld 1 in Formular 1 = Ja, Feld 2 in Formular 2 = Ja, Feld 3 in Formular 3 = Ja. Das bedeutet &quot;Das berechnete benutzerdefinierte Feld ist in Formular 1 vorhanden&quot;oder &quot;Das berechnete benutzerdefinierte Feld ist in Formular 2 vorhanden&quot;usw.
 
-1. Im **[!UICONTROL Suchsymbol]** ![](assets/search-icon.png) Klicken Sie in der rechten oberen Ecke des Bildschirms auf **[!UICONTROL Erweiterte Suche]**.
-1. Klicken Sie auf das Objekt Ihres benutzerdefinierten Formulars (z. B. Problem) und klicken Sie auf **[!UICONTROL Ergebnisse filtern]** Klicken Sie auf **[!UICONTROL Filter hinzufügen]**.
-1. Geben Sie den Namen eines Kontrollkästchenfelds im **[!UICONTROL Eingabe des Feldnamens beginnen]** und wählen Sie es aus, wenn es in der Liste angezeigt wird, und wählen Sie **[!UICONTROL Gleich]** und Typ **[!UICONTROL Ja]** (ohne Anführungszeichen) im folgenden Feld.
+1. Klicken Sie in der oberen rechten Ecke des Bildschirms auf das Symbol **[!UICONTROL Suche]** ![](assets/search-icon.png) auf **[!UICONTROL Erweiterte Suche]**.
+1. Klicken Sie auf das Objekt Ihres benutzerdefinierten Formulars (z. B. Problem), klicken Sie auf **[!UICONTROL Ergebnisse filtern]** und dann auf **[!UICONTROL Filter hinzufügen]**.
+1. Beginnen Sie mit der Eingabe des Namens eines Kontrollkästchenfelds in das Feld **[!UICONTROL Feldname eingeben]**, wählen Sie es aus, wenn es in der Liste angezeigt wird, wählen Sie dann **[!UICONTROL Gleich]** aus und geben Sie im folgenden Feld **[!UICONTROL Ja]** (ohne Anführungszeichen) ein.
 
    **Beispiel:** Feld 1 gleich (Groß-/Kleinschreibung beachten) Ja.
 
-1. Klicken **[!UICONTROL Filter hinzufügen]** und fügen Sie alle Kontrollkästchen-Felder zu Ihrer erweiterten Suche hinzu.
+1. Klicken Sie auf **[!UICONTROL Filter hinzufügen]** und fügen Sie alle Kontrollkästchen-Felder zu Ihrer erweiterten Suche hinzu.
 
    Suchen Sie nach jeder möglichen Kombination.
 
@@ -86,11 +86,11 @@ In diesem Artikel wird erläutert, wie Sie das Objekt finden und dann das Proble
 
    * [Entfernen Sie eines der benutzerdefinierten Formulare aus dem Objekt und bearbeiten Sie dort die Berechnung.](#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there)
    * [Bearbeiten Sie die Berechnung in allen angehängten benutzerdefinierten Formularen gleich.](#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms)
-   * [Fügen Sie ein neues berechnetes Feld mit der bearbeiteten Berechnung zu einem oder allen angehängten benutzerdefinierten Formularen hinzu.](#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms)
+   * [Fügen Sie ein neues berechnetes Feld mit der bearbeiteten Berechnung zu einem oder allen angehängten benutzerdefinierten Formularen hinzu](#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms)
 
 ## Entfernen Sie eines der benutzerdefinierten Formulare aus dem Objekt und bearbeiten Sie dort die Berechnung. {#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there}
 
-1. Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind, wie hier beschrieben: [Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind.](#find-the-object-where-the-custom-forms-are-attached) in diesem Artikel, dann öffnen Sie das Objekt.
+1. Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind, wie in [Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind](#find-the-object-where-the-custom-forms-are-attached) in diesem Artikel beschrieben, und öffnen Sie dann das Objekt.
 1. Entfernen Sie eines der benutzerdefinierten Formulare aus dem Objekt und speichern Sie dann das Objekt.
 
    >[!NOTE]
@@ -99,7 +99,7 @@ In diesem Artikel wird erläutert, wie Sie das Objekt finden und dann das Proble
 
 1. Bearbeiten Sie im entfernten benutzerdefinierten Formular die Berechnung für das benutzerdefinierte Feld, das Sie ursprünglich aktualisieren wollten, und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-   Dieses Mal [!DNL Workfront] keinen Konflikt auslösen.
+   Diesmal sollte [!DNL Workfront] nicht auf einen Konflikt stoßen.
 
 1. (Optional) Entfernen Sie die Kontrollkästchen-Felder aus den benutzerdefinierten Formularen oder löschen Sie sie aus [!DNL Workfront].
 
@@ -107,12 +107,12 @@ In diesem Artikel wird erläutert, wie Sie das Objekt finden und dann das Proble
 
 >[!IMPORTANT]
 >
->Daten gehen in den Objekten verloren, an denen das benutzerdefinierte Formular bereits angehängt ist, wenn Sie diese Schritte ausführen. Wenn das berechnete Feld jedoch auf statische, nicht berechnete Felder verweist, können Sie [!UICONTROL Benutzerdefinierte Ausdrücke neu berechnen] -Option für das Objekt zum Wiederherstellen der verlorenen Daten
+>Daten gehen in den Objekten verloren, an denen das benutzerdefinierte Formular bereits angehängt ist, wenn Sie diese Schritte ausführen. Wenn das berechnete Feld jedoch auf statische, nicht berechnete Felder verweist, können Sie die Option [!UICONTROL Benutzerdefinierte Ausdrücke neu berechnen] für das Objekt verwenden, um die verlorenen Daten wiederherzustellen
 
-1. Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind, wie hier beschrieben: [Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind.](#find-the-object-where-the-custom-forms-are-attached) in diesem Artikel.
+1. Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind, wie in [Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind](#find-the-object-where-the-custom-forms-are-attached) in diesem Artikel beschrieben.
 1. Entfernen Sie das Feld aus allen benutzerdefinierten Formularen, die an das Objekt angehängt sind, und speichern Sie dann die Formulare.
 
-1. Fügen Sie das benutzerdefinierte Feld, das die neue Berechnung enthält, wieder zu den benutzerdefinierten Formularen hinzu.
+1. Fügen Sie das benutzerdefinierte Feld mit der neuen Berechnung wieder zu den benutzerdefinierten Formularen hinzu.
 
    >[!IMPORTANT]
    >
@@ -120,13 +120,13 @@ In diesem Artikel wird erläutert, wie Sie das Objekt finden und dann das Proble
 
 1. (Optional) Entfernen Sie die Kontrollkästchen-Felder aus den Formularen oder löschen Sie sie aus [!DNL Workfront].
 
-## Fügen Sie ein neues berechnetes Feld mit der bearbeiteten Berechnung zu einem oder allen angehängten benutzerdefinierten Formularen hinzu. {#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms}
+## Fügen Sie ein neues berechnetes Feld mit der bearbeiteten Berechnung zu einem oder allen angehängten benutzerdefinierten Formularen hinzu {#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms}
 
 Um zu vermeiden, dass Daten im vorhandenen berechneten benutzerdefinierten Feld verloren gehen oder wenn Sie die bearbeitete Berechnung nur in einem der benutzerdefinierten Formulare durchführen müssen, die an das gefundene Objekt angehängt sind:
 
-1. Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind, wie hier beschrieben: [Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind.](#find-the-object-where-the-custom-forms-are-attached) in diesem Artikel.
+1. Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind, wie in [Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind](#find-the-object-where-the-custom-forms-are-attached) in diesem Artikel beschrieben.
 1. Fügen Sie ein neues berechnetes benutzerdefiniertes Feld mit der erforderlichen Berechnung zu einem oder allen Formularen hinzu.
-1. Umbenennen des alten berechneten benutzerdefinierten Felds **Obsolete**.
+1. Benennen Sie das alte berechnete benutzerdefinierte Feld **Obsolete** um.
 
    Bei allen Formularen, die mit dem Objekt verbunden waren, behält dieses ältere, berechnete benutzerdefinierte Formular seine historischen Daten bei, die Verwendung wird jedoch eingestellt.
 

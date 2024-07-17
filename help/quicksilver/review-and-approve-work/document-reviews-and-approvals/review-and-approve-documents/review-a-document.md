@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verknüpft sind</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verknüpft sind</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,32 +63,32 @@ Add once functionality is added
 
 1. Bewegen Sie den Mauszeiger über das Dokument im Feld &quot;Vorschau&quot;. Anschließend können Sie entweder:
 
-   Klicks **Vorschau** , um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
+   Klicken Sie auf **Vorschau** , um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
 
    ODER
 
-   Klicks **Herunterladen** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
+   Klicken Sie auf **Herunterladen** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
 
-1. (Optional) Nachdem Sie das Dokument überprüft haben, können Sie einen Kommentar für den Anfragenden im Dokument **Updates** Abschnitt. Weitere Informationen zu Kommentaren finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Um aufzuzeichnen, dass Sie die Überprüfung abgeschlossen haben, klicken Sie auf **Vollständige Prüfung**.
+1. (Optional) Nachdem Sie das Dokument überprüft haben, können Sie im Abschnitt **Aktualisierungen** des Dokuments einen Kommentar für den Anforderer hinterlassen. Weitere Informationen zu Kommentaren finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Um aufzuzeichnen, dass Sie die Überprüfung abgeschlossen haben, klicken Sie auf **Überprüfung abschließen**.
 
 ## Überprüfen eines Dokuments im Bereich &quot;Dokumentzusammenfassung&quot;
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 
 1. Klicken Sie auf das gewünschte Dokument und der Bereich Dokumentzusammenfassung wird geöffnet.
 
 1. Wählen Sie die Version des Dokuments aus, das Sie im Dropdown-Menü Version überprüfen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Bewegen Sie den Mauszeiger über die Vorschau des Dokuments im **Details** im oberen Bereich der Dokumentzusammenfassung. Anschließend können Sie entweder:
+1. Bewegen Sie den Mauszeiger über die Vorschau des Dokuments im Abschnitt **Details** oben im Bereich &quot;Dokumentzusammenfassung&quot;. Anschließend können Sie entweder:
 
-   Klicks **Vorschau** , um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
+   Klicken Sie auf **Vorschau** , um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
 
    ODER
 
-   Klicks **Herunterladen** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
+   Klicken Sie auf **Herunterladen** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
 
-1. (Optional) Nachdem Sie das Dokument überprüft haben, können Sie einen Kommentar für den Anfragenden im Dokument **Updates** Abschnitt. Weitere Informationen zu Kommentaren finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Nachdem Sie das Dokument überprüft haben, können Sie im Abschnitt **Aktualisierungen** des Dokuments einen Kommentar für den Anforderer hinterlassen. Weitere Informationen zu Kommentaren finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Sie können auch eine bestimmte Version des Dokuments in der Vorschau anzeigen oder herunterladen, indem Sie nach unten zum **Versionen** auf das Symbol Mehr klicken. ![](../assets/more-icon.png) neben der Version, die Sie überprüfen und auswählen möchten **Herunterladen** oder **Vorschau**.
-1. Um aufzuzeichnen, dass Sie die Überprüfung abgeschlossen haben, klicken Sie auf **Vollständige Prüfung**.
+1. (Optional) Sie können auch eine bestimmte Version des Dokuments in der Vorschau anzeigen oder herunterladen, indem Sie zum Abschnitt &quot;**Versionen**&quot;der Dokumentzusammenfassung scrollen und dann auf das Symbol &quot;Mehr&quot;![](../assets/more-icon.png) neben der Version klicken, die Sie überprüfen möchten, und &quot;**Download**&quot;oder &quot;**Vorschau**&quot;auswählen.
+1. Um aufzuzeichnen, dass Sie die Überprüfung abgeschlossen haben, klicken Sie auf **Überprüfung abschließen**.

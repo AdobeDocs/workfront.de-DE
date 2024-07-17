@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das Objekt verwalten, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das Objekt verwalten, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,28 +54,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf die Dokumentseite, um auf den Namen des Dokuments zu klicken, und wählen Sie dann die Version des Dokuments aus, für das Sie die Genehmigung im Dropdown-Menü Version entfernen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Auswählen **Genehmigungen** im linken Bereich.
+1. Wählen Sie im linken Bereich **Genehmigungen** aus.
 
-1. Bewegen Sie den Mauszeiger über den Namen des Genehmigers oder Prüfers, den Sie entfernen möchten, und klicken Sie auf die Schaltfläche **Löschen** icon ![](../assets/delete.png) wird nach ihrem Namen angezeigt.
+1. Bewegen Sie den Mauszeiger über den Namen des Genehmigers oder Prüfers, den Sie entfernen möchten, und klicken Sie dann auf das Symbol **Löschen** ![](../assets/delete.png) , das nach seinem Namen angezeigt wird.
 
    Die Genehmigungs- oder Überprüfungsanforderung wird entfernt und der Genehmiger erhält eine Benachrichtigung, dass seine Validierung nicht mehr erforderlich ist. Auch der genehmigungsbezogene Freigabe-Zugriff wurde entfernt.
 
-1. (Optional) Um einen Genehmiger einem Validierer zuzuweisen, anstatt ihn vollständig zu entfernen, deaktivieren Sie die Option **Genehmiger** -Kontrollkästchen entsprechend ihrem Namen.
+1. (Optional) Um einen Genehmiger einem Validierer zuzuweisen, anstatt ihn vollständig zu entfernen, deaktivieren Sie das Kontrollkästchen **Genehmiger** entsprechend seinem Namen.
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer zu entfernen.
 
 ## Entfernen Sie Genehmiger oder Prüfer aus der Dokumentzusammenfassung.
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 
 1. Klicken Sie auf das benötigte Dokument. Daraufhin wird der Bereich Dokumentzusammenfassung für dieses Dokument geöffnet.
 
 1. Wählen Sie im Versions-Dropdown-Menü die Version des Dokuments aus, für das Sie einen Genehmiger oder Überprüfer entfernen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Scrollen Sie nach unten zum **Genehmigungen** im Bereich &quot;Document Summary&quot;. Bewegen Sie den Mauszeiger über den Namen des Genehmigers oder Prüfers, den Sie entfernen möchten, und klicken Sie auf die Schaltfläche **Löschen** icon ![](../assets/delete.png) wird nach ihrem Namen angezeigt.
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** im Bereich &quot;Dokumentzusammenfassung&quot;. Bewegen Sie den Mauszeiger über den Namen des Genehmigers oder Prüfers, den Sie entfernen möchten, und klicken Sie dann auf das Symbol **Löschen** ![](../assets/delete.png) , das nach seinem Namen angezeigt wird.
 
    Die Genehmigungs- oder Überprüfungsanforderung wird entfernt und der Genehmiger erhält eine Benachrichtigung, dass seine Validierung nicht mehr erforderlich ist. Auch der genehmigungsbezogene Freigabe-Zugriff wurde entfernt.
 
-1. (Optional) Um einen Genehmiger einem Validierer zuzuweisen, anstatt ihn vollständig zu entfernen, deaktivieren Sie die Option **Genehmiger** -Kontrollkästchen entsprechend ihrem Namen.
+1. (Optional) Um einen Genehmiger einem Validierer zuzuweisen, anstatt ihn vollständig zu entfernen, deaktivieren Sie das Kontrollkästchen **Genehmiger** entsprechend seinem Namen.
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer zu entfernen.

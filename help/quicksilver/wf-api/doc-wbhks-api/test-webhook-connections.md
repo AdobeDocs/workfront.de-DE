@@ -10,7 +10,7 @@ role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Testen Sie die Authentifizierungs-URL und die Token-Endpunkt-URL für OAuth-basi
 1. (Nur OAuth-Dienste) Nach Abschluss des vorherigen Schritts wird die OAuth2-Authentifizierungsseite Ihres Dienstes in einem Popup-Fenster geladen. (Hinweis: Sie werden möglicherweise aufgefordert, sich zuerst bei Ihrem Dienst anzumelden.) Gewähren Sie auf der Authentifizierungsseite Workfront Zugriff auf das Benutzerkonto, indem Sie auf die Schaltfläche Vertrauen oder Zulassen klicken.
 1. Vergewissern Sie sich, dass Ihr Dienst der Dropdown-Liste Dokumente hinzufügen hinzugefügt wurde. Wenn Sie ihn anfangs nicht sehen, versuchen Sie, den Browser zu aktualisieren.
 
-**Test 2: Verknüpfen eines Dokuments mit Workfront Tests die folgenden Endpunkte: /files, /metadata**
+**Test 2: Verknüpfen Sie ein Dokument mit Workfront-Tests mit den folgenden Endpunkten: /files, /metadata**
 
 1. Gehen Sie in Workfront zur Hauptseite &quot;Dokumente&quot;, indem Sie in der oberen Navigationsleiste auf den Link Dokumente klicken.
 1. Wählen Sie Ihren Document Webhook-Dienst unter Dokumente hinzufügen aus.
@@ -49,7 +49,7 @@ Testen Sie die Authentifizierungs-URL und die Token-Endpunkt-URL für OAuth-basi
 1. Stellen Sie sicher, dass Sie in der Ordnerstruktur navigieren können.
 1. Auswählen und Verknüpfen eines Dokuments mit Workfront
 
-**Test 3: Navigieren Sie zu einem Dokument im Content Management System.**
+**Test 3: Navigieren Sie zu einem Dokument im Content Management System**
 
 Testet die folgenden Endpunkte: /metadata (insbesondere viewLink)
 
@@ -57,7 +57,7 @@ Testet die folgenden Endpunkte: /metadata (insbesondere viewLink)
 1. Wählen Sie das Dokument aus und klicken Sie auf den Link Öffnen .
 1. Überprüfen Sie, ob das Dokument in einer neuen Registerkarte geöffnet wird.
 
-**Test 4: Navigieren Sie zu einem Dokument im Content Management System (mit Anmeldung).**
+**Test 4: Navigieren Sie zu einem Dokument im Content Management System (mit Anmeldung)**
 
 Testet die folgenden Endpunkte: /metadata (insbesondere viewLink)
 

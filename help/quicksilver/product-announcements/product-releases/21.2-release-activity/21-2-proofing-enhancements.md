@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Verbesserungen bei der Prüfung
 
-Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 - Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Testbestätigungsentscheidung jetzt in der Dokumentenliste sichtbar
 
@@ -33,19 +33,19 @@ Zuvor mussten Sie zum Workflow für Dokumentdetails und Testsendungen wechseln, 
 
 Weitere Informationen zu Testversandentscheidungen finden Sie unter [Bereich &quot;Dokumente&quot;](../../../documents/managing-documents/documents-area.md).
 
-Diese Funktion ist jetzt im [Verwalten von Testsendungen und Versionen im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Testsendungen und Versionen verwalten des neuen Workfront-Erlebnisses](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) in Workfront One enthalten.
 
 ## Neue Felder im Bericht zur Bestätigung des Testversands
 
 Um nützliche Informationen zu Testsendungen aufzudecken, haben wir die folgenden Felder zum Bericht über die Validierung von Testsendungen hinzugefügt:
 
-* **Entscheidungsdatum:** Zeigt das Datum an, an dem ein Genehmiger eine Entscheidung über einen Testversand trifft. Dieses Datum finden Sie auch in der Druckzusammenfassung des Testversands.
-* **Stufe der genehmigenden Person:** Zeigt die aktuellen Informationen zur Bühne an.
-* **Workflow-Vorlage:** Zeigt alle an den Testversand angehängten Workflow-Vorlagen an. Wenn keine Vorlage angehängt ist, ist die Spalte leer.
+* **Entscheidungsdatum:** Zeigt das Datum an, an dem ein Genehmiger eine Entscheidung über einen Testversand trifft. Dieses Datum finden Sie auch in der Druckzusammenfassung des Testversands.
+* **Phase des Genehmigers:** Zeigt die aktuellen Informationen zur Bühne an.
+* **Workflow-Vorlage:** Zeigt alle an den Testversand angehängten Workflow-Vorlagen an. Wenn keine Vorlage angehängt ist, ist die Spalte leer.
 
 Diese Felder sind nicht Teil des Standardberichts. Sie müssen sie hinzufügen, wenn Sie sie sehen möchten.
 
-Diese Funktion ist jetzt im [Testversandsysteme, Teil 2: Workflow-Management](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Testversand-System-Setups, Teil 2: Workflow-Management](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) in Workfront One enthalten.
 
 ## Den bestehenden Testversand-Workflow bei der Generierung einer neuen Version übernehmen
 
@@ -57,4 +57,4 @@ Jetzt wird der bestehende Testversand-Workflow auf alle neuen Versionen übertra
 
 Zuvor gab es einen geringfügigen Unterschied in der Art und Weise, wie der Testversand-Workflow übertragen wurde, je nachdem, wo Sie ihn in Workfront generiert haben.
 
-Weitere Informationen finden Sie unter [Erstellen einer neuen Testversion](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+Weitere Informationen finden Sie unter [Erstellen einer neuen Version eines Testversands](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).

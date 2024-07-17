@@ -2,8 +2,8 @@
 filename: change-date-format-chrome
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Datumsformat ändern in [!DNL Adobe Workfront]
-description: So ändern Sie das Datumsformat für die Datumsangaben in [!DNL Adobe Workfront] müssen Sie die Spracheinstellungen in Ihrem Browser ändern.
+title: Datumsformat in  [!DNL Adobe Workfront] ändern
+description: Um das Datumsformat für die Datumsangaben in [!DNL Adobe Workfront] zu ändern, müssen Sie die Spracheinstellungen in Ihrem Browser ändern.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
 source-git-commit: e9a96b6952ca3f128cc723df68787f40c8dcf604
@@ -13,39 +13,39 @@ ht-degree: 0%
 
 ---
 
-# Datumsformat ändern in [!DNL Adobe Workfront]
+# Datumsformat in [!DNL Adobe Workfront] ändern
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
-Sie können das Datumsformat in [!DNL Adobe Workfront], beispielsweise [!UICONTROL Geplantes Abschlussdatum], [!UICONTROL Tatsächliches Abschlussdatum]oder [!UICONTROL Voraussichtlicher Abschluss].
+Sie können das Datumsformat der Datumsangaben in [!DNL Adobe Workfront] ändern, z. B. &quot;[!UICONTROL Geplantes Abschlussdatum]&quot;, &quot;[!UICONTROL Tatsächliches Abschlussdatum]&quot;oder &quot;[!UICONTROL Vorgeschlagenes Abschlussdatum]&quot;.
 
-Sie können beispielsweise ein Datumsformat ändern von _TT/MM/JJJJ_ nach _MM/TT/JJJJ_ oder umgekehrt.
-Sie können auch das Datumsformat von _MM/TT/JJ_ nach _Mo. DD, JJJJ_.
+Sie können beispielsweise ein Datumsformat von _TT/MM/JJJJ_ in _MM/TT/JJJJ_ ändern oder umgekehrt.
+Oder Sie können das Datumsformat von _MM/TT/JJ_ in _Mo TT, JJJJ_ ändern.
 
 Sie können Datumsformate in Workfront auf folgende Weise ändern, je nachdem, welche Änderungen Sie sehen möchten und wo Sie die Änderungen sehen möchten.
 
-* So ändern Sie alle Datumsformate für alle Seiten in [!DNL Workfront] Sie müssen die Spracheinstellungen in Ihrem Browser entsprechend Ihrem Standort und Ihrer Sprache ändern.
+* Um alle Datumsformate für alle Seiten in [!DNL Workfront] an Ihren Standort und Ihre Sprache anzupassen, müssen Sie die Spracheinstellungen in Ihrem Browser ändern.
 
-  Wenn die Standardsprache in Ihrem Browser beispielsweise auf *[!UICONTROL Englisch (USA)]*, werden die Daten in den folgenden Formaten angezeigt:
+  Wenn die Standardsprache in Ihrem Browser beispielsweise auf *[!UICONTROL Englisch (USA)]* festgelegt ist, werden die Datumsangaben in den folgenden Formaten angezeigt:
 
    * MM/TT/JJJJ
    * Mo. DD. YYY
 
-  So ändern Sie die Spracheinstellungen in [!DNL Chrome] oder einem anderen Browser, müssen Sie die Einstellungen dieses Browsers ändern. Die Schritte zum Ändern der Einstellungen eines Browsers variieren von Browser zu Browser. Weitere Informationen finden Sie in der [!UICONTROL Hilfe], [!UICONTROL Voreinstellungen]oder [!UICONTROL Einstellungen] Bereiche , um zu erfahren, wie Sie die Einstellungen ändern können.
+  Um die Spracheinstellungen in [!DNL Chrome] oder einem anderen Browser zu ändern, müssen Sie die Einstellungen dieses Browsers ändern. Die Schritte zum Ändern der Einstellungen eines Browsers variieren von Browser zu Browser. Informationen zum Ändern der Einstellungen finden Sie in den Bereichen [!UICONTROL Hilfe], [!UICONTROL Voreinstellungen] oder [!UICONTROL Einstellungen] Ihres Browsers.
 
-* Um das Datumsformat nur in Berichten und Ansichten zu ändern, müssen Sie die [!UICONTROL Feldformat] -Einstellung in [!UICONTROL Erweiterte Optionen] Bereich einer Spalte beim Erstellen des Berichts oder der Ansicht. Dadurch wird das Datumsformat nicht an den Speicherort oder die Sprache angepasst. Es ändert das Datumsformat im Kontext desselben Orts oder derselben Sprache.
+* Um das Datumsformat nur in Berichten und Ansichten zu ändern, müssen Sie beim Erstellen des Berichts oder der Ansicht die Einstellung [!UICONTROL Feldformat] im Bereich [!UICONTROL Erweiterte Optionen] einer Spalte aktualisieren. Dadurch wird das Datumsformat nicht an den Speicherort oder die Sprache angepasst. Es ändert das Datumsformat im Kontext desselben Orts oder derselben Sprache.
 
   ![](assets/field-format-in-advanced-options-of-a-view-highlighted.png)
 
-  Weitere Informationen finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Weitere Informationen finden Sie unter [Benutzerspezifischen Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Um das Datumsformat in allen ausgehenden E-Mail-Benachrichtigungen für Ihre gesamte Organisation zu ändern, müssen Sie die [!UICONTROL Standardsprache für E-Mail] -Einstellung in [!UICONTROL Kundeninformationen] Gebiet in [!UICONTROL Einrichtung].
+* Um das Datumsformat in allen ausgehenden E-Mail-Benachrichtigungen für Ihre gesamte Organisation zu ändern, müssen Sie die Einstellung [!UICONTROL Standard-E-Mail-Gebietsschema] im Bereich [!UICONTROL Kundeninformationen] in der [!UICONTROL Einrichtung] aktualisieren.
 
   ![](assets/default-email-locale-field.png)
 
   Weitere Informationen finden Sie unter [Grundlegende Informationen für Ihr System konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-* Um das Format aller Daten in allen ausgehenden E-Mail-Benachrichtigungen für einen einzelnen Benutzer zu ändern, müssen Sie die [!UICONTROL Gebietsschema der E-Mail] -Einstellung in [!UICONTROL Person bearbeiten] beim Bearbeiten eines Benutzerprofils.
+* Um das Format aller Daten in allen ausgehenden E-Mail-Benachrichtigungen für einen einzelnen Benutzer zu ändern, müssen Sie beim Bearbeiten des Benutzerprofils die Einstellung [!UICONTROL E-Mail-Gebietsschema] im Feld [!UICONTROL Person bearbeiten] aktualisieren.
 
   ![](assets/email-locale-for-user-profile-highlighted.png)
 

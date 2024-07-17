@@ -19,9 +19,9 @@ ht-degree: 0%
 
 * [Kommentar zu einem Testversand](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
 * [Kommentare zum Testversand anzeigen und beantworten](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
-* [Testversand-Kommentare durchsuchen, filtern und sortieren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
+* [ Suchen, Filtern und Sortieren von Testkommentaren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
 * [Testversand-Kommentare bearbeiten](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/edit-a-proof-comment.md)
-* [Kommentare zum Testversand auflösen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)
+* [Bereinigen von Testversand-Kommentaren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)
 * [Testversand-Kommentare löschen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
-* [Verwenden von Aktionen für Testversand-Kommentare](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
+* [Verwenden von Aktionen für Testkommentare](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
 * [Benutzer zum Freigeben eines Testversands taggen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)

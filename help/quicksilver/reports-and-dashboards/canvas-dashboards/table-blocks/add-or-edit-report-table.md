@@ -17,43 +17,43 @@ Eine Tabelle zeigt Feldinformationen in Spalten an, die gefiltert, gruppiert und
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Arbeitsfläche für die Berichterstellung Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Hinzufügen oder Bearbeiten von Tabellenblöcken
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichterstellung**.
-1. Klicks **Neuer Bericht**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und dann auf **Berichterstellung**.![](assets/main-menu-icon.png)
+1. Klicken Sie auf **Neuer Bericht**.
 
    Oder
 
-   Gehen Sie zu einem vorhandenen Bericht und klicken Sie auf die Schaltfläche **Mehr** icon ![](assets/more-icon-27x15.png) Klicken Sie in der Berichtüberschrift auf **Bearbeiten**.
+   Wechseln Sie zu einem vorhandenen Bericht, klicken Sie auf das Symbol **Mehr** ![](assets/more-icon-27x15.png) in der Kopfzeile des Berichts und klicken Sie dann auf **Bearbeiten**.
 
-1. Auf der rechten Seite des Bildschirms unter **Baustein hinzufügen**, entweder:
+1. Fügen Sie rechts im Bildschirm unter **Baustein hinzufügen** einen der folgenden Schritte ein:
 
-   Ziehen Sie die **Verzeichnis** icon ![](assets/table-icon.png) auf der Arbeitsfläche direkt zu Ihrer gewünschten Position.
+   Ziehen Sie das Symbol **Tabelle** ![](assets/table-icon.png) direkt auf die Arbeitsfläche an die gewünschte Position.
 
    Oder
 
-   Doppelklicken Sie auf die **Verzeichnis** icon ![](assets/table-icon.png) , um oben auf der Arbeitsfläche eine Tabelle hinzuzufügen.
+   Doppelklicken Sie auf das Symbol **Tabelle** ![](assets/table-icon.png) , um eine Tabelle oben auf der Arbeitsfläche hinzuzufügen.
 
    >[!TIP]
    >
    >Sie können die Größe des Blocks nach seiner Platzierung durch Ziehen der Ecken-Griffe ändern.
 
-1. Klicks **Unbenannte Tabelle** Geben Sie in die Tabellenüberschrift einen Titel für die Tabelle ein.
+1. Klicken Sie in der Tabellenüberschrift auf **Tabelle ohne Titel** und geben Sie einen Titel für die Tabelle ein.
 
    ![](assets/table-name-350x142.png)
 
-1. Klicks **Bearbeiten** in der Mitte des Tabellenblocks, um die Tabelle zu konfigurieren.
+1. Klicken Sie in der Mitte des Tabellenblocks auf **Bearbeiten** , um die Tabelle zu konfigurieren.
 
    >[!NOTE]
    >
-   >Wenn die Tabelle bereits Teil der Arbeitsfläche war (z. B. beim Bearbeiten eines vorhandenen Berichts), wird die **Bearbeiten** -Schaltfläche wird nicht in der Mitte des Blocks angezeigt. Um die Tabelle zu bearbeiten, klicken Sie auf das **Bearbeiten** icon ![](assets/edit-icon.png) in der Tabellenüberschrift.
+   >Wenn die Tabelle bereits Teil der Arbeitsfläche war (z. B. beim Bearbeiten eines vorhandenen Berichts), wird die Schaltfläche **Bearbeiten** nicht in der Mitte des Blocks angezeigt. Um die Tabelle zu bearbeiten, klicken Sie stattdessen auf das Symbol **Bearbeiten** ![](assets/edit-icon.png) in der Tabellenüberschrift.
    >![](assets/edit-icon-table-header-350x71.png)
 
-1. Im **Felder** auf der rechten Seite ein Feld suchen, das Sie der Tabelle als Spalte hinzufügen möchten, und es dann entweder auf die gewünschte Tabelle ziehen oder doppelklicken Sie darauf, um es als letzte Spalte der Tabelle hinzuzufügen.
+1. Suchen Sie im Bereich **Felder** rechts ein Feld, das Sie der Tabelle als Spalte hinzufügen möchten, und ziehen Sie es dann entweder auf die gewünschte Tabelle oder doppelklicken Sie darauf, um es als letzte Spalte der Tabelle hinzuzufügen.
 
-   Sie können Text in die **Suche** um ein bestimmtes Feld nach Namen zu suchen. Sie können die beiden Dropdown-Menüs unter diesem Feld auch verwenden, um die Liste der angezeigten Felder auf eine oder beide der folgenden Optionen einzuschränken:
+   Sie können Text in das Feld **Suche** eingeben, um ein bestimmtes Feld nach Namen zu suchen. Sie können die beiden Dropdown-Menüs unter diesem Feld auch verwenden, um die Liste der angezeigten Felder auf eine oder beide der folgenden Optionen einzuschränken:
 
    * Der mit dem gewünschten Feld verknüpfte Objekttyp, z. B. Projekt oder Aufgabe
    * Der gewünschte Feldtyp, z. B. Datum oder Währung
@@ -66,6 +66,6 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 
 1. Führen Sie einen der folgenden Schritte aus, um die Tabelle weiter zu konfigurieren:
 
-   * **Formelfeld hinzufügen**: Klicken **Neu +** oben im **Felder** Liste. Weitere Informationen zum Erstellen eines Formelfelds finden Sie unter [Erstellen eines Formelfelds in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
-   * **Filter hinzufügen**: Ziehen Sie das Feld, nach dem die Tabelle gefiltert werden soll, auf den **Filter** oberhalb der Tabelle. Weitere Informationen zum Einrichten von Filterregeln finden Sie unter [Tabelle in Berichtsarbeitsfläche filtern](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
-   * **Gruppieren von Zeilen nach bestimmten Attributen**: Ziehen Sie das Feld, nach dem die Tabelle gruppiert werden soll, auf den **Gruppe** oberhalb der Tabelle. Weitere Informationen zum Erstellen von Zeilengruppen finden Sie unter [Gruppieren von Tabellenzeilen in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).
+   * **Fügen Sie ein Formelfeld hinzu**: Klicken Sie oben in der Liste **Felder** auf **Neu +** . Weitere Informationen zum Erstellen eines Formelfelds finden Sie unter [Erstellen eines Formelfelds in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
+   * **Filter hinzufügen**: Ziehen Sie das Feld, nach dem die Tabelle gefiltert werden soll, auf den Abschnitt **Filter** über der Tabelle. Weitere Informationen zum Einrichten von Filterregeln finden Sie unter [Filtern einer Tabelle in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
+   * **Zeilen nach bestimmten Attributen gruppieren**: Ziehen Sie das Feld, nach dem die Tabelle gruppiert werden soll, auf den Abschnitt **Gruppe** über der Tabelle. Weitere Informationen zum Erstellen von Zeilengruppen finden Sie unter [Gruppieren von Tabellenzeilen in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).

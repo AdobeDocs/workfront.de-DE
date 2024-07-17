@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: '"Kick-Starts-Szenario: Vorbereitung der Firmen-, Gruppen-, Rollen- und Benutzerkick-Starts'
+title: "Kick-Start-Szenario: Vorbereitung für Unternehmen, Gruppe, Rolle und Benutzerkick-Start"
 description: Wenn Sie mit der Implementierung von Adobe Workfront beginnen, können Sie anstelle der manuellen Eingabe von Daten Ihre Kundenliste, Ihre internen Abteilungen, Ihre Jobrollen und Benutzerinformationen importieren.
 author: Caroline
 feature: System Setup and Administration
@@ -11,12 +11,12 @@ role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 10%
+source-wordcount: '1104'
+ht-degree: 2%
 
 ---
 
-# Szenario für Kick-Starts: Vorbereitung von Unternehmens-, Gruppen-, Rollen- und Benutzerkick-Starts
+# Kick-Start-Szenario: Vorbereitung für Unternehmen, Gruppe, Rolle und Anwender-Kick-Start
 
 Wenn Sie mit der Implementierung von Adobe Workfront beginnen, können Sie anstelle der manuellen Eingabe von Daten Ihre Kundenliste, Ihre internen Abteilungen, Ihre Jobrollen und Benutzerinformationen importieren.
 
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -38,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,16 +53,16 @@ In der folgenden Tabelle sind die zu importierenden Unternehmen, Gruppen und Rol
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Firmen</strong> </th> 
+   <th><strong>Unternehmen</strong> </th> 
    <th><strong>Gruppen</strong> </th> 
-   <th><strong>Funktionen</strong> </th> 
+   <th><strong>Rollen</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>Ihr Unternehmen</em> </p> <p>XYZ, Inc.</p> </td> 
    <td valign="top"> <p valign="top" rowspan="7">Finanzielle Details</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Verkauf</p> </td> 
-   <td valign="top"> <p valign="top">Geschäftsanalyst</p> <p valign="top">Controller Creative</p> <p valign="top">Designer</p> <p valign="top">Ressourcenmanager</p> <p valign="top">Scrum Übergeordnet</p> <p valign="top">Technischer Schriftsteller</p> <p valign="top">Webentwickler</p> </td> 
+   <td valign="top"> <p valign="top">Geschäftsanalyst</p> <p valign="top">Controller Creative</p> <p valign="top">Entwerfende Person</p> <p valign="top">Ressourcenmanager</p> <p valign="top">Scrum Master</p> <p valign="top">Technischer Schriftsteller</p> <p valign="top">Webentwickler</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,15 +75,15 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 
 | **Vorname** | Chris |
 |---|---|
-| **Nachname** | Besetzung |
+| **Nachname** | Beschneiden |
 | **Benutzername/E-Mail** | mailto:cmanning@foo.com |
 | **Kennwort** | updateMe |
 | **Zugriff** | Teammitglied |
 | **Firma** | &lt;*Ihr Unternehmen>* |
-| **Hauptgruppe** | Marketing |
-| **Aufgabengebiet** | Geschäftsanalyst |
+| **Home Group** | Marketing |
+| **Auftragsrolle** | Geschäftsanalyst |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Benutzer 2
 
@@ -92,12 +92,12 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 | **Nachname** | Campbell |
 | **Benutzername/E-Mail** | jcampbell@foo.com |
 | **Kennwort** | updateMe |
-| **Zugriff** | Projektleiter |
+| **Zugriff** | Project Manager |
 | **Firma** | &lt;*Ihr Unternehmen>* |
-| **Hauptgruppe** | Marketing |
-| **Aufgabengebiet** | Projektleiter |
+| **Home Group** | Marketing |
+| **Auftragsrolle** | Project Manager |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Benutzer 3
 
@@ -108,10 +108,10 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 | **Kennwort** | updateMe |
 | **Zugriff** | Helpdesk |
 | **Firma** | &lt;*Ihr Unternehmen>* |
-| **Hauptgruppe** | Verkauf |
-| **Aufgabengebiet** | Vertriebsmitarbeiter |
+| **Home Group** | Verkauf |
+| **Auftragsrolle** | Vertriebsmitarbeiter |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Benutzer 4
 
@@ -122,10 +122,10 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 | **Kennwort** | updateMe |
 | **Zugriff** | Portfolio-Manager |
 | **Firma** | &lt;*Ihr Unternehmen>* |
-| **Hauptgruppe** | Finanzielle Details |
-| **Aufgabengebiet** | Controller |
+| **Home Group** | Finanzielle Details |
+| **Auftragsrolle** | Controller |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Benutzer 5
 
@@ -134,12 +134,12 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 | **Nachname** | Reynolds |
 | **Benutzername/E-Mail** | preynolds@foo.com |
 | **Kennwort** | updateMe |
-| **Zugriff** | Projektleiter |
+| **Zugriff** | Project Manager |
 | **Firma** | *Ihr Unternehmen>* |
-| **Hauptgruppe** | Marketing |
-| **Aufgabengebiet** | IT |
+| **Home Group** | Marketing |
+| **Auftragsrolle** | IT |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Benutzer 6
 
@@ -150,23 +150,23 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 | **Kennwort** | updateMe |
 | **Zugriff** | Administrator |
 | **Firma** | *Ihr Unternehmen>* |
-| **Hauptgruppe** | Ressourcenmanager |
-| **Aufgabengebiet** | Keine |
+| **Home Group** | Ressourcenmanager |
+| **Auftragsrolle** | Keine |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Herunterladen einer Kick-Start-Vorlage
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken **System** > **Kick-Starts** > **Daten importieren.**
+1. Klicken Sie auf **System** > **Kick-Starts** > **Daten importieren**.
 
-1. Klicken **Weitere Optionen** um die vollständige Liste der Importoptionen anzuzeigen.
+1. Klicken Sie auf **Mehr Optionen** , um die vollständige Liste der Importoptionen anzuzeigen.
 1. Wählen Sie die zu importierenden Objekte &quot;Zugriffsstufe&quot;, &quot;Unternehmen&quot;, &quot;Gruppe&quot;, &quot;Auftragsrolle&quot;und &quot;Benutzer&quot;aus.
 
 ## Firmeninformationen eingeben
 
-1. Öffnen Sie die **Workfront.xlsx** Datei, die Sie gerade heruntergeladen haben.
+1. Öffnen Sie die soeben heruntergeladene Datei **Workfront.xlsx** .
 
    >[!TIP]
    >
@@ -178,7 +178,7 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 
    ![](assets/companyid--1--350x78.png)
 
-1. Geben Sie TRUE in den **isNew** Spalte.
+1. Geben Sie TRUE in die Spalte **isNew** ein.
 1. Wiederholen Sie diese Aktion für jedes hinzugefügte Unternehmen. (In diesem Beispiel führen Sie diese Aktion für die Zeilen 3-6 aus, da vier Unternehmen hinzugefügt werden.)
 
    ![](assets/cmpyisnew-350x86.png)
@@ -191,7 +191,7 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 
 1. Legen Sie einen Namen fest.
 
-   Geben Sie die Namen der einzelnen Kunden im **setName** Spalte.
+   Geben Sie die Namen der einzelnen Kunden in der Spalte **setName** an.
 
    ![](assets/companyid-350x78.png)
 
@@ -201,7 +201,7 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 
    ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
 
-1. Legen Sie die **isNew** column.Gemäß dem Szenario werden vier Gruppen importiert. Geben Sie daher TRUE in die Zeilen 4 bis 7 für die Spalte &quot;isNew&quot;ein.
+1. Legen Sie die Spalte **isNew** fest. Gemäß dem Szenario werden vier Gruppen importiert. Geben Sie daher für die Spalte &quot;isNew&quot;TRUE in die Zeilen 4 bis 7 an.
 1. Geben Sie eine eindeutige ID an.
 
    Dies muss für jede Zeile der ID-Spalte erfolgen. Bei der Erstellung neuer Datensätze können Ganzzahlen ab 1 problemlos verwendet werden.
@@ -210,7 +210,7 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 
 1. Legen Sie einen Namen fest.
 
-   Geben Sie die Namen der einzelnen Abteilungen im **setName** Spalte.
+   Geben Sie die Namen der einzelnen Abteilungen in der Spalte **setName** an.
 
    ![](assets/groupnames-350x85.png)
 
@@ -266,7 +266,7 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 
 1. Geben Sie Werte für die Zugriffsebene an.
 
-   Beispiel: Chris Manning, ein Team-Mitglied, sucht die Kennung auf der ACSLVL-Zugriffsstufe nach der Zugriffsstufe für Team-Mitglieder. Kopieren Sie die ID in die Zwischenablage und fügen Sie sie im Benutzerblatt im **setAccessLevelID** Spalte in der Zeile von Chris.
+   Beispiel: Chris Manning, ein Team-Mitglied, sucht die Kennung auf der ACSLVL-Zugriffsstufe nach der Zugriffsstufe für Team-Mitglieder. Kopieren Sie die ID in die Zwischenablage und fügen Sie sie im Benutzerblatt in die Spalte **setAccessLevelID** in der Zeile von Chris ein.
 
    Wiederholen Sie diesen Schritt für jeden Benutzer und jede Zugriffsebene.
 
@@ -274,7 +274,7 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 
 1. Geben Sie Details zur Home Group an.
 
-   Dem Szenario zufolge gehört Chris Manning zur Marketing-Gruppe. Suchen Sie im Gruppierungsgruppenblatt die Kennung für die Marketing-Gruppe, kopieren Sie sie in die Zwischenablage und fügen Sie sie im Benutzerblatt in die **setHomeGroupID** Spalte in der Zeile von Chris. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
+   Dem Szenario zufolge gehört Chris Manning zur Marketing-Gruppe. Suchen Sie im Gruppierungsgruppenblatt die Kennung für die Marketing-Gruppe, kopieren Sie sie in die Zwischenablage und fügen Sie sie im Benutzerblatt &quot;BENUTZER&quot;in die Spalte **setHomeGroupID** in der Zeile &quot;Chris&quot;ein. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
 
    ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
 
@@ -290,7 +290,7 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 
 1. Geben Sie Details zur Auftragsrolle an.
 
-   Dem Szenario zufolge wird Chris Manning die Rolle Business Analyst haben. Suchen Sie im Arbeitsblatt ROLE Role die ID für die Rolle Business Analyst , kopieren Sie sie in die Zwischenablage und fügen Sie sie im Arbeitsblatt USER User in die Zeile setRoleID in die Zeile Chris ein. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
+   Dem Szenario zufolge wird Chris Manning die Rolle &quot;Business Analyst&quot;haben. Suchen Sie im Arbeitsblatt ROLE Role die ID für die Rolle Business Analyst , kopieren Sie sie in die Zwischenablage und fügen Sie sie im Arbeitsblatt USER User in die Zeile setRoleID in die Zeile Chris ein. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
 
    ![](assets/copyroleid-350x149.png)
 
@@ -299,4 +299,4 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 1. Füllen Sie bei Bedarf weitere Benutzerdetails aus und speichern Sie dann die Datei.
 1. Importieren Sie die Excel-Datei.
 
-   Befolgen Sie die Anweisungen im Abschnitt **Importieren von Kick Start-Dateien** Abschnitt dieses Artikels.
+   Befolgen Sie die Anweisungen im Abschnitt **Kick Start Files importieren** dieses Artikels.

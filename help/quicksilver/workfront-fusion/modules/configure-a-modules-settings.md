@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Konfigurieren Sie die Einstellungen eines Moduls in [!DNL Adobe Workfront Fusion]
+title: Einstellungen eines Moduls in  [!DNL Adobe Workfront Fusion] konfigurieren
 description: Sie müssen Einstellungen für jedes Modul konfigurieren, das Sie erstellen.
 author: Becky
 feature: Workfront Fusion
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# Konfigurieren Sie die Einstellungen eines Moduls in [!DNL Adobe Workfront Fusion]
+# Einstellungen eines Moduls in [!DNL Adobe Workfront Fusion] konfigurieren
 
 Sie müssen Einstellungen für jedes Modul konfigurieren, das Sie erstellen.
 
-Beispiel: die [[!DNL Dropbox] Module](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) -Module müssen Sie den Zielordner angeben, in den Sie Dateien hochladen möchten. Für [[!UICONTROL Email] Module](../../workfront-fusion/apps-and-their-modules/email-modules.md) -Module, müssen Sie die E-Mail-Adresse eingeben, an die E-Mails gesendet werden sollen.
+Beispielsweise müssen Sie bei den Modulen [[!DNL Dropbox] modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) den Zielordner angeben, in den Sie Dateien hochladen möchten. Für die Module [[!UICONTROL E-Mail] modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) müssen Sie die E-Mail-Adresse eingeben, an die E-Mails gesendet werden sollen.
 
 >[!NOTE]
 >
@@ -43,25 +43,25 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr>  
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Einstellungen eines Moduls konfigurieren
 
@@ -69,17 +69,17 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
    Oder
 
-   Klicken Sie auf das Symbol des Moduls im Szenario-Editor, wie unter [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Klicken Sie im Szeneneditor auf das Symbol des Moduls, wie unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) beschrieben.
 
-1. Falls für das Modul erforderlich, erstellen Sie eine **[!UICONTROL Verbindung]** auf Ihr registriertes Benutzerkonto für diesen Dienst, wie unter [Verbindungen - Übersicht](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. Falls für das Modul erforderlich, erstellen Sie eine **[!UICONTROL Verbindung]** zu Ihrem registrierten Benutzerkonto für diesen Dienst, wie in [Übersicht über Verbindungen](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md) beschrieben.
 1. Geben Sie in jedes Feld den entsprechenden Text ein.
 
    Oder
 
-   Klicks **[!UICONTROL Zuordnung]** Wenn es rechts neben dem Feld angezeigt wird, ordnen Sie ein Element aus einem anderen Modul in Ihrem Szenario zu.
+   Klicken Sie auf **[!UICONTROL Map]** , wenn es rechts neben dem Feld angezeigt wird, und ordnen Sie dann ein Element aus einem anderen Modul in Ihrem Szenario zu.
 
    Es sind Bolzparameter erforderlich.
 
-   Informationen zu den verschiedenen Elementdatentypen [!DNL Workfront Fusion] kann erkennen (z. B. Datum, Zahl und Text), siehe [Elementdatentypen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+   Informationen zu den verschiedenen Elementdatentypen, die [!DNL Workfront Fusion] erkennen kann (z. B. Datum, Zahl und Text), finden Sie unter [Elementdatentypen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 1. (Bedingt) Wenn das Modul über erweiterte Optionen verfügt, die Sie anzeigen und verwenden möchten, wählen Sie **[!UICONTROL Erweiterte Einstellungen anzeigen]**.

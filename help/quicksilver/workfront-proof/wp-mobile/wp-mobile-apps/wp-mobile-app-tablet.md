@@ -1,24 +1,25 @@
 ---
 title: Workfront Proof Mobile App für Tablets
-description: Die [!DNL Workfront Proof] Mit dem Tablet-Programm können Sie Ihre Testsendungen bequem überprüfen und genehmigen, wenn Sie unterwegs sind. Die App steht allen Benutzern zum Download zur Verfügung. Sie müssen kein [!DNL Workfront Proof] -Benutzer, um Testsendungen auf Ihrem Tablet oder Telefon überprüfen zu können.
+description: Mit der Tablet-App [!DNL Workfront Proof] können Sie Ihre Testsendungen bequem überprüfen und genehmigen, wenn Sie unterwegs sind. Die App steht allen Benutzern zum Download zur Verfügung. Sie müssen kein [!DNL Workfront Proof] Benutzer sein, um Testsendungen auf Ihrem Tablet oder Telefon überprüfen zu können.
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 1%
+source-wordcount: '1982'
+ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] App für Tablets
+# [!DNL Workfront Proof] mobile App für Tablets
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
-Die [!DNL Workfront Proof] Mit dem Tablet-Programm können Sie Ihre Testsendungen bequem überprüfen und genehmigen, wenn Sie unterwegs sind. Die App steht allen Benutzern zum Download zur Verfügung. Sie müssen kein [!DNL Workfront Proof] -Benutzer, um Testsendungen auf Ihrem Tablet oder Telefon überprüfen zu können.
+Mit der Tablet-App [!DNL Workfront Proof] können Sie Ihre Testsendungen bequem überprüfen und genehmigen, wenn Sie unterwegs sind. Die App steht allen Benutzern zum Download zur Verfügung. Sie müssen kein [!DNL Workfront Proof] -Benutzer sein, um Testsendungen auf Ihrem Tablet oder Telefon überprüfen zu können.
 
-Sie können einfach auf die [!UICONTROL Testversand durchführen] in der E-Mail-Benachrichtigung, die sie erhalten, um den Testversand in der App zu öffnen.
+Sie können in der E-Mail-Benachrichtigung, die sie erhalten, einfach auf die Schaltfläche [!UICONTROL Gehe zu Testversand] klicken, um den Testversand in der App zu öffnen.
 
 [!DNL Workfront Proof] -Benutzer können sich bei der App anmelden und das Dashboard verwenden, um ihre Arbeit bequem zu verwalten.
 
@@ -27,16 +28,16 @@ Sie können einfach auf die [!UICONTROL Testversand durchführen] in der E-Mail-
 * iOS-Geräte: iPad 3, iPad Air, iPad mini
 * Android-Geräte: Android OS Version 4.4+, 5+; Samsung Galaxy Tab 3+ (10.1&quot;)
 
-Diese App wurde speziell für Tablets entwickelt. Wenn Sie [!DNL Workfront Proof] Laden Sie die iOS-App aus dem iTunes Store in Ihre iPhone herunter.
+Diese App wurde speziell für Tablets entwickelt. Wenn Sie [!DNL Workfront Proof] in Ihrer iPhone verwenden möchten, laden Sie die iOS-App aus dem iTunes Store herunter.
 
 ## App herunterladen
 
 >[!IMPORTANT]
 >
->Die mobile Workfront-Proof-App wird nicht mehr unterstützt und ist unverändert verfügbar.  Alle Probleme in der App werden nicht behoben.
+>Die mobile Workfront Proof-App wird nicht mehr unterstützt und ist unverändert verfügbar.  Alle Probleme in der App werden nicht behoben.
 
 
-Die [!DNL Workfront Proof] Die Tablet-App ist im Apple App Store und im Google Play Store verfügbar.
+Die Tablet-App [!DNL Workfront Proof] ist im Apple App Store und im Google Play Store verfügbar.
 
 1. Klicken Sie auf den unten stehenden Link, um die App herunterzuladen und auf Ihrem Gerät zu installieren.
 
@@ -46,11 +47,11 @@ Die [!DNL Workfront Proof] Die Tablet-App ist im Apple App Store und im Google P
 
 ## Anmelden
 
-Die [!DNL Workfront Proof] Mit dem Tablet-Programm erhalten Sie Zugriff auf das Dashboard mit den Testsendungen, die Ihre Aufmerksamkeit erfordern. Zugriff auf das Dashboard:
+Mit der Tablet-App [!DNL Workfront Proof] erhalten Sie Zugriff auf das Dashboard mit den Testsendungen, die Ihre Aufmerksamkeit erfordern. Zugriff auf das Dashboard:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Melden Sie sich mit Ihrem [!DNL Workfront Proof] Anmeldedaten.
+   * Melden Sie sich mit Ihren [!DNL Workfront Proof] -Anmeldedaten an.
 
      Wenn Sie eine Einladungs-E-Mail zum Testversand erhalten und auf Ihrem Mobilgerät geöffnet werden, gelangen Sie über den Link zum Testversand in der App. Sie müssen kein Benutzer sein, um Testsendungen durchführen zu können. Sie müssen die App jedoch auf Ihrem Gerät installiert haben, um sie anzeigen zu können.
 
@@ -62,13 +63,13 @@ Die [!DNL Workfront Proof] Mit dem Tablet-Programm erhalten Sie Zugriff auf das 
 
 ## Das Dashboard
 
-Wenn Sie bei Ihrer [!DNL Workfront Proof] Konto:
+Wenn Sie bei Ihrem [!DNL Workfront Proof] -Konto angemeldet bleiben möchten:
 
-1. Aktivieren **[!UICONTROL Anmeldung beibehalten]** im Seitenleistenmenü unter **[!UICONTROL Einstellungen]**:
+1. Aktivieren Sie **[!UICONTROL Lassen Sie mich in]** im Seitenleistenmenü unter **[!UICONTROL Einstellungen]** angemeldet sein:
 
 ![Keep_me_logged_in.gif](assets/keep-me-logged-in-350x446.gif)
 
-Die *[!UICONTROL Dashboard]* -Link führt Sie von jeder Ansicht in der App zurück zum Dashboard. Sie können es auch verwenden, um das Dashboard neu zu laden.
+Über den Link *[!UICONTROL Dashboard]* gelangen Sie von jeder Ansicht der App zum Dashboard. Sie können es auch verwenden, um das Dashboard neu zu laden.
 
 Andere Elemente des Dashboards sind die Suchleiste, mit der Sie das Konto nach dem Namen des Testversands durchsuchen können, sowie verschiedene Ansichten, die Ihnen bei der effektiven Verwaltung Ihrer Arbeitslast helfen.
 
@@ -76,11 +77,11 @@ Andere Elemente des Dashboards sind die Suchleiste, mit der Sie das Konto nach d
 
 ## Verwalten des Workflows mithilfe von Dashboard-Ansichten
 
-Ähnlich wie bei den Dashboard-Diagrammen in unserer Webanwendung zeigen wir in der Mobile App eine Liste von Testsendungen an, die für Sie freigegeben wurden. Die Willkommensnachricht oben auf der Seite gibt Ihnen die Gesamtzahl der Testsendungen und darunter die Anzahl der Testsendungen, in die wir unterteilen *Einschaltzeit*, *Risiko*, und *Verspätete Testsendungen*.
+Ähnlich wie bei den Dashboard-Diagrammen in unserer Webanwendung zeigen wir in der Mobile App eine Liste von Testsendungen an, die für Sie freigegeben wurden. Die Willkommensnachricht oben auf der Seite gibt Ihnen die Gesamtanzahl der Testsendungen und darunter die Anzahl der Testsendungen, die wir in *Einschaltzeit*, *Risiko* und *Verspätete Testsendungen* aufschlüsseln.
 
-* **Bei Zeittests** sind die Testsendungen, für die entweder keine Frist festgelegt oder die Frist um mehr als 24 Stunden abgelaufen ist.
-* **Risikoprüfungen** sind diejenigen, bei denen die Frist innerhalb der nächsten 24 Stunden liegt - der Fortschrittsbalken für diese Testsendungen ist orange.
-* **Verspätete Testsendungen** sind die Testsendungen, die bereits die Frist überschritten haben - die Fortschrittsanzeige für diese Testsendungen ist rot. Nach Ablauf der Frist [!DNL Workfront Proof] sendet den verspäteten Entscheidungsträgern und dem Testversandinhaber eine automatisierte Erinnerungsmail.
+* **Bei Testsendungen mit festgelegter Zeitdauer** handelt es sich um Testsendungen, für die entweder keine Frist festgelegt oder die Frist um mehr als 24 Stunden abgelaufen ist.
+* **Bei Risikonachweisen** ist der Termin innerhalb der nächsten 24 Stunden. Der Fortschrittsbalken für diese Testsendungen ist orange.
+* **Verspätete Testsendungen** sind die Testsendungen, die bereits nach Ablauf der Frist durchgeführt wurden. Die Fortschrittsleiste für diese Testsendungen ist rot. Nach Ablauf der Frist sendet [!DNL Workfront Proof] den verspäteten Entscheidungsträgern und dem Testversandinhaber eine automatische Erinnerungsmail.
 
 Diese Testsendungen werden in separate Ansichten gruppiert, sodass Sie Ihre Arbeit bequem priorisieren können, angefangen bei den Testsendungen, die bereits über die Frist hinausgehen.
 
@@ -90,16 +91,16 @@ Eine weitere Ansicht, die Sie möglicherweise für nützlich halten, ist die Ans
 
 ## Testsendungen in der App überprüfen
 
-1. Klicken Sie auf den Namen des Testversands, um ihn im [!DNL Workfront Proof] Betrachter.
+1. Klicken Sie auf den Namen des Testversands, um ihn im Viewer [!DNL Workfront Proof] zu öffnen.
 
    Oder
 
-   Um einen Testversand über eine E-Mail-Benachrichtigung zu öffnen, können die validierungsverantwortlichen Benutzer auf die **[!UICONTROL Testversand durchführen]** in der Benachrichtigung.
-Wenn Sie [!DNL Workfront Proof] -Konto können Sie sich anmelden und über das Dashboard auf Ihren Testversand zugreifen.
+   Um einen Testversand aus einer E-Mail-Benachrichtigung zu öffnen, können die Validierer auf den Link **[!UICONTROL Zum Testversand wechseln]** in der Benachrichtigung klicken.
+Wenn Sie über ein [!DNL Workfront Proof] -Konto verfügen, können Sie sich anmelden und über das Dashboard auf Ihren Testversand zugreifen.
 
    >[!NOTE]
    >
-   >Sie müssen die App auf Ihrem Gerät installiert haben, damit Sie Testsendungen in [!DNL Workfront Proof], auch wenn Sie keine [!DNL Workfront Proof] -Konto.
+   >Sie müssen die App auf Ihrem Gerät installiert haben, um Testsendungen in [!DNL Workfront Proof] überprüfen zu können, selbst wenn Sie kein [!DNL Workfront Proof] -Konto haben.
 
    Wenn Sie zum ersten Mal einen Testversand öffnen, zeigen wir Ihnen eine Tour, die Ihnen bei den ersten Schritten mit der Überprüfung von Testsendungen in der App hilft.
 
@@ -107,7 +108,7 @@ Wenn Sie [!DNL Workfront Proof] -Konto können Sie sich anmelden und über das D
 
 1. Navigieren Sie in Ihrem Testversand:
 
-   * Um zu einer bestimmten Seite des Testversands zu springen, wischen Sie seitlich oder verwenden Sie die [!UICONTROL Miniaturen] Liste.
+   * Um zu einer bestimmten Seite des Testversands zu springen, wischen Sie seitlich oder verwenden Sie die Liste [!UICONTROL Miniaturansichten] .
 
      Sie können auch die Pfeile unten auf der Seite verwenden oder eine bestimmte Seitenzahl eingeben.
 
@@ -115,25 +116,25 @@ Wenn Sie [!DNL Workfront Proof] -Konto können Sie sich anmelden und über das D
    * Um einzuzoomen, ziehen Sie den Bildschirm.
    * Um das Bild zu schwenken, halten Sie es gedrückt und bewegen Sie es, bis Sie die richtige Position finden.
 
-     Die Überprüfung von Testsendungen in der mobilen App ist so einfach wie die Überprüfung von Testsendungen mithilfe des [!DNL Workfront Proof] Betrachter. Im Folgenden werden wir näher auf das Hinzufügen von Kommentaren und Markups, das Verwalten von Feedback und das Treffen von Entscheidungen eingehen. Außerdem werden wir verschiedene Optionen besprechen, die in der Seitenleiste der App verfügbar sind.
+     Die Überprüfung von Testsendungen in der mobilen App ist so einfach wie die Überprüfung von Testsendungen mit dem [!DNL Workfront Proof]-Viewer. Im Folgenden werden wir näher auf das Hinzufügen von Kommentaren und Markups, das Verwalten von Feedback und das Treffen von Entscheidungen eingehen. Außerdem werden wir verschiedene Optionen besprechen, die in der Seitenleiste der App verfügbar sind.
 
 ## Kommentar in der App
 
 Das folgende Video zeigt Ihnen die Grundlagen zum Kommentieren in der App. Hier wird gezeigt, wie man einen Kommentar abgibt, wie man eine Antwort auf einen Kommentar veröffentlicht, wie man verschiedene Markups verwendet und sie löscht und wie man Kommentare bearbeitet und löscht.
 
-Sie können nur Kommentare bearbeiten und löschen, wenn keine Antwort veröffentlicht wurde. Wenn Sie die [!UICONTROL Papierkorb] kann es sein, dass diese Option von Ihrem [!DNL Workfront Proof] Administrator.
+Sie können nur Kommentare bearbeiten und löschen, wenn keine Antwort veröffentlicht wurde. Wenn das Symbol [!UICONTROL Papierkorb] nicht angezeigt wird, ist es möglich, dass diese Option vom [!DNL Workfront Proof] -Administrator deaktiviert wurde.
 
 Es gibt drei Anzeigeoptionen für Kommentare in der App. Sie können zwischen ihnen wechseln, indem Sie auf die Kommentarschaltfläche klicken.
 
 * **[!UICONTROL Listenansicht]** zeigt eine Liste aller Kommentare an. Sie können sie durchsuchen, indem Sie entweder auf jeden Kommentar tippen oder auf die Pfeile nach oben und unten tippen.
 * **[!UICONTROL Einzelne Kommentaransicht]** zeigt jeweils einen Kommentar an. Um zum nächsten Kommentar zu gelangen, tippen Sie auf den Pfeil am oberen Rand der Seite.
-* **[!UICONTROL Ansicht &quot;Kommentare ausblenden&quot;]** blendet alle Kommentare aus.
+* **[!UICONTROL Die Ansicht &quot;Kommentare ausblenden&quot;]** blendet alle Kommentare aus.
 
-Jedes Markup, das auf dem Testversand übrig bleibt, legt eine Nadel auf dem Bild ab. Um den mit dem Pin verknüpften Kommentar und das Markup anzuzeigen, tippen Sie einfach auf den Pin. Dies ist nur möglich, wenn das Bearbeitungsfeld für Kommentare geschlossen ist. Tippen Sie zum Schließen des Kommentarfelds auf [!UICONTROL x] im Kommentar oben links des Felds.
+Jedes Markup, das auf dem Testversand übrig bleibt, legt eine Nadel auf dem Bild ab. Um den mit dem Pin verknüpften Kommentar und das Markup anzuzeigen, tippen Sie einfach auf den Pin. Dies ist nur möglich, wenn das Bearbeitungsfeld für Kommentare geschlossen ist. Um das Kommentarfeld zu schließen, tippen Sie auf den Kommentar [!UICONTROL x] oben links im Feld.
 
 ## Textanmerkungs-Tool
 
-Testsendungen für unterwegs sind wirklich im [!DNL Workfront Proof] Tablet-App. Das Werkzeug für Textanmerkungen ist in der Markups-Symbolleiste verfügbar, nachdem Sie auf orange geklickt haben **[!UICONTROL Kommentar hinzufügen]** Schaltfläche.
+Testsendungstext für unterwegs ist wirklich in der [!DNL Workfront Proof] -Tablet-App enthalten. Das Werkzeug für Textanmerkungen ist in der Markups-Symbolleiste verfügbar, nachdem Sie auf die orangefarbene Schaltfläche **[!UICONTROL Kommentar hinzufügen]** geklickt haben.
 
 1. Wählen Sie das Tool aus und tippen Sie dann auf das Wort, das Sie markieren möchten.
 1. Halten Sie den Finger auf das Wort, bis die Hervorhebung verfügbar wird, und verwenden Sie die Schieberegler, um das ganze Wort bzw. die ganze Wortgruppe hervorzuheben, die Sie markieren möchten.
@@ -142,9 +143,9 @@ Testsendungen für unterwegs sind wirklich im [!DNL Workfront Proof] Tablet-App.
 
    | **[!UICONTROL Hervorheben]** | Markiert den Text und kopiert ihn in das Kommentarfeld. |
    |---|---|
-   | **[!UICONTROL Ersetzen]** | Fügt [ hinzu[!UICONTROL ERSETZEN]] und [[!UICONTROL MIT]] zusammen mit dem Text in das Kommentarfeld ein, was es Ihnen erleichtert, Ersatztext zu empfehlen. |
-   | **[!UICONTROL Löschen]** | Striche durch den Text und Hinzufügungen [DELETE] zum Kommentarfeld. |
-   | **[!UICONTROL Einfügen nach]** | Hinzufügungen [EINFÜGEN NACH] in das Kommentarfeld ein. |
+   | **[!UICONTROL Replace]** | Fügt [[!UICONTROL ERSETZEN]] und [[!UICONTROL MIT]] zusammen mit dem Text in das Kommentarfeld ein, wodurch Sie die Empfehlung zum Ersetzen von Text vereinfachen können. |
+   | **[!UICONTROL Löschen]** | Durchsucht den Text und fügt [DELETE] zum Kommentarfeld hinzu. |
+   | **[!UICONTROL Einfügen nach]** | Fügt [INSERT AFTER] in das Kommentarfeld ein. |
 
    {style="table-layout:auto"}
 
@@ -152,9 +153,9 @@ Testsendungen für unterwegs sind wirklich im [!DNL Workfront Proof] Tablet-App.
 
 ## Verwalten von Kommentaren in der mobilen App
 
-Nachdem jeder seine Kommentare und Markierungen auf dem Testversand hinterlassen hat, muss der Testversand-Manager sehr oft das Feedback durchlesen und entscheiden, welche Änderungen auf die nächste Testversion angewendet werden sollen. In [!DNL Workfront Proof] Sie können Aktionen für Kommentare verwenden, um jeden einzelnen Kommentar zu kennzeichnen und die Kommentare zu markieren, die bearbeitet werden sollen.
+Nachdem jeder seine Kommentare und Markierungen auf dem Testversand hinterlassen hat, muss der Testversand-Manager sehr oft das Feedback durchlesen und entscheiden, welche Änderungen auf die nächste Testversion angewendet werden sollen. In [!DNL Workfront Proof] können Sie Aktionen für Kommentare verwenden, um jeden einzelnen Kommentar zu kennzeichnen und die Kommentare zu markieren, die bearbeitet werden sollen.
 
-Aktionen bezüglich Kommentaren müssen in Ihrem Konto von der [!DNL Workfront Proof] Administrator und kann nur von Personen mit Bearbeitungsrechten für einen Testversand verwendet werden.
+Aktionen bezüglich Kommentaren müssen in Ihrem Konto vom Administrator [!DNL Workfront Proof] eingerichtet werden und können nur von Personen mit Bearbeitungsrechten für einen Testversand verwendet werden.
 
 Wenn Sie an der Vorbereitung der nächsten Version Ihres Testversands arbeiten, können Sie die Kommentare sofort abrufen. Der Kommentar wird mit einem grünen Häkchen als aufgelöst markiert. Wenn Sie den Kommentar erneut öffnen müssen, können Sie auf den Pfeil am unteren Rand des Kommentarfelds klicken.
 
@@ -166,7 +167,7 @@ Wenn Sie verhindern möchten, dass andere Prüfer auf einen Kommentar-Thread rea
 
 ## Überprüfen von Videotestsendungen
 
-Das Überprüfen von Videos unterwegs ist einfach mit dem [!DNL Workfront Proof] Tablet-App. Im folgenden Video erfahren Sie, wie Sie in der App Kommentare, Markups und Entscheidungen treffen.
+Das Überprüfen von Videos unterwegs ist mit der [!DNL Workfront Proof] -Tablet-App einfach. Im folgenden Video erfahren Sie, wie Sie in der App Kommentare, Markups und Entscheidungen treffen.
 
 ## Vergleichsmodus
 
@@ -201,7 +202,7 @@ Mit dem Vergleichstool können Sie Versionen nebeneinander vergleichen, um zu ü
 
    ![entscheidungen.png](assets/decisions-350x303.png)
 
-   Wenn du das Grün nicht siehst **[!UICONTROL Finish-Überprüfung]** und Sie glauben, dass Sie eine Entscheidung über den Testversand treffen sollten, [!DNL Workfront Proof] Der Administrator kann Ihre Testversandrolle aktualisieren, wie hier beschrieben: [Verwalten von Proof-Rollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   Wenn Sie die grüne Schaltfläche **[!UICONTROL Überprüfung abschließen]** nicht sehen und Sie glauben, dass Sie eine Entscheidung über den Testversand treffen sollten, kann Ihr [!DNL Workfront Proof] -Administrator Ihre Testversandrolle aktualisieren, wie unter [Verwalten von Testversandrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) beschrieben.
 
 ## Die Seitenleiste des Testversand-Viewers
 
@@ -213,10 +214,10 @@ Die Seitenleiste enthält viele nützliche Funktionen. Je nach Ihren Berechtigun
 |---|---|
 | **[!UICONTROL Workflow]** | Zeigt Details zu den Prüfungsphasen an, zusammen mit einer Liste der Prüfer, ihrer Fristen, Fortschrittsbalken, Entscheidungen und der Anzahl der Kommentare und Antworten. |
 | **[!UICONTROL Details]** | Zeigt Informationen über den Testversand, zusätzliche Freigabeoptionen und den Aktivitätsprüfpfad an. |
-| **[!UICONTROL Freigeben]** | Zeigt die Testversand-URL und den Einbettungscode an. |
+| **[!UICONTROL Share]** | Zeigt die Testversand-URL und den Einbettungscode an. |
 | **[!UICONTROL Benachrichtigungen]** | Hiermit können Sie Ihre E-Mail-Warnungen für den Testversand aktualisieren, den Sie gerade überprüfen. Dies ändert nichts an Ihren Standardeinstellungen. |
-| **[!UICONTROL Sperren]** | Hiermit können Sie den Testversand sperren. Sie müssen über Bearbeitungsrechte für den Testversand verfügen, damit Sie diese Option sehen können. |
+| **[!UICONTROL Lock]** | Hiermit können Sie den Testversand sperren. Sie müssen über Bearbeitungsrechte für den Testversand verfügen, damit Sie diese Option sehen können. |
 | **[!UICONTROL Löschen]** | Verschiebt den Testversand in den Ordner Papierkorb . Sie müssen über Bearbeitungsrechte für den Testversand verfügen, um ihn löschen zu können. |
-| **[!UICONTROL Einstellungen]** | Sie können festlegen, dass auf dem Testversand Pins und/oder Markierungen angezeigt werden. Sie können auch [!UICONTROL Anmeldung beibehalten] um zu verhindern, dass Sie von der App abgemeldet werden. |
+| **[!UICONTROL Einstellungen]** | Sie können festlegen, dass auf dem Testversand Pins und/oder Markups angezeigt werden. Sie können auch die Option [!UICONTROL Lassen Sie mich angemeldet] aktivieren, um zu verhindern, dass Sie von der App abgemeldet werden. |
 | **[!UICONTROL Hilfe]** | Ermöglicht es Ihnen, die App-Tour erneut anzuzeigen. |
 | **[!UICONTROL Abmelden]** | Meldet Sie sich von der App und Ihrem Konto ab. |

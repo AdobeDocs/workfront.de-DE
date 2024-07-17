@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 21.2 Projektverbesserungen
 
-Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 - Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Neue Benutzeroberfläche zum Erstellen und Bearbeiten wiederkehrender Aufgaben
 
@@ -27,9 +27,9 @@ Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 
 
 Im Rahmen der Neugestaltung der Felder &quot;Neue Aufgabe&quot;und &quot;Aufgabe bearbeiten&quot;haben wir die Möglichkeit hinzugefügt, eine neue Aufgabe wiederkehrend zu machen und das übergeordnete Element einer wiederkehrenden Aufgabe zu bearbeiten. Diese Funktion war nicht in der zuvor veröffentlichten Neugestaltung der Felder &quot;Neue Aufgabe&quot;und &quot;Aufgabe bearbeiten&quot;enthalten.
 
-Weitere Informationen finden Sie unter [Wiederkehrende Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Weitere Informationen finden Sie unter [Erstellen wiederkehrender Aufgaben](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Diese Funktion ist jetzt im [Planen von Grundlagen für das neue Workfront-Erlebnis, Teil 2: Projekt planen](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt in den [Planergrundlagen für das neue Workfront-Erlebnis, Teil 2: Planen eines Projekts](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI)-Lernpfads auf Workfront One, enthalten.
 
 ## Neue Schaltflächen in der Projektheader
 
@@ -39,7 +39,7 @@ Diese Funktion ist jetzt im [Planen von Grundlagen für das neue Workfront-Erleb
 
 Damit Sie die Liste der Projekte auf der Seite &quot;Projekte&quot;schnell filtern können, gibt es zwei neue Schaltflächen in der Kopfzeile, mit denen Sie schnell den Filter &quot;Projekte, die ich verwende&quot;oder &quot;Projekte, die ich besitze&quot;anwenden können.
 
-Diese Funktion ist jetzt im [Planen von Grundlagen für das neue Workfront-Erlebnis, Teil 1: Erstellen eines Projekts](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt in den [Planergrundlagen für das neue Workfront-Erlebnis, Teil 1: Erstellen eines Projekts](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE)-Lernpfads auf Workfront One, enthalten.
 
 ## Verschieben oder Löschen eines Verlaufs oder Problems über die Scroll-Pinnwand
 
@@ -51,7 +51,7 @@ Sie können jetzt eine Geschichte oder ein Problem aus der Scrum-Pinnwand versch
 
 Sie haben auch die Möglichkeit, eine Meldung oder ein Problem direkt aus Ihrer Scrum-Pinnwand zu löschen, indem Sie auf das Symbol Mehr auf einer Karte klicken und Löschen auswählen. Wenn Sie einen Artikel oder ein Problem löschen, wird er 30 Tage lang in den Papierkorb verschoben und kann nur vom Systemadministrator abgerufen werden.
 
-Weitere Informationen finden Sie unter [Verwalten von Meldungen und Problemen auf der Scrum-Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
+Weitere Informationen finden Sie unter [Verwalten von Meldungen und Problemen auf der Trommelplatine](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
 
 ## Neues Feld &quot;Problem bearbeiten&quot;
 
@@ -80,7 +80,7 @@ Vor dieser Verbesserung befanden sich diese Schaltflächen in der rechten oberen
 
 Informationen zum Bearbeiten von Projekten oder Aufgaben finden Sie in den folgenden Artikeln:
 
-* [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md)
+* [Bearbeiten von Projekten](../../../manage-work/projects/manage-projects/edit-projects.md)
 * [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
 ![](assets/pasted-image-4-5-2021-0-350x278.png)
@@ -115,7 +115,7 @@ Informationen zu Konvertierungsproblemen finden Sie unter [Übersicht über Konv
 
 Wenn Sie eine Gruppe einem Portfolio, Programm oder Team zuweisen, haben wir es einfacher gemacht sicherzustellen, dass Sie über die richtige Gruppe verfügen. Sie können auf das Infosymbol neben dem Namen der Gruppe klicken, um eine QuickInfo mit der Hierarchie der darüber liegenden Gruppen sowie den Administratoren der Gruppe anzuzeigen. Je nach den für die Gruppe konfigurierten Details können Sie auch den Business Leader und die Beschreibung der Gruppe sehen.
 
-Dies ist die gleiche Funktion, die kürzlich veröffentlicht wurde, um Ihnen zu helfen, eine Gruppe zu identifizieren, die Sie einem Projekt zuweisen müssen, wie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+Dies ist dieselbe Funktion, die kürzlich veröffentlicht wurde, um Ihnen zu helfen, eine Gruppe zu identifizieren, die Sie einem Projekt zuweisen müssen, wie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md) beschrieben.
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
@@ -133,7 +133,7 @@ Benutzer können jetzt die Textformatierung wie Fett-, Aufzählungs- und Hyperli
 
 Zuvor war die Textformatierung in Workfront Classic nur in den Listen &quot;Projekt&quot;, &quot;Aufgabe&quot;und &quot;Stunde&quot;sichtbar.
 
-Informationen zum Formatieren von Text in einem benutzerdefinierten Feld finden Sie unter [Benutzerdefiniertes Formular erstellen](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Weitere Informationen zum Formatieren von Text in einem benutzerdefinierten Feld finden Sie unter [Erstellen eines benutzerdefinierten Formulars](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
 Informationen zum Anzeigen von Informationen in Listen finden Sie unter [Erste Schritte mit Listen](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
 
@@ -198,5 +198,5 @@ Um Ihnen ein konsistentes Erlebnis für alle Objekte zu bieten, haben wir die Fu
 
 Vor dieser Änderung verhinderte die Deaktivierung der Einstellung, dass Benutzer nur Aufgaben oder Probleme und nicht Projekte löschen konnten.
 
-Weitere Informationen finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Weitere Informationen finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

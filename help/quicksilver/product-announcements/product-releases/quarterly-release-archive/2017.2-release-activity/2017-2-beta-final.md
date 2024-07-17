@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2017.2 Beta endgültig
+title: Beta endgültig 2017.2
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Version 2017.2 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 28. Juni 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird am 26. Juli 2017 in der Produktionsumgebung zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# 2017.2 Beta endgültig
+# Beta endgültig 2017.2
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Version 2017.2 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 28. Juni 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird am 26. Juli 2017 in der Produktionsumgebung zur Verfügung gestellt.
 
@@ -22,43 +22,43 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 >Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2017.2 vorgenommen wurden, finden Sie unter [Übersicht über die Versionsaktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2017.2 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-Die Beta-endgültige Version 2017.2 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die endgültige Version 2017.2 von Beta enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren:**
 
 * [Bestimmen der Verfügbarkeit des HTML5-Video-Testversand-Viewers (ProofHQ und Workfront)](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
 * [Unterstützung von SHA-256-Zertifikaten für SAML 2.0](#support-sha-256-certificates-for-saml-2-0)
-* [Typübersicht für Zuordnungsattribute](#type-ahead-for-mapping-attributes)
+* [ Type-Ahead für die Zuordnung von Attributen](#type-ahead-for-mapping-attributes)
 * [API-Verbesserung: Zugriff auf Benutzerzuordnungen](#api-enhancement-access-user-allocations)
 
 **Für alle Benutzer:**
 
 * [Ressourcenplaner](#resource-planner)
 * [Neuer Planungsbereich in einem Projekt (Team Builder)](#new-scheduling-area-in-a-project-team-builder)
-* [Ressourcenplanung: Standardmäßig weniger Elemente anzeigen](#resource-scheduling-show-fewer-items-by-default)
+* [Ressourcenplanung: Zeigt standardmäßig weniger Elemente an](#resource-scheduling-show-fewer-items-by-default)
 * [Ressourcenplanung: Anzeigen von Dropindikatoren und Überzuordnungen beim Ziehen von Aufgaben und Problemen](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
 * [Ressourcenplanung: Benutzerzuweisungen werden nicht mehr auf die nächste halbe Stunde gerundet](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
-* [Exportieren des Nutzungsberichts in die Formate TSV und PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
-* [2017.2 Beta endgültig](#user-calendar-enhancements-in-the-my-work-area%22)
-* [2017.2 Beta endgültig](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
+* [Exportieren des Nutzungsberichts in TSV- und PDF-Formate](#export-the-utilization-report-in-tsv-and-pdf-formats)
+* [Beta Final 2017.2](#user-calendar-enhancements-in-the-my-work-area%22)
+* [Beta Final 2017.2](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
 * [Testversandentscheidung wird im Arbeitsbereich (Workfront) angezeigt](#proof-decision-displays-in-the-my-work-area-workfront)
 * [Anzeigen von Rich-Media-Testsendungen in Vorgabeauflösungen (ProofHQ und Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
 * [Anzeigen der URL zu Unterseiten in Kommentaren zu Rich-Media-Testsendungen (ProofHQ und Workfront)](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
 * [Erstellen benutzerdefinierter Ansichten basierend auf vorhandenen Standardansichten (ProofHQ)](#create-custom-views-based-on-existing-standard-views-proofhq)
 * [Filtern des Berichtsbereichs (ProofHQ)](#filter-the-reporting-area-proofhq)
-* [Anzeigen von Mindest- und Höchstwerten in Berichten (ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
-* [In-App-Benachrichtigung für Validierung des Testversands](#in-app-notification-for-proof-approval)
+* [Mindest- und Höchstwerte in Berichten anzeigen (ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
+* [In-App-Benachrichtigung für die Validierung des Testversands](#in-app-notification-for-proof-approval)
 * [Mobile Verbesserungen](#mobile-improvements)
-* [Schrägstrich zum Filtern von Anweisungen für Feldwerte mit Kommas hinzugefügt](#slash-added-to-filter-statements-for-field-values-that-contain-commas)
-* [Verschiedene Abrechnungsraten](#multiple-billing-rates)
-* [Neue Ressourcen - Budgetierter Stundenbereich](#new-resource-budgeted-hour-field)
+* [ Schrägstrich zum Filtern von Anweisungen für Feldwerte mit Kommas hinzugefügt](#slash-added-to-filter-statements-for-field-values-that-contain-commas)
+* [Mehrere Abrechnungsraten](#multiple-billing-rates)
+* [Neues Ressourcenbudget - Haushaltsstundenfeld ](#new-resource-budgeted-hour-field)
 * [Benutzerauftragsrolle im Bereich &quot;Zugeordnet&quot;auf der Detailseite für Aufgaben und Probleme anzeigen](#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues)
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Neuer Planungsbereich in einem Projekt (Team Builder) {#new-scheduling-area-in-a-project-team-builder}
 
@@ -123,7 +123,7 @@ Zusätzlich zum XLSX-Format können Sie jetzt den Utilization-Bericht für ein P
 
 Vor dieser Änderung konnten Sie den Nutzungsbericht nur im XLSX-Format exportieren.
 
-Weitere Informationen zum Exportieren des Nutzungsprotokolls finden Sie unter [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Exportieren des Nutzungsprotokolls finden Sie unter [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Testversandentscheidung wird im Arbeitsbereich (Workfront) angezeigt {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -131,7 +131,7 @@ Wenn Sie nun im Tab Meine Genehmigungen in Ihrem Arbeitsbereich Testversandgeneh
 
 Vor dieser Änderung gab es keinen Hinweis darauf, dass bereits eine Entscheidung über den Testversand getroffen wurde und der Testversand auf dem Tab Meine Validierungen verbleibte, bis Sie den Browser aktualisiert haben.
 
-Weitere Informationen finden Sie unter [Validierung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Validierung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Weitere Informationen finden Sie unter [Arbeiten genehmigen](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Arbeiten genehmigen](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Anzeigen von Rich-Media-Testsendungen in Vorgabeauflösungen (ProofHQ und Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -139,7 +139,7 @@ In einer früheren Version der Vorschau-Umgebung haben wir die Möglichkeit eing
 
 Sie können jetzt aus den voreingestellten Auflösungsoptionen für verschiedene Smartphones, Tablets, Notebooks und Desktops auswählen.
 
-Weitere Informationen finden Sie unter &quot;Anzeigen einer Vorgabeauflösung&quot;in [Ändern der interaktiven Testversandauflösung im Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+Weitere Informationen finden Sie unter &quot;Anzeigen einer Vorgabenauflösung&quot;in [Ändern der interaktiven Testversandauflösung im Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 ## Anzeigen der URL zu Unterseiten in Kommentaren zu Rich-Media-Testsendungen (ProofHQ und Workfront) {#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront}
 
@@ -165,19 +165,19 @@ Jetzt können Sie eine benutzerdefinierte Ansicht basierend auf einer Standardan
 
 Vor dieser Änderung mussten Sie die Ansicht von Grund auf neu erstellen, um eine benutzerdefinierte Ansicht zu erstellen. 
 
-Weitere Informationen finden Sie unter [Erstellen einer benutzerdefinierten Ansicht](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) in [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Weitere Informationen finden Sie unter [Erstellen einer benutzerdefinierten Ansicht](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) in [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront Proof-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Filtern des Berichtsbereichs (ProofHQ) {#filter-the-reporting-area-proofhq}
 
 Standardmäßig enthalten die auf der Registerkarte Berichte angezeigten Daten alle Informationen aus Ihrem ProofHQ-System. Sie können jetzt Filter verwenden, um nur Informationen anzuzeigen, die für Ihre Anforderungen relevant sind. 
 
-Weitere Informationen finden Sie unter [Filtern von Berichten](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in  [Ausführen von Berichten im Workfront-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Weitere Informationen finden Sie unter [Filtern von Berichten](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in  [Ausführen von Berichten in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Anzeigen von Mindest- und Höchstwerten in Berichten (ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 Sie können jetzt konfigurieren, ob Mindest- und Höchstwerte im Diagramm angezeigt werden, wenn Sie Berichte anzeigen.
 
-Weitere Informationen finden Sie unter [Anzeigen von Berichten](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [Ausführen von Berichten im Workfront-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Weitere Informationen finden Sie unter [Anzeigen von Berichten](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [Ausführen von Berichten in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Unterstützung von SHA-256-Zertifikaten für SAML 2.0 {#support-sha-256-certificates-for-saml-2-0}
 
@@ -203,7 +203,7 @@ SAML 1.1 unterstützt keine Attributzuordnung.
 >
 > Die Mobile App wird unabhängig von der Workfront-Hauptanwendung veröffentlicht. Die in diesem Abschnitt beschriebenen Funktionen werden Anfang August veröffentlicht.
 
-Die folgenden Funktionen werden in den mobilen Apps sowohl für die Android- als auch für die iOS-Plattform hinzugefügt:
+Die folgenden Funktionen werden in den mobilen Apps für die Plattformen Android und iOS hinzugefügt:
 
 * Anforderungen von der mobilen App übermitteln
 * Datenblatt Neuer Eintrag in der Mobile App
@@ -212,7 +212,7 @@ Die folgenden Funktionen werden in den mobilen Apps sowohl für die Android- als
 
 Für einige dieser Funktionen wird es ein öffentliches Betaprogramm für die Android-Plattform geben.
 
-Weitere Informationen zum kommenden Betaprogramm für Mobilgeräte finden Sie im  [&quot;Betas&quot;](https://support.workfront.com/hc/en-us/sections/115000743248) Seite.
+Weitere Informationen zum kommenden Betaprogramm für Mobilgeräte finden Sie im  Seite [&quot;Betas&quot;](https://support.workfront.com/hc/en-us/sections/115000743248).
 
 Weitere Informationen zur Verwendung der mobilen Workfront-App finden Sie unter .  
 
@@ -234,9 +234,9 @@ Sie können jetzt mehrere Außerkraftsetzungen der Abrechnungsrate für dieselbe
 
 Vor dieser Änderung konnten Sie die Abrechnungsrate einer Auftragsrolle nur einmal überschreiben und der tatsächliche Umsatz wurde neu berechnet, um die aktuelle Abrechnungsrate für alle Stunden widerzuspiegeln, die vor der Änderung des Abrechnungskurses protokolliert wurden.
 
-Weitere Informationen zu Abrechnungsraten und Umsätzen finden Sie unter [Übersicht über Rechnungsstellung und Umsatz](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Weitere Informationen zu Abrechnungsraten und Umsätzen finden Sie unter [Übersicht über Abrechnung und Umsatz](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-Weitere Informationen zum Überschreiben der Abrechnungsraten für Stellenrollen auf Projektebene finden Sie unter [Übersicht über die Außerkraftsetzung der Abrechnungsraten von Auftragsrollen und die Berechnung des Umsatzes eines Projekts](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Weitere Informationen zum Außerkraftsetzen der Abrechnungsraten für Stellenrollen auf Projektebene finden Sie unter [Übersicht über die Außerkraftsetzungsraten für Auftragsrollen und die Berechnung des Umsatzes für ein Projekt](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Ressourcenplaner {#resource-planner}
 
@@ -248,17 +248,17 @@ Mit dieser Version führen wir die erste Phase des Ressourcen-Planers ein, der T
 * Stündliche Abweichung (zwischen den veranschlagten und den geplanten Stunden)
 * Nettostundendifferenz (zwischen den verfügbaren und den veranschlagten Stunden)
 
-Weitere Informationen zur Verwendung des Ressourcen-Planers finden Sie unter [Übersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Weitere Informationen zur Verwendung des Ressourcen-Planers finden Sie unter [Ressourcenplaner - Übersicht](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Neue Ressourcen - Budgetierter Stundenbereich {#new-resource-budgeted-hour-field}
 
 Um die neue Planungsfunktion und den Ressourcenplaner zu unterstützen, wurde dem ReportBuilder ein neues Feld hinzugefügt, in dem Sie Berichte zu den für Ressourcen veranschlagten Stunden erstellen können. In diesem Feld wird die Anzahl der Stunden erfasst, die eine Ressource in einem Projekt in den Haushalt aufgenommen wird. Dieses Feld ist nicht verfügbar, wenn Ressourcen mit der Funktion für die Planung älterer Ressourcen in den Haushaltsplan eingesetzt werden.
 
-Weitere Informationen zur Verwendung von Budgeting Hours im Ressourcen-Planer finden Sie unter [Übersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Weitere Informationen zur Verwendung von budgetierten Stunden im Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## In-App-Benachrichtigung für Validierung des Testversands {#in-app-notification-for-proof-approval}
 
-Wenn Sie als Genehmiger für einen Testversand benannt sind, erhalten Sie eine In-App-Benachrichtigung über die Genehmigung des Testversands, die auf Ihre Entscheidung wartet. Die Benachrichtigung enthält den folgenden Text: `<User name>` den Testversand zu validieren&quot;. Wenn die Benutzerinformationen nicht verfügbar sind, ändert sich die Benachrichtigung in &quot;Dieser Testversand erfordert Ihre Zustimmung&quot;.
+Wenn Sie als Genehmiger für einen Testversand benannt sind, erhalten Sie eine In-App-Benachrichtigung über die Genehmigung des Testversands, die auf Ihre Entscheidung wartet. In der Benachrichtigung wird folgender Text angezeigt: `<User name>` wünscht, dass Sie diesen Testversand validieren&quot;. Wenn die Benutzerinformationen nicht verfügbar sind, ändert sich die Benachrichtigung in &quot;Dieser Testversand erfordert Ihre Zustimmung&quot;.
 
 Vor dieser Verbesserung war der einzige visuelle Hinweis, dass Sie als Genehmiger für einen Testversand benannt wurden, eine neue Testversand-Anfrage in Ihrem Arbeitsbereich.
 

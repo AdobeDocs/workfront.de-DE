@@ -22,7 +22,7 @@ Die folgenden Funktionen wurden 2016 in der Vorschau-Umgebung bereitgestellt. Di
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Jetzt können Sie alle Aufgaben für Projekte sehen, für die Sie der Ressourcen-Manager sind, damit Sie bei Planungsentscheidungen besser informiert sind.
 
@@ -44,11 +44,12 @@ Die Schattierung der Benutzerzuordnung in der Zeitleiste der Planung bei der Res
 
 Zuvor wurde die Zuordnungsschattierung standardmäßig angezeigt und konnte nicht deaktiviert werden.
 
-Weitere Informationen zum Aktivieren von Benutzerzuordnungsoptionen finden Sie unter &quot;Verwalten von Benutzerzuweisungen in den Planungsbereichen&quot;.
+Weitere Informationen zum Aktivieren von Benutzerzuordnungsoptionen finden Sie unter
+&quot;Verwalten Sie Benutzerzuweisungen in den Planungsbereichen&quot;.
 
 ## Die Layoutvorlage bestimmt, ob der neue oder alte Kalender im Arbeitsbereich angezeigt wird.
 
-**Vorschau-Sandbox: 7. Dezember 2016; Frühzeitiger Zugriff: 14. Dezember 2016** 
+**Vorschau-Sandbox: 7. Dezember 2016; früherer Zugriff: 14. Dezember 2016** 
 
 Der neue Kalender wird standardmäßig im Arbeitsbereich &quot;Meine Arbeit&quot;angezeigt, wenn keine Layoutvorlage angewendet wird.
 
@@ -77,7 +78,7 @@ Sie können die Reihenfolge der Spalten in einer Liste ändern, indem Sie eine S
 
 Dies ist besonders nützlich, wenn das Gantt-Diagramm und die Listenansicht gleichzeitig angezeigt werden und die Spalte, die Sie anzeigen möchten, nicht auf der linken Seite der Seite angezeigt wird. 
 
-Weitere Informationen finden Sie unter [Spaltenbreite und -reihenfolge ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+Weitere Informationen finden Sie unter [Spaltenbreite und -anordnung ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 
 ## Die Anzeige in der Dashboard-Liste wurde aktualisiert.
 
@@ -97,6 +98,6 @@ Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen o
 
 ## Integration mit Adobe Creative Cloud
 
-**Add-On ist zum Download verfügbar: April 2016**
+**Add-On für den Download verfügbar: April 2016**
 
 Die Workfront-Erweiterung für Adobe Creative Cloud ermöglicht das Speichern und Exportieren von Assets, die Sie auf der Creative Cloud erstellen, in Workfront, wodurch der Genehmigungs- und Überprüfungsprozess beschleunigt wird.

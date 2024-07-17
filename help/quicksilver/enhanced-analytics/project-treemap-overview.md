@@ -10,7 +10,7 @@ exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -53,11 +53,11 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
-Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;in der [Übersicht über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Grundlegendes zur Projekt-Treemap-Visualisierung
 
@@ -65,15 +65,15 @@ Die Kästchen in der Projekt-Treemap-Visualisierung stellen Projekte dar, und di
 
 Die Projekt-Treemap-Visualisierung besteht aus:
 
-* **Kleinere, hellblaue Boxen**: Projekte mit weniger Stunden oder Tagen werden als kleinere Kästchen mit hellblauer Farbe angezeigt.
+* **Kleinere, hellblaue Kästchen**: Projekte mit weniger Stunden oder Tagen werden als kleinere Kästchen mit hellblauer Farbe angezeigt.
 
   ![](assets/project-treemap-smaller-box.png)
 
-* **Größere, dunkelblaue Kisten**: Projekte mit mehr Stunden - oder Tagen - werden als größere Kästchen mit dunkelblauer Farbe angezeigt.
+* **Größere, dunkelblaue Kästchen**: Projekte mit mehr Stunden oder Tagen werden als größere Kästchen mit dunkelblauer Farbe angezeigt.
 
   ![](assets/project-treemap-larger-box-350x205.png)
 
-* **Mittlere, blaue Boxen**: Projekte, die zwischen den beiden Kategorien liegen, werden als mittelgroße Kästchen mit einem Blau-Schatten zwischen den dunkelblauen und den hellblauen Farben angezeigt. Für mittelgroße Kisten gibt es 3 mögliche blaue Schattierungen.
+* **Medium-große, blaue Kästchen**: Projekte, die zwischen den beiden Kategorien liegen, werden als mittelgroße Kästchen mit blauem Schatten zwischen dunkelblau und hellblau angezeigt. Für mittelgroße Kisten gibt es 3 mögliche blaue Schattierungen.
 
 Die Legende auf der rechten Seite zeigt eine Aufschlüsselung der abgeschlossenen Stunden für jeden Blau-Schatten. Diese Legende ist dynamisch und wird entsprechend den Daten aktualisiert.
 
@@ -91,24 +91,24 @@ Anhand dieser Informationen können Sie Folgendes feststellen:
 * Wenn sich Teams auf die richtigen Dinge konzentrieren.
 * Wenn auf ein bestimmtes Projekt geklickt wird, wie stark sich der Umfang eines Projekts in diesem Zeitraum geändert hat.
 
-Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Überblick über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Anzeigen der Projekt-Treemap-Visualisierung
 
-1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon-16x12.png), wählen Sie **Analytics**.
+1. Klicken Sie auf das Hauptmenü-Symbol ![](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics** aus.
 1. (Optional) Wenn Sie einen anderen Datumsbereich verwenden möchten, wählen Sie im Filter für den Datumsbereich die neuen Start- und Enddaten aus.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Bedingt) Wenn Sie den Projektdatensatz einschränken müssen, wählen Sie die Filter aus, die Sie verwenden möchten, und wenden Sie sie an.
 
-   Weitere Informationen zum Hinzufügen von Filtern in der erweiterten Analyse finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Weitere Informationen zum Hinzufügen von Filtern in Enhanced Analytics finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nach dem Hinzufügen von Filtern werden Daten für bis zu 50 Projekte angezeigt und die Filter bleiben auch dann aktiv, wenn Sie die Seite verlassen oder sich von Workfront abmelden.
 
-1. (Optional) Klicken Sie zum Ändern der Projektsortierung auf die Schaltfläche **Sortieren nach** in der oberen rechten Ecke der Projekt-Treemap-Visualisierung und wählen Sie dann eine neue Sortieroption aus:
+1. (Optional) Um die Sortierung der Projekte zu ändern, klicken Sie oben rechts in der Projekt-Treemap-Visualisierung auf das Menü **Sortieren nach** und wählen Sie dann eine neue Sortieroption aus:
 
    * **A - Z**
    * **Z - A**
@@ -123,7 +123,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    ![](assets/pagination-350x118.png)
 
-1. (Optional) Ändern Sie die Ansicht von **geplante Stunden** nach **duration**.
+1. (Optional) Ändern Sie die Ansicht von **geplante Stunden** in **Dauer**.
 
    Geplante Stunden ist standardmäßig ausgewählt.
 
@@ -133,21 +133,21 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    >[!NOTE]
    >
-   >Wenn Sie die Option **duration** -Ansicht werden die folgenden Details zur Dauer angezeigt:
+   >Wenn Sie die Ansicht **Dauer** ausgewählt haben, werden Ihnen die folgenden Details zur Dauer angezeigt:
    >
    >* **Geplanter Zeitrahmen**: Die Anzahl der geplanten Tage, um das Projekt abzuschließen.
    >* **Arbeitstage**: Die geplante Dauer für jede Aufgabe, die innerhalb des oben ausgewählten Datumsbereichs abgeschlossen wurde, dividiert durch die Anzahl der Stunden pro Tag.
    >   
    >![](assets/duration-treemap-350x159.png)
    >
-   >Weitere Informationen zur Dauer finden Sie im Abschnitt &quot;Ansicht der Dauer&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+   >Weitere Informationen zur Dauer finden Sie im Abschnitt &quot;Ansicht der Dauer&quot;in der [Übersicht zur erweiterten Analyse](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Symbol &quot;Exportieren&quot;** ![](assets/export.png) Wählen Sie oben rechts in der Visualisierung das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie oben rechts in der Visualisierung auf das Symbol **Exportieren** ![](assets/export.png) und wählen Sie dann das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**
 
 1. Klicken Sie auf ein Projekt, um die Niederlassung und Aufgaben in den Flugvisualisierungen zu öffnen und einen tieferen Einblick in den Beitrag von Aufgaben und Stunden - oder Tagen - zur Größe eines Projekts zu erhalten.
 
-Weitere Informationen zur Aufschlüsselungsvisualisierung finden Sie unter [Anzeigen der Niederschlagsvisualisierung in der erweiterten Analyse](../enhanced-analytics/burndown-overview.md). Weitere Informationen zu den Aufgaben in der Flugvisualisierung finden Sie unter [Anzeigen der Aufgaben in der Flugvisualisierung in Enhanced Analytics](../enhanced-analytics/tasks-in-flight-overview.md).
+Weitere Informationen zur Aufschlüsselungsvisualisierung finden Sie unter [Anzeigen der Aufschlüsselungsvisualisierung in Enhanced Analytics](../enhanced-analytics/burndown-overview.md). Weitere Informationen zu den Aufgaben in der Flugvisualisierung finden Sie unter [Aufgaben in der Flugvisualisierung in erweiterten Analysen anzeigen](../enhanced-analytics/tasks-in-flight-overview.md).
 

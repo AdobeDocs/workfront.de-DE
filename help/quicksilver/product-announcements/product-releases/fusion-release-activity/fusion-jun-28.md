@@ -24,7 +24,7 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfr
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 ## Neues Suchmodul im Salesforce-Connector
 
@@ -32,7 +32,7 @@ Um die Suche nach Salesforce-Objekten zu vereinfachen, haben wir dem Salesforce-
 
 Wenn Sie die Abfragen lieber selbst eingeben möchten, können Sie die zuvor vorhandene Funktion im Modul Suchen mit Abfrage verwenden.
 
-Weitere Informationen: [Salesforce-Module](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+Weitere Informationen finden Sie unter [Salesforce-Module](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
 ## Filterung der Ereignisabonnements ist verfügbar unter Workfront > Modul &quot;Datensätze überwachen&quot;
 

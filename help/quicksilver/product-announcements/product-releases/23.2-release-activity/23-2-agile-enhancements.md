@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle agilen Verbesserungen beschrieben, die mit Version 23.2 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Eine Liste aller Änderungen, die derzeit im 23.2-Versionszyklus verfügbar sind, finden Sie unter [23.2 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Aufgaben und Probleme aus Objektdetails zu einer Workfront-Pinnwand hinzufügen
 
@@ -35,9 +35,9 @@ Mehrere neue Funktionen, die in Workfront-Pinnwänden verfügbar sind, ermöglic
 
 Beachten Sie, dass Sammlungen in Workflows umbenannt wurden. Mithilfe von Workflows können Sie Daten auf unterschiedliche Weise visualisieren. Sie können Elemente auf Karten in einer Liste, auf einer Pinnwand oder in einer Iteration anzeigen. Karten in einem Workstream können auch auf mehreren Pinnwänden freigegeben werden. Sie können Workflows einfach mit Karten und Pinnwänden in einem Workflow erleichtern.
 
-Weitere Informationen finden Sie unter [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Erstellen einer Iteration in einem Workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), und [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+Weitere Informationen finden Sie unter [Verwalten von Workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Erstellen einer Iteration in einem Workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) und [Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3417059/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Hinzufügen von Aufgaben und Problemen aus Listen und Berichten zu einer Workflow-Stream-Kartenliste
 
@@ -53,7 +53,7 @@ Wie die Standardfelder können Sie auch das benutzerdefinierte Feld in der Volla
 
 Alle Daten aus dem benutzerdefinierten Feld auf der Karte sind schreibgeschützt.
 
-Weitere Informationen finden Sie unter [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Weitere Informationen finden Sie unter [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 ## Hinzufügen von Aufgaben und Problemen aus Listen und Berichten zur Workfront-Pinnwand
 
@@ -72,9 +72,9 @@ Weitere Informationen finden Sie unter [Hinzufügen vorhandener Aufgaben oder Pr
 
 Sie können jetzt Stunden auf verbundenen Karten wie bei einer Aufgabe oder einem Problem protokollieren. Sie müssen über die richtigen Berechtigungen für die Aufgabe oder das Problem verfügen, um die Zeit zu protokollieren.
 
-Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Karten angezeigt. Sie müssen **Stunden** im Bereich Konfigurieren unter Karten.
+Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Karten angezeigt. Sie müssen **Stunden** im Bereich Konfigurieren unter Karten aktivieren.
 
-Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Weitere Informationen finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 
 ## Anzeige von Feldern auf einer Karte anpassen
@@ -86,9 +86,9 @@ Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden ve
 
 Es ist nun möglich, die Felder zu konfigurieren, die auf einer Karte angezeigt werden, sowohl in der Vollansicht beim Öffnen der Karte als auch in der gekürzten Kartenansicht auf der Pinnwand. Wenn Sie ein Feld deaktivieren, wird es in keiner Ansicht angezeigt. Sie können auch ein Feld in der Vollansicht aktivieren und vor der gekürzten Ansicht ausblenden.
 
-Weitere Informationen finden Sie unter [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Weitere Informationen finden Sie unter [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3415710/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3415710/){target=_blank}
 
 ## Standardstatus für Karten definieren, die in eine Pinnwandspalte verschoben werden
 
@@ -102,7 +102,7 @@ Zuvor wurden Sie aufgefordert, einen Status für jede Karte auszuwählen, die in
 
 Weitere Informationen finden Sie unter [Spalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3415711/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3415711/){target=_blank}
 
 ## Sammlungen sind jetzt in Adobe Workfront-Pinnwänden verfügbar
 
@@ -116,7 +116,7 @@ Das Hinzufügen von Mitgliedern zu einer Sammlung funktioniert genauso wie das H
 
 Weitere Informationen finden Sie unter [Verwalten von Sammlungen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3415609/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3415609/){target=_blank}
 
 ## Das Schätzfeld für verbundene Karten wird dem Feld &quot;Meldungspunkte&quot;auf Workfront-Objekten zugeordnet
 
@@ -132,7 +132,7 @@ Zuvor war die Kartenschätzung ein manueller Eintrag und wurde keinem Feld für 
 
 Außerdem hat das Feld Schätzung auf Ad Hoc- und verbundenen Karten keine Zeichenbeschränkung mehr. Zuvor war die maximale Zeichenanzahl 99.
 
-Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Weitere Informationen finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Vorschaufunktion in Annahmespalte
 

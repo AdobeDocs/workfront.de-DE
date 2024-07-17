@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens der Version vom dritten Quartal 2024 vorgenommen wurden.
 
-Eine Liste aller mit der Version vom dritten Quartal 2024 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die mit der Version vom dritten Quartal 2024 verfügbar sind, finden Sie unter [Übersicht über die Version vom dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 
@@ -28,7 +28,7 @@ Eine Liste aller mit der Version vom dritten Quartal 2024 verfügbaren Änderung
 
 Wir haben die Vorschlagsliste für Zuweisungen auf ein moderneres Design aktualisiert, das in allen Bereichen von Workfront einheitlich ist. Wenn Sie einer Aufgabe oder einem Problem über die Kopfzeile, Listenansicht oder den Bildschirm &quot;Erweiterte Zuweisung&quot;eine Zuweisung hinzufügen, ist das Erlebnis dasselbe. Die Vorschläge sind in Abschnitte unterteilt, damit Sie schnell die richtige Person, das richtige Team oder die richtige Rolle für die Zuweisung finden können.
 
-Weitere Informationen finden Sie unter [Aufgaben zuweisen](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Zuweisen von Problemen](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md), und [Erweiterte Zuweisungen erstellen](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+Weitere Informationen finden Sie unter [Aufgaben zuweisen](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Zuweisen von Problemen](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) und [Erweiterte Zuweisungen erstellen](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 ## Look-and-Feel-Aktualisierungen für benutzerdefinierte Formulare in den Dokumentdetails
 
@@ -48,7 +48,7 @@ Weitere Informationen finden Sie unter [Dokumentdetails - Übersicht](/help/quic
 
 Wir haben die Seite Iterationsdetails > Benutzerspezifische Forms auf ein moderneres Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Die Seite unterstützt jetzt erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder.
 
-Weitere Informationen finden Sie unter [Erstellen einer agilen Geschichte in einer Iteration](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
+Weitere Informationen finden Sie unter [Erstellen einer agilen Meldung in einer Iteration](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
 
 ## Look-and-Feel-Aktualisierungen für den Bereich &quot;Gruppen&quot;
 
@@ -58,7 +58,7 @@ Weitere Informationen finden Sie unter [Erstellen einer agilen Geschichte in ein
 
 Wir haben die Liste der Hauptgruppen im Bereich Einrichtung > Gruppen auf ein moderneres Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Alle Dialogfelder für Gruppen und Untergruppen (Hinzufügen, Bearbeiten, Kopieren, Deaktivieren, Löschen), unabhängig davon, ob sie in der Gruppenliste oder im Menü Mehr für eine bestimmte Gruppe oder Untergruppe aufgerufen werden, verfügen ebenfalls über das aktualisierte Design.
 
-Weitere Informationen finden Sie unter [Gruppe erstellen](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Verwalten einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+Weitere Informationen finden Sie unter [Erstellen einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Verwalten einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Look-and-Feel-Aktualisierungen für die Liste der Wechselkurse
 
@@ -68,7 +68,7 @@ Weitere Informationen finden Sie unter [Gruppe erstellen](/help/quicksilver/admi
 
 Wir haben den Bildschirm Wechselkurse auf ein moderneres Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
-Weitere Informationen finden Sie unter [Wechselkurse einrichten](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Weitere Informationen finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Look-and-Feel-Aktualisierungen für Stellenliste
 

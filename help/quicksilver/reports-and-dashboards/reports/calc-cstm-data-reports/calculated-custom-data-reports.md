@@ -22,8 +22,8 @@ Sie können Berichte mithilfe berechneter benutzerdefinierter Daten erstellen. I
 * [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [Berechnete benutzerdefinierte Felder vs. berechnete Spalten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
 * [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
-* [Übersicht über &quot;IF&quot;-Anweisungen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
-* [Beispiel für ein berechnetes benutzerdefiniertes Feld: Zeigen Sie den Manager des Erstellers eines Problems zum benutzerdefinierten Formular für das Problem an.](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
+* [&quot;IF&quot;-Anweisungen - Überblick](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
+* [Beispiel für ein berechnetes benutzerdefiniertes Feld: Anzeigen des Managers des Erstellers eines Problems beim benutzerdefinierten Formular für das Problem](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
 * [Beispiel für ein berechnetes benutzerdefiniertes Feld: Anzeigen eines Status-Zeitstempels in einem benutzerdefinierten Formular](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
-* [Berechnetes benutzerdefiniertes Feldbeispiel: Bearbeitungsverlauf eines Felds anzeigen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+* [Beispiel für ein berechnetes benutzerdefiniertes Feld: Anzeigen des Bearbeitungsverlaufs eines Felds](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

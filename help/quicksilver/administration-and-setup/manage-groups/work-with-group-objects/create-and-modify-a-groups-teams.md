@@ -23,7 +23,7 @@ Wenn es Gruppen über Ihrer Gruppe gibt, können ihre Administratoren diese Ding
 
 Informationen dazu, wie Benutzer mit einer Planungslizenz ein Team erstellen können, finden Sie unter [Team erstellen](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-Informationen dazu, wie ein Workfront-Administrator ein Team erstellen kann, finden Sie unter [Erstellen eines Teams im Bereich &quot;Einrichtung&quot;](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+Weitere Informationen dazu, wie ein Workfront-Administrator ein Team erstellen kann, finden Sie unter [Erstellen eines Teams aus dem Einrichtungsbereich](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
 ## Zugriffsanforderungen
 
@@ -35,29 +35,29 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Anzeigen, Arbeiten mit und Erstellen von Teams für Ihre Gruppe über den Bereich Gruppen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, für die Sie Teams erstellen oder ändern möchten.
-1. Klicken Sie im linken Bereich auf **Teams** ![](assets/teams.png) , um die mit der Gruppe verbundenen Teams und gegebenenfalls Untergruppen aufzulisten.
+1. Klicken Sie im linken Bereich auf **Teams** ![](assets/teams.png) , um die Teams aufzulisten, die der Gruppe und etwaigen Untergruppen zugeordnet sind.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Team hinzufügen**: Klicken **Neues Team**, und konfigurieren Sie sie mithilfe der folgenden Optionen:
+   * **Team hinzufügen**: Klicken Sie auf **Neues Team** und verwenden Sie dann die folgenden Optionen, um es zu konfigurieren:
 
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
@@ -71,7 +71,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        </tr> 
        <tr> 
        <td role="rowheader">Gruppe</td> 
-       <td> <p> Das System füllt das Feld Gruppe für das neue Team mit der Gruppe aus, die Sie anzeigen. Wenn Sie das Team mit einer anderen Gruppe verknüpfen möchten, geben Sie den Namen der Gruppe ein und wählen Sie dann den Namen aus, wenn er angezeigt wird.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber halten und auf das Informationssymbol klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p><b>NOTE</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil Switches klicken. <img src="assets/switch-team-icon.png" alt="Symbol &quot;Team wechseln&quot;"> , um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> </td> 
+       <td> <p> Das System füllt das Feld Gruppe für das neue Team mit der Gruppe aus, die Sie anzeigen. Wenn Sie das Team mit einer anderen Gruppe verknüpfen möchten, geben Sie den Namen der Gruppe ein und wählen Sie dann den Namen aus, wenn er angezeigt wird.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol "<img src="assets/info-icon.png">" klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p><b>HINWEIS</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil "Switch Teams"<img src="assets/switch-team-icon.png" alt="Symbol &quot;Team wechseln&quot;"> klicken, um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Team-Mitglieder</td> 
@@ -96,7 +96,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       </tbody> 
      </table>
 
-   * **Bearbeiten von Teams**: Wählen Sie mindestens ein Team aus, klicken Sie auf **die** Symbol Bearbeiten ![](assets/edit-icon.png), und konfigurieren Sie sie mithilfe der folgenden Optionen:
+   * **Teams bearbeiten**: Wählen Sie mindestens ein Team aus, klicken Sie auf **das** Bearbeitungssymbol ![](assets/edit-icon.png) und verwenden Sie dann die folgenden Optionen, um es zu konfigurieren:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -108,7 +108,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        </tr> 
        <tr> 
        <td role="rowheader">Gruppe</td> 
-       <td> <p>Verbinden Sie das Team mit einer Gruppe. Geben Sie den Namen der Gruppe ein und wählen Sie den Namen aus, wenn er angezeigt wird.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber halten und auf das Informationssymbol klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p><b>NOTE</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil Switches klicken. <img src="assets/switch-team-icon.png" alt="Symbol &quot;Team wechseln&quot;"> , um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> </td> 
+       <td> <p>Verbinden Sie das Team mit einer Gruppe. Geben Sie den Namen der Gruppe ein und wählen Sie den Namen aus, wenn er angezeigt wird.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol "<img src="assets/info-icon.png">" klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p><b>HINWEIS</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil "Switch Teams"<img src="assets/switch-team-icon.png" alt="Symbol &quot;Team wechseln&quot;"> klicken, um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Besitzerin bzw. Besitzer</td> 
@@ -128,22 +128,22 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
        </tr> 
        <tr> 
        <td role="rowheader">Agile</td> 
-       <td>Geben Sie an, ob es sich um ein agiles Team handelt. Informationen zu agile Teams und zur Verwaltung ihrer Arbeit finden Sie unter <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Erstellen eines agilen Teams</a>.</td> 
+       <td>Geben Sie an, ob es sich um ein agiles Team handelt. Weitere Informationen zu agile Teams und zur Verwaltung ihrer Arbeit finden Sie unter <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Erstellen eines agilen Teams</a>.</td> 
        </tr> 
        <tr> 
        <td role="rowheader">Bearbeiten</td> 
-       <td> <p>Ändern Sie die Schaltfläche "Bearbeiten"in die Schaltfläche "Starten". Wenn ein Benutzer auf Start klickt, wird der Status des Elements automatisch aktualisiert.</p> <p>Weitere Informationen zum Konfigurieren der Schaltfläche "Start"finden Sie unter <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch die Schaltfläche Start</a>.</p> </td> 
+       <td> <p>Ändern Sie die Schaltfläche "Bearbeiten"in die Schaltfläche "Starten". Wenn ein Benutzer auf Start klickt, wird der Status des Elements automatisch aktualisiert.</p> <p>Weitere Informationen zum Konfigurieren der Schaltfläche "Start"finden Sie unter <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start"</a>.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Schaltfläche „Fertig“</td> 
        <td> <p>Passen Sie die Schaltfläche Fertig an. Weitere Informationen finden Sie unter</p> 
        <ul> 
        <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">Konfigurieren der Schaltfläche "Fertig"für Aufgaben</a> </li> 
-       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">Schaltfläche "Fertig"für Probleme konfigurieren</a> </li> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">Konfigurieren der Schaltfläche "Fertig"für Probleme</a> </li> 
        </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-   * **Löschen von Teams**: Wählen Sie mindestens ein Team aus und klicken Sie auf das Symbol Löschen . ![](assets/delete.png).
-   * **Teamliste exportieren**: Klicken **Export** ![](assets/export.png)und wählen Sie dann das Dateiformat für die exportierte Liste aus.
+   * **Teams löschen**: Wählen Sie mindestens ein Team aus und klicken Sie dann auf das Löschsymbol ![](assets/delete.png).
+   * **Exportieren der Teamliste**: Klicken Sie auf **Export** ![](assets/export.png) und wählen Sie dann das Dateiformat für die exportierte Liste aus.

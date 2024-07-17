@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Sie können die Einstellung des Tracking-Modus einer Aufgabe beim Erstellen oder Bearbeiten einer Aufgabe anpassen, um zu steuern, wie und wann die Fortschrittsstatus-Indikatoren einer Aufgabe angezeigt werden. In Adobe Workfront werden beim Konfigurieren bestimmter Einstellungen zum Verfolgen des Fortschritts bei Aufgaben Statusflags angezeigt.
 
-Weitere Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter [Übersicht über den Task Progress Status](../../../manage-work/tasks/task-information/task-progress-status.md).
+Weitere Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter [Übersicht über den Aufgabenfortschritt](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,7 +43,7 @@ Als Aufgabenbesitzer oder Projektmanager können Sie festlegen, wie Workfront de
 Sie können aus den folgenden Optionen auswählen:
 
 * [Benutzer muss aktualisieren](#user-must-update)
-* [Einschaltzeit](#assume-on-time)
+* [Einschaltzeit annehmen](#assume-on-time)
 * [Verspätete Warnungen ignorieren](#ignore-late-warnings)
 * [Auto Complete](#auto-complete)
 * [Vorgänger](#predecessor)
@@ -71,9 +71,9 @@ Es gibt die folgenden Ausnahmen:
 
 >[!IMPORTANT]
 >
->Wenn Sie auswählen, dass Aufgaben automatisch abgeschlossen werden sollen, wird die Aufgabe Abgeschlossen, wenn die Projektzeit neu berechnet wird. Wenn der Aktualisierungstyp des Projekts auf Automatisch oder Automatisch und Bei Änderung eingestellt ist, wird die Projekt-Timeline täglich berechnet. Informationen zu Zeitleistenneuberechnungen für Projekte finden Sie unter [Projektzeitpläne neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Wenn Sie auswählen, dass Aufgaben automatisch abgeschlossen werden sollen, wird die Aufgabe Abgeschlossen, wenn die Projektzeit neu berechnet wird. Wenn der Aktualisierungstyp des Projekts auf Automatisch oder Automatisch und Bei Änderung eingestellt ist, wird die Projekt-Timeline täglich berechnet. Weitere Informationen zu Timeline-Neuberechnungen für Projekte finden Sie unter [Projekt-Timelines neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->Die Uhrzeit des tatsächlichen Abschlussdatums ist Mitternacht des Tages, an dem die Timeline automatisch berechnet wird. Die für die Generierung dieses Zeitstempels verwendete Zeit ist die Zeitzone Ihres Systems, die vom Workfront-Administrator im Abschnitt &quot;Kundeninformationen&quot;der Einrichtung definiert wurde. Informationen zum Festlegen der Zeitzone Ihres Systems finden Sie unter [Grundlegende Informationen für Ihr System konfigurieren](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>Die Uhrzeit des tatsächlichen Abschlussdatums ist Mitternacht des Tages, an dem die Timeline automatisch berechnet wird. Die für die Generierung dieses Zeitstempels verwendete Zeit ist die Zeitzone Ihres Systems, die vom Workfront-Administrator im Abschnitt &quot;Kundeninformationen&quot;der Einrichtung definiert wurde. Informationen zum Festlegen der Zeitzone Ihres Systems finden Sie unter [Konfigurieren grundlegender Informationen für Ihr System](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Vorgänger {#predecessor}
 

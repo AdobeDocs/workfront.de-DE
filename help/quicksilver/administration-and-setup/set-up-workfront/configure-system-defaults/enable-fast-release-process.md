@@ -7,10 +7,11 @@ description: Sie können auswählen, ob Sie monatlich oder vierteljährlich neue
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
+source-wordcount: '376'
+ht-degree: 0%
 
 ---
 
@@ -34,11 +35,11 @@ Beispiel:
 
 Beachten Sie Folgendes beim Aktivieren oder Deaktivieren des Fast-Release-Prozesses:
 
-* **Aktivieren** Durch die schnelle Veröffentlichung mitten in einem Quartal erhält Ihr Unternehmen Zugriff auf Funktionen und Funktionen, die bereits für die schnelle Veröffentlichung freigegeben wurden.
+* **Durch Aktivierung von** der Schnellversion mitten in einem Quartal erhält Ihr Unternehmen Zugriff auf Funktionen und Funktionen, die bereits für die schnelle Veröffentlichung freigegeben wurden.
 
   Wenn beispielsweise Funktion A im August veröffentlicht wird und Funktion B im September veröffentlicht wird, hat jede Organisation, die die schnelle Veröffentlichung im September ermöglicht, sofort Zugriff auf die Funktionen A und B.
 
-* **Deaktivieren** Der Schnellveröffentlichungsprozess wird erst mit der nächsten vierteljährlichen Veröffentlichung wirksam.
+* **Deaktivieren** Der Schnellveröffentlichungsprozess wird erst mit der nächsten vierteljährlichen Version wirksam.
 
   Wenn beispielsweise eine Organisation, die die schnelle Veröffentlichung aktiviert hat, diese im August deaktiviert, erhält sie weiterhin die Funktionen der schnellen Veröffentlichung im September, da sie erst zur vierteljährlichen Veröffentlichung im Oktober übergegangen ist.
 
@@ -46,13 +47,13 @@ Beachten Sie Folgendes beim Aktivieren oder Deaktivieren des Fast-Release-Prozes
 
 So aktivieren oder deaktivieren Sie den Prozess der schnellen Veröffentlichung:
 
-1. Klicken Sie auf **Symbol &quot;Hauptmenü&quot;** Klicken Sie auf **Einrichtung**.
-1. Erweitern **System** Klicken Sie im linken Navigationsbereich auf **Voreinstellungen**.
-1. Um schnelle Versionen zu aktivieren, überprüfen Sie die **Schnellversionsprozess zulassen** aktivieren.
+1. Klicken Sie auf das Symbol **Hauptmenü** und dann auf **Einrichten**.
+1. Erweitern Sie **System** im linken Navigationsbereich und klicken Sie dann auf **Voreinstellungen**.
+1. Um schnelle Versionen zu aktivieren, aktivieren Sie das Kontrollkästchen **Prozess der schnellen Veröffentlichung zulassen** .
 
    Oder
 
-   Um schnelle Versionen zu deaktivieren und zu einem vierteljährlichen Versionszyklus zu wechseln, deaktivieren Sie die **Schnellversionsprozess zulassen** aktivieren.
+   Um schnelle Versionen zu deaktivieren und zu einem vierteljährlichen Versionszyklus zu wechseln, deaktivieren Sie das Kontrollkästchen **Prozess der schnellen Veröffentlichung zulassen** .
 
 1. Bestätigen Sie Ihre Auswahl im Popup-Fenster.
 1. Klicken Sie auf **Speichern**.

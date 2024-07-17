@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Der Wert &quot;Prozent abgeschlossen&quot;eines Projekts wird basierend auf der Dauer oder den geplanten Stunden von Aufgaben im Projekt berechnet. Ihr Adobe Workfront-Administrator oder ein Gruppenadministrator definiert, welcher Wert bei der Berechnung des Prozentsatzes berücksichtigt wird, der in Ihrem System abgeschlossen ist, wenn er Informationen im Bereich Projekteinstellungen konfiguriert.
 
-Informationen zum Konfigurieren von Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Weitere Informationen zum Konfigurieren von Projektvoreinstellungen finden Sie unter [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Der Prozentsatz der Abschlüsse einer übergeordneten Aufgabe basiert auf der Dauer oder den geplanten Stunden jeder ihrer Unteraufgaben.
 
@@ -40,7 +40,7 @@ Sie können den prozentualen Abschluss einer Aufgabe manuell ändern. Dies ist k
 
 Workfront verwendet den prozentualen Abschluss einer einzelnen Aufgabe, um den prozentualen Abschluss der übergeordneten Aufgabe oder den prozentualen Abschluss des Projekts zu berechnen.
 
-Informationen zum Aktualisieren des Prozentsatzes der Fertigstellung einer Aufgabe finden Sie unter [Prozentsatz für Abgeschlossene Aufgaben anzeigen und aktualisieren](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+Informationen zum Aktualisieren des Prozentsatzes für die Ausführung einer Aufgabe finden Sie unter [Prozentualer Abschluss für Aufgaben anzeigen und aktualisieren](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
 ### Berechnung des Prozentsatzes der Abschlüsse einer übergeordneten Aufgabe durch Workfront {#how-workfront-calculates-percent-complete-on-a-parent-task}
 

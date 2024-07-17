@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Korrigieren Sie den Starttag der Arbeitswoche für Timesheets.](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
-* [Verhindern Sie, dass die Aktion &quot;Finanzen neu berechnen&quot;historische Stunden beeinflusst, wenn sich die Beträge ändern](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
+* [Korrigieren Sie den Starttag der Arbeitswoche für Timesheets](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
+* [Verhindert, dass die Aktion &quot;Finanzen neu berechnen&quot;historische Stunden beeinflusst, wenn sich die Rate ändert](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
 * [Tracking von Stundenkatalogen mit der Adobe Workfront-API](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
 * [Die Protokollzeit für zukünftige Daten kann nicht protokolliert werden](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)

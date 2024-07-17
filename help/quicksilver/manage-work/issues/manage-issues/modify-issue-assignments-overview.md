@@ -29,11 +29,11 @@ Sie können Problemen Probleme zuweisen oder die Zuweisung von Problemen zu Benu
 
 Dieser Artikel enthält allgemeine Informationen über die Auswirkungen der Änderung von Problemzuweisungen. Informationen zum Zuweisen von Problemen finden Sie in den folgenden Artikeln:
 
-* Informationen zum Zuweisen von Problemen finden Sie unter [Zuweisen von Problemen](../../../manage-work/issues/manage-issues/assign-issues.md) und [Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+* Informationen zum Zuweisen von Problemen finden Sie unter [Zuweisen von Problemen](../../../manage-work/issues/manage-issues/assign-issues.md) und [Ändern der Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
-* Informationen zur Zuweisung von Problemen mithilfe des Lastenausgleichs finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Informationen zum Zuweisen von Problemen mit dem Arbeitslastausgleich finden Sie unter [Übersicht über die Zuweisung von Arbeit im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Einige Informationen in diesem Artikel gelten auch für die Zuweisung von Aufgaben. Weitere Informationen zum Zuweisen von Aufgaben sowie zusätzliche Überlegungen finden Sie unter [Übersicht über das Ändern von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Einige Informationen in diesem Artikel gelten auch für die Zuweisung von Aufgaben. Weitere Informationen zum Zuweisen von Aufgaben sowie weitere Überlegungen finden Sie unter [Übersicht über das Ändern von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## Wann sollten Benutzerzuweisungen zu Problemen geändert werden?
 
@@ -47,7 +47,7 @@ Sie können die Benutzerzuweisungen aus verschiedenen Gründen ändern, z. B. au
 
 Sie können Zuweisungen jeweils aus einem Problem entfernen oder Zuweisungen aus mehreren Problemen gleichzeitig entfernen.
 
-Weitere Informationen zum Entfernen von Zuweisungen aus Problemen in Stapeln finden Sie unter [Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+Weitere Informationen zum Entfernen von Zuweisungen aus Problemen in großen Mengen finden Sie unter [Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
 Beachten Sie beim Entfernen von Zuweisungen aus Problemen Folgendes:
 

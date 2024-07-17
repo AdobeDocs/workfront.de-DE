@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 2.3 Projektverbesserungen
 
-Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 22.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [2.3 Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 22.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [22.3 - Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Abwesenheitsvertretung
 
@@ -39,7 +39,7 @@ Im Folgenden finden Sie einige Funktionen, die wir mit diesem Update hinzugefüg
 >Nur Benutzer mit einer Review- oder höheren Lizenz können ihre Arbeit an andere delegieren. Die Arbeit kann jedem Benutzer unabhängig von seiner Zugriffsstufe zugewiesen werden. Delegierte Benutzer erhalten dieselben Berechtigungen wie die Bevollmächtigten für die delegierten Elemente. Wenn diese Berechtigungen niedriger sind als die Zugriffsstufenkonfiguration eines Benutzers, können die delegierten Benutzer daran gehindert werden, einige der Aktivitäten für die Aufgaben und Probleme auszuführen, die ihnen zugewiesen sind.
 
 
-Weitere Informationen finden Sie unter [Delegieren von Aufgaben und Problemübersicht](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
+Weitere Informationen finden Sie unter [Aufgabe delegieren und Problemübersicht](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 ## Neues Erlebnis beim Konvertieren eines Problems in eine Aufgabe
 
@@ -68,13 +68,13 @@ Weitere Informationen finden Sie unter [Konvertieren eines Problems in ein Proje
 
 Wir haben das Tagging von Benutzern im Aktualisierungsstream verbessert, wenn Sie ein neues Update erstellen oder auf ein vorhandenes antworten. Wenn Sie jetzt einen Benutzer taggen, um ihn in ein Update einzubeziehen, zeigen wir neben seinem Namen und Avatar auch dessen Primäre Rolle und E-Mail-Adresse an. Dies hilft bei der Unterscheidung zwischen mehreren Benutzenden mit ähnlichen oder identischen Namen.
 
-Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Weitere Informationen finden Sie unter [Taggen anderer Benutzer bei Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Neue Syntax für Berechnungen in benutzerdefinierten Feldern
 
 Zur Vorbereitung auf zukünftige Verbesserungen, die Ihnen beim Hinzufügen von Berechnungen zu benutzerdefinierten Formularen helfen, haben wir die Syntax für referenzierte Felder standardisiert, die Sie zu einer Berechnung hinzufügen. Diese neue Syntax ist einfach zu verwenden, da das System sie für Sie eingibt, wenn Sie mit der Eingabe des Namens eines Felds beginnen und sie dann auswählen.
 
-Weitere Informationen finden Sie im Abschnitt &quot;Berechnung für Ihr berechnetes benutzerdefiniertes Feld erstellen&quot;im [Artikel Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Weitere Informationen finden Sie im Abschnitt &quot;Berechnung für Ihr berechnetes benutzerdefiniertes Feld erstellen&quot;im Artikel [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Halten Sie genaue Informationen bereit, wenn zwei Benutzer mit einer gemeinsamen Rolle an einem Genehmigungsprozess beteiligt sind.
 
@@ -145,7 +145,7 @@ Weitere Informationen zum Freigeben von Ordnern finden Sie unter [Freigeben eine
 
 >[!NOTE]
 >
->Diese Funktion soll am 9. Januar 2023 aus der Vorschau entfernt werden. Weitere Informationen finden Sie unter [23.1 Seite mit Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>Diese Funktion soll am 9. Januar 2023 aus der Vorschau entfernt werden. Weitere Informationen finden Sie auf der Seite [23.1 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Diese Version enthält die folgenden Funktionen:
 
 * Ein neues Workfront-Objekt namens Campaign
 
-* Ein neuer Bereich für Kampagnen (Beta) im Hauptmenü
+* Ein neuer Kampagnenbereich (Beta) im Hauptmenü
 
 * Eine Liste der Kampagnen im Kampagnenbereich
 
@@ -176,7 +176,7 @@ Diese Version enthält die folgenden Funktionen:
 
 * Möglichkeit, das Kampagnenobjekt aus der Layout-Vorlage umzubenennen
 
-  Workfront-System- und Gruppenadministratoren können den Bereich &quot;Kampagnen (Beta)&quot;im Hauptmenü einer Layout-Vorlage hinzufügen. Dadurch wird sie für alle Benutzer verfügbar, die der Vorlage zugewiesen sind. Sobald die Kampagne verfügbar ist, kann jeder in Workfront eine Kampagne erstellen.
+  System- und Gruppenadministratoren von Workfront können den Bereich Kampagnen (Beta) im Hauptmenü einer Layout-Vorlage hinzufügen. Dadurch wird sie für alle Benutzer verfügbar, die der Vorlage zugewiesen sind. Sobald die Kampagne verfügbar ist, kann jeder in Workfront eine Kampagne erstellen.
 
 
 

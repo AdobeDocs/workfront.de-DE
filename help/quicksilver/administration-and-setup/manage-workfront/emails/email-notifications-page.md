@@ -28,4 +28,4 @@ Als Adobe Workfront-Administrator können Sie die Ereignisbenachrichtigungen, Er
 Diese Links zeigen Ihnen, wie Sie die Hilfeartikel für Adobe Workfront-Benachrichtigungen im Benutzerbereich anzeigen können.
 
 * Allgemeine Informationen zu Benachrichtigungen finden Sie unter [Adobe Workfront-Benachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md).
-* Informationen zum Einrichten eigener Benachrichtigungen in Ihrem Profil finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Informationen zum Einrichten eigener Benachrichtigungen in Ihrem Profil finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).

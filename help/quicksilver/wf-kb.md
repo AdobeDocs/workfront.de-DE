@@ -14,12 +14,12 @@ ht-degree: 13%
 # Workfront-Wissensdatenbank
 
 * [Administration und Einrichtung](administration-and-setup/administration-and-setup.md)
-* [Grundlagen zu Adobe Workfront](workfront-basics/workfront-basics.md)
+* [Adobe Workfront-Grundlagen](workfront-basics/workfront-basics.md)
 * [Personen, Teams und Gruppen](people-teams-and-groups/people-teams-and-groups.md)
-* [Ressourcen verwalten](resource-mgmt/manage-resources.md)
+* [Verwalten von Ressourcen](resource-mgmt/manage-resources.md)
 * [Agile](agile/agile.md)
-* [Verwalten von Arbeiten](manage-work/manage-work.md)
-* [Arbeiten überprüfen und genehmigen](review-and-approve-work/review-and-approve-work.md)
+* [Arbeit verwalten](manage-work/manage-work.md)
+* [Überprüfen und Genehmigen der Arbeit](review-and-approve-work/review-and-approve-work.md)
 * [Dokumente](documents/documents-overview.md)
 * [Bericht- erstellung](reports-and-dashboards/reports-and-dashboards-overview.md)
 

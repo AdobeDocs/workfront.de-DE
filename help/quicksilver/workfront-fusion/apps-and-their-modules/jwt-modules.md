@@ -4,19 +4,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: JWT-Module
-description: Die [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] app stellt ein Modul bereit, das JWT-Token basierend auf dem bereitgestellten Algorithmus erstellt.
+description: Die [!DNL Adobe Workfront Fusion] [!UICONTROL JWT]-App stellt ein Modul bereit, das JWT-Token basierend auf dem bereitgestellten Algorithmus erstellt.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 121aef2ee55597fee2e2adc8250dd0651ea86f17
+exl-id: 1c09967e-a236-404f-bf3e-9de66118e77b
+source-git-commit: 2fbf38c3c35761c52416966fb6a4ab032190e04b
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL JWT] Modul
+# [!UICONTROL JWT]-Modul
 
-Die [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] app stellt ein Modul bereit, das JWT-Token basierend auf dem bereitgestellten Algorithmus erstellt.
+Die App [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] stellt ein Modul bereit, das JWT-Token basierend auf dem bereitgestellten Algorithmus erstellt.
 
 ## Zugriffsanforderungen
 
@@ -37,25 +38,25 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## JWT-Modul und seine Felder
 
@@ -86,13 +87,13 @@ Dieses Modul generiert eine JWT auf Grundlage des ausgewählten Algorithmus.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Payload] </td> 
-   <td> <p>Klicken Sie für jedes Payload-Element, das Sie hinzufügen möchten, auf <b>Element hinzufügen</b> und geben Sie den Schlüssel und den Wert des Elements ein.</p> </td> 
+   <td> <p>Klicken Sie für jedes Payload-Element, das Sie hinzufügen möchten, auf <b>Element hinzufügen</b> und geben Sie den Schlüssel und Wert des Elements ein.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Optionen] </td> 
-   <td> <p>Klicken Sie für jedes hinzuzufügende Optionselement auf <b>Element hinzufügen</b> und geben Sie den Schlüssel und den Wert des Elements ein.</p> <p>Die folgenden Schlüssel sind verfügbar:
+   <td> <p>Klicken Sie für jedes Optionselement, das Sie hinzufügen möchten, auf <b>Element hinzufügen</b> und geben Sie den Schlüssel und Wert des Elements ein.</p> <p>Die folgenden Schlüssel sind verfügbar:
    <ul>
-   <li><b>Algorithmus</b>: (Standard: RS256)</li>
+   <li><b>algorithm</b>: (Standard: RS256)</li>
    <li><b>expiresIn</b>: Wird in Sekunden oder einer Zeichenfolge ausgedrückt, die eine Zeitspanne beschreibt (z. B. 2 Tage, 10 Stunden, 7 Tage). Ein numerischer Wert wird als Anzahl der Sekunden interpretiert. Wenn Sie eine Zeichenfolge verwenden, stellen Sie sicher, dass Sie die Zeiteinheiten (Tage, Stunden usw.) angeben. Andernfalls wird standardmäßig die Einheit in Millisekunden verwendet (120 ist gleich 120 ms).</li>
    <li><b>notBefore</b>: Wird in Sekunden oder einer Zeichenfolge ausgedrückt, die eine Zeitspanne beschreibt (z. B. 2 Tage, 10 Stunden, 7 Tage). Ein numerischer Wert wird als Anzahl der Sekunden interpretiert. Wenn Sie eine Zeichenfolge verwenden, stellen Sie sicher, dass Sie die Zeiteinheiten (Tage, Stunden usw.) angeben. Andernfalls wird standardmäßig die Einheit in Millisekunden verwendet (120 ist gleich 120 ms).
 </li>
@@ -104,12 +105,10 @@ Dieses Modul generiert eine JWT auf Grundlage des ausgewählten Algorithmus.
    <li><b>header</b></li>
    <li><b>keyid</b></li>
    <li><b>mutatePayload</b>: Wenn <code>true</code>, ändert die Zeichenfunktion das Payload-Objekt direkt. Dies ist nützlich, wenn Sie einen Rohverweis auf die Payload benötigen, nachdem die Ansprüche darauf angewendet wurden, aber bevor sie in ein Token kodiert wurden.</li>
-   <li><b>allowInsecureKeySizes</b>: Wenn <code>true</code>ermöglicht die Verwendung privater Schlüssel mit einem Modul unter 2048 für RSA.</li>
-   <li><b>allowInvalidAsymmetricKeyTypes</b>: Wenn <code>true</code>erlaubt asymmetrische Schlüssel, die nicht mit dem angegebenen Algorithmus übereinstimmen. Diese Option dient nur der Abwärtskompatibilität und sollte vermieden werden.</li>
+   <li><b>allowInsecureKeySizes</b>: Wenn <code>true</code> ist, können private Schlüssel mit einem Modul unter 2048 für RSA verwendet werden.</li>
+   <li><b>allowInvalidAsymmetricKeyTypes</b>: Wenn <code>true</code>, werden asymmetrische Schlüssel zugelassen, die nicht mit dem angegebenen Algorithmus übereinstimmen. Diese Option dient nur der Abwärtskompatibilität und sollte vermieden werden.</li>
    </ul>
    </td> 
   </tr> 
  </tbody> 
 </table>
-
-

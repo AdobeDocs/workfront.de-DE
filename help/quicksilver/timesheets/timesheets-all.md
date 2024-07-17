@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die Artikel in den folgenden Unterabschnitten:
 
-* [Datenblatt-Details: Artikelindex](../timesheets/timesheets/timesheets.md)
+* [Zeitblatt-Details: Artikelindex](../timesheets/timesheets/timesheets.md)
 * [Erstellen und Verwalten von Timesheets: Artikelindex](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
 * [Konfigurieren der Zeitprotokollierung: Artikelindex](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
 * [Tipps, Tricks und Fehlerbehebung: Artikelindex](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

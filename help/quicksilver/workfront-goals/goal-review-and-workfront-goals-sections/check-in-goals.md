@@ -79,7 +79,7 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -101,14 +101,14 @@ Beachten Sie bei der Aktualisierung des Fortschritts bei Zielen Folgendes:
 
    * Informationen zum Hinzufügen von Aktivitäten zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
    * Informationen zum Hinzufügen von Ergebnissen zu Zielen finden Sie unter [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * Informationen dazu, wie Workfront Goals den Fortschritt bei der Zielgruppenberechnung berechnet, finden Sie unter [Übersicht über den Zielfortschritt und die Bedingungen in den Adobe Workfront-Zielen](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Informationen dazu, wie Workfront Goals den Fortschritt bei der Zielerreichung berechnet, finden Sie unter [Überblick über den Zielfortschritt und den -zustand in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * Sie müssen Ziele erstellen und aktivieren, bevor Sie ihren Fortschritt aktualisieren können.
 
   Siehe auch die folgenden Artikel:
 
-   * Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
-   * Weitere Informationen zum Aktivieren von Zielen finden Sie unter [Ziele in Adobe Workfront aktivieren](../../workfront-goals/goal-management/activate-goals.md).
+   * Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+   * Informationen zum Aktivieren von Zielen finden Sie unter [Ziele in Adobe Workfront aktivieren](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
   >
@@ -245,7 +245,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 So aktualisieren Sie den Fortschritt bei den Zielen:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) > **Ziele** .
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -255,7 +255,7 @@ So aktualisieren Sie den Fortschritt bei den Zielen:
    Alternativ können Sie im linken Bereich auf Zielausrichtung klicken.
 
 1. Klicken Sie in der Zielliste auf den Namen eines Ziels, um die Zielseite zu öffnen.
-1. Klicks **Fortschrittsanzeigen** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Fortschrittsanzeigen** .
 
    In der Liste Fortschrittsanzeigen werden alle Fortschrittsanzeigen für das ausgewählte Ziel angezeigt.
 
@@ -268,7 +268,7 @@ So aktualisieren Sie den Fortschritt bei den Zielen:
    >    Der Fortschritt der Kinderziele und der Fortschritt der Projekte treiben wiederum den Fortschritt des ausgewählten Ziels.
 
 
-1. Um den Fortschritt eines Ergebnisses oder einer Aktivität zu aktualisieren, klicken Sie auf den Wert in der **Tatsächlicher Fortschritt** Spalte des Ergebnisses oder der Aktivität, geben Sie eine Zahl ein, um den Wert zu aktualisieren, und drücken Sie dann die Eingabetaste.
+1. Um den Fortschritt eines Ergebnisses oder einer Aktivität zu aktualisieren, klicken Sie auf den Wert in der Spalte **Tatsächlicher Fortschritt** des Ergebnisses oder der Aktivität und geben Sie eine Zahl ein, um den Wert zu aktualisieren. Drücken Sie dann die Eingabetaste.
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 

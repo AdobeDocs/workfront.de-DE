@@ -23,7 +23,7 @@ Allgemeine Informationen zur Beta-Version der Canvas-Dashboards finden Sie unter
 
 ## Woche vom 14. August
 
-* **Steuerelemente auf der Zugriffsebene für Canvas-Dashboards**
+* **Steuerelemente auf Zugriffsebene für Canvas-Dashboards**
 
   Der Zugriff auf Canvas-Dashboards kann jetzt über die Einrichtung der Zugriffsebene gesteuert werden, die die vorhandene Dashboard-Funktion steuert.
 
@@ -31,4 +31,4 @@ Allgemeine Informationen zur Beta-Version der Canvas-Dashboards finden Sie unter
 
 * **Diagrammberichte**
 
-  Zusätzlich zu Listenberichten können Sie nun auch Diagrammberichte zu einer Arbeitsfläche hinzufügen. Weitere Informationen zum Hinzufügen eines Diagrammberichts zu einem Dashboard auf der Arbeitsfläche finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  Zusätzlich zu Listenberichten können Sie nun auch Diagrammberichte zu einer Arbeitsfläche hinzufügen. Weitere Informationen zum Hinzufügen eines Diagrammberichts zu einem Dashboard auf der Arbeitsfläche finden Sie unter [Übersicht über Dashboards auf der Arbeitsfläche](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).

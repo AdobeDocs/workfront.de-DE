@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Ansicht: Übermittlungspfad für Probleme'
+title: "Ansicht: Übermittlungspfad für Probleme"
 description: Sie können den Pfad, über den ein Problem gesendet wurde, in der Ansicht eines Problemberichts anzeigen. Der Pfad gibt die Warteschlange, die Themengruppe und das Warteschlangenthema an, an das das Problem ursprünglich gesendet wurde.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 0%
+source-wordcount: '292'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>   
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,14 +55,13 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Übermittlungspfad für Probleme anzeigen
 
 1. Gehen Sie zu einer Liste von Problemen.
-1. Aus dem **Ansicht** Dropdown-Menü auswählen **Neue Ansicht**.
+1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
 
-1. Im **Spaltenvorschau** Bereich, klicken Sie **Spalte hinzufügen**.
+1. Klicken Sie im Bereich **Spaltenvorschau** auf **Spalte hinzufügen**.
 
-1. Klicken Sie auf die Kopfzeile der neuen Spalte und dann auf **In den Textmodus wechseln**.
-1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
+1. Klicken Sie auf die Kopfzeile der neuen Spalte und dann auf **In Textmodus wechseln**.
+1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
+   <pre>displayName= Issue Path<br>linkedname=direct <br>namekey=displayQueueBreadcrumb <br>valueField=displayQueueBreadcrumb <br>valueFormat=HTML<br></pre>
 
-   <pre>displayName= Problempfad<br>linkedname=direct <br>namekey=displayQueueBreadcrumb <br>valueField=displayQueueBreadcrumb <br>valueFormat=HTML<br></pre>
-
-1. Klicken **Ansicht speichern**.
+1. Klicken Sie auf **Ansicht speichern**.

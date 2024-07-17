@@ -28,7 +28,7 @@ Sie können die Arbeit, der Sie zugewiesen sind, während Sie nicht im Büro sin
 
 Sie können Aufgaben- und Problemzuweisungen delegieren oder Genehmigungen delegieren. In diesem Artikel wird beschrieben, wie Aufgaben und Problemzuweisungen delegiert werden.
 
-Allgemeine Informationen zur Delegierung von Arbeiten finden Sie unter [Delegieren von Arbeiten - Übersicht](../../manage-work/delegate-work/delegate-work-overview.md).
+Allgemeine Informationen zum Delegieren von Arbeit finden Sie unter [Übersicht über die Delegierung von Arbeiten ](../../manage-work/delegate-work/delegate-work-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -45,7 +45,7 @@ Allgemeine Informationen zur Delegierung von Arbeiten finden Sie unter [Delegier
 >   
 >   Informationen dazu, wie ein Systemadministrator Ihre Zugriffsebene ändern kann, finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
->* Bei Elementen, die zugewiesen werden, nachdem die Zuweisung der Zuweisung bereits begonnen hat, kann es bis zu eine Stunde dauern, bis das Element für [!DNL Workfront] , um die neu zugewiesenen Elemente für den Delegaten freizugeben.
+>* Bei Elementen, die zugewiesen werden, nachdem die Zuweisung bereits begonnen hat, kann es bis zu eine Stunde dauern, bis das Element für [!DNL Workfront] zugewiesen wurde, um die neu zugewiesenen Elemente für den Delegaten freizugeben.
 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
@@ -64,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 >[!NOTE]
 >
->Obwohl Sie mit einer Lizenz für einen Antrag zugewiesen werden können, können Sie Ihre Arbeit nicht an andere delegieren. [!DNL Workfront] empfiehlt nicht, Benutzern von Review, Request oder Contributor Aufgaben zuzuweisen.
+>Obwohl Sie mit einer Lizenz für einen Antrag zugewiesen werden können, können Sie Ihre Arbeit nicht an andere delegieren. [!DNL Workfront] rät davon ab, Benutzern von Review-, Anforderungs- oder Mitwirkenden Aufgaben zuzuweisen.
 
 </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,9 +92,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Bevor Sie die in diesem Artikel beschriebenen Aktivitäten durchführen können, müssen Sie Folgendes sicherstellen:
 
-* Ihre [!DNL Workfront] oder der Gruppenadministrator die [!UICONTROL Löschen von Aufgaben und Problemen in angemeldeten Stunden durch Benutzer zulassen] -Einstellung in [!UICONTROL Einrichtung] Ihres [!DNL Workfront] -Instanz.
+* Ihr [!DNL Workfront]- oder Gruppenadministrator hat die Einstellung [!UICONTROL Benutzern erlauben, Aufgaben und Probleme mit protokollierten Stunden zu löschen] im Bereich [!UICONTROL Einrichtung] Ihrer [!DNL Workfront]-Instanz aktiviert.
 
-  Weitere Informationen finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Weitere Informationen finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Delegieren von Aufgaben und Problemen an einen anderen Benutzer
 
@@ -104,11 +104,11 @@ Allgemeine Informationen zum Delegieren von Aufgaben und Problemen finden Sie un
 
 So delegieren Sie Ihre Aufgaben und Probleme an andere:
 
-1. Navigieren Sie zu [!UICONTROL **Startseite**] Bereich und klicken Sie dann auf [!UICONTROL **Delegieren**] oben im [!UICONTROL **Arbeitsliste**].
+1. Wechseln Sie zum Bereich [!UICONTROL **Home**] und klicken Sie dann oben in der [!UICONTROL **Arbeitsliste**] auf [!UICONTROL **Delegieren**] .
 
    ![](assets/delegate-button-in-home.png)
 
-1. Im [!UICONTROL **Aufgaben und Probleme delegieren**] aktualisieren Sie Folgendes:
+1. Aktualisieren Sie auf der Registerkarte [!UICONTROL **Aufgaben und Probleme delegieren**] Folgendes:
 
    * [!UICONTROL **Delegieren Sie Ihre Aufgaben und Probleme an**]: Beginnen Sie mit der Eingabe des Namens eines Benutzers, dem Ihre Aufgaben und Probleme zugewiesen werden sollen, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Sie können nur einen Benutzer auswählen.
 
@@ -120,9 +120,9 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
      >
      >Das Startdatum kann nicht in der Vergangenheit liegen.
 
-   * [!UICONTROL **Kein Enddatum**]: Wählen Sie diese Option aus, wenn Sie das Enddatum für Ihre Delegation nicht angeben möchten.
+   * [!UICONTROL **Kein Enddatum**]: Wählen Sie diese Option, wenn Sie das Enddatum für Ihre Delegation nicht angeben möchten.
 
-   * [!UICONTROL **Enddatum**]: Wählen Sie ein Datum aus dem Kalender aus, an dem die Zuweisung gestoppt werden soll.
+   * [!UICONTROL **Enddatum**]: Wählen Sie ein Datum aus dem Kalender aus, an dem die Zuweisung beendet werden soll.
 
      >[!TIP]
      >
@@ -143,9 +143,9 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
 
    * Sie erhalten eine Meldung in der rechten oberen Ecke des Bildschirms, um zu bestätigen, dass Sie die Zuweisung Ihrer Arbeit an einen anderen Benutzer aktiviert haben. Der Name des Delegate-Benutzers wird in der Bestätigungsmeldung angezeigt.
 
-   * Ein Hinweis darauf, dass Ihre Aufgaben und Probleme an andere Benutzer delegiert wurden, wird in den meisten Bereichen angezeigt, in denen Sie Zuweisungen in [!DNL Workfront]. Weitere Informationen darüber, welche Bereiche keine Delegationsnamen enthalten, finden Sie unter [Delegieren von Arbeiten - Übersicht](delegate-work-overview.md).
+   * Ein Hinweis darauf, dass Ihre Aufgaben und Probleme an andere Benutzer delegiert wurden, wird in den meisten Bereichen angezeigt, in denen Zuweisungen in [!DNL Workfront] angezeigt werden. Weitere Informationen darüber, welche Bereiche keine Delegationsnamen enthalten, finden Sie unter [Übersicht über die Arbeit delegieren](delegate-work-overview.md).
 
-   * Die [!UICONTROL **Delegieren**] im [!UICONTROL Startseite] Bereichsänderungen in [!UICONTROL **Delegation bearbeiten**] um anzugeben, dass eine Delegation eingerichtet ist.
+   * Die Schaltfläche [!UICONTROL **Delegieren**] im Bereich [!UICONTROL Home] ändert sich in [!UICONTROL **Delegation bearbeiten**], um anzugeben, dass eine Delegation vorhanden ist.
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
@@ -158,16 +158,16 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
 
    * Der Benutzer, den Sie als Ihr Delegat ausgewählt haben, erhält eine E-Mail über die Zuweisung, wenn seine Ereignisbenachrichtigungen aktiviert sind.
 
-     Informationen zum Aktivieren von persönlichen E-Mail-Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+     Informationen zum Aktivieren von persönlichen E-Mail-Benachrichtigungen finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Bearbeiten oder Anhalten der Zuweisung
 
 Sie können eine Zuweisung ablaufen lassen, wenn Sie ein Enddatum ausgewählt haben, oder Sie können es manuell anhalten. Sie können auch den Zeitrahmen für die Delegation ändern, wenn sich die Daten für die Delegation geändert haben.
 
-1. Navigieren Sie zu [!UICONTROL Startseite] Bereich und klicken Sie dann auf [!UICONTROL Delegation bearbeiten] in der oberen rechten Ecke der Arbeitsliste.
-1. Im [!UICONTROL Aufgaben und Probleme delegieren] führen Sie einen der folgenden Schritte aus:
-   * Ändern Sie die [!UICONTROL **Startdatum**] oder [!UICONTROL **Enddatum**]
-   * Klicks [!UICONTROL **Zuweisung beenden**]
+1. Wechseln Sie zum Bereich [!UICONTROL Startseite] und klicken Sie dann oben rechts in der Arbeitsliste auf [!UICONTROL Zuweisung bearbeiten] .
+1. Führen Sie auf der Registerkarte [!UICONTROL Aufgaben und Probleme delegieren] einen der folgenden Schritte aus:
+   * Ändern Sie das [!UICONTROL **Startdatum**] oder das [!UICONTROL **Enddatum**]
+   * Klicken Sie auf [!UICONTROL **Delegation stoppen**]
 
    >[!TIP]
    >
@@ -175,11 +175,11 @@ Sie können eine Zuweisung ablaufen lassen, wenn Sie ein Enddatum ausgewählt ha
 
    ![](assets/stop-delegation-screen-in-home.png)
 
-1. (Bedingt) Klicken Sie auf [!UICONTROL **Speichern**] Speichern der neuen Delegationsdaten
+1. (Bedingt) Klicken Sie auf [!UICONTROL **Speichern**] , um die neuen Delegationsdaten zu speichern.
 
    Oder
 
-   Klicks [!UICONTROL **Zuweisung beenden**] in das Bestätigungsfeld ein, um das Beenden der Delegation zu bestätigen.
+   Klicken Sie im Bestätigungsfeld auf [!UICONTROL **Delegation stoppen**] , um das Beenden der Delegation zu bestätigen.
 
    Die Delegation aktualisierte entweder die Daten oder stoppte sie und die delegierten Benutzer wurden aus Ihren Aufgaben und Problemen entfernt. Ihre Berechtigungen für die Aufgaben und Probleme bleiben erhalten.
 
@@ -189,64 +189,64 @@ Sie können eine Zuweisung ablaufen lassen, wenn Sie ein Enddatum ausgewählt ha
 <!--(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
 -->
 
-Wenn Aufgaben und Probleme delegiert werden, gibt es mehrere Bereiche in [!DNL Workfront] wo Sie die delegierte Arbeit sehen können oder wer die Delegierten sind.
+Wenn Aufgaben und Probleme delegiert werden, gibt es in [!DNL Workfront] mehrere Bereiche, in denen die delegierte Arbeit angezeigt wird oder wer die Delegierten sind.
 
 * [Delegates im Feld &quot;Zuweisungen&quot;suchen](#locate-delegates-in-the-assignments-box)
-* [Suchen Sie delegierte Arbeit in [!UICONTROL Startseite]](#locate-delegated-work-in-home)
+* [Suchen Sie delegierte Arbeit in [!UICONTROL Home]](#locate-delegated-work-in-home)
 
 
-### Suchen Sie Delegates in der [!UICONTROL Zuweisungen] box
+### Suchen Sie Delegates im Feld [!UICONTROL Zuweisungen] .
 
-Wenn Ihr System- oder Gruppenadministrator die Arbeitszuweisung in Ihrem System aktiviert, wird die [!UICONTROL Zuweisungen] zeigt die folgenden Registerkarten an, auf die Sie zugreifen können:
+Wenn Ihr System- oder Gruppenadministrator die Arbeitsdelegierung in Ihrem System aktiviert, werden im Feld [!UICONTROL Zuweisungen] die folgenden Registerkarten angezeigt, auf die Sie zugreifen können:
 
 * [!UICONTROL **Zuweisungen**]: Benutzer, die der Aufgabe oder dem Problem zugewiesen sind, werden hier angezeigt.
 * [!UICONTROL **Delegationen**]: Hier werden Benutzer angezeigt, die von den Verantwortlichen für die Aufgabe oder das Problem als Delegierte benannt wurden.
 
-Sie können auf die [!UICONTROL Zuweisungen] in den folgenden Bereichen:
+Sie können in den folgenden Bereichen auf das Feld [!UICONTROL Zuweisungen] zugreifen:
 
 * Aufgaben- oder Problemkopfzeile
 
-  Die [!UICONTROL Zuweisungen] -Feld in der Aufgabe oder in der Problemüberschrift ändern sich zu [!UICONTROL Zuweisung und Delegationen].
+  Das Feld [!UICONTROL Zuweisungen] in der Aufgaben- oder Problemüberschrift ändert sich in [!UICONTROL Zuweisungen und Delegationen].
 
   ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
-* Die [!UICONTROL Lastenausgleich] beim manuellen Zuweisen von Aufgaben oder Problemen
+* Der [!UICONTROL Lastenausgleich] beim manuellen Zuweisen von Aufgaben oder Problemen
 
   ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
-> Sie können Delegates nicht im [!UICONTROL Zuweisungen] Abschnitt einer Aufgabe oder eines Problems bearbeiten -Felds.
+> Sie können Delegaten nicht im Abschnitt [!UICONTROL Zuweisungen] einer Aufgabe oder im Feld &quot;Problembearbeitung&quot;anzeigen.
 
-Wenn eine Aufgabe oder ein Problem delegiert wird und die [!UICONTROL Delegationen] subtab leer ist, kann eines der folgenden Szenarien vorliegen:
+Wenn eine Aufgabe oder ein Problem delegiert wird und die Unterregisterkarte [!UICONTROL Delegations] leer ist, kann eines der folgenden Szenarien vorliegen:
 
 * Sie sind der Aufgabe oder dem Problem nicht zugewiesen.
 * Die Aufgaben- oder Ausgabedaten liegen außerhalb des Zeitrahmens der Delegierung.
 
 >[!TIP]
 >
->Die geplanten oder tatsächlichen Stunden für delegierte Aufgaben und Probleme werden in den Tools für die Ressourcenverwaltung nicht berücksichtigt, z. B. bei der [!UICONTROL Lastenausgleich] oder [!DNL Resource Planner] für die delegierten Benutzer. Die Stunden bleiben nur mit dem zugewiesenen Benutzer verknüpft.
+>Die geplanten oder tatsächlichen Stunden für delegierte Aufgaben und Probleme werden in den Tools für die Ressourcenverwaltung nicht berücksichtigt, wie z. B. der [!UICONTROL Lastenausgleich] oder der [!DNL Resource Planner] für die delegierten Benutzer. Die Stunden bleiben nur mit dem zugewiesenen Benutzer verknüpft.
 
-### Suchen Sie delegierte Arbeit in [!UICONTROL Startseite]
+### Suchen Sie delegierte Arbeit in [!UICONTROL Home]
 
-1. Navigieren Sie zu [!UICONTROL **Startseite**] auf das Dropdown-Menü &quot;Filter&quot;klicken und eine oder mehrere der folgenden Optionen auswählen:
-   * [!UICONTROL **Delegiert**]: um Aufgaben und Probleme anzuzeigen, die Ihnen oder Ihnen zugewiesen wurden.
-   * [!UICONTROL **Delegiert an mich**]: um Aufgaben und Probleme anzuzeigen, die Ihnen von einem anderen Benutzer zugewiesen wurden.
-   * [!UICONTROL **Delegiert von mir**]: um Aufgaben und Probleme anzuzeigen, die von Ihnen an andere Benutzer delegiert wurden.
+1. Wechseln Sie zum Bereich [!UICONTROL **Home**] , klicken Sie auf das Dropdown-Menü &quot;Filter&quot;und wählen Sie eine oder mehrere der folgenden Optionen aus:
+   * [!UICONTROL **Delegiert**]: zum Anzeigen von Aufgaben und Problemen, die Ihnen oder Ihnen zugewiesen wurden.
+   * [!UICONTROL **Delegiert an mich**]: zum Anzeigen von Aufgaben und Problemen, die Ihnen von einem anderen Benutzer zugewiesen wurden.
+   * [!UICONTROL **Von mir delegiert**]: zum Anzeigen von Aufgaben und Problemen, die von Ihnen an andere Benutzer delegiert wurden.
 
    ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
 
-1. Klicken Sie auf [!UICONTROL Sortierung] Dropdown-Menü, um die Liste nach folgenden Kriterien zu sortieren:
+1. Klicken Sie auf das Dropdown-Menü [!UICONTROL Sortieren] , um die Liste nach folgenden Kriterien zu sortieren:
    * [!UICONTROL Geplanter Abschluss]. Dies ist die standardmäßige Sortieroption.
    * [!UICONTROL Geplanter Start]
    * [!UICONTROL Datum der Übermittlung]
    * [!UICONTROL Projekt]
    * [!UICONTROL Meine Priorität]
-1. Erweitern Sie die Gruppierungen im [!UICONTROL **Arbeitsliste**] , um delegierte Arbeitselemente anzuzeigen. Die folgenden Szenarien existieren:
-   * Für Elemente, die Sie anderen zugewiesen haben, wird der Name des Delegaten im [!UICONTROL **Arbeitsliste**] sowie [!UICONTROL **Zuweisung und Delegationen**] auf der rechten Seite.
+1. Erweitern Sie die Gruppierungen in der [!UICONTROL **Arbeitsliste**], um zugewiesene Arbeitselemente anzuzeigen. Die folgenden Szenarien existieren:
+   * Bei Elementen, die Sie an andere delegiert haben, wird der Name des Delegaten in der [!UICONTROL **Arbeitsliste**] sowie im Feld [!UICONTROL **Zuweisungen und Delegationen**] auf der rechten Seite angezeigt.
 
-   * Für Elemente, die Ihnen zugewiesen wurden, wird der Name des Bevollmächtigten im [!UICONTROL **Arbeitsliste**] sowie **[!UICONTROL Zuweisung und Delegationen]** auf der rechten Seite.
+   * Für Elemente, die Ihnen zugewiesen wurden, wird der Name des Verantwortlichen in der [!UICONTROL **Arbeitsliste**] sowie im Feld **[!UICONTROL Zuweisungen und Delegationen]** auf der rechten Seite angezeigt.
 
    >[!TIP]
    >
-   >    Wenn die Delegation zu einem Datum nach dem heutigen Datum beginnen soll, wird das Beginndatum der Delegation auch im [!UICONTROL Arbeitsliste]. Die zugewiesenen Elemente werden in der Gruppierung angezeigt, die Sie für die [!UICONTROL Arbeitsliste], je nach Gruppierungstyp. Wenn Sie beispielsweise nach [!UICONTROL Geplantes Abschlussdatum], werden die delegierten Elemente in der Gruppierung angezeigt, die mit den geplanten Abschlussdaten übereinstimmt.
+   >    Wenn die Zuweisung so eingestellt ist, dass sie zu einem Datum nach dem heutigen Datum beginnt, wird das Startdatum der Zuweisung auch in der [!UICONTROL Arbeitsliste] angezeigt. Die zugewiesenen Elemente werden in der Gruppierung angezeigt, die Sie für die [!UICONTROL Arbeitsliste] auswählen, je nach Gruppierungstyp. Wenn Sie beispielsweise nach dem geplanten Abschlussdatum ] gruppieren, werden die zugewiesenen Elemente in der Gruppierung angezeigt, die mit den geplanten Abschlussdaten übereinstimmt.[!UICONTROL 

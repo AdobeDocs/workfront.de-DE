@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# Verwenden von TLS auf Gegenseitigkeit in HTTP-Modulen in [!DNL Adobe Workfront Fusion]
+# Verwenden von TLS auf Gegenseitige Weise in HTTP-Modulen in [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->Adobe Workfront Fusion erfordert eine [!DNL Adobe Workfront Fusion] zusätzlich zu einer Adobe Workfront-Lizenz.
+>Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine [!DNL Adobe Workfront Fusion] -Lizenz.
 
 ## Übersicht über TLS für beide Seiten
 
@@ -32,11 +32,11 @@ Durch gegenseitige TLS kann diese Identitätsbestätigung auf beide Arten erfolg
 >
 >**Beispiel:**
 >
->* **TLS**: Wenn eine Person &quot;MyGreatBank.com&quot;in einen Browser eingibt, will sie sicher sein, dass sie zu &quot;My Great Bank&quot;geht, nicht zu einer Website, die ihre Bankinformationen missbrauchen oder verkaufen könnte. Sie wollen auch sicherstellen, dass ihre Bankkontoinformationen verschlüsselt sind.
+>* **TLS**: Wenn eine Person &quot;MyGreatBank.com&quot;in einen Browser eingibt, möchte sie sicher sein, dass sie zu &quot;My Great Bank&quot;geht, nicht zu einer Website, die ihre Bankinformationen missbrauchen oder verkaufen könnte. Sie wollen auch sicherstellen, dass ihre Bankkontoinformationen verschlüsselt sind.
 >
->   Wenn der Browser (der Client) eine Verbindung zu MyGreatBank.com (dem Server) herstellt, erfordert TLS ein Zertifikat von MyGreatBank.com , um seine Identität zu überprüfen. Die Bescheinigung wird von einer Zertifizierungsstelle wie [!DNL DigiCert] oder [!DNL Thawte]. Da der Browser der Zertifizierungsstelle vertraut, ermöglicht er die Verbindung.
+>   Wenn der Browser (der Client) eine Verbindung zu MyGreatBank.com (dem Server) herstellt, erfordert TLS ein Zertifikat von MyGreatBank.com , um seine Identität zu überprüfen. Das Zertifikat wird von einer Zertifizierungsstelle wie [!DNL DigiCert] oder [!DNL Thawte] bereitgestellt. Da der Browser der Zertifizierungsstelle vertraut, ermöglicht er die Verbindung.
 >
->* **TLS auf Gegenseitigkeit**: MySoftware.com ist ein Software-Client, der Informationen von der MyGreatBank.com API benötigt. MyGreatBank ermöglicht es nur vertrauenswürdigen Clients, eine Verbindung zu ihren Servern herzustellen. Zusätzlich zu den regulären TLS, die die Identität von MyGreatBank.com überprüfen, überprüft der TLS-/Zertifikatauthentifizierungsprozess auch die Anfrage von MySoftware.com.
+>* **Mutual TLS**: MySoftware.com ist ein Software-Client, der Informationen von der MyGreatBank.com API benötigt. MyGreatBank ermöglicht es nur vertrauenswürdigen Clients, eine Verbindung zu ihren Servern herzustellen. Zusätzlich zu den regulären TLS, die die Identität von MyGreatBank.com überprüfen, überprüft der TLS-/Zertifikatauthentifizierungsprozess auch die Anfrage von MySoftware.com.
 
 ## Zugriffsanforderungen
 
@@ -57,32 +57,32 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-&#42;&#42;Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Informationen zu [!DNL Adobe Workfront Fusion] Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Bereitstellung Ihrer [!DNL Workfront Fusion] öffentliches Zertifikat
+## Bereitstellen Ihres öffentlichen [!DNL Workfront Fusion] Zertifikats
 
 
-Wenn Sie eine Verbindung zu einem Webdienst mit einer HTTP-Anforderung herstellen, erfordert der Webdienst normalerweise eine [!DNL Workfront Fusion] öffentliches Zertifikat zur Überprüfung. Dadurch kann der Webdienst das in der HTTP-Anforderung angezeigte Zertifikat mit dem in der Datei vergleichen, um sicherzustellen, dass das Zertifikat auf der Zulassungsliste des Webdiensts vorhanden ist.
+Wenn Sie mit einer HTTP-Anforderung eine Verbindung zu einem Webdienst herstellen, erfordert der Webdienst normalerweise ein öffentliches Zertifikat vom Typ &quot;[!DNL Workfront Fusion]&quot; zur Überprüfung. Dadurch kann der Webdienst das in der HTTP-Anforderung angezeigte Zertifikat mit dem in der Datei vergleichen, um sicherzustellen, dass das Zertifikat auf der Zulassungsliste des Webdiensts vorhanden ist.
 
-Anweisungen zum Hochladen der [!DNL Adobe Workfront Fusion] ein öffentliches Zertifikat für einen Webdienst verwenden, siehe die Dokumentation des Webdienstes .
+Anweisungen zum Hochladen des öffentlichen Zertifikats [!DNL Adobe Workfront Fusion] in einen Webdienst finden Sie in der Dokumentation des Webdienstes.
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Sie können die folgenden Links verwenden, um die öffentlichen Workfront Fusion
 
 >[!IMPORTANT]
 >
->* Diese [!DNL Workfront Fusion] öffentliche Zertifikate laufen am 7. Mai 2025 aus. Nach Ablauf Ihrer Gültigkeit müssen Sie ein neues Zertifikat in den Webdienst hochladen. Wir empfehlen Ihnen Folgendes:
+>* Diese öffentlichen [!DNL Workfront Fusion] Zertifikate laufen am 7. Mai 2025 ab. Nach Ablauf Ihrer Gültigkeit müssen Sie ein neues Zertifikat in den Webdienst hochladen. Wir empfehlen Ihnen Folgendes:
 >
 >   * Notieren Sie sich das Ablaufdatum und erinnern Sie Sie sich daran, das Zertifikat in Ihren Webdienst hochzuladen.
 >   * Markieren Sie diese Seite, um die neuen Zertifikate einfach zu finden.
@@ -122,16 +122,16 @@ Sie können die folgenden Links verwenden, um die öffentlichen Workfront Fusion
 
    -->
 
-## Aktivieren der bidirektionalen TLS in [!DNL Workfront Fusion] HTTP-Module
+## Aktivieren von TLS auf Gegenseitige Weise in [!DNL Workfront Fusion] HTTP-Modulen
 
-Alle [!DNL Workfront Fusion] [!UICONTROL HTTP] -Anfragemodule haben die Möglichkeit, &quot;Mutual TLS&quot;zu aktivieren.
+Alle [!DNL Workfront Fusion] [!UICONTROL HTTP]-Anforderungsmodule haben die Möglichkeit, gegenseitige TLS zu aktivieren.
 
-So aktivieren Sie gegenseitige TLS in einer [!UICONTROL HTTP] Anfragemodul:
+So aktivieren Sie gegenseitige TLS in einem [!UICONTROL HTTP]-Anforderungsmodul:
 
-1. Hinzufügen einer [!UICONTROL HTTP] -Anfragemodul zu Ihrem Szenario hinzufügen.
+1. Fügen Sie Ihrem Szenario ein [!UICONTROL HTTP]-Anforderungsmodul hinzu.
 1. Beginnen Sie mit der Konfiguration des Moduls.
 
-   Anweisungen zum Konfigurieren eines [!UICONTROL HTTP] Anforderungsmodul, siehe den entsprechenden Artikel unter [[!UICONTROL HTTP] Module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+   Anweisungen zum Konfigurieren eines [!UICONTROL HTTP]-Anfragemoduls finden Sie im entsprechenden Artikel unter [[!UICONTROL HTTP] -Module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
-1. Aktivieren **[!UICONTROL Erweiterte Einstellungen anzeigen]** am unteren Rand des Moduls.
-1. Aktivieren **[!UICONTROL Gegenseitige TLS verwenden]**.
+1. Aktivieren Sie **[!UICONTROL Erweiterte Einstellungen anzeigen]** am unteren Rand des Moduls.
+1. Aktivieren Sie **[!UICONTROL Use Mutual TLS]**.

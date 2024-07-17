@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -39,30 +39,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Legen Sie eine benutzerdefinierte Bedingung als Standardbedingung für Aufgaben oder Probleme fest:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken **Projektvoreinstellungen** > **Bedingungen**.
+1. Klicken Sie auf **Projekteinstellungen** > **Bedingungen**.
 
-1. Klicken Sie auf **Aufgaben** oder **Probleme** Registerkarte.
+1. Klicken Sie auf die Registerkarte **Aufgaben** oder **Probleme**.
 
-1. Klicken **Festlegen von Standardbedingungen**.
+1. Klicken Sie auf **Standardbedingungen festlegen**.
 1. Klicken Sie im Dropdown-Menü auf die benutzerdefinierte Bedingung, die Sie als Standardbedingung für Aufgaben (oder Probleme) festlegen möchten.
 1. Klicken Sie auf **Speichern**.
 
 >[!NOTE]
 >
->* Benutzer, die einer Aufgabe oder einem Problem zugewiesen sind oder über Verwaltungsberechtigungen verfügen, können ihre Bedingung manuell ändern. Weitere Informationen finden Sie unter [Aktualisierungsbedingung für Aufgaben und Probleme](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
->* Die drei Standardbedingungen für Aufgaben und Probleme, die mit Workfront in Verbindung stehen, sind reibungslos verlaufen, einige Probleme und große Hindernisse. Sie können diese Bedingungen nicht ausblenden oder löschen, aber Sie können ihre Namen und Farben ändern. Oder Sie können neue erstellen, die stattdessen verwendet werden, wie unter [Benutzerdefinierte Bedingung erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+>* Benutzer, die einer Aufgabe oder einem Problem zugewiesen sind oder über Verwaltungsberechtigungen verfügen, können ihre Bedingung manuell ändern. Weitere Informationen finden Sie unter [Bedingung für Aufgaben und Probleme aktualisieren](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+>* Die drei Standardbedingungen für Aufgaben und Probleme, die mit Workfront in Verbindung stehen, sind reibungslos verlaufen, einige Probleme und große Hindernisse. Sie können diese Bedingungen nicht ausblenden oder löschen, aber Sie können ihre Namen und Farben ändern. Alternativ können Sie neue erstellen, die stattdessen verwendet werden sollen, wie unter [Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) beschrieben.
 >
-
 
 Informationen zum Konfigurieren einer benutzerdefinierten Bedingung als Standardbedingung für Projekte finden Sie unter [Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
-Informationen zu benutzerdefinierten Bedingungen finden Sie unter [Benutzerdefinierte Bedingungen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Weitere Informationen zu benutzerdefinierten Bedingungen finden Sie unter [Benutzerdefinierte Bedingungen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

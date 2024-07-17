@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen bei der Prüfung beschrieben, die mit Version 21.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 21. Juli 2021 bereitgestellt.
 
-Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 - Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Möglichkeit zum Erstellen eines neuen Dokuments oder einer Testversand-Version in einem verknüpften Ordner entfernen
 

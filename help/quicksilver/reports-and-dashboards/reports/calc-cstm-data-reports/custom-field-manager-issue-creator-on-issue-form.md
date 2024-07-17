@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "Berechnetes benutzerdefiniertes Feldbeispiel: Anzeigen des Verantwortlichen des Erstellers eines Problems im benutzerdefinierten Formular zum Problem"
+title: "Berechnetes benutzerdefiniertes Feldbeispiel: Anzeigen des Managers des Erstellers eines Problems beim benutzerdefinierten Formular zum Problem"
 description: Mithilfe eines berechneten benutzerdefinierten Felds können Sie den Namen des Verantwortlichen des Erstellers eines Problems in einem benutzerdefinierten Formular anzeigen, das an das Problem angehängt ist. Mit derselben Anweisung können Sie ähnliche berechnete Felder für Projekte, Probleme und andere Objekte erstellen.
 author: Nolan
 feature: Reports and Dashboards
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Berechnetes benutzerdefiniertes Feldbeispiel: Anzeigen des Verantwortlichen des Erstellers eines Problems im benutzerdefinierten Formular zum Problem
+# Beispiel für ein berechnetes benutzerdefiniertes Feld: Zeigen Sie den Manager des Erstellers eines Problems zum benutzerdefinierten Formular für das Problem an.
 
 Mithilfe eines berechneten benutzerdefinierten Felds können Sie den Namen des Verantwortlichen des Erstellers eines Problems in einem benutzerdefinierten Formular anzeigen, das an das Problem angehängt ist. Mit derselben Anweisung können Sie ähnliche berechnete Felder für Projekte, Probleme und andere Objekte erstellen.
 
@@ -34,7 +34,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront-Lizenz*</p> </td> 
@@ -42,11 +42,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare<br>Informationen zur Gewährung von Administratorzugriff über die Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare<br>Informationen zum Gewähren des Administratorzugriffs von der Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren des Administratorzugriffs für Benutzer auf bestimmte Bereiche</a>.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektberechtigungen</p> </td> 
-   <td> <p>Beitragen Sie den Zugriff auf das Objekt, an das das Formular angehängt ist, und erhalten Sie Zugriff auf die Option Benutzerdefiniertes Formular bearbeiten .</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff der Contribute auf das Objekt, an das das Formular angehängt ist, mit Zugriff auf "Benutzerdefiniertes Formular bearbeiten"</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Die folgenden Schritte zeigen, wie Sie ein berechnetes Feld für ein Problem-ben
    * [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
    * [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
 
-1. Kopieren Sie den folgenden Textmoduscode und fügen Sie ihn in den **Berechnung** Feld des benutzerdefinierten Formulars:
+1. Kopieren Sie den folgenden Textmoduscode und fügen Sie ihn in das Feld **Berechnung** des benutzerdefinierten Formulars ein:
 
    ```
    {owner}.{manager}.{name}
@@ -74,6 +74,6 @@ Die folgenden Schritte zeigen, wie Sie ein berechnetes Feld für ein Problem-ben
    >
    >Bei benutzerdefinierten Feldberechnungen wird zwischen Groß- und Kleinschreibung unterschieden.
 
-1. Klicken **Fertig**, dann **Speichern und schließen**.
+1. Klicken Sie auf **Fertig** und dann auf **Speichern + Schließen**.
 
    Der Manager des Benutzers, der das Problem erstellt hat, wird im berechneten Feld angezeigt, wenn das Formular, das das Feld enthält, an ein Problem angehängt ist.

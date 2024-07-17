@@ -6,7 +6,8 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: b5ec158fc1484df193120a9c7aca9f19d2b65265
+exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -27,11 +28,11 @@ Der KI-Assistent kann Ihnen dabei helfen, Ihre Formel in einen gültigen Ausdruc
 
 So überarbeiten Sie einen ungültigen Ausdruck für ein berechnetes Feld:
 
-1. Klicken Sie auf **KI-Assistent** icon ![Symbol &quot;KI-Assistent&quot;](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Klicken Sie auf das Symbol **AI-Assistent** ![AI-Assistent-Symbol](assets/ai-assistant-icon.png) oben rechts im Bildschirm.
 1. Geben Sie im Eingabeaufforderungsbereich unten im Bedienfeld &quot;AI Assistant&quot;eine Eingabeaufforderung ein, z. B.:
    `Rewrite this formula to remove the invalid expression error`
 1. Kopieren Sie den ungültigen Ausdruck aus dem benutzerdefinierten Formular-Builder und fügen Sie ihn in den Eingabeaufforderungsbereich ein.
-1. Presse **Eingabe**.
+1. Drücken Sie die Taste **Enter**.
 
    Je nachdem, wie groß oder komplex die Formel ist, kann es einen Moment dauern, bis der KI-Assistent die überarbeitete Formel generiert.
 1. Zeigen Sie die überarbeitete Formel im Bereich &quot;KI-Assistent&quot;an.
@@ -41,7 +42,4 @@ So überarbeiten Sie einen ungültigen Ausdruck für ein berechnetes Feld:
 >
 >Es wird empfohlen, das berechnete Feld zu testen, um sicherzustellen, dass es das erwartete Ergebnis abruft.
 
-Weitere Informationen zu berechneten Feldern in Workfront finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem Legacy-Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
-
-
+Weitere Informationen zu berechneten Feldern in Workfront finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem älteren Formularersteller](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).

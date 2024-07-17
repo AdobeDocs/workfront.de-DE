@@ -11,8 +11,8 @@ role: Admin
 exl-id: d30a67dd-4f91-41cf-b1ba-fefadc4e396a
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 0%
+source-wordcount: '310'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen [!DNL Workfront] Administrator. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> <p><b>NOTE</b>: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen ein [!DNL Workfront] -Administrator sein. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für einen Benutzer</a>.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,24 +57,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Rufen Sie das Signaturzertifikat manuell vom ADFS-Server ab:
 
-1. In [!DNL Windows]klicken **[!UICONTROL Starten]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0-Verwaltung]**.\
+1. Klicken Sie in [!DNL Windows] auf **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0-Verwaltung]**.\
    Das Dialogfeld ADFS 2.0-Verwaltung wird angezeigt.
 
-1. Auswählen **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauen in Partei]** im linken Bereich.
+1. Wählen Sie im linken Bereich die Option **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauenswürdige Parteivertrauer]** aus.
 
-1. Rechtsklick auf **[!UICONTROL Vertrauen von Parteien]** und wählen Sie **[!UICONTROL Eigenschaften]**.
+1. Klicken Sie mit der rechten Maustaste auf **[!UICONTROL Vertrauenswürdigkeit der Partei]** und wählen Sie **[!UICONTROL Eigenschaften]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Unterschrift]** Registerkarte.
-1. Klicken Sie auf den Namen des Signaturzertifikats und klicken Sie auf **[!UICONTROL Ansicht]**.
-1. Klicken Sie auf Kopieren nach **[!UICONTROL Datei]**... und wählen Sie **[!UICONTROL Nächste]**.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Signatur]**.
+1. Klicken Sie auf den Namen des Signaturzertifikats und dann auf **[!UICONTROL Anzeigen]**.
+1. Klicken Sie auf In **[!UICONTROL Datei]**... kopieren und wählen Sie **[!UICONTROL Weiter]** aus.
 
-1. Auswählen **[!UICONTROL Base-64-kodierte x.509 (CER)]** und klicken Sie auf **[!UICONTROL Nächste]**.
+1. Wählen Sie **[!UICONTROL Base-64-kodiertes x.509 (CER)]** und klicken Sie auf **[!UICONTROL Next]**.
 
-1. Geben Sie den Dateinamen an und klicken Sie auf **[!UICONTROL Nächste]**.
-1. Klicken **[!UICONTROL Beenden]**.
-1. In [!DNL Adobe Workfront], navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL System]** > **[!UICONTROL Single Sign-On (SSO)]** und laden Sie das Signaturzertifikat manuell hoch.
+1. Geben Sie den Dateinamen an und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Klicken Sie auf **[!UICONTROL Beenden]**.
+1. Navigieren Sie in [!DNL Adobe Workfront] zu **[!UICONTROL Setup]** > **[!UICONTROL System]** > **[!UICONTROL Single Sign-On (SSO)]** und laden Sie das Signaturzertifikat manuell hoch.
 
-## Ursache 2: Das Zertifikat wird mit DSA signiert, wenn [!DNL Workfront] erwartet eine RSA-Signatur
+## Ursache 2: Das Zertifikat wird mit DSA signiert, wenn [!DNL Workfront] eine RSA-Signatur erwartet
 
 ### Lösung
 

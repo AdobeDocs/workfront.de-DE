@@ -25,7 +25,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe [!DNL Workfront] Lizenz</strong></td> 
@@ -71,25 +71,25 @@ Die folgenden Filterschaltflächen werden in den jeweiligen Bereichen nicht ange
 
 ## Lösung
 
-Die Filterschaltflächen im [!UICONTROL Projekte und Timesheets] -Bereich wird nicht angezeigt, da die entsprechenden Filter nicht in der Layout-Vorlage enthalten sind, die auf den Benutzer angewendet wird. Die [!DNL Workfront] -Administrator muss eine Layoutvorlage zuweisen, die die Filter enthält.
+Die Filterschaltflächen im Bereich [!UICONTROL Projekte und Timesheets] werden nicht angezeigt, da die entsprechenden Filter nicht in der Layout-Vorlage enthalten sind, die auf den Benutzer angewendet wird. Der Administrator [!DNL Workfront] muss eine Layoutvorlage zuweisen, die die Filter enthält.
 
 >[!NOTE]
 >
->Manchmal werden die Filter aus dem [!UICONTROL Listenelemente] Gebiet in [!UICONTROL Einrichtung]. Die [!DNL Workfront] -Administrator muss sie in die Listen in diesem Bereich aufnehmen, damit sie in den Layoutvorlagen verfügbar sind.
+>Manchmal werden die Filter aus dem Bereich [!UICONTROL Listen-Steuerelemente] in der [!UICONTROL Einrichtung] entfernt. Der Administrator [!DNL Workfront] muss sie in die Listen in diesem Bereich aufnehmen, damit sie in den Layoutvorlagen verfügbar sind.
 
 1. Stellen Sie sicher, dass die Layoutvorlage die folgenden Filter anzeigt:
 
-   * [!UICONTROL Projekte, an denen ich arbeite] und [!UICONTROL Eigene Projekte] im [!UICONTROL Projekte] area
-   * [!UICONTROL Meine Datenblatt-Genehmigungen] und [!UICONTROL Meine Timesheets] im [!UICONTROL Datenblatt] area
+   * [!UICONTROL Projekte, die ich auf] und [!UICONTROL Projekte, deren Eigentümer ich bin] im Bereich [!UICONTROL Projekte] befinde
+   * [!UICONTROL My Timesheet Approvals] und [!UICONTROL My Timesheets] im Bereich [!UICONTROL Timesheet]
 
    Gehen Sie dazu folgendermaßen vor:
 
    1. Greifen Sie auf die Layout-Vorlage zu.
-   1. Auswählen **[!UICONTROL Listen]** under **[!UICONTROL Anpassen der Ansicht von Benutzern]**.
-   1. Auswählen **[!UICONTROL Projekte]** oder **[!UICONTROL Timesheets]** under **[!UICONTROL Liste zum Anpassen auswählen]**.
-   1. Im **[!UICONTROL Filter]** überprüfen Sie, ob **[!UICONTROL Projekte, an denen ich arbeite]**, **[!UICONTROL Eigene Projekte]** (für Projekte) und **[!UICONTROL Meine Datenblatt-Genehmigungen]** und **[!UICONTROL Meine Timesheets]** (für Timesheets) ausgewählt sind.
+   1. Wählen Sie **[!UICONTROL Listen]** unter **[!UICONTROL Anpassen, was Benutzer sehen]**.
+   1. Wählen Sie **[!UICONTROL Projekte]** oder **[!UICONTROL Timesheets]** unter **[!UICONTROL Wählen Sie eine Liste zum Anpassen von]** aus.
+   1. Überprüfen Sie im Abschnitt **[!UICONTROL Filter]** , ob die Optionen **[!UICONTROL Projekte, die ich verwende,]**, **[!UICONTROL Projekte, deren Eigentümer ich bin]** (für Projekte) und **[!UICONTROL Meine Timesheet-Genehmigungen]** und **[!UICONTROL Meine Timesheets]** (für Timesheets) ausgewählt sind.
    1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Weitere Informationen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. Weisen Sie die Layoutvorlage den richtigen Benutzern, Auftragsrollen, Teams oder Gruppen zu. Weitere Informationen finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+1. Weisen Sie die Layoutvorlage den richtigen Benutzern, Auftragsrollen, Teams oder Gruppen zu. Weitere Informationen finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).

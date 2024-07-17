@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Gesperrte und entsperrte Gruppenstatus
 
-Durch das Sperren des benutzerdefinierten Status einer Gruppe können Sie sicherstellen, dass Personen in der Gruppe und ihren Untergruppen dieselben Prozesse in ihrem Arbeitsablauf verwenden. Wenn ein Gruppenstatus gesperrt ist, steht er allen Benutzern in der Gruppe und in niedrigeren Gruppen zur Verfügung. Sie (oder ein Workfront-Administrator) können zwar einen Status bearbeiten oder löschen, den Sie sperren, doch Administratoren von Untergruppen unten können dies für diese Gruppen nicht tun. sie können nur ihre Anzeigereihenfolge in der Liste Status ändern.
+Durch das Sperren des benutzerdefinierten Status einer Gruppe können Sie sicherstellen, dass Personen in der Gruppe und ihren Untergruppen dieselben Prozesse in ihrem Arbeitsablauf verwenden. Wenn ein Gruppenstatus gesperrt ist, steht er allen Benutzern in der Gruppe und in niedrigeren Gruppen zur Verfügung. Obwohl Sie (oder ein Workfront-Administrator) einen Status bearbeiten oder löschen können, den Sie sperren, können Administratoren von Untergruppen unten dies für diese Gruppen nicht tun. Sie können jedoch nur die Anzeigereihenfolge in der Statusliste ändern.
 
 Umgekehrt ermöglicht das Entsperren des benutzerdefinierten Status einer Gruppe den Administratoren niedrigerer Untergruppen mehr Flexibilität bei der Verwaltung der eindeutigen Workflows, die in ihren Gruppen verwendet werden. Wenn der Gruppenstatus entsperrt wird, können Administratoren niedrigerer Untergruppen ihre Attribute ändern oder sie für diese Untergruppen löschen.
 

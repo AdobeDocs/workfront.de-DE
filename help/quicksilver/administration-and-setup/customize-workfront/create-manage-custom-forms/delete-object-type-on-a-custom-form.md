@@ -47,7 +47,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Löschen von Objekttypen in einem benutzerdefinierten Formular
 
@@ -63,11 +63,11 @@ Ein benutzerdefiniertes Formular muss mindestens einen Objekttyp aufweisen.
 
 {{step-1-to-setup}}
 
-1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie dann auf ![Symbol Bearbeiten](assets/edit-icon.png).
-1. Klicken Sie auf das X auf einem der **Objekttypen** die Sie aus dem Formular löschen möchten, klicken Sie auf **Löschen** in der angezeigten Warnmeldung angezeigt.
+1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** .
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie dann auf das Symbol ![Bearbeiten](assets/edit-icon.png).
+1. Klicken Sie auf das X für einen der **Objekttypen**, die Sie aus dem Formular löschen möchten, und klicken Sie dann in der angezeigten Warnmeldung auf **Löschen** .
 
    ![](assets/click-x-object-types.jpg)
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt für jeden anderen Objekttyp, den Sie aus dem Formular entfernen möchten.
-1. Klicks **Fertig** Klicken Sie auf **Speichern und schließen**.
+1. Klicken Sie auf **Fertig** und dann auf **Speichern und schließen**.

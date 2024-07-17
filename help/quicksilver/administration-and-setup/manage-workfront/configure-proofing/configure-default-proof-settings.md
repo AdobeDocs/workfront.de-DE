@@ -21,16 +21,16 @@ Mit diesen Einstellungen können Sie Standardwerte festlegen, die für alle neue
 
 ## Neue Standardeinstellungen für den Testversand konfigurieren
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup**.![](assets/main-menu-icon.png)
 1. Klicken Sie im linken Bereich auf **Testsendungen** > **Testversandeinstellungen**.
-1. Im **Neuer Testversand-Standard** konfigurieren Sie die folgenden Einstellungen:
+1. Konfigurieren Sie im Abschnitt **Neue Testversand-Standardwerte** die folgenden Einstellungen:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader" colspan="2"><b>Empfänger</b></td> 
+      <td role="rowheader" colspan="2"><b>Empfängerinnen und Empfänger</b></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anmeldung erforderlich</td> 
@@ -81,23 +81,23 @@ Benutzer können Testversandentscheidungen verwenden, um den Status des Testvers
 
 So konfigurieren Sie Testversandentscheidungen:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup**.![](assets/main-menu-icon.png)
 1. Klicken Sie im linken Bereich auf **Testsendungen** > **Testversandeinstellungen**.
-1. Im **Entscheidungen**-Abschnitt, können Sie
+1. Im Abschnitt **Entscheidungen** können Sie
 
-   1. **Entscheidung umbenennen**: Klicken Sie auf den Text innerhalb des Entscheidungsfelds und beginnen Sie mit der Eingabe des neuen Entscheidungstitels.
+   1. **Benennen Sie die Entscheidung um**: Klicken Sie auf den Text im Entscheidungsfeld und beginnen Sie mit der Eingabe der neuen Entscheidungsbeschriftung.
 
       >[!TIP]
       >
-      >Behalten Sie die Logik für eine Entscheidung bei, wenn Sie sie umbenennen. Beispielsweise kann die Standardentscheidung Abgelehnt in *Neue Version erforderlich*, sollte jedoch nicht geändert werden in *An Drucker senden*.
+      >Behalten Sie die Logik für eine Entscheidung bei, wenn Sie sie umbenennen. Beispielsweise kann die Standardentscheidung Abgelehnt in *Neue Version erforderlich* geändert werden, sie sollte jedoch nicht in *An Drucker senden* geändert werden.
 
       ![](assets/rename-decision-350x109.png)
 
-   1. **Entscheidungsreihenfolge neu anordnen**: Ziehen Sie die Entscheidungsfelder in die Reihenfolge, in der sie im Testversand-Viewer angezeigt werden sollen.
+   1. **Die Entscheidungsreihenfolge neu anordnen**: Ziehen Sie die Entscheidungsfelder in die Reihenfolge, in der sie im Testversand-Viewer angezeigt werden sollen.
 
       ![](assets/move-decision-350x110.png)
 
-   1. **Entscheidungsniveau ausblenden**: Bewegen Sie den Mauszeiger über das Entscheidungsfeld und klicken Sie oben rechts auf das Symbol Ausblenden .
+   1. **Entscheidung ausblenden**: Bewegen Sie den Mauszeiger über das Entscheidungsfeld und klicken Sie auf das Symbol Ausblenden in der oberen rechten Ecke.
 
       ![](assets/hide-decision-350x109.png)
 

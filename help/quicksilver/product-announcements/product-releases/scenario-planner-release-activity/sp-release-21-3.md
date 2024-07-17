@@ -7,7 +7,7 @@ feature: Product Announcements, Workfront Scenario Planner
 exl-id: 70e1b54b-2bf9-498a-8a77-9b220543e385
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,6 @@ Vor dieser Verbesserung konnten Sie den Szenario-Planer und den Bereich Ziele nu
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Landingpage mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+* [Passen Sie die Landingpage mithilfe einer Layoutvorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
 * [Anpassen von fixierten Seiten mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 

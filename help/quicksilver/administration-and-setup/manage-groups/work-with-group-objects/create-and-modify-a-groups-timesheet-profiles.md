@@ -35,7 +35,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -43,7 +43,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Sie müssen ein Gruppenadministrator der Gruppe sein.</p>  <p>Sie müssen auch Administratorzugriff auf Timesheets haben. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p>  <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen ein Gruppenadministrator der Gruppe sein.</p>  <p>Sie müssen auch über Administratorzugriff auf Timesheets verfügen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche</a>.</p>  <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,11 +52,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 ## Erstellen und Bearbeiten von Profilen auf Gruppenebene
 
-Sie können Timesheet-Profile für die Verwendung in einer von Ihnen verwalteten Gruppe erstellen und bearbeiten. Anweisungen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Sie können Timesheet-Profile für die Verwendung in einer von Ihnen verwalteten Gruppe erstellen und bearbeiten. Anweisungen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Zeitzeichenprofilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Löschen von Timesheet-Profilen auf Gruppenebene
 
-Sie können von einer von Ihnen verwalteten Gruppe verwendete Zeitleistenprofile löschen. Anweisungen finden Sie unter [Löschen von Timesheet-Profilen](../../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md).
+Sie können von einer von Ihnen verwalteten Gruppe verwendete Zeitleistenprofile löschen. Eine Anleitung finden Sie unter [Löschen von Timesheet-Profilen](../../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md).
 
 ## Manuelles Generieren von Gruppen-Timesheets
 
@@ -64,13 +64,13 @@ Um Änderungen zu ermöglichen, die Sie an der Gruppierung von Timesheet-Profile
 
 Weitere Informationen zum Löschen von Gruppen-Timesheets finden Sie unter [Löschen von Timesheets in Adobe Workfront](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 
-## Profile auf Gruppenniveau exportieren
+## Profile auf Gruppenebene exportieren
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
-1. Klicken **Gruppen**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+1. Klicken Sie auf **Gruppen**.
 
    In der angezeigten Liste können Sie die von Ihnen verwalteten Gruppen sowie die darin enthaltenen Untergruppen sehen. Adobe Workfront-Administratoren können alle Gruppen sehen.
 
 1. Klicken Sie auf den Namen der Gruppe mit den zu exportierenden Timesheet-Profilen.
-1. Klicken **Datenblatt-Profile**.
-1. Klicken **Export** , um die Liste der für die Gruppe definierten Zeitplanprofile zu exportieren.
+1. Klicken Sie auf **Timesheet-Profile**.
+1. Klicken Sie auf **Exportieren** , um die Liste der Zeitleistenprofile für die Gruppe zu exportieren.

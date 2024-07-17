@@ -3,7 +3,7 @@ content-type: overview
 product-area: calendars
 navigation-topic: use-the-home-area
 title: Ansicht "Home Calendar"
-description: Die [!UICONTROL Startseitenkalender] Ansicht in der [!UICONTROL Startseite] können Sie Ihre Arbeitswoche und Arbeitsaufgaben in einem persönlichen Arbeitskalender anzeigen und verwalten, der nur für Sie sichtbar ist. Sie können damit planen, wann Sie Ihre Arbeit machen möchten. Und Sie können ihn in externe Kalender integrieren, wie z. B. eine [!UICONTROL Microsoft Outlook] Kalender.
+description: Mit der Ansicht [!UICONTROL Home Calendar] im Bereich [!UICONTROL Home] können Sie Ihre Arbeitswoche und Arbeitsaufgaben in einem persönlichen Arbeitskalender anzeigen und verwalten, der nur für Sie sichtbar ist. Sie können damit planen, wann Sie Ihre Arbeit machen möchten. Und Sie können ihn in externe Kalender integrieren, z. B. einen [!UICONTROL Microsoft Outlook] -Kalender.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 174bf68f-bbb7-4777-aeeb-53a0b3a8b1f7
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Startseitenkalender] Ansicht
+# Ansicht des [!UICONTROL Home-Kalenders]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated for QS except for section about expanding a work item in the list--this isn't working yet in QS.</p>
 -->
 
-Die [!UICONTROL Startseitenkalender] Ansicht in der [!UICONTROL Startseite] können Sie Ihre Arbeitswoche und Arbeitsaufgaben in einem persönlichen Arbeitskalender anzeigen und verwalten, der nur für Sie sichtbar ist. Sie können damit planen, wann Sie Ihre Arbeit machen möchten. Und Sie können ihn in externe Kalender integrieren, wie z. B. eine [!UICONTROL Microsoft Outlook] Kalender.
+Mit der Ansicht [!UICONTROL Home Calendar] im Bereich [!UICONTROL Home] können Sie Ihre Arbeitswoche und Arbeitsaufgaben in einem persönlichen Arbeitskalender anzeigen und verwalten, der nur für Sie sichtbar ist. Sie können damit planen, wann Sie Ihre Arbeit machen möchten. Und Sie können ihn in externe Kalender integrieren, z. B. einen [!UICONTROL Microsoft Outlook] -Kalender.
 
 >[!NOTE]
 >
->Die [!UICONTROL Startseitenkalender] Ansicht unterscheidet sich von [!UICONTROL Kalender] Berichte. Weitere Informationen finden Sie unter [!UICONTROL Kalender] Berichte, siehe [[!UICONTROL Kalender] Berichtübersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+>Die Ansicht [!UICONTROL Home Calendar] unterscheidet sich von den Berichten [!UICONTROL Kalender]. Weitere Informationen zu [!UICONTROL Kalenderberichten] finden Sie unter [[!UICONTROL Kalenderberichte] - Übersicht über Berichte](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-Wenn Sie Anweisungen zum Einrichten Ihrer [!UICONTROL Startseitenkalender], siehe [Konfigurieren Sie Ihre [!UICONTROL Startseitenkalender] Ansichtseinstellungen](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+Wenn Sie Anweisungen zum Einrichten Ihres [!UICONTROL Home-Kalenders] benötigen, finden Sie weitere Informationen unter [Konfigurieren des [!UICONTROL Home-Kalenders] mit den Anzeigeeinstellungen](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-Informationen zum Zugriff auf die [!UICONTROL Startseitenkalender] Ansicht, siehe [Anzeigen der [!UICONTROL Startseitenkalender]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+Informationen zum Zugriff auf die Ansicht [!UICONTROL Home Calendar] finden Sie unter [Anzeigen des [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-Informationen zur Integration Ihrer [!UICONTROL Startseitenkalender] mit einem externen Kalender, siehe [[!UICONTROL [!UICONTROL Home Calendar konfigurieren]]-Ansichtseinstellungen](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+Informationen zur Integration Ihres [!UICONTROL Home-Kalenders] in einen externen Kalender finden Sie unter [[!UICONTROL Konfigurieren des [!UICONTROL Home Calendar]]-Anzeigeeinstellungen](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-Die übrigen Abschnitte in diesem Artikel erläutern Abschnitte und Funktionen der [!UICONTROL Startseitenkalender] Weitere Details anzeigen.
+In den übrigen Abschnitten in diesem Artikel werden die Abschnitte und Funktionen des [!UICONTROL Home Calendar] Detaillierte Ansicht beschrieben.
 
-## Arbeitsliste auf der [!UICONTROL Startseitenkalender]
+## Arbeitsliste für den [!UICONTROL Home-Kalender]
 
-Arbeitselemente (Aufgaben, Probleme, Anforderungen und Genehmigungen), die Ihnen, Ihren Gruppen, Ihren Teams und Ihren Rollen zugewiesen sind, werden im [!UICONTROL Arbeitsliste] links vom Kalender im [!UICONTROL Startseite] Bereich.
+Arbeitselemente (Aufgaben, Probleme, Anforderungen und Genehmigungen), die Ihnen, Ihren Gruppen, Ihren Teams und Ihren Rollen zugewiesen sind, werden in der [!UICONTROL Arbeitsliste] auf der linken Seite des Kalenders im Bereich [!UICONTROL Startseite] angezeigt.
 
 ![](assets/calview-qs-350x185.png)
 
-Sie können Ihre Arbeitselemente aus dem [!UICONTROL Arbeitsliste] auf [!UICONTROL Startseitenkalender] , um zu planen, wann Sie daran arbeiten möchten. Weitere Informationen zur Planung Ihrer Arbeit finden Sie unter [Verwenden Sie die [!UICONTROL Startseitenkalender] Ansicht](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+Sie können Ihre Arbeitselemente aus der [!UICONTROL Arbeitsliste] in Ihren [!UICONTROL Home-Kalender] ziehen, um festzulegen, wann Sie daran arbeiten möchten. Weitere Informationen zum Planen Ihrer Arbeit finden Sie unter [Verwenden der Ansicht [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
 Sie können auf ein Arbeitselement in der Liste klicken, um den Fortschritt anzuzeigen und zu aktualisieren.
 
@@ -49,41 +49,41 @@ Sie können auf ein Arbeitselement in der Liste klicken, um den Fortschritt anzu
 Je nach Element werden möglicherweise die folgenden Informationen für das Element, das Sie in der Arbeitsliste auswählen, links im Kalender angezeigt:
 
 * **[!UICONTROL Projektname]**: Wird oben links im Arbeitselement angezeigt. Dies ist das Projekt, mit dem das Element verknüpft ist. Im obigen Beispiel lautet der Projektname &quot;Herbst 2020&quot;.
-* **[!UICONTROL Arbeitselementname]**: Wird unter dem Projektnamen angezeigt. Im obigen Beispiel lautet der Titel des Arbeitselements &quot;Ausgabe am 15. September&quot;.
-* **[!UICONTROL Fertig]**: Klicken Sie auf diese Schaltfläche, um den Status Ihrer Arbeitszuweisung in [!UICONTROL Fertig]. Diese Schaltfläche wird nur angezeigt, wenn Sie der Aufgabe oder dem Problem zugewiesen sind.
-* **[!UICONTROL Fertig mit meinem Teil]**: Klicken Sie auf die [!UICONTROL Fertig mit meinem Teil] -Schaltfläche, um den Status Ihrer Arbeitszuweisung in [!UICONTROL Fertig].
+* **[!UICONTROL Name des Arbeitselements]**: Wird unter dem Projektnamen angezeigt. Im obigen Beispiel lautet der Titel des Arbeitselements &quot;Ausgabe am 15. September&quot;.
+* **[!UICONTROL Fertig]**: Klicken Sie auf diese Schaltfläche, um den Status Ihrer Arbeitszuweisung in [!UICONTROL Fertig] zu ändern. Diese Schaltfläche wird nur angezeigt, wenn Sie der Aufgabe oder dem Problem zugewiesen sind.
+* **[!UICONTROL Fertig mit meinem Teil]**: Klicken Sie auf die Schaltfläche [!UICONTROL Fertig mit meinem Teil] , um den Status Ihrer Arbeitszuweisung in [!UICONTROL Fertig] zu ändern.
 * **[!UICONTROL Geplant]**: Zeigt die Stunden an, die ein Ressourcen-Manager für die Bearbeitung des Elements zugewiesen hat. Weitere Informationen zu geplanten Stunden finden Sie unter [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* **[!UICONTROL Protokolliert]**: Zeigt die Stunden an, die Sie am Arbeitselement entweder in einem Timesheet oder in der [!UICONTROL Updates] Registerkarte für das Element. Weitere Informationen finden Sie unter [Protokollzeit für ein Arbeitselement aus [!UICONTROL Startseite] area](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
+* **[!UICONTROL Logged]**: Zeigt die Stunden an, die Sie am Arbeitselement entweder in einem Timesheet oder auf der Registerkarte [!UICONTROL Updates] für das Element angemeldet haben. Weitere Informationen finden Sie unter [Protokollzeit für ein Arbeitselement aus dem [!UICONTROL Home] -Bereich](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 
-* **[!UICONTROL Geplant]**: Zeigt die Stunden an, die Sie für das Arbeitselement im [!UICONTROL Kalender] anzeigen. Weitere Informationen zum Verschieben von Arbeitselementen in Ihre [!UICONTROL Kalender] Ansicht, siehe [Planen Sie Arbeitselemente in Ihren [!UICONTROL Startseitenkalender]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) in [Verwenden Sie die [!UICONTROL Startseitenkalender] Ansicht](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+* **[!UICONTROL Geplant]**: Zeigt die Stunden an, die Sie für das Arbeitselement in der Ansicht [!UICONTROL Kalender] geplant haben. Weitere Informationen zum Verschieben von Arbeitselementen in die Ansicht [!UICONTROL Kalender] finden Sie unter [Planen von Arbeitselementen in Ihrem [!UICONTROL Home-Kalender]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) in [Verwenden der Ansicht [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-* **[!UICONTROL Details]**: Klicken Sie auf diese Schaltfläche, um die Details des Arbeitselements im rechten Bereich der [!UICONTROL Kalender] anzeigen.
-* **[!UICONTROL Arbeiten daran]**: Klicken Sie auf diese Schaltfläche, um die Zuweisung zur Bearbeitung des Elements zu akzeptieren.
+* **[!UICONTROL Details]**: Klicken Sie auf diese Schaltfläche, um die Details des Arbeitselements im rechten Bereich der Ansicht [!UICONTROL Kalender] anzuzeigen.
+* **[!UICONTROL Bearbeiten Sie es]**: Klicken Sie auf diese Schaltfläche, um die Zuweisung zu akzeptieren, damit das Element bearbeitet werden kann.
 
 ## Zuordnungsleiste
 
-Wenn Sie die [!UICONTROL Startseitenkalender]festlegen, geben Sie die Anzahl der Stunden an, die Sie normalerweise in einer Woche arbeiten (siehe [Konfigurieren Sie Ihre [!UICONTROL Startseitenkalender] Ansichtseinstellungen](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)). [!DNL Adobe Workfront] verwendet diese Zahl, um die Gesamtzahl der zugewiesenen Arbeitsstunden zu ermitteln.
+Beim Einrichten des [!UICONTROL Home-Kalenders] geben Sie die Anzahl der Stunden an, die Sie normalerweise in einer Woche arbeiten (siehe [Konfigurieren des [!UICONTROL Home Calendar]-Anzeigeeinstellungen](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)). [!DNL Adobe Workfront] verwendet diese Zahl, um Ihre insgesamt zugewiesenen Arbeitsstunden zu bestimmen.
 
-Die [!UICONTROL Zuordnung] bar ist eine visuelle Darstellung der Anzahl der Stunden in Ihrer Arbeitswoche und ihrer Verwendung.
+Die Leiste [!UICONTROL Zuordnung] enthält eine visuelle Darstellung der Anzahl der Stunden in Ihrer Arbeitswoche und ihrer Verwendung.
 
 ![](assets/allocation-bar-qs-350x181.png)
 
-Die Farben in den [!UICONTROL Zuordnung] die folgenden Informationen angeben:
+Die Farben in der Leiste [!UICONTROL Zuordnung] geben die folgenden Informationen an:
 
-* **Grau**: Anzahl der Stunden, die für Ereignisse von integrierten Kalendern geplant sind. Weitere Informationen zur Integration von Kalendern finden Sie im Abschnitt . [Konfigurieren Sie Ihre [!UICONTROL Startseitenkalender] Ansichtseinstellungen](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md#configuring-your-home-calendar-view) in [Konfigurieren Sie Ihre [!UICONTROL Startseitenkalender] Ansichtseinstellungen](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+* **Grau**: Anzahl der Stunden, die für Ereignisse von integrierten Kalendern geplant sind. Weitere Informationen zur Integration von Kalendern finden Sie im Abschnitt [Einstellungen für die [!UICONTROL Home-Kalender]-Ansicht konfigurieren](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md#configuring-your-home-calendar-view) in [Einstellungen für den [!UICONTROL Home-Kalender] konfigurieren](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md) .
 
-* **Blau**: Anzahl der Stunden, die Sie geplant haben [!DNL Workfront] Arbeitselemente, die Ihnen zugewiesen sind. Sie können die Arbeit planen, indem Sie Elemente aus dem [!UICONTROL Arbeitsliste] und legen sie in Ihren Kalender. Weitere Informationen zur Planung von Aufgaben finden Sie unter [Planen Sie Arbeitselemente in Ihren [!UICONTROL Startseitenkalender]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) Abschnitt in [Verwenden Sie die [!UICONTROL Startseitenkalender] Ansicht](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+* **Blau**: Anzahl der Stunden, die Sie für [!DNL Workfront] Arbeitselemente geplant haben, die Ihnen zugewiesen sind. Sie können die Arbeit planen, indem Sie Elemente aus der [!UICONTROL Arbeitsliste] ziehen und in Ihren Kalender ablegen. Weitere Informationen zum Planen von Aufgaben finden Sie im Abschnitt [Arbeitselemente im [!UICONTROL Home Calendar planen]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) in [Verwenden der Ansicht [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
 * **Hellblau**: Die Anzahl der kostenlosen Stunden, die für die Zuordnung verfügbar sind.
-* **Rot**(oben nicht angezeigt): Geplante Ereignisse und Arbeitselemente, die die Anzahl der Stunden überschritten haben, die für die Woche verfügbar sind.
+* **Rot** (oben nicht angezeigt): Geplante Ereignisse und Arbeitselemente, die die Anzahl der Stunden überschritten haben, die für die Woche verfügbar sind.
 
 ## [!UICONTROL aufgrund] bar
 
-Die [!UICONTROL aufgrund] Symbolleiste [!UICONTROL Startseitenkalender] zeigt die Artikel an, die für die aktuell angezeigte Woche fällig sind, entsprechend ihrer [!UICONTROL Geplantes Abschlussdatum].
+Die Leiste [!UICONTROL Fälligkeit] in Ihrem [!UICONTROL Home-Kalender] zeigt die Elemente an, die für die aktuell angezeigte Woche fällig sind, in Übereinstimmung mit ihrem [!UICONTROL geplanten Abschlussdatum].
 
 ![](assets/duebar-qs-350x140.png)
 
 >[!NOTE]
 >
->Wenn Sie Ihren Microsoft-Kalender in Ihre [!DNL Workfront] Kalender, Elemente in [!UICONTROL aufgrund] Die Leiste wird nur dann in Ihrem Microsoft-Kalender angezeigt, wenn Sie sie aus der Arbeitsliste in Ihre [!DNL Workfront] Kalender. Weitere Informationen finden Sie im Abschnitt .  [Arbeitsliste auf der [!UICONTROL Startseitenkalender]](#work-list-on-the-home-calendar) und dem Artikel  [Konfigurieren Sie Ihre [!UICONTROL Startseitenkalender] Ansichtseinstellungen](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+>Wenn Sie Ihren Microsoft-Kalender in Ihren [!DNL Workfront] -Kalender integriert haben, werden Elemente in der Leiste [!UICONTROL Fälligkeit] nicht im Microsoft-Kalender angezeigt, es sei denn, Sie haben sie aus der Arbeitsliste in Ihren [!DNL Workfront] -Kalender gezogen. Weitere Informationen finden Sie im Abschnitt [Liste für die Arbeit im obigen [!UICONTROL Home-Kalender]](#work-list-on-the-home-calendar) und im Artikel [Einstellungen für die Ansicht des [!UICONTROL Home-Kalenders] konfigurieren](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).

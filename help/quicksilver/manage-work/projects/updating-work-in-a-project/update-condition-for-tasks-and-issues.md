@@ -17,15 +17,15 @@ ht-degree: 1%
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Die Bedingung einer Aufgabe oder eines Problems ist eine Markierung, die darauf platziert wird, um anzugeben, wie es funktioniert. Dies unterscheidet sich vom Status des Arbeitselements, der die aktuelle Phase der Entwicklung des Elements angibt.
 
 Sie können die Bedingung einer Aufgabe oder eines Problems entweder automatisch oder manuell festlegen.
 
-Die Bedingungswerte, auf die wir in diesem Artikel verweisen, sind standardmäßig in Workfront verfügbar. Ihr Adobe Workfront-Administrator kann benutzerdefinierte Bedingungen für Ihre Umgebung erstellen, wie unter [Benutzerdefinierte Bedingung erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Die Bedingungswerte, auf die wir in diesem Artikel verweisen, sind standardmäßig in Workfront verfügbar. Ihr Adobe Workfront-Administrator kann benutzerdefinierte Bedingungen für Ihre Umgebung erstellen, wie in [Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) beschrieben.
 
 ## Zugriffsanforderungen {#access-requirements}
 
@@ -66,7 +66,7 @@ Für aktuelle Lizenzen:
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -74,13 +74,13 @@ Sie müssen einer Aufgabe oder einem Problem zugewiesen sein, damit Sie ihre Bed
 
 ## Finden Sie die Bedingung der Aufgaben und Probleme
 
-Bedingungen werden als Markierung angezeigt, die mit Aufgaben oder Problemen verknüpft ist. Sie können auch mit einer Zahl verknüpft werden, die in Berichten anstelle der Bezeichnung angezeigt werden kann. Weitere Informationen zum Verknüpfen von Bedingungen mit Zahlen finden Sie unter [Benutzerdefinierte Bedingung erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Bedingungen werden als Markierung angezeigt, die mit Aufgaben oder Problemen verknüpft ist. Sie können auch mit einer Zahl verknüpft werden, die in Berichten anstelle der Bezeichnung angezeigt werden kann. Weitere Informationen zum Zuordnen von Bedingungen zu Zahlen finden Sie unter [Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 Sie finden die Bedingungen für Aufgaben und Probleme in den folgenden Bereichen von Workfront:
 
-* <span class="preview">Die Detailseite, nachdem sie von einem Workfront- oder Gruppenadministrator Ihrer Layoutvorlage hinzugefügt wurde. Weitere Informationen finden Sie unter [Detailansicht mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* <span class="preview">Die Detailseite, nachdem sie von einem Workfront- oder Gruppenadministrator Ihrer Layoutvorlage hinzugefügt wurde. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) </span>.
 
-* <span class="preview">Die Kopfzeile einer Aufgabe oder eines Problems, nachdem ein Workfront- oder Gruppenadministrator sie zu Ihrer Layoutvorlage hinzugefügt hat. Weitere Informationen finden Sie unter [Objektüberschriften mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* <span class="preview">Die Kopfzeile einer Aufgabe oder eines Problems, nachdem ein Workfront- oder Gruppenadministrator sie Ihrer Layoutvorlage hinzugefügt hat. Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md) </span>.
 
 * Nachdem ein Workfront- oder Gruppenadministrator sie Ihrer Layoutvorlage hinzugefügt hat, wird sie im Bereich &quot;Zusammenfassung&quot;angezeigt. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
@@ -92,15 +92,15 @@ Sie finden die Bedingungen für Aufgaben und Probleme in den folgenden Bereichen
 
 ## Automatische Aktualisierung der Bedingung durch Aktualisierung des Status
 
-Wenn Sie eine Aufgabe oder ein Problem zugewiesen haben und auf **Arbeiten daran** , Aufgabe starten oder Problem starten oder den Status aktualisieren, ändert sich die Bedingung der Aufgabe oder des Problems automatisch in die Standardbedingung, die mit **Gehe sanft**.
+Wenn Sie eine Aufgabe oder ein Problem zugewiesen haben und auf &quot;**Bearbeiten**&quot;, &quot;Aufgabe starten&quot;oder &quot;Problem starten&quot;klicken oder den Status aktualisieren, ändert sich die Bedingung der Aufgabe oder des Problems automatisch in die Standardbedingung, die mit &quot;**Gehe reibungslos&quot;** verknüpft ist.
 
-Informationen zur Verwendung einer benutzerdefinierten Bedingung als Standardbedingung finden Sie in den Artikeln  [Benutzerdefinierte Bedingung als Standard für Aufgaben und Probleme festlegen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) und [Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
+Informationen zur Verwendung einer benutzerdefinierten Bedingung als Standardbedingung finden Sie in den Artikeln [Benutzerdefinierte Bedingung als Standard für Aufgaben und Probleme festlegen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) und [Benutzerdefinierte Bedingung als Standard für Projekte festlegen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) .
 
-Informationen zum Ändern des Aufgabenstatus finden Sie unter [Aktualisierung des Aufgabenstatus](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
+Informationen zum Ändern des Aufgabenstatus finden Sie unter [Status der Aufgabe aktualisieren](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
 
-Informationen zum Ändern des Problemstatus finden Sie unter [Status des Problems aktualisieren](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md).
+Informationen zum Ändern des Problemstatus finden Sie unter [Update des Problemstatus](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md).
 
-Informationen zum Festlegen der Schaltfläche &quot;Work On It&quot;auf eine Schaltfläche &quot;Start Task&quot;oder &quot;Start Issue&quot;finden Sie unter [Ersetzen der Schaltfläche &quot;Work On It&quot;durch die Schaltfläche Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Informationen zum Festlegen der Schaltfläche &quot;Work On It&quot;auf die Schaltfläche &quot;Start Task&quot;oder &quot;Start Issue&quot;finden Sie unter [Ersetzen der Schaltfläche Work On It durch eine Schaltfläche Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
 ## Manuelles Aktualisieren der Bedingung
 
@@ -114,8 +114,8 @@ Wenn Sie das Feld Bedingung in der Ansicht anzeigen, können Sie die Bedingung e
 >
 >Weitere Informationen finden Sie in den folgenden Artikeln:
 >
->* [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Überblick über die Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Passen Sie die Startseite und die Zusammenfassung mit einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 
@@ -130,7 +130,7 @@ Führen Sie einen der folgenden Schritte aus, um die Bedingung einer Aufgabe ode
 
 1. So aktualisieren Sie die Bedingung einer Aufgabe oder eines Problems in der Aufgaben- oder Problemkopfzeile:
 
-   1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator das Feld Bedingung zur Aufgaben- oder Problemüberschrift Ihrer Layoutvorlage hinzugefügt hat, klicken Sie auf das **Bedingung** in der Kopfzeile ein und wählen Sie aus den folgenden Optionen aus:
+   1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator das Feld Bedingung zur Aufgaben- oder Problemüberschrift Ihrer Layoutvorlage hinzugefügt hat, klicken Sie in der Kopfzeile auf das Feld **Bedingung** und wählen Sie aus den folgenden Optionen aus:
       * Keine Probleme
       * Kleinere Probleme
       * Größere Probleme
@@ -140,28 +140,28 @@ Führen Sie einen der folgenden Schritte aus, um die Bedingung einer Aufgabe ode
 
 1. So aktualisieren Sie die Bedingung einer Aufgabe oder eines Problems im Abschnitt &quot;Aufgaben- oder Problemdetails&quot;:
 
-   1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator das Feld Bedingung zum Bereich Details einer Aufgabe oder eines Problems in Ihrer Layoutvorlage hinzugefügt hat, klicken Sie auf **Details** Klicken Sie im linken Bereich auf **Aufgabenbedingung** oder **Problembedingung** und wählen Sie aus den folgenden Optionen aus:
+   1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator das Feld Bedingung zum Bereich Details einer Aufgabe oder eines Problems in Ihrer Layoutvorlage hinzugefügt hat, klicken Sie im linken Bereich auf **Details** , klicken Sie dann auf **Aufgabenbedingung** oder **Problembedingung** und wählen Sie eine der folgenden Optionen aus:
       * Keine Probleme
       * Kleinere Probleme
       * Größere Probleme
-1. Klicks **Änderungen speichern**. Die Bedingung der Aufgabe oder des Problems wird aktualisiert.
+1. Klicken Sie auf **Änderungen speichern**. Die Bedingung der Aufgabe oder des Problems wird aktualisiert.
 
 </div>
 
 So aktualisieren Sie die Bedingung einer Aufgabe oder eines Problems in einem Bericht oder einer Liste:
 
-1. Rufen Sie eine Liste der Aufgaben oder Probleme auf, für die Sie über Verwaltungsberechtigungen verfügen. Stellen Sie die **Bedingung** -Feld in der Listenansicht angezeigt.
+1. Rufen Sie eine Liste der Aufgaben oder Probleme auf, für die Sie über Verwaltungsberechtigungen verfügen. Stellen Sie sicher, dass das Feld **Bedingung** in der Listenansicht sichtbar ist.
 
-1. Aktualisieren Sie die **Bedingung** durch Doppelklicken auf die vorhandene Bedingung und Auswahl eines neuen Werts aus dem Dropdown-Menü.
+1. Aktualisieren Sie die **Bedingung** des Problems oder der Aufgabe inline, indem Sie auf die vorhandene Bedingung doppelklicken und einen neuen Wert aus dem Dropdown-Menü auswählen.
 
    ![](assets/condition-drop-down-values-in-task-list.png)
 
    >[!NOTE]
    >
-   >Bedingungen können für Ihre Umgebung angepasst werden, sodass Sie in Ihrer Umgebung mehr als drei Optionen für Bedingungen finden können. Die Namen der Bedingungen können sich von den oben aufgeführten unterscheiden. Informationen zum Anpassen von Bedingungen in Workfront finden Sie unter [Benutzerdefinierte Bedingung erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+   >Bedingungen können für Ihre Umgebung angepasst werden, sodass Sie in Ihrer Umgebung mehr als drei Optionen für Bedingungen finden können. Die Namen der Bedingungen können sich von den oben aufgeführten unterscheiden. Informationen zum Anpassen von Bedingungen in Workfront finden Sie unter [Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 
-1. Presse **Eingabe** auf der Tastatur klicken oder außerhalb des Bedingungsfelds klicken, um die neue Aufgabe oder Problembedingung zu speichern.
+1. Drücken Sie auf der Tastatur die **Eingabetaste** oder klicken Sie außerhalb des Felds Bedingung auf , um die neue Aufgabe oder Problembedingung zu speichern.
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

@@ -21,17 +21,17 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 Sie können Projektvorlagen verwenden, um die meisten wiederholbaren Prozesse, Informationen und Einstellungen zu erfassen, die mit den Projekten in Ihrer Organisation verbunden sind.
 
-* [Übersicht über Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/project-template-overview.md)
+* [Übersicht über die Projektvorlage](../../../manage-work/projects/create-and-manage-templates/project-template-overview.md)
 * [Erstellen einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/create-template.md)
 * [Erstellen von Projektvorlagen aus Beispielen](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
-* [Katalog mit Blueprints durchsuchen und Installation von Blueprints anfordern](../../../administration-and-setup/blueprints/browse-catalog.md)
+* [Durchsuchen des Blueprints-Katalogs und Anfordern der Installation von Blueprints](../../../administration-and-setup/blueprints/browse-catalog.md)
 * [Kopieren einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/copy-template.md)
-* [Übersicht über das Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
+* [Überblick über das Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
 * [Eine Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)
-* [Vorlagenaufgabe bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+* [Bearbeiten einer Vorlagenaufgabe](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 * [Vorlage aus Projekt erstellen](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
 * [Projektvorlagen freigeben](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
-* [Entfernen von Vorlageninformationen aus einem Projekt](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+* [Entfernen Sie Vorlageninformationen aus einem Projekt](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
 * [Löschen von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
 * [Übersicht über Start- und Endtage in einer Vorlage](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)

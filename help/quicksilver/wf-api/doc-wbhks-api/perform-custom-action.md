@@ -11,7 +11,7 @@ exl-id: a18b6b97-ee1e-4ad2-a4e1-00a644a0f4f2
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -57,7 +57,7 @@ GET /customAction
 
  
 
-## Antwort
+## Reaktion
 
 Eine JSON-Zeichenfolge, die den Erfolg oder Fehler angibt, wie im Abschnitt Umgang mit Fehlern unten angegeben. Bei einem Fehler (d. h. Status = &quot;Fehler&quot;) zeigt Workfront die bereitgestellte Fehlermeldung an.
 

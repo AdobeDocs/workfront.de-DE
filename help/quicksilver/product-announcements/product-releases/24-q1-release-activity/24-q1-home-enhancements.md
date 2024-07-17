@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom ersten Quartal 2024 verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Versionsübersicht für das erste Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Neues Widget für ausstehende Genehmigungen verfügbar
 
@@ -30,7 +30,7 @@ Administratoren können jetzt die neue Startseite für Benutzer mithilfe von Lay
 
 Beachten Sie, dass die Auswahl der Vorlage für das Layout des Administrators die Anpassung der einzelnen Benutzer außer Kraft setzt. Wenn also Änderungen an einer Layoutvorlage gespeichert werden, wird die neue Startseite für Benutzer dieser Layoutvorlage entsprechend der Layoutvorlage geändert und die vorhandenen Widget-Auswahlen werden an den unteren Rand der Seite verschoben. Widgets, die vom Administrator ausgewählt wurden, können zwar von einem Benutzer neu positioniert werden, aber nicht entfernt werden.
 
-Weitere Informationen finden Sie unter [Neue Startseite mit einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Weitere Informationen finden Sie unter [Anpassen der neuen Startseite mit einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## Die Schnellaktion-Schaltflächen für &quot;Arbeit&quot;wurden geändert, sodass sie nur auf dem Mauszeiger angezeigt werden
 

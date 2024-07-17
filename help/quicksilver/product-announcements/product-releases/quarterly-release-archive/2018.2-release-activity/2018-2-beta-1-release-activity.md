@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Version 2018.2"
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.2 verfügbar waren. Die Funktion wurde am 22. März 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Beta 1-Release-Aktivität von 2018.2
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 1-Version 2018.2 verfügbar waren. Die Funktion wurde am 22. März 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 im Produktionsumfeld zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta-Version 2018.2&quot;
+# Beta 1-Release-Aktivität von 2018.2
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.2 verfügbar waren. Die Funktion wurde am 22. März 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 1-Version 2018.2 verfügbar waren. Die Funktion wurde am 22. März 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 im Produktionsumfeld zur Verfügung gestellt.
 
 >[!IMPORTANT]
 >
 >Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter [Übersicht über die Versionsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2018.2 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Die Beta-Version 2018.2 enthält folgende Verbesserungen:
+Beta 1-Version 2018.2 umfasst die folgenden Erweiterungen:
 
 * [Ändern von Aufgabendaten im Gantt-Diagramm](#modify-task-dates-in-the-gantt-chart)
-* [Gantt-Diagramm des Projekts über die Registerkarte Aktualisierungen aufrufen](#access-the-project-gantt-chart-from-the-updates-tab) (vorübergehend entfernt)
+* [Greifen Sie auf das Projekt-Gantt-Diagramm über die Registerkarte &quot;Updates&quot;](#access-the-project-gantt-chart-from-the-updates-tab) zu (vorübergehend entfernt)
 
-* [Verschiedene Links Neu zu Dokumenten auf der Dokumentliste](#various-links-re-introduced-to-documents-on-the-document-list)
+* [Verschiedene Links, die zu Dokumenten auf der Dokumentliste neu eingeführt wurden](#various-links-re-introduced-to-documents-on-the-document-list)
 * [Verbesserungen der Benutzeransicht im Ressourcenplaner](#user-view-improvements-in-the-resource-planner)
-* [Neues Projekt-Listenerlebnis](#new-project-list-experience)
-* [Neue Registerkarte &quot;Suchen nach Updates&quot;](#new-look-for-updates-tab)
+* [Neues Projektelisten-Erlebnis](#new-project-list-experience)
+* [Registerkarte &quot;Neue Suche nach Updates&quot;](#new-look-for-updates-tab)
 * [Mobile Verbesserungen](#mobile-improvements)
 
 ## Ändern von Aufgabendaten im Gantt-Diagramm {#modify-task-dates-in-the-gantt-chart}
@@ -41,7 +41,7 @@ Sie können nun die Aufgabenblase ziehen, um die geplanten Start- und geplanten 
 
 Vor dieser Änderung konnten Sie Aufgabendaten nur in der Aufgabenliste oder auf Aufgabenebene ändern.
 
-Weitere Informationen finden Sie unter [Aktualisieren von Informationen in der Aufgabenliste Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Weitere Informationen finden Sie unter [Informationen in der Aufgabenliste aktualisieren Gantt Chart](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Gantt-Diagramm des Projekts über die Registerkarte Aktualisierungen aufrufen {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -53,7 +53,7 @@ Sie können nun über den Tab Updates auf das neue Projekt-Gantt-Diagramm zugrei
 
 Vor dieser Änderung wurde über den Link Projekt-Timeline das Legacy-Gantt-Diagramm geöffnet.
 
-Weitere Informationen finden Sie unter [Datum bestätigen - Übersicht](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Weitere Informationen finden Sie unter [Übersicht über das Veröffentlichungsdatum](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 Weitere Informationen finden Sie unter [Übersicht über Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
@@ -95,7 +95,7 @@ Die folgende Funktion wurde im Ressourcen-Planer vorübergehend deaktiviert:
 
 Vor diesen Verbesserungen haben Sie berichtet, dass der Ressourcen-Planer langsam geladen wurde und dass Sie Unstimmigkeiten in den angezeigten Daten bemerkt haben. Mit diesen Verbesserungen sollten diese nun beseitigt werden.
 
-Weitere Informationen zu den Bereichen des Ressourcen-Planers finden Sie unter [Navigationsübersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Weitere Informationen zu den Bereichen des Ressourcen-Planers finden Sie unter [Navigationsübersicht für den Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a></p>
@@ -119,10 +119,10 @@ Die meisten Änderungen betreffen die Geschwindigkeit und Effizienz der Liste. A
 
 Die folgenden Funktionen wurden in den angegebenen Projektlisten vorübergehend deaktiviert:
 
-* Größenanpassung der Spalten (Diese Funktion wurde in Version 2018.2 Beta 5 neu eingeführt)
+* Größenanpassung der Spalten (Diese Funktion wurde in Version 2018.2 von Beta 5 neu eingeführt)
 * Neuanordnen von Spalten
-* Felder mit Statussymbolen werden als leer angezeigt (diese Funktion wurde in der Beta-Version 2018.2 neu eingeführt)
-* Auf das Gantt-Diagramm kann nicht zugegriffen werden (diese Funktion wurde in Version 2018.2 Beta 3 neu eingeführt.)
+* Felder mit Statussymbolen werden als leer angezeigt (diese Funktion wurde in Beta 5-Version 2018.2 erneut eingeführt)
+* Auf das Gantt-Diagramm kann nicht zugegriffen werden (diese Funktion wurde in Beta 3-Version 2018.2 neu eingeführt).
 
 Weitere Informationen zum Arbeiten in Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -146,7 +146,7 @@ Die folgende Tabelle zeigt die Aktualisierungen, die am Tab Updates vorgenommen 
    <th> <p><strong>Aufgabe</strong> </p> </th> 
    <th> <p><strong>Vorherige Benutzeraktion</strong> </p> </th> 
    <th> <p><strong>Neue Benutzeraktion</strong> </p> </th> 
-   <th> <p><strong>Weitere Informationen finden Sie unter ...</strong> </p> </th> 
+   <th> <p><strong>Weitere Informationen finden Sie unter..</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -154,43 +154,43 @@ Die folgende Tabelle zeigt die Aktualisierungen, die am Tab Updates vorgenommen 
    <td> <p>Protokollierungszeit auf einem Timesheet</p> </td> 
    <td> <p>Klicken Sie auf den Link Protokollzeit .</p> </td> 
    <td> <p>Klicken Sie auf die Schaltfläche Protokollzeit .</p> </td> 
-   <td> <p><a href="../../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Protokollzeit</a> </p> </td> 
+   <td> <p><a href="../../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Erfassen der Zeit</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Systemaktualisierungen auf der Registerkarte Updates filtern</p> </td> 
    <td> <p>Klicken Sie auf den Link Systemaktualisierungen filtern .</p> </td> 
    <td> <p>Deaktivieren Sie den Umschalter Aktivitätsprotokoll anzeigen .</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update der Arbeit</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update funktioniert</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Anzeigen von Systemaktualisierungen auf der Registerkarte Updates</p> </td> 
    <td> <p>Klicken Sie auf Alle Updates anzeigen</p> </td> 
    <td> <p>Aktivieren Sie den Umschalter Aktivitätsprotokoll anzeigen .</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update der Arbeit</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update funktioniert</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tagging anderer Benutzer bei Aktualisierungen oder Kommentaren</p> </td> 
    <td> <p>Klicken Sie auf das Symbol Andere in dieses Update einschließen .</p> </td> 
    <td> <p>Hinzufügen von Benutzern und Teams im Feld "Benachrichtigen"</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update der Arbeit</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update funktioniert</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Anzeigen eines Objekts nur für Benutzer in Ihrem Unternehmen zulassen</p> </td> 
    <td> <p>Klicken Sie auf das Sperrsymbol</p> </td> 
    <td> <p>Umschalten zwischen Privat und Unternehmen</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagging anderer Benutzer auf Updates</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Kennzeichnen anderer Benutzer auf Updates</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Anzeigen eines Objekts durch Benutzer außerhalb Ihres Unternehmens zulassen</p> </td> 
    <td> <p>Klicken Sie auf das Sperrsymbol</p> </td> 
    <td> <p>Deaktivieren Sie den Umschalter Privat in Unternehmen .</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagging anderer Benutzer auf Updates</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Kennzeichnen anderer Benutzer auf Updates</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Hinzufügen einer Antwort oder Aktualisierung zu einem Kommentar oder Aktualisieren</p> </td> 
    <td> <p>Klicken Sie auf die Schaltfläche Kommentar .</p> </td> 
    <td> <p>Klicken Sie auf die Schaltfläche Antwort oder Aktualisieren .</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update der Arbeit</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Aktualisierung des Aufgabenstatus</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Aktualisierungsbedingung für Aufgaben und Probleme</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">Hinzufügen von Dokumentaktualisierungen</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update funktioniert</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Aufgabenstatus aktualisieren</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Aktualisierungsbedingung für Aufgaben und Probleme</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">Hinzufügen eines Updates zu einem Dokument</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

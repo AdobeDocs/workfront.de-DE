@@ -20,7 +20,7 @@ ht-degree: 0%
 -->
 
 Sie können das Projekt so konfigurieren, dass die für das Projekt protokollierten Stunden vom Projekteigentümer genehmigt werden. Wenn Stunden auf diese Weise konfiguriert werden, müssen sie zunächst vom Projekteigentümer genehmigt werden, bevor sie für einen Abrechnungsdatensatz verwendet werden können.\
-Weitere Informationen zur Rechnungsstellung von Datensätzen finden Sie im Artikel [Rechnungsdatensätze erstellen](../../../manage-work/projects/project-finances/create-billing-records.md).
+Weitere Informationen zu Rechnungsdatensätzen finden Sie im Artikel [Erstellen von Rechnungsdatensätzen](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -48,11 +48,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
    <td> <p>Zugriff auf Projekte bearbeiten oder höher</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Projekt oder höher anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Projekt oder höher anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zusätzlicher Zugriff</td> 
@@ -61,7 +61,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
      <li>Sie sind der Projekteigentümer mit dem oben angegebenen Zugriff und Berechtigungen. In diesem Fall können Sie Folgendes tun, wenn eine der folgenden Bedingungen erfüllt ist: 
       <ul>
        <li>Wenn Sie über Verwaltungsberechtigungen für das Projekt verfügen, können Sie Stunden genehmigen oder ablehnen, die von einem anderen Benutzer im Projekt protokolliert wurden.</li>
-       <li> Wenn Sie über den Zugriff auf das Projekt Contribute oder View verfügen, können Sie nur die Stunden genehmigen oder ablehnen, die von Ihnen oder einem anderen Benutzer protokolliert wurden, der Sie meldet.<br></li>
+       <li> Wenn Sie über Contribute- oder Projektzugriff verfügen, können Sie nur die von Ihnen oder einem anderen Benutzer, der Sie meldet, protokollierten Stunden genehmigen oder ablehnen.<br></li>
       </ul></li> 
      <li>Sie haben eine Planungslizenz mit Administratorzugriff auf Timesheets &amp; Hours. In diesem Fall:
       <ul>
@@ -79,10 +79,10 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So fordern Sie die Genehmigung des Projektmanagers für Stunden am Projekt an:
 
 1. Rufen Sie das Projekt auf, für das Sie eine stundenlange Genehmigung benötigen möchten.
-1. Klicken Sie auf **Mehr** icon ![](assets/more-icon.png) rechts neben dem Projektnamen klicken Sie auf **Bearbeiten**.\
+1. Klicken Sie auf das Symbol **Mehr** ![](assets/more-icon.png) rechts neben dem Projektnamen und dann auf **Bearbeiten**.\
    Das Dialogfeld Projekt bearbeiten wird angezeigt.
 
-1. Im **Projekteinstellungen** Bereich, wählen Sie **Genehmigung für dieses Projekt erforderlich**.
+1. Wählen Sie im Abschnitt **Projekteinstellungen** die Option **Genehmigung der Zeit für dieses Projekt erforderlich**.
 1. Klicken Sie auf **Speichern**.\
    Wenn jetzt Zeit protokolliert und genehmigt wird, werden diese Stunden gesperrt und können nicht von dem Benutzer geändert werden, der sie in das Projekt oder das Timesheet eingegeben hat. Nur ein Workfront-Administrator kann die aufgezeichnete Zeit anpassen.
 
@@ -92,20 +92,20 @@ Als Projektmanager können Sie Stunden genehmigen oder ablehnen, die für Aufgab
 
 Die Genehmigung der Stunden auf Projektebene hat keine Auswirkungen auf das Zeitblatt der Benutzer, die die Stunden protokolliert haben. Beispielsweise können die Stunden im Projekt vom Projektmanager genehmigt werden, aber das Timesheet muss noch vom Manager des Benutzers oder vom Timesheet-Genehmiger genehmigt werden. 
 
-Wenn Sie ein Projekt so einrichten, dass eine Genehmigung zu den protokollierten Stunden erforderlich ist, muss der Projektmanager die Stunden validieren, damit sie in einem Abrechnungsdatensatz für das Projekt enthalten sein können. Weitere Informationen zum Erstellen von Rechnungsdatensätzen finden Sie im Artikel [Rechnungsdatensätze erstellen](../../../manage-work/projects/project-finances/create-billing-records.md).
+Wenn Sie ein Projekt so einrichten, dass eine Genehmigung zu den protokollierten Stunden erforderlich ist, muss der Projektmanager die Stunden validieren, damit sie in einem Abrechnungsdatensatz für das Projekt enthalten sein können. Weitere Informationen zum Erstellen von Rechnungsdatensätzen finden Sie im Artikel [Erstellen von Rechnungsdatensätzen](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-So genehmigen Sie Stunden für ein Projekt oder lehnen diese ab:
+So genehmigen oder ablehnen Sie Stunden für ein Projekt:
 
 1. Wechseln Sie zum Projekt.
-1. Klicken Sie auf **Stunden** Bereich im linken Bereich. Dies kann sich unter der **Mehr anzeigen** Bereich.
+1. Klicken Sie im linken Bereich auf den Bereich **Stunden** . Dies kann sich unter dem Bereich **Mehr anzeigen** befinden.
 
-1. Die Stunden, die für Probleme, Aufgaben und die Projektanzeige protokolliert werden, sollten den Status **Gesendet**.\
+1. Die Stunden, die für Probleme, Aufgaben und die Projektanzeige protokolliert werden, sollten den Status &quot;**Gesendet**&quot;haben.\
    Klicken Sie links neben den Stundeneinträgen auf das Kästchen, um die Stunden auszuwählen, die genehmigt werden sollen.
 
-1. Klicken **Genehmigen**.\
+1. Klicken Sie auf **Genehmigen**.\
    Der Status der Stunden ändert sich in **Genehmigt**.\
    Wenn Sie die genehmigten Stunden später ablehnen, ändert sich der Status der Stunden in **Nicht genehmigt**.\
-   Wenn Sie die genehmigten Stunden in einen Rechnungsdatensatz aufnehmen, ändert sich der Status der Stunden in **Abgerechnet und genehmigt**. Stunden, die zu einem Rechnungsdatensatz hinzugefügt wurden, können nicht gelöscht werden. Weitere Informationen zum Erstellen von Rechnungsdatensätzen finden Sie im Artikel [Rechnungsdatensätze erstellen](../../../manage-work/projects/project-finances/create-billing-records.md)
+   Wenn Sie die genehmigten Stunden in einen Rechnungsdatensatz aufnehmen, ändert sich der Status der Stunden in **Abgerechnet und Genehmigt**. Stunden, die zu einem Rechnungsdatensatz hinzugefügt wurden, können nicht gelöscht werden. Weitere Informationen zum Erstellen von Rechnungsdatensätzen finden Sie im Artikel [Erstellen von Rechnungsdatensätzen](../../../manage-work/projects/project-finances/create-billing-records.md) .
 
 1. (Optional) Klicken Sie auf **Ablehnen** , um die Zeiteinträge im Projekt abzulehnen.\
-   Der Status der Stunden ändert sich in **Zurückgewiesen**.
+   Der Status der Stunden ändert sich in **Abgelehnt**.

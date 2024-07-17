@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta 4"(Version 2018.3)
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 30. August 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Beta-Version 2018.3
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 30. August 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta 4&quot;(Version 2018.3)
+# Beta-Version 2018.3
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 30. August 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 30. August 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
 
-Eine Liste aller Änderungen, die 2018.3 vorgenommen wurden, finden Sie unter  [Übersicht über die Release-Aktivitäten 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.3 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-Die Beta-Version 2018.3 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Version 2018.3 von Beta 4 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren**
 
-* [Berichtsstruktur im Benutzerprofil als Gruppenadministrator aktualisieren](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
+* [Aktualisieren der Berichtsstruktur im Benutzerprofil als Gruppenadministrator](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
 **Für alle Benutzer**
 
-* [Weitere Informationen aus dem Ressourcenplaner exportieren](#export-more-information-from-the-resource-planner)
-* [Verbesserungen der Aufgabenliste](#task-list-improvements) Aus Version entfernt
+* [Exportieren weiterer Informationen aus dem Ressourcenplaner](#export-more-information-from-the-resource-planner)
+* [Verbesserungen der Aufgabenliste](#task-list-improvements) aus der Veröffentlichung entfernt
 * [Verbesserungen der Projektliste](#project-list-improvements)
-* [Bearbeiten der Aufgabenliste im Bearbeitungsmodus für Gantt-Diagramme](#editing-the-task-list-in-gantt-chart-edit-mode) Aus Version entfernt
+* [Bearbeiten der Aufgabenliste im Bearbeitungsmodus für Gantt-Diagramme](#editing-the-task-list-in-gantt-chart-edit-mode) Aus der Veröffentlichung entfernt
 * [Farben des Messwerkzeugs](#measurement-tool-colors)
-* [Testsendungen auf einer neuen Registerkarte geöffnet](#proofs-open-in-a-new-tab)  Aus Version entfernt
+* [Testsendungen in einer neuen Registerkarte öffnen](#proofs-open-in-a-new-tab) Aus der Veröffentlichung entfernt
 
 * [Verbesserungen der Druckzusammenfassung](#print-summary-enhancements)
 * [Login Time in Days in der mobilen Workfront-App](#log-time-in-days-in-the-workfront-mobile-app)
@@ -52,7 +52,7 @@ Sie können jetzt Informationen aus bis zu 52 Wochen, 36 Monaten oder 12 Quartal
 
 Bisher konnten Sie nur maximal vier Wochen, Monate oder Quartale gleichzeitig exportieren.
 
-Weitere Informationen finden Sie unter [Exportieren von Informationen aus dem Ressourcenplaner](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Weitere Informationen finden Sie unter [Informationen aus dem Ressourcenplaner exportieren](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Verbesserungen der Aufgabenliste {#task-list-improvements}
 
@@ -82,7 +82,7 @@ Die folgende Funktion wurde in Aufgabenlisten geändert:
 
 Weitere Informationen zum Arbeiten in Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Weitere Informationen zum Verketten von Aufgaben in der Gantt-Grafik finden Sie unter [Erstellen von Vorgängerbeziehungen durch Verketten von Aufgaben](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+Weitere Informationen zum Verketten von Aufgaben im Gantt-Diagramm finden Sie unter [Erstellen von Vorgängerbeziehungen durch Verketten von Aufgaben](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
 
 ## Verbesserungen der Projektliste {#project-list-improvements}
 
@@ -112,7 +112,7 @@ Obwohl Sie sehen können, wie sich Ihre Änderungen auf die Timeline des Projekt
 
 Bisher konnten Sie diese Aktionen nicht für Aufgaben ausführen, wenn sie im Bearbeitungsmodus des Gantt-Diagramms angezeigt wurden. Sie könnten diese Änderungen in einer Aufgabenliste vornehmen, die nicht im Gantt-Diagramm angezeigt wurde, aber unmittelbar erfolgte.
 
-Informationen zu Bearbeitungsaufgaben im Gantt-Diagramm finden Sie unter [Aktualisieren von Informationen in der Aufgabenliste Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Informationen zum Bearbeiten von Aufgaben im Gantt-Diagramm finden Sie unter [Informationen in der Aufgabenliste aktualisieren Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Farben des Messwerkzeugs {#measurement-tool-colors}
 
@@ -128,9 +128,9 @@ Zuvor wurde das Messwerkzeug nur blau angezeigt, was es schwierig machte, den In
 >
 >* Diese Funktion wurde aus der Vorschau-Umgebung entfernt und wird in der Version 2018.3 nicht enthalten sein.
 
-Wenn Sie einen Testversand an einer beliebigen Stelle in Workfront oder Workfront Testversand öffnen, wird der Testversand-Viewer jetzt in einer neuen Browser-Registerkarte gestartet und der Fokus wechselt zu dieser Registerkarte. Sie können in mehreren Browser-Registerkarten arbeiten, Testsendungen überprüfen und Ihre Arbeit an Projekten, Aufgaben und Problemen in Workfront oder Workfront Testversand fortsetzen.
+Wenn Sie einen Testversand an einer beliebigen Stelle in Workfront oder Workfront Proof öffnen, wird der Testversand-Viewer jetzt in einer neuen Browser-Registerkarte gestartet und der Fokus wechselt zu dieser Registerkarte. Sie können in mehreren Browser-Registerkarten arbeiten, Testsendungen überprüfen und Ihre Arbeit an Projekten, Aufgaben und Problemen in Workfront oder Workfront Proof fortsetzen.
 
-Zuvor wurde der Testversand-Viewer in einem Frame auf der aktuellen Registerkarte des Workfront- oder Workfront-Testbrowsers gestartet, wodurch der Zugriff auf diese Registerkarte erst möglich war, nachdem Sie den Testversand-Viewer geschlossen haben.
+Zuvor wurde der Testversand-Viewer in einem Frame auf der aktuellen Registerkarte des Workfront- oder Workfront Proof-Browsers gestartet, wodurch der Zugriff auf diese Registerkarte erst möglich war, nachdem Sie den Testversand-Viewer geschlossen haben.
 
 Weitere Informationen finden Sie unter .
 
@@ -150,7 +150,7 @@ Die folgenden Verbesserungen sind jetzt auf der Seite mit der Druckzusammenfassu
 
   Zuvor waren keine Bühnen enthalten.
 
-Weitere Informationen finden Sie unter [Testversandzusammenfassung in Adobe Workfront drucken](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Weitere Informationen finden Sie unter [Drucken einer Testversand-Zusammenfassung in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ## Login Time in Days in der mobilen Workfront-App {#log-time-in-days-in-the-workfront-mobile-app}
 
@@ -160,4 +160,4 @@ Zuvor konnten Sie die Zeit nur mit Stunden in der App protokollieren, selbst wen
 
 Weitere Informationen zur Protokollierungszeit in der App finden Sie unter . 
 
-Diese Funktion steht sofort zum Testen mit der Android-Beta-App zur Verfügung. 
+Diese Funktion steht sofort zum Testen mit der Android Beta-App zur Verfügung. 

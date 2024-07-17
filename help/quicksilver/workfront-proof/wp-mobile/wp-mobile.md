@@ -1,11 +1,12 @@
 ---
-title: Workfront-Testversion für Mobilgeräte
+title: Workfront Proof Mobile
 description: Erfahren Sie mehr über Workfront Proof Mobile.
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 5f2280d0-8a4d-4daa-b5d9-ce347d2892ed
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

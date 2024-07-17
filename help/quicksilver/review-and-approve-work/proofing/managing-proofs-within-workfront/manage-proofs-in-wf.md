@@ -20,8 +20,8 @@ ht-degree: 0%
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Testsendungen verwalten](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
-* [Verwalten von Testversionen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
-* [Testversand-Validierungsverantwortliche verwalten](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+* [Verwalten von Testversandversionen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+* [Verwalten von Testversand-Validierungsverantwortlichen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
 * [Verwalten von Testversandbenachrichtigungen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
-* [Verwalten von Testversandfristen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+* [Verwalten von Testversand-Terminen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
 * [Verwalten automatisierter Testsendungen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)

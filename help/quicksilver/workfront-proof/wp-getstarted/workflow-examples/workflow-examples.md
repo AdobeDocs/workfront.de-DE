@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: basics-workfront-proof
 title: Workflow-Beispiele
-description: Siehe Workflow-Beispiele in Workfront Testversand.
+description: Siehe Workflow-Beispiele in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Grundlegender Testprozess in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-* [Interne und dann externe Überprüfung in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+* [Interner und dann externer Review in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
 * [Arbeiten mit Designern und Projektmanagern in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
 * [Arbeiten mit Freiberuflern in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)

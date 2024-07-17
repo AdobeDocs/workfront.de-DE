@@ -17,14 +17,13 @@ ht-degree: 4%
 
 # Erstellen eines Teams im Bereich &quot;Einrichtung&quot;
 
-Als Adobe Workfront-Administrator können Sie im Bereich &quot;Einrichtung&quot;ein Team erstellen. Weitere Informationen zu Teams finden Sie unter [Teams - Übersicht](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+Als Adobe Workfront-Administrator können Sie im Bereich &quot;Einrichtung&quot;ein Team erstellen. Weitere Informationen zu Teams finden Sie unter [Übersicht über Teams](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 >[!NOTE]
 >
 >* Ein Gruppenadministrator kann ein Team für eine Gruppe erstellen, die er verwaltet, und zwar über den Bereich Einrichtung . Weitere Informationen finden Sie unter [Erstellen und Ändern von Teams einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
 >* Ein Benutzer mit einer Planungslizenz kann auch ein Team aus dem Bereich Personen erstellen. Weitere Informationen finden Sie unter [Team erstellen](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 >
-
 
 ## Zugriffsanforderungen
 
@@ -36,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -44,18 +43,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Team erstellen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken **Teams** Klicken Sie auf **Neues Team**.
+1. Klicken Sie auf **Teams** und dann auf **Neues Team**.
 
-1. Im **Neues Team** die folgenden Informationen angeben:
+1. Geben Sie im angezeigten Feld **Neues Team** die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -67,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Gruppe</td> 
-      <td> <p>Wenn Sie das Team mit einer Gruppe verknüpfen möchten, geben Sie den Namen der Gruppe ein und wählen Sie den Namen aus, wenn er angezeigt wird.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber halten und auf das Informationssymbol klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p><b>NOTE</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil Switches klicken <img src="assets/switch-team-icon.png" alt="Symbol "Team wechseln""> , um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> </td> 
+      <td> <p>Wenn Sie das Team mit einer Gruppe verknüpfen möchten, geben Sie den Namen der Gruppe ein und wählen Sie den Namen aus, wenn er angezeigt wird.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol "<img src="assets/info-icon.png">" klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p><b>HINWEIS</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil "Switch Teams"<img src="assets/switch-team-icon.png" alt="Symbol &quot;Team wechseln&quot;"> klicken, um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Team-Mitglieder</td> 
@@ -91,15 +90,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Schaltfläche „Fertig“</td> 
-      <td>Wählen Sie den Status aus, den Sie für Elemente festlegen möchten, wenn auf die Schaltfläche Fertig geklickt wird.</td> 
+      <td>Wählen Sie den Status aus, den Sie für Elemente festlegen möchten, wenn Sie auf die Schaltfläche Fertig klicken.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **Team erstellen**.
+1. Klicken Sie auf **Team erstellen**.
 
 ## Team-Eigentümer
 
 Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teameigentümer.
 
-Sie können die Teameigentümer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen und das Feld &quot;Eigentümername&quot;in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Sie können die Teameigentümer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen und das Feld &quot;Eigentümername&quot;in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)

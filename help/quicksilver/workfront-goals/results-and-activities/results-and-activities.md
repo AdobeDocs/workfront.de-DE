@@ -26,7 +26,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -41,7 +41,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
 * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
+* [Ergebnisse zu Zielen in Adobe Workfront-Zielen hinzufügen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
 * [Ergebnisse und Aktivitäten in Adobe Workfront-Zielen bearbeiten](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 * [Entfernen von Ergebnissen, Aktivitäten und Projekten aus Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)

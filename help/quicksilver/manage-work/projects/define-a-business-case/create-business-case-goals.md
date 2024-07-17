@@ -22,18 +22,18 @@ Als Teil der Erstellung eines Geschäftsfalls können Sie eine Reihe von Zielen 
 
 >[!TIP]
 >
->Sie können strategische Ziele für Ihre Organisation erstellen, die nicht mit dem individuellen Geschäftsszenario eines Projekts verbunden sind. Sie müssen Zugriff auf Adobe Workfront-Ziele haben, um strategische Ziele erreichen zu können. Sie können sie dann mit Projekten außerhalb ihrer Geschäftsfälle verbinden. Informationen zum Erstellen von Zielen mithilfe von Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>Sie können strategische Ziele für Ihre Organisation erstellen, die nicht mit dem individuellen Geschäftsszenario eines Projekts verbunden sind. Sie müssen Zugriff auf Adobe Workfront-Ziele haben, um strategische Ziele erreichen zu können. Sie können sie dann mit Projekten außerhalb ihrer Geschäftsfälle verbinden. Informationen zum Erstellen von Zielen mit Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Beachten Sie beim Erstellen von Geschäftsfallzielen für Ihre Projekte Folgendes:
 
 * Geschäftsfallziele sind projektspezifisch. Sie können Ziele nicht von einem Projekt in ein anderes kopieren und auch keine Ziele auf Systemebene festlegen. Sie müssen auf der Ebene jedes Projekts definiert werden.
-* Ihr Adobe Workfront-Administrator oder Gruppenadministrator muss den Abschnitt Ziele für Ihre Projekte aktivieren, bevor er im Geschäftsszenario Ihrer Projekte angezeigt wird. Informationen zum Aktivieren von Geschäftsfallfeldern für Projekte finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Ihr Adobe Workfront-Administrator oder Gruppenadministrator muss den Abschnitt Ziele für Ihre Projekte aktivieren, bevor er im Geschäftsszenario Ihrer Projekte angezeigt wird. Informationen zum Aktivieren von Geschäftsfallfeldern für Projekte finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Ziele sind im Geschäftsfall eines Projekts kein obligatorischer Abschnitt.
 
   Ein Portfolio kann eine Punktzahl erhalten, die in  Optimizer priorisiert werden soll, selbst wenn der Abschnitt Ziele des Geschäftsfalls nicht definiert ist.
 
-  Weitere Informationen zum Portfolio Optimizer-Ergebnis finden Sie unter [Anwenden einer Scorecard auf ein Projekt und Generieren einer Alignment-Bewertung](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Weitere Informationen zum Portfolio Optimizer-Ergebnis finden Sie unter [Anwenden einer Scorecard auf ein  und Generieren einer Alignment-Bewertung](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Sie können keine Berichte zu Geschäftsfallzielen erstellen.
 
@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Projekt verwalten oder höher</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Projekt verwalten oder höher</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,16 +71,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Hinzufügen eines Ziels zum Geschäftsfall eines Projekts
 
 1. Gehen Sie zu einem Projekt, für das Sie Geschäftsfallziele definieren möchten.
-1. Klicks **Geschäftsszenario im linken Bereich.**
+1. Klicken Sie im linken Bereich auf **Geschäftsszenario.**
 
    Der Geschäftsfall wird angezeigt.
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. Im **Ziele** Abschnitt, klicken Sie auf **Ziele bearbeiten**.
+1. Klicken Sie im Abschnitt **Ziele** auf **Ziele bearbeiten**.
 
 1. Geben Sie Ihre Ziele an.
-Im **Wichtigkeit** aus dem Dropdown-Menü die Wichtigkeitsstufe auswählen:
+Wählen Sie im Dropdownmenü **Wichtigkeit** die Wichtigkeitsstufe aus:
 
    * Maximal
    * Hoch
@@ -92,5 +92,5 @@ Im **Wichtigkeit** aus dem Dropdown-Menü die Wichtigkeitsstufe auswählen:
 
      Sie können die Wichtigkeitsstufen von Zielen nicht anpassen.
 
-1. (Optional) Um ein weiteres Ziel hinzuzufügen, klicken Sie auf **Neues Ziel hinzufügen** und wiederholen Sie Schritt 5 und Schritt 6.
-1. Klicks **Speichern**.
+1. (Optional) Um ein weiteres Ziel hinzuzufügen, klicken Sie auf **Neues Ziel hinzufügen** und wiederholen Sie Schritt 5 und Schritt 6.
+1. Klicken Sie auf **Speichern**.

@@ -15,10 +15,10 @@ ht-degree: 0%
 
 # Iterationen - Übersicht
 
-Agile Iterationen bestehen aus drei Bereichen: Fertigstellungsstatus, Niederschlag und die Story Board.
+Agile Iterationen bestehen aus drei Bereichen: Abschlussstatus, Burndown und die Story Board.
 
 ![](assets/agile-iteration-with-callouts.png)
 
-Weitere Informationen zur Aufschlüsselungsgrafik und zum Abschlussstatus finden Sie in der [[!UICONTROL Niederschlag]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md) Abschnitt.
+Weitere Informationen zum Burndown-Diagramm und zum Abschlussstatus finden Sie im Abschnitt [[!UICONTROL Burndown]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md) .
 
-Weitere Informationen zum Storyboard finden Sie unter [[!UICONTROL Scrum] Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) Abschnitt.
+Weitere Informationen zum Story-Forum finden Sie im Abschnitt [[!UICONTROL Scrum] board](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) .

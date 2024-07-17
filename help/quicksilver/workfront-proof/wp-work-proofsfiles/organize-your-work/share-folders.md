@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Ordner freigeben in [!DNL Workfront Proof]
-description: Sie können einen Ordner für Benutzer und ganze Unternehmen freigeben, die [!DNL Workfront Proof] Konten (nicht bei Gästen).
+title: Ordner in  [!DNL Workfront Proof] freigeben
+description: Sie können einen Ordner für Benutzer und ganze Unternehmen mit [!DNL Workfront Proof] Konten (nicht für Gäste) freigeben.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 57f846a1-f315-42c1-911a-cfbc8b4879ba
@@ -14,36 +14,36 @@ ht-degree: 0%
 
 ---
 
-# Ordner freigeben in [!DNL Workfront Proof]
+# Ordner in [!DNL Workfront Proof] freigeben
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
-Sie können einen Ordner für Benutzer und ganze Unternehmen freigeben, die [!DNL Workfront Proof] Konten (nicht bei Gästen).
+Sie können einen Ordner für Benutzer und ganze Unternehmen mit [!DNL Workfront Proof] -Konten freigeben (nicht für Gäste).
 
 Wenn Sie einen ganzen Ordner freigeben:
 
-* Sie können keine Rollen für die Personen festlegen, für die Sie den Ordner freigeben (Rollen und E-Mail-Warnungen gelten nur für Empfänger, wenn einzelne Testsendungen freigegeben werden).
+* Sie können keine Rollen für die Personen festlegen, für die Sie den Ordner freigeben (Rollen und E-Mail-Warnungen gelten nur für Empfänger, wenn Sie einzelne Testsendungen freigeben).
 * Die Empfänger haben schreibgeschützten Zugriff auf alle Elemente im Ordner (vorhandene und anschließend hinzugefügte Elemente).
 * Die Empfänger erhalten eine E-Mail mit einer persönlichen URL zum Ordner.
 * Die Empfänger erhalten keine E-Mail-Benachrichtigungen, wenn dem Ordner neue Elemente hinzugefügt werden.
-* Die Empfänger können die Originaldateien für die Elemente des Ordners herunterladen (bitte beachten Sie, dass jeder Testversand die [!UICONTROL Originaldatei herunterladen] aktiviert ist, damit der Empfänger die Originaldatei herunterladen kann).
+* Die Empfänger können die Originaldateien für die Elemente im Ordner herunterladen. (Bitte beachten Sie, dass bei jedem Testversand die Option [!UICONTROL Original-Datei herunterladen] aktiviert sein muss, damit der Empfänger die Originaldatei herunterladen kann.)
 * Eigentümer und Ersteller von Ordnern können den Ordner immer anzeigen und können nicht aus dem Ordner entfernt werden.
 * Wenn Sie einen privaten Ordner für einen Manager-Benutzer in Ihrem Konto freigeben, können Sie entscheiden, ob er Bearbeitungsrechte für den Ordner haben soll.
 
-Sie können auch Elemente innerhalb eines Ordners (und nicht des Ordners selbst) freigeben. Weitere Informationen finden Sie unter [Testversand freigeben in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) und [Freigeben von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
+Sie können auch Elemente innerhalb eines Ordners (und nicht des Ordners selbst) freigeben. Weitere Informationen finden Sie unter [Freigeben eines Testversands in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) und [Freigeben von Dateien in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
 
 ## Freigeben eines einzelnen Ordners
 
-1. Klicken Sie auf **[!UICONTROL Ordner]** in der linken Navigationsseitenleiste.
-1. Bewegen Sie den Mauszeiger über einen einzelnen Ordner, den Sie freigeben möchten, und klicken Sie auf **[!UICONTROL Mehr]** -Schaltfläche, die rechts neben dem Ordner angezeigt wird.
-1. Klicken **[!UICONTROL Ordner freigeben]**.
+1. Klicken Sie in der linken Navigationsseitenleiste auf die Registerkarte **[!UICONTROL Ordner]** .
+1. Bewegen Sie den Mauszeiger über einen Ordner, den Sie freigeben möchten, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Mehr]** , die rechts neben dem Ordner angezeigt wird.
+1. Klicken Sie auf **[!UICONTROL Ordner freigeben]**.
 1. Führen Sie auf der angezeigten Seite einen der folgenden Schritte aus:
 
    * Fügen Sie Benutzer zum Ordner hinzu, indem Sie die E-Mail-Adresse (1) eingeben.
-   * Wenn Sie einen privaten Ordner für einen Manager freigeben, können Sie entscheiden, ob diese Ordner Ordnerelemente erstellen, bearbeiten und löschen können sollen, indem Sie auf eine Option unter **[!UICONTROL Im Ordner zulassen]**.
-   * Wenn Sie Ihre Meinung ändern, können Sie einen Benutzer entfernen, indem Sie den Mauszeiger über die E-Mail-Adresse der Person bewegen und auf **[!UICONTROL Person löschen]** (Papierkorbsymbol, das ganz rechts angezeigt wird). Sie können alle Personen entfernen, die Sie gerade hinzugefügt haben, indem Sie den Mauszeiger über ihre Namen bewegen und dann auf **[!UICONTROL Alle Personen entfernen]** (oberstes Papierkorbsymbol).
+   * Wenn Sie einen privaten Ordner für einen Manager freigeben, können Sie entscheiden, ob sie Ordnerelemente erstellen, bearbeiten und löschen können sollen, indem Sie unter **[!UICONTROL Auf Ordner zulassen]** auf eine Option klicken.
+   * Wenn Sie Ihre Meinung ändern, können Sie einen Benutzer entfernen, indem Sie den Mauszeiger über die E-Mail-Adresse der Person bewegen und auf **[!UICONTROL Person entfernen]** klicken (das Papierkorbsymbol, das ganz rechts angezeigt wird). Sie können alle Personen entfernen, die Sie gerade hinzugefügt haben, indem Sie den Mauszeiger über ihren Namen bewegen und dann auf **[!UICONTROL Alle Personen entfernen]** klicken (das oberste Papierkorbsymbol).
 
 1. Wenn Sie bereit sind, klicken Sie auf **[!UICONTROL Ordner freigeben]**.
 
@@ -51,30 +51,30 @@ Sie können auch Elemente innerhalb eines Ordners (und nicht des Ordners selbst)
 
 ## Freigeben mehrerer Ordner
 
-1. Klicken Sie auf **[!UICONTROL Ordner]** in der linken Navigationsseitenleiste.
+1. Klicken Sie in der linken Navigationsseitenleiste auf die Registerkarte **[!UICONTROL Ordner]** .
 1. Klicken Sie auf den Namen des Ordners, der die Ordner enthält, die Sie freigeben möchten.
 1. Klicken Sie in der Liste der Ordner, die rechts angezeigt wird, auf das Kontrollkästchen links neben jedem Ordner, den Sie freigeben möchten.\
    Oder\
    Aktivieren Sie das Kontrollkästchen über der Ordnerliste, um alle Ordner in der Liste auszuwählen.
 
-1. Klicken **[!UICONTROL Ausgewählte Elemente freigeben]**.\
+1. Klicken Sie auf **[!UICONTROL Ausgewählte Elemente freigeben]**.\
    ![Share_button-small.png](assets/share-button-small.png)
 
 1. Führen Sie auf der angezeigten Seite einen der folgenden Schritte aus:
 
    * Fügen Sie Benutzer zum Ordner hinzu, indem Sie die E-Mail-Adresse eingeben.
-   * Wenn Sie einen privaten Ordner für einen Manager freigeben, können Sie entscheiden, ob diese Ordner Ordnerelemente erstellen, bearbeiten und löschen können sollen, indem Sie auf eine Option unter **[!UICONTROL Im Ordner zulassen]**.
-   * Wenn Sie Ihre Meinung ändern, können Sie einen Benutzer entfernen, indem Sie den Mauszeiger über die E-Mail-Adresse der Person bewegen und auf **[!UICONTROL Person löschen]** (Papierkorbsymbol, das ganz rechts angezeigt wird). Sie können alle Personen entfernen, die Sie gerade hinzugefügt haben, indem Sie den Mauszeiger über ihre Namen bewegen und dann auf **[!UICONTROL Alle Personen entfernen]** (oberstes Papierkorbsymbol).
+   * Wenn Sie einen privaten Ordner für einen Manager freigeben, können Sie entscheiden, ob sie Ordnerelemente erstellen, bearbeiten und löschen können sollen, indem Sie unter **[!UICONTROL Auf Ordner zulassen]** auf eine Option klicken.
+   * Wenn Sie Ihre Meinung ändern, können Sie einen Benutzer entfernen, indem Sie den Mauszeiger über die E-Mail-Adresse der Person bewegen und auf **[!UICONTROL Person entfernen]** klicken (das Papierkorbsymbol, das ganz rechts angezeigt wird). Sie können alle Personen entfernen, die Sie gerade hinzugefügt haben, indem Sie den Mauszeiger über ihren Namen bewegen und dann auf **[!UICONTROL Alle Personen entfernen]** klicken (das oberste Papierkorbsymbol).
 
 1. Wenn Sie bereit sind, klicken Sie auf **[!UICONTROL Ordner freigeben]**.
 
 ## Zugreifen auf einen Ordner, der für Sie freigegeben wurde
 
-Wenn ein Benutzer einen Ordner für Sie freigegeben hat, wird er in der Seitenleiste seines [!DNL Workfront Proof] unter dem Namen des Ordnerinhabers. Sie erhalten eine E-Mail mit Ordnerdetails und einen persönlichen Link zum Ordner.
+Wenn ein Benutzer einen Ordner für Sie freigegeben hat, wird er in der Seitenleiste seines [!DNL Workfront Proof]-Kontos unter dem Namen des Ordnerinhabers angezeigt. Sie erhalten eine E-Mail mit Ordnerdetails und einen persönlichen Link zum Ordner.
 
 1. Klicken Sie auf den Link in der Benachrichtigungs-E-Mail, die Sie erhalten.
-1. Anmelden bei [!DNL Workfront Proof].\
-   [!DNL  Workfront Proof] zeigt die Seite Ordnerdetails an. Weitere Informationen finden Sie unter [Verwalten Sie Ordner und deren Inhalte in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+1. Melden Sie sich bei [!DNL Workfront Proof] an.\
+     [!DNL  Workfront Proof] zeigt die Seite &quot;Ordnerdetails&quot;an. Weitere Informationen finden Sie unter [Verwalten von Ordnern und deren Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Über die Freigabe von Unterordnern
 
@@ -84,7 +84,7 @@ Wenn ein privater übergeordneter Ordner für einen Manager freigegeben wird und
 
 ## Über für Sie freigegebene Unterordner
 
-Wenn ein Unterordner für eine Person freigegeben wurde, wird er in der Seitenleiste Ihres [!DNL Workfront Proof] unter dem Namen des Ordnerinhabers.
+Wenn ein Unterordner für eine Person freigegeben wurde, wird er in der Seitenleiste Ihres [!DNL Workfront Proof]-Kontos unter dem Namen des Ordnerinhabers angezeigt.
 
 Wenn der übergeordnete Ordner oder die darin enthaltenen Elemente bereits für dieselbe Person freigegeben wurden, wird der Unterordner automatisch unter dem übergeordneten Ordner in der Seitenleiste und auf der Detailseite des übergeordneten Ordners angezeigt.
 
@@ -97,4 +97,4 @@ Das Freigeben eines Ordners mit einem Partner bedeutet:
 * Alle Benutzer in dieser Organisation haben Lesezugriff auf den Ordner (und die Ordnerelemente).
 * Alle neuen Benutzer, die der Organisation hinzugefügt wurden, haben automatisch Lesezugriff auf den Ordner (und alle Elemente im Ordner).
 
-Siehe [Freigeben von Elementen für einen Partner in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md) für weitere Informationen.
+Weitere Informationen finden Sie unter [Freigeben von Elementen für einen Partner in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md) .

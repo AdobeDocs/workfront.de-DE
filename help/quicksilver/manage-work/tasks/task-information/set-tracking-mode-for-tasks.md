@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 2%
 
 ---
@@ -59,8 +59,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Abo</a>*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Plan</a>*</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>*</td> 
@@ -72,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für eine Aufgabe verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für eine Aufgabe verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,11 +84,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 So legen Sie den Tracking-Modus fest:
 
 1. Gehen Sie zu der Aufgabe, für die Sie den Tracking-Modus festlegen möchten.
-1. Klicken Sie auf **Mehr** icon ![](assets/qs-more-icon-on-an-object.png)neben dem Namen der Aufgabe klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf das Symbol **Mehr** ![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe und klicken Sie dann auf **Bearbeiten**.
 
    Das Dialogfeld Aufgabe bearbeiten wird geöffnet.
 
-1. Im **Einstellungen** -Abschnitt verwenden Sie die **Tracking-Modus** Dropdown-Menü, um den Tracking-Modus für die Aufgabe auszuwählen.
+1. Wählen Sie im Abschnitt **Einstellungen** im Dropdown-Menü **Tracking-Modus** den Tracking-Modus für die Aufgabe aus.
 
    ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 

@@ -15,10 +15,10 @@ ht-degree: 0%
 
 # Verwalten der Arbeit Ihres Teams
 
-Eine Liste der Elemente, an denen Ihr Team arbeitet, finden Sie im [!UICONTROL Team-Anforderungen] Abschnitt Ihres Teams.
+Eine Liste der Elemente, an denen Ihr Team arbeitet, finden Sie im Abschnitt [!UICONTROL Team-Anforderungen] Ihres Teams.
 
-Sie können nicht zugewiesene Elemente zuweisen, aktuelle Zuweisungen anpassen, aktuelle Zuordnungen anpassen und vieles mehr im [!UICONTROL Lastenausgleich] Abschnitt Ihres Teams.
+Sie können nicht zugewiesene Elemente zuweisen, aktuelle Zuweisungen anpassen, aktuelle Zuordnungen anpassen und vieles mehr im Abschnitt [!UICONTROL Lastenausgleich] Ihres Teams.
 
-Detaillierte Informationen zum Verwalten der Ihrem Team zugewiesenen Arbeit finden Sie unter [[!UICONTROL Lastenausgleich]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Ausführliche Informationen zum Verwalten der Ihrem Team zugewiesenen Arbeit finden Sie unter [[!UICONTROL Arbeitslastausgleich]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ![](assets/team-page-with-team-requests-and-balancer-sections-left.png)

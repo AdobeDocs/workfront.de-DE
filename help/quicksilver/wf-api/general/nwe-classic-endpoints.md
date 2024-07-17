@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         Example: View access or higher on Documents 
       </MadCap:conditionalText>
-     --></p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+     --></p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Bevor Sie beginnen, müssen Sie
 <p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong> <br>Use a bullet list to describe the prerequisites needed to complete the task or tasks below. If there are no prerequisites, delete the entire section. </p>
 -->
 
-* [Voraussetzungen auflisten]
+* [Voraussetzungen für die Auflisten von Elementen auflisten]
 
 ## [Aufgabentitel]
 

@@ -23,13 +23,13 @@ Ein Kalenderbericht ist ein dynamischer Bericht, der eine visuelle Darstellung I
 
 Lesen Sie die folgenden Artikel, um ein Verständnis der Kalenderberichte in Adobe Workfront zu erhalten:
 
-* [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
-* [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-* [Verwendung [!UICONTROL Geplante Datumswerte] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-* [Verwendung [!UICONTROL Vorgeschlagene Datumswerte] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+* [Übersicht über Kalenderberichte](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
+* [Verwenden Sie benutzerdefinierte Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+* [Verwenden von [!UICONTROL geplanten Datumswerten] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [Verwenden Sie [!UICONTROL prognostizierte Datumswerte] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Kalenderberichte und Ereignisdetails anzeigen](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
-* [Kalenderberichte freigeben](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+* [Kalenderbericht freigeben](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 * [Vorhandenen Kalenderbericht bearbeiten](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
-* [Kalenderberichte löschen](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
-* [Kalenderberichte kopieren](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
+* [Kalenderbericht löschen](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
+* [Kopieren eines Kalenderberichts](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
 * [Hinzufügen von Ad-hoc-Ereignissen zu einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)

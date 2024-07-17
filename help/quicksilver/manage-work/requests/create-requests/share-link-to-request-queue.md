@@ -7,7 +7,7 @@ feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '302'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -38,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,14 +47,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Link in eine Anforderungswarteschlange freigeben
 
-1. Senden Sie eine Anfrage wie in [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Senden Sie eine Anforderung wie in [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md) beschrieben.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Anforderungswarteschlange im Feld &quot;Anfragetyp&quot;auswählen
    * Anforderungswarteschlange und bis zu 10 Themengruppen auswählen
    * Wählen Sie eine Anforderungswarteschlange, eine Themengruppe und ein Warteschlangenthema aus
 
-1. Klicken Sie vor dem Senden der Anforderung auf **Freigabepfad** in der oberen rechten Ecke der Seite.
+1. Klicken Sie vor dem Senden der Anforderung oben rechts auf der Seite auf **Pfad freigeben** .
 
    Dadurch wird ein Link in die Anforderungswarteschlange, Themengruppe oder Warteschlangenthema kopiert, die Sie im vorherigen Schritt ausgewählt haben, in die Zwischenablage.
 
@@ -67,5 +67,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Freigeben des kopierten Links für andere
    * Einbetten in ein Dashboard als externe Seite
 
-      Informationen zum Einbetten einer Anforderungswarteschlange in ein Dashboard finden Sie unter [Einbetten einer Anforderungswarteschlange in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
+     Informationen zum Einbetten einer Anforderungswarteschlange in ein Dashboard finden Sie unter [Einbetten einer Anforderungswarteschlange in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
+
    Über den freigegebenen Link können andere Benutzer direkt zur Anforderungswarteschlange, Themengruppe oder Warteschlangenthema navigieren, die Sie ausgewählt haben. Sie können dies auch dann tun, wenn die Anfrage nicht gesendet und als Entwurf gespeichert wird.

@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
@@ -42,12 +42,12 @@ Der Fortschritt des Testversands gibt an, welche Arbeit an einem Testversand von
    <td> <p>Alle zugewiesenen Empfänger öffnen die Seite mit den Testversand- oder Testversanddetails .</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Stellungnahmen</strong> </p> </td> 
-   <td> <p>Alle zugewiesenen Empfänger geben mindestens einen Kommentar zum Testversand ab.</p> <p>Wenn dem Testversand keine Validierungsverantwortlichen zugewiesen sind, wird die <strong>C</strong> in der Fortschrittsleiste nicht angezeigt.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Kommentare, die abgegeben wurden</strong> </p> </td> 
+   <td> <p>Alle zugewiesenen Empfänger geben mindestens einen Kommentar zum Testversand ab.</p> <p>Wenn dem Testversand keine Validierungsverantwortlichen zugewiesen sind, wird das Symbol <strong>C</strong> nicht in der Fortschrittsleiste angezeigt.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Entscheidung</strong> </p> </td> 
-   <td> <p>Alle zugewiesenen Genehmiger treffen eine Entscheidung über den Testversand, alle zugewiesenen Genehmiger treffen eine Entscheidung über den Testversand, es sei denn, der Ersteller des Testversands gibt nur eine Entscheidung an.</p> <p>Wenn für den Testversand keine Genehmiger (Entscheidungsträger) bestimmt sind, wird die <strong>D</strong> in der Fortschrittsleiste nicht angezeigt. </p> </td> 
+   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Entscheidung getroffen</strong> </p> </td> 
+   <td> <p>Alle zugewiesenen Genehmiger entscheiden über den Testversand, alle zugewiesenen Genehmiger entscheiden über den Testversand, es sei denn, der Ersteller des Testversands gibt nur eine Entscheidung an.</p> <p>Wenn keine Genehmiger (Entscheidungsträger) für den Testversand bestimmt sind, wird das Symbol <strong>D</strong> nicht in der Fortschrittsleiste angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,9 +55,9 @@ Der Fortschritt des Testversands gibt an, welche Arbeit an einem Testversand von
 Die Fortschrittssymbole können in den folgenden Farben angezeigt werden, um bestimmte Informationen über den Fortschritt des Testversands anzuzeigen:
 
 * **Grün**: Abgeschlossen.
-* **weiß**: Nicht abgeschlossen.
-* **Orange**: Unvollständig und Abgabetermin ist weniger als 24 Stunden.
-* **Rot**: Nicht abgeschlossen und die Frist verstrichen.
+* **White**: Nicht abgeschlossen.
+* **Orange**: Unvollständig und Frist weniger als 24 Stunden.
+* **Rot**: Nicht abgeschlossen und die Frist wurde überschritten.
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -93,7 +93,7 @@ Die Fortschrittssymbole können in den folgenden Farben angezeigt werden, um bes
 
 ## Übersicht über den Teststatus
 
-Der Status des Testversands zeigt den Status der Entscheidungen an, die für den Testversand erforderlich sind. Der Status des Testversands wird durch den Teilnehmer &quot;Schlimmster Fall&quot; bestimmt. Angenommen, es gibt drei Entscheidungen zum Testversand: zwei haben den Status **Akzeptiert** und hat den Status **Zurückgewiesen**. Die Entscheidung des &quot;schlimmsten Falls&quot; **Zurückgewiesen** überregelt die anderen Entscheidungen und der Gesamtstatus des Testversands wird wie folgt angezeigt: **Zurückgewiesen**. 
+Der Status des Testversands zeigt den Status der Entscheidungen an, die für den Testversand erforderlich sind. Der Status des Testversands wird durch den Teilnehmer &quot;Schlimmster Fall&quot; bestimmt. Angenommen, es gibt drei Entscheidungen über den Testversand: zwei haben den Status **Akzeptiert** und eine hat den Status **Abgelehnt**. Die Entscheidung des Worst Case von **Abgelehnt** überschreibt die anderen Entscheidungen und den Gesamtstatus des Testversands als **Abgelehnt**. 
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 

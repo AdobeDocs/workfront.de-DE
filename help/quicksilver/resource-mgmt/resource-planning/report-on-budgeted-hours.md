@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Bericht zu Ressourcenplanern - Budgetierte Stunden
 
-Sie können Ressourcen für Ihre Projekte mithilfe des Resource Planers einplanen. Informationen zum Budgetieren Ihrer Ressourcen mit dem Adobe Workfront Resource Planer finden Sie im Artikel [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansicht](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Sie können Ressourcen für Ihre Projekte mithilfe des Resource Planers einplanen. Weitere Informationen zum Budgetieren Ihrer Ressourcen mit dem Adobe Workfront Resource Planer finden Sie im Artikel [Budget-Ressourcen im Resource Planer unter Verwendung der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 Die Budgetierung von Ressourcen bedeutet, dass Sie eine bestimmte Anzahl von Stunden definieren (oder das Budget definieren), die die Ressourcen für ein Projekt benötigen, um ihre Arbeit an dem Projekt abzuschließen. Um die im Ressourcenplaner erfassten Informationen zur geplanten Stunde für andere Benutzer freizugeben, die möglicherweise keinen Zugriff auf den Ressourcenplaner haben, können Sie einen Bericht zur budgetierten Stunde erstellen. Weitere Informationen finden Sie unter [Bericht: Budgetierte Stunde](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 

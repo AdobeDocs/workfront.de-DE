@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: "Häufig gestellte Fragen: Testversand innerhalb von Adobe Workfront - Migration zwischen den USA und der EMEA"
-description: Adobe Workfront kontaktiert direkt alle Organisationen, die von der Migration von Workfront Proof US zu EMEA betroffen sind.
+description: Adobe Workfront kontaktiert direkt alle von der Migration durch die Workfront Proof USA betroffenen Organisationen zur EMEA.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
@@ -18,12 +18,12 @@ ht-degree: 0%
 
 ## Woher weiß ich, ob diese Änderung meine Einrichtung betrifft? 
 
-Adobe Workfront kontaktiert direkt alle Organisationen, die von der Migration von Workfront Proof US zu EMEA betroffen sind.
+Adobe Workfront kontaktiert direkt alle von der Migration durch die Workfront Proof USA betroffenen Organisationen zur EMEA.
 
 ## Muss ich etwas tun, um mich auf die Migration vorzubereiten?
 
 Ja. Stellen Sie vor der Migration sicher, dass Sie der Zulassungsliste Ihres Unternehmens Folgendes hinzufügen:\
-**webcollect.proofhq.eu**
+**webCapture.proofhq.eu**
 
 ## Wie lange dauert die Migration meines Kontos?
 
@@ -33,7 +33,7 @@ Nach Abschluss der Kontomigration werden wir damit beginnen, alle Ihre Dateien v
 
 Nach Abschluss der Migration können Sie und Ihre Benutzer nur noch vom EMEA-Rechenzentrum auf Dateien und Testsendungen zugreifen. 
 
-## Was geschieht mit der URL, die ich verwende, um auf Workfront Proof zuzugreifen?
+## Was geschieht mit der URL, die ich für den Zugriff auf Workfront Proof verwende?
 
 Um die Migration zu ermöglichen, muss die URL, die Sie für den Zugriff auf das System verwenden, von proofhq.com in proofhq.eu geändert werden. Jeder, der nach der Migration die alte URL proofhq.com verwendet, erhält eine Nachricht mit dem neuen Anmelde-Link:
 

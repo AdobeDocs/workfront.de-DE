@@ -24,7 +24,7 @@ Der Projektinhaber ist die Person, die für den fristgerechten und budgetären A
 
 Der Projektsponsor ist ein wichtiger Akteur des Projekts, der über Ressourcen verfügt, die in das Projekt investiert wurden. Der Abschluss des Projekts kommt in der Regel dem Projektsponsor zugute.
 
-Informationen dazu, wie Sie den Projekteigentümer oder -sponsor für ein Projekt aktualisieren, finden Sie unter [Projekteigentümer und -sponsoren aktualisieren](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
+Informationen zum Aktualisieren des Projekteigentümers oder Sponsors für ein Projekt finden Sie unter [Aktualisieren der Projekteigentümer und Sponsoren](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
 
 ## Projektinhaber
 
@@ -36,7 +36,7 @@ Im Feld Projekteigentümer können folgende Elemente verwendet werden:
 
 * Sie können nur einen Benutzer als Projekteigentümer festlegen.
 * Sie können Projekteigentümer als Stundenvalidierer für das Projekt festlegen.
-* Sie können den Projekteigentümer beim Definieren von Projekt-, Aufgaben- oder Problemgenehmigungsprozessen als generischen Genehmiger festlegen. Informationen zu Genehmigungen finden Sie unter [Validierungsprozess bearbeiten](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* Sie können den Projekteigentümer beim Definieren von Projekt-, Aufgaben- oder Problemgenehmigungsprozessen als generischen Genehmiger festlegen. Weitere Informationen zu Genehmigungen finden Sie unter [Einen Genehmigungsprozess bearbeiten](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
   >[!IMPORTANT]
   >
@@ -46,7 +46,7 @@ Im Feld Projekteigentümer können folgende Elemente verwendet werden:
 
 * Sie können bestimmte Benachrichtigungen aktivieren, die nur an den Projekteigentümer gesendet werden.
 
-  Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie im Abschnitt . [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) im Artikel [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie im Abschnitt [Ereignisbenachrichtigungen für alle im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) im Artikel [Ereignisbenachrichtigungen für alle im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) .
 
 * Sie können das Feld &quot;Projektinhaber&quot;in einem Bericht oder einer Liste anzeigen.
 
@@ -58,7 +58,7 @@ Im Feld Projekteigentümer können folgende Elemente verwendet werden:
   ownerID=$$USER.ID
   ```
 
-Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -83,7 +83,7 @@ Beachten Sie bei der Zuweisung eines Projekt-Sponsors Folgendes:
 * Der Projektsponsor erhält keinen zusätzlichen Zugriff auf das Projekt, wird aber zu den E-Mail-Benachrichtigungen des Projekts hinzugefügt. Informationen zu Benachrichtigungen finden Sie im Artikel [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * Sie können nur einen Projektsponsor bestimmen.
-* Sie können den Projektsponsor als generischen Genehmiger festlegen, wenn Sie Projekt-, Aufgaben- oder Problemgenehmigungsprozesse definieren. Informationen zu Genehmigungen finden Sie unter [Validierungsprozess bearbeiten](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* Sie können den Projektsponsor als generischen Genehmiger festlegen, wenn Sie Projekt-, Aufgaben- oder Problemgenehmigungsprozesse definieren. Weitere Informationen zu Genehmigungen finden Sie unter [Einen Genehmigungsprozess bearbeiten](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
   >[!IMPORTANT]
   >
@@ -101,7 +101,7 @@ Beachten Sie bei der Zuweisung eines Projekt-Sponsors Folgendes:
 
    
 
-  Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

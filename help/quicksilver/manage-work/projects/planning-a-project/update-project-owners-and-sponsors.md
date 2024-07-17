@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Wenn Sie ein Projekt in Adobe Workfront erstellen, werden Sie automatisch als Projekteigentümer des Projekts festgelegt. Sie können dieses Feld mit einem anderen Benutzer aktualisieren. Sie können auch das Feld Projektsponsor eines Projekts aktualisieren.
 
-Weitere Informationen zu Projekteigentümern und Sponsoren finden Sie unter [Übersicht über Projekteigentümer und Projektsponsoren](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
+Weitere Informationen zu Projekteigentümern und Sponsoren finden Sie unter [Überblick über Projekteigentümer und Sponsoren](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
 >[!TIP]
 >
@@ -25,7 +25,7 @@ Weitere Informationen zu Projekteigentümern und Sponsoren finden Sie unter [Üb
 >
 >Wenn die Vorlage keinen Eigentümer hat, wird der Benutzer, der das Projekt aus der Vorlage erstellt, zum Projektinhaber.
 >
->Informationen zum Bearbeiten von Vorlagen finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Weitere Informationen zum Bearbeiten von Vorlagen finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Zugriffsanforderungen
 
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> <p>  </p> </td> 
+   <td> <p>Alle</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -82,7 +82,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für ein Projekt bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für ein Projekt bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,14 +94,14 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 Wenn Sie einen Benutzer als Projekteigentümer eines Projekts hinzufügen, gewährt Workfront ihm automatisch Berechtigungen zum Anzeigen des Projekts.
 
 1. Wechseln Sie zu dem Projekt, das Sie aktualisieren möchten.
-1. Klicks **Projektdetails** im linken Bereich.
-1. Klicken Sie auf **Bearbeiten** icon ![](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails klicken Sie auf  **Übersicht**.
+1. Klicken Sie im linken Bereich auf **Projektdetails** .
+1. Klicken Sie oben rechts im Bereich &quot;Projektdetails&quot;auf das Symbol **Bearbeiten** ![](assets/qs-edit-icon.png) und klicken Sie dann auf **Überblick**.
 
-1. Geben Sie den Namen eines Benutzers für die **Projektinhaber** -Feld.
+1. Geben Sie den Namen eines Benutzers für das Feld **Projekteigentümer** an.
 
    Nur aktive Benutzer können als Projekteigentümer angegeben werden.
 
-1. Klicks  **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
    Der Projekteigentümer wird im Projektheader und im Bereich Projektdetails aktualisiert.
 
@@ -116,14 +116,14 @@ Wenn Sie einen Benutzer als Projektsponsor eines Projekts hinzufügen, gewährt 
 >Wenn der Benutzer, den Sie als Projekt-Sponsor hinzufügen, ein Systemadministrator ist, wird er nicht zur Freigabeliste des Projekts hinzugefügt.
 
 1. Wechseln Sie zu dem Projekt, das Sie aktualisieren möchten.
-1. Klicks **Projektdetails** im linken Bereich.
-1. Klicken Sie auf **Bearbeiten** icon ![](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails klicken Sie auf  **Übersicht**.
+1. Klicken Sie im linken Bereich auf **Projektdetails** .
+1. Klicken Sie oben rechts im Bereich &quot;Projektdetails&quot;auf das Symbol **Bearbeiten** ![](assets/qs-edit-icon.png) und klicken Sie dann auf **Überblick**.
 
-1. Geben Sie den Namen eines Benutzers für die **Projektsponsor** -Feld.
+1. Geben Sie den Namen eines Benutzers für das Feld **Projektsponsor** an.
 
    Als Projektsponsoren können nur aktive Benutzer angegeben werden.
 
-1. Klicks  **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
    Der Projektsponsor aktualisiert den Bereich Projektdetails .
 

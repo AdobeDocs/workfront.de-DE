@@ -83,7 +83,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,15 +94,15 @@ Sie können bei der Definition der Vorgängerbeziehungen bei Aufgaben die Art de
 ### Anzeigen von Lag-Typen im Abschnitt &quot;Vorgänger&quot;einer Aufgabe {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Gehen Sie zu einer Aufgabe, für die Sie den Vorgänger und den Lag-Typ definieren möchten.
-1. Klicks **Vorgänger** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, und dann **Vorgänger**.
-1. Klicks **Vorgänger hinzufügen**.
-1. (Optional) Wenn Sie einen projektübergreifenden Vorgänger hinzufügen möchten, ersetzen Sie die **Übergeordnetes Projekt** mit einem anderen Projekt.
+1. Klicken Sie im linken Bereich auf **Vorgänger** . Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
+1. Klicken Sie auf **Vorgänger hinzufügen**.
+1. (Optional) Wenn Sie einen projektübergreifenden Vorgänger hinzufügen möchten, ersetzen Sie den Namen des **übergeordneten Projekts** durch einen anderen Projekt.
 1. Geben Sie den Namen der Vorgängeraufgabe ein und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
-1. Wählen Sie die **Abhängigkeitstyp**.
+1. Wählen Sie den **Abhängigkeitstyp** aus.
 
    Weitere Informationen zu Vorgängerabhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Geben Sie eine **Lag** Betrag unter Verwendung eines numerischen Werts. Sie können negative Zahlen angeben, um eine negative Verzögerung anzugeben.
+1. Geben Sie einen Betrag vom Typ **Lag** mithilfe eines numerischen Werts an. Sie können negative Zahlen angeben, um eine negative Verzögerung anzugeben.
 1. Wählen Sie aus den folgenden Optionen aus, um den Verzögerungstyp zu identifizieren, den Sie für Ihren Vorgänger angeben möchten:
 
    * **Tage**
@@ -111,15 +111,15 @@ Sie können bei der Definition der Vorgängerbeziehungen bei Aufgaben die Art de
    * **Wochentag**
    * **Wochentag (nicht null)**
 
-     Weitere Informationen zu diesen Lag-Typen und deren Berechnung finden Sie im Abschnitt . [Launch-Typen](#lag-types) in diesem Artikel.
+     Weitere Informationen zu diesen Lag-Typen und deren Berechnung finden Sie im Abschnitt [Lag-Typen](#lag-types) in diesem Artikel.
 
 1. Klicken Sie auf **Speichern**.
 
 ### Anzeigen von Lag-Typen in einer Aufgabenliste  {#indicate-lag-types-in-a-task-list}
 
-1. Wechseln Sie zu einer Aufgabenliste und wählen Sie die **Standard** anzeigen.
+1. Wechseln Sie zu einer Aufgabenliste und wählen Sie die Ansicht **Standard** aus.
 
-1. Klicken Sie in die **Vorgänger** -Spalte, die der Aufgabe entspricht, für die Sie einen Vorgänger und einen Latenzbetrag angeben möchten.
+1. Klicken Sie in die Spalte **Vorgänger** , die der Aufgabe entspricht, für die Sie einen Vorgänger und einen Verzögerungsbetrag angeben möchten.
 1. Geben Sie Folgendes ohne Leerzeichen ein:
 
    * die Nummer der Aufgabe, die als Vorgänger der ausgewählten Aufgabe angegeben werden soll
@@ -127,14 +127,14 @@ Sie können bei der Definition der Vorgängerbeziehungen bei Aufgaben die Art de
 
      Weitere Informationen zu den Abkürzungen für Abhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * entweder ein **+** für eine positive Verzögerung oder **-** für eine negative Verzögerung
+   * entweder eine **+** für eine positive Verzögerung oder eine **-** für eine negative Verzögerung
 
    * die Zeitspanne, in der die Verzögerung
    * die Abkürzung für den gewünschten Lag-Typ
 
-     Weitere Informationen zu den Abkürzungen für Lag-Typen finden Sie im Abschnitt . [Launch-Typen](#lag-types) in diesem Artikel.
+     Weitere Informationen zu den Abkürzungen für Lag-Typen finden Sie im Abschnitt [Lag-Typen](#lag-types) in diesem Artikel.
 
-   Um beispielsweise anzugeben, dass eine Aufgabe einen Vorgänger und eine positive Verzögerung von 2 Tagen hat, geben Sie `1fs+2d` in der Spalte &quot;Vorgänger&quot;.
+   Um beispielsweise anzugeben, dass eine Aufgabe einen Vorgänger und eine positive Verzögerung von 2 Tagen aufweist, geben Sie in die Spalte &quot;Vorgänger&quot;den Wert &quot;`1fs+2d`&quot;ein.
 
 1. Drücken Sie die Eingabetaste auf der Tastatur, um die Änderungen an der Aufgabe zu speichern.
 

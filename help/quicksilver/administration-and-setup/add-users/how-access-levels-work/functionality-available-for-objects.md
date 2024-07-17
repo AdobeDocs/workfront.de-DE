@@ -61,7 +61,7 @@ Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zug
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Aufgaben
 
@@ -93,7 +93,7 @@ Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zug
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Probleme
 
@@ -121,7 +121,7 @@ Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zug
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Portfolios
 
@@ -145,7 +145,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Portfolios habe
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Programme
 
@@ -169,7 +169,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Programme haben
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Berichte, Dashboards und Kalender
 
@@ -189,7 +189,7 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Dokumente
 
@@ -243,7 +243,7 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Benutzende
 
@@ -258,7 +258,7 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 &#42;&#42;Externe Benutzer können nur nach anderen Benutzern suchen.
 
@@ -275,7 +275,7 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Vorlagen
 
@@ -291,7 +291,7 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Finanzdaten
 
@@ -315,7 +315,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Finanzdaten hab
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Ressourcenverwaltung
 
@@ -324,7 +324,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Prioritäten und Budgetstunden im Planer bearbeiten | ✓&#42; |   |   |   |
-| Erstellen, Bearbeiten und Löschen von Ressourcen-Pools&#42;&#42; | ✓&#42; |   |   |   |
+| Erstellen, Bearbeiten, Löschen von Ressourcen-Pools&#42;&#42; | ✓&#42; |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42; |   |   |   |
 | Anzeigen von Projektprioritäten im Ressourcenplaner | ✓&#42; |   |   |   |
 | Anzeigen der Ressourcenzuordnung in den Tools für die Ressourcenplanung | ✓&#42; | ✓&#42; |   |   |
@@ -334,11 +334,11 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
-&#42;&#42;Erfordert zusätzlichen Zugriff auf Finanzdaten und Berechtigungen für Projektfinanzierungen. Wenn Sie Ressourcen-Management-Zugriff für einen Benutzer gewähren, der keinen Zugriff auf Finanzdaten hat, kann der Benutzer die stündlichen Zuweisungen weiterhin im Ressourcenplaner sehen, aber nicht zur Kostenansicht wechseln oder den Geschäftsfall anzeigen. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Freigeben von Finanzberechtigungen für ein Objekt](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Erfordert zusätzlichen Zugriff auf Finanzdaten und Berechtigungen für Projektfinanzierungen. Wenn Sie Ressourcen-Management-Zugriff für einen Benutzer gewähren, der keinen Zugriff auf Finanzdaten hat, kann der Benutzer die stündlichen Zuweisungen weiterhin im Ressourcenplaner sehen, aber nicht zur Kostenansicht wechseln oder den Geschäftsfall anzeigen. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Finanzberechtigungen für ein Objekt freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Erfordert die Berechtigung zum Beitragen zum -Objekt, wobei &quot;Zuweisungen vornehmen&quot;unter &quot;Erweiterte Einstellungen&quot;aktiviert ist. Weitere Informationen finden Sie im Abschnitt . [Grundlegendes zu geerbten Berechtigungen und zur Hierarchie von Objekten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) im Artikel [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Erfordert Berechtigungen für Contribute für das Objekt, wobei &quot;Zuweisungen vornehmen&quot;unter &quot;Erweiterte Einstellungen&quot;aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Vererbte Berechtigungen und die Hierarchie der Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) im Artikel [Überblick über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Bereich &quot;Szenario-Planer&quot;
 

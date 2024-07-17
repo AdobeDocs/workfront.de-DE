@@ -11,7 +11,7 @@ role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Für eine öffentliche Gruppe kann jeder Benutzer (in oder außerhalb der Gruppe
 
 Sie können diese Option nur auf der obersten übergeordneten Gruppe in einer Hierarchie von Gruppen mit mehr als einer Ebene bearbeiten. Alle Untergruppen der übergeordneten Gruppe übernehmen ihre Einstellung.
 
-Wenn Sie eine Untergruppe unter einer öffentlichen Gruppe erstellen, ist die Untergruppe standardmäßig ebenfalls öffentlich. Weitere Informationen zum Erstellen einer Gruppe und zum Veröffentlichen finden Sie unter [Gruppe erstellen](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). Weitere Informationen über den für die Bearbeitung von Benutzern benötigten Zugriff finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Wenn Sie eine Untergruppe unter einer öffentlichen Gruppe erstellen, ist die Untergruppe standardmäßig ebenfalls öffentlich. Weitere Informationen zum Erstellen einer Gruppe und zum Veröffentlichen finden Sie unter [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). Weitere Informationen zum Zugriff, der zum Bearbeiten von Benutzern erforderlich ist, finden Sie unter [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 Jede Gruppe, die Sie einer vorhandenen Gruppe hinzufügen, wird automatisch zu einer Untergruppe und ist nicht mehr eine Hauptgruppe. Die Untergruppe behält jedoch zusätzlich zu allen Projekt-, Aufgaben- und Problemstatus-Status, die zur neuen übergeordneten Gruppe gehören, ihre vorhandenen Benutzer sowie alle Verbindungen mit Projekten, Problemen und Aufgaben bei.
 
@@ -54,7 +54,7 @@ Jede Gruppe, die Sie einer vorhandenen Gruppe hinzufügen, wird automatisch zu e
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-Sie können der Untergruppe Mitglieder der Untergruppe als Gruppenadministratoren zuweisen, wenn Sie sie erstellen oder bearbeiten. Anweisungen finden Sie unter [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) im Artikel [Gruppe erstellen](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Sie können der Untergruppe Mitglieder der Untergruppe als Gruppenadministratoren zuweisen, wenn Sie sie erstellen oder bearbeiten. Anweisungen finden Sie unter [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) im Artikel [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Alternativ können Sie die Verwaltung der Untergruppe den Gruppenadministratoren überlassen, die den oben genannten Gruppen zugewiesen sind. Wenn Sie eine Untergruppe erstellen, gruppieren Sie Administratoren über die oben stehenden Gruppen und haben automatisch Zugriff auf die Verwaltung der Untergruppe.
 
@@ -62,4 +62,4 @@ Alternativ können Sie die Verwaltung der Untergruppe den Gruppenadministratoren
 >
 >Wenn Sie einen Benutzer zu einer Untergruppe hinzufügen und dieser Benutzer ein Gruppenadministrator für eine Gruppe ist, die sich irgendwo oberhalb der Untergruppe befindet, hat dieser Benutzer Administratorrechte zur Verwaltung der Untergruppe, selbst wenn er nicht als Gruppenadministrator für diese Gruppe zugewiesen wurde.
 
-Informationen dazu, welche Aktionen einem Adobe Workfront-Administrator, der das Workfront-System verwaltet, einem Gruppenadministrator, der eine Gruppe der obersten Ebene verwaltet, und einem Gruppenadministrator, der eine Untergruppe verwaltet, zur Verfügung stehen, finden Sie unter [Für verschiedene Arten von Administratoren zulässige Aktionen](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
+Informationen dazu, welche Aktionen einem Adobe Workfront-Administrator, der das Workfront-System verwaltet, einem Gruppenadministrator, der eine Gruppe der obersten Ebene verwaltet, und einem Gruppenadministrator, der eine Untergruppe verwaltet, zur Verfügung stehen, finden Sie unter [Für unterschiedliche Administratortypen zulässige Aktionen](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).

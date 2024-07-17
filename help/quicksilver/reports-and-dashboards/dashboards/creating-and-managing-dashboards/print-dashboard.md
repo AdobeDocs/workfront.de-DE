@@ -31,7 +31,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -39,11 +39,11 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong>/td&gt; 
-   <td> <p>Berechtigungen für das Dashboard anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Dashboard anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ Sie müssen über Folgendes verfügen:
 
 Das Dashboard muss erstellt werden, bevor Sie es drucken können.
 
-Informationen zum Erstellen von Dashboards finden Sie unter [Dashboard erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Informationen zum Erstellen von Dashboards finden Sie unter [Dashboards erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Erfahren Sie, welche Informationen beim Drucken eines Dashboards gedruckt werden
 
@@ -70,8 +70,8 @@ Die folgenden Informationen sind in der gedruckten oder exportierten Dashboard-D
 * Dashboard-Titel
 * Berichttitel
 * Zeitstempel der letzten Berichterstellung
-* Alle Objekte im Dashboard, einschließlich Listenansichten, externen Webseiten, Berichten und Kalendern
-* das Logo Ihres Unternehmens, wenn Ihr Workfront-Administrator es in Ihrer globalen Navigationsleiste angepasst hat. Weitere Informationen zum Branding der Workfront-Site finden Sie unter [Markieren Sie Ihre Adobe Workfront-Instanz.](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+* Alle Objekte im Dashboard, einschließlich Listenansichten, externen Webseiten, Berichten und Kalender
+* das Logo Ihres Unternehmens, wenn Ihr Workfront-Administrator es in Ihrer globalen Navigationsleiste angepasst hat. Weitere Informationen zum Branding der Workfront-Site finden Sie unter [Markieren Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Was wird nicht angezeigt? {#what-is-not-displayed}
 
@@ -86,20 +86,19 @@ Die folgenden Informationen sind nicht in der gedruckten oder exportierten Dashb
 1. Gehen Sie zum Dashboard, das Sie drucken möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken **Dashboard-Aktionen** > **Drucken**
+   * Klicken Sie auf **Dashboard-Aktionen** > **Drucken** .
 
-   * Presse **Strg+P** (unter Windows) oder **Befehl+P** (in Mac)
+   * Drücken Sie **Strg+P** (unter Windows) oder **Befehl+P** (unter Mac).
 
-      >[!IMPORTANT]
-      >
-      >* Keine dieser Optionen ist verfügbar, wenn das Dashboard in eine benutzerdefinierte Registerkarte eingebettet wird. Informationen zum Erstellen benutzerdefinierter Registerkarten finden Sie unter [Erstellen benutzerdefinierter Registerkarten oder Abschnitte](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
-      >* Die Option für den Tastaturbefehl ist bei Verwendung des Internet Explorer-Browsers nicht verfügbar.
+     >[!IMPORTANT]
+     >
+     >* Keine dieser Optionen ist verfügbar, wenn das Dashboard in eine benutzerdefinierte Registerkarte eingebettet wird. Informationen zum Erstellen benutzerdefinierter Registerkarten finden Sie unter [Erstellen benutzerdefinierter Registerkarten oder Abschnitte](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+     >* Die Option für den Tastaturbefehl ist bei Verwendung des Internet Explorer-Browsers nicht verfügbar.
 
-
-1. Im **Ziel** aus den verschiedenen verfügbaren Druckoptionen.\
+1. Wählen Sie im Feld **Ziel** aus den verschiedenen verfügbaren Druckoptionen aus.\
    Die Druckoptionen variieren je nach verwendetem Browser und Browser.
 
-1. (Optional) Speichern Sie das Dashboard als .PDF-Datei und klicken Sie auf **Speichern** , um die .PDF zu speichern.\
+1. (Optional) Speichern Sie das Dashboard als .PDF-Datei und klicken Sie dann auf **Speichern** , um die .PDF zu speichern.\
    Informationen zum Speichern des Dashboards als .PDF-Datei finden Sie unter [Dashboard exportieren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
-1. Klicken **Drucken**.
+1. Klicken Sie auf **Drucken**.

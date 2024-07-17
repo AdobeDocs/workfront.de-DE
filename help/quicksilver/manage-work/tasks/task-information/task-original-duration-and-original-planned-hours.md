@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '578'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Bei der Planung eines Projekts sollten Sie die Werte für die geplanten Stunden und die Dauer (oder geplante Dauer) jeder Aufgabe im Projekt festlegen.
 
-Weitere Informationen zu geplanten Stunden zu Aufgaben finden Sie unter [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
+Weitere Informationen zu geplanten Stunden für Aufgaben finden Sie unter [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
 
 Weitere Informationen zur Aufgabendauer finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -26,7 +26,7 @@ Sie können diese Werte auf der Registerkarte &quot;Aufgabendetails&quot;oder be
 
 Wenn Sie eine Ansicht für eine Aufgabenliste oder einen Aufgabenbericht erstellen, können Sie zusätzlich die Felder &quot;Ursprüngliche geplante Stunden&quot;und &quot;Ursprüngliche Dauer&quot;für die Aufgaben anzeigen.
 
-## Ursprünglich erforderlicher Arbeitsaufwand
+## Ursprüngliche geplante Stunden
 
 Die ursprünglich geplanten Stunden einer Aufgabe stellen die Anzahl der geplanten Stunden dar, die eine Aufgabe hatte, bevor sie zur übergeordneten Aufgabe wurde. Wenn eine Aufgabe eine übergeordnete Aufgabe wird, werden die geplanten Stunden der untergeordneten Aufgaben in die übergeordnete Aufgabe aggregiert, um die geplanten Stunden der übergeordneten Aufgabe anzugeben.
 

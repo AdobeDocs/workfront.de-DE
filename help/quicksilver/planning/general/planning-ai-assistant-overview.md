@@ -72,15 +72,15 @@ Sie können den AI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 
 ## Zugriff auf den KI-Assistenten
 
-1. Melden Sie sich bei Workfront an und wechseln Sie dann zum **Planung** Bereich.
+1. Melden Sie sich bei Workfront an und wechseln Sie dann zum Bereich **Planung** .
 
-1. Klicken Sie auf **Arbeitsfläche**.
+1. Klicken Sie auf eine **Workspace-Karte**.
 
-1. (Optional) Klicken Sie auf eine **Record Type Card**.
+1. (Optional) Klicken Sie auf eine Karte vom Typ **record type**.
 
-1. (Optional) Klicken Sie auf eine **record** , um den Datensatz zu öffnen **Details** Seite.
+1. (Optional) Klicken Sie auf einen **Datensatz** , um die Seite **Details** des Datensatzes zu öffnen.
 
-1. Klicken Sie auf **Symbol &quot;KI-Assistent&quot;** in der oberen rechten Ecke des Bildschirms in der globalen Navigationsleiste.
+1. Klicken Sie in der globalen Navigationsleiste oben rechts im Bildschirm auf das Symbol **AI-Assistent** .
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [[!UICONTROL Verspäteter Testversand] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
-* [[!UICONTROL Neuer Testversand] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
-* [Die [!UICONTROL Neue Version] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
-* [Die [!UICONTROL Proof Made] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+* [[!UICONTROL Verspätete Testversand] E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
+* [[!UICONTROL Neue Testversand]-E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
+* [Die E-Mail [!UICONTROL Neue Version]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
+* [Die E-Mail [!UICONTROL Testversand durchgeführt]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)

@@ -8,16 +8,16 @@ feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
 source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
-# Anzeigen und Bearbeiten von Story-Informationen auf [!UICONTROL Scrum] Pinnwand
+# Anzeigen und Bearbeiten von Story-Informationen auf der [!UICONTROL Scrum]-Pinnwand
 
 ## Informationen darüber, welche Informationen angezeigt und bearbeitet werden können
 
-Bei der Anzeige einer Storykachel auf der Storyboard-Pinnwand sind die Informationen in der folgenden Tabelle verfügbar. Sie können die meisten Informationen inline bearbeiten, direkt über die Kachel &quot;Geschichte&quot;.
+Bei der Anzeige einer Storykachel auf der Storyboard-Pinnwand sind die Informationen in der folgenden Tabelle verfügbar. Sie können die meisten Informationen inline bearbeiten, direkt über den Bereich &quot;Geschichte&quot;.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,9 +25,9 @@ Bei der Anzeige einer Storykachel auf der Storyboard-Pinnwand sind die Informati
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Informationen</strong> </th> 
+   <th><strong>Information</strong> </th> 
    <th><strong>Sichtbar</strong> </th> 
-   <th><strong>Bearbeitbare Inline-Zeilen</strong> </th> 
+   <th><strong>Bearbeitbare Inline-Anzeige</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -37,17 +37,17 @@ Bei der Anzeige einer Storykachel auf der Storyboard-Pinnwand sind die Informati
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Der Projektname mit einem Link direkt zum Projekt<br>Dieser Link wird nur bei Geschichten (übergeordnete Aufgaben, keine Unteraufgaben) angezeigt, wenn die agile Ansicht bei einer Iteration verwendet wird. sie wird bei Verwendung einer agilen Ansicht in einem Projekt nicht angezeigt.</p> </td> 
+   <td> <p>Der Projektname mit einem Link direkt zum Projekt<br>Dieser Link wird nur bei Geschichten (übergeordnete Aufgaben, keine Unteraufgaben) angezeigt, wenn die agile Ansicht bei einer Iteration verwendet wird. Er wird nicht angezeigt, wenn eine agile Ansicht für ein Projekt verwendet wird.</p> </td> 
    <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Die Anzahl der vollständigen Punkte oder Stunden der Meldung und die Anzahl der der Meldung zugewiesenen Punkte oder Stunden<br>Diese Zahlen werden verwendet, um den [!UICONTROL Prozentwert pro Vollständigkeit] für jede Geschichte zu berechnen und anzuzeigen.</p> </td> 
+   <td> <p>Die Anzahl der Punkte oder Stunden, die für die Meldung vollständig sind, und die Anzahl der Punkte oder Stunden, die der Meldung zugewiesen sind<br>Diese Zahlen werden verwendet, um die [!UICONTROL Prozentzahl abgeschlossen] für jede Meldung zu berechnen und anzuzeigen.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Prozentualer Abschluss] für jede Geschichte und jedes Thema.<br>Der [!UICONTROL Prozentwert pro Abschluss] für die Iteration wird auf der Grundlage des [!UICONTROL Prozentsatzes abgeschlossen] für jede Geschichte berechnet.</p> <p>Bei der Aktualisierung von [!UICONTROL Prozent Vollständigkeit] für eine Meldung oder ein Problem können Sie eine beliebige Zahl zwischen 0 und 100 wählen.</p> </td> 
+   <td> <p>[!UICONTROL Prozentualer Abschluss] für jede Geschichte und jedes Thema.<br>Der [!UICONTROL Prozentwert pro Abschluss] für die Iteration wird anhand des [!UICONTROL Prozentsatzes pro Abschluss] für jede Geschichte berechnet.</p> <p>Bei der Aktualisierung von [!UICONTROL Prozent Vollständigkeit] für eine Meldung oder ein Problem können Sie eine beliebige Zahl zwischen 0 und 100 wählen.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -62,7 +62,7 @@ Bei der Anzeige einer Storykachel auf der Storyboard-Pinnwand sind die Informati
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Alle zusätzlichen Felder (einschließlich benutzerdefinierter Felder), die möglicherweise zur agilen Ansicht hinzugefügt wurden, indem die agile Ansicht geändert wurde, wie unter "Erstellen und Anpassen einer [!UICONTROL Agile]-Ansicht"in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Übersicht über Ansichten in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Alle zusätzlichen Felder (einschließlich benutzerdefinierter Felder), die möglicherweise zur agilen Ansicht hinzugefügt wurden, indem die agile Ansicht geändert wurde, wie unter Erstellen und Anpassen einer [!UICONTROL Agile]-Ansicht in der <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Übersicht über Ansichten in [!UICONTROL Adobe Workfront]</a> beschrieben.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -80,8 +80,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -89,34 +89,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Zugriff auf die Aufgabe oder das Problem bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf die Aufgabe oder das Problem bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Anzeigen und Bearbeiten von Informationen zu einem Story-Baustein
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Teams]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Switch Team]** icon ![Symbol &quot;Team wechseln&quot;](assets/switch-team-icon.png), wählen Sie entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Iterationen]** , um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]** aus, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
 
-1. Navigieren Sie zu [!UICONTROL Scrum] agile Story Board.
-1. Erweitern Sie die [!UICONTROL Geschichte] -Kachel, um alle Felder anzuzeigen, die mit der Geschichte verknüpft sind.
+1. Gehen Sie zur agilen Storyboard [!UICONTROL Scrum].
+1. Erweitern Sie die Kachel [!UICONTROL story] , um alle Felder anzuzeigen, die mit der Geschichte verbunden sind.
 
    ![](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (Optional) Um ein Feld zu bearbeiten, klicken Sie auf das Feld und nehmen Sie dann alle Änderungen vor.
 
-   Sie müssen [!UICONTROL Bearbeiten] Berechtigungen für die Aufgabe oder das Problem, um die Story-Kachel zu bearbeiten.
+   Sie müssen über die Berechtigung [!UICONTROL Bearbeiten] für die Aufgabe oder das Problem verfügen, um die Story-Kachel zu bearbeiten.
 
 >[!NOTE]
 >
->So ändern Sie die [!UICONTROL Prozent abgeschlossen], müssen Sie eine Zahl zwischen 0 und 100 eingeben. Das Feld ist kein Schieberegler, den Sie verschieben können.
+>Um den [!UICONTROL Prozentsatz abgeschlossen] zu ändern, müssen Sie eine Zahl zwischen 0 und 100 eingeben. Das Feld ist kein Schieberegler, den Sie verschieben können.

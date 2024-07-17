@@ -3,7 +3,7 @@ filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
 title: Vorabauswahl für Funktionen für [!DNL Adobe Workfront] Pinnwände
-description: Lesen Sie diesen Artikel , um mehr über die [!DNL Workfront Boards] Opt-in für frühe Funktionen.
+description: Lesen Sie diesen Artikel , um mehr über die Anmeldung der frühzeitigen Funktion zu erfahren. [!DNL Workfront Boards]
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Vorabauswahl für Funktionen für [!DNL Adobe Workfront] [!UICONTROL Pinnwände]
 
-Die frühe Funktion des Opt-ins für [!DNL Adobe Workfront] [!UICONTROL Pinnwände] wurde im Juli 2022 gestartet.
+Die frühe Funktion zum Opt-in für [!DNL Adobe Workfront] [!UICONTROL Pinnwände] wurde im Juli 2022 gestartet.
 
 [!DNL Adobe Workfront] [!UICONTROL Pinnwände] sind flexible Tools, die die Teamzusammenarbeit ermöglichen, indem sie Zugriff auf eine freigegebene Pinnwand mit Spalten und Karten bieten.
 
-Allgemeine Informationen zu Foren finden Sie unter [[!UICONTROL Pinnwände] Übersicht](/help/quicksilver/agile/boards-overview.md).
+Allgemeine Informationen zu Pinnwänden finden Sie unter [[!UICONTROL Pinnwände] - Übersicht](/help/quicksilver/agile/boards-overview.md).
 
 ## Funktionen
 
@@ -49,7 +49,7 @@ In der folgenden Tabelle werden die wichtigsten Funktionen von Foren zusammen mi
    <td>Veröffentlicht</td>
   </tr>
   <tr>
-   <td>Erstellen von Karten, die mit [!DNL Workfront] Objekte</td>
+   <td>Erstellen von Karten, die mit [!DNL Workfront] -Objekten verbunden sind</td>
    <td>Veröffentlicht</td>
   </tr>
   <tr>
@@ -191,40 +191,40 @@ Frühzeitige Funktionen für Pinnwände stehen allen Organisationen zur Verfügu
 
 ### Opt-in
 
-Nur [!DNL Workfront] -Administratoren können sich für frühzeitige Funktionen für Pinnwände entscheiden. Wenn eine [!DNL Workfront] -Administrator aktiviert frühe Funktionen, sind alle Benutzer in der Organisation angemeldet.
+Nur [!DNL Workfront] -Administratoren können sich für frühe Funktionen für Pinnwände anmelden. Wenn ein [!DNL Workfront] -Administrator frühe Funktionen aktiviert, werden alle Benutzer der Organisation angemeldet.
 
 {{step1-to-boards}}
 
-1. Klicks ![Vorabregistrierung von Funktionen](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Vorabregistrierung von Funktionen]) am oberen Rand des Dashboard-Bildschirms.
-1. Klicks **[!UICONTROL Aktivieren]**.
+1. Klicken Sie oben auf dem Dashboard-Bildschirm auf ![Vorabauswahl der Funktion](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Vorabauswahl der Funktion]).
+1. Klicken Sie auf **[!UICONTROL Aktivieren]**.
 1. Beginnen Sie mit der Verwendung der frühen Funktionen der Foren.
 
 ## Feedback senden
 
-1. Klicken Sie in einer Pinnwand auf die **[!UICONTROL Feedback]** Schaltfläche.
-1. Füllen Sie das Formular aus und klicken Sie auf **[!UICONTROL Einsenden]**.
+1. Klicken Sie in einer Pinnwand auf die Schaltfläche **[!UICONTROL Feedback]** .
+1. Füllen Sie das Formular aus und klicken Sie dann auf **[!UICONTROL Senden]**.
 
 ## Häufig gestellte Fragen zum frühzeitigen Feature Opt-in
 
 ### Woher weiß ich, ob meine Organisation sich für frühe Funktionen entschieden hat?
 
-Wenden Sie sich an [!DNL Workfront] Administrator zu ermitteln, ob sie die Frühzeiterstellung für Pinnwände aktiviert haben.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, ob er die Frühzeitigkeitsfunktionen für Pinnwände aktiviert hat.
 
 ### Können frühe Funktionen nur für bestimmte Benutzer aktiviert werden?
 
-Wenn die Variable [!DNL Workfront] -Administrator aktiviert frühe Funktionen für Pinnwände, sind alle Benutzer der Organisation angemeldet.
+Wenn der [!DNL Workfront] -Administrator frühe Funktionen für Pinnwände aktiviert, werden alle Benutzer der Organisation angemeldet.
 
-Die Variable [!DNL Workfront] -Administrator kann die Option &quot;Pinnwände&quot;aus dem [!UICONTROL Hauptmenü] für einzelne Benutzer oder Benutzergruppen mit einer Layoutvorlage. Weitere Informationen finden Sie unter [Anpassen der [!UICONTROL Hauptmenü] Layout-Vorlage verwenden](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Der Administrator von [!DNL Workfront] kann jedoch die Option &quot;Pinnwände&quot;im [!UICONTROL Hauptmenü] für einzelne Benutzer oder Benutzergruppen mit einer Layoutvorlage ausblenden. Weitere Informationen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
->Dies hindert Benutzer nicht daran, über eine URL auf Pinnwände zuzugreifen. Es verhindert nur, dass sie die [!DNL Boards] in der [!UICONTROL Hauptmenü].
+>Dies hindert Benutzer nicht daran, über eine URL auf Pinnwände zuzugreifen. Es verhindert nur, dass ihnen die Option [!DNL Boards] im [!UICONTROL Hauptmenü] angezeigt wird.
 
 ### Kann ich mich von den frühen Funktionen abmelden, nachdem ich eingetreten bin?
 
-Nur [!DNL Workfront] -Administratoren können sich vom Empfang frühzeitiger Funktionen abmelden. Wenn eine [!DNL Workfront] -Administrator deaktiviert die frühen Funktionen, werden alle Benutzer in der Organisation abgemeldet.
+Nur [!DNL Workfront] -Administratoren können sich vom Erhalt früherer Funktionen abmelden. Wenn ein [!DNL Workfront] -Administrator die frühen Funktionen deaktiviert, werden alle Benutzer in der Organisation abgemeldet.
 
 {{step1-to-boards}}
 
-1. Klicks ![Vorabauswahl für Funktionen aktiviert](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Vorabauswahl für Funktionen aktiviert]) am oberen Rand des Dashboard-Bildschirms.
-1. Klicks **[!UICONTROL Deaktivieren]**.
+1. Klicken Sie oben auf dem Dashboard-Bildschirm auf ![Vorzeitiges Feature Opt-in aktiviert](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Vorzeitiges Feature Opt-in aktiviert]).
+1. Klicken Sie auf **[!UICONTROL Deaktivieren]**.

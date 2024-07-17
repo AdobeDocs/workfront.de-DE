@@ -41,8 +41,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -51,21 +51,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Karten konfigurieren {#configure-cards}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicks [!UICONTROL **Konfigurieren**] auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
-1. Erweitern [!UICONTROL **Karten**].
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Pinnwände]**.![](assets/main-menu-icon.png)
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie rechts auf der Pinnwand auf [!UICONTROL **Konfigurieren**] , um den Bereich &quot;Konfigurieren&quot;zu öffnen.
+1. Erweitern Sie [!UICONTROL **Karten**].
 
    Die meisten Felder und Abschnitte sind standardmäßig aktiviert.
 
 1. Deaktivieren Sie ein Feld oder einen Abschnitt, um es in beiden Kartenansichten zu deaktivieren.
-1. Klicken Sie auf das Symbol Ausblenden . ![Symbol &quot;Ausblenden&quot;](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es in der gekürzten Ansicht auszublenden.
-1. Um alle Felder und Abschnitte in beiden Ansichten anzuzeigen, klicken Sie auf [!UICONTROL **Alle Felder standardmäßig wiederherstellen**].
-1. Klicks [!UICONTROL **Konfigurieren ausblenden**] , um das Fenster &quot;Konfigurieren&quot;zu schließen.
+1. Klicken Sie auf das Symbol zum Ausblenden ![Symbol zum Ausblenden](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es in der gekürzten Ansicht auszublenden.
+1. Um alle Felder und Abschnitte in beiden Ansichten anzuzeigen, klicken Sie auf [!UICONTROL **Alle Felder auf Standard wiederherstellen**].
+1. Klicken Sie auf [!UICONTROL **Konfigurieren ausblenden**] , um den Bereich &quot;Konfigurieren&quot;zu schließen.
 
 ## Hinzufügen benutzerdefinierter Felder zu Karten
 
@@ -73,27 +73,27 @@ Benutzerdefinierte Felder sind auf verbundenen Karten verfügbar. Sie sind nur i
 
 Die Daten in benutzerdefinierten Feldern können auf der Karte bearbeitet werden, bestimmte benutzerdefinierte Elemente stehen jedoch möglicherweise nur für die Bearbeitung im ursprünglichen Feld und nicht auf der Karte zur Verfügung.
 
-1. Öffnen Sie die Pinnwand und klicken Sie auf [!UICONTROL **Konfigurieren**] , um den Bereich Konfigurieren zu öffnen.
-1. Erweitern [!UICONTROL **Karten**].
-1. under [!UICONTROL Kartenfelder]klicken [!UICONTROL **Benutzerdefiniertes Feld hinzufügen**].
-1. Auswählen [!UICONTROL **Aufgabe**] oder [!UICONTROL **Problem**].
+1. Rufen Sie eine Pinnwand auf und klicken Sie auf [!UICONTROL **Konfigurieren**] , um den Bereich &quot;Konfigurieren&quot;zu öffnen.
+1. Erweitern Sie [!UICONTROL **Karten**].
+1. Klicken Sie unter [!UICONTROL Kartenfelder] auf [!UICONTROL **Benutzerdefiniertes Feld hinzufügen**].
+1. Wählen Sie [!UICONTROL **Aufgabe**] oder [!UICONTROL **Problem**] aus.
 
    Die Kategorien der verfügbaren Felder für Aufgaben oder Probleme werden angezeigt. Erweitern Sie eine Kategorie, um alle Felder anzuzeigen. Sie können auch nach einem Feld suchen.
 
-   ![Nach benutzerdefinierten Feldern suchen](assets/boards-search-for-custom-field.png)
+   ![Suche nach benutzerdefiniertem Feld](assets/boards-search-for-custom-field.png)
 
    >[!NOTE]
    >
    >Die folgenden Feldtypen können nicht zu Karten hinzugefügt werden: Adobe XD, Bild, PDF, Video.
 
 1. Wählen Sie den Feldnamen aus.
-1. (Optional) Klicken Sie auf die Schaltfläche **[!UICONTROL Feldwert]** um dieses benutzerdefinierte Feld in ein anderes zu ändern.
-1. (Optional) Ändern Sie die **[!UICONTROL Feldbezeichnung]** auf den Feldnamen, der auf Karten angezeigt werden soll.
+1. (Optional) Klicken Sie in das Feld **[!UICONTROL Feldwert]** , um dieses benutzerdefinierte Feld in ein anderes zu ändern.
+1. (Optional) Ändern Sie die **[!UICONTROL Feldbezeichnung]** in den Feldnamen, der auf den Karten angezeigt werden soll.
 1. Wenn Sie alle Änderungen vorgenommen haben, klicken Sie auf [!UICONTROL **Feld speichern**].
 
    ![Benutzerdefinierter Feldwert und Titel](assets/save-custom-field-value-label.png)
 
-   Das benutzerdefinierte Feld wird zur Liste der verfügbaren Felder hinzugefügt und ist standardmäßig aktiviert. Sie können das benutzerdefinierte Feld entsprechend den Schritten im Abschnitt [Karten konfigurieren](customize-fields-on-card.md#configure-cards) Bearbeiten Sie das Feld oder löschen Sie es aus allen Karten.
+   Das benutzerdefinierte Feld wird zur Liste der verfügbaren Felder hinzugefügt und ist standardmäßig aktiviert. Sie können das benutzerdefinierte Feld entsprechend den Schritten im Abschnitt [Karten konfigurieren](customize-fields-on-card.md#configure-cards) deaktivieren, das Feld bearbeiten oder es aus allen Karten löschen.
 
 >[!NOTE]
 >
@@ -103,13 +103,13 @@ Die Daten in benutzerdefinierten Feldern können auf der Karte bearbeitet werden
 
 Sie müssen eine Konfigurationseinstellung aktivieren, um archivierte Karten auf einer Pinnwand anzuzeigen.
 
-1. Öffnen Sie die Pinnwand und klicken Sie auf [!UICONTROL **Konfigurieren**] , um den Bereich Konfigurieren zu öffnen.
-1. Erweitern [!UICONTROL **Karten**].
-1. Aktivieren [!UICONTROL **Archivierte Karten auf der Pinnwand anzeigen**].
+1. Rufen Sie eine Pinnwand auf und klicken Sie auf [!UICONTROL **Konfigurieren**] , um den Bereich &quot;Konfigurieren&quot;zu öffnen.
+1. Erweitern Sie [!UICONTROL **Karten**].
+1. Aktivieren Sie [!UICONTROL **Archivierte Karten auf der Pinnwand anzeigen**].
 
    Jetzt können Sie die Pinnwand filtern, um alle archivierten Karten anzuzeigen. Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-1. Klicks [!UICONTROL **Konfigurieren ausblenden**] , um das Fenster &quot;Konfigurieren&quot;zu schließen.
+1. Klicken Sie auf [!UICONTROL **Konfigurieren ausblenden**] , um den Bereich &quot;Konfigurieren&quot;zu schließen.
 
 ## Kartenfalloff konfigurieren
 

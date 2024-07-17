@@ -45,12 +45,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen Sie Berechtigungen zum Projekt und zur übergeordneten Aufgabe mit der Möglichkeit, Aufgaben oder höher hinzuzufügen.</p> <p>Sie erhalten nach der Erstellung automatisch Verwaltungsberechtigungen für die Aufgabe.</p>  </td> 
+   <td> <p>Contribute-Berechtigungen für das Projekt und die übergeordnete Aufgabe mit der Möglichkeit, Aufgaben hinzuzufügen oder höher</p> <p>Sie erhalten nach der Erstellung automatisch Verwaltungsberechtigungen für die Aufgabe.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,16 +61,16 @@ Sie können Unteraufgaben aus der Aufgabenliste oder dem Aufgabenunterabschnitt 
 ### Erstellen von Unteraufgaben aus der Aufgabenliste {#create-subtasks-from-the-task-list}
 
 1. Wechseln Sie zu dem Projekt, in dem Sie Unteraufgaben erstellen möchten.
-1. Klicken Sie auf **Aufgaben** im linken Bereich.
+1. Klicken Sie im linken Bereich auf den Abschnitt **Aufgaben** .
 1. (Bedingt) Wenn sich die Aufgabe, die Sie für die untergeordnete Aufgabe verwenden möchten, nicht bereits direkt unter der Aufgabe befindet, die Sie als übergeordnete Aufgabe festlegen möchten, ziehen Sie sie an die gewünschte Position in der Aufgabenliste.
 1. Wählen Sie die Aufgabe aus, die Sie einer Unteraufgabe unterziehen möchten, und führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **Einzug** icon ![](assets/indent-icon-nwe-33x29.png) , um die ausgewählte Aufgabe direkt über der Aufgabe zu einer Unteraufgabe zu machen.
+   * Klicken Sie auf das Symbol **Einzug** ![](assets/indent-icon-nwe-33x29.png), um die ausgewählte Aufgabe direkt über der Aufgabe zu einer Unteraufgabe zu machen.
    * Drücken Sie bei Verwendung einer standardmäßigen englischen QWERTY-Tastatur die Tastenkombination Wahltaste + > (Mac) oder Alt + > (Windows) auf Ihrer Tastatur. Andere Sprachen können die Befehle Option + , (Mac) oder Alt + , (Windows) zum Einzug verwenden.
 
      >[!TIP]
      >
-     >Die Tastaturbefehle funktionieren nicht, wenn Sie Aufgaben in der Inline-Bearbeitung bearbeiten. Verwenden Sie in diesem Fall das Symbol Einzug . ![](assets/cs1.png) um Unteraufgaben zu erstellen.
+     >Die Tastaturbefehle funktionieren nicht, wenn Sie Aufgaben in der Inline-Bearbeitung bearbeiten. Verwenden Sie in diesem Fall das Symbol &quot;Einzug&quot;![](assets/cs1.png), um Unteraufgaben zu erstellen.
 
    * Ziehen Sie die Aufgabe per Drag-and-Drop über die Aufgabe, die Sie als übergeordnete Aufgabe festlegen möchten.
 
@@ -81,21 +81,21 @@ Sie können Unteraufgaben aus der Aufgabenliste oder dem Aufgabenunterabschnitt 
 ### Erstellen von Unteraufgaben aus dem Abschnitt &quot;Unteraufgaben&quot; {#create-subtasks-from-the-task-subtasks-section}
 
 1. Wechseln Sie zu dem Projekt, in dem Sie Unteraufgaben erstellen möchten.
-1. Klicken Sie auf **Aufgaben** im linken Bereich.
+1. Klicken Sie im linken Bereich auf den Abschnitt **Aufgaben** .
 1. Klicken Sie auf den Namen der Aufgabe, in der Sie eine Unteraufgabe erstellen möchten.
-1. Klicken Sie auf **Unteraufgaben** im linken Bereich.
-1. Klicks **Neue Aufgabe.**
+1. Klicken Sie im linken Bereich auf den Abschnitt **Unteraufgaben** .
+1. Klicken Sie auf **Neue Aufgabe.**
 
    Führen Sie die Schritte im folgenden Artikel aus, um mit der Erstellung der Unteraufgabe fortzufahren: [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Klicks **Aufgabe speichern.**
+1. Klicken Sie auf **Aufgabe speichern.**
 
 ## Teilaufgabe zu einer Hauptaufgabe machen
 
 1. Wechseln Sie zu dem Projekt, in dem Sie eine Unteraufgabe zur Hauptaufgabe machen möchten.
-1. Klicken Sie auf **Aufgaben** im linken Bereich.
+1. Klicken Sie im linken Bereich auf den Abschnitt **Aufgaben** .
 1. Wählen Sie die Unteraufgabe aus, die Sie als Hauptaufgabe durchführen möchten.
-1. Klicken Sie auf **Ausrücken** icon ![](assets/outdent-icon-nwe-31x29.png) , um die Unteraufgabe zu einer Hauptaufgabe zu machen.
+1. Klicken Sie auf das Symbol **Ausrücken** ![](assets/outdent-icon-nwe-31x29.png), um die Unteraufgabe zu einer Hauptaufgabe zu machen.
 
    Oder
 

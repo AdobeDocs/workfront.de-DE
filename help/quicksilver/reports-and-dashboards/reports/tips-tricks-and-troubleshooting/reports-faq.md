@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +102,7 @@ Dies kann in den meisten Fällen passieren, wenn Sie nur über eingeschränkten 
 
 Der Ersteller des Berichts kann den Bericht so bearbeiten, dass er mit den Zugriffsrechten eines Systemadministrators oder eines beliebigen Planbenutzers, der Zugriff auf die Daten hat, ausgeführt wird.
 
-Weitere Informationen finden Sie unter [Einen Bericht mit Zugriffsrechten für einen anderen Benutzer ausführen und bereitstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
+Weitere Informationen finden Sie unter [Ausführen und Bereitstellen eines Berichts mit den Zugriffsrechten eines anderen Benutzers](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
 ## Wie melde ich über Aufgaben (oder Probleme), denen ich zugewiesen bin, unabhängig davon, ob ich der Eigentümer bin oder nicht?
 
@@ -111,36 +111,36 @@ Weitere Informationen finden Sie unter [Einen Bericht mit Zugriffsrechten für e
 Um alle Ihnen zugewiesenen Aufgaben oder Probleme anzuzeigen, unabhängig davon, ob Sie der Eigentümer (oder Primärer Verantwortlicher) sind oder nicht, verwenden Sie den folgenden Filter in einem Aufgaben- oder Problembericht:
 
 1. Zugriff auf einen Aufgaben- oder Problembericht.
-1. Im **Filter** Registerkarte, klicken **Filterregel hinzufügen**.
+1. Klicken Sie auf der Registerkarte **Filter** auf **Filterregel hinzufügen**.
 
-1. Im **Eingabe des Feldnamens starten ...** Feld, Eingabe beginnen **Zuweisung von Benutzernamen**, und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
+1. Geben Sie im Feld **Feldname eingeben...** den Wert **Name der Zuweisungsbenutzer** ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
    >[!NOTE]
    >
-   >Verwenden Sie nicht das **Zugeordneter Name** -Feld, da dies nur für die Aufgaben und Probleme filtert, für die Sie der Primäre Verantwortliche oder Inhaber sind.
+   >Verwenden Sie nicht das Feld **Zugeordneter Name** , da dies nur für die Aufgaben und Probleme filtert, für die Sie der Primäre Verantwortliche oder Inhaber sind.
 
-1. Wählen Sie die **Gleich** -Modifikator.
-1. Typisierung beginnen *$$USER.ID* in das Textfeld ein und wählen Sie es aus der angezeigten Dropdownliste aus.\
+1. Wählen Sie den Modifikator **Equal** aus.
+1. Beginnen Sie mit der Eingabe von *$$USER.ID* in das Textfeld und wählen Sie sie aus der angezeigten Dropdownliste aus.\
    Dadurch wird sichergestellt, dass Sie alle Aufgaben und Probleme sehen, die dem angemeldeten Benutzer zugewiesen sind. Sie können den Platzhalter durch einen bestimmten Benutzernamen ersetzen.\
    ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
-1. Klicks **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 
 ## Warum werden die Links &quot;Probleme hinzufügen/Aufgaben hinzufügen&quot;nicht unten in den Listen &quot;Probleme und Aufgaben&quot;eines Projekts angezeigt?
 
 ### Antwort
 
-Vergewissern Sie sich zunächst, dass Sie über den richtigen Zugriff und die richtigen Berechtigungen zum Hinzufügen von Problemen und Aufgaben zu einem Projekt verfügen. In diesem Fall sollte die **Hinzufügen von Problemen** und **Aufgaben hinzufügen** Links am unteren Rand der **Probleme** und **Aufgaben** Listen.
+Vergewissern Sie sich zunächst, dass Sie über den richtigen Zugriff und die richtigen Berechtigungen zum Hinzufügen von Problemen und Aufgaben zu einem Projekt verfügen. In diesem Fall sollten Sie die Links **Probleme hinzufügen** und **Aufgaben hinzufügen** unten in den Listen **Probleme** und **Aufgaben** sehen.
 
 Es gibt jedoch einige Dinge, die die Anzeige dieser Links verhindern können:
 
 * Wenn der Schnellfilter auf diese Listen angewendet wird, werden die Links nicht angezeigt. Entfernen Sie den Schnellfilter, und die Links sollten angezeigt werden, damit Sie Ihren Projekten Probleme und Aufgaben hinzufügen können.\
   Informationen zum Schnellfilter finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* Wenn Sie **Gruppierung** auf diese Listen angewendet werden, werden die Links nicht angezeigt. Entfernen Sie die **Gruppierung** und die Links sollten angezeigt werden, damit Sie Ihren Projekten Probleme und Aufgaben hinzufügen können.\
-  Informationen zum Erstellen von Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+* Wenn Sie eine **Gruppierung** auf diese Listen angewendet haben, werden die Links nicht angezeigt. Entfernen Sie die **Gruppierung** und die Links sollten angezeigt werden, damit Sie Ihren Projekten Probleme und Aufgaben hinzufügen können.\
+  Informationen zum Erstellen von Gruppierungen finden Sie unter [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-* Wenn Sie **Ansicht** auf diese Listen angewendet werden, bei denen eine andere Währung als die Standardwährung für das Projekt ausgewählt ist, werden die Links nicht angezeigt. Ändern Sie die **Ansicht** nach **Originalwährung des Projekts** und die Links sollten angezeigt werden, damit Sie Ihren Projekten Probleme und Aufgaben hinzufügen können.\
+* Wenn Sie eine **Ansicht** auf diese Listen anwenden, für die eine andere Währung als die Standardwährung für das Projekt ausgewählt ist, werden die Links nicht angezeigt. Ändern Sie die **Ansicht** in die Originalwährung des Projekts **, und die Links sollten angezeigt werden, damit Sie Ihren Projekten Probleme und Aufgaben hinzufügen können.**\
   Weitere Informationen zum Ändern der Währung in Ihrer Ansicht finden Sie unter [Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ![](assets/nwe-project-original-currency-350x229.png)
@@ -155,7 +155,7 @@ Informationen können in einem zwischengespeicherten Bericht manuell aktualisier
 Weitere Informationen zum Aktualisieren eines zwischengespeicherten Berichts finden Sie unter [Bericht ausführen](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
 Informationen können in einem zwischengespeicherten Dashboard manuell aktualisiert werden.\
-Weitere Informationen zum Aktualisieren eines zwischengespeicherten Dashboards finden Sie im Abschnitt [Anzeigen von Dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) im Artikel [Erste Schritte mit Dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Weitere Informationen zum Aktualisieren eines zwischengespeicherten Dashboards finden Sie im Abschnitt [Dashboards anzeigen](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) im Artikel [Erste Schritte mit Dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md) .
 
 ## Kann ich den Eigentümer eines Berichts ändern?
 
@@ -167,17 +167,17 @@ Sie können den Eigentümer eines Berichts nicht ändern. Der Benutzer, der den 
   Weitere Informationen finden Sie unter [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Endbenutzer mit Zugriff auf die Erstellung und Freigabe von Berichten können anderen erlauben, einzelne Berichte zu bearbeiten, indem sie sie freigeben und anderen Benutzern die Berechtigung zum Verwalten zuweisen.\
-  Weitere Informationen finden Sie unter [Bericht in Adobe Workfront freigeben](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Weitere Informationen finden Sie unter [Berichtfreigabe in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
-Wenn Sie berechtigt sind, einen Bericht anzuzeigen oder zu verwalten, können Sie auch eine Kopie des Berichts erstellen, dessen Inhaber Sie dann standardmäßig sind. Weitere Informationen zum Kopieren eines Berichts finden Sie unter [Berichtkopie erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Wenn Sie berechtigt sind, einen Bericht anzuzeigen oder zu verwalten, können Sie auch eine Kopie des Berichts erstellen, dessen Inhaber Sie dann standardmäßig sind. Weitere Informationen zum Kopieren eines Berichts finden Sie unter [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Warum kann ich nicht auf einen Bericht zugreifen, der einem deaktivierten Benutzer gehört?
 
 ### Antwort
 
-Manchmal ist der Eigentümer des Berichts auch der Benutzer, der im **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** im Bericht ein. Wenn die Variable **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** deaktiviert ist, wird der Bericht nicht mehr für Benutzer angezeigt, für die der Bericht freigegeben wurde. In diesem Fall können Sie den Bericht erneut zugänglich machen, indem Sie die Variable **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** leer lassen oder einen aktiven Benutzer in das Feld eingeben.
+Manchmal ist der Eigentümer des Berichts auch der Benutzer, der im Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** im Bericht angegeben ist. Wenn der Benutzer **Diesen Bericht mit Zugriffsrechten ausführen von:** deaktiviert ist, wird der Bericht nicht mehr für Benutzer angezeigt, für die der Bericht freigegeben ist. In diesem Fall können Sie den Bericht erneut zugänglich machen, indem Sie das Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** leer lassen oder einen aktiven Benutzer in das Feld eingeben.
 
-Weitere Informationen zum **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** -Feld, siehe [Einen Bericht mit Zugriffsrechten für einen anderen Benutzer ausführen und bereitstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Informationen zur Identifizierung aller Berichte, die sich im Besitz deaktivierter Benutzer befinden, finden Sie unter [Erstellen eines Berichts über Berichtsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+Weitere Informationen zum Feld **Diesen Bericht mit Zugriffsrechten ausführen von:** finden Sie unter [Ausführen und Bereitstellen eines Berichts mit den Zugriffsrechten eines anderen Benutzers](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Informationen zur Identifizierung aller Berichte, die im Besitz deaktivierter Benutzer sind, finden Sie unter [Erstellen eines Berichts über Berichterstellungsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 ## Wie greife ich auf ein Dashboard zu, das einen Bericht eines gelöschten Benutzers enthält?
 
@@ -193,7 +193,7 @@ Weitere Informationen zu den Auswirkungen des Löschens eines Benutzers finden S
 Wenn Sie Zugriff auf den Bericht &quot;Ansicht&quot;haben, können Sie Folgendes tun:
 
 1. Erstellen Sie eine Kopie des Berichts.\
-   Informationen zum Erstellen einer Kopie eines Berichts finden Sie unter [Berichtkopie erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   Informationen zum Erstellen einer Kopie eines Berichts finden Sie unter [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 1. Aktualisieren Sie das Dashboard, um den kopierten Bericht einzuschließen.\
-   Informationen zum Bearbeiten eines Dashboards finden Sie unter [Dashboard bearbeiten](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
+   Informationen zum Bearbeiten eines Dashboards finden Sie unter [Bearbeiten eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

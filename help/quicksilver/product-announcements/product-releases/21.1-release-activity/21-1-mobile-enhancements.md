@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle mobilen Verbesserungen der Version 21.1 beschrieben. Diese Verbesserungen werden in der Mobile Stores-Woche vom 15. Februar 2021 verfügbar gemacht.
 
-Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [21.1 - Versionsübersicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Neue Navigations-Breadcrumbs in der Adobe Workfront-App
 
@@ -27,7 +27,7 @@ Wir haben der mobilen Workfront-App die Breadcrumb-Navigation hinzugefügt. Jetz
 
 Sie können jetzt Rich-Text-Formatierungen in benutzerdefinierten Formulartextfeldern in der mobilen Workfront-App verwenden.
 
-Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars mit Textfeldern finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars mit Textfeldern finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## SSO-Benutzer können sich jetzt mit der Face ID oder der Fingerabdruck-Technologie erneut bei der Workfront-App anmelden
 

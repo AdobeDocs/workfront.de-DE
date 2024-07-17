@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--Audited: April, 2024-->
 
-Sie können Aktualisierungen eines Dokuments hinzufügen oder darauf antworten, um mit Mitwirkenden zu kommunizieren und ein Audit-Protokoll zu erstellen. Informationen zum Hinzufügen von Aktualisierungen zu Arbeitselementen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Sie können Aktualisierungen eines Dokuments hinzufügen oder darauf antworten, um mit Mitwirkenden zu kommunizieren und ein Audit-Protokoll zu erstellen. Weitere Informationen zum Hinzufügen von Aktualisierungen zu Arbeitselementen finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Zugriffsanforderungen
 
@@ -49,27 +49,27 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Hinzufügen von Dokumentaktualisierungen oder Antworten darauf
 
-1. Wechseln Sie zum Objekt, das das Dokument enthält, und wählen Sie dann **Dokumente** im linken Bereich.
+1. Wechseln Sie zu dem Objekt, das das Dokument enthält, und wählen Sie dann im linken Bereich **Dokumente** aus.
 1. Suchen Sie das benötigte Dokument und führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das Dokument in der Liste und anschließend auf die **Zusammenfassung öffnen** icon ![](assets/qs-summary-in-new-toolbar-small.png) in der oberen rechten Ecke und fügen Sie dann einen neuen Kommentar hinzu oder klicken Sie auf **Antwort** , um eine Antwort zu einem vorhandenen Kommentar hinzuzufügen. Weitere Informationen zur Zusammenfassung finden Sie unter [Übersicht über Dokumente](../../documents/managing-documents/summary-for-documents.md).
-   * Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Dokumentdetails**, dann **Updates** im linken Bereich.
-Weitere Informationen zum Hinzufügen von Aktualisierungen zu Objekten finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * Klicken Sie auf das Dokument in der Liste, klicken Sie oben rechts auf das Symbol **Zusammenfassung öffnen** ![](assets/qs-summary-in-new-toolbar-small.png), fügen Sie dann einen neuen Kommentar hinzu oder klicken Sie auf **Antworten** , um einem vorhandenen Kommentar eine Antwort hinzuzufügen. Weitere Informationen zur Zusammenfassung finden Sie unter [Übersicht für Dokumente - Übersicht](../../documents/managing-documents/summary-for-documents.md).
+   * Bewegen Sie den Mauszeiger über das Dokument, klicken Sie auf **Dokumentdetails** und dann auf **Aktualisierungen** im linken Bereich.
+Weitere Informationen zum Hinzufügen von Aktualisierungen zu Objekten finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Die Aktualisierungen und Antworten werden dem Dokument und den übergeordneten Objekten hinzugefügt. Weitere Informationen finden Sie unter [Aktualisierung der Abschnittsübersicht](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+   Die Aktualisierungen und Antworten werden dem Dokument und den übergeordneten Objekten hinzugefügt. Weitere Informationen finden Sie unter [Übersicht über den Abschnitt &quot;Aktualisieren&quot;](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 ## Antworten zu Testkommentaren für Dokumente hinzufügen
 
 Wenn Sie im Bereich &quot;Updates&quot;auf einen Kommentar antworten, den ein Benutzer beim Testen eines Dokuments erstellt hat, wird der Testversand-Viewer gestartet, damit Sie dort Ihre Antwort mit dem benötigten Kontext eingeben können. Ihre Antwort wird sowohl im Testversand-Viewer als auch im Bereich Updates für das Dokument angezeigt.
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 1. Suchen Sie das gewünschte Dokument.
 
-1. Klicks **Testversand ausfüllen**, geben Sie den Kommentar in den zu startenden Testversand-Viewer ein und klicken Sie dann auf **Antwort**.
+1. Klicken Sie auf **Im Testversand antworten**, geben Sie den Kommentar in den startenden Testversand-Viewer ein und klicken Sie dann auf **Antworten**.
 
-   Informationen zum Eingeben von Kommentaren und Antworten in den Testversand-Viewer finden Sie unter [Kommentar zu einem Testversand](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+   Wenn Sie Informationen zum Eingeben von Kommentaren und Antworten in den Testversand-Viewer benötigen, finden Sie weitere Informationen unter [Kommentar zu einem Testversand](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).

@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Business] oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -40,28 +40,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL View] Zugriff auf Portfolio oder höher</p> <p>[!UICONTROL] Zugriff auf Projekte bearbeiten</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] Zugriff auf Portfolio oder höher</p> <p>[!UICONTROL Zugriff auf Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL View] Berechtigungen für das Portfolio</p> <p>[!UICONTROL Verwalten] Berechtigungen für Projekte</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] Berechtigungen für das Portfolio</p> <p>[!UICONTROL Verwalten] Berechtigungen für Projekte</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Hinzufügen eines Projekts zu einem Portfolio
 
-1. Wechseln Sie zu einem Portfolio und klicken Sie auf **[!UICONTROL Projekte]** im linken Bereich.
+1. Wechseln Sie zu einem Portfolio und klicken Sie dann im linken Bereich auf **[!UICONTROL Projekte]** .
 
    ![](assets/qs-portfolio-with-projects-350x90.png)
 
-1. Klicken **[!UICONTROL Neues Projekt]** und wählen Sie eine Methode zum Hinzufügen eines Projekts aus.
+1. Klicken Sie auf **[!UICONTROL Neues Projekt]** und wählen Sie eine Methode zum Hinzufügen eines Projekts aus.
 
    >[!TIP]
    >
-   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte im [!UICONTROL Milestone] anzeigen.
+   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht [!UICONTROL Milestone] anzeigen.
 
    Wählen Sie aus den folgenden Optionen aus:
 
@@ -75,15 +75,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Neues Projekt]</td> 
-      <td> <p>Fügen Sie ein neues Projekt hinzu. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Projekt erstellen</a>. </p> </td> 
+      <td> <p>Hinzufügen eines neuen Projekts. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Erstellen eines Projekts</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Projekt importieren aus [!DNL MS Project]] </td> 
-      <td> <p>Fügen Sie ein Projekt hinzu, aus dem Sie zuvor exportiert haben [!DNL MS Project] und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project], siehe <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importieren eines Projekts aus [!DNL Microsoft Project]</a>.</p> </td> 
+      <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
+      <td> <p>Fügen Sie ein Projekt hinzu, das Sie zuvor aus [!DNL MS Project] exportiert und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project] finden Sie unter <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importieren eines Projekts aus [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
-      <td> <p>Fordern Sie an, dass ein Projekt genehmigt wurde.</p> <p>Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
+      <td> <p>Fordern Sie an, dass ein Projekt genehmigt wurde.</p> <p>Weitere Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Neu aus Vorlage]</td> 
@@ -94,10 +94,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Bedingt) Wenn Sie ausgewählt haben, um ein vorhandenes Projekt hinzuzufügen, beginnen Sie mit der Eingabe des Namens eines Projekts im **[!UICONTROL Projekte hinzufügen]** und klicken Sie auf sie, wenn sie in der Liste angezeigt werden. Sie können mehrere Projekte gleichzeitig hinzufügen.
+1. (Bedingt) Wenn Sie ausgewählt haben, um ein vorhandenes Projekt hinzuzufügen, geben Sie den Namen eines Projekts in das Feld **[!UICONTROL Projekte hinzufügen]** ein und klicken Sie dann auf das Projekt, sobald es in der Liste angezeigt wird. Sie können mehrere Projekte gleichzeitig hinzufügen.
 
    ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
-1. Klicken **[!UICONTROL Projekte hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Projekte hinzufügen]**.
 
    Das ausgewählte Projekt bzw. die ausgewählten Projekte sind jetzt mit dem Portfolio verknüpft.

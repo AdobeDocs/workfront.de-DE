@@ -21,13 +21,13 @@ Damit diese automatische Statusänderung eintritt, ist Folgendes erforderlich:
 
 * Das Problem muss über eine Anforderungswarteschlange eingegeben werden.
 
-  Informationen zum Erstellen von Anforderungswarteschlangen finden Sie in der [Erstellen und Verwalten von Anforderungswarteschlangen](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) Abschnitt. Informationen zum Erstellen von Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Informationen zum Erstellen von Anforderungswarteschlangen finden Sie im Abschnitt [Erstellen und Verwalten von Anforderungswarteschlangen](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) . Informationen zum Erstellen von Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * Die Warteschlangendetails in der Anforderungswarteschlange müssen die folgenden Einstellungen aufweisen:
-   * **Wenn jemand eine Anfrage stellt, gewähren Sie automatisch** auf **Beitragszugriff**
-   * **Status ändern** ist unter Erweiterte Einstellungen ausgewählt
+   * **Wenn jemand eine Anfrage sendet, wird automatisch &quot;grant**&quot;auf **Contribute Access** gesetzt
+   * **Status ändern** ist unter Erweiterte Einstellungen ausgewählt.
 
-  ![Mit den Warteschlangendetails können Sie festlegen, dass der Status &quot;Beitragszugriff&quot;und &quot;Änderungsstatus&quot;ausgewählt ist.](assets/queuedetails-contributeaccess-changestatus.png)
+  ![In den Warteschlangendetails wird der Contribute-Zugriffs- und Änderungsstatus ausgewählt.](assets/queuedetails-contributeaccess-changestatus.png)
 
   >[!IMPORTANT]
   >

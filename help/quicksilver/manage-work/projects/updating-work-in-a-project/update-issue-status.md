@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Problemstatus
 
@@ -86,8 +86,8 @@ Sie können den Problemstatus in den folgenden Bereichen von Workfront aktualisi
 So aktualisieren Sie den Problemstatus in der Kopfzeile des Problems manuell:
 
 1. Gehen Sie zu einem Problem, bei dem Sie den Status aktualisieren möchten.
-1. Klicken Sie auf **Status** in der Kopfzeile des Problems ein und wählen Sie einen neuen Status aus.
-1. Um einen visuellen Hinweis zum Abschluss von Problemen anzuzeigen, ziehen Sie die Blase unter **Prozent abgeschlossen** im Header des Problems
+1. Klicken Sie in der Kopfzeile des Problems auf das Feld **Status** und wählen Sie einen neuen Status aus.
+1. Um einen visuellen Hinweis zum Abschluss des Problems anzuzeigen, ziehen Sie die Blase unter **Prozent abgeschlossen** in die Kopfzeile des Problems
 
    Oder
 
@@ -97,12 +97,12 @@ So aktualisieren Sie den Problemstatus in der Kopfzeile des Problems manuell:
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um zusätzliche Informationen über die Aktualisierung bereitzustellen:
 
-   * Um einen Hinweis zur Aktualisierung hinzuzufügen, navigieren Sie zum **Updates** und klicken Sie auf **Neuer Kommentar**, und geben Sie eine Notiz ein.
+   * Um einen Hinweis zur Aktualisierung hinzuzufügen, gehen Sie zum Abschnitt **Aktualisierungen** und klicken Sie auf **Neuer Kommentar**. Geben Sie dann einen Hinweis ein.
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * Um bestimmte Benutzer über die Aktualisierung zu benachrichtigen, geben Sie deren Namen in das **Personen oder Teams taggen** -Feld, das angezeigt wird, wenn Sie einen Kommentar eingeben. Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Um das Datum des Versands des Problems zu aktualisieren, klicken Sie auf **Problemdetails**, bearbeiten Sie dann die **Datum der Übermittlung** -Feld. Weitere Informationen finden Sie unter [Probleme bearbeiten](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+   * Um bestimmte Benutzer über die Aktualisierung zu benachrichtigen, geben Sie deren Namen in das Feld **Personen oder Teams taggen** ein, das angezeigt wird, wenn Sie einen Kommentar eingeben. Weitere Informationen finden Sie unter [Taggen anderer Benutzer bei Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Um das Datum des Versands des Problems zu aktualisieren, klicken Sie auf **Problemdetails** und bearbeiten Sie dann das Feld **Datum des Versands ändern** . Weitere Informationen finden Sie unter [Probleme bearbeiten](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 
    >[!IMPORTANT]
@@ -161,12 +161,12 @@ Workfront aktualisiert den Status eines Problems automatisch in einen anderen St
   <tr> 
    <td>Status eines auflösenden Objekts aktualisieren, das an das Problem angehängt ist</td> 
    <td>Verschiedene Status</td> 
-   <td> <p>Verschiedene Status</p> <p>Informationen zum Auflösen von Objekten und deren Auswirkungen auf den Status von Problemen finden Sie im Artikel unter "Synchronisieren des Status des auflösbaren Objekts mit dem des auflösenden Objekts". <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Übersicht über das Auflösen und Auflösen von Objekten </a>.</p> </td> 
+   <td> <p>Verschiedene Status</p> <p>Informationen zum Auflösen von Objekten und deren Auswirkungen auf den Status von Problemen finden Sie im Abschnitt "Synchronisieren des Status des auflösbaren Objekts mit dem des auflösenden Objekts"im Artikel <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Überblick über auflösende und auflösbare Objekte </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Klicken Sie auf die Schaltfläche Problem starten , um die Bearbeitung eines Ihnen zugewiesenen Problems zu akzeptieren.</span> </td> 
+   <td><span>Klicken Sie auf die Schaltfläche Problem starten , um die Arbeit an einem Ihnen zugewiesenen Problem zu akzeptieren.</span> </td> 
    <td><span>Neu</span> </td> 
-   <td> <p>Jeder Status, der mit der Schaltfläche Problem starten in den Einstellungen des Startseiten-Teams verknüpft ist. </p> <p>Informationen zum Ersetzen der Schaltfläche "Work On It"durch die Schaltfläche "Start Issue"(Problem starten) finden Sie unter <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch die Schaltfläche Start</a></span><span>.</span> </p> <p>Tipp: Klicken <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Schaltfläche "Rückgängig"</span> Wenn Sie auf Problem starten klicken, wird der Status auf Neu zurückgesetzt. </p> </td> 
+   <td> <p>Jeder Status, der mit der Schaltfläche Problem starten in den Einstellungen des Startseiten-Teams verknüpft ist. </p> <p>Informationen zum Ersetzen der Schaltfläche "Work On It"durch die Schaltfläche "Start Issue"finden Sie unter <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start"</a></span><span></span>. </p> <p>Tipp: Wenn Sie auf <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">die Schaltfläche "Rückgängig"</span> klicken, nachdem Sie auf "Problem starten"geklickt haben, wird der Status auf "Neu"zurückgesetzt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Erstellen [!DNL Adobe Workfront] Aufgaben von [!DNL Microsoft] Teams
-description: Sie können persönliche Aufgaben in Adobe erstellen [!DNL Workfront] von Microsoft Teams aus, wenn der Teameigentümer installiert und konfiguriert hat [!DNL Workfront] für Microsoft Teams für Ihr Team, und Sie werden von Microsoft Teams aus bei Workfront angemeldet.
+title: Erstellen von [!DNL Adobe Workfront] Aufgaben aus [!DNL Microsoft] Teams
+description: Sie können persönliche Aufgaben in Adobe [!DNL Workfront] aus Microsoft Teams erstellen, wenn ein Teaminhaber [!DNL Workfront] für Microsoft Teams für Ihr Team installiert und konfiguriert hat und Sie von Microsoft Teams aus bei Workfront angemeldet sind.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Erstellen [!DNL Adobe Workfront] Aufgaben von [!DNL Microsoft Teams]
+# [!DNL Adobe Workfront] Aufgaben aus [!DNL Microsoft Teams] erstellen
 
 >[!NOTE]
 >
@@ -38,50 +38,50 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
-Sie können persönliche Aufgaben in [!DNL Adobe Workfront] von [!DNL Microsoft Teams] wenn die folgenden Bedingungen erfüllt sind:
+Sie können persönliche Aufgaben in [!DNL Adobe Workfront] von [!DNL Microsoft Teams] erstellen, wenn die folgenden Bedingungen erfüllt sind:
 
-* Ein Teameigentümer hat [!DNL Workfront for Microsoft Teams] für Ihr Team.
-* Sie sind angemeldet [!DNL Workfront] von [!DNL Microsoft Teams].
+* Ein Teaminhaber hat [!DNL Workfront for Microsoft Teams] für Ihr Team installiert und konfiguriert.
+* Sie sind von [!DNL Microsoft Teams] bei [!DNL Workfront] angemeldet.
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] unterstützt nicht mehr [!DNL Internet Explorer]. So verwenden Sie die [!DNL Adobe Workfront for Microsoft Teams] -Integration verwenden, müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] unterstützt [!DNL Internet Explorer] nicht mehr. Um die Integration von [!DNL Adobe Workfront for Microsoft Teams] zu verwenden, müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer] verwenden.
 
-Informationen zur Installation [!DNL Workfront for Microsoft Teams] und sich bei [!UICONTROL Workfront] von [!DNL Microsoft Teams], siehe [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] und zum Anmelden bei [!UICONTROL Workfront] von [!DNL Microsoft Teams] finden Sie unter [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-## Erstellen persönlicher Aufgaben aus [!DNL Microsoft Teams]
+## Persönliche Aufgaben von [!DNL Microsoft Teams] erstellen
 
-1. Anmelden bei [!DNL Workfront] von [!DNL Microsoft Teams].
+1. Melden Sie sich bei [!DNL Workfront] von [!DNL Microsoft Teams] an.
 
-   Informationen zur Anmeldung bei [!DNL Workfront], siehe [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+   Informationen zur Anmeldung bei [!DNL Workfront] finden Sie unter [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. So öffnen Sie eine **[!UICONTROL Neue Aufgabe]** Karte:
+1. So öffnen Sie eine **[!UICONTROL Neue Aufgabe]** -Karte:
 
-   * Wenn Sie sich im [!DNL Workfront] Bot-Chat-Kanal, Typ **[!UICONTROL Neue Aufgabe]** im [!UICONTROL Gespräch] -Feld, um eine neue Aufgabe zu erstellen.
-   * Wenn Sie sich in einem anderen Chat-Kanal als dem [!DNL Workfront] Bot-Chat-Kanal:
+   * Wenn Sie sich im Bot-Chat-Kanal [!DNL Workfront] befinden, geben Sie **[!UICONTROL Neue Aufgabe]** in das Feld [!UICONTROL Konversation] ein, um eine neue Aufgabe zu erstellen.
+   * Wenn Sie sich in einem anderen Chat-Kanal als dem Bot-Chat-Kanal [!DNL Workfront] befinden:
 
-      * Typisierung beginnen **[!DNL @workfront]** im [!UICONTROL Gespräch] und wählen Sie anschließend die [!DNL Workfront] Bot-Kanal, den Sie möchten.
-      * Weitere Typisierung **[!UICONTROL Neue Aufgabe]** im [!UICONTROL Gespräch] -Feld, um eine neue Aufgabe zu erstellen.
+      * Beginnen Sie mit der Eingabe von **[!DNL @workfront]** in das Feld [!UICONTROL Konversation] und wählen Sie dann den gewünschten Bot-Kanal [!DNL Workfront] aus.
+      * Fahren Sie mit der Eingabe **[!UICONTROL Neue Aufgabe]** in das Feld [!UICONTROL Konversation] fort, um eine neue Aufgabe zu erstellen.
 
-        Die [!UICONTROL Neue Aufgabe] -Karte in der [!DNL Workfront] Bot-Kanal.
+        Die Karte [!UICONTROL Neue Aufgabe] wird im Bot-Kanal [!DNL Workfront] angezeigt.
 
         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
-1. Im [!UICONTROL Workfront] Bot-Kanal: Geben Sie die folgenden Informationen im [!UICONTROL Neue Aufgabe] Karte:
+1. Geben Sie im Bot-Kanal [!UICONTROL Workfront] die folgenden Informationen auf der Karte [!UICONTROL Neue Aufgabe] an:
 
-   * Aufgabenname im **[!UICONTROL Den Titel der Aufgabe schreiben]** -Feld.
-   * Aufgabenbeschreibung im **[!UICONTROL Beschreibung der Aufgaben schreiben]** -Feld.
-   * Das Datum, an dem die Aufgabe abgeschlossen werden muss, im **[!UICONTROL Fälligkeitsdatum]** -Feld.
+   * Aufgabenname im Feld **[!UICONTROL Titel der Aufgabe schreiben]** .
+   * Aufgabenbeschreibung im Feld **[!UICONTROL Schreiben Sie die Beschreibung der Aufgaben]**.
+   * Das Datum, an dem die Aufgabe abgeschlossen werden muss, im Feld **[!UICONTROL Fälligkeitsdatum]** .
 
-1. Klicks **[!UICONTROL Speichern].**
+1. Klicken Sie auf **[!UICONTROL Speichern].**
 
-   Die neue persönliche Aufgabe wird in [!DNL Workfront]. A [!UICONTROL Referenznummer] zugewiesen ist und auf der [!UICONTROL neue Aufgabe] Karte.
+   Die neue persönliche Aufgabe wird in [!DNL Workfront] erstellt. Der Aufgabe wird eine [!UICONTROL Referenznummer] zugewiesen und auf der Karte [!UICONTROL neue Aufgabe] angezeigt.
 
-   Weitere Informationen zu Referenznummern finden Sie in der [[!UICONTROL Referenznummern] von Objekten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) im Abschnitt [Objekte in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) Artikel.
+   Weitere Informationen zu Referenznummern finden Sie im Abschnitt [[!UICONTROL Referenznummern] von Objekten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) im Artikel [Objekte in  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) verstehen.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Bearbeiten]** , um die Aufgabeninformationen weiter zu bearbeiten.
-1. (Optional) Klicken Sie auf **[!UICONTROL Anzeigen in[!DNL Workfront]]** , um die Aufgabe in einer neuen Registerkarte in [!DNL Workfront] und bearbeiten Sie die Aufgabe weiter, verschieben Sie sie in ein Projekt oder weisen Sie sie einer anderen Person zu.
+1. (Optional) Klicken Sie auf **[!UICONTROL Anzeigen in[!DNL Workfront]]** , um die Aufgabe in einer neuen Registerkarte in [!DNL Workfront] zu öffnen und die Aufgabe weiter zu bearbeiten, sie in ein Projekt zu verschieben oder sie einer anderen Person zuzuweisen.

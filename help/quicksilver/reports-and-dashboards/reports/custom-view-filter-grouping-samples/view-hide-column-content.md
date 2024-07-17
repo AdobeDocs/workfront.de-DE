@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,9 @@ Möglicherweise möchten Sie Informationen in der Spalte einer Ansicht ausblende
 >[!TIP]
 >
 >* Sie können ausgeblendete Spalten verwenden, um nach einem bestimmten Objekt zu sortieren, das nicht in der Ansicht angezeigt werden soll.\
-   >  Sie können beispielsweise in einer Aufgabenansicht nach Aufgabennummer sortieren und die Informationen zur Aufgabennummer in der Ansicht ausblenden. In diesem Fall hilft das Objekt, auf das in der Spalte verwiesen wird, die Ansicht zu sortieren, die Informationen dieses Objekts werden jedoch nicht in der Ansicht angezeigt.
+>  Sie können beispielsweise in einer Aufgabenansicht nach Aufgabennummer sortieren und die Informationen zur Aufgabennummer in der Ansicht ausblenden. In diesem Fall hilft das Objekt, auf das in der Spalte verwiesen wird, die Ansicht zu sortieren, die Informationen dieses Objekts werden jedoch nicht in der Ansicht angezeigt.
 >* Wenn Sie eine Spalte ausblenden, beachten Sie, dass die Informationen in der Spalte ausgeblendet sind, die Spalte jedoch noch in der Ansicht vorhanden ist.
 >
-
 
 ## Zugriffsanforderungen
 
@@ -36,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -51,7 +50,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,15 +60,15 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Beispiel: Sortieren und Ausblenden der Spalte &quot;Task Number&quot;in einer Aufgabenansicht:
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
+1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
 
-1. Klicken **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Task Number&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen** und beginnen Sie mit der Eingabe &quot;Aufgabennummer&quot;im Feld **In dieser Spalte anzeigen** und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
 
-   <pre><strong>display name=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueFormat=int<br><strong>width=0</strong></pre>Die wichtigsten Änderungen in diesem Code, durch die die Spalte ausgeblendet wird, sind:
+   <pre><strong>displayName=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueFormat=int<br><strong>width=0</strong></pre>Die wichtigsten Änderungen in diesem Code, die die Spalte ausblenden, sind:
 
    ```
    displayname
@@ -81,12 +80,12 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    valuefield
    ```
 
-   Dies wurde durch *value*, und muss leer sein.
+   Dieser Wert wurde durch den Wert *1} ersetzt und muss leer sein.*
 
    ```
    width
    ```
 
-   : Je nach Feld muss der Wert *0* oder *1*.
+   : Abhängig vom Feld muss dieser den Wert *0* oder *1* haben.
 
-1. Klicken **Speichern**, dann **Ansicht speichern**.
+1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.

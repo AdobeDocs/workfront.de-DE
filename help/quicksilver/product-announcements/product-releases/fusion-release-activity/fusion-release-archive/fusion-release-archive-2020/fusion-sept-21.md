@@ -23,7 +23,7 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Woche vom 21
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 ## Wählen Sie Eingabefelder aus, wenn Sie die Module Workfront > Datensatz aktualisieren oder Workfront > Datensatz erstellen verwenden
 

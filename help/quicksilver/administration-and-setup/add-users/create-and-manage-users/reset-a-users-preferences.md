@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Voreinstellungen
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Präferenz</strong> </th> 
+   <th><strong>Voreinstellung</strong> </th> 
    <th><strong>Status nach dem Zurücksetzen</strong> </th> 
   </tr> 
  </thead> 
@@ -90,7 +90,7 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Voreinstellungen
   </tr> 
   <tr> 
    <td>Benutzereinstellungen</td> 
-   <td> <p>Auf den Systemstandard zurückgesetzt</p> <p>E-Mail-Benachrichtigungen werden wieder auf die Systemstandardwerte zurückgesetzt. Die Standardbenachrichtigungen sind in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">In Adobe Workfront verfügbare Ereignisbenachrichtigungen</a>.</p> </td> 
+   <td> <p>Auf den Systemstandard zurückgesetzt</p> <p>E-Mail-Benachrichtigungen werden wieder auf die Systemstandardwerte zurückgesetzt. Die Standardbenachrichtigungen sind in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">In Adobe Workfront</a> verfügbare Ereignisbenachrichtigungen aufgeführt.</p> </td> 
   </tr> 
   <tr> 
    <td>Benutzerdefinierte benutzerdefinierte Registerkarten</td> 
@@ -107,10 +107,10 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Voreinstellungen
 
 {{step-1-to-setup}}
 
-1. Auswählen **Anmelden als**.
+1. Wählen Sie **Anmelden als** aus.
 1. Geben Sie den Namen des Benutzers ein, dessen Voreinstellungen Sie zurücksetzen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
-1. Auswählen  **Anmelden**.
-1. Fügen Sie im Feld URL oben im Webbrowser `/resetUser` after `workfront.com`.
+1. Wählen Sie **Anmelden** aus.
+1. Fügen Sie im Feld URL oben im Webbrowser `/resetUser` nach `workfront.com` hinzu.
 
    >[!NOTE]
    >
@@ -118,9 +118,9 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Voreinstellungen
    >
    >`https://company_domain.my.workfront.com/resetUser`
 
-1. Presse **Eingabe**.
-1. Um alle Benutzereinstellungen zurückzusetzen, wählen Sie **Zurücksetzen**.
+1. Drücken Sie die Taste **Enter**.
+1. Um alle Benutzereinstellungen zurückzusetzen, wählen Sie **Zurücksetzen** aus.
 
    Oder
 
-   Um nur benutzerdefinierte Registerkarten zurückzusetzen, wählen Sie **Zurücksetzen von Registerkarten**.
+   Um nur benutzerdefinierte Registerkarten zurückzusetzen, wählen Sie **Registerkarten zurücksetzen** aus.

@@ -9,7 +9,7 @@ role: Admin
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 In diesem Dokument wird beschrieben, wie Sie Hilfe beim Wiederherstellen einzelner untergeordneter Objekte erhalten, die in weniger als 30 Tagen zuvor aus Ihrer Adobe Workfront-Produktions- oder Vorschau-Umgebung gelöscht wurden.
 
-Ein Workfront-Administrator kann Projekte, Aufgaben, Probleme und Dokumente in jeder Workfront-Instanz wiederherstellen, wie unter [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). Nur das Workfront-Datenbankteam kann Objekte wie Aufgaben, Probleme, Dokumente, benutzerdefinierte Formulare, Stunden und Notizen unabhängig vom übergeordneten Objekt wiederherstellen.
+Ein Workfront-Administrator kann Projekte, Aufgaben, Probleme und Dokumente in jeder Workfront-Instanz wiederherstellen, wie unter [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) beschrieben. Nur das Workfront-Datenbankteam kann Objekte wie Aufgaben, Probleme, Dokumente, benutzerdefinierte Formulare, Stunden und Notizen unabhängig vom übergeordneten Objekt wiederherstellen.
 
 Daten aus Ihrer Live-Umgebung stehen in der Vorschau-Sandbox für bis zu 7 Tage zur Verfügung. Dies bedeutet, dass Sie die eigenständigen Daten mithilfe der folgenden Methoden aus der Sandbox-Vorschau exportieren können:
 
@@ -30,13 +30,13 @@ Weitere Informationen zum Exportieren von Daten aus Workfront finden Sie unter [
 Sie können die exportierten Daten wie folgt importieren:
 
 * Manuell, wenn Sie exportierte Berichte verwenden
-* Wenn Sie Kick-Starts als Ganzes verwenden
+* Wenn Sie Kick-Starts gemeinsam verwenden
 
-   Weitere Informationen zum Importieren von Daten in Workfront mithilfe von Kick-Starts finden Sie unter [Daten mithilfe einer Kick-Start-Vorlage in Adobe Workfront importieren](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Weitere Informationen zum Importieren von Daten in Workfront mithilfe von Kick-Starts finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kick-Start-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 Die Vorschau-Sandbox-Umgebung wird während unserer Wartungsfenster am Wochenende aktualisiert.
 
-Weitere Informationen zu den Wartungsfenstern für die Sandbox-Vorschauumgebung finden Sie unter [die Statussite der Adobe](https://status.adobe.com/de).
+Weitere Informationen zu den Wartungsfenstern für die Vorschau-Sandbox-Umgebung finden Sie unter [Adobe-Status-Site](https://status.adobe.com/de).
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ Nachdem Sie festgestellt haben, dass ein gelöschtes Objekt von unserem Datenban
 * Geschätztes Datum und Uhrzeit der Löschung
 * Objekt-GUID (sofern möglich)
 
-   Beachten Sie beim Suchen der GUID eines Objekts die folgenden Informationen:
+  Beachten Sie beim Suchen der GUID eines Objekts die folgenden Informationen:
 
    * Die GUID kann gefunden werden, indem auf E-Mail-Benachrichtigungen verwiesen wird, die durch die Interaktion mit dem Objekt ausgelöst werden (Zuweisungen an , Kommentare usw.)
    * Beispiel einer GUID am Ende einer URL: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`

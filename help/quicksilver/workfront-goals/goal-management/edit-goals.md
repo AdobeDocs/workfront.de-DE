@@ -77,7 +77,7 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Bearbeiten von Zielen
 
@@ -145,7 +145,7 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png)Klicken Sie auf **Ziele**.\
+1. Klicken Sie auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ziele**.\
    Eine Liste der Ziele wird angezeigt.
 1. Klicken Sie auf ein Ziel.\
    Die Zielseite wird angezeigt.
@@ -154,8 +154,8 @@ Editing goals differs depending on what environment you use.
 
 1. Führen Sie einen der folgenden Schritte aus, um Informationen für das Ziel zu bearbeiten:
    * Klicken Sie auf Felder, die in der Zielkopfzeile angezeigt werden, um sie zu aktualisieren. Es können nicht alle Felder in der Kopfzeile bearbeitet werden.
-   * Klicken Sie auf **Weitere Symbole** ![](assets/more-icon.png) rechts neben dem Zielnamen, klicken Sie auf **Bearbeiten**.
-   * Klicks **Zieldetails** im linken Bereich und klicken Sie auf die **Symbol Bearbeiten** ![](assets/edit-icon.png) in der oberen rechten Ecke und klicken Sie auf **Alle bearbeiten**. Aktualisieren Sie die Felder im Abschnitt Zieldetails .
+   * Klicken Sie auf das Symbol &quot;**Mehr&quot;** ![](assets/more-icon.png) rechts neben dem Zielnamen und klicken Sie dann auf &quot;**Bearbeiten**&quot;.
+   * Klicken Sie im linken Bereich auf **Zieldetails** und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png) oben rechts. Klicken Sie dann auf **Alle bearbeiten**. Aktualisieren Sie die Felder im Abschnitt Zieldetails .
 
      >[!IMPORTANT]
      >
@@ -166,26 +166,26 @@ Editing goals differs depending on what environment you use.
    * Aktualisieren Sie die folgenden Informationen in der Ziel-Kopfzeile und drücken Sie dann die Eingabetaste , um Ihre Änderungen zu speichern:
       * **Zielname**: Klicken Sie auf den Namen des Ziels und geben Sie einen neuen Namen ein.
       * **Inhaber**: Klicken Sie auf den Namen des Eigentümers, geben Sie den Namen eines Benutzers, Teams, einer Gruppe oder Ihres Unternehmens ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Sie können nur einen Inhaber für ein Ziel haben.
-   * Aktualisieren Sie die folgenden Informationen im Feld Ziel bearbeiten und klicken Sie auf **Speichern**:
+   * Aktualisieren Sie die folgenden Informationen im Feld &quot;Ziel bearbeiten&quot;und klicken Sie dann auf **Speichern**:
       * **Zielname**
       * **Zeitraum**: Klicken Sie auf , um den Zeitraum für das Ziel zu aktualisieren.\
         Oder\
-        Auswählen **Benutzerdefinierte Datumswerte aktivieren** zum Angeben von Daten für die **Starten** und **Enddaten**.
+        Wählen Sie **Benutzerdefinierte Datumswerte aktivieren** aus, um die Datumsangaben für das Ziel **Start** und das Enddatum **Enddatum** anzugeben.
 
         >[!TIP]
         >
-        >Auswahl deaktivieren **Benutzerdefinierte Datumswerte aktivieren** , um zum ursprünglichen Zeitraum für das Ziel zurückzukehren.
+        >Deaktivieren Sie **Benutzerdefinierte Datumswerte aktivieren** , um zum ursprünglichen Zeitraum für das Ziel zurückzukehren.
 
-      * **Goal Owner**
+      * **Zieleigentümer**
       * **Beschreibung**: Fügen Sie Informationen zum Ziel hinzu oder aktualisieren Sie diese.
-   * Aktualisieren oder überprüfen Sie die Informationen im Abschnitt Zieldetails . Weitere Informationen finden Sie unter [Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;in Adobe Workfront-Zielen](../goal-management/update-goals-in-goal-details-panel.md).
+   * Aktualisieren oder überprüfen Sie die Informationen im Abschnitt Zieldetails . Weitere Informationen finden Sie unter [Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;unter Adobe Workfront-Ziele](../goal-management/update-goals-in-goal-details-panel.md).
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. (Optional) Klicken Sie auf **Fortschrittsanzeigen** im linken Bereich, um dem Ziel Ergebnisse, Aktivitäten oder Projekte hinzuzufügen. Durch das Hinzufügen von Fortschrittsanzeigen können Sie sicherstellen, dass Sie den Fortschritt des Ziels verfolgen können.
+1. (Optional) Klicken Sie im linken Bereich auf **Fortschrittsanzeigen** , um dem Ziel Ergebnisse, Aktivitäten oder Projekte hinzuzufügen. Durch das Hinzufügen von Fortschrittsanzeigen können Sie sicherstellen, dass Sie den Fortschritt des Ziels verfolgen können.
 Weitere Informationen finden Sie in den folgenden Artikeln:
    * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-activities-to-goals.md)
-   * [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-results-to-goals.md).
-   * [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../results-and-activities/connect-projects-to-goals-overview.md).
+   * [Fügen Sie Ergebnisse zu Zielen in Adobe Workfront-Zielen hinzu](../results-and-activities/add-results-to-goals.md).
+   * [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../results-and-activities/connect-projects-to-goals-overview.md).
 
 </div>

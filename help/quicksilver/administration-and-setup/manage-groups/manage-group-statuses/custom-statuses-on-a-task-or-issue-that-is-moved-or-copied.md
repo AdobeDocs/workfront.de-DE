@@ -21,7 +21,7 @@ Wenn Sie eine Aufgabe oder ein Problem in ein anderes Projekt verschieben oder k
 
 * Wenn ein Status für die Aufgabe oder das Problem denselben Schlüssel wie ein Status hat, der von der Gruppe des Zielprojekts verwendet wird, bleibt der Status für die Aufgabe oder das Problem derselbe.
 
-   Wenn die Bezeichnung dieser beiden Status nicht übereinstimmt, übernimmt der Status der Aufgabe oder des Problems die Bezeichnung des Status, der von der Gruppe des Zielprojekts verwendet wird.
+  Wenn die Bezeichnung dieser beiden Status nicht übereinstimmt, übernimmt der Status der Aufgabe oder des Problems die Bezeichnung des Status, der von der Gruppe des Zielprojekts verwendet wird.
 
 * Wenn ein Status in der Aufgabe oder in einem Problem nicht denselben Schlüssel wie der entsprechende Status in der Gruppe des Zielprojekts hat, ändert sich der Status in der Aufgabe oder des Problems in den entsprechenden Standardstatus in der Gruppe des Zielprojekts.
 

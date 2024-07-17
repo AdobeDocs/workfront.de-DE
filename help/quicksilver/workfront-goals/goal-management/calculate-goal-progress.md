@@ -23,7 +23,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -57,7 +57,7 @@ Nachdem Sie ein Ziel aktiviert haben, beginnt Workfront Goals mit der Berechnung
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
 * [Tatsächliche prozentuale Fertigstellung](#actual-percent-complete)
-* [Erwartetes Prozent abgeschlossen](#expected-percent-complete)
+* [Erwarteter prozentualer Abschluss](#expected-percent-complete)
 * [Fortschritt und Bedingung](#progress)
 
 ### Tatsächliche prozentuale Fertigstellung {#actual-percent-complete}
@@ -143,7 +143,7 @@ In der folgenden Tabelle sind die Zielbedingungsbeschriftungen und die mit den e
    <td><img src="assets/new-goal-icon-condition.png" alt="new_target_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>In Target</span> </p> </td> 
+   <td> <p><span>Auf Ziel</span> </p> </td> 
    <td>Das Ziel erreicht die Erwartungen und es besteht eine große Wahrscheinlichkeit, dass es rechtzeitig abgeschlossen wird. </td> 
    <td>90-100 %</td> 
    <td>Grün</td> 
@@ -157,7 +157,7 @@ In der folgenden Tabelle sind die Zielbedingungsbeschriftungen und die mit den e
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
-   <td> <p><span>In Schwierigkeiten</span> </p> </td> 
+   <td> <p><span>In Trouble</span> </p> </td> 
    <td> <p>Es ist sehr wahrscheinlich, dass das Ziel nicht rechtzeitig abgeschlossen wird. </p> </td> 
    <td>0-69,99%</td> 
    <td>Rot</td> 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Berichterstellungsverbesserungen beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Neues Erscheinungsbild für das Zuweisungsfeld in aktualisierten Listen und Berichten
 
@@ -58,6 +58,6 @@ Um dem modernen Erscheinungsbild anderer Bereiche des neuen Workfront-Erlebnisse
 * Wenn Sie auf ein Typeahead-Feld klicken, wird jetzt das Menü mit Vorschlägen angezeigt, bevor Sie Text eingeben.
 * Das Menü &quot;Vorschläge&quot;reagiert besser auf die Länge der Werte. Diese Werte werden jetzt am Ende abgeschnitten, wenn die Zeichenbeschränkung erreicht wird, und nicht in der Mitte des Werts.
 
-Informationen zu aktualisierten Listen finden Sie in der [Der Unterschied zwischen der aktualisierten und der alten Liste](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) im Artikel [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Informationen zu aktualisierten Listen finden Sie im Abschnitt [Unterschied zwischen der aktualisierten und der alten Liste](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) im Artikel [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) .
 
 ![](assets/typeahead-updates-350x336.png)

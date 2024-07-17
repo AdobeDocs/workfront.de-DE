@@ -12,25 +12,25 @@ feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '4485'
+source-wordcount: '4070'
 ht-degree: 0%
 
 ---
 
 
-# [!UICONTROL GitLab] Module
+# [!UICONTROL GitLab] -Module
 
 Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
 
-In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!UICONTROL GitLab], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
+In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!UICONTROL GitLab] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 
 >[!NOTE]
 >
->Dieser Artikel erwartet einige Kenntnisse der API-Dokumentation und [!DNL GitLab] -Funktion im Allgemeinen.
+>Dieser Artikel erwartet einige Kenntnisse der API-Dokumentation und der Funktionen von [!DNL GitLab] im Allgemeinen.
 
-Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
@@ -41,7 +41,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -51,29 +51,29 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Verbinden [!DNL GitLab] nach [!DNL Workfront Fusion] {#connect-gitlab-to-workfront-fusion}
+## [!DNL GitLab] mit [!DNL Workfront Fusion] verbinden {#connect-gitlab-to-workfront-fusion}
 
-1. In jeder [!DNL Workfront Fusion] [!DNL Gitlab] Modul, klicken Sie auf **[!UICONTROL Hinzufügen]** neben dem Verbindungsfeld.
+1. Klicken Sie in einem beliebigen [!DNL Workfront Fusion] [!DNL Gitlab] -Modul neben dem Verbindungsfeld auf **[!UICONTROL Hinzufügen]** .
 1. Konfigurieren Sie die folgenden Felder:
 
    <table style="table-layout:auto"> 
@@ -86,24 +86,24 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL [!DNL GitLab] URL]</td> 
-      <td>Geben Sie die URL Ihrer [!DNL GitLab] -Instanz.</td> 
+      <td>Geben Sie die URL Ihrer [!DNL GitLab] -Instanz ein.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Zugriffstoken]</td> 
-      <td><p>Geben Sie Ihren [!UICONTROL Private Token] oder [!UICONTROL Personal Access Token] ein.</p><p>Informationen zum Suchen oder Erstellen eines persönlichen Zugriffstokens finden Sie unter [!DNL GitLab]finden Sie unter "Erstellen eines persönlichen Zugriffstokens"in <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Token für den persönlichen Zugriff</a> im [!DNL GitLab] Dokumentation.</p></td> 
+      <td><p>Geben Sie Ihren [!UICONTROL Private Token] oder [!UICONTROL Personal Access Token] ein.</p><p>Informationen zum Suchen oder Erstellen eines persönlichen Zugriffstokens in [!DNL GitLab] finden Sie unter "Erstellen eines persönlichen Zugriffstokens"in <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Persönliche Zugriffstoken</a> in der Dokumentation zu [!DNL GitLab].</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 
-1. Klicks **[!UICONTROL Weiter]**.
-1. Klicks **[!UICONTROL Autorisieren]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
+1. Klicken Sie auf **[!UICONTROL Weiter]**.
+1. Klicken Sie auf **[!UICONTROL Autorisieren]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
 
 ## [!DNL GitLab] Module und ihre Felder
 
-Bei der Konfiguration [!DNL GitLab] Module, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL GitLab] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie [!DNL GitLab] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL GitLab] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -119,7 +119,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn sich der Status eines Bu
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Build-Statusänderungen überwacht werden soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Build-Statusänderungen überwacht werden soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -136,14 +136,14 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn ein Kommentar zu einem C
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Kommentare überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Kommentare überwachen soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Überwachen von Commits (Push)]**
++++**[!UICONTROL Überwachen von Commits (pushes)]**
 
 Dieses Instant Trigger-Modul startet ein Szenario, wenn ein Commit in ein Repository gesendet wird. Dieses Modul startet kein Szenario, wenn ein Tag gepusht wird.
 
@@ -153,14 +153,14 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn ein Commit in ein Reposi
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Commits überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Commits überwachen soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Bemerkung zum Problem beobachten]**
++++**[!UICONTROL Behobener Problemkommentar anzeigen]**
 
 Dieses Instant Trigger-Modul startet ein Szenario, wenn zu einem Problem ein Kommentar abgegeben wird.
 
@@ -170,7 +170,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn zu einem Problem ein Kom
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Problemkommentare überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Problemkommentare überwachen soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -179,7 +179,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn zu einem Problem ein Kom
 
 +++**[!UICONTROL Überwachungsprobleme]**
 
-Diese [!UICONTROL Instant Trigger] startet ein Szenario, wenn ein Problem erstellt oder ein vorhandenes Problem aktualisiert, geschlossen oder erneut geöffnet wird.
+Dieses [!UICONTROL Instant Trigger]-Modul startet ein Szenario, wenn ein Problem erstellt wird oder ein vorhandenes Problem aktualisiert, geschlossen oder erneut geöffnet wird.
 
 <table style="table-layout:auto"> 
    <col> 
@@ -187,14 +187,14 @@ Diese [!UICONTROL Instant Trigger] startet ein Szenario, wenn ein Problem erstel
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Probleme überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Probleme überwachen soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Zusammenführungsanforderungen überwachen]**
++++**[!UICONTROL Zusammenführungsanfragen überwachen]**
 
 Dieses Instant Trigger-Modul startet ein Szenario, wenn eines der folgenden Ereignisse eintritt:
 
@@ -209,7 +209,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn eines der folgenden Erei
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Zusammenführungsanfragen überwacht werden soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Zusammenführungsanfragen überwacht werden soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -226,7 +226,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn ein Kommentar für eine 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Zusammenführungsanfragekommentare überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Zusammenführungsanfragekommentare überwachen soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -243,14 +243,14 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn sich der Status einer Pi
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Pipeline-Statusänderungen überwacht werden soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Pipeline-Statusänderungen überwacht werden soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Projekte überwachen]**
++++**[!UICONTROL Projekte ansehen]**
 
 Dieses Modul für geplante Trigger startet ein Szenario, wenn ein neues Projekt hinzugefügt wird, dem der authentifizierte Benutzer angehört.
 
@@ -260,7 +260,7 @@ Dieses Modul für geplante Trigger startet ein Szenario, wenn ein neues Projekt 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL GitLab] -Konto [!DNL Workfront] Fusion, siehe <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] nach [!DNL Workfront] Fusion</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Verbinden Ihres [!DNL GitLab]-Kontos mit [!DNL Workfront] Fusion finden Sie in diesem Artikel unter <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] mit [!DNL Workfront] Fusion</a> .</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Max Ergebnisse</td> 
@@ -271,7 +271,7 @@ Dieses Modul für geplante Trigger startet ein Szenario, wenn ein neues Projekt 
 
 +++
 
-+++**[!UICONTROL Repository-Zweige überwachen]**
++++**[!UICONTROL Repository-Verzweigungen beobachten]**
 
 Dieses geplante Trigger-Modul startet ein Szenario, wenn einem Repository eine neue Verzweigung hinzugefügt wird.
 
@@ -281,7 +281,7 @@ Dieses geplante Trigger-Modul startet ein Szenario, wenn einem Repository eine n
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL GitLab] -Konto [!DNL Workfront] Fusion, siehe <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] nach [!DNL Workfront] Fusion</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Verbinden Ihres [!DNL GitLab]-Kontos mit [!DNL Workfront] Fusion finden Sie in diesem Artikel unter <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] mit [!DNL Workfront] Fusion</a> .</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Max Ergebnisse</td> 
@@ -302,14 +302,14 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn ein Tag in einem Reposit
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Tags überwacht werden soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das vom Webhook auf Tags überwacht werden soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Kommentare zu Snippets ansehen]**
++++**[!UICONTROL Snippet-Kommentare ansehen]**
 
 Dieses Instant Trigger-Modul startet ein Szenario, wenn ein neuer Kommentar zu einem Snippet erstellt wird.
 
@@ -319,18 +319,18 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn ein neuer Kommentar zu e
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Kommentare überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Kommentare überwachen soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL Überwachungstools]**
++++**[!UICONTROL TODOS ansehen]**
 
 Dieses geplante Trigger-Modul startet ein Szenario, wenn ein neues Tool hinzugefügt wird. Wenn kein Filter angewendet wird, wird der Trigger ausgeführt, wenn ein neues ausstehendes Tool hinzugefügt wird.
 
-Informationen zu Feldern finden Sie unter [Liste der Aufgaben abrufen](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Abrufen einer Liste von zu dos](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -344,7 +344,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn eine Wiki-Seite erstellt
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicks <b>[!UICONTROL Hinzufügen]</b> neben dem [!UICONTROL Webhook]-Feld.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Wiki-Seiten überwachen soll</li></ul></li><li>Klicks <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
+   <td><p>Wählen Sie den Webhook aus, den Sie für diesen Trigger verwenden möchten, oder fügen Sie einen neuen Webhook hinzu. </p><p>Um einen neuen Webhook hinzuzufügen, <ol><li>Klicken Sie neben dem Feld [!UICONTROL Webhook] auf <b>[!UICONTROL Hinzufügen]</b>.</li><li>Geben Sie Folgendes ein: <ul><li>Ein Name für den Webhook</li><li>Die Verbindung, die Sie für diesen Webhook verwenden möchten</li><li>Das Projekt, das der Webhook auf Wiki-Seiten überwachen soll</li></ul></li><li>Klicken Sie auf <b>[!UICONTROL Save]</b> , um den Webhook zu speichern und zum Modul zurückzukehren. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -357,7 +357,7 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn eine Wiki-Seite erstellt
 
 Dieses Aktionsmodul führt gesendete Änderungen mit der angegebenen Zusammenführungsanforderung zusammen.
 
-Informationen zu Feldern finden Sie unter [Anfrage zum Zusammenführen akzeptieren](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Anfrage zum Zusammenführen akzeptieren](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -371,7 +371,7 @@ Dieses Aktionsmodul bricht einen einzelnen Build eines Projekts ab.
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL GitLab] -Konto [!DNL Workfront] Fusion, siehe <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] nach [!DNL Workfront] Fusion</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Verbinden Ihres [!DNL GitLab]-Kontos mit [!DNL Workfront] Fusion finden Sie in diesem Artikel unter <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL GitLab] mit [!DNL Workfront] Fusion</a> .</td> 
    </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL Projekt-ID]</td> 
@@ -403,83 +403,83 @@ Dieses Aktionsmodul bricht einen einzelnen Build eines Projekts ab.
 
 +++
 
-+++**[!UICONTROL Pipeline-Builds abbrechen]**
++++**[!UICONTROL Abbrechen der Builds einer Pipeline]**
 
 Dieses Aktionsmodul bricht die Builds für eine einzelne Pipeline ab.
 
-Informationen zu Feldern finden Sie unter [Abbrechen der Aufträge einer Pipeline](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Abbrechen von Vorgängen einer Pipeline](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) in der [!DNL GitLab] -Dokumentation.
 
 +++
 
-+++**[!UICONTROL Abbrechen der Zusammenführung bei erfolgreichem Pipelinevorgang]**
++++**[!UICONTROL Zusammenführung abbrechen, wenn die Pipeline erfolgreich ist]**
 
 Wenn eine Zusammenführungsanfrage so eingestellt ist, dass sie beim Erfolg einer Pipeline zusammengeführt wird, bricht dieses Aktionsmodul diese Aktion ab.
 
-Informationen zu Feldern finden Sie unter [Abbrechen der Zusammenführung bei erfolgreichem Pipelinevorgang](https://docs.gitlab.com/ee/api/merge_requests.html) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Zusammenführung abbrechen, wenn die Pipeline erfolgreich ist](https://docs.gitlab.com/ee/api/merge_requests.html) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Cherry wählt einen Commit]**
++++**[!UICONTROL Vererben wählt einen Commit]**
 
 Diese Aktionsmodul-Kirsche wählt eine Bindung zu einem bestimmten Zweig aus.
 
-Informationen zu Feldern finden Sie unter [Cherry wählt einen Commit](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auswahl eines Commit](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Neue Bezeichnung erstellen]**
++++**[!UICONTROL Erstellen einer neuen Bezeichnung]**
 
 Dieses Aktionsmodul erstellt eine neue Bezeichnung für das angegebene Repository.
 
-Informationen zu Feldern finden Sie unter [Neue Bezeichnung erstellen](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Erstellen einer neuen Beschriftung](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Neue Pipeline erstellen]**
++++**[!UICONTROL Erstellen einer neuen Pipeline]**
 
 Dieses Aktionsmodul erstellt eine neue Pipeline für das jeweilige Projekt.
 
-Informationen zu Feldern finden Sie unter [Neue Pipeline erstellen](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Erstellen einer neuen Pipeline](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Neue Version erstellen]**
++++**[!UICONTROL Erstellen einer neuen Version]**
 
 Dieses Aktionsmodul fügt dem vorhandenen Git-Tag Versionshinweise hinzu.
 
-Informationen zu Feldern finden Sie unter [Erstellen einer Version](https://docs.gitlab.com/ee/api/releases/#create-a-release) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Release erstellen](https://docs.gitlab.com/ee/api/releases/#create-a-release) in der Dokumentation zu [!DNL GitLab] .
 
 +++
 
-+++**[!UICONTROL Neues Tag erstellen]**
++++**[!UICONTROL Erstellen eines neuen Tags]**
 
 Dieses Aktionsmodul erstellt ein neues Tag im Repository, das auf die bereitgestellte Referenz verweist.
 
-Informationen zu Feldern finden Sie unter [Neues Tag erstellen](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Neues Tag erstellen](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag) in der Dokumentation zu [!DNL GitLab] .
 
 +++
 
-+++**[!UICONTROL Erstellen eines Tools]**
++++**[!UICONTROL Erstellen eines TODO]**
 
 Dieses Aktionsmodul erstellt ein Tool für den aktuellen Benutzer zum ausgewählten Problem. Der aktuelle Benutzer ist der Benutzer, der durch die Anmeldeinformationen der für dieses Modul verwendeten Verbindung identifiziert wird.
 
-Informationen zu Feldern finden Sie unter [Erstellen Sie eine Aufgabe](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Erstellen eines Aufgabenbereichs](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Erstellen eines Tools für eine Zusammenführungsanforderung]**
++++**[!UICONTROL Erstellen eines TODO für eine Zusammenführungsanforderung]**
 
 Dieses Aktionsmodul erstellt für den aktuellen Benutzer ein todo für die ausgewählte Zusammenführungsanforderung. Der aktuelle Benutzer ist der Benutzer, der durch die Anmeldeinformationen der für dieses Modul verwendeten Verbindung identifiziert wird.
 
-Informationen zu Feldern finden Sie unter [Erstellen von Aufgaben](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Erstellen eines Aufgabenbereichs](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Zusammenführungsanforderung erstellen]**
++++**[!UICONTROL Erstellen einer Zusammenführungsanforderung]**
 
 Dieses Aktionsmodul erstellt eine neue Zusammenführungsanforderung für ein Projekt.
 
-Informationen zu Feldern finden Sie unter [Zusammenführungsanforderung erstellen](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Zusammenführungsanfrage erstellen](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -487,23 +487,23 @@ Informationen zu Feldern finden Sie unter [Zusammenführungsanforderung erstelle
 
 Dieses Aktionsmodul erstellt eine neue Datei im ausgewählten Repository.
 
-Informationen zu Feldern finden Sie unter [Neue Datei im Repository erstellen](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Neue Datei im Repository erstellen](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Neues Problem-Hinweis erstellen]**
++++**[!UICONTROL Erstellen Sie eine neue Problembeschreibung]**
 
 Dieses Aktionsmodul erstellt einen Problemhinweis für ein einzelnes Projektproblem.
 
-Informationen zu Feldern finden Sie unter [Neues Problem-Hinweis erstellen](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Neues Problem erstellen](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Neue Zusammenführungsanforderung erstellen]**
++++**[!UICONTROL Erstellen Sie eine neue Notiz für die Zusammenführungsanforderung]**
 
 Dieses Aktionsmodul erstellt eine Notiz für eine einzelne Zusammenführungsanforderung.
 
-Informationen zu Feldern finden Sie unter [Neue Zusammenführungsanforderung erstellen](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) im [!DNL GitLab] Dokumentation.
+Weitere Informationen zu Feldern finden Sie unter [Neue Notiz für Zusammenführungsanfragen erstellen](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -511,7 +511,7 @@ Informationen zu Feldern finden Sie unter [Neue Zusammenführungsanforderung ers
 
 Dieses Aktionsmodul erstellt einen neuen Meilenstein für ein Projekt.
 
-Informationen zu Feldern finden Sie unter [Erstellen neuer Meilensteine](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Neuen Meilenstein erstellen](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) in der Dokumentation zu [!DNL GitLab] .
 
 +++
 
@@ -519,7 +519,7 @@ Informationen zu Feldern finden Sie unter [Erstellen neuer Meilensteine](https:/
 
 Dieses Aktionsmodul erstellt eine neue Notiz für ein einzelnes Snippet. Snippet-Hinweise sind Kommentare, die Benutzer in einem Snippet posten können.
 
-Informationen zu Feldern finden Sie unter [Neue Codefragment-Notiz erstellen](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) im [!DNL GitLab] Dokumentation.
+Weitere Informationen zu Feldern finden Sie unter [Neues Snippet-Hinweis erstellen](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) in der Dokumentation zu [!DNL GitLab] .
 
 +++
 
@@ -527,7 +527,7 @@ Informationen zu Feldern finden Sie unter [Neue Codefragment-Notiz erstellen](ht
 
 Dieses Aktionsmodul erstellt eine einzelne Repository-Verzweigung.
 
-Informationen zu Feldern finden Sie unter [Repository-Verzweigung erstellen](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Repository-Verzweigung erstellen](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -535,15 +535,15 @@ Informationen zu Feldern finden Sie unter [Repository-Verzweigung erstellen](htt
 
 Dieses Aktionsmodul erstellt eine neue Build-Variable.
 
-Informationen zu Feldern finden Sie unter [Variable erstellen](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Variable erstellen](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Zusammenführungsanforderung löschen]**
++++**[!UICONTROL Löschen einer Zusammenführungsanforderung]**
 
 Dieses Aktionsmodul ist nur für Administratoren und Projekteigentümer geeignet. Löscht die fragliche Zusammenführungsanforderung
 
-Informationen zu Feldern finden Sie unter [Zusammenführungsanforderung löschen](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Eine Zusammenführungsanforderung löschen](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -551,7 +551,7 @@ Informationen zu Feldern finden Sie unter [Zusammenführungsanforderung löschen
 
 Dieses Aktionsmodul löscht eine vorhandene Datei aus dem Repository.
 
-Informationen zu Feldern finden Sie unter [Vorhandene Datei im Repository löschen](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Vorhandene Datei im Repository löschen](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -559,7 +559,7 @@ Informationen zu Feldern finden Sie unter [Vorhandene Datei im Repository lösch
 
 Dieses Aktionsmodul löscht eine Verzweigung aus dem Repository.
 
-Informationen zu Feldern finden Sie unter [Repository-Verzweigung löschen](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Repository-Verzweigung löschen](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -567,30 +567,30 @@ Informationen zu Feldern finden Sie unter [Repository-Verzweigung löschen](http
 
 Dieses Aktionsmodul aktualisiert ein vorhandenes Projektproblem. Dieser Aufruf wird auch verwendet, um ein Problem als geschlossen zu kennzeichnen.
 
-Informationen zu Feldern finden Sie unter [Problem bearbeiten](https://docs.gitlab.com/ee/api/issues.html#edit-issue) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Problem bearbeiten](https://docs.gitlab.com/ee/api/issues.html#edit-issue) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Milestone bearbeiten]**
++++**[!UICONTROL Meilenstein bearbeiten]**
 Dieses Aktionsmodul aktualisiert einen vorhandenen Projekt-Meilenstein.
 
-Informationen zu Feldern finden Sie unter [Meilenstein bearbeiten](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Meilenstein bearbeiten](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Build löschen]**
++++**[!UICONTROL Löschen eines Builds]**
 
 Dieses Aktionsmodul löscht einen Build eines Projekts (entfernt Auftragsartefakte und Auftragsprotokolle).
 
-Informationen zu Feldern finden Sie unter [Auftrag löschen](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auftrag löschen](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Eine Liste mit Tools abrufen]**
++++**[!UICONTROL Liste der Aufgaben abrufen]**
 
 Dieses Suchmodul ruft eine Liste von zu erledigenden Elementen ab.
 
-Informationen zu Feldern finden Sie unter [Liste der Aufgaben abrufen](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Abrufen einer Liste von zu dos](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -598,7 +598,7 @@ Informationen zu Feldern finden Sie unter [Liste der Aufgaben abrufen](https://d
 
 Dieses Aktionsmodul ruft einen einzelnen Auftrag eines Projekts ab.
 
-Informationen zu Feldern finden Sie unter [Einen einzigen Auftrag erhalten](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Einen einzelnen Auftrag abrufen](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) in der Dokumentation zu [!DNL GitLab] .
 
 +++
 
@@ -606,7 +606,7 @@ Informationen zu Feldern finden Sie unter [Einen einzigen Auftrag erhalten](http
 
 Dieses Aktionsmodul ruft ein bestimmtes Repository-Tag ab, das durch seinen Namen bestimmt wird.
 
-Informationen zu Feldern finden Sie unter [Abrufen eines einzelnen Repository-Tags](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Abrufen eines einzelnen Repository-Tags](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) in der [!DNL GitLab] -Dokumentation.
 
 +++
 
@@ -614,15 +614,15 @@ Informationen zu Feldern finden Sie unter [Abrufen eines einzelnen Repository-Ta
 
 Dieses Aktionsmodul ruft eine bestimmte Bereitstellung ab.
 
-Informationen zu Feldern finden Sie unter [Bestimmte Bereitstellung abrufen](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Bestimmte Bereitstellung abrufen](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Abrufen aller Probleme, die einem einzelnen Meilenstein zugewiesen sind]**
++++**[!UICONTROL Abrufen aller Probleme, die einem einzigen Meilenstein zugewiesen sind]**
 
 Dieses Suchmodul ruft alle Probleme ab, die einem einzelnen Projekt-Meilenstein zugewiesen sind.
 
-Informationen zu Feldern finden Sie unter [Abrufen aller Probleme, die einem einzelnen Meilenstein zugewiesen sind](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Alle Probleme einem einzigen Meilenstein zuweisen](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -630,15 +630,15 @@ Informationen zu Feldern finden Sie unter [Abrufen aller Probleme, die einem ein
 
 Dieses Aktionsmodul ruft Informationen zu einer Datei im Repository ab, z. B. Name, Größe oder Inhalt.
 
-Informationen zu Feldern finden Sie unter [Datei aus Repository abrufen](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Datei aus Repository abrufen](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Abrufen von Projektbenutzern]**
++++**[!UICONTROL Projektbenutzer abrufen]**
 
 Dieses Suchmodul ruft die Benutzer des Projekts ab.
 
-Informationen zu Feldern finden Sie unter [Abrufen von Projektbenutzern](https://docs.gitlab.com/ee/api/projects.html#get-project-users) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Projektbenutzer abrufen](https://docs.gitlab.com/ee/api/projects.html#get-project-users) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -652,7 +652,7 @@ Dieses Aktionsmodul ruft Problemdetails ab.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Informationen zum Erstellen einer neuen Verbindung finden Sie unter <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] zu Workfront Fusion]</a> in diesem Artikel.</td> 
+   <td>Informationen zum Erstellen einer neuen Verbindung finden Sie unter <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] to Workfront Fusion]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Projekt]</td> 
@@ -671,7 +671,7 @@ Dieses Aktionsmodul ruft Problemdetails ab.
 
 Dieses Aktionsmodul ruft eine einzelne Notiz für ein bestimmtes Projektproblem ab.
 
-Informationen zu Feldern finden Sie unter [Einzelne Problembeschreibung abrufen](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Einzelne Problembeschreibung abrufen](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) in der [!DNL GitLab] -Dokumentation.
 
 +++
 
@@ -679,39 +679,39 @@ Informationen zu Feldern finden Sie unter [Einzelne Problembeschreibung abrufen]
 
 Dieses Aktionsmodul ruft Informationen zu einer einzelnen Zusammenführungsanfrage ab.
 
-Informationen zu Feldern finden Sie unter [Einzelne Zusammenführungsanforderung abrufen](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) im [!DNL GitLab] Dokumentation.
+Weitere Informationen zu Feldern finden Sie unter [Einzelne Zusammenführungsanforderung abrufen](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) in der [!DNL GitLab] -Dokumentation.
 
 +++
 
-+++**[!UICONTROL Einzelne Zusammenführungsanforderungsänderungen abrufen]**
++++**[!UICONTROL Einzelne Änderungen an Zusammenführungsanfragen abrufen]**
 
 Dieses Suchmodul ruft Informationen über die Zusammenführungsanforderung ab, einschließlich der zugehörigen Dateien und Änderungen.
 
-Informationen zu Feldern finden Sie unter [Einzelne Zusammenführungsanforderungsänderungen abrufen](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Abrufen von Änderungen an einzelnen Zusammenführungsanfragen](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Abrufen einzelner Zusammenführungsanforderungsbefehle]**
++++**[!UICONTROL Abrufen einzelner Zusammenführungsanforderungszusagen]**
 
 Dieses Aktionsmodul ruft eine Liste von Zusammenführungsanforderungscommits ab.
 
-Informationen zu Feldern finden Sie unter [Abrufen einzelner Zusammenführungsanforderungsbefehle](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) im [!DNL GitLab] Dokumentation.
+Weitere Informationen zu Feldern finden Sie unter [Get single merge request commits](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) in der [!DNL GitLab] -Dokumentation.
 
 +++
 
-+++**[!UICONTROL Abrufen einer einzelnen Zusammenführungsanfrage]**
++++**[!UICONTROL Hinweis für eine einzelne Zusammenführungsanforderung abrufen]**
 
 Dieses Aktionsmodul gibt eine einzelne Notiz für eine bestimmte Zusammenführungsanforderung zurück.
 
-Informationen zu Feldern finden Sie unter [Abrufen einer einzelnen Zusammenführungsanfrage](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Hinweis zur einzelnen Zusammenführungsanfrage abrufen](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Milestone abrufen]**
++++**[!UICONTROL Einen Milestone abrufen]**
 
 Dieses Aktionsmodul ruft Meilensteindetails ab.
 
-Informationen zu Feldern finden Sie unter [Abrufen einzelner Meilensteine](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Einzelne Meilensteine abrufen](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -719,7 +719,7 @@ Informationen zu Feldern finden Sie unter [Abrufen einzelner Meilensteine](https
 
 Dieses Aktionsmodul ruft Projektdetails ab.
 
-Informationen zu Feldern finden Sie unter [Einzelnes Projekt abrufen](https://docs.gitlab.com/ee/api/projects.html#get-single-project) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Einzelnes Projekt abrufen](https://docs.gitlab.com/ee/api/projects.html#get-single-project) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -727,15 +727,15 @@ Informationen zu Feldern finden Sie unter [Einzelnes Projekt abrufen](https://do
 
 Dieses Aktionsmodul ruft Details zu Repository-Verzweigungen ab.
 
-Informationen zu Feldern finden Sie unter [Abrufen einer einzelnen Repository-Verzweigung](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Abrufen einer einzelnen Repository-Verzweigung](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) in der [!DNL GitLab] -Dokumentation.
 
 +++
 
-+++**[!UICONTROL Codeausschnitt-Hinweis abrufen]**
++++**[!UICONTROL Codeausschnitt-Notiz abrufen]**
 
 Dieses Modul ruft eine einzelne Notiz für ein bestimmtes Snippet ab.
 
-Informationen zu Feldern finden Sie unter [Einen einzelnen Codeausschnitt-Hinweis abrufen](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Einen einzelnen Codeausschnitt-Hinweis abrufen](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -743,15 +743,15 @@ Informationen zu Feldern finden Sie unter [Einen einzelnen Codeausschnitt-Hinwei
 
 Dieses Suchmodul ruft Kommentare zu einem Commit in einem Projekt ab.
 
-Informationen zu Feldern finden Sie unter [Abrufen der Kommentare zu einem Commit](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Abrufen der Kommentare zu einem Commit](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Den Vergleich eines Commit abrufen]**
++++**[!UICONTROL Abrufen des Vergleichs eines Commit]**
 
 Dieses Aktionsmodul erhält den Vergleich eines Commit in einem Projekt.
 
-Informationen zu Feldern finden Sie unter [Den Vergleich eines Commit abrufen](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Abrufen des Vergleichs eines Commit](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -759,27 +759,27 @@ Informationen zu Feldern finden Sie unter [Den Vergleich eines Commit abrufen](h
 
 Verhindert, dass Artefakte gelöscht werden, wenn der Ablauf festgelegt ist.
 
-Informationen zu Feldern finden Sie unter [Artefakte beibehalten](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Artefakte beibehalten](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Alle Zusammenführungsanforderungsnotizen auflisten]**
++++**[!UICONTROL Alle Notizen zur Zusammenführungsanforderung auflisten]**
 
 Dieses Suchmodul ruft eine Liste aller Hinweise für eine einzelne Zusammenführungsanforderung ab.
 
-Informationen zu Feldern finden Sie unter [Alle Zusammenführungsanforderungsnotizen auflisten](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auflisten aller Notizen von Zusammenführungsanfragen](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Alle Codeausschnitt-Notizen auflisten]**
++++**[!UICONTROL Alle Codefragmentnotizen auflisten]**
 
 Dieses Modul erhält eine Liste aller Hinweise für ein einzelnes Snippet. Snippet-Hinweise sind Kommentare, die Benutzer in einem Snippet posten können.
 
-Informationen zu Feldern finden Sie unter [??](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [?](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Commit-Builds auflisten]**
++++**[!UICONTROL Auflisten von Commit-Builds]**
 
 Dieses Suchmodul gibt eine Liste von Builds für einen bestimmten Commit in einem Projekt zurück.
 
@@ -789,7 +789,7 @@ Dieses Suchmodul gibt eine Liste von Builds für einen bestimmten Commit in eine
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Informationen zum Erstellen einer neuen Verbindung finden Sie unter <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] zu Workfront Fusion]</a> in diesem Artikel.</td> 
+   <td>Informationen zum Erstellen einer neuen Verbindung finden Sie unter <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] to Workfront Fusion]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Projekt-ID]</td> 
@@ -808,7 +808,7 @@ Dieses Suchmodul gibt eine Liste von Builds für einen bestimmten Commit in eine
 
 Dieses Suchmodul gibt alle Probleme anhand der angegebenen Filtereinstellungen zurück.
 
-Informationen zu Feldern finden Sie unter [Listenprobleme](https://docs.gitlab.com/ee/api/issues.html#list-issues) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Listenprobleme](https://docs.gitlab.com/ee/api/issues.html#list-issues) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -816,7 +816,7 @@ Informationen zu Feldern finden Sie unter [Listenprobleme](https://docs.gitlab.c
 
 Dieses Suchmodul ruft alle Probleme ab, die durch Zusammenführen der bereitgestellten Zusammenführungsanfrage geschlossen werden würden.
 
-Informationen zu Feldern finden Sie unter [Auflisten von Problemen, die beim Zusammenführen geschlossen werden](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Listen-Probleme, die beim Zusammenführen geschlossen werden](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -824,23 +824,23 @@ Informationen zu Feldern finden Sie unter [Auflisten von Problemen, die beim Zus
 
 Dieses Suchmodul ruft alle Bezeichnungen im Projekt ab.
 
-Informationen zu Feldern finden Sie unter [Listenbeschriftungen](https://docs.gitlab.com/ee/api/labels.html#list-labels) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Listen-Beschriftungen](https://docs.gitlab.com/ee/api/labels.html#list-labels) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Zusammenführungsanforderungen auflisten]**
++++**[!UICONTROL Auflisten von Zusammenführungsanforderungen]**
 
 Dieses Suchmodul ruft alle Zusammenführungsanfragen anhand der Filtereinstellungen ab.
 
-Informationen zu Feldern finden Sie unter [Zusammenführungsanforderungen auflisten](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Listen-Zusammenführungsanfragen](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Liste eigener Projekte]**
++++**[!UICONTROL Eigene Projekte auflisten]**
 
 Dieses Suchmodul ruft Projekte ab, bei denen der authentifizierte Benutzer als Eigentümer festgelegt ist.
 
-Informationen zu Feldern finden Sie unter [Benutzerprojekte auflisten](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auflisten von Benutzerprojekten](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -848,7 +848,7 @@ Informationen zu Feldern finden Sie unter [Benutzerprojekte auflisten](https://d
 
 Dieses Suchmodul ruft eine Liste von Builds in einem Projekt ab.
 
-Informationen zu Feldern finden Sie unter [Auflisten von Projektaufträgen](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auflisten von Projektaufträgen](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -856,15 +856,15 @@ Informationen zu Feldern finden Sie unter [Auflisten von Projektaufträgen](http
 
 Dieses Suchmodul ruft eine Liste von Bereitstellungen in einem Projekt ab.
 
-Informationen zu Feldern finden Sie unter [Auflisten von Projektbereitstellungen](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auflisten von Projektbereitstellungen](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments) in der Dokumentation [!DNL GitLab] .
 
 +++
 
-+++**[!UICONTROL Projektprobleme auflisten]**
++++**[!UICONTROL Auflisten von Projektproblemen]**
 
 Dieses Suchmodul ruft eine Liste aller Hinweise zu einem einzelnen Problem ab.
 
-Informationen zu Feldern finden Sie unter [Projektprobleme auflisten](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Hinweise zu Projektproblemen auflisten](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) in der Dokumentation zu [!DNL GitLab] .
 
 +++
 
@@ -872,7 +872,7 @@ Informationen zu Feldern finden Sie unter [Projektprobleme auflisten](https://do
 
 Dieses Suchmodul gibt alle Probleme in einem angegebenen Projekt zurück.
 
-Informationen zu Feldern finden Sie unter [Projektprobleme auflisten](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auflisten von Projektproblemen](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -880,7 +880,7 @@ Informationen zu Feldern finden Sie unter [Projektprobleme auflisten](https://do
 
 Dieses Suchmodul ruft alle Meilensteine im Projekt ab.
 
-Informationen zu Feldern finden Sie unter [Projekt-Meilensteine auflisten](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auflisten von Projekt-Meilensteinen](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones) in der Dokumentation zu [!DNL GitLab] .
 
 +++
 
@@ -888,7 +888,7 @@ Informationen zu Feldern finden Sie unter [Projekt-Meilensteine auflisten](https
 
 Dieses Suchmodul ruft alle Pipelines für das Projekt ab.
 
-Informationen zu Feldern finden Sie unter [Projekt-Pipelines auflisten](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auflisten von Projekt-Pipelines](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -896,15 +896,15 @@ Informationen zu Feldern finden Sie unter [Projekt-Pipelines auflisten](https://
 
 Dieses Suchmodul ruft eine Liste von Repository-Tags aus einem Projekt ab, sortiert nach Namen in umgekehrter alphabetischer Reihenfolge.
 
-Informationen zu Feldern finden Sie unter [Projekt-Repository-Tags auflisten](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auflisten von Projekt-Repository-Tags](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Auflisten von Projektvariablen]**
++++**[!UICONTROL Projektvariablen auflisten]**
 
 Dieses Suchmodul ruft eine Liste der Variablen eines Projekts ab.
 
-Informationen zu Feldern finden Sie unter [Auflisten von Projektvariablen](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auflisten von Projektvariablen](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -912,7 +912,7 @@ Informationen zu Feldern finden Sie unter [Auflisten von Projektvariablen](https
 
 Dieses Suchmodul ruft alle Projekte ab, denen der authentifizierte Benutzer angehört.
 
-Informationen zu Feldern finden Sie unter [Alle Projekte auflisten](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Alle Projekte auflisten](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) in der Dokumentation zu [!DNL GitLab] .
 
 +++
 
@@ -920,7 +920,7 @@ Informationen zu Feldern finden Sie unter [Alle Projekte auflisten](https://docs
 
 Dieses Modul sucht nach Repository-Verzweigungen anhand des Suchbegriffs.
 
-Informationen zu Feldern finden Sie unter [Repository-Verzweigungen auflisten](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auflisten von Repository-Verzweigungen](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) in der [!DNL GitLab] -Dokumentation.
 
 +++
 
@@ -928,7 +928,7 @@ Informationen zu Feldern finden Sie unter [Repository-Verzweigungen auflisten](h
 
 Dieses Suchmodul ruft eine Liste von Repository-Commits in einem Projekt ab.
 
-Informationen zu Feldern finden Sie unter [Repository-Commits auflisten](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Repository-Commits auflisten](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -936,7 +936,7 @@ Informationen zu Feldern finden Sie unter [Repository-Commits auflisten](https:/
 
 Dieses Suchmodul ruft eine Repository-Beitragsliste ab.
 
-Informationen zu Feldern finden Sie unter [Mitarbeiter](https://docs.gitlab.com/ee/api/repositories.html#contributors) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Mitwirkende](https://docs.gitlab.com/ee/api/repositories.html#contributors) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -944,31 +944,31 @@ Informationen zu Feldern finden Sie unter [Mitarbeiter](https://docs.gitlab.com/
 
 Dieses Suchmodul ruft eine Liste von Repository-Dateien und -Verzeichnissen in einem Projekt ab.
 
-Informationen zu Feldern finden Sie unter [Repository-Struktur auflisten](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Repository-Struktur auflisten](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Kennzeichnen eines Todo wie erledigt]**
++++**[!UICONTROL Markieren Sie einen Todo wie getan]**
 
 Dieses Aktionsmodul markiert ein einzelnes ausstehendes Aufgabenelement, das durch seine Kennung für den aktuellen Benutzer wie erledigt angegeben wird.
 
-Informationen zu Feldern finden Sie unter [Markieren Sie ein Element, um es wie erledigt zu tun](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Markieren Sie ein Element, um es wie getan auszuführen](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done) in der [!DNL GitLab] -Dokumentation.
 
 +++
 
-+++**[!UICONTROL Vorhandenen Problemhinweis ändern]**
++++**[!UICONTROL Ändern Sie die vorhandene Problembeschreibung]**
 
 Ändert eine vorhandene Anmerkung zu einem Problem.
 
-Informationen zu Feldern finden Sie unter [Vorhandenen Problemhinweis ändern](https://docs.gitlab.com/ee/api/notes.html#modify-existing-issue-note) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Vorhandenen Problemvermerk ändern](https://docs.gitlab.com/ee/api/notes.html#modify-existing-issue-note) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Vorhandenen Merge-Anforderungshinweis ändern]**
++++**[!UICONTROL Änderung der vorhandenen Notiz für Zusammenführungsanforderungen]**
 
 Ändert die vorhandene Notiz einer Zusammenführungsanforderung.
 
-Informationen zu Feldern finden Sie unter [Vorhandenen Merge-Anforderungshinweis ändern](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Notiz vorhandener Zusammenführungsanfragen ändern](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -976,7 +976,7 @@ Informationen zu Feldern finden Sie unter [Vorhandenen Merge-Anforderungshinweis
 
 Dieses Aktionsmodul ändert eine vorhandene Notiz eines Snippets.
 
-Informationen zu Feldern finden Sie unter [Vorhandenen Codefragment-Hinweis ändern](https://docs.gitlab.com/ee/api/notes.html#modify-existing-snippet-note) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Vorhandenen Codeabschnitt ändern](https://docs.gitlab.com/ee/api/notes.html#modify-existing-snippet-note) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -984,7 +984,7 @@ Informationen zu Feldern finden Sie unter [Vorhandenen Codefragment-Hinweis änd
 
 Dieses Aktionsmodul erstellt ein neues Projektproblem.
 
-Informationen zu Feldern finden Sie unter [Neues Problem](https://www.integromat.com/en/help/app/gitlab) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Neues Problem](https://www.integromat.com/en/help/app/gitlab) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -992,15 +992,15 @@ Informationen zu Feldern finden Sie unter [Neues Problem](https://www.integromat
 
 Dieses Aktionsmodul Trigger eine manuelle Aktion zum Starten eines Auftrags.
 
-Informationen zu Feldern finden Sie unter [Auftrag abspielen](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Auftrag abspielen](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) in der Dokumentation zu [!DNL GitLab] .
 
 +++
 
-+++**[!UICONTROL Kommentar posten, um zu übertragen]**
++++**[!UICONTROL Post-Kommentar zum Bestätigen]**
 
 Dieses Aktionsmodul fügt einem Commit einen Kommentar hinzu.
 
-Informationen zu Feldern finden Sie unter [Kommentar posten, um zu übertragen](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) im [!DNL GitLab] Dokumentation.
+Weitere Informationen zu Feldern finden Sie unter [Post-Kommentar zu commit](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) in der [!DNL GitLab] -Dokumentation.
 
 +++
 
@@ -1008,11 +1008,11 @@ Informationen zu Feldern finden Sie unter [Kommentar posten, um zu übertragen](
 
 Dieses Aktionsmodul entfernt die -Variable eines Projekts.
 
-Informationen zu Feldern finden Sie unter [Variable entfernen](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Variable entfernen](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Build erneut erstellen]**
++++**[!UICONTROL Erneutes Ausführen eines Builds]**
 
 Dieses Aktionsmodul versucht erneut einen einzelnen Build in einem Commit.
 
@@ -1022,7 +1022,7 @@ Dieses Aktionsmodul versucht erneut einen einzelnen Build in einem Commit.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Informationen zum Erstellen einer neuen Verbindung finden Sie unter <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] zu Workfront Fusion]</a> in diesem Artikel.</td> 
+   <td>Informationen zum Erstellen einer neuen Verbindung finden Sie unter <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] to Workfront Fusion]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Projekt-ID]</td> 
@@ -1041,7 +1041,7 @@ Dieses Aktionsmodul versucht erneut einen einzelnen Build in einem Commit.
 
 Dieses Aktionsmodul versucht erneut fehlgeschlagene Builds in einer Pipeline.
 
-Informationen zu Feldern finden Sie unter [Wiederholungsaufträge in einer Pipeline](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Wiederholen von Aufträgen in einer Pipeline](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -1049,23 +1049,23 @@ Informationen zu Feldern finden Sie unter [Wiederholungsaufträge in einer Pipel
 
 Dieses Modul ruft Details der spezifischen Variablen eines Projekts ab.
 
-Informationen zu Feldern finden Sie unter [Variablendetails anzeigen](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Anzeigen von Variablendetails](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Aktualisieren einer Version]**
++++**[!UICONTROL Update einer Version]**
 
 Dieses Aktionsmodul aktualisiert eine Version.
 
-Informationen zu Feldern finden Sie unter [Aktualisieren einer Version](https://docs.gitlab.com/ee/api/releases/#update-a-release) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Aktualisieren einer Version](https://docs.gitlab.com/ee/api/releases/#update-a-release) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
-+++**[!UICONTROL Zusammenführungsanforderung aktualisieren]**
++++**[!UICONTROL Aktualisieren der Zusammenführungsanforderung]**
 
 Dieses Aktionsmodul aktualisiert eine vorhandene Zusammenführungsanfrage. Sie können die Zielverzweigung, den Titel oder sogar das MR schließen.
 
-Informationen zu Feldern finden Sie unter [Zusammenführungsanforderung aktualisieren](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Aktualisierungsanforderung für Zusammenführung](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
@@ -1073,6 +1073,6 @@ Informationen zu Feldern finden Sie unter [Zusammenführungsanforderung aktualis
 
 Dieses Aktionsmodul aktualisiert die -Variable eines Projekts.
 
-Informationen zu Feldern finden Sie unter [Variable aktualisieren](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) im [!DNL GitLab] Dokumentation.
+Informationen zu Feldern finden Sie unter [Variable aktualisieren](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) in der Dokumentation zu [!DNL GitLab].
 
 +++

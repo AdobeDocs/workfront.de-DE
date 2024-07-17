@@ -31,7 +31,7 @@ Ein berechnetes benutzerdefiniertes Feld kann Folgendes enthalten:
 
   >[!INFO]
   >
-  >**Beispiel:** Um den durch Projekte und Aufgaben generierten Gewinn zu berechnen, können Sie ein berechnetes benutzerdefiniertes Feld namens Profit erstellen, das einen mathematischen Ausdruck enthält, der Kosten vom Umsatz abzieht.
+  >**Beispiel:** Um den Gewinn zu berechnen, der durch Projekte und Aufgaben generiert wurde, können Sie ein berechnetes benutzerdefiniertes Feld namens &quot;Profit&quot;erstellen, das einen mathematischen Ausdruck enthält, der Kosten vom Umsatz abzieht.
   >
   >Dazu können Sie den mathematischen Ausdruck SUB (subtract) mit den integrierten Workfront-Feldern Tatsächliche Kosten und tatsächliche Umsätze verwenden.
   >
@@ -56,7 +56,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> </td> 
+   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Administratorzugriff für bestimmte Bereiche</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -75,28 +75,28 @@ Sie können für dasselbe Feld auch eine andere Berechnung für das neue Formula
 >
 >Änderungen an berechneten Ausdrücken können dazu führen, dass der Feldwert für Objekte veraltet ist. Führen Sie einen der folgenden Schritte aus, um sicherzustellen, dass Sie die aktuelle Berechnung in diesen Feldern immer anzeigen:
 >
->* Nachdem Sie ein Objekt gespeichert haben, an dem Sie Daten in einem angehängten benutzerdefinierten Formular bearbeitet haben, klicken Sie auf das Symbol Mehr . ![](assets/more-icon.png) auf der Hauptseite des Objekts und dann benutzerdefinierte Ausdrücke neu berechnen.
+>* Nachdem Sie ein Objekt gespeichert haben, in dem Sie Daten in einem angehängten benutzerdefinierten Formular bearbeitet haben, klicken Sie auf der Hauptseite des Objekts auf das Symbol Mehr und dann auf Benutzerdefinierte Ausdrücke neu berechnen .![](assets/more-icon.png)
 >* Wählen Sie die Option Benutzerdefinierte Ausdrücke neu berechnen , wenn Sie Objekte stapelweise bearbeiten.
 >* Wählen Sie bei der Bearbeitung eines berechneten benutzerdefinierten Felds in einem benutzerdefinierten Formular die Option Vorherige Berechnungen aktualisieren .
 
 So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** .
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klicks **Neues benutzerdefiniertes Formular.**
+1. Klicken Sie auf **Neues benutzerdefiniertes Formular.**
 1. Wählen Sie die Objekttypen aus, an die das benutzerdefinierte Formular angehängt werden soll, und klicken Sie dann auf **Weiter**.
 
 1. Klicken Sie oben links im Bildschirm auf **Feldbibliothek**.
 
    ![](assets/field-library.png)
 
-1. Verwenden Sie das Suchfeld oder erweitern Sie die **Berechnet** zum Suchen des gewünschten berechneten Felds und ziehen Sie dann das Feld an die Stelle, an der es im benutzerdefinierten Formular angezeigt werden soll.
+1. Verwenden Sie das Suchfeld oder erweitern Sie den Abschnitt **Berechnet** , um das erforderliche berechnete Feld zu finden. Ziehen Sie dann das Feld an die Stelle, an der es im benutzerdefinierten Formular angezeigt werden soll.
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder hinzuzufügen.
 
@@ -107,11 +107,11 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld:
    >
    >Beispiele für komplexe Formulare sind Formulare mit kaskadierenden Parametern, berechnete benutzerdefinierte Datenfelder und Optionen mit mehreren Werten in einem einzelnen Feld.
 
-1. Klicken Sie zum Speichern der Änderungen auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit der Erstellung des Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
 
    oder
 
-   Klicks **Speichern und schließen**.
+   Klicken Sie auf **Speichern und schließen**.
 
 ## Neues berechnetes Feld hinzufügen
 
@@ -119,18 +119,18 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld:
 >
 >Bevor Sie ein neues berechnetes benutzerdefiniertes Feld erstellen, identifizieren Sie die vorhandenen Felder, die Sie einbeziehen möchten, damit Sie sicher sind, dass die für die Berechnung erforderlichen Daten in Workfront vorhanden sind.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** .
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klicks **Neues benutzerdefiniertes Formular.**
+1. Klicken Sie auf **Neues benutzerdefiniertes Formular.**
 1. Wählen Sie die Objekttypen aus, an die das benutzerdefinierte Formular angehängt werden soll, und klicken Sie dann auf **Weiter**.
 
-1. Suchen Sie auf der linken Bildschirmseite nach **Berechnet** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Suchen Sie auf der linken Seite des Bildschirms nach **Berechnet** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    ![](assets/drag-field-to-section.png)
 
@@ -144,7 +144,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td>Geben Sie eine Beschriftung für das Feld ein. Dies wird Benutzern bei der Verwendung des benutzerdefinierten Formulars angezeigt. Das Feld <b>Name</b>, die automatisch ausgefüllt wird, wird von Workfront in Berichten referenziert.</td> 
+      <td>Geben Sie eine Beschriftung für das Feld ein. Dies wird Benutzern bei der Verwendung des benutzerdefinierten Formulars angezeigt. Das automatisch ausgefüllte Feld <b>Name</b> wird von Workfront in Berichten referenziert.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Anleitung</td> 
@@ -156,15 +156,15 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Das Format, in dem die Ergebnisse des Felds gespeichert und angezeigt werden sollen.</p> <p>Wenn das Feld in mathematischen Berechnungen verwendet wird, verwenden Sie immer eine <strong>Zahl</strong> oder <strong>Währung</strong> Format. Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</p> 
-      <p><b>WICHTIG</b>: Beachten Sie vor der Auswahl eines Formats das richtige Format für das neue Feld. Das Formatfeld kann nach dem Speichern des benutzerdefinierten Formulars nicht mehr bearbeitet werden. Die Auswahl des falschen Formats könnte sich auf zukünftige Berechnungen und aggregierte Werte in Berichts- und Listengruppierungen auswirken.</p>
-      <p><strong>NOTE:</strong> Berechnete Felder mit Währungsformat sollten keine Anführungszeichen enthalten. (Verwenden Sie beispielsweise 800.00 und nicht "800.00.") Die Verwendung von Anführungszeichen kann aufgrund von Nuancen bei der Sprachformatierung für Währungstypen zu unerwarteten Folgen führen.</p></td>
+      <td> <p>Das Format, in dem die Ergebnisse des Felds gespeichert und angezeigt werden sollen.</p> <p>Wenn das Feld in mathematischen Berechnungen verwendet wird, verwenden Sie immer das Format <strong>Zahl</strong> oder <strong>Währung</strong> . Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</p> 
+      <p><b>WICHTIG</b>: Bevor Sie ein Format auswählen, sollten Sie das richtige Format für das neue Feld berücksichtigen. Das Formatfeld kann nach dem Speichern des benutzerdefinierten Formulars nicht mehr bearbeitet werden. Die Auswahl des falschen Formats könnte sich auf zukünftige Berechnungen und aggregierte Werte in Berichts- und Listengruppierungen auswirken.</p>
+      <p><strong>HINWEIS:</strong> Berechnete Felder mit dem Währungsformat dürfen keine Anführungszeichen enthalten. (Verwenden Sie beispielsweise 800.00 und nicht "800.00.") Die Verwendung von Anführungszeichen kann aufgrund von Nuancen bei der Sprachformatierung für Währungstypen zu unerwarteten Folgen führen.</p></td>
      </tr> 
     </tbody> 
    </table>
 
-1. Im **Berechnung** und beginnen Sie mit der Erstellung Ihrer Berechnung:
-   1. Klicks **Maximieren** um den Berechnungs-Editor zu öffnen und Ihre Berechnung zu erstellen.</p>
+1. Beginnen Sie im Feld **Berechnung** mit der Erstellung Ihrer Berechnung:
+   1. Klicken Sie auf **Maximieren** , um den Berechnungs-Editor zu öffnen und Ihre Berechnung zu erstellen.</p>
 Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, die die Felder enthalten, auf die Sie verweisen möchten, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird.
 
       Jedes Feld muss mit geschweiften Klammern umgeben sein. Wenn Sie mit der Eingabe des Namens eines Felds beginnen, unterbreitet das System Vorschläge und Sie können einen Vorschlag auswählen, um ihn in Ihre Berechnung einzufügen.
@@ -177,7 +177,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
       >
       >Derzeit unterbreitet das System Vorschläge nur, wenn Sie mit der Eingabe des Namens eines Felds beginnen, auf das Sie auf ein Objekt verweisen möchten, an das das benutzerdefinierte Formular angehängt wird. Felder aus dem übergeordneten Objekt werden nicht vorgeschlagen.
 
-      **Feldnamen in der Umgebung mit geschweiften Klammern**
+      **Feldnamen mit geschweiften Klammern umgeben**
 
       * Wenn die Berechnung auf ein integriertes Feld verweisen soll, muss der Feldname von geschweiften Klammern umgeben sein.
 
@@ -185,17 +185,17 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
 
         Bei Feldnamen wird zwischen Groß- und Kleinschreibung unterschieden und sie müssen in der Berechnung genau so angezeigt werden, wie sie im Workfront-System erscheinen.
 
-        Navigieren Sie zum [Workfront API-Explorer](https://developer.adobe.com/workfront/api-explorer/) , um die Feldnamen zu identifizieren, die in Berechnungen verwendet werden können.
+        Navigieren Sie zum [Workfront API-Explorer](https://developer.adobe.com/workfront/api-explorer/), um die Feldnamen zu identifizieren, die in Berechnungen verwendet werden können.
 
-      * Wenn die Berechnung auf ein benutzerdefiniertes Feld verweisen soll, muss der Name des Felds von geschweiften Klammern umgeben sein und von `DE:` innerhalb der Klammern.
+      * Wenn die Berechnung auf ein benutzerdefiniertes Feld verweisen soll, muss der Feldname in geschweiften Klammern stehen und in den Klammern vor `DE:` stehen.
 
         Beispiel: `{DE:Profit}`
 
-        Das System listet alle benutzerdefinierten Felder auf, aus denen Sie bei der Eingabe auswählen können `DE:`.
+        Das System listet alle benutzerdefinierten Felder auf, aus denen Sie bei der Eingabe von `DE:` wählen können.
 
-         * Wenn Sie möchten, dass die Berechnung auf ein Feld verweist, das Daten aus dem *parent* -Objekt, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, müssen Sie dem Feldnamen den Objekttyp des übergeordneten Objekts voranstellen, auch in geschweiften Klammern.
+         * Wenn die Berechnung auf ein Feld verweisen soll, das Daten aus dem Objekt *parent* abruft, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, müssen Sie dem Feldnamen den Objekttyp des übergeordneten Objekts voranstellen (auch in geschweiften Klammern).
 
-        Wenn das benutzerdefinierte Formular beispielsweise für Aufgaben konfiguriert ist und Sie möchten, dass das Feld den tatsächlichen Umsatz des übergeordneten Objekts berechnet, wenn das Formular an eine Aufgabe angehängt wird, müssen Sie Folgendes angeben: `Project` als Objekttyp des Felds:
+        Wenn das benutzerdefinierte Formular beispielsweise für Aufgaben konfiguriert ist und Sie möchten, dass das Feld den tatsächlichen Umsatz des übergeordneten Objekts berechnet, wenn das Formular an eine Aufgabe angehängt wird, müssen Sie &quot;`Project`&quot;als Objekttyp des Felds angeben:
 
         `{project}.{actualRevenue}`
 
@@ -203,7 +203,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
 
         `{project}.{DE:profit}`
 
-        **Separate Elemente mit Zeiträumen**
+        **Elemente durch Punkte trennen**
 
         Wenn Sie in einem berechneten benutzerdefinierten Feld auf ein verwandtes Objekt verweisen, müssen Sie Objektnamen und -attribute durch Punkte trennen.
 
@@ -223,7 +223,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
 
         >[!NOTE]
         >
-        >Die Syntax für ein typeahead -Feld unterscheidet sich von der für andere Feldtypen, da Sie `:name` am Ende.
+        >Die Syntax für ein typeahead -Feld unterscheidet sich von der für andere Feldtypen, da Sie am Ende `:name` hinzufügen müssen.
         >
         >Um beispielsweise auf die ausgewählte Option in einem benutzerdefinierten Typenvorfeld mit dem Namen &quot;Executive sponsor&quot;zu verweisen, geben Sie Folgendes ein:
         >
@@ -234,7 +234,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
 
         In einem benutzerdefinierten Formular mit mehreren Objekten müssen die ausgewählten Objektarten mit mindestens einem Feld kompatibel sein, auf das in den berechneten benutzerdefinierten Feldern des Formulars verwiesen wird. Bei Feldern, die nicht mit dem Objekt kompatibel sind, wird im Formular &quot;K/A&quot;angezeigt.
 
-        Um sicherzustellen, dass das berechnete Feld für alle Objektarten ein korrektes Ergebnis anzeigt, müssen Sie `$$OBJCODE` , um eine Berechnung für jeden Objekttyp zu definieren.
+        Um sicherzustellen, dass das berechnete Feld für alle Objekttypen ein korrektes Ergebnis anzeigt, müssen Sie mit `$$OBJCODE` eine Berechnung für jeden Objekttyp definieren.
 
         >[!INFO]
         >
@@ -249,13 +249,13 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
 
         >[!INFO]
         >
-        >**Beispiel:** Es gibt zwar kein Feld Zugeordneter Benutzer: Name in Projekten, es gibt jedoch ein integriertes Feld Inhaber (das automatisch mit dem Namen der Person ausgefüllt wird, die das Projekt erstellt hat, es sei denn, dies wird manuell geändert).
+        >**Beispiel:** Obwohl es in Projekten kein Feld &quot;Zugeordneter Name&quot;gibt, gibt es ein integriertes Feld &quot;Eigentümer&quot;(das automatisch mit dem Namen der Person gefüllt wird, die das Projekt erstellt hat, es sei denn, dies wird manuell geändert).
         >
-        >In Ihrem benutzerdefinierten Feld &quot;In Charge&quot;können Sie also `$$OBJCODE` wie unten gezeigt, um auf das Feld Inhaber zu verweisen, wenn das benutzerdefinierte Formular an ein Projekt angehängt wird, und auf das Feld Zugeordneter Name , wenn das Formular an eine Aufgabe angehängt wird:
+        >In Ihrem benutzerdefinierten Feld &quot;In Charge&quot;können Sie also &quot;`$$OBJCODE`&quot;wie unten gezeigt verwenden, um auf das Feld &quot;Inhaber&quot;zu verweisen, wenn das benutzerdefinierte Formular an ein Projekt angehängt wird, und auf das Feld &quot;Zugeordneter Name&quot;, wenn das Formular an eine Aufgabe angehängt wird:
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        Weitere Informationen zu Variablen finden Sie unter `$$OBJCODE,` see [Übersicht über Wildcard-Filtervariablen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        Weitere Informationen zu Variablen wie `$$OBJCODE,` finden Sie unter [Übersicht über Wildcard-Filtervariablen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
         **Automatische Aktualisierung berechneter benutzerdefinierter Felder**
 
@@ -271,7 +271,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
 
 +++
 
-   1. Klicken Sie in das große Textfeld und dann auf **Ausdruck** und **Felder** die verfügbar sind, um sie zu Ihrer Berechnung hinzuzufügen.
+   1. Klicken Sie in das große Textfeld und dann auf **Ausdrücke** und **Felder** , die verfügbar sind, um sie Ihrer Berechnung hinzuzufügen.
 
       Sie können auch mit der Eingabe eines Ausdrucks oder Felds in das große Textfeld beginnen und es dann auswählen, wenn es angezeigt wird. Jedes Element wird mit einem &quot;F&quot;für das Feld oder einem &quot;E&quot;für den Ausdruck angezeigt.
 
@@ -283,7 +283,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
       >
       >Sie können eine der folgenden Aktionen ausführen, um Hilfe bei der Berechnung zu erhalten:
       > 
-      >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, in dem gezeigt wird, wie er verwendet werden kann, und einen Link &quot;Mehr erfahren&quot;zu weiteren Informationen in diesem Artikel anzuzeigen. [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, in dem gezeigt wird, wie er verwendet werden kann, und einen Link &quot;Weitere Informationen&quot;zu weiteren Informationen im Artikel [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) anzuzeigen.
       >  ![](assets/hover-expression-help-text.jpg)
       >* Verwenden Sie die Farbcodierung, um die hinzugefügten Komponenten zu identifizieren. Die Ausdrücke werden blau und die Felder grün angezeigt.
       >  ![](assets/colors-fields-expressions.jpg)
@@ -295,7 +295,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
       >* Referenzausdrücke in einer langen Berechnung unter Verwendung der auf der linken Seite angezeigten Zeilennummern.
 
 +++
-   1. Klicks **Minimieren** wenn Sie mit der Erstellung der Berechnung für das berechnete benutzerdefinierte Feld fertig sind.
+   1. Klicken Sie auf **Minimieren** , wenn Sie mit der Erstellung der Berechnung für das berechnete benutzerdefinierte Feld fertig sind.
 
    1. (Optional) Verwenden Sie eine der folgenden Optionen, um Ihr berechnetes benutzerdefiniertes Feld weiter zu konfigurieren:
 
@@ -313,13 +313,13 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
      </tr> 
      <tr> 
       <td role="rowheader">Formel in Anleitungen anzeigen</td> 
-      <td>Lassen Sie diese Option aktiviert, wenn Benutzer, die das benutzerdefinierte Formular ausfüllen, die Formel des Felds sehen sollen, wenn sie den Mauszeiger über das Feld bewegen. Weitere Informationen finden Sie in den Informationen zu <a href="#instructions" class="MCXref xref">Anweisungen</a> früher in dieser Tabelle.</td> 
+      <td>Lassen Sie diese Option aktiviert, wenn Benutzer, die das benutzerdefinierte Formular ausfüllen, die Formel des Felds sehen sollen, wenn sie den Mauszeiger über das Feld bewegen. Weitere Informationen finden Sie in den Informationen zu <a href="#instructions" class="MCXref xref">Anweisungen</a> weiter oben in dieser Tabelle.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie zum Speichern der Änderungen auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit der Erstellung des Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
 
    oder
 
-   Klicks **Speichern und schließen**.
+   Klicken Sie auf **Speichern und schließen**.

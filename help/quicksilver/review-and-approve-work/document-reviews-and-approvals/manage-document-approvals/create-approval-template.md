@@ -45,20 +45,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Erstellen einer Validierungsvorlage
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Überprüfung und Genehmigung** > **Validierungsvorlagen**.
-1. Klicks **Neue Vorlage** auf der rechten Seite der Seite.
+1. Klicken Sie im linken Bereich auf **Überprüfen und Genehmigen** > **Genehmigungsvorlagen**.
+1. Klicken Sie rechts auf der Seite auf **Neue Vorlage** .
 1. Geben Sie die folgenden Informationen an:
 
    | Vorlagenname | Beginnen Sie mit der Eingabe eines Namens für diese Vorlage. |
    |----------------------------|---|
-   | **(Optional) Zeitrahmen** | Geben Sie den Zeitrahmen in Tage ein. Der Validierungszeitraum wird aus diesem Feld berechnet, sobald die Vorlage auf ein Asset angewendet wird. |
-   | **Hinzufügen von Genehmigern oder Prüfern** | Beginnen Sie mit der Eingabe des Namens von Benutzern oder Teams und benennen Sie sie dann als Prüfer oder Genehmiger. |
+   | **(Optional) Timeframe** | Geben Sie den Zeitrahmen in Tage ein. Der Validierungszeitraum wird aus diesem Feld berechnet, sobald die Vorlage auf ein Asset angewendet wird. |
+   | **Genehmiger oder Prüfer hinzufügen** | Beginnen Sie mit der Eingabe des Namens von Benutzern oder Teams und benennen Sie sie dann als Prüfer oder Genehmiger. |
 1. Klicken Sie auf **Speichern**.
 
 

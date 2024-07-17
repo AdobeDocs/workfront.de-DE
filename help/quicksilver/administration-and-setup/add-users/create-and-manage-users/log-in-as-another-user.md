@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in der Adobe Admin Console integriert wurden. Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, ist diese Aktion nicht verfügbar.
 >
->Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als Adobe Workfront-Administrator müssen Sie manchmal im Namen eines anderen Benutzers auf Workfront zugreifen.
 
@@ -71,14 +71,14 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Mit der Zugriffsebene des Systemadministrators können Sie sich wie jeder andere anmelden. Weitere Informationen zu dieser Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>. </p> <p>Mit einer Planer-Zugriffsebene können Sie sich als Benutzer mit einer niedrigeren Lizenzstufe anmelden, wenn die <b>Benutzer</b> -Einstellung in der Zugriffsebene ist so konfiguriert, dass <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens eines der beiden <b>Benutzeradministrator</b> Optionen aktiviert unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>NOTE</b>: Von diesen beiden Optionen, wenn Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie ein Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> 
-   <p>Weitere Informationen zum <b>Benutzer</b> auf einer Zugriffsebene festzulegen, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</p> </td> 
+   <td> <p>Mit der Zugriffsebene des Systemadministrators können Sie sich wie jeder andere anmelden. Weitere Informationen zu dieser Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für einen Benutzer</a>. </p> <p>Mit der Zugriffsebene "Planer"können Sie sich als Benutzer mit einer niedrigeren Lizenzstufe anmelden, wenn die Einstellung <b>Benutzer</b> in der Zugriffsebene für den Zugriff auf <b>Bearbeiten</b> konfiguriert ist, wobei <b>Erstellen</b> und mindestens eine der beiden Optionen <b>Benutzeradministrator</b> unter <b>Feinabstimmung Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png"> aktiviert ist. </p> 
+   <p><b>HINWEIS</b>: Wenn der Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie ein Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> 
+   <p>Weitere Informationen zur Einstellung <b>Benutzer</b> in einer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Anmelden und Aktionen als anderer Benutzer ausführen
 
@@ -98,7 +98,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 1. Klicken Sie im linken Bereich auf **Anmelden als**.
 
-1. Im **Benutzer** auf der **Anmelden als** eingeben, den Namen des Benutzers eingeben und auf den Namen klicken, wenn er in der Dropdown-Liste angezeigt wird.
+1. Geben Sie in das Feld **Benutzer** auf der Registerkarte **Anmelden als** den Namen des Benutzers ein und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    Der Benutzer muss über eine in Workfront definierte Zugriffsstufe verfügen. Sie können sich nicht beim Workfront-System als Benutzer anmelden, der nicht über die entsprechenden Anmelderechte verfügt.
 
@@ -106,7 +106,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    >
    >Gruppenadministratoren können sich nur als Benutzer anmelden, die Mitglieder der von ihnen verwalteten Gruppen sind. Sie können sich nicht als Workfront-Administrator anmelden.
 
-1. Klicks **Melden Sie sich an.**
+1. Klicken Sie auf **Anmelden.**
 
    <!--
    <p> Might come in a future story:</p>
@@ -135,7 +135,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    Wenn Sie als ein anderer Benutzer angemeldet sind, wird oben auf dem Bildschirm eine Benachrichtigung angezeigt, um dies anzuzeigen.
 
-1. Nachdem Sie die erforderlichen Aktionen als Benutzer ausgeführt haben, klicken Sie auf **Abmelden.**
+1. Nachdem Sie die erforderlichen Aktionen als Benutzer ausgeführt haben, klicken Sie auf **Abmelden**.
 
 ## Aktivitäten zur Verfolgung und Prüfung, während ein Administrator als ein anderer Benutzer angemeldet ist
 
@@ -143,7 +143,7 @@ Workfront bietet Mechanismen zur Verfolgung und Prüfung von Aktivitäten, die w
 
 Wenn Sie sich als ein anderer Benutzer anmelden, wird das letzte Anmeldedatum für diesen Benutzer bis zu dem Datum geändert, an dem sich der System- oder Gruppenadministrator als dieser Benutzer anmeldet.
 
-* [Anzeigen von Indikatoren zu Artikeln](#view-indicators-on-items)
+* [Anzeigen von Indikatoren zu Elementen](#view-indicators-on-items)
 * [Audit-Informationen anzeigen](#view-audit-information)
 
 ### Anzeigen von Indikatoren zu Artikeln {#view-indicators-on-items}
@@ -155,9 +155,9 @@ Wenn Sie beispielsweise einen Kommentar zu einem Element abgeben, während Sie a
 ### Audit-Informationen anzeigen {#view-audit-information}
 
 1. Melden Sie sich bei Workfront als Workfront-Administrator oder Gruppenadministrator an.
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **Anmelden als** und klicken Sie dann auf **Zugriffsprotokoll** Registerkarte.
+1. Klicken Sie auf **Anmelden als,** und dann auf die Registerkarte **Zugriffsprotokoll**.
 
    Jedes Mal, wenn sich ein System- oder Gruppenadministrator bei Workfront als einem anderen Benutzer anmeldet, wird das Ereignis im Audit-Protokoll protokolliert. Darüber hinaus werden alle geprüfbaren Aktionen, die ausgeführt werden, während der Administrator als ein anderer Benutzer angemeldet ist, im Audit-Protokoll protokolliert.
 

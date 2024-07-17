@@ -25,7 +25,7 @@ in January 2022
 
 die Woche vom 4. April 2022.
 
-Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [2.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [22.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Zeichnungen und Kommentare zu Testdokumenten in der App
 

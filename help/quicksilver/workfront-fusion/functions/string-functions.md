@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Zeichenfolgenfunktionen in [!DNL Adobe Workfront Fusion]
+# Zeichenfolgen-Funktionen in [!DNL Adobe Workfront Fusion]
 
 ## Zugriffsanforderungen
 
@@ -36,7 +36,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
    <td> 
-   <p>Aktuell: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p> 
+   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p> 
    <p>Oder</p> 
    <p>Veraltet: Beliebig </p> 
    </td>  
@@ -44,17 +44,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr>  
    <td role="rowheader">Produkt</td>  
    <td> 
-   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
    <p>Oder</p> 
-   <p>Aktuell: Ihr Unternehmen muss Einkäufe tätigen [!DNL Adobe Workfront Fusion].</p> 
+   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL length (text oder buffer)]
 
@@ -80,7 +80,7 @@ Konvertiert alle Buchstaben eines Textzeichenders in Kleinbuchstaben.
 >
 >Gibt Folgendes zurück: hello
 
-## [!UICONTROL Großschreibung (Text)]
+## [!UICONTROL großschreiben (text)]
 
 Konvertiert das erste Zeichen in einer Textzeichenfolge in Großbuchstaben.
 
@@ -103,7 +103,7 @@ Großschreibung des ersten Buchstabens jedes Wortes und Kleinschreibung aller an
 >
 >Gibt Folgendes zurück: [!UICONTROL Hello World]
 
-## [!UICONTROL ascii (text; [Diakritik entfernen])]
+## [!UICONTROL ascii (text; [diakritics entfernen])]
 
 Entfernt alle nichtascii-Zeichen aus einer Textzeichenfolge.
 
@@ -121,7 +121,7 @@ Entfernt alle nichtascii-Zeichen aus einer Textzeichenfolge.
 
 
 
-## [!UICONTROL replace (text; Suchzeichenfolge; Ersatzzeichenfolge)]
+## [!UICONTROL replace (text;search string; replacement string)]
 
 Ersetzt die Suchzeichenfolge durch die neue Zeichenfolge.
 
@@ -133,7 +133,7 @@ Ersetzt die Suchzeichenfolge durch die neue Zeichenfolge.
 >
 >Gibt Folgendes zurück: [!UICONTROL Hi World]
 
-Reguläre Ausdrücke (eingeschlossen in `/.../`) kann als Suchzeichenfolge mit einer Kombination von Flags (wie `g`, `i`, `m`) angehängt:
+Reguläre Ausdrücke (in `/.../` eingeschlossen) können als Suchzeichenfolge mit einer Kombination von Flags (wie `g`, `i`, `m`) verwendet werden:
 
 >[!INFO]
 >
@@ -146,7 +146,7 @@ Reguläre Ausdrücke (eingeschlossen in `/.../`) kann als Suchzeichenfolge mit e
 Die Ersatzzeichenfolge kann die folgenden speziellen Ersatzmuster enthalten:
 
 * `$&` Fügt die übereinstimmende Unterzeichenfolge ein.
-* `$n` Wenn n eine positive Ganzzahl von weniger als 100 ist, wird die n. in Klammern eingeschlossene Unterübereinstimmungszeichenfolge eingefügt. Dies ist 1-indiziert.
+* `$n` Wenn n eine positive Ganzzahl kleiner als 100 ist, wird die n. in Klammern eingeschlossene Unterübereinstimmungszeichenfolge eingefügt. Dies ist 1-indiziert.
 
 >[!INFO]
 >
@@ -218,7 +218,7 @@ Gibt die Position des ersten Vorkommens eines angegebenen Werts in einer Zeichen
 >
 >   Gibt Folgendes zurück: 6
 
-## [!UICONTROL toBinary (Wert)]
+## [!UICONTROL toBinary (value)]
 
 Konvertiert jeden Wert in Binärdaten.
 
@@ -236,7 +236,7 @@ Sie können auch die Kodierung als zweites Argument angeben, um binäre Konversi
 >
 >   Gibt Folgendes zurück: 57 6f 72 6b 66 72 6f 6e 74
 
-## [!UICONTROL toString (Wert)]
+## [!UICONTROL toString (value)]
 
 Konvertiert jeden Wert in eine Zeichenfolge.
 
@@ -253,7 +253,7 @@ Dekodiert Sonderzeichen in einer URL in Text.
 >**Beispiel:**
 >`decodeURL( Automate%20your%20workflow )`
 >
->Gibt Folgendes zurück: [!UICONTROL Automatisieren Ihres Workflows]
+>Gibt Folgendes zurück: [!UICONTROL Automatisieren des Workflows]
 
 ## [!UICONTROL escapeHTML (text)]
 
@@ -317,7 +317,7 @@ Teilt eine Zeichenfolge in ein Zeichenfolgen-Array, indem die Zeichenfolge in Te
 >
 >`split( John, George, Paul ; , )`
 
-## [!UICONTROL md5 (Text)]
+## [!UICONTROL md5 (text)]
 
 Berechnet den md5-Hash einer Zeichenfolge.
 
@@ -329,7 +329,7 @@ Berechnet den md5-Hash einer Zeichenfolge.
 >
 >Gibt Folgendes zurück: `1448bbbeaa7a9b8091d426999f1f666b`
 
-## [!UICONTROL sha1 (Text; [encoding]; [key])]
+## [!UICONTROL sha1 (text; [encoding]; [key])]
 
 Berechnet den SHA1-Hash einer Zeichenfolge. Wenn das Schlüsselargument angegeben ist, wird stattdessen SHA1-HMAC-Hash zurückgegeben. Unterstützte Kodierungen: &quot;hex&quot;(Standard), &quot;base64&quot;oder &quot;latin1&quot;.
 
@@ -341,7 +341,7 @@ Berechnet den SHA1-Hash einer Zeichenfolge. Wenn das Schlüsselargument angegebe
 >
 >Gibt Folgendes zurück: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
-## [!UICONTROL sha256 (Text; [encoding]; [key])]
+## [!UICONTROL sha256 (text; [encoding]; [key])]
 
 Berechnet den sha256-Hash einer Zeichenfolge. Wenn das Schlüsselargument angegeben ist, wird stattdessen der HMAC-Hash sha256 zurückgegeben. Unterstützte Kodierungen: &quot;hex&quot;(Standard), &quot;base64&quot;oder &quot;latin1&quot;.>
 
@@ -353,7 +353,7 @@ Berechnet den sha256-Hash einer Zeichenfolge. Wenn das Schlüsselargument angege
 >
 >Gibt Folgendes zurück: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bc
 
-## [!UICONTROL sha512 (Text; [Ausgabekodierung]; [key]; [Schlüsselkodierung])]
+## [!UICONTROL sha512 (Text; [Ausgabekodierung]; [Schlüssel]; [Schlüsselkodierung])]
 
 Berechnet den SHA512-Hash einer Zeichenfolge. Wenn das Schlüsselargument angegeben ist, wird stattdessen der HMAC-Hash sha512 zurückgegeben.
 
@@ -365,11 +365,11 @@ Unterstützte Kodierungen:
 
 Unterstützte Schlüsselkodierungen:
 
-* &quot;[!UICONTROL text]&quot;(Standard)
+* &quot;[!UICONTROL text]&quot; (Standard)
 * &quot;[!UICONTROL hex]&quot;
-* &quot;[!UICONTROL base64]&quot; oder &quot;[!UICONTROL binary]&quot;
+* &quot;[!UICONTROL base64]&quot;oder &quot;[!UICONTROL binary]&quot;
 
-Bei Verwendung von[!UICONTROL binary]&quot; Schlüssel kodieren, muss ein Schlüssel ein Puffer sein, nicht eine Zeichenfolge.
+Bei Verwendung der Schlüsselkodierung &quot;[!UICONTROL binary]&quot; muss ein Schlüssel ein Puffer sein, kein String.
 
 >[!INFO]
 >

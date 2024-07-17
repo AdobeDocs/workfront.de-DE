@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
 title: Vorschau der Sandbox-Testumgebung - [!DNL Workfront Proof]
-description: Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende aktualisiert wird [!DNL Workfront Proof].
+description: Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende von  [!DNL Workfront Proof] aktualisiert wird.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cdf269c6-39b1-477a-b9ea-03edf2de77f0
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
-Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende aktualisiert wird [!DNL Workfront Proof].
+Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende von [!DNL Workfront Proof] aktualisiert wird.
 
 ## Grundlegendes zur Vorschau-Sandbox
 
@@ -33,35 +33,35 @@ Die Vorschau-Sandbox enthält Ihre tatsächlichen Produktionsdaten. Daten werden
 
 ## Zugriff auf die Vorschau-Sandbox
 
-Als Systemadministrator haben Sie standardmäßig Zugriff auf die Umgebung &quot;Sandbox-Vorschau&quot;. Wenn Sie nicht auf die in diesem Abschnitt beschriebene Vorschau-Sandbox-Umgebung zugreifen können, wenden Sie sich an Ihren [!DNL Workfront] Administrator oder unserem Supportteam.
+Als Systemadministrator haben Sie standardmäßig Zugriff auf die Umgebung &quot;Sandbox-Vorschau&quot;. Wenn Sie nicht auf die in diesem Abschnitt beschriebene Vorschau-Sandbox-Umgebung zugreifen können, wenden Sie sich an Ihren [!DNL Workfront] -Administrator oder unser Supportteam.
 
-* [Zugriff auf die Vorschau-Sandbox als eigenständige Sandbox [!DNL Workfront Proof] Kunde](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [Zugriff auf die Vorschau-Sandbox als [!DNL Workfront]+[!DNL Workfront Proof] Kunde](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
+* [Zugriff auf die Vorschau-Sandbox als eigenständiger [!DNL Workfront Proof] Kunde](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
+* [Zugriff auf die Vorschau-Sandbox als  [!DNL Workfront]+[!DNL Workfront Proof] Kunde](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
-### Zugriff auf die Vorschau-Sandbox als eigenständige Sandbox [!DNL Workfront Proof] Kunde
+### Zugriff auf die Vorschau-Sandbox als eigenständiger [!DNL Workfront Proof]-Kunde
 
-1. Navigieren Sie zu dieser URL:  `https://preview.proofhq.com`.
+1. Navigieren Sie zu dieser URL: `https://preview.proofhq.com`.
 1. Melden Sie sich mit Ihren Anmeldedaten für die Vorschau an.\
    Ihre Vorschauberechtigungen sollten mit Ihren Produktionsberechtigungen übereinstimmen, es sei denn, Sie haben sie in der Produktion geändert, nachdem die Vorschauaktualisierung stattgefunden hat. Die Anmeldungen werden nur synchronisiert, wenn eine Aktualisierung erfolgt, die an jedem Wochenende stattfindet. Sie werden nicht automatisch synchronisiert.
 
-### Zugriff auf die Vorschau-Sandbox als [!DNL Workfront+Workfront] Testversand-Kunde
+### Zugriff auf die Vorschau-Sandbox als Testversand-Kunde mit dem Status [!DNL Workfront+Workfront]
 
-Als Systemadministrator können Sie auf die [!DNL Workfront Proof] Sandbox-Vorschau über [!DNL Workfront] -Schnittstelle.
+Als Systemadministrator können Sie über die Benutzeroberfläche von [!DNL Workfront] auf die Sandbox für die Vorschau von [!DNL Workfront Proof] zugreifen.
 
-So greifen Sie auf die [!DNL Workfront Proof] Vorschau-Sandbox:
+So greifen Sie auf die Vorschau-Sandbox [!DNL Workfront Proof] zu:
 
-1. Melden Sie sich bei Ihrer [!DNL Workfront] Umgebung.
-1. Klicken **[!UICONTROL Einrichtung]** in der Symbolleiste für globale Navigation.
-1. Klicken **[!UICONTROL System]** >**[!UICONTROL Voreinstellungen]**.
+1. Melden Sie sich bei Ihrer [!DNL Workfront] -Umgebung an.
+1. Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Einrichtung]** .
+1. Klicken Sie auf **[!UICONTROL System]** >**[!UICONTROL Voreinstellungen]**.
 
-1. Im **[!UICONTROL Testumgebungen]** Abschnitt, klicken Sie auf **[!UICONTROL Sandbox-Vorschau]**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Testumgebungen]** auf **[!UICONTROL Sandbox-Vorschau]**.
 
 1. Melden Sie sich mit Ihren Vorschauanmeldeinformationen an.\
    Ihre Vorschauanmeldeinformationen sollten mit Ihren Produktionsberechtigungen übereinstimmen, es sei denn, Sie haben sie in der Produktion geändert, nachdem die Vorschauaktualisierung stattgefunden hat. Die Anmeldungen werden nur bei einer Aktualisierung synchronisiert. Sie werden nicht automatisch synchronisiert.
-1. Klicken Sie auf [!DNL Workfront Proof] in der Symbolleiste für globale Navigation.\
+1. Klicken Sie in der Symbolleiste für globale Navigation auf das Symbol &quot;[!DNL Workfront Proof]&quot;.\
    ![proof_access_proofhq.png](assets/proof-access-proofhq-350x39.png)\
-   Die [!DNL Workfront Proof] Die Vorschau der Umgebung wird angezeigt.
+   Die Vorschau -Umgebung wird angezeigt.[!DNL Workfront Proof]
 
 ## Empfangen von E-Mails über die Vorschau-Sandbox
 
-E-Mail-Benachrichtigungen werden nie von der [!DNL Workfront Proof] Vorschau der Umgebung
+E-Mail-Benachrichtigungen werden nie aus der Vorschau-Umgebung von [!DNL Workfront Proof] ausgelöst.

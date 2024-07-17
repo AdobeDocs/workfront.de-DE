@@ -31,7 +31,7 @@ hide: yes
 
 Sie können Datensatztypen löschen, die nicht mehr relevant sind.
 
-Beim Löschen von Datensatztypen werden jedoch auch alle mit den Datensatztypen verknüpften Informationen gelöscht. Weitere Informationen finden Sie unter [Überlegungen zum Löschen von Datensatztypen](#considerations-when-deleting-record-types) in diesem Artikel beschrieben.
+Beim Löschen von Datensatztypen werden jedoch auch alle mit den Datensatztypen verknüpften Informationen gelöscht. Weitere Informationen finden Sie im Abschnitt [Überlegungen beim Löschen von Datensatztypen](#considerations-when-deleting-record-types) in diesem Artikel.
 
 Informationen zu Datensatztypen finden Sie unter [Übersicht über Datensatztypen](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
@@ -131,11 +131,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie den Mauszeiger über die Karte des Datensatztyps, klicken Sie auf das Menü Mehr und dann **Löschen**.
-   * Klicken Sie auf die Karte für den zu löschenden Datensatztyp und klicken Sie auf der Seite mit dem Datensatztyp auf die **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps klicken Sie auf **Löschen**.
+   * Bewegen Sie den Mauszeiger über die Karte vom Typ Datensatz, klicken Sie auf das Menü Mehr und dann auf **Löschen**.
+   * Klicken Sie auf die Karte für den zu löschenden Datensatztyp und klicken Sie auf der Seite &quot;Record Type&quot;auf das Menü **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie dann auf **Löschen**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. Typ **delete** Klicken Sie im Bestätigungsfeld auf **Dauerhaftes Löschen**. Dabei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+1. Geben Sie **delete** in das Bestätigungsfeld ein und klicken Sie dann auf **Dauerhaft löschen**. Dabei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
    Der ausgewählte Datensatztyp sowie die zugehörigen Felder, Datensätze und Ansichten werden gelöscht.

@@ -22,7 +22,7 @@ Auf dieser Seite werden alle in Version 2019.2 enthaltenen Agile-Verbesserungen 
 >
 >Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller 2019.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivitäten 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.2 vorgenommen wurden, finden Sie unter [Übersicht über die Veröffentlichungsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Verfolgen des vollständigen Fortschritts bei Problemen in den Agile Tools
 

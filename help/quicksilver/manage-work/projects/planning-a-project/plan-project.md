@@ -32,7 +32,7 @@ Projektplanung bedeutet, genau zu bestimmen, welche Hauptziele Sie zum Abschluss
 
 In den Anfangsphasen eines Projekts haben Sie möglicherweise noch nicht ermittelt, ob Sie das Projekt tatsächlich durchführen sollten. Es ist möglicherweise nicht kosteneffizient, oder Sie verfügen nicht über die nötigen Ressourcen. In dieser Planungsphase können Sie ein Projekt in Workfront erstellen, ohne Aufgaben hinzuzufügen, und den Status auf Planung festlegen.
 
-Weitere Informationen zum Erstellen eines Projekts finden Sie im Artikel [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
+Weitere Informationen zum Erstellen eines Projekts finden Sie im Artikel [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
 Beachten Sie die folgenden Fragen, bevor Sie ein Projekt planen:
 
@@ -72,7 +72,7 @@ Es ist wichtig zu wissen, wann Benutzer für die Arbeit zur Verfügung stehen, u
 
 Sie können mehrere Projektpläne erstellen und einen Standardzeitplan auf das Projekt anwenden. Zusätzliche benutzerdefinierte Zeitpläne können auf verschiedene Einzelanwender angewendet werden.
 
-Weitere Informationen zu Zeitplänen finden Sie im Artikel [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Weitere Informationen zu Zeitplänen finden Sie im Artikel [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ### Verwalten zusätzlicher Informationen, die für die Projektplanung erforderlich sind {#manage-additional-information-needed-for-planning-the-project}
 
@@ -82,10 +82,10 @@ Stellen Sie die folgenden Fragen:
 
 * Gibt es eine Verordnung, die vorschreibt, dass Sie einen Bericht über Ereignisse und Prozesse führen? Wenn ja, was müssen Sie verfolgen?\
   Mit Workfront können Sie Bearbeitungen, Perimeteränderungen, Statusänderungen und Aktionen aufzeichnen, um branchenspezifische Vorschriften einzuhalten.\
-  Weitere Informationen zum Definieren der zu verfolgenden Updates in Workfront finden Sie im Artikel [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Weitere Informationen zum Definieren der Aktualisierungen, die in Workfront verfolgt werden sollen, finden Sie im Artikel [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md) .
 
 * Gibt es Informationen, die Sie nachverfolgen müssen und in denen kein Feld in Workfront zum Speichern vorhanden ist? Wenn ja, erstellen Sie benutzerdefinierte Forms für Projekte oder Aufgaben, in denen Sie diese Informationen speichern können.\
-  Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * Gibt es Validierungspunkte, die erteilt werden müssen, bevor die Arbeit an einem Projekt fortgesetzt werden kann? Wenn ja, erstellen Sie Genehmigungsprozesse für Projekte oder Aufgaben, die Sie beim Erstellen Ihres Projekts verwenden können.\
   Weitere Informationen zu Genehmigungsprozessen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -108,7 +108,7 @@ Beachten Sie beim Erstellen der Zeitleiste des Projekts Folgendes:
 
   Wenn Sie übergeordnete Aufgaben zum Organisieren von Zielen verwenden, können Sie für jedes Hauptziel eine Aufgabe erstellen und Unteraufgaben hinzufügen, wenn Sie sich mit der Phase der Unterteilung von Hauptzielen in einzelne Aufgaben befassen. Dadurch bleiben die Aufgaben erhalten, die Teil des im Rahmen des Projekts organisierten Ziels sind.
 
-  Weitere Informationen zu Aufgabenvorgängen finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Weitere Informationen zu Aufgabenvorgängen finden Sie unter [Übersicht über Aufgabenvorstufen](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * Überlegen Sie die wichtigsten Ziele für Ihr Projekt und kennzeichnen Sie sie als Meilensteinaufgaben.
 
@@ -135,13 +135,13 @@ Beachten Sie beim Definieren von Aufgaben Folgendes:
 
 * Definieren Sie die Zeitleiste jeder Aufgabe. Dies wird im Feld Dauer jeder Aufgabe erfasst.
 
-  Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Überblick über die Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * Definieren Sie die Eltern-Kind-Beziehung zwischen den Aufgaben.
 * Definieren Sie die Vorgängerbeziehung zwischen den Aufgaben.
 * Verknüpfen Sie einen Milestone-Pfad mit dem Projekt und verknüpfen Sie einen Milestone mit seiner jeweiligen Aufgabe.
 
-  Weitere Informationen zur Verwendung von Meilensteinaufgaben finden Sie im Artikel [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Weitere Informationen zur Verwendung von Meilensteinaufgaben finden Sie im Artikel [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) .
 
 * Definieren Sie den Arbeitsaufwand für die einzelnen Aufgaben. Dies wird im Feld Geplante Stunden jeder Aufgabe erfasst.
 

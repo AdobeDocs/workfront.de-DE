@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 * [Anforderungstypen für ein Projekt definieren](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-* [Zugriff auf Anforderungswarteschlangen gewähren](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
+* [Stellen Sie Zugriff auf Anforderungswarteschlangen bereit](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
 * [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
 * [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 * [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)

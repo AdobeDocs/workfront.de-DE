@@ -10,16 +10,16 @@ feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
 
-# Berechnetes benutzerdefiniertes Feldbeispiel: Anzeigen des Bearbeitungsverlaufs eines Felds
+# Berechnetes benutzerdefiniertes Feldbeispiel: Bearbeitungsverlauf eines Felds anzeigen
 
 Wenn Benutzer benutzerdefinierte Felder regelmäßig aktualisieren und Sie ein Protokoll aller an einem Feld vorgenommenen Änderungen sowie ein Datum, an dem die Änderungen vorgenommen werden, erfassen möchten, können Sie diese Informationen in einem berechneten benutzerdefinierten Feld erfassen.
 
-Das folgende Beispiel zeigt, wie Sie die *Anweisungen zum Bearbeiten des Verlaufs* berechnetes Feld, um alle Änderungen zu erfassen, die an einem einzeiligen Textfeld namens *Anweisungen*.
+Das folgende Beispiel zeigt, wie Sie das berechnete Feld *Anweisungen zum Bearbeiten des Verlaufs* erstellen, um alle Änderungen an einem einzeiligen Textfeld namens *Anweisungen* zu erfassen.
 
 >[!TIP]
 >
@@ -27,11 +27,11 @@ Das folgende Beispiel zeigt, wie Sie die *Anweisungen zum Bearbeiten des Verlauf
 
 Dies geschieht folgendermaßen: 
 
-* Begrenzt die *Anweisungen zum Bearbeiten des Verlaufs* auf die letzten 2000 Zeichen gesetzt, um innerhalb der Workfront-Datenbankbegrenzung zu bleiben.
-* Überprüft, ob der aktuelle Wert der *Anweisungen* -Feld entspricht der Vorderseite der *Anweisungen zum Bearbeiten des Verlaufs* Wert; Es wird davon ausgegangen, dass es leer ist. Ist dies nicht der Fall, wird Folgendes ausgeführt: 
+* Beschränkt das Feld *Anweisungen zum Bearbeiten des Verlaufs* auf die letzten 2000 Zeichen, damit es in der Workfront-Datenbank verbleibt.
+* Überprüft, ob der aktuelle Wert des Felds *Anweisungen* mit der Vorderseite des Werts *Bearbeitungsverlauf für Anweisungen* übereinstimmt. Es wird davon ausgegangen, dass es leer ist. Ist dies nicht der Fall, wird Folgendes ausgeführt: 
 
-   * Wenn sie übereinstimmen, bleibt die *Anweisungen zum Bearbeiten des Verlaufs* unverändert;
-   * Wenn sie nicht übereinstimmen, wird die *Anweisungen zum Bearbeiten des Verlaufs* mit dem neuesten Wert im *Anweisungen* gefolgt vom aktuellen Datum in Klammern, einem vertikalen Balken und dem vorherigen *Anweisungen zum Bearbeiten des Verlaufs*, wodurch der/die vorherige(n) Wert(e) und das Datum(e) der Eingabe beibehalten werden.
+   * Wenn sie übereinstimmen, bleiben die *Anweisungen Verlauf bearbeiten* unverändert.
+   * Wenn sie nicht übereinstimmen, wird der *Bearbeitungsverlauf der Anweisungen* durch den neuesten Wert im Feld *Anweisungen* ersetzt, gefolgt vom aktuellen Datum in Klammern, einem vertikalen Balken und dem vorherigen *Bearbeitungsverlauf für Anweisungen*, in dem die vorherigen Werte und das Datum der Eingabe beibehalten werden.
 
 ## Zugriffsanforderungen
 
@@ -48,7 +48,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td> <p>Workfront-Lizenz*</p> </td> 
@@ -56,7 +56,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td><strong>Konfigurationen auf Zugriffsebene*</strong> </td> 
-   <td> <p>Administratorzugriff auf Custom Forms</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Administratorzugriff auf Custom Forms</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
@@ -78,31 +78,31 @@ Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, das de
 
 1. Gehen Sie wie folgt vor, um das benutzerdefinierte Feld für einzeiligen Text zu erstellen:
 
-   1. Klicken **Einzelzeilentext-Feld**.
-   1. Geben Sie eine **Titel** für das benutzerdefinierte Feld, z. B. *Anweisungen*.
-   1. Klicken **Applye**.
+   1. Klicken Sie auf **Einzeiliges Textfeld**.
+   1. Geben Sie eine **Beschriftung** für das benutzerdefinierte Feld an, z. B. *Anweisungen*.
+   1. Klicken Sie auf **Applye**.
 
-1. Auswählen **Feld hinzufügen**, wählen Sie **Berechnet** , um dem Formular ein berechnetes benutzerdefiniertes Feld hinzuzufügen.
-1. Geben Sie eine **Titel** für das berechnete benutzerdefinierte Feld, z. B. *Anweisungen zum Bearbeiten des Verlaufs*.
+1. Wählen Sie **Feld hinzufügen** und dann **Berechnet** aus, um dem Formular ein berechnetes benutzerdefiniertes Feld hinzuzufügen.
+1. Geben Sie eine **Beschriftung** für das berechnete benutzerdefinierte Feld an, z. B. *Anweisungen zum Bearbeiten des Verlaufs*.
 
-   Dies ist das Feld, das alle Änderungen erfasst, die an dem ersten von Ihnen erstellten Feld (*Anweisungen*).
+   Dies ist das Feld, das alle Änderungen erfasst, die an dem ersten von Ihnen erstellten Feld (*Anweisungen*) vorgenommen wurden.
 
-1. Klicken **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 1. Klicken Sie auf den Namen des Formulars, dem Sie nun zwei Felder hinzugefügt haben, um es erneut zu öffnen.
-1. Klicken Sie auf das berechnete benutzerdefinierte Feld *Anweisungen zum Bearbeitungsverlauf,* Kopieren Sie dann Folgendes und fügen Sie es in das Feld Berechnung ein:
-1. Im **Berechnung** Geben Sie die folgende Berechnung für Ihr benutzerdefiniertes Feld an:
+1. Klicken Sie auf das berechnete benutzerdefinierte Feld *Anweisungen zum Bearbeiten des Verlaufs* und kopieren Sie dann Folgendes in das Feld &quot;Berechnung&quot;:
+1. Geben Sie im Feld **Berechnung** die folgende Berechnung für Ihr benutzerdefiniertes Feld an:
 
    ```
    LEFT(IF(LEFT({DE:Instructions Edit History},LEN(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})))={DE:Instructions},{DE:Instructions Edit History},CONCAT(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})," (",$$NOW,") | ",{DE:Instructions Edit History})),2000)
    ```
 
-1. (Empfohlen) Fügen Sie dieselbe Berechnung in die **Anweisungen** im berechneten Feld des Formulars.
-1. Stellen Sie sicher, dass  **Text** wird im **Format** -Feld, um das berechnete benutzerdefinierte Feld als Text zu formatieren.
+1. (Empfohlen) Fügen Sie dieselbe Berechnung in das Feld **Anweisungen** im berechneten Feld im Formular ein.
+1. Stellen Sie sicher, dass  **Text** ist im Feld **Format** ausgewählt, um das berechnete benutzerdefinierte Feld als Text zu formatieren.
 
    Dies ist die Standardeinstellung.
 
-1. Klicken **Speichern+Schließen**.
+1. Klicken Sie auf **Speichern+Schließen**.
 
-   Wenn Sie jetzt das benutzerdefinierte Formular an ein Objekt anhängen und dann jemand die Informationen im *Anweisungen* im Feld *Anweisungen zum Bearbeiten des Verlaufs&quot;den neuesten Wert, gefolgt vom aktuellen Datum in Klammern und einer vertikalen Leiste. Wenn weitere Änderungen vorgenommen werden, werden sie auf die gleiche Weise zu diesen Informationen hinzugefügt.
+   Wenn Sie jetzt das benutzerdefinierte Formular an ein Objekt anhängen und dann die Informationen im Feld *Anweisungen* ändern, zeigt das Feld *Anweisungen zum Bearbeitungsverlauf&quot;den neuesten Wert an, gefolgt vom aktuellen Datum in Klammern und einer vertikalen Leiste. Wenn weitere Änderungen vorgenommen werden, werden sie auf die gleiche Weise zu diesen Informationen hinzugefügt.
 
-   In der obigen Berechnung können Sie *Anweisungen* mit dem genauen Namen Ihres einzeiligen Textfelds, dessen Verlauf Sie verfolgen möchten, und *Anweisungen zum Bearbeiten des Verlaufs* mit dem genauen Namen Ihres berechneten Felds.
+   In der obigen Berechnung können Sie *Anweisungen* durch den genauen Namen Ihres einzeiligen Textfelds ersetzen, dessen Verlauf Sie verfolgen möchten, und *Anweisungen zum Bearbeiten des Verlaufs* durch den genauen Namen Ihres berechneten Felds.

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Erstellen eines statischen Testversands für eine Website oder andere Webinhalte
 
@@ -57,17 +57,17 @@ Um einen statischen Testversand zu erstellen, muss die Website öffentlich zugä
 >Für interne Seiten, für die eine Autorisierung und kennwortgeschützte Seiten erforderlich sind, empfehlen wir interaktive Testsendungen anstelle statischer Testsendungen. Weitere Informationen finden Sie unter [Übersicht über interaktive Inhaltsanalysen](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, in der Sie einen neuen Website-Testversand oder eine neue Version eines vorhandenen erstellen möchten.
-1. Klicks **Dokumente** im linken Bereich .
-1. (Bedingt) Wenn Sie einen neuen Testversand erstellen, klicken Sie auf **Neu hinzufügen** Klicken Sie auf **Testversand** im angezeigten Menü.
+1. Klicken Sie im linken Bereich auf **Dokumente** .
+1. (Bedingt) Wenn Sie einen neuen Testversand erstellen, klicken Sie auf **Neu hinzufügen** und dann im angezeigten Menü auf **Testversand** .
 1. (Bedingt) Wenn Sie eine neue Version eines vorhandenen Testversands erstellen:
 
    1. Bewegen Sie den Mauszeiger über den URL-Testversand, für den Sie eine neue Version erstellen möchten, und wählen Sie ihn aus, indem Sie im hellblauen Hintergrund darauf klicken.
 
       ![Select_proof_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
-   1. Klicks **Neu hinzufügen** > **Version** > **Testversand**.
+   1. Klicken Sie auf **Neu hinzufügen** > **Version** > **Testversand**.
 
-1. Geben Sie die URL der Website, die Sie testen möchten, im **Dateien hinzufügen** Bereich, und drücken Sie dann die **Eingabe**.
+1. Geben Sie die URL der Website, die Sie testen möchten, in den Bereich **Dateien hinzufügen** ein und drücken Sie dann die Eingabetaste **3}.**
 
    >[!NOTE]
    >
@@ -79,8 +79,8 @@ Um einen statischen Testversand zu erstellen, muss die Website öffentlich zugä
 
    ![](assets/interactive-proof-radio-btn-area-350x199.png)
 
-1. (Optional) Wenn Sie den Namen des Testversands aus der Website-URL in eine andere ändern möchten, geben Sie einen **Name des Testversands.**
-1. Stellen Sie sicher **Screenshot &quot;Capture&quot;** ausgewählt ist und eine der folgenden Optionen verwendet:
+1. (Optional) Wenn Sie den Namen des Testversands aus der Website-URL in einen anderen Namen ändern möchten, geben Sie einen **Testversand-Namen** ein.
+1. Stellen Sie sicher, dass **Screenshot &quot;Aufnahme&quot;** ausgewählt ist, und verwenden Sie eine der folgenden Optionen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -101,15 +101,15 @@ Um einen statischen Testversand zu erstellen, muss die Website öffentlich zugä
    >
    >Sie können die Screenshot-Einstellung &quot;Aufnahme&quot;für keine nachfolgenden Versionen des von Ihnen erstellten Testversands ändern.
 
-1. Klicks **Fertig**.
+1. Klicken Sie auf **Fertig**.
 
-   Wenn Sie in Schritt 8 mehrere Screenshot-Auflösungen ausgewählt haben, enthält die Liste eine Reihe von Screenshots für jede Auflösung. Sie können diese Screenshots als separate Testsendungen erstellen oder sie zu einem Testversand zusammenfassen (siehe ). Es wird empfohlen, diese zu kombinieren, insbesondere wenn Sie einen statischen Website-Testversand erstellen.
+   Wenn Sie in Schritt 8 mehrere Screenshot-Auflösungen ausgewählt haben, enthält die Liste eine Reihe von Screenshots für jede Auflösung. Sie können diese Screenshots als separate Testsendungen erstellen oder sie zu einem Testversand zusammenführen (siehe  in .). Es wird empfohlen, diese zu kombinieren, insbesondere wenn Sie einen statischen Website-Testversand erstellen.
 
    >[!NOTE]
    >
    >Wenn Sie eine neue Version zu einem vorhandenen URL-Testversand hinzufügen, werden alle Optionen, die für den ursprünglichen Testversand oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten.
 
-1. Klicks **Testversand erstellen** , um einen einfachen Testversand ohne Überprüfungsprozess zu erstellen.\
+1. Klicken Sie auf **Testversand erstellen** , um einen einfachen Testversand ohne Überprüfungsprozess zu erstellen.\
    oder\
    Fahren Sie mit der Konfiguration eines erweiterten Testversands fort:
 

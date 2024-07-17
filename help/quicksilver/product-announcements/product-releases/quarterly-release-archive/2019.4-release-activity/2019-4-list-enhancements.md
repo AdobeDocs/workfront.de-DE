@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Auf dieser Seite werden alle Listenverbesserungen beschrieben, die mit Version 2019.4 vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 11. November 2019 verfügbar sein.
 
-Eine Liste aller Änderungen, die 2019.4 vorgenommen wurden, finden Sie unter [Versionsübersicht 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.4 vorgenommen wurden, finden Sie unter [Versionsübersicht 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Eine Liste aller Änderungen, die 2019.4 vorgenommen wurden, finden Sie unter [V
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Neues Design auf Listen für Berichte, Vorlagenaufgaben, Portfolios und mehr angewendet</strong> <p>Wichtig: Diese Verbesserungen wurden am 8. November 2019 aus der Vorschau-Umgebung entfernt und werden nicht in die Produktionsumgebung von 2019.4 aufgenommen. Diese Verbesserungen werden nach Version 2019.4 der Produktionsumgebung wieder in die Vorschauumgebung aufgenommen und in einer zukünftigen Version für die Produktion verfügbar gemacht.</p> <p>Das neue Listendesign ist jetzt in den folgenden Listen verfügbar:</p> 
+   <td><strong>Neuer Entwurf, der auf Listen für Berichte, Vorlagenaufgaben, Portfolios und mehr angewendet wird</strong> <p>Wichtig: Diese Verbesserungen wurden am 8. November 2019 aus der Vorschau-Umgebung entfernt und werden nicht in die Produktionsumgebung von 2019.4 aufgenommen. Diese Verbesserungen werden nach Version 2019.4 der Produktionsumgebung wieder in die Vorschauumgebung aufgenommen und in einer zukünftigen Version für die Produktion verfügbar gemacht.</p> <p>Das neue Listendesign ist jetzt in den folgenden Listen verfügbar:</p> 
     <ul> 
      <li>Berichte </li> 
      <li>Probleme</li> 
@@ -72,7 +72,7 @@ Eine Liste aller Änderungen, die 2019.4 vorgenommen wurden, finden Sie unter [V
      <strong>Neue QuickInfo zu Schnellfiltern hinzugefügt</strong> 
      <p> Anstatt die native Funktionalität Ihres Browsers zum Suchen eines Elements in einer Liste zu verwenden, können Sie in allen neu gestalteten Listen Schnellfilter verwenden. Um das Auffinden des Schnellfilters zu vereinfachen, werden Sie jetzt über eine neue QuickInfo zum Schnellfilter weitergeleitet.</p> 
      <p>Wenn Sie nun auf der Tastatur auf STRG+F oder CMD+F klicken, wird neben dem Schnellfilter in einer Liste eine QuickInfo angezeigt, die angibt, dass Sie anstelle dieser nativen Befehle stattdessen den Schnellfilter verwenden können, um ein Element in der Liste zu finden. Die Tastaturbefehle zum Starten des Schnellfilters unterscheiden sich von der Browserkürzel und werden im Suchfeld des Filters angezeigt.</p> 
-     <p>Informationen zur Verwendung von Schnellfiltern in Listen finden Sie im Artikel unter "Anwenden von Schnellfiltern auf Listen" <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Erste Schritte mit Listen in Adobe Workfront</a>.</p> 
+     <p>Informationen zur Verwendung von Schnellfiltern in Listen finden Sie im Abschnitt "Anwenden von Schnellfiltern auf Listen"im Artikel <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Erste Schritte mit Listen in Adobe Workfront</a>.</p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -82,8 +82,8 @@ Eine Liste aller Änderungen, die 2019.4 vorgenommen wurden, finden Sie unter [V
      <p>Tastaturbefehle sind jetzt im Suchfeld von Schnellfiltern in Listen verfügbar, um den Zugriff auf Filter zu erleichtern. </p> 
      <p>Die Tastaturbefehle sind:</p> 
      <ul> 
-      <li><strong>Windows (nur Internet Explorer):</strong> ALT+Umschalt+F</li> 
-      <li><strong>In Mac (alle Browser):</strong> Option+F</li> 
+      <li><strong>Unter Windows (nur Internet Explorer):</strong> ALT+Umschalt+F</li> 
+      <li><strong>In Mac (alle Browser):</strong> Option+F</li> 
      </ul> 
      <p>Schnellfilter sind in allen neu gestalteten Listen verfügbar. Informationen zu den aktualisierten Listen und Schnellfiltern finden Sie unter <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Erste Schritte mit Listen in Adobe Workfront</a>.</p>
     </div> </td> 

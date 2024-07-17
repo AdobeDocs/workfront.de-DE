@@ -13,9 +13,9 @@ ht-degree: 1%
 
 ---
 
-# Installieren und öffnen [!DNL Adobe Workfront for Photoshop]
+# Installieren und öffnen Sie [!DNL Adobe Workfront for Photoshop]
 
-Sie können die [!DNL Adobe Workfront for Photoshop] Plug-in aus dem [!DNL Adobe Marketplace]. Das Plug-in unterstützt die folgenden Sprachen:
+Sie können das [!DNL Adobe Workfront for Photoshop]-Plug-in aus dem [!DNL Adobe Marketplace] installieren. Das Plug-in unterstützt die folgenden Sprachen:
 
 * Englisch
 * Französisch
@@ -48,81 +48,81 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td><p>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] -Lizenz.</p><p>Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud-Unterstützungsrichtlinie</a>.</p></td> 
+   <td><p>Sie müssen zusätzlich zu einer [!DNL Workfront] -Lizenz über eine [!DNL Adobe Creative Cloud] -Lizenz verfügen.</p><p>Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud-Unterstützungsrichtlinie</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 +++
 
 ## Voraussetzungen
 
-* Sie müssen die [!DNL Adobe Photoshop] App vor der Installation [!DNL Workfront] Plug-in.
+* Sie müssen die [!DNL Adobe Photoshop] -App installieren, bevor Sie das [!DNL Workfront] -Plug-in installieren.
 
-## Installieren Sie die [!DNL Adobe Workfront for Photoshop] Plugin für Ihre Organisation
+## Installieren des [!DNL Adobe Workfront for Photoshop]-Plug-ins für Ihre Organisation
 
-Wenn Sie [!DNL Adobe Admin Console] Administrator, können Sie das Plug-in [!DNL Creative Cloud] Bereitstellungspakete. Weitere Informationen finden Sie unter [Einbinden von Plug-ins in Ihr Paket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Wenn Sie ein [!DNL Adobe Admin Console] -Administrator sind, können Sie das Plug-in in [!DNL Creative Cloud] Bereitstellungspakete einbeziehen. Weitere Informationen finden Sie unter [Einschließen von Plug-ins in Ihr Paket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-[Video-Tutorial hier anzeigen](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[Sehen Sie sich hier ein Video-Tutorial an](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] Administratoren können auch reinen Plug-in-Pakete für die Verteilung an Benutzer erstellen. Weitere Informationen finden Sie unter [Erstellen von [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] Pakete für Ihre Benutzer in [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console] -Administratoren können auch Pakete erstellen, die nur Plug-ins enthalten, um sie an Benutzer zu verteilen. Weitere Informationen finden Sie unter [Erstellen von [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] Pakete für Ihre Benutzer im Abschnitt [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md) .
 
-## Installieren Sie die [!DNL Adobe Workfront for Photoshop] Plug-in einzeln
+## Installieren des [!DNL Adobe Workfront for Photoshop]-Plug-ins einzeln
 
-Sie können die [!DNL Adobe Workfront for Photoshop] Plugin für sich selbst aus dem [!DNL Adobe Exchange].
+Sie können das [!DNL Adobe Workfront for Photoshop]-Plug-in über die [!DNL Adobe Exchange] selbst installieren.
 
-1. Navigieren Sie zu [Installationsseite für Adobe Workfront für Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) auf der Adobe Exchange.
-1. Klicken Sie im angezeigten Dialogfeld auf **Öffnen [!DNL Adobe Creative Cloud] Desktop-Programm**.
-1. Einmal [!DNL Adobe Photoshop] Plug-in-Manager öffnet sich, klicken Sie auf **[!UICONTROL Installieren]**.
-1. Lesen Sie die Informationen im Dialogfeld und klicken Sie auf **[!UICONTROL OK]**.
+1. Wechseln Sie auf der Adobe Exchange zur Seite [Adobe Workfront für Photoshop-Installation](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) .
+1. Klicken Sie im angezeigten Dialogfeld auf **Öffnen Sie [!DNL Adobe Creative Cloud] das Desktop-Programm**.
+1. Sobald der Plug-in-Manager [!DNL Adobe Photoshop] geöffnet wird, klicken Sie auf **[!UICONTROL Installieren]**.
+1. Lesen Sie die Informationen im Dialogfeld und klicken Sie dann auf **[!UICONTROL OK]**.
 
 1. Fahren Sie mit dem folgenden Abschnitt fort, um Informationen zum Öffnen des Plug-ins zu erhalten.
 
-## Öffnen Sie die [!DNL Adobe Workfront for Photoshop] plugin
+## Öffnen Sie das Plug-in [!DNL Adobe Workfront for Photoshop] .
 
-1. Öffnen [!DNL Photoshop].
+1. Öffnen Sie [!DNL Photoshop].
 
 1. Erstellen Sie eine neue Datei oder öffnen Sie eine vorhandene.
 
-1. Klicken Sie im oberen Menü auf **[!UICONTROL Plugins]** > **[!UICONTROL Plug-in-Bedienfeld]**.
+1. Klicken Sie im oberen Menü auf **[!UICONTROL Plug-ins]** > **[!UICONTROL Plug-ins Panel]**.
 
    ![](assets/plugins-panel-ps.png)
 
-1. Im **[!UICONTROL Plug-in-Bedienfeld]**, wählen Sie die **[!UICONTROL Plugins]** Registerkarte und suchen **[!UICONTROL Workfront für Adobe Photoshop]**.
+1. Wählen Sie im Bedienfeld **[!UICONTROL Plug-ins]** die Registerkarte **[!UICONTROL Plug-ins]** und suchen Sie nach **[!UICONTROL Workfront for Adobe Photoshop]**.
 
    >[!TIP]
    >
-   >   Wenn Sie das Plug-in nicht sehen, nachdem Sie es über das [!UICONTROL Plug-in-Bedienfeld], könnte er sich hinter der Photoshop-App befinden. Versuchen Sie, die Photoshop zu minimieren, um das Plug-in zu finden.
+   >   Wenn das Plug-in nach dem Öffnen über das [!UICONTROL Plug-in-Bedienfeld] nicht angezeigt wird, könnte es sich hinter der Photoshop-App befinden. Versuchen Sie, die Photoshop zu minimieren, um das Plug-in zu finden.
 
 1. Weiterführende Informationen zur Anmeldung beim Plug-in finden Sie im folgenden Abschnitt .
 
 ## Anmelden bei [!DNL Adobe Workfront for Photoshop]
 
-1. Aus dem **[!UICONTROL Plugins]** im oberen Bildschirmbereich wählen Sie **[!UICONTROL Plug-in-Bedienfeld]**.
-1. Auswählen **[!DNL Adobe Workfront for Photoshop]**.
-1. Geben Sie Ihre Domäne ein und klicken Sie auf **[!UICONTROL Anmelden]**. Eine Browser-Seite wird geöffnet. Möglicherweise müssen Sie Photoshop Berechtigungen zum Öffnen des Browsers erteilen.
+1. Wählen Sie im Menü **[!UICONTROL Plug-ins]** oben im Bildschirm die Option **[!UICONTROL Plug-in Panel]** aus.
+1. Wählen Sie **[!DNL Adobe Workfront for Photoshop]** aus.
+1. Geben Sie Ihre Domäne ein und klicken Sie dann auf **[!UICONTROL Anmelden]**. Eine Browser-Seite wird geöffnet. Möglicherweise müssen Sie Photoshop Berechtigungen zum Öffnen des Browsers erteilen.
 
    >[!TIP]
    >
-   >* Um Ihre Domäne zu finden, öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL:\
+   >* Um Ihre Domäne zu finden, öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] -Instanz und kopieren Sie den ersten Teil der URL:\
    >![](assets/domain-350x50.png)
    >
    > * Wenn Ihre Workfront-Instanz mit Experience Cloud integriert ist, bitten Sie Ihren Administrator, Ihnen die Workfront-Domäne anzugeben, die Sie unter Produkt > Workfront in der Admin Console finden.
 
-1. Geben Sie im Browser Ihre [!DNL Workfront] Anmeldedaten und klicken Sie dann auf **[!UICONTROL Anmelden]**. Wenn Ihr Unternehmen Single Sign-On (SSO) verwendet, werden Sie zur Seite Ihres SSO-Anbieters weitergeleitet, um sich anzumelden.
+1. Geben Sie im Browser Ihre [!DNL Workfront] -Anmeldedaten ein und klicken Sie dann auf **[!UICONTROL Anmelden]**. Wenn Ihr Unternehmen Single Sign-On (SSO) verwendet, werden Sie zur Seite Ihres SSO-Anbieters weitergeleitet, um sich anzumelden.
 
    >[!NOTE]
    >
-   >Sie werden möglicherweise nicht aufgefordert, Ihre [!DNL Workfront] Anmeldedaten, wenn Sie sich kürzlich angemeldet haben.
+   >Sie werden möglicherweise nicht aufgefordert, Ihre [!DNL Workfront]-Anmeldedaten einzugeben, wenn Sie sich kürzlich angemeldet haben.
 
    Befolgen Sie die Anweisungen zum Anmelden bei [!DNL Workfront].
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] verbindet [!DNL Adobe Creative Cloud] mit OAuth 2.0, einem sicheren Standard, der von den meisten webbasierten Integrationen für die Authentifizierung und Autorisierung von Benutzern verwendet wird.
-   >* Wenn Sie aufgefordert werden, die [Domäne oder Host] Ihrer [!DNL Workfront] -Konto angeben, geben Sie es in folgendem Format ein: *yourCompany&#39;sDomain.my.workfront.com*. Die Domäne Ihres Unternehmens ist normalerweise der Name Ihres Unternehmens.
+   >* [!DNL Workfront] verbindet sich mit [!DNL Adobe Creative Cloud] mit OAuth 2.0, einem sicheren Standard, der von den meisten webbasierten Integrationen für die Authentifizierung und Autorisierung von Benutzern verwendet wird.
+   >* Wenn Sie aufgefordert werden, die [Domäne oder den Host] Ihres [!DNL Workfront]-Kontos einzugeben, geben Sie es in folgendem Format ein: *sDomain.my.workfront.com* Ihres Unternehmens. Die Domäne Ihres Unternehmens ist normalerweise der Name Ihres Unternehmens.
 
-1. Klicks **[!UICONTROL Zugriff erlauben]** , um die Anmeldung abzuschließen.
-1. Gehen Sie zurück zu [!UICONTROL Adobe Photoshop] um Ihre Arbeit zu sehen.
+1. Klicken Sie auf **[!UICONTROL Zugriff erlauben]** , um die Anmeldung abzuschließen.
+1. Gehen Sie zurück zu [!UICONTROL Adobe Photoshop] , um Ihre Arbeit zu sehen.

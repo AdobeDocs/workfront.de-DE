@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint - Übersicht: Sofort wie möglich"
+title: "Task Constraint Overview: so bald wie möglich"
 description: Sofort wie möglich ist eine Aufgabenbegrenzung, die die Startzeit der Aufgabe so nah wie möglich am Anfang des Projekts platziert.
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbeschränkungen: So bald wie möglich
+# Übersicht über Aufgabenbegrenzungen: Sofort wie möglich
 
 Sofort wie möglich ist eine Aufgabenbegrenzung, die die Startzeit der Aufgabe so nah wie möglich am Anfang des Projekts platziert.
 
@@ -22,9 +22,9 @@ Sofort wie möglich ist eine Aufgabenbegrenzung, die die Startzeit der Aufgabe s
 
 * Sofort wie möglich ist die Standardeinschränkung, wenn ein Projekt den Planungsmodus vom Startdatum verwendet und das standardmäßige Startdatum des Systems für eine neue Aufgabe auf Basierend auf dem geplanten Projektdatum festgelegt ist.
 
-* Wenn in einem Projekt der Planungsmodus Zeitplan ab Startdatum verwendet wird und das standardmäßige Startdatum des Systems oder der Gruppe für eine neue Aufgabe auf Heute festgelegt ist, dann ist die standardmäßige Aufgabenbegrenzung Start nicht früher als .
+* Wenn ein Projekt den Planungsmodus &quot;Vom Startdatum planen&quot;verwendet und das standardmäßige Startdatum des Systems oder der Gruppe für eine neue Aufgabe auf &quot;Heute&quot;festgelegt ist, ist die standardmäßige Aufgabenbegrenzung &quot;Start nicht früher als&quot;.
 
-   Informationen darüber, wo die Standardbegrenzung für eine neue Aufgabe festgelegt werden soll, finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Informationen darüber, wo die Standardbegrenzung für eine neue Aufgabe festgelegt werden soll, finden Sie unter [Systemweite Aufgaben konfigurieren und Ausgabeeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
@@ -56,10 +56,10 @@ Die früheste Zeitbeschränkung unterscheidet sich von der so bald wie möglich 
 
 In diesem Fall:
 
-* **Früheste verfügbare Zeit:** Die Verwendung der frühesten Zeitbeschränkung für die Nachfolgeaufgabe gibt der flexiblen Beschränkung des Vorgängers Priorität.
+* **Früheste verfügbare Zeit:** Durch Verwendung der Beschränkung &quot;Früheste verfügbare Zeit&quot;für die Nachfolgeaufgabe erhält die flexible Beschränkung des Vorgängers Priorität.
 
-   Angenommen, Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat die früheste verfügbare Zeitbeschränkung und Aufgabe A hat die so spät wie möglich Beschränkung. In diesem Fall wird die Aufgabe so nahe wie möglich am Ende des Projekts geplant.
+  Angenommen, Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat die früheste verfügbare Zeitbeschränkung und Aufgabe A hat die so spät wie möglich Beschränkung. In diesem Fall wird die Aufgabe so nahe wie möglich am Ende des Projekts geplant.
 
-* **So bald wie möglich:** In diesem Szenario räumt die Verwendung der Beschränkung So bald wie möglich für die Nachfolgeaufgabe der Nachfolgeaufgabe die Priorität ein.
+* **Sobald wie möglich:** In diesem Szenario räumt die Verwendung der Beschränkung So bald wie möglich für die Nachfolgeaufgabe der Nachfolgeaufgabe die Priorität der Nachfolgeaufgabe ein.
 
-   Angenommen, Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat so bald wie möglich die Beschränkung und Aufgabe A hat die Beschränkung So spät wie möglich. In diesem Fall wird die Aufgabe so nah wie möglich am Projektstart geplant.
+  Angenommen, Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat so bald wie möglich die Beschränkung und Aufgabe A hat die Beschränkung So spät wie möglich. In diesem Fall wird die Aufgabe so nah wie möglich am Projektstart geplant.

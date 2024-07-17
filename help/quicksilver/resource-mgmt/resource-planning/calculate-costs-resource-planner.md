@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-Sie können Ihre Ressourcen im Adobe Workfront Resource Planer mit Kostenwerten anstelle von Stunden- oder FTE-Werten einsetzen. Kostenwerte sind nicht verfügbar für **Ansicht nach Benutzer** im Ressourcenplaner angezeigt.
+Sie können Ihre Ressourcen im Adobe Workfront Resource Planer mit Kostenwerten anstelle von Stunden- oder FTE-Werten einsetzen. Kostenwerte sind nicht für die Ansicht **Nach Benutzer anzeigen** im Ressourcenplaner verfügbar.
 
 >[!IMPORTANT]
 >
 >Sie müssen Benutzer und Stellenrollen mit den Kosten pro Stunde-Raten verknüpfen, um Kosteninformationen im Ressourcenplaner anzuzeigen.\
->Weitere Informationen zum Zuordnen der Kosten pro Stunde zu den Jobrollen finden Sie unter [Erstellen und Verwalten von Vorgangsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
->Weitere Informationen zur Verknüpfung von &quot;Cost per Hour&quot;-Raten mit Benutzern finden Sie unter [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+>Weitere Informationen zum Zuordnen der Kosten pro Stunde zu Auftragsrollen finden Sie unter [Erstellen und Verwalten von Auftragsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+>Weitere Informationen zum Zuordnen der Kosten pro Stunde zu Benutzern finden Sie unter [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Bevor Sie Ihre Ressourcen in den Budgets einplanen, sollten Sie wissen, welche Aufgaben zu erledigen sind (geplante Stunden, FTE oder Kosten) und wann Ihre Benutzer zur Arbeit bereit sind (Verfügbare Stunden, FTE oder Kosten).\
-Weitere Informationen zum Verständnis der Informationen im Ressourcenplaner bei der Budgetierung nach Stunden oder VZÄ finden Sie unter [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Weitere Informationen zum Verständnis der Informationen im Ressourcenplaner bei der Budgetierung nach Stunden oder VZÄ finden Sie unter [Überblick über Stunden, VZÄ und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Zugriffsanforderungen
 
@@ -52,11 +52,11 @@ Sie müssen über Folgendes verfügen:
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf das Ressourcen-Management, das Zugriff auf die Option "Prioritäten bearbeiten"und die Budgetzeiten im Ressourcenplaner enthält.</p> <p>Zugriff auf Finanzdaten, Projekte und Benutzer bearbeiten</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für die Projekte, für die Informationen zum Budget bereitgestellt werden sollen, mit der Möglichkeit, die Finanzen zu verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für die Projekte, für die Informationen zum Budget bereitgestellt werden sollen, mit der Möglichkeit, die Finanzen zu verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,19 +69,19 @@ Standardmäßig werden die Verfügbarkeits- und Zuordnungsinformationen in Stund
 
 So zeigen Sie verfügbare, geplante und budgetierte Informationen nach Kosten im Ressourcenplaner an:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
 
-1. Klicks **Ressourcen**.
+1. Klicken Sie auf **Ressourcen**.
 1. Wechseln Sie zum Ressourcen-Planer.
-1. (Bedingt) Wählen Sie **Anzeigen nach Projekt** oder **Ansicht nach Rolle**.\
-   Standardmäßig **Anzeigen nach Projekt** ausgewählt ist.\
+1. (Bedingt) Wählen Sie **Nach Projekt anzeigen** oder **Nach Rolle anzeigen** aus.\
+   Standardmäßig ist **Nach Projekt anzeigen** ausgewählt.\
    Die Informationen zur Zuordnung und Verfügbarkeit werden in Stunden angezeigt.
 
-1. Aus dem **Stunden** Dropdown-Menü auswählen **Kosten**.
+1. Wählen Sie aus dem Dropdownmenü **Stunden** die Option **Kosten** aus.
 
    Wenn Sie keinen Zugriff auf Finanzdaten in Ihrer Zugriffsebene haben, ist diese Option nicht verfügbar.\
    Wenn Projekte eine andere Währung als das System haben, werden die Kosten für diese Projekte im Ressourcenplaner angezeigt, der in die Währung des Systems konvertiert wurde. Ihr Systemadministrator definiert die Systemwährung.\
-   Weitere Informationen zur Einrichtung der Systemwährung in Workfront und zu den Konversionsraten finden Sie unter [Wechselkurse einrichten](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
+   Weitere Informationen zur Einrichtung der Systemwährung in Workfront und zu Konversionsraten finden Sie unter [Einrichten von Wechselkursen](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
    ![cost_in_the_planner_with_no_budgeting.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
 ## Verfügbare Kosten im Ressourcenplaner berechnen
@@ -137,7 +137,7 @@ Obwohl Sie Aufgabeninformationen nicht im Ressourcenplaner anzeigen können, wer
    * Ein Team\
      Eine einem Team zugewiesene Aufgabe wird aus der Sicht des Ressourcenplaners als nicht zugewiesen betrachtet.
 
-* Die **Kostentyp** der Aufgaben des Projekts.\
+* Der **Kostentyp** der Aufgaben im Projekt.\
   Weitere Informationen zum Kostentyp einer Aufgabe finden Sie unter [Kosten verfolgen](../../manage-work/projects/project-finances/track-costs.md).
 
 * Die tatsächlichen Daten der Kostensätze für die Rollen und Benutzer im Auftrag.
@@ -150,19 +150,19 @@ Obwohl Sie Aufgabeninformationen nicht im Ressourcenplaner anzeigen können, wer
 
 Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gibt es die folgenden Szenarien:
 
-* Wenn die Variable **Kostentyp** ist **Benutzer stündlich **und es gibt **keine Zuweisung** in der Aufgabe:
+* Wenn der **Kostentyp** **Benutzer stündlich **ist und die Aufgabe **keine Zuweisung** enthält:
 
-   * **Rolle und geplante Benutzerkosten**:
+   * **Rolle und vom Benutzer geplante Kosten**:
 
      Die Kosten für Rolle und Anwender, die geplant sind, betragen 0,00 USD.
 
-   * **Geplante Projektkosten**:
+   * **Projektgeplante Kosten**:
 
      Die geplanten Projektkosten belaufen sich auf 0,00 USD.
 
-* Wenn die Variable **Kostentyp** is **Benutzer stündlich** und es gibt eine **Benutzerzuweisung** in der Aufgabe:
+* Wenn der **Kostentyp** **Benutzer stündlich** ist und eine **Benutzerzuweisung** für die Aufgabe vorhanden ist:
 
-   * **Rolle und geplante Benutzerkosten**:
+   * **Rolle und vom Benutzer geplante Kosten**:
 
      Die vom Benutzer geplanten Kosten werden mit der folgenden Formel berechnet:
 
@@ -178,13 +178,13 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **Geplante Projektkosten**:
+   * **Projektgeplante Kosten**:
 
      Die geplanten Projektkosten belaufen sich auf 0,00 USD.
 
-* Wenn die Variable **Kostentyp** is **Benutzer stündlich** und es gibt eine **Aufgabenzuweisung** in der Aufgabe:
+* Wenn der **Kostentyp** **Benutzer stündlich** ist und die Aufgabe eine **Aufgabenrollenzuweisung** enthält:
 
-   * **Rolle und geplante Benutzerkosten**:
+   * **Rolle und vom Benutzer geplante Kosten**:
 
      Die vom Benutzer geplanten Kosten betragen 0,00 USD.
 
@@ -194,23 +194,23 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Die Kosten pro Stunde auf Systemebene der der Aufgabe zugewiesenen Auftragsrolle wird zur Berechnung der geplanten Kosten verwendet.
 
-   * **Geplante Projektkosten**:
+   * **Projektgeplante Kosten**:
 
      Die geplanten Projektkosten belaufen sich auf 0,00 USD.
 
-* Wenn die Variable **Kostentyp** is **Stündliche Rolle** und gibt es **keine Zuweisung** in der Aufgabe:
+* Wenn der **Kostentyp** **Rolle pro Stunde** ist und die Aufgabe **keine Zuweisung** enthält:
 
-   * **Rolle und geplante Benutzerkosten**:
+   * **Rolle und vom Benutzer geplante Kosten**:
 
      Die Kosten für Rolle und Anwender, die geplant sind, betragen 0,00 USD.
 
-   * **Geplante Projektkosten**:
+   * **Projektgeplante Kosten**:
 
      Die geplanten Projektkosten belaufen sich auf 0,00 USD.
 
-* Wenn die Variable **Kostentyp** is **Stündliche Rolle** und es gibt eine **Benutzerzuweisung** in der Aufgabe:
+* Wenn der **Kostentyp** **Stündliche Rolle** ist und eine **Benutzerzuweisung** für die Aufgabe vorhanden ist:
 
-   * **Rolle und geplante Benutzerkosten**:
+   * **Rolle und vom Benutzer geplante Kosten**:
 
      Die vom Benutzer geplanten Kosten betragen 0,00 USD.
 
@@ -222,15 +222,15 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Wenn der Benutzer keiner Rolle für die Aufgabe zugeordnet ist, beträgt die Anzahl der geplanten Kosten 0,00 USD.
 
-   * **Geplante Projektkosten**:
+   * **Projektgeplante Kosten**:
 
      Die geplanten Projektkosten werden mit der folgenden Formel berechnet:
 
      `Project Planned Cost = SUM(Role Planned Costs)`
 
-* Wenn die Variable **Kostentyp** is **Stündliche Rolle** und es gibt eine **Aufgabenzuweisung** in der Aufgabe:
+* Wenn der **Kostentyp** **Stündliche Rolle** ist und die Aufgabe eine **Aufgabenrollenzuweisung** enthält:
 
-   * **Rolle und geplante Benutzerkosten**:
+   * **Rolle und vom Benutzer geplante Kosten**:
 
      Die vom Benutzer geplanten Kosten betragen 0,00 USD.
 
@@ -240,7 +240,7 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Rollen und das Projekt gi
 
      Workfront untersucht die Rolle, die der Benutzer bei der Berechnung der geplanten Kosten für die Rolle spielt.
 
-   * **Geplante Projektkosten**:
+   * **Projektgeplante Kosten**:
 
      Die geplanten Projektkosten werden mit der folgenden Formel berechnet:
 

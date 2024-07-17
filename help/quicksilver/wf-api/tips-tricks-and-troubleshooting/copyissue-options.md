@@ -9,8 +9,8 @@ role: Developer
 exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 6%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -34,9 +34,9 @@ Um eine der folgenden Optionen einzuschließen, geben Sie die entsprechende Ganz
 
 Beispiele:
 
-* Um den Fortschritt beim Kopieren des Problems zu löschen, geben Sie eine `options` Wert von `4`.
+* Um den Fortschritt beim Kopieren des Problems zu löschen, geben Sie den Wert `options` von `4` ein.
 
-* Um sowohl den Fortschritt als auch die Dokumente zu löschen, geben Sie einen `options` Wert von `132`.
+* Um sowohl den Fortschritt als auch die Dokumente zu löschen, geben Sie den Wert `options` von `132` ein.
 
   Kleiner Fortschritt = 4
 

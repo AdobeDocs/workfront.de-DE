@@ -26,7 +26,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Business] oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -35,28 +35,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL Zugriff auf Portfolios und Programme bearbeiten </p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Zugriff auf Portfolios und Programme bearbeiten </p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Portfolio und das Programm</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Portfolio und das Programm</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Hinzufügen eines vorhandenen Programms zu einem Portfolio
 
-1. Wechseln Sie zu einem Portfolio und klicken Sie auf **[!UICONTROL Programme]** im linken Bereich.
-1. Klicken **[!UICONTROL Programm hinzufügen]**.
-1. Klicken **[!UICONTROL Bestehendes Programm]**.
+1. Wechseln Sie zu einem Portfolio und klicken Sie dann im linken Bereich auf **[!UICONTROL Programme]** .
+1. Klicken Sie auf **[!UICONTROL Programm hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Vorhandenes Programm]**.
 
    >[!IMPORTANT]
    >
    >Durch das Hinzufügen eines existierenden Programms werden alle mit diesem Programm verbundenen Projekte in das Portfolio aufgenommen. Achten Sie darauf, Projekte nicht unbeabsichtigt auf diese Weise zu verschieben.
 
-1. Im **[!UICONTROL Programme hinzufügen]** -Dialogfeld, geben Sie den Namen eines Programms ein und wählen Sie ihn aus.
+1. Geben Sie im Dialogfeld **[!UICONTROL Programme hinzufügen]** den Namen eines Programms ein und wählen Sie ihn aus.
 1. (Optional) Um weitere Programme hinzuzufügen, geben Sie den Namen eines Programms ein und wählen Sie ihn aus.
-1. Klicken **[!UICONTROL Programme hinzufügen]**.\
-   Das Programm wird im **[!UICONTROL Programme]** im ausgewählten Portfolio.
+1. Klicken Sie auf **[!UICONTROL Programme hinzufügen]**.\
+   Das Programm wird auf der Registerkarte **[!UICONTROL Programme]** des ausgewählten Portfolios angezeigt.

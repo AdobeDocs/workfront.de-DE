@@ -81,15 +81,15 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
   <tr>
    <td><strong>Funktion </strong>
    </td>
-   <td><strong>Existiert in alten Kommentierungserlebnissen </strong>
+   <td><strong>Vorhanden im alten Kommentarerlebnis </strong>
    </td>
-   <td><strong>Existiert im neuen Kommentierungserlebnis </strong>
+   <td><strong>Vorhanden im neuen Kommentarerlebnis </strong>
    </td>
-   <td><strong>Wird in das neue Kommentierungserlebnis eingeführt </strong>
+   <td><strong>Wird in das neue Kommentarerlebnis eingeführt </strong>
    </td>
-   <td><strong>Wann wird in das neue Kommentierungserlebnis eingeführt? </strong>
+   <td><strong>Wann wird in das neue Kommentarerlebnis eingeführt </strong>
    </td>
-   <td><strong>Forschung </strong>
+   <td><strong>In der Suche </strong>
    </td>
   </tr>
   <tr>
@@ -514,9 +514,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
 
 >[!IMPORTANT]
 >
->Informationen zu den Funktionen, die während des Beta-Zeitraums für das neue Kommentar-Erlebnis veröffentlicht wurden, finden Sie unter [Neue Kommentar-Erlebnis-Release-Aktivität](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>Informationen zu den Funktionen, die während des Beta-Zeitraums für das neue Kommentar-Erlebnis veröffentlicht wurden, finden Sie unter [Neue Kommentarrelease-Aktivität für Beta-Erlebnisse](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
->Weitere Informationen zum Verwalten von Aktualisierungen für Workfront-Objekte finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>Weitere Informationen zum Verwalten von Updates für Workfront-Objekte finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen für die Veröffentlichung des neuen Kommentierungserlebnisses in der Produktionsumgebung. Zusätzlich zu den unten stehenden Meilensteinen werden wir das Kommentierungserlebnis mit kleineren Verbesserungen weiter verbessern.
@@ -529,18 +529,18 @@ Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des 
    * Starten des Kommentierungserlebnisses Beta für Probleme
    * Das neue Kommentarerlebnis für Ziele freigeben (als einziges Erlebnis)
 * Mit der Version 23.3 (20. Juli 2023):
-   * Starten Sie die Beta-Kommentarfunktion für Projekte, Aufgaben und Dokumente.
+   * Starten Sie das Kommentierungserlebnis in Beta für Projekte, Aufgaben und Dokumente.
    * Das neue Kommentarerlebnis für Karten im Bereich &quot;Foren&quot;freigeben (als einziges Erlebnis)
 * In der Version vom vierten Quartal 2023 (begrenzte Version, nur für Kunden verfügbar, die die schnelle Version wählen):
    * Das neue Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets freigeben (als einziges Erlebnis)
-   * Aktualisieren Sie die Beta-Kommentarfunktion für Projekte, Aufgaben, Probleme und Dokumente, sodass sie zur Standardoption wird. Die Bezeichnung &quot;Beta&quot;wurde entfernt.
+   * Aktualisieren Sie das Kommentar-Erlebnis Beta für Projekte, Aufgaben, Probleme und Dokumente, um zur Standardoption zu werden. Die Bezeichnung &quot;Beta&quot;wurde entfernt.
 * Mit der Version vom 26. Quartal 2023 (23.10) (26. Oktober 2023)
    * Veröffentlichen Sie die neue Kommentarfunktion für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets (als einziges Erlebnis) für alle Kunden.
    * Machen Sie die neue Kommentarfunktion für Projekte, Aufgaben, Probleme und Dokumente zur Standardoption.
 
   >[!IMPORTANT]
   >
-  >    Dadurch wird die Beta-Phase der neuen Kommentarerfahrung abgeschlossen.
+  >    Damit wird die Beta-Phase der neuen Kommentarerfahrung abgeschlossen.
 
    * Machen Sie alle Funktionen, die für das neue Kommentierungserlebnis veröffentlicht werden, von diesem Datum an Teil der aktuellen regulären monatlichen und vierteljährlichen Versionen.
 * Ende 2023:
@@ -561,7 +561,7 @@ Das neue Kommentierungserlebnis ist in den folgenden Bereichen von Workfront ver
 
 * Im Abschnitt Updates aller Objekte.
 
-  Informationen zum Zugriff auf den Abschnitt &quot;Aktualisierungen&quot;von Workfront-Objekten finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Informationen zum Zugriff auf den Abschnitt &quot;Updates&quot;von Workfront-Objekten finden Sie unter [Übersicht über den Abschnitt &quot;Aktualisierungen&quot;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 * Im Bereich &quot;Zusammenfassung&quot;von Aufgaben, Problemen und Dokumenten in allen Bereichen, in denen diese verfügbar sind (Listen, Timesheets, Workload Balancer und Startseite).
 * Im Bereich Startseite für Aufgaben und Probleme.

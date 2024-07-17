@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle in Version 2019.2 enthaltenen Verbesserungen bei der Prüfung beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
 
-Eine Liste aller 2019.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivitäten 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.2 vorgenommen wurden, finden Sie unter [Übersicht über die Veröffentlichungsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Benutzern ohne Testlizenz erlauben, Aktionen anzuwenden und Kommentare aufzulösen
 

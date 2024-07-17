@@ -56,7 +56,7 @@ Mit der nativen Experience Manager-Integration können Sie
 
 1. [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 1. Richten Sie die Integration ein:
-   1. [Experience Manager Assets as a Cloud Service-Integration konfigurieren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+   1. [Konfigurieren der Experience Manager Assets as a Cloud Service-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 Oder
    1. [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. Verwenden Sie die Integration: Senden von Assets, Erstellen verknüpfter Ordner, Zuordnen von Metadaten und mehr. Siehe [Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) für weitere Informationen.
+1. Verwenden Sie die Integration: Senden von Assets, Erstellen verknüpfter Ordner, Zuordnen von Metadaten und mehr. Weitere Informationen finden Sie unter [Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) .

@@ -22,7 +22,7 @@ Programme stellen eine Sammlung von Projekten dar, die eine gemeinsame Strategie
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Programm erstellen](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
-* [Bearbeiten von Programmen](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
+* [Programme bearbeiten](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
 * [Hinzufügen eines vorhandenen Programms zu einem Portfolio](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)
 * [Hinzufügen eines Projekts zu einem Programm](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 * [Entfernen eines Projekts aus einem Programm](../../../manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)

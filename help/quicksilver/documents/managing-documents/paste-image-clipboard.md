@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -50,7 +50,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das mit dem Dokument verknüpfte Objekt anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das mit dem Dokument verknüpfte Objekt anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,20 +65,20 @@ So fügen Sie Workfront über die Zwischenablage ein Bild oder einen Screenshot 
 
    Klicken Sie beispielsweise mit der rechten Maustaste auf ein Browserbild und wählen Sie **Bild kopieren** oder kopieren Sie ein Bild aus einer Bildanwendung wie Photoshop oder SnagIt.
 
-1. Navigieren Sie in Workfront zum **Dokumente** Bereich, in den Sie das Bild einfügen möchten.
-1. Klicken **Neu hinzufügen** > **Aus Zwischenablage einfügen**.
+1. Wechseln Sie in Workfront zum Bereich **Dokumente** , in dem Sie das Bild hinzufügen möchten.
+1. Klicken Sie auf **Neu hinzufügen** > **Aus Zwischenablage einfügen**.
 
    >[!NOTE]
    >
    >Wenn Sie den Internet Explorer oder Safari-Browser verwenden, wird &quot;Aus Zwischenablage einfügen&quot;nicht unterstützt und im Dropdown-Menü &quot;Dokument hinzufügen&quot;als abgeblendet angezeigt.
 
-1. Im **Aus Zwischenablage einfügen** Führen Sie je nach Betriebssystem einen der folgenden Schritte aus:
+1. Führen Sie je nach Betriebssystem im angezeigten Feld **Aus Zwischenablage einfügen** einen der folgenden Schritte aus:
 
    * **Windows:** Drücken Sie Strg+V.
-   * **Mac:** Drücken Sie Befehl+V
+   * **Mac:** Befehl+V drücken
 
-1. Um weitere Bilder hinzuzufügen, wiederholen Sie Schritt 1, um ein anderes Bild zu kopieren, und fügen Sie dann das Bild wie in Schritt 4 beschrieben in das Dialogfeld Aus Zwischenablage einfügen ein.
+1. Um weitere Bilder hinzuzufügen, wiederholen Sie Schritt 1, um ein anderes Bild zu kopieren, und fügen Sie das Bild dann wie in Schritt 4 beschrieben in das Dialogfeld Aus Zwischenablage einfügen ein.
 
    Jedes Bild, das Sie in das Dialogfeld einfügen, wird als separate Datei hinzugefügt.
 
-1. Klicken **Fertig**.
+1. Klicken Sie auf **Fertig**.

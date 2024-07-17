@@ -56,9 +56,9 @@ Objekte in Workfront (und damit in Ihrem Data Lake) werden nicht nur durch ihre 
 Es gibt eine Reihe von Datumsobjekten, die Informationen darüber bereitstellen, wann bestimmte Ereignisse auftreten.
 
 * `DL_LOAD_TIMESTAMP`: Dieses Datum wird für interne Referenzzwecke verwendet und gibt an, wann die Daten in die Tabelle &quot;Aktueller Verlauf&quot;, &quot;Ereignis&quot;oder &quot;Täglicher Verlauf&quot;geladen wurden. Dieses Datum sollte nicht für die Datenanalyse verwendet werden und sollte während der Beta-Phase des Workfront Data Lake entfernt werden.
-* `CALENDAR_DATE`: Dieses Datum ist nur in der Tabelle Tagesverlauf vorhanden. Diese Tabelle enthält einen Datensatz, wie die Daten für jedes in `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in den Tabellen Ereignis- als auch Tagesverlauf vorhanden und zeichnet genau auf, wenn sich ein Datensatz geändert hat _nach_ den Wert, den er in der aktuellen Zeile hat.
-* `END_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in den Tabellen Ereignis- als auch Tagesverlauf vorhanden und zeichnet genau auf, wenn sich ein Datensatz geändert hat _von_ den Wert in der aktuellen Zeile in einen Wert in einer anderen Zeile. So aktivieren Sie zwischen Abfragen auf `BEGIN_EFFECTIVE_TIMESTAMP` und `END_EFFECTIVE_TIMESTAMP` ist dieser Wert nie null, auch wenn kein neuer Wert vorhanden ist. Wenn ein Datensatz noch gültig ist (d. h., der Wert hat sich nicht geändert), `END_EFFECTIVE_TIMESTAMP` hat den Wert 2300-01-01.
+* `CALENDAR_DATE`: Dieses Datum ist nur in der Tabelle &quot;Tagesverlauf&quot;enthalten. Diese Tabelle enthält einen Datensatz, wie die Daten bei 11:59 UTC für jedes in `CALENDAR_DATE` angegebene Datum aussahen.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in der Ereignis- als auch in der Täglich-Verlauf-Tabelle vorhanden und zeichnet genau auf, wenn ein Datensatz den Wert in der aktuellen Zeile _in_ geändert hat.
+* `END_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in der Ereignis- als auch in der Täglich-Verlauf-Tabelle vorhanden und zeichnet genau auf, wenn ein Datensatz den Wert in der aktuellen Zeile in einen Wert in einer anderen Zeile geändert hat. __ Um zwischen Abfragen für `BEGIN_EFFECTIVE_TIMESTAMP` und `END_EFFECTIVE_TIMESTAMP` zu ermöglichen, ist dieser Wert nie null, auch wenn kein neuer Wert vorhanden ist. Falls ein Datensatz noch gültig ist (d. h. der Wert nicht geändert wurde), hat `END_EFFECTIVE_TIMESTAMP` den Wert 2300-01-01.
 
 ## Terminologie
 
@@ -87,7 +87,7 @@ In der folgenden Tabelle werden Objektnamen in Workfront (sowie deren Namen in d
     <td>Bedingung, Priorität, Schweregrad, Status</td>
     <td>CSTEM | Benutzerdefinierte Enum</td>
     <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
-    <td>Der Typ des Datensatzes wird durch die Eigenschaft "enumClass"identifiziert. Die folgenden Typen werden erwartet:<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
+    <td>Der Typ des Datensatzes wird durch die Eigenschaft "enumClass"identifiziert. Die folgenden Typen werden erwartet:<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br> ATUS_TASK</td>
   </tr>
   <tr>
     <td>Dokument</td>
@@ -156,7 +156,7 @@ In der folgenden Tabelle werden Objektnamen in Workfront (sowie deren Namen in d
     <td>Portfolio</td>
     <td>Portfolio</td>
     <td>PORT | Portfolio</td>
-    <td>PORTFOLIO_CURRENT<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br><br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
+    <td>PORTFOLIO_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br><br>PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>

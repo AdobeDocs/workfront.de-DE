@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 21.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 21. Juli 2021 bereitgestellt.
 
-Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 - Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Verknüpfen einer Vorlage mit einer Gruppe
 
@@ -52,7 +52,7 @@ Zuvor wurden die Übergabe-Daten nur anhand der Vorgänger der Aufgabe desselben
 
 Um nun sicherzustellen, dass Sie immer ein genaues Übermittlungsdatum für eine Aufgabe mit einem projektübergreifenden Vorgänger haben, müssen Sie die Zeitleiste des Projekts der Nachfolgeaufgabe neu berechnen. Nach der Neuberechnung der Zeitleiste werden die Übergabedaten der Aufgabe unter Berücksichtigung der projektübergreifenden Abhängigkeiten der Aufgaben berechnet.
 
-Weitere Informationen zu Übergabe-Daten finden Sie unter [Übersicht über das Datum der Aufgabenübergabe](../../../manage-work/tasks/task-information/handoff-task-date.md).
+Weitere Informationen zu Übergabe-Daten finden Sie unter [Übersicht über das Übergabedatum für Aufgaben](../../../manage-work/tasks/task-information/handoff-task-date.md).
 
 ## Hinzufügen vorhandener Meldungen und Probleme aus der Scrum-Pinnwand
 
@@ -82,7 +82,7 @@ Weitere Informationen finden Sie unter [Hinzufügen von Meldungen und Problemen 
 
 Sie können jetzt eine Geschichte oder ein Problem direkt aus Ihrem Kanban-Board löschen, indem Sie auf das Symbol Mehr auf einer Geschichte oder Ausgabekarte klicken und Löschen auswählen. Wenn Sie einen Artikel oder ein Problem löschen, wird er 30 Tage lang in den Papierkorb verschoben und kann nur vom Systemadministrator abgerufen werden.
 
-Weitere Informationen finden Sie unter [Löschen von Geschichten oder Problemen aus dem Kanban-Board](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
+Weitere Informationen finden Sie unter [Meldungen oder Probleme aus der Kanban-Pinnwand löschen](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
 
 ## Aktualisierungen der Kartenkopfzeile und des Storyboards
 
@@ -97,7 +97,7 @@ Auf Kanban- und Scrum-Pinnwänden sind jetzt die folgenden Verbesserungen verfü
 * Oben auf jeder Karte befindet sich eine Beschriftung, mit der sie als übergeordnete Meldung, Unteraufgabe (die mit einer übergeordneten Meldung verknüpft ist), Meldung (die nicht mit einer übergeordneten Meldung verknüpft ist) oder Problem identifiziert werden kann.
 * Die Hintergrundschattierung trennt die Spalten visuell.
 
-Weitere Informationen finden Sie unter [Iterationen - Übersicht](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
+Weitere Informationen finden Sie unter [Iterations overview](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
 
 ## Voreinstellungen für Gruppenprojekte, Aufgaben und Probleme
 
@@ -105,7 +105,7 @@ Wie wir bereits zuvor kommuniziert haben, haben wir in Phasen bis zum 24. Juni 2
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+* [Konfigurieren der Projektanforderungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
 * [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 ## Zulassen der Genehmigung eines Dokuments durch externe Benutzer
@@ -156,5 +156,5 @@ Wir haben es einfacher gemacht, einem Objekt ein benutzerdefiniertes Formular hi
 
 Wenn Sie zuvor ein benutzerdefiniertes Formular zu einem Objekt hinzugefügt haben, wurde die Seite in den Bearbeitungsmodus versetzt und Sie mussten alle erforderlichen Felder im Formular ausfüllen, bevor Sie es im Objekt speichern konnten. Dies war unpraktisch, wenn das Formular von einem anderen Benutzer ausgefüllt werden sollte oder Sie noch nicht wussten, was in ein erforderliches Feld eingegeben werden sollte.
 
-Informationen zum Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt finden Sie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Weitere Informationen zum Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

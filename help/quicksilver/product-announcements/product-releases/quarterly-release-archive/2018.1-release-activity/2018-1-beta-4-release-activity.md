@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta 4"(Version 2018.1)
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.1 verfügbar waren. Die Funktion wurde am 24. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
+title: Beta-Version 2018.1
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Version 2018.1 von Beta 4 verfügbar waren. Die Funktion wurde am 24. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta 4&quot;(Version 2018.1)
+# Beta-Version 2018.1
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.1 verfügbar waren. Die Funktion wurde am 24. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Version 2018.1 von Beta 4 verfügbar waren. Die Funktion wurde am 24. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
 
 >[!IMPORTANT]
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.1 vorgenommen wurden, finden Sie unter  [Übersicht über die Versionsaktivität 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.1 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-Die Beta-Version 2018.1 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Version 2018.1 von Beta 4 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren**
 
@@ -32,28 +32,28 @@ Die Beta-Version 2018.1 enthält Verbesserungen für Workfront-Administratoren u
 
 **Für alle Benutzer**
 
-* [Verbesserungen bei der Überprüfung in Workfront](#proofing-improvements-within-workfront)
-* [Erstellung von Testsendungen in Workfront-Testsendungen - verbesserte Benutzererfahrung und zusätzliche Funktionen](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
-* [Testversandverbesserungen in Workfront und Workfront Testversand](#proofing-improvements-within-workfront-and-workfront-proof)
-* [Aktualisierte Look-and-Feel-Integration mit Basecamp-Integration in Workfront Testversand](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
-* [Bilder aus der Zwischenablage in Workfront einfügen](#paste-images-to-workfront-from-the-clipboard)
+* [Verbesserungen beim Testen in Workfront](#proofing-improvements-within-workfront)
+* [Erstellung von Testsendungen in Workfront Proof - Verbessertes Benutzererlebnis und zusätzliche Funktionen](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
+* [Verbesserungen beim Testen in Workfront und Workfront Proof](#proofing-improvements-within-workfront-and-workfront-proof)
+* [Aktualisiertes Erscheinungsbild und Verhalten mit Basecamp-Integration in Workfront Proof](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
+* [ Bilder aus der Zwischenablage in Workfront einfügen](#paste-images-to-workfront-from-the-clipboard)
 * [Verbesserungen beim Nutzungsbericht](#utilization-report-improvements)
 * [Entfernen Sie das Ressourcenbudget aus Workfront](#remove-the-resource-budgeted-hour-object-from-workfront)
-* [Nutzungsstatistiken von Berichten](#report-usage-statistics)
-* [Gantt-Diagramm-Aktualisierungen](#gantt-chart-updates)
+* [Statistiken zur Berichtverwendung](#report-usage-statistics)
+* [Aktualisierungen des Gantt-Diagramms](#gantt-chart-updates)
 * [New Portfolio Optimizer](#new-portfolio-optimizer)
 * [Option zur Anpassung des Budgetdatums im Ressourcenplaner](#budget-date-adjustment-option-in-the-resource-planner)
 * [Ressourcenplanung: Beschränken der Zuweisungen an Benutzer auf der Grundlage der Gruppenmitgliedschaft](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
-* [Ressourcenplanung: Zuweisung an Benutzer unabhängig von Rolle zulassen](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
+* [Ressourcenplanung: Zulassen von Zuweisungen an Benutzer unabhängig von Rolle](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
 * [Emoji-Unterstützung](#emoji-support)
 
 ## Verbesserungen bei der Überprüfung in Workfront {#proofing-improvements-within-workfront}
 
 Die Dokumentliste in Workfront wurde wie folgt verbessert: 
 
-* [Anzeigen des Testfortschritts über die Dokumentliste](#view-proof-progress-from-the-document-list)
-* [Neue Option zum Anzeigen der Druckzusammenfassung über die Dokumentliste](#new-option-to-view-the-print-summary-from-the-document-list)
-* [Aktualisiertes Erscheinungsbild für das Erstellen oder Öffnen des Testversands aus der Dokumentliste](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
+* [Testversand-Fortschritt aus der Dokumentliste anzeigen](#view-proof-progress-from-the-document-list)
+* [Neue Option zum Anzeigen der Druckzusammenfassung aus der Dokumentliste](#new-option-to-view-the-print-summary-from-the-document-list)
+* [Aktualisierter Look and Feel für das Erstellen oder Öffnen des Testversands aus der Dokumentliste](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
 * [Verschiedene Links, die aus Dokumenten auf der Dokumentliste entfernt wurden](#various-links-removed-from-documents-on-the-document-list)
 * [Dateinamen bei kombinierten Testsendungen anzeigen](#view-file-names-on-combined-proofs)
 * [Anzeigen der aktuellen aktiven Phase eines Testversands aus der Dokumentliste](#view-the-current-active-stage-of-a-proof-from-the-document-list)
@@ -64,7 +64,7 @@ Beim Anzeigen der Dokumentliste werden nun für alle Testsendungen Indikatoren z
 
 Vor dieser Änderung mussten Sie einen Testversand in der Dokumentliste auswählen, um den Testversand-Fortschritt im rechten Bereich anzuzeigen. 
 
-Weitere Informationen finden Sie unter [Fortschritt und Status des Testversands - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+Weitere Informationen finden Sie unter [Fortschrittsnachweis und Statusübersicht](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
 
 ### Neue Option zum Anzeigen der Druckzusammenfassung über die Dokumentliste {#new-option-to-view-the-print-summary-from-the-document-list}
 
@@ -72,7 +72,7 @@ Sie können die Druckzusammenfassung für einen Testversand jetzt direkt aus der
 
 Vor dieser Änderung konnten Sie die Druckzusammenfassung nur aus dem Testversand-Viewer anzeigen. 
 
-Weitere Informationen zum Anzeigen der Druckzusammenfassung aus der Dokumentliste finden Sie unter [Testversandzusammenfassung in Adobe Workfront drucken](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Weitere Informationen zum Anzeigen der Druckzusammenfassung aus der Dokumentliste finden Sie unter [Drucken einer Testversand-Zusammenfassung in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ### Aktualisiertes Erscheinungsbild für das Erstellen oder Öffnen des Testversands aus der Dokumentliste {#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list}
 
@@ -123,9 +123,9 @@ Wenn Sie nun einen Testversand in der Dokumentliste auswählen, werden die aktue
 
 Weitere Informationen finden Sie unter [Anzeigen aktiver Bühnen auf einem Testversand](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
 
-## Erstellung von Testsendungen in Workfront-Testsendungen - verbesserte Benutzererfahrung und zusätzliche Funktionen {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
+## Erstellung von Testsendungen in Workfront Proof - Verbessertes Benutzererlebnis und zusätzliche Funktionen {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
 
-Zusätzlich zu einem verbesserten Benutzererlebnis beim Erstellen von Testsendungen in Workfront Testsendungen ist jetzt die folgende zusätzliche Funktion verfügbar:
+Zusätzlich zu einer verbesserten Benutzererfahrung beim Erstellen von Testsendungen in Workfront Proof stehen nun die folgenden zusätzlichen Funktionen zur Verfügung:
 
 * Zusammenführen mehrerer Bilder zu einem Testversand.
 * Testversand-Websites mit mehreren Auflösungen (mehrere Auflösungen können als einzelne Testsendungen erstellt oder zu einem Testversand kombiniert werden).
@@ -137,15 +137,15 @@ Zusätzlich zu einem verbesserten Benutzererlebnis beim Erstellen von Testsendun
 
 >[!NOTE]
 >
->Diese neue Seite zur Erstellung von Testsendungen in Workfront Testversand entspricht jetzt der Seite zur Erstellung von Testsendungen, die kürzlich bei der Erstellung von Testsendungen in Workfront zur Verfügung gestellt wurde. 
+>Diese neue Seite zur Erstellung von Testsendungen in Workfront Proof entspricht jetzt der Seite zur Erstellung von Testsendungen, die kürzlich bei der Erstellung von Testsendungen in Workfront zur Verfügung gestellt wurde. 
 
-Weitere Informationen finden Sie unter  [Testsendungen in Workfront Testversand generieren](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Weitere Informationen finden Sie unter  [Generieren von Testsendungen in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
-## Testversandverbesserungen in Workfront und Workfront Testversand {#proofing-improvements-within-workfront-and-workfront-proof}
+## Verbesserungen bei der Überprüfung in Workfront und Workfront Proof {#proofing-improvements-within-workfront-and-workfront-proof}
 
-Die folgenden Änderungen gelten beim Hinzufügen von Dokumenten zu Workfront und zum Workfront-Testversand:
+Die folgenden Änderungen gelten für das Hinzufügen von Dokumenten zu Workfront und Workfront Proof:
 
-* [Anpassen der Kommentarliste bei der Überprüfung von Testsendungen](#resize-the-comment-list-when-reviewing-proofs)
+* [Größe der Kommentarliste bei der Überprüfung von Testsendungen ändern](#resize-the-comment-list-when-reviewing-proofs)
 * [Hyperlinks sind aktiv bei der Überprüfung statischer Testsendungen](#hyperlinks-are-active-when-reviewing-static-proofs)
 * [Verbesserungen beim Hinzufügen von Testsendungen](#improvements-when-adding-proofs)
 
@@ -188,9 +188,9 @@ Die folgenden Verbesserungen sind verfügbar, wenn zu prüfende Dokumente hinzug
    * Primärer Entscheidungsträger
    * Nur eine Entscheidung erforderlich
 
-## Aktualisierte Look-and-Feel-Integration mit Basecamp-Integration in Workfront Testversand {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
+## Aktualisierte Look-and-Feel-Integration mit Basecamp in Workfront Proof {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
 
-Das Erscheinungsbild der Basecamp-Integration mit Workfront Testversand wurde aktualisiert. Die Funktionalität bleibt gleich.
+Das Erscheinungsbild der Basecamp-Integration mit Workfront Proof wurde aktualisiert. Die Funktionalität bleibt gleich.
 
 ## Bilder aus der Zwischenablage in Workfront einfügen {#paste-images-to-workfront-from-the-clipboard}
 
@@ -227,7 +227,7 @@ Der Nutzungsbericht enthält die folgenden Verbesserungen:
 
 * Verbesserte Leistung
 
-Weitere Informationen zum Bericht &quot;Nutzung&quot;finden Sie unter [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Bericht &quot;Nutzung&quot;finden Sie unter [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Entfernen Sie das Ressourcenbudget aus Workfront {#remove-the-resource-budgeted-hour-object-from-workfront}
 
@@ -235,7 +235,7 @@ Zur Behebung von Leistungsproblemen wurde das Feld Resource Budgeted Hour vorüb
 
 Zur Erinnerung: Die Resource Budgeted Hours sind die Stunden, die Sie für Ihre Ressourcen oder Projekte im Resource Planer einplanen. Derzeit können Sie in der Webanwendung oder über die API keinen Bericht mehr zu diesem Feld erstellen. Das Feld wird in einer zukünftigen Version erneut aktiviert, wenn die Leistungsprobleme behoben wurden.
 
-Weitere Informationen über die Budgetplanung im Ressourcen-Planer finden Sie unter [Übersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+Weitere Informationen zu Budgeteinsätzen im Ressourcenplaner finden Sie unter [Ressourcenplanerübersicht](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
 
 ## Nutzungsstatistiken von Berichten {#report-usage-statistics}
 
@@ -250,7 +250,7 @@ Sie können jetzt die folgenden Nutzungsinformationen für Ihre Workfront-Berich
 
 Vor dieser Aktualisierung war die Anzeige der Nutzungsinformationen in den Berichten eingeschränkt.
 
-Weitere Informationen zur Berichtsverwendung finden Sie unter [Berichtverwendung anzeigen](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
+Weitere Informationen zur Verwendung von Berichten finden Sie unter [Nutzung von Berichten anzeigen](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
 
 ## Von Gruppenadministratoren verwaltete Zeitpläne {#schedules-managed-by-group-administrators}
 
@@ -269,7 +269,7 @@ Das Gantt-Diagramm kann jetzt bearbeitet werden. Mithilfe des Gantt-Diagramms k�
 
 Vor dieser Änderung konnten Sie nur Vorgängerbeziehungen im Gantt-Diagramm entfernen und Aufgaben nur in der Aufgabenliste bearbeiten.
 
-Weitere Informationen zur Gantt-Grafik finden Sie unter [Aktualisieren von Informationen in der Aufgabenliste Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+Weitere Informationen zum Gantt-Diagramm finden Sie unter [Informationen in der Aufgabenliste aktualisieren Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ## New Portfolio Optimizer {#new-portfolio-optimizer}
 
@@ -281,13 +281,13 @@ Weitere Informationen zum Portfolio Optimizer finden Sie unter [Übersicht über
 
 Wir haben eine Option hinzugefügt, mit der Sie schnell Einblicke in Zeitrahmen erhalten können, ohne dass es zu Budgetkonflikten kommt. Nachdem Sie gesehen haben, wann die Zeitrahmen ohne Budgetkonflikte eintreten, können Sie Ihre Budgetzeit manuell zu diesen Zeiten verschieben. Dadurch werden auch die Budgetzeiten der Stunden angepasst. Vor dieser Aktualisierung war es nicht möglich, Budgetierungskonflikte für ein Projekt auf einen Blick zu betrachten.
 
-Weitere Informationen über die Anpassung der im Ressourcenplaner veranschlagten Daten finden Sie im Abschnitt &quot;Anpassung der Budgetierungsdaten&quot;im [Übersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+Weitere Informationen zum Anpassen von geplanten Datumsangaben im Ressourcenplaner finden Sie im Abschnitt &quot;Anpassen der Budgetierungsdaten&quot;in der [Ressourcenplanerübersicht](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 
 ## Ressourcenplanung: Beschränken der Zuweisungen an Benutzer auf der Grundlage der Gruppenmitgliedschaft {#resource-scheduling-restrict-assignments-to-users-based-on-group-membership}
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Bei der Benutzerzuweisung im Planungsbereich (wie unter &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;beschrieben) können Sie Workfront jetzt so konfigurieren, dass nur die Zuweisung von Aufgaben und Problemen auf die Benutzer beschränkt wird, die Mitglieder der Gruppe sind, die für das Projekt definiert ist, von dem die Aufgabe oder das Problem stammt. 
 
@@ -339,4 +339,4 @@ Weitere Informationen zum Konfigurieren dieser Option finden Sie unter &quot;Ers
 
 Jetzt können Sie den Ton für Kommentare und Aktualisierungen festlegen, die Sie in Workfront vornehmen, indem Sie Emojis einfügen. Alle Emojis, die zu Kommentaren hinzugefügt wurden, die auf der Registerkarte Aktualisierungen erstellt wurden, werden auch in der E-Mail-Benachrichtigung zum Aktualisieren angezeigt. 
 
-Weitere Informationen finden Sie unter [Update der Arbeit](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

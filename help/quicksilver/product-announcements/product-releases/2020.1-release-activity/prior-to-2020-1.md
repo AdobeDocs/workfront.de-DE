@@ -18,13 +18,13 @@ ht-degree: 6%
 
 Die folgenden Funktionen wurden der Workfront Classic-Produktionsumgebung vor der Version 2020.1 für die Produktion bereitgestellt.
 
-Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Version 2020.1 finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Informationen zum Veröffentlichungszeitrahmen und zu allen in Version 2020.1 verfügbaren Funktionen finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td> Das Cookie-Verhalten von Workfront wurde aktualisiert, um die Kompatibilität mit Chrome zu gewährleisten <p>Um die Kompatibilität mit einem anstehenden Google Chrome-Update (Chrome v80) zu gewährleisten, haben wir die Workfront-Plattform aktualisiert, um sicherzustellen, dass Cookies mit Anforderungen ordnungsgemäß gesendet werden. </p> <p>Durch diese Chrome-Aktualisierung wird der Standardwert des SameSite-Cookie-Attributs geändert. Wenn Sie testen möchten, wie sich Ihre Workfront-Instanz nach der Aktualisierung von Google Chrome verhält, passen Sie die Flags in Chrome an und aktivieren Sie die folgenden Optionen: </p> 
+   <td> Das Cookie-Verhalten von Workfront wurde aktualisiert, um die Kompatibilität mit Chrome zu gewährleisten <p>Um die Kompatibilität mit einem bevorstehenden Google Chrome-Update (Chrome v80) zu gewährleisten, haben wir die Workfront-Plattform aktualisiert, um sicherzustellen, dass Cookies mit Anforderungen ordnungsgemäß gesendet werden. </p> <p>Durch diese Chrome-Aktualisierung wird der Standardwert des SameSite-Cookie-Attributs geändert. Wenn Sie testen möchten, wie sich Ihre Workfront-Instanz nach der Aktualisierung von Google Chrome verhält, passen Sie die Flags in Chrome an und aktivieren Sie die folgenden Optionen: </p> 
     <ul> 
      <li>"Standard-SameSite-Cookies" </li> 
      <li>"Cookies ohne SameSite müssen sicher sein"</li> 
@@ -35,7 +35,7 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
       <li>Workfront Classic</li> 
       <li>Das neue Workfront-Erlebnis</li> 
      </ul> 
-     <p><strong>Vorschau der Version</strong> </p> 
+     <p><strong> Vorschau Release</strong> </p> 
      <ul> 
       <li>Donnerstag, 29. Januar 2020</li> 
      </ul> 
@@ -51,7 +51,7 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
      <li>Text eines Updates kopieren</li> 
      <li>Kopieren Sie den direkten Link in einen Aktualisierungs-Thread oder ein Update</li> 
      <li>Aktualisieren löschen</li> 
-    </ul> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Update der Arbeit</a>.</p> 
+    </ul> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Funktionsweise aktualisieren</a>.</p> 
     <div class="workfront_plans"> 
      <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
      <ul> 
@@ -65,7 +65,7 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen Funktionen in Versio
     </div> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Neue Fortschrittsleiste im Bereich "Updates" <p>Der prozentuale Fortschrittsbalken im Bereich Updates hat einen neuen Look. Klicken und ziehen Sie, um den Prozentsatz zu aktualisieren, oder doppelklicken Sie, um die Zahl manuell einzugeben.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Update der Arbeit</a>.</p> 
+   <td>Neue Fortschrittsleiste im Bereich "Updates" <p>Der prozentuale Fortschrittsbalken im Bereich Updates hat einen neuen Look. Klicken und ziehen Sie, um den Prozentsatz zu aktualisieren, oder doppelklicken Sie, um die Zahl manuell einzugeben.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Funktionsweise aktualisieren</a>.</p> 
     <div class="workfront_plans"> 
      <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
      <ul> 

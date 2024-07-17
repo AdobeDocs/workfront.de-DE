@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die mit Version 2020.2 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Mai 2020 bereitgestellt.
 
-Eine Liste aller in Version 2020.2 verfügbaren Änderungen finden Sie unter [Versionsübersicht 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 2020.2 verfügbar sind, finden Sie unter [Versionsübersicht 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 Personen sind ein Tier-1-Asset. Mit dem Lastenausgleich können Sie sie vor dem Ausbruch schützen und sie in die Lage versetzen, ihre beste Arbeit zu leisten, und sie gleichzeitig an die wichtigsten Unternehmensstrategien anpassen. Einführung eines neu gestalteten Planungserlebnisses, mit dem Sie die Arbeitslasten und Anforderungen von Personen in derselben Ansicht visualisieren und verwalten können. Die Benutzeroberfläche bietet eine klare visuelle Zuordnung von Überlastung und Unterauslastung und ist für alle Beteiligten transparent. Benutzer, die diese Informationen verwenden, können diese Informationen als Eingabe verwenden und den Aufwand über die Zeitleiste im selben Bildschirm neu ausrichten, was sich dann im Rest der Workfront-Plattform widerspiegelt.
 
 >[!NOTE]
 >
->Mit der Veröffentlichung der Version 2019.4 begann der Arbeitslastausgleich mit der Veröffentlichung als Beta. Mit Version 2020.2 sind alle Verbesserungen am Arbeitslastausgleich allgemein verfügbar. Die auf dieser Seite beschriebenen Verbesserungen wurden mit Version 2020.2 hinzugefügt. Einen Überblick über den Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Mit der Veröffentlichung der Version 2019.4 begann der Arbeitslastausgleich mit der Veröffentlichung als Beta. Mit Version 2020.2 sind alle Verbesserungen am Arbeitslastausgleich allgemein verfügbar. Die auf dieser Seite beschriebenen Verbesserungen wurden mit Version 2020.2 hinzugefügt. Einen Überblick über den Lastenausgleich finden Sie unter [Überblick über den Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Passen Sie die tägliche und wöchentliche Zuordnung im Lastenausgleich an.
 
@@ -45,7 +45,7 @@ Vor dieser Verbesserung war dies nur mit den Tools für die Ressourcenplanung m�
 
 Um die Informationen im Arbeitslastausgleich für Sie relevant zu machen, können Sie jetzt Filter sowohl für die nicht zugewiesenen Arbeitsbereiche als auch für die zugewiesenen Arbeitsbereiche des Arbeitslastausgleichs erstellen und sie für die zukünftige Verwendung speichern. Sie können dann die gespeicherte Version bearbeiten, um kleine Änderungen daran vorzunehmen, anstatt von Grund auf mit einem neuen Filter zu beginnen.
 
-Weitere Informationen zum Filtern im Arbeitslast-Balancer finden Sie unter [Verwalten von Filtern im Lastenausgleich](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+Weitere Informationen zum Filtern im Arbeitslade-Balancer finden Sie unter [Filter im Arbeitslast-Balancer verwalten](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -64,7 +64,7 @@ Weitere Informationen zum Filtern im Arbeitslast-Balancer finden Sie unter [Verw
 
 Um Ihnen dabei zu helfen, richtige Zuweisungsentscheidungen zu treffen, können Sie jetzt mit einer neuen Einstellung den Unterschied zwischen den Stunden anzeigen, die ein Benutzer für die Arbeit gemäß seinem Zeitplan zur Verfügung steht, und den Stunden, die ihm bereits zur Arbeit zugewiesen wurden (die verbleibenden Stunden). Die neue Einstellung ist jetzt im Lastenausgleich verfügbar.
 
-Informationen zum Anzeigen von Informationen im Arbeitslastausgleich finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Navigieren Sie zum Lastenausgleich .](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).
+Weitere Informationen zum Anzeigen von Informationen im Arbeitslastausgleich finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oder, wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Navigieren im Arbeitslastausgleich](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
 
 **In diesen Umgebungen verfügbar:**
 
@@ -76,7 +76,7 @@ Damit Sie besser verstehen können, wie sich Aufgaben auf die Arbeitslast Ihrer 
 
 Vor dieser Änderung wurde mit dieser Einstellung nur die Information im Bereich Zugewiesene Arbeit des Balancers aktualisiert.
 
-Informationen zum Navigieren in Workload Balancer finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Navigieren Sie zum Lastenausgleich .](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+Weitere Informationen zum Navigieren in den Lastenausgleich finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oder bei Verwendung von Adobe Workfront Classic finden Sie unter [Navigieren im Arbeitslastausgleich](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -90,7 +90,7 @@ Zur Optimierung Ihres Erlebnisses ist jetzt ein Einstellungsfeld verfügbar, in 
 * Gruppe nach Projekt
 * Zeigen Sie entweder die zugewiesenen Stunden oder die verbleibenden Stunden für Ihre Aufgaben und Projekte an.
 
-Informationen zum Anzeigen von Informationen im Arbeitslastausgleich finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Navigieren Sie zum Lastenausgleich .](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+Weitere Informationen zum Anzeigen von Informationen im Arbeitslastausgleich finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oder, wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Navigieren im Arbeitslastausgleich](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -101,7 +101,7 @@ Informationen zum Anzeigen von Informationen im Arbeitslastausgleich finden Sie 
 
 Jetzt können Sie die Arbeitslast Ihrer Mitarbeiter mit Führungskräften teilen, damit diese über Kontext zu Ihren Personalanforderungen verfügen. Dazu können Sie jetzt den Lastenausgleich freigeben, indem Sie eine eindeutige URL für den Lastenausgleich für andere freigeben.
 
-Informationen zum Navigieren in Workload Balancer finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Navigieren Sie zum Lastenausgleich .](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Weitere Informationen zum Navigieren in den Lastenausgleich finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oder bei Verwendung von Adobe Workfront Classic finden Sie unter [Navigieren im Arbeitslastausgleich](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -114,7 +114,7 @@ Um die Timeline-Dauer für den Lastenausgleich Ihren Anforderungen entsprechend 
 
 Vor dieser Verbesserung zeigte der Lastenausgleich immer Informationen an, die mit der aktuellen Woche beginnen.
 
-Informationen zum Navigieren in Workload Balancer finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Navigieren Sie zum Lastenausgleich .](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Weitere Informationen zum Navigieren in den Lastenausgleich finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oder bei Verwendung von Adobe Workfront Classic finden Sie unter [Navigieren im Arbeitslastausgleich](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -129,11 +129,11 @@ Wenn Sie beispielsweise eine Aufgabe mit der Einschränkung Must Start On in ein
 
 Vor dieser Änderung ändert sich die Aufgabenbegrenzung immer in So bald wie möglich.
 
-Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Verschieben von Aufgaben](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md) (oder bei Verwendung von Adobe Workfront Classic finden Sie unter [Verschieben von Aufgaben](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
 
-Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Kopieren und Duplizieren von Aufgaben](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Weitere Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (bzw. bei Verwendung von Adobe Workfront Classic finden Sie unter [Aufgaben kopieren und duplizieren](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
 
-Eine Übersicht über alle Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Übersicht über Aufgabenbegrenzungen](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Einen Überblick über alle Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Übersicht über Aufgabenbegrenzungen](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -161,9 +161,9 @@ Benutzerdefinierte Status können jetzt sowohl in Einzelverwendungs- als auch in
 * Erstellen Sie einen Validierungsprozess für einzelne Verwendungszwecke für ein Objekt (Projekt, Aufgabe oder Problem) und basieren Sie es auf Status, die mit der Gruppe verknüpft sind, die an diesem Objekt arbeitet. Dazu gehören alle benutzerdefinierten Status, die mit der Gruppe verknüpft sind.
 * Erstellen Sie einen globalen Genehmigungsprozess und stellen Sie ihn nur für die Gruppe oder für alle im System zur Verfügung.
 
-Für Benutzer mit administrativem Zugriff auf Genehmigungsprozesse finden Sie Informationen zum Konfigurieren von Genehmigungsprozessen unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Erstellen von Validierungsprozessen](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Informationen zum Konfigurieren von Genehmigungsprozessen für Benutzer mit administrativem Zugriff auf Genehmigungsprozesse finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (bzw. bei Verwendung von Adobe Workfront Classic finden Sie unter [Erstellen von Genehmigungsprozessen](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
-Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (bzw. bei Verwendung von Adobe Workfront Classic finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -174,7 +174,7 @@ Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen fin
 
 Um die Zuordnung eines Benutzers zu einem Arbeitselement im Arbeitslastausgleich einfacher zu verwalten, können Sie jetzt auf das Arbeitselement doppelklicken. Sie können auch die vorhandene Menüoption Zuordnung bearbeiten verwenden. Darüber hinaus müssen Sie die Anzeige von Zuordnungen nicht mehr aktivieren, um sie aktualisieren zu können.
 
-Informationen zum Verwalten von Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Informationen zum Verwalten von Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Aktualisieren der geplanten Stunden im Arbeitslastausgleich
 
@@ -184,10 +184,10 @@ Informationen zum Verwalten von Zuordnungen im Arbeitslastausgleich finden Sie u
 
 Eine neue Option im Bereich Ressourcenverwaltung der Zugriffsebene ermöglicht es Benutzern mit diesem Zugriff nun, geplante Stunden über den Lastenausgleich zu bearbeiten. Wenn Sie die Zuordnungen im Arbeitslastausgleich anpassen, muss die Gesamtanzahl der täglichen Zuweisungen nicht mit der Anzahl der geplanten Stunden der Aufgaben übereinstimmen. Nachdem Sie Ihre Zuordnungen gespeichert haben, werden die gesamten Zuordnungszeiten zu den geplanten Stunden der Aufgabe. Dies ist nur bei Aufgaben mit einem einfachen Durationstyp möglich.
 
-Informationen zum Verwalten von Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Informationen zum Verwalten von Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-Informationen zur Gewährung von Zugriff auf Resource Management finden Sie unter [Zugriff auf Resource Management gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Informationen zur Gewährung des Zugriffs auf die Ressourcenverwaltung finden Sie unter [Gewähren des Zugriffs auf die Ressourcenverwaltung](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Entfernen der &quot;Beta&quot;-Beschriftung aus dem Arbeitslastausgleich
 
-Mit der Version 2020.2 befindet sich der Workload Balancer nicht mehr im Beta-Status. Sie können den Resource Balancer verwenden, um Ihre Ressourcenzuweisungen und -zuweisungen zu überprüfen und zu verwalten. Die Bezeichnung &quot;Beta&quot;wurde in der Umgebung &quot;Vorschau&quot;entfernt. Diese Änderung wird mit der Produktionsversion 20.2 vorgenommen. Weitere Informationen zum Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Mit der Version 2020.2 befindet sich der Workload Balancer nicht mehr im Beta-Status. Sie können den Resource Balancer verwenden, um Ihre Ressourcenzuweisungen und -zuweisungen zu überprüfen und zu verwalten. Die Bezeichnung &quot;Beta&quot;wurde in der Umgebung &quot;Vorschau&quot;entfernt. Diese Änderung wird mit der Produktionsversion 20.2 vorgenommen. Weitere Informationen zum Lastenausgleich finden Sie unter [Überblick über den Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

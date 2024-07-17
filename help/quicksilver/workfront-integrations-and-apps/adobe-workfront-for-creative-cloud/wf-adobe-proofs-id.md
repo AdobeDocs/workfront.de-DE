@@ -8,14 +8,14 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
 source-git-commit: 68dae619348c3359ea8a7ae3ff84543d5e4171ec
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
-# Hochladen von Testsendungen aus [!DNL InDesign]
+# Hochladen von Testsendungen von [!DNL InDesign]
 
-Sie können Ihre Kunstboards direkt als Testsendungen in [!DNL Adobe Workfront] für eine gründliche Überprüfung und Genehmigung.
+Sie können Ihre Kunstboards direkt als Testsendungen in [!DNL Adobe Workfront] hochladen, um eine gründliche Überprüfung und Genehmigung zu erhalten.
 
 ## Zugriffsanforderungen
 
@@ -26,16 +26,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Aktueller Plan: [!UICONTROL Pro] oder höher</p> <p>oder</p> <p>Veralteter Plan: [!UICONTROL Premium]</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Aktueller Plan: [!UICONTROL Work] oder [!UICONTROL Proof]</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: [!UICONTROL Work] oder [!UICONTROL Proof]</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] -Lizenz über eine [!DNL Adobe Creative Cloud] -Lizenz verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -43,59 +43,59 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf [!UICONTROL Dokumente bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] oder [!DNL Workfront Proof] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] - oder [!DNL Workfront Proof] -Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Berechtigung zum Testen haben.
 
 ## Voraussetzungen
 
-* Sie müssen die [!DNL Adobe Workfront for design and video] Plug-in, bevor Sie Testsendungen von [!DNL InDesign].
+* Sie müssen das Plug-in [!DNL Adobe Workfront for design and video] installieren, bevor Sie Testsendungen von [!DNL InDesign] hochladen können.
 
-   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Hochladen eines einfachen Testversands
 
-1. Klicken Sie auf **[!UICONTROL Menü]** Symbol oben rechts und wählen Sie **[!UICONTROL Arbeitsliste]**. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Gehen Sie zum Arbeitselement, in das Sie einen Testversand hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Dokument]** icon ![](assets/documents.png) in der Navigationsleiste.
-1. Klicken **[!UICONTROL Neue Datei]** im unteren Bereich des Plug-ins.
-1. Aktivieren Sie die **[!UICONTROL Erstellen eines Testversands]** umschalten.
-1. (Optional) Geben Sie im Feld **[!UICONTROL Testname]** Textfeld.
-1. Im **[!UICONTROL Testgenehmigungen]** Bereich, wählen Sie **[!UICONTROL Allgemein]**.
+1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
+1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Datei]** .
+1. Aktivieren Sie den Umschalter **[!UICONTROL Testversand erstellen]** .
+1. (Optional) Geben Sie im Textfeld **[!UICONTROL Testversand-Name]** einen Namen für den Testversand ein.
+1. Wählen Sie im Abschnitt **[!UICONTROL Testversand-Genehmigungen]** die Option **[!UICONTROL Einfach]** aus.
 1. (Optional) Fügen Sie Genehmiger hinzu.
-1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
+1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
 
    ![](assets/add-comment.png)
 
-1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
+1. Wählen Sie den **[!UICONTROL Asset-Typ]** aus dem Dropdownmenü aus.
 
-1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]** , um eine Datei von Ihrem Computer hinzuzufügen.
-1. Klicken **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]** aus, um eine Datei von Ihrem Computer hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
 
    ![](assets/plugin-files-350x307.png)\
-   Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.
+   Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.
 
 
 ## Hochladen eines automatisierten Testversands
 
-1. Klicken Sie auf **[!UICONTROL Menü]** Symbol oben rechts und wählen Sie **[!UICONTROL Arbeitsliste]**. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Gehen Sie zum Arbeitselement, in das Sie einen Testversand hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Dokument]** icon ![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
 
-1. Klicken **[!UICONTROL Neue Datei]** im unteren Bereich des Plug-ins.
-1. Aktivieren Sie die **[!UICONTROL Erstellen eines Testversands]** umschalten.
-1. (Optional) Geben Sie im Feld **[!UICONTROL Testname]** Textfeld.
-1. Im **[!UICONTROL Testgenehmigungen]** Bereich, wählen Sie **[!UICONTROL Automatisiert]**.
-1. (Optional) Im **[!UICONTROL Workflow-Vorlage]** Geben Sie den Namen einer Testversand-Workflow-Vorlage ein.
+1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Datei]** .
+1. Aktivieren Sie den Umschalter **[!UICONTROL Testversand erstellen]** .
+1. (Optional) Geben Sie im Textfeld **[!UICONTROL Testversand-Name]** einen Namen für den Testversand ein.
+1. Wählen Sie im Abschnitt **[!UICONTROL Testversand-Genehmigungen]** die Option **[!UICONTROL Automated]** aus.
+1. (Optional) Geben Sie in das Feld **[!UICONTROL Workflow-Vorlage]** den Namen einer Testversand-Workflow-Vorlage ein.
 
 {{adjust-proof-settings}}
 
@@ -104,34 +104,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 > Wenn die Workflow-Vorlage leere erforderliche Felder enthält, werden die automatisierten Testversandeinstellungen automatisch geöffnet. Sie müssen diese Felder ausfüllen, um den Testversand hochzuladen.
 
 
-1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
+1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
 
    ![](assets/add-comment-automated-approval.png)
 
-1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
-1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]** , um eine Datei von Ihrem Computer hinzuzufügen.
-1. Klicken **[!UICONTROL Hochladen]**und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
-Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.
+1. Wählen Sie den **[!UICONTROL Asset-Typ]** aus dem Dropdownmenü aus.
+1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]** aus, um eine Datei von Ihrem Computer hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.
 
 ## Eine neue Testversion hochladen
 
 Sie können eine neue Version eines Testversands hochladen. Das Plug-in speichert den in der vorherigen Version festgelegten Testversand-Workflow, kann diesen jedoch bei Bedarf ändern.
 
-1. Klicken Sie auf **[!UICONTROL Menü]** Symbol oben rechts und wählen Sie **[!UICONTROL Arbeitsliste]**. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Wechseln Sie zu dem Arbeitselement, in das Sie ein Dokument hochladen müssen.
-1. Klicken Sie auf **[!UICONTROL Dokument]** icon ![](assets/documents.png)in der Navigationsleiste.
+1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
 
-1. Klicken **[!UICONTROL Neue Version]** im unteren Bereich des Plug-ins.
-1. Aktivieren Sie die **[!UICONTROL Erstellen eines Testversands]** umschalten.
+1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Version]** .
+1. Aktivieren Sie den Umschalter **[!UICONTROL Testversand erstellen]** .
 
-1. Im *[!UICONTROL *Testversandgenehmigungen]** Abschnitt, wählen Sie **[!UICONTROL Allgemein]** oder **[!UICONTROL Automatisiert]**.
+1. Wählen Sie im Abschnitt *[!UICONTROL *Testversand-Genehmigungen]** die Option **[!UICONTROL Einfach]** oder **[!UICONTROL Automatisiert]**.
 
-1. Hinzufügen **[!UICONTROL Überprüfer]** oder **[!UICONTROL Workflow-Vorlage]** basierend auf dem in Schritt 7 ausgewählten Validierungstyp.
+1. Fügen Sie je nach dem in Schritt 7 ausgewählten Validierungstyp **[!UICONTROL Validierer]** oder eine **[!UICONTROL Workflow-Vorlage]** hinzu.
 
-1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
-1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
-1. Klicken **[!UICONTROL Hochladen]**und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
-Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.
+1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
+1. Wählen Sie den **[!UICONTROL Asset-Typ]** aus dem Dropdownmenü aus.
+1. Klicken Sie auf **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.

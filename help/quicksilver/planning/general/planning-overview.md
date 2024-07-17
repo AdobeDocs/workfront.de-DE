@@ -32,7 +32,7 @@ ht-degree: 2%
 >
 >Ihr Kundenbetreuer hätte Sie über Ihre Teilnahme an dieser Phase informiert.
 >
->Eine vollständige Liste aller Abschnitte und Artikel, die die Workfront-Planung dokumentieren, finden Sie unter [Adobe Workfront-Planung: Artikelindex](/help/quicksilver/planning/planning-information.md).
+>Eine vollständige Liste aller Abschnitte und Artikel, die die Workfront-Planung dokumentieren, finden Sie unter [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md).
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
@@ -59,7 +59,7 @@ Im Folgenden finden Sie einige der wichtigsten Funktionen:
 
 Die folgende Tabelle zeigt die wichtigsten Funktionen, die in der Workfront-Planung verfügbar sein werden, und einen Zeitplan ihrer Verfügbarkeit. Die Liste enthält nicht alle Funktionen.
 
-Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [Adobe Workfront Planung der aktuellen Release-Aktivität](/help/quicksilver/planning/general/release-activity.md).
+Weitere Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [Planung der aktuellen Adobe Workfront-Versionsaktivität](/help/quicksilver/planning/general/release-activity.md).
 
 | Funktion | Jetzt verfügbar | In Kürze verfügbar | Forschung |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -106,7 +106,7 @@ Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie unter [
 
 Ihr Unternehmen muss sich für das Adobe Workfront-Planungsprogramm registrieren, bevor Sie auf seine Funktionen zugreifen können. Wenn Sie sich für dieses Programm qualifizieren, sollten Sie von Ihrem Kundenbetreuer Informationen über die Anmeldung erhalten haben.
 
-Weitere Informationen zum Gewähren von Zugriff auf und zur Aktivierung der Verwendung von Workfront Planning finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+Weitere Informationen zum Gewähren von Zugriff auf und zum Aktivieren anderer Benutzer für die Verwendung der Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminologie der Adobe Workfront-Planung
 
@@ -116,7 +116,7 @@ Das Framework für die Workfront-Planung ist vollständig anpassbar. Sie können
 
 Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planung:
 
-* **Workspace**: Eine Sammlung von Datensatztypen, die den Lebenszyklus einer bestimmten Organisation definieren. Ein Arbeitsbereich ist der Arbeitsbereich einer Organisationseinheit.
+* **Workspace**: Eine Sammlung von Datensatztypen, die den Betriebslebenszyklus eines bestimmten Unternehmens definieren. Ein Arbeitsbereich ist der Arbeitsbereich einer Organisationseinheit.
 
   Eine Workfront-Instanz kann über maximal 1.000 Arbeitsbereiche verfügen.
 
@@ -134,7 +134,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
   Weitere Informationen finden Sie unter [Übersicht über Datensatztypen](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
-* **Datensatz**: Eine Instanz eines Datensatztyps.
+* **Record**: Eine Instanz eines Datensatztyps.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
 
@@ -194,7 +194,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
    * Zuletzt geändert von
    * Zuletzt geändert am
 
-* **Verknüpfte Datensatztypen**, **Verknüpfte Datensätze**, und **Verknüpfte Datensatzfelder** oder **Verbundene Datensatztypen**, **Verbundene Datensätze**, und **Verbundene Felder**: Sie können eine Verbindung zwischen den folgenden Entitäten in der Workfront-Planung erstellen:
+* **Verknüpfte Datensatztypen**, **Verknüpfte Datensätze** und **verknüpfte Datensatzfelder** oder **Connected record types**, **Connected records** und **Connected fields**: Sie können in der Workfront-Planung eine Verbindung zwischen den folgenden Entitäten herstellen:
 
    * Zwei Datensatztypen.
    * Ein Datensatztyp und ein Workfront-Projekt-, Programm-, Portfolio-, Unternehmens- oder Gruppenobjekttyp.
@@ -207,7 +207,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
   Nachdem Sie eine Verbindung zwischen den Datensatztypen hergestellt haben, können Sie einzelne Datensätze dieser Typen miteinander verbinden. Die Verbindung zwischen den Datensätzen wird als verknüpftes Datensatzfeld angezeigt.
 
-* **Verknüpfte Felder** (oder Suchfelder): Nachdem Sie die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze miteinander verknüpft haben, können Sie auf die Felder der verknüpften Datensätze in dem Datensatz verweisen, aus dem Sie eine Verbindung herstellen.
+* **Verknüpfte Felder** (oder Suchfelder): Nachdem Sie die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze verknüpft haben, können Sie auf die Felder der verknüpften Datensätze in dem Datensatz verweisen, aus dem Sie die Verbindung herstellen.
 
   Wenn Sie beispielsweise einen Campaign-Datensatz mit einem Workfront-Projektobjekttyp verbinden, können Sie das Feld Budget der verbundenen Projekte in den Kampagnensätzen anzeigen.
 
@@ -229,7 +229,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **Ansichten**: Datensätze werden unter der jeweiligen Datensatztyp-Seite in verschiedenen Ansichten angezeigt.
+* **Ansichten**: Datensätze werden unter der jeweiligen Datensatztypseite in verschiedenen Ansichten angezeigt.
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
@@ -241,15 +241,15 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
      ![](assets/table-view-example.png)
 
-   * **Timeline-Ansicht**: Zeigt Datensätze an, die mindestens zwei Felder vom Typ Datum in einer chronologischen Zeitleiste aufweisen.
+   * **Timeline-Ansicht**: Zeigt Datensätze an, die mindestens zwei Datumsfeld-Felder in einer chronologischen Timeline aufweisen.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-   * **Kalenderansicht**: Zeigt Datensätze an, die mindestens zwei Datumsfelder im Kalenderformat aufweisen.
+   * **Kalenderansicht**: Zeigt Datensätze mit mindestens zwei Datumsfeldern im Kalenderformat an.
      ![](assets/calendar-view-example.png)
 
 
-Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen finden Sie unter [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md).
 
 
 ## Adobe Workfront Planning - Objektbeschränkungen
@@ -287,19 +287,19 @@ So suchen Sie die Workfront-Planung:
 
 1. Melden Sie sich bei Adobe Workfront an.
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-workfront.png) in der oberen rechten Ecke oder klicken Sie auf das **Hauptmenü** ![](assets/main-menu-shell.png) oben links, falls verfügbar.
+1. Klicken Sie oben rechts auf das **Hauptmenü** ![](assets/main-menu-workfront.png) oder klicken Sie auf das **Hauptmenü** ![](assets/main-menu-shell.png) in der oberen linken Ecke, sofern es verfügbar ist.
 
-1. Klicks **Planung** ![](assets/planning-icon.png).
+1. Klicken Sie auf **Planung** ![](assets/planning-icon.png).
 
    Die Landingpage für die Workfront-Planung wird geöffnet.
 
    ![](assets/planning-landing-page-admin.png)
 
 1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
-   * **Meine Arbeitsbereiche**: Zeigt die erstellten Arbeitsbereiche an.
+   * **Meine Arbeitsbereiche**: Zeigt die von Ihnen erstellten Arbeitsbereiche an.
    * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche des Systems an, einschließlich der für Sie freigegebenen Arbeitsbereiche.
 
-   Für alle anderen Benutzer werden alle Arbeitsbereiche, die sie erstellt haben oder für sie freigegeben wurden, im **Arbeitsbereiche** Bereich.
+   Für alle anderen Benutzer werden alle Arbeitsbereiche, die sie erstellt haben oder für sie freigegeben wurden, im Bereich **Arbeitsbereiche** angezeigt.
 
 1. (Optional und empfohlen) Fahren Sie mit einigen der folgenden Aktionen fort, um Ihre Arbeitsstruktur zu erstellen:
 
@@ -322,11 +322,11 @@ So suchen Sie die Workfront-Planung:
       Weitere Informationen finden Sie in den folgenden Artikeln:
 
       * [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
-      * [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+      * [Erstellen Sie Felder](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Adobe Workfront-Planungs-Release-Aktivität
 
 Wir veröffentlichen regelmäßig neue Funktionen für die Workfront-Planung.
 
-Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planung der aktuellen Release-Aktivität](/help/quicksilver/planning/general/release-activity.md)
+Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Planen der aktuellen Adobe Workfront-Versionsaktivität](/help/quicksilver/planning/general/release-activity.md) .
 

@@ -8,8 +8,8 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1381'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -88,7 +88,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 * Sie können nur gesendete Anforderungen kopieren und senden. Entworfene Anforderungen können nicht kopiert werden.
 * Sie können Anforderungen kopieren und senden, die Sie ursprünglich gesendet haben, oder Anforderungen, die von anderen gesendet wurden, und Sie haben Zugriff auf zumindest Ansicht.
 * Sie haben immer Zugriff auf das Kopieren und Senden einer Kopie Ihrer eigenen Anfragen, es sei denn, jemand hat Ihre Berechtigungen für sie entfernt.
-* Der Zugriff auf Kopier- und Sendeanforderungen, die ursprünglich von anderen gesendet wurden, kann Personen im selben Unternehmen automatisch gewährt werden, wenn der Ersteller der Anforderungswarteschlange die **Personen desselben Unternehmens erben dieselben Berechtigungen für alle Anforderungen** in den Bereichen &quot;Queue Details&quot;oder &quot;Edit Project&quot;. Wenn Sie diese Einstellung deaktivieren, kann nur der ursprüngliche Anfragende eigene Anforderungen anzeigen.
+* Der Zugriff auf das Kopieren und Senden von Anforderungen, die ursprünglich von anderen gesendet wurden, wird möglicherweise automatisch Personen im selben Unternehmen gewährt, wenn der Ersteller der Anforderungswarteschlange die **Personen desselben Unternehmens aktiviert, die dieselben Berechtigungen für alle Anforderungen erben** in den Bereichen &quot;Warteschlangendetails&quot;oder &quot;Projekt bearbeiten&quot;. Wenn Sie diese Einstellung deaktivieren, kann nur der ursprüngliche Anfragende eigene Anforderungen anzeigen.
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
@@ -118,8 +118,8 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 
 ## Anforderungen kopieren und senden
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Anforderungen**.
-1. (Bedingt) Wenn der Abschnitt Gesendet nicht standardmäßig angezeigt wird, klicken Sie auf **Gesendet** im linken Bereich.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Anforderungen**.![](assets/main-menu-icon.png)
+1. (Bedingt) Wenn der Abschnitt &quot;Gesendet&quot;nicht standardmäßig angezeigt wird, klicken Sie im linken Bereich auf **Gesendet** .
 
    >[!TIP]
    >
@@ -127,17 +127,17 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 
 1. Suchen Sie die Anforderung, die Sie kopieren und als neu senden möchten, und führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie sie aus und klicken Sie auf **Kopieren** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in der linken oberen Ecke der Liste &quot;Gesendete Anfragen&quot;.
+   * Wählen Sie sie aus und klicken Sie dann oben links in der Liste &quot;Gesendete Anforderungen&quot;auf **Kopieren** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) .
 
    >[!TIP]
    >
    > Wenn Sie zuvor keine Anforderung ausgewählt haben, ist das Symbol Kopieren abgeblendet.
 
-   * Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Anforderungsnamen klicken Sie auf **Kopieren und Senden als neu**
+   * Klicken Sie auf das Menü **Mehr** rechts neben dem Anforderungsnamen, klicken Sie dann auf **Kopieren und als neu senden** .![](assets/more-icon.png)
 
      Oder
 
-     Klicken Sie mit der rechten Maustaste auf die ausgewählte Anforderung und klicken Sie auf **Kopieren und Senden als neu**.
+     Klicken Sie mit der rechten Maustaste auf die ausgewählte Anforderung und klicken Sie dann auf **Kopieren und als neu senden**.
 
      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
@@ -147,14 +147,14 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
 
 1. (Optional) Aktualisieren Sie bei Bedarf die folgenden Informationen:
 
-   * **Anfragetyp**: die Anforderungswarteschlange, in der die kopierte Anforderung gespeichert wird. Standardmäßig wird die kopierte Anforderung in der Anforderungswarteschlange der ursprünglichen Anforderung gespeichert.
-   * **Themengruppen** und **Warteschlangenthemen**, wenn sie ausgewählt sind. Die Namen oder Themengruppen und Themen der Warteschlange werden für Ihre Umgebung angepasst. Standardmäßig wird die kopierte Anforderung in den Themengruppen und den Warteschlangenthemen der ursprünglichen Anforderung gespeichert.
+   * **Anforderungstyp**: die Anforderungswarteschlange, in der die kopierte Anforderung gespeichert wird. Standardmäßig wird die kopierte Anforderung in der Anforderungswarteschlange der ursprünglichen Anforderung gespeichert.
+   * **Themengruppen** und **Themen in der Warteschlange**, sofern ausgewählt. Die Namen oder Themengruppen und Themen der Warteschlange werden für Ihre Umgebung angepasst. Standardmäßig wird die kopierte Anforderung in den Themengruppen und den Warteschlangenthemen der ursprünglichen Anforderung gespeichert.
 
      >[!TIP]
      >
      >Wenn sich der Pfad vom Pfad der ursprünglichen Anforderung ändert, hat der Ersteller der Anforderungswarteschlange die Warteschlange geändert.
 
-1. (Optional) Aktualisieren Sie alle Informationen aus der kopierten Anforderung. Je nachdem, welche Felder der Ersteller der Anforderungswarteschlange im **Neue Ausgabefelder** Abschnitt **Warteschlangendetails** -Unterregisterkarte des Projekts können Sie eines der folgenden Felder finden:
+1. (Optional) Aktualisieren Sie alle Informationen aus der kopierten Anforderung. Je nachdem, welche Felder der Ersteller der Anforderungswarteschlange im Abschnitt **Neue Problemfelder** der Unterregisterkarte **Warteschlangendetails** des Projekts aktiviert hat, können Sie eines der folgenden Felder finden:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -162,7 +162,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Betreff</strong> </td> 
-      <td>Zeigt den Namen der ursprünglichen Anforderung an. Aktualisieren Sie es bei Bedarf. Andernfalls benennt Workfront die kopierte Anforderung <b>Kopie von &lt;name of="" original="" request=""&gt;</b>. Dies ist ein Pflichtfeld.</td> 
+      <td>Zeigt den Namen der ursprünglichen Anforderung an. Aktualisieren Sie es bei Bedarf. Andernfalls benennt Workfront die kopierte Anforderung <b>Kopie von &lt;Name der ursprünglichen Anforderung&gt;</b>. Dies ist ein Pflichtfeld.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Beschreibung</strong> </td> 
@@ -195,7 +195,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
        </ul> <p>Ihr Workfront-Administrator kann die Namen der Schweregrade ändern.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Hauptansprechpartner</strong> </td> 
+      <td role="rowheader"><strong>Primärer Kontakt</strong> </td> 
       <td>Der Primäre Kontakt einer Anfrage ist standardmäßig auf Sie festgelegt, da Sie als Ansprechpartner für alle Fragen im Zusammenhang mit der Anfrage fungieren. Sie können dies jedoch in einen anderen Workfront-Benutzer ändern.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -206,7 +206,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
       <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">Je nachdem, wie die Anforderungswarteschlange eingerichtet wurde, können Sie der Anforderung möglicherweise nur einen Ressourcentyp zuweisen (z. B. Benutzer). Wenn eine Routing-Regel auch mit der Anforderungswarteschlange verknüpft ist und die Anforderung automatisch an einen anderen Ressourcentyp weitergeleitet wird (z. B. ein Team), wird Ihre Anforderung sowohl der Entität zugewiesen, die Sie beim Senden der Anforderung manuell angeben (Benutzer), als auch der in der Routing-Regel angegebenen Ressource (Team).</p> <p style="font-weight: normal;">Weitere Informationen finden Sie in den folgenden Artikeln:</p> 
         <ul> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Erstellen von Routing-Regeln</a> <br> </p> </li> 
+         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Routing-Regeln erstellen</a> <br> </p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -241,6 +241,6 @@ Sie müssen über eine Anfrage verfügen, die Sie oder ein anderer Mitarbeiter I
    >* Alle benutzerdefinierten Formulare, die an die ursprüngliche Anforderung angehängt sind, und die Werte in den benutzerdefinierten Feldern werden an die kopierte Anforderung übertragen. Dazu gehören Felder, die Logik enthalten.
    >* Sie können keine benutzerdefinierten Formulare aus der kopierten Anforderung entfernen.
 
-1. Klicks **Einsenden**.
+1. Klicken Sie auf **Senden**.
 
    Die kopierte Anforderung wird als neue Anforderung in der von Ihnen angegebenen Anforderungswarteschlange gesendet.

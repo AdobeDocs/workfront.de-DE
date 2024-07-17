@@ -35,7 +35,7 @@ Weitere Informationen zur Protokollzeit in Workfront finden Sie unter [Protokoll
 
 Timesheets bieten Benutzern eine einfache Möglichkeit, die Zeit für Projekt- und Nicht-Projektarbeit zu verfolgen:
 
-* **Projektzeit:** Direkt aus der Aufgabe oder dem Projekt, in der/dem Sie die Zeit verfolgen möchten.
+* **Projektzeit:** Direkt von der Aufgabe oder dem Projekt, in der/dem Sie die Zeit verfolgen möchten.
 
   Stunden, die über ein Timesheet für Aufgaben, Probleme und Projekte aufgezeichnet werden, werden mit den jeweiligen Arbeitselementen verknüpft, um eine genaue Darstellung der für Projekte und Aufgaben aufgewendeten Anstrengungen zu liefern. Ohne genaue Zeiteingabe sind Ihre Daten möglicherweise nicht genau, wenn sie für Abrechnungszwecke bestimmt sind.
 
@@ -47,13 +47,13 @@ Timesheets bieten Benutzern eine einfache Möglichkeit, die Zeit für Projekt- u
 
 ## Zugreifen auf Timesheets im Bereich &quot;Timesheets&quot;
 
-Der Bereich &quot;Timesheets&quot;ist standardmäßig für alle Benutzer verfügbar. Workfront-Administratoren können dies bei Bedarf in der Layoutvorlage ändern. Weitere Informationen finden Sie unter [Hauptmenü mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Der Bereich &quot;Timesheets&quot;ist standardmäßig für alle Benutzer verfügbar. Workfront-Administratoren können dies bei Bedarf in der Layoutvorlage ändern. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 So greifen Sie auf ein Timesheet zu:
 
 {{step1-to-timesheets}}
 
-Alle Timesheets sowie Timesheets, auf die Sie Zugriff haben, werden standardmäßig angezeigt. Informationen zum Timesheet-Layout in Adobe Workfront finden Sie unter [Übersicht über das Datenblatt](../../timesheets/timesheets/timesheet-layout.md).
+Alle Timesheets sowie Timesheets, auf die Sie Zugriff haben, werden standardmäßig angezeigt. Informationen zum Timesheet-Layout in Adobe Workfront finden Sie unter [Übersicht über das Timesheet-Layout](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 
@@ -63,15 +63,15 @@ Alle Timesheets sowie Timesheets, auf die Sie Zugriff haben, werden standardmä�
 
    ![](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
-   * **Meine Datenblatt-Genehmigungen** um nur die von Ihnen genehmigten Timesheets anzuzeigen.
+   * **My Timesheet Approvals**, um nur die von Ihnen genehmigten Timesheets anzuzeigen.
 
      ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
 
-1. (Optional) Aktualisieren Sie die Ansicht, den Filter und die Gruppierung oben in der Liste der Timesheets. Weitere Informationen finden Sie unter [Berichtselemente: Filter, Ansichten und Gruppierungen](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+1. (Optional) Aktualisieren Sie die Ansicht, den Filter und die Gruppierung oben in der Liste der Timesheets. Weitere Informationen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 
-1. Klicken Sie auf **Datumsbereich** eines Zeitblatts, um es zu öffnen.
+1. Klicken Sie auf den **Datumsbereich** eines Zeitblatts, um es zu öffnen.
 
    Jedes Zeitblatt zeigt alle Aufgaben, Probleme und Projekte an, für die Sie die Zeit angemeldet haben. In einem Timesheet werden auch bis zu 45 Aufgaben und Probleme angezeigt, die Ihnen mit Datumsangaben innerhalb des Zeitrahmens des Zeitplans zugewiesen wurden, für die Sie jedoch noch keine Zeit angemeldet haben. Die 45 zuletzt aktualisierten Elemente werden für die Anzeige im Timesheet ausgewählt.
 
-   Weitere Informationen finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für das Zeitblatt und die Stunde](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

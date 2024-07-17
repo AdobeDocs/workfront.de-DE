@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Workfront für Experience Manager Enhanced Connector
 
-* [Übersicht über den Connector für Workfront für Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
-* [Übersicht über die erweiterten Metadaten von Workfront für Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
+* [Übersicht über den erweiterten Connector für Workfront für Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
+* [Überblick über Workfront für Experience Manager-erweiterte Connector-Metadaten](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
 * [Verknüpfen von Assets und Ordnern mit dem erweiterten Connector](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
-* [Senden eines Dokuments mit dem erweiterten Connector](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
+* [Dokument mit dem erweiterten Connector senden](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
 * [Testen eines verknüpften Assets mit dem erweiterten Connector](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
 * [Verknüpftes Asset mit dem erweiterten Connector anzeigen oder herunterladen](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)

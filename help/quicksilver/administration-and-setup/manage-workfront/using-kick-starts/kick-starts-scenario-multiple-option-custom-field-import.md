@@ -51,16 +51,16 @@ Wenn Sie die Workfront-Datenbankobjekte und -struktur gut verstehen, können Sie
 
 So exportieren Sie vorhandene Daten aus Workfront:
 
-1. Klicks **Hauptmenü > Einrichtung** in der oberen rechten Ecke der Workfront-Benutzeroberfläche.
-1. Erweitern Sie die **System** Menü links, und klicken Sie dann auf **Daten exportieren (Kick-Starts)**.
+1. Klicken Sie oben rechts auf der Workfront-Benutzeroberfläche auf **Hauptmenü > Einrichtung** .
+1. Erweitern Sie das Menü **System** links und klicken Sie dann auf **Daten exportieren (Kick-Starts)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
-1. Auswählen **Benutzerdefinierte Daten** im **Was soll eingeschlossen werden?** Abschnitt.
+1. Wählen Sie **Benutzerdefinierte Daten** im Abschnitt **Was soll eingeschlossen werden** aus.
 
    ![](assets/existing-custom-data-box-checked-kick-starts.png)
 
-1. Auswählen **.xlsx-Datei** im **Download-Format** Abschnitt.
+1. Wählen Sie die Datei **.xlsx** im Abschnitt **Download-Format** aus.
 
    >[!TIP]
    >
@@ -68,7 +68,7 @@ So exportieren Sie vorhandene Daten aus Workfront:
 
    ![](assets/download-button-for-kick-starts.png)
 
-1. Klicks **Herunterladen**. Eine .xlsx-Datei wird auf Ihren Computer heruntergeladen. Navigieren Sie zu und öffnen Sie es.
+1. Klicken Sie auf **Herunterladen**. Eine .xlsx-Datei wird auf Ihren Computer heruntergeladen. Navigieren Sie zu und öffnen Sie es.
 
    ![](assets/existing-data-excel-parameter-sheet.png)
 
@@ -88,15 +88,15 @@ So exportieren Sie vorhandene Daten aus Workfront:
 
 Nachdem Sie die Informationen zu vorhandenen benutzerdefinierten Feldern in Ihrem System durchsucht haben, können Sie eine neue Schnellstartvorlage für Ihren Import herunterladen.
 
-1. Klicks **Hauptmenü > Einrichtung** in der oberen rechten Ecke der Workfront-Benutzeroberfläche.
+1. Klicken Sie oben rechts auf der Workfront-Benutzeroberfläche auf **Hauptmenü > Einrichtung** .
 
-1. Erweitern Sie die **System** Menü links.
+1. Erweitern Sie das Menü **System** nach links.
 
-1. Klicks **Daten importieren (Kick-Starts)**.
+1. Klicken Sie auf **Daten importieren (Kick-Starts)**.
 
    ![](assets/import-data-kick-starts-link-in-setup.png)
 
-1. Im **Eine leere Kick-Start-Tabelle herunterladen** Bereich, wählen Sie die **Benutzerdefinierte Daten** aktivieren und auf **Herunterladen**.
+1. Aktivieren Sie im Bereich **Herunterladen einer leeren Kick-Start-Tabelle** das Kontrollkästchen **Benutzerdefinierte Daten** und klicken Sie auf **Herunterladen** .
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -120,13 +120,13 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
 
    >[!INFO]
    >
-   >Beispiel: **Parameter** (bezieht sich auf &quot;Benutzerdefiniertes Feld&quot;), **Parameteroption**(bezieht sich auf die Option &quot;Benutzerdefiniertes Feld&quot;), **Kategorie** (bezieht sich auf das benutzerdefinierte Formular).
+   >Beispiel: **Parameter** (bezieht sich auf das benutzerdefinierte Feld), **Parameteroption** (bezieht sich auf die Option &quot;Benutzerdefiniertes Feld&quot;), **Kategorie** (bezieht sich auf &quot;Benutzerdefiniertes Formular&quot;).
    >
    >Sie müssen die Namen der Objekte und deren Attribute in dem von der Workfront-Datenbank unterstützten Format schreiben.
    >
-   >Weitere Informationen zur Bedeutung dieser Objekte finden Sie unter [Glossar [!DNL Adobe Workfront] Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Weitere Informationen zur Bedeutung dieser Objekte finden Sie im [Glossar der  [!DNL Adobe Workfront] Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
    >
-   >Informationen zu den Namen der Objekte in der Workfront-Datenbank finden Sie in der [API-Explorer](../../../wf-api/general/api-explorer.md).
+   >Informationen zu den Namen der Objekte in der Workfront-Datenbank finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
@@ -142,23 +142,23 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
 
      >[!TIP]
      >
-     >Einige Spalten sind erforderlich, sind jedoch nicht fett gedruckt. Beispiel: die `isNew` und `ID` -Spalten sind nicht fett formatiert, aber es handelt sich um erforderliche Felder.
+     >Einige Spalten sind erforderlich, sind jedoch nicht fett gedruckt. Beispielsweise sind die Spalten `isNew` und `ID` nicht fett formatiert, aber es handelt sich um erforderliche Felder.
 
-1. Wählen Sie die `**PARAM Parameter`** Blatt und fügen Sie Informationen über die neuen benutzerdefinierten Felder in den folgenden erforderlichen Spalten hinzu:
+1. Wählen Sie das Blatt `**PARAM Parameter`** aus und fügen Sie Informationen über die neuen benutzerdefinierten Felder in die folgenden erforderlichen Spalten hinzu:
 
-   * **`isNew`** = enter **`TRUE`** in dieser Spalte für jede Zeile, die ein neues benutzerdefiniertes Feld darstellt. Dies bedeutet, dass das Feld neu ist und nicht in Workfront existiert.
+   * **`isNew`** = geben Sie **`TRUE`** in diese Spalte für jede Zeile ein, die ein neues benutzerdefiniertes Feld darstellt. Dies bedeutet, dass das Feld neu ist und nicht in Workfront existiert.
 
      >[!TIP]
      >
-     >    Wenn eine Zeile ein vorhandenes Feld in Workfront darstellt, geben Sie **`isNew`** = **`FALSE`**.
+     >    Wenn eine Zeile ein vorhandenes Feld in Workfront darstellt, geben Sie **`isNew`** = **`FALSE`** ein.
 
    * **`ID`** = muss eine eindeutige Zahl für jede Zeile sein, die ein neues Feld darstellt. Sie können eine beliebige Zahl verwenden, die mit 1 beginnt, solange jedes neue Feld eine eindeutige Nummer aufweist.
    * **`setDataType`** = für jede Zeile, die ein neues Feld darstellt, geben Sie den Datentyp ein, den das Feld unterstützt. Der Datentyp muss so eingegeben werden, wie er in der Datenbank angezeigt wird. Wählen Sie aus den folgenden Datentypen aus:
       * **`NMBR`** für Zahl
       * **`CURC`** für Währung
       * **`TEXT`** für Text
-   * `**setDisplaySize**`= Anzeigegröße (&#39;**setDisplaySize**&#39;) für mehrere Optionen ist benutzerdefinierte Felder immer 0.
-   * **`setDisplayType`** = für jede Zeile, die ein neues Feld darstellt, geben Sie den Anzeigetyp des Felds ein. Der Anzeigetyp muss so eingegeben werden, wie er in der Datenbank angezeigt wird.
+   * `**setDisplaySize**`= Die Anzeigegröße (&#39;**setDisplaySize**&#39;) für alle benutzerdefinierten Felder mit mehreren Optionen ist immer 0.
+   * **`setDisplayType`** = Geben Sie für jede Zeile, die ein neues Feld darstellt, den Anzeigetyp des Felds ein. Der Anzeigetyp muss so eingegeben werden, wie er in der Datenbank angezeigt wird.
 
      Wählen Sie für benutzerdefinierte Felder mit mehreren Optionen aus den folgenden Optionen:
 
@@ -169,72 +169,72 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
 
      >[!TIP]
      >
-     >Informationen zu Datentyp und Anzeigetyp finden Sie im Abschnitt [API-Explorer](../../../wf-api/general/api-explorer.md), erweitern Sie die **Parameter** -Objekt und suchen Sie nach diesen Attributen unter dem **fields** Registerkarte.
+     >Informationen zu Datentyp und Anzeigetyp finden Sie im [API Explorer](../../../wf-api/general/api-explorer.md), erweitern Sie das Objekt **Parameter** und suchen Sie auf der Registerkarte **fields** nach diesen Attributen.
 
-   * **`setName`** = geben Sie den Namen der benutzerdefinierten Felder ein, wie er in Workfront angezeigt werden soll.
+   * **`setName`** = Geben Sie den Namen der benutzerdefinierten Felder ein, wie er in Workfront angezeigt werden soll.
 
      >[!INFO]
      >
-     >Beispielsweise können wir zwei benutzerdefinierte Felder importieren, die _Marke_, ein Kontrollkästchen und _Medien_, ein Optionsfeld.
+     >So können wir beispielsweise zwei benutzerdefinierte Felder namens _Marke_, ein Kontrollkästchen und _Medien_, ein Optionsfeld, importieren.
 
-   * Die **`setName`** und **`setValue`** -Spalten enthalten in der Regel dieselben Informationen und sollten die Namen widerspiegeln, die in der Workfront-Benutzeroberfläche für Ihr neues Feld gewünscht werden.
+   * Die Spalten **`setName`** und **`setValue`** enthalten in der Regel dieselben Informationen und sollten die Namen widerspiegeln, die in der Workfront-Benutzeroberfläche für Ihr neues Feld gewünscht werden.
 
    Der Wert eines Felds ist der Name, der beispielsweise in Berichten angezeigt wird, während der Name in den benutzerdefinierten Formularen angezeigt wird, die an Objekte angehängt sind.
 
-   Weitere Informationen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   Weitere Informationen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
-1. Wählen Sie die **`POPT Parameter Options`** und fügen Sie Informationen zu den Optionen der einzelnen benutzerdefinierten Felder in den folgenden erforderlichen Spalten hinzu:
+1. Wählen Sie das Blatt **`POPT Parameter Options`** aus und fügen Sie Informationen über die Optionen der einzelnen benutzerdefinierten Felder in den folgenden erforderlichen Spalten hinzu:
 
-   * **`isNew`** = enter **`TRUE`** in dieser Spalte für jede Zeile, die eine neue Feldoption darstellt.
+   * **`isNew`** = geben Sie **`TRUE`** in diese Spalte für jede Zeile ein, die eine neue Feldoption darstellt.
 
      >[!TIP]
      >
-     >    Wenn eine Zeile eine vorhandene Option darstellt, geben Sie **`isNew`** = **`FALSE`**.
+     >    Wenn eine Zeile eine vorhandene Option darstellt, geben Sie **`isNew`** = **`FALSE`** ein.
 
    * **`ID`** = muss eine eindeutige Zahl für jede Zeile sein, die eine neue Option darstellt. Sie können eine beliebige Zahl verwenden, die mit 1 beginnt, solange jede neue Option eine eindeutige Zahl aufweist.
-   * **`setIsDefault`** = enter `TRUE` für die Optionen, die standardmäßig angezeigt werden sollen, und `FALSE` für alle anderen Optionen für jedes Feld.  Beispielsweise möchten wir _Nike_ als Standardoption für _Marke_ und _Drucken_ als Standardoption für _Medien_.
+   * **`setIsDefault`** = geben Sie `TRUE` für die Optionen ein, die standardmäßig angezeigt werden sollen, und `FALSE` für alle anderen Optionen für jedes Feld.  Beispielsweise soll _Nike_ die Standardoption für _Marke_ und _Drucken_ sein, die Standardoption für _Medien_.
 
      >[!TIP]
      >
      >Für jedes Feld kann nur eine Standardoption verwendet werden.
 
-   * **`setParameterID`** = die Optionen, die dem _Marke_ benutzerdefiniertes Feld enthält eine **`setParameterID`** von 1 und den Optionen, die dem _Medien_ über ein ** verfügen`setParameterID`**von 2. Die `PARAM` und `POPT` Tabellen verweisen einander, um anzugeben, welche Optionen zu welchem benutzerdefinierten Feld gehören.
-   * **`setDisplayOrder`**= Die Anzeigereihenfolge -Spalte gibt die Reihenfolge an, in der die Optionen in Ihrem benutzerdefinierten Feld angezeigt werden. Sie können mit 1 beginnen und für alle Optionen in aufsteigender Reihenfolge fortfahren, unabhängig davon, zu welchen Feldern sie gehören. Wichtig ist hier, dass für jede Option eindeutige Zahlen vorliegen.
-   * Die **`setLabel`** und `**setValue`** -Spalten enthalten in der Regel dieselben Informationen und sollten die in der Workfront-Benutzeroberfläche gewünschten Namen widerspiegeln. Der Wert einer Option ist der Name, der beispielsweise in Berichten angezeigt wird, während der Titel in den benutzerdefinierten Formularen angezeigt wird, wenn er an ein Objekt angehängt wird. Weitere Informationen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
-   * **`setIsHidden`** = enter `TRUE` , wenn eine der Optionen ausgeblendet werden soll.
+   * **`setParameterID`** = die Optionen, die dem benutzerdefinierten Feld _Marke_ entsprechen, haben den Wert **`setParameterID`** von 1 und die Optionen, die dem Feld _Medien_ entsprechen, haben den Wert **`setParameterID`**2. Die Tabellen `PARAM` und `POPT` verweisen gegenseitig auf die Optionen, zu denen das benutzerdefinierte Feld gehört.
+   * **`setDisplayOrder`**= Die Spalte mit der Anzeigereihenfolge gibt die Reihenfolge an, in der die Optionen in Ihrem benutzerdefinierten Feld angezeigt werden. Sie können mit 1 beginnen und für alle Optionen in aufsteigender Reihenfolge fortfahren, unabhängig davon, zu welchen Feldern sie gehören. Wichtig ist hier, dass für jede Option eindeutige Zahlen vorliegen.
+   * Die Spalten **`setLabel`** und `**setValue`** enthalten in der Regel dieselben Informationen und sollten die in der Workfront-Benutzeroberfläche gewünschten Namen widerspiegeln. Der Wert einer Option ist der Name, der beispielsweise in Berichten angezeigt wird, während der Titel in den benutzerdefinierten Formularen angezeigt wird, wenn er an ein Objekt angehängt wird. Weitere Informationen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   * **`setIsHidden`** = geben Sie `TRUE` ein, wenn eine der Optionen ausgeblendet werden soll.
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
-1. (Optional) Wenn Sie auch ein benutzerdefiniertes Formular erstellen möchten, in das Sie die neuen Felder später einfügen können, wählen Sie die  **`CTGY Category`** und aktualisieren Sie die folgenden erforderlichen Spalten für die benutzerdefinierten Formulardaten:
+1. (Optional) Wenn Sie auch ein benutzerdefiniertes Formular erstellen möchten, in das Sie die neuen Felder später einfügen können, wählen Sie das Blatt &quot;**`CTGY Category`**&quot;aus und aktualisieren Sie die folgenden erforderlichen Spalten für die benutzerdefinierten Formulardaten:
 
-   * **`isNew`** = enter **`TRUE`** in dieser Spalte für jede Zeile, die ein neues benutzerdefiniertes Formular darstellt.
-   * **`ID`** = geben Sie für jede Zeile, die ein neues Formular darstellt, eine eindeutige Nummer ein. Sie können eine beliebige Zahl verwenden, die mit 1 beginnt, solange jede neue Option oder Zeile eine eindeutige Zahl aufweist.
+   * **`isNew`** = geben Sie **`TRUE`** in diese Spalte für jede Zeile ein, die ein neues benutzerdefiniertes Formular darstellt.
+   * **`ID`** = Geben Sie für jede Zeile, die ein neues Formular darstellt, eine eindeutige Nummer ein. Sie können eine beliebige Zahl verwenden, die mit 1 beginnt, solange jede neue Option oder Zeile eine eindeutige Zahl aufweist.
    * **`setGroupID`** = Fügen Sie die Gruppen-ID für Ihre Home Group oder eine andere Gruppe im System hinzu, deren Mitglieder Zugriff auf dieses Formular erhalten sollen. Dies ist ein Pflichtfeld.
 
-   So finden Sie heraus: `ID` einer Gruppe können Sie entweder einen Gruppenbericht erstellen und die `ID` in der Ansicht oder navigieren Sie zu einer Gruppe und suchen Sie nach der URL für die Gruppe. Die Gruppen-ID befindet sich in der URL der Seite der Gruppe. Wenn beispielsweise die URL der Gruppe `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, lautet die Gruppen-ID `575b000800467a6f66e747932c807464`.
+   Um die `ID` einer Gruppe zu ermitteln, können Sie entweder einen Gruppenbericht erstellen und das Feld `ID` in die Ansicht einfügen oder zu einer Gruppe navigieren und die URL für die Gruppe suchen. Die Gruppen-ID befindet sich in der URL der Seite der Gruppe. Wenn die URL der Gruppe beispielsweise `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members` ist, lautet die Gruppen-ID `575b000800467a6f66e747932c807464`.
 
    * **`setCatObjCode` **= dies ist der Objektcode für den Objekttyp, für den das Formular erstellt werden soll. Geben Sie einen Code aus den folgenden Optionen ein:
       * **`CMPY`** für Unternehmen
       * **`TASK`** für Aufgabe
       * **`PROJ`** für Projekt
       * **`PORT`** für Portfolio
-      * **`PRGM`** für das Programm
+      * **`PRGM`** für Programm
       * **`USER`** für Benutzer
       * **`DOCU`** für Dokument
       * **`OPTASK`** für Problem
       * **`EXPNS`** für Ausgaben
-      * **`ITRN`** zur Iteration
+      * **`ITRN`** für Iteration
       * **`BILL`** für Rechnungsdatensätze
       * **`GROUP`** für Gruppe
 
      >[!NOTE]
      >
-     >Geben Sie bei Formularen mit mehreren Objekten das erste Objekt ein, das Sie beim Erstellen eines Formulars in der Benutzeroberfläche auswählen würden. Legen Sie beispielsweise die `setCatObjCode` nach `TASK`, wenn Sie &quot;Aufgabe&quot;in der Workfront-Benutzeroberfläche und dann &quot;Problem&quot;, &quot;Portfolio&quot;usw. auswählen, das Formular aber nicht für Projekte verfügbar sein soll.
+     >Geben Sie bei Formularen mit mehreren Objekten das erste Objekt ein, das Sie beim Erstellen eines Formulars in der Benutzeroberfläche auswählen würden. Legen Sie beispielsweise &quot;`setCatObjCode`&quot;auf &quot;`TASK`&quot;fest, wenn Sie in der Workfront-Benutzeroberfläche &quot;Aufgabe&quot;und dann &quot;Problem&quot;, &quot;Portfolio&quot;usw. auswählen würden, das Formular aber nicht für Projekte verfügbar sein soll.
 
-   * **`setName`** = dies ist der Name des benutzerdefinierten Formulars, wie er in der Workfront-Benutzeroberfläche angezeigt werden soll.
+   * **`setName`** = Dies ist der Name des benutzerdefinierten Formulars, wie er in der Workfront-Benutzeroberfläche angezeigt werden soll.
 
      ![](assets/category-sheet-filled-out-kick-starts.png)
 
@@ -245,12 +245,12 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
 
 Nachdem Sie die in den vorherigen Abschnitten beschriebenen Schritte ausgeführt haben, fahren Sie mit den folgenden Schritten fort, um die neuen Felder und Formulare in Workfront hochzuladen:
 
-1. Klicks **Daten importieren** **(Kick-Starts) **unter dem **Hauptmenü > Setup > System** Menü.
+1. Klicken Sie auf **Daten importieren** **(Kick-Starts) **unter dem Menü **Hauptmenü > Einrichtung > System**.
 
-1. Klicks **Datei auswählen** unter dem Abschnitt **Hochladen von Daten mit der Kick-Start-Tabelle**.
+1. Klicken Sie unter dem Abschnitt **Daten mit Kick-Start-Tabelle hochladen** auf **Datei auswählen** .
 
 1. Suchen Sie auf Ihrem Computer nach der von Ihnen vorbereiteten Excel-Tabelle und wählen Sie sie aus, wenn Sie sie finden.  Wenn die Datei von Workfront erkannt wird, wird die Schaltfläche Hochladen blau.
-1. Klicks **Hochladen.**
+1. Klicken Sie auf **Hochladen.**
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
 
@@ -265,7 +265,7 @@ Nachdem Sie die in den vorherigen Abschnitten beschriebenen Schritte ausgeführt
    >Die neuen Formulare und die importierten Felder sind noch nicht verknüpft. Das Formular wird ohne benutzerdefinierte Felder importiert. Sie müssen die Felder manuell zum neuen benutzerdefinierten Formular oder zu einem anderen vorhandenen benutzerdefinierten Formular hinzufügen.
 
 
-   Informationen zum Hinzufügen von Feldern zu benutzerdefinierten Formularen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   Weitere Informationen zum Hinzufügen von Feldern zu benutzerdefinierten Formularen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
 1. (Bedingt) Wenn der Import nicht erfolgreich war, erhalten Sie eine Fehlermeldung mit dem Problem. Versuchen Sie, das Feld, das Blatt und die Zeilennummer, in der das Problem aufgetreten ist, zu identifizieren und die Informationen in der Excel-Datei zu korrigieren. Versuchen Sie dann erneut, die Datei zu importieren.
 
@@ -275,4 +275,4 @@ Nachdem Sie die in den vorherigen Abschnitten beschriebenen Schritte ausgeführt
 
    * Löschen Sie die Informationen, die erfolgreich aus Workfront importiert wurden, aus dem Bereich &quot;Benutzerdefinierte Forms&quot;, und führen Sie dann die von der Fehlermeldung angegebene Korrektur durch.
    * Geben Sie an, dass ein Feld oder Formular bereits im System für die bereits importierten Felder oder Formulare enthalten ist, und korrigieren Sie dann die Datei.
-Um anzugeben, dass sich ein Feld oder ein benutzerdefiniertes Formular bereits in Workfront befindet, müssen Sie sicherstellen, dass die Variable `inNew` Feld als `FALSE` in Tabellen mit Informationen zum Formular (`CTGY`) oder dem Feld (`PARAM`) auf dem Kick-Start-Importblatt.
+Um anzugeben, dass ein Feld oder ein benutzerdefiniertes Formular bereits in Workfront vorhanden ist, müssen Sie sicherstellen, dass das Feld `inNew` in Tabellen mit Informationen zum Formular (`CTGY`) oder zum Feld (`PARAM`) im Schnellstart-Importblatt als `FALSE` markiert ist.

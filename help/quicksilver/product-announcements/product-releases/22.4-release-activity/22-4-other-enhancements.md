@@ -17,17 +17,17 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 22.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 verfügbar gemacht.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 Versionshinweise - Übersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Adobe Workfront für InDesign
 
 Dieses Plug-in ist jetzt zur Installation auf InDesign verfügbar. Sie können damit auf Details von Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und Testsendungen zur Überprüfung einreichen, ohne XD zu verlassen. Gehen Sie zum Adobe Creative Cloud Marketplace, um das Plug-in heute herunterzuladen.
 
-Weitere Informationen zum Plug-in finden Sie unter [[!DNL Adobe Workfront] Plug-in für [!DNL Creative Cloud] Anwendungen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Weitere Informationen zum Plug-in finden Sie unter [[!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
-[Laden Sie heute Adobe Workfront für InDesign auf den Markt.](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[Laden Sie Adobe Workfront für InDesign heute auf den Marktplatz herunter](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Administratoren können auch [Erstellen eines Pakets mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) von der Admin Console aus bereitstellen und für Benutzer bereitstellen, entweder auf verwaltete oder selbstverwaltete Weise.
+Administratoren können auch [ein Paket mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) aus der Admin Console erstellen und für Benutzer bereitstellen, entweder auf verwaltete oder selbst verwaltete Weise.
 
 ## Synchronisieren von Objektmetadaten mit der nativen Experience Manager Assets-Integration
 
@@ -37,7 +37,7 @@ Damit Objektmetadaten automatisch synchronisiert werden können, müssen Sie den
 
 Zuvor wurden nur Projektfelder automatisch aktualisiert.
 
-Weitere Informationen finden Sie unter [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Experience Manager Assets as a Cloud Service-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 ## Metadaten-Push für übergeordnete Programm- und Portfolioobjekte
 
@@ -75,7 +75,7 @@ Diese Version enthält die folgenden Funktionen:
 
 * Ein neues Workfront-Objekt namens Campaign
 
-* Ein neuer Bereich für Kampagnen (Beta) im Hauptmenü
+* Ein neuer Kampagnenbereich (Beta) im Hauptmenü
 
 * Eine Liste der Kampagnen im Kampagnenbereich
 
@@ -87,6 +87,6 @@ Diese Version enthält die folgenden Funktionen:
 
 * Möglichkeit, das Kampagnenobjekt aus der Layout-Vorlage umzubenennen
 
-  Workfront-System- und Gruppenadministratoren können den Bereich &quot;Kampagnen (Beta)&quot;im Hauptmenü einer Layout-Vorlage hinzufügen. Dadurch wird sie für alle Benutzer verfügbar, die der Vorlage zugewiesen sind. Sobald die Kampagne verfügbar ist, kann jeder in Workfront eine Kampagne erstellen.
+  System- und Gruppenadministratoren von Workfront können den Bereich Kampagnen (Beta) im Hauptmenü einer Layout-Vorlage hinzufügen. Dadurch wird sie für alle Benutzer verfügbar, die der Vorlage zugewiesen sind. Sobald die Kampagne verfügbar ist, kann jeder in Workfront eine Kampagne erstellen.
 
 

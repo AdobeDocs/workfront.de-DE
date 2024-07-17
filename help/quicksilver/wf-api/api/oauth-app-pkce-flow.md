@@ -22,21 +22,21 @@ PKCE ist ein sicherer Autorisierungsfluss, der gut mit dynamisch aktualisierten 
 
 Ein PKCE-Fluss umfasst die folgenden Schritte. Die Schritte in diesem Abschnitt werden nur zu Informationszwecken beschrieben. Weitere Informationen zur Durchführung dieser Verfahren finden Sie in anderen Abschnitten dieses Artikels.
 
-1. Der Client erstellt die `code_challenge` durch die `code_verifier` using `S256` Verschlüsselung.
+1. Der Client erstellt die `code_challenge`, indem er die `code_verifier` mit der `S256`-Verschlüsselung transformiert.
 
-1. Der Client leitet den Browser zusammen mit der generierten zur OAuth2-Anmeldeseite. `code_challenge`. Sie müssen Ihre App (den Client) registrieren, damit OAuth2 die Autorisierungsanforderung annehmen kann. Nach der Registrierung kann Ihre App den Browser zu OAuth2 umleiten.
+1. Der Client leitet den Browser zusammen mit dem generierten `code_challenge` zur OAuth2-Anmeldeseite. Sie müssen Ihre App (den Client) registrieren, damit OAuth2 die Autorisierungsanforderung annehmen kann. Nach der Registrierung kann Ihre App den Browser zu OAuth2 umleiten.
 
 1. Der OAuth2-Autorisierungsserver leitet die Authentifizierungsaufforderung an den Benutzer weiter.
 
 1. Der Benutzer authentifiziert sich mit einer der konfigurierten Anmeldeoptionen und kann eine Einverständnisseite sehen, auf der die Berechtigungen aufgelistet werden, die OAuth2 der Anwendung erteilt.
 
-1. OAuth2 leitet mit einer `authorization code`.
+1. OAuth2 leitet mit einem `authorization code` zurück zu Ihrer Anwendung.
 
-1. Ihre Anwendung sendet diesen Code zusammen mit dem `code_verifier`, zu OAuth2.
+1. Ihre Anwendung sendet diesen Code zusammen mit dem `code_verifier` an OAuth2.
 
-1. OAuth2 Authorization Server transformiert die `code_verifier` mithilfe der `code_challenge_method` aus dem ursprünglichen Genehmigungsantrag und überprüft das Ergebnis anhand der `code_challenge`. Wenn der Wert beider Zeichenfolgen übereinstimmt, hat der Server überprüft, dass die Anforderungen von demselben Client stammen, und gibt eine `access token`.
+1. Der OAuth2-Autorisierungsserver transformiert die `code_verifier` mit dem `code_challenge_method` aus der ursprünglichen Autorisierungsanfrage und überprüft das Ergebnis mit dem `code_challenge`. Wenn der Wert beider Zeichenfolgen übereinstimmt, hat der Server überprüft, ob die Anforderungen von demselben Client stammen, und gibt einen `access token` aus.
 
-1. OAuth2 gibt die `access token`und optional eine `refresh token`.
+1. OAuth2 gibt die `access token` und optional eine `refresh token` zurück.
 
 1. Ihre Anwendung kann diese Token jetzt verwenden, um den Ressourcenserver, z. B. eine API, im Namen des Benutzers aufzurufen.
 
@@ -47,7 +47,7 @@ Ein PKCE-Fluss umfasst die folgenden Schritte. Die Schritte in diesem Abschnitt 
 
 Bevor Sie die Autorisierung implementieren können, müssen Sie Ihre App in OAuth2 registrieren, indem Sie eine App-Integration aus Workfront erstellen.
 
-Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md) .
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer
 
 ## Erstellen des Testschlüssels für den Code Exchange
 
-Ähnlich wie der standardmäßige Autorisierungscode-Fluss leitet Ihre App den Browser des Benutzers zum Autorisierungsserver weiter. `/authorize` -Endpunkt. In diesem Fall müssen Sie jedoch auch eine Code-Herausforderung weitergeben.
+Ähnlich wie beim standardmäßigen Autorisierungscode-Fluss leitet Ihre App den Browser des Benutzers an den `/authorize` -Endpunkt Ihres Autorisierungsservers weiter. In diesem Fall müssen Sie jedoch auch eine Code-Herausforderung weitergeben.
 
 Ihr erster Schritt besteht darin, einen Code-Prüfer und eine Herausforderung zu erstellen.
 
@@ -95,7 +95,7 @@ Der PKCE Generator-Code erstellt eine Ausgabe ähnlich der folgenden:
 >}
 >```
 
-Ihre App speichert die `code_verifier` für später und sendet die `code_challenge` zusammen mit der Autorisierungsanfrage an den Autorisierungsserver `/authorize` URL.
+Ihre App speichert den `code_verifier` für später und sendet den `code_challenge` zusammen mit der Autorisierungsanfrage an die `/authorize` -URL Ihres Autorisierungsservers.
 
 ## Autorisierungscode anfordern
 
@@ -113,22 +113,22 @@ Wenn Sie den standardmäßigen benutzerdefinierten Autorisierungsserver verwende
 
 Beachten Sie die Parameter, die übergeben werden:
 
-* `client_id` entspricht der Client-ID der OAuth2-Anwendung, die Sie beim Konfigurieren der Anwendung in der erstellt haben.
+* `client_id` entspricht der Client-ID der OAuth2-Anwendung, die Sie beim Konfigurieren der Anwendung in der erstellt haben.
 
   Anweisungen finden Sie unter Erstellen einer OAuth2-Single-Page-Webanwendung mit PKCE in OAuth2-Anwendungen für Workfront-Integrationen erstellen .
 
-* `response_type` is `code`, da die Anwendung den Grant-Typ Autorisierungscode verwendet.
+* `response_type` ist `code`, da die Anwendung die Art der Gewährung des Autorisierungscodes verwendet.
 
-* `redirect_uri` ist der Callback-Speicherort, an den der Benutzeragent zusammen mit dem `code`. Dies muss mit einer der Umleitungs-URLs übereinstimmen, die Sie beim Erstellen Ihrer OAuth2-Anwendung angegeben haben.
+* `redirect_uri` ist der Callback-Speicherort, an den der Benutzeragent zusammen mit dem `code` weitergeleitet wird. Dies muss mit einer der Umleitungs-URLs übereinstimmen, die Sie beim Erstellen Ihrer OAuth2-Anwendung angegeben haben.
 
-* `code_challenge_method` ist die Hash-Methode, die zur Generierung der Herausforderung verwendet wird, was immer `S256` für Workfront Oauth2-Anwendungen, die PKCE verwenden.
+* `code_challenge_method` ist die Hash-Methode, mit der die Herausforderung generiert wird. Sie ist immer `S256` für Workfront Oauth2-Anwendungen, die PKCE verwenden.
 
-* `code_challenge` ist die Code-Herausforderung, die für PKCE verwendet wird.
+* `code_challenge` ist die Code-Herausforderung, die für PKCE verwendet wird.
 
 
 ## Code für Token austauschen
 
-Um den Autorisierungscode gegen ein Zugriffstoken auszutauschen, übergeben Sie ihn an die `/token` -Endpunkt zusammen mit dem `code_verifier`.
+Um den Autorisierungscode gegen ein Zugriffstoken auszutauschen, übergeben Sie ihn zusammen mit dem `code_verifier` an den `/token` -Endpunkt Ihres Autorisierungsservers.
 
 >[!INFO]
 >
@@ -148,15 +148,15 @@ Um den Autorisierungscode gegen ein Zugriffstoken auszutauschen, übergeben Sie 
 
 Beachten Sie die Parameter, die übergeben werden:
 
-* `grant_type` is `authorization_code`, da die App den Grant-Typ Autorisierungscode verwendet.
+* `grant_type` ist `authorization_code`, da die App den Grant-Typ &quot;Autorisierungscode&quot;verwendet.
 
-* `redirect_uri` muss mit dem URI übereinstimmen, der zum Abrufen des Autorisierungscodes verwendet wurde.
+* `redirect_uri` muss mit dem URI übereinstimmen, der zum Abrufen des Autorisierungscodes verwendet wurde.
 
-* `code` ist der Autorisierungscode, den Sie vom Endpunkt /authorize erhalten haben.
+* `code` ist der Autorisierungscode, den Sie vom /authorize -Endpunkt erhalten haben.
 
-* `code_verifier` ist der PKCE-Code-Prüfer, den Ihre App in generiert hat. [Erstellen des Testschlüssels für den Code Exchange](#Create).
+* `code_verifier` ist der PKCE-Code-Prüfer, den Ihre App in [Erstellen des Testschlüssels für Code Exchange](#Create) generiert hat.
 
-* `client_id` identifiziert Ihren Client und muss mit dem in OAuth2 registrierten Wert übereinstimmen.
+* `client_id` identifiziert Ihren Client und muss mit dem in OAuth2 registrierten Wert übereinstimmen.
 
 
 Wenn der Code weiterhin gültig ist und die Codeüberprüfung übereinstimmt, erhält Ihre Anwendung ein Zugriffstoken.

@@ -21,5 +21,5 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Erstellen eines Teams im Bereich &quot;Einrichtung&quot;](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
+* [Erstellen Sie ein Team aus dem Einrichtungsbereich](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
 * [Bearbeiten Sie die Einstellungen eines Teams im Bereich &quot;Einrichtung&quot;.](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)

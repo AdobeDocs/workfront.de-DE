@@ -9,7 +9,7 @@ role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Im Folgenden finden Sie Beispiele für verschiedene Programmiersprachen, die zur
 
 Sie können diese Beispiele auf der GitHub-Seite von Workfront herunterladen:  [https://github.com/Workfront](https://github.com/Workfront)
 
-Um Beispiele im Repository zu finden, geben Sie `example` in **Repository suchen...** ankreuzen.
+Um Beispiele im Repository zu finden, geben Sie `example` in das Feld **Repository suchen..** ein.
 
 >[!NOTE]
 >

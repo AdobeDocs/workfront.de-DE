@@ -6,7 +6,8 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: bddf7a2a9c3e8732bbced042e6fdc28b440870c4
+exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%
@@ -30,21 +31,16 @@ Der AI-Assistent kann die folgenden Objekte zusammenfassen:
 >
 >Die Zusammenfassungs-Funktion des AI-Assistenten unterscheidet sich vom Bedienfeld Zusammenfassung .
 >
->Weitere Informationen zum Bedienfeld &quot;Zusammenfassung&quot;in Workfront finden Sie unter [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+>Weitere Informationen zum Bereich &quot;Zusammenfassung&quot;in Workfront finden Sie unter [Überblick über die Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Zusammenfassen eines Objekts
 
 So zeigen Sie eine Zusammenfassung eines Objekts an:
 
 1. Navigieren Sie zu dem Objekt, für das Sie eine Zusammenfassung anzeigen möchten.
-1. Klicken Sie auf **KI-Assistent** icon ![Symbol &quot;KI-Assistent&quot;](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
-1. Klicken Sie im Bereich &quot;AI Assistant&quot;auf **Zusammenfassen**.
+1. Klicken Sie auf das Symbol **AI-Assistent** ![AI-Assistent-Symbol](assets/ai-assistant-icon.png) oben rechts im Bildschirm.
+1. Klicken Sie im Bedienfeld &quot;KI-Assistent&quot;auf **Zusammenfassen**.
 
    Je nachdem, wie groß oder komplex das Objekt ist, kann es einen Moment dauern, bis der KI-Assistent die Zusammenfassung generiert.
 
 1. Zeigen Sie die KI-Zusammenfassung im Bereich &quot;KI-Assistent&quot;an.
-
-
-
-
-

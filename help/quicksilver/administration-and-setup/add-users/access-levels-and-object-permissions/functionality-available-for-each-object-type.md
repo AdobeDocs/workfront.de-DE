@@ -12,8 +12,8 @@ role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 11%
+source-wordcount: '1883'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zug
 
 Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalten.
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |   |   |   |   |
 | Kopieren | ✓&#42; |   |   |   |   |
@@ -46,11 +46,11 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 |  Aufgaben hinzufügen | ✓ | ✓ |   |   |   |
 | Aktualisierungen/Kommentare geben | ✓ | ✓ | ✓ |   |   |
 | Status ändern | ✓ |   |   |   |   |
-| Protokollstunden | ✓ | ✓ |   |   |   |
+| Stunden protokollieren | ✓ | ✓ |   |   |   |
 | Zuweisungen bearbeiten | ✓ | ✓ |   |   |   |
 | Grundlinie verwalten | ✓ |   |   |   |   |
 | Risiken verwalten | ✓ |   |   |   |   |
-| Verwalten von Finanzierungen | ✓ |   |   |   |   |
+| Finanzen verwalten | ✓ |   |   |   |   |
 | Aufwendungen hinzufügen/bearbeiten | ✓ | ✓ |   |   |   |
 | Vorlagen anfügen | ✓ |   |   |   |   |
 | Als Vorlage speichern | ✓ |   |   |   |   |
@@ -63,11 +63,11 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 
 
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Aufgaben
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; | ✓&#42; |   |   |   |
 | Löschen | ✓&#42; | ✓&#42; |   |   |   |
@@ -81,7 +81,7 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 | Dokumente hinzufügen | ✓ | ✓ | ✓ |   |   |
 | Aufgabe kopieren | ✓ | ✓ |   |   |   |
 | Verschieben einer Aufgabe | ✓ | ✓ |   |   |   |
-| Protokollstunden | ✓ | ✓ |   |   |   |
+| Stunden protokollieren | ✓ | ✓ |   |   |   |
 | Zuweisung akzeptieren | ✓ | ✓ |   |   |   |
 | Zuweisung vornehmen | ✓ | ✓ | Nur Inline-Bearbeitung | Nur Inline-Bearbeitung |   |
 | Benutzerdefiniertes Formular anhängen | ✓ | ✓ |   |   |   |
@@ -90,16 +90,16 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 | Aufgabe validieren | ✓ | ✓ | ✓ |   |   |
 | Bearbeiten von Finanzen | ✓ |   |   |   |   |
 | Aufwendungen hinzufügen/bearbeiten | ✓ | ✓ |   |   |   |
-| Finanzierung anzeigen | ✓ | ✓ | ✓ |   |   |
+| Finanzen anzeigen | ✓ | ✓ | ✓ |   |   |
 | Aktualisierungen/Kommentare | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Probleme
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Bearbeiten | ✓ | ✓ | ✓ | ✓ |   |
@@ -109,12 +109,12 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 | Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Benutzerdefinierte Formulare anhängen | ✓ | ✓ | ✓ | ✓ |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ | ✓ | ✓ | ✓ |   |
-| Probleme genehmigen | ✓ | ✓ | ✓ | ✓ |   |
+| Genehmigen von Problemen | ✓ | ✓ | ✓ | ✓ |   |
 | Hinzufügen eines Validierungsprozesses | ✓ | ✓ | ✓ | ✓ |   |
 | Dokumente hinzufügen | ✓ | ✓ | ✓ | ✓ |   |
 | Probleme kopieren | ✓ | ✓ | ✓ | ✓ |   |
 | Probleme verschieben | ✓ | ✓ | ✓ | ✓ |   |
-| Protokollstunden | ✓ | ✓ |   |   |   |
+| Stunden protokollieren | ✓ | ✓ |   |   |   |
 | Konvertieren eines Problems in ein Projekt | ✓ | ✓ |   |   |   |
 | Konvertieren eines Problems in eine Aufgabe | ✓ |   |   |   |   |
 | Accept-Zuweisungen | ✓ | ✓ |   |   |   |
@@ -123,13 +123,13 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Projekte erhalt
 
 
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Portfolios
 
 Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Portfolios haben.
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |   |   |   |   |
 | Löschen | ✓&#42; |   |   |   |   |
@@ -147,13 +147,13 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Portfolios habe
 
 
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Programme
 
 Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Programme haben.
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |   |   |   |   |
 | Löschen | ✓&#42; |   |   |   |   |
@@ -171,19 +171,19 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Programme haben
 
 
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Berichte, Dashboards und Kalender
 
 Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle anderen Zugriffsebenen haben Ansichtszugriff auf Berichte.
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Anfrage | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person | Anfrage | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |   |   |   |   |
 | Löschen | ✓&#42; |   |   |   |   |
 | Anzeigen integrierter Berichte | ✓&#42; |   |   |   |   |
 | Freigeben | ✓&#42; | ✓ | ✓ |   |   |
-| Öffentliche Freigabe von Kalender und Berichten | ✓&#42; |   |   |   |   |
+| Öffentliche Freigabe von Kalendern und Berichten | ✓&#42; |   |   |   |   |
 | Systemweit freigeben | ✓&#42; |   |   |   |   |
 | Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Bearbeiten | ✓ |   |   |   |   |
@@ -191,7 +191,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 >[!NOTE]
 >
@@ -217,8 +217,8 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
    <th> <p>Aktion</p> </th> 
    <th> <p>Planer</p> </th> 
    <th> <p>Arbeitskraft</p> </th> 
-   <th> <p>Prüfer</p> </th> 
-   <th> <p>Anfragende Person</p> </th> 
+   <th> <p>Prüfende Person</p> </th> 
+   <th> <p>Anfragender</p> </th> 
    <th>Externer Benutzer<br></th> 
   </tr> 
  </thead> 
@@ -274,11 +274,11 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
  </tbody> 
 </table>
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Dokumente
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Löschen (Dokumente und Ordner) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -299,7 +299,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 | Neue Version hochladen | ✓ | ✓ | ✓ | ✓ |   |
 | Version löschen | ✓ | ✓ | ✓ | ✓ |   |
 | Vorschau | ✓ | ✓ | ✓ | ✓ | ✓ |
-|  Korrekturabzug | ✓ | ✓ | ✓ | ✓ |   |
+| Korrekturabzug | ✓ | ✓ | ✓ | ✓ |   |
 | Testversand erzeugen | ✓ | ✓ |   |   |   |
 | Testversand durchführen | ✓ | ✓ | ✓ | ✓ |   |
 | Hinzufügen/Entfernen&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
@@ -309,7 +309,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Nur für Dokumentordner verfügbar, nicht für Dokumente
 
@@ -333,8 +333,8 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
    <th> <p>Aktion</p> </th> 
    <th> <p>Planer</p> </th> 
    <th>Arbeitskraft</th> 
-   <th> <p>Prüfer</p> </th> 
-   <th> <p>Anfragende Person</p> </th> 
+   <th> <p>Prüfende Person</p> </th> 
+   <th> <p>Anfragender</p> </th> 
    <th> <p>Externer Benutzer**</p> </th> 
   </tr> 
  </thead> 
@@ -390,7 +390,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
  </tbody> 
 </table>
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Externe Benutzer können nur nach anderen Benutzern suchen
 
@@ -408,8 +408,8 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
    <th> <p>Aktion</p> </th> 
    <th> <p>Planer</p> </th> 
    <th>Arbeitskraft</th> 
-   <th> <p>Prüfer</p> </th> 
-   <th> <p>Anfragende Person</p> </th> 
+   <th> <p>Prüfende Person</p> </th> 
+   <th> <p>Anfragender</p> </th> 
    <th> <p>Externer Benutzer*</p> </th> 
   </tr> 
  </thead> 
@@ -465,11 +465,11 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
  </tbody> 
 </table>
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Vorlagen
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |   |   |   |   |
 | Löschen | ✓&#42; |   |   |   |   |
@@ -481,7 +481,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Finanzdaten
 
@@ -489,14 +489,14 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf Finanzdaten hab
 
 Die Lizenztypen Anforderung und Externer Benutzer sind hier nicht enthalten, da sie keinen Zugriff auf diese Objekte und Bereiche haben.
 
-| Aktion | Planer | Arbeitskraft | Prüfer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person |
 |---|---|---|---|
 | Bearbeiten der Rollenabrechnung und der Kostensätze | ✓&#42; |   |   |
 | Bearbeiten der Benutzerabrechnung und der Kostensätze | ✓&#42; |   |   |
 | Anzeigen der Rollenabrechnung und der Kostensätze | ✓&#42; |   |   |
 | Anzeigen von Benutzerabrechnungs- und Kostensätzen | ✓&#42; |   |   |
-| Rechnungsdatensätze verwalten | ✓ |   |   |
-| Verwalten von Ausgaben | ✓ | ✓ |   |
+| Abrechnungsdatensätze verwalten | ✓ |   |   |
+| Ausgaben verwalten | ✓ | ✓ |   |
 | Finanzdaten anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |
 | <span class="preview">Ratenkarten verwalten</span> | ✓ |   |   |
 | Anzeigen von Informationen nach Kosten in den Tools für die Ressourcenplanung | ✓ |   |   |
@@ -507,18 +507,18 @@ Die Lizenztypen Anforderung und Externer Benutzer sind hier nicht enthalten, da 
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Erfordert zusätzlichen Zugriff auf die Ressourcenverwaltung.
 
 ## Ressourcenverwaltung
 
-Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf [Objekt oder Bereich auswählen]. Andere Lizenztypen können eingeschränkten oder keinen Zugriff auf Resource Management in Workfront haben.
+Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf [Objekt oder Bereich auswählen] haben. Andere Lizenztypen können eingeschränkten oder keinen Zugriff auf Resource Management in Workfront haben.
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
 |---|---|---|---|---|---|
 | Prioritäten und Budgetstunden im Planer bearbeiten | ✓&#42; |   |   |   |   |
-| Erstellen, Bearbeiten und Löschen von Ressourcen-Pools&#42;&#42; | ✓&#42; |   |   |   |   |
+| Erstellen, Bearbeiten, Löschen von Ressourcen-Pools&#42;&#42; | ✓&#42; |   |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
 | Anzeigen von Projektprioritäten im Ressourcenplaner | ✓&#42; |   |   |   |   |
 | Anzeigen der Ressourcenzuordnung in den Tools für die Ressourcenplanung | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
@@ -528,15 +528,15 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf [Objekt oder Be
 
 {style="table-layout:auto"}
 
-&#42; Auf einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren. Weitere Informationen finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Erfordert zusätzlichen Zugriff auf Finanzdaten und Berechtigungen für Projektfinanzierungen. Wenn Sie Ressourcen-Management-Zugriff für einen Benutzer gewähren, der keinen Zugriff auf Finanzdaten hat, kann der Benutzer die stündlichen Zuweisungen weiterhin im Ressourcenplaner sehen, aber nicht zur Kostenansicht wechseln oder den Geschäftsfall anzeigen. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Freigeben von Finanzberechtigungen für ein Objekt](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Erfordert zusätzlichen Zugriff auf Finanzdaten und Berechtigungen für Projektfinanzierungen. Wenn Sie Ressourcen-Management-Zugriff für einen Benutzer gewähren, der keinen Zugriff auf Finanzdaten hat, kann der Benutzer die stündlichen Zuweisungen weiterhin im Ressourcenplaner sehen, aber nicht zur Kostenansicht wechseln oder den Geschäftsfall anzeigen. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Finanzberechtigungen für ein Objekt freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Erfordert die Berechtigung zum Beitragen zum -Objekt, wobei &quot;Zuweisungen vornehmen&quot;unter &quot;Erweiterte Einstellungen&quot;aktiviert ist. Weitere Informationen finden Sie im Abschnitt . [Grundlegendes zu geerbten Berechtigungen und zur Hierarchie von Objekten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) im Artikel [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Erfordert Berechtigungen für Contribute für das Objekt, wobei &quot;Zuweisungen vornehmen&quot;unter &quot;Erweiterte Einstellungen&quot;aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Vererbte Berechtigungen und die Hierarchie der Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) im Artikel [Überblick über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Bereich &quot;Szenario-Planer&quot;
 
-| Aktion | Planer | Arbeitskraft | Prüfer | Anfragende Person | Externer Benutzer |
+| Aktion | Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
 |---|---|---|---|---|---|
 | Vorhandene Pläne und Initiativen erstellen/bearbeiten | ✓ | ✓ | ✓ |   |   |
 | Hinzufügen oder Bearbeiten von Informationen zu Aufgabenrollen in Plänen und Initiativen&#42; | ✓ | ✓ | ✓ |   |   |
@@ -565,9 +565,9 @@ Nur Benutzer mit einer Planungslizenz können vollen Zugriff auf [Objekt oder Be
 | Alle Ziele aktivieren/deaktivieren/schließen |   | ✓ |
 | Aktivitäten erstellen/bearbeiten/löschen |   | ✓ |
 | Ergebnisse erstellen/bearbeiten/löschen |   | ✓ |
-| Zielgruppe hinzufügen |   | ✓ |
+| Hinzufügen eines ausgerichteten Ziels |   | ✓ |
 | Fortschritt eines Ergebnisses oder einer Aktivität aktualisieren |   | ✓ |
-| Eigene Ziel, Ergebnis oder Aktivität | ✓ | ✓ |
+| Ziel, Ergebnis oder Aktivität besitzen | ✓ | ✓ |
 | Kommentar zu einem Ziel | ✓ | ✓ |
 | Ziele kopieren |   | ✓ |
 | Ansicht des Bereichs &quot;Zielliste&quot;im linken Bereich | ✓ | ✓ |

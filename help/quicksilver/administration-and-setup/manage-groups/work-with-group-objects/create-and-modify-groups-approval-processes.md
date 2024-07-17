@@ -23,4 +23,4 @@ Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Admin
 
 Anweisungen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Weitere Informationen zu Validierungsprozessen finden Sie unter [Übersicht über den Genehmigungsprozess](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Weitere Informationen zu Genehmigungsprozessen finden Sie unter [Übersicht über den Genehmigungsprozess](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).

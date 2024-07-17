@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # Haushaltsmittel im Geschäftsfall
 
-Im Rahmen der Ressourcenplanung können Sie beim Erstellen des Geschäftsszenarios die für das Abschließen der Arbeit in einem Projekt erforderlichen Vorgangsrollen einplanen. Weitere Informationen zum Erstellen eines Geschäftsfalls finden Sie unter [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Im Rahmen der Ressourcenplanung können Sie beim Erstellen des Geschäftsszenarios die für das Abschließen der Arbeit in einem Projekt erforderlichen Vorgangsrollen einplanen. Weitere Informationen zum Erstellen eines Geschäftsszenarios finden Sie unter [Erstellen eines Geschäftsszenarios für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!NOTE]
 >
->Die Budgetierung von Ressourcen entspricht nicht der Planung von Ressourcen für ein Projekt. Wenn Sie Ressourcen mit Budget versehen, schätzen Sie die Rollen, die zum Abschluss der Arbeit an einem Projekt erforderlich sein könnten. Informationen zum Planen oder Zuweisen von Benutzern zur Arbeit an einem Projekt finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>Die Budgetierung von Ressourcen entspricht nicht der Planung von Ressourcen für ein Projekt. Wenn Sie Ressourcen mit Budget versehen, schätzen Sie die Rollen, die zum Abschließen der Arbeit an einem Projekt erforderlich sein könnten. Informationen zum Planen oder Zuweisen von Benutzern zur Arbeit an einem Projekt finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 Sie müssen dem Projekt Vorgangsrollen zuweisen, bevor Sie die Ressourcen dafür einsetzen können. Im Folgenden finden Sie Möglichkeiten, einem Projekt Vorgangsrollen zuzuweisen:
 
 * Verwenden Sie den Ressourcen-Planer, um Ressourcenpools auf die Projekt- und Budgetauftragsrollen anzuwenden.
 
-   Weitere Informationen finden Sie unter [Budgetressourcen im Business Case mithilfe des Resource Planers](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  Weitere Informationen finden Sie unter [Budgetressourcen im Geschäftsfall mit dem Resource Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
 * Verwenden Sie den Szenario-Planer, um Initiativen mit den erforderlichen Arbeitsplatzrollen zu erstellen und sie mit dem Projekt zu verknüpfen. Weitere Informationen finden Sie unter [Budgetressourcen im Geschäftsfall mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
 
-   >[!NOTE]
-   >
-   >Der Szenario-Planer ist nur im neuen Adobe Workfront-Erlebnis verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >Der Szenario-Planer ist nur im neuen Adobe Workfront-Erlebnis verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

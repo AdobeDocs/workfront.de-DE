@@ -3,7 +3,7 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: Benutzer, Mitglieder und Gäste in [!DNL Workfront Proof]
+title: Benutzer, Mitglieder und Gäste in [!DNL Workfront Proof] verstehen
 description: Benutzer, Mitglieder und Gäste sind die drei Kontakttypen, mit denen Sie auf der Seite Kontakte arbeiten können.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -11,28 +11,28 @@ exl-id: cfbcc0a1-c953-4fd9-b1e5-072203bd0812
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Benutzer, Mitglieder und Gäste in [!DNL Workfront Proof]
+# Benutzer, Mitglieder und Gäste in [!DNL Workfront Proof] verstehen
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Benutzer, Mitglieder und Gäste sind die drei Kontakttypen, mit denen Sie auf der Seite Kontakte arbeiten können.
 
-Siehe [Kontakte verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md) für weitere Informationen zur Kontaktseite.
+Weitere Informationen zur Kontaktseite finden Sie unter [Verwalten Ihrer Kontakte in  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md) .
 
-* **Benutzer**
+* **Benutzende**
 
-   Benutzer haben [!DNL Workfront Proof] sich im Konto Ihres Unternehmens anmelden. Wenn Sie [!DNL Workfront Proof] Administrator können Sie einen neuen Benutzer hinzufügen. Siehe [Benutzer erstellen mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) für weitere Informationen.
+  Benutzer haben eine [!DNL Workfront Proof] -Anmeldung im Konto Ihres Unternehmens. Wenn Sie ein [!DNL Workfront Proof] -Administrator sind, können Sie einen neuen Benutzer hinzufügen. Weitere Informationen finden Sie unter [Benutzer mit  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) erstellen .
 
-* **Abonnenten**
+* **Member**
 
-   Mitglieder haben ihre eigenen [!DNL Workfront Proof] sich im Konto einer anderen Organisation anmelden (nicht bei Ihnen). Sie können Mitglieder nicht in Benutzer in Ihrem Konto konvertieren.
+  Mitglieder haben ihre eigenen [!DNL Workfront Proof]-Anmeldedaten im Konto einer anderen Organisation (nicht in Ihrem eigenen). Sie können Mitglieder nicht in Benutzer in Ihrem Konto konvertieren.
 
 * **Gäste**
 
-   Gäste haben keine eigenen [!DNL Workfront Proof] sich im Konto Ihres Unternehmens anmelden, Sie jedoch Ihre Details zu Ihrem Konto hinzugefügt haben (z. B. Gastreviewer bei Testsendungen). Sie können Gäste in Benutzer umwandeln. Weitere Informationen finden Sie unter [Benutzer erstellen mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md).
+  Gäste haben keine eigene [!DNL Workfront Proof] -Anmeldung im Konto Ihres Unternehmens, aber Sie haben ihre Details zu Ihrem Konto hinzugefügt (z. B. Gastreviewer bei Testsendungen). Sie können Gäste in Benutzer umwandeln. Weitere Informationen finden Sie unter [Benutzer mit  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) erstellen.

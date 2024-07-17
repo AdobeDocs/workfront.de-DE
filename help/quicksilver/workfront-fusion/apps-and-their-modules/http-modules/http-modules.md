@@ -4,8 +4,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: Connector
 navigation-topic: apps-and-their-modules
-title: HTTP &gt; andere Module
-description: Die [!DNL Adobe Workfront Fusion] Die HTTP-App bietet verschiedene Kommunikationsmodule, die auf dem HTTP-Protokoll (Hypertext Transfer Protocol) basieren. HTTP ist die Grundlage der Datenkommunikation für das World Wide Web. Sie können die Module verwenden, um Webseiten und Dateien herunterzuladen, Webhooks und API-Endpunkte aufzurufen usw.
+title: HTTP &gt;Andere Module
+description: Die  [!DNL Adobe Workfront Fusion] HTTP-App stellt verschiedene Kommunikationsmodule bereit, die auf dem HTTP-Protokoll (Hypertext Transfer Protocol) basieren. HTTP ist die Grundlage der Datenkommunikation für das World Wide Web. Sie können die Module verwenden, um Webseiten und Dateien herunterzuladen, Webhooks und API-Endpunkte aufzurufen usw.
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Adobe Workfront Fusion] erfordert [!UICONTROL Adobe Workfront Fusion] zusätzlich zu einer [!UICONTROL Adobe Workfront] -Lizenz.
+>Für [!UICONTROL Adobe Workfront Fusion] ist zusätzlich zu einer [!UICONTROL Adobe Workfront] -Lizenz eine [!UICONTROL Adobe Workfront Fusion] -Lizenz erforderlich.
 
-Die [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] app stellt verschiedene Kommunikationsmodule für das HTTP-Protokoll (Hypertext Transfer Protocol) bereit. HTTP ist die Grundlage der Datenkommunikation für das World Wide Web. Sie können die Module verwenden, um Webseiten und Dateien herunterzuladen, Webhooks und API-Endpunkte aufzurufen usw.
+Die App [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] stellt verschiedene Kommunikationsmodule bereit, die auf dem HTTP-Protokoll (Hypertext Transfer Protocol) basieren. HTTP ist die Grundlage der Datenkommunikation für das World Wide Web. Sie können die Module verwenden, um Webseiten und Dateien herunterzuladen, Webhooks und API-Endpunkte aufzurufen usw.
 
 Die richtige Auswahl des Moduls hängt vom Authentifizierungs-/Autorisierungsmechanismus ab, den die Ressource verwendet, auf die Sie zugreifen möchten. Im Folgenden finden Sie Beispiele für Module
 
 * Anfrage:universelles Modul, das hauptsächlich für Ressourcen bestimmt ist, die keine Authentifizierung/Autorisierung durchführen
-* Erstellen einer einfachen Authentifizierungsanfrage:für Ressourcen, die [!DNL HTTP] Grundlegende Authentifizierung (BA)
+* Erstellen einer einfachen Authentifizierungsanfrage:für Ressourcen mit [!DNL HTTP] Standardauthentifizierung (BA)
 * Anfrage für OAuth 2.0: für Ressourcen, die das OAuth 2.0-Autorisierungsprotokoll verwenden
 * Erstellen Sie eine Client-Zertifikatauthentifizierungsanfrage: für Ressourcen, die ein Autorisierungsprotokoll verwenden, für das ein clientseitiges Zertifikat erforderlich ist.
 * Anfrage zur API-Schlüsselautorisierung: für Ressourcen, die API-Schlüssel zur Autorisierung verwenden.
@@ -42,11 +42,11 @@ Die richtige Auswahl des Moduls hängt vom Authentifizierungs-/Autorisierungsmec
 
 Spezifische Anweisungen für Anfragemodule finden Sie in den folgenden Artikeln:
 
-* [[!UICONTROL HTTP] >[!UICONTROL Anfrage stellen] Modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Einfache Genehmigungsanfrage stellen] Modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
-* [[!UICONTROL HTTP] > [!UICONTROL OAuth 2.0-Anfrage stellen] Modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Anforderung einer Client-Zertifikatautorisierung stellen] Modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL API-Schlüsselautorisierungsanfrage stellen]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Stellen eines Anfrage-Moduls]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Erstellen eines einfachen Autorisierungsanfragemoduls]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Erstellen eines OAuth 2.0-Anfrage-Moduls]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Erstellen eines Moduls zur Autorisierung von Clientzertifikaten]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Eine API-Schlüsselautorisierungsanforderung stellen]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
 
 ## Andere Aktionsmodule
 
@@ -78,7 +78,7 @@ Dieses Aktionsmodul löst eine Kette von HTTP-Weiterleitungen auf und gibt eine 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
-   <td> <p>Geben Sie die URL ein oder ordnen Sie sie zu, die Sie auflösen möchten, z. B. eine [!DNL bit.ly] URL.</p> </td> 
+   <td> <p>Geben Sie die URL ein oder ordnen Sie sie zu, die Sie auflösen möchten, z. B. eine [!DNL bit.ly]-URL.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Methode] </td> 
@@ -98,7 +98,7 @@ Dieses Modul gibt jeden Header (Name und Wert) des angegebenen HTTP-Moduls in ei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quellmodul]</td> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
    <td> <p> Wählen Sie das Modul aus, aus dem Sie Kopfzeilen abrufen möchten.</p> </td> 
   </tr> 
  </tbody> 

@@ -36,7 +36,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
    <td> 
-   <p>Aktuell: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p> 
+   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p> 
    <p>Oder</p> 
    <p>Veraltet: Beliebig </p> 
    </td>  
@@ -44,17 +44,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr>  
    <td role="rowheader">Produkt</td>  
    <td> 
-   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
    <p>Oder</p> 
-   <p>Aktuell: Ihr Unternehmen muss Einkäufe tätigen [!DNL Adobe Workfront Fusion].</p> 
+   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Funktionen
 
@@ -81,11 +81,11 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 Verkettet alle Elemente eines Arrays mithilfe des angegebenen Trennzeichens zwischen den einzelnen Elementen in einer Zeichenfolge.
 
-### [!UICONTROL length (Array)]
+### [!UICONTROL length (array)]
 
 Gibt die Anzahl der Elemente in einem Array zurück.
 
-### [!UICONTROL keys (object)]
+### [!UICONTROL keys (Objekt)]
 
 Gibt ein Array der Eigenschaften eines angegebenen Objekts oder Arrays zurück.
 
@@ -101,15 +101,15 @@ Führt ein oder mehrere Arrays in einem Array zusammen.
 
 Überprüft, ob ein Array den Wert enthält.
 
-### [!UICONTROL remove (Array; Wert1; Wert2; ...)]
+### [!UICONTROL remove (array; value1; value2; ...)]
 
 Entfernt die in den Parametern eines Arrays angegebenen Werte. Diese Funktion ist nur bei primitiven Arrays von Text oder Zahlen wirksam.
 
-### [!UICONTROL add (Array; Wert1; Wert2; ...)]
+### [!UICONTROL add (array; value1; value2; ...)]
 
 Fügt in Parametern angegebene Werte zu einem Array hinzu und gibt dieses Array zurück.
 
-### [!UICONTROL map (komplexes Array; Schlüssel)[Filterschlüssel];[mögliche Filterwerte])]
+### [!UICONTROL map (komplexes Array; Schlüssel;[Schlüssel zum Filtern];[mögliche Werte zum Filtern ])]
 
 Gibt ein primitives Array zurück, das die Werte eines komplexen Arrays enthält. Diese Funktion ermöglicht das Filtern von Werten. Verwenden Sie unformatierte Variablennamen für Schlüssel.
 
@@ -125,13 +125,13 @@ Gibt ein primitives Array zurück, das die Werte eines komplexen Arrays enthält
 >
 >  Gibt ein primitives Array mit E-Mails zurück, deren Beschriftung gleich &quot;Arbeit&quot;oder &quot;Zuhause&quot;ist
 
-Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+Weitere Informationen finden Sie unter [Zuordnen von Informationen zwischen Modulen in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
 ### shuffle
 
-### [!UICONTROL sort (Array); [bestellen]; [key])]
+### [!UICONTROL sort (Array; [order]; [key])]
 
-Sortiert Werte eines Arrays. Die gültigen Werte der `order` -Parameter sind:
+Sortiert Werte eines Arrays. Die gültigen Werte des Parameters `order` sind:
 
 * `asc`
 
@@ -149,7 +149,7 @@ Sortiert Werte eines Arrays. Die gültigen Werte der `order` -Parameter sind:
 
   nicht von Schreibweise abhängig absteigende Reihenfolge: ..., C, c, B, b, A, a für den Typ Text.
 
-Verwenden Sie die `key` -Parameter, um auf Eigenschaften in komplexen Objekten zuzugreifen.
+Verwenden Sie den Parameter `key` , um auf Eigenschaften in komplexen Objekten zuzugreifen.
 
 Verwenden Sie unformatierte Variablennamen für Schlüssel.
 
@@ -177,7 +177,7 @@ Das erste Element in einem Array ist Index 1.
 >
 >    Sortiert ein Array von E-Mails nach der Eigenschaft &quot;sender.name&quot;
 
-### [!UICONTROL reverse (Array)]
+### [!UICONTROL reverse (array)]
 
 Das erste Element des Arrays wird zum letzten Element, das zweite zum letzten usw.
 
@@ -185,9 +185,9 @@ Das erste Element des Arrays wird zum letzten Element, das zweite zum letzten us
 
 Erstellt ein neues Array mit allen Unter-Array-Elementen, die bis zur angegebenen Tiefe rekursiv darin verkettet sind.
 
-### [!UICONTROL distinct (Array) [key])]
+### [!UICONTROL distinct (Array; [key])]
 
-Entfernt Duplikate in einem Array. Verwenden Sie die[!UICONTROL key]&quot;-Argument, um auf Eigenschaften in komplexen Objekten zuzugreifen. Verwenden Sie Punktnotation, um auf verschachtelte Eigenschaften zuzugreifen. Das erste Element in einem Array ist Index 1.
+Entfernt Duplikate in einem Array. Verwenden Sie das Argument &quot;[!UICONTROL key]&quot;, um auf Eigenschaften in komplexen Objekten zuzugreifen. Verwenden Sie Punktnotation, um auf verschachtelte Eigenschaften zuzugreifen. Das erste Element in einem Array ist Index 1.
 
 >[!INFO]
 >
@@ -221,13 +221,13 @@ Diese Funktion konvertiert eine Sammlung in ein Array von Schlüssel-Wert-Paaren
 
 Gibt die Differenz zwischen zwei Arrays zurück.
 
-Geben Sie für die `mode` -Parameter.
+Geben Sie einen der folgenden Werte für den Parameter `mode` ein.
 
-* `classic`: Gibt ein neues Array zurück, das alle Elemente von enthält `array1` , die nicht in `array2`.
+* `classic`: Gibt ein neues Array zurück, das alle Elemente von `array1` enthält, die in `array2` nicht vorhanden sind.
 
-* `symmetric`: Gibt ein Array von Elementen zurück, die nicht für beide Arrays gelten.
+* `symmetric`: Gibt ein Array von Elementen zurück, die nicht in beiden Arrays vorkommen.
 
-  Mit anderen Worten, die Funktion gibt ein Array zurück, das alle Elemente von `array1` , die nicht in `array2`und alle Elemente von `array2` , die nicht in `array1`.
+  Mit anderen Worten, die Funktion gibt ein Array zurück, das alle Elemente von `array1` enthält, die nicht in `array2` vorhanden sind, sowie alle Elemente von `array2`, die in `array1` nicht vorhanden sind.
 
   >[!INFO]
   >
@@ -245,15 +245,15 @@ Geben Sie für die `mode` -Parameter.
   >
   >* `arrayDifference [myArray, yourArray, classic]`
   >
-  >    Rückgabe `[1,2]`
+  >    Gibt `[1,2]` zurück
   >
   >* `arrayDifference [yourArray, myArray, classic]`
   >
-  >    Rückgabe `[6,7]`
+  >    Gibt `[6,7]` zurück
   >
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
-  >    Rückgabe `[1,2,6,7]`
+  >    Gibt `[1,2,6,7]` zurück
 
 ### deDuplicate
 

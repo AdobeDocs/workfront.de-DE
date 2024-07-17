@@ -10,7 +10,7 @@ exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Kalender verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Kalender verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Beim Zugriff auf einen für Sie freigegebenen Kalender erhalten Sie die folgende Fehlermeldung: 
 
-*Dieser Kalender hat die Anzeigerechte eines deaktivierten Benutzers. Bitten Sie einen Administrator, die Kalenderprivilegien zu ändern.*
+*Dieser Kalender verfügt über die Anzeigerechte eines deaktivierten Benutzers. Bitte lassen Sie einen Administrator die Kalenderberechtigungen reparieren.*
 
 ## Ursache
 
@@ -62,7 +62,7 @@ Der Benutzer, der diesen Kalender erstellt hat (sein ursprünglicher Eigentümer
 Sie können dies wie folgt beheben:
 
 1. Kopieren Sie den Originalkalender. Wenn Sie einen Kalender kopieren, werden Sie zum Eigentümer des Kalenders. Der kopierte Kalender sollte alle Informationen aus dem Originalkalender enthalten.\
-   Weitere Informationen zum Kopieren eines Kalenders finden Sie unter [Kalenderberichte kopieren](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md).
+   Weitere Informationen zum Kopieren eines Kalenders finden Sie unter [Kopieren eines Kalenderberichts](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md).
 
 1. Geben Sie den kopierten Kalender für dieselben Benutzer wie den ursprünglichen Kalender frei. Alle Benutzer sollten dieselben Informationen im neuen Kalender sehen.
 1. (Optional und bedingt) Wenn Sie berechtigt sind, den ursprünglichen Kalender zu verwalten, entfernen Sie alle anderen Benutzer, für die der Kalender freigegeben ist, aus dem Bereich &quot;Freigabe im Kalender&quot;. Dadurch wird die Verwirrung der Benutzer beseitigt, die versuchen, den falschen Kalender anzuzeigen.

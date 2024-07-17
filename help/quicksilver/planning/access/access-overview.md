@@ -72,22 +72,22 @@ Sie müssen über die folgenden Einstellungen verfügen, um die Adobe Workfront-
 <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
-   <p>Sie können Arbeitsbereiche und Ansichten, die Sie nicht erstellt haben, um sie zu bearbeiten, zu löschen und freizugeben sowie Datensatztypen und -datensätze zu erstellen, zu bearbeiten oder zu löschen, mit oder über höhere Berechtigungen versehen.</p>
+   <p>Contribute oder höhere Berechtigungen für Arbeitsbereiche und Ansichten, die Sie nicht erstellt haben, um sie zu bearbeiten, zu löschen und freizugeben sowie Datensatztypen und -datensätze zu erstellen, zu bearbeiten oder zu löschen.</p>
     <p>Systemadministratoren können nicht erstellte Arbeitsbereiche verwalten. </p>
     <p>Systemadministratoren können keine Ansichten verwalten, die sie nicht erstellt haben. </p>
    <p>Informationen zum Freigeben von Berechtigungen für Workfront Planning-Objekte finden Sie unter  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung</a> 
+   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Überblick über die Freigabe von Berechtigungen in der Adobe Workfront-Planung</a> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Hauptmenü mithilfe einer Layoutvorlage anpassen</a> und <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Benutzer einer Layoutvorlage zuweisen</a>. </p>  
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Anpassen des Hauptmenüs mithilfe einer Layoutvorlage</a> und <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Zuweisen von Benutzern zu einer Layoutvorlage</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Planungsbereich im Hauptmenü für andere freigeben
@@ -96,15 +96,15 @@ Sie müssen über die folgenden Einstellungen verfügen, um die Adobe Workfront-
 
 Nachdem sich Ihr Unternehmen für das Workfront-Planungsprogramm angemeldet hat, können Sie den Planungsbereich mithilfe einer Layoutvorlage zum Hauptmenü aller Benutzer hinzufügen.
 
-1. Anmelden bei **Workfront** als Workfront-Administrator.
+1. Melden Sie sich bei **Workfront** als Workfront-Administrator an.
 
-1. Fügen Sie die **Planung** icon ![](assets/planning-icon.png) der **Hauptmenü** mithilfe einer **Layout-Vorlage**.
+1. Fügen Sie das Symbol **Planung** ![](assets/planning-icon.png) mithilfe einer **Layout-Vorlage** zum **Hauptmenü** hinzu.
 
-   Weitere Informationen finden Sie unter [Hauptmenü mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 1. Weisen Sie die Layoutvorlage den Benutzern zu, die Zugriff auf die Workfront-Planung haben möchten.
 
-   Weitere Informationen finden Sie unter [Benutzer einer Layoutvorlage zuweisen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+   Weitere Informationen finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
    Alle Benutzer, die der Vorlage zugewiesen sind, können jetzt im Hauptmenü auf die Workfront-Planung zugreifen.
 
@@ -126,6 +126,6 @@ Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berech
 
 Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Workfront Planning-Berechtigungen zusammen, um Ihnen Zugriff auf Workfront Planning-Objekte zu gewähren, diese anzuzeigen, einzubringen oder zu verwalten.
 
-Informationen dazu, wie sich Lizenztypen auf die Berechtigungsstufen für Workfront Planning-Objekte auswirken, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md).
+Informationen dazu, wie sich Lizenztypen auf die Berechtigungsstufen für Workfront Planning-Objekte auswirken, finden Sie unter [Übersicht über den Lizenztyp bei der Verwendung von Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 

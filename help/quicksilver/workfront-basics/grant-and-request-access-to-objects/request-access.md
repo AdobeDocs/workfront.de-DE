@@ -19,7 +19,7 @@ Die Sichtbarkeit der Objekte in Adobe Workfront hängt von Ihrem Zugriff auf die
 
 >[!NOTE]
 >
->In diesem Artikel wird beschrieben, wie Sie Berechtigungen für alle Objekte mit Ausnahme von Plänen im Adobe Workfront-Szenario-Planer anfordern können. Informationen zum Anfordern des Zugangs zu Plänen finden Sie unter [Anfordern des Zugriffs auf einen Plan im Szenario-Planer](../../scenario-planner/request-access-to-plan.md). Dies erfordert eine zusätzliche Lizenz.
+>In diesem Artikel wird beschrieben, wie Sie Berechtigungen für alle Objekte mit Ausnahme von Plänen im Adobe Workfront-Szenario-Planer anfordern können. Informationen zum Anfordern des Zugriffs auf Pläne finden Sie unter [Anfordern des Zugriffs auf einen Plan im Szenario-Planer](../../scenario-planner/request-access-to-plan.md). Dies erfordert eine zusätzliche Lizenz.
 
 Ihr Workfront-Administrator konfiguriert Ihren Zugriff auf einen Objekttyp in Ihrer Zugriffsebene. Weitere Informationen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -27,7 +27,7 @@ Wenn Sie Berechtigungen für bestimmte Objekte in Workfront benötigen, können 
 
 Sie können den anfänglichen Zugriff auf Objekte anfordern, wenn jemand eine Verknüpfung mit dem Objekt für Sie freigegeben hat, oder Sie können zusätzlichen Zugriff auf Objekte anfordern, die Sie zumindest anzeigen.
 
-Sie können beispielsweise über Ansichtsberechtigungen für ein Projekt verfügen, müssen diesem Projekt jedoch Aufgaben hinzufügen. In diesem Fall können Sie Beitragsberechtigungen für das Projekt anfordern.
+Sie können beispielsweise über Ansichtsberechtigungen für ein Projekt verfügen, müssen diesem Projekt jedoch Aufgaben hinzufügen. In diesem Fall können Sie Contribute-Berechtigungen für das Projekt anfordern.
 
 ## Zugriffsanforderungen
 
@@ -99,7 +99,7 @@ Die folgenden standardmäßigen Freigaberegeln werden automatisch wirksam, da si
 
 Sie können den anfänglichen Zugriff auf Objekte anfordern, auf die Sie derzeit keinen Zugriff haben, oder Sie können zusätzlichen Zugriff auf Objekte anfordern, auf die Sie nur eingeschränkten Zugriff haben.
 
-* [Erlangen Sie Zugriff](#request-initial-access)
+* [Fordern Sie den anfänglichen Zugriff an](#request-initial-access)
 * [Zusätzlichen Zugriff anfordern](#request-additional-access)
 
 ### Erlangen Sie Zugriff  {#request-initial-access}
@@ -108,16 +108,16 @@ Wenn Sie noch keinen Zugriff auf ein Objekt haben und über einen Link zu diesem
 
 So fordern Sie den anfänglichen Zugriff auf ein Objekt an:
 
-1. Klicks **Zugriff anfordern**.\
-   Die **Zugriff anfordern** angezeigt.
+1. Klicken Sie auf **Zugriff anfordern**.\
+   Das Dialogfeld **Zugriff anfordern** wird angezeigt.
 
 1. (Bedingt) Wenn mehr als ein Benutzer über den entsprechenden Zugriff verfügt, um Ihnen zusätzlichen Zugriff zu gewähren, wird neben dem Namen des Benutzers ein Dropdown-Pfeil angezeigt.
 1. Wählen Sie den Benutzer aus der Dropdown-Liste aus, der Ihre Zugriffsanfrage erhalten soll.\
    In der Dropdown-Liste werden nur zehn Benutzer angezeigt. Die Liste ist alphabetisch sortiert.\
-   Weitere Informationen zur Reihenfolge der in diesem Dropdown-Menü aufgeführten Benutzer finden Sie unter  [Hierarchie der Dropdown-Menüs &quot;Zugriff anfordern&quot;und &quot;Zugriff anfordern&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Weitere Informationen zur Reihenfolge der in diesem Dropdown-Menü aufgeführten Benutzer finden Sie unter [Hierarchie der Dropdown-Menüs &quot;Zugriff anfordern&quot;und &quot;Mehr Zugriff anfordern&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Wählen Sie aus der Dropdown-Liste den gewünschten Zugriffstyp aus.
-1. (Optional) Im **P.S.** geben Sie dem Benutzer einen Hinweis dazu an, warum Sie zusätzlichen Zugriff benötigen.
+1. (Optional) Geben Sie im Feld **P.S.** einen Hinweis für den Benutzer an, warum Sie zusätzlichen Zugriff benötigen.
 
    ![](assets/request-access-dialog-350x314.png)
 
@@ -132,23 +132,23 @@ So fordern Sie zusätzlichen Zugriff auf ein Objekt an, auf das Sie bereits eing
 
 1. Markieren Sie das Objekt, für das Sie zusätzlichen Zugriff anfordern möchten.
 
-1. Klicken Sie auf **Mehr** Menü rechts neben dem Projektnamen und klicken Sie auf **Mehr Zugriff anfordern**.
+1. Klicken Sie auf das Menü **Mehr** rechts neben dem Projektnamen und dann auf **Mehr Zugriff anfordern**.
 
    ![](assets/request-access-in-project-350x201.png)
 
 1. (Bedingt) Wenn mehr als ein Benutzer über den entsprechenden Zugriff verfügt, um Ihnen zusätzlichen Zugriff zu gewähren, wird neben dem Namen des Benutzers ein Dropdown-Pfeil angezeigt.
 1. Wählen Sie den Benutzer aus der Dropdown-Liste aus, der Ihre Zugriffsanfrage erhalten soll.\
    In der Dropdown-Liste werden nur zehn Benutzer angezeigt. Die Liste ist alphabetisch sortiert.\
-   Weitere Informationen zur Reihenfolge der in diesem Dropdown-Menü aufgeführten Benutzer finden Sie unter  [Hierarchie der Dropdown-Menüs &quot;Zugriff anfordern&quot;und &quot;Zugriff anfordern&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Weitere Informationen zur Reihenfolge der in diesem Dropdown-Menü aufgeführten Benutzer finden Sie unter [Hierarchie der Dropdown-Menüs &quot;Zugriff anfordern&quot;und &quot;Mehr Zugriff anfordern&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Wählen Sie aus der Dropdown-Liste die Zugriffsstufe aus, die Sie anfordern.
-1. (Optional) Im **P.S.** geben Sie einen Hinweis dazu an, warum Sie zusätzlichen Zugriff benötigen.
-1. Klicks **Zugriff anfordern**.\
+1. (Optional) Geben Sie im Feld **P.S.** einen Hinweis an, warum Sie zusätzlichen Zugriff benötigen.
+1. Klicken Sie auf **Zugriff anfordern**.\
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hierarchie der Dropdown-Menüs &quot;Zugriff anfordern&quot;und &quot;Zugriff anfordern&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
-* [Machen Sie sich mit der Hierarchie der Benutzer vertraut, die in den Dropdownmenüs Zugriff anfordern und Mehr Zugriff anfordern aufgeführt sind.](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
+* [Machen Sie sich mit der Hierarchie der Benutzer vertraut, die in den Dropdownmenüs Zugriff anfordern und Mehr Zugriff anfordern aufgeführt sind](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
 * [Grundlegendes zum Eigentümer eines Objekts](#understand-the-owner-of-an-object)
 
 ### Machen Sie sich mit der Hierarchie der Benutzer vertraut, die in den Dropdownmenüs Zugriff anfordern und Mehr Zugriff anfordern aufgeführt sind. {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
@@ -159,7 +159,7 @@ Workfront zeigt bis zu 10 Benutzer in den Listen &quot;Zugriff anfordern&quot;un
 
 Die Reihenfolge der Benutzer in den Dropdown-Menüs &quot;Zugriff anfordern&quot;oder &quot;Mehr Zugriff anfordern&quot;wird durch die folgenden Regeln bestimmt:
 
-* Der erste Benutzer in der Liste ist das Objekt &quot;owner&quot;, wie unter [Grundlegendes zum Eigentümer eines Objekts](#understand-the-owner-of-an-object).
+* Der erste Benutzer in der Liste ist das Objekt &quot;owner&quot;, wie unter [Den Eigentümer eines Objekts verstehen](#understand-the-owner-of-an-object) beschrieben.
 * Anschließend wird die Liste mit Benutzern gefüllt, für die das Objekt einzeln freigegeben ist. Sie werden in alphabetischer Reihenfolge aufgelistet.
 * Anschließend wird die Liste mit Benutzern gefüllt, die den erforderlichen Zugriff durch die Freigabe für ihre Teams, Gruppen oder Unternehmen erhalten. Sie werden in alphabetischer Reihenfolge aufgelistet.
 * Wenn die Liste leer ist, werden die Workfront-Administratoren hinzugefügt, sodass immer jemand zum Anfordern des Zugriffs verfügbar ist. Sie werden in alphabetischer Reihenfolge aufgelistet.

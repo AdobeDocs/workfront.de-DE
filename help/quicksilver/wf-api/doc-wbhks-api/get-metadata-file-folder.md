@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '268'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Gibt Metadaten für die angegebene Datei oder den angegebenen Ordner zurück.
 
 **URL**
 
-GET /metadata?id=[Dokument- oder Ordner-ID]
+GET /metadata?id=[document or folder ID]
 
 ## Abfrageparameter
 
@@ -46,7 +46,7 @@ GET /metadata?id=[Dokument- oder Ordner-ID]
 
  
 
-## Antwort
+## Reaktion
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,7 +109,7 @@ GET /metadata?id=[Dokument- oder Ordner-ID]
 </table>
 
 **Beispiel:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title:"My Document",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251 Z"<br>size: "32554694"<br>}</pre>
+<pre>{<br>title:"My Document",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"2014065T 17:39:45.251Z",<br>size: "32554694"<br></pre>
 
 >[!NOTE]
 >

@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 5%
 
 ---
 
@@ -22,11 +22,11 @@ Sie können die folgenden Informationen aus dem ursprünglichen Problem in einer
 * Problem-Eingabedatum konvertiert
 * Name des konvertierten Emittenten
 
-Informationen zum Erstellen einer Ansicht mit dem standardmäßigen ReportBuilder finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Informationen zum Erstellen einer Ansicht mit dem standardmäßigen ReportBuilder finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Weitere Informationen zum Einschließen zusätzlicher Probleminformationen zu Projekten und Aufgabenlisten finden Sie auch unter [Ansicht: Informationen zu Ausgangsthemen für Aufgaben und Projekte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekt- und Aufgabenlisten finden Sie auch unter [Ansicht: Details zu Ausgangsproblemen für Aufgaben und Projekte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

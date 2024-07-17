@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Adobe Workfront mit [!DNL Anaplan] Häufig gestellte Fragen zur Integration
-description: Muss ich [!DNL Adobe Workfront Fusion?]
+title: Häufig gestellte Fragen zur Integration von Adobe Workfront mit [!DNL Anaplan] Fragen
+description: Muss ich  [!DNL Adobe Workfront Fusion?] verwenden?
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bbc24834-8e96-44ce-8098-63765d86ccc2
@@ -15,38 +15,38 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront with Anaplan] Häufig gestellte Fragen zur Integration
 
-* [Muss ich [!DNL Adobe Workfront Fusion?]](#do-i-have-to-use-adobe-workfront-fusion)
-* [Können wir die gleiche Art der Integration mit einem anderen Finanzinstrument als [!DNL Anaplan]?](#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan)
-* [Welche Lizenzstufen können die [!DNL Workfront-Anaplan] Integration?](#what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration)
+* [Muss ich  [!DNL Adobe Workfront Fusion?] verwenden?](#do-i-have-to-use-adobe-workfront-fusion)
+* [Können wir dieselbe Art der Integration mit einem anderen Finanzinstrument als [!DNL Anaplan] durchführen?](#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan)
+* [Welche Lizenzstufen können die [!DNL Workfront-Anaplan] Integration nutzen?](#what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration)
 * [Wird diese Integration Implementierungsdienste erfordern?](#will-this-integration-require-implementation-services)
-* [Muss ich eine bestimmte Art konfigurieren? [!DNL Workfront] damit das funktioniert?](#is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work)
-* [Muss ich eine bestimmte Art konfigurieren? [!DNL Anaplan] damit das funktioniert?](#is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work)
-* [Will [!DNL Workfront professional services] Hilfe bei der Konfiguration der [!DNL Anaplan] Arbeitsbereich?](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
+* [Gibt es eine bestimmte Möglichkeit, [!DNL Workfront] zu konfigurieren, damit dies funktioniert?](#is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work)
+* [Gibt es eine bestimmte Möglichkeit, [!DNL Anaplan] zu konfigurieren, damit dies funktioniert?](#is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work)
+* [Hilft mir [!DNL Workfront professional services] bei der Konfiguration meines [!DNL Anaplan] Arbeitsbereichs?](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
 
-## Muss ich [!DNL Adobe Workfront Fusion?] {#do-i-have-to-use-adobe-workfront-fusion}
+## Muss ich [!DNL Adobe Workfront Fusion?] verwenden? {#do-i-have-to-use-adobe-workfront-fusion}
 
-Nein. Diese Integration kann mit jeder Integration Platform as a Service abgeschlossen werden. Verwenden Sie jedoch [!UICONTROL Workfront Fusion] erhalten Sie Zugriff auf die [!DNL Fusion] Szenario-Vorlagen, die die Grundlage dieser Integration bilden und die Bereitstellung viel schneller als die Erstellung der Integration von Grund auf ermöglichen.
+Nein. Diese Integration kann mit jeder Integration Platform as a Service abgeschlossen werden. Mit der Verwendung von [!UICONTROL Workfront Fusion] erhalten Sie jedoch Zugriff auf die [!DNL Fusion]-Szenario-Vorlagen, die die Grundlage dieser Integration bilden und die Bereitstellung viel schneller als die Neuerstellung der Integration machen.
 
-## Können wir die gleiche Art der Integration mit einem anderen Finanzinstrument als [!DNL Anaplan]? {#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan}
+## Können wir dieselbe Art der Integration mit einem anderen Finanztool als [!DNL Anaplan] durchführen? {#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan}
 
-Natürlich. Als [!DNL Adobe] Premiumpartner, [!DNL Anaplan] ist der Hauptschwerpunkt für künftige Investitionen in die Integration. Kunden, die in [!DNL Anaplan] kann das [!UICONTROL Workfront Fusion] Szenario-Vorlagen, die die Grundlage dieser Integration bilden und sie viel schneller bereitstellen, als die Integration von Grund auf mit einem anderen Finanzsystem zu erstellen.
+Natürlich. Als führender Partner von [!DNL Adobe] ist [!DNL Anaplan] jedoch der Hauptschwerpunkt für zukünftige Integrationsinvestitionen. Kunden, die mit [!DNL Anaplan] integrieren, können die [!UICONTROL Workfront Fusion] -Szenario-Vorlagen nutzen, die die Grundlage für diese Integration bilden und ihre Bereitstellung viel schneller machen, als die Integration von Grund auf mit einem anderen Finanzsystem zu erstellen.
 
-## Welche Lizenzstufen können die [!DNL Workfront-Anaplan] Integration? {#what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration}
+## Welche Lizenzstufen können die [!DNL Workfront-Anaplan] -Integration nutzen? {#what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration}
 
-Alle [!DNL Workfront] -Lizenzversionen haben Zugriff auf diese Integration. Weil es auf [!DNL Workfront Fusion]festgelegt ist, gibt es keine Einschränkungen hinsichtlich der Lizenzbearbeitung, um diese Integration bereitzustellen.
+Alle [!DNL Workfront] -Lizenzausgaben haben Zugriff auf diese Integration. Da es auf [!DNL Workfront Fusion] basiert, gibt es keine Einschränkungen hinsichtlich der Lizenzbearbeitung, um diese Integration bereitzustellen.
 
 ## Wird diese Integration Implementierungsdienste erfordern? {#will-this-integration-require-implementation-services}
 
-Sie werden wahrscheinlich entweder [!DNL Workfront] oder Partnerimplementierungs-/Integrationsdienste. Die in der [!UICONTROL Workfront Fusion] Szenario-Vorlagen wurden so entworfen und dokumentiert, dass die meisten Benutzer mit [!DNL Workfront Fusion] sollte in der Lage sein, die Integration selbst bereitzustellen. Wenn Sie jedoch über diesen Ausgangspunkt hinausgehen möchten, sollten Sie sich mit professionellen Dienstleistungen beschäftigen.
+Sie sollten wahrscheinlich entweder [!DNL Workfront] oder Partnerimplementierungs-/Integrationsdienste nutzen. Die in den Szenario-Vorlagen für [!UICONTROL Workfront Fusion] bereitgestellte grundlegende Integration wurde entwickelt und dokumentiert, sodass die meisten Benutzer, die mit [!DNL Workfront Fusion] vertraut sind, die Integration selbst bereitstellen können. Wenn Sie jedoch über diesen Ausgangspunkt hinausgehen möchten, sollten Sie sich mit professionellen Dienstleistungen beschäftigen.
 
-## Muss ich eine bestimmte Art konfigurieren? [!DNL Workfront] damit das funktioniert? {#is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work}
+## Gibt es eine bestimmte Möglichkeit, [!DNL Workfront] zu konfigurieren, damit dies funktioniert? {#is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work}
 
-Die grundlegende Integration nutzt hauptsächlich native Felder und Funktionen, um [!DNL Workfront]. Beispielsweise enthält die Integration auch einige benutzerdefinierte Daten-Mapping. Bei der Bereitstellung der Integration können Sie auswählen, ob Sie neue Feldzuordnungen entfernen, ersetzen oder hinzufügen möchten, die in der Bereitstellungsdokumentation dokumentiert sind. Die Implementierungsdokumentation enthält spezifische Anweisungen dazu, wie [!DNL Workfront] sollte so konfiguriert werden, dass die Basisintegration wie besehen funktioniert. Da dies jedoch ein [!DNL Fusion]-basierte Integration bietet ultimative Flexibilität bei der Konfiguration [!DNL Workfront].
+Die grundlegende Integration nutzt in erster Linie native Felder und Funktionen für [!DNL Workfront]. Beispielsweise enthält die Integration auch einige benutzerdefinierte Daten-Mapping. Bei der Bereitstellung der Integration können Sie auswählen, ob Sie neue Feldzuordnungen entfernen, ersetzen oder hinzufügen möchten, die in der Bereitstellungsdokumentation dokumentiert sind. Die Bereitstellungsdokumentation enthält spezifische Anweisungen dazu, wie [!DNL Workfront] so konfiguriert werden soll, dass die Basisintegration wie bisher funktioniert. Da es sich jedoch um eine [!DNL Fusion]-basierte Integration handelt, ist die Konfiguration von [!DNL Workfront] äußerst flexibel.
 
-## Muss ich eine bestimmte Art konfigurieren? [!DNL Anaplan] damit das funktioniert? {#is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work}
+## Gibt es eine bestimmte Möglichkeit, [!DNL Anaplan] zu konfigurieren, damit dies funktioniert? {#is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work}
 
-Die Basisintegration nutzt die native [!DNL Anaplan] Objekte und Funktionen, einschließlich Modellen, Modulen, Listen und Ansichten. Die Fusion-Szenario-Vorlagen erwarten, dass bestimmte Felder in bestimmten Modulen, Listen und Ansichten vorhanden sind. Bei der Bereitstellung der Integration können Sie jedoch auswählen, ob Sie neue Feldzuordnungen entfernen, ersetzen oder hinzufügen möchten. Die Implementierungsdokumentation enthält spezifische Anweisungen dazu, wie [!DNL Anaplan] sollte so konfiguriert werden, dass die Basisintegration wie besehen funktioniert. Da dies jedoch ein [!DNL Fusion]-basierte Integration bietet ultimative Flexibilität bei der Konfiguration [!DNL Anaplan].
+Die Basisintegration nutzt native [!DNL Anaplan] -Objekte und -Funktionen, einschließlich Modellen, Modulen, Listen und Ansichten. Die Fusion-Szenario-Vorlagen erwarten, dass bestimmte Felder in bestimmten Modulen, Listen und Ansichten vorhanden sind. Bei der Bereitstellung der Integration können Sie jedoch auswählen, ob Sie neue Feldzuordnungen entfernen, ersetzen oder hinzufügen möchten. Die Bereitstellungsdokumentation enthält spezifische Anweisungen dazu, wie [!DNL Anaplan] so konfiguriert werden soll, dass die Basisintegration wie bisher funktioniert. Da es sich jedoch um eine [!DNL Fusion]-basierte Integration handelt, ist die Konfiguration von [!DNL Anaplan] äußerst flexibel.
 
-## Will [!DNL Workfront professional services] Hilfe bei der Konfiguration der [!DNL Anaplan] Arbeitsbereich? {#will-workfront-professional-services-help-me-configure-my-anaplan-workspace}
+## Hilft mir [!DNL Workfront professional services] bei der Konfiguration meines [!DNL Anaplan] Arbeitsbereichs? {#will-workfront-professional-services-help-me-configure-my-anaplan-workspace}
 
-Nein. [!DNL Workfront] bietet keine Beratung außerhalb des Bereitstellungsdokuments, um die Konfiguration von [!DNL Anaplan]. Wenn Sie beim Ändern von [!DNL Anaplan] Um diese Integration zu unterstützen, sollten Sie sich an eine [!DNL Anaplan] Dienstleister.
+Nein. [!DNL Workfront] bietet keine Beratung außerhalb des Bereitstellungsdokuments, um die Konfiguration von [!DNL Anaplan] zu unterstützen. Wenn Sie Hilfe beim Ändern von [!DNL Anaplan] benötigen, um diese Integration aufzunehmen, sollten Sie sich an einen [!DNL Anaplan] -Dienstleister wenden.

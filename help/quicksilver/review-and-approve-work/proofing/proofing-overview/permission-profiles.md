@@ -11,7 +11,7 @@ exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
 source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 1%
 
 Testberechtigungsprofile bestimmen, welche Gesamtberechtigungen Benutzer für alle Testsendungen in Ihrem Konto haben. Profile für Testberechtigungen werden Benutzern in ihrem Benutzerprofil zugewiesen.
 
-Profile für Testberechtigungen unterscheiden sich von Testversandrollen. Weitere Informationen zu Testversandrollen finden Sie unter [Übersicht über Testrollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Profile für Testberechtigungen unterscheiden sich von Testversandrollen. Weitere Informationen zu Proof-Rollen finden Sie unter [Übersicht über Proof Roles](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
->Wenn Sie Administrator sind, können Sie benutzerdefinierte Profile für Benutzer in Ihrem Unternehmen erstellen. Weitere Informationen finden Sie unter [Benutzerdefinierte Profile in Workfront Testing konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+>Wenn Sie Administrator sind, können Sie benutzerdefinierte Profile für Benutzer in Ihrem Unternehmen erstellen. Weitere Informationen finden Sie unter [Benutzerdefinierte Profile in Workfront Proof konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -60,13 +60,13 @@ In der folgenden Tabelle sind die für jedes Profil mit Testberechtigungen verf�
    </td>
    <td><strong>Hinzufügen</strong>
    </td>
-   <td><strong>Ansicht</strong>
+   <td><strong>Anzeigen</strong>
    </td>
    <td><strong>Bearbeiten</strong>
    </td>
    <td><strong>Löschen</strong>
    </td>
-   <td><strong>Ansicht</strong>
+   <td><strong>Anzeigen</strong>
    </td>
    <td><strong>Bearbeiten</strong>
    </td>
@@ -139,7 +139,7 @@ In der folgenden Tabelle sind die für jedes Profil mit Testberechtigungen verf�
 
 ### Administrator
 
-Administratoren haben Zugriff auf [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) und über die folgenden Berechtigungen verfügen:
+Administratoren haben Zugriff auf [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) und die folgenden Berechtigungen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ Administratoren haben Zugriff auf [Kontoeinstellungen](https://support.workfront
  </tbody> 
 </table>
 
-&#42;Nur im eigenständigen Workfront-Proof-Produkt verfügbar.
+&#42;Nur im eigenständigen Workfront Proof-Produkt verfügbar.
 
 ### Supervisor
 

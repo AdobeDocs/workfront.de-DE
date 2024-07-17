@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 23.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Eine Liste aller Änderungen, die derzeit im 23.2-Versionszyklus verfügbar sind, finden Sie unter [23.2 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Neues Erlebnis beim Massenbearbeitung von Projekten
 
@@ -41,17 +41,17 @@ Neben einem aktualisierten Erscheinungsbild der Benutzeroberfläche sind im Feld
 
 Weitere Informationen finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3416587/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Erweiterte Filterfunktionen, die in Adobe Workfront allgemein verfügbar sind
 
-Im August 2022 wurde in der öffentlichen Beta-Version ein Upgrade der Filtererfahrung für Projekt-, Aufgaben- und Problemlisten veröffentlicht. Die meisten Listen bieten nun die erweiterten Filter. (Um alle diese Listen zu überprüfen, lesen Sie den Abschnitt [Versionshinweise zu 23.1 Look-and-Feel-Updates](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md). Das erweiterte Filtererlebnis ist allgemein verfügbar und wird ab dem 2. März 2023 in der Vorschau zum standardmäßigen Filtergenerator. Eine schrittweise Einführung in die Produktion wird ebenfalls am 2. März beginnen, wobei die Verfügbarkeit für alle Kunden in der Version 23.2 verfügbar sein wird.
+Im August 2022 wurde in der öffentlichen Beta-Version ein Upgrade der Filtererfahrung für Projekt-, Aufgaben- und Problemlisten veröffentlicht. Die meisten Listen bieten nun die erweiterten Filter. (Informationen zum Überprüfen aller dieser Listen finden Sie in der Versionshinweise [23.1 Look-and-Feel-Updates](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md) .) Das erweiterte Filtererlebnis ist allgemein verfügbar und wird ab dem 2. März 2023 in der Vorschau zum standardmäßigen Filtergenerator. Eine schrittweise Einführung in die Produktion wird ebenfalls am 2. März beginnen, wobei die Verfügbarkeit für alle Kunden in der Version 23.2 verfügbar sein wird.
 
 Sie können weiterhin auf die veralteten Filter in Listen zugreifen, indem Sie sie im Filterbereich aktivieren. Alte Filter werden in Zukunft nicht mehr von Listen unterstützt, sie bleiben jedoch in Berichten verfügbar, da der standardmäßige Filter-Builder in Berichten nicht verfügbar ist.
 
-Weitere Informationen zu den erweiterten Filtern und eine Videodemonstration finden Sie in der [Filtert die öffentliche Beta-Version](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Weitere Informationen zu den erweiterten Filtern und eine Videodemonstration finden Sie in der Versionshinweise [Filter zur öffentlichen Beta-Version](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md) .
 
-Weitere Informationen finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Kopieren von geplanten Stunden beim Kopieren eines Projekts
 
@@ -61,6 +61,6 @@ Weitere Informationen finden Sie unter [Filter in Adobe Workfront erstellen oder
 
 Jetzt haben Sie die Möglichkeit, die im Ressourcenbudgeting-Bereich des Business Case oder im Resource Planer geplanten Stunden zu kopieren, wenn Sie ein Projekt kopieren. Vor dieser Verbesserung wurden die für das Projekt vorgesehenen Stunden nicht in das kopierte Projekt übertragen.
 
-Weitere Informationen finden Sie unter [Projekt kopieren](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
+Weitere Informationen finden Sie unter [Kopieren eines Projekts](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3415713/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3415713/){target=_blank}

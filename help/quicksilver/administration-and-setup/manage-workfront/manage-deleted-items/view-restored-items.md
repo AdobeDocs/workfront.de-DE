@@ -9,8 +9,8 @@ role: Admin
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
 source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -43,17 +43,17 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan oder welchen Lizenztyp Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Anzeigen von kürzlich gelöschten Elementen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Erweitern **Papierkorb** Klicken Sie auf **Kürzlich wiederhergestellt**.
+1. Erweitern Sie **Papierkorb wiederverwenden** und klicken Sie dann auf **Kürzlich wiederhergestellt**.
 
    Elemente werden standardmäßig nach dem Wiederherstellungsdatum sortiert.
 
-1. Klicken Sie auf **Projekte**, **Aufgaben**, **Probleme** oder **Dokumente** Registerkarte, abhängig vom Typ des wiederhergestellten Elements.
+1. Klicken Sie je nach wiederhergestelltem Elementtyp auf die Registerkarte **Projekte**, **Aufgaben**, **Probleme** oder **Dokumente**.
 
 1. Klicken Sie auf den verknüpften Namen des Elements, das Sie anzeigen möchten.
 

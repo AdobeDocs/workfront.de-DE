@@ -5,7 +5,8 @@ title: Erstellen eines KPI-Berichts in einem Leinwand-Dashboard
 description: Ein KPI-Bericht, der deutlich einen einzelnen aggregierten KPI anzeigt, kann einem Canvas-Dashboard hinzugefügt werden.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Ein KPI-Bericht, der deutlich einen einzelnen aggregierten KPI anzeigt, kann einem Canvas-Dashboard hinzugefügt werden.
 
-Allgemeine Informationen zum Hinzufügen und Anordnen von Berichten in einem Leinwand-Dashboard finden Sie unter [Hinzufügen, Entfernen oder Anordnen von Berichten in einem Leinwand-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Allgemeine Informationen zum Hinzufügen und Anordnen von Berichten in einem Canvas-Dashboard finden Sie unter [Hinzufügen, Entfernen und Anordnen von Berichten in einem Canvas-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
 
 ## Zugriffsanforderungen
 
@@ -43,10 +44,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Erstellen eines KPI-Berichts in einem Leinwand-Dashboard
 
 >[!IMPORTANT]
 >
->Dieser Artikel ist noch nicht fertig. Weitere Informationen finden Sie in den allgemeinen Anweisungen zum Hinzufügen eines Berichts zu einem Dashboard auf der Arbeitsfläche . [Hinzufügen, Entfernen oder Anordnen von Berichten in einem Leinwand-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>Dieser Artikel ist noch nicht fertig. Lesen Sie die allgemeinen Anweisungen zum Hinzufügen eines Berichts zu einem Canvas-Dashboard im Artikel [Hinzufügen, Entfernen und Anordnen von Berichten in einem Canvas-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).

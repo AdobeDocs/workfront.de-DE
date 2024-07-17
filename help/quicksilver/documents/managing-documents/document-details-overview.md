@@ -20,9 +20,9 @@ Auf der Seite &quot;Dokumentdetails&quot;können Sie die Eigenschaften eines Dok
 
 ## Öffnen Sie die Seite &quot;Dokumentdetails&quot;
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Dokumente**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Dokumente**.![](assets/main-menu-icon.png)
 
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Dokumentdetails**.
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf **Dokumentdetails**.
 
    ![](assets/document-details-350x179.png)
 
@@ -37,12 +37,12 @@ Auf der Seite &quot;Dokumentdetails&quot;können Sie die folgenden Aktionen für
 * Dokumentbeschreibung bearbeiten
 * Ein- oder Auschecken eines Dokuments
 
-Darüber hinaus können Sie das Symbol Mehr verwenden ![](assets/more-icon.png) neben dem Dokumentnamen, um die folgenden Aktionen auszuführen:
+Darüber hinaus können Sie die folgenden Aktionen mit dem Mehr-Symbol ![](assets/more-icon.png) neben dem Dokumentnamen durchführen:
 
 * Freigeben
 * Verschieben
 * Löschen
-* Herunterladen
+* Download
 * Senden
 
 ## Durchführen von Aktionen speziell für Testsendungen
@@ -55,4 +55,4 @@ Sie können auf der Seite mit den Dokumentdetails die folgenden Aktionen ausfüh
 * Testversand sperren oder entsperren
 * Bearbeiten von benutzerdefinierten Testfeldern
 
-   Testen von benutzerdefinierten Feldern muss in Workfront Testversand eingerichtet werden. Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Felder im Workfront-Testversand](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
+  Testen von benutzerdefinierten Feldern muss in Workfront Proof eingerichtet werden. Weitere Informationen finden Sie unter [Benutzerdefinierte Felder in Workfront Proof erstellen und verwalten](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).

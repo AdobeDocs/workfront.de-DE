@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Hochladen von Dokumenten aus [!DNL InDesign]
+# Hochladen von Dokumenten von [!DNL InDesign]
 
-Sie können Ihre Projekte als Dokumente hochladen, um sie schnell zu überprüfen und zu genehmigen oder einfach in [!DNL Adobe Workfront].
+Sie können Ihre Projekte als Dokumente hochladen, um sie schnell zu überprüfen und zu genehmigen oder einfach in [!DNL Adobe Workfront] zu speichern.
 
 ## Zugriffsanforderungen
 
@@ -35,41 +35,41 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> -->
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] -Lizenz über eine [!DNL Adobe Creative Cloud] -Lizenz verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf [!UICONTROL Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zeigen Sie den Zugriff auf das Objekt, in das Sie ein Dokument hochladen möchten, oder höher an.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zeigen Sie den Zugriff auf das Objekt, in das Sie ein Dokument hochladen möchten, oder höher an.</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
-* Sie müssen die [!DNL Adobe Workfront for design and video] -Plug-in, bevor Sie Dokumente von [!DNL InDesign].
+* Sie müssen das Plug-in [!DNL Adobe Workfront for design and video] installieren, bevor Sie Dokumente von [!DNL InDesign] hochladen können.
 
-   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Hochladen von Dokumenten in [!DNL InDesign]
 
-1. Klicken Sie auf **[!UICONTROL Menü]** Symbol oben rechts und wählen Sie **[!UICONTROL Arbeitsliste]**. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Wechseln Sie zum Arbeitselement, in das Sie ein Dokument hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Dokument]** icon ![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
 
-1. Klicken **[!UICONTROL Neue Datei]** im unteren Bereich des Plug-ins.
-1. (Optional) Geben Sie einen Kommentar in das Feld **[!UICONTROL Updates]** Bereich.
-1. Wählen Sie die **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü.
-1. Öffnen Sie die **[!UICONTROL Festlegen der Exportdateieinstellungen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Datei]** .
+1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
+1. Wählen Sie den **[!UICONTROL Asset-Typ]** aus dem Dropdownmenü aus.
+1. Öffnen Sie das Dialogfeld **[!UICONTROL Einstellungen für Exportdatei festlegen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
 
    ![](assets/file-export-settings.png)
-1. Klicken **[!UICONTROL Hochladen]**.
-Das Dokument wird im [!UICONTROL Dokumente] -Bereich im Plug-in und im Desktop-Programm.
+1. Klicken Sie auf **[!UICONTROL Hochladen]**.
+Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.

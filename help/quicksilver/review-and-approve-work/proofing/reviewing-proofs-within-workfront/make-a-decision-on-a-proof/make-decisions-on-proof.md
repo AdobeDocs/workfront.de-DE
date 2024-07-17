@@ -27,11 +27,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Select oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -43,21 +43,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Entscheidungsfindung über einen Testversand im Testversand-Viewer
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
-1. Suchen Sie den gewünschten Testversand und klicken Sie auf **Offener Testversand**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
+1. Suchen Sie den gewünschten Testversand und klicken Sie dann auf **Testversand öffnen**.
 
-1. Klicken **Entscheidung treffen** in der oberen Mitte des Testversand-Viewers.
+1. Klicken Sie in der oberen Mitte des Testversand-Viewers auf **Entscheidung treffen** .
 
-1. Im **Beweisentscheidung** auswählen, klicken Sie auf eine der folgenden Entscheidungen:
+1. Klicken Sie im angezeigten Feld **Testversand-Entscheidung** auf eine der folgenden Entscheidungen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,14 +81,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Benutzerdefinierte Entscheidung</td> 
-      <td> <p>Bei der Auswahl und Premium-Plänen kann der Workfront-Administrator oder der Workfront-Testversandadministrator Entscheidungen umbenennen, neu anordnen und ausblenden. Weitere Informationen finden Sie unter <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Entscheidungsoptionen für Genehmigungen konfigurieren - Workfront Testversand</a>.</p> </td> 
+      <td> <p>Bei Auswahl- und Premium-Plänen kann der Workfront-Administrator oder Workfront Proof-Administrator Entscheidungen umbenennen, neu anordnen und ausblenden. Weitere Informationen finden Sie unter <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Optionen für Genehmigungsentscheidungen in Workfront Proof konfigurieren</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Bedingt) Wenn der Adobe Workfront-Administrator oder der Workfront-Testversand-Administrator den Abschnitt Gründe hinzugefügt hat, wählen Sie die Gründe für Ihre Entscheidung aus. Weitere Informationen dazu, wie Administratoren Entscheidungsgründe konfigurieren können, finden Sie unter  [Entscheidungsoptionen für Genehmigungen konfigurieren - Workfront Testversand](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
-1. (Optional) Wählen Sie **Senden Sie mir eine E-Mail-Bestätigung** um eine Bestätigung Ihrer Entscheidung per E-Mail zu erhalten.
-1. Klicken **Entscheidung treffen**.
+1. (Bedingt) Wenn der Adobe Workfront-Administrator oder Workfront Proof-Administrator den Abschnitt Gründe hinzugefügt hat, wählen Sie die Gründe für Ihre Entscheidung aus. Weitere Informationen dazu, wie Administratoren Entscheidungsgründe konfigurieren können, finden Sie unter  [Konfigurieren Sie die Optionen für Genehmigungsentscheidungen in Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+1. (Optional) Wählen Sie **E-Mail-Bestätigung senden** aus, um eine E-Mail-Bestätigung Ihrer Entscheidung zu erhalten.
+1. Klicken Sie auf **Entscheidungsfindung vornehmen**.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a decision when the proof is configured with an approval process</h2>

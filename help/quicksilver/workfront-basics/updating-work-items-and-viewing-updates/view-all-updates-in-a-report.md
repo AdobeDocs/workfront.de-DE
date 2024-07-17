@@ -23,7 +23,7 @@ Im Bereich Updates eines Objekts wird standardmäßig maximal 200 Updates angeze
 
 >[!NOTE]
 >
->Sie können einen Bericht erstellen, um mithilfe des Journaleintragsberichts Aktualisierungen zu Objekten in der Vorschau anzuzeigen. Weitere Informationen finden Sie unter [Bericht zum Bereich &quot;Updates&quot;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>Sie können einen Bericht erstellen, um mithilfe des Journaleintragsberichts Aktualisierungen zu Objekten in der Vorschau anzuzeigen. Weitere Informationen finden Sie unter [Bericht über den Aktualisierungsbereich](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Zugriffsanforderungen
 
@@ -68,26 +68,26 @@ Das Erstellen eines Berichts für Anmerkungen für Objekte ist unabhängig vom O
 
 So erstellen Sie beispielsweise einen Notiz -Bericht für alle Notizen in einem Projekt:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
 
-1. Klicks **Berichte**.
-1. Klicks **Neuer Bericht**, wählen Sie **Hinweis**.
+1. Klicken Sie auf **Berichte**.
+1. Klicken Sie auf **Neuer Bericht** und wählen Sie dann **Hinweis** aus.
 
-1. (Optional) Klicken Sie auf **Ansichten**, dann **Spalte hinzufügen** , um **Name** des **Projekt** in der Ansicht des Berichts. 
+1. (Optional) Klicken Sie auf **Ansichten** und dann auf **Spalte hinzufügen** , um den **Namen** des **Projekts** in der Ansicht des Berichts hinzuzufügen. 
 
-1. (Optional) Klicken Sie auf **Gruppierungen**, dann **Gruppierung hinzufügen** um **Projektname**, wenn Sie über mehrere Projekte gleichzeitig berichten.\
+1. (Optional) Klicken Sie auf **Gruppierungen** und dann auf **Gruppierung hinzufügen** , um sie nach dem **Projektnamen** zu gruppieren, wenn Sie gleichzeitig über mehrere Projekte berichten.\
    Dadurch wird sichergestellt, dass die Notizen nach ihren jeweiligen Projekten gruppiert werden, was das Lesen des Berichts erleichtert. 
 
-1. (Optional) Klicken Sie auf **Filter,** then **Filterregel hinzufügen**.
-1. Filter hinzufügen für **Hinweis** > **Hinweis: Text** > **Ist nicht leer**.
+1. (Optional) Klicken Sie auf **Filter,** und dann auf **Filterregel hinzufügen**.
+1. Fügen Sie einen Filter für **Hinweis** > **Hinweis-Text** > **ist nicht leer** hinzu.
 
    ![](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >
-   >   Wenn ein Projektfeld aktualisiert wurde, zum Zeitpunkt der Aktualisierung jedoch keine Notiz hinzugefügt wurde, wird die **Hinweis: Text** der Aktualisierung wird als **(Kein zu aktualisierender Text hinzugefügt)**.
+   >   Wenn ein Projektfeld aktualisiert wurde, zum Zeitpunkt der Aktualisierung jedoch keine Notiz hinzugefügt wurde, wird der **Hinweis-Text** der Aktualisierung als **(Kein zu aktualisierender Text)** angezeigt.
 
 
-1. (Optional) Fügen Sie einen weiteren Filter für **Projekt** > **Name** > **Entspricht** und fügen Sie einen oder mehrere Projektnamen hinzu, für die Sie Notizen anzeigen möchten.
+1. (Optional) Fügen Sie einen weiteren Filter für **Projekt** > **Name** > **Entspricht** hinzu und fügen Sie einen oder mehrere Projektnamen hinzu, für die Sie Notizen anzeigen möchten.
 1. Klicken Sie auf **Speichern + schließen**.\
    Alle Aktualisierungen, die im Projekt von allen Benutzern mit der Berechtigung zum Anzeigen des Projekts eingegeben wurden, werden im Bericht angezeigt.

@@ -20,7 +20,7 @@ Als Workfront-Administrator können Sie Erinnerungsbenachrichtigungen für Benut
 
 Erinnerungsbenachrichtigungen generieren E-Mails, die an Benutzer basierend auf bestimmten Kriterien gesendet werden. Erinnerungsbenachrichtigungen erinnern Benutzer an eine Aktion, die für eine Aufgabe, ein Problem, ein Projekt oder ein Timesheet erforderlich ist.
 
-Nachdem Sie die Erinnerungsbenachrichtigungen erstellt haben, können Benutzer sie manuell mit Arbeitselementen wie Projekten, Aufgaben, Problemen und Timesheets verknüpfen. Weitere Informationen finden Sie unter [Erinnerungsbenachrichtigung an ein Objekt anhängen](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
+Nachdem Sie die Erinnerungsbenachrichtigungen erstellt haben, können Benutzer sie manuell mit Arbeitselementen wie Projekten, Aufgaben, Problemen und Timesheets verknüpfen. Weitere Informationen finden Sie unter [Benachrichtigung zur Erinnerung an ein Objekt anhängen](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,17 +77,17 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
 
 {{step-1-to-setup}}
 
-1. Klicks **Email** > **Benachrichtigungen** > **Erinnerungsbenachrichtigungen**.
+1. Klicken Sie auf **E-Mail** > **Benachrichtigungen** > **Erinnerungsbenachrichtigungen**.
 
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
-1. Klicks **Neue Erinnerungsbenachrichtigung**.
+1. Klicken Sie auf **Neue Erinnerungsbenachrichtigung**.
 
 1. Klicken Sie in der Dropdown-Liste auf den Objekttyp, den Sie mit der Erinnerungsbenachrichtigung verbinden möchten.
 
-   Wenn Sie beispielsweise eine Erinnerungsbenachrichtigung an ein Zeitblatt anhängen möchten, klicken Sie auf **Datenblatt**.
+   Wenn Sie beispielsweise eine Erinnerungsbenachrichtigung an ein Zeitblatt anhängen möchten, klicken Sie auf **Zeitblatt**.
 
-1. Im **Neue Erinnerungsbenachrichtigung** die folgenden Informationen angeben.
+1. Geben Sie im angezeigten Feld **Neue Erinnerungsbenachrichtigung** die folgenden Informationen an.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -99,7 +99,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
      </tr> 
      <tr> 
       <td role="rowheader">Wartezeit</td> 
-      <td> <p>Geben Sie die Anzahl der Stunden, Arbeitstage, Tage (Kalendertage), Wochen oder Monate vor oder nach dem Datum in der <strong>Zeit</strong> -Feld.</p> <p><b>NOTE</b>:  
+      <td> <p>Geben Sie im Feld <strong>Timing</strong> die Anzahl der Stunden, Arbeitstage, Tage (Kalendertage), Wochen oder Monate vor oder nach dem Datum an.</p> <p><b>NOTE</b>:  
         <ul> 
          <li> <p>Erinnerungsbenachrichtigungen beginnen 24 Stunden nach dem angegebenen Datum und sobald alle Kriterien erfüllt sind.</p> </li> 
          <li> <p>Erinnerungsbenachrichtigungen für Projekte, Aufgaben und Ausgaben jeden Abend um Mitternacht, US Mountain Time, Trigger. Alle Objekte, die ab diesem Trigger für eine Erinnerungsbenachrichtigung qualifiziert sind, erhalten eine Benachrichtigung an die vorgesehenen Benutzer kurz danach.</p> </li> 
@@ -122,13 +122,13 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
       <td role="rowheader">Kriterien</td> 
       <td> <p>Wählen Sie die Kriterien aus, um die Erinnerungsbenachrichtigung für die Planung zu qualifizieren. Erinnerungsbenachrichtigungen werden nur geplant, wenn die Kriterienauswahl erfüllt ist.</p> <p>Je nach dem in Schritt 4 ausgewählten Objekttyp stehen die folgenden Kriterienoptionen zur Verfügung:</p> 
        <ul> 
-        <li><strong>In aktuellen Projekten unvollständig:</strong> <i>(Verfügbar für Aufgaben- und Problemerinnerungen)</i> Die Erinnerungsbenachrichtigung wird nur dann gesendet, wenn der Objektstatus, mit dem die Erinnerungsbenachrichtigung verknüpft ist, nicht abgeschlossen ist und der Projektstatus "Aktuell" lautet.</li> 
-        <li><strong>Alle in aktuellen Projekten:</strong> <i>(Verfügbar für Aufgaben- und Problemerinnerungen)</i> Die Erinnerungsbenachrichtigung soll unabhängig vom Objektstatus und nur dann gesendet werden, wenn der Projektstatus, mit dem die Erinnerungsbenachrichtigung verknüpft ist, aktuell ist.</li> 
-        <li><strong>Unvollständige Projekte:</strong> <i>(Verfügbar für Erinnerungen an Projekte)</i> Die Erinnerungsbenachrichtigung soll gesendet werden, wenn der Projektstatus etwas Anderes als "Abgeschlossen"ist.</li> 
-        <li><strong>Alle Projekte:</strong> <i>(Verfügbar für Erinnerungen an Projekte)</i> Die Erinnerungsbenachrichtigung soll unabhängig vom Projektstatus gesendet werden.</li> 
-        <li><strong>Öffnen Sie Timesheets:</strong> <i>(Verfügbar für Zeitblatt-Erinnerungen)</i> Die Erinnerungsbenachrichtigung wird geplant, wenn der Status des Zeitblatts "Open"lautet.</li> 
-        <li><strong>Gesendete Timesheets:</strong> <i>(Verfügbar für Zeitblatt-Erinnerungen)</i> Die Erinnerungsbenachrichtigung wird geplant, wenn der Status des Zeitblatts übermittelt wird.</li> 
-        <li><strong>Öffnen Sie das Datenblatt oder unter 40 Stunden pro Woche:</strong> <i>(Verfügbar für Zeitblatt-Erinnerungen)</i> Die Erinnerungsbenachrichtigung wird terminiert, wenn der Status des Timesheets "Open"lautet oder wenn das Timesheet weniger als 40 Stunden protokolliert wurde.</li> 
+        <li><strong>Unvollständig in aktuellen Projekten:</strong> <i>(Verfügbar für Aufgaben- und Problemerinnerungen)</i> Die Erinnerungsbenachrichtigung soll nur gesendet werden, wenn der Objektstatus, mit dem die Erinnerungsbenachrichtigung verknüpft ist, nicht abgeschlossen ist und der Projektstatus "Aktuell" ist.</li> 
+        <li><strong>Alle in aktuellen Projekten:</strong> <i>(Verfügbar für Aufgaben- und Problemerinnerungen)</i> Die Erinnerungsbenachrichtigung wird unabhängig vom Objektstatus und nur dann gesendet, wenn der Projektstatus, mit dem die Erinnerungsbenachrichtigung verknüpft ist, aktuell ist.</li> 
+        <li><strong>Unvollständige Projekte:</strong> <i>(Verfügbar für Projekterinnerungen)</i> Die Erinnerungsbenachrichtigung soll gesendet werden, wenn der Projektstatus etwas Anderes als "Abgeschlossen"ist.</li> 
+        <li><strong>Alle Projekte:</strong> <i>(Verfügbar für Projekterinnerungen)</i> Die Erinnerungsbenachrichtigung soll unabhängig vom Projektstatus gesendet werden.</li> 
+        <li><strong>Timesheets öffnen:</strong> <i>(Verfügbar für Zeitblatt-Erinnerungen)</i> Die Erinnerungsbenachrichtigung wird geplant, wenn der Zeitdatenblatt-Status "Open"lautet.</li> 
+        <li><strong>Gesendete Timesheets:</strong> <i>(Verfügbar für Zeitblatt-Erinnerungen)</i> Die Erinnerungsbenachrichtigung soll gesendet werden, wenn der Timesheet-Status übermittelt wird.</li> 
+        <li><strong>Timesheet öffnen oder Weniger als 40 Stunden pro Woche:</strong> <i>(Verfügbar für Timesheet-Erinnerungen)</i> Die Erinnerungsbenachrichtigung soll gesendet werden, wenn der Timesheet-Status offen ist oder das Timesheet weniger als 40 Stunden protokolliert hat.</li> 
         <li><strong>E-Mail-Vorlage:</strong> Wählen Sie aus der Dropdown-Liste eine E-Mail-Vorlage aus, die an Ihre Erinnerung angehängt werden soll.<br>Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">E-Mail-Vorlagen konfigurieren</a>.</li> 
        </ul> </td> 
      </tr> 
@@ -151,13 +151,13 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [E-Mail-Vorlag
    </table>
 
 1. Klicken Sie auf **Speichern**.
-1. Hängen Sie die Erinnerungsbenachrichtigung an ein Arbeitselement an, wie unter [Erinnerungsbenachrichtigung an ein Objekt anhängen](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
+1. Hängen Sie die Erinnerungsbenachrichtigung an ein Arbeitselement an, wie unter [Erinnerungsbenachrichtigung an ein Objekt anhängen](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md) beschrieben.
 
 ## Benachrichtigung zur Erinnerung empfangen
 
 Wenn die Bedingung für das Element erfüllt ist, an das die Erinnerungsbenachrichtigung angehängt ist, wird eine E-Mail-Benachrichtigung an den in der Erinnerungsbenachrichtigung definierten Benutzer ausgelöst.
 
-Weitere Informationen zum Empfang von Erinnerungsbenachrichtigungen finden Sie im Abschnitt [Erinnerungsbenachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) Abschnitt in [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen zum Empfang von Erinnerungsbenachrichtigungen finden Sie im Abschnitt [Erinnerungsbenachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) in den [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Benachrichtigungsversand von Test-Erinnerungen
 
@@ -170,9 +170,9 @@ So führen Sie eine Erinnerungsbenachrichtigung manuell zum Trigger durch:
 
 {{step-1-to-setup}}
 
-1. Klicks **System** > **Diagnose** in der linken unteren Ecke von Workfront.
+1. Klicken Sie links unten in Workfront auf **System** > **Diagnostics** .
 
-1. Klicks **Erinnerungsbenachrichtigungen senden** und warten Sie auf die Bestätigung oben auf dem Bildschirm, dass sie gesendet wurden.
+1. Klicken Sie auf **Erinnerungsbenachrichtigungen senden** und warten Sie oben auf dem Bildschirm auf die Bestätigung, dass sie gesendet wurden.
 
    Die in der Erinnerungsbenachrichtigung angegebenen Benutzer erhalten eine E-Mail.
 

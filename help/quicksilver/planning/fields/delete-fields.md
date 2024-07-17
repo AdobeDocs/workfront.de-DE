@@ -42,7 +42,7 @@ Sie können nicht mehr relevante Workfront-Planungsfelder löschen.
 * Alle im Feld gespeicherten Informationen werden gelöscht und können nicht abgerufen werden.
 * Wenn Sie ein verknüpftes Datensatzfeld löschen, werden auch alle verknüpften Suchfelder aus dem Datensatztyp gelöscht, aus dem Sie eine Verknüpfung herstellen. Die verknüpften Datensatzfelder der Datensatztypen, mit denen Sie eine Verknüpfung herstellen, werden nicht gelöscht.
 
-  Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
@@ -119,7 +119,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf die Karte eines Datensatztyps.
 
-1. (Bedingt) Wenn diese Option noch nicht ausgewählt ist, klicken Sie auf die Registerkarte **Tabellenansicht** auf der Seite des Datensatztyps.
+1. (Bedingt) Klicken Sie, falls noch nicht ausgewählt, auf die Registerkarte einer **Tabellenansicht** auf der Seite vom Typ &quot;Datensatz&quot;.
 
    Alle vorhandenen Datensätze, die mit dem Datensatztyp verknüpft sind, werden in den Zeilen der Tabellenansicht angezeigt.
 
@@ -127,10 +127,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Klicks **Löschen**. <!-- check this: they might replace it with **Delete field**-->
+1. Klicken Sie auf **Löschen**. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
 
-1. Klicks **Löschen** zur Bestätigung.
+1. Klicken Sie zur Bestätigung auf **Löschen** .
 
    Das Feld wird gelöscht, kann nicht wiederhergestellt werden und kann keinem Datensatz mehr zugeordnet werden.

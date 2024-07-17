@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Kopieren und Freigeben eines Links zu einem Dokumentordner
 
-Sie können einen direkten Link für jeden Dokumentordner kopieren, der in einem der folgenden Ordner enthalten ist [!DNL Workfront] Objekte: [!UICONTROL Programm], [!UICONTROL Portfolio], [!UICONTROL Projekt], [!UICONTROL Aufgabe]oder [!UICONTROL Problem]. Sie können einen Link für keine Ordner kopieren, die in der [!UICONTROL Dokumente] -Bereich über das Hauptmenü aus, da diese Ordner direkt mit Ihrem Benutzerprofil verknüpft sind und nicht für andere freigegeben werden können.
+Sie können einen direkten Link für jeden Dokumentordner kopieren, der in einem der folgenden [!DNL Workfront]-Objekte enthalten ist: [!UICONTROL Programm], [!UICONTROL Portfolio], [!UICONTROL Projekt], [!UICONTROL Aufgabe] oder [!UICONTROL Problem]. Sie können einen Link für keine Ordner im Bereich [!UICONTROL Dokumente] aus dem Hauptmenü kopieren, da diese Ordner direkt mit Ihrem Benutzerprofil verknüpft sind und nicht für andere freigegeben werden können.
 
 ## Zugriffsanforderungen
 
@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -47,6 +47,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 So kopieren Sie einen Link in einen Dokumentordner:
 
-1. Navigieren Sie zum [!DNL Workfront] -Objekt, das den Dokumentordner enthält.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü und wählen Sie **[!UICONTROL URL kopieren]**. Sie können diesen Link freigeben, um einen schnellen Zugriff auf den Ordner zu ermöglichen. Benutzer müssen mindestens über Zugriff auf Ansicht auf das Objekt verfügen, um den Ordner anzeigen zu können.
-   ![document folder url kopieren](assets/copy-doc-folder-url.png)
+1. Navigieren Sie zum Objekt &quot;[!DNL Workfront]&quot;, das den Dokumentordner enthält.
+1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL URL kopieren]** aus. Sie können diesen Link freigeben, um einen schnellen Zugriff auf den Ordner zu ermöglichen. Benutzer müssen mindestens über Zugriff auf Ansicht auf das Objekt verfügen, um den Ordner anzeigen zu können.
+   ![Kopieren Sie den Ordner url](assets/copy-doc-folder-url.png)

@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,48 +50,48 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 So greifen Sie auf Berichte zu, die Sie erstellt haben oder die für Sie freigegeben oder öffentlich freigegeben wurden:
 
-1. Aus dem **Hauptmenü** ![](assets/main-menu-icon.png)klicken **Berichte**.
+1. Klicken Sie im **Hauptmenü** ![](assets/main-menu-icon.png) auf **Berichte**.
 
 1. Klicken Sie je nach Bericht, den Sie anzeigen möchten, auf eine der folgenden Optionen:
 
-   * Klicken **Meine Berichte** , um die von Ihnen erstellten Berichte anzuzeigen.
-   * Klicken **Für mich freigegeben** um Berichte anzuzeigen, die andere für Sie freigegeben haben.
-   * Klicken **Alle Berichte** , um sowohl die von Ihnen erstellten als auch die Berichte anzuzeigen, die für Sie freigegeben oder öffentlich freigegeben wurden.
+   * Klicken Sie auf **Meine Berichte** , um die von Ihnen erstellten Berichte anzuzeigen.
+   * Klicken Sie auf **Für mich freigegeben** , um Berichte anzuzeigen, die andere für Sie freigegeben haben.
+   * Klicken Sie auf **Alle Berichte** , um sowohl die von Ihnen erstellten Berichte als auch die Berichte anzuzeigen, die für Sie freigegeben oder öffentlich freigegeben wurden.
 
 ## Organisieren von von Ihnen erstellten Berichten
 
 Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisieren. Sie können keine Berichte organisieren, die für Sie freigegeben, öffentlich freigegeben oder Systemberichte erstellt wurden.
 
-* [Neuen Ordner für Berichte erstellen](#create-a-new-folder-for-reports)
+* [Erstellen eines neuen Ordners für Berichte](#create-a-new-folder-for-reports)
 * [Berichte zu einem Ordner hinzufügen](#add-reports-to-a-folder)
 
 ### Neuen Ordner für Berichte erstellen {#create-a-new-folder-for-reports}
 
-1. Aus dem **Hauptmenü** ![](assets/main-menu-icon.png)klicken **Berichte**.
+1. Klicken Sie im **Hauptmenü** ![](assets/main-menu-icon.png) auf **Berichte**.
 
-1. Klicken Sie auf **Neuer Ordner** Symbol.\
+1. Klicken Sie auf das Symbol **Neuer Ordner** .\
    ![](assets/nwe-new-folder-350x346.png)
 
 1. Geben Sie einen Namen für den neuen Ordner ein und drücken Sie dann die Eingabetaste.
-1. Aus dem **Meine Berichte** -Ordner, fügen Sie dem neuen Ordner Berichte hinzu.\
-   Weitere Informationen zum Hinzufügen eines Berichts zu einem neuen Ordner finden Sie unter [Berichte zu einem Ordner hinzufügen](#add-reports-to-a-folder) in diesem Artikel.
+1. Fügen Sie im Ordner **Meine Berichte** Berichte zum neuen Ordner hinzu.\
+   Informationen zum Hinzufügen eines Berichts zu einem neuen Ordner finden Sie im Abschnitt [Berichte zu einem Ordner hinzufügen](#add-reports-to-a-folder) in diesem Artikel.
 
    >[!NOTE]
    >
-   >Sie können dem **Meine Berichte** Ordner. Es ist nicht möglich, neue Ordner oder Berichte zum **Für mich freigegeben** oder **Alle Berichte** Ordner.
+   >Sie können dem Ordner **Meine Berichte** nur neue Ordner hinzufügen. Sie können den Ordnern **Für mich freigegeben** oder **Alle Berichte** keine neuen Ordner oder Berichte hinzufügen.
 
 ### Berichte zu einem Ordner hinzufügen {#add-reports-to-a-folder}
 
-1. Aus dem **Hauptmenü** ![](assets/main-menu-icon.png)klicken **Berichte**.
+1. Klicken Sie im **Hauptmenü** ![](assets/main-menu-icon.png) auf **Berichte**.
 
-1. Klicken **Meine Berichte**.\
+1. Klicken Sie auf **Meine Berichte**.\
    Oder\
-   Klicken Sie auf einen Ordner, der unter der **Meine Berichte** Ordner.
+   Klicken Sie auf einen Ordner, der unter dem Ordner **Meine Berichte** verschachtelt ist.
 
 1. Ziehen Sie einen Bericht aus der Berichtsliste in den Ordner, in dem sich der Bericht befinden soll, und legen Sie ihn ab, wenn Sie den Ordner erreichen.
 
    >[!NOTE]
    >
-   >Sie können Berichte nur aus dem **Meine Berichte** Ordner in andere Ordner, die unter **Meine Berichte**. Berichte können nicht von oder in die **Für mich freigegeben** oder **Alle Berichte** Ordner in oder aus anderen Ordnern.
+   >Sie können nur Berichte aus dem Ordner **Meine Berichte** in andere Ordner verschieben, die unter **Meine Berichte** verschachtelt sind. Sie können keine Berichte aus oder in den Ordner **Für mich freigegeben** oder **Alle Berichte** in oder aus anderen Ordnern verschieben.
 
    ![](assets/nwe-drag-report-to-folder-350x292.png)

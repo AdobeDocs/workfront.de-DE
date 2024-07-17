@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '"Task Constraint - Übersicht: Feste Datumswerte'
+title: "Task Constraint Overview: Fixed Dates"
 description: Sie können die Aufgabenbegrenzung Feste Datumswerte verwenden, wenn Sie für das genaue Start- und Enddatum Ihrer Aufgaben spezifisch sein möchten. Weitere Informationen zu Aufgabenbegrenzungen finden Sie unter Übersicht über Aufgabenbegrenzungen .
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbeschränkungen: Feste Datumswerte
+# Übersicht über Aufgabenbegrenzungen: Feste Datumswerte
 
 Sie können die Aufgabenbegrenzung Feste Datumswerte verwenden, wenn Sie für das genaue Start- und Enddatum Ihrer Aufgaben spezifisch sein möchten. Weitere Informationen zu Aufgabenbegrenzungen finden Sie unter [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
@@ -31,13 +31,15 @@ Beachten Sie Folgendes bei Verwendung der Beschränkung &quot;Feste Datumswerte&
 
       * Wenn ein Beschränkungsdatum der Aufgabe vor dem Projektstartdatum liegt, ändert sich die Aufgabenbegrenzung in So bald wie möglich.
       * Wenn ein oder beide Beschränkungsdaten der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegen, ändert sich das geplante Abschlussdatum des Projekts entsprechend dem Abschlussdatum der Aufgabe.
+
    * Wenn das Zielprojekt nach Abschluss geplant wird:
 
       * Wenn ein Beschränkungsdatum der Aufgabe nach dem Projektabschlussdatum liegt, ändert sich die Aufgabenbegrenzung in &quot;So spät wie möglich&quot;.
       * Wenn ein oder beide Beschränkungsdaten der Aufgabe vor dem geplanten Startdatum des Projekts liegen, wird das geplante Startdatum des Projekts an das Startdatum der Aufgabe angepasst.
+
    * Unabhängig vom Zeitplan des Projekts gibt es keine Änderungen an der Aufgabenbegrenzung oder den Projektzeitpunkten, wenn die Beschränkungsdaten der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegen.
 
-   Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 

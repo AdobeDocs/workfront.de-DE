@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Ansicht: Hinzufügen einer Liste von Aufgabennachfolgern in einer Spalte'
+title: "Ansicht: Liste der Aufgabennachfolger in einer Spalte hinzufügen"
 description: Sie können einer Aufgabenansicht eine Spalte hinzufügen, um eine Liste der Nachfolger der Aufgaben anzuzeigen. Die Spalte "Aufgabenerfolger"enthält die Nummer des Nachfolgers sowie den Namen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 0%
+source-wordcount: '308'
+ht-degree: 2%
 
 ---
 
 # Ansicht: Hinzufügen einer Liste von Aufgabennachfolgern in einer Spalte
 
-Sie können einer Aufgabenansicht eine Spalte hinzufügen, um eine Liste der Nachfolger der Aufgaben anzuzeigen. Die **Aufgabenerfolger** enthält die Anzahl der Nachfolger sowie den Namen.
+Sie können einer Aufgabenansicht eine Spalte hinzufügen, um eine Liste der Nachfolger der Aufgaben anzuzeigen. Die Spalte **Aufgabenerfolger** enthält die Nummer des Nachfolgers sowie den Namen.
 
-![task_view_with_a_list_of_succeors_png](assets/task-view-with-a-list-of-successors--350x118.png)
+![task_view_with_a_list_of_succeors_.png](assets/task-view-with-a-list-of-successors--350x118.png)
 
 ## Zugriffsanforderungen
 
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,13 +57,12 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So fügen Sie diese Spalte einer Aufgabenansicht hinzu:
 
 1. Wechseln Sie zu einer vorhandenen Aufgabenansicht.
-1. Erweitern Sie das Dropdown-Menü Ansicht und wählen Sie **Ansicht anpassen**.
-1. Klicken **Spalte hinzufügen**.
-1. Klicken **In den Textmodus wechseln**.
-1. Bewegen Sie den Mauszeiger über die **In dieser Spalte anzeigen** und klicken Sie auf **Klicken, um Text zu bearbeiten**.
+1. Erweitern Sie das Dropdown-Menü Ansicht und wählen Sie **Ansicht anpassen** aus.
+1. Klicken Sie auf **Spalte hinzufügen**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Bewegen Sie den Mauszeiger über den Bereich **In dieser Spalte anzeigen** und klicken Sie auf **Klicken Sie auf , um Text zu bearbeiten**.
 
 1. Entfernen Sie den gesamten Text im Feld Textmodus und ersetzen Sie ihn durch den folgenden Code:
+   <pre>displayName=Task Successors<br>listdelimiter=<br><br>listmethod=nested(Succors).lists<br>textmode=true<br>type=iterate<br>valueExpression=CONCAT({successor}).{taskNumber},' - ',{successor}.{name})<br>valueFormat=HTML</pre>
 
-   <pre>displayName=Task Success<br>listdelimiter=<br><br>listmethod=nested(Succors).lists<br>textmode=true<br>type=iterate<br>valueExpression=CONCAT({Nachfolger}.{taskNumber},' - ',{success}.{name})<br>valueFormat=HTML</pre>
-
-1. Klicken **Ansicht speichern**.
+1. Klicken Sie auf **Ansicht speichern**.

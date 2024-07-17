@@ -1,7 +1,7 @@
 ---
 content-type: overview
 navigation-topic: use-the-gantt-chart
-title: Erste Schritte mit [!UICONTROL Gantt] Diagramm
+title: Erste Schritte mit dem Diagramm [!UICONTROL Gantt]
 description: Die Gantt-Diagramme in Adobe Workfront bieten eine visuelle Darstellung der Zeitleiste einer Liste von Aufgaben oder Projekten.
 author: Alina
 feature: Work Management
@@ -9,43 +9,43 @@ exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
 source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Erste Schritte mit [!UICONTROL Gantt-Diagramm]
+# Erste Schritte mit dem [!UICONTROL Gantt-Diagramm]
 
 <!-- Audited: 01/2024 -->
 
 Die Gantt-Diagramme in Adobe Workfront bieten eine visuelle Darstellung der Zeitleiste einer Liste von Aufgaben oder Projekten.
 
-In [!DNL Adobe Workfront], gibt es zwei [!UICONTROL Gantt Charts] mit ähnlichen Funktionen:
+In [!DNL Adobe Workfront] gibt es zwei [!UICONTROL Gantt Charts] mit ähnlichen Funktionen:
 
-* **Aufgabenliste [!UICONTROL Gantt-Diagramm]**: zeigt Informationen zu Aufgaben und deren Zeitleiste auf Projektebene an. Eine ähnliche [!UICONTROL Gantt-Diagramm] zeigt Informationen zu Vorlagenaufgaben auf Vorlagenebene an.
-* **Die Projektliste [!UICONTROL Gantt-Diagramm]**: zeigt Informationen zu Projekten und deren Timeline an.
+* **Die Aufgabenliste [!UICONTROL Gantt-Diagramm]**: zeigt Informationen über Aufgaben und deren Timeline auf Projektebene an. Ein ähnliches [!UICONTROL Gantt-Diagramm] zeigt Informationen zu Vorlagenaufgaben auf Vorlagenebene an.
+* **Die Projektliste [!UICONTROL Gantt-Diagramm]**: zeigt Informationen über Projekte und deren Timeline an.
 
 Obwohl sie ähnlich aussehen und sich anfühlen, ist die Funktionalität jedes einzelnen unterschiedlich.
 
 ## Überlegungen zum Gantt-Diagramm
 
-* Sie können die Informationen in den folgenden [!UICONTROL Gantt-Diagramm]:
+* Sie können Informationen im folgenden [!UICONTROL Gantt-Diagramm] bearbeiten:
    * Aufgabenliste
-* Sie können die Informationen in den folgenden [!UICONTROL Gantt Charts]:
+* Sie können Informationen in den folgenden [!UICONTROL Gantt Charts] nicht bearbeiten:
    * Eine Aufgabenliste für Vorlagen
    * Eine Projektliste
-* Es gibt keine [!UICONTROL Gantt-Diagramm] für eine Liste von Vorlagen.
-* Sie können konfigurieren, welche Informationen auf beiden Aufgabenlisten angezeigt werden [!UICONTROL Gantt-Diagramm] und der Projektliste [!UICONTROL Gantt-Diagramm].
-* Sie können die Farben oder die Schriftarten, in denen die [!UICONTROL Gantt-Diagramm] angezeigt werden.
-* Wenn Informationen von Aufgaben aktualisiert werden, werden sie automatisch in beide Aufgabenlisten übernommen [!UICONTROL Gantt-Diagramm] und der Projektliste [!UICONTROL Gantt-Diagramm].
-* Wenn Informationen aus Vorlagenaufgaben aktualisiert werden, werden sie automatisch in der Aufgabenliste der Vorlage angezeigt [!UICONTROL Gantt-Diagramm].
+* Für eine Liste von Vorlagen ist keine [!UICONTROL Gantt-Diagramm] -Option verfügbar.
+* Sie können konfigurieren, welche Informationen sowohl in der Aufgabenliste [!UICONTROL Gantt-Diagramm] als auch in der Projektliste [!UICONTROL Gantt-Diagramm] angezeigt werden.
+* Sie können die Farben oder Schriftarten, in denen die [!UICONTROL Gantt-Diagramm]-Informationen angezeigt werden, nicht konfigurieren.
+* Wenn Informationen aus Aufgaben aktualisiert werden, werden sie automatisch sowohl in der Aufgabenliste [!UICONTROL Gantt-Diagramm] als auch in der Projektliste [!UICONTROL Gantt-Diagramm] angezeigt.
+* Wenn Informationen aus Vorlagenaufgaben aktualisiert werden, werden sie automatisch in der Vorlagenaufgabenliste [!UICONTROL Gantt-Diagramm] angezeigt.
 
-## Zugriff auf [!UICONTROL Gantt-Diagramm]
+## Zugriff auf das [!UICONTROL Gantt-Diagramm]
 
-Die [!UICONTROL Gantt] Diagramme in [!DNL Workfront]  eine visuelle Darstellung einer Liste von Aufgaben oder Projekten bereitstellen.
+Die [!UICONTROL Gantt]-Diagramme in [!DNL Workfront] bieten eine visuelle Darstellung einer Liste von Aufgaben oder Projekten.
 
-Sie können die Aufgabenliste anzeigen [!UICONTROL Gantt-Diagramm] direkt aus der Aufgabenliste eines Projekts oder aus einem Aufgabenbericht.
+Sie können die Aufgabenliste [!UICONTROL Gantt-Diagramm] direkt aus der Aufgabenliste eines Projekts oder aus einem Aufgabenbericht anzeigen.
 
-Sie können die Projektliste anzeigen [!UICONTROL Gantt-Diagramm] in einer Projektliste oder einem Projektbericht.
+Sie können die Projektliste [!UICONTROL Gantt-Diagramm] in einer Projektliste oder in einem Projektbericht anzeigen.
 
 ### Aufgabenliste [!UICONTROL Gantt-Diagramm] {#task-list-gantt-chart}
 
@@ -60,22 +60,22 @@ Sie können die Projektliste anzeigen [!UICONTROL Gantt-Diagramm] in einer Proje
 
 * In a [!UICONTROL Task] report-->
 
-So greifen Sie auf die Aufgabenliste zu [!UICONTROL Gantt-Diagramm] eines Projekts oder einer Vorlage:
+So greifen Sie auf die Aufgabenliste [!UICONTROL Gantt Chart] eines Projekts oder einer Vorlage zu:
 
 1. Markieren Sie einen der folgenden Bereiche:
 
-   * Ein Projekt und klicken Sie dann auf [!UICONTROL **Aufgaben**] im linken Bereich.
-   * Eine Vorlage und klicken Sie auf [!UICONTROL **Vorlagenaufgaben**] im linken Bereich
-   * Eine Aufgabe oder Vorlagenaufgabe und klicken Sie auf [!UICONTROL **Unteraufgaben**] im linken Bereich.
+   * Ein Projekt und klicken Sie dann im linken Bereich auf [!UICONTROL **Aufgaben**] .
+   * Eine Vorlage und klicken Sie dann im linken Bereich auf [!UICONTROL **Vorlagenaufgaben**] .
+   * Eine Aufgabe oder Vorlagenaufgabe und klicken Sie dann im linken Bereich auf [!UICONTROL **Unteraufgaben**] .
    * Ein Aufgabenbericht
 
-1. Klicken Sie auf [!UICONTROL **Gantt**] icon ![](assets/gantt-icon-nwe.png) oben in der Aufgabenliste.
+1. Klicken Sie oben in der Aufgabenliste auf das Symbol [!UICONTROL **Gantt**] ![](assets/gantt-icon-nwe.png) .
 
    ![](assets/task-list-gantt.png)
 
-   Aufgabenliste [!UICONTROL Gantt-Diagramm] wird rechts neben der Aufgabenliste geöffnet.
+   Die Aufgabenliste [!UICONTROL Gantt-Diagramm] wird rechts neben der Aufgabenliste geöffnet.
 
-1. So konfigurieren Sie, welche Informationen in der Aufgabe angezeigt werden sollen [!UICONTROL Gantt] Diagramm, klicken Sie auf die [!UICONTROL **Einstellungen**] und aktivieren Sie dann eine der folgenden Optionen:
+1. Um zu konfigurieren, welche Informationen im Aufgabendiagramm [!UICONTROL Gantt] angezeigt werden sollen, klicken Sie auf das Symbol [!UICONTROL **Einstellungen**] und aktivieren Sie dann eine der folgenden Optionen:
 
    * [!UICONTROL Tatsächliche Datumswerte]
    * [!UICONTROL Arbeitsaufträge]
@@ -86,7 +86,7 @@ So greifen Sie auf die Aufgabenliste zu [!UICONTROL Gantt-Diagramm] eines Projek
    * [!UICONTROL Milestone Diamonds]
    * [!UICONTROL Milestone-Linien]
    * [!UICONTROL Vorgänger]
-   * [!UICONTROL Statusstatus des Fortschritts]
+   * [!UICONTROL Fortschrittsstatus]
    * [!UICONTROL Vorgeschlagene Datumswerte]
 
 1. Beginnen Sie mit der Bearbeitung der Aufgaben, wie in den folgenden Artikeln beschrieben:
@@ -103,27 +103,27 @@ So greifen Sie auf die Aufgabenliste zu [!UICONTROL Gantt-Diagramm] eines Projek
 * In the [!UICONTROL Projects] section of a [!UICONTROL Program]
 * In a [!UICONTROL Project] report-->
 
-So greifen Sie auf die Projektliste zu [!UICONTROL Gantt-Diagramm]:
+So greifen Sie auf die Projektliste [!UICONTROL Gantt Chart] zu:
 
 1. Markieren Sie einen der folgenden Bereiche:
 
-   * Die [!UICONTROL **Projekte**] area
-   * Die [!UICONTROL **Projekte**] Abschnitt [!UICONTROL Portfolio]
-   * Die [!UICONTROL **Projekte**] Abschnitt [!UICONTROL Programm]
-   * A [!UICONTROL **Projekt**] Bericht
+   * Der Bereich [!UICONTROL **Projekte**]
+   * Der Abschnitt [!UICONTROL **Projekte**] eines [!UICONTROL Portfolios]
+   * Der Abschnitt [!UICONTROL **Projekte**] eines [!UICONTROL Programms]
+   * Bericht [!UICONTROL **Projekt**]
 
-1. Klicken Sie auf [!UICONTROL **Gantt**] -Symbol oben in der Projektliste.
+1. Klicken Sie oben in der Projektliste auf das Symbol [!UICONTROL **Gantt**] .
 
    ![](assets/project-list-gantt.png)
 
-   Die Projektliste [!UICONTROL Gantt-Diagramm] geöffnet.
+   Die Projektliste [!UICONTROL Gantt-Diagramm] wird geöffnet.
 
-1. So konfigurieren Sie, welche Informationen im Projekt angezeigt werden sollen [!UICONTROL Gantt] Diagramm, klicken Sie auf die [!UICONTROL **Einstellungen**] und aktivieren Sie dann eine der folgenden Optionen:
+1. Um zu konfigurieren, welche Informationen im Diagramm [!UICONTROL Gantt] des Projekts angezeigt werden sollen, klicken Sie auf das Symbol [!UICONTROL **Einstellungen**] und aktivieren Sie dann eine der folgenden Optionen:
 
    * [!UICONTROL Tatsächliche Datumswerte]
    * [!UICONTROL % Complete]
    * [!UICONTROL Milestone Diamonds]
    * [!UICONTROL Milestone-Linien]
    * [!UICONTROL Vorgänger]
-   * [!UICONTROL Statusstatus des Fortschritts]
+   * [!UICONTROL Fortschrittsstatus]
    * [!UICONTROL Vorgeschlagene Datumswerte]

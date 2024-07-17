@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 title: Konfigurieren der JumpSeat-Integration
-description: Sie können [!DNL JumpSeat] mit [!DNL Workfront] , um benutzerdefinierte, produktinterne Anleitungen zu erstellen.
+description: Sie können [!DNL JumpSeat] in [!DNL Workfront]  integrieren, um benutzerdefinierte, produktinterne Anleitungen zu erstellen.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Konfigurieren der JumpSeat-Integration
 
-Sie können [!DNL JumpSeat] mit [!DNL Workfront] , um benutzerdefinierte, produktinterne Anleitungen zu erstellen.
+Sie können [!DNL JumpSeat] mit [!DNL Workfront] integrieren, um benutzerdefinierte, produktinterne Anleitungen zu erstellen.
 
 ## Zugriffsanforderungen
 
@@ -36,45 +36,45 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Produkt</strong></td> 
-   <td>Sie müssen über eine aktive [!DNL JumpSeat] Plan.</td> 
+   <td>Sie müssen über einen aktiven [!DNL JumpSeat]-Plan verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p> Sie müssen [!DNL Workfront] Administrator. Informationen über [!DNL Workfront] Administratoren, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p> Sie müssen ein [!DNL Workfront] -Administrator sein. Weitere Informationen zu [!DNL Workfront] -Administratoren finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für einen Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, müssen Sie
 
-* Hinzufügen und Aktivieren [!DNL Workfront] als Anwendung in [!DNL JumpSeat]. Weitere Informationen finden Sie unter [Hinzufügen oder Löschen einer Anwendung](https://support.jumpseat.io/article/how-to-add-an-application/).
+* Fügen Sie [!DNL Workfront] als Anwendung in [!DNL JumpSeat] hinzu und aktivieren Sie es. Weitere Informationen finden Sie unter [Hinzufügen oder Löschen einer Anwendung](https://support.jumpseat.io/article/how-to-add-an-application/).
 
-## Konfigurieren Sie die [!DNL JumpSeat] Integration
+## Konfigurieren der [!DNL JumpSeat] -Integration
 
-Es wird empfohlen, eine [!DNL JumpSeat] Integration in Ihre Vorschau- und Produktionsumgebungen.
+Es wird empfohlen, eine [!DNL JumpSeat] -Integration sowohl in der Vorschau- als auch in der Produktionsumgebung einzurichten.
 
 >[!TIP]
 >
->Sie müssen zwei separate [!DNL Workfront] Anwendungen in [!DNL JumpSeat]- eine für die Vorschau und eine für die Produktion. Siehe [Hinzufügen oder Löschen einer Anwendung](https://support.jumpseat.io/article/how-to-add-an-application/) für weitere Informationen.
+>Sie müssen zwei separate [!DNL Workfront]-Anwendungen in [!DNL JumpSeat] hinzufügen und aktivieren - eine für die Vorschau und eine für die Produktion. Weitere Informationen finden Sie unter [Hinzufügen oder Löschen einer Anwendung](https://support.jumpseat.io/article/how-to-add-an-application/) .
 
-So konfigurieren Sie die [!DNL JumpSeat] Integration:
+So konfigurieren Sie die [!DNL JumpSeat] -Integration:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]**.![](assets/main-menu-icon.png)
 1. Klicken Sie im linken Bereich auf **[!UICONTROL System]** > **[!UICONTROL [!DNL JumpSeat]Integration]**.
-1. Geben Sie Ihre **[!UICONTROL [!DNL JumpSeat]URL]**, die Sie auf dem Erweiterungssymbol in [!DNL JumpSeat].
+1. Geben Sie Ihre **[!UICONTROL [!DNL JumpSeat]URL]** ein, die Sie auf Ihrem Erweiterungssymbol in [!DNL JumpSeat] finden.
 
    **Beispiel:** [!DNL https]://{mycompanyname}.jumpsitz.io
 
-1. Geben Sie die **[!UICONTROL [!DNL JumpSeat]Integrationstoken]**. Sie finden dies auf der **[!UICONTROL Konfiguration]** Seite in [!DNL JumpSeat].
+1. Geben Sie das Integrations-Token **[!UICONTROL [!DNL JumpSeat]ein.]** Sie finden dies auf der Seite **[!UICONTROL Konfiguration]** in [!DNL JumpSeat].
 
-   **Beispiel:** $2y$10$BevsKeQ8...OYR.LurSg2U64O
+   **Beispiel:** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
-1. Klicks **[!UICONTROL Testen der Konfiguration]**.
-1. Entscheiden Sie, ob die Integration **[!UICONTROL Aktiv]** oder **[!UICONTROL Inaaktiv]**.
+1. Klicken Sie auf **[!UICONTROL Testkonfiguration]**.
+1. Wählen Sie aus, ob die Integration **[!UICONTROL aktiv]** oder **[!UICONTROL inaktiv]** sein soll.
 
    >[!IMPORTANT]
    >
@@ -86,4 +86,4 @@ So konfigurieren Sie die [!DNL JumpSeat] Integration:
 
 >[!TIP]
 >
->Weitere Informationen zur Konfiguration der [!DNL JumpSeat] -Integration, siehe [!DNL JumpSeat] Dokumentation für [JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/).
+>Weitere Informationen zum Konfigurieren der [!DNL JumpSeat] -Integration finden Sie in der [!DNL JumpSeat] -Dokumentation für [JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/).

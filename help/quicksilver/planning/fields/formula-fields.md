@@ -135,7 +135,7 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für die Felder der W
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Gibt ein Array mit eindeutigen Werten zurück.</p> <p>Der Ausdruck ist wie folgt formatiert:
 
-<code>ARRAYUNIQUE(Array)</code>
+<code>ARRAYUNIQUE(array)</code>
 </p>
    </td></tr>
      <tr> 
@@ -158,9 +158,9 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für die Felder der W
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>Gibt die Wochenzahl in einem Jahr zurück. Optional können Sie angeben, an welchem Tag die Woche beginnt (verwenden Sie 1 für Sonntag oder 2 für Montag). Wenn nicht angegeben, beginnen Wochen standardmäßig am Sonntag.</p> <p>Der Ausdruck ist wie folgt formatiert:
 
-<code>WEEKOFYEAR(Datum,2)</code>
+<code>WEEKOFYEAR(date,2)</code>
 oder
-<code>WEEKOFYEAR(Datum)</code>
+<code>WEEKOFYEAR(date)</code>
 </p>
    </td></tr>
 

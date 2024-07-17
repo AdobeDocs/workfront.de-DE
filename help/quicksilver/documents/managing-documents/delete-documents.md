@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 2%
+source-wordcount: '223'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -39,7 +39,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen des Zugriffs oder höher auf das Objekt, das das Dokument enthält</p> <p>Zugriff verwalten mit aktivierter Berechtigung zum Löschen im Dokument</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen des Zugriffs oder höher auf das Objekt, das das Dokument enthält</p> <p>Zugriff verwalten mit aktivierter Berechtigung zum Löschen für das Dokument</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,11 +48,11 @@ Sie müssen über Folgendes verfügen:
 
 So löschen Sie ein Dokument:
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 1. Suchen Sie das gewünschte Dokument.
 
-1. Klicken Sie auf **Löschen** icon ![](assets/delete.png) über dem Bereich &quot;Dokumente&quot;.
+1. Klicken Sie auf das Symbol **Löschen** ![](assets/delete.png) oberhalb des Bereichs &quot;Dokumente&quot;.
 
-1. Klicken Sie im angezeigten Feld auf **Ja, löschen** zur Bestätigung.
+1. Klicken Sie im angezeigten Feld auf **Ja, löschen Sie es**, um es zu bestätigen.
 
-Ein System- oder Gruppenadministrator kann ein Dokument innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie unter [Gelöschte Elemente wiederherstellen](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Ein System- oder Gruppenadministrator kann ein Dokument innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie unter [Gelöschte Elemente wiederherstellen](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) beschrieben.

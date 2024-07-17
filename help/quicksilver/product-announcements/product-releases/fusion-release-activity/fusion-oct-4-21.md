@@ -20,7 +20,7 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfr
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 ## Vorhandene Ereignisfilter in Workfront > Überwachungsereignismodule anzeigen
 
@@ -28,7 +28,7 @@ Aus Gründen der Übersichtlichkeit haben wir es ermöglicht, die von einem Webh
 
 Zuvor konnten Benutzer nur bei der Einrichtung des Webhooks Ereignisfilter sehen, und die Filter konnten nicht in einem vorhandenen Workfront > Überwachungsereignismodul angezeigt werden.
 
-Weitere Informationen finden Sie unter [Ereignisabonnementfilter in Workfront > Überwachungsereignismodule](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) in [Adobe Workfront-Module](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Weitere Informationen finden Sie unter [Ereignisabonnementfilter in Workfront > Überwachungsereignismodule](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) in [Adobe Workfront-Modulen](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Fügen Sie benutzerdefinierte Formulare mithilfe des Workfront-Moduls > Datensatzmodule erstellen und aktualisieren an Workfront-Objekte an.
 
@@ -57,4 +57,4 @@ Zuvor konnte Rich Text nur über Workfront selbst oder die Workfront-API zu Komm
 
 Weitere Informationen zu den Modulen Datensatz erstellen und Datensatz aktualisieren finden Sie unter [Adobe Workfront-Module](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-Weitere Informationen zum Rich-Text, der in Kommentaren oder benutzerdefinierten Feldern verfügbar ist, finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen zum Rich-Text, der in Kommentaren oder benutzerdefinierten Feldern verfügbar ist, finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

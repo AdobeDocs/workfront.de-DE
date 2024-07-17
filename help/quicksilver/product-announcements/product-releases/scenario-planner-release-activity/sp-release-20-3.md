@@ -10,7 +10,7 @@ feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,15 @@ Mit dem Szenario-Planer können Sie:
 
 * Erstellen und Vergleichen von Szenarien
 
-   Erstellen und sehen Sie einfach verschiedene Szenarien nebeneinander mit minimalen Daten, die von Ihnen benötigt werden.
+  Erstellen und sehen Sie einfach verschiedene Szenarien nebeneinander mit minimalen Daten, die von Ihnen benötigt werden.
 
 * Engpässe bei Ressourcen hervorheben
 
-   Sehen Sie, wo Sie bereits Personen oder Budgets für bestehende oder geplante Arbeiten gebunden haben.
+  Sehen Sie, wo Sie bereits Personen oder Budgets für bestehende oder geplante Arbeiten gebunden haben.
 
 * Ermitteln eines zukunftsweisenden Pfads
 
-   Erstellen und vergleichen Sie Szenarien, erleichtern Sie Zusammenarbeit und Konsens, führen Sie sie aus und planen Sie sie dann bei Bedarf neu.
+  Erstellen und vergleichen Sie Szenarien, erleichtern Sie Zusammenarbeit und Konsens, führen Sie sie aus und planen Sie sie dann bei Bedarf neu.
 
 Mit dem Szenario-Planer können Sie Ihre Planung flexibler gestalten. Unabhängig davon, ob Sie den strategischen Plan für Ihr Unternehmen besitzen oder ob Sie die vierteljährliche Planung für eine einzige Geschäftseinheit, Abteilung oder Team durchführen, kann Scenario Planer Ihnen helfen. Erstellen und vergleichen Sie schnell und einfach mehrere Szenarien anhand von Einschränkungen wie Budgets oder Teamressourcen.
 

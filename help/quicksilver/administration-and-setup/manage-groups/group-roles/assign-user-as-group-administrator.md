@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Als Administrator einer Gruppe können Sie anderen Benutzern Gruppenadministratoren für diese Gruppe zuweisen. Adobe Workfront-Administratoren können dies ebenfalls tun.
 
-Weitere Informationen zu Gruppenadministratoren und deren Möglichkeiten finden Sie unter [Gruppenadministratoren](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md) und [Für verschiedene Arten von Administratoren zulässige Aktionen](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
+Weitere Informationen zu Gruppenadministratoren und deren Möglichkeiten finden Sie unter [Gruppenadministratoren](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md) und [Für unterschiedliche Arten von Administratoren zulässige Aktionen](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
 
 Allgemeine Informationen zu Gruppen finden Sie unter [Gruppenübersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
@@ -33,25 +33,25 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Benutzer als Gruppenadministrator zuweisen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, der Sie einen Gruppenadministrator zuweisen möchten.
-1. Klicken Sie in der Kopfzeile rechts oben auf eines der Benutzerprofilbilder unter **Gruppenadministratoren**.
-1. Klicken Sie in dem angezeigten Feld auf **Suchen nach einem Benutzer**, geben Sie den Benutzernamen ein und klicken Sie dann auf den Namen, sobald er angezeigt wird.
+1. Klicken Sie in der Kopfzeile in der oberen rechten Ecke auf eines der Benutzerprofilbilder unter **Gruppenadministratoren**.
+1. Klicken Sie in dem angezeigten Feld auf **Nach einem Benutzer suchen**, geben Sie den Namen des Benutzers ein und klicken Sie dann auf den Namen, sobald er angezeigt wird.
 1. Wiederholen Sie den vorherigen Schritt, um weitere Benutzer als Gruppenadministratoren für die Gruppe hinzuzufügen.
 1. Klicken Sie auf **Speichern**.

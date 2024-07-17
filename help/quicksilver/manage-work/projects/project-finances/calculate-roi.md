@@ -28,13 +28,13 @@ Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budge
 
 Die folgenden Felder beeinflussen den ROI eines Projekts:
 
-* **Geplanter Nutzen des Projekts**: Dies ist ein manueller Eintrag, der vom Projekteigentümer beim Ausfüllen des Bereichs Projektinfo im Geschäftsfall angegeben wird. Dies ist eine Schätzung dessen, was Sie als Projekteigentümer glauben, dass der Nutzen des Projekts sein könnte, wenn Sie das Projekt abschließen. Dies ist ein bestimmter Währungsbetrag und muss ein positiver Wert sein.\
-   Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie im Abschnitt &quot;Projektinfo&quot;im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* **Vorgesehener Projektvorteil**: Dies ist ein manueller Eintrag, der vom Projekteigentümer beim Ausfüllen des Bereichs Projektinfo im Geschäftsfall angegeben wird. Dies ist eine Schätzung dessen, was Sie als Projekteigentümer glauben, dass der Nutzen des Projekts sein könnte, wenn Sie das Projekt abschließen. Dies ist ein bestimmter Währungsbetrag und muss ein positiver Wert sein.\
+  Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie im Abschnitt &quot;Projektinfo&quot;im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-* **Projektkosten**: Dies sind die mit dem Projekt verbundenen Gesamtkosten, wie beim ersten Start des Projekts geschätzt.
+* **Projekt - Budgetierte Kosten**: Dies sind die Gesamtkosten, die mit dem Projekt verbunden sind, wie beim ersten Start des Projekts geschätzt.
 
-   Die **Geplante Kosten** verwendet die **Geplante Arbeitskosten** -Wert, der im Bereich Resource Budgeting des Business Case berechnet wird, und berücksichtigt die für Ihre Arbeitsplatzrollen im Resource Planer vorgesehenen Stunden sowie die Kosten pro Stunde für jede Stellenrolle.\
-   Weitere Informationen finden Sie unter [Berechnete veranschlagte Kosten](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  Die **budgeted Cost** verwendet den Wert **Budgeted Labour Cost** , der im Bereich Resource Budgeting des Business Case berechnet wird, und berücksichtigt die für Ihre Stellenrollen im Resource Planer geplanten Stunden sowie die Kosten pro Stunde für jede Jobrolle.\
+  Weitere Informationen finden Sie unter [Budgetierte Kosten berechnen](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
 ## Finden Sie den ROI (Return on Investment) des Projekts.
 
@@ -42,16 +42,17 @@ Sie können den ROI-Wert für ein Projekt in den folgenden Bereichen in Workfron
 
 * Im Portfolio Optimizer , wenn das Projekt mit einem Portfolio verknüpft ist
 
-   >[!NOTE]
-   >
-   >Die Gesamtsumme aller Projekt-ROI-Werte ist der ROI des Portfolios.
+  >[!NOTE]
+  >
+  >Die Gesamtsumme aller Projekt-ROI-Werte ist der ROI des Portfolios.
 
-   Weitere Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * Im Feld Projekt-ROI in den folgenden Listen und Berichten: 
 
    * Projekt
    * Aufgabe
-   * Anfrage
+   * Problem
    * Projekt (Finanzdaten)
-   Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+  Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Hinzufügen oder Bearbeiten eines Visualisierungsbausteins in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
+* [Hinzufügen oder Bearbeiten eines Visualisierungsblocks auf der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
 * [Konfigurieren einer Balkenvisualisierung auf der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
 * [Konfigurieren einer Spaltenvisualisierung auf der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
 * [Konfigurieren der Kreisvisualisierung in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)

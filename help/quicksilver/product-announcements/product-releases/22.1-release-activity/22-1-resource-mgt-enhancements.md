@@ -34,7 +34,7 @@ Um Ihr Erlebnis bei der Verwendung des Workload Balancer zu verbessern, haben wi
 * Das Einstellungsbedienfeld wurde neu gestaltet und enthält jetzt Optionen, die sich zuvor in der Symbolleiste befanden. Dadurch wird die Verwendung des Leerzeichens in der Symbolleiste verbessert.
 * Es wurde die Möglichkeit hinzugefügt, das Farbthema nach Projekt anzupassen. Bei der Auswahl der Farbcodierung nach Projekt werden jedes Projekt und seine Arbeitselemente in derselben Farbe angezeigt. Die Farben sind für jedes Projekt eindeutig. Vor dieser Verbesserung konnten Sie nur eine Farbcodierung nach Projektstatus durchführen.
 
-Weitere Informationen finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Weitere Informationen finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs
 
@@ -44,7 +44,7 @@ Vor dieser Verbesserung konnten Sie nur einen Benutzer einem Arbeitselement entw
 
 Die neuen Massenzuweisungen enthalten neben dem Namen auch neue Filterfunktionen nach Projekt- und Aufgabenstatus.
 
-Weitere Informationen finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Weitere Informationen finden Sie unter [Übersicht über das Zuweisen von Arbeit im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Überschreiben der Währung bei der Verwaltung von Stellenrollen
 

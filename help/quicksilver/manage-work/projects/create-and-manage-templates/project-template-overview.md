@@ -55,14 +55,14 @@ Beachten Sie beim Erstellen von Vorlagen Folgendes:
 
   Weitere Informationen zur Dauer finden Sie in den folgenden Artikeln:
 
-   * [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+   * [Überblick über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [Übersicht über die Projektdauer](../../../manage-work/projects/planning-a-project/project-duration.md)
 
-  Weitere Informationen zu geplanten Stunden finden Sie unter [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
+  Informationen zu geplanten Stunden finden Sie unter [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Fügen Sie die Vorgängerbeziehungen zwischen den Aufgaben am Ende hinzu, wenn Sie ein klares Verständnis des zukünftigen Projektplans in seiner Gesamtheit haben. Das Hinzufügen von Vorgängern zu Vorlagenaufgaben ähnelt dem Hinzufügen von Vorgängern zu Aufgaben in einem Projekt.
 
-  Informationen zum Hinzufügen von Vorgängern zu Aufgaben finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Weitere Informationen zum Hinzufügen von Vorgängern zu Aufgaben finden Sie unter [Übersicht über die Aufgabenverfasser](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * Geben Sie an, für wen die Vorlage freigegeben werden soll und für wen die Projekte, die aus der Vorlage erstellt werden, freigegeben werden sollen. Informationen zum Freigeben von Vorlagen finden Sie unter [Projektvorlagen freigeben](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 * Verwenden Sie globale Validierungsprozesse und fügen Sie sie nach Möglichkeit zu Ihren Vorlagen- und Vorlagenaufgaben hinzu. Dies spart Zeit, wenn Aufgaben oder das zukünftige Projekt dieselben Genehmigungen durchlaufen müssen.

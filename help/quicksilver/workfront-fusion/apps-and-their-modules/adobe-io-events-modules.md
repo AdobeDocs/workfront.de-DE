@@ -85,15 +85,15 @@ So erstellen Sie eine Verbindung für Ihre Adobe I/O-Ereignismodule:
       </tr>
       <tr>
         <td role="rowheader">Zusätzliche Bereiche</td>
-        <td>Um weitere Bereiche hinzuzufügen, klicken Sie auf <b>Element hinzufügen</b> und geben Sie den Perimeter an.</td>
+        <td>Um weitere Bereiche hinzuzufügen, klicken Sie auf <b>Element hinzufügen</b> und geben Sie den Bereich ein.</td>
       </tr>
       <tr>
         <td role="rowheader">Client-ID</td>
-        <td>Geben Sie Ihre Adobe Client-ID ein. Dies finden Sie im Abschnitt mit Anmeldeinformationen der Adobe Developer Console .</td>
+        <td>Geben Sie Ihre Adobe Client-ID ein. Dies finden Sie im Abschnitt mit Anmeldeinformationen des Adobe Developer Console</td>
       </tr>
       <tr>
         <td role="rowheader">Geheimer Client-Schlüssel</td>
-        <td>Geben Sie Ihren Adobe Client Secret ein. Dies finden Sie im Abschnitt mit Anmeldeinformationen der Adobe Developer Console .</td>
+        <td>Geben Sie Ihren Adobe Client Secret ein. Dies finden Sie im Abschnitt mit Anmeldeinformationen des Adobe Developer Console</td>
       </tr>
       </tr>
         <tr>
@@ -106,26 +106,26 @@ So erstellen Sie eine Verbindung für Ihre Adobe I/O-Ereignismodule:
       </tr>
       <tr>
         <td role="rowheader">Kennung der IMS-Organisation</td>
-        <td>Geben Sie Ihre Adobe-Organisations-ID ein. Dies finden Sie im Abschnitt mit Anmeldeinformationen der Adobe Developer Console .</td>
+        <td>Geben Sie Ihre Adobe-Organisations-ID ein. Dies finden Sie im Abschnitt mit Anmeldeinformationen des Adobe Developer Console</td>
       </tr>
         <tr>
         <td role="rowheader">Projekt-ID</td>
         <td>Geben Sie Ihre Projekt-ID ein. Dies finden Sie in der Berechtigungs-URL des Projekts: <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
-        <td role="rowheader">Workspace-ID</td>
-        <td>Um die Workspace-ID Ihres Projekts anzuzeigen, laden Sie Ihre Projektdetails von der Projektübersichtsseite in der Adobe Developer Console herunter. </td>
+        <td role="rowheader">WORKSPACE ID</td>
+        <td>Laden Sie Ihre Projektdetails von der Projektübersichtsseite in Adobe Developer Console herunter, um die Workspace ID Ihres Projekts anzuzeigen. </td>
       </tr>
     </tbody>
     </table>
 
-1. Klicks **Weiter** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+1. Klicken Sie auf **Weiter** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 ## Adobe I/O-Ereignismodule und ihre Felder
 
-Bei der Konfiguration [!DNL Adobe I/O Events] Module, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL Adobe I/O Events] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie [!DNL Adobe I/O Events] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL Adobe I/O Events] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -141,7 +141,7 @@ Dieses Aktionsmodul verwendet einen Webhook, um eine Ereignisbeschreibung zu ers
 
 So erstellen Sie einen Webhook:
 
-1. Klicks **Hinzufügen** neben dem Webhook-Feld.
+1. Klicken Sie neben dem Webhook-Feld auf **Hinzufügen** .
 1. Füllen Sie die folgenden Felder aus:
 
    <table>
@@ -154,7 +154,7 @@ So erstellen Sie einen Webhook:
        </tr>
        <tr>
          <td role="rowheader">[!UICONTROL Verbindung]</td>
-        <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe I/O Events], siehe <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe I/O Events]</a> in diesem Artikel.</td>
+        <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe I/O Events] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe I/O Events]</a> .</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -197,7 +197,7 @@ Dieses Suchmodul ruft alle Ereignisse für eine Registrierung aus einem Protokol
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Verbindung]</td>
-        <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe I/O Events], siehe <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe I/O Events]</a> in diesem Artikel.</td>
+        <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe I/O Events] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe I/O Events]</a> .</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -242,7 +242,7 @@ Dieses Suchmodul ruft alle Ereignisse für eine Registrierung aus einem Protokol
 
 #### Benutzerdefinierte API-Aufrufe durchführen
 
-Dieses Aktionsmodul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe I/O Events] API
+Dieses Aktionsmodul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe I/O Events]-API durch
 
 <table>
   <col/>
@@ -250,7 +250,7 @@ Dieses Aktionsmodul führt einen benutzerdefinierten API-Aufruf an die [!DNL Ado
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Verbindung]</td>
-        <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe I/O Events], siehe <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe I/O Events]</a> in diesem Artikel.</td>
+        <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe I/O Events] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe I/O Events]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -284,7 +284,7 @@ Dieses Aktionsmodul führt einen benutzerdefinierten API-Aufruf an die [!DNL Ado
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -303,7 +303,7 @@ Dieses Suchmodul ruft die Adobe I/O Events-IDs für den angegebenen Anbieter und
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Verbindung]</td>
-        <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe I/O Events], siehe <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe I/O Events]</a> in diesem Artikel.</td>
+        <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe I/O Events] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe I/O Events]</a> .</td>
        </tr>
        <tr>
          <td role="rowheader">

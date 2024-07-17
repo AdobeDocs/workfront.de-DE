@@ -9,7 +9,7 @@ exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Sie können in Adobe Workfront auf verschiedene Weise Vorgängerbeziehungen erstellen. Eine Methode besteht darin, Aufgaben zu verketten.
 
-Weitere Informationen zu Vorgängeraufgaben finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Weitere Informationen zu Vorgängeraufgaben finden Sie unter [Übersicht über Aufgabenvorherigen](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Durch das Verketten von Aufgaben können Sie dem System erlauben, die Vorgängerbeziehungen automatisch für ausgewählte Aufgaben zu erstellen, anstatt manuell eine Beziehung für jede Aufgabe selbst zu erstellen. Zwischen Aufgaben können weiterhin verschiedene Vorgänger-Beziehungstypen verwendet werden.
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Aufgaben und Projekte verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für die Aufgaben und das Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,8 +53,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Aufgaben verketten, um Vorgängerbeziehungen zu erstellen
 
 1. Wechseln Sie zu dem Projekt, das die Aufgaben enthält, die Sie verketten möchten.
-1. Klicken **Aufgaben** im linken Bereich.
-1. (Bedingt) Wählen Sie **Automatische Speicherung** Wählen Sie in der oberen rechten Ecke der Aufgabenliste die Aufgaben aus, die Sie verketten möchten.
+1. Klicken Sie im linken Bereich auf **Aufgaben** .
+1. (Bedingt) Wählen Sie oben rechts in der Aufgabenliste die Option **Automatisches Speichern** aus und wählen Sie dann die Aufgaben aus, die Sie verketten möchten.
 
    ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
@@ -65,14 +65,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und klicken Sie dann auf **Kette**.
 1. Wählen Sie aus den folgenden Abhängigkeitstypen aus:
 
-   * **Ende-Start**
-   * **Ende-Ende**
+   * **finish-start**
+   * **Finish-Finish**
    * **Start-Start**
-   * **Start-Ende**
+   * **Start-Finish**
 
    Weitere Informationen zu Vorgängerabhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. (Optional) Klicken Sie auf **Unchain** wenn einige der Aufgaben zuvor verkettet wurden.
+1. (Optional) Klicken Sie auf **Unchain** , wenn einige der Aufgaben zuvor verkettet wurden.
 
    >[!CAUTION]
    >

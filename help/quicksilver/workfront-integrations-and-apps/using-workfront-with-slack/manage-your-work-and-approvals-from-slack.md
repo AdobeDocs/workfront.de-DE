@@ -1,27 +1,27 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Verwalten von Arbeiten und Genehmigungen durch Slack
-description: Sie können direkt von Slack aus auf Ihre Arbeitsliste für Ihre Startseite zugreifen, Aufgaben und Probleme prüfen und damit vereinbaren sowie Entscheidungen zu Genehmigungen treffen.
+title: Verwalten Sie Ihre Arbeit und Ihre Validierungen über Slack
+description: Sie können direkt über Slack auf Ihre Hausarbeitsliste zugreifen, Aufgaben und Probleme überprüfen und damit einverstanden sein und Entscheidungen über Genehmigungen treffen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
 
 # Verwalten Sie Ihre Arbeit und Ihre Genehmigungen über [!DNL Slack]
 
-Nach der Installation [!DNL Adobe Workfront for Slack]können Sie Folgendes tun:
+Nachdem Sie [!DNL Adobe Workfront for Slack] installiert haben, können Sie Folgendes tun:
 
-* Auf die Listen Ihrer [!UICONTROL Startseite] Elemente aus [!DNL Slack]
+* Auf Listen Ihrer [!UICONTROL Home]-Elemente von [!DNL Slack] zugreifen
 * Überprüfen und akzeptieren Sie die Arbeit an Aufgaben und Problemen von [!DNL Slack]
 * Überprüfen und treffen Sie Entscheidungen über Genehmigungen von [!DNL Slack]
 
-Weitere Informationen zur Konfiguration [!DNL Workfront] mit [!DNL Slack], siehe [Konfigurieren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit [!DNL Slack] finden Sie unter [Konfigurieren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Zugriffsanforderungen
 
@@ -32,7 +32,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] Plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] plan</a>*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
  </tbody> 
@@ -42,15 +42,15 @@ Sie müssen über Folgendes verfügen:
 
 ## Voraussetzungen
 
-Bevor Sie Ihre Arbeit und Ihre Genehmigungen in [!DNL Slack], müssen Sie
+Bevor Sie Ihre Arbeit und Genehmigungen mit [!DNL Slack] verwalten können, müssen Sie
 
-* Konfigurieren [!DNL Workfront for Slack]\
-   Anweisungen zum Konfigurieren von [!DNL Workfront for Slack], siehe [Konfigurieren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+* Konfigurieren von [!DNL Workfront for Slack]\
+  Anweisungen zum Konfigurieren von [!DNL Workfront for Slack] finden Sie unter [Konfigurieren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## Verwalten Sie Ihre Arbeit über [!DNL Slack]
+## Verwalten Ihrer Arbeit über [!DNL Slack]
 
-1. Melden Sie sich bei Ihrer [!DNL Slack] -Instanz und melden Sie sich bei [!DNL Workfront] von [!DNL Slack].\
-   Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack], siehe &quot;Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; Abschnitt in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Melden Sie sich bei Ihrer [!DNL Slack] -Instanz an und melden Sie sich von [!DNL Slack] bei [!DNL Workfront] an.\
+   Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt &quot;Anmeldung bei [!DNL Workfront] von [!DNL Slack]&quot;unter [Zugriff [!DNL Adobe Workfront]  von  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Geben Sie von jedem Kanal aus den folgenden Befehl in das Meldungsfeld ein:
 
@@ -59,30 +59,29 @@ Bevor Sie Ihre Arbeit und Ihre Genehmigungen in [!DNL Slack], müssen Sie
    >[!NOTE]
    >
    >* Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden.
-   >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront`.
+   >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront` starten.
 
-
-   Die Schaltflächen, über die Sie auf Listen Ihrer Aufgaben, Probleme und Genehmigungen zugreifen können, werden angezeigt. Wenn Sie auf eine der Schaltflächen klicken, werden die ersten 20 Elemente jeder Liste in [!DNL Slack].
+   Die Schaltflächen, über die Sie auf Listen Ihrer Aufgaben, Probleme und Genehmigungen zugreifen können, werden angezeigt. Wenn Sie auf eine der Schaltflächen klicken, werden die ersten 20 Elemente jeder Liste in [!DNL Slack] angezeigt.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Aufgaben]** , um alle Ihre Aufgaben anzuzeigen.
 
-   Weitere Informationen zum Verwalten von Aufgaben finden Sie unter [!DNL Slack], siehe [Verwalten Ihrer Aufgaben über [!DNL Slack]](#manage-your-tasks-from-slack-manage-your-tasks-from-slack).
+   Weitere Informationen zum Verwalten von Aufgaben in [!DNL Slack] finden Sie unter [Verwalten Ihrer Aufgaben von  [!DNL Slack]](#manage-your-tasks-from-slack-manage-your-tasks-from-slack).
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Probleme]** um alle Probleme anzuzeigen.
+1. (Optional) Klicken Sie auf **[!UICONTROL Probleme]** , um alle Ihre Probleme anzuzeigen.
 
-   Weitere Informationen zum Verwalten von Problemen finden Sie unter [!DNL Slack], siehe [Verwalten Ihrer Probleme in [!DNL Slack]](#manage-your-issues-from-slack-manage-your-issues-from-slack).
+   Weitere Informationen zum Verwalten von Problemen in [!DNL Slack] finden Sie unter [Verwalten Ihrer Probleme über  [!DNL Slack]](#manage-your-issues-from-slack-manage-your-issues-from-slack).
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Genehmigungen]** um alle Genehmigungen anzuzeigen, die auf Ihre Entscheidung warten.\
-   Weitere Informationen zur Verwaltung Ihrer Genehmigungen finden Sie unter [!DNL Slack], siehe [Verwalten von Genehmigungen über [!DNL Slack]](#manage-your-approvals-from-slack-manage-your-approvals-from-slack).
+1. (Optional) Klicken Sie auf **[!UICONTROL Genehmigungen]** , um alle Genehmigungen anzuzeigen, die auf Ihre Entscheidung warten.\
+   Weitere Informationen zur Verwaltung Ihrer Genehmigungen in [!DNL Slack] finden Sie unter [Verwalten Ihrer Genehmigungen von  [!DNL Slack]](#manage-your-approvals-from-slack-manage-your-approvals-from-slack).
 
-## Verwalten Sie Ihre Aufgaben über [!DNL Slack] {#manage-your-tasks-from-slack}
+## Verwalten Ihrer Aufgaben über [!DNL Slack] {#manage-your-tasks-from-slack}
 
-1. Melden Sie sich bei Ihrer [!DNL Slack] -Instanz und melden Sie sich bei [!DNL Workfront] von [!DNL Slack].\
-   Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack], siehe &quot;Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; Abschnitt in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Melden Sie sich bei Ihrer [!DNL Slack] -Instanz an und melden Sie sich von [!DNL Slack] bei [!DNL Workfront] an.\
+   Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt &quot;Anmeldung bei [!DNL Workfront] von [!DNL Slack]&quot;unter [Zugriff [!DNL Adobe Workfront] von  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Geben Sie von jedem Kanal aus einen der folgenden Befehle in das Meldungsfeld ein:
 
-   `/workfront home`Klicken Sie auf **[!UICONTROL Aufgaben]**
+   `/workfront home` und klicken Sie dann auf **[!UICONTROL Aufgaben]**
 
    Oder
 
@@ -91,12 +90,11 @@ Bevor Sie Ihre Arbeit und Ihre Genehmigungen in [!DNL Slack], müssen Sie
    >[!NOTE]
    >
    >* Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden.
-   >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront`.
-
+   >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront` starten.
 
    Die ersten 20 Aufgaben Ihrer Liste werden angezeigt.
 
-1. Klicken **[!UICONTROL +`<remaining number>` more]** um zusätzliche Aufgaben anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL +`<remaining number>` more]** , um weitere Aufgaben anzuzeigen.
 1. Überprüfen Sie die folgenden Informationen zu Ihren Arbeitselementen:
 
    * **[!UICONTROL Name]**
@@ -107,27 +105,26 @@ Bevor Sie Ihre Arbeit und Ihre Genehmigungen in [!DNL Slack], müssen Sie
    * **[!UICONTROL Status]**
 
 1. (Optional) Klicken Sie auf den Namen eines Elements, um es in Workfront auf einer separaten Browser-Registerkarte zu öffnen.
-1. (Optional) Im **[!UICONTROL Status]** ein, wählen Sie einen neuen Status aus.
-1. (Optional) Klicken Sie auf **[!UICONTROL Protokollzeit]** und wählen Sie anschließend eine **[!UICONTROL Stündentyp]** und einen Stundenwert für die Protokollzeit des Elements.
+1. (Optional) Wählen Sie im Feld **[!UICONTROL Status]** einen neuen Status aus.
+1. (Optional) Klicken Sie auf **[!UICONTROL Protokollzeit]** und wählen Sie dann einen **[!UICONTROL Stunden-Typ]** und einen Stundenwert für die Protokollzeit des Elements aus.
 
    >[!NOTE]
    >
    >* Sie können Stunden nur in Schritten von einer vollen oder halben Stunde, bis zu 12 Stunden und 30 Minuten protokollieren.
-   >* Die Stunden, die Sie protokollieren, haben ein Eintragsdatum von heute. Sie können die Zeit nicht für ein vergangenes oder künftiges Datum protokollieren von [!DNL Slack].
-
+   >* Die Stunden, die Sie protokollieren, haben ein Eintragsdatum von heute. Sie können die Zeit nicht für ein vergangenes oder künftiges Datum von [!DNL Slack] protokollieren.
 
    Sie erhalten eine Bestätigung, dass die Zeit protokolliert wurde.
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Arbeiten daran]** , um zu akzeptieren, an einer Aufgabe zu arbeiten. Die [!UICONTROL Arbeiten daran] Schaltfläche verschwindet.
+1. (Optional) Klicken Sie auf **[!UICONTROL Bearbeiten]** , um die Bearbeitung einer Aufgabe zu akzeptieren. Die Schaltfläche [!UICONTROL Bearbeiten] wird ausgeblendet.
 
-## Probleme verwalten aus [!DNL Slack] {#manage-your-issues-from-slack}
+## Probleme in [!DNL Slack] verwalten {#manage-your-issues-from-slack}
 
-1. Melden Sie sich bei Ihrer [!DNL Slack] -Instanz und melden Sie sich bei [!DNL Workfront] von [!DNL Slack].\
-   Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack], siehe [Anmelden bei [!DNL Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Melden Sie sich bei Ihrer [!DNL Slack] -Instanz an und melden Sie sich von [!DNL Slack] bei [!DNL Workfront] an.\
+   Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie unter [Anmelden bei  [!DNL Workfront] von  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront] von  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Geben Sie von jedem Kanal aus einen der folgenden Befehle in das Meldungsfeld ein:
 
-   `/workfront home`Klicken Sie auf **[!UICONTROL Probleme]**
+   `/workfront home` und klicken Sie dann auf **[!UICONTROL Probleme]**
 
    Oder
 
@@ -136,32 +133,31 @@ Bevor Sie Ihre Arbeit und Ihre Genehmigungen in [!DNL Slack], müssen Sie
    >[!NOTE]
    >
    >* Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden.
-   >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront`.
-
+   >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront` starten.
 
    Die ersten 20 Probleme in Ihrer Liste werden angezeigt.
 
-1. Klicken **[!UICONTROL + verbleiben `<number>` more]** , um weitere Elemente anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL + verbleibende `<number>` Mehr]** , um weitere Elemente anzuzeigen.
 1. Überprüfen Sie die folgenden Informationen zu Ihren Arbeitselementen:
 
    * **[!UICONTROL Name]**
    * **[!UICONTROL Projekt]** Name oder übergeordneter Objektname
-   * **[!UICONTROL Aufgrund von]** Datum: Dies ist das geplante Abschlussdatum des Arbeitselements.
+   * **[!UICONTROL Fälligkeitsdatum am]** Datum: Dies ist das geplante Abschlussdatum des Arbeitselements.
    * **[!DNL Requested by]** Name: Dies ist der Primäre Kontakt (für Probleme) oder der Benutzer, der die Zuweisung vorgenommen hat (für Aufgaben).
 
 1. (Optional) Klicken Sie auf den Namen des Problems, um es in Workfront in einer separaten Browser-Registerkarte zu öffnen.
 1. (Optional) Klicken Sie auf **[!DNL Work on it]** , um mit der Arbeit an Problemen zu beginnen, die Sie noch nicht akzeptiert haben.
 
-   Die [!UICONTROL Arbeiten daran] Schaltfläche verschwindet.
+   Die Schaltfläche [!UICONTROL Bearbeiten] wird ausgeblendet.
 
 ## Verwalten von Genehmigungen über [!DNL Slack] {#manage-your-approvals-from-slack}
 
-1. Melden Sie sich bei Ihrer [!DNL Slack] -Instanz und melden Sie sich bei [!DNL Workfront] von [!DNL Slack].\
-   Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack], siehe &quot;Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; Abschnitt in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Melden Sie sich bei Ihrer [!DNL Slack] -Instanz an und melden Sie sich von [!DNL Slack] bei [!DNL Workfront] an.\
+   Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt &quot;Anmeldung bei [!DNL Workfront] von [!DNL Slack]&quot;unter [Zugriff [!DNL Adobe Workfront]  von  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Geben Sie von jedem Kanal aus einen der folgenden Befehle in das Meldungsfeld ein:
 
-   `/workfront home`Klicken Sie auf **[!UICONTROL Genehmigungen]**
+   `/workfront home` und klicken Sie dann auf **[!UICONTROL Genehmigungen]**
 
    Oder
 
@@ -170,35 +166,34 @@ Bevor Sie Ihre Arbeit und Ihre Genehmigungen in [!DNL Slack], müssen Sie
    >[!NOTE]
    >
    >* Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden.
-   >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront`.
+   >* Sie können Ihren Befehl mit `/wf` anstelle von `/workfront` starten.
 
+   Die ersten 20 Elemente in Ihrer Liste **[!UICONTROL Genehmigungen]** werden angezeigt. Zusätzliche Informationen zu den Elementen werden ebenfalls angezeigt, z. B. der Name des Benutzers, der sie angefordert hat, oder der Name des Projekts, zu dem das Element gehört.
 
-   Die ersten 20 Elemente auf Ihrer **[!UICONTROL Genehmigungen]** Listenanzeige. Zusätzliche Informationen zu den Elementen werden ebenfalls angezeigt, z. B. der Name des Benutzers, der sie angefordert hat, oder der Name des Projekts, zu dem das Element gehört.
-
-1. Klicken **[!UICONTROL + verbleiben `<number>` more]** , um weitere Elemente anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL + verbleibende `<number>` Mehr]** , um weitere Elemente anzuzeigen.
 
 1. Sie sollten Genehmigungen für die folgenden Objekte verwalten:
 
    * **Projekte**
 
-      Klicken **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** , um die Statusänderung eines Projekts zu akzeptieren oder abzulehnen.
+     Klicken Sie auf **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** , um die Statusänderung eines Projekts zu akzeptieren oder abzulehnen.
 
    * **Aufgaben**
 
-      Klicken **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** , um die Statusänderung einer Aufgabe zu akzeptieren oder abzulehnen.
+     Klicken Sie auf **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** , um die Statusänderung einer Aufgabe zu akzeptieren oder abzulehnen.
 
    * **Probleme**
 
-      Klicken **[!UICONTROL Genehmigen]** oder **[!DNL Reject]** , um die Statusänderung eines Problems zu akzeptieren oder abzulehnen.
+     Klicken Sie auf **[!UICONTROL Genehmigen]** oder **[!DNL Reject]** , um die Statusänderung eines Problems zu akzeptieren oder abzulehnen.
 
    * **Dokumente**
 
-      Klicken **[!UICONTROL Genehmigen]** zur Genehmigung eines Dokuments, **[!UICONTROL Ablehnen]** ihn abzulehnen oder **[!UICONTROL Änderungen]** um anzugeben, dass Sie die Genehmigung erteilt haben, das Dokument jedoch zusätzliche Änderungen erfordert.\
-      (Optional) Bewegen Sie den Mauszeiger über die Dokumentminiatur, um auf das Lupensymbol zu klicken und eine Vorschau des Dokuments anzuzeigen.
+     Klicken Sie auf &quot;**[!UICONTROL Genehmigen]**&quot;, um ein Dokument zu genehmigen, &quot;**[!UICONTROL Ablehnen]**&quot;, um es abzulehnen,&quot;oder &quot;**[!UICONTROL Änderungen]**&quot;, um anzugeben, dass Sie es genehmigen, das Dokument jedoch zusätzliche Änderungen erfordert.\
+     (Optional) Bewegen Sie den Mauszeiger über die Dokumentminiatur, um auf das Lupensymbol zu klicken und eine Vorschau des Dokuments anzuzeigen.
 
-   * **Testsendungen**&#x200B; Klicken Sie auf den Testversand-Namen, um ihn in [!DNL Workfront] in einem separaten Tab und verwalten Sie die Validierung.
-   * **Alle Anforderungen**
+   * **Testsendungen** &#x200B; Klicken Sie auf den Testversand-Namen, um ihn in [!DNL Workfront] auf einer separaten Registerkarte zu öffnen und die Genehmigung zu verwalten.
+   * **Zugriffsanforderungen**
 
-      Klicken **[!UICONTROL Zugriff gewähren]** um dem angeforderten Objekt erweiterte Berechtigungen zu erteilen, oder **[!UICONTROL Ignorieren]** , um die Zugriffsanfrage zu ignorieren.
+     Klicken Sie auf **[!UICONTROL Zugriff gewähren]** , um dem angeforderten Objekt erweiterte Berechtigungen zu gewähren, oder auf **[!UICONTROL Ignorieren]** , um die Anfrage für weiteren Zugriff zu ignorieren.
 
-1. (Optional) Klicken Sie auf den Namen des zur Genehmigung gesendeten Objekts, um es in [!DNL Workfront] in einer neuen Browser-Registerkarte.
+1. (Optional) Klicken Sie auf den Namen des zur Genehmigung gesendeten Objekts, um es in [!DNL Workfront] in einer neuen Registerkarte des Browsers zu öffnen.

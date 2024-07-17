@@ -27,7 +27,7 @@ Beachten Sie Folgendes, bevor Sie eine &quot;IF&quot;-Anweisung erstellen:
 * Wir empfehlen ein grundlegendes Verständnis jeder allgemeinen Programmiersprache, aber wir benötigen sie nicht für diesen Leitfaden.
 * Wir benötigen ein erweitertes Verständnis der Syntax des Workfront-Textmodus. Dies hilft beim Verständnis der Terminologie der Workfront-API und beim Verständnis der Syntax benutzerdefinierter Daten in diesen spezifischen Formaten.
 
-  Informationen zur Workfront-API finden Sie unter [API-Grundlagen](../../../wf-api/general/api-basics.md).
+  Weitere Informationen zur Workfront-API finden Sie unter [API-Grundlagen](../../../wf-api/general/api-basics.md).
 
   Informationen zur Verwendung des Textmodus finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
@@ -55,9 +55,9 @@ Sie können &quot;IF&quot;-Anweisungen in Workfront im folgenden Format erstelle
    * Der Status entspricht einem der verfügbaren Status für ein bestimmtes Objekt.
    * Der prozentuale Abschluss einer Aufgabe ist kleiner oder größer als ein bestimmter Prozentsatz.
 
-* **Bedingungsoperator** = dies ist der Operator, der Ihnen beim Erstellen der Bedingung Ihrer &quot;IF&quot;-Anweisung hilft. Beispielsweise sind Bedingungsoperatoren &quot;ist gleich&quot;oder &quot;ist größer als&quot;. Eine Liste der Bedingungsoperatoren, die Sie in -Anweisungen verwenden können, finden Sie unter [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+* **Bedingungsoperator** = Dies ist der Operator, der Ihnen beim Erstellen der Bedingung Ihrer &quot;IF&quot;-Anweisung hilft. Beispielsweise sind Bedingungsoperatoren &quot;ist gleich&quot;oder &quot;ist größer als&quot;. Eine Liste der Bedingungsoperatoren, die Sie in -Anweisungen verwenden können, finden Sie unter [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True***Ausdruck** = Dies ist die Variable &quot;True&quot;, die die Gleichung angibt, welcher Indikator angezeigt werden soll, sobald die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
+* **True****Expression** = Dies ist die &quot;True&quot;-Variable, die die Gleichung angibt, welcher Indikator angezeigt werden soll, sobald die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
 
 * **Falscher Ausdruck** = Dies ist die Variable &quot;False&quot;, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung nicht erfüllt sind (falsche Indikatoren).
 
@@ -123,4 +123,4 @@ Sie können diese Optionen weiter untersuchen, indem Sie diese Beispiele in Ihre
 
 Die beste Möglichkeit, dies zu erfahren, besteht darin, mit verschiedenen Feldern und Szenarien zu experimentieren. Machen Sie sich auch mit dem API Explorer vertraut, der die zu verwendenden Feldnamen anzeigt. Informationen zum API Explorer finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
 
-Weitere Informationen zur Workfront-Syntax berechneter Datenausdrücke finden Sie unter [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Weitere Informationen zur Workfront-Syntax für berechnete Datenausdrücke finden Sie unter [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).

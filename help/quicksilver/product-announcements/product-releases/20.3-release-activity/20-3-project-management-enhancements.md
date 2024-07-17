@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen des Projektmanagements beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 
-Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Benutzerdefinierte Feldformatierung in Listen
 
@@ -30,7 +30,7 @@ Wenn der Systemadministrator jetzt benutzerdefinierte Formularfelder erstellt, d
 
 Beachten Sie, dass diese Funktion nur in den aktualisierten Listen verfügbar ist. Weitere Informationen zu aktualisierten Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Informationen dazu, wie ein Workfront-Administrator Textfelder mit Formatierung erstellt, finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Informationen dazu, wie ein Workfront-Administrator Textfelder mit Formatierung erstellt, finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Aktualisiertes Erscheinungsbild verschiedener globaler Kopfzeilen
 
@@ -72,7 +72,7 @@ Das neue Zusammenfassungsfenster rechts neben der Dokumentliste ist jetzt mit ei
 
 Einige Aktionen sind derzeit nicht verfügbar, werden aber in einer zukünftigen Version hinzugefügt. Diese Aktionen umfassen den Testversand-Workflow.
 
-Weitere Informationen finden Sie unter [Übersicht über Dokumente](../../../documents/managing-documents/summary-for-documents.md).
+Weitere Informationen finden Sie unter [Überblick über Dokumente](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Verbesserungen bei den Dokumentdetails
 
@@ -99,7 +99,7 @@ Damit Ihre Gruppenadministratoren mehr Autonomie erhalten und Ihre Workflows auf
 
 Alle Projektvoreinstellungen können auf Gruppenebene angepasst werden, mit Ausnahme von Timeline-Berechnungen und benutzerdefinierten Quartalen.
 
-Weitere Informationen zu den Voreinstellungen für Gruppenprojekte finden Sie unter [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+Weitere Informationen zu den Voreinstellungen für Gruppenprojekte finden Sie unter [Konfigurieren von Projekteigenschaften für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 ## Neu für Administratoren: Erstellen Sie benutzerdefinierte Formularfelder, in denen Benutzer Text formatieren können
 
@@ -109,9 +109,9 @@ Weitere Informationen finden Sie unter Benutzerdefiniertes Formular erstellen im
 
 ## Neu für Administratoren: Erstellen Sie sowohl einen internen Namen als auch eine Beschriftung für ein Feld mit benutzerdefiniertem Formular
 
-Um Ihnen mehr Flexibilität bei der Beschriftung und Umbenennung von benutzerdefinierten Formularfeldern zu geben, können Sie jetzt eine interne *name* für ein Feld zusätzlich zum *label* Sie haben verwendet. Dadurch haben Sie die Möglichkeit, die Feldbeschriftung zu ändern, die Ihre Benutzer sehen, ohne den Feldnamen zu ändern, den das System sieht.
+Um Ihnen mehr Flexibilität bei der Beschriftung und Umbenennung von benutzerdefinierten Formularfeldern zu bieten, können Sie jetzt zusätzlich zu der von Ihnen verwendeten benutzerseitigen *Beschriftung* einen internen *Namen* für ein Feld erstellen. Dadurch haben Sie die Möglichkeit, die Feldbeschriftung zu ändern, die Ihre Benutzer sehen, ohne den Feldnamen zu ändern, den das System sieht.
 
 In der Vergangenheit wurde die Beschriftung sowohl über dem Feld für Benutzer angezeigt als auch vom System verwendet, um das Feld zu identifizieren. Das Ändern der Beschriftung für Benutzer führte dazu, dass das Feld überall dort fehlschlug, wo es verwendet wurde, da es vom System nicht mehr identifiziert werden konnte.
 
-Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

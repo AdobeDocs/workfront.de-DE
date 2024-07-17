@@ -38,7 +38,7 @@ Informationen zu Genehmigungen, die mit Dokumenten oder Testsendungen verknüpft
 >
 >Auf Gruppenebene ist ein globaler Genehmigungsprozess auf Arbeitselemente und Status beschränkt, die zur Gruppe gehören.
 >
->Informationen zu Genehmigungsprozessen für die einmalige Verwendung finden Sie unter [Übersicht über den Genehmigungsprozess](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) und [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+>Weitere Informationen zu Genehmigungsprozessen für die einmalige Verwendung finden Sie unter [Übersicht über den Genehmigungsprozess](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) und [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Zugriffsanforderungen
 
@@ -69,7 +69,7 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,19 +77,19 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. (Bedingt) Wenn Sie einen Validierungsprozess auf Systemebene erstellen, klicken Sie auf **Prozesse** > **Genehmigungen** im linken Bereich.
+1. (Bedingt) Wenn Sie einen Genehmigungsprozess auf Systemebene erstellen, klicken Sie im linken Bereich auf **Prozesse** > **Validierungen** .
 
    Oder
 
-   Wenn Sie einen Validierungsprozess auf Gruppenebene erstellen, klicken Sie auf **Gruppen** ![](assets/groups-icon.png), klicken Sie auf den Namen der Gruppe und dann auf **Genehmigungen**.
+   Wenn Sie einen Validierungsprozess auf Gruppenebene erstellen, klicken Sie auf **Gruppen** ![](assets/groups-icon.png), klicken Sie auf den Namen der Gruppe und dann auf **Validierungen**.
 
    <!--hidden for the new tab redesign - August 2023: 
    ![](assets/approvals-area-in-setup-processes.png)
    -->
 
-1. Wählen Sie entweder **Projektgenehmigungen**, **Aufgabenvalidierungen** oder **Emissionsgenehmigungen** Registerkarte.
+1. Wählen Sie entweder die Registerkarte **Projektgenehmigungen**, **Aufgabengenehmigungen** oder **Ausgabengenehmigungen** aus.
 
-1. Klicks **Neuer Genehmigungsprozess**.
+1. Klicken Sie auf **Neuer Genehmigungsprozess**.
 1. Geben Sie die folgenden Informationen in das angezeigte Feld ein:
 
    <table style="table-layout:auto"> 
@@ -98,11 +98,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <tbody> 
      <tr> 
       <td role="rowheader">Name des Genehmigungsprozesses</td> 
-      <td><p>Geben Sie einen beschreibenden Namen für den Genehmigungsprozess ein. Benutzer sehen diesen Namen, wenn sie den Genehmigungsprozess auf ein Objekt anwenden, wie unter <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit</a>.</p></td> 
+      <td><p>Geben Sie einen beschreibenden Namen für den Genehmigungsprozess ein. Benutzer sehen diesen Namen, wenn sie den Genehmigungsprozess auf ein Objekt anwenden, wie unter <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Verknüpfen neuer oder vorhandener Genehmigungsprozess mit Arbeit</a> beschrieben.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
-      <td><p>Geben Sie eine Beschreibung des Validierungsprozesses ein. Dies wird im <b>Genehmigungen</b> im Abschnitt <b>Einrichtung</b> neben dem Namen des Validierungsprozesses.</p></td> 
+      <td><p>Geben Sie eine Beschreibung des Validierungsprozesses ein. Dies wird im Abschnitt <b>Genehmigungen</b> im Bereich <b>Einrichtung</b> neben dem Namen des Genehmigungsprozesses angezeigt.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ist aktiv</td> 
@@ -112,13 +112,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td role="rowheader">Dieser Genehmigungsprozess kann genutzt werden von </td> 
       <td> <p>Wenn der Validierungsprozess für Projekte, Aufgaben, Probleme und Vorlagen verfügbar sein soll, die nur zu einer bestimmten Gruppe gehören, geben Sie zunächst den Namen der Gruppe ein und wählen Sie dann den Namen aus, wenn er angezeigt wird:</p> 
        <ul> 
-       <li>Wenn Sie Systemadministrator sind oder über Administratorzugriff auf Genehmigungsprozesse verfügen, können Sie beim Eingeben des Namens jede Gruppe im System sehen. <b>Alle Gruppen</b> ist standardmäßig ausgewählt. </li> 
-       <li>Wenn Sie Gruppenadministrator ohne Administratorzugriff auf Genehmigungsprozesse sind, können Sie den Genehmigungsprozess jeder von Ihnen verwalteten Gruppe zuweisen, wenn Sie deren Namen eingeben. Die <b>Alle Gruppen</b> ist nicht verfügbar.</li> 
+       <li>Wenn Sie Systemadministrator sind oder über Administratorzugriff auf Genehmigungsprozesse verfügen, können Sie beim Eingeben des Namens jede Gruppe im System sehen. <b>Alle Gruppen</b> sind standardmäßig ausgewählt. </li> 
+       <li>Wenn Sie Gruppenadministrator ohne Administratorzugriff auf Genehmigungsprozesse sind, können Sie den Genehmigungsprozess jeder von Ihnen verwalteten Gruppe zuweisen, wenn Sie deren Namen eingeben. Die Option <b>Alle Gruppen</b> ist nicht verfügbar.</li> 
        </ul> 
        <p>Diese Option steht nicht für Genehmigungsprozesse zur einmaligen Verwendung zur Verfügung.</p> 
-       <p><b>WARNUNG</b>: Wenn Sie Änderungen am gruppenspezifischen Validierungsprozess vornehmen, ändern sich möglicherweise die vorhandenen Genehmigungsprozesse, die bereits mit Arbeitselementen verknüpft sind. Weitere Informationen zu diesen Änderungen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse</a>.</p> 
-       <p>Informationen zur Auflistung und Verwaltung der Validierungsprozesse Ihrer Gruppe auf der Seite Ihrer Gruppe finden Sie unter <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Validierungsprozesse auf Gruppenebene</a>. </p> 
-       <p>Informationen zum administrativen Zugriff auf Genehmigungsprozesse finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> </td> 
+       <p><b>WARNUNG</b>: Wenn Sie Änderungen am gruppenspezifischen Genehmigungsprozess vornehmen, ändern sich möglicherweise die vorhandenen Genehmigungsprozesse, die bereits mit Arbeitselementen verknüpft sind. Weitere Informationen zu diesen Änderungen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse</a>.</p> 
+       <p>Informationen zum Auflisten und Verwalten der Validierungsprozesse Ihrer Gruppe auf der Seite Ihrer Gruppe finden Sie unter <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Validierungsprozesse auf Gruppenebene</a>. </p> 
+       <p>Informationen zum administrativen Zugriff auf Genehmigungsprozesse finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -133,24 +133,24 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Genehmigungsprozess starten, wenn der Status festgelegt ist auf</p> </td> 
-      <td> <p>Wählen Sie den Status aus, der den Genehmigungsprozess für Arbeitselemente Trigger. Wenn ein Arbeitselement auf diesen Status aktualisiert wird, beginnt der Genehmigungsprozess. </p> <p>Derselbe Status kann nicht für mehrere Genehmigungsprozess-Pfade ausgewählt werden.</p> <p>Die verfügbaren Status basieren auf dem, was unter der Option ausgewählt wurde. <b>Diese Genehmigung kann von</b> (Erläuterung in der obigen Tabelle):</p> 
+      <td> <p>Wählen Sie den Status aus, der den Genehmigungsprozess für Arbeitselemente Trigger. Wenn ein Arbeitselement auf diesen Status aktualisiert wird, beginnt der Genehmigungsprozess. </p> <p>Derselbe Status kann nicht für mehrere Genehmigungsprozess-Pfade ausgewählt werden.</p> <p>Die verfügbaren Status basieren auf dem, was unter der Option <b>Diese Genehmigung kann von </b> verwendet werden (siehe Tabelle oben):</p> 
        <ul> 
-       <li> Wenn <b>Alle Gruppen</b> ausgewählt ist, sind nur systemweite Status verfügbar.
+       <li> Wenn <b>Alle Gruppen</b> ausgewählt ist, sind nur systemweite Status verfügbar
        <li> <p>Wenn eine bestimmte Gruppe ausgewählt ist, sind nur die für diese Gruppe verfügbaren Status verfügbar</p> </li> 
-       </ul> <p>Informationen zur Funktionsweise des Genehmigungsprozesses mit Status finden Sie im Abschnitt . <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Wie Validierungsprozesse auf Status basieren</a> im Artikel <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
+       </ul> <p>Informationen dazu, wie der Genehmigungsprozess mit Status funktioniert, finden Sie im Abschnitt <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Wie Genehmigungsprozesse auf Status basieren</a> im Artikel <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name der Phase</td> 
-      <td>(Optional) Geben Sie einen Namen ein, der den ersten Schritt des Pfads beschreibt. Wenn Sie keinen Staging-Namen angeben, lautet der Standardname <b>Stufe 1</b>.</td> 
+      <td>(Optional) Geben Sie einen Namen ein, der den ersten Schritt des Pfads beschreibt. Wenn Sie keinen Staging-Namen angeben, lautet der Standardname <b>Staging 1</b>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Genehmigende Personen</td> 
-      <td> <p>Beginnen Sie mit der Eingabe des Namens des Benutzers, Teams oder der Rolle, die Sie als Genehmiger für diese Phase festlegen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Sie können nur aktive Benutzer hinzufügen. <span>Vorgangsrollen</span>und Teams. </p>
+      <td> <p>Beginnen Sie mit der Eingabe des Namens des Benutzers, Teams oder der Rolle, die Sie als Genehmiger für diese Phase festlegen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Sie können nur aktive Benutzer, <span>Jobrollen</span> und Teams hinzufügen. </p>
 
-   <p><b>TIPP</b>:</p>
+   <p><b>TIP</b>:</p>
 
    <p>Beachten Sie beim Hinzufügen eines Benutzers als Genehmiger den Avatar, die Primäre Rolle des Benutzers oder dessen E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.</p>
-      <p>Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Benutzern Zugriff gewähren</a>. </p>
+      <p>Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Gewähren des Zugriffs für Benutzer</a>. </p>
 
    <p><b>NOTE</b>:
 
@@ -161,11 +161,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
        <li> <p>Wenn Sie dem Projektsponsor eine Genehmigung zuweisen und niemand als Sponsor eines Projekts benannt ist, wird die Genehmigung dem Projekteigentümer neu zugewiesen. Wenn niemand als Projekteigentümer bestimmt wurde, wird die Genehmigung dem Workfront-Administrator zugewiesen. </p> </li> 
       </ul> 
        <ul> 
-       <li> <p>Wenn Sie einer Rolle eine Genehmigung zuweisen, wird die <b>Genehmiger muss nicht im Projektteam sein (für Genehmigungsprozesse, die eine Rolle enthalten)</b> deaktiviert ist, es gibt jedoch keine Rollen im Projektteam, die mit der Rolle bei der Genehmigung übereinstimmen. Die Genehmigung wird dem Projekteigentümer neu zugewiesen. Weitere Informationen zu den Validierungseinstellungen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Globale Genehmigungseinstellungen konfigurieren</a>.</p> </li> 
+       <li> <p>Wenn Sie einer Rolle eine Genehmigung zuweisen und der <b>Genehmiger nicht im Projektteam sein muss (für Genehmigungsprozesse, die eine Rolle enthalten)</b> deaktiviert ist, es jedoch keine Rollen im Projektteam gibt, die mit der Rolle in der Genehmigung übereinstimmen, wird die Genehmigung dem Projekteigentümer neu zugewiesen. Weitere Informationen zu den Genehmigungseinstellungen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Globale Genehmigungseinstellungen konfigurieren</a>.</p> </li> 
        </ul> 
        <ul> 
        <li> <p>Wenn Sie dem Projekteigentümer eine Genehmigung zuweisen und niemand als Projekteigentümer bestimmt wird, wird die Genehmigung dem Workfront-Hauptadministrator neu zugewiesen, wie im Abschnitt Kundeninformationen im Bereich Einrichtung angegeben. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Grundlegende Informationen für Ihr System konfigurieren</a>.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Sie können diesen Vorgang wiederholen, um mehrere Genehmiger zur Bühne hinzuzufügen. Eine einzelne Phase kann eine Kombination aus Benutzern, Teams und Rollen als Genehmiger enthalten. Die Anzahl der Genehmiger, die Sie einer Bühne hinzufügen können, ist unbegrenzt.</p> <p><b>WICHTIG</b>:  <p>Wenn Sie Auftragsrollen als Genehmiger zuweisen, können alle Benutzer, die mit dieser Auftragsrolle verknüpft sind und sich ebenfalls im Projektteam befinden, eine Entscheidung über die Genehmigung treffen. </p> <p>Wenn Sie ein Team als Genehmiger zuweisen, kann jeder Benutzer in diesem Team eine Entscheidung über die Genehmigung treffen. </p> <p>Weitere Informationen zum Projektteam finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Übersicht über das Projektteam</a>. Weitere Informationen zur Genehmigung der Arbeit finden Sie unter <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Validierung der Arbeit </a>.</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Sie können diesen Vorgang wiederholen, um mehrere Genehmiger zur Bühne hinzuzufügen. Eine einzelne Phase kann eine Kombination aus Benutzern, Teams und Rollen als Genehmiger enthalten. Die Anzahl der Genehmiger, die Sie einer Bühne hinzufügen können, ist unbegrenzt.</p> <p><b>WICHTIG</b>:  <p>Wenn Sie Auftragsrollen als Genehmiger zuweisen, können alle Benutzer, die mit dieser Auftragsrolle verknüpft sind und sich ebenfalls im Projektteam befinden, eine Entscheidung über die Genehmigung treffen. </p> <p>Wenn Sie ein Team als Genehmiger zuweisen, kann jeder Benutzer in diesem Team eine Entscheidung über die Genehmigung treffen. </p> <p>Weitere Informationen zum Projektteam finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Übersicht über das Projektteam</a>. Weitere Informationen zur Genehmigung der Arbeit finden Sie unter <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Genehmigung der Arbeit </a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nur eine Entscheidung ist erforderlich <br> <br>(Wird nur angezeigt, wenn Sie mehrere Genehmiger zur Bühne hinzufügen.) </td> 
@@ -179,10 +179,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td role="rowheader">Wählen Sie aus, was passiert, wenn die Validierung abgelehnt wird</p> </td> 
       <td> <p>Wählen Sie die Aktion aus, die ausgeführt werden soll, wenn das Arbeitselement in einer beliebigen Phase des Pfads abgelehnt wird:</p> 
        <ul> 
-       <li><b>Erstellen eines Problems</b>: (Nur für Projekt- und Aufgabengenehmigungsprozesse verfügbar) Es wird ein Problem im Projekt oder in der Aufgabe erstellt, in dem der Genehmigungsprozess ausgeführt wird. Die standardmäßig zugewiesene Ressource für die Aufgabe oder der Eigentümer des Projekts wird dem Problem zugewiesen. Standardmäßig lautet der Name des erstellten Problems <b>Genehmigung abgelehnt (&lt;project or="" task="" name=""&gt;)</b>. Dies ist ein Zurückweisungsproblem, das je nach Validierungsprozess, in dem die Zurückweisung erfolgte, unter die Aufgabe oder das Projekt eingegeben wurde.</li> 
-       <li> <p><b>Status festlegen auf</b>: Wählen Sie eine der folgenden Optionen aus:</p> 
+       <li><b>Erstellen eines Problems</b>: (Nur für Projekt- und Aufgabengenehmigungsprozesse verfügbar) Es wird ein Problem im Projekt oder in der Aufgabe erstellt, in dem der Genehmigungsprozess ausgeführt wird. Die standardmäßig zugewiesene Ressource für die Aufgabe oder der Eigentümer des Projekts wird dem Problem zugewiesen. Standardmäßig lautet der Name des erstellten Problems <b>Abgelehnte Genehmigung (&lt;Projekt- oder Aufgabenname&gt;)</b>. Dies ist ein Zurückweisungsproblem, das je nach Validierungsprozess, in dem die Zurückweisung erfolgte, unter die Aufgabe oder das Projekt eingegeben wurde.</li> 
+       <li> <p><b>Status auf </b> festlegen: Wählen Sie eine der folgenden Optionen aus:</p> 
        <ul> 
-       <li><b>Vorheriger Status</b>: Das abgelehnte Projekt, die zurückgewiesene Aufgabe oder das abgelehnte Problem kehrt zum Status zurück, bevor der Status aktiv ist.</li> 
+       <li><b>Vorheriger Status</b>: Das zurückgewiesene Projekt, die zurückgewiesene Aufgabe oder das zurückgewiesene Problem kehrt zum Status zurück, bevor der Status aktiviert wird.</li> 
        <li><p><b>Jeder andere Status in der Liste</b>: Das zurückgewiesene Objekt wechselt in den von Ihnen gewählten Status, z. B. "Auf Halten". Sie können einen der Standardstatus oder einen benutzerdefinierten Status auswählen, den Sie Ihrem Workfront-System hinzugefügt haben.</p>
        <p>Wenn Sie als Zurückweisungsstatus den einem Validierungsprozess zugeordneten Status auswählen, wechselt das zurückgewiesene Objekt in den ausgewählten Status und wird als "Genehmigung ausstehend"markiert.</p> 
        <p> Wenn Sie beispielsweise für den Zurückweisungsstatus die Option "Auf Halten"wählen und der Status "Auf Halten"mit einem Genehmigungsprozess verknüpft ist, wird das zurückgewiesene Objekt in den Status "Auf Halten - Genehmigung ausstehend"versetzt, was die Genehmigung erfordert.</p>
@@ -198,11 +198,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicken Sie auf **Speichern**.
 1. Nachdem der Genehmigungsprozess erstellt wurde, fahren Sie mit einem der folgenden Schritte fort:
 
-   * Verknüpfen Sie den Genehmigungsprozess mit bestimmten Projekten, Aufgaben oder Problemen im gesamten System, wie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-   * Benachrichtigen Sie Benutzer außerhalb von Workfront darüber, dass der Genehmigungsprozess für sie verfügbar ist, um sie mit ihren Projekten, Aufgaben oder Problemen zu verknüpfen, wie hier beschrieben: [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Verknüpfen Sie den Genehmigungsprozess mit bestimmten Projekten, Aufgaben oder Problemen im gesamten System, wie unter [Verknüpfen neuer oder vorhandener Genehmigungsprozess mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) beschrieben.
+   * Benachrichtigen Sie Benutzer außerhalb von Workfront darüber, dass der Genehmigungsprozess für sie verfügbar ist, um sie mit ihren Projekten, Aufgaben oder Problemen zu verknüpfen, wie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) beschrieben.
    * Erstellen Sie einen weiteren Validierungsprozess, der ausgelöst wird, wenn dieser Validierungsprozess abgelehnt wird und das Element einen anderen Status erhält. Auf diese Weise können Sie Genehmigungsprozesse miteinander verknüpfen.
 
-Informationen zum Bearbeiten eines Genehmigungsprozesses finden Sie unter [Validierungsprozess bearbeiten](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+Informationen zum Bearbeiten eines Genehmigungsprozesses finden Sie unter [Bearbeiten eines Genehmigungsprozesses](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
 ## Verknüpfen eines Genehmigungsprozesses mit einem Arbeitselement
 
@@ -220,6 +220,6 @@ Anweisungen zum Verknüpfen eines Genehmigungsprozesses mit einem Arbeitselement
 
 ## Benutzer können globale Genehmigungsprozesse für ein einzelnes Arbeitselement ändern
 
-Standardmäßig können Benutzer, die Berechtigungen für Projekte, Aufgaben und Probleme verwalten, Genehmigungsprozesse für einzelne Anwendungen erstellen. Informationen zum Hinzufügen von Genehmigungsprozessen für die einmalige Verwendung zu Projekten, Aufgaben und Problemen finden Sie im Abschnitt [Verknüpfen eines einmaligen Genehmigungsprozesses mit einer Projekt-, Aufgaben-, Problem-, Vorlagen- oder Vorlagenaufgabe](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) im Artikel [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Standardmäßig können Benutzer, die Berechtigungen für Projekte, Aufgaben und Probleme verwalten, Genehmigungsprozesse für einzelne Anwendungen erstellen. Informationen zum Hinzufügen von Genehmigungsprozessen für die einmalige Verwendung zu Projekten, Aufgaben und Problemen finden Sie im Abschnitt [Verknüpfen eines Genehmigungsprozesses für die einmalige Verwendung mit einem Projekt, einer Aufgabe, einem Problem, einer Vorlage oder einer Vorlagenaufgabe](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) im Artikel [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-Benutzer können auch Einstellungen für globale Genehmigungsprozesse ändern, die mit einem Arbeitselement verknüpft sind. Diese Änderungen betreffen nur das Projekt, die Aufgabe oder das Problem, das mit dem Genehmigungsprozess auf Systemebene verbunden ist. Weitere Informationen finden Sie im Abschnitt . [Globalen Genehmigungsprozess zur Verwendung für ein bestimmtes Objekt ändern](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process) im Artikel [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)).
+Benutzer können auch Einstellungen für globale Genehmigungsprozesse ändern, die mit einem Arbeitselement verknüpft sind. Diese Änderungen betreffen nur das Projekt, die Aufgabe oder das Problem, das mit dem Genehmigungsprozess auf Systemebene verbunden ist. Weitere Informationen finden Sie im Abschnitt [Globalen Genehmigungsprozess für die Verwendung in einem bestimmten Objekt ändern](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process) im Artikel [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)).

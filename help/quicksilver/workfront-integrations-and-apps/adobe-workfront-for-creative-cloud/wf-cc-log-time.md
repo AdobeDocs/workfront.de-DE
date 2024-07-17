@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Protokollzeit mit [!DNL Adobe Workfront] plugin
+# Protokollzeit mit dem Plug-in [!DNL Adobe Workfront]
 
-Sie können die Zeit für Projekte, Aufgaben und Probleme, an denen Sie arbeiten, direkt in einem der folgenden Schritte protokollieren [!DNL Adobe Creative Cloud] Anwendungen:
+Sie können die Zeit für Projekte, Aufgaben und Probleme, an denen Sie arbeiten, direkt in einer der folgenden [!DNL Adobe Creative Cloud]-Anwendungen protokollieren:
 
 {{cc-app-list}}
 
@@ -41,16 +41,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL Zugriff auf Aufgaben oder Probleme bearbeiten</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Zugriff auf Aufgaben oder Probleme bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Log Hours] Berechtigung für die Aufgabe oder das Problem</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>[!UICONTROL Log Hours] Berechtigung für die Aufgabe oder das Problem</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
@@ -58,22 +58,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Protokollzeit mit dem Adobe Workfront-Plug-in
 
-Die [!DNL Workfront] Der Administrator bestimmt, welche projektspezifischen Stundentypen verfügbar sind, wie unter [Stundentypen verwalten](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+Der Administrator [!DNL Workfront] bestimmt, welche projektspezifischen Stundentypen verfügbar sind, wie unter [Verwalten von Stundentypen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) beschrieben.
 
 So protokollieren Sie die Zeit mit dem Workfront-Plug-in:
 
-1. Klicken Sie auf **[!UICONTROL Menü]** Symbol oben rechts und wählen Sie **[!UICONTROL Arbeitsliste]**. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Aus dem **[!UICONTROL Arbeitsliste]** wählen Sie das Arbeitselement aus, für das Sie die Zeit protokollieren möchten.
-1. Klicken **[!UICONTROL Zeit]** in der Navigationsleiste.
+1. Wählen Sie in der **[!UICONTROL Arbeitsliste]** das Arbeitselement aus, für das Sie die Zeit protokollieren möchten.
+1. Klicken Sie in der Navigationsleiste auf **[!UICONTROL Zeit]** .
 
    ![](assets/log-time-350x337.png)
 
-1. (Optional) Wählen Sie die **[!UICONTROL Stündentyp]** aus dem Dropdown-Menü.
+1. (Optional) Wählen Sie den **[!UICONTROL Stunden-Typ]** aus dem Dropdownmenü aus.
 1. Geben Sie die Zeit in Stunden für den gewünschten Tag ein.
 
    ![](assets/copy-of-log-hours-350x236.png)
 
-1. Klicken **[!UICONTROL Einsenden]**.
+1. Klicken Sie auf **[!UICONTROL Senden]**.

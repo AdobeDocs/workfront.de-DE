@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Filter: unvollständige projektübergreifende Nachfolger anzeigen'
+title: "Filter: unvollständige projektübergreifende Nachfolger anzeigen"
 description: Dieser Aufgabenfilter gibt unvollständige projektübergreifende Nachfolger zurück.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: aea955b1-581a-4ce0-8634-863ba1083c05
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 0%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -28,11 +28,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Filteränderung anfordern </p>
+   <td> <p>Filteranforderung </p>
    <p>Berichtänderung planen</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,10 +55,10 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So wenden Sie diesen Filter an:
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Filter** Dropdown-Menü auswählen **Neuer Filter**.
+1. Wählen Sie aus dem Dropdownmenü **Filter** die Option **Neuer Filter** aus.
 
-1. Klicken **In den Textmodus wechseln**.
-1. Im **Festlegen von Filterregeln für Ihren Bericht** -Bereich, fügen Sie den folgenden Code ein:
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Fügen Sie im Bereich **Filterregeln für Ihren Bericht festlegen** den folgenden Code ein:
    <pre>percentComplete=100<br>percentComplete_Mod=ne<br>succeorsMM:projectID=FIELD:projectID<br>succeorsMM:projectID_Mod=ne</pre>
 
-1. Klicken **Filter speichern**.
+1. Klicken Sie auf **Filter speichern**.

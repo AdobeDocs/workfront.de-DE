@@ -31,7 +31,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -43,19 +43,19 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p> Berechtigungen für das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p> Berechtigungen für das Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
 Bevor die Anforderungswarteschlange für Benutzer im Bereich Anforderungen verfügbar ist, müssen Sie ein Projekt mit den folgenden Einstellungen erstellen:
 
 * Legen Sie ihn als Anforderungswarteschlange fest. Weitere Informationen zum Erstellen einer Anforderungswarteschlange finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-* Aktualisieren Sie den Status des Projekts auf &quot;Aktuell&quot;.
+* Aktualisieren Sie den Status des Projekts auf Aktuell .
 
 ## Zugriff auf eine Anforderungswarteschlange gewähren
 
@@ -65,18 +65,18 @@ Bevor die Anforderungswarteschlange für Benutzer im Bereich Anforderungen verf�
    >
    >Im Bereich Anforderungen werden nur Projekte mit dem Status Aktuell angezeigt.
 
-1. Klicken **Warteschlangendetails** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Warteschlangendetails**.
-1. Auswählen **Als Warteschlange für Hilfeanfragen veröffentlichen** , um das Projekt als Anforderungswarteschlange zu kennzeichnen.
+1. Klicken Sie im linken Bereich auf **Queue Details** . Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Warteschlangendetails** klicken.
+1. Wählen Sie **Publish als Hilfedokumentwarteschlange** aus, um das Projekt als Anforderungswarteschlange zu kennzeichnen.
 1. Wählen Sie aus den folgenden Optionen aus:
 
    * **Jeder**: Jeder Benutzer kann Anforderungen anzeigen und zur Anforderungswarteschlange hinzufügen.
-   * **Personen, die Zugriff auf dieses Projekt haben**: Benutzer mit Anzeigeberechtigungen für das Projekt können Anforderungen anzeigen und zur Anforderungswarteschlange hinzufügen. 
-   * **Personen in der Firma dieses Projekts**: Benutzer, die mit dem Unternehmen des Projekts verknüpft sind, können Anforderungen anzeigen und hinzufügen. Das mit dem Projekt verknüpfte Unternehmen wird in Klammern neben dieser Option aufgeführt. 
-   * **Personen in der Gruppe dieses Projekts**:Benutzer, die mit der Gruppe des Projekts verknüpft sind, können Anforderungen anzeigen und hinzufügen. Die mit dem Projekt verknüpfte Gruppe wird in Klammern neben dieser Option aufgeführt.
+   * **Personen mit Ansichtszugriff auf dieses Projekt**: Benutzer mit Ansichtsberechtigungen für das Projekt können Anforderungen anzeigen und zur Anforderungswarteschlange hinzufügen. 
+   * **Personen in der Firma dieses Projekts**: Benutzer, die mit der Firma des Projekts verknüpft sind, können Anforderungen anzeigen und hinzufügen. Das mit dem Projekt verknüpfte Unternehmen wird in Klammern neben dieser Option aufgeführt. 
+   * **Personen in der Gruppe dieses Projekts**:Benutzer, die der Gruppe des Projekts zugeordnet sind, können Anforderungen anzeigen und hinzufügen. Die mit dem Projekt verknüpfte Gruppe wird in Klammern neben dieser Option aufgeführt.
 
-      Gruppenwarteschlangen sind nützlich, wenn mehrere Abteilungen ein Workfront-Konto gemeinsam nutzen, um eindeutige Organisationsziele zu erreichen. Jede Abteilung kann über eigene Warteschlangen verfügen, die Mitglieder anderer Gruppen nicht sehen können sollten.
+     Gruppenwarteschlangen sind nützlich, wenn mehrere Abteilungen ein Workfront-Konto gemeinsam nutzen, um eindeutige Organisationsziele zu erreichen. Jede Abteilung kann über eigene Warteschlangen verfügen, die Mitglieder anderer Gruppen nicht sehen können sollten.
 
-      Informationen darüber, wer Berechtigungen für ein Projekt hat, finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).\
-      Gruppen und Unternehmen können beim Bearbeiten des Projekts mit dem Projekt verknüpft werden. Weitere Informationen zum Bearbeiten von Projekten finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+     Weitere Informationen dazu, wer über Berechtigungen für ein Projekt verfügt, finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).\
+     Gruppen und Unternehmen können beim Bearbeiten des Projekts mit dem Projekt verknüpft werden. Weitere Informationen zum Bearbeiten von Projekten finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Klicken Sie auf **Speichern**.

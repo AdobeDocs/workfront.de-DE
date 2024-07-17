@@ -91,7 +91,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Bearbeiten von Datensatzseiten
 
@@ -116,7 +116,7 @@ Beachten Sie beim Hinzufügen von Abschnitten zu einer Datensatzseite Folgendes:
 
 * Es gibt keine Beschränkung dafür, wie viele Abschnitte Sie auf einer Seite haben können.
 * Sie können keinen leeren Abschnitt haben. Sie müssen mindestens ein Feld in einem Abschnitt haben.
-* Sie können Felder per Drag-and-Drop von einem Abschnitt in einen anderen ziehen. Weitere Informationen finden Sie im Abschnitt . [Neuanordnen von Feldern auf der Datensatzvorschau- oder Detailseite](#rearrange-fields-in-the-record-preview-or-details-page) in diesem Artikel.
+* Sie können Felder per Drag-and-Drop von einem Abschnitt in einen anderen ziehen. Weitere Informationen finden Sie im Abschnitt [Felder in der Datensatzvorschau oder Detailseite neu anordnen](#rearrange-fields-in-the-record-preview-or-details-page) in diesem Artikel.
 * Wenn Sie alle Felder aus einem Abschnitt entfernen, wird der Abschnitt automatisch gelöscht und kann nicht wiederhergestellt werden.
 
 So fügen Sie einer Datensatzvorschau oder -seite einen Abschnitt hinzu:
@@ -135,46 +135,46 @@ So fügen Sie einer Datensatzvorschau oder -seite einen Abschnitt hinzu:
 
    Oder
 
-   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte.
+   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** ![](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte.
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    ![](assets/details-box.png)
 
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der rechten oberen Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie oben rechts in der Datensatzvorschau auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) , um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
 
    ![](assets/details-page.png)
 
-1. Bewegen Sie in der Datensatzvorschau oder -seite den Mauszeiger über den Leerraum links von den Feldern und klicken Sie auf die Schaltfläche **Abschnitt hinzufügen** icon ![](assets/add-section-icon.png) , um einen Abschnitt hinzuzufügen.
-1. Klicken Sie in den Namen des Abschnitts und ersetzen Sie **Unbenannter Abschnitt** mit einem Namen und klicken Sie dann auf &quot;Enter&quot;. Die unter dem Abschnitt angezeigten Felder sind automatisch Teil des neuen Abschnitts.
-1. Ziehen Sie Felder in den neuen Abschnitt, wie im Abschnitt beschrieben. [Neuanordnen von Feldern auf der Datensatzvorschau- oder Detailseite](#rearrange-fields-in-the-record-preview-or-details-page) in diesem Artikel.
+1. Bewegen Sie in der Datensatzvorschau oder -seite den Mauszeiger über den Leerraum links von den Feldern und klicken Sie dann auf das Symbol **Abschnitt hinzufügen** ![](assets/add-section-icon.png) , um einen Abschnitt hinzuzufügen.
+1. Klicken Sie in den Namen des Abschnitts und ersetzen Sie den Abschnitt **Unbenannt** durch einen Namen. Klicken Sie dann auf &quot;Enter&quot;. Die unter dem Abschnitt angezeigten Felder sind automatisch Teil des neuen Abschnitts.
+1. Ziehen Sie Felder in den neuen Abschnitt, wie im Abschnitt [Felder in der Datensatzvorschau oder Detailseite neu anordnen](#rearrange-fields-in-the-record-preview-or-details-page) in diesem Artikel beschrieben.
 
-1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png).
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Abschnitt zu bearbeiten:
 
-   * Klicks **Umbenennen** , um den Abschnitt umzubenennen
+   * Klicken Sie auf **Umbenennen** , um den Abschnitt umzubenennen.
 
      >[!TIP]
      >
      > Sie können einen Abschnitt inline umbenennen, indem Sie auf den Namen klicken.
 
-   * Klicks **Nach oben** , um den Abschnitt um eine Position nach oben zu verschieben
+   * Klicken Sie auf **Nach oben verschieben** , um den Abschnitt um eine Position nach oben zu verschieben
 
      Oder
 
-     Klicks **Nach unten** um den Abschnitt um eine Position nach unten zu verschieben.
+     Klicken Sie auf **Nach unten verschieben** , um den Abschnitt um eine Position nach unten zu verschieben.
 Alle Felder im Abschnitt werden mit dem Abschnitt verschoben.
 
-   * Klicks **Löschen** , um den Abschnitt zu löschen. Der Abschnitt wird gelöscht und kann nicht wiederhergestellt werden. Alle Benutzer, die auf die Datensätze dieses Typs zugreifen, sehen den gelöschten Abschnitt nicht mehr.
+   * Klicken Sie auf **Löschen** , um den Abschnitt zu löschen. Der Abschnitt wird gelöscht und kann nicht wiederhergestellt werden. Alle Benutzer, die auf die Datensätze dieses Typs zugreifen, sehen den gelöschten Abschnitt nicht mehr.
 
 1. Klicken Sie auf den nach unten zeigenden Pfeil links neben einem Abschnittsnamen, um ihn zu reduzieren, oder auf den nach rechts zeigenden Pfeil, um ihn zu erweitern.
 Alle Abschnitte werden standardmäßig erweitert.
 
-1. (Optional) Klicken Sie auf die **Grab** icon ![](assets/grab-icon.png) links neben einem Abschnittsnamen, und ziehen Sie ihn an die gewünschte Stelle.
+1. (Optional) Klicken Sie auf das Symbol **grab** links neben einem Abschnittsnamen, ziehen Sie es dann per Drag-and-Drop an die gewünschte Position.![](assets/grab-icon.png)
 
    Die neue Position des Abschnitts wird sowohl in der Vorschau als auch auf der Seite aller Datensätze desselben Typs für alle Benutzer aktualisiert, die die Datensätze anzeigen.
 
@@ -196,19 +196,19 @@ Alle Abschnitte werden standardmäßig erweitert.
 
    Oder
 
-   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte.
+   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** ![](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte.
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    ![](assets/details-box.png)
 
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der rechten oberen Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie oben rechts in der Datensatzvorschau auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> , um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
 
    ![](assets/details-page.png)
 
-1. Klicken Sie in der Datensatzvorschau oder -seite auf die **Grab** icon ![](assets/grab-icon.png) links neben einem Feldnamen, und ziehen Sie ihn per Drag-and-Drop an die gewünschte Position. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Klicken Sie in der Datensatzvorschau oder -seite auf das Symbol **grab** ![](assets/grab-icon.png) links neben dem Feldnamen und ziehen Sie es dann an die gewünschte Stelle. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    Die neue Position des Felds wird sowohl in der Vorschau als auch auf der Seite aller Datensätze desselben Typs für alle Benutzer aktualisiert, die die Datensätze anzeigen.
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen beim Testversand mit Version 2020.1 beschrieben. Diese Verbesserungen sind derzeit in der Vorschau-Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 2020.1 verfügbaren Änderungen finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 2020.1 verfügbar sind, finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Aktualisierungen des Messungstools im Testversand-Viewer
 

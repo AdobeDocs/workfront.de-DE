@@ -85,7 +85,7 @@ In der folgenden Aufgabenliste werden zu vereinfachte Aufgabenlisten für die Pr
 
 >[!NOTE]
 >
->Die in diesem Szenario bereitgestellten Anweisungen sind nicht so explizit wie die in [Kick-Start-Szenario: Vorbereitung für Unternehmen, Gruppe, Rolle und Anwender-Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Es wird davon ausgegangen, dass Sie bereits gelernt haben, wie Sie Werte aus den Tabellen &quot;Unternehmen&quot;und &quot;Gruppe&quot;nachschlagen und kopieren können. Daher werden diese Schritte zwar erwähnt, aber nicht spezifisch umrissen.
+>Die in diesem Szenario bereitgestellten Anweisungen sind nicht so explizit wie die Schrittweise Anweisungen unter [Kick-Starts-Szenario: Vorbereitung für Unternehmen, Gruppe, Rolle und Benutzerkick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Es wird davon ausgegangen, dass Sie bereits gelernt haben, wie Sie Werte aus den Tabellen &quot;Unternehmen&quot;und &quot;Gruppe&quot;nachschlagen und kopieren können. Daher werden diese Schritte zwar erwähnt, aber nicht spezifisch umrissen.
 
 1. Konfigurieren.
 1. Importieren Sie Benutzer.
@@ -284,9 +284,9 @@ Sofern Sie keine Projekte in Workfront bereits erstellt haben, sollte diese leer
 
 Legen Sie die Werte für die folgenden Projektfelder fest:
 
-* **isNew column festlegen**
+* **Set isNew column**
 Geben Sie TRUE in die Zeilen 3 bis 6 für die Spalte isNew ein.
-* **Festlegen eindeutiger IDs**
+* **Eindeutige IDs festlegen**
 Geben Sie in jeder Zeile eine eindeutige ID für die ID-Spalte ein. In der Regel funktionieren Ganzzahlen ab 1 bei der Erstellung neuer Datensätze gut.
 * **Festlegen von Projektnamen**
 Geben Sie die Namen der einzelnen Projekte in die Spalte setName ein.
@@ -298,11 +298,11 @@ Geben Sie die Namen der einzelnen Projekte in die Spalte setName ein.
 
   Geben Sie Datum und Uhrzeit in die Spalte setPlannedStartDate mit der Uhrzeit und dem Datum ein, an dem das Projekt beginnen soll. Wenn dies leer gelassen wird, importiert Workfront das Projekt mit dem aktuellen Tagesdatum und einem Zeitstempel für Mitternacht dieses Tages gemäß der Zeitzone des Browsers.
 
-* **Festlegen von Aufgabenzahlen**
+* **Festlegen von Aufgabennummern**
 Geben Sie Werte in die Spalte setTaskNumber ein, um die Reihenfolge zu steuern, in der die Aufgaben im Projektplan angezeigt werden.
 * **Geben Sie Projektdaten an.**
 Geben Sie das geplante Startdatum für jedes Projekt in die Spalte setPlannedStartDate ein.
-* **Legen Sie weitere benötigte Details fest.**
+* **Legen Sie andere erforderliche Details fest.**
 Geben Sie bei Bedarf weitere Details ein, z. B. eine Beschreibung oder den aktuellen Status. Suchen Sie die Gruppen-IDs für jedes Projekt auf der Tabelle &quot;GRUPPENgruppe&quot;und geben Sie sie in die Spalte &quot;setGroupID&quot;für die jeweiligen Projekte ein. Suchen Sie im Arbeitsblatt CMPY Company nach der Firmen-ID für die Projekte und geben Sie sie in die Spalte setCompanyID ein. Suchen Sie die Benutzer-ID für jeden Projekteigentümer auf dem USER User-Blatt und geben Sie sie in die Spalte setOwnerID ein. Suchen Sie die Benutzer-ID für jeden Projektsponsor auf dem USER User-Blatt und geben Sie sie in die Spalte setSponsorID ein.
 
 ![](assets/im9.png)
@@ -315,7 +315,7 @@ Geben Sie bei Bedarf weitere Details ein, z. B. eine Beschreibung oder den aktue
 
 Sie können Informationen zu den Aufgaben im Projekt hinzufügen, während Sie das Projekt mit Kick-Start importieren.
 
-Öffnen Sie die soeben heruntergeladene Datei Workfront.xlsx . **Gehen Sie zum TASK Task-Blatt.**
+Öffnen Sie die soeben heruntergeladene Datei Workfront.xlsx . **Wechseln Sie zum TASK-Aufgabenblatt.**
 
 Sofern Sie keine Aufgaben in Workfront bereits erstellt haben, sollte dieses Blatt leer sein.
 
@@ -329,7 +329,7 @@ Die einfachste Möglichkeit, Aufgaben zuzuordnen, besteht darin, jeweils nur ein
 
 Legen Sie die Werte für die folgenden Aufgabenfelder fest:
 
-* **Festlegen von IDs**
+* **IDs festlegen**
 Geben Sie in jeder Zeile eine eindeutige ID für die ID-Spalte ein.
 * **Namen festlegen**
 Geben Sie die Aufgabennamen in die Spalte setName ein.
@@ -376,6 +376,6 @@ Legen Sie die Dauer für jede Aufgabe fest, indem Sie im Feld setDuration die An
    1. Aktualisieren Sie die Aufgabenzuweisungen und den Prozentsatz, der abgeschlossen ist.
    1. Wiederholen Sie diese Schritte für die Aufgaben des nächsten Projekts.
 
-* **Excel-Datei importieren**
+* **Importieren der Excel-Datei**
 
-  Befolgen Sie die Anweisungen unter [Daten mithilfe einer Kick-Start-Vorlage in Adobe Workfront importieren](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Befolgen Sie die Anweisungen unter [Importieren von Daten in Adobe Workfront mithilfe einer Kick-Start-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

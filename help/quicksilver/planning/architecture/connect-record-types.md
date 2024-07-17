@@ -60,7 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>
    <p> Produkt</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Um Adobe Workfront Planning-Record-Typen mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit dem Adobe Unified Experience integriert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>.</p> </td>
+   <p> Adobe Workfront</p> <p>Um Adobe Workfront Planning-Record-Typen mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit dem Adobe Unified Experience integriert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
@@ -100,7 +100,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -142,13 +142,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      >
      >Sie müssen über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Workfront Planning-Datensätze mit Adobe Experience Manager Assets zu verbinden.
      >
-     >Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >Wenn Sie Fragen zum Einstieg in Adobe Admin Console haben, lesen Sie die [FAQ zum einheitlichen Erlebnis für Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * Nachdem Sie einzelne Datensätze für einen Datensatztyp erstellt haben, können Sie die Datensätze, zu denen Sie eine Verbindung herstellen, aus dem Feld des verknüpften Datensatztyps auswählen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
 
 * Nachdem Sie einen Datensatztyp mit einem anderen Datensatztyp oder einem Objekttyp aus einer anderen Anwendung verbunden haben, gibt es folgende Szenarien:
 
-   * **Wenn Sie zwei Datensatztypen verbinden**: Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, aus dem Sie eine Verbindung herstellen. Ein ähnliches verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen.
+   * **Wenn Sie zwei Datensatztypen verbinden**: Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, von dem Sie eine Verbindung herstellen. Ein ähnliches verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen.
 
      Wenn Sie beispielsweise den Datensatztyp &quot;Kampagne&quot;mit dem Datensatztyp &quot;Produkt&quot;verbinden, wird ein verknüpftes Datensatzfeld, das Sie &quot;Verknüpftes Produkt&quot;nennen, für den Datensatztyp &quot;Kampagne&quot;erstellt und ein verknüpfter Datensatztyp automatisch mit dem Namen &quot;Kampagne&quot;für den Produktdatensatz erstellt.
 
@@ -159,7 +159,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       * Über Workfront-Objekte ist der Zugriff auf die Felder für die Planung von Datensätzen nicht möglich.
       * Die Planung von Datensatzfeldern ist über Experience Manager-Assets verfügbar, wenn der Workfront-Administrator die Metadaten-Zuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-   * **Wenn Sie verknüpfte (oder Lookup-) Felder des Datensatzes oder Objekts hinzufügen, zu dem Sie eine Verbindung herstellen**: Sie können Felder vom -Objekt der anderen Anwendung mit dem Datensatztyp für die Workfront-Planung verbinden. Verknüpfte Felder sind schreibgeschützt und zeigen automatisch Informationen aus verbundenen Datensätzen oder Objekten an, wenn Sie die Datensätze oder Objekte verbinden.
+   * **Wenn Sie verknüpfte (oder Nachschlagefelder) des Datensatzes oder Objekts hinzufügen, zu dem Sie eine Verbindung herstellen, können Sie Felder vom Objekt der anderen Anwendung mit dem Datensatztyp für die Workfront-Planung verbinden.** Verknüpfte Felder sind schreibgeschützt und zeigen automatisch Informationen aus verbundenen Datensätzen oder Objekten an, wenn Sie die Datensätze oder Objekte verbinden.
 
      Wenn Sie beispielsweise den Datensatztyp &quot;Kampagne&quot;mit einem Workfront-Projekt verbinden und das Feld &quot;Geplantes Abschlussdatum&quot;des Projekts in den Workfront-Planungsdatensatz übertragen möchten, wird automatisch ein verknüpftes Feld namens &quot;Geplantes Abschlussdatum&quot;(aus Projekt) für die Kampagne erstellt. Sie können dieses verknüpfte Feld nicht manuell bearbeiten. Im Feld Geplantes Abschlussdatum (aus Projekt) wird das geplante Abschlussdatum der verknüpften Projekte angezeigt.
 
@@ -167,7 +167,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      >
      >    Jeder Benutzer mit der Berechtigung Anzeigen oder höher für den Arbeitsbereich kann die Informationen in den verknüpften Feldern anzeigen, unabhängig von seinen Berechtigungen oder Zugriffsrechten in der Anwendung der verknüpften Objekttypen.
 
-* Verknüpfte Datensatzfelder erhalten ein Beziehungssymbol ![](assets/relationship-field-icon.png).
+* Verknüpfte Datensatzfelder erhalten das Beziehungssymbol ![](assets/relationship-field-icon.png).
 
   Verknüpfte Felder erhalten ein Symbol, das den Feldtyp identifiziert. Verknüpfte (oder Lookup-) Felder weisen beispielsweise Symbole darauf hin, dass es sich bei einem Feld um eine Zahl, einen Absatz oder ein Datum handelt.
 
@@ -184,11 +184,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
-1. Klicken Sie auf **+** in der oberen rechten Ecke der Tabellenansicht angezeigt, und klicken Sie dann auf die Schaltfläche **Neue Verbindung** Registerkarte.
+1. Klicken Sie oben rechts in der Tabellenansicht auf das Symbol **+** und dann auf die Registerkarte **Neue Verbindung** .
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. Im **Record Type** -Feld nach einem Datensatztyp suchen oder eine der folgenden Optionen auswählen:
+1. Suchen Sie im Feld **Record type** nach einem Datensatztyp oder wählen Sie einen der folgenden Typen aus:
 
    * Ein anderer Datensatztyp aus dem ausgewählten Arbeitsbereich
 
@@ -200,11 +200,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      > 
      >Wenn im ausgewählten Arbeitsbereich keine anderen Datensatztypen vorhanden sind, wird der Arbeitsbereich-Bereich nicht angezeigt.
 
-   * A **Projekt, Portfolio, Programm, Firma** oder **Gruppe** aus dem **Workfront-Objekttypen** Abschnitt.
+   * Ein **Projekt, Portfolio, Programm, Firma** oder **Gruppe** aus dem Abschnitt **Workfront-Objekttypen** .
 
      ![](assets/workfront-project-connection-selection.png)
 
-   * **Experience Manager Assets** aus dem **Adobe-Anwendungen** Abschnitt.
+   * **Experience Manager Assets** aus dem Abschnitt **Adobe-Anwendungen**.
 
      ![](assets/aem-assets-connection-selection.png)
 
@@ -229,35 +229,35 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      >    * Zuletzt geändert von
      >    * Workfront typeahead-Felder (einschließlich Feldern wie Projekteigentümer oder Projektsponsor)
 
-1. (Bedingt und optional) Wenn Sie die Verbindung eines Workfront-Objekts ausgewählt haben, wählen Sie eine **Benutzerdefiniertes Formular** aus dem **Nur Objekte verknüpfen, die diesen Kriterien entsprechen** Abschnitt. Nur Objekte, an die die ausgewählten benutzerdefinierten Formulare angehängt sind, können mit dem ausgewählten Datensatztyp verknüpft werden. Sie können mehrere Formulare auswählen.
+1. (Bedingt und optional) Wenn Sie die Verbindung eines Workfront-Objekts ausgewählt haben, wählen Sie ein **Benutzerdefiniertes Formular** aus dem Abschnitt **Nur Objekte verknüpfen, die diesen Kriterien entsprechen** . Nur Objekte, an die die ausgewählten benutzerdefinierten Formulare angehängt sind, können mit dem ausgewählten Datensatztyp verknüpft werden. Sie können mehrere Formulare auswählen.
 
    >[!NOTE]
    >
    > Sie müssen benutzerdefinierte Formulare in Workfront für die ausgewählten Objekte erstellen, bevor sie in dieser Liste angezeigt werden.
 
-1. (Bedingt) Wenn Sie die Verbindung zu Experience Manager Assets hergestellt haben, wählen Sie ein Repository aus der **Experience Manager-Repository** Dropdown-Menü im **Verknüpfen von Assets aus dem folgenden Repository** Abschnitt. Dies ist ein erforderliches Feld. In diesem Feld werden nur Repositorys angezeigt, auf die Sie in Experience Manager Assets Zugriff haben.
+1. (Bedingt) Wenn Sie ausgewählt haben, dass eine Verbindung mit Experience Manager Assets hergestellt werden soll, wählen Sie ein Repository aus dem Dropdownmenü **Experience Manager-Repository** im Abschnitt **Verknüpfen von Assets aus dem folgenden Repository** aus. Dies ist ein erforderliches Feld. In diesem Feld werden nur Repositorys angezeigt, auf die Sie in Experience Manager Assets Zugriff haben.
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann Experience Manager Assets-Feldern Planungsfelder über das Metadaten-Mapping in Workfront zuordnen. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-1. (Bedingt) Wenn Sie ausgewählt haben, dass eine Verbindung mit Experience Manager Assets oder einem Workfront-Planungs-Datensatztyp hergestellt werden soll, deaktivieren Sie die Option **Titel** Umschalten in der **Anzeige von Datensätzen** -Bereich, wenn Sie nicht möchten, dass der Titel der verbundenen Datensätze oder Assets im verknüpften Feld angezeigt wird. Wenn diese Option deaktiviert ist, werden nur die Miniaturansichten der Datensätze in den verknüpften Feldern angezeigt. Datensätze ohne Miniaturbild zeigen stattdessen ein Bildsymbol an. Der Umschalter ist standardmäßig aktiviert. Ein Beispiel dafür, wie die verbundenen Datensätze in der **Anzeige von Datensätzen** Bereich.
+1. (Bedingt) Wenn Sie die Verbindung mit Experience Manager Assets oder einem Workfront-Planungs-Datensatztyp hergestellt haben, deaktivieren Sie den Umschalter **Titel** im Bereich **Erscheinungsbild von Datensätzen** , wenn Sie nicht möchten, dass der Titel der verbundenen Datensätze oder Assets im verknüpften Feld angezeigt wird. Wenn diese Option deaktiviert ist, werden nur die Miniaturansichten der Datensätze in den verknüpften Feldern angezeigt. Datensätze ohne Miniaturbild zeigen stattdessen ein Bildsymbol an. Der Umschalter ist standardmäßig aktiviert. Ein Beispiel dafür, wie die verbundenen Datensätze im Bereich **Erscheinungsbild eines Datensatzes** angezeigt werden.
 
    >[!TIP]
    >
    >    Wenn Sie zulassen, dass mehrere Datensätze verknüpft werden, kann die Anzeige nur der Miniaturansicht in kleineren Bereichen, wie z. B. Datensatzansichten, Platz sparen.
    >
-   >Der Titel eines Datensatzes ist das primäre Feld des Datensatzes. Weitere Informationen finden Sie unter [Primäre Feldübersicht](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >Der Titel eines Datensatzes ist das primäre Feld des Datensatzes. Weitere Informationen finden Sie unter [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Klicken Sie auf **Erstellen**.
 
-1. (Bedingt) Wenn Sie die Option **Suchfeld auswählen** -Einstellung, **Suchfelder hinzufügen** wird geöffnet.
+1. (Bedingt) Wenn Sie die Einstellung **Suchfeld auswählen** ausgewählt haben, wird das Feld **Suchfelder hinzufügen** geöffnet.
 
-   Klicken Sie auf **+** Symbol zum Hinzufügen von Feldern aus dem **Nicht ausgewählte Felder** Bereich.
+   Klicken Sie auf das Symbol **+** , um Felder aus dem Bereich **Nicht ausgewählte Felder** hinzuzufügen.
 
    Oder
 
-   Klicken Sie auf **-** Symbol zum Entfernen von Feldern aus dem **Ausgewählte Felder** area
+   Klicken Sie auf das Symbol **-** , um Felder aus dem Bereich **Ausgewählte Felder** zu entfernen.
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
@@ -268,7 +268,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >    Jeder Benutzer mit der Berechtigung Anzeigen oder höher für den Arbeitsbereich kann die Informationen in den verknüpften Feldern anzeigen, unabhängig von seinen Berechtigungen oder Zugriffsrechten in der Anwendung der verknüpften Objekttypen.
 
 
-1. (Optional) Klicken Sie auf **Überspringen** , um das Hinzufügen von Feldern aus dem verknüpften Datensatz oder Objekttyp zu überspringen. Die **Name** oder **Titel** des verknüpften Datensatzes ist das einzige sichtbare Feld in der Tabellenansicht des Datensatztyps, von dem Sie eine Verbindung herstellen.
+1. (Optional) Klicken Sie auf **Überspringen** , um das Hinzufügen von Feldern aus dem verknüpften Datensatz oder Objekttyp zu überspringen. Der **Name** oder der **Titel** des verknüpften Datensatzes ist das einzige sichtbare Feld in der Tabellenansicht des Datensatztyps, von dem Sie eine Verbindung herstellen.
 
 1. (Optional und bedingt) Wenn Sie ein Feld vom Typ Zahl, Währung, Prozentsatz oder Datum verknüpfen möchten, wählen Sie auch einen Aggregatorwert aus, um mehrere Werte zusammenzufassen. Die Werte der verknüpften Felder werden entweder durch Kommas getrennt oder als zusammengefasster Wert entsprechend dem ausgewählten Aggregator angezeigt, wenn Benutzer im verknüpften Datensatzfeld mehr als einen verknüpften Datensatz auswählen.
 
@@ -292,11 +292,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Wählen Sie aus den folgenden Optionen aus:
 
-   * **Keines**: Zeigt die Werte an, die aus mehreren durch Kommas getrennten Datensätzen stammen. Dies ist die Standardauswahl.
+   * **None**: Zeigt die Werte an, die aus mehreren durch Kommas getrennten Datensätzen stammen. Dies ist die Standardauswahl.
    * **MAX**: Zeigt den höchsten Wert aus allen Werten an, die aus mehreren im verknüpften Datensatzfeld ausgewählten Datensätzen stammen.
-   * **MIN**: Zeigt den niedrigsten Wert aus allen Werten an, die aus mehreren, im verknüpften Datensatzfeld ausgewählten Datensätzen stammen.
-   * **SUM**: Zeigt die Gesamtzahl aller Werte an, die aus mehreren im Feld &quot;Verknüpfter Datensatz&quot;ausgewählten Datensätzen stammen.
-   * **AVG**: Zeigt den Durchschnitt aller Werte an, die aus mehreren, im Feld &quot;Verknüpfter Datensatz&quot;ausgewählten Datensätzen stammen.
+   * **MIN**: Zeigt den niedrigsten Wert aus allen Werten an, die aus mehreren im verknüpften Datensatzfeld ausgewählten Datensätzen stammen.
+   * **SUM**: Zeigt die Summe aller Werte an, die aus mehreren im verknüpften Datensatzfeld ausgewählten Datensätzen stammen.
+   * **AVG**: Zeigt den Durchschnitt aller Werte an, die aus mehreren im verknüpften Datensatzfeld ausgewählten Datensätzen stammen.
    * **UNIQUE**: Entfernt Duplikate aus den Suchfeldwerten und zeigt nur die eindeutigen Werte an. Dies ist für die folgenden Feldtypen nicht verfügbar:
       * Absatz
       * Kontrollkästchen
@@ -306,27 +306,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Sie können beispielsweise den Produktdatensatz (verknüpfter Datensatz) aus dem Campaign-Datensatz (Originaldatensatz) verknüpfen und ihn &quot;Produktfeld&quot;nennen. Sie können auch das Feld Budget des Produktdatensatzes aus dem Campaign-Datensatz verknüpfen und es &quot;Produktbudget&quot;nennen. Wenn Sie mehrere Datensätze im Feld &quot;Produkt&quot;auswählen können, können Sie Produkt 1 mit einem Budget von 100.000 $ und Produkt 2 mit einem Budget von 110.000 $ und Produkt 3 mit einem Budget von 100.000 $ auswählen. Je nach ausgewähltem Aggregator können Sie im verknüpften Feld aus dem ursprünglichen Datensatz die folgenden Budgetinformationen anzeigen:
    >
-   >* **Keines**: 100.000 $, 110.000 $, 100.000 $
-   >* **MAX**: 110.000 $
-   >* **MIN**: 100.000 $
+   >* **Keine**: 100.000 $, 110.000 $, 100.000 $
+   >* **MAX**: $110.000
+   >* **MIN**: $100.000
    >* **SUM**: 310.000 $
-   >* **AVG**: 103.000,33 $
-   >* **UNIQUE**: 100.000 $
+   >* **AVG**: $103.000.33
+   >* **UNIQUE**: $100.000
    >
 
-1. (Optional) Verwenden Sie die **suchen** icon ![](assets/search-icon.png) , um nach einem Feld zu suchen.
+1. (Optional) Verwenden Sie das Symbol **search** ![](assets/search-icon.png), um nach einem Feld zu suchen.
 
-1. Klicks **Felder hinzufügen** , um Ihre Änderungen zu speichern.
+1. Klicken Sie auf **Felder hinzufügen** , um Ihre Änderungen zu speichern.
 
    Die folgenden Elemente werden hinzugefügt:
 
    * Ein verknüpftes Datensatzfeld des Datensatztyps, von dem Sie eine Verknüpfung herstellen. Das verknüpfte Datensatzfeld zeigt einzelne Datensätze des verknüpften Datensatztyps an, nachdem Sie sie manuell hinzugefügt haben. Informationen zum Hinzufügen von Datensätzen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md). Der Name des verknüpften Datensatzfelds ist der Name, den Sie in Schritt 7 ausgewählt haben. <!--accurate-->
 
-   * Ein verknüpftes (oder Lookup-) Feld (oder Felder), das Informationen über den verknüpften Datensatz oder die verknüpften Objekttypen anzeigt, nachdem Sie die Datensätze oder Objekte manuell in das verknüpfte Datensatzfeld eingefügt haben. Suchfelder werden nur erstellt, wenn die **Suchfelder auswählen** wird bei der Erstellung der Verbindung ausgewählt. Suchfelder werden automatisch nach folgendem Muster benannt:
+   * Ein verknüpftes (oder Lookup-) Feld (oder Felder), das Informationen über den verknüpften Datensatz oder die verknüpften Objekttypen anzeigt, nachdem Sie die Datensätze oder Objekte manuell in das verknüpfte Datensatzfeld eingefügt haben. Suchfelder werden nur erstellt, wenn bei der Erstellung der Verbindung die Einstellung **Suchfelder auswählen** ausgewählt ist. Suchfelder werden automatisch nach folgendem Muster benannt:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     Wenn Sie beispielsweise einen Kampagnen-Record-Typ mit einem Programmdatensatz-Typ verknüpft haben und das Feld Programm-verknüpfter Datensatz &quot;Programminformationen&quot;nennen, wählen Sie dann aus, auch das Feld Budget des Programms in der Tabellenansicht der Kampagne anzuzeigen, wird das verknüpfte Feld automatisch benannt. `Budget (from Program information)` in der Tabellenansicht der Kampagne.
+     Wenn Sie beispielsweise einen Kampagnen-Record-Typ mit einem Programmdatensatz-Typ verknüpft haben und das Feld Programm-verknüpfter Datensatz &quot;Programminformationen&quot;nennen, wählen Sie dann aus, auch das Feld Budget des Programms in der Tabellenansicht der Kampagne anzuzeigen, wird das verknüpfte Feld automatisch `Budget (from Program information)` in der Tabellenansicht der Kampagne benannt.
 
    * Wenn Sie Datensatztypen miteinander verknüpfen, wird auch ein verknüpftes Datensatzfeld für den Datensatztyp hinzugefügt, mit dem Sie verknüpft sind. Der Name des verknüpften Datensatzfelds im verknüpften Datensatztyp ist der Name des Datensatztyps, von dem Sie eine Verknüpfung herstellen.
 
@@ -338,8 +338,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Optional und bedingt) Klicken Sie in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatztyps auf den nach unten zeigenden Pfeil in der Kopfzeile der verknüpften Datensatzfelder und klicken Sie dann auf einen der folgenden Punkte:
 
-   * **Feld bearbeiten**: Sie können die **Name** und **Beschreibung** Informationen zum Feld.
-   * **Suchfelder bearbeiten**: Fügt die Felder des verknüpften Datensatzes hinzu oder entfernt sie.
+   * **Feld bearbeiten**: Sie können die **Name** und die **Beschreibung** des Felds aktualisieren.
+   * **Suchfelder bearbeiten**: Fügen Sie eines der Felder des verknüpften Datensatzes hinzu oder entfernen Sie es.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 

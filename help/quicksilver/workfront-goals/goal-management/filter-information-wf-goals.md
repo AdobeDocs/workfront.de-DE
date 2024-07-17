@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Informationen in Adobe Workfront-Zielen filtern
 
-Sie können Ziele anzeigen, die Sie oder andere, die zu Adobe Workfront-Zielen hinzugefügt wurden. Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md). Beim Anzeigen von Zielen können Sie Informationen in Workfront-Zielen filtern, um nur für Sie wichtige Ziele anzuzeigen.
+Sie können Ziele anzeigen, die Sie oder andere, die zu Adobe Workfront-Zielen hinzugefügt wurden. Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md). Beim Anzeigen von Zielen können Sie Informationen in Workfront-Zielen filtern, um nur für Sie wichtige Ziele anzuzeigen.
 
 ## Zugriffsanforderungen
 
@@ -77,7 +77,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Übersicht über Filter in Workfront-Zielen
 
@@ -91,7 +91,7 @@ Sie können Ziele in den folgenden Abschnitten des Zielbereichs in Workfront suc
 * Diagramme
 * Ziel-Ausrichtung
 
-Informationen zu den Abschnitten des Zielbereichs finden Sie unter [Überblick über die Adobe Workfront-Ziele - Abschnitte](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Weitere Informationen zu den Abschnitten des Zielbereichs finden Sie unter [Überblick über die Adobe Workfront-Ziele](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 >[!IMPORTANT]
 >
@@ -113,7 +113,7 @@ Beachten Sie beim Arbeiten mit Filtern in Workfront-Zielen Folgendes:
 
 Sie können einen Schnellfilter in einer Liste von Zielen verwenden, um nur Elemente zu finden, die für Sie wichtig sind. Schnellfilter können nicht gespeichert werden und sind nicht persistent. Workfront löscht die Ergebnisse eines Schnellfilters beim Aktualisieren der Seite.
 
-Weitere Informationen finden Sie unter [Schnellfilter auf Listen anwenden](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+Weitere Informationen finden Sie unter [Anwenden des Schnellfilters auf eine Liste](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 ## Erstellen und Anwenden eines Filters in Workfront-Zielen
 
@@ -123,15 +123,15 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der integrierten
 
 1. Gehen Sie zu den Workfront-Zielen.
 
-   Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Zugreifen auf und Öffnen von Zielen in Adobe Workfront](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Zugreifen auf und Öffnen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    Standardmäßig wird der Abschnitt &quot;Zielliste&quot;angezeigt.
 
-1. Klicks **Filter** in der oberen rechten Ecke der Liste.
+1. Klicken Sie oben rechts in der Liste auf **Filter** .
 
    ![](assets/filter-icon-and-label.png)
 
-   Standardmäßig wendet Workfront die **Alle** Filter, der alle Ziele in Ihrem System anzeigt.
+   Standardmäßig wendet Workfront den Filter **Alle** an, der alle Ziele in Ihrem System anzeigt.
 
    >[!TIP]
    >
@@ -167,15 +167,15 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der integrierten
        </tr> 
        <tr> 
         <td>Firma</td> 
-        <td> <p>Die mit Ihrer Organisation verknüpften Ziele. </p> <p><b>TIPP</b>
+        <td> <p>Die mit Ihrer Organisation verknüpften Ziele. </p> <p><b>TIP</b>
         <p>Unter Adobe Workfront-Ziele zeigt der Filter Unternehmen die Ziele an, für die Ihr Unternehmen als Inhaber ausgewählt wurde. </p> <p>Sie können nicht nach Unternehmen suchen, die dieses Feld verwenden. Standardmäßig wird nur Ihr Unternehmen ausgewählt, das Eigentümer Ihrer Workfront-Instanz ist. </p> </p> </td> 
        </tr> 
       </tbody> 
      </table>
 
-   * Bewegen Sie den Mauszeiger über den Namen eines Filters und klicken Sie auf **Bearbeiten** icon ![](assets/edit-icon.png) neben dem Namen, um ihn anzupassen, und fügen Sie spezifische Namen von Benutzern, Teams, Gruppen oder den Namen Ihrer Organisation hinzu. Wählen Sie diese dann aus, wenn sie in der Liste angezeigt werden.
+   * Bewegen Sie den Mauszeiger über den Namen eines Filters und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png) neben seinem Namen, um ihn anzupassen und spezifische Namen von Benutzern, Teams, Gruppen oder dem Namen Ihrer Organisation hinzuzufügen. Wählen Sie dann den Filter aus, wenn er in der Liste angezeigt wird.
 
-   * Klicks **Neuer Filter** , um einen neuen Filter zu erstellen, wählen Sie aus den folgenden Optionen aus, um den neuen Filter anzupassen:
+   * Klicken Sie auf **Neuer Filter** , um einen neuen Filter zu erstellen, und wählen Sie dann aus den folgenden Optionen aus, um den neuen Filter anzupassen:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -209,17 +209,17 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der integrierten
         <td> <p>Geben Sie den Namen des Eigentümers ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. </p> <p>Sie können die Namen von Benutzern, Teams, Gruppen oder den Namen Ihrer Organisation eingeben oder aus vordefinierten Optionen auswählen. </p> <p>Die folgenden vordefinierten Filteroptionen beziehen sich immer auf den Benutzer, der derzeit angemeldet ist: </p> 
          <ul> 
           <li> <p><strong>Me</strong>: Zeigt Ziele an, deren Inhaber Sie sind.</p> </li> 
-          <li> <p><strong>Mein Heimteam</strong> und <strong>Alle meine Teams</strong>: Zeigt Ziele an, bei denen entweder Ihr Heimteam oder eines Ihrer Teams als Eigentümer ausgewiesen sind. </p> <p>Tipp: Es werden keine Ziele angezeigt, wenn Sie keinem Team zugewiesen sind. </p> </li> 
-          <li> <p><strong>Meine Heimatgruppe</strong> und <strong>Alle meine Gruppen</strong>: Zeigt Ziele an, bei denen entweder Ihre Home Group oder eine Ihrer Gruppen als Inhaber ausgewiesen ist.</p> </li> 
+          <li> <p><strong>My Home Team</strong> und <strong>All My Teams</strong>: Zeigt Ziele an, bei denen entweder Ihr Home Team oder eines Ihrer Teams als Eigentümer benannt sind. </p> <p>Tipp: Es werden keine Ziele angezeigt, wenn Sie keinem Team zugewiesen sind. </p> </li> 
+          <li> <p><strong>Meine Heimatgruppe</strong> und <strong>Alle meine Gruppen</strong>: Zeigt Ziele an, bei denen entweder Ihre Home-Gruppe oder eine Ihrer Gruppen als Inhaber ausgewiesen ist.</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-1. (Optional) Klicken Sie auf **Zurücksetzen** in der rechten unteren Ecke des Filterfelds, um alle ausgewählten Felder zu löschen und mit der Erstellung des Filters zu beginnen.
+1. (Optional) Klicken Sie in der rechten unteren Ecke des Filterfelds auf **Zurücksetzen** , um alle ausgewählten Felder zu löschen und mit der Erstellung des Filters zu beginnen.
 1. (Optional) Klicken Sie auf **Anwenden** , um den Filter ohne Speichern anzuwenden.
 
-   Der Filter wird im **Nicht gespeichert** Bereich des Filter-Builders als **Neuer Filter**.
+   Der Filter wird im Bereich **Nicht gespeichert** des Filter-Builders als **Neuer Filter** angezeigt.
 
    Sie können einen nicht gespeicherten Filter nicht umbenennen.
 
@@ -229,26 +229,26 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der integrierten
    >
    >Sie können immer nur einen nicht gespeicherten neuen Filter gleichzeitig haben.
 
-1. Klicks **Speichern** , um den Filter zu speichern und ihn später zu verwenden, und fügen Sie dann einen Namen für den Filter in der **Filtername hinzufügen** Feld und klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Speichern** , um den Filter zu speichern und später zu verwenden. Fügen Sie dann einen Namen für den Filter in das Feld **Filtername hinzufügen** ein und klicken Sie auf **Fertig**.
 
-   Dadurch wird der Filter im **Gespeichert** -Abschnitt des Filter-Builders. Sie können diesen Filter in Zukunft verwenden.
+   Dadurch wird der Filter im Abschnitt **gespeichert** des Filter-Builders gespeichert. Sie können diesen Filter in Zukunft verwenden.
 
    Der zuletzt gespeicherte und angewendete Filter wird standardmäßig beim nächsten erneuten Anmelden bei Workfront angezeigt.
 
-1. (Optional) Klicken Sie auf die **Linkspfeil** neben **Neuer Filter** , um den Filter-Builder zu verlassen und zur Liste der Filter zurückzukehren.
-1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines benutzerdefinierten Filters und klicken Sie auf die Schaltfläche **Mehr** Menü und klicken Sie auf **Löschen**, dann **Löschen**. Dadurch wird der Filter gelöscht und kann nicht wiederhergestellt werden.
+1. (Optional) Klicken Sie auf den Pfeil **links neben** **Neuer Filter** , um den Filter-Builder zu verlassen und zur Liste der Filter zurückzukehren.
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines benutzerdefinierten Filters, klicken Sie auf das Menü **Mehr** und dann auf **Löschen** und dann auf **Löschen**. Dadurch wird der Filter gelöscht und kann nicht wiederhergestellt werden.
 
    >[!TIP]
    >
    >Die vordefinierten Filter können nicht gelöscht werden.
 
-1. Klicken Sie auf **X-Symbol** in der oberen rechten Ecke des Filtergenerator, um den Filtergenerator zu schließen.
+1. Klicken Sie oben rechts im Filtergenerator auf das Symbol **X** , um den Filtergenerator zu schließen.
 
    Der Name des aktuell angewendeten Filters wird rechts neben dem Symbol Filter in der oberen rechten Ecke der Zielliste angezeigt.
 
    Die Liste der Ziele wird nach Ihren Filterkriterien gefiltert.
 
-1. (Optional und bedingt) Klicken Sie beim Anzeigen von Zielen im Abschnitt Zielausrichtung auf **Anzeigen** , wenn Sie die gefilterten Ziele anzeigen möchten.
+1. (Optional und bedingt) Klicken Sie beim Anzeigen von Zielen im Abschnitt &quot;Zielausrichtung&quot;auf **Anzeigen** , wenn Sie die gefilterten Ziele anzeigen möchten.
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
@@ -257,6 +257,6 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der integrierten
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
-1. (Optional und bedingt) Klicken Sie auf **Filter erneut anwenden** um den Filter anzuwenden und die im vorherigen Schritt angezeigten Elemente wegzulassen.
+1. (Optional und bedingt) Klicken Sie auf **Filter erneut anwenden** , um den Filter anzuwenden und die im vorherigen Schritt angezeigten Elemente wegzulassen.
 
 

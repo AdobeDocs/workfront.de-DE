@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Sie können den Informationstyp, den Sie auf dem Bildschirm anzeigen, mithilfe von Ansichten anpassen. Sie können mehrere Arten von Ansichten in Adobe Workfront verwenden.
 
-In diesem Artikel wird beschrieben, wie Sie Standardansichten für Listen und Berichte erstellen und bearbeiten und wie Sie Agile-Ansichten erstellen. Weitere Informationen finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+In diesem Artikel wird beschrieben, wie Sie Standardansichten für Listen und Berichte erstellen und bearbeiten und wie Sie Agile-Ansichten erstellen. Weitere Informationen finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten, um eine Ansicht in einem Bericht zu erstellen oder zu bearbeiten</p> <p>Berechtigungen für eine Ansicht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten, um eine Ansicht in einem Bericht zu erstellen oder zu bearbeiten</p> <p>Berechtigungen für eine Ansicht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,26 +56,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Der Prozess zum Erstellen oder Anpassen einer Ansicht hängt davon ab, ob Sie eine Standardansicht oder eine agile Ansicht erstellen oder anpassen.
 
-* [Standardansicht erstellen oder anpassen](#create-or-customize-a-standard-view)
+* [Erstellen oder Anpassen einer Standardansicht](#create-or-customize-a-standard-view)
 * [Erstellen oder Anpassen einer Agile-Ansicht](#create-or-customize-an-agile-view)
 
 ### Standardansicht erstellen oder anpassen {#create-or-customize-a-standard-view}
 
 Sie können eine neue Standardansicht erstellen oder eine vorhandene Standardansicht anpassen, die Sie zuvor erstellt haben.
 
-1. Klicken Sie auf **Ansicht** Dropdown-Menü in jeder Liste, in der Sie eine Ansicht erstellen oder anpassen möchten.
+1. Klicken Sie in einer Liste, in der Sie eine Ansicht erstellen oder anpassen möchten, auf das Dropdownmenü **Ansicht** .
 1. (Optional) Um eine vorhandene Ansicht anzupassen, wählen Sie die Standardansicht aus, die Sie anpassen möchten.\
    Standardansichten sind in Workfront für jeden Listentyp verfügbar, z. B. für einen Bericht, eine Projektliste oder eine Aufgabenliste.
-1. Klicken Sie auf **Ansicht** Dropdown-Menü, und klicken Sie auf **Ansicht anpassen** oder **Neue Ansicht**.\
-   Die **Ansicht anpassen** angezeigt.
+1. Klicken Sie auf das Dropdownmenü **Ansicht** und dann auf **Ansicht anpassen** oder **Neue Ansicht**.\
+   Das Dialogfeld **Ansicht anpassen** wird angezeigt.
 
-1. Im **Spaltenvorschau** führen Sie einen der folgenden Schritte aus:
+1. Führen Sie im Abschnitt **Spaltenvorschau** einen der folgenden Schritte aus:
 
    * Ändern Sie den Wert einer Spalte, indem Sie auf den Spaltentitel klicken und dann ein neues Feld auswählen.
-   * Spalte durch Klicken auf **Spalte hinzufügen**, geben Sie den Namen der Spalte ein, die Sie hinzufügen möchten, und klicken Sie dann auf sie, wenn sie in der Dropdown-Liste angezeigt wird.
+   * Fügen Sie eine Spalte hinzu, indem Sie auf **Spalte hinzufügen** klicken, mit der Eingabe des Namens der Spalte beginnen, die Sie hinzufügen möchten, und klicken Sie dann auf die Spalte, wenn sie in der Dropdown-Liste angezeigt wird.
    * Passen Sie die Anzeigereihenfolge der Spalten an, indem Sie den Spaltentitel an eine neue Position ziehen.
 
-      * (Optional) Im **Spalteneinstellungen** Bereich, klicken Sie auf die **Zusammenfassen dieser Spalte nach** eine der verfügbaren Optionen für die Zusammenfassung der Informationen auswählen. Bei Auswahl dieser Option werden die Informationen in der Spalte in den Berichtsgruppen aggregiert.\
+      * (Optional) Klicken Sie im Bereich **Spalteneinstellungen** auf die Dropdownliste **Diese Spalte durch** zusammenfassen und wählen Sie dann eine der verfügbaren Optionen für die Zusammenfassung der Informationen aus. Bei Auswahl dieser Option werden die Informationen in der Spalte in den Berichtsgruppen aggregiert.\
         Für Datumsfelder können Sie die Werte anhand der folgenden Optionen zusammenfassen:
 
          * Maximum
@@ -99,9 +99,9 @@ Sie können eine neue Standardansicht erstellen oder eine vorhandene Standardans
         >   
         >
 
-        Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie im Artikel [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie im Artikel [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-      * (Optional) Klicken Sie auf **Erweiterte Optionen** um die folgenden Informationen für die Spalte anzugeben:
+      * (Optional) Klicken Sie auf **Erweiterte Optionen** , um die folgenden Informationen für die Spalte anzugeben:
 
         <table style="table-layout:auto"> 
          <col> 
@@ -121,22 +121,22 @@ Sie können eine neue Standardansicht erstellen oder eine vorhandene Standardans
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Spaltenregeln</strong></td> 
-           <td><p>Klicks <strong>Eine Regel für diese Spalte hinzufügen</strong> , um eine Regel für die Spalte zu definieren. Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile definieren, anhand derer Felder angezeigt werden, die dieser Regel entsprechen. Klicks <strong>Regel hinzufügen</strong> nach der Definition der Regel.</p></td> 
+           <td><p>Klicken Sie auf <strong>Regel für diese Spalte hinzufügen</strong> , um eine Regel für die Spalte zu definieren. Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile definieren, anhand derer Felder angezeigt werden, die dieser Regel entsprechen. Klicken Sie auf <strong>Regel hinzufügen</strong> , nachdem Sie die Definition der Regel abgeschlossen haben.</p></td> 
           </tr> 
          </tbody> 
         </table>
 
         Weitere Informationen zur bedingten Formatierung von Ansichten in Berichten finden Sie im Artikel [Bedingte Formatierung im Textmodus verwenden](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-1. (Bedingt) Wenn Sie auf **Erweiterte Optionen** klicken **Fertig**.
+1. (Bedingt) Wenn Sie auf **Erweiterte Optionen** geklickt haben, klicken Sie auf **Fertig**.
 
-1. Klicks **Ansicht speichern** , um eine neue Ansicht zu erstellen oder die aktuelle Ansicht durch Ihre Änderungen zu ersetzen.\
+1. Klicken Sie auf **Ansicht speichern** , um eine neue Ansicht zu erstellen oder die aktuelle Ansicht durch Ihre Änderungen zu ersetzen.\
    Oder\
-   Klicks **Als neue Ansicht speichern** , um Ihre Änderungen als neue Ansicht zu speichern.
+   Klicken Sie auf **Als neue Ansicht speichern** , um Ihre Änderungen als neue Ansicht zu speichern.
 
    >[!TIP]
    >
-   >Die **Als neue Ansicht speichern** ist die einzige verfügbare Option, wenn Sie eine integrierte Workfront-Ansicht anpassen.
+   >Die Option **Als neue Ansicht speichern** ist die einzige Option, die beim Anpassen einer integrierten Workfront-Ansicht verfügbar ist.
 
    Ihr Zugriff bestimmt, wie die Ansicht gespeichert wird. Wenn Sie die Ansicht ursprünglich erstellt haben, können Sie die Änderungen speichern. Andernfalls werden Sie aufgefordert, eine Version zu speichern. Beachten Sie, dass sich Änderungen an der Ansicht auf Benutzer auswirken, für die die Ansicht freigegeben wurde.
 
@@ -148,7 +148,7 @@ Sie können eine Agile-Ansicht erstellen oder eine vorhandene Agile-Ansicht anpa
 >
 >Agile Ansichten sind nur verfügbar, wenn Sie ein Projekt anzeigen.
 
-Weitere Informationen zu Agile-Ansichten finden Sie im Artikel [Projekt in der Agile-Ansicht verwalten](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Weitere Informationen zu Agile-Ansichten finden Sie im Artikel [Projekt verwalten in der Agile-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 >[!NOTE]
 >
@@ -157,24 +157,24 @@ Weitere Informationen zu Agile-Ansichten finden Sie im Artikel [Projekt in der A
 So erstellen oder passen Sie eine Agile-Ansicht an:
 
 1. Rufen Sie die Liste der Aufgaben eines Projekts auf.
-1. Klicken Sie auf **Board** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png)und klicken Sie anschließend auf **Verwenden des veralteten agile** in der Pinnwandansicht.
+1. Klicken Sie auf das Symbol **Pinnwand** ![Pinnwandsymbol](assets/board-icon-for-agile-view.png) und dann in der Pinnwandansicht auf **Legacy-Glied verwenden** .
 
 1. (Bedingt) So passen Sie eine vorhandene Agile-Ansicht an:
 
-   1. Klicken Sie auf **Ansicht** und wählen Sie dann die anzupassende Agile-Ansicht aus.\
+   1. Klicken Sie auf das Dropdownmenü **Ansicht** und wählen Sie dann die anzupassende Agile-Ansicht aus.\
       Sie können die standardmäßige Agile-Ansicht nicht anpassen.
 
-   1. Klicken Sie auf **Ansicht** erneut auf das Dropdown-Menü klicken und **Ansicht anpassen**.\
+   1. Klicken Sie erneut auf das Dropdownmenü **Ansicht** und dann auf **Ansicht anpassen**.\
       ![](assets/view-agile-customize.png)
 
 1. (Bedingt) Um eine neue Agile-Ansicht zu erstellen, klicken Sie auf **Neue Ansicht**.\
-   Die **Anpassen der Agile-Ansicht** angezeigt.
+   Das Dialogfeld **Agile-Ansicht anpassen** wird angezeigt.
 
-1. Im **Anpassen der Agile-Ansicht** Geben Sie einen Namen für die Agile-Ansicht an.\
+1. Geben Sie im Dialogfeld **Agile-Ansicht anpassen** einen Namen für die Agile-Ansicht an.\
    Es wird empfohlen, das Wort &quot;Agile&quot;in Ihren Ansichtsnamen einzufügen, damit Benutzer wissen, dass es sich um eine Agile-Ansicht handelt.\
-   Dieser Name wird im **Ansicht** Dropdown-Menü bei der Auswahl einer Ansicht.
+   Dieser Name wird beim Auswählen einer Ansicht im Dropdown-Menü **Ansicht** angezeigt.
 
-1. Definieren Sie die Statusspalten, die in der agilen Ansicht auf der Zeichenfläche angezeigt werden sollen. Dies sind die Aufgabenstatus, die vom Workfront-Administrator definiert werden, wie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. Definieren Sie die Statusspalten, die in der agilen Ansicht auf der Zeichenfläche angezeigt werden sollen. Dies sind die Aufgabenstatus, die vom Workfront-Administrator definiert werden, wie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) beschrieben.
 
    Auf der Agile-Story-Pinnwand stehen nur Systemstatus zur Verfügung. Wenn ein Status nur für eine einzelne Gruppe verfügbar ist, der Sie angehören, ist der Status nicht auf der Übersichtskarte verfügbar. Außerdem sind Aufgaben, die sich in einem Status befinden, der nur für eine benutzerdefinierte Gruppe verfügbar ist, nicht sichtbar, wenn das Projekt in einer Agile-Ansicht angezeigt wird.
 
@@ -186,7 +186,7 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Die Statusspalten neu anordnen:</strong> </td> 
+      <td role="rowheader"><strong>Statusspalten neu anordnen:</strong> </td> 
       <td> Ziehen Sie eine Statusspalte an die gewünschte Position.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
@@ -195,7 +195,7 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Statusspalten hinzufügen:</strong> </td> 
-      <td> <p>Klicken Sie auf <strong>Plus</strong> und wählen Sie dann den Status aus, den Sie hinzufügen möchten.<br>Es werden alle Standardsystemstatus sowie alle benutzerdefinierten Status angezeigt, die für Sie freigegeben wurden.<br>Sie können bis zu 10 Status für die Anzeige konfigurieren.</p></td> 
+      <td> <p>Klicken Sie auf das Symbol <strong>Plus</strong> und wählen Sie dann den Status aus, den Sie hinzufügen möchten.<br>Es werden alle Standardsystemstatus sowie alle benutzerdefinierten Status angezeigt, die für Sie freigegeben wurden.<br>Sie können bis zu 10 Status für die Anzeige konfigurieren.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -204,37 +204,37 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
        -->
 
-1. Im **Kartenfarbe zuordnen zu** -Bereich aus den folgenden Optionen auswählen:
+1. Wählen Sie im Bereich **Kartenfarbe mit** verknüpfen eine der folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Meldung:</strong> </td> 
+      <td role="rowheader"><strong>Geschichte:</strong> </td> 
       <td>Alle Unteraufgaben stimmen mit der Farbe der übergeordneten Aufgabe überein, sodass die Farben aller Geschichten in jeder Swimlane identisch sind.<br>Farben werden Aufgaben zufällig zugewiesen, wenn sie erstellt werden, wenn die Aufgabe keine Unteraufgaben hat oder keine übergeordnete Aufgabe hat.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Kostenlose Form:</strong> </td> 
-      <td> Alle Karten werden standardmäßig als blau angezeigt, bis ein Benutzer die Farbe manuell ändert, wie im Artikel beschrieben <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Kategorisieren von Meldungen nach Farbe auf der Scrum-Pinnwand</a>. </td> 
+      <td role="rowheader"><strong>Freiform:</strong> </td> 
+      <td> Alle Karten werden standardmäßig als blau angezeigt, bis ein Benutzer die Farbe manuell ändert, wie im Artikel <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Meldungen auf der Trommelplatine farblich kategorisieren</a> beschrieben. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priorität:</strong> </td> 
       <td> <p> Farben sind mit der Priorität der Geschichte wie folgt verknüpft:</p> 
        <ul> 
         <li>Hoch = rot</li> 
-        <li>Mittel = Gelb</li> 
-        <li>Niedrig = Grün<br>Wenn Ihr Workfront-Administrator benutzerdefinierte Prioritäten für Ihr Workfront-System konfiguriert hat, ist die höchste Priorität rot, die zweithöchste gelb und die übrigen grün.</li> 
+        <li>Medium = Gelb</li> 
+        <li>Niedrig = Grün<br>Wenn Ihr Workfront-Administrator benutzerdefinierte Prioritäten für Ihr Workfront-System konfiguriert hat, ist die höchste Priorität Rot, die zweithöchste ist Gelb und die übrigen sind grün.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Aufgabeneigentümer:</strong> </td> 
+      <td role="rowheader"><strong>Aufgabenbesitzer:</strong> </td> 
       <td> Alle Geschichten mit dem gleichen Hauptverantwortlichen haben dieselbe Farbe.<br>Der primäre Verantwortliche ist der Benutzer, der der Aufgabe zuerst zugewiesen wurde. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Im **Agile** im Abschnitt **Zusätzliche Felder** Bereich, klicken Sie **Feld hinzufügen** und wählen Sie dann das Feld aus, das Sie den Storykarten hinzufügen möchten. (Dies sind dieselben Felder, die Sie beim Erstellen einer Ansicht oder beim Erstellen von Spalten für einen Bericht hinzufügen können.)\
+1. Klicken Sie im Bereich **Agile** im Bereich **Zusätzliche Felder** auf **Feld hinzufügen** und wählen Sie dann das Feld aus, das Sie den Storykarten hinzufügen möchten. (Dies sind dieselben Felder, die Sie beim Erstellen einer Ansicht oder beim Erstellen von Spalten für einen Bericht hinzufügen können.)\
    Wiederholen Sie diesen Vorgang, um bis zu drei weitere Felder zu den Storykarten hinzuzufügen.\
    Wenn Sie Felder zu Storykarten hinzufügen, sind die Felder schreibgeschützt und werden nur angezeigt, wenn das Feld ausgefüllt ist.
 
@@ -253,4 +253,4 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
 1. Klicken Sie auf **Speichern**.\
    Ihr Zugriff bestimmt, wie die Ansicht gespeichert wird. Wenn Sie die Ansicht ursprünglich erstellt haben, können Sie die Änderungen speichern. Andernfalls werden Sie aufgefordert, eine Version zu speichern. Beachten Sie, dass sich Änderungen an der Ansicht auf Benutzer auswirken, für die die Ansicht freigegeben wurde.
 
-1. (Optional) Klicken Sie auf die **Liste** -Symbol, um zur Liste der Aufgaben zurückzukehren.
+1. (Optional) Klicken Sie auf das Symbol **Liste** , um zur Liste der Aufgaben zurückzukehren.

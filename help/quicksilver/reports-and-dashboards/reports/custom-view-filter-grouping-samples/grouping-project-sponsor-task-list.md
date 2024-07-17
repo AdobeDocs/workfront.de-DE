@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: Projektsponsor für eine Aufgabenliste"
+title: "Gruppierung: Projekt-Sponsor für eine Aufgabenliste"
 description: Mit dieser Aufgabengruppierung können Sie Aufgaben nach dem Projektsponsor gruppieren.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Gruppierung: Projektsponsor für eine Aufgabenliste
+# Gruppierung: Projekt-Sponsor für eine Aufgabenliste
 
 Mit dieser Aufgabengruppierung können Sie Aufgaben nach dem Projektsponsor gruppieren.
 
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,14 +57,14 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So wenden Sie diese Gruppierung an:
 
 1. Gehen Sie zur Aufgabenliste.
-1. Im **Gruppierung** Dropdown-Menü auswählen **Neue Gruppierung**.
+1. Wählen Sie im Dropdownmenü **Gruppierung** die Option **Neue Gruppierung** aus.
 
-1. Klicken **In den Textmodus wechseln**.
-1. Entfernen Sie den Text, der im Textbearbeitungsfenster angezeigt wird.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Entfernen Sie den im Textbearbeitungsfenster angezeigten Text.
 1. Kopieren Sie den folgenden Code und fügen Sie ihn in das Textbearbeitungsfenster ein:
 
    ```
    group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string
    ```
 
-1. Klicken **Gruppierung speichern**.
+1. Klicken Sie auf **Gruppierung speichern**.

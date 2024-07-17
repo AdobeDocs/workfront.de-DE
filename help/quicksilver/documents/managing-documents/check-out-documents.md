@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das Dokument verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das Dokument verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,14 +56,14 @@ Benutzer mit verwaltetem Zugriff auf das Dokument können Folgendes tun:
 * Dokumentvorschau
 * Dokument herunterladen
 
-   >[!TIP]
-   >
-   > Obwohl ein Benutzer ein Dokument herunterladen kann, wenn es von einem anderen Benutzer ausgecheckt wird, wird empfohlen, dass Benutzer warten, bis das Dokument wieder eingecheckt wurde, bevor sie es herunterladen. Wenn ein Dokument ausgecheckt wird, deutet dies oft darauf hin, dass noch an dem Dokument gearbeitet wird. Wenn Sie warten, bis ein Dokument wieder eingecheckt ist, um es herunterzuladen, wird sichergestellt, dass der Benutzer über die neueste Version verfügt.
+  >[!TIP]
+  >
+  > Obwohl ein Benutzer ein Dokument herunterladen kann, wenn es von einem anderen Benutzer ausgecheckt wird, wird empfohlen, dass Benutzer warten, bis das Dokument wieder eingecheckt wurde, bevor sie es herunterladen. Wenn ein Dokument ausgecheckt wird, deutet dies oft darauf hin, dass noch an dem Dokument gearbeitet wird. Wenn Sie warten, bis ein Dokument wieder eingecheckt ist, um es herunterzuladen, wird sichergestellt, dass der Benutzer über die neueste Version verfügt.
 
-* Genehmigen Sie ein Dokument oder wenden Sie eine Genehmigung auf das Dokument an.
+* Validieren Sie ein Dokument oder wenden Sie eine Validierung auf das Dokument an.
 * Überprüfen Sie das Dokument im Testversand-Viewer.
 
-   Weitere Informationen zum Testen finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md)
+  Weitere Informationen zum Testen finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md)
 
 ## Auschecken eines Dokuments
 
@@ -73,9 +73,9 @@ Wenn Sie über Verwaltungsberechtigungen für ein Dokument verfügen, können Si
 
    Informationen zum Hinzufügen von Dokumenten finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-1. Klicken Sie auf **Auschecken** icon ![](assets/check-out-25x23.png).
+1. Klicken Sie auf das Symbol **Auschecken** ![](assets/check-out-25x23.png).
 
-1. Ein Sperrsymbol ![](assets/lock-icon-locked-qs.png) rechts neben dem Dokumentnamen angezeigt. Das Dokument bleibt nach der Abmeldung von Workfront ausgecheckt.
+1. Rechts neben dem Dokumentnamen wird ein Sperrsymbol ![](assets/lock-icon-locked-qs.png) angezeigt. Das Dokument bleibt nach der Abmeldung von Workfront ausgecheckt.
 1. Nur der Benutzer, der das Dokument ausgecheckt hat, oder der Workfront-Administrator können das Dokument einchecken.
 
 ## Ausgecheckte Dokumente verwalten
@@ -87,7 +87,7 @@ Beachten Sie Folgendes zu ausgecheckten Dokumenten:
 * Wenn der Workfront-Administrator einen Benutzer löscht, der ein Dokument ausgecheckt hat, dessen Eigentümer er ist, und das Dokument auf ein Objekt hochgeladen wird, bleibt das Dokument ausgecheckt. Nur ein Workfront-Administrator kann sie wieder einchecken.
 * Wenn der Workfront-Administrator einen Benutzer löscht, der ein Dokument ausgecheckt hat, dessen Eigentümer er ist, und das Dokument nur im Bereich &quot;Dokumente&quot;(nicht in einem Objekt) hochgeladen wird, wird das Dokument mit dem Benutzer gelöscht.
 
-   Informationen zum Löschen von Benutzern finden Sie unter [Benutzer löschen](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+  Informationen zum Löschen von Benutzern finden Sie unter [Benutzer löschen](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 * Wenn der Workfront-Administrator einen Benutzer deaktiviert, bleiben alle ausgecheckten Dokumente ausgecheckt. Nur ein Workfront-Administrator kann sie wieder einchecken. 
 
@@ -99,6 +99,6 @@ So checken Sie ein Dokument ein:
 
 1. Markieren Sie im entsprechenden Bereich das Dokument und wählen Sie es aus. 
 
-   Ein Sperrsymbol ![](assets/lock-icon-locked-qs.png) rechts neben dem Dokumentnamen angezeigt.
+   Rechts neben dem Dokumentnamen wird ein Sperrsymbol ![](assets/lock-icon-locked-qs.png) angezeigt.
 
-1. Klicken Sie auf **Check In** icon ![](assets/check-in-25x22.png).
+1. Klicken Sie auf das Symbol **Einchecken** ![](assets/check-in-25x22.png).

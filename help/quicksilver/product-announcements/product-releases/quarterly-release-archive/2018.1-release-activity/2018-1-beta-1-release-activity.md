@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Version 2018.1"
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.1 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 1. Dezember 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Beta 1-Release-Aktivität von 2018.1
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 1-Version 2018.1 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 1. Dezember 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 im Produktionsumfeld zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta-Version 2018.1&quot;
+# Beta 1-Release-Aktivität von 2018.1
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.1 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 1. Dezember 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 1-Version 2018.1 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 1. Dezember 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 im Produktionsumfeld zur Verfügung gestellt.
 
 >[!IMPORTANT]
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.1 vorgenommen wurden, finden Sie unter  [Übersicht über die Versionsaktivität 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.1 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-Die Beta-Version 2018.1 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Version 2018.1 von Beta 1 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren**
 
 * [Aktualisierte Layoutvorlage zur Unterstützung des Startbereichs](#updated-layout-template-to-support-the-home-area)
-* [Deaktivieren von von Workfront gesendeten Testversand-E-Mail-Benachrichtigungen](#disable-proofing-email-notifications-sent-from-workfront)
+* [Deaktivieren von von von Workfront gesendeten Testversand-E-Mail-Benachrichtigungen](#disable-proofing-email-notifications-sent-from-workfront)
 * [Neue Ressourcen zu Ereignisabonnements hinzugefügt](#new-resources-added-to-event-subscriptions)
 
 **Für alle Benutzer**
 
-* [Home Area (mein Arbeitsbereich wurde aktualisiert)](#home-area-updated-my-work-area)
-* [Anzeigen von Ressourcen-Planer-Daten unter &quot;Geschäftsfall&quot;und aktualisierte Geschäftsfallzusammenfassung](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
-* [Anzeigen des Prozentsatzes der geplanten Stundenzuweisung im Ressourcenplaner](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
-* [Der Trigger &quot;Automatische und Nur Änderung&quot;und &quot;Nur Änderung aktualisieren&quot;aktualisiert die übergeordneten Objekte gleichzeitig mit den aktualisierten Aufgaben](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
+* [Startbereich (mein Arbeitsbereich wurde aktualisiert)](#home-area-updated-my-work-area)
+* [Anzeigen von Ressourcenplandaten unter &quot;Geschäftsfall&quot;und aktualisierte Zusammenfassung der Geschäftsfälle](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
+* [Anzeigen des Prozentsatzes der geplanten Stundenzuordnung im Ressourcenplaner](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
+* [Der Trigger &quot;Automatische und bei Änderung&quot;und &quot;Nur ändern&quot;-Aktualisierungstypen aktualisiert die übergeordneten Objekte gleichzeitig mit den Aufgaben.](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
 * [Timeline-Schnappschuss im Gantt-Diagramm verfügbar](#timeline-snapshot-available-in-the-gantt-chart)
 
 ## Home Area (mein Arbeitsbereich wurde aktualisiert) {#home-area-updated-my-work-area}
@@ -58,11 +58,11 @@ Weitere Informationen finden Sie unter &quot;Erstellen und Verwalten von Layoutv
 
 Sie können jetzt konfigurieren, ob Benutzer in Ihrer Workfront-Instanz E-Mail-Benachrichtigungen von Workfront erhalten, wenn ein Kommentar zu einem Testversand erstellt wird.
 
-Zuvor wurden Testversand-E-Mails immer von Workfront gesendet, wenn ein Kommentar zu einem Testversand abgegeben wurde. Wenn Benachrichtigungen auch in Workfront Testversand aktiviert waren, erhielten Benutzer doppelte Benachrichtigungen. 
+Zuvor wurden Testversand-E-Mails immer von Workfront gesendet, wenn ein Kommentar zu einem Testversand abgegeben wurde. Wenn Benachrichtigungen auch in Workfront Proof aktiviert waren, erhielten Benutzer doppelte Benachrichtigungen. 
 
 Für Bestandskunden von Workfront ist Workfront standardmäßig so konfiguriert, dass E-Mails gesendet werden, wenn ein Kommentar zu einem Testversand abgegeben wird.
 
-Informationen zum Deaktivieren von E-Mail-Benachrichtigungen für Testsendungen in Workfront, sodass Testversand-E-Mails nur über Workfront Testversand gesendet werden, finden Sie unter .  
+Informationen zum Deaktivieren von E-Mail-Benachrichtigungen für Testsendungen in Workfront, sodass Testversand-E-Mails nur von Workfront Proof gesendet werden, finden Sie unter .  
 
 ## Anzeigen von Ressourcen-Planer-Daten unter &quot;Geschäftsfall&quot;und aktualisierte Geschäftsfallzusammenfassung {#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary}
 
@@ -74,7 +74,7 @@ Im Rahmen dieser Änderung enthält die Zusammenfassung der Geschäftsszenarios 
 
 Vor dieser Änderung konnten Sie keine Ressourcen-Planer-Informationen zum Geschäftsfall des Projekts sehen. Sie konnten nur die Informationen zu Ressourcenschätzungen sehen, die im Kapazitätsplaner der Legacy-Ressourcen-Pools angegeben sind.
 
-Weitere Informationen zum Erstellen eines Geschäftsfalls finden Sie unter [Geschäftsszenario für ein Projekt erstellen](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Weitere Informationen zum Erstellen eines Geschäftsszenarios finden Sie unter [Erstellen eines Geschäftsszenarios für ein Projekt](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Anzeigen des Prozentsatzes der geplanten Stundenzuweisung im Ressourcenplaner {#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner}
 
@@ -82,7 +82,7 @@ Die Benutzeransicht des Ressourcen-Planers enthält jetzt eine neue Spalte, mit 
 
 Vor dieser Änderung konnten Sie die Gesamtanzahl der geplanten und verfügbaren Stunden für Benutzer und Stellenrollen nur in separaten Spalten anzeigen.
 
-Weitere Informationen zur Spalte &quot;Prozentsatz der geplanten Stundenzuweisung&quot;finden Sie im Abschnitt &quot;Unterschiede zwischen verfügbaren und geplanten Stunden oder VZÄ im Ressourcenplaner anzeigen&quot;unter [Übersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Weitere Informationen zur Spalte &quot;Prozentualer Anteil der geplanten Stundenzuweisung&quot;finden Sie im Abschnitt &quot;Unterschiede zwischen verfügbaren und geplanten Stunden oder FTE im Ressourcenplaner anzeigen&quot;in der [Ressourcenplanübersicht](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Der Trigger &quot;Automatische und Nur Änderung&quot;und &quot;Nur Änderung aktualisieren&quot;aktualisiert die übergeordneten Objekte gleichzeitig mit den aktualisierten Aufgaben {#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated}
 
@@ -97,7 +97,7 @@ Wenn Sie nun die Aktualisierungstypen &quot;Automatisch und Bei Änderung&quot;o
 
 Vor dieser Änderung mussten Sie die Seite aktualisieren, um sicherzustellen, dass die übergeordneten Objekte und die Timeline des Projekts ebenfalls aktualisiert wurden.
 
-Weitere Informationen zum Aktualisierungstyp eines Projekts finden Sie unter [Wählen Sie den Projektaktualisierungstyp aus](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
+Weitere Informationen zum Aktualisierungstyp eines Projekts finden Sie unter [Auswählen des Aktualisierungstyps für das Projekt](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 ## Timeline-Schnappschuss im Gantt-Diagramm verfügbar {#timeline-snapshot-available-in-the-gantt-chart}
 
@@ -115,6 +115,6 @@ Jetzt können Sie Ereignisanmeldungen für die folgenden Ressourcen erstellen:
 
 * **Kosten:** Benachrichtigt Sie beim Hinzufügen oder Ändern von Ausgaben.
 * **Zuweisung:** Benachrichtigt Sie beim Hinzufügen oder Ändern einer Zuweisung zu einer Aufgabe oder einem Problem für einen Benutzer, eine Jobrolle oder ein Team.
-* **Datenblatt:** Benachrichtigt Sie bei der Übermittlung, Zurückweisung oder Validierung eines Zeitblatts.
+* **Datenblatt:** Benachrichtigt Sie beim Senden, Zurückweisen oder Genehmigen eines Zeitblatts.
 
-Weitere Informationen zu Ereignisanmeldungen finden Sie unter [Ereignisabonnement-API](../../../../wf-api/general/event-subs-api.md).
+Weitere Informationen zu Ereignisanmeldungen finden Sie unter [Ereignis-Abonnement-API](../../../../wf-api/general/event-subs-api.md).

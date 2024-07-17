@@ -83,7 +83,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Grafiktypen in Workfront Goals
 
@@ -99,7 +99,7 @@ Die folgenden Diagramme sind im Abschnitt Diagramme oder Workfront-Ziele verfüg
     <ul> 
      <li>Eine Gesamtzahl der Ziele für den ausgewählten Zeitraum. Ziele mit einem beliebigen Status werden berücksichtigt. </li> 
      <li>Der Fortschrittsstatus von Zielen mit dem Status Aktiv und Geschlossen .</li> 
-    </ul> <p>Informationen zur Berechnung des Fortschrittsstatus von Workfront Goals finden Sie unter <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Übersicht über den Zielfortschritt und die Bedingungen in den Adobe Workfront-Zielen</a>.</p> </td> 
+    </ul> <p>Informationen dazu, wie Workfront Goals den Fortschrittsstatus berechnet, finden Sie unter <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Übersicht über den Zielfortschritt und die Bedingungen in Adobe Workfront Goals</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Das Zielfortschrittsdiagramm</td> 
@@ -114,14 +114,14 @@ Die folgenden Diagramme sind im Abschnitt Diagramme oder Workfront-Ziele verfüg
 
 ## Überprüfen des Zielfortschritts in Diagrammen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) > **Ziele** .
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Dadurch wird der Workfront-Zielbereich geöffnet.
 
-1. Klicks **Diagramme** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Diagramme** .
 
    ![](assets/graphs-in-left-panel.png)
 
@@ -134,7 +134,7 @@ Die folgenden Diagramme sind im Abschnitt Diagramme oder Workfront-Ziele verfüg
 
 1. (Optional) Wählen Sie den Informationstyp aus, der angezeigt werden soll, indem Sie die Filter in der oberen rechten Ecke des Bereichs Diagramme aktualisieren.
 
-   Weitere Informationen zum Filtern von Zielen finden Sie unter [Informationen in Adobe Workfront-Zielen filtern](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   Weitere Informationen zu Filterzielen finden Sie unter [Informationen in Adobe Workfront-Zielen filtern](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    >[!TIP]
    >
@@ -171,14 +171,14 @@ Die folgenden Diagramme sind im Abschnitt Diagramme oder Workfront-Ziele verfüg
 
 1. Bewegen Sie den Mauszeiger über einen Wochenknoten in das Zielfortschrittsdiagramm und überprüfen Sie Folgendes:
 
-   * **Wochendatum**: Monat, Tag und Jahr der ausgewählten Woche.
-   * **Fortschritt**: Ein Durchschnitt der tatsächlichen prozentualen Gesamtanzahl aller Ziele für die ausgewählte Woche.
+   * **Wochendatum**: Der Monat, der Tag und das Jahr der ausgewählten Woche.
+   * **Fortschritt**: Ein Durchschnitt des tatsächlichen Prozentsatzes, der für alle Ziele der ausgewählten Woche erreicht wurde.
    * **Grundlinie**: Durchschnittliche Fertigstellung des erwarteten Prozentsatzes aller Ziele für die ausgewählte Woche.
 
-1. (Optional) Klicken Sie auf **Fortschritt** unten im Fortschrittsdiagramm, um die tatsächliche Gesamtfortschrittslinie zu entfernen.
+1. (Optional) Klicken Sie unten im Fortschrittsdiagramm auf **Fortschritt** , um die tatsächliche Gesamtfortschrittszeile zu entfernen.
 
    Oder
 
-   Klicks **Grundlinie** unten im Fortschrittsdiagramm, um den erwarteten Fortschritt aus der Grafik zu entfernen.
+   Klicken Sie unten im Fortschrittsdiagramm auf **Grundlinie** , um den erwarteten Fortschritt aus der Grafik zu entfernen.
 
  

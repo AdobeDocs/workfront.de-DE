@@ -2,32 +2,32 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: Verschieben von Benutzern zwischen Konten mithilfe von [!DNL Workfront Proof]
-description: Wenn Sie [!DNL Workfront Proof] und wenn ein oder mehrere Satellitenkonten mit Ihrem Hauptkonto verbunden sind, können Sie die Benutzer zwischen diesen Konten verschieben.
+title: Benutzer mithilfe von [!DNL Workfront Proof] zwischen Konten verschieben
+description: Wenn Sie Administrator sind und mit Ihrem Hauptkonto ein oder mehrere Satellitenkonten verbunden sind, können Sie die Benutzer zwischen diesen Konten verschieben. [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
-# Verschieben von Benutzern zwischen Konten mithilfe von [!DNL Workfront Proof]
+# Benutzer mithilfe von [!DNL Workfront Proof] zwischen Konten verschieben
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
-Wenn Sie [!DNL Workfront] Testversand-Administrator und Sie haben ein oder mehrere Satellitenkonten mit Ihrem Hauptkonto verbunden, können Sie die Benutzer zwischen all diesen Konten verschieben.
+Wenn Sie ein [!DNL Workfront] Testversand-Administrator sind und ein oder mehrere Satellitenkonten mit Ihrem Hauptkonto verbunden sind, können Sie die Benutzer zwischen diesen Konten verschieben.
 
 ## Wechsel zwischen Connected Accounts
 
-1. Klicken **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]**.
 
-1. Öffnen Sie die **[!UICONTROL Benutzer]** Registerkarte.
-1. Klicken Sie auf **[!UICONTROL Benutzer verschieben]** Symbol (1). ![Move_user2.png](assets/move-user2-350x95.png)
+1. Öffnen Sie die Registerkarte **[!UICONTROL Benutzer]** .
+1. Klicken Sie auf das Symbol &quot;**[!UICONTROL Benutzer verschieben]**&quot;(1). ![Move_user2.png](assets/move-user2-350x95.png)
 
 1. Bestätigen Sie im sich öffnenden Feld Benutzer verschieben den Benutzer, den Sie verschieben möchten (1).
 1. Wählen Sie in der Liste der verbundenen Konten ein Zielkonto aus (2).
@@ -37,7 +37,7 @@ Dazu gehören die Elemente, die Sie im alten Konto belassen möchten, und die El
 
 1. Aktivieren Sie die Kontrollkästchen, wenn Sie die Testsendungen (5) und Dateien (6) zusammen mit dem Benutzer verschieben möchten.
 1. Erstellen Sie einen Namen für den Ordner (7), in dem alle verschobenen Elemente im neuen Konto abgelegt werden.
-1. Klicken **[!UICONTROL Benutzer verschieben]** (8), um den Prozess zu starten.
+1. Klicken Sie auf **[!UICONTROL Benutzer verschieben]** (8) , um den Prozess zu starten.
    ![Moving_users_pop-up.png](assets/moving-users-pop-up-350x380.png)
 
 Wenn Sie den Benutzer ohne Testsendungen und Dateien verschieben, wird diese Aktion sofort durchgeführt. Wenn Sie den Benutzer zusammen mit seinen Testsendungen und Dateien verschieben, wird das Profil des Benutzers sofort neu zugewiesen. Die Testsendungen und Dateien werden jedoch allmählich im Zielkonto angezeigt, da für diesen Vorgang Zeit zum Übertragen der Daten benötigt wird.
@@ -76,11 +76,11 @@ Wenn ein Testversand einige Versionen enthält und jeder von ihnen einem anderen
 
 ### Gruppen
 
-Gruppen müssen vom verschobenen Benutzer in seinem neuen Konto neu erstellt werden. Weitere Informationen finden Sie unter [Erstellen von Testversandgruppen mit [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
+Gruppen müssen vom verschobenen Benutzer in seinem neuen Konto neu erstellt werden. Weitere Informationen finden Sie unter [Erstellen von Testversandgruppen mit  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
 
 ### Benutzerdefinierte Ansichten
 
-Persönliche benutzerdefinierte Ansichten müssen vom verschobenen Benutzer in seinem neuen Konto neu erstellt werden. Weitere Informationen finden Sie unter [Benutzerdefinierte Ansichten erstellen und verwalten in [!DNL Workfront Proof] Testversand](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Persönliche benutzerdefinierte Ansichten müssen vom verschobenen Benutzer in seinem neuen Konto neu erstellt werden. Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten in [!DNL Workfront Proof] Testversand](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ### Benutzerdefinierte Felder
 

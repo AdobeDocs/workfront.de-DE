@@ -43,6 +43,6 @@ Lesen Sie die folgenden Artikel, um zu verstehen, wie Ziele in Workfront ausgeri
 
 * [Übersicht über die Zielausrichtung in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 * [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [Ziele durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [Ziele durch Konvertieren der Ergebnisse und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 * [Entfernen der Zielausrichtung in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
 * [Navigieren Sie im Abschnitt Zielausrichtung in Adobe Workfront-Zielen.](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)

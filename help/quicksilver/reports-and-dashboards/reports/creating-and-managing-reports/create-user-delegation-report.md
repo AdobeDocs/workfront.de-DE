@@ -27,7 +27,7 @@ In Adobe Workfront können Benutzer Projekte-, Aufgaben- und Problemgenehmigunge
 
 * Beginn und Ende der Delegationen
 
-Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Validierungsanfrage delegieren](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Genehmigungsanfrage delegieren](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">DRAFTED: To learn more about delegating work, see <a href="../../../workfront-basics/manage-your-account-and-profile/manage-time-off/personal-time-off.md" class="MCXref xref">Log personal time off and delegate your work</a>.</p>
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen für die Elemente, deren Genehmigungen delegiert werden, und für die an der Zuweisung beteiligten Benutzer</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen für die Elemente, deren Genehmigungen delegiert werden, und für die an der Zuweisung beteiligten Benutzer</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,18 +68,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Bericht zur Benutzerdelegierung erstellen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichte**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
 
-1. Klicks **Neuer Bericht**, wählen Sie **Benutzerdelegierung**.\
+1. Klicken Sie auf **Neuer Bericht** und wählen Sie dann **Benutzerdelegierung** aus.\
    ![](assets/classic-new-report-user-delegation-350x644.png)
 
    Die folgenden Felder werden in diesem Bericht standardmäßig angezeigt:
 
    | Feld | Beschreibung |
    |---|---|
-   | **Vom Benutzer** | Dies ist der Benutzer, der seine Aufgaben-, Problem- und Projektgenehmigungen an einen anderen Benutzer delegiert. |
+   | **Von Benutzer** | Dies ist der Benutzer, der seine Aufgaben-, Problem- und Projektgenehmigungen an einen anderen Benutzer delegiert. |
    | **An Benutzer** | Dies ist der Benutzer, dem Aufgaben-, Problem- und Projektgenehmigungen zugewiesen wurden. |
-   | **Starten** | Dies ist der Beginn der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
+   | **Start** | Dies ist der Beginn der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
    | **Ende** | Dies ist das Ende der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
 
    {style="table-layout:auto"}
@@ -91,10 +91,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Filter
    * Diagramm
 
-   Weitere Informationen zu diesen Funktionen finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Weitere Informationen zu diesen Funktionen finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Nachdem Sie die Berichterstellung abgeschlossen haben, klicken Sie auf **Speichern und schließen**.
+1. Nachdem Sie die Erstellung des Berichts abgeschlossen haben, klicken Sie auf **Speichern + Schließen**.
 
-1. Geben Sie im **Berichtsname** und klicken Sie auf **Bericht speichern**.
+1. Geben Sie einen neuen Namen in das Feld **Berichtsname** ein und klicken Sie dann auf **Bericht speichern**.
 
    Der Bericht wird angezeigt.

@@ -19,9 +19,9 @@ Sie können eine neue Version eines Dokuments hinzufügen, das Sie zuvor in Adob
 
 Wenn sich der Dateiname der neuen Version vom Dateinamen der vorherigen Version unterscheidet, zeigt Workfront das Dokument mit dem neueren Dateinamen an.
 
-Wenn das Dokument einen Testversand enthält und Sie eine neue Version des Testdokuments erstellen möchten, lesen Sie den Abschnitt . [Hochladen eines Dokuments und Erstellen einer neuen Version eines Testversands](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof) im Artikel [Erstellen eines Testversands für ein Dokument](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+Wenn das Dokument einen Testversand enthält und Sie eine neue Version des Testdokuments erstellen möchten, lesen Sie den Abschnitt [Hochladen eines Dokuments und Erstellen einer neuen Version eines Testversands](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof) im Artikel [Erstellen eines Testversands für ein Dokument](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md) .
 
-Informationen zum Hinzufügen einer neuen Version eines mit Workfront verknüpften Dokuments aus einer externen Anwendung finden Sie unter [Neue Version eines verknüpften Dokuments hinzufügen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) in [Verknüpfen von Dokumenten mit externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Informationen zum Hinzufügen einer neuen Version eines mit Workfront verknüpften Dokuments aus einer externen Anwendung finden Sie unter [Hinzufügen einer neuen Version eines verknüpften Dokuments](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) in [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Zugriffsanforderungen
 
@@ -35,7 +35,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -47,14 +47,14 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das dem Dokument zugeordnete Objekt bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das dem Dokument zugeordnete Objekt bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Verwenden Sie Drag &amp; Drop, um eine neue Version hinzuzufügen
+## Drag &amp; Drop zum Hinzufügen einer neuen Version
 
 >[!NOTE]
 >
@@ -67,14 +67,14 @@ Sie müssen über Folgendes verfügen:
 
    Wenn Sie die neue Version ziehen, können Sie den Mauszeiger über einen Ordner mit Workfront-Dokumenten bewegen, um ihn zu öffnen. Sie können dann nach oben und unten scrollen, indem Sie die Dateien an den oberen oder unteren Bildschirmrand ziehen.
 
-1. Legen Sie die neue Version auf der vorhandenen Datei im **Dokumente** Registerkarte.
+1. Legen Sie die neue Version auf der Registerkarte **Dokumente** auf der vorhandenen Datei ab.
 
-   Informationen zum Verwalten von Dokumentversionen finden Sie unter [Dokumentversionen verwalten](../../documents/managing-documents/manage-document-versions.md).
+   Informationen zum Verwalten von Dokumentversionen finden Sie unter [Verwalten von Dokumentversionen](../../documents/managing-documents/manage-document-versions.md).
 
-## Verwenden Sie das Menü &quot;Mehr&quot;, um eine neue Version hinzuzufügen.
+## Verwenden Sie das Menü &quot;Mehr&quot;, um eine neue Version hinzuzufügen
 
 1. Wählen Sie das Dokument aus, dem Sie eine neue Version hinzufügen möchten.
-1. Klicken **Neu hinzufügen** > **Version**.
+1. Klicken Sie auf **Neu hinzufügen** > **Version**.
 
    ![](assets/add-new-version-350x185.png)
 

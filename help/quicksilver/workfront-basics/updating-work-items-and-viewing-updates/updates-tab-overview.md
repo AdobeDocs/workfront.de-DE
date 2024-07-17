@@ -126,9 +126,9 @@ Depending on what objects you access the commenting experience for, you might fi
 
 * Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten angezeigt:
 
-   * **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Auf der Registerkarte Kommentare können Sie neue Kommentare hinzufügen oder auf vorhandene Kommentare antworten. Informationen zum Aktualisieren von Objekten finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Kommentare**: Zeigt Kommentare von Benutzern an und Antworten auf diese Kommentare. Auf der Registerkarte Kommentare können Sie neue Kommentare hinzufügen oder auf vorhandene Kommentare antworten. Weitere Informationen zum Aktualisieren von Objekten finden Sie unter [Funktionsweise aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Alle Antworten, die im alten Kommentierungserlebnis an den Datensätzen der Systemaktivität vorgenommen wurden, werden auf der Registerkarte Systemaktivität als schreibgeschützt ausgefüllt. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einem Ort an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Informationen zum Aktualisieren von Objekten finden Sie unter [Update der Arbeit](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einer Stelle an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Weitere Informationen zum Aktualisieren von Objekten finden Sie unter [Funktionsweise aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
 
      >[!NOTE]
      >
@@ -155,13 +155,13 @@ Depending on what objects you access the commenting experience for, you might fi
    * Wiederholungen
    * Ad-hoc-Karte
 
-     Weitere Informationen zu Kartenaktualisierungen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+     Weitere Informationen zu Aktualisierungen auf Karten finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 * Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;entspricht dem der meisten Objekte:
 
    * Ziele
 
-     Weitere Informationen zu Aktualisierungen der Ziele finden Sie unter [Verwalten von Zielkommentaren](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+     Weitere Informationen zu Aktualisierungen von Zielen finden Sie unter [Zielkommentare verwalten](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -197,7 +197,7 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
  <thead> 
   <tr> 
    <th><strong>Objekt, dem die ursprüngliche Aktualisierung hinzugefügt wurde</strong> </th> 
-   <th> <p><strong>Rangobjekte, bei denen die ursprüngliche Aktualisierung ebenfalls angezeigt wird</strong> </p> </th> 
+   <th> <p><strong>Höhere Rangobjekte, bei denen die ursprüngliche Aktualisierung ebenfalls angezeigt wird</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -290,13 +290,13 @@ Beachten Sie beim Anzeigen von Updates für Benutzer und Teams Folgendes:
 
 * Im Abschnitt Updates für Benutzer und Teams können Sie die Aktualisierungen anzeigen, die in den letzten 90 Tagen vorgenommen wurden.
 
-  Wenn Sie alle Aktualisierungen sehen möchten, die über die 90-Tage-Beschränkung hinaus für einen Benutzer oder ein Team vorgenommen wurden, können Sie einen Bericht für Anmerkungen erstellen. Der Bericht sollte keinen Zeitfilter enthalten, der alle für Benutzer oder Teams vorgenommenen Aktualisierungen anzeigt. Weitere Informationen finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Wenn Sie alle Aktualisierungen sehen möchten, die über die 90-Tage-Beschränkung hinaus für einen Benutzer oder ein Team vorgenommen wurden, können Sie einen Bericht für Anmerkungen erstellen. Der Bericht sollte keinen Zeitfilter enthalten, der alle für Benutzer oder Teams vorgenommenen Aktualisierungen anzeigt. Weitere Informationen finden Sie unter [Benutzerspezifischen Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Einschränkungen bei der Eingabe von Kommentaren im Namen eines anderen Benutzers
 
 Adobe Workfront-Administratoren und Gruppenadministratoren können sich als andere Benutzer anmelden und Aktionen in Workfront ausführen, z. B. Kommentare eingeben.
 
-Weitere Informationen finden Sie unter [Melden Sie sich als anderer Benutzer an](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Weitere Informationen finden Sie unter [Als anderer Benutzer anmelden](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 Beachten Sie Folgendes, wenn Sie sich als anderer Benutzer anmelden und Kommentare hinzufügen:
 
@@ -319,4 +319,4 @@ Im Bericht sehen Sie Folgendes:
 * Wenn sich die Priorität im Laufe eines Projekts geändert hat
 * Wenn sich der Eigentümer eines Projekts geändert hat
 
-Weitere Informationen finden Sie unter [Bericht zum Bereich &quot;Updates&quot;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Weitere Informationen finden Sie unter [Bericht über den Aktualisierungsbereich](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

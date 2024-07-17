@@ -21,6 +21,6 @@ Die Dauer eines Problems wird von Adobe Workfront automatisch berechnet und kann
 
 Sie können die Dauer eines Problems in einem Problembericht oder die Ansicht einer Liste von Problemen anzeigen.
 
-Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ![](assets/nwe-issue-duration-view-highlighted-350x73.png)

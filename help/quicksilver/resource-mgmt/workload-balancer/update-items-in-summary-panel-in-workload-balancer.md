@@ -47,11 +47,11 @@ Sie müssen über Folgendes verfügen:
      <li> <p>Projekte</p> </li> 
      <li> <p>Aufgaben</p> </li> 
      <li> <p>Probleme</p> </li> 
-    </ul> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+    </ul> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen Sie Berechtigungen oder höher zu den Projekten, Aufgaben und Problemen. </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,33 +64,33 @@ Sie müssen über Folgendes verfügen:
 
    Der Arbeitslastausgleich zeigt Arbeitszuweisungsinformationen an, die mit der aktuellen Woche beginnen.
 
-1. Navigieren Sie zu **Nicht zugewiesene Arbeit** und suchen Sie nach einem Arbeitselement.
+1. Gehen Sie zum Bereich **Nicht zugewiesene Arbeit** und suchen Sie nach einem Arbeitselement.
 
    Oder
 
-   Navigieren Sie zu **Zugewiesene Arbeit** einen Benutzer erweitern und ein Arbeitselement suchen.
+   Wechseln Sie zum Bereich **Zugewiesene Arbeit** , erweitern Sie einen Benutzer und suchen Sie nach einem Arbeitselement.
 
 1. Klicken Sie auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung auf der rechten Seite zu öffnen.
 
    Oder
 
-   Klicks **Zusammenfassung öffnen** icon ![](assets/summary-panel-icon.png)und klicken Sie dann auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung zu öffnen.
+   Klicken Sie auf das Symbol **Zusammenfassung öffnen** ![](assets/summary-panel-icon.png) und dann auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld &quot;Zusammenfassung&quot;zu öffnen.
 
    Oder
 
-   Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben einer Aufgabe oder einem Problem klicken Sie auf **Zusammenfassung öffnen**.
+   Klicken Sie auf das Menü **Mehr** rechts neben einer Aufgabe oder einem Problem und klicken Sie dann auf **Zusammenfassung öffnen**.![](assets/more-icon.png)
 
    Das Bedienfeld &quot;Zusammenfassung&quot;wird rechts geöffnet.
 
    <div class="preview">
 
    Beispiel des Zusammenfassungs-Bedienfelds in der Vorschau-Umgebung:
-   ![Zusammenfassungsbereich](assets/summary-panel-task-wb-new-comments.png)
+   ![Bedienfeld &quot;Zusammenfassung&quot;](assets/summary-panel-task-wb-new-comments.png)
 
    </div>
 
    Beispiel des Zusammenfassungsbereichs in der Produktionsumgebung:
-   ![Zusammenfassungsbereich](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   ![Bedienfeld &quot;Zusammenfassung&quot;](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Ändern Sie eine Reihe von Feldern für das Arbeitselement, geben Sie eine Aktualisierung ein oder navigieren Sie von hier zu anderen Bereichen von Workfront, um Dokumente oder andere Informationen zum Arbeitselement hinzuzufügen.
 
@@ -98,7 +98,7 @@ Sie müssen über Folgendes verfügen:
    >
    >Wenn Sie von der Zusammenfassung zum Abschnitt mit Teilaufgaben navigieren, um Unteraufgaben hinzuzufügen, wird die ursprüngliche Aufgabe entfernt, da übergeordnete Aufgaben nicht im Arbeitslastausgleich angezeigt werden.
 
-   Weitere Informationen zum Aktualisieren von Informationen mithilfe der Zusammenfassung finden Sie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Weitere Informationen zum Aktualisieren von Informationen mithilfe der Zusammenfassung finden Sie unter [Übersicht der Zusammenfassung](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-1. (Bedingt) Wenn Sie einen der Abschnitte des Arbeitselements geöffnet haben, klicken Sie auf die **Schaltfläche &quot;Zurück&quot;** , um zum Workflow-Lastenausgleich zurückzukehren.
-1. Klicken Sie auf **Symbol &quot;Schließen&quot;** ![](assets/close-icon.png) in der oberen rechten Ecke der Zusammenfassung, um sie zu schließen.
+1. (Bedingt) Wenn Sie einen der Abschnitte des Arbeitselements geöffnet haben, klicken Sie auf die Schaltfläche **Zurück** Ihres Browsers, um zum Arbeitsladeausgleich zurückzukehren.
+1. Klicken Sie auf das Symbol **Schließen** ![](assets/close-icon.png) in der oberen rechten Ecke der Zusammenfassung, um sie zu schließen.

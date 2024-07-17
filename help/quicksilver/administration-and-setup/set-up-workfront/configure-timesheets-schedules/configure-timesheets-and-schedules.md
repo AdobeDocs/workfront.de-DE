@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
 title: Konfigurieren von Zeitplänen und Timesheet-Einstellungen
-description: Als [!DNL Workfront] Administrator können Sie Ihre Arbeitswoche mithilfe von Zeitplänen definieren und einen Zeitplan mit einem Benutzer oder Projekt verknüpfen. Dies ermöglicht Folgendes [!DNL Adobe Workfront] zur Berechnung der Zeitpläne und der Benutzerverfügbarkeit. Sie können auch die Voreinstellungen für das Timesheet und die Stunde konfigurieren.
+description: Als [!DNL Workfront] Administrator können Sie Ihre Arbeitswoche mithilfe von Zeitplänen definieren und einen Zeitplan mit einem Benutzer oder Projekt verknüpfen. Dadurch kann [!DNL Adobe Workfront] die Zeitpläne und die Benutzerverfügbarkeit berechnen. Sie können auch die Voreinstellungen für das Timesheet und die Stunde konfigurieren.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

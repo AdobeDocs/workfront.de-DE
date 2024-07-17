@@ -26,7 +26,7 @@ Sie können festlegen, dass in einem Workstream eine Spalte mit dem Rückstand a
 >
 >Wenn Sie eine neue Karte in die Spalte &quot;Backlog&quot;einfügen, die nicht den Abfragekriterien entspricht, verschwindet die Karte beim Aktualisieren der Pinnwand aus dem Backlog und ist nur in der Kartenliste verfügbar. Sie können die Abfrage jederzeit ändern, um die Karten anzupassen, die in der Spalte &quot;Rückstand&quot;angezeigt werden.
 
-Die Spalte mit dem Rückstand und die Abfrage sind auf Standalone-Pinnwänden nicht verfügbar. Weitere Informationen zum Hinzufügen einer Ansaugspalte zu einer Standalone-Pinnwand finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Die Spalte mit dem Rückstand und die Abfrage sind auf Standalone-Pinnwänden nicht verfügbar. Weitere Informationen zum Hinzufügen einer Ansaugspalte zu einer Standalone-Pinnwand finden Sie unter [Hinzufügen einer Annahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Zugriffsanforderungen
 
@@ -39,8 +39,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -49,26 +49,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Konfigurieren des Rückstands auf einer Arbeitsfläche
 
 {{step1-to-boards}}
 
-1. Öffnen Sie den Workflow, in dem Sie arbeiten möchten. Um einen Workflow zu öffnen, klicken Sie auf [!UICONTROL **Arbeitsablauf anzeigen**].
+1. Öffnen Sie den Workflow, in dem Sie arbeiten möchten. Um einen Workstream zu öffnen, klicken Sie auf [!UICONTROL **Workflow anzeigen**].
 1. Klicken Sie auf eine beliebige Pinnwand im Workstream, um sie zu öffnen.
-1. Klicks [!UICONTROL **Konfigurieren**] auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
-1. Aktivieren [!UICONTROL **Eine Spalte im Rückstand auf dieser Pinnwand einschließen**].
+1. Klicken Sie rechts auf der Pinnwand auf [!UICONTROL **Konfigurieren**] , um den Bereich &quot;Konfigurieren&quot;zu öffnen.
+1. Aktivieren Sie [!UICONTROL **Fügen Sie eine Rückstagespalte auf dieser Pinnwand ein**].
 
    Die Spalte &quot;backlog&quot;wird links auf der Pinnwand hinzugefügt. Sie bleibt leer, bis Sie eine Abfrage darauf anwenden.
 
-1. Erweitern [!UICONTROL **Backlog-Abfrage**].
+1. Erweitern Sie [!UICONTROL **Backlog-Abfrage**].
 
    >[!NOTE]
    >
    >Eine Standardabfrage kann bereits auf den Rückstand angewendet werden, um alle Arbeitselemente aus der Kartenliste anzuzeigen, die einen Status haben und deren Status nicht abgeschlossen ist.
 
-1. Klicks [!UICONTROL **Bedingung hinzufügen**] und klicken Sie in das Feld &quot;leer&quot;.
+1. Klicken Sie auf [!UICONTROL **Bedingung hinzufügen**] und klicken Sie auf das Feld &quot;leer&quot;.
 1. Wählen Sie das Feld aus, nach dem abgefragt werden soll.
 
    Die Felder, aus denen Sie auswählen können, sind die Standardfelder auf einer Karte.
@@ -85,9 +85,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Optional) Klicken Sie auf [!UICONTROL **Bedingung hinzufügen**] , um der Abfrage eine weitere Bedingung hinzuzufügen.
 
-   ![Rückstandsabfrage](assets/backlog-query-wrkstrm-board.png)
+   ![Rücklog-Abfrage](assets/backlog-query-wrkstrm-board.png)
 
-1. (Optional) Klicken Sie auf [!UICONTROL **Gruppe erstellen**] , um eine Gruppe von Bedingungen hinzuzufügen, die mit der ersten Bedingung mit einem ODER -Operator verbunden sind.
-1. Klicks [!UICONTROL **Abfrage speichern**].
+1. (Optional) Klicken Sie auf [!UICONTROL **Gruppe erstellen**] , um eine Gruppe von Bedingungen hinzuzufügen, die mit der ersten Bedingung mit einem ODER-Operator verbunden sind.
+1. Klicken Sie auf [!UICONTROL **Abfrage speichern**].
 
    Die Abfrage wird angewendet und die den Kriterien entsprechenden Karten werden in der Spalte &quot;Rückstand&quot;angezeigt.

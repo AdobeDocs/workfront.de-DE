@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit Version 22.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 verfügbar gemacht.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 Versionshinweise - Übersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Auf Pinnwänden verfügbare Einzugsspalte
 
@@ -31,7 +31,7 @@ Nur eine Aufnahmesäule ist an Bord erlaubt.
 
 Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412867/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## Aktualisiertes Filterbedienfeld in Pinnwänden
 
@@ -41,7 +41,7 @@ Die Filter- und Suchsymbole auf einer Pinnwand wurden nach links vom Bildschirm 
 
 Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412868/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
 ## Verwenden Sie Gruppen auf einer Pinnwand, um Swimlanes zu erstellen
 
@@ -51,9 +51,9 @@ Sie können auch definieren, was passiert, wenn eine Karte von einer Gruppe in e
 
 Alle Karten in der Ansaugspalte sind nicht in einer Gruppe enthalten.
 
-Weitere Informationen finden Sie unter [Gruppen auf einer Pinnwand verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
+Weitere Informationen finden Sie unter [Verwenden von Gruppen auf einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412869/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## Verbesserungen bei Checklisten-Elementen auf Pinnwänden
 
@@ -77,7 +77,7 @@ Nachdem Sie das Team zur Pinnwand hinzugefügt haben, können Sie das Team Karte
 
 Weitere Informationen finden Sie unter [Hinzufügen oder Entfernen von Mitgliedern aus einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412870/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
 ## Option zur Begrenzung der laufenden Bearbeitung ist jetzt in integrierten Spalten verfügbar
 
@@ -89,7 +89,7 @@ Sie können jetzt für jede Spalte auf einer Pinnwand eine Grenze für laufende 
 
 Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412871/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## Zu Karten hinzugefügtes Schätzfeld
 
@@ -99,4 +99,4 @@ Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksi
 
 Ein neues Feld für die Schätzung auf Ad-hoc- und verbundenen Karten ermöglicht die Angabe der geschätzten Anzahl der Stunden, die für das Ausfüllen der Karte erforderlich sind. Dies ist ein manueller Eintrag, kein berechneter Wert, und der Wert darf nicht mehr als 99 betragen. Die Schätzung wird sowohl auf der Karte auf der Pinnwand als auch in den Kartendetails angezeigt.
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412872/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412872/){target=_blank}

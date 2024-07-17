@@ -19,14 +19,14 @@ ht-degree: 0%
 Sie können Objekte anzeigen, die nicht in der Benutzeroberfläche des Standardmodus enthalten sind. Dies ist nur möglich, wenn Sie sie über den Textmodus referenzieren.\
 Sie können auf eine der folgenden Arten bestimmen, welche Felder in eine Ansicht aufgenommen werden können:
 
-* Verwenden Sie die [API-Explorer](../../../wf-api/general/api-explorer.md) , um andere Objekte zu finden, auf die über den Textmodus verwiesen werden kann.\
+* Verwenden Sie den [API-Explorer](../../../wf-api/general/api-explorer.md), um andere Objekte zu ermitteln, auf die über den Textmodus verwiesen werden kann.\
   Nicht alle im API Explorer dokumentierten Felder sind gültige Felder für den Textmodus. Einige Felder sind nur über die API meldebar.
 
 * Suchen Sie das ID-Feld des Objekts in einer Spalte. Die meisten Objekte mit einer Feld-ID haben auch einen entsprechenden Spalten- oder Feldnamen, auf den über die Benutzeroberfläche des Standardmodus möglicherweise nicht zugegriffen werden kann.
 
-  Sie können den Textmodus verwenden, um die Spalte oder den Feldnamen anstelle der ID in eine Ansicht aufzunehmen, indem Sie die `fieldnameID` mit dem `fieldname:name`.
+  Sie können den Textmodus verwenden, um die Spalte oder den Feldnamen anstelle der ID in eine Ansicht einzuschließen, indem Sie die `fieldnameID` durch die `fieldname:name` ersetzen.
 
-  In der Benutzeroberfläche für den Standardmodus kann beispielsweise die Variable **Portfolio Owner ID** -Feld für eine Projektansicht verfügbar ist, aber die **Name des Portfolios-Eigentümers** nicht. Sie können den Textmodus verwenden, um die **Name des Portfolios-Eigentümers** in der Spalte einer Ansicht.
+  In der Standardmodusschnittstelle ist beispielsweise das Feld **Portfolio Owner ID** für eine Projektansicht verfügbar, das Feld **Portfolio Owner Name** jedoch nicht. Sie können den Textmodus verwenden, um den **Portfolio Owner Name** in der Ansichtsspalte anzuzeigen.
 
 ## Zugriffsanforderungen
 
@@ -38,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -53,7 +53,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,13 +63,13 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Beispiel: Hinzufügen der Spalte &quot;Portfolio Owner Name&quot;zu einer Projektansicht
 
 1. Gehen Sie zu einer Projektliste.
-1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
+1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
 
-1. Klicks **Spalte hinzufügen** Geben Sie dann &quot;Portfolio Owner ID&quot;in die **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen** und geben Sie dann im Feld **In dieser Portfolio anzeigen** den Wert &quot; Owner ID&quot;ein. Wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird.
 
-1. Klicks **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Ersetzen Sie die `valuefield` Linie (`valuefield=portfolio:ownerID`) mit der folgenden Zeile:
+1. Ersetzen Sie die Zeile `valuefield` (`valuefield=portfolio:ownerID`) durch die folgende Zeile:
 
    ```
    valuefield=portfolio:owner:name
@@ -77,7 +77,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    Oder
 
-   Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
+   Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    valuefield=portfolio:owner:name
@@ -87,10 +87,10 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    linkedname=portfolio
    ```
 
-   In diesem Beispiel sortiert der Bericht den Bericht nach der Portfolio-Eigentümer-ID, wie durch die Variable `querysort` Linie.
+   In diesem Beispiel sortiert der Bericht den Bericht nach der Portfolio-Eigentümer-ID, wie durch die Zeile `querysort` angegeben.
 
    >[!TIP]
    >
-   >So ersetzen Sie beliebige Felder `ID` durch das Feld `name` im Textmodus immer ersetzen `ID` mit `:name` im `valuefield` Linie.
+   >Um ein Feld `ID` im Textmodus durch das Feld `name` zu ersetzen, ersetzen Sie in der Zeile `valuefield` immer `ID` durch `:name`.
 
-1. Klicks **Speichern**, dann **Ansicht speichern**.
+1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.

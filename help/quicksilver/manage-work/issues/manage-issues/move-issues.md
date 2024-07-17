@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 source-git-commit: 6c82c585376b41cff0e57b253b6a214fb00309de
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '881'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -40,11 +40,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Anzeigen oder höherer Zugriff auf Projekte und Aufgaben</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Probleme in Ihrer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
+   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Anzeigen oder höherer Zugriff auf Projekte und Aufgaben</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Probleme in Ihrer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Problem verwalten</p> <p>Beitragen Sie Berechtigungen zu dem Element, in das Sie das Problem verschieben und Probleme hinzufügen können.</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Problem verwalten</p> <p>Contribute-Berechtigungen für das Element, in das Sie das Problem verschieben und Probleme hinzufügen können.</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Beachten Sie Folgendes beim Verschieben von Problemen, die Dokumente enthalten oder mit einer Anforderungswarteschlange verknüpft sind:
 
 * **Wenn ein Problem mit einer Anforderungswarteschlange verknüpft ist:** Wenn Sie ein Problem in ein anderes Objekt verschieben und das Problem mit einer Anforderungswarteschlange verknüpft ist, wird das verschobene Problem nicht mehr mit der ursprünglichen Warteschlange verknüpft, aus der das erste Problem stammt.
-* **Wenn ein Dokument an das Problem angehängt ist:** Wenn Sie ein Problem in ein anderes Objekt verschieben und an das Problem ein Dokument angehängt ist, werden das Dokument, seine Versionen und Testsendungen ebenfalls auf das neue Problem verschoben. Alle mit dem Dokument verknüpften Genehmigungen werden nicht verschoben.
+* **Wenn ein Dokument an das Problem angehängt ist:** Wenn Sie ein Problem in ein anderes Objekt verschieben und das Problem ein Dokument angehängt hat, werden das Dokument, seine Versionen und Testsendungen ebenfalls an das neue Problem weitergeleitet. Alle mit dem Dokument verknüpften Genehmigungen werden nicht verschoben.
 * **Wenn ein Problem mit einem Dokument oder Ordner verknüpft ist:** Wenn Sie ein Problem verschieben, bei dem Dokumente oder Ordner mit einem Drittanbieterdienst wie Google Drive verknüpft sind, werden die Links zu den Dokumenten mit dem Problem verschoben.
 
 ## Verschieben von Problemen in eine Liste
@@ -69,12 +69,12 @@ Sie können ein oder mehrere Probleme aus einer Liste von Problemen oder aus ein
 
    Gehen Sie zu einem Problembericht.
 
-1. Wenn Sie ausgewählt haben, dass ein Projekt aufgerufen werden soll, klicken Sie auf **Probleme** im linken Bereich.
-1. Wählen Sie das Problem oder die Probleme aus, die Sie verschieben möchten, und klicken Sie auf die Schaltfläche **Mehr Menü** Klicken Sie oben in der Problemliste auf **Verschieben nach**.
+1. Wenn Sie ausgewählt haben, dass ein Projekt aufgerufen werden soll, klicken Sie im linken Bereich auf **Probleme** .
+1. Wählen Sie das Problem oder die Probleme aus, die Sie verschieben möchten, und klicken Sie oben in der Liste auf das Menü **Mehr** und dann auf **Verschieben nach**.
 
    ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. Fahren Sie mit dem Verschieben des Problems fort, wie im Abschnitt beschrieben. [Ein einzelnes Problem verschieben](#move-a-single-issue) beginnt mit Schritt 2.
+1. Fahren Sie mit dem Verschieben des Problems fort, wie im Abschnitt [Verschieben eines einzelnen Problems](#move-a-single-issue) beschrieben, beginnend mit Schritt 2.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -88,30 +88,30 @@ Sie können ein Problem bei der Anzeige verschieben.
 
 ### Verschieben eines einzelnen Problems in der Vorschau-Umgebung
 
-1. Gehen Sie zu einem Problem, das Sie kopieren möchten, und klicken Sie auf das **Mehr** Menü ![](assets/more-icon.png)rechts neben dem Problemnamen, und wählen Sie **Verschieben** auf.
+1. Wechseln Sie zu einem Problem, das Sie kopieren möchten, klicken Sie auf das Menü **Mehr** ![](assets/more-icon.png) rechts neben dem Namen des Problems und wählen Sie dann **Verschieben** nach.
 
    ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
-   Die **Problem verschieben** angezeigt.
+   Das Feld **Problem beim Verschieben** wird angezeigt.
 
    ![](assets/move-issue-box-nwe-350x280.png)
 
-1. Im **Zielprojekt auswählen** geben Sie den Namen des Projekts an, in das Sie die Probleme verschieben möchten. Der Name des aktuellen Projekts wird standardmäßig angezeigt.
+1. Geben Sie im Abschnitt **Zielprojekt auswählen** den Namen des Projekts an, in das Sie die Probleme verschieben möchten. Der Name des aktuellen Projekts wird standardmäßig angezeigt.
 
    >[!TIP]
    >
    >In der Liste werden nur 100 Projekte angezeigt.
 
-1. (Bedingt) Klicken Sie auf **Zugriff anfordern** wenn Sie keinen Zugriff haben, um Probleme in das Projekt zu verschieben.
+1. (Bedingt) Klicken Sie auf **Zugriffsanfrage anfordern** , wenn Sie keinen Zugriff zum Verschieben von Problemen in das Projekt haben.
 1. (Bedingt) Verschieben Sie das Problem weiterhin auf das ausgewählte Zielprojekt, ohne Zugriff anzufordern, wenn Sie Zugriff haben, um Probleme zu einer der Aufgaben im Zielprojekt hinzuzufügen.
 
    ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >
-   >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass Probleme zu diesen Projekten hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass Probleme zu diesen Projekten hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Optional) Im **Optionen** deaktivieren Sie eines der in der folgenden Tabelle aufgeführten Elemente, um sie aus dem verschobenen Problem zu entfernen. Alle Optionen sind standardmäßig ausgewählt.
+1. (Optional) Heben Sie im Abschnitt **Optionen** die Auswahl eines der in der folgenden Tabelle aufgeführten Elemente auf, um sie aus dem verschobenen Problem zu entfernen. Alle Optionen sind standardmäßig ausgewählt.
 
    >[!IMPORTANT]
    >
@@ -137,7 +137,7 @@ Sie können ein Problem bei der Anzeige verschieben.
       <td role="rowheader"><p>Dokumente</p></td> 
       <td> <p>Entfernt alle Elemente auf der Registerkarte "Dokumente", einschließlich Dokumentversionen, verknüpften Dokumenten und Ordnern.
 
-   <b>NOTIZ</b>
+   <b>NOTE</b>
 
    Wenn Sie sich dafür entscheiden, die Dokumente nicht mit dem Problem zu verschieben, werden die Dokumente gelöscht und 30 Tage lang im Papierkorb abgelegt. Ein Administrator kann sie wiederherstellen und wird beim verschobenen Problem wiederhergestellt.
 
@@ -156,8 +156,8 @@ Sie können ein Problem bei der Anzeige verschieben.
    </table>
 
 
-1. (Optional) Im **Aufgabe auswählen** wählen Sie die Aufgabe aus, in die Sie das Problem verschieben möchten.
-1. Klicken **Problem verschieben** oder **Probleme beim Verschieben**, wenn Sie mehrere Probleme in einer Liste ausgewählt haben.
+1. (Optional) Wählen Sie im Abschnitt **Aufgabe auswählen** die Aufgabe aus, in die Sie das Problem verschieben möchten.
+1. Klicken Sie auf **Problem verschieben** oder **Probleme beim Verschieben**, wenn Sie mehrere Probleme in einer Liste ausgewählt haben.
 
    Die verschobenen Probleme werden dem angegebenen Projekt hinzugefügt.
 

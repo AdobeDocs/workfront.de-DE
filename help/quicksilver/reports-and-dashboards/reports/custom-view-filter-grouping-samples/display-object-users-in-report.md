@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Berichte oder Listen: Anzeigen von Benutzern, die mit einem Objekt verknüpft sind'
+title: "Berichte oder Listen: Benutzer anzeigen, die mit einem Objekt verknüpft sind"
 description: Sie können in Berichten oder Listen Benutzer, Vorgangsrollen und Teams anzeigen, die mit Objekten verknüpft sind, und sie in Filtern referenzieren. Sie können keine Gruppe nach Benutzern, Auftragsrollen oder Teams erstellen, die mit Objekten verknüpft sind.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ---
 
-# Berichte oder Listen: Anzeigen von Benutzern, die mit einem Objekt verknüpft sind
+# Berichte oder Listen: Benutzer anzeigen, die mit einem Objekt verknüpft sind
 
 Sie können in Berichten oder Listen Benutzer, Vorgangsrollen und Teams anzeigen, die mit Objekten verknüpft sind, und sie in Filtern referenzieren. Sie können keine Gruppe nach Benutzern, Auftragsrollen oder Teams erstellen, die mit Objekten verknüpft sind.
 
@@ -57,7 +57,7 @@ Sie können alle mit dem Projekt verknüpften Benutzer in der Ansicht einer Proj
 
 ![](assets/project-with-user-and-role-information-report-350x100.png)
 
-Informationen zum Erstellen eines Projektberichts zur Anzeige aller Benutzer und ihrer Rollen im Projekt finden Sie unter [Ansicht: Liste der Projektbenutzer mit Auftragsprofilen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Informationen zum Erstellen eines Projektberichts, in dem alle Benutzer und ihre Rollen im Projekt angezeigt werden, finden Sie unter [Ansicht: Liste der Projektbenutzer mit Auftragsrollen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
 Sie können in einem Projektfilter nicht nach Benutzern oder Auftragsrollen filtern, die mit Projekten verknüpft sind.
 
@@ -89,7 +89,7 @@ Sie können nach den Benutzern, Aufgabenrollen oder Teams filtern, die Problemen
 
 Sie können alle mit einem Portfolio verknüpften Benutzer und Rollen anzeigen, indem Sie sie in einem Projektbericht anzeigen und dann den Bericht nach Portfolio gruppieren.
 
-Informationen zum Erstellen eines Projektberichts zur Anzeige aller Benutzer und ihrer Rollen im Projekt finden Sie unter [Ansicht: Liste der Projektbenutzer mit Auftragsprofilen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Informationen zum Erstellen eines Projektberichts, in dem alle Benutzer und ihre Rollen im Projekt angezeigt werden, finden Sie unter [Ansicht: Liste der Projektbenutzer mit Auftragsrollen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
 Sie können in einem Portfolio oder Projekt-Filter nicht nach Benutzern oder Stellenrollen filtern, die mit Projekten verknüpft sind.
 
@@ -97,6 +97,6 @@ Sie können in einem Portfolio oder Projekt-Filter nicht nach Benutzern oder Ste
 
 Sie können alle mit einem Programm verknüpften Benutzer und Rollen anzeigen, indem Sie sie in einem Projektbericht anzeigen und dann den Bericht nach Programm gruppieren.
 
-Informationen zum Erstellen eines Projektberichts zur Anzeige aller Benutzer und ihrer Rollen im Projekt finden Sie unter [Ansicht: Liste der Projektbenutzer mit Auftragsprofilen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Informationen zum Erstellen eines Projektberichts, in dem alle Benutzer und ihre Rollen im Projekt angezeigt werden, finden Sie unter [Ansicht: Liste der Projektbenutzer mit Auftragsrollen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
 Sie können in einem Programm- oder Projektfilter nicht nach Benutzern oder Stellenrollen filtern, die mit Projekten verknüpft sind.

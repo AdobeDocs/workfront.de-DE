@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle in Version 2019.1 enthaltenen Verbesserungen bei der Überprüfung beschrieben. Die Funktion ist jetzt in der Produktionsumgebung verfügbar.
 
-Eine Liste aller Änderungen, die 2019.1 vorgenommen wurden, finden Sie unter [Übersicht über die Versionsaktivität 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.1 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2019.1}.](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
 
 ## Für Administratoren
 
@@ -26,11 +26,11 @@ Eine Liste aller Änderungen, die 2019.1 vorgenommen wurden, finden Sie unter [�
 
 ## Für alle Benutzer
 
-* [Testen interaktiver Inhalte im Web Proofing-Viewer](#proof-interactive-content-in-the-web-proofing-viewer)
+* [Testen interaktiver Inhalte im Web Proofing Viewer](#proof-interactive-content-in-the-web-proofing-viewer)
 * [Die standardmäßige Sortierreihenfolge für Kommentare im Testversand-Viewer ist jetzt von alt auf neu](#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest)
-* [Erweiterte Überprüfung für Kommentare im Testversand-Viewer, der mit einem Videobereich verknüpft ist](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
-* [Link zu Dokumentdetails über eine Testbenachrichtigung oder den Testversand-Viewer](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
-* [E-Mail-Benachrichtigungen im Testversand-Viewer ändern](#change-your-email-notifications-in-the-proofing-viewer)
+* [Verbesserte Überprüfung für Kommentare im Testversand-Viewer, der mit einem Videobereich verknüpft ist](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
+* [Link zu Dokumentdetails von einer Benachrichtigung zum Testversand oder dem Testversand-Viewer](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
+* [Ändern Ihrer E-Mail-Benachrichtigungen im Testversand-Viewer](#change-your-email-notifications-in-the-proofing-viewer)
 * [Ändern der Hintergrundfarbe im Desktop Proofing Viewer](#change-the-background-color-in-the-desktop-proofing-viewer)
 * [Löschen zwischengespeicherter Browserdaten aus einem Testversand im Desktop Testversand-Viewer](#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer)
 
@@ -40,7 +40,7 @@ Workfront-Administratoren können jetzt die standardmäßige Testversandrolle f�
 
 Bisher war die standardmäßige Testfunktion von Benutzern und Gästen, die Zugriff auf einen Testversand hatten, ohne zum Workflow hinzugefügt zu werden, &quot;Überprüfer&quot;.
 
-Diese Funktion gilt nur für Testsendungen, die in Workfront erstellt wurden, nicht für Testsendungen in Workfront.
+Diese Funktion gilt nur für Testsendungen, die in Workfront und nicht in Workfront Proof erstellt wurden.
 
 ## Testen interaktiver Inhalte im Web Proofing-Viewer {#proof-interactive-content-in-the-web-proofing-viewer}
 
@@ -88,7 +88,7 @@ Zuvor konnte nur der Testversand-Eigentümer oder Traffic-Manager die E-Mail-War
 
 Diese Einstellungen unterscheiden sich von den E-Mail-Warnhinweiseinstellungen, die Sie in Workfront konfigurieren können.
 
-Weitere Informationen finden Sie unter [Benachrichtigungen für Testversandkommentare und -entscheidungen verwalten](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+Weitere Informationen finden Sie unter [Benachrichtigungen für Testversand-Kommentare und -Entscheidungen verwalten](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 
 VIDEO
 
@@ -96,7 +96,7 @@ VIDEO
 
 Jetzt können Sie die Hintergrundfarbe des Desktop Proofing-Viewers von der standardmäßigen nahezu schwarzen Farbe in Weiß ändern. Dies erleichtert die Anzeige von Testsendungen mit transparentem Hintergrund.
 
-Weitere Informationen finden Sie unter [Konfigurieren der Einstellungen des Testversand-Viewers](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Testversand-Viewer-Einstellungen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 VIDEO
 
@@ -106,6 +106,6 @@ Wenn die Cookie- und Cache-Einstellungen Ihres Browsers so eingestellt sind, das
 
 Jetzt können Sie die Browser-Cache-Daten löschen, die möglicherweise mit einem Testversand gespeichert werden, sodass alle Inhalte im Desktop Proofing Viewer angezeigt werden und Überprüfer sie sehen und kommentieren können.
 
-Weitere Informationen finden Sie unter [Konfigurieren der Einstellungen des Testversand-Viewers](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Testversand-Viewer-Einstellungen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 VIDEO

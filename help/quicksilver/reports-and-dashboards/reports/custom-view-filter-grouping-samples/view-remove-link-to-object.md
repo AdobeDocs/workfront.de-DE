@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Ansicht: Link zu einem Objekt in einer Spalte entfernen'
-description: Einige Objekte, die Sie in einer Ansicht anzeigen, verlinken standardmäßig zur Seite Details des Objekts. Beispielsweise ist die Spalte, die den Namen eines Projekts anzeigt, ein Link zum Projekt. in der Spalte, in der der Name eines Benutzers angezeigt wird, ein Link zur Profilseite des Benutzers ist.
+title: "Ansicht: Link zu einem Objekt in einer Spalte entfernen"
+description: Einige Objekte, die Sie in einer Ansicht anzeigen, verlinken standardmäßig zur Seite Details des Objekts. Beispielsweise ist die Spalte, die den Namen eines Projekts anzeigt, ein Link zum Projekt. Die Spalte, die den Namen eines Benutzers anzeigt, ist ein Link zur Profilseite des Benutzers.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Ansicht: Link zu einem Objekt in einer Spalte entfernen
 
-Einige Objekte, die Sie in einer Ansicht anzeigen, verlinken standardmäßig zur Seite Details des Objekts. Beispielsweise ist die Spalte, die den Namen eines Projekts anzeigt, ein Link zum Projekt. in der Spalte, in der der Name eines Benutzers angezeigt wird, ein Link zur Profilseite des Benutzers ist.
+Einige Objekte, die Sie in einer Ansicht anzeigen, verlinken standardmäßig zur Seite Details des Objekts. Beispielsweise ist die Spalte, die den Namen eines Projekts anzeigt, ein Link zum Projekt. Die Spalte, die den Namen eines Benutzers anzeigt, ist ein Link zur Profilseite des Benutzers.
 
 Sie können diesen Link mithilfe des Textmodus in Spalten entfernen, die in allen Ansichten angezeigt werden.
 
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>   
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,31 +55,31 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Beispiel: Entfernen Sie den Link zu einer Aufgabe aus der Spalte &quot;Task Name&quot;in einer Aufgabenansicht:
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht** , um eine neue Ansicht zu erstellen.
+1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht** , um eine neue Ansicht zu erstellen.
 
    Oder
 
-   Klicken Sie auf **Symbol Bearbeiten** ![](assets/edit-icon.png)
+   Klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png)
 
-   , um eine vorhandene Ansicht zu bearbeiten, und wählen Sie dann die Ansicht aus.
+   um eine vorhandene Ansicht zu bearbeiten, wählen Sie die Ansicht aus.
 
-1. Klicken **Spalte hinzufügen** um eine neue Spalte hinzuzufügen.
+1. Klicken Sie auf **Spalte hinzufügen** , um eine neue Spalte hinzuzufügen.
 
    Oder
 
    Klicken Sie auf eine vorhandene Spalte mit einer Verknüpfung zu einem Objekt.
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
    <pre>displayName=Task Name<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueExpression={name}</strong><br>valueFormat=Compound</pre>
 
    >[!TIP]
    >
    >Sie können ähnlichen Code für andere Objekte verwenden, indem Sie Folgendes anpassen:
    >
-   >* Ersetzen Sie die **valueField** -Zeile des Codes mit **valueExpression** und behalten Sie den gleichen Namen, der auch in geschweiften Klammern steht, nach dem Gleichheitszeichen bei.
-   >* Löschen Sie alle Zeilen, die mit `link.` aus dem Originaltext der Spalte. Löschen Sie beispielsweise alle folgenden Zeilen:
+   >* Ersetzen Sie die Zeile **valueField** des Codes durch **valueExpression** und behalten Sie denselben Namen, der nach dem Gleichheitszeichen in geschweiften Klammern steht, bei.
+   >* Entfernen Sie alle Zeilen, die mit `link.` beginnen, aus dem Originaltext der Spalte. Löschen Sie beispielsweise alle folgenden Zeilen:
    >
    >  ```
    >  link.linkproperty.0.name=ID
@@ -90,4 +90,4 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    >  ```
    >
 
-1. Klicken **Speichern**, dann **Ansicht speichern**.
+1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.

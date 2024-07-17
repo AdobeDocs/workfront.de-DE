@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Select oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Testversand-Zusammenfassung drucken oder als PDF-Datei speichern
 
@@ -54,13 +54,13 @@ Sie können eine Testversand-Zusammenfassung direkt aus der Dokumentliste drucke
 >
 >Sie können nicht mehrere Testversand-Zusammenfassungen gleichzeitig aus der Dokumentliste drucken.
 
-1. Halten Sie in der Dokumentliste, die den Testversand enthält, den Mauszeiger über die das Dokument enthaltende Zeile und klicken Sie auf **Druckzusammenfassung**.
+1. Halten Sie in der Dokumentliste, die den Testversand enthält, den Mauszeiger über die das Dokument enthaltende Zeile und klicken Sie dann auf **Zusammenfassung drucken** .
 
    ![proof_printsummary.png](assets/proof-printsummary-350x166.png)
 
    Oder
 
-   Klicken Sie beim Anzeigen des Testversands im Testversand-Viewer auf die Schaltfläche **Drucken** icon ![](assets/print-icon-in-pv.png) in der linken Symbolleiste. (Wenn die linke Symbolleiste nicht sichtbar ist, klicken Sie auf das Menüsymbol ![](assets/menu-icon-in-pv.png) in der linken oberen Ecke des Testversand-Viewers.)
+   Klicken Sie beim Anzeigen des Testversands im Testversand-Viewer in der linken Symbolleiste auf das Symbol **Drucken** ![](assets/print-icon-in-pv.png) . (Wenn die linke Symbolleiste nicht angezeigt wird, klicken Sie in der oberen linken Ecke des Testversand-Viewers auf das Menüsymbol ![](assets/menu-icon-in-pv.png) .)
 
 1. Verwenden Sie eine der folgenden Optionen:
 
@@ -72,9 +72,9 @@ Sie können eine Testversand-Zusammenfassung direkt aus der Dokumentliste drucke
       <td role="rowheader">Anzeigen</td> 
       <td> <p>Geben Sie an, was Sie drucken möchten:</p> 
        <ul> 
-        <li>Die <strong>Aktuelle Version</strong> oder <strong>Alle Versionen</strong> des Nachweises</li> 
+        <li>Die <strong>aktuelle Version</strong> oder <strong>Alle Versionen</strong> des Testversands</li> 
         <li>Nur die <strong>Seiten mit Kommentaren</strong> oder <strong>Alle Seiten</strong></li> 
-        <li>Nur die <strong>Seitenminiaturen</strong> (kleines Rendering jeder Seite) oder <strong>Vollständige Seiten</strong> (vollständige Darstellung des Testversands)<br></li> 
+        <li>Nur die <strong>Seiten-Miniaturansichten</strong> (eine kleine Darstellung jeder Seite) oder <strong>Vollseiten</strong> (eine vollständige Darstellung des Testversands)<br></li> 
         <p>Hinweis: Um die Pin-Zahlen auf dem Markup in Ihrer gedruckten Ausgabe anzuzeigen, müssen Sie Vollseiten und nicht Seiten-Miniaturansichten auswählen. </p> 
        </ul> </td> 
      </tr> 
@@ -82,10 +82,10 @@ Sie können eine Testversand-Zusammenfassung direkt aus der Dokumentliste drucke
       <td role="rowheader">Sortieren von Kommentaren nach</td> 
       <td> <p>(Nur verfügbar, wenn Sie die Option Seitenminiaturansichten oben ausgewählt haben) Geben Sie die Reihenfolge an, in der die Kommentare des Testversands gedruckt werden sollen:</p> 
        <ul> 
-        <li><strong>Oldest</strong>: Aus dem ersten Kommentar zum letzten</li> 
-        <li><strong>Neueste</strong>: Aus dem letzten Kommentar, der zum ersten</li> 
+        <li><strong>Oldest</strong>: Vom ersten Kommentar zum letzten</li> 
+        <li><strong>Latest</strong>: Vom letzten Kommentar zum ersten</li> 
         <li><strong>Seite</strong>: Nach Seite, von der ersten Seite zur letzten oder von der letzten Seite zur ersten</li> 
-        <li><strong>Ersteller</strong>: Nach den Namen der Benutzer, die sie hinzugefügt haben, von A-Z oder von Z-A</li> 
+        <li><strong>Ersteller</strong>: Nach den Namen der Benutzer, die sie hinzugefügt haben, von A-Z oder Z-A</li> 
        </ul> <p>Diese Optionen wirken sich nicht auf die Ausgabe aus, die Sie als XLS- oder PDF-Datei exportieren.</p> </td> 
      </tr> 
      <tr> 
@@ -94,28 +94,28 @@ Sie können eine Testversand-Zusammenfassung direkt aus der Dokumentliste drucke
        <ul> 
         <li>Von Ihnen ausgewählte Autoren (Standard)</li> 
         <li>Aktionen, die Sie auswählen</li> 
-        <li><strong>Ungelöst</strong> status</li> 
+        <li>Status <strong>Unresolved</strong></li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Workflow</td> 
-      <td> <p>(Nur verfügbar, wenn der Testversand einen automatisierten Workflow aufweist) Klicken Sie auf <strong>Diagramm anzeigen</strong> in gedruckter Ausgabe ein Diagramm mit den Phasen des Testversands und den auf jeder Stufe getroffenen Entscheidungen anzuzeigen. Im angezeigten Diagramm stellen die Farben die auf einer Bühne getroffenen Entscheidungen dar:</p> <p><strong>Grün</strong>: Genehmigt</p> <p><strong>Blau</strong>: Ausstehende Entscheidung</p> <p><strong>Rot</strong>: Erforderliche Entscheidung ändern</p> <p><strong>Grau</strong>: Noch nicht gestartet</p> <p><strong>Gelb</strong>: Genehmigt mit Änderungen</p> </td> 
+      <td> <p>(Nur verfügbar, wenn der Testversand einen automatisierten Workflow aufweist) Sie können auf <strong>Diagramm anzeigen</strong> klicken, um ein Diagramm in die gedruckte Ausgabe einzuschließen, in dem die Phasen des Testversands und die auf jeder Stufe getroffenen Entscheidungen dargestellt werden. Im angezeigten Diagramm stellen die Farben die auf einer Bühne getroffenen Entscheidungen dar:</p> <p><strong>Grün</strong>: Genehmigt</p> <p><strong>Blau</strong>: Entscheidung ausstehend</p> <p><strong>Rot</strong>: Erforderliche Entscheidung für Änderungen</p> <p><strong>Gray</strong>: Noch nicht gestartet</p> <p><strong>Gelb</strong>: Genehmigt mit Änderungen</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **Drucken**.
-1. Wenn Sie die Zusammenfassung im rechten Bereich des angezeigten Fensters drucken möchten, klicken Sie auf die Schaltfläche **Ziel** Menü und klicken Sie auf **Weitere Informationen**. Klicken Sie in der angezeigten Liste auf den Drucker, den Sie verwenden möchten, und klicken Sie dann auf **Drucken**.
+1. Klicken Sie auf **Drucken**.
+1. Klicken Sie im rechten Bereich des angezeigten Fensters, wenn Sie die Zusammenfassung drucken möchten, auf das Menü **Ziel** und dann auf **Mehr anzeigen**. Klicken Sie in der angezeigten Liste auf den Drucker, den Sie verwenden möchten, und klicken Sie dann auf **Drucken**.
 
    Oder
 
-   Wenn Sie die Zusammenfassung als PDF-Datei speichern möchten, klicken Sie auf die **Ziel** Menü, klicken Sie **Als PDF speichern** Klicken Sie auf **Speichern**.
+   Wenn Sie die Zusammenfassung als PDF-Datei speichern möchten, klicken Sie auf das Menü **Ziel**, klicken Sie auf **Als PDF speichern** und dann auf **Speichern**.
 
 ## Testversand-Zusammenfassung als XLS oder PDF exportieren
 
 Sie können eine Testversand-Zusammenfassung für statischen Inhalt als XLS-Datei oder als PDF-Datei exportieren. Der Testversand umfasst nur den Testversand-Inhalt.
 
-1. Halten Sie in der Dokumentliste, die den Testversand enthält, den Mauszeiger über die das Dokument enthaltende Zeile und klicken Sie auf **Druckzusammenfassung**.
+1. Halten Sie in der Dokumentliste, die den Testversand enthält, den Mauszeiger über die das Dokument enthaltende Zeile und klicken Sie dann auf **Zusammenfassung drucken** .
 
    ![proof_printsummary.png](assets/proof-printsummary-350x166.png)
 

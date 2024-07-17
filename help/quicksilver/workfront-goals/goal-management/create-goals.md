@@ -76,7 +76,7 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Richtlinien für das Erstellen von Zielen
 
@@ -84,7 +84,7 @@ Bevor Sie mit Workfront-Zielen beginnen, empfehlen wir Ihnen, sich über unsere 
 
 ## Erstellen von Zielen
 
-In diesem Artikel wird beschrieben, wie Sie ein strategisches Ziel in Workfront-Zielen erstellen. Informationen zum Erstellen eines Geschäftsfallziels finden Sie unter [Geschäftsfallziele erstellen](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+In diesem Artikel wird beschrieben, wie Sie ein strategisches Ziel in Workfront-Zielen erstellen. Informationen zum Erstellen eines Geschäftsfallziels finden Sie unter [Ziele für Geschäftsfälle erstellen](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 Sie können ein strategisches Ziel auf eine der folgenden Arten erstellen:
 
@@ -171,13 +171,13 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts auf **Ziele**.
+1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ziele**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Die Zielliste wird angezeigt.
-1. Klicks **Neues Ziel**.
+1. Klicken Sie auf **Neues Ziel**.
 
    Das Feld Neues Ziel wird angezeigt.
 
@@ -185,19 +185,19 @@ Creating goals differs depending on what environment you use.
 
 1. Geben Sie Informationen in die folgenden Felder ein:
    * **Zielname**: Geben Sie einen Namen für das Ziel ein. Dies ist ein Pflichtfeld.
-   * **Zeitraum**: Wählen Sie ein vordefiniertes Quartal oder Jahr aus dem **Zeitraum** Dropdown-Feld
+   * **Zeitraum**: Wählen Sie ein vordefiniertes Quartal oder Jahr aus dem Dropdownfeld **Zeitraum** aus
 
      Oder
 
-     Wählen Sie die **Benutzerdefinierte Datumswerte aktivieren** und wählen Sie eine **Starten** und **Enddatum** für das Ziel.
+     Wählen Sie die Option **Benutzerdefinierte Datumswerte aktivieren** und dann **Start** und **Enddatum** für das Ziel aus.
 
      Die vorherigen, aktuellen und nachfolgenden Jahre und ihre jeweiligen Quartale werden als vordefinierte Optionen im Dropdown-Feld Zeitraum aufgeführt.
 
      Der Zeitraum des Ziels gibt den Zeitraum an, in dem das Ziel voraussichtlich abgeschlossen sein wird.
 
-   * **Goal Owner**: Beginnen Sie mit der Eingabe des Namens eines Benutzers, eines Teams, einer Gruppe oder Ihres Unternehmens, um anzugeben, wer Inhaber des Ziels ist. Sie werden standardmäßig als Eigentümer des Ziels ausgewählt.
+   * **Zieleigentümer**: Beginnen Sie mit der Eingabe des Namens eines Benutzers, eines Teams, einer Gruppe oder Ihres Unternehmens, um anzugeben, wer Inhaber des Ziels ist. Sie werden standardmäßig als Eigentümer des Ziels ausgewählt.
    * **Beschreibung**: Geben Sie zusätzliche Informationen zum Ziel ein.
-1. Klicks **Ziel erstellen**.
+1. Klicken Sie auf **Ziel erstellen**.
 
    Das neue Ziel wird in der Zielliste aufgeführt und hat den Status **Entwurf**.
 
@@ -206,7 +206,7 @@ Creating goals differs depending on what environment you use.
    Führen Sie mindestens einen der folgenden Schritte aus, um ein zu aktivierendes Ziel vorzubereiten:
    * Ergebnis hinzufügen
 
-     Informationen zum Hinzufügen von Ergebnissen finden Sie unter [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-results-to-goals.md).
+     Weitere Informationen zum Hinzufügen von Ergebnissen finden Sie unter [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-results-to-goals.md).
    * Aktivität hinzufügen
 
      Informationen zum Hinzufügen von Aktivitäten finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-activities-to-goals.md).

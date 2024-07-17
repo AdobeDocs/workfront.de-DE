@@ -82,7 +82,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
-*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -102,10 +102,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Die Workspace-Seite wird angezeigt.
 
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) neben dem Workspace-Namen klicken Sie dann auf **Löschen**.
+1. Klicken Sie neben dem Workspace-Namen auf das Menü **Mehr** und dann auf **Löschen**.![](assets/more-menu.png)
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Typ &quot;**delete**&quot; in der vorgesehenen Platzierung und klicken Sie dann auf **Dauerhaftes Löschen**. Dabei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+1. Geben Sie &quot;**delete**&quot;in den verfügbaren Bereich ein und klicken Sie dann auf **Permanentes Löschen**. Dabei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
    Der Arbeitsbereich wird gelöscht und kann nicht wiederhergestellt werden. Alle Datensatztypen, Datensätze, Felder und Ansichten, die mit ihnen verknüpft sind, werden ebenfalls gelöscht. <!--ensure this is right at or before GA-->

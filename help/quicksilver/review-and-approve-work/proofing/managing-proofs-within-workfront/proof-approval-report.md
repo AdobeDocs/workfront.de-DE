@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Verwenden des Validierungsberichts
+title: Validierungsbericht für Testsendungen verwenden
 description: Im Validierungsbericht für Testsendungen erhalten Sie Informationen zu Testsendungen in Ihrer Umgebung.
 author: Courtney
 feature: Digital Content and Documents
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# Verwenden des Validierungsberichts
+# Validierungsbericht für Testsendungen verwenden
 
 Im Validierungsbericht für Testsendungen erhalten Sie Informationen zu Testsendungen in Ihrer Umgebung.
 
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Übersicht über Adobe Workfront-Lizenzen*</p> </td> 
@@ -38,37 +38,37 @@ Sie müssen über Folgendes verfügen:
    <td> <p>Zugriff bearbeiten auf:</p> 
     <ul> 
      <li> <p>Erstellen von Berichten, Dashboards und Kalendern</p> </li> 
-     <li> <p>Erstellen von Filtern, Ansichten und Gruppierungen</p> </li> 
-    </ul> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+     <li> <p>Erstellen von Filtern, Ansichten und Gruppen</p> </li> 
+    </ul> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Verwenden des Validierungsberichts
+## Validierungsbericht für Testsendungen verwenden
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichte**.
-1. Klicken **Neuer Bericht**, dann scrollen Sie zu **Validierung des Testversands**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
+1. Klicken Sie auf &quot;**Neuer Bericht**&quot;und scrollen Sie dann zu &quot;**Bestätigung der Genehmigung prüfen**&quot;.
 
    ![](assets/proof-approval-report.png)
 
 1. (Optional) Fügen Sie weitere Felder hinzu.
-1. Klicken **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 
 ## Zusätzliche Felder
 
 Folgende Felder können in den Validierungsbericht für Testsendungen eingefügt werden:
 
 * **Entscheidungsdatum**: Zeigt das Datum an, an dem ein Genehmiger eine Entscheidung über einen Testversand trifft. Dieses Datum finden Sie auch in der Druckzusammenfassung des Testversands.
-* **Stufe des Genehmigers**: Zeigt die aktuellen Informationen zur Bühne an.
+* **Phase &quot;Genehmiger&quot;**: Zeigt die aktuellen Informationen zur Bühne an.
 * **Workflow-Vorlage**: Zeigt alle an den Testversand angehängten Workflow-Vorlagen an. Wenn keine Vorlage angehängt ist, ist die Spalte leer.
-* **Entscheidung warten**: Zeigt &quot;true&quot;an, um zu signalisieren, dass eine Entscheidung in der neuesten Version nicht getroffen wurde, wenn Folgendes zutrifft:
+* **Warten auf Entscheidung**: Zeigt &quot;true&quot;an, um zu signalisieren, dass eine Entscheidung in der neuesten Version nicht getroffen wurde, wenn Folgendes zutrifft:
 
-   * Der Testversand wurde nicht archiviert
+   * Der Nachweis wurde nicht archiviert
    * Die Phase, in der der Genehmiger aktiv ist
    * Der Testversand steht noch aus.
 
-* **Testversand-Deadline**: Zeigt den Stichtag des Testversands an. Für jede Phase muss eine Frist zugewiesen sein, damit dieses Feld ausgefüllt werden kann. Im Feld wird der Termin für die zuletzt aktivierte Phase angezeigt.
+* **Testversand-Deadline**: Zeigt die Deadline des Testversands an. Für jede Phase muss eine Frist zugewiesen sein, damit dieses Feld ausgefüllt werden kann. Im Feld wird der Termin für die zuletzt aktivierte Phase angezeigt.
 
  

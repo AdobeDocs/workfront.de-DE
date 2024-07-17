@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,20 +71,20 @@ Beachten Sie Folgendes bei der Entscheidung, ob Portfolios gelöscht oder deakti
 
 ## Deaktivieren eines Portfolios
 
-Wenn Sie ein Portfolio deaktivieren, können Sie weiterhin über die [!UICONTROL Portfolios] nicht mehr in der Liste der Portfolios angezeigt, wenn Benutzer versuchen, sie zu einem Projekt hinzuzufügen.
+Wenn Sie ein Portfolio deaktivieren, können Sie weiterhin über den Bereich [!UICONTROL Portfolios] darauf zugreifen. Es wird jedoch nicht mehr in der Portfolioliste angezeigt, wenn Benutzer versuchen, es zu einem Projekt hinzuzufügen.
 
 >[!NOTE]
 >
->Je nachdem, wie Ihre [!DNL Workfront] oder der Gruppenadministrator Ihre Layoutvorlage konfiguriert, konfiguriert die [!UICONTROL Portfolios] -Bereich wird möglicherweise nicht im [!UICONTROL Hauptmenü]. Weitere Informationen finden Sie unter [Hauptmenü mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>Je nachdem, wie Ihr [!DNL Workfront]- oder Gruppenadministrator Ihre Layoutvorlage konfiguriert, wird der Bereich [!UICONTROL Portfolios] möglicherweise nicht im [!UICONTROL Hauptmenü] angezeigt. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
-1. Klicks **[!UICONTROL Portfolios]** .
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
+1. Klicken Sie auf **[!UICONTROL Portfolio]** .
 1. Klicken Sie auf den Namen des Portfolios.
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Portfolionamen klicken Sie auf **[!UICONTROL Portfolio deaktivieren]**.
+1. Klicken Sie auf das Menü **Mehr** rechts neben dem Portfolionamen und dann auf **[!UICONTROL Portfolio deaktivieren]**.![](assets/more-icon.png)
 
 ## Löschen eines Portfolios
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
-1. Klicks **[!UICONTROL Portfolios]** .
-1. Wählen Sie das Portfolio aus und klicken Sie auf **[!UICONTROL Löschen]**&#x200B; [!UICONTROL Löschen] icon ![](assets/delete.png).
-1. Klicken Sie im angezeigten Feld auf **[!UICONTROL Ja, löschen]** zur Bestätigung.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
+1. Klicken Sie auf **[!UICONTROL Portfolio]** .
+1. Wählen Sie das Portfolio aus und klicken Sie dann auf **[!UICONTROL Löschen]** &#x200B; dem Symbol [!UICONTROL Löschen] ![](assets/delete.png).
+1. Klicken Sie im angezeigten Feld auf **[!UICONTROL Ja, löschen Sie es]**, um zu bestätigen.

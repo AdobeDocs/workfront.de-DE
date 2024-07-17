@@ -17,7 +17,7 @@ ht-degree: 12%
 
 Workfront Data Lake ist ein neues Tool, das derzeit entwickelt wird und Unternehmen eine dedizierte Schnittstelle bietet, über die sie Daten für gängige Business Analyst-Tools abrufen oder in externen Data Warehouse speichern können - ohne dass komplizierte API- oder Fusion-Lösungen erforderlich sind. Diese Seite enthält Informationen darüber, wie Sie uns helfen können, indem Sie dieses Tool während unserer laufenden Beta-Phase testen und Feedback geben.
 
-Informationen zur Verwendung des Workfront Data Lake finden Sie unter [Workfront Data Lake - Übersicht](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Informationen zur Verwendung des Workfront Data Lake finden Sie unter [Workfront Data Lake Overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 **Beta-Zeitplan:**
 
@@ -34,17 +34,17 @@ Informationen zur Verwendung des Workfront Data Lake finden Sie unter [Workfront
 
 Um sich für Ihre Organisation in der Beta-Phase anzumelden, füllen Sie bitte das Formular aus und reichen Sie es unter folgendem Link ein:
 
-[Workfront Data Lake Beta-Anmeldung](https://adobe.ly/workfrontdatalake)
+[Workfront Data Lake Beta-Registrierung](https://adobe.ly/workfrontdatalake)
 
 ### Feedback geben
 
 Feedback wird bei der Entwicklung dieses Tools im Laufe der Beta-Phase geschätzt. Bitte folgen Sie den unten stehenden Anweisungen, um Ihre Erfahrungen mit uns zu teilen.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Einrichtung**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Setup**.
 
 1. Klicken Sie im linken Bereich auf **System** > **Datenzugriff**.
 
-1. Klicken Sie auf **Feedback senden** unten auf der Seite, und füllen Sie dann das Formular mit Ihrem Feedback aus.
+1. Klicken Sie unten auf der Seite auf die Schaltfläche **Feedback senden** und füllen Sie dann das Formular mit Ihrem Feedback aus.
 
 ## Geplante Funktionen
 

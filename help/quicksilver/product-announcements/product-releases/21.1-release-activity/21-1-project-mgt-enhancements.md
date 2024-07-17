@@ -19,31 +19,31 @@ ht-degree: 1%
 
 Auf dieser Seite werden alle Verbesserungen des Projekt-Managements beschrieben, die mit Version 21.1 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
 
-Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [21.1 - Versionsübersicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Export ist jetzt im Abschnitt Metriken eines Projekts verfügbar
 
 Um den Status und Fortschritt eines Projekts einfacher freizugeben, können Sie jetzt das gesamte Dashboard im Abschnitt &quot;Metriken&quot;eines Projekts in eine PNG-Datei exportieren.
 
-Weitere Informationen finden Sie unter [Übersicht über Projektmetriken](../../../manage-work/projects/manage-projects/project-metrics.md).
+Weitere Informationen finden Sie unter [Überblick über Projektmetriken](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Diese Funktion ist jetzt im [Planen von Grundlagen für das neue Workfront-Erlebnis, Teil 3: Projekt verwalten](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt in den [Planergrundlagen für das neue Workfront-Erlebnis, Teil 3: Verwalten eines Projekts](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U)-Lernpfads auf Workfront One, enthalten.
 
 ## Aktualisierung des Prozentsatzes des Problems, das abgeschlossen ist, wenn das Projekt oder die Aufgabe aus der Problemaktualisierung konvertiert wurde
 
 Wir haben die Funktionsweise des Prozentsatzes der Fehlerbehebung bei Problemen aktualisiert, die in Projekte oder Aufgaben konvertiert wurden. Wenn mit der neuen Funktion ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird der Prozentsatz am Ende des Problems synchron mit dem Prozentsatz an abgeschlossen der aufgelösten Aufgabe oder des aufgelösten Projekts aktualisiert, wenn die Einstellung &quot;Automatisch Update Behebbarer Probleme bei Änderung des Status der aufgelösten Objektänderungen&quot;bei der Einrichtung aktiviert ist.
 
-Informationen zu Konvertierungsproblemen finden Sie unter [Übersicht über das Auflösen und Auflösen von Objekten](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Informationen zum Konvertieren von Problemen finden Sie unter [Überblick über das Auflösen und Auflösen von Objekten](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Neue Liste gesendeter Anforderungen
 
 Damit Sie Ihre gesendeten Anfragen einfacher und konsistenter verwalten können, haben wir die Abschnitte Gesendete Anfragen und Alle Anforderungen im Bereich Anforderungen entfernt und durch eine neue Liste ersetzt. Die Liste hat ein bekanntes Erscheinungsbild, das mit allen anderen Listen im System übereinstimmt, sodass Sie nach verschiedenen Kategorien gesendeter Anforderungen filtern und schnell nach einer Anforderung suchen können, die möglicherweise schwierig zu finden ist.
 
-Informationen zum Auffinden gesendeter Anfragen finden Sie unter [Gesendete Anforderungen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Informationen zum Suchen gesendeter Anforderungen finden Sie unter [Gesendete Anforderungen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt in den [Grundlagen der Mitwirkenden für den neuen Lernpfad von Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) auf Workfront One enthalten.
 
-Diese Funktion ist jetzt im [Anforderungen im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Anforderungen im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E)-Lernpfad auf Workfront One enthalten.
 
 ## Aus der Seite &quot;Neue Anforderung&quot;entfernte Felder
 
@@ -81,7 +81,7 @@ Um die Konsistenz mit dem neuen Workfront-Erlebnis zu gewährleisten und die Eff
 
 Möglichkeit, einen Link zur Anforderungswarteschlange, Themengruppe oder Warteschlangenthema freizugeben, während Sie die Anforderung eingeben.
 
-Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Informationen zum Senden von Anforderungen finden Sie unter [Erstellen und Senden von Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Link in eine Anforderungswarteschlange freigeben, wenn eine Anforderung gesendet wird
 
@@ -93,7 +93,7 @@ Jetzt ist es möglich, einen Link zu einer Anforderungswarteschlange, einer Them
 
 Bevor Sie eine neue Anforderung senden, können Sie einen Link in die Anforderungswarteschlange, die Themengruppe oder das Warteschlangenthema der Anforderung kopieren und für andere Benutzer freigeben oder in ein Dashboard einbetten.
 
-Informationen zum Teilen eines Links zu einer Anforderungswarteschlange beim Senden einer Anforderung finden Sie unter [Link in eine Anforderungswarteschlange freigeben](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Informationen zum Teilen eines Links zu einer Anforderungswarteschlange beim Senden einer Anforderung finden Sie unter [Link zu einer Anforderungswarteschlange freigeben](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Suchen Sie nach einer Gruppe, die Sie einem Projekt zuweisen möchten, und zeigen Sie deren Details an.
 
@@ -105,7 +105,7 @@ Je nach den für die Gruppe konfigurierten Details können Sie auch den Business
 
 Mit diesen Informationen können Sie sicher sein, dass Sie die richtige Gruppe auswählen, die Sie dem Projekt zuweisen möchten.
 
-Weitere Informationen finden Sie unter [Informationen im Bereich &quot;Projektübersicht&quot;verwalten](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
+Weitere Informationen finden Sie unter [Verwalten von Informationen im Bereich &quot;Projektübersicht&quot;](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
 ## Bericht zur neuen Benutzerdelegation
 
@@ -115,4 +115,4 @@ Bisher konnten Informationen zu Aufgaben, Themen und Projektgenehmigungen nur vo
 * Welcher Benutzer wurde diese Genehmigungen zugewiesen?
 * Beginn und Ende dieser Delegationen
 
-Weitere Informationen finden Sie unter [Erstellen eines Berichts zur Benutzerdelegation](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).
+Weitere Informationen finden Sie unter [Bericht &quot;Benutzerdelegierung erstellen&quot;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).

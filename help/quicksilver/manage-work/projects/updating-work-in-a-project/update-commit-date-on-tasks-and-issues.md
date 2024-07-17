@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
-Sie können das Übermittlungsdatum einer Aufgabe oder eines Problems, dem Sie zugewiesen sind, manuell aktualisieren. Weitere Informationen zum Festlegen von Datumswerten in Adobe Workfront finden Sie unter [Datum bestätigen - Übersicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Sie können das Übermittlungsdatum einer Aufgabe oder eines Problems, dem Sie zugewiesen sind, manuell aktualisieren. Weitere Informationen zu den Zusendedaten in Adobe Workfront finden Sie unter [Übersicht über das Veröffentlichungsdatum](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## Zugriffsanforderungen
 
@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -77,10 +77,10 @@ Bevor Sie das Übermittlungsdatum einer Aufgabe oder eines Problems bearbeiten k
 In den folgenden Bereichen von Workfront können Sie das Übermittlungsdatum einer Aufgabe oder eines Problems aktualisieren:
 
 * Der Bereich Details einer Aufgabe oder eines Problems
-* <span class="preview">Aufgaben- oder Problemkopfzeile</span>
+* <span class="preview">Die Aufgaben- oder Problemkopfzeile</span>
 
-  <span class="preview">Ihr Workfront- oder Gruppenadministrator muss der Aufgaben- oder Problemüberschrift Ihrer Layoutvorlage das Datum &quot;Bestätigen&quot;hinzufügen, um es auf der Aufgaben- oder Problemseite anzuzeigen.
-Weitere Informationen finden Sie unter [Objektüberschriften mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  <span class="preview">Ihr Workfront- oder Gruppenadministrator muss der Aufgaben- oder Problemüberschrift Ihrer Layoutvorlage das &quot;Datum festlegen&quot;hinzufügen, um es auf der Aufgaben- oder Problemseite anzuzeigen.
+Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme identisch.
 
@@ -90,21 +90,21 @@ Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme i
 >
 >Weitere Informationen finden Sie in den folgenden Artikeln:
 >
->* [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Überblick über die Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Passen Sie die Startseite und die Zusammenfassung mit einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
-1. Gehen Sie zu einer Aufgabe oder einem Problem, die bzw. dem Sie als **Inhaber**.
+1. Wechseln Sie zu einer Aufgabe oder einem Problem, der Sie als **Inhaber** zugewiesen sind.
 
-   Weitere Informationen dazu, wie Sie herausfinden, wer der Aufgabeneigentümer für ein Problem oder eine Aufgabe ist, finden Sie im Abschnitt [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) im Artikel [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   Weitere Informationen dazu, wer der Aufgabeneigentümer für ein Problem oder eine Aufgabe ist, finden Sie im Abschnitt [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) im Artikel [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Bedingt und optional) Wenn Ihr Workfront- oder Gruppenadministrator Ihrer Aufgaben- oder Problemkopfzeile das Datum der Veröffentlichung &quot;Bestätigen&quot;hinzugefügt hat, klicken Sie auf die Schaltfläche **Datum der Übermittlung** in der Kopfzeile ein Datum aus dem Kalender aus. Wenn sich das Datum des Versands nicht in der Kopfzeile befindet, fahren Sie mit den folgenden Schritten fort. </span>
+1. <span class="preview">(Bedingt und optional) Wenn Ihr Workfront- oder Gruppenadministrator das Datum für die Übermittlung zu Ihrer Aufgaben- oder Problemüberschrift hinzugefügt hat, klicken Sie in der Kopfzeile auf das Feld **Veröffentlichungsdatum** und wählen Sie dann ein Datum aus dem Kalender aus. Wenn sich das Datum des Versands nicht in der Kopfzeile befindet, fahren Sie mit den folgenden Schritten fort. </span>
 
    <span class="preview">![](assets/commit-date-task-header.png)</span>
 
-1. Klicks **Aufgabendetails** oder **Problemdetails** im linken Bereich.
-1. Klicks **Übersicht** um sie zu erweitern.
-1. Aktualisieren Sie die **Datum der Übermittlung** -Feld.
+1. Klicken Sie im linken Bereich auf **Aufgabendetails** oder **Problemdetails** .
+1. Klicken Sie auf **Überblick** , um es zu erweitern.
+1. Aktualisieren Sie das Feld **Datum für die Übermittlung**.
 
    ![](assets/task-commit-date-edit-highlighted-details-page.png)
 
@@ -126,6 +126,6 @@ Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme i
 
      <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     Informationen zu den Benachrichtigungen und Aktualisierungen, die durch diese Änderung ausgelöst werden, finden Sie im Abschnitt &quot;Benachrichtigungen und Aktualisierungen, die durch Änderung des Zusagedatums ausgelöst werden&quot;im Artikel [Datum bestätigen - Übersicht](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Informationen zu den Benachrichtigungen und Aktualisierungen, die durch diese Änderung ausgelöst werden, finden Sie im Abschnitt &quot;Benachrichtigungen und Aktualisierungen, die durch Änderung des Zustimmungsdatums ausgelöst werden&quot;im Artikel [Übersicht über das Veröffentlichungsdatum](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

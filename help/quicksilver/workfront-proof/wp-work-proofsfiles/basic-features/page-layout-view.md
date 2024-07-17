@@ -3,14 +3,14 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
-title: Seitenlayout auf der Registerkarte "Ansichten"im Workfront-Testversand
+title: Seitenlayout auf der Registerkarte "Ansichten"in Workfront Proof
 description: Sie können das Seitenlayout auf der Registerkarte Ansichten anpassen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---
@@ -19,21 +19,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
-Sie können das Seitenlayout auf der [!UICONTROL Ansichten] Registerkarte. Die folgenden Layoutoptionen sind verfügbar:
+Sie können das Seitenlayout auf der Registerkarte [!UICONTROL Ansichten] anpassen. Die folgenden Layoutoptionen sind verfügbar:
 
 ## Liste
 
 * Zeigt den Testversand- oder Dateinamen sowie die Spalten der Standardansicht an
-* Die [!UICONTROL Testversandaktionen] Menü befindet sich auf der rechten Seite der Zeile (1)
+* Das Menü [!UICONTROL Testversand-Aktionen] befindet sich rechts in der Zeile (1)
 
-  ![Page_views_list_view.png](assets/page-views---list-view-350x164.png)
+  ![Page_views_-_list_view.png](assets/page-views---list-view-350x164.png)
 
 ## Miniaturansicht-Liste
 
 * Zeigt das Symbol des Testversands/der Datei, den Testversand- oder Dateinamen sowie die Spalten der Standardansicht an
-* Die [!UICONTROL Testversandaktionen] Menü befindet sich auf der rechten Seite der Zeile (1)
+* Das Menü [!UICONTROL Testversand-Aktionen] befindet sich rechts von der Zeile (1)
 * Beachten Sie, dass dies die Standardansicht ist.
 
   ![Page_views_-_thumbnails_list_view.png](assets/page-views---thumbnails-list-view-350x164.png)
@@ -41,7 +41,7 @@ Sie können das Seitenlayout auf der [!UICONTROL Ansichten] Registerkarte. Die f
 ## Miniaturen
 
 * Zeigt nur das Symbol des Testversands/der Datei und den Testversand-/Dateinamen an
-* Die [!UICONTROL Testversandaktionen] Das Menü befindet sich für jeden Testversand oben rechts (1)
+* Das Menü [!UICONTROL Testversand-Aktionen] befindet sich oben rechts für jeden Testversand (1)
 
   ![Page_views_-_thumbnails_view.png](assets/page-views---thumbnails-view-350x156.png)
 

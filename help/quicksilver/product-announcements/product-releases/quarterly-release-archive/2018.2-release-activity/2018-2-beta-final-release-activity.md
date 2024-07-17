@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 Beta-Version
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.2 verfügbar waren. Die Funktion wurde am 20. Juni 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Beta-Version 2018.2 - Aktivität "Abschließende Version"
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der endgültigen Beta-Version 2018.2 verfügbar waren. Die Funktion wurde am 20. Juni 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 Beta-Version
+# Beta-Version 2018.2 - Aktivität &quot;Abschließende Version&quot;
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.2 verfügbar waren. Die Funktion wurde am 20. Juni 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der endgültigen Beta-Version 2018.2 verfügbar waren. Die Funktion wurde am 20. Juni 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
 
 >[!IMPORTANT]
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter  [Übersicht über die Versionsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 Die folgenden neuen Funktionen werden zum Zeitpunkt der Produktionsversion 18.2 veröffentlicht:
 
@@ -50,7 +50,7 @@ Sie erhalten jetzt eine E-Mail-Benachrichtigung, wenn jemand ein Dokument kommen
 
 Vor dieser Änderung haben Sie keine Benachrichtigungen erhalten, wenn jemand ein Dokument kommentiert hat, dessen Inhaber Sie sind. 
 
-Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Jedes Mal, wenn das Workfront-System eine Aktualisierung im Bereich Updates für
 
 Vor dieser Änderung enthielt jedes Systemupdate auch ein Symbol, das die durchgeführte Aktualisierung darstellte.
 
-Weitere Informationen zu Systemaktualisierungen finden Sie unter [Vom System getrackte Aktualisierungen](../../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Weitere Informationen zu Systemaktualisierungen finden Sie unter [Vom System getrackte Updates](../../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 ## Option zum Konvertieren eines Kommentars in eine Aufgabe wurde entfernt {#option-to-convert-a-comment-to-a-task-was-removed}
 
@@ -93,7 +93,7 @@ Die folgenden Workfront-Benachrichtigungen können auch für die Bereitstellung 
 
 Vor dieser Verbesserung konnten Sie keine Workfront-Benachrichtigungen in Slack erhalten.
 
-Weitere Informationen zu Workfront-Benachrichtigungen unter Slack finden Sie unter [Empfangen von Adobe Workfront-Benachrichtigungen in Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Weitere Informationen zu Workfront-Benachrichtigungen in Slack finden Sie unter [Empfangen von Adobe Workfront-Benachrichtigungen in Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Mobile Verbesserungen {#mobile-improvements}
 
@@ -113,10 +113,10 @@ Die folgenden neuen Funktionen werden zum Zeitpunkt der Produktionsversion 18.2 
 
   Diese Funktion ist nur für die mobile iOS-App verfügbar.
 
-Die folgenden Funktionen wurden bereits für die Android Beta-Version der mobilen Workfront-App veröffentlicht und stehen auch für die öffentlichen Android- und iOS-Apps zur Verfügung. Das Erlebnis für die iOS-Plattform unterscheidet sich von dem bereits veröffentlichten Android-Erlebnis:
+Die folgenden Funktionen wurden bereits für die Android Beta-Version der mobilen Workfront-App veröffentlicht und sind auch für öffentliche Android- und iOS-Apps verfügbar. Das Erlebnis für die iOS-Plattform unterscheidet sich von dem bereits veröffentlichten Android-Erlebnis:
 
 * Neue untere Navigationsleiste für iOS 
 
 * Neues Tutorial-Erlebnis für iOS 
 
-Weitere Informationen zu diesen Funktionen sowie Videos zu diesen Funktionen finden Sie unter [Aktivität &quot;Beta 4&quot;(Version 2018.2)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) und [Aktivität &quot;Beta-Version 5&quot;2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).
+Weitere Informationen zu diesen Funktionen sowie Videos zu deren Demonstration finden Sie unter [2018.2 Beta 4 Release-Aktivität](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) und [2018.2 Beta 5 Release-Aktivität](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).

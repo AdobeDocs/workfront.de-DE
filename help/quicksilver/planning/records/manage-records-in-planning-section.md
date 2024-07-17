@@ -77,7 +77,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Zeigen Sie in Workfront die Berechtigungen für ein Projekt, ein Portfolio oder ein Programm an oder höher</a> </p> 
+   <td> <p>Zeigen Sie in Workfront die Berechtigungen für ein Projekt, Portfolio oder Programm an oder höher</a> </p> 
    <p>In der Workfront-Planung Contribute oder höhere Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche der Workfront-Planung, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
@@ -91,7 +91,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Abschnitt &quot;Planung&quot;von Workfront-Objekten
 
@@ -117,7 +117,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie im Feld &quot;Verbundener Datensatz&quot;auf den Namen eines Workfront-Objekts.
 Die Seite der Objekte wird in Workfront geöffnet.
 
-1. Klicks **Planung** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Planung** .
 
    >[!NOTE]
    >
@@ -135,13 +135,13 @@ Die Seite der Objekte wird in Workfront geöffnet.
 
 1. Klicken Sie auf eine Datensatzkarte, um weitere Informationen zum Datensatz anzuzeigen. Das Vorschaufeld für Datensätze wird angezeigt.
 1. (Optional) Beginnen Sie mit der Änderung der Felder im Vorschaufeld des Datensatzes. Ihre Änderungen werden automatisch gespeichert.
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der rechten oberen Ecke des Vorschaufelds, um die Detailseite des Datensatzes zu öffnen. Die Detailseite des Datensatzes wird in der Workfront-Planung geöffnet.
-1. Bewegen Sie den Mauszeiger über eine Datensatzkarte und klicken Sie dann auf das Symbol zum Trennen des Datensatzes **-** Klicken Sie auf **Trennen**.
+1. (Optional) Klicken Sie oben rechts im Vorschaufenster auf das Symbol **In einer neuen Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) , um die Detailseite des Datensatzes zu öffnen. Die Detailseite des Datensatzes wird in der Workfront-Planung geöffnet.
+1. Bewegen Sie den Mauszeiger über eine Datensatzkarte, klicken Sie dann auf das Symbol zum Trennen des Datensatzes **-** und klicken Sie dann auf **Trennen**.
 Folgendes geschieht:
    * Der Datensatz ist nicht mehr mit dem Workfront-Objekt verbunden.
    * Das Workfront-Objekt wird auch aus dem verbundenen Feld des Datensatzes aus der Workfront-Planung entfernt.
    * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden ebenfalls gelöscht.
-1. Klicks **Verbinden** , um weitere Datensätze zu verbinden.
+1. Klicken Sie auf **Verbinden** , um weitere Datensätze zu verbinden.
 
    >[!NOTE]
    >

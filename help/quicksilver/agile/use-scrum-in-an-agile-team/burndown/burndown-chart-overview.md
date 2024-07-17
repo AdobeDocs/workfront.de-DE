@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Die Abbruchgrafik bietet eine visuelle Darstellung des Fortschritts von Geschichten während der Iteration. Die tatsächliche Abbruchrate wird mit der idealen Abbruchrate für die Iterationszeitleiste gemessen.
 
-Das Diagramm passt sich je nach ausgewähltem Tag an. Der aktuelle Tag ist der Standardwert. Wenn ein vorheriger Tag ausgewählt wird, werden alle Daten in der Dropdownliste und alle Werte in der Variablen [!UICONTROL Abschlussstatus] -Abschnitt oberhalb des Startdiagramms neu berechnet werden, um die Daten so darzustellen, wie sie am Ende des ausgewählten Tages waren. (Sie können vergangene Tage oder den aktuellen Tag auswählen; Sie können keine Tage in der Zukunft auswählen.)
+Das Diagramm passt sich je nach ausgewähltem Tag an. Der aktuelle Tag ist der Standardwert. Wenn ein vorheriger Tag ausgewählt wird, werden alle Daten im Startdiagramm und alle Werte im Abschnitt [!UICONTROL Abschlussstatus] über dem Startdiagramm neu berechnet, um die Daten so darzustellen, wie sie am Ende des ausgewählten Tages waren. (Sie können vergangene Tage oder den aktuellen Tag auswählen; Sie können keine Tage in der Zukunft auswählen.)
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
@@ -32,11 +32,11 @@ Das Diagramm enthält die folgenden visuellen Indikatoren:
  <tbody> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
-   <td> <p>Ideale Abbruchrate basierend auf dem Zeitpunkt, zu dem die Iteration begann.</p> <p>Diese Zeile wird nicht angezeigt, wenn sich der Umfang der Iteration nie ändert (Stunden oder Punkte werden nie hinzugefügt oder entfernt).</p> <p>Diese Zeile wird als flach angezeigt, wenn die Arbeit an einem freien Tag erledigt wird. Weitere Informationen finden Sie unter <a title="Verwenden des Agile-Abblenddiagramms" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Auswirkungen von Tagen ohne Startdatum auf die Niederschlagskarte</a>.</p> </td> 
+   <td> <p>Ideale Abbruchrate basierend auf dem Zeitpunkt, zu dem die Iteration begann.</p> <p>Diese Zeile wird nicht angezeigt, wenn sich der Umfang der Iteration nie ändert (Stunden oder Punkte werden nie hinzugefügt oder entfernt).</p> <p>Diese Zeile wird als flach angezeigt, wenn die Arbeit an einem freien Tag erledigt wird. Weitere Informationen finden Sie unter <a title="Verwenden des Agile-Abblenddiagramms" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Auswirkungen der freien Tage auf das Diagramm für den Abbruch</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
-   <td> <p>Ideal Burndown-Rate basierend auf aktuellen Geschichten oder Aufgaben.</p> <p>Die aktuelle ideale Abbruchrate (solide blaue Linie) unterscheidet sich von der ursprünglichen idealen Abbruchrate (gepunktete blaue Linie), wenn Stunden oder Punkte nach Beginn der Iteration hinzugefügt oder aus der Iteration entfernt werden.</p> <p>Diese Zeile wird als flach angezeigt, wenn die Arbeit an einem freien Tag erledigt wird.</p> <p>Weitere Informationen finden Sie unter <a title="Verwenden des Agile-Abblenddiagramms" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Auswirkungen von Tagen ohne Startdatum auf die Niederschlagskarte</a>.</p> </td> 
+   <td> <p>Ideal Burndown-Rate basierend auf aktuellen Geschichten oder Aufgaben.</p> <p>Die aktuelle ideale Abbruchrate (solide blaue Linie) unterscheidet sich von der ursprünglichen idealen Abbruchrate (gepunktete blaue Linie), wenn Stunden oder Punkte nach Beginn der Iteration hinzugefügt oder aus der Iteration entfernt werden.</p> <p>Diese Zeile wird als flach angezeigt, wenn die Arbeit an einem freien Tag erledigt wird.</p> <p>Weitere Informationen finden Sie unter <a title="Verwenden des Agile-Abblenddiagramms" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Auswirkungen der freien Tage auf das Diagramm für den Abbruch</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
@@ -71,9 +71,9 @@ Das Diagramm enthält die folgenden visuellen Indikatoren:
 
 ## Auswirkungen von Tagen ohne Startdatum auf die Niederschlagskarte {#how-days-off-affect-the-burndown-chart}
 
-Der in [!DNL Workfront] wirkt sich auf die Burndown-Grafik aus, indem Tage (Wochenenden und Feiertage) aus der Burndown-Liste ausgeschlossen werden. Das Diagramm verwendet den Standardzeitplan zur Definition von Arbeitstagen (wie unter  [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+Der in [!DNL Workfront] definierte Standardzeitplan wirkt sich auf das Diagramm aus, indem Tage (Wochenenden und Feiertage) aus dem Abbruch ausgeschlossen werden. Das Diagramm verwendet den Standardzeitplan zur Definition von Arbeitstagen (wie unter  [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
-Agile Teams können Team-spezifische Nicht-Arbeitstage einbinden, indem sie einen alternativen Zeitplan definieren (wie im Artikel beschrieben). [Verwenden eines alternativen Teamzeitplans für Startdiagramme](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Dieser alternative Zeitplan spiegelt sich dann in der Abbruchgrafik jeder dem Team zugewiesenen Iteration wider. Der alternative Zeitplan wirkt sich nur auf das Diagramm aus.
+Agile Teams können Team-spezifische, nicht-arbeitstägliche Tage einbinden, indem sie einen alternativen Zeitplan definieren (wie im Artikel [Verwenden Sie einen alternativen Teamzeitplan für Startdiagramme](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md) beschrieben). Dieser alternative Zeitplan spiegelt sich dann in der Abbruchgrafik jeder dem Team zugewiesenen Iteration wider. Der alternative Zeitplan wirkt sich nur auf das Diagramm aus.
 
 Die Tage vor dem Start werden nur dann in der Dropdownliste angezeigt, wenn:
 
@@ -88,8 +88,8 @@ Die Tage vor dem Start werden nur dann in der Dropdownliste angezeigt, wenn:
 * Sie sehen das Diagramm des Niederschlags an einem freien Tag. (Der Tag, den Sie anzeigen, wird in der Dropdownliste angezeigt.)
 * Sie führen die gesamte für die Iteration verbleibende Arbeit an einem freien Tag durch.
 
-  Wenn ein Benutzer die gesamte für die Iteration verbleibende Arbeit an einem freien Tag abschließt, wird die [!UICONTROL Geschätzter Abschluss] zeigt das Datum an, an dem die Iteration abgeschlossen wurde.
+  Wenn ein Benutzer die gesamte für die Iteration verbleibende Arbeit an einem freien Tag abschließt, zeigt das Feld [!UICONTROL Geschätzter Abschluss] das Datum an, an dem die Iteration abgeschlossen wurde.
 
-  Wenn Sie bei der Planung der Iteration das Enddatum der Iteration für einen nicht funktionierenden Tag festlegen und die Iteration dabei ist, rechtzeitig zu beenden, wird die [!UICONTROL Geschätzter Abschluss] Das Datum wird für den letzten Arbeitstag vor dem von Ihnen festgelegten Iterationsenddatum festgelegt (da die Arbeit nicht an anderen Tagen als Arbeitstagen gebrannt werden soll).
+  Wenn Sie bei der Planung der Iteration das Enddatum der Iteration für einen nicht funktionierenden Tag festlegen und die Iteration die pünktliche Fertigstellung verfolgt, wird das Datum für den [!UICONTROL Geschätzten Abschluss] für den letzten Arbeitstag vor dem von Ihnen festgelegten Iterationsenddatum festgelegt (da die Arbeit nicht für Nichtarbeitstage geplant ist).
 
-  Das Enddatum für die Iteration wird bei der Planung der Iteration angegeben, wie im Artikel beschrieben [Iteration erstellen](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  Das Enddatum für die Iteration wird bei der Planung der Iteration angegeben, wie im Artikel [Iteration erstellen](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) beschrieben.

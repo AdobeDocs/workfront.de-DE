@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# IP-Adressen für den Zugriff [!DNL Adobe Workfront Fusion]
+# IP-Adressen für den Zugriff auf [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einem [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion] -Lizenz.
 
-Wenn Ihre Firewall- oder Mail-Server so konfiguriert ist, dass nur bestimmte Anbieter Zugriff erhalten, müssen Sie bestimmte IP-Adressen zu ihrer Zulassungsliste hinzufügen, um eine offene Kommunikation zwischen Ihrer Umgebung und [!DNL Adobe Workfront Fusion].
+Wenn Ihre Firewall- oder Mailserver so konfiguriert ist, dass nur bestimmte Anbieter Zugriff haben, müssen Sie bestimmte IP-Adressen zu ihrer Zulassungsliste hinzufügen, um eine offene Kommunikation zwischen Ihrer Umgebung und [!DNL Adobe Workfront Fusion] zu ermöglichen.
 
-Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um [!DNL Workfront Fusion] auf Ihr System zugreifen.
+Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um [!DNL Workfront Fusion] für den Zugriff auf Ihr System zu aktivieren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,4 +87,4 @@ Wenn Ihr Unternehmen die Filterung ausgehender Netzwerke verwendet, fügen Sie I
 >
 >Ausgehende Netzwerkfilter sind selten. Wenden Sie sich an Ihren Netzwerkadministrator, um zu sehen, ob Sie Ihre Zulassungsliste aktualisieren müssen, damit sie berücksichtigt werden kann.
 
-Weitere Informationen zum Einrichten der Zulassungsliste für Ihr Unternehmen finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Weitere Informationen zum Einrichten der Zulassungsliste Ihres Unternehmens finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

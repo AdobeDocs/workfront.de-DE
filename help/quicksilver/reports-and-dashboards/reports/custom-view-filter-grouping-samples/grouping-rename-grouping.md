@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Sie können Gruppierungen so umbenennen, dass sie Ihren Benutzern besser bekannt sind.
 
-Wenn Sie beispielsweise die Standardgruppierung Projektname auf eine Projektliste anwenden, wird der Portfolio der Gruppierung als *Portfolio: Name:`<name of portfolio>`*.
+Wenn Sie beispielsweise die Standardgruppierung Projektname auf eine Projektliste anwenden, wird der Gruppierungsname als *Portfolio: Portfolio:`<name of portfolio>`* angezeigt.
 
 ![](assets/grouping-unedited-name-350x167.png)
 
@@ -62,7 +62,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,14 +74,14 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So ändern Sie den Anzeigenamen in einer Projektgruppe:
 
 1. Gehen Sie zu einer Projektliste.
-1. Aus dem **Gruppierung** Dropdown-Menü auswählen **Neue Gruppierung**.
+1. Wählen Sie aus dem Dropdownmenü **Gruppierung** die Option **Neue Gruppierung** aus.
 
-1. Klicks **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Portfolio Name&quot;im **Zuerst durch:** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Gruppierung hinzufügen**, geben Sie im Feld **Erste nach:** den Wert &quot;Portfolio Name&quot;ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
-1. Klicks **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Fügen Sie den folgenden Code zum vorhandenen Text hinzu, der im **Gruppieren Ihres Berichts** Feld:
+   * Fügen Sie den folgenden Code zum vorhandenen Text hinzu, der im Feld **Gruppieren Ihres Berichts** verfügbar ist:
 
 
      `group.0.displayname=Your Value`
@@ -101,11 +101,11 @@ So ändern Sie den Anzeigenamen in einer Projektgruppe:
 
      >[!TIP]
      >
-     >Sie können auch die `group.0.name=` und `group.0.displayname=` leer, wobei die Gruppierung den zu gruppierenden Wert angibt.
+     >Sie können auch die Zeilen `group.0.name=` und `group.0.displayname=` leer lassen. In diesem Fall zeigt die Gruppierung den Wert an, nach dem Sie gruppieren.
 
 
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
-1. Klicks **Fertig**, dann **Gruppierung speichern**.
+1. Klicken Sie auf **Fertig** und dann auf **Gruppierung speichern**.
 
    Der Standardname für die Gruppierung wird entsprechend Ihren Textmodusinformationen geändert.

@@ -36,7 +36,7 @@ Der erweiterte Connector Workfront for Experience Manager ermöglicht jetzt Folg
 * Synchronisieren Sie Workfront-Projektmetadaten mit verknüpften Experience Manager-Ordnern.
 * Verwenden Sie Experience Manager-Metadaten-Updates für neue Versionen.
 * Legen Sie mithilfe von Experience Manager-Workflows den Workfront-Objektstatus anhand konfigurierbarer Bedingungen fest.
-* Veröffentlichen Sie Assets in der Experience Manager-Veröffentlichungsumgebung oder in Brand Portal.
+* Publish-Assets in der Experience Manager-Veröffentlichungsumgebung oder in Brand Portal.
 
 ## Voraussetzungen und unterstützte Plattformen
 
@@ -49,10 +49,10 @@ Der erweiterte Connector Workfront for Experience Manager ermöglicht jetzt Folg
 
 ## Erste Schritte
 
-1. **Connector installieren und konfigurieren**. Installieren und konfigurieren Sie mithilfe eines zertifizierten Partners oder Adobe Professional Services den Connector Workfront für Experience Manager, um Prozesse zu organisieren, zu standardisieren, Governance einzurichten und den Asset-Lebenszyklus von der Erstellung bis zur Bereitstellung zu optimieren. [Installieren in Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-integrations.html) oder [Installieren in Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/integrations/workfront-connector-install.html).
-1. **Connector verwenden**. Erfahren Sie mehr über die Funktionen des erweiterten Connectors, der mit der automatischen Generierung von projektbezogenen Ordnern in Experience Manager Assets, mit Experience Manager Assets und Ordnern gemappten Workfront-Metadaten, der bidirektionalen Metadatensynchronisierung und vieles mehr durchgeführt wird. Weitere Informationen finden Sie unter [Workfront für Experience Manager Enhanced Connector](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
+1. **Installieren und konfigurieren Sie den Connector**. Installieren und konfigurieren Sie mithilfe eines zertifizierten Partners oder Adobe Professional Services den Connector Workfront für Experience Manager, um Prozesse zu organisieren, zu standardisieren, Governance einzurichten und den Asset-Lebenszyklus von der Erstellung bis zur Bereitstellung zu optimieren. [Installieren Sie in Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-integrations.html) oder [installieren Sie es in Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/integrations/workfront-connector-install.html).
+1. **Verwenden Sie den Connector**. Erfahren Sie mehr über die Funktionen des erweiterten Connectors, der mit der automatischen Generierung von projektbezogenen Ordnern in Experience Manager Assets, mit Experience Manager Assets und Ordnern gemappten Workfront-Metadaten, der bidirektionalen Metadatensynchronisierung und vieles mehr durchgeführt wird. Weitere Informationen finden Sie unter [Workfront für den Connector mit Experience Manager-Erweiterung](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
 
 ## Mehr dazu
 
-* Übersicht über [Workfront für Adobe Experience Manager](https://www.workfront.com/integrations/adobe/experience-manager)
+* Überblick über [Workfront für Adobe Experience Manager](https://www.workfront.com/integrations/adobe/experience-manager)
 * [Grundlagen zu Adobe Workfront für Experience Manager Assets](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

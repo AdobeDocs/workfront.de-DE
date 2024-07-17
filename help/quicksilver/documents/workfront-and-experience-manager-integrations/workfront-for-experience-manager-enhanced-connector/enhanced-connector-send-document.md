@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff oder höher auf Dokumente anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff oder höher auf Dokumente anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,8 +62,8 @@ Wenn ein Benutzer ein Dokument von Workfront an Experience Manager Assets sendet
 
 So senden Sie ein Dokument:
 
-1. Navigieren Sie zu **Dokumente** und wählen Sie das zu sendende Dokument aus.
-1. Klicken **Senden an** und wählen Sie dann die Experience Manager Assets-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Wechseln Sie in Workfront zum Bereich **Dokumente** und wählen Sie das zu sendende Dokument aus.
+1. Klicken Sie auf **Senden an** und wählen Sie dann die Experience Manager Assets-Integration aus, die Ihr Administrator eingerichtet hat.
 
    >[!NOTE]
    >
@@ -71,17 +71,17 @@ So senden Sie ein Dokument:
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. Wählen Sie aus, wohin das Asset gehen soll, und klicken Sie auf **Ordner auswählen**.
+1. Wählen Sie aus, wohin das Asset gehen soll, und klicken Sie dann auf **Ordner auswählen**.
 1. Wenn Sie Ihr gewünschtes Ziel finden, klicken Sie auf **Speichern**.
 
-## Neue Version an Experience Manager Assets senden
+## Senden einer neuen Version an Experience Manager Assets
 
-Sie können einem Dokument, das Sie zuvor in Workfront hochgeladen haben, eine neue Version hinzufügen. Weitere Informationen finden Sie unter [Eine neue Version eines Dokuments hochladen](../../../documents/managing-documents/upload-new-document-version.md). Nachdem die neueste Version hochgeladen wurde, können Sie sie an Experience Manager Assets senden. Wenn sich ein zugeordnetes Feld in Workfront geändert hat, aktualisiert die neue Version die Metadaten in Experience Manager Assets beim Senden.
+Sie können einem Dokument, das Sie zuvor in Workfront hochgeladen haben, eine neue Version hinzufügen. Weitere Informationen finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../../documents/managing-documents/upload-new-document-version.md). Nachdem die neueste Version hochgeladen wurde, können Sie sie an Experience Manager Assets senden. Wenn sich ein zugeordnetes Feld in Workfront geändert hat, aktualisiert die neue Version die Metadaten in Experience Manager Assets beim Senden.
 
 So senden Sie die neueste Version:
 
-1. Navigieren Sie zu **Dokumente** und suchen Sie nach dem Dokument.
-1. Klicken **Senden an** und wählen Sie dann die Experience Manager Assets-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Wechseln Sie in Workfront zum Bereich **Dokumente** und suchen Sie nach dem Dokument.
+1. Klicken Sie auf **Senden an** und wählen Sie dann die Experience Manager Assets-Integration aus, die Ihr Administrator eingerichtet hat.
 
    >[!NOTE]
    >

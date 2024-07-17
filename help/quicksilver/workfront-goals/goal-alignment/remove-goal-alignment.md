@@ -75,7 +75,7 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -114,16 +114,16 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. Zugriff auf **Ziele** und klicken Sie auf den Namen eines Ziels, um die Zielseite zu öffnen.
-1. Klicken Sie auf der Seite des Ziels eines übergeordneten Ziels auf **Fortschrittsanzeigen** im linken Bereich.
+1. Rufen Sie den Bereich **Ziele** in Workfront auf und klicken Sie auf den Namen eines Ziels, um die Zielseite zu öffnen.
+1. Klicken Sie auf der Seite des Ziels eines übergeordneten Ziels im linken Bereich auf **Fortschrittsanzeigen** .
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. Im **Typ: Ziel** Gruppierung, ein Ziel auswählen und auf die **Trennen** icon ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) oben in der Liste.
+1. Wählen Sie in der Gruppierung **Typ: Ziel** ein Ziel aus und klicken Sie dann oben in der Liste auf das Symbol **Trennen** ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) .
 
    Das Feld Verbindung trennen wird angezeigt.
 
-1. Klicks **Trennen** , um das ausgewählte Ziel von seinem übergeordneten Ziel zu trennen.
+1. Klicken Sie auf **Trennen** , um das ausgewählte Ziel von seinem übergeordneten Ziel zu trennen.
 
    Das Ziel wird zu einem eigenständigen Ziel und wird nicht mehr als Fortschrittsanzeige des ursprünglichen Ziels aufgeführt. Der Fortschritt des nicht verbundenen Ziels beeinflusst nicht mehr den Fortschritt des ursprünglichen Ziels.
 

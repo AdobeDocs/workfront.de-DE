@@ -9,7 +9,7 @@ role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 10%
 
 ---
@@ -487,7 +487,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>Durchw</span> </td> 
+   <td><span>ext</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1780,19 +1780,19 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
    <td>workflowAutomationID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>TestversandApproval</span> </td> 
+   <td><span>ProofApproval</span> </td> 
    <td><span>PRFAPL</span> </td> 
    <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>approveDecision</span> </td> 
+   <td><span>GenehmigerDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>approveID</span> </td> 
+   <td><span>GenehmigerID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1880,7 +1880,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>Eintragstyp </td> 
+   <td>Datensatztyp </td> 
    <td>RECORD_TYPE </td> 
    <td>color</td> 
   </tr> 
@@ -2736,7 +2736,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   </tr> 
   <tr> 
    <td>Arbeitsbereich</td> 
-   <td>ARBEITSBEREICH</td> 
+   <td>WORKSPACE</td> 
    <td>color</td> 
   </tr> 
   <tr> 

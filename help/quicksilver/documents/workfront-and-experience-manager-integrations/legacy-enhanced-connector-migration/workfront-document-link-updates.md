@@ -45,11 +45,11 @@ Sie können die API verwenden, um verknüpfte Ordner und Dokumente nach Adobe Ex
 
 ## API-Informationen
 
-Weitere Informationen zu den Workfront-APIs finden Sie in diesem Abschnitt [Entwicklerdokumentation:Dokumente](https://developer.workfront.com/documents.html).
+Weitere Informationen zu den Workfront-APIs finden Sie in diesem Abschnitt unter [Entwicklerdokumentation:Dokumente](https://developer.workfront.com/documents.html).
 
 ### Alle Dokumente suchen
 
-Alle suchen **Dokumente (DOCU)** Verknüpfung zu **Document Provider** von **providerType** mit **documentProviderID**.
+Suchen Sie alle **Dokumente (DOCU)**, die mit **Document Provider** von **providerType** verknüpft sind, mit **documentProviderID**.
 
 ```
 Http Method: GET
@@ -61,7 +61,7 @@ Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&c
 
 ### Suchen aller Ordner
 
-Alle suchen **Dokumentenordner (DOCFDR)** Verknüpfung mit Document Provider von **providerType** mit **documentProviderID**.
+Suchen Sie alle **Dokumentenordner (DOCFDR)**, die mit dem Dokumentanbieter von **providerType** verknüpft sind, mit **documentProviderID**.
 
 ```
 Http Method: GET
@@ -73,7 +73,7 @@ API-DOCS: (Document Folder Endpoints, die derzeit nicht unter developer.workfron
 
 ### Verknüpfen von Dokumenten
 
-Link **Dokumente (DOCU)** von **Externer Dokumentanbieter** von **providerType** mit **documentProviderID**.
+Verknüpfen Sie **Dokumente (DOCU)** von **External Document Provider** von **providerType** mit **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ API-DOCS: (Interne Link-Endpunkte, die derzeit nicht unter developer.workfront.c
 
 ### Verknüpfungsordner
 
-Link **Dokumentenordner (DOCFDR)** von **Externer Dokumentanbieter** von **providerType** mit **documentProviderID**.
+Verknüpfen Sie **Dokumentordner (DOCFDR)** von **External Document Provider** von **providerType** mit **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -116,21 +116,21 @@ API-DOCS: (Interne Link-Endpunkte, die derzeit nicht unter developer.workfront.c
 
 ## Wichtige Begriffe
 
-* **Dokument**: Ein digitales Asset in Workfront
+* **Document**: Ein digitales Asset in Workfront
 
 * **Dokumentordner**: Ein Container für digitale Assets in Workfront
 
 * **Dokument-ID**: Interne Workfront-ID für ein digitales Asset
 
-* **Document Folder ID**: Interne Workfront-ID für einen digitalen Asset-Ordner
+* **Dokumentordner-ID**: Interne Workfront-ID für einen digitalen Asset-Ordner
 
-* **Dokumentanbieter-ID**: Kennung, die bestimmten Dokumentenanbietern zugeordnet ist
+* **Document Provider ID**: ID, die bestimmten Dokumentenanbietern zugeordnet ist
 
 >[!IMPORTANT]
 >
 > Für jeden Dokumentanbietertyp kann ein Kunde über mehrere verbundene Instanzen verfügen. Sie können beispielsweise mehrere AEM Repositorys verknüpfen. Oder mehrere verknüpfte Google Drive-Instanzen. Die Document Provider-ID gibt die spezifische Instanz des Verbindungstyps an, den wir ersetzen oder zu der wir wechseln möchten.
 
-* **Document Storage Provider-Typ (auch &quot;External Integration Type&quot;)**: Der Typ der von Workfront unterstützten Document Storage Provider-Integration. Entweder über eine dedizierte Integration oder eine &quot;benutzerdefinierte Integration&quot;.
+* **Document Storage Provider Type (auch &quot;External Integration Type&quot;)**: Der Typ der von Workfront unterstützten Document Storage Provider-Integration. Entweder über eine dedizierte Integration oder eine &quot;benutzerdefinierte Integration&quot;.
 
 * **Aktuelle Document Storage Provider-Typen ( providerType)**:
 
@@ -163,6 +163,6 @@ API-DOCS: (Interne Link-Endpunkte, die derzeit nicht unter developer.workfront.c
   > Workfront verfügt noch nicht über einen Standard für externe Dokument-IDs. Für AEM IDs wird eine neue Spezifikation verwendet. Für andere IDs kann die externe Dokument-ID jedoch je nach Anbietertyp in verschiedenen Formularen verwendet werden.
 
 
-* **Objekttyp**: Dies ist ein API-lediglich-Begriff für die Zwecke dieses Dokuments. Es handelt sich um eine Art generisches Objekt in Workfront, mit dem Sie interagieren möchten. In diesem Fall interagieren Sie mit Dokumenten und Ordnern mit den Typen &quot;DOCU&quot;bzw. &quot;DOCFDR&quot;.
+* **Objekttyp**: Dies ist ein API-nur-Begriff für die Zwecke dieses Dokuments. Es handelt sich um eine Art generisches Objekt in Workfront, mit dem Sie interagieren möchten. In diesem Fall interagieren Sie mit Dokumenten und Ordnern mit den Typen &quot;DOCU&quot;bzw. &quot;DOCFDR&quot;.
 
 * **Objekt-ID**: Die interne Workfront-Kennung für das generische Objekt, mit dem Sie interagieren möchten. Sie interagieren mit Dokumenten und Ordnern, sodass es sich entweder um die Dokument-ID oder um die Dokumentordner-ID handelt.

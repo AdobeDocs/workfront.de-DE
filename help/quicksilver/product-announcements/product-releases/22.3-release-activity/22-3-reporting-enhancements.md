@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 2.3 Verbesserungen bei der Berichterstellung
 
-Auf dieser Seite werden alle Berichterstellungsverbesserungen beschrieben, die mit Version 22.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [2.3 Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Auf dieser Seite werden alle Berichterstellungsverbesserungen beschrieben, die mit Version 22.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [22.3 - Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Entfernung und Hinzufügung von Ressourcen-Budgeting-Feldern in Listen und Berichten
 
@@ -35,5 +35,5 @@ Die folgenden Ressourcen-Budgetierungsfelder wurden aus Listen und Berichten ent
 * Veranschlagte Kosten
 
 
-Weitere Informationen finden Sie unter [Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
+Weitere Informationen finden Sie unter [Grundlegendes zu den budgetierten Arbeitskosten und den geplanten Arbeitszeiten für Projekte](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
 

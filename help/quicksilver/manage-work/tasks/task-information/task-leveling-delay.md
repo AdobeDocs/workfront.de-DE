@@ -15,11 +15,11 @@ ht-degree: 3%
 
 # Zeitverzögerung für Aufgabenebene aktualisieren
 
-Manchmal kann es bei einem Projekt zu Konflikten zwischen Aufgabenzeitplänen kommen. Sie können Ressourcen einschränken oder Ressourcenkonflikte beheben, indem Sie Ressourcen und Aufgaben neu planen, damit alle Aufgaben innerhalb eines realistischen Zeitplans ausgeführt werden können. Weitere Informationen zum Leveln von Aufgaben finden Sie unter [Level Resources in Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
+Manchmal kann es bei einem Projekt zu Konflikten zwischen Aufgabenzeitplänen kommen. Sie können Ressourcen einschränken oder Ressourcenkonflikte beheben, indem Sie Ressourcen und Aufgaben neu planen, damit alle Aufgaben innerhalb eines realistischen Zeitplans ausgeführt werden können. Weitere Informationen zum Leveln von Aufgaben finden Sie unter [Level-Ressourcen im Gantt-Diagramm](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
 Als Projektmanager oder Aufgabenverantwortlicher können Sie für einzelne Aufgaben auch eine Zeitverzögerung hinzufügen, um alle Ressourcen- oder Zeitplankonflikte zu berücksichtigen. Anders ausgedrückt: Eine Aufgabe kann mit einer Verzögerung geplant werden, um sicherzustellen, dass Ressourcenkonflikte bei der Stufe der Adobe Workfront-Aufgabenniveaus realistischer werden.
 
-Durch das Hinzufügen einer Zeitverzögerung zu einer Aufgabe wird das geplante Abschlussdatum der Aufgabe angepasst. Informationen zum voraussichtlichen Abschlussdatum finden Sie unter [Übersicht über das geplante Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Durch das Hinzufügen einer Zeitverzögerung zu einer Aufgabe wird das geplante Abschlussdatum der Aufgabe angepasst. Informationen zum geplanten Abschlussdatum finden Sie unter [Überblick über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
 ## Zugriffsanforderungen
 
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Aufgaben verwalten </p> <p>Beitragen oder höhere Berechtigungen zu Projekten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für Aufgaben verwalten </p> <p>Contribute oder höhere Berechtigungen für Projekte</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,13 +53,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Einer Aufgabe eine Verzögerung auf Stufe hinzufügen
 
 1. Gehen Sie zu einer Aufgabe, für die Sie eine Zeitverzögerung hinzufügen möchten.
-1. Klicken Sie auf **Weitere Symbole** rechts neben dem Aufgabennamen und klicken Sie dann auf **Bearbeiten**.
+1. Klicken Sie auf das Symbol &quot;**Mehr&quot;** rechts neben dem Aufgabennamen und dann auf &quot;**Bearbeiten**&quot;.
 
-1. Klicks **Einstellungen**.
+1. Klicken Sie auf **Einstellungen**.
 
    ![](assets/leveling-delay-edit-task-nwe-350x345.png)
 
-1. Geben Sie die **Levelverzögerung**, in Stunden, und wählen Sie dann eine Zeiteinheit aus.\
+1. Geben Sie die **Verzögerung bei der Leerung** in Stunden an und wählen Sie dann eine Zeiteinheit aus.\
    Dies ist der Zeitpunkt, zu dem die Ressource aufgrund von Ressourcenkonflikten beim Starten der Aufgabe verzögert wird.
 
    Wählen Sie aus den folgenden Optionen für Zeiteinheiten aus:
@@ -79,6 +79,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Die verstrichene Zeit ist eine Zeiteinheit für die Dauer einer Aufgabe. Dies ist die Zeit zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum einer Aufgabe, die Feiertage, Wochenenden und eine Verspätung umfasst. Mit anderen Worten, vergangene Zeit ist der Durchgang von Kalendertagen.
 
-1. Klicks **Speichern**. 
+1. Klicken Sie auf **Speichern**. 
 
  

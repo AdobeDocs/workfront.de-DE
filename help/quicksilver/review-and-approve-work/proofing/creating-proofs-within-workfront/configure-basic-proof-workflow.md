@@ -34,7 +34,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>
    <p>Neu: Beliebig</p>
     <p>Aktueller Plan: Pro oder höher</p>
-   <p>Veralteter Plan: Auswählen oder höher</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <p>Veralteter Plan: Auswählen oder höher</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -59,16 +59,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen eines erweiterten Testversands mit einem einfachen Workflow
 
-1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Schaltfläche **Dokumente** Registerkarte.
-1. Klicks **Neu hinzufügen** > Testversand, Hochladen des Inhalts und anschließende Arbeit in den unten aufgeführten Abschnitten.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Registerkarte **Dokumente** .
+1. Klicken Sie auf **Neu hinzufügen** > Testversand , laden Sie den Inhalt hoch und arbeiten Sie dann durch die unten aufgeführten Abschnitte.
 
    oder
 
-   Bewegen Sie den Mauszeiger über ein vorhandenes Dokument und klicken Sie auf die Schaltfläche **Testversand erstellen** > **Erweiterter Testversand** und arbeiten Sie durch die unten aufgeführten Abschnitte.
+   Bewegen Sie den Mauszeiger über ein vorhandenes Dokument, klicken Sie auf **Testversand erstellen** > **Erweiterter Testversand** und arbeiten Sie durch die folgenden Abschnitte.
 
 ## Workflow konfigurieren und Überprüfer hinzufügen
 
-1. Wählen Sie im Abschnitt Workflow-Typ die Option **Allgemein**.
+1. Wählen Sie im Abschnitt Workflow-Typ die Option **Einfach**.
 1. Geben Sie die Benutzer an, die Sie hinzufügen möchten, und wählen Sie dann eine Proof-Rolle aus.
 
    ![](assets/new-proof---roles-350x213.png)
@@ -93,18 +93,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <thead> 
      <tr> 
       <th> <p> </p> </th> 
-      <th> <p><strong>Testversand anzeigen</strong> </p> </th> 
-      <th> <p><strong>Markierungen hinzufügen</strong> </p> </th> 
+      <th> <p><strong>Anzeigen eines Testversands</strong> </p> </th> 
+      <th> <p><strong>Markups hinzufügen</strong> </p> </th> 
       <th> <p><strong>Kommentare hinzufügen</strong> </p> </th> 
       <th> <p><strong>Eigene Kommentare bearbeiten, wenn keine Antworten vorhanden sind</strong> </p> </th> 
       <th> <p><strong>Entscheidungsfindung</strong> </p> </th> 
-      <th> <p><strong>Löschen von Kommentaren anderer Benutzer</strong> </p> </th> 
+      <th> <p><strong>Kommentare anderer Benutzer löschen</strong> </p> </th> 
       <th>Kommentare auflösen</th> 
       <th>Anwenden von Aktionen auf Kommentare</th> 
       <th> <p><strong>Testversand bearbeiten</strong> </p> </th> 
       <th>Testversand für andere freigeben</th> 
       <th>Neue Version erstellen</th> 
-      <th> <p><strong>Genehmigungsanfragen im Startbereich anzeigen</strong> </p> </th> 
+      <th> <p><strong>Genehmigungsanforderungen im Startbereich anzeigen</strong> </p> </th> 
       <th>Hinzufügen neuer Validierungsverantwortlicher</th> 
      </tr> 
     </thead> 
@@ -219,19 +219,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td role="rowheader">Kommentare auflösen und Aktionen anwenden </td> 
       <td> <p>Ermöglicht dem Workfront-Benutzer Folgendes:</p> 
        <ul> 
-        <li>Beheben Sie einen Kommentar, nachdem er behoben wurde, wie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">Kommentare zum Testversand auflösen</a>.</li> 
-        <li>Wenden Sie Aktionen auf Kommentare an, wie hier beschrieben: <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">Verwenden von Aktionen für Testversand-Kommentare</a>. </li> 
+        <li>Beheben Sie einen Kommentar, nachdem er bearbeitet wurde, wie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">Testversand-Kommentare auflösen</a> beschrieben.</li> 
+        <li>Wenden Sie Aktionen auf Kommentare an, wie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">Aktionen für Testkommentare verwenden</a> beschrieben. </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Korrekturabzug durch Taggen teilen</td> 
-      <td> <p>Ermöglicht es dem Validierer, einen beliebigen Workfront-Benutzer zum Testversand hinzuzufügen, wie hier beschrieben: <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Benutzer zum Freigeben eines Testversands taggen</a>.</p> <p>Hinweis:  <p>Wenn diese beiden Optionen nicht verfügbar sind (abgeblendet), verfügt der Benutzer bereits über ein Berechtigungsprofil, das das Auflösen von Kommentaren, das Anwenden von Aktionen auf Kommentare und das Taggen von Benutzern ermöglicht. </p> <p>Wenn die Optionen nicht angezeigt werden, ist die hinzugefügte Person kein Workfront-Lizenzinhaber.</p> </p> </td> 
+      <td> <p>Ermöglicht dem Validierer das Hinzufügen eines beliebigen Workfront-Benutzers zum Testversand, wie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Benutzer taggen, um einen Testversand freizugeben</a> beschrieben.</p> <p>Hinweis:  <p>Wenn diese beiden Optionen nicht verfügbar sind (abgeblendet), verfügt der Benutzer bereits über ein Berechtigungsprofil, das das Auflösen von Kommentaren, das Anwenden von Aktionen auf Kommentare und das Taggen von Benutzern ermöglicht. </p> <p>Wenn die Optionen nicht angezeigt werden, ist die hinzugefügte Person kein Workfront-Lizenzinhaber.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Wiederholen Sie die Schritte 1 bis 3 für alle anderen Benutzer, die Sie zum Testversand hinzugefügt haben.
-1. Für jeden Benutzer, für den Sie eine Freigabe durchführen, finden Sie im **E-Mail-Warnungen** Wählen Sie in der Dropdown-Liste den Typ der E-Mail-Warnungen aus, die der Benutzer erhält, wenn er zu einem Testversand Kommentare und Entscheidungen trifft:
+1. Wählen Sie für jeden Benutzer, für den Sie eine Freigabe durchführen, in der Dropdown-Liste **E-Mail-Warnungen** den Typ der E-Mail-Warnungen aus, die dieser Benutzer erhält, wenn er Kommentare und Entscheidungen zum Testversand trifft:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -243,7 +243,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Antworten auf meine Kommentare</td> 
-      <td>Eine E-Mail wird nur dann an den Validierer gesendet, wenn jemand explizit auf seinen Kommentar antwortet (dabei werden eigene Antworten auf eigene Kommentare ausgeschlossen). Das bedeutet, dass der Validierer nicht benachrichtigt wird, wenn jemand, der den Testversand durchführt, einen neuen Kommentar abgibt.<p>Diese Einstellung wird Ihren Kunden empfohlen, den Testversand durchzuführen, damit sie über keine weiteren Kommentare zum Testversand informiert und nur über Antworten auf ihre eigenen Kommentare informiert werden.</p><p>validierungsverantwortliche Benutzer mit dieser E-Mail-Warnungseinstellung werden zwar nicht über andere neue Kommentare benachrichtigt, können aber dennoch alle Kommentare zum Testversand im Testversand-Viewer anzeigen.</p><p>Weitere Informationen zu Kommentaren finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Kommentare zum Testversand anzeigen und beantworten</a>.</p></td> 
+      <td>Eine E-Mail wird nur dann an den Validierer gesendet, wenn jemand explizit auf seinen Kommentar antwortet (dabei werden eigene Antworten auf eigene Kommentare ausgeschlossen). Das bedeutet, dass der Validierer nicht benachrichtigt wird, wenn jemand, der den Testversand durchführt, einen neuen Kommentar abgibt.<p>Diese Einstellung wird Ihren Kunden empfohlen, den Testversand durchzuführen, damit sie über keine weiteren Kommentare zum Testversand informiert und nur über Antworten auf ihre eigenen Kommentare informiert werden.</p><p>validierungsverantwortliche Benutzer mit dieser E-Mail-Warnungseinstellung werden zwar nicht über andere neue Kommentare benachrichtigt, können aber dennoch alle Kommentare zum Testversand im Testversand-Viewer anzeigen.</p><p>Informationen zu Kommentaren finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Anzeigen und Antworten auf Testkommentare</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Entscheidungen</td> 
@@ -259,7 +259,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Tägliche Zusammenfassung</td> 
-      <td>Workfront sendet eine E-Mail mit allen Kommentaren, Antworten und Entscheidungen, die nur an Tagen aufgelistet sind, an denen neben Ihrer eigenen Aktivität Aktivitäten stattfinden.<p>Mit diesem Warnhinweis können Sie eine Zusammenfassung des Projekts anzeigen, ohne über den gesamten Tag hinweg durch mehrere Aktualisierungen überlastet zu sein.</p><p>Ein Anwendungsbeispiel für diese Zusammenfassung ist ein Abteilungsleiter, der den Gesamtfortschritt des Projekts überwachen möchte.</p><p>Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Benachrichtigungen für Testversandkommentare und -entscheidungen verwalten</a>.</p></td> 
+      <td>Workfront sendet eine E-Mail mit allen Kommentaren, Antworten und Entscheidungen, die nur an Tagen aufgelistet sind, an denen neben Ihrer eigenen Aktivität Aktivitäten stattfinden.<p>Mit diesem Warnhinweis können Sie eine Zusammenfassung des Projekts anzeigen, ohne über den gesamten Tag hinweg durch mehrere Aktualisierungen überlastet zu sein.</p><p>Ein Anwendungsbeispiel für diese Zusammenfassung ist ein Abteilungsleiter, der den Gesamtfortschritt des Projekts überwachen möchte.</p><p>Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Benachrichtigungen für Testversand-Kommentare und -Entscheidungen verwalten</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Keine E-Mail</td> 
@@ -268,17 +268,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tbody> 
    </table>
 
-1. Fahren Sie mit [E-Mail-Einstellungen für den Testversand konfigurieren](#configure-email-settings-for-the-proof) unten.
+1. Fahren Sie mit [E-Mail-Einstellungen für den Testversand konfigurieren](#configure-email-settings-for-the-proof) weiter unten.
 
 ## E-Mail-Einstellungen für den Testversand konfigurieren {#configure-email-settings-for-the-proof}
 
-1. Im **Email notification** auswählen, ob Sie E-Mail-Benachrichtigungen und eine benutzerdefinierte Nachricht an die Benutzer senden möchten, die Sie unter [Erstellen eines erweiterten Testversands mit einem einfachen Workflow](#workflow) früher in diesem Artikel:
+1. Wählen Sie im Abschnitt **E-Mail-Benachrichtigung** aus, ob Sie E-Mail-Benachrichtigungen und eine benutzerdefinierte Nachricht an die Benutzer senden möchten, die Sie zuvor in [Erstellen eines erweiterten Testversands mit einem einfachen Workflow](#workflow) ausgewählt haben:
 
    <table>
    <tbody>
    <tr>
    <td>Empfänger über diesen Testversand informieren</td>
-   <td>Wählen Sie diese Option, um eine E-Mail-Benachrichtigung an Benutzer zu senden. Wann <strong>Grundlegende Freigabe</strong> wird im Feld <strong>Workflow</strong> hinzugefügt, wird bei der Erstellung des Testversands eine E-Mail-Benachrichtigung gesendet. Wann <strong>Automatisierter Workflow</strong> wird im Feld <strong>Workflow</strong> hinzugefügt, wird eine E-Mail-Benachrichtigung gesendet, wenn der Testversand in die Phase des automatisierten Workflows gelangt, mit der der Benutzer verknüpft ist.</td>
+   <td>Wählen Sie diese Option, um eine E-Mail-Benachrichtigung an Benutzer zu senden. Wenn im Abschnitt <strong>Workflow</strong> die Option <strong>Grundlegende Freigabe</strong> ausgewählt ist, wird bei der Erstellung des Testversands eine E-Mail-Benachrichtigung gesendet. Wenn im Abschnitt <strong>Workflow</strong> die Option <strong>Automatisierter Workflow</strong> ausgewählt ist, wird eine E-Mail-Benachrichtigung gesendet, wenn der Testversand in die Phase des automatisierten Workflows gelangt, mit der der Benutzer verknüpft ist.</td>
    </tr>
    <tr>
    <td>Benutzerdefinierte Nachricht hinzufügen</td>
@@ -288,11 +288,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </table>
 
 
-1. Fahren Sie mit [Konfigurieren der Testversandeinstellungen](#configure-proof-settings) unten.
+1. Fahren Sie mit [Konfigurieren Sie die Testversandeinstellungen](#configure-proof-settings) weiter unten.
 
 ## Konfigurieren der Testversandeinstellungen {#configure-proof-settings}
 
-1. Im **Testversandeinstellungen** eine der folgenden Optionen auswählen:
+1. Wählen Sie im Abschnitt **Testversandeinstellungen** eine der folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -331,21 +331,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td role="rowheader">Testversand über öffentliche URL oder Einbettungscode abonnieren</td> 
       <td>Wenn diese Option aktiviert ist, können Personen, die dem Testversand nicht explizit hinzugefügt wurden, den Testversand abonnieren. Die Person, die den Testversand abonniert, erhält die Rolle und E-Mail, die Sie in den folgenden Einstellungen definieren:
        <ul>
-        <li><strong>Abonnentenrolle:</strong> Die standardmäßige Testversand-Rolle, die allen Prüfern zugewiesen wird, die den Testversand abonnieren. </li>
-        <li><strong>Einstellungen für E-Mail-Warnhinweise für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li>
+        <li><strong>Abonnentenrolle:</strong> Die Standardrolle für den Testversand, die allen Validierern zugewiesen ist, die den Testversand abonnieren. </li>
+        <li><strong>E-Mail-Warnhinweiseinstellungen für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Validierern zugewiesen wird, die den Testversand abonnieren.</li>
        </ul><p>
         <ul>
-         <li><strong>Der Zugriff per E-Mail-Link ist nachweislich für folgende Zwecke erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können <strong>Keine E-Mail</strong> (Für den Zugriff auf den Testversand ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail mit Testbenachrichtigung</strong> (Der Abonnent erhält einen Link zum Testversand per E-Mail ohne Überprüfung) oder <strong>E-Mails zur Validierung und zum Testversand</strong> (Der Abonnent erhält per E-Mail einen Link zum Testversand und muss auf den Link klicken, um auf einen Testversand zugreifen zu können. Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.)</li>
-        </ul><p>Hinweis: Wenn die Testsendungen einen automatisierten Workflow zugeordnet haben, generieren alle Abonnements Bestätigungs-E-Mails an die Testversand-Inhaber, sodass diese entscheiden können, zu welcher Stufe die Person hinzugefügt werden soll.<br></p></p></td> 
+         <li><strong> Nachweis des Zugriffs über einen E-Mail-Link erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können "<strong>Keine E-Mail</strong>"(für den Testversand ist kein E-Mail-Link erforderlich), "<strong>Nur E-Mail-Testversand</strong>"(Abonnenten erhalten einen Link zum Testversand per E-Mail ohne Überprüfung) oder "<strong>E-Mail-Benachrichtigung zur Validierung und zum Testversand</strong>"(Abonnenten erhalten per E-Mail einen Link und müssen auf den Link klicken, um einen Testversand anzuzeigen). Diese Option dient dazu, um sicherzustellen, dass die richtige E-Adresse angegeben wird , auf die sie Zugriff haben).</li>
+        </ul><p>Hinweis:  Wenn die Testsendungen den automatisierten Workflow angehängt haben, generieren alle Abonnements Bestätigungs-E-Mails an die Testversand-Inhaber, sodass diese entscheiden können, zu welcher Stufe die Person hinzugefügt werden soll.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicks **Testversand erstellen**.
+1. Klicken Sie auf **Testversand erstellen**.
 
    Workfront beginnt mit der Erstellung eines Testversands der ausgewählten Dokumente oder Websites. Je nach Dateigröße und Typ kann die Zeitverzögerung beim Hochladen von Dokumenten variieren. Seien Sie geduldig, da die Erzeugung größerer Dateien länger dauert. Sie können von der Seite weg navigieren und Workfront generiert weiterhin Ihre -Datei. Die maximale Größe für den Datei-Upload beträgt 4 GB.
 
-1. Klicken Sie nach der Erstellung des Testversands auf **Offener Testversand** , um den Testversand-Viewer zu starten.
+1. Nachdem der Testversand erstellt wurde, klicken Sie auf **Testversand öffnen** , um den Testversand-Viewer zu starten.
 
    ![](assets/open-proof-350x132.png)
 

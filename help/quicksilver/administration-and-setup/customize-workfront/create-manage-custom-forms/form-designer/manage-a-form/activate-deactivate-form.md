@@ -49,7 +49,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Deaktivieren eines benutzerdefinierten Formulars
 
@@ -61,9 +61,9 @@ So deaktivieren Sie ein benutzerdefiniertes Formular:
 
 {{step-1-to-setup}}
 
-1. Wählen Sie im linken Bereich die Option **Benutzerdefinierte Forms**.
-1. Im **Forms** Bereich, wählen Sie das benutzerdefinierte Formular aus, das Sie deaktivieren möchten.
-1. Wählen Sie in der Spalte Ist aktiv die Option **False** und klicken Sie aus der Spalte. Das Formular ist nicht mehr aktiv.
+1. Wählen Sie im linken Bereich **Benutzerdefinierter Forms** aus.
+1. Wählen Sie im Bereich **Forms** das benutzerdefinierte Formular aus, das Sie deaktivieren möchten.
+1. Wählen Sie in der Spalte Ist aktiv die Option **False** aus und klicken Sie aus der Spalte. Das Formular ist nicht mehr aktiv.
 
 ## Benutzerdefiniertes Formular erneut aktivieren
 
@@ -71,6 +71,6 @@ Wenn Sie ein benutzerdefiniertes Formular reaktivieren, werden die zuvor vorhand
 
 {{step-1-to-setup}}
 
-1. Wählen Sie im linken Bereich die Option **Benutzerdefinierte Forms**.
-1. Im **Forms** Bereich, wählen Sie das benutzerdefinierte Formular aus, das Sie reaktivieren möchten.
-1. Wählen Sie in der Spalte Ist aktiv die Option **True** und klicken Sie aus der Spalte. Das Formular ist jetzt aktiv.
+1. Wählen Sie im linken Bereich **Benutzerdefinierter Forms** aus.
+1. Wählen Sie im Bereich **Forms** das benutzerdefinierte Formular aus, das Sie reaktivieren möchten.
+1. Wählen Sie in der Spalte Ist aktiv die Option **True** aus und klicken Sie aus der Spalte. Das Formular ist jetzt aktiv.

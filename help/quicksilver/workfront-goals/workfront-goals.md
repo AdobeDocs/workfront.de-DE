@@ -23,7 +23,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -37,9 +37,9 @@ Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Vorausse
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Übersicht über Adobe Workfront-Ziele](../workfront-goals/goal-management/wf-goals-overview.md)
-* [Zielverwaltung in Adobe Workfront Goals](../workfront-goals/goal-management/goal-management.md)
-* [Zielausrichtung bei Adobe Workfront-Zielen](../workfront-goals/goal-alignment/goal-alignment.md)
-* [Zielgruppenübersicht und die Adobe Workfront-Zielbereiche](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
+* [Zielverwaltung in Adobe Workfront-Zielen](../workfront-goals/goal-management/goal-management.md)
+* [Zielausrichtung in Adobe Workfront-Zielen](../workfront-goals/goal-alignment/goal-alignment.md)
+* [Zielüberprüfung und die Abschnitte &quot;Adobe Workfront-Ziele&quot;](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Ergebnisse und Aktivitäten in Adobe Workfront-Zielen](../workfront-goals/results-and-activities/results-and-activities.md)
 
   <!--

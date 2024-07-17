@@ -20,7 +20,7 @@ Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfront Fusion verf
 
 Möglicherweise stehen für Ihr Team oder Ihre Organisation andere vom Team erstellte Vorlagen zur Verfügung.
 
-Klicken Sie auf die Schaltfläche **Vorlagen** icon ![](assets/fusion-template-icon.png) im Seitennavigationsmenü von Fusion.
+Um verfügbare Vorlagen anzuzeigen, klicken Sie im Seitennavigationsmenü von Fusion auf das Symbol **Vorlagen** ![](assets/fusion-template-icon.png) .
 
 ## Workfront-Vorlagen
 
@@ -163,19 +163,19 @@ Weitere Informationen zur Integration von Workfront mit Anaplan finden Sie unter
 
 ### Arbeitsabläufe zur Ausgabenoptimierung
 
-* [Senden [!DNL Adobe Workfront] Projekt-Updates für [!DNL Anaplan] Listenelement](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [Senden [!DNL Adobe Workfront] Kosten für [!DNL Anaplan] Listenelement](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [Senden [!DNL Adobe Workfront] Aktualisierungen der tatsächlichen Stunden für eine [!DNL Anaplan] Listenelement](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Senden von [!DNL Adobe Workfront] Projektaktualisierungen an ein [!DNL Anaplan] Listenelement](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Senden von  [!DNL Adobe Workfront] Aufwendungen an einen  [!DNL Anaplan] -Listenelement](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [Senden von [!DNL Adobe Workfront] tatsächlichen Stunden-Aktualisierungen an ein [!DNL Anaplan] Listenelement](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### Workflows für die Verknüpfung von Budgetanforderungen
 
-* [Erstellen Sie eine [!DNL Anaplan] Listenelement aus einem [!DNL Adobe Workfront] Budgetanfrage](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Anwenden eines [!DNL Anaplan] Mittelzuweisung an eine [!DNL Adobe Workfront] Projekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Erstellen eines  [!DNL Anaplan] Listenelements aus einer  [!DNL Adobe Workfront] -Budgetanfrage](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Anwenden einer [!DNL Anaplan] Budgetzuordnung auf ein [!DNL Adobe Workfront] Projekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Workflows zum Verknüpfen von Kampagnenanfragen
 
-* [Erstellen Sie eine [!DNL Anaplan] Listenelement aus einem [!DNL Adobe Workfront] Kampagnenanforderung](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [Anwenden eines [!DNL Anaplan] Mittelzuweisung an eine [!DNL Adobe Workfront] Kampagnenanforderung oder Kampagnenprojekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [Erstellen eines [!DNL Anaplan] Listenelements aus einer [!DNL Adobe Workfront] Kampagnenanforderung](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [Anwenden einer [!DNL Anaplan] Budgetzuordnung auf eine [!DNL Adobe Workfront] Kampagnen-Anfrage oder ein Kampagnenprojekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 
 <!--[!BADGE New!]{type=Informative} -->

@@ -52,6 +52,6 @@ Normalerweise dauert die Verarbeitung einige Sekunden pro Seite. Verschiedene Fa
 
 Gesendete Dateien durchlaufen einige oder alle der folgenden Schritte:
 
-1. **Einsendung**. Wenn Sie ein Dokument in das System hochladen, verwenden Sie dazu die Seite Neuer Testversand oder eine Anwendungsprogrammierschnittstelle (API). 
-1. **Warteschlange**. In Zeiten hohen Datenverkehrs muss Workfront möglicherweise Übermittlungen in die Warteschlange stellen, damit das System nicht überlastet wird. Die meisten Testsendungen verbringen nur einige Sekunden in einer Warteschlange. 
-1. **Verarbeitung.** Die Dateien erreichen die Verarbeitungsmaschinen gemäß dem Inhaltstyp. Wir verwenden verschiedene Tools zur Verarbeitung von Videosendungen, Webaufnahmen, statischen Bildern und Dokumenten. Rich-Media-Container (ZIP) und interaktive Weberfassungen erfordern keine Verarbeitung.
+1. **Übermittlung**. Wenn Sie ein Dokument in das System hochladen, verwenden Sie dazu die Seite Neuer Testversand oder eine Anwendungsprogrammierschnittstelle (API). 
+1. **Queue**. In Zeiten hohen Datenverkehrs muss Workfront möglicherweise Übermittlungen in die Warteschlange stellen, damit das System nicht überlastet wird. Die meisten Testsendungen verbringen nur einige Sekunden in einer Warteschlange. 
+1. **Verarbeitung.** Die Dateien erreichen die Verarbeitungsmaschinen gemäß dem Inhaltstyp. Wir verwenden verschiedene Tools zur Verarbeitung von Videosendungen, Webaufnahmen, statischen Bildern und Dokumenten. Rich-Media-Container (ZIP) und interaktive Weberfassungen erfordern keine Verarbeitung.

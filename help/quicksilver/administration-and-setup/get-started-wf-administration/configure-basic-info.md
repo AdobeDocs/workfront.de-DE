@@ -68,19 +68,19 @@ So greifen Sie auf die Seite &quot;Kundeninformationen&quot;zu:
 
    * **Grundlegende Informationen**
 
-     Informationen zum Konfigurieren grundlegender Informationen in Workfront finden Sie unter [Grundlegende Informationen konfigurieren](#configure-basic-info).
+     Informationen zum Konfigurieren grundlegender Informationen in Workfront finden Sie unter [Konfigurieren grundlegender Informationen](#configure-basic-info).
 
    * **API-Schlüsseleinstellungen**
 
-     Informationen zu den API-Schlüsseleinstellungen finden Sie unter [Verwalten von API-Schlüsseln](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+     Weitere Informationen zu den Einstellungen für API-Schlüssel finden Sie unter [Verwalten von API-Schlüsseln](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
    * **IP-Zulassungsliste**
 
-     Informationen zum Hinzufügen der IP-Adressen zu Ihrer Zulassungsliste, für die Ihre Benutzer auf Workfront zugreifen können, finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     Informationen dazu, wie Sie die IP-Adressen zu Ihrer Zulassungsliste hinzufügen, wo Ihre Benutzer auf Workfront zugreifen können, finden Sie unter [Konfigurieren der Firewall-Zulassungsliste](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-   * **Lizenz**
+   * **License**
 
-     Weitere Informationen zu Lizenzen finden Sie unter [Verwalten der verfügbaren Lizenzen in Ihrem System](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Weitere Informationen zu Lizenzen finden Sie unter [Verfügbare Lizenzen in Ihrem System verwalten](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Grundlegende Informationen konfigurieren {#configure-basic-info}
 
@@ -92,7 +92,7 @@ So konfigurieren Sie Ihren Abschnitt &quot;Grundlegende Informationen&quot;im Be
 
 1. Klicken Sie im linken Bereich auf **System** > **Kundeninformationen**.
 
-1. Im **Grundlegende Informationen** -Abschnitt am oberen Rand des **Kundeninformationen** finden Sie die folgenden Informationen zu Ihrer Instanz mit Workfront:
+1. Suchen Sie im Abschnitt **Grundlegende Informationen** oben auf der Seite **Kundeninformationen** nach den folgenden Informationen zu Ihrer Instanz mit Workfront:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,11 +108,11 @@ So konfigurieren Sie Ihren Abschnitt &quot;Grundlegende Informationen&quot;im Be
      </tr> 
      <tr> 
       <td role="rowheader">Admin-E-Mail</td> 
-      <td> <p>Die E-Mail-Adresse Ihres Workfront-Administrators. Sie können dieses Feld entsprechend der E-Mail-Adresse eines Workfront-Administratoren bearbeiten. Der mit dieser E-Mail-Adresse verknüpfte Benutzer gilt als Workfront-Hauptadministrator Ihres Workfront-Systems. Jede Site-weite Kommunikation von Workfront wird an diese E-Mail-Adresse geleitet. Daher ist es wichtig, sie auf dem neuesten Stand zu halten.</p> <p><b>NOTE</b>: Sie können die Zugriffsebene des mit der Admin-E-Mail verknüpften Benutzers nicht deaktivieren, löschen oder ändern.</p> </td> 
+      <td> <p>Die E-Mail-Adresse Ihres Workfront-Administrators. Sie können dieses Feld entsprechend der E-Mail-Adresse eines Workfront-Administratoren bearbeiten. Der mit dieser E-Mail-Adresse verknüpfte Benutzer gilt als Workfront-Hauptadministrator Ihres Workfront-Systems. Jede Site-weite Kommunikation von Workfront wird an diese E-Mail-Adresse geleitet. Daher ist es wichtig, sie auf dem neuesten Stand zu halten.</p> <p><b>HINWEIS</b>: Sie können die Zugriffsebene des mit der Admin-E-Mail verknüpften Benutzers nicht deaktivieren, löschen oder ändern.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Domäne</td> 
-      <td> <p>Die Domäne wird von Workfront bei der Erstellung des Kontos festgelegt.</p> <p>Die Domäne identifiziert Ihre eindeutige Subdomäne der URL, die Sie für den Zugriff auf Workfront verwenden.<p>Wenn Ihrem Unternehmen beispielsweise die Domäne "mycompany"zugewiesen wurde, lautet die URL, die Sie für den Zugriff auf Workfront verwenden <i>https://mycompany.my.workfront.com</i></p><p>Sie können die Domäne nicht selbst bearbeiten. Wenn Sie Ihre Domäne ändern möchten, wenden Sie sich an den Workfront-Support. Weitere Informationen zur Kontaktaufnahme mit dem Workfront-Support finden Sie unter <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Support kontaktieren</a>.</p> </td> 
+      <td> <p>Die Domäne wird von Workfront bei der Erstellung des Kontos festgelegt.</p> <p>Die Domäne identifiziert Ihre eindeutige Subdomäne der URL, die Sie für den Zugriff auf Workfront verwenden.<p>Wenn Ihrem Unternehmen beispielsweise die Domäne "mycompany"zugewiesen wurde, lautet die URL, die Sie für den Zugriff auf Workfront verwenden, <i>https://mycompany.my.workfront.com</i>.</p><p>Sie können die Domäne nicht selbst bearbeiten. Wenn Sie Ihre Domäne ändern möchten, wenden Sie sich an den Workfront-Support. Weitere Informationen zur Kontaktaufnahme mit dem Workfront-Kundensupport finden Sie unter <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Kundensupport kontaktieren</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zeitzone</td> 
@@ -120,7 +120,7 @@ So konfigurieren Sie Ihren Abschnitt &quot;Grundlegende Informationen&quot;im Be
        <ul> 
         <li>Datum und Uhrzeit der ausgehenden E-Mails</li> 
         <li>Die Standardzeitzone für neue Benutzer bei ihrer Erstellung</li> 
-       </ul> <p>Benutzer können die Zeitzone für ihre Workfront-Instanz unter ihrem Profil ändern. Wenn Benutzer ihre Zeitzone ändern, stimmen Datum und Uhrzeit in ihren E-Mails aus Workfront mit ihren Profilvoreinstellungen überein. Weitere Informationen zum Ändern der Benutzerprofilinformationen finden Sie unter <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Meine Einstellungen konfigurieren</a>. Sie wird bei der Erstellung eines neuen Zeitplans als Standardzeitzone ausgewählt. Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Zeitplan erstellen</a>.</p> <p>Informationen zur Verwendung von Zeitplänen zur Unterstützung der Zusammenarbeit von Benutzern in Workfront über Zeitzonen hinweg finden Sie unter <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeiten über Zeitzonen hinweg</a>.</p> </td> 
+       </ul> <p>Benutzer können die Zeitzone für ihre Workfront-Instanz unter ihrem Profil ändern. Wenn Benutzer ihre Zeitzone ändern, stimmen Datum und Uhrzeit in ihren E-Mails aus Workfront mit ihren Profilvoreinstellungen überein. Weitere Informationen zum Ändern der Benutzerprofileinstellungen finden Sie unter <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Meine Einstellungen konfigurieren</a>. Sie wird bei der Erstellung eines neuen Zeitplans als Standardzeitzone ausgewählt. Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Erstellen eines Zeitplans</a>.</p> <p>Informationen zur Verwendung von Zeitplänen zur Unterstützung der Zusammenarbeit in Workfront über Zeitzonen hinweg finden Sie unter <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeiten über Zeitzonen hinweg</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gebiet</td> 
@@ -128,7 +128,7 @@ So konfigurieren Sie Ihren Abschnitt &quot;Grundlegende Informationen&quot;im Be
      </tr> 
      <tr> 
       <td role="rowheader">Speicherquote</td> 
-      <td> <p>Dies ist die Menge an Dokumentspeicherplatz, die in Ihrer Workfront-Instanz verfügbar ist.<br>Das Kontingent enthält Dokumente, die Sie direkt in Workfront hochladen.<br>Er umfasst nicht:</p> 
+      <td> <p>Dies ist die Menge an Dokumentspeicherplatz, die in Ihrer Workfront-Instanz verfügbar ist.<br>Das Kontingent enthält Dokumente, die Sie direkt in Workfront hochladen.<br>Er enthält nicht:</p> 
        <ul> 
         <li>Dokumente, die Sie von einem anderen Drittanbieter (SharePoint, Google Drive, Webdam, Box, Dropbox, einem anderen Document Asset Management-Anbieter) mit Workfront verknüpfen.</li> 
         <li>Ihre Workfront-Daten (Projekte, Aufgaben, Probleme, Benutzer usw.).</li> 
@@ -136,7 +136,7 @@ So konfigurieren Sie Ihren Abschnitt &quot;Grundlegende Informationen&quot;im Be
      </tr> 
      <tr> 
       <td role="rowheader">Produktversion</td> 
-      <td>Dies ist der Typ der Workfront-Instanz, die Ihnen zugewiesen ist. Die Produktversion für die meisten Workfront-Kunden ist <strong>Unternehmen</strong>.</td> 
+      <td>Dies ist der Typ der Workfront-Instanz, die Ihnen zugewiesen ist. Die Produktversion für die meisten Workfront-Kunden ist <strong>Enterprise</strong>.</td> 
      </tr> 
     </tbody> 
    </table>

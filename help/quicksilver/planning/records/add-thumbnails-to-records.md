@@ -82,7 +82,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Arbeitsdokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workflows](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zu Miniaturansichten von Datensätzen
 
@@ -115,8 +115,8 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
 1. Klicken Sie auf den Arbeitsbereich, für dessen Datensätze Sie Miniaturansichten hinzufügen möchten, und dann auf die Karte vom Typ Datensatz.
 
    Dadurch wird die Seite mit dem Datensatztyp geöffnet.
-1. Wählen Sie eine Tabellenansicht aus dem **Ansicht** Dropdown-Menü. Alle Datensätze des ausgewählten Typs werden in einer Tabelle angezeigt.
-1. Bewegen Sie den Mauszeiger über die primären Feldinformationen und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Miniatur**.
+1. Wählen Sie eine Tabellenansicht aus dem Dropdownmenü **Ansicht** aus. Alle Datensätze des ausgewählten Typs werden in einer Tabelle angezeigt.
+1. Bewegen Sie den Mauszeiger über die primären Feldinformationen, klicken Sie auf das Menü **Mehr** Menü ![](assets/more-menu.png) und dann auf **Miniatur**.
 
    ![](assets/record-more-menu-expanded.png)
 
@@ -124,9 +124,9 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
    >
    >   Das primäre Feld ist das Feld, das in der ersten Spalte einer Tabellenansicht angezeigt wird. Das Primärfeld ist immer eingefroren und kann nicht ausgeblendet oder neu positioniert werden. Die Option Miniaturansicht ist im Menü Mehr nicht verfügbar, wenn das primäre Feld ein Formelfeld ist.
 
-   Die **Hochladen** Registerkarte wird standardmäßig in der **Miniaturansicht aufzeichnen** ankreuzen.
+   Die Registerkarte **Hochladen** wird standardmäßig im Feld **Miniaturansicht aufzeichnen** geöffnet.
 
-   Weitere Informationen zum Hochladen der Miniaturansicht finden Sie im Abschnitt . [Hinzufügen einer Miniaturansicht zu einem Datensatz von der Detailseite](#add-a-thumbnail-to-a-record-from-the-details-page) in diesem Artikel, beginnend mit Schritt 6. <!--see if this is accurate-->
+   Weitere Informationen zum Hochladen der Miniaturansicht finden Sie im Abschnitt [Hinzufügen einer Miniaturansicht zu einem Datensatz von der Detailseite](#add-a-thumbnail-to-a-record-from-the-details-page) in diesem Artikel, beginnend mit Schritt 6 <!--see if this is accurate-->.
 
 <!--
    ![](assets/record-thumbnail-box-for-upload.png) 
@@ -164,12 +164,12 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
 1. Klicken Sie in einer beliebigen Ansicht auf einen Datensatz, um ihn zu öffnen.
 
    Das Vorschaufeld für Details wird angezeigt.
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke.
+1. (Optional) Klicken Sie oben rechts auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) .
 
    Die Detailseite des Datensatzes wird geöffnet.
-1. Bewegen Sie den Mauszeiger über das Miniaturbild oder Symbol ![](assets/record-thumbnail-icon-on-details-page.png)und klicken Sie dann auf **Mehr** Menü ![](assets/more-menu.png) > **Miniaturansicht bearbeiten**.
+1. Bewegen Sie den Mauszeiger über das Miniaturbild oder Symbol ![](assets/record-thumbnail-icon-on-details-page.png) und klicken Sie dann auf das Menü **Mehr** > ![](assets/more-menu.png) > **Miniatur bearbeiten** .
 
-   Die **Hochladen** Registerkarte wird standardmäßig in der **Miniaturansicht aufzeichnen** ankreuzen.
+   Die Registerkarte **Hochladen** wird standardmäßig im Feld **Miniaturansicht aufzeichnen** geöffnet.
 
    ![](assets/record-thumbnail-box-for-upload.png)
 
@@ -177,25 +177,25 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
 
    Oder
 
-   Klicks **Bilder durchsuchen**, suchen Sie dann nach einer Bilddatei, die hinzugefügt werden soll. Die Datei muss auf Ihrem Computer gespeichert werden.
+   Klicken Sie auf **Bilder durchsuchen** und suchen Sie dann nach einer Bilddatei, die hinzugefügt werden soll. Die Datei muss auf Ihrem Computer gespeichert werden.
 
-1. (Optional) Nach dem Hochladen des Bilds im **Miniaturansicht aufzeichnen** verwenden, verwenden Sie das Größenanpassungs-Tool, um das Bild zu beschneiden und seine Größe zu ändern.
-1. (Optional) Klicken Sie auf die **Neues Bild hochladen** icon ![](assets/upload-new-image-icon.png) , um ein anderes Bild hochzuladen.
-1. (Optional) Klicken Sie auf die **Galerie** und klicken Sie auf ein Bild. Die Bildergalerie kann nicht geändert werden.
+1. (Optional) Nachdem die Bild-Uploads im Feld **Miniaturansicht aufzeichnen** durchgeführt wurden, verwenden Sie das Größenanpassungs-Tool, um das Bild zu beschneiden und die Größe zu ändern.
+1. (Optional) Klicken Sie auf das Symbol **Neues Bild hochladen** ![](assets/upload-new-image-icon.png) , um ein anderes Bild hochzuladen.
+1. (Optional) Klicken Sie auf die Registerkarte **Galerie** und dann auf ein Bild. Die Bildergalerie kann nicht geändert werden.
 
    ![](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Optional) Um die Miniaturansicht vor dem Speichern zu entfernen, klicken Sie auf die Schaltfläche **Entfernen** icon ![](assets/remove-image-icon.png) rechts neben dem Bild.
+1. (Optional) Um die Miniaturansicht vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Entfernen** ![](assets/remove-image-icon.png) rechts neben dem Bild.
 
-1. Klicks **Bild verwenden** , um das Bild als Miniaturansicht hinzuzufügen.
-Dadurch wird die **Miniaturansicht aufzeichnen** ankreuzen.
+1. Klicken Sie auf **Bild verwenden** , um das Bild als Miniaturansicht hinzuzufügen.
+Dadurch wird das Feld **Miniaturansicht aufzeichnen** geschlossen.
 Die Miniaturansicht wird in Bereichen der Workfront-Planung angezeigt, in denen der Datensatz angezeigt wird.
 
    >[!TIP]
    >
    >   Sie müssen das Feld &quot;Miniaturansicht&quot;in der Tabellenansicht aktivieren, damit in dieser Ansicht Miniaturansichten angezeigt werden. Sie ist standardmäßig deaktiviert.
 
-1. (Optional) Um die Miniaturansicht nach dem Speichern zu entfernen, klicken Sie in einer beliebigen Ansicht auf einen Datensatz, um die Detailseite zu öffnen. Bewegen Sie dann den Mauszeiger über das Miniaturbild und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)> **Entfernen** icon ![](assets/remove-image-icon.png). Das Miniaturbild wird entfernt.
+1. (Optional) Um die Miniaturansicht nach dem Speichern zu entfernen, klicken Sie in einer beliebigen Ansicht auf einen Datensatz, um die Detailseite zu öffnen. Bewegen Sie dann den Mauszeiger über das Miniaturbild und klicken Sie auf das Symbol **Mehr** Menü ![](assets/more-menu.png)> **Entfernen** ![](assets/remove-image-icon.png). Das Miniaturbild wird entfernt.
 
 
 

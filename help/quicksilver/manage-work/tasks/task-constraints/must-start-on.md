@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint - Übersicht: Muss beginnen bei"
+title: "Task Constraint Overview: Must Start On"
 description: Verwenden Sie die Task-Beschränkung Must Start On (MSO) , um eine Aufgabe so zu planen, dass sie genau an einem bestimmten Datum beginnt.
 author: Alina
 feature: Work Management
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbeschränkungen: Muss beginnen bei
+# Übersicht über Aufgabenbegrenzungen: Muss beginnen bei
 
 Verwenden Sie die Task-Beschränkung Must Start On (MSO) , um eine Aufgabe so zu planen, dass sie genau an einem bestimmten Datum beginnt.
 
-Die &quot;Must Start On&quot;-Beschränkung plant, eine Aufgabe genau zu dem Zeitpunkt und Datum zu starten, die Sie in der **Geplantes Startdatum** -Feld.
+Die &quot;Must Start On&quot;-Beschränkung plant, dass eine Aufgabe genau an dem Zeitpunkt und Datum beginnt, die Sie im Feld **Geplantes Startdatum** angeben.
 
 >[!TIP]
 >
 >Durch manuelles Aktualisieren des geplanten Startdatums einer Aufgabe wird die Beschränkung der Aufgabe auf &quot;Muss beginnen am&quot;geändert.
 
-## Übersicht über die &quot;Must Start On Task Constraint&quot;-Beschränkung
+## Übersicht über die &quot;Must Start On Task&quot;-Beschränkung
 
 Beachten Sie Folgendes bei der Planung einer Aufgabe mit der Einschränkung Must Start On :
 
 * Vorgängerbeziehungen zwingen diese Aufgabe nicht zu einer Neuplanung. Workfront ignoriert im Wesentlichen alle Vorgängerbeziehungen der Aufgabe mit dieser Einschränkung.
-* Die Aufgabe zeigt **Risiko** wenn die Vorgänger beginnen, zurückzulaufen oder zu spät zu laufen.
+* Die Aufgabe zeigt &quot;**Risiko**&quot; an, wenn Vorgänger zu spät oder zu spät laufen.
 
 * Wenn Sie eine Aufgabe mit einer MSO-Einschränkung in ein anderes Projekt verschieben oder kopieren, können sich die Beschränkung der Aufgabe oder die Daten des Projekts je nach den Einschränkungsdaten und den Start- und Abschlussdaten des Projekts ändern. Die folgenden Szenarien existieren:
 
@@ -42,9 +42,10 @@ Beachten Sie Folgendes bei der Planung einer Aufgabe mit der Einschränkung Must
 
          * Wenn das Beschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbegrenzung in &quot;So spät wie möglich&quot;.
          * Wenn das Beschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts entsprechend dem Startbegrenzungsdatum der Aufgabe.
+
       * Wenn das Beschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Zeitplan des Projekts keine Änderungen an der Aufgabenbegrenzung oder den Projektzeitpunkten.
 
-   Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 

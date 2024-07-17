@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Vererbte Berechtigungen für Objekte anzeigen
 
-Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter [Projektzugriff gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter [Gewähren des Zugriffs auf Projekte](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen für bestimmte Objekte erteilen, auf die Sie Zugriff haben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen für bestimmte Objekte erteilen, auf die Sie Zugriff haben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Wie Zugriffsebenen und -berechtigungen zusammenarbeiten](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Objekte erben Berechtigungen von übergeordneten Objekten in Adobe Workfront.
 
@@ -63,7 +63,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -75,7 +75,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder höherer Berechtigungen für die Objekte, für die Sie Berechtigungen anzeigen möchten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen oder höherer Berechtigungen für die Objekte, für die Sie Berechtigungen anzeigen möchten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,15 +89,15 @@ Die Anzeige der geerbten Berechtigungen ist für alle Objekte identisch.
 So zeigen Sie geerbte Berechtigungen für ein Projekt an:
 
 1. Wechseln Sie zu einem Projekt, dessen Freigabeberechtigungen Sie anzeigen möchten.
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png)Klicken Sie auf **Freigabe**.
+1. Klicken Sie auf das Menü **Mehr** und dann auf **Freigabe**.![](assets/more-icon.png)
 
-1. Erweitern Sie die **Vererbte Berechtigungen** Liste.
+1. Erweitern Sie die Liste **Vererbte Berechtigungen** .
 
    Diese Liste zeigt die Namen der Benutzer an, die Zugriff auf das Portfolio oder das Programm haben, zu dem das Projekt gehört, und auch über Berechtigungen für das Projekt verfügen.
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-1. (Optional) Informationen zum Entfernen von geerbten Berechtigungen von einem Objekt finden Sie unter [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+1. (Optional) Informationen zum Entfernen von geerbten Berechtigungen aus einem Objekt finden Sie unter [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
    >[!NOTE]
    >

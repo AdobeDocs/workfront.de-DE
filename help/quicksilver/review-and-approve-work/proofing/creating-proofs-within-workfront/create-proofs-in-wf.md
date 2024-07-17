@@ -25,9 +25,9 @@ In den folgenden Artikeln erfahren Sie, wie Sie Testsendungen erstellen:
 
 * [Erstellen eines erweiterten Testversands mit einem einfachen Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 * [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-* [Konfigurieren der Standardeinstellungen für persönliche Testsendungen](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
+* [Persönliche Testversand-Standardeinstellungen konfigurieren](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
 * [Erstellen eines mehrseitigen Testversands](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
-* [Erstellen eines interaktiven Testversands für eine Website oder einen anderen Webinhalt](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
+* [Erstellen eines interaktiven Testversands für eine Website oder andere Webinhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
 * [Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
 * [Erstellen eines statischen Testversands für eine Website oder andere Webinhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
 * [Erstellen eines Testversands für ein Dokument](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)

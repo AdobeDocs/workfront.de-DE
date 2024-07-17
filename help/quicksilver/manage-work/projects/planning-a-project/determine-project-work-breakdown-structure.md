@@ -48,20 +48,20 @@ Stellen Sie bei der Definition von Aufgaben sicher, dass Sie nicht zu viel Arbei
 Um WBS-Ergebnisse und -Lieferziele in Workfront zu definieren, empfehlen wir die folgenden Aktivitäten, um eine hierarchische Ansicht der Projektaufgaben zu erstellen:
 
 * Erstellen Sie ein neues Projekt, falls noch nicht geschehen.\
-  Informationen zum Erstellen eines Projekts finden Sie im Artikel [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
+  Weitere Informationen zum Erstellen eines Projekts finden Sie im Artikel [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
 * Erstellen Sie Aufgaben für alle Aktionselemente, die zum Abschließen jedes Ergebnisses und jeder Bereitstellung erforderlich sind.\
-  Informationen zum Erstellen von Aufgaben finden Sie im Artikel [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
+  Weitere Informationen zum Erstellen von Aufgaben finden Sie im Artikel [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
 
 * Ermitteln Sie aus den soeben erstellten Aufgaben, welche der wichtigsten Ergebnisse sind, und ordnen Sie sie Meilensteinen zu.\
-  Informationen zum Erstellen von Meilensteinaufgaben finden Sie in den Artikeln [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) und [Verknüpfen von Meilensteinen mit Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  Informationen zum Erstellen von Meilensteinaufgaben finden Sie in den Artikeln [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) und [Meilensteine mit Aufgaben verknüpfen](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) .
 
 * Schlüsseln Sie die Aufgaben mit einem zu großen Bereich in Unteraufgaben auf. Ordnen Sie sie dem übergeordneten Element zu, das Ihr Deliverable definiert.\
-  Informationen zum Erstellen von Unteraufgaben finden Sie im Artikel [Erstellen von Unteraufgaben](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+  Informationen zum Erstellen von Unteraufgaben finden Sie im Artikel [Unteraufgaben erstellen](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Identifizieren Sie Abhängigkeitsbeziehungen zwischen Unteraufgaben und zwischen Meilensteinen.\
   In einer Abhängigkeitsbeziehung hängt der Beginn einer Aufgabe vom Abschluss einer anderen Aufgabe oder einer anderen Gruppe von Aufgaben ab.\
-  Weitere Informationen zu Aufgabenabhängigkeiten finden Sie in den Artikeln [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) und [Erstellen einer Vorgängerbeziehung auf der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+  Weitere Informationen zu Aufgabenabhängigkeiten finden Sie in den Artikeln [Übersicht über Aufgabenvorstufen](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) und [Erstellen einer Vorgängerbeziehung in der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Bestimmen Sie, ob zu einem beliebigen Zeitpunkt der Projektlebensdauer Genehmigungen und Überprüfungen erforderlich sind. Erstellen Sie Validierungsprozesse, um diese Anforderungen zu erfüllen.\
   Weitere Informationen zu Genehmigungen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -80,7 +80,7 @@ Beachten Sie Folgendes:
 
   Da die Dauer eine Schätzung ist, sollten Sie sicherstellen, optimistische Zeitwerte festzulegen, um Faktoren zu berücksichtigen, die die Aufgabe beeinflussen könnten, wie Wetter, Stromausfälle, Lieferantenschwierigkeiten oder andere unvorhergesehene Ereignisse. Stellen Sie außerdem sicher, dass Sie überlegen, ob es zugehörige Vorgänger- oder Abhängigkeitsaufgaben gibt und wie diese Einschränkungen bei der Arbeit platzieren und die Aufgabenfertigstellung beeinflussen können.
 
-  Je nach Dauer der Aufgabe können Sie die Dauer einer Aufgabe während der Lebensdauer eines Projekts ändern. Dies wirkt sich jedoch auch auf die Zeitleiste des Projekts aus. Informationen zur Dauer einer Aufgabe finden Sie im Artikel [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Je nach Dauer der Aufgabe können Sie die Dauer einer Aufgabe während der Lebensdauer eines Projekts ändern. Dies wirkt sich jedoch auch auf die Zeitleiste des Projekts aus. Weitere Informationen zur Dauer einer Aufgabe finden Sie im Artikel [Überblick über die Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
 ## Aufgaben zuweisen
 
@@ -94,7 +94,7 @@ Nachdem Sie die Dauer und die Begrenzungen jeder Aufgabe definiert haben, könne
 * Aufgabengebiete
 * Teams
 
-Informationen zum Zuweisen von Aufgaben finden Sie in den Artikeln im [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md) Abschnitt.
+Informationen zum Zuweisen von Aufgaben finden Sie in den Artikeln im Abschnitt [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md) .
 
 ## Ressourcen verwalten
 
@@ -105,22 +105,22 @@ Mit der Ressourcenverwaltung in Workfront können Sie feststellen, ob ausreichen
 >Solange das Projekt den Status Planung hat, werden den Benutzern zugewiesene Aufgaben nicht in den Aufgabenlisten angezeigt.
 
 Zu Beginn eines Geschäftsjahres oder -quartals möchten Sie Ihre Ressourcen möglicherweise auf einer höheren Ebene über mehrere Projekte hinweg verwalten, ohne dass Sie über eine spezifische Aufschlüsselungsstruktur für Ihre Arbeit verfügen.\
-Informationen zur Planung der Nutzung Ihrer Ressourcen auf höherer Ebene finden Sie im Artikel [Erste Schritte mit der Ressourcenplanung](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Weitere Informationen zur Planung der Nutzung Ihrer Ressourcen auf höherer Ebene finden Sie im Artikel [Erste Schritte mit der Ressourcenplanung](../../../resource-mgmt/resource-planning/get-started-resource-planning.md) .
 
 Wenn Sie Ihre Ressourcen im Zusammenhang mit dem Erstellen der Arbeitsaufschlüsselungsstruktur eines Projekts verwalten und sicherstellen, dass jede Aufgabe der richtigen Ressource zugewiesen ist, können Sie Ihre Ressourcen für die zu erledigende Arbeit planen.\
-Informationen zur Planung Ihrer Ressourcen finden Sie in den Artikeln im Abschnitt [Der Lastenausgleich: Artikelindex](../../../resource-mgmt/workload-balancer/workload-balancer.md) Abschnitt.
+Informationen zum Planen Ihrer Ressourcen finden Sie in den Artikeln im Abschnitt [The Workload Balancer: article index](../../../resource-mgmt/workload-balancer/workload-balancer.md) .
 
 ## Geschätzte Projektfinanzen
 
 Workfront berechnet die für jede Aufgabe geplanten Kosten und die Gesamtkosten eines Projekts. Die für eine Aufgabe geplanten Kosten umfassen alle Ausgaben der Aufgabe zuzüglich der Kosten des mit der Aufgabe betrauten Mitarbeiters bzw. der zugewiesenen Rolle. Die Stundensätze für die Aufgabe, die Rolle und den Mitarbeiter werden während der Aufgabe, Rolle und Benutzererstellung zugewiesen.
 
-Weitere Informationen zu den Projektfinanzen finden Sie im Abschnitt . [Projektfinanzen: Artikelindex](../../../manage-work/projects/project-finances/project-finances-overview.md).
+Informationen zu den Projektfinanzen finden Sie im Abschnitt [Projektfinanzierung: Artikelindex](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Festlegen von Genehmigungspunkten für das Projekt
 
 Durch die Erstellung von Genehmigungsprozessen in Workfront können Sie Überprüfungspunkte für das Projekt einrichten, um den Fortschritt und potenzielle Problembereiche zu überwachen. Über den Genehmigungsprozess können Projekteigentümer erkennen, welche Aufgaben zu spät und zu früh ausgeführt werden, Audit-Protokolle einsehen, in denen aufgeführt ist, wer den Aufgabenstatus geändert hat, und Verläufe zu Problemen anzeigen, einschließlich der Art und Weise, wie Probleme gelöst wurden und wann sie geschlossen wurden. Nach der Überprüfung eines Projekts können Projekteigentümer bestimmen, welche Schritte unternommen und den Projektplan bei Bedarf aktualisiert werden sollen.
 
-Weitere Informationen zu Genehmigungen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+Weitere Informationen zu Genehmigungen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) .
 
 ## Anzeigen Ihrer WBS
 
@@ -133,7 +133,7 @@ Um die WBS eines Projekts zu verstehen, möchten Sie die folgenden Aufgabeneleme
 
 Nachdem Sie Ihre WBS abgeschlossen haben, können Sie sie in einer Aufgabenliste auf Projektebene oder in einem Bericht anzeigen.
 
-* [Anzeigen von WBS in einer Aufgabenliste](#view-the-wbs-in-a-task-list)
+* [Anzeigen des WBS in einer Aufgabenliste](#view-the-wbs-in-a-task-list)
 * [Anzeigen von WBS in einem Aufgabenbericht](#view-the-wbs-in-a-task-report)
 
 ### Anzeigen von WBS in einer Aufgabenliste {#view-the-wbs-in-a-task-list}
@@ -141,16 +141,16 @@ Nachdem Sie Ihre WBS abgeschlossen haben, können Sie sie in einer Aufgabenliste
 Sie können die Aufgabenliste auf Projektebene anzeigen.
 
 1. Wechseln Sie zu dem Projekt, für das Sie die Arbeitsaufschlüsselungsstruktur anzeigen möchten.
-1. Wählen Sie die **Aufgaben** Registerkarte.
-1. (Optional) Wählen Sie **Nichts** im **Gruppierung** Dropdown-Menü.
+1. Wählen Sie die Registerkarte **Aufgaben** aus.
+1. (Optional) Wählen Sie **Nichts** im Dropdown-Menü **Gruppierung** aus.
 
    Die Arbeitsaufschlüsselungsstruktur zeigt den Einzug der Aufgaben in die WBS nicht an.
 
-1. Aus dem **Ansicht** und wählen Sie die **Arbeitsteilung** anzeigen.
+1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Ansicht **Arbeitsaufschlüsselung** aus.
 
    Die Struktur der Arbeitsaufschlüsselung wird in der zweiten Spalte der ausgewählten Ansicht angezeigt.
 
-   ![Aufschlüsselungsstruktur der Arbeit in einer Aufgabenliste](assets/work-breakdown-structure.png)
+   ![Struktur der Arbeitsaufschlüsselung in einer Aufgabenliste](assets/work-breakdown-structure.png)
 
 ### Anzeigen von WBS in einem Aufgabenbericht {#view-the-wbs-in-a-task-report}
 
@@ -163,7 +163,7 @@ Sie können einen Aufgabenbericht erstellen und die WBS der Aufgaben anzeigen, i
 >
 >Es wird empfohlen, eine Projektgruppierung hinzuzufügen, um Klarheit darüber zu schaffen, zu welchen Projekten die Aufgaben gehören. Der Einzug der Aufgaben wird in einem Aufgabenbericht nicht angezeigt.
 
-Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Speichern der WBS eines Projekts als Vorlage
 

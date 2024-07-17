@@ -10,7 +10,7 @@ feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,14 @@ Ein Webhook ist ein HTTP-Aufruf, der durch ein Ereignis ausgelöst wird. Sie kö
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -38,17 +38,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr>
  </tbody> 
@@ -56,21 +56,21 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-&#42;&#42;Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Informationen zu [!DNL Adobe Workfront Fusion] Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Verwenden Sie einen Webhook in [!DNL Workfront Fusion]
+## Webhook in [!DNL Workfront Fusion] verwenden
 
 >[!NOTE]
 >
 >Um einen Drittanbieter-Webhook (einen ausgehenden Webhook) aufzurufen, verwenden Sie eines der HTTP-Module. Weitere Informationen finden Sie unter [HTTP-Module](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
-So verbinden Sie eine App über einen Webhook mit [!DNL Workfront Fusion]:
+So verwenden Sie einen Webhook, um eine App mit [!DNL Workfront Fusion] zu verbinden:
 
-1. Fügen Sie die **[!UICONTROL Webhooks]** >**[!UICONTROL Benutzerspezifischer Webhook]** Instant Trigger-Modul zu Ihrem Szenario.
+1. Fügen Sie das Instant-Trigger-Modul **[!UICONTROL Webhooks]** >**[!UICONTROL Benutzerspezifischer Webhook]** zu Ihrem Szenario hinzu.
 
-1. Klicken **[!UICONTROL Hinzufügen]** neben dem Webhook-Feld und geben Sie einen Namen für den neuen Webhook ein.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]** neben dem Webhook-Feld und geben Sie einen Namen für den neuen Webhook ein.
 1. (Optional) Klicken Sie auf **[!UICONTROL Erweiterte Einstellungen]**.
-1. Im **[!UICONTROL IP-Beschränkungen]** Geben Sie eine kommagetrennte Liste der IP-Adressen ein, aus denen das Modul Daten aufnehmen kann.
+1. Geben Sie im Feld **[!UICONTROL IP-Beschränkungen]** eine kommagetrennte Liste der IP-Adressen ein, von denen das Modul Daten akzeptieren kann.
 1. Klicken Sie auf **[!UICONTROL Speichern]**
 
 Nachdem Sie einen Webhook erstellt haben, wird eine eindeutige URL angezeigt. Dies ist die Adresse, an die der Webhook Daten sendet. Workfront Fusion validiert die an diese Adresse gesendeten Daten und gibt sie dann zur Verarbeitung im Szenario weiter.
@@ -81,11 +81,11 @@ Nachdem Sie einen Webhook erstellt haben, wird eine eindeutige URL angezeigt. Di
 
 ### Datenstruktur des Webhooks konfigurieren {#configure-the-webhook-s-data-structure}
 
-Um die Datenstruktur der eingehenden Payload zu erkennen, [!DNL Workfront Fusion] analysiert Beispieldaten, die Sie an die angezeigte Adresse senden. Sie können die Beispieldaten bereitstellen, indem Sie eine Änderung im Dienst oder in der App vornehmen, die dazu führt, dass dieser Dienst oder diese App den Webhook aufruft. Sie können beispielsweise eine Datei entfernen.
+Um die Datenstruktur der eingehenden Payload zu erkennen, analysiert [!DNL Workfront Fusion] Beispieldaten, die Sie an die angezeigte Adresse senden. Sie können die Beispieldaten bereitstellen, indem Sie eine Änderung im Dienst oder in der App vornehmen, die dazu führt, dass dieser Dienst oder diese App den Webhook aufruft. Sie können beispielsweise eine Datei entfernen.
 
-Sie können auch die folgenden Schritte ausführen, um die Beispieldaten über die [!UICONTROL HTTP] > [!UICONTROL Anfrage stellen] -Modul.
+Sie können auch die folgenden Schritte ausführen, um die Beispieldaten über das Modul [!UICONTROL HTTP] > [!UICONTROL Anfrage stellen] zu senden.
 
-1. Erstellen Sie ein neues Szenario mit dem **[!UICONTROL HTTP]** > **[!UICONTROL Anfrage stellen]** Modul
+1. Erstellen Sie ein neues Szenario mit dem Modul **[!UICONTROL HTTP]** > **[!UICONTROL Anfrage stellen]** .
 
 1. Konfigurieren Sie das Modul mit den folgenden Werten:
 
@@ -118,19 +118,19 @@ Sie können auch die folgenden Schritte ausführen, um die Beispieldaten über d
 
    ![](assets/new-scenario-set-up-like-this-350x446.png)
 
-1. Öffnen Sie das Szenario mit der [!UICONTROL Webhooks] -Modul in einem separaten Browser-Tab oder -Fenster.
-1. Klicken Sie im Webhooks-Modul auf **[!UICONTROL Datenstruktur neu bestimmen]**.
+1. Öffnen Sie das Szenario mit dem Modul [!UICONTROL Webhooks] in einer separaten Browser-Registerkarte oder einem separaten Fenster.
+1. Klicken Sie im webhooks-Modul auf **[!UICONTROL Datenstruktur neu bestimmen]**.
 
    Sie müssen die Verknüpfung anderer Module nicht vom Webhooks-Modul aufheben.
 
-1. Wechseln Sie mit dem Szenario [!UICONTROL HTTP] und führen Sie es aus.
+1. Wechseln Sie mit dem Modul [!UICONTROL HTTP] zum Szenario und führen Sie es aus.
 1. Wechseln Sie mit dem Webhooks-Modul zurück zum Szenario.
 
-   A[!UICONTROL Erfolgreich ermittelt]&quot; bedeutet, dass das Modul die Datenstruktur erfolgreich ermittelt hat.
+   Die Meldung &quot;[!UICONTROL Erfolgreich bestimmt]&quot; bedeutet, dass das Modul die Datenstruktur erfolgreich ermittelt hat.
 
    ![](assets/successfully-determined-350x175.png)
 
-1. Klicken **[!UICONTROL OK]** , um die Datenstruktur zu speichern.
+1. Klicken Sie auf **[!UICONTROL OK]** , um die Datenstruktur zu speichern.
 
    Die Elemente des Webhooks sind jetzt im Zuordnungsbereich für die Verwendung mit nachfolgenden Modulen im Szenario verfügbar.
 
@@ -148,7 +148,7 @@ Wenn ein Webhook Daten erhält und kein aktives Szenario mit diesen Daten verbun
 
 [!DNL Workfront Fusion] validiert alle eingehenden Daten mit der ausgewählten Datenstruktur. Anschließend werden die Daten je nach den Einstellungen des Szenarios entweder zur Verarbeitung in der Warteschlange gespeichert oder sofort verarbeitet.
 
-Wenn ein Teil der Daten die Validierung nicht besteht, [!DNL Workfront Fusion] gibt einen 400-HTTP-Status-Code zurück und gibt im Text der HTTP-Antwort den Grund an, warum die eingehenden Daten bei den Validierungsprüfungen fehlgeschlagen sind. Wenn die Validierung der eingehenden Daten erfolgreich ist, gibt Workfront Fusion einen &quot;[!UICONTROL 200 Angenommen]&quot;.
+Wenn ein Teil der Daten die Validierung nicht besteht, gibt [!DNL Workfront Fusion] einen 400-HTTP-Statuscode zurück und gibt im Text der HTTP-Antwort den Grund an, warum die eingehenden Daten bei den Validierungsprüfungen fehlgeschlagen sind. Wenn die Validierung der eingehenden Daten erfolgreich ist, gibt Workfront Fusion den Status &quot;[!UICONTROL 200 Akzeptiert]&quot;zurück.
 
 * [[!UICONTROL Abfragezeichenfolge]](#query-string)
 * [[!UICONTROL Formulardaten]](#form-data)
@@ -198,7 +198,7 @@ Workfront Fusion
 ---generatedboundary
 ```
 
-Für den Empfang von Dateien, die mit `multipart/form-data`, müssen Sie eine Datenstruktur mit einer `collection` Typfeld, das die verschachtelten Felder enthält `name`, `mime`und `data`. Das Feld `name` ist `text` und enthält den Namen der hochgeladenen Datei. Die `mime` ist `text` und enthält eine Datei im MIME-Format. Das Feld `data` ist `buffer` und enthält Binärdaten für die zu übertragende Datei.
+Um mit `multipart/form-data` kodierte Dateien zu erhalten, müssen Sie eine Datenstruktur mit einem Feld vom Typ `collection` konfigurieren, das die verschachtelten Felder `name`, `mime` und `data` enthält. Das Feld `name` ist ein `text`-Typ und enthält den Namen der hochgeladenen Datei. Die `mime` ist ein `text` -Typ und enthält eine Datei im MIME-Format. Das Feld `data` ist ein `buffer` -Typ und enthält Binärdaten für die zu übertragende Datei.
 
 Weitere Informationen zum MIME-Format finden Sie unter [MIME-Module](../../workfront-fusion/apps-and-their-modules/mime.md).
 
@@ -216,63 +216,63 @@ Content-Type: application/json
 >
 >Wenn Sie auf die ursprüngliche JSON-Datei zugreifen möchten, aktivieren Sie die JSON-Weitergabe beim Einrichten des Webhooks.
 >
->1. Klicken **[!UICONTROL Hinzufügen]** , um einen neuen Webhook hinzuzufügen.
->1. Klicken **[!UICONTROL Erweiterte Einstellungen anzeigen]**.
->1. Klicken **[!UICONTROL JSON-Pass-Through]**.
+>1. Klicken Sie auf **[!UICONTROL Hinzufügen]** , um einen neuen Webhook hinzuzufügen.
+>1. Klicken Sie auf **[!UICONTROL Erweiterte Einstellungen anzeigen]**.
+>1. Klicken Sie auf **[!UICONTROL JSON-Pass-Through]**.
 >
 
 ## Webhook-Header
 
 Um auf die Header des Webhooks zuzugreifen, aktivieren Sie beim Einrichten des Webhooks die Option Anforderungsheader abrufen .
 
-1. Klicken **[!UICONTROL Hinzufügen]** , um einen neuen Webhook hinzuzufügen.
-1. Klicken **[!UICONTROL Erweiterte Einstellungen anzeigen]**.
-1. Klicken **[!UICONTROL Anforderungsheader abrufen]**.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]** , um einen neuen Webhook hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Erweiterte Einstellungen anzeigen]**.
+1. Klicken Sie auf **[!UICONTROL Anforderungsheader abrufen]**.
 
-Sie können einen bestimmten Kopfzeilenwert mit der Kombination aus `map()` und `get()` Funktionen.
+Sie können einen bestimmten Kopfzeilenwert mit der Kombination von `map()` - und `get()` -Funktionen extrahieren.
 
 >[!INFO]
 >
 >**Beispiel:**
 >
->Das folgende Beispiel zeigt eine Formel, die den Wert der `authorization` -Kopfzeile aus `Headers[]` Array. Die Formel wird in einem Filter verwendet, der den extrahierten Wert mit dem angegebenen Text vergleicht, um nur Webhooks zu übergeben, wenn eine Übereinstimmung vorliegt.
+>Das folgende Beispiel zeigt eine Formel, die den Wert der Kopfzeile `authorization` aus dem Array `Headers[]` extrahiert. Die Formel wird in einem Filter verwendet, der den extrahierten Wert mit dem angegebenen Text vergleicht, um nur Webhooks zu übergeben, wenn eine Übereinstimmung vorliegt.
 >
 >![](assets/set-up-a-filter-350x169.png)
 >
->Weitere Informationen zum Abrufen des Elements eines Arrays mit einem bestimmten Schlüssel finden Sie unter [Element eines Arrays mit einem bestimmten Schlüssel zuordnen](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) im Artikel [Informationen in Adobe Workfront Fusion von einem Modul zum anderen zuordnen](../../workfront-fusion/mapping/map-information-between-modules.md).
+>Weitere Informationen zum Abrufen des Elements eines Arrays mit einem bestimmten Schlüssel finden Sie unter [Ordnen Sie das Element eines Arrays mit einem bestimmten Schlüssel zu](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) im Artikel [Informationen von einem Modul einem anderen in Adobe Workfront Fusion zuordnen](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ## Antworten auf Webhooks
 
 Die Standardantwort auf einen Webhook-Aufruf ist der Text &quot;Akzeptiert&quot;. Die Antwort wird während der Ausführung des Benutzerspezifischen Webhook-Moduls an die App zurückgegeben, die den Webhook aufgerufen hat.
 
 * [Testen der Antwort auf einen Webhook](#test-the-response-to-a-webhook)
-* [HTML-Antwortbeispiel](#html-response-example)
+* [HTML Response example](#html-response-example)
 * [Beispiel einer Umleitung](#redirect-example)
 
 ### Testen der Antwort auf einen Webhook
 
-1. Fügen Sie die **[!UICONTROL Benutzerspezifischer Webhook]** -Modul in Ihrem Szenario.
+1. Schließen Sie das Modul **[!UICONTROL Benutzerspezifischer Webhook]** in Ihr Szenario ein.
 1. Fügen Sie dem Modul einen neuen Webhook hinzu.
 1. Kopieren Sie die Webhook-URL in die Zwischenablage.
 1. Führen Sie das Szenario aus.
 
-   Das Blitzsymbol auf der [!UICONTROL Benutzerspezifischer Webhook] ändert sich in Drehpunkte. Dies zeigt, dass das Modul jetzt auf den Webhook-Aufruf wartet.
+   Das Blitzsymbol im Modul [!UICONTROL Benutzerspezifischer Webhook] ändert sich in Drehpunkte. Dies zeigt, dass das Modul jetzt auf den Webhook-Aufruf wartet.
 
-1. Öffnen Sie ein neues Browser-Fenster, fügen Sie die kopierte URL in die Adressleiste ein und drücken Sie die Eingabetaste. **[!UICONTROL Eingabe]**.
+1. Öffnen Sie ein neues Browser-Fenster, fügen Sie die kopierte URL in die Adressleiste ein und drücken Sie **[!UICONTROL Enter]**.
 
-   Die [!UICONTROL Benutzerspezifischer Webhook] -Modul ausgelöst und der Browser zeigt eine neue Seite an.
+   Das Modul [!UICONTROL Benutzerspezifischer Webhook] wird ausgelöst und der Browser zeigt eine neue Seite an.
 
 Wenn Sie die Webhook-Antwort anpassen möchten, wenden Sie das Modul Webhook Response an.
 
-Die Konfiguration des Moduls umfasst zwei Felder: [!UICONTROL Status] und [!UICONTROL body].
+Die Konfiguration des Moduls umfasst zwei Felder: [!UICONTROL Status] und [!UICONTROL Textkörper].
 
-* Die [!UICONTROL Status] -Feld enthält HTTP-Antwortstatus-Codes wie 2xx für Erfolg (z. B. `200` für OK), 3xx für Umleitung (z. B. `307` für temporäre Weiterleitung), 4xx für Client-Fehler (z. B. `400` für fehlerhafte Anfragen) usw.
+* Das Feld [!UICONTROL Status] enthält HTTP-Antwortstatus-Codes wie 2xx für Erfolg (z. B. `200` für OK), 3xx für Umleitung (z. B. `307` für temporäre Umleitung), 4xx für Client-Fehler (z. B. `400` für fehlerhafte Anfragen) usw.
 
-* Die [!UICONTROL body] enthält alles, was vom Webhook-Aufruf akzeptiert wird. Dabei kann es sich um einfachen Text, HTML, XML, JSON usw. handeln.
+* Das Feld [!UICONTROL Hauptteil] enthält alles, was vom Webhook-Aufruf akzeptiert wird. Dabei kann es sich um einfachen Text, HTML, XML, JSON usw. handeln.
 
   >[!TIP]
   >
-  >Es wird empfohlen, `Content-Type` -Kopfzeile zum entsprechenden MIME-Typ: `text/plain` für einfachen Text, `text/html` für HTML, `application/json` für JSON, `application/xml` für XML usw. Weitere Informationen zu MIME-Typen finden Sie unter [MIME-Module](../../workfront-fusion/apps-and-their-modules/mime.md).
+  >Es wird empfohlen, die Kopfzeile `Content-Type` auf den entsprechenden MIME-Typ festzulegen: `text/plain` für Klartext, `text/html` für HTML, `application/json` für JSON, `application/xml` für XML usw. Weitere Informationen zu MIME-Typen finden Sie unter [MIME-Module](../../workfront-fusion/apps-and-their-modules/mime.md).
 
 Die Zeitüberschreitung für das Senden einer Antwort beträgt 40 Sekunden. Wenn die Antwort innerhalb dieses Zeitraums nicht verfügbar ist, gibt Workfront Fusion den Status &quot;200 Akzeptiert&quot;zurück.
 
@@ -282,7 +282,7 @@ Die Zeitüberschreitung für das Senden einer Antwort beträgt 40 Sekunden. Wenn
 >
 >**Beispiel:**
 >
->Konfigurieren Sie die [!UICONTROL Webhook-Antwort] -Modul wie folgt:
+>Konfigurieren Sie das Modul [!UICONTROL Webhook Response] wie folgt:
 >
 ><table style="table-layout:auto"> 
 &gt; <col> 
@@ -300,7 +300,7 @@ Die Zeitüberschreitung für das Senden einer Antwort beträgt 40 Sekunden. Wenn
 &gt;   <td role="rowheader"> <p>[!UICONTROL Benutzerdefinierte Kopfzeilen]</p> </td> 
 &gt;   <td> 
 &gt;    <ul> 
-&gt;     <li><strong>Schlüssel</strong>: Inhaltstyp</li> 
+&gt;     <li><strong>Schlüssel</strong>: Content-Typ</li> 
 &gt;     <li><strong>Wert</strong>: text/html</li> 
 &gt;    </ul> </td> 
 &gt;  </tr> 
@@ -317,7 +317,7 @@ Die Zeitüberschreitung für das Senden einer Antwort beträgt 40 Sekunden. Wenn
 
 >[!INFO]
 >
->**Beispiel:** Konfigurieren Sie die [!UICONTROL Webhook-Antwort] -Modul wie folgt:
+>**Beispiel:** Konfigurieren Sie das Modul [!UICONTROL Webhook Response] wie folgt:
 >
 ><table style="table-layout:auto"> 
 &gt; <col> 
@@ -331,7 +331,7 @@ Die Zeitüberschreitung für das Senden einer Antwort beträgt 40 Sekunden. Wenn
 &gt;   <td role="rowheader"> <p>[!UICONTROL Benutzerdefinierte Kopfzeilen]</p> </td> 
 &gt;   <td> 
 &gt;    <ul> 
-&gt;     <li><strong>[!UICONTROL Schlüssel]</strong>: Standort</li> 
+&gt;     <li><strong>[!UICONTROL Schlüssel]</strong>: Speicherort</li> 
 &gt;     <li><strong>[!UICONTROL Wert]</strong>: Die URL, zu der Sie umleiten möchten.</li> 
 &gt;    </ul> </td> 
 &gt;  </tr> 
@@ -354,8 +354,8 @@ Deaktivierte Webhooks werden automatisch gelöscht und abgemeldet, wenn sie mit 
 
 ### Fehlende Elemente im Zuordnungsbereich
 
-Wenn einige Elemente im Zuordnungsbereich bei der Einrichtung der Module fehlen, folgen Sie dem [!UICONTROL Webhooks] > [!UICONTROL Benutzerspezifischer Webhook] -Modul, klicken Sie auf die **[!UICONTROL Webhooks] > [!UICONTROL Benutzerspezifischer Webhook]** -Modul, um seine Einrichtung zu öffnen, und klicken Sie auf **[!UICONTROL Datenstruktur neu bestimmen]**:
+Wenn im Mapping-Bedienfeld bei der Einrichtung der Module einige Elemente fehlen, die dem Modul [!UICONTROL Webhooks] > [!UICONTROL Benutzerspezifischer Webhook] folgen, klicken Sie auf das Modul **[!UICONTROL Webhooks] > [!UICONTROL Benutzerspezifischer Webhook]** , um dessen Einrichtung zu öffnen, und klicken Sie auf **[!UICONTROL Datenstruktur neu bestimmen]**:
 
 ![](assets/redetermine-data-structure-btn-350x195.png)
 
-Führen Sie dann die im Abschnitt beschriebenen Schritte aus. [Datenstruktur des Webhooks konfigurieren](#configure-the-webhook-s-data-structure) in diesem Artikel.
+Führen Sie dann die im Abschnitt [Datenstruktur des Webhooks konfigurieren](#configure-the-webhook-s-data-structure) in diesem Artikel beschriebenen Schritte aus.

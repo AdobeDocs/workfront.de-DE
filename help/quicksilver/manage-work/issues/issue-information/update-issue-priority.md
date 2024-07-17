@@ -9,13 +9,13 @@ exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Priorität von Problemen aktualisieren
 
-Sie können eine Priorität für ein Problem definieren, um anzugeben, wie wichtig das Problem ist.
+Sie können eine Priorität für ein Problem definieren  um anzugeben, wie wichtig das Problem ist.
 
 Sie müssen über Verwaltungsberechtigungen für das Problem verfügen, um die Priorität des Problems zu ändern.  [Aktualisieren der Priorität eines Problems](#update-the-priority-of-an-issue).
 
@@ -41,7 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Problem verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Problem verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,8 +66,8 @@ In der folgenden Tabelle werden die einzelnen standardmäßigen Prioritätsbezei
  <col> 
  <thead> 
   <tr> 
-   <th>Prioritätsbezeichnung <br>(Kann geändert werden) </th> 
-   <th>Prioritätsnummer <br>(Kann nicht geändert werden.) </th> 
+   <th>Prioritätsbezeichnung <br>(kann geändert werden) </th> 
+   <th>Prioritätsnummer <br>(kann nicht geändert werden) </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -97,16 +97,16 @@ In der folgenden Tabelle werden die einzelnen standardmäßigen Prioritätsbezei
 ## Aktualisieren der Priorität eines Problems {#update-the-priority-of-an-issue}
 
 1. Gehen Sie zu dem Problem, dessen Priorität Sie ändern möchten.
-1. Klicks **Problemdetails** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Problemdetails** .
 
-   Die **Übersicht** -Abschnitt sollte standardmäßig angezeigt werden.
+   Der Abschnitt **Überblick** sollte standardmäßig angezeigt werden.
 
-1. Klicken Sie auf **Priorität** im Feld **Basisinformationen** Bereich.
+1. Klicken Sie im Bereich **Grundlegende Informationen** auf das Feld **Priorität** .
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
-1. Wählen Sie einen Wert für **Priorität** -Feld.
+1. Wählen Sie einen Wert für das Feld **Priorität** aus.
 
    Je nachdem, wie Ihr Workfront-Administrator Prioritäten in Ihrem System konfiguriert hat, können die Optionen variieren.
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.

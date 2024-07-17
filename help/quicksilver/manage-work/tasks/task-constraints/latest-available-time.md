@@ -54,15 +54,15 @@ Die aktuelle Zeitbeschränkung unterscheidet sich von der so spät wie möglich 
 
 In diesem Fall:
 
-* **Neueste verfügbare Zeit:** Die Verwendung der Zeitbeschränkung &quot;Neueste verfügbare Zeit&quot;für die Vorgängeraufgabe gibt der flexiblen Beschränkung des Nachfolgers Priorität.
+* **Neueste verfügbare Zeit:** Durch die Verwendung der Zeitbegrenzung &quot;Neueste verfügbare Zeit&quot;für die Vorgängeraufgabe erhält die flexible Beschränkung des Nachfolgers Priorität.
 
-  **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A verfügt über die aktuelle Zeitbegrenzung und Aufgabe B über die Beschränkung &quot;Sofort wie möglich&quot;. In diesem Fall wird Aufgabe A so nah wie möglich am Projektstart geplant.
+  **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die neueste verfügbare Zeitbegrenzung und Aufgabe B die so bald wie möglich einschränkende Funktion. In diesem Fall wird Aufgabe A so nah wie möglich am Projektstart geplant.
 
   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Spätestens** In diesem Szenario räumt die Verwendung der Beschränkung So spät wie möglich für die Vorgängeraufgabe der Vorgängeraufgabe die Priorität ein.
+* **So spät wie möglich:** In diesem Szenario räumt die Verwendung der Beschränkung So spät wie möglich für die Vorgängeraufgabe der Vorgängeraufgabe die Priorität der Vorgängeraufgabe ein.
 
-  **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die Beschränkung &quot;So spät wie möglich&quot;und Aufgabe B die Beschränkung &quot;So bald wie möglich&quot;. In diesem Fall wird Aufgabe A so nah wie möglich am Ende des Projekts geplant.
+  **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die so spät wie möglich Beschränkung und Aufgabe B hat die so bald wie möglich Einschränkung. In diesem Fall wird Aufgabe A so nah wie möglich am Ende des Projekts geplant.
 
   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 

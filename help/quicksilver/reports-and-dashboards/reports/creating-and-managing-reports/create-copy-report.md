@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,20 +51,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Wenn Sie eine Kopie eines Berichts erstellen möchten, dessen Eigentümer Sie sind, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
 
-1. Klicks **Berichte**, dann **Alle Berichte**.
+1. Klicken Sie auf **Berichte** und dann auf **Alle Berichte**.
 1. Öffnen Sie einen Bericht.
-1. Klicks **Berichtaktionen**, dann **Kopieren**.
+1. Klicken Sie auf **Berichtaktionen** und dann auf **Kopieren**.
 
    >[!TIP]
    >
    >Wenn es sich bei dem Bericht um einen Standardbericht handelt, wird die Option Kopieren nicht im Menü Berichtaktionen angezeigt.\
-   >Informationen zum Erstellen einer Kopie eines Standardberichts finden Sie unter [Neue Berichtversion erstellen](#create-a-new-version-of-a-report).
+   >Informationen zum Erstellen einer Kopie eines Standardberichts finden Sie unter [Erstellen einer neuen Version eines Berichts](#create-a-new-version-of-a-report).
 
    ![Bericht kopieren](assets/nwe-fulllistofreportactions-2022.png)
 
-   Eine Kopie des ursprünglichen Berichts wird mit dem Standardnamen *Kopie von [Name des ursprünglichen Berichts]*. Zum Beispiel hätte der Bericht &quot;Abgeschlossene Aufgaben im 4. Quartal&quot;den Namen &quot;Kopie der abgeschlossenen Aufgaben im 4. Quartal&quot;.
+   Eine Kopie des ursprünglichen Berichts wird mit dem Standardnamen *Kopie von [Name des ursprünglichen Berichts]* erstellt. Zum Beispiel hätte der Bericht &quot;Abgeschlossene Aufgaben im 4. Quartal&quot;den Namen &quot;Kopie der abgeschlossenen Aufgaben im 4. Quartal&quot;.
 
 1. (Optional) Um den Bericht umzubenennen, geben Sie einen neuen Namen ein.
 
@@ -72,46 +72,46 @@ Wenn Sie eine Kopie eines Berichts erstellen möchten, dessen Eigentümer Sie si
    >
    >Wenn Sie die Auswahl des Titels aufheben, bevor Sie den neuen Namen eingeben, wählen Sie den Berichtstitel aus, löschen Sie den Namen und geben Sie den neuen Namen ein.
 
-1. (Optional) Um die neue Version des Berichts für andere Benutzer freizugeben, klicken Sie auf **Berichtaktionen**, dann **Freigabe**.
+1. (Optional) Um die neue Version des Berichts für andere Benutzer freizugeben, klicken Sie auf **Berichtaktionen** und dann auf **Freigabe**.
 
    >[!NOTE]
    >
    >Die Freigabeinformationen werden nicht von der Originalversion in den kopierten Bericht übertragen.\
-   >Informationen dazu, wie Sie sehen, für wen der vorherige Bericht freigegeben wurde, finden Sie unter [Erstellen eines Berichts über Berichtsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md#identify).
+   >Informationen dazu, wie Sie sehen, für wen der vorherige Bericht freigegeben wurde, finden Sie unter [Erstellen eines Berichts über Berichterstellungsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md#identify).
 
 1. (Optional) Wenn Sie über Verwaltungsberechtigungen für den ursprünglichen Bericht verfügen und der Originalbericht nicht mehr benötigt wird, können Sie ihn löschen, um unnötige duplizierte Berichte in Workfront zu entfernen.
 
    Gehen Sie wie folgt vor, um den ursprünglichen Bericht zu löschen:
 
    1. Navigieren Sie zum Bericht.
-   1. Klicks **Berichtaktionen**, dann **Löschen**.
+   1. Klicken Sie auf **Berichtaktionen** und dann auf **Löschen**.
 
-   1. Klicks **Ja, löschen** , um zu bestätigen, dass Sie den Bericht löschen möchten.
+   1. Klicken Sie auf **Ja, löschen Sie ihn** , um zu bestätigen, dass Sie den Bericht löschen möchten.
 
 ## Neue Berichtversion erstellen {#create-a-new-version-of-a-report}
 
 Wenn Sie eine Kopie eines Standardberichts erstellen möchten, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
 
-1. Klicks **Berichte**, dann **Alle Berichte**.
+1. Klicken Sie auf **Berichte** und dann auf **Alle Berichte**.
 1. Klicken Sie auf den Namen eines Standardberichts, um ihn zu öffnen.
-1. Klicks **Berichtaktionen**, dann **Bearbeiten**.
+1. Klicken Sie auf **Berichtaktionen** und dann auf **Bearbeiten**.
 
    ![Bericht bearbeiten](assets/nwe-reportactionsfordefaultreport-2022.png)
 
 1. Nehmen Sie in den folgenden Registerkarten des Berichts die erforderlichen Änderungen vor:
 
-   * **Spalten (Ansicht)**: Weitere Informationen zum Anpassen von Ansichten finden Sie im Artikel [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * **Spalten (Ansicht)**: Weitere Informationen zum Anpassen von Ansichten finden Sie im Artikel [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
    * **Gruppierungen**: Weitere Informationen zum Anpassen von Gruppierungen finden Sie im Artikel [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
    * **Filter**: Weitere Informationen zum Anpassen von Filtern finden Sie im Artikel [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-   * **Diagramm**: Weitere Informationen zum Anpassen eines Berichtdiagramms finden Sie im Artikel [Diagramm zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+   * **Diagramm**: Weitere Informationen zum Anpassen eines Berichtdiagramms finden Sie im Artikel [Hinzufügen eines Diagramms zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) .
 
 1. Klicken Sie oben rechts auf **Berichtseinstellungen**.
-1. Im **Berichttitel** einen neuen Namen für den Bericht eingeben.
-1. Klicks **Fertig**.
-1. Klicks **Als neuen Bericht speichern**.
+1. Geben Sie im Feld **Berichttitel** einen neuen Namen für den Bericht ein.
+1. Klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Als neuen Bericht speichern**.
 
    ![](assets/nwe-save-as-new-report-350x220.png)
 
-1. (Optional) Um die neue Version des Berichts für andere Benutzer freizugeben, klicken Sie auf **Berichtaktionen**, dann **Freigabe**.
+1. (Optional) Um die neue Version des Berichts für andere Benutzer freizugeben, klicken Sie auf **Berichtaktionen** und dann auf **Freigabe**.

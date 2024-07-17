@@ -19,7 +19,7 @@ ht-degree: 17%
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Glossar der Adobe Workfront-Terminologie](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [Adobe Workfront-Browseranforderungen](../workfront-basics/workfront-browser-requirements.md)
+* [Browseranforderungen für Adobe Workfront](../workfront-basics/workfront-browser-requirements.md)
 * [Unterstützte Sprachen in Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
 * [Navigieren in Adobe Workfront: Artikelindex](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [Startseite](../workfront-basics/using-home/home.md)

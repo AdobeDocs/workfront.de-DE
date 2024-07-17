@@ -9,13 +9,13 @@ exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Aktualisierung des Zeitdauer-Typs einer Aufgabe
 
-Der Aufgabentyp gibt die Beziehung zwischen der Anzahl der einer Aufgabe zugewiesenen Ressourcen, dem Gesamtaufwand und der Gesamtdauer der Aufgabe an. Weitere Informationen finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Der Aufgabentyp gibt die Beziehung zwischen der Anzahl der einer Aufgabe zugewiesenen Ressourcen, dem Gesamtaufwand und der Gesamtdauer der Aufgabe an. Weitere Informationen finden Sie unter [Übersicht über die Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Zugriffsanforderungen
 
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen, um die Dauer einer Aufgabe zu ändern:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über Folgendes verfügen, um die Dauer einer Aufgabe zu ändern:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf die Aufgabe verwalten </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf die Aufgabe verwalten </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,16 +48,16 @@ Sie müssen über Folgendes verfügen, um die Dauer einer Aufgabe zu ändern:
 
 ## Aktualisierung des Zeitdauer-Typs einer Aufgabe
 
-Neben der Aktualisierung des Aufgabentyps (wie in diesem Artikel beschrieben) können Sie auch den Dauer-Typ aktualisieren, wenn Sie eine Aufgabe bearbeiten oder erweiterte Aufgaben zuweisen. Weitere Informationen finden Sie unter:
+Neben der Aktualisierung des Aufgabentyps (wie in diesem Artikel beschrieben) können Sie auch den Dauer-Typ aktualisieren, wenn Sie eine Aufgabe bearbeiten oder erweiterte Aufgaben zuweisen. Weitere Informationen finden Sie unter
 
 * [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 
 So aktualisieren Sie die Dauer einer Aufgabe:
 
-1. Klicken **Hauptmenü** > **Projekte** und klicken Sie auf ein Projekt, um darauf zuzugreifen.
-1. Klicken Sie auf **Aufgaben** im linken Bereich .
-1. Klicken **Aufgabendetails** Klicken Sie im linken Bereich und dann im Bereich &quot;Übersicht&quot;auf **Dauer Typ**.
+1. Klicken Sie auf **Hauptmenü** > **Projekte** und dann auf ein Projekt, um darauf zuzugreifen.
+1. Klicken Sie im linken Bereich auf den Abschnitt **Aufgaben** .
+1. Klicken Sie im linken Bereich auf **Aufgabendetails** und klicken Sie dann im Übersichtsbereich auf **Dauer-Typ**.
 
    ![](assets/duration-type-all-options-on-overview-350x155.png)
 
@@ -70,4 +70,4 @@ So aktualisieren Sie die Dauer einer Aufgabe:
    | Berechnete Zuweisung | Weitere Informationen finden Sie unter [Übersicht über den Durationstyp: Berechnete Zuweisung](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
    | Einfach | Weitere Informationen finden Sie unter [Übersicht über den Durationstyp: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-1. Klicken **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.

@@ -35,11 +35,11 @@ Beachten Sie beim Arbeiten mit Filtern, Ansichten und Gruppierungen Folgendes:
 * Berichte in Workfront sind für ein Objekt spezifisch. Sie müssen Ihr Hauptobjekt für einen Bericht definieren, bevor Sie den Bericht erstellen können. Daher sind alle Berichterstellungselemente objektspezifisch.
 * Ihr Workfront-Administrator muss Ihnen Zugriff auf Filter, Ansichten und Gruppierungen in Ihrer Zugriffsebene gewähren, damit Sie diese in Listen und Berichten anzeigen oder bearbeiten können.
 
-  Informationen zum Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen finden Sie unter [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Informationen zum Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen finden Sie unter [Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Ihr Workfront-Administrator muss Ihnen Zugriff auf Berichte, Dashboards und Kalender in Ihrer Zugriffsebene gewähren, damit Sie Berichte anzeigen oder bearbeiten können.
 
-  Informationen zur Gewährung des Zugriffs auf Berichte, Dashboards und Kalender finden Sie unter [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Informationen zur Gewährung des Zugriffs auf Berichte, Dashboards und Kalender finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Wenn Sie einen Filter, eine Ansicht oder eine Gruppierung in einem Bericht oder einer Liste auswählen, behält Workfront diese Auswahl für die Listen dieses Objekts auch dann bei, wenn Sie sich abmelden oder Ihren Browser schließen. Wenn Sie beispielsweise eine bestimmte Ansicht für einen Aufgabenbericht auswählen, wird diese Auswahl für andere Aufgabenlisten angezeigt, z. B. die Liste der Aufgaben für ein Projekt.
 
@@ -69,7 +69,7 @@ Einige Attribute von Ansichten sind:
 * Sie können nach Ausführung eines Berichts über das Dropdown-Feld Ansicht weitere Ansichten anwenden.
 * Zusätzliche Ansichten ersetzen vorübergehend die bei der Berichterstellung definierte Ansicht. Die Standardansicht wird jedoch angezeigt, wenn Sie das nächste Mal zum Bericht zurückkehren.
 
-  Weitere Informationen zu Ansichten finden Sie im Artikel [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Weitere Informationen zu Ansichten finden Sie im Artikel [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Gruppierungen
 
@@ -95,8 +95,8 @@ Einige Attribute von Gruppierungen sind:
 
 Zusätzlich zu Filtern, Ansichten und Gruppierungen können Sie auch die folgenden Elemente zu einem Bericht hinzufügen:
 
-* **Aufforderung**: Ein offener Filter, der bei jeder Ausführung eines Berichts unterschiedlich angepasst und angewendet werden kann.\
-  Weitere Informationen zu Eingabeaufforderungen finden Sie im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **Eingabeaufforderung**: Ein offener Filter, der bei jeder Ausführung eines Berichts unterschiedlich angepasst und angewendet werden kann.\
+  Weitere Informationen zu Eingabeaufforderungen finden Sie im Artikel [Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 * **Diagramm**: Sie können Ihre Berichte erweitern, indem Sie ihnen ein Diagramm hinzufügen und die Informationen visuell darstellen.\
-  Weitere Informationen zu Diagrammen in Berichten finden Sie im Artikel [Diagramm zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Weitere Informationen zu Diagrammen in Berichten finden Sie im Artikel [Hinzufügen eines Diagramms zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).

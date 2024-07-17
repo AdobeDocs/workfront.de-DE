@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,13 +77,13 @@ Um festzustellen, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt, übe
 
 ### Benutzerattribute im klassischen Erlebnis zuordnen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **System** > **Single Sign-On (SSO)**.
+1. Klicken Sie auf **System** > **Single Sign-On (SSO)**.
 
-1. Im **Typ** Dropdown, klicken Sie auf **SAML 2.0**.
+1. Klicken Sie in der Dropdown-Liste **Typ** auf **SAML 2.0**.
 
-1. Klicks **Benutzerattribute zuordnen**.
+1. Klicken Sie auf **Benutzerattribute zuordnen**.
 
    ![](assets/map-user-attributes.png)
 
@@ -125,28 +125,28 @@ Um festzustellen, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt, übe
 
       ![](assets/rule-fields.png)
 
-   Sie können auf **Regel hinzufügen** , um dem Attribut weitere Regeln hinzuzufügen.
+   Sie können auf **Regel hinzufügen** klicken, um dem Attribut weitere Regeln hinzuzufügen.
 
 1. (Optional) Um weitere Benutzerattribute zuzuordnen, klicken Sie auf **Zuordnung hinzufügen** und wiederholen Sie die Schritte 6 bis 7.
 1. Klicken Sie auf **Speichern**.
 
 ### Zuordnen von Benutzerattributen zum einheitlichen Adobe-Erlebnis
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-left.png) Klicken Sie in der linken oberen Ecke von Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben links in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-left.png)
 
-1. Klicks **System** > **Single Sign-On (SSO)**.
+1. Klicken Sie auf **System** > **Single Sign-On (SSO)**.
 
-1. Wählen Sie die **Adobe** Registerkarte.
+1. Wählen Sie die Registerkarte **Adobe** aus.
 
-1. (Optional und bedingt) Wenn in Ihrem Unternehmen die Zuordnung von Attributen im klassischen Erlebnis konfiguriert wurde und Sie diese Zuordnung in das einheitliche Erlebnis auf Adobe kopieren möchten, klicken Sie auf **Zuordnungen migrieren**. Sie können diese Zuordnungen dann verwerfen, löschen oder bearbeiten.
+1. (Optional und bedingt) Wenn für Ihr Unternehmen die Zuordnung von Attributen im klassischen Erlebnis konfiguriert wurde und Sie diese Zuordnung in das einheitliche Erlebnis auf Adobe kopieren möchten, klicken Sie auf **Zuordnungen migrieren**. Sie können diese Zuordnungen dann verwerfen, löschen oder bearbeiten.
 
    >[!NOTE]
    >
    >Es wird empfohlen, Zuordnungen beim ersten Konfigurieren von Zuordnungen im einheitlichen Erlebnis Adobe zu migrieren. Es schadet nicht, sie später erneut zu migrieren, aber es ist nicht nötig, sie mehr als einmal zu migrieren.
 
-1. Um eine neue Zuordnung zu erstellen, klicken Sie auf **Zuordnung hinzufügen**.
+1. Um eine neue Attributzuordnung zu erstellen, klicken Sie auf **Zuordnung hinzufügen**.
 
-1. Klicken Sie auf den Pfeil neben dem Workfront-Feldnamen und wählen Sie die [!DNL Workfront] -Feld, das Sie zuordnen möchten.
+1. Klicken Sie auf den Pfeil neben dem Workfront-Feldnamen und wählen Sie das Feld [!DNL Workfront] aus, das Sie zuordnen möchten.
 
 1. (Optional) Wenn Sie mehr als eine Regel für ein bestimmtes Feld erstellen möchten, klicken Sie auf den Pfeil neben **Immer** und wählen Sie den Operator aus, den die Regel verwenden soll.
 
@@ -154,7 +154,7 @@ Um festzustellen, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt, übe
 
    >[!NOTE]
    >
-   >Die Benutzer `Is Truthy` und `Is Falsy` erfordern keine Werte.
+   >Die Operatoren `Is Truthy` und `Is Falsy` benötigen keine Werte.
 
 1. Wählen Sie aus, ob Sie den Wert eines Attributs in Ihrem Identitätsmanager auf das Workfront-Feld anwenden möchten oder ob Sie einen bestimmten Konstantenwert anwenden möchten.
 
@@ -165,11 +165,11 @@ Um festzustellen, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt, übe
    >[!IMPORTANT]
    >
    > * Jede Regel unterhalb einer Immer -Regel wird ignoriert. Wenn Sie über eine Regel vom Typ Immer verfügen, müssen Sie sie an den unteren Rand der Regelliste verschieben. Sie können Regeln in der Liste verschieben, indem Sie auf das Menü mit den drei Punkten rechts von der Regel klicken und die Regel nach oben oder unten verschieben.
-   > * Um eine Regel in der Mitte der Liste zu erstellen, klicken Sie auf das Menü mit den drei Punkten neben der Regel, die über oder unter der neuen Regel liegen soll, und wählen Sie **Regel oben hinzufügen** oder **Regel unten hinzufügen**.
+   > * Um eine Regel in der Mitte der Liste zu erstellen, klicken Sie auf das Menü mit den drei Punkten neben der Regel, die über oder unter der neuen Regel liegen soll, und wählen Sie **Regel über** oder **Regel darunter hinzufügen** aus.
 
-1. Um eine Regel zu löschen, klicken Sie auf das Menü mit drei Punkten neben der Regel, die Sie löschen möchten, und wählen Sie **Löschen**.
-1. Um eine Zuordnung zu löschen, klicken Sie auf die **Löschen** -Symbol auf der Karte für diese Zuordnung.
+1. Um eine Regel zu löschen, klicken Sie auf das Menü mit drei Punkten neben der Regel, die Sie löschen möchten, und wählen Sie **Löschen** aus.
+1. Um eine Zuordnung zu löschen, klicken Sie auf das Symbol **Löschen** auf der Karte für diese Zuordnung.
 
-1. Scrollen Sie zum Speichern zum oberen Seitenrand und klicken Sie auf **Speichern**.
+1. Scrollen Sie zum Speichern zum oberen Rand der Seite und klicken Sie auf **Speichern**.
 
 

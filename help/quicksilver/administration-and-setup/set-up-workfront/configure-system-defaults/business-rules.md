@@ -57,7 +57,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,13 +67,13 @@ Das Format einer Geschäftsregel lautet &quot;WENN die definierte Bedingung erf�
 
 Die Syntax für die Eigenschaften und anderen Funktionen einer Geschäftsregel entspricht der Syntax für ein berechnetes Feld in einem benutzerdefinierten Formular. Weitere Informationen zur Syntax finden Sie unter [Berechnete Felder mit dem Formularentwickler hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Weitere Informationen zu IF-Anweisungen finden Sie unter [Übersicht über &quot;IF&quot;-Anweisungen](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Informationen zu IF-Anweisungen finden Sie unter [&quot;IF&quot;-Anweisungen - Übersicht](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Weitere Informationen zu nutzerbasierten Platzhaltern finden Sie unter [Verwenden benutzerbasierter Platzhalter zum Generalisieren von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Informationen zu datumsbasierten Platzhaltern finden Sie unter [Verwenden datumsbasierter Platzhalter zum Generalisieren von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-In Geschäftsregeln ist auch ein API-Platzhalter verfügbar. Sie können `$$ISAPI` , um die Regel nur in der Benutzeroberfläche oder nur in der API Trigger.
+In Geschäftsregeln ist auch ein API-Platzhalter verfügbar. Sie können `$$ISAPI` verwenden, um die Regel nur in der Benutzeroberfläche oder nur in der API Trigger.
 
 Einige einfache Geschäftsregelszenarien sind:
 
@@ -98,24 +98,24 @@ IF(
 
 {{step-1-to-setup}}
 
-1. Klicks **Geschäftsregeln** im linken Bereich.
-1. Klicks **Neue Geschäftsregel**.
+1. Klicken Sie im linken Bereich auf **Geschäftsregeln** .
+1. Klicken Sie auf **Neue Geschäftsregel**.
 1. Wählen Sie den Objekttyp aus, dem die Geschäftsregel zugewiesen werden soll, und klicken Sie dann auf **Weiter**.
 
-   ![Auswählen eines Objekts](assets/object-for-business-rule2.png)
+   ![Objekt auswählen](assets/object-for-business-rule2.png)
 
-1. Geben Sie die **Name** für die Geschäftsregel.
-1. Im **Ist aktiv** auswählen, ob die Regel beim Speichern aktiv sein soll.
+1. Geben Sie den **Namen** für die Geschäftsregel ein.
+1. Wählen Sie im Feld **Ist aktiv** aus, ob die Regel beim Speichern aktiv sein soll.
 
-   Wenn Sie **Nein**, wird die Regel als inaktiv gespeichert und Sie können sie später aktivieren.
+   Wenn Sie **Nein** auswählen, wird die Regel als inaktiv gespeichert und Sie können sie später aktivieren.
 
-1. Wählen Sie eine **Trigger** für die Geschäftsregel. Die Optionen sind:
+1. Wählen Sie einen **Trigger** für die Geschäftsregel aus. Die Optionen sind:
 
    * **Bei der Objekterstellung:** Die Regel wird angewendet, wenn ein Benutzer versucht, ein Objekt zu erstellen.
-   * **Bei der Objektbearbeitung:** Die Regel wird angewendet, wenn ein Benutzer versucht, ein Objekt zu bearbeiten.
+   * **Bei Objektbearbeitung:** Die Regel wird angewendet, wenn ein Benutzer versucht, ein Objekt zu bearbeiten.
    * **Beim Löschen eines Objekts:** Die Regel wird angewendet, wenn ein Benutzer versucht, ein Objekt zu löschen.
 
-1. (Optional) Geben Sie einen **Beschreibung** der Geschäftsregel und was passiert, wenn sie angewendet wird.
+1. (Optional) Geben Sie eine **Beschreibung** der Geschäftsregel ein und geben Sie an, was passiert, wenn sie angewendet wird.
 1. Erstellen Sie die Formel im Formeleditor in der Mitte des Dialogfelds &quot;Geschäftsregel&quot;.
 
    Das Format einer Geschäftsregel lautet &quot;WENN die definierte Bedingung erfüllt ist, wird der Benutzer an der Aktion für das Objekt gehindert und die Nachricht wird angezeigt.&quot;
@@ -133,13 +133,13 @@ IF(
 
    Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für Geschäftsregeln](#scenarios-for-business-rules) in diesem Artikel.
 
-1. (Optional) Die Formel verwenden **Ausdruck** und **Felder** im rechten Bereich, um beim Erstellen der Regel zu helfen.
+1. (Optional) Verwenden Sie die Formel **Ausdrücke** und **Felder** im rechten Bereich, um beim Erstellen der Regel behilflich zu sein.
 
    Suchen Sie nach einem Ausdruck oder Feld, um die Liste der verfügbaren Elemente einzuschränken.
 
    Die Liste der verfügbaren Felder ist auf Felder beschränkt, die sich auf den Objekttyp für die Geschäftsregel beziehen.
 
-1. Klicks **Speichern** wenn Sie mit der Erstellung der Geschäftsregel fertig sind.
+1. Klicken Sie auf **Speichern** , wenn Sie mit dem Erstellen der Geschäftsregel fertig sind.
 
 >[!NOTE]
 >
@@ -152,5 +152,5 @@ Wenn eine Geschäftsregel inaktiv ist, zeigt das Feld Ist aktiv in der Liste der
 So aktivieren Sie eine Geschäftsregel:
 
 1. Wählen Sie die Geschäftsregel in der Regelliste aus und klicken Sie auf das Symbol Bearbeiten .
-1. Auswählen **Ja** für **Ist aktiv** im Dialog mit Geschäftsregeln.
+1. Wählen Sie **Ja** für **Ist aktiv** im Dialogfeld für Geschäftsregeln.
 1. Klicken Sie auf **Speichern**.

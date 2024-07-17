@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '"Task Constraint - Übersicht: Beenden nicht später als'''
+title: "Task Constraint overview: Finish No Later Than"
 description: '"Finish No Later Than (FNLT)"ist eine Aufgabenbegrenzung, die den Abschluss einer Aufgabe vor dem angegebenen Datum plant.'
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbeschränkungen: Finish No Later Than
+# Übersicht über Aufgabenbegrenzungen: Später beenden
 
 &quot;Finish No Later Than (FNLT)&quot;ist eine Aufgabenbegrenzung, die den Abschluss einer Aufgabe vor dem angegebenen Datum plant.
 
@@ -35,9 +35,10 @@ Beachten Sie Folgendes bei Verwendung der Beschränkung &quot;Finish No Later Th
 
          * Wenn das Beschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbegrenzung in &quot;So spät wie möglich&quot;.
          * Wenn das Beschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts entsprechend dem Startbegrenzungsdatum der Aufgabe.
+
       * Wenn das Beschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Zeitplan des Projekts keine Änderungen an der Aufgabenbegrenzung oder den Projektzeitpunkten.
 
-   Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 

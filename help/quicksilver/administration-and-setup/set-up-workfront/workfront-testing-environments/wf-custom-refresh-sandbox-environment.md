@@ -3,7 +3,7 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Die [!DNL Adobe Workfront] Benutzerdefinierte Sandbox-Umgebung aktualisieren
+title: Die Sandbox-Umgebung  [!DNL Adobe Workfront]  Benutzerdefinierte Aktualisierung
 description: Die Sandbox für benutzerdefinierte Aktualisierungen ist eine Umgebung, in der Sie Daten aus Ihrer Produktionsumgebung testen und verwenden können. Es ist auch ideal für Trainings und die Bestimmung der Einrichtungsfunktionalität.
 author: Caroline
 feature: System Setup and Administration
@@ -16,20 +16,20 @@ ht-degree: 0%
 
 ---
 
-# Die [!DNL Adobe Workfront] Benutzerdefinierte Sandbox-Umgebung aktualisieren
+# Die [!DNL Adobe Workfront] benutzerdefinierte Aktualisierungs-Sandbox-Umgebung
 
 Die Sandbox für benutzerdefinierte Aktualisierungen ist eine Umgebung, in der Sie Daten aus Ihrer Produktionsumgebung testen und verwenden können. Es ist auch ideal für Trainings und die Bestimmung der Einrichtungsfunktionalität.
 
 >[!NOTE]
 >
->Dies unterscheidet sich von der Vorschau-Sandbox, bei der es sich auch um eine Testumgebung handelt, die Ihre [!DNL Workfront] Produktionsumgebung.
+>Dies unterscheidet sich von der Vorschau-Sandbox, bei der es sich auch um eine Testumgebung handelt, die Ihre [!DNL Workfront] -Produktionsumgebung repliziert.
 >
 >* Neue Funktionen werden in die Vorschau-Sandbox eingeführt, bevor sie in der Produktion verfügbar werden.
 >* Neue Funktionen werden nicht in die Sandbox für benutzerdefinierte Aktualisierung eingeführt, bevor sie in der Produktion verfügbar werden.
 >
 >  Darüber hinaus fallen zusätzliche Kosten an, um die Sandbox für benutzerdefinierte Aktualisierung zu erhalten, die nicht für die Sandbox &quot;Vorschau&quot;erforderlich ist.
 >
->  Weitere Informationen zur Vorschau-Sandbox finden Sie unter [Die [!DNL Adobe Workfront] Vorschau der Sandbox-Umgebung](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Weitere Informationen zur Vorschau-Sandbox finden Sie unter [Die  [!DNL Adobe Workfront] Sandbox-Umgebung in der Vorschau anzeigen](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 
 ## Zugriffsanforderungen
@@ -48,7 +48,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!DNL Workfront] Lizenz</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>Sie müssen [!DNL Workfront] Administrator. Informationen über [!DNL Workfront] Administratoren, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>[!UICONTROL Plan] </p> <p>Sie müssen ein [!DNL Workfront] -Administrator sein. Weitere Informationen zu [!DNL Workfront] -Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für einen Benutzer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Support-Paket</td> 
@@ -67,7 +67,7 @@ Die Sandbox Benutzerdefinierte Aktualisierung enthält Ihre tatsächlichen Produ
 >
 >* Sie können keine Aktualisierung für den aktuellen Tag planen. Wenn heute beispielsweise der 1. Juni ist, ist der früheste Tag, an dem Sie eine Aktualisierung planen können, der 2. Juni.
 >* Die geplante Aktualisierung erfolgt manchmal nachts, basierend auf dem Cluster des Benutzers (US-Cluster werden in den USA nachts aktualisiert). Die spezifische Zeit ist aufgrund anderer Kunden in der Warteschlange und der Aktualisierungsmenge der Daten unvorhersehbar. Wenn die Warteschlange viele große Kunden hat, wird die Aktualisierung möglicherweise erst zu einem späteren Zeitpunkt an diesem Tag oder am nächsten Tag ausgeführt.
->* Ihre Sandbox für benutzerdefinierte Aktualisierungen verfügt immer über dieselben Produktfunktionen wie Ihre Produktionsumgebung. Wenn Sie jedoch Ihre Sandbox für benutzerdefinierte Aktualisierung aktualisieren, wird das Branding nur für die Hintergrundfarbe des Anmeldebildschirms beibehalten. Die Logos auf dem Anmeldebildschirm und der Navigationsleiste werden auf [!DNL Workfront] -Standardeinstellungen sowie alle Branding-Bilder, die Sie vor der Aktualisierung geändert haben, werden nicht angezeigt.
+>* Ihre Sandbox für benutzerdefinierte Aktualisierungen verfügt immer über dieselben Produktfunktionen wie Ihre Produktionsumgebung. Wenn Sie jedoch Ihre Sandbox für benutzerdefinierte Aktualisierung aktualisieren, wird das Branding nur für die Hintergrundfarbe des Anmeldebildschirms beibehalten. Die Logos für den Anmeldebildschirm und die Navigationsleiste werden auf die Standardwerte [!DNL Workfront] zurückgesetzt, und alle Branding-Bilder, die Sie vor der Aktualisierung geändert haben, werden nicht angezeigt.
 >
 
 
@@ -80,19 +80,19 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 ## Zugriff auf die Sandbox für benutzerdefinierte Aktualisierungen über Ihre Produktionsumgebung {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
-Als [!DNL Workfront] Administrator können Sie über Ihre Produktionsumgebung auf Ihre Sandbox für benutzerdefinierte Aktualisierungen zugreifen.
+Als [!DNL Workfront] -Administrator können Sie über Ihre Produktionsumgebung auf Ihre Sandbox für benutzerdefinierte Aktualisierungen zugreifen.
 
 >[!NOTE]
 >
->Wenn Ihr Konto auf Cluster 4 (EMEA-Cluster) basiert, können Sie nicht über die Produktionsumgebung auf Ihre Sandbox für benutzerdefinierte Aktualisierung zugreifen. Weitere Informationen dazu, wie Sie auf Ihre benutzerdefinierte Aktualisierungs-Sandbox zugreifen können, wenn Sie ein Konto auf Cluster 4 haben, finden Sie unter [Zugriff auf die Sandbox für benutzerdefinierte Aktualisierung für Konten auf Cluster 4 (EMEA-Konten)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [Zugriff auf die Sandbox für benutzerdefinierte Aktualisierung für Konten auf Cluster 4 (EMEA-Konten)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
+>Wenn Ihr Konto auf Cluster 4 (EMEA-Cluster) basiert, können Sie nicht über die Produktionsumgebung auf Ihre Sandbox für benutzerdefinierte Aktualisierung zugreifen. Weitere Informationen dazu, wie Sie auf Ihre Sandbox für benutzerdefinierte Aktualisierungen zugreifen können, wenn Sie ein Konto auf Cluster 4 haben, finden Sie unter [Zugreifen auf die Sandbox für benutzerdefinierte Aktualisierungen für Konten auf Cluster 4 (EMEA-Konten)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [Zugreifen auf die Sandbox für benutzerdefinierte Aktualisierungen für Konten auf Cluster 4 (EMEA-Konten)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
 
 So greifen Sie auf Ihre benutzerdefinierte Aktualisierungs-Sandbox zu:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **[!UICONTROL System]** >**[!UICONTROL Voreinstellungen]**.
+1. Klicken Sie auf **[!UICONTROL System]** >**[!UICONTROL Voreinstellungen]**.
 
-1. Im **[!UICONTROL Testumgebung]** Abschnitt, klicken Sie auf **[!UICONTROL Sandbox 1]** oder **[!UICONTROL Sandbox 2]**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Testumgebung]** auf **[!UICONTROL Sandbox 1]** oder **[!UICONTROL Sandbox 2]**.
 
    Ihr Support-Paket gibt an, ob Sie Zugriff auf eine oder zwei benutzerdefinierte Aktualisierungs-Sandboxes haben.
 
@@ -128,7 +128,7 @@ So greifen Sie über eine URL auf Ihre benutzerdefinierte Aktualisierungs-Sandbo
 
 ### Zugriff auf die Sandbox für benutzerdefinierte Aktualisierung für Konten auf Cluster 4 (EMEA-Konten) {#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
-Wenn [!DNL Workfront] -Konto auf Cluster 4 (EMEA-Cluster) befindet, können Sie nur über eine URL auf Ihre Sandbox für benutzerdefinierte Aktualisierungen zugreifen. Wenden Sie sich an unseren Kundensupport, um herauszufinden, auf welchem Cluster Ihr Konto sich befindet.
+Wenn Ihr [!DNL Workfront] -Konto auf Cluster 4 (EMEA-Cluster) ist, können Sie nur über eine URL auf Ihre Sandbox für benutzerdefinierte Aktualisierung zugreifen. Wenden Sie sich an unseren Kundensupport, um herauszufinden, auf welchem Cluster Ihr Konto sich befindet.
 
 Je nach Support-Paket sollten Sie Zugriff auf eine oder zwei benutzerdefinierte Aktualisierungs-Sandboxes haben.
 
@@ -156,7 +156,7 @@ So greifen Sie über eine URL auf Ihre benutzerdefinierte Aktualisierungs-Sandbo
 >
 >Die Dauer der Aktualisierung hängt von der Größe der zu aktualisierenden Daten ab. Während des Aktualisierungsprozesses ist es wichtig, dass Ihre benutzerdefinierte Aktualisierungs-Sandbox-Umgebung in keiner Weise verwendet wird (einschließlich API-Aufrufen und Integrationen), da dies verhindert, dass die Sandbox-Aktualisierung erfolgreich abgeschlossen wird. [!DNL Workfront] deaktiviert die benutzerdefinierte Aktualisierungs-Sandbox-Umgebung, bevor sie gestartet wird. Sie müssen jedoch alle aktiven Sitzungen beenden, um sicherzustellen, dass die Sandbox-Aktualisierung erfolgreich ist.
 
-Nachdem Sie eine Aktualisierung Ihrer benutzerdefinierten Aktualisierungs-Sandbox geplant haben, können Sie sie abbrechen, indem Sie auf [!UICONTROL Abbrechen] oben auf der Seite. Sie können sie auch für einen späteren Zeitpunkt neu planen.
+Nachdem Sie eine Aktualisierung Ihrer benutzerdefinierten Aktualisierungs-Sandbox geplant haben, können Sie sie abbrechen, indem Sie oben auf der Seite auf [!UICONTROL Abbrechen] klicken. Sie können sie auch für einen späteren Zeitpunkt neu planen.
 
 >[!NOTE]
 >
@@ -165,27 +165,27 @@ Nachdem Sie eine Aktualisierung Ihrer benutzerdefinierten Aktualisierungs-Sandbo
 So planen Sie eine Aktualisierung Ihrer Sandbox zur Kundenaktualisierung:
 
 1. Melden Sie sich bei Ihrer benutzerdefinierten Aktualisierungs-Sandbox an.
-1. Klicks **[!UICONTROL Zeitplan]** im Banner am oberen Bildschirmrand ein Datum aus dem Kalender auswählen.
-1. Wählen Sie ein Datum aus, an dem die Aktualisierung durchgeführt werden soll, und klicken Sie dann auf **[!UICONTROL Zeitplanaktualisierung]**.
+1. Klicken Sie oben im Bildschirm im Banner auf **[!UICONTROL Planen]** und wählen Sie ein Datum aus dem Kalender aus.
+1. Wählen Sie ein Datum aus, an dem die Aktualisierung durchgeführt werden soll, und klicken Sie dann auf **[!UICONTROL Aktualisierung planen]**.
 
 ## Von der Sandbox für benutzerdefinierte Aktualisierung zur Produktion wechseln
 
 1. Melden Sie sich bei Ihrer benutzerdefinierten Aktualisierungs-Sandbox an.
 
-   Weitere Informationen zum Zugriff auf Ihre benutzerdefinierte Aktualisierungs-Sandbox finden Sie unter [Zugriff auf die Sandbox für benutzerdefinierte Aktualisierungen über Ihre Produktionsumgebung](#access-the-custom-refresh-sandbox-from-your-production-environment) oder [Zugriff auf die Sandbox für benutzerdefinierte Aktualisierungen über eine URL](#access-the-custom-refresh-sandbox-using-a-url).
+   Weitere Informationen zum Zugriff auf Ihre Sandbox für benutzerdefinierte Aktualisierungen finden Sie unter [Zugriff auf die Sandbox für benutzerdefinierte Aktualisierungen aus Ihrer Produktionsumgebung](#access-the-custom-refresh-sandbox-from-your-production-environment) oder [Zugreifen auf die Sandbox für benutzerdefinierte Aktualisierungen mithilfe einer URL](#access-the-custom-refresh-sandbox-using-a-url).
 
-1. Klicks **[!UICONTROL Zu Produktion wechseln]** im Banner am oberen Bildschirmrand angezeigt.
+1. Klicken Sie im Banner oben auf dem Bildschirm auf **[!UICONTROL Gehe zur Produktion]** .
 
-   Denken Sie daran, dass die in der Sandbox geleistete Arbeit nicht im [!UICONTROL production] -Umgebung, da die Übertragung von Daten unidirektional ist, von der Produktion zu Ihrer benutzerdefinierten Aktualisierungs-Sandbox und nicht umgekehrt.
+   Beachten Sie, dass in der Sandbox durchgeführte Arbeiten nicht in der Umgebung [!UICONTROL Produktion] sichtbar sind, da die Datenübertragung unidirektional von der Produktion an Ihre Sandbox für benutzerdefinierte Aktualisierung erfolgt und nicht umgekehrt.
 
 ## Empfangen von E-Mails aus der Sandbox &quot;Benutzerdefinierte Aktualisierung&quot;
 
-[!DNL Workfront] Deaktiviert die gesamte E-Mail-Kommunikation in der Sandbox-Umgebung &quot;Benutzerdefinierte Aktualisierung&quot;. Wenn Sie E-Mail-Benachrichtigungen von der Sandbox-Umgebung für benutzerdefinierte Aktualisierungen erhalten möchten, müssen Sie diese Funktion in Ihren Benutzereinstellungen aktivieren. Weitere Informationen zum Aktivieren von E-Mail-Benachrichtigungen in der Umgebung &quot;Custom Refresh Sandbox&quot;finden Sie unter [Aktivieren des Versands von E-Mails aus der Vorschau-Sandbox-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+[!DNL Workfront] deaktiviert die gesamte E-Mail-Kommunikation aus der Sandbox-Umgebung für benutzerdefinierte Aktualisierung. Wenn Sie E-Mail-Benachrichtigungen von der Sandbox-Umgebung für benutzerdefinierte Aktualisierungen erhalten möchten, müssen Sie diese Funktion in Ihren Benutzereinstellungen aktivieren. Weitere Informationen zum Aktivieren von E-Mail-Benachrichtigungen in der Sandbox-Umgebung für benutzerdefinierte Aktualisierungen finden Sie unter [Aktivieren des Versands von E-Mails aus der Umgebung &quot;Sandbox-Vorschau&quot;](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!NOTE]
 >
->Berichtversand und Push-Benachrichtigungen in der Mobile App sind in der Umgebung der benutzerdefinierten Aktualisierungs-Sandbox immer deaktiviert. Weder du noch der [!DNL Workfront] -Administrator kann die Berichtbereitstellung oder Push-Benachrichtigungen für die mobile App aktivieren, wenn Sie auf die Sandbox-Umgebung für benutzerdefinierte Aktualisierungen zugreifen.\
->Weitere Informationen zu Berichtbereitstellungen für die Produktionsumgebung finden Sie unter [Berichtversand - Übersicht](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).Weitere Informationen zu Push-Benachrichtigungen in der mobilen App für die Produktionsumgebung finden Sie im Abschnitt unter .
+>Berichtversand und Push-Benachrichtigungen in der Mobile App sind in der Umgebung der benutzerdefinierten Aktualisierungs-Sandbox immer deaktiviert. Weder Sie noch der Administrator [!DNL Workfront] können die Berichtübermittlung oder Push-Benachrichtigungen für die mobile App aktivieren, wenn Sie auf die Umgebung &quot;Sandbox für benutzerdefinierte Aktualisierung&quot;zugreifen.\
+>Weitere Informationen zu Berichtbereitstellungen für die Produktionsumgebung finden Sie unter [Übersicht über die Berichtbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).Weitere Informationen zu Push-Benachrichtigungen für die mobile App in der Produktionsumgebung finden Sie im Abschnitt unter .
 
 ## Konfigurieren von Single Sign-On in der benutzerdefinierten Aktualisierungs-Sandbox
 
@@ -193,16 +193,16 @@ Wenn Sie Ihre benutzerdefinierte Aktualisierungs-Sandbox für die Verwendung mit
 Wenn Sie Ihre benutzerdefinierte Aktualisierungs-Sandbox aktualisieren, werden die SSO-Informationen nicht aus Ihrer Produktionsumgebung kopiert, um die Konfiguration der benutzerdefinierten Aktualisierungs-Sandbox zu überschreiben.
 
 Die Schritte zum Konfigurieren von Single Sign-on in der Sandbox für benutzerdefinierte Aktualisierung ähneln denen zum Konfigurieren in der Produktionsumgebung.\
-Weitere Informationen zur Konfiguration [!DNL Workfront] mit SSO, siehe [Überblick über Single Sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit SSO finden Sie unter [Überblick über die einmalige Anmeldung in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->Dies ist nicht verfügbar, wenn die [!DNL Workfront] -Instanz mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
+>Dies ist nicht verfügbar, wenn die [!DNL Workfront] -Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 ## Vorgesehene Nutzung und Verfügbarkeit
 
-* [!DNL Workfront] Benutzerdefinierte Update-Sandbox-Umgebungen sind nicht für Leistungs- oder Belastungstests vorgesehen. Verwenden Sie stattdessen diese Umgebungen, um die Funktionsfunktionalität mit den vorhandenen Workflows Ihres Unternehmens zu validieren.
+* [!DNL Workfront] Benutzerdefinierte Aktualisierungs-Sandbox-Umgebungen sind nicht für Leistungs- oder Belastungstests vorgesehen. Verwenden Sie stattdessen diese Umgebungen, um die Funktionsfunktionalität mit den vorhandenen Workflows Ihres Unternehmens zu validieren.
 
-* [!DNL Workfront] Benutzerdefinierte Update-Sandbox-Umgebungen sollten immer verfügbar sein. Jeder Ausfall einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach Behebung etwaiger Produktionsprobleme Priorität. Jeder Ausfall einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung an Wochenenden (Samstags und Sonntagen) wird behoben, damit die Umgebung am Montag für Geschäftszeiten ausgeführt wird.
+* [!DNL Workfront] Benutzerdefinierte Aktualisierungs-Sandbox-Umgebungen sollten immer verfügbar sein. Jeder Ausfall einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach Behebung etwaiger Produktionsprobleme Priorität. Jeder Ausfall einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung an Wochenenden (Samstags und Sonntagen) wird behoben, damit die Umgebung am Montag für Geschäftszeiten ausgeführt wird.
 
 * Die Prüfung ist nicht in den Sandbox-Umgebungen für benutzerdefinierte Aktualisierungen verfügbar.

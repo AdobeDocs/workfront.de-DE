@@ -36,10 +36,10 @@ Sie müssen über Folgendes verfügen:
 
 1. Navigieren Sie zu einer der folgenden Optionen:
 
-* Staging: [https://stage.adminconsole.adobe.com/](https://stage.adminconsole.adobe.com/)
+* Stage: [https://stage.adminconsole.adobe.com/](https://stage.adminconsole.adobe.com/)
 * Prod: [https://adminconsole.adobe.com/](https://adminconsole.adobe.com/)
 
-1. Klicken Sie im Abschnitt Benutzer auf **Entwickler** > **Entwickler hinzufügen**.
+1. Klicken Sie im Abschnitt &quot;Benutzer&quot;auf **Entwickler** > **Entwickler hinzufügen**.
 
    ![](assets/manage-users-admin-console.png)
 
@@ -66,7 +66,7 @@ Wenn AppBuilder ordnungsgemäß konfiguriert ist, sollte &quot;Projekt aus Vorla
 
 ## Neues Projekt in der Entwicklungskonsole erstellen
 
-1. Klicks **Projekt aus Vorlage erstellen**.
+1. Klicken Sie auf **Projekt aus Vorlage erstellen**.
 
    >[!IMPORTANT]
    >
@@ -74,28 +74,28 @@ Wenn AppBuilder ordnungsgemäß konfiguriert ist, sollte &quot;Projekt aus Vorla
 
    ![](assets/create-from-template.png)
 
-1. Auswählen **App Builder**.
+1. Wählen Sie **App Builder** aus.
 
-1. Geben Sie einen **Projekttitel** und **App-Name**. Beide Standardwerte sind vorhanden, es ist jedoch einfacher, das gewünschte Projekt später zu identifizieren, wenn Sie den Wert anpassen.
+1. Geben Sie einen **Projektnamen** und einen **App-Namen** ein. Beide Standardwerte sind vorhanden, es ist jedoch einfacher, das gewünschte Projekt später zu identifizieren, wenn Sie den Wert anpassen.
 
    >[!NOTE]
    >
    >Es gibt eine Option zum Hinzufügen zusätzlicher Arbeitsbereiche für diesen Schritt. Es wurde vorgeschlagen, für jeden Entwickler einen Arbeitsbereich zu erstellen. Dadurch werden Geheimnisse und Bereitstellungen voneinander getrennt, während Entwickler arbeiten. Sie sollten den Arbeitsbereich mit dem Namen des Entwicklers benennen, der ihn verwendet. Die AIO-CLI verfügt über Optionen zum Wechseln des Arbeitsbereichs, den wir später behandeln werden.
 
 
-1. Urlaub **Laufzeiteinschluss** ausgewählt ist.
+1. Lassen Sie **Laufzeitumgebung einschließen** aktiviert.
 
 1. Klicken Sie auf **Speichern**.
 
 ## Adobe IO (aio) CLI
 
-Adobe bietet eine Open-Source-CLI, die zur Erstellung der App Builder-Anwendungen verwendet werden kann. Die Dokumentation finden Sie hier: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) sowie Adobe App Builder-Anweisungen [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe bietet eine Open-Source-CLI, die zur Erstellung der App Builder-Anwendungen verwendet werden kann. Die Dokumentation finden Sie hier: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) sowie Adobe App Builder Instructions [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Installation
-   1. Um das Tool zu installieren (stellen Sie sicher, dass Sie sich zuerst auf Knoten v18 befinden), führen Sie Folgendes aus: `npm install -g @adobe/aio-cli `.
+   1. Um das Tool zu installieren (stellen Sie sicher, dass Sie sich zuerst auf Knoten v18 befinden), führen Sie &quot;`npm install -g @adobe/aio-cli `&quot;aus.
 
 1. In Terminal authentifizieren
-   1. Starten Sie Ihr Terminal und melden Sie sich mit dem Befehl bei AIO an: `aio login`.
+   1. Starten Sie Ihr Terminal und melden Sie sich mit dem Befehl `aio login` bei AIO an.
 
 1. Initialisieren der Anwendung
    1. Beginnen Sie mit der Einrichtung Ihrer App, indem Sie Folgendes ausführen: `aio app init example-app`.
@@ -106,7 +106,7 @@ Adobe bietet eine Open-Source-CLI, die zur Erstellung der App Builder-Anwendunge
       ![](assets/select-project.png)
 
 1. Vorlagenauswahl und -einrichtung
-   1. Alle verfügbaren Vorlagen durchsuchen und die **@adobe/aem-cf-editor-ui-ext-tpl** Vorlage für Ihr Projekt.
+   1. Durchsuchen Sie alle verfügbaren Vorlagen und wählen Sie die Vorlage **@adobe/aem-cf-editor-ui-ext-tpl** für Ihr Projekt aus.
       ![](assets/search-template.png)
       ![](assets/select-template.png)
 
@@ -114,21 +114,21 @@ Adobe bietet eine Open-Source-CLI, die zur Erstellung der App Builder-Anwendunge
    1. Benennen Sie Ihre Erweiterung.
    1. Geben Sie eine beschreibende Zusammenfassung der Funktionen Ihrer Erweiterung.
    1. Wählen Sie eine Anfangsversionsnummer aus, mit der Sie beginnen möchten.
-   1. Fertigstellen durch Auswahl von **Ich bin fertig**.
+   1. Bestätigen Sie den Abschluss durch Auswahl von **Ich bin fertig**.
       ![](assets/define-extension.png)
 
 1. Navigieren Sie zu Ihrem Projektordner
    1. Zugriff auf den Ordner src
-   1. Ordner umbenennen `aem-cf-editor-1` nach `workfront-doc-details-1`.
+   1. Benennen Sie den Ordner &quot;`aem-cf-editor-1`&quot;in &quot;`workfront-doc-details-1`&quot;um.
 
 1. Konfigurationsdateien ändern
    1. Öffnen Sie app.config.yaml
-   1. Aktualisieren der Zeile aus `aem/cf-editor/1` nach `workfront/doc-details/1`.
-   1. Passen Sie den Einfügepfad von an. `src/aem-cf-editor-1/ext.config.yaml` nach `src/workfront-doc-details-1/ext.config.yaml`.
+   1. Aktualisieren Sie die Zeile von `aem/cf-editor/1` auf `workfront/doc-details/1`.
+   1. Passen Sie den Einfügepfad von `src/aem-cf-editor-1/ext.config.yaml` auf `src/workfront-doc-details-1/ext.config.yaml` an.
 
 1. Bearbeiten der Erweiterungsregistrierungskomponente
-   1. Öffnen `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
-   1. Fügen Sie im Abschnitt Methoden eine Funktion hinzu `secondaryNav` , die eine asynchrone Funktion enthält `getButtons`.
+   1. Öffnen Sie `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
+   1. Fügen Sie im Abschnitt &quot;methods&quot;die Funktion `secondaryNav` hinzu, die eine asynchrone Funktion `getButtons` enthält.
    1. `getButtons` sollte ein Objekt mit der folgenden Struktur empfangen:
 
       ```
@@ -172,7 +172,7 @@ Adobe bietet eine Open-Source-CLI, die zur Erstellung der App Builder-Anwendunge
       ```
 
 1. Dokumentdetails aufrufen
-   1. Implementieren der bereitgestellten Funktion `document.getDocumentDetails` in Ihrer Anwendung, um wichtige Dokumentspezifikationen abzurufen. Diese Funktion ruft ein Objekt ab, das `docId` und `docvId`, neben `sharedContext` Objekt mit `hostname`, `protocol`, und Authentifizierungsdetails. Stellen Sie sicher, dass Ihre Anwendung diese Daten ordnungsgemäß verarbeitet.
+   1. Implementieren Sie die bereitgestellte Funktion `document.getDocumentDetails` in Ihrer Anwendung, um wichtige Dokumentspezifikationen abzurufen. Diese Funktion ruft ein Objekt ab, das `docId` und `docvId` neben einem `sharedContext` -Objekt mit `hostname`, `protocol` und Authentifizierungsdetails enthält. Stellen Sie sicher, dass Ihre Anwendung diese Daten ordnungsgemäß verarbeitet.
 
 1. Integrieren des Datenabrufs in Ihre Komponenten
    1. Fügen Sie dem Komponentenordner Ihrer Anwendung eine neue Komponente hinzu. Richten Sie in dieser Komponente eine Verbindung zu Workfront ein, um Dokumentinformationen und Authentifizierungsdaten mithilfe der mit der Host-Anwendung eingerichteten Verbindung abzurufen. Im Folgenden finden Sie ein Beispiel dafür, wie Sie Ihre Komponente strukturieren können, um dies zu handhaben:
@@ -217,12 +217,12 @@ Adobe bietet eine Open-Source-CLI, die zur Erstellung der App Builder-Anwendunge
 ## Konfiguration vorhandener AIO-Projekte
 
 1. Konfigurationsdateien aktualisieren
-   1. Öffnen `app.config.yaml`.
-   1. Ändern Sie die Konfiguration, indem Sie den Verweis von `aem/cf-editor/1` nach `workfront/doc-details/1`. Durch diese Anpassung werden die Dateipfade an der aktuellen Projektstruktur ausgerichtet.
+   1. Öffnen Sie `app.config.yaml`.
+   1. Ändern Sie die Konfiguration, indem Sie den Verweis von `aem/cf-editor/1` auf `workfront/doc-details/1` aktualisieren. Durch diese Anpassung werden die Dateipfade an der aktuellen Projektstruktur ausgerichtet.
 
 1. Überarbeiten der Erweiterungsregistrierungskomponente
-   1. Suchen und öffnen Sie die Datei namens `ExtensionRegistration.js`.
-   1. Fügen Sie im Abschnitt Methoden eine Funktion hinzu `secondaryNav` , die eine asynchrone Funktion enthält `getButtons`.
+   1. Suchen und öffnen Sie die Datei mit dem Namen `ExtensionRegistration.js`.
+   1. Fügen Sie im Abschnitt &quot;methods&quot;die Funktion `secondaryNav` hinzu, die eine asynchrone Funktion `getButtons` enthält.
    1. `getButtons` sollte ein Objekt mit der folgenden Struktur empfangen:
 
       ```
@@ -257,7 +257,7 @@ Adobe bietet eine Open-Source-CLI, die zur Erstellung der App Builder-Anwendunge
    ```
 
 1. Konfigurieren von Anwendungs-Routing
-   1. Öffnen Sie Ihre `App.js`die Routen zu speichern und zu konfigurieren, um die neu entwickelten Funktionen einzuschließen. Sie müssen Routen für die Standardansicht und alle weiteren Ansichten wie die Überprüfungsseite einrichten. So können Sie diese Routen definieren:
+   1. Öffnen Sie Ihre `App.js`Datei und konfigurieren Sie die Routen so, dass die neu entwickelten Funktionen einbezogen werden. Sie müssen Routen für die Standardansicht und alle weiteren Ansichten wie die Überprüfungsseite einrichten. So können Sie diese Routen definieren:
 
       ```
           <Route index element={<ExtensionRegistration />} />
@@ -266,7 +266,7 @@ Adobe bietet eine Open-Source-CLI, die zur Erstellung der App Builder-Anwendunge
       ```
 
 1. Dokumentdetails aufrufen
-   1. Implementieren der bereitgestellten Funktion `document.getDocumentDetails` in Ihrer Anwendung, um wichtige Dokumentspezifikationen abzurufen. Diese Funktion ruft ein Objekt ab, das `docId` und `docvId`, neben `sharedContext` Objekt mit `hostname`, `protocol`, und Authentifizierungsdetails. Stellen Sie sicher, dass Ihre Anwendung diese Daten ordnungsgemäß verarbeitet.
+   1. Implementieren Sie die bereitgestellte Funktion `document.getDocumentDetails` in Ihrer Anwendung, um wichtige Dokumentspezifikationen abzurufen. Diese Funktion ruft ein Objekt ab, das `docId` und `docvId` neben einem `sharedContext` -Objekt mit `hostname`, `protocol` und Authentifizierungsdetails enthält. Stellen Sie sicher, dass Ihre Anwendung diese Daten ordnungsgemäß verarbeitet.
 
 1. Integrieren des Datenabrufs in Ihre Komponenten
    1. Fügen Sie dem Komponentenordner Ihrer Anwendung eine neue Komponente hinzu. Richten Sie in dieser Komponente eine Verbindung zu Workfront ein, um Dokumentinformationen und Authentifizierungsdaten mithilfe der mit der Host-Anwendung eingerichteten Verbindung abzurufen. Im Folgenden finden Sie ein Beispiel dafür, wie Sie Ihre Komponente strukturieren können, um dies zu handhaben:
@@ -308,7 +308,7 @@ Adobe bietet eine Open-Source-CLI, die zur Erstellung der App Builder-Anwendunge
           export default Review;
       ```
 
-## Anwendungen veröffentlichen
+## Publish-Anwendungen
 
 >[!IMPORTANT]
 >
@@ -321,11 +321,11 @@ Damit eine Gastanwendung in Workfront geladen werden kann, muss die Anwendung in
    1. `aio app deploy `
 
 1. Navigieren Sie zu [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) oder [https://developer.adobe.com/](https://developer.adobe.com/).
-   1. Klicks **Konsole** in der oberen rechten Ecke.
+   1. Klicken Sie oben rechts auf **Konsole**.
 
 1. Suchen Sie nach dem Projekt, das Sie zum Erstellen der AppBuilder-Anwendung verwendet haben.
 
-1. Wählen Sie den Arbeitsbereich Produktion aus.
+1. Wählen Sie die Produktions-Workspace aus.
    ![](assets/find-application.png)
 
 1. Senden Sie die Anwendung für die private Überprüfung (Sie erhalten Warnungen, dass wir die Veröffentlichung nicht auf dem App Exchange Marketplace durchführen, was gut ist).
@@ -341,7 +341,7 @@ Damit eine Gastanwendung in Workfront geladen werden kann, muss die Anwendung in
 
 1. Als Systemadministrator navigieren Sie zu [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) oder [https://exchange.adobe.com/](https://exchange.adobe.com/).
 
-1. Klicks **Verwalten** > **Experience Cloud-Anwendungen**. Sie sollten die gesendeten Apps mit Optionen zur Genehmigung/Ablehnung sehen.
+1. Klicken Sie auf **Verwalten** > **Experience Cloud-Anwendungen**. Sie sollten die gesendeten Apps mit Optionen zur Genehmigung/Ablehnung sehen.
 Nach der Genehmigung sollten die veröffentlichten Anwendungserweiterungen automatisch in Ihre Workfront-Umgebung geladen werden.
 
    ![](assets/approve-submission.png)
@@ -362,8 +362,8 @@ Hier sind einige hilfreiche Links:
 
 Bei der Entwicklung Ihrer App Builder-Anwendung für Workfront müssen Sie Ihre App möglicherweise in Workfront testen, ohne sie zu veröffentlichen. Glücklicherweise haben wir dafür eine Lösung.
 
-In Ihrer App Builder-App können Sie `aio app run` für die lokale Entwicklung. Dadurch erhalten Sie eine URL, die normalerweise in etwa so aussieht: `https://localhost:9080`. Alternativ können Sie `aio app deploy` , um eine statische Adobe-Domäne zu erhalten. Notieren Sie sich diese URLs für die zukünftige Verwendung.
+Innerhalb Ihrer App Builder-App können Sie `aio app run` für die lokale Entwicklung starten. Dadurch erhalten Sie eine URL, normalerweise etwa `https://localhost:9080`. Alternativ können Sie `aio app deploy` ausführen, um eine statische Adobe-Domäne zu erhalten. Notieren Sie sich diese URLs für die zukünftige Verwendung.
 
-Navigieren Sie anschließend zur spezifischen Dokumentdetailseite, für die Sie in Ihrem Browser entwickeln möchten. Öffnen Sie die Entwicklertools und greifen Sie auf den lokalen Speicher für workfront.com oder workfront.adobe.com zu. Hier müssen Sie einen Eintrag hinzufügen. Verwendung `appBuilderDocDetailsOverride` als Schlüssel und die zuvor angegebene App Builder-URL als Wert angeben.
+Navigieren Sie anschließend zur spezifischen Dokumentdetailseite, für die Sie in Ihrem Browser entwickeln möchten. Öffnen Sie die Entwicklertools und greifen Sie auf den lokalen Speicher für workfront.com oder workfront.adobe.com zu. Hier müssen Sie einen Eintrag hinzufügen. Verwenden Sie `appBuilderDocDetailsOverride` als Schlüssel und die zuvor erwähnte App Builder-URL als Wert.
 
 Nach dem erneuten Laden Ihrer Seite werden die Schaltflächen in Ihrer App Builder-Anwendung angezeigt. Durch Klicken auf diese Schaltflächen können Sie Ihre App in Aktion anzeigen.

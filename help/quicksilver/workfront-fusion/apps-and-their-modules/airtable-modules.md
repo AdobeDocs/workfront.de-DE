@@ -9,18 +9,18 @@ title: Airtable Module
 description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
 author: Becky
 feature: Workfront Fusion
-exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 2%
+source-wordcount: '1862'
+ht-degree: 1%
 
 ---
 
 # Airtable Module
 
 
-Mit dem [!DNL Airtable] Connector für [!DNL Adobe Workfront Fusion]können Sie ein Szenario starten, das auf Ereignissen in Ihrer [!DNL Airtable] -Konto erstellen, hochladen und aktualisieren, Datensätze suchen und benutzerdefinierte API-Aufrufe an die Airtable-API richten.
+Mit dem [!DNL Airtable] -Connector für [!DNL Adobe Workfront Fusion] können Sie ein Szenario starten, das auf Ereignissen in Ihrem [!DNL Airtable]-Konto basiert, Datensätze erstellen, hochladen und aktualisieren, Datensätze suchen und benutzerdefinierte API-Aufrufe an die Airtable-API richten.
 
 ## Zugriffsanforderungen
 
@@ -31,7 +31,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -44,14 +44,14 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
@@ -68,21 +68,21 @@ Sie müssen über ein Airtable-Konto verfügen, um die Funktionalität dieses Ar
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. Öffnen Sie Workfront Fusion und die **Verbindung erstellen** Dialogfeld des gewünschten Moduls.
+1. Öffnen Sie Workfront Fusion und das Dialogfeld **Verbindung erstellen** des gewünschten Moduls.
 1. Geben Sie einen Namen für die Verbindung ein.
 1. (Optional) Klicken Sie auf Erweiterte Einstellungen anzeigen und geben Sie Ihre Airtable Client ID und den Client Secret ein.
-1. Klicken Sie auf **Weiter** -Schaltfläche, um die Verbindung zu erstellen und zum Modul zurückzukehren.
+1. Klicken Sie auf die Schaltfläche **Weiter** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
 
 ## Airtable Module und ihre Felder
 
 ### Datensätze
 
-* [Datensatz erstellen](#create-a-record)
-* [Datensatz löschen](#delete-a-record)
+* [Erstellen eines Datensatzes](#create-a-record)
+* [Einen Datensatz löschen](#delete-a-record)
 * [Datensatz abrufen](#get-a-record)
 * [Suchdatensätze](#search-records)
 * [Datensatz aktualisieren](#update-a-record)
-* [Datensatz aktualisieren](#upsert-a-record)
+* [Datensatz hochladen](#upsert-a-record)
 * [Aufnahmen ansehen](#watch-records)
 * [Antworten ansehen](#watch-responses)
 * [API-Aufruf](#make-an-api-call)
@@ -103,7 +103,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>Verbindung </td> 
-   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie in diesem Artikel unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -163,7 +163,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>Verbindung </td> 
-   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie in diesem Artikel unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -190,7 +190,7 @@ Dieses Aktionsmodul ruft Datensatzdetails ab.
  <tbody> 
   <tr> 
    <td>Verbindung </td> 
-   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie in diesem Artikel unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -221,7 +221,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>Verbindung </td> 
-   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie in diesem Artikel unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -233,7 +233,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td> <p>Formel</p> </td> 
-   <td> <p>Eine Formel zum Filtern von Datensätzen. Die Formel wird für jeden Datensatz ausgewertet und wenn das Ergebnis nicht <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>oder <code>#Error!</code> der Datensatz ist in der Antwort enthalten.</p> <p>Wenn mit <code>view</code>, werden nur Datensätze in dieser Ansicht zurückgegeben, die der Formel entsprechen.</p> <p>Um beispielsweise nur Datensätze einzuschließen, für die der Name nicht leer ist, geben Sie Folgendes an:<code> NOT({Name} = '')</code></p> <p>Weitere Informationen finden Sie in der Dokumentation zur Airtable-Unterstützung unter Informationen zu Formularfelderverweisen.</p> </td> 
+   <td> <p>Eine Formel zum Filtern von Datensätzen. Die Formel wird für jeden Datensatz ausgewertet. Wenn das Ergebnis nicht <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code> oder <code>#Error!</code> ist, wird der Datensatz in die Antwort aufgenommen.</p> <p>In Kombination mit dem <code>view</code> werden nur Datensätze in dieser Ansicht zurückgegeben, die der Formel entsprechen.</p> <p>Um beispielsweise nur Datensätze einzuschließen, für die der Name nicht leer ist, geben Sie Folgendes an:<code> NOT({Name} = '')</code></p> <p>Weitere Informationen finden Sie in der Dokumentation zur Airtable-Unterstützung unter Informationen zu Formularfelderverweisen.</p> </td> 
   </tr> 
   <tr> 
    <td>Sortieren </td> 
@@ -266,7 +266,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>Verbindung </td> 
-   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie in diesem Artikel unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -330,7 +330,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>Verbindung </td> 
-   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie in diesem Artikel unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -392,7 +392,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein Datensatz in der angegebenen
  <tbody> 
   <tr> 
    <td>Verbindung </td> 
-   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie in diesem Artikel unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -404,7 +404,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein Datensatz in der angegebenen
   </tr> 
   <tr> 
    <td> <p>Trigger-Konfiguration</p> </td> 
-   <td> <p>Trigger</p> <p>A <code>Created Time</code> oder <code>Last Modified Time</code> -Feld zum Sortieren von Datensätzen. Wenn Sie keine <code>Created Time</code> oder <code>Last Modified Time</code> -Feld in Ihrem Schema verwenden, müssen Sie eines erstellen. </p> <p>Beschriftungsfeld</p> <p>Ein Feld, das als Beschriftung für einen Datensatz verwendet wird, z. B. im Dialogfeld Festlegen, wo der Datensatz gestartet werden soll.</p> </td> 
+   <td> <p>Trigger</p> <p>Ein <code>Created Time</code> - oder <code>Last Modified Time</code> -Feld zum Sortieren von Datensätzen. Wenn Ihr Schema kein <code>Created Time</code> - oder <code>Last Modified Time</code> -Feld enthält, müssen Sie eines erstellen. </p> <p>Beschriftungsfeld</p> <p>Ein Feld, das als Beschriftung für einen Datensatz verwendet wird, z. B. im Dialogfeld Festlegen, wo der Datensatz gestartet werden soll.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit</td> 
@@ -416,7 +416,7 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein Datensatz in der angegebenen
   </tr> 
   <tr> 
    <td> <p>Formel</p> </td> 
-   <td> <p>Eine Formel zum Filtern von Datensätzen. Die Formel wird für jeden Datensatz ausgewertet und wenn das Ergebnis nicht <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>oder <code>#Error!</code> der Datensatz ist in der Antwort enthalten.</p> <p>Wenn mit <code>view</code>, werden nur Datensätze in dieser Ansicht zurückgegeben, die der Formel entsprechen.</p> <p>Um beispielsweise nur Datensätze einzuschließen, für die der Name nicht leer ist, geben Sie Folgendes an:<code> NOT({Name} = '')</code></p> <p>Weitere Informationen finden Sie in der Dokumentation zur Airtable-Unterstützung in den Informationen zu Formularfelderverweisen.</p> </td> 
+   <td> <p>Eine Formel zum Filtern von Datensätzen. Die Formel wird für jeden Datensatz ausgewertet. Wenn das Ergebnis nicht <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code> oder <code>#Error!</code> ist, wird der Datensatz in die Antwort aufgenommen.</p> <p>In Kombination mit dem <code>view</code> werden nur Datensätze in dieser Ansicht zurückgegeben, die der Formel entsprechen.</p> <p>Um beispielsweise nur Datensätze einzuschließen, für die der Name nicht leer ist, geben Sie Folgendes an:<code> NOT({Name} = '')</code></p> <p>Weitere Informationen finden Sie in der Dokumentation zur Airtable-Unterstützung in den Informationen zu Formularfelderverweisen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -434,12 +434,12 @@ Die Webhook-URL muss in Workfront Fusion generiert und dann zur Formularkonfigur
 1. Fügen Sie das Modul Neue Antworten überwachen zu Ihrem Workfront Fusion-Szenario hinzu.
 1. Erstellen und kopieren Sie die Webhook-URL.
 
-   Anweisungen finden Sie unter [Sofortige Trigger (Webhooks) in Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
+   Anweisungen finden Sie unter [Instant Trigger (Webhooks) in Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
 
 1. Melden Sie sich bei Ihrem Airtable-Konto an.
 1. Öffnen Sie die Basis und die Tabelle, die Sie für das Formular verwenden möchten, und erstellen Sie eine Formularansicht.
 1. Legen Sie das Formular nach Bedarf fest, scrollen Sie nach unten in das Formular und aktivieren Sie die Option Zu URL umleiten , nachdem das Formular gesendet wurde.
-1. Geben Sie die in Schritt 2 generierte Webhook-URL in das angezeigte Dialogfeld ein und fügen Sie &quot;?record_id=&quot;hinzu.{record_id} direkt nach der Webhook-URL, um die Datensatz-ID in die Ausgabe des Moduls einzuschließen, und klicken Sie dann auf Speichern. Die resultierende URL sieht beispielsweise wie folgt aus:
+1. Geben Sie die in Schritt 2 generierte Webhook-URL in das angezeigte Dialogfeld ein und fügen Sie ?record_id={record_id} direkt nach der Webhook-URL hinzu, um die Datensatz-ID in die Ausgabe des Moduls einzuschließen. Klicken Sie dann auf Speichern. Die resultierende URL sieht beispielsweise wie folgt aus:
 1. Gehen Sie zurück zu Ihrem Workfront Fusion-Szenario und führen Sie das Modul Antworten überwachen nur aus, um Felder von Airtable zu laden und diese Felder den anderen Modulen zuzuordnen.
 1. Senden Sie das Formular in Airtable, wobei die Option Zu URL umleiten, nachdem das Formular gesendet wurde aktiviert ist und die Webhook-URL hinzugefügt wurde (Schritt 6 oben).
 
@@ -453,7 +453,7 @@ Jetzt wird jedes Mal, wenn das Formular gesendet wird, das Modul &quot;Antworten
 
 #### Benutzerspezifischer API-Aufruf
 
-Mit diesem Aktionsmodul können Sie einen benutzerdefinierten authentifizierten Aufruf an die [!DNL Airtable] API. Auf diese Weise können Sie eine Datenflussautomatisierung erstellen, die von der anderen nicht durchgeführt werden kann [!DNL Airtable] Module.
+Mit diesem Aktionsmodul können Sie einen benutzerdefinierten authentifizierten Aufruf an die [!DNL Airtable] -API durchführen. Auf diese Weise können Sie eine Datenflussautomatisierung erstellen, die von anderen [!DNL Airtable] -Modulen nicht ausgeführt werden kann.
 
 Die Aktion basiert auf dem von Ihnen angegebenen Entitätstyp (Allocadia-Objekttyp).
 
@@ -465,11 +465,11 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Verbindung</p> </td> 
-   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres Airtable-Kontos mit Workfront Fusion finden Sie in diesem Artikel unter <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Verbinden von Airtable mit Workfront Fusion</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>Geben Sie einen Pfad relativ zu ein <code>https://api.airtable.com/}</code>. Beispiel: <code>v0/{base}/{table}</code> </td> 
+   <td>Geben Sie einen Pfad relativ zu <code>https://api.airtable.com/}</code> ein. Beispiel: <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Methode</td> 
@@ -485,7 +485,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td role="rowheader">Text</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

@@ -19,11 +19,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Benutzer erstellen mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
-* [Benutzerinformationen konfigurieren mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
-* [Erstellen und Verwalten benutzerdefinierter Profile mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
-* [Verschieben von Benutzern zwischen Konten mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
+* [Benutzer mit  [!DNL Workfront Proof] erstellen](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
+* [Konfigurieren von Benutzerinformationen mit  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
+* [Erstellen und Verwalten benutzerdefinierter Profile mit  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
+* [Benutzer mithilfe von [!DNL Workfront Proof] zwischen Konten verschieben](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)

@@ -9,7 +9,7 @@ exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -29,11 +29,11 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -41,7 +41,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das mit dem Dokument verknüpfte Objekt anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das mit dem Dokument verknüpfte Objekt anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Dokumentvorschau
 
-1. Bewegen Sie in einer Dokumentliste den Mauszeiger über die das Dokument enthaltende Zeile und klicken Sie auf **Dokumentdetails**.
+1. Bewegen Sie in einer Dokumentliste den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Dokumentdetails** .
 1. Klicken Sie auf der angezeigten Seite auf das Miniaturbild des Dokuments.
 
    * Wenn Sie das Dokument nicht für die Überprüfung vorbereitet haben, wird es in einer neuen Browser-Registerkarte angezeigt.

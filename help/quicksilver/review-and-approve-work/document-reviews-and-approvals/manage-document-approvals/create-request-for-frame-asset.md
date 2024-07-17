@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ## Erstellen einer Überprüfungs- oder Genehmigungsanforderung aus der Dokumentzusammenfassung
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das die Verbindung von Frame.io enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das den verbundenen Frame.io enthält, und wählen Sie dann **Dokumente** aus.
 
    >[!TIP]
    >
@@ -61,17 +61,17 @@ You must have the following access to perform the steps in this article:
 
 1. Klicken Sie auf das mit Frame.io verbundene Asset, um das Bedienfeld Dokumentzusammenfassung zu öffnen.
 
-1. (Optional) Im **Version** Wählen Sie im Dropdown-Menü die Version des Assets aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig ist die neueste Version ausgewählt.
+1. (Optional) Wählen Sie im Dropdownmenü **Version** die Version des Assets aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig ist die neueste Version ausgewählt.
 
-1. Scrollen Sie nach unten zum **Genehmigungen** und klicken Sie auf **Hinzufügen**.
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Hinzufügen**.
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. (Optional) Legen Sie einen Termin für die Genehmigung fest. Benutzer und Teams werden per E-Mail 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist benachrichtigt.
 
-1. Um einen Genehmiger hinzuzufügen, klicken Sie auf die **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
+1. Um einen Genehmiger hinzuzufügen, klicken Sie auf den **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
 
-1. Um einen Validierer hinzuzufügen, klicken Sie auf das **Überprüfer** und beginnen Sie mit der Eingabe eines Benutzers oder Teams.
+1. Um einen Überprüfer hinzuzufügen, klicken Sie auf das Kontrollkästchen **Überprüfer** und beginnen Sie mit der Eingabe des Namens eines Benutzers oder Teams.
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 
 ## Erstellen Sie auf der Seite &quot;Dokumentdetails&quot;eine Überprüfungs- oder Genehmigungsanforderung
 
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Dokumentdetails**.
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf **Dokumentdetails**.
    ![](assets/doc-details.png)
 
 1. Wählen Sie neben dem Dokumentnamen die Version des Dokuments aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig ist die neueste Version ausgewählt.
@@ -88,9 +88,9 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Legen Sie einen Termin für die Genehmigung fest. Benutzer und Teams werden per E-Mail 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist benachrichtigt.
 
-1. Um einen Genehmiger hinzuzufügen, klicken Sie auf die **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
+1. Um einen Genehmiger hinzuzufügen, klicken Sie auf den **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
 
-1. Um einen Validierer hinzuzufügen, klicken Sie auf das **Überprüfer** und beginnen Sie mit der Eingabe eines Benutzers oder Teams.
+1. Um einen Überprüfer hinzuzufügen, klicken Sie auf das Kontrollkästchen **Überprüfer** und beginnen Sie mit der Eingabe des Namens eines Benutzers oder Teams.
 
    ![](assets/add-approver-and-deadline.png)
 

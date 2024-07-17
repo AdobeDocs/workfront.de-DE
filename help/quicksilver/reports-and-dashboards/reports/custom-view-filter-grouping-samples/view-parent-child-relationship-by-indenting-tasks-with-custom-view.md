@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,12 +55,12 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Anzeigen der übergeordneten/untergeordneten Beziehung in einer Aufgabe durch Einrücken der Aufgaben
 
 1. Wechseln Sie zum Projekt mit der Aufgabenliste, die Sie exportieren möchten.
-1. Klicken Sie auf **Ansicht** und wählen Sie **Neue Ansicht**.
+1. Klicken Sie auf das Dropdownmenü **Ansicht** und wählen Sie **Neue Ansicht** aus.
 
 1. Benennen Sie den Filter in der linken oberen Ecke des Bildschirms.
-1. Klicken Sie in der **Aufgabenname** Spaltenüberschrift.
+1. Klicken Sie in der Spaltenüberschrift **Aufgabenname** auf .
 
-1. Auswählen **In den Textmodus wechseln** in der oberen rechten Ecke.
+1. Wählen Sie oben rechts **In den Textmodus wechseln** aus.
 1. Klicken Sie auf eine beliebige Stelle im Textfeld, um den Text zu bearbeiten, und entfernen Sie den gesamten vorhandenen Text.
 1. Fügen Sie den folgenden Text ein:
 

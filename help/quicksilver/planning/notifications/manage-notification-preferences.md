@@ -22,7 +22,7 @@ Wenn Sie ein Kommentar auf der Datensatzseite erhalten, erhalten Sie eine In-App
 >
 >Ihr Unternehmen muss Adobe Unified Experience-Kunde sein, um Benachrichtigungen von der Workfront-Planung erhalten zu können.
 >
->Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Zugriffsanforderungen
 
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Um In-App-Benachrichtigungen von den Voreinstellungen für die Planung und Verwaltung von Benachrichtigungen in Workfront zu erhalten, muss die Workfront-Instanz Ihres Unternehmens in die Adobe Unified Experience integriert werden. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>.</p>
+   <p>Um In-App-Benachrichtigungen von den Voreinstellungen für die Planung und Verwaltung von Benachrichtigungen in Workfront zu erhalten, muss die Workfront-Instanz Ihres Unternehmens in die Adobe Unified Experience integriert werden. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <td> <p>Anzeigen oder höherer Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
@@ -84,15 +84,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Benachrichtigungseinstellungen verwalten
 
 1. Melden Sie sich mit Ihren Adobe Experience Cloud-Anmeldedaten bei Workfront an.
-1. Klicken Sie auf **Kontomenü** icon ![](assets/account-menu-icon-on-experience-cloud.png) in der rechten oberen Ecke des Bildschirms klicken Sie auf **Voreinstellungen**.
-1. Unter dem **Benachrichtigungen** Abschnitt, klicken Sie auf **Workfront**Führen Sie dann die Schritte im folgenden Artikel aus, um Ihre Benachrichtigungseinstellungen für die Workfront-Planung zu verwalten:
+1. Klicken Sie oben rechts im Bildschirm auf das Symbol **Kontomenü** und dann auf **Voreinstellungen**.![](assets/account-menu-icon-on-experience-cloud.png)
+1. Klicken Sie im Abschnitt **Benachrichtigungen** auf **Workfront** und führen Sie dann die Schritte im folgenden Artikel aus, um Ihre Benachrichtigungseinstellungen für die Workfront-Planung zu verwalten:
    [Kontovoreinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Weitere Informationen zu Workfront-Planungs-Benachrichtigungen finden Sie in den folgenden Artikeln:
 
 * Informationen zu Kommentaren zu Datensätzen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
-* Informationen zu In-App-Benachrichtigungen aus der Workfront-Planung finden Sie unter [In-App-Benachrichtigungen für die Adobe Workfront-Planung verwalten](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Informationen zu E-Mail-Benachrichtigungen aus der Workfront-Planung finden Sie unter [Verwalten von E-Mail-Benachrichtigungen für die Adobe Workfront-Planung](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+* Informationen zu In-App-Benachrichtigungen aus der Workfront-Planung finden Sie unter [Verwalten von In-App-Benachrichtigungen für die Adobe Workfront-Planung](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
+* Weitere Informationen zu E-Mail-Benachrichtigungen aus der Workfront-Planung finden Sie unter [Verwalten von E-Mail-Benachrichtigungen für die Adobe Workfront-Planung](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
 
 

@@ -19,6 +19,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erste Schritte mit Listen in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [Schnellfilter auf Listen anwenden](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
-* [Inline-Bearbeitungselemente in einer Liste in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
+* [Inline-Bearbeitungselemente in einer Liste in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
 * [Anzeige einer Liste ändern](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
 * [Liste exportieren](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)

@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Kopieren Sie Module oder Szenarien in [!DNL Adobe Workfront Fusion]
-description: Kopieren Sie Module oder Szenarien in [!DNL Adobe Workfront Fusion]
+title: Kopieren von Modulen oder Szenarien in [!DNL Adobe Workfront Fusion]
+description: Kopieren von Modulen oder Szenarien in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 24e77a56-d676-4cf1-a801-1c328ffd0c4e
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 ---
 
-# Kopieren Sie Module oder Szenarien in [!DNL Adobe Workfront Fusion]
+# Kopieren von Modulen oder Szenarien in [!DNL Adobe Workfront Fusion]
 
-Sie können Module, Gruppen von Modulen oder ganze Szenarien in [!DNL Adobe Workfront Fusion]. Mit dieser Funktion können Sie Szenarien oder Teile von Szenarien wiederverwenden, ohne sie erneut erstellen zu müssen
+Sie können Module, Gruppen von Modulen oder ganze Szenarien in [!DNL Adobe Workfront Fusion] kopieren. Mit dieser Funktion können Sie Szenarien oder Teile von Szenarien wiederverwenden, ohne sie erneut erstellen zu müssen
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -35,33 +35,33 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
   <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
 Sie müssen einem Szenario Module hinzufügen, bevor Sie sie kopieren können.
 
-## Kopieren eines Moduls oder einer Gruppe von Modulen
+## Kopieren von Modulen oder Modulgruppen
 
 Wenn Sie ein Modul kopieren, behält die Kopie alle Feldwerte und Einstellungen des ursprünglichen Moduls bei.
 
@@ -84,11 +84,11 @@ Das Kopieren einer Modulgruppe ähnelt dem Kopieren eines einzelnen Moduls.
 
    >[!NOTE]
    >
-   >Sie können mehr als ein Modul auswählen, indem Sie [!UICONTROL shift] und auf die Module klicken, die Sie kopieren möchten. Beim Kopieren einer Modulgruppe werden auch alle Verbindungslinien, Filter oder Routing-Logiken zwischen ihnen kopiert.
+   >Sie können mehr als ein Modul auswählen, indem Sie [!UICONTROL shift] gedrückt halten und auf die Module klicken, die Sie kopieren möchten. Beim Kopieren einer Modulgruppe werden auch alle Verbindungslinien, Filter oder Routing-Logiken zwischen ihnen kopiert.
 
-1. Auswählen **[!UICONTROL Kopiermodul]**.
+1. Wählen Sie **[!UICONTROL Modul kopieren]** aus.
 1. Verschieben Sie den Cursor in den Bereich des Szenarios, in dem Sie die Kopie des Szenarios erstellen möchten.
-1. Klicken Sie mit der rechten Maustaste und wählen Sie **[!UICONTROL Einfügen]**.
+1. Klicken Sie mit der rechten Maustaste und wählen Sie **[!UICONTROL Einfügen]** aus.
 1. Verbinden Sie die eingefügten Module mit dem Szenario, indem Sie sie an die gewünschte Position im Szenario ziehen.
 
    Sie können auch Tastaturbefehle zum Kopieren und Einfügen verwenden.
@@ -99,34 +99,34 @@ Durch das Klonen eines Szenarios wird eine Kopie des Szenarios erstellt, die Sie
 
 1. Öffnen Sie die Detailseite des Szenarios:
 
-   1. Klicken Sie auf **[!UICONTROL Szenario]** im linken Bereich auf und klicken Sie dann auf ein Szenario, für das Sie Details anzeigen möchten.
+   1. Klicken Sie im linken Bereich auf die Registerkarte **[!UICONTROL Szenario]** und dann auf ein Szenario, für das Sie Details anzeigen möchten.
 
       Oder
 
-      Wenn Sie an dem Szenario im [Der Szenario-Editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)klicken Sie auf den Pfeil nach links ![](assets/exit-editing-arrow.png) in der Nähe der linken oberen Ecke des Fensters.
+      Wenn Sie mit dem Szenario im [Szenario-Editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md) arbeiten, klicken Sie auf den linken Pfeil ![](assets/exit-editing-arrow.png) in der oberen linken Ecke des Fensters.
 
-1. Rechtsklick **[!UICONTROL Optionen]** oben rechts auf der Seite.
-1. Auswählen **[!UICONTROL Klonen]**.
+1. Klicken Sie mit der rechten Maustaste oben rechts auf der Seite auf **[!UICONTROL Optionen]** .
+1. Wählen Sie **[!UICONTROL Klonen]** aus.
 1. (Optional) Geben Sie einen Namen für das neue Szenario ein.
-1. (Optional) Aktivieren Sie **[!UICONTROL Behalten Sie die Status aller neuen Module bei, die dupliziert werden.]** , um sicherzustellen, dass das kopierte Szenario auch Informationen zu den letzten Datensätzen enthält, die vom ursprünglichen Szenario verarbeitet wurden.
-1. Klicken **[!UICONTROL Speichern]** , um das Szenario zu erstellen.
+1. (Optional) Aktivieren Sie **[!UICONTROL Behalten Sie die Status aller neuen Module mit den Duplizierungsstatus bei]**, um sicherzustellen, dass das kopierte Szenario auch Informationen zu den neuesten Datensätzen enthält, die vom ursprünglichen Szenario verarbeitet wurden.
+1. Klicken Sie auf **[!UICONTROL Speichern]** , um das Szenario zu erstellen.
 
 ## Kopieren eines Szenarios mithilfe von Blueprints
 
 Szenario-Blueprints stellen die Anordnung, Zuordnung und Feldwerte eines bestimmten Szenarios zu einem bestimmten Zeitpunkt dar. Sie können einen Szenario-Blueprint in eine JSON-Datei auf Ihrem Computer exportieren und ihn dann beim Erstellen eines neuen Szenarios importieren. Aus einem Szenario-Blueprint importierte Szenarien können bearbeitet werden.
 
-Ein Szenario-Blueprint stellt das gesamte Szenario dar. Wenn Sie nur bestimmte Module aus einem Szenario kopieren möchten, lesen Sie [Kopieren eines Moduls oder einer Gruppe von Modulen](#copy-a-module-or-a-group-of-modules) in diesem Artikel.
+Ein Szenario-Blueprint stellt das gesamte Szenario dar. Wenn Sie nur bestimmte Module aus einem Szenario kopieren möchten, finden Sie weitere Informationen unter [Kopieren eines Moduls oder einer Modulgruppe](#copy-a-module-or-a-group-of-modules) in diesem Artikel.
 
 >[!NOTE]
 >
->Informationen zu Blueprints im Kontext von [!DNL Adobe Workfront], siehe [Blueprints - Übersicht](../../administration-and-setup/blueprints/blueprints-overview.md).
+>Informationen zu Blueprints im Kontext von [!DNL Adobe Workfront] finden Sie unter [Blueprints - Übersicht](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ### Exportieren eines Szenario-Blueprints
 
-1. Klicken Sie im Szenario auf die **[!UICONTROL Mehr]** im Bereich mit den Szenario-Einstellungen.
-1. Klicken **[!UICONTROL Export-Blueprint]**.
+1. Klicken Sie im Szenario auf das Menü **[!UICONTROL Mehr]** im Einstellungsbereich des Szenarios.
+1. Klicken Sie auf **[!UICONTROL Blueprint exportieren]**.
 
-   Eine JSON-Datei wird erstellt und auf Ihren Computer heruntergeladen. Sie können diese Datei in Ihrem [!DNL Downloads] Ordner.
+   Eine JSON-Datei wird erstellt und auf Ihren Computer heruntergeladen. Sie können diese Datei in Ihrem Ordner &quot;[!DNL Downloads]&quot;finden.
 
 ### Importieren eines Blueprints
 
@@ -135,16 +135,16 @@ Ein Szenario-Blueprint stellt das gesamte Szenario dar. Wenn Sie nur bestimmte M
 >Wenn Sie einen Blueprint in ein vorhandenes Szenario importieren, ersetzt der Szenario-Blueprint das vorhandene Szenario. Sie können einen Blueprint nicht an ein vorhandenes Szenario anhängen.
 
 1. Beginnen Sie mit der Erstellung eines neuen Szenarios.
-1. Klicken Sie im Szenario auf die **[!UICONTROL Mehr]** im Bereich mit den Szenario-Einstellungen.
-1. Klicken **[!UICONTROL Import-Blueprint]**.
-1. Klicken Sie im angezeigten Dialogfeld auf **[!UICONTROL Durchsuchen]**
-1. Navigieren Sie zum zu importierenden Blueprint und klicken Sie auf **[!UICONTROL Öffnen]**.
+1. Klicken Sie im Szenario auf das Menü **[!UICONTROL Mehr]** im Einstellungsbereich des Szenarios.
+1. Klicken Sie auf **[!UICONTROL Blueprint importieren]**.
+1. Klicken Sie im angezeigten Dialogfeld auf **[!UICONTROL Durchsuchen]** .
+1. Navigieren Sie zum Blueprint, den Sie importieren möchten, und klicken Sie auf **[!UICONTROL Öffnen]**.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Eine JSON-Datei wird erstellt und auf Ihren Computer heruntergeladen. Sie können diese Datei in Ihrem [!UICONTROL Downloads] Ordner.
+   Eine JSON-Datei wird erstellt und auf Ihren Computer heruntergeladen. Sie finden diese Datei im Ordner [!UICONTROL Downloads] .
 
 ## Kopieren und Wiederverwenden von Szenarien mithilfe von Vorlagen
 
-Sie können Vorlagen als Ausgangspunkt für Ihre [!DNL Workfront Fusion] Szenarien. Wenn Sie ein Szenario aus einer Vorlage erstellen, können Sie das Szenario ändern, ohne die Vorlage zu ändern. Feldwerte werden nicht in Vorlagen gespeichert.
+Sie können Vorlagen als Ausgangspunkt für Ihre [!DNL Workfront Fusion]-Szenarien erstellen. Wenn Sie ein Szenario aus einer Vorlage erstellen, können Sie das Szenario ändern, ohne die Vorlage zu ändern. Feldwerte werden nicht in Vorlagen gespeichert.
 
 Weitere Informationen zum Erstellen und Verwenden von Vorlagen finden Sie unter [Szenario-Vorlagen](../../workfront-fusion/scenarios/templates/fusion-templates.md).

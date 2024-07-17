@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Filter: Elemente in einer Liste durch Vergleich zweier Felder ausschließen."'
+title: 'Filter: Löscht Elemente in einer Liste durch Vergleich zweier Felder.'
 description: Sie können Elemente aus einer Liste filtern, indem Sie zwei ihrer Felder miteinander vergleichen. Beispielsweise können Sie nur Aufgaben anzeigen, bei denen das tatsächliche Abschlussdatum der Aufgabe größer als das geplante Abschlussdatum ist.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Filter: Elemente in einer Liste durch Vergleich zweier Felder ausschließen
+# Filter: Löscht Elemente in einer Liste durch Vergleich zweier Felder
 
 Sie können Elemente aus einer Liste filtern, indem Sie zwei ihrer Felder miteinander vergleichen. Beispielsweise können Sie nur Aufgaben anzeigen, bei denen das tatsächliche Abschlussdatum der Aufgabe größer als das geplante Abschlussdatum ist.
 
@@ -28,11 +28,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Filteränderung anfordern </p>
+   <td> <p>Filteranforderung </p>
    <p>Berichtänderung planen</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,19 +53,19 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Filtern von Elementen durch Vergleich zweier Felder
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Filter** Dropdown-Menü auswählen **Neuer Filter**.
+1. Wählen Sie aus dem Dropdownmenü **Filter** die Option **Neuer Filter** aus.
 
-1. Klicken **Filterregel hinzufügen** und hinzufügen **Tatsächliches Abschlussdatum** >**Größer als** > **Datum auswählen**.
+1. Klicken Sie auf **Filterregel hinzufügen** und fügen Sie **Tatsächliches Abschlussdatum** >**Größer als** > **Datum auswählen** hinzu.
 
    >[!TIP]
    >
    >Wählen Sie den Filter-Modifikator aus, den Sie für das ausgewählte Feld verwenden möchten (falls verfügbar).
 
-1. Klicken **In den Textmodus wechseln**.
-1. Im **Festlegen von Filterregeln für Ihren Bericht** -Bereich, fügen Sie den folgenden Code hinzu:
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Fügen Sie im Bereich **Filterregeln für Ihren Bericht festlegen** den folgenden Code hinzu:
 
    ```
    actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt
    ```
 
-1. Klicken **Fertig**, dann **Filter speichern**.
+1. Klicken Sie auf **Fertig** und dann auf **Filter speichern**.

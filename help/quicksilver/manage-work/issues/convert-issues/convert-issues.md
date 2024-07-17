@@ -26,7 +26,7 @@ Informationen zum Konvertieren von Problemen in Projekte finden Sie unter [Konve
 ## Überlegungen beim Konvertieren von Problemen
 
 * Beim Konvertieren von Problemen in Aufgaben oder Projekte werden die meisten Informationen aus dem Problem an die Aufgabe oder das Projekt übertragen, sofern in diesem Artikel nichts anderes angegeben ist.
-* Ihr Workfront-Administrator oder -Gruppenadministrator hat bereits die Voreinstellungen für das Auftreten eines Problems, dessen Lösung und den Zugriff seines Primären Kontakts bei der Konvertierung in ein Projekt oder eine Aufgabe festgelegt, wie in [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Ihr Workfront-Administrator oder Gruppenadministrator hat bereits die Voreinstellungen für das Auftreten eines Problems, dessen Lösung und den Zugriff seines Primären Kontakts bei der Konvertierung in ein Projekt oder eine Aufgabe festgelegt, wie unter [Systemweite Aufgabe konfigurieren und Voreinstellungen festlegen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) beschrieben.
 * Workfront entfernt alle Genehmigungen, die mit Problemen während der Konvertierung verbunden sind.
 * Workfront überschreibt das Auflösungsobjekt des Problems, wenn Sie es in eine Aufgabe oder ein Projekt konvertieren. Die neue Aufgabe oder das neue Problem wird nach der Konvertierung zum neuen Auflösungsobjekt des Problems.
 * Beachten Sie Folgendes:
@@ -38,13 +38,13 @@ Informationen zum Konvertieren von Problemen in Projekte finden Sie unter [Konve
 
 * Beim Konvertieren eines Problems werden die Berechtigungen für die ursprünglichen Probleme nicht an das konvertierte Objekt (Aufgabe oder Projekt) übertragen.
 
-* Beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage werden die meisten Informationen aus der Vorlage an das neue Projekt übertragen. Einige Informationen aus dem Problem können jedoch auch an das neue Projekt übertragen werden. Weitere Informationen finden Sie unter [Übersicht über die Projektfelder bei der Konvertierung eines Problems in ein Projekt mithilfe einer Vorlage](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in diesem Artikel beschrieben.
+* Beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage werden die meisten Informationen aus der Vorlage an das neue Projekt übertragen. Einige Informationen aus dem Problem können jedoch auch an das neue Projekt übertragen werden. Weitere Informationen finden Sie im Abschnitt [Überblick über Projektfelder beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in diesem Artikel.
 * Beim Konvertieren eines Problems werden nicht alle Dokumente oder deren Informationen in das neue Objekt verschoben, in das das Problem konvertiert wird. Die folgenden Elemente sind enthalten, wenn Sie ein Problem konvertieren, an das Dokumente oder Dokumentlinks angehängt sind:
 
    * Dokument
    * Dokumentieren Sie Links zu Drittanbieterdiensten, z. B. Google Drive oder SharePoint.
    * Versionen
-   * Testsendungen werden nur einbezogen, wenn die Option **Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an diese Aufgabe** deaktiviert ist.
+   * Testsendungen werden nur berücksichtigt, wenn die Option **Das ursprüngliche Problem beibehalten und seine Lösung mit dieser Aufgabe verknüpfen** deaktiviert ist.
    * Dokumentgenehmigungen sind nicht enthalten, wenn Sie ein Problem konvertieren, an das Dokumente und Dokumentverknüpfungen angehängt sind.
 
 * Wenn Sie beschlossen haben, das Problem in der Konvertierung beizubehalten und Dokumente angehängt sind, werden das Dokument und seine Versionen in das Projekt oder die Aufgabe kopiert. Die Testsendungen und Dokumentgenehmigungen werden nicht in das Projekt oder die Aufgabe kopiert.
@@ -73,7 +73,7 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
   </tr> 
   <tr> 
    <td>Status</td> 
-   <td>Standardstatus, der für die Gruppe in der Vorlage ausgewählt wird. Wenn die Vorlage nicht mit der Gruppe verknüpft ist, wird der Projektstatus vom Workfront-Administrator im Bereich "Projekteinstellungen"des Setups auf den Standardstatus festgelegt. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projektvoreinstellungen konfigurieren</a>.</td> 
+   <td>Standardstatus, der für die Gruppe in der Vorlage ausgewählt wird. Wenn die Vorlage nicht mit der Gruppe verknüpft ist, wird der Projektstatus vom Workfront-Administrator im Bereich "Projekteinstellungen"des Setups auf den Standardstatus festgelegt. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projekteigenschaften konfigurieren</a>.</td> 
   </tr> 
   <tr> 
    <td>Priorität</td> 
@@ -101,8 +101,8 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
    <td>Projekttermine</td> 
    <td> 
     <ul> 
-     <li> <p><b>Geplantes Startdatum</b>: Die nächstgelegene Arbeitszeit, die auf der Arbeitszeit des Vorlagenzeitplans basiert, sollte entsprechend der Zeitzone des Zeitplans der Vorlage vorausgewählt werden. Dieses Feld ist deaktiviert, wenn im Feld Planen von die Option Aus Abschluss ausgewählt ist. </p> </li> 
-     <li> <p><b>Geplantes Abschlussdatum</b>: Die nächstgelegene Arbeitszeit, die auf der Arbeitszeit des Vorlagenzeitplans basiert, sollte entsprechend der Zeitzone des Zeitplans der Vorlage vorausgewählt werden. Dieses Feld ist deaktiviert, wenn im Feld Planung von die Option Von Start ausgewählt ist. </p> </li> 
+     <li> <p><b>Vorgesehenes Startdatum</b>: Die nächstgelegene Arbeitszeit, die auf der Arbeitszeit des Vorlagenzeitplans basiert, sollte entsprechend der Zeitzone des Zeitplans der Vorlage vorausgewählt werden. Dieses Feld ist deaktiviert, wenn im Feld Planen von die Option Aus Abschluss ausgewählt ist. </p> </li> 
+     <li> <p><b>Vorgesehenes Abschlussdatum</b>: Die nächstgelegene Arbeitszeit, die auf der Arbeitszeit des Vorlagenzeitplans basiert, sollte entsprechend der Zeitzone des Zeitplans der Vorlage vorausgewählt werden. Dieses Feld ist deaktiviert, wenn im Feld Planung von die Option Von Start ausgewählt ist. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
 
 ## Originalinformationen zu Problemen in Projekten und Aufgaben anzeigen {#view-original-issue-information-on-projects-and-tasks}
 
-Sie können die ursprünglichen Probleminformationen in Projekt- und Aufgabenlisten und Berichten oder im Bereich Projektdetails anzeigen. Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Sie können die ursprünglichen Probleminformationen in Projekt- und Aufgabenlisten und Berichten oder im Bereich Projektdetails anzeigen. Informationen zum Erstellen von Berichten finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten und Aufgaben sichtbar sind.
 

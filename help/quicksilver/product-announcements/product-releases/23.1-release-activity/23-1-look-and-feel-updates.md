@@ -83,7 +83,7 @@ Es gibt zusätzliche Benutzerinformationen, die angezeigt werden, wenn Sie Benut
 
 Wenn Sie nun einen Benutzer zu den oben aufgeführten Benutzerfeldern hinzufügen, werden neben dem Benutzernamen und dem Avatar auch dessen Primäre Rolle und deren E-Mail-Adresse angezeigt. Dies hilft bei der Unterscheidung zwischen mehreren Benutzenden mit ähnlichen oder identischen Namen.
 
-Weitere Informationen und eine Videodemonstration zu einer ähnlichen Funktion finden Sie unter &quot;Smart-User-Auswahl für Projektrollen in den Bereichen Bearbeiten und Details&quot;in [2.4 Projektverbesserungen](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Weitere Informationen und eine Videodemonstration zu einer ähnlichen Funktion finden Sie unter &quot;Smart-User-Auswahl für Projektrollen in den Bereichen Bearbeiten und Details&quot;in den [22.4 Projektverbesserungen](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Änderungen an der Benachrichtigungsseite erkennen
 

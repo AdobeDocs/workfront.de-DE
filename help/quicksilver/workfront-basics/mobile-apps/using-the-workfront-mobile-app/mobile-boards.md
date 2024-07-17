@@ -2,7 +2,7 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Adobe Workfront-Pinnwände für Mobilgeräte
-description: Im [!DNL Workfront] Mobile App können Sie alle Pinnwände sehen, die Sie in der Desktop-Version von [!DNL Workfront].
+description: In der mobilen App [!DNL Workfront] können Sie alle Pinnwände sehen, die Sie in der Desktop-Version von [!DNL Workfront] erstellt haben oder zu denen Sie hinzugefügt wurden.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
@@ -15,32 +15,32 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront] [!UICONTROL Pinnwände] für Mobilgeräte
 
-[!DNL Adobe Workfront] [!UICONTROL Pinnwände] sind flexible Tools, die die Teamzusammenarbeit ermöglichen, indem sie Zugriff auf eine freigegebene Pinnwand mit Spalten und Karten bieten. Weitere Informationen zu Foren finden Sie unter [Übersicht über Pinnwände](/help/quicksilver/agile/boards-overview.md).
+[!DNL Adobe Workfront] [!UICONTROL Pinnwände] sind flexible Tools, die die Teamzusammenarbeit ermöglichen, indem sie Zugriff auf eine freigegebene Pinnwand mit Spalten und Karten bieten. Weitere Informationen zu Pinnwänden finden Sie unter [Überblick über Pinnwände](/help/quicksilver/agile/boards-overview.md).
 
-Im [!DNL Workfront] Mobile App können Sie alle Pinnwände sehen, die Sie in der Desktop-Version von [!DNL Workfront]. Sie können keine neue Pinnwand in der App erstellen.
+In der mobilen App [!DNL Workfront] können Sie alle Pinnwände sehen, die Sie in der Desktop-Version von [!DNL Workfront] erstellt haben oder zu denen Sie hinzugefügt wurden. Sie können keine neue Pinnwand in der App erstellen.
 
 Alle Änderungen, die Sie an Pinnwänden und Karten im Programm vornehmen, werden auch in der Desktop-Version der Pinnwand übernommen.
 
-Um Feedback zu mobilen Pinnwänden zu geben, wählen Sie die **[!UICONTROL Senden]** ![Feedback senden](assets/mobile-send-feedback-icon.png) -Symbol oben auf einer Pinnwand und folgen Sie den Anweisungen.
+Um Feedback zu mobilen Pinnwänden zu geben, wählen Sie oben auf einer Pinnwand das Symbol **[!UICONTROL Senden]** ![Feedback senden](assets/mobile-send-feedback-icon.png) aus und befolgen Sie die Anweisungen.
 
 >[!NOTE]
 >
->Derzeit unterstützt die mobile App alle Arten von Pinnwänden **Außer** Iteration Process boards.
+>Derzeit unterstützt die mobile App alle Arten von Pinnwänden **außer** für Iterationsprozesse.
 
 ## Liste der Pinnwände anzeigen und filtern
 
-1. Auswählen [!UICONTROL **Pinnwände**] auf der Startseite, um eine Liste aller Pinnwände anzuzeigen, die Sie in der Desktop-Version von [!DNL Workfront].
+1. Wählen Sie [!UICONTROL **Pinnwände**] auf der Startseite aus, um eine Liste aller Pinnwände anzuzeigen, die Sie in der Desktop-Version von [!DNL Workfront] erstellt haben oder denen Sie hinzugefügt wurden.
 
-   ![Liste der Foren](assets/mobile-all-boards-displayed.png)
+   ![Liste der Pinnwände](assets/mobile-all-boards-displayed.png)
 
-1. Um die Liste der Pinnwände zu sortieren oder zu filtern, wählen Sie [!UICONTROL **Weitere Filter**].
+1. Um die Liste der Pinnwände zu sortieren oder zu filtern, wählen Sie [!UICONTROL **Weitere Filter**] aus.
 1. Wählen Sie aus den folgenden Optionen aus:
 
-   * Wählen Sie im Bereich Filter die Option [!UICONTROL **Archiviert**] , um archivierte Pinnwände in der Liste anzuzeigen. Standardmäßig werden nur aktive Pinnwände angezeigt.
+   * Wählen Sie im Bereich Filter die Option [!UICONTROL **Archiviert**] aus, um archivierte Pinnwände in der Liste anzuzeigen. Standardmäßig werden nur aktive Pinnwände angezeigt.
    * Wählen Sie im Bereich Sortieren die Option [!UICONTROL **Datum geändert**] oder [!UICONTROL **Name**].
-   * Wählen Sie im Abschnitt Reihenfolge die Option [!UICONTROL **Aufsteigend**] oder [!UICONTROL **Absteigend**] , um die Sortierreihenfolge zu definieren.
+   * Wählen Sie im Bereich Reihenfolge die Option [!UICONTROL **Aufsteigend**] oder [!UICONTROL **Absteigend**] aus, um die Sortierreihenfolge zu definieren.
 
-1. Auswählen [!UICONTROL **Anwenden**] oder ![Symbol &quot;Anwenden&quot;](assets/mobile-apply-icon-checkmark.png) , um die Filter anzuwenden und zur Liste der Pinnwände zurückzukehren.
+1. Wählen Sie [!UICONTROL **Anwenden**] oder ![Symbol Anwenden](assets/mobile-apply-icon-checkmark.png) aus, um die Filter anzuwenden und zur Liste der Pinnwände zurückzukehren.
 
    Sie können jederzeit auf diese Optionen zugreifen, um sie zu ändern oder zu den Standardeinstellungen zurückzukehren.
 
@@ -48,7 +48,7 @@ Um Feedback zu mobilen Pinnwänden zu geben, wählen Sie die **[!UICONTROL Sende
 
 >[!NOTE]
 >
->Derzeit können Sie eine Pinnwand nur in der Desktop-Version von [!DNL Workfront] [!UICONTROL Pinnwände], nicht aus der mobilen App.
+>Derzeit können Sie eine Pinnwand nur aus der Desktop-Version von [!DNL Workfront] [!UICONTROL Pinnwände] und nicht aus der App archivieren oder löschen.
 
 ## Inhalt der Pinnwand anzeigen
 
@@ -60,13 +60,13 @@ Wenn die Pinnwand eine Aufnahmespalte enthält, wird sie als die ganz links lieg
 
 ## Arbeiten mit verbundenen Karten
 
-Eine verbundene Karte ist mit einer vorhandenen Aufgabe oder einem Problem in [!DNL Workfront]. In der App wird eine verbundene Karte mit der ![Symbol &quot;Verbundene Karte&quot;](assets/mobile-boards-connected-card-icon.png) Symbol. In der Abbildung unten ist die zweite Karte eine verbundene Karte.
+Eine verbundene Karte ist mit einer vorhandenen Aufgabe oder einem Problem in [!DNL Workfront] verbunden. In der mobilen App wird eine verbundene Karte mit dem Symbol ![Verbundene Karte](assets/mobile-boards-connected-card-icon.png) gekennzeichnet. In der Abbildung unten ist die zweite Karte eine verbundene Karte.
 
 Wenn eine der folgenden Details für die Karte an einem Ort aktualisiert wird, wird sie automatisch an einem anderen Speicherort aktualisiert:
 
 * [!UICONTROL Name]
 * [!UICONTROL Beschreibung]
-* [!UICONTROL Zugewiesene]
+* [!UICONTROL Zuweisung]
 * [!UICONTROL Status]
 
 Wenn Sie beispielsweise den Namen einer verbundenen Karte auf einer Pinnwand in der mobilen App aktualisieren, wird dieser auch über die Aufgabe oder das Problem aktualisiert.
@@ -79,7 +79,7 @@ Wenn Sie beispielsweise den Namen einer verbundenen Karte auf einer Pinnwand in 
    >
    >Sie können zwar ein anderes Tag auf der Karte auswählen, aber keine neuen Tags in der App erstellen.
 
-1. (Optional) Um eine Karte zu löschen, wählen Sie die [!UICONTROL **Mehr**] Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie [!UICONTROL **Löschen**]. Wählen Sie anschließend [!UICONTROL **Löschen**] in der Bestätigungsnachricht angezeigt.
+1. (Optional) Um eine Karte zu löschen, wählen Sie das Menü [!UICONTROL **Mehr**] im Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte aus und wählen Sie [!UICONTROL **Löschen**]. Wählen Sie dann [!UICONTROL **Löschen**] in der Bestätigungsnachricht aus.
 
 ## Arbeiten mit Ad-hoc-Karten
 
@@ -93,19 +93,19 @@ Eine Ad-hoc-Karte ist nicht mit einer Workfront-Aufgabe oder einem Problem verbu
    >
    >Sie können zwar ein anderes Tag auf der Karte auswählen, aber keine neuen Tags in der App erstellen.
 
-1. (Optional) Um eine neue Ad-hoc-Karte hinzuzufügen, wählen Sie [!UICONTROL **Neue Karte**] in der Spalte, in der Sie die Karte hinzufügen möchten, und geben Sie den Kartennamen ein. Um Details hinzuzufügen, wählen Sie die neu hinzugefügte Karte aus.
+1. (Optional) Um eine neue Ad-hoc-Karte hinzuzufügen, wählen Sie [!UICONTROL **Neue Karte**] in der Spalte, der Sie die Karte hinzufügen möchten, und geben Sie den Kartennamen ein. Um Details hinzuzufügen, wählen Sie die neu hinzugefügte Karte aus.
 
-1. (Optional) Um eine Karte zu kopieren, wählen Sie die [!UICONTROL **Mehr**] Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie [!UICONTROL **Kopieren**].
+1. (Optional) Um eine Karte zu kopieren, wählen Sie das Menü [!UICONTROL **Mehr**] im Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte aus und wählen Sie [!UICONTROL **Kopieren**].
 
-1. (Optional) Um eine Karte zu löschen, wählen Sie die [!UICONTROL **Mehr**] Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie [!UICONTROL **Löschen**]. Wählen Sie anschließend [!UICONTROL **Löschen**] in der Bestätigungsnachricht angezeigt.
+1. (Optional) Um eine Karte zu löschen, wählen Sie das Menü [!UICONTROL **Mehr**] im Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte aus und wählen Sie [!UICONTROL **Löschen**]. Wählen Sie dann [!UICONTROL **Löschen**] in der Bestätigungsnachricht aus.
 
 ## Verwalten von Checklisten-Elementen auf Karten
 
 Checklisten-Elemente sind sowohl auf Ad Hoc- als auch auf verbundenen Karten verfügbar.
 
-1. Um ein Checklisten-Element hinzuzufügen, öffnen Sie die Karte und wählen Sie [!UICONTROL **Neues Listenelement**]. Geben Sie den Elementnamen der Checkliste ein. Der Zähler auf der Karte wird aktualisiert.
-1. (Optional) Um ein Checklisten-Element zu kopieren, öffnen Sie die Karte, wählen Sie die [!UICONTROL **Mehr**] Menü ![Mehr Menü](assets/more-icon-spectrum.png) und wählen Sie [!UICONTROL **Kopieren**]. Am Ende der Liste wird eine Kopie des Elements hinzugefügt.
-1. (Optional) Um ein Element der Checkliste zu löschen, öffnen Sie die Karte, wählen Sie die [!UICONTROL **Mehr**] Menü ![Mehr Menü](assets/more-icon-spectrum.png) und wählen Sie [!UICONTROL **Löschen**].
+1. Um ein Element der Checkliste hinzuzufügen, öffnen Sie die Karte und wählen Sie [!UICONTROL **Neues Element der Checkliste**] aus. Geben Sie den Elementnamen der Checkliste ein. Der Zähler auf der Karte wird aktualisiert.
+1. (Optional) Um ein Element der Checkliste zu kopieren, öffnen Sie die Karte, wählen Sie das Menü [!UICONTROL **Mehr**] Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf dem Element aus und wählen Sie [!UICONTROL **Kopieren**]. Am Ende der Liste wird eine Kopie des Elements hinzugefügt.
+1. (Optional) Um ein Element der Checkliste zu löschen, öffnen Sie die Karte, wählen Sie das Menü [!UICONTROL **Mehr**] Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf dem Element aus und wählen Sie [!UICONTROL **Löschen**].
 1. Um ein Element der Checkliste abzuschließen, öffnen Sie die Karte und aktivieren Sie das Kontrollkästchen neben dem Elementnamen.
 Das Element ist als abgeschlossen markiert, der Zähler auf der Karte wird aktualisiert und zeigt an, wie viele Elemente der Checkliste abgeschlossen sind.
 
@@ -113,26 +113,26 @@ Das Element ist als abgeschlossen markiert, der Zähler auf der Karte wird aktua
 
 Sie können eine Pinnwand filtern, um bestimmte Personen zugewiesene Karten anzuzeigen, oder Sie können nach einer bestimmten Karte auf der Pinnwand suchen.
 
-Wenn Filter angewendet werden, wird auf der Pinnwand eine Anzeige angezeigt ![Auf Pinnwand angewendeter Filter](assets/active-filter-mobile-boards.png). Wählen Sie das Filtersymbol aus und wählen Sie [!UICONTROL **Alle löschen**] , um alle Filter aus der Pinnwand zu entfernen.
+Wenn Filter angewendet werden, wird auf der Pinnwand ![Auf Pinnwand angewendeter Filter](assets/active-filter-mobile-boards.png) ein Indikator angezeigt. Wählen Sie das Filtersymbol und danach [!UICONTROL **Alle löschen**] aus, um alle Filter aus der Pinnwand zu entfernen.
 
 ### Pinnwand nach Bevollmächtigten filtern
 
-1. Filter und Suchsymbol auswählen ![Filtern und Suchen](assets/filter-search-icon-mobile-boards.png).
-1. Auswählen [!UICONTROL **Mitglieder**] und wählen Sie die Person(en), deren Karten Sie sehen möchten. Sie können auch nicht zugewiesene Karten anzeigen.
-1. Auswählen [!UICONTROL **Fertig**] oder ![Symbol Fertig](assets/mobile-apply-icon-checkmark.png).
+1. Wählen Sie das Filter- und Suchsymbol ![Filter und Suche](assets/filter-search-icon-mobile-boards.png) aus.
+1. Wählen Sie [!UICONTROL **Mitglieder**] aus und wählen Sie die Person(en) aus, deren Karten Sie sehen möchten. Sie können auch nicht zugewiesene Karten anzeigen.
+1. Wählen Sie [!UICONTROL **Fertig**] oder das Symbol ![Fertig](assets/mobile-apply-icon-checkmark.png) aus.
 
-### Filtern einer Pinnwand nach Tags ([!DNL iOS] nur)
+### Pinnwand nach Tags filtern ([!DNL iOS] nur)
 
-1. Filter und Suchsymbol auswählen ![Filtern und Suchen](assets/filter-search-icon-mobile-boards.png).
-1. Auswählen [!UICONTROL **Tags**] und wählen Sie die Tags aus, die Sie sehen möchten.
-1. Auswählen [!UICONTROL **Fertig**].
+1. Wählen Sie das Filter- und Suchsymbol ![Filter und Suche](assets/filter-search-icon-mobile-boards.png) aus.
+1. Wählen Sie [!UICONTROL **Tags**] und wählen Sie die Tags aus, die angezeigt werden sollen.
+1. Wählen Sie [!UICONTROL **Fertig**] aus.
 
 ### Durchsuchen einer Pinnwand
 
-1. Filter und Suchsymbol auswählen ![Filtern und Suchen](assets/filter-search-icon-mobile-boards.png).
-1. Geben Sie einen Suchbegriff in das Feld ein und wählen Sie [!UICONTROL **Fertig**] oder ![Symbol Fertig](assets/mobile-apply-icon-checkmark.png).
+1. Wählen Sie das Filter- und Suchsymbol ![Filter und Suche](assets/filter-search-icon-mobile-boards.png) aus.
+1. Geben Sie einen Suchbegriff in das Feld ein und wählen Sie [!UICONTROL **Fertig**] oder ![Fertig-Symbol](assets/mobile-apply-icon-checkmark.png) aus.
 
    Alle Karten, die den Suchbegriff im Titel enthalten, werden angezeigt.
 Wählen Sie das X aus, um die Suche zu löschen.
 
-   ![Karte suchen](assets/mobile-search-for-card.png)
+   ![Suche nach Karte](assets/mobile-search-for-card.png)

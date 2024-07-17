@@ -9,8 +9,8 @@ role: Admin
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
 source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 7%
+source-wordcount: '325'
+ht-degree: 6%
 
 ---
 
@@ -31,21 +31,21 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Abo</a> </td> 
-   <td>Beliebig</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Plan</a> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Überblick über Lizenzen</a> </td> 
-   <td> <p>Plan </p>Sie müssen Workfront-Administrator sein. Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</td> 
+   <td> <p>Plan </p>Sie müssen Workfront-Administrator sein. Weitere Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für Benutzer</a>.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## Verwenden Sie die Diagnose für den Trigger automatisierter Prozesse
+## Verwenden Sie die Diagnose für den Trigger automatisierter Prozesse.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Erweitern **System** Klicken Sie auf **Diagnose**.
+1. Erweitern Sie **System** und klicken Sie dann auf **Diagnose**.
 1. Wählen Sie eine der folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
@@ -54,11 +54,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
     <tbody> 
      <tr> 
       <td role="rowheader">Versäumnisnachrichten senden</td> 
-      <td> <p>Sendet die automatischen Erinnerungsbenachrichtigungen für überfällige Aufgaben und Probleme manuell. </p> <p>Weitere Informationen zum Einrichten automatischer Erinnerungen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Automatische Erinnerungen einrichten</a>.</p> </td> 
+      <td> <p>Sendet die automatischen Erinnerungsbenachrichtigungen für überfällige Aufgaben und Probleme manuell. </p> <p>Weitere Informationen zum Einrichten automatischer Erinnerungen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Einrichten automatischer Erinnerungen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Frühzeitige Benachrichtigungen senden</td> 
-      <td> <p>Sendet die automatischen Erinnerungsbenachrichtigungen für Aufgaben und Probleme, die sich ihrem Fälligkeitsdatum nähern.</p> <p>Weitere Informationen zum Einrichten automatischer Erinnerungen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Automatische Erinnerungen einrichten</a>.</p> </td> 
+      <td> <p>Sendet die automatischen Erinnerungsbenachrichtigungen für Aufgaben und Probleme, die sich ihrem Fälligkeitsdatum nähern.</p> <p>Weitere Informationen zum Einrichten automatischer Erinnerungen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Einrichten automatischer Erinnerungen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Erinnerungsnachrichten senden</td> 
@@ -72,11 +72,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
      <tr> 
       <td role="rowheader">Zeitleisten erneut berechnen</td> 
-      <td> <p>Berechnet die Timeline für alle Projekte in Workfront mit dem Status "Aktuell". </p> <p>Weitere Informationen zur automatischen oder manuellen Berechnung der Zeitleiste von Projekten finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projektzeitpläne neu berechnen</a>.</p> </td> 
+      <td> <p>Berechnet die Timeline für alle Projekte in Workfront mit dem Status "Aktuell". </p> <p>Weitere Informationen zum automatischen oder manuellen Berechnen der Zeitleiste von Projekten finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Aktualisieren der Projektzeitpläne</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Standardkundenberichte wiederherstellen</td> 
-      <td>Stellt die Standardberichte wieder her, die ursprünglich mit Workfront bereitgestellt wurden, damit sie im <strong>Berichte</strong> für alle Benutzer.</td> 
+      <td>Stellt die Standardberichte wieder her, die ursprünglich mit Workfront bereitgestellt wurden, sodass sie für alle Benutzer im Abschnitt <strong>Berichte</strong> sichtbar sind.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Arbeitszeittabellen erstellen</td> 

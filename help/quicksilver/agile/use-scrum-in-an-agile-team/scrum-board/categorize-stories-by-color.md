@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Kategorisieren von Meldungen nach Farbe auf der [!UICONTROL Scrum] Pinnwand
+# Kategorisieren von Geschichten nach Farbe auf der [!UICONTROL Scrum]-Pinnwand
 
 ## Ändern der standardmäßigen Farbzuordnung von Geschichten
 
 Die standardmäßige Farbzuordnung von Geschichten hängt davon ab, ob sich das Storyboard in einer Iteration oder in einem Projekt befindet:
 
-* **[!UICONTROL Iteration]**: Bei einer Iteration sind die Story-Pinnwände entsprechend dem Projekt, mit dem die Geschichte verknüpft ist, farbcodiert. (Jedem Projekt wird willkürlich eine Farbe auf dem Storyboard zugewiesen.) Sie können dieses Standardverhalten für jedes agile Team ändern. Farben für agile Geschichten bei einer Iteration können an das Projekt (Standard), die Priorität der Geschichte, den Eigentümer oder die freie Form gebunden werden. Weitere Informationen finden Sie unter [Konfigurieren der Verwendung von Farbindikatoren für Meldungen auf der Landingpage](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **[!UICONTROL Iteration]**: Bei einer Iteration sind die Story-Pinnwände entsprechend dem Projekt farbcodiert, mit dem die Geschichte verknüpft ist. (Jedem Projekt wird willkürlich eine Farbe auf dem Storyboard zugewiesen.) Sie können dieses Standardverhalten für jedes agile Team ändern. Farben für agile Geschichten bei einer Iteration können an das Projekt (Standard), die Priorität der Geschichte, den Eigentümer oder die freie Form gebunden werden. Weitere Informationen finden Sie unter [Konfigurieren der Verwendung von Farbindikatoren für Meldungen auf der mobilen Story-Pinnwand](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **[!UICONTROL Projekt]**: Bei einem Projekt stimmen alle Unteraufgaben mit der Farbe der übergeordneten Aufgabe überein, sodass die Farben aller Geschichten in jeder Swimlane identisch sind. Farben werden Aufgaben zufällig zugewiesen, wenn sie erstellt werden, wenn die Aufgabe keine Unteraufgaben hat oder keine übergeordnete Aufgabe hat. Sie können dieses Standardverhalten ändern, indem Sie die agile Ansicht ändern. Farben für agile Geschichten in einem Projekt können an die übergeordnete Geschichte (Standard), die Priorität einer Geschichte, den Eigentümer oder die freie Form gebunden werden. Weitere Informationen finden Sie unter [Erstellen oder Anpassen von [!UICONTROL Agile] Ansicht](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Ansichten - Übersicht in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL Projekt]**: In einem Projekt stimmen alle Unteraufgaben mit der Farbe der übergeordneten Aufgabe überein, sodass die Farben aller Geschichten in jeder Swimlane identisch sind. Farben werden Aufgaben zufällig zugewiesen, wenn sie erstellt werden, wenn die Aufgabe keine Unteraufgaben hat oder keine übergeordnete Aufgabe hat. Sie können dieses Standardverhalten ändern, indem Sie die agile Ansicht ändern. Farben für agile Geschichten in einem Projekt können an die übergeordnete Geschichte (Standard), die Priorität einer Geschichte, den Eigentümer oder die freie Form gebunden werden. Weitere Informationen finden Sie unter [Erstellen oder Anpassen einer [!UICONTROL Agile]-Ansicht](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in der Übersicht über Ansichten in  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).[
 
 ## Zugriffsanforderungen
 
@@ -34,8 +34,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -43,26 +43,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Ändern der Farbe von Geschichten bei Verwendung von Freiform
 
-Wenn die agile Team-Einstellungen so konfiguriert wurden, dass die [!UICONTROL Kartenfarbe zuordnen zu] ist auf [!UICONTROL Kostenlose Form], können Benutzer die Farbe einzelner Story-Kacheln manuell ändern. Dies kann nützlich sein, um andere für das Team oder die Organisation wichtige Arten von Informationen zu kommunizieren:
+Wenn die Einstellungen des agilen Teams so konfiguriert wurden, dass die Option [!UICONTROL Kartenfarbe mit ] verknüpfen auf [!UICONTROL Freies Formular] festgelegt ist, können Benutzer die Farbe der einzelnen Story-Kacheln manuell ändern. Dies kann nützlich sein, um andere für das Team oder die Organisation wichtige Arten von Informationen zu kommunizieren:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe] Workfront, und klicken Sie dann auf **[!UICONTROL Teams]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe] Workfront und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Switch Team]** icon ![Symbol &quot;Team wechseln&quot;](assets/switch-team-icon.png), wählen Sie entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Iterationen]** , um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]** aus, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
 1. Bewegen Sie den Mauszeiger über das farbige Banner am oberen Rand der Kachel &quot;Geschichte&quot;.
 
    ![](assets/agile-story-color1-nwe-350x140.png)
 
-1. Klicken **[!UICONTROL Farbe ändern]** und wählen Sie dann die gewünschte Farbe aus.
+1. Klicken Sie auf **[!UICONTROL Farbe ändern]** und wählen Sie dann die gewünschte Farbe aus.
 
    ![](assets/agile-story-color2-nwe-350x138.png)

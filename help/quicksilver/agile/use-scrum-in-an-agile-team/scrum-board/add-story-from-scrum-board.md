@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Hinzufügen von Geschichten und Problemen aus dem [!UICONTROL Scrum] Pinnwand
+# Meldungen und Probleme aus der [!UICONTROL Scrum]-Pinnwand hinzufügen
 
 Sie können schnell eine neue Geschichte oder ein neues Problem direkt aus dem Forum erstellen oder eine vorhandene Geschichte oder ein Problem aus der Pinnwand hinzufügen.
 
 >[!NOTE]
 >
->Das Arbeitselement [!UICONTROL Geplantes Startdatum] und [!UICONTROL Geplantes Abschlussdatum] sind von einer Einstellung in der [!UICONTROL Team bearbeiten] Seite. Weitere Informationen finden Sie im Abschnitt . [[!UICONTROL Konfigurieren] wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Das Arbeitselement [!UICONTROL Vorgesehenes Startdatum] und [!UICONTROL Vorgesehenes Abschlussdatum] sind von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] betroffen. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Daten angewendet werden, wenn Arbeitselemente zu einer Iteration hinzugefügt werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Zugriffsanforderungen
 
@@ -30,8 +30,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -39,24 +39,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL] Zugriff auf das Projekt verwalten, in dem sich die Aufgabe oder das Problem befindet</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>[!UICONTROL] Zugriff auf das Projekt verwalten, in dem sich die Aufgabe oder das Problem befindet</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Erstellen Sie eine neue Story oder ein neues Problem über die Scroll-Pinnwand
+## Erstellen Sie eine neue Story oder ein neues Problem über das Scrum-Forum
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Teams]**.
-1. (Optional) Klicken Sie auf die **[!UICONTROL Switch Team]** icon ![Symbol &quot;Team wechseln&quot;](assets/switch-team-icon.png), wählen Sie entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Iterationen]** , um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
-1. Klicken **[!UICONTROL Hinzufügen]** auf der rechten Seite der Scrum-Pinnwand und wählen Sie **[!UICONTROL Neue Geschichte]** oder **[!UICONTROL Neues Problem]**.
-1. Im **[!UICONTROL Neu]** Fügen Sie die folgenden Informationen hinzu:
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]** aus, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]** auf der rechten Seite der Trommelplatine und wählen Sie **[!UICONTROL Neue Meldung]** oder **[!UICONTROL Neues Problem]** aus.
+1. Fügen Sie im Dialogfeld **[!UICONTROL Neu]** die folgenden Informationen hinzu:
 
    <table style="table-layout:auto">
     <tr>
@@ -77,13 +77,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tr>
    </table>
 
-1. Klicken **[!UICONTROL Geschichte hinzufügen]** oder **[!UICONTROL Problem hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Meldung hinzufügen]** oder auf **[!UICONTROL Problem hinzufügen]**.
 
-## Fügen Sie eine vorhandene Geschichte oder ein Problem aus der [!UICONTROL Scrum] Pinnwand
+## Hinzufügen einer vorhandenen Geschichte oder eines Problems aus der [!UICONTROL Scrum]-Pinnwand
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Teams]**.
-1. (Optional) Klicken Sie auf die **[!UICONTROL Switch Team]** icon ![Symbol &quot;Team wechseln&quot;](assets/switch-team-icon.png), wählen Sie entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Iterationen]** , um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
-1. Klicken **[!UICONTROL Hinzufügen]** auf der rechten Seite der Scrum-Pinnwand und wählen Sie **[!UICONTROL Bestehende Geschichte]** oder **[!UICONTROL Vorhandenes Problem]**.
-1. Im **[!UICONTROL Vorhandene aus Rückprotokoll hinzufügen]** eingeben, den Namen einer Meldung oder eines Problems eingeben und diese auswählen, wenn sie in der Liste angezeigt wird.
-1. Klicken **[!UICONTROL Geschichte hinzufügen]** oder **[!UICONTROL Problem hinzufügen]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]** aus, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]** auf der rechten Seite der Trommelplatine und wählen Sie **[!UICONTROL Vorhandene Meldung]** oder **[!UICONTROL Vorhandenes Problem]** aus.
+1. Geben Sie im Dialogfeld **[!UICONTROL Vorhandenen aus Rückprotokoll hinzufügen]** den Namen eines Verlaufs oder Problems ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+1. Klicken Sie auf **[!UICONTROL Meldung hinzufügen]** oder auf **[!UICONTROL Problem hinzufügen]**.

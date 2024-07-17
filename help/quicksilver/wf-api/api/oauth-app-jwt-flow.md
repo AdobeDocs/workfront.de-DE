@@ -24,7 +24,7 @@ Um die Integration mit Workfront zu ermöglichen und die Kommunikation Ihrer Cli
 
 ## Erstellen einer OAuth2-Anwendung
 
-Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Anwendung mithilfe der Serverauthentifizierung (JWT-Fluss)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Anwendung mit Serverauthentifizierung (JWT-Fluss)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -38,14 +38,14 @@ Das Token muss mit dem privaten Schlüssel für ein digitales Signaturzertifikat
 
 Der verwendete Algorithmus ist RS256 (RSA Signature with SHA-256). Dies ist ein asymmetrischer Algorithmus, der ein Schlüsselpaar aus öffentlichem/privatem Schlüssel verwendet. Der Identitätsanbieter verfügt über einen privaten (geheimen) Schlüssel, mit dem die Signatur generiert wird, und der Verbraucher des JWT erhält einen öffentlichen Schlüssel, um die Signatur zu validieren.
 
-Um den öffentlichen Schlüssel zu generieren, führen Sie folgende Schritte aus: **one** des Folgenden.
+Um den öffentlichen Schlüssel zu generieren, führen Sie **einen** der folgenden Schritte aus.
 
-* Öffnen Sie Ihr MacOS/Linux-Terminal und führen Sie den folgenden Befehl aus. Laden Sie dann `certificate_pub.crt` mithilfe der **Öffentlichen Schlüssel hinzufügen** in der OAuth2-Anwendungseinrichtung in Workfront.
+* Öffnen Sie Ihr MacOS/Linux-Terminal und führen Sie den folgenden Befehl aus. Laden Sie dann `certificate_pub.crt` über die Schaltfläche **Öffentlichen Schlüssel hinzufügen** in der OAuth2-Anwendungseinrichtung in Workfront hoch.
 
   <!-- [Copy](javascript:void(0);) -->
   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
-* Verwenden Sie die **Generieren eines öffentlichen/privaten Keypairs** in der OAuth2-Anwendungseinrichtung in Workfront, um den RSA zu generieren.
+* Verwenden Sie die Schaltfläche **Generate a public/private keypair** in der OAuth2-Anwendungskonfiguration in Workfront, um den RSA zu generieren.
 
 ## JSON-Web-Token erstellen
 

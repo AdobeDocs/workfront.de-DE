@@ -23,12 +23,12 @@ Sie können den Abschnitt Updates der meisten Objekte verwenden, um Kommentare u
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über den Aktualisierungsabschnitt](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
-* [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
+* Überblick über den Abschnitt [Updates](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [Update funktioniert](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 * [Zeichenbeschränkungen in Feldern](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
 * [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
 * [Antworten auf E-Mail-Benachrichtigungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
-* [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
-* [Alle Aktualisierungen in einem Hinweis-Bericht anzeigen](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
+* [Kennzeichnen anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
+* [Alle Aktualisierungen in einem Notiz-Bericht anzeigen](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [Überblick über die Bearbeitung und Fertig-Schaltflächen](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
 

@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # [!DNL Microsoft Word Template] Module
 
-In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Microsoft Word Templates], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
+In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!DNL Microsoft Word Templates] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 
-Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
@@ -47,7 +47,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td> 
+   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
@@ -60,19 +60,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Zur Verwendung [!DNL Miscrosoft Word Templates] mit [!DNL Adobe Workfront Fusion], muss ein [!DNL Office 365] -Konto. Sie können eine unter www.office.com erstellen.
+Um [!DNL Miscrosoft Word Templates] mit [!DNL Adobe Workfront Fusion] zu verwenden, ist ein [!DNL Office 365] -Konto erforderlich. Sie können eine unter www.office.com erstellen.
 
 
 
-## Verbinden des [!DNL Office] Dienst an [!DNL Workfront Fusion]
+## Verbinden des [!DNL Office]-Dienstes mit [!DNL Workfront Fusion]
 
-Anweisungen zum Verbinden der [!DNL Office] -Konto [!UICONTROL Workfront Fusion], siehe [Erstellen Sie eine Verbindung zu [!UICONTROL Adobe Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Anweisungen zum Verbinden Ihres [!DNL Office]-Kontos mit [!UICONTROL Workfront Fusion] finden Sie unter [Erstellen einer Verbindung mit [!UICONTROL Adobe Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -80,11 +80,11 @@ Anweisungen zum Verbinden der [!DNL Office] -Konto [!UICONTROL Workfront Fusion]
 >
 >Wenn beispielsweise ein Benutzer über den Excel-Connector über die Berechtigung &quot;Tabelle lesen&quot;verfügt und dann im Outlook-Connector eine Verbindung zum Lesen von E-Mails erstellt, zeigt der Bildschirm für die Genehmigung der Berechtigungen sowohl die bereits erteilte Berechtigung &quot;Tabelle lesen&quot;als auch die neu erforderliche Berechtigung &quot;E-Mail schreiben&quot;an.
 
-## Verwenden [!DNL Microsoft Word Templates] Module
+## Verwenden von [!DNL Microsoft Word Templates] -Modulen
 
-Sie können eine [!DNL Microsoft Word Template] -Modul zum Zusammenführen von Daten aus mehreren Webdiensten in einer [!DNL Microsoft Word] Dokument.
+Sie können ein [!DNL Microsoft Word Template] -Modul verwenden, um Daten aus mehreren Webdiensten in ein [!DNL Microsoft Word] -Dokument zusammenzuführen.
 
-Sie können beispielsweise Folgendes verwenden: [!DNL Microsoft Word] template:
+Sie können beispielsweise diese [!DNL Microsoft Word] -Vorlage verwenden:
 
 ![](assets/word-template-before-filled-350x62.png)
 
@@ -94,7 +94,7 @@ So erstellen Sie dieses Dokument:
 
 ## Über Wert-Tags
 
-A [!DNL Microsoft Word] Vorlage ist eine normale [!DNL Microsoft Word] Dokument (.docx-Datei) mit speziellen Tags im Text, die bestimmen, wo und wie Daten zusammengeführt oder ausgefüllt werden. Es gibt drei Arten von Tags:
+Eine [!DNL Microsoft Word] -Vorlage ist ein normales [!DNL Microsoft Word] -Dokument (.docx-Datei) mit speziellen Tags im Text, die bestimmen, wo und wie Daten zusammengeführt oder ausgefüllt werden. Es gibt drei Arten von Tags:
 
 * [Einfaches Wert-Tag](#simple-value-tag)
 * [Bedingungs-Tag](#condition-tag)
@@ -102,17 +102,17 @@ A [!DNL Microsoft Word] Vorlage ist eine normale [!DNL Microsoft Word] Dokument 
 
 ### Einfaches Wert-Tag {#simple-value-tag}
 
-Ein einfaches Wert-Tag wird einfach durch einen entsprechenden Wert ersetzt. Der Name des Tags entspricht dem [!UICONTROL Schlüssel] -Wert des Felds, der in zwei geschweifte Klammern gesetzt wird, z. B.
+Ein einfaches Wert-Tag wird einfach durch einen entsprechenden Wert ersetzt. Der Name des Tags entspricht dem Wert des Felds [!UICONTROL Schlüssel] , der in zwei geschweifte Klammern gesetzt wird, beispielsweise
 
 
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
-**Beispiel:** Um ein Dokument zu erstellen, in dem &quot;Hi, Petr!&quot;steht, können Sie eine [!DNL Microsoft Word Template] -Modul, um die folgende Vorlage zu erstellen:
+**Beispiel:** Um ein Dokument zu erstellen, in dem &quot;Hi, Petr!&quot;steht, können Sie ein [!DNL Microsoft Word Template] -Modul verwenden, um die folgende Vorlage zu erstellen:
 
-<pre>&gt; Hi &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
+<pre>&gt; Hi {{name}}!</pre>
 
 Dazu richten Sie das -Modul wie folgt ein:
 
@@ -122,8 +122,8 @@ Dazu richten Sie das -Modul wie folgt ein:
 
 Sie können ein Bedingungs-Tag verwenden, um Text einzuschließen, der nur gerendert werden soll, wenn bestimmte Bedingungen erfüllt sind. Um den Text einzuschließen, platzieren Sie ihn zwischen öffnenden und schließenden Bedingungs-Tags wie &quot;hasPhone&quot;, wenn die Bedingung lautet, ob die Daten eine Telefonnummer enthalten oder nicht. Dem Namen eines öffnenden Tags wird ein Hash-Zeichen # vorangestellt, dem Namen eines schließenden Tags ein Schrägstrich vorangestellt, wie im folgenden Beispiel gezeigt.
 
-**Beispiel:** Um ein Dokument zu erstellen, das die Telefonnummer eines Kunden enthält, wenn die Eingabedaten eine Telefonnummer, aber keine E-Mail-Adresse enthalten, können Sie eine [!DNL Microsoft Word Template] und erstellen Sie die folgende Vorlage:
-<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;Telefon: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;E-Mail: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>Dazu richten Sie das -Modul wie folgt ein:
+**Beispiel:** Um ein Dokument zu erstellen, das die Telefonnummer eines Kunden enthält, wenn die Eingabedaten eine Telefonnummer, aber keine E-Mail-Adresse enthalten, können Sie ein [!DNL Microsoft Word Template] -Modul verwenden und die folgende Vorlage erstellen:
+<pre>&gt; {{#hasPhone}}Telefon: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}Email: {{email}} {{/hasEmail}}</pre>Dazu richten Sie das -Modul wie folgt ein:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -134,14 +134,14 @@ Im Dokument würde die Telefonnummer wie folgt aussehen:
 
 Sie können ein Loop-Tag, auch als Abschnitt-Tag bezeichnet, verwenden, um einen Textabschnitt zu wiederholen. Schließen Sie den Text ein, indem Sie ihn zwischen den öffnenden und schließenden Schleifen-Tags platzieren. Dem Namen eines öffnenden Tags wird ein Hash-Zeichen # vorangestellt; dem Namen eines schließenden Tags wird ein Schrägstrich / vorangestellt.
 
-* [Schleifen-Tag mit Dokumentmodul ausfüllen](#loop-tag-with-fill-out-a-document-module)
+* [Schleifen-Tag mit Ausfüllen eines Dokumentmoduls](#loop-tag-with-fill-out-a-document-module)
   <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
 #### Schleifen-Tag mit Dokumentmodul ausfüllen {#loop-tag-with-fill-out-a-document-module}
 
-**Beispiel:** Um ein Dokument zu erstellen, in dem der Name und die Telefonnummer jedes Kontakts in einer Kundenliste aufgeführt sind, können Sie eine [!DNL Microsoft Word Template] und erstellen Sie die folgende Vorlage:
+**Beispiel:** Um ein Dokument zu erstellen, in dem der Name und die Telefonnummer jedes Kontakts in einer Kundenliste aufgeführt sind, können Sie ein [!DNL Microsoft Word Template] -Modul verwenden und die folgende Vorlage erstellen:
 
-<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
+<pre>&gt; {#contact}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 Dazu richten Sie das -Modul wie folgt ein:
 
@@ -182,10 +182,10 @@ The module would create the following document:
 
 Diese Module erfordern keine Verbindung.
 
-* [Dokument ausfüllen](#fill-out-a-document)
+* [Ausfüllen eines Dokuments](#fill-out-a-document)
 * [Füllen eines Dokuments mit einem Datenstapel](#fill-a-document-with-a-batch-of-data)
 
-### [!UICONTROL Dokument ausfüllen] {#fill-out-a-document}
+### [!UICONTROL Ausfüllen eines Dokuments] {#fill-out-a-document}
 
 Mit diesem Transformatormodul können Sie ein Dokument mit den von Ihnen angegebenen Daten ausfüllen. Sie kann mit einfachen Werte-Tags, Bedingungs-Tags oder Schleifentags verwendet werden.
 
@@ -195,14 +195,14 @@ Mit diesem Transformatormodul können Sie ein Dokument mit den von Ihnen angegeb
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start-Trennzeichen des zu ersetzenden Texts]</td> 
-   <td> <p>Geben Sie die Zeichen ein, die am Anfang des zu ersetzenden Texts markiert werden sollen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Eingabe <code>[[</code> , wenn Sie einen Text ähnlich dem folgenden ersetzen möchten: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Geben Sie die Zeichen ein, die am Anfang des zu ersetzenden Texts markiert werden sollen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Geben Sie <code>[[</code> ein, wenn Sie einen Text ähnlich dem folgenden ersetzen möchten: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Endtrennzeichen des zu ersetzenden Texts]</p> </td> 
-   <td> <p>Geben Sie die Zeichen ein, die am Ende des zu ersetzenden Texts markiert werden sollen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Eingabe <code>]]</code> , wenn Sie einen Text ähnlich dem folgenden ersetzen möchten: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Geben Sie die Zeichen ein, die am Ende des zu ersetzenden Texts markiert werden sollen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Geben Sie <code>]]</code> ein, wenn Sie einen Text ähnlich dem folgenden ersetzen möchten: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quelldatei]</td> 
+   <td role="rowheader">[!UICONTROL Source-Datei]</td> 
    <td> <p> Ordnen Sie die Datei zu, die Sie vom vorherigen Modul hochladen möchten (z. B. HTTP &gt; Datei abrufen oder Dropbox &gt; Dateimodul abrufen). Oder geben Sie die Datendatei manuell ein.</p> </td> 
   </tr> 
   <tr> 
@@ -218,13 +218,13 @@ Mit diesem Transformatormodul können Sie ein Dokument mit den von Ihnen angegeb
    <td> <p>Hierbei muss es sich um ein Array von Kollektionen handeln, wobei Folgendes gilt:</p> 
     <ul> 
      <li>Jede Kollektion entspricht einem Dateneintrag und enthält ein Element <code>entry</code></li> 
-     <li>Posten <code>entry </code>enthält eine Sammlung des <code>key </code>und <code>value</code></li> 
-     <li>Posten <code>key </code>enthält den Namen des Tags</li> 
+     <li>Element <code>entry </code>enthält eine Sammlung von <code>key </code>und <code>value</code></li> 
+     <li>Element <code>key </code>enthält den Namen des Tags</li> 
      <li>item <code>value </code>enthält den Wert des Tags</li> 
     </ul> 
     <p>So fügen Sie einen Eintrag hinzu:</p>
     <ol> 
-     <li> Klicks <b>[!UICONTROL Element hinzufügen]</b>. </li> 
+     <li> Klicken Sie auf <b>[!UICONTROL Element hinzufügen]</b>. </li> 
      <li>Wählen Sie den Werttyp des Eintrags aus.</li> 
      <li>Fügen Sie den Namen und den Wert hinzu. Weitere Informationen finden Sie im Beispiel für den ausgewählten Werttyp in diesem Artikel. 
       <ul> 
@@ -241,7 +241,7 @@ Mit diesem Transformatormodul können Sie ein Dokument mit den von Ihnen angegeb
 
 Dieses Aggregatormodul ist nützlich, wenn Ihre Dateneinträge als separate Bundles vorliegen. Mit diesem Modul können Sie einfach die für das Feld Wert erforderliche Struktur einrichten und Elemente jedem Wert zuordnen. Im Gegensatz zum Dokumentmodul ausfüllen erlaubt das Feld Werte unter Dokument mit einem Stapel Datenmodul ausfüllen nur einen einzigen Eintrag, der Variablen enthält.
 
-Sie können dieses Modul auch verwenden, wenn Ihre Dateneinträge als Array vorliegen, indem Sie die *Iterator* -Modul, um den Inhalt des Arrays in eine Reihe von Bundles umzuwandeln.
+Sie können dieses Modul auch dann verwenden, wenn Ihre Dateneinträge als Array vorliegen, indem Sie mit dem Modul *Iterator* den Inhalt des Arrays in eine Reihe von Bundles umwandeln.
 
 Die tatsächlichen Werte werden für jedes eingehende Bundle erstellt und ausgefüllt. Die Vorlage wird erzeugt, nachdem alle Eingabebundles verarbeitet wurden.
 
@@ -252,16 +252,16 @@ Dieses Aggregatormodul ist besonders für die Erstellung von Listen oder Bericht
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quellmodul]</td> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
    <td>Wählen Sie das Modul aus, das die Quelle Ihres Textes darstellt.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start-Trennzeichen des zu ersetzenden Texts]</td> 
-   <td> <p>Geben Sie die Zeichen ein, die am Anfang des zu ersetzenden Texts markiert werden sollen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Eingabe <code>[[</code> , wenn Sie einen Text ähnlich dem folgenden ersetzen möchten: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Geben Sie die Zeichen ein, die am Anfang des zu ersetzenden Texts markiert werden sollen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Geben Sie <code>[[</code> ein, wenn Sie einen Text ähnlich dem folgenden ersetzen möchten: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Endtrennzeichen des zu ersetzenden Texts]</p> </td> 
-   <td> <p>Geben Sie die Zeichen ein, die am Ende des zu ersetzenden Texts markiert werden sollen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Eingabe <code>]]</code> , wenn Sie einen Text ähnlich dem folgenden ersetzen möchten: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Geben Sie die Zeichen ein, die am Ende des zu ersetzenden Texts markiert werden sollen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Geben Sie <code>]]</code> ein, wenn Sie einen Text ähnlich dem folgenden ersetzen möchten: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Gruppe nach]</td> 
@@ -272,7 +272,7 @@ Dieses Aggregatormodul ist besonders für die Erstellung von Listen oder Bericht
    <td>Aktivieren Sie diese Option, um die Verarbeitung zu stoppen, wenn eine Aggregation keine Bundles enthält.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quelldatei]</td> 
+   <td role="rowheader">[!UICONTROL Source-Datei]</td> 
    <td> <p> Ordnen Sie die Datei zu, die Sie vom vorherigen Modul hochladen möchten (z. B. HTTP &gt; Datei abrufen oder Dropbox &gt; Dateimodul abrufen). Oder geben Sie die Datendatei manuell ein.</p> </td> 
   </tr> 
   <tr> 
@@ -288,13 +288,13 @@ Dieses Aggregatormodul ist besonders für die Erstellung von Listen oder Bericht
    <td> <p>Hierbei muss es sich um ein Array von Kollektionen handeln, wobei Folgendes gilt:</p> 
     <ul> 
      <li>Jede Kollektion entspricht einem Dateneintrag und enthält ein Element <code>entry</code></li> 
-     <li>Posten <code>entry </code>enthält eine Sammlung des <code>key </code>und <code>value</code></li> 
-     <li>Posten <code>key </code>enthält den Namen des Tags</li> 
+     <li>Element <code>entry </code>enthält eine Sammlung von <code>key </code>und <code>value</code></li> 
+     <li>Element <code>key </code>enthält den Namen des Tags</li> 
      <li>item <code>value </code>enthält den Wert des Tags</li> 
     </ul> 
     <p>So fügen Sie einen Eintrag hinzu:</p>
     <ol> 
-     <li> Klicks <b>[!UICONTROL Element hinzufügen]</b>. </li> 
+     <li> Klicken Sie auf <b>[!UICONTROL Element hinzufügen]</b>. </li> 
      <li>Wählen Sie den Werttyp des Eintrags aus.</li> 
      <li>Fügen Sie den Namen und den Wert hinzu. Weitere Informationen finden Sie im Beispiel für den ausgewählten Werttyp in diesem Artikel. 
       <ul> 

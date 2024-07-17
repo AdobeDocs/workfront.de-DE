@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Bericht: kombinierte Aufgabe und Problemansicht und -gruppierung'
+title: "Bericht: kombinierte Aufgabe und Problemansicht und Gruppierung"
 description: Dieser Arbeitselement-Bericht zeigt sowohl Aufgaben als auch Probleme an, an denen Benutzer die Arbeit in einem Bericht akzeptiert haben. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Dieser Arbeitselement-Bericht zeigt sowohl Aufgaben als auch Probleme an, an denen Benutzer die Arbeit in einem Bericht akzeptiert haben. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
 
-Dieser Bericht verwendet `sharecol=true` in der Ansicht, um mehrere Felder unter derselben Spaltenüberschrift zu kombinieren. Weitere Informationen über `sharecol` Tag, siehe [Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Dieser Bericht verwendet `sharecol=true` in der Ansicht, um mehrere Felder unter derselben Spaltenüberschrift zu kombinieren. Weitere Informationen zum Tag `sharecol` finden Sie unter [Ansicht: Zusammenführungsinformationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
@@ -36,7 +36,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -50,7 +50,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,14 +61,14 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 So erstellen Sie einen Bericht mit dieser Ansicht:
 
-1. Aus dem **Hauptmenü** ![](assets/main-menu-icon.png)klicken **Berichte**.
+1. Klicken Sie im **Hauptmenü** ![](assets/main-menu-icon.png) auf **Berichte**.
 
-1. Klicken **Neuer Bericht** und wählen Sie das Objekt aus **Arbeitselement** aus dem Dropdown-Menü.
+1. Klicken Sie auf **Neuer Bericht** und wählen Sie das Objekt **Arbeitselement** aus dem Dropdownmenü aus.
 
-1. Im **Spaltenvorschau** auf die Kopfzeile der einzigen angezeigten Spalte klicken.
-1. Klicken **In den Textmodus wechseln**.
+1. Klicken Sie im Bereich **Spaltenvorschau** auf die Kopfzeile der einzigen angezeigten Spalte.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.description=Task or Issue 
@@ -260,7 +260,7 @@ So erstellen Sie einen Bericht mit dieser Ansicht:
    ```
 
 1. (Optional) Klicken Sie auf **Gruppierungen** , um dem Bericht eine Gruppierung hinzuzufügen.
-1. (Optional) Wenn Sie eine Gruppierung hinzufügen, klicken Sie auf **In den Textmodus wechseln**.
+1. (Optional) Wenn Sie eine Gruppierung hinzufügen, klicken Sie auf **In Textmodus wechseln**.
 1. (Optional) Ersetzen Sie den Text im Textmodusbereich der Gruppierung durch den folgenden Code:
 
    ```
@@ -272,4 +272,4 @@ So erstellen Sie einen Bericht mit dieser Ansicht:
 
    Diese Gruppierung fasst alle Aufgaben zusammen und alle Probleme zusammen.
 
-1. Klicken **Speichern und schließen**.
+1. Klicken Sie auf **Speichern + schließen**.

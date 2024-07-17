@@ -20,17 +20,17 @@ ht-degree: 0%
 
 >[!INFO]
 >
->[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einem [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion] -Lizenz.
 
-[!DNL Workfront Fusion]Mit der Vorlagenfunktion können Sie vorhandene Vorlagen erstellen und als Ausgangspunkt für Ihre [!DNL Workfront Fusion] Szenarien.
+Mit der Vorlagenfunktion von [!DNL Workfront Fusion] können Sie vorhandene Vorlagen erstellen und als Ausgangspunkt für Ihre [!DNL Workfront Fusion]-Szenarien verwenden.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [[!DNL Adobe Workfront Fusion] Vorlagen - Übersicht](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
-* [Erstellen Sie neue Vorlagen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-* [Veröffentlichen und freigeben [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
-* [Erstellen von Szenarien mit [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
-* [Anzeigen, Bearbeiten und Löschen [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
+* [Überblick über [!DNL Adobe Workfront Fusion] Vorlagen](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
+* [Erstellen neuer Vorlagen in  [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+* [Publish und share [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+* [Erstellen von Szenarien mit  [!DNL Adobe Workfront Fusion] Vorlagen](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
+* [Anzeigen, Bearbeiten und Löschen von [!DNL Adobe Workfront Fusion] Vorlagen](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] Vorlagenverwaltung](../../../workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
 * [[!DNL Adobe Workfront Fusion] FAQs zu Vorlagen](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
-* [Aktuell verfügbar [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)
+* [Derzeit verfügbare [!DNL Adobe Workfront Fusion] Vorlagen](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)

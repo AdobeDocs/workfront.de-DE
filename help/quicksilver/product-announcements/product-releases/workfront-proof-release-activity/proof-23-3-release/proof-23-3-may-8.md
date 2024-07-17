@@ -23,7 +23,7 @@ Sofern nicht anders angegeben, werden diese Verbesserungen in der Produktionsumg
 
 ## Update des Desktop Proofing Viewers
 
-Der Desktop Proofing Viewer wurde auf Version 2.1.24 aktualisiert! Dieses Update beinhaltet Chrome v100-Unterstützung für die Überprüfung interaktiver Testsendungen sowie die folgenden Problembehebungen:
+Der Desktop Proofing Viewer wurde auf Version 2.1.24 aktualisiert! Dieses Update umfasst Chrome v100-Unterstützung für die Überprüfung interaktiver Testsendungen sowie die folgenden Problembehebungen:
 
 * Die Testversand-Version kann jetzt nach der ersten Änderung der Version erneut geändert werden.
 * Links in interaktiven Testsendungen funktionieren jetzt erwartungsgemäß.

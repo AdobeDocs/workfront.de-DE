@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
 source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1323'
 ht-degree: 1%
 
 ---
@@ -37,11 +37,11 @@ Sie müssen über Folgendes verfügen:
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf das Ressourcen-Management, das Zugriff auf die Option "Prioritäten bearbeiten"und die Budgetzeiten im Ressourcenplaner enthält.</p> <p>Zugriff auf Finanzdaten, Projekte und Benutzer bearbeiten</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für die Projekte, für die Informationen zum Budget bereitgestellt werden sollen, mit der Möglichkeit, die Finanzen zu verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für die Projekte, für die Informationen zum Budget bereitgestellt werden sollen, mit der Möglichkeit, die Finanzen zu verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,9 +57,9 @@ Standardmäßig werden die Projekte unter Berücksichtigung der unten stehenden 
 >Projekte werden nur beim ersten Öffnen des Ressourcenplaners nach den drei folgenden Kriterien aufgelistet. Diese Standardpriorität wird jedoch automatisch zu Ihrer benutzerdefinierten Priorität und kann nicht jedes Mal, wenn Sie einen der folgenden Schritte ausführen, zur ursprünglichen Priorität zurückgesetzt werden:
 >
 >* Wenn Sie jederzeit auf Speichern klicken.
->* Wenn Sie die Priorität der Projektplanung manuell ändern. Informationen zum manuellen Ändern der Projektplanungspriorität finden Sie im Abschnitt [Manuelles Ändern der Priorität für die Projektplanung](#manually-change-the-project-planning-priority) in diesem Artikel.
+>* Wenn Sie die Priorität der Projektplanung manuell ändern. Informationen zum manuellen Ändern der Priorität der Projektplanung finden Sie im Abschnitt [Manuelles Ändern der Priorität für die Projektplanung](#manually-change-the-project-planning-priority) in diesem Artikel.
 >
->Nachdem die Projektpriorität zu Ihrer benutzerdefinierten Priorität wird, wirken sich Änderungen an den Projektinformationen nicht mehr auf die Reihenfolge der Projekte aus, die diese Kriterien verwenden. Danach können Sie Projekte nur manuell priorisieren.
+>Nachdem die Projektpriorität zu Ihrer benutzerdefinierten Priorität wird, wirken sich Änderungen an den Projektinformationen nicht mehr auf die Reihenfolge der Projekte aus, die diese Kriterien verwenden. Danach können Sie Projekte nur noch manuell priorisieren.
 
 Die ursprünglichen Standardkriterien für die Auflistung der Projekte in der Projektansicht lauten wie folgt:
 
@@ -73,7 +73,7 @@ Beachten Sie beim Arbeiten mit Projektprioritäten im Ressourcenplaner Folgendes
 
 * Sie können die Projektpriorität nur manuell anpassen, wenn Sie die Projektansicht anwenden. Dadurch wird auch die Reihenfolge der Projekte im Ressourcenplaner geändert.
 * Wenn Sie die Rollen- oder Benutzeransichten im Ressourcenplaner anwenden, werden die Projekte in der in der Projektansicht festgelegten Reihenfolge mit der Priorität angezeigt.
-* Die Reihenfolge der Projekte im Ressourcenplaner ist für Sie eindeutig. Andere Benutzer können dieselben Projekte im Ressourcenplaner anzeigen, aber in einer anderen Reihenfolge. Sie können keinen Bericht zum Feld Projektplanungspriorität erstellen. Dies ist direkt im Ressourcen-Planer sichtbar und dient als Flag zur Priorisierung Ihrer Projekte.
+* Die Reihenfolge der Projekte im Ressourcenplaner ist für Sie eindeutig. Andere Benutzer können dieselben Projekte im Ressourcenplaner anzeigen, aber in einer anderen Reihenfolge. Sie können keinen Bericht zum Feld Projektplanungspriorität erstellen. Dies ist direkt im Ressourcen-Planer sichtbar und dient als Flag für die Priorisierung Ihrer Projekte.
 
 Projekte, die mit einem Portfolio verknüpft sind, haben möglicherweise eine Priorität auf Portfolioebene. Sie können die Anzeige der Portfoliopriorität eines Projekts im Ressourcenplaner zusätzlich zur Priorität &quot;Ressourcenplaner&quot;aktivieren. Sie können die Projekte auch nach ihrer Portfoliopriorität bestellen.
 
@@ -85,7 +85,7 @@ Wenn Sie Projekten eine neue Priorität einräumen, können Sie sie nach Wichtig
 
 So bearbeiten Sie die Priorität der Projektplanung:
 
-1. Navigieren Sie zu **Ressourcenplaner**.
+1. Wechseln Sie zum **Ressourcenplaner**.
 
 1. Klicken Sie in das Feld links neben dem Projektnamen, der eine Nummer enthält, geben Sie eine Nummer ein, um die Planungspriorität zu ändern, und drücken Sie die Eingabetaste.\
    ![](assets/mceclip4.png)\
@@ -108,11 +108,11 @@ So bearbeiten Sie die Priorität der Projektplanung:
 >
 >Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://www.workfront.com/plans).
 >
->Informationen zur Priorisierung von Projekten in Portfolio Optimizer finden Sie unter [Priorisieren von Projekten in Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+>Informationen zur Priorisierung von Projekten in Portfolio Optimizer finden Sie unter [Priorisieren von Projekten im Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-1. Öffnen Sie die **Ressourcenplaner** im **Projektansicht**.
-1. Klicken Sie auf **Einstellungen** Symbol.
-1. Aktivieren Sie die **Anzeigen von Portfolio-Prioritäten** Einstellung, um die Projektprioritäten entsprechend dem Portfolio anzuzeigen, dem sie zugewiesen sind. Die Priorität der Projekte entsprechend ihren Portfolios wird neben der Priorität des Ressourcenplaners angezeigt. Diese Einstellung ist standardmäßig deaktiviert.
+1. Öffnen Sie den **Ressourcenplaner** in der **Projektansicht**.
+1. Klicken Sie auf das Symbol **Einstellungen**.
+1. Aktivieren Sie die Einstellung **Portfolio-Prioritäten anzeigen** , um die Projektprioritäten entsprechend dem Portfolio anzuzeigen, dem sie zugewiesen sind. Die Priorität der Projekte entsprechend ihren Portfolios wird neben der Priorität des Ressourcenplaners angezeigt. Diese Einstellung ist standardmäßig deaktiviert.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
@@ -122,9 +122,9 @@ So bearbeiten Sie die Priorität der Projektplanung:
 
    Die Portfolioprioritäten der Projekte werden nur in der Projektansicht des Ressourcenplaners angezeigt.
 
-1. Klicken **Bestellung** die Projekte nach den Portfolioprioritäten zu ordnen.
+1. Klicken Sie auf **Bestellung** , um die Projekte entsprechend den Portfolioprioritäten anzuordnen.
 
-   Wenn Sie über Projekte verfügen, die zu mehr als einem Portfolio gehören, können Sie im Ressourcenplaner mehrere Projekte mit derselben Portfoliopriorität sehen. In diesem Fall werden die Projekte mit derselben Portfoliopriorität nach folgenden Kriterien aufgelistet:
+   Wenn Sie über Projekte verfügen, die zu mehr als einem Portfolio gehören, können Sie im Ressourcenplaner mehrere Projekte mit derselben Portfoliopriorität sehen. In diesem Fall werden die Projekte mit derselben Portfoliopriorität nach folgenden Kriterien aufgelistet, in dieser Reihenfolge:
 
    1. Ausrichtungsbewertung
    1. Geplantes Startdatum
@@ -138,11 +138,11 @@ So bearbeiten Sie die Priorität der Projektplanung:
 
 Die Priorität der Projektplanung wirkt sich auf die verfügbaren Stunden von Benutzern aus. Die mit dem Projekt verknüpften Benutzer mit der höchsten Priorität zeigen gemäß ihren Zeitplänen, dass sie für die Spalte Verfügbare Stunden (AVL) für dieses Projekt vollständig verfügbar sind.
 
-Dieselben Benutzer, die in der Reihenfolge ihrer Priorität mit dem zweiten Projekt verbunden sind, zeigen den Wert Verfügbare Stunden an, der den Unterschied zwischen der vollen Anzahl verfügbarer Stunden und dem darstellt, was bereits für das erste Projekt in der Spalte &quot;Geplante Stunden&quot;in den Haushaltsplan eingestellt wurde usw. Informationen zu den im Ressourcenplaner verfügbaren Haushaltsmitteln finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansicht](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Dieselben Benutzer, die in der Reihenfolge ihrer Priorität mit dem zweiten Projekt verbunden sind, zeigen den Wert Verfügbare Stunden an, der den Unterschied zwischen der vollen Anzahl verfügbarer Stunden und dem darstellt, was bereits für das erste Projekt in der Spalte &quot;Geplante Stunden&quot;in den Haushaltsplan eingestellt wurde. Weitere Informationen zu Budgetierungsressourcen im Ressourcenplaner finden Sie unter [Budgetressourcen im Ressourcenplaner unter Verwendung der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 Wenn für das erste Projekt keine Stunden (in der Reihenfolge der Priorität) für einen Benutzer in den Haushalt aufgenommen wurden, für das zweite Projekt jedoch Stunden für denselben Benutzer vorgesehen wurden, zeigt der Benutzer die volle Anzahl der verfügbaren Stunden für beide Projekte an.
 
-Es wird empfohlen, die Spalte &quot;Budgetierte Stunden&quot;für Ihre Benutzer in der Reihenfolge der Projekte im Ressourcenplaner zu aktualisieren, um sicherzustellen, dass Sie die verfügbaren Stunden für den Benutzer jederzeit genau sehen können.
+Es wird empfohlen, die Spalte &quot;Geplante Stunden&quot;für Ihre Benutzer in der Reihenfolge der Projekte im Ressourcenplaner zu aktualisieren, um sicherzustellen, dass Sie die verfügbaren Stunden für den Benutzer jederzeit genau sehen können.
 
 >[!NOTE]
 >

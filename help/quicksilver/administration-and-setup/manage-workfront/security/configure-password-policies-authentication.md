@@ -10,7 +10,7 @@ role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
 source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '724'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -43,20 +43,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Authentifizierung konfigurieren (für alle Kunden verfügbar) {#configure-authentication-available-for-all-customers}
 
-Authentifizierungsoptionen werden für alle Kunden angezeigt. Verbesserte Funktionen zur Kennwortverwaltung stehen in Kürze zur Verfügung oder stehen möglicherweise bereits für Ihre Organisation zur Verfügung, wie im Abschnitt beschrieben. [Erweiterte Authentifizierung konfigurieren)](#configure-enhanced-authentication-coming-soon) in diesem Artikel.
+Authentifizierungsoptionen werden für alle Kunden angezeigt. Verbesserte Funktionen zur Kennwortverwaltung stehen in Kürze zur Verfügung oder sind möglicherweise bereits für Ihre Organisation verfügbar, wie im Abschnitt [Erweiterte Authentifizierung konfigurieren)](#configure-enhanced-authentication-coming-soon) in diesem Artikel beschrieben.
 
 So konfigurieren Sie Authentifizierungsvoreinstellungen:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **System** > **Authentifizierung**.
+1. Klicken Sie auf **System** > **Authentifizierung**.
 
 1. Wählen Sie eines der folgenden Felder aus, um die Authentifizierungseinstellungen für Ihr Unternehmen festzulegen:
 
@@ -65,19 +65,19 @@ So konfigurieren Sie Authentifizierungsvoreinstellungen:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Erzwingen, dass Benutzer jedes Mal ihr Kennwort zurücksetzen <em>&lt;value&gt;</em> Tage</td> 
+      <td role="rowheader">Benutzer dazu zwingen, ihr Kennwort alle <em>&lt;Wert&gt;</em> Tage zurückzusetzen</td> 
       <td>Dadurch wird der Zeitrahmen für das Zurücksetzen des Workfront-Kennworts festgelegt. Standardmäßig ist diese Option deaktiviert. Wenn Sie sie aktivieren, können Sie zwischen 30, 60, 90, 120, 180 Tagen wählen. Der Standardwert ist 30 Tage.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Erlauben Sie Benutzern nicht, dasselbe Kennwort wie für die vorherigen festzulegen <em>&lt;value&gt;</em> passwords</td> 
+      <td role="rowheader">Erlauben Sie Benutzern nicht, dasselbe Kennwort wie die vorherigen <em>&lt;Wert&gt;</em>-Kennwörter festzulegen.</td> 
       <td> <p>Dieses Feld untersagt Benutzern, Kennwörter für eine bestimmte Anzahl von Zurücksetzungen wiederzuverwenden. Standardmäßig ist dieses Feld deaktiviert. Wenn Sie sie aktivieren, können Sie diesen Wert auf 5, 10 oder 15 Zurücksetzungen setzen, bevor ein Kennwort wiederverwendet werden kann.</p> <p>Wenn diese Option aktiviert ist, können Benutzer ihre Kennwörter nicht mehr als einmal an einem bestimmten Tag zurücksetzen</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Wenn ein falsches Kennwort fünf Mal hintereinander eingegeben wird, sperren Sie das Konto für <em>&lt;value&gt;</em> Minuten: </td> 
-      <td> <p>Wählen Sie aus, wie lange ein Benutzer fünf Mal hintereinander aus Workfront ausgesperrt wird, nachdem er ein falsches Kennwort eingegeben hat. Standardmäßig ist diese Option aktiviert und die Wartezeit beträgt 10 Minuten. Sie können Konten für 10 Minuten, 30 Minuten, 1 Stunde, 8 Stunden oder 24 Stunden sperren. </p> <p>Durch das manuelle Zurücksetzen des Kennworts für den Benutzer wird dieser standardmäßige Wartewert überschrieben. <br>Benutzer können ihre eigenen Kennwörter zurücksetzen, wenn sie über den Anmeldebildschirm gesperrt werden. Weitere Informationen dazu, wie sie ihr Kennwort zurücksetzen können, finden Sie unter <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Passwort zurücksetzen</a>.</p> </td> 
+      <td role="rowheader">Wenn fünf aufeinander folgende Male ein falsches Kennwort eingegeben wird, sperren Sie das Konto für <em>&lt;Wert&gt;</em> Minuten: </td> 
+      <td> <p>Wählen Sie aus, wie lange ein Benutzer fünf Mal hintereinander aus Workfront ausgesperrt wird, nachdem er ein falsches Kennwort eingegeben hat. Standardmäßig ist diese Option aktiviert und die Wartezeit beträgt 10 Minuten. Sie können Konten für 10 Minuten, 30 Minuten, 1 Stunde, 8 Stunden oder 24 Stunden sperren. </p> <p>Durch das manuelle Zurücksetzen des Kennworts für den Benutzer wird dieser standardmäßige Wartewert überschrieben. <br>Benutzer können ihre eigenen Kennwörter zurücksetzen, wenn sie über den Anmeldebildschirm gesperrt werden. Weitere Informationen dazu, wie sie ihr Kennwort zurücksetzen können, wenn sie es vergessen haben, finden Sie unter <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Passwort zurücksetzen</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Passwörter müssen mindestens enthalten <em>&lt;value&gt;</em> verschiedene Arten von Zeichen:</td> 
+      <td role="rowheader">Passwörter müssen mindestens <em>&lt;Wert&gt;</em> verschiedene Arten von Zeichen enthalten:</td> 
       <td> <p>Bestimmt, wie stark Passwörter für Benutzer sein müssen, indem Sie die Anzahl der verschiedenen Arten von Zeichen auswählen können, die in Ihren Passwörtern erforderlich sind.</p> <p>Ein erkennbares Wörterbuchwort kann nicht als Kennwort verwendet werden.<br>Standardmäßig erfordert Workfront, dass mindestens 2 der folgenden Zeichen in Passwörtern vorhanden sind (Sie können auch verlangen, dass 3 dieser Zeichen für ein gültiges Passwort vorhanden sind): </p> 
        <ul> 
         <li>Großbuchstaben</li> 
@@ -93,18 +93,18 @@ So konfigurieren Sie Authentifizierungsvoreinstellungen:
 
 ## Erweiterte Authentifizierung konfigurieren{#configure-enhanced-authentication-coming-soon}
 
-In diesem Abschnitt wird die erweiterte Authentifizierungserfahrung beschrieben, die möglicherweise noch nicht für Ihr Unternehmen verfügbar ist. Wenn Ihre Organisation nicht zur neuen Authentifizierungserfahrung migriert wurde, müssen Sie die Authentifizierungseinstellungen konfigurieren, wie beschrieben in [Authentifizierung konfigurieren (für alle Kunden verfügbar)](#configure-authentication-available-for-all-customers).
+In diesem Abschnitt wird die erweiterte Authentifizierungserfahrung beschrieben, die möglicherweise noch nicht für Ihr Unternehmen verfügbar ist. Wenn Ihre Organisation nicht zur neuen Authentifizierungserfahrung migriert wurde, müssen Sie die Authentifizierungseinstellungen konfigurieren, wie unter [Authentifizierung konfigurieren (für alle Kunden verfügbar)](#configure-authentication-available-for-all-customers) beschrieben.
 
 So konfigurieren Sie erweiterte Authentifizierungseinstellungen:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **System** > **Erweiterte Authentifizierung**.
-1. Im **Kennwortlänge** Geben Sie die für ein gültiges Passwort erforderliche Mindestanzahl von Zeichen ein.
+1. Klicken Sie auf **System** > **Erweiterte Authentifizierung**.
+1. Geben Sie in das Feld **Kennwortlänge** die Mindestanzahl von Zeichen ein, die für ein gültiges Kennwort erforderlich sind.
 
    Workfront erfordert mindestens 6 Zeichen.
 
-1. (Optional) Im **Passwortanforderungen** wählen Sie die für Benutzerkennwörter erforderlichen Zeichentypen aus.
+1. (Optional) Wählen Sie im Abschnitt **Passwortanforderungen** die für Benutzerkennwörter erforderlichen Zeichentypen aus.
 
    Sie können die Stärke von Benutzerkennwörtern erhöhen, indem Sie einen oder alle im Abschnitt &quot;Passwortanforderungen&quot;aufgeführten Zeichentypen benötigen. Die folgenden Optionen sind verfügbar:
 

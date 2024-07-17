@@ -49,7 +49,7 @@ Sie können dies in Workfront erreichen, indem Sie Folgendes konfigurieren:
 
 * Entwickeln Sie eine standardmäßige Projektmethodik für Ihre Organisation. Dazu gehören die Identifizierung der Benutzer, die für die Erstellung und Verwaltung von Projekten verantwortlich sind, und die Erteilung von Genehmigungen.
 
-  Weitere Informationen zum Erstellen von Projekten finden Sie unter [Projekt erstellen](../../manage-work/projects/create-projects/create-project.md).
+  Weitere Informationen zum Erstellen von Projekten finden Sie unter [Erstellen eines Projekts](../../manage-work/projects/create-projects/create-project.md).
 
   Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -72,7 +72,7 @@ Sie können dies in Workfront erreichen, indem Sie Folgendes konfigurieren:
 
 * Entwickeln Sie einen Prozess für die Bereitstellung von Diensten und verwenden Sie Workfront, um Aufgaben zu verwalten, die mit täglichen oder wöchentlichen Aufgaben verbunden sind.
 * Verwenden Sie Ressourcen-Management-Tools, um die Zuordnung von Ressourcen zu Aufgaben anzuzeigen, damit Sie besser verstehen können, wie sich Produktivität und Qualität der Bereitstellung verbessern lassen.\
-  Weitere Informationen zur Ressourcenplanung finden Sie unter [Ressourcenplanung : Artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  Weitere Informationen zur Ressourcenplanung finden Sie unter [Ressourcenplanung: Artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## Erfolgskriterien definieren
 

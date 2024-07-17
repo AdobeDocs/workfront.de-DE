@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filter: Anzeigen der aktuellen Projekte, deren Genehmigung aussteht'
+title: 'Filter: Anzeige der aktuellen Projekte, deren Genehmigung aussteht'
 description: Der folgende Projektfilter zeigt Projekte im Status Aktuell - Ausstehende Genehmigung an, wobei der angemeldete Benutzer entweder der Projektsponsor oder der Portfolio Manager ist.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -10,11 +10,11 @@ exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Filter: Anzeigen der aktuellen Projekte bis zur Genehmigung
+# Filter: Zeigt Ihre aktuellen Projekte an, deren Genehmigung aussteht
 
 Der folgende Projektfilter zeigt Projekte im Status Aktuell - Ausstehende Genehmigung an, wobei der angemeldete Benutzer entweder der Projektsponsor oder der Portfolio Manager ist.
 
@@ -28,11 +28,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Filteränderung anfordern </p>
+   <td> <p>Filteranforderung </p>
    <p>Berichtänderung planen</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,10 +55,10 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So wenden Sie diesen Filter an:
 
 1. Gehen Sie zu einer Projektliste.
-1. Aus dem **Filter** Dropdown-Menü auswählen **Neuer Filter**.
+1. Wählen Sie aus dem Dropdownmenü **Filter** die Option **Neuer Filter** aus.
 
-1. Klicken **In den Textmodus wechseln**.
-1. Im **Festlegen von Filterregeln für Ihren Bericht** -Bereich, kopieren Sie den folgenden Code und fügen Sie ihn ein:
-   <pre>status=CUR:A<br>sponsorID=$$USER.ID<br>ODER:a:status=CUR:A<br>ODER:a:Portfolio:ownerID=$$USER.ID</pre>
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Kopieren Sie im Bereich **Filterregeln für Ihren Bericht festlegen** den folgenden Code und fügen Sie ihn ein:
+   <pre>status=CUR:A<br>sponsorID=$$USER.ID<br>OR:a:status=CUR:A<br>OR:a:portfolio:ownerID=$$USER.ID</pre>
 
-1. Klicken **Filter speichern**.
+1. Klicken Sie auf **Filter speichern**.

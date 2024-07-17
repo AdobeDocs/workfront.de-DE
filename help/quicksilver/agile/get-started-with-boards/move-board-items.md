@@ -9,7 +9,7 @@ exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
 source-git-commit: 49af035c3bf8770da89c133a27adea676e5daf6d
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Sie können eine Karte in eine beliebige Spalte auf der Pinnwand verschieben oder eine Karte kopieren.
 
-Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, können der Status, die Bevollmächtigten und Tags beim Verschieben einer Karte von einer Spalte in eine andere automatisch aktualisiert werden. Weitere Informationen finden Sie unter &quot;Definieren von Spalteneinstellungen und -richtlinien&quot;im Artikel [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, können der Status, die Bevollmächtigten und Tags beim Verschieben einer Karte von einer Spalte in eine andere automatisch aktualisiert werden. Weitere Informationen finden Sie unter &quot;Spalteneinstellungen und Richtlinien definieren&quot;im Artikel [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 >[!NOTE]
 >
@@ -34,8 +34,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -44,23 +44,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Karten zwischen Spalten verschieben
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Greifen Sie auf eine Pinnwand zu. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Pinnwände]**.![](assets/main-menu-icon.png)
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
 1. Ziehen Sie die Karte in eine andere Spalte an die gewünschte Position.
 
    Oder
 
-   Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Verschieben]**. Klicken Sie anschließend auf die **[!UICONTROL Element verschieben]** auswählen, eine andere Spalte auswählen und **[!UICONTROL Verschieben]**.
+   Klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Verschieben]** aus. Wählen Sie dann im Feld **[!UICONTROL Element verschieben]** eine weitere Spalte und dann **[!UICONTROL Verschieben]** aus.
 
    ![Karte verschieben](assets/boards-move-card-350x217.png)
 
    >[!NOTE]
    >
-   >Wenn Sie **[!UICONTROL Element verschieben]** wird die Karte immer oben in der Spalte angezeigt.
+   >Wenn Sie das Feld **[!UICONTROL Element verschieben]** verwenden, wird die Karte immer oben in der Spalte verschoben.
 
 ## Verschieben von Karten an den oberen oder unteren Rand einer Spalte
 
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Spaltenanfang]** oder **[!UICONTROL Spaltenende]**.
+   Klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Spaltenanfang]** oder **[!UICONTROL Spaltenende]** aus.
 
    ![Mehr Menü](assets/boards-moremenu-350x329.png)
 
@@ -82,8 +82,8 @@ Beim Kopieren einer Ad-hoc-Karte werden alle Felder auf der Karte dupliziert, ei
 >Sie können keine verbundenen Karten kopieren.
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Kopieren]**.
+1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Kopieren]**.
 
    ![Mehr Menü](assets/boards-moremenu-350x329.png)
 
-   Eine neue Karte wird in derselben Spalte mit dem Titel &quot;Kopie von - [Originalkartenname].&quot;
+   In derselben Spalte wird eine neue Karte mit dem Titel &quot;Kopie von - [Originalkartenname]&quot;hinzugefügt.

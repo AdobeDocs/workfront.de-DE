@@ -9,7 +9,7 @@ feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
 source-git-commit: ebc729ad0300d54d294be275773d9ffc13128c83
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Diese Verbesserungen werden in der Produktionsumgebung mit der Version 23.1 verf
 
 <!-- For a list of all changes available for Workfront Goals at this point in the 21.2 release cycle, see [Adobe Workfront Goals with the 21.2 release](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md). -->
 
-Eine Liste aller Änderungen, die für alle Bereiche von Workfront zu diesem Zeitpunkt im Versionszyklus 23.1 verfügbar sind, finden Sie im [23.1 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Eine Liste aller Änderungen, die für alle Bereiche von Workfront zu diesem Zeitpunkt im 23.1-Versionszyklus verfügbar sind, finden Sie in der [23.1-Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Aktualisierungen der Workfront-Ziele
 
@@ -31,15 +31,15 @@ Um ein konsistenteres Erlebnis mit dem Rest von Workfront zu schaffen und die An
 Jetzt sind Bereiche wie die Kopfzeilen-, Listen- und Detailkarten mit Ihrem Workfront-Erlebnis vertraut und konsistent.
 Einzelne Ziele werden auf ihrer eigenen Seite geöffnet. Im linken Bereich haben wir die folgenden Abschnitte hinzugefügt, um die Navigation und Aktualisierung zu erleichtern:
 
-* **Zieldetails**: Zieldetails: Zeigen Sie Informationen wie die Beschreibung, den Fortschritt, die Daten und die Informationen zum übergeordneten Ziel an. Weitere Informationen finden Sie unter [Ziele in Adobe Workfront bearbeiten](/help/quicksilver/workfront-goals/goal-management/edit-goals.md).
-* **Fortschrittsanzeigen**: Zeigen Sie Fortschrittsanzeigen in einer Liste an. Sie können diese Indikatoren inline bearbeiten, Bearbeitungsfenster öffnen oder die Indikatoren aus diesem Bereich löschen. Weitere Informationen finden Sie unter [Ergebnisse und Aktivitäten in Adobe Workfront-Zielen bearbeiten](/help/quicksilver/workfront-goals/results-and-activities/edit-results-and-activities.md).
-* **Updates**: Im Abschnitt Aktualisierungen eines Ziels wurde ein neues Kommentierungserlebnis eingeführt, in dem jetzt Benutzerkommentare und Anmerkungen zu Systemaktivitäten in zwei separaten Registerkarten angezeigt werden. Weitere Informationen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+* **Zieldetails**: Zieldetails: Informationen wie die Beschreibung, den Fortschritt, die Daten und die Informationen des übergeordneten Ziels anzeigen. Weitere Informationen finden Sie unter [Ziele in Adobe Workfront bearbeiten](/help/quicksilver/workfront-goals/goal-management/edit-goals.md).
+* **Fortschrittsanzeigen**: Zeigt Fortschrittsanzeigen in einer Liste an. Sie können diese Indikatoren inline bearbeiten, Bearbeitungsfenster öffnen oder die Indikatoren aus diesem Bereich löschen. Weitere Informationen finden Sie unter [Bearbeiten von Ergebnissen und Aktivitäten in Adobe Workfront-Zielen](/help/quicksilver/workfront-goals/results-and-activities/edit-results-and-activities.md).
+* **Aktualisierungen**: Im Abschnitt &quot;Aktualisierungen&quot;eines Ziels wurde ein neues Kommentierungserlebnis eingeführt, in dem jetzt Benutzerkommentare und Anmerkungen zu Systemaktivitäten auf zwei separaten Registerkarten angezeigt werden. Weitere Informationen finden Sie unter [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 Das Freigeben, Bearbeiten, Löschen oder Kopieren eines Ziels ähnelt der Art und Weise, wie Sie diese Aktionen für andere Objekte in Workfront durchführen.
 
 >[!IMPORTANT]
 >
 >Mit diesem Update haben wir die Bereiche Check-in und Pulse im Bereich Ziele entfernt.
 
-Weitere Informationen zu den Workfront-Zielen finden Sie in den Artikeln im [Workfront-Ziele](/help/quicksilver/workfront-goals/workfront-goals.md) Bereich der Workfront-Dokumentation.
+Weitere Informationen zu Workfront-Zielen finden Sie in den Artikeln, die im Bereich [Workfront-Ziele](/help/quicksilver/workfront-goals/workfront-goals.md) der Workfront-Dokumentation verfügbar sind.
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3413327/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3413327/){target=_blank}

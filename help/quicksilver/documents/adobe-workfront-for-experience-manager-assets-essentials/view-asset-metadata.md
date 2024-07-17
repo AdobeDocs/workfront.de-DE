@@ -26,7 +26,7 @@ Sie müssen über Folgendes verfügen:
   <tr>
    <td><strong>Adobe Workfront-Plan*</strong>
    </td>
-   <td>Beliebig
+   <td>Alle
    </td>
   </tr>
   <tr>
@@ -38,7 +38,7 @@ Sie müssen über Folgendes verfügen:
   <tr>
    <td><strong>Produkt</strong>
    </td>
-   <td>Sie müssen über Experience Manager Assets as a Cloud Service oder Assets Essentials verfügen und dem Produkt als Benutzer in der Admin Console hinzugefügt werden.
+   <td>Sie müssen über as a Cloud Service oder Assets Essentials von Experience Manager Assets verfügen und dem Produkt als Benutzer in der Admin Console hinzugefügt werden.
    </td>
   </tr>
   <tr>
@@ -54,7 +54,7 @@ Sie müssen über Folgendes verfügen:
    </td>
    <td>Zugriff anzeigen oder höher
 <p>
-Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <strong>Zugriff auf Objekte anfordern </strong>.
+Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <strong>Anfordern des Zugriffs auf Objekte </strong>.
    </td>
   </tr>
 </table>
@@ -65,32 +65,32 @@ Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <strong>Z
 
 ## Voraussetzungen
 
-Bevor Sie beginnen,
+Bevor Sie beginnen
 
-* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der Experience Manager Assets as a Cloud Service-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Konfigurieren der Experience Manager Assets Essentials-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Dokumentdetails
 
 So öffnen Sie das Metadatenbedienfeld in den Dokumentdetails:
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
-1. Bewegen Sie den Mauszeiger über das gewünschte Dokument und wählen Sie **Dokumentdetails**.
-1. Suchen und Erweitern Sie die **Metadaten** Abschnitt.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
+1. Bewegen Sie den Mauszeiger über das gewünschte Dokument und wählen Sie dann **Dokumentdetails** aus.
+1. Suchen und erweitern Sie den Abschnitt **Metadaten** .
    >[!NOTE]
    >
    >Die Felder in diesem Abschnitt können nicht bearbeitet werden. Sie sind schreibgeschützt.
 
-![Dokumentdetailbereich](assets/metadata-panel-doc-details.png)
+![Bedienfeld &quot;Dokumentdetails&quot;](assets/metadata-panel-doc-details.png)
 
 
 ## Zusammenfassung für Dokumente
 
 So öffnen Sie das Metadatenbedienfeld im Bereich &quot;Zusammenfassung&quot;:
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 1. Suchen Sie das gewünschte Dokument.
-1. Klicken Sie auf **Zusammenfassungssymbol** ![Zusammenfassungssymbol](assets/summary-panel-icon.png)und erweitern Sie dann die **Metadaten** Abschnitt.
+1. Klicken Sie auf das Symbol **Zusammenfassung** ![Zusammenfassung](assets/summary-panel-icon.png) und erweitern Sie dann den Abschnitt **Metadaten** .
    >[!NOTE]
    >
    >Die Felder in diesem Abschnitt können nicht bearbeitet werden. Sie sind schreibgeschützt.

@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Automatische Erinnerungen oder Erinnerungsbenachrichtigungen
-description: In diesem Artikel werden die Unterschiede zwischen automatischen Erinnerungen und Erinnerungsbenachrichtigungen beschrieben und es werden Szenarien für die einzelnen Erinnerungen bereitgestellt. Weitere Informationen zu allen [!DNL Adobe Workfront] Benachrichtigungen, siehe Adobe [!DNL Workfront] Benachrichtigungen.
+description: In diesem Artikel werden die Unterschiede zwischen automatischen Erinnerungen und Erinnerungsbenachrichtigungen beschrieben und es werden Szenarien für die einzelnen Erinnerungen bereitgestellt. Weitere Informationen zu allen [!DNL Adobe Workfront] Benachrichtigungen finden Sie unter Adobe [!DNL Workfront] Benachrichtigungen.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,18 +18,18 @@ ht-degree: 0%
 
 # Automatische Erinnerungen oder Erinnerungsbenachrichtigungen
 
-In diesem Artikel werden die Unterschiede zwischen automatischen Erinnerungen und Erinnerungsbenachrichtigungen beschrieben und es werden Szenarien für die einzelnen Erinnerungen bereitgestellt. Weitere Informationen zu allen [!DNL Adobe Workfront] Benachrichtigungen, siehe [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
+In diesem Artikel werden die Unterschiede zwischen automatischen Erinnerungen und Erinnerungsbenachrichtigungen beschrieben und es werden Szenarien für die einzelnen Erinnerungen bereitgestellt. Weitere Informationen zu allen [!DNL Adobe Workfront] -Benachrichtigungen finden Sie unter [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Automatische Erinnerungen
 
 Die folgenden Merkmale beziehen sich speziell auf automatische Erinnerungen:
 
-* Kann nur von einer [!DNL Workfront] administrator
+* Kann nur von einem [!DNL Workfront] -Administrator aktiviert und bearbeitet werden
 * werden bei allen Aufgaben und Problemen ausgelöst, wenn sie fällig, spät oder nahe dem geplanten Abschlussdatum liegen
 * Können nur an den Bevollmächtigten, den Geschäftsführer des Bevollmächtigten oder den Manager des unmittelbaren Geschäftsführers gesendet werden.
 * Es darf keine E-Mail-Vorlage angehängt werden.
 
-Szenario: Wenn Erinnerungen für alle Aufgaben und Probleme im System ausgelöst werden sollen, konfigurieren Sie die automatischen Erinnerungseinstellungen. Weitere Informationen finden Sie unter [Automatische Erinnerungen einrichten](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
+Szenario: Wenn Erinnerungen für alle Aufgaben und Probleme im System ausgelöst werden sollen, konfigurieren Sie die automatischen Erinnerungseinstellungen. Weitere Informationen finden Sie unter [Einrichten automatischer Erinnerungen](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
 
 ## Erinnerungsbenachrichtigungen
 
@@ -41,4 +41,4 @@ Die folgenden Merkmale beziehen sich speziell auf Erinnerungsbenachrichtigungen:
 * Kann an verschiedene Objektbeteiligte wie Eigentümer, Ersteller, Genehmiger oder Bevollmächtigten gesendet werden
 * Kann entweder die Standard-E-Mail verwenden oder eine benutzerdefinierte E-Mail-Vorlage verwenden, die angehängt ist
 
-Szenario: Wenn Sie Erinnerungen für Projekte und Timesheets erstellen oder Erinnerungen für Aufgaben und Probleme anpassen möchten, konfigurieren Sie Erinnerungsbenachrichtigungen. Weitere Informationen finden Sie unter [Einrichten von Erinnerungsbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Szenario: Wenn Sie Erinnerungen für Projekte, Timesheets erstellen oder Erinnerungen für Aufgaben und Probleme anpassen möchten, konfigurieren Sie Erinnerungsbenachrichtigungen. Weitere Informationen finden Sie unter [Einrichten von Erinnerungsbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

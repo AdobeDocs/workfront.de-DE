@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Suchen Sie den Ressourcen-Planer .
-description: '"(Dies ist aus diesem Artikel hervorgegangen: entwerfen Sie diesen Inhalt im Artikel, wenn er live kommt: Planning/get-started-resource-planner.html)'''
+description: '(Dieser Artikel ist von diesem Artikel ausgegangen: Entwurf des Inhalts im Artikel, wenn er live kommt: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)'
 author: Alina
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
@@ -49,7 +49,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Projekte und Benutzer anzeigen </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für Projekte und Benutzer anzeigen </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +70,7 @@ Informationen zu den Voraussetzungen für den Ressourcenplaner finden Sie unter 
 
 Sie können den Ressourcenplaner in zwei Bereichen von Workfront finden, je nachdem, ob Sie Ihre Ressourcen für mehrere Projekte oder nur für ein Projekt einsetzen möchten.
 
-* [Verwenden des Ressourcen-Planers für mehrere Projekte](#use-the-resource-planner-for-multiple-projects)
+* [Verwenden Sie den Ressourcenplaner für mehrere Projekte](#use-the-resource-planner-for-multiple-projects)
 * [Verwenden des Ressourcen-Planers für ein Projekt](#use-the-resource-planner-for-one-project)
 
 ### Verwenden des Ressourcen-Planers für mehrere Projekte {#use-the-resource-planner-for-multiple-projects}
@@ -79,13 +79,13 @@ Wenn Sie den Ressourcenplaner für mehrere Projekte verwenden, stellen die Zuord
 
 So greifen Sie auf den Abschnitt &quot;Planer&quot;im Bereich &quot;Ressourcen&quot;zu:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
 
-1. Klicken **Ressourcen**. Der Planer wird standardmäßig angezeigt.  Weitere Informationen zu Budgeteinträgen im Ressourcen-Planer finden Sie im Artikel [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansicht](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+1. Klicken Sie auf **Ressourcen**. Der Planer wird standardmäßig angezeigt.  Weitere Informationen zu Budgeteinträgen im Ressourcenplaner finden Sie im Artikel [Budgetressourcen im Ressourcenplaner unter Verwendung der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
    ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. Bewegen Sie den Mauszeiger über das linke Bedienfeld und klicken Sie auf **Ressourcen-Pools**.\
+1. Bewegen Sie den Mauszeiger über den linken Bereich und klicken Sie auf **Ressourcenpools**.\
    Informationen zum Erstellen von Ressourcen-Pools finden Sie unter [Erstellen von Ressourcen-Pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Verwenden des Ressourcen-Planers für ein Projekt {#use-the-resource-planner-for-one-project}
@@ -93,9 +93,9 @@ So greifen Sie auf den Abschnitt &quot;Planer&quot;im Bereich &quot;Ressourcen&q
 Wenn Sie den Ressourcenplaner für ein Projekt verwenden, stellen die Zuordnungsnummern für Ihre Ressourcen Zahlen für das ausgewählte Projekt dar.
 
 1. Gehen Sie zu einem Projekt, für das Sie Ressourcen planen möchten.
-1. Klicken **Geschäftsfall** im linken Bereich.
-1. Scrollen Sie zum **Ressourcen-Budgetierung** Abschnitt des Geschäftsfalls.
-1. Klicken **Ressourcen-Budgetierung bearbeiten** , um Ressourcen-Pools zu Ihrem Projekt hinzuzufügen und mit der Budgetierung Ihrer Ressourcen zu beginnen.
+1. Klicken Sie im linken Bereich auf **Geschäftsszenario** .
+1. Scrollen Sie zum Abschnitt **Ressourcenbudgeting** des Geschäftsfalls.
+1. Klicken Sie auf **Ressourcen-Budgetierung bearbeiten** , um Ressourcen-Pools zu Ihrem Projekt hinzuzufügen und mit der Budgetierung Ihrer Ressourcen zu beginnen.
 
    >[!TIP]
    >
@@ -103,4 +103,4 @@ Wenn Sie den Ressourcenplaner für ein Projekt verwenden, stellen die Zuordnungs
 
    ![](assets/resource-budgeting-area-on-project-350x70.png)
 
-   Weitere Informationen zu Budgetierungsressourcen für ein Projekt finden Sie in diesem Artikel [Haushaltsmittel im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Informationen zu Budgeteinträgen für ein Projekt finden Sie im Artikel [Budgetressourcen im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

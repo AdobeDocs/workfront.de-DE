@@ -156,7 +156,7 @@ Die Version 2019.3 enthält folgende Verbesserungen:
 
   &quot;Inaktive Projekte&quot;wurde auf der Registerkarte &quot;Projekte&quot;der Mobile App als Filteroption hinzugefügt.
 
-* [Löschen von Objekten mithilfe der Mobile App in iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
+* [Löschen von Objekten mit der Mobile App auf iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
   <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
@@ -357,12 +357,12 @@ Informationen zu den Wartungsupdates, die während der Version 2019.3 vorgenomme
 
 ## Ankündigungen
 
-* [Die neue Workfront-Erlebnis-Beta ist jetzt in der Vorschau verfügbar.](#the-new-workfront-experience-beta-now-available-in-preview)
-* [Workfront Library jetzt verfügbar](#workfront-library-now-available)
+* [Die neue Workfront-Erlebnis-Beta ist jetzt in der Vorschau verfügbar](#the-new-workfront-experience-beta-now-available-in-preview)
+* [Workfront-Bibliothek jetzt verfügbar ](#workfront-library-now-available)
 * [API Version 3 wird nicht mehr unterstützt](#api-version-3-no-longer-supported)
-* [Unterstützung für TLS 1.0 und 1.1 endet](#tls-1-0-and-1-1-support-is-ending)
-* [Entfernen von Flash-Applikationen](#flash-application-removal)
-* [Verschiedene Single-Sign-On-Optionen werden entfernt](#various-single-sign-on-options-to-be-removed)
+* [Die Unterstützung für TLS 1.0 und 1.1 endet ](#tls-1-0-and-1-1-support-is-ending)
+* [Entfernen der Flash-Anwendung](#flash-application-removal)
+* [Verschiedene Single-Sign-On-Optionen, die entfernt werden sollen](#various-single-sign-on-options-to-be-removed)
 * [Webinar zur Produktübersicht für Q3](#q3-product-roadmap-webinar)
 
 ### Die neue Workfront-Erlebnis-Beta ist jetzt in der Vorschau verfügbar. {#the-new-workfront-experience-beta-now-available-in-preview}
@@ -403,7 +403,7 @@ TLS 1.2 to be required in Workfront
 
 Alle Funktionen, die auf Flash-Technologie basieren, wurden seit der Version 2018.3 von Workfront entfernt und durch eine neue -Lösung ersetzt.
 
-Detaillierte Informationen zu den alten Flash-Tools und deren Ersetzung finden Sie unter [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Ausführliche Informationen zu den alten Flash-Tools und deren Ersetzungen finden Sie unter [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md) .
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -443,7 +443,7 @@ Die folgenden Single-Sign-On (SSO)-Optionen werden jetzt nur in begrenztem Umfan
 
 * SAML 1,1
 
-  Weitere Informationen zur Verwendung von SAML 1.1 mit Workfront finden Sie unter [Konfigurieren von Adobe Workfront mit SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Weitere Informationen zur Verwendung von SAML 1.1 mit Workfront finden Sie unter [Adobe Workfront mit SAML 1.1 konfigurieren](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) .
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ Im Folgenden finden Sie die Zeitleiste für die Entfernung dieser SSO-Optionen:
 
 ### Webinar zur Produktübersicht für Q3 {#q3-product-roadmap-webinar}
 
-Erfahren Sie mehr darüber, was während der [Webinar zur Q3-Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) am 1. August um 9:00 Uhr MST.
+Erfahren Sie mehr darüber, was während des Webinars [Q3 Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) am 1. August um 9:00 Uhr vorkommen wird. MST.

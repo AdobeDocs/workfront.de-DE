@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Ankündigungsarchiv
 
-* [Aktualisierte mobile App für iOS und Android (Anfang August 2017)](updated-mobile-app.md)
+* [Aktualisierte Mobile App für iOS und Android (Anfang August 2017)](updated-mobile-app.md)
 * [TLS 1.2 in Adobe Workfront erforderlich](tls-1-disabled.md)
 * [Das Outlook 365-Add-In ist jetzt verfügbar.](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
 * [Ersetzen von Flash-basierten Tools in Adobe Workfront](replace-flash-tools.md)

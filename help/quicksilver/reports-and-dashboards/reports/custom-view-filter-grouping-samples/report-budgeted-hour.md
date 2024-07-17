@@ -52,7 +52,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,13 +61,13 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Erstellen eines budgetierten Stundenberichts
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Berichte**.
+1. Klicken Sie oben rechts auf das Hauptmenü **![](assets/main-menu-icon.png) und dann auf** Berichte **.**
 
-1. Klicks **Neuer Bericht > Budgetzeit**.
+1. Klicken Sie auf **Neuer Bericht > Budgetierte Stunde**.
 
    Die Standardansicht wird auf den Bericht angewendet.
 
-1. (Optional) Um den Bericht leichter zu lesen, klicken Sie auf die Schaltfläche **Budgetierte Stunden** Spalte, dann **In den Textmodus wechseln**, ändern Sie dann die
+1. (Optional) Um den Bericht leichter zu lesen, klicken Sie auf die Spalte **Budgetierte Stunden** , dann auf **Wechseln in Textmodus** und ändern Sie dann die
 
    ```
    valuefield
@@ -83,20 +83,20 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    Dadurch wird die Anzahl der geplanten Stunden auf eine Anzahl von Dezimalstellen gerundet, die Sie angeben.
 
-   Informationen zum Umrunden einer Zahl in Workfront finden Sie im Artikel [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zum Umrunden einer Zahl in Workfront finden Sie im Artikel [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. (Optional) Klicken Sie auf **Spalte hinzufügen** , um zusätzliche Spalten hinzuzufügen.
 1. (Optional) Um das Lesen des Berichts zu vereinfachen, wird empfohlen, ihm eine Gruppierung hinzuzufügen. Wir empfehlen die folgende Gruppierung:
 
-   Klicken Sie auf **Gruppierungen** und führen Sie dann einen oder mehrere der folgenden Schritte aus:
+   Klicken Sie auf die Registerkarte **Gruppierungen** und führen Sie dann einen oder mehrere der folgenden Schritte aus:
 
-   1. Klicks **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Projektname&quot;, wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-   1. Klicks **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Auftragsrollenname&quot;und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-   1. Klicks **Gruppierung hinzufügen** und Eingabe beginnen **Zuordnungsdatum**, wählen Sie es aus, wenn es in der Liste angezeigt wird, und wählen Sie dann den Zeitrahmen aus, nach dem Sie die Gruppe gruppieren möchten. **Gruppierungstermine nach** -Feld.
+   1. Klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Projektname&quot;. Wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird.
+   1. Klicken Sie auf &quot;**Gruppierung hinzufügen**&quot;, geben Sie &quot;Auftragsrollenname&quot;ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+   1. Klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von **Zuordnungsdatum**, wählen Sie diese aus, wenn sie in der Liste angezeigt wird, und wählen Sie dann den Zeitrahmen aus, nach dem Sie eine Gruppe bilden möchten, aus dem Feld **Datumsgruppen nach**.
 
-1. (Optional) Klicken Sie auf **Filter** , um Filter zum Bericht hinzuzufügen.
-1. (Optional) Klicken Sie auf **Diagramm** , um dem Bericht ein Diagramm hinzuzufügen.
-1. Klicks **Speichern und schließen**.
+1. (Optional) Klicken Sie auf **Filter** , um dem Bericht Filter hinzuzufügen.
+1. (Optional) Klicken Sie auf **Diagramm** , um dem Bericht ein Diagramm hinzuzufügen.
+1. Klicken Sie auf **Speichern + Schließen**.
 
 ## Überprüfung des Berichts über die budgetierte Stunde
 

@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Beitragen oder höhere Berechtigungen zu einem Arbeitsbereich</a> </p>  
+   <td> <p>Contribute oder höhere Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
@@ -113,14 +113,14 @@ Sie können einen Datensatz aus den folgenden Bereichen löschen:
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie in der Tabellenansicht auf den Namen eines Datensatzes.
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Ansicht**
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes, klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Anzeigen** .
 
      ![](assets/contextual-menu-for-record-row.png)
    * Klicken Sie in einer Timeline-Ansicht auf eine Datensatzleiste.
 
    Die Datensatzseite wird geöffnet.
 
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Datensatznamen klicken Sie auf **Löschen**, dann **Löschen** erneut zu bestätigen.
+1. Klicken Sie auf das Menü **Mehr** rechts neben dem Datensatznamen, klicken Sie dann auf **Löschen** und dann erneut auf **Löschen** , um dies zu bestätigen.![](assets/more-menu.png)
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Der Datensatz wird gelöscht und kann nicht wiederhergestellt werden.
@@ -136,17 +136,17 @@ Der Datensatz wird gelöscht und kann nicht wiederhergestellt werden.
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
-1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü oben links in der Tabelle eine Tabellenansicht auswählen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
+1. (Bedingt) Wählen Sie aus dem Dropdownmenü **Ansicht** in der linken oberen Ecke der Tabelle eine Tabellenansicht aus. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
 
    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Rechtsklicken Sie auf eine Datensatzzeile und klicken Sie dann auf **Löschen**.
-   * Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Datensatznamen klicken Sie auf **Löschen**
+   * Klicken Sie mit der rechten Maustaste auf eine Datensatzzeile und klicken Sie dann auf **Löschen**.
+   * Klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) rechts neben dem Datensatznamen und dann auf **Löschen**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Klicken Sie auf **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) , um das Feld mit den detaillierten Informationen des Datensatzes zu öffnen, und klicken Sie auf **Mehr** ![](assets/more-menu.png) rechts neben dem Datensatznamen, und **Löschen**.
+   * Klicken Sie auf das Symbol **Details öffnen** ![](assets/open-details-icon-in-table-name-field.png) , um das Feld mit den detaillierten Informationen des Datensatzes zu öffnen, und klicken Sie auf **Mehr** ![](assets/more-menu.png) rechts neben dem Datensatznamen und dann auf **Löschen**.
 
    Der Datensatz wird gelöscht und kann nicht wiederhergestellt werden.
 

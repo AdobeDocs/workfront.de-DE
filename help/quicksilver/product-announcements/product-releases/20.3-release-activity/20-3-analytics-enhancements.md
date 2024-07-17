@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Analyseverbesserungen beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 
-Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Verbesserte Analysen finden Sie hier!
 
@@ -34,5 +34,5 @@ Sie können sich auf verschiedene Projekte konzentrieren oder die Anzahl der Pro
 
 Zusätzlich zu den Einblicken, die Sie gewinnen können, können Sie auch Aktionen für Aufgaben ausführen, z. B. den Status aktualisieren, eine Aktualisierung anfordern, die Aufgabe jemandem zuweisen usw.—direkt aus dem Bereich &quot;Erweiterte Analyse&quot;.
 
-Weitere Informationen finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Weitere Informationen finden Sie unter [Überblick über erweiterte Analysen](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

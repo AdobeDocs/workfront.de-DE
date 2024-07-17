@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
 source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '716'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Abo</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Plan</a>*</td> 
    <td> <p>Unternehmen oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +42,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigung für Projekt- und Aufgabenobjekte anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigung für Projekt- und Aufgabenobjekte anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,45 +51,45 @@ Sie müssen über Folgendes verfügen:
 
 ## Voraussetzungen
 
-Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;in der [Übersicht über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Grundlegendes zu den Aufgaben in der Flugvisualisierung
 
 Die Aufgaben in der Visualisierung des Flugplans zeigen die folgenden Aufgabendetails an:
 
-* **Geplante Aufgabendauer**: Die Länge einer Taskleiste gibt die geplante Dauer an, die auf dem Start- und Abschlussdatum der Aufgabe basiert.
+* **Geplante Aufgabendauer**: Die Länge einer Taskleiste gibt die geplante Dauer an, die auf dem Startdatum und dem Abschlussdatum der Aufgabe basiert.
 
-   ![](assets/tasks-in-flight-duration-350x80.png)
+  ![](assets/tasks-in-flight-duration-350x80.png)
 
-* **Arbeitsaufwand abgeschlossen**: Die dunkelblaue Farbe in einer Aufgabenleiste gibt an, wie viel Arbeit für eine Aufgabe abgeschlossen wurde. Dieser Fertigstellungsprozentsatz wird rechts neben der Taskleiste angezeigt.
+* **Abgeschlossener Arbeitsaufwand**: Die dunkelblaue Farbe in einer Aufgabenleiste gibt an, wie viel Arbeit für eine Aufgabe abgeschlossen wurde. Dieser Fertigstellungsprozentsatz wird rechts neben der Taskleiste angezeigt.
 
-   ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![](assets/tasks-in-flight-dark-blue-350x35.png)
 
-* **verbleibende Arbeitsleistung**: Die hellblaue Farbe in einer Aufgabenleiste gibt an, wie viel Arbeit für eine Aufgabe ausgeführt werden muss.
+* **verbleibender Arbeitsaufwand**: Die hellblaue Farbe in einer Aufgabenleiste gibt an, wie viel Arbeit für eine Aufgabe ausgeführt werden muss.
 
-   ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![](assets/tasks-in-flight-light-blue-350x35.png)
 
 Anhand dieser Informationen können Sie Folgendes feststellen:
 
 * Wo der Arbeitsaufwand im Mittelpunkt stand.
-* Welche Aufgaben könnten ein Projekt gefährden?
-* Wie nah eine Aufgabe am Ende ist.
-* Mit wem du über eine bestimmte Aufgabe reden musst.
+* Welche Aufgaben ein Projekt gefährden könnten.
+* Wie nah eine Aufgabe an der Fertigstellung ist.
+* Mit wem Sie über eine bestimmte Aufgabe reden müssen.
 
-Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Überblick über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Aufgaben in der Flugvisualisierung anzeigen
 
-1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon-16x12.png), wählen Sie **Analytics**.
+1. Klicken Sie auf das Hauptmenü-Symbol ![](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics** aus.
 1. (Optional) Wenn Sie einen anderen Datumsbereich verwenden möchten, wählen Sie im Filter für den Datumsbereich die neuen Start- und Enddaten aus.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Bedingt) Wenn Sie den Projektdatensatz einschränken müssen, wählen Sie die Filter aus, die Sie verwenden möchten, und wenden Sie sie an.
 
-   Weitere Informationen zum Hinzufügen von Filtern in der erweiterten Analyse finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Weitere Informationen zum Hinzufügen von Filtern in Enhanced Analytics finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nach dem Hinzufügen von Filtern werden Daten für bis zu 50 Projekte angezeigt und die Filter bleiben auch dann aktiv, wenn Sie die Seite verlassen oder sich von Workfront abmelden.
 
@@ -105,8 +105,9 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
    >   
    >   * [Anzeigen der Visualisierung des Flugplans in der erweiterten Analyse](../enhanced-analytics/flight-plan-overview.md)
    >   * [Anzeigen der Projekt-Treemap-Visualisierung in Enhanced Analytics](../enhanced-analytics/project-treemap-overview.md)
-   >   * [Anzeigen der Niederschlagsvisualisierung in der erweiterten Analyse](../enhanced-analytics/burndown-overview.md)
-
+   >   * [Anzeigen der Aufschlüsselungsvisualisierung in der erweiterten Analyse](../enhanced-analytics/burndown-overview.md)
+   >   
+   >
 
 1. (Optional) Wenn Sie einen Datumsbereich vergrößern möchten, wählen Sie einen Punkt auf der Visualisierung für den Anfang Ihres Datumsbereichs aus und ziehen Sie ihn an das Ende Ihres Datumsbereichs.
 
@@ -114,11 +115,11 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Optional) Um die Sortierung der Aufgaben zu ändern, klicken Sie auf die Schaltfläche **Sortieren nach** und wählen Sie eine neue Sortieroption aus:
+1. (Optional) Um die Sortierung der Aufgaben zu ändern, klicken Sie auf das Menü **Sortieren nach** und wählen Sie dann eine neue Sortieroption aus:
 
    * **Abschlussdatum**
-   * **Alphabetisch von A-Z**
-   * **Aufschlüsselungsstruktur der Arbeit** (Diese Option entspricht der Reihenfolge, in der die Aufgaben im Projekt angezeigt werden.)
+   * **Alphabetisch A-Z**
+   * **Struktur der Aufschlüsselung der Arbeit** (Diese Option entspricht der Reihenfolge, in der die Aufgaben im Projekt angezeigt werden.)
 
    Alle anderen Visualisierungen auf der Seite werden entsprechend Ihrer Sortierungsauswahl aktualisiert.
 
@@ -130,7 +131,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    ![](assets/task-details-qs-350x675.png)
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Symbol &quot;Exportieren&quot;** ![](assets/export.png) Wählen Sie oben rechts in der Visualisierung das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie oben rechts in der Visualisierung auf das Symbol **Exportieren** ![](assets/export.png) und wählen Sie dann das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**

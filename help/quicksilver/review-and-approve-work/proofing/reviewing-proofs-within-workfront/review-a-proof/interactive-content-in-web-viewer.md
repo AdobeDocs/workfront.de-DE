@@ -29,23 +29,23 @@ Der Web Proofing Viewer weist die folgenden Einschränkungen auf:
 
 >[!IMPORTANT]
 >
->Sie müssen das alte Browser-Plugin installieren, um interaktive Testsendungen im Web Proofing Viewer kommentieren zu können. Dieses Plug-in ist nur in Firefox im [Firefox Add-ons-Store](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
+>Sie müssen das alte Browser-Plugin installieren, um interaktive Testsendungen im Web Proofing Viewer kommentieren zu können. Dieses Plug-in ist nur in Firefox im [Firefox-Add-ons-Store](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/) verfügbar.
 
 ## Einrichten der interaktiven Inhaltsüberprüfung im Web Proofing-Viewer
 
 1. Öffnen Sie einen aus einer ZIP-Datei mit interaktiven Inhalten erstellten Testversand.
 
-   Weitere Informationen finden Sie unter [Informationen zum Vorbereiten von interaktiven Inhalten in einer ZIP-Datei für die Prüfung](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [Übersicht über interaktive Inhaltsanalysen](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+   Weitere Informationen finden Sie unter [Informationen zum Vorbereiten interaktiver Inhalte in einer ZIP-Datei für den Testversand](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in der Übersicht über interaktive Testsendungen](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).[
 
    Siehe auch [Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
-1. Klicks **Kommentar hinzufügen**.
+1. Klicken Sie auf **Kommentar hinzufügen**.
 
    In einer Meldung werden Sie aufgefordert, die Browsererweiterung für interaktive Inhalte herunterzuladen.
 
-1. Klicks **Browser hinzufügen** , um zur Download-Seite der Erweiterung im Store Ihres Browsers zu wechseln, und laden Sie dann die Erweiterung herunter.
-1. Klicken Sie im Web Proofing Viewer auf **Testversand erneut laden**.
+1. Klicken Sie auf **Zum Browser hinzufügen** , um zur Download-Seite der Erweiterung im Store Ihres Browsers zu wechseln, und laden Sie dann die Erweiterung herunter.
+1. Klicken Sie im Web Proofing Viewer auf **Testversand neu laden**.
 
-Wenn die Erweiterung im Browser installiert ist, erstellt der Testversand-Viewer jedes Mal einen statischen Screenshot Ihres Inhalts, wenn Sie auf **Kommentar hinzufügen**. In diesem Screenshot können Sie Kommentare mit Markups hinzufügen.
+Wenn die Erweiterung im Browser installiert ist, erstellt der Testversand-Viewer jedes Mal, wenn Sie auf **Kommentar hinzufügen** klicken, einen statischen Screenshot Ihres Inhalts. In diesem Screenshot können Sie Kommentare mit Markups hinzufügen.
 
  

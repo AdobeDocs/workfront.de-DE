@@ -27,7 +27,7 @@ Lesen Sie weiter unten, um weitere Informationen zu geplanten Funktionen und Ver
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420544/)
 
-* **Einbeziehung von Interessengruppen**\
+* **Einbeziehung der Interessenträger**\
     Neue Dokumentgenehmigungen ermöglichen die Einbeziehung sowohl einzelner Mitwirkender als auch ganzer Teams in den Genehmigungsprozess. Die Erleichterung dieser breiteren Beteiligung gewährleistet ein umfassendes Engagement der Interessenträger und fördert ein besser informiertes und kollaboratives Entscheidungsumfeld.
 
 * **Unterschiedliche Rollen für Überprüfung und Genehmigung**\
@@ -47,9 +47,9 @@ Wenn Sie in Ihrer Produktionsumgebung neue Dokumentgenehmigungen aktivieren möc
 
 ## Verwenden neuer Dokumentgenehmigungen
 
-Benutzer, die Dokumentgenehmigungen erstellen oder verwalten möchten, finden Informationen in den Artikeln unter [Asset- und Dokumentgenehmigungen einrichten und verwalten: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Benutzer, die Dokumentgenehmigungen erstellen oder verwalten möchten, finden Informationen in den Artikeln unter &quot;[Einrichten und Verwalten von Asset- und Dokumentgenehmigungen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)&quot;.
 
-Benutzer, die Dokumente überprüfen oder genehmigen möchten, für die sie eine Anforderung erhalten haben, finden in den Artikeln unter [Dokumente genehmigen und überprüfen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Benutzer, die Dokumente überprüfen oder genehmigen möchten, für die sie eine Anforderung erhalten haben, finden Informationen in den Artikeln unter [Dokumente genehmigen und überprüfen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

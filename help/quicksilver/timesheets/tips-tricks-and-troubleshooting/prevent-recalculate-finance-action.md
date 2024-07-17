@@ -22,4 +22,4 @@ Sie müssen die stündlichen Kosten für einen Benutzer oder eine Rolle im Arbei
 
 ## Lösung
 
-Fügen Sie die Stunden, die Sie nicht ändern möchten, zu einem Rechnungsdatensatz im Projekt hinzu und setzen Sie den Status des Abrechnungsdatensatzes auf &quot;Abgerechnet&quot;.  Dies hängt von der alten Rate ab und wird von der Aktion Finanzen neu berechnen ignoriert.  Alle Stunden, die nicht zu einem abrechnungsfähigen Datensatz gehören, werden zum neuen Tarif berechnet. Weitere Informationen finden Sie unter [Neuberechnung der Projektfinanzen](../../manage-work/projects/project-finances/recalculate-project-finances.md).
+Fügen Sie die Stunden, die Sie nicht ändern möchten, zu einem Rechnungsdatensatz im Projekt hinzu und setzen Sie den Status des Abrechnungsdatensatzes auf &quot;Abgerechnet&quot;.  Dies hängt von der alten Rate ab und wird von der Aktion Finanzen neu berechnen ignoriert.  Alle Stunden, die nicht zu einem abrechnungsfähigen Datensatz gehören, werden zum neuen Tarif berechnet. Weitere Informationen finden Sie unter [Neuberechnen der Projektfinanzen](../../manage-work/projects/project-finances/recalculate-project-finances.md).

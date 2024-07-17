@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit der Version vom 4. Quartal 2023 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden mit Version 23.10 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des vierten Quartals 2023 verfügbar sind, finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2023 verfügbar sind, finden Sie unter [Überblick über das vierte Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Verbesserungen beim Senden von Dokumenten an SharePoint (GraphAPI)
 

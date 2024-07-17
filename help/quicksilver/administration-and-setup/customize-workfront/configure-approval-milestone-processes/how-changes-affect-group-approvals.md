@@ -11,7 +11,7 @@ role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1495'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 In diesem Artikel wird erläutert, was passiert, wenn ein Genehmigungsprozess bereits mit Aufgaben, Problemen, Projekten, Vorlagen oder Vorlagenaufgaben verknüpft ist und ein Workfront-Administrator (oder ein Benutzer mit Administratorzugriff auf Genehmigungsprozesse) eine der folgenden Aktionen ausführt:
 
 * Ändert den Validierungsprozess (Gruppenebene) von einer Gruppe in eine andere
-* Ändert die mit dem Projekt verknüpfte Gruppe
+* Ändert die dem Projekt zugeordnete Gruppe
 * Ändert den Validierungsprozess von Gruppenebene zu Systemebene
 * Ändert den Validierungsprozess von der Systemebene zur Gruppenebene
 
@@ -37,7 +37,7 @@ Informationen zu den drei Arten von Genehmigungsprozessen, die Sie in Workfront 
 >
 >Erwägen Sie, die Genehmigungsprozesse auf Gruppenebene für das Projekt oder dessen Aufgaben oder Probleme zu entfernen, bevor Sie die Projektgruppe aktualisieren.
 >
->Informationen zum Erstellen von Genehmigungsprozessen auf Gruppenebene finden Sie unter [Validierungsprozesse auf Gruppenebene](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+>Informationen zum Erstellen von Genehmigungsprozessen auf Gruppenebene finden Sie unter [Genehmigungsprozesse auf Gruppenebene](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 >
 >Informationen zum Erstellen eines benutzerdefinierten Status auf Gruppenebene finden Sie unter [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
 
@@ -69,22 +69,22 @@ Die folgenden Szenarien treten auf, wenn bereits ein gruppenspezifischer Validie
   </tr> 
   <tr> 
    <td>Genehmigung ausstellen</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td>wird zu einem Genehmigungsprozess für den einmaligen Gebrauch</td> 
   </tr> 
   <tr> 
    <td>Aufgabenbereich im Feld "Projekt bearbeiten"oder "Vorlage bearbeiten"</td> 
    <td>Aufgabe</td> 
-   <td> <p>Das Feld "Task Default Approval Process"wird auf "N/A"zurückgesetzt.</p> <p>Standardmäßig sind keine Genehmigungsprozesse mit neuen Aufgaben im Projekt verknüpft.</p> </td> 
+   <td> <p>Das Feld "Task Default Approval Process"wird auf N/A zurückgesetzt.</p> <p>Standardmäßig sind keine Genehmigungsprozesse mit neuen Aufgaben im Projekt verknüpft.</p> </td> 
   </tr> 
   <tr> 
    <td>Bereich "Queue Details"eines Projekts oder einer Vorlage</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td> <p>Das Feld Standardgenehmigung wird auf K/A zurückgesetzt.</p> <p>Standardmäßig sind keine Genehmigungsprozesse mit neuen Problemen oder Anforderungen im Projekt verknüpft.</p> </td> 
   </tr> 
   <tr> 
    <td>Queue Topic section of a project or template</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td> <p>Das Feld Standardgenehmigung wird auf K/A zurückgesetzt.</p> <p>Standardmäßig sind keine Genehmigungsprozesse mit neuen Problemen oder Anforderungen im Projekt verknüpft.</p> </td> 
   </tr> 
  </tbody> 
@@ -118,7 +118,7 @@ Wenn jemand die mit einem Projekt verknüpfte Gruppe in eine andere Gruppe ände
   </tr> 
   <tr> 
    <td>Genehmigung ausstellen</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td>Wird zu einem Genehmigungsprozess für die einmalige Verwendung und der zugehörige Status wird aktualisiert und entspricht nun einem ähnlichen Status für die neue Gruppe.</td> 
   </tr> 
   <tr> 
@@ -128,12 +128,12 @@ Wenn jemand die mit einem Projekt verknüpfte Gruppe in eine andere Gruppe ände
   </tr> 
   <tr> 
    <td>Bereich "Queue Details"eines Projekts oder einer Vorlage</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td> <p>Das Feld Standardgenehmigungsprozess wird auf N/A zurückgesetzt</p> <p>Standardmäßig sind keine Genehmigungsprozesse mit neuen Problemen oder Anforderungen im Projekt verknüpft</p> </td> 
   </tr> 
   <tr> 
    <td>Queue Topic section of a project or template</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td> <p>Das Feld Standardgenehmigungsprozess wird auf N/A zurückgesetzt</p> <p>Standardmäßig sind keine Genehmigungsprozesse mit neuen Problemen oder Anforderungen im Projekt verknüpft</p> </td> 
   </tr> 
  </tbody> 
@@ -167,7 +167,7 @@ Wenn jemand die Gruppenoption in einem gruppenspezifischen Validierungsprozess i
   </tr> 
   <tr> 
    <td>Genehmigung ausstellen</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td>Keine Änderung</td> 
   </tr> 
   <tr> 
@@ -177,12 +177,12 @@ Wenn jemand die Gruppenoption in einem gruppenspezifischen Validierungsprozess i
   </tr> 
   <tr> 
    <td>Bereich "Queue Details"eines Projekts oder einer Vorlage</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td> <p>Keine Änderung am Genehmigungsprozess, sondern standardmäßig mit neuen Problemen oder Anforderungen am Projekt verknüpft</p> </td> 
   </tr> 
   <tr> 
    <td>Queue Topic section of a project or template</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td> <p>Keine Änderung am Genehmigungsprozess, sondern standardmäßig mit neuen Problemen oder Anforderungen am Projekt verknüpft</p> </td> 
   </tr> 
  </tbody> 
@@ -216,12 +216,12 @@ Wenn jemand die Verfügbarkeit eines systemweiten Validierungsprozesses von &quo
   </tr> 
   <tr> 
    <td>Bereich "Queue Details"für ein Projekt oder eine Vorlage, das/die zur Gruppe des Genehmigungsprozesses gehört</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td> <p>Keine Änderung am Genehmigungsprozess, sondern standardmäßig mit neuen Problemen oder Anforderungen am Projekt verknüpft</p> </td> 
   </tr> 
   <tr> 
    <td>Bereich "Warteschlangenthema"für ein Projekt oder eine Vorlage, das/die zur Gruppe des Genehmigungsprozesses gehört</td> 
-   <td>Anfrage</td> 
+   <td>Problem</td> 
    <td> <p>Keine Änderung am Genehmigungsprozess, sondern standardmäßig mit neuen Problemen oder Anforderungen am Projekt verknüpft</p> </td> 
   </tr> 
   <tr> 
@@ -232,7 +232,7 @@ Wenn jemand die Verfügbarkeit eines systemweiten Validierungsprozesses von &quo
   <tr> 
    <td>Aufgabenbereich im Feld "Projekt bearbeiten"oder "Vorlage bearbeiten"für ein Projekt oder eine Vorlage, das/die zu einer anderen Gruppe als der Gruppe des Validierungsprozesses gehört</td> 
    <td>Aufgaben</td> 
-   <td> <p>Das Feld "Task Default Approval Process"wird auf "N/A"zurückgesetzt.</p> <p>Standardmäßig sind keine Genehmigungsprozesse mit neuen Aufgaben im Projekt verknüpft.</p> </td> 
+   <td> <p>Das Feld "Task Default Approval Process"wird auf N/A zurückgesetzt.</p> <p>Standardmäßig sind keine Genehmigungsprozesse mit neuen Aufgaben im Projekt verknüpft.</p> </td> 
   </tr> 
   <tr> 
    <td>Bereich "Queue Details"für ein Projekt oder eine Vorlage, das/die zu einer anderen Gruppe als der Gruppe des Genehmigungsprozesses gehört</td> 
@@ -254,7 +254,7 @@ Das Verschieben oder Kopieren einer Aufgabe oder eines Problems von einem Projek
 | Vorgang zur ursprünglichen Aufgabe oder zur Genehmigung eines Problems | Gruppen der beiden Projekte | Änderungen im Genehmigungsprozess, nachdem die Aufgabe oder das Problem in ein anderes Projekt verschoben wurde |
 |---|---|---|
 | Genehmigungsprozess für den einmaligen Gebrauch, der mit einem systemweiten Status verknüpft ist | Projekte befinden sich in derselben oder unterschiedlichen Gruppen | Keine Änderung |
-| Validierungsprozess für die einmalige Verwendung, der einem gruppenspezifischen Status zugeordnet ist | Projekte befinden sich in verschiedenen Gruppen | Die Genehmigung bleibt ein Genehmigungsprozess für die einmalige Verwendung und der mit der Genehmigung verknüpfte Status wird entsprechend dem Status für die neue Gruppe aktualisiert. |
+| Validierungsprozess für die einmalige Verwendung, der mit einem gruppenspezifischen Status verknüpft ist | Projekte befinden sich in verschiedenen Gruppen | Die Genehmigung bleibt ein Genehmigungsprozess für die einmalige Verwendung, und der mit der Genehmigung verknüpfte Status wird entsprechend dem Status für die neue Gruppe aktualisiert. |
 | Systemweiter Genehmigungsprozess | Projekte befinden sich in derselben oder unterschiedlichen Gruppen | Keine Änderung |
 | Gruppenspezifischer Validierungsprozess | Projekte befinden sich in derselben Gruppe | Keine Änderung |
 | Gruppenspezifischer Validierungsprozess | Projekte befinden sich in verschiedenen Gruppen und die Gruppen haben unterschiedliche gruppenspezifische Status | Die Genehmigung wird zu einem Validierungsprozess für die einmalige Verwendung, und der mit der Genehmigung verknüpfte Status wird entsprechend dem Status für die neue Gruppe aktualisiert. |

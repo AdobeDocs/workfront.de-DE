@@ -25,4 +25,4 @@ Im Folgenden finden Sie Ankündigungen, mit denen Sie möglicherweise vertraut s
 
 
 
-Ältere Ankündigungen finden Sie im Abschnitt [Ankündigungsarchiv](announcement-archive/announcement-archive.md).
+Ältere Ankündigungen finden Sie im Archiv [Ankündigung](announcement-archive/announcement-archive.md) .

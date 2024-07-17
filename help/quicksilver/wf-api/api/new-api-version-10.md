@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 35%
+source-wordcount: '487'
+ht-degree: 39%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 35%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | HINZUFÜGEN |
 |   |   |   |   |   |   | COUNT  |
-|   |   |   |   |   |   | LÖSCHEN  |
+|   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | BEARBEITEN  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | BERICHT  |
@@ -54,7 +54,7 @@ ht-degree: 35%
 | ID |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | BERICHT  |
-|   |   |   |   |   |   | SEARCH  |
+|   |   |   |   |   |   | SUCHEN  |
 
 {style="table-layout:auto"}
 
@@ -64,11 +64,11 @@ ht-degree: 35%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | HINZUFÜGEN |
 |   |   |   |   |   |   | COUNT |
-|   |   |   |   |   |   | LÖSCHEN  |
+|   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | BEARBEITEN  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | BERICHT  |
-|   |   |   |   |   |   | SEARCH  |
+|   |   |   |   |   |   | SUCHEN  |
 
 {style="table-layout:auto"}
 
@@ -134,7 +134,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 {style="table-layout:auto"}
 
-`<sup>1</sup>`Validator hinzugefügt: LESS_THAN_EQUAL
+`<sup>1</sup>`hat validator LESS_THAN_EQUAL hinzugefügt
 
 ### BudgetedHour
 
@@ -154,7 +154,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderungen an möglichenWerten
+<sup>1</sup> Änderungen an den möglichenWerten
 
 ### DocMetadataLinkGroup
 
@@ -191,7 +191,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderungen an möglichenWerten
+<sup>1</sup> Änderungen an den möglichenWerten
 
 Ausgabe
 
@@ -218,7 +218,7 @@ Ausgabe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderungen an möglichenWerten
+<sup>1</sup> Änderungen an den möglichenWerten
 
 ### OpTask
 
@@ -274,7 +274,7 @@ Ausgabe
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Hinzugefügte Validator-WÄHRUNG
+<sup>1</sup>hat Validator-WÄHRUNG hinzugefügt
 
 ### Aufgabe
 
@@ -296,7 +296,7 @@ Ausgabe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Validator hinzugefügt LESS_THAN
+<sup>1</sup> Validator LESS_THAN hinzugefügt
 
 ### TeamAssignment
 
@@ -330,7 +330,7 @@ Ausgabe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderungen an möglichenWerten
+<sup>1</sup> ändert sich in &quot;possibleValues&quot;
 
 ### Benutzerin oder Benutzer
 
@@ -348,7 +348,7 @@ Ausgabe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderungen an möglichenWerten
+<sup>1</sup> ändert sich in &quot;possibleValues&quot;
 
 ### Arbeit
 
@@ -370,7 +370,7 @@ Ausgabe
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | HINZUFÜGEN  |
 | budgetHours |   |   |   |   |   | COUNT  |
-| ID |   |   |   |   |   | LÖSCHEN  |
+| ID |   |   |   |   |   | DELETE  |
 | scheduledBudgetedHours |   |   |   |   |   | BEARBEITEN  |
 | projectID |   |   |   |   |   | GET  |
 | roleID |   |   |   |   |   | BERICHT  |

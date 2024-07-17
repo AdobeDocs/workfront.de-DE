@@ -33,9 +33,9 @@ In diesem Artikel werden die Bereiche beschrieben, in denen Sie auf den Lastenau
 >Weitere Informationen zum Arbeitslastausgleich und dessen Verwendung für die Verwaltung und Planung Ihrer Ressourcen für die Arbeit finden Sie in den folgenden Artikeln:
 >
 >* [Übersicht über den Lastenausgleich](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
->* [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
->* [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
->* [Verwalten von Benutzerzuordnungen im Lastenausgleich](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>* [Navigieren Sie zum Arbeitsladeausgleich](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+>* [Übersicht über die Zuweisung von Arbeit im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+>* [Verwalten von Benutzerzuweisungen im Arbeitslade-Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 >
 
 ## Zugriffsanforderungen
@@ -66,11 +66,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      <li> <p>Probleme</p> </li> 
     </ul> <p><b> NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für die Projekte, Aufgaben und Probleme </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für die Projekte, Aufgaben und Probleme </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,8 +83,8 @@ Die folgenden Abschnitte veranschaulichen, wo Sie auf den Lastenausgleich in Wor
 
 ### Zugriff auf den Lastenausgleich für mehrere Projekte im Bereich &quot;Ressourcen&quot;
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png)Klicken Sie auf **Ressourcen**.
-1. Klicks **Lastenausgleich** im linken Bereich.
+1. Klicken Sie auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ressourcen**.
+1. Klicken Sie im linken Bereich auf **Lastenausgleich** .
 
    ![](assets/nwe-balancer-global.png)
 
@@ -97,7 +97,7 @@ Die folgenden Abschnitte veranschaulichen, wo Sie auf den Lastenausgleich in Wor
 
 ### Zugriff auf den Lastenausgleich für ein Team
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png)und klicken Sie dann auf Teams.
+1. Klicken Sie auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf Teams.
 Die Seite Ihres Startseiten-Teams wird angezeigt.
 
    Standardmäßig wird der Lastenausgleich für das Team angezeigt.
@@ -107,7 +107,7 @@ Die Seite Ihres Startseiten-Teams wird angezeigt.
    Der Lastenausgleich eines Teams zeigt standardmäßig die folgenden Informationen an:
 
    * **Nicht zugewiesene Arbeit**: Dem Team zugewiesene Elemente, die Benutzern nicht zugewiesen sind.
-   * **Zugewiesene Arbeit**: Alle Mitglieder des Teams mit allen ihren Aufgaben.
+   * **Zugewiesene Arbeit**: Alle Mitglieder des Teams mit allen ihren Zuweisungen.
 
      >[!TIP]
      >
@@ -117,9 +117,9 @@ Die Seite Ihres Startseiten-Teams wird angezeigt.
 
 ### Zugriff auf den Lastenausgleich für ein Projekt
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png)Klicken Sie auf **Projekte**.
+1. Klicken Sie auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Projekte**.
 1. Klicken Sie auf den Namen eines Projekts, um die Projektseite zu öffnen.
-1. Klicks **Lastenausgleich** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Lastenausgleich**.
+1. Klicken Sie im linken Bereich auf **Lastenausgleich** . Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Lastenausgleich** klicken.
 
    Der Lastenausgleich für das Projekt wird angezeigt.
 
@@ -127,12 +127,12 @@ Die Seite Ihres Startseiten-Teams wird angezeigt.
 
    Der Lastenausgleich eines Projekts zeigt standardmäßig Folgendes nach Informationen an:
 
-   * **Nicht zugewiesene Arbeit**: Elemente aus dem Projekt, die Auftragsrollen oder Teams zugewiesen sind und Benutzern nicht zugewiesen sind.
+   * **Nicht zugewiesene Arbeit**: Elemente aus dem Projekt, die Auftrags- oder Teams zugewiesen sind und Benutzern nicht zugewiesen sind.
    * **Zugewiesene Arbeit**: Benutzer, die Elementen im Projekt zugewiesen sind.
 
      >[!TIP]
      >
-     >Sie können alle Benutzer im System anstelle nur der Benutzer im Projekt (im Bereich &quot;Zugewiesene Arbeit&quot;) anzeigen, indem Sie die Option Alle Benutzer anzeigen aktivieren. Weitere Informationen finden Sie unter [Navigieren Sie zum Lastenausgleich .](../workload-balancer/navigate-the-workload-balancer.md).
+     >Sie können alle Benutzer im System anstelle nur der Benutzer im Projekt (im Bereich &quot;Zugewiesene Arbeit&quot;) anzeigen, indem Sie die Option Alle Benutzer anzeigen aktivieren. Weitere Informationen finden Sie unter [Navigieren im Arbeitslastausgleich](../workload-balancer/navigate-the-workload-balancer.md).
 
 
 ## Den Lastenausgleich zu einem benutzerdefinierten Abschnitt hinzufügen
@@ -147,14 +147,14 @@ Die meisten Anpassungen, die Sie bereits auf den Lastenausgleich angewendet habe
    * Ein Team
    * Ein Projekt
 
-1. Rufen Sie einen freigebbaren Link ab und kopieren Sie ihn wie in [Den Lastenausgleich über einen Link freigeben](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
-1. Erstellen Sie ein Dashboard mit einer externen Seite, wie in [Einbetten einer externen Webseite in ein Dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Verwenden Sie den freigebbaren Link, den Sie in Schritt 2 für die externe Seite erhalten haben.
+1. Rufen Sie einen freigebbaren Link ab und kopieren Sie ihn in die Zwischenablage, wie unter [Den Lastenausgleich mit einem Link teilen](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md) beschrieben.
+1. Erstellen Sie ein Dashboard mit einer externen Seite, wie in [Einbetten einer externen Webseite in ein Dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) beschrieben. Verwenden Sie den freigebbaren Link, den Sie in Schritt 2 für die externe Seite erhalten haben.
 
    <!--
       (NOTE: ensure this stays correct)
       -->
 
-1. Erstellen Sie einen benutzerspezifischen Abschnitt, wie unter [Erstellen benutzerdefinierter Registerkarten oder Abschnitte](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) , um das Dashboard auf der benutzerdefinierten Registerkarte zu platzieren.
+1. Erstellen Sie einen benutzerdefinierten Abschnitt wie in [Erstellen Sie benutzerdefinierte Registerkarten oder Abschnitte](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) beschrieben, um das Dashboard auf der benutzerdefinierten Registerkarte zu platzieren.
 
    Beim Zugriff auf den Lastenausgleich über den benutzerdefinierten Abschnitt können Sie ihn so anzeigen, als ob Sie direkt über einen der in Schritt 1 aufgelisteten ursprünglichen Bereiche darauf zugegriffen hätten.
 
@@ -162,7 +162,7 @@ Die meisten Anpassungen, die Sie bereits auf den Lastenausgleich angewendet habe
       (NOTE: ensure this stays correct)
      -->
 
-1. (Optional) Geben Sie die benutzerdefinierte Registerkarte in einer Layout-Vorlage frei, wie unter  [Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+1. (Optional) Geben Sie die benutzerdefinierte Registerkarte in einer Layout-Vorlage frei, wie unter [Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) beschrieben.
 
 
 <!--

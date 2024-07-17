@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die in Version 2019.1 enthalten sind. Die Funktion ist jetzt in der Produktionsumgebung verfügbar.
 
-Eine Liste aller Änderungen, die 2019.1 vorgenommen wurden, finden Sie unter [Übersicht über die Versionsaktivität 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.1 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2019.1}.](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
 
 ## Aktualisierter Standardfilter im Ressourcenplaner
 
@@ -37,15 +37,15 @@ Zuvor wurden die Informationen aus den folgenden zusätzlichen Projekten vom Sta
 * mit dem Status &quot;Aktuell&quot;oder &quot;Planung&quot;.
 * Mit einer Gruppe, die mit der Home-Gruppe des Benutzers übereinstimmt, der angemeldet ist.
 
-Informationen zum Anwenden von Filtern auf den Ressourcen-Planer finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Informationen zum Anwenden von Filtern auf den Ressourcenplaner finden Sie unter [Filterinformationen im Ressourcenplaner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Verwenden von Platzhaltern für Filter für Ressourcenplaner
 
-Sie können jetzt beim Erstellen von Filtern im Ressourcenplaner Platzhalter verwenden. Sie können beispielsweise $$USER.ID verwenden, um nach Informationen über den angemeldeten Benutzer zu filtern, oder $$USER.companyID, um Informationen über alle Benutzer zu filtern, die zum selben Unternehmen gehören wie der angemeldete Benutzer. Eine vollständige Liste der benutzerbasierten Variablen finden Sie in der [Benutzerbasierte Platzhalterfiltervariablen](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) Abschnitt in [Platzhalterfiltervariablen](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Sie können jetzt beim Erstellen von Filtern im Ressourcenplaner Platzhalter verwenden. Sie können beispielsweise $$USER.ID verwenden, um nach Informationen über den angemeldeten Benutzer zu filtern, oder $$USER.companyID, um Informationen über alle Benutzer zu filtern, die zum selben Unternehmen gehören wie der angemeldete Benutzer. Eine vollständige Liste der benutzerbasierten Variablen finden Sie im Abschnitt [Benutzerbasierte Platzhalterfiltervariablen](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) in [Platzhalterfiltervariablen](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 Zuvor waren für die Filter &quot;Ressourcenplaner&quot;keine Platzhalter verfügbar.
 
-Informationen zum Filtern im Ressourcen-Planer finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Informationen zum Filtern im Ressourcen-Planer finden Sie unter [Filtern von Informationen im Ressourcen-Planer](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 <!--
 <iframe class="mt-media" src="assets/290697527?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
@@ -57,7 +57,7 @@ Sie können jetzt eine beliebige Version der Platzhalterfiltervariablen $$TODAY 
 
 Vor dieser Verbesserung konnten Sie nur benutzerbasierte Platzhalterfiltervariablen verwenden.
 
-Informationen zum Filtern im Ressourcen-Planer finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Informationen zum Filtern im Ressourcen-Planer finden Sie unter [Filtern von Informationen im Ressourcen-Planer](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 Weitere Informationen zu Platzhalterfiltervariablen finden Sie unter [Platzhalterfiltervariablen](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -71,7 +71,7 @@ Sie können jetzt in der Rollenansicht auswählen, welche Informationsstufen aus
 
 Vor dieser Verbesserung wurden alle Informationsstufen in die Rollenansicht exportiert. Diese Optionen wurden in einer früheren Version in die Projekt- und Benutzeransichten eingeführt.
 
-Informationen zum Exportieren von Informationen aus dem Ressourcen-Planer finden Sie unter [Exportieren von Informationen aus dem Ressourcenplaner](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Informationen zum Exportieren von Informationen aus dem Ressourcenplaner finden Sie unter [Informationen aus dem Ressourcenplaner exportieren](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Datenformatierungsoptionen für den Export des Ressourcenplaners
 
@@ -84,13 +84,13 @@ Sie können die Verfügbarkeit und Zuordnung von aus dem Ressourcenplaner export
 
 Vor dieser Verbesserung wurden die Informationen in der exportierten Datei so angezeigt, wie sie in Workfront angezeigt wurden.
 
-Informationen zum Exportieren von Informationen aus dem Ressourcen-Planer finden Sie unter [Exportieren von Informationen aus dem Ressourcenplaner](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Informationen zum Exportieren von Informationen aus dem Ressourcenplaner finden Sie unter [Informationen aus dem Ressourcenplaner exportieren](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Persistente Planung - Timeline
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Bei der Planung von Zeitleisten bleibt der ausgewählte Zeitrahmen jetzt erhalten, wenn Sie die Timeline aktualisieren oder von der Seite weg navigieren.
 
@@ -120,7 +120,7 @@ In der Benutzeransicht können Sie Folgendes exportieren:
 
 Vor dieser Verbesserung wurden alle Informationsstufen standardmäßig in alle Ansichten des Ressourcenplaners exportiert.
 
-Informationen zum Exportieren von Informationen aus dem Ressourcen-Planer finden Sie unter [Exportieren von Informationen aus dem Ressourcenplaner](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Informationen zum Exportieren von Informationen aus dem Ressourcenplaner finden Sie unter [Informationen aus dem Ressourcenplaner exportieren](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Aktualisierung der Benutzeransicht im Ressourcenplaner
 
@@ -130,4 +130,4 @@ Vor dieser Aktualisierung wurden nur die Benutzer zugewiesen, die Arbeitselement
 
 Sie können benutzerbasierte Filter verwenden, um die Anzahl der in der Benutzeransicht angezeigten Benutzer auf diejenigen zu reduzieren, die den anzuzeigenden Projekten zugewiesen sind.
 
-Informationen zu Filtern im Ressourcenplaner finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Informationen zu Filtern im Ressourcenplaner finden Sie unter [Filterinformationen im Ressourcenplaner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).

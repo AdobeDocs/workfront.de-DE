@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -41,11 +41,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p> Verwalten Sie Berechtigungen, die "Finanzen verwalten"für das Projekt enthalten, für das Sie Risiken erstellen oder bearbeiten möchten </p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> </td> 
+   <td> <p> Verwalten Sie Berechtigungen, die "Finanzen verwalten"für das Projekt enthalten, für das Sie Risiken erstellen oder bearbeiten möchten </p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Projekt in Adobe Workfront freigeben</a> .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,74 +54,74 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen und Bearbeiten von Risiken im Geschäftsfall
 
-Sie können Risiken im Rahmen der Planung des Geschäftsszenarios eines Projekts schaffen. Sie können sie später im Geschäftsfall bearbeiten, wenn beispielsweise Änderungen an der Wahrscheinlichkeit, dem Abmilderungsplan oder den Kosten eintreten. Informationen zum Erstellen eines Geschäftsfalls finden Sie unter [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Sie können Risiken im Rahmen der Planung des Geschäftsszenarios eines Projekts schaffen. Sie können sie später im Geschäftsfall bearbeiten, wenn beispielsweise Änderungen an der Wahrscheinlichkeit, dem Abmilderungsplan oder den Kosten eintreten. Informationen zum Erstellen eines Geschäftsfeldes finden Sie unter [Erstellen eines Geschäftsfeldes für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Ihr Workfront-Administrator oder -Gruppenadministrator muss die Option **Risiken** im Bereich &quot;Projektvoreinstellungen&quot;in Ihrem Geschäftsszenario, bevor Sie ihn auf Projektebene im Abschnitt &quot;Geschäftsszenario&quot;anzeigen können. Weitere Informationen zum Festlegen von Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Ihr Workfront-Administrator oder Gruppenadministrator muss den Abschnitt **Risiken** in Ihrem Geschäftsszenario im Bereich &quot;Projekteinstellungen&quot;aktivieren, bevor Sie ihn auf Projektebene im Abschnitt &quot;Geschäftsfall&quot;anzeigen können. Weitere Informationen zum Festlegen von Projektvoreinstellungen finden Sie unter [Konfigurieren von systemweiten Projekteigenschaften](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Das Erstellen und Bearbeiten von Risiken im Geschäftsfall ist identisch.
 
 So erstellen oder bearbeiten Sie ein Risiko im Geschäftsfall:
 
 1. Gehen Sie zu dem Projekt, für das Sie Risiken erstellen möchten.
-1. Klicken **Geschäftsfall** im linken Bereich.
-1. Im **Risiken** Abschnitt, klicken Sie auf **Risiken bearbeiten**.
+1. Klicken Sie im linken Bereich auf **Geschäftsszenario** .
+1. Klicken Sie im Abschnitt **Risiken** auf **Risiken bearbeiten**.
 1. Geben Sie die folgenden Informationen ein oder bearbeiten Sie sie:
 
-   * **Beschreibung:** das Risiko beschreiben.
+   * **Beschreibung:** Beschreiben Sie das Risiko.
 
    * **Potenzielle Kosten**: Geben Sie die geschätzten Kosten an, falls das Risiko eintritt.
 
-   * **Wahrscheinlichkeit**: gibt die Wahrscheinlichkeit des Auftretens des Risikos als Prozentwert an.
+   * **Wahrscheinlichkeit**: Gibt die Wahrscheinlichkeit des Auftretens des Risikos als Prozentwert an.
 
-   * **Typ:** Geben Sie an, unter welche Kategorie das Risiko fällt.
-   * **Abmilderungsplan**: die Beschreibung des Plans zur Risikominderung aktualisieren.
+   * **Typ:** Geben Sie an, zu welcher Kategorie das Risiko gehört.
+   * **Reduzierungsplan**: Aktualisieren Sie die Beschreibung des Plans, um das Risiko zu verringern.
 
-   * **Minderungskosten**: Geben Sie die Kosten des Minderungsplans an, den Sie einrichten müssen, um zu verhindern, dass das Risiko eintritt.
+   * **Schadensminderungskosten**: Geben Sie die Kosten des Schadensminderungsplans an, den Sie einrichten müssen, um das Auftreten des Risikos zu verhindern.
 
    ![](assets/crp1-350x117.png)
 
-1. (Optional) Klicken Sie auf **Ein weiteres Risiko hinzufügen** zusätzliche Risiken.
+1. (Optional) Klicken Sie auf **Neues Risiko hinzufügen** , um zusätzliche Risiken hinzuzufügen.
 1. Klicken Sie auf **Speichern**.
 
 ## Risiken im Bereich Risiken erstellen und bearbeiten
 
-Zusätzlich zum Erstellen und Bearbeiten von Risiken im Geschäftsfall können Sie dies mit dem **Risiken** -Abschnitt eines Projekts.
+Zusätzlich zum Erstellen und Bearbeiten von Risiken im Geschäftsfall können Sie dies mit dem Abschnitt **Risiken** eines Projekts tun.
 
-* [Risiken im Risikobereich schaffen](#create-risks-in-the-risks-area)
+* [Erstellen Sie Risiken im Risikobereich](#create-risks-in-the-risks-area)
 * [Risiken im Risikobereich bearbeiten](#edit-risks-in-the-risks-area)
 
 ### Risiken im Risikobereich schaffen {#create-risks-in-the-risks-area}
 
 1. Gehen Sie zu dem Projekt, für das Sie Risiken erstellen möchten.
-1. Klicken **Risiken** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Risiken** .
 
    ![Risikoabschnitt der Aufgabe](assets/risks-section-on-project-2022.png)
 
-1. Klicken **Hinzufügen von Risiken** und Risiken durch die Inline-Bearbeitung ihrer Informationen schaffen.
+1. Klicken Sie auf **Hinzufügen von Risiken beginnen** und erstellen Sie Risiken durch Inline-Bearbeitung ihrer Informationen.
 
    Oder
 
-   Klicken **Neues Risiko**. Die **Neues Risiko** wird geöffnet.
+   Klicken Sie auf **Neues Risiko**. Das Dialogfeld **Neues Risiko** wird geöffnet.
 
 1. Geben Sie die folgenden Informationen ein:
 
-   * **Beschreibung**: das Risiko beschreiben.
-   * **Risikotyp**: Geben Sie an, unter welche Kategorie das Risiko fällt.\
-      Ihr Workfront-Administrator definiert die in Ihrer Umgebung verfügbaren Risikotypen. Informationen zur Definition von Risikotypen finden Sie im Artikel [Risikotypen bearbeiten und erstellen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+   * **Beschreibung**: Beschreiben Sie das Risiko.
+   * **Risikotyp**: Geben Sie an, zu welcher Kategorie das Risiko gehört.\
+     Ihr Workfront-Administrator definiert die in Ihrer Umgebung verfügbaren Risikotypen. Informationen zum Definieren von Risikotypen finden Sie im Artikel [Bearbeiten und Erstellen von Risikotypen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
-   * **Wahrscheinlichkeit**: gibt die Wahrscheinlichkeit des Auftretens des Risikos als Prozentwert an.
+   * **Wahrscheinlichkeit**: Gibt die Wahrscheinlichkeit des Auftretens des Risikos als Prozentwert an.
    * **Potenzielle Kosten**: Geben Sie die geschätzten Kosten an, falls das Risiko eintritt.
-   * **Minderungskosten**: Geben Sie die Kosten des Minderungsplans an, den Sie einrichten müssen, um zu verhindern, dass das Risiko eintritt.
-   * **Tatsächliche Kosten**: Geben Sie die tatsächlichen Kosten des Risikos an, falls das Risiko eintritt.
-   * **Abmilderungsplan**: die Beschreibung des Plans zur Risikominderung aktualisieren.
+   * **Schadensminderungskosten**: Geben Sie die Kosten des Schadensminderungsplans an, den Sie einrichten müssen, um das Auftreten des Risikos zu verhindern.
+   * **Tatsächliche Kosten**: Geben Sie die tatsächlichen Kosten des Risikos an, wenn das Risiko eintritt.
+   * **Reduzierungsplan**: Aktualisieren Sie die Beschreibung des Plans, um das Risiko zu verringern.
 
-1. (Bedingt) Klicken Sie auf **Eingabe** , wenn Sie das Risiko inline erstellen.
+1. (Bedingt) Klicken Sie auf **Enter** , wenn Sie das Risiko inline erstellen.
 
    Oder
 
-   Klicken **Speichern** Wenn Sie die Informationen in der **Neues Risiko** Dialogfeld.
+   Klicken Sie auf **Speichern** , wenn Sie die Informationen im Dialogfeld **Neues Risiko** bearbeiten.
 
-1. (Optional) Wählen Sie eine andere **Status** für das Risiko in der **Status** Dropdown-Menü beim Anwenden der **Standard** die Liste der Risiken.
+1. (Optional) Wählen Sie im Dropdownmenü **Status** einen anderen **Status** für das Risiko aus, wenn Sie die Ansicht **Standard** auf die Liste der Risiken anwenden.
 
    Standardmäßig lautet der Status eines Risikos **Identifiziert**.
 
@@ -134,32 +134,32 @@ Sie können ein Risiko gleichzeitig bearbeiten oder mehrere Risiken in großen M
 So bearbeiten Sie Risiken:
 
 1. Navigieren Sie zu einem Projekt, für das Sie vorhandene Risiken bearbeiten möchten.
-1. Klicken **Risiken** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Risiken** .
 1. Beginnen Sie mit der Inline-Bearbeitung der Felder für die Risiken, die Sie in der Liste sehen, um jeweils ein Risiko zu bearbeiten.
 
    Oder
 
-   Wählen Sie ein oder mehrere Risiken aus und klicken Sie auf **Bearbeiten** um mehrere Risiken gleichzeitig zu bearbeiten.
+   Wählen Sie ein oder mehrere Risiken aus und klicken Sie dann auf **Bearbeiten** , um mehrere Risiken gleichzeitig zu bearbeiten.
 
    >[!NOTE]
    >
    >Sie wenden dieselben Informationen auf alle ausgewählten Risiken an, wenn Sie mehrere Risiken gleichzeitig bearbeiten. Die mit den einzelnen Risiken verknüpften Informationen vor den Änderungen werden in einer Massenbearbeitung überschrieben.
 
-1. Wenn Sie auf **Bearbeiten**, die **Risiko bearbeiten** wird geöffnet.
+1. Wenn Sie auf **Bearbeiten** geklickt haben, wird das Dialogfeld **Risiko bearbeiten** geöffnet.
 
    Bearbeiten Sie die folgenden Felder:
 
-   * **Beschreibung**: die Beschreibung des Risikos zu ändern.
-   * **Risikotyp**: Geben Sie an, unter welche Kategorie das Risiko fällt.
-   * **Wahrscheinlichkeit**: gibt die Wahrscheinlichkeit des Auftretens des Risikos als Prozentwert an.
+   * **Beschreibung**: Bearbeiten Sie die Beschreibung des Risikos.
+   * **Risikotyp**: Geben Sie an, zu welcher Kategorie das Risiko gehört.
+   * **Wahrscheinlichkeit**: Gibt die Wahrscheinlichkeit des Auftretens des Risikos als Prozentwert an.
    * **Potenzielle Kosten**: Geben Sie die geschätzten Kosten an, falls das Risiko eintritt.
-   * **Minderungskosten**: Geben Sie die Kosten des Minderungsplans an, den Sie einrichten müssen, um zu verhindern, dass das Risiko eintritt.
-   * **Tatsächliche Kosten**: Geben Sie die tatsächlichen Kosten des Risikos an, falls das Risiko eintritt.
-   * **Abmilderungsplan**: die Beschreibung des Plans zur Risikominderung aktualisieren.
+   * **Schadensminderungskosten**: Geben Sie die Kosten des Schadensminderungsplans an, den Sie einrichten müssen, um das Auftreten des Risikos zu verhindern.
+   * **Tatsächliche Kosten**: Geben Sie die tatsächlichen Kosten des Risikos an, wenn das Risiko eintritt.
+   * **Reduzierungsplan**: Aktualisieren Sie die Beschreibung des Plans, um das Risiko zu verringern.
 
-1. Klicken **Änderungen speichern**.
-1. (Optional) Bearbeiten Sie die **Status** für ein Risiko im **Status** Dropdown-Menü beim Anwenden der **Standard** die Liste der Risiken.
+1. Klicken Sie auf **Änderungen speichern**.
+1. (Optional) Bearbeiten Sie den **Status** für ein Risiko im Dropdown-Menü **Status** , wenn Sie die Ansicht **Standard** auf die Liste der Risiken anwenden.
 
    >[!NOTE]
    >
-   >Sie können die **Status** der Risiken in **Risiko bearbeiten** Dialogfeld. Dies ist nur in einer Inline-Bearbeitung möglich.
+   >Sie können den **Status** der Risiken im Dialogfeld **Risiko bearbeiten** nicht bearbeiten. Dies ist nur in einer Inline-Bearbeitung möglich.

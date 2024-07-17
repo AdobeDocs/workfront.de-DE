@@ -29,16 +29,16 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Verschieben einer Gruppe unter einer anderen Gruppe
 
@@ -48,16 +48,16 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 >
 >Wenn die Status der verschobenen Gruppe entsperrt sind, übernimmt sie weder den Status der neuen übergeordneten Gruppe noch übernimmt die neue übergeordnete Gruppe den Status.
 >
->Weitere Informationen zum Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) und [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>Weitere Informationen zu Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) und [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
-1. Wählen Sie die Zielgruppe aus, in die Sie die Gruppe verschieben möchten, und klicken Sie dann auf das Symbol Bearbeiten ![](assets/edit-icon.png).
-1. Im **Gruppe bearbeiten** Feld, das angezeigt wird, unter **Gruppenmitglieder und Gruppenadministratoren**, geben Sie den Namen der Gruppe ein, die Sie verschieben möchten, und klicken Sie dann auf sie, wenn sie angezeigt wird.
+1. Wählen Sie die Zielgruppe aus, in die Sie die Gruppe verschieben möchten, und klicken Sie dann auf das Bearbeitungssymbol ![](assets/edit-icon.png).
+1. Geben Sie im angezeigten Feld **Gruppe bearbeiten** unter **Gruppenmitglieder und Gruppenadministratoren** den Namen der Gruppe ein, die Sie verschieben möchten, und klicken Sie dann auf die Gruppe, wenn sie angezeigt wird.
 1. Klicken Sie auf **Speichern**.
 
 >[!TIP]
 >
->Sie können eine Untergruppe auch zu einer Gruppe der obersten Ebene machen. Anweisungen finden Sie im Abschnitt . [Entfernen Sie eine Untergruppe aus ihrer übergeordneten Gruppe und machen Sie sie zu einer Gruppe der obersten Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>Sie können eine Untergruppe auch zu einer Gruppe der obersten Ebene machen. Anweisungen finden Sie im Abschnitt &quot;[Entfernen einer Untergruppe aus ihrer übergeordneten Gruppe&quot;und machen Sie sie zu einer Gruppe der obersten Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)&quot;im Artikel &quot;[Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)&quot;.

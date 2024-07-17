@@ -9,7 +9,7 @@ role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
@@ -51,11 +51,11 @@ Die folgenden Ressourcen wurden für API Version 13 geändert.
    <td> 
     <ul> 
      <li> <p><a href="#project" class="MCXref xref">Projekt</a> </p> </li> 
-     <li> <p><a href="#proofapproval" class="MCXref xref">TestversandApproval</a> </p> </li> 
+     <li> <p><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </p> </li> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">Aufgabe</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
-     <li> <p><a href="#timesheet" class="MCXref xref">Arbeitszeittabelle</a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref">Zeitblatt</a> </p> </li> 
      <li> <p><a href="#timesheetprofile" class="MCXref xref">TimesheetProfile</a> </p> </li> 
      <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
      <li> <p><a href="#userdelegation" class="MCXref xref">UserDelegation</a> </p> </li> 
@@ -69,7 +69,7 @@ Die folgenden Ressourcen wurden für API Version 13 geändert.
 
 Ein AccessLevel -Objekt ist mit Benutzern verknüpft und beschreibt den Satz von AccessLevelPermissions, der bestimmt, auf welchen Benutzer zugreifen können.
 
-Weitere Informationen zu Zugriffsebenen finden Sie unter [Funktionsweise von Zugriffsstufen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Weitere Informationen zu Zugriffsebenen finden Sie unter [Funktionsweise der Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -99,7 +99,7 @@ Weitere Informationen zu Breadcrumbs finden Sie unter [Breadcrumbs-Übersicht im
    <td> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>Objektcodes finden Sie im Abschnitt <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API-Explorer</a>.</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>Objektcodes finden Sie im <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API-Explorer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ Weitere Informationen zu Breadcrumbs finden Sie unter [Breadcrumbs-Übersicht im
 
 Ein BurndownEvent -Objekt stellt ein Objekt dar, das das Bundle einer Iteration ändert.
 
-Weitere Informationen zum Burndown finden Sie unter [Niederschlag](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
+Weitere Informationen zum Burndown finden Sie unter [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -192,7 +192,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
 
 Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
 
-Weitere Informationen zu Gruppen finden Sie unter [Gruppen vs. Teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+Weitere Informationen zu Gruppen finden Sie unter [Gruppen im Vergleich zu Teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -261,7 +261,7 @@ Informationen zu dem Objekt, das Layoutvorlagen im neuen Adobe Workfront-Erlebni
 
 Ein LinkedFolder-Objekt stellt einen Ordner dar, der von einem externen Dokumentenanbieter wie Google Drive oder Dropbox verknüpft ist.
 
-Weitere Informationen zu verknüpften Ordnern finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Weitere Informationen zu verknüpften Ordnern finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -330,7 +330,7 @@ Ein Objekt vom Typ Testversand-Validierung stellt eine Validierung dar, die dire
    <td> <p>Direkte Felder</p> </td> 
    <td> <p>Die folgenden Felder wurden zur Ressource Testversand-Genehmigung hinzugefügt.</p> 
     <ul> 
-     <li> <p><b>approveStage</b> </p> </li> 
+     <li> <p><b>GenehmigerStage</b> </p> </li> 
      <li> <p><b>DecisionDate</b> </p> </li> 
      <li> <p><b>workflowTemplate</b> </p> </li> 
     </ul> </td> 

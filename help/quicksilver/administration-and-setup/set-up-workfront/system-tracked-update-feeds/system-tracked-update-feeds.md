@@ -4,7 +4,7 @@ content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: Vom System getrackte Aktualisierungen
-description: Adobe Workfront erfasst die Aktivität, die auf bestimmten Objekten stattfindet, indem Statusinformationen im Objekt protokolliert werden. [!UICONTROL Updates] Bereich.
+description: Adobe Workfront erfasst die Aktivität, die auf bestimmten Objekten stattfindet, indem Statusinformationen im Bereich [!UICONTROL Aktualisierungen] des Objekts protokolliert werden.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -27,21 +27,21 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] erfasst die Aktivität, die auf bestimmten Objekten stattfindet, indem Statusinformationen in der [!UICONTROL Updates] Abschnitt.
+[!DNL Adobe Workfront] erfasst die Aktivität, die auf bestimmten Objekten stattfindet, indem Statusinformationen im Abschnitt [!UICONTROL Aktualisierungen] des Objekts protokolliert werden.
 
-Informationen zum Abschnitt Updates finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Weitere Informationen zum Abschnitt Updates finden Sie unter [Überblick über den Abschnitt Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Die [!UICONTROL Updates] umfasst die folgenden Aktualisierungstypen:
+Der Bereich [!UICONTROL Updates] umfasst die folgenden Arten von Updates:
 
-* **Benutzeraktualisierungen:** Manuelle Eingabe durch Benutzer. Auch als Kommentare, Antworten und Anmerkungen bezeichnet. Benutzeraktualisierungen werden auf den Registerkarten Kommentare und Alle im Abschnitt Updates eines Objekts angezeigt.
+* **Benutzeraktualisierungen:** Von Benutzern manuell eingegeben. Auch als Kommentare, Antworten und Anmerkungen bezeichnet. Benutzeraktualisierungen werden auf den Registerkarten Kommentare und Alle im Abschnitt Updates eines Objekts angezeigt.
 
   Weitere Informationen zum Konfigurieren von Benutzeraktualisierungen finden Sie unter [Voreinstellungen für Benutzeraktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
   ![](assets/updates-qs-350x125.png)
 
-* **Systemaktualisierungen:** Automatisch vom System erstellt. Eine Systemaktualisierung enthält einen kurzen Hinweis, in dem beschrieben wird, welche Art von Änderung am Artikel vorgenommen wurde. Systemaktualisierungen werden in der Systemaktivität und auf den Registerkarten Alle im Abschnitt Updates eines Objekts angezeigt.
+* **Systemaktualisierungen:** Wird automatisch vom System vorgenommen. Eine Systemaktualisierung enthält einen kurzen Hinweis, in dem beschrieben wird, welche Art von Änderung am Artikel vorgenommen wurde. Systemaktualisierungen werden in der Systemaktivität und auf den Registerkarten Alle im Abschnitt Updates eines Objekts angezeigt.
 
-  Weitere Informationen zu System-Update-Feeds und deren Aktivierung finden Sie unter [Systemaktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Weitere Informationen zu System-Update-Feeds und deren Aktivierung finden Sie unter [Konfigurieren von Systemaktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
   ![](assets/system-updates-example-unified-stream.png)
 
@@ -56,7 +56,7 @@ Die [!UICONTROL Updates] umfasst die folgenden Aktualisierungstypen:
 
 Vom System getrackte Aktualisierungen sind nicht für alle Objekte mit dem Bereich Updates verfügbar.
 
-* Die [!UICONTROL Updates] Bereich ist für die folgenden Objekte verfügbar:
+* Der Bereich [!UICONTROL Aktualisierungen] ist für die folgenden Objekte verfügbar:
 
    * [!UICONTROL Projekt]
    * [!UICONTROL Aufgabe]
@@ -67,25 +67,25 @@ Vom System getrackte Aktualisierungen sind nicht für alle Objekte mit dem Berei
    * [!UICONTROL Vorlage]
    * [!UICONTROL Vorlagenaufgabe]
    * [!UICONTROL Team]
-   * [!UICONTROL Dokument]
-   * [!UICONTROL Datenblatt]
+   * [!UICONTROL Document]
+   * [!UICONTROL Zeitblatt]
    * [!UICONTROL Geschichte]
 
-     In [!DNL Workfront], eine Geschichte ist eine Aufgabe.
+     In [!DNL Workfront] ist eine Geschichte eine Aufgabe.
    * [!UICONTROL Iteration]
    * [!UICONTROL Ziel]
 
-     Sie benötigen eine zusätzliche Lizenz, um Zugriff auf die [!UICONTROL Ziele] Bereich. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     Sie müssen über eine zusätzliche Lizenz verfügen, um Zugriff auf den Bereich [!UICONTROL Ziele] zu haben. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Karte] auf einer Pinnwand
 
-     Weitere Informationen zu Kartenaktualisierungen finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](../../../agile/get-started-with-boards/connected-cards.md).
+     Weitere Informationen zu Aktualisierungen auf Karten finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] verfolgt keine Systemaktualisierungen für die folgenden Objekte:
 
    * [!UICONTROL Team]
    * [!UICONTROL Vorlage]
    * [!UICONTROL Vorlagenaufgabe]
-   * Ad-hoc [!UICONTROL Karte]
+   * Ad-hoc-Karte [!UICONTROL Karte]
    * [!UICONTROL Iterationen]
 
 
@@ -96,7 +96,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Benutzeraktualisierungen werden auf der Registerkarte Kommentare angezeigt und Systemaktualisierungen werden auf den Registerkarten Systemaktivität und Alle angezeigt.
 
-  Eine Liste der Objekte, die nicht über die Registerkarten &quot;Systemaktivität&quot;oder &quot;Alle&quot;verfügen, finden Sie unter [Aktualisierung der Abschnittsübersicht](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+  Eine Liste der Objekte, die nicht über die Registerkarten &quot;Systemaktivität&quot;oder &quot;Alle&quot;verfügen, finden Sie unter [Übersicht über den Abschnitt &quot;Aktualisieren&quot;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
 * Sie können einer Systemaktualisierung keine Antwort hinzufügen. Antworten, die vor dem 11. April 2024 auf Systemaktivitätsdatensätze im alten Kommentierungserlebnis erstellt wurden, werden jedoch auf der Registerkarte Systemaktivität als schreibgeschützt ausgefüllt.
 
@@ -119,10 +119,10 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* [!DNL Workfront] Administratoren können festlegen, welche Arten von Änderungen das System im [!UICONTROL Updates] Bereich. Nicht alle Objekte mit [!UICONTROL Updates] -Bereich auch konfigurierbar [!UICONTROL update] Feeds. Die folgenden Objekte haben eine [!UICONTROL Updates] -Bereich, der vom System getrackte Update-Feeds erfasst, aber keine konfigurierbaren Update-Feeds hat:
+* [!DNL Workfront] -Administratoren können festlegen, welche Art von Änderungen das System im Bereich [!UICONTROL Aktualisierungen] verfolgen soll. Nicht alle Objekte mit dem Bereich [!UICONTROL Aktualisierungen] verfügen auch über konfigurierbare [!UICONTROL Update]-Feeds. Die folgenden Objekte verfügen über den Bereich [!UICONTROL Aktualisierungen] , der vom System getrackte Update-Feeds erfasst, aber keine konfigurierbaren Update-Feeds aufweist:
 
-   * [!UICONTROL Dokument]
-   * [!UICONTROL Datenblatt]
+   * [!UICONTROL Document]
+   * [!UICONTROL Zeitblatt]
    * [!UICONTROL Iteration]
    * [!UICONTROL Ziel]
 

@@ -20,7 +20,7 @@ Sie können Testsendungen zusätzliche Sicherheitsmaßnahmen hinzufügen.
 
 ## Erforderliche Anmeldung
 
-Die erforderliche Anmeldung erhöht die Sicherheit der in Ihrem Konto erstellten Testsendungen. Sie können die Anmeldung für alle Testsendungen auf Kontoebene aktivieren oder sie für einzelne Testsendungen aktivieren. Weitere Informationen zur Aktivierung für Ihr Konto finden Sie unter [Konfigurieren der standardmäßigen Testversandeinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Die erforderliche Anmeldung erhöht die Sicherheit der in Ihrem Konto erstellten Testsendungen. Sie können die Anmeldung für alle Testsendungen auf Kontoebene aktivieren oder sie für einzelne Testsendungen aktivieren. Weitere Informationen zum Aktivieren für Ihr Konto finden Sie unter [Konfigurieren der standardmäßigen Testversandeinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Wenn die erforderliche Anmeldung aktiviert ist, müssen sich die validierungsver
 >
 >Um den Anmeldeprozess zu optimieren, empfehlen wir, SSO in Workfront und Workfront Testversand einzurichten. Weitere Informationen zum Aktivieren der einmaligen Anmeldung finden Sie unter >
 >* [Single Sign-on in Workfront: Artikelindex](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
->* [Single Sign-On für Workfront Proof-Benutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Single-Sign-On für Workfront Proof-Benutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
 
 ## Elektronische Signatur
@@ -48,5 +48,5 @@ Wenn die Einstellung für die elektronische Signatur für einen Testversand akti
 >[!IMPORTANT]
 >
 >Um einen Testversand mit SSO-Anmeldeinformationen elektronisch zu signieren, müssen Sie SSO in Workfront Proof einrichten. Weitere Informationen zum Aktivieren der einmaligen Anmeldung finden Sie unter >
->* [Single Sign-On für Workfront Proof-Benutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Single-Sign-On für Workfront Proof-Benutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >

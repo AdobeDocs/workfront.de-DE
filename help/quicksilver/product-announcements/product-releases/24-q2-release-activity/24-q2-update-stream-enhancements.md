@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen am Update-Stream und an Benachrichtigungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des zweiten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Neue Kommentierungserlebnisse zu Iterationen hinzugefügt
 
@@ -24,7 +24,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zwei
 >
 >Vorschau-Version: 11. April 2024; Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
-Um Ihnen ein konsistentes Erlebnis in der gesamten Anwendung zu bieten, haben wir die neue Kommentarfunktion zu Iterationen hinzugefügt. Weitere Informationen finden Sie unter [Aktualisierung der Abschnittsübersicht](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Um Ihnen ein konsistentes Erlebnis in der gesamten Anwendung zu bieten, haben wir die neue Kommentarfunktion zu Iterationen hinzugefügt. Weitere Informationen finden Sie in der Übersicht über den Abschnitt [Aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) .
 
 ## Der Zugriff auf den alten Kommentarbereich wurde entfernt.
 
@@ -42,7 +42,7 @@ Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](/help/quic
 >
 >Vorschau-Version: 1. März 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.3 (14. März 2024); Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
 
-Die neue Kommentarfunktion wurde jetzt der **Neues Update hinzufügen** Schnellaktionsschaltfläche in den Widgets &quot;Meine Arbeit&quot;, &quot;Meine Projekte&quot;, &quot;Meine Aufgaben&quot;und &quot;Meine Probleme&quot;im neuen Startseite.
+Die neue Kommentarfunktion wurde jetzt der Schnellaktionsschaltfläche **Neues Update hinzufügen** in den Widgets &quot;Meine Arbeit&quot;, &quot;Meine Projekte&quot;, &quot;Meine Aufgaben&quot;und &quot;Meine Probleme&quot;in der neuen Startseite hinzugefügt.
 
 Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -57,9 +57,9 @@ Wir haben die folgenden Verbesserungen an der neuen Kommentarfunktion vorgenomme
 * Sie können auf den Namen eines Kommentars klicken, um dessen Namen, Rolle und E-Mail-Adresse in einem Informationsfeld anzuzeigen. Diese Informationen können Ihnen dabei helfen, den richtigen Benutzer zu identifizieren, wenn Sie mehr als einen Benutzer mit demselben Namen haben. Wenn Sie im Informationsfeld auf den Namen des Kommentars klicken, wird sein Benutzerprofil geöffnet.
 * Ihr Benutzername wird in Kommentaren hervorgehoben, die Sie mit Tags versehen haben, wenn Sie im Kommentartext erwähnt werden.
 
-Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 2:47 Uhr.)
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 2:47 Uhr)
 
 ## Die Registerkarte Systemaktivität im neuen Kommentarerlebnis unterstützt schreibgeschützte Kommentare
 
@@ -69,9 +69,9 @@ Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/wor
 
 Kommentare zu den Datensätzen der Systemaktivität im alten Kommentierungserlebnis werden jetzt auf der Registerkarte Systemaktivität in der neuen Kommentierungserfahrung als schreibgeschützt ausgefüllt. Sie können im neuen Kommentar-Erlebnis nicht auf Systemaktivitätsdatensätze antworten.
 
-Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Weitere Informationen finden Sie in der [Übersicht über den Abschnitt &quot;Aktualisierungen&quot;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 2:00 Uhr.)
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 2:00 Uhr)
 
 ## Neue Registerkarte für den Aktualisierungsstream, um sowohl Kommentare als auch Systemaktivitätseinträge zu erfassen
 
@@ -83,7 +83,7 @@ Um Ihnen eine chronologisch zusammenhängende Ansicht der Kommentare und Systema
 
 Die Registerkarte Alle ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare .
 
-Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabschnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Weitere Informationen finden Sie in der [Übersicht über den Abschnitt &quot;Aktualisierungen&quot;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 [Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Diskussion über diese spezifische Funktion beginnt um 0:31 Uhr)
 
@@ -95,6 +95,6 @@ Weitere Informationen finden Sie unter [Übersicht über den Aktualisierungsabsc
 
 Jetzt wurde die neue Kommentarfunktion zum Bedienfeld &quot;Zusammenfassung&quot;für Aufgaben- und Problemlisten hinzugefügt.
 
-Weitere Informationen finden Sie unter [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+Weitere Informationen finden Sie unter [Übersicht der Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427991/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3427991/){target=_blank}

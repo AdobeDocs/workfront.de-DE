@@ -19,7 +19,7 @@ Sie können eine Karte schnell zu einer Pinnwand hinzufügen und sie einem Mitgl
 
 >[!NOTE]
 >
->Die Ad-hoc-Karten auf einer Pinnwand sind nicht mit Arbeitselementen in [!DNL Adobe Workfront]. Weitere Informationen zu verbundenen Karten finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>Die Ad-hoc-Karten auf einer Pinnwand sind nicht mit Arbeitselementen in [!DNL Adobe Workfront] verbunden. Weitere Informationen zu verbundenen Karten finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Zugriffsanforderungen
 
@@ -42,23 +42,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Hinzufügen einer Ad-hoc-Karte mit vollständigen Details
 
-Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
+Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront] verbunden.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe] Workfront, und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
-1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicks **[!UICONTROL Karte hinzufügen] > [!UICONTROL Neue Karte]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe] Workfront und klicken Sie dann auf **[!UICONTROL Pinnwände]**.![](assets/main-menu-icon.png)
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie auf **[!UICONTROL Karte hinzufügen] > [!UICONTROL Neue Karte]**.
 
-   Die [!UICONTROL Kartendetails] angezeigt.
+   Das Feld [!UICONTROL Kartendetails] wird angezeigt.
 
    >[!NOTE]
    >
-   >Wenn Sie außerhalb des Namensfelds klicken, wird die Ad-hoc-Karte automatisch als &quot;Unbenannt&quot;unten in der Spalte ganz links gespeichert. Um den Vorgang zu beenden, ohne die Karte zu speichern, müssen Sie auf [!UICONTROL **Abbrechen**] ohne auf eine andere Stelle im [!UICONTROL Kartendetails] ankreuzen.
+   >Wenn Sie außerhalb des Namensfelds klicken, wird die Ad-hoc-Karte automatisch als &quot;Unbenannt&quot;unten in der Spalte ganz links gespeichert. Um den Vorgang zu beenden, ohne die Karte zu speichern, müssen Sie auf [!UICONTROL **Abbrechen**] klicken, ohne auf eine andere Stelle im Feld [!UICONTROL Kartendetails] zu klicken.
 
-1. Im **[!UICONTROL Kartendetails]** die folgenden Informationen hinzufügen:
+1. Fügen Sie im Feld **[!UICONTROL Kartendetails]** die folgenden Informationen hinzu:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -74,11 +74,11 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Spalte]</strong> </td> 
-      <td>Wählen Sie die Spalte für die Karte aus. Wenn Sie die <strong>[!UICONTROL Spalte]</strong> leer ist, wird die Karte in der ersten Spalte links auf der Pinnwand platziert.</td>
+      <td>Wählen Sie die Spalte für die Karte aus. Wenn Sie das Feld <strong>[!UICONTROL Column]</strong> leer lassen, wird die Karte in der ersten Spalte links auf der Pinnwand platziert.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
-      <td>Wählen Sie einen Status für die Karte aus. Wenn Sie auf <strong>[!UICONTROL Mark Complete]</strong> oben auf der Karte, ändert sich der Status automatisch in [!UICONTROL Complete].</td> 
+      <td>Wählen Sie einen Status für die Karte aus. Wenn Sie oben auf der Karte auf <strong>[!UICONTROL Mark Complete]</strong> klicken, ändert sich der Status automatisch in [!UICONTROL Complete].</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Fälligkeitsdatum]</strong></td> 
@@ -89,26 +89,26 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
       <td>Geben Sie die geschätzte Anzahl von Stunden für das Ausfüllen der Karte ein. Dies ist nur ein manueller Eintrag.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Zuweisung]</strong> </td> 
-      <td>Um die Karte zuzuweisen, klicken Sie auf <strong>[!UICONTROL Zuweisung hinzufügen]</strong> und beginnen Sie, einen Namen in das Suchfeld einzugeben. Wählen Sie sie dann aus, wenn sie in der Ergebnisliste angezeigt wird. Sie können sowohl Einzelpersonen als auch Teams hinzufügen und einer Karte mehrere Personen oder Teams zuweisen.</td>
+      <td role="rowheader"><strong>[!UICONTROL Zuweisungen]</strong> </td> 
+      <td>Um die Karte zuzuweisen, klicken Sie auf <strong>[!UICONTROL Zuweisung hinzufügen]</strong> und geben Sie einen Namen in das Suchfeld ein. Wählen Sie sie dann aus, wenn sie in der Ergebnisliste angezeigt wird. Sie können sowohl Einzelpersonen als auch Teams hinzufügen und einer Karte mehrere Personen oder Teams zuweisen.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
       <td>Suchen Sie nach Tags für die Karte und wählen Sie sie aus. Informationen zum Erstellen neuer Tags finden Sie unter <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Tags hinzufügen</a>.</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Verbindung]</strong> </td>
-      <td>Sie können eine Ad-hoc-Karte mit einem [!DNL Workfront] Aufgabe oder Problem. Weitere Informationen finden Sie unter "Konvertieren einer Ad-hoc-Karte in eine verbundene Karte"im Artikel <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Angeschlossene Karten auf Pinnwänden verwenden</a>.</td>
+      <td role="rowheader"><strong>[!UICONTROL Connection]</strong> </td>
+      <td>Sie können eine Ad-hoc-Karte mit einer [!DNL Workfront] -Aufgabe oder einem Problem verbinden. Weitere Informationen finden Sie unter "Konvertieren einer Ad-hoc-Karte in eine verbundene Karte"im Artikel <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Verwenden Sie verbundene Karten auf Pinnwänden</a>.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Checkliste]</strong> </td> 
-      <td> <p>Klicks <strong>[!UICONTROL Checklisten-Element hinzufügen]</strong>. Geben Sie dann den Titel des Elements ein und drücken Sie die Eingabetaste. Ein weiteres Element wird automatisch hinzugefügt. Fahren Sie mit der Eingabe von Titeln fort, um weitere Elemente hinzuzufügen.</p> <p>Der Zähler oben in der Checkliste zeigt die Anzahl der abgeschlossenen Elemente und die Gesamtzahl der Elemente an.</p> <p>Weitere Informationen zu Checklisten-Elementen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Verwalten von Checklisten-Elementen auf Karten</a>.</p> </td> 
+      <td> <p>Klicken Sie auf <strong>[!UICONTROL Checklisten-Element hinzufügen]</strong>. Geben Sie dann den Titel des Elements ein und drücken Sie die Eingabetaste. Ein weiteres Element wird automatisch hinzugefügt. Fahren Sie mit der Eingabe von Titeln fort, um weitere Elemente hinzuzufügen.</p> <p>Der Zähler oben in der Checkliste zeigt die Anzahl der abgeschlossenen Elemente und die Gesamtzahl der Elemente an.</p> <p>Weitere Informationen zu Checklisten-Elementen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Verwalten von Checklisten-Elementen auf Karten</a>.</p> </td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Kommentare]</strong></td>
-      <td><p>Klicken Sie in der <strong>[!UICONTROL Neuer Kommentar]</strong> und geben Sie Ihren Kommentar ein. Verwenden Sie die Formatierungs-Tools, um den Text zu formatieren. (In Kommentaren auf Ad-hoc-Karten sind keine Bilder verfügbar.) Verwenden Sie das Suchfeld unten im Kommentarbereich, um eine Person oder ein Team mit Tags zu versehen. Der Benutzer muss kein Mitglied auf der Pinnwand sein.</p><p><strong>NOTE:</strong> Derzeit erhalten Benutzer, die in Kommentaren auf Ad-hoc-Karten getaggt wurden, keine E-Mail-Benachrichtigung.
-      </p><p>Klicks <strong>[!UICONTROL Submit]</strong> , um den Kommentar zur Karte hinzuzufügen.</p>
-      <p>Weitere Informationen zu Kommentaren finden Sie unter <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update der Arbeit</a>.</p></td>
+      <td><p>Klicken Sie in das Feld <strong>[!UICONTROL Neuer Kommentar]</strong> und geben Sie Ihren Kommentar ein. Verwenden Sie die Formatierungs-Tools, um den Text zu formatieren. (In Kommentaren auf Ad-hoc-Karten sind keine Bilder verfügbar.) Verwenden Sie das Suchfeld unten im Kommentarbereich, um eine Person oder ein Team mit Tags zu versehen. Der Benutzer muss kein Mitglied auf der Pinnwand sein.</p><p><strong>HINWEIS:</strong> Derzeit erhalten Benutzer, die in Kommentaren auf Ad-hoc-Karten getaggt sind, keine E-Mail-Benachrichtigung.
+      </p><p>Klicken Sie auf <strong>[!UICONTROL Submit]</strong> , um den Kommentar zur Karte hinzuzufügen.</p>
+      <p>Weitere Informationen zu Kommentaren finden Sie unter <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Arbeit aktualisieren</a>.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -117,7 +117,7 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
 
    Verwenden Sie das linke Navigationsfenster, um zwischen den Bereichen der Felder in den Kartendetails zu wechseln.
 
-1. Klicks **[!UICONTROL Schließen]** , um die Karte zur Pinnwand hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Schließen]** , um die Karte zur Pinnwand hinzuzufügen.
 
    Auf der Karte werden die Bevollmächtigten, Tags, Fälligkeitsdatum, der Zähler der Checkliste, die geschätzten Stunden und der Status angezeigt.
 
@@ -126,14 +126,14 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront].
 Sie können Ad-hoc-Karten mit nur einem Titel hinzufügen, um Ihre Pinnwand schnell zu füllen.
 
 1. Rufen Sie die Pinnwand auf, der Sie Karten hinzufügen möchten.
-1. Klicken Sie auf **[!UICONTROL Hinzufügen]** icon ![Karte hinzufügen](assets/addicon-spectrum.png) in der Spalte, in der Sie die Karte hinzufügen möchten.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hinzufügen]** ![Karte hinzufügen](assets/addicon-spectrum.png) in der Spalte, in der Sie die Karte hinzufügen möchten.
 1. Geben Sie den Kartennamen ein und drücken Sie die Eingabetaste.
 
    Unter der neuen Karte wird automatisch eine weitere Karte hinzugefügt.
 
 1. Geben Sie weiterhin Kartennamen ein, um weitere Karten hinzuzufügen.
 1. Um das Hinzufügen von Karten zu beenden, klicken Sie außerhalb der Spalte auf .
-1. Um weitere Details hinzuzufügen, müssen Sie die Karte bearbeiten. Weitere Informationen finden Sie unter [Vorhandene Karte bearbeiten](#edit-an-existing-card) in diesem Artikel.
+1. Um weitere Details hinzuzufügen, müssen Sie die Karte bearbeiten. Weitere Informationen finden Sie unter [Bearbeiten einer vorhandenen Karte](#edit-an-existing-card) in diesem Artikel.
 
 ## Vorhandene Karte bearbeiten {#edit-an-existing-card}
 
@@ -143,8 +143,8 @@ Sie können Ad-hoc-Karten mit nur einem Titel hinzufügen, um Ihre Pinnwand schn
 
    Oder
 
-   Klicken Sie auf **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]**.
+   Klicken Sie auf das Menü **[!UICONTROL Mehr]** ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]** aus.
 
-1. Im [!UICONTROL Kartendetails] , aktualisieren Sie die Informationen nach Bedarf und klicken Sie auf **[!UICONTROL Schließen]** , um zur Pinnwand zurückzukehren.
+1. Aktualisieren Sie die Informationen im Feld [!UICONTROL Kartendetails] nach Bedarf und klicken Sie auf **[!UICONTROL Schließen]** , um zur Pinnwand zurückzukehren.
 
    Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, wird die Karte beim Ändern des Status auf der Karte automatisch in die entsprechende Spalte verschoben. Weitere Informationen finden Sie unter &quot;Spalteneinstellungen und Richtlinien definieren&quot;im Artikel [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten von Gruppierungen in einem Bericht verwalten</p> <p>Berechtigungen für eine Gruppierung verwalten, um sie zu bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten von Gruppierungen in einem Bericht verwalten</p> <p>Berechtigungen für eine Gruppierung verwalten, um sie zu bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Bevor Sie mit der Verwendung des Textmodus in einem Bericht oder einer Liste beg
 Weitere Informationen finden Sie unter
 
 * [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Übersicht über die Syntax der Textmodi](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Übersicht über die Syntax im Textmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Textmodus in einer Gruppierung bearbeiten
@@ -70,30 +70,30 @@ Die Bearbeitung einer Gruppierung im Textmodus ist für Berichte und Listen iden
 
 >[!NOTE]
 >
->Gruppierungen sind ein obligatorisches Berichterstellungselement für Grafiken in Berichten. Gruppierungen im Textmodus werden in Diagrammen nicht unterstützt. Informationen zum Hinzufügen von Diagrammen zu Berichten finden Sie unter [Diagramm zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+>Gruppierungen sind ein obligatorisches Berichterstellungselement für Grafiken in Berichten. Gruppierungen im Textmodus werden in Diagrammen nicht unterstützt. Weitere Informationen zum Hinzufügen von Diagrammen zu Berichten finden Sie unter [Hinzufügen eines Diagramms zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 Weitere Informationen zum Erstellen von Gruppierungen finden Sie unter [Erstellen von Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   1. Um über einen Bericht auf die Gruppierung zuzugreifen, rufen Sie den Bericht auf und klicken Sie auf **Berichtaktionen** > **Bearbeiten** > **Gruppierungen** Registerkarte.
-   1. Um von einer Liste aus auf die Gruppierung zuzugreifen, navigieren Sie zur Liste und wählen Sie die **Gruppierung** aus dem Dropdown-Menü, bewegen Sie den Mauszeiger über die zu ändernde Gruppierung und klicken Sie auf **Bearbeiten** icon ![](assets/edit-icon.png).
+   1. Um von einem Bericht aus auf die Gruppierung zuzugreifen, gehen Sie zum Bericht und klicken Sie dann auf die Registerkarte **Berichtaktionen** > **Bearbeiten** > **Gruppierungen** .
+   1. Um von einer Liste aus auf die Gruppierung zuzugreifen, gehen Sie zur Liste und bewegen Sie im Dropdown-Menü **Gruppierung** den Mauszeiger über die zu ändernde Gruppierung und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
 
       Der Gruppierungs-Builder wird geöffnet.
 
-1. Klicks **Gruppierung hinzufügen** um die Gruppierungen hinzuzufügen, klicken Sie auf **In den Textmodus wechseln** in der rechten oberen Ecke des Builders.
+1. Klicken Sie auf **Gruppierung hinzufügen** , um die Gruppierungen hinzuzufügen, und klicken Sie dann oben rechts im Builder auf **In Textmodus wechseln** .
 
    >[!TIP]
    >
-   Sie können bis zu 3 Gruppierungen in der Standardschnittstelle hinzufügen. Sie können eine vierte Gruppierung nur im Textmodus hinzufügen. In Workfront sind maximal vier Gruppierungsebenen zulässig.
+   >Sie können bis zu 3 Gruppierungen in der Standardschnittstelle hinzufügen. Sie können eine vierte Gruppierung nur im Textmodus hinzufügen. In Workfront sind maximal vier Gruppierungsebenen zulässig.
 
 1. Beginnen Sie mit der Eingabe des Namens eines Felds, nach dem Sie eine Gruppe bilden möchten.
 
    Wählen Sie den Namen des Felds aus, wenn es in der Liste angezeigt wird.
 
-1. Klicks **In den Textmodus wechseln** in der rechten oberen Ecke des Builders.
+1. Klicken Sie oben rechts im Builder auf **In den Textmodus wechseln** .
 
    Die Gruppierung wird dann im Textmodus angezeigt.
 
@@ -113,7 +113,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
 
    >[!IMPORTANT]
    >
-   Die fettgedruckten Zeilen sind zwingend erforderlich.
+   >Die fettgedruckten Zeilen sind zwingend erforderlich.
 
    <!--
    <div class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="autonumber"><span><b>Example: </b></span></span>
@@ -149,7 +149,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
 
    >[!TIP]
    >
-   Die Schlüsselzeilen in einer Textmodusgruppierung ähneln den Zeilen, die zum Erstellen von Textmodusansichten erforderlich sind.
+   >Die Schlüsselzeilen in einer Textmodusgruppierung ähneln den Zeilen, die zum Erstellen von Textmodusansichten erforderlich sind.
 
    <!--
    <note type="tip">  
@@ -168,7 +168,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
     </thead> 
     <tbody> 
      <tr> 
-      <td><strong>hinzugefügt.&lt;number&gt;.</strong> </td> 
+      <td><strong>Gruppe.&lt;Zahl&gt;.</strong> </td> 
       <td> <p>Jeder Codezeile ist dieser Text vorangestellt. Die Codezeilen, die sich auf dasselbe in der Gruppierung ausgewählte Feld beziehen, werden wie folgt mit derselben Nummer nummeriert:</p> 
        <ul> 
         <li>Die erste Gruppierung des Berichts hat die Gruppennummer 0. Alle Zeilen, die auf die erste Gruppierung verweisen, beginnen mit <code>group.0</code>.</li> 
@@ -181,30 +181,30 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
       <td> <p><strong>valueField</strong>=</p> </td> 
       <td> <p>Dies ist der Name des Objekts oder des Felds, wie es in der Datenbank angezeigt wird. Weitere Informationen dazu, wie Objekte und Felder in der Datenbank angezeigt werden, finden Sie unter <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API-Explorer</a>.</p> <p>Die folgenden Szenarien existieren:</p> 
        <ol> 
-        <li value="1"> <p> Wenn der Name des angezeigten Felds eine Wortgruppe und nicht ein einzelnes Substantiv ist, müssen Sie für die <code>valuefield</code>. Für das geplante Startdatum einer Aufgabe lautet der Code beispielsweise:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
-        <li value="2"> <p>Wenn Sie ein benutzerdefiniertes Feld anzeigen möchten, wird die <code>valuefield</code> -Wert ist der tatsächliche Name des Felds, wie er in der Benutzeroberfläche angezeigt wird. Für ein benutzerdefiniertes Feld mit dem Namen "Weitere Informationen"lautet der Code beispielsweise:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Wenn Sie mithilfe der <code>valuefield</code> Codezeile: Die Objektnamen und -attribute werden durch Doppelpunkte getrennt.</p> <p>Beispielsweise hat eine Gruppierung nach Portfolio für eine Aufgabenliste den folgenden Wert für die Wertefeldzeile:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Dies bedeutet, dass Sie vom Objekt des Berichts (Aufgabe) aus auf das nächste verwandte Objekt (Projekt) zugreifen können. Von dort aus können Sie auf das folgende verwandte Objekt aus Projekt (Portfolio) zugreifen und dann den Portfolionamen (Namen).</p> </li> 
-       </ol> <p>Informationen dazu, wie Objekte miteinander verbunden werden, finden Sie im Abschnitt <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Abhängigkeit und Hierarchie von Objekten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objekte in Adobe Workfront verstehen</a>.</p> <p>Hinweis: Wenn Sie ein Feld im Textmodus auswählen, das in der Standardoberfläche nicht gültig ist, und zur Standardoberfläche wechseln, wird die Gruppierung gelöscht.</p> </td> 
+        <li value="1"> <p> Wenn der Name des angezeigten Felds eine Wortgruppe und nicht ein einzelnes Substantiv ist, müssen Sie die Binnenmajuskel-Groß-/Kleinschreibung für die <code>valuefield</code> verwenden. Für das geplante Startdatum einer Aufgabe lautet der Code beispielsweise:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
+        <li value="2"> <p>Wenn Sie ein benutzerdefiniertes Feld anzeigen möchten, ist der Wert <code>valuefield</code> der tatsächliche Name des Felds, wie er in der Benutzeroberfläche angezeigt wird. Für ein benutzerdefiniertes Feld mit dem Namen "Weitere Informationen"lautet der Code beispielsweise:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
+        <li value="3"> <p>Wenn Sie mithilfe der Codezeile <code>valuefield</code> Objekte gruppieren möchten, die mit anderen Objekten verbunden sind, werden die Objektnamen und -attribute durch Doppelpunkte getrennt.</p> <p>Beispielsweise hat eine Gruppierung nach Portfolio für eine Aufgabenliste den folgenden Wert für die Wertefeldzeile:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Dies bedeutet, dass Sie vom Objekt des Berichts (Aufgabe) aus auf das nächste verwandte Objekt (Projekt) zugreifen können. Von dort aus können Sie auf das folgende verwandte Objekt aus Projekt (Portfolio) zugreifen und dann den Portfolionamen (Namen).</p> </li> 
+       </ol> <p>Informationen dazu, wie Objekte miteinander verbunden werden, finden Sie im Abschnitt <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependenz und Hierarchie von Objekten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objekte in Adobe Workfront verstehen</a>.</p> <p>Hinweis: Wenn Sie ein Feld im Textmodus auswählen, das in der Standardoberfläche nicht gültig ist, und zur Standardoberfläche wechseln, wird die Gruppierung gelöscht.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>valueFormat=</strong> </td> 
-      <td> <p>Diese Zeile stellt das Format dar, das zum Anzeigen der <code>valuefield</code>. Die <code>valueformat</code> gibt an, ob ein Objekt oder Feld als Text, Zahl, Prozentsatz oder Datum angezeigt wird.</p> <p>Wir empfehlen, <code>HTML</code> für Ihre <code>valueformat</code>, insbesondere bei Verwendung von <code>valueexpression</code>, um eine möglichst genaue Anzeige Ihrer Informationen sicherzustellen.</p> <p>Weitere Informationen zu zusätzlichen Werten für diese Zeile finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Bedingte Formatierung im Textmodus verwenden</a>.</p> </td> 
+      <td> <p>Diese Zeile stellt das Format dar, das zum Anzeigen des <code>valuefield</code> verwendet wird. Der Wert <code>valueformat</code> gibt an, ob ein Objekt oder Feld als Text, Zahl, Prozentsatz oder Datum angezeigt wird.</p> <p>Es wird empfohlen, <code>HTML</code> für Ihre <code>valueformat</code> zu verwenden, insbesondere bei Verwendung von <code>valueexpression</code>, um eine möglichst genaue Anzeige Ihrer Informationen sicherzustellen.</p> <p>Weitere Informationen zu zusätzlichen Werten für diese Zeile finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Bedingte Formatierung im Textmodus verwenden</a>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>valueExpression=</strong> </p> </td> 
-      <td> <p>Sie können diese Zeile zum Ersetzen hinzufügen <code>valuefield</code>, wenn Sie Ihre Liste anhand einer Berechnung zwischen mehreren Feldern gruppieren möchten.</p> <p>Sie müssen die <code>valuefield</code> der Objekte in geschweiften Klammern jedes Mal, wenn Sie sie in einer <code>valueexpression</code>.</p> <p>Die folgenden Szenarien existieren:</p> 
+      <td> <p>Sie können diese Zeile hinzufügen, um <code>valuefield</code> zu ersetzen, wenn Sie Ihre Liste durch eine Berechnung zwischen mehreren Feldern gruppieren möchten.</p> <p>Sie müssen die <code>valuefield</code> der Objekte jedes Mal, wenn Sie sie in einem <code>valueexpression</code> verwenden, in geschweifte Klammern setzen.</p> <p>Die folgenden Szenarien existieren:</p> 
        <ol> 
         <li value="1"> <p>Wenn Sie den Namen einer Gruppierung in Großbuchstaben anzeigen möchten, verwenden Sie:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>Die <code>valuefield</code> des Objekts wird so geschrieben, wie es im API Explorer angezeigt wird.</p> </li> 
-        <li value="2">Wenn Sie mehrere <code>valuefields</code> indem sie sie in einer <code>valueexpression </code>hinzugefügt werden, müssen Sie sie durch einen Punkt trennen.<p>Wenn Sie beispielsweise den Namen des Portfolios in Großbuchstaben in einer Aufgabenliste anzeigen möchten, verwenden Sie den folgenden Code im <code>valueexpression</code> Linie:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Wenn Sie ein benutzerdefiniertes Feld in einem <code>valueexpression</code> Zeile, der Sie dem Feldnamen voranstellen müssen durch <code>DE:</code> um anzugeben, dass es sich um ein benutzerdefiniertes Feld handelt. Der Name des Felds wird so geschrieben, wie er in der Benutzeroberfläche angezeigt wird.</p><p>Wichtig: <span>Wenn Sie ein benutzerdefiniertes Feld verwenden, das in einem benutzerdefinierten Formularabschnitt platziert wird, der eingeschränkte Berechtigungen für einige Benutzer hat, wird die <code>valueexpression </code>leer ist, wenn diese Benutzer diese Berechnung in einem Bericht anzeigen. Informationen zum Anpassen von Berechtigungen für benutzerdefinierte Formularabschnitte finden Sie unter</span> <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Benutzerdefiniertes Formular erstellen oder bearbeiten</a></span>.</p><p>Wenn Sie beispielsweise ein benutzerdefiniertes Feld mit der Bezeichnung "Entwicklername"haben und nach diesem Feld gruppieren und es in Großbuchstaben anzeigen möchten, können Sie Folgendes verwenden: <code>valueexpression</code> um dies anzugeben:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Verwenden Sie beim Referenzieren eines benutzerdefinierten Felds vom Typ "TypeAhead"den folgenden Ausdruck, um auf den Namen des Objekts zu verweisen, das in einem Feld mit der Bezeichnung "Entwicklername"ausgewählt wurde:</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">Wenn Sie mehrere <code>valuefields</code> hinzufügen möchten, indem Sie sie in einer <code>valueexpression </code> -Zeile zusammenführen, müssen Sie sie durch einen Punkt trennen.<p>Wenn Sie beispielsweise den Namen des Portfolios in Großbuchstaben in einer Aufgabenliste anzeigen möchten, verwenden Sie den folgenden Code in der Zeile <code>valueexpression</code> :</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Wenn Sie ein benutzerdefiniertes Feld in einer Zeile <code>valueexpression</code> verwenden möchten, müssen Sie dem Feldnamen durch <code>DE:</code> vorangehen, um anzugeben, dass es sich um ein benutzerdefiniertes Feld handelt. Der Name des Felds wird so geschrieben, wie er in der Benutzeroberfläche angezeigt wird.</p><p>Wichtig: <span>Wenn Sie ein benutzerdefiniertes Feld verwenden, das in einem benutzerdefinierten Formularabschnitt platziert wird, der eingeschränkte Berechtigungen für einige Benutzer hat, ist die Berechnung des <code>valueexpression </code> leer, wenn diese Benutzer diese Berechnung in einem Bericht anzeigen. Informationen zum Anpassen von Berechtigungen für benutzerdefinierte Formularabschnitte finden Sie unter</span> <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a></span>.</p><p>Wenn Sie beispielsweise ein benutzerdefiniertes Feld mit der Bezeichnung "Entwicklername"haben und nach diesem Feld gruppieren und es in Großbuchstaben anzeigen möchten, können Sie dies mit dem folgenden <code>valueexpression</code> angeben:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Verwenden Sie beim Referenzieren eines benutzerdefinierten Felds vom Typ "TypeAhead"den folgenden Ausdruck, um auf den Namen des Objekts zu verweisen, das in einem Feld mit der Bezeichnung "Entwicklername"ausgewählt wurde:</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td><strong>nameKey= / name=</strong> </td> 
-      <td> <p>Diese Zeile definiert den Gruppierungstitel. In diesem Fall wird der abgekürzte Wert basierend auf dem Schlüssel verwendet.</p> <p>Wenn Sie den Gruppierungsnamen ändern möchten, können Sie diesen Wert wie folgt ändern:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.name=Your Value</code> </p> <p><code>Name</code> ermöglicht die Eingabe von Text für den Gruppierungsnamen, während <code>namekey</code> erfordert die Eingabe eines Schlüssels, der zur Übersetzung des Gruppierungsnamens verwendet wird.</p> <p>Um den Gruppierungsnamen zu ändern, können Sie auch die <code>displayname </code>, wenn keine vorhanden ist.</p> </td> 
+      <td><strong>namekey= / name=</strong> </td> 
+      <td> <p>Diese Zeile definiert den Gruppierungstitel. In diesem Fall wird der abgekürzte Wert basierend auf dem Schlüssel verwendet.</p> <p>Wenn Sie den Gruppierungsnamen ändern möchten, können Sie diesen Wert wie folgt ändern:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.name=Your Value</code> </p> <p><code>Name</code> ermöglicht die Eingabe von beliebigem Text für den Gruppierungsnamen, während für <code>namekey</code> die Eingabe eines Schlüssels erforderlich ist, der zur Übersetzung des Gruppierungsnamens verwendet wird.</p> <p>Um den Gruppierungsnamen zu ändern, können Sie auch die Zeile <code>displayname </code>hinzufügen, falls keine vorhanden ist.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>displayName =</strong> </td> 
-      <td> <p>Sie können die folgende Zeile hinzufügen, um den Namen einer Spalte zu ändern, wodurch die <code>namekey/name</code> Wert:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.displayname=Your Value</code> </p> <p>Es wird empfohlen, alle Zeilen zu entfernen, die <code>name </code>wenn Sie eine Gruppierung umbenennen.</p> </td> 
+      <td> <p>Sie können die folgende Zeile hinzufügen, um den Namen einer Spalte zu ändern, wodurch der Wert <code>namekey/name</code> überschrieben wird:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.displayname=Your Value</code> </p> <p>Es wird empfohlen, beim Umbenennen einer Gruppierung alle Zeilen zu entfernen, die "<code>name </code>enthalten.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -230,8 +230,8 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten
 
    >[!TIP]
    >   
-   * Wenn Sie Gruppierungen bei der Anzeige einer Liste manuell anpassen, behält sich Workfront Ihre manuellen Voreinstellungen vor, bis Sie sich abmelden. Wenn Sie sich wieder anmelden, wird die Liste entsprechend dieser Einstellung angezeigt.
-   * Die Ergebnisse einer Gruppierung werden immer erweitert, nachdem sie über ein Diagrammelement aufgerufen wurden.
+   >* Wenn Sie Gruppierungen bei der Anzeige einer Liste manuell anpassen, behält sich Workfront Ihre manuellen Voreinstellungen vor, bis Sie sich abmelden. Wenn Sie sich wieder anmelden, wird die Liste entsprechend dieser Einstellung angezeigt.
+   >* Die Ergebnisse einer Gruppierung werden immer erweitert, nachdem sie über ein Diagrammelement aufgerufen wurden.
 
-1. Klicks **Fertig** , wenn Sie Ihre Änderungen speichern und mit der Bearbeitung der Gruppierung oder des Berichts fortfahren möchten.
-1. Klicks **Gruppierung speichern** in einer Liste oder **Speichern und schließen** , um Ihren Bericht zu speichern.
+1. Klicken Sie auf **Fertig** , wenn Sie Ihre Änderungen speichern und mit der Bearbeitung der Gruppierung oder des Berichts fortfahren möchten.
+1. Klicken Sie in einer Liste auf **Gruppierung speichern** oder auf **Speichern + Schließen** , um den Bericht zu speichern.

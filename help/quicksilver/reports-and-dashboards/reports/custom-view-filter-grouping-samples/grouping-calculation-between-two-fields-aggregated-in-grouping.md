@@ -21,7 +21,7 @@ Sie können den Textmodus in einer Spalte verwenden, um eine Berechnung zwischen
 
 Beispielsweise können Sie den Unterschied zwischen tatsächlichen und geplanten Stunden in einer dritten Spalte mit dem Namen Work Balance für jede Aufgabe in einem Aufgabenbericht anzeigen. Weitere Informationen zu berechneten Datenausdrücken finden Sie unter [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Sie können den aggregierten Wert mehrerer berechneter Ansichtselemente in derselben Spalte in einer Gruppierung anzeigen, indem Sie der `aggregator` Zeile der Spalte, die den berechneten Wert enthält. Sie können beispielsweise die Anzahl der Arbeitsbilanzstunden aller Aufgaben in der Gruppierung des Berichts oder der Liste für die Spalte &quot;Arbeitsstand&quot;aggregieren (die Summe anzeigen). In diesem Artikel wird beschrieben, wie Sie dies tun.
+Sie können den aggregierten Wert mehrerer berechneter Ansichtselemente in derselben Spalte in einer Gruppierung anzeigen, indem Sie der Zeile `aggregator` der Spalte, die den berechneten Wert enthält, eine Berechnung hinzufügen. Sie können beispielsweise die Anzahl der Arbeitsbilanzstunden aller Aufgaben in der Gruppierung des Berichts oder der Liste für die Spalte &quot;Arbeitsstand&quot;aggregieren (die Summe anzeigen). In diesem Artikel wird beschrieben, wie Sie dies tun.
 
 ## Zugriffsanforderungen
 
@@ -48,7 +48,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,19 +57,19 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung anzeigen
 
-1. Wechseln Sie zu einem Aufgabenbericht, klicken Sie auf **Berichtaktionen** > **Bearbeiten**.
-1. Im **Gruppierungen** Registerkarte, klicken **Gruppierung hinzufügen**, und beginnen Sie mit der Eingabe **Projektname** im **Gruppieren Ihres Berichts** > **Zuerst durch** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie in einen Aufgabenbericht auf **Berichtaktionen** > **Bearbeiten**.
+1. Klicken Sie auf der Registerkarte **Gruppierungen** auf **Gruppierung hinzufügen**, geben Sie im Feld **Gruppieren Sie Ihren Bericht** > **Zuerst nach** den Wert **Projektnamen** ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
-1. Im **Spalten (Ansicht)** Registerkarte, klicken **Spalte hinzufügen**, und beginnen Sie dann mit der Eingabe **Geplante Stunden** im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf der Registerkarte **Spalten(Ansicht)** auf **Spalte hinzufügen**, geben Sie dann im Feld **In dieser Spalte anzeigen** den Wert **Geplante Stunden** ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
    >[!TIP]
    >
    >Beginnen Sie immer mit dem Hinzufügen so vieler Informationen über die Standard-Benutzeroberfläche, bevor Sie Informationen im Textmodus bearbeiten. Fügen Sie die Felder hinzu, die am nächsten sind oder die die meisten Informationen enthalten, die für die Berechnung, die Sie vornehmen möchten, erforderlich sind.
 
-1. Im **Zusammenfassen dieser Spalte nach** Feld auswählen **Summe** Klicken Sie auf **Fertig**.
-1. Klicks **In den Textmodus wechseln** in der hinzugefügten Spalte.
+1. Wählen Sie im Feld **Zusammenfassen dieser Spalte nach** die Option **Summe** und klicken Sie dann auf **Fertig**.
+1. Klicken Sie in der hinzugefügten Spalte auf **In den Textmodus wechseln** .
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Ersetzen Sie die `valuefield ` und `aggregator.valuefield` Zeilen mit den im folgenden Textmodus hervorgehobenen Zeilen:
+1. Ersetzen Sie die Zeilen `valuefield ` und `aggregator.valuefield` durch die Zeilen, die im folgenden Textmodus hervorgehoben sind:
 
    ```
    valueformat=compound
@@ -89,9 +89,9 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    >[!TIP]
    >
-   >Um den aggregierten Wert in der Gruppierung zu erhalten und die aggregierte Differenz zwischen den Feldern &quot;Geplante Stunden&quot;und &quot;Tatsächliche Stunden&quot;anzuzeigen, müssen Sie dieselbe Gleichung in die `aggregator.valuefield` Linie. Die `aggregator.displayformat` für die Spalte &quot;Geplante Stunden&quot;verwendet wird, werden Minuten in Stunden umgewandelt. Da das Feld &quot;Geplante Stunden&quot;als Platzhalter verwendet wurde, muss diese Zeile nicht angepasst werden.
+   >Um den aggregierten Wert in der Gruppierung abzurufen und den aggregierten Unterschied zwischen den Feldern &quot;Geplante Stunden&quot;und &quot;Tatsächliche Stunden&quot;anzuzeigen, geben Sie dieselbe Gleichung in die Zeile `aggregator.valuefield` ein. Die für die Spalte &quot;Geplante Stunden&quot;verwendete `aggregator.displayformat` wandelt Minuten in Stunden um. Da das Feld &quot;Geplante Stunden&quot;als Platzhalter verwendet wurde, muss diese Zeile nicht angepasst werden.
    >
    >
-   >Die `minutesAsHoursString` Definition der `aggregator.displayformat` bedeutet, dass es nicht notwendig ist, jedes Feld wie auf der `valueexpression` für die Ergebnisse. In diesem `aggregator.valuefield=workRequired` wird: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
+   >Die `minutesAsHoursString`-Definition der Zeile `aggregator.displayformat` bedeutet, dass es nicht notwendig ist, jedes Feld durch 60 zu teilen, wie es auf der `valueexpression` für die Ergebnisse getan wird. In diesem `aggregator.valuefield=workRequired` wird: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
 
-1. Klicks **Speichern+Schließen**.
+1. Klicken Sie auf **Speichern+Schließen**.

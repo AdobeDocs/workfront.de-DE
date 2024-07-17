@@ -10,7 +10,7 @@ feature: Product Announcements, Workfront Scenario Planner
 exl-id: 2e507c0c-76e2-4335-9682-df4f1940ff88
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -29,14 +29,15 @@ Wir haben die Erfahrung zur Lösung von Aufgaben- und Budgetkonflikten im Szenar
 * Mehr Sichtbarkeit in der Zeitleiste des Plans für Konfliktsituationen, damit Sie schneller Einblicke darüber erhalten, wo Sie mögliche unzureichende Ressourcen ansprechen müssen.
 * Ein verbessertes Benutzererlebnis, das neue QuickInfos, Informationsfelder und Highlights enthält, die Sie durch die Lösung von Konflikten zwischen den Ressourcen, die Ihre Initiativen benötigen, und dem Budget, das Ihr Plan zur Verfügung hat, schneller und einfacher führen.
 
-Weitere Informationen zum Beheben von Konflikten im Szenario-Planer finden Sie unter [Beheben von Initiativkonflikten im Szenario-Planer](../../../scenario-planner/resolve-conflicts-in-sp.md).
+Informationen zum Beheben von Konflikten im Szenario-Planer finden Sie unter [Beheben von Initiativkonflikten im Szenario-Planer](../../../scenario-planner/resolve-conflicts-in-sp.md).
 
 >[!NOTE]
 >
->**Verfügbar zu diesen Terminen:**
+>**Verfügbar zu diesen Datumsangaben:**
 >
 >Beta-Vorschau-Version: 13. Januar 2021
-Produktionsversion: Mit Version 21.1
+>
+>Produktionsversion: Mit Version 21.1
 
 ## Neues Menü zur Massenverwaltung von Initiativen
 

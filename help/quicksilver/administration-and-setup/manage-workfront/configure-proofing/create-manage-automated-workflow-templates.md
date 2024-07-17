@@ -31,7 +31,7 @@ Beachten Sie Folgendes, wenn Sie eine Vorlage für einen automatisierten Workflo
 1. Wenn eine Person in einer Vorlage für einen automatisierten Workflow zu einer Nutzung hinzugefügt, aber bereits als Validierer für den Testversand vorhanden ist, wird der Validierer durch Anwendung der Vorlage aus der Bühne entfernt. Wenn Sie keinen weiteren Validierer zur Bühne hinzufügen, werden Sie in einer Meldung aufgefordert, einen hinzuzufügen.
 1. Ihre Fähigkeit, eine Vorlage für einen automatisierten Workflow zu ändern, hängt von den vom Workfront-Administrator konfigurierten Vorlageneinstellungen ab, wie in beschrieben. Wenn die Möglichkeit zur Änderung der Vorlage deaktiviert ist, kann sie nur vom Inhaber der Vorlage geändert werden.
 
-Informationen zu automatisierten Workflows finden Sie unter [Übersicht über den automatisierten Workflow](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Informationen zu automatisierten Workflows finden Sie unter [Überblick über den automatisierten Workflow](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Zugriffsanforderungen
 
@@ -45,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Neu: Beliebig</p><p>Aktuell: Pro oder höher</p><p>Veraltet: Premium oder Select</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Neu: Beliebig</p><p>Aktuell: Pro oder höher</p><p>Veraltet: Premium oder Select</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,10 +66,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-to-proofing}}
 
-1. Klicks **Workflows** im linken Bereich.
-1. Im **Workflow** Registerkarte, klicken **Neu** > **Neue Vorlage**.
+1. Klicken Sie im linken Bereich auf **Workflows** .
+1. Klicken Sie auf der Registerkarte **Workflow** auf **Neu** > **Neue Vorlage**.
 
-1. Im **Details** Geben Sie die folgenden Informationen an:
+1. Geben Sie im Abschnitt **Details** die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -85,7 +85,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Vorlagengruppe</td> 
-      <td> <p> Wenn die automatisierten Workflows Ihres Unternehmens in Gruppen unterteilt sind, können Sie den Namen der Gruppe auswählen. Siehe <a href="#create-automated-workflow-template-groups" class="MCXref xref">Erstellen von Vorlagengruppen für automatisierte Workflows</a> später in diesem Artikel für weitere Informationen.</p> </td> 
+      <td> <p> Wenn die automatisierten Workflows Ihres Unternehmens in Gruppen unterteilt sind, können Sie den Namen der Gruppe auswählen. Weitere Informationen finden Sie unter <a href="#create-automated-workflow-template-groups" class="MCXref xref">Erstellen von Vorlagengruppen für automatisierte Workflows</a> weiter unten in diesem Artikel.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Zeitzonen-Vorlage </td> 
@@ -94,14 +94,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      <tr> 
       <td role="rowheader">Zulassen</td> 
       <td> <p>Sie können die Staging-Aktivitäten auswählen, die der Person, die Testsendungen erstellt, mit der Vorlage zur Verfügung stehen sollen.</p> 
-      <p><b>WARNUNG</b>: Wenn Sie die Optionen Phase hinzufügen und Personen zu Bühnen hinzufügen nicht auswählen, können weder der Vorlageninhaber noch der Besitzer eines Testversands, der diese Vorlage verwendet, eine Bühne hinzufügen oder den Testversand freigeben. 
+      <p><b>WARNUNG</b>: Wenn Sie die Optionen Bühne hinzufügen und Personen zu Bühnen hinzufügen nicht auswählen, können weder der Vorlageninhaber noch der Besitzer eines Testversands, der diese Vorlage verwendet, eine Bühne hinzufügen oder den Testversand freigeben. 
       </p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Im **Phasen** konfigurieren Sie die einzelnen Phasen der Vorlage &quot;Automatisierter Workflow&quot;.
+1. Konfigurieren Sie im Abschnitt **Phasen** jede Phase der Vorlage für den automatisierten Workflow.
 
    Sie können mehrere Bühnen hinzufügen und zwischen ihnen erstellen.
 
@@ -115,14 +115,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Phase aktivieren</td> 
-      <td> <p>Geben Sie an, ob die Bühne automatisch oder manuell aktiviert wird. Im ersten Schritt können Sie <strong>Erstellen eines Testversands</strong>, <strong>An einem bestimmten Datum und zu einer bestimmten Uhrzeit</strong>oder <strong>Manuell</strong>.</p> <p>Die anderen Optionen werden verfügbar, wenn Sie eine zweite Phase hinzufügen, da Sie eine übergeordnete Phase auswählen müssen. </p> </td> 
+      <td> <p>Geben Sie an, ob die Bühne automatisch oder manuell aktiviert wird. Im ersten Schritt können Sie <strong>Bei der Erstellung des Testversands</strong>, <strong>Bei einem bestimmten Datum und zu einer bestimmten Uhrzeit</strong> oder <strong>Manuell</strong> auswählen.</p> <p>Die anderen Optionen werden verfügbar, wenn Sie eine zweite Phase hinzufügen, da Sie eine übergeordnete Phase auswählen müssen. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Errechneter Termin</td> 
       <td> <p>Geben Sie an, wie der Termin berechnet werden soll:</p> 
        <ul> 
-        <li> <p><strong>Erstellung von Testsendungen</strong>: In der Dropdownliste unter <strong>Termin (+ Geschäftstage)</strong>wählen Sie die Anzahl der Geschäftstage aus, die Sie dem Erstellungsdatum des Testversands hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</p> </li> 
-        <li><strong>Wenn die Phase beginnt</strong>: In der Dropdownliste unter <strong>Termin (+ Geschäftstage)</strong>wählen Sie die Anzahl der Geschäftstage aus, die Sie dem Aktivierungsdatum der Bühne hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</li> 
+        <li> <p><strong>Erstellung eines Testversands</strong>: Wählen Sie in der Dropdown-Liste unter <strong>Frist (+ Geschäftstage)</strong> die Anzahl der Geschäftstage aus, die Sie zum Erstellungsdatum des Testversands hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</p> </li> 
+        <li><strong>Wenn die Phase beginnt</strong>: Wählen Sie in der Dropdown-Liste unter <strong>Deadline (+ Geschäftstage)</strong> die Anzahl der Geschäftstage aus, die Sie zum Bereitstellungsaktivierungsdatum hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -139,7 +139,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Private Bühne</td> 
-      <td>Blendet Kommentare und Entscheidungen von für Personen aus, die nicht zur Bühne hinzugefügt werden oder keine Workfront-Administratoren sind. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Übersicht über den automatisierten Workflow</a>.</td> 
+      <td>Blendet Kommentare und Entscheidungen von für Personen aus, die nicht zur Bühne hinzugefügt werden oder keine Workfront-Administratoren sind. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Überblick über den automatisierten Workflow</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Löschen dieser Phase nicht zulassen</td> 
@@ -150,9 +150,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wenn die Testsendungen, die diese Vorlage verwenden, immer an dieselben Personen in der Bühne gesendet werden, fügen Sie sie hier hinzu, damit Benutzer sie nicht jedes Mal hinzufügen müssen, wenn sie einen Testversand erstellen.
 
-   Wählen Sie die **Rolle** für die Testsendungen, die diese Vorlage verwenden, und die **E-Mail-Warnungen** Sie möchten, dass der Benutzer beim Arbeiten an Testsendungen, die diese Vorlage verwenden, erhält.
+   Wählen Sie für die Testsendungen, die diese Vorlage verwenden, die **Rolle** jeder Person und die **E-Mail-Warnungen** aus, die der Benutzer beim Bearbeiten von Testsendungen erhalten soll, die diese Vorlage verwenden.
 
-   Informationen zu den Rollen bei einem Testversand finden Sie unter [Konfigurieren von standardmäßigen Testrollen](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Informationen zu Testversand-E-Mail-Warnungen finden Sie im Abschnitt [Konfigurieren der Standardwerte für den Testversand eines Benutzers](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) im Artikel  [E-Mail-Benachrichtigungseinstellungen in Workfront Proof konfigurieren](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   Informationen zu den Rollen für einen Testversand finden Sie unter [Konfigurieren der standardmäßigen Testing-Rollen](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Weitere Informationen zu Testversand-E-Mail-Warnhinweisen finden Sie im Abschnitt [Konfigurieren der Testversandstandards für einen Benutzer](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) im Artikel [E-Mail-Benachrichtigungseinstellungen in Workfront Proof konfigurieren](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) .
 
    Jeder Benutzer kann nur einer Phase hinzugefügt werden. Sie können so viele Benutzer hinzufügen, wie Sie für eine Bühne benötigen.
 
@@ -162,11 +162,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wiederholen Sie die beiden vorherigen Schritte für alle anderen Schritte, die Sie zur Vorlage hinzufügen möchten.
 
-   Oben im **Workflow** angezeigt, können Sie ein Diagramm des von Ihnen eingerichteten automatisierten Workflows sehen. Während Sie weitere Bühnen hinzufügen, werden diese im Diagramm mit Linien angezeigt, die die Abhängigkeiten zwischen ihnen zeigen. Sie können auf eine Bühne im Diagramm klicken, um die Einstellungen für diese Bühne anzuzeigen.
+   Oben im Abschnitt **Workflow** können Sie ein Diagramm des von Ihnen eingerichteten automatisierten Workflows sehen. Während Sie weitere Bühnen hinzufügen, werden diese im Diagramm mit Linien angezeigt, die die Abhängigkeiten zwischen ihnen zeigen. Sie können auf eine Bühne im Diagramm klicken, um die Einstellungen für diese Bühne anzuzeigen.
 
-   Wenn Sie das Diagramm nicht sehen müssen, können Sie auf **Diagramm ausblenden**.
+   Wenn Sie das Diagramm nicht sehen müssen, können Sie auf **Diagramm ausblenden** klicken.
 
-1. Im **Vorlage freigeben für** auf eine Option klicken (sofern die Vorlage noch nicht für die gesamte Organisation freigegeben wurde), um anzugeben, wer sie verwenden kann.
+1. Klicken Sie im Abschnitt **Vorlage für** freigeben auf eine Option (wenn die Vorlage nicht bereits für die gesamte Organisation freigegeben ist), um anzugeben, wer sie verwenden kann.
 
    Standardmäßig werden neue Automated Workflow-Vorlagen für alle Mitarbeiter in Ihrem Unternehmen freigegeben.
 
@@ -178,9 +178,9 @@ Als Workfront Proof-Administrator können Sie eine Vorlage für den automatisier
 
 {{step1-to-proofing}}
 
-1. Klicks **Workflows** im linken Bereich.
-1. Im **Workflow-Vorlagen** angezeigt wird, klicken Sie auf die Vorlage, die Sie ändern möchten.
-1. Im **Details** Geben Sie die folgenden Informationen an:
+1. Klicken Sie im linken Bereich auf **Workflows** .
+1. Klicken Sie in der angezeigten Liste **Workflow-Vorlagen** auf die Vorlage, die Sie ändern möchten.
+1. Geben Sie im Abschnitt **Details** die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -196,7 +196,7 @@ Als Workfront Proof-Administrator können Sie eine Vorlage für den automatisier
      </tr> 
      <tr> 
       <td role="rowheader">Vorlagengruppe</td> 
-      <td> <p> Wenn die automatisierten Workflows Ihres Unternehmens in Gruppen unterteilt sind, können Sie den Namen der Gruppe auswählen. Siehe <a href="#create-automated-workflow-template-groups" class="MCXref xref">Erstellen von Vorlagengruppen für automatisierte Workflows</a> später in diesem Artikel für weitere Informationen.</p> </td> 
+      <td> <p> Wenn die automatisierten Workflows Ihres Unternehmens in Gruppen unterteilt sind, können Sie den Namen der Gruppe auswählen. Weitere Informationen finden Sie unter <a href="#create-automated-workflow-template-groups" class="MCXref xref">Erstellen von Vorlagengruppen für automatisierte Workflows</a> weiter unten in diesem Artikel.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zeitzonen-Vorlage </td> 
@@ -204,12 +204,12 @@ Als Workfront Proof-Administrator können Sie eine Vorlage für den automatisier
      </tr> 
      <tr> 
       <td role="rowheader">Zulassen</td> 
-      <td> <p>Wählen Sie die Staging-Aktivitäten aus, die Benutzern, die mithilfe der Vorlage Testsendungen erstellen, zur Verfügung stehen sollen. </p> <p><b>WARNUNG</b>: Wenn Sie die Optionen Phase hinzufügen und Personen zu Bühnen hinzufügen nicht auswählen, können weder der Vorlageninhaber noch der Besitzer eines Testversands, der diese Vorlage verwendet, eine Bühne hinzufügen oder den Testversand freigeben.</p> </td> 
+      <td> <p>Wählen Sie die Staging-Aktivitäten aus, die Benutzern, die mithilfe der Vorlage Testsendungen erstellen, zur Verfügung stehen sollen. </p> <p><b>WARNUNG</b>: Wenn Sie die Optionen Bühne hinzufügen und Personen zu Bühnen hinzufügen nicht auswählen, können weder der Vorlageninhaber noch der Besitzer eines Testversands, der diese Vorlage verwendet, eine Bühne hinzufügen oder den Testversand freigeben.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Im **Workflow** ändern Sie den Namen einer Phase und erweitern Sie die Einstellungen ![](assets/arrow-button.png) um erforderliche Änderungen vorzunehmen:
+1. Ändern Sie im Abschnitt **Workflow** den Namen einer Phase und erweitern Sie ihre Einstellungen ![](assets/arrow-button.png), um erforderliche Änderungen vorzunehmen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -219,13 +219,13 @@ Als Workfront Proof-Administrator können Sie eine Vorlage für den automatisier
       <td role="rowheader">Errechneter Termin</td> 
       <td> <p>Geben Sie an, wie der Termin berechnet werden soll:</p> 
        <ul> 
-        <li> <p><strong>Aus der Erstellung des Testversands berechnete Frist</strong>: Im <strong>Festlegen des Staging-Termins</strong> in der Dropdown-Liste die Anzahl der Geschäftstage auswählen, die Sie zum Erstellungsdatum des Testversands hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</p> </li> 
-        <li><strong>Von der Staging-Aktivierung berechnete Frist</strong>: Im <strong>Festlegen des Staging-Termins</strong> in der Dropdown-Liste die Anzahl der Geschäftstage auswählen, die Sie zum Aktivierungsdatum der Bühne hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</li> 
+        <li> <p><strong>Von der Testversanderstellung berechnete Frist</strong>: Wählen Sie in der Dropdown-Liste <strong>Staging-Deadline festlegen</strong> die Anzahl der Geschäftstage aus, die Sie zum Erstellungsdatum des Testversands hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</p> </li> 
+        <li><strong>Von der Staging-Aktivierung berechnete Frist</strong>: Wählen Sie in der Dropdownliste <strong>Staging-Deadline festlegen</strong> die Anzahl der Geschäftstage aus, die Sie zum Staging-Aktivierungsdatum hinzufügen möchten, um automatisch einen Termin für den Testversand festzulegen.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Phase aktivieren</td> 
-      <td> <p>Geben Sie an, ob die Bühne automatisch oder manuell aktiviert wird. Im ersten Schritt können Sie <strong>Erstellen eines Testversands</strong>, <strong>An einem bestimmten Datum und zu einer bestimmten Uhrzeit</strong>oder <strong>Manuell</strong>.</p> <p>Die anderen Optionen werden verfügbar, wenn Sie eine zweite Phase hinzufügen, da Sie eine übergeordnete Phase auswählen müssen. </p> </td> 
+      <td> <p>Geben Sie an, ob die Bühne automatisch oder manuell aktiviert wird. Im ersten Schritt können Sie <strong>Bei der Erstellung des Testversands</strong>, <strong>Bei einem bestimmten Datum und zu einer bestimmten Uhrzeit</strong> oder <strong>Manuell</strong> auswählen.</p> <p>Die anderen Optionen werden verfügbar, wenn Sie eine zweite Phase hinzufügen, da Sie eine übergeordnete Phase auswählen müssen. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bühne sperren</td> 
@@ -237,7 +237,7 @@ Als Workfront Proof-Administrator können Sie eine Vorlage für den automatisier
      </tr> 
      <tr> 
       <td role="rowheader">Datenschutz</td> 
-      <td>Blendet Kommentare und Entscheidungen von an Personen aus, die nicht zur Bühne hinzugefügt werden oder die keine Supervisoren und höher im Konto sind. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Übersicht über den automatisierten Workflow</a>.</td> 
+      <td>Blendet Kommentare und Entscheidungen von an Personen aus, die nicht zur Bühne hinzugefügt werden oder die keine Supervisoren und höher im Konto sind. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Überblick über den automatisierten Workflow</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Staging-Löschen</td> 
@@ -245,18 +245,18 @@ Als Workfront Proof-Administrator können Sie eine Vorlage für den automatisier
      </tr> 
      <tr> 
       <td role="rowheader">Mehr <img src="assets/more-icon.png"></td> 
-      <td>Fügen Sie Überprüfer zur Bühne hinzu oder löschen Sie die Bühne.<p>Wenn jeder Ihrer Testsendungen an dieselben Personen in einer bestimmten Phase gesendet wird, können Sie hier seinen Namen angeben, damit Sie ihn nicht jedes Mal hinzufügen müssen, wenn Sie einen Testversand erstellen. Geben Sie den Namen eines Benutzers ein, den Sie der Bühne hinzufügen möchten, und fügen Sie dann dessen <strong>Rolle</strong> auf den Nachweis und <strong>E-Mail-Warnungen</strong> -Einstellungen, die Sie für den Benutzer wünschen. Informationen zu Testing-Rollen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Konfigurieren von standardmäßigen Testrollen</a>. Informationen zu Testversand-E-Mail-Warnungen finden Sie im Abschnitt <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Konfigurieren der Standardwerte für den Testversand eines Benutzers</a> im Artikel <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">E-Mail-Benachrichtigungseinstellungen in Workfront Proof konfigurieren</a>.</p><p>Sie können so viele Benutzer hinzufügen, wie Sie möchten</p><p>Tipp: Sie können Überprüfernamen per Drag-and-Drop zwischen Bühnen in das Bühnen-Diagramm ziehen. Die verfügbaren Bühnen sind blau hervorgehoben.</p></td> 
+      <td>Fügen Sie Überprüfer zur Bühne hinzu oder löschen Sie die Bühne.<p>Wenn jeder Ihrer Testsendungen an dieselben Personen in einer bestimmten Phase gesendet wird, können Sie hier seinen Namen angeben, damit Sie ihn nicht jedes Mal hinzufügen müssen, wenn Sie einen Testversand erstellen. Geben Sie den Namen eines Benutzers ein, den Sie der Bühne hinzufügen möchten, und fügen Sie dann dessen <strong>Rolle</strong> in den Testversand- und <strong>E-Mail-Warnungen</strong> -Einstellungen hinzu, die Sie für den Benutzer wünschen. Informationen zu Testrollen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Konfigurieren von standardmäßigen Testing-Rollen</a>. Weitere Informationen zu Testversand-E-Mail-Warnhinweisen finden Sie im Abschnitt <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Konfigurieren der Testversandstandards für einen Benutzer</a> im Artikel <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">E-Mail-Benachrichtigungseinstellungen in Workfront Proof konfigurieren</a> .</p><p>Sie können so viele Benutzer hinzufügen, wie Sie möchten</p><p>Tipp: Sie können Überprüfernamen per Drag-and-Drop zwischen Bühnen in das Bühnen-Diagramm ziehen. Die verfügbaren Bühnen sind blau hervorgehoben.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Wiederholen Sie den Schritt für alle anderen Phasen, die Sie der Vorlage hinzufügen möchten.
 
-   Oben im **Workflow** angezeigt, können Sie ein Diagramm des von Ihnen eingerichteten automatisierten Workflows sehen. Während Sie weitere Bühnen hinzufügen, werden diese im Diagramm mit Linien angezeigt, die die Abhängigkeiten zwischen ihnen zeigen. Sie können auf eine Bühne im Diagramm klicken, um die Einstellungen für diese Bühne anzuzeigen.
+   Oben im Abschnitt **Workflow** können Sie ein Diagramm des von Ihnen eingerichteten automatisierten Workflows sehen. Während Sie weitere Bühnen hinzufügen, werden diese im Diagramm mit Linien angezeigt, die die Abhängigkeiten zwischen ihnen zeigen. Sie können auf eine Bühne im Diagramm klicken, um die Einstellungen für diese Bühne anzuzeigen.
 
-   Wenn Sie das Diagramm nicht sehen müssen, können Sie auf **Diagramm ausblenden**.
+   Wenn Sie das Diagramm nicht sehen müssen, können Sie auf **Diagramm ausblenden** klicken.
 
-1. Im **Freigegeben für** zum Löschen eines Benutzers auf Mehr klicken ![](assets/more-icon.png) Schaltfläche rechts und klicken Sie dann auf **Entfernen**.
+1. Wenn Sie einen Benutzer löschen möchten, klicken Sie im Abschnitt **Für** freigegeben auf die Schaltfläche Mehr ![](assets/more-icon.png) rechts und klicken Sie dann auf **Entfernen** .
 
 ## Erstellen von Vorlagengruppen für automatisierte Workflows {#create-automated-workflow-template-groups}
 
@@ -266,9 +266,9 @@ So erstellen Sie eine Vorlagengruppe für einen automatisierten Workflow:
 
 {{step1-to-proofing}}
 
-1. Klicks **Workflows** im linken Bereich.
-1. Im **Workflow** Registerkarte, klicken **Neu** > **Neue Vorlagengruppe**.
-1. Geben Sie einen beschreibenden Namen für die neue Vorlagengruppe ein und drücken Sie dann die Eingabetaste **Eingabe**.
+1. Klicken Sie im linken Bereich auf **Workflows** .
+1. Klicken Sie auf der Registerkarte **Workflow** auf **Neu** > **Neue Vorlagengruppe**.
+1. Geben Sie einen beschreibenden Namen für die neue Vorlagengruppe ein und drücken Sie dann **Enter**.
 
 Sie können die Vorlagen durch Ziehen und Ablegen zwischen Gruppen verschieben.
 
@@ -277,7 +277,7 @@ Sie können die Vorlagen durch Ziehen und Ablegen zwischen Gruppen verschieben.
 {{step1-to-proofing}}
 
 1. Klicken Sie im linken Bereich in Workfront Proof auf **Workflows**.
-1. Im **Workflows** -Seite angezeigt wird, führen Sie einen der folgenden Schritte aus:
+1. Führen Sie auf der angezeigten Seite **Workflows** einen der folgenden Schritte aus:
 
    * Neue Vorlage hinzufügen
    * Neue Vorlagengruppe hinzufügen

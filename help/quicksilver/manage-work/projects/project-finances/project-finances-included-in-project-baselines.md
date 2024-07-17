@@ -20,7 +20,7 @@ Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem
 
 Wenn Sie eine Grundlinie erstellen, werden die Aufgabeninformationen auch in den Grundaufgaben dieser Grundlinie erfasst.
 
-Informationen zum Erstellen von Projekt-Grundlinien finden Sie unter [Erstellen von Projektgrundlagen](../../../manage-work/projects/create-projects/create-baselines.md).
+Informationen zum Erstellen von Projekt-Grundlinien finden Sie unter [Erstellen von Projekt-Grundlinien](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ## Finanzinformationen in den Grundlinien
 
@@ -28,9 +28,9 @@ Sie können Baseline- oder Baseline-Aufgabenberichte erstellen, um Informationen
 
 Neben den Namen- und Datumsangaben enthalten Grundlinien und Grundaufgaben auch Finanzinformationen zu den Projekten oder Aufgaben. Die folgenden Listen zeigen die finanziellen Informationen des Projekts und der Aufgaben an, auf die über die Objekte &quot;Baseline&quot;oder &quot;Baseline Task&quot;zugegriffen werden kann.
 
-Informationen dazu, was die einzelnen Felder anzeigen, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Weitere Informationen dazu, was in den einzelnen Feldern angezeigt wird, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-* [Finanzinformationen in Basisberichten](#financial-information-included-in-baseline-reports)
+* [In Basisberichten enthaltene Finanzinformationen](#financial-information-included-in-baseline-reports)
 * [Finanzinformationen in Baseline-Aufgabenberichten](#financial-information-included-in-baseline-task-reports)
 
 ### Finanzinformationen in Basisberichten {#financial-information-included-in-baseline-reports}
@@ -45,7 +45,7 @@ Die folgenden finanziellen Informationen des Projekts sind über das Baseline-Ob
 * Budgetierte Kosten
 * Ressourcenplaner – budgetierte Lohnkosten
 
-   Die im Ressourcenplaner veranschlagten Arbeitskosten sind die Arbeitskosten des Projekts basierend auf den für das Projekt im Ressourcenplaner zum Zeitpunkt der Erstellung der Grundlinie vorgesehenen Stunden.
+  Die im Ressourcenplaner veranschlagten Arbeitskosten sind die Arbeitskosten des Projekts basierend auf den für das Projekt im Ressourcenplaner zum Zeitpunkt der Erstellung der Grundlinie vorgesehenen Stunden.
 
 * Fixkosten
 * Geplante Einnahmen

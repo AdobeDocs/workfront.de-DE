@@ -51,7 +51,7 @@ Je nach Zugriffsebene sind für die meisten Workfront-Objekttypen bis zu drei Be
     </tr>
 </table>
 
-Wenn Sie eine benutzerdefinierte Zugriffsebene benötigen, können Sie die integrierte Zugriffsebene kopieren und die gewünschte Zugriffsmenge entsprechend den verschiedenen Workfront-Objekttypen anpassen. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Wenn Sie eine benutzerdefinierte Zugriffsebene benötigen, können Sie die integrierte Zugriffsebene kopieren und die gewünschte Zugriffsmenge entsprechend den verschiedenen Workfront-Objekttypen anpassen. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Benutzerdefinierte Zugriffsebene erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Benutzer mit der Zugriffsebene &quot;Systemadministrator&quot;können alles in W
 
 Sie haben außerdem Zugriff auf den gesamten Bereich &quot;Setup&quot;, in dem sie jede Einstellung auf Systemebene ändern können und auf alle Bereiche im Hauptmenü zugreifen können.
 
-Weitere Informationen finden Sie unter [Gewähren eines vollen Administratorzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Weitere Informationen finden Sie unter [Gewähren des vollen Administratorzugriffs für einen Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ### Standardzugriffsstufe
 
@@ -81,7 +81,7 @@ Diese Zugriffsstufe, die ebenfalls mit der Standardlizenz verbunden ist, richtet
 
 >[!NOTE]
 >
->Sie können eine benutzerdefinierte Version der integrierten Standard-Zugriffsebene erstellen und den Umfang des Zugriffs anpassen, der dies für die verschiedenen Workfront-Objekttypen zulässt. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Sie können eine benutzerdefinierte Version der integrierten Standard-Zugriffsebene erstellen und den Umfang des Zugriffs anpassen, der dies für die verschiedenen Workfront-Objekttypen zulässt. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Benutzerdefinierte Zugriffsebene erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 #### **Zugriffsdetails**
 
@@ -127,7 +127,7 @@ Benutzer mit der Zugriffsebene Light :
 
 >[!NOTE]
 >
->Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene von Light erstellen und den Umfang des Zugriffs anpassen, der dies für die verschiedenen Workfront-Objekttypen zulässt. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene von Light erstellen und den Umfang des Zugriffs anpassen, der dies für die verschiedenen Workfront-Objekttypen zulässt. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Benutzerdefinierte Zugriffsebene erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 #### **Zugriffsdetails**
 
@@ -270,7 +270,7 @@ Benutzer mit dieser integrierten Zugriffsstufe:
 
 >[!NOTE]
 >
->Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe des Contributors erstellen und die zulässige Zugriffsmenge für die verschiedenen Workfront-Objekttypen anpassen. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe des Contributors erstellen und die zulässige Zugriffsmenge für die verschiedenen Workfront-Objekttypen anpassen. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Benutzerdefinierte Zugriffsebene erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 #### **Zugriffsdetails**
 
@@ -393,14 +393,14 @@ Benutzer erhalten Zugriff auf einzelne Objekte, wenn andere Benutzer diese freig
 
 Ein Benutzer kann dem Empfänger eine der folgenden Berechtigungen für das einzelne Objekt gewähren:
 
-* **Ansicht**: Mit dieser Berechtigungsstufe kann der Empfänger das Objekt auf eine der folgenden Arten freigeben:
+* **Ansicht**: Diese Berechtigungsebene ermöglicht es dem Empfänger, das Objekt auf eine der folgenden Arten freizugeben:
 
    * Systemweit, damit alle Benutzer ihn sehen können (nicht für alle Objekte verfügbar)
    * Bei externen Benutzern ohne Workfront-Lizenz (nicht für alle Objekte verfügbar)
    * Mit einer E-Mail-Adresse (nur für Dokumente und Kalender verfügbar)
 
-* **Beitragen**: (nicht für alle Objekte verfügbar)
-* **Verwalten**: Wenn jemand ein Objekt freigegeben, werden die Rechte des Empfängers für das Objekt durch eine Kombination der Zugriffsebene des Empfängers und der Berechtigungen für das Objekt bestimmt, die vom Freigebende erteilt wurden. Der geringste in dieser Kombination verfügbare Zugriff bestimmt, was der Empfänger mit dem Objekt tun kann.
+* **Contribute**: (nicht für alle Objekte verfügbar)
+* **Verwalten**: Wenn jemand ein Objekt freigegeben, werden die Rechte des Empfängers für das Objekt durch eine Kombination aus der Zugriffsebene des Empfängers und den Berechtigungen für das Objekt bestimmt, die vom Freigebende erteilt wurden. Der geringste in dieser Kombination verfügbare Zugriff bestimmt, was der Empfänger mit dem Objekt tun kann.
 
 ### Beispielszenarien
 

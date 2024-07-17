@@ -36,9 +36,9 @@ Wenn Sie einem Benutzer Berechtigungen für einen Arbeitsbereich erteilen, erhal
 | Adobe Workfront-Lizenztyp* | Höchste in der Adobe Workfront-Planung zulässige Berechtigungen |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Neu: Standard <br> oder <br>Aktuell: Plan | Benutzer können Arbeitsbereiche verwalten. Sie können Arbeitsbereiche, Datensatztypen, Datensätze und Felder erstellen, bearbeiten oder löschen. <br> Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben. |
-| Neu: Light, Contributor <br> oder <br>Aktuell: Arbeit, Anforderer, Prüfer | Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen, Datensätze und Felder dieser Arbeitsbereiche anzeigen. <br> Benutzer können keine Arbeitsbereiche, Datensatztypen, Datensätze oder Felder erstellen, bearbeiten oder löschen. |
+| Neu: Leicht, Mitarbeiter <br> oder <br>Aktuell: Arbeit, Anforderer, Überprüfer | Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen, Datensätze und Felder dieser Arbeitsbereiche anzeigen. <br> Benutzer können keine Arbeitsbereiche, Datensatztypen, Datensätze oder Felder erstellen, bearbeiten oder löschen. |
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ### Lizenztypen und Workspace-Berechtigungen
 
@@ -48,7 +48,7 @@ Systemadministratoren können alle Arbeitsbereiche im System anzeigen, selbst di
 
 >[!INFO]
 >
->**BEISPIEL**
+>**BEISPIEL:**
 >
 >Antragsteller (oder Mitwirkende, je nach dem neuen Lizenzmodell) können nicht zu Arbeitsbereichen und deren Objekten beitragen oder diese verwalten.
 >
@@ -62,7 +62,7 @@ Nur Benutzer mit einer Standard-(oder Plan-)Lizenz können über die Berechtigun
 
 >[!INFO]
 >
->**BEISPIEL**
+>**BEISPIEL:**
 >
 >Mitwirkende (oder Anforderer und Überprüfer) können keine Ansichten verwalten. Sie können temporäre Filter, Sorten oder Gruppierungen auf Ansichten anwenden, auf die sie zugreifen können.
 >

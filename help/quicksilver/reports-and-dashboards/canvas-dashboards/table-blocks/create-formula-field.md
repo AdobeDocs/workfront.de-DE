@@ -17,12 +17,12 @@ Mit dem Feld-Builder auf der Arbeitsfläche für die Berichterstellung können S
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Arbeitsfläche für die Berichterstellung Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Erstellen eines Formelfelds
 
-1. Erstellen oder navigieren Sie zu einem Tabellenblock, wie beschrieben in [Hinzufügen oder Bearbeiten von Tabellenblöcken in der Arbeitsfläche für Berichte](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. Klicken Sie in der Tabellenüberschrift des Berichts auf die **Bearbeiten** icon ![](assets/edit-icon.png).
+1. Erstellen oder navigieren Sie zu einem Tabellenblock, wie in [Hinzufügen oder Bearbeiten eines Tabellenblocks auf der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) beschrieben.
+1. Klicken Sie in der Tabellenüberschrift im Bericht auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
 
    ![](assets/edit-icon-table-header-350x71.png)
 
@@ -30,14 +30,14 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
    >
    >Wenn Sie die Tabelle gerade erstellt haben und noch keine Felder hinzugefügt haben, klicken Sie stattdessen in der Tabellenmitte auf die Schaltfläche Bearbeiten .
 
-1. Klicks **Neu +** oben im **Felder** Liste im rechten Bereich.
-1. Klicken Sie auf der sich öffnenden neuen Seite auf die **Bearbeiten** icon ![](assets/edit-icon.png) neben dem Feldnamen in der oberen linken Ecke, um den Namen des Formelfelds zu ändern.
-1. Ziehen **Funktionen** oder **Felder** aus dem linken Bereich in den Feld-Builder in der Mitte, um sie zum Formelfeld hinzuzufügen.
+1. Klicken Sie oben in der Liste **Felder** im rechten Bereich auf **Neu +** .
+1. Klicken Sie in der sich öffnenden neuen Seite auf das Symbol **Bearbeiten** neben dem Feldnamen in der oberen linken Ecke, um den Namen des Formelfelds zu ändern.![](assets/edit-icon.png)
+1. Ziehen Sie **Funktionen** oder **Felder** aus dem linken Bereich in den Feld-Builder in der Mitte, um sie Ihrem Formelfeld hinzuzufügen.
 
 
    >[!TIP]
    >
-   >Während Sie Ihr Formelfeld erstellen, wird die **Feldvorschau** rechts zeigt Beispiele für das resultierende Feld an.
+   >Während Sie Ihr Formelfeld erstellen, zeigt die Vorschau **Feld** rechts Beispiele für das resultierende Feld an.
 
    Jede Funktion enthält eine Anzahl leerer gepunkteter Rechtecke, die als Argumente für die Berechnung eines Ergebnisses verwendet werden. Diese können durch Eingabe von statischem Text oder statischen Zahlen, Ziehen und Ablegen eines Felds aus dem linken Bereich (unter Verwendung des Feldwerts in der Berechnung) oder durch Ziehen und Ablegen einer anderen Funktion (unter Erstellung einer verschachtelten Funktion) aufgefüllt werden. Mögliche Funktionen sind:
 
@@ -67,4 +67,4 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 
    {style="table-layout:auto"}
 
-1. Klicken Sie auf **Zurück** in der oberen linken Ecke des Bildschirms, um zu Ihrer Tabelle zurückzukehren.
+1. Klicken Sie in der oberen linken Ecke des Bildschirms auf den Pfeil **Zurück** , um zu Ihrer Tabelle zurückzukehren.

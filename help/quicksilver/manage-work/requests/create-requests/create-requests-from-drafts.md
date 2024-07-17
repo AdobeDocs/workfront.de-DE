@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,12 +48,12 @@ Sie müssen Folgendes tun, bevor Sie eine Anforderung aus einem Entwurf erstelle
 
 * Erstellen Sie eine Anforderung. Dadurch wird die Anforderung im Abschnitt Entwürfe automatisch als Entwurf gespeichert.
 
-   Informationen zum Erstellen von Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Informationen zum Erstellen von Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Anforderungen aus Entwürfen erstellen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront.
-1. Klicken **Anforderungen** > **Entwürfe**.
+1. Klicken Sie oben rechts in Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+1. Klicken Sie auf **Anforderungen** > **Entwürfe**.
 
    In dieser Liste wird für jedes Warteschlangenthema jeder Anforderungswarteschlange ein Entwurf angezeigt.
 
@@ -77,19 +77,19 @@ Sie müssen Folgendes tun, bevor Sie eine Anforderung aus einem Entwurf erstelle
    >
    >Im Bereich &quot;Entwürfe&quot;des Bereichs &quot;Anforderungen&quot;können Sie keine permanenten Filter anwenden. Darüber hinaus gibt es keine Optionen, um die Ansicht der Entwürfe-Liste zu ändern oder zu ändern.
 
-1. Aktualisieren Sie die Informationen für die Anforderung, wie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
-1. (Optional und bedingt) Klicken Sie während der Eingabe der Anforderung auf **Verwerfen** Entwurf, wenn Sie den Entwurf löschen möchten. Dadurch wird der Entwurf gelöscht, der nicht wiederhergestellt werden kann. Weitere Informationen zum Löschen von Entwürfen finden Sie unter [Anforderungsentwurf löschen](../../../manage-work/requests/create-requests/delete-request-draft.md).
+1. Aktualisieren Sie die Informationen für die Anforderung, wie in [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md) beschrieben.
+1. (Optional und bedingt) Klicken Sie während der Eingabe der Anforderung auf **Entwurf verwerfen** , wenn Sie den Entwurf löschen möchten. Dadurch wird der Entwurf gelöscht, der nicht wiederhergestellt werden kann. Weitere Informationen zum Löschen von Entwürfen finden Sie unter [Einen Anforderungsentwurf löschen](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
-1. (Optional) Klicken Sie auf **Abbrechen** in der linken unteren Ecke der Seite, wenn Sie Ihre Aktion wiederherstellen und den Entwurf beibehalten möchten.
+1. (Optional) Klicken Sie in der linken unteren Ecke der Seite auf **Abbrechen** , wenn Sie Ihre Aktion wiederherstellen und den Entwurf beibehalten möchten.
 
 1. Führen Sie nach Abschluss der Informationen für die Anfrage einen der folgenden Schritte aus:
 
-   * Klicken **Einsenden** , wenn Sie bereit sind, die Anfrage zu senden. Die Anforderung wird im Abschnitt Gesendet gespeichert. Abhängig von der Routing-Regel der Anforderungswarteschlange kann diese Anforderung an ein anderes Projekt als an das als Anforderungswarteschlange bestimmte weitergeleitet werden. Informationen zu Routing-Regeln finden Sie unter [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Klicken Sie auf **Senden** , wenn Sie bereit sind, die Anfrage zu senden. Die Anforderung wird im Abschnitt Gesendet gespeichert. Abhängig von der Routing-Regel der Anforderungswarteschlange kann diese Anforderung an ein anderes Projekt als an das als Anforderungswarteschlange bestimmte weitergeleitet werden. Informationen zu Routing-Regeln finden Sie unter [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-      Oder
+     Oder
 
-      Klicken **Schließen** wenn Sie nicht ganz bereit sind, sie einzureichen, und Sie können sie später erneut abschließen. Ihre Anforderung wird im Abschnitt Entwürfe gespeichert und steht Ihnen beim nächsten Senden einer Anforderung für diese Anforderungswarteschlange zur Verfügung.
+     Klicken Sie auf **Schließen** , wenn Sie nicht ganz bereit sind, die Datei zu übermitteln, und Sie können sie später erneut abschließen. Ihre Anforderung wird im Abschnitt Entwürfe gespeichert und steht Ihnen beim nächsten Senden einer Anforderung für diese Anforderungswarteschlange zur Verfügung.
 
-      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
-      Wenn Sie die Anforderung senden, wird der Entwurf gelöscht und kann nicht wiederhergestellt werden.
+     Wenn Sie die Anforderung senden, wird der Entwurf gelöscht und kann nicht wiederhergestellt werden.

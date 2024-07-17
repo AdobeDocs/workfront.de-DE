@@ -141,8 +141,8 @@ Informationen dazu, welche Datensatztypen in den einzelnen Vorlagen enthalten si
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. (Optional) Klicken Sie auf **Abschnitt hinzufügen** , um einen neuen Abschnitt zum Arbeitsbereich hinzuzufügen.
-1. Klicks **Datensatztyp hinzufügen**.
-1. (Bedingt) Klicken Sie bei der Erstellung von Datensatztypen durch Importieren einer Excel- oder CSV-Datei auf **Von Grund auf**. Andernfalls wird die **Datensatztyp hinzufügen** wird geöffnet.
+1. Klicken Sie auf **Hinzufügen des Datensatztyps**.
+1. (Bedingt) Wenn beim Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei aktiviert ist, klicken Sie auf **Von Grund auf**. Andernfalls wird das Feld **Record Type** hinzufügen geöffnet.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -161,7 +161,7 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
    ![](assets/record-type-card-with-description.png)
 
-1. (Optional) Bewegen Sie den Mauszeiger über die Karte des Datensatztyps und klicken Sie auf die **Mehr** icon ![](assets/more-menu.png) in der oberen rechten Ecke und klicken Sie auf **Bearbeiten** , um Informationen zum Datensatztyp zu ändern.
+1. (Optional) Bewegen Sie den Mauszeiger über die Karte des Datensatztyps, klicken Sie oben rechts auf das Symbol **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Bearbeiten** , um Informationen zum Datensatztyp zu ändern.
 1. (Optional) Klicken Sie auf die Karte vom Typ Datensatz , um die Seite vom Typ Datensatz zu öffnen.
 
    ![](assets/operational-record-type-blank.png)
@@ -184,10 +184,10 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
    Oder
 
-   Klicken Sie auf **Mehr** icon ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten** , um ihn umzubenennen oder die Informationen darüber zu ändern. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Klicken Sie auf das Symbol **Mehr** ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten** , um ihn umzubenennen oder die Informationen darüber zu ändern. Weitere Informationen finden Sie unter [Bearbeiten von Datensatztypen](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Optional) Klicken Sie auf **+ Neuer Datensatz** , um Datensätze des ausgewählten Datensatztyps hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md).
-1. (Optional) Klicken Sie auf die **+** rechts oben in der Tabelle, um dem Datensatztyp weitere Felder hinzuzufügen.
+1. (Optional) Klicken Sie oben rechts in der Tabelle auf das Symbol **+** , um dem Datensatztyp weitere Felder hinzuzufügen.
 
    Weitere Informationen zum Erstellen von Feldern finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -202,7 +202,7 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
    * [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
    * [Löschen von Datensatztypen](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md)
-   * [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md)
+   * [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md)
 
 ## Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei
 
@@ -231,10 +231,10 @@ So importieren Sie Datensatztypen mithilfe einer Excel-Datei:
    Oder
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-1. Klicks **Datensatztyp hinzufügen**.
-1. Klicks **Excel/CSV**.
-1. Ziehen Sie eine zuvor auf Ihrem Computer gespeicherte Excel- oder CSV-Datei in den Arbeitsbereich oder klicken Sie auf **CSV- oder Excel-Datei auswählen** um nach einer zu suchen.
-1. Klicks **Daten überprüfen**.
+1. Klicken Sie auf **Hinzufügen des Datensatztyps**.
+1. Klicken Sie auf **Excel/CSV**.
+1. Ziehen Sie eine zuvor gespeicherte Excel- oder CSV-Datei in den Arbeitsbereich oder klicken Sie auf **Wählen Sie eine CSV- oder Excel-Datei aus**, um nach einer Datei zu suchen.
+1. Klicken Sie auf **Überprüfen Sie Ihre Daten**.
 
    Das Feld Vorschau und Bearbeitung wird mit den folgenden Informationen angezeigt:
 
@@ -251,13 +251,13 @@ So importieren Sie Datensatztypen mithilfe einer Excel-Datei:
    >    Leere Blätter werden nicht unterstützt und sind abgeblendet.
 
 
-1. (Optional) Klicken Sie auf die **Zu importierende Tabellen auswählen** Dropdown-Menü aus und heben Sie die Auswahl der Tabellen auf, die Sie nicht importieren möchten.
+1. (Optional) Klicken Sie auf das Dropdown-Menü **Zu importierende Arbeitsblätter auswählen** und heben Sie die Auswahl der Arbeitsblätter auf, die Sie nicht importieren möchten.
 
    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
    Sie können die Auswahl der Anzeige mit grauem Hintergrund deaktivieren.
 
-1. Klicks **Import** wenn Sie bereit sind, Ihre Datei zu importieren.
+1. Klicken Sie auf **Importieren** , wenn Sie zum Importieren Ihrer Datei bereit sind.
 
    Die folgenden Informationen werden in die Workfront-Planung importiert:
 

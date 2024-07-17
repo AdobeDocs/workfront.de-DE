@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Anfragen-Verbesserungen beschrieben, die mit Version 21.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 21. Juli 2021 bereitgestellt.
 
-Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 - Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Suchen nach Anforderungen anhand aktueller Pfade oder durch Suchen anhand eines Suchbegriffs
 

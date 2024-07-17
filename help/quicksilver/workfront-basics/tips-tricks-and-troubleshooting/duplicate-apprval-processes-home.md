@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Duplizierte Validierungsprozesse, die im [!UICONTROL Homepage-Arbeitsliste]
+# Duplizierte Genehmigungsprozesse, die in der [!UICONTROL Arbeitsliste für die Startseite] angezeigt werden
 
 ## Problem
 
-Sie sehen mehr als eine Genehmigung in Ihrer [!UICONTROL Homepage-Arbeitsliste].
+Sie sehen mehr als eine Genehmigung in Ihrer [!UICONTROL Arbeitsliste für die Startseite].
 
 ## Ursache
 

@@ -23,7 +23,7 @@ Eine Liste aller in Version 23.1 verfügbaren Änderungen finden Sie unter [23.1
 
 Bei der Massenzuweisung von Benutzern im Lastenausgleich nach Auswahl einer Auftragsrolle im Feld &quot;Rollenzuweisung&quot;zeigt die Liste der Benutzer, die in der Liste &quot;Andere Zuweisungen&quot;im Feld &quot;Benutzer für die Zuweisung&quot;eingetragen sind, jetzt alle mit den einzelnen Benutzern unter ihrem Namen verknüpften Vorgangsrollen an. Vor dieser Verbesserung wurde nur die primäre Rolle des Benutzers angezeigt.
 
-Weitere Informationen finden Sie unter [Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Weitere Informationen finden Sie unter [Stapelweises Zuweisen von Aufgaben mithilfe des Lastenausgleichs](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 ## Umsiedlung der Option &quot;Benutzer hinzufügen&quot;in einem Projekt
 
@@ -31,7 +31,7 @@ In Vorbereitung auf die Einstellung und Entfernung der Tools für die Ressourcen
 
 Weitere Informationen finden Sie unter [Verwalten des Projektteams](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412443/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412443/){target=_blank}
 
 ## Direkten Link für einen Dokumentordner kopieren
 
@@ -39,4 +39,4 @@ Sie können jetzt Dokumentordnerlinks kopieren und freigeben, um einen schnellen
 
 Weitere Informationen finden Sie unter [Kopieren und Freigeben eines Links zu einem Dokumentordner](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412385/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412385/){target=_blank}

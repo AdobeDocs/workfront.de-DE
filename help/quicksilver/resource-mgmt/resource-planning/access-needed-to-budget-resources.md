@@ -30,7 +30,7 @@ Wenn Ihr Unternehmen eine Adobe Workfront-Lizenz erworben hat, die die Ressource
 
 Weitere Informationen zu den Voraussetzungen für die Verwendung der Budgetierungs-Tools in Workfront finden Sie unter [Erste Schritte mit der Ressourcenplanung](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-Um Ressourcen zu finanzieren, Ressourcenpools zu verwalten und Kosteninformationen in den Tools für die Ressourcenplanung anzuzeigen, müssen Ihr Unternehmen und Sie über den folgenden Zugriff verfügen: 
+Um Ressourcen zu finanzieren, Ressourcen-Pools zu verwalten und Kosteninformationen in den Tools für die Ressourcenplanung anzuzeigen, müssen Ihr Unternehmen und Sie über den folgenden Zugriff verfügen: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,18 +52,18 @@ Um Ressourcen zu finanzieren, Ressourcenpools zu verwalten und Kosteninformation
       <ul> 
        <li> <p>Zugriff auf die Bearbeitung von Projektprioritäten und Budgetzeiten. </p> </li> 
        <li> <p>Zugriff auf die Verwaltung von Ressourcen-Pools, wenn Sie Ressourcen-Pool verwalten müssen.</p> </li> 
-      </ul> <p>Weitere Informationen zur Zugriffsebene auf Resource Management finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Zugriff auf Resource Management gewähren</a>.</p> </li> 
+      </ul> <p>Weitere Informationen zur Zugriffsebene für die Ressourcenverwaltung finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Zugriff auf die Ressourcenverwaltung gewähren</a>.</p> </li> 
      <li> <p>Bearbeiten Sie den Zugriff auf Projekte und Benutzer. </p> </li> 
-     <li> <p> Bearbeiten Sie den Zugriff auf Finanzdaten in Ihrer Zugriffsebene, wenn Sie Informationen nach Kosten anzeigen oder verwalten möchten.</p> <p>Weitere Informationen zur Zugriffsebene auf Finanzdaten finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Zugriff auf Finanzdaten gewähren</a>.</p> </li> 
+     <li> <p> Bearbeiten Sie den Zugriff auf Finanzdaten in Ihrer Zugriffsebene, wenn Sie Informationen nach Kosten anzeigen oder verwalten möchten.</p> <p>Weitere Informationen zur Zugriffsebene für Finanzdaten finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Zugriff auf Finanzdaten gewähren</a>.</p> </li> 
     </ul>
 
-<p><b>NOTIZ</b> </p>
+<p><b>NOTE</b> </p>
 
 <p> Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten Sie Berechtigungen für das Projekt, die Berechtigungen für die Verwaltung von Finanzen enthalten.</p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Weitere Informationen zu finanziellen Berechtigungen für ein Projekt finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Freigeben von Finanzberechtigungen für ein Objekt</a></a>.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Zugriff auf Objekte anfordern </a>.</p>
+   <td> <p>Verwalten Sie Berechtigungen für das Projekt, die Berechtigungen für die Verwaltung von Finanzen enthalten.</p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Projekt in Adobe Workfront freigeben</a> .</p> <p>Weitere Informationen zu finanziellen Berechtigungen für ein Projekt finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Finanzberechtigungen für ein Objekt freigeben</a></a>.</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Anfordern des Zugriffs auf Objekte </a>.</p>
 
 <p><b>NOTIZ</b>
 

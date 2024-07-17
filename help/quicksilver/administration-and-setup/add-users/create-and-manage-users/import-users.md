@@ -53,8 +53,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Sie müssen über eine der folgenden Möglichkeiten verfügen:</p> 
     <ul> 
-     <li> <p>Die Zugriffsebene des Systemadministrators. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>. </p> </li> 
-     <li> <p><b>Benutzer</b> -Einstellung in Ihrer Zugriffsstufe konfiguriert auf <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens eines der beiden <b>Benutzeradministrator</b> Optionen aktiviert unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Wenn Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie ein Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> <p>Weitere Informationen zum <b>Benutzer</b> auf einer Zugriffsebene festzulegen, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</p> </li> 
+     <li> <p>Die Zugriffsebene des Systemadministrators. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs eines Benutzers</a>. </p> </li> 
+     <li> <p><b>Benutzer</b> -Einstellung in Ihrer Zugriffsebene, die für den Zugriff auf <b>Bearbeiten</b> konfiguriert ist, wobei <b>Erstellen</b> und mindestens eine der beiden Optionen <b>Benutzeradministrator</b> unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png"> aktiviert sind. </p> <p>Wenn von diesen beiden Optionen Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> <p>Weitere Informationen zur Einstellung <b>Benutzer</b> in einer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,21 +62,21 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 ## Importieren von Benutzern mithilfe einer Tabellenimportdatei
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
 
-1. Klicken Sie auf **Neuer Benutzer** Dropdownpfeil und klicken Sie dann auf **Benutzer importieren**.
+1. Klicken Sie auf den Dropdown-Pfeil **Neuer Benutzer** und dann auf **Benutzer importieren**.
 
-1. Im **Benutzer importieren** , das angezeigt wird, laden Sie die Beispieldatei herunter und aktualisieren Sie dann die Beispieldatei, um die personenbezogenen Daten Ihres eigenen Benutzers einzuschließen.
+1. Laden Sie im angezeigten Feld **Benutzer importieren** die Beispieldatei herunter und aktualisieren Sie dann die Beispieldatei, um die personenbezogenen Daten Ihres eigenen Benutzers einzuschließen.
 
    Jede Zeile enthält die folgenden Felder:
 
    * **Vorname**
    * **Nachname**
-   * **Email-Adresse**
+   * **E-Mail-Adresse**
 
      E-Mail-Adressen müssen eindeutig sein.
 
-   * **Zugriffsstufe**
+   * **Zugriffsebene**
 
      Bei Zugriffsebenen wird zwischen Groß- und Kleinschreibung unterschieden.
 
@@ -91,13 +91,13 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    ![importing-new-users.png](assets/importing-new-users.png)
 
 1. Speichern Sie die Datei an einem Speicherort auf Ihrer Workstation.
-1. Klicks **Datei auswählen** im **Benutzer importieren** ankreuzen.
+1. Klicken Sie im Feld **Benutzer importieren** auf **Datei auswählen** .
 
 1. Navigieren Sie zur gespeicherten Datei und wählen Sie sie aus.
-1. (Optional) Wählen Sie die **Senden einer Einladungs-E-Mail an diesen Benutzer** die Option zum Senden einer E-Mail-Einladung an den Benutzer, die Benachrichtigung, dass ein Workfront-Konto erstellt wurde, und die Aufforderung, sein Kennwort festzulegen.
+1. (Optional) Wählen Sie die Option **Einladungs-E-Mail an diesen Benutzer senden** aus, um eine E-Mail-Einladung an den Benutzer zu senden. Sie werden benachrichtigt, dass ein Workfront-Konto erstellt wurde, und werden aufgefordert, sein Kennwort festzulegen.
 
    Deaktivieren Sie diese Option, wenn Sie das Kennwort für den Benutzer festlegen möchten.
 
-1. Klicks **Import**.
+1. Klicken Sie auf **Importieren**.
 
    Oben auf dem Bildschirm erhalten Sie eine Bestätigungsmeldung, dass der Benutzer erfolgreich importiert wurde.

@@ -25,10 +25,12 @@ Sofern nicht anders angegeben, werden diese Verbesserungen in der Produktionsumg
 
 Um eine robuste und skalierbare Testversandlösung zu erhalten, ändern wir die unterstützten Microsoft Office-Dateitypen und -Dateigrößenbeschränkungen.
 
-Die folgenden Office-Dateitypen werden nicht mehr als Testsendungen unterstützt: XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
+Die folgenden Office-Dateitypen werden nicht mehr als Testsendungen unterstützt:
+XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
 
-Benutzer können weiterhin Testsendungen für die folgenden Office-Dateitypen erstellen: DOC, DOCX, PPT, PPTX, XLS, XLSX
+Benutzer können mit der Erstellung von Testsendungen für die folgenden Office-Dateitypen fortfahren:
+DOC, DOCX, PPT, PPTX, XLS, XLSX
 
 Die Dateigrößenbeschränkung für PowerPoint- und Word-Dateien beträgt jetzt 512 MB.
 
-Weitere Informationen finden Sie unter [Unterstützte Testing-Dateitypen und Größenbeschränkungen - Übersicht](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+Weitere Informationen finden Sie unter [Übersicht über unterstützte Testversand-Dateitypen und Größenbeschränkungen](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).

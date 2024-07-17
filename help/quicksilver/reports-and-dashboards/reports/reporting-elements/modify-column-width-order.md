@@ -18,17 +18,17 @@ ht-degree: 0%
 Im Folgenden finden Sie Richtlinien zur Funktionsweise von Spaltenbreiten in Adobe Workfront:
 
 * Workfront definiert standardmäßig die Spaltenbreite in Listen und Berichten.
-* Workfront passt die Spaltenbreite automatisch an die `valueformat`Informationen in allen Listen und Berichten, sofern im Textmodus der Spalte nichts anderes angegeben ist.
+* Workfront passt die Spaltenbreite automatisch an die `valueformat`Informationen in allen Listen und Berichten an, sofern im Textmodus der Spalte nichts anderes angegeben ist.
 
   >[!NOTE]
   >
-  >Workfront passt die Spaltenbreite nicht an die `valueformat` Informationen in den Listen, die in den Bereichen Einrichtung und Berichte verfügbar sind.
+  >Workfront passt die Spaltenbreite nicht an die `valueformat` -Informationen in den Listen an, die in den Bereichen Einrichtung und Berichte verfügbar sind.
 
-  Die `valueformat` -Wert definiert, welche Art von Informationen in der Spalte angezeigt werden. Beispielsweise sind Spalten, die eine Zahl anzeigen, enger als Spalten, in denen das Feld Beschreibung angezeigt wird.
+  Der Wert `valueformat` definiert, welche Art von Informationen in der Spalte angezeigt werden. Beispielsweise sind Spalten, die eine Zahl anzeigen, enger als Spalten, in denen das Feld Beschreibung angezeigt wird.
 
 * Sie können die Spaltenbreite in Ihren Workfront-Listen und -Berichten an Ihre Anforderungen anpassen, je nachdem, welche Art von Informationen in Spalten angezeigt werden soll.
 
-  Sie können die Breite der Spalten vorübergehend ändern, während Sie eine Liste, einen Bericht oder einen Bericht anzeigen, oder dauerhaft, indem Sie die Breite der Spalte im Ansichtsaufbau anpassen. Informationen zum temporären Ändern der Spaltenbreite finden Sie in der [Überlegungen beim zeitweiligen Ändern der Breite und Reihenfolge der Spalten](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) in diesem Artikel beschrieben.
+  Sie können die Breite der Spalten vorübergehend ändern, während Sie eine Liste, einen Bericht oder einen Bericht anzeigen, oder dauerhaft, indem Sie die Breite der Spalte im Ansichtsaufbau anpassen. Informationen zum temporären Ändern der Breite von Spalten finden Sie im Abschnitt [Überlegungen beim temporären Ändern der Breite und Reihenfolge von Spalten](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) in diesem Artikel.
 
 * Spalten, die in integrierten Ansichten angezeigt werden, haben Breiten, die zuvor von Workfront definiert wurden und hartcodiert sind. Um diese Breiten zu ändern, müssen Sie die Breite dieser Spalten mithilfe des Textmodus im Ansichts-Builder manuell aktualisieren.
 
@@ -56,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten einer Ansicht in einem Bericht verwalten</p> <p>Berechtigungen für eine Ansicht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten einer Ansicht in einem Bericht verwalten</p> <p>Berechtigungen für eine Ansicht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können die Breite und Reihenfolge der Spalten in Ihren Berichten wie folgt ändern:
 
-* [Länge und Reihenfolge der Spalten vorübergehend ändern](#modify-width-and-order-of-columns-temporarily)
+* [Breite und Reihenfolge der Spalten vorübergehend ändern](#modify-width-and-order-of-columns-temporarily)
 * [Breite und Reihenfolge der Spalten dauerhaft ändern](#modify-width-and-order-of-columns-permanently)
 
 ### Länge und Reihenfolge der Spalten vorübergehend ändern {#modify-width-and-order-of-columns-temporarily}
@@ -90,7 +90,7 @@ Beachten Sie Folgendes bei der zeitweiligen Größenanpassung und Sortierung von
 
 >[!NOTE]
 > 
->Die Spaltenbreiten sind durch die Größe des Browser-Fensters begrenzt. Wenn die Seite aktualisiert wird, werden die Spalten so lange breiter, bis alle Spalten ohne horizontalen Bildlauf in das Fenster passen. Um zu erzwingen, dass eine Spalte größer bleibt, als der Browser ausreicht, müssen Sie die Breite der Spalte im Textmodus festlegen, wie unter [Breite und Reihenfolge der Spalten dauerhaft ändern](#modify-width-and-order-of-columns-permanently) und vermeiden Sie die manuelle Anpassung von Spaltenbreiten durch Ziehen der Ränder.
+>Die Spaltenbreiten sind durch die Größe des Browser-Fensters begrenzt. Wenn die Seite aktualisiert wird, werden die Spalten so lange breiter, bis alle Spalten ohne horizontalen Bildlauf in das Fenster passen. Um zu erzwingen, dass eine Spalte breiter bleibt, als der Browser ausreicht, müssen Sie die Breite der Spalte im Textmodus festlegen, wie unter [Breite und Reihenfolge der Spalten dauerhaft ändern](#modify-width-and-order-of-columns-permanently) beschrieben. Außerdem müssen Sie vermeiden, Spaltenbreiten manuell durch Ziehen ihrer Rahmen anzupassen.
 >
 
 * Bei der Neuanordnung von Spalten wird die von Ihnen gewählte Reihenfolge nur beibehalten, bis Sie von der Liste weg navigieren oder die Browser-Seite aktualisieren. Nachdem Sie von der Liste weg navigiert oder die Browser-Seite aktualisiert haben, kehren die Spalten zur Standardreihenfolge zurück.
@@ -131,8 +131,8 @@ Weitere Informationen zum Exportieren von Daten aus Listen und Berichten finden 
 
 ### Breite und Reihenfolge der Spalten dauerhaft ändern {#modify-width-and-order-of-columns-permanently}
 
-Informationen zum dauerhaften Neuanordnen von Spalten finden Sie im Abschnitt . [Standardansicht erstellen oder anpassen](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) im Artikel [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Informationen zum dauerhaften Neuanordnen von Spalten finden Sie im Abschnitt [Erstellen oder Anpassen einer Standardansicht](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) im Artikel [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) .
 
 Sie können die Breite einer Spalte nur im Textmodus dauerhaft ändern.
 
-Weitere Informationen zum Verwenden des Textmodus und zum dauerhaften Ändern der Breite einer Spalte finden Sie im Artikel [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Weitere Informationen zum Verwenden des Textmodus und zum dauerhaften Ändern der Breite einer Spalte finden Sie im Artikel [Überblick über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

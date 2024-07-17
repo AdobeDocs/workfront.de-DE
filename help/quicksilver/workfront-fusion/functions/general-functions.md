@@ -36,25 +36,25 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL get (Objekt oder Array; Pfad)]
 
@@ -69,9 +69,9 @@ Gibt den Wertpfad eines Objekts oder Arrays zurück. Verwenden Sie Punktnotation
 >* `get( object ; raw_name )`
 >* `get( object ; raw_name.sub_raw_name )`
 
-## [!UICONTROL if (Ausdruck; Wert1; Wert2)]
+## [!UICONTROL if (expression; value1; value2)]
 
-Gibt die `value1` wenn der Ausdruck als &quot;true&quot;ausgewertet wird; gibt andernfalls den `value2`.
+Gibt die `value1` zurück, wenn der Ausdruck als &quot;true&quot;ausgewertet wird; sonst wird die `value2` zurückgegeben.
 
 >[!INFO]
 >
@@ -87,7 +87,7 @@ Gibt die `value1` wenn der Ausdruck als &quot;true&quot;ausgewertet wird; gibt a
 
 ## [!UICONTROL ifempty (value1; value2)]
 
-Gibt die `value1` Wenn dieser Wert nicht leer ist, wird andernfalls der Wert `value2`.
+Gibt den Wert `value1` zurück, wenn dieser Wert nicht leer ist. Andernfalls wird der Wert `value2` zurückgegeben.
 
 >[!INFO]
 >
@@ -105,7 +105,7 @@ Gibt die `value1` Wenn dieser Wert nicht leer ist, wird andernfalls der Wert `va
 >
 >   Gibt B zurück
 
-## [!UICONTROL switch (expression; value1; result1) [value2; result2; ...]; [else])]
+## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
 Wertet einen Wert (den so genannten Ausdruck) mit einer Werteliste aus; gibt das Ergebnis zurück, das dem ersten übereinstimmenden Wert entspricht.
 
@@ -125,7 +125,7 @@ Wertet einen Wert (den so genannten Ausdruck) mit einer Werteliste aus; gibt das
 >
 >  Gibt 4 zurück
 
-## [!UICONTROL omit(object; key1) [key2; ...])]
+## [!UICONTROL omit(object; key1; [key2; ...])]
 
 Löst die angegebenen Schlüssel des Objekts aus und gibt den Rest zurück.
 
@@ -133,11 +133,11 @@ Löst die angegebenen Schlüssel des Objekts aus und gibt den Rest zurück.
 >
 >**Beispiel:**
 >
->`omit(` Benutzer `;` password `)`
+>`omit(` Benutzer `;` Kennwort `)`
 >
 >Gibt eine Sammlung der Benutzerinformationen zurück, mit Ausnahme des Kennworts.
 
-## [!UICONTROL pick(object; key1) [key2; ...])]
+## [!UICONTROL pick(object; key1; [key2; ...])]
 
 Wählt nur die angegebenen Schlüssel aus dem Objekt aus.
 
@@ -145,6 +145,6 @@ Wählt nur die angegebenen Schlüssel aus dem Objekt aus.
 >
 >**Beispiel:**
 >
->`pick(` Benutzer `;` password `;` email `)`
+>`pick(` Benutzer `;` Kennwort `;` E-Mail `)`
 >
 >Gibt nur eine Sammlung des Kennworts und der E-Mail-Adresse des Benutzers zurück.

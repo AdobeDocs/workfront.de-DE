@@ -92,7 +92,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -138,7 +138,7 @@ Beachten Sie Folgendes, bevor Sie Änderungen an der Konfiguration eines Felds v
 
    Dadurch wird die Seite des Datensatztyps geöffnet.
 
-1. (Bedingt) Klicken Sie auf die Registerkarte eines **Tabellenansicht**.
+1. (Bedingt) Klicken Sie auf die Registerkarte einer **Tabellenansicht**.
 
    Alle vorhandenen Datensätze, die mit dem Datensatztyp verknüpft sind, werden in den Zeilen der Tabellenansicht angezeigt.
 1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift eines Felds, das Sie bearbeiten möchten, und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Feld bearbeiten**
@@ -149,7 +149,7 @@ Beachten Sie Folgendes, bevor Sie Änderungen an der Konfiguration eines Felds v
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Aktualisieren Sie die Informationen über das Feld und klicken Sie auf **Speichern**. <!--insert screen shot when finalized-->
+1. Aktualisieren Sie die Informationen zum Feld und klicken Sie auf **Speichern**. <!--insert screen shot when finalized-->
 
    >[!TIP]
    >
@@ -161,5 +161,5 @@ Beachten Sie Folgendes, bevor Sie Änderungen an der Konfiguration eines Felds v
 
 1. (Bedingt) Klicken Sie für verknüpfte Datensatzfelder auf **Suchfelder bearbeiten** und fügen Sie eines der Felder aus dem verknüpften Datensatztyp hinzu oder entfernen Sie es.
 
-   Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 

@@ -1,35 +1,35 @@
 ---
 title: MariaDB-Module
-description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL MariaDB], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
+description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die [!DNL MariaDB] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 45d4d7fe-a70c-4906-adb4-f913a870fe47
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 1%
+source-wordcount: '594'
+ht-degree: 0%
 
 ---
 
-# [!DNL MariaDB]-Module
+# [!DNL MariaDB] Module
 
-In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL MariaDB], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
+In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!DNL MariaDB] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 
-Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,35 +39,35 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Verwendung [!DNL MariaDB] -Module, müssen Sie über eine [!DNL MariaDB] -Konto.
+Um [!DNL MariaDB] -Module zu verwenden, müssen Sie über ein [!DNL MariaDB] -Konto verfügen.
 
-## Verbinden [!DNL MariaDB] nach [!DNL Workfront Fusion]
+## [!DNL MariaDB] mit [!DNL Workfront Fusion] verbinden
 
-Sie können eine Verbindung zu Ihrem [!DNL MariaDB] direkt in einer [!DNL MariaDB] -Modul.
+Sie können eine Verbindung zu Ihrem [!DNL MariaDB]-Konto direkt aus einem [!DNL MariaDB]-Modul erstellen.
 
-1. In jeder [!DNL MariaDB] Modul, klicken Sie auf **[!UICONTROL Hinzufügen]** neben dem [!UICONTROL Verbindung] -Feld.
+1. Klicken Sie in einem beliebigen [!DNL MariaDB]-Modul neben dem Feld [!UICONTROL Verbindung] auf **[!UICONTROL Hinzufügen]** .
 1. Konfigurieren Sie die folgenden Felder:
 
    <table style="table-layout:auto"> 
@@ -80,7 +80,7 @@ Sie können eine Verbindung zu Ihrem [!DNL MariaDB] direkt in einer [!DNL MariaD
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Host]</td> 
-      <td> <p>Geben Sie die IP-Adresse oder den Hostnamen Ihrer Datenbankinstanz ein. Auf diesen Host muss von außerhalb Ihres Netzwerks aus zugegriffen werden können.</p> <p>Beispiel: <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
+      <td> <p>Geben Sie die IP-Adresse oder den Hostnamen Ihrer Datenbankinstanz ein. Auf diesen Host muss außerhalb Ihres Netzwerks zugegriffen werden können.</p> <p>Beispiel: <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Port]</td> 
@@ -101,13 +101,13 @@ Sie können eine Verbindung zu Ihrem [!DNL MariaDB] direkt in einer [!DNL MariaD
     </tbody> 
    </table>
 
-1. Klicken **[!UICONTROL Weiter]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
+1. Klicken Sie auf **[!UICONTROL Weiter]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
 
 ## [!DNL MariaDB] Module und ihre Felder
 
-Bei der Konfiguration [!DNL MariaDB] Module, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL MariaDB] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie [!DNL MariaDB] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL MariaDB] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -121,16 +121,16 @@ Dieses Aktionsmodul ruft basierend auf einer von Ihnen angegebenen Abfrage Infor
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL MariaDB] Konto [!DNL Workfront Fusion], siehe <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL MariaDB] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Verbinden Ihres [!DNL MariaDB]-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL MariaDB] mit [!DNL Workfront Fusion]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Abfrage]</td> 
-   <td> <p>Geben Sie die SQL-Abfrage ein, die das Modul zum Abrufen von Daten verwenden soll.</p> <p>Wichtig: Die in der Abfrage verwendeten Variablen werden nicht bereinigt. Stellen Sie sicher, dass Sie Variablen ordnungsgemäß bereinigen, um SQL-Injections zu verhindern.</p> </td> 
+   <td> <p>Geben Sie die SQL-Abfrage ein, die das Modul zum Abrufen von Daten verwenden soll.</p> <p>Wichtig: In der Abfrage verwendete Variablen werden nicht bereinigt. Stellen Sie sicher, dass Sie Variablen ordnungsgemäß bereinigen, um SQL-Injections zu verhindern.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Zeilen aus einer Tabelle auswählen (erweitert)]
+### [!UICONTROL Auswählen von Zeilen aus einer Tabelle (erweitert)]
 
 Dieses Modul liest Datensätze aus Ihrer Datenbank.
 
@@ -140,7 +140,7 @@ Dieses Modul liest Datensätze aus Ihrer Datenbank.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Verbinden der [!DNL MariaDB] Konto [!DNL Workfront Fusion], siehe <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL MariaDB] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</td> 
+   <td>Anweisungen zum Verbinden Ihres [!DNL MariaDB]-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL MariaDB] mit [!DNL Workfront Fusion]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tabelle]</td> 
@@ -157,7 +157,7 @@ Dieses Modul liest Datensätze aus Ihrer Datenbank.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sortierung] </td> 
-   <td> <p>Klicken Sie für jede Ebene, nach der die Ergebnisse sortiert werden sollen, auf <strong>[!UICONTROL Element hinzufügen]</strong>und wählen Sie dann das Feld aus, nach dem die Ergebnisse sortiert werden sollen, und geben Sie an, ob die Sortierung aufsteigend oder absteigend sein soll</p> </td> 
+   <td> <p>Klicken Sie für jede Ebene, nach der die Ergebnisse sortiert werden sollen, auf <strong>[!UICONTROL Element hinzufügen]</strong> und wählen Sie dann das Feld aus, nach dem die Ergebnisse sortiert werden sollen, und geben Sie an, ob Sie die Ergebnisse auf- oder absteigend sortieren möchten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 

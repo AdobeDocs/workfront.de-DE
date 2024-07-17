@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: Inline-Bearbeitungselemente in einer Liste in [!DNL Adobe Workfront]
+title: Inline-Bearbeitungselemente in einer Liste in  [!DNL Adobe Workfront]
 description: Sie können Objekte inline bearbeiten, wenn sie in einer Liste oder einem Bericht angezeigt werden. Wenn Sie die Informationen zu Objekten bearbeiten, die in einer Liste oder einem Bericht angezeigt werden, wird das Objekt sofort aktualisiert.
 feature: Get Started with Workfront
 author: Lisa
@@ -21,9 +21,9 @@ Wenn Sie ein Feld inline bearbeiten, das in einem benutzerdefinierten Formular e
 
 Weitere Informationen zu Listen finden Sie unter [Erste Schritte mit Listen in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Die meisten in Listen oder Berichten angezeigten Objekte können in [!DNL Adobe Workfront], gibt es einige Einschränkungen, die Folgendes umfassen:
+Während die meisten in Listen oder Berichten angezeigten Objekte in [!DNL Adobe Workfront] inline bearbeitbar sind, gibt es einige Einschränkungen, darunter:
 
-* Berechnete Felder können nicht bearbeitet werden oder [!DNL Workfront] integrierte Felder, die Berechnungen sind.
+* Sie können keine berechneten Felder oder integrierten [!DNL Workfront] Felder bearbeiten, bei denen es sich um Berechnungen handelt.
 * Sie können nur Felder bearbeiten, die direkt mit den Objekten in der Liste verknüpft sind. Felder, die zu Objekten gehören, die mit den Objekten in der Liste verknüpft sind, können nicht bearbeitet werden.\
    Sie können beispielsweise den Status einer Aufgabe in einem Aufgabenbericht bearbeiten, aber Sie können den Namen des Projekts, mit dem die Aufgabe in demselben Bericht verknüpft ist, nicht bearbeiten. Sie können den Namen des Projekts nur in einem Projektbericht bearbeiten.
 * Sie können Felder nicht inline bearbeiten, wenn in der Listenansicht nicht die Standardwährung angezeigt wird.\
@@ -49,16 +49,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Zugriff auf den Bereich bearbeiten, in dem sich die Liste befindet</p> <p>Um beispielsweise Aufgaben in einem Projekt inline zu bearbeiten, benötigen Sie Zugriff auf Projekte.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen.<br>Informationen zur Verwendung von [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Zugriff auf den Bereich bearbeiten, in dem sich die Liste befindet</p> <p>Um beispielsweise Aufgaben in einem Projekt inline zu bearbeiten, benötigen Sie Zugriff auf Projekte.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebene erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL Verwalten]</p> <p>Sie müssen auch über Berechtigungen zum Bearbeiten bestimmter Felder verfügen, z. B. benutzerdefinierte Felder, Status usw.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>[!UICONTROL Verwalten]</p> <p>Sie müssen auch über Berechtigungen zum Bearbeiten bestimmter Felder verfügen, z. B. benutzerdefinierte Felder, Status usw.</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Objekte inline bearbeiten
 
@@ -74,27 +74,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >   
    >   
-   >   * **Paginierung**: Klicken Sie auf die Pfeile nach hinten und nach vorne, um zwischen Seiten zu navigieren.\
-   >     In der rechten unteren Ecke der Liste befindet sich das [!UICONTROL Paginierung] bleibt beim Scrollen durch die Liste hängt.
-   >   * **Schnellfilter**: Klicken Sie auf das Filtersymbol oder geben Sie Alt+F ein, um den Schnellfilter zu öffnen, und geben Sie dann Text ein, um nur die Elemente anzuzeigen, die den eingegebenen Text enthalten.\
-   >     Der Schnellfilter befindet sich in der Symbolleiste der Liste. Weitere Informationen finden Sie unter [Schnellfilter auf Listen anwenden](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+   >   * **Paginierung**: Klicken Sie auf die Pfeile nach hinten und nach vorne, um zwischen den Seiten zu navigieren.\
+   >     Der Bereich [!UICONTROL Paginierung] in der rechten unteren Ecke der Liste bleibt beim Scrollen durch die Liste fixierbar.
+   >   * **Schnellfilter**: Klicken Sie auf das Filtersymbol oder geben Sie Alt+F ein, um den Schnellfilter zu öffnen. Geben Sie dann Text ein, um nur Elemente anzuzeigen, die den eingegebenen Text enthalten.\
+   >     Der Schnellfilter befindet sich in der Symbolleiste der Liste. Weitere Informationen finden Sie unter [Anwenden des Schnellfilters auf eine Liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 
    Wenn das Feld bearbeitet werden kann, werden das Feld und alle anderen in der Liste angezeigten Felder in bearbeitbare Zellen umgewandelt.
 
    ![](assets/nwe-editable-cells-350x131.png)
 
-1. Bearbeiten Sie die Informationen in dieser Zelle und drücken Sie dann die [!UICONTROL Eingabe].
+1. Bearbeiten Sie die Informationen in dieser Zelle und drücken Sie dann [!UICONTROL Enter].
 
    >[!NOTE]
    >
    >Wenn ein benutzerdefiniertes Feld so konfiguriert wurde, dass eine Formatierung zulässig ist, können Sie Text beim Inline-Bearbeiten des Felds in einer aktualisierten Liste fett, kursiv oder unterstrichen formatieren.\
-   >Informationen zum Konfigurieren der Formatierung für ein benutzerdefiniertes Feld finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).\
-   >Informationen zu aktualisierten Listen finden Sie im Artikel im Abschnitt &quot;Unterschied zwischen den aktualisierten und den alten Listen&quot; [Erste Schritte mit Listen in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   >Informationen zum Konfigurieren der Formatierung für ein benutzerdefiniertes Feld finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).\
+   >Informationen zu aktualisierten Listen finden Sie im Abschnitt &quot;Der Unterschied zwischen den aktualisierten und den alten Listen&quot;im Artikel [Erste Schritte mit Listen in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-1. Presse [!UICONTROL Registerkarte] , um zur nächsten bearbeitbaren Zelle zu wechseln.
+1. Drücken Sie [!UICONTROL Tab] , um zur nächsten bearbeitbaren Zelle zu wechseln.
 1. (Bedingt) Wenn Sie Ihre Änderungen nicht speichern können und die Zelle rot hervorgehoben ist, klicken Sie in das Feld, um die Validierungsmeldung zu überprüfen, die neben der Zelle angezeigt wird, und nehmen Sie die entsprechenden Aktualisierungen vor.
 
    Meistens passiert dies, wenn das falsche Format verwendet oder ein erforderliches Feld leer gelassen wurde.
 
-1. Nachdem Sie die Bearbeitung aller Zellen abgeschlossen haben, drücken Sie die [!UICONTROL Eingabe] , um Ihre Änderungen zu speichern.
+1. Nachdem Sie alle Zellen bearbeitet haben, drücken Sie die [!UICONTROL Eingabetaste], um Ihre Änderungen zu speichern.

@@ -8,73 +8,74 @@ feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 4%
+source-wordcount: '695'
+ht-degree: 2%
 
 ---
 
 # Problem freigeben
 
-Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf die Anzeige oder Bearbeitung von Problemen, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zur Gewährung des Zugriffs auf Probleme finden Sie unter [Zugriff auf Probleme gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
+Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf die Anzeige oder Bearbeitung von Problemen, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zur Gewährung des Zugriffs auf Probleme finden Sie unter [Gewähren des Zugriffs auf Probleme](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
-Neben der Zugriffsstufe, die Benutzern zugewiesen wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Beitragen oder Verwalten bestimmter Probleme erteilen, auf die Sie Zugriff haben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Neben der Zugriffsstufe, die Benutzern zugewiesen wird, können Sie ihnen auch Berechtigungen für die Anzeige, Contribute oder Verwaltung bestimmter Probleme erteilen, auf die Sie Zugriff haben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Wie Zugriffsebenen und -berechtigungen zusammenarbeiten](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Berechtigungen beziehen sich auf ein Element in Workfront und legen fest, welche Aktionen für dieses Element durchgeführt werden können.
 
 ## Überlegungen zur Freigabe von Problemen
 
-Zusätzlich zu den unten stehenden Überlegungen siehe [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
 >Ein Workfront-Administrator kann allen Elementen im System Berechtigungen hinzufügen oder entfernen, ohne Eigentümer dieser Elemente zu sein.
 
 * Der Ersteller eines Problems verfügt standardmäßig über die Berechtigung &quot;Verwalten&quot;.
-* Sie können Probleme einzeln oder mehrere gemeinsam nutzen. Die Probleme beim Freigeben sind mit der Freigabe anderer Elemente in Workfront identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Objekt freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Sie können Probleme einzeln oder mehrere gemeinsam nutzen. Die Probleme beim Freigeben sind mit der Freigabe anderer Elemente in Workfront identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Sie können die folgenden Berechtigungen für ein Problem gewähren: 
 
    * Anzeigen
 
-      ![view_on_issue.png](assets/view-on-issue-221x216.png)
+     ![view_on_issue.png](assets/view-on-issue-221x216.png)
 
    * Verwalten
 
-      ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
+     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
 
    * Mitwirken\
-      ![contributing_on_issue.png](assets/contribute-on-issue-156x205.png)
+     ![contributing_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * Wenn Sie ein Problem freigeben, erben alle mit dem Problem verknüpften Dokumente dieselben Berechtigungen.
 
-   Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten in der Zugriffsebene des Benutzers erben sollen. Weitere Informationen zum Einschränken von geerbten Berechtigungen auf Dokumente finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten in der Zugriffsebene des Benutzers erben sollen. Weitere Informationen zum Einschränken von geerbten Berechtigungen auf Dokumente finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Sie können geerbte Berechtigungen aus einem Problem entfernen. Weitere Informationen finden Sie unter [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Möglichkeiten zum Freigeben eines Problems
 
-* Manuell, was der Freigabe anderer Objekte in Workfront ähnelt. Weitere Informationen zum Freigeben von Objekten in Workfront finden Sie unter [Objekt freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Manuell, was der Freigabe anderer Objekte in Workfront ähnelt. Weitere Informationen zum Freigeben von Objekten in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Führen Sie automatisch einen der folgenden Schritte aus:
 
-   * Legen Sie die Berechtigungen für die übergeordneten Objekte des Problems fest: Projekt, Programm oder Portfolio. Probleme erben die Berechtigungen von ihren übergeordneten Objekten. Informationen zum Anzeigen von geerbten Berechtigungen für Objekte finden Sie unter [Vererbte Berechtigungen für Objekte anzeigen](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Fügen Sie Entitäten zur Projektfreigabe in einer Vorlage hinzu, die zum Erstellen des Projekts verwendet wird, in dem sich das Problem befindet. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Vorlage freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Legen Sie die Berechtigungen für die übergeordneten Objekte des Problems fest: Projekt, Programm oder Portfolio. Probleme erben die Berechtigungen von ihren übergeordneten Objekten. Weitere Informationen zum Anzeigen von geerbten Berechtigungen für Objekte finden Sie unter [Vererbte Berechtigungen für Objekte anzeigen](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+   * Fügen Sie Entitäten zur Projektfreigabe in einer Vorlage hinzu, die zum Erstellen des Projekts verwendet wird, in dem sich das Problem befindet. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Geben Sie die Berechtigungen für alle Probleme in einem Projekt an, wenn Sie das Projekt bearbeiten. Informationen zum Verwalten des Zugriffs auf Probleme oder Anforderungen im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie unter [](../../manage-work/projects/manage-projects/edit-projects.md#access) im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Geben Sie die Berechtigungen für alle Probleme in einem Projekt an, wenn Sie das Projekt bearbeiten. Informationen zum Verwalten des Zugriffs auf Probleme oder Anforderungen im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im Abschnitt [](../../manage-work/projects/manage-projects/edit-projects.md#access) im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
-      >[!TIP]
-      >
-      >Wenn Sie nicht angeben, welche Berechtigungen Benutzern erteilt werden sollen, wenn sie den Problemen im Projekt zugewiesen sind, erhalten sie standardmäßig dieselben Berechtigungen für das Projekt.
+     >[!TIP]
+     >
+     >Wenn Sie nicht angeben, welche Berechtigungen Benutzern erteilt werden sollen, wenn sie den Problemen im Projekt zugewiesen sind, erhalten sie standardmäßig dieselben Berechtigungen für das Projekt.
 
-   * Geben Sie die Berechtigungen an, die Benutzer bei Problemen erhalten, die sie in einer Anforderungswarteschlange senden, wenn sie eine Anforderungswarteschlange erstellen. Weitere Informationen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * Geben Sie die Berechtigungen an, die Benutzer bei Problemen erhalten, die sie in einer Anforderungswarteschlange beim Erstellen einer Anforderungswarteschlange senden. Weitere Informationen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-      >[!IMPORTANT]
-      >
-      >Die Berechtigungen werden je nachdem, ob das Projekt als Anforderungswarteschlange veröffentlicht wird, unterschiedlich gewährt:
-      >
-      >   
-      >   
-      >   * Wenn ein Benutzer eine Anforderung an ein Projekt sendet, das als Anforderungswarteschlange veröffentlicht wurde, erhalten die Benutzer Primärer Kontakt und Eingestiegen von die angegebenen Berechtigungen.
-      >   * Wenn ein Benutzer eine Anforderung an ein Projekt sendet, das nicht als Anforderungswarteschlange veröffentlicht wurde, erhält der Primäre Kontakt (sofern nicht vom Benutzer &quot;Eingestiegen durch&quot;) die angegebene Berechtigung und der Benutzer &quot;Eingestiegen durch&quot;erhält die Berechtigung zum Verwalten des Problems.
-
+     >[!IMPORTANT]
+     >
+     >Die Berechtigungen werden je nachdem, ob das Projekt als Anforderungswarteschlange veröffentlicht wird, unterschiedlich gewährt:
+     >
+     >   
+     >   
+     >   * Wenn ein Benutzer eine Anforderung an ein Projekt sendet, das als Anforderungswarteschlange veröffentlicht wurde, erhalten die Benutzer Primärer Kontakt und Eingestiegen von die angegebenen Berechtigungen.
+     >   * Wenn ein Benutzer eine Anforderung an ein Projekt sendet, das nicht als Anforderungswarteschlange veröffentlicht wurde, erhält der Primäre Kontakt (sofern nicht vom Benutzer &quot;Eingestiegen durch&quot;) die angegebene Berechtigung und der Benutzer &quot;Eingestiegen durch&quot;erhält die Berechtigung zum Verwalten des Problems.
+     >   
+     >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -133,7 +134,7 @@ Zusätzlich zu den unten stehenden Überlegungen siehe [Übersicht über die Fre
 
 ## Berechtigungen ausgeben
 
-Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren können, wenn sie es ihnen ermöglichen, ein Problem anzuzeigen, beizutragen oder zu verwalten:
+Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren können, wenn sie ein Problem anzeigen, Contribute verwalten oder verwalten können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -144,11 +145,11 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
   <tr> 
    <td><strong>Aktionen</strong> </td> 
    <td><strong>Verwalten</strong> </td> 
-   <td><strong>Mitwirken</strong> </td> 
+   <td><strong>Contribute</strong> </td> 
    <td><strong>Anzeigen</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p> Anfragen hinzufügen</p> </td> 
+   <td> <p> Probleme hinzufügen</p> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -190,13 +191,13 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Anfrage kopieren*</td> 
+   <td>Problem kopieren*</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Anfrage verschieben</td> 
+   <td>Problem verschieben</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -244,7 +245,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Systemweit freigeben</td> 
+   <td>Systemweit teilen</td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
@@ -252,4 +253,4 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
  </tbody> 
 </table>
 
-&#42;Wird durch die Zugriffsebene und die Berechtigungen für das Projekt gesteuert.
+&#42;Wird durch die Zugriffsebenen und die Berechtigungen für das Projekt gesteuert.

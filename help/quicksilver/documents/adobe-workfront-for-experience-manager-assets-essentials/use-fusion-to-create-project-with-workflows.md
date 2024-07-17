@@ -76,29 +76,29 @@ Sie müssen über Folgendes verfügen:
 
 Bevor Sie beginnen
 
-* Ihr Workfront-Administrator muss Workflows in einer Adobe Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* Ihr Workfront-Administrator muss Workflows in einer Adobe Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der Experience Manager Assets as a Cloud Service-Integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 * Sie müssen über eine Projektvorlage verfügen, die mit einem Workflow für durch die Adobe Experience Manager-Integration verknüpfte Ordner konfiguriert wurde.
 * Sie müssen eine OAuth-Anwendung in Workfront erstellt haben, um die Verbindung für dieses Modul zu konfigurieren.
 
-  Anweisungen finden Sie unter [OAuth-Anwendung erstellen](#create-an-oauth-application) in diesem Artikel.
+  Anweisungen finden Sie unter [Erstellen einer OAuth-Anwendung](#create-an-oauth-application) in diesem Artikel.
 
 ## Modulkonfiguration
 
 Wenn Sie in Workfront Fusion ein Projekt erstellen möchten, das Adobe Experience Manager-Workflows enthält, müssen Sie das Modul Workfront > Misc Action verwenden.
 
-1. Fügen Sie die **Workfront** > **Verschiedene Aktionen** zu Ihrem Szenario.
-1. Im **Verbindung** Wählen Sie die Workfront-Verbindung aus, die eine Verbindung zu dem Konto herstellt, das dieses Modul verwenden soll.
+1. Fügen Sie Ihrem Szenario das Modul **Workfront** > **Misc Action** hinzu.
+1. Wählen Sie im Feld **Verbindung** die Workfront-Verbindung aus, die eine Verbindung zu dem Konto herstellt, das dieses Modul verwenden soll.
 
-   Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] nach [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
+   Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
 
-   Anweisungen zum Erstellen der Client-ID und des Client-Geheimnisses finden Sie unter [OAuth-Anwendung erstellen](#create-an-oauth-application) in diesem Artikel.
+   Anweisungen zum Erstellen der Client-ID und des Client-Geheimnisses finden Sie unter [Erstellen einer OAuth-Anwendung](#create-an-oauth-application) in diesem Artikel.
 
-1. Im **Record Type** Feld auswählen `Issue`.
-1. Im **Aktion** Feld auswählen `convertToProject`.
-1. Im **ID** eingeben oder die Kennung des Problems zuordnen, das Sie in ein Projekt konvertieren.
-1. Aktivieren **Erweiterte Einstellungen anzeigen**.
-1. Scrollen Sie zum unteren Rand des Moduls und suchen Sie nach der **Projekt (Erweiterte Sammlung)** -Feld.
-1. Fügen Sie den folgenden Text in die **Projekt (Erweiterte Sammlung)** -Feld.
+1. Wählen Sie im Feld **Record Type** die Option `Issue` aus.
+1. Wählen Sie im Feld **Aktion** die Option `convertToProject` aus.
+1. Geben Sie im Feld **ID** die ID des Problems ein, das Sie in ein Projekt konvertieren, oder ordnen Sie sie zu.
+1. Aktivieren Sie **Erweiterte Einstellungen anzeigen**.
+1. Scrollen Sie zum unteren Rand des Moduls und suchen Sie das Feld **Projekt (Erweiterte Sammlung)** .
+1. Fügen Sie den folgenden Text in das Feld **Projekt (Erweiterte Sammlung)** ein.
 
    ```
    {
@@ -109,19 +109,19 @@ Wenn Sie in Workfront Fusion ein Projekt erstellen möchten, das Adobe Experienc
    }
    ```
 
-1. Ersetzen `Folder tree ID here` mit den Ordner-IDs.
+1. Ersetzen Sie `Folder tree ID here` durch die Ordner-IDs.
 
-   Informationen zum Suchen von Ordnerbaum-IDs finden Sie unter [Ordnerbaum-IDs suchen](#locate-folder-tree-ids) in diesem Artikel.
+   Informationen zum Suchen von Ordnerbaum-IDs finden Sie unter [Suchen von Ordnerbaum-IDs](#locate-folder-tree-ids) in diesem Artikel.
 
    Um mehr als eine Ordnerstruktur zu verwenden, trennen Sie IDs durch Kommas:
 
    `"aemNativeFolderTreeIDs": ["Folder tree ID here","Second folder tree ID here"],`
-1. Ersetzen `New project name here` mit dem Namen, den das neue Projekt haben wird.
-1. Ersetzen `Template ID here` mit der Kennung der Vorlage, die Sie für das neue Projekt verwenden.
+1. Ersetzen Sie `New project name here` durch den Namen, den das neue Projekt haben wird.
+1. Ersetzen Sie `Template ID here` durch die ID der Vorlage, die Sie für das neue Projekt verwenden.
 
    Sie können die Vorlagen-ID einem vorherigen Modul zuordnen (z. B. Workfront > Suchmodul) oder sie in der URL der Vorlagenseite in Workfront suchen.
 
-1. Klicks **OK** , um die Modulkonfiguration zu speichern.
+1. Klicken Sie auf **OK** , um die Modulkonfiguration zu speichern.
 
 ## Ordnerbaum-IDs suchen
 
@@ -133,13 +133,13 @@ Suchen der Ordnerbaum-IDs:
 
 1. Öffnen Sie in Workfront die Vorlage, die Sie für dieses Projekt verwenden möchten. Diese Vorlage muss die Adobe Experience Manager-Konfiguration enthalten, die Sie für das Projekt verwenden möchten.
 1. Öffnen Sie die Entwicklertools für Ihren Browser.
-1. Öffnen Sie die **Netzwerk** in den Entwickler-Tools.
-1. Im **Filter** eingeben. `object-workflow`.
+1. Öffnen Sie die Registerkarte **Netzwerk** in den Entwicklertools.
+1. Geben Sie in das Feld **Filter** den Wert `object-workflow` ein.
 1. Klicken Sie in der Spalte Name auf die alphanumerische ID, die angezeigt wird.
 
    ![Suchen der Ordner-ID 1](assets/finding-folder-id-1.png)
 
-1. Klicken Sie auf **Vorschau** rechts neben der alphanumerischen ID.
+1. Klicken Sie auf die Registerkarte **Vorschau** rechts neben der alphanumerischen ID.
 1. Öffnen Sie die folgenden reduzierten Abschnitte:
    1. `data`
    1. `objectWorkflow`
@@ -149,19 +149,19 @@ Suchen der Ordnerbaum-IDs:
 
    Jeder Ordnerbaum wird durch eine Zahl dargestellt. 0 (null) steht für den ersten Ordner in der Liste, 1 für den zweiten usw. Wenn die Vorlage nur eine Ordnerstruktur enthält, ist sie die Nummer 0.
 
-1. Öffnen Sie die Ordnerstruktur, die Sie für das neue Projekt verwenden möchten. Beachten Sie die `_id` Feldwert. Wenn Sie mehr als einen Ordnerbaum verwenden möchten, notieren Sie sich alle `_id` Feldwerte für die Ordnerbäume, die Sie verwenden möchten.
+1. Öffnen Sie die Ordnerstruktur, die Sie für das neue Projekt verwenden möchten. Notieren Sie sich den Feldwert `_id` . Wenn Sie mehr als einen Ordnerbaum verwenden möchten, notieren Sie sich alle `_id` -Feldwerte für die Ordnerbäume, die Sie verwenden möchten.
 
    ![Suchen der Ordner-ID 2](assets/finding-folder-id-2.png)
 
-   Dies sind die `aemNativeFolderTreeIDs`  -Werte, die Sie in **Projekt (Erweiterte Sammlung)** im Feld **Workfront** > **Verschiedene Aktionen** Fusionsmodul.
+   Dies sind die `aemNativeFolderTreeIDs` -Werte, die Sie im Feld **Projekt (Erweiterte Sammlung)** im Fusionsmodul **Workfront** > **Misc Actions** eingeben.
 
 ## OAuth-Anwendung erstellen
 
 Sie müssen in Workfront eine OAuth-Anwendung für die Verbindung dieses Moduls einrichten. Sie müssen dies nur einmal für eine bestimmte Workfront-Verbindung in Fusion tun.
 
-1. Beginnen Sie in Workfront mit der Erstellung einer OAuth-Anwendung, wie unter [Erstellen einer OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungscode-Fluss)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) im Artikel OAuth2-Anwendungen erstellen für [!DNL Workfront] Integrationen.
+1. Beginnen Sie in Workfront mit der Erstellung einer OAuth-Anwendung, wie unter [Erstellen einer OAuth2-Anwendung mit Benutzeranmeldeinformationen (Fluss des Autorisierungscodes)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) im Artikel OAuth2-Anwendungen für [!DNL Workfront] -Integrationen erstellen beschrieben.
 1. Kopieren Sie die Client-ID und das Client-Geheimnis an einen sicheren Speicherort.
-1. Im **Umleitungs-URIs** Geben Sie Folgendes ein:
+1. Geben Sie im Feld **Umleitungs-URIs** Folgendes ein:
 
    ```
    http://app.workfrontfusion.com/oauth/cb/workfront-workfront
@@ -171,4 +171,4 @@ Sie müssen in Workfront eine OAuth-Anwendung für die Verbindung dieses Moduls 
 
 Sie verwenden diese Client-ID und das Client-Geheimnis bei der Konfiguration der Verbindung des Moduls in Fusion.
 
-Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] nach [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
+Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.

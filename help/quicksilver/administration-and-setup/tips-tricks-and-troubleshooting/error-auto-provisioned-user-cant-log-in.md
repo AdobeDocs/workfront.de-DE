@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen [!DNL Workfront] Administrator. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen ein [!DNL Workfront] -Administrator sein. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für einen Benutzer</a>.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,11 +55,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Erstellen Sie eine einfache Zugriffsstufe mit einer Anfragelizenz:
 
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Zugriffsebenen]**.
+1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Zugriffsebenen]**.
 
-1. Klicks **[!UICONTROL Neue Zugriffsebene]**.
-1. Geben Sie einen **[!UICONTROL Name]**.
-1. Im **[!UICONTROL Lizenztyp]** im Dropdown-Menü die Option Anforderung auswählen.
+1. Klicken Sie auf **[!UICONTROL Neue Zugriffsebene]**.
+1. Geben Sie einen **[!UICONTROL Namen]** ein.
+1. Wählen Sie im Dropdown-Menü **[!UICONTROL Lizenztyp]** die Option &quot;Anforderung&quot;aus.
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
 Nachdem Sie eine Zugriffsstufe mit einer Anforderungslizenz erstellt haben, lassen Sie den Benutzer sich mit seinen SSO-Anmeldeinformationen anmelden.

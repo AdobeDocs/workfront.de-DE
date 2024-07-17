@@ -19,7 +19,7 @@ ht-degree: 3%
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [API](../wf-api/api/api.md)
-* [Document Webhooks-API](../wf-api/doc-wbhks-api/document-webhooks-api.md)
+* [Dokument-Webhooks-API](../wf-api/doc-wbhks-api/document-webhooks-api.md)
 * [API-Allgemein](../wf-api/general/api-general.md)
 * [Tipps, Tricks und Fehlerbehebung für die Adobe Workfront-API](../wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
 * [Adobe Workfront-Objekte](../wf-api/wf-objects/workfront-objects.md)

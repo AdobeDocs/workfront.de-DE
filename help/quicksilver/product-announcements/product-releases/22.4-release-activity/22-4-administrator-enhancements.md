@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen für Administratoren beschrieben, die mit Version 22.4 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 verfügbar gemacht.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 Versionshinweise - Übersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Verwenden entsperrter Status in einem Genehmigungsprozess
 
@@ -43,7 +43,7 @@ Vorhandene Layoutvorlagen enthalten automatisch das Symbol Blueprints . Administ
 
 Weitere Informationen finden Sie unter [Zugriff auf Blueprints konfigurieren](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## Anpassung der Problemkopfzeilen
 
@@ -63,9 +63,9 @@ Vor dieser Version konnten nur Projekt- und Aufgabenkopfzeilen angepasst werden.
 
 
 
-Weitere Informationen finden Sie unter [Objektüberschriften mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## Anpassung von Aufgabenkopfzeilen
 
@@ -83,7 +83,7 @@ Vor dieser Version konnten nur Projektheader angepasst werden.
 
 Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## Früheres Feature Opt-in für die neuesten Funktionen auf Pinnwänden
 
@@ -91,9 +91,9 @@ Wir freuen uns, neue Pinnwände-Funktionen für eine frühzeitige Anmeldung zu �
 
 Nur ein Workfront-Administrator kann sich für die frühen Funktionen anmelden. Wenn sich der Administrator für frühe Funktionen entscheidet, werden alle Benutzer der Organisation angemeldet und die zusätzlichen Funktionen sind in Ihrer Workfront-Produktionsumgebung aktiviert.
 
-Weitere Informationen finden Sie unter [Vorabauswahl für Funktionen für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Weitere Informationen finden Sie unter [Früheres Feature Opt-in für Adobe Workfront-Pinnwände](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## Der Berechnungseditor für benutzerdefinierte Formularfelder zeigt Fehlerinformationen an
 
@@ -103,9 +103,9 @@ Weitere Informationen finden Sie unter [Vorabauswahl für Funktionen für Adobe 
 
 Die Bearbeitung von Berechnungen für benutzerdefinierte Felder ist jetzt einfacher, da hilfreiche Fehlerinformationen direkt in der Berechnung angegeben werden. Während Sie ein berechnetes Feld in einem benutzerdefinierten Formular erstellen, werden die Fehler rosa hervorgehoben. Wenn Sie den Mauszeiger über den markierten Teil bewegen, wird eine QuickInfo angezeigt, in der beschrieben wird, was das Problem ist.
 
-Weitere Informationen finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Weitere Informationen finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## Migration zu Adobe Unified Experience
 
@@ -121,6 +121,6 @@ Das Adobe Unified Experience umfasst:
 
 * Navigation mit Optionen für Workfront-Seiten, Adobe Experience Cloud-Voreinstellungen und Ihr Workfront-Profil
 
-Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}

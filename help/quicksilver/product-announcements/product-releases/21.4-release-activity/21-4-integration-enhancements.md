@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Verknüpfen von Dokumenten von Dropbox Business
 
@@ -27,7 +27,7 @@ Mit Dropbox Business können Sie freigegebene Dokumente verknüpfen und Dokument
 
 Ihr Workfront-Administrator kann diese Integration für Ihr Unternehmen aktivieren.
 
-Weitere Informationen finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Weitere Informationen finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Informationen dazu, wie ein Workfront-Administrator diese Option aktivieren kann, finden Sie unter [Dokumentintegrationen konfigurieren](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 

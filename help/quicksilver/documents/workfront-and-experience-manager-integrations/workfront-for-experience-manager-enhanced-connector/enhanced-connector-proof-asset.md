@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -35,7 +35,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über Experience Manager Assets Essentials verfügen.</td> 
+   <td>Sie benötigen Experience Manager Assets Essentials.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -43,7 +43,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff anzeigen oder höher</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff anzeigen oder höher</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,12 +62,12 @@ Sie können statische, Video- oder interaktive Testsendungen erstellen.
 
 So erstellen Sie einen Testversand:
 
-1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Schaltfläche **Dokumente** Abschnitt.
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Testversand erstellen** -Link, der unter dem Dokumentnamen angezeigt wird.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf den Abschnitt **Dokumente** .
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf den Link **Testversand erstellen** , der unter dem Dokumentnamen angezeigt wird.
 
    >[!NOTE]
    >
-   >Wenn Sie **Automatische Erstellung von Testsendungen beim Hochladen von Dokumenten** in Ihrem Benutzerprofil aktiviert ist, erstellt das System automatisch einen einfachen Testversand.
+   >Wenn Sie in Ihrem Benutzerprofil **Testsendungen beim Hochladen von Dokumenten automatisch generieren** aktiviert haben, erstellt das System automatisch einen einfachen Testversand.
 
 1. Wählen Sie eine der folgenden Optionen aus:
 
@@ -98,9 +98,9 @@ Nachdem Sie einen Testversand erstellt haben, können Sie Dinge wie
 * Aktualisieren von Validierungsverantwortlichen und Terminen
 * Workflow bearbeiten
 
-Weitere Informationen zur Verwaltung eines vorhandenen Testversands finden Sie unter [Verwalten von Testsendungen in Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
+Weitere Informationen zum Verwalten eines vorhandenen Testversands finden Sie unter [Verwalten von Testsendungen in Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
 
-## Testversand überprüfen
+## Überprüfen eines Korrekturabzugs
 
 Zugewiesene Überprüfer können beispielsweise Folgendes tun:
 
@@ -109,4 +109,4 @@ Zugewiesene Überprüfer können beispielsweise Folgendes tun:
 * Versionen vergleichen
 * Testversand genehmigen oder ablehnen
 
-Weitere Informationen dazu, was Sie mit dem Testool tun können, finden Sie unter [Überprüfen von Testsendungen in Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+Weitere Informationen dazu, was Sie mit dem Testwerkzeug tun können, finden Sie unter [Testsendungen in Adobe Workfront überprüfen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -48,22 +48,57 @@ In den folgenden Artikeln erhalten Sie einen Überblick über die neue Workfront
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-* [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md): Ein allgemeiner Überblick über die Adobe Workfront-Planung, einschließlich der Terminologie und Konzepte, die für diese Lösung eindeutig sind. Wir empfehlen Ihnen, hier mit Workfront Planning Ihre Journey zu beginnen.
+* [Adobe Workfront-Planungsübersicht](/help/quicksilver/planning/general/planning-overview.md): Ein Überblick über die Adobe Workfront-Planung auf hoher Ebene, einschließlich der Terminologie und Konzepte, die für diese Lösung eindeutig sind. Wir empfehlen Ihnen, hier mit Workfront Planning Ihre Journey zu beginnen.
 * [Adobe Workfront Planung der aktuellen Release-Aktivität](/help/quicksilver/planning/general/release-activity.md): Eine Liste aller Funktionen, die seit dem Start des Adobe Workfront-Planungsprogramms am 22. Mai 2023 veröffentlicht wurden, mit genauen Versionsinformationen und einem kurzen Überblick über die einzelnen Funktionen.
-* [Übersicht über den Adobe Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem Workfront AI Assistant for Planning können Sie mithilfe von Befehlen nach Datensätzen suchen oder Datensätze erstellen, aktualisieren und löschen sowie die Arbeit des Assistenten für Sie übernehmen.
+* [Adobe Workfront Planning AI Assistant Overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem Workfront AI Assistant for Planning können Sie über Befehle nach Datensätzen suchen oder Datensätze erstellen, aktualisieren und löschen und dem Assistenten die Arbeit überlassen.
 
-  Der Workfront AI Assistant steht derzeit ausgewählten Kunden in der Beta-Phase zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, um zu erfahren, ob Sie berechtigt sind, an diesem neuen Angebot teilzunehmen.
+  >[!NOTE]
+  >
+  >    Der Workfront AI Assistant steht derzeit ausgewählten Kunden in der Beta-Phase zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, um zu erfahren, ob Sie berechtigt sind, an diesem neuen Angebot teilzunehmen.
 
-* [Adobe Workfront-Planungsmodule für Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Mit den Planungsmodulen für Adobe Workfront können Sie ein Szenario bei Ereignissen in der Workfront-Planung Trigger haben. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf für Ihr Adobe Workfront Planning-Konto ausführen.
+* [Adobe Workfront-Planungsmodule für Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Mit den Adobe Workfront-Planungsmodulen können Sie ein Szenario bei Ereignissen in der Workfront-Planung Trigger haben. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf für Ihr Adobe Workfront Planning-Konto ausführen.
 
 ## Architektur und Funktionalität der Workfront-Planung
 
 Die folgenden Abschnitte enthalten Artikel, in denen ausführlich beschrieben wird, welche Funktionen derzeit für die Workfront-Planung verfügbar sind:
 
-* [Zugriffs- und Berechtigungsinformationen: Artikelindex](/help/quicksilver/planning/access/access-information.md): Informationen zu Zugriff und Berechtigungen, die für die Verwendung der Workfront-Planung erforderlich sind.
-* [Architektur: Artikelindex](/help/quicksilver/planning/architecture/architecture-information.md): Detaillierte Informationen zur Architektur der Workfront-Planung mit schrittweisen Anweisungen zum Erstellen und Verwalten von Arbeitsbereichen und Datensatztypen.
-* [Felder: Artikelindex](/help/quicksilver/planning/fields/fields-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen benutzerdefinierter Felder für Datensatztypen.
-* [Datensätze: Artikelindex](/help/quicksilver/planning/records/records-information.md): Detaillierte Informationen und schrittweise Anweisungen zum Erstellen und Verwalten von Datensätzen.
-* [Ansichten: Artikelindex](/help/quicksilver/planning/views/views-information.md): Detaillierte Informationen zu Datensatzansichten und deren Verwaltung beim Anzeigen einer Seite vom Typ Datensatz.
-* [Benachrichtigungen: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md): Informationen zu E-Mail- und In-App-Benachrichtigungen, die von Ereignissen in der Workfront-Planung generiert wurden.
+* [Zugriffs- und Berechtigungsinformationen: Artikelindex](/help/quicksilver/planning/access/access-information.md) enthält die folgenden Informationen:
+
+   * Workfront-Lizenzen und Planungsberechtigungen
+   * Planung der Freigabe von Berechtigungen
+   * Ansichten freigeben
+   * Freigeben von Arbeitsbereichen (Datensatztypen, Datensätze und Felder)
+
+* [Architektur: Artikelindex](/help/quicksilver/planning/architecture/architecture-information.md) enthält die folgenden Informationen:
+
+   * Erstellen, Bearbeiten und Löschen von Arbeitsbereichen
+   * Erstellen, Bearbeiten und Löschen von Datensatztypen
+   * Verbinden von Datensatztypen und Beispielen zum Verbinden von Datensatztypen
+   * Workspace-Vorlage
+
+* [Felder: Artikelindex](/help/quicksilver/planning/fields/fields-information.md) enthält die folgenden Informationen:
+
+   * Erstellen, Bearbeiten und Löschen von Feldern
+   * Formelfelder
+   * Primäre Felder
+
+* [Datensätze: Artikelindex](/help/quicksilver/planning/records/records-information.md) enthält die folgenden Informationen:
+
+   * Datensätze erstellen, bearbeiten und löschen
+   * Datensätze verbinden
+   * Hinzufügen eines Titelbilds oder einer Miniaturansicht zu einem Datensatz
+   * Abschnitt &quot;Kommentare und Verlauf&quot;aufzeichnen
+   * Datensätze freigeben
+   * Workfront-Planungsabschnitt für Workfront-Objekte
+
+* [Ansichten: Artikelindex](/help/quicksilver/planning/views/views-information.md) enthält die folgenden Informationen:
+
+   * Datensatzansichten erstellen
+   * Tabellen-, Timeline- und Kalenderansichten verwalten
+
+* [Benachrichtigungen: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md) enthält die folgenden Informationen:
+
+   * Benachrichtigungseinstellungen verwalten
+   * Planen von In-App-Benachrichtigungen
+   * Planung von E-Mail-Benachrichtigungen
 

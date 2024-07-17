@@ -25,7 +25,7 @@ Vorlagen bieten Ihnen eine Möglichkeit, wiederholbare Prozesse, Informationen u
 >
 >Workfront definiert die Gruppe und den Status des neuen Projekts wie folgt:
 >
->* Der Standardstatus eines neuen Projekts, das aus einer Vorlage erstellt wurde, entspricht dem Status, der von Ihrem Workfront-Administrator im Hauptbereich &quot;Projekteinstellungen&quot;oder von einem Gruppenadministrator (oder Workfront-Administrator) im Bereich &quot;Projekteinstellungen&quot;für eine Gruppe definiert wurde. Informationen zum Konfigurieren von Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) oder [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>* Der Standardstatus eines neuen Projekts, das aus einer Vorlage erstellt wurde, entspricht dem Status, der von Ihrem Workfront-Administrator im Hauptbereich &quot;Projekteinstellungen&quot;oder von einem Gruppenadministrator (oder Workfront-Administrator) im Bereich &quot;Projekteinstellungen&quot;für eine Gruppe definiert wurde. Weitere Informationen zum Konfigurieren von Projektvoreinstellungen finden Sie unter [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) oder [Konfigurieren von Projektanvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 >
 >* Die Gruppe des neuen Projekts ist die Gruppe der Vorlage. Wenn die Vorlage nicht mit einer Gruppe verknüpft ist, ist die Gruppe des Projekts die Startseite des Benutzers, der das Projekt erstellt.
 >
@@ -37,7 +37,7 @@ Sie haben die folgenden Optionen zum Erstellen eines Projekts aus einer Vorlage:
 * Erstellen eines Projekts aus einer Vorlage auf Vorlagenebene
 * Eine Vorlage an ein vorhandenes Projekt anhängen
 
-  Weitere Informationen finden Sie unter [Eine Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+  Weitere Informationen finden Sie unter [Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 * Erstellen eines Projekts aus einer Vorlage im Bereich &quot;Gruppen&quot;
 
@@ -103,7 +103,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,14 +117,14 @@ Sie können ein Projekt aus dem Bereich Projekte im Hauptmenü oder aus dem Bere
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke. Klicks **Projekte**, dann erweitern **Neues Projekt**.
-   * Wechseln Sie zu einem Portfolio und erweitern Sie **Neues Projekt**.
+   * Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links. Klicken Sie auf **Projekte** und erweitern Sie dann **Neues Projekt**.
+   * Wechseln Sie zu einem Portfolio und erweitern Sie dann **Neues Projekt**.
 
      >[!TIP]
      >
      >Wenn Sie ein Projekt mit einer Vorlage aus einem Portfolio erstellen, wird das Projektfeld des neuen Portfolios aktualisiert, um das Portfolio anzuzeigen, aus dem Sie das Projekt erstellen möchten. Dadurch wird das Feld Portfolio in der Vorlage überschrieben, sofern angegeben.
 
-   * Öffnen Sie ein Programm und erweitern Sie **Neues Projekt**.
+   * Wechseln Sie zu einem Programm und erweitern Sie dann **Neues Projekt**.
 
      >[!TIP]
      >
@@ -142,16 +142,16 @@ Sie können ein Projekt aus dem Bereich Projekte im Hauptmenü oder aus dem Bere
 
    ![Neue Projektoptionen](assets/new-project-dropdown.png)
 
-1. Klicken Sie auf den Namen einer Vorlage im **Favoritenvorlagen** Liste.
+1. Klicken Sie in der Liste **Favoritenvorlagen** auf den Namen einer Vorlage.
 
-   ![Favoritenvorlage auswählen](assets/new-project-from-template-dropdown-with-template-favorites.png)
+   ![Auswählen einer Lieblingsvorlage](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
    Oder
 
    Gehen Sie wie folgt vor:
 
-   1. Auswählen **Neues Projekt aus Vorlage**.
-   1. Im **Suchvorlagen** eingeben, den Namen einer Vorlage eingeben und auf diese klicken, wenn sie in der Liste angezeigt wird.
+   1. Wählen Sie **Neues Projekt aus Vorlage** aus.
+   1. Geben Sie im Feld **Suchvorlagen** den Namen einer Vorlage ein und klicken Sie auf diese, wenn sie in der Liste angezeigt wird.
    1. Überprüfen Sie die Vorlagendetails auf der rechten Seite.
 
       Die Vorlagendetails umfassen Folgendes:
@@ -162,34 +162,34 @@ Sie können ein Projekt aus dem Bereich Projekte im Hauptmenü oder aus dem Bere
       * Die Anzahl aller Aufgaben in der Vorlage
       * Die Namen der benutzerdefinierten Vorlagen-Formulare
 
-   1. (Optional) Bewegen Sie den Mauszeiger im linken Bereich über den Namen einer Vorlage und klicken Sie auf **Favoriten** **icon** ![](assets/favorites-icon-small.png) , um ihn als Favoriten für die zukünftige Verwendung zu kennzeichnen.
+   1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Vorlage im linken Bereich und klicken Sie auf das Symbol **Favoriten** **** ![](assets/favorites-icon-small.png) , um sie als Favoriten für die zukünftige Verwendung zu kennzeichnen.
 
       Oder
 
-      Erweitern Sie die **Favoritenvorlagen** und wählen Sie eine Vorlage aus der Dropdownliste aus.
+      Erweitern Sie die Liste **Favoritenvorlagen** und wählen Sie eine Vorlage aus der Dropdownliste aus.
 
       >[!TIP]
       >
       >Sie können bis zu 40 Workfront-Elemente als Favoriten markieren. Dazu gehören Vorlagen und andere Elemente.
 
-   1. Klicks **Vorlage verwenden** wenn Sie eine Vorlage ausgewählt haben.
+   1. Klicken Sie auf **Vorlage verwenden** , wenn Sie eine Vorlage ausgewählt haben.
 
       ![Vorlagendetails](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
       >[!NOTE]
       >
-      >Wenn Sie die Meilensteinansicht auf die Liste der Projekte angewendet haben, klicken Sie auf den Namen einer Vorlage in der **Neuer Bereich &quot;Vorlage&quot;**.
+      >Wenn Sie die Meilensteinansicht auf die Liste der Projekte angewendet haben, klicken Sie im Abschnitt **Neu aus Vorlage** auf den Namen einer Vorlage.
       >
       >
       >![Meilensteinansicht zum Erstellen eines Projekts aus einer Vorlage](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
 
-   Die **Neues Projekt** wird geöffnet.
+   Das Feld **Neues Projekt** wird geöffnet.
 
-   ![Neues Projekt](assets/new-project-from-template-box.png)
+   ![Feld &quot;Neues Projekt&quot;](assets/new-project-from-template-box.png)
 
-1. Wenn ein Feld bereits in der Vorlage ausgefüllt ist, wird das Feld im **Neues Projekt** ankreuzen. Sie können die vorausgefüllten Werte bearbeiten, um sie besser an Ihr Projekt anzupassen. Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
-1. Klicks **Projekt erstellen**.
+1. Wenn ein Feld bereits in der Vorlage ausgefüllt ist, wird das Feld im Feld **Neues Projekt** vorausgefüllt. Sie können die vorausgefüllten Werte bearbeiten, um sie besser an Ihr Projekt anzupassen. Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. Klicken Sie auf **Projekt erstellen**.
 
    Alle in der Vorlage definierten Details werden automatisch mit dem neu erstellten Projekt verknüpft, wenn Sie sie im vorherigen Schritt nicht geändert haben.
 
@@ -200,18 +200,18 @@ Anstatt im Bereich &quot;Projekte&quot;zu beginnen, können Sie ein Projekt aus 
 {{step1-to-templates}}
 
 1. Klicken Sie auf den Namen einer Vorlage, die Sie verwenden möchten.
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png)Klicken Sie auf **Projekt erstellen**.
+1. Klicken Sie auf das Menü **Mehr** ![](assets/more-icon.png) und dann auf **Projekt erstellen**.
 
    ![Projekt aus Vorlage erstellen](assets/project-sharing-on-template.png)
 
-   Die **Neues Projekt** wird geöffnet.
+   Das Feld **Neues Projekt** wird geöffnet.
 
 1. Geben Sie einen Namen für das Projekt ein, überprüfen Sie dann jeden Abschnitt und nehmen Sie die erforderlichen Änderungen vor.
 
-   ![Neues Projekt](assets/new-project-from-template-box.png)
+   ![Feld &quot;Neues Projekt&quot;](assets/new-project-from-template-box.png)
 
-   Wenn ein Feld bereits in der Vorlage ausgefüllt ist, wird das Feld im **Neues Projekt** ankreuzen. Sie können die vorausgefüllten Werte bearbeiten, um sie besser an Ihr Projekt anzupassen. Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Wenn ein Feld bereits in der Vorlage ausgefüllt ist, wird das Feld im Feld **Neues Projekt** vorausgefüllt. Sie können die vorausgefüllten Werte bearbeiten, um sie besser an Ihr Projekt anzupassen. Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Klicks **Projekt erstellen**.
+1. Klicken Sie auf **Projekt erstellen**.
 
    Alle in der Vorlage definierten Details werden automatisch mit dem neu erstellten Projekt verknüpft, wenn Sie sie im vorherigen Schritt nicht geändert haben.

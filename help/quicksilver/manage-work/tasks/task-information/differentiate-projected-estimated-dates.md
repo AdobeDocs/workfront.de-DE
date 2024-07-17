@@ -27,7 +27,7 @@ In diesem Artikel werden die Unterschiede zwischen den geschätzten und den gepl
 
 Wenn die Aufgabe zum ersten Mal erstellt wird, sollten in der Regel die Datumswerte &quot;Geplant&quot;, &quot;Geplant&quot;und &quot;Geplant&quot;übereinstimmen. Es gibt einige Ausnahmen. 
 
-Weitere Informationen zu den Projekt-, Aufgaben- und Ausgabedaten in Adobe Workfront finden Sie unter [Übersicht über die Projekt-, Aufgaben- und Problemdaten in Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Weitere Informationen zu den Projekt-, Aufgaben- und Ausgabedaten in Adobe Workfront finden Sie unter [Überblick über die Projekt-, Aufgaben- und Problemdatumswerte in Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Übersicht über geplante Datumswerte
 
@@ -60,7 +60,7 @@ Der Unterschied zwischen den prognostizierten und den geschätzten Datumswerten 
 
 * Die geschätzten Datumswerte berücksichtigen nur den tatsächlichen Fortschritt einer Aufgabe zu einem bestimmten Zeitpunkt.
 
-**Beispiel:** Wenn wir eine Aufgabe haben, die über ein geplantes Startdatum vom 20. September und ein geplantes Abschlussdatum vom 24. September verfügt und bei der es beendet werden muss, das geplante Abschlussdatum am 24. September. Diese Aufgabe hat eine Dauer von 4 Tagen.
+**Beispiel:** Wenn wir eine Aufgabe haben, die über ein geplantes Startdatum vom 20. September und ein geplantes Abschlussdatum vom 24. September verfügt und bei der sie bei Einschränkung beendet werden muss, ist das geplante Abschlussdatum der 24. September. Diese Aufgabe hat eine Dauer von 4 Tagen.
 
 Das geschätzte Abschlussdatum wird basierend auf dem aktuellen Fortschritt der Arbeit an der Aufgabe berechnet. Wenn heute also der 23. September ist und die Aufgabe noch nicht begonnen hat, ist das geschätzte Abschlussdatum der 27. September (es sollte nach 4 Tagen abgeschlossen sein, vorausgesetzt, die Arbeit wird heute begonnen).
 
@@ -75,7 +75,7 @@ In der folgenden Liste werden verschiedene Szenarien angezeigt, in denen die gep
 
 * Wenn eine Aufgabe als abgeschlossen markiert ist:
 
-  *Projizierte Datumswerte = geschätzte Datumswerte = tatsächliche Datumswerte*
+  *Vorgeschlagene Datumswerte = Geschätzte Datumswerte = tatsächliche Datumswerte*
 
 * Wenn eine Aufgabe ein tatsächliches Startdatum hat:
 
@@ -85,7 +85,7 @@ In der folgenden Liste werden verschiedene Szenarien angezeigt, in denen die gep
 
   *Projiziertes Startdatum = Beschränkungsdatum*
 
-  Informationen zum Beschränkungsdatum finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  Weitere Informationen zum Beschränkungsdatum finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Wenn eine Aufgabe kein tatsächliches Startdatum hat und die Aufgabe kein erzwungenes Beschränkungsdatum hat:
 
@@ -93,17 +93,17 @@ In der folgenden Liste werden verschiedene Szenarien angezeigt, in denen die gep
 
 * Wenn der Bevollmächtigte das Zustimmungsdatum aktualisiert:
 
-  *Projiziertes Abschlussdatum = Veröffentlichungsdatum*
+  *Voraussichtliches Abschlussdatum = Abschlussdatum*
 
-  Weitere Informationen zum Übermittlungsdatum finden Sie unter [Datum bestätigen - Übersicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Weitere Informationen zum Datum der Übermittlung finden Sie unter [Übersicht über das Datum der Übermittlung](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Wenn die Aufgabe kein aktualisiertes Veröffentlichungsdatum hat und die Aufgabe eine erzwungene Beschränkung (Must Finish On) für das geplante Abschlussdatum aufweist, das in der Zukunft liegt:
 
-  *Projiziertes Abschlussdatum = Beschränkungsdatum*
+  *Voraussichtliches Abschlussdatum = Beschränkungsdatum*
 
 * Wenn eine Aufgabe kein aktualisiertes Veröffentlichungsdatum hat, ein erzwungenes Einschränkungsdatum in der Zukunft oder ein Einschränkungsdatum in der Vergangenheit hat:
 
-  *Voraussichtlicher Abschluss = Systemberechnung des Abschlussdatums basierend auf dem aktuellen Fortschritt und der noch zu erledigenden Arbeit*
+  *Vorgeschlagenes Abschlussdatum = Systemberechnung für das Abschlussdatum basierend auf dem aktuellen Fortschritt und der noch zu erledigenden Arbeit*
 
 ### Erfahren Sie, wann die geschätzten Datumswerte die Aufgaben aktualisieren {#understand-when-the-estimated-dates-update-on-tasks}
 

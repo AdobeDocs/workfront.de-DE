@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Sie müssen jedoch über den folgenden Zugriff verfügen, um die Timeline eines 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -71,13 +71,13 @@ Sie müssen jedoch über den folgenden Zugriff verfügen, um die Timeline eines 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Systemadministrator, um die Timeline für alle Projekte im System neu zu berechnen</p> <p><b>NOTIZ</b>
+   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Systemadministrator zur Neuberechnung der Zeitleiste für alle Projekte im System</p> <p><b>NOTIZ</b>
 
 Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für ein Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für ein Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,10 +102,10 @@ Adobe Workfront berechnet die Zeitpläne nur für Projekte täglich neu, für di
 * Der Status Aktuell
 * Der Aktualisierungstyp des Projekts ist auf &quot;Automatisch&quot;oder &quot;Automatisch&quot;und &quot;Bei Änderung&quot;eingestellt
 
-   Informationen zum Typ der Projektaktualisierung finden Sie unter [Übersicht über den Projektaktualisierungstyp](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  Informationen zum Typ des Projektaktualisierungstyps finden Sie unter [Übersicht über den Projektaktualisierungstyp](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
-* Sie haben ein Datum der letzten Aktualisierung innerhalb der letzten drei Monate\
-   Der Workfront-Administrator kann diese Standardfunktion ändern, wie unter [Konfigurieren von Timeline-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+* Letztes Datum der Aktualisierung innerhalb der letzten drei Monate\
+  Der Workfront-Administrator kann diese Standardfunktion ändern, wie unter [Konfigurieren von Zeitleistenneuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) beschrieben.
 
 * Das letzte Berechnungsdatum der Projekt-Timeline liegt nicht innerhalb des aktuellen Kalendertages. Das bedeutet, dass das letzte Berechnungsdatum der Projekt-Timeline vor 00:00 Uhr des aktuellen Tages liegt.
 
@@ -122,7 +122,7 @@ or changes made to another project that the timeline is dependent on
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
 -->
 
-Weitere Informationen finden Sie unter [Wählen Sie den Projektaktualisierungstyp aus](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+Weitere Informationen finden Sie unter [Auswählen des Aktualisierungstyps für das Projekt](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -154,14 +154,14 @@ Verschiedene Änderungen des Umfangs während der Laufzeit eines Projekts führe
 * Aktualisieren des geplanten Datums oder des geplanten Abschlussdatums der Aufgaben.
 * Aktualisieren des Dauer-Typs, der Aufgabenbegrenzung oder der Anzahl der Bevollmächtigten für die Aufgaben.
 * Aktualisieren der Vorgängerbeziehungen von Aufgaben.
-* Hinzufügen einer Genehmigung zu einer Aufgabe, die auch dem geplanten Abschlussdatum der Aufgabe Zeit hinzufügt.\
-   Weitere Informationen zu den Validierungseinstellungen finden Sie unter [Globale Genehmigungseinstellungen konfigurieren](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+* Hinzufügen einer Validierung zu einer Aufgabe, die auch dem geplanten Abschlussdatum der Aufgabe Zeit hinzufügt.\
+  Weitere Informationen zu den Genehmigungseinstellungen finden Sie unter [Globale Genehmigungseinstellungen konfigurieren](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
 ## Manuelle Neuberechnung {#manual-recalculation}
 
 Als Projekteigentümer können Sie die Zeitpläne für einzelne Projekte manuell neu berechnen. Der Workfront-Administrator kann alle Zeitleisten in Workfront manuell neu berechnen.
 
-* [Neuberechnung der Zeitpläne für einzelne Projekte oder in großen Mengen](#recalculate-timelines-for-individual-projects-or-in-bulk)
+* [Zeitleisten für einzelne Projekte oder stapelweise neu berechnen](#recalculate-timelines-for-individual-projects-or-in-bulk)
 * [Manuelles Neuberechnen von Zeitleisten in großen Mengen im Feld &quot;Projekte bearbeiten&quot;](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
 * [Zeitpläne für alle Projekte im System neu berechnen (nur Workfront-Administratoren)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
@@ -169,13 +169,13 @@ Als Projekteigentümer können Sie die Zeitpläne für einzelne Projekte manuell
 
 Sie können die Timeline eines Projekts in Workfront von der Projektseite oder von einer Projektliste oder einem Bericht aus neu berechnen.
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Timeline neu berechnen möchten, und klicken Sie auf **Mehr** icon ![](assets/qs-more-menu.png) links neben dem Projektnamen
+1. Wechseln Sie zu dem Projekt, für das Sie die Timeline neu berechnen möchten, und klicken Sie auf das Symbol **Mehr** ![](assets/qs-more-menu.png) links neben dem Projektnamen.
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oder
 
-   Wechseln Sie zu einer Projektliste oder einem Bericht und wählen Sie ein oder mehrere Projekte aus. Klicken Sie dann auf die Schaltfläche **Mehr** icon ![](assets/qs-more-menu.png) oben in der Liste.
+   Wechseln Sie zu einer Projektliste oder einem Bericht und wählen Sie ein oder mehrere Projekte aus. Klicken Sie dann oben in der Liste auf das Symbol **Mehr** ![](assets/qs-more-menu.png) .
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -183,7 +183,7 @@ Sie können die Timeline eines Projekts in Workfront von der Projektseite oder v
    >
    >Je nach der Komplexität Ihrer Projekte empfehlen wir, bei der Neuberechnung der Zeitpläne keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung zu gewährleisten. Einige Dinge, die ein Projekt zu komplex machen könnten, sind möglicherweise mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder.
 
-1. Klicken **Timeline neu berechnen**.
+1. Klicken Sie auf **Timeline neu berechnen**.
 
    Nach der Neuberechnung der Zeitleiste wird eine Meldung angezeigt, die angibt, dass die Neuberechnung erfolgreich war.
 
@@ -197,19 +197,19 @@ Sie können die Zeitpläne mehrerer Projekte manuell neu berechnen, indem Sie si
 
 >[!TIP]
 >
->Je nach Komplexität Ihrer Projekte empfehlen wir, bei der Massenbearbeitung keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung zu gewährleisten. Einige Dinge, die ein Projekt zu komplex machen könnten, sind möglicherweise mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl von benutzerdefinierten Feldern.
+>Je nach Komplexität Ihrer Projekte empfehlen wir, bei der Massenbearbeitung keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung zu gewährleisten. Einige Dinge, die ein Projekt zu komplex machen könnten, sind möglicherweise mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder.
 
 1. Gehen Sie zu einer Projektliste.
-1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie auf **Bearbeiten**.
-1. Klicken **Einstellungen**, wählen Sie **Zeitleisten neu berechnen**.
+1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie dann auf **Bearbeiten**.
+1. Klicken Sie auf **Einstellungen** und wählen Sie dann **Zeitleisten neu berechnen** aus.
 
-1. Klicken **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
 ### Zeitpläne für alle Projekte im System neu berechnen (nur Workfront-Administratoren) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
 
 Workfront-Administratoren können die Diagnose Timeline neu berechnen ausführen, um alle Zeitleisten im Workfront-System sofort neu zu berechnen. Dadurch können alle Projektmanager den Einfluss externer Änderungen sofort an geplanten und geplanten Terminen erkennen.
 
-Weitere Informationen zur Neuberechnung der Zeitpläne für die gesamte Workfront-Site finden Sie im Abschnitt &quot;Neuberechnung der Zeitpläne für die gesamte Workfront-Instanz&quot;in [Konfigurieren von Timeline-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Weitere Informationen zum Neuberechnen von Zeitleisten für die gesamte Workfront-Site finden Sie im Abschnitt &quot;Zeitpläne für die gesamte Workfront-Instanz neu berechnen&quot;in [Konfigurieren von Zeitleistenneuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

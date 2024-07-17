@@ -9,7 +9,7 @@ exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
 source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -28,8 +28,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -38,13 +38,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Manuelles Synchronisieren der Aufschlüsselungsgrafik mit Daten in der Iteration
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Teams]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Switch Team]** icon ![Symbol &quot;Team wechseln&quot;](assets/switch-team-icon.png), wählen Sie entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wechseln Sie zu der Iteration, bei der Sie das Diagramm manuell synchronisieren möchten.
-1. Klicken Sie auf das Synchronisierungssymbol ![Synchronisierungssymbol](assets/agile-syncicon.png) neben dem Iterationsnamen.
+1. Klicken Sie auf das Synchronisierungssymbol ![Synchronisierungssymbol](assets/agile-syncicon.png) neben dem Namen der Iteration.

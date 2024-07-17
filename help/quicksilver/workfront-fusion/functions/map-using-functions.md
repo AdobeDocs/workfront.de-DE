@@ -2,85 +2,101 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Elemente mithilfe von Funktionen in zuordnen [!DNL Adobe Workfront Fusion]
+title: Elemente mithilfe von Funktionen in [!DNL Adobe Workfront Fusion] zuordnen
 description: Wenn Sie Elemente zuordnen, können Sie Funktionen verwenden, um einfache oder komplexe Formeln zu erstellen.
 author: Becky
 feature: Workfront Fusion
 exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: d175a3d43f13338661d8b7e1cb79038a36522ff9
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
-# Elemente mithilfe von Funktionen in zuordnen [!DNL Adobe Workfront Fusion]
+# Elemente mithilfe von Funktionen in [!DNL Adobe Workfront Fusion] zuordnen
 
-Wenn Sie Elemente zuordnen, können Sie Funktionen verwenden, um einfache oder komplexe Formeln zu erstellen.
+Wenn Sie Elemente zuordnen, können Sie Funktionen verwenden, um einfache oder komplexe Formeln zu erstellen. Die in [!DNL Adobe Workfront Fusion] verfügbaren Funktionen ähneln den Funktionen in Excel und einigen Programmiersprachen:
 
-Die in [!DNL Adobe Workfront Fusion] ähneln Funktionen in Excel und einigen Programmiersprachen. Sie bewerten allgemeine Logik, Mathematik, Text, Daten und Arrays. Sie können bedingte Logik und Umwandlungen von Elementwerten durchführen, z. B. das Konvertieren von Text in Großbuchstaben, das Zuschneiden von Text, das Konvertieren eines Datums in ein anderes Format und mehr. Weitere Informationen finden Sie unter [Informationen in Adobe Workfront Fusion von einem Modul zum anderen zuordnen](../../workfront-fusion/mapping/map-information-between-modules.md).
+* Sie bewerten allgemeine Logik, Mathematik, Text, Daten und Arrays.
+* Sie können bedingte Logik und Umwandlungen von Elementwerten durchführen, z. B. das Konvertieren von Text in Großbuchstaben, das Zuschneiden von Text, das Konvertieren eines Datums in ein anderes Format und mehr.
+
+Weitere Informationen finden Sie unter [Zuordnen von Informationen zwischen Modulen in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>[!DNL Pro] oder höher</p> </td> 
+
+<col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td>  
+   <td> <p>Alle</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td>  
+   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
+   <td> 
+   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p> 
+   <p>Oder</p> 
+   <p>Veraltet: Beliebig </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Produkt</td>  
+   <td> 
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
+   <p>Oder</p> 
+   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
-   <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
-   <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
-   <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Funktionen in Felder einfügen
 
-Wenn Sie auf ein Feld klicken, wird die [!UICONTROL Mapping] angezeigt. Das Zuordnungsbedienfeld enthält mehrere Registerkarten:
+## Übersicht über die Registerkarte &quot;Zuordnung&quot;
+
+So öffnen Sie das Bedienfeld [!UICONTROL mapping] für ein Feld:
+
+1. Klicken Sie im linken Bereich auf **Szenarios** .
+1. Wählen Sie ein Szenario.
+
+![](assets/open-functions-bar.png)
+
+
+### Registerkarten des Zuordnungsbedienfelds
+
+Die folgenden Registerkarten befinden sich im Zuordnungsbereich:
+
+* **Allgemeine Funktionen** ![](assets/toolbar-icon-general-function.png) - Weitere Informationen finden Sie unter [Allgemeine Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) .
+
+* **Math-Funktionen** ![](assets/toolbar-icon-math-functions.png) - Weitere Informationen finden Sie unter [Math-Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md) .
+
+* **Text- und Binärfunktionen** ![](assets/toolbar-icon-text&binary-functions.png) - Weitere Informationen finden Sie unter [Zeichenfolgenfunktionen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) .
+
+* **Datum und Uhrzeit** ![](assets/toolbar-icon-date&time-functions.png) - Weitere Informationen finden Sie unter [Datums- und Uhrzeitfunktionen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) und in den unten stehenden Artikeln:
+
+   * [Token für die Datums- und Uhrzeitformatierung in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+   * [Token für Datums- und Uhrzeitanalyse in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+
+* **Funktionen für die Arbeit mit Arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - Weitere Informationen finden Sie unter [Array-Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) .
+
+* **Andere Funktionen zuordnen** ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) zeigt die Elemente an, die Sie aus anderen Modulen zuordnen können. Diese Registerkarte ist nicht immer verfügbar.
 
 ![](assets/functions-toolbar-350x189.png)
 
-Die erste Registerkarte ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) (angezeigt beim Öffnen des Bedienfelds) zeigt die Elemente an, die Sie aus anderen Modulen zuordnen können.
-
-Die anderen Registerkarten enthalten die folgenden Funktionstypen:
-
-* **Allgemeine Funktionen** ![](assets/toolbar-icon-general-function.png) - Siehe [Allgemeine Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) für weitere Informationen.
-
-* **Mathematische Funktionen** ![](assets/toolbar-icon-math-functions.png) - Siehe [Mathematische Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md) für weitere Informationen.
-
-* **Text- und Binärfunktionen** ![](assets/toolbar-icon-text&binary-functions.png) - Siehe [Zeichenfolgenfunktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) für weitere Informationen.
-
-* **Datum und Uhrzeit** ![](assets/toolbar-icon-date&time-functions.png) - Siehe [Datums- und Uhrzeitfunktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) und den unten stehenden Artikeln für weitere Informationen.
-
-   * [Token für die Datums- und Uhrzeitformatierung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-   * [Token für Datums- und Uhrzeitanalyse in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
-
-* **Funktionen zum Arbeiten mit Arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - Siehe [Array-Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) für weitere Informationen.
+## Funktionen in Felder einfügen
 
 So fügen Sie eine Funktion in ein Feld ein:
 
@@ -90,38 +106,41 @@ So fügen Sie eine Funktion in ein Feld ein:
 
    Ziehen Sie die Funktion in das Feld.
 
->[!INFO]
->
->**Beispiel:** Einige Datentypen verhindern, dass Benutzer mehr als eine bestimmte Anzahl von Zeichen eingeben. Mit der Teilzeichenfolgen-Funktion können Sie einen Wert auf eine bestimmte Anzahl von Zeichen beschränken.
->
->In diesem Beispiel beschränkt die Teilzeichenfolgenfunktion den Projektnamen auf 50 Zeichen.
->
->![](assets/example-meet-length-restriction-350x184.png)
+
+>[!BEGINSHADEBOX]
+
+**Beispiel:** Einige Datentypen verhindern, dass Benutzer mehr als eine bestimmte Anzahl von Zeichen eingeben. Mit der Teilzeichenfolgen-Funktion können Sie einen Wert auf eine bestimmte Anzahl von Zeichen beschränken.
+
+In diesem Beispiel beschränkt die Teilzeichenfolgenfunktion den Projektnamen auf 50 Zeichen.
+
+![](assets/example-meet-length-restriction-350x184.png)
+
+>[!ENDSHADEBOX]
 
 ## Verschachtelungsfunktionen
 
 Sie können Funktionen untereinander verschachteln.
 
-## Verwendung [!DNL Google Sheets] Funktionen
+## [!DNL Google Sheets]-Funktionen verwenden
 
-Wenn [!DNL Workfront Fusion] verfügt nicht über eine Funktion, die Sie verwenden möchten, wird jedoch durch [!DNL Google Sheets], können Sie sie wie folgt verwenden:
+Wenn [!DNL Workfront Fusion] keine Funktion enthält, die Sie verwenden möchten, aber von [!DNL Google Sheets] gekennzeichnet ist, können Sie sie wie folgt verwenden:
 
-1. In [!DNL Google Sheets]erstellen Sie eine neue leere Tabelle.
-1. In [!DNL Workfront Fusion], öffnen Sie Ihr Szenario.
-1. Fügen Sie die **[!DNL Google Sheets]** >**[!UICONTROL Zelle aktualisieren]** zum Szenario hinzu.
+1. Erstellen Sie in [!DNL Google Sheets] eine neue leere Tabelle.
+1. Öffnen Sie in [!DNL Workfront Fusion] Ihr Szenario.
+1. Fügen Sie das Modul **[!DNL Google Sheets]** >**[!UICONTROL Zelle]** aktualisieren zum Szenario hinzu.
 
-   Anweisungen zum Hinzufügen eines Moduls finden Sie unter [Hinzufügen eines Moduls in einem Szenario](../../workfront-fusion/scenarios/create-a-scenario.md#add) im Artikel [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Anweisungen zum Hinzufügen eines Moduls finden Sie unter [Hinzufügen eines Moduls in einem Szenario](../../workfront-fusion/scenarios/create-a-scenario.md#add) im Artikel [Erstellen eines Szenarios in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Konfigurieren Sie das Modul:
 
-   1. Wählen Sie die neu erstellte Tabelle im **[!UICONTROL Tabelle]** -Feld.
-   1. Fügen Sie Ihre Formel mit den Variablen [!DNL Google Sheets] -Funktion(en) in die **[!UICONTROL Wert]** -Feld.
+   1. Wählen Sie im Feld **[!UICONTROL Tabelle]** das neu erstellte Arbeitsblatt aus.
+   1. Fügen Sie Ihre Formel, die die Funktion [!DNL Google Sheets] enthält, in das Feld **[!UICONTROL Wert]** ein.
 
       Sie können die Ausgabe der vorherigen Module wie gewohnt verwenden.
 
       ![](assets/exploit-google-sheet-functions-350x218.png)
 
-1. Fügen Sie die **[!UICONTROL Google Tabellen] >[!UICONTROL Zelle abrufen]** -Modul, um das berechnete Ergebnis abzurufen.
+1. Fügen Sie das Modul **[!UICONTROL Google Tabellen] >[!UICONTROL Zellen abrufen]** ein, um das berechnete Ergebnis zu erhalten.
 1. Konfigurieren Sie das Modul mit derselben Cell ID wie in Schritt 4.
 
    ![](assets/exploit-google-sheet-functions-2-350x187.png)

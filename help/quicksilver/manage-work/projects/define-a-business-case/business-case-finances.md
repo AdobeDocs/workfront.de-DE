@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '745'
 ht-degree: 2%
 
 ---
@@ -30,20 +30,20 @@ Die folgenden finanziellen Felder des Projekts werden im Geschäftsfall angezeig
  </thead> 
  <tbody> 
   <tr> 
-   <td>Abgestimmt </td> 
-   <td> <p>Zeigt die Ausrichtung des Projekts nach seiner Scorecard an. Ein hoher Prozentwert zeigt an, dass das Projekt gut mit dem Zweck und den Zielen der Organisation abgestimmt ist. <br>Weitere Informationen zur Verwendung von Scorecards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Scorecard erstellen</a>.</p> <p>Dieses Feld wird im Bereich "Zusammenfassung der Geschäftsfälle"angezeigt. </p> </td> 
+   <td>Alignment </td> 
+   <td> <p>Zeigt die Ausrichtung des Projekts nach seiner Scorecard an. Ein hoher Prozentwert zeigt an, dass das Projekt gut mit dem Zweck und den Zielen der Organisation abgestimmt ist. <br>Weitere Informationen zur Verwendung von Scorecards finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Erstellen einer Scorecard</a>.</p> <p>Dieses Feld wird im Bereich "Zusammenfassung der Geschäftsfälle"angezeigt. </p> </td> 
   </tr> 
   <tr> 
    <td>Budgetierte Kosten</td> 
-   <td> <p>Die Gesamtkosten, die bei Projektstart schätzungsweise mit dem Projekt verbunden sind.</p> <p>Die für das Projekt veranschlagten Kosten werden anhand der folgenden Formel berechnet:<br></p> <p><code>Budgeted Cost =&nbsp;Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>Adobe Workfront verwendet die budgetierten Stunden aus dem Ressourcenplaner, um die budgetierten Arbeitskosten zu berechnen.<br>Weitere Informationen zur Berechnung der budgetierten Kosten finden Sie unter <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Berechnete veranschlagte Kosten</a>. </p> <p>Dieses Feld wird im Bereich "Zusammenfassung der Geschäftsfälle"angezeigt.</p> </td> 
+   <td> <p>Die Gesamtkosten, die bei Projektstart schätzungsweise mit dem Projekt verbunden sind.</p> <p>Die für das Projekt veranschlagten Kosten werden anhand der folgenden Formel berechnet:<br></p> <p><code>Budgeted Cost =&nbsp;Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>Adobe Workfront verwendet die budgetierten Stunden aus dem Ressourcenplaner, um die budgetierten Arbeitskosten zu berechnen.<br>Weitere Informationen zur Berechnung der budgetierten Kosten finden Sie unter <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Budgetierte Kosten berechnen</a>. </p> <p>Dieses Feld wird im Bereich "Zusammenfassung der Geschäftsfälle"angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td>Budgetierte Ausgaben</td> 
-   <td> <p>Die veranschlagten Kosten aller Ausgaben für das Projekt. </p> <p>Dies wird anhand der folgenden Formel berechnet:</p> <p><code>Budgeted Expense Cost = SUM(Planned Amount of Expenses on the project) </code></p> <p>Weitere Informationen zur Berechnung der Ausgaben finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Verwalten von Projektausgaben </a>.</p> <p>Dieses Feld wird im Bereich Ausgaben angezeigt.</p> </td> 
+   <td> <p>Die veranschlagten Kosten aller Ausgaben für das Projekt. </p> <p>Dies wird anhand der folgenden Formel berechnet:</p> <p><code>Budgeted Expense Cost = SUM(Planned Amount of Expenses on the project) </code></p> <p>Weitere Informationen zur Berechnung von Ausgaben finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Verwalten von Projektausgaben </a>.</p> <p>Dieses Feld wird im Bereich Ausgaben angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td>Budgetierte Lohnkosten</td> 
-   <td> <p>Die Kosten, die mit den für die Durchführung der Arbeiten am Projekt zugewiesenen Ressourcen verbunden sind.</p> <p>Die für das Projekt veranschlagten Arbeitskosten werden anhand der folgenden Formel berechnet:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code></p> <p>Workfront verwendet die budgetierten Stunden aus dem Ressourcenplaner, um die budgetierten Arbeitskosten zu berechnen.<br>Weitere Informationen zur Berechnung der budgetierten Arbeitskosten finden Sie unter <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Budgetierte Arbeitskosten und budgetierte Stunden für Projekte</a>.</p> <p>Dieses Feld wird im Bereich Ressourcenbudgetierung des Geschäftsfalls angezeigt. </p> </td> 
+   <td> <p>Die Kosten, die mit den für die Durchführung der Arbeiten am Projekt zugewiesenen Ressourcen verbunden sind.</p> <p>Die für das Projekt veranschlagten Arbeitskosten werden anhand der folgenden Formel berechnet:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>Workfront verwendet die budgetierten Stunden aus dem Ressourcenplaner, um die budgetierten Arbeitskosten zu berechnen.<br>Weitere Informationen zur Berechnung der budgetierten Arbeitskosten finden Sie unter <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Budgetierte Arbeitskosten und getierte Arbeitsstunden für Projekte verstehen</a>.</p> <p>Dieses Feld wird im Bereich Ressourcenbudgetierung des Geschäftsfalls angezeigt. </p> </td> 
   </tr> 
   <tr> 
    <td>Geplante Kosten</td> 
@@ -59,7 +59,7 @@ Die folgenden finanziellen Felder des Projekts werden im Geschäftsfall angezeig
   </tr> 
   <tr> 
    <td>Potenzielle Kosten von Risiken</td> 
-   <td> <p>Dies sind die potenziellen Kosten aller Risiken für das Projekt. </p> <p>Dies wird mit der folgenden Formel berechnet:</p> <p><code>Potential Risk = SUM(Potential Cost * Probability of Risk) </code></p> <p>Weitere Informationen zu Risiken für das Projekt finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md" class="MCXref xref">Erstellen und Bearbeiten von Risiken für Projekte</a>.</p> <p>Dieses Feld wird im Bereich "Zusammenfassung der Geschäftsfälle"angezeigt.</p> </td> 
+   <td> <p>Dies sind die potenziellen Kosten aller Risiken für das Projekt. </p> <p>Dies wird mit der folgenden Formel berechnet:</p> <p><code>Potential Risk = SUM(Potential Cost * Probability of Risk) </code></p> <p>Weitere Informationen zu Risiken für das Projekt finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md" class="MCXref xref">Erstellen und Bearbeiten von Risiken für Projekte</a>.</p> <p>Dieses Feld wird im Bereich "Zusammenfassung der Geschäftsfälle"angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td>Potenzielles Risiko</td> 

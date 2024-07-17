@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Den Lastenausgleich über einen Link freigeben
 
-Sie können den Lastenausgleich für andere Benutzer freigeben, für die möglicherweise nicht der Bereich &quot;Ressourcen&quot;verfügbar ist. Informationen zur Verwendung des Workload-Balancers finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Sie können den Lastenausgleich für andere Benutzer freigeben, für die möglicherweise nicht der Bereich &quot;Ressourcen&quot;verfügbar ist. Informationen zur Verwendung des Lastenausgleichs finden Sie unter [Navigieren im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Zugriffsanforderungen
 
@@ -44,11 +44,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      <li> <p>Probleme</p> </li> 
     </ul> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für die Projekte, Aufgaben und Probleme </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für die Projekte, Aufgaben und Probleme </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ Die folgenden Optionen stehen Benutzern zur Verfügung, die den Lastenausgleich 
 * Das Symbol Einstellungen
 * Symbol Zuordnungen anzeigen
 
-  Informationen zur Verwendung dieser Optionen finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  Weitere Informationen zur Verwendung dieser Optionen finden Sie unter [Navigieren im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 * Symbol &quot;Rollenzuweisungen anzeigen&quot;
 
@@ -98,27 +98,27 @@ Der Benutzer, der den freigegebenen Link erhält, kann im Lastenausgleich von di
 Sie benötigen den folgenden Zugriff, um Informationen über einen freigegebenen Link im Arbeitslastausgleich anzuzeigen:
 
 * Eine gültige Adobe Workfront-Lizenz und Sie müssen bei Workfront angemeldet sein.
-* Zeigen Sie mindestens den Zugriff auf die Ressourcenverwaltung auf Ihrer Zugriffsebene an. Informationen zur Gewährung des Zugriffs auf Resource Management finden Sie unter [Zugriff auf Resource Management gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* Zeigen Sie mindestens den Zugriff auf die Ressourcenverwaltung auf Ihrer Zugriffsebene an. Informationen zur Gewährung des Ressourcenverwaltungszugriffs finden Sie unter [Gewähren des Zugriffs auf die Ressourcenverwaltung](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 * Zeigen Sie Berechtigungen für die Projekte, Aufgaben, Probleme und Benutzer an, die im Arbeitslastausgleich angezeigt werden.
 
 ## Freigeben des Workload Balancers für andere Benutzer über einen Link
 
 1. Wechseln Sie zum Lastenausgleich .
 
-   Informationen zum Zugriff auf den Lastenausgleich finden Sie unter [Navigieren Sie zum Lastenausgleich .](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   Informationen zum Zugriff auf den Lastenausgleich finden Sie unter [Navigieren im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 1. (Optional) Führen Sie einen oder mehrere der folgenden Schritte aus:
 
    * Aktualisieren Sie die Zeitraumauswahl.
-   * Klicks **Tag, Woche** oder **Monat** um tägliche, wöchentliche oder monatliche Informationen anzuzeigen.
+   * Klicken Sie auf **Tag, Woche** oder **Monat** , um tägliche, wöchentliche oder monatliche Informationen anzuzeigen.
 
      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
    * Wenden Sie Filter auf die Bereiche Nicht zugewiesene und Zugewiesene Arbeit an.
 
-     Informationen zum Filtern von Informationen im Arbeitslastausgleich finden Sie unter [Filtern von Informationen im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     Informationen zum Filtern von Informationen im Arbeitslastausgleich finden Sie unter [Informationen im Arbeitslastausgleich filtern](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Klicken Sie auf **Link-Symbol** ![](assets/wb-shearable-link-icon-small.png).
+1. Klicken Sie auf das Symbol **Link** ![](assets/wb-shearable-link-icon-small.png).
 
    Dadurch wird der Link zur Zwischenablage hinzugefügt.
 
@@ -127,7 +127,7 @@ Sie benötigen den folgenden Zugriff, um Informationen über einen freigegebenen
    * Fügen Sie ihn in eine E-Mail, eine Chat-Nachricht oder eine andere Anwendung ein und geben Sie ihn für andere Benutzer frei.
    * Fügen Sie ihn zu einem benutzerdefinierten Abschnitt als externe Seite hinzu, fügen Sie den benutzerdefinierten Abschnitt zum Profil eines Benutzers oder zu einer Layout-Vorlage hinzu und geben Sie die Layout-Vorlage für Benutzer, Teams, Vorgangsrollen oder Gruppen frei.
 
-     Informationen zum Erstellen einer externen Seite finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Informationen zum Hinzufügen benutzerdefinierter Abschnitte zu einer Layout-Vorlage finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Informationen zum Erstellen einer externen Seite finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Weitere Informationen zum Hinzufügen benutzerdefinierter Abschnitte zu einer Layout-Vorlage finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >

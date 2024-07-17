@@ -47,9 +47,9 @@ Anstatt diese Benutzer in das Objekt einzuschließen, indem Sie sie ihm zuweisen
 
 ## Überlegungen zum Tagging von Benutzern in Updates
 
-* Benutzer, die in Updates getaggt wurden, müssen in ihrem Profil eine persönliche Benachrichtigung aktivieren, damit sie die E-Mail-Benachrichtigung erhalten. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Benutzer, die in Updates getaggt wurden, müssen in ihrem Profil eine persönliche Benachrichtigung aktivieren, damit sie die E-Mail-Benachrichtigung erhalten. Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-  Informationen zum Hinzufügen von Aktualisierungen zu Workfront-Objekten finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  Informationen zum Hinzufügen von Aktualisierungen zu Workfront-Objekten finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Wenn ein Problem in ein Projekt oder eine Aufgabe konvertiert wird, werden die Aktualisierungen in das neue Projekt oder die neue Aufgabe kopiert, die getaggten Benutzer jedoch nicht. Um das Gespräch fortzusetzen, müssen Sie die Teilnehmer erneut taggen.
 
@@ -81,28 +81,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Tagging anderer Benutzer auf Updates
 
 Sie können andere auf Aktualisierungen wie folgt taggen:
 
-* **Automatisch**: Wenn ein Benutzer einen Thread startet, einen Kommentar hinzufügt oder eine Antwort hinzufügt, wird er automatisch mit Tags versehen und zum Bereich Personen oder Teams des Kommentarfelds hinzugefügt.
-* **Manuell**: Wenn Sie einen Benutzer manuell zum Bereich Personen taggen des Kommentarfelds hinzufügen.
+* **Automatisch**: Wenn ein Benutzer einen Thread startet, einen Kommentar hinzufügt oder eine Antwort hinzufügt, werden diese automatisch mit Tags versehen und dem Bereich &quot;Personen oder Teams taggen&quot;des Kommentarfelds hinzugefügt.
+* **Manuell**: Wenn Sie manuell einen Benutzer zum Bereich Personen taggen des Kommentarfelds hinzufügen.
 
 Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden, wenn Sie einen Kommentar bearbeiten oder darauf antworten.
 
-1. Beginnen Sie mit der Aktualisierung eines Arbeitselements, wie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Als Eigentümer des Kommentars werden Sie automatisch mit Tags versehen und dem Bereich Personen oder Teams des Kommentarfelds hinzugefügt.
+1. Beginnen Sie mit der Aktualisierung eines Arbeitselements, wie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md) beschrieben. Als Eigentümer des Kommentars werden Sie automatisch mit Tags versehen und dem Bereich Personen oder Teams des Kommentarfelds hinzugefügt.
 
    >[!TIP]
    >
    >Der Eigentümer des Kommentars kann seinen eigenen Namen nicht im Bereich &quot;Personen taggen&quot;oder &quot;Teams&quot;des Kommentarfelds sehen.
 
-1. Im **Personen oder Teams taggen** eingeben, den Namen des Benutzers oder Teams eingeben, den Sie einbeziehen möchten, und auf den Namen klicken, wenn er in der Dropdown-Liste angezeigt wird.
+1. Beginnen Sie im Feld **Personen oder Teams taggen** mit der Eingabe des Namens des Benutzers oder Teams, den Sie einbeziehen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    Oder
 
-   Geben Sie das @-Symbol in die **Kommentar schreiben** eingeben, den Namen des Benutzers oder Teams eingeben, den Sie in die Aktualisierung aufnehmen möchten, und dann auf den Namen klicken, wenn er in der Dropdown-Liste angezeigt wird.
+   Geben Sie das @-Symbol in den Bereich **Kommentar schreiben** ein, beginnen Sie mit der Eingabe des Namens des Benutzers oder Teams, den Sie in die Aktualisierung aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!TIP]
    > 
@@ -110,24 +110,24 @@ Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden,
    > 
    >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Taggen in einer Aktualisierung angezeigt werden können.
    > 
-   >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Zugriffs für Benutzer](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    ![Benutzer taggen](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (Optional) Um die Aktualisierung privat zu machen, aktivieren Sie **Privatperson in meinem Unternehmen** in der rechten unteren Ecke des Aktualisierungsfelds. Dadurch wird die Aktualisierung nur für Benutzer in Ihrem Unternehmen sichtbar. Die **Privatperson in meinem Unternehmen** ist nur verfügbar, wenn in Ihrem Workfront-Profil ein Unternehmen angegeben ist.
+1. (Optional) Um das Update privat zu machen, aktivieren Sie in der rechten unteren Ecke des Aktualisierungsfelds die Option **Privat für mein Unternehmen** . Dadurch wird die Aktualisierung nur für Benutzer in Ihrem Unternehmen sichtbar. Die Option &quot;**Für mein Unternehmen privat**&quot; ist nur verfügbar, wenn in Ihrem Workfront-Profil ein Unternehmen angegeben ist.
 
    >[!NOTE]
    >
    >* Diese Option wird nur angezeigt, wenn der Benutzer mit einem Unternehmen verknüpft ist.
    >* Mit Tags versehene Benutzer außerhalb des Unternehmens können weiterhin eine In-App-Benachrichtigung oder E-Mail erhalten, auch wenn sie die privaten Kommentare nicht auf der Registerkarte Updates sehen. Es wird empfohlen, keine externen Benutzer bei einer Aktualisierung zu taggen, wenn Sie die Informationen nicht für sie freigeben möchten.
 
-1. (Optional) Wiederholen Sie Schritt 2, um mehrere Benutzer und Teams hinzuzufügen. <!--insure this stays accurate-->
+1. (Optional) Wiederholen Sie Schritt 2 <!--insure this stays accurate-->, um mehrere Benutzer und Teams hinzuzufügen.
 
    >[!NOTE]
    >
-   >Alle im Feld &quot;Personen oder Teams taggen&quot;aufgelisteten Benutzer und Teammitglieder erhalten eine In-App-Benachrichtigung zu der Aktualisierung und erhalten je nach Konfiguration ihrer E-Mail-Benachrichtigungseinstellungen eine E-Mail. Benutzer, die sich in einem Kommentar oder einer Antwort taggen, erhalten eine Benachrichtigung zu diesem Kommentar oder dieser Antwort und können ihren Namen für den Rest des Threads als Mitglied des Threads in der Liste sehen. Sie erhalten jedoch keine weitere Benachrichtigung, es sei denn, sie taggen sich selbst. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) und [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >Alle im Feld &quot;Personen oder Teams taggen&quot;aufgelisteten Benutzer und Teammitglieder erhalten eine In-App-Benachrichtigung zu der Aktualisierung und erhalten je nach Konfiguration ihrer E-Mail-Benachrichtigungseinstellungen eine E-Mail. Benutzer, die sich in einem Kommentar oder einer Antwort taggen, erhalten eine Benachrichtigung zu diesem Kommentar oder dieser Antwort und können ihren Namen für den Rest des Threads als Mitglied des Threads in der Liste sehen. Sie erhalten jedoch keine weitere Benachrichtigung, es sei denn, sie taggen sich selbst. Weitere Informationen finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) und [Konfigurieren von Ereignisbenachrichtigungen für alle Benutzer im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-1. Klicks **Einsenden**.\
+1. Klicken Sie auf **Senden**.\
    Benutzer, die in der Aktualisierung enthalten sind, erhalten automatisch die Berechtigung zum Anzeigen des Objekts und können Aktualisierungen anzeigen und auf diese reagieren.
 
    Die Namen der getaggten Entitäten werden neben ihren Avataren bis zu zwei Entitäten angezeigt. Wenn mehr als zwei Entitäten mit Tags versehen sind, wird neben einer Reihe weiterer Entitäten der Name der ersten angezeigt.
@@ -136,9 +136,9 @@ Sie können auch Benutzer entfernen, die versehentlich mit Tags versehen wurden,
 
    Wenn Sie im Kommentartext mit Tags versehen sind, wird Ihr Name in diesen Kommentaren hervorgehoben.
 
-   Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) in der oberen rechten Ecke des Kommentars klicken Sie auf **Bearbeiten**. Entfernen Sie alle getaggten Benutzer und klicken Sie auf **Einsenden**.
+1. (Optional) Klicken Sie in der oberen rechten Ecke des Kommentars auf das Menü **Mehr** und dann auf **Bearbeiten**. ![](assets/more-menu.png) Entfernen Sie einen der getaggten Benutzer und klicken Sie dann auf **Senden**.
 
    >[!IMPORTANT]
    >
@@ -193,7 +193,7 @@ You can manually tag users in the legacy Updates section.
    ![](assets/tagging-transparency-350x192.png)
 -->
 
-Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 

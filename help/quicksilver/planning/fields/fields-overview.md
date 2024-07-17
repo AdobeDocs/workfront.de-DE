@@ -35,7 +35,7 @@ Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebe
 
 * Sie können Felder nur aus der Tabellenansicht einer Seite vom Typ Datensatz erstellen. Felder werden in der Tabellenansicht als Spalten angezeigt. Alle Felder, die mit einem Datensatztyp verknüpft sind, werden ebenfalls auf der Datensatzseite angezeigt.
 
-  Informationen zum Verwalten von Tabellenspalten (oder Datensatzfeldern) finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Informationen zum Verwalten von Tabellenspalten (oder Datensatzfeldern) finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
   Weitere Informationen zum Verwalten von Feldern finden Sie in den folgenden Artikeln:
 
@@ -58,7 +58,7 @@ Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebe
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        Weitere Informationen zum Verbinden von Datensatztypen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+        Weitere Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
       * Durch Import von Datensatztypen mithilfe einer Excel- oder CSV-Datei. Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
@@ -83,7 +83,7 @@ Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebe
 
 * Auf Workfront-Planungsfelder kann nicht über Workfront zugegriffen werden.
 
-* Auf Workfront-Felder kann über die Workfront-Planung nur zugegriffen werden, wenn Sie Datensatztypen mit Workfront-Objekttypen verbinden und verknüpfte oder Suchfelder aus Workfront-Objekten hinzufügen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Auf Workfront-Felder kann über die Workfront-Planung nur zugegriffen werden, wenn Sie Datensatztypen mit Workfront-Objekttypen verbinden und verknüpfte oder Suchfelder aus Workfront-Objekten hinzufügen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 * Sie können die Einstellungen für die Felder, die Sie oder ein anderer Benutzer erstellt haben, anzeigen und aktualisieren, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem das Feld gehört.
 

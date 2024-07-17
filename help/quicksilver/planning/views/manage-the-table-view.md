@@ -92,7 +92,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Tabellenansicht verwalten {#manage-a-table-view}
 
@@ -102,7 +102,7 @@ Bei der Erstellung einer Tabellenansicht werden alle Datensätze des ausgewählt
 
 So verwalten Sie eine Tabellenansicht:
 
-1. Erstellen Sie eine Tabellenansicht, wie im Artikel beschrieben [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
    ![](assets/table-view-example.png)
 
@@ -116,7 +116,7 @@ So verwalten Sie eine Tabellenansicht:
    * [Zeilen (oder Datensätze)](#add-rows-or-records)
    * [Filter](#add-filters)
    * [Gruppierung](#add-groupings)
-   * [Sortieren](#add-a-sort)
+   * [sortieren](#add-a-sort)
 
 
 ### Spalten (oder Felder) hinzufügen {#add-columns}
@@ -129,10 +129,10 @@ Das Hinzufügen von Spalten zu einer Ansicht entspricht dem Hinzufügen von Feld
 
 Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufügen.
 
-1. Gehen Sie zu einer Seite vom Typ Datensatz und wählen Sie eine **Verzeichnis** Ansicht aus dem Dropdown-Menü &quot;Ansicht&quot;aus.
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und wählen Sie eine Ansicht vom Typ **Tabelle** aus dem Dropdown-Menü &quot;Ansicht&quot;.
 
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. Fügen Sie Felder (oder Spalten) hinzu, wie im Artikel beschrieben [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+1. Beginnen Sie mit dem Hinzufügen von Feldern (oder Spalten), wie im Artikel [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md) beschrieben.
 
    Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen und als neue Felder auf der Datensatzseite hinzugefügt werden.
 
@@ -140,7 +140,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    * Ziehen Sie die Spaltenüberschrift in den Arbeitsbereich und legen Sie sie an der gewünschten Position ab. Die Spalte, die Sie kurz verschoben haben, wird mit blauem Hintergrund angezeigt, bis Sie weitere Anpassungen an der Tabelle vornehmen.
 
-   * Klicks **Felder** Ziehen Sie die Felder in die Symbolleiste der Tabelle und legen Sie sie in der gewünschten Reihenfolge ab. Klicken Sie dann außerhalb der **Sichtbarkeit und Reihenfolge der Felder** zum Schließen.
+   * Klicken Sie in der Symbolleiste der Tabelle auf **Felder** , ziehen Sie die Felder in der gewünschten Reihenfolge per Drag-and-Drop und klicken Sie dann außerhalb des Felds **Sichtbarkeit der Felder und Reihenfolge** , um sie zu schließen.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -149,21 +149,21 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
      >
      >* Das Feld Name ist standardmäßig immer das erste Feld in der Tabellenansicht. Dies gilt als primäres Feld.
      >
-     >* Sie können das Feld Name nicht an eine andere Position verschieben, es sei denn, Sie bestimmen ein anderes Feld als primäres Feld. Weitere Informationen erhalten Sie, wenn Sie mit Schritt 4 fortfahren. <!--accurate?-->
+     >* Sie können das Feld Name nicht an eine andere Position verschieben, es sei denn, Sie bestimmen ein anderes Feld als primäres Feld. Weitere Informationen finden Sie in Schritt 4. <!--accurate?-->
      >
      >
 
-   * Ersetzen Sie das Feld in der ersten Spalte durch ein anderes Feld, indem Sie das primäre Feld ändern. Weitere Informationen erhalten Sie, wenn Sie mit Schritt 4 fortfahren. <!--accurate?-->
+   * Ersetzen Sie das Feld in der ersten Spalte durch ein anderes Feld, indem Sie das primäre Feld ändern. Weitere Informationen finden Sie in Schritt 4. <!--accurate?-->
 
-1. (Optional) Bewegen Sie den Mauszeiger über einen Feldnamen in der Spaltenüberschrift eines Felds, das nicht in der ersten Spalte der Tabelle angezeigt wird, klicken Sie auf den Pfeil nach unten rechts neben dem Feldnamen und klicken Sie dann auf **Als primäres Feld festlegen**.
+1. (Optional) Bewegen Sie den Mauszeiger über einen Feldnamen in der Spaltenüberschrift eines Felds, das nicht in der ersten Spalte der Tabelle angezeigt wird, klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Feldnamen und klicken Sie dann auf **Als primäres Feld festlegen** .
 
    ![](assets/set-as-primary-field-option-table-view.png)
 
-1. Klicks **Feld festlegen** zur Bestätigung.
+1. Klicken Sie zur Bestätigung auf **Feld festlegen** .
 
    Das Feld wird zu einem primären Feld, was bedeutet, dass es als erste Spalte der Tabellenansicht angezeigt wird. Das vorherige primäre Feld wechselt zur zweiten Spalte.
 
-   Primäre Felder werden zum Titel des Datensatzes und werden im Kopfzeilenbereich der Datensatzseite und überall dort angezeigt, wo die Datensätze angezeigt werden. Beispielsweise wird der Datensatztitel in verbundenen Feldern und allen Ansichten angezeigt. Weitere Informationen zu Primärfeldern finden Sie unter [Primäre Feldübersicht](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Primäre Felder werden zum Titel des Datensatzes und werden im Kopfzeilenbereich der Datensatzseite und überall dort angezeigt, wo die Datensätze angezeigt werden. Beispielsweise wird der Datensatztitel in verbundenen Feldern und allen Ansichten angezeigt. Weitere Informationen zu Primärfeldern finden Sie unter [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Klicken Sie auf die Spaltentrennlinien und ziehen Sie sie an die gewünschte Stelle, um die Spaltenbreite zu vergrößern.
 
@@ -171,22 +171,22 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >
    >Die Änderungen an der Spaltenbreite und -reihenfolge sind dauerhaft und für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen.
 
-1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift, klicken Sie dann auf den nach unten zeigenden Pfeil und klicken Sie dann auf **Feld ausblenden**
+1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift, klicken Sie dann auf den nach unten zeigenden Pfeil und klicken Sie dann auf **Feld ausblenden** .
 
    Oder
 
-   Klicks **Felder** in der Tabellen-Symbolleiste und deaktivieren Sie den Umschalter, der den auszublendenden Feldern (oder Spalten) zugeordnet ist. Die **Sichtbarkeit und Reihenfolge der Felder** angezeigt.
+   Klicken Sie in der Symbolleiste der Tabelle auf **Felder** und deaktivieren Sie den Umschalter, der den auszublendenden Feldern (oder Spalten) zugeordnet ist. Das Feld **Sichtbarkeit und Reihenfolge der Felder** wird angezeigt.
 
    >[!TIP]
    >
    >Die Anzahl der ausgeblendeten Felder wird links neben dem Symbol Felder in der Symbolleiste angezeigt.
 
 
-1. Klicken Sie auf **Felder** und aktivieren Sie den Umschalter, der den Feldern zugeordnet ist, die in den Spalten der Tabelle angezeigt werden sollen. Alle Felder werden standardmäßig angezeigt.
+1. Klicken Sie auf das Symbol **Felder** und aktivieren Sie den Umschalter für die Felder, die in den Spalten der Tabelle angezeigt werden sollen. Alle Felder werden standardmäßig angezeigt.
 
 1. Führen Sie die folgenden Schritte aus, um schnell nach Datensätzen zu suchen, die einem Keyword entsprechen:
 
-   1. Klicken Sie auf **Suche** icon ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Suchbegriffs, das mit einem Feld eines Datensatzes verknüpft ist, das auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt und das Feld mit der richtigen Übereinstimmung wird hervorgehoben.
+   1. Klicken Sie auf das Symbol **Suchen** ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Suchbegriffs, das mit einem Feld eines Datensatzes verknüpft ist, das auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt und das Feld mit der richtigen Übereinstimmung wird hervorgehoben.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -194,11 +194,11 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
       Sie können keine Suchbegriffe verwenden, die Feldern zugeordnet sind, die in der Tabellenansicht ausgeblendet sind.
 
-   1. Presse **Eingabe** auf der Tastatur, um zum nächsten gefundenen Feld zu wechseln.
+   1. Drücken Sie auf **Enter** auf Ihrer Tastatur, um zum nächsten gefundenen Feld zu wechseln.
 
    1. (Optional) Wenn mehrere Übereinstimmungen vorliegen, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
 
-   1. Klicken Sie auf **x** in das Suchfeld ein, um den Suchbegriff zu löschen.
+   1. Klicken Sie im Suchfeld auf das Symbol **x** , um den Suchbegriff zu löschen.
 
 
 ### Zeilen (oder Datensätze) hinzufügen {#add-rows}
@@ -207,18 +207,18 @@ Die Zeilen einer Tabellenansicht zeigen einzelne Datensätze des ausgewählten D
 
 Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp haben.
 
-1. Gehen Sie zu einer Seite vom Typ Datensatz und wählen Sie eine **Verzeichnis** Ansicht aus dem Dropdown-Menü &quot;Ansicht&quot;aus.
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und wählen Sie eine Ansicht vom Typ **Tabelle** aus dem Dropdown-Menü &quot;Ansicht&quot;.
 
 <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. Fügen Sie Einträge (oder Zeilen) hinzu, wie im Artikel beschrieben. [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md).
+1. Beginnen Sie mit dem Hinzufügen von Datensätzen (oder Zeilen), wie im Artikel [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md) beschrieben.
 
    Die Datensätze, die Sie in der Tabellenansicht hinzufügen, werden sofort gespeichert und sind für alle Benutzer sichtbar, die über Ansicht oder höhere Berechtigungen für den Arbeitsbereich verfügen.
 
-1. (Optional) Fügen Sie jedem Datensatz eine Miniaturansicht hinzu und klicken Sie auf **Felder** in der oberen rechten Ecke der Tabelle und wählen Sie dann den Umschalter für **Miniatur** -Feld, um es links neben dem primären Feld anzuzeigen. Die Auswahl ist standardmäßig aufgehoben.
+1. (Optional) Fügen Sie jedem Datensatz eine Miniaturansicht hinzu, klicken Sie in der oberen rechten Ecke der Tabelle auf **Felder** und wählen Sie dann den Umschalter für das Feld **Miniatur** aus, um es links neben dem primären Feld anzuzeigen. Die Auswahl ist standardmäßig aufgehoben.
 
    Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Optional) Wählen Sie einen oder mehrere Datensätze in einer Zeile aus, ziehen Sie die **handle** icon ![](assets/handle-icon.png) auf der linken Seite des Datensatzes, um die Zeilen neu anzuordnen.
+1. (Optional) Wählen Sie einen oder mehrere Datensätze in einer Zeile aus und ziehen Sie dann das Symbol **handle** ![](assets/handle-icon.png) auf die linke Seite des Datensatzes, um die Zeilen neu anzuordnen.
 
    >[!NOTE]
    >
@@ -258,13 +258,13 @@ Beachten Sie Folgendes beim Arbeiten mit Filtern in der Tabellenansicht:
 
 So fügen Sie einer Tabellenansicht einen Filter hinzu:
 
-1. Erstellen Sie eine Tabellenansicht für eine Seite vom Typ Datensatz, wie im Artikel beschrieben [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
-1. Wählen Sie eine Tabellenansicht aus und klicken Sie auf **Filter** in der oberen rechten Ecke der Tabelle.
-1. Klicks **Bedingung hinzufügen** und fügen Sie die folgenden Informationen hinzu:
+1. Erstellen Sie eine Tabellenansicht für eine Seite vom Typ &quot;Datensatz&quot;, wie im Artikel [Ansichten des Datensatzes verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Wählen Sie eine Tabellenansicht aus und klicken Sie dann oben rechts in der Tabelle auf **Filter** .
+1. Klicken Sie auf **Bedingung hinzufügen** und fügen Sie die folgenden Informationen hinzu:
 
-   * **Feld auswählen** nach dem Sie filtern möchten <!-- the tip below might change-->
+   * **Wählen Sie ein Feld** aus, nach dem Sie <!-- the tip below might change--> filtern möchten
 
-   * **Option auswählen** (oder ein Filter-Modifikator) zum Definieren der Bedingungen, die das Feld erfüllen muss
+   * **Wählen Sie eine Option** (oder einen Filter-Modifikator) aus, um festzulegen, welche Art von Bedingung das Feld erfüllen muss
 
      Die nachstehende Tabelle zeigt die verfügbaren Modifikatoren für jeden Feldtyp.
 
@@ -336,16 +336,16 @@ So fügen Sie einer Tabellenansicht einen Filter hinzu:
 
    Es gibt keine Beschränkung für die Anzahl der Filterbedingungen, die Sie hinzufügen können.
 
-1. (Optional) Klicken Sie auf **Bedingung hinzufügen** um eine weitere Filteroption hinzuzufügen und die oben beschriebenen Schritte zu wiederholen. Die Anzahl der angewendeten Filter wird links neben dem Symbol Filter angezeigt.
+1. (Optional) Klicken Sie auf **Bedingung hinzufügen** , um eine weitere Filteroption hinzuzufügen und die oben genannten Schritte zu wiederholen. Die Anzahl der angewendeten Filter wird links neben dem Symbol Filter angezeigt.
 1. Klicken Sie auf die folgenden Operatoren, um anzugeben, wie die Filterbedingungen verbunden werden und angewendet werden sollen:
 
-   * **und**: Alle angegebenen Bedingungen müssen erfüllt sein.
+   * **And**: Alle angegebenen Bedingungen müssen erfüllt sein.
    * **Oder**: Jede der angegebenen Bedingungen muss erfüllt sein. Dies ist die Standardoption.
 
    Die Liste der Datensätze wird automatisch gefiltert.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Optional) Klicken Sie auf **Filter** und klicken Sie dann auf **x** -Symbol, um einen Filter zu entfernen. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Optional) Klicken Sie auf **Filter** und dann auf das Symbol **x** , um einen Filter zu entfernen. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Gruppierungen hinzufügen {#add-groupings}
 
@@ -372,29 +372,29 @@ Beachten Sie Folgendes:
 
 So fügen Sie eine Gruppierung hinzu:
 
-1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel beschrieben [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicks **Gruppierung** in der oberen rechten Ecke der Tabellenansicht.
+1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Klicken Sie oben rechts in der Tabellenansicht auf **Gruppierung** .
 
    ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
-1. Klicken Sie auf eines der vorgeschlagenen Felder oder auf **Andere Felder auswählen**, suchen Sie nach einem anderen Feld und klicken Sie darauf, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf eines der vorgeschlagenen Felder oder auf **Ein anderes Feld auswählen**, suchen Sie nach einem anderen Feld und klicken Sie dann auf dieses Feld, wenn es in der Liste angezeigt wird.
 
    Die Gruppierung wird automatisch auf die Tabelle angewendet und Datensätze werden unter der Trennlinie der Gruppierung angezeigt.
 
-1. (Optional) Klicken Sie auf **Bedingung hinzufügen** und wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
+1. (Optional) Klicken Sie auf **Bedingung hinzufügen** und wiederholen Sie die oben genannten Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 
    Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
 
    ![](assets/grouping-applied-in-table-view.png)
 
-1. (Optional) Innerhalb des **Gruppiert Datensätze nach** und klicken Sie auf das **x** rechts neben einem Feld, das zum Entfernen der Gruppierung ausgewählt wurde
+1. (Optional) Klicken Sie im Feld **Datensatz gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen.
 
    Oder
 
-   Klicks **Alle löschen** um alle Felder zu entfernen.
+   Klicken Sie auf **Alle löschen** , um alle Felder zu entfernen.
 
-1. Klicken Sie außerhalb der **Gruppiert Datensätze nach** zum Schließen.
-1. (Optional) Klicken Sie auf **+ Neuer Datensatz** am Ende jeder Gruppierung, um neue Datensätze hinzuzufügen, und aktualisieren Sie dann Ihre Seite, um den neuen Datensatz zur entsprechenden Gruppierung hinzuzufügen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. Klicken Sie auf außerhalb des Felds **Gruppeneinträge nach** , um sie zu schließen.
+1. (Optional) Klicken Sie am Ende einer Gruppierung auf **+ Neuer Datensatz** , um neue Datensätze hinzuzufügen. Aktualisieren Sie dann Ihre Seite, um den neuen Datensatz zur entsprechenden Gruppierung hinzuzufügen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Sortierung hinzufügen {#sort-information}
 
@@ -425,16 +425,16 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht Folgendes:
 
 * Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Sortierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der Art referenzieren, die Sie für den Aktivitäts-Record-Typ erstellen.
 
-Zum Sortieren <!--ungrouped (add this when sorting for groupings will be available--> -Einträge, führen Sie folgende Schritte aus:
+Gehen Sie wie folgt vor, um <!--ungrouped (add this when sorting for groupings will be available--> -Datensätze zu sortieren:
 
-1. Erstellen Sie eine Tabellenansicht, wie im Artikel beschrieben [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicken Sie auf **Sortieren** icon ![](assets/sort-icon.png) in der oberen rechten Ecke der Tabelle
+1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Klicken Sie oben rechts in der Tabelle auf das Symbol **Sortieren** ![](assets/sort-icon.png) .
 
    Oder
 
-   Bewegen Sie den Mauszeiger über den Namen einer Spalte in der Tabellenansicht, klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Spaltenüberschriftsnamen und klicken Sie dann auf **Nach diesem Feld sortieren**. Das Feld wird als Sortierungsauswahl im Sortiersymbol in der oberen rechten Ecke der Tabellenansicht hinzugefügt.
+   Bewegen Sie den Mauszeiger über den Namen einer Spalte in der Tabellenansicht, klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Spaltenüberschriftnamen und klicken Sie dann auf **Nach diesem Feld sortieren**. Das Feld wird als Sortierungsauswahl im Sortiersymbol in der oberen rechten Ecke der Tabellenansicht hinzugefügt.
 
-1. (Bedingt) Im **Sortieren von Datensätzen nach** auf eines der vorgeschlagenen Felder klicken oder auf **Andere Felder auswählen** und suchen Sie nach einem anderen Feld und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
+1. (Bedingt) Klicken Sie im Feld **Sortieren von Datensätzen nach** auf eines der vorgeschlagenen Felder oder klicken Sie auf **Wählen Sie ein anderes Feld** und suchen Sie nach einem anderen Feld. Klicken Sie dann auf dieses Feld, wenn es in der Liste angezeigt wird.
 
    Die Sortierung wird automatisch auf die Tabellenansicht angewendet und die Datensätze werden nach den von Ihnen ausgewählten Kriterien sortiert angezeigt.
 
@@ -444,13 +444,13 @@ Zum Sortieren <!--ungrouped (add this when sorting for groupings will be availab
 
    Die Anzahl der Felder, nach denen Sie sortieren möchten, wird links neben dem Symbol Sortieren in der oberen rechten Ecke der Symbolleiste angezeigt. Sie können nur Felder auswählen, die in den Spalten der Tabellenansicht angezeigt werden.
 
-1. (Optional) Im **Sortieren von Datensätzen nach** und klicken Sie auf das **x** Symbol rechts neben einem Sortierfeld zum Entfernen der Sortierung
+1. (Optional) Klicken Sie im Feld **Sortieren von Datensätzen nach** auf das Symbol **x** rechts neben einem Sortierfeld, um die Sortierung zu entfernen.
 
    Oder
 
-   Klicks **Alle löschen** , um alle Felder aus der Sortierung zu entfernen.
+   Klicken Sie auf **Alle löschen** , um alle Felder aus der Sortierung zu entfernen.
 
-1. Klicken Sie außerhalb der **Sortieren von Datensätzen nach** zum Schließen.
+1. Klicken Sie außerhalb des Felds **Sortieren von Datensätzen nach** , um sie zu schließen.
 
    ![](assets/sorting-in-table-view.png)
 

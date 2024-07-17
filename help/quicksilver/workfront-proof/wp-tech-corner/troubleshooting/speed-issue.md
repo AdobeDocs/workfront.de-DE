@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Geschwindigkeitsprobleme in [!DNL Workfront Proof]
-description: Auf dieser Hilfeseite können Sie feststellen, ob bei der Verwendung von [!DNL Workfront Proof] mit Ihrem ISP in Verbindung stehen oder [!DNL Workfront Proof]des Inhaltsbereitstellungsnetzwerks.
+description: Auf dieser Hilfeseite können Sie feststellen, ob bei der Verwendung von [!DNL Workfront Proof] auftretende Geschwindigkeitsprobleme mit Ihrem ISP oder dem Inhaltsbereitstellungsnetzwerk von [!DNL Workfront Proof] in Zusammenhang stehen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
-Auf dieser Hilfeseite können Sie feststellen, ob bei der Verwendung von [!DNL Workfront Proof] mit Ihrem ISP in Verbindung stehen oder [!DNL Workfront Proof]des Inhaltsbereitstellungsnetzwerks.
+Auf dieser Hilfeseite können Sie feststellen, ob bei der Verwendung von [!DNL Workfront Proof] auftretende Geschwindigkeitsprobleme mit Ihrem ISP oder dem Inhaltsbereitstellungsnetzwerk von [!DNL Workfront Proof] in Zusammenhang stehen.
 
-Geschwindigkeitsprobleme sind in der Regel auf die lokale ISP-Verbindung oder die Einrichtung des lokalen Internet-Zugangs zurückzuführen (z. B. wo ein Proxy-Server verwendet wird) und stehen daher leider außerhalb der Kontrolle über [!DNL Workfront Proof].
+Geschwindigkeitsprobleme sind in der Regel auf die lokale ISP-Verbindung oder die Einrichtung des lokalen Internet-Zugriffs zurückzuführen (z. B. wo ein Proxy-Server verwendet wird) und stehen daher leider außerhalb der Kontrolle von [!DNL Workfront Proof].
 
 Es gibt jedoch einige Schritte, die Sie unternehmen können, um Ihre Verbindungsgeschwindigkeit zu überprüfen, wodurch die Ursache der Probleme, die Sie erleben, ermittelt werden kann. Alle diese Schritte sind für die Fehlerbehebung gleichermaßen wichtig, und wir möchten Sie ermutigen, sich die Zeit zu nehmen, Informationen über alle aufgelisteten Schritte zu sammeln, um eine möglichst genaue Diagnose des Problems zu gewährleisten.
 
@@ -31,13 +31,13 @@ Wenn Sie alle Details erfasst haben, empfehlen wir Ihnen, sich mit Ihrer lokalen
 
 ## Festlegen, welcher Teil des Systems langsam ist
 
-Wenn Sie [!DNL Workfront Proof]können Sie mit dem Dashboard arbeiten, z. B. mit der Verwaltung von Ordnerinhalten und Benutzern oder mit der [!DNL Workfront Proof] Betrachter: Durchführung einer Testversand-Überprüfung, Überprüfung der bereits abgegebenen Kommentare usw.
+Wenn Sie [!DNL Workfront Proof] verwenden, arbeiten Sie möglicherweise mit dem Dashboard, z. B. mit der Verwaltung von Ordnerinhalten und Benutzern, oder mit dem Viewer [!DNL Workfront Proof]: Durchführen einer Überprüfung des Testversands, Überprüfen der bereits abgegebenen Kommentare usw.
 
-Die Ermittlung des genauen Teils des Systems ist ein erster Schritt zur Fehlerbehebung bei Geschwindigkeitsproblemen. Berichtszeitpunkt [!DNL Workfront Proof] Da es langsam ist, beschreiben Sie Folgendes:
+Die Ermittlung des genauen Teils des Systems ist ein erster Schritt zur Fehlerbehebung bei Geschwindigkeitsproblemen. Wenn Sie [!DNL Workfront Proof] als langsam melden, beschreiben Sie Folgendes:
 
 * Sind Sie auf anderen Webseiten langsam?
-* Tritt das Problem im Dashboard auf oder [!DNL Workfront Proof] Betrachter?
-* Welcher genaue Teil des Systems ist langsam? (z. B. Verarbeitung eines neuen Testversands oder Öffnen eines Kommentars in [!DNL Workfront Proof] Viewer)
+* Tritt das Problem im Dashboard oder im [!DNL Workfront Proof] Viewer auf?
+* Welcher genaue Teil des Systems ist langsam? (z. B. Verarbeitung eines neuen Testversands oder Öffnen eines Kommentars im [!DNL Workfront Proof] Viewer)
 
 ## Ausführen von Traceroute- und Ping-Tests
 
@@ -45,10 +45,10 @@ Wenn Leistungsprobleme auftreten, ist es wichtig, den traceroute -Befehl auszuf�
 
 1. Geben Sie einen der folgenden Werte ein und warten Sie, bis das Tracerout abgeschlossen ist:
 
-   * Windows: **tracert app.proofhq.com**
+   * Windows: **track app.proofhq.com**
    * Mac/Linux: **traceroute app.proofhq.com**
 
-1. (Nur Windows) Typ **ping app.proofhq.com**.
+1. (Nur Windows) Geben Sie **ping app.proofhq.com** ein.
 1. Wenn der Ping abgeschlossen ist, klicken Sie mit der rechten Maustaste in die Eingabeaufforderung und wählen Sie Alle aus.
 1. Kopieren Sie die Ergebnisse und fügen Sie sie in die Antwort auf Ihre E-Mail ein.
 Stellen Sie sicher, dass Sie die Fertigstellung von Traceroute und Ping zulassen, bevor Sie die Ergebnisse an das Supportteam senden.

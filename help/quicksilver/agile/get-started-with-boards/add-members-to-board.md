@@ -28,8 +28,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -38,34 +38,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Mitglieder zu einer Pinnwand hinzufügen
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe] Workfront, und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
-1. Erstellen Sie eine neue Pinnwand oder bearbeiten Sie eine vorhandene Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken Sie auf **[!UICONTROL Mitglied hinzufügen]** icon ![Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
-1. Im **[!UICONTROL Mitglieder hinzufügen]** einen Namen eingeben, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe] Workfront und klicken Sie dann auf **[!UICONTROL Pinnwände]**.![](assets/main-menu-icon.png)
+1. Erstellen Sie eine neue Pinnwand oder bearbeiten Sie eine vorhandene Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie auf das Symbol **[!UICONTROL Mitglied hinzufügen]** ![Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
+1. Geben Sie im Feld **[!UICONTROL Mitglieder hinzufügen]** einen Namen ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
    Sie können ein einzelnes Mitglied oder ein Team auswählen. Wenn Sie ein Team auswählen, wird das Team selbst zum Forum hinzugefügt.
 
    >[!NOTE]
    >
-   >Ein einzelner Benutzer muss über die **[!UICONTROL Ansicht]** oder **[!UICONTROL Bearbeiten]** -Option in ihrer Zugriffsebene für Teams festgelegt ist, oder sie können die Pinnwand nicht anzeigen.
+   >Einem einzelnen Benutzer muss die Option **[!UICONTROL Ansicht]** oder **[!UICONTROL Bearbeiten]** in seiner Zugriffsebene für Teams festgelegt sein, andernfalls kann er die Pinnwand nicht anzeigen.
 
 
    ![Mitglieder zur Pinnwand hinzufügen](assets/boards-add-members.png)
 
 ## Entfernen von Elementen aus einer Pinnwand
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe] Workfront, und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
-1. Erstellen Sie eine neue Pinnwand oder bearbeiten Sie eine vorhandene Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken Sie auf **[!UICONTROL Mitglied hinzufügen]** icon ![Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
-1. Im **[!UICONTROL Mitglieder hinzufügen]** Klicken Sie auf das X neben dem Namen einer Person oder eines Teams, um sie aus der Pinnwand zu entfernen.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe] Workfront und klicken Sie dann auf **[!UICONTROL Pinnwände]**.![](assets/main-menu-icon.png)
+1. Erstellen Sie eine neue Pinnwand oder bearbeiten Sie eine vorhandene Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie auf das Symbol **[!UICONTROL Mitglied hinzufügen]** ![Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
+1. Klicken Sie im Feld **[!UICONTROL Mitglieder hinzufügen]** auf das X neben einem Personen- oder Teamnamen, um sie aus der Pinnwand zu entfernen.
 
-   ![Element aus Pinnwand entfernen](assets/boards-remove-member-from-board-350x367.png)
+   ![Mitglied aus Pinnwand entfernen](assets/boards-remove-member-from-board-350x367.png)
 
-   Wenn Sie ein Mitglied aus einer Pinnwand entfernen, werden diese nicht aus den Karten entfernt, denen es zugewiesen ist. Bei verbundenen Karten werden die Zuweisungen auch auf der Seite [!DNL Workfront] Aufgabe oder Problem.
+   Wenn Sie ein Mitglied aus einer Pinnwand entfernen, werden diese nicht aus den Karten entfernt, denen es zugewiesen ist. Bei verbundenen Karten werden die Zuweisungen auch bei der Aufgabe bzw. dem Problem [!DNL Workfront] aktualisiert.
 
    Mitglieder werden nur aus diesem Gremium entfernt. Sie werden nicht aus anderen Pinnwänden entfernt, denen sie angehören.
 

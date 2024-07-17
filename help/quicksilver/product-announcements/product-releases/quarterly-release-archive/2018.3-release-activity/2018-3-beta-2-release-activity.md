@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta 2"(Version 2)
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 1. August 2018 in der Vorschau-Umgebung verfügbar. Die Veröffentlichung von Proofing-Verbesserungen mit Beta 2 wird am Mittwoch, den 18. Juli in der Vorschau-Umgebung verfügbar sein. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Beta 2-Release-Aktivität 2018.3
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 1. August 2018 in der Vorschau-Umgebung verfügbar. Verbesserungen der Testversand-Veröffentlichung mit Beta 2 werden am Mittwoch, 18. Juli in der Vorschau-Umgebung verfügbar sein. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta 2&quot;(Version 2)
+# Beta 2-Release-Aktivität 2018.3
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit Beta-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 1. August 2018 in der Vorschau-Umgebung verfügbar. Die Veröffentlichung von Proofing-Verbesserungen mit Beta 2 wird am Mittwoch, den 18. Juli in der Vorschau-Umgebung verfügbar sein. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 1. August 2018 in der Vorschau-Umgebung verfügbar. Verbesserungen der Testversand-Veröffentlichung mit Beta 2 werden am Mittwoch, 18. Juli in der Vorschau-Umgebung verfügbar sein. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
 
 >[!NOTE]
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.3 vorgenommen wurden, finden Sie unter  [Übersicht über die Release-Aktivitäten 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.3 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-Die Beta-Version 2018.3 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Beta 2-Version 2018.3 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren**
 
@@ -32,13 +32,13 @@ Die Beta-Version 2018.3 enthält Verbesserungen für Workfront-Administratoren u
 
 **Für alle Benutzer**
 
-* [Anzeigen von an mich delegierten Genehmigungen im Startbereich](#view-approvals-delegated-to-me-in-the-home-area)
-* [Daten für einen bestimmten Zeitraum im Ressourcenplaner exportieren](#export-data-for-a-given-period-in-the-resource-planner)
+* [Anzeigen von mir im Startbereich delegierten Genehmigungen](#view-approvals-delegated-to-me-in-the-home-area)
+* [Exportieren von Daten für einen bestimmten Zeitraum im Ressourcen-Planer](#export-data-for-a-given-period-in-the-resource-planner)
 * [Tägliche Gesamtwerte werden jetzt rot angezeigt, wenn der Benutzer übergeordnet ist](#daily-totals-now-display-in-red-when-the-user-is-overallocated)
-* [Aufgaben und Probleme werden in der Planung ausgeblendet, wenn sie minimiert werden](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
+* [Aufgaben und Probleme werden in der Zeitleiste der Planung ausgeblendet, wenn minimiert](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
 * [Filtern von Kommentaren und Antworten nach Benutzer im Testversand-Viewer](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
 * [Kommentar zu einem Bereich von Filmmaterial in einem Videoproof](#comment-on-a-range-of-footage-in-a-video-proof)
-* [Neues Polyline-Tool für Kommentar-Markup im Testversand-Viewer](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
+* [Neues Polyline-Tool für Kommentarmarkierung im Testversand-Viewer](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
 * [Flash-Entfernung für Bericht, Kalender und Dokumentfreigabe](#flash-removal-for-report-calendar-and-document-sharing)
 
 ## E-Mail-Adresse im Benutzerprofil als Gruppenadministrator aktualisieren {#update-the-email-address-in-the-user-profile-as-a-group-administrator}
@@ -55,7 +55,7 @@ Sie können nun im Bereich &quot;Startseite&quot;die Ihnen zugewiesenen Projekt-
 
 Vor dieser Änderung konnten Sie delegierte Genehmigungen nur im Bereich Meine Arbeit anzeigen.
 
-Weitere Informationen finden Sie unter [Validierungsanfrage delegieren](../../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Weitere Informationen finden Sie unter [Genehmigungsanfrage delegieren](../../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ## Daten für einen bestimmten Zeitraum im Ressourcenplaner exportieren {#export-data-for-a-given-period-in-the-resource-planner}
 
@@ -63,13 +63,13 @@ Beim Export der Informationen im Ressourcenplaner wird jetzt ein neues Fenster a
 
 Vor dieser Verbesserung konnten Sie nur die auf dem Bildschirm angezeigten Informationen exportieren.
 
-Weitere Informationen zum Exportieren von Daten aus dem Ressourcen-Planer finden Sie unter [Navigationsübersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) im Artikel [Navigationsübersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Weitere Informationen zum Exportieren von Daten aus dem Ressourcen-Planer finden Sie unter [Navigationsübersicht für Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) im Artikel [Navigationsübersicht für Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Tägliche Gesamtwerte werden jetzt rot angezeigt, wenn der Benutzer übergeordnet ist {#daily-totals-now-display-in-red-when-the-user-is-overallocated}
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Wenn ein Benutzer übergeordnet ist, werden die täglichen Summen für die Tage, an denen der Benutzer übergeordnet ist, jetzt rot angezeigt. Diese Option wird nur angezeigt, wenn die Option Gesamt für täglich geplante Stunden anzeigen in den Einstellungen der Planungszeitleiste aktiviert ist. Vor dieser Verbesserung gab es einen roten Balken-Indikator für die Tage, an denen der Benutzer übergeordnet war. Die täglichen Summen wurden jedoch ohne rote Markierung angezeigt.
 
@@ -81,7 +81,7 @@ Wenn Sie Aufgaben und Probleme in Ihrer Zeitleiste der Planung minimieren, werde
 
 Beim Minimieren von Aufgaben und Problemen blieben die Aufgaben und Probleme bisher für Benutzer und Rollen in der Zeitleiste der Planung, wurden jedoch in einer komprimierten Ansicht angezeigt.
 
-Weitere Informationen zum Minimieren von Aufgaben und Problemen in der Planung finden Sie unter &quot;Erste Schritte mit der Ressourcenplanung&quot;.
+Weitere Informationen zum Minimieren von Aufgaben und Problemen in der Planung finden Sie unter  &quot;Erste Schritte mit der Ressourcenplanung&quot;.
 
 ## Filtern von Kommentaren und Antworten nach Benutzer im Testversand-Viewer {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 

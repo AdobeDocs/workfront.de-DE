@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium oder Auswahl</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium oder Auswahl</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -39,12 +39,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>In Ihrem Profil für Testberechtigungen muss "Administrator"ausgewählt sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Konfigurieren des Testversand-Zugriffs eines Benutzers</a>.</p> </td> 
+   <td> <p>In Ihrem Profil für Testberechtigungen muss "Administrator"ausgewählt sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Konfigurieren des Testzugriffs eines Benutzers</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Systemanforderungen
 
@@ -63,13 +63,13 @@ Nachdem Sie den Desktop Proofing Viewer für Ihr Unternehmen installiert haben, 
 
 {{step1-to-proofing}}
 
-1. Klicks **Kontoeinstellungen** Klicken Sie oben rechts in Workfront Proof auf das **Einstellungen** Registerkarte.
+1. Klicken Sie oben rechts in Workfront Proof auf **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen**.
 
-1. under **Standardangaben für Testsendungen** am Ende der **Desktop Proofing Viewer für interaktive Testsendungen** Zeile, klicken Sie **Einrichtung**.
+1. Klicken Sie unter &quot;**Proof Defaults**&quot;am Ende der Zeile &quot;**Desktop Proofing Viewer für interaktive Prüfung**&quot;auf &quot;**Einrichten**&quot;.
 
-   ![Standardangaben für Testsendungen](assets/proof-defaults.png)
+   ![Standardmäßige Testversand-Werte](assets/proof-defaults.png)
 
-1. Klicks **Aktiviert und Standard** Klicken Sie auf **Speichern**.
+1. Klicken Sie auf **Aktiviert und auf Standard** und dann auf **Speichern**.
 
 ## Installieren des Testversand-Viewers für Ihre Benutzer
 
@@ -81,10 +81,10 @@ Nachdem Sie den Desktop Proofing Viewer für Ihr Unternehmen installiert haben, 
 1. Führen Sie auf dem Computer des Benutzers einen der folgenden Schritte aus, um die App herunterzuladen:
 
    * Wenn Sie die Produktionsumgebung verwenden, klicken Sie auf [Herunterladen der Mac-Produktion für den Desktop-Proofing-Viewer](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg).
-   * Wenn Sie die Vorschau-Umgebung verwenden, klicken Sie auf [Herunterladen der Mac-Vorschau für den Desktop-Proofing-Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
+   * Wenn Sie die Vorschauumgebung verwenden, klicken Sie auf [Herunterladen der Mac-Vorschau für den Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
 
 1. Öffnen Sie die Datei, die Sie gerade heruntergeladen haben, um die Installation zu starten.
-1. Klicken Sie im angezeigten Installationsfeld auf **Weiter** Klicken Sie auf **Installieren**.
+1. Klicken Sie im angezeigten Installationsfeld auf **Weiter** und dann auf **Installieren**.
 
    ![Installationsbox](assets/install-wf-proof-box.png)
 
@@ -94,8 +94,8 @@ Nachdem Sie den Desktop Proofing Viewer für Ihr Unternehmen installiert haben, 
 
 1. Führen Sie auf dem Computer des Benutzers einen der folgenden Schritte aus, um die App herunterzuladen:
 
-   * Klicken Sie in der Produktionsumgebung auf [Windows Production-Download für den Desktop Proofing Viewer](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
-   * Klicken Sie in der Vorschau-Umgebung auf [Herunterladen der Windows-Vorschau für den Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
+   * Klicken Sie in der Produktionsumgebung für den Desktop-Proofing-Viewer auf [Windows-Produktions-Download](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
+   * Klicken Sie in der Vorschauumgebung auf [Download der Windows-Vorschau für den Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
 
 1. Öffnen Sie die Datei, die Sie gerade heruntergeladen haben, um die Installation zu starten.
 1. Klicken Sie im angezeigten Sicherheitswarnungsfeld auf **Ausführen**.

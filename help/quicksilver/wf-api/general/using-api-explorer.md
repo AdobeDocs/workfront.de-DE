@@ -9,7 +9,7 @@ role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '353'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,11 @@ Bei der Verwendung der Adobe Workfront Core API ist der API Explorer ein veralte
 
 ## Zugriff auf den API Explorer:
 
-1. Navigieren Sie mithilfe eines Webbrowsers zum [API-Explorer](https://developer.adobe.com/workfront/api-explorer/)\
+1. Navigieren Sie mit einem Webbrowser zum [API-Explorer](https://developer.adobe.com/workfront/api-explorer/).\
    ![](assets/mceclip1-350x149.png)
 
-1. Wählen Sie oben rechts im API Explorer die gewünschteWorkfront aus. **API-Version**, standardmäßig wird die neueste Version automatisch ausgewählt
-1. Die **Filter** kann verwendet werden, um die Objekte nach Namen zu filtern und die Liste der Objekte entsprechend zu kürzen:
+1. Wählen Sie rechts oben im API Explorer die gewünschte Workspace-API-Version **API-Version** aus. Standardmäßig wird die neueste Version automatisch ausgewählt.
+1. Das Feld **Filter** kann verwendet werden, um die aufgelisteten Objekte nach Namen zu filtern. Dadurch wird die Liste der Objekte entsprechend abgeschnitten:
 
    ![](assets/mceclip2-350x147.png)
 

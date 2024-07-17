@@ -20,5 +20,5 @@ ht-degree: 7%
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Konvertierungsprobleme](../../manage-work/issues/convert-issues/convert-issues-overview.md)
-* [Ausstellungsinformationen](../../manage-work/issues/issue-information/issue-info-overview.md)
+* [Informationen zum Problem](../../manage-work/issues/issue-information/issue-info-overview.md)
 * [Probleme verwalten](../../manage-work/issues/manage-issues/manage-issues-overview.md)

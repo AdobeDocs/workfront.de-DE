@@ -55,22 +55,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Aktualisieren auf bestimmte Status
 
 * **Beim Aktualisieren eines Projekts auf &quot;Abgeschlossen&quot;:** Stellen Sie sicher, dass alle Aufgaben und Probleme im Projekt abgeschlossen sind. Sie können den Status Fertig stellen für ein Projekt oder einen anderen Status, der Abgeschlossen entspricht, nicht auswählen, wenn Aufgaben oder Probleme im Projekt noch nicht abgeschlossen sind. Dazu gehört die Genehmigung von Aufgaben oder Problemen, die sich im Status &quot;Abgeschlossen - Ausstehende Genehmigung&quot;befinden.
-* **Beim Aktualisieren eines Projekts von &quot;Complete&quot;auf &quot;Current&quot;:** Wenn alle Aufgaben und Probleme im Projekt abgeschlossen sind, stellen Sie sicher, dass der Abschlussmodus des Projekts auf &quot;Manuell&quot;eingestellt ist. Wenn der Abschlussmodus des Projekts automatisch ist, bleibt der Status des Projekts Complete.
+* **Beim Aktualisieren eines Projekts von &quot;Fertig stellen&quot;auf &quot;Aktuell&quot;:** Wenn alle Aufgaben und Probleme im Projekt abgeschlossen sind, stellen Sie sicher, dass der Abschlussmodus des Projekts auf &quot;Manuell&quot;eingestellt ist. Wenn der Abschlussmodus des Projekts automatisch ist, bleibt der Status des Projekts Complete.
 
 ## Projektstatus ändern
 
 1. Wechseln Sie zu dem Projekt, dessen Status Sie aktualisieren möchten.
-1. Klicken Sie in der Projektheader auf den Namen des Status in der **Status** und wählen Sie einen neuen Status aus.
+1. Klicken Sie in der Projektheader auf den Namen des Status im Feld **Status** und wählen Sie dann einen neuen Status aus.
 
    ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    Oder
 
-   Klicken Sie auf **Mehr** Menü ![](assets/qs-more-menu.png) neben dem Namen des Projekts klicken Sie auf **Bearbeiten** und wählen Sie im **Status** und klicken Sie auf **Speichern**.
+   Klicken Sie auf das Menü **Mehr** neben dem Namen des Projekts, klicken Sie auf **Bearbeiten** und wählen Sie einen neuen Status im Feld **Status** aus. Klicken Sie dann auf **Speichern**.![](assets/qs-more-menu.png)
 
    Der Projektstatus wird auf den von Ihnen ausgewählten Status aktualisiert.

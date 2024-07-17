@@ -10,7 +10,7 @@ exl-id: fda4630a-2590-46f4-94ff-499a485367ee
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Problem
 
 Wenn ein Bericht ausgeführt oder in einem Dashboard angezeigt wird, gibt der folgende Fehler zurück:\
-*Versuchen Sie es erneut. Sie sind zurzeit nicht angemeldet.*
+*Versuchen Sie es erneut. Sie sind derzeit nicht angemeldet.*
 
 Im Bericht werden keine Ergebnisse angezeigt.
 
@@ -64,12 +64,12 @@ Sie müssen über Verwaltungsberechtigungen für den Bericht verfügen, um die B
 So passen Sie den Bericht an und sehen die Ergebnisse:
 
 1. Gehen Sie zum Bericht.
-1. Klicks **Berichtaktionen** > **Bearbeiten** > **Berichtseinstellungen**.
+1. Klicken Sie auf **Berichtaktionen** > **Bearbeiten** > **Berichtseinstellungen**.
 
-1. Geben Sie den Namen eines aktiven Benutzers im **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** -Feld.\
+1. Geben Sie den Namen eines aktiven Benutzers im Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** an.\
    Oder\
-   Lassen Sie die **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** Feld leer.
+   Lassen Sie das Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** leer.
 
-1. Klicks **Fertig**.
-1. Klicks **Speichern und schließen**.\
+1. Klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Speichern + schließen**.\
    Der Fehler sollte bei der Ausführung dieses Berichts nicht erneut angezeigt werden.

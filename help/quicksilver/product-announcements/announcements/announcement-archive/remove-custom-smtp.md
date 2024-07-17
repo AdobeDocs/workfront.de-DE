@@ -8,7 +8,7 @@ feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
 source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,6 @@ Auf diese Funktion können Sie zugreifen, indem Sie sich als Systemadministrator
 
 Die in diesem Screenshot hervorgehobene Einstellung führt zu einer automatischen Umstellung auf die Workfront Mail Server-Option mit Version 20.3.
 
-Wenn Sie einen benutzerdefinierten SMTP-Mail-Server konfiguriert haben, **Wir empfehlen Ihnen dringend, sich an Ihr IT-Team zu wenden** um sicherzustellen, dass E-Mails von notifications@my.workfront.com nicht für eingehende E-Mails auf Ihrem System blockiert werden. Unter Konfigurieren Ihrer Firewall finden Sie auch Informationen dazu, von welchen IP-Adressen unser Traffic und unsere E-Mail stammen.
+Wenn Sie einen benutzerdefinierten SMTP-Mail-Server konfiguriert haben, empfehlen wir dringend, sich an Ihr IT-Team zu wenden **, um sicherzustellen, dass E-Mails von notifications@my.workfront.com nicht für eingehende E-Mails an Ihr System blockiert werden.** Unter Konfigurieren Ihrer Firewall finden Sie auch Informationen dazu, von welchen IP-Adressen unser Traffic und unsere E-Mail stammen.
 
-Sollten Sie weitere Fragen oder Bedenken haben, wenden Sie sich bitte an die [Workfront-Supportteam](https://one.workfront.com/s/support?language=en_US).
+Wenden Sie sich bei weiteren Fragen oder Bedenken an das [Workfront-Supportteam](https://one.workfront.com/s/support?language=en_US).

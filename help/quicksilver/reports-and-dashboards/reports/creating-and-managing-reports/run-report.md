@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -48,7 +48,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Bericht ausführen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichte**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
@@ -67,13 +67,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf den Namen des Berichts, den Sie ausführen möchten.\
    Oder\
-   Wenn der Bericht mit Eingabeaufforderungen erstellt wurde, wählen Sie die entsprechenden Informationen aus den Dropdown-Menüs aus und klicken Sie auf **Bericht ausführen**.\
-   Weitere Informationen zu Eingabeaufforderungen finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
-   Der Inhalt des Berichts wird mit einem Zeitstempel in der oberen rechten Ecke des Berichts angezeigt, der Datum, Uhrzeit und Zeitzone der Berichtsausführung aus dem Kontext des Benutzers enthält, der den Bericht ausgeführt hat.
+   Wenn der Bericht mit Eingabeaufforderungen erstellt wurde, wählen Sie die entsprechenden Informationen aus den Dropdown-Menüs aus und klicken Sie dann auf **Bericht ausführen**.\
+   Weitere Informationen zu Eingabeaufforderungen finden Sie unter [Eine Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
+   Der Inhalt des Berichts wird mit einem Zeitstempel in der oberen rechten Ecke des Berichts angezeigt, der das Datum, die Uhrzeit und die Zeitzone enthält, zu der der Bericht aus dem Kontext des Benutzers ausgeführt wurde, der den Bericht ausgeführt hat.
 
-1. (Optional) Klicken Sie auf die **Symbol &quot;Neu laden&quot;** ![](assets/qs-report-refresh-icon.png) , um die Ergebnisse in einem Bericht zu aktualisieren, wenn der Bericht bereits seit einiger Zeit in Ihrem Browser angezeigt wird.
+1. (Optional) Klicken Sie auf das Symbol **Neu laden** ![](assets/qs-report-refresh-icon.png) , um die Ergebnisse in einem Bericht zu aktualisieren, wenn der Bericht bereits seit einiger Zeit in Ihrem Browser angezeigt wird.
 
-1. (Bedingt) Wenn der Bericht Filter oder Eingabeaufforderungen verwendet, klicken Sie auf **Filter und Eingabeaufforderungen anzeigen** um eine Liste der Filter und Eingabeaufforderungen anzuzeigen, die für den angezeigten Bericht verwendet werden. Wenn der Bericht nur Filter oder nur Eingabeaufforderungen enthält, **Filter anzeigen** oder **Eingabeaufforderungen anzeigen** angezeigt.
+1. (Bedingt) Wenn der Bericht Filter oder Eingabeaufforderungen verwendet, klicken Sie auf **Filter und Eingabeaufforderungen anzeigen** , um eine Liste mit Filtern und Eingabeaufforderungen anzuzeigen, die für den angezeigten Bericht verwendet werden. Wenn der Bericht nur Filter oder nur Eingabeaufforderungen enthält, wird stattdessen **Filter anzeigen** oder **Eingabeaufforderungen anzeigen** angezeigt.
 
    ![Filter und Eingabeaufforderungen anzeigen](assets/qs-reports-showfiltersandprompts-2022-350x136.png)
 
@@ -87,7 +87,7 @@ Ihr Bericht kann zwischengespeichert werden, wenn er bereits seit einiger Zeit i
 
 * Bearbeiten Sie die Berichtseinstellungen und speichern Sie den Bericht.
 * Ändern Sie die Ansicht, Gruppe oder den Filter.
-* Klicken Sie auf **Symbol &quot;Neu laden&quot;**
-Diese Option ist rechts oben auf der Seite im Meldungsfeld verfügbar, das die Speicherzeit des Berichts angibt, oder in der oberen rechten Ecke des Dashboards, in dem der Bericht platziert wird. Weitere Informationen zum Neuladen von Dashboards finden Sie im Artikel unter &quot;Dashboards anzeigen&quot; [Erste Schritte mit Dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+* Klicken Sie auf das Symbol **Neu laden**
+Diese Option ist rechts oben auf der Seite im Meldungsfeld verfügbar, das die Speicherzeit des Berichts angibt, oder in der oberen rechten Ecke des Dashboards, in dem der Bericht platziert wird. Weitere Informationen zum Neuladen von Dashboards finden Sie im Abschnitt &quot;Dashboards anzeigen&quot;im Artikel [Erste Schritte mit Dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md) .
 
 * Greifen Sie über die erste Seite hinaus auf eine beliebige Seite des Berichts zu, indem Sie zu den Registerkarten &quot;Zusammenfassung&quot;, &quot;Matrix&quot;oder &quot;Diagramm&quot;navigieren.

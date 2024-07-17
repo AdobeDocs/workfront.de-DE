@@ -11,7 +11,7 @@ exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '1464'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Als Adobe Workfront-Administrator können Sie mithilfe der unten beschriebenen Prüfprotokolle Benutzeränderungen verfolgen, die in den letzten 90 Tagen im System ausgelöst wurden.
 
-Anweisungen zum Anzeigen und Filtern des gewünschten Inhalts in diesen Prüfprotokollen finden Sie unter [Audit-Protokolle anzeigen und exportieren](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Anweisungen zum Anzeigen und Filtern des gewünschten Inhalts in diesen Prüfprotokollen finden Sie unter [Prüfprotokolle anzeigen und exportieren](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Informationen, die Sie in einem Auditprotokoll finden
 
@@ -64,7 +64,7 @@ Die folgenden Felder werden in jedem Auditprotokolleintrag aufgezeichnet:
 
 ## Auditprotokolltypen und die sie Trigger Aktionen
 
-* [Zugriffsstufe](#access-level)
+* [Zugriffsebene](#access-level)
 * [Firma](#company)
 * [Bedingung](#condition)
 * [Benutzerdefiniertes Feld](#custom-field)
@@ -75,7 +75,7 @@ Die folgenden Felder werden in jedem Auditprotokolleintrag aufgezeichnet:
 * [Vorgangsrollen](#job-roles)
 * [Anmeldeversuch](#login-attempt)
 * [Priorität](#priority)
-* [Projektpräferenz](#project-preference)
+* [Projektreferenz](#project-preference)
 * [Schweregrad](#severity)
 * [Status](#status)
 * [Voreinstellungen für Aufgaben und Probleme](#tasks-issues-preferences)
@@ -115,7 +115,7 @@ Das System generiert einen Eintrag für das Unternehmensprüfungsprotokoll, wenn
 
 * Löscht ein Unternehmen
 
-Weitere Informationen zu Status finden Sie unter [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Weitere Informationen zu Statusangaben finden Sie unter [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Bedingung {#condition}
 
@@ -132,7 +132,7 @@ Das System generiert einen Bedingungsprüfungsprotokolleintrag, wenn ein Benutze
 
 * Löscht eine Bedingung
 
-Weitere Informationen zum Konfigurieren von Auftragsrollen finden Sie unter [Benutzerdefinierte Bedingung erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Weitere Informationen zum Konfigurieren von Auftragsrollen finden Sie unter [Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ### Benutzerdefiniertes Feld {#custom-field}
 
@@ -192,7 +192,7 @@ Das System generiert einen Auditprotokolleintrag für benutzerdefinierte Abschni
 * Ändert den Namen oder die Beschreibung eines benutzerdefinierten Abschnitts
 * Löscht einen benutzerdefinierten Abschnitt
 
-Informationen zu benutzerdefinierten Abschnitten in benutzerdefinierten Formularen finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Informationen zu benutzerdefinierten Abschnitten in benutzerdefinierten Formularen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ### Wechselkurs {#exchange-rate}
 
@@ -207,7 +207,7 @@ Das System generiert einen Auditprotokolleintrag zum Wechselkurs, wenn ein Benut
 
 * Löscht den Wechselkurs
 
-Weitere Informationen zur Konfiguration der Wechselkurse finden Sie unter [Wechselkurse einrichten](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Weitere Informationen zur Konfiguration von Wechselkursen finden Sie unter [Einrichten von Wechselkursen](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### Gruppe {#group}
 
@@ -234,7 +234,7 @@ Das System generiert einen Auditprotokolleintrag &quot;Auftragsrollen&quot;, wen
 
 * Löscht die Auftragsrolle
 
-Weitere Informationen zum Konfigurieren von Auftragsrollen finden Sie unter [Erstellen und Verwalten von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Weitere Informationen zum Konfigurieren von Auftragsrollen finden Sie unter [Erstellen und Verwalten von Auftragsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Anmeldeversuch {#login-attempt}
 
@@ -265,7 +265,7 @@ Das System generiert einen Auditprotokolleintrag &quot;Priorität&quot;, wenn ei
 
 * Löscht eine Priorität
 
-Weitere Informationen zur Konfiguration von Prioritäten finden Sie unter [Erstellen und Anpassen von Prioritäten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Weitere Informationen zum Konfigurieren von Prioritäten finden Sie unter [Erstellen und Anpassen von Prioritäten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Projektpräferenz {#project-preference}
 
@@ -281,7 +281,7 @@ Das System generiert einen Auditprotokolleintrag &quot;Projektvoreinstellungen&q
 
 * Löscht ein benutzerdefiniertes Quartal
 
-Weitere Informationen zu den Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Weitere Informationen zu den Projektanvoreinstellungen finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ### Schweregrad {#severity}
 
@@ -298,7 +298,7 @@ Das System generiert einen Eintrag des Schweregrad-Prüfprotokolls, wenn ein Ben
 
 * Löscht einen Schweregrad eines Problems
 
-Weitere Informationen zum Konfigurieren von Auftragsrollen finden Sie unter [Erstellen oder Anpassen von Problemschwerpunkten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Weitere Informationen zum Konfigurieren von Auftragsrollen finden Sie unter [Erstellen oder Anpassen von Problemabständen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 ### Status {#status}
 
@@ -315,7 +315,7 @@ Das System generiert einen Status-Auditprotokolleintrag, wenn ein Benutzer eine 
 
 * Löscht einen Status auf System- oder Gruppenebene
 
-Weitere Informationen zu Status finden Sie unter [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Weitere Informationen zu Statusangaben finden Sie unter [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Voreinstellungen für Aufgaben und Probleme {#tasks-issues-preferences}
 
@@ -325,7 +325,7 @@ Das System generiert einen Auditprotokolleintrag &quot;Aufgaben und Probleme - V
 * Ändert die Einstellung für eine Voreinstellung
 * Ändern von Zugriffseinstellungen für Aufgaben, Probleme oder Anforderungen
 
-Weitere Informationen zu Aufgaben- und Problemeinstellungen finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Weitere Informationen zu den Voreinstellungen für Aufgaben und Probleme finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Benutzerin oder Benutzer {#user}
 

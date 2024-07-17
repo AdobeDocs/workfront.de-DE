@@ -33,7 +33,7 @@ Um die Suche nach Elementen, die Ihre Aufmerksamkeit erfordern, zu vereinfachen 
 
 Vor diesen Verbesserungen konnten Sie Ihre Artikel nur nach dem geplanten Abschlussdatum und dem Bestätigungsdatum gruppieren.
 
-Weitere Informationen finden Sie unter [Anzeigen von Elementen in der Arbeitsliste im Startbereich](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Weitere Informationen finden Sie unter [Elemente in der Arbeitsliste im Startbereich anzeigen](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ## Den Bereich Meine Updates für alle lizenzierten Benutzer hinzufügen
 
@@ -48,7 +48,7 @@ Wenn Sie den Bereich Meine Updates öffnen, können Sie jetzt schnell die folgen
 * Genehmigungen, die auf Ihre Entscheidung warten, werden in der ersten Hälfte der Seite Meine Aktualisierungen angezeigt. Sie können Ihre Genehmigungen genehmigen, ablehnen, Änderungen vorschlagen, ihnen Zugriff gewähren oder sie an andere delegieren.
 * Kommentare, die Sie erhalten haben, werden in der unteren Hälfte der Seite Meine Aktualisierungen im Abschnitt Erwähnungen angezeigt.
 
-Weitere Informationen finden Sie unter [Verwenden des Bereichs My Updates](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
+Weitere Informationen finden Sie unter [Verwenden des Bereichs &quot;Meine Updates&quot;](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## Verbesserungen an Timesheets
 
@@ -63,7 +63,7 @@ Zu diesen Aktualisierungen gehören:
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Grundlegendes zum Layout des Zeitplans](../../../timesheets/timesheets/timesheet-layout.md)
+* [Grundlegendes zum Timesheet-Layout](../../../timesheets/timesheets/timesheet-layout.md)
 * [Zeit erfassen](../../../timesheets/create-and-manage-timesheets/log-time.md)
 
 ## Neue Symbolleiste für Benutzerlisten

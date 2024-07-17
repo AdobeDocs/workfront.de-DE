@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Browseranforderungen für Workfront
-description: Die Informationen in diesem Artikel wurden verschoben. Siehe Browseranforderungen für Adobe Workfront .
+description: Die Informationen in diesem Artikel wurden verschoben. Weitere Informationen finden Sie unter Browseranforderungen für Adobe Workfront .
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die Informationen in diesem Artikel wurden verschoben. Siehe [Adobe Workfront-Browseranforderungen](../../workfront-basics/workfront-browser-requirements.md).
+>Die Informationen in diesem Artikel wurden verschoben. Weitere Informationen finden Sie unter [Browseranforderungen für Adobe Workfront](../../workfront-basics/workfront-browser-requirements.md).

@@ -75,18 +75,18 @@ Anweisungen zum Zuweisen einer Zugriffsebene zu einem Benutzer finden Sie unter 
 
 Beim Freigeben eines Objekts für eine Person im System kann ein Benutzer dem Empfänger eine der folgenden Berechtigungen für das Objekt gewähren.
 
-* **Ansicht**: Mit dieser Berechtigungsstufe kann der Empfänger das Objekt auf eine der folgenden Arten freigeben:
+* **Ansicht**: Diese Berechtigungsebene ermöglicht es dem Empfänger, das Objekt auf eine der folgenden Arten freizugeben:
 
    * Systemweit, damit alle Benutzer ihn sehen können (nicht für alle Objekte verfügbar)
    * Bei externen Benutzern ohne Workfront-Lizenz (nicht für alle Objekte verfügbar)
    * Mit einer E-Mail-Adresse (nur für Dokumente verfügbar)
 
-* **Beitragen**: (nicht für alle Objekte verfügbar)
-* **Verwalten**: Wenn jemand ein Objekt freigegeben, werden die Rechte des Empfängers für das Objekt durch eine Kombination der Zugriffsebene des Empfängers und der Berechtigungen für das Objekt bestimmt, die vom Freigebende erteilt wurden. Der geringste in dieser Kombination verfügbare Zugriff bestimmt, was der Empfänger mit dem Objekt tun kann.
+* **Contribute**: (nicht für alle Objekte verfügbar)
+* **Verwalten**: Wenn jemand ein Objekt freigegeben, werden die Rechte des Empfängers für das Objekt durch eine Kombination aus der Zugriffsebene des Empfängers und den Berechtigungen für das Objekt bestimmt, die vom Freigebende erteilt wurden. Der geringste in dieser Kombination verfügbare Zugriff bestimmt, was der Empfänger mit dem Objekt tun kann.
 
   >[!INFO]
   >
-  >**Beispiel:** Wenn die Zugriffsebene des Empfängers die Bearbeitung eines Projekts nicht zulässt, kann diese Person ein Projekt auch dann nicht bearbeiten oder löschen, wenn der Freigebende die Berechtigung zur Verwaltung erteilt hat.
+  >**Beispiel:** Wenn die Zugriffsebene des Empfängers die Bearbeitung von Projekten nicht zulässt, kann diese Person ein Projekt nicht bearbeiten oder löschen, selbst wenn der Freigebende die Berechtigung zur Verwaltung erteilt hat.
   >
   >Oder wenn die Zugriffsebene des Empfängers die Bearbeitung von Projekten zulässt, der freigebende Benutzer jedoch schreibgeschützte Berechtigungen für ein Projekt erteilt hat, kann der Benutzer das Projekt nicht bearbeiten oder löschen.
 

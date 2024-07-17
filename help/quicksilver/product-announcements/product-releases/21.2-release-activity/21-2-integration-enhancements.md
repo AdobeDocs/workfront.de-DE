@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Integrationsverbesserungen
 
-Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 - Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Adobe Workfront für XD
 
@@ -32,7 +32,7 @@ Um Ihnen die Navigation in Ihren Dokumentintegrationen zu erleichtern, haben wir
 
 Zuvor konnten Unterordner nur durch Öffnen der übergeordneten Ordner gefunden werden.
 
-Weitere Informationen finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Weitere Informationen finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Verbesserte Sicherheit beim Hochladen von Dateien auf Google Drive
 

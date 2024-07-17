@@ -24,7 +24,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -33,7 +33,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
 Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 
-Wenn Sie ein Ziel erstellen, hat das Ziel den Status Entwurf . Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+Wenn Sie ein Ziel erstellen, hat das Ziel den Status Entwurf . Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
 Um den Fortschritt eines Ziels aufzuzeichnen, müssen Sie es aktivieren. Um Ihr Ziel zu aktivieren und seinen Status auf Aktiv zu ändern, müssen Sie ihm zunächst Folgendes hinzufügen:
 
@@ -47,9 +47,9 @@ Nachdem mindestens eines dieser Elemente hinzugefügt wurde, können Sie das Zie
 
 >[!IMPORTANT]
 >
-> Ein Ziel darf nicht mehr als 1000 Aktivitäten, Ergebnisse, Projekte oder aufeinander abgestimmte Ziele haben.</span>
+> Ein Ziel darf nicht mehr als 1.000 Aktivitäten, Ergebnisse, Projekte oder aufeinander abgestimmte Ziele haben.</span>
 
-Dieser Artikel gibt einen Überblick über Aktivitäten und Ergebnisse. Informationen zum Ausrichten von Zielen finden Sie unter [Zielausrichtung bei Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/goal-alignment.md). Informationen zum Verbinden von Projekten mit Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../results-and-activities/connect-projects-to-goals-overview.md).
+Dieser Artikel gibt einen Überblick über Aktivitäten und Ergebnisse. Informationen zum Ausrichten von Zielen finden Sie unter [Zielausrichtung in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/goal-alignment.md). Informationen zum Verbinden von Projekten mit Zielen finden Sie unter [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Ergebnisübersicht
 
@@ -121,9 +121,9 @@ Weitere Informationen zu Ergebnissen und Aktivitäten finden Sie in der Liste de
 
 Ergebnisse, Aktivitäten und Projekte sind Zielfortschrittsindikatoren.
 
-Es gibt einige Unterschiede in der Art und Weise, wie Sie Projekte verwalten, und in der Art und Weise, wie Sie Ergebnisse und Aktivitäten verwalten. Weitere Informationen zum Hinzufügen von Projekten zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Informationen zu Projekten, die mit Zielen verbunden sind, finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Es gibt einige Unterschiede in der Art und Weise, wie Sie Projekte verwalten, und in der Art und Weise, wie Sie Ergebnisse und Aktivitäten verwalten. Weitere Informationen zum Hinzufügen von Projekten zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Weitere Informationen zu Projekten, die mit Zielen verbunden sind, finden Sie unter [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-Neben Ergebnissen, Aktivitäten und Projekten können Sie auch untergeordnete Ziele mit einem Ziel verknüpfen. Kinderziele sind auch eine Art Fortschrittsanzeige für ein Ziel. Weitere Informationen finden Sie unter [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../goal-alignment/align-goals-by-connecting-them.md). Der Fortschritt der Fortschrittsindikatoren des untergeordneten Ziels treibt auch den Fortschritt des übergeordneten Ziels.
+Neben Ergebnissen, Aktivitäten und Projekten können Sie auch untergeordnete Ziele mit einem Ziel verknüpfen. Kinderziele sind auch eine Art Fortschrittsanzeige für ein Ziel. Weitere Informationen finden Sie unter [Ziele ausrichten, indem Sie sie in Adobe Workfront-Zielen verbinden](../goal-alignment/align-goals-by-connecting-them.md). Der Fortschritt der Fortschrittsindikatoren des untergeordneten Ziels treibt auch den Fortschritt des übergeordneten Ziels.
 
 Die folgende Tabelle zeigt Ähnlichkeiten und Unterschiede zwischen Ergebnissen, Aktivitäten und Projekten als Zielindikatoren:
 

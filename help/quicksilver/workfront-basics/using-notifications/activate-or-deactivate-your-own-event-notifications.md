@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Ihre Adobe [!DNL Workfront] Der Administrator konfiguriert, welche E-Mail-Benachrichtigungen Benutzer erhalten, wenn Ereignisse in Workfront auftreten (siehe [[!UICONTROL Ereignis konfigurieren] Benachrichtigungen für alle im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Ihr Adobe [!DNL Workfront] -Administrator konfiguriert, welche E-Mail-Benachrichtigungen Benutzer erhalten, wenn Ereignisse in Workfront auftreten (wie unter [[!UICONTROL Ereignisbenachrichtigungen konfigurieren] für alle Benutzer im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) beschrieben).
 
-Ihr Gruppenadministrator kann auch konfigurieren, welche Benachrichtigungen für Sie und die Benutzer in Ihrer [!UICONTROL Startseite]. Wenn [!UICONTROL Startseite] eine Untergruppe ist, erhalten Sie die Benachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert wurden.
+Ihr Gruppenadministrator kann auch konfigurieren, welche Benachrichtigungen für Sie aktiviert werden, und die Benutzer in Ihrer [!UICONTROL Home Group]. Wenn Ihre [!UICONTROL Home Group] eine Untergruppe ist, erhalten Sie die Benachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert wurden.
 
 Sie können dies weiter anpassen, indem Sie konfigurieren, welche Benachrichtigungen Sie erhalten. Sie können auch auswählen, ob Sie Benachrichtigungen bei Ereignissen oder eine tägliche Digest-E-Mail erhalten möchten.
 
@@ -29,7 +29,7 @@ Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [[!DNL Adobe
 >[!NOTE]
 >
 >* Wenn Sie einen Benachrichtigungstyp aktivieren und dann feststellen, dass Sie keine Benachrichtigungen dieses Typs erhalten, liegt dies möglicherweise daran, dass dieser Typ nicht für Ihre Rolle gilt.
->* Die [!DNL Workfront] Administrator oder Gruppenadministrator kann keine Benachrichtigungen für [!DNL Workfront Goals]. Weitere Informationen zu den Benachrichtigungen finden Sie unter [!DNL Workfront] Administratoren können konfigurieren, siehe [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Informationen zum Konfigurieren von einzelnen Benachrichtigungen für [!DNL Workfront Goals] lesen Sie diesen Artikel weiter.
+>* Der [!DNL Workfront] -Administrator oder ein Gruppenadministrator kann keine Benachrichtigungen für [!DNL Workfront Goals] konfigurieren. Weitere Informationen dazu, welche Benachrichtigungen der [!DNL Workfront]-Administrator konfigurieren kann, finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Weitere Informationen zum Konfigurieren von einzelnen Benachrichtigungen für [!DNL Workfront Goals] finden Sie in diesem Artikel.
 >
 
 ## Zugriffsanforderungen
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,9 +67,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-click-profile-pic}}
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** icon ![](assets/more-icon.png) neben Ihrem Namen klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![](assets/more-icon.png) neben Ihrem Namen und dann auf **[!UICONTROL Bearbeiten]**.
 
-1. Im **[!UICONTROL Person bearbeiten]** das angezeigt wird, wechseln Sie zum **[!UICONTROL Benachrichtigungen]** Abschnitt.
+1. Wechseln Sie im angezeigten Feld **[!UICONTROL Person bearbeiten]** zum Abschnitt **[!UICONTROL Benachrichtigungen]** .
 
 1. Klicken Sie auf eine Kategorie, um die Benachrichtigungseinstellungen für diese Kategorie anzuzeigen.
 
@@ -83,19 +83,19 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Wenn Sie Teammitglied eines Projekts sind, erhalten Sie weiterhin E-Mail-Benachrichtigungen dafür, bis Sie aus dem Team entfernt werden, auch wenn Sie keinen Zugriff mehr auf das Projekt haben. Anweisungen zum Entfernen von Benutzern aus einem Team finden Sie unter [Entfernen von Benutzern aus Projekten](../../manage-work/projects/manage-projects/remove-users-from-projects.md).
 
-   Für **[!UICONTROL Kommunikation]** -Kategorie, können Sie einzelne Benachrichtigungen nur für den sofortigen Versand auswählen. Damit Benachrichtigungen täglich versendet werden können, müssen Sie alle Benachrichtigungen auswählen.
+   In der Kategorie **[!UICONTROL Kommunikation]** können Sie einzelne Benachrichtigungen nur für den sofortigen Versand auswählen. Damit Benachrichtigungen täglich versendet werden können, müssen Sie alle Benachrichtigungen auswählen.
 
    Wenn alle E-Mail-Benachrichtigungen für eine bestimmte Kategorie aktiviert sind, wird das Feld im Kategorientitel wie ausgewählt angezeigt. Wenn alle E-Mail-Benachrichtigungen einer bestimmten Kategorie deaktiviert sind, wird das Kontrollkästchen deaktiviert. Wenn einige Benachrichtigungen aktiviert und andere deaktiviert sind, wird das Kategorieprüffeld als gerade Zeile angezeigt.\
-   Wenn Sie eine Benachrichtigungseinstellung ändern, wird der Titel **[!UICONTROL Bearbeitet]** für diese Benachrichtigungseinstellung angezeigt, um Sie darüber zu informieren, dass diese Benachrichtigungseinstellung geändert wurde.
+   Wenn Sie eine Benachrichtigungseinstellung ändern, wird für diese Benachrichtigungseinstellung die Bezeichnung **[!UICONTROL Bearbeitet]** angezeigt, um Sie darüber zu informieren, dass diese Benachrichtigungseinstellung geändert wurde.
 
-1. Wenn Sie Benachrichtigungen ausgewählt haben, die als tägliche Zusammenfassung gesendet werden sollen, wählen Sie oben im **[!UICONTROL Benachrichtigungen]** im Abschnitt **[!UICONTROL Email Daily Digest nach]** Menü.
+1. Wenn Sie Benachrichtigungen ausgewählt haben, die als tägliche Zusammenfassung gesendet werden sollen, wählen Sie oben im Abschnitt **[!UICONTROL Benachrichtigungen]** im Menü **[!UICONTROL Tägliche Digest per E-Mail nach]** die Tageszeit aus, zu der Sie die Benachrichtigungen erhalten möchten.
 
    ![](assets/digest-time-stamp-my-settings-350x78.png)
 
    Die tägliche Zusammenfassung enthält Ereignisse, die die Kriterien der Benachrichtigungen 24 Stunden vor dem ausgewählten Zeitpunkt erfüllen. Sie erhalten für jeden Benachrichtigungstyp eine tägliche Digest-E-Mail.\
    Der tägliche Digest kann nach der von Ihnen ausgewählten Zeit eintreffen, je nachdem, wie viele E-Mails in die Warteschlange für den Versand im System gestellt werden. Die angegebene Uhrzeit entspricht der Ortszeit, die Sie in den Browsereinstellungen angegeben haben.
 
-1. (Bedingt und optional) Aktivieren Sie beim Ändern der Einstellungen für E-Mail-Benachrichtigungen in der Vorschau-Umgebung die Option **[!UICONTROL Empfangen von E-Mails aus dieser Testumgebung]** für den Empfang von E-Mails festlegen. E-Mails werden nicht automatisch aus der Vorschau-Umgebung generiert.
+1. (Bedingt und optional) Aktivieren Sie beim Ändern der Einstellungen für E-Mail-Benachrichtigungen in der Vorschau-Umgebung die Einstellung **[!UICONTROL E-Mails aus dieser Testumgebung empfangen]** , um E-Mails zu empfangen. E-Mails werden nicht automatisch aus der Vorschau-Umgebung generiert.
 
    ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 

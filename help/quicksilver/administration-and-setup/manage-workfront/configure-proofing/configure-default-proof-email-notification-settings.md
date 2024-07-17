@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Standard-E-Mail-Benachrichtigungseinstellungen für den Testversand konfigurieren
-description: Testversand-Benutzer in Adobe Workfront können E-Mail-Benachrichtigungen von Workfront und Workfront-Testversand erhalten, wenn Kommentare oder Entscheidungen zu einem Testversand getroffen werden. Wenn Benutzer bereits E-Mail-Benachrichtigungen von Workfront Testversand erhalten, empfehlen wir, die von Workfront gesendeten Benachrichtigungen zu deaktivieren, um doppelte Benachrichtigungs-E-Mails zu vermeiden.
+description: Testversand-Benutzer in Adobe Workfront können E-Mail-Benachrichtigungen von Workfront und Workfront Proof erhalten, wenn Kommentare oder Entscheidungen zu einem Testversand getroffen werden. Wenn Benutzer bereits E-Mail-Benachrichtigungen von Workfront Proof erhalten, empfehlen wir, die von Workfront gesendeten Benachrichtigungen zu deaktivieren, um doppelte Benachrichtigungs-E-Mails zu vermeiden.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Standard-E-Mail-Benachrichtigungseinstellungen für den Testversand konfigurieren
 
-Testversand-Benutzer in Adobe Workfront können E-Mail-Benachrichtigungen von Workfront und Workfront-Testversand erhalten, wenn Kommentare oder Entscheidungen zu einem Testversand getroffen werden. Wenn Benutzer bereits E-Mail-Benachrichtigungen von Workfront Testversand erhalten, empfehlen wir, die von Workfront gesendeten Benachrichtigungen zu deaktivieren, um doppelte Benachrichtigungs-E-Mails zu vermeiden.
+Testversand-Benutzer in Adobe Workfront können E-Mail-Benachrichtigungen von Workfront und Workfront Proof erhalten, wenn Kommentare oder Entscheidungen zu einem Testversand getroffen werden. Wenn Benutzer bereits E-Mail-Benachrichtigungen von Workfront Proof erhalten, empfehlen wir, die von Workfront gesendeten Benachrichtigungen zu deaktivieren, um doppelte Benachrichtigungs-E-Mails zu vermeiden.
 
-Informationen zum Konfigurieren von Benachrichtigungseinstellungen, die vom Workfront-Testversand gesendet werden, finden Sie unter [E-Mail-Benachrichtigungseinstellungen in Workfront Testversand konfigurieren](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+Informationen zum Konfigurieren von Benachrichtigungseinstellungen, die von Workfront Proof gesendet werden, finden Sie unter [E-Mail-Benachrichtigungseinstellungen in Workfront Proof konfigurieren](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
 ## Zugriffsanforderungen
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein. Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,11 +50,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 So konfigurieren Sie Testversand-E-Mail-Benachrichtigungseinstellungen, die von Workfront gesendet werden:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Erweitern **Email** Klicken Sie auf **Überprüfung und Genehmigung**.
+1. Erweitern Sie **E-Mail** und klicken Sie dann auf **Überprüfen und Genehmigen**.
 
-1. Im **Testbenachrichtigungen in Workfront** festlegen, ob die Option aktiviert oder deaktiviert werden soll, E-Mails von Workfront senden, wenn ein Kommentar zu einem Testversand abgegeben wird.
+1. Entscheiden Sie im Abschnitt **Testbenachrichtigungen in Workfront** , ob die Option aktiviert oder deaktiviert werden soll. Wählen Sie E-Mails von Workfront senden , wenn ein Kommentar zu einem Testversand abgegeben wird.
 
    * Wenn diese Einstellung aktiviert ist, erhalten Benutzer eine E-Mail von Workfront, wenn für einen Testversand ein Kommentar abgegeben wird.
    * Wenn diese Einstellung deaktiviert ist, erhalten Benutzer keine E-Mail von Workfront, wenn für einen Testversand ein Kommentar abgegeben wird.

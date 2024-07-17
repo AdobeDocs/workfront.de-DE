@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Übersicht über das vorgeschlagene Projektstartdatum
+title: Übersicht über das vorgeschlagene Startdatum des Projekts
 description: Das geplante Startdatum ist ein Echtzeit-Datum, an dem das Projekt basierend auf dem geplanten Startdatum der ersten Aufgabe des Projekts beginnen wird.
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über das vorgeschlagene Projektstartdatum
+# Übersicht über das vorgeschlagene Startdatum des Projekts
 
 ## Übersicht über das geplante Startdatum für Projekte und Aufgaben
 
@@ -32,10 +32,10 @@ Mit den folgenden Ereignissen kann eine Änderung am geplanten Startdatum einer 
 
 * Wenn Sie mit der Arbeit an einer Aufgabe beginnen, wird das tatsächliche Startdatum der Aufgabe zum geplanten Startdatum.
 * Wenn das geplante Startdatum einer Aufgabe überschritten wird, wird das geplante Startdatum in die Zukunft verschoben und gibt das nächstverfügbare Startdatum an, an dem die Aufgabe beginnen soll.\
-   Workfront berücksichtigt bei der Berechnung des frühestmöglichen Aufgabenbeginns die geplante Zeitdauer sowie den Zeitplan des Projekts oder des der Aufgabe zugewiesenen Benutzers. 
+  Workfront berücksichtigt bei der Berechnung des frühestmöglichen Aufgabenbeginns die geplante Zeitdauer sowie den Zeitplan des Projekts oder des der Aufgabe zugewiesenen Benutzers. 
 * Vorläufige Aufgaben, die im Verzug sind, wirken sich auf das geplante Startdatum der abhängigen Aufgaben aus. Das geplante Startdatum der abhängigen Aufgaben wird entsprechend dem Abhängigkeitstyp der Vorgängerbeziehung und den voraussichtlichen Datumsangaben der Vorgänger-Beziehung verschoben. 
 
-Wenn eine dieser Aufgaben die erste Aufgabe in einem Projekt ist, wird das geplante Startdatum des Projekts an das geplante Startdatum dieser Aufgabe angepasst. 
+Wenn eine dieser Aufgaben die erste Aufgabe in einem Projekt ist, wird das voraussichtliche Anfangsdatum des Projekts an das geplante Startdatum dieser Aufgabe angepasst. 
 
 ## Suchen Sie nach dem geplanten Startdatum eines Projekts oder einer Aufgabe.
 
@@ -43,6 +43,6 @@ Sie können das geplante Startdatum eines Projekts oder einer Aufgabe in den fol
 
 * Sie können sie zu einem Projekt oder einem Aufgabenbericht oder einer Ansicht hinzufügen.
 
-   Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Im Abschnitt &quot;Projektdetails&quot;eines Projekts oder im Abschnitt &quot;Aufgabendetails&quot;einer Aufgabe.
+* Im Abschnitt Projektdetails eines Projekts oder im Abschnitt Aufgabendetails einer Aufgabe.

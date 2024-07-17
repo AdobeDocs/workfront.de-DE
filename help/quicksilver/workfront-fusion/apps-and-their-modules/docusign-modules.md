@@ -1,35 +1,35 @@
 ---
 title: DocuSign-Module
-description: Die [!DNL Adobe Workfront Fusion DocuSign] -Module ermöglichen es Ihnen, den Umschlagstatus zu überwachen und abzurufen, Hüllkurven zu suchen und abzurufen oder ein Dokument herunterzuladen und zu senden, um sich in Ihrem [!DNL DocuSign] -Konto.
+description: Mit den [!DNL Adobe Workfront Fusion DocuSign] Modulen können Sie den Umschlagstatus überwachen und abrufen, Umschläge suchen und abrufen oder ein Dokument herunterladen und zum Anmelden in Ihrem [!DNL DocuSign] Konto senden.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
 source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1946'
 ht-degree: 0%
 
 ---
 
 # DocuSign-Module
 
-Die [!DNL Adobe Workfront Fusion] [!DNL DocuSign] -Module ermöglichen es Ihnen, den Umschlagstatus zu überwachen und abzurufen, Hüllkurven zu suchen und abzurufen oder ein Dokument herunterzuladen und zu senden, um sich in Ihrem [!DNL DocuSign] -Konto.
+Die [!DNL Adobe Workfront Fusion] [!DNL DocuSign] -Module ermöglichen es Ihnen, den Umschlagstatus zu überwachen und abzurufen, Hüllkurse zu suchen und abzurufen oder ein Dokument herunterzuladen und zu senden, um sich in Ihrem [!DNL DocuSign] -Konto anzumelden.
 
-Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,35 +39,35 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Verwendung [!DNL DocuSign] -Module, müssen Sie über eine [!DNL DocuSign] -Konto.
+Um [!DNL DocuSign] -Module zu verwenden, müssen Sie über ein [!DNL DocuSign] -Konto verfügen.
 
-## Verbinden [!DNL DocuSign] nach [!DNL Workfront Fusion] {#connect-docusign-to-workfront-fusion}
+## [!DNL DocuSign] mit [!DNL Workfront Fusion] verbinden {#connect-docusign-to-workfront-fusion}
 
 So erstellen Sie eine Verbindung für Ihre [!DNL DocuSign] -Module:
 
-1. Klicken **[!UICONTROL Hinzufügen]** neben dem [!UICONTROL Verbindung] bei der Konfiguration des ersten [!DNL DocuSign] -Modul.
+1. Klicken Sie neben dem Feld [!UICONTROL Verbindung] auf **[!UICONTROL Hinzufügen]** , wenn Sie mit der Konfiguration des ersten [!DNL DocuSign]-Moduls beginnen.
 1. Geben Sie Folgendes ein:
 
 <table style="table-layout:auto">
@@ -76,7 +76,7 @@ So erstellen Sie eine Verbindung für Ihre [!DNL DocuSign] -Module:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Verbindungsname]</p> </td> 
-      <td>Geben Sie einen Namen für die neue [!DNL DocuSign] connection</td> 
+      <td>Geben Sie einen Namen für die neue [!DNL DocuSign]-Verbindung ein.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Kontotyp]</td> 
@@ -85,13 +85,13 @@ So erstellen Sie eine Verbindung für Ihre [!DNL DocuSign] -Module:
     </tbody> 
    </table>
 
-1. Fahren Sie wie unter [Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md#connect).
+1. Fahren Sie fort wie in [Erstellen einer Verbindung zu  [!DNL Adobe Workfront Fusion]  - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md#connect) beschrieben.
 
 ## [!DNL DocuSign] Module und ihre Felder
 
-Bei der Konfiguration [!DNL DocuSign] Module, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL DocuSign] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie [!DNL DocuSign] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL DocuSign] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -100,7 +100,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 ### Trigger
 
-#### [!UICONTROL Briefumschläge überwachen]
+#### [!UICONTROL Briefumschläge ansehen]
 
 Dieses Trigger-Modul startet ein Szenario, in dem ein Umschlag gesendet, ausgeliefert, signiert, abgeschlossen oder abgelehnt wird.
 
@@ -110,7 +110,7 @@ Dieses Trigger-Modul startet ein Szenario, in dem ein Umschlag gesendet, ausgeli
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL DocuSign] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL DocuSign]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Konto] </td> 
@@ -118,7 +118,7 @@ Dieses Trigger-Modul startet ein Szenario, in dem ein Umschlag gesendet, ausgeli
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ereignistyp]</td> 
-   <td> <p> Wählen Sie den Ereignistyp aus, den Sie überwachen möchten.</p> 
+   <td> <p> Wählen Sie den Ereignistyp aus, den Sie sehen möchten.</p> 
     <ul> 
      <li>[!UICONTROL Dokument abgeschlossen]</li> 
      <li>[!UICONTROL Dokument abgelehnt]</li> 
@@ -141,10 +141,10 @@ Dieses Trigger-Modul startet ein Szenario, in dem ein Umschlag gesendet, ausgeli
 ### Aktionen
 
 * [[!UICONTROL Benutzerspezifischer API-Aufruf]](#custom-api-call)
-* [[!UICONTROL Dokument herunterladen]](#download-a-document)
+* [[!UICONTROL Herunterladen eines Dokuments]](#download-a-document)
 * [[!UICONTROL Umschlag lesen]](#read-an-envelope)
-* [[!UICONTROL Datei in einen Umschlag hochladen]](#upload-a-file-to-an-envelope)
-* [[!UICONTROL Neuen Umschlag erstellen]](#create-a-new-envelope)
+* [[!UICONTROL Laden Sie eine Datei in einen Umschlag hoch]](#upload-a-file-to-an-envelope)
+* [[!UICONTROL Erstellen eines neuen Umschlags]](#create-a-new-envelope)
 * [[!UICONTROL Empfänger zum Umschlag hinzufügen]](#add-recipient-to-envelope)
 * [[!UICONTROL Benutzerdefiniertes Feld hinzufügen]](#add-custom-field)
 * [[!UICONTROL Benutzerdefiniertes Feld ändern]](#modify-custom-field)
@@ -160,15 +160,15 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL DocuSign] Konto [!DNL Workfront Fusion], siehe <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL DocuSign] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL DocuSign]-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL DocuSign] mit [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Konto]</td> 
-   <td>Geben Sie das Konto ein oder ordnen Sie es zu, über das Sie auf die [!DNL DocuSign] API.</td> 
+   <td>Geben Sie das Konto ein oder ordnen Sie es zu, das Sie für den Zugriff auf die [!DNL DocuSign]-API verwenden möchten.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL URL]</td> 
-   <td> <p>Geben Sie die Adresse auf dem Webserver ein, mit der das Modul interagieren soll.</p> <p>Sie können eine relative URL eingeben. Das bedeutet, dass Sie das Protokoll nicht einbeziehen müssen (z. B. <code>http://</code>) am Anfang. Dies legt dem Webserver nahe, dass die Interaktion auf dem Server stattfindet.</p> <p>Beispiel: <code>[!DNL /api/conversations].create</code></p>  </td> 
+   <td> <p>Geben Sie die Adresse auf dem Webserver ein, mit der das Modul interagieren soll.</p> <p>Sie können eine relative URL eingeben. Das bedeutet, dass Sie das Protokoll (z. B. <code>http://</code>) nicht am Anfang einbeziehen müssen. Dies legt dem Webserver nahe, dass die Interaktion auf dem Server stattfindet.</p> <p>Beispiel: <code>[!DNL /api/conversations].create</code></p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Methode]</td> 
@@ -176,7 +176,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
   </tr> 
   <tr> 
    <td>[!UICONTROL Header]</td> 
-   <td> <p>Fügen Sie die Header der Anfrage in Form eines standardmäßigen JSON-Objekts hinzu. Dadurch wird der Inhaltstyp der Anforderung bestimmt.</p> <p>Beispiel:<code> {"Content-type":"application/json"}</code></p> <p>Hinweis: Wenn Fehler auftreten und es schwierig ist, ihren Ursprung zu bestimmen, sollten Sie die Kopfzeilen basierend auf der [!DNL Workfront] Dokumentation. Wenn Ihr benutzerspezifischer API-Aufruf einen 422-HTTP-Anforderungsfehler zurückgibt, versuchen Sie, einen "Content-Type":"text/plain"-Header zu verwenden.</p> </td> 
+   <td> <p>Fügen Sie die Header der Anfrage in Form eines standardmäßigen JSON-Objekts hinzu. Dadurch wird der Inhaltstyp der Anforderung bestimmt.</p> <p>Beispiel:<code> {"Content-type":"application/json"}</code></p> <p>Hinweis: Wenn Fehler auftreten und es schwierig ist, ihren Ursprung zu bestimmen, sollten Sie die Kopfzeilen auf Grundlage der [!DNL Workfront] -Dokumentation ändern. Wenn Ihr benutzerspezifischer API-Aufruf einen 422-HTTP-Anforderungsfehler zurückgibt, versuchen Sie, einen "Content-Type":"text/plain"-Header zu verwenden.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Abfragezeichenfolge]</td> 
@@ -184,7 +184,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
   </tr> 
   <tr> 
    <td>[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -198,9 +198,9 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
 
 >[!INFO]
 >
->**Beispiel:** Briefumschläge auflisten
+>**Beispiel:** Listenumschläge
 >
->Der folgende API-Aufruf gibt Umschläge vom angegebenen Datum in Ihrer [!DNL DocuSign] Konto:
+>Der folgende API-Aufruf gibt Umschläge vom angegebenen Datum in Ihrem [!DNL DocuSign] -Konto zurück:
 >
 >**URL**: `/v2.1/accounts/{accountId}/envelopes/`
 >
@@ -222,7 +222,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
 >
 >![](assets/docusign-example-output-350x677.png)
 
-#### [!UICONTROL Dokument herunterladen]
+#### [!UICONTROL Herunterladen eines Dokuments]
 
 Dieses Aktionsmodul lädt ein einzelnes Dokument herunter.
 
@@ -232,7 +232,7 @@ Dieses Aktionsmodul lädt ein einzelnes Dokument herunter.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL DocuSign] Konto [!DNL Workfront Fusion], siehe <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL DocuSign] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td>
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL DocuSign]-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL DocuSign] mit [!DNL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Konto] </td> 
@@ -240,7 +240,7 @@ Dieses Aktionsmodul lädt ein einzelnes Dokument herunter.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Envelope ID]</td> 
-   <td> <p> Geben Sie die Kennung des Umschlags ein, den Sie herunterladen möchten, oder ordnen Sie ihn zu.</p> </td> 
+   <td> <p> Geben Sie die Kennung des Umschlags ein oder ordnen Sie ihn zu.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Dokument-ID]</p> </td> 
@@ -248,15 +248,15 @@ Dieses Aktionsmodul lädt ein einzelnes Dokument herunter.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Zertifikat]</td> 
-   <td>Auswählen <strong>[!UICONTROL Ja]</strong> , wenn Sie das Umschlagsignaturzertifikat in den Download einbeziehen möchten.</td> 
+   <td>Wählen Sie <strong>[!UICONTROL Ja]</strong> aus, wenn Sie das Umschlagsignaturzertifikat in den Download einbeziehen möchten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dokumente nach Benutzer-ID]</td> 
-   <td>Auswählen <strong>[!UICONTROL Ja]</strong> , wenn Sie zulassen möchten, dass Empfänger Dokumente anhand der Benutzer-ID abrufen können. Wenn ein Benutzer beispielsweise in zwei verschiedenen Routing-Bestellungen mit unterschiedlichen Sichtbarkeiten enthalten ist, gibt die Verwendung dieser Option alle Dokumente aus beiden Routings zurück.</td> 
+   <td>Wählen Sie <strong>[!UICONTROL Yes]</strong> aus, wenn Sie zulassen möchten, dass Empfänger Dokumente anhand der Benutzer-ID abrufen können. Wenn ein Benutzer beispielsweise in zwei verschiedenen Routing-Bestellungen mit unterschiedlichen Sichtbarkeiten enthalten ist, gibt die Verwendung dieser Option alle Dokumente aus beiden Routings zurück.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encrypt]</td> 
-   <td>Auswählen <strong>[!UICONTROL Ja]</strong> Wenn Sie möchten, dass die in der Antwort zurückgegebenen PDF-Bytes für alle in Ihrer [!DNL DocuSign] -Konto.</td> 
+   <td>Wählen Sie <strong>[!UICONTROL Yes]</strong> aus, wenn die in der Antwort zurückgegebenen PDF-Bytes für alle in Ihrem [!DNL DocuSign]-Konto konfigurierten Schlüsselmanager verschlüsselt werden sollen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sprache]</td> 
@@ -264,18 +264,18 @@ Dieses Aktionsmodul lädt ein einzelnes Dokument herunter.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Änderungen anzeigen]</td> 
-   <td>Wenn auf <strong>[!UICONTROL Ja]</strong>, werden alle geänderten Felder für die zurückgegebene PDF gelb markiert und optionale Signaturen oder Initialen sind rot dargestellt.</td> 
+   <td>Wenn der Wert auf <strong>[!UICONTROL Ja]</strong> festgelegt ist, werden alle geänderten Felder für die zurückgegebene PDF gelb hervorgehoben und optionale Signaturen oder Initialen sind rot hervorgehoben.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Wasserzeichen]</td> 
-   <td> <p>Auswählen <strong>[!UICONTROL Nein]</strong> , um das Wasserzeichen aus den PDF-Dokumenten zu entfernen.</p> </td> 
+   <td> <p>Wählen Sie <strong>[!UICONTROL No]</strong> aus, um das Wasserzeichen aus den PDF-Dokumenten zu entfernen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Umschlag lesen]
 
-Dieses Aktionsmodul liest Informationen zu einem Umschlag in [!DNL DocuSign] Verwendung der Umschlagkennung.
+Dieses Aktionsmodul liest Informationen über einen Umschlag in [!DNL DocuSign] unter Verwendung der Umschlag-ID.
 
 <table style="table-layout:auto">
  <col> 
@@ -283,7 +283,7 @@ Dieses Aktionsmodul liest Informationen zu einem Umschlag in [!DNL DocuSign] Ver
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL DocuSign] Konto [!DNL Workfront Fusion], siehe <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL DocuSign] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td>
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL DocuSign]-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL DocuSign] mit [!DNL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Konto] </td> 
@@ -300,7 +300,7 @@ Dieses Aktionsmodul liest Informationen zu einem Umschlag in [!DNL DocuSign] Ver
  </tbody> 
 </table>
 
-#### [!UICONTROL Datei in einen Umschlag hochladen]
+#### [!UICONTROL Laden Sie eine Datei in einen Umschlag hoch]
 
 Dieses Modul lädt eine bestimmte Datei in einen vorhandenen Umschlag in DocuSign hoch.
 
@@ -310,7 +310,7 @@ Dieses Modul lädt eine bestimmte Datei in einen vorhandenen Umschlag in DocuSig
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL DocuSign] Konto [!DNL Workfront Fusion], siehe <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL DocuSign] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td>
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL DocuSign]-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL DocuSign] mit [!DNL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Konto] </td> 
@@ -321,13 +321,13 @@ Dieses Modul lädt eine bestimmte Datei in einen vorhandenen Umschlag in DocuSig
    <td> <p> Geben Sie die Kennung des Umschlags ein, in den Sie eine Datei hochladen möchten, oder ordnen Sie sie zu.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quelldatei]</td> 
+   <td role="rowheader">[!UICONTROL Source-Datei]</td> 
    <td>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder geben Sie den Namen und die Daten der Quelldatei ein.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Neuen Umschlag erstellen]
+#### [!UICONTROL Erstellen eines neuen Umschlags]
 
 Dieses Aktionsmodul erstellt einen neuen Umschlag aus einer Vorlage. Es werden die Kennung des neuen Umschlags sowie der Status des neuen Umschlags zurückgegeben.
 
@@ -338,7 +338,7 @@ Dieses Aktionsmodul erstellt einen neuen Umschlag aus einer Vorlage. Es werden d
   <tr> 
     <td role="rowheader">[!UICONTROL Verbindung] </td>
 
-<td> <p>Anweisungen zum Verbinden Ihres DocuSign-Kontos mit Workfront Fusion finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">App oder Webdienst des Moduls mit Workfront Fusion verbinden</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in Adobe Workfront Fusion</a>.</p> </td> 
+<td> <p>Anweisungen zum Verbinden Ihres DocuSign-Kontos mit Workfront Fusion finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit Workfront Fusion</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in Adobe Workfront Fusion</a> .</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Konto] </td>
@@ -371,7 +371,7 @@ Dieses Aktionsmodul fügt einen oder mehrere Empfänger zu einem vorhandenen Ums
  <tbody> 
   <tr data-mc-conditions=""> 
     <td>[!UICONTROL Verbindung] </td>
-   <td> <p>Anweisungen zum Verbinden Ihres DocuSign-Kontos mit Workfront Fusion finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">App oder Webdienst des Moduls mit Workfront Fusion verbinden</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres DocuSign-Kontos mit Workfront Fusion finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit Workfront Fusion</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in Adobe Workfront Fusion</a> .</p> </td> 
   </tr> 
   <tr data-mc-conditions="">
     <td>[!UICONTROL Konto] </td>
@@ -422,7 +422,7 @@ Dieses Aktionsmodul fügt einen oder mehrere Empfänger zu einem vorhandenen Ums
     <ul> 
      <li> <p><strong>[!UICONTROL None]</strong> </p> </li> 
      <li> <p><strong>[!UICONTROL Zugriffscode]</strong> </p> <p>Geben Sie den Zugriffscode ein oder ordnen Sie ihn zu.</p> </li> 
-     <li> <p><strong>[!UICONTROL Phone]</strong> </p> <p>Telefonnummer eingeben oder zuordnen</p> </li> 
+     <li> <p><strong>[!UICONTROL Telefon]</strong> </p> <p>Telefonnummer eingeben oder zuordnen</p> </li> 
      <li> <p><strong>[!UICONTROL SMS]</strong> </p> <p>Telefonnummer eingeben oder zuordnen</p> </li> 
     </ul> </td> 
   </tr> 
@@ -439,7 +439,7 @@ Dieses Aktionsmodul fügt ein benutzerdefiniertes Feld zum Dokument hinzu.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL DocuSign] Konto [!DNL Workfront Fusion], siehe <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL DocuSign] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td>
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL DocuSign]-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL DocuSign] mit [!DNL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Konto] </td> 
@@ -478,7 +478,7 @@ Dieses Aktionsmodul ändert ein benutzerdefiniertes Feld unter Verwendung des Fe
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL DocuSign] Konto [!DNL Workfront Fusion], siehe <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL DocuSign] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td>
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL DocuSign]-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL DocuSign] mit [!DNL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Konto] </td> 
@@ -521,7 +521,7 @@ Dieses Aktionsmodul sendet einen Briefumschlagentwurf an seine Empfänger.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL DocuSign] Konto [!DNL Workfront Fusion], siehe <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL DocuSign] nach [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td>
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL DocuSign]-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL DocuSign] mit [!DNL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Konto] </td> 

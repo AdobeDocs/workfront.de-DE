@@ -20,12 +20,12 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Woche vom 25
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 ## Adobe Workfront Testversand-Connector ist jetzt für Benutzer mit einer Workfront Fusion for Automation-Lizenz verfügbar
 
-Da Workfront Proof so eng mit Workfront integriert ist und eine wichtige Komponente vieler Workfront-Workflows ist, stellen wir den Workfront-Testversand-Connector für Unternehmen mit einer Workfront Fusion for Work Automation-Lizenz zur Verfügung. Jetzt können Sie Workfront Proof in Ihren Fusion-Szenarien unabhängig von der Lizenz verwenden.
+Da Workfront Proof so eng mit Workfront integriert ist und eine wichtige Komponente vieler Workfront-Workflows ist, stellen wir den Workfront Proof-Connector für Unternehmen mit einer Workfront Fusion for Work Automation-Lizenz zur Verfügung. Jetzt können Sie Workfront Proof in Ihren Fusion-Szenarien unabhängig von der Lizenz verwenden.
 
-Zuvor war der Workfront Testversand-Connector nur für Unternehmen mit einer Workfront Fusion for Work Automation and Integration-Lizenz verfügbar.
+Zuvor war der Workfront Proof-Connector nur für Unternehmen mit einer Workfront Fusion for Work Automation and Integration-Lizenz verfügbar.
 
 Weitere Informationen finden Sie unter [Adobe Workfront Fusion-Lizenzen](../../../workfront-fusion/get-started/license-automation-vs-integration.md).

@@ -8,7 +8,7 @@ feature: Product Announcements
 exl-id: d7147641-ba36-422b-a9b2-3c2f4ab609d8
 source-git-commit: f05b462ff596ccc19215ca684802a9820a98211a
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,15 @@ POP-Technologie ist eine unzuverlässige, weniger sichere E-Mail-Option. Darübe
 
 ## Welche Maßnahmen muss ich ergreifen?
 
-Sie müssen für jede Anforderungswarteschlange, die Sie mit POP-E-Mails in Ihrer Produktionsumgebung eingerichtet haben, eine neue E-Mail-Adresse einrichten und die neue E-Mail-Adresse nach Bedarf verteilen. Weitere Informationen finden Sie unter [Benutzer können ein Problem per E-Mail an ein Anforderungswarteschlangenprojekt senden](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Sie müssen für jede Anforderungswarteschlange, die Sie mit POP-E-Mails in Ihrer Produktionsumgebung eingerichtet haben, eine neue E-Mail-Adresse einrichten und die neue E-Mail-Adresse nach Bedarf verteilen. Weitere Informationen finden Sie unter [Aktivieren von Benutzern, ein Problem per E-Mail an ein Projekt in der Anforderungswarteschlange zu senden](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 ## Was ist der Übergangsplan?
 
-Ab Version 21.1 Anfang Februar haben Sie 60 Tage Zeit, Ihre Benutzer auf die neue Version umzustellen *@inlet.workfront.com* von Ihnen erstellte E-Mail-Adresse. Während des 60-tägigen Zeitraums funktioniert die zuvor verwendete POP-E-Mail weiterhin.
+Ab der Version 21.1 Anfang Februar haben Sie 60 Tage Zeit, Ihre Benutzer auf die neue E-Mail-Adresse *@take.workfront.com* umzustellen, die Sie erstellen. Während des 60-tägigen Zeitraums funktioniert die zuvor verwendete POP-E-Mail weiterhin.
 
 ## Wie kann ich dies in der Vorschau testen?
 
-Um diese Änderung in der Vorschau zu testen, müssen Sie E-Mails in Ihrer Vorschau-Umgebung aktivieren. Befolgen Sie dazu die Anweisungen im Abschnitt E-Mails in der Vorschau verwalten unter [Aktivieren des Versands von E-Mails aus der Vorschau-Sandbox-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Um diese Änderung in der Vorschau zu testen, müssen Sie E-Mails in Ihrer Vorschau-Umgebung aktivieren. Befolgen Sie dazu die Anweisungen im Abschnitt Verwalten von E-Mails in der Vorschau in [Aktivieren des Versands von E-Mails aus der Vorschau-Sandbox-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!IMPORTANT]
 >

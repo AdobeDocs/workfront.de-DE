@@ -6,19 +6,19 @@ description: Bei Verwendung der Aktion "Dokument verschiebenToFolder"wird ein 42
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+exl-id: 811efabc-e101-4de5-a800-a1447654dc3e
+source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # Die Aktion &quot;Dokument verschiebenToFolder&quot;funktioniert nicht
 
 ## Problem
 
-Bei Verwendung des Dokumentobjekts `moveToFolder` -Aktion verwenden, wird ein 422-Fehler zurückgegeben.
+Bei Verwendung der Aktion &quot;`moveToFolder`&quot; des Dokumentobjekts wird ein 422-Fehler zurückgegeben.
 
 Oder
 

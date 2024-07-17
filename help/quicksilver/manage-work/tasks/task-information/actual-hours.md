@@ -24,7 +24,7 @@ Es wird empfohlen, Stunden für Arbeitselemente zu protokollieren, bei denen es 
 
 Als Workfront-Administrator können Sie Benutzern jedoch auch die Möglichkeit geben, sich in Projekten zu registrieren, je nachdem, welche Workflows in Ihrem Unternehmen ausgeführt werden.
 
-Weitere Informationen zum Einrichten Ihres Systems, das Benutzern die Möglichkeit gibt, sich bei Projekten anzumelden, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Weitere Informationen zum Einrichten Ihres Systems, das Benutzern die Möglichkeit gibt, in Projekten zu protokollieren, finden Sie unter [Konfigurieren von Voreinstellungen für Zeitblätter und Stunden](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Zugriffsanforderungen
 
@@ -36,7 +36,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -48,7 +48,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für eine Aufgabe, ein Projekt oder ein Problem</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für eine Aufgabe, ein Projekt oder ein Problem</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +82,7 @@ Die Suche nach dem Wert für &quot;Tatsächliche Stunden&quot;für ein Element i
 Informationen zu Aufgaben finden Sie in den folgenden Ordnern:
 
 * [Tatsächliche Stunden im Detailabschnitt](#actual-hours-in-the-details-section)
-* [Tatsächliche Stunden im Abschnitt Stunden](#actual-hours-in-the-hours-section)
+* [Tatsächliche Stunden im Abschnitt &quot;Stunden&quot;](#actual-hours-in-the-hours-section)
 * [Tatsächliche Stunden in Berichten](#actual-hours-in-reports)
 * [Tatsächliche Stunden in Ressourcen-Management-Tools](#actual-hours-in-resource-management-tools)
 
@@ -93,8 +93,8 @@ Die Suche nach tatsächlichen Stunden im Bereich Details ist für Projekte, Aufg
 So suchen Sie tatsächliche Stunden in Aufgabendetails:
 
 1. Gehen Sie zu einer Aufgabe, für die Sie die tatsächlichen Stunden überprüfen möchten.
-1. Klicken **Aufgabendetails** im linken Bereich.
-1. Klicken **Übersicht** und beachten Sie die **Tatsächliche Stunden** -Wert.
+1. Klicken Sie im linken Bereich auf **Aufgabendetails** .
+1. Klicken Sie auf **Übersicht** und beachten Sie den Wert **Tatsächliche Stunden** .
 
    Dies ist die Gesamtzahl der Stunden, die bei dieser Aufgabe protokolliert wurden.
 
@@ -105,15 +105,15 @@ Die Suche nach tatsächlichen Stunden im Abschnitt Stunden ist für Projekte, Au
 So suchen Sie den Abschnitt &quot;Tatsächliche Stunden in Stunden&quot;:
 
 1. Gehen Sie zu einer Aufgabe, für die Sie die tatsächlichen Stunden überprüfen möchten.
-1. Klicken **Stunden** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Stunden** .
 
-   Abhängig von Ihrer Konfiguration kann der Abschnitt Stunden unter **Mehr anzeigen**.
+   Abhängig von Ihrer Konfiguration wird der Abschnitt Stunden möglicherweise unter **Mehr anzeigen** aufgeführt.
 
    Dadurch wird eine Liste der für die Aufgabe protokollierten Stundeneinträge angezeigt.
 
-1. Stellen Sie sicher, dass **Standard** und **Projekt** Gruppierung wird auf diese Liste angewendet.
+1. Stellen Sie sicher, dass die **Standard** -Ansicht und die **Projekt** -Gruppierung auf diese Liste angewendet werden.
 
-   Die in der Gruppierungszeile für die **Stunden** gibt die Gesamtzahl der tatsächlichen Stunden für die Aufgabe an.
+   Die in der Gruppierungszeile für die Spalte **Stunden** angezeigte Zahl entspricht der Gesamtzahl der tatsächlichen Stunden für die Aufgabe.
 
 ### Tatsächliche Stunden in Berichten {#actual-hours-in-reports}
 
@@ -123,12 +123,12 @@ Das Hinzufügen der Spalte &quot;Tatsächliche Stunden&quot;zu einer Aufgabenans
 
 So zeigen Sie die tatsächlichen Stunden in einem Aufgabenbericht an:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Berichte**.
-1. Klicken **Neuer Bericht**, wählen Sie **Aufgabe** als Objekt.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Workfront und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
+1. Klicken Sie auf **Neuer Bericht** und wählen Sie dann **Aufgabe** als Objekt aus.
 
-1. Klicken **Spalte hinzufügen** und beginnen Sie mit der Eingabe **Tatsächliche Stunden** wenn die **In dieser Spalte anzeigen** angezeigt. Wählen Sie das Feld aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen** und geben Sie **Tatsächliche Stunden** ein, wenn das Dropdown-Feld **In dieser Spalte anzeigen** angezeigt wird. Wählen Sie das Feld aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken **Speichern und schließen** , um den Bericht zu speichern.
+1. Klicken Sie auf **Speichern + Schließen** , um den Bericht zu speichern.
 
    In der Spalte &quot;Tatsächliche Stunden&quot;wird die Anzahl der Stunden angezeigt, die bei jeder Aufgabe protokolliert wurden.
 
@@ -137,13 +137,13 @@ So zeigen Sie die tatsächlichen Stunden in einem Aufgabenbericht an:
 Wenn Sie den Fortschritt der Arbeit sehen möchten, die Ihre Benutzer an ihren zugewiesenen Aufgaben und Problemen durchführen, können Sie sie in den folgenden Tools für die Ressourcenverwaltung anzeigen:
 
 * Nutzungsbericht\
-   Informationen zum Nutzungsbericht finden Sie unter [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+  Informationen zum Nutzungsbericht finden Sie unter [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * Ressourcenplaner.
 
-   Informationen zur Anzeige der tatsächlichen Stunden im Ressourcenplaner finden Sie unter [Anzeigen der verfügbaren, geplanten und tatsächlichen Stunden oder der FTE im Ressourcenplaner bei Verwendung der Benutzeransicht](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+  Informationen zum Anzeigen der tatsächlichen Stunden im Ressourcenplaner finden Sie unter [Verfügbare, geplante und tatsächliche Stunden anzeigen oder FTE im Ressourcenplaner bei Verwendung der Benutzeransicht](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
-## Protokollzeit
+## Zeit erfassen
 
 Sie können die Zeit für Aufgaben, Probleme und Projekte auf verschiedene Arten protokollieren.
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen für Administratoren beschrieben, die mit Version 21.3 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 21. Juli 2021 bereitgestellt.
 
-Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 - Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Blueprints, die in der Produktion mit Version 21.3 verfügbar sind
 
@@ -27,7 +27,7 @@ Blueprints bietet grundlegende Bausteine, mit denen Sie ein Arbeitsverwaltungssy
 
 Weitere Informationen finden Sie unter [Blueprints - Übersicht](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Diese Funktion ist jetzt im [Projektvorlagen im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt in den [Projektvorlagen im neuen Lernpfad für das Workfront-Erlebnis](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) auf Workfront One enthalten.
 
 ## Neu für Gruppenadministratoren: Erstellen und verwalten Sie Status für eine Gruppe auf allen Ebenen
 
@@ -49,7 +49,7 @@ Weitere Informationen finden Sie unter [Verwalten von Gruppenstatus](../../../ad
 
 Jetzt können Sie verbessern, wie Benutzer Rechnungsinformationen erfassen, indem Sie ein benutzerdefiniertes Formular für Rechnungsdatensätze erstellen. Benutzer können das benutzerdefinierte Formular an einen Rechnungsdatensatz anhängen, es ausfüllen und Berichte ausführen, die die Informationen im Formular enthalten.
 
-Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-Informationen zum Anhängen eines benutzerdefinierten Formulars für die Rechnungsstellung an ein Projekt finden Sie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Weitere Informationen zum Anhängen eines benutzerdefinierten Rechnungsdatensatzformulars an ein Projekt finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

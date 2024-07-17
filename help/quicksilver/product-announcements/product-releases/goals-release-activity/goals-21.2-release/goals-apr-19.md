@@ -2,14 +2,14 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: 'Aktivität "Adobe Workfront-Ziele 21.2": Woche vom 19. April 2021'''
+title: 'Aktivität "Adobe Workfront Goals 21.2": Woche vom 19. April 2021'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 21.2 für Adobe Workfront Goals to the Preview environment in der Woche vom 19. April 2021 vorgenommen wurden. Diese Verbesserungen werden im ersten Quartal 21.2 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: afff3bfc-f888-46fd-8dc9-18b89289d8cd
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 21.
 
 Eine Liste aller Änderungen, die für Workfront-Ziele zu diesem Zeitpunkt im Versionszyklus 21.2 verfügbar sind, finden Sie unter [Adobe Workfront-Ziele mit Version 21.2](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
 
-Eine Liste aller Änderungen, die für alle Bereiche von Workfront zu diesem Zeitpunkt im Versionszyklus 21.2 verfügbar sind, finden Sie unter [21.2 Versionsübersicht](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Eine Liste aller Änderungen, die derzeit im 21.2-Versionszyklus für alle Bereiche von Workfront verfügbar sind, finden Sie unter [21.2 - Versionsübersicht](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Bearbeiten von Zielen aus früheren Zeiträumen in Workfront-Zielen
 
@@ -33,7 +33,7 @@ Um Ihnen bei der effizienteren Verwaltung Ihrer Ziele zu helfen, haben wir eine 
 Informationen zum Bearbeiten und Erstellen von Zielen finden Sie unter:
 
 * [Ziele in Adobe Workfront bearbeiten](../../../../workfront-goals/goal-management/edit-goals.md)
-* [Erstellen von Zielen in Adobe Workfront-Zielen](../../../../workfront-goals/goal-management/create-goals.md)
+* [Ziele in Adobe Workfront erstellen](../../../../workfront-goals/goal-management/create-goals.md)
 
 ## Eine aktualisierte Zielliste für Workfront-Ziele
 

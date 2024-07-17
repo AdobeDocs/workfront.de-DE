@@ -10,7 +10,7 @@ exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
 source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md)
 * [Pinnwand löschen oder archivieren](/help/quicksilver/agile/get-started-with-boards/delete-archive-board.md)
 * [Hinzufügen oder Entfernen von Mitgliedern aus einer Pinnwand](../../agile/get-started-with-boards/add-members-to-board.md)
-* [Pinnwandspalten verwalten](../../agile/get-started-with-boards/manage-board-columns.md)
+* [Verwalten von Pinnwandspalten](../../agile/get-started-with-boards/manage-board-columns.md)
 * [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md)
 * [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 * [Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)

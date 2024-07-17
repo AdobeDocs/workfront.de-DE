@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Kennwort eines Benutzers mit verbesserter Authentifizierung zurücksetzen
-description: Wenn die erweiterte Authentifizierung (eAuth) für Ihre [!DNL Workfront] Umgebung, [!DNL Workfront] -Administrator kann Anmeldedaten für einen anderen Benutzer nicht zurücksetzen. Dies unterscheidet sich von [!DNL Workfront] Umgebungen ohne eAuth oder Umgebungen, für die Single Sign-On (SSO) aktiviert ist.
+description: Wenn die erweiterte Authentifizierung (eAuth) für Ihre [!DNL Workfront] Umgebung aktiviert ist, kann ein [!DNL Workfront] Administrator die Anmeldedaten für einen anderen Benutzer nicht zurücksetzen. Dies unterscheidet sich von [!DNL Workfront] Umgebungen ohne eAuth oder Umgebungen, für die Single Sign-On (SSO) aktiviert ist.
 author: Lisa
 feature: Get Started with Workfront
 hide: true
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--This article has been hidden by request-->
 
-Wenn die erweiterte Authentifizierung (eAuth) für Ihre [!DNL Workfront] Umgebung, [!DNL Workfront] -Administrator kann Anmeldedaten für einen anderen Benutzer nicht zurücksetzen. Dies unterscheidet sich von [!DNL Workfront] Umgebungen ohne eAuth oder Umgebungen, für die Single Sign-On (SSO) aktiviert ist.
+Wenn die erweiterte Authentifizierung (eAuth) für Ihre [!DNL Workfront]-Umgebung aktiviert ist, kann ein [!DNL Workfront] -Administrator die Anmeldedaten für einen anderen Benutzer nicht zurücksetzen. Dies unterscheidet sich von [!DNL Workfront] Umgebungen ohne eAuth oder Umgebungen, für die Single Sign-On (SSO) aktiviert ist.
 
 ## Zugriffsanforderungen
 
@@ -44,21 +44,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Zurücksetzen des Kennworts eines Benutzers in einer eAuth-aktivierten Umgebung
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Workfront]Klicken Sie auf **[!UICONTROL Benutzer]** ![](assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Workfront] und dann auf **[!UICONTROL Benutzer]** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
 
    ![](assets/main-menu-options-350x481.png)
 
-1. Wählen Sie die **[!UICONTROL Benutzer]** , für die ein Zurücksetzen des Kennworts erforderlich ist.
+1. Wählen Sie den **[!UICONTROL Benutzer]** aus, für den das Kennwort zurückgesetzt werden muss.
    ![](assets/100520classicnweselectuser-350x105.png)
 
-1. Klicken Sie auf **[!UICONTROL Mehr] button** wird angezeigt, nachdem Sie die gewünschte **[!UICONTROL Benutzer]** und wählen Sie die **[!UICONTROL E-Mail zum vergessenen Kennwort senden]** aus dem Dropdown-Menü.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** , die angezeigt wird, nachdem Sie den gewünschten **[!UICONTROL Benutzer]** ausgewählt haben, und wählen Sie die Option **[!UICONTROL Kennwort-E-Mail senden]** aus dem Dropdown-Menü aus.
 
    ![](assets/100520classicnwesendemail-350x134.png)
 
-Nach Auswahl der **[!UICONTROL E-Mail zum vergessenen Kennwort senden]** an den ausgewählten Benutzer eine E-Mail gesendet, die ihm Anweisungen zum Ändern seines eigenen Kennworts enthält.
+Nach Auswahl der Option &quot;**[!UICONTROL Kennwort vergessen senden&quot;]**&quot;wird eine E-Mail an den ausgewählten Benutzer gesendet, die Anweisungen zum Ändern des eigenen Kennworts enthält.
 
 ![](assets/pwresetemail-resized-350x461.png)

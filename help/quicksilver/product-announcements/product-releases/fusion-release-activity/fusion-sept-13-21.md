@@ -20,7 +20,7 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Woche vom 23
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 ## Ausführungsverlauf des Workfront Fusion-Szenarios filtern und sortieren
 
@@ -41,7 +41,7 @@ Wir haben es auch möglich gemacht, den Ausführungsverlauf des Szenarios zu sor
 * Anzahl der Vorgänge
 * Menge der übertragenen Daten
 
-Weitere Informationen zum Filtern und Sortieren des Ausführungsverlaufs finden Sie unter [Ausführungsverlauf eines Szenarios in Adobe Workfront Fusion anzeigen](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Weitere Informationen zum Filtern und Sortieren des Ausführungsverlaufs finden Sie unter [Anzeigen des Ausführungsverlaufs eines Szenarios in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Hilfe-Links in Fusion führen jetzt zu bestimmten Artikeln
 
@@ -57,7 +57,7 @@ Um mehr Klarheit in der Ausführungstabelle des Szenarios zu schaffen, wurde die
 
 Zuvor hatten alle Ausführungen die Schaltfläche Details und gelegentlich klickten Benutzer nur in die Details, um festzustellen, dass keine Details verfügbar waren.
 
-Weitere Informationen finden Sie unter [Ausführungsverlauf eines Szenarios in Adobe Workfront Fusion anzeigen](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Weitere Informationen finden Sie unter [Anzeigen des Ausführungsverlaufs eines Szenarios in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Das Zeitlimit des SDL Managed Translation Connectors wurde auf 120 Sekunden erhöht
 

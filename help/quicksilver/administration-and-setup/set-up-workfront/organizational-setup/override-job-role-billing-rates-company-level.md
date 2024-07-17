@@ -10,8 +10,8 @@ role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
 source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 1%
+source-wordcount: '487'
+ht-degree: 0%
 
 ---
 
@@ -30,8 +30,8 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -39,37 +39,37 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf Unternehmen, wenn Sie kein Systemadministrator sind</p> <p>[!UICONTROL Zugriff auf Finanzdaten bearbeiten</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zur Verwendung von [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Administratorzugriff auf Unternehmen, wenn Sie kein Systemadministrator sind</p> <p>[!UICONTROL Zugriff auf Finanzdaten bearbeiten</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Feste Abrechnungsrate für eine bestimmte Stellenrolle überschreiben oder ändern
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe] Workfront, und klicken Sie dann auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe] Workfront und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **[!UICONTROL Unternehmen]**.
+1. Klicken Sie auf **[!UICONTROL Unternehmen]**.
 1. Suchen Sie das Unternehmen, dem die Auftragsrolle zugewiesen ist.
 1. Klicken Sie auf den Unternehmensnamen in der Liste.
-1. Klicks **[!UICONTROL Abrechnungssätze]** im linken Bereich.
-1. Klicks **[!UICONTROL Abrechnungsrate hinzufügen] > [!UICONTROL Neuer Abrechnungskurs]** oder wählen Sie eine vorhandene Rate aus, die bearbeitet werden soll.
-1. Im [!UICONTROL Neuer Abrechnungskurs] ein Dialogfeld [!UICONTROL **Auftragsrolle**] , um den Abrechnungskurs für festzulegen.
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Abrechnungsraten]**.
+1. Klicken Sie auf **[!UICONTROL Abrechnungsrate hinzufügen] > [!UICONTROL Neue Abrechnungsrate]** oder wählen Sie eine vorhandene Rate aus, die bearbeitet werden soll.
+1. Wählen Sie im Dialogfeld [!UICONTROL Neue Abrechnungsrate] eine [!UICONTROL **Auftragsrolle**] aus, um die Abrechnungsrate für festzulegen.
 
-   Die [!UICONTROL **Standardabrechnungsrate**] zeigt die Rate auf Systemebene für diese Auftragsrolle an.
+   Die [!UICONTROL **standardmäßige Abrechnungsrate**] zeigt die Systemebene der Auftragsrolle an.
 
    ![Dialogfeld &quot;Neue Abrechnungsrate&quot;](assets/date-effective-billing-rates-for-company.png)
 
-1. Im [!DNL **Abrechnungssätze 1**] Geben Sie den Abrechnungskurs ein. Klicken Sie anschließend auf [!UICONTROL **Speichern**] um die Abrechnungsrate einmal zu überschreiben.
+1. Geben Sie im Feld [!DNL **Abrechnungsraten 1**] den Abrechnungskurs ein. Klicken Sie dann auf [!UICONTROL **Speichern**] , um die Abrechnungsrate einmal zu überschreiben.
 
    Oder
 
-   Klicks [!UICONTROL **Rate hinzufügen**] , um weitere Abrechnungssätze mit effektiven Daten hinzuzufügen.
+   Klicken Sie auf [!UICONTROL **Rate hinzufügen**] , um weitere Abrechnungsraten mit effektiven Datumswerten hinzuzufügen.
 
 1. (Bedingt) Wenn Sie mehr als eine Abrechnungsrate hinzufügen, geben Sie die folgenden Informationen ein:
 
-   * **[!UICONTROL Abrechnungssätze 1], 2 usw.**: Der Wert des Abrechnungskurses für den Zeitraum.
+   * **[!UICONTROL Abrechnungsraten 1], 2 usw.**: Der Wert des Abrechnungskurses für den Zeitraum.
    * **[!UICONTROL Startdatum]**: Das Datum, an dem die Rate wirksam wird.
    * **[!UICONTROL Enddatum]**: Das Datum, an dem die Rate endet.
 
@@ -79,4 +79,4 @@ Sie müssen über Folgendes verfügen:
 
    >[!NOTE]
    >
-   >Die auf dem Projekt geänderten Job-Rollenraten wirken sich nur auf dieses Projekt aus. Die auf Unternehmensebene geänderten Tarife wirken sich auf alle Projekte aus. Weitere Informationen finden Sie unter [Übersicht über die Außerkraftsetzung der Abrechnungsraten von Auftragsrollen und die Berechnung des Umsatzes eines Projekts](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+   >Die auf dem Projekt geänderten Job-Rollenraten wirken sich nur auf dieses Projekt aus. Die auf Unternehmensebene geänderten Tarife wirken sich auf alle Projekte aus. Weitere Informationen finden Sie unter [Übersicht über die Außerkraftsetzung der Abrechnungsraten für Auftragsrollen und die Berechnung des Umsatzes für ein Projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).

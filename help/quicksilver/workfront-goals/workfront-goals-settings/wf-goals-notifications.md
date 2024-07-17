@@ -20,7 +20,7 @@ Adobe Workfront Goals enthält eine Reihe von Ereignisbenachrichtigungen, die Si
 
 Informationen dazu, welche Benachrichtigungen Sie für Workfront-Ziele aktivieren können, finden Sie unter [Benachrichtigungen: Ziele](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Informationen zur Verwaltung von Benachrichtigungen in Adobe Workfront finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Informationen zum Verwalten von Benachrichtigungen in Adobe Workfront finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

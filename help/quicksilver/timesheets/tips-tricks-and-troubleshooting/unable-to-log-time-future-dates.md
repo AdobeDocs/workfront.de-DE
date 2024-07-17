@@ -30,12 +30,12 @@ Systemadministratoren können eine Einstellung aktualisieren, damit Sie die Zeit
 
 Als Systemadministrator gehen Sie wie folgt vor:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Erweitern **Timesheets und Stunden** Klicken Sie auf **Voreinstellungen**.
+1. Erweitern Sie **Timesheets und Stunden** und klicken Sie dann auf **Voreinstellungen**.
 
-1. Im **Allgemeine Voreinstellungen** auswählen, wählen Sie die **Protokollzeiten für zukünftige Daten**.
+1. Wählen Sie im Abschnitt **Allgemeine Voreinstellungen** die Option **Protokollstunden für zukünftige Datumsangaben** aus.
 
 1. Klicken Sie auf **Speichern**.
 
-Weitere Informationen zu diesen und anderen Optionen bezüglich Timesheets und Stunden finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Weitere Informationen zu diesen und anderen Optionen bezüglich Timesheets und Stunden finden Sie unter [Konfigurieren von Timesheet- und Stundeneinstellungen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

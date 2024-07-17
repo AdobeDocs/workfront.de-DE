@@ -8,41 +8,41 @@ feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 4%
+source-wordcount: '643'
+ht-degree: 2%
 
 ---
 
 # Aufgabe freigeben
 
-Ihr Adobe Workfront-Administrator kann Ihnen Zugriff auf die Ansicht oder Bearbeitung von Aufgaben gewähren, wenn Sie Zugriffsebenen zuweisen. Weitere Informationen zur Gewährung des Zugriffs auf Aufgaben finden Sie unter [Zugriff auf Aufgaben gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
+Ihr Adobe Workfront-Administrator kann Ihnen Zugriff auf die Ansicht oder Bearbeitung von Aufgaben gewähren, wenn Sie Zugriffsebenen zuweisen. Weitere Informationen zur Gewährung des Zugriffs auf Aufgaben finden Sie unter [Gewähren des Zugriffs auf Aufgaben](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
-Neben der Zugriffsstufe, die Benutzern zugewiesen wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Beitragen oder Verwalten bestimmter Aufgaben erteilen, auf die Sie Zugriff haben.
+Neben der Zugriffsstufe, die Benutzern zugewiesen wird, können Sie ihnen auch Berechtigungen für die Anzeige, Contribute oder Verwaltung bestimmter Aufgaben erteilen, auf die Sie Zugriff haben.
 
 Berechtigungen beziehen sich auf ein Element in Workfront und legen fest, welche Aktionen für dieses Element durchgeführt werden können.
 
 ## Überlegungen beim Freigeben einer Aufgabe
 
-Zusätzlich zu den unten stehenden Überlegungen siehe [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-* Der Ersteller einer Aufgabe hat standardmäßig die Berechtigung &quot;Verwalten&quot;.
+* Der Ersteller einer Aufgabe verfügt standardmäßig über die Berechtigung &quot;Verwalten&quot;.
 * Sie können Aufgaben einzeln oder mehrere gleichzeitig gemeinsam nutzen.\
-   Das Freigeben von Aufgaben ist mit dem Freigeben anderer Objekte identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Objekt freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+  Das Freigeben von Aufgaben ist mit dem Freigeben anderer Objekte identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Sie können einer Aufgabe die folgenden Berechtigungen erteilen: 
 
    * Anzeigen
    * Verwalten
    * Mitwirken\
-      ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
+     ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
 
 * Wenn Sie eine Aufgabe freigeben, erben Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit der Aufgabe verknüpft sind. Beispielsweise erben sie dieselben Berechtigungen für die untergeordneten Aufgaben, Probleme und Dokumente, die mit der Aufgabe verknüpft sind.\
-   Weitere Informationen zur Hierarchie von Objekten in Workfront finden Sie unter  [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Weitere Informationen zur Hierarchie von Objekten in Workfront finden Sie unter  [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-   Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten in der Zugriffsebene des Benutzers erben sollen. Weitere Informationen zum Einschränken von geerbten Berechtigungen auf Dokumente finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten in der Zugriffsebene des Benutzers erben sollen. Weitere Informationen zum Einschränken von geerbten Berechtigungen auf Dokumente finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Sie können geerbte Berechtigungen aus einer Aufgabe entfernen.\
-   Weitere Informationen zum Entfernen vererbter Berechtigungen von Objekten finden Sie unter  [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+  Weitere Informationen zum Entfernen vererbter Berechtigungen von Objekten finden Sie unter  [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Möglichkeiten zum Freigeben einer Aufgabe
 
@@ -50,21 +50,22 @@ Sie können eine Aufgabe wie folgt freigeben:
 
 * Manuell, entweder einzeln oder in großen Mengen. Die manuelle Freigabe von Aufgaben ähnelt der Freigabe anderer Objekte in Workfront.
 
-   Weitere Informationen zum Freigeben von Objekten in Workfront finden Sie unter  [Objekt freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+  Weitere Informationen zum Freigeben von Objekten in Workfront finden Sie unter  [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Gehen Sie wie folgt vor:
 
-   * Legen Sie die Berechtigungen für die übergeordneten Objekte der Aufgabe fest: Projekt, Programm oder Portfolio. Aufgaben erben die Berechtigungen von ihren übergeordneten Objekten. Informationen zum Anzeigen von geerbten Berechtigungen für Objekte finden Sie unter [Vererbte Berechtigungen für Objekte anzeigen](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Fügen Sie Entitäten zur Projektfreigabe in einer Vorlage hinzu, die zum Erstellen des Projekts verwendet wird, in dem sich die Aufgabe befindet. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Vorlage freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Legen Sie die Berechtigungen für die übergeordneten Objekte der Aufgabe fest: Projekt, Programm oder Portfolio. Aufgaben erben die Berechtigungen von ihren übergeordneten Objekten. Weitere Informationen zum Anzeigen von geerbten Berechtigungen für Objekte finden Sie unter [Vererbte Berechtigungen für Objekte anzeigen](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+   * Fügen Sie Entitäten zur Projektfreigabe in einer Vorlage hinzu, die zum Erstellen des Projekts verwendet wird, in dem sich die Aufgabe befindet. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Legen Sie die Berechtigungen für alle Aufgaben in einem Projekt fest, wenn Sie das Projekt bearbeiten. Informationen zum Verwalten des Zugriffs auf Aufgaben im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie unter [](../../manage-work/projects/manage-projects/edit-projects.md#access) im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
-   >[!TIP]
-   >
-   >Wenn Sie nicht angeben, welche Aufgabenberechtigungen Benutzer erhalten sollen, wenn sie den Aufgaben im Projekt zugewiesen werden, erhalten sie standardmäßig dieselben Berechtigungen für das Projekt.
+   * Legen Sie die Berechtigungen für alle Aufgaben in einem Projekt fest, wenn Sie das Projekt bearbeiten. Informationen zum Verwalten des Zugriffs auf Aufgaben im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im Abschnitt [](../../manage-work/projects/manage-projects/edit-projects.md#access) im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md) .
+
+  >[!TIP]
+  >
+  >Wenn Sie nicht angeben, welche Aufgabenberechtigungen Benutzer erhalten sollen, wenn sie den Aufgaben im Projekt zugewiesen werden, erhalten sie standardmäßig dieselben Berechtigungen für das Projekt.
 
 ## Aufgabenberechtigungen
 
-Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren können, wenn sie es ihnen ermöglichen, eine Aufgabe anzuzeigen, einzutragen oder zu verwalten:
+In der folgenden Tabelle finden Sie die Berechtigungen, die Sie Benutzern gewähren können, wenn sie eine Aufgabe anzeigen, Contribute oder verwalten können:
 
 <table border="2" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -75,7 +76,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
   <tr> 
    <th><strong>Aktion</strong> </th> 
    <th><strong>Verwalten</strong> </th> 
-   <th><strong>Mitwirken</strong> </th> 
+   <th><strong>Contribute</strong> </th> 
    <th><strong>Anzeigen</strong> </th> 
   </tr> 
  </thead> 
@@ -195,7 +196,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Finanzen bearbeiten*</td> 
+   <td scope="row">Finanz bearbeiten*</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -225,7 +226,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Systemweit freigeben</td> 
+   <td scope="row">Systemweit teilen</td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 

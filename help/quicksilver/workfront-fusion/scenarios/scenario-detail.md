@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Details zum Szenario in [!DNL Adobe Workfront Fusion]
-description: Details zum Szenario in [!DNL Adobe Workfront Fusion]
+title: Szenariodetails in [!DNL Adobe Workfront Fusion]
+description: Szenariodetails in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# Details zum Szenario in [!DNL Adobe Workfront Fusion]
+# Szenariodetails in [!DNL Adobe Workfront Fusion]
 
 Die Detailseite des Szenarios ist die Startseite eines bestimmten Szenarios. Es bietet Zugriff auf bestimmte Informationen für das Szenario, das auf der Seite dargestellt wird.
 
-Außerdem erhalten Sie Zugriff auf die [Der Szenario-Editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), wo Sie das Szenario bearbeiten können.
+Außerdem erhalten Sie Zugriff auf den [Szenario-Editor in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), in dem Sie das Szenario bearbeiten können.
 
 ## Zugriffsanforderungen
 
@@ -43,25 +43,25 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Öffnen Sie die [!UICONTROL Details des Szenarios] Seite:
+## Öffnen Sie die Seite &quot;[!UICONTROL Scenario detail]&quot;:
 
-1. Klicken Sie auf **[!UICONTROL Szenario]** im linken Bereich auf und klicken Sie dann auf ein Szenario, für das Sie Details anzeigen möchten.
+1. Klicken Sie im linken Bereich auf die Registerkarte **[!UICONTROL Szenario]** und dann auf ein Szenario, für das Sie Details anzeigen möchten.
 
    Oder
 
-   Wenn Sie an dem Szenario im [Der Szenario-Editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)klicken Sie auf den Pfeil nach links ![](assets/exit-editing-arrow.png) in der Nähe der linken oberen Ecke des Fensters.
+   Wenn Sie mit dem Szenario im [Szenario-Editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md) arbeiten, klicken Sie auf den linken Pfeil ![](assets/exit-editing-arrow.png) in der oberen linken Ecke des Fensters.
 
 1. Auf der angezeigten Seite können Sie die in der folgenden Tabelle aufgelisteten Elemente überprüfen.
 

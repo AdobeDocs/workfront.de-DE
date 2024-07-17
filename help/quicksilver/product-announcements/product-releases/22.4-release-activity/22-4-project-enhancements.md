@@ -17,13 +17,13 @@ ht-degree: 2%
 
 Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 22.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 verfügbar gemacht.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 Versionshinweise - Übersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Details zu Vorgängern jetzt verfügbar
 
 Um die Details der Vorgänger einer Aufgabe anzuzeigen, können Sie jetzt in der Spalte &quot;Vorgänger&quot;den Mauszeiger über die Vorgängernummer bewegen. Im Detailfeld werden die referenzierte Vorgängeraufgabe und das referenzierte Projekt, die geplanten Start- und Enddaten für die Vorgängeraufgabe sowie die Anzahl der Vorgängeraufgaben und Nachfolger angezeigt. Sie können die Projektdetails erweitern, um weitere Informationen zum Projekt anzuzeigen. Zusätzliche Informationen sind für projektübergreifende Vorgänger enthalten.
 
-Weitere Informationen finden Sie unter [Erstellen einer Vorgängerbeziehung auf der Aufgabenliste](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+Weitere Informationen finden Sie unter [Erstellen einer Vorgängerbeziehung in der Aufgabenliste](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 ## Zuweisen mehrerer Teams zu einer Aufgabe oder einem Problem
 
@@ -51,7 +51,7 @@ Weitere Informationen finden Sie unter [Projekte bearbeiten](/help/quicksilver/m
 
 HINWEIS: Zusätzliche Benutzerfelder für Projekte, Aufgaben und Probleme werden in zukünftigen Versionen mit dieser Funktion aktualisiert.
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## Berechnete Datumsfelder werden immer basierend auf der koordinierten Weltzeit (UTC) gespeichert.
 
@@ -77,11 +77,11 @@ Basierend auf Ihrem Feedback haben wir die folgenden Verbesserungen eingeführt,
 
 * Verwenden Sie den Schnellfilter , um Elemente in der Liste modernisierter benutzerdefinierter Formulare und Felder einfach zu finden. Genießen Sie außerdem ein verbessertes Erscheinungsbild bei der Verwaltung Ihrer Formulare und Felder.
 
-  Weitere Informationen zum Schnellfilter finden Sie unter [Schnellfilter auf Listen anwenden](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Weitere Informationen zum Schnellfilter finden Sie unter [Anwenden des Schnellfilters auf eine Liste](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
-## Öffentliche Beta-Version - Neues Filtererlebnis für Projekte, Aufgaben und Probleme
+## Öffentliche Beta - Neues Filtererlebnis für Projekte, Aufgaben und Probleme
 
 Das Filtern in Projekt-, Aufgaben- und Problemlisten wurde neu gestaltet, um Ihnen das schnelle Erstellen und Freigeben von Filtern zu erleichtern. Zu den Funktionen gehören:
 
@@ -113,7 +113,7 @@ Der Textmodus bleibt für die erweiterte Filterbearbeitung verfügbar, und Syste
 
 ### Wir wollen Ihr Feedback!
 
-Mit dieser öffentlichen Beta-Version erhalten Benutzer die Möglichkeit, Feedback direkt an das Team zu senden, das an dem Filtererlebnis arbeitet, indem sie auf die Feedback-Schaltfläche klicken. Wir freuen uns darauf, von Ihnen und Ihren Benutzern über die neue Filtererfahrung in der öffentlichen Beta-Phase zu erfahren. Wenn Ihr Team mit einem Produkt direkt zusammentreffen möchte, um zusätzliches Feedback zu geben, können Sie ein Meeting hier planen: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Mit dieser Funktion erhalten Benutzer von Public Beta die Möglichkeit, Feedback direkt an das Team zu senden, das an dem Filtererlebnis arbeitet, indem sie auf die Feedback-Schaltfläche klicken. Wir freuen uns darauf, von Ihnen und Ihren Benutzern über die neue Filtererfahrung in der öffentlichen Beta-Phase zu erfahren. Wenn Ihr Team mit einem Produkt direkt zusammentreffen möchte, um zusätzliches Feedback zu geben, können Sie ein Meeting hier planen: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Wie geht es weiter?
 
@@ -130,4 +130,4 @@ Wir möchten Ihnen einen Mehrwert bieten, damit wir auch weiterhin mit den neuen
 
 Weitere Informationen finden Sie unter [Filterübersicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) und [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412391/)
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412391/)

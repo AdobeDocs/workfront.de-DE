@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Workfront] Dokumentation
+# Dokumentation zu [!DNL Workfront]
 
 Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe Workfront. Verwenden Sie die folgenden Adobe Workfront-Links, Hilfeartikel und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv verwenden.
 
@@ -87,16 +87,16 @@ Die Suche nach Dokumentation kann mit einigen strategischen Ansätzen effiziente
 
 ### Inhaltsverzeichnis und Suchleiste verwenden
 
-* **Inhaltsverzeichnis**: Beginnen Sie mit dem Inhaltsverzeichnis, um einen Überblick über die verfügbaren Themen zu erhalten und anhand der erweiterten Abschnitte auf bestimmte Themen einzugrenzen.
-* **Suchleiste**: Verwenden Sie die Suchleiste, um die Dokumentation zu finden. Geben Sie spezifische Begriffe zu Ihrem Problem oder Thema ein. Verwenden Sie anstelle allgemeiner Begriffe wie &quot;Projekt-Management&quot;die &quot;Projekt-Timeline-Einrichtung&quot;oder &quot;Aufgabenabhängigkeiten&quot;.
+* **Inhaltsverzeichnis**: Beginnen Sie mit dem Inhaltsverzeichnis, um einen Überblick über verfügbare Themen zu erhalten und durch die erweiterten Abschnitte auf bestimmte Themen einzugrenzen.
+* **Suchleiste**: Verwenden Sie die Suchleiste, um Dokumentation zu finden. Geben Sie spezifische Begriffe zu Ihrem Problem oder Thema ein. Verwenden Sie anstelle allgemeiner Begriffe wie &quot;Projekt-Management&quot;die &quot;Projekt-Timeline-Einrichtung&quot;oder &quot;Aufgabenabhängigkeiten&quot;.
 
 ![](assets/exl-site-nav.png)
 
 ### Abschnitte &quot;Lernen und Training&quot;
 
-* **Schulungsmaterial**: Navigieren Sie zum [Workfront-Schulung](https://experienceleague.adobe.com/en/browse/workfront) eine Bibliothek mit Schulungsvideos und Artikeln, die Ihnen dabei helfen, die Funktionen und Einstellungen von Workfront besser zu verstehen. Sie können auch auf bezahlte Schulungsmaterialien zugreifen unter [learning.adobe.com](https://learning.adobe.com/).
-* **Kurse**: Suchen [strukturierte Lernkurse](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die Sie durch die Verwendung verschiedener Workfront-Funktionen in einer logischen Sequenz führen.
+* **Schulungsmaterial**: Navigieren Sie zur Seite [Workfront-Schulungsmaterial](https://experienceleague.adobe.com/en/browse/workfront) , um eine Bibliothek mit Schulungsvideos und Artikeln zu erhalten, die Ihnen dabei helfen sollen, die Funktionen und Einstellungen von Workfront besser zu verstehen. Sie können auch auf bezahlte Schulungsmaterialien unter [learning.adobe.com](https://learning.adobe.com/) zugreifen.
+* **Kurse**: Suchen Sie nach [strukturierten Lernkursen](https://experienceleague.adobe.com/home?Solution=Workfront#courses), die Sie durch die Verwendung verschiedener Workfront-Funktionen in einer logischen Sequenz führen.
 
 ### Antworten in Community-Foren suchen
 
-* **Fragen stellen**: Wenn die Dokumentation Ihre Frage nicht beantwortet, versuchen Sie, in der [Workfront-Community-Foren](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) andere Nutzer und Experten können Hilfe anbieten.
+* **Fragen stellen**: Wenn die Dokumentation Ihre Frage nicht beantwortet, versuchen Sie, Beiträge in den [Workfront-Community-Foren](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) zu posten, wo andere Benutzer und Experten Unterstützung anbieten können.

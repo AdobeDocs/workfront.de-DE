@@ -14,18 +14,18 @@ ht-degree: 0%
 
 # Encryptor
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Encryptor] -Module ermöglichen es Ihnen, alle Textdaten zu verschlüsseln. Sie unterstützen derzeit die Verschlüsselung von Nachrichten über AES256 und PGP ([!UICONTROL OpenPGP]).
+Mit den Modulen [!DNL Adobe Workfront Fusion] [!UICONTROL Verschlüsseler] können Sie alle Textdaten verschlüsseln. Sie unterstützen derzeit die Verschlüsselung von Nachrichten über AES256 und PGP ([!UICONTROL OpenPGP]).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -35,35 +35,35 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Nachrichtenverschlüsselung und -entschlüsselung mithilfe von PGP
 
 Beim Verschlüsseln und Entschlüsseln über PGP muss eine Schlüsselkette verwendet und ein privater oder öffentlicher Schlüssel (oder beides) erstellt werden.
 
-Weitere Informationen zu öffentlichen und privaten Schlüsseln finden Sie unter [Grundlegende Begriffe in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Weitere Informationen zu Schlüsselketten finden Sie unter [Schlüssel in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
+Weitere Informationen zu öffentlichen und privaten Schlüsseln finden Sie unter [Grundlegende Begriffe in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Weitere Informationen zu Schlüsselketten finden Sie unter [Schlüssel in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
 
-## [!UICONTROL Encryptor] Module und ihre Felder
+## [!UICONTROL Verschlüsseler] -Module und ihre Felder
 
-Wann Sie [!UICONTROL Encryptor] -Modulen, werden die folgenden Felder angezeigt. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Beim Konfigurieren von Modulen des Typs [!UICONTROL Verschlüsseler] werden die folgenden Felder angezeigt. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
 ### PGP-Nachricht verschlüsseln
 

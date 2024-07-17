@@ -2,25 +2,25 @@
 product-previous: workfront-proof;workfront
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Zugriff auf Workfront Testing von Adobe Workfront
-description: Sie können schnell über die Benutzeroberfläche von Adobe Workfront auf Ihr Workfront-Testkonto zugreifen, ohne sich beim Workfront-Testversand anzumelden.
+title: Zugriff auf Workfront Proof über Adobe Workfront
+description: Sie können schnell über die Benutzeroberfläche von Adobe Workfront auf Ihr Workfront Proof-Konto zugreifen, ohne sich bei Workfront Proof anzumelden.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
-# Zugriff auf Workfront Testing von Adobe Workfront
+# Zugriff auf Workfront Proof über Adobe Workfront
 
-Sie können schnell über die Benutzeroberfläche von Adobe Workfront auf Ihr Workfront-Testkonto zugreifen, ohne sich beim Workfront-Testversand anmelden zu müssen, wenn die folgenden Bedingungen erfüllt sind:
+Sie können schnell über die Benutzeroberfläche von Adobe Workfront auf Ihr Workfront Proof-Konto zugreifen, ohne sich bei Workfront Proof anmelden zu müssen, wenn die folgenden Bedingungen erfüllt sind:
 
 * Ihre Workfront-Umgebung ist mit einem Workfront Proof Premium-Konto integriert. Weitere Informationen dazu, welche Funktionen nur bei einem Workfront Proof Premium-Konto verfügbar sind, finden Sie unter .
 
-  Sie haben eine Workfront Testlizenz. (Es ist nicht erforderlich, dass Sie Workfront Testversand-Administrator sind.)
+  Sie haben eine Workfront Proof-Lizenz. (Es ist nicht erforderlich, dass Sie Workfront Proof-Administrator sind.)
 
 * Sie verfügen über Administratorrechte in Workfront und die Testversandfunktion ist in Ihrem Workfront-Benutzerkonto aktiviert.
 
@@ -28,20 +28,20 @@ Sie können schnell über die Benutzeroberfläche von Adobe Workfront auf Ihr Wo
 
   Sie wenden sich an den Workfront-Kundendienst und fordern diesen Zugriff unabhängig von den Berechtigungen für alle Testbenutzer in Ihrem System an.
 
-  Weitere Informationen finden Sie unter [Aktivieren Sie allen Testbenutzern den Zugriff auf Workfront Testversand in Workfront](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) in diesem Artikel.
+  Weitere Informationen finden Sie unter [Aktivieren aller Testbenutzer für den Zugriff auf Workfront Proof in Workfront](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) in diesem Artikel.
 
-Wenn Sie nicht auf Workfront Testversand zugreifen können, wie in diesem Abschnitt beschrieben, wenden Sie sich an Ihren Workfront-Administrator.
+Wenn Sie nicht auf Workfront Proof zugreifen können, wie in diesem Abschnitt beschrieben, wenden Sie sich an Ihren Workfront-Administrator.
 
-## Zugriff auf Workfront Testing von Workfront {#access-workfront-proof-from-workfront}
+## Zugriff auf Workfront Proof über Workfront {#access-workfront-proof-from-workfront}
 
-Standardmäßig können nur Benutzer mit Administratorrechten innerhalb von Workfront auf den Workfront-Testversand zugreifen, wie in diesem Abschnitt beschrieben. 
+Standardmäßig können nur Benutzer mit Administratorrechten innerhalb von Workfront auf Workfront Proof zugreifen, wie in diesem Abschnitt beschrieben. 
 
-1. Klickprüfung ![](assets/proofing-main-menu.png) im Hauptmenü ![](assets/main-menu-icon.png).
+1. Klicken Sie im Hauptmenü ![](assets/main-menu-icon.png) auf Testversand ![](assets/proofing-main-menu.png) .
 
    Sie werden automatisch bei Ihrem Workfront Proof Premium-Konto angemeldet.
 
-Informationen zu den Funktionen, die nach der Anmeldung bei Ihrem Workfront Proof Premium-Konto verfügbar sind, finden Sie unter [Workfront-Hilfeseite](https://support.workfront.com).
+Informationen zu den Funktionen, die nach der Anmeldung bei Ihrem Workfront Proof Premium-Konto verfügbar sind, finden Sie auf der [Workfront-Hilfeseite](https://support.workfront.com).
 
-## Aktivieren Sie allen Testbenutzern den Zugriff auf Workfront Testversand in Workfront {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
+## Aktivieren Sie allen Testbenutzern den Zugriff auf Workfront Proof in Workfront {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
 
-Standardmäßig können nur Benutzer mit Administratorrechten innerhalb von Workfront auf den Workfront-Testversand zugreifen, wie unter [Zugriff auf Workfront Testing von Workfront](#access-workfront-proof-from-workfront)
+Standardmäßig können nur Benutzer mit Administratorrechten innerhalb von Workfront auf Workfront Proof zugreifen, wie unter [Zugriff auf Workfront Proof über Workfront](#access-workfront-proof-from-workfront) beschrieben.

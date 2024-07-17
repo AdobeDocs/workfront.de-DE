@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Sie können Dateien mit Workfront-APIs mit API-Tools wie Postman oder mit einfachen cURL-Befehlen hochladen.
 
-Informationen zum Hochladen von Dokumenten finden Sie in den Anweisungen unter **Hochladen von Dokumenten** in Workfront [Verhalten des Beitrags](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Sie können diese Anweisungen auch für cURL-Anfragen verwenden.
+Informationen zum Hochladen von Dokumenten finden Sie in den Anweisungen zum **Hochladen von Dokumenten** im Workfront [Post-Verhalten](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Sie können diese Anweisungen auch für cURL-Anfragen verwenden.
 
 **Befolgen Sie beim Hochladen von Dateien mithilfe von API-Tools die folgenden Richtlinien:**
 
-* Verwenden Sie Ihre API-Tool-Option, um Ihre Datei hochzuladen. Dies ist häufig ein **Datei auswählen** auf dem Anfragebildschirm.
+* Verwenden Sie Ihre API-Tool-Option, um Ihre Datei hochzuladen. Dabei handelt es sich häufig um die Schaltfläche **Datei auswählen** auf dem Anfragebildschirm.
 
 * Verwenden Sie die POST-HTTP-Methode, um die Anfrage zum Hochladen der Datei zu stellen.
 

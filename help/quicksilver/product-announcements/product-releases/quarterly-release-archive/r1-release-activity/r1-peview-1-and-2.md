@@ -18,13 +18,13 @@ ht-degree: 2%
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit den R1.1- und R1.2-Versionen verfügbar sind. Die Funktionalität auf dieser Seite wurde am 19. Januar 2017 in der Vorschau-Umgebung bereitgestellt.
 
-Eine Liste aller in R1 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivität R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Eine Liste aller Änderungen, die in R1 vorgenommen wurden, finden Sie unter [R1 - Übersicht über die Release-Aktivität](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Wiederherstellen von Projekten, Aufgaben und Problemen aus dem Papierkorb 
 
 Workfront-Administratoren können jetzt Projekte, Aufgaben und Probleme wiederherstellen, die innerhalb der letzten 30 Tage gelöscht wurden. Alle mit dem Projekt, der Aufgabe oder dem Problem verknüpften Informationen, einschließlich Dokumenten und benutzerdefinierten Daten, werden wiederhergestellt.
 
-Es stehen auch neue Optionen zur Konfiguration von Stunden zur Verfügung, die mit einem Projekt, einer Aufgabe oder einem Problem protokolliert werden, das gelöscht wird. Weitere Informationen finden Sie unter [Konfigurieren der Auswirkungen auf die Stunden, in denen ein Objekt gelöscht und wiederhergestellt wird](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+Es stehen auch neue Optionen zur Konfiguration von Stunden zur Verfügung, die mit einem Projekt, einer Aufgabe oder einem Problem protokolliert werden, das gelöscht wird. Weitere Informationen finden Sie unter [Auswirkungen der Konfiguration auf Stunden beim Löschen und Wiederherstellen eines Objekts konfigurieren](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
 Weitere Informationen zum Wiederherstellen von Objekten in Workfront finden Sie unter [Gelöschte Elemente wiederherstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
@@ -38,20 +38,20 @@ Vor dieser Änderung waren Informationen zu Validierungsschritten nur auf der Re
 
 Bei Projekten werden die Genehmigungsinformationen in der Kopfzeile neben dem Projekttitel angezeigt. Bei Aufgaben und Problemen werden die Validierungsinformationen im rechten Bereich angezeigt.
 
-Weitere Informationen finden Sie unter [Validierung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [Validierung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Weitere Informationen finden Sie unter [Arbeiten genehmigen](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [Validierung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Zu aktualisierende Objekte konfigurieren, die noch nicht genehmigt wurden
 
 Wenn die Genehmigung eines Projekts, einer Aufgabe oder eines Problems aussteht, können Sie jetzt konfigurieren, ob Benutzer:
 
 * Bearbeiten Sie das benutzerdefinierte Formular eines Projekts, einer Aufgabe oder eines Problems, für das die Genehmigung aussteht.\
-  Informationen zum Konfigurieren von Projekten, Aufgaben und Problemen, die bei ausstehender Genehmigung bearbeitet werden sollen, finden Sie unter [Globale Genehmigungseinstellungen konfigurieren](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+  Informationen zum Konfigurieren von Projekten, Aufgaben und Problemen, die bei ausstehender Genehmigung bearbeitet werden sollen, finden Sie unter [Einstellungen für die globale Genehmigung konfigurieren](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md) .
 
 * Fügen Sie einem Projekt, für das die Genehmigung aussteht, Probleme hinzu.\
-  Informationen dazu, wie Sie Projekte so konfigurieren, dass Benutzer Probleme hinzufügen können, wenn das Projekt noch nicht genehmigt wurde, finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Informationen zum Konfigurieren von Projekten, die Benutzern das Hinzufügen von Problemen ermöglichen, wenn das Projekt noch nicht genehmigt wurde, finden Sie unter [Systemweite Projektanvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Bearbeiten Sie Aufgaben und Probleme in einem Projekt, für das die Genehmigung aussteht.\
-  Informationen dazu, wie Sie Projekte so konfigurieren, dass Benutzer Aufgaben und Probleme bearbeiten können, wenn das Projekt noch nicht genehmigt ist, finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Informationen zum Konfigurieren von Projekten, die Benutzern das Bearbeiten von Aufgaben und Problemen ermöglichen, wenn das Projekt noch nicht genehmigt wurde, finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Vor dieser Änderung konnten Projekte, Aufgaben und Probleme, die noch nicht genehmigt wurden, nicht bearbeitet werden. Außerdem konnten Probleme nicht zu Projekten hinzugefügt werden, für die eine Genehmigung aussteht, und Aufgaben und Probleme konnten nicht in Projekten bearbeitet werden, für die eine Genehmigung aussteht.
 
@@ -69,7 +69,7 @@ Die Funktion wurde bei der Massenbearbeitung von E-Mail-Benachrichtigungseinstel
 
 Vor dieser Änderung wurden die von Ihnen ausgewählten E-Mail-Benachrichtigungseinstellungen gespeichert und alle anderen unveränderten Benachrichtigungseinstellungen beim Speichern der Änderungen deaktiviert. 
 
-Weitere Informationen finden Sie unter &quot;Ändern der Einstellungen für Benutzerbenachrichtigungen in Stapeln&quot;in [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Weitere Informationen finden Sie unter &quot;Ändern der Einstellungen für Benutzerbenachrichtigungen in Stapeln&quot;in [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Aktualisiertes Erscheinungsbild mehrerer E-Mail-Benachrichtigungen
 
@@ -101,7 +101,7 @@ Weitere Informationen finden Sie unter [Adobe Workfront-Benachrichtigungen](../.
 
 Wenn Sie eine Gruppe öffentlich machen, können Sie diese Gruppe jetzt Benutzern hinzufügen, ohne Gruppeninhaber zu sein. Sie müssen über Administratorrechte für Benutzer verfügen, um Benutzer bearbeiten zu können.
 
-Weitere Informationen zum Veröffentlichen einer Gruppe finden Sie unter [Gruppe erstellen](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) Abschnitt in [Gruppe erstellen](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Weitere Informationen zum Veröffentlichen einer Gruppe finden Sie im Abschnitt [Gruppe erstellen](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) unter [Gruppe erstellen](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) .
 
 ## URL eines Objekts in der Mobile App freigeben 
 
@@ -131,7 +131,7 @@ Jetzt können Sie bei der Erstellung von Ausgabetypen genauere Ausgabenraten hin
 
 Vor dieser Änderung konnten die Ausgabenraten nur bis zu 2 Zeichen nach der Dezimalstelle (z. B. 1,03) enthalten.
 
-Weitere Informationen zur Erstellung von Ausgabenraten finden Sie unter [Benutzerdefinierte Ausgabentypen erstellen](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+Weitere Informationen zum Erstellen von Ausgabenraten finden Sie unter [Erstellen benutzerdefinierter Ausgabentypen](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated Look and Improved Performance in the Tasks&nbsp;List (by request only)</h2>

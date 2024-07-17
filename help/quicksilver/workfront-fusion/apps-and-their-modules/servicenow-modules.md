@@ -5,35 +5,35 @@ product-area: workfront-integrations
 keywords: Connector
 navigation-topic: apps-and-their-modules
 title: ServiceNow-Module
-description: In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL ServiceNow], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
+description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die [!DNL ServiceNow] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 1%
+source-wordcount: '1604'
+ht-degree: 0%
 
 ---
 
-# [!DNL ServiceNow]-Module
+# [!DNL ServiceNow] Module
 
-In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL ServiceNow], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
+In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!DNL ServiceNow] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 
-Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -43,35 +43,35 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Verwendung [!DNL ServiceNow] -Module, müssen Sie über eine [!DNL ServiceNow] -Konto.
+Um [!DNL ServiceNow] -Module zu verwenden, müssen Sie über ein [!DNL ServiceNow] -Konto verfügen.
 
-## Verbinden [!DNL ServiceNow] nach [!DNL Workfront Fusion]
+## [!DNL ServiceNow] mit [!DNL Workfront Fusion] verbinden
 
 So erstellen Sie eine Verbindung für Ihre [!DNL ServiceNow] -Module:
 
-1. Klicken **[!UICONTROL Hinzufügen]** neben dem [!UICONTROL Verbindung] bei der Konfiguration des ersten [!DNL ServiceNow] -Modul.
+1. Klicken Sie neben dem Feld [!UICONTROL Verbindung] auf **[!UICONTROL Hinzufügen]** , wenn Sie mit der Konfiguration des ersten [!DNL ServiceNow]-Moduls beginnen.
 1. Geben Sie Folgendes ein:
 
    <table style="table-layout:auto"> 
@@ -80,11 +80,11 @@ So erstellen Sie eine Verbindung für Ihre [!DNL ServiceNow] -Module:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Verbindungsname]</p> </td> 
-      <td>Geben Sie einen Namen für die neue [!DNL ServiceNow] connection</td> 
+      <td>Geben Sie einen Namen für die neue [!DNL ServiceNow]-Verbindung ein.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Benutzername]</p> </td> 
-      <td>Geben Sie Ihre [!DNL ServiceNow] Benutzername.</td> 
+      <td>Geben Sie Ihren [!DNL ServiceNow] Benutzernamen ein.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Kennwort]</p> </td> 
@@ -92,37 +92,37 @@ So erstellen Sie eine Verbindung für Ihre [!DNL ServiceNow] -Module:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Instanz]</p> </td> 
-      <td> <p>Geben Sie die Adresse Ihres [!DNL ServiceNow] Konto ohne <code>https://</code> (gewöhnlich <code>&lt;company>.service-now.com</code>).</p> </td> 
+      <td> <p>Geben Sie die Adresse Ihres [!DNL ServiceNow]-Kontos ohne <code>https://</code> ein (normalerweise <code>&lt;company>.service-now.com</code>).</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-## [!UICONTROL ServiceNow] Module und ihre Felder
+## [!UICONTROL ServiceNow] -Module und ihre Felder
 
-Bei der Konfiguration [!DNL ServiceNow] Module, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL ServiceNow] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie [!DNL ServiceNow] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL ServiceNow] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 >[!NOTE]
 >
->Wenn ein benutzerdefinierter Datensatz in einem &quot;[!UICONTROL Record Type]&quot;, kann es einige Zeit dauern, die benutzerdefinierten Felder zu laden.
+>Wenn ein benutzerdefinierter Datensatz in einem &quot;[!UICONTROL Record Type]&quot;-Feld ausgewählt ist, kann es einige Zeit dauern, die benutzerdefinierten Felder zu laden.
 >
 >Wenn keine benutzerdefinierten Datensätze vorhanden sind, ist das Dropdown-Menü leer.
 
-* [[!UICONTROL Aufnahmen ansehen]](#watch-records)
+* [[!UICONTROL Datensätze ansehen]](#watch-records)
 * [[!UICONTROL Benutzerspezifischer API-Aufruf]](#custom-api-call)
 * [[!UICONTROL Datensatz lesen]](#read-a-record)
 * [[!UICONTROL Deaktivieren eines Benutzers]](#deactivate-a-user)
-* [[!UICONTROL Anlage herunterladen]](#download-an-attachment)
+* [[!UICONTROL Herunterladen eines Anhangs]](#download-an-attachment)
 * [[!UICONTROL Hochladen eines Anhangs]](#upload-an-attachment)
-* [[!UICONTROL Datensatz erstellen]](#create-a-record)
+* [[!UICONTROL Erstellen eines Datensatzes]](#create-a-record)
 * [[!UICONTROL Datensatz aktualisieren]](#update-a-record)
 * [[!UICONTROL Datensatz löschen]](#delete-a-record)
-* [[!UICONTROL Datensätze suchen]](#search-for-records)
+* [[!UICONTROL Suche nach Datensätzen]](#search-for-records)
 
-### [!UICONTROL Aufnahmen ansehen]
+### [!UICONTROL Datensätze ansehen]
 
 Dieses Trigger-Modul aktiviert ein Szenario, wenn ein Datensatz erstellt oder aktualisiert wird.
 
@@ -132,7 +132,7 @@ Dieses Trigger-Modul aktiviert ein Szenario, wenn ein Datensatz erstellt oder ak
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion], siehe <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] nach [!UICONTROL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] mit [!UICONTROL Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tabellenart]</td> 
@@ -163,7 +163,7 @@ Dieses Trigger-Modul aktiviert ein Szenario, wenn ein Datensatz erstellt oder ak
 
 ### [!UICONTROL Benutzerspezifischer API-Aufruf]
 
-Mit diesem Aktionsmodul können Sie einen benutzerdefinierten authentifizierten Aufruf an die [!DNL ServiceNow] API. Auf diese Weise können Sie eine Datenflussautomatisierung erstellen, die von der anderen nicht durchgeführt werden kann [!DNL ServiceNow] Module.
+Mit diesem Aktionsmodul können Sie einen benutzerdefinierten authentifizierten Aufruf an die [!DNL ServiceNow] -API durchführen. Auf diese Weise können Sie eine Datenflussautomatisierung erstellen, die von anderen [!DNL ServiceNow] -Modulen nicht ausgeführt werden kann.
 
 Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
@@ -173,11 +173,11 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion], siehe <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] nach [!UICONTROL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] mit [!UICONTROL Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Relative URL von [!UICONTROL]</td> 
-   <td> <p>Geben Sie die Adresse auf dem Webserver ein, mit der das Modul interagieren soll.</p> <p>Sie können eine relative URL eingeben. Das bedeutet, dass Sie das Protokoll nicht einbeziehen müssen (z. B. <code>http://</code>) am Anfang. Dies legt dem Webserver nahe, dass die Interaktion auf dem Server stattfindet.</p> <p>Beispiel: <code>[!DNL /api/conversations].create</code></p> </td> 
+   <td> <p>Geben Sie die Adresse auf dem Webserver ein, mit der das Modul interagieren soll.</p> <p>Sie können eine relative URL eingeben. Das bedeutet, dass Sie das Protokoll (z. B. <code>http://</code>) nicht am Anfang einbeziehen müssen. Dies legt dem Webserver nahe, dass die Interaktion auf dem Server stattfindet.</p> <p>Beispiel: <code>[!DNL /api/conversations].create</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Methode]</td> 
@@ -193,7 +193,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -203,7 +203,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 ### [!UICONTROL Datensatz lesen]
 
-Dieses Aktionsmodul liest eine [!DNL ServiceNow] -Datensatz mithilfe der System-ID.
+Dieses Aktionsmodul liest einen [!DNL ServiceNow] -Datensatz unter Verwendung der System-ID.
 
 Das Modul gibt alle mit dem Datensatz verknüpften Standardfelder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
@@ -215,11 +215,11 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion], siehe <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] nach [!UICONTROL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] mit [!UICONTROL Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record System ID]</td> 
-   <td>Eindeutige Eingabe oder Zuordnung [!DNL ServiceNow] Kennung des Datensatzes, den das Modul lesen soll.</td> 
+   <td>Geben Sie die eindeutige [!DNL ServiceNow]-ID des Datensatzes ein oder ordnen Sie sie zu, den das Modul lesen soll.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tabellenart]</td> 
@@ -227,7 +227,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Wählen Sie den Typ [!DNL ServiceNow] notieren, dass das Modul gelesen werden soll.</td> 
+   <td>Wählen Sie den Typ von [!DNL ServiceNow] Datensatz aus, den das Modul lesen soll.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Display]</td> 
@@ -242,7 +242,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 ### [!UICONTROL Deaktivieren eines Benutzers]
 
-Dieses Aktionsmodul deaktiviert einen Benutzer in [!DNL ServiceNow] unter Verwendung der System-ID.
+Dieses Aktionsmodul deaktiviert einen Benutzer in [!DNL ServiceNow], indem die System-ID verwendet wird.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -250,18 +250,18 @@ Dieses Aktionsmodul deaktiviert einen Benutzer in [!DNL ServiceNow] unter Verwen
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion], siehe <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] nach [!UICONTROL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] mit [!UICONTROL Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL User System ID]</td> 
-   <td> Eindeutige Eingabe oder Zuordnung [!DNL ServiceNow] Kennung des Benutzers, den das Modul deaktivieren soll.</td> 
+   <td> Geben Sie die eindeutige [!DNL ServiceNow]-ID des Benutzers ein oder ordnen Sie sie zu, den das Modul deaktivieren soll.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Anlage herunterladen]
+### [!UICONTROL Herunterladen eines Anhangs]
 
-Dieses Aktionsmodul lädt eine Anlage in einem [!DNL ServiceNow] aufzeichnen.
+Dieses Aktionsmodul lädt einen Anhang in einen [!DNL ServiceNow] -Datensatz herunter.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -269,18 +269,18 @@ Dieses Aktionsmodul lädt eine Anlage in einem [!DNL ServiceNow] aufzeichnen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion], siehe <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] nach [!UICONTROL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] mit [!UICONTROL Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Anlagensystem-ID]</td> 
-   <td> Eindeutige Eingabe oder Zuordnung [!DNL ServiceNow] Kennung des Anhangs, den das Modul herunterladen soll.</td> 
+   <td> Geben Sie die eindeutige [!DNL ServiceNow]-ID des Anhangs ein oder ordnen Sie sie zu, den das Modul herunterladen soll.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Hochladen eines Anhangs]
 
-Dieses Aktionsmodul lädt eine Anlage in eine [!DNL ServiceNow] aufzeichnen.
+Dieses Aktionsmodul lädt eine Anlage in einen [!DNL ServiceNow] -Datensatz hoch.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -288,7 +288,7 @@ Dieses Aktionsmodul lädt eine Anlage in eine [!DNL ServiceNow] aufzeichnen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion], siehe <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] nach [!UICONTROL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] mit [!UICONTROL Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tabellenname]</td> 
@@ -296,7 +296,7 @@ Dieses Aktionsmodul lädt eine Anlage in eine [!DNL ServiceNow] aufzeichnen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL System-ID]</td> 
-   <td>Eindeutige Eingabe oder Zuordnung [!DNL ServiceNow] Kennung des Systems, in das Sie den Anhang hochladen möchten.</td> 
+   <td>Geben Sie die eindeutige [!DNL ServiceNow]-ID des Systems ein oder ordnen Sie sie zu, in das Sie den Anhang hochladen möchten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dateiname]</td> 
@@ -304,14 +304,14 @@ Dieses Aktionsmodul lädt eine Anlage in eine [!DNL ServiceNow] aufzeichnen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Dateiinhalt]</td> 
-   <td>Geben Sie die Datei ein oder ordnen Sie sie zu, in die Sie hochladen möchten [!DNL ServiceNow].</td> 
+   <td>Geben Sie die Datei ein oder ordnen Sie sie zu [!DNL ServiceNow] zu.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Datensatz erstellen]
+### [!UICONTROL Erstellen eines Datensatzes]
 
-Dieses Aktionsmodul erstellt eine neue [!DNL ServiceNow] aufzeichnen.
+Dieses Aktionsmodul erstellt einen neuen [!DNL ServiceNow] -Datensatz.
 
 Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
@@ -321,7 +321,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion], siehe <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] nach [!UICONTROL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] mit [!UICONTROL Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tabellenart]</td> 
@@ -329,14 +329,14 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Wählen Sie den Typ [!DNL ServiceNow] notieren, dass das Modul erstellt werden soll. Sie können dann die verfügbaren Felder für diesen Datensatztyp ausfüllen.</td> 
+   <td>Wählen Sie den Typ von [!DNL ServiceNow] Datensatz aus, den das Modul erstellen soll. Sie können dann die verfügbaren Felder für diesen Datensatztyp ausfüllen.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Datensatz aktualisieren]
 
-Dieses Aktionsmodul erstellt eine neue [!DNL ServiceNow] aufzeichnen.
+Dieses Aktionsmodul erstellt einen neuen [!DNL ServiceNow] -Datensatz.
 
 Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
@@ -346,11 +346,11 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion], siehe <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] nach [!UICONTROL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] mit [!UICONTROL Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record System ID]</td> 
-   <td>Eindeutige Eingabe oder Zuordnung [!DNL ServiceNow] Kennung des Datensatzes, den das Modul aktualisieren soll.</td> 
+   <td>Geben Sie die eindeutige [!DNL ServiceNow]-ID des Datensatzes ein oder ordnen Sie sie zu, den das Modul aktualisieren soll.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tabellenart]</td> 
@@ -358,7 +358,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Wählen Sie den Typ [!DNL ServiceNow] notieren, dass das Modul aktualisiert werden soll. Sie können dann die verfügbaren Felder für diesen Datensatztyp ausfüllen.</td> 
+   <td>Wählen Sie den Typ von [!DNL ServiceNow] Datensatz aus, den das Modul aktualisieren soll. Sie können dann die verfügbaren Felder für diesen Datensatztyp ausfüllen.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,7 +375,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion], siehe <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] nach [!UICONTROL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] mit [!UICONTROL Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -383,12 +383,12 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL System-ID]</td> 
-   <td>Eindeutige Eingabe oder Zuordnung [!DNL ServiceNow] Kennung des Datensatzes, den das Modul löschen soll.</td> 
+   <td>Geben Sie die eindeutige [!DNL ServiceNow]-ID des Datensatzes ein oder ordnen Sie sie zu, den das Modul löschen soll.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Datensätze suchen]
+### [!UICONTROL Suche nach Datensätzen]
 
 Dieses Modul sucht nach Datensätzen anhand von von Ihnen ausgewählten Kriterien.
 
@@ -400,7 +400,7 @@ Das Modul gibt alle mit dem Datensatz verknüpften Standardfelder sowie alle ben
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion], siehe <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] nach [!UICONTROL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres ServiceNow-Kontos mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] mit [!UICONTROL Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tabellenart]</td> 
@@ -424,12 +424,12 @@ Das Modul gibt alle mit dem Datensatz verknüpften Standardfelder sowie alle ben
     <ul> 
      <li> <p><strong>[!UICONTROL Erweiterte Abfrage]</strong> </p> 
       <ul> 
-       <li> <p>[!UICONTROL Suchabfrage]</p> <p>Geben Sie die benutzerdefinierte Suchabfrage ein. Informationen über [!DNL ServiceNow] benutzerdefinierte Suchabfragen, siehe <a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html">Dokumentation zur ServiceNow-Abfrage</a>.</p> </li> 
+       <li> <p>[!UICONTROL Suchabfrage]</p> <p>Geben Sie die benutzerdefinierte Suchabfrage ein. Weitere Informationen zu [!DNL ServiceNow] benutzerdefinierten Suchabfragen finden Sie in der Dokumentation zur <a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html">ServiceNow-Abfrage</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>[!UICONTROL Simple]</strong> </p> 
       <ul> 
        <li> <p>[!UICONTROL Suchkriterien]</p> <p>Geben Sie die Kriterien ein, nach denen das Modul suchen soll. Weitere Informationen zum Einrichten von Suchfiltern finden Sie unter <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Hinzufügen eines Filters zu einem Szenario in Adobe Workfront Fusion</a>.</p> </li> 
-       <li> <p>[!UICONTROL Sortieren nach]</p> <p>Geben Sie an, nach welchem Feld das Modul Ergebnisse sortieren soll und ob sie auf- oder absteigend sortiert werden sollen.</p> </li> 
+       <li> <p>Sortieren nach</p> <p>Geben Sie an, nach welchem Feld das Modul Ergebnisse sortieren soll und ob sie auf- oder absteigend sortiert werden sollen.</p> </li> 
       </ul> </li> 
     </ul> <p> </p> </td> 
   </tr> 

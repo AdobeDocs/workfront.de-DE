@@ -21,7 +21,7 @@ Wenn Sie Ihre Berichte mit anderen Benutzern in Adobe Workfront teilen, sollten 
 
 Sie können den Tab Details Ihrer Berichte anpassen, indem Sie der Ansicht Ihrer Berichte spezielle oder bedingte Formatierungen hinzufügen.
 
-Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 Durch bedingte Formatierung der Spalten in der Berichtansicht können Sie Regeln einrichten, die sich auf die Anzeige des Berichts auswirken. Wenn diese Bedingungen oder Regeln erfüllt sind, wird die spezielle Formatierung angewendet.
 
@@ -66,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten, um eine Ansicht in einem Bericht zu erstellen oder zu bearbeiten</p> <p>Berechtigungen für eine Ansicht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten, um eine Ansicht in einem Bericht zu erstellen oder zu bearbeiten</p> <p>Berechtigungen für eine Ansicht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +79,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie müssen einen Bericht erstellen, bevor Sie der Ansicht bedingte Formatierungen hinzufügen können.
 
-Informationen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Bedingt formatierte Ansicht erstellen
 
@@ -89,13 +89,13 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](
 
    Oder
 
-   Klicks **Neuer Bericht** und wählen Sie dann einen Objekttyp aus, um einen neuen Bericht zu erstellen.
+   Klicken Sie auf **Neuer Bericht** und wählen Sie dann einen Objekttyp aus, um einen neuen Bericht zu erstellen.
 
-1. (Bedingt) Wenn Sie einen vorhandenen Bericht bearbeiten, klicken Sie auf **Berichtaktionen** Klicken Sie auf **Bearbeiten**.
+1. (Bedingt) Wenn Sie einen vorhandenen Bericht bearbeiten, klicken Sie auf **Berichtaktionen** und dann auf **Bearbeiten**.
 
-1. Im **Spalten (Ansicht)** klicken Sie auf , um eine vorhandene Spalte auszuwählen, oder klicken Sie auf **Spalte hinzufügen** , um eine Spalte zu erstellen.
-1. Im **In dieser Spalte anzeigen** wählen Sie in der linken oberen Ecke des ReportBuilder das Feld aus, das in der neuen Spalte angezeigt werden soll.
-1. Klicks **Erweiterte Optionen**.
+1. Klicken Sie auf der Registerkarte **Spalten (Ansicht)** auf , um eine vorhandene Spalte auszuwählen, oder klicken Sie auf **Spalte hinzufügen** , um eine Spalte zu erstellen.
+1. Wählen Sie im Feld **In dieser Spalte anzeigen** oben links im ReportBuilder das Feld aus, das in der neuen Spalte angezeigt werden soll.
+1. Klicken Sie auf **Erweiterte Optionen**.
 
 1. Geben Sie die folgenden Informationen an:
 
@@ -126,10 +126,10 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](
    </note>
    -->
 
-1. Im **Wenn das** -Abschnitt, legen Sie eine Bedingungsanweisung für die Spalte fest.
+1. Legen Sie im Abschnitt **When the:** eine Bedingungsanweisung für die Spalte fest.
 
    Beispiel: &quot;Wenn der Task Percent Complete gleich (Groß-/Kleinschreibung beachten) 50 ist.&quot;
-1. Im **Zeigen Sie das Feld wie folgt an:** -Abschnitt geben Sie an, wie dieses Feld aussieht, wenn die oben definierte Bedingung erfüllt ist.
+1. Geben Sie im Abschnitt **Feld wie folgt anzeigen:** an, wie dieses Feld aussieht, wenn die oben definierte Bedingung erfüllt ist.
 
    Geben Sie die folgenden Informationen an:
 
@@ -159,7 +159,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Text anzeigen</strong></td> 
-      <td> <p>Wählen Sie diese Option aus, um anstelle des tatsächlichen Werts eine benutzerdefinierte Bezeichnung für diese Spalte anzuzeigen. Geben Sie den anzuzeigenden Text anstelle des Werts im Feld an.</p> <p><b>WICHTIG</b></p> <p>Auswählen <strong>Text anzeigen</strong> Deaktiviert die Inline-Bearbeitung des Textes in dieser Spalte.<br>Außerdem können Sie den Wert einer Vorgängerspalte nicht ändern, da sie integrierte Logik enthält.</p> </td> 
+      <td> <p>Wählen Sie diese Option aus, um anstelle des tatsächlichen Werts eine benutzerdefinierte Bezeichnung für diese Spalte anzuzeigen. Geben Sie den anzuzeigenden Text anstelle des Werts im Feld an.</p> <p><b>WICHTIG</b></p> <p>Wenn Sie <strong>Text anzeigen</strong> auswählen, wird die Möglichkeit zur Inline-Bearbeitung des Texts in dieser Spalte deaktiviert.<br>Außerdem können Sie den Wert einer Vorgängerspalte nicht ändern, da sie integrierte Logik enthält.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Auf die gesamte Zeile anwenden</strong></td> 
@@ -168,7 +168,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](
     </tbody> 
    </table>
 
-1. Klicks **Regel hinzufügen**.\
+1. Klicken Sie auf **Regel hinzufügen**.\
    Sie können der gleichen Spalte zusätzliche Regeln hinzufügen oder Regeln zu anderen Spalten hinzufügen.
 
    Regeln werden in der Reihenfolge angewendet, in der sie erstellt wurden. Sie werden kombiniert, überschreiben sich jedoch nicht, obwohl eine Spaltenregel Vorrang vor einer Zeilenregel für dieselbe Zelle hat.
@@ -189,6 +189,6 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Bericht erstellen](
    * Fügen Sie die Spaltenregel für den roten Hintergrund bei verspäteten Projekten erneut hinzu.
    * Wenn Sie die Regeln und die Ansicht speichern, wird der rote Hintergrund nicht auf ein abgebrochenes Projekt angewendet.
 
-1. Klicks **Fertig**.
+1. Klicken Sie auf **Fertig**.
 1. Klicken Sie auf **Speichern + schließen**.\
    Im Bericht sehen Benutzer Änderungen am Format, wenn die angegebenen Bedingungen erfüllt sind.

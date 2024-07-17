@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 2.3 Weitere Verbesserungen
 
-Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 22.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [2.3 Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 22.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [22.3 - Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Aktualisierte Timesheets
 

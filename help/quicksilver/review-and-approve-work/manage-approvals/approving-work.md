@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verknüpft sind</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verknüpft sind</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,11 +58,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können Genehmigungen in verschiedenen Bereichen von Workfront anzeigen und verwalten.
 
-Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, oder von Elementen, die Sie selbst zur Genehmigung eingereicht haben, finden Sie unter [Anzeigen von Genehmigungen](../../review-and-approve-work/manage-approvals/view-approvals.md).
+Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, oder von Elementen, die Sie selbst zur Genehmigung eingereicht haben, finden Sie unter [Genehmigungen anzeigen](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
 ## Genehmigen Sie die Arbeit vom Startbereich aus.
 
-1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie oben links in Adobe Workfront auf das Symbol **Startseite** ![](assets/home-icon-30x29.png) .
 
    >[!NOTE]
    >
@@ -70,44 +70,44 @@ Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, 
    >
    >   
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
-   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
+   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf das **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und klicken Sie dann auf **Startseite**.
 
-1. Klicken Sie auf **Filter** Dropdown-Menü.
+1. Klicken Sie auf das Dropdown-Menü **Filter** .
 
    ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
-1. Auswählen **Genehmigungen**.\
+1. Wählen Sie **Genehmigungen** aus.\
    Alle Arbeitselemente, für die Ihre Genehmigung erforderlich ist, werden angezeigt. 
 
    >[!NOTE]
    >
    >Genehmigungen, die Auftragsrollen oder Gruppen zugewiesen sind, werden nicht auf der Startseite angezeigt. Für Teams zugewiesene Validierungen werden in der Gruppe Teamanfrage in der Arbeitsliste angezeigt.
 
-1. (Optional) Ändern Sie die Reihenfolge, in der die Genehmigungen angezeigt werden, wie im Artikel &quot;Gruppieren und nach Datum, Projekt oder Priorität sortieren&quot;beschrieben. [Anzeigen von Elementen in der Arbeitsliste im Startbereich](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+1. (Optional) Ändern Sie die Reihenfolge, in der Genehmigungen angezeigt werden, wie im Abschnitt &quot;Gruppe und Sortieren nach Datum, Projekt oder Priorität&quot;im Artikel [Elemente in der Arbeitsliste im Startbereich anzeigen](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) beschrieben.
 1. Wählen Sie das Element aus, für das Sie eine Genehmigungsentscheidung treffen möchten.
 
    ![](assets/task-approval-home-350x127.png)
 
 1. Klicken Sie im rechten Bereich auf eine der verfügbaren Optionen, wenn Sie eine Genehmigungsentscheidung treffen. Je nach Typ des zu genehmigenden Elements werden in der rechten oberen Ecke der Seite die folgenden Optionen angezeigt:
 
-   * **Projekte:** Klicks **Genehmigen** oder **Ablehnen**.
+   * **Projekte:** Klicken Sie auf **Genehmigen** oder **Ablehnen**.
 
-   * **Aufgaben:** Klicks **Genehmigen** oder **Ablehnen** .
+   * **Aufgaben:** Klicken Sie auf **Genehmigen** oder **Ablehnen** .
 
-   * **Probleme:** Klicks **Genehmigen** oder **Ablehnen** .
+   * **Probleme:** Klicken Sie auf **Genehmigen** oder **Ablehnen** .
 
-   * **Timesheets:** Klicks **Genehmigen** oder **Ablehnen** .
+   * **Timesheets:** Klicken Sie auf **Genehmigen** oder **Ablehnen** .
 
-   * **Dokumente:** Klicks **Genehmigen**, **Ablehnen** oder **Änderungen**.\
-      Beachten Sie beim Anzeigen von Genehmigungen Folgendes:
+   * **Dokumente:** Klicken Sie auf **Genehmigen**, **Ablehnen** oder **Änderungen**.\
+      Beachten Sie bei der Anzeige Folgendes  Genehmigungen:
 
-      * Hier werden die Testversandgenehmigungen angezeigt, wenn ein Benutzer einen Testversand für Sie freigegeben hat, wie im Artikel unter &quot;Link zum Testversand freigeben&quot;beschrieben. [Freigeben eines Testversands in Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-      * Testversandgenehmigungen werden nur dann im Startbereich angezeigt, wenn Ihre Workfront-Umgebung in ein Workfront Testversand Premium-Konto integriert ist. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie die Proofing-Funktion nicht wie hier beschrieben verwenden können.
+      * Hier werden die Genehmigungen für Testsendungen angezeigt, wenn ein Benutzer einen Testversand mit Ihnen teilt, wie im Abschnitt &quot;Link zum Testversand freigeben&quot;im Artikel [Freigeben eines Testversands in Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) beschrieben.
+      * Testversandgenehmigungen werden nur dann im Startbereich angezeigt, wenn Ihre Workfront-Umgebung in ein Workfront Proof Premium-Konto integriert ist. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie die Proofing-Funktion nicht wie hier beschrieben verwenden können.
       * Sie erhalten eine In-App-Benachrichtigung, in der Sie über die Genehmigung des Testversands informiert werden.\
         Weitere Informationen zu In-App-Benachrichtigungen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
       * Der Name des Benutzers, der die Genehmigung angefordert hat, wird neben dem Miniaturbild im Startbereich mit folgendem Text angezeigt:\
-        &quot;*Benutzer A* Ihre Genehmigung soll...&quot;
+        &quot;*Benutzer A* möchte Ihre Genehmigung für ...&quot;
 
         <!--      
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
@@ -117,13 +117,13 @@ Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, 
 
         Wenn der Benutzername nicht verfügbar ist, wird der folgende Text angezeigt:\
         &quot;Eine neue Version eines Testversands kann angezeigt werden.&quot;
-      * Um eine Validierungsentscheidung für den Testversand zu treffen, klicken Sie auf **Gehe zu Testversand** klicken **Finish-Überprüfung** und klicken Sie dann auf eine der verfügbaren Optionen. Folgende Optionen stehen bei der Validierung eines Testversands zur Verfügung: **Genehmigt**, **Genehmigt mit Änderungen**, **Erforderliche Änderungen**, und **Nicht zutreffend**.
+      * Um eine Genehmigungsentscheidung für den Testversand zu treffen, klicken Sie auf **Gehe zu Testversand**, klicken Sie auf **Überprüfung abschließen** und anschließend auf eine der verfügbaren Optionen. Bei der Genehmigung eines Testversands stehen folgende Optionen zur Verfügung: **Genehmigt**, **Genehmigt mit Änderungen**, **Erforderliche Änderungen** und **Nicht relevant**.
 
-      * Nachdem eine Entscheidung über den Testversand getroffen wurde, bleibt der Testversand im Tab Meine Genehmigungen mit dem Text &quot;Entscheidung getroffen&quot;, bis Sie auf die Schaltfläche **Aktualisieren** oder bis Sie die Browser-Seite aktualisieren.
+      * Nachdem eine Entscheidung über den Testversand getroffen wurde, bleibt der Testversand auf der Registerkarte &quot;Meine Genehmigungen&quot;mit dem Text &quot;Entscheidungsfindung&quot;erhalten, bis Sie auf die Schaltfläche **Aktualisieren** klicken oder die Browser-Seite aktualisieren.
 
-        Informationen zur Überprüfung eines Testversands finden Sie unter [Überprüfen von Testsendungen in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+        Informationen zum Überprüfen eines Testversands finden Sie unter [Testsendungen in Adobe Workfront überprüfen](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-   * **Zugriff:** Wählen Sie die Zugriffsstufe aus, die im **Zugriff ändern** Dropdown-Menü, und klicken Sie auf **Zugriff gewähren**. Oder klicken Sie auf **Ignorieren**.
+   * **Zugriff:** Wählen Sie im Dropdown-Menü **Zugriff ändern** die zu gewährende Zugriffsebene aus und klicken Sie dann auf **Zugriff gewähren**. Oder klicken Sie auf **Ignore**.
 
 ## Direkte Genehmigung der Arbeit über ein Projekt, eine Aufgabe oder ein Problem
 
@@ -154,35 +154,35 @@ So genehmigen Sie Arbeiten direkt über ein Projekt, eine Aufgabe oder ein Probl
     </tbody> 
    </table>
 
-1. Klicks **Genehmigen** oder **Ablehnen**, je nachdem, ob Sie den Validierungsprozess genehmigen oder ablehnen möchten.\
+1. Klicken Sie auf **Genehmigen** oder **Ablehnen**, je nachdem, ob Sie den Genehmigungsprozess genehmigen oder ablehnen möchten.\
    Die Validierungsphase, für die die Genehmigung ausstand, wird nun genehmigt und der Genehmigungsprozess wird in die nächste Phase verschoben. Der Status wird genehmigt, nachdem alle Phasen genehmigt wurden.
 
 ## Dokument direkt aus einem Dokument genehmigen 
 
 1. Markieren Sie den Dokumentbereich, der das Dokument enthält, für das Sie eine Genehmigung benötigen.
-1. Wählen Sie das Dokument aus und klicken Sie auf **Genehmigen**, **Änderungen** oder **Ablehnen**.\
+1. Wählen Sie das Dokument aus und klicken Sie dann auf **Genehmigen**, **Änderungen** oder **Ablehnen**.\
    ![](assets/approval-approve-document-350x215.png)\
    ![](assets/document-approval-350x199.png)
 
-1. (Optional) Wenn ein Testversand für das Dokument generiert wurde, können Sie das Dokument in der Testversandschnittstelle genehmigen, wie hier beschrieben: [Dokument anhand eines Testversands genehmigen](#approve-a-document-from-a-proof).
+1. (Optional) Wenn ein Testversand für das Dokument generiert wurde, können Sie das Dokument in der Testversandschnittstelle genehmigen, wie unter [Dokument anhand eines Testversands genehmigen](#approve-a-document-from-a-proof) beschrieben.
 
 ## Dokument aus einer Validierungs-E-Mail validieren
 
-Abhängig von Ihren Benachrichtigungseinstellungen erhalten Sie E-Mails, die Sie über Dokumente informieren, für die andere Benutzer eine Validierungsentscheidung treffen müssen. Wenn Sie eine E-Mail mit einer **Genehmigungsentscheidung treffen** können Sie den Validierungsprozess direkt über die E-Mail starten:
+Abhängig von Ihren Benachrichtigungseinstellungen erhalten Sie E-Mails, die Sie über Dokumente informieren, für die andere Benutzer eine Validierungsentscheidung treffen müssen. Wenn Sie eine E-Mail mit der Schaltfläche **Genehmigungsentscheidung treffen** erhalten, können Sie den Genehmigungsprozess direkt über die E-Mail starten:
 
-1. Klicken Sie in der E-Mail auf **Genehmigungsentscheidung treffen** , um die Seite Dokumentdetails für den Testversand zu öffnen.
+1. Klicken Sie in der E-Mail auf **Genehmigungsentscheidung treffen** , um die Seite &quot;Dokumentdetails&quot;für den Testversand zu öffnen.
 1. Führen Sie einen der folgenden Schritte aus, um das Dokument zu überprüfen:
 
    * Anzeigen der Metadaten zum Dokument.
-   * Wenn ein Testversand zur Überprüfung des Dokuments mit Markup und Kommentaren erstellt wurde, klicken Sie auf **Offener Testversand** ![](assets/open-proof-icon-qs.png) in der Nähe der oberen rechten Ecke und überprüfen Sie den Testversand.
+   * Wenn ein Testversand zur Überprüfung des Dokuments mit Markup und Kommentaren erstellt wurde, klicken Sie oben rechts auf **Testversand öffnen** ![](assets/open-proof-icon-qs.png) und überprüfen Sie den Testversand.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
      -->
 
-     Informationen zur Überprüfung von Testsendungen finden Sie unter [Überprüfen von Testsendungen in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     Informationen zur Überprüfung von Testsendungen finden Sie unter [Testsendungen in Adobe Workfront überprüfen](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Klicken Sie auf **Entscheidung** in der oberen rechten Ecke die Option zum Genehmigen, Genehmigen mit Änderungen oder Ablehnen des Dokuments.
+1. Klicken Sie oben rechts auf die Option **Entscheidung** , um das Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
 
 ## Dokument anhand eines Testversands genehmigen {#approve-a-document-from-a-proof}
 

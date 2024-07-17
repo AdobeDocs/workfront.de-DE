@@ -38,7 +38,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
    <td> 
-   <p>Aktuell: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p> 
+   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p> 
    <p>Oder</p> 
    <p>Veraltet: Beliebig </p> 
    </td>  
@@ -46,19 +46,19 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr>  
    <td role="rowheader">Produkt</td>  
    <td> 
-   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
    <p>Oder</p> 
-   <p>Aktuell: Ihr Unternehmen muss Einkäufe tätigen [!DNL Adobe Workfront Fusion].</p> 
+   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Durchschnitt ([Array von Werten]) average(value1; [value2], ...)]
+## [!UICONTROL Durchschnitt ([Array der Werte]) average(value1; [value2], ...)]
 
 Gibt den Durchschnittswert der numerischen Werte in einem bestimmten Array oder den Durchschnittswert der einzelnen eingegebenen numerischen Werte zurück.
 
@@ -98,15 +98,15 @@ Gibt die größte Ganzzahl zurück, die kleiner oder gleich einer angegebenen Za
 >
 >   Gibt 4 zurück
 
-## [!UICONTROL max ([Array von Werten]), max(value1;value2; ...)]
+## [!UICONTROL max ([Array der Werte]), max(value1;value2; ...)]
 
 Gibt die größte Zahl in einem angegebenen Array oder die größte Zahl unter den einzeln eingegebenen Zahlen zurück.
 
-## [!UICONTROL min ([Array von Werten]), min(value1; value2; ...)]
+## [!UICONTROL min ([Array der Werte]), min(value1; value2; ...)]
 
 Gibt die kleinste Zahl in einem angegebenen Array oder die kleinste Zahl unter den einzeln eingegebenen Zahlen zurück.
 
-## [!UICONTROL round (Zahl)]
+## [!UICONTROL round (number)]
 
 Kürzt den numerischen Wert auf die nächste Ganzzahl.
 
@@ -130,7 +130,7 @@ Kürzt den numerischen Wert auf die nächste Ganzzahl.
 >
 >   Gibt 2 zurück
 
-## [!UICONTROL sum ([Array von Werten]), sum(value1; value2; ...)]
+## [!UICONTROL sum ([Array der Werte]), sum(value1; value2; ...)]
 
 Gibt die Summe der Werte in einem angegebenen Array oder die Summe der einzelnen eingegebenen Zahlen zurück.
 

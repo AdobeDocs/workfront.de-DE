@@ -22,7 +22,7 @@ ht-degree: 0%
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-* [Validierungsprozess bearbeiten](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
+* [Bearbeiten eines Genehmigungsprozesses](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
 * [Globale Genehmigungseinstellungen konfigurieren](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
-* [Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
+* [Wie sich Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse auswirken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
 * [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)

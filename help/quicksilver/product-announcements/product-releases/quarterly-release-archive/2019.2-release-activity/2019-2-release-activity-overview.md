@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Übersicht über die Versionsaktivität 2019.2
 
-Auf dieser Seite finden Sie Informationen zu den Funktionen der Version 2019.2. Um diesen Inhalt im PDF-Format herunterzuladen, gehen Sie zu [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Auf dieser Seite finden Sie Informationen zu den Funktionen der Version 2019.2. Um diesen Inhalt im PDF-Format herunterzuladen, gehen Sie [hier](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen der Version 2019.2. 
 >
 >* *Workfront-Produktionsumgebung für Cluster 2, 4 und 6 - 23. Mai*
 >* *Workfront-Produktionsumgebung für Cluster 1, 3 und 5 - 24. Mai*
->* *Workfront-Produktionsumgebung für Testsendungen - 21. Mai*
+>* *Workfront Proof-Produktionsumgebung - 21. Mai*
 
 Die Version 2019.2 enthält Verbesserungen für Systemadministratoren und andere Benutzer.
 
@@ -116,7 +116,7 @@ Die Version 2019.2 enthält Verbesserungen für Systemadministratoren und andere
 
 * Verbessertes Listenerlebnis in iOS und Android
 
-  Das Erscheinungsbild für alle Listenansichten wird jetzt sowohl in den iOS- als auch in den Android-Apps aktualisiert.
+  Das Erscheinungsbild für alle Listenansichten wird jetzt sowohl in den iOS- als auch in Android-Apps aktualisiert.
 
 ## Verbesserungen, die direkt in der Produktion veröffentlicht werden
 
@@ -133,10 +133,10 @@ Die Version 2019.2 enthält Verbesserungen für Systemadministratoren und andere
 
 ## Ankündigungen
 
-* [Workfront Library jetzt verfügbar](#workfront-library-now-available)
+* [Workfront-Bibliothek jetzt verfügbar](#workfront-library-now-available)
 * [API Version 3 wird nicht mehr unterstützt](#api-version-3-no-longer-supported)
 * [TLS-Unterstützung endet](#tls-support-is-ending)
-* [Entfernen von Flash-Anwendungen](#flash-application-removal)
+* [Flash Application Removal](#flash-application-removal)
 * [Verschiedene Single-Sign-On-Optionen werden entfernt](#various-single-sign-on-options-to-be-removed)
 
 ### Workfront Library jetzt verfügbar {#workfront-library-now-available}
@@ -151,13 +151,13 @@ Die Unterstützung für API Version 3 wurde im November 2018 eingestellt. Weiter
 
 Um eine optimale Sicherheit zu gewährleisten, erfordert Workfront, dass alle Integrationen und Web-Traffic mit TLS 1.0 oder früher auf TLS 1.1 oder höher aktualisiert werden. Diese Änderung ist bereits in der Vorschau -Umgebung wirksam.
 
-Weitere Informationen finden Sie unter [TLS 1.2 in Adobe Workfront erforderlich](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
+Weitere Informationen finden Sie unter [TLS 1.2 ist in Adobe Workfront erforderlich](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
 ### Entfernen von Flash-Anwendungen {#flash-application-removal}
 
 Alle Funktionen, die auf Flash-Technologie basieren, wurden seit der Version 2018.3 von Workfront entfernt und durch eine neue -Lösung ersetzt.
 
-Detaillierte Informationen zu den alten Flash-Tools und deren Ersetzung finden Sie unter [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Ausführliche Informationen zu den alten Flash-Tools und deren Ersetzungen finden Sie unter [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### Verschiedene Single-Sign-On-Optionen werden entfernt {#various-single-sign-on-options-to-be-removed}
 
@@ -195,7 +195,7 @@ Das Webinar zur Produktübersicht für das zweite Quartal 2019 wurde am Donnerst
 
 Treten Sie dem Produktmanagement-Team von Workfront bei, um mehr über unsere Produktvorstellung, den Fahrplan für 2019 und die Art und Weise der Einbeziehung zu erfahren.
 
-Informationen zum Anzeigen der Webinaraufzeichnung finden Sie unter [Webinar zur Produktübersicht für Q2 2019](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
+Informationen zum Anzeigen der Webinaraufzeichnung finden Sie im Webinar [Q2 2019 Product Roadmap Webinar](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
 
 ### Workfront-Produktübersicht Webinar - 1. Quartal 2019
 

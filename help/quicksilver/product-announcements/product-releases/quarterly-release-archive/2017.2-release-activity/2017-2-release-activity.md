@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Aktivität &quot;Version 2017.2&quot;
 
-* [Übersicht über die Versionsaktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
+* [Übersicht über die Veröffentlichungsaktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
 * [Webinare der Version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
-* [2017.2 Beta endgültig](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
-* [Aktivität &quot;Beta-Version 3&quot;2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
-* [Aktivität &quot;Beta-Version 2&quot;2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
-* [Aktivität &quot;Beta-Version 2017.2&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
+* [Beta Final 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
+* [Beta 3 Release-Aktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
+* [Beta 2 Release-Aktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
+* [Beta 1-Release-Aktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)

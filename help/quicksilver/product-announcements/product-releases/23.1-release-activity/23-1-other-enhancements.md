@@ -27,13 +27,13 @@ Das aktualisierte Plug-in Adobe Workfront für Design und Video unterstützt jet
 
 Mit diesem Plug-in können Sie auf Details von Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und alles protokollieren, ohne Ihre bevorzugte Creative Cloud-Anwendung verlassen zu müssen.
 
-Herunterladen [Adobe Workfront für Design und Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) im Marketplace .
+Laden Sie heute [Adobe Workfront für Design und Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) auf den Marketplace herunter.
 
-Administratoren können auch [Erstellen eines Pakets mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) von der Admin Console aus bereitstellen und für Benutzer bereitstellen, entweder auf verwaltete oder selbstverwaltete Weise.
+Administratoren können auch [ein Paket mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) aus der Admin Console erstellen und für Benutzer bereitstellen, entweder auf verwaltete oder selbst verwaltete Weise.
 
 ## Erweiterte Filterfunktionen, die in Adobe Workfront allgemein verfügbar sind
 
-Im August 2022 wurde in der öffentlichen Beta-Version ein Upgrade der Filtererfahrung für Projekt-, Aufgaben- und Problemlisten veröffentlicht. Die meisten Listen bieten nun die erweiterten Filter. (Um alle diese Listen zu überprüfen, lesen Sie den Abschnitt [Versionshinweise zu 23.1 Look-and-Feel-Updates](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).
+Im August 2022 wurde in der öffentlichen Beta-Version ein Upgrade der Filtererfahrung für Projekt-, Aufgaben- und Problemlisten veröffentlicht. Die meisten Listen bieten nun die erweiterten Filter. (Informationen zum Überprüfen aller dieser Listen finden Sie in der Versionshinweise [23.1 Look-and-Feel-Updates](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md) .)
 
 Als &quot;schnelle Folge&quot;der Version 23.1 ist das erweiterte Filtererlebnis allgemein verfügbar und wird im Zeitraum Februar/März 2023 zum standardmäßigen Filtergenerator.
 
@@ -47,15 +47,15 @@ Mit diesen Funktionen werden Probleme im Zusammenhang mit kuratierten Filterlist
 
 Sie können weiterhin auf die veralteten Filter in Listen zugreifen, indem Sie sie im Filterbereich aktivieren. Alte Filter werden in Zukunft nicht mehr von Listen unterstützt, sie bleiben jedoch in Berichten verfügbar, da die erweiterten Filter nicht in Berichten verfügbar sind.
 
-Weitere Informationen zu den erweiterten Filtern und eine Videodemonstration finden Sie in der [Filtert die öffentliche Beta-Version](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Weitere Informationen zu den erweiterten Filtern und eine Videodemonstration finden Sie in der Versionshinweise [Filter zur öffentlichen Beta-Version](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md) .
 
 ## Neue Listensteuerungsfunktionen unter &quot;Benutzeroberfläche&quot;> &quot;Filter&quot;, &quot;Ansichten&quot;und &quot;Gruppierungen&quot;
 
 Den Seiten &quot;Filter&quot;, &quot;Ansichten&quot;und &quot;Gruppierungen&quot;im Bereich &quot;Einrichtung&quot;wurde eine Funktion zur Listensteuerung hinzugefügt. Dort können Sie Filter, Ansichten und Gruppierungen für die Layout-Vorlage aktivieren oder deaktivieren.
 
-Weitere Informationen finden Sie unter [Standardfilter, Ansichten und Gruppierungen erstellen, bearbeiten und freigeben](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Freigeben von Standardfiltern, Ansichten und Gruppierungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412057/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
 ## Einführung in Adobe Workfront für Design und Video
 
@@ -65,9 +65,9 @@ Das aktualisierte Plug-in Adobe Workfront für Design und Video unterstützt jet
 
 Mit diesem Plug-in können Sie auf Details von Arbeitselementen zugreifen, mit Mitarbeitern im Bereich Updates zusammenarbeiten und alles protokollieren, ohne Ihre bevorzugte Creative Cloud-Anwendung verlassen zu müssen.
 
-Herunterladen [Adobe Workfront für Design und Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) auf dem Markt.
+Laden Sie heute [Adobe Workfront für Design und Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) auf den Markt.
 
-Administratoren können auch [Erstellen eines Pakets mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) von der Admin Console aus bereitstellen und für Benutzer bereitstellen, entweder auf verwaltete oder selbstverwaltete Weise.
+Administratoren können auch [ein Paket mit den Plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) aus der Admin Console erstellen und für Benutzer bereitstellen, entweder auf verwaltete oder selbst verwaltete Weise.
 
 ## Zugriff auf die Workfront-Hilfe für Kunden auf der Adobe Unified Experience
 
@@ -82,7 +82,7 @@ Sie haben zwei Möglichkeiten, auf die Workfront-Hilfe in Adobe Experience Leagu
 * Das Hauptmenü links neben der Navigationsleiste von Workfront enthält einen Hilfelink am unteren Rand
 * Das Fragezeichen-Symbol im oberen Navigationsbereich enthält Links zu Hilfe, Support und Feedback
 
-Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) oder [Zugriff auf Adobe Workfront-Hilfe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) oder [Zugriff auf Adobe Workfront-Hilfe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Pins und ein neues Erlebnis beim Löschen von Pins umbenennen
 
@@ -94,6 +94,6 @@ Die folgenden Updates sind jetzt für Pins verfügbar:
 
 Die Optionen zum Umbenennen und Entfernen einer Nadel werden in einem Dropdown-Menü angezeigt, wenn Sie den Mauszeiger über die Nadel bewegen.
 
-Weitere Informationen finden Sie unter [Seiten fixieren, um Ihren Arbeitsbereich anzupassen](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+Weitere Informationen finden Sie unter [Seiten veröffentlichen, um Ihren Arbeitsbereich anzupassen](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412389/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412389/){target=_blank}

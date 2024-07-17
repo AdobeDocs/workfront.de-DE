@@ -80,7 +80,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
-Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -111,11 +111,11 @@ Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, u
 
 {{step1-to-planning}}
 
-1. Klicks **Arbeitsbereich erstellen**
+1. Klicken Sie auf **Arbeitsbereich erstellen**
 
    Das Feld Arbeitsbereich erstellen wird angezeigt. Sie können einen Arbeitsbereich von Grund auf neu erstellen oder mithilfe einer der verfügbaren Vorlagen erstellen.
 
-1. (Optional und bedingt) Klicken Sie auf **Vorschau** in einer der folgenden vordefinierten Arbeitsbereichsvorlagen:
+1. (Optional und bedingt) Klicken Sie in einer der folgenden vordefinierten Workspace-Vorlagen auf **Vorschau** :
 
    * Allgemein: Marketing-Management
    * Erweitert: Marketing-Management
@@ -129,34 +129,34 @@ Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, u
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Weitere Informationen zu Vorlagen für Workfront Planning Workspace finden Sie unter [Liste der Workspace-Vorlagen](/help/quicksilver/planning/architecture/workspace-templates.md).
+   Weitere Informationen zu Workfront Planning Workspace-Vorlagen finden Sie unter [Liste der Workspace-Vorlagen](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Klicken Sie im Vorlagenvorschau-Feld auf **Vorlage verwenden** , um den Arbeitsbereich aus der ausgewählten Vorlage zu erstellen
+1. Klicken Sie im Vorlagenvorschaufeld auf **Vorlage verwenden** , um mit der Erstellung des Arbeitsbereichs aus der ausgewählten Vorlage zu beginnen.
 
    Oder
 
-   Klicks **Zurück** Klicken Sie auf **Neuer Arbeitsbereich** , um einen neuen Arbeitsbereich zu erstellen.
+   Klicken Sie auf **Zurück** und dann auf **Neuer Arbeitsbereich** , um einen neuen Arbeitsbereich zu erstellen.
 
    Eine für die folgenden Arten von Arbeitsbereichen wird erstellt:
 
-   * Ein leerer Arbeitsbereich mit dem Namen **Unbenannter Arbeitsbereich** wo Sie beim Erstellen eines neuen Arbeitsbereichs manuell mit dem Hinzufügen von Datensatztypen beginnen können.
+   * Ein leerer Arbeitsbereich mit dem Namen **Unbenannter Workspace** , in dem Sie Datensatztypen manuell hinzufügen können, wenn Sie einen neuen Arbeitsbereich erstellen.
    * Ein Arbeitsbereich mit dem Namen nach der ausgewählten Vorlage, der mit Beispieldatensatztypen gefüllt ist. Sie können die Datensatztypen und den Arbeitsbereich weiter anpassen.
 
 1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste.
 
-1. (Optional und bedingt) Wenn Sie den Arbeitsbereich aus einer Vorlage erstellt haben, klicken Sie in den Namen der **Operative Datensatztypen** oder **Taxonomien** Abschnitte
+1. (Optional und bedingt) Wenn Sie den Arbeitsbereich aus einer Vorlage erstellt haben, klicken Sie in den Namen der Abschnitte **Typen für operative Datensätze** oder **Taxonomien** .
 
    Oder
 
-   Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Umbenennen** , um den Abschnitt umzubenennen.
+   Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie dann auf das Menü **Mehr** ![](assets/more-menu.png) und dann auf **Umbenennen** , um den Abschnitt umzubenennen.
 
    >[!TIP]
    >
    >Sie können jeden Abschnitt aus einem beliebigen Arbeitsbereich umbenennen, auch wenn Sie den Abschnitt nicht erstellt haben.
 
-   Weitere Informationen zum Bearbeiten von Arbeitsbereichen, einschließlich Arbeitsbereichsabschnitten, finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Weitere Informationen zum Bearbeiten von Arbeitsbereichen, einschließlich der Bearbeitung von Arbeitsbereichen, finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
-1. (Optional) Klicken Sie auf **Datensatztyp hinzufügen** , um dem Arbeitsbereich in einem beliebigen Abschnitt Datensatztypen hinzuzufügen.
+1. (Optional) Klicken Sie auf **Hinzufügen des Datensatztyps** , um dem Arbeitsbereich in einem beliebigen Abschnitt Datensatztypen hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 

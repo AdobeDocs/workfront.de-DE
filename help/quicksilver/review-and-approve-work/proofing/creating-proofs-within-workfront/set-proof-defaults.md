@@ -27,11 +27,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Auswählen oder höher</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Auswählen oder höher</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -40,14 +40,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Konfigurieren der Standardeinstellungen für persönliche Testsendungen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Testversand**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und dann auf **Testversand**.![](assets/main-menu-icon.png)
 
-1. Klicken Sie oben rechts auf Ihren Avatar und wählen Sie **Persönliche Einstellungen**.
-1. Wählen Sie die **Standardeinstellungen für die Prüfung** und geben Sie dann die folgenden Informationen an:
+1. Klicken Sie oben rechts auf Ihren Avatar und wählen Sie **Persönliche Einstellungen** aus.
+1. Wählen Sie die Registerkarte **Testversand-Standardeinstellungen** und geben Sie dann die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td colspan="2"><strong>Standard-E-Mail-Benachrichtigungseinstellungen</strong> </td> 
      </tr> 
      <tr> 
-      <td>Standard-E-Mail-Warnhinweis</td> 
+      <td>Standard-E-Mail-Warnung</td> 
       <td>Wählen Sie aus, wie häufig der Benutzer E-Mail-Aktualisierungen erhält. Wählen Sie "Alle Aktivitäten", "Antworten auf meine Kommentare", "Entscheidungen", "Endgültige Entscheidung", "Stündliche Zusammenfassung", "Tägliche Zusammenfassung"oder "Deaktiviert".</td> 
      </tr> 
      <tr> 
@@ -72,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td colspan="2"><strong>Nachrichteneinstellungen</strong> </td> 
      </tr> 
      <tr> 
-      <td>Vorlage für Testversand-Betreff</td> 
+      <td>Vorlage für Testversand</td> 
       <td>Geben Sie ein, was Benutzer sehen sollen, wenn Sie einen Testversand für sie freigeben.</td> 
      </tr> 
      <tr> 
@@ -92,7 +92,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td>Erforderliche Anmeldung</td> 
-      <td> <p>Wählen Sie diese Option, um den Testversand nur Benutzern mit Workfront Testversand-Anmeldedaten zur Verfügung zu stellen.</p> <p>Hinweis: Die Workfront-Testversanddaten können sich von Ihren Workfront-Anmeldedaten unterscheiden, es sei denn, Ihre Unternehmensbenutzer SSO. Es wird empfohlen, diese Funktion nur zu verwenden, wenn Ihre Unternehmensbenutzer SSO verwenden.</p> </td> 
+      <td> <p>Wählen Sie aus, den Testversand nur Benutzern mit Workfront Proof-Anmeldedaten zur Verfügung zu stellen.</p> <p>Hinweis: Workfront Proof-Anmeldedaten können sich von Ihren Workfront-Anmeldedaten unterscheiden, es sei denn, Ihre Unternehmensbenutzer SSO. Es wird empfohlen, diese Funktion nur zu verwenden, wenn Ihre Unternehmensbenutzer SSO verwenden.</p> </td> 
      </tr> 
      <tr> 
       <td>Abonnement aktiviert</td> 
@@ -108,7 +108,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td>Meine standardmäßige Testprofil-Rolle</td> 
-      <td>Wählen Sie Ihre standardmäßige Testversand-Rolle aus. </td> 
+      <td>Wählen Sie Ihre standardmäßige Testversandrolle aus. </td> 
      </tr> 
      <tr> 
       <td>Meine standardmäßige Markup-Farbe</td> 

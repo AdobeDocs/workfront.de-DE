@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des zweiten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Logik und Logik zum Überspringen sind jetzt im Vorschaumodus des Formulardesigners verfügbar
 
@@ -36,7 +36,7 @@ Weitere Informationen zur Vorschau eines benutzerdefinierten Formulars im Formul
 
 Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind jetzt verfügbar, wenn Sie ein benutzerdefiniertes Formular an ein Unternehmen oder einen Benutzer anhängen. Die erweiterten Funktionen sind auf den Seiten &quot;Firmendetails&quot;und &quot;Benutzerdetails&quot;verfügbar, nicht in den Dialogfeldern &quot;Unternehmen bearbeiten&quot;und &quot;Benutzer bearbeiten&quot;. Das benutzerdefinierte Formular muss im neuen Formularentwickler erstellt werden, um diese Feldtypen nutzen zu können.
 
-Weitere Informationen zu benutzerdefinierten Formularfeldern finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Formularfeldern finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## JumpSeat-Integration jetzt für neue Pakettypen verfügbar
 
@@ -46,7 +46,7 @@ Weitere Informationen zu benutzerdefinierten Formularfeldern finden Sie unter [F
 
 Die vorhandene JumpSeat-Integration ist jetzt für Konten verfügbar, die einen der neuen Pakettypen verwenden (d. h. Select, Prime oder Ultimate). Sie müssen weiterhin über ein aktives JumpSeat-Abonnement verfügen, um die Integration zu aktivieren.
 
-Weitere Informationen zur JumpSeat-Integration finden Sie unter [Konfigurieren der JumpSeat-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+Weitere Informationen zur JumpSeat-Integration finden Sie unter [JumpSeat-Integration konfigurieren](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 ## Native Workfront-Felder sind in der Beta-Version des Formulardesigners verfügbar.
 
@@ -64,9 +64,9 @@ Native Felder, die in benutzerdefinierten Formularen verwendet werden, stehen in
 
 Diese Funktion ist nur in der Beta-Version des Formulardesigners verfügbar, nicht aber in der Legacy-Form-Builder.
 
-Weitere Informationen finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427702/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## Die Attributzuordnung ist jetzt für Organisationen verfügbar, die zu Adobe IMS migriert haben
 
@@ -78,7 +78,7 @@ Workfront-Systemadministratoren können jetzt die Zuordnung von Benutzerattribut
 
 Bisher war diese Funktion nur für Organisationen verfügbar, die noch nicht in Adobe IMS integriert waren.
 
-Anweisungen zum Konfigurieren der Zuordnung von Attributen finden Sie unter [Zuordnen von Benutzerattributen zum einheitlichen Adobe-Erlebnis](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) im Artikel **Benutzerattribute zuordnen und neue Benutzer automatisch bereitstellen**.
+Anweisungen zum Konfigurieren der Attributzuordnung finden Sie unter [Zuordnen von Benutzerattributen im einheitlichen Erlebnis mit Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) im Artikel **Zuordnen von Benutzerattributen und automatische Bereitstellung neuer Benutzer**.
 
 ## Logik und Anzeigenlogik überspringen sind jetzt in der Beta-Version des Formulardesigners verfügbar
 
@@ -90,4 +90,4 @@ Sie können jetzt die vorhandene Anzeige bearbeiten und die Logik überspringen 
 
 Symbole auf einem Feld auf der Arbeitsfläche des Formularentwurfs zeigen an, dass die Logik für dieses Feld konfiguriert ist oder dass das Feld in Logikregeln verwendet wird, die für andere Felder konfiguriert sind.
 
-Weitere Informationen finden Sie unter [Fügen Sie die Anzeigenlogik hinzu und überspringen Sie die Logik mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+Weitere Informationen finden Sie unter [Hinzufügen der Anzeigelogik und Überspringen der Logik mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).

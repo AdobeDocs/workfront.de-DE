@@ -8,7 +8,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
+exl-id: 899641a0-a104-4be9-b423-34a32e985b53
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 1%
@@ -51,14 +52,14 @@ Die Fusion AI kann derzeit Module generieren, die eine Verbindung zu den folgend
 
 ## Modul generieren
 
-1. Modul hinzufügen und auswählen **Generieren mit AI** aus der Liste der Anwendungen.
+1. Fügen Sie ein Modul hinzu und wählen Sie in der Liste der Anwendungen die Option **Mit KI generieren** aus.
 
    Oder
 
-   Klicken Sie mit der rechten Maustaste auf einen leeren Bereich des Szenario-Editors und wählen Sie **Generieren mit AI**.
+   Klicken Sie mit der rechten Maustaste auf einen leeren Bereich des Szenario-Editors und wählen Sie dann **Mit AI generieren** aus.
 1. Geben Sie eine Textaufforderung in das Feld ein.
 
-   Tipps zu Eingabeaufforderungen finden Sie unter [Tipps zum Erstellen von Textanforderungen](#tips-for-creating-text-prompts) in diesem Artikel.
+   Tipps zu Eingabeaufforderungen finden Sie in diesem Artikel unter [Tipps zum Erstellen von Textaufforderungen](#tips-for-creating-text-prompts).
 1. Fügen Sie Ihr API-Token für die Anwendung zum -Modul hinzu.
 1. Überprüfen Sie das Modul, um sicherzustellen, dass es für die entsprechende Anwendung und Aktion konfiguriert zu sein scheint.
 1. (Bedingt) Wenn das Modul nicht an Ihr Szenario angehängt ist, ziehen Sie es an die gewünschte Position.
@@ -78,17 +79,14 @@ Textaufforderungen sollten mindestens die folgenden Informationen enthalten:
 >
 >* `Retrieve a list of my calendars from Google Calendar`
 >
->   Dies schließt die Anwendung ein. `Google Calendar` und die Maßnahmen `Retrieve a list of my calendars`.
+>   Dazu gehören die Anwendung `Google Calendar` und die Aktion `Retrieve a list of my calendars`.
 >
 >* `Retrieve popular songs from Spotify`
 >
->   Dies schließt die Anwendung ein. `Spotify` und die Maßnahmen `Retrieve popular songs`.
+>   Dazu gehören die Anwendung `Spotify` und die Aktion `Retrieve popular songs`.
 
 Beachten Sie beim Erstellen von Textanforderungen Folgendes:
 
 * Da jedes Fusion-Modul eine einzelne Aktion ausführt, sollte Ihre Textaufforderung eine bestimmte Aktion beschreiben.
 * Verwenden Sie eine direkte, einfache Sprache.
 * Prüfen und testen Sie Ihr Modul. Wenn die Ausführung nicht wie erwartet erfolgt, verfeinern Sie die Eingabeaufforderung und versuchen Sie es erneut.
-
-
-

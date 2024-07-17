@@ -33,7 +33,7 @@ ht-degree: 0%
 
 In diesem Artikel werden die Funktionen aufgelistet, die 2024 für Workfront Planen veröffentlicht wurden.
 
-Das Workfront-Planungsprogramm begann seit dem 22. Mai 2023. Eine Liste aller 2023 veröffentlichten Funktionen finden Sie unter [Archive der Adobe Workfront-Release-Aktivitäten für 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Das Workfront-Planungsprogramm begann seit dem 22. Mai 2023. Eine Liste aller 2023 veröffentlichten Funktionen finden Sie in den Archiven der Adobe Workfront-Planungs-Release-Aktivitäten für 2023.](/help/quicksilver/planning/general/release-activity-archives-2023.md)[
 
 Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am Workfront-Planungsprogramm teilnehmen, können auf alle Funktionen in ihren Produktionsumgebungen zugreifen.
 
@@ -82,7 +82,7 @@ Wenn das Suchfeld mehrere Werte enthält, beachten Sie Folgendes:
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md)
-* [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+* [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
 ## Woche vom 24. Juni 2024
@@ -95,7 +95,7 @@ Der KI-Assistent arbeitet im Kontext der ausgewählten Seite und mit Ihrer Zugri
 
 Der KI-Assistent befindet sich derzeit in der Beta-Phase und steht ausgewählten Kunden zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, um zu erfahren, ob Sie zur Teilnahme an dieser Phase berechtigt sind.
 
-Weitere Informationen finden Sie unter [Übersicht über den Adobe Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+Weitere Informationen finden Sie unter [Adobe Workfront Planning AI Assistant Overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Neues Suchfeld bei der Auswahl eines Arbeitsbereichs oder Datensatztyps
 
@@ -105,7 +105,7 @@ Vorschau: zu bestimmen
 
 Um die Navigation zwischen Arbeitsbereichen oder Datensatztypen zu vereinfachen, können Sie jetzt im Dropdown-Menü rechts neben ihrem Namen in der Kopfzeile der Seite nach einem Arbeitsbereich oder Datensatztyp suchen.
 
-Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
+Weitere Informationen finden Sie unter [Bearbeiten von Datensatztypen](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 ### Fügen Sie ein neues Feld in der Tabellenansicht rechts oder links von einem vorhandenen ein.
 
@@ -183,7 +183,7 @@ Der Titel der Detailseite eines Datensatzes zeigt das primäre Feld eines Datens
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md)
 
 * [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md)
 
@@ -205,7 +205,7 @@ Vorschau: zu bestimmen
 
 Wenn Sie eine Verbindung zwischen zwei Datensätzen oder zwischen einem Datensatz und einem Objekt aus einer anderen Anwendung herstellen, wird der Name des Verbindungsfelds automatisch mit dem Namen des verbundenen Datensatzes ausgefüllt. Vor dieser Verbesserung mussten Sie manuell einen Namen für das Verbindungsfeld hinzufügen.
 
-Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Definieren der Anzeige von verbundenen Datensätzen in verbundenen Feldern
 
@@ -219,7 +219,7 @@ Der Titel eines Datensatzes ist entweder der Name des Datensatzes oder jedes Fel
 
 Diese Verbesserung ist für Datensätze verfügbar, die über die Workfront-Planung verbunden sind, sowie für Assets, die über die Adobe Experience Manager verbunden sind.
 
-Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Nur Benutzer mit einer Lizenz vom Typ Standard oder Geplant können über die Berechtigung &quot;Arbeitsbereiche verwalten&quot;(Titel) verfügen.
 
@@ -253,7 +253,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md)
 
-* [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md)
 
 ## Woche vom 3. Juni 2024
 
@@ -309,7 +309,7 @@ Der UNIQUE-Operator ist für alle Feldtypen mit Ausnahme der folgenden verfügba
 * Personen
 * Kontrollkästchen
 
-Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Ansichten standardmäßig für alle Mitglieder eines Arbeitsbereichs freigeben
 
@@ -357,7 +357,7 @@ Vorschau: zu bestimmen
 
 Sie können jetzt das Start- und Enddatum der Timeline-Ansicht auf ein Suchfeld aus einem verbundenen Datensatz oder Objekttyp festlegen.
 
-Weitere Informationen zum Erstellen von Ansichten finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen zum Erstellen von Ansichten finden Sie unter [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Woche vom 20. Mai 2024
 
@@ -379,7 +379,7 @@ Die folgenden Aktionen sind im Abschnitt Planung in Workfront verfügbar:
 
 * Öffnen Sie das Vorschaufeld bzw. die Seite mit den Details, um weitere Informationen zu den verbundenen Datensätzen anzuzeigen.
 
-Weitere Informationen finden Sie unter [Verwalten von Datensätzen im Bereich &quot;Planung&quot;von Adobe Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Weitere Informationen finden Sie unter [Verwalten von Datensätzen im Abschnitt &quot;Planung&quot;von Adobe Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Woche vom 13. Mai 2024
 
@@ -412,7 +412,7 @@ Wenn Sie Verbindungen zu Objekttypen außerhalb der Workfront-Planung erstellen,
 
 Wenn Sie beispielsweise Projekte aus Workfront-Planungs-Kampagnen verknüpfen, haben alle, die Zugriff auf die Kampagne haben, auch Zugriff auf verknüpfte Projekte und Informationen aus ihren Suchfeldern, selbst wenn sie keine Berechtigungen für verknüpfte Projekte haben, oder auf Projekte im Allgemeinen. Sie erhalten Zugriff auf Planungsdatensätze, wenn Sie Berechtigungen für Arbeitsbereiche erhalten.
 
-Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Abschnitte zur Vorschau des Datensatzes und Detailseiten hinzufügen
 
@@ -466,7 +466,7 @@ Vorschau: zu bestimmen
 
 Wenn Sie Adobe Unified Experience-Kunde sind und jemand Sie auf der Datensatzseite zu einem Kommentar hinzufügt, erhalten Sie eine In-App- und eine E-Mail-Benachrichtigung über den Kommentar. Sie können Ihre Benachrichtigungseinstellungen im Bereich Voreinstellungen Ihres Adobe Experience Cloud-Profils verwalten. Weitere Informationen finden Sie unter [Kontovoreinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
-Weitere Informationen zu Workfront-Planungs-Benachrichtigungen finden Sie unter [Adobe Workfront-Planungsbenachrichtigungen: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
+Weitere Informationen zu Workfront-Planungs-Benachrichtigungen finden Sie unter [Adobe Workfront-Planungs-Benachrichtigungen: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
 
 
 ## Woche vom 29. April 2029
@@ -505,7 +505,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md)
 
-* [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
+* [Bearbeiten von Datensatztypen](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 ## Woche vom 8. April 2024
 
@@ -572,7 +572,7 @@ Um Zeit zu sparen und Konsistenz zu gewährleisten, können Sie jetzt eine vorha
 
 Durch das Duplizieren einer Ansicht wird eine identische Ansicht erstellt, indem dieselben Filter, Sortierkriterien und Gruppierungen verwendet werden. Beim Duplizieren einer Ansicht werden die Berechtigungen der ursprünglichen Ansicht nicht beibehalten.
 
-Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen finden Sie unter [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Der Maestro-Bereich im Hauptmenü wurde in Planung umbenannt.
 
@@ -652,11 +652,12 @@ Für eine bessere Navigation und Benutzerfreundlichkeit haben wir die Anzeige vo
 
 Ansichten werden chronologisch nach hinzugefügtem Datum von links nach rechts angezeigt. Freigegebene Ansichten werden auch in chronologischer Reihenfolge angezeigt, in der sie freigegeben wurden.
 
-Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen finden Sie unter [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Dynamisches Design einer Datensatzansicht
 
-Produktion: 14. März 2024 Vorschau: noch festzulegen
+Produktion: 14. März 2024
+Vorschau: zu bestimmen
 
 Wir haben das Erscheinungsbild der Ansichten auf der Seite vom Typ Datensatz aktualisiert. Die neuen Ansichten sind dynamisch responsiv und passen sich schnell an die Bildschirmgröße an. Die Beschriftungen der Symbolleistenoptionen werden auf kleineren Bildschirmen ausgeblendet, um die Verwendung der Symbolleiste zu vereinfachen.
 
@@ -694,7 +695,7 @@ Vorschau: zu bestimmen
 
 Beim Freigeben einer Ansicht oder eines Arbeitsbereichs wird jetzt im Dialogfeld &quot;Freigeben&quot;neben dem Namen des Systemadministrators die Bezeichnung &quot;Admin&quot;angezeigt.
 
-Weitere Informationen finden Sie unter [Überblick über Berechtigungen freigeben](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Nicht autorisierte Seite beim Freigeben einer Ansicht ohne Berechtigungen
 
@@ -724,7 +725,7 @@ Sie können die Zeilenhöhe auf eine der folgenden Größen aktualisieren:
 * Mittel
 * Groß.
 
-Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ### Neue Kalenderansicht für Datensätze
 
@@ -748,7 +749,7 @@ Sie können nun nach verbundenen Datensätzen oder ihren Suchfeldern filtern, so
 
 Sie können keine Suchfelder filtern, sortieren oder gruppieren, die Verbindungen mit mehreren Datensätzen zulassen.
 
-Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md) und [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md) und [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Woche vom 5. Februar 2024
 
@@ -768,7 +769,7 @@ Im Folgenden finden Sie die höchsten Berechtigungsstufen, die Benutzer je nach 
 
 * Benutzer mit einer Review- oder Anforderungslizenz (oder Mitarbeiter im neuen Lizenzmodell) können nur die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen und -datensätze dieser Arbeitsbereiche anzeigen. Sie können keine Datensatztypen oder -datensätze erstellen, bearbeiten oder löschen.
 
-Weitere Informationen zum neuen Lizenzmodell finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Informationen zum neuen Lizenzmodell finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Informationen zur Verbindung zwischen Lizenztyp und Berechtigungen in den Planungsfunktionen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -823,7 +824,7 @@ Wir haben die Freigabe von Arbeitsbereichen und Ansichten mit den folgenden Verb
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
+* [Arbeitsbereiche freigeben](/help/quicksilver/planning/access/share-workspaces.md)
 * [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
 
 ### Miniaturansichten zu Datensätzen hinzufügen
@@ -866,7 +867,7 @@ Die folgenden Informationen werden im neuen Abschnitt Verlauf aufgezeichnet:
 
 * Ein Datum und ein Zeitstempel für den Zeitpunkt der Änderung.
 
-Weitere Informationen finden Sie unter [Übersicht über den Verlaufsabschnitt](/help/quicksilver/planning/records/history-section-overview.md).
+Weitere Informationen finden Sie in der [Verlaufsübersicht](/help/quicksilver/planning/records/history-section-overview.md).
 
 ### Neue Bezeichnung für neuen Datensatz-Link
 
@@ -874,7 +875,7 @@ Produktion: 25. Januar 2024
 
 Vorschau: zu bestimmen
 
-Um bei der Erstellung von Datensätzen Konsistenz zu gewährleisten, haben wir den Link + Neu zur Erstellung von Datensätzen in &quot;+ Neuer Datensatz&quot; umbenannt.  Vor dieser Aktualisierung enthielt der Link den Namen des Datensatztyps. Der neue Link ist jetzt bei der Erstellung von Betriebs- und Taxonomiedatensätzen verfügbar. Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md).
+Um bei der Erstellung von Datensätzen Konsistenz zu gewährleisten, haben wir den Link + Neu zur Erstellung von Datensätzen in &quot;+ Neuer Datensatz&quot; umbenannt.  Vor dieser Aktualisierung enthielt der Link den Namen des Datensatztyps. Der neue Link ist jetzt bei der Erstellung von Betriebs- und Taxonomiedatensätzen verfügbar. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
 ## Woche vom 8. Januar 2024
 
@@ -909,7 +910,7 @@ Im Folgenden finden Sie die Berechtigungsstufen für Datensatzansichten:
 * Ansicht: Benutzer können die Ansicht aus dem Dropdown-Menü Ansicht einer Seite vom Typ Datensatz auswählen.
 * Verwalten: Benutzer können die Ansicht bearbeiten, freigeben und löschen.
 
-Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md) und [Übersicht über die Freigabe von Berechtigungen in den Planungsfunktionen von Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md) und [Übersicht über die Freigabe von Berechtigungen in den Adobe Workfront-Planungsfunktionen](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Neuer Formelfeldtyp
 
@@ -947,8 +948,8 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md)
 
-* [Datensätze löschen](/help/quicksilver/planning/records/delete-records.md)
+* [Löschen von Datensätzen](/help/quicksilver/planning/records/delete-records.md)
 
-* [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
+* [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md)
 
 

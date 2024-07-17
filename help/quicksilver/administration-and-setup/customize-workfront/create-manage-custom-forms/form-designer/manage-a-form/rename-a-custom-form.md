@@ -45,22 +45,22 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Umbenennen eines benutzerdefinierten Formulars mit dem Formularentwickler
 
 {{step-1-to-setup}}
 
-1. Klicks **Benutzerdefinierte Forms** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** .
 
    In der angezeigten Ansicht können Sie alle benutzerdefinierten Formulare überprüfen, die für Ihr Unternehmen erstellt wurden. Sie können auch sehen, wer jedes Formular erstellt hat, mit welchem Objekttyp es funktioniert und ob es aktiv ist.
 
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie umbenennen möchten, und klicken Sie dann auf ![Symbol Bearbeiten](assets/edit-icon2.png).
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie umbenennen möchten, und klicken Sie dann auf das Symbol ![Bearbeiten](assets/edit-icon2.png).
 1. Um den Titel zu ändern, klicken Sie auf den Formularnamen.
 1. Um die Beschreibung zu ändern, klicken Sie in das Textfeld &quot;Beschreibung&quot;.
 
-1. Klicks **Speichern und schließen**.
+1. Klicken Sie auf **Speichern und schließen**.
 
    >[!TIP]
    >
-   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular zu öffnen.
+   >Sie können jederzeit während der Erstellung eines benutzerdefinierten Formulars auf **Anwenden** klicken, um Ihre Änderungen zu speichern und das Formular offen zu halten.

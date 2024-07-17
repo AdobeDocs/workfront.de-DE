@@ -25,7 +25,7 @@ Wenn Ihr Unternehmen beispielsweise über ein webbasiertes Dokument-Repository, 
 >
 >* Aus Sicherheitsgründen ist es auf einigen Websites nicht möglich, Webseiten als iframe einzubetten. Wenn die Webseite, die Sie in ein Dashboard einbetten möchten, dies nicht zulässt, wird die Seite nicht im Dashboard angezeigt. Sie können jedoch weiterhin auf die externe Seite zugreifen, indem Sie auf den Namen des Dashboards klicken.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
->Wenden Sie sich an Ihren Webadministrator, um die Einbettung für eine Website zu ermöglichen, deren Inhaber Sie sind. **X-Frame-Options** -Einstellung. Weitere Informationen finden Sie unter [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+>Wenden Sie sich an Ihren Webadministrator, um die Einstellung **X-Frame-Options** anzupassen, damit Sie eine Website einbetten können. Weitere Informationen finden Sie unter [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
 >* Dashboard-Seiten werden nicht mehr als eingebettete externe Seiten in Dashboards unterstützt. Vorhandene Dashboards werden zwar nicht automatisch geändert, um diese externen Seiten zu entfernen, doch können Änderungen an einem Dashboard, das einen solchen Verweis enthält, erst gespeichert werden, wenn der Verweis entfernt oder geändert wurde.
@@ -47,7 +47,7 @@ Wenn Ihr Unternehmen beispielsweise über ein webbasiertes Dokument-Repository, 
 >     * /group/:ID/content-dashboard__:dashboardID &#x200B;
 >     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
->Alternativ können Sie auch einen Listenbericht in Ihr Dashboard einfügen, wie hier beschrieben: [Einen Bericht zu einem Dashboard hinzufügen](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+>Alternativ können Sie auch einen Listenbericht in Ihr Dashboard einfügen, wie unter [Einen Bericht zu einem Dashboard hinzufügen](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md) beschrieben.
 
 ## Zugriffsanforderungen
 
@@ -80,7 +80,7 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,13 +88,13 @@ Sie müssen über Folgendes verfügen:
 
 Sie müssen ein Dashboard erstellen, bevor Sie eine externe Seite darin einbetten können.
 
-Informationen zum Erstellen von Dashboards finden Sie unter [Dashboard erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Informationen zum Erstellen von Dashboards finden Sie unter [Dashboards erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Externe Seite in ein Dashboard einbetten
 
 >[!IMPORTANT]
 >
->Sie können eine externe Seite aus einem Dashboard entfernen, wenn sie nicht mehr benötigt wird. Eine externe Seite kann jedoch nicht gelöscht werden, nachdem sie in Workfront erstellt wurde. Sie können eine externe Seite nur mithilfe der API löschen. Weitere Informationen finden Sie unter [Externe Seite aus einem Dashboard entfernen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+>Sie können eine externe Seite aus einem Dashboard entfernen, wenn sie nicht mehr benötigt wird. Eine externe Seite kann jedoch nicht gelöscht werden, nachdem sie in Workfront erstellt wurde. Sie können eine externe Seite nur mithilfe der API löschen. Weitere Informationen finden Sie unter [Entfernen einer externen Seite aus einem Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 
 1. Suchen Sie die URL der Seite, die in Workfront angezeigt werden soll, und kopieren Sie die URL in die Adressleiste.
 
@@ -104,20 +104,20 @@ Informationen zum Erstellen von Dashboards finden Sie unter [Dashboard erstellen
 
 {{step1-to-dashboards}}
 
-1. Um ein vorhandenes Dashboard zu bearbeiten, wählen Sie das Dashboard aus, in das Sie die Website-Seite einbetten möchten, und klicken Sie dann auf **Dashboard-Aktionen** Klicken Sie auf **Bearbeiten**
+1. Um ein vorhandenes Dashboard zu bearbeiten, wählen Sie das Dashboard aus, in das Sie die Website-Seite einbetten möchten, klicken Sie auf **Dashboard-Aktionen** und dann auf **Bearbeiten** .
 Oder\
    Um ein neues Dashboard zu erstellen, klicken Sie auf **Neues Dashboard**.\
    Weitere Informationen zum Erstellen eines Dashboards finden Sie unter [Dashboard erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-1. Klicks **Externe Seite hinzufügen** unter **Layout auswählen/Berichte hinzufügen/Kalender hinzufügen** Bereich.
+1. Klicken Sie unter dem Bereich **Layout auswählen/ Berichte hinzufügen/ Kalender hinzufügen** auf **Externe Seite hinzufügen** .
 
    ![](assets/qs-add-external-page-350x239.png)
 
-   Die **Externe Seite hinzufügen** angezeigt.
+   Das Feld **Externe Seite hinzufügen** wird angezeigt.
 
 1. Geben Sie die folgenden Informationen zur externen Seite an:
 
-   * **Name**: Benennen Sie das Dashboard.
+   * **Name**: Fügen Sie einen Namen für das Dashboard hinzu.
    * **Beschreibung**: Fügen Sie weitere Informationen zum Dashboard hinzu, um die darin enthaltenen Informationen zu identifizieren. Die Beschreibung wird nach dem Speichern im Dashboard für alle Benutzer angezeigt, die Zugriff auf sie haben.
    * **URL**: Fügen Sie die zuvor kopierte URL in dieses Feld ein.
 
@@ -140,7 +140,7 @@ Sie müssen bei der angegebenen Website angemeldet sein, um die externe Seite an
      >Die Verwendung der SessionID ist unsicher und wird nicht empfohlen.
      >
 
-   * **Höhe**: Geben Sie eine Zahl größer 0 ein, um den Platz zu definieren, den die externe Seite im Dashboard belegt. Die Standardhöhe ist 500.
+   * **Höhe**: Geben Sie eine Zahl größer 0 ein, um den Raum zu definieren, den die externe Seite im Dashboard belegt. Die Standardhöhe ist 500.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -158,15 +158,15 @@ So aktualisieren Sie die Informationen für eine in einem Dashboard verwendete e
 
 {{step1-to-dashboards}}
 
-1. Klicken Sie auf den Namen des Dashboards, das Sie aktualisieren möchten, um es zu öffnen, und klicken Sie auf **Dashboard-Aktionen**, dann **Bearbeiten**.
+1. Klicken Sie auf den Namen des Dashboards, das Sie aktualisieren möchten, um es zu öffnen, und klicken Sie auf **Dashboard-Aktionen** und dann auf **Bearbeiten**.
 
-   Die **Dashboard-Details** wird geöffnet.
+   Das Feld **Dashboard-Details** wird geöffnet.
 
-1. Im **Layout auswählen/Berichte hinzufügen/Kalender hinzufügen** der **Dashboard-Details** , suchen Sie die externe Seite, die Sie aktualisieren möchten, bewegen Sie den Mauszeiger darüber und klicken Sie auf **Bearbeiten** Symbol.\
+1. Suchen Sie im Bereich **Layout auswählen/Berichte hinzufügen/Kalender hinzufügen** des Felds **Dashboard-Details** die zu aktualisierende externe Seite, bewegen Sie den Mauszeiger darüber und klicken Sie auf das Symbol **Bearbeiten** .\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. Im **Externe Seite bearbeiten** , aktualisieren Sie die Felder, die Sie ändern möchten, und klicken Sie auf **Speichern**.
-1. (Optional) Klicken Sie auf die **Löschen** icon ![](assets/delete.png) , um die externe Seite aus dem Dashboard zu entfernen. Weitere Informationen finden Sie unter [Externe Seite aus einem Dashboard entfernen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. Aktualisieren Sie im Feld **Externe Seite bearbeiten** die Felder, die Sie ändern möchten, und klicken Sie dann auf **Speichern**.
+1. (Optional) Klicken Sie auf das Symbol **Löschen** ![](assets/delete.png) , um die externe Seite aus dem Dashboard zu entfernen. Weitere Informationen finden Sie unter [Entfernen einer externen Seite aus einem Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Klicken Sie auf **Speichern + schließen**.
 
 ## Anzeigen externer Seiten in einem Bericht
@@ -175,15 +175,15 @@ Sie können alle externen Seiten in Workfront in einem Bericht &quot;Externe Sei
 
 {{step1-to-reports}}
 
-1. Klicks **Neuer Bericht** > Auswählen **Externe Seite**.
+1. Klicken Sie auf **Neuer Bericht** > wählen Sie **Externe Seite** aus.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Optional) Aktualisieren Sie die Registerkarten Ansicht, Filter oder Gruppierungen des Berichts.
 
-   Weitere Informationen finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Weitere Informationen finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Klicks **Speichern+Schließen**.
+1. Klicken Sie auf **Speichern+Schließen**.
 
    Sie können den Namen und die URL, die mit den externen Seiten in Ihrem System verknüpft sind, im neuen Bericht anzeigen.
 

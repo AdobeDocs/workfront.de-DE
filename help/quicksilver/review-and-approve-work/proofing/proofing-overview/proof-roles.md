@@ -20,7 +20,7 @@ Mithilfe von Testrollen können Sie Berechtigungen für einzelne Testsendungen e
 
 ## Rollen für Korrekturabzüge
 
-Testversandrollen werden Benutzern zum Zeitpunkt der Aufforderung zur Überprüfung des Testversands für einen individuellen Testversand gewährt. Wenn Sie über einen Workfront Pro+-Plan verfügen, können Sie Benutzern mit einer Arbeits- oder Planungslizenz Testversandrollen gewähren. Wenn Sie über einen Workfront Premium Legacy-Plan verfügen, können Sie Benutzern mit einer dafür vorgesehenen Testlizenz Testversandrollen gewähren. Weitere Informationen finden Sie unter [Zugriff auf die Testversandfunktion in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+Testversandrollen werden Benutzern zum Zeitpunkt der Aufforderung zur Überprüfung des Testversands für einen individuellen Testversand gewährt. Wenn Sie über einen Workfront Pro+-Plan verfügen, können Sie Benutzern mit einer Arbeits- oder Planungslizenz Testversandrollen gewähren. Wenn Sie über einen Workfront Premium Legacy-Plan verfügen, können Sie Benutzern mit einer dafür vorgesehenen Testlizenz Testversandrollen gewähren. Weitere Informationen finden Sie unter [Zugriff auf die Funktion zum Testen in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 >[!NOTE]
 >
@@ -50,18 +50,18 @@ Bestimmte Testversand-Rollen verleihen einem Validierer Bearbeitungsrechte für 
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>Testversand anzeigen</strong> </p> </th> 
-   <th> <p><strong>Markierungen hinzufügen</strong> </p> </th> 
+   <th> <p><strong>Anzeigen eines Testversands</strong> </p> </th> 
+   <th> <p><strong>Markups hinzufügen</strong> </p> </th> 
    <th> <p><strong>Kommentare hinzufügen</strong> </p> </th> 
    <th> <p><strong>Eigene Kommentare bearbeiten, wenn keine Antworten vorhanden sind</strong> </p> </th> 
    <th> <p><strong>Entscheidungsfindung</strong> </p> </th> 
-   <th> <p><strong>Löschen von Kommentaren anderer Benutzer</strong> </p> </th> 
+   <th> <p><strong>Kommentare anderer Benutzer löschen</strong> </p> </th> 
    <th>Kommentare auflösen</th> 
    <th>Anwenden von Aktionen auf Kommentare</th> 
    <th> <p><strong>Testversand bearbeiten</strong> </p> </th> 
    <th>Testversand für andere freigeben</th> 
    <th>Neue Version erstellen</th> 
-   <th> <p><strong>Genehmigungsanfragen im Startbereich anzeigen</strong> </p> </th> 
+   <th> <p><strong>Genehmigungsanforderungen im Startbereich anzeigen</strong> </p> </th> 
    <th>Hinzufügen neuer Validierungsverantwortlicher</th> 
   </tr> 
  </thead> 

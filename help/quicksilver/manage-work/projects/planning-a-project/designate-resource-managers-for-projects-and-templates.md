@@ -9,7 +9,7 @@ exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -100,7 +100,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 <p><b>NOTIZ</b>
 
-Benutzer, die einem Projekt oder einer Vorlage als Ressourcen-Manager hinzugefügt werden, erhalten sofort Verwaltungsberechtigungen für das Projekt oder die Vorlage</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td>
+Benutzer, die einem Projekt oder einer Vorlage als Ressourcen-Manager hinzugefügt werden, erhalten sofort Verwaltungsberechtigungen für das Projekt oder die Vorlage</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -139,8 +139,8 @@ Benutzer, die einem Projekt oder einer Vorlage als Ressourcen-Manager hinzugefü
 
    * Beim Bearbeiten eines Projekts, wie in diesem Artikel beschrieben.
    * Beim Bearbeiten einer Vorlage, wie in diesem Artikel beschrieben.
-   * Beim Erstellen von Projekt- oder Vorlagenberichten. Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * Beim Erstellen oder Anpassen einer Projekt- oder Vorlagenansicht für eine Liste. Weitere Informationen finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * Beim Erstellen von Projekt- oder Vorlagenberichten. Informationen zum Erstellen von Berichten finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   * Beim Erstellen oder Anpassen einer Projekt- oder Vorlagenansicht für eine Liste. Weitere Informationen finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * Sie können Ressourcen-Manager schnell zu mehreren Projekten oder Vorlagen hinzufügen oder daraus entfernen, indem Sie das Feld Ressourcen-Manager zu einer Liste oder einem Projekt hinzufügen und dieses Feld mithilfe der Inline-Bearbeitung bearbeiten.
 
@@ -148,7 +148,7 @@ Benutzer, die einem Projekt oder einer Vorlage als Ressourcen-Manager hinzugefü
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um Ressourcen-Manager zu einem einzelnen Projekt hinzuzufügen, gehen Sie zu dem Projekt, für das Sie einen oder mehrere Ressourcen-Manager bestimmen möchten, und klicken Sie dann auf die Schaltfläche **Mehr Menü** neben dem Projektnamen und **Bearbeiten .**
+   * Um Ressourcen-Manager zu einem einzelnen Projekt hinzuzufügen, gehen Sie zu dem Projekt, für das Sie einen oder mehrere Ressourcen-Manager bestimmen möchten, klicken Sie dann auf das Menü **Mehr** neben dem Projektnamen und dann auf **Bearbeiten .**
 
    * Um Ressourcen-Manager mehreren Projekten gleichzeitig hinzuzufügen, navigieren Sie zu einer Liste von Projekten, wählen Sie die Projekte aus, für die Sie einen oder mehrere Ressourcen-Manager bestimmen möchten, und klicken Sie dann auf **Bearbeiten**.
 
@@ -156,34 +156,34 @@ Benutzer, die einem Projekt oder einer Vorlage als Ressourcen-Manager hinzugefü
 
    * Um Ressourcen-Manager zu einem neuen Projekt hinzuzufügen, beginnen Sie mit der Erstellung eines neuen Projekts.
 
-     Weitere Informationen zum Erstellen eines Projekts finden Sie unter [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
+     Weitere Informationen zum Erstellen eines Projekts finden Sie unter [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Im **Übersicht** im Dialogfeld &quot;Projekt bearbeiten&quot;auf die Schaltfläche **Ressourcen-Manager** -Feld.
+1. Klicken Sie im Abschnitt **Überblick** im Dialogfeld &quot;Projekt bearbeiten&quot;auf das Feld **Ressourcen-Manager** .
 1. Geben Sie den Namen des Benutzers ein, den Sie als Ressourcen-Manager für das Projekt hinzufügen möchten, und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
    Wiederholen Sie diesen Schritt, um mehrere Ressourcen-Manager für das Projekt hinzuzufügen.
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
 ## Ressourcen-Manager für eine Vorlage bestimmen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
 
-1. Klicks **Vorlagen**.
+1. Klicken Sie auf **Vorlagen**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um Ressourcen-Manager zu einer Vorlage hinzuzufügen, wechseln Sie zur Vorlage, in der Sie einen oder mehrere Ressourcen-Manager bestimmen möchten, und klicken Sie auf die Schaltfläche **Mehr Menü** neben dem Vorlagennamen und **Bearbeiten .**
+   * Um Ressourcen-Manager zu einer einzelnen Vorlage hinzuzufügen, wechseln Sie zur Vorlage, für die Sie einen oder mehrere Ressourcen-Manager bestimmen möchten, klicken Sie auf das Menü **Mehr Menü** neben dem Vorlagennamen und dann auf **Bearbeiten .**
 
-   * Um Ressourcen-Manager mehreren Vorlagen gleichzeitig hinzuzufügen, wählen Sie aus einer Liste von Vorlagen die Vorlagen aus, für die Sie einen oder mehrere Ressourcen-Manager bestimmen möchten, und klicken Sie auf **Bearbeiten**.
+   * Um Ressourcen-Manager mehreren Vorlagen gleichzeitig hinzuzufügen, gehen Sie zu einer Liste von Vorlagen, wählen Sie die Vorlagen aus, für die Sie einen oder mehrere Ressourcen-Manager bestimmen möchten, und klicken Sie dann auf **Bearbeiten**.
 
      Vorhandene Ressourcen-Manager werden nicht aus den Vorlagen entfernt, die Sie bearbeiten. Alle Benutzer, die Sie auf diese Weise hinzufügen, werden zusätzlich zu vorhandenen Ressourcen-Managern als Ressourcen-Manager in der Vorlage hinzugefügt.
 
-   * Um Resource Manager zu einer neuen Vorlage hinzuzufügen, klicken Sie auf **Neue Vorlage** und klicken Sie dann auf **Mehr Menü** neben dem Vorlagennamen und **Bearbeiten .**
+   * Um Ressourcen-Manager zu einer neuen Vorlage hinzuzufügen, klicken Sie auf **Neue Vorlage**, klicken Sie dann auf das Menü **Mehr** neben dem Vorlagennamen und dann auf **Bearbeiten** .
 
-1. Im **Übersicht** klicken Sie in der **Ressourcen-Manager** -Feld.
+1. Klicken Sie im Abschnitt **Überblick** auf das Feld **Ressourcen-Manager** .
 1. Geben Sie den Namen des Benutzers ein, den Sie als Ressourcen-Manager für die Vorlage hinzufügen möchten, und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
    Wiederholen Sie diesen Schritt, um der Vorlage mehrere Ressourcen-Manager hinzuzufügen.
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.

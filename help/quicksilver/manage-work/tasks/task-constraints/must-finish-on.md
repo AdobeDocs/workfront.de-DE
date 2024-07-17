@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '"Task Constraint - Übersicht: Muss fertig gestellt sein'
+title: "Task Constraint Overview: Must Finish On"
 description: Sie können die Task-Beschränkung Must Finish On (MFO) verwenden, um eine Aufgabe so zu planen, dass sie an einem bestimmten Datum endet.
 author: Alina
 feature: Work Management
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbeschränkungen: Muss abgeschlossen sein am
+# Übersicht über Aufgabenbegrenzungen: Muss fertig gestellt sein am
 
 Sie können die Task-Beschränkung Must Finish On (MFO) verwenden, um eine Aufgabe so zu planen, dass sie an einem bestimmten Datum endet.
 
-&quot;Must Finish On constraint&quot;plant, eine Aufgabe genau zu dem Zeitpunkt und Datum zu beenden, den Sie in der **Geplantes Abschlussdatum** -Feld.
+&quot;Must Finish On constraint&quot;plant, dass eine Aufgabe genau zu dem Zeitpunkt und zu dem Datum beendet wird, den Sie im Feld **Geplantes Abschlussdatum** angeben.
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ Sie können die Task-Beschränkung Must Finish On (MFO) verwenden, um eine Aufga
 Beachten Sie Folgendes bei der Planung einer Aufgabe mit der Einschränkung Must Finish On :
 
 * Vorgängerbeziehungen erzwingen keine Neuplanung der Aufgabe. Adobe Workfront ignoriert im Wesentlichen die Vorgängerbeziehungen.
-* Die Aufgabe wird als **Risiko** wenn die Vorgänger beginnen, zurückzulaufen, oder sich verspäten.
+* Die Aufgabe wird als **Risiko** angezeigt, wenn die Vorgänger beginnen zu laufen oder sich verspäten.
 
 * Wenn Sie eine Aufgabe mit einer MFO-Beschränkung verschieben oder in ein anderes Projekt kopieren, können sich die Beschränkung der Aufgabe oder die Daten des Projekts je nach den Einschränkungsdaten und den Start- und Abschlussdaten des Projekts ändern. Die folgenden Szenarien existieren:
 
@@ -42,9 +42,10 @@ Beachten Sie Folgendes bei der Planung einer Aufgabe mit der Einschränkung Must
 
          * Wenn das Beschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbegrenzung in &quot;So spät wie möglich&quot;.
          * Wenn das Beschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts entsprechend dem Startbegrenzungsdatum der Aufgabe.
+
       * Wenn das Beschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Zeitplan des Projekts keine Änderungen an der Aufgabenbegrenzung oder den Projektzeitpunkten.
 
-   Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 

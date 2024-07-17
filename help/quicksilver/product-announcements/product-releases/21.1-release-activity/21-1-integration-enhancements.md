@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 21.1 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
 
-Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [21.1 - Versionsübersicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Adobe Workfront-Benachrichtigungsverbesserungen in Microsoft Teams
 

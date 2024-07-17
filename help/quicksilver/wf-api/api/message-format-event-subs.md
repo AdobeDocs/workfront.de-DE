@@ -9,7 +9,7 @@ role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Folgende Änderungen werden am Format der ausgehenden Nachricht vorgenommen:
 
 Wenn Sie derzeit Workfront-Ereignisabonnements verwenden, müssen Sie Ihre Workfront-Integrationen vor der Version 2017.3 aktualisieren, um diese Änderungen zu berücksichtigen.
 
-Weitere Informationen zu Ereignisanmeldungen finden Sie unter [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md).
+Weitere Informationen zu Ereignisanmeldungen finden Sie unter [Ereignis-Abonnement-API](../../wf-api/general/event-subs-api.md).
 
 ## Beispiele für alte und neue Nachrichtenformate
 

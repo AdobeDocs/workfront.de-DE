@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: Sie können vorhandene benutzerdefinierte Formulare mit dem Form Designer verwalten.
+description: Sie können vorhandene benutzerdefinierte Formulare mit dem Formular Designer verwalten.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin

@@ -11,7 +11,7 @@ exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -56,13 +56,13 @@ GET /search
 
  
 
-## Antwort
+## Reaktion
 
 JSON mit einer Liste von Metadaten für Dateien und Ordner, die der Abfrage entsprechen. Was eine &quot;Übereinstimmung&quot;ausmacht, wird vom Webhook-Provider bestimmt. Idealerweise sollte eine Volltextsuche durchgeführt werden. Eine filename-basierte Suche funktioniert ebenfalls.
 
 **Beispiel:**
 
-Beispiel:  `https://www.acme.com/api/search?query=test-query`
+Beispiel: `https://www.acme.com/api/search?query=test-query`
 
 ```
 [ 

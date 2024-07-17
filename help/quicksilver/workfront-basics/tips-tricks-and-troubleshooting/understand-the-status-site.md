@@ -1,6 +1,6 @@
 ---
-title: Die [!DNL Adobe Workfront] Status-Site
-description: Sie können den Status der [!DNL Workfront] Plattform, einschließlich Vorfällen, geplanten Wartungsfenstern und dem aktuellen Status aller [!DNL Workfront] Cluster durch Zugriff auf [!DNL Workfront Status] Site.
+title: Die  [!DNL Adobe Workfront] Status-Site
+description: Sie können den Zustand der [!DNL Workfront] Plattform anzeigen, einschließlich Vorfällen, geplanten Wartungsfenstern und dem aktuellen Status aller [!DNL Workfront] Cluster, indem Sie auf die [!DNL Workfront Status] Site zugreifen.
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
@@ -17,36 +17,36 @@ ht-degree: 0%
 
 ## Übersicht über die Status-Site
 
-Sie können den Status der [!DNL Workfront] Plattform, einschließlich Vorfällen, geplanten Wartungsfenstern und dem aktuellen Status aller [!DNL Workfront] Cluster durch Zugriff auf [!DNL Workfront Status] Site.
+Sie können den Zustand der [!DNL Workfront]-Plattform anzeigen, einschließlich Vorfällen, geplanten Wartungsfenstern und dem aktuellen Status aller [!DNL Workfront]-Cluster, indem Sie auf die [!DNL Workfront Status]-Site zugreifen.
 
 Sie haben Zugriff auf die folgenden Informationen auf der Status-Site:
 
 * Leistungsstatistiken des Echtzeit-Systems
 * Geplanter Wartungszeitplan
-* Informationen über die von [!DNL Workfront] zum Schutz von Benutzerdaten
+* Informationen über die von [!DNL Workfront] zum Schutz von Benutzerdaten verwendeten Schutzmechanismen
 * Spezifische Status von Sicherheitslücken
 
-## Ansicht [!DNL Adobe Workfront] Statusaktualisierungen
+## Statusaktualisierungen für [!DNL Adobe Workfront] anzeigen
 
-Sie können Statusaktualisierungen zum [!DNL Adobe] Status-Site.
+Sie können Statusaktualisierungen auf der [!DNL Adobe] Status-Site anzeigen.
 
-1. Typ [status.adobe.com](https://status.adobe.com/) in Ihrem Browser, um auf die Status-Site zuzugreifen.
+1. Geben Sie [status.adobe.com](https://status.adobe.com/) in Ihren Browser ein, um auf die Status-Site zuzugreifen.
 
-1. Auswählen **[!UICONTROL Experience Cloud]**.
-1. Scrollen Sie nach unten und wählen Sie **[!UICONTROL Adobe Workfront]** aus der Liste der Lösungen.
+1. Wählen Sie **[!UICONTROL Experience Cloud]** aus.
+1. Scrollen Sie nach unten und wählen Sie **[!UICONTROL Adobe Workfront]** aus der Liste der Lösungen aus.
 
 ## Abonnieren oder Abonnement verwalten
 
 So abonnieren Sie die Status-Site oder verwalten Sie Ihr Abonnement nach dem Abonnement:
 
-1. Navigieren Sie zu [status.adobe.com](https://status.adobe.com/).
-1. Wählen Sie in der Statusleiste **[!UICONTROL Abonnements verwalten]**.
+1. Wechseln Sie zu [status.adobe.com](https://status.adobe.com/).
+1. Wählen Sie in der Statusleiste **[!UICONTROL Abonnements verwalten]** aus.
    ![](assets/manage-subs.png)
 1. Wenn Sie über ein vorhandenes Konto verfügen, melden Sie sich bei dem Konto an. Erstellen Sie andernfalls ein neues Konto.
-1. Klicken Sie auf **[!UICONTROL Abonnements erstellen]** Schaltfläche.
-1. Auswählen **[!UICONTROL Adobe Workfront]** unter **[!UICONTROL Experience Cloud]** -Kopfzeile und klicken Sie dann auf **[!UICONTROL Weiter]**.
-1. Wählen Sie Ihre regionalen Voreinstellungen und Ereignistypen aus und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Klicks **[!UICONTROL Fertig]** um Ihr Abonnement zu bestätigen.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Abonnements erstellen]** .
+1. Wählen Sie **[!UICONTROL Adobe Workfront]** unter der Kopfzeile **[!UICONTROL Experience Cloud]** und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Wählen Sie Ihre regionalen Voreinstellungen und Ereignistypen aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]** , um Ihr Abonnement zu bestätigen.
 
 ## Benannte Schwachstellen verstehen
 
@@ -54,11 +54,11 @@ So abonnieren Sie die Status-Site oder verwalten Sie Ihr Abonnement nach dem Abo
 
 In der Computersicherheit ist eine Schwachstelle eine Schwäche, die es einem Angreifer ermöglicht, die Stabilität, Sicherheit oder Integrität eines Systems zu reduzieren.
 
-Forscher mit Sicherheitslücke und Ersteller benennen ihre Projekte intern, um die Referenzierung zu erleichtern (z. B. [!DNL ShellShock], [!DNL Heartbleed], [!DNL POODLE], und [!DNL WannaCry]/[!DNL Petya]). Wenn eine Verwundbarkeit weit verbreitete Auswirkungen hat, werden diese Namen öffentlich, wenn die Schwachstellen offen gelegt werden.
+Forscher mit Sicherheitslücken und Ersteller benennen ihre Projekte intern, um die Referenzierung zu erleichtern (z. B. [!DNL ShellShock], [!DNL Heartbleed], [!DNL POODLE] und [!DNL WannaCry]/[!DNL Petya]). Wenn eine Verwundbarkeit weit verbreitete Auswirkungen hat, werden diese Namen öffentlich, wenn die Schwachstellen offen gelegt werden.
 
-### Wie kann ich spezifische Sicherheitslücken anzeigen, die durch [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
+### Wie sehe ich spezifische Sicherheitslücken, die durch [!DNL Workfront?] identifiziert werden? {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Navigieren Sie zu  [status.adobe.com](https://status.adobe.com/)Klicken Sie auf **[!UICONTROL Sicherheit]**.
+1. Wechseln Sie zu [status.adobe.com](https://status.adobe.com/) und klicken Sie dann auf **[!UICONTROL Sicherheit]**.
 
 ## Warum ist das wichtig? {#why-is-this-important}
 

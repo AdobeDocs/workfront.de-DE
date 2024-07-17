@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.1 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
 
-Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [21.1 - Versionsübersicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Aktualisierungen der Anforderungen an Ereignisabonnements
 
@@ -27,7 +27,7 @@ Wir aktualisieren die Soft-disable-Anforderungen für Fehler bei der Ereignisabo
 
 Darüber hinaus werden wir ab Februar 2021 in den Anforderungen für die Deaktivierung von Daten hinzufügen.
 
-Weitere Informationen zu den neuen Anforderungen für die Deaktivierung und Deaktivierung von Softbounces finden Sie unter [Häufig gestellte Fragen - Ereignisabos](../../../wf-api/general/event-subs-faq.md).
+Weitere Informationen zu den neuen Anforderungen für Soft-Deaktivierung und Deaktivierung finden Sie unter [FAQs - Ereignisabonnements](../../../wf-api/general/event-subs-faq.md).
 
 ## Neue Teamfelder für den täglichen Digest verfügbar
 
@@ -43,11 +43,11 @@ Diese Änderungen können in der Vorschau getestet werden.
 
 E-Mail wird automatisch in allen Vorschauumgebungen deaktiviert. Informationen zum Aktivieren von E-Mails für Testzwecke finden Sie unter [Aktivieren des Versands von E-Mails aus der Vorschau-Sandbox-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-Weitere Informationen finden Sie unter [Benutzer können ein Problem per E-Mail an ein Anforderungswarteschlangenprojekt senden](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Weitere Informationen finden Sie unter [Aktivieren von Benutzern, ein Problem per E-Mail an ein Projekt in der Anforderungswarteschlange zu senden](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-Weitere Informationen darüber, warum wir diese Änderung vornehmen, finden Sie unter [Neues von Adobe Workfront verwaltetes System zum Ersetzen von POP-E-Mails für Anforderungswarteschlangen durch 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
+Weitere Informationen dazu, warum wir diese Änderung vornehmen, finden Sie unter [Neues von Adobe Workfront verwaltetes System, das POP-E-Mails für Anforderungswarteschlangen durch 21.1.1 ersetzt.](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)
 
-Diese Funktion ist jetzt im [Warteschlangenverwaltung im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Warteschlangenverwaltung im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE)-Lernpfad auf Workfront One enthalten.
 
 ## Einschränken der Stundenbearbeitung in Timesheets
 
@@ -55,7 +55,7 @@ Um eine bessere Kontrolle über Timesheets und die Stundenbearbeitung zu ermögl
 
 Zuvor konnten Benutzer, für die die Option Timesheets &amp; Stunden in ihrer Zugriffsebene aktiviert war, Stunden auf einem beliebigen Zeitblatt bearbeiten.
 
-Weitere Informationen finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für das Zeitblatt und die Stunde](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Verbesserte Filter und Ansichten im Bereich Timesheets
 
@@ -70,8 +70,8 @@ Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/creat
 
 Sie können jetzt die Zeitüberschreitungsbox ausblenden, um die Verwirrung der Benutzer zu verringern, wenn Sie Überstunden in Workfront nicht verfolgen. Sie können die Zeitüberschreitungsbox für ein einmalig verwendetes Zeitblatt oder im Timesheet-Profil ausblenden:
 
-* Einmaliges Datenblatt: Wenn Sie die Überstunden-Box in einem einzelnen Zeitblatt ausblenden, wird sie nur für dieses Zeitblatt ausgeblendet. Weitere Informationen finden Sie unter [Erstellen eines Datenblatts für die einmalige Verwendung](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* Datenblatt-Profil: Wenn Sie das Feld für die Überstunden im Timesheet-Profil ausblenden, wird für alle zukünftigen Timesheets, die für die diesem Profil zugewiesenen Benutzer erstellt werden, die Überstunden-Komponente nicht angezeigt. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Einmaliges Datenblatt: Wenn Sie die Überstunden-Box in einem einzelnen Zeitblatt ausblenden, wird sie nur für dieses Zeitblatt ausgeblendet. Weitere Informationen finden Sie unter [Einmaliges Erstellen eines Timesheets](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+* Datenblatt-Profil: Wenn Sie das Feld für die Überstunden im Timesheet-Profil ausblenden, wird für alle zukünftigen Timesheets, die für die diesem Profil zugewiesenen Benutzer erstellt werden, die Überstunden-Komponente nicht angezeigt. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Zeitleistenprofilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 Zuvor war es nicht möglich, die Zeitverlaufsbox auf Zeitleisten auszublenden.
 

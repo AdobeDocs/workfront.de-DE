@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Wenn Sie als Genehmiger für ein Dokument zugewiesen sind, gibt es mehrere Möglichkeiten, Ihre Genehmigungsentscheidung zu treffen.
 
-Informationen zum Erstellen einer neuen Dokumentgenehmigung finden Sie unter [Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Weitere Informationen zum Erstellen einer neuen Dokumentgenehmigung finden Sie unter [Erstellen einer Dokumentüberprüfung oder einer Genehmigungsanforderung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
@@ -45,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verknüpft sind</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verknüpft sind</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Dokument von der Startseite aus genehmigen
 
-1. Klicken Sie auf **Startseite** icon ![](../assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie oben links in Adobe Workfront auf das Symbol **Startseite** ![](../assets/home-icon-30x29.png) .
 
    >[!NOTE]
    >
@@ -62,9 +62,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
    >
-   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](../assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
+   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf das **Hauptmenü** ![](../assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und klicken Sie dann auf **Startseite**.
 
-1. Klicks **Filter** oben links auf der Seite und stellen Sie sicher, dass **Genehmigungen** aktiviert ist.
+1. Klicken Sie oben links auf der Seite auf **Filter** und stellen Sie sicher, dass **Genehmigungen** aktiviert ist.
 
    Alle Arbeitselemente, für die eine Genehmigung erforderlich ist, werden in der Liste angezeigt.
 
@@ -76,19 +76,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie oben rechts auf der Seite auf eine der beiden folgenden Genehmigungsoptionen:
 
-   * Die **Genehmigen** -Dropdown-Liste enthält zwei Optionen:
+   * Das Dropdown-Menü **Genehmigen** enthält zwei Optionen:
 
-      * **Genehmigen** gibt an, dass für diese Dokumentversion keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
+      * **Genehmigen** gibt an, dass für diese Version des Dokuments keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
 
-      * **Mit Änderungen genehmigen** weist darauf hin, dass noch einige kleine Änderungen am Dokument erforderlich sind, jedoch unter der Bedingung genehmigt werden, dass diese Änderungen vorgenommen werden. Wenn Sie diese Option auswählen, wird ein Fenster mit einem Textfeld mit dem Namen **Nächste Schritte** wo Sie angeben können, welche Änderungen für die Genehmigung des Dokuments erforderlich sind. Sie können diese Informationen eingeben und auf **Nachricht hinzufügen** oder klicken Sie auf **Überspringen** die Validierungsentscheidung ohne zusätzliche Informationen zu übermitteln.
+      * **Mit Änderungen genehmigen** bedeutet, dass einige kleine Änderungen am Dokument noch erforderlich sind, die Genehmigung jedoch unter der Bedingung erteilt wird, dass diese Änderungen vorgenommen werden. Wenn Sie diese Option auswählen, wird ein Fenster mit dem Textfeld **Nächste Schritte** angezeigt, in dem Sie angeben können, welche Änderungen erforderlich sind, damit das Dokument genehmigt werden kann. Sie können entweder diese Informationen eingeben und auf **Nachricht hinzufügen** klicken oder auf **Überspringen** klicken, um die Genehmigungsentscheidung ohne zusätzliche Informationen zu senden.
 
-   * **Arbeiten erforderlich** gibt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.
+   * **Erforderlich funktioniert** zeigt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.
 
    Beachten Sie Folgendes bei der Anzeige von Dokumentgenehmigungen auf der Startseite:
 
-   * Der Name des Benutzers, der die Genehmigung angefordert hat, wird über dem Dokumentnamen in Startseite mit dem Text &quot;*Benutzer A* Ihre Zustimmung möchten Sie bitte an...&quot; sowie unter **Gesendet von** in den Validierungsinformationen, die nach Auswahl einer Validierung rechts angezeigt werden.
+   * Der Name des Benutzers, der die Genehmigung angefordert hat, wird über dem Dokumentnamen in der Startseite mit dem Text &quot;*Benutzer A* möchte Ihre Genehmigung für ...&quot;sowie unter &quot;**Gesendet von**&quot;in den Genehmigungsinformationen angezeigt, die rechts angezeigt werden, sobald eine Genehmigung ausgewählt wurde.
 
-   * Nachdem eine Entscheidung über eine Genehmigung getroffen wurde, bleibt die Genehmigung im Tab Meine Genehmigungen mit dem Text &quot;Entscheidung getroffen&quot;, bis Sie auf die Schaltfläche **Aktualisieren** oder bis Sie die Browser-Seite aktualisieren.
+   * Nachdem eine Entscheidung über eine Genehmigung getroffen wurde, bleibt die Genehmigung auf der Registerkarte Meine Genehmigungen mit dem Text &quot;Entscheidungsfindung&quot;erhalten, bis Sie auf die Schaltfläche **Aktualisieren** klicken oder bis Sie die Browser-Seite aktualisieren.
 
 ## Dokument auf der Dokumentseite genehmigen
 
@@ -104,17 +104,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie oben rechts auf der Seite auf eine der beiden folgenden Genehmigungsoptionen:
 
-   * Die **Genehmigen** -Dropdown-Liste enthält zwei Optionen:
+   * Das Dropdown-Menü **Genehmigen** enthält zwei Optionen:
 
-      * **Genehmigen** gibt an, dass für diese Dokumentversion keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
+      * **Genehmigen** gibt an, dass für diese Version des Dokuments keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
 
-      * **Mit Änderungen genehmigen** weist darauf hin, dass noch einige kleine Änderungen am Dokument erforderlich sind, jedoch unter der Bedingung genehmigt werden, dass diese Änderungen vorgenommen werden. Wenn Sie diese Option auswählen, wird ein Fenster mit einem Textfeld mit dem Namen **Nächste Schritte** wo Sie angeben können, welche Änderungen für die Genehmigung des Dokuments erforderlich sind. Sie können diese Informationen eingeben und auf **Nachricht hinzufügen** oder klicken Sie auf **Überspringen** die Validierungsentscheidung ohne zusätzliche Informationen zu übermitteln.
+      * **Mit Änderungen genehmigen** bedeutet, dass einige kleine Änderungen am Dokument noch erforderlich sind, die Genehmigung jedoch unter der Bedingung erteilt wird, dass diese Änderungen vorgenommen werden. Wenn Sie diese Option auswählen, wird ein Fenster mit dem Textfeld **Nächste Schritte** angezeigt, in dem Sie angeben können, welche Änderungen erforderlich sind, damit das Dokument genehmigt werden kann. Sie können entweder diese Informationen eingeben und auf **Nachricht hinzufügen** klicken oder auf **Überspringen** klicken, um die Genehmigungsentscheidung ohne zusätzliche Informationen zu senden.
 
-   * **Arbeiten erforderlich** gibt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.
+   * **Erforderlich funktioniert** zeigt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.
 
 ## Genehmigen eines Dokuments im Bereich Dokumentzusammenfassung
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 
 1. Klicken Sie auf das Dokument, das Ihre Genehmigung benötigt, und der Bereich Dokumentzusammenfassung wird geöffnet.
 
@@ -128,10 +128,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie in der oberen rechten Ecke des Bereichs Dokumentzusammenfassung auf eine der folgenden beiden Genehmigungsoptionen:
 
-   * Die **Genehmigen** -Dropdown-Liste enthält zwei Optionen:
+   * Das Dropdown-Menü **Genehmigen** enthält zwei Optionen:
 
-      * **Genehmigen** gibt an, dass für diese Dokumentversion keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
+      * **Genehmigen** gibt an, dass für diese Version des Dokuments keine Änderungen erforderlich sind und dass die Genehmigung erteilt wird.
 
-      * **Mit Änderungen genehmigen** weist darauf hin, dass noch einige kleine Änderungen am Dokument erforderlich sind, jedoch unter der Bedingung genehmigt werden, dass diese Änderungen vorgenommen werden. Wenn Sie diese Option auswählen, wird ein Fenster mit einem Textfeld mit dem Namen **Nächste Schritte** wo Sie angeben können, welche Änderungen für die Genehmigung des Dokuments erforderlich sind. Sie können diese Informationen eingeben und auf **Nachricht hinzufügen** oder klicken Sie auf **Überspringen** die Validierungsentscheidung ohne zusätzliche Informationen zu übermitteln.
+      * **Mit Änderungen genehmigen** bedeutet, dass einige kleine Änderungen am Dokument noch erforderlich sind, die Genehmigung jedoch unter der Bedingung erteilt wird, dass diese Änderungen vorgenommen werden. Wenn Sie diese Option auswählen, wird ein Fenster mit dem Textfeld **Nächste Schritte** angezeigt, in dem Sie angeben können, welche Änderungen erforderlich sind, damit das Dokument genehmigt werden kann. Sie können entweder diese Informationen eingeben und auf **Nachricht hinzufügen** klicken oder auf **Überspringen** klicken, um die Genehmigungsentscheidung ohne zusätzliche Informationen zu senden.
 
-   * **Arbeiten erforderlich** gibt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.
+   * **Erforderlich funktioniert** zeigt an, dass die Dokumentversion nicht genehmigt ist und erhebliche Änderungen erforderlich sind.

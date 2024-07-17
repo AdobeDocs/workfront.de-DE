@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Sie können verwalten, wie zu Dashboards hinzugefügte Berichte in den Dashboards angezeigt werden.
 
-Informationen zur Bearbeitung des Layouts von Berichten in einem Dashboard finden Sie unter [Dashboard erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Informationen zum Bearbeiten des Layouts von Berichten in einem Dashboard finden Sie unter [Dashboard erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 Sie können auswählen, welche Berichtsspalten beim Erstellen eines Berichts im Dashboard angezeigt werden sollen. Wenn Sie stets alle Spalten des Berichts in einem Dashboard anzeigen möchten, legen Sie dies bei der Berichterstellung für jede Spalte fest.
 
-Weitere Informationen zur Auswahl der Spalten eines Berichts in einem Dashboard finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Weitere Informationen zur Auswahl der Spalten eines Berichts, die in einem Dashboard angezeigt werden sollen, finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ![Option &quot;Im Dashboard anzeigen&quot;](assets/show-in-dashboard.png)
 

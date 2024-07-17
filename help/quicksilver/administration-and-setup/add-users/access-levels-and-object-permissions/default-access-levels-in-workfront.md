@@ -23,7 +23,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->In diesem Artikel werden die aktuellen integrierten Zugriffsebenen in Adobe Workfront beschrieben. Informationen zu den neuen integrierten Zugriffsebenen finden Sie unter [Übersicht über die neuen Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>In diesem Artikel werden die aktuellen integrierten Zugriffsebenen in Adobe Workfront beschrieben. Informationen zu den neuen integrierten Zugriffsebenen finden Sie unter [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Jede der sechs aktuellen integrierten Zugriffsebenen wurde für einen bestimmten Benutzertyp entwickelt. Mit diesen Zugriffsebenen können Sie steuern, welche Benutzer im System bearbeitet und angezeigt werden können.
@@ -74,9 +74,9 @@ Die integrierte Systemadministratorzugriffsstufe, die an die Planungslizenz ange
 
 Benutzer mit der Zugriffsebene &quot;Systemadministrator&quot;können alles in Workfront tun. Sie können alle Workfront-Objekte und Informationen anzeigen und bearbeiten, die von allen anderen Benutzern in Workfront eingegeben wurden.
 
-Sie haben auch vollen Zugriff auf den Bereich Einrichtung , in dem sie jede Einstellung auf Systemebene ändern können. Und sie können auf alle Bereiche im Hauptmenü zugreifen ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png), falls verfügbar.
+Sie haben auch vollen Zugriff auf den Bereich Einrichtung , in dem sie jede Einstellung auf Systemebene ändern können. Und sie können auf alle Bereiche im Hauptmenü ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png) zugreifen, sofern verfügbar.
 
-Weitere Informationen finden Sie unter [Gewähren eines vollen Administratorzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Weitere Informationen finden Sie unter [Gewähren des vollen Administratorzugriffs für einen Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Planen der Zugriffsebene
 
@@ -86,7 +86,7 @@ Die Zugriffsstufe Planer ist ebenfalls mit der Planungslizenz verbunden und dien
 * Jeder, der für die Planung, Erstellung und Verwaltung von Aufgaben, Projekten, Portfolios und Programmen verantwortlich ist
 * Jeder, der für die Zuweisung von Aufgaben (Aufgaben und Probleme) zu anderen Benutzern verantwortlich ist
 * Benutzer, die Berichte erstellen und Timesheets, Arbeitselemente und Dokumente genehmigen
-* Benutzer, die Zugriff auf alle Bereiche im Hauptmenü benötigen ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png), falls verfügbar
+* Benutzer, die Zugriff auf alle Bereiche im Hauptmenü ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png) benötigen, sofern verfügbar
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene des Planers erstellen und den Umfang des Zugriffs für die verschiedenen Workfront-Objekttypen bestimmen. Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -122,7 +122,7 @@ Benutzer mit dieser Zugriffsstufe:
 * Kann Arbeiten und Dokumente genehmigen, jedoch keine Timesheets
 * Berichte aufrufen und freigeben
 * Kann mit anderen Benutzern im System kommunizieren
-* Zugriff auf alle Bereiche im Hauptmenü nicht möglich ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png), sofern verfügbar, und ihr Bereich &quot;Benutzer&quot;heißt Teams. Im Bereich Teams können Benutzer mit dieser Zugriffsebene nur Teams anzeigen, denen sie angehören, sowie die diesen Teams zugewiesenen Aufgaben.
+* Kann nicht auf alle Bereiche im Hauptmenü ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png) zugreifen, sofern verfügbar, und ihr Bereich &quot;Benutzer&quot;heißt Teams. Im Bereich Teams können Benutzer mit dieser Zugriffsebene nur Teams anzeigen, denen sie angehören, sowie die diesen Teams zugewiesenen Aufgaben.
 * Sie haben nur begrenzte Möglichkeiten, Objekte zu erstellen - sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe von Worker erstellen und den Umfang des Zugriffs bestimmen, der für die verschiedenen Workfront-Objekttypen zulässig ist. Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -142,7 +142,7 @@ Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Ob
 | Benutzende |   |   | ✓ |
 | Teams |   |   | ✓ (eingeschränkter Zugriff) |
 | Vorlagen | ✓ |   |   |
-| Finanzielle Daten |   | ✓ (Die Standardeinstellung ist &quot;Kein Zugriff&quot;. Mit der Einstellung Ansicht kann der Benutzer nur den Bereich Finanzen in den Projektdetails anzeigen.) |   |
+| Finanzielle Daten |   | ✓ (Die Standardeinstellung ist &quot;Kein Zugriff&quot;. Mit der Anzeigeeinstellung kann der Benutzer nur den Finanzbereich anzeigen   in den Projektdetails.) |   |
 | Ressourcenverwaltung |   | ✓ |   |
 | Szenarienplaner |   |   | ✓ (Die Standardeinstellung ist &quot;Kein Zugriff&quot;.) |
 | Workfront-Ziele |   |   | ✓ (Die Standardeinstellung ist &quot;Kein Zugriff&quot;.) |
@@ -158,7 +158,7 @@ Beispielsweise könnte sich ein Verantwortlicher mit dieser Zugriffsebene bei Wo
 Benutzer mit Zugriffsstufe &quot;Prüfer&quot;:
 
 * Arbeitselemente können nicht zugewiesen oder Timesheets genehmigt werden
-* Kann auf die Bereiche Anforderungen und Dokumente im Hauptmenü zugreifen ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png), falls verfügbar
+* Kann auf die Bereiche Anforderungen und Dokumente im Hauptmenü ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png) zugreifen, sofern verfügbar
 * Sie haben nur begrenzte Möglichkeiten, Objekte zu erstellen - sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe des Prüfers erstellen und bestimmen, wie viel Zugriff es für die verschiedenen Workfront-Objekttypen ermöglicht. Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -249,7 +249,7 @@ Die folgenden Zugriffseinstellungen sind für Projekte und Aufgaben, die über d
   <tr> 
    <td>Finanzielle Daten</td> 
    <td> </td> 
-   <td> <p>✓ (Die Standardeinstellung ist "Kein Zugriff". Mit der Einstellung Ansicht kann der Benutzer nur den Bereich Finanzen in den Projektdetails anzeigen.)</p> </td> 
+   <td> <p>✓ (Die Standardeinstellung ist "Kein Zugriff". Mit der Anzeigeeinstellung kann der Benutzer nur den Finanzbereich anzeigen   in den Projektdetails.)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -285,7 +285,7 @@ Benutzer mit dieser Zugriffsstufe:
 * Dokumente hochladen und genehmigen können
 * Kann den Status der von ihnen eingereichten Probleme überprüfen
 * Arbeitselemente können nicht zugewiesen werden
-* Kann nur über den Bereich Anforderungen im Hauptmenü auf Anfragen zugreifen ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png), falls verfügbar. Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Kann nur auf Anfragen über den Bereich Anforderungen im Hauptmenü ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png) zugreifen, sofern verfügbar. Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsstufe &quot;Anforderer&quot;erstellen und den Umfang des Zugriffs bestimmen, der für die verschiedenen Workfront-Objekttypen zulässig ist. Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

@@ -21,7 +21,7 @@ Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Beim Erstellen 
 
 >[!NOTE]
 >
->Eine Vorlage und ihre Aufgaben haben keine tatsächlichen Daten, sondern einen Hinweis darauf, an welchem Tag (ab dem Zeitpunkt, zu dem das zukünftige Projekt beginnen kann) eine Aufgabe beginnen kann und an welchem Tag die Aufgabe möglicherweise abgeschlossen werden muss. Wenn Sie Vorlagen zur Erstellung künftiger Projekte verwenden, erhalten die Projekte die tatsächlichen Daten. Weitere Informationen finden Sie unter [Projekt erstellen](../create-projects/create-project.md).
+>Eine Vorlage und ihre Aufgaben haben keine tatsächlichen Daten, sondern einen Hinweis darauf, an welchem Tag (ab dem Zeitpunkt, zu dem das zukünftige Projekt beginnen kann) eine Aufgabe beginnen kann und an welchem Tag die Aufgabe möglicherweise abgeschlossen werden muss. Wenn Sie Vorlagen zur Erstellung künftiger Projekte verwenden, erhalten die Projekte die tatsächlichen Daten. Weitere Informationen finden Sie unter [Erstellen eines Projekts](../create-projects/create-project.md).
 
 
 Sie können eine neue Vorlage wie folgt erstellen:
@@ -66,27 +66,27 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Erstellen einer Vorlage
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Vorlagen**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Vorlagen**.
 
-1. Klicks **Neue Vorlage**.
+1. Klicken Sie auf **Neue Vorlage**.
 
    Die Vorlage hat keinen Titel.
 
    ![Neue Vorlage](assets/create-template-nwe-2022-350x102.png)
 
-1. Geben Sie einen Namen für die neue Vorlage in der Vorlagenkopfzeile ein und drücken Sie dann die Eingabetaste **Geben Sie ein.**
-1. Klicken Sie auf **Vorlagenaufgaben** im linken Bereich.
-1. Klicks **Beginnen mit dem Hinzufügen von Vorlagenaufgaben**.
+1. Geben Sie einen Namen für die neue Vorlage in der Vorlagenkopfzeile ein und drücken Sie dann die Eingabetaste **1}.**
+1. Klicken Sie im linken Bereich auf den Abschnitt **Vorlagenaufgaben** .
+1. Klicken Sie auf **Hinzufügen von Vorlagenaufgaben beginnen**.
 
    Oder
 
-   Klicks **Neue Vorlagenaufgabe** , um Ihrer Vorlage Aufgaben hinzuzufügen.
+   Klicken Sie auf **Neue Vorlagenaufgabe** , um Ihrer Vorlage Aufgaben hinzuzufügen.
 
    Das Hinzufügen von Vorlagenaufgaben zu einer Vorlage entspricht dem Hinzufügen von Aufgaben zu einem Projekt.
 
@@ -96,19 +96,19 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Sie können wiederkehrende Aufgaben nicht zu einer Vorlage hinzufügen.
 
-1. (Optional) Klicken Sie auf die **Gantt-Diagramm** in der oberen rechten Ecke der Aufgabenliste ein, um eine visuelle Darstellung der Aufgabenliste der Vorlage anzuzeigen.
+1. (Optional) Klicken Sie oben rechts in der Aufgabenliste auf das Symbol **Gantt-Diagramm** , um eine visuelle Darstellung der Aufgabenliste der Vorlage anzuzeigen.
 
    >[!TIP]
    >
    >Aufgaben können nicht direkt über dieses Gantt-Diagramm bearbeitet werden.
 
-1. Um Informationen zu Ihrer neuen Vorlage hinzuzufügen, klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-icon.png)Klicken Sie auf **Bearbeiten**.
+1. Um Ihrer neuen Vorlage Informationen hinzuzufügen, klicken Sie auf das Menü **Mehr** und anschließend auf **Bearbeiten**.![](assets/more-icon.png)
 
-   Informationen zum Bearbeiten einer Vorlage finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Weitere Informationen zum Bearbeiten einer Vorlage finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 1. Klicken Sie auf **Änderungen speichern**.
-1. (Optional) Wenn Sie der Vorlage weitere Elemente hinzufügen möchten, lesen Sie den Abschnitt . [Hinzufügen zusätzlicher Elemente zu einer Vorlage](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) im Artikel [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+1. (Optional) Wenn Sie zusätzliche Elemente zur Vorlage hinzufügen möchten, lesen Sie den Abschnitt &quot;[Zusätzliche Elemente zu einer Vorlage hinzufügen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template)&quot;im Artikel &quot;[Projektvorlagen bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)&quot;.
 
 ## Vorlageneinstellungen, die von der Gruppenzuordnung bestimmt werden
 
-Die Zuordnung einer Projektvorlage zu einer Gruppe (oder das Fehlen einer Gruppe) beeinflusst, wie Projekt-, Aufgaben- und Problemeinstellungen bestimmte Einstellungen in der Vorlage bestimmen. Weitere Informationen finden Sie im Abschnitt . [Erstellen und Ändern von Gruppenprojektvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) im Artikel [Erstellen und Ändern von Gruppenprojektvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+Die Zuordnung einer Projektvorlage zu einer Gruppe (oder das Fehlen einer Gruppe) beeinflusst, wie Projekt-, Aufgaben- und Problemeinstellungen bestimmte Einstellungen in der Vorlage bestimmen. Weitere Informationen finden Sie im Abschnitt [Erstellen und Ändern der Projektvorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) im Artikel [Erstellen und Ändern der Projektvorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).

@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: '318'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -39,7 +39,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das Dokument verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das Dokument verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,23 +54,23 @@ Sie müssen über Folgendes verfügen:
 
 So fügen Sie einem Dokument ein benutzerdefiniertes Formular hinzu:
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 1. Suchen Sie das gewünschte Dokument.
 
-1. Klicken Sie auf **Zusammenfassung** icon ![](assets/summary-panel-icon.png), und suchen Sie dann die **Details** Abschnitt.
-1. Im **Benutzerdefiniertes Formular hinzufügen** eingeben und ein benutzerdefiniertes Formular auswählen. Das Formular wird automatisch im Dokument gespeichert.
+1. Klicken Sie auf das Symbol **Zusammenfassung** ![](assets/summary-panel-icon.png) und suchen Sie dann den Abschnitt **Details** .
+1. Beginnen Sie im Feld **Benutzerdefiniertes Formular hinzufügen** mit der Eingabe und wählen Sie ein benutzerdefiniertes Formular aus. Das Formular wird automatisch im Dokument gespeichert.
 
    >[!NOTE]
    >
-   >Im Dropdown-Menü werden nur aktive benutzerdefinierte Formulare angezeigt. Sie können bis zu 10 benutzerdefinierte Formulare pro Dokument hinzufügen. Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   >Im Dropdown-Menü werden nur aktive benutzerdefinierte Formulare angezeigt. Sie können bis zu 10 benutzerdefinierte Formulare pro Dokument hinzufügen. Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
-## Benutzerdefiniertes Formular bearbeiten
+## Bearbeiten eines benutzerdefinierten Formulars
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 1. Suchen Sie das gewünschte Dokument.
 
-1. Klicken Sie auf **Zusammenfassung** icon ![](assets/summary-panel-icon.png), und suchen Sie dann die **Details** -Bereich oben.
-1. Klicken **Bearbeiten** oben rechts und erweitern Sie dann das gewünschte Formular.
+1. Klicken Sie auf das Symbol **Zusammenfassung** ![](assets/summary-panel-icon.png) und suchen Sie dann oben den Abschnitt **Details** .
+1. Klicken Sie oben rechts auf **Bearbeiten** und erweitern Sie dann das gewünschte Formular.
 1. Nehmen Sie die erforderlichen Änderungen vor und klicken Sie dann auf **Speichern**.
 
    ![](assets/edit-custom-form-350x265.png)

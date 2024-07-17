@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 verfügbar sind, finden Sie unter [23.3 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Eine Liste aller Änderungen, die derzeit im 23.3-Versionszyklus verfügbar sind, finden Sie unter [23.3 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Schnellere Workfront-Veröffentlichungszyklen aktivieren
 
@@ -24,15 +24,15 @@ Damit Sie neue Workfront-Produktfunktionen und -Updates schneller erhalten könn
 
 Zuvor wurden Funktionen für alle Kunden in einem vierteljährlichen Zyklus veröffentlicht.
 
-Weitere Informationen finden Sie unter [Schnellveröffentlichungsprozess aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des Fast-Release-Prozesses](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Steuerung auf Gruppenebene, verfügbar für Timesheet- und Stundenvoreinstellung &quot;Wo Benutzer Zeit protokollieren können&quot;
 
 Der Systemadministrator kann jetzt das Timesheet und die Voreinstellung &quot;Wo Benutzer Zeit protokollieren können&quot;sperren und entsperren. Wenn diese Voreinstellung entsperrt ist, können Gruppenadministratoren die Einstellungen &quot;Wo Benutzer die Zeit protokollieren können&quot;für jede Gruppe separat konfigurieren.
 
-Weitere Informationen finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) und [Konfigurieren von Zeitblatt- und Stundeneinstellungen für eine Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für das Zeitblatt und die Stunde](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) und [Konfigurieren der Voreinstellungen für das Zeitblatt und die Stunde für eine Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3419111/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3419111/){target=_blank}
 
 ## Logik anzeigen und Logikindikatoren und Regeln überspringen, die in der Beta-Version des Formulardesigners angezeigt werden
 

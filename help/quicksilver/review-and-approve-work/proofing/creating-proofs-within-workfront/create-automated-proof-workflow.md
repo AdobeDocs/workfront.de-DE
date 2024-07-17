@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Ein automatisierter Workflow erleichtert die Verwaltung des Überprüfungsprozesses, wenn Ihr Prozess komplex ist oder wenn Sie regelmäßig Inhalte zur Überprüfung an dieselben Personen senden. Der Testversand wechselt von Phase zu Phase und Adobe Workfront benachrichtigt jeden Benutzer, wenn er an der Reihe ist, ihn zu überprüfen. Weitere Informationen zu automatisierten Workflows finden Sie unter [Übersicht über den automatisierten Workflow](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Ein automatisierter Workflow erleichtert die Verwaltung des Überprüfungsprozesses, wenn Ihr Prozess komplex ist oder wenn Sie regelmäßig Inhalte zur Überprüfung an dieselben Personen senden. Der Testversand wechselt von Phase zu Phase und Adobe Workfront benachrichtigt jeden Benutzer, wenn er an der Reihe ist, ihn zu überprüfen. Weitere Informationen zu automatisierten Workflows finden Sie unter [Überblick über den automatisierten Workflow](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Zugriffsanforderungen
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Neu: Beliebig</p><p>Aktueller Plan: Pro oder höher</p><p>Veralteter Plan: Auswählen oder höher</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Neu: Beliebig</p><p>Aktueller Plan: Pro oder höher</p><p>Veralteter Plan: Auswählen oder höher</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -48,23 +48,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Erstellen eines erweiterten Testversands mit einem automatisierten Workflow
 
-1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Schaltfläche **Dokumente** Registerkarte.
-1. Klicks **Neu hinzufügen** > Testversand, Hochladen des Inhalts und anschließende Arbeit in den unten aufgeführten Abschnitten.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Registerkarte **Dokumente** .
+1. Klicken Sie auf **Neu hinzufügen** > Testversand , laden Sie den Inhalt hoch und arbeiten Sie dann durch die unten aufgeführten Abschnitte.
 
    oder
 
-   Bewegen Sie den Mauszeiger über ein vorhandenes Dokument und klicken Sie auf die Schaltfläche **Testversand erstellen** > **Erweiterter Testversand** und arbeiten Sie durch die unten aufgeführten Abschnitte.
+   Bewegen Sie den Mauszeiger über ein vorhandenes Dokument, klicken Sie auf **Testversand erstellen** > **Erweiterter Testversand** und arbeiten Sie durch die folgenden Abschnitte.
 
 ## Testsendungen konfigurieren
 
-1. Wählen Sie im Abschnitt Workflow-Typ die Option **Automatisiert**.
-1. (Optional) Wenn Sie eine Vorlage für einen automatisierten Workflow verwenden möchten, die Ihr Workfront-Administrator erstellt und für Sie freigegeben hat, klicken Sie auf **Vorlage hinzufügen**, wählen Sie die Vorlage im angezeigten Feld aus und klicken Sie auf **Vorlage hinzufügen**.
+1. Wählen Sie im Abschnitt Workflow-Typ die Option **Automated**.
+1. (Optional) Wenn Sie eine Vorlage für einen automatisierten Workflow verwenden möchten, die Ihr Workfront-Administrator erstellt und für Sie freigegeben hat, klicken Sie auf **Vorlage hinzufügen**, wählen Sie die Vorlage im angezeigten Feld aus und klicken Sie dann auf **Vorlage hinzufügen**.
 
    >[!NOTE]
    >
@@ -76,8 +76,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Konfigurieren Sie den ersten Schritt des automatisierten Workflows:
 
-   1. (Optional) Wenn Sie einen Namen für den ersten Schritt erstellen möchten, klicken Sie auf **Stufe 1**, und geben Sie den Namen ein.
-   1. Im **Empfänger** -Abschnitt für die Bühne hinzufügen, fügen Sie Überprüfer zur Bühne hinzu.
+   1. (Optional) Wenn Sie einen Namen für die erste Phase erstellen möchten, klicken Sie auf **Phase 1** und geben Sie dann den Namen ein.
+   1. Fügen Sie im Abschnitt **Empfänger** der Bühne Überprüfer hinzu.
 
       >[!NOTE]
       >
@@ -85,17 +85,17 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       >   
       >* Sie können externe Benutzer zu einer Bühne mit einer E-Mail-Adresse hinzufügen.
       >* Nachdem Sie einen Benutzer zu einer Bühne hinzugefügt haben, können Sie die Einstellungen für diesen Benutzer im Testversand konfigurieren.
-      >* Sie können Benutzer direkt in eine andere Bühne ziehen oder Benutzer auf eine Bühne ziehen **Phasen** Diagramm. Um mehrere Benutzer auszuwählen, drücken Sie Umschalt+Strg (unter Windows) bzw. Umschalt+Befehl (unter Mac).
+      >* Sie können Benutzer direkt in eine andere Bühne ziehen oder Benutzer auf eine Bühne im Diagramm **Phasen** ziehen. Um mehrere Benutzer auszuwählen, drücken Sie Umschalt+Strg (unter Windows) bzw. Umschalt+Befehl (unter Mac).
       >* Sie können einen Validierer nur einmal zu einem Testversand hinzufügen. Das bedeutet, dass Sie dieselbe Person nicht mehr als einer Testphase hinzufügen können.
       >* Prüfer, die nicht zu einer privaten Bühne hinzugefügt wurden, können diese Phase nicht auf dem Testversand oder den Kommentaren sehen, die in dieser Phase abgegeben wurden.
       >* Wenn ein Benutzer zu einer Phase hinzugefügt wird, erhält dieser Benutzer standardmäßig Zugriff auf den Testversand ab der Erstellung des Testversands. Ihr Workfront-Administrator kann den Zugriff auf den Testversand einschränken, bis der Workflow in die Phase gelangt, in der der Benutzer hinzugefügt wurde.
 
-   1. Klicks **Staging-Einstellungen**.
-   1. Klicken Sie auf **Phase aktivieren** -Option, um anzugeben, wie die Bühne aktiviert werden soll.
+   1. Klicken Sie auf **Staging-Einstellungen**.
+   1. Klicken Sie auf die Option **Phase aktivieren** , um anzugeben, wie die Bühne aktiviert werden soll.
 
-      Im ersten Schritt können Sie nur **Erstellen eines Testversands**, **An einem bestimmten Datum und zu einer bestimmten Uhrzeit** oder **Manuell**.
+      Im ersten Schritt können Sie nur **Bei der Erstellung des Testversands**, **An einem bestimmten Datum und zu einer bestimmten Uhrzeit** oder **Manuell** auswählen.
 
-   1. (Bedingt) Bei Auswahl von **An einem bestimmten Datum und zu einer bestimmten Uhrzeit** Wählen Sie im vorherigen Schritt das Datum und die Uhrzeit aus, zu der Sie die Phase in der **Aktivieren auf** angezeigt.
+   1. (Bedingt) Wenn Sie im vorherigen Schritt &quot;**An einem bestimmten Datum und zu einer bestimmten Uhrzeit**&quot;ausgewählt haben, wählen Sie im angezeigten Feld **Aktivieren am** das Datum und die Uhrzeit aus, zu dem die Phase aktiviert werden soll.
 
    1. Verwenden Sie eine der folgenden Optionen, um die Phase weiter zu konfigurieren.
 
@@ -105,10 +105,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
        <tbody>
         <tr>
          <td role="rowheader">Festlegen des Schrittzeitpunkts</td>
-         <td><p>Um einen Termin für die Phase festzulegen, klicken Sie auf eine Option im <strong>Optionen für Fristen</strong> Dropdown-Liste. Dann, unter <strong>Termin</strong>führen Sie einen der folgenden Schritte aus:</p>
+         <td><p>Um einen Termin für die Phase festzulegen, klicken Sie auf eine Option in der Dropdownliste <strong>Deadline-Optionen</strong> . Führen Sie dann unter <strong>Deadline</strong> einen der folgenden Schritte aus:</p>
           <ul>
-           <li>Wenn Sie <strong>Bestimmtes Datum festlegen</strong>: Wählen Sie das gewünschte Datum und die gewünschte Uhrzeit aus.</li>
-           <li>Wenn Sie <strong>Vom Aktivierungsdatum der Phase berechnen</strong>: Wählen Sie die Anzahl der Geschäftstage aus, die Sie dem Datum der Staging-Aktivierung hinzufügen möchten, um den Termin zu bestimmen.</li>
+           <li>Wenn Sie <strong>Bestimmtes Datum festlegen</strong> auswählen: Wählen Sie das gewünschte Datum und die gewünschte Uhrzeit für die Frist aus.</li>
+           <li>Wenn Sie "<strong>Von der Staging-Aktivierungsdatum berechnen</strong>": Wählen Sie die Anzahl der Geschäftstage aus, die Sie zum Staging-Aktivierungsdatum hinzufügen möchten, um den Termin zu bestimmen.</li>
           </ul></td>
         </tr>
         <tr>
@@ -117,11 +117,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
         </tr>
         <tr>
          <td role="rowheader">Übertragen der Rechte der primären Entscheidung an</td>
-         <td><p>Wählen Sie den Primären Entscheidungsträger auf der Bühne aus (der nur verfügbar ist, wenn Sie mindestens eine Person zur Bühne hinzufügen, die die Rolle "Genehmiger"oder höher besitzt). Wenn Sie einen Primären Entscheidungsträger auswählen, wird die <strong>Nur eine Entscheidung erforderlich</strong> in dieser Phase deaktiviert ist.</p></td>
+         <td><p>Wählen Sie den Primären Entscheidungsträger auf der Bühne aus (der nur verfügbar ist, wenn Sie mindestens eine Person zur Bühne hinzufügen, die die Rolle "Genehmiger"oder höher besitzt). Wenn Sie einen Primären Entscheidungsträger auswählen, ist die Option <strong>Nur eine Entscheidung erforderlich</strong> in dieser Phase deaktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Nur eine Entscheidung für diese Phase anfordern</td>
-         <td>Beendet den gesamten Überprüfungsprozess, wenn einer der Entscheidungsträger eine Entscheidung trifft.<p>Diese Option ist nicht verfügbar, wenn Sie einen Benutzer in der <strong>Primärer Entscheidungsträger</strong>Dropdown-Menü.</p></td>
+         <td>Beendet den gesamten Überprüfungsprozess, wenn einer der Entscheidungsträger eine Entscheidung trifft.<p>Diese Option ist nicht verfügbar, wenn Sie einen Benutzer im Dropdown-Menü <strong>Primärer Entscheidungsträger</strong> ausgewählt haben.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Machen Sie diese Phase privat</td>
@@ -132,18 +132,18 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. So fügen Sie eine weitere Phase hinzu und konfigurieren sie:
 
-   1. Klicks **Neue Phase**.
-   1. (Optional) Wenn Sie einen Namen für den ersten Schritt erstellen möchten, klicken Sie auf **Stufe 2** (oder **Stufe 3**, **Stufe 4** usw.), und geben Sie dann den Namen ein.
+   1. Klicken Sie auf **Neue Phase**.
+   1. (Optional) Wenn Sie einen Namen für die erste Phase erstellen möchten, klicken Sie auf **Phase 2** (oder **Phase 3**, **Phase 4** usw.) und geben Sie den Namen ein.
 
-   1. Klicken Sie auf **Phase aktivieren** und wählen Sie dann eine Option aus, um anzugeben, ob die Bühne automatisch oder manuell aktiviert wird.
+   1. Klicken Sie auf die **Phase aktivieren** und wählen Sie dann eine Option, um anzugeben, ob die Bühne automatisch oder manuell aktiviert wird.
 
-      Zusätzlich zu den Optionen **Erstellen eines Testversands**, **An einem bestimmten Datum und zu einer bestimmten Uhrzeit** oder **Manuell** können Sie eine Option auswählen, die von dem abhängt, was im vorherigen Schritt geschehen ist:
+      Zusätzlich zu den Optionen **Bei der Erstellung des Testversands**, **An einem bestimmten Datum und zu einer bestimmten Uhrzeit** oder **Manuell** können Sie eine Option auswählen, die von dem abhängt, was im vorherigen Schritt geschehen ist:
 
       ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. Wenn Sie eine Option &quot;Phase aktivieren&quot;ausgewählt haben, die von den Vorgängen im vorherigen Schritt abhängig ist, konfigurieren Sie die Aktivierungseinstellung mit den angezeigten Optionen.
 
-      Wenn Sie beispielsweise **Änderung des Status der vorherigen Phase**, wählen Sie die **Vorherige Phase** und wählen Sie dann den Status im **Status geändert in** ankreuzen.
+      Wenn Sie beispielsweise &quot;**Wenn sich der Status der vorherigen Phase ändert**&quot;ausgewählt haben, wählen Sie die &quot;**Vorherige Phase**&quot;aus und wählen Sie dann den Status im Feld &quot;**Status geändert zu**&quot;.
 
 1. Wiederholen Sie den vorherigen Schritt nach Bedarf, um weitere Phasen hinzuzufügen.
 
@@ -151,17 +151,17 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![](assets/stages-diagram-350x213.png)
 
-1. Fahren Sie mit [E-Mail-Einstellungen für den Testversand konfigurieren](#configure-email-settings-for-the-proof) unten.
+1. Fahren Sie mit [E-Mail-Einstellungen für den Testversand konfigurieren](#configure-email-settings-for-the-proof) weiter unten.
 
 ## E-Mail-Einstellungen für den Testversand konfigurieren {#configure-email-settings-for-the-proof}
 
-1. Im **Email notification** auswählen, ob Sie E-Mail-Benachrichtigungen und eine benutzerdefinierte Nachricht an die Benutzer senden möchten, die Sie unter [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](#workflow) früher in diesem Artikel:
+1. Wählen Sie im Abschnitt **E-Mail-Benachrichtigung** aus, ob Sie E-Mail-Benachrichtigungen und eine benutzerdefinierte Nachricht an die Benutzer senden möchten, die Sie zuvor in [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](#workflow) ausgewählt haben:
 
    <table>
       <tbody>
       <tr>
       <td>Empfänger über diesen Testversand informieren</td>
-      <td>Wählen Sie diese Option, um eine E-Mail-Benachrichtigung an Benutzer zu senden. Wann <strong>Grundlegende Freigabe</strong> wird im Feld <strong>Workflow</strong> hinzugefügt, wird bei der Erstellung des Testversands eine E-Mail-Benachrichtigung gesendet. Wann <strong>Automatisierter Workflow</strong> wird im Feld <strong>Workflow</strong> hinzugefügt, wird eine E-Mail-Benachrichtigung gesendet, wenn der Testversand in die Phase des automatisierten Workflows gelangt, mit der der Benutzer verknüpft ist.</td>
+      <td>Wählen Sie diese Option, um eine E-Mail-Benachrichtigung an Benutzer zu senden. Wenn im Abschnitt <strong>Workflow</strong> die Option <strong>Grundlegende Freigabe</strong> ausgewählt ist, wird bei der Erstellung des Testversands eine E-Mail-Benachrichtigung gesendet. Wenn im Abschnitt <strong>Workflow</strong> die Option <strong>Automatisierter Workflow</strong> ausgewählt ist, wird eine E-Mail-Benachrichtigung gesendet, wenn der Testversand in die Phase des automatisierten Workflows gelangt, mit der der Benutzer verknüpft ist.</td>
       </tr>
       <tr>
       <td>Benutzerdefinierte Nachricht hinzufügen</td>
@@ -171,11 +171,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       </table>
 
 
-1. Fahren Sie mit [Konfigurieren der Testversandeinstellungen](#configure-proof-settings) unten.
+1. Fahren Sie mit [Konfigurieren Sie die Testversandeinstellungen](#configure-proof-settings) weiter unten.
 
 ## Konfigurieren der Testversandeinstellungen {#configure-proof-settings}
 
-1. Im **Testversandeinstellungen** eine der folgenden Optionen auswählen:
+1. Wählen Sie im Abschnitt **Testversandeinstellungen** eine der folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -214,22 +214,22 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td role="rowheader">Testversand über öffentliche URL oder Einbettungscode abonnieren</td> 
       <td>Wenn diese Option aktiviert ist, können Personen, die dem Testversand nicht explizit hinzugefügt wurden, den Testversand abonnieren. Die Person, die den Testversand abonniert, erhält die Rolle und E-Mail, die Sie in den folgenden Einstellungen definieren:
        <ul>
-        <li><strong>Abonnentenrolle:</strong> Die standardmäßige Testversand-Rolle, die allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li>
-        <li><strong>Einstellungen für E-Mail-Warnhinweise für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li>
+        <li><strong>Abonnentenrolle:</strong> Die Standardrolle für den Testversand, die allen Validierern zugewiesen ist, die den Testversand abonnieren.</li>
+        <li><strong>E-Mail-Warnhinweiseinstellungen für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Validierern zugewiesen wird, die den Testversand abonnieren.</li>
        </ul><p>
         <ul>
-         <li><strong>Der Zugriff per E-Mail-Link ist nachweislich für folgende Zwecke erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können <strong>Keine E-Mail</strong> (Für den Zugriff auf den Testversand ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail mit Testbenachrichtigung</strong> (Der Abonnent erhält einen Link zum Testversand per E-Mail ohne Überprüfung) oder <strong>E-Mails zur Validierung und zum Testversand</strong> (Der Abonnent erhält per E-Mail einen Link zum Testversand und muss auf den Link klicken, um auf einen Testversand zugreifen zu können. Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.)</li>
+         <li><strong> Nachweis des Zugriffs über einen E-Mail-Link erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können "<strong>Keine E-Mail</strong>"(für den Testversand ist kein E-Mail-Link erforderlich), "<strong>Nur E-Mail-Testversand</strong>"(Abonnenten erhalten einen Link zum Testversand per E-Mail ohne Überprüfung) oder "<strong>E-Mail-Benachrichtigung zur Validierung und zum Testversand</strong>"(Abonnenten erhalten per E-Mail einen Link und müssen auf den Link klicken, um einen Testversand anzuzeigen). Diese Option dient dazu, um sicherzustellen, dass die richtige E-Adresse angegeben wird , auf die sie Zugriff haben).</li>
         </ul><p><strong>Hinweis:</strong> Wenn die Testsendungen den automatisierten Workflow angehängt haben, generieren alle Abonnements Bestätigungs-E-Mails an die Testversand-Inhaber, sodass diese entscheiden können, zu welcher Stufe die Person hinzugefügt werden soll.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicks **Testversand erstellen**.
+1. Klicken Sie auf **Testversand erstellen**.
 
    Workfront beginnt mit der Erstellung eines Testversands der ausgewählten Dokumente oder Websites. Je nach Dateigröße und Typ kann die Zeitverzögerung beim Hochladen von Dokumenten variieren. Seien Sie geduldig, da die Erzeugung größerer Dateien länger dauert. Sie können von der Seite weg navigieren und Workfront generiert weiterhin Ihre -Datei. Die maximale Größe für den Datei-Upload beträgt 4 GB.
 
-1. Klicken Sie nach der Erstellung des Testversands auf **Offener Testversand** , um den Testversand-Viewer zu starten.
+1. Nachdem der Testversand erstellt wurde, klicken Sie auf **Testversand öffnen** , um den Testversand-Viewer zu starten.
 
    ![](assets/open-proof-350x132.png)
 
-   Benutzer, für die die Funktion zum Testen nicht aktiviert ist, können das Dokument weiterhin anzeigen und Kommentare zum Testversand abgeben [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
+   Benutzer, für die die Prüfung in ihrem Konto nicht aktiviert wurde, können das Dokument weiterhin anzeigen und Kommentare zum Testversand vornehmen [](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).

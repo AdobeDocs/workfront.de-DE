@@ -24,7 +24,7 @@ Weitere Informationen zu Frame.io finden Sie unter [Erste Schritte mit Frame.io]
 
 Der Workfront-Administrator aktiviert die Integration zwischen Workfront und Frame.io, indem er das standardmäßige Frame.io-Konto im Setup-Bereich konfiguriert und dann Frame.io-Benutzer in Workfront benennt. Dadurch kann der Koordinator die Arbeit mithilfe von Workfront-Projekten und formellen Prüfungs- und Genehmigungs-Workflows planen und starten.
 
-### Standard-Frame.io-Konto konfigurieren [!BADGE In Kürze verfügbar]{type=Informative}
+### Konfigurieren Sie das standardmäßige Frame.io-Konto [!BADGE In Kürze verfügbar]{type=Informative}
 
 Workfront-Administratoren initiieren die Integration von Workfront und Frame.io, indem sie im Setup-Bereich von Workfront ein standardmäßiges Frame.io-Konto hinzufügen. Sobald das standardmäßige Frame.io-Konto eingerichtet ist, wird bei allen in Workfront erstellten Projekten ein Spiegelprojekt in Frame.io erstellt.
 
@@ -50,7 +50,7 @@ Wenn ein Benutzer in Workfront als Frame.io-Benutzer markiert und zu einem Proje
 * Sie können Assets von Frame.io zur formalen Überprüfung und Genehmigung an Workfront senden.
 * Sie können Informationen im unidirektionalen Synchronisierungsordner von Workfront aus anzeigen. [!BADGE In Kürze verfügbar]{type=Informative}
 
-Weitere Informationen finden Sie unter [Konfigurieren Sie die [!DNL Workfront] und [!DNL Frame.io] Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+Weitere Informationen finden Sie unter [Konfigurieren der [!DNL Workfront] und [!DNL Frame.io] Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ![](assets/Frame-enabled-user.png)
 
@@ -59,12 +59,12 @@ Weitere Informationen finden Sie unter [Konfigurieren Sie die [!DNL Workfront] u
 
 Sobald das standardmäßige Frame.io-Konto hinzugefügt und Frame.io-Benutzer bestimmt wurden, können Projektkoordinatoren Workfront-Projekte erstellen, die mit Frame.io verbunden sind. Wenn Sie ein verbundenes Projekt erstellen, können Sie
 
-* **Weisen Sie den Aufgaben Frame.io-Benutzer zu**: Benutzer, die für Frame.io aktiviert sind, werden per E-Mail benachrichtigt, wenn sie einer Workfront-Aufgabe zugewiesen werden. Dies signalisiert, dass die Arbeit abgeschlossen ist.
-* **Projekt für Frame.io-Benutzer freigeben**: Wenn ein Projekt für Benutzer freigegeben wird, die mit Frame.io aktiviert sind, haben sie sowohl in Workfront als auch in Frame.io Zugriff auf das Projekt.
-* **Geben Sie kreative Materialien mit Frame.io frei**: Projektkoordinatoren können Anweisungen und Materialien von Workfront direkt an den kreativen Benutzer in Frame.io senden, indem sie einen unidirektionalen Synchronisierungsprojektordner verwenden. [!BADGE In Kürze verfügbar]{type=Informative}
+* **Weisen Sie den Aufgaben Frame.io-Benutzer zu**: Benutzer, die für Frame.io aktiviert sind, werden per E-Mail benachrichtigt, wenn sie einer Workfront-Aufgabe zugewiesen werden. Dies zeigt an, dass die Arbeit abgeschlossen sein muss.
+* **Freigeben des Projekts für Frame.io-Benutzer**: Wenn ein Projekt für Benutzer mit Frame.io freigegeben wird, haben diese sowohl in Workfront als auch in Frame.io Zugriff auf das Projekt.
+* **Teilen Sie kreative Materialien mit Frame.io**: Projektkoordinatoren können Anweisungen und Materialien von Workfront direkt an den kreativen Benutzer in Frame.io senden, indem sie einen unidirektionalen Synchronisierungsprojektordner verwenden. [!BADGE In Kürze verfügbar]{type=Informative}
 * **Fortschritt der Aufgabe verfolgen**: Kreative Benutzer können fertige Assets senden und Aufgaben als abgeschlossen markieren - alles ohne Frame.io zu verlassen.
 
-Weitere Informationen finden Sie unter [Erstellen Sie ein Projekt, das mit Frame.io verbunden ist](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md).
+Weitere Informationen finden Sie unter [Erstellen eines mit Frame.io verbundenen Projekts](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md).
 
 
 ## Inhaltserstellung und -zusammenarbeit in Frame.io
@@ -77,9 +77,9 @@ Wenn einem verbundenen Projekt ein kreatives Element hinzugefügt wird, können 
 * Durchführung informeller Peer Reviews
 * Senden fertiger Assets an Workfront zur formalen Überprüfung und Genehmigung
 * Status einer Aufgabe ändern oder sie als abgeschlossen kennzeichnen
-* Hochladen neuer Versionen und anschließendes erneutes Übermitteln zur Genehmigung <!--do they have to send to frame.io again?-->
+* Hochladen neuer Versionen und anschließendes erneutes Einreichen zur Genehmigung <!--do they have to send to frame.io again?-->
 
-Weitere Informationen zu Frame.io finden Sie unter [Ich wurde eingeladen, an einem Projekt mitzuarbeiten](https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project).
+Weitere Informationen zu Frame.io finden Sie unter [Ich wurde zur Zusammenarbeit an einem Projekt eingeladen](https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project).
 
 ## Überprüfen und Genehmigen von Assets
 
@@ -93,23 +93,23 @@ Projektkoordinatoren können einmalige Prüfungs- und Validierungsvorlagen oder 
 
 Projektkoordinatoren haben die Möglichkeit, Prüfer, Genehmiger oder eine Mischung aus beiden zuzuweisen:
 
-* **Überprüfer** kann Kommentare hinzufügen und Assets markieren. Nach Abschluss können sie ihre Überprüfung als abgeschlossen markieren. Das Markieren der Überprüfung als abgeschlossen ist nicht erforderlich, damit das Asset im Genehmigungsprozess vorankommt.
-* **Genehmiger** kann Kommentare hinzufügen und Assets markieren. Sie müssen eine Entscheidung treffen, um den Genehmigungsprozess voranzubringen.
+* **Überprüfer** können Kommentare hinzufügen und Assets markieren. Nach Abschluss können sie ihre Überprüfung als abgeschlossen markieren. Das Markieren der Überprüfung als abgeschlossen ist nicht erforderlich, damit das Asset im Genehmigungsprozess vorankommt.
+* **Genehmiger** können Kommentare hinzufügen und Assets markieren. Sie müssen eine Entscheidung treffen, um den Genehmigungsprozess voranzubringen.
 
 
 #### Erstellen eines Arbeitsablaufs für Überprüfung und Genehmigung
 
 Validierungsverantwortliche und Validierungsverantwortliche können zu einem einmaligen oder wiederverwendbaren Validierungsarbeitsablauf hinzugefügt werden:
 
-* **Einzelanwendungsgenehmigungen**: Im Projekt oder in der Aufgabe, in dem sich das Asset befindet, kann der Projektkoordinator Prüfer und Genehmiger zuweisen und einen Abschlusszeitpunkt festlegen. Validierungsverantwortliche und validierungsverantwortliche Benutzer werden per E-Mail an 72 und 24 Stunden vor Ablauf der Frist sowie an die Frist selbst erinnert.
+* **Genehmigungen für einmalige Verwendung**: Im Projekt oder in der Aufgabe, in dem sich das Asset befindet, kann der Projektkoordinator Prüfer und Genehmiger zuweisen und einen Abschlusszeitpunkt festlegen. Validierungsverantwortliche und validierungsverantwortliche Benutzer werden per E-Mail an 72 und 24 Stunden vor Ablauf der Frist sowie an die Frist selbst erinnert.
 
   Weitere Informationen finden Sie unter * [Erstellen einer Überprüfungs- oder Genehmigungsanforderung für ein Frame.io-Asset](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
-* **Validierungsvorlagen**: Im Workfront-Setup-Bereich können Projektkoordinatoren wiederverwendbare Genehmigungsvorlagen erstellen. In einer Vorlage können Benutzer Überprüfer und Genehmiger hinzufügen und einen Abschlusszeitrahmen festlegen. Wenn die Validierungsvorlage auf ein Asset angewendet wird, wird der Termin aus dem festgelegten Zeitraum berechnet.
+* **Validierungsvorlagen**: Im Workfront-Setup-Bereich können Projektkoordinatoren wiederverwendbare Validierungsvorlagen erstellen. In einer Vorlage können Benutzer Überprüfer und Genehmiger hinzufügen und einen Abschlusszeitrahmen festlegen. Wenn die Validierungsvorlage auf ein Asset angewendet wird, wird der Termin aus dem festgelegten Zeitraum berechnet.
 
   Nachdem eine Vorlage erstellt wurde, kann sie auf Assets angewendet werden, die von Frame.io gesendet werden, um den formalen Review- und Genehmigungsprozess in Workfront zu starten.
 
-  Weitere Informationen finden Sie unter [Erstellen einer Validierungsvorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+  Weitere Informationen finden Sie unter [Erstellen einer Genehmigungsvorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 
 ![](assets/assign-template.png)
@@ -137,11 +137,11 @@ Sobald alle Überprüfungsaktivitäten abgeschlossen sind, müssen Genehmiger ei
 
 * **Genehmigen**: Das Asset muss nicht geändert werden und kann verwendet werden.
 * **Mit Änderungen genehmigen**: Das Asset muss geändert werden und kann verwendet werden, sobald es erstellt wurde. Eine zusätzliche Genehmigung ist nicht erforderlich.
-* **Arbeiten erforderlich**: Das Asset muss geändert werden und kann nicht verwendet werden. Sobald die angegebenen Änderungen vorgenommen wurden, muss das Asset als neue Version hochgeladen werden und eine weitere Genehmigungsrunde durchlaufen. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
+* **Muss funktionieren**: Das Asset muss geändert werden und kann nicht verwendet werden. Sobald die angegebenen Änderungen vorgenommen wurden, muss das Asset als neue Version hochgeladen werden und eine weitere Genehmigungsrunde durchlaufen. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Überprüfer können ihre Überprüfung als abgeschlossen im Frame.io-Viewer markieren. Dies ist jedoch nicht erforderlich, damit das Asset im Genehmigungsprozess vorankommt.
 
-Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den Entscheidungsstatus von Dokumenten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Überblick über den Entscheidungsstatus von Dokumenten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![](assets/frame-viewer-and-decision.png)
 

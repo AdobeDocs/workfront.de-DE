@@ -27,18 +27,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Rolle "Testversand"</td> 
+   <td role="rowheader">Rolle des Korrekturabzugs</td> 
    <td>Autor oder Moderator</td> 
   </tr> 
   <tr> 
@@ -48,15 +48,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Testversandeinstellungen bearbeiten
 
 Einige Einstellungen können gesperrt werden, wenn sie vom Workfront-Administrator auf Kontoebene deaktiviert wurden.
 
-1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Schaltfläche **Dokumente** Registerkarte.
-1. Bewegen Sie den Mauszeiger über den Testversand und klicken Sie auf **Dokumentdetails**.
-1. Klicken Sie im linken Bereich auf **Testen der Viewer-Einstellungen**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Registerkarte **Dokumente** .
+1. Bewegen Sie den Mauszeiger über den Testversand und klicken Sie dann auf **Dokumentdetails**.
+1. Klicken Sie im linken Bereich auf **Testversand-Viewer-Einstellungen**.
 1. Passen Sie die folgenden Einstellungen an:
 
    <table style="table-layout:auto"> 
@@ -92,9 +92,9 @@ Einige Einstellungen können gesperrt werden, wenn sie vom Workfront-Administrat
       <td role="rowheader">Abonnement des Korrekturabzugs über öffentliche URL oder eingebetteten Code erlauben</td> 
       <td> <p>Durch die Aktivierung des Testversands können Personen, die nicht explizit zum Testversand hinzugefügt wurden, sich für den Testversand anmelden (d. h. sich zum Testversand hinzufügen). Anschließend wird ihnen die Rolle und der E-Mail-Warnhinweis zugewiesen, die Sie in den Abonnementeinstellungen für sie auswählen.</p> <p>Wenn die Option Anmeldung für einen Testversand aktiviert wurde, werden die folgenden Felder aktiv:</p> 
        <ul> 
-        <li><strong>Abonnentenvalidierung erforderlich</strong> - Abonnenten müssen auf einen Link in einer E-Mail klicken, um auf einen Testversand zugreifen zu können<br>Wenn Sie diese Option auswählen, erhält der Abonnent keinen sofortigen Zugriff auf den Testversand, sondern einen Link zum Testversand in einer E-Mail. Die Abonnentenvalidierung soll sicherstellen, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.</li> 
-        <li><strong>Standardrolle für neue Abonnenten -</strong> Dies ist die standardmäßige Testversand-Rolle, die allen Validierern zugewiesen wird, die sich für den Testversand anmelden.</li> 
-        <li><strong>Standard-E-Mail-Warnung für neue Abonnenten</strong> - Dies ist der Standard-E-Mail-Warnhinweis, der allen Validierungsverantwortlichen zugewiesen wird, die sich für den Testversand angemeldet haben.</li> 
+        <li><strong>Validierung des Abonnenten erforderlich</strong> - Der Abonnent muss auf einen Link in einer E-Mail klicken, um auf einen Testversand zugreifen zu können.<br>Durch Auswahl dieser Option erhält der Abonnent keinen sofortigen Zugriff auf den Testversand, sondern einen Link zum Testversand in einer E-Mail. Die Abonnentenvalidierung soll sicherstellen, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.</li> 
+        <li><strong>Standardrolle für neue Abonnenten -</strong> Dies ist die Standardrolle für den Testversand, die allen Validierern zugewiesen wird, die sich selbst für den Testversand angemeldet haben.</li> 
+        <li><strong>Standard-E-Mail-Warnung für neue Abonnenten</strong> - Dies ist der Standard-E-Mail-Warnhinweis, der allen Validierern zugewiesen wird, die sich selbst für den Testversand angemeldet haben.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 

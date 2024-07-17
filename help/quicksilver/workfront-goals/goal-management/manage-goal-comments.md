@@ -87,7 +87,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -101,15 +101,16 @@ Sie können Ziele im Abschnitt &quot;Aktualisierungen&quot;auf der Seite eines Z
 
 Sie können auf einen Kommentar antworten oder einen Kommentar erhalten, den Sie oder andere in diesem Bereich hinzugefügt haben.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder **Hauptmenü** icon ![](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Ziele**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts oder, falls verfügbar, auf das Symbol **Hauptmenü** oben links, das Symbol ![](assets/lines-main-menu.png) und klicken Sie dann auf **Ziele**.
+![](assets/main-menu-icon.png)
 Dadurch wird die Zielliste geöffnet.
 1. Suchen Sie das Ziel, dem Sie Kommentare hinzufügen möchten, und klicken Sie dann auf seinen Namen, um die Zielseite zu öffnen.
-1. Klicks  **Updates** im linken Bereich.
-1. (Optional) Um einen vorhandenen Kommentar zu finden, beginnen Sie mit der Eingabe eines Suchbegriffs <!--or a user's name--> im **Suche** in der oberen rechten Ecke des **Kommentare** Registerkarte.
+1. Klicken Sie im linken Bereich auf **Aktualisierungen** .
+1. (Optional) Um einen vorhandenen Kommentar zu finden, geben Sie in das Feld **Suche** oben rechts auf der Registerkarte **Kommentare** den Suchbegriff <!--or a user's name--> ein.
 
    ![](assets/search-field-in-updates-tab-goals.png)
 
-   Der Suchbegriff <!--or user--> Sie nach gesucht haben, wird hervorgehoben und die Kommentare, die sie enthalten, werden oben im Abschnitt Aktualisierungen angezeigt.
+   Das Keyword <!--or user-->, nach dem Sie gesucht haben, wird hervorgehoben und die Kommentare, die es enthalten, werden oben im Abschnitt Updates angezeigt.
 
    <!--change the NOTE below when functionality changes-->
 
@@ -117,11 +118,11 @@ Dadurch wird die Zielliste geöffnet.
    >
    >Sie müssen nach einem Wort suchen, das in einem Kommentar oder einer Antwort enthalten ist. Sie können nicht nach einem getaggten Benutzer oder Team suchen.
 
-   Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Klicken Sie auf **x** im Suchfeld ein, um die Suchergebnisse zu löschen und zur vollständigen Aktualisierung zurückzukehren.
-1. Klicken Sie auf **Kommentare** in der linken oberen Ecke des Bereichs Updates.
-1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
+1. Klicken Sie im Suchfeld auf das Symbol **x** , um die Suchergebnisse zu löschen und zur vollständigen Aktualisierung zurückzukehren.
+1. Klicken Sie in der oberen linken Ecke des Bereichs Updates auf die Registerkarte **Kommentare** .
+1. Geben Sie einen Kommentar in das Feld **Neuer Kommentar** ein.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -132,15 +133,15 @@ Dadurch wird die Zielliste geöffnet.
 1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um eine Änderung rückgängig zu machen oder wiederherzustellen:
    * STRG + Z ( ⌘ + z für Mac) zum Rückgängigmachen einer Änderung
    * STRG + Y ( ⌘ + y für Mac) zum Wiederholen einer Änderung
-1. (Optional) Um Ihrem Update, einem Hyperlink oder einem Emoji Rich-Text-Format hinzuzufügen, verwenden Sie alle Optionen in der Rich-Text-Symbolleiste oder die zugehörigen Symbole. Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Im **Personen oder Teams taggen** eingeben, den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams eingeben, das Sie in diesen Kommentar aufnehmen möchten, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
-1. Wählen Sie die **Privatperson in meinem Unternehmen** umschalten, um den Kommentar nur für Personen in Ihrem Unternehmen sichtbar zu machen.
+1. (Optional) Um Ihrem Update, einem Hyperlink oder einem Emoji Rich-Text-Format hinzuzufügen, verwenden Sie alle Optionen in der Rich-Text-Symbolleiste oder die zugehörigen Symbole. Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Beginnen Sie im Bereich **Personen oder Teams taggen** mit der Eingabe des Namens oder der E-Mail eines Benutzers oder eines Teams, das Sie in diesen Kommentar aufnehmen möchten, und wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird.
+1. Wählen Sie den Umschalter **Für mein Unternehmen privat** aus, um den Kommentar nur für Personen in Ihrem Unternehmen sichtbar zu machen.
 
    >[!TIP]
    >
    >Sie müssen ein Unternehmen in Ihrem Profil angeben, damit diese Option im Bereich Updates verfügbar ist.
 
-1. Klicks **Einsenden**.
+1. Klicken Sie auf **Senden**.
 
    >[!TIP]
    >
@@ -149,7 +150,7 @@ Dadurch wird die Zielliste geöffnet.
    >Der Indikator wird nur angezeigt, nachdem der Kommentar zum Element gesendet wurde, nicht aber, wenn der Kommentar noch erstellt wurde.
    >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
-1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
+1. (Optional) Klicken Sie zum Bearbeiten eines Kommentars auf das Menü **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Symbol &quot;Gefällt mir&quot;und klicken Sie dann auf **Bearbeiten**.
 1. Bearbeiten Sie die Informationen im Kommentar oder entfernen Sie einen der getaggten Benutzer.
 Sie können Ihren Kommentar innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Links neben dem Datumsstempel, der beim Aktualisieren des Kommentars angezeigt wird, wird ein Indikator &quot;bearbeitet&quot;hinzugefügt.
 
@@ -161,23 +162,23 @@ Sie können Ihren Kommentar innerhalb von 15 Minuten nach seiner Übermittlung b
    >
    > * Der Datumsstempel ist das Datum des ursprünglichen Kommentars und nicht das Datum der letzten Aktualisierung.
 
-1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png)und klicken Sie dann auf eine der folgenden Optionen, um Informationen aus einem Kommentar in die Zwischenablage oder in eine neue Antwort zu kopieren:
+1. (Optional) Klicken Sie auf das Menü **Mehr** ![](assets/more-icon.png) und dann auf eine der folgenden Optionen, um Informationen aus einem Kommentar in die Zwischenablage oder in eine neue Antwort zu kopieren:
 
-   * **Link kopieren** , um den Link einer Aktualisierung ohne die Antworten zu kopieren.
-   * **Textkörper kopieren** , um den Text einer Aktualisierung zu kopieren.
-   * **Anführungsantwort** , um ein neues Kommentarfeld zu öffnen, in dem der ursprüngliche Kommentar in einer neuen Antwort zitiert und als Blockanführungszeichen markiert ist.
+   * **Link kopieren** , um den Link eines Updates zu kopieren, ohne die Antworten zu erhalten.
+   * **Kopieren Sie den Textkörper**, um den Text einer Aktualisierung zu kopieren.
+   * **Antwort zitieren**: Öffnet ein neues Kommentarfeld, in dem der ursprüngliche Kommentar in einer neuen Antwort zitiert und als Blockzitat markiert ist.
 
-     Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) rechts neben einem Kommentar klicken Sie auf **Löschen** , um einen hinzugefügten Kommentar zu löschen. Weitere Informationen finden Sie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Klicken Sie auf **Antwort** um auf einen vorhandenen Kommentar zu antworten, folgen Sie dann den Schritten 5 bis 9 oben. Weitere Informationen zur Beantwortung von Aktualisierungen finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
-1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die außerhalb des sichtbaren Bereichs im Abschnitt Updates angezeigt werden, klicken Sie auf **Ansicht** in Blau **neues Kommentarbanner** unten auf dem Bildschirm, um diese Kommentare anzuzeigen.
+1. (Optional) Klicken Sie auf das Menü **Mehr** rechts neben einem Kommentar und dann auf **Löschen** , um einen hinzugefügten Kommentar zu löschen. ![](assets/more-icon.png) Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Klicken Sie auf **Antworten** , um auf einen vorhandenen Kommentar zu antworten, und führen Sie dann die Schritte 5 bis 9 oben aus. Weitere Informationen zur Beantwortung von Aktualisierungen finden Sie unter [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md) <!--insure this stays accurate-->.
+1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die außerhalb des sichtbaren Bereichs im Abschnitt Updates angezeigt werden, klicken Sie unten im Bildschirm auf **Anzeigen** im blauen **neuen Kommentarbanner** , um diese Kommentare anzuzeigen.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    Weitere Kommentare werden unten auf dem Bildschirm angezeigt.
-1. (Optional) Klicken Sie auf die **liken** icon![](assets/like-icon.png) , um einen Kommentar zu erhalten, den jemand anderes hinzugefügt hat. Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
+1. (Optional) Klicken Sie auf das Symbol **Gefällt mir**![](assets/like-icon.png), um einen Kommentar zu erhalten, den jemand anderes hinzugefügt hat. Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
 
-1. (Optional) Klicken Sie auf die **Systemaktivität** -Tab, um vom System protokollierte Aktualisierungen anzuzeigen. Wenn ein Ziel aktualisiert wird, generiert Workfront einen Hinweis zu dieser Aktualisierung und zeigt sie auf der Registerkarte Systemaktivität an. Workfront zeichnet auch eine Systemaktualisierung auf, wenn ein Ergebnis, eine Aktivität oder ein Projekt zum Ziel hinzugefügt oder aktualisiert wird. <!--ensure the casing on the tab has not changed-->
+1. (Optional) Klicken Sie auf die Registerkarte **Systemaktivität** , um die vom System protokollierten Aktualisierungen anzuzeigen. Wenn ein Ziel aktualisiert wird, generiert Workfront einen Hinweis zu dieser Aktualisierung und zeigt sie auf der Registerkarte Systemaktivität an. Workfront zeichnet auch eine Systemaktualisierung auf, wenn ein Ergebnis, eine Aktivität oder ein Projekt zum Ziel hinzugefügt oder aktualisiert wird. <!--ensure the casing on the tab has not changed-->
 
 

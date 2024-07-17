@@ -40,7 +40,7 @@ Nachdem Sie sich mit der Terminologie und Architektur der Workfront-Planung vert
 
 Einige Fragen, die Sie sich möglicherweise bei der Einrichtung der Planung stellen:
 
-* **Möchten Sie Arbeitsbereiche für größere Unternehmensgruppen verwenden? Oder sollte ich die Menschen dazu ermutigen, persönliche zu gründen?**
+* **Möchten Sie Arbeitsbereiche für größere Unternehmensgruppen verwenden? Oder sollte ich Menschen dazu ermutigen, eigene zu gründen?**
 
   Sie werden vielleicht feststellen, dass es einen guten Nutzen für beide gibt. Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese sich als schwierig erweisen könnten und Ihre Arbeitsabläufe zu fragmentiert sein könnten.
 
@@ -48,7 +48,7 @@ Einige Fragen, die Sie sich möglicherweise bei der Einrichtung der Planung stel
   >
   >    Sie können in einer Workfront-Instanz über 1.000 Arbeitsbereiche verfügen.
 
-* **Welche benutzerdefinierten Datensatztypen sollte ich in den einzelnen Arbeitsbereichen erstellen?**
+* **Welche benutzerdefinierten Datensatztypen sollte ich in jedem Arbeitsbereich erstellen?**
 
   Datensatztypen ähneln den Objekttypen von Workfront. Denken Sie an Ihre Workflows und entscheiden Sie, welche Datensatztypen (Arbeitsobjekte, Personenobjekte, Taxonomien usw.) jeden Workflow benötigen.
 
@@ -65,11 +65,11 @@ Einige Fragen, die Sie sich möglicherweise bei der Einrichtung der Planung stel
 
   Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
-* **Welche Workfront- oder AEM Assets-Objekttypen benötige ich, um eine Verbindung zu Workfront Planning-Record-Typen herzustellen, damit Abhängigkeiten angezeigt und ein nahtloser Workflow für mein Unternehmen erstellt werden kann?**
+* **Welche Workfront- oder AEM Assets-Objekttypen benötige ich, um eine Verbindung zu Workfront-Planungs-Datensatztypen herzustellen, damit Abhängigkeiten angezeigt und ein nahtloser Workflow für mein Unternehmen erstellt werden kann?**
 
-  Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md)
+  Weitere Informationen finden Sie unter [Dateitypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-* **Welche Marketingkalender und -ansichten benötige ich, um die Geschichte meiner Kampagnen zu erzählen? Und welche Stakeholder könnte ich diese Ansichten für eine nahtlose Zusammenarbeit zur Verfügung stellen?**
+* **Welche Marketingkalender und -ansichten benötige ich, um die Geschichte meiner Kampagnen zu erzählen? Und welche Interessengruppen könnte ich diese Ansichten für eine nahtlose Zusammenarbeit zur Verfügung stellen?**
 
   Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
@@ -149,7 +149,7 @@ Die Richtlinien sind je nach dem Objekt oder Gebiet, das Sie einrichten, angeord
 
 Erstellen und beschriften Sie Datensatztypen, die ein einzelnes Konstrukt oder Substantiv darstellen, z. B. &quot;Kampagnen&quot;
 
-:no_entry_sign: Erstellen Sie keinen Datensatztyp, der besser als Ansichtsebene dargestellt wird. Beispielsweise ist &quot;Kalender&quot;eine schlechte Wahl für einen Datensatztyp, da es sich nicht um den Datensatztyp selbst, sondern um eine Ansicht von Datensätzen handelt.
+:no_entry_sign: Erstellen Sie keinen Datensatztyp, der besser als Ansichtsebene dargestellt wird - z. B. ist &quot;Kalender&quot;eine schlechte Wahl für einen Datensatztyp, da es sich nicht um den Datensatztyp selbst, sondern um eine Ansicht von Datensätzen handelt.
 
 ### Wie viele Hierarchieebenen sollte ich erstellen?
 

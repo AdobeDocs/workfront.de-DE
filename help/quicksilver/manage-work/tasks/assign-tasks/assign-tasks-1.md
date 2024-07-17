@@ -25,11 +25,11 @@ Aufgabenzuweisungen können in Adobe Workfront auf unterschiedliche Weise verwal
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über das Ändern von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [Übersicht über die Änderung von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
 * [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
 * [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Smart-Zuweisungen vornehmen](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [Mehrere Benutzerzuweisungen in einer Aufgabenliste ändern](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
-* [Verwalten von Benutzer- und Rollenzuordnungsstunden für Aufgaben](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
+* [Ändern mehrerer Benutzerzuweisungen in einer Aufgabenliste](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+* [Verwalten der Benutzer- und Rollenzuordnungsstunden für Aufgaben](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
 * [Verwalten des Prozentsatzes für Benutzer- oder Rollenzuweisung für Aufgaben](../../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)

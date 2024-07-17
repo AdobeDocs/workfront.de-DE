@@ -47,20 +47,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*Wenden Sie sich an Ihren [!DNL Workfront Fusion] Administrator.
+*Wenden Sie sich an Ihren [!DNL Workfront Fusion] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Navigieren [!DNL Workfront Fusion]
+## Navigieren Sie [!DNL Workfront Fusion]
 
-Die [!UICONTROL Einrichtung] und [!UICONTROL Team] Menüs befinden sich im linken Navigationsbereich von Fusion. Wenn Sie [!DNL Workfront Fusion] Administrator, [!UICONTROL Administration] Menü erscheint auch hier.
+Die Menüs [!UICONTROL Organisation] und [!UICONTROL Team] befinden sich im linken Navigationsbereich von Fusion. Wenn Sie ein [!DNL Workfront Fusion] -Administrator sind, wird hier auch das Menü [!UICONTROL Administration] angezeigt.
 
-Um Teams zu wechseln, klicken Sie auf den Teamnamen oben auf der Seite und wählen Sie dann das Team aus. Der Team-Selektor wird nur auf Seiten angezeigt, die für ein Team spezifisch sind, z. B. im Szenario-Builder oder im [!UICONTROL Verbindungen] Seite.
+Um Teams zu wechseln, klicken Sie auf den Teamnamen oben auf der Seite und wählen Sie dann das Team aus. Der Team-Selektor wird nur auf Seiten angezeigt, die für ein Team spezifisch sind, z. B. im Szenario-Builder oder auf der Seite [!UICONTROL Verbindungen] .
 
 Um zwischen Organisationen zu wechseln, klicken Sie auf den Organisationsnamen oben rechts auf Ihrem Bildschirm und wählen Sie dann die Organisation aus.
 
@@ -77,4 +77,4 @@ Unter Ihrem Profil können Sie die folgenden Registerkarten anzeigen:
 
 ## Auf Benachrichtigungen zugreifen
 
-Um Ihre Benachrichtigungen anzuzeigen, klicken Sie auf das Symbol Benachrichtigungen . ![Benachrichtigungssymbol](assets/notifications-icon.png) in der oberen rechten Ecke des Bildschirms. Ein roter Punkt auf dem Benachrichtigungssymbol zeigt an, dass Sie Benachrichtigungen oder Mitteilungen nicht gelesen haben.
+Um Ihre Benachrichtigungen anzuzeigen, klicken Sie auf das Symbol Benachrichtigungen ![Benachrichtigungen](assets/notifications-icon.png) in der rechten oberen Ecke des Bildschirms. Ein roter Punkt auf dem Benachrichtigungssymbol zeigt an, dass Sie Benachrichtigungen oder Mitteilungen nicht gelesen haben.

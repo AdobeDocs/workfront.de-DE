@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Sie können benutzerdefinierte Felder und Widgets in einem benutzerdefinierten Formular neu positionieren.
 
-Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Zugriffsanforderungen
 
@@ -41,7 +41,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> </td> 
+   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Administratorzugriff für bestimmte Bereiche</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -50,8 +50,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 ## Positionieren von benutzerdefinierten Feldern und Widgets in einem benutzerdefinierten Formular
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie unter [Benutzerdefiniertes Formular mit dem alten Formular-Builder erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Fügen Sie benutzerdefinierte Felder und Widgets zum Formular hinzu, wie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem Legacy-Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie in [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) beschrieben.
+1. Fügen Sie benutzerdefinierte Felder und Widgets zum Formular hinzu, wie in [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) beschrieben.
 
 1. (Optional) Um benutzerdefinierte Felder und Widgets in derselben Zeile zu positionieren, ziehen Sie eine neben die andere, bis eine Linie dazwischen angezeigt wird.
 
@@ -66,17 +66,17 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 >[!NOTE]
 >
->* Sie können die **Vorschau** rechts unten, um eine Vorstellung davon zu erhalten, wie die benutzerdefinierten Felder und Widgets im Formular angezeigt werden.
+>* Sie können die Schaltfläche **Vorschau** unten rechts verwenden, um eine Vorstellung davon zu erhalten, wie die benutzerdefinierten Felder und Widgets im Formular angezeigt werden.
 >* Beschreibende Textfelder können keine Zeile freigeben.
 >* Benutzerdefinierte Felder und Widgets werden im Formular möglicherweise nicht immer auf die gleiche Weise angezeigt, je nachdem, wie viel Platz auf dem Bildschirm verfügbar ist, wenn ein Benutzer das Formular anzeigt. Beispielsweise kann das dritte Feld in einer Zeile von Feldern zur nächsten Zeile von Feldern umbrechen, wenn der horizontale Bereich begrenzt ist.
 
 1. (Optional) Um ein benutzerdefiniertes Feld oder Widget über oder unter einem anderen zu positionieren, ziehen Sie es über oder unter, bis eine horizontale blaue Linie zwischen den Elementen angezeigt wird.
-1. Klicks **Anwenden**.
+1. Klicken Sie auf **Anwenden**.
 1. Wenn Sie Ihr benutzerdefiniertes Formular auf andere Weise weiter erstellen möchten, führen Sie einen der folgenden Artikel aus:
 
-   * [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem Legacy-Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
+   * [Fügen Sie ein benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem alten Formular-Builder hinzu](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
    * [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem Legacy-Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular mit dem Legacy-Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-   * [Fügen Sie mit dem alten Formular-Builder Logik hinzu und überspringen Sie Logik zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem älteren Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Fügen Sie einem benutzerdefinierten Formular mit dem alten Formular-Builder einen Abschnittsumbruch hinzu](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [Fügen Sie mit dem alten Formular-Builder eine Anzeigenlogik hinzu und überspringen Sie die Logik zu einem benutzerdefinierten Formular.](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Erstellen Sie eine Vorschau und füllen Sie ein benutzerdefiniertes Formular mit dem alten Formular-Builder aus.](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

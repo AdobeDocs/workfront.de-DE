@@ -47,16 +47,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen zum Problem verwalten</p> <p>Beitragen oder höhere Berechtigungen für das Projekt oder die Aufgabe</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a></p> </td> 
+   <td> <p>Berechtigungen zum Problem verwalten</p> <p>Contribute oder höhere Berechtigungen für das Projekt oder die Aufgabe</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Löschen von Problemen
 
-* Ihr Workfront-Administrator oder ein Gruppenadministrator muss das Löschen von Problemen in einem Projekt aktivieren, dessen Status im Bereich &quot;Projekteinstellungen&quot;den Status Fertig stellen aufweist. Weitere Informationen zum Einrichten von Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Ihr Workfront-Administrator oder ein Gruppenadministrator muss das Löschen von Problemen in einem Projekt aktivieren, dessen Status im Bereich &quot;Projekteinstellungen&quot;den Status Fertig stellen aufweist. Weitere Informationen zum Einrichten von Projektvoreinstellungen finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Wenn das Problem Stunden protokolliert hat, muss der Workfront-Administrator oder ein Gruppenadministrator das Löschen dieser Probleme zulassen, indem er die Voreinstellungen für Aufgaben und Probleme in Ihrer Workfront-Instanz konfiguriert. Dies gilt auch, wenn Sie versuchen, Projekte zu löschen, bei denen Probleme mit Stunden aufgetreten sind.
 
@@ -66,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </MadCap:conditionalText>
   -->
 
-  Weitere Informationen zum Aktivieren des Löschens von Problemen, bei denen Stunden protokolliert werden, finden Sie im Abschnitt &quot;Löschung&quot;unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Weitere Informationen zum Aktivieren des Löschens von Problemen, bei denen Stunden protokolliert werden, finden Sie im Abschnitt &quot;Löschung&quot;unter [Systemweite Aufgabe konfigurieren und Ausgabevoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Auswirkungen des Löschens von Problemen
 
@@ -81,7 +81,7 @@ Die folgenden Objekte, die an ein Problem angehängt sind, werden auch beim Lös
 * Notizen
 * Genehmigungen
 
-Je nachdem, wie Ihr Workfront- oder Gruppenadministrator die Voreinstellungen zum Projekt-, Aufgaben- oder Problemlöschung im **Zeitblatt- und Stundeneinstellungen** Ihrer Workfront-Instanz werden die Stunden, die für die Probleme protokolliert werden, beim Löschen eines Problems auf eine der folgenden Arten verarbeitet:
+Je nachdem, wie Ihr Workfront- oder Gruppenadministrator die Voreinstellungen zum Projekt, zur Aufgabe oder zur Problemlöschung in den Voreinstellungen für das Timesheet und die Stunde **Ihrer Workfront-Instanz konfiguriert, werden die Stunden, die für die Probleme protokolliert werden, beim Löschen eines Problems auf eine der folgenden Arten behandelt:**
 
 * Wechseln Sie zum Projekt und werden beim Problem nicht wiederhergestellt, wenn das Problem später wiederhergestellt wird.
 * Wird gelöscht und wird zum Problem wiederhergestellt, wenn das Problem später wiederhergestellt wird.
@@ -94,47 +94,47 @@ Je nachdem, wie Ihr Workfront- oder Gruppenadministrator die Voreinstellungen zu
   </MadCap:conditionalText>
   -->
 
-  Weitere Informationen zum Konfigurieren der Löscheinstellungen für Stunden, die bei Problemen protokolliert werden, finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Weitere Informationen zum Konfigurieren der Löschvoreinstellungen für Stunden, die bei Problemen protokolliert werden, finden Sie unter [Konfigurieren von Voreinstellungen für Zeitblätter und Stunden](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * Die Benutzer, die dem Problem oder der Problemgenehmigung zugewiesen sind, verbleiben im Projektteam.\
   Weitere Informationen zu Projektteams finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Probleme löschen
 
-* [Mehrere Probleme gleichzeitig in einem Projekt löschen](#delete-multiple-issues-in-a-project-simultaneously)
+* [Mehrere Probleme in einem Projekt gleichzeitig löschen](#delete-multiple-issues-in-a-project-simultaneously)
 * [Löschen eines einzelnen Problems](#delete-a-single-issue)
 
 ### Mehrere Probleme gleichzeitig in einem Projekt löschen  {#delete-multiple-issues-in-a-project-simultaneously}
 
-1. Navigieren Sie zu **Hauptmenü**.
-1. Klicks **Projekte**.
+1. Wechseln Sie zum **Hauptmenü**.
+1. Klicken Sie auf **Projekte**.
 1. Klicken Sie auf den Projektnamen, der die zu löschenden Probleme enthält.
-1. Klicks **Probleme** im linken Bereich.
-1. Wählen Sie ein Problem aus und klicken Sie dann auf das **Löschen** icon ![](assets/delete.png) oben in der Liste.
+1. Klicken Sie im linken Bereich auf **Probleme** .
+1. Wählen Sie ein Problem aus und klicken Sie dann oben in der Liste auf das Symbol **Löschen** ![](assets/delete.png) .
 
-1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja, löschen**.\
+1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja, löschen Sie ihn**.\
    Möglicherweise lässt Ihr Workfront-Administrator das Löschen von Problemen, bei denen Stunden protokolliert werden, nicht zu.\
-   Weitere Informationen zu Zugriff und Berechtigungen zum Löschen eines Problems finden Sie unter [Probleme löschen](#access-and-permissions-needed).
+   Weitere Informationen zu Zugriff und Berechtigungen, die zum Löschen eines Problems erforderlich sind, finden Sie unter [Löschprobleme](#access-and-permissions-needed).
 
 ### Löschen eines einzelnen Problems {#delete-a-single-issue}
 
 {{step1-to-projects}}
 
 1. Klicken Sie auf den Projektnamen, der das zu löschende Problem enthält.
-1. Klicks **Probleme** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Probleme** .
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Klicken Sie auf den Namen des Problems, das Sie löschen möchten.
-1. Klicken Sie auf **Mehr** Menü rechts neben dem Problemnamen.
+1. Klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Problems.
 
    ![](assets/qs-issue-more-menu-highlighted-350x469.png)
 
-1. Klicks **Problem löschen**.
-1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja, löschen**.
+1. Klicken Sie auf **Problem löschen**.
+1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja, löschen Sie ihn**.
 
    Möglicherweise lässt Ihr Workfront-Administrator das Löschen von Problemen, bei denen Stunden protokolliert werden, nicht zu.\
-   Weitere Informationen zu Zugriff und Berechtigungen zum Löschen eines Problems finden Sie unter [Probleme löschen](#access-and-permissions-needed).
+   Weitere Informationen zu Zugriff und Berechtigungen, die zum Löschen eines Problems erforderlich sind, finden Sie unter [Löschprobleme](#access-and-permissions-needed).
 
 ## Gelöschte Probleme wiederherstellen
 

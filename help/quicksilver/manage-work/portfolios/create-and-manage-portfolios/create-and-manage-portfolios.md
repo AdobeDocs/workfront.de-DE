@@ -24,6 +24,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 * [Löschen und Deaktivieren von Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
 * [Bearbeiten von Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
-* [Hinzufügen von Projekten zu einem Portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Projekte zu einem Portfolio hinzufügen](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
 * [Entfernen eines Projekts aus einem Portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
 * [Überprüfen angeforderter Projekte](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)

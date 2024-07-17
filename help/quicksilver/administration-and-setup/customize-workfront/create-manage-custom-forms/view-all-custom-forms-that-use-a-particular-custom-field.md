@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Sie können herausfinden, welche benutzerdefinierten Formulare ein benutzerdefiniertes Feld oder Widget verwenden, das Sie ändern oder löschen möchten. Es ist wichtig zu bewerten, ob diese benutzerdefinierten Formulare Anpassungen erfordern, damit sie weiterhin ordnungsgemäß funktionieren oder nach dem Ändern oder Löschen des Felds oder Widgets weiterhin nützlich sind.
 
-Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Zugriffsanforderungen
 
@@ -47,12 +47,12 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Finden Sie heraus, welche benutzerdefinierten Formulare ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms**.
-1. Klicks **Felder**, suchen Sie nach dem Feld oder Widget im **Name** und dann die **Forms** -Spalte, um zu sehen, welche benutzerdefinierten Formulare das Feld oder Widget verwenden.
+1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms**.
+1. Klicken Sie auf &quot;**Felder**&quot;, suchen Sie in der Spalte &quot;**Name**&quot;nach dem Feld oder Widget und zeigen Sie dann in der Spalte &quot;**Forms**&quot;an, um zu sehen, welche benutzerdefinierten Formulare das Feld oder Widget verwenden.
 1. (Optional) Klicken Sie auf den Namen eines dieser benutzerdefinierten Formulare, um das Formular aufzurufen und zu überlegen, welche Änderungen Sie dort vornehmen müssen, wenn Sie das Feld oder Widget ändern.

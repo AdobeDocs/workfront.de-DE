@@ -40,7 +40,7 @@ Sie können nicht mehr verwendete Teams deaktivieren und dabei die zugehörigen 
  </tbody> 
 </table>
 
-Deaktivierte Teams werden nicht angezeigt, wenn Sie nach einem Team suchen, werden jedoch weiterhin in [!UICONTROL Startseite] und Weitere Teams , wenn der Benutzer vor der Deaktivierung dem Team zugewiesen wurde.
+Deaktivierte Teams werden nicht angezeigt, wenn Sie nach einem Team suchen. Sie werden jedoch weiterhin im [!UICONTROL Startseiten-Team] und in anderen Teams angezeigt, wenn der Benutzer dem Team vor der Deaktivierung zugewiesen wurde.
 
 ## Zugriffsanforderungen
 
@@ -51,8 +51,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Deaktivieren eines Teams
 
@@ -73,17 +73,17 @@ Alle dem Team vor der Deaktivierung zugewiesenen Aufgaben bleiben zugewiesen. Es
 
 Wenn Sie Anforderungswarteschlangen verwenden und ein in einer Routing-Regel als Standardteam zugewiesenes Team deaktivieren, bleibt das Team erhalten und die Anforderungen werden weiterhin an das deaktivierte Team weitergeleitet. Es wird empfohlen, Routing-Regeln mit aktiven Teams zu aktualisieren, bevor Sie das Team deaktivieren.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Teams]**.
-1. Klicken Sie auf **[!DNL Switch team]** und wählen Sie entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü und wählen Sie **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in Adobe Workfront und klicken Sie dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+1. Klicken Sie auf das Symbol **[!DNL Switch team]** und wählen Sie dann entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![](assets/edit-team-settings-350x205.png)
 
-1. Löschen Sie die **[!UICONTROL Ist aktiv]** aktivieren.
-1. Klicken **[!UICONTROL Änderungen speichern]**.
+1. Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Ist aktiv]** .
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
 ## Bekannte Einschränkungen
 
 Deaktivierte Teams werden in den folgenden Bereichen angezeigt:
 
-* Das Feld Inhaber in [!DNL Workfront Goals]. Dies erfordert eine zusätzliche Lizenz für [!DNL Adobe Workfront Goals]. Weitere Informationen finden Sie unter [Erste Schritte mit [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+* Das Feld Inhaber in [!DNL Workfront Goals]. Dies erfordert eine zusätzliche Lizenz für [!DNL Adobe Workfront Goals]. Weitere Informationen finden Sie unter [Erste Schritte mit  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).

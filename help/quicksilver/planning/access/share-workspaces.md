@@ -83,7 +83,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Freigeben von Berechtigungen für einen Arbeitsbereich
 
@@ -96,11 +96,11 @@ So geben Sie einen Arbeitsbereich für andere frei:
 
 {{step1-to-planning}}
 
-1. Öffnen Sie den freizugebenden Arbeitsbereich und klicken Sie auf **Freigeben** in der oberen rechten Ecke des Bildschirms.
+1. Öffnen Sie den Arbeitsbereich, den Sie freigeben möchten, und klicken Sie dann oben rechts im Bildschirm auf **Freigeben** .
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. Im **Gewähren von Workspace-Zugriff auf** ein, geben Sie den Namen eines Benutzers oder einer Gruppe ein und klicken Sie dann darauf, wenn er in der Liste angezeigt wird.
+1. Geben Sie im Feld **Workspace Zugriff auf** gewähren den Namen eines Benutzers oder einer Gruppe ein und klicken Sie dann auf diesen, wenn er in der Liste angezeigt wird.
 
    ![](assets/sharing-ui-with-groups.png)
 
@@ -109,8 +109,8 @@ So geben Sie einen Arbeitsbereich für andere frei:
    * Mitwirken
    * Verwalten
 
-     Informationen zu Berechtigungsebenen und zu den Aktionen, die Benutzer für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-1. Klicks **Link kopieren** , um einen Link zum Arbeitsbereich in die Zwischenablage zu kopieren.
+     Informationen zu Berechtigungsebenen und zu den Aktionen, die Benutzer für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über die Berechtigungen für die Freigabe in der Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+1. Klicken Sie auf **Link kopieren** , um einen Link in den Arbeitsbereich in die Zwischenablage zu kopieren.
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich zugreifen zu können.
 1. Klicken Sie auf **Speichern**.
 
@@ -120,8 +120,8 @@ So geben Sie einen Arbeitsbereich für andere frei:
 
 {{step1-to-planning}}
 
-1. Öffnen Sie den Arbeitsbereich, für den Sie Berechtigungen entfernen möchten, und klicken Sie auf **Freigeben** in der oberen rechten Ecke des Bildschirms.
-1. Klicken Sie auf das Dropdown-Menü rechts neben dem Namen eines Benutzers oder einer Gruppe und klicken Sie dann auf **Entfernen**.
+1. Öffnen Sie den Arbeitsbereich, für den Sie Berechtigungen entfernen möchten, und klicken Sie dann oben rechts im Bildschirm auf **Freigeben** .
+1. Klicken Sie auf das Dropdown-Menü rechts neben einem Benutzer- oder Gruppennamen und dann auf **Entfernen**.
 1. Klicken Sie auf **Speichern**.
 
    Der Benutzer oder die Benutzer, die zur entfernten Gruppe gehören, haben keinen Zugriff mehr auf den Arbeitsbereich oder die zugehörigen Objekte.

@@ -1,19 +1,19 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Erstellen eines Portfolios
+title: Erstellen von Portfolios
 description: Ein Portfolio ist eine Sammlung von Projekten, die für dieselben Ressourcen, Budgets und Zeitpläne konkurrieren. Die Projekte in einem Portfolio sind so ähnlich, dass sie denselben Ressourcenpool verwenden und mit derselben Scorecard gemessen werden.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 0%
+source-wordcount: '595'
+ht-degree: 2%
 
 ---
 
-# Erstellen eines Portfolios
+# Erstellen von Portfolios
 
 Ein Portfolio ist eine Sammlung von Projekten, die für dieselben Ressourcen, Budgets und Zeitpläne konkurrieren. Die Projekte in einem Portfolio sind so ähnlich, dass sie denselben Ressourcenpool verwenden und mit derselben Scorecard gemessen werden.
 
@@ -28,7 +28,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Business] oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -37,35 +37,35 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL Zugriff auf Portfolios bearbeiten</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL] Zugriff auf Portfolios bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Nachdem Sie ein Portfolio erstellt haben, verfügen Sie standardmäßig über Verwaltungsberechtigungen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Nachdem Sie ein Portfolio erstellt haben, verfügen Sie standardmäßig über Verwaltungsberechtigungen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Erstellen eines Portfolios
+## Erstellen von Portfolios
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png).
 
-1. Klicken **[!UICONTROL Portfolios]**.
-1. Klicken **[!UICONTROL Neues Portfolio]**.
-1. Ersetzen **[!UICONTROL Unbenanntes Portfolio]** mit dem Namen, den Sie für das Portfolio benötigen.
+1. Klicken Sie auf **[!UICONTROL Portfolio]**.
+1. Klicken Sie auf **[!UICONTROL Neues Portfolio]**.
+1. Ersetzen Sie **[!UICONTROL Unbenanntes Portfolio]** durch den Namen, den Sie für das Portfolio benötigen.
 
    Der Name kann bis zu 255 Zeichen enthalten.
 
-1. (Optional) Klicken Sie auf den Namen unter **[!UICONTROL Portfolio Manager]** in der Kopfzeile am oberen Seitenrand, um einen anderen Manager für das Portfolio zuzuweisen.
+1. (Optional) Klicken Sie in der Kopfzeile am oberen Seitenrand auf den Portfolio-Manager unter **[!UICONTROL 1} , um einen anderen Portfoliomanager zuzuweisen.]**
 
    ![](assets/portfolio-manager-name-350x51.jpg)
 
    Als Ersteller des Portfolios werden Sie standardmäßig als Portfolioverwalter zugewiesen.
 
-1. Klicken **[!UICONTROL Portfolio-Details]** im linken Bereich.
-1. Im **[!UICONTROL Übersicht]** ändern Sie eine der folgenden Informationen:
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Portfolio Details]** .
+1. Ändern Sie im Bereich **[!UICONTROL Überblick]** eine der folgenden Informationen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,23 +81,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Gruppe </td> 
-      <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe Eigentümer des Portfolios ist oder für dessen Abschluss verantwortlich ist. </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Symbol [!UICONTROL Information] klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe Eigentümer des Portfolios ist oder für dessen Abschluss verantwortlich ist. </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das [!UICONTROL Informationssymbol] <img src="assets/info-icon.png"> klicken, das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Klicken Sie in die **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** in der oberen rechten Ecke des [!UICONTROL Portfolio-Details] Seite, um ein benutzerdefiniertes Formular für das Portfolio auszuwählen und die benutzerdefinierten Felder zu aktualisieren.
+1. (Optional) Klicken Sie in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** oben rechts auf der Seite [!UICONTROL Portfolio-Details] , um ein benutzerdefiniertes Formular für das Portfolio auszuwählen und die benutzerdefinierten Felder zu aktualisieren.
 
    >[!TIP]
    >
    >Sie müssen bereits benutzerdefinierte Portfolio-Formulare erstellt haben, bevor Sie sie an Portfolios anhängen können.
 
-1. Klicken **[!UICONTROL Änderungen speichern]**.
-1. (Optional) Klicken Sie auf **[!UICONTROL Programme]** im linken Bereich, dann **[!UICONTROL Programme hinzufügen]** , um dem Portfolio Programme hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+1. (Optional) Klicken Sie im linken Bereich auf **[!UICONTROL Programme]** und dann auf **[!UICONTROL Programme hinzufügen]** , um dem Portfolio Programme hinzuzufügen.
 
    Weitere Informationen zum Erstellen von Programmen finden Sie unter [Programm erstellen](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Projekte]** im linken Bereich, dann **[!UICONTROL Projekte hinzufügen]** , um Projekte zum Portfolio hinzuzufügen.
+1. (Optional) Klicken Sie im linken Bereich auf **[!UICONTROL Projekte]** und dann auf **[!UICONTROL Projekte hinzufügen]** , um Projekte zum Portfolio hinzuzufügen.
 
    Weitere Informationen zum Hinzufügen von Projekten zu einem Portfolio finden Sie unter [Hinzufügen von Projekten zu einem Portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 

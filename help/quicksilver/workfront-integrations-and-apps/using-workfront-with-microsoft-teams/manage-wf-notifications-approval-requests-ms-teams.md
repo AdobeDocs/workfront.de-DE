@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Verwalten [!DNL Adobe Workfront] Benachrichtigungen in [!DNL Microsoft] Teams
-description: Sie können Benachrichtigungen von [!DNL Adobe Workfront] über Elemente, die Sie genehmigen müssen, Zuweisungen, Kommentare und Änderungen an Elementen, mit denen Sie verknüpft sind.
+title: Verwalten von [!DNL Adobe Workfront] Benachrichtigungen in [!DNL Microsoft] Teams
+description: Sie können von  [!DNL Adobe Workfront]  Benachrichtigungen zu Elementen erhalten, die Sie genehmigen müssen, zu Zuweisungen, zu Kommentaren und Änderungen an Elementen, mit denen Sie verknüpft sind.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# Verwalten [!DNL Adobe Workfront] Benachrichtigungen in [!DNL Microsoft Teams]
+# Verwalten von [!DNL Adobe Workfront] Benachrichtigungen in [!DNL Microsoft Teams]
 
 >[!NOTE]
 >
 >Die Adobe Workfront für Microsoft Teams-Integration wird derzeit nur für das klassische Microsoft Teams-Erlebnis unterstützt.
 
-Sie können Benachrichtigungen von [!DNL Adobe Workfront] über Elemente, die Sie genehmigen müssen, Zuweisungen, Kommentare und Änderungen an Elementen, mit denen Sie verknüpft sind.
+Sie können von [!DNL Adobe Workfront] Benachrichtigungen zu Elementen erhalten, die Sie genehmigen müssen, zu erteilten Zuweisungen oder zu Kommentaren und Änderungen an Elementen, mit denen Sie verknüpft sind.
 
-Diese Benachrichtigungen enthalten [!DNL Workfront] Aktionen, die Sie in [!DNL Microsoft Teams] ohne zu navigieren von [!DNL Microsoft Teams] um sie zu erreichen.
+Diese Benachrichtigungen enthalten [!DNL Workfront] Aktionen, die Sie innerhalb von [!DNL Microsoft Teams] ausführen können, ohne von [!DNL Microsoft Teams] weg zu navigieren, um sie durchzuführen.
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] unterstützt nicht mehr [!DNL Internet Explorer]. So verwenden Sie die [!DNL Adobe Workfront for Microsoft Teams integration]müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] unterstützt [!DNL Internet Explorer] nicht mehr. Um den [!DNL Adobe Workfront for Microsoft Teams integration] zu verwenden, müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer] verwenden.
 
 
 ## Zugriffsanforderungen
@@ -47,38 +47,38 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Voraussetzungen für den Empfang [!DNL Workfront] Benachrichtigungen in [!DNL Microsoft Teams]
+## Voraussetzungen für den Empfang von [!DNL Workfront]-Benachrichtigungen in [!DNL Microsoft Teams]
 
-Sie können [!DNL Workfront] Benachrichtigungen in [!DNL Microsoft Teams] wenn die folgenden Bedingungen erfüllt sind:
+Sie können [!DNL Workfront]-Benachrichtigungen in [!DNL Microsoft Teams] erhalten, wenn die folgenden Bedingungen erfüllt sind:
 
-* Ein Teameigentümer hat [!DNL Workfront for Microsoft Teams] für Ihr Team.
-* Sie sind angemeldet [!DNL Workfront] von [!DNL Microsoft Teams].
-* Sie haben sofortige Benachrichtigungen in [!DNL Workfront]. Informationen zum Aktivieren von Sofortbenachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Ein Teaminhaber hat [!DNL Workfront for Microsoft Teams] für Ihr Team installiert und konfiguriert.
+* Sie sind von [!DNL Microsoft Teams] bei [!DNL Workfront] angemeldet.
+* Sie haben Instant-Benachrichtigungen in [!DNL Workfront] aktiviert. Informationen zum Aktivieren von Sofortbenachrichtigungen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Informationen zur Installation [!DNL Workfront for Microsoft Teams] und sich bei [!DNL Workfront from Microsoft Teams], siehe [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] und Anmelden bei [!DNL Workfront from Microsoft Teams] finden Sie unter [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-## Verwalten [!DNL Workfront] Benachrichtigungen in [!DNL Microsoft Teams]
+## Verwalten von [!DNL Workfront] Benachrichtigungen in [!DNL Microsoft Teams]
 
-Wenn die Variable [!DNL Workfront for Microsoft Teams] App installiert ist, wird eine [!DNL Workfront] Chatkanal erstellt in [!DNL Microsoft Teams] für jedes Mitglied dieses Teams. Wenn eine bestimmte Aktion in [!DNL Workfront], können Sie die Einstellungen für [!DNL Workfront for Microsoft Teams] , um Benachrichtigungen zu dieser Aktion in der [!DNL Workfront] Chat-Kanal [!DNL Microsoft Teams].
+Wenn die [!DNL Workfront for Microsoft Teams] -App installiert ist, wird in [!DNL Microsoft Teams] für jedes Mitglied dieses Teams ein [!DNL Workfront] Chat-Kanal erstellt. Wenn eine bestimmte Aktion in [!DNL Workfront] ausgeführt wird, können Sie die Einstellungen so konfigurieren, dass [!DNL Workfront for Microsoft Teams] Benachrichtigungen über diese Aktion im Chat-Kanal [!DNL Workfront] von [!DNL Microsoft Teams] erhält.
 
-Beachten Sie beim Arbeiten mit [!DNL Workfront] Benachrichtigungen von [!DNL Microsoft Teams]:
+Beachten Sie beim Arbeiten mit [!DNL Workfront] -Benachrichtigungen von [!DNL Microsoft Teams] Folgendes:
 
-* Sie können nicht alle, sondern nur eine ausgewählte Anzahl von [!DNL Workfront] Benachrichtigungen in [!DNL Microsoft Teams].
-* Alle Benachrichtigungen, die Sie von erhalten [!DNL Workfront] im [!DNL Workfront] Bot-Chat-Kanal.
+* Sie können nicht alle, sondern nur eine ausgewählte Anzahl von [!DNL Workfront] Benachrichtigungen in [!DNL Microsoft Teams] empfangen.
+* Alle Benachrichtigungen, die Sie von [!DNL Workfront] erhalten, werden im Bot-Chat-Kanal [!DNL Workfront] angezeigt.
 
-  Informationen zur Installation der [!DNL Workfront] Bot-Kanal, siehe [Anmelden bei [!DNL Workfront] von [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) Abschnitt in [Installieren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) Artikel.
+  Informationen zum Installieren des Bot-Kanals [!DNL Workfront] finden Sie im Artikel [Installieren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) im Abschnitt [Anmelden bei [!DNL Workfront] von [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) .
 
-* Es kann bis zu eine 5-minütige Verzögerung zwischen dem Zeitpunkt geben, zu dem eine Aktualisierung in [!DNL Workfront] und wenn Sie die Benachrichtigung darüber erhalten in [!DNL Microsoft Teams].
-* Für jeden [!DNL Microsoft Teams] Benachrichtigung erhalten Sie auch eine E-Mail-Benachrichtigung.
+* Zwischen dem Zeitpunkt, zu dem eine Aktualisierung in [!DNL Workfront] vorgenommen wird, und dem Zeitpunkt, zu dem Sie die Benachrichtigung in [!DNL Microsoft Teams] erhalten, kann es bis zu einer 5-minütigen Verzögerung geben.
+* Für jede [!DNL Microsoft Teams] -Benachrichtigung erhalten Sie auch eine E-Mail-Benachrichtigung.
 
-So verwalten Sie [!DNL Workfront] Benachrichtigungen, die Sie empfangen können [!DNL Microsoft Teams]:
+So verwalten Sie die [!DNL Workfront]-Benachrichtigungen, die Sie in [!DNL Microsoft Teams] empfangen können:
 
-1. Klicken Sie auf **[!UICONTROL Mehr hinzugefügt]** Symbol für (drei Punkte) Apps auf der linken Navigationsleiste in [!DNL Microsoft Teams].
+1. Klicken Sie in der linken Navigationsleiste in [!DNL Microsoft Teams] auf das Symbol **[!UICONTROL Mehr hinzugefügt]** (drei Punkte) für Apps .
 
-1. Klicks [!DNL Workfront] in der Liste, die angezeigt wird.
-1. Wählen Sie die **[!UICONTROL Einstellungen]** Registerkarte.
+1. Klicken Sie in der angezeigten Liste auf [!DNL Workfront] .
+1. Wählen Sie die Registerkarte **[!UICONTROL Einstellungen]**.
 
    ![](assets/ms-teams-settings-tab-350x552.png)
 
@@ -94,11 +94,11 @@ So verwalten Sie [!DNL Workfront] Benachrichtigungen, die Sie empfangen können 
 
 ## Antwort auf [!DNL Workfront] Benachrichtigungen und Genehmigungsanfragen in [!DNL Microsoft Teams]
 
-1. Anmelden bei [!DNL Workfront] von [!DNL Microsoft Teams].\
-   Informationen zur Anmeldung bei [!DNL Workfront], siehe [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+1. Melden Sie sich bei [!DNL Workfront] von [!DNL Microsoft Teams] an.\
+   Informationen zur Anmeldung bei [!DNL Workfront] finden Sie unter [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. Navigieren Sie zu **[!UICONTROL Chat]** und klicken Sie auf **[!DNL Workfront]** Bot-Kanal.\
-   Dieser Kanal ist für Ihren persönlichen Chat mit dem [!DNL Workfront] Bot. Alle [!DNL Workfront] Benachrichtigungen werden hier angezeigt.
+1. Wechseln Sie zum Bereich **[!UICONTROL Chat]** und klicken Sie auf den Bot-Kanal **[!DNL Workfront]** .\
+   Dieser Kanal ist für Ihren persönlichen Chat mit dem [!DNL Workfront]-Bot. Hier werden alle [!DNL Workfront] -Benachrichtigungen angezeigt.
 1. Je nach Art der Benachrichtigung, die Sie erhalten, gehen Sie zum entsprechenden Abschnitt:
 
    * [Validierungsbenachrichtigungen](#approval-notifications-approval-notifications)
@@ -112,9 +112,9 @@ So verwalten Sie [!DNL Workfront] Benachrichtigungen, die Sie empfangen können 
 Sie erhalten Validierungsbenachrichtigungen, wenn Sie zur Validierung eines Objekts wie einer Aufgabe, eines Zeitplans oder eines Testversands aufgefordert werden. Sie können die Benachrichtigung dennoch kommentieren. In der Validierungsbenachrichtigung können Sie jedoch die folgenden Aktionen ausführen:
 
 * **[!UICONTROL Genehmigen]**: Klicken Sie auf , um das Element zu genehmigen.
-* **[!UICONTROL Änderung]**: Klicken Sie auf , um das Element mit Änderungen zu genehmigen.
+* **[!UICONTROL Ändern]**: Klicken Sie auf , um das Element mit Änderungen zu genehmigen.
 * **[!UICONTROL Ablehnen]**: Klicken Sie auf , um das Element abzulehnen.
-* **[!UICONTROL Kommentar]**: Klicken Sie auf , um einen Kommentar abzugeben. Ihr Kommentar wird auch in [!DNL Workfront] als Update des Objekts, um das es bei der Benachrichtigung geht.
+* **[!UICONTROL Kommentar]**: Klicken Sie auf , um einen Kommentar abzugeben. Ihr Kommentar erscheint auch in [!DNL Workfront] als Aktualisierung des Objekts, um das es bei der Benachrichtigung geht.
 * **[!UICONTROL Gehe zu Testversand]**: Klicken Sie auf , um den Testversand zu öffnen. Sie können dann direkt im Testversand eine Entscheidung treffen. Weitere Informationen finden Sie unter [Entscheidungsfindung über einen Testversand im Testversand-Viewer](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
@@ -252,11 +252,11 @@ Sie erhalten Validierungsbenachrichtigungen, wenn Sie zur Validierung eines Obje
 
 Sie erhalten Zuweisungsbenachrichtigungen, wenn Sie oder ein Team, in dem Sie sich befinden, in Workfront einer Aufgabe oder einem Problem zugewiesen sind. In der Zuweisungsbenachrichtigung können Sie die folgenden Aktionen durchführen:
 
-* **[!UICONTROL Arbeiten daran]**: Wählen Sie diese Option, um das Element zu bearbeiten. Es wird kurz eine Benachrichtigung angezeigt, um zu bestätigen, dass ein neues Element zu Ihrer Arbeitsliste hinzugefügt wurde.
-* **[!UICONTROL Anzeigen in[!DNL Workfront]]**: Wählen Sie diese Option, um das zugewiesene Problem oder die zugewiesene Aufgabe in Workfront anzuzeigen, wodurch eine neue Registerkarte geöffnet wird.
-* **[!UICONTROL Starten]**: Klicken Sie auf , um mit der Bearbeitung des Elements zu beginnen. Es wird kurz eine Benachrichtigung angezeigt, um zu bestätigen, dass ein neues Element zu Ihrer Arbeitsliste hinzugefügt wurde.
+* **[!UICONTROL Bearbeiten]**: Wählen Sie diese Option aus, um das Element zu bearbeiten. Es wird kurz eine Benachrichtigung angezeigt, um zu bestätigen, dass ein neues Element zu Ihrer Arbeitsliste hinzugefügt wurde.
+* **[!UICONTROL Anzeigen in[!DNL Workfront]]**: Wählen Sie diese Option aus, um das zugewiesene Problem oder die zugewiesene Aufgabe in Workfront anzuzeigen, wodurch eine neue Registerkarte geöffnet wird.
+* **[!UICONTROL Start]**: Klicken Sie auf , um mit der Arbeit an dem Element zu beginnen. Es wird kurz eine Benachrichtigung angezeigt, um zu bestätigen, dass ein neues Element zu Ihrer Arbeitsliste hinzugefügt wurde.
 * **[!UICONTROL Kommentar]**: Klicken Sie auf , um einen Kommentar zum Element abzugeben. Ihr Kommentar wird auch im Aktualisierungsstream des Elements in Workfront angezeigt.
-* **[!UICONTROL Status]**: Klicken Sie auf und wählen Sie dann im Dropdown-Menü den neuen Status für das Arbeitselement aus.
+* **[!UICONTROL Status]**: Klicken Sie auf und wählen Sie dann im Dropdownmenü den neuen Status für das Arbeitselement aus.
 
 #### Aktionen, die für spezifische Zuweisungsbenachrichtigungen verfügbar sind:
 
@@ -305,9 +305,9 @@ Sie erhalten Zuweisungsbenachrichtigungen, wenn Sie oder ein Team, in dem Sie si
 
 Sie erhalten eine Benachrichtigung, wenn jemand zu einem Artikel kommentiert, mit dem Sie verknüpft sind, oder Sie in eine Aktualisierung einbezieht. In der Benachrichtigung können Sie die folgenden Aktionen ausführen:
 
-* **Reply**: Klicken Sie auf , um auf den Kommentar zu antworten oder [!UICONTROL update]. Ihre Antwort wird auch im Aktualisierungsstream angezeigt, wo der Kommentar in Workfront angezeigt wird.
-* **[!UICONTROL Anzeigen in Workfront]**: Wählen Sie diese Option aus, um den Kommentar und das Element in Workfront anzuzeigen, die auf einer neuen Registerkarte geöffnet werden.
-* **[!UICONTROL Status]**: Klicken Sie auf und wählen Sie dann einen neuen Status für das Arbeitselement aus, um das es beim Kommentar oder der Aktualisierung geht.
+* **Reply**: Klicken Sie auf , um auf den Kommentar oder [!UICONTROL update] zu antworten. Ihre Antwort wird auch im Aktualisierungsstream angezeigt, wo der Kommentar in Workfront angezeigt wird.
+* **[!UICONTROL In Workfront anzeigen]**: Wählen Sie diese Option aus, um den Kommentar und das Element in Workfront anzuzeigen, das auf einer neuen Registerkarte geöffnet wird.
+* **[!UICONTROL Status]**: Klicken Sie auf und wählen Sie dann einen neuen Status für das Arbeitselement aus, um das es bei dem Kommentar oder der Aktualisierung geht.
 
 #### Maßnahmen für spezifische Kommunikationsbenachrichtigungen:
 
@@ -370,9 +370,9 @@ Sie erhalten eine Benachrichtigung, wenn jemand zu einem Artikel kommentiert, mi
 
 Sie erhalten eine Informationsbenachrichtigung, wenn ein Artikel aktualisiert wird, mit dem Sie verknüpft sind. Sie müssen jedoch keine Maßnahmen für das Element ergreifen. In der Benachrichtigung können Sie die folgenden Aktionen ausführen:
 
-* **[!UICONTROL Antwort]**: Klicken Sie auf , um auf die [!UICONTROL update]. Ihre Antwort wird auch im Aktualisierungsstream des Elements in Workfront angezeigt.
-* **Anzeigen in Workfront**: Wählen Sie diese Option aus, um den Kommentar und das Element in Workfront anzuzeigen, die auf einer neuen Registerkarte geöffnet werden.
-* **[!UICONTROL Status]**: Klicken Sie auf und wählen Sie dann den neuen Status für das Element aus dem Dropdown-Menü aus.
+* **[!UICONTROL Antwort]**: Klicken Sie auf , um auf die [!UICONTROL Aktualisierung] zu antworten. Ihre Antwort wird auch im Aktualisierungsstream des Elements in Workfront angezeigt.
+* **In Workfront anzeigen**: Wählen Sie diese Option aus, um den Kommentar und das Element in Workfront anzuzeigen, das auf einer neuen Registerkarte geöffnet wird.
+* **[!UICONTROL Status]**: Klicken Sie auf und wählen Sie dann den neuen Status für das Element aus dem Dropdownmenü aus.
 
 #### Verfügbare Aktionen für spezifische Informationsbenachrichtigungen:
 
@@ -411,7 +411,7 @@ Sie erhalten eine Informationsbenachrichtigung, wenn ein Artikel aktualisiert wi
 Sie erhalten eine Benachrichtigung über eine Datumsänderung, wenn sich das Datum für ein Arbeitselement ändert, dem Sie zugewiesen sind. Ab der Benachrichtigung über die Änderung des Datums können Sie die folgenden Aktionen durchführen.
 
 * **[!UICONTROL Kommentar]**: Klicken Sie auf , um einen Kommentar zum Element abzugeben. Ihr Kommentar wird auch im Aktualisierungsstream des Elements in Workfront angezeigt.
-* **[!UICONTROL Status]**: Klicken Sie auf und wählen Sie dann im Dropdown-Menü den neuen Status für das Arbeitselement aus.
+* **[!UICONTROL Status]**: Klicken Sie auf und wählen Sie dann im Dropdownmenü den neuen Status für das Arbeitselement aus.
 
 <table style="table-layout:auto"> 
  <col> 

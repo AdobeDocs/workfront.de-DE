@@ -28,7 +28,7 @@ ht-degree: 1%
 Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufgaben repräsentiert. Sie können jedoch in einer Umgebung arbeiten, in der ungeplante Arbeiten in Form von Anfragen jederzeit eingehen können. Workfront bietet einen Workflow, mit dem dieser Umgebungstyp mithilfe von Anforderungswarteschlangen berücksichtigt werden kann.
 
 Nachdem Sie eine Anforderung in einer Anforderungswarteschlange erstellt haben, können Sie sie entweder zum Abschluss zuweisen oder in eine Aufgabe oder ein Projekt konvertieren.\
-Weitere Informationen zum Konvertieren von Problemen in eine Aufgabe oder ein Projekt finden Sie im Artikel [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Weitere Informationen zum Konvertieren von Problemen in eine Aufgabe oder ein Projekt finden Sie im Artikel [Überblick über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 Sie können eine Anforderung wie folgt erstellen:
 
@@ -64,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +78,7 @@ Ein Workfront-Administrator muss die folgenden Komponenten einer Anforderungswar
 
 * Ein Projekt mit dem aktuellen Status, das als Warteschlange für Hilfeanfragen veröffentlicht wird.
 * Warteschlangenthemen.\
-  Weitere Informationen finden Sie im Artikel [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+  Weitere Informationen finden Sie im Artikel [Themen der Warteschlange erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 * Routing-Regeln.\
   Weitere Informationen finden Sie im Artikel [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
@@ -106,27 +106,27 @@ Sie können die Anfrage fortsetzen, oder Sie können so viele Informationen wie 
 >* Wenn sich die Struktur einer Anforderungswarteschlange ändert, können Sie nicht mehr auf vorhandene Entwürfe zugreifen. Wenn beispielsweise ein Warteschlangenthema entfernt oder eine Themengruppe hinzugefügt wird, können die gespeicherten Entwürfe nicht mehr aufgerufen werden.
 >
 
-Informationen zum Erstellen von Anforderungen aus vorhandenen Entwürfen finden Sie unter [Anforderungen aus Entwürfen erstellen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Informationen zum Löschen von Anfrageentwürfen finden Sie auch unter [Anforderungsentwurf löschen](../../../manage-work/requests/create-requests/delete-request-draft.md).
+Informationen zum Erstellen von Anforderungen aus vorhandenen Entwürfen finden Sie unter [Anforderungen aus Entwürfen erstellen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Weitere Informationen zum Löschen von Anfrageentwürfen finden Sie unter auch unter [Einen Anfrageentwurf löschen](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
 So erstellen Sie eine Anforderung in der Workfront-Webanwendung:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    </MadCap:conditionalText>
    -->
 
-1. Klicks  **Anforderungen** Klicken Sie auf **Neue Anforderung** in der oberen rechten Ecke der Seite.
+1. Klicken Sie auf **Anforderungen** und dann oben rechts auf der Seite auf **Neue Anforderung** .
 
    >[!TIP]
    >
    >* Sie können über jeden Bereich im Bereich Anforderungen auf die Option Neue Anforderung zugreifen.
    >* Die Option &quot;Neue Anforderung&quot;ist abgeblendet, wenn Sie keinen Zugriff zum Erstellen von Problemen haben.
 
-1. (Bedingt) Klicken Sie in die **Anfragetyp** und führen Sie einen der folgenden Schritte aus:
+1. (Bedingt) Klicken Sie in das Feld **Anforderungstyp** und führen Sie einen der folgenden Schritte aus:
 
-   * Aus dem **Letzte Pfade** einen Pfad auswählen, den Sie kürzlich zum Öffnen einer Anforderungswarteschlange verwendet haben. Ein Pfad enthält die Anforderungswarteschlange, die Themengruppen und das Warteschlangenthema, das Sie kürzlich an gesendet haben. Die letzten drei Pfade werden standardmäßig angezeigt.
+   * Wählen Sie im Abschnitt **Letzte Pfade** einen Pfad aus, den Sie kürzlich zum Öffnen einer Anforderungswarteschlange verwendet haben. Ein Pfad enthält die Anforderungswarteschlange, die Themengruppen und das Warteschlangenthema, das Sie kürzlich an gesendet haben. Die letzten drei Pfade werden standardmäßig angezeigt.
 
      >[!NOTE]
      >
@@ -134,7 +134,7 @@ So erstellen Sie eine Anforderung in der Workfront-Webanwendung:
 
      ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
-   * Aus dem **Anforderungswarteschlangen** -Abschnitt eine Anforderungswarteschlange auswählen.
+   * Wählen Sie im Abschnitt **Anforderungswarteschlangen** eine Anforderungswarteschlange aus.
    * Geben Sie einen Suchbegriff ein, der zu einem zuvor aufgerufenen Pfad gehört, um nach einer Anforderungswarteschlange zu suchen.
 
      Wenn Sie beispielsweise über eine Anforderungswarteschlange mit dem Namen &quot;Help Desk&quot;mit einer Themengruppe mit dem Namen &quot;Location&quot;und einem Warteschlangenthema mit dem Namen &quot;Remote&quot;verfügen, können Sie &quot;remote&quot;eingeben und alle Anforderungswarteschlangen mit &quot;remote&quot;in einem beliebigen Element ihres Pfads anzeigen.
@@ -172,7 +172,7 @@ So erstellen Sie eine Anforderung in der Workfront-Webanwendung:
    >   
    >Weitere Informationen zum Veröffentlichen eines Projekts als Warteschlange für Hilfeanfragen finden Sie im Artikel [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Im **Neue Anfrage** -Formular einen der folgenden Schritte ausführen:
+1. Führen Sie im Formular **Neue Anforderung** einen der folgenden Schritte aus:
 
    * (Bedingt) Wählen Sie einen verfügbaren Entwurf aus der Benachrichtigungsmeldung aus, die im Feld Anfragetyp angezeigt wird.
 
@@ -197,13 +197,13 @@ So erstellen Sie eine Anforderung in der Workfront-Webanwendung:
    >
 
    Sie können bis zu 10 Stufen von Themengruppen in Ihre Anforderungswarteschlange integrieren.\
-   Weitere Informationen zum Erstellen von Themengruppen finden Sie im Artikel [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Weitere Informationen zum Erstellen von Warteschlangenthemen finden Sie im Artikel [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Weitere Informationen zum Erstellen von Themengruppen finden Sie im Artikel [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Weitere Informationen zum Erstellen von Warteschlangenthemen finden Sie im Artikel [Themen für Warteschlangen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    >[!TIP]
    >
    >Wenn Sie einen Entwurf oder einen vorherigen Pfad ausgewählt haben, sind die Themengruppen und Warteschlangenthemen bereits ausgewählt. Sie können bei Bedarf eine andere auswählen.
 
-1. Je nachdem, welche Felder der Workfront-Administrator im **Neue Ausgabefelder** Abschnitt **Warteschlangendetails** -Unterregisterkarte des Projekts können Sie beim Senden einer neuen Anforderung eines der folgenden Felder finden:
+1. Je nachdem, welche Felder der Workfront-Administrator auf der Unterregisterkarte **Warteschlangendetails** im Abschnitt **Neue Problemfelder** des Projekts aktiviert hat, können Sie beim Senden einer neuen Anforderung eines der folgenden Felder finden:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -249,7 +249,7 @@ So erstellen Sie eine Anforderung in der Workfront-Webanwendung:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>Arbeitsaufträge</strong> </td> 
-      <td> <p><span>Geben Sie den Namen eines aktiven Benutzers, einer aktiven Rolle oder eines Teams an, dem die Anforderung zugewiesen werden soll.</span> </p> <p>Sie können nur ein Team angeben.</p>
+      <td> <p><span>Geben Sie den Namen eines aktiven Benutzers, einer Job-Rolle oder eines Teams an, dem die Anforderung zugewiesen werden soll.</span> </p> <p>Sie können nur ein Team angeben.</p>
 
    <p> Je nachdem, wie die Anforderungswarteschlange eingerichtet wurde, können Sie der Anforderung möglicherweise nur einen oder zwei Ressourcentypen anstelle aller drei Typen zuweisen (beispielsweise können Sie die Anforderung nur Benutzern zuweisen).</p>
 
@@ -258,10 +258,10 @@ So erstellen Sie eine Anforderung in der Workfront-Webanwendung:
    <p> Weitere Informationen finden Sie in den folgenden Artikeln:</p> 
       <ul> 
       <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a> </p> </li> 
-      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Erstellen von Routing-Regeln</a> <br> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Routing-Regeln erstellen</a> <br> </p> </li> 
       </ul> </p>
 
-   <p><span>Es wird empfohlen, Routing-Regeln für Ihre Anforderungswarteschlangen zu verwenden, damit sie automatisch an die entsprechenden Ressourcen weitergeleitet werden.</span> </p> </td> 
+   <p><span>Wir empfehlen die Verwendung von Routing-Regeln für Ihre Anforderungswarteschlangen, damit sie automatisch an die entsprechenden Ressourcen weitergeleitet werden.</span> </p> </td> 
      </tr>
 
    <tr> 
@@ -291,27 +291,27 @@ So erstellen Sie eine Anforderung in der Workfront-Webanwendung:
    Benutzerdefinierte Formulare unterscheiden sich für jede Workfront-Instanz.
 1. (Optional und bedingt) Klicken Sie während der Eingabe der Anforderung auf [!UICONTROL **Entwurf verwerfen**] , wenn Sie den automatisch erstellten Entwurf löschen möchten. Dadurch wird der Entwurf gelöscht, der nicht wiederhergestellt werden kann. Es wird eine Bestätigungsmeldung angezeigt, die bestätigt, dass Sie den Entwurf löschen.
 
-1. (Optional) Klicken Sie auf [!UICONTROL **Rückgängig**] in der Bestätigungsnachricht angezeigt, wenn Sie Ihre Aktion zurücksetzen und den Entwurf beibehalten möchten.
+1. (Optional) Klicken Sie in der Bestätigungsmeldung auf [!UICONTROL **Rückgängig**] , wenn Sie Ihre Aktion wiederherstellen und den Entwurf beibehalten möchten.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicks **Einsenden** , wenn Sie bereit sind, die Anfrage zu senden. Die Anforderung wird im Abschnitt Gesendet gespeichert. Abhängig von der Routing-Regel der Anforderungswarteschlange kann diese Anforderung an ein anderes Projekt als an das als Anforderungswarteschlange bestimmte weitergeleitet werden. Informationen zu Routing-Regeln finden Sie unter [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Klicken Sie auf **Senden** , wenn Sie bereit sind, die Anfrage zu senden. Die Anforderung wird im Abschnitt Gesendet gespeichert. Abhängig von der Routing-Regel der Anforderungswarteschlange kann diese Anforderung an ein anderes Projekt als an das als Anforderungswarteschlange bestimmte weitergeleitet werden. Informationen zu Routing-Regeln finden Sie unter [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Oder
 
-     Klicks **Schließen** wenn Sie nicht ganz bereit sind, sie einzureichen, und Sie können sie später erneut abschließen. Ihre Anforderung wird im Abschnitt Entwürfe gespeichert und steht Ihnen beim nächsten Senden einer Anforderung für diese Anforderungswarteschlange zur Verfügung.
+     Klicken Sie auf **Schließen** , wenn Sie nicht ganz bereit sind, die Datei zu übermitteln, und Sie können sie später erneut abschließen. Ihre Anforderung wird im Abschnitt Entwürfe gespeichert und steht Ihnen beim nächsten Senden einer Anforderung für diese Anforderungswarteschlange zur Verfügung.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    Wenn Sie die Anforderung senden, wird der Entwurf automatisch gelöscht und kann nicht wiederhergestellt werden.
 
-   Weitere Informationen zur Bearbeitung eingehender Anfragen finden Sie im Artikel [Verwalten von Arbeits- und Teamanfragen](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   Weitere Informationen zum Umgang mit eingehenden Anforderungen finden Sie im Artikel [Verwalten von Arbeits- und Teamanfragen](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   Informationen zum Auffinden gesendeter oder entworfener Anforderungen finden Sie auch unter [Gesendete Anforderungen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   Informationen zum Auffinden gesendeter oder entworfener Anforderungen finden Sie auch unter [Gesendete Anforderungen lokalisieren](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Anforderungen von außerhalb von Workfront erstellen
 
-Sie können einen direkten Link zu einer Anforderungswarteschlange freigeben, wenn Sie eine neue Anforderung senden, und ihn in andere Anwendungen einbetten. Benutzer, die über das Internet oder andere Anwendungen auf diesen Link zugreifen, müssen ebenfalls mit einem aktiven Workfront-Konto angemeldet sein, um auf diese Warteschlange zugreifen und Anfragen an sie senden zu können. Weitere Informationen finden Sie unter [Link in eine Anforderungswarteschlange freigeben](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Sie können einen direkten Link zu einer Anforderungswarteschlange freigeben, wenn Sie eine neue Anforderung senden, und ihn in andere Anwendungen einbetten. Benutzer, die über das Internet oder andere Anwendungen auf diesen Link zugreifen, müssen ebenfalls mit einem aktiven Workfront-Konto angemeldet sein, um auf diese Warteschlange zugreifen und Anfragen an sie senden zu können. Weitere Informationen finden Sie unter [Link zu einer Anforderungswarteschlange freigeben](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Erstellen von Anforderungen per E-Mail an Workfront
 
@@ -323,13 +323,13 @@ Der Haupttext der E-Mail wird als Anforderungsbeschreibung hinzugefügt.
 >
 >Die HTML-Formatierung wird entfernt, wenn die Anforderung in Workfront eingeht, aber Signaturen und vorhandene Reply-to-Thread-Inhalte werden nicht entfernt und in der Anforderungsbeschreibung angezeigt.
 
-Informationen dazu, wie Sie eine Anforderungswarteschlange aktivieren, um Anfragen per E-Mail zu empfangen, finden Sie unter [Benutzer können ein Problem per E-Mail an ein Anforderungswarteschlangenprojekt senden](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Informationen dazu, wie Sie eine Anforderungswarteschlange aktivieren, um Anfragen per E-Mail zu empfangen, finden Sie unter [Aktivieren von Benutzern, ein Problem per E-Mail an ein Anforderungswarteschlangenprojekt zu senden](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 ## Anforderungen mit dem Outlook-Client erstellen
 
 Sie können Anforderungen mit dem Outlook-Client senden. Sie können eine neue Anforderung erstellen oder eine E-Mail in eine Anforderung konvertieren.
 
-Informationen zum Senden von Anforderungen mit dem Outlook-Client finden Sie im Artikel [Erstellen einer Adobe Workfront-Anforderung aus einer Outlook-E-Mail](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
+Informationen zum Senden von Anforderungen mit dem Outlook-Client finden Sie im Artikel [Erstellen einer Adobe Workfront-Anfrage von einer Outlook-E-Mail](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Erstellen von Anforderungen mithilfe der mobilen Workfront-App
 
@@ -348,7 +348,7 @@ Sie können Anfragen mit allen Anwendungen senden, die in Workfront integriert w
   Weitere Informationen zu benutzerdefinierten Workfront-Integrationen finden Sie im Artikel [Adobe Workfront-Integrationen](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
 * Sie können Anfragen von Salesforce senden, wenn Sie die Workfront-App für Salesforce installiert haben.\
-  Informationen zum Senden von Anfragen von Salesforce mithilfe unserer Workfront-App für Salesforce finden Sie im Artikel [Senden von Adobe Workfront-Anforderungen von Salesforce-Objekten](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+  Informationen zum Senden von Anfragen von Salesforce mithilfe unserer Workfront-App für Salesforce finden Sie im Artikel [Senden von Adobe Workfront-Anfragen von Salesforce-Objekten](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Gesendete Anforderungen suchen
 

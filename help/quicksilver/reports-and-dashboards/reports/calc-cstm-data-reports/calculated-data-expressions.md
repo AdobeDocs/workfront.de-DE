@@ -24,7 +24,7 @@ Sie können berechnete Datenausdrücke in folgenden Bereichen verwenden:
 
 * Ein berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular
 
-  Weitere Informationen zum Erstellen von berechneten benutzerdefinierten Feldern in benutzerdefinierten Formularen in Workfront finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Weitere Informationen zum Erstellen berechneter benutzerdefinierter Felder in benutzerdefinierten Formularen in Workfront finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Eine berechnete benutzerdefinierte Spalte in einem Bericht oder einer Liste, wenn Sie den Textmodus verwenden
 
@@ -83,11 +83,11 @@ Weitere Informationen zur Syntax, die Sie in einer berechneten benutzerdefiniert
 
 In den folgenden Listen werden die verfügbaren Ausdrücke definiert, die Sie verwenden können, wenn Sie in Workfront einen der drei Typen berechneter benutzerdefinierter Felder erstellen:
 
-* [Benutzerdefinierte Felder für Datum und Uhrzeit mit Datum und Uhrzeit](#date-time-calculated-custom-fields)
+* [Datum und Uhrzeit der Berechnung benutzerdefinierter Felder](#date-time-calculated-custom-fields)
 * [Mathematisch berechnete benutzerdefinierte Felder](#mathematical-calculated-custom-fields)
 * [Benutzerdefinierte Textfelder](#text-calculated-custom-fields)
 
-Sie können die unten aufgeführten Ausdrücke verwenden, um berechnete benutzerdefinierte Spalten zu erstellen. Sie müssen jedoch die richtige Syntax für eine berechnete benutzerdefinierte Spalte verwenden, wie im Abschnitt beschrieben  [Syntax von berechneten benutzerdefinierten Feldern im Vergleich zu berechneten benutzerdefinierten Spalten](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in diesem Artikel.
+Sie können die unten aufgeführten Ausdrücke verwenden, um berechnete benutzerdefinierte Spalten zu erstellen. Sie müssen jedoch die richtige Syntax für eine berechnete benutzerdefinierte Spalte verwenden, wie im Abschnitt [Syntax berechneter benutzerdefinierter Felder vs. berechneter benutzerdefinierter Spalten](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in diesem Artikel beschrieben.
 
 ### Benutzerdefinierte Felder für Datum und Uhrzeit mit Datum und Uhrzeit {#date-time-calculated-custom-fields}
 
@@ -138,7 +138,7 @@ Sie können ein benutzerdefiniertes Datums- oder Uhrzeitfeld mithilfe der folgen
 <p><code>CLEARTIME({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DATUM</strong> </td> 
+   <td><strong>DATE</strong> </td> 
    <td> <p>Konvertiert eine Zeichenfolge in ein Datum und ist wie folgt formatiert:</p>
 
 <p><code>DATE(string)</code></p> </td> 
@@ -204,13 +204,13 @@ Sie können ein benutzerdefiniertes Datums- oder Uhrzeitfeld mithilfe der folgen
 <p><code>MINUTE({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>MONAT</strong> </td> 
+   <td><strong>MONTH</strong> </td> 
    <td> <p>Gibt den Monat des Datums als Zahl zwischen 1 und 12 zurück, formatiert wie folgt. In diesem Beispiel ist das Datum das Datum der Einsendung für ein Arbeitsobjekt.</p>
 
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ZWEITE</strong> </td> 
+   <td><strong>SECOND</strong> </td> 
    <td> <p>Gibt die Sekunde des Datums als Zahl zwischen 0 und 60 zurück, formatiert wie folgt. In diesem Beispiel ist das Datum das Datum der Einsendung für ein Arbeitsobjekt.</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
@@ -275,7 +275,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einige der f
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>FLUSS</strong> </td> 
+   <td><strong>FLOOR</strong> </td> 
    <td>Kürzt die Zahl auf die nächste Ganzzahl und wird wie folgt formatiert: In diesem Beispiel wird die Anzahl der Objekte unter dem Objekt verwendet, an das das benutzerdefinierte Formular angehängt ist.
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
@@ -287,7 +287,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einige der f
 <p><code>LN({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>PROTOKOLL</strong> </td> 
+   <td><strong>LOG</strong> </td> 
    <td>Gibt den Logarithmuswert von number2 zur Basisnummer 1 zurück und ist wie folgt formatiert:
 
 <p><code>LOG(number1, number2)</code></p></td> 
@@ -309,7 +309,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einige der f
    <td>Konvertiert eine Zeichenfolge in eine Zahl und ist wie folgt formatiert:<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>STROM</strong> </td> 
+   <td><strong>POWER</strong> </td> 
    <td>Gibt eine Zahl zurück, die auf einen Strom erhöht wird und wie folgt formatiert ist:
 
 <p><code>POWER(number, power)</code></p></td> 
@@ -325,7 +325,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einige der f
    </td> 
   </tr> 
   <tr> 
-   <td><strong>RUNDE</strong> </td> 
+   <td><strong>ROUND</strong> </td> 
    <td>Rundet die Zahl auf eine angegebene Dezimalzahl und ist wie folgt formatiert:
 
 <p><code>ROUND(number, precision)</code></p></td> 
@@ -349,7 +349,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einige der f
 <p><code>SQRT({numberOfChildren})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>UNTERB</strong> </td> 
+   <td><strong>SUB</strong> </td> 
    <td>Zieht alle Zahlen in der angegebenen Reihenfolge ab und ist wie folgt formatiert:
 
 <p><code>SUB(number1, number2, ...)</code></p></td> 
@@ -378,7 +378,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>FALL</strong> </td> 
+   <td><strong>CASE</strong> </td> 
    <td> <p>Wird mit anderen Ausdrücken verwendet, um einen Wert aus einer Liste basierend auf einer Indexnummer auszuwählen. </p>
    <p>Eine Indexnummer ist ein Feld oder eine Funktion, das bzw. die einen numerischen Wert zurückgibt (normalerweise in einem bekannten Bereich).</p> 
    <p>Der Ausdruck ist wie folgt formatiert:</p>
@@ -434,7 +434,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>Weitere Informationen zum Erstellen von "IF"-Anweisungen finden Sie unter <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">Übersicht über "IF"-Anweisungen</a>.</p> </td> 
+<p>Weitere Informationen zum Erstellen von "IF"-Anweisungen finden Sie unter <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">"IF"-Anweisungen - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
@@ -476,7 +476,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
 <p><code>LEN(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>UNTERER</strong> </td> 
+   <td><strong>NIEDRIGER</strong> </td> 
    <td>Gibt die Zeichenfolge in Kleinbuchstaben zurück und ist wie folgt formatiert:
 
 <p><code>LOWER(string)</code></p></td> 
@@ -488,13 +488,13 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>RECHTS</strong> </td> 
+   <td><strong>RIGHT</strong> </td> 
    <td> <p>Gibt eine angegebene Anzahl von Zeichen von der rechten Seite einer Zeichenfolge zurück und ist wie folgt formatiert:</p>
 
 <p><code>RIGHT(string, length)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SUCHEN</strong> </td> 
+   <td><strong>SEARCH</strong> </td> 
    <td> <p>Gibt den Index des ersten Vorkommens von findText in der Zeichenfolge in der Zeichenfolge inText zurück, beginnend bei der angegebenen Startposition, oder -1, wenn der Text nicht gefunden wird.</p> <p>Der Ausdruck ist wie folgt formatiert:</p>
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
@@ -518,7 +518,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
 <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SUBSTRER</strong> </td> 
+   <td><strong>SUBSTR</strong> </td> 
    <td> <p>Gibt Zeichen einer Zeichenfolge basierend auf dem angegebenen Anfangs- und Endindex zurück und ist wie folgt formatiert:</p>
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 

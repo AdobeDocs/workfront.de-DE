@@ -57,4 +57,4 @@ Um die Sichtbarkeit und Interaktion mit dem Bedienfeld &quot;Zusammenfassung&quo
 
 Wenn Sie das Bedienfeld Zusammenfassung öffnen, ohne zunächst eine Anforderung auszuwählen, wird jetzt ein benutzerfreundlicheres Bild angezeigt, das den Benutzer anweist, vor dem Öffnen des Bedienfelds ein Element auszuwählen. Weitere Informationen finden Sie unter [Gesendete Anforderungen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Mit dieser Änderung wurde auch das Bedienfeld &quot;Zusammenfassung&quot;für Aufgaben, Probleme und Dokumente aktualisiert. Weitere Informationen zum Bedienfeld &quot;Zusammenfassung&quot;finden Sie unter [Zusammenfassungsübersicht](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Mit dieser Änderung wurde auch das Bedienfeld &quot;Zusammenfassung&quot;für Aufgaben, Probleme und Dokumente aktualisiert. Weitere Informationen zum Bedienfeld &quot;Zusammenfassung&quot;finden Sie unter [Übersicht&quot;](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).

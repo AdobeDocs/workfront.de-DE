@@ -78,13 +78,13 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
 Sie müssen über ein vorhandenes Ziel verfügen, um Aktivitäten hinzuzufügen.
 
-Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
@@ -145,23 +145,23 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png), dann **Ziele**.
+1. Klicken Sie auf das **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ziele**.
 1. Klicken Sie in der Zielliste auf den Namen eines Ziels, um die Seite des Ziels zu öffnen.
-1. Klicks **Fortschrittsanzeigen** im linken Bereich.
-1. Klicken Sie im Dropdown-Menü Neue Fortschrittsanzeige auf **Aktivität erstellen**.
+1. Klicken Sie im linken Bereich auf **Fortschrittsanzeigen** .
+1. Klicken Sie im Dropdownmenü Neue Fortschrittsanzeige auf **Aktivität erstellen**.
 
    Das Feld Neue Aktivität wird geöffnet.
 
    ![](assets/new-activity-box-unshimmed.png)
 
 1. Geben Sie im Feld Aktivitätsname einen Namen für die Aktivität ein. Dies ist ein Pflichtfeld.
-1. (Optional) Entfernen Sie Ihren Namen aus dem **Aktivitätsinhaber** ein, wenn Sie die Aktivität einem anderen Benutzer zuweisen möchten. Standardmäßig sind Sie Eigentümer einer von Ihnen erstellten Aktivität.
+1. (Optional) Entfernen Sie Ihren Namen aus dem Feld **Aktivitätsinhaber** , wenn Sie die Aktivität einem anderen Benutzer zuweisen möchten. Standardmäßig sind Sie Eigentümer einer von Ihnen erstellten Aktivität.
 
    >[!NOTE]
    >
    >Sie können ein Team, eine Gruppe oder das Unternehmen nicht als Aktivitätsinhaber zuweisen.
 
-1. Klicks **Aktivität erstellen** , um es zu speichern und zum ausgewählten Ziel hinzuzufügen.
+1. Klicken Sie auf **Aktivität erstellen** , um sie zu speichern und zum ausgewählten Ziel hinzuzufügen.
 
    Die Aktivität wird im Abschnitt Fortschrittsindikatoren der Zielseite unter Aktivitätsgruppierung angezeigt.
 

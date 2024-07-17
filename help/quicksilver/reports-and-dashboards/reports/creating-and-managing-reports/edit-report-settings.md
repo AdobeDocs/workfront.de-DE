@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,13 +48,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Schritte
 
-1. Erstellen Sie einen Bericht, indem Sie zu **Hauptmenü** > **Berichte** und wählen Sie dann das Objekt Ihres Berichts aus.
+1. Beginnen Sie mit der Erstellung eines Berichts, indem Sie das **Hauptmenü** > **Berichte** aufrufen und dann das Objekt Ihres Berichts auswählen.
 
    Oder
 
-   Öffnen Sie einen vorhandenen Bericht und klicken Sie auf **Berichtaktionen** > **Bearbeiten**.
+   Öffnen Sie einen vorhandenen Bericht und klicken Sie dann auf **Berichtaktionen** > **Bearbeiten**.
 
-1. Klicks **Berichtseinstellungen** in der oberen rechten Ecke des ReportBuilder.
+1. Klicken Sie oben rechts im ReportBuilder auf **Berichtseinstellungen** .
 1. Konfigurieren Sie die folgenden Berichtseinstellungen:
 
    <table style="table-layout:auto"> 
@@ -71,7 +71,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Führen Sie diesen Bericht mit den Zugriffsrechten von aus.</td> 
-      <td>Wählen Sie den Benutzer aus, dessen Zugriffsberechtigungen dieser Bericht bei der Anzeige für andere Benutzer verwenden soll. Weitere Informationen zum Ausführen eines Berichts mit den Zugriffsrechten eines anderen Benutzers finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Einen Bericht mit Zugriffsrechten für einen anderen Benutzer ausführen und bereitstellen</a>.</td> 
+      <td>Wählen Sie den Benutzer aus, dessen Zugriffsberechtigungen dieser Bericht bei der Anzeige für andere Benutzer verwenden soll. Weitere Informationen zum Ausführen eines Berichts mit den Zugriffsrechten eines anderen Benutzers finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ausführen und Bereitstellen eines Berichts mit den Zugriffsrechten eines anderen Benutzers</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Wenn der Bericht geladen wird, zeigen Sie die</td> 
@@ -112,16 +112,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tbody> 
    </table>
 
-1. Klicks **Berichtsaufforderungen** , um eventuelle Eingabeaufforderungen für den Bericht einzurichten.\
-   Weitere Informationen zum Hinzufügen von Eingabeaufforderungen zu einem Bericht finden Sie im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+1. Klicken Sie auf **Berichtaufforderungen** , um alle Eingabeaufforderungen für den Bericht einzurichten.\
+   Weitere Informationen zum Hinzufügen von Eingabeaufforderungen zu einem Bericht finden Sie im Artikel [Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Klicks **Fertig** Klicken Sie dann auf **Speichern und schließen**.
+1. Klicken Sie auf **Fertig,** und dann auf **Speichern + Schließen**.
 
-## Zusätzliche Informationen
+## Weitere Informationen
 
 Siehe auch:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Erste Schritte mit Berichten](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [Integrierte Adobe Workfront-Berichte verwenden](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [Verwenden der integrierten Adobe Workfront-Berichte](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

@@ -49,7 +49,7 @@ Weitere Informationen zum Verknüpfen von Genehmigungen mit Projekten, Aufgaben 
 
 Sie müssen ein Projekt nicht mehr bearbeiten, um den Projektstatus zu ändern. Sie können jetzt den Status eines Projekts direkt auf der Hauptseite des Projekts ändern.
 
-Weitere Informationen finden Sie unter [Ändern des Status eines Projekts](../../../../manage-work/projects/manage-projects/change-project-status.md).
+Weitere Informationen finden Sie unter [Status eines Projekts ändern](../../../../manage-work/projects/manage-projects/change-project-status.md).
 
 ## Planen von Benutzern für die Deaktivierung
 
@@ -61,13 +61,13 @@ Die Planung der Deaktivierung eines Benutzers kann in verschiedenen Szenarien n�
 
 Diese Funktion ist auch bei der Massenbearbeitung von Benutzern verfügbar. 
 
-Weitere Informationen zum Planen der Deaktivierung von Benutzern finden Sie unter [Benutzer deaktivieren oder reaktivieren](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) und [Benutzer hinzufügen](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Weitere Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Deaktivieren oder Reaktivieren eines Benutzers](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) und [Benutzer hinzufügen](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Neue E-Mail-Digest-Optionen für &quot;Erforderliche Aktionen&quot;
 
 Die Option Täglicher Digest-Versand ist jetzt im Bereich &quot;Erforderliche Aktion&quot;Ihrer Benachrichtigungseinstellungen verfügbar.
 
-Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können. Dies ist erforderlich, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht.
 
@@ -92,7 +92,7 @@ Es gibt eine neue Benutzeroberfläche für die Verwaltung von Gruppen und Unterg
 
 Das Feld Gruppeneigentümer und das Feld Gruppenmitglieder werden jetzt in ein einzelnes Feld mit einer Liste von Gruppenmitgliedern kombiniert, die unten aufgeführt sind. Darüber hinaus können Sie die Liste der Gruppenmitglieder filtern und ändern, ob sie Inhaber oder Mitglied sind. 
 
-Weitere Informationen zum Hinzufügen von Untergruppen zu Gruppen sowie zum Benennen von Benutzern als Mitglieder oder Gruppeneigentümer finden Sie unter [Gruppe erstellen](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Gruppe erstellen](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
+Weitere Informationen zum Hinzufügen von Untergruppen zu Gruppen sowie zum Benennen von Benutzern als Mitglieder oder Gruppeneigentümer von Gruppen finden Sie unter [Erstellen einer Gruppe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Erstellen einer Gruppe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
  
 

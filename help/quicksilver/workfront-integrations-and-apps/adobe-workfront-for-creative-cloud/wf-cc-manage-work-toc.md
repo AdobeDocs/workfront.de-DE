@@ -1,6 +1,6 @@
 ---
-title: Verwalten der Arbeit mit  [!DNL Adobe Workfront] Plug-in für [!DNL Creative Cloud] Anwendungen
-description: Verwalten der Arbeit mit  [!DNL Adobe Workfront] Plug-in für [!DNL Creative Cloud] Anwendungen
+title: Verwalten der Arbeit mit dem  [!DNL Adobe Workfront] Plug-in für  [!DNL Creative Cloud] -Anwendungen
+description: Verwalten der Arbeit mit dem  [!DNL Adobe Workfront] Plug-in für  [!DNL Creative Cloud] -Anwendungen
 author: Courtney
 draft: Probably
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Verwalten der Arbeit mit  [!DNL Adobe Workfront] Plug-in für [!DNL Creative Cloud] Anwendungen
+# Verwalten der Arbeit mit dem Plug-in [!DNL Adobe Workfront] für [!DNL Creative Cloud]-Anwendungen
 
-* [Suchen Sie Ihre Arbeit mithilfe des [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
-* [Anzeigen von Arbeitselementinformationen mithilfe von [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
-* [Aktualisieren Sie Ihre Arbeit mit [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
-* [Markieren Sie die Arbeitselemente, die mit abgeschlossen sind. [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
-* [Protokollzeit mit [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-* [Anzeigen und Verwalten [!DNL Adobe Workfront] Benachrichtigungen von [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+* [Suchen Sie Ihre Arbeit mithilfe des Plug-ins [!DNL Adobe Workfront] .](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
+* [Anzeigen von Arbeitselementinformationen mit dem [!DNL Adobe Workfront] Plug-in](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
+* [Aktualisieren Ihrer Arbeit mit dem [!DNL Adobe Workfront] Plug-in](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
+* [Kennzeichnen von Arbeitselementen, die mit dem Plug-in [!DNL Adobe Workfront] abgeschlossen wurden](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
+* [Protokollzeit mit dem [!DNL Adobe Workfront] Plug-in](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+* [Anzeigen und Verwalten von [!DNL Adobe Workfront] Benachrichtigungen von  [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)

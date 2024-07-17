@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Weitere Verbesserungen
 
-Auf dieser Seite werden alle sonstigen Verbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle sonstigen Verbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 - Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Wir sind jetzt offiziell in Adobe Workfront
 
@@ -70,7 +70,7 @@ Zuvor gab es kein Symbol und ein Abzeichen mit dem Objektnamen wurde rechts nebe
 
 Auch die Seitenkopfzeilen von Bereichen im neuen Workfront-Erlebnis, wie erweiterte Analysen, Ressourcenverwaltung und andere, haben dieses aktualisierte Erscheinungsbild.
 
-Weitere Informationen zu den neuen Objektheadern im neuen Workfront-Erlebnis finden Sie unter [Neue Objektüberschriften](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+Weitere Informationen zu den neuen Objektüberschriften im neuen Workfront-Erlebnis finden Sie unter [Neue Objektüberschriften](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 ![](assets/product-announcement-object-header-350x179.png)
 
@@ -80,7 +80,7 @@ Workfront speichert nun Objektstatus auf neue Weise.
 
 Diese Änderungen wirken sich nicht darauf aus, wie Statussuchanfragen ausgeführt werden. API-Anfragen mit einer Objektstatussuche geben jedoch eine unvollständige Liste der Gruppenstatus zurück.
 
-Weitere Informationen finden Sie unter [Core-API-Änderungen: Status-Suchantworten](../../../wf-api/api/api-changes-search.md) .
+Weitere Informationen finden Sie unter [Core API changes: Status Search responses](../../../wf-api/api/api-changes-search.md) .
 
 ## Payloads für Ereignisabonnements aktualisiert, um alle Felder einzuschließen, die auf ID enden
 

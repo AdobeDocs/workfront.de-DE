@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Veröffentlichungszeitrahmens von 22.2 vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mindestens 2 Wochen nach Veröffentlichung in der Vorschau verfügbar gemacht.
 
-Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [2.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [22.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Aktualisierte Seite &quot;Genehmigungen&quot;
 
@@ -35,7 +35,7 @@ Die Genehmigungsseiten in den folgenden Bereichen haben jetzt ein modernes Ersch
 
 >[!NOTE]
 >
-Vorschau-Version: 24. Februar 2022; Geschätzte Produktionsversion: Staffelter Rollout ab 9. März, Verfügbarkeit für alle Kunden bis 18. März 2022.
+>Vorschau-Version: 24. Februar 2022; Geschätzte Produktionsversion: Staffelter Rollout ab 9. März, Verfügbarkeit für alle Kunden bis 18. März 2022.
 
 Wir haben die Leistung des Dokumentenbereichs in Workfront verbessert. Die Seite &quot;Dokumente&quot;wird jetzt deutlich schneller geladen.
 
@@ -55,7 +55,7 @@ Die Symbolleisten in den folgenden Listen und Berichten haben jetzt ein modernes
 
 >[!NOTE]
 >
-Die Symbolleiste für dieselben Berichte in Dashboards wurde auch in der Produktion mit der wöchentlichen [Wartungs-Update](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) am 3. März 2022.
+>Die Symbolleiste für dieselben Berichte in Dashboards wurde auch in der Produktion mit dem wöchentlichen [Wartungs-Update](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) vom 3. März 2022 aktualisiert.
 
 * Projektberichte
 * Aufgabenberichte

@@ -9,8 +9,8 @@ role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 22%
+source-wordcount: '304'
+ht-degree: 25%
 
 ---
 
@@ -30,7 +30,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
  <thead> 
   <tr> 
    <th>Name</th> 
-   <th>Bezeichnung</th> 
+   <th>Label</th> 
    <th>Typ</th> 
    <th>Beschreibung</th> 
    <th>Mögliche Werte</th> 
@@ -52,7 +52,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String Array&quot;}">Zeichenfolgen-Array</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;List of People/Team IDs that can access this object&quot;}">Liste der Personen-/Team-IDs, die auf dieses Objekt zugreifen können</td> 
    <td> </td> 
-   <td> <p><span class="dtRead">Schreibgeschützt</span> </p> <p><span class="dtLazy">Lazy Read</span> </p> <p><span class="dtDyn">Dynamik</span> </p> <p><span class="dtGrp">Nicht gruppierbar</span> </p> </td> 
+   <td> <p><span class="dtRead">Schreibgeschützt</span> </p> <p><span class="dtLazy">Lazy Read</span> </p> <p><span class="dtDyn">Dynamisch</span> </p> <p><span class="dtGrp">Nicht gruppierbar</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;catObjCode&quot;}"><strong>catObjCode</strong> </td> 
@@ -139,7 +139,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
 
 ## Verweise
 
-| Name | Bezeichnung | Typ | Objektcode eingeben | URL |
+| Name | Label | Typ | Objektcode eingeben | URL |
 |---|---|---|---|---|
 | Kunde | customer | Kunde | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Eingegeben von | enterBy | Benutzerin oder Benutzer | BENUTZER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
@@ -149,7 +149,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
 
 ## Sammlungen
 
-| Name | Bezeichnung | Typ | Objektcode eingeben | URL |
+| Name | Label | Typ | Objektcode eingeben | URL |
 |---|---|---|---|---|
 | Zugriffsregeln | accessRules | Zugriffsregel | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Kategoriezugriffsregeln | categoryAccessRules | Kategoriezugriffsregeln | KATZ | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
@@ -160,7 +160,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
 
 ## Aktionen
 
-| Bezeichnung | Name | Argumente |
+| Label | Name | Argumente |
 |---|---|---|
 | Zuweisen von Kategorien | assignCategories | `[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]` |
 | Zuweisungskategorie | assignCategory | `[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]` |

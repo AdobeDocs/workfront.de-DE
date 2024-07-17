@@ -9,8 +9,8 @@ role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 4%
+source-wordcount: '1353'
+ht-degree: 1%
 
 ---
 
@@ -205,13 +205,13 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem bestimmten Zeitpunkt aussah. Sie speichern wichtige Informationen zum Projekt, wie z. B. Schlüsseldaten, Fortschritt, Kosten und Umsatzwerte.
 
-Das Grundlinien-Objekt hat die Markierung entfernt **INLINE_EDITABLE**.
+Das Baseline-Objekt entfernte die Markierung **INLINE_EDITABLE**.
 
 ### BillingRecord (BILL)
 
 Ein BillingRecord -Objekt zeichnet die Einnahmen, Stunden oder Ausgaben auf, die abgerechnet werden können. Diese Informationen können zur Erstellung von Rechnungen in einem externen Buchführungssystem verwendet werden.
 
-Das BillingRecord -Objekt hat die Markierung entfernt **INLINE_EDITABLE**.
+Das BillingRecord -Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
 
 <!--
 
@@ -328,7 +328,7 @@ Ein ExchangeRate-Objekt stellt einen in Workfront eingerichteten Wechselkurs dar
 
 Ausgaben stellen die Nichtarbeitskosten dar, die während der Laufzeit eines Projekts anfallen könnten.
 
-Das Spesenobjekt entfernte das Flag **INLINE_EDITABLE**.
+Das Spesenobjekt entfernte die Markierung **INLINE_EDITABLE**.
 
 ### Gruppe (GRUPPE)
 
@@ -363,7 +363,7 @@ Das Objekt Stunde entfernt die Markierung **INLINE_EDITABLE**.
 
 Ein Iteration -Objekt stellt eine einzelne Agile Iteration dar. Iterationen sind diskrete Zeiträume, die zur Planung und Ergänzung von Agile-Geschichten verwendet werden.
 
-Das Iterationsobjekt entfernte das Flag **INLINE_EDITABLE**.
+Das Iteration-Objekt entfernte die Markierung **INLINE_EDITABLE**.
 
 
 ### JournalEntry (JRNLE)
@@ -395,7 +395,7 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
               <li>Überprüfer geändert (ARC)</li>
               <li>Abschluss der Überprüfung (RDC)</li>
               <li>Rückgängig gezogene Überprüfung (RDR)</li>
-              <li>Veröffentlichen (PUB)</li>
+              <li>Publish (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -408,7 +408,7 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
 
 Ein Kanban-Board wird verwendet, um Aufgaben in einer Agile-Umgebung zu verfolgen.
 
-Das Objekt des Kanban-Boards hat die Flagge entfernt **INLINE_EDITABLE**.
+Das Kanban Board-Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
 
 
 ### LinkedFolder (LNKFDR)
@@ -438,13 +438,13 @@ Ein LinkedFolder-Objekt stellt einen Ordner dar, der von einem externen Dokument
 
 Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise anzeigt, dass ein Problem vorliegt, das die Fertigstellung einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungen bei Bestellungen, Anforderungen und Fehlern sind ebenfalls Probleme.
 
-Das Problem -Objekt hat die Markierung entfernt **INLINE_EDITABLE**.
+Das Problem -Objekt entfernte die Markierung **INLINE_EDITABLE**.
 
 ### Projekt (PROJ)
 
 Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, wie Workfront Menschen bei der Arbeit unterstützt. Ein Projektobjekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
 
-Das Projektobjekt hat die Markierung entfernt **INLINE_EDITABLE**.
+Das Projektobjekt hat die Markierung **INLINE_EDITABLE** entfernt.
 
 ### ProjectUser (PRTU)
 
@@ -493,7 +493,7 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 Ein Rate -Objekt stellt eine Abrechnungsrate in Workfront dar.
 
-Das Objekt Rate entfernt die Markierung **INLINE_EDITABLE**.
+Das Rate-Objekt entfernte die Markierung **INLINE_EDITABLE**.
 
 <table>
   <col/>
@@ -508,7 +508,7 @@ Das Objekt Rate entfernt die Markierung **INLINE_EDITABLE**.
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>Die <b>setRatesForRole</b> -Aktion wurde geändert, um die folgenden Felder hinzuzufügen:
+        <p>Die Aktion <b>setRatesForRole</b> wurde geändert, um die folgenden Felder hinzuzufügen:
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>
@@ -523,11 +523,11 @@ Das Objekt Rate entfernt die Markierung **INLINE_EDITABLE**.
 
 Ein Risikoobjekt stellt ein mögliches Ereignis dar, das verhindern kann, dass ein Projekt rechtzeitig oder innerhalb des Budgets beendet wird. In der Planungsphase werden den Projekten Risiken hinzugefügt, um potenzielle Hindernisse vor der Genehmigung von Arbeiten zu ermitteln.
 
-Das Risikoobjekt hat die Markierung entfernt **INLINE_EDITABLE**.
+Das Risikoobjekt entfernte die Markierung **INLINE_EDITABLE**.
 
 ### Rolle/Auftragsrolle (ROLE)
 
-Ein Rollenobjekt (Auftragsrolle) steht für eine funktionale Kapazität oder eine Fachkompetenz, die ein Benutzer ausfüllen kann, z. B. Designer oder Produkt-Manager.
+Ein Rollenobjekt (Auftragsrolle) stellt eine funktionale Kapazität oder eine von einem Benutzer auszufüllende Fähigkeit dar, z. B. Designer oder Produktmanager.
 
 <table>
   <col/>
@@ -552,7 +552,7 @@ Ein Rollenobjekt (Auftragsrolle) steht für eine funktionale Kapazität oder ein
 
 Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (zum Abschließen eines Projekts) ausgeführt werden muss.
 
-Das Task-Objekt hat die Markierung entfernt **INLINE_EDITABLE**.
+Das Task-Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
 
 ### Team (TEAMOB)
 
@@ -712,7 +712,7 @@ Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über d
 
 Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
 
-Das User -Objekt hat die Markierung entfernt **INLINE_EDITABLE**.
+Das User -Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
 
 <table>
   <col/>
@@ -805,9 +805,9 @@ Ein UserNote -Objekt ist eine Benachrichtigung.
               <li>Dokument genehmigt (ADA)</li>
               <li>Dokument mit Änderungen genehmigt (ADC)</li>
               <li>Arbeit für Dokument erforderlich (ADN)</li>
-              <li>(Benutzer) hat (Dokument) als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich. (AN)</li>
-              <li>(Benutzer) hat (Dokument) mit den Änderungen als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich. (ACN)</li>
-              <li>(Benutzer) hat markiert (Dokument), da es funktioniert. Ihre Genehmigung ist nicht mehr erforderlich. (AWN)</li>
+              <li>(Benutzer) hat (Dokument) als genehmigt markiert. Ihre Zustimmung ist nicht mehr erforderlich. (AN)</li>
+              <li>(Benutzer) hat (Dokument) mit den Änderungen als genehmigt markiert. Ihre Zustimmung ist nicht mehr erforderlich. (ACN)</li>
+              <li>(Benutzer) hat markiert (Dokument), da es funktioniert. Ihre Zustimmung ist nicht mehr erforderlich. (AWN)</li>
               <li>Dokument erfordert Ihre Überprüfung jetzt anstatt der Genehmigung (AAC)</li>
               <li>Dokument erfordert Ihre Genehmigung jetzt anstatt einer Überprüfung (ADN)</li>
               <li>Dokument geprüft (RDC)</li>

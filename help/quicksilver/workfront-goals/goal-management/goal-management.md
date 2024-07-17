@@ -25,7 +25,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -40,16 +40,16 @@ Lesen Sie die folgenden Artikel, um zu erfahren, wo Sie mit Workfront-Zielen beg
 
 * [Übersicht über Adobe Workfront-Ziele](../../workfront-goals/goal-management/wf-goals-overview.md)
 * [Erste Schritte mit Adobe Workfront-Zielen](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)
-* [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)
-* [Zugreifen auf und Öffnen von Zielen in Adobe Workfront](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
-* [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md)
+* [Anforderungen an die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)
+* [Zugreifen auf und Öffnen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+* [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
 * [Ziele in Adobe Workfront aktivieren](../../workfront-goals/goal-management/activate-goals.md)
-* [Kopieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/copy-goals.md)
+* [Ziele in Adobe Workfront kopieren](../../workfront-goals/goal-management/copy-goals.md)
 * [Ziele in Adobe Workfront schließen und erneut öffnen](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 * [Ziele in Adobe Workfront bearbeiten](../../workfront-goals/goal-management/edit-goals.md)
-* [Löschen und Deaktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+* [Ziele in Adobe Workfront löschen und deaktivieren](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
 * [Zielstatusübersicht in Adobe Workfront-Zielen](../../workfront-goals/goal-management/goal-status-overview.md)
-* [Übersicht über den Zielfortschritt und die Bedingungen in den Adobe Workfront-Zielen](../../workfront-goals/goal-management/calculate-goal-progress.md)
+* [Übersicht über den Zielfortschritt und die Bedingungen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/calculate-goal-progress.md)
 * [Informationen in Adobe Workfront-Zielen filtern](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Verwalten von Zielkommentaren in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md)
 * [Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;in Adobe Workfront-Zielen](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)

@@ -49,42 +49,42 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Programm erstellen
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
 
 1. Führen Sie einen der folgenden Schritte aus.
 
-   * Erstellen Sie ein Programm aus dem [!UICONTROL Programme] Bereich:
+   * Erstellen Sie ein Programm aus dem Bereich [!UICONTROL Programme] :
 
-      1. Klicks **[!UICONTROL Programme]** im Hauptmenü.
-      1. Klicks **[!UICONTROL Neues Programm]**.
-      1. Geben Sie in das angezeigte Feld den Namen eines vorhandenen Portfolios in das Feld **[!UICONTROL Portfolio auswählen]** -Feld.
-      1. Geben Sie den Namen des neuen Programms in die **[!UICONTROL Name]** -Feld.
+      1. Klicken Sie im Hauptmenü auf **[!UICONTROL Programme]** .
+      1. Klicken Sie auf **[!UICONTROL Neues Programm]**.
+      1. Geben Sie in das angezeigte Feld den Namen eines vorhandenen Portfolios in das Feld **[!UICONTROL Portfolio auswählen]** ein.
+      1. Geben Sie den Namen des neuen Programms in das Feld **[!UICONTROL Name]** ein.
       1. Klicken Sie auf **[!UICONTROL Speichern]**.
-   * Erstellen Sie ein Programm aus dem [!UICONTROL Portfolios] Bereich:
+   * Erstellen Sie ein Programm aus dem Bereich [!UICONTROL Portfolios] :
 
-      1. Klicks **[!UICONTROL Portfolios]** im [!UICONTROL Hauptmenü], und öffnen Sie dann ein Portfolio.
+      1. Klicken Sie im [!UICONTROL Hauptmenü] auf **[!UICONTROL Portfolio]** und öffnen Sie dann ein Portfolio.
       1. Klicken Sie im linken Bereich auf **[!UICONTROL Programme]**.
-      1. Klicken Sie auf **[!UICONTROL Neues Programm]** Dropdown-Menü und **[!UICONTROL Neues Programm]**.
+      1. Klicken Sie auf das Dropdown-Menü **[!UICONTROL Neues Programm]** und dann auf **[!UICONTROL Neues Programm]**.
 
 
-1. (Bedingt) Wenn Sie das Programm aus einem Portfolio erstellt haben, geben Sie den Namen für das Programm im **[!UICONTROL Unbenanntes Programm]** -Feld.
+1. (Bedingt) Wenn Sie das Programm aus einem Portfolio erstellt haben, geben Sie den Namen für das Programm im Feld **[!UICONTROL Unbenanntes Programm]** an.
 
    Der Name kann bis zu 255 Zeichen enthalten.
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Programm-Manager]** in der Kopfzeile des Programms, um es zu aktualisieren.
+1. (Optional) Klicken Sie in der Kopfzeile des Programms auf **[!UICONTROL Programm-Manager]** , um es zu aktualisieren.
 
    >[!TIP]
    >
    >Als Ersteller des Programms werden Sie standardmäßig als Programmmanager festgelegt.
 
-1. Klicks **[!UICONTROL Programmdetails]** im linken Bereich.
-1. Doppelklicken Sie auf ein beliebiges Feld, um die Informationen im **[!UICONTROL Übersicht]** Bereich.
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Programmdetails]** .
+1. Doppelklicken Sie auf ein beliebiges Feld, um die Informationen im Bereich **[!UICONTROL Überblick]** zu aktualisieren.
 
 Sie können die folgenden Informationen angeben:
 
@@ -108,7 +108,7 @@ Sie können die folgenden Informationen angeben:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Group] </td> 
-      <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe Eigentümer des Programms ist oder für dessen Abschluss verantwortlich ist. </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Symbol [!UICONTROL Information] klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> 
+      <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe Eigentümer des Programms ist oder für dessen Abschluss verantwortlich ist. </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das [!UICONTROL Informationssymbol] <img src="assets/info-icon.png"> klicken, das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -116,7 +116,7 @@ Sie können die folgenden Informationen angeben:
     </tbody> 
    </table>
 
-1. (Optional und bedingt) Klicken Sie in die **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** , um ein benutzerdefiniertes Formular für das Portfolio auszuwählen und die benutzerdefinierten Felder zu aktualisieren.
+1. (Optional und bedingt) Klicken Sie in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** , um ein benutzerdefiniertes Formular für das Portfolio auszuwählen und die benutzerdefinierten Felder zu aktualisieren.
 
    >[!TIP]
    >
@@ -124,14 +124,14 @@ Sie können die folgenden Informationen angeben:
 
 1. (Optional und bedingt) Wenn Sie ein benutzerdefiniertes Formular hinzufügen, klicken Sie auf ein beliebiges Feld im benutzerdefinierten Formular, um die Informationen in diesem Feld zu aktualisieren.
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
-1. Klicks **[!UICONTROL Projekte]** im linken Bereich, dann **[!UICONTROL Projekte hinzufügen]** , um dem Programm Projekte hinzuzufügen.
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Projekte]** und dann auf **[!UICONTROL Projekte hinzufügen]** , um Projekte zum Programm hinzuzufügen.
 
    Weitere Informationen zum Hinzufügen von Projekten zu Programmen finden Sie unter [Hinzufügen eines Projekts zu einem Programm](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
-1. (Optional) Klicken Sie auf die **[!UICONTROL Mehr Menü]** ![](assets/more-icon.png) neben dem Programmnamen und klicken Sie auf **[!UICONTROL Programm deaktivieren]**.
+1. (Optional) Klicken Sie neben dem Programmnamen auf das Menü &quot;**[!UICONTROL Mehr&quot;]** ![](assets/more-icon.png)&quot;und klicken Sie auf &quot;**[!UICONTROL Programm deaktivieren]**&quot;.
 
-   Wenn Sie ein Programm deaktivieren, wird das Programm nicht mehr in einer Programmliste angezeigt, wenn Benutzer versuchen, es einem Projekt hinzuzufügen. Der Zugriff auf das Programm erfolgt weiterhin über die [!UICONTROL Programme] Bereich.
+   Wenn Sie ein Programm deaktivieren, wird das Programm nicht mehr in einer Programmliste angezeigt, wenn Benutzer versuchen, es einem Projekt hinzuzufügen. Sie können weiterhin über den Bereich [!UICONTROL Programme] auf das Programm zugreifen.
 
 ## Übersicht über Programm-Header
 
@@ -145,7 +145,7 @@ Die folgenden Informationen werden in der Kopfzeile eines Programms angezeigt:
  <tbody> 
   <tr> 
    <td role="rowheader">Kopfzeileninformationen</td> 
-   <td> <strong>Hinweise</strong> </td> 
+   <td> <strong>Notizen</strong> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Breadcrumb mit dem Namen des Portfolios</td> 
@@ -164,7 +164,7 @@ Die folgenden Informationen werden in der Kopfzeile eines Programms angezeigt:
    <td> <p>Klicken Sie auf eine der folgenden Optionen, um weitere Informationen oder Bearbeitungsoptionen für das Programm aufzurufen:</p> 
     <ul> 
      <li>Das Sternsymbol, um das Programm Ihrer Favoritenliste hinzuzufügen</li> 
-     <li> <p>Das Menü [!UICONTROL Mehr] <img src="assets/qs-more-menu.png"> um einen der folgenden Schritte auszuführen: </p> 
+     <li> <p>Im [!UICONTROL Mehr] Menü <img src="assets/qs-more-menu.png"> haben Sie folgende Möglichkeiten: </p> 
       <ul> 
        <li>Programm bearbeiten</li> 
        <li>Deaktivieren Sie sie. Wenn ein Programm deaktiviert ist, können Sie es nicht mehr mit Projekten auf Projektebene verknüpfen. </li> 

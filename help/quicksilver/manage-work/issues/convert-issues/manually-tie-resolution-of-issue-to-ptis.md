@@ -45,7 +45,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Problem, das Sie mit einem anderen Problem, einer anderen Aufgabe oder einem anderen Projekt verknüpfen</p> <p>Anzeigen oder höherer Berechtigungen für das Problem, die Aufgabe oder das Projekt, das/das Sie zum bestehenden Problem hinzufügen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Problem, das Sie mit einem anderen Problem, einer anderen Aufgabe oder einem anderen Projekt verknüpfen</p> <p>Anzeigen oder höherer Berechtigungen für das Problem, die Aufgabe oder das Projekt, das/das Sie zum bestehenden Problem hinzufügen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,30 +63,30 @@ Bevor Sie beginnen, müssen Sie:
 ## Verknüpfen der Lösung eines Problems mit der Lösung eines anderen Problems, einer anderen Aufgabe oder eines anderen Projekts
 
 1. Navigieren Sie zu einem Problem, dessen Lösung Sie mit der Lösung eines anderen Problems oder mit der Lösung einer Aufgabe oder eines Projekts verknüpfen möchten.
-1. Klicken Sie auf **Problemdetails** im linken Bereich, und erweitern Sie dann die **Übersicht** Bereich.
+1. Klicken Sie im linken Bereich auf die **Problemdetails** und erweitern Sie dann den Bereich **Überblick** .
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Klicken Sie auf **Gelöst von** und wählen Sie aus den folgenden Arten auflösender Objekte aus:
+1. Klicken Sie auf das Feld **Aufgelöst von** und wählen Sie aus den folgenden Typen von aufgelösten Objekten aus:
 
    * **Projekt**
    * **Aufgabe**
-   * **Problem**
+   * **Probleme**
 
    Je nach ausgewähltem Objekt werden die folgenden Felder angezeigt:
 
    * **Auflösen des Projekts**
-   * **Auflösen von Aufgaben**
-   * **Beheben eines Problems**
+   * **Auflösen von Aufgabe**
+   * **Beheben des Problems**
 
-1. Beginnen Sie mit der Eingabe des Namens eines bestimmten Projekts, einer bestimmten Aufgabe oder eines bestimmten Problems im **Auflösen des Projekts**, **Aufgabe** oder **Problem** und klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie mit der Eingabe des Namens eines bestimmten Projekts, einer bestimmten Aufgabe oder eines bestimmten Problems in das Feld **Auflösen des Projekts**, **Aufgabe** oder **Problem** und klicken Sie dann auf dieses Feld, wenn es in der Liste angezeigt wird.
 
    >[!NOTE]
    >
    >Sie können die Lösung eines Problems nicht mit der Aufgabe oder dem Projekt verknüpfen, in dem sich das Problem befindet. Die Aufgabe oder das Projekt des Problems werden nicht in den Feldern &quot;Aufgabe auflösen&quot;oder &quot;Aufgabe auflösen&quot;angezeigt.
 
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
    Das ursprüngliche Problem wird zum auflösbaren Objekt für das Projekt, die Aufgabe oder das Problem, das bzw. das Sie in den Schritten 4 und 5 ausgewählt haben. Das bedeutet, dass das ursprüngliche Problem behoben wird, wenn das aufgelöste Objekt (das Projekt, die Aufgabe oder das Problem, mit dem Sie es verknüpft haben) abgeschlossen ist.
 

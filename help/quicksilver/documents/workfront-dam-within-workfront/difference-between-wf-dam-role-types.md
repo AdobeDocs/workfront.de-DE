@@ -31,11 +31,11 @@ Sie verwenden die Lizenzierung, um zu bestimmen, was ein Benutzer in Workfront s
 
 * Plan
 * Arbeit
-* Überarbeitung
+* Überprüfung
 * Anfrage
 * Extern
 
-Siehe [Überblick über veraltete Lizenzen](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für eine Beschreibung der verschiedenen Lizenztypen in Workfront.
+Eine Beschreibung der verschiedenen Lizenztypen in Workfront finden Sie unter [Überblick über veraltete Lizenzen](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) .
 
 ## Workfront DAM-Rollentypen
 

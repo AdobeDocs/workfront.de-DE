@@ -37,7 +37,7 @@ Das tatsächliche Abschlussdatum eines Projekts wird wie folgt festgelegt:
   >
   >Workfront verwendet das tatsächliche Abschlussdatum aus der Aufgabe des Projekts, das zuletzt abgeschlossen wurde, als tatsächlichen Abschlussdatum für das gesamte Projekt.
 
-Ein Workfront- oder Gruppenadministrator bestimmt, ob Workfront das aktuelle Datum oder das geplante Abschlussdatum einer Aufgabe oder ein Problem verwendet, wenn diese auf Fertig stellen oder geschlossen eingestellt sind. Informationen zum Festlegen von Aufgaben- und Problemeinstellungen finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Ein Workfront- oder Gruppenadministrator bestimmt, ob Workfront das aktuelle Datum oder das geplante Abschlussdatum einer Aufgabe oder ein Problem verwendet, wenn diese auf Fertig stellen oder geschlossen eingestellt sind. Informationen zum Festlegen von Aufgaben- und Problemeinstellungen finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--this statement is confusing, not sure what it is referring to, so I am drafting this for now: The value for the Actual Completion Date is always what is considered the current date and time.-->
 
@@ -52,4 +52,4 @@ Das tatsächliche Abschlussdatum befindet sich in den folgenden Bereichen von Wo
 * Bereich für Projekt-, Aufgaben- und Problemaktualisierungen als Systemaktualisierung.
 * Projekt-, Aufgaben- oder Problemlisten oder Berichte.
 
-Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

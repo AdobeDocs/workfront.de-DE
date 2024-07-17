@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Gruppierung: die Ergebnisse der Liste anhand eines berechneten Werts organisieren, der allen Objekten der Gruppierung gemeinsam ist'
+title: 'Gruppierung: Die Ergebnisse der Liste werden nach einem berechneten Wert angeordnet, der allen Objekten der Gruppierung gemein ist'
 description: Möglicherweise möchten Sie Ihre Aufgaben nach Prozent Abgeschlossen in Bereichen von 0-25, 26-50, 51-75, 75-99 und 100 gruppieren. Sie können hierzu mithilfe des Textmodus eine Gruppierung erstellen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
-# Gruppierung: die Ergebnisse der Liste anhand eines berechneten Werts organisieren, der allen Objekten der Gruppierung gemeinsam ist
+# Gruppierung: Sortieren Sie die Ergebnisse der Liste nach einem berechneten Wert, der allen Objekten der Gruppierung entspricht.
 
 Möglicherweise möchten Sie Ihre Aufgaben nach Prozent Abgeschlossen in Bereichen von 0-25, 26-50, 51-75, 75-99 und 100 gruppieren. Sie können hierzu mithilfe des Textmodus eine Gruppierung erstellen.
 
@@ -28,7 +28,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -43,7 +43,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>   
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,9 +55,9 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So wenden Sie diese Gruppierung auf eine Aufgabenliste an:
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Gruppierung** Dropdown-Menü auswählen **Neue Gruppierung**.
+1. Wählen Sie aus dem Dropdownmenü **Gruppierung** die Option **Neue Gruppierung** aus.
 
-1. Klicken **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Fügen Sie im verfügbaren Bereich den folgenden Code hinzu:
 
    ```
@@ -72,4 +72,4 @@ So wenden Sie diese Gruppierung auf eine Aufgabenliste an:
    }>25&&{percentComplete}<=50,'26-50%',IF({percentComplete}>50&&{percentComplete}<=75,'51-75%',IF({percentComplete}>75&&{percentComplete}<=100,'76-100%',''))))<br>group.0.linkedname=direct<br>group.0.valueformat=doubleAsString<br>group.0.namekey=percentComplete
    ```
 
-1. Klicken **Fertig**, dann **Gruppierung speichern**.
+1. Klicken Sie auf **Fertig** und dann auf **Gruppierung speichern**.

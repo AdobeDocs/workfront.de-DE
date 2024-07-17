@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,12 +57,11 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So wenden Sie diese Gruppierung an:
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Gruppierung** Dropdown-Menü auswählen **Neue Gruppierung**.
+1. Wählen Sie aus dem Dropdownmenü **Gruppierung** die Option **Neue Gruppierung** aus.
 
-1. Klicken **In den Textmodus wechseln**.
-1. Entfernen Sie den Text im **Gruppieren Ihres Berichts** Bereich.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Entfernen Sie den Text im Bereich **Gruppieren Sie Ihren Bericht** .
 1. Ersetzen Sie den Text durch den folgenden Code:
+   <pre>group.0.linkedname=project<br>group.0.namekey=portfolio<br>group.0.notime=false<br>group.0.valueField=project:portfolio:name<br>group.0.valueFormat=string<br>group.1.linkedname=project<br>group.1.namekey=program<br>group.1.notime=false<br>group 1.valueField=project:program:name<br>group.1.valueFormat=string<br>group.2.name=Project<br>group.2.valueField=project:name<br>group.2.valueFormat=HTML<br>textmode=true<br></pre>
 
-   <pre>group.0.linkedname=project<br>group.0.namekey=portfolio<br>group.0.notime=false<br>group.0.valueField=project:portfolio:name<br>group.0.valueFormat=string<br>group.1.linkedname=project<br>group.1.namekey=program<br>group.1.notime=false<br>group.1.valueField=project:program:name<br>group.1.valueFormat=string<br>group.2.name=Project<br>group.2.valueField=project:name<br>group.2.valueFormat=HTML<br>textmode=true<br></pre>
-
-1. Klicken **Gruppierung speichern**.
+1. Klicken Sie auf **Gruppierung speichern**.

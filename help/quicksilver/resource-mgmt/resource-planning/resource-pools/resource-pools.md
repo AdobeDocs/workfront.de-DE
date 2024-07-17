@@ -20,7 +20,7 @@ Ressourcen-Pools sind Sammlungen von Benutzern, die Ihnen bei der Verwaltung von
 
 In den folgenden Artikeln wird die Funktionalität bei der Verwendung von Ressourcen-Pools zur Verwaltung Ihrer Projekte in Adobe Workfront beschrieben.
 
-* [Ressourcen-Pools - Übersicht](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+* [Überblick über Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 * [Erstellen von Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
 * [Verknüpfen von Ressourcen-Pools mit Projekten und Vorlagen](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
 * [Verknüpfen von Ressourcen-Pools mit Benutzern](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)

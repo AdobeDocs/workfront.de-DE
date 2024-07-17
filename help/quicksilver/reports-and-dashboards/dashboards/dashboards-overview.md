@@ -11,7 +11,7 @@ exl-id: e4ee3729-a39d-4d1f-971f-4eb557d151d4
 source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 18%
+ht-degree: 6%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 18%
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Dashboards verstehen](../../reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
-* [Dashboads erstellen und verwalten](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
+* [Erstellen und Verwalten von Dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)

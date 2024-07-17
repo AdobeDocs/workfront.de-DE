@@ -24,7 +24,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -45,7 +45,7 @@ Sie können Filter anwenden, um nur die Ziele anzuzeigen, die in den einzelnen A
 
 Im Folgenden finden Sie einen kurzen Überblick über die Bereiche der Workfront-Ziele und die verfügbaren Optionen zum Verwalten von Zielen. Weitere Informationen zu zusätzlichen Aktionen, die Sie in den einzelnen Abschnitten der Workfront-Ziele ausführen können, finden Sie in den folgenden Artikeln:
 
-* [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md)
+* [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
 * [Aktualisieren des Zielfortschritts in Adobe Workfront-Zielen](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 * [Informationen in Adobe Workfront-Zielen filtern](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
@@ -54,7 +54,7 @@ Im Folgenden finden Sie einen kurzen Überblick über die Bereiche der Workfront
 
 Sie können die Zielliste verwenden, um Ziele zu überprüfen, die zu Ihnen, Ihren Teams, Gruppen oder Ihrer Organisation gehören. Sie können Ziele in jedem Status und von jedem Zeitraum aus anzeigen.
 
-Informationen zum Navigieren in der Zielliste und zum Verwalten von Zielen finden Sie unter [Ziele in der Zielliste von Adobe Workfront verwalten](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+Informationen zum Navigieren in der Zielliste und zum Verwalten von Zielen finden Sie unter [Verwalten von Zielen in der Zielliste für Adobe Workfront-Ziele](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![](assets/goal-list-unshimmed.png)
 
@@ -76,7 +76,7 @@ Verwenden Sie die Zielliste, um Folgendes auszuführen:
 
 Sie können den Abschnitt Diagramme verwenden, um einen ganzheitlichen Überblick über die Gesundheit von Zielen zu erhalten, die zu Ihnen oder Ihrer Organisation gehören. Sie können Fortschrittsinformationen zu Zielen in jedem Status aus einem beliebigen Zeitraum in diesem Abschnitt anzeigen.
 
-Weitere Informationen zur Verwendung des Bereichs Diagramme finden Sie unter [Überprüfen Sie Diagramme, um die Trends beim Zielfortschritt in Adobe Workfront-Zielen zu verstehen.](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+Informationen zur Verwendung des Bereichs Diagramme finden Sie unter [Überprüfen von Diagrammen, um die Trends beim Zielfortschritt in Adobe Workfront-Zielen zu verstehen](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
 ![](assets/graphs-section-unshimmed.png)
 
@@ -90,7 +90,7 @@ Verwenden Sie den Abschnitt Diagramme , um Folgendes zu tun:
 
 Wenn Ihre Ziele aufeinander abgestimmt sind, können Sie im Abschnitt &quot;Zielausrichtung&quot;alle Ziele in Ihrer Organisation anzeigen und überprüfen sowie ihre Ausrichtung zueinander festlegen. Ziele, die ausgerichtet sind, werden hier auf verbundenen Karten angezeigt, um ihre Ausrichtung zueinander zu veranschaulichen. Übergeordnete Ziele werden zuerst angezeigt und untergeordnete Ziele werden dahinter gestapelt. Ziele können in diesem Abschnitt in jedem Status und von jedem Zeitraum aus angezeigt werden.
 
-Informationen zum Navigieren im Abschnitt Zielausrichtung zum Verwalten von Zielen finden Sie unter [Navigieren Sie im Abschnitt Zielausrichtung in Adobe Workfront-Zielen.](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+Informationen zum Navigieren im Abschnitt &quot;Zielausrichtung&quot;zum Verwalten von Zielen finden Sie unter [Navigieren im Abschnitt &quot;Zielausrichtung&quot;in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 Informationen zum Ausrichten von Zielen finden Sie in den folgenden Artikeln:
 

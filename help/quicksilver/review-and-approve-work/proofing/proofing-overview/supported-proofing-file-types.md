@@ -239,7 +239,7 @@ Workfront hat die folgenden Beschränkungen:
 
 ## Webaufzeichnungen
 
-Sie können Testsendungen für statische Webseiten erstellen. Weitere Informationen finden Sie unter [Erstellen eines statischen Testversands für eine Website oder andere Webinhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) und [Erstellen eines statischen Website-Testversands mit Workfront Testing](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+Sie können Testsendungen für statische Webseiten erstellen. Weitere Informationen finden Sie unter [Erstellen eines statischen Testversands für eine Website oder andere Webinhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) und [Erstellen eines statischen Website-Testversands mit Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
 ## ZIP-Dateien
 

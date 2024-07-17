@@ -9,8 +9,8 @@ role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 4%
+source-wordcount: '2147'
+ht-degree: 3%
 
 ---
 
@@ -29,21 +29,21 @@ Um Payloads von Ereignisanmeldungen über Ihre Firewall zu erhalten, müssen Sie
 
 **Für Kunden in Europa:**
 
-* 52.30.133.50
-* 52.208.159.124
-* 54.220.93.204
-* 52.17.130.201
-* 34.254.76.122
-* 34.252.250.191
+* 52 30 133 50
+* 52 208 159 124
+* 54 220 93 204
+* 52 17 130 201
+* 34 254 76 122
+* 34 252 250 191
 
 **Für Kunden an anderen Standorten als Europa:**
 
-* 54.244.142.219
-* 44.241.82.96
-* 52.36.154.34
-* 34.211.224.9
-* 54.218.48.56
-* 52.39.217.230
+* 54 244 142 219
+* 44 241 82 96
+* 52 36 154 34
+* 34 211 224,9
+* 54 218 48 56
+* 52 39 217 230
 
 Die folgenden Themen unterstützen die API für die Ereignisanmeldung:
 
@@ -64,7 +64,7 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Programm
 * Projekt
 * Datensatz
-* Eintragstyp
+* Datensatztyp
 * Bericht
 * Aufgabe
 * Vorlage
@@ -72,16 +72,16 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Benutzerin oder Benutzer
 * Arbeitsbereich
 
-Eine Liste der Felder, die von Ereignisabonnementobjekten unterstützt werden, finden Sie unter [Ressourcen-Felder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md).
+Eine Liste der Felder, die von Ereignisabonnement-Objekten unterstützt werden, finden Sie unter [Ressourcenfelder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Ereignisabonnement-Authentifizierung
 
 Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt Ihr Workfront-Benutzer Folgendes:
 
 * Für die Verwendung von Ereignisanmeldungen ist eine Zugriffsstufe von &quot;Systemadministrator&quot;erforderlich.
-* A `sessionID`  -Kopfzeile ist erforderlich, um die API für Ereignisabonnements zu verwenden
+* Zur Verwendung der API für Ereignisabonnements ist eine Kopfzeile vom Typ `sessionID` erforderlich.
 
-  Weitere Informationen finden Sie unter [Authentifizierung](api-basics.md#authentication) in [API-Grundlagen](api-basics.md).
+  Weitere Informationen finden Sie unter [Authentifizierung](api-basics.md#authentication) in den [API-Grundlagen](api-basics.md).
 
 ## Erstellen der Abonnement-Ressource
 
@@ -89,11 +89,11 @@ Die Abonnement-Ressource enthält die folgenden Felder.
 
 * objId (optional)
 
-   * **Zeichenfolge** - Die ID des Objekts des angegebenen objCode, für das Ereignisse ausgelöst werden. Wenn dieses Feld nicht angegeben ist, erhält der Benutzer Ereignisse für alle Objekte des angegebenen Typs.
+   * **String** - Die ID des Objekts des angegebenen objCode, für das Ereignisse ausgelöst werden. Wenn dieses Feld nicht angegeben ist, erhält der Benutzer Ereignisse für alle Objekte des angegebenen Typs.
 
 * objCode (erforderlich)
 
-   * **Zeichenfolge** - Der objCode des Objekts, für das Änderungen abonniert werden. Die möglichen Werte für &quot;objCode&quot;sind in der folgenden Tabelle aufgeführt.
+   * **String** - Der objCode des Objekts, für das Änderungen abonniert werden. Die möglichen Werte für &quot;objCode&quot;sind in der folgenden Tabelle aufgeführt.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -158,7 +158,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col"><p>AUFZEICHNUNG</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Eintragstyp</p></td> 
+        <td scope="col"><p>Datensatztyp</p></td> 
         <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
@@ -183,26 +183,26 @@ Die Abonnement-Ressource enthält die folgenden Felder.
        </tr> 
        <tr> 
         <td scope="col">Arbeitsbereich</td> 
-        <td scope="col">ARBEITSBEREICH</td> 
+        <td scope="col">WORKSPACE</td> 
        </tr> 
       </tbody> 
      </table>
 
 * eventType (erforderlich)
 
-   * **Zeichenfolge** - Ein Wert, der den Ereignistyp darstellt, für den das Objekt angemeldet ist. Zu den verfügbaren Ereignistypen gehören:
+   * **String** - Ein Wert, der den Ereignistyp darstellt, für den das Objekt abonniert wird. Zu den verfügbaren Ereignistypen gehören:
 
       * ERSTELLEN
-      * LÖSCHEN 
+      * DELETE 
       * AKTUALISIEREN
 
 * url (erforderlich)
 
-   * **Zeichenfolge** - Die URL des Endpunkts, an den Payloads von Abonnementereignissen über HTTP gesendet werden.
+   * **String** - Die URL des Endpunkts, an den Abonnementereignis-Payloads über HTTP gesendet werden.
 
 * authToken (erforderlich)
 
-   * **Zeichenfolge** - Das OAuth2-Träger-Token, das zur Authentifizierung mit der im Feld &quot;URL&quot;angegebenen URL verwendet wird. 
+   * **String** - Das OAuth2-Träger-Token, das zur Authentifizierung mit der im Feld &quot;URL&quot;angegebenen URL verwendet wird. 
 
 ## Erstellen von API-Anfragen für Ereignisabonnements
 
@@ -240,7 +240,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Beispiel für Anfrageinhalt:**
+**Beispiel für Anfragetext:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -260,13 +260,13 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401 (Nicht autorisiert) | Die bereitgestellte sessionID war leer oder wurde als ungültig eingestuft. |
 | 403 (Verboten) | Der Benutzer, der mit der bereitgestellten sessionID übereinstimmt, hat keinen Administratorzugriff. |
 
-Wenn Sie eine Abonnement-Ressource als Text einer Anfrage übergeben (der Inhaltstyp lautet &quot;application/json&quot;), wird ein Ereignisabonnement für das angegebene Objekt erstellt. Der Antwortcode 201 (Erstellt) zeigt an, dass das Abonnement erstellt wurde. Ein anderer Antwort-Code als 201 bedeutet, dass das Abonnement **NOT** erstellt.
+Wenn Sie eine Abonnement-Ressource als Text einer Anfrage übergeben (der Inhaltstyp lautet &quot;application/json&quot;), wird ein Ereignisabonnement für das angegebene Objekt erstellt. Der Antwortcode 201 (Erstellt) zeigt an, dass das Abonnement erstellt wurde. Ein anderer Antwort-Code als 201 bedeutet, dass das Abonnement **NOT** erstellt wurde.
 
 >[!NOTE]
 >
 > Der Antwortheader &quot;Ort&quot;enthält den URI des neu erstellten Ereignisabonnements.
 
-**Beispiel für Antwortheader:**
+Beispiel für **Antwortheader:**
 
 | Antwortheader | Beispiel |
 |---|---|
@@ -283,8 +283,8 @@ Verwenden Sie beim Abfragen von Workfronts HTTP die GET-Methode. Es gibt zwei M�
 
 Sie können alle Abonnements für Ereignisse eines Kunden abfragen oder die Antwort mit den folgenden Optionen verwalten. Sie können auch die folgenden Optionen verwenden, um die Antwort zu verwalten:
 
-* **page**: Abfrageparameter-Option, um die Anzahl der zurückzugebenden Seiten anzugeben. Der Standardwert ist 1.
-* **limit**: Abfrageparameter-Option, um die Anzahl der pro Seite zurückzugebenden Ergebnisse anzugeben. Der Standardwert ist 100 mit einer maximalen Anzahl von 1000.
+* **page**: Abfrageparameteroption zur Angabe der Anzahl der zurückzugebenden Seiten. Der Standardwert ist 1.
+* **limit**: Abfrageparameteroption zur Angabe der Anzahl der pro Seite zurückzugebenden Ergebnisse. Der Standardwert ist 100 mit einer maximalen Anzahl von 1000.
 
 Die Anforderungssyntax für die Auflistung aller Ereignisanmeldungen für einen bestimmten Kunden lautet wie folgt:
 
@@ -324,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 (Verboten) | Der Benutzer, der mit der bereitgestellten sessionID übereinstimmt, hat keinen Administratorzugriff. |
 
 
-**Beispiel für Antwortheader:**
+Beispiel für **Antwortheader:**
 
 | Antwortheader | Beispiel |
 |---|---|
@@ -334,7 +334,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Transfer-Encoding | `→chunked` |
 
 
-**Beispiel für den Antworttext:**
+**Beispiel für Antworttext:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -373,9 +373,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 Wo
 
-* **page** und **limit** sind die in der Anfrage angegebenen Werte oder der Standardwert, wenn keine Werte angegeben werden
+* **page** und **limit** sind die in der Anforderung angegebenen Werte oder die Standardwerte, wenn keine Werte angegeben werden
 * **page_count** ist die Gesamtanzahl der Seiten, die abgefragt werden können.
-* **total_count** die Gesamtzahl der Anmeldungen, die mit der Abfrage übereinstimmen.
+* **total_count** ist die Gesamtzahl der Anmeldungen, die mit der Abfrage übereinstimmen.
 
 ### Abfrage nach Ereignisabonnement-ID
 
@@ -417,7 +417,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (Verboten) | Der Benutzer, der mit der bereitgestellten sessionID übereinstimmt, hat keinen Administratorzugriff. |
 
 
-**Beispiel für den Antworttext:**
+**Beispiel für Antworttext:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -437,21 +437,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 Die Filterung der Ereignisabonnements kann verwendet werden, um sicherzustellen, dass Sie nur relevante Nachrichten erhalten. Das Erstellen von Filtern für Ihre Abonnements kann die Anzahl der Nachrichten, die Ihr Endpunkt verbrauchen muss, erheblich verringern.
 
-Beispiel: eine **UPDATE - TASK** Ereignisabonnement kann nur dann auf Trigger gesetzt werden, wenn die **newState** einer Ereignis-Payload definiert die **taskStatus** as **current**.
+Beispielsweise kann ein Abonnement für ein Ereignis **UPDATE - TASK** nur dann auf Trigger gesetzt werden, wenn der **newState** einer Ereignis-Payload den **taskStatus** als **current** definiert.
 
 >[!IMPORTANT]
 >
-Die folgenden Attribute gelten für die Filterung der Ereignisabonnements
+>Die folgenden Attribute gelten für die Filterung der Ereignisabonnements
 
-* Wenn ein Filterfeld einen nicht leeren Wert hat, werden nur Nachrichten mit einer **newState** mit den Filterschlüsseln und -werten an die abonnierte URL gesendet werden
-* Sie können nach benutzerdefinierten Daten filtern, die in der Variablen **newState** UND/ODER **oldState** des Objekts
+* Wenn ein Filterfeld einen nicht leeren Wert hat, werden nur Nachrichten mit dem Wert **newState** gesendet, die die Filterschlüssel und -werte enthalten.
+* Sie können nach benutzerdefinierten Daten filtern, die im **newState** AND/OR **oldState** des Objekts enthalten sind
 * Filter werden nur danach ausgewertet, ob sie einem bestimmten Wert entsprechen oder nicht
-* Wenn Ihre Filtersyntax falsch ist oder mit keiner der im **newState** der Payload wird keine Validierungsmeldung zurückgegeben, um anzuzeigen, dass ein Fehler aufgetreten ist
+* Wenn Ihre Filtersyntax falsch ist oder mit den im **newState** der Payload enthaltenen Daten nicht übereinstimmt, wird keine Validierungsmeldung zurückgegeben, um anzuzeigen, dass ein Fehler aufgetreten ist
 * Filter können nicht mit einem Abonnement aktualisiert werden, das bereits existiert. Ein neues Abonnement muss mit neuen Filterparametern erstellt werden.
 * Mehrere Filter können auf ein Abonnement angewendet werden. Das Abonnement wird nur bereitgestellt, wenn alle Filterbedingungen erfüllt sind.
-* Die Anwendung mehrerer Filter auf ein Abonnement entspricht der Verwendung einer **UND** logischen Operators.
+* Das Anwenden mehrerer Filter auf ein Abonnement entspricht der Verwendung eines logischen **AND** -Operators.
 * Auf ein einzelnes Objekt können mehrere Ereignisabonnements angewendet werden, sofern mindestens ein Parameter für das Abonnementfeld für Ereignisse zwischen den einzelnen Ereignisabonnements unterschiedlich ist.
-* Wenn einem einzelnen Objekt mehrere Ereignisabonnements zugewiesen sind, können alle mit diesem Objekt verknüpften Ereignisabonnements an einen einzelnen Endpunkt zurückgegeben werden. Diese Praxis kann als gleichwertiger Ersatz für den logischen Operator verwendet werden **ODER** die nicht mithilfe von Filterparametern festgelegt werden können.
+* Wenn einem einzelnen Objekt mehrere Ereignisabonnements zugewiesen sind, können alle mit diesem Objekt verknüpften Ereignisabonnements an einen einzelnen Endpunkt zurückgegeben werden. Diese Vorgehensweise kann als äquivalenter Ersatz für den logischen Operator **OR** verwendet werden, der nicht mithilfe von Filterparametern festgelegt werden kann.
 
 ### Verwenden von Vergleichsoperatoren
 
@@ -459,7 +459,7 @@ Sie können ein Vergleichsfeld zusammen mit dem Filterfeld angeben. Verwenden Si
 
 #### eq: equal
 
-Dieser Filter ermöglicht den Abruf von Nachrichten, wenn die eingetretene Änderung mit `fieldValue` genau im Filter. Die `fieldValue` -Wert die Groß-/Kleinschreibung beachten.
+Mit diesem Filter können Nachrichten durchkommen, wenn die eingetretene Änderung genau mit `fieldValue` im Filter übereinstimmt. Beim Wert `fieldValue` wird zwischen Groß- und Kleinschreibung unterschieden.
 
 ```
 {
@@ -479,7 +479,7 @@ Dieser Filter ermöglicht den Abruf von Nachrichten, wenn die eingetretene Ände
 
 #### ne: nicht gleich
 
-Mit diesem Filter können Nachrichten durchkommen, wenn die eingetretene Änderung nicht mit `fieldValue` genau im Filter. Die `fieldValue` -Wert die Groß-/Kleinschreibung beachten.
+Mit diesem Filter können Nachrichten durchkommen, wenn die eingetretene Änderung nicht mit `fieldValue` im Filter genau übereinstimmt. Beim Wert `fieldValue` wird zwischen Groß- und Kleinschreibung unterschieden.
 
 ```
 {
@@ -499,7 +499,7 @@ Mit diesem Filter können Nachrichten durchkommen, wenn die eingetretene Änderu
 
 #### gt: größer als
 
-Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierung auf die angegebene `fieldName` größer als der Wert für `fieldValue`.
+Dieser Filter ermöglicht das Durchkommen von Nachrichten, wenn die Aktualisierung des angegebenen `fieldName` größer ist als der Wert für `fieldValue`.
 
 ```
 {
@@ -519,7 +519,7 @@ Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierun
 
 #### get: greater than or equal to
 
-Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierung auf die angegebene `fieldName` größer als oder gleich dem Wert für `fieldValue`.
+Dieser Filter ermöglicht das Durchkommen von Nachrichten, wenn die Aktualisierung des angegebenen `fieldName` größer oder gleich dem Wert für `fieldValue` ist.
 
 ```
 {
@@ -539,7 +539,7 @@ Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierun
 
 #### lt: kleiner als
 
-Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierung auf die angegebene `fieldName` kleiner als der Wert für `fieldValue`.
+Dieser Filter ermöglicht das Durchkommen von Nachrichten, wenn die Aktualisierung am angegebenen `fieldName` kleiner als der Wert für `fieldValue` ist.
 
 ```
 {
@@ -559,7 +559,7 @@ Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierun
 
 #### lte: kleiner oder gleich
 
-Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierung auf die angegebene `fieldName` kleiner oder gleich dem Wert für `fieldValue`.
+Dieser Filter ermöglicht das Durchkommen von Nachrichten, wenn die Aktualisierung am angegebenen `fieldName` kleiner oder gleich dem Wert für `fieldValue` ist.
 
 ```
 {
@@ -579,7 +579,7 @@ Mit diesem Filter können Nachrichten durchlaufen werden, wenn die Aktualisierun
 
 #### enthält
 
-Dieser Filter ermöglicht den Abruf von Nachrichten, wenn die eingetretene Änderung die `fieldValue` im Filter. Die `fieldValue` Wert: Groß-/Kleinschreibung beachten
+Dieser Filter ermöglicht das Durchkommen von Nachrichten, wenn die aufgetretene Änderung den Wert `fieldValue` im Filter enthält. Beim Wert `fieldValue` wird zwischen Groß- und Kleinschreibung unterschieden
 
 ```
 {
@@ -599,11 +599,11 @@ Dieser Filter ermöglicht den Abruf von Nachrichten, wenn die eingetretene Ände
 
 #### ändern
 
-Mit diesem Filter können Nachrichten nur durchkommen, wenn das angegebene Feld (`fieldName`) hat einen anderen Wert in &quot;oldstate&quot;und &quot;newstate&quot;. Andere Felder neben dem angegebenen (`fieldName`) gibt diese Änderung nicht zurück.
+Dieser Filter ermöglicht es nur, dass Nachrichten durchkommen, wenn das angegebene Feld (`fieldName`) einen anderen Wert im alten und neuen Status aufweist. Wenn Sie andere Felder als das angegebene (`fieldName`) aktualisieren, wird diese Änderung nicht zurückgegeben.
 
 >[!NOTE]
 >
-`fieldValue` im Filterarray unten hat keine Auswirkungen.
+>`fieldValue` im Filterarray unten hat keine Auswirkungen.
 
 ```
 {
@@ -624,12 +624,12 @@ Mit diesem Filter können Nachrichten nur durchkommen, wenn das angegebene Feld 
 #### state
 
 Durch diesen Connector wird der Filter auf den neuen Status oder den alten Status des erstellten oder aktualisierten Objekts angewendet. Dies ist hilfreich, wenn Sie wissen möchten, wo eine Änderung von etwas zu einem anderen vorgenommen wurde.
-`oldState` ist in CREATE nicht möglich `eventTypes`.
+`oldState` ist bei CREATE `eventTypes` nicht möglich.
 
 >[!NOTE]
 >
-Das unten stehende Abonnement mit dem angegebenen Filter gibt nur Nachrichten zurück, in denen der Name der Aufgabe `again` auf `oldState`, was vor einer Aktualisierung der Aufgabe war.
-Ein Anwendungsfall dafür wäre es, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. Um beispielsweise alle Aufgaben herauszufinden, die von &quot;Research Some name&quot;zu &quot;Research TeamName Some name&quot;geändert wurden
+>Das unten stehende Abonnement mit dem angegebenen Filter gibt nur Nachrichten zurück, in denen der Name der Aufgabe `again` für die `oldState` enthält, was vor einer Aktualisierung der Aufgabe war.
+>Ein Anwendungsfall dafür wäre es, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. Um beispielsweise alle Aufgaben herauszufinden, die von &quot;Research Some name&quot;zu &quot;Research TeamName Some name&quot;geändert wurden
 
 ```
 {
@@ -650,7 +650,7 @@ Ein Anwendungsfall dafür wäre es, die objCode-Nachrichten zu finden, die sich 
 
 ### Connector-Felder verwenden
 
-Die `filterConnector` -Feld in der Abonnement-Payload können Sie festlegen, wie die Filter angewendet werden sollen. Der Standardwert ist &quot;AND&quot;, wobei die Filter alle `true` für die Anmeldenachricht angezeigt. Wenn &quot;OR&quot;angegeben ist, muss nur ein Filter übereinstimmen, damit die Abonnementnachricht übermittelt wird.
+Im Feld `filterConnector` der Abonnement-Payload können Sie festlegen, wie die Filter angewendet werden sollen. Die Standardeinstellung ist &quot;AND&quot;, wobei die Filter alle `true` sein müssen, damit die Abonnementnachricht übermittelt wird. Wenn &quot;OR&quot;angegeben ist, muss nur ein Filter übereinstimmen, damit die Abonnementnachricht übermittelt wird.
 
 ```
 {
@@ -736,7 +736,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </tbody> 
 </table>
 
-**Beispiel für Antwortheader:**
+Beispiel für **Antwortheader:**
 
 | Antwortheader | Beispiel |
 |---|---|
@@ -744,7 +744,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 | Server | `→Apache-Coyote/1.1` |
 
 
-**Beispiel für den Antworttext:** Nicht zutreffend
+**Beispiel für Antworttext:** nicht verfügbar
 
 ## Beispiele für Ereignis-Payloads
 
@@ -881,7 +881,7 @@ Das Feld base64Encoding ist ein optionales Feld, das verwendet wird, um die Base
 
 ### Beispiel einer Anfrage mit dem Feld base64Encoding
 
-Wenn eine Anfrage mit dem base64Encoding -Feld durchgeführt wird, für das &quot;true&quot;festgelegt ist, wird die **newState** und **oldState** -Objekte in der Payload werden als Basis-Kodierungs-Zeichenfolgen mit 64 Zeichen bereitgestellt. Wenn das Feld base64Encoding auf false gesetzt, leer gelassen oder nicht in der Anfrage enthalten ist, wird die zurückgegebene Payload nicht in base 64 kodiert.
+Wenn eine Anfrage mit dem base64Encoding -Feld auf true gestellt wird, werden die Objekte **newState** und **oldState** in der Payload als Basis-Kodierungs-Zeichenfolgen mit 64 Kodierungen bereitgestellt. Wenn das Feld base64Encoding auf false gesetzt, leer gelassen oder nicht in der Anfrage enthalten ist, wird die zurückgegebene Payload nicht in base 64 kodiert.
 
 Im Folgenden finden Sie ein Beispiel für eine Anfrage, die das Feld base64Encoding verwendet:
 
@@ -917,7 +917,7 @@ Im Folgenden finden Sie ein Beispiel für eine Anfrage, die das Feld base64Encod
 
 ## Veraltete Methode zur Abfrage aller Ereignisanmeldungen
 
-Der folgende API-Endpunkt wird nicht mehr unterstützt und sollte nicht für neue Implementierungen verwendet werden. Wir empfehlen auch die Umstellung alter Implementierungen auf die -Methode im **Abfrage von Ereignisanmeldungen** Abschnitt beschrieben.
+Der folgende API-Endpunkt wird nicht mehr unterstützt und sollte nicht für neue Implementierungen verwendet werden. Wir empfehlen auch, alte Implementierungen in die -Methode im Abschnitt **Abfragefenster für Ereignisabonnements** zu überführen, wie oben beschrieben.
 
 Sie können alle Ereignisabonnements für einen Kunden abfragen, wie durch den Wert sessionID angegeben. Die Anforderungssyntax für die Auflistung aller Ereignisanmeldungen für einen bestimmten Kunden lautet die folgende URL:
 

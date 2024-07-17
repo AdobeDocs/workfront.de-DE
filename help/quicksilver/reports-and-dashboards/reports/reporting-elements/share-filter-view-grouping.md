@@ -24,7 +24,7 @@ ht-degree: 1%
 
 Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf die Ansicht oder Bearbeitung von Objekten, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Objekte finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen oder Bearbeiten bestimmter von Ihnen erstellter Objekte oder zum Freigeben von Inhalten gewähren. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen oder Bearbeiten bestimmter von Ihnen erstellter Objekte oder zum Freigeben von Inhalten gewähren. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Wie Zugriffsebenen und -berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Sie können Filter, Ansichten und Gruppierungen, auf die Sie Zugriff haben, für andere Benutzer freigeben.
 
@@ -33,7 +33,7 @@ Wenn ein Filter, eine Ansicht oder eine Gruppierung für Sie freigegeben ist, k�
 Informationen zum Erstellen eines Filters, einer Ansicht oder einer Gruppierung finden Sie in den folgenden Artikeln:
 
 * [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## Zugriffsanforderungen
@@ -58,7 +58,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Anzeigen oder höherer Berechtigungen mit Zugriff auf die Freigabe für Ansichten, Filter oder Gruppierungen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen oder höherer Berechtigungen mit Zugriff auf die Freigabe für Ansichten, Filter oder Gruppierungen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +71,7 @@ Sie müssen über Folgendes verfügen:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-Die Freigabe von Filtern in ausgewählten Listen hängt davon ab, von welcher Benutzeroberfläche aus Sie den Filter freigeben: Standard oder veraltet. Informationen zu den Typen von Filtererstellungs-Schnittstellen finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Die Freigabe von Filtern in ausgewählten Listen hängt davon ab, von welcher Benutzeroberfläche aus Sie den Filter freigeben: Standard oder veraltet. Informationen zu den Typen von Filtererstellungs-Schnittstellen finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 Sie können Ansichten und Gruppierungen nur in der alten Benutzeroberfläche freigeben.
 
@@ -82,7 +82,7 @@ Sie können einen Filter in der Standardbenutzeroberfläche aus Listen mit Proje
 Geben Sie einen Filter über die Standard-Builder-Oberfläche frei:
 
 1. Gehen Sie zu einer Liste von Projekten, Aufgaben oder Problemen.
-1. Klicken Sie auf **Filter** icon ![Filtersymbol](assets/filter-nwepng.png).
+1. Klicken Sie auf das Symbol **Filter** ![Filtersymbol](assets/filter-nwepng.png).
 
    ![Standardfilter-Builder](assets/new-filters-all-filter-types.png)
 
@@ -111,24 +111,24 @@ Geben Sie einen Filter über die Standard-Builder-Oberfläche frei:
    </tbody>
    </table>
 
-1. Bewegen Sie den Mauszeiger über einen Filter, auf den Sie mindestens Zugriff haben, und klicken Sie auf **Mehr** Menü ![Mehr Menü](assets/more-icon-spectrum.png)Klicken Sie auf **Freigeben**.
+1. Bewegen Sie den Mauszeiger über einen Filter, auf den Sie mindestens Zugriff haben, um ihn anzuzeigen und freizugeben. Klicken Sie dann auf das Menü **Mehr** und ![Mehr Menü](assets/more-icon-spectrum.png) und klicken Sie dann auf **Freigeben**.
 
    ![Weitere Menüoptionen](assets/new-filters-more-menu-options-with-delete.png)
 
    Das Freigabefeld Filter wird angezeigt.
 
-1. Beginnen Sie mit der Eingabe der Namen von Benutzern, Teams, Rollen, Gruppen oder Unternehmen, für die Sie freigeben möchten, in die **Zugriff auf gewähren an** -Feld.
+1. Beginnen Sie mit der Eingabe der Namen von Benutzern, Teams, Rollen, Gruppen oder Unternehmen, für die Sie freigeben möchten, in das Feld **Zugriff auf** gewähren .
 
-   ![Freigabefeld filtern](assets/new-filters-share-filter.png)
+   ![Feld für die Filterfreigabe](assets/new-filters-share-filter.png)
 
-1. (Optional) Klicken Sie auf den Rechtspfeil neben dem Namen einer Entität, um deren Berechtigungen für den Filter zu bearbeiten, und aktivieren Sie dann entweder das **Ansicht** oder **Verwalten** -Option. **Ansicht** ist der Standardwert.
+1. (Optional) Klicken Sie auf den Rechtspfeil neben dem Namen einer Entität, um deren Berechtigungen für den Filter zu bearbeiten, und aktivieren Sie dann die Option **Ansicht** oder **Verwalten** . **Ansicht** ist die Standardeinstellung.
 
    ![Berechtigungen freigeben](assets/new-filters-sharing-permissions.png)
 
 1. (Optional) Aktivieren oder deaktivieren Sie die zusätzlichen Berechtigungen für eine Entität, indem Sie eine der folgenden Aktionen ausführen:
 
-   1. Klicks **Ansicht** und deaktivieren Sie die **Freigeben** -Option. Sie ist standardmäßig aktiviert.
-   1. Klicks **Verwalten** und deaktivieren Sie entweder die **Freigeben** oder **Löschen** -Option. Sie sind standardmäßig aktiviert.
+   1. Klicken Sie auf **Anzeigen** und deaktivieren Sie die Option **Freigeben** . Sie ist standardmäßig aktiviert.
+   1. Klicken Sie auf **Verwalten** und deaktivieren Sie entweder die Option **Freigeben** oder die Option **Löschen** . Sie sind standardmäßig aktiviert.
 
       >[!NOTE]
       >
@@ -144,7 +144,7 @@ Geben Sie einen Filter über die Standard-Builder-Oberfläche frei:
    >
    >Durch die Freigabe für Gruppen erhält der Filter Berechtigungen für die Mitglieder der Gruppe und für alle Untergruppen.
 
-   Die von Ihnen freigegebenen Filter werden im **Freigegeben für mich** des Filterbereichs für diese Entitäten.
+   Die von Ihnen freigegebenen Filter werden im Abschnitt **Für mich freigegeben** des Filterbereichs für diese Entitäten angezeigt.
 
    ![Für mich freigegebene Filter](assets/new-filters-shared-with-me.png)
 
@@ -153,26 +153,26 @@ Geben Sie einen Filter über die Standard-Builder-Oberfläche frei:
 Die Freigabe von Filtern, Ansichten und Gruppierungen in der alten Benutzeroberfläche ist identisch.
 
 1. Gehen Sie zu einer Liste von Objekten oder einem Bericht.
-1. (Bedingt) Klicken Sie in einer Liste auf die **Filter**, **Ansicht** oder **Gruppierung** und den Mauszeiger über den Filter, die Ansicht oder die Gruppierung halten, den/die Sie freigeben möchten, klicken Sie auf die Schaltfläche **Mehr** icon ![Weitere Symbole](assets/more-icon.png), dann **Freigeben**.
+1. (Bedingt) Klicken Sie in einer Liste auf das Symbol &quot;**Filter**&quot;, &quot;**Ansicht**&quot;oder &quot;**Gruppierung**&quot;, bewegen Sie den Mauszeiger über den Filter, die Ansicht oder die Gruppierung, die Sie freigeben möchten, und klicken Sie auf das Symbol &quot;**Mehr**&quot;![Mehr&quot;](assets/more-icon.png) und dann auf &quot;**Freigabe**&quot;.
 
-   Klicken Sie in einem Bericht auf die **Filter**, **Ansicht** oder **Gruppierung** Dropdown-Menü aus und wählen Sie dann den Filter, die Ansicht oder die Gruppierung aus, die Sie freigeben möchten.
+   Klicken Sie in einem Bericht auf das Dropdown-Menü **Filter**, **Ansicht** oder **Gruppierung** und wählen Sie dann den Filter, die Ansicht oder die Gruppierung aus, die Sie freigeben möchten.
 
-1. (Bedingt) Klicken Sie bei der Freigabe über einen Bericht auf die **Filter**, **Ansicht** oder **Gruppierung** erneut auf das Dropdown-Menü klicken und **Filter freigeben**, **Freigabeansicht** oder **Gruppierung freigeben**.\
-   Die **Filterzugriff**, **Zugriff anzeigen** oder **Gruppierungszugriff** angezeigt.
+1. (Bedingt) Klicken Sie beim Freigeben aus einem Bericht erneut auf das Dropdown-Menü **Filter**, **Ansicht** oder **Gruppierung** und dann auf **Filter freigeben**, **Freigabeansicht** oder **Gruppierung freigeben**.\
+   Das Dialogfeld **Filterzugriff**, **Zugriff anzeigen** oder **Gruppierungszugriff** wird angezeigt.
 
    ![Filter freigeben](assets/share-filter-people-box-nwe-350x458.png)
 
 1. Führen Sie je nachdem, für wen Sie freigeben möchten, einen der folgenden Schritte aus:
 
-   **So geben Sie Inhalte für einzelne Benutzer, Teams, Rollen, Gruppen oder Unternehmen frei:** Geben Sie im angegebenen Feld den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für den/das Sie eine Freigabe vornehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.\
+   **Um sie für einzelne Benutzer, Teams, Rollen, Gruppen oder Unternehmen freizugeben:** Geben Sie im angegebenen Feld den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für den/die Sie freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdownliste angezeigt wird.\
    Wiederholen Sie diesen Vorgang, um den Zugriff für mehrere Benutzer, Teams, Rollen, Gruppen oder Unternehmen freizugeben.
 
    >[!TIP]
    >
    >Durch die Freigabe für Gruppen erhalten die Mitglieder der Gruppe und aller Untergruppen Berechtigungen für den Filter, die Ansicht oder die Gruppierung.
 
-   **So geben Sie eine Freigabe für alle Benutzer im System durch:** Klicken Sie auf **Einstellungen** und klicken Sie auf **Diese Funktion systemweit sichtbar machen**.\
-   Ihr Administrator muss die Option System-weit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln . [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und [Berichte, Dashboards und Kalender freigeben](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   **Um sie für alle Benutzer im System freizugeben:** Klicken Sie auf das Symbol **Einstellungen** und klicken Sie dann auf **Dieses System für alle Benutzer sichtbar machen**.\
+   Ihr Administrator muss die Option System-weit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und [Berichte, Dashboards und Kalender freigeben](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) .
 
 1. (Bedingt) Wenn Sie die Freigabe für einzelne Benutzer, Teams, Rollen, Gruppen oder Unternehmen durchführen, klicken Sie auf das Dropdown-Menü, um die Zugriffsstufe festzulegen, die Sie gewähren möchten.
 
@@ -192,13 +192,13 @@ Die Freigabe von Filtern, Ansichten und Gruppierungen in der alten Benutzeroberf
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Freigeben</strong></td> 
-      <td> <p>Klicks <strong>Erweiterte Einstellungen</strong>, wählen oder löschen Sie die <strong>Freigeben</strong> -Option, je nachdem, ob die Empfänger für andere freigeben können sollen.</p> </td> 
+      <td> <p>Klicken Sie auf <strong>Erweiterte Einstellungen</strong> und wählen Sie dann die Option <strong>Freigabe</strong> aus oder löschen Sie sie, je nachdem, ob die Empfänger für andere freigegeben werden sollen.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Klicken Sie auf **Speichern**.
 
-   Benutzer, für die Sie den Filter, die Ansicht oder die Gruppe freigegeben haben, können darauf zugreifen, indem Sie auf die **Filter**, **Ansicht** oder **Gruppierung** Dropdown-Menü oder -Symbol aus und scrollen Sie nach unten zum **Freigegeben für mich** Abschnitt.
+   Benutzer, für die Sie den Filter, die Ansicht oder die Gruppierung freigegeben haben, können darauf zugreifen, indem Sie auf das Dropdown-Menü bzw. das Symbol **Filter**, **Ansicht** oder **Gruppierung** klicken und zum Abschnitt **Für mich freigegeben** scrollen.
 
 

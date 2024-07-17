@@ -22,9 +22,9 @@ Wenn Sie von jemandem in einem Datensatzkommentar markiert werden, erhalten Sie 
 >
 >Ihr Unternehmen muss Adobe Unified Experience-Kunde sein, um Benachrichtigungen von der Workfront-Planung erhalten zu können.
 >
->Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-Informationen zum Taggen anderer in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
+Weitere Informationen zum Tagging anderer Kommentare in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Zugriffsanforderungen
 
@@ -42,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Um Benachrichtigungen von Workfront Planning erhalten zu können, muss die Workfront-Instanz Ihres Unternehmens auf dem Adobe Unified Experience integriert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>.</p></td>
+   <p>Um Benachrichtigungen von Workfront Planning erhalten zu können, muss die Workfront-Instanz Ihres Unternehmens auf dem Adobe Unified Experience integriert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <td> <p>Anzeigen oder höherer Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
@@ -85,7 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## In-App-Benachrichtigungen verwalten
 
-1. (Bedingt) Nachdem jemand einen Kommentar zu einem Datensatz mit einem Tags versehen hat, gehen Sie zur In-App-Nachricht. **Benachrichtigungen** icon ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Bedingt) Nachdem ein Benutzer einen Kommentar zu einem Datensatz mit einem Tags versehen hat, gehen Sie zum In-App-Symbol **Benachrichtigungen** ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 
@@ -93,5 +93,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Die Seite mit den Datensatzdetails wird in der Workfront-Planung geöffnet. Sie können den Datensatz aktualisieren oder auf den Kommentar antworten.
 
-1. (Optional) Klicken Sie auf **Alle als gelesen markieren** um anzugeben, dass Sie alle Benachrichtigungen gelesen haben.
-1. (Optional) Klicken Sie auf **Alle anzeigen** , um zu **Benachrichtigungen** in Adobe Experience Cloud.
+1. (Optional) Klicken Sie auf **Alle als gelesen markieren** , um anzugeben, dass Sie alle Benachrichtigungen gelesen haben.
+1. (Optional) Klicken Sie auf **Alle anzeigen** , um zur Seite **Benachrichtigungen** in Adobe Experience Cloud zu wechseln.

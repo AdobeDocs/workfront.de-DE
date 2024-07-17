@@ -9,8 +9,8 @@ role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
 source-git-commit: c547ff323ad9e43472074964ac365447755e4aa5
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 0%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
@@ -65,7 +65,7 @@ server {
 }
 ```
 
-Weitere Informationen finden Sie unter [NGiNX-Dokumentation für ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+Weitere Informationen finden Sie in der [NGiNX-Dokumentation für ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
 
 ### Apache
 
@@ -89,7 +89,7 @@ Listen 443
 Weitere Informationen finden Sie unter
 
 * [Client-Authentifizierung und Zugriffssteuerung](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
-* [Apache Module mod_ssl](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
+* [Apache-Modul mod_ssl](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
  
 
 ## Zuordnung von Zertifikat zu Umgebung

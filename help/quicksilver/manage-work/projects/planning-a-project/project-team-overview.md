@@ -20,7 +20,7 @@ Benutzer, die in gewisser Weise mit einem Projekt verknüpft sind, bilden das Pr
 
 ## Team-Mitglieder des Projekts
 
-Sie können einem Projektteam Benutzer entweder manuell oder automatisch zuweisen. Weitere Informationen finden Sie im Artikel unter &quot;Hinzufügen von Benutzern zu einem Projektteam&quot; [Verwalten des Projektteams](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+Sie können einem Projektteam Benutzer entweder manuell oder automatisch zuweisen. Weitere Informationen finden Sie im Abschnitt &quot;Hinzufügen von Benutzern zu einem Projektteam&quot;im Artikel [Verwalten des Projektteams](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 Wenn Sie Benutzer manuell zum Projektteam hinzufügen, erhalten sie Anzeigeberechtigungen für das Projekt sowie die Aufgaben, Probleme und Dokumente des Projekts.
 
@@ -39,11 +39,11 @@ Um rollenbasierte Genehmigungen für ein Projekt zu verwenden, müssen Benutzer 
 In den folgenden Artikeln finden Sie Informationen dazu, wie Sie einen Benutzer zum Projektteam hinzufügen und ihm eine Rolle zuweisen:
 
 * [Verwalten des Projektteams](../../../manage-work/projects/planning-a-project/manage-project-team.md)
-* [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+* [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
-Wenn Sie nicht möchten, dass der Benutzer für rollenbasierte Genehmigungen dem Projektteam angehört, können Sie dies in den Genehmigungseinstellungen steuern. Weitere Informationen finden Sie unter [Globale Genehmigungseinstellungen konfigurieren](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+Wenn Sie nicht möchten, dass der Benutzer für rollenbasierte Genehmigungen dem Projektteam angehört, können Sie dies in den Genehmigungseinstellungen steuern. Weitere Informationen finden Sie unter [Konfigurieren der globalen Genehmigungseinstellungen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-## Projekte, bei denen ich mich im Filter befinde
+## Projekte, die ich im Filter bin
 
 Wenn ein Benutzer im Bereich &quot;Personen&quot;eines Projekts aufgeführt ist, wird dieses Projekt angezeigt, wenn er den Filter &quot;Projekte, die ich verwende&quot;in einer Liste von Projekten oder einem Projektbericht anwendet.
 

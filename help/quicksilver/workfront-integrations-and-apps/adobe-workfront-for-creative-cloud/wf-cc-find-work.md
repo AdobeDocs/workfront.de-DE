@@ -8,14 +8,14 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
-# Suchen Sie Ihre Arbeit mithilfe des [!DNL Adobe Workfront] plugin
+# Suchen Sie Ihre Arbeit mithilfe des Plug-ins [!DNL Adobe Workfront] .
 
-Suchen Sie die Ihnen zugewiesene Arbeit in [!DNL Adobe Workfront] ohne Folgendes zu verlassen [!DNL Adobe Creative Cloud] Anwendungen:
+Suchen Sie die Ihnen in [!DNL Adobe Workfront] zugewiesene Arbeit, ohne die folgenden [!DNL Adobe Creative Cloud]-Anwendungen zu verlassen:
 
 {{cc-app-list}}
 
@@ -37,24 +37,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über eine [!DNL Adobe Creative Cloud] zusätzlich zu einer [!DNL Workfront] Lizenz.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] -Lizenz über eine [!DNL Adobe Creative Cloud] -Lizenz verfügen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
 {{cc-install-prereq}}
 
-## Verwenden Sie die [!UICONTROL Arbeitsliste] Zugriff auf wichtige Informationen
+## Verwenden Sie die [!UICONTROL Arbeitsliste], um auf wichtige Informationen zuzugreifen.
 
-Die [!UICONTROL Arbeitsliste] ermöglicht es Ihnen, alle Aufgaben und Probleme, die Ihnen zugewiesen sind, an einem Ort anzuzeigen. Sie können die [!UICONTROL Sortieren nach] -Option zum Gruppieren von Elementen und zur anschließenden Verwendung der [!UICONTROL Filter] , um sich auf Arbeiten zu konzentrieren, die abgeschlossen werden müssen.
+Mit der [!UICONTROL Arbeitsliste] können Sie alle Aufgaben und Probleme anzeigen, die Ihnen an einem Ort zugewiesen sind. Sie können die Option [!UICONTROL Sortieren nach ] verwenden, um Elemente zu gruppieren, und dann den [!UICONTROL Filter] verwenden, um sich auf Arbeiten zu konzentrieren, die abgeschlossen werden müssen.
 
-### Gruppieren Sie ähnliche Arbeitselemente zusammen mit [!DNL Sort By] option
+### Gruppieren ähnlicher Arbeitselemente zusammen mit der [!DNL Sort By] -Option
 
-Verwenden Sie die [!UICONTROL Sortieren nach] -Option zum Gruppieren ähnlicher Elemente im [!UICONTROL Arbeitsliste]. Sie können nach Folgendem sortieren:
+Verwenden Sie die Option [!UICONTROL Sortieren nach ] , um ähnliche Elemente in der [!UICONTROL Arbeitsliste] zu gruppieren. Sie können nach Folgendem sortieren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +75,7 @@ Verwenden Sie die [!UICONTROL Sortieren nach] -Option zum Gruppieren ähnlicher 
 
 ### Fokus mit Filtern eingrenzen
 
-Verwenden Sie die [!UICONTROL Filter] , um Ihren Fokus auf bestimmte Arbeitselemente zu beschränken. Es gibt verschiedene Möglichkeiten, den Filter zu verwenden:
+Verwenden Sie den [!UICONTROL Filter] , um Ihren Fokus auf bestimmte Arbeitselemente zu beschränken. Es gibt verschiedene Möglichkeiten, den Filter zu verwenden:
 
  
 
@@ -96,7 +96,7 @@ Verwenden Sie die [!UICONTROL Filter] , um Ihren Fokus auf bestimmte Arbeitselem
 
 ## Suche nach Ihrer Arbeit
 
-Verwenden Sie die [!UICONTROL Suche] können Sie Projekte, Aufgaben, Probleme und Dokumente suchen, die Sie benötigen.
+Verwenden Sie die Leiste [!UICONTROL Suchen] , um benötigte Projekte, Aufgaben, Probleme und Dokumente zu finden.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,8 +105,8 @@ Verwenden Sie die [!UICONTROL Suche] können Sie Projekte, Aufgaben, Probleme un
   <tr> 
    <td> 
     <ul> 
-     <li>Siehe aktuelle Elemente: Sie können bis zu 5 der neuesten Arbeitselemente anzeigen, auf die entweder über die Desktop- oder Plug-in-Version von Workfront zugegriffen wurde.</li> 
-     <li>Suchen Sie die fixierten Elemente: Sie können auf Projekte, Aufgaben, Probleme und Dokumente zugreifen, die Sie in das neue Adobe Workfront-Erlebnis eingefügt haben.</li> 
+     <li>Aktuelle Elemente anzeigen: Sie können bis zu 5 der neuesten Arbeitselemente anzeigen, auf die entweder über die Desktop- oder Plug-in-Version von Workfront zugegriffen wurde.</li> 
+     <li>Suchen Sie fixierte Elemente: Sie können auf Projekte, Aufgaben, Probleme und Dokumente zugreifen, die Sie in das neue Adobe Workfront-Erlebnis eingefügt haben.</li> 
      <li>Suchen Sie Ihre Favoriten: Sie können jedes von Ihnen gespeicherte Projekt, jede Aufgabe, jedes Problem oder jedes Dokument als Favoriten anzeigen.</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-search-p.png"> </td> 
@@ -114,8 +114,8 @@ Verwenden Sie die [!UICONTROL Suche] können Sie Projekte, Aufgaben, Probleme un
  </tbody> 
 </table>
 
-## Verwenden Sie die [!UICONTROL Menü] zum Navigieren in Projekten
+## Navigieren in Projekten mit dem [!UICONTROL Menü]
 
-Sie können die [!UICONTROL Menü] -Symbol, um zu den übergeordneten Elementen in einem Projekt zu navigieren.
+Mit dem Symbol [!UICONTROL Menü] können Sie zu den übergeordneten Elementen in einem Projekt navigieren.
 
 ![](assets/go-back-to-work-list-350x314.png)

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die mit Version 23.2 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Eine Liste aller Änderungen, die derzeit im 23.2-Versionszyklus verfügbar sind, finden Sie unter [23.2 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Einführung des Felds Arbeitszeit zur genauen Berechnung der Benutzerkapazität
 
@@ -36,10 +36,10 @@ Der Standardwert des Felds ist 1, was bedeutet, dass ein Benutzer seine gesamte 
 Aufgrund dieser Aktualisierung berechnet Workfront die Verfügbarkeit des Benutzers anhand der unten stehenden Formeln, abhängig von Ihrer Auswahl im Bereich Voreinstellungen für die Ressourcenverwaltung:
 
 * Standardzeitplan:
-* Benutzerkapazität = [(Zeitplanzeiten - Ausnahmen planen) * FTE - Zeitlimit] * Arbeitszeit
+* Benutzerkapazität = [(Stunden planen - Ausnahmen planen) * FTE - Zeit ab ] * Arbeitszeit
 * Benutzerzeitplan:
 * Benutzerkapazität = (Zeitplanzeiten - Ausnahmen planen - Zeitlimit) * Arbeitszeit.
 
-Weitere Informationen finden Sie unter [Konfigurieren [!UICONTROL Ressourcenverwaltung] Voreinstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für die Ressourcenverwaltung]](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).[!UICONTROL 
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3415608/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3415608/){target=_blank}

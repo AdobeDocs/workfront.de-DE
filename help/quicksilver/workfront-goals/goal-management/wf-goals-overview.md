@@ -24,7 +24,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -42,7 +42,7 @@ Weitere Informationen zu Best Practices für die Verwendung von Workfront-Zielen
 
 >[!IMPORTANT]
 >
->Strategische Ziele, die Sie mit Workfront-Zielen verwalten, sollten nicht mit Zielen auf Projektebene verwechselt werden, die Teil des Geschäftsszenarios des Projekts sind. Weitere Informationen zu Zielen auf Projektebene finden Sie unter [Geschäftsfallziele erstellen](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>Strategische Ziele, die Sie mit Workfront-Zielen verwalten, sollten nicht mit Zielen auf Projektebene verwechselt werden, die Teil des Geschäftsszenarios des Projekts sind. Weitere Informationen zu Zielen auf Projektebene finden Sie unter [Erstellen von Geschäftsfallzielen](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 ## In Workfront-Zielen enthaltene Funktionen
 
@@ -50,16 +50,16 @@ Die folgende Funktion ist derzeit in Workfront Goals enthalten:
 
 * Erstellen Sie vierteljährliche oder jährliche Ziele und weisen Sie sie Benutzern, Teams, Gruppen oder Ihrer Organisation zu. Sie können auch Zielzeitpläne anpassen.
 
-  Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+  Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
 * Verwaltung strategischer Ziele für einen Benutzer, ein Team, eine Gruppe oder eine ganze Organisation innerhalb der Workfront-Kernplattform.
 * Erstellen Sie Ergebnisse und Aktivitäten für Ziele, um den Zielfortschritt anzuzeigen.
 
-  Weitere Informationen zu Ergebnissen und Aktivitäten finden Sie unter [Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+  Informationen zu Ergebnissen und Aktivitäten finden Sie unter [Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
 * Verknüpfen Sie vorhandene Projekte mit Zielen, um Ihre Ziele mit Ihrer eigentlichen Arbeit abzustimmen. Im Zuge des Projektfortschritts gilt dies auch für Ihr Ziel.
 
-  Weitere Informationen zum Verknüpfen von Projekten mit Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Informationen zum Verknüpfen von Projekten mit Zielen finden Sie unter [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * Aktualisieren Sie Ziele, Ergebnisse und Aktivitäten, um Ihre Ziele auf dem richtigen Weg zur Vollendung zu halten.
 
@@ -71,12 +71,12 @@ Die folgende Funktion ist derzeit in Workfront Goals enthalten:
 
 * Überprüfen Sie die Zielhierarchie Ihres Unternehmens im Flussdiagramm zur Zielausrichtung.
 
-  Weitere Informationen zum Zielausrichtungsdiagramm finden Sie unter [Navigieren Sie im Abschnitt Zielausrichtung in Adobe Workfront-Zielen.](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+  Weitere Informationen zum Zielausrichtungsdiagramm finden Sie unter [Navigieren im Abschnitt &quot;Zielausrichtung&quot;in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 * Überprüfen Sie die Trends im Zielfortschritt in Diagrammen.
 
-  Weitere Informationen zu Workfront-Zieldiagrammen finden Sie unter [Überprüfen Sie Diagramme, um die Trends beim Zielfortschritt in Adobe Workfront-Zielen zu verstehen.](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+  Informationen zu Diagrammen mit Workfront-Zielen finden Sie unter [Überprüfen Sie Diagramme, um Trends beim Zielfortschritt in Adobe Workfront-Zielen zu verstehen](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-* Erstellen Sie Zielberichte und zeigen Sie Zielinformationen in Projektberichten für Projekte an, die mit Zielen verknüpft sind. Informationen zum Auffinden von Zielinformationen zu Projekten finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+* Erstellen Sie Zielberichte und zeigen Sie Zielinformationen in Projektberichten für Projekte an, die mit Zielen verknüpft sind. Informationen zum Suchen von Zielinformationen zu Projekten finden Sie unter [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 

@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: Vermeiden von Spam-Filtern
-description: Erfahren Sie, wie Sie in Workfront Testversand Spamfilter vermeiden können.
+description: Erfahren Sie, wie Sie in Workfront Proof Spamfilter vermeiden können.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Konfigurieren [!DNL Workfront Proof] E-Mails zur Vermeidung von Spam-Filtern](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
+* [Konfigurieren von [!DNL Workfront Proof] E-Mails zur Vermeidung von Spam-Filtern](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
 * [Konfigurieren von Spam-Einstellungen für gängige E-Mail-Clients](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
-* [[!DNL Workfront Proof] SPF-Datensätze](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+* [[!DNL Workfront Proof] SPF-Einträge](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)

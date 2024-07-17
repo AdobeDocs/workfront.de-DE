@@ -1,6 +1,6 @@
 ---
-title: Rufen Sie die MS Graph REST API über die [!DNL Adobe Workfront Fusion] HTTP &gt; Erstellen eines OAuth 2.0-Anforderungsmoduls
-description: Rufen Sie die MS Graph REST API über die [!DNL Adobe Workfront Fusion] HTTP &gt; Erstellen eines OAuth 2.0-Anforderungsmoduls
+title: Rufen Sie die MS Graph REST API über den  [!DNL Adobe Workfront Fusion] HTTP &gt; Erstellen Sie ein OAuth 2.0-Anfragemodul.
+description: Rufen Sie die MS Graph REST API über den  [!DNL Adobe Workfront Fusion] HTTP &gt; Erstellen Sie ein OAuth 2.0-Anfragemodul.
 author: Becky
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
@@ -11,11 +11,11 @@ ht-degree: 1%
 
 ---
 
-# Rufen Sie die[!UICONTROL  MS Graph REST API] über die [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0-Anfrage stellen] Modul
+# Rufen Sie die [!UICONTROL  MS Graph REST API] über das Modul [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Erstellen einer OAuth 2.0-Anfrage] auf.
 
 <!-- Audited: 3/2024-->
 
-Viele [!DNL Microsoft] auf Webdienste über [!DNL Microsoft Graph API]. Sie können eine Verbindung zum [!DNL Microsoft Graph API], indem Sie die [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL OAuth 2.0-Anfrage stellen] -Modul.
+Viele [!DNL Microsoft] Webdienste werden über die [!DNL Microsoft Graph API] aufgerufen. Sie können eine Verbindung zum [!DNL Microsoft Graph API] herstellen, indem Sie das Modul [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL Erstellen einer OAuth 2.0-Anfrage] verwenden.
 
 ## Zugriffsanforderungen
 
@@ -36,7 +36,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuell: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p>
    <p>Oder</p>
    <p>Veraltet: Beliebig </p>
    </td> 
@@ -44,30 +44,30 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul>
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul>
    <p>Oder</p>
-   <p>Aktuell: Ihr Unternehmen muss Einkäufe tätigen [!DNL Adobe Workfront Fusion].</p>
+   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## registrieren [!DNL Workfront Fusion] im [!DNL Microsoft Application Registration Portal]
+## [!DNL Workfront Fusion] im [!DNL Microsoft Application Registration Portal] registrieren
 
-So erstellen Sie eine Verbindung zum [!DNL Microsoft Graph REST API]müssen Sie sich zuerst registrieren [!DNL Adobe Workfront Fusion].
+Um eine Verbindung mit dem [!DNL Microsoft Graph REST API] herzustellen, müssen Sie zunächst [!DNL Adobe Workfront Fusion] registrieren.
 
-1. Registrieren Sie eine neue Anwendung wie unter [App registrieren](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) im [!DNL Microsoft] Dokumentation.
+1. Registrieren Sie eine neue Anwendung, wie in [Registrieren Ihrer App](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in der [!DNL Microsoft] -Dokumentation beschrieben.
 
-   Im Rahmen der Registrierung [!DNL Microsoft] erfordert die folgenden Informationen:
+   Als Teil der Registrierung erfordert [!DNL Microsoft] die folgenden Informationen:
 
    <table style="table-layout:auto">
       <tr>
         <td>[!UICONTROL Anwendungsname]</td>
-        <td>Geben Sie einen Namen für die Anwendung ein, z. B. [!DNL Workfront Fusion] Anwendung."</td>
+        <td>Geben Sie einen Namen für die Anwendung ein, z. B. "My [!DNL Workfront Fusion] application".</td>
       </tr>
       <tr>
         <td>[!UICONTROL Umleitungs-URL]</td>
@@ -75,23 +75,23 @@ So erstellen Sie eine Verbindung zum [!DNL Microsoft Graph REST API]müssen Sie 
       </tr>
     </table>
 
-1. Wenn Sie die App-Registrierung abgeschlossen haben, notieren Sie sich die [!UICONTROL Bewerbungs-ID].
+1. Wenn Sie die App-Registrierung abgeschlossen haben, notieren Sie sich die [!UICONTROL Anwendungs-ID].
 
    >[!IMPORTANT]
    >
-   >Sie benötigen die Anwendungs-ID, um Ihre Verbindung in [!DNL Workfront Fusion].
+   >Sie benötigen die Anwendungs-ID, um Ihre Verbindung in [!DNL Workfront Fusion] einzurichten.
 
-1. Generieren Sie eine [!UICONTROL Anwendungsgeheimnis]. Notieren Sie sich dieses Geheimnis!
+1. Generieren Sie ein [!UICONTROL Anwendungsgeheimnis]. Notieren Sie sich dieses Geheimnis!
 
-   Anweisungen finden Sie unter [App registrieren](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) im [!DNL Microsoft] Dokumentation.
+   Anweisungen finden Sie unter [Registrieren Ihrer App](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in der Dokumentation zu [!DNL Microsoft].
 
    >[!IMPORTANT]
    >
-   >Sie benötigen die [!UICONTROL Anwendungsgeheimnis] zur Einrichtung Ihrer Verbindung in [!DNL Workfront Fusion].
+   >Sie benötigen das [!UICONTROL Geheimnis der Anwendung], um Ihre Verbindung in [!DNL Workfront Fusion] einzurichten.
 
 1. Konfigurieren Sie die Berechtigungen für Ihre Anwendung.
 
-   Weitere Informationen zum Suchen und Konfigurieren dieser Felder finden Sie im Abschnitt &quot;Berechtigungen für Microsoft-Diagramm konfigurieren&quot;unter [Zugriff ohne Benutzer erhalten](https://docs.microsoft.com/en-us/graph/auth-v2-service) im [!UICONTROL Microsoft] Dokumentation.
+   Weitere Informationen zum Suchen und Konfigurieren dieser Felder finden Sie im Abschnitt &quot;Berechtigungen für Microsoft-Diagramm konfigurieren&quot;unter [Zugriff ohne Benutzer erhalten](https://docs.microsoft.com/en-us/graph/auth-v2-service) in der Dokumentation zu [!UICONTROL Microsoft] .
 
    <table style="table-layout:auto">
     <col> 
@@ -99,7 +99,7 @@ So erstellen Sie eine Verbindung zum [!DNL Microsoft Graph REST API]müssen Sie 
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Welchen Berechtigungstyp benötigt Ihre Anwendung?]</td> 
-      <td>Auswählen <code>[!UICONTROL Delegated permissions]</code>.</td> 
+      <td>Wählen Sie <code>[!UICONTROL Delegated permissions]</code> aus.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Berechtigungen auswählen]</td> 
@@ -108,19 +108,19 @@ So erstellen Sie eine Verbindung zum [!DNL Microsoft Graph REST API]müssen Sie 
         <li> <p><code>offline_access</code> </p> </li> 
         <li> <p><code>openid</code> </p> </li> 
         <li> <p>Alle anderen für Ihre Integrationen erforderlichen Berechtigungen (Beispiel: <code>User.Read</code>)</p> </li> 
-       </ul> <p><b>Wichtig</b>: Sie benötigen die ausgewählten Berechtigungen, um Ihre Verbindung in einzurichten. [!DNL Workfront Fusion].</p> </td> 
+       </ul> <p><b>Wichtig</b>: Sie benötigen die ausgewählten Berechtigungen, um Ihre Verbindung in [!DNL Workfront Fusion] einzurichten.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Fahren Sie mit [Konfigurieren Sie Ihre [!DNL MS Graph API] Verbindung in [!DNL Workfront Fusion]](#configure-your-ms-graph-api-connection-in-workfront-fusion).
+1. Fahren Sie mit [Konfigurieren der [!DNL MS Graph API] Verbindung in [!DNL Workfront Fusion]](#configure-your-ms-graph-api-connection-in-workfront-fusion) fort.
 
-## Konfigurieren Sie Ihre [!DNL MS Graph API] Verbindung in [!DNL Workfront Fusion]
+## Konfigurieren der [!DNL MS Graph API]-Verbindung in [!DNL Workfront Fusion]
 
-Nach der Registrierung [!DNL Workfront Fusion] wie in [registrieren [!DNL Workfront Fusion] im [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal), können Sie Ihre Verbindung im [!UICONTROL HTTP] > [!UICONTROL Erstellen einer OAuth 2.0] -Anfragemodul.
+Nachdem Sie &quot;[!DNL Workfront Fusion]&quot; wie in &quot;[Registrieren [!DNL Workfront Fusion] &quot;im Ordner &quot; [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)&quot;beschrieben registriert haben, können Sie Ihre Verbindung im Anfragemodul &quot;[!UICONTROL HTTP]&quot;> &quot;[!UICONTROL Erstellen eines Oauth 2.0]&quot;konfigurieren.
 
-1. Hinzufügen einer [!UICONTROL HTTP] > [!UICONTROL Ausführen eines OAuth 2.0-Aufrufs] zu Ihrem Szenario.
-1. Klicks **[!UICONTROL Hinzufügen]** neben dem [!UICONTROL connection] -Feld.
+1. Fügen Sie Ihrem Szenario ein Modul vom Typ [!UICONTROL HTTP] > [!UICONTROL Erstellen Sie einen OAuth 2.0-Aufruf] .
+1. Klicken Sie neben dem Feld [!UICONTROL connection] auf **[!UICONTROL Add]** .
 1. Konfigurieren Sie die Verbindungsfelder wie folgt:
 
    <table style="table-layout:auto"> 
@@ -145,7 +145,7 @@ Nach der Registrierung [!DNL Workfront Fusion] wie in [registrieren [!DNL Workfr
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Umfang]</td> 
-      <td> <p>Geben Sie die Berechtigungen ein, die Sie in Schritt 4 von <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">registrieren [!DNL Workfront Fusion] im [!DNL Microsoft Application Registration Portal]</a>.</p> <p>Klicken Sie für jeden Bereich auf <b>[!UICONTROL Hinzufügen]</b> und geben Sie die Berechtigung ein.</p> <p>Beispiel: <code>offline_access</code>.</p> </td> 
+      <td> <p>Geben Sie die Berechtigungen ein, die Sie in Schritt 4 von <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Registrieren [!DNL Workfront Fusion] im Feld [!DNL Microsoft Application Registration Portal]</a> ausgewählt haben.</p> <p>Klicken Sie für jeden Bereich auf <b>[!UICONTROL Add]</b> und geben Sie die Berechtigung ein.</p> <p>Beispiel: <code>offline_access</code>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope separator]</td> 
@@ -153,11 +153,11 @@ Nach der Registrierung [!DNL Workfront Fusion] wie in [registrieren [!DNL Workfr
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client-ID]</td> 
-      <td>Geben Sie die [!UICONTROL Anwendungs-ID] aus Schritt 2 in <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">registrieren [!DNL Workfront Fusion] im [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td>Geben Sie die [!UICONTROL Anwendungs-ID] aus Schritt 2 in <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Registrieren [!DNL Workfront Fusion] im [!DNL Microsoft Application Registration Portal]</a> ein.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client Secret]</td> 
-      <td>Geben Sie den [!UICONTROL Application Secret] ein, den Sie in Schritt 3 unter <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">registrieren [!DNL Workfront Fusion] im [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td>Geben Sie den [!UICONTROL Application Secret] ein, den Sie in Schritt 3 unter <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Registrieren [!DNL Workfront Fusion] in der [!DNL Microsoft Application Registration Portal]</a> generiert haben.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Autorisierungsparameter]</td> 
@@ -175,9 +175,9 @@ Nach der Registrierung [!DNL Workfront Fusion] wie in [registrieren [!DNL Workfr
       <td role="rowheader">[!UICONTROL Parameter des Aktualisierungstokens]</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Klicks <b>[!UICONTROL Hinzufügen]</b>.</p> </li> 
-        <li value="2"> <p>Im <b>[!UICONTROL Schlüssel]</b> Feld, eingeben <code>scope</code>.</p> </li> 
-        <li value="3"> <p>Im <b>[!UICONTROL Wert]</b> Geben Sie alle [!UICONTROL Perimeter]s ein, die Sie in das Perimeter-Feld eingegeben haben, getrennt durch Leerzeichen.</p> <p>Beispiel: <code>offline_access openid User.Read</code></p> </li> 
+        <li value="1"> <p>Klicken Sie auf <b>[!UICONTROL Add]</b>.</p> </li> 
+        <li value="2"> <p>Geben Sie im Feld <b>[!UICONTROL Schlüssel]</b> den Wert <code>scope</code> ein.</p> </li> 
+        <li value="3"> <p>Geben Sie im Feld <b>[!UICONTROL Wert]</b> alle [!UICONTROL Perimeter]s ein, die Sie in das Perimeter-Feld eingegeben haben, getrennt durch Leerzeichen.</p> <p>Beispiel: <code>offline_access openid User.Read</code></p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -191,5 +191,5 @@ Nach der Registrierung [!DNL Workfront Fusion] wie in [registrieren [!DNL Workfr
     </tbody> 
    </table>
 
-1. Klicks **[!UICONTROL Weiter]**.
-1. Klicken Sie im angezeigten Fenster auf **[!UICONTROL Accept]** , um die Verbindung abzuschließen und zum Modul zurückzukehren.
+1. Klicken Sie auf **[!UICONTROL Weiter]**.
+1. Klicken Sie im sich öffnenden Fenster auf **[!UICONTROL Accept]** , um die Verbindung abzuschließen und zum Modul zurückzukehren.

@@ -19,4 +19,4 @@ Sie können eine Kopie eines Standardberichts, der in Ihrer Adobe Workfront-Inst
 
 Nachdem Sie einen Standardbericht kopiert haben, werden Sie zum Eigentümer des kopierten Berichts. Dieser wird im Bereich Meine Berichte im Bereich Berichte angezeigt.
 
-Informationen zum Kopieren eines Berichts finden Sie unter [Berichtkopie erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Informationen zum Kopieren eines Berichts finden Sie unter [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).

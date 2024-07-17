@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf das Objekt, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen oder höherer Zugriff auf das Objekt, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,22 +48,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Zusätzliche Genehmiger zu gesendeten Dokumentgenehmigungen hinzufügen
 
-1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie oben links in Adobe Workfront auf das Symbol **Startseite** ![](assets/home-icon-30x29.png) .
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
-   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
+   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf das **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und klicken Sie dann auf **Startseite**.
 
-1. Im **Arbeitsliste** Bereich, wechseln Sie zur **Gesendete Genehmigungen** Gruppierung.
+1. Gehen Sie im Bereich **Arbeitsliste** zur Gruppe **Von mir gesendete Genehmigungen** .
 
-1. Wählen Sie eine **Dokument** Validierung.
+1. Wählen Sie eine **Dokument** -Genehmigung aus.
 
-1. Klicks **Verwalten von Genehmigungen** in der rechten oberen Ecke des rechten Bedienfelds.
-1. Im **Jemand soll dieses Dokument genehmigen** Geben Sie den Namen des Genehmigers ein.
+1. Klicken Sie oben rechts im rechten Bedienfeld auf **Genehmigungen verwalten** .
+1. Geben Sie in das Feld **Lassen Sie jemanden dieses Dokument genehmigen** den Namen des Genehmigers ein.
 
-   Wenn Ihr Adobe Workfront-Administrator die Möglichkeit zur Zusammenarbeit mit Personen aktiviert hat, die Workfront nicht verwenden, wie hier beschrieben: [Systemsicherheitsvoreinstellungen konfigurieren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)können Sie ihre E-Mail-Adressen eingeben, um sie einzuschließen.
+   Wenn Ihr Adobe Workfront-Administrator die Möglichkeit zur Zusammenarbeit mit Personen aktiviert hat, die Workfront nicht verwenden, wie unter [Systemsicherheitseinstellungen konfigurieren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) beschrieben, können Sie ihre E-Mail-Adressen eingeben, um sie einzuschließen.
 
 1. Klicken Sie auf **Speichern**.

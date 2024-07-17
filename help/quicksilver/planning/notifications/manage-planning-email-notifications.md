@@ -22,9 +22,9 @@ Wenn Sie von jemandem in einem Datensatz-Kommentar markiert werden, erhalten Sie
 >
 >Ihr Unternehmen muss Adobe Unified Experience-Kunde sein, um Benachrichtigungen von der Workfront-Planung erhalten zu können.
 >
->Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-Informationen zum Taggen anderer in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
+Weitere Informationen zum Tagging anderer Kommentare in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Zugriffsanforderungen
 
@@ -42,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Um Benachrichtigungen von den Voreinstellungen für die Workfront-Planung zu erhalten und zu verwalten, muss die Workfront-Instanz Ihres Unternehmens in die Adobe Unified Experience integriert werden. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>.</p></td>
+   <p>Um Benachrichtigungen von den Voreinstellungen für die Workfront-Planung zu erhalten und zu verwalten, muss die Workfront-Instanz Ihres Unternehmens in die Adobe Unified Experience integriert werden. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
    <td>
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <td> <p>Anzeigen oder höherer Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
@@ -89,9 +89,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![](assets/email-notification-example.png)
 
-1. Klicken Sie auf die Nachricht im **Workfront** ankreuzen.
+1. Klicken Sie auf die Meldung im Feld **Workfront**.
 
    Die Seite mit den Datensatzdetails wird in Workfront geöffnet. Sie können den Datensatz aktualisieren oder auf den Kommentar antworten.
 
 1. (Bedingt) Wenn verfügbar, klicken Sie auf **Alle Benachrichtigungen anzeigen**. <!--check with Lilit - do non-IMS users have this button??-->
-Die **Benachrichtigungen** in Adobe Experience Cloud geöffnet. Alle Benachrichtigungen aus allen Adobe Experience Cloud-Anwendungen werden angezeigt.
+Die Seite **Benachrichtigungen** wird in Adobe Experience Cloud geöffnet. Alle Benachrichtigungen aus allen Adobe Experience Cloud-Anwendungen werden angezeigt.

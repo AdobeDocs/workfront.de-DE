@@ -27,7 +27,7 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
 
   >[!NOTE]
   >
-  >Wenn ein anderer Benutzer ein Objekt teilt, kann der Freigebende Berechtigungen festlegen, die dessen Bearbeitung einschränken. Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >Wenn ein anderer Benutzer ein Objekt teilt, kann der Freigebende Berechtigungen festlegen, die dessen Bearbeitung einschränken. Weitere Informationen finden Sie unter [Überblick über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -144,7 +144,7 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
     </tr>
 </table>
 
-&#42; Benutzer mit einer Contributor-Lizenz können nur Berichte, Dashboards und Kalender anzeigen, die für sie freigegeben sind.
+&#42; Benutzer mit einer Mitarbeiter-Lizenz können nur Berichte, Dashboards und Kalender anzeigen, die für sie freigegeben sind.
 
 >[!NOTE]
 >
@@ -154,18 +154,18 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
 
 Detaillierte Informationen dazu, was die Zugriffsebenen für jedes Objekt und jeden Bereich zulassen, finden Sie in den folgenden Artikeln:
 
-* [Projektzugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+* [Gewähren des Zugriffs auf Projekte](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [Zugriff auf Probleme gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [Gewähren des Zugriffs auf Probleme](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Zugriff auf Dokumente gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
-* [Zugriff auf Portfolios gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
-* [Zugriff auf Programme gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
+* [Gewähren des Zugriffs auf Portfolios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
+* [Gewähren des Zugriffs auf Programme](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
 * [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
-* [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
-* [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
+* [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [Gewähren von Zugriff auf Teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Zugriff auf Vorlagen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-* [Zugriff auf Resource Management gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
-* [Zugriff auf den Szenario-Planer gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [Gewähren des Zugriffs auf die Ressourcenverwaltung](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [Gewähren des Zugriffs auf den Szenario-Planer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Zugriff auf Adobe Workfront-Ziele gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

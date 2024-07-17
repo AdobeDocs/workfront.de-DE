@@ -29,9 +29,9 @@ Bei der Verknüpfung von Projekten über projektübergreifende Vorläufer wirken
 
 >[!TIP]
 >
->Sie müssen die Zeitpläne für die Projekte neu berechnen, damit die Daten für das sekundäre Projekt aktualisiert werden. Weitere Informationen zur Neuberechnung der Zeitpläne finden Sie unter [Konfigurieren von Timeline-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+>Sie müssen die Zeitpläne für die Projekte neu berechnen, damit die Daten für das sekundäre Projekt aktualisiert werden. Weitere Informationen zur Neuberechnung von Zeitleisten finden Sie unter [Konfigurieren von Timeline-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-Weitere Informationen zu Vorgängerbeziehungen finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Weitere Informationen zu Vorgängerbeziehungen finden Sie unter [Übersicht über Aufgabenvorherigen](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,18 +73,18 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Erstellen eines projektübergreifenden Vorgängers
 
 1. Wechseln Sie zu der Aufgabe, die Ihr Nachfolger ist (abhängige Aufgabe).
-1. Klicks **Vorgänger** im linken Bereich.
-1. Klicks **Add Predecessor.**
-1. Im **Übergeordnetes Projekt** eingeben, beginnen Sie mit der Eingabe des Namens des Projekts, das die Aufgabe enthält, die Sie der aktuellen Aufgabe voranstellen möchten.
+1. Klicken Sie im linken Bereich auf **Vorgänger** .
+1. Klicken Sie auf **Vorgänger hinzufügen**.
+1. Geben Sie im Feld **Übergeordnetes Projekt** den Namen des Projekts ein, das die Aufgabe enthält, die Sie der aktuellen Aufgabe voranstellen möchten.
 1. Klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
-1. Im **Aufgaben** eingeben, beginnen Sie mit der Eingabe des Namens der Aufgabe, die Sie der aktuellen Aufgabe voranstellen möchten.
+1. Geben Sie im Feld **Aufgaben** den Namen der Aufgabe ein, die der Vorgänger der aktuellen Aufgabe sein soll.
 1. Geben Sie die folgenden Informationen zum Definieren der Beziehung zwischen dem Vorgänger und der abhängigen Aufgabe an:
 
    * **Abhängigkeitstyp:** Wählen Sie die Beziehung aus, die die Vorgängeraufgabe mit der abhängigen Aufgabe haben soll. Die Standardbeziehung lautet &quot;Finish-Start&quot;. Das bedeutet, dass die Vorgängeraufgabe beendet werden muss, bevor die abhängige Aufgabe beginnen kann. Weitere Informationen zu den verschiedenen Abhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * **Lag:** Geben Sie den Zeitraum an, der nach dem Abschluss eines erzwungenen Vorgängers verstreichen muss, bis die abhängige Aufgabe beginnen kann. Weitere Informationen zu den verschiedenen Arten von Verzögerungen finden Sie unter [Übersicht über Launch-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **lange:** Geben Sie die Zeit an, die nach Abschluss eines erzwungenen Vorgängers verstreichen muss, bis die abhängige Aufgabe beginnen kann. Weitere Informationen zu den verschiedenen Arten von Verzögerung finden Sie unter [Übersicht über die Lag-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-   * **Erzwungen:** Wenn diese Option aktiviert ist, kann die Abhängigkeitsbeziehung zwischen den beiden Aufgaben nicht umgangen werden, wenn Benutzer Aufgaben frühzeitig starten. Wenn Sie beispielsweise eine Beziehung zwischen Aufgabe A und Aufgabe B erzwingen, kann Aufgabe B erst gestartet werden, wenn Aufgabe A abgeschlossen ist. Weitere Informationen zur Durchsetzung von Vorgängern finden Sie unter [Durchsetzen von Vorgängern](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+   * **Erzwungen:** Wenn diese Option ausgewählt ist, kann die Abhängigkeitsbeziehung zwischen den beiden Aufgaben nicht umgangen werden, indem Benutzer Aufgaben frühzeitig starten. Wenn Sie beispielsweise eine Beziehung zwischen Aufgabe A und Aufgabe B erzwingen, kann Aufgabe B erst gestartet werden, wenn Aufgabe A abgeschlossen ist. Weitere Informationen zum Erzwingen von Vorgängern finden Sie unter [Erzwingen von Vorgängern](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
      Wenn diese Option nicht ausgewählt ist, wird die Abhängigkeit wie ein Vorschlag für Benutzer behandelt. Beispielsweise können Benutzer Aufgabe B starten, bevor Aufgabe A abgeschlossen ist.
 
@@ -100,11 +100,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Klicken Sie oben im Mauszeiger-Fenster auf , um weitere Informationen zum Projekt des Vorgängers anzuzeigen.
 
-   Klicks **Siehe Projekt** , um das Projekt des Vorgängers zu öffnen.
+   Klicken Sie auf **Siehe Projekt** , um das Projekt des Vorgängers zu öffnen.
 
    ![Projektübergreifende Vorgängerdetails](assets/cross-project-predecessor-details.png)
 
    >[!TIP]
    >
-   >   Die **Siehe Projekt** wird nur bei der Anzeige eines projektübergreifenden Vorgängers angezeigt.
+   >   Die Option **Siehe Projekt** wird nur angezeigt, wenn ein projektübergreifender Vorgänger angezeigt wird.
 

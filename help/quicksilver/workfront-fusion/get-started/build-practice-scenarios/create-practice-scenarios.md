@@ -14,12 +14,12 @@ ht-degree: 0%
 
 ---
 
-# Erstellen von Praxisszenarios in [!DNL Adobe Workfront Fusion]
+# Erstellen von Praxisszenarien in [!DNL Adobe Workfront Fusion]
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Basisszenario erstellen in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
-* [Fügen Sie ein Trigger-Modul zu einem Basisszenario in hinzu. [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
-* [Verwenden Sie eine Funktion, um ein Projekt in einem einfachen Szenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-* [Filter zu einem einfachen Szenario hinzufügen in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
-* [Einen Webhook zu einem grundlegenden Szenario hinzufügen in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
+* [Basisszenario in  [!DNL Adobe Workfront Fusion] erstellen](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+* [Hinzufügen eines Trigger-Moduls zu einem Grundszenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+* [Verwenden Sie eine Funktion, um ein Projekt in einem einfachen Szenario in [!DNL Adobe Workfront Fusion] zu aktualisieren.](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+* [Filter zu einem einfachen Szenario in  [!DNL Adobe Workfront Fusion] hinzufügen](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+* [Einen Webhook zu einem grundlegenden Szenario in [!DNL Adobe Workfront Fusion] hinzufügen](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)

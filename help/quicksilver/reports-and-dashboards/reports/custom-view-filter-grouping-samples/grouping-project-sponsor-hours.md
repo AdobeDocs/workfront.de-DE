@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Gruppierung: Projektsponsor für Stunden'
+title: "Gruppierung: Projekt-Sponsor für Stunden"
 description: Diese Stundengruppierung organisiert Stunden nach dem Sponsor des Projekts, in dem die Stunden protokolliert werden. Die standardmäßige ReportBuilder-Oberfläche für Stundengruppierungen enthält keine Zuordnung zum Feld Projektsponsor . Sie müssen die Benutzeroberfläche des Textmodus verwenden, um auf dieses Feld zuzugreifen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
-# Gruppierung: Projektsponsor für Stunden
+# Gruppierung: Projekt-Sponsor für Stunden
 
 Diese Stundengruppierung organisiert Stunden nach dem Sponsor des Projekts, in dem die Stunden protokolliert werden. Die standardmäßige ReportBuilder-Oberfläche für Stundengruppierungen enthält keine Zuordnung zum Feld Projektsponsor . Sie müssen die Benutzeroberfläche des Textmodus verwenden, um auf dieses Feld zuzugreifen.
 
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,13 +57,12 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So wenden Sie diese Gruppierung an:
 
 1. Rufen Sie eine Liste der Stunden auf.
-1. Aus dem **Gruppierung** Dropdown-Menü auswählen **Neue Gruppierung**.
+1. Wählen Sie aus dem Dropdownmenü **Gruppierung** die Option **Neue Gruppierung** aus.
 
-1. Klicken **In den Textmodus wechseln**.
-1. Entfernen Sie den Text im **Gruppieren Ihres Berichts** Bereich.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Entfernen Sie den Text im Bereich **Gruppieren Sie Ihren Bericht** .
 
 1. Ersetzen Sie den Text durch den folgenden Code:
-
    <pre>group.0.linkedname=project:sponsor:name<br>group.0.name=<br>group.0.valueField=project:sponsor:name<br>group.0.valueFormat=HTML<br>textmode=true<br></pre>
 
-1. Klicken **Gruppierung speichern**.
+1. Klicken Sie auf **Gruppierung speichern**.

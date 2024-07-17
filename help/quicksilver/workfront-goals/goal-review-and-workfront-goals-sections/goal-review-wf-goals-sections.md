@@ -24,7 +24,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -35,7 +35,7 @@ Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront 
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Überblick über die Adobe Workfront-Ziele - Abschnitte](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
+* [Überblick über die Adobe Workfront-Zielabschnitte](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
 * [Ziele in der Zielliste von Adobe Workfront verwalten](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
 * [Aktualisieren des Zielfortschritts in Adobe Workfront-Zielen](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 * [Überprüfen Sie Diagramme, um die Trends beim Zielfortschritt in Adobe Workfront-Zielen zu verstehen.](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)

@@ -3,20 +3,21 @@ title: Löschen klassischer Layoutvorlagen
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
-description: Layout-Vorlagen aus dem klassischen Workfront-Erlebnis sind nicht mehr in der Workfront-Benutzeroberfläche verfügbar, können sich aber dennoch auf Workfront-Daten auswirken. Dies kann zu Inkonsistenzen in Feldern führen, die von Layout-Vorlagen (z. B. "Freigegeben für") in Berichten oder Dashboards betroffen sind.
+description: Layout-Vorlagen aus dem klassischen Workfront-Erlebnis sind nicht mehr in der Workfront-Benutzeroberfläche verfügbar, können sich aber dennoch auf Workfront-Daten auswirken. Dies kann zu Inkonsistenzen in Feldern führen, die von Layout-Vorlagen (z. B. „Freigegeben für“) in Berichten oder Dashboards betroffen sind.
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c68b63230b07ea8c8475b710e256b5e0f049b1eb
+exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 0%
+source-wordcount: '281'
+ht-degree: 58%
 
 ---
 
 # Administratorzugriff für eine Layoutvorlage gewähren
 
-Layout-Vorlagen aus dem klassischen Workfront-Erlebnis sind nicht mehr in der Workfront-Benutzeroberfläche verfügbar, können sich aber dennoch auf Workfront-Daten auswirken. Dies kann zu Inkonsistenzen in Feldern führen, die von Layout-Vorlagen (z. B. &quot;Freigegeben für&quot;) in Berichten oder Dashboards betroffen sind.
+Layout-Vorlagen aus dem klassischen Workfront-Erlebnis sind nicht mehr in der Workfront-Benutzeroberfläche verfügbar, können sich aber dennoch auf Workfront-Daten auswirken. Dies kann zu Inkonsistenzen in Feldern führen, die von Layout-Vorlagen (z. B. „Freigegeben für“) in Berichten oder Dashboards betroffen sind.
 
 Sie können diese Inkonsistenzen beheben, indem Sie die klassischen Layoutvorlagen löschen. Da sie nicht in der Workfront-Benutzeroberfläche verfügbar sind, müssen Sie die Workfront-API verwenden, um sie zu löschen.
 
@@ -30,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -52,21 +53,18 @@ Sie können API-Aufrufe in die URL-Leiste Ihres Browsers eingeben und die Eingab
 >Vorlagen für globale und System-Layouts können nicht gelöscht werden.
 
 1. Melden Sie sich bei Workfront an.
-1. Suchen Sie die Layoutvorlage, die Sie löschen möchten, mithilfe des folgenden API-Aufrufs:
+1. Suchen Sie die Layout-Vorlage, die Sie löschen möchten, mithilfe des folgenden API-Aufrufs:
    `https://{yourDomain}.com/attask/api/v16.0/LYTMPL/search`
-1. Notieren Sie sich die Kennung der Layout-Vorlage, die Sie löschen möchten.
+1. Notieren Sie sich die ID der Layout-Vorlage, die Sie löschen möchten.
 1. Suchen Sie Ihre Sitzungs-ID mithilfe des folgenden API-Aufrufs:
    `https://{yourDomain}.com/attask/api/v16.0/session`
 
    >[!IMPORTANT]
    >
-   >Geben Sie Ihre Sitzungs-ID nie für andere frei.
+   >Geben Sie Ihre Sitzungs-ID niemals an andere weiter.
 
-1. Fügen Sie die Layoutvorlagen-ID und die Sitzungs-ID in den folgenden API-Aufruf ein:
+1. Fügen Sie die Layout-Vorlagen-ID und die Sitzungs-ID in den folgenden API-Aufruf ein:
    `https://{yourDomain}.com/attask/api/v16.0/LYTMPL?ID={layoutTemplateID}&method=delete&sessionID={yourSessionID}`
 1. Fügen Sie den API-Aufruf aus Schritt 4 in die URL-Leiste Ihres Browsers ein und drücken Sie die Eingabetaste.
 
    Dadurch wird die Layout-Vorlage gelöscht.
-
-
-

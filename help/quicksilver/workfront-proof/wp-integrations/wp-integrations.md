@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront-Testintegrationen
-description: Erfahren Sie mehr über Workfront Proof-Integrationen.
+title: Workfront Proof-Integrationen
+description: Informationen zu Workfront Proof-Integrationen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 06d87c0d-1ec9-453c-8848-e84b2713c22b
 source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 

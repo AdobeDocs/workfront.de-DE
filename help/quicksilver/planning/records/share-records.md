@@ -111,14 +111,14 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
-1. (Bedingt) Aus der **Ansicht** aus dem Dropdown-Menü oben rechts in der Tabelle eine Tabellenansicht auswählen. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
+1. (Bedingt) Wählen Sie aus dem Dropdownmenü **Ansicht** in der oberen rechten Ecke der Tabelle eine Tabellenansicht aus. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Timeline-Ansicht angezeigt, als Sie zuletzt darauf zugegriffen haben.
 
    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
 1. Rechtsklick auf eine Datensatzzeile
 
    Oder
 
-   Bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Link kopieren**.
+   Bewegen Sie den Mauszeiger über den Namen eines Datensatzes, klicken Sie auf das Menü **Mehr** und anschließend auf **Link kopieren**.![](assets/more-menu.png)
 
    ![](assets/contextual-menu-for-record-row.png)
 

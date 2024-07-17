@@ -27,23 +27,23 @@ Eine Liste aller Änderungen, die in Version 2019.1 vorgenommen wurden, finden S
 **Für Administratoren**
 
 * [Wiederherstellen von Vorlagen aus dem Papierkorb](#restore-templates-from-the-recycle-bin)
-* [Anzeigen von Zeitstempeln für Datumsfelder auf der Startseite](#show-timestamps-for-date-fields-in-home)
+* [Zeitstempel für Datumsfelder in Startseite anzeigen](#show-timestamps-for-date-fields-in-home)
 * [Alle unter den Projekteigenschaften verfügbaren Durationstypen](#all-duration-types-available-under-project-preferences)
 
 **Für alle Benutzer**
 
 * [Agile Verbesserungen](#agile-improvements)
-* [Hinzufügen von Aufgaben und Problemen aus einer Liste zu einer Iteration](#add-tasks-and-issues-from-a-list-to-an-iteration)
+* [Aufgaben und Probleme aus einer Liste zu einer Iteration hinzufügen](#add-tasks-and-issues-from-a-list-to-an-iteration)
 * [Neue Papiergrößen für den Export von Gantt-Diagrammen](#new-paper-sizes-for-gantt-chart-export)
-* [Der Zugriff auf Dialogfelder im Gantt-Diagramm während des Bearbeitungsmodus wurde entfernt.](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [Anzeigen von Aufgabeninformationen im Gantt-Diagramm für die Projektliste in einem Programm oder Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
-* [Gantt-Diagramm für Aufgabenlisten in Vorlagen aufrufen](#access-the-task-list-gantt-chart-on-templates)
-* [Die Projektansicht im Gantt-Diagramm wurde umbenannt.](#renamed-the-project-view-on-the-gantt-chart)
-* [Was-wenn-Szenarios im Gantt-Diagramm für Aufgabenliste](#what-if-scenarios-in-the-task-list-gantt-chart)
+* [Entfernen des Zugriffs auf Dialogfelder im Gantt-Diagramm im Bearbeitungsmodus](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
+* [Anzeigen von Aufgabeninformationen im Gantt-Diagramm für Projektlisten in einem Programm oder Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [Zugriff auf das Gantt-Diagramm für Aufgabenlisten auf Vorlagen](#access-the-task-list-gantt-chart-on-templates)
+* [Die Projektansicht im Gantt-Diagramm wurde umbenannt](#renamed-the-project-view-on-the-gantt-chart)
+* [Was-Wenn-Szenarios im Aufgabenlisten-Gantt-Diagramm](#what-if-scenarios-in-the-task-list-gantt-chart)
 * [Verbesserungen der Aufgabenliste](#task-list-improvements)
-* [Anzeigen von Listen im Vollbildmodus](#display-lists-in-full-screen)
+* [Listen im Vollbildmodus anzeigen](#display-lists-in-full-screen)
 * [Neue Listen in zusätzlichen Bereichen](#new-lists-in-additional-areas)
-* [Versand eines zugestellten Berichts im XLSX-Format](#send-a-delivered-report-in-xlsx-format)
+* [Versenden eines gelieferten Berichts im XLSX-Format](#send-a-delivered-report-in-xlsx-format)
 * [Audit-Protokolle exportieren](#export-audit-logs)
 
 ## Wiederherstellen von Vorlagen aus dem Papierkorb {#restore-templates-from-the-recycle-bin}
@@ -128,7 +128,7 @@ Informationen zur Planung von Berichten für die Bereitstellung finden Sie unter
 
 ## Verbesserungen der Aufgabenliste {#task-list-improvements}
 
-[Update 18.3 Beta 4 , wo dies entfernt wurde]
+[Aktualisieren Sie 18.3 Beta 4, wobei dies aus ] entfernt wurde.
 
 Die neu entworfenen Aufgabenlisten wurden nach einer kurzen Entfernung während der Beta-Version 18.3 von neu aktiviert. Wir haben außerdem die folgenden zusätzlichen Funktionen zu den Aufgabenlisten hinzugefügt, die nicht Teil der ursprünglichen Version waren:
 

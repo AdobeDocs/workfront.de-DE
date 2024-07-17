@@ -21,23 +21,23 @@ Sie können den neuen Formularentwickler verwenden, um ein benutzerdefiniertes F
 
 Der neue Formularentwickler verfügt über einen neuen Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können. Außerdem können Sie bei der Erstellung Ihres Formulars Felder durch Drag &amp; Drop in die Abschnitte ziehen.
 
-![Beispiel-Formular-Designer](assets/form-designer-example.png)
+![Beispielformulardesigner](assets/form-designer-example.png)
 
 ## Zugriff auf den Formularentwickler
 
 Mit einer Schaltfläche am oberen Rand des neuen Formularentwurfs und des Legacy-Formular-Builders können Sie zwischen den Versionen wechseln.
 
-![Wechsel zum neuen Formularentwickler](assets/switch-views.png)
+![Wechseln zum neuen Formularentwickler](assets/switch-views.png)
 
 ## Neue Funktionen im Formularentwickler verfügbar
 
 Mit dem neuen Formularentwickler haben wir folgende Möglichkeiten hinzugefügt:
 
-* **Kopieren eines Felds**: Sie können jetzt vorhandene Felder kopieren, indem Sie in den Feldern direkt auf der Arbeitsfläche auf das Symbol Kopieren klicken.
+* **Kopieren eines Felds**: Sie können jetzt vorhandene Felder kopieren, indem Sie auf das Symbol Kopieren in den Feldern direkt auf der Arbeitsfläche klicken.
 
-* **Ändern der Größe für beschreibenden Text**: Sie können jetzt beschreibende Textfelder kleine, mittlere oder große Größen zuweisen. Sie können sie auch für dieselbe Zeile mit anderen Feldern verwenden.
+* **Ändern der Größe für beschreibende Texte**: Sie können jetzt beschreibende Textfelder kleine, mittlere oder große Größen zuweisen. Sie können sie auch für dieselbe Zeile mit anderen Feldern verwenden.
 
-* **Standardabschnitt verwenden**: Wenn der Formularersteller oben im Formular keinen Abschnitt hinzugefügt hat, ist jetzt ein Abschnitt &quot;Standard&quot;auf der Arbeitsfläche sichtbar, damit Benutzer die Berechtigungen für Felder anpassen können, denen kein benutzerdefinierter Abschnitt zugewiesen ist.
+* **Use a Default section**: Wenn der Formularersteller keinen Abschnitt am oberen Rand des Formulars hinzugefügt hat, ist jetzt ein Standardabschnitt auf der Arbeitsfläche sichtbar, sodass Benutzer die Berechtigungen für Felder anpassen können, denen kein benutzerdefinierter Abschnitt zugewiesen ist.
 
   >[!NOTE]
   >

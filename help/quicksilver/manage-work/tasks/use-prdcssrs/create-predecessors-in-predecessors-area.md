@@ -19,7 +19,7 @@ Sie können Vorgängeraufgaben (oder nur Vorgänger) verwenden, um Aufgaben, die
 
 Dieser Artikel zeigt, wie Sie in einer Aufgabe mithilfe der Registerkarte &quot;Vorgänger&quot;Vorgänger festlegen können.
 
-Informationen zum Festlegen von Vorgängern in einer Liste von Aufgaben finden Sie unter [Erstellen einer Vorgängerbeziehung auf der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+Weitere Informationen zum Festlegen von Vorgängern in einer Liste von Aufgaben finden Sie unter [Erstellen einer Vorgängerbeziehung in der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 Sie können die Vorgänger von Aufgaben in den folgenden Bereichen von Adobe Workfront anzeigen:
 
@@ -27,7 +27,7 @@ Sie können die Vorgänger von Aufgaben in den folgenden Bereichen von Adobe Wor
 * Im Gantt-Diagramm
 * In der Aufgabenliste in der Spalte &quot;Vorgänger&quot;
 
-Weitere Informationen zu Vorgängern finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Weitere Informationen zu Vorgängern finden Sie unter [Übersicht über Aufgabenverfasser](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für die Aufgaben und das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für die Aufgaben und das Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,29 +60,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen eines Vorgängers für eine Aufgabe
 
-1. Wechseln Sie zu einer Aufgabe, die Sie als abhängige Aufgabe festlegen möchten, und klicken Sie dann auf **Vorgänger** im linken Bereich.
+1. Wechseln Sie zu einer Aufgabe, die Sie als abhängige Aufgabe festlegen möchten, und klicken Sie dann im linken Bereich auf **Vorgänger** .
 
-   Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Vorgänger**.
+   Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
 
-1. Klicks **+Vorgänger hinzufügen**.
-1. (Optional) Um einen projektübergreifenden Vorgänger hinzuzufügen, ersetzen Sie den Namen des Projekts im **Übergeordnetes Projekt** mit einem anderen Projekt ein und geben Sie dann den Namen der Aufgabe oder Aufgaben ein, die Sie als Vorgänger verwenden möchten.
+1. Klicken Sie auf **+Vorgänger hinzufügen**.
+1. (Optional) Um einen projektübergreifenden Vorgänger hinzuzufügen, ersetzen Sie den Namen des Projekts im Feld **Übergeordnetes Projekt** durch ein anderes Projekt und geben Sie dann den Namen der Aufgabe oder Aufgaben ein, die Sie als Vorgänger verwenden möchten.
 
-   Informationen zum Hinzufügen projektübergreifender Vorgänger finden Sie unter [Erstellen projektübergreifender Vorgänger](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   Weitere Informationen zum Hinzufügen projektübergreifender Vorgänger finden Sie unter [Erstellen projektübergreifender Vorgänger](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
 1. Geben Sie den Namen der Aufgabe bzw. der Aufgaben ein, die Sie als Vorgänger festlegen möchten.
 
    ![](assets/add-predecessor-box-nwe-350x465.png)
 
-1. Wählen Sie eine **Abhängigkeitstyp**.
+1. Wählen Sie einen **Abhängigkeitstyp** aus.
 
-   Weitere Informationen zu den Abhängigkeitstypen von Aufgaben finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Weitere Informationen zu Aufgabenabhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Geben Sie eine **Lag** in Tagen.
+1. Geben Sie einen **Lag** -Betrag in Tagen an.
 
-   Weitere Informationen zu Lag-Typen finden Sie unter &#x200B; [Übersicht über Launch-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Informationen zu Lag-Typen finden Sie unter &#x200B; [Übersicht über Lag-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-1. Auswählen **Durchgesetzt** , wenn Sie die Vorgängerbeziehung zwischen den beiden Aufgaben erzwingen möchten.
+1. Wählen Sie **Erzwungen** aus, wenn Sie die Vorgängerbeziehung zwischen den beiden Aufgaben erzwingen möchten.
 
-   Informationen zur Durchsetzung von Vorgängern finden Sie unter [Durchsetzen von Vorgängern](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+   Weitere Informationen zum Durchsetzen von Vorgängern finden Sie unter [Durchsetzen von Vorgängern](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Klicken Sie auf **Speichern**.

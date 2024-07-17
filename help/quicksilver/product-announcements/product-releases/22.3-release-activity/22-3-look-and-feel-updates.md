@@ -17,7 +17,7 @@ ht-degree: 14%
 
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Veröffentlichungszeitrahmens von 22.3 vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung mindestens 2 Wochen nach Veröffentlichung in der Vorschau bereitgestellt.
 
-Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [2.3 Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [22.3 - Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Globale Erscheinungsbild-Updates
 
@@ -43,6 +43,6 @@ Die Symbolleisten in den folgenden Listen und Berichten haben jetzt ein modernes
 
 >[!NOTE]
 >
->Diese Änderung wurde in der Produktion am 23. Mai 2022 aktualisiert. Siehe [Wartungsupdate vom 26. Mai 2022 für weitere Informationen](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>Diese Änderung wurde in der Produktion am 23. Mai 2022 aktualisiert. Weitere Informationen finden Sie im [Wartungs-Update vom 26. Mai 2022](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022) .
 
 Wir haben die Breadcrumb-Trennzeichen in allen Bereichen aktualisiert, in denen Breadcrumbs verfügbar sind. Jetzt werden die Objekte in den Breadcrumbs durch senkrechte Striche (|) getrennt. Vor dieser Aktualisierung wurden sie durch Schrägstriche (/) getrennt.

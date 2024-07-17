@@ -22,7 +22,7 @@ Die geplanten Arbeitskosten eines Projekts sind eine Berechnung zwischen den Kos
 
 ## Übersicht über die geplanten Arbeitskosten
 
-Die **Geplante Arbeitskosten** eines Projekts berechnet wird, indem alle geplanten Arbeitskosten aller Aufgaben des Projekts hinzugefügt werden.
+Die **geplanten Arbeitskosten** eines Projekts werden berechnet, indem alle geplanten Arbeitskosten aller Aufgaben des Projekts hinzugefügt werden.
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ Die geplanten Arbeitskosten werden anhand der folgenden Formel berechnet:
 Task Planned Cost = Planned Hours x User or Job Role Cost Per Hour
 ```
 
-Weitere Informationen dazu, wie Workfront geplante Arbeitskosten für Aufgaben berechnet, finden Sie in Abhängigkeit von Aufgabenzuweisungen und Kostentyp im Abschnitt &quot;Ändern von Kostentypen für einzelne Aufgaben&quot;im Artikel [Kosten verfolgen](../../../manage-work/projects/project-finances/track-costs.md).
+Weitere Informationen dazu, wie Workfront geplante Arbeitskosten für Aufgaben entsprechend Aufgabenzuweisungen und Kostentyp berechnet, finden Sie im Abschnitt &quot;Ändern von Kostentypen für einzelne Aufgaben&quot;im Artikel [Kosten-Tracking](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Geplante Arbeitskosten ermitteln
 

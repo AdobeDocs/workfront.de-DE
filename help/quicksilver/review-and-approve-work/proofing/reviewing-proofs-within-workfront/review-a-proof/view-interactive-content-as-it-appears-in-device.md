@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
 source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,12 +39,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Geräte- und Auflösungsansichten im Desktop Proofing Viewer im Vergleich zum Web Proofing Viewer
 
@@ -56,13 +56,13 @@ Ihr Adobe Workfront-Administrator hat Ihr System so konfiguriert, dass Sie inter
 
   >[!NOTE]
   >
-  >Ihr Workfront-Administrator kann benutzerdefinierte Geräte für Benutzer in Ihrem Unternehmen konfigurieren, wie unter [Konfigurieren benutzerdefinierter Geräte für Testsendungen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) im Artikel [Konfigurieren der Testversandeinstellungen für Ihre Organisation](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+  >Ihr Workfront-Administrator kann benutzerdefinierte Geräte für Benutzer in Ihrem Unternehmen konfigurieren, wie unter [Konfigurieren benutzerdefinierter Geräte für Testsendungen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) im Artikel [Konfigurieren der Testversandeinstellungen für Ihr Unternehmen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) beschrieben.
 
 ## Anzeigen eines Testversands mit einer vordefinierten Geräte- oder Auflösungseinstellung
 
 1. Gehen Sie zur Dokumentliste, die den Testversand enthält, den Sie öffnen möchten.
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Offener Testversand**.
-1. Klicks **Responsive** unten im Testversand-Viewer.
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Testversand öffnen**.
+1. Klicken Sie unten im Testversand-Viewer auf **Responsiv** .
 
    ![Resolution_option_in_DPV.png](assets/resolution-option-in-dpv-350x64.png)
 
@@ -79,9 +79,9 @@ Ihr Adobe Workfront-Administrator hat Ihr System so konfiguriert, dass Sie inter
 ## Anzeigen eines Testversands mit einer benutzerdefinierten Auflösungseinstellung
 
 1. Gehen Sie zur Dokumentliste, die den Testversand enthält, den Sie öffnen möchten.
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Offener Testversand**.
-1. Klicks **Responsive** unten im Proofing-Viewer.
-1. Geben Sie einen benutzerdefinierten **Responsive** auflösen.
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Testversand öffnen**.
+1. Klicken Sie unten im Proofing-Viewer auf **Responsive**.
+1. Geben Sie eine benutzerdefinierte **Responsive** Auflösung ein.
 
    ![Typ_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
 
@@ -93,7 +93,7 @@ Ihr Adobe Workfront-Administrator hat Ihr System so konfiguriert, dass Sie inter
 
    Die benutzerdefinierte Auflösung wird an den folgenden Stellen angezeigt:
 
-   * Im **Auflösung** -Bedienfeld in der unteren Mitte des Viewers.\
+   * Im Bedienfeld **Auflösung** in der unteren Mitte des Viewers.\
      ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
    * In allen Kommentaren fügen Überprüfer zum Testversand hinzu. Jeder Kommentar enthält die Bildschirmauflösung, die beim Erstellen des Kommentars durch den Validierer ausgewählt wurde.

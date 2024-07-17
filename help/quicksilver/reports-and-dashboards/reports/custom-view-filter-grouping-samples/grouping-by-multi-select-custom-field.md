@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ Beispiele für benutzerdefinierte Mehrfachauswahl-Felder:
 * Kontrollkästchen
 * Dropdown-Menüs mit Mehrfachauswahl
 
-Informationen zur Verwendung des Textmodus finden Sie im Artikel [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Informationen zur Verwendung des Textmodus finden Sie im Artikel [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md) .
 
 ## Überlegungen beim Gruppieren nach einem benutzerdefinierten Mehrfachfeld
 
 * Ein Bericht, der eine Textmodellgruppierung verwendet, kann nicht grafisch dargestellt werden. Sie müssen ein zusätzliches berechnetes Feld erstellen, das auf das benutzerdefinierte Mehrfachauswahlfeld verweist, um den Bericht auch nach dem Wert des benutzerdefinierten Mehrfachfelds zu kartieren.
 
-  Weitere Informationen finden Sie unter [Bericht anhand eines benutzerdefinierten Mehrfachauswahlfelds grafisch darstellen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+  Weitere Informationen finden Sie unter [Bericht durch ein benutzerdefiniertes Mehrfachauswahlfeld grafisch darstellen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 * Elemente mit einer der ausgewählten Optionen werden nur einmal gezählt.
 
   Wenn Sie beispielsweise über ein benutzerdefiniertes Kontrollkästchen mit Auswahl 1 und Auswahl 2 als Optionen verfügen und das Formular an Aufgaben anhängen, werden die Aufgaben, für die sowohl Auswahl 1 als auch Auswahl 2 ausgewählt sind, getrennt von den Aufgaben gruppiert, für die nur Auswahl 1 oder Auswahl 2 ausgewählt ist.
@@ -45,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -60,7 +60,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 Um eine Gruppierung nach einem benutzerdefinierten Mehrfachfeld zu ermöglichen, müssen folgende Voraussetzungen erfüllt sein:
 
 * Erstellen Sie das benutzerdefinierte Mehrfachauswahlfeld in einem benutzerdefinierten Formular.\
-  Informationen zum Erstellen benutzerdefinierter Formulare und zum Hinzufügen benutzerdefinierter Felder finden Sie im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Informationen zum Erstellen benutzerdefinierter Formulare und zum Hinzufügen benutzerdefinierter Felder finden Sie im Artikel [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * Hängen Sie das benutzerdefinierte Formular an Objekte an.
 * Füllen Sie das benutzerdefinierte Feld mit Mehrfachauswahl mit einem Wert für jedes Objekt. 
@@ -80,19 +80,22 @@ Um eine Gruppierung nach einem benutzerdefinierten Mehrfachfeld zu ermöglichen,
 So gruppieren Sie ein benutzerdefiniertes Feld mit Mehrfachauswahl in einem Bericht:
 
 1. Erstellen Sie einen Bericht oder bearbeiten Sie einen vorhandenen Bericht, in dem Sie eine Gruppierung für ein benutzerdefiniertes Feld mit Mehrfachauswahl hinzufügen möchten.\
-   Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Wählen Sie die **Gruppierungen** Registerkarte.
-1. Klicks **In den Textmodus wechseln**.
+1. Wählen Sie die Registerkarte **Gruppierungen** aus.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 
-1. Wählen Sie den Text im **Gruppieren Ihres Berichts** und ersetzen Sie sie durch den folgenden Code:
+1. Wählen Sie den Text im Feld **Gruppieren Sie Ihren Bericht** aus und ersetzen Sie ihn durch den folgenden Code:
 
    <pre>
-   group.0.displayName=Multi-select Custom Field Name group.0.valueExpression={DE:Multi-select Custom Field Name} group.0.valueFormat=HTML group.0.textmode=true
+   group.0.displayName=Multi-select Custom Field Name
+   group.0.valueExpression={DE:Multi-select Custom Field Name}
+   group.0.valueFormat=HTML
+   group.0.textmode=true
    </pre>
 
 1. Ersetzen Sie &quot;Benutzerdefinierter Feldname mit Mehrfachauswahl&quot;durch den tatsächlichen Namen Ihres benutzerdefinierten Mehrfachauswahlfelds, wie er in Workfront angezeigt wird.
-1. Klicks **Speichern und schließen**.
+1. Klicken Sie auf **Speichern und schließen**.
 
    Die Objekte im Bericht werden nach den Werten des benutzerdefinierten Mehrfachauswahlfelds gruppiert.
 

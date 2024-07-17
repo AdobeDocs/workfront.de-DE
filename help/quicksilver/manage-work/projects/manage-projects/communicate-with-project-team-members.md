@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,22 +53,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## E-Mail an ein Mitglied des Projektteams senden {#send-an-email-to-a-project-team-member}
 
 1. Rufen Sie ein Projekt auf, an dessen Mitglieder des Projektteams Sie eine E-Mail senden möchten.
-1. Klicken **Personen** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen** zuerst.
+1. Klicken Sie im linken Bereich auf **Personen** . Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
 
-   Um alle Mitglieder des Projektteams zu aktualisieren, klicken Sie auf **Alle aktualisieren** in der linken oberen Ecke der Liste der Mitglieder des Projektteams.
+   Um alle Mitglieder des Projektteams zu aktualisieren, klicken Sie oben links in der Liste der Mitglieder des Projektteams auf **Alle aktualisieren** .
 
    Oder
 
-   Um bestimmte Mitglieder des Projektteams zu aktualisieren, wählen Sie einen oder mehrere Benutzer in der Liste aus und klicken Sie auf **Update an Benutzer senden******.\
+   Um bestimmte Mitglieder des Projektteams zu aktualisieren, wählen Sie einen oder mehrere Benutzer in der Liste aus und klicken Sie dann auf **Update an Benutzer senden******.\
    ![Commenting_1.png](assets/commenting-1-350x352.png)
 
-1. Geben Sie Ihre Aktualisierung in das Feld **Posten von Aktualisierungen an diesem Projekt** -Feld.
-1. (Optional) Um das Update privat zu machen, klicken Sie auf die **Sperren** Symbol.
+1. Geben Sie Ihre Aktualisierung in das Feld **Post - ein Update dieses Projekts** ein.
+1. (Optional) Um die Aktualisierung privat zu machen, klicken Sie auf das Symbol **Sperren** .
 
    Benutzer außerhalb des Unternehmens können keine private Aktualisierung anzeigen.
 
-1. (Optional) Klicken Sie auf die **Personen** um weitere nicht ausgewählte Empfänger hinzuzufügen.
-1. Klicken **Senden**.
+1. (Optional) Klicken Sie auf das Symbol **Personen** , um weitere nicht ausgewählte Empfänger hinzuzufügen.
+1. Klicken Sie auf **Senden**.
 
    Die Aktualisierung und die Namen der darin enthaltenen Benutzer werden auf der Registerkarte Updates des Projekts angezeigt.
 
@@ -83,7 +83,7 @@ Sie können Projektaktualisierungen an Teammitglieder und andere Benutzer senden
 
 1. Senden Sie eine Aktualisierung an die Mitglieder des Projektteams, wie im Abschnitt
 
-   [E-Mail an ein Mitglied des Projektteams senden](#send-an-email-to-a-project-team-member) in diesem Artikel.
+   [Senden Sie eine E-Mail an ein Mitglied des Projektteams](#send-an-email-to-a-project-team-member) in diesem Artikel.
 
    Die Aktualisierung und die Namen der darin enthaltenen Benutzer werden auf der Registerkarte Updates des Projekts angezeigt.
 

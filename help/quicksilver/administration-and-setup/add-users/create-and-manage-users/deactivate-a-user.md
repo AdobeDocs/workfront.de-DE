@@ -65,8 +65,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Sie müssen über eine der folgenden Möglichkeiten verfügen:</p> 
     <ul> 
-     <li> <p>Die Zugriffsebene des Systemadministrators. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>. </p> </li> 
-     <li> <p><b>Benutzer</b> -Einstellung in Ihrer Zugriffsstufe konfiguriert auf <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens eines der beiden <b>Benutzeradministrator</b> Optionen aktiviert unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Wenn Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie ein Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> <p>Weitere Informationen zum <b>Benutzer</b> auf einer Zugriffsebene festzulegen, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</p> </li> 
+     <li> <p>Die Zugriffsebene des Systemadministrators. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs eines Benutzers</a>. </p> </li> 
+     <li> <p><b>Benutzer</b> -Einstellung in Ihrer Zugriffsebene, die für den Zugriff auf <b>Bearbeiten</b> konfiguriert ist, wobei <b>Erstellen</b> und mindestens eine der beiden Optionen <b>Benutzeradministrator</b> unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png"> aktiviert sind. </p> <p>Wenn von diesen beiden Optionen Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> <p>Weitere Informationen zur Einstellung <b>Benutzer</b> in einer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 Bevor Sie einen Workfront-Administrator oder einen Standard- oder Planen-Lizenzbenutzer deaktivieren, müssen Sie dessen Objekte und Aktivitäten mit einem anderen Benutzer verknüpfen.
 
-Weitere Informationen finden Sie unter [Informationen zum Deaktivieren von Workfront-Administratoren und zum Planen von Lizenzanwendern](#about-deactivating-workfront-administrators-and-plan-license-users) in diesem Artikel.
+Weitere Informationen finden Sie unter [Über das Deaktivieren von Workfront-Administratoren und das Planen von Lizenzanwendern](#about-deactivating-workfront-administrators-and-plan-license-users) in diesem Artikel.
 
 ## Deaktivieren eines Benutzers
 
@@ -90,11 +90,11 @@ Beachten Sie beim Deaktivieren eines Benutzers Folgendes:
 
 So deaktivieren Sie einen Benutzer:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
 
-1. Wählen Sie einen Benutzer aus, klicken Sie auf die **Mehr** icon ![](assets/more-icon.png)Klicken Sie auf **Deaktivieren**.
+1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol **Mehr** ![](assets/more-icon.png) und dann auf **Deaktivieren**.
 
-1. Klicks **Deaktivieren** in das Feld, das angezeigt wird.
+1. Klicken Sie in dem angezeigten Feld auf **Deaktivieren** .
 
 ## Planen von Benutzern für die Deaktivierung
 
@@ -104,7 +104,7 @@ Workfront-Administratoren und Benutzer der Lizenzplanung können das Deaktivieru
 
 So planen Sie die Deaktivierung eines Benutzers:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
 
 1. Wählen Sie den Namen des Benutzers aus.
 
@@ -112,11 +112,11 @@ So planen Sie die Deaktivierung eines Benutzers:
 
    (Optional) Wählen Sie mehrere Benutzer aus, um sie für die Deaktivierung in großen Mengen zu planen.
 
-1. Klicken Sie auf das Symbol Bearbeiten . ![](assets/edit-icon.png).
-1. Klicken Sie im angezeigten Feld Benutzer bearbeiten auf **Ressourcenplanung** um in diese Gegend zu gehen.
-1. Aktivieren Sie die **Deaktivierung planen** -Option.
+1. Klicken Sie auf das Bearbeitungssymbol ![](assets/edit-icon.png).
+1. Klicken Sie im angezeigten Feld &quot;Benutzer bearbeiten&quot;auf **Ressourcenplanung** , um zu diesem Bereich zu wechseln.
+1. Aktivieren Sie die Option **Deaktivierung planen** .
 
-1. Geben Sie im angezeigten Kalender das Datum und die Uhrzeit für die **Geplantes Deaktivierungsdatum**.
+1. Geben Sie im Kalender, der angezeigt wird, das Datum und die Uhrzeit für das **Geplante Deaktivierungsdatum** an.
 
    >[!NOTE]
    >
@@ -131,11 +131,11 @@ Es wird empfohlen, einen Bericht für Benutzer zu erstellen, die für die Deakti
 
 ## Benutzer erneut aktivieren
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
 
-1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol Mehr . ![](assets/more-icon.png)Klicken Sie auf **Aktivieren**.
+1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol &quot;Mehr&quot;![](assets/more-icon.png) und dann auf **Aktivieren**.
 
-1. Neu zuweisen **Zugriffsstufe** Klicken Sie im Dropdown-Menü auf **Reaktivieren**.
+1. Weisen Sie im Dropdown-Menü eine neue **Zugriffsebene** zu und klicken Sie dann auf **Reactivate** .
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -145,8 +145,8 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 Deaktivierte Benutzer verlieren ihre zugewiesene standardmäßige Testing-Rolle und ihre Testversandlizenz (wenn Sie einen Workfront Premium Legacy Plan verwenden). Wenn Sie den Benutzer reaktivieren möchten, müssen Sie:
 
-* Weisen Sie die Lizenz erneut zu (wenn Sie einen Workfront Premium Legacy Plan nutzen). Weitere Informationen zu Workfront-Testplänen finden Sie unter [Zugriff auf die Testversandfunktion in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Überprüfen Sie, ob sie die richtige Rolle für den Testversand haben. Benutzern mit aktiviertem Testversand werden die Standardeinstellungen zugewiesen, die für neue Benutzer als Testversand-Rolle festgelegt wurden. Siehe [Konfigurieren von standardmäßigen Testrollen](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) für weitere Informationen.
+* Weisen Sie die Lizenz erneut zu (wenn Sie einen Workfront Premium Legacy Plan nutzen). Weitere Informationen zu Workfront-Testplänen finden Sie unter [Zugriff auf die Testfunktion in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* Überprüfen Sie, ob sie die richtige Rolle für den Testversand haben. Benutzern mit aktiviertem Testversand werden die Standardeinstellungen zugewiesen, die für neue Benutzer als Testversand-Rolle festgelegt wurden. Weitere Informationen finden Sie unter [Konfigurieren von standardmäßigen Testing-Rollen](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) .
 
 ## Über das Deaktivieren von Workfront-Administratoren und Standard- oder Planen von Lizenzbenutzern
 
@@ -171,4 +171,4 @@ Wenn Sie die Deaktivierung eines Benutzers planen, erscheinen diese nicht mehr i
 
 Der Ressourcen-Planer berücksichtigt alle Aufgabenrollen der Benutzer und geplante Abschlussdaten der Aufgaben und berechnet die Ressourcen entsprechend.
 
-Weitere Informationen zum Ressourcen-Planer finden Sie unter [Übersicht über den Ressourcenplaner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).

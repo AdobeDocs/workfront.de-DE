@@ -27,7 +27,7 @@ Wenn es Gruppen über Ihrer Gruppe gibt, können ihre Administratoren diese Ding
 >
 >Benutzerdefinierte Gruppenstatus können in einem Projekt nicht angezeigt werden, wenn das Projekt in einer agilen Ansicht angezeigt wird. Beim Anzeigen eines Projekts in einer agilen Ansicht sind nur die standardmäßigen und benutzerdefinierten gesperrten Status sichtbar. Informationen zum Anpassen einer agilen Ansicht für ein Projekt finden Sie im Abschnitt [Erstellen oder Anpassen einer Agile-Ansicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) im Artikel [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-Allgemeine Informationen zum Status finden Sie unter [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Allgemeine Informationen zu Status finden Sie unter [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -43,16 +43,16 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Erstellen oder Bearbeiten eines Status für eine Gruppe
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
@@ -69,21 +69,21 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    * Gesperrte Status, die zu den Gruppen über der Untergruppe gehören.
    * Entsperrte Status, die zu den Gruppen über der Untergruppe gehörten, als sie erstellt wurde.
 
-     Nach der Erstellung einer Untergruppe werden entsperrte Status, die in den oben stehenden Gruppen erstellt werden, nicht in die Statusliste der Untergruppe aufgenommen. Wenn jedoch einer von ihnen später gesperrt wird, wird er in die Statusliste der Untergruppe aufgenommen. Weitere Informationen finden Sie unter [Vererben von Status durch Gruppen](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+     Nach der Erstellung einer Untergruppe werden entsperrte Status, die in den oben stehenden Gruppen erstellt werden, nicht in die Statusliste der Untergruppe aufgenommen. Wenn jedoch einer von ihnen später gesperrt wird, wird er in die Statusliste der Untergruppe aufgenommen. Weitere Informationen finden Sie unter [Erben von Status durch Gruppen](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
-1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgaben** oder **Probleme**), die Sie mit dem Status verknüpfen möchten.
+1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgaben** oder **Probleme**) aus, den Sie mit dem Status verknüpfen möchten.
 
-1. (Bedingt) Wenn der Status ein Problemstatus ist, stellen Sie sicher, dass **Masterliste** ausgewählt ist.
+1. (Bedingt) Wenn der Status ein Problem ist, stellen Sie sicher, dass **Master List** ausgewählt ist.
 
    ![](assets/master-list.png)
 
-   Informationen zum Anpassen der anderen Problemtypen (Fehlerbericht, Reihenfolge ändern, Problem, Anforderung) finden Sie unter [Anpassen von Standardausgabetypen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+   Weitere Informationen zum Anpassen der anderen Problemtypen (Fehlerbericht, Reihenfolge ändern, Problem, Anforderung) finden Sie unter [Anpassen von Standardausgabetypen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
 1. (Bedingt) Um einen neuen Status zu erstellen, klicken Sie auf **Neuen Status hinzufügen**.
 
    Oder
 
-   Um einen vorhandenen Status zu bearbeiten, bewegen Sie den Mauszeiger über den Status, den Sie bearbeiten möchten, und klicken Sie dann auf **Bearbeiten** -Option, die ganz rechts angezeigt wird.
+   Um einen vorhandenen Status zu bearbeiten, bewegen Sie den Mauszeiger über den Status, den Sie bearbeiten möchten, und klicken Sie dann auf die Option **Bearbeiten** , die ganz rechts angezeigt wird.
 
    ![](assets/group-statuses-edit.jpg)
 
@@ -138,7 +138,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td> 
        <p>Wenn Sie diese Option aktiviert lassen, können die Benutzer in Ihrer Gruppe und ihren Untergruppen den Status anzeigen und verwenden und Gruppenadministratoren können ihn nicht für niedrigere Untergruppen anpassen.</p> 
        <p>Wenn diese Option deaktiviert ist, können Gruppenadministratoren den Status für niedrigere Untergruppen anpassen.</p> 
-       <p><b>NOTE</b>: Sie können sowohl gesperrte als auch entsperrte Status in einem Gruppengenehmigungsprozess verwenden. Wenn Sie einen Gruppengenehmigungsprozess mit einem entsperrten Gruppenstatus erstellen, können Benutzer den Genehmigungsprozess an jedes Projekt, jede Aufgabe oder jedes Problem anhängen, das mit der Gruppe verknüpft ist.</p> 
+       <p><b>HINWEIS</b>: Sie können sowohl gesperrte als auch entsperrte Status in einem Gruppengenehmigungsprozess verwenden. Wenn Sie einen Gruppengenehmigungsprozess mit einem entsperrten Gruppenstatus erstellen, können Benutzer den Genehmigungsprozess an jedes Projekt, jede Aufgabe oder jedes Problem anhängen, das mit der Gruppe verknüpft ist.</p> 
        <p>Weitere Informationen zum Sperren von Status finden Sie unter <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Gesperrte und entsperrte Gruppenstatus</a>.</p> 
        </td> 
      </tr>
@@ -149,7 +149,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    Der Status ist jetzt für alle Projekte verfügbar, die mit Ihrer Gruppe oder Untergruppe verbunden sind. Wenn Sie sie gesperrt haben, ist sie für die Verwendung durch Untergruppen verfügbar.
 
-   Sie können den Status als Standardstatus für die Gruppe konfigurieren. Weitere Informationen finden Sie unter [Benutzerdefinierten Status als Standardstatus für eine Gruppe verwenden](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
+   Sie können den Status als Standardstatus für die Gruppe konfigurieren. Weitere Informationen finden Sie unter [Verwenden eines benutzerdefinierten Status als Standardstatus für eine Gruppe](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
 
 ## Benutzerdefinierten Status für mehrere Gruppen erstellen
 
@@ -157,13 +157,13 @@ Wenn Sie Workfront-Administrator sind, können Sie einen benutzerdefinierten Sta
 
 Wenn Sie Gruppenadministrator (oder Workfront-Administrator) sind, können Sie einen benutzerspezifischen Status für mehrere Untergruppen innerhalb einer von Ihnen verwalteten Gruppenhierarchie erstellen, indem Sie einen Status für eine übergeordnete Gruppe erstellen und diesen Status dann für alle niedrigeren Untergruppen ausblenden, die ihn nicht benötigen.
 
-1. Wenn Sie Workfront-Administrator sind, erstellen Sie einen systemweiten entsperrten Status wie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-1. Löschen Sie im Feld oben rechts **Systemstatus**, geben Sie den Namen einer Gruppe ein, in der Sie den Status ausblenden möchten, und klicken Sie dann auf den Namen, wenn er angezeigt wird.
-1. Bewegen Sie den Mauszeiger über den Status, den Sie in der Gruppe ausblenden möchten, und klicken Sie dann auf **Bearbeiten** angezeigt.
+1. Wenn Sie Workfront-Administrator sind, erstellen Sie einen systemweiten entsperrten Status wie in [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) beschrieben.
+1. Löschen Sie in dem Feld oben rechts den Eintrag **Systemstatus**, geben Sie den Namen einer Gruppe ein, in der Sie den Status ausblenden möchten, und klicken Sie dann auf den Namen, wenn er angezeigt wird.
+1. Bewegen Sie den Mauszeiger über den Status, den Sie aus der Gruppe ausblenden möchten, und klicken Sie dann auf **Bearbeiten** , wenn er angezeigt wird.
 
    ![](assets/hover-click-edit.jpg)
 
-1. Aktivieren Sie die **Status ausblenden** angezeigt.
+1. Aktivieren Sie die angezeigte Option **Status ausblenden** .
 
    ![](assets/hide-group-status.png)
 

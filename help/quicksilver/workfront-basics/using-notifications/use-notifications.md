@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Benachrichtigungen verwenden: Artikelindex
 
-[!DNL Adobe Workfront] sendet E-Mail-Benachrichtigungen, In-App-Benachrichtigungen und Mobile-Benachrichtigungen, um Sie über Aktivitäten in zu informieren [!DNL Workfront].
+[!DNL Adobe Workfront] sendet E-Mail-Benachrichtigungen, In-App-Benachrichtigungen und Mobile-Benachrichtigungen, um Sie über die Aktivität in [!DNL Workfront] zu informieren.
 
 <!-- Audited: 01/2024 -->
 
@@ -24,7 +24,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md)
 * [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
-* [Abonnieren von Elementen in [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [Abonnieren von Elementen in  [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [Übersicht über In-App-Benachrichtigungen](../../workfront-basics/using-notifications/in-app-notifications-overview.md)
 * [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * [Aktivieren des Versands von E-Mails aus der Vorschau-Sandbox-Umgebung](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)

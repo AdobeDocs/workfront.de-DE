@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens der Version vom vierten Quartal 2023 vorgenommen wurden.
 
-Eine Liste aller mit der Version vom vierten Quartal 2023 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Eine Liste aller Änderungen, die mit der Version vom vierten Quartal 2023 verfügbar sind, finden Sie unter [Überblick über die Version vom vierten Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Look-and-Feel-Aktualisierungen für E-Mail-Vorlage für Dokumentgenehmigungen
 
@@ -35,7 +35,7 @@ Die E-Mail-Vorlage für Benachrichtigungen zur Dokumentgenehmigung wurde aktuali
 
 Um mehr Klarheit über manuelle Anpassungen oder die Konfiguration im Arbeitslastausgleich zu schaffen, zeigen manuell angepasste stündliche Zuordnungen jetzt ein Stiftsymbol an.
 
-Weitere Informationen finden Sie unter [Verwalten von Benutzerzuordnungen im Lastenausgleich](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Weitere Informationen finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslade-Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Neue Look-and-Feel-Aktualisierungen für Registerkarten im Bereich Setup-Benachrichtigungen
 

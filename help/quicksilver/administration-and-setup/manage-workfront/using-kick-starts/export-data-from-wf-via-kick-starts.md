@@ -11,8 +11,8 @@ role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1013'
+ht-degree: 7%
 
 ---
 
@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,7 +91,7 @@ Die folgende Tabelle zeigt die Vor- und Nachteile jeder Methode:
    <td> <p>Nein</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Exportieren von Daten über Schnellstarts</strong> </p> </td> 
+   <td> <p><strong>Exportieren von Daten über Kick-Starts</strong> </p> </td> 
    <td> <p>Ja (begrenzt)</p> <p>Die meisten nativen Workfront-Felder, die mit Objekten verknüpft sind, werden exportiert, einige jedoch nicht. Beispielsweise können Sie die Felder "Zeitplan", "Projekteigentümer"oder "Projektsponsor"nicht über einen Projekt-Kick-Start-Export exportieren.</p> <p>In einem Projekt, an das ein benutzerdefiniertes Formular angehängt ist, werden die in die Felder des Formulars eingegebenen Daten nicht exportiert.</p> <p>Sie können jedoch ein benutzerdefiniertes Formular exportieren. Die resultierende Datei listet die im Formular konfigurierten Felder auf, z. B. Textfelder und Optionsfelder.</p> </td> 
    <td> <p>Ja</p> <p>Durch die Verwendung von Kick-Starts zum Exportieren von Workfront-Daten können Sie Daten exportieren, die sich auf mehrere Objekttypen beziehen. Sie können beispielsweise Aufgaben, Probleme und Projekte in einen einzigen Export einbeziehen.</p> </td> 
   </tr> 
@@ -102,16 +102,16 @@ Die folgende Tabelle zeigt die Vor- und Nachteile jeder Methode:
 
 Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert) bestehen die folgenden Einschränkungen:
 
-* **50.000 Zeilen:** Die zulässige Anzahl von Zeilen in der Datei.
+* **50.000 Zeilen:** Die in der Datei zulässige Anzahl von Zeilen.
 * **65.530 Hyperlinks:** Dies ist eine Beschränkung, die Excel für Dokumente mit mehr als 65.530 Hyperlinks vorschreibt. Diese Dokumente können nach dem Export nicht mehr geöffnet werden. Beachten Sie, dass ein Excel-Dokument möglicherweise nur 200 Datenzeilen enthält. Wenn jedoch mehr als 65.530 Links innerhalb des Dokuments vorhanden sind, wird das Dokument nicht geöffnet.
 
 ## Daten über Kick-Start exportieren
 
 {{step-1-to-setup}}
 
-1. Klicks **System** > **Kick-Starts,** Klicken Sie dann auf **Daten exportieren.**
+1. Klicken Sie auf **System** > **Kick-Starts,** und dann auf **Daten exportieren**.
 
-1. Wählen Sie das Objekt aus, das Sie exportieren möchten. Standardmäßig werden die folgenden Objekte unter **Was soll eingeschlossen werden?**:
+1. Wählen Sie das Objekt aus, das Sie exportieren möchten. Standardmäßig werden die folgenden Objekte unter **Einzuschließende Elemente** angezeigt:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -137,7 +137,7 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Genehmigung</p> </td> 
-      <td scope="col" valign="top"> <p>Schritt-Genehmiger<br>Validierungsschritt<br>Validierung<br>Validierungsprozess<br>Voreinstellungen</p> </td> 
+      <td scope="col" valign="top"> <p>Schritt Genehmiger<br>Genehmigungsschritt<br>Validierung<br>Genehmigungsprozess<br>Voreinstellungen</p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
@@ -147,17 +147,17 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Ausgabentyp</p> </td> 
-      <td valign="top"> <p>Ausgabentyp<br>Voreinstellungen</p> </td> 
+      <td valign="top"> <p>Kostentyp<br>Voreinstellungen</p> </td> 
       <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 
      <tr> 
       <td valign="top"> <p>Stundentyp</p> </td> 
-      <td valign="top"> <p>Stündentyp<br>Voreinstellungen</p> </td> 
+      <td valign="top"> <p>Voreinstellungen für den Stundtyp<br></p> </td> 
       <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 
      <tr> 
       <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Team Member<br>Team<br>Voreinstellungen </td> 
+      <td valign="top"> Team-Mitglied<br>Team<br>Voreinstellungen </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
@@ -168,13 +168,13 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
     </tbody> 
    </table>
 
-1. Klicks **Weitere Optionen** um die vollständige Liste der Objekte anzuzeigen.
+1. Klicken Sie auf **Mehr Optionen** , um die vollständige Liste der Objekte anzuzeigen.
 
    Alle hier aufgelisteten Objekte können auch zum Importieren von Daten in Workfront verwendet werden.
 
-   Die einzige Ausnahme ist die **Zugriffsebenen** -Objekt. Das Datenblatt Zugriffsebenen , das in einem Export enthalten ist, dient nur zu Referenzzwecken. Damit können Sie einem neuen Benutzerkonto anhand der Kennung eine Zugriffsstufe zuweisen.
+   Die einzige Ausnahme ist das Objekt **Zugriffsebenen** . Das Datenblatt Zugriffsebenen , das in einem Export enthalten ist, dient nur zu Referenzzwecken. Damit können Sie einem neuen Benutzerkonto anhand der Kennung eine Zugriffsstufe zuweisen.
 
-   Weitere Informationen zum Importieren von Daten in Workfront über Schnellstarts finden Sie unter [Daten mithilfe einer Kick-Start-Vorlage in Adobe Workfront importieren](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). Im Folgenden finden Sie eine Liste aller Objekte, die über Kick-Start exportiert werden können:
+   Weitere Informationen zum Importieren von Daten in Workfront über Kick-Start finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kick-Start-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). Im Folgenden finden Sie eine Liste aller Objekte, die über Kick-Start exportiert werden können:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -190,7 +190,7 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
     <tbody> 
      <tr> 
       <td scope="col" valign="top">Zugriffsebene</td> 
-      <td scope="col" valign="top">Zugriffsstufe<br>Voreinstellungen</td> 
+      <td scope="col" valign="top">Zugriffsebene<br>Voreinstellungen</td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -210,12 +210,12 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
      </tr> 
      <tr> 
       <td scope="col" valign="top">Ausgabe</td> 
-      <td valign="top"> Ausgaben<br>Voreinstellungen </td> 
+      <td valign="top"> Kosten<br>Voreinstellungen </td> 
       <td scope="col" valign="top"> Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Externe Seite</td> 
-      <td valign="top"> Externe Seite<br>Voreinstellungen </td> 
+      <td valign="top"> Voreinstellungen für externe Seiten<br> </td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -225,12 +225,12 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
      </tr> 
      <tr> 
       <td valign="top">Gruppe</td> 
-      <td valign="top"> Gruppe<br>Voreinstellungen  </td> 
+      <td valign="top"> Group<br>Preferences  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Gruppierung</td> 
-      <td valign="top"> Gruppierung<br>Voreinstellungen </td> 
+      <td valign="top"> Grouping<br>Preferences </td> 
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
@@ -245,7 +245,7 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
      </tr> 
      <tr> 
       <td valign="top">Aufgabengebiet</td> 
-      <td valign="top"> Auftragsrolle<br>Voreinstellungen </td> 
+      <td valign="top"> Vorgangsrolle<br>Voreinstellungen </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -265,22 +265,22 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
      </tr> 
      <tr> 
       <td valign="top">Projekt</td> 
-      <td valign="top"> Warteschlange<br>Projekt<br>Routing-Regel<br>Warteschlangenthema<br>Voreinstellungen </td> 
+      <td valign="top"> Queue<br>Project<br>Routing Rule<br>Queue Topic<br>Preferences </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Ressourcenkalkulation</td> 
-      <td valign="top"> Ressourcenschätzung<br>Voreinstellungen </td> 
+      <td valign="top"> Resource Estimate<br>Preferences </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Ressourcenpool</td> 
-      <td valign="top"> Ressourcenpool<br>Voreinstellungen </td> 
+      <td valign="top"> Ressourcen-Pool<br>Voreinstellungen </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Risiko</td> 
-      <td valign="top"> Risiko<br>Voreinstellungen  </td> 
+      <td valign="top"> Risk<br>Preferences  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -295,12 +295,12 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
      </tr> 
      <tr> 
       <td valign="top">Aufgabe</td> 
-      <td valign="top"> Aufgabe<br>Voreinstellungen </td> 
+      <td valign="top"> Task<br>Preferences </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Vorlage</td> 
-      <td valign="top"> Warteschlange<br>Vorlage<br>Routing-Regel<br>Warteschlangenthema<br>Voreinstellungen </td> 
+      <td valign="top"> Queue<br>Template<br>Routing Rule<br>Queue Topic<br>Preferences </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
@@ -315,22 +315,22 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
      </tr> 
      <tr> 
       <td valign="top">Arbeitszeittabelle</td> 
-      <td valign="top"> Datenblatt-Profil<br>Datenblatt<br>Voreinstellungen </td> 
+      <td valign="top"> Timesheet-Profil<br>Timesheet<br>Voreinstellungen </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
       <td valign="top"> Anzeigen </td> 
-      <td valign="top"> Ansicht<br>Voreinstellungen  </td> 
+      <td valign="top"> Anzeigen<br>Voreinstellungen  </td> 
       <td valign="top">ZIP</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicks **Herunterladen.**
+1. Klicken Sie auf **Herunterladen.**
 
-   Die exportierte Schnellstartdatei wird entweder als Excel-Datei oder als heruntergeladen. ZIP-Datei mit mehreren Excel- und Eigenschaftendateien. Jede Excel-Datei ist eine Zusammenstellung von Arbeitsblättern, wobei jedes Blatt ein Feld darstellt, das mit dem ausgewählten Objekt verknüpft ist. Es gibt eine **Eigenschaften** mit jedem Export verknüpftes Blatt.
+   Die exportierte Schnellstartdatei wird entweder als Excel-Datei oder als heruntergeladen. ZIP-Datei mit mehreren Excel- und Eigenschaftendateien. Jede Excel-Datei ist eine Zusammenstellung von Arbeitsblättern, wobei jedes Blatt ein Feld darstellt, das mit dem ausgewählten Objekt verknüpft ist. Jedem Export ist ein **Eigenschaften** -Blatt zugeordnet.
 
-   Die **Dashboard** und **Bericht** können Sie bestimmte Dashboards und Berichte auswählen, die in den Download aufgenommen werden sollen. Sie können nur Dashboards exportieren, die systemweit freigegeben sind.
+   Mit den Optionen **Dashboard** und **Bericht** können Sie bestimmte Dashboards und Berichte auswählen, die in den Download aufgenommen werden sollen. Sie können nur Dashboards exportieren, die systemweit freigegeben sind.
 
    Matrix-Berichte können nicht exportiert werden. Weitere Informationen zu Matrix-Berichten finden Sie unter [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 

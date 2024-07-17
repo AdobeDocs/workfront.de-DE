@@ -36,7 +36,7 @@ Zuerst müssen Sie zwei Datensatztypen miteinander verbinden oder einen Datensat
 
 Das Verbinden von Datensätzen ähnelt dem Verbinden von Datensätzen mit Objekten aus einer anderen Anwendung.
 
-Informationen zum Verbinden von Datensatztypen untereinander oder mit Objekttypen aus anderen Anwendungen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+Informationen zum Verbinden von Datensatztypen untereinander oder mit Objektarten aus anderen Anwendungen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 Ein Beispiel für das Verbinden von Datensatztypen finden Sie unter [Beispiel für das Verbinden von Datensatztypen und Datensätzen](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
@@ -77,7 +77,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <td>Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Um Adobe Workfront Planning-Datensätze mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit dem Adobe Unified Experience integriert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>.</p>
+   <p>Um Adobe Workfront Planning-Datensätze mit Experience Manager Assets zu verbinden, müssen Sie über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit dem Adobe Unified Experience integriert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
@@ -122,7 +122,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -167,7 +167,7 @@ Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgen
    * [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md)
    * [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
 
-* Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und Objekten aus anderen Anwendungen. Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und Objekten aus anderen Anwendungen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Datensätze aus der Workfront-Planung verbinden
 
@@ -179,8 +179,8 @@ Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgen
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
-1. Wählen Sie eine **Verzeichnis** Ansicht von **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
-1. (Optional) Fügen Sie dem ausgewählten Datensatztyp durch Hinzufügen einer neuen Zeile zur Tabelle Datensätze hinzu. Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md).
+1. Wählen Sie eine **Tabellenansicht** aus dem Dropdown-Menü **Ansicht** in der oberen rechten Ecke der Seite mit dem Datensatztyp aus.
+1. (Optional) Fügen Sie dem ausgewählten Datensatztyp durch Hinzufügen einer neuen Zeile zur Tabelle Datensätze hinzu. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit einem anderen Datensatztyp verbunden haben, wechseln Sie zur verknüpften Datensatzspalte und doppelklicken Sie auf die Zelle, die dem Datensatz entspricht, den Sie mit anderen Datensätzen verknüpfen möchten.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
@@ -189,9 +189,9 @@ Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgen
 
    * Klicken Sie in der Liste auf den Namen eines verbundenen Datensatzes, um ihn zum ausgewählten Datensatz hinzuzufügen. Der Datensatz wird automatisch hinzugefügt.
    * Geben Sie den Namen eines Datensatzes ein und klicken Sie darauf, wenn er in der Liste angezeigt wird. Der Datensatz wird automatisch hinzugefügt.
-   * Klicks **Alle anzeigen** , um alle Datensätze anzuzeigen.
+   * Klicken Sie auf **Alle anzeigen** , um alle Datensätze anzuzeigen.
 
-1. (Bedingt) Wenn Sie auf **Alle auswählen** im vorherigen Schritt die Variable **Objekte verbinden** angezeigt.
+1. (Bedingt) Wenn Sie im vorherigen Schritt auf **Alle auswählen** geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -199,11 +199,11 @@ Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgen
 
    Oder
 
-   Wählen Sie den Namen eines oder mehrerer Datensätze im Feld aus und klicken Sie auf **Objekte verbinden** in der oberen rechten Ecke des Felds &quot;Objekte verbinden&quot;ein.
+   Wählen Sie den Namen eines oder mehrerer Datensätze im Feld aus und klicken Sie dann oben rechts im Feld &quot;Objekte verbinden&quot;auf **Objekte verbinden** .
 
    >[!TIP]
    >
-   >    Sie können die Seite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das verbundene Feld klicken (wenn bereits Datensätze verbunden sind) oder auf **Datensätze verbinden** (wenn das Feld leer ist), um Datensätze aus dem verbundenen Datensatz oder Objekttyp hinzuzufügen.
+   >    Sie können die Seite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das verbundene Feld klicken (wenn bereits Datensätze verbunden sind) oder auf **Datensätze verbinden** (wenn das Feld leer ist) klicken, um Datensätze aus dem verbundenen Datensatz oder Objekttyp hinzuzufügen.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -218,16 +218,16 @@ Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgen
    >
    >* &quot;Verknüpfte Felder&quot;und &quot;Suchfelder&quot;werden synonym verwendet.
    >
-   >* Wenn Sie die **Mehrere Datensätze zulassen** festlegen, wenn Sie die Datensatztypen miteinander verbunden haben, werden die Feldwerte für mehrere ausgewählte Objekte entweder durch Kommas getrennt angezeigt oder entsprechend dem ausgewählten Aggregator aggregiert.
+   >* Wenn Sie die Einstellung **Mehrere Datensätze zulassen** aktiviert haben, als Sie die Datensatztypen verbunden haben, werden die Werte der Felder für die ausgewählten Objekte entweder durch Kommas getrennt oder gemäß dem ausgewählten Aggregator aggregiert.
 
 1. (Optional) Schließen Sie die Seite mit dem Datensatztyp und wechseln Sie zum ausgewählten Arbeitsbereich.
 1. Klicken Sie auf die Karte des Datensatztyps, mit dem Sie verknüpft sind.
 
-   Wenn Sie beispielsweise die **Kampagne** mit dem Produktdatensatz aufzeichnen, klicken Sie auf die **Produkt** Karte.
+   Wenn Sie beispielsweise den Datensatz **Kampagne** mit dem Produktdatensatz verbunden haben, klicken Sie auf die Karte **Produkt** .
 
    Die Karte vom Typ Datensatz sollte in der Tabellenansicht geöffnet werden. Wenn nicht, wählen Sie eine Tabellenansicht aus.
 
-   Beachten Sie, dass **Kampagne** Das Feld für verknüpfte Datensätze zeigt die Namen der Kampagnen an, die Sie mit Produkten verknüpft haben, auf der Seite Produktdatensatz-Typ . Durch die Aktualisierung der Campaign-Informationen wird das Campaign-verknüpfte Datensatzfeld für den Produktdatensatz-Typ automatisch aktualisiert.
+   Beachten Sie, dass im Feld **Kampagne** verknüpfter Datensatz die Namen der Kampagnen angezeigt werden, die Sie mit Produkten auf der Seite Produktdatensatz-Typ verknüpft haben. Durch die Aktualisierung der Campaign-Informationen wird das Campaign-verknüpfte Datensatzfeld für den Produktdatensatz-Typ automatisch aktualisiert.
 
 ### Verbinden von Adobe Workfront-Planungsprotokollen mit Workfront-Objekten
 
@@ -246,9 +246,9 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
-1. Wählen Sie eine **Verzeichnis** Ansicht von **Ansicht** Dropdown-Menü.
+1. Wählen Sie eine **Tabellenansicht** aus dem Dropdownmenü **Ansicht** aus.
 
-1. Klicks **Neuer Datensatz**  , um dem ausgewählten Datensatztyp einzelne Datensätze hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md).
+1. Klicken Sie auf **Neuer Datensatz** , um einzelne Datensätze zum ausgewählten Datensatztyp hinzuzufügen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit einem Workfront-Objekttyp verbunden haben, wechseln Sie zur verknüpften Objektspalte und doppelklicken Sie auf die Zelle, die dem Datensatz entspricht, den Sie mit Objekten aus Workfront verknüpfen möchten.
 
    ![](assets/connect-projects-smaller-box-in-table-view.png)
@@ -257,9 +257,9 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
    * Klicken Sie in der Liste auf ein Objekt, um es dem ausgewählten Datensatz hinzuzufügen. Objekte werden alphabetisch aufgelistet. Das Objekt wird automatisch hinzugefügt.
    * Geben Sie den Namen eines Objekts ein und klicken Sie darauf, wenn es in der Liste angezeigt wird. Das Objekt wird automatisch hinzugefügt.
-   * Klicks **Alle anzeigen** , um alle Objekte anzuzeigen, für die Sie mindestens über die entsprechenden Berechtigungen verfügen.
+   * Klicken Sie auf &quot;**See all**&quot;, um alle Objekte anzuzeigen, für die Sie mindestens über die Berechtigung zum Anzeigen verfügen.
 
-1. (Bedingt) Wenn Sie auf **Alle anzeigen** im vorherigen Schritt die Variable **Objekte verbinden** angezeigt.
+1. (Bedingt) Wenn Sie im vorherigen Schritt auf &quot;**See all**&quot;geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -267,7 +267,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
    Oder
 
-   Wählen Sie den Namen eines oder mehrerer Objekte im Feld aus und klicken Sie dann auf **Objekte verbinden** in der oberen rechten Ecke des Felds &quot;Objekte verbinden&quot;ein.
+   Wählen Sie den Namen eines oder mehrerer Objekte im Feld aus und klicken Sie dann oben rechts im Feld &quot;Objekte verbinden&quot;auf **Objekte verbinden** .
 
    >[!IMPORTANT]
    >
@@ -282,9 +282,9 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
    >[!TIP]
    >
-   >Sie können die Seite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das **+** im Feld, um Objekte aus dem verbundenen Objekttyp hinzuzufügen.
+   >Sie können die Seite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das Symbol **+** im Feld klicken, um Objekte aus dem verbundenen Objekttyp hinzuzufügen.
 
-   Weitere Informationen zum Verbinden von Datensatztypen mit Objekten aus einer anderen Anwendung finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Weitere Informationen zum Verbinden von Datensatztypen mit Objekten aus einer anderen Anwendung finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. (Optional) Klicken Sie entweder im verknüpften Feld einer Tabellenansicht oder im verknüpften Feld auf der Datensatzseite auf den Namen eines Workfront-Objekts, das mit einem Workfront-Planungsdatensatz verbunden ist.
 
@@ -296,13 +296,13 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
    >
    >* Für die verknüpften Workfront-Objekte in Workfront wird kein verknüpftes Datensatzfeld erstellt.
 
-1. (Optional) Bewegen Sie in der Tabellenansicht des Datensatztyps den Mauszeiger über die Spaltenüberschrift des verknüpften Workfront-Objekts, klicken Sie auf das Dropdown-Menü und klicken Sie auf **Suchfelder bearbeiten**.
+1. (Optional) Bewegen Sie in der Tabellenansicht des Datensatztyps den Mauszeiger über die Spaltenüberschrift des verknüpften Workfront-Objekts, klicken Sie auf das Dropdown-Menü und klicken Sie dann auf **Suchfelder bearbeiten**.
 
-1. Fügen Sie Workfront-Objektfelder aus der **Nicht ausgewählte Felder** area
+1. Hinzufügen von Workfront-Objektfeldern aus dem Bereich **Nicht ausgewählte Felder**
 
    Oder
 
-   Entfernen Sie Workfront-Objektfelder aus dem **Ausgewählte Felder** Bereich.
+   Entfernen Sie Workfront-Objektfelder aus dem Bereich **Ausgewählte Felder** .
 
    Dadurch werden verknüpfte Felder zu den Workfront-Planungsdatensätzen hinzugefügt oder daraus entfernt. Die mit den entfernten Feldern verknüpften Informationen verbleiben in Workfront.
 
@@ -315,7 +315,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 >
 >Sie müssen über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, um Workfront Planning-Datensätze mit Adobe Experience Manager Assets verbinden zu können.
 >
->Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Wenn Sie Fragen zum Einstieg in Adobe Admin Console haben, lesen Sie die [FAQ zum einheitlichen Erlebnis für Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Manager Assets hergestellt haben, können Sie einzelne Datensätze mit Experience Manager-Assets verbinden. Die Asset-Felder, mit denen Sie eine Verbindung aus Experience Manager Assets hergestellt haben, werden automatisch in den Datensatztyp eingetragen, von dem aus Sie die Verbindung hergestellt haben.
 
@@ -330,16 +330,16 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
-1. Wählen Sie eine **Verzeichnis** Ansicht von **Ansicht** Dropdown-Menü in der oberen rechten Ecke der Seite vom Typ Datensatz.
+1. Wählen Sie eine **Tabellenansicht** aus dem Dropdown-Menü **Ansicht** in der oberen rechten Ecke der Seite mit dem Datensatztyp aus.
 
-1. (Optional) Klicken Sie auf **Neuer Datensatz** , um dem ausgewählten Datensatztyp neue Datensätze hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md).
-1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit Experience Manager Assets verbunden haben, wechseln Sie zur verknüpften Objektspalte und bewegen Sie den Mauszeiger über die Zelle, die dem Datensatz entspricht, den Sie mit anderen Objekten aus Experience Manager verknüpfen möchten. Klicken Sie dann auf die Schaltfläche **+** Symbol.
+1. (Optional) Klicken Sie auf **Neuer Datensatz** , um dem ausgewählten Datensatztyp neue Datensätze hinzuzufügen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit Experience Manager Assets verbunden haben, wechseln Sie zur verknüpften Objektspalte und bewegen Sie den Mauszeiger über die Zelle, die dem Datensatz entspricht, den Sie mit anderen Objekten aus Experience Manager verknüpfen möchten, und klicken Sie dann auf das Symbol **+** .
 
    >[!TIP]
    >
-   >  Klicken Sie auf das **+** im Feld verknüpftes Objekt auf der Datensatzseite, um Assets mit dem Datensatz zu verbinden.
+   >  Sie können das Symbol **+** im verknüpften Objektfeld auf der Datensatzseite hinzufügen, um Assets mit dem Datensatz zu verbinden.
 
-   Die **Assets auswählen** angezeigt. <!--we might change this to Connect assets-->
+   Das Feld **Assets auswählen** wird angezeigt. <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -354,7 +354,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
    >
    > Sie können nur Assets verbinden, auf die Sie Zugriff haben, um sie in Experience Manager anzuzeigen. Nach der Verbindung können alle Benutzer der Workfront-Planung die Assets in der Workfront-Planung anzeigen, unabhängig vom Zugriff auf die Assets in Experience Manager Assets.
 
-1. Klicks **Auswählen**. <!-- we might change this to Connect-->
+1. Klicken Sie auf **Select**. <!-- we might change this to Connect-->
 
    Folgendes wird hinzugefügt:
 
@@ -385,17 +385,17 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
    * Erstellungsdatum
    * Änderungsdatum
 
-1. (Optional) Um die Datensatzseite für Experience Manager-Assets in Experience Manager zu öffnen, wechseln Sie zur Seite mit dem Datensatztyp des Datensatzes, von dem Sie die Verknüpfung herstellen, klicken Sie auf den Namen eines Assets im verknüpften Datensatzfeld, um das Popup-Fenster zu öffnen, und klicken Sie dann auf das **In AEM öffnen** icon ![](assets/open-asset-icon.png) , um das Asset zu öffnen.
+1. (Optional) Um die Datensatzseite für Experience Manager-Assets in Experience Manager zu öffnen, wechseln Sie zur Seite mit dem Datensatztyp des Datensatzes, von dem Sie die Verknüpfung herstellen, klicken Sie auf den Namen eines Assets im verknüpften Datensatzfeld, um das Popup-Fenster zu öffnen, und klicken Sie dann auf das Symbol **In AEM öffnen** ![](assets/open-asset-icon.png) , um das Asset zu öffnen.
 
    Dadurch wird das Experience Manager-Asset in Adobe Experience Manager Assets geöffnet.
 
-1. (Optional) Bewegen Sie in der Tabellenansicht des Datensatztyps den Mauszeiger über die Spaltenüberschrift des verknüpften Experience Manager-Assets, klicken Sie auf das Dropdown-Menü und klicken Sie auf **Suchfelder bearbeiten**.
+1. (Optional) Bewegen Sie in der Tabellenansicht des Datensatztyps den Mauszeiger über die Spaltenüberschrift des verknüpften Experience Manager-Assets, klicken Sie auf das Dropdown-Menü und klicken Sie dann auf **Suchfelder bearbeiten**.
 
-1. Fügen Sie Experience Manager Assets-Objektfelder aus der **Nicht ausgewählte Felder** area
+1. Hinzufügen von Experience Manager Assets-Objektfeldern aus dem Bereich **Nicht ausgewählte Felder**
 
    Oder
 
-   Entfernen Sie Workfront-Objektfelder aus dem **Ausgewählte Felder** Bereich.
+   Entfernen Sie Workfront-Objektfelder aus dem Bereich **Ausgewählte Felder** .
 
    Dadurch werden verknüpfte Felder aus den Datensätzen hinzugefügt oder entfernt. Die mit den entfernten Feldern verknüpften Informationen verbleiben unter Adobe Experience Assets.
 
@@ -407,4 +407,4 @@ Sie müssen über Folgendes verfügen, um Workfront Planning-Datensätze aus Wor
 * Mindestens eine Verbindung zwischen einem Datensatz und einem Workfront-Objekt.
 * Ihr Workfront- oder Gruppenadministrator muss den Bereich Planung zu den Workfront-Objekttypen hinzufügen, die eine Verbindung zu den Datensatztypen für die Planung herstellen können.
 
-Weitere Informationen finden Sie unter [Verwalten von Datensätzen im Bereich &quot;Planung&quot;von Adobe Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Weitere Informationen finden Sie unter [Verwalten von Datensätzen im Abschnitt &quot;Planung&quot;von Adobe Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

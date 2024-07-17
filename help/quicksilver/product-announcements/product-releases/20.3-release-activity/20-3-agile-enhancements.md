@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 
-Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Wählen Sie aus, wie lange Karten auf der Kanban-Pinnwand bleiben
 
@@ -26,7 +26,7 @@ Jetzt können Sie wählen, wie lange die fertigen Karten auf dem Kanban-Board bl
 
 Zuvor wurden die Karten nach 14 Tagen vom Kanban-Board abgesetzt.
 
-Weitere Informationen finden Sie unter [Kanban konfigurieren](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Weitere Informationen finden Sie unter [Konfigurieren von Kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ## Agile Boards laden 50 Arbeitselemente gleichzeitig
 

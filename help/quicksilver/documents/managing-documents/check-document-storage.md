@@ -26,12 +26,12 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-Abo</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-Plan</a>*</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Überblick über veraltete Lizenzen</a>*</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein. Informationen zu Workfront-Administratoren finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen zu Workfront-Administratoren finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,9 +40,9 @@ Sie müssen über Folgendes verfügen:
 
 ## Dokumentenspeicher überprüfen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 1. Klicken Sie im linken Bereich auf **System** > **Kundeninformationen**.
-1. Im **Grundlegende Informationen** finden Sie **Speicherkontingent**. Hier können Sie sehen, wie viel Speicher Sie derzeit verwenden und wie viel Gesamtspeicher Ihr Workfront-Plan beinhaltet.
+1. Suchen Sie im Abschnitt **Grundlegende Informationen** nach **Speicherkontingent**. Hier können Sie sehen, wie viel Speicher Sie derzeit verwenden und wie viel Gesamtspeicher Ihr Workfront-Plan beinhaltet.
 
 Das Speicherkontingent wird täglich aktualisiert, um die aktuellste Anzahl anzuzeigen.
 

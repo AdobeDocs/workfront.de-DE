@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Zugriff auf Adobe Workfront-Ziele gewähren
 
-Als Adobe Workfront-Administrator können Sie mithilfe einer Zugriffsebene den Zugriff eines Benutzers auf Adobe Workfront-Ziele definieren, wie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Als Adobe Workfront-Administrator können Sie mithilfe einer Zugriffsebene den Zugriff eines Benutzers auf Adobe Workfront-Ziele definieren, wie in der Übersicht über die Zugriffsebenen [1} erläutert.](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 ## Zugriffsanforderungen
 
@@ -41,7 +41,7 @@ Sie müssen über Folgendes verfügen, um Benutzern Zugriff auf Workfront-Ziele 
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene*</td> 
-   <td> <p>Sie müssen über die Zugriffsstufe Systemadministrator verfügen.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen über die Zugriffsstufe Systemadministrator verfügen.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,8 +52,8 @@ Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Vorausse
 
 ## Gewähren des Benutzerzugriffs auf Workfront-Ziele mithilfe einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie hier beschrieben: [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Klicken Sie auf die Option rechts neben **Ziele** die Sie für diese Zugriffsebene verwenden möchten.
+1. Beginnen Sie mit der Erstellung oder Bearbeitung der Zugriffsebene, wie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) beschrieben.
+1. Klicken Sie auf die Option rechts neben **Ziele** , die Sie für diese Zugriffsebene verwenden möchten.
 
    ![](assets/edit-access-level-goals.png)
 
@@ -61,7 +61,7 @@ Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Vorausse
    >
    >Der externe Lizenztyp erlaubt keinen Zugriff auf Workfront-Ziele anzeigen oder bearbeiten.
 
-1. (Optional) Um die Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene zu konfigurieren, an der Sie arbeiten, fahren Sie mit einem der Artikel fort, die unter [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Optional) Um die Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene zu konfigurieren, an der Sie arbeiten, fahren Sie mit einem der unter [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) aufgelisteten Artikel fort, z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 ## Zugriff auf Workfront-Ziele nach Lizenztyp

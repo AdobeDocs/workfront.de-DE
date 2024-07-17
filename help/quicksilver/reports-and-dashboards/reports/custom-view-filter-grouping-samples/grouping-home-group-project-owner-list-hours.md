@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Gruppierung: Gruppe des Projekteigentümers in einer Liste von Stunden'
+title: "Gruppierung: Home Group of Project Owner in a list of hours"
 description: Sie können den Namen der Home-Gruppe des Projekteigentümers in einer Stündliste oder einem Bericht anzeigen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
 
-# Gruppierung: Startseite Gruppe des Projekteigentümers in einer Liste von Stunden
+# Gruppierung: Gruppe des Projekteigentümers in einer Liste von Stunden
 
 Sie können den Namen der Home-Gruppe des Projekteigentümers in einer Stündliste oder einem Bericht anzeigen.
 
@@ -32,7 +32,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -47,7 +47,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,14 +59,14 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So wenden Sie diese Gruppierung an:
 
 1. Rufen Sie eine Liste der Stunden auf.
-1. Aus dem **Gruppierung** Dropdown-Menü auswählen **Neue Gruppierung**.
+1. Wählen Sie aus dem Dropdownmenü **Gruppierung** die Option **Neue Gruppierung** aus.
 
-1. Klicken **In den Textmodus wechseln**.
-1. Entfernen Sie den Text im **Gruppieren Ihres Berichts** Bereich.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Entfernen Sie den Text im Bereich **Gruppieren Sie Ihren Bericht** .
 1. Ersetzen Sie den Text durch den folgenden Code:
 
    ```
    group.0.displayname=Home Group of Project Owner<br>group.0.valuefield=project:owner:homeGroup:name<br>group.0.valueformat=HTML<br>group.1.displayname=Project Owner<br>group.1.linkedname=projectOwnerMM<br>group.1.namekey=view.relatedcolumn<br>group.1.namekeyargkey.0=projectOwnerMM<br>group.1.namekeyargkey.1=name<br>group.1.valuefield=projectOwnerMM:name<br>group.1.valueformat=string<br>group.2.displayname=Project Name<br>group.2.linkedname=project<br>group.2.namekey=view.relatedcolumn<br>group.2.namekeyargkey.0=project<br>group.2.namekeyargkey.1=name<br>group.2.valuefield=project:name<br>group.2.valueformat=string<br>textmode=true
    ```
 
-1. Klicken **Gruppierung speichern**.
+1. Klicken Sie auf **Gruppierung speichern**.

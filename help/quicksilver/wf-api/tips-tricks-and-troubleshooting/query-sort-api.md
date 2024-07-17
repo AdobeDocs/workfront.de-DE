@@ -23,6 +23,6 @@ Sie können Ihre Ergebnisse nach jedem Feld sortieren, wenn Sie Folgendes an Ihr
 &entryDate_Sort=asc
 ```
 
-Wenn Sie beispielsweise nach Aufgabe &quot;Geplantes Startdatum&quot;sortieren möchten, entfernen Sie `entryDate` und ersetzen Sie sie durch `plannedCompletionDate`.
+Wenn Sie beispielsweise nach Aufgabe &quot;Geplantes Startdatum&quot;sortieren möchten, entfernen Sie `entryDate` und ersetzen Sie es durch `plannedCompletionDate`.
 
 Dies funktioniert für die meisten Felder in Adobe Workfront.

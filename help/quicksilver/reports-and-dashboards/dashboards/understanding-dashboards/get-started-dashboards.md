@@ -41,7 +41,7 @@ Sie müssen über Folgendes verfügen:
    <td> <p>Neu: Mitarbeiter oder höher</p><p>Oder</p><p>Aktuell: Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Zugriffsstufe</strong> </td> 
+   <td><strong>Zugriffsebene</strong> </td> 
    <td> <p>Zugriff auf Berichte, Dashboards und Kalender anzeigen oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ Sie können ein Dashboard mit den folgenden Elementen in Adobe Workfront füllen
   Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Kalender\
-  Weitere Informationen zum Erstellen von Kalendern finden Sie unter [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+  Weitere Informationen zum Erstellen von Kalendern finden Sie unter [Übersicht über Kalenderberichte](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 * Externe Seiten\
   Weitere Informationen zum Erstellen externer Seiten finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
@@ -78,10 +78,10 @@ Sie können ein Dashboard wie folgt für Benutzer freigeben:
   Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Berichte, Dashboards und Kalender freigeben](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) und [Dashboard freigeben](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
 * Fügen Sie jedem Bereich oder Objekt in Workfront mit einem benutzerdefinierten Bereich ein Dashboard hinzu.\
-  Weitere Informationen zum Erstellen benutzerdefinierter Abschnitte finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+  Weitere Informationen zum Erstellen benutzerdefinierter Abschnitte finden Sie unter [Linke Navigation in der Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Platzieren Sie die Dashboards in Layout-Vorlagen, die Sie für Benutzer freigeben können.\
-  Weitere Informationen zum Freigeben von Dashboards über Layoutvorlagen finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+  Weitere Informationen zum Freigeben von Dashboards über Layoutvorlagen finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 * Drucken Sie eine Kopie davon, um sie für Benutzer freizugeben.\
   Weitere Informationen zum Drucken von Dashboards finden Sie unter [Drucken eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
@@ -106,23 +106,23 @@ Sie können ein Dashboard wie folgt anzeigen:
 
 ## Zugriff auf ein Dashboard
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Dashboards**.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Dashboards**.
 1. Bewegen Sie den Mauszeiger über die linke Seitenleiste und wählen Sie eine der folgenden Optionen aus:
 
-   * **Meine Dashboards**: Hier werden die von Ihnen erstellten Dashboards aufgelistet.
+   * **Meine Dashboards**: Dashboards, die Sie erstellt haben, sind hier aufgeführt.
 
      >[!TIP]
      >
      >Wenn Sie auf Ihrer Zugriffsebene keinen Zugriff auf Berichte, Dashboards und Kalender bearbeiten haben, können Sie keine Dashboards erstellen. In diesem Fall ist die Liste Meine Dashboards leer.
 
-   * **Freigegebene Dashboards**: Dashboards, die von anderen Benutzern erstellt und für Sie freigegeben werden, sind hier aufgeführt.
-   * **Alle Dashboards**: Hier werden sowohl Ihre Dashboards als auch Dashboards aufgelistet, die andere Benutzer für Sie freigegeben haben.
+   * **Freigegebene Dashboards**: Dashboards, die von anderen Benutzern erstellt und für Sie freigegeben wurden, werden hier aufgelistet.
+   * **Alle Dashboards**: Hier finden Sie sowohl Ihre Dashboards als auch Dashboards, die andere Benutzer für Sie freigegeben haben.
 
-   ![Bereich &quot;Dashboards&quot;](assets/dashboards-area.png)
+   ![Dashboards-Bereich](assets/dashboards-area.png)
 
 1. Klicken Sie auf den Namen eines Dashboards, um es anzuzeigen.\
    Das Dashboard zeigt die Informationen an, die in den Berichten, Kalendern oder externen Seiten enthalten sind, auf denen die Daten gespeichert sind.
-1. (Optional und bedingt) Klicken Sie auf die **Neu laden** rechts oben im Dashboard angezeigt, um die Informationen im Dashboard zu aktualisieren.\
+1. (Optional und bedingt) Klicken Sie oben rechts im Dashboard auf das Symbol **Neu laden** , um die Informationen im Dashboard zu aktualisieren.\
    Die Informationen im Dashboard werden beim ersten Zugriff in Echtzeit synchronisiert. Wenn Sie das Dashboard bereits seit einiger Zeit im Browser angezeigt haben, sind die Informationen in den Berichten im Dashboard möglicherweise veraltet. Das Datum und die Uhrzeit der letzten Aktualisierung des Dashboards werden links neben diesem Symbol angezeigt.\
    ![Symbol &quot;Neu laden&quot;](assets/dashboard-reload-icon.png)
 
@@ -130,4 +130,4 @@ Sie können ein Dashboard wie folgt anzeigen:
 
 Wenn Sie ein Dashboard aus Workfront entfernen möchten, können Sie es löschen.
 
-Weitere Informationen finden Sie unter [Dashboard löschen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
+Weitere Informationen finden Sie unter [Löschen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).

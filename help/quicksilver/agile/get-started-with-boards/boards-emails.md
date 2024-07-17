@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] [!UICONTROL Pinnwände] sendet Ihnen eine E-Mail, wenn Sie einer Pinnwand hinzugefügt werden und wenn Ihnen eine Karte zugewiesen ist. Die Benachrichtigungen sind standardmäßig aktiviert und Sie können in Ihren Vorlageneinstellungen auswählen, welche E-Mails Sie erhalten möchten.
 
-Je nach den Einstellungen für E-Mail-Benachrichtigungen erhalten Sie auch eine E-Mail, wenn Sie in einem Kommentar auf einer verbundenen Karte getaggt sind. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Derzeit erhalten Benutzer, die in Kommentaren auf Ad-hoc-Karten getaggt wurden, keine E-Mail-Benachrichtigung.
+Je nach den Einstellungen für E-Mail-Benachrichtigungen erhalten Sie auch eine E-Mail, wenn Sie in einem Kommentar auf einer verbundenen Karte getaggt sind. Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Derzeit erhalten Benutzer, die in Kommentaren auf Ad-hoc-Karten getaggt wurden, keine E-Mail-Benachrichtigung.
 
 ## Zugriffsanforderungen
 
@@ -31,8 +31,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -41,13 +41,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Festlegen von Voreinstellungen für Pinnwände-E-Mails
 
 {{step1-to-boards}}
 
-1. Klicks [!UICONTROL **Voreinstellungen**] im Dashboard der Pinnwände.
+1. Klicken Sie im Dashboard der Pinnwände auf [!UICONTROL **Voreinstellungen**] .
 1. Wählen Sie aus, ob Sie E-Mails erhalten möchten, die zu einer Pinnwand hinzugefügt und einer Karte zugewiesen werden.
 
    ![E-Mail-Voreinstellungen für Pinnwände](assets/boards-email-preferences.png)

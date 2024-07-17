@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Systemstandardwerte konfigurieren
-description: Als [!DNL Adobe Workfront] -Administrator können Sie die Systemstandardeinstellungen konfigurieren, z. B. die Voreinstellungen für alle von Ihren Benutzern erstellten Projekte.
+description: Als [!DNL Adobe Workfront] Administrator können Sie die Systemstandardeinstellungen konfigurieren, z. B. die Voreinstellungen für alle von Ihren Benutzern erstellten Projekte.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -27,7 +27,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Anfragetypen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [Anpassen von Standardausgabetypen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [Standardfilter, Ansichten und Gruppierungen erstellen, bearbeiten und freigeben](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-* [Konfigurieren [!UICONTROL Ressourcenverwaltung] Voreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+* [Voreinstellungen für die [!UICONTROL Ressourcenverwaltung] konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [Risikotypen bearbeiten und erstellen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [Benutzerdefinierte Ausgabentypen erstellen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [Scorecard erstellen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)

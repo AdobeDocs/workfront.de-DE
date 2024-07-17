@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Version 3"2017.2
-description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Beta 2-Version 2017.2 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 24. Mai 2017 in der Vorschau-Umgebung bereitgestellt. Es wird von Ende Juli bis Anfang August 2017 in der Produktionsumgebung zur Verfügung gestellt.
+title: Beta 3-Release-Aktivität 2017.2
+description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschauumgebung mit Beta 2 Version 2017.2 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 24. Mai 2017 in der Vorschau-Umgebung bereitgestellt. Es wird von Ende Juli bis Anfang August 2017 in der Produktionsumgebung zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta-Version 3&quot;2017.2
+# Beta 3-Release-Aktivität 2017.2
 
-Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Beta 2-Version 2017.2 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 24. Mai 2017 in der Vorschau-Umgebung bereitgestellt. Es wird von Ende Juli bis Anfang August 2017 in der Produktionsumgebung zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschauumgebung mit Beta 2 Version 2017.2 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 24. Mai 2017 in der Vorschau-Umgebung bereitgestellt. Es wird von Ende Juli bis Anfang August 2017 in der Produktionsumgebung zur Verfügung gestellt.
 
 >[!IMPORTANT]
 >
 >Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2017.2 vorgenommen wurden, finden Sie unter [Übersicht über die Versionsaktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2017.2 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-Die Beta-Version 2017.2 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Beta 2-Version 2017.2 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren:**
 
@@ -34,13 +34,13 @@ Die Beta-Version 2017.2 enthält Verbesserungen für Workfront-Administratoren u
 **Für alle Benutzer:** 
 
 * [Abonnierte Benutzer anzeigen](#view-subscribed-users)
-* [Konfigurieren der Anzeige von Meilensteinen im Gantt-Diagramm](#configure-how-milestones-are-displayed-on-the-gantt-chart)
-* [Schließen Sie beim Exportieren in PDF die Gantt-Diagrammlegende ein.](#include-the-gantt-chart-legend-when-exporting-to-pdf)
+* [Konfigurieren der Anzeige von Meilensteinen auf dem Gantt-Diagramm](#configure-how-milestones-are-displayed-on-the-gantt-chart)
+* [Schließen Sie beim Exportieren in PDF die Gantt-Diagramm-Legende ein](#include-the-gantt-chart-legend-when-exporting-to-pdf)
 * [Anzeigen von Testversandgenehmigungen im Arbeitsbereich (Workfront)](#view-proof-approvals-in-the-my-work-area-workfront)
 * [Anzeigen von Benutzernamen bei der Bearbeitung von Proofing-Genehmigungsanfragen aus meinem Arbeitsbereich (Workfront)](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
 * [Verbesserter Testversand-Viewer für Videosendungen (ProofHQ und Workfront)](#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront)
 * [Anzeigen von Rich-Media-Testsendungen in alternativen Auflösungen (ProofHQ und Workfront)](#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront)
-* [Neues Objekt &quot;Proof Creator&quot;im Bericht &quot;Dokumentversion&quot;(Workfront)](#new-proof-creator-object-in-document-version-report-workfront)
+* [Neues Objekt &quot;Testversand-Ersteller&quot;im Bericht &quot;Dokumentversion&quot;(Workfront)](#new-proof-creator-object-in-document-version-report-workfront)
 * [Neue Ressourcenpool-Funktion vorübergehend aus der Vorschau entfernt](#new-resource-pool-functionality-temporarily-removed-from-preview)
 
 ## Massenwiederherstellung von Elementen aus dem Papierkorb {#restoring-items-in-bulk-from-the-recycle-bin}
@@ -73,7 +73,7 @@ Es gibt jetzt zwei Optionen zum Anzeigen von Meilensteininformationen in einem G
 
 Vor dieser Änderung gab es nur eine Option, mit der Meilensteine in einem Gantt-Diagramm angezeigt werden konnten, die als &quot;Meilensteine&quot;bezeichnet wurde. Mit dieser Option wurden sowohl das Meilensteindiamantensymbol als auch die Meilensteinlinie aktiviert. Diese Indikatoren konnten nicht getrennt werden.
 
-Weitere Informationen zum Konfigurieren der Anzeige von Informationen in der Gantt-Grafik finden Sie unter [Konfigurieren der Anzeige von Informationen im Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+Weitere Informationen zum Konfigurieren der Anzeige von Informationen im Gantt-Diagramm finden Sie unter [Konfigurieren der Anzeige von Informationen im Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 ## Schließen Sie beim Exportieren in PDF die Gantt-Diagrammlegende ein. {#include-the-gantt-chart-legend-when-exporting-to-pdf}
 
@@ -81,7 +81,7 @@ Wenn Sie das Gantt-Diagramm in eine PDF exportieren, können Sie jetzt auswähle
 
 Vor dieser Änderung konnten Sie die Legende nicht aus der exportierten PDF ausschließen. Die Legende enthielt alle möglichen Optionen und Markierungen des Gantt, unabhängig davon, ob sie in der Benutzeroberfläche aktiviert waren oder vorhanden waren.
 
-Weitere Informationen zum Exportieren der Gantt-Grafik finden Sie unter [Gantt-Diagramm in PDF exportieren](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+Weitere Informationen zum Exportieren des Gantt-Diagramms finden Sie unter [Exportieren des Gantt-Diagramms in PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
 ## Benutzerinformationen werden von Workfront mit ProofHQ synchronisiert (ProofHQ und Workfront). {#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront}
 
@@ -101,15 +101,15 @@ Das neue Testversand-Erstellungsobjekt im Bericht Dokumentversion enthält alle 
 >
 > Diese Informationen sind im Bericht nur ab dem Zeitpunkt verfügbar, zu dem diese Funktion erstmals in der jeweiligen Vorschau- oder Produktionsumgebung eingeführt wurde. Informationen in Berichten zum Anforderungsobjekt, die vor der Einführung dieser Funktion erstellt wurden, sind nicht verfügbar.
 
-Sie greifen beim Erstellen eines Berichts &quot;Dokumentversion&quot;auf das Objekt &quot;Testversand-Erstellung&quot;zu, wie hier beschrieben: [Benutzerdefinierten Bericht erstellen](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Sie greifen beim Erstellen eines Berichts &quot;Dokumentversion&quot;auf das Objekt &quot;Testversand-Erstellung&quot;zu, wie unter [Benutzerdefinierten Bericht erstellen](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
 
-Weitere Informationen zum Objektbericht für Dokumentversion finden Sie in der [Objekte in Adobe Workfront verstehen](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) Abschnitt in [Objekte in Adobe Workfront verstehen](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zum Objektbericht für Dokumentversion finden Sie im Abschnitt [Objekte in Adobe Workfront verstehen](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) in [Objekte in Adobe Workfront verstehen](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Anzeigen von Testversandgenehmigungen im Arbeitsbereich (Workfront) {#view-proof-approvals-in-the-my-work-area-workfront}
 
-Alle zur Genehmigung eingereichten Testversandgenehmigungen werden jetzt im Bereich Meine Arbeit im **Arbeit, die ich zur Genehmigung eingereicht habe** Registerkarte.
+Alle Testversandgenehmigungen, die Sie zur Genehmigung eingereicht haben, werden jetzt im Bereich Meine Arbeit auf der Registerkarte **Arbeit, die ich zur Genehmigung eingereicht habe** angezeigt.
 
-Vor dieser Änderung muss die Variable **Arbeit, die ich zur Genehmigung eingereicht habe** Der -Tab enthielt keine Testversandgenehmigungen.
+Vor dieser Änderung enthielt der Tab **Arbeit, die ich zur Genehmigung eingereicht habe** keine Testversandgenehmigungen.
 
 Testversandgenehmigungen werden nur angezeigt, wenn die folgenden Kriterien erfüllt sind:
 
@@ -117,13 +117,13 @@ Testversandgenehmigungen werden nur angezeigt, wenn die folgenden Kriterien erf�
 * Der Genehmigungsprozess wird einem Benutzer zugewiesen, der lizenzierter Workfront-Benutzer ist (Genehmigungsprozesse, die Benutzern ohne Workfront-Lizenz zugewiesen sind, werden nicht angezeigt)
 * Die Validierungsprozesse wurden nach Freigabe dieser Funktion initiiert (Validierungsprozesse, die vor der Freigabe dieser Funktion initiiert wurden, werden nicht angezeigt)
 
-Weitere Informationen finden Sie unter [Anzeigen von Genehmigungen](../../../../review-and-approve-work/manage-approvals/view-approvals.md) in [Anzeigen von Genehmigungen](../../../../review-and-approve-work/manage-approvals/view-approvals.md).
+Weitere Informationen finden Sie unter [Genehmigungen anzeigen](../../../../review-and-approve-work/manage-approvals/view-approvals.md) in [Genehmigungen anzeigen](../../../../review-and-approve-work/manage-approvals/view-approvals.md).
 
 ## Anzeigen von Benutzernamen bei der Bearbeitung von Proofing-Genehmigungsanfragen aus meinem Arbeitsbereich (Workfront) {#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront}
 
 Bei der Genehmigung von Testversandgenehmigungen aus dem Bereich &quot;Meine Arbeit&quot;wird nun der Name des Benutzers angezeigt, der die Genehmigung angefordert hat.
 
-Weitere Informationen finden Sie unter [Validierung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Validierung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Weitere Informationen finden Sie unter [Arbeiten genehmigen](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Arbeiten genehmigen](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Verbesserter Testversand-Viewer für Videosendungen (ProofHQ und Workfront) {#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront}
 
@@ -145,7 +145,7 @@ Der neue Testversand-Viewer steht in den folgenden Vorschauumgebungen zum Testen
 
 * ProofHQ-Vorschau-Umgebung
 
-  Weitere Informationen zur ProofHQ-Vorschau-Umgebung finden Sie unter [Vorschau der Sandbox-Testumgebung - Workfront-Testversand](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+  Weitere Informationen zur ProofHQ-Vorschau-Umgebung finden Sie unter [Vorschau der Sandbox-Testumgebung - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
 
 * Workfront-Vorschauumgebung, wenn Ihr Konto für die Prüfung aktiviert ist
 
@@ -167,7 +167,7 @@ Vor dieser Änderung konnten Sie Testsendungen nur mit der Auflösung überprüf
 
 Sie können den Vergleichsmodus verwenden, um verschiedene Testauflösungen zu vergleichen.
 
-Weitere Informationen finden Sie unter [Öffnen Sie Testsendungen im Desktop Proofing Viewer.](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md). 
+Weitere Informationen finden Sie unter [Öffnen von Testsendungen im Desktop Proofing Viewer](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md). 
 
 ## Neue Ressourcenpool-Funktion vorübergehend aus der Vorschau entfernt {#new-resource-pool-functionality-temporarily-removed-from-preview}
 

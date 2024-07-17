@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit der Version 2020.2 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Mai 2020 bereitgestellt.
 
-Eine Liste aller in Version 2020.2 verfügbaren Änderungen finden Sie unter [Versionsübersicht 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 2020.2 verfügbar sind, finden Sie unter [Versionsübersicht 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Für Workfront-Administratoren: In Workfront Classic erstellte, neuere Layoutvorlagen sind jetzt im neuen Workfront-Erlebnis verfügbar
 
@@ -38,7 +38,7 @@ Sie können auch automatisch einen gruppenspezifischen Validierungsprozess an ei
 
 Informationen zum Hinzufügen von Genehmigungsprozessen zu Projekten, Aufgaben und Problemen finden Sie in den folgenden Artikeln:
 
-* [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md)
+* [Bearbeiten von Projekten](../../../manage-work/projects/manage-projects/edit-projects.md)
 * [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
@@ -55,9 +55,9 @@ Benutzerdefinierte Status können jetzt sowohl in Einzelverwendungs- als auch in
 * Erstellen Sie einen Validierungsprozess für einzelne Verwendungszwecke für ein Objekt (Projekt, Aufgabe oder Problem) und basieren Sie es auf Status, die mit der Gruppe verknüpft sind, die an diesem Objekt arbeitet. Dazu gehören alle benutzerdefinierten Status, die mit der Gruppe verknüpft sind.
 * Erstellen Sie einen globalen Genehmigungsprozess und stellen Sie ihn nur für die Gruppe oder für alle im System zur Verfügung.
 
-Für Benutzer mit administrativem Zugriff auf Genehmigungsprozesse finden Sie Informationen zum Konfigurieren von Genehmigungsprozessen unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Erstellen von Validierungsprozessen](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Informationen zum Konfigurieren von Genehmigungsprozessen für Benutzer mit administrativem Zugriff auf Genehmigungsprozesse finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (bzw. bei Verwendung von Adobe Workfront Classic finden Sie unter [Erstellen von Genehmigungsprozessen](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
-Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (bzw. bei Verwendung von Adobe Workfront Classic finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -84,4 +84,4 @@ Um Benutzern die Möglichkeit zu geben, Probleme besser zu testen, zu beheben un
 * Erstellen Sie den Dienst neu, um weniger komplexe Abhängigkeiten zu haben und so effizienter zu skalieren.
 * Verbesserte Überwachung und Warnmeldung
 
-Weitere Informationen finden Sie unter [Häufig gestellte Fragen - Ereignisabos](../../../wf-api/general/event-subs-faq.md) und [Best Practices für Ereignisabonnements](../../../wf-api/general/event-sub-best-practice.md).
+Weitere Informationen finden Sie unter [FAQs - Ereignis-Abonnements](../../../wf-api/general/event-subs-faq.md) und [Best Practices für Ereignisabonnements](../../../wf-api/general/event-sub-best-practice.md).

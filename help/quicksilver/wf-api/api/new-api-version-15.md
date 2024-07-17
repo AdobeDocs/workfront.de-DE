@@ -9,8 +9,8 @@ role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2349'
-ht-degree: 3%
+source-wordcount: '2286'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,7 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
             <p>Dies ist ein internes Objekt.</p>
           </li>
           <li>
-            <p><b>Dauer</b>
+            <p><b>duration</b>
             </p>
             <p>Die Zeitspanne zwischen endDate und startDate.</p>
           </li>
@@ -362,7 +362,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
       <td>
         <ul>
           <li>
-            <p><b>objectCategories
+            <p><b>Objektkategorien
 </b>
             </p>
           </li>
@@ -398,7 +398,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
       <td>
         <ul>
           <li>
-            <p><b>approveID</b>
+            <p><b>GenehmigerID</b>
             </p>
           </li>
           <li>
@@ -410,7 +410,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
             </p>
           </li>
           <li>
-            <p><b>requedDate</b>
+            <p><b>requestDate</b>
             </p>
           </li>
           <li>
@@ -441,11 +441,11 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
             </p>
           </li>
           <li>
-            <p><b>Anfragender</b>
+            <p><b>requestor</b>
             </p>
           </li>
           <li>
-            <p><b>Benutzer</b>
+            <p><b>user</b>
             </p>
           </li>
         </ul>
@@ -471,7 +471,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
       <td >
         <ul>
           <li>
-            <p><b>approveID</b>
+            <p><b>GenehmigerID</b>
             </p>
           </li>
           <li>
@@ -509,7 +509,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
       <td>
         <ul>
           <li>
-            <p><b>HINZUFÜGEN</b>
+            <p><b>ADD</b>
             </p>
           </li>
           <li>
@@ -803,7 +803,7 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
       <td >
         <ul>
           <li>
-            <p><b>Initiative</b>
+            <p><b>initiative</b>
             </p>
             <p>Hinzugefügt.</p>
             <p>Das Objekt Initiative erstellt im Workfront-Szenario-Planer Schätzungen für die Art und Anzahl der Arbeitsplatzrollen, die Festkosten und den geplanten Nutzen. </p>
@@ -935,11 +935,11 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
             <p>Die folgenden Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p><code>password:sharePointV2IntegrationEnabled</code> (SharePoint (Graph API)-Integration aktiviert)</p>
+                <p><code>password:sharePointV2IntegrationEnabled</code> (SharePoint (Graph API)-Integration aktiviert</p>
                 <p>Dieser Wert unterstützt die aktualisierte Sharepoint-Integration.</p>
               </li>
               <li>
-                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (Benutzern erlauben, Projekte ohne Vorlage zu erstellen)</p>
+                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (Ermöglichen Sie es Benutzern, Projekte ohne Verwendung einer Vorlage zu erstellen)</p>
               </li>
               <li>
                 <p><code>project.mgmt:taskissue.delegate</code> (config.taskissue.delegate)</p>
@@ -956,7 +956,7 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
 
 Dokumente können in Ordner unterteilt werden. Sie können persönliche Ordner in Ihrem Bereich &quot;Dokumente&quot;erstellen. Das DocumentFolder-Objekt stellt einen dieser Ordner dar.
 
-Das DocumentFolder-Objekt hat das Flag hinzugefügt `SHARABLE`.
+Das DocumentFolder-Objekt hat das Flag `SHARABLE` hinzugefügt.
 
 ### DocumentVersion (DOCV)
 
@@ -978,7 +978,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
             <p>Der folgende Wert wurde hinzugefügt: </p>
             <ul>
               <li>
-                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph API))</p>
+                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph-API)</p>
                 <p>Dieser Wert unterstützt die aktualisierte Sharepoint-Integration.</p>
               </li>
             </ul>
@@ -995,7 +995,7 @@ Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen reprä
 
 Weitere Informationen zu Gruppen finden Sie unter Gruppen vs. Teams.
 
-Das Group -Objekt hat die Markierung hinzugefügt `DATA_EXTENDIBLE`
+Das Group -Objekt hat das Flag `DATA_EXTENDIBLE` hinzugefügt
 
 <table>
   <col/>
@@ -1033,11 +1033,11 @@ Das Group -Objekt hat die Markierung hinzugefügt `DATA_EXTENDIBLE`
             </p>
           </li>
           <li>
-            <p><b>Anfragender</b>
+            <p><b>requestor</b>
             </p>
           </li>
           <li>
-            <p><b>Benutzer</b>
+            <p><b>user</b>
             </p>
           </li>
         </ul>
@@ -1145,7 +1145,7 @@ Weitere Informationen zu verknüpften Ordnern finden Sie unter Verknüpfen von D
             <p>Der folgende Wert wurde hinzugefügt: </p>
             <ul>
               <li>
-                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph API))</p>
+                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph-API)</p>
                 <p>Dieser Wert unterstützt die aktualisierte Sharepoint-Integration.</p>
               </li>
             </ul>
@@ -1214,13 +1214,13 @@ Ein Parameter -Objekt ist ein benutzerdefiniertes Feld.
           <li>
             <p><b>dataType</b>
             </p>
-            <p>Der mögliche Wert wurde hinzugefügt <code>WIDGET </code>(Widget) </p>
+            <p>Der mögliche Wert <code>WIDGET </code>(Widget) wurde hinzugefügt. </p>
             <p>Dieser Wert unterstützt die Verwendung von Bildern in benutzerdefinierten Formularen.</p>
           </li>
           <li>
             <p><b>displayType</b>
             </p>
-            <p>Der mögliche Wert wurde hinzugefügt <code>WIDGET </code>(Widget)</p>
+            <p>Der mögliche Wert <code>WIDGET </code>(Widget) wurde hinzugefügt.</p>
             <p>Dieser Wert unterstützt die Verwendung von Bildern in benutzerdefinierten Formularen.</p>
           </li>
         </ul>
@@ -1327,7 +1327,7 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
       <td >
         <ul>
           <li>
-            <p><b>Initiative</b>
+            <p><b>initiative</b>
             </p>
             <p>Das Objekt Initiative erstellt im Workfront-Szenario-Planer Schätzungen für die Art und Anzahl der Arbeitsplatzrollen, die Festkosten und den geplanten Nutzen. </p>
           </li>
@@ -1407,7 +1407,7 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
 
 Ein ScoreCardQuestion -Objekt stellt eine Frage dar, die einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfolio-Manager bestimmt und ihre Antworten ermöglichen es dem Manager zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
 
-Weitere Informationen zu Scorecard-Fragen finden Sie unter [Scorecard erstellen](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Weitere Informationen zu Scorecard-Fragen finden Sie unter [Erstellen einer Scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 <table>
   <col/>
@@ -1420,7 +1420,7 @@ Weitere Informationen zu Scorecard-Fragen finden Sie unter [Scorecard erstellen]
           <li>
             <p><b>displayType</b>
             </p>
-            <p>Der mögliche Wert wurde hinzugefügt <code>WIDGET </code>(Widget)</p>
+            <p>Der mögliche Wert <code>WIDGET </code>(Widget) wurde hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -1516,16 +1516,16 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
             <p>Die folgenden möglichen Werte wurden entfernt:</p>
             <ul>
               <li>
-                <p><code>FOUR_COL</code> (Vierspaltiges Layout)</p>
+                <p><code>FOUR_COL</code> (Vierspaltenlayout)</p>
               </li>
               <li>
-                <p><code>UPDATES</code> (Updates)</p>
+                <p><code>UPDATES</code> (Aktualisierungen)</p>
               </li>
               <li>
-                <p><code>UPDATESTOOLBAR_FEED</code> (Updates)</p>
+                <p><code>UPDATESTOOLBAR_FEED</code> (Aktualisierungen)</p>
               </li>
               <li>
-                <p><code>WORKINGON</code> (Ich arbeite an)</p>
+                <p><code>WORKINGON</code> (Arbeiten am)</p>
               </li>
               <li>
                 <p><code>CUSTOMDATA</code> (Benutzerdefinierte Daten)</p>
@@ -1534,16 +1534,16 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
                 <p><code>CUSTOMDATA_UPDATE</code> (Benutzerdefinierte Daten aktualisieren)</p>
               </li>
               <li>
-                <p><code>STATUS_UPDATE</code> (Status-Update)</p>
+                <p><code>STATUS_UPDATE</code> (Statusaktualisierung)</p>
               </li>
               <li>
-                <p><code>OPTASK_STATUS_UPDATE</code> (Status-Update)</p>
+                <p><code>OPTASK_STATUS_UPDATE</code> (Statusaktualisierung)</p>
               </li>
               <li>
-                <p><code>PROJ_STATUS_UPDATE</code> (Status-Update)</p>
+                <p><code>PROJ_STATUS_UPDATE</code> (Statusaktualisierung)</p>
               </li>
               <li>
-                <p><code>PROJECT_TIMEENTRY</code> (Status-Update)</p>
+                <p><code>PROJECT_TIMEENTRY</code> (Statusaktualisierung)</p>
               </li>
               <li>
                 <p><code>DLIST</code> (Detailliste)</p>
@@ -1574,7 +1574,7 @@ Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über d
           <li>
             <p><b>updateType</b>
             </p>
-            <p>Der mögliche Wert wurde hinzugefügt <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
+            <p>Der mögliche Wert <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload) wurde hinzugefügt.</p>
           </li>
         </ul>
       </td>

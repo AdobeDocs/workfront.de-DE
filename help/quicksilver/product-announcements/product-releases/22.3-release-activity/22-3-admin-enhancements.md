@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Verbesserungen für Administratoren
 
-Auf dieser Seite werden alle Verbesserungen für Administratoren beschrieben, die mit Version 22.3 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [2.3 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Auf dieser Seite werden alle Verbesserungen für Administratoren beschrieben, die mit Version 22.3 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [22.3 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integrieren von Adobe Workfront mit JumpSeat
 
@@ -35,7 +35,7 @@ Weitere Informationen finden Sie unter [Konfigurieren der standardmäßigen Test
 
 ## Verwenden entsperrter Status in einem Genehmigungsprozess
 
-**Hinweis:** Aus der Produktionsversion 22.3 entfernt. Diese Funktion soll am 15. September 2022 für die Produktion freigegeben werden.
+**Hinweis:** Aus der Produktionsversion 2.3 entfernt. Diese Funktion soll am 15. September 2022 für die Produktion freigegeben werden.
 
 Um Ihnen mehr Kontrolle über die Validierungsprozesse und Status in Ihrem System zu geben, haben wir es ermöglicht, einen Validierungsprozess zu erstellen, der auf einem entsperrten Systemstatus basiert. Darüber hinaus können Sie jetzt jeden Status entsperren, der bereits in einem Genehmigungsprozess verwendet wird.
 
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten von Bildern 
 
 Die Bearbeitung von Berechnungen für benutzerdefinierte Felder ist jetzt einfacher, da hilfreiche Fehlerinformationen direkt in der Berechnung angegeben werden. Während Sie ein berechnetes Feld in einem benutzerdefinierten Formular erstellen, werden die Fehler rosa hervorgehoben. Wenn Sie den Mauszeiger über den markierten Teil bewegen, wird eine QuickInfo angezeigt, in der beschrieben wird, was das Problem ist.
 
-Weitere Informationen finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Weitere Informationen finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Anpassung von Projektkopfzeilen
 
@@ -81,7 +81,7 @@ Dieses Update umfasst die folgenden Verbesserungen:
 
 Vor dieser Version konnten Felder in den Objektüberschriften nicht angepasst werden.
 
-Weitere Informationen finden Sie unter [Objektüberschriften mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## Erstellen eines leeren Projekts steuern
 
@@ -96,15 +96,15 @@ Die neue Einstellung lautet &quot;Benutzer können Projekte erstellen, ohne eine
 
 **Hinweis:** Benutzer können eine Aufgabe weiterhin in ein leeres Projekt konvertieren.
 
-Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Weitere Informationen finden Sie unter [Systemweite Projekteigenschaften konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Gruppe auf der Seite &quot;Gruppen&quot;deaktivieren
 
-Kürzlich wurde die Möglichkeit hinzugefügt, Gruppen zu deaktivieren und zu reaktivieren. Um diese Aktion schneller und einfacher zu gestalten, haben wir sie der Seite einer Gruppe hinzugefügt. Nachdem Sie nun auf den Namen einer Gruppe geklickt haben, um zu ihrer Seite zu gelangen, können Sie das Menü Mehr auswählen ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) neben dem Namen der Gruppe und wählen Sie dann Deaktivieren oder Reaktivieren aus.
+Kürzlich wurde die Möglichkeit hinzugefügt, Gruppen zu deaktivieren und zu reaktivieren. Um diese Aktion schneller und einfacher zu gestalten, haben wir sie der Seite einer Gruppe hinzugefügt. Nachdem Sie nun auf den Namen einer Gruppe geklickt haben, um die zugehörige Seite aufzurufen, können Sie das Menü Mehr neben dem Gruppennamen auswählen und dann Deaktivieren oder Reaktivieren auswählen.![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png)
 
 Bisher konnten Sie eine Gruppe nur über das Kontrollkästchen Ist aktiv auf der Detailseite deaktivieren oder reaktivieren.
 
-Weitere Informationen finden Sie unter [Gruppe deaktivieren oder reaktivieren](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+Weitere Informationen finden Sie unter [Deaktivieren oder Reaktivieren einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 ## Hinzufügen von Videos zu benutzerdefinierten Formularen
 

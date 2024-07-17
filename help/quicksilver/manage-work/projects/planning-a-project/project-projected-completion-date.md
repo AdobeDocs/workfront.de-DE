@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## So bestimmt Adobe Workfront das geplante Abschlussdatum
 
@@ -65,33 +65,33 @@ Das vorgeschlagene Abschlussdatum ist ein berechnetes Feld, das nicht manuell ge
 
 Die Kriterien zur Bestimmung des geplanten Abschlussdatums unterscheiden sich je nach angezeigtem Objekt:
 
-* **Projekte:** Das vorgeschlagene Abschlussdatum für Projekte entspricht dem geplanten Abschlussdatum der letzten Aufgabe des Projekts.
+* **Projekte:** Das geplante Abschlussdatum für Projekte entspricht dem geplanten Abschlussdatum der letzten Aufgabe des Projekts.
 
   Bei einem höheren Prozentsatz für &quot;complete&quot;wird beispielsweise das geplante Abschlussdatum der Aufgabe näher an den aktuellen Tag verschoben. Wenn der Status der Aufgabe Neu ist und das geplante Abschlussdatum der Aufgabe kurz oder vorüber ist, wird das geplante Abschlussdatum weiter in die Zukunft verschoben.
 
 * **Aufgaben:** Das geplante Abschlussdatum für Aufgaben wird anhand der folgenden Kriterien bestimmt:
 
-   * **Fortschrittsaktualisierungen der Aufgabe durch den Aufgabenverantwortlichen:** Zu Fortschrittsaktualisierungen gehören Änderungen am prozentualen Abschluss und Änderungen des Aufgabenstatus.
-   * **Commit Date:** Wenn der Aufgabenverantwortliche ein Bestätigungsdatum angibt, wird das vorgeschlagene Abschlussdatum so geändert, dass es mit dem Zustimmungsdatum übereinstimmt.
+   * **Fortschrittsaktualisierungen, die der Aufgabenverantwortliche an der Aufgabe vorgenommen hat:** Fortschrittsaktualisierungen umfassen Änderungen am prozentualen Abschluss und Änderungen des Aufgabenstatus.
+   * **Veröffentlichungsdatum:** Wenn der Aufgabenverantwortliche ein Zustimmungsdatum angibt, wird das geplante Abschlussdatum entsprechend dem Zustimmungsdatum geändert.
 
-     Weitere Informationen zu &quot;Commit Dates&quot;finden Sie im Artikel [Datum bestätigen - Übersicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Weitere Informationen zu &quot;Commit Dates&quot;finden Sie im Artikel [Übersicht über das Veröffentlichungsdatum](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
    * **Vorgänger:** Wenn es keine Verzögerungen bei den Vorgängeraufgaben gibt, sollte das geplante Abschlussdatum mit dem geplanten Abschlussdatum übereinstimmen. Abhängige Aufgaben zeigen bei auftretenden Verzögerungen ein prognostiziertes Abschlussdatum an, das über dem geplanten Abschlussdatum liegt.
 
-     Weitere Informationen zum geplanten Abschlussdatum von Aufgaben finden Sie unter [Übersicht über die geplante Aufgabe - Abschlussdatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+     Weitere Informationen zum geplanten Abschlussdatum von Aufgaben finden Sie unter [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
   >Wenn der Vorgänger einer Aufgabe über ein tatsächliches Abschlussdatum verfügt, erhalten die abhängigen Aufgaben ein prognostiziertes Abschlussdatum, wie im folgenden Szenario beschrieben:
   >
   >
-  >Wenn das Projekt Aufgabe A, Aufgabe B und Aufgabe C umfasst und Aufgabe B der Nachfolger von Aufgabe A ist, ist Aufgabe C der Nachfolger von Aufgabe B und ein tatsächliches Abschlussdatum wird Aufgabe A hinzugefügt, wird das geplante Abschlussdatum automatisch für Aufgabe B neu berechnet (sofern die **Aktualisierungstyp** des Projekts ist auf Automatisch und Bei Änderung eingestellt), wird es jedoch nicht für Aufgabe C neu berechnet. Derzeit berechnet Workfront aus Leistungsgründen das geplante Abschlussdatum für Aufgaben, die eine Ebene nach oben oder unten von der aktualisierten Aufgabe entfernt sind. 
+  >Wenn das Projekt Aufgabe A, Aufgabe B und Aufgabe C umfasst und Aufgabe B der Nachfolger von Aufgabe A ist, ist Aufgabe C der Nachfolger von Aufgabe B und ein tatsächliches Abschlussdatum wird Aufgabe A hinzugefügt, wird das geplante Abschlussdatum automatisch für Aufgabe B neu berechnet (sofern der **Aktualisierungstyp** des Projekts auf &quot;Automatisch&quot;und &quot;Bei Änderung&quot;festgelegt ist), jedoch nicht für Aufgabe C neu berechnet. Derzeit berechnet Workfront aus Leistungsgründen das geplante Abschlussdatum für Aufgaben, die eine Ebene nach oben oder unten von der aktualisierten Aufgabe entfernt sind. 
 
-* **Probleme:** Das Problem Projected Completion Date (Geschätztes Abschlussdatum) wurde ursprünglich so eingestellt, dass es dem Problem Plantes Abschlussdatum entspricht.
+* **Probleme:** Das prognostizierte Abschlussdatum des Problems wird zunächst so eingestellt, dass es mit dem geplanten Abschlussdatum des Problems übereinstimmt.
 
   Wenn der Problemverantwortliche ein Commit-Datum angibt, ändern sich sowohl das geplante Abschlussdatum als auch das geplante Abschlussdatum entsprechend dem Commit-Datum.
 
-  Weitere Informationen zu &quot;Commit Dates&quot;finden Sie im Artikel [Datum bestätigen - Übersicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Weitere Informationen zu &quot;Commit Dates&quot;finden Sie im Artikel [Übersicht über das Veröffentlichungsdatum](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## Anzeigen des geplanten Abschlussdatums
 
@@ -100,14 +100,14 @@ Sie können das geplante Abschlussdatum von Projekten, Aufgaben und Problemen in
 ### Anzeigen des geplanten Abschlussdatums eines Projekts {#view-the-projected-completion-date-of-a-project}
 
 1. Wechseln Sie zu dem Projekt, in dem das geplante Abschlussdatum angezeigt werden soll.
-1. Klicks **Projektdetails** im linken Bereich.
-1. Suchen Sie die **Voraussichtlicher Abschluss** im Feld **Übersicht** > **Projektdaten** Abschnitt.
+1. Klicken Sie im linken Bereich auf **Projektdetails** .
+1. Suchen Sie im Abschnitt **Überblick** > **Projektzeitraum** das Feld **Projiziertes Abschlussdatum** .
 
 ### Anzeigen des geplanten Abschlussdatums einer Aufgabe {#view-the-projected-completion-date-of-a-task}
 
 1. Gehen Sie zu der Aufgabe, in der Sie das geplante Abschlussdatum anzeigen möchten.
-1. Klicks **Aufgabendetails** im linken Bereich.
-1. Suchen Sie die **Voraussichtlicher Abschluss** im Feld **Übersicht** > **Aufgabendaten und -begrenzung** Abschnitt.
+1. Klicken Sie im linken Bereich auf **Aufgabendetails** .
+1. Suchen Sie im Abschnitt **Überblick** > **Aufgabendaten und -begrenzung** nach dem Feld **Vorgeschlagenes Abschlussdatum** .
 
 ### Anzeigen des geplanten Abschlussdatums eines Problems {#view-the-projected-completion-date-of-an-issue}
 
@@ -115,13 +115,13 @@ Sie können das geplante Abschlussdatum nur für Probleme in einem Problemberich
 
 So erstellen Sie einen Problembericht mit dem geplanten Abschlussdatum:
 
-1. Erstellen Sie einen Problembericht, wie im Artikel beschrieben. [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Wählen Sie die **Spalten (Ansicht)** Registerkarte.
-1. Klicks **Spalte hinzufügen**, und beginnen Sie mit der Eingabe **Voraussichtlicher Abschluss** im **In dieser Spalte anzeigen:** -Feld.
+1. Erstellen Sie einen Problembericht, wie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
+1. Wählen Sie die Registerkarte **Spalten (Ansicht)** aus.
+1. Klicken Sie auf **Spalte hinzufügen** und geben Sie im Feld **In dieser Spalte anzeigen:** das Feld **Voraussichtliches Abschlussdatum** ein.
 
-1. Wählen Sie es aus, wenn es in der Liste unter der **Problem** -Objekt. 
-1. Klicks **Speichern und schließen**.
+1. Wählen Sie sie aus, wenn sie in der Liste unter dem Objekt **Problem** angezeigt wird. 
+1. Klicken Sie auf **Speichern + schließen**.
 
-   Die **Voraussichtlicher Abschluss** -Spalte im Bericht gefüllt. 
+   Die Spalte **Voraussichtliches Abschlussdatum** im Bericht wird ausgefüllt. 
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

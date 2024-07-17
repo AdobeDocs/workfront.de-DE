@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das Objekt anzeigen, das das Dokument enthält</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das Objekt anzeigen, das das Dokument enthält</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,10 +48,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Herunterladen eines einzelnen Dokuments
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 1. Suchen Sie das gewünschte Dokument.
 
-1. Klicken Sie auf **Ausgewählte herunterladen** icon ![](assets/download-icon.png).
+1. Klicken Sie auf das Symbol **Ausgewählte herunterladen** ![](assets/download-icon.png).
 
 ## Mehrere Dokumente gleichzeitig herunterladen
 
@@ -62,9 +62,9 @@ Sie können mehrere Dokumente gleichzeitig herunterladen. 
 
    >[!NOTE]
    >
-   >Dokumente, die mit Workfront aus Box, Dropbox, Google Drive usw. verknüpft sind, können nicht stapelweise heruntergeladen werden.
+   >Dokumente, die von Box, Dropbox, Google Drive usw. mit Workfront verknüpft sind, können nicht stapelweise heruntergeladen werden.
 
-1. (Optional) Wählen Sie in der Ordnerliste die Ordner aus, die die herunterzuladenden Dokumente enthalten.
-1. Klicken Sie auf das Symbol Ausgewählte herunterladen . ![](assets/download-icon.png).
+1. (Optional) Wählen Sie in der Ordnerliste die Ordner aus, die die Dokumente enthalten, die Sie herunterladen möchten.
+1. Klicken Sie auf das Symbol Ausgewählte herunterladen ![](assets/download-icon.png) .
 
    Ordner werden als ZIP-Dateien heruntergeladen und sind auf 4 GB beschränkt.

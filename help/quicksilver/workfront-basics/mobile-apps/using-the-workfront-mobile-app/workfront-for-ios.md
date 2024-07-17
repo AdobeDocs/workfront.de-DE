@@ -3,7 +3,7 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront für iOS
-description: Die [!DNL Adobe Workfront] Mit der -App können Sie auf beliebige iOS-Geräte zugreifen. Sie können die [!DNL Workfront] Mobile App auf Smartphones und Tablets mit iOS 10 oder höher. Ein spezielles [!DNL Workfront] Die mobile App ist sowohl für die iPhone als auch für die iPad verfügbar.
+description: Mit der [!DNL Adobe Workfront] App können Sie auf jedem iOS-Gerät auf Ihre Arbeit zugreifen. Sie können die [!DNL Workfront] Mobile App auf Smartphones und Tablets installieren und verwenden, auf denen iOS 10 oder höher ausgeführt wird. Eine dedizierte mobile App für  [!DNL Workfront] ist sowohl für die iPhone als auch für die iPad verfügbar.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 # [!DNL Adobe Workfront] für [!DNL iOS]
 
-Die [!DNL Adobe Workfront] Mit der -App können Sie auf Ihre Arbeit in allen [!DNL iOS] Gerät. Sie können die [!DNL Workfront] Mobile App auf Smartphones und Tablets mit iOS 10 oder höher. Ein spezielles [!DNL Workfront] Die mobile App ist für beide [!DNL iPhone] und [!DNL iPad].
+Mit der [!DNL Adobe Workfront] -App können Sie auf jedem beliebigen [!DNL iOS] -Gerät auf Ihre Arbeit zugreifen. Sie können die [!DNL Workfront] -Mobile App auf Smartphones und Tablets mit iOS 10 oder höher installieren und verwenden. Eine dedizierte [!DNL Workfront] mobile App ist sowohl für die [!DNL iPhone] als auch für die [!DNL iPad] verfügbar.
 
-Informationen zur Anmeldung bei der Mobile App finden Sie im Abschnitt . [Melden Sie sich bei [!UICONTROL Workfront] mobile App](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) im Artikel [Anmelden bei [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Informationen zur Anmeldung bei der App finden Sie im Abschnitt [Anmelden bei der mobilen App [!UICONTROL Workfront] ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) im Artikel [Anmelden bei  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## [!UICONTROL Startseite]
 
-Die [!UICONTROL Startseite] können Sie direkt an Aufgaben, Problemen und Genehmigungen arbeiten, die Ihnen zugewiesen sind. Aus dem [!UICONTROL Startseite] -Bereich des Programms können Sie:
+Im Bereich [!UICONTROL Home] können Sie direkt an Aufgaben, Problemen und Genehmigungen arbeiten, die Ihnen zugewiesen sind. Im Bereich [!UICONTROL Startseite] der App haben Sie folgende Möglichkeiten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,21 +48,21 @@ Die [!UICONTROL Startseite] können Sie direkt an Aufgaben, Problemen und Genehm
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [[!UICONTROL Startseite] Bereich-Widgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) und [[!UICONTROL Meine Arbeit] Abschnitt in der App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Home] area widgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) und [[!UICONTROL My Work] in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![Startbereich](assets/mobile-home-area.png)
 
 ## [!UICONTROL Pinnwände]
 
-Die [!UICONTROL Pinnwände] -Bereich ermöglicht Ihnen den Zugriff auf Ihre [!DNL Workfront] Pinnwände.
+Im Bereich [!UICONTROL Pinnwände] können Sie auf Ihre [!DNL Workfront] Pinnwände zugreifen.
 
-![Bereich &quot;Boards&quot;](assets/mobile-all-boards-displayed.png)
+![ Bereich &quot;Pinnwände&quot;](assets/mobile-all-boards-displayed.png)
 
 Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] [!UICONTROL Pinnwände] für Mobilgeräte](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL Projekte]
 
-Die [!UICONTROL Projekte] -Bereich bietet Ihnen die Möglichkeit, mit [!UICONTROL Projekte] Sie besitzen und Projekte, in denen Sie sind. Im Projektbereich der App haben Sie folgende Möglichkeiten:
+Im Bereich [!UICONTROL Projekte] können Sie mit den [!UICONTROL Projekten] interagieren und diese verwalten, deren Inhaber Sie sind, sowie mit Projekten, die Sie bearbeiten. Im Projektbereich der App haben Sie folgende Möglichkeiten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +91,7 @@ Die [!UICONTROL Projekte] -Bereich bietet Ihnen die Möglichkeit, mit [!UICONTRO
 
 ## Genehmigungen
 
-Die [!UICONTROL Genehmigungen] -Bereich können Sie anzeigen und genehmigen [!UICONTROL Genehmigungen] Ihnen zugewiesen oder zugewiesen wurde. Im Validierungsbereich können Sie Folgendes genehmigen:
+Im Bereich [!UICONTROL Genehmigungen] können Sie die Ihnen zugewiesenen oder zugewiesenen [!UICONTROL Genehmigungen] anzeigen und genehmigen. Im Validierungsbereich können Sie Folgendes genehmigen:
 
 <table style="table-layout:auto">
  <col>
@@ -113,15 +113,15 @@ Die [!UICONTROL Genehmigungen] -Bereich können Sie anzeigen und genehmigen [!UI
  </tbody>
 </table>
 
-Weitere Informationen zu Genehmigungen finden Sie unter [Genehmigungen in der [!DNL Adobe Workfront] mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Weitere Informationen zu Genehmigungen finden Sie unter [Genehmigungen in der  [!DNL Adobe Workfront] Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Informationen zur Überprüfung und Genehmigung von Testsendungen finden Sie unter [Überprüfen und treffen Sie Entscheidungen über Testsendungen im [!DNL Adobe Workfront] mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Informationen zum Überprüfen und Genehmigen von Testsendungen finden Sie unter [Überprüfen und Treffen von Entscheidungen zu Testsendungen in der  [!DNL Adobe Workfront] mobilen App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
-![Zulassungsliste in Mobile App](assets/mobile-approvals-adobe-350x574.png)
+![Zulassungsliste in der App](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL Benachrichtigungen]
 
-Die [!UICONTROL Benachrichtigungen] können Sie In-App-Benachrichtigungen für Ihre Arbeit anzeigen und darauf reagieren.
+Im Bereich [!UICONTROL Benachrichtigungen] können Sie In-App-Benachrichtigungen zu Ihrer Arbeit anzeigen und darauf reagieren.
 
 >[!NOTE]
 >Hyperlinks sind in den Aktualisierungsbenachrichtigungen nur dann verfügbar, wenn der gesamte Inhalt einer Notiz ein Hyperlink ohne Anzeigetext ist.
@@ -130,7 +130,7 @@ Die [!UICONTROL Benachrichtigungen] können Sie In-App-Benachrichtigungen für I
 
 ## [!UICONTROL Anfragen]
 
-Die [!UICONTROL Anforderungen] -Bereich können Sie Details zu Anforderungen anzeigen. Aus dem [!UICONTROL Anforderungen] -Bereich des Programms können Sie:
+Im Bereich [!UICONTROL Anforderungen] können Sie Details zu Anforderungen anzeigen. Im Bereich [!UICONTROL Anforderungen] der App haben Sie folgende Möglichkeiten:
 
 <table style="table-layout:auto">
  <col>
@@ -154,35 +154,35 @@ Die [!UICONTROL Anforderungen] -Bereich können Sie Details zu Anforderungen anz
  </tbody>
 </table>
 
-![Anfragebereich](assets/mobile-requests-area.png)
+![Anforderungsbereich](assets/mobile-requests-area.png)
 
 ## Arbeitszeit- tabellen
 
-Die [!UICONTROL timesheets] können Sie Details zu Ihren Timesheets anzeigen. Im [!UICONTROL Timesheets] -Bereich des Programms können Sie:
+Im Bereich [!UICONTROL timesheets] können Sie Details zu Ihren Timesheets anzeigen. Im Bereich [!UICONTROL Timesheets] der App haben Sie folgende Möglichkeiten:
 
-* Post im [!UICONTROL Updates] area
+* Post im Bereich [!UICONTROL Aktualisierungen]
 * Anpassen der Stundentypen
 * Ändern der protokollierten Zeit
 * Kommentare zu einem Timesheet eingeben
 * Zeitblatt schließen
 
-![Bereich &quot;Timesheets&quot;](assets/mobile-timesheets-area.png)
+![Timesheets-Bereich](assets/mobile-timesheets-area.png)
 
 ## [!UICONTROL Favoriten]
 
-Sie können über das Menü Favoriten auf vorhandene Elemente zugreifen und neue Elemente zur [!UICONTROL Favoriten] Menü.
+Sie können über das Menü Favoriten auf vorhandene Elemente zugreifen und dem Menü [!UICONTROL Favoriten] neue Elemente hinzufügen.
 
 ![Favoritenbereich](assets/mobile-favorites-area.png)
 
-## [!UICONTROL Kontakte]
+## [!UICONTROL Contacts]
 
-Die [!UICONTROL Kontakte] können Sie die Kontaktinformationen für alle Benutzer in Ihrem Unternehmen anzeigen.
+Im Bereich [!UICONTROL Kontakte] können Sie die Kontaktinformationen für alle Benutzer in Ihrem Unternehmen anzeigen.
 
 ![Kontaktbereich](assets/mobile-contacts-area.png)
 
 ## [!UICONTROL Konfiguration]
 
-Die [!UICONTROL Konfiguration] -Bereich ermöglicht Ihnen Folgendes:
+Im Bereich [!UICONTROL Konfiguration] haben Sie folgende Möglichkeiten:
 
 * Einstellungen verwalten
 * Zugewiesene Teams anzeigen

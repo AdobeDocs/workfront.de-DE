@@ -15,26 +15,26 @@ ht-degree: 0%
 
 ---
 
-# Umgang mit Fehlermeldungen in [!DNL Adobe Workfront Fusion]
+# Umgang mit Throw-Fehlern in [!DNL Adobe Workfront Fusion]
 
-In einigen Fällen können Sie die Ausführung des Szenarios erzwingen, gefolgt von [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) oder [Bestätigen](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) -Phase oder zum Beenden der Verarbeitung einer Route und optional deren Speicherung in der Warteschlange unvollständiger Ausführungen.
+In einigen Fällen können Sie die Ausführung des Szenarios mit anschließender [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) - oder [Commit](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) -Phase erzwingen oder die Verarbeitung einer Route stoppen und sie optional in der Warteschlange unvollständiger Ausführungen speichern.
 
-Derzeit können die Richtlinien zur Fehlerbehebung nicht außerhalb des Anwendungsbereichs eines [Fehler-Handler-Route](../../workfront-fusion/errors/error-handling.md#error) und [!DNL Adobe Workfront Fusion] bietet kein Modul an, das es Ihnen ermöglicht, leicht bedingte (Auswurffehler) zu erzeugen.
+Derzeit können die Richtlinien zur Fehlerbehebung nicht außerhalb des Bereichs einer [Fehler-Handler-Route](../../workfront-fusion/errors/error-handling.md#error) verwendet werden und [!DNL Adobe Workfront Fusion] bietet kein Modul, mit dem Sie einfach bedingt Fehler (Auswerfen) generieren können.
 
-Informationen zu unvollständigen Ausführungen finden Sie unter [Unvollständige Ausführungen in Adobe Workfront Fusion anzeigen und auflösen](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+Informationen zu unvollständigen Ausführungen finden Sie unter [Anzeigen und Auflösen unvollständiger Ausführungen in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 Informationen zu Richtlinien zur Fehlerbehebung finden Sie unter [Richtlinien zur Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -42,39 +42,39 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion licenses]](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion licenses]](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Problemumgehung für Throw
 
-Um einen Fehler bedingt auszulösen, können Sie ein Modul so konfigurieren, dass es optional während des Vorgangs fehlschlägt. Eine Möglichkeit besteht darin, die [!UICONTROL JSON] > [!UICONTROL Parse JSON] -Modul (siehe [JSON-Module](../../workfront-fusion/apps-and-their-modules/json-modules.md)), konfiguriert, um optional einen Fehler auszulösen (in diesem Fall BundleValidationError ):
+Um einen Fehler bedingt auszulösen, können Sie ein Modul so konfigurieren, dass es während des Vorgangs optional versehentlich fehlschlägt. Eine Möglichkeit besteht darin, das Modul [!UICONTROL JSON] > [!UICONTROL JSON analysieren] zu verwenden (siehe [JSON-Module](../../workfront-fusion/apps-and-their-modules/json-modules.md)), das so konfiguriert ist, dass optional ein Fehler ausgegeben wird (in diesem Fall BundleValidationError):
 
 Anschließend können Sie eine der Anweisungen zur Fehlerbehebung an die Fehlerbehebungsroute anhängen an:
 
-* Setzen Sie die Ausführung des Szenarios zum Anhalten und Durchführen der Rollback-Phase auf: [!UICONTROL Rollback]
-* Setzen Sie die Ausführung des Szenarios zum Anhalten und Ausführen der Commit-Phase auf: [!UICONTROL Bestätigen]
-* Verarbeitung einer Route stoppen: [!UICONTROL Ignorieren]
-* Beenden Sie die Verarbeitung einer Route und speichern Sie sie in der Warteschlange des Ordners mit unvollständigen Ausführungen: [!UICONTROL Break]
+* Setzen Sie die Ausführung des Szenarios zum Anhalten und Ausführen der Rollback-Phase auf: [!UICONTROL Rollback]
+* Setzen Sie die Ausführung des Szenarios zum Anhalten und Ausführen der Commitphase: [!UICONTROL Bestätigen]
+* Beenden Sie die Verarbeitung einer Route: [!UICONTROL Ignorieren]
+* Beenden Sie die Verarbeitung einer Route und speichern Sie sie in der Warteschlange des Ordners für unvollständige Ausführungen: [!UICONTROL Break]
 
-Das folgende Beispiel zeigt die Verwendung der [!DNL Rollback] Richtlinie:
+Das folgende Beispiel zeigt die Verwendung der Anweisung [!DNL Rollback] :
 
 ![](assets/rollback-directive-350x175.png)

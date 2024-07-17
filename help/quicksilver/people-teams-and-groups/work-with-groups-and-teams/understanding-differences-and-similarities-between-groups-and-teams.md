@@ -10,7 +10,7 @@ exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Es wird empfohlen, Gruppen so zu konfigurieren, dass sie Ihrer Abteilungsstruktu
 
 Sie können beispielsweise eine Finanzgruppe mit Benutzern in der Finanzabteilung haben. Innerhalb der Finanzabteilung können Personen in Teams strukturiert sein, die unabhängig voneinander arbeiten.
 
-Weitere Informationen zum Erstellen und Verwalten von Gruppen finden Sie unter [Gruppe erstellen](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Verwalten einer Gruppe](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+Weitere Informationen zum Erstellen und Verwalten von Gruppen finden Sie unter [Erstellen einer Gruppe](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Verwalten einer Gruppe](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Verwenden Sie Teams zur Vertretung der Arbeitsstruktur in einer Abteilung.
 
@@ -50,7 +50,7 @@ Die folgende Tabelle zeigt Unterschiede und Ähnlichkeiten zwischen Gruppen und 
 | Nur ein Workfront-Administrator kann | ✓ |  |
 | Objekte freigeben | ✓ | ✓ |
 | Aufgabe zuweisen |  | ✓ |
-| Problem zuweisen |  | ✓ |
+| Ein Problem zuweisen |  | ✓ |
 | Verknüpfen mit einem Projekt | ✓ |  |
 | Als Genehmiger in einem Genehmigungsprozess benennen |  | ✓ |
 | Benachrichtigungs-Trigger für alle Mitglieder gleichzeitig |  | ✓ |
@@ -67,5 +67,5 @@ Die folgende Tabelle zeigt Unterschiede und Ähnlichkeiten zwischen Gruppen und 
 | Zuweisen von Layoutvorlagen | ✓ | ✓ |
 | Jeder Benutzer mit einer Planungslizenz kann diese einem anderen Benutzer zuweisen |  | ✓ |
 | Status anpassen | ✓ |  |
-| Anpassen der [!UICONTROL Fertig] button |  | ✓ |
+| Anpassen der Schaltfläche [!UICONTROL Fertig] |  | ✓ |
 | Lizenzen verfolgen | ✓ |  |

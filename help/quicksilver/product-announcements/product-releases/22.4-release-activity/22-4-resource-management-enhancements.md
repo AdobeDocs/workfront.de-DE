@@ -17,15 +17,15 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 22.4 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 verfügbar gemacht.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 Versionshinweise - Übersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Anzeigen aller Benutzer für den Lastenausgleich eines Projekts
 
 Damit Sie alle Benutzer im System und deren Kapazität einsehen können, ohne den Arbeitslast-Balancer eines Projekts verlassen zu müssen, haben wir die Option &quot;Alle Benutzer anzeigen&quot;hinzugefügt. Wenn diese Option aktiviert ist, zeigt der Lastenausgleich des Projekts alle Benutzer im System im Bereich Zugewiesene Arbeit an. Mit dieser Verbesserung können Sie leicht erkennen, wer Aufgaben zugewiesen werden muss, die im nicht zugewiesenen Arbeitsbereich aufgeführt sind.
 
-Weitere Informationen finden Sie unter [Zuweisen von Arbeiten im Arbeitslastausgleich durch Ziehen und Ablegen](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+Weitere Informationen finden Sie unter [Zuweisen von Arbeiten im Arbeitslastausgleich durch Ziehen und Ablegen von ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412873/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
 ## Anzeigen aller Benutzer mit einer ausgewählten Auftragsrolle im Arbeitslastausgleich bei der Zuweisung von Arbeitsaufgaben in Stapeln
 
@@ -37,9 +37,9 @@ Um die richtige Person beim Ersetzen von Stellenrollen durch Benutzer im Arbeits
 
 Vor dieser Verbesserung konnten Sie nur die Liste der Benutzer anzeigen, die für die Zuweisung gemäß der Logik der intelligenten Zuweisungen verfügbar sind.
 
-Informationen zur Massenzuweisung von Aufgaben mithilfe des Lastenausgleichs finden Sie unter [Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Informationen zum Zuweisen von Arbeitsaufgaben in Stapeln mithilfe des Workload-Balancers finden Sie unter [Zuweisen von Arbeitsaufgaben in Stapeln mithilfe des Workload-Balancers](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412874/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
 ## Verbesserungen beim Arbeitslade-Balancer für Benutzer von Arbeits-Lizenzen und Problemeinstellungen
 
@@ -53,7 +53,7 @@ Vor diesen Verbesserungen konnten nur Benutzer mit einer Planlizenz Benutzerzuor
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Navigieren Sie zum Lastenausgleich .](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* [Navigieren Sie zum Lastenausgleich](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-* [Verwalten von Benutzerzuordnungen im Lastenausgleich](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* [Verwalten Sie Benutzerzuordnungen im Arbeitslade-Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

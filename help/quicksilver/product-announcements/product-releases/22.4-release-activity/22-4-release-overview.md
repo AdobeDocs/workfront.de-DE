@@ -45,7 +45,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        <p><span class="bold">Veröffentlichungstermine</span>
                         </p>
                     </td>
                 </tr>            
@@ -54,7 +54,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
 </a></p> <p>Diese Funktion wurde aus der Produktionsversion 22.3 entfernt. Diese Funktion soll in Zukunft für die Produktion freigegeben werden.</p> 
 <p>Um Ihnen mehr Kontrolle über die Validierungsprozesse und Status in Ihrem System zu geben, haben wir es ermöglicht, einen Validierungsprozess zu erstellen, der auf einem entsperrten Systemstatus basiert. Darüber hinaus können Sie jetzt jeden Status entsperren, der bereits in einem Genehmigungsprozess verwendet wird. Zuvor musste ein in einem Genehmigungsprozess verwendeter Systemstatus gesperrt werden. Dadurch wurde sie für alle Gruppen verfügbar - ohne dass sie entfernt oder umbenannt werden konnten - sodass Gruppenadministratoren die Statusliste ihrer Gruppe nicht an ihre spezifischen Anforderungen anpassen konnten.</p>   
    </td> 
-    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
+    <td> <p><b>Verfügbar zu diesen Datumsangaben:</b> </p> 
     <ul> 
      <li> <p>Vorschau-Version: 2. Juni 2022<br></p> </li> 
      <li> <p>Produktionsversion: 15. September 2022</p> </li> 
@@ -72,7 +72,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
                                 <p>Vorschauversion: nicht verfügbar<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsversion: Mit Version 22.4 <span style="color: #ff0000;">Diese Migration wurde auf Q1-Q2 von 2023 verschoben. </span></p>
+                                <p>Produktionsversion: Mit Version 22.4 <span style="color: #ff0000;">wurde diese Migration auf Q1-Q2 von 2023 verschoben. </span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Anpassung der Problemkopfzeilen</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Anpassung der Kopfzeile eines Problems</a></p>
                         <p>Als Workfront- oder Gruppenadministrator können Sie jetzt die Felder anpassen, die in der Kopfzeile eines Problems angezeigt werden, wenn Sie eine Layout-Vorlage verwenden. Diese Aktualisierung umfasst verschiedene Verbesserungen, darunter die Möglichkeit, vorhandene Felder aus der Problemübersicht zu entfernen oder neu anzuordnen und neue, nicht bearbeitbare Felder zur Problemübersicht hinzuzufügen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -115,7 +115,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Anpassung von Aufgabenkopfzeilen</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Anpassung der Aufgabenkopfzeile</a></p>
                         <p>Als Workfront- oder Gruppenadministrator können Sie jetzt die Felder anpassen, die in der Kopfzeile einer Aufgabe angezeigt werden, wenn Sie eine Layout-Vorlage verwenden. Diese Aktualisierung umfasst verschiedene Verbesserungen, darunter die Möglichkeit, vorhandene Felder aus der Aufgabenkopfzeile zu entfernen oder neu anzuordnen und neue, nicht bearbeitbare Aufgabenübersichtsfelder hinzuzufügen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -133,11 +133,11 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Früheres Feature Opt-in für die neuesten Funktionen auf Pinnwänden</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Früherer Funktionseingriff für die neuesten Funktionen auf Pinnwänden</a> </p>
                         <p>Wir freuen uns, neue Pinnwände-Funktionen für eine frühzeitige Anmeldung zu öffnen. Dieses optionale Tool ist für alle Organisationen verfügbar.</p>
                         <p>Nur ein Workfront-Administrator kann sich für die frühen Funktionen anmelden. Wenn sich der Administrator für frühe Funktionen entscheidet, werden alle Benutzer der Organisation angemeldet und die zusätzlichen Funktionen sind in Ihrer Workfront-Produktionsumgebung aktiviert.</p>
                     </td>
-                    <td><b>Verfügbar zu diesen Terminen:</b>
+                    <td><b>Verfügbar zu diesen Datumsangaben:</b>
                         <ul>
                             <li>
                                 <p>Vorschau-Version: 22. Juli 2022 <br /></p>
@@ -152,7 +152,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Der Berechnungseditor für benutzerdefinierte Formularfelder zeigt Fehlerinformationen an
 </a></p></p> <p>Die Bearbeitung von Berechnungen für benutzerdefinierte Felder ist jetzt einfacher, da hilfreiche Fehlerinformationen direkt in der Berechnung angegeben werden. Während Sie ein berechnetes Feld in einem benutzerdefinierten Formular erstellen, werden die Fehler rosa hervorgehoben. Wenn Sie den Mauszeiger über den markierten Teil bewegen, wird eine QuickInfo angezeigt, in der beschrieben wird, was das Problem ist.</p>
 </td>
-    <td><b>Verfügbar zu diesen Terminen:</b>
+    <td><b>Verfügbar zu diesen Datumsangaben:</b>
                         <ul>
                             <li>
                                 <p>Vorschau-Version: Während des Zeitrahmens der Version 22.3 <br /></p>
@@ -178,7 +178,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        <p><span class="bold">Veröffentlichungstermine</span>
                         </p>
                     </td>
                 </tr>
@@ -187,7 +187,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
 </a></p> 
 <p>Um die Details der Vorgänger einer Aufgabe anzuzeigen, können Sie jetzt in der Spalte "Vorgänger"den Mauszeiger über die Vorgängernummer bewegen. Im Detailfeld werden die referenzierte Vorgängeraufgabe und das referenzierte Projekt, die geplanten Start- und Enddaten für die Vorgängeraufgabe sowie die Anzahl der Vorgängeraufgaben und Nachfolger angezeigt. Sie können die Projektdetails erweitern, um weitere Informationen zum Projekt anzuzeigen. Zusätzliche Informationen sind für projektübergreifende Vorgänger enthalten.</p>   
    </td> 
-    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
+    <td> <p><b>Verfügbar zu diesen Datumsangaben:</b> </p> 
     <ul> 
      <li> <p>Vorschau-Version: 9. September 2022 <br></p> </li> 
      <li> <p>Produktionsversion: Mit Version 22.4</p> </li> 
@@ -200,7 +200,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
 
 Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nicht verfügbar.</p>
 </td> 
-    <td> <p><b>Verfügbar zu diesen Terminen:</b> </p> 
+    <td> <p><b>Verfügbar zu diesen Datumsangaben:</b> </p> 
     <ul> 
      <li> <p>Vorschau-Version: 2. September 2022<br></p> </li> 
      <li> <p>Produktionsversion: Mit Version 22.4</p> </li> 
@@ -212,9 +212,9 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Smart-Benutzerauswahl für Projektrollen in den Bereichen Bearbeiten und Details</a> </p>
                         <p>Die Anzeige von Benutzern wurde verbessert, wenn Sie sie den Projektfeldern "Projekteigentümer", "Projektsponsor"und "Ressourcen-Manager"aus dem Feld "Bearbeiten"und dem Abschnitt "Details"des Projekts hinzufügen.</p>
                         <p>Wenn Sie nun einen Benutzer zu einem dieser Felder in den Bereichen Bearbeiten oder Details hinzufügen, werden neben seinem Namen und Avatar auch dessen Primäre Rolle und die E-Mail-Adresse angezeigt. Dies hilft bei der Unterscheidung zwischen mehreren Benutzenden mit ähnlichen oder identischen Namen.</p>
-                        <p><b>NOTE:</b> Zusätzliche Benutzerfelder für Projekte, Aufgaben und Probleme werden in zukünftigen Versionen mit dieser Funktion aktualisiert.</p>
+                        <p><b>HINWEIS:</b> Zusätzliche Benutzerfelder für Projekte, Aufgaben und Probleme werden in zukünftigen Versionen mit dieser Funktion aktualisiert.</p>
                     </td>
-                    <td><b>Verfügbar zu diesen Terminen:</b>
+                    <td><b>Verfügbar zu diesen Datumsangaben:</b>
                         <ul>
                             <li>
                                 <p>Vorschau-Version: 25. August 2022</p>
@@ -241,7 +241,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                         </ul>
                         <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref" xrefformat="{para}">Arbeiten über Zeitzonen hinweg</a>.</p>
                     </td>
-                    <td><b>Verfügbar zu diesen Terminen:</b>
+                    <td><b>Verfügbar zu diesen Datumsangaben:</b>
                         <ul>
                             <li>
                                 <p>Vorschau-Version: 18. August 2022</p>
@@ -279,7 +279,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                         <p>Das neue Filtererlebnis ist auch in den Timesheet-Listen und im Szenario-Planer verfügbar.</p>
                         <p>Der Textmodus bleibt für die erweiterte Filterbearbeitung verfügbar, und Systemadministratoren können allen Benutzern über die Layoutvorlagen weiterhin Standardfilter zuweisen.</p>
                     </td>
-                    <td><b>Verfügbar zu diesen Terminen:</b>
+                    <td><b>Verfügbar zu diesen Datumsangaben:</b>
                         <ul>
                             <li>
                                 <p>Vorschau-Version: 21. Juli 2022<br /></p>
@@ -305,7 +305,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
 </ol>
                     </td>
                     <td>
-                        <p><b>Verfügbar zu diesen Terminen:</b>
+                        <p><b>Verfügbar zu diesen Datumsangaben:</b>
                         </p>
                         <ul>
                             <li>
@@ -332,13 +332,13 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        <p><span class="bold">Veröffentlichungstermine</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Auf Pinnwänden verfügbare Einzugsspalte</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Auf Pinnwänden verfügbare Spalte "Aufnahme"</a></p>
                         <p>Sie können einer Pinnwand jetzt eine Aufnahmespalte hinzufügen. Diese Spalte ruft automatisch Aufgaben und Probleme in die Pinnwand auf, wenn sie in Workfront hinzugefügt werden, basierend auf von Ihnen definierten Filtern.</p>
                         <p>Die Ansauspalte kann als Rückstau für ein Kanban-Team dienen, als Aufnahmeort für ein Support-Team, um Probleme zu sehen, wenn sie einer Anfragewarteschlange hinzugefügt werden, oder zu einem anderen Zweck, den Sie benötigen.</p>
                         <p>Nur eine Aufnahmesäule ist an Bord erlaubt.</p>
@@ -397,7 +397,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei Checklisten-Elementen auf Pinnwänden</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen an Checklisten-Elementen auf Pinnwänden</a> </p>
                         <p>Durch das Öffnen eines Checklisten-Elements auf einer Karte können Sie jetzt detailliertere Informationen zum Element hinzufügen, einschließlich einer Beschreibung, des Fälligkeitsdatums, der Bevollmächtigten und der Schätzung. Sie können auch ein Checklisten-Element kopieren, das zuvor nicht verfügbar war.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -416,7 +416,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Team zu einer Pinnwand oder Karte hinzufügen</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen eines Teams zu einer Pinnwand oder Karte</a> </p>
                         <p>Sie können jetzt ein Team als Mitglied der Pinnwand hinzufügen. Die einzelnen Teammitglieder werden nicht mehr hinzugefügt, wenn Sie ein Team zum Board hinzufügen, obwohl alle Teammitglieder Zugriff auf das Forum haben.</p>
                         <p>Nachdem Sie das Team zur Pinnwand hinzugefügt haben, können Sie das Team Karten zuweisen. Auf verbundenen Karten ist nur eine Teamzuweisung zulässig. Auf Ad-hoc-Karten können Sie mehr als ein Team zuweisen.
                         </p>
@@ -437,10 +437,10 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Option zur Begrenzung der laufenden Bearbeitung ist jetzt in integrierten Spalten verfügbar</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Die Grenze für laufende Arbeit ist jetzt in Board-Spalten verfügbar</a> </p>
                         <p>Sie können jetzt für jede Spalte auf einer Pinnwand eine Grenze für laufende Arbeit (Work In Progress, WIP) festlegen. Wenn Sie eine WIP-Begrenzung aktivieren, wird in der Spalte ein Zähler mit der aktuellen Kartenanzahl und der Begrenzung angezeigt. Der Zähler wird rot, wenn die Spalte mehr Karten als den Grenzwert enthält. Dies ist lediglich eine visuelle Warnung und Sie werden nicht daran gehindert, mehr Karten als die Grenze hinzuzufügen.</p>
                     </td>
-                    <td><b>Verfügbar zu diesen Terminen:</b>
+                    <td><b>Verfügbar zu diesen Datumsangaben:</b>
                         <p>
                         </p>
                         <ul>
@@ -460,7 +460,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                         <p>Ein neues Feld für die Schätzung auf Ad-hoc- und verbundenen Karten ermöglicht die Angabe der geschätzten Anzahl der Stunden, die für das Ausfüllen der Karte erforderlich sind. Dies ist ein manueller Eintrag, kein berechneter Wert, und der Wert darf nicht mehr als 99 betragen. Die Schätzung wird auf der Karte auf der Pinnwand und in den Kartendetails angezeigt.</p>
                     </td>
                     <td>
-                        <p><b>Verfügbar zu diesen Terminen:</b>
+                        <p><b>Verfügbar zu diesen Datumsangaben:</b>
                         <p>
   </p>
                         </p>
@@ -490,7 +490,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        <p><span class="bold">Veröffentlichungstermine</span>
                         </p>
                     </td>
                 </tr>
@@ -514,7 +514,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Anzeigen aller Benutzer mit einer ausgewählten Auftragsrolle im Arbeitslastausgleich bei der Zuweisung von Arbeitsaufgaben in Stapeln</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Anzeigen aller Benutzer mit einer ausgewählten Auftragsrolle im Arbeitslastausgleich beim Zuweisen von Aufgaben als Stapel</a></p>
                         <p>Um die richtige Person beim Ersetzen von Stellenrollen durch Benutzer im Arbeitslastausgleich in großen Mengen leichter zu finden, haben wir die Art und Weise verbessert, wie die Liste der verfügbaren Benutzer ausgefüllt wird. Jetzt können Sie alle Benutzer im System anzeigen, die die ausgewählte Rolle in zwei separaten Bereichen in derselben Benutzerliste erfüllen können:</p>
                         <ul>
                             <li>
@@ -541,7 +541,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen beim Arbeitslade-Balancer für Benutzer von Arbeits-Lizenzen und Problemeinstellungen</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen beim Arbeitslastabgleich für Benutzer von Work-Lizenz und Problemeinstellungen</a></p>
                         <p>Zur Vorbereitung auf die Einstellung der Planungswerkzeuge wurden die folgenden Verbesserungen zum Arbeitslastausgleich hinzugefügt:</p>
                         <ul>
                             <li>
@@ -581,7 +581,7 @@ Hinweis: Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nic
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Veröffentlichungsdaten</span>
+                        <p><span class="bold">Veröffentlichungstermine</span>
                         </p>
                     </td>
                 </tr>
@@ -663,22 +663,22 @@ Kampagnen wurden im Juli 2022 für die Beta-Vorschau mit Version 22.3 veröffent
 <p>Dieser neue Container wird sich in zukünftigen Versionen weiterentwickeln, um Arbeitsobjekte zu verbinden, die derzeit in separaten Silos verwaltet werden.</p>
 
     &lt;/td>
-    &lt;td>&lt;p>&lt;b>Verfügbar zu diesen Terminen:&lt;/b>&lt;/p>
+    &lt;td>&lt;p>&lt;b>Verfügbar an diesen Daten:&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>Vorschau-Veröffentlichung: Im gesamten Veröffentlichungszeitrahmen 22.4&lt;br />&lt;/p>
+    &lt;p>Vorschau-Release:&amp;#160;Während des 22.4 Release-Zeitrahmens&lt;br />&lt;/p>
     &lt;/li>
-    &lt;li>
-    &lt;p>Produktionsversion: TBD&lt;/p>
+    &lt;li>{7>}&lt;p>Produktionsversion:&amp;#160;TBD&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;&lt;span id=&quot; translate=&quot;no&quot; />&quot;>Erweiterte Teambeschreibung&lt;/a>&lt;/p>
-    &lt;p>Im Bereich Teams können Sie jetzt die vollständige Teambeschreibung anzeigen, indem Sie auf die Beschreibung klicken, um sie in einem Popup-Fenster anzuzeigen. {para} Alle URLs in der Beschreibung können im Popup-Fenster angeklickt werden. Klicken Sie dazu in den Beschreibungstext, um sie zu bearbeiten (wenn Sie Zugriff auf die Teameinstellungen haben).&lt;/p>
-    &lt;p>Zuvor war das Scrollen durch die Beschreibung in einem engen Bereich die einzige Möglichkeit, den gesamten Inhalt zu sehen.&lt;/p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xformat=&quot;{para}&quot;>Erweiterte Teambeschreibung&lt;/a>&lt;/p>
+    &lt;p>Im Bereich &quot;Teams&quot;können Sie jetzt die vollständige Teambeschreibung anzeigen, indem Sie auf die Beschreibung klicken, um sie in einem Popup-Fenster anzuzeigen. 
+     Alle URLs in der Beschreibung können im Popup-Fenster angeklickt werden. Klicken Sie dazu in den Beschreibungstext, um sie zu bearbeiten (wenn Sie Zugriff auf die Teameinstellungen haben).&lt;/p>
+    &lt;p>Zuvor war das Scrollen durch die Beschreibung in einem engen Bereich die einzige Möglichkeit, den gesamten Inhalt anzuzeigen.&lt;/p>
 <p>Diese Verbesserung der Beschreibung gilt sowohl für agile als auch nicht agile Teams.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -706,7 +706,7 @@ Wir haben eine neue Version des Desktop Proofing Viewers veröffentlicht. Dieses
 * Windows-Benutzer werden automatisch auf die neueste Version aktualisiert, wenn sie den Desktop Proofing Viewer vor dem 25. Juli starten. Wenn Windows-Benutzer den Desktop Proofing Viewer vor dem 25. nicht öffnen, müssen sie den Viewer manuell neu installieren, um das Upgrade zu erhalten.
 
 
-Mit diesem Upgrade unterstützt der Desktop Proofing Viewer Chrome Version 98, um die Kompatibilität mit interaktiven Testsendungen zu verbessern.
+Mit diesem Upgrade unterstützt der Desktop Proofing Viewer die Chrome-Version 98, um die Kompatibilität mit interaktiven Testsendungen zu verbessern.
 
 ### Workfront Fusion-Verbesserungen
 
@@ -716,9 +716,9 @@ Neue Funktionen in Workfront Fusion sind in der Produktion ab einem Zeitpunkt ve
 
 Zu diesem Zeitpunkt der Version gibt es keine Aktualisierungen des Szenario-Players. Dieser Bereich wird aktualisiert, sobald Updates verfügbar sind.
 
-### Workfront-Testverbesserungen
+### Workfront Proof-Verbesserungen
 
-Es gibt derzeit keine Workfront Testversandaktualisierungen in der Version. Dieser Bereich wird aktualisiert, sobald Updates verfügbar sind.
+Es gibt derzeit keine Workfront Proof-Updates in der Version. Dieser Bereich wird aktualisiert, sobald Updates verfügbar sind.
 
 ### Verbesserungen bei Workfront-Zielen
 
@@ -728,21 +728,21 @@ Es gibt derzeit keine Aktualisierungen zu Workfront Goals in der Version. Dieser
 
 Für API Version 14 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere vereinfachen die Verwendung der über die API verfügbaren Informationen.
 
-Informationen zu den neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in API Version 14](/help/quicksilver/wf-api/api/new-api-version-14.md).
+Weitere Informationen zu den neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in API-Version 14](/help/quicksilver/wf-api/api/new-api-version-14.md).
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungsupdates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Informationen zu den Wartungsupdates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Webinar zur Version 22.4
 
-Das Webinar zur Version 22.4 wird am Donnerstag, den 22. September 2022 um 9:00 Uhr PDT stattfinden. Sie können [Melden Sie sich hier für das Webinar an](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+Das Webinar zur Version 22.4 wird am Donnerstag, den 22. September 2022 um 9:00 Uhr PDT stattfinden. Sie können sich [hier für das Webinar registrieren](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
 ### Schulungsaktualisierungen
 
-Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie unter [Seite mit Aktualisierungen zu Schulungsversionen](https://one.workfront.com/s/training-release-updates).
+Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der Seite [Aktualisierungen der Schulungsversion](https://one.workfront.com/s/training-release-updates).
 
 ### Funktion wird mit Version 22.4 entfernt
 
@@ -773,4 +773,4 @@ Die folgende Funktion wird im November 2022 entfernt:
 
   Mit diesem Ereignistyp konnten Kunden sehen, wann die Berechtigungen für Objekte aktualisiert wurden.
 
-  Weitere Informationen zu Ereignisanmeldungen sowie zu anderen Ereignistypen, die weiterhin unterstützt werden, finden Sie unter [Ereignisabonnement-API](/help/quicksilver/wf-api/general/event-subs-api.md)
+  Weitere Informationen zu Ereignisabonnements sowie zu anderen Ereignistypen, die weiterhin unterstützt werden, finden Sie unter [Ereignisabonnement-API](/help/quicksilver/wf-api/general/event-subs-api.md)

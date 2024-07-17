@@ -30,7 +30,7 @@ role: User
 
 Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie auf die Seite vom Typ Datensatz in der Adobe Workfront-Planung zugreifen.
 
-Informationen zu Datensatzansichten finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen zu Datensatzansichten finden Sie unter [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Zugriffsanforderungen
 
@@ -92,7 +92,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Verwalten einer Timeline-Ansicht {#manage-a-timeline-view}
@@ -115,7 +115,7 @@ Beachten Sie Folgendes:
 So verwalten Sie eine Timeline-Ansicht:
 
 1. Rufen Sie die Seite mit dem Datensatztyp auf, für die Sie die Timeline anzeigen möchten.
-1. Erstellen Sie eine Timeline-Ansicht, wie im Artikel beschrieben [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+1. Erstellen Sie eine Timeline-Ansicht, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
    ![](assets/timeline-view-example.png)
 
@@ -129,23 +129,23 @@ So verwalten Sie eine Timeline-Ansicht:
 1. Führen Sie einen der folgenden Schritte aus, um durch die Timeline zu navigieren:
 
    * Klicken Sie auf die Symbole links und rechts oder verwenden Sie den horizontalen Bildlauf, um in der Timeline rückwärts und vorwärts zu wechseln.
-   * Klicks **Heute** , um die Timeline auf das aktuelle Datum zu zentrieren.
+   * Klicken Sie auf **Heute** , um die Timeline auf das aktuelle Datum zu zentrieren.
    * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü für Zeitrahmen aus, um die Zeitabstände zu aktualisieren:
 
       * Jahr
       * Quartal
       * Monat
-1. Klicks **In Standard wechseln** Anzeigen von Datensätzen in separaten Zeilen <!--check to see if they updated the name of the setting here-->
+1. Klicken Sie auf die Ansicht **Zur Standardansicht wechseln** , um Datensätze in separaten Zeilen anzuzeigen <!--check to see if they updated the name of the setting here-->
 
    Oder
 
-   Klicks **Zur Kompaktansicht wechseln** um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile überschneiden. <!--check to see if they updated the name of the setting here-->
+   Klicken Sie auf **Zur Kompaktansicht wechseln** , um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile überschneiden. <!--check to see if they updated the name of the setting here-->
 
    Datensätze werden standardmäßig in der Compact-Ansicht angezeigt.
 
 1. Führen Sie die folgenden Schritte aus, um schnell nach Datensätzen zu suchen, die einem Keyword entsprechen:
 
-   1. Klicken Sie auf **Suche** icon ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Suchbegriffs, das mit einem Feld eines Datensatzes verknüpft ist, das auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt und der Datensatz mit der richtigen Übereinstimmung wird hervorgehoben.
+   1. Klicken Sie auf das Symbol **Suchen** ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Suchbegriffs, das mit einem Feld eines Datensatzes verknüpft ist, das auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt und der Datensatz mit der richtigen Übereinstimmung wird hervorgehoben.
 
       ![](assets/search-box-and-results-timeline-view.png)
 
@@ -155,7 +155,7 @@ So verwalten Sie eine Timeline-Ansicht:
 
    1. Drücken Sie die Eingabetaste auf Ihrer Tastatur, um zum nächsten gefundenen Feld zu wechseln.
    1. (Optional) Wenn mehrere Übereinstimmungen vorliegen, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
-   1. Klicken Sie auf **x** in das Suchfeld ein, um den Suchbegriff zu löschen.
+   1. Klicken Sie im Suchfeld auf das Symbol **x** , um den Suchbegriff zu löschen.
 
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)
@@ -183,7 +183,7 @@ Beachten Sie beim Arbeiten mit Filtern in der Timeline-Ansicht Folgendes:
 
 * Das Hinzufügen von Filtern in der Timeline-Ansicht ist mit dem Hinzufügen von Filtern in der Tabellenansicht identisch.
 
-  Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern.
 * Sie können nach Suchfeldern filtern, die mehrere Werte anzeigen.
@@ -214,12 +214,12 @@ Beachten Sie beim Arbeiten mit Gruppierungen in der Timeline-Ansicht Folgendes:
 
 So fügen Sie eine Gruppierung in der Timeline-Ansicht hinzu:
 
-1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel beschrieben [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicks **Gruppierung** in der rechten oberen Ecke der Timeline-Ansicht.
+1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Klicken Sie oben rechts in der Timeline-Ansicht auf **Gruppierung** .
 
    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Klicken Sie auf eines der vorgeschlagenen Felder oder auf **Andere Felder auswählen**, suchen Sie nach einem anderen Feld und klicken Sie darauf, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf eines der vorgeschlagenen Felder oder auf **Ein anderes Feld auswählen**, suchen Sie nach einem anderen Feld und klicken Sie dann auf dieses Feld, wenn es in der Liste angezeigt wird.
 
    Die Gruppierung wird automatisch auf die Timeline angewendet und Datensätze werden innerhalb des Gruppierungsfelds angezeigt.
 
@@ -233,14 +233,14 @@ So fügen Sie eine Gruppierung in der Timeline-Ansicht hinzu:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Optional) Innerhalb des **Gruppiert Datensätze nach** und klicken Sie auf das **x** rechts neben einem Feld, das zum Entfernen der Gruppierung ausgewählt wurde
+1. (Optional) Klicken Sie im Feld **Datensatz gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen.
 
    Oder
 
-   Klicks **Alle löschen** um alle Felder zu entfernen.
+   Klicken Sie auf **Alle löschen** , um alle Felder zu entfernen.
 
-1. Klicken Sie außerhalb der **Gruppiert Datensätze nach** zum Schließen.
-1. (Optional) Klicken Sie auf **Einstellungen**, dann **Farbe** Farbcode-Gruppierungen. Weitere Informationen finden Sie unter [Einstellungen der Timeline-Ansicht bearbeiten](#edit-the-timeline-view-settings) in diesem Artikel beschrieben.
+1. Klicken Sie auf außerhalb des Felds **Gruppeneinträge nach** , um sie zu schließen.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann auf **Farbe** , um Farbcode-Gruppierungen vorzunehmen. Weitere Informationen finden Sie im Abschnitt [Einstellungen für die Timeline-Ansicht bearbeiten](#edit-the-timeline-view-settings) in diesem Artikel.
 
 <!-- 
 
@@ -254,15 +254,15 @@ this is not possible right now; if this is the same functionality as the table v
 
 Aktualisieren Sie die Einstellungen der Timeline-Ansicht, um anzugeben, welche Informationen im Timeline-Abschnitt der Ansicht angezeigt werden.
 
-1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel beschrieben [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicks **Einstellungen**.
-1. Klicks **Datum und Uhrzeit** im linken Bereich und wählen Sie dann eine **Startdatum** und **Enddatum** in der Timeline angezeigt. Sie können das standardmäßige Start- und Enddatum oder ein beliebiges Datumsfeld auswählen. Die den Datensätzen entsprechenden Balken beginnen am Datum, das Sie für das Startdatum angeben, und enden an dem Datum, das dem Enddatum entspricht.
+1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Klicken Sie auf **Einstellungen**.
+1. Klicken Sie im linken Bereich auf **Datum und Uhrzeit** und wählen Sie dann ein **Startdatum** und ein **Enddatum** aus, die in der Timeline angezeigt werden sollen. Sie können das standardmäßige Start- und Enddatum oder ein beliebiges Datumsfeld auswählen. Die den Datensätzen entsprechenden Balken beginnen am Datum, das Sie für das Startdatum angeben, und enden an dem Datum, das dem Enddatum entspricht.
 
    >[!NOTE]
    >
    >Datensätze, die keine Werte für das Start- oder Enddatum oder ein Startdatum nach dem Enddatum haben, werden nicht in der Timeline-Ansicht angezeigt.
 
-1. Klicks **Balkenstil** im linken Bereich, um anzugeben, welche Felder in den Datensatzleisten angezeigt werden sollen.
+1. Klicken Sie im linken Bereich auf **Balkenstil** , um anzugeben, welche Felder in den Datensatzbalken angezeigt werden sollen.
 
    Das in der Tabellenansicht des Datensatzes definierte primäre Feld (oder Titel) wird standardmäßig ausgewählt. <!--adjust this when the primary field is released??-->
 
@@ -272,8 +272,8 @@ Aktualisieren Sie die Einstellungen der Timeline-Ansicht, um anzugeben, welche I
    >
    >    Sie müssen zuerst Miniaturansichten in der Tabellenansicht hinzufügen, bevor Sie sie in der Timeline-Ansicht anzeigen können. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. Klicks **Feld hinzufügen** , um bis zu 4 Felder zu den Datensatzbalken hinzuzufügen.
-1. Klicken Sie in die **Suchfelder** und klicken Sie auf das Feld, das Sie hinzufügen möchten.
+1. Klicken Sie auf **Feld hinzufügen** , um den Datensatzleisten bis zu 4 Felder hinzuzufügen.
+1. Klicken Sie in das Feld **Suchfelder** und klicken Sie auf das Feld, das Sie hinzufügen möchten.
 
    >[!TIP]
    >
@@ -285,14 +285,14 @@ Aktualisieren Sie die Einstellungen der Timeline-Ansicht, um anzugeben, welche I
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. Klicks **Farbe** im linken Bereich, um die Farben der Datensätze und Gruppierungen in der Timeline anzupassen.
+1. Klicken Sie im linken Bereich auf **Farbe** , um die Farben der Datensätze und Gruppierungen in der Timeline anzupassen.
 
    ![](assets/color-tab-timeline-view.png)
 
-1. (Bedingt und optional) Wenn Sie der Timeline-Ansicht eine Gruppierung hinzugefügt haben, wählen Sie aus den folgenden Optionen aus, um eine Farbe für die Gruppierung im **Festlegen der Gruppierungsfarbe** Abschnitt:
+1. (Bedingt und optional) Wenn Sie der Timeline-Ansicht eine Gruppierung hinzugefügt haben, wählen Sie aus den folgenden Optionen aus, um eine Farbe für die Gruppierung im Abschnitt **Gruppierungsfarbe festlegen** festzulegen:
 
    * **Standard (grau)**: Die Farbe der Gruppierungen ist auf grau eingestellt. Dies ist die Standardeinstellung.
-   * **Feldwerte**: Die Farbe der Gruppierungen entspricht der Farbe des Felds, nach dem Sie die Gruppe bilden.
+   * **Feldwerte**: Die Farbe der Gruppierungen stimmt mit der Farbe des Felds überein, nach dem Sie die Gruppe bilden.
 
      >[!NOTE]
      >
@@ -309,14 +309,14 @@ Aktualisieren Sie die Einstellungen der Timeline-Ansicht, um anzugeben, welche I
    >
    >Wenn Sie der Timeline-Ansicht keine Gruppierungen hinzugefügt haben, wird dieser Abschnitt nicht angezeigt.
 
-1. Im **Datensatzfarbe festlegen** Wählen Sie aus den folgenden Optionen aus, um eine Farbe für die Datensätze festzulegen:
+1. Wählen Sie im Abschnitt **Datensatzfarbe festlegen** aus den folgenden Optionen aus, um eine Farbe für die Datensätze festzulegen:
 
-   * **Record Type**: Die Farbe der Datensätze entspricht der Farbe des von Ihnen ausgewählten Datensatztyps. Dies ist die Standardoption.
+   * **Record type**: Die Farbe der Datensätze entspricht der Farbe des von Ihnen ausgewählten Datensatztyps. Dies ist die Standardoption.
    * **Feldwerte**: Die Farbe der Datensätze entspricht der Farbe eines von Ihnen angegebenen Felds. Fahren Sie mit Schritt 10 fort. <!--ensure this stays accurate-->
    * **Gruppierung**: Die Farbe der Datensätze entspricht der Farbe, die Sie für die Gruppierungen angegeben haben. Diese Option ist abgeblendet, wenn Sie keine Gruppierungen auf die Timeline-Ansicht angewendet haben.
-   * **Keines**: Datensätze werden in einer weißen Leiste angezeigt.
+   * **None**: Datensätze werden in einer weißen Leiste angezeigt.
 
-1. (Bedingt) Bei Auswahl von **Feldwerte** Wählen Sie für die Datensatzfarben ein Feld aus der **Übereinstimmung der Datensatzfarbe mit** Dropdown-Menü.
+1. (Bedingt) Wenn Sie **Feldwerte** für die Datensatzfarben ausgewählt haben, wählen Sie ein Feld aus dem Dropdownmenü **Datensatzfarbe mit** abgleichen aus.
 
    ![](assets/field-selector-drop-down-menu-timeline-view.png)
 

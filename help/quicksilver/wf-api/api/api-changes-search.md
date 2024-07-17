@@ -10,8 +10,8 @@ role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 0%
 
 ---
 
@@ -51,9 +51,9 @@ Für den Status der Problemgruppe:
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Alle drei Endpunkte akzeptieren die **includeHidden=true** -Parameter, um den Status des ausgeblendeten Projekts/der Aufgabe/des Problems einer bestimmten Gruppe abzurufen. Durch die Modellierung Ihrer Statussuchabfragen nach diesen Best-Practice-Beispielen wird sichergestellt, dass alle Gruppenstatusinformationen in jeder Antwort enthalten sind.
+Alle drei Endpunkte akzeptieren den Parameter **includeHidden=true** , um den Status des ausgeblendeten Projekts/der Aufgabe/des Problems einer bestimmten Gruppe abzurufen. Durch die Modellierung Ihrer Statussuchabfragen nach diesen Best-Practice-Beispielen wird sichergestellt, dass alle Gruppenstatusinformationen in jeder Antwort enthalten sind.
 
-Im Folgenden finden Sie ein Beispiel für eine Statussuchabfrage, die an eine Aufgabengruppe mit einem Sperrstatus auf Systemebene gesendet wird **Custom_1** und einen entsperrten Status **Custom_2**:
+Im Folgenden finden Sie ein Beispiel für eine Statussuchabfrage, die an eine Aufgabengruppe gesendet wird, die einen auf Systemebene gesperrten Status **Benutzerdefiniert_1** und einen entsperrten Status **Benutzerdefiniert_2** aufweist:
 
 >**Beispiel:**
 

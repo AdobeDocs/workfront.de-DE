@@ -22,7 +22,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -49,7 +49,7 @@ Normalerweise ändern sich die Mission und Vision einer Organisation nicht regel
 Wir haben die folgenden Schritte zur Definition Ihrer Vision und Strategie für Ihre Organisation identifiziert:
 
 * [Definieren und Ausdrücken des Endziels](#define-and-express-the-end-goal)
-* [Zusammenarbeit in Bezug auf Unternehmens- und Organisationsziele](#collaborate-around-enterprise-and-organizational-goals)
+* [Zusammenarbeit im Hinblick auf Unternehmens- und Organisationsziele](#collaborate-around-enterprise-and-organizational-goals)
 * [Strategische Abstimmung von Gruppen und Teams](#align-groups-and-teams-to-strategy)
 
 ### Definieren und Ausdrücken des Endziels {#define-and-express-the-end-goal}
@@ -72,7 +72,7 @@ Wir empfehlen Folgendes:
 
 Informationen zum Erstellen von Zielen und Hinzufügen von Ergebnissen finden Sie in den folgenden Artikeln:
 
-* [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md)
+* [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
 * [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 ### Zusammenarbeit an Unternehmens- und Organisationszielen {#collaborate-around-enterprise-and-organizational-goals}
@@ -90,7 +90,7 @@ Beachten Sie beim Erstellen und Ausrichten von Zielen die folgenden Richtlinien:
 
 Informationen zum Erstellen und Ausrichten von Zielen finden Sie in den folgenden Artikeln:
 
-* [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md)
+* [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
 * [Übersicht über die Zielausrichtung in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 
 ### Strategische Abstimmung von Gruppen und Teams {#align-groups-and-teams-to-strategy}
@@ -138,7 +138,7 @@ Informationen zum Konfigurieren des Zugriffs auf Workfront-Ziele finden Sie unte
 
 ## Workfront Goals-Objekte
 
-In der folgenden Tabelle werden die Workfront Goals-Objekte beschrieben. Sie können ihren Namen anpassen, indem Sie eine Layoutvorlage ändern und sie Benutzern, Teams oder Gruppen zuweisen. Informationen zum Anpassen von Objektnamen mithilfe einer Layoutvorlage finden Sie unter [Benutzeroberflächenterminologie mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+In der folgenden Tabelle werden die Workfront Goals-Objekte beschrieben. Sie können ihren Namen anpassen, indem Sie eine Layoutvorlage ändern und sie Benutzern, Teams oder Gruppen zuweisen. Informationen zum Anpassen von Objektnamen mit einer Layoutvorlage finden Sie unter [Benutzeroberflächenterminologie mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 Workfront Goals verwendet die folgenden Hauptobjekte:
 

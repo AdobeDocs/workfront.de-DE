@@ -30,12 +30,12 @@ Sie können Aufgaben Benutzern, Teams oder Auftragsrollen zuweisen oder deren Zu
 
 Dieser Artikel enthält allgemeine Informationen über die Auswirkungen der Änderung von Aufgabenzuweisungen. Informationen zum Zuweisen von Aufgaben finden Sie in den folgenden Artikeln:
 
-* Informationen zum Zuweisen von Aufgaben finden Sie unter [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) und [Mehrere Benutzerzuweisungen in einer Aufgabenliste ändern](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+* Weitere Informationen zum Zuweisen von Aufgaben finden Sie unter [Zuweisen von Aufgaben](../../../manage-work/tasks/assign-tasks/assign-tasks.md) und [Ändern von mehreren Benutzerzuweisungen in einer Aufgabenliste](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 * Informationen zum Ändern von Zuweisungen für mehrere Aufgaben im Bereich &quot;Planung&quot;finden Sie unter &quot;Ändern von Zuweisungen mehrerer Benutzer zu Aufgaben in den Planungsbereichen&quot;.
 * Informationen zum Zuweisen von Aufgaben mithilfe des Lastenausgleichs finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Einige Informationen in diesem Artikel gelten auch für die Zuweisung von Problemen. Weitere Informationen zum Zuweisen von Problemen sowie weitere Überlegungen finden Sie unter [Übersicht über die Änderung von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Einige Informationen in diesem Artikel gelten auch für die Zuweisung von Problemen. Weitere Informationen zum Zuweisen von Problemen sowie weitere Überlegungen finden Sie unter [Überblick über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 ## Wann sollten Benutzerzuweisungen für Aufgaben geändert werden?
 
@@ -46,7 +46,7 @@ Sie können die Benutzerzuweisungen für Aufgaben aus verschiedenen Gründen än
 
   >[!NOTE]
   >
-  >Wenn Benutzer zur Arbeit zugewiesen werden, wirkt sich ihre Verfügbarkeit entsprechend ihren Zeitplänen auf die geplanten und geplanten Termine der Aufgaben aus. Weitere Informationen zu Zeitplänen finden Sie unter [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  >Wenn Benutzer zur Arbeit zugewiesen werden, wirkt sich ihre Verfügbarkeit entsprechend ihren Zeitplänen auf die geplanten und geplanten Termine der Aufgaben aus. Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Eine bestimmte Rolle oder ein bestimmter Benutzer wird als Verantwortlicher für mehrere Aufgaben festgelegt und Sie möchten schnell alle Elemente ändern, die einem anderen Benutzer oder einer anderen Rolle zugewiesen werden sollen
 
@@ -54,7 +54,7 @@ Sie können die Benutzerzuweisungen für Aufgaben aus verschiedenen Gründen än
 
 Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes:
 
-* Benutzern kann mehr als eine Auftragsrolle mit ihrem Profil zugeordnet sein. Weitere Informationen zum Verknüpfen von Benutzern mit Auftragsrollen finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Benutzern kann mehr als eine Auftragsrolle mit ihrem Profil zugeordnet sein. Informationen zum Zuordnen von Benutzern zu Vorgangsrollen finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Aufgaben oder Probleme werden normalerweise zuerst einer oder mehreren Auftragsrollen oder einem Team zugewiesen. Wenn Projekte startbereit sind, müssen sie möglicherweise auch Benutzern zugewiesen werden.\
   Wenn eine Aufgabe oder ein Problem einer oder mehreren Rollen zugewiesen ist und Sie dann auch einen Benutzer zuweisen, bestimmt Adobe Workfront gemäß den folgenden Regeln, welche Vorgangsrolle dem zusätzlichen Benutzer zugeordnet werden soll (falls vorhanden):
@@ -67,7 +67,7 @@ Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes
 
 ## Wie sich das Entfernen von Bevollmächtigten auf die Aufgabenzeiten und Zuordnungsprozentsätze auswirkt
 
-Das Entfernen von Benutzern kann sich auf die Aufgabenzeiten und Zuordnungsprozentsätze auswirken. Die Auswirkungen, die das Entfernen eines Benutzers auf die Aufgabe hat, hängen vom Typ Dauer ab, der für die Aufgabe ausgewählt wurde. Weitere Informationen zum Typ der Dauer finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Das Entfernen von Benutzern kann sich auf die Aufgabenzeiten und Zuordnungsprozentsätze auswirken. Die Auswirkungen, die das Entfernen eines Benutzers auf die Aufgabe hat, hängen vom Typ Dauer ab, der für die Aufgabe ausgewählt wurde. Weitere Informationen zum Dauer-Typ finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Wenn Sie einen Benutzer aus einer Aufgabe mit den folgenden Ereignistypen löschen:
 
@@ -77,15 +77,15 @@ Wenn Sie einen Benutzer aus einer Aufgabe mit den folgenden Ereignistypen lösch
   >
   >Dies könnte sich negativ auf Ihren Projektplan auswirken, da sich dadurch die Gesamtdauer der geplanten Aufgaben und des Projekts ändert.
 
-* **Aufwandsorientiert:** Der Zuordnungsprozentsatz ändert sich für andere Benutzer nicht.
-* **Berechnete Zuweisung:** Die Zuordnungsprozentsätze anderer Benutzer werden so angepasst, dass die Gesamtsumme 100 % entspricht.
+* **Anstrengung gesteuert:** Der Zuordnungsprozentsatz ändert sich für andere Benutzer nicht.
+* **Berechnete Zuweisung:** Die Zuordnungsprozentsätze anderer Benutzer werden so angepasst, dass die Gesamtzahl 100 % entspricht.
 * **Berechnete Arbeit:** Der Zuordnungsprozentsatz ändert sich für andere Benutzer nicht.
 
 ## Überlegungen zum Aufheben der Zuweisung von Aufgaben
 
 Sie können Zuweisungen aus einer Aufgabe gleichzeitig entfernen oder Zuweisungen aus mehreren Aufgaben gleichzeitig entfernen.
 
-Weitere Informationen zum Entfernen von Zuweisungen aus Aufgaben in Stapeln finden Sie unter [Mehrere Benutzerzuweisungen in einer Aufgabenliste ändern](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+Weitere Informationen zum Entfernen von Zuweisungen aus Aufgaben in großen Mengen finden Sie unter [Ändern von mehreren Benutzerzuweisungen in einer Aufgabenliste](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 Beachten Sie beim Entfernen von Zuweisungen aus Aufgaben Folgendes:
 

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Installieren Sie die  [!DNL Adobe Workfront] Plug-in für [!DNL Creative Cloud] Anwendungen
+# Installieren des Plug-ins [!DNL Adobe Workfront] für [!DNL Creative Cloud]-Anwendungen
 
-Dieser Abschnitt enthält die folgenden Artikel. Anweisungen zur Installation der [!DNL Adobe Workfront] -Plug-in, lesen Sie den Artikel für die Anwendung, in der Sie das Plug-in installieren.
+Dieser Abschnitt enthält die folgenden Artikel. Anweisungen zum Installieren des Plug-ins [!DNL Adobe Workfront] finden Sie im Artikel für die Anwendung, in der Sie das Plug-in installieren.
 
 * [Installieren und öffnen [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Installieren und öffnen [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)

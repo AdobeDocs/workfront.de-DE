@@ -25,7 +25,7 @@ Da Adobe Workfront ein Adobe-Produkt ist, können Sie über die Adobe Admin Cons
 
 Alle Workfront-Kunden werden schließlich in die Adobe Admin Console verschoben. Nachdem Ihr Unternehmen zur Adobe Admin Console wechselt, wird die Workfront-Authentifizierung über die Konsole verwaltet. Die Vorbereitung und Durchführung dieses Schritts erfolgt frühzeitiger, damit Sie die Grundlagen für Effizienz im Arbeitsmanagement legen und Ihr Unternehmen für schnellere Innovationen in der Zukunft positionieren können
 
-Einen Überblick über die Adobe Admin Console finden Sie unter [Übersicht über Admin Consolen](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
+Einen Überblick über die Adobe Admin Console finden Sie unter [Übersicht über die Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 ## Checkliste für die Migration
 
@@ -45,7 +45,7 @@ Um sicherzustellen, dass Ihr Unternehmen zur Adobe Admin Console migrieren kann,
    >
    >Bereiten Sie sich darauf vor, mit dem Workfront-Support und Ihrem IT-Team über Authentifizierungseinstellungen wie Single Sign-on (SSO) oder Nicht-SSO zu sprechen.
 
-   Anweisungen finden Sie im Abschnitt Identity Management des [Implementierungshandbuch für Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   Anweisungen finden Sie im Abschnitt Identity Management des [Implementierungshandbuchs für Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Bedingt) Wenn Sie Single Sign-on verwenden, verbinden Sie die neue Adobe Admin Console mit Ihrem bestehenden SSO-Provider.
 
@@ -59,9 +59,9 @@ Um sicherzustellen, dass Ihr Unternehmen zur Adobe Admin Console migrieren kann,
 
    1. Entfernen doppelter E-Mails aus Workfront.
 
-      Anweisungen finden Sie unter [E-Mail-Adressen vorhandener Benutzer in Ihrer Workfront-Instanz aktualisieren](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [Vermeiden doppelter Benutzer](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+      Anweisungen finden Sie unter [Aktualisieren der E-Mail-Adressen vorhandener Benutzer in Ihrer Workfront-Instanz](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [Vermeiden von doppelten Benutzern](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
 
-      Wenn Ihre Organisation doppelte E-Mail-Adressen hat, wird der Benutzer durch die E-Mail-Adresse mit der neuesten `lastLoginDate` wird in die Adobe Admin Console-Organisation verschoben. Alle anderen Benutzer mit dieser E-Mail-Adresse werden deaktiviert.
+      Wenn Ihre Organisation doppelte E-Mail-Adressen enthält, wird der Benutzer, der durch die E-Mail-Adresse mit der letzten `lastLoginDate` repräsentiert wird, in die Adobe Admin Console-Organisation verschoben. Alle anderen Benutzer mit dieser E-Mail-Adresse werden deaktiviert.
 
       >[!NOTE]
       >
@@ -85,6 +85,6 @@ Um sicherzustellen, dass Ihr Unternehmen zur Adobe Admin Console migrieren kann,
 
 Nachdem Ihr Adobe Admin Console mit Workfront konfiguriert wurde, können Sie ihn verwenden, um Ihre Workfront-Systemadministratoren zu erstellen.
 
-Weitere Informationen finden Sie unter [Verwalten von Systemadministratoren in Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Weitere Informationen finden Sie unter [Verwalten von Systemadministratoren in der Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-Eine Liste weiterer Aktionen, die je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+Eine Liste weiterer Aktionen, die je nachdem, ob Ihr Unternehmen in Adobe Admin Console integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Integrations- und mobilen Verbesserungen beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
 
-Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Workfront Fusion 2.0 ist da!
 
@@ -32,9 +32,9 @@ Weitere Informationen finden Sie unter [Adobe Workfront Fusion](../../../workfro
 
 Workfront arbeitet mit der Mobile Device Management (MDM)-Plattform MobileIron zusammen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten.
 
-Mit Workfront für MobileIron können Administratoren die Funktionen zum Kopieren/Einfügen und die Bildschirmaufzeichnung einschränken. Sie können die App Workfront for MobileIron unter [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
+Mit Workfront für MobileIron können Administratoren die Funktionen zum Kopieren/Einfügen und die Bildschirmaufzeichnung einschränken. Sie können die App Workfront for MobileIron unter [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront) herunterladen.
 
-Informationen zum Konfigurieren der App finden Sie unter [Adobe Workfront für MobileIron konfigurieren](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Informationen zum Konfigurieren der App finden Sie unter [Konfigurieren von Adobe Workfront für MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 ## Neuer mobiler virtueller Assistent
 
@@ -52,5 +52,5 @@ Pin-Befehle
 
 Sie können die Pin-Funktion verwenden, um auf gespeicherte virtuelle Assistentenbefehle sowie Pins aus Ihrem Webbrowser zuzugreifen.
 
-**Hinweis: Der mobile Virtual Assistant wird seit April 2024 nicht mehr unterstützt.**
+**Hinweis: Der mobile virtuelle Assistent für Mobilgeräte wird seit April 2024 nicht mehr unterstützt.**
 

@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 1%
+source-wordcount: '396'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -45,10 +45,10 @@ Sie müssen über Folgendes verfügen:
 ## Anfordern eines Dokuments
 
 1. Wechseln Sie zu dem Bereich, in dem sich das gewünschte Dokument befinden soll.
-1. Klicken Sie auf **Dokumente** Registerkarte. 
-1. Klicken Sie auf **Neu hinzufügen** Dropdown-Menü.
+1. Klicken Sie auf die Registerkarte **Dokumente**. 
+1. Klicken Sie auf das Dropdown-Menü **Neu hinzufügen** .
 
-1. Klicks **Anfordern eines Dokuments**.
+1. Klicken Sie auf **Dokument anfordern**.
 
    Das Dialogfeld Dokument anfordern wird angezeigt.
 
@@ -58,17 +58,17 @@ Sie müssen über Folgendes verfügen:
 
    >[!NOTE]
    >
-   >Wenn Sie [Überblick über veraltete Lizenzen](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) aktiviert haben, können Sie eine Anfrage an eine beliebige E-Mail-Adresse senden. Es gibt eine Einstellung in der [Systemsicherheitsvoreinstellungen konfigurieren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) bestimmt, ob diese externen E-Mail-Benutzer ein Kennwort erstellen müssen, bevor sie mit Workfront interagieren. 
+   >Wenn Sie die [Übersicht über veraltete Lizenzen](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) in Ihrem Konto aktiviert haben, können Sie eine Anfrage an eine beliebige E-Mail-Adresse senden. In den [Systemsicherheitsvoreinstellungen konfigurieren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) gibt es eine Einstellung, die bestimmt, ob diese externen E-Mail-Benutzer ein Kennwort erstellen müssen, bevor sie mit Workfront interagieren. 
 
 1. Beschreiben Sie den Grund, aus dem Sie das Dokument anfordern.
-1. Klicks **Anfrage senden**.
+1. Klicken Sie auf **Anfrage senden**.
 
    Wenn Sie eine Anforderung an einen Benutzer senden, wird ein Platzhalter im Dokumentbereich hinzugefügt. Sie können den Benutzer daran erinnern oder die Anfrage von diesem Platzhalter abbrechen. Der Benutzer erhält eine Workfront-Benachrichtigung und eine E-Mail zur Anfrage.
 
-   Wenn diese Voreinstellung aktiviert ist, erhält der Benutzer eine E-Mail-Benachrichtigung sowie eine In-App-Benachrichtigung. Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Wenn diese Voreinstellung aktiviert ist, erhält der Benutzer eine E-Mail-Benachrichtigung sowie eine In-App-Benachrichtigung. Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Sie können auf den in der E-Mail-Benachrichtigung enthaltenen Link klicken und dann das Dokument hochladen. Sie können auch auf die In-App-Benachrichtigung klicken. Jede Option leitet Sie zur Benutzerprofilseite weiter, auf die Sie das angeforderte Dokument hochladen können.
 
-1. Nach dem Hochladen des Dokuments kann die Person, die das Dokument angefordert hat, auf das Dokument in ihrer **Dokumente** Bereich.
+1. Nach dem Hochladen des Dokuments kann die Person, die es angefordert hat, auf das Dokument in ihrem persönlichen Bereich **Dokumente** zugreifen.
 
-   Sie haben Zugriff auf Ihre persönlichen **Dokumente** durch Klicken auf das Benutzerprofilbild in der oberen rechten Ecke einer beliebigen Workfront-Seite, Klicken auf Ihren Namen und dann auf **Dokumente** Registerkarte.
+   Sie können auf Ihren persönlichen Bereich **Dokumente** zugreifen, indem Sie in der oberen rechten Ecke einer Workfront-Seite auf Ihr Benutzerprofilbild klicken, auf Ihren Namen klicken und dann auf die Registerkarte **Dokumente** klicken.

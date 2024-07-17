@@ -23,5 +23,5 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Kommentar zu einem Testversand](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
 * [Entscheidung über einen Testversand](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
 
-* [Benachrichtigungen für Testversandkommentare und -entscheidungen verwalten](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+* [Benachrichtigungen für Testversand-Kommentare und -Entscheidungen verwalten](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 * [Konfigurieren der Einstellungen des Testversand-Viewers](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)

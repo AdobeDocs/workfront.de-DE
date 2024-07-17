@@ -43,7 +43,7 @@ Sie müssen über Folgendes verfügen:
    </td>
   </tr>
   <tr>
-   <td><strong>Experience Manager-Lizenz</strong>
+   <td><strong>Experience Manager license</strong>
    </td>
    <td>Standard
    </td>
@@ -57,7 +57,7 @@ Sie müssen über Folgendes verfügen:
   <tr>
    <td><strong>Konfigurationen auf Zugriffsebene</strong>
    </td>
-   <td>Sie müssen Workfront-Administrator sein. Informationen zu Workfront-Administratoren finden Sie unter <strong>Gewähren eines vollen Administratorzugriffs</strong>.
+   <td>Sie müssen Workfront-Administrator sein. Weitere Informationen zu Workfront-Administratoren finden Sie unter <strong>Gewähren des vollen Administratorzugriffs für Benutzer</strong>.
    </td>
   </tr>
 </table>
@@ -68,9 +68,9 @@ Sie müssen über Folgendes verfügen:
 
 ## Integration einrichten
 
-1. Klicken Sie auf **Hauptmenü** rechts oben in Adobe Workfront auf und klicken Sie dann auf **Einrichtung**.
-1. Auswählen  **Dokumente** ![Dokumentsymbol](assets/document-icon.png) Wählen Sie im linken Bereich die Option **Experience Manager-Integration**.
-1. Auswählen **Experience Manager-Integration hinzufügen**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und dann auf **Einrichten**.
+1. Wählen Sie im linken Bereich das Symbol **Dokumente** ![Dokumente](assets/document-icon.png) und dann **Experience Manager-Integration** aus.
+1. Wählen Sie **Experience Manager-Integration hinzufügen** aus.
 1. Geben Sie Folgendes an:
 
    <table>
@@ -81,7 +81,7 @@ Sie müssen über Folgendes verfügen:
       </td>
    </tr>
    <tr>
-      <td><strong>NavigationsURL</strong>
+      <td><strong>Navigations-URL</strong>
       </td>
       <td>Das System füllt die Navigations-URL automatisch. Diese URL wird verwendet, um über das Hauptmenü eine Verknüpfung zur Assets Essentials-Instanz Ihres Unternehmens herzustellen, damit Sie schnell darauf zugreifen können.
       </td>
@@ -96,7 +96,7 @@ Sie müssen über Folgendes verfügen:
    </tr>
    </table>
 
-1. Klicks **Speichern** oder zum [Einrichten von Metadaten (optional)](#set-up-metadata-optional) in diesem Artikel beschrieben.
+1. Klicken Sie auf **Speichern** oder wechseln Sie zum Abschnitt [Einrichten von Metadaten (optional)](#set-up-metadata-optional) in diesem Artikel.
 
 
 ## Einrichten von Metadaten (optional)
@@ -108,8 +108,8 @@ Ordnen Sie Workfront-Objektdaten Asset-Medienfeldern in Experience Manager Asset
 
 Bevor Sie beginnen, müssen Sie
 
-* Konfigurieren Sie ein Metadatenschema in Experience Manager Assets Essentials, wie hier beschrieben: [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-* (Optional) Konfigurieren Sie benutzerdefinierte Formularfelder in Workfront. Workfront verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Konfigurieren Sie ein Metadatenschema in Experience Manager Assets Essentials, wie in [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en) beschrieben.
+* (Optional) Konfigurieren Sie benutzerdefinierte Formularfelder in Workfront. Workfront verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Unterstützte Workfront- und Experience Manager Assets-Felder
 
@@ -117,7 +117,7 @@ Bevor Sie beginnen, müssen Sie
 
 Sie können jedes von Workfront unterstützte Feld einem Suchbegriff in Experience Manager Assets Essentials zuordnen.
 
-Um ein Feld mit einem Suchbegriff zu verknüpfen, wählen Sie `xcm:keywords` im Dropdown-Menü Experience Manager Assets-Feld im Bereich Metadatenzuordnung.
+Um ein Feld mit einem Keyword zu verknüpfen, wählen Sie im Dropdown-Menü Experience Manager Assets-Feld im Bereich Metadatenzuordnung die Option `xcm:keywords` aus.
 
 Um mehrere einzeilige Textfelder Suchbegriffen zuzuordnen, geben Sie eine kommagetrennte Liste der Suchbegriffwerte auf der Workfront-Seite der Metadaten-Zuordnung ein und `xcm:keywords` auf der Experience Manager Assets-Seite. Jeder Feldwert wird einem separaten Suchbegriff zugeordnet. Sie können ein berechnetes Feld verwenden, um mehrere Workfront-Felder in einem einzigen, kommagetrennten Textfeld zu kombinieren.
 
@@ -133,16 +133,16 @@ For more information on keywords in Experience Manager Assets, including how to 
 
 Metadaten werden zugeordnet, wenn ein Asset zum ersten Mal aus Workfront gesendet wird. Dokumente mit den integrierten oder benutzerdefinierten Feldern werden automatisch den angegebenen Feldern zugeordnet, wenn ein Asset zum ersten Mal an Experience Manager Assets Essentials gesendet wird.
 
-1. Im **Workfront-Feld** wählen Sie ein integriertes oder benutzerdefiniertes Workfront-Feld aus.
+1. Wählen Sie in der Spalte **Workfront field** ein integriertes oder benutzerdefiniertes Workfront-Feld aus.
    >[!NOTE]
    >
    >Sie können ein einzelnes Workfront-Feld mehreren Experience Manager Assets-Feldern zuordnen. Sie können nicht mehrere Workfront-Felder einem einzelnen Experience Manager Assets-Feld zuordnen.
-1. Im **Experience Manager** ein Experience Manager Assets-Feld auswählen.
+1. Wählen Sie im Feld **Experience Manager** ein Experience Manager Assets -Feld aus.
 
-   Um ein Workfront-Feld einem Experience Manager Assets-Tag zuzuordnen, wählen Sie `xcm:keywords`.
+   Um ein Workfront-Feld einem Experience Manager Assets-Tag zuzuordnen, wählen Sie `xcm:keywords` aus.
 1. Wiederholen Sie die Schritte 1 und 2 nach Bedarf.
-   ![Metadaten aktivieren](assets/metadata-assets-essentials.png)
-1. Klicks **Speichern** oder zum [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel beschrieben.
+   ![Aktivieren von Metadaten](assets/metadata-assets-essentials.png)
+1. Klicken Sie auf **Speichern** oder wechseln Sie zum Abschnitt [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel.
 
 
 ## Verknüpfte Ordner einrichten (optional)

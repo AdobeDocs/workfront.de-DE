@@ -47,7 +47,7 @@ Darüber hinaus profitieren alle Benutzer von einer verbesserten Konnektivität 
 
 Weitere Informationen finden Sie unter
 
-* [Übersicht über Testrollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [Übersicht über Testversandrollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 *  
 
 ## Verbesserungen bei der elektronischen Signatur für Testsendungen
@@ -56,15 +56,15 @@ Wir haben es Benutzern erleichtert, Testsendungen elektronisch zu unterschreiben
 
 >[!IMPORTANT]
 >
->Um einen Testversand mit SSO-Anmeldeinformationen elektronisch zu signieren, müssen Sie SSO in Workfront Proof einrichten. Weitere Informationen zum Aktivieren der einmaligen Anmeldung finden Sie unter [Single-Sign-On für Workfront-Testbenutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Um einen Testversand mit SSO-Anmeldeinformationen elektronisch zu signieren, müssen Sie SSO in Workfront Proof einrichten. Weitere Informationen zum Aktivieren von SSO finden Sie unter [Single Sign-On für Workfront Proof-Benutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
-Bisher mussten Benutzer Workfront Testversand-Anmeldeinformationen verwenden, die sich von ihren Workfront-Anmeldedaten unterscheiden.
+Bisher mussten Benutzer Workfront Proof-Anmeldeinformationen verwenden, die sich von ihren Workfront-Anmeldedaten unterscheiden.
 
 Weitere Informationen finden Sie unter [Sicherheitsübersicht für Testsendungen](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
 
 ## Upgrade für Desktop Viewer
 
-Der Desktop Proofing Viewer wurde aktualisiert, um bis zu Chrome-Version 91 zu unterstützen und so die Kompatibilität mit interaktiven Testsendungen zu verbessern.
+Der Desktop Proofing Viewer wurde aktualisiert, um bis zu Chrome Version 91 zu unterstützen und so die Kompatibilität mit interaktiven Testsendungen zu verbessern.
 
 >[!IMPORTANT]
 >

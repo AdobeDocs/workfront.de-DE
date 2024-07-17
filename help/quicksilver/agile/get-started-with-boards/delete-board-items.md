@@ -42,35 +42,35 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Löschen einer Karte aus einer Pinnwand
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Löschen]**.
-1. Klicks **[!UICONTROL Löschen]** in der Bestätigungsnachricht angezeigt.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Pinnwände]**.![](assets/main-menu-icon.png)
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Löschen]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Löschen]** .
 
 ## Karte aus einer Pinnwand archivieren
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Archivieren]**.
+1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Archivieren]**.
 
    Archivierte Karten werden auf der Pinnwand ausgeblendet, es sei denn, Sie wenden einen Filter an, um sie anzuzeigen. Weitere Informationen finden Sie unter [Filtern einer Pinnwand, um archivierte Karten anzuzeigen](#filter-a-board-to-show-archived-cards) in diesem Artikel.
 
-   Ein [!UICONTROL Archivieren] icon ![Archivieren](assets/archive-icon-spectrum-25x20.png) wird auf archivierten Karten angezeigt. Sie können eine archivierte Karte nicht bearbeiten, sie jedoch löschen oder in eine andere Spalte verschieben.
+   Ein [!UICONTROL Archiv] -Symbol ![Archiv](assets/archive-icon-spectrum-25x20.png) wird auf archivierten Karten angezeigt. Sie können eine archivierte Karte nicht bearbeiten, sie jedoch löschen oder in eine andere Spalte verschieben.
 
-1. Um eine archivierte Karte wiederherzustellen, klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Wiederherstellen]**.
+1. Um eine archivierte Karte wiederherzustellen, klicken Sie auf das Menü **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Wiederherstellen]**.
 
 ## Filtern einer Pinnwand, um archivierte Karten anzuzeigen {#filter-a-board-to-show-archived-cards}
 
 Standardmäßig werden nur aktive Karten auf einer Pinnwand angezeigt. Sie können die Pinnwand filtern, um auch alle archivierten Karten anzuzeigen.
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicks [!UICONTROL **Konfigurieren**] auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
-1. Erweitern [!UICONTROL **Karten**].
-1. Aktivieren [!UICONTROL **Archivierte Karten auf der Pinnwand anzeigen**].
-1. Klicks [!UICONTROL **Filter**], erweitern Sie die [!UICONTROL Archivierte Karten] und wählen Sie **[!UICONTROL Archivierte Karten]** , um alle archivierten Karten anzuzeigen.
+1. Klicken Sie rechts auf der Pinnwand auf [!UICONTROL **Konfigurieren**] , um den Bereich &quot;Konfigurieren&quot;zu öffnen.
+1. Erweitern Sie [!UICONTROL **Karten**].
+1. Aktivieren Sie [!UICONTROL **Archivierte Karten auf der Pinnwand anzeigen**].
+1. Klicken Sie auf [!UICONTROL **Filter**], erweitern Sie den Abschnitt [!UICONTROL Archivierte Karten] und wählen Sie **[!UICONTROL Archivierte Karten]** aus, um alle archivierten Karten anzuzeigen.
 
    Der Filter zeigt die Anzahl der archivierten Karten an.
 
@@ -78,6 +78,6 @@ Standardmäßig werden nur aktive Karten auf einer Pinnwand angezeigt. Sie könn
 
    >[!NOTE]
    >
-   >Die [!UICONTROL Archivierte Karten] ist im Filter nicht verfügbar, wenn Sie die Konfigurationseinstellung zur Anzeige archivierter Karten nicht aktiviert haben. Weitere Informationen finden Sie unter [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+   >Der Abschnitt [!UICONTROL Archivierte Karten] ist im Filter nicht verfügbar, wenn Sie die Konfigurationseinstellung zur Anzeige archivierter Karten nicht aktiviert haben. Weitere Informationen finden Sie unter [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-1. Auswählen **[!UICONTROL Archivierte Karten]** erneut, um die Option zu löschen und nur aktive Karten anzuzeigen.
+1. Wählen Sie erneut **[!UICONTROL Archivierte Karten]** aus, um die Option zu löschen und nur aktive Karten anzuzeigen.

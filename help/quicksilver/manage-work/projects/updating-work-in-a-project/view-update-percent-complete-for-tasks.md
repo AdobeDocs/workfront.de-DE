@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Bereiche, in denen der prozentuale Abschluss einer Aufgabe aktualisiert werden kann
@@ -57,9 +57,9 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
 Sie können den Prozentsatz der Abschlüsse für eine Aufgabe in einem der folgenden Bereiche aktualisieren:
 
 * **In einer Aufgabenliste**: Sie können den Prozentsatz des Abschlusses einer Aufgabe aktualisieren, wenn die Spalte &quot;Prozent abgeschlossen&quot;angezeigt wird.\
-  Weitere Informationen zur Inline-Bearbeitung finden Sie unter [Inline-Bearbeitungselemente in einer Liste in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+  Weitere Informationen zur Inline-Bearbeitung finden Sie unter [Inline-Bearbeitung von Elementen in einer Liste in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **In der Milestone-Ansicht**: Sie können den Prozentsatz der Abschlüsse einer Aufgabe aktualisieren, wenn Sie die Meilensteinansicht in einer Projektliste oder in einem Projektbericht verwenden. Weitere Informationen finden Sie unter [Verwenden der Milestone-Ansicht](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **In der Meilensteinansicht**: Sie können den Prozentsatz der Abschlüsse einer Aufgabe aktualisieren, wenn Sie die Meilensteinansicht in einer Projektliste oder einem Projektbericht verwenden. Weitere Informationen finden Sie unter [Verwenden der Meilensteinansicht](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 <!--only in legacy commenting: 
 * **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
@@ -72,11 +72,11 @@ Sie können den Prozentsatz der Abschlüsse für eine Aufgabe in einem der folge
   >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
   >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
-* **In der Aufgabenüberschrift**: Sie können den Prozentsatz der Abschlüsse einer Aufgabe in der Kopfzeile der Aufgabe aktualisieren. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../tasks/manage-tasks/edit-tasks.md).
+* **In der Aufgabenkopfzeile**: Sie können den Prozentsatz der Abschlüsse einer Aufgabe in der Aufgabenkopfzeile aktualisieren. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-* **Im Bereich &quot;Zusammenfassung&quot;einer Aufgabe**: Sie können den Prozentsatz des Abschlusses einer Aufgabe oben im Bedienfeld &quot;Zusammenfassung&quot;aktualisieren, wenn Sie die Aufgabe in den folgenden Bereichen anzeigen:
+* **Im Bereich &quot;Zusammenfassung&quot;einer Aufgabe**: Sie können den Prozentsatz der Abschlüsse einer Aufgabe am oberen Rand des Bereichs &quot;Zusammenfassung&quot;aktualisieren, wenn Sie die Aufgabe in den folgenden Bereichen anzeigen:
 
    * Aufgabenliste oder Bericht
    * Arbeitszeittabelle
@@ -84,11 +84,11 @@ Sie können den Prozentsatz der Abschlüsse für eine Aufgabe in einem der folge
 
   ![](assets/update-percent-complete-in-task-summary-highlighted.png)
 
-  Weitere Informationen finden Sie unter [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  Weitere Informationen finden Sie unter [Übersicht der Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
-* **Startseite**: Sie können den prozentualen Abschluss einer Aufgabe oder eines Problems über das Bedienfeld Zusammenfassung im Bereich Startseite oder über das Widget Meine Arbeit aktualisieren.
+* **Startseite**: Sie können den prozentualen Abschluss einer Aufgabe oder eines Problems über das Bedienfeld &quot;Zusammenfassung&quot;im Bereich &quot;Startseite&quot;oder über das Widget &quot;Meine Arbeit&quot;aktualisieren.
 
-Weitere Informationen finden Sie unter  [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Überlegungen zum Aktualisieren des prozentualen Abschlusses einer Aufgabe
 
@@ -106,18 +106,18 @@ Weitere Informationen finden Sie unter  [Erste Schritte mit der neuen Startseite
    * Aufgabenliste
    * Eine Liste von Projekten und Anwendung der Milestone-Ansicht
    * Aufgabe durch Zugriff auf die Aufgabenseite
-1. Suchen Sie die **Prozent abgeschlossen** -Feld für die Aufgabe, deren Prozentsatz Sie aktualisieren möchten.
+1. Suchen Sie das Feld **Prozent abgeschlossen** für die Aufgabe, deren Prozentsatz aktualisiert werden soll.
 
    >[!TIP]
    >
    >  Das Feld &quot;Prozent abgeschlossen&quot;wird immer oben im Bedienfeld &quot;Zusammenfassung&quot;angezeigt.
 
 
-1. Klicken Sie in die **Prozent abgeschlossen** und geben Sie eine Zahl zwischen 0 und 100 ein.
+1. Klicken Sie in das Feld **Prozent abgeschlossen** und geben Sie eine Zahl zwischen 0 und 100 ein.
 
    Oder
 
-   Klicken und ziehen Sie die **Prozent abgeschlossen** wird die erforderliche Zahl angezeigt, um anzugeben, wie viel der Aufgaben Sie abgeschlossen haben (sofern verfügbar).
+   Klicken Sie auf die Leiste &quot;**Prozent abgeschlossen**&quot;und ziehen Sie sie auf die erforderliche Zahl, um anzugeben, wie viel der Aufgaben Sie abgeschlossen haben (sofern verfügbar).
 
    >[!NOTE]
    >

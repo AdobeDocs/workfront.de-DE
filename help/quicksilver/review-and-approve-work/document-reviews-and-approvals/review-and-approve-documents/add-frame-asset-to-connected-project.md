@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Projektmitarbeiter in Frame.io sein. Weitere Informationen finden Sie unter <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">Ich wurde eingeladen, an einem Projekt mitzuarbeiten</a>
+   <td> <p>Sie müssen Projektmitarbeiter in Frame.io sein. Weitere Informationen finden Sie unter <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">Ich wurde zur Zusammenarbeit an einem Projekt eingeladen</a>
  auf der Hilfeseite von Frame.io.</p> </td> 
   </tr> 
    <tr>
@@ -51,11 +51,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
-* Sie müssen die Integration von Workfront und Frame.io konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der Integration von Workfront und Frame.io](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+* Sie müssen die Integration von Workfront und Frame.io konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der Workfront- und Frame.io-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ## Hinzufügen eines Frame.io-Assets zu einem verbundenen Workfront-Projekt
 
@@ -69,14 +69,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Sie müssen über eine Team Member-Lizenz verfügen, um sie in Frame.io zu überprüfen.
 
-1. Klicken Sie auf das Menü mit drei Punkten auf das Asset und dann auf **Hinzufügen zu Workfront**.
+1. Klicken Sie auf das Menü mit drei Punkten auf das Asset und dann auf **Zu Workfront hinzufügen**.
 
 1. Wählen Sie aus, wo das Asset im verbundenen Workfront-Projekt hochgeladen werden soll.
 
 1. (Optional) Legen Sie den Aufgabenstatus fest.
 
-1. Klicks **Einsenden**.
+1. Klicken Sie auf **Senden**.
 
 Das Asset wird an dem ausgewählten Speicherort angezeigt und der Aufgabenstatus wird entsprechend aktualisiert.
 
-Sie können den Review- und Genehmigungsprozess starten, indem Sie die im Artikel beschriebenen Schritte ausführen [Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Sie können den Überprüfungs- und Genehmigungsprozess starten, indem Sie die im Artikel [Erstellen einer Anforderung zur Überprüfung oder Genehmigung eines Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) beschriebenen Schritte ausführen.

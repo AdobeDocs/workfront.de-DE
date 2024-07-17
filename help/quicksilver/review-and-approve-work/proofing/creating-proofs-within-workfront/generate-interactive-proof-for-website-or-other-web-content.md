@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -50,24 +50,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Erstellen eines interaktiven Testversands für eine Website oder einen anderen Webinhalt
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, in der Sie einen neuen Website-Testversand oder eine neue Version eines vorhandenen erstellen möchten.
-1. Klicks **Dokumente** im linken Bereich.
-1. (Bedingt) Wenn Sie einen neuen Testversand erstellen, klicken Sie auf **Neu hinzufügen** Klicken Sie auf **Testversand** im angezeigten Menü.
+1. Klicken Sie im linken Bereich auf **Dokumente** .
+1. (Bedingt) Wenn Sie einen neuen Testversand erstellen, klicken Sie auf **Neu hinzufügen** und dann im angezeigten Menü auf **Testversand** .
 
-1. (Bedingt) Auf der **Neuer Testversand** angezeigt, wenn Sie eine neue Version eines vorhandenen Testversands erstellen:
+1. (Bedingt) Wenn Sie eine neue Version eines vorhandenen Testversands erstellen, wird auf der Seite **Neuer Testversand** angezeigt:
 
    1. Bewegen Sie den Mauszeiger über den URL-Testversand, für den Sie eine neue Version erstellen möchten, und wählen Sie ihn aus, indem Sie im hellblauen Hintergrund darauf klicken.
 
       ![Select_proof_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
 
-   1. Im **Neu hinzufügen** Dropdown, klicken Sie auf **Version** > **Testversand**.
+   1. Klicken Sie in der Dropdown-Liste **Neu hinzufügen** auf **Version** > **Testversand**.
 
-1. Im **Dateien hinzufügen** Geben Sie die URL der Website ein, die Sie testen möchten, und drücken Sie dann die Eingabetaste **Eingabe**.  Sie können diesen Vorgang wiederholen, um mehrere Websites hinzuzufügen, die getestet werden sollen.
+1. Geben Sie im Abschnitt **Dateien hinzufügen** die URL der Website ein, die Sie testen möchten, und drücken Sie dann die Eingabetaste **3}.**  Sie können diesen Vorgang wiederholen, um mehrere Websites hinzuzufügen, die getestet werden sollen.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
@@ -80,14 +80,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![](assets/click-url-350x137.png)
 
-1. (Optional) Wenn Sie den Namen des Testversands aus der Website-URL in eine andere ändern möchten, geben Sie einen **Name des Testversands**.
-1. Auswählen **Interaktiv** Klicken Sie auf **Fertig**.
+1. (Optional) Wenn Sie den Namen des Testversands aus der Website-URL in etwas Anderes ändern möchten, geben Sie einen **Testversand-Namen** ein.
+1. Wählen Sie **Interaktiv** und klicken Sie dann auf **Fertig**.
 
    >[!NOTE]
    >
    >Wenn Sie eine neue Version zu einem vorhandenen URL-Testversand hinzufügen, werden alle Optionen, die für den ursprünglichen Testversand oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten.
 
-1. Klicks **Testversand erstellen** , um einen einfachen Testversand ohne Überprüfungsprozess zu erstellen.\
+1. Klicken Sie auf **Testversand erstellen** , um einen einfachen Testversand ohne Überprüfungsprozess zu erstellen.\
    oder\
    Fahren Sie mit der Konfiguration eines erweiterten Testversands fort:
 

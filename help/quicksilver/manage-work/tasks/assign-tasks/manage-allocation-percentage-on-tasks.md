@@ -17,15 +17,15 @@ ht-degree: 1%
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Der Zuordnungsprozentsatz stellt die Zeit dar, die eine zugewiesene Ressource für die Arbeit an einer Aufgabe an einem Tag geplant ist. Dies ist der Prozentsatz eines Arbeitstags (entsprechend dem Benutzer- oder Projektplan), zu dem eine Ressource während der gesamten Dauer der Aufgabe zugewiesen wird.
 
 >[!NOTE]
 >
->Wenn Benutzer zur Arbeit zugewiesen werden, wirkt sich ihre Verfügbarkeit entsprechend ihren Zeitplänen auf die geplanten und geplanten Daten von Aufgaben und Problemen aus. Weitere Informationen zu Zeitplänen finden Sie unter [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Wenn Benutzer zur Arbeit zugewiesen werden, wirkt sich ihre Verfügbarkeit entsprechend ihren Zeitplänen auf die geplanten und geplanten Daten von Aufgaben und Problemen aus. Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## Zugriffsanforderungen
 
@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen oder höhere Berechtigungen zur Aufgabe</p> <p>Berechtigungen bearbeiten, um den Zuordnungsprozentsatz im Feld "Aufgabe bearbeiten"zu aktualisieren</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Contribute oder höhere Berechtigungen für die Aufgabe</p> <p>Berechtigungen bearbeiten, um den Zuordnungsprozentsatz im Feld "Aufgabe bearbeiten"zu aktualisieren</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Benutzern wird standardmäßig ein gleicher Prozentsatz der Zeit zugewiesen, wie Aufgaben, denen sie zugewiesen sind.
 * Sie können den Zuordnungsprozentsatz für Benutzer und den Aufgaben, die Aufgaben zugewiesen sind, nur manuell ändern, wenn der Aufgabentyp &quot;Berechnete Arbeit&quot;oder &quot;Aufwandsorientierung&quot;lautet.
 
-  Weitere Informationen finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Weitere Informationen finden Sie unter [Übersicht über die Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * Sie können die Prozentzuordnung für Teams, die Aufgaben zugewiesen sind, nicht ändern.
 * Sie können die Prozentzuordnung für Benutzer und Auftragsrollen, die Problemen zugewiesen sind, nicht ändern.
@@ -69,13 +69,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Ändern der Benutzer- oder Rollenprozentzuordnung für eine Aufgabe
 
 1. Gehen Sie zu einer Aufgabe, für deren Ressourcen Sie die Prozentzuordnung ändern.
-1. Klicken Sie auf **Mehr** Menü ![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf das Menü **Mehr** neben dem Namen der Aufgabe und dann auf **Bearbeiten**.![](assets/qs-more-icon-on-an-object.png)
 
    Oder
 
-   Klicken Sie auf **Zuweisungen** Bereich in der Aufgabenüberschrift und klicken Sie dann auf **Erweitert**.
+   Klicken Sie in der Aufgabenüberschrift auf den Bereich **Zuweisungen** und dann auf **Erweitert**.
 
-1. Stellen Sie sicher, dass **Dauer Typ** einer der folgenden Aufgaben ist:
+1. Stellen Sie sicher, dass der **Dauer-Typ** der Aufgabe einer der folgenden ist:
 
    * Berechnete Arbeit
    * Leistungsgesteuert
@@ -85,7 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >* Für den Typ &quot;Berechnete Zuweisungsdauer&quot;verwendet Workfront die folgende Formel zur Berechnung des Zuordnungsprozentsatzes für jeden Bevollmächtigten: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* Für den Typ Einfache Dauer können Sie die Stunden schätzen, die jeder Ressource zugewiesen sind, nicht den Zuordnungsprozentsatz.
 
-1. Klicks **Zuweisungen**, ändern Sie dann die **Zuordnungen** für jeden Aufgabenverantwortlichen.
+1. Klicken Sie auf **Zuweisungen** und ändern Sie dann die **Zuordnungen** für jeden Aufgabenverantwortlichen.
 
    Sie können nur den Zuordnungsprozentsatz für Benutzer- und Auftragserrollenzuweisungen ändern.
 
@@ -94,7 +94,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Beispielbild in der Produktionsumgebung:
    ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
-   ![Zuteilungsprozentsatz ändern](assets/advanced-assignments-allocation-percentage.png)
+   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
+   ![Ändern des Zuordnungsprozentsatzes](assets/advanced-assignments-allocation-percentage.png)
 
 1. Klicken Sie auf **Speichern**.

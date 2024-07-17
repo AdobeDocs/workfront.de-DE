@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Anzeigen, Bearbeiten und Löschen [!DNL Adobe Workfront Fusion] templates
+title: Anzeigen, Bearbeiten und Löschen von [!DNL Adobe Workfront Fusion] Vorlagen
 description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
 author: Becky
 feature: Workfront Fusion
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 ---
 
-# Anzeigen, Bearbeiten und Löschen [!DNL Adobe Workfront Fusion] templates
+# Anzeigen, Bearbeiten und Löschen von [!DNL Adobe Workfront Fusion]-Vorlagen
 
-[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einer [!DNL Adobe Workfront license].
+[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einem [!DNL Adobe Workfront license] eine Adobe Workfront Fusion-Lizenz.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -35,31 +35,31 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
   <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Anzeigen einer Vorlage
 
-1. Klicken Sie auf [!UICONTROL Vorlagen] icon ![](assets/fusion-template-icon.png) im Seitennavigationsmenü.
+1. Klicken Sie im Seitennavigationsmenü auf das Symbol [!UICONTROL Vorlagen] ![](assets/fusion-template-icon.png) .
 1. Wählen Sie die Registerkarte aus, die die Vorlage enthält, die Sie anzeigen möchten.
 
    <table style="table-layout:auto"> 
@@ -89,24 +89,24 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 ## Vorlagen bearbeiten
 
-Sie können alle Vorlagen bearbeiten, die im [!UICONTROL Team-Vorlagen] Registerkarte.
+Sie können alle Vorlagen bearbeiten, die auf der Registerkarte [!UICONTROL Team-Vorlagen] verfügbar sind.
 
-1. Klicken Sie auf **[!UICONTROL Vorlagen]** icon ![](assets/fusion-template-icon.png) im Seitennavigationsmenü.
-1. Klicken Sie auf **[!UICONTROL Team-Vorlagen]** Registerkarte.
-1. Klicken Sie auf **[!UICONTROL Privat]** Registerkarte.
+1. Klicken Sie im Seitennavigationsmenü auf das Symbol **[!UICONTROL Vorlagen]** ![](assets/fusion-template-icon.png) .
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Team templates]** .
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Privat]**.
 1. Klicken Sie auf die Vorlage, die Sie bearbeiten möchten.
-1. Klicken **[!UICONTROL Bearbeiten]** in der oberen rechten Ecke
+1. Klicken Sie oben rechts auf **[!UICONTROL Bearbeiten]** .
 
    oder
 
    Klicken Sie auf das Vorlagendiagramm.
 
-1. Nehmen Sie Änderungen an der Vorlage vor. Sie können auf alle Optionen zugreifen, die beim Erstellen der Vorlage verfügbar waren. Informationen zu diesen Optionen finden Sie unter [Erstellen neuer Vorlagen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). Klicken Sie anschließend auf [!UICONTROL save] -Symbol am unteren Rand der Seite.
-1. Klicken Sie auf **[!UICONTROL Speichern]** icon ![](assets/save-icon.png).
+1. Nehmen Sie Änderungen an der Vorlage vor. Sie können auf alle Optionen zugreifen, die beim Erstellen der Vorlage verfügbar waren. Informationen zu diesen Optionen finden Sie unter [Erstellen neuer Vorlagen in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). Klicken Sie dann unten auf der Seite auf das Symbol [!UICONTROL save] .
+1. Klicken Sie auf das Symbol **[!UICONTROL Speichern]** ![](assets/save-icon.png).
 
 >[!NOTE]
 >
->Die [!UICONTROL Team-Vorlagen] enthält nicht nur die veröffentlichten Vorlagen, sondern auch Kopien der Vorlagen, die vom Administrator bereits veröffentlicht wurden. Dies bedeutet, dass Sie eine Vorlage bearbeiten können, die bereits für alle sichtbar ist. Wenn Sie eine dieser Vorlagen ändern, wird die öffentliche Vorlage durch Ihre Änderungen nicht sofort überschrieben. Die Vorlage im [!UICONTROL Öffentliche Vorlagen] -Registerkarte bleibt unberührt und bleibt öffentlich, aber die neuere Version mit Ihren Änderungen aus dem [!UICONTROL Team-Vorlagen] -Tab wird an den Anfang des Veröffentlichungsprozesses verschoben. Wenn die Änderungen vom Administrator veröffentlicht und genehmigt werden, wird die ursprüngliche öffentliche Vorlage überschrieben.
+>Der Tab [!UICONTROL Team-Vorlagen] enthält nicht nur die veröffentlichten Vorlagen, sondern auch Kopien der Vorlagen, die bereits vom Administrator veröffentlicht wurden. Dies bedeutet, dass Sie eine Vorlage bearbeiten können, die bereits für alle sichtbar ist. Wenn Sie eine dieser Vorlagen ändern, wird die öffentliche Vorlage durch Ihre Änderungen nicht sofort überschrieben. Die Vorlage auf der Registerkarte [!UICONTROL Öffentliche Vorlagen] ist weiterhin unberührt und bleibt öffentlich, die neuere Version mit Ihren Änderungen auf der Registerkarte [!UICONTROL Teamvorlagen] beginnt jedoch mit dem Veröffentlichungsprozess. Wenn die Änderungen vom Administrator veröffentlicht und genehmigt werden, wird die ursprüngliche öffentliche Vorlage überschrieben.
 
 ## Vorlage löschen
 
@@ -114,12 +114,12 @@ Sie können nur noch nicht genehmigte Vorlagen löschen. Wenn Sie eine öffentli
 
 Bitte beachten Sie, dass eine Vorlage nach dem Löschen nicht wiederhergestellt werden kann. Team-Vorlagen stehen allen Mitgliedern Ihres Teams zur Verfügung. Daher empfehlen wir Ihnen, vor dem Löschen einer Vorlage zu prüfen, ob andere Team-Mitglieder sie nicht benötigen.
 
-1. Klicken Sie auf **[!UICONTROL Vorlagen]** icon ![](assets/fusion-template-icon.png) im Seitennavigationsmenü.
-1. Klicken Sie auf **[!UICONTROL Team-Vorlagen]** Registerkarte.
-1. Klicken **[!UICONTROL Löschen]** neben dem Vorlagennamen
+1. Klicken Sie im Seitennavigationsmenü auf das Symbol **[!UICONTROL Vorlagen]** ![](assets/fusion-template-icon.png) .
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Team templates]** .
+1. Klicken Sie neben dem Vorlagennamen auf **[!UICONTROL Löschen]** .
 
    Oder
 
-   Klicken Sie auf den Namen der Vorlage, die in die Vorlage übernommen werden soll. Klicken **[!UICONTROL Optionen]** in der oberen rechten Ecke und wählen Sie **[!UICONTROL Löschen]**.
+   Klicken Sie auf den Namen der Vorlage, um sie zu öffnen. Klicken Sie oben rechts auf **[!UICONTROL Optionen]** und wählen Sie **[!UICONTROL Löschen]** aus.
 
-1. Klicken **[!UICONTROL Wirklich?]** um den Löschvorgang zu bestätigen.
+1. Klicken Sie auf **[!UICONTROL Wirklich?]** , um den Löschvorgang zu bestätigen.

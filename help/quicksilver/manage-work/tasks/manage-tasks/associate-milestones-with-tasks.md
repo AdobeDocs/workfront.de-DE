@@ -45,7 +45,7 @@ Wenn Sie keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er z
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für die Aufgabe verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für die Aufgabe verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, 
 
 Bevor Sie einen Meilenstein mit einer Aufgabe verknüpfen können, muss Folgendes vorhanden sein:
 
-* Der Workfront-Administrator muss einen Meilensteinpfad erstellen, wie unter [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Der Workfront-Administrator muss einen Meilensteinpfad erstellen, wie unter [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) beschrieben.
 
 * Sie müssen einem Projekt einen Meilensteinpfad zuweisen.
 
@@ -74,18 +74,18 @@ Bevor Sie einen Meilenstein mit einer Aufgabe verknüpfen können, muss Folgende
 
 Nachdem ein Meilensteinpfad mit einem Projekt verknüpft wurde, kann Aufgaben ein Meilenstein zugewiesen werden.
 
-1. Wechseln Sie zu einer Aufgabe und klicken Sie auf die Schaltfläche **Mehr** icon ![](assets/more-icon.png) rechts neben dem Aufgabennamen, und **Bearbeiten**.
+1. Wechseln Sie zu einer Aufgabe, klicken Sie auf das Symbol **Mehr** ![](assets/more-icon.png) rechts neben dem Aufgabennamen und dann auf **Bearbeiten**.
 
    Aufgaben und Meilensteine haben eine 1:1-Beziehung. Sie können nicht denselben Meilenstein an mehrere Aufgaben anhängen. Jede Aufgabe kann mit einem einzigen Meilenstein verknüpft werden oder jeder Meilenstein kann einer Aufgabe zugeordnet werden.
 
-1. Klicks **Einstellungen** und wählen Sie dann einen Meilenstein in der **Milestone** -Feld für die Aufgabe.
+1. Klicken Sie auf **Einstellungen** und wählen Sie dann einen Meilenstein im Feld **Meilenstein** für die Aufgabe aus.
 1. Klicken Sie auf **Speichern**.
-1. (Optional) Fügen Sie in einer Liste von Aufgaben die **Statussymbole** -Spalte, um zu ermitteln, welche Aufgaben Meilensteine aufweisen. Der Meilensteindiamantenindikator wird in der Spalte Statussymbole angezeigt.
+1. (Optional) Fügen Sie in einer Aufgabenliste die Spalte **Statussymbole** hinzu, um zu ermitteln, welche Aufgaben Meilensteine aufweisen. Der Meilensteindiamantenindikator wird in der Spalte Statussymbole angezeigt.
 
    Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
    ![](assets/amwt3.png)
 
-1. (Optional) Navigieren Sie zu einer Liste von Projekten und wählen Sie die **Milestone** anzeigen, um den Fortschritt Ihrer Meilensteinaufgaben zu ermitteln.
+1. (Optional) Markieren Sie in einer Liste von Projekten die Ansicht **Milestone** , um den Fortschritt Ihrer Meilensteinaufgaben zu ermitteln.
 
    ![](assets/milestone-view-project-list.png)

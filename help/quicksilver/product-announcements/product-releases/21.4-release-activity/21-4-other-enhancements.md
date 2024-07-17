@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Neue Tastaturbefehle für Einzüge und Ausgänge in Listen
 
@@ -31,4 +31,4 @@ Zuvor war der Tastaturbefehl zum Einzug in eine Liste Tab und Ausrücken Umschal
 
 Diese Änderung gilt nur für aktualisierte Listen und nicht für veraltete Listen.
 
-Weitere Informationen finden Sie unter [Erstellen von Unteraufgaben](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+Weitere Informationen finden Sie unter [Unteraufgaben erstellen](../../../manage-work/tasks/create-tasks/create-subtasks.md).

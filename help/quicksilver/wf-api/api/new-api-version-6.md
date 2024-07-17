@@ -9,8 +9,8 @@ role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 33%
+source-wordcount: '538'
+ht-degree: 34%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 33%
 | projectID | resourceManager |   |   |   |   | Löschen |
 | resourceManagerID | template |   |   |   |   | Get |
 | templateID |   |   |   |   |   | Bericht  |
-|   |   |   |   |   |   | Suchen  |
+|   |   |   |   |   |   | Suche  |
 
 
 ### Ews
@@ -68,7 +68,7 @@ ht-degree: 33%
 
 <sup>1</sup> Änderungen an möglichen Werten
 
-<sup>2</sup> hasFilters -Attribut auf true geändert
+Das Attribut <sup>2</sup> hasFilters wurde in true geändert
 
  
 
@@ -84,9 +84,9 @@ ht-degree: 33%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Datum hinzugefügt
+<sup>1</sup> Datumsvalidierung hinzugefügt
 
-<sup>2</sup> Markierung NOT_FILTERABLE hinzugefügt
+Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
 
  
 
@@ -114,13 +114,13 @@ ht-degree: 33%
 
  
 
-### Validierungspfad<sup>1</sup>
+### Genehmigungspfad<sup>1</sup>
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | authorisedStatus |   |   |   |   |   | Hinzufügen |
 | authorisedStatusLabel |   |   |   |   |   | Anzahl |
-| Kommentar |   |   |   |   |   | Löschen |
+| comment |   |   |   |   |   | Löschen |
 | enterByID |   |   |   |   |   | Bearbeiten |
 | entryDate |   |   |   |   |   | Get |
 | globalPathID |   |   |   |   |   | Bericht |
@@ -131,9 +131,9 @@ ht-degree: 33%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Geändert zu &quot;Berichterstellbar&quot;
+<sup>1</sup> In &quot;MELDEPFLICHTIG&quot;geändert
 
-<sup>2</sup> Validator für die maximale Länge hinzugefügt
+<sup>2</sup> Max. Length Validator hinzugefügt
 
  
 
@@ -148,7 +148,7 @@ ht-degree: 33%
 
 <sup>1</sup> Datumsvalidierung hinzugefügt
 
-<sup>2</sup> Nicht-filterbare Markierung hinzugefügt
+<sup>2</sup> Flag nicht_filtern hinzugefügt
 
  
 
@@ -164,7 +164,7 @@ ht-degree: 33%
 
  
 
-### Ausgangsbasis 
+### Grundlinie 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -188,7 +188,7 @@ ht-degree: 33%
 
  
 
-### Rechnungsnachweis
+### Abrechnungseintrag
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -196,7 +196,7 @@ ht-degree: 33%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Felderkennzeichnung NO_TIME hinzugefügt
+<sup>1</sup> Markierung für NO_TIME-Feld hinzugefügt
 
 ### Niedergangsereignis 
 
@@ -220,7 +220,7 @@ ht-degree: 33%
 
  
 
-Benutzerdefinierte Enumeration 
+Benutzerdefinierte Enum 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -251,7 +251,7 @@ Wechselkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderung des PRÄZISION-Validators für 8 bis 9
+<sup>1</sup> Änderung des PRÄZISIONSvalidators für 8 bis 9
 
  
 
@@ -277,7 +277,7 @@ Wechselkurs 
 
  
 
-### Optask (Problem)<sup>1</sup> 
+### optask (issue)<sup>1</sup> 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -285,9 +285,9 @@ Wechselkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Als RESTORABLE gekennzeichnet
+<sup>1</sup> Gekennzeichnet als RESTORABLE
 
-<sup>2</sup> Nicht-filterbare Markierung hinzugefügt
+<sup>2</sup> Flag nicht_filtern hinzugefügt
 
  
 
@@ -306,7 +306,7 @@ Wechselkurs 
 
 <sup>1</sup> Als RESTORABLE und RESOURCE_MANAGEABLE gekennzeichnet
 
-<sup>2</sup> Nicht-filterbare Markierung hinzugefügt
+<sup>2</sup> Flag nicht_filtern hinzugefügt
 
  
 
@@ -319,11 +319,11 @@ Wechselkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Als RESTORABLE gekennzeichnet
+<sup>1</sup> Gekennzeichnet als RESTORABLE
 
 <sup>2</sup> AT_DATE_YEAR_BEFORE Validator hinzugefügt
 
-<sup>3</sup> Nicht-filterbare Markierung hinzugefügt
+<sup>3</sup> Flag nicht_filtern hinzugefügt
 
  
 
@@ -356,9 +356,9 @@ Wechselkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Als RESTORABLE gekennzeichnet
+<sup>1</sup> Gekennzeichnet als RESTORABLE
 
-<sup>2</sup> Nicht-filterbare Markierung hinzugefügt
+<sup>2</sup> Flag nicht_filtern hinzugefügt
 
  
 
@@ -384,7 +384,7 @@ Wechselkurs 
 
 <sup>1</sup> Mögliche Werte geändert
 
-<sup>2</sup> Filter geändert zu `[true]`
+<sup>2</sup> hat Filter geändert zu `[true]`
 
  
 

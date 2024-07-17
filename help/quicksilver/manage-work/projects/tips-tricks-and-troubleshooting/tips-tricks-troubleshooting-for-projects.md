@@ -18,7 +18,7 @@ ht-degree: 0%
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Häufig gestellte Fragen zu Projekten](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
-* [Der Projektstatus ändert sich nicht von Fertig stellen in Aktuell](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
+* [Der Projektstatus ändert sich nicht von &quot;Fertig&quot;zu &quot;Aktuell&quot;](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
 * [Berechnungsbeispiel - EAC auf Projektebene berechnen](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
 * [Berechnungsbeispiel - Berechnung der EAC als Datenaggregation aus Aufgaben](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
 

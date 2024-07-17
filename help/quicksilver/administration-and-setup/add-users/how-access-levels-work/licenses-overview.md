@@ -48,7 +48,7 @@ Die an eine Zugriffsstufe angehängte Lizenz bestimmt den gesamten Funktionsumfa
 
 Sie können eine Standardzugriffsstufe kopieren und die Kopie nach Bedarf für Ihre Benutzer anpassen. Im Rahmen der durch die Lizenz für die kopierte Zugriffsebene zulässigen Funktionalität können Sie die Zugriffseinstellungen an die Bedürfnisse des Benutzers anpassen.
 
-Weitere Informationen finden Sie unter [Übersicht über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) und [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Weitere Informationen finden Sie unter [Übersicht über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) und [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Lizenzanzahl
 
@@ -56,6 +56,6 @@ Wenn Sie einem Benutzer eine Zugriffsstufe zuweisen, wird Ihre verfügbare Lizen
 
 Wenn Sie beispielsweise einem Benutzer die Standardzugriffsstufe zuweisen, wird Ihre Anzahl der verfügbaren Standardlizenzen um 1 verringert.
 
-Sie können die Ihren Benutzern zugewiesenen Lizenzen und Zugriffsebenen anzeigen. Weitere Informationen finden Sie unter [Zugriffsebenen und Lizenzen Ihrer Benutzer auflisten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+Sie können die Ihren Benutzern zugewiesenen Lizenzen und Zugriffsebenen anzeigen. Weitere Informationen finden Sie unter [Zugriffsebene und Lizenzen Ihrer Benutzer auflisten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
 Informationen zur Verwaltung Ihrer Lizenzen finden Sie unter [Verwalten der verfügbaren Lizenzen in Ihrem System](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

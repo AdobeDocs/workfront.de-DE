@@ -18,15 +18,15 @@ ht-degree: 0%
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Das Datum der Veröffentlichung ist das Datum, bis zu dem ein Benutzer, der einer Aufgabe zugewiesen ist, oder ein Problem verpflichtet, die Aufgabe oder das Problem abzuschließen.
 
 Dies unterscheidet sich vom geplanten Abschlussdatum einer Aufgabe oder eines Problems, da es eine realistischere Schätzung des Abschlussdatums ist, das nur vom für die Arbeit verantwortlichen Benutzer angegeben wird.
 
-Weitere Informationen zum geplanten Abschlussdatum finden Sie unter [Übersicht über die geplante Aufgabe - Abschlussdatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Weitere Informationen zum geplanten Abschlussdatum finden Sie unter [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Datum bestätigen - Übersicht
 
@@ -37,9 +37,9 @@ Beachten Sie beim Arbeiten mit Commit-Daten Folgendes:
   Wenn Sie eine Aufgabe oder ein Problem erstellen, wird der Aufgabe oder dem Problem kein Commit-Datum zugewiesen.
 * Wenn Sie einer Aufgabe oder einem Problem zugewiesen sind, können Sie das Veröffentlichungsdatum wie folgt festlegen:
 
-   * Lassen Sie Workfront das Datum für die Übermittlung so festlegen, dass es dem bereits geplanten Abschlussdatum der Aufgabe oder des Problems entspricht, indem Sie auf &quot;Bearbeiten&quot;, &quot;Problem starten&quot;oder &quot;Aufgabe starten&quot;für die Aufgabe oder das Problem klicken. Weitere Informationen zum Ersetzen der Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche &quot;Start&quot;finden Sie unter  [Ersetzen der Schaltfläche &quot;Work On It&quot;durch die Schaltfläche Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Lassen Sie Workfront das Datum für die Übermittlung so festlegen, dass es dem bereits geplanten Abschlussdatum der Aufgabe oder des Problems entspricht, indem Sie auf &quot;Bearbeiten&quot;, &quot;Problem starten&quot;oder &quot;Aufgabe starten&quot;für die Aufgabe oder das Problem klicken. Weitere Informationen zum Ersetzen der Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche &quot;Start&quot;finden Sie unter [Ersetzen der Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche &quot;Start&quot;](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Legen Sie das Datum für die Übermittlung manuell fest, abhängig davon, wann Sie glauben, dass die Aufgabe oder das Problem möglicherweise abgeschlossen ist. Dies ist Ihre Schätzung und Zusage als Verantwortlicher für den Projektmanager, dass die Aufgabe oder das Problem bis zu einem bestimmten Datum abgeschlossen sein wird.
-Weitere Informationen finden Sie unter [Aktualisieren der Daten zum Bestätigen von Aufgaben und Problemen](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+Weitere Informationen finden Sie unter [Aktualisierungsdaten für Aufgaben und Probleme aktualisieren](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Das Datum der Übermittlung an Aufgaben und Probleme finden Sie in den folgenden
 
 * Die Detailseite
 * Nachdem ein Workfront- oder Gruppenadministrator sie Ihrer Layoutvorlage hinzugefügt hat, wird sie im Bereich &quot;Zusammenfassung&quot;angezeigt. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* <span class="preview">Die Kopfzeile einer Aufgabe oder eines Problems, nachdem ein Workfront- oder Gruppenadministrator sie zu Ihrer Layoutvorlage hinzugefügt hat. Weitere Informationen finden Sie unter [Objektüberschriften mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* <span class="preview">Die Kopfzeile einer Aufgabe oder eines Problems, nachdem ein Workfront- oder Gruppenadministrator sie Ihrer Layoutvorlage hinzugefügt hat. Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md) </span>.
 
 ## Durch Änderung des Zusagedatums ausgelöste Benachrichtigungen und Aktualisierungen {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -76,7 +76,7 @@ Durch manuelles Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ei
 
   ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  Die Änderung des Veröffentlichungsdatums wird im Bereich Updates der Aufgabe bzw. des Problems angezeigt, wenn der Workfront-Administrator diese Aktualisierung im Bereich Updates-Feeds unter Einrichtung aktiviert. Weitere Informationen finden Sie unter [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Die Änderung des Veröffentlichungsdatums wird im Bereich Updates der Aufgabe bzw. des Problems angezeigt, wenn der Workfront-Administrator diese Aktualisierung im Bereich Updates-Feeds unter Einrichtung aktiviert. Weitere Informationen finden Sie unter [Vom System getrackte Updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
   Wenn ein Projekteigentümer die Änderung nicht akzeptieren möchte, empfehlen wir ihm, dem Benutzer, der über die Registerkarte Kommentare im Abschnitt Aktualisierungen ein neues Datum vorschlägt, einen Kommentar abzugeben, ihn aufzufordern, das Veröffentlichungsdatum zurück zum ursprünglichen geplanten Datum zu ändern, oder ein neues Datum auszuwählen.
 
@@ -90,9 +90,9 @@ Durch manuelles Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ei
   >
   >Weitere Informationen finden Sie in den folgenden Artikeln:
   >
-  >* [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Überblick über die Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
   >* [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [Objektüberschriften mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+  >* [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]
@@ -107,7 +107,7 @@ Durch manuelles Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ei
 
 * Das geplante Abschlussdatum der Aufgabe oder des Problems ist auf das gleiche Datum festgelegt, da die Aufgabe jetzt genauer angibt, wann sie wahrscheinlich abgeschlossen sein wird.
 
-  Weitere Informationen zum geplanten Abschlussdatum finden Sie unter [Übersicht über das geplante Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  Weitere Informationen zum geplanten Abschlussdatum finden Sie unter [Überblick über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
@@ -121,11 +121,11 @@ Durch manuelles Festlegen des Veröffentlichungsdatums für eine Aufgabe oder ei
 
   >[!TIP]
   >
-  >Die Benachrichtigung, dass das Veröffentlichungsdatum geändert wurde, wird nur dann an den Projekteigentümer gesendet, wenn der Workfront-Administrator die Anzeige des Bestätigungsdatums im Bereich &quot;Aktualisierungen-Feeds&quot;im Setup-Bereich aktiviert. Weitere Informationen finden Sie unter [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  >Die Benachrichtigung, dass das Veröffentlichungsdatum geändert wurde, wird nur dann an den Projekteigentümer gesendet, wenn der Workfront-Administrator die Anzeige des Bestätigungsdatums im Bereich &quot;Aktualisierungen-Feeds&quot;im Setup-Bereich aktiviert. Weitere Informationen finden Sie unter [Vom System getrackte Updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter  [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Informationen zum Aktualisieren der Zusagedaten für Aufgaben und Probleme finden Sie unter [Aktualisieren der Daten zum Bestätigen von Aufgaben und Problemen](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+Informationen zum Aktualisieren der Daten für die Veröffentlichung für Aufgaben und Probleme finden Sie unter [Aktualisierungsdaten für Aufgaben und Probleme aktualisieren](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

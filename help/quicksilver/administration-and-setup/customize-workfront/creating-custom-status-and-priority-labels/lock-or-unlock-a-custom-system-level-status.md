@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Status auf Systemebene gesperrt und entsperrt
 
-Das Sperren benutzerdefinierter Status ist eine Möglichkeit, sicherzustellen, dass Personen in Ihrem gesamten Unternehmen dieselben Prozesse in ihrem Arbeitsablauf verwenden. Wenn ein Status gesperrt ist, steht er allen Benutzern im System zur Verfügung. Sie können zwar einen Status bearbeiten oder löschen, den Sie sperren, doch Gruppenadministratoren können dies nicht für ihre Gruppen tun. sie können nur ihre Anzeigereihenfolge in der Liste Status ändern.
+Das Sperren benutzerdefinierter Status ist eine Möglichkeit, sicherzustellen, dass Personen in Ihrem gesamten Unternehmen dieselben Prozesse in ihrem Arbeitsablauf verwenden. Wenn ein Status gesperrt ist, steht er allen Benutzern im System zur Verfügung. Sie können zwar einen Status bearbeiten oder löschen, den Sie sperren, doch Gruppenadministratoren können dies nicht für ihre Gruppen tun. Sie können jedoch nur die Anzeigereihenfolge in der Liste &quot;Status&quot;ändern.
 
 Umgekehrt ermöglicht das Entsperren benutzerdefinierter Status Gruppenadministratoren mehr Flexibilität bei der Verwaltung der eindeutigen Workflows, die in ihren Gruppen verwendet werden. Wenn ein Status entsperrt ist, können Gruppenadministratoren seine Attribute ändern oder für ihre Gruppen löschen.
 
@@ -33,7 +33,7 @@ Sie können sowohl gesperrte als auch entsperrte Status in einem Systemgenehmigu
 
 Warnmeldungen werden in den folgenden Szenarien angezeigt, damit Sie und Ihre Benutzer die Ergebnisse der folgenden Szenarien verstehen können:
 
-* Ein Administrator entsperrt einen Systemstatus, der in einem Genehmigungsprozess verwendet wird. In einer Meldung wird gewarnt, dass der entsperrte Status für ihre Gruppen möglicherweise gelöscht wird, was verhindert, dass Gruppenmitglieder diesen Genehmigungsprozess ordnungsgemäß für Objekte verwenden, die ihrer Gruppe zugewiesen sind.
+* Ein Administrator entsperrt den Status auf Systemebene, der in einem Genehmigungsprozess verwendet wird. In einer Meldung wird gewarnt, dass der entsperrte Status für ihre Gruppen möglicherweise gelöscht wird, was verhindert, dass Gruppenmitglieder diesen Genehmigungsprozess ordnungsgemäß für Objekte verwenden, die ihrer Gruppe zugewiesen sind.
 
 * Ein Benutzer beginnt mit der Bearbeitung eines Genehmigungsprozesses, der einen entsperrten Status verwendet. Eine Meldung informiert den Benutzer über den entsperrten Status, damit er beurteilen kann, ob es sinnvoll wäre, ihn erneut zu sperren oder zu ersetzen.
 

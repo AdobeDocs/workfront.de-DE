@@ -18,7 +18,7 @@ ht-degree: 0%
 # Benutzerdefinierte Formulare und Felder verwalten
 
 * [Freigeben eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [Zugriff auf ein freigegebenes benutzerdefiniertes Feld, das Sie verwenden möchten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+* [Zugriff auf ein freigegebenes benutzerdefiniertes Feld, das Sie verwenden möchten ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
 * [Benutzerdefiniertes Formular erneut aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 * [Referenzieren benutzerdefinierter Formulare in Berichten](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
 * [Anzeigen von Berichten, die ein benutzerdefiniertes Feld oder Widget verwenden](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)

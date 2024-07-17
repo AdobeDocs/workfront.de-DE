@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Aktivität &quot;Version 2017.3&quot;
 
-* [Übersicht über die Release-Aktivitäten 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
+* [Übersicht über die Veröffentlichungsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
 * [Webinare der Version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
-* [Aktivität &quot;Beta 4&quot;(Version 2017.3)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
-* [Aktivität &quot;Beta-Version 3&quot;2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
-* [Aktivität &quot;Beta-Version 2&quot;2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
-* [Aktivität &quot;Beta-Version 2017.3&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
+* [Beta 4 Release-Aktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
+* [Beta 3 Release-Aktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
+* [Beta 2 Release-Aktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
+* [Beta 1-Release-Aktivität von 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)

@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel erfordert ein grundlegendes Verständnis der Adobe Workfront-API und der Benutzeroberfläche für die Textmodus-Berichterstellung. Informationen zur Workfront-API finden Sie unter [API-Grundlagen](../../../wf-api/general/api-basics.md).\
+>Dieser Artikel erfordert ein grundlegendes Verständnis der Adobe Workfront-API und der Benutzeroberfläche für die Textmodus-Berichterstellung. Weitere Informationen zur Workfront-API finden Sie unter [API-Grundlagen](../../../wf-api/general/api-basics.md).\
 >Informationen zur Verwendung des Textmodus finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Übersicht über Objektbeziehungen in Workfront
@@ -36,7 +36,7 @@ Alle Objekte sind mit anderen Objekten in der Workfront-Datenbank verknüpft.
 
 Anhand der Hierarchie und Interdependenz von Objekten können Sie feststellen, auf welche Objekte in Berichten verwiesen werden kann.
 
-Informationen darüber, welche Objekte sich in Workfront befinden, sowie zu ihrer Hierarchie und Interdependenz finden Sie unter [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen dazu, welche Objekte sich in Workfront befinden, sowie zu ihrer Hierarchie und Interdependenz finden Sie unter [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Beim Erstellen von Filtern können Sie mithilfe der standardmäßigen Berichterstellungsoberfläche auf bis zu zwei Beziehungsebenen auf andere Objekte verweisen, die mit dem Objekt des Filters verbunden sind.
 
@@ -44,15 +44,15 @@ Beispielsweise können Sie die Portfolio-ID in einem Ausgabeffilter referenziere
 
 Sie können jedoch nicht den Eigentümer des Portfolios in einem Problemfilter mithilfe der Standardschnittstelle referenzieren, um nur Probleme aus Projekten anzuzeigen, die mit Portfolios verknüpft sind, bei denen der Eigentümer ein bestimmter Benutzer ist. Sie müssen den Textmodus verwenden, um auf das Feld &quot;Name des Portfolios - Eigentümer&quot;zuzugreifen, das sich von Problemen auf drei Ebenen befindet.
 
-![Problem mit den Symbolen für Portfolioeigentümer](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![Problem mit den Symbolen des Portfolioeigentümers](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
-Eine vollständige Liste der Objekte in Workfront finden Sie in der [API-Explorer](../../../wf-api/general/api-explorer.md).
+Eine vollständige Liste der Objekte in Workfront finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
 
-Informationen zum Navigieren im API Explorer und Suchen von Objekten finden Sie unter [API Explorer verwenden](../../../wf-api/general/using-api-explorer.md).
+Informationen zum Navigieren im API Explorer und Suchen von Objekten finden Sie unter [Verwenden des API-Explorers](../../../wf-api/general/using-api-explorer.md).
 
 Beim Erstellen von Filtern müssen Sie komplexe Anweisungen in der Textmodus-Oberfläche erstellen, um auf diese Objekttypen zu verweisen.
 
-Informationen zum Erstellen komplexer Filter finden Sie in der [Überblick über komplexe Textmodusfilter, die EXISTS-Anweisungen verwenden](#overview-of-complex-text-mode-filters-that-use-exists-statements) Abschnitt dieses Artikels.
+Informationen zum Erstellen komplexer Filter finden Sie im Abschnitt [Überblick über komplexe Textmodusfilter, die EXISTS-Anweisungen verwenden](#overview-of-complex-text-mode-filters-that-use-exists-statements) dieses Artikels.
 
 ## Übersicht über komplexe Textmodusfilter, die EXISTS-Anweisungen verwenden {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -80,11 +80,11 @@ Beachten Sie bei der Verwendung von EXISTS-Anweisungen in einem Filter die folge
 
 * Sie müssen den Objektcode des Linkobjekts verwenden, um Ihre Anweisungen zu verbinden.\
   Den Objektcode aller Objekte finden Sie im API Explorer.\
-  Weitere Informationen zum API Explorer finden Sie in der [API-Explorer](../../../wf-api/general/api-explorer.md).
+  Weitere Informationen zum API Explorer finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
 
 * Wenn ein Verknüpfungsobjekt fehlt, weil das Original und die Zielobjekte direkt miteinander verbunden sind, können Sie den Objektcode des Zielobjekts anstelle des Verknüpfungsobjekts verwenden.
 * Sie können mehrere Felder (Zielfelder) für dasselbe Objekt (Zielobjekt) referenzieren. In diesem Fall müssen Sie die Zeilen, die auf die Felder verweisen, durch UND verbinden.\
-  Ein Beispiel für die Filterung nach mehr als einem Feld, das zum Target-Objekt gehört, finden Sie unter [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach dem Portfolio-Eigentümernamen und der Scorecard-ID der Portfolio-Ausrichtung](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in diesem Artikel beschrieben.
+  Ein Beispiel für die Filterung nach mehr als einem Feld, das zum Zielobjekt gehört, finden Sie im Abschnitt [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Portfolio-Eigentümername und Portfolio-Alignment-Scorecard-ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in diesem Artikel.
 
 * Der einzige Modifikator, der für eine EXISTS-Anweisung unterstützt wird, ist NOTEXISTS.
 
@@ -119,7 +119,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -133,7 +133,7 @@ Sie können einen Filter erstellen, der Objekte über mehrere Ebenen der Objekth
 
 Sie müssen immer eine EXISTS-Anweisung und die Textmodus-Oberfläche verwenden, um diesen Filter zu erstellen.
 
-Beispiele für Filter finden Sie unter [Beispiel 1: Filtern nach Problemen nach Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel beschrieben.
+Beispiele für Portfolios finden Sie im Abschnitt [Beispiel 1: Filtern nach Problemen mit dem Namen des Seiteninhabers](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel.
 
 So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierarchie erstreckt:
 
@@ -148,7 +148,7 @@ So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierar
    Beispielsweise wird aus &quot;Issues&quot;(Originalobjekt) auf die (Projekt-)ID (Verknüpfungsfeld, das auf dem Originalobjekt angezeigt wird) verwiesen. (Portfolio) ownerID (Verknüpfungsfeld mit Zielobjekt) wird auf der Registerkarte &quot;Felder&quot;des Projekts (Verknüpfungsobjekt) angezeigt. Portfolio ownerID ist auch ein Feld im Target-Objekt (Portfolio). Das Verknüpfungsfeld im Verknüpfungsobjekt entspricht dem Zielfeld.\
    ![Portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
-1. Identifizieren Sie mithilfe des API Explorers die **Objektcode** des Verknüpfungsobjekts (Projekt).\
+1. Identifizieren Sie mit dem API Explorer den **Objektcode** des Verknüpfungsobjekts (Projekts).\
    Beispielsweise ist der Objektcode für das Projekt PROJ.\
    ![project_objCode_in_the_API.PNG](assets/project-objcode-in-the-api-350x84.png)
 
@@ -156,7 +156,7 @@ So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierar
    Erstellen Sie beispielsweise einen Filter Problem .\
    Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicks **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Fügen Sie das folgende Formelbeispiel in die Textmodusschnittstelle des neuen Filters ein und ersetzen Sie den Beispieltext durch die richtigen Objekte und Felder:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
@@ -165,7 +165,7 @@ So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierar
 
    `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-   Ein Beispiel für die Verwendung der oben identifizierten Felder finden Sie im Abschnitt [Beispiel 1: Filtern nach Problemen nach Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel beschrieben.
+   Ein Beispiel für die Verwendung der oben identifizierten Felder finden Sie im Abschnitt [Beispiel 1: Nach Portfolio-Eigentümername filtern](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel.
 
 1. Klicken Sie auf **Filter speichern**.
 
@@ -177,7 +177,7 @@ So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierar
 
 Sie können einen Filter erstellen, der auf fehlende Objekte verweist. Sie können beispielsweise einen Benutzerfilter erstellen, der anzeigt, welche Benutzer keine Stunden in Workfront angemeldet haben.
 
-Sie müssen immer eine *VORHANDEN* -Anweisung und der Textmodus-Oberfläche, um diesen Filter zu erstellen.
+Sie müssen immer eine *EXISTS* -Anweisung und die Textmodus-Oberfläche verwenden, um diesen Filter zu erstellen.
 
 Beispiele für Filter für fehlende Objekte finden Sie in den folgenden Abschnitten in diesem Artikel:
 
@@ -196,7 +196,7 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
 
    Beispielsweise wird die ID des Kategorieparameters (Verknüpfungsfeld, das auf dem Originalobjekt angezeigt wird) aus Parameter (Originalobjekt) referenziert. parameterID (Verknüpfungsfeld mit Zielobjekt) wird auf der Registerkarte &quot;Felder&quot;des Kategorieparameters (Verknüpfungsobjekt) angezeigt. Das Verknüpfungsfeld mit dem Zielobjekt, das auf dem Verknüpfungsobjekt angezeigt wird, entspricht dem Zielfeld.
 
-1. Identifizieren Sie mithilfe des API Explorers die **Objektcode** des Verknüpfungsobjekts (Kategorieparameter).\
+1. Identifizieren Sie im API Explorer den **Objektcode** des Verknüpfungsobjekts (Kategorieparameter).\
    Beispielsweise ist der Objektcode für den Kategorieparameter CTGYPA.\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
 
@@ -204,14 +204,14 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
    Erstellen Sie beispielsweise einen Parameterfilter.\
    Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicks **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. (Bedingt) Wenn Sie nach fehlenden Objekten filtern, fügen Sie das folgende Formelbeispiel in die Textmodusschnittstelle des neuen Filters ein und ersetzen Sie den Beispieltext durch die richtigen Objekte und Felder:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-   Ein Beispiel für die Berichterstellung über benutzerdefinierte Felder, die nicht mit benutzerdefiniertem Forms verknüpft sind, finden Sie unter [Beispiel 2: Nach fehlenden Objekten filtern: benutzerdefinierte Felder, die nicht in benutzerdefinierten Formularen angezeigt werden](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in diesem Artikel beschrieben.
+   Ein Beispiel für die Berichterstellung über benutzerdefinierte Felder, die nicht mit benutzerdefiniertem Forms verknüpft sind, finden Sie im Abschnitt [Beispiel 2: Nach fehlenden Objekten filtern: benutzerdefinierte Felder, die nicht in benutzerdefinierten Formularen angezeigt werden](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in diesem Artikel.
 
 1. Klicken Sie auf **Filter speichern**.
 
@@ -228,7 +228,7 @@ So filtern Sie Probleme nach dem Namen des Portfolios-Eigentümers:
 1. Erstellen Sie einen Filter Problem .\
    Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicks **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Siehe folgenden allgemeinen Code:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
@@ -237,7 +237,7 @@ So filtern Sie Probleme nach dem Namen des Portfolios-Eigentümers:
 
    `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-1. Fügen Sie den folgenden Code in die **Festlegen von Filterregeln für Ihren Bericht** -Bereich, der den oben genannten generischen Code ersetzen soll:
+1. Fügen Sie den folgenden Code in den Bereich **Filterregeln für Ihren Bericht festlegen** ein, um den oben genannten allgemeinen Code zu ersetzen:
 
    `EXISTS:A:$$OBJCODE=PROJ`
 
@@ -270,14 +270,14 @@ So filtern Sie nach benutzerdefinierten Feldern, die nicht mit einem benutzerdef
 1. Erstellen Sie einen Parameter oder einen Filter für benutzerdefinierte Felder .\
    Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicks **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Siehe folgenden allgemeinen Code:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. Fügen Sie den folgenden Code in die **Festlegen von Filterregeln für Ihren Bericht** -Bereich, der den oben genannten generischen Code ersetzen soll:
+1. Fügen Sie den folgenden Code in den Bereich **Filterregeln für Ihren Bericht festlegen** ein, um den oben genannten allgemeinen Code zu ersetzen:
 
    `EXISTS:A:$$OBJCODE=CTGYPA`
 
@@ -305,14 +305,14 @@ So filtern Sie nach Benutzern, die die Zeit in der letzten Woche nicht protokoll
 1. Erstellen Sie einen Benutzerfilter.\
    Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicks **In den Textmodus wechseln**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Siehe folgenden allgemeinen Code:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. Fügen Sie den folgenden Code in die **Festlegen von Filterregeln für Ihren Bericht** -Bereich, der den oben genannten generischen Code ersetzen soll:
+1. Fügen Sie den folgenden Code in den Bereich **Filterregeln für Ihren Bericht festlegen** ein, um den oben genannten allgemeinen Code zu ersetzen:
 
    `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
@@ -324,7 +324,7 @@ So filtern Sie nach Benutzern, die die Zeit in der letzten Woche nicht protokoll
    >* Da es kein Verknüpfungsobjekt gibt, müssen Sie den Objektcode des Target-Objekts verwenden: STUNDE.
    >* Das Verknüpfungsfeld mit dem Zielobjekt ist ownerID (das im Originalobjekt angezeigt wird, das Verknüpfungsobjekt fehlt).
    >* Das im Originalobjekt angezeigte Verknüpfungsfeld ist die ID (der Stunde) (die im Zielobjekt angezeigt wird; das Verknüpfungsobjekt fehlt).
-   >* VORHANDEN:A:entryDate -Anweisung bezieht sich auf Felder, die das Target-Objekt (Stunde) definieren und dieselbe Syntax wie in einer regulären Filteranweisung verwenden. Dadurch wird sichergestellt, dass Sie nur die Benutzer anzeigen, die die Zeit für einen bestimmten Zeitraum (in diesem Fall die vorherige Woche) nicht protokolliert haben.
+   >* Die EXISTS:A:entryDate-Anweisung bezieht sich auf Felder, die das Target-Objekt (Stunde) definieren und dieselbe Syntax wie in einer regulären Filteranweisung verwenden. Dadurch wird sichergestellt, dass Sie nur die Benutzer anzeigen, die die Zeit für einen bestimmten Zeitraum (in diesem Fall die vorherige Woche) nicht protokolliert haben.
    >* Der NOTEXISTS-Modifikator zeigt an, dass wir nach Elementen (Stunden) suchen, die für das Objekt des Berichts (Benutzer) nicht vorhanden sind.
 
 1. Klicken Sie auf **Filter speichern**.
@@ -343,8 +343,8 @@ So filtern Sie Aufgaben nach dem Portfolio Owner Name und der Portfolio Alignmen
 1. Erstellen Sie einen Filter &quot;Aufgabe&quot;.\
    Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicks **In den Textmodus wechseln**.
-1. Fügen Sie den folgenden Code in die **Festlegen von Filterregeln für Ihren Bericht** Bereich:
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Fügen Sie den folgenden Code in den Bereich **Filterregeln für Ihren Bericht festlegen** ein:
 
    `EXISTS:A:$$OBJCODE=PROJ`
    `EXISTS:A:ID=FIELD:projectID`

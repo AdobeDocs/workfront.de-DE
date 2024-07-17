@@ -24,7 +24,7 @@ Um herauszufinden, welcher Entwicklungsstatus derzeit für ein Projekt, eine Auf
 
 In diesem Projekt zeigt die Statusplanung beispielsweise an, dass der Projektmanager derzeit Aspekte des Projekts plant, wie z. B. den Timeline-Zeitplan, Aufgabenzuweisungen und Genehmigungen.
 
-![Beispielprojektstatus](assets/statuses-overview.png)
+![Projektstatus-Beispiel](assets/statuses-overview.png)
 
 Sie müssen über die folgenden Berechtigungen und Berechtigungen für ein Projekt, eine Aufgabe oder ein Problem verfügen, um ihren Status anzuzeigen:
 

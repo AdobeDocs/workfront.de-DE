@@ -18,12 +18,12 @@ ht-degree: 0%
 
 # [!DNL Adobe Photoshop] Module
 
-In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Adobe Photoshop], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
+In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!DNL Adobe Photoshop] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 
 
-Informationen zum Erstellen eines Szenarios finden Sie unter [Erstellen eines Szenarios](../../workfront-fusion/scenarios/create-a-scenario.md).
+Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
@@ -53,28 +53,28 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
-      <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</td>
+      <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</td>
     </tr>
     </tr>
   </tbody>
 </table>
 
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-&#42;&#42;Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Informationen zu [!DNL Adobe Workfront Fusion] Lizenzen finden Sie unter [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Voraussetzungen
 
-Bevor Sie die [!DNL Adobe Photoshop] müssen Sie sicherstellen, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie den Connector [!DNL Adobe Photoshop] verwenden können, müssen Sie sicherstellen, dass die folgenden Voraussetzungen erfüllt sind:
 
-* Sie müssen über eine aktive [!DNL Adobe Photoshop] -Konto.
+* Sie müssen über ein aktives [!DNL Adobe Photoshop] -Konto verfügen.
 
-## Erstellen Sie eine Verbindung zu [!DNL Adobe Photoshop]
+## Erstellen einer Verbindung zu [!DNL Adobe Photoshop]
 
-So erstellen Sie eine Verbindung für [!DNL Adobe Photoshop] -Module:
+So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Photoshop] -Module:
 
-1. Klicks **[!UICONTROL Hinzufügen]** neben dem Feld Verbindung .
+1. Klicken Sie neben dem Feld Verbindung auf **[!UICONTROL Hinzufügen]** .
 
 1. Füllen Sie die folgenden Felder aus:
 
@@ -96,24 +96,24 @@ So erstellen Sie eine Verbindung für [!DNL Adobe Photoshop] -Module:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Client Secret]. Dies finden Sie im [!UICONTROL Credentials]-Detailabschnitt des [!DNL Adobe Developer Console]</td>
+        <td>Geben Sie Ihren [!DNL Adobe] [!UICONTROL Client Secret] ein. Dies finden Sie im [!UICONTROL Credentials]-Detailabschnitt des [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL ID des technischen Kontos]</td>
-        <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Technische Konto-ID]. Dies finden Sie im [!UICONTROL Credentials]-Detailabschnitt des [!DNL Adobe Developer Console]</td>
+        <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL ID des technischen Kontos] ein. Dies finden Sie im [!UICONTROL Credentials]-Detailabschnitt des [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Organisations-ID]</td>
-        <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Organisations-ID]. Dies finden Sie im [!UICONTROL Credentials]-Detailabschnitt des [!DNL Adobe Developer Console]</td>
+        <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Organisations-ID] ein. Dies finden Sie im [!UICONTROL Credentials]-Detailabschnitt des [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Privater Schlüssel]</td>
         <td>
-          <p>Geben Sie den privaten Schlüssel ein, der beim Erstellen Ihrer Anmeldedaten im [!DNL Adobe Developer Console]. </p>
+          <p>Geben Sie den privaten Schlüssel ein, der beim Erstellen Ihrer Anmeldedaten in der [!DNL Adobe Developer Console] generiert wurde. </p>
           <p>So extrahieren Sie Ihren privaten Schlüssel oder Ihr Zertifikat:</p>
           <ol>
             <li value="1">
-              <p>Klicks <b>[!UICONTROL Extract]</b>.</p>
+              <p>Klicken Sie auf <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
               <p>Wählen Sie den Dateityp aus, den Sie extrahieren.</p>
@@ -125,7 +125,7 @@ So erstellen Sie eine Verbindung für [!DNL Adobe Photoshop] -Module:
               <p>Geben Sie das Kennwort für die Datei ein.</p>
             </li>
             <li value="5">
-              <p>Klicks <b>Speichern</b> , um die Datei zu extrahieren und zur Einrichtung der [!UICONTROL ]e-Verbindung zurückzukehren.</p>
+              <p>Klicken Sie auf <b>Speichern</b> , um die Datei zu extrahieren und zum Setup der Verbindung zurückzukehren.</p>
             </li>
           </ol>
         </td>
@@ -133,13 +133,13 @@ So erstellen Sie eine Verbindung für [!DNL Adobe Photoshop] -Module:
       </tbody>
     </table>
 
-1. Klicks **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+1. Klicken Sie auf **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 ## [!DNL Adobe Photoshop] Module und ihre Felder
 
-Bei der Konfiguration [!DNL Adobe Photoshop] Module, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL Adobe Photoshop] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie [!DNL Adobe Photoshop] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL Adobe Photoshop] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -158,7 +158,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 Dieses Aktionsmodul erstellt eine neue PSD mit optionalen Ebenen und generiert Ausgabedarstellungen oder speichert sie als PSD.
 
-Informationen zu Feldern, die sich auf dieses Modul beziehen, finden Sie unter [Neue PSD erstellen](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) in der Adobe Photoshop-Dokumentation.
+Informationen zu Feldern, die sich auf dieses Modul beziehen, finden Sie unter [Erstellen einer neuen PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) in der Adobe Photoshop-Dokumentation.
 
 #### Bearbeiten von Textebenen
 
@@ -170,7 +170,7 @@ Dieses Aktionsmodul bearbeitet Textebenen in einer Photoshop-Datei.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop], siehe <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Photoshop]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Dateispeicher]</td>
@@ -242,7 +242,7 @@ Dieses Aktionsmodul führt die Tiefenschärfe für die ausgewählte Datei aus.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop], siehe <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Photoshop]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Dateispeicher]</td>
@@ -277,7 +277,7 @@ Dieses Aktionsmodul führt die Tiefenschärfe für die ausgewählte Datei aus.
     <tr>
       <td role="rowheader">[!UICONTROL Andere Felder]</td>
       <td>
-        <p>Weitere Informationen zu anderen Optionen für den Tiefenunschärfen finden Sie unter <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">Execute Depth Blur </a>in der Dokumentation zur Adobe Photoshop-API.</p>
+        <p>Weitere Informationen zu anderen Optionen für den Tiefenunschärfenschärfe finden Sie unter <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">Execute Depth Blur </a> in der Dokumentation zur Adobe Photoshop-API.</p>
       </td>
     </tr>
     <tr>
@@ -305,7 +305,7 @@ Dieses Aktionsmodul führt eine Photoshop-Aktion für das ausgewählte Bild aus.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop], siehe <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Photoshop]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Dateispeicher]</td>
@@ -392,7 +392,7 @@ Dieses Aktionsmodul führt das Zuschneiden auf dem ausgewählten Bild aus.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop], siehe <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Photoshop]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Dateispeicher]</td>
@@ -467,7 +467,7 @@ Dieses Aktionsmodul ruft Ebeneninformationen aus der angegebenen PSD-Datei ab.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop], siehe <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Photoshop]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Dateispeicher]</td>
@@ -500,12 +500,12 @@ Dieses Aktionsmodul führt einen benutzerdefinierten Aufruf an die Photoshop-API
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop], siehe <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen Sie eine Verbindung zu [!DNL Adobe Photoshop]</a> in diesem Artikel.</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>Geben Sie einen Pfad relativ zu ein <code>https://image.adobe.io/pie/psdService</code>. Beispiel: <code>/photoshopActions</code></p>
+        <p>Geben Sie einen Pfad relativ zu <code>https://image.adobe.io/pie/psdService</code> ein. Beispiel: <code>/photoshopActions</code></p>
       </td>
     </tr>
     <tr>
@@ -530,7 +530,7 @@ Dieses Aktionsmodul führt einen benutzerdefinierten Aufruf an die Photoshop-API
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

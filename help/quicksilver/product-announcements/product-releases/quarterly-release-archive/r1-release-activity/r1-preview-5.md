@@ -18,7 +18,7 @@ ht-degree: 13%
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschauumgebung mit der R1-Vorschau-Version 5 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 16. März 2017 in der Vorschau-Umgebung bereitgestellt.
 
-Eine Liste aller in R1 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivität R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
+Eine Liste aller Änderungen, die in R1 vorgenommen wurden, finden Sie unter [R1 - Übersicht über die Release-Aktivität](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
 ## Verfolgen des Projektfortschritts mit einem Nutzungsbericht
 
@@ -26,7 +26,7 @@ Jetzt kann ein Benutzer mit Zugriff auf ein Projekt verwalten den Fortschritt de
 
 Der Nutzungsbericht ermöglicht es Ihnen, Ihr Projekt innerhalb des Budgets zu halten, indem Sie schnell sehen können, wie die tatsächlichen Stunden im Vergleich zu den geplanten Stunden oder Stunden für eine bestimmte Woche oder einen bestimmten Monat oder für das gesamte Projekt nachverfolgt werden. Darüber hinaus können Sie detaillierte Informationen zur Anzahl der Stunden in jeder Kategorie (geplant, geplant und aktuell) anzeigen, die nach der Rolle des Auftrags oder dem einzelnen Benutzer kategorisiert sind.
 
-Weitere Informationen zur Tracking-Nutzung in einem Projekt finden Sie unter [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zur Tracking-Nutzung in einem Projekt finden Sie unter [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 Als Systemadministrator können Sie konfigurieren, ob die Registerkarte &quot;Nutzung&quot;für Benutzer verfügbar ist. Standardmäßig befindet sich die Registerkarte &quot;Nutzung&quot;im Dropdown-Menü &quot;Mehr&quot;innerhalb eines Projekts. Sie können die Registerkarte &quot;Nutzung&quot;an eine andere Position verschieben oder sie vollständig ausblenden. Wenn Sie benutzerdefinierte Layoutvorlagen für Benutzer in Ihrer Organisation definiert haben, müssen Sie den Tab Nutzung manuell zu den benutzerdefinierten Layoutvorlagen hinzufügen.
 
@@ -58,11 +58,11 @@ Weitere Informationen zum Wiederherstellen von Objekten in Workfront finden Sie 
 
 Die folgenden Verbesserungen sind jetzt verfügbar, wenn Sie eine Projektliste oder einen Projektbericht in der Milestone-Ansicht anzeigen:
 
-* **Konfigurieren Sie, ob in der Ansicht Fortschrittsstatus und Prozent abgeschlossen angezeigt werden:** Es gibt eine neue Option, mit der Sie konfigurieren können, ob in der Meilensteinansicht Symbole für den Fortschrittsstatus angezeigt werden. Darüber hinaus können Sie auch konfigurieren, ob die Informationen zu &quot;Percent Complete&quot;im Zusammenhang mit Projekten und Aufgaben angezeigt werden.\
-  Weitere Informationen finden Sie unter [Verwenden der Milestone-Ansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Verwenden der Milestone-Ansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **Konfigurieren Sie, ob Fortschrittsstatus und Prozent abgeschlossen in der Ansicht angezeigt werden:** Es gibt eine neue Option, mit der Sie konfigurieren können, ob in der Meilensteinansicht Symbole für den Fortschrittsstatus angezeigt werden. Darüber hinaus können Sie auch konfigurieren, ob die Informationen zu &quot;Percent Complete&quot;im Zusammenhang mit Projekten und Aufgaben angezeigt werden.\
+  Weitere Informationen finden Sie unter [Verwenden der Meilensteinansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Verwenden der Meilensteinansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Bearbeiten Sie den Prozentwert abgeschlossen direkt in der Milestone-Ansicht:** Jetzt können Sie den Prozentsatz Abgeschlossen von Projekten und Aufgaben direkt in der Meilensteinansicht bearbeiten.\
-  Weitere Informationen finden Sie unter [Verwenden der Milestone-Ansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Verwenden der Milestone-Ansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
+* **Bearbeiten Sie den Prozentwert abgeschlossen direkt in der Milestone-Ansicht:** Jetzt können Sie den Prozentsatz Abgeschlossen von Projekten und Aufgaben direkt in der Milestone-Ansicht bearbeiten.\
+  Weitere Informationen finden Sie unter [Verwenden der Meilensteinansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Verwenden der Meilensteinansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
 ## Aktualisiertes Erscheinungsbild und Verhalten mehrerer Seiten zur Systemeinrichtung
 
@@ -82,7 +82,7 @@ Das Erscheinungsbild der folgenden Seiten im Menü &quot;System&quot;im Bereich 
 
 Die Organisationskopfzeilen der Ereignisbenachrichtigungen im Bereich E-Mail-Einrichtung stimmen jetzt mit den Abschnittsüberschriften überein, die im Bereich für Benutzerprofileinstellungen verwendet werden.
 
-Weitere Informationen zu Ereignisbenachrichtigungen finden Sie unter  [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Weitere Informationen zu Ereignisbenachrichtigungen finden Sie unter  [Konfigurieren Sie Ereignisbenachrichtigungen für alle Benutzer im System](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 ## Sofortige Benachrichtigungen abmelden: Digest-Konfiguration im Kontext
 
@@ -99,7 +99,7 @@ Diese Optionen sind in der E-Mail-Benachrichtigung verfügbar. Weitere Informati
 
 Mehrere Benachrichtigungen wurden vom Abschnitt &quot;Erforderliche Aktion&quot;der Benutzerprofilseite in andere Abschnitte verschoben, wie im Folgenden gezeigt:
 
-Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,7 +108,7 @@ Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden Sie
  <thead> 
   <tr> 
    <th><strong>Benachrichtigung</strong> </th> 
-   <th><strong>Alter Bereich</strong> </th> 
+   <th><strong>alter Abschnitt</strong> </th> 
    <th><strong>Neuer Abschnitt</strong> </th> 
   </tr> 
  </thead> 
@@ -176,7 +176,7 @@ Die folgenden Änderungen wurden hinzugefügt, um die künftige Funktion für di
   Weitere Informationen zur neuen Registerkarte &quot;Ressourcenplanung&quot;finden Sie unter [Erste Schritte mit der Ressourcenplanung](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
 
 * Das aktuelle Objekt &quot;Resource Pool&quot;wurde in &quot;Legacy Resource Pool&quot;umbenannt.\
-  Weitere Informationen zum Erstellen der neuen benutzerdefinierten Ressourcen-Pools finden Sie unter [Ressourcen-Pools - Übersicht](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+  Weitere Informationen zum Erstellen der neuen benutzerdefinierten Ressourcen-Pools finden Sie unter [Überblick über Ressourcenpools](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 * Ein neues &quot;Resource Pool&quot;-Objekt wurde erstellt, um die neuen (benutzerbasierten) Ressourcen-Pools zu unterstützen.
 
@@ -185,8 +185,8 @@ Die folgenden Änderungen wurden hinzugefügt, um die künftige Funktion für di
   >
   >   
   >   
-  * Wenn Sie derzeit Berichte für die vorhandenen Ressourcen-Pools ausführen, bleiben die vorhandenen Berichte unverändert.
-  * Wenn Sie einen neuen Bericht für die vorhandenen (rollenbasierten) Legacy-Ressourcen-Pools erstellen möchten, müssen Sie &quot;Legacy-Ressourcen-Pools&quot;als Ihr Objekt für den Bericht auswählen.
-  * Wenn Sie einen neuen Bericht für die neuen (anwenderbasierten) Ressourcenpools erstellen möchten, müssen Sie &quot;Ressourcenpools&quot;als Ihr Objekt für den Bericht auswählen.
+  >   * Wenn Sie derzeit Berichte für die vorhandenen Ressourcen-Pools ausführen, bleiben die vorhandenen Berichte unverändert.
+  >   * Wenn Sie einen neuen Bericht für die vorhandenen (rollenbasierten) Legacy-Ressourcen-Pools erstellen möchten, müssen Sie &quot;Legacy-Ressourcen-Pools&quot;als Ihr Objekt für den Bericht auswählen.
+  >   * Wenn Sie einen neuen Bericht für die neuen (anwenderbasierten) Ressourcenpools erstellen möchten, müssen Sie &quot;Ressourcenpools&quot;als Ihr Objekt für den Bericht auswählen.
   >   
   >

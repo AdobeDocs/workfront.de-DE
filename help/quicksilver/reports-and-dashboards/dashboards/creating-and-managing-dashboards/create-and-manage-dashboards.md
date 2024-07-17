@@ -19,13 +19,13 @@ ht-degree: 10%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Dashboard erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+* [Erstellen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
 * [Einen Bericht zu einem Dashboard hinzufügen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
-* [Dashboard kopieren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
-* [Dashboard bearbeiten](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)
-* [Dashboard löschen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
+* [Kopieren eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
+* [Bearbeiten eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)
+* [Löschen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
 * [Drucken eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
-* [Dashboard exportieren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)
+* [Exportieren eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)
 * [Dashboard freigeben](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
 * [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
 * [Einbetten einer Anforderungswarteschlange in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)

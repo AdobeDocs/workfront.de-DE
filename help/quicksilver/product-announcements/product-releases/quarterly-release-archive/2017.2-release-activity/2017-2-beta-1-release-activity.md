@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Version 2017.2"
-description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschauumgebung mit der Beta-Version 2017.2 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 10. Mai 2017 in der Vorschau-Umgebung bereitgestellt.
+title: Beta 1-Release-Aktivität 2017.2
+description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschauumgebung mit der Beta 1-Version 2017.2 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 10. Mai 2017 in der Vorschau-Umgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta-Version 2017.2&quot;
+# Beta 1-Release-Aktivität 2017.2
 
-Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschauumgebung mit der Beta-Version 2017.2 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 10. Mai 2017 in der Vorschau-Umgebung bereitgestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschauumgebung mit der Beta 1-Version 2017.2 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 10. Mai 2017 in der Vorschau-Umgebung bereitgestellt.
 
 >[!IMPORTANT]
 >
 >Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Die Beta-Version 2017.2 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Version 2017.2 von Beta 1 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren:**
 
@@ -36,7 +36,7 @@ Die Beta-Version 2017.2 enthält Verbesserungen für Workfront-Administratoren u
 * [Verbesserungen bei der Ressourcenplanung](#resource-scheduling-improvements)
 * [Testsendungen vergleichen](#compare-proofs)
 * [Neues Feld für Ressourcen-Pools für Benutzer und Projekte](#new-field-for-resource-pools-for-users-and-projects)
-* [Die Anzeige in der Dashboard-Liste wurde aktualisiert.](#updated-look-and-feel-in-the-dashboard-list)
+* [Aktualisiertes Erscheinungsbild in der Dashboard-Liste](#updated-look-and-feel-in-the-dashboard-list)
 * [Entfernen der Funktionalität &quot;Endormente&quot;in Workfront](#removing-the-endorsements-functionality-in-workfront)
 * [Neuanordnen von Spalten in einer Liste mit Drag &amp; Drop (Funktion wird entfernt)](#reorder-columns-in-any-list-with-drag-and-drop-functionality-is-being-removed)
 
@@ -56,7 +56,7 @@ Das blaue Banner oben in der Sandbox-Vorschau-Umgebung zeigt jetzt den Versionsn
 
 API 7 ist jetzt verfügbar und enthält neue und aktualisierte Objekte.
 
-Weitere Informationen finden Sie unter [Neue Funktionen in API Version 7](../../../../wf-api/api/new-api-version-7.md).
+Weitere Informationen finden Sie unter [Neue Funktionen in API-Version 7](../../../../wf-api/api/new-api-version-7.md).
 
 ## Abonnieren von Aufgaben und Problemen {#subscribe-to-tasks-and-issues}
 
@@ -72,14 +72,14 @@ Weitere Informationen zum Abonnieren von Problemen und Aufgaben finden Sie unter
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Die folgenden Verbesserungen sind bei der Planung von Ressourcen verfügbar:
 
-* [Anzeigen von mehr Elementen in der Zeitleiste für die Ressourcenplanung in einer Einzelansicht](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
-* [Konfigurieren Sie den Projektnamen für die Anzeige bei Aufgaben und Problemen in der Zeitleiste für die Planung.](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
+* [Anzeigen weiterer Elemente in der Zeitleiste für die Ressourcenplanung in einer Einzelansicht](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
+* [Konfigurieren Sie den Projektnamen für die Anzeige bei Aufgaben und Problemen in der Zeitleiste für die Planung](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
 * [Konfigurieren, ob übergeordnete Aufgaben in der Zeitleiste für die Planung angezeigt werden](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
-* [Einfaches Erweitern oder Reduzieren aller Aufgaben und Probleme in der Zeitleiste für die Planung](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
+* [ Einfaches Erweitern oder Reduzieren aller Aufgaben und Probleme in der Planung](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
 * [Rolle und Benutzerinformationen bleiben beim Bildlauf oben in der Zeitleiste für die Planung](#role-and-user-information-remains-at-the-top-of-the-scheduling-timeline-when-scrolling)
 
 ### Anzeigen von mehr Elementen in der Zeitleiste für die Ressourcenplanung in einer Einzelansicht {#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view}
@@ -88,7 +88,7 @@ Beim Planen von Ressourcen für ein Team oder für Projekte, für die Sie der Re
 
 Wenn Sie sich dazu entscheiden, Projektnamen für jede Aufgabe und jedes Problem in der Planung anzuzeigen, wird der vertikale Bereich jeder Aufgabe und jedes Problems erweitert, was zu weniger Aufgaben und Problemen in einer einzigen Ansicht führt.
 
-Weitere Informationen zur Planung von Ressourcen finden Sie unter &quot;Erste Schritte mit der Ressourcenplanung&quot;.
+Weitere Informationen zur Planung von Ressourcen finden Sie unter  &quot;Erste Schritte mit der Ressourcenplanung&quot;.
 
 ### Konfigurieren Sie den Projektnamen für die Anzeige bei Aufgaben und Problemen in der Zeitleiste für die Planung. {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
@@ -118,7 +118,7 @@ Wenn Sie jetzt nach unten scrollen, um zusätzliche Informationen anzuzeigen, bl
 
 Vor dieser Änderung scrollen der Rollenname und der Benutzername aus der aktuellen Ansicht hervor.
 
-Weitere Informationen zur Planung von Ressourcen finden Sie unter &quot;Erste Schritte mit der Ressourcenplanung&quot;.
+Weitere Informationen zur Planung von Ressourcen finden Sie unter  &quot;Erste Schritte mit der Ressourcenplanung&quot;.
 
 ## Testsendungen vergleichen {#compare-proofs}
 
@@ -134,7 +134,7 @@ Mit der Version R1.5 wurden neue Funktionen rund um die Ressourcenplanung in die
 
 Jetzt können Sie diese Ressourcen-Pools mit Projekten sowie mit Benutzern verknüpfen. Jetzt wird ein neues Feld namens &quot;Resource Pools&quot;im Projekt sowie im Benutzerobjekt angezeigt.
 
-Weitere Informationen zu den neuen Ressourcen-Pools und dazu, wie sie mit Projekten und Benutzern verknüpft werden können, finden Sie unter [Ressourcen-Pools - Übersicht](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+Weitere Informationen zu den neuen Ressourcenpools und dazu, wie sie mit Projekten und Benutzern verknüpft werden können, finden Sie unter [Überblick über Ressourcenpools](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md) .
 
 ## Die Anzeige in der Dashboard-Liste wurde aktualisiert. {#updated-look-and-feel-in-the-dashboard-list}
 

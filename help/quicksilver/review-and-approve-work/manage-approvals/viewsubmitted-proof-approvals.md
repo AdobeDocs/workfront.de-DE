@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: approvals
 title: Anzeigen gesendeter Testversandgenehmigungen
-description: Testversandgenehmigungen werden nur dann im Bereich "Home"angezeigt, wenn Ihre Adobe Workfront-Umgebung in ein Workfront Proof Premium-Konto integriert ist. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie die Proofing-Funktion nicht wie hier beschrieben verwenden können.
+description: Genehmigungen zur Prüfung werden nur dann im Bereich "Home"angezeigt, wenn Ihre Adobe Workfront-Umgebung mit einem Workfront Proof Premium-Konto integriert ist. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie die Proofing-Funktion nicht wie hier beschrieben verwenden können.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Anzeigen gesendeter Testversandgenehmigungen
 
-Testversandgenehmigungen werden nur dann im Bereich &quot;Home&quot;angezeigt, wenn Ihre Adobe Workfront-Umgebung in ein Workfront Proof Premium-Konto integriert ist. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie die Proofing-Funktion nicht wie hier beschrieben verwenden können.
+Genehmigungen zur Prüfung werden nur dann im Bereich &quot;Home&quot;angezeigt, wenn Ihre Adobe Workfront-Umgebung mit einem Workfront Proof Premium-Konto integriert ist. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie die Proofing-Funktion nicht wie hier beschrieben verwenden können.
 
 ## Zugriffsanforderungen
 
@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf das Objekt, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen oder höherer Zugriff auf das Objekt, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,18 +48,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Anzeigen gesendeter Testversandgenehmigungen
 
-1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie oben links in Adobe Workfront auf das Symbol **Startseite** ![](assets/home-icon-30x29.png) .
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
-   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
+   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf das **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und klicken Sie dann auf **Startseite**.
 
-1. Im **Arbeitsliste** Bereich, wechseln Sie zur **Gesendete Genehmigungen** Gruppierung.
+1. Gehen Sie im Bereich **Arbeitsliste** zur Gruppe **Von mir gesendete Genehmigungen** .
 
-1. Klicken Sie auf **Testversand** Validierung in der Arbeitsliste.
+1. Klicken Sie auf eine **Proof** -Genehmigung in der Arbeitsliste.
 
    Dadurch wird die Testversand-Validierung rechts neben der Liste &quot;Arbeit&quot;geöffnet.
 
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
-1. (Optional) Klicken Sie auf **Gehe zu Testversand** in der rechten oberen Ecke des rechten Bedienfelds, um den Testversand-Viewer zu starten.
+1. (Optional) Klicken Sie in der rechten oberen Ecke des rechten Bedienfelds auf **Gehe zu Testversand** , um den Testversand-Viewer zu starten.
 
    <!--
    <note type="note">

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Änderungen beschrieben, die mit Version 2019.3 vorgenommen wurden. Es wurde in der Produktionsumgebung in der Woche vom 19. August 2019 zur Verfügung gestellt.
 
-Eine Liste aller 2019.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivitäten 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.3 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Ändern des Anzeigetyps eines Felds in einem benutzerdefinierten Formular
 
@@ -30,7 +30,7 @@ Wenn Sie ein einzeiliges Textfeld erstellt haben, können Sie es in ein Absatzte
 
 Bisher mussten Sie zum Ändern des Anzeigetyps eines benutzerdefinierten Felds ein neues Feld erstellen und das alte löschen. Dies erforderte die Übertragung von Daten, die häufig zeitaufwendig waren.
 
-Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) im Artikel [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) im Artikel [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Informationen zum Anzeigen von Elementen in einer Liste finden Sie unter [Erste 
 
 Sie können jetzt das Gantt-Diagramm der Aufgabenliste bearbeiten, wenn die automatische Speicherung aktiviert ist oder nicht. Sie können Änderungen nicht rückgängig machen, wenn der Umschalter aktiviert ist. In diesem Fall werden die Änderungen, die Sie am Projekt vornehmen, automatisch gespeichert.
 
-Informationen zum Bearbeiten des Gantt-Diagramms der Aufgabenliste finden Sie unter [Aktualisieren von Informationen in der Aufgabenliste Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Informationen zum Bearbeiten des Gantt-Diagramms der Aufgabenliste finden Sie unter [Informationen in der Aufgabenliste aktualisieren Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Entfernen der Registerkarte Probleme aus dem Kanban-Forum
 
@@ -95,8 +95,8 @@ Wir entfernen die Registerkarte Probleme im Kanban-Board in der Produktionsversi
 
 Wir entfernen die Registerkarten Dokumente und Probleme von der Seite mit Details zur Agile-Iteration:
 
-* **Dokumente:** Alle auf der Registerkarte Dokumente gespeicherten Dokumente müssen vor der Produktionsversion verschoben werden. Wenn Sie Ihre Dokumente nicht verschieben, haben Sie keinen Zugriff mehr auf sie.
-* **Probleme:** Diese Registerkarte befindet sich im Allgemeinen im Dropdown-Menü Mehr . Sie können weiterhin auf die Unterregisterkarte Probleme auf der Registerkarte Arbeitselemente der Iteration zugreifen.
+* **Dokumente:** Alle auf der Registerkarte &quot;Dokumente&quot;gespeicherten Dokumente müssen vor der Produktionsversion verschoben werden. Wenn Sie Ihre Dokumente nicht verschieben, haben Sie keinen Zugriff mehr auf sie.
+* **Probleme:** Diese Registerkarte befindet sich im Allgemeinen im Dropdownmenü Mehr . Sie können weiterhin auf die Unterregisterkarte Probleme auf der Registerkarte Arbeitselemente der Iteration zugreifen.
 
 ## Benutzerzeitlimit in Aufgabendaten berücksichtigen oder ignorieren
 
@@ -106,9 +106,9 @@ Sie können diese Entscheidung entweder auf Systemebene, als Workfront-Administr
 
 Vor dieser Änderung hat die Zeitdauer des Primären Verantwortlichen immer die geplanten Zeitpunkte der Aufgabe angepasst, wenn die Aufgabenbegrenzung eine Änderung der Daten zulässt.
 
-Informationen zur Einstellung &quot;Zeitlimit für Benutzer&quot;auf Systemebene finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Weitere Informationen zur Einstellung &quot;Zeitlimit für Benutzer&quot;auf Systemebene finden Sie unter [Systemweite Projektanvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Informationen zur Einstellung &quot;Zeitlimit für Benutzer&quot;auf Projektebene finden Sie unter [Projekte bearbeiten](../../../../manage-work/projects/manage-projects/edit-projects.md).
+Weitere Informationen zur Einstellung &quot;Zeitlimit für Benutzer&quot;auf Projektebene finden Sie unter [Projekte bearbeiten](../../../../manage-work/projects/manage-projects/edit-projects.md).
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ Wenn das Objekt Teil eines Projekts ist, wird der Kommentar zum Dokument auch au
 
 Zuvor wurden Aktualisierungskommentare nur auf der Registerkarte Aktualisierungen für das Dokument angezeigt.
 
-Weitere Informationen finden Sie im Abschnitt . [Update der Arbeit](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) im Artikel [Update der Arbeit](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie im Abschnitt [Arbeit aktualisieren](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) im Artikel [Arbeit aktualisieren](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 >[!NOTE]
 >
@@ -171,9 +171,9 @@ Weitere Informationen finden Sie im Abschnitt . [Update der Arbeit](../../../../
 
 Wenn Sie einen Benutzer einer Aufgabe oder einem Problem zuweisen, wird jetzt eine Inline-Warnung angezeigt, wenn der ausgewählte Benutzer zwischen den geplanten Daten der Aufgabe oder des Problems eine Zeitüberschreitung hat.
 
-Informationen zum Zuweisen von Aufgaben finden Sie unter [Aufgaben zuweisen](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
+Weitere Informationen zum Zuweisen von Aufgaben finden Sie unter [Aufgaben zuweisen](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-Informationen zur Zeitdauer finden Sie unter [Persönliche Zeit konfigurieren](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+Weitere Informationen zur Zeitdauer finden Sie unter [Persönliche Zeit von ](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) konfigurieren.
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Wir haben einen neuen Feldtyp im benutzerdefinierten Formular-Builder mit dem Na
 
 Zuvor mussten Administratoren Benutzer manuell als einzelne Optionen in Dropdown-Menüs für benutzerdefinierte Formulare verwalten.
 
-Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >

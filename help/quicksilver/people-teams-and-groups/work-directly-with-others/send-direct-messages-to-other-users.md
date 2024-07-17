@@ -16,14 +16,14 @@ ht-degree: 0%
 
 # Direktnachrichten an andere Benutzer senden
 
-[!DNL Adobe Workfront] ermöglicht es Ihnen, Nachrichten, die nicht mit einem Arbeitselement in Verbindung stehen, schnell und einfach direkt an andere zu senden [!DNL Workfront] Benutzer. Die wie in diesem Abschnitt beschrieben gesendeten Nachrichten werden im [!UICONTROL Updates] auf der Startseite des Benutzers angezeigt und für alle Benutzer sichtbar sind. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+Mit [!DNL Adobe Workfront] können Sie Nachrichten, die nicht mit einem Arbeitselement in Verbindung stehen, schnell und einfach direkt an andere [!DNL Workfront] -Benutzer senden. Die wie in diesem Abschnitt beschriebenen gesendeten Nachrichten werden auf der Registerkarte [!UICONTROL Aktualisierungen] auf der Startseite des Benutzers angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Aktualisieren von Arbeitselementen und Anzeigen von Updates: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 Der Benutzer, an den Sie die Nachricht senden, erhält beim Versand einer Nachricht die folgenden Benachrichtigungstypen, wie in diesem Abschnitt beschrieben:
 
-* Eine In-App-Benachrichtigung, wie hier beschrieben: [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
+* Eine In-App-Benachrichtigung, wie unter [In-App-Benachrichtigungen anzeigen und verwalten](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md) beschrieben
 * Eine E-Mail-Benachrichtigung
 
-  Dies hängt von den Typen von E-Mail-Benachrichtigungen ab, für die der Benutzer konfiguriert ist. Weitere Informationen finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), und [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  Dies hängt von den Typen von E-Mail-Benachrichtigungen ab, für die der Benutzer konfiguriert ist. Weitere Informationen finden Sie unter [Ereignisbenachrichtigungen für alle im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md) und [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Zugriffsanforderungen
 
@@ -46,23 +46,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Senden einer Nachricht, die nicht mit einem Arbeitselement verknüpft ist, an einen anderen Benutzer
 
 1. Rufen Sie die Startseite des Benutzers auf, an den Sie eine Nachricht senden möchten.\
    Sie können wie folgt zur Startseite eines Benutzers navigieren:
 
-   * Klicken Sie auf den verknüpften Namen des Benutzers, da er an einer beliebigen Stelle im [!DNL Workfront] -Schnittstelle. Benutzernamen werden in vielen Bereichen der [!DNL Workfront] -Schnittstelle, z. B. in einem Kommentar des Benutzers.
+   * Klicken Sie auf den verknüpften Namen des Benutzers, da er an einer beliebigen Stelle in der Benutzeroberfläche von [!DNL Workfront] angezeigt wird. Benutzernamen werden in vielen Bereichen der Oberfläche von [!DNL Workfront] angezeigt, z. B. in einem Kommentar des Benutzers.
 
-1. Im **[!UICONTROL Updates]** klicken Sie auf das Textfeld.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Aktualisierungen]** in das Textfeld.
 
-   ![Nachrichtenbenutzer auf der [!UICONTROL Updates] tab](assets/message-user-NWE.png)
+   ![Nachrichtenbenutzer auf der Registerkarte [!UICONTROL Aktualisierungen]](assets/message-user-NWE.png)
 
 1. Geben Sie Ihre Nachricht ein.
-1. (Optional) Klicken Sie auf die Schaltfläche **[!UICONTROL Benachrichtigen]** eingeben und dann den Namen eines anderen Benutzers eingeben, den Sie in diese Nachricht aufnehmen möchten.
+1. (Optional) Klicken Sie auf das Feld **[!UICONTROL Benachrichtigen]** und geben Sie dann den Namen eines anderen Benutzers ein, den Sie in diese Nachricht aufnehmen möchten.
 
-1. (Optional) Wählen Sie **[!UICONTROL Privatperson in meinem Unternehmen]** um diese Nachricht nur für andere Benutzer in Ihrem Unternehmen sichtbar zu machen.
+1. (Optional) Wählen Sie **[!UICONTROL Für mein Unternehmen privat]** aus, damit diese Nachricht nur für andere Benutzer in Ihrem Unternehmen sichtbar ist.
 
-1. Klicks **[!UICONTROL Aktualisieren].**
-Die Nachricht wird oben in der Liste der Nachrichten auf der Seite **[!UICONTROL Updates]** auf der Startseite des Benutzers.
+1. Klicken Sie auf **[!UICONTROL Aktualisieren].**
+Die Nachricht wird oben in der Liste der Nachrichten auf der Registerkarte **[!UICONTROL Aktualisierungen]** auf der Startseite des Benutzers veröffentlicht.

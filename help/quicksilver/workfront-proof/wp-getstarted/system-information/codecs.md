@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: f760dbaf-edbb-49ec-a329-54727372bdc6
 source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Unterstützte Codecs
 
@@ -36,15 +36,15 @@ ht-degree: 3%
 * [!DNL ATI VCR1]
 * [!DNL Auravision AURA]
 * [!DNL Auravision Aura 2]
-* [!DNL Autodesk Animator Flic] Video
+* Video [!DNL Autodesk Animator Flic]
 * [!DNL Autodesk RLE]
 * [!DNL Avid Meridien Uncompressed]
 * [!DNL AVImszh]
 * [!DNL AVIzlib]
-* AVS ([!DNL Audio Video Standard]) Video
+* AVS-Video ([!DNL Audio Video Standard])
 * [!DNL Beam Software VB]
-* [!DNL Bethesda VID] Video
-* [!UICONTROL Rosa] Video
+* Video [!DNL Bethesda VID]
+* Video [!UICONTROL Bink]
 * [!DNL Blackmagic 10-bit]
 * [!DNL Broadway MPEG Capture Codec]
 * [!DNL Brooktree 411] Codec
@@ -53,17 +53,17 @@ ht-degree: 3%
 * [!DNL Camtasia Screen Codec]
 * [!DNL Canopus HQ Codec]
 * [!DNL Canopus Lossless Codec]
-* [!DNL CD Graphics] Video
-* [!DNL Chinese AVS] Video ([!DNL AVS1-P2], [!DNL JiZhun] profile)
+* Video [!DNL CD Graphics]
+* [!DNL Chinese AVS] video ([!DNL AVS1-P2], [!DNL JiZhun] profile)
 * [!DNL Cinepak]
 * [!DNL Cirrus Logic AccuPak]
 * [!DNL Creative Labs Video Blaster Webcam]
 * [!DNL Creative YUV] (CYUV)
-* [!DNL Delphine Software International CIN] Video
+* Video [!DNL Delphine Software International CIN]
 * [!UICONTROL Deluxe Paint Animation]
 * [!DNL DivX ;-)] ([!DNL MPEG-4])
 * [!DNL DNxHD] (VC3)
-* [!DNL DV] (Digitales Video)
+* [!DNL DV] (digitales Video)
 * [!DNL Feeble Files]/[!DNL ScummVM DXA]
 * [!DNL FFmpeg] Video-Codec #1
 * [!DNL Flash Screen Video]
@@ -80,8 +80,8 @@ ht-degree: 3%
 * [!DNL I263]
 * [!DNL IBM Ultimotion]
 * [!DNL IBM UltiMotion]
-* [!DNL id Quake II CIN] Video
-* [!DNL id RoQ] Video
+* Video [!DNL id Quake II CIN]
+* Video [!DNL id RoQ]
 * [!DNL IFF ByteRun1]
 * [!DNL IFF ILBM]
 * [!DNL Independent JPEG Group's] Codec
@@ -91,8 +91,8 @@ ht-degree: 3%
 * [!DNL Intel Indeo 4.1]
 * [!DNL Intel Indeo 5]
 * [!DNL Interplay C93]
-* [!DNL Interplay MVE] Video
-* [!DNL Karl Morton]Video-Codec von
+* Video [!DNL Interplay MVE]
+* Video-Codec von [!DNL Karl Morton]
 * [!DNL Kega Game Video]
 * [!DNL kensington webcam]
 * [!DNL Lagarith Lossless Video Codec]
@@ -106,17 +106,17 @@ ht-degree: 3%
 * [!DNL Mimic]
 * [!DNL Miro VideoXL]
 * [!DNL MJPEG (Motion JPEG)]
-* [!DNL Motion Pixels] Video
+* Video [!DNL Motion Pixels]
 * [!DNL Motion Wavelets]
 * [!DNL Moyea Flash to Video Converter]
-* [!DNL MPEG-1] Video
-* [!DNL MPEG-2] Video
+* Video [!DNL MPEG-1]
+* Video [!DNL MPEG-2]
 * [!DNL MPEG-4 part 2]
 * [!DNL MPEG-4 part 2] ([!DNL Microsoft] Varianten 1-3)
 * [!DNL MPEG-PES]
 * [!DNL MSS2]
 * [!DNL MSU Screen Capture Lossless Codec]
-* [!DNL Nintendo Gamecube THP] Video
+* Video [!DNL Nintendo Gamecube THP]
 * [!DNL nokia eti camcorder eyecon]
 * [!DNL NuppelVideo/RTJPEG]
 * [!DNL On2 VP3]
@@ -125,24 +125,24 @@ ht-degree: 3%
 * [!DNL On2 VP6]
 * [!DNL On2 VP6A] (mit [!DNL alpha channel])
 * [!DNL On2 VP7]
-* [!DNL Power VideoWorks] Video
+* Video [!DNL Power VideoWorks]
 * [!DNL ProRes 422]
 * [!DNL Psygnosis YOP] Video
 * [!DNL Q-team QPEG]
 * [!DNL QPEG]
-* [!DNL QuickTime 8BPS] Video
-* [!DNL QuickTime Animation (RLE)] Video
+* Video [!DNL QuickTime 8BPS]
+* Video [!DNL QuickTime Animation (RLE)]
 * [!DNL QuickTime Graphics (SMC)]
-* [!DNL QuickTime] Video ([!DNL RPZA])
+* [!DNL QuickTime] video ([!DNL RPZA])
 * [!DNL RealVideo 1.0]
 * [!DNL RealVideo 2.0]
 * [!DNL RealVideo 3.0]
 * [!DNL RealVideo 4.0]
-* [!DNL RL2] Video
+* Video [!DNL RL2]
 * [!DNL Schrödinger] ([!DNL Schroedinger]), [!DNL Dirac]
-* [!DNL Sierra VMD] Video
+* Video [!DNL Sierra VMD]
 * [!DNL sif1 alpha4]
-* [!DNL Smacker] Video
+* Video [!DNL Smacker]
 * [!DNL SMPTE VC-1]
 * [!DNL SMV2]
 * [!DNL Snow]
@@ -157,7 +157,7 @@ ht-degree: 3%
 * [!DNL SVQ3]
 * [!DNL Telegeny VDTZ]
 * [!DNL Theora]
-* [!DNL Tiertex Limited SEQ] Video
+* Video [!DNL Tiertex Limited SEQ]
 * [!DNL TrueMotion 1.0]
 * [!DNL TrueMotion 2.0]
 * [!DNL UCOD-ClearVideo]
@@ -167,10 +167,10 @@ ht-degree: 3%
 * [!DNL Vianet Lsvx Video]
 * [!DNL VMware Screen Codec] / [!DNL VMware Video]
 * [!DNL VP8]
-* [!DNL VQA (Vector Quantized Animation)] Video
+* Video [!DNL VQA (Vector Quantized Animation)]
 * [!DNL VSS Codec Light]
 * [!DNL VSS Wavelet Video Codec]
-* [!DNL WebTrain Communication] verlustfreies Bildschirmrecorder
+* [!DNL WebTrain Communication] verlustfreier Bildschirmaufzeichnung
 * [!DNL wincam screen capture] Codec
 * [!DNL Windows Media Screen Codec 2]
 * [!DNL Windows Media Video (WMV)]
@@ -185,7 +185,7 @@ ht-degree: 3%
 * [!DNL Winnov WNV1]
 * [!DNL WorldConnect Wavelet Video]
 * [!DNL XAN Video]
-* [!DNL xfire] Video
+* Video [!DNL xfire]
 * [!DNL xiricam Veo PC Camera]
 * [!DNL Xvid (MPEG-4)]
 * [!DNL YUV]
@@ -195,9 +195,9 @@ ht-degree: 3%
 ## Nicht unterstützte Codecs
 
 * [!DNL Apple Intermediate]
-* [!DNL ProRes 4444] ([!DNL ProRes 422] Unterstützt)
+* [!DNL ProRes 4444] ([!DNL ProRes 422] unterstützt)
 * [!DNL HDV 720p60]
 * [!DNL Go2Meeting3 (G2M3)]
 * [!DNL Go2Meeting4 (G2M4)]
-* [!DNL ER AAC LD] (Fehlerresistente, verzögerungsarme Variante von [!DNL AAC])
+* [!DNL ER AAC LD] (Fehlerresistent, Variante mit geringer Verzögerung von [!DNL AAC])
 * [!DNL REDCODE]

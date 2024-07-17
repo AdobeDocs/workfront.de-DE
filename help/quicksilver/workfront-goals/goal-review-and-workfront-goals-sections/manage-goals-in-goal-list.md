@@ -17,7 +17,7 @@ ht-degree: 2%
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
-Nachdem Sie oder andere Benutzer Ziele erstellt haben, können Sie deren Fortschritt und Informationen in der Zielliste überprüfen. Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+Nachdem Sie oder andere Benutzer Ziele erstellt haben, können Sie deren Fortschritt und Informationen in der Zielliste überprüfen. Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
 ## Zugriffsanforderungen
 
@@ -79,7 +79,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ziele in der Zielliste verwalten
 
@@ -90,7 +90,7 @@ Sie können Ziele in den folgenden Abschnitten von Workfront-Zielen anzeigen und
 
 In jedem Abschnitt werden Ziele in etwas unterschiedlichen Formaten angezeigt. Welchen Abschnitt Sie verwenden, hängt vom Zweck ab, den Sie beim Arbeiten mit Zielen erreichen möchten.
 
-Weitere Informationen finden Sie unter [Überblick über die Adobe Workfront-Ziele - Abschnitte](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Weitere Informationen finden Sie unter [Überblick über die Adobe Workfront-Ziele](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 In diesem Artikel wird beschrieben, wie Sie Ziele in der Zielliste überprüfen.
 
@@ -196,7 +196,7 @@ Beachten Sie bei der Überprüfung der Zielliste Folgendes:
 
 So verwalten Sie Ziele in der Zielliste:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png)  in der oberen rechten Ecke und klicken Sie auf **Ziele**.
+1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ziele**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -206,7 +206,7 @@ So verwalten Sie Ziele in der Zielliste:
    Die Liste der Ziele enthält die folgenden Felder mit Informationen zu den einzelnen Zielen:
 
    * **Name**: Der Name des Ziels.
-   * **Inhaber**: Der Name des Ziel-Eigentümers.
+   * **Inhaber**: Der Name des Tor-Eigentümers.
    * **Zeitraum**: Der Zeitraum, für den das Ziel geplant ist.
    * **Status**: Der Status des Ziels kann einer der folgenden sein:
       * Aktiv
@@ -214,7 +214,7 @@ So verwalten Sie Ziele in der Zielliste:
       * Inaktiv
       * Geschlossen
 
-     Weitere Informationen zum Zielstatus finden Sie unter [Zielstatusübersicht in Adobe Workfront-Zielen](../goal-management/goal-status-overview.md).
+     Informationen zum Zielstatus finden Sie unter [Zielstatusübersicht in Adobe Workfront-Zielen](../goal-management/goal-status-overview.md).
 
      Das Ausrichtungssymbol wird für Ziele angezeigt, die an anderen Zielen ausgerichtet sind. Informationen zum Ausrichten von Zielen finden Sie unter [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../goal-alignment/align-goals-by-connecting-them.md).
 
@@ -227,13 +227,13 @@ So verwalten Sie Ziele in der Zielliste:
       * Gefährdet
       * In Schwierigkeiten
 
-     Weitere Informationen zu Zielbedingungen finden Sie unter [Übersicht über den Zielfortschritt und die Bedingungen in den Adobe Workfront-Zielen](../goal-management/calculate-goal-progress.md).
+     Weitere Informationen zu den Zielbedingungen finden Sie unter [Übersicht über den Zielfortschritt und den Zielzustand in Adobe Workfront-Zielen](../goal-management/calculate-goal-progress.md).
 
    * **Fortschritt**: Die Fortschrittsanzeige für das Ziel als Prozentwert. Die Farbe der Fortschrittsanzeige entspricht der Farbe der Bedingung des Ziels.
 
-     Weitere Informationen finden Sie unter [Berechnung des Zielfortschritts in Adobe Workfront-Zielen](../goal-management/calculate-goal-progress.md).
+     Weitere Informationen finden Sie unter [Berechnen des Zielfortschritts in Adobe Workfront-Zielen](../goal-management/calculate-goal-progress.md).
 
-1. Klicken Sie auf das Filtersymbol ![](assets/filter-icon.png) in der oberen rechten Ecke der Zielliste ein und wenden Filter an, um nur für Sie wichtige Ziele anzuzeigen.
+1. Klicken Sie oben rechts in der Zielliste auf das Filtersymbol ![](assets/filter-icon.png) und wenden Sie Filter an, um nur für Sie wichtige Ziele anzuzeigen.
 
    Informationen zur Verwendung von Filtern in Workfront-Zielen finden Sie unter [Informationen in Adobe Workfront-Zielen filtern](../goal-management/filter-information-wf-goals.md).
 
@@ -243,10 +243,10 @@ Rechts neben dem Feld, nach dem die Liste sortiert ist, wird ein Pfeil angezeigt
 1. (Optional) Klicken Sie erneut auf das Feld in der Spalte , um dieselbe Spalte in absteigender Reihenfolge zu sortieren.
 1. Klicken Sie auf den Namen eines Ziels, um die Seite des Ziels zu öffnen.
 1. Wählen Sie ein Ziel in der Liste aus und klicken Sie dann oben in der Liste auf eine der folgenden Optionen:
-   * **Bearbeiten** icon ![](assets/edit-icon.png) , um Informationen zum Ziel zu bearbeiten. Weitere Informationen finden Sie unter [Ziele in Adobe Workfront bearbeiten](../goal-management/edit-goals.md).
-   * **Freigeben** icon ![](assets/share-icon.png) , um das Ziel mit anderen Menschen zu teilen. Weitere Informationen finden Sie unter [Freigeben eines Ziels in Adobe Workfront-Zielen](../workfront-goals-settings/share-a-goal.md).
-   * **Offene Ausrichtung** icon ![](assets/align-icon-unshimmed.png) , um den Bereich &quot;Zielausrichtung&quot;zu öffnen. Diese Option wird nur angezeigt, wenn das ausgewählte Ziel an einem anderen Ziel ausgerichtet ist.
-   * **Löschen** icon ![](assets/delete-icon.png) , um das Ziel zu löschen, klicken Sie auf **Löschen** zur Bestätigung.  Weitere Informationen finden Sie unter [Löschen und Deaktivieren von Zielen in Adobe Workfront-Zielen](../goal-management/delete-and-deactivate-goals.md).
+   * **Bearbeiten** -Symbol ![](assets/edit-icon.png) , um Informationen zum Ziel zu bearbeiten. Weitere Informationen finden Sie unter [Ziele in Adobe Workfront bearbeiten](../goal-management/edit-goals.md).
+   * **Das Symbol** teilen ![](assets/share-icon.png) , um das Ziel für andere Personen freizugeben. Weitere Informationen finden Sie unter [Freigeben eines Ziels in Adobe Workfront-Zielen](../workfront-goals-settings/share-a-goal.md).
+   * **Ausrichtung öffnen** Symbol ![](assets/align-icon-unshimmed.png) , um den Bereich &quot;Zielausrichtung&quot;zu öffnen. Diese Option wird nur angezeigt, wenn das ausgewählte Ziel an einem anderen Ziel ausgerichtet ist.
+   * **Löschen** -Symbol ![](assets/delete-icon.png) , um das Ziel zu löschen, und klicken Sie dann zur Bestätigung auf **Löschen** .  Weitere Informationen finden Sie unter [Ziele in Adobe Workfront löschen und deaktivieren](../goal-management/delete-and-deactivate-goals.md).
 
 
 

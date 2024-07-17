@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Objektüberschriften - Übersicht
-description: Sie können Informationen zu Objekten in [!DNL Adobe Workfront] wenn Sie die Kopfzeile überprüfen. Die Informationen in einer Kopfzeile können den Eigentümer des Objekts, den Status oder den Prozentsatz der Fertigstellung umfassen.
+description: Sie können Informationen zu Objekten in [!DNL Adobe Workfront] auf einen Blick anzeigen, wenn Sie deren Kopfzeile überprüfen. Die Informationen in einer Kopfzeile können den Eigentümer des Objekts, den Status oder den Prozentsatz der Fertigstellung umfassen.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Objektüberschriften - Übersicht
 
-Sie können Informationen zu Objekten in [!DNL Adobe Workfront] wenn Sie die Kopfzeile überprüfen.
+Sie können Informationen zu Objekten in [!DNL Adobe Workfront] auf einen Blick anzeigen, wenn Sie deren Kopfzeile überprüfen.
 
 Zusätzlich zum Namen des Objekts kann die Kopfzeile den Eigentümer des Objekts, den Status oder die prozentuale Auffüllung enthalten.
 
@@ -22,7 +22,7 @@ Zusätzlich zum Namen des Objekts kann die Kopfzeile den Eigentümer des Objekts
 
 ## Zugriff auf die Kopfzeile eines Objekts
 
-Zugreifen auf die Kopfzeile für ein Objekt in [!DNL Workfront] ist für alle Objekte identisch, die sie haben.
+Der Zugriff auf die Kopfzeile für ein Objekt in [!DNL Workfront] ist für alle Objekte mit diesem Objekt identisch.
 
 So greifen Sie beispielsweise auf die Kopfzeile eines Projekts zu:
 
@@ -31,20 +31,20 @@ So greifen Sie beispielsweise auf die Kopfzeile eines Projekts zu:
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL Startseite] Kopfzeilenübersicht
+## [!UICONTROL Home] Kopfzeilenübersicht
 
 Die folgenden Header sind in Home verfügbar:
 
-* Aufgabe: Weitere Informationen zur Verwendung dieser Kopfzeile finden Sie unter [Übersicht über Aufgabenkopfzeilen](#task-header-overview) in diesem Artikel.
-* Problem: Weitere Informationen zur Verwendung dieser Kopfzeile finden Sie unter [Problemübersicht](#issue-header-overview) in diesem Artikel.
+* Aufgabe: Weitere Informationen zur Verwendung dieser Kopfzeile finden Sie in der [Aufgabenübersicht](#task-header-overview) in diesem Artikel.
+* Problem: Weitere Informationen dazu, wie Sie diese Kopfzeile verwenden können, finden Sie in der [Problemübersicht](#issue-header-overview) in diesem Artikel.
 
 ## Anpassbare Kopfzeilen
 
-Ihre [!DNL Workfront]  oder Gruppenadministrator kann die Kopfzeile von Projekten, Aufgaben und Problemen mithilfe einer Layoutvorlage anpassen.
+Ihr [!DNL Workfront]- oder Gruppenadministrator kann die Kopfzeile von Projekten, Aufgaben und Problemen mithilfe einer Layoutvorlage anpassen.
 
 In diesem Artikel werden die Standardkopfzeilen für alle Objekte beschrieben, einschließlich Projekten, Aufgaben und Problemen.
 
-Informationen zum Anpassen von Informationen in der Kopfzeile eines Objekts finden Sie unter [Objektüberschriften mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Informationen zum Anpassen von Informationen in der Kopfzeile eines Objekts finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ## Übersicht über den Projekt-Header
@@ -69,7 +69,7 @@ In der Projektheader werden standardmäßig die folgenden Informationen angezeig
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das lilafarbene [!UICONTROL Projekt-Symbol <img src="assets/nwe-projects-icon.png"> wird links neben dem Projektnamen angezeigt.</p> </td> 
+   <td> <p>Das violette [!UICONTROL Projekt]-Symbol <img src="assets/nwe-projects-icon.png"> wird links neben dem Projektnamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name des Projekts</td> 
@@ -105,7 +105,7 @@ In der Projektheader werden standardmäßig die folgenden Informationen angezeig
   </tr> 
   <tr> 
    <td role="rowheader">Bereich [!UICONTROL Validierungen]</td> 
-   <td> <p>Wenn Sie einer der Genehmiger sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für das Projekt zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Ablehnen]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Wenn Sie kein Genehmiger sind, klicken Sie auf das Symbol [!UICONTROL Mehr] . <img src="assets/more-icon-for-approvals-area.png"> , um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Genehmigungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
+   <td> <p>Wenn Sie einer der Genehmiger sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für das Projekt zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Genehmigen]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Ablehnen]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Wenn Sie kein Genehmiger sind, klicken Sie auf das [!UICONTROL Mehr]-Symbol <img src="assets/more-icon-for-approvals-area.png"> , um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Genehmigungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,7 +132,7 @@ Die Kopfzeile der Aufgabe enthält standardmäßig die folgenden Informationen:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das grüne [!UICONTROL Task-Symbol <img src="assets/nwe-tasks-icon.png"> wird links neben dem Aufgabennamen angezeigt.</p> </td> 
+   <td> <p>Das grüne Symbol "[!UICONTROL Task]"<img src="assets/nwe-tasks-icon.png"> wird links neben dem Aufgabennamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name der Aufgabe</td> 
@@ -156,11 +156,11 @@ Die Kopfzeile der Aufgabe enthält standardmäßig die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Bearbeiten], [!UICONTROL Fertig] oder Schaltfläche [!UICONTROL Aufgabe starten]</p> </td> 
-   <td> <p>Wenn die Aufgabe Ihnen zugewiesen ist, können Sie auf [!UICONTROL Bearbeiten] klicken. <span>oder [!UICONTROL Startaufgabe]</span> -Schaltfläche, um anzugeben, dass Sie an der Aufgabe arbeiten, oder die Schaltfläche [!UICONTROL Fertig], um anzugeben, dass Sie die Aufgabe abgeschlossen haben.</p> <p><span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen Sie die Schaltfläche [!UICONTROL Bearbeiten] durch die Schaltfläche [!UICONTROL Start] .</a></span>.</p> </td> 
+   <td> <p>Wenn die Aufgabe Ihnen zugewiesen ist, können Sie auf die Schaltfläche [!UICONTROL Work on It] <span>oder [!UICONTROL Start Task]</span> klicken, um anzugeben, dass Sie an der Aufgabe arbeiten, oder auf die Schaltfläche [!UICONTROL Start], um anzugeben, dass Sie die Aufgabe abgeschlossen haben.</p> <p><span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start]</a></span>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum]</td> 
-   <td> <p>Sie können die Aufgabe [!UICONTROL Geplantes Abschlussdatum] bearbeiten. <span>und Zeit</span> in der Kopfzeile.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] nicht in der Kopfzeile sichtbar ist. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
+   <td> <p>Sie können die Aufgabe [!UICONTROL Geplantes Abschlussdatum] <span>und die Uhrzeit</span> in der Kopfzeile bearbeiten.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] nicht in der Kopfzeile sichtbar ist. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -168,7 +168,7 @@ Die Kopfzeile der Aufgabe enthält standardmäßig die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Bereich [!UICONTROL Validierungen]</td> 
-   <td> <p>Wenn Sie einer der Genehmiger sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für die Aufgabe zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Ablehnen]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Wenn Sie kein Genehmiger sind, klicken Sie auf das Symbol [!UICONTROL Mehr] . <img src="assets/more-icon-for-approvals-area.png"> , um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Genehmigungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
+   <td> <p>Wenn Sie einer der Genehmiger sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für die Aufgabe zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Genehmigen]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Ablehnen]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>Wenn Sie kein Genehmiger sind, klicken Sie auf das [!UICONTROL Mehr]-Symbol <img src="assets/more-icon-for-approvals-area.png"> , um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Genehmigungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,7 +195,7 @@ Die Kopfzeile des Problems enthält standardmäßig die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das rosa Symbol [!UICONTROL Problem] <img src="assets/nwe-issues-icon.png"> wird links neben dem Problemnamen angezeigt.</p> </td> 
+   <td> <p>Das rosa [!UICONTROL Problem]-Symbol <img src="assets/nwe-issues-icon.png"> wird links neben dem Problemnamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name des Problems</td> 
@@ -218,12 +218,12 @@ Die Kopfzeile des Problems enthält standardmäßig die folgenden Informationen:
    <td>Sie können die Zuweisung eines Problems in der Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Bearbeiten], [!UICONTROL Fertig], <span>oder Schaltfläche [!UICONTROL Start Issue]</span></td> 
-   <td>Wenn das Problem Ihnen zugewiesen ist, können Sie auf [!UICONTROL Bearbeiten] klicken. <span>oder [!UICONTROL Startproblem]</span> -Schaltfläche, um anzugeben, dass Sie gerade an dem Problem arbeiten, oder die Schaltfläche [!UICONTROL Fertig], um anzuzeigen, dass Sie das Problem abgeschlossen haben.<span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen Sie die Schaltfläche [!UICONTROL Bearbeiten] durch die Schaltfläche [!UICONTROL Start] .</a></span><span>.</span></td> 
+   <td role="rowheader">Schaltfläche [!UICONTROL Bearbeiten], [!UICONTROL Fertig], <span>oder [!UICONTROL Start-Problem]</span></td> 
+   <td>Wenn das Problem Ihnen zugewiesen wurde, können Sie auf die Schaltfläche [!UICONTROL Work on It] <span>oder [!UICONTROL Start Issue]</span> klicken, um anzugeben, dass Sie gerade an dem Problem arbeiten, oder auf die Schaltfläche [!UICONTROL Done], um anzuzeigen, dass Sie das Problem abgeschlossen haben.<span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter </span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start]</a></span><span></span> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum]</td> 
-   <td> <p>Sie können das Problem bearbeiten [!UICONTROL Geplantes Abschlussdatum] <span>und Zeit</span> in der Kopfzeile.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] nicht in der Kopfzeile sichtbar ist. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
+   <td> <p>Sie können das Problem [!UICONTROL Planes Abschlussdatum] <span>und die Uhrzeit</span> in der Kopfzeile bearbeiten.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] nicht in der Kopfzeile sichtbar ist. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -231,7 +231,7 @@ Die Kopfzeile des Problems enthält standardmäßig die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Bereich [!UICONTROL Validierungen]</td> 
-   <td> <p>Wenn Sie einer der Genehmiger sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für das Problem zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Ablehnen]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p>Wenn Sie kein Genehmiger sind, klicken Sie auf das Symbol [!UICONTROL Mehr] . <img src="assets/more-icon-for-approvals-area.png"> , um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Genehmigungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
+   <td> <p>Wenn Sie einer der Genehmiger sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für das Problem zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Ablehnen]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p>Wenn Sie kein Genehmiger sind, klicken Sie auf das [!UICONTROL Mehr]-Symbol <img src="assets/more-icon-for-approvals-area.png"> , um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Genehmigungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -258,7 +258,7 @@ Der Programmheader enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das orangefarbene [!UICONTROL Programm-Symbol <img src="assets/nwe-programs-icon.png"> wird links neben dem Programmnamen angezeigt.</p> </td> 
+   <td> <p>Das orangefarbene [!UICONTROL Programm]-Symbol <img src="assets/nwe-programs-icon.png"> wird links neben dem Programmnamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name des Programms</td> 
@@ -313,7 +313,7 @@ Der Portfolioheader enthält die folgenden Informationen:
  <tbody> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das blaue [!UICONTROL Portfolio]-Symbol <img src="assets/nwe-portfolios-icon.png">wird links neben dem Portfolionamen angezeigt.</p> </td> 
+   <td> <p>Das blaue [!UICONTROL Portfolio]-Symbol <img src="assets/nwe-portfolios-icon.png"> wird links neben dem Portfolionamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name des Portfolios</td> 
@@ -376,7 +376,7 @@ Die Kopfzeile der Vorlage enthält die folgenden Informationen:
  <tbody> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das grüne Symbol [!UICONTROL Vorlage] <img src="assets/nwe-templates-icon.png">wird links neben dem Vorlagennamen angezeigt.</p> </td> 
+   <td> <p>Das grüne Symbol [!UICONTROL Vorlage] <img src="assets/nwe-templates-icon.png"> wird links neben dem Vorlagennamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name der Vorlage</td> 
@@ -427,7 +427,7 @@ Die Kopfzeile der Vorlagenaufgabe enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das grüne [!UICONTROL Task-Symbol <img src="assets/nwe-tasks-icon.png">wird links neben dem Namen der Vorlagenaufgabe angezeigt.</p> </td> 
+   <td> <p>Das grüne Symbol "[!UICONTROL Task]"<img src="assets/nwe-tasks-icon.png">wird links neben dem Namen der Vorlagenaufgabe angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name der Vorlagenaufgabe</td> 
@@ -474,7 +474,7 @@ Die Kopfzeile des Rechnungsdatensatzes enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das blaue Symbol [!UICONTROL Rechnungsdatensatz] <img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;"> wird links neben dem Namen des Rechnungsdatensatzes angezeigt.</p> </td> 
+   <td> <p>Das blaue [!UICONTROL Rechnungsdatensatz]-Symbol <img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;"> wird links neben dem Namen des Rechnungsdatensatzes angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name des Rechnungsdatensatzes</td> 
@@ -486,7 +486,7 @@ Die Kopfzeile des Rechnungsdatensatzes enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich des Rechnungsdatensatzes</td> 
-   <td> <p>Neben dem Namen des Rechnungsdatensatzes finden Sie im Menü [!UICONTROL Mehr] <img src="assets/more-menu.png"> zeigt die folgenden Optionen an:</p> 
+   <td> <p>Neben dem Namen des Rechnungsdatensatzes wird das [!UICONTROL Mehr] Menü <img src="assets/more-menu.png"> angezeigt, in dem Sie die folgenden Optionen auswählen können:</p> 
     <ul> 
      <li> <p>[!UICONTROL Bearbeiten]</p> </li> 
      <li> <p> </p> </li> 
@@ -577,7 +577,7 @@ In der Kopfzeile des Teams werden die folgenden Informationen angezeigt:
  <tbody> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das lilafarbene [!UICONTROL Team-Symbol <img src="assets/nwe-teams-icon.png"> wird links neben dem Teamnamen angezeigt.</p> </td> 
+   <td> <p>Das violette [!UICONTROL Team]-Symbol <img src="assets/nwe-teams-icon.png"> wird links neben dem Teamnamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name des Teams</td> 
@@ -620,7 +620,7 @@ Die Iterationskopfzeile enthält die folgenden Informationen:
  <tbody> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das orangefarbene Symbol [!UICONTROL Iteration] <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> wird links neben dem Iterationsnamen angezeigt.</p> </td> 
+   <td> <p>Das orangefarbene [!UICONTROL Iteration]-Symbol <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> wird links neben dem Iterationsnamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name der Iteration</td> 
@@ -667,7 +667,7 @@ Die Kopfzeile der Gruppe enthält die folgenden Informationen:
  <tbody> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das orangefarbene Symbol [!UICONTROL Group] <img src="assets/nwe-group-icon.png"> wird links neben dem Gruppennamen angezeigt.</p> </td> 
+   <td> <p>Das orangefarbene [!UICONTROL Group]-Symbol <img src="assets/nwe-group-icon.png"> wird links neben dem Gruppennamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name der Gruppe</td> 
@@ -679,7 +679,7 @@ Die Kopfzeile der Gruppe enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Der Bereich [!UICONTROL Aktionen] der Gruppe</td> 
-   <td> <p>Neben dem Namen der Gruppe befindet sich das Menü [!UICONTROL Mehr] . <img src="assets/more-menu.png"> zeigt die folgenden Optionen an:</p> 
+   <td> <p>Neben dem Gruppennamen wird das [!UICONTROL Mehr] Menü <img src="assets/more-menu.png"> angezeigt, in dem Sie die folgenden Optionen auswählen können:</p> 
     <ul> 
      <li> <p>[!UICONTROL Bearbeiten]</p> </li> 
      <li> <p>[!UICONTROL Copy]</p> </li> 
@@ -692,7 +692,7 @@ Die Kopfzeile der Gruppe enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verwendete Lizenzen] </td> 
-   <td> <p>Im Feld [!UICONTROL Lizenzen in Verwendung] wird die Anzahl der [!UICONTROL Plan]- und [!UICONTROL Work]-Lizenzanwender in der Gruppe und ihren Untergruppen angezeigt. Sie können auf die Zahlen klicken, um diese Informationen für alle fünf Lizenztypen anzuzeigen.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Anzahl der in einer Gruppe zugewiesenen und verwendeten Lizenzen in der neuen [!DNL Adobe Workfront] Erlebnis</a>.</p> </td> 
+   <td> <p>Im Feld [!UICONTROL Lizenzen in Verwendung] wird die Anzahl der [!UICONTROL Plan]- und [!UICONTROL Work]-Lizenzanwender in der Gruppe und ihren Untergruppen angezeigt. Sie können auf die Zahlen klicken, um diese Informationen für alle fünf Lizenztypen anzuzeigen.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Anzeigen der Anzahl der in einer Gruppe zugewiesenen und verwendeten Lizenzen im neuen [!DNL Adobe Workfront] Erlebnis</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Gruppenadministratoren]</td> 
@@ -723,7 +723,7 @@ Die Kopfzeile des Dokuments enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das blaue [!UICONTROL Dokument] Symbol <img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;"> wird links neben dem Dokumentnamen angezeigt.</p> </td> 
+   <td> <p>Links neben dem Dokumentnamen wird das blaue [!UICONTROL Dokument]-Symbol <img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;"> angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name des Dokuments</td> 
@@ -739,7 +739,7 @@ Die Kopfzeile des Dokuments enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Das Genehmigungsgebiet [!UICONTROL Decision]</td> 
-   <td> Der Bereich [!UICONTROL Entscheidungen] wird in der oberen rechten Ecke der Kopfzeile des Dokuments angezeigt. Dieser Bereich unterscheidet sich je nach der Validierungsphase und danach, ob Sie Genehmiger, Validierer oder keiner der beiden sind. <ul><li> <p>Wenn Sie Genehmiger sind, können Sie die Genehmigungen für das Dokument mithilfe der folgenden Symbole verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Ablehnen]</p> <p>Weitere Informationen zu Genehmigungsentscheidungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Validierung der Arbeit</a>.</li><li><p>Wenn Sie Überprüfer sind, können Sie auf die Schaltfläche Meine Überprüfung abschließen klicken, um anzugeben, dass Sie das Dokument überprüft haben.</p><p>Weitere Informationen zum Überprüfen eines Dokuments finden Sie unter <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Dokument überprüfen</a>.</p></li><li>Andernfalls zeigt dieser Bereich den aktuellen Überprüfungs- und Genehmigungsstatus für das Dokument an.</li><ul></p> </td> 
+   <td> Der Bereich [!UICONTROL Entscheidungen] wird in der oberen rechten Ecke der Kopfzeile des Dokuments angezeigt. Dieser Bereich unterscheidet sich je nach der Validierungsphase und danach, ob Sie Genehmiger, Validierer oder keiner der beiden sind. <ul><li> <p>Wenn Sie Genehmiger sind, können Sie die Genehmigungen für das Dokument mithilfe der folgenden Symbole verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Ablehnen]</p> <p>Weitere Informationen zu Genehmigungsentscheidungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Arbeiten validieren</a>.</li><li><p>Wenn Sie Überprüfer sind, können Sie auf die Schaltfläche Meine Überprüfung abschließen klicken, um anzugeben, dass Sie das Dokument überprüft haben.</p><p>Weitere Informationen zum Überprüfen eines Dokuments finden Sie unter <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Dokument überprüfen</a>.</p></li><li>Andernfalls zeigt dieser Bereich den aktuellen Überprüfungs- und Genehmigungsstatus für das Dokument an.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -762,7 +762,7 @@ In der Kopfzeile des Unternehmens werden die folgenden Informationen angezeigt:
  <tbody> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das blaue Symbol [!UICONTROL Company] <img src="assets/nwe-company-icon.png"> wird links neben dem Unternehmensnamen angezeigt.</p> </td> 
+   <td> <p>Links neben dem Unternehmensnamen wird das blaue [!UICONTROL Firmensymbol] <img src="assets/nwe-company-icon.png"> angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name des Unternehmens</td> 
@@ -774,7 +774,7 @@ In der Kopfzeile des Unternehmens werden die folgenden Informationen angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Aktionsbereich des Unternehmens</td> 
-   <td> <p>Neben dem Namen des Unternehmens befindet sich das [!UICONTROL Mehr] Menü. <img src="assets/more-menu.png"> zeigt die folgenden Optionen an:</p> 
+   <td> <p>Neben dem Namen des Unternehmens wird das [!UICONTROL Mehr] Menü <img src="assets/more-menu.png"> angezeigt, in dem Sie die folgenden Optionen auswählen können:</p> 
     <ul> 
      <li> <p>[!UICONTROL Bearbeiten]</p> </li> 
      <li> <p>[!UICONTROL Unternehmen löschen]</p> </li> 
@@ -787,7 +787,7 @@ In der Kopfzeile des Unternehmens werden die folgenden Informationen angezeigt:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Pläne sind Objekte der [!DNL Workfront Scenario Planner]. Informationen zum [!DNL Scenario Planner], siehe [Die [!DNL Scenario Planner] Übersicht](../../scenario-planner/scenario-planner-overview.md).
+Pläne sind die Objekte der [!DNL Workfront Scenario Planner]. Weitere Informationen zum [!DNL Scenario Planner] finden Sie unter [Überblick [!DNL Scenario Planner] 3}.](../../scenario-planner/scenario-planner-overview.md)
 
 In der Planüberschrift werden die folgenden Informationen angezeigt:
 
@@ -807,7 +807,7 @@ In der Planüberschrift werden die folgenden Informationen angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Objektsymbol </td> 
-   <td> <p>Das blaue Symbol [!UICONTROL Plan] <img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;">wird links neben dem Plannamen angezeigt.</p> </td> 
+   <td> <p>Das blaue [!UICONTROL Plan]-Symbol <img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;"> wird links neben dem Planungsnamen angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name des Plans</td> 
@@ -825,8 +825,8 @@ In der Planüberschrift werden die folgenden Informationen angezeigt:
    <td role="rowheader">Zusätzliche Planmaßnahmen</td> 
    <td> <p>Unter dem Plannamen und dem Aktionsbereich können Sie die folgenden Aktionen durchführen:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Konflikte anzeigen]</strong>: Wenn Sie auf diesen Umschalter klicken, werden Konflikte in den Initiativen ein- oder ausgeblendet.</p> </li> 
-     <li> <p><strong>[!UICONTROL Vergleichsszenarien]</strong>: Wenn Sie auf diesen Link klicken, werden die von Ihnen erstellten Szenarien nebeneinander verglichen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Konflikte anzeigen]</strong>: Durch Klicken auf diesen Umschalter werden Konflikte in den Initiativen ein- oder ausgeblendet.</p> </li> 
+     <li> <p><strong>[!UICONTROL Vergleichsszenarios]</strong>: Wenn Sie auf diesen Link klicken, wird ein paralleler Vergleich der von Ihnen erstellten Szenarien angezeigt.</p> </li> 
      <li> <p><strong>[!UICONTROL Szenarioauswahl]</strong>: In diesem Dropdownmenü können Sie ein Szenario kopieren oder auswählen, um ein anderes Szenario anzuzeigen.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -847,8 +847,8 @@ In der Planüberschrift werden die folgenden Informationen angezeigt:
    <td>Die Benutzer, die Zugriff auf das Anzeigen oder Verwalten des Plans haben, werden in der oberen rechten Ecke der Kopfzeile angezeigt. Wenn Sie den Mauszeiger über die Profilbilder bewegen, werden deren Namen angezeigt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Zur Veröffentlichung wechseln]</td> 
-   <td>Wenn Sie auf [!UICONTROL Zur Veröffentlichung wechseln] klicken, können Sie im angezeigten Szenario ein Projekt erstellen oder aktualisieren, das mit einer Initiative verknüpft ist.</td> 
+   <td role="rowheader">[!UICONTROL Gehe zu Publish]</td> 
+   <td>Wenn Sie auf [!UICONTROL Go to Publish] klicken, können Sie im angezeigten Szenario ein Projekt erstellen oder aktualisieren, das mit einer Initiative verknüpft ist.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -858,7 +858,7 @@ In der Planüberschrift werden die folgenden Informationen angezeigt:
 
 ![](assets/goal-header.png)
 
-Sie können strategische Ziele erstellen, wenn Ihr Unternehmen Zugriff auf Workfront-Ziele hat. Weitere Informationen finden Sie unter [!DNL Workfront Goals], siehe [Erste Schritte mit [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+Sie können strategische Ziele erstellen, wenn Ihr Unternehmen Zugriff auf Workfront-Ziele hat. Weitere Informationen zu [!DNL Workfront Goals] finden Sie unter [Erste Schritte mit  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 Die Ziel-Kopfzeile enthält die folgenden Informationen:
 
@@ -914,7 +914,7 @@ Die Ziel-Kopfzeile enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
-   <td>Gibt an, ob das Ziel aktiv, neu oder geschlossen ist. Sie können den Zielstatus nicht manuell aktualisieren. Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Übersicht über den Zielstatus in [!DNL Adobe Workfront Goals]</a></td> 
+   <td>Gibt an, ob das Ziel aktiv, neu oder geschlossen ist. Sie können den Zielstatus nicht manuell aktualisieren. Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Zielstatusübersicht in [!DNL Adobe Workfront Goals]</a></td> 
   </tr> 
  </tbody> 
 </table>

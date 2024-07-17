@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 2020.1 an Projekten vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau-Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 2020.1 verfügbaren Änderungen finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 2020.1 verfügbar sind, finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## In einer Aktualisierung leichter erkennbar, wer mit Tags versehen ist
 
@@ -28,20 +28,20 @@ Tagging-Benutzer werden auch unter dem Kommentarfeld aufgeführt.
 
 Vor dieser Verbesserung wurden die zuvor mit Tags versehenen Benutzer nicht im Feld &quot;Benachrichtigen&quot;angezeigt.
 
-Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Weitere Informationen finden Sie unter [Taggen anderer Benutzer bei Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Einschließen und Identifizieren von zitiertem Text in einen Aktualisierungskommentar oder eine Antwort
 
 Wenn Sie einen Kommentar eingeben, können Sie einen Teil Ihres Kommentars als zitierten Text markieren, um ihn von Ihrem eigenen Kommentar zu unterscheiden. Verwenden Sie die Schaltfläche Blockangebot im HTML-Editor.
 
-Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 ## Vorherigen Kommentar in einem Aktualisierungskommentar oder einer Antwort zitieren
 
 Wenn Sie Kommentare in einem Aktualisierungs-Thread erstellen, können Sie schnell Text aus einem vorherigen Kommentar in den Thread einfügen. Suchen Sie im Menü Mehr neben dem Kommentar, den Sie zitieren möchten, nach der Option Antwort zitieren .
 
-Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Zusätzliche Informationen zu Risiken
 
@@ -53,7 +53,7 @@ Informationen zu Risiken in Workfront finden Sie unter [Erstellen und Bearbeiten
 
 Um den finanziellen Fortschritt Ihrer Projekte besser zu verstehen, können Sie jetzt zusätzliche Kosten- und Umsatzinformationen in einen Baseline- oder einen Baseline-Aufgabenbericht aufnehmen. Die zusätzlichen Finanzinformationen werden nicht zu den Grundlinien hinzugefügt, die Sie derzeit gespeichert haben, sondern für neue Grundlinien hinzugefügt.
 
-Informationen zu Projekt- und Aufgabenfinanzfeldern, auf die über die Objekte &quot;Baseline&quot;und &quot;Baseline Task&quot;zugegriffen werden kann, finden Sie unter [Projektfinanzen in Projektgrundlagen](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+Informationen zu Projekt- und Aufgabenfinanzfeldern, auf die über die Objekte &quot;Baseline&quot;und &quot;Baseline Task&quot;zugegriffen werden kann, finden Sie unter [Projektfinanzierungen in den Projektgrundlagen](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Probleme mit dem Status &quot;Abgeschlossene/ausstehende Genehmigung&quot;werden als unvollständig betrachtet
 

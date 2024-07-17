@@ -9,7 +9,7 @@ role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Versandanforderungen für Ereignisabschlüsse
 
-Ereignis-Abonnementnachrichten sind Benachrichtigungen, die so eingerichtet werden können, dass Benutzer benachrichtigt werden, wenn bestimmte Ereignisse auftreten. Weitere Informationen dazu, was Ereignisabonnements sind, finden Sie unter [Häufig gestellte Fragen - Ereignisabos](../../wf-api/general/event-subs-faq.md).
+Ereignis-Abonnementnachrichten sind Benachrichtigungen, die so eingerichtet werden können, dass Benutzer benachrichtigt werden, wenn bestimmte Ereignisse auftreten. Weitere Informationen zu Abonnements für Ereignisse finden Sie unter [FAQs - Abonnements für Ereignisse](../../wf-api/general/event-subs-faq.md).
 
 ## Standards für die Bereitstellung von Ereignisabonnementnachrichten
 
@@ -31,7 +31,7 @@ Dienstendpunkte, die Adobe Workfront-Ereignisabonnementnachrichten verwenden, m�
 
 * In Verbindung mit der Rückgabe des Status von 200 Ebenen als Antwortstatus muss die HTTP-Antwort innerhalb von fünf Sekunden nach dem Start des Versandversuchs empfangen werden. Diese Einschränkung stellt sicher, dass Geschäftsprozesse oder Infrastrukturbeschränkungen von Verbrauchern den Versand anderer Nachrichten nicht verzögern.
 
-* Wenn ein langwieriger Geschäftsprozess Trigger von einer Ereignisabonnementnachricht verarbeitet, empfiehlt Workfront,
+* Wenn ein langwieriger Geschäftsprozess Trigger von einer Ereignisabonnementnachricht verarbeitet, empfiehlt Workfront  dass
 
    1. Der Endpunkt speichert die Nachrichteninformationen bei Erhalt und antwortet sofort mit einem Status von 200 Ebenen.
    1. Nachdem ein Endpunkt auf eine Versandanfrage zum Abonnement eines Ereignisses geantwortet hat, können die gespeicherten Nachrichten verarbeitet werden.

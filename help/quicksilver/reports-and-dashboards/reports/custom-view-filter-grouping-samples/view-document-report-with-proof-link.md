@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Ansicht: Dokumentbericht mit Link zu einem Testversand'''
-description: '"Ansicht: Dokumentbericht mit Link zu einem Testversand'''
+title: "Ansicht: Dokumentbericht mit Link zu einem Testversand"
+description: "Ansicht: Dokumentbericht mit Link zu einem Testversand"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Ansicht: Dokumentbericht mit Link zu einem Testversand
+# Anzeigen: Dokumentbericht mit Link zu einem Testversand
 
 In dieser Dokumentansicht können Sie einen Link zu einem Testversand der aktuellen Dokumentversion einfügen.
 
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,13 +56,13 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 So wenden Sie diese Ansicht an:
 
-1. Öffnen Sie eine Dokumentliste.
-1. Aus dem **Ansicht** Dropdown-Menü auswählen **Neue Ansicht**.
+1. Gehen Sie zu einer Liste von Dokumenten.
+1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
 
-1. Klicken **Spalte hinzufügen**.
-1. Klicken **In den Textmodus wechseln**.
+1. Klicken Sie auf **Spalte hinzufügen**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    displayname=Proof Link
@@ -78,15 +78,15 @@ So wenden Sie diese Ansicht an:
 
    >[!TIP]
    >
-   >Ersetzen Sie &quot;Ihre Domäne&quot;durch Ihre eigentliche Workfront-Domäne. Wenn beispielsweise die Workfront-URL Ihres Unternehmens *Company.my.workfront.com* lautet, lautet Ihre Domäne &quot;Firma&quot;.
+   >Ersetzen Sie &quot;Ihre Domäne&quot;durch Ihre eigentliche Workfront-Domäne. Wenn die Workfront-URL Ihres Unternehmens beispielsweise *Company.my.workfront.com* lautet, lautet Ihre Domäne &quot;Unternehmen&quot;.
 
-1. Klicken **Speichern**, dann **Ansicht speichern**.
-1. Geben Sie einen Namen für die Ansicht ein und klicken Sie auf **Ansicht speichern**.
+1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.
+1. Geben Sie einen Namen für die Ansicht ein und klicken Sie dann auf **Ansicht speichern**.
 1. (Optional) Um sicherzustellen, dass nur Dokumente mit Testsendungen angezeigt werden, fügen Sie einen Filter hinzu, indem Sie Folgendes durchführen:
 
-   1. Klicken Sie auf **Filter** Dropdown-Menü, und klicken Sie auf **Neuer Filter**.
-   1. Klicken **Filterregel hinzufügen** und beginnen Sie mit der Eingabe des Testversands-Eigentümers und wählen Sie **Kennung des Testinhabers** wenn sie in der Liste angezeigt wird.
-   1. Auswählen **Ist nicht leer** für den Filter-Modifikator.
-   1. Klicken **Filter speichern**, geben Sie den Namen des Filters ein und klicken Sie auf **Filter speichern**.
+   1. Klicken Sie auf das Dropdown-Menü **Filter** und dann auf **Neuer Filter**.
+   1. Klicken Sie auf **Filterregel hinzufügen** und beginnen Sie mit der Eingabe des Testversandinhabers. Wählen Sie dann **Kennung des Testversands des Eigentümers** aus, wenn er in der Liste angezeigt wird.
+   1. Wählen Sie für den Filtermodifikator **Ist nicht leer** aus.
+   1. Klicken Sie auf **Filter speichern**, geben Sie den Namen des Filters ein und klicken Sie dann auf **Filter speichern**.
 
 1. Klicken Sie auf den Link in der Spalte Testversand-Link , um auf den Testversand der letzten Version des Dokuments zuzugreifen.

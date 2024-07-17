@@ -10,25 +10,25 @@ feature: Workfront Fusion
 exl-id: 4e37482a-e84e-4ab2-a48f-7e7bfbecee56
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '995'
+ht-degree: 0%
 
 ---
 
 # CSV
 
-Die [!DNL Adobe Workfront Fusion] [!UICONTROL CSV] können Sie CSV-Dateien erstellen und CSV-Text aus einem empfangenen Textwert oder einer Datei analysieren.
+Mit den Modulen [!DNL Adobe Workfront Fusion] [!UICONTROL CSV] können Sie CSV-Dateien erstellen und CSV-Text aus einem empfangenen Textwert oder einer Datei analysieren.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -38,35 +38,35 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL CSV erstellen]
 
-Die [!UICONTROL CSV erstellen] Aggregator ermöglicht die Erstellung eines CSV-Textes aus empfangenen Textwerten.
+Mit dem Aggregator [!UICONTROL CSV erstellen] können Sie einen CSV-Text aus empfangenen Textwerten erstellen.
 
-Weitere Informationen zu Aggregatoren finden Sie unter [Aggregatormodul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
+Weitere Informationen zu Aggregatoren finden Sie unter [Aggregator-Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Quellmodul]</td>
+        <td>[!UICONTROL Source Module]</td>
         <td>Wählen Sie das Modul aus, das Sie zum Aggregieren der benötigten Felder verwenden.</td>
     </tr>
     <tr>
@@ -89,16 +89,16 @@ Weitere Informationen zu Aggregatoren finden Sie unter [Aggregatormodul in [!DNL
 
 ## [!UICONTROL CSV erstellen (erweitert)]
 
-Die [!UICONTROL CSV erstellen (erweitert)] Aggregator ermöglicht die Erstellung eines CSV-Textes aus empfangenen Textwerten. Es verwendet eine Datenstruktur, die die CSV-Spalten in der resultierenden CSV-Datei definiert. Nach der Definition erscheinen die Spalten als Felder in der CSV-Moduleinrichtung und können im Szenario einem späteren Modul zugeordnet werden.
+Mit dem Aggregator [!UICONTROL CSV erstellen (erweitert)] können Sie einen CSV-Text aus empfangenen Textwerten erstellen. Es verwendet eine Datenstruktur, die die CSV-Spalten in der resultierenden CSV-Datei definiert. Nach der Definition erscheinen die Spalten als Felder in der CSV-Moduleinrichtung und können im Szenario einem späteren Modul zugeordnet werden.
 
-Weitere Informationen zu Aggregatoren finden Sie unter [Aggregatormodul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
+Weitere Informationen zu Aggregatoren finden Sie unter [Aggregator-Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quellmodul]</td> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
    <td>Wählen Sie das Anwendungsmodul aus, das Sie zum Aggregieren der benötigten Felder verwenden.</td> 
   </tr> 
   <tr> 
@@ -121,28 +121,28 @@ Weitere Informationen zu Aggregatoren finden Sie unter [Aggregatormodul in [!DNL
 </table>
 
 
-<p>Angenommen, Sie möchten Ihre Google-Kontakte in eine CSV-Datei mit zwei Spalten "Vollständiger Name"und "E-Mail"exportieren. Das Ausgabebundle aus dem Modul [!UICONTROL Google Contacts] &gt;[!UICONTROL Kontakte von einer Gruppe abrufen] weist die folgende Struktur auf. Die E-Mail-Adressen werden im <code>[!UICONTROL Emails[]]</code> -Element ein Array von Sammlungen ist, wobei jede Sammlung zwei Elemente enthält: <code>Label</code> und <code>Email</code>.</p>
+<p>Angenommen, Sie möchten Ihre Google-Kontakte in eine CSV-Datei mit zwei Spalten "Vollständiger Name"und "E-Mail"exportieren. Das Ausgabebundle aus dem Modul [!UICONTROL Google Contacts] &gt;[!UICONTROL Kontakte von einer Gruppe abrufen] weist die folgende Struktur auf. Die E-Mail-Adressen werden innerhalb des Elements <code>[!UICONTROL Emails[]]</code> gespeichert, bei dem es sich um eine Gruppe von Kollektionen handelt, von denen jede Kollektion zwei Elemente enthält: <code>Label</code> und <code>Email</code>.</p>
 <p> <img src="assets/transforming-350x546.png" style="width: 350;height: 546;"> </p>
-<p>Wenn Sie die einfache [!DNL Create CSV] -Modul, wird Ihnen eine Liste von Kontrollkästchen angeboten, die den Elementen der obersten Ebene eines Bundles entsprechen. Wenn Sie versuchen, <code>Full name</code> und <code>Emails</code> -Elemente enthält, erzeugt das Modul [!UICONTROL CSV] erstellen die folgende Ausgabe, was wahrscheinlich nicht Ihre Aufgabe ist:</p>
+<p>Wenn Sie das einfache [!DNL Create CSV] -Modul verwenden, wird Ihnen eine Liste von Kontrollkästchen angeboten, die den Elementen der obersten Ebene eines Bundles entsprechen. Wenn Sie versuchen, die Elemente <code>Full name</code> und <code>Emails</code> anzukreuzen, erzeugt das Modul [!UICONTROL CSV] erstellen die folgende Ausgabe, was wahrscheinlich nicht der gewünschten entspricht:</p>
 <p>"emails","fullName"</p>
 <p>"[object Object]","Shon Winer"</p>
 <p>"[object Object]","Lizeth Fulmore"</p>
 <p>"[object Object]","Hilario Gullatt"</p>
 <p>"[object Object]","Abby Eisenbarth"</p>
-<p>Seit dem Element <code>Full Name</code> von einfachem Typ Text ist, wird es nur gut exportiert. Aber das Element <code>Emails</code>, das ein komplexes Array von Sammlungen ist, wird als [Objektobjekt] exportiert. So werden Sammlungen und Arrays standardmäßig in Text umgewandelt. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Elementdatentypen in Adobe Workfront Fusion</a>.</p>
-<p>So exportieren Sie den Inhalt der <code>Email </code>Element der ersten Kollektion der <code>Emails[]</code> stattdessen das Modul [!UICONTROL CSV (erweitert) erstellen verwenden. Mit dem -Modul können Sie einzelne Spalten Ihrer CSV-Datei definieren und ihnen Elemente zuordnen, einschließlich verschachtelter Spalten.</p>
+<p>Da das Element <code>Full Name</code> vom einfachen Typ Text ist, wird es einfach exportiert. Das Element "<code>Emails</code>", das ein komplexes Array von Sammlungen ist, wird jedoch als [Objektobjekt] exportiert. So werden Sammlungen und Arrays standardmäßig in Text umgewandelt. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Elementdatentypen in Adobe Workfront Fusion</a>.</p>
+<p>Um stattdessen Inhalte des Elements <code>Email </code> der ersten Sammlung des Arrays <code>Emails[]</code> zu exportieren, muss das Modul [!UICONTROL CSV (erweitert) erstellen verwendet werden. Mit dem -Modul können Sie einzelne Spalten Ihrer CSV-Datei definieren und ihnen Elemente zuordnen, einschließlich verschachtelter Spalten.</p>
 <ol>
 <li value="1">Fügen Sie das Modul [!UICONTROL CSV (erweitert) erstellen in ein Szenario ein und öffnen Sie seine Konfiguration.</li>
-<li value="2">Klicken Sie auf <strong>[!UICONTROL Hinzufügen]</strong> neben dem Feld [!UICONTROL Datenstruktur] , um eine neue Datenstruktur zu erstellen.</li>
-<li value="3"> <p>Schreiben Sie einen Namen für die Datenstruktur und klicken Sie auf die Schaltfläche <strong>[!UICONTROL Element hinzufügen]</strong> -Schaltfläche, um die einzelnen Spalten hinzuzufügen. Wenn Sie zwei Spalten exportieren möchten: "Vollständiger Name"und "E-Mail", würde die resultierende Datenstruktur wie folgt aussehen:</p> <p> <img src="assets/google-contacts-350x524.png" style="width: 350;height: 524;"> </p> </li>
-<li value="4"> <p>Sobald Sie die Datenstruktur erfolgreich definiert haben, sollten die Felder, die jeder einzelnen Spalte entsprechen, in der Konfiguration des Moduls [!UICONTROL CSV erstellen (erweitert)] angezeigt werden, damit Sie die Elemente zuordnen können. Nehmen Sie den ersten Artikel aus dem <code>[!UICONTROL Emails[]]</code> Array und Zuordnen des Elements <code>Email </code>zum Feld/Spalte E-Mail:</p> <p> <img src="assets/create-csv-advanced-350x308.png" style="width: 350;height: 308;"> </p> </li>
-<li value="5"> <p>Führen Sie das Szenario aus. Seit dem Element <code>Emails[1]: Email</code> der Spalte "E-Mail"zugeordnet ist, ist vom einfachen Typ Text und exportiert jetzt korrekt:</p> <p>"Full Name","Email"</p> <p>"Shon Winer","Shon@Winer.com"</p> <p>"Lizeth Fulmore","Lizeth@Fulmore.com"</p> <p>"Hilario Gullatt","Hilario@Gullatt.com"</p> <p>"Abby Eisenbarth","Abby@Eisenbarth.com"</p> </li>
+<li value="2">Klicken Sie auf die Schaltfläche <strong>[!UICONTROL Hinzufügen]</strong> neben dem Feld [!UICONTROL Datenstruktur] , um eine neue Datenstruktur zu erstellen.</li>
+<li value="3"> <p>Schreiben Sie einen Namen für die Datenstruktur ein und klicken Sie auf die Schaltfläche <strong>[!UICONTROL Element hinzufügen]</strong> , um die einzelnen Spalten hinzuzufügen. Wenn Sie zwei Spalten exportieren möchten: "Vollständiger Name"und "E-Mail", würde die Datenstruktur wie folgt aussehen:</p> <p> <img src="assets/google-contacts-350x524.png" style="width: 350;height: 524;"> </p> </li>
+<li value="4"> <p>Sobald Sie die Datenstruktur erfolgreich definiert haben, sollten die Felder, die jeder einzelnen Spalte entsprechen, in der Konfiguration des Moduls [!UICONTROL CSV erstellen (erweitert)] angezeigt werden, damit Sie die Elemente zuordnen können. Nehmen Sie das erste Element aus dem <code>[!UICONTROL Emails[]]</code> -Array und ordnen Sie dessen Element <code>Email </code>dem Feld/der Spalte "E-Mail"zu:</p> <p> <img src="assets/create-csv-advanced-350x308.png" style="width: 350;height: 308;"> </p> </li>
+<li value="5"> <p>Führen Sie das Szenario aus. Da das der Spalte "E-Mail"zugeordnete Element <code>Emails[1]: Email</code> vom einfachen Typ Text ist, wird es jetzt korrekt exportiert:</p> <p>"Full Name","Email"</p> <p>"Shon Winer","Shon@Winer.com"</p> <p>"Lizeth Fulmore","Lizeth@Fulmore.com"</p> <p>"Hilario Gullatt","Hilario@Gullatt.com"</p> <p>"Abby Eisenbarth","Abby@Eisenbarth.com"</p> </li>
 </ol>
 </div>
 
 ## [!UICONTROL CSV analysieren]
 
-Die [!UICONTROL CSV analysieren] Mit transformer können Sie CSV-Text aus einem empfangenen Textwert oder einer Datei analysieren.
+Mit dem Transformator [!UICONTROL  CSV analysieren] können Sie CSV-Text aus einem empfangenen Textwert oder einer Datei analysieren.
 
 <table style="table-layout:auto">
  <col> 
@@ -154,7 +154,7 @@ Die [!UICONTROL CSV analysieren] Mit transformer können Sie CSV-Text aus einem 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL CSV enthält Kopfzeilen]</td> 
-   <td> <p>Wählen Sie diese Option aus, wenn die erste Zeile des CSV-Texts Kopfzeilen enthält.</p> <p>Hinweis: Das Modul verwendet diese Header nicht, um die Spalten in der Ausgabe zu beschriften. Stattdessen stellt dieses Feld sicher, dass die Kopfzeilen nicht in die Ausgabedaten eingeschlossen sind.</p> </td> 
+   <td> <p>Wählen Sie diese Option aus, wenn die erste Zeile des CSV-Texts Kopfzeilen enthält.</p> <p>Hinweis: Das Modul verwendet diese Kopfzeilen nicht, um die Spalten in der Ausgabe zu beschriften. Stattdessen stellt dieses Feld sicher, dass die Kopfzeilen nicht in die Ausgabedaten eingeschlossen sind.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL delimiterType]</td> 
@@ -171,7 +171,7 @@ Die [!UICONTROL CSV analysieren] Mit transformer können Sie CSV-Text aus einem 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL CSV]</td> 
-   <td>Geben Sie die CSV-Datei ein oder ordnen Sie sie zu, die Sie analysieren möchten.<p>Notiz: <p>Wenn Ihre Daten in Binärform vorliegen (normalerweise aus einer Datei), müssen Sie die Funktion "toString()" verwenden, um die Binärdaten in [!UICONTROL String] zu konvertieren:</p><p><img src="assets/parse-csv-350x123.png" style="width: 350;height: 123;"></p></p></td> 
+   <td>Geben Sie die CSV-Datei ein oder ordnen Sie sie zu, die Sie analysieren möchten.<p>Hinweis: <p>Wenn Ihre Daten in Binärform vorliegen (normalerweise aus einer Datei), müssen Sie die Funktion "toString()" verwenden, um die Binärdaten in [!UICONTROL String] zu konvertieren:</p><p><img src="assets/parse-csv-350x123.png" style="width: 350;height: 123;"></p></p></td> 
   </tr> 
  </tbody> 
 </table>

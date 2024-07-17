@@ -21,10 +21,10 @@ ht-degree: 0%
 
 Sie können Berichte so planen, dass sie den Benutzern automatisch nach einem festgelegten Zeitplan bereitgestellt werden, oder Sie können Berichte einmalig manuell senden. Wenn Sie einen Bericht von Adobe Workfront senden, erhält der Benutzer eine E-Mail mit dem Workfront-Bericht in einem separaten Anhang.
 
-Informationen zum Einrichten eines Berichts für die Bereitstellung finden Sie im Artikel [Planen eines automatischen Berichtversands](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+Informationen zum Einrichten eines Berichts für die Bereitstellung finden Sie im Artikel [Planen einer automatischen Berichtbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 Sie können die Bereitstellung von Berichten nicht planen und sie auch nicht manuell in der Vorschau-Sandbox-Umgebung bereitstellen. Weitere Informationen zur Vorschau-Sandbox finden Sie im Artikel [Die Adobe Workfront-Vorschau-Sandbox-Umgebung](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
-Weitere Informationen zum Bereitstellen von Berichten in der Vorschau-Sandbox-Umgebung finden Sie im Artikel [Bericht in der Vorschau-Sandbox-Umgebung senden](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
+Weitere Informationen zum Bereitstellen von Berichten in der Vorschau-Sandbox-Umgebung finden Sie im Artikel [Senden eines Berichts in der Vorschau-Sandbox-Umgebung](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
 
 ## Versandbeschränkungen für Berichte
 
@@ -41,7 +41,7 @@ Beachten Sie Folgendes bei der Planung von Berichten für die Bereitstellung:
 
 Es gibt verschiedene Größenbeschränkungen, die beeinflussen, wie Berichte in Workfront angezeigt werden und wie sie über einen manuellen Export, einen gelieferten Bericht oder über die API exportiert werden:
 
-* **Dateigröße von 5 MB:** Maximale Dateigröße für exportierte Berichte, die für die Bereitstellung geplant sind. Wenn eine an eine E-Mail angehängte exportierte Datei größer als 5 MB ist, wird ein Link, über den die Datei heruntergeladen werden kann, per E-Mail anstelle des angehängten exportierten Berichts gesendet.
+* **5 MB Dateigröße:** Maximale Dateigröße für exportierte Berichte, die für die Bereitstellung geplant sind. Wenn eine an eine E-Mail angehängte exportierte Datei größer als 5 MB ist, wird ein Link, über den die Datei heruntergeladen werden kann, per E-Mail anstelle des angehängten exportierten Berichts gesendet.
 
   >[!NOTE]
   >
@@ -64,7 +64,7 @@ Es gibt verschiedene Größenbeschränkungen, die beeinflussen, wie Berichte in 
    * Export über eine API-Integration.
    * Daten, die über einen Kick-Start exportiert wurden.
 
-     Weitere Informationen zum Exportieren von Daten über Schnellstarts finden Sie im Artikel [Exportieren von Daten aus Adobe Workfront über Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Weitere Informationen zum Exportieren von Daten über Kick-Start finden Sie im Artikel [Daten aus Adobe Workfront über Kick-Starts exportieren](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
@@ -72,10 +72,10 @@ Es gibt verschiedene Größenbeschränkungen, die beeinflussen, wie Berichte in 
 
    * Exportieren von Nutzungsinformationen für ein Projekt.
 
-     Weitere Informationen zum Exportieren von Nutzungsinformationen für ein Projekt finden Sie unter [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     Weitere Informationen zum Exportieren von Nutzungsinformationen für ein Projekt finden Sie unter [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * **65.530 Hyperlinks:** Dies ist eine Beschränkung, die Excel für Dokumente mit mehr als 65.530 Hyperlinks vorschreibt. Diese Dokumente können nicht geöffnet werden, wenn sie manuell exportiert oder in einem gelieferten Bericht gesendet werden. Beachten Sie, dass ein Excel-Dokument möglicherweise nur 200 Datenzeilen enthält. Wenn jedoch mehr als 65.530 Links innerhalb des Dokuments vorhanden sind, wird das Dokument nicht geöffnet. Diese Beschränkung gilt nur für Excel-Dateien, nicht aber für die anderen unterstützten Formate.
-* **256 Spalten**: Dies ist eine Beschränkung, die Excel für Dokumente mit mehr als 256 Spalten vorschreibt. Diese Dokumente können nicht manuell exportiert oder in einem gelieferten Bericht gesendet werden. Diese Beschränkung gilt nur für Excel-Dateien, nicht aber für die anderen unterstützten Formate.
+* **256 Spalten**: Dies ist eine Begrenzung, die Excel für Dokumente mit mehr als 256 Spalten vorgibt. Diese Dokumente können nicht manuell exportiert oder in einem gelieferten Bericht gesendet werden. Diese Beschränkung gilt nur für Excel-Dateien, nicht aber für die anderen unterstützten Formate.
 
 Wenn Sie versuchen, Daten über den Grenzwert hinaus zu exportieren, erhalten Sie möglicherweise nicht alle erwarteten Daten im Export. Stattdessen wird ein geänderter Bericht innerhalb der Grenze erstellt.
 
@@ -95,7 +95,7 @@ Beachten Sie Folgendes:
 
 * Beim Anzeigen eines Berichts im Browser stimmen Zeitstempel und Format des Berichts mit dem Gebietsschema und der Zeitzone Ihres Browsers überein, wie in den Browsereinstellungen definiert.
 * Wenn der Bericht in einer E-Mail zugestellt wird, wird der Bericht mit dem Zeitstempel und dem Format bereitgestellt, die dem Gebietsschema und der Zeitzone des Benutzers entsprechen, wie sie in Ihrem Workfront-Profil angegeben sind.\
-  Weitere Informationen zum Gebietsschema und zur Zeitzone von Benutzern in Workfront finden Sie im Artikel [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Weitere Informationen zum Gebietsschema und zur Zeitzone von Benutzern in Workfront finden Sie im Artikel [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 ## Berichte mit einer speziellen Ansicht {#reports-with-a-special-view}
 
@@ -113,7 +113,7 @@ Die folgenden Ansichten werden als besondere Ansichten betrachtet:
 >
 >Wenn der Bericht zusätzlich zur Standardregisterkarte mit einer speziellen Ansicht auch eine Matrix -Registerkarte enthält, wird der Bericht so bereitgestellt, wie er auf der Registerkarte Matrix angezeigt wird.
 
-Weitere Informationen dazu, wie Sie eine spezielle Ansicht auf einen Bericht anwenden, finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Weitere Informationen zum Anwenden einer speziellen Ansicht auf einen Bericht finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) .
 
 ## Die bereitgestellte Datei verwenden
 
@@ -129,7 +129,7 @@ Wenn Sie einen Bericht von Workfront senden, erhält der Benutzer eine E-Mail mi
 
 Weitere Informationen zur Betreffzeile der zugestellten Berichts-E-Mail finden Sie unter [Planen eines automatischen Berichtversands](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-Der Name des angehängten Berichts lautet: *Der_Name_des_Berichts* gefolgt vom exportierten Dateiformat.
+Der Name des angehängten Berichts lautet: *The_Name_Of_The_Report* gefolgt vom exportierten Dateiformat.
 
 Wenn Sie die Formatierung des gelieferten Berichts als PDF- oder HTML-Datei geplant haben, lautet der Titel des Berichts:
 
@@ -157,7 +157,7 @@ Wenn Ihr Workfront-Administrator Ihrer Workfront-Instanz benutzerdefiniertes Bra
 
 Berichte, die in allen anderen Formaten gesendet werden, können nicht mit Ihrem Logo personalisiert werden.
 
-Weitere Informationen zum Branding Ihrer Workfront-Instanz finden Sie im Artikel [Markieren Sie Ihre Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Weitere Informationen zum Branding Ihrer Workfront-Instanz finden Sie im Artikel [Markenbezeichnung Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Formatierung {#formatting}
 
@@ -168,7 +168,7 @@ Wenn Ihr Bericht in der Webanwendung eine besondere Formatierung aufweist, sollt
 Der Filter, die Ansicht oder die Gruppierung des Berichts sind nicht in der bereitgestellten Datei enthalten. Die Berichtbeschreibung ist nur enthalten, wenn Sie den Bericht als PDF-Datei versenden.
 
 Weitere Informationen zum Empfang von Berichten mit einer speziellen Ansicht finden Sie im Artikel [Berichte mit einer speziellen Ansicht](#reports-with-a-special-view).\
-Weitere Informationen zur Auswahl der Standardregisterkarte eines Berichts und zur speziellen Formatierung finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Weitere Informationen zur Auswahl der Standardregisterkarte eines Berichts und zur speziellen Formatierung finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Links {#links}
 
@@ -180,15 +180,15 @@ Der Name des Berichts in der E-Mail-Nachricht ist ebenfalls ein Link.
 
 Sie können sehen, ob ein Bericht für die Bereitstellung konfiguriert wurde, indem Sie Folgendes erstellen:
 
-* **Eine Ansicht** für das Objekt &quot;Bericht&quot;in einer Liste oder in einem Bericht für Berichte: Erstellen Sie eine Ansicht auf einer Liste von Berichten oder in einem Bericht für Berichte und fügen Sie der Ansicht die folgende Spalte hinzu:\
+* **Eine Ansicht** für das Berichtsobjekt in einer Liste oder in einem Bericht für Berichte: Erstellen Sie eine Ansicht auf einer Liste von Berichten oder in einem Bericht für Berichte und fügen Sie der Ansicht die folgende Spalte hinzu:\
   *Name des terminierten Berichts.\
   *Die Namen aller für diesen Bericht geplanten Sendungen werden in der Spalte mit Aufzählungszeichen aufgeführt.\
   ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
-* **Filter** für das Berichtsobjekt: Erstellen Sie einen Filter für eine Liste von Berichten oder einen Bericht zu Berichten mit der folgenden Anweisung: *Geplante Berichts-ID ist nicht leer*.\
+* **Ein Filter** für das Berichtsobjekt: Erstellen Sie einen Filter für eine Liste von Berichten oder einen Bericht für Berichte mit der folgenden Anweisung: *Geplante Berichts-ID ist nicht leer*.\
   Dadurch werden nur Berichte angezeigt, die in Ihrer Liste oder Ihrem Bericht geplant wurden.\
   ![](assets/qs-scheduled-report-filter-350x101.png)\
-  Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Informationen zum Erstellen eines Berichts für Berichte finden Sie unter [Erstellen eines Berichts über Berichtsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Informationen zum Erstellen eines Berichts für Berichte finden Sie unter [Erstellen eines Berichts über Berichterstellungsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating Report Delivery</h2>

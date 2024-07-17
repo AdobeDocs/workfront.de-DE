@@ -9,7 +9,7 @@ exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Wenn Sie ein Objekt mit einer Person im System teilen, können Sie dem Empfänge
 
 Sie müssen kein Adobe Workfront-Administrator sein, um Berechtigungen für Objekte freigeben zu können, auf die Sie Zugriff haben. Ihre Berechtigungen für Objekte funktionieren jedoch innerhalb der Zugriffsebenen, die vom Workfront-Administrator festgelegt wurden.
 
-Sie können Berechtigungen für ein von Ihnen erstelltes Objekt oder ein für Sie freigegebenes Objekt freigeben oder daraus entfernen. Wenn Sie nicht der Ersteller des Objekts sind, müssen Sie zusätzlich zu den Berechtigungen zum Freigeben für das Objekt über Freigabezugriff für das Objekt verfügen, das Sie auf Ihrer Zugriffsebene freigeben möchten. Informationen zu Zugriffsebenen finden Sie unter [Übersicht über die neuen Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) oder [Übersicht über Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Sie können Berechtigungen für ein von Ihnen erstelltes Objekt oder ein für Sie freigegebenes Objekt freigeben oder daraus entfernen. Wenn Sie nicht der Ersteller des Objekts sind, müssen Sie zusätzlich zu den Berechtigungen zum Freigeben für das Objekt über Freigabezugriff für das Objekt verfügen, das Sie auf Ihrer Zugriffsebene freigeben möchten. Informationen zu Zugriffsebenen finden Sie unter [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) oder [Übersicht über Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -38,17 +38,17 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
 * **Vorlagen**: Weitere Informationen finden Sie unter [Projektvorlagen freigeben](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolios**: Weitere Informationen finden Sie unter [Portfolio freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+* **Portfolios**: Weitere Informationen finden Sie unter [Ein Portfolio freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **Programme**: Weitere Informationen finden Sie unter [Programm freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
 
-* **Aufgaben**: Weitere Informationen finden Sie unter [Aufgabe freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+* **Aufgaben**: Weitere Informationen finden Sie unter [Aufgaben freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
-* **Probleme**: Weitere Informationen finden Sie unter [Problem freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+* **Probleme**: Weitere Informationen finden Sie unter [Ein Problem freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 * **Dokumente**: Weitere Informationen finden Sie unter [Freigeben eines Dokuments](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
 
-* **Dokumentenordner**: Weitere Informationen finden Sie unter [Dokumentordner freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+* **Dokumentordner**: Weitere Informationen finden Sie unter [Ordner freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
 * **Testsendungen**: Weitere Informationen finden Sie unter [Freigeben eines Testversands in Workfront](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
@@ -58,13 +58,13 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
    * [Dashboard freigeben](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Kalenderberichte freigeben](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **Filter, Ansichten und Gruppierungen**: Weitere Informationen finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* **Filter, Ansichten und Gruppierungen**: Weitere Informationen finden Sie unter [Freigeben eines Filters, einer Ansicht oder einer Gruppierung](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-* **Pläne**: Weitere Informationen finden Sie unter [Plan im Szenario-Planer freigeben](../../scenario-planner/share-a-plan.md).
+* **Pläne**: Weitere Informationen finden Sie unter [Plan im Szenario freigeben](../../scenario-planner/share-a-plan.md).
 
   Dies erfordert eine zusätzliche Lizenz.
 
-* **Ziele**: Weitere Informationen finden Sie unter [Freigeben eines Ziels in Workfront-Zielen](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+* **Ziele**: Weitere Informationen finden Sie unter [Ziel in Workfront freigeben](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
   Dies erfordert eine zusätzliche Lizenz.
 
@@ -72,7 +72,7 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
 * Sie können nur die gleiche oder eine niedrigere Berechtigungsstufe für das Objekt freigeben.
 
-  Wenn Sie beispielsweise über Beitragsberechtigungen für das Objekt verfügen, können Sie keinen anderen Benutzer Verwaltungsberechtigungen für dieses Objekt erteilen.
+  Wenn Sie beispielsweise über Contribute-Berechtigungen für das Objekt verfügen, können Sie keinem anderen Benutzer Verwaltungsberechtigungen für dieses Objekt erteilen.
 
 * Sie können ein Objekt nicht mit einer Berechtigungsebene freigeben, die höher ist als die Zugriffsebene eines Benutzers.
 
@@ -87,8 +87,8 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
   >
   >Weitere Informationen:
   >
-  >* [Plan im Szenario-Planer freigeben](../../scenario-planner/share-a-plan.md)
-  >* [Freigeben eines Ziels in Workfront-Zielen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+  >* [Einen Plan im Szenario-Planer freigeben](../../scenario-planner/share-a-plan.md)
+  >* [Ziel in Workfront freigeben](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
 ## Freigabebeschränkungen
 
@@ -96,7 +96,7 @@ Sie können ein Objekt für bis zu 100 Entitäten freigeben (Benutzer, Teams, Gr
 
 ## Berechtigungen für Objekte freigeben
 
-Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben eines Objekts auswählen können. Nicht alle Objekte verfügen über alle diese Einstellungen. Sie können einer anderen Entität Berechtigungen zum Anzeigen oder Verwalten eines Objekts erteilen. Wenn Sie ein Projekt, eine Aufgabe oder ein Problem freigeben, können Sie auch Berechtigungen erteilen, damit Sie dazu beitragen können.
+Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben eines Objekts auswählen können. Nicht alle Objekte verfügen über alle diese Einstellungen. Sie können einer anderen Entität Berechtigungen zum Anzeigen oder Verwalten eines Objekts erteilen. Wenn Sie ein Projekt, eine Aufgabe oder ein Problem freigeben, können Sie Contribute auch Berechtigungen erteilen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,13 +129,13 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
    <td role="rowheader"><strong>Verwalten</strong></td> 
    <td> <p>Sie können die folgenden Aktionen für das Objekt ausführen:</p> 
     <ul> 
-     <li>Alle Aktionen, die in den Berechtigungen "Anzeigen"und "Beiträge"enthalten sind</li> 
+     <li>Alle Aktionen, die mit den Berechtigungen "Ansicht"und "Contribute"enthalten sind</li> 
      <li>Löschen</li> 
      <li>Finanzinformationen verwalten</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Veröffentlichen Sie dies für externe Benutzer</strong></td> 
+   <td role="rowheader"><strong>Für externe Benutzende öffentlich machen</strong></td> 
    <td> <p>Jeder ohne Workfront-Konto kann das Objekt anzeigen, indem er auf einen Link zu ihm klickt. Dies ist nicht für alle Objekte verfügbar.</p> </td> 
   </tr> 
   <tr> 
@@ -151,15 +151,15 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
 
 Berechtigungen in Workfront werden hierarchisch übernommen. Wenn Sie einem Benutzer Berechtigungen für ein übergeordnetes Objekt erteilen, erhalten diese standardmäßig dieselben Berechtigungen für die ihm zugeordneten untergeordneten Objekte.
 
-Wenn Sie beispielsweise einem Benutzer Berechtigungen zum Beitragen für ein Projekt erteilen, hat der Benutzer Beitragsberechtigungen für alle Aufgaben und Probleme (untergeordnete Objekte), die mit diesem Projekt verbunden sind.
+Wenn Sie beispielsweise einem Benutzer Contribute-Berechtigungen für ein Projekt erteilen, hat der Benutzer Contribute-Berechtigungen für alle mit diesem Projekt verbundenen Aufgaben und Probleme (untergeordnete Objekte).
 
-Um mit dem obigen Beispiel fortzufahren, können Sie die Berechtigungen nicht auf untergeordnete Objekte beschränken. Wenn Sie nicht möchten, dass der Benutzer über Beitragsberechtigungen für dem Projekt zugeordnete untergeordnete Objekte verfügt, müssen Sie die geerbten Berechtigungen manuell aus den Objekten entfernen und dann die Berechtigungen für den einzelnen Benutzer anpassen, einschließlich aller erweiterten Einstellungen. 
+Um mit dem obigen Beispiel fortzufahren, können Sie die Berechtigungen nicht auf untergeordnete Objekte beschränken. Wenn Sie nicht möchten, dass der Benutzer über Contribute-Berechtigungen für untergeordnete Objekte verfügt, die dem Projekt zugeordnet sind, müssen Sie die geerbten Berechtigungen manuell aus den Objekten entfernen und dann die Berechtigungen für den jeweiligen Benutzer, einschließlich erweiterter Einstellungen, anpassen. 
 
-Weitere Informationen zur Hierarchie und Interdependenz von Objekten in Workfront finden Sie im Abschnitt . [Abhängigkeit und Hierarchie von Objekten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) im Artikel [Übersicht über Adobe Workfront-Objekte](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zur Hierarchie und Interdependenz von Objekten in Workfront finden Sie im Abschnitt [Interdependenz und Hierarchie von Objekten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) im Artikel [Übersicht über Adobe Workfront-Objekte](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
->Ihr Workfront-Administrator kann geerbte Berechtigungen für Dokumente in Ihrer Zugriffsebene deaktivieren. Weitere Informationen zum Deaktivieren von geerbten Berechtigungen für Dokumente auf Zugriffsebene finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Ihr Workfront-Administrator kann geerbte Berechtigungen für Dokumente in Ihrer Zugriffsebene deaktivieren. Weitere Informationen zum Deaktivieren von geerbten Berechtigungen für Dokumente auf Zugriffsebene finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ### Durch Mitgliedschaften in Unternehmen erworbene Berechtigungen  {#permissions-acquired-through-organizational-memberships}
 
@@ -221,11 +221,11 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 ## Objekt freigeben
 
-Informationen zum Freigeben von Objekten finden Sie unter [Objekt freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+Informationen zum Freigeben von Objekten finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 ## Berechtigungen aus Objekten entfernen
 
-Informationen zum Entfernen von Berechtigungen von Objekten finden Sie unter [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+Informationen zum Entfernen von Berechtigungen aus Objekten finden Sie unter [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Anfordern von Berechtigungen für Objekte
 
@@ -233,4 +233,4 @@ Wenn Ihnen ein Benutzer einen Link zu einem Objekt sendet, für das Sie keine Be
 
 Sie können den Zugriff auf ein Objekt von allen Personen anfordern, die über die Berechtigung &quot;Freigeben&quot;für das Objekt verfügen. 
 
-Weitere Informationen zum Anfordern von Berechtigungen für Objekte finden Sie unter [Zugriff auf Objekte anfordern](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+Weitere Informationen zum Anfordern von Berechtigungen für Objekte finden Sie unter [Anfordern des Zugriffs auf Objekte](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).

@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
-Sie können den Fortschritt Ihrer automatisierten Workflow-Testsendungen bequem im Abschnitt Workflow der [!UICONTROL Testversanddetails] Seite. Sie können die auf jeder Bühne geleistete Arbeit ansehen und die Bühnen Ihres Testversands ändern, hinzufügen, starten und sperren.
+Sie können den Fortschritt Ihrer automatisierten Workflow-Tests bequem im Abschnitt &quot;Workflow&quot;der Seite [!UICONTROL Testversand-Details] verfolgen. Sie können die auf jeder Bühne geleistete Arbeit ansehen und die Bühnen Ihres Testversands ändern, hinzufügen, starten und sperren.
 
 ## Anzeigen eines automatisierten Workflows
 
@@ -66,40 +66,40 @@ So zeigen Sie alle Phasen Ihres automatisierten Workflows detailliert an:
 
 ## Verwenden des Diagramms &quot;Automatisierter Workflow&quot;
 
-Das Diagramm Ihres automatisierten [!UICONTROL Workflow] wird oben im Abschnitt Workflow angezeigt.
+Das Diagramm Ihres automatisierten [!UICONTROL Workflows] wird oben im Abschnitt &quot;Workflow&quot;angezeigt.
 
 So blenden Sie das Diagramm aus
 
-1. Klicken Sie auf **[!UICONTROL Ausblenden]** Schaltfläche (1).
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Ausblenden]** (1).
 
 ![Diagramm__1_.png](assets/diagram--1--350x217.png)
 
 Die Phasen im Diagramm sind wie folgt gekennzeichnet:
 
-![dot.png](assets/dot.png)- eine aktive Phase
+![dot.png](assets/dot.png) - eine aktive Bühne
 
-![gray_dot.png](assets/grey-dot.png)- inaktive Phase\
+![gray_dot.png](assets/grey-dot.png) - eine inaktive Bühne\
 ![sbw-key-icon.png](assets/sbw-key-icon.png)  - private Bühne
 
 ![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)  - eine gesperrte Phase
 
 Die Linien zwischen den Bühnen zeigen die Abhängigkeiten zwischen den Bühnen an. Die Linien, die zu inaktiven Bühnen führen, werden gepunktet, bis die Bühne aktiviert ist.
 
-Wenn Sie den Mauszeiger über eine Phase im Diagramm bewegen, wird der Fortschritt der Phase angezeigt. Wenn die Bühne nicht aktiv ist und Sie Bearbeitungsrechte auf der Bühne haben, können Sie die Bühne mit dem [!UICONTROL Startphase] Schaltfläche. Gleichermaßen wird die Option zum Sperren einer aktiven Phase angezeigt.
+Wenn Sie den Mauszeiger über eine Phase im Diagramm bewegen, wird der Fortschritt der Phase angezeigt. Wenn die Bühne nicht aktiv ist und Sie Bearbeitungsrechte für die Bühne haben, können Sie die Bühne mit der Schaltfläche [!UICONTROL Start der Phase] vom Popup aus starten. Gleichermaßen wird die Option zum Sperren einer aktiven Phase angezeigt.
 
-Weitere Informationen zur Fortschrittsleiste finden Sie unter  [Anzeigen von Fortschritt und Status eines Testversands in [!DNL Workfront] Testversand](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+Weitere Informationen zur Fortschrittsleiste finden Sie unter  [Anzeigen des Fortschritts und Status eines Testversands in [!DNL Workfront] Testversand](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ![Diagramm_-_stage_summary.png](assets/diagram---stage-summary-350x214.png)
 
 ## Neue Phase hinzufügen
 
-Sie können Ihrem automatisierten Workflow eine neue Phase hinzufügen, indem Sie [!UICONTROL Testversanddetails] Seite.
+Sie können Ihrem automatisierten Workflow über die Seite [!UICONTROL Testversand-Details] eine neue Phase hinzufügen.
 
-1. Klicken Sie auf **[!UICONTROL Neue Phase]** Schaltfläche (1).
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue Phase]** (1).
 
 ![Hinzufügen_a_new_stage_1.png](assets/adding-a-new-stage-1-350x218.png)
 
-Im **Neue Phase** angezeigt wird, können Sie die Details und Einstellungen der Bühne ausfüllen.
+Im angezeigten Feld **Neue Bühne** können Sie die Details und Einstellungen der Bühne ausfüllen.
 
 ![Hinzufügen_a_new_stage_2.png](assets/adding-a-new-stage-2-350x332.png)
 
@@ -108,20 +108,20 @@ Im **Neue Phase** angezeigt wird, können Sie die Details und Einstellungen der 
 Auf den Seitendetails können Sie die Einstellungen für jede Phase ändern (wenn Sie über Bearbeitungsrechte verfügen):
 
 * Ändern, Hinzufügen oder Entfernen des Termins für die Phase (1)
-* Bühne sperren (2) - diese Option wird angezeigt, wenn die Bühne aktiv ist. Für inaktive Bühnen sehen Sie die Option Start der Phase .
+* Bühne sperren (2) - diese Option wird angezeigt, wenn die Bühne aktiv ist. Für inaktive Phasen wird die Option Starten der Bühne angezeigt.
 * Einstellungen durch Inline-Bearbeitung ändern (3)
-* Nur eine Entscheidung aktivieren oder deaktivieren, die für die Bühne erforderlich ist (4)
+* Nur eine Entscheidung für die Bühne aktivieren oder deaktivieren (4)
 * Ändern der Privatsphäre der Bühne (5)
 
 ![Managing_stage_settings.png](assets/managing-stage-settings-350x93.png)
 
 Sie können die Prüfer auch zwischen Phasen verschieben, indem Sie sie einfach von einer Phase in eine andere ziehen und dort ablegen. Die verfügbaren Etappen werden blau hervorgehoben, wobei die Ablageflächen für jede Phase deutlich markiert sind.
 
-![Moving_reviewers_between_stage.png](assets/moving-reviewers-between-stages-350x254.png)
+![ Moving_reviewers_between_stage.png](assets/moving-reviewers-between-stages-350x254.png)
 
 ## Staging-Optionen
 
-Die [!UICONTROL Aktionen] -Menü (1) für jede Phase die folgenden Optionen aufweist:
+Das Menü [!UICONTROL Aktionen] (1) für jede Phase verfügt über die folgenden Optionen:
 
 * Alle Nachricht senden (2) - Sie können eine Erinnerungsmail an alle validierungsverantwortlichen Benutzer in der Phase senden
 * Freigeben (3) - Sie können der Bühne neue Prüfer hinzufügen

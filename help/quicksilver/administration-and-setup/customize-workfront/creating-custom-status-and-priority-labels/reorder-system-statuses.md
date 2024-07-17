@@ -29,10 +29,9 @@ Als Workfront-Administrator können Sie die Reihenfolge der Projekte, Aufgaben u
 >
 >  Die Status in einer neu erstellten Gruppe der obersten Ebene übernehmen jedoch die Reihenfolge der Systemstatus. (Eine neue Untergruppe übernimmt die Reihenfolge der Status in der Gruppe um eine Ebene.)
 >
->* Sie können gesperrte Status neu anordnen. Informationen zu gesperrten Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>* Sie können gesperrte Status neu anordnen. Weitere Informationen zu gesperrten Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 >* Gruppenadministratoren können auch die in ihren Gruppen verwendeten Status neu anordnen. Weitere Informationen finden Sie unter [Neuanordnen von Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md).
 >
-
 
 ## Zugriffsanforderungen
 
@@ -44,20 +43,20 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan* </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Workfront-Administrator sein. Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Standardreihenfolge der Status
 
-Standardmäßig werden Status in der folgenden Reihenfolge angezeigt:
+Standardmäßig werden die Status in der folgenden Reihenfolge angezeigt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +66,7 @@ Standardmäßig werden Status in der folgenden Reihenfolge angezeigt:
   <tr> 
    <th width="33.33%">Projekt</th> 
    <th width="33.33%">Aufgabe</th> 
-   <th width="33.33%">Anfrage</th> 
+   <th width="33.33%">Problem</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -109,14 +108,14 @@ Standardmäßig werden Status in der folgenden Reihenfolge angezeigt:
 
 ## Neuanordnen des Status für Aufgaben und Projekte systemweit oder für eine Gruppe
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Projekteinstellungen > Status**.
 1. (Bedingt) Wenn Sie den Status einer Gruppe neu anordnen, geben Sie den Namen der Gruppe in das Feld oben rechts ein und klicken Sie dann auf den Namen, sobald er angezeigt wird.
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Klicken Sie über der Liste Status , die angezeigt wird, auf die **Projekte** oder **Aufgaben** Registerkarte.
+1. Klicken Sie über der angezeigten Liste Status auf die Registerkarte **Projekte** oder **Aufgaben** .
 
 1. Ziehen Sie die Status in die gewünschte Reihenfolge.
 
@@ -126,21 +125,20 @@ Standardmäßig werden Status in der folgenden Reihenfolge angezeigt:
 
 ## Status für Probleme neu anordnen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken **Projektvoreinstellungen > Status.**
+1. Klicken Sie auf **Projekteinstellungen > Status.**
 1. (Bedingt) Wenn Sie den Status einer Gruppe neu anordnen, geben Sie den Namen der Gruppe in das Feld oben rechts ein und klicken Sie dann auf den Namen, sobald er angezeigt wird.
 
    ![](assets/issue-statuses-group-name.png)
 
-1. Klicken Sie auf **Probleme** Registerkarte.
-1. (Optional) Wählen Sie einen Problemtyp (**Fehlerbericht**, **Reihenfolge ändern**, **Problem** oder **Anfrage**).
+1. Klicken Sie auf die Registerkarte **Probleme**.
+1. (Optional) Wählen Sie einen Problemtyp aus (**Fehlerbericht**, **Reihenfolge ändern**, **Problem** oder **Anfrage**).
 
    >[!NOTE]
    >
-   >* Sie können die Reihenfolge der Status für die Übergeordnete Liste nicht anpassen.
+   >* Sie können die Reihenfolge der Status für die Master-Liste nicht anpassen.
    >* Es wird empfohlen, die Reihenfolge der Status für jeden Ausgabetyp auf die gleiche Weise festzulegen. Weitere Informationen zu Problemtypen finden Sie unter [Anfragetypen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
-
 
 1. Ziehen Sie die Status in die gewünschte Reihenfolge.
 

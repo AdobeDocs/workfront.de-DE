@@ -25,7 +25,7 @@ Wenn Sie an einem benutzerdefinierten Formular arbeiten, können Sie ein neues b
 
 Sie können auch ein benutzerdefiniertes Feld hinzufügen, das bereits einem anderen benutzerdefinierten Formular hinzugefügt wurde. Anweisungen finden Sie unter [Wiederverwenden eines benutzerdefinierten Felds oder Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
-Informationen zum Hinzufügen eines Asset-Widgets zu einem benutzerdefinierten Formular, bei dem es sich um einen Prozess handelt, der dem Hinzufügen eines benutzerdefinierten Felds ähnelt, finden Sie unter [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Weitere Informationen zum Hinzufügen eines Asset-Widgets zu einem benutzerdefinierten Formular, bei dem es sich um einen Prozess handelt, der dem Hinzufügen eines benutzerdefinierten Felds ähnelt, finden Sie unter [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 >[!NOTE]
 >
@@ -59,18 +59,18 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen {#add-custom-field-to-custom-form}
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Wählen Sie die **Feld hinzufügen** Registerkarte.
+1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie in [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) beschrieben.
+1. Wählen Sie die Registerkarte **Feld hinzufügen** aus.
 
-   ![Registerkarte &quot;Feld&quot;hinzufügen](assets/add-a-field.jpg)
+   ![Registerkarte &quot;Feld hinzufügen&quot;](assets/add-a-field.jpg)
 
-1. Mit **Neues Feld** ![Symbol &quot;Neues Feld&quot;](assets/new-field.jpg) einen der folgenden Feldtypen auswählen:
+1. Wählen Sie bei ausgewähltem Symbol **Neues Feld** ![Neues Feld](assets/new-field.jpg) einen der folgenden Feldtypen aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,7 +88,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Textfeld mit Formatierung</td> 
-      <td>Ermöglicht Benutzern die Eingabe mehrerer Textzeilen in das Feld und die Formatierung des Texts mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Dies ist für Workfront-Objekte auf der Startseite, im Bereich "Updates", in Listen und im Bereich "Details"verfügbar. Eine Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.</p> <p>Dieser benutzerdefinierte Feldtyp wird in Filtern für Listen und Berichte nicht unterstützt.</p> <p>Informationen zum Zugriff auf dieses Feld über die API finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich-Text-Feldspeicherung in der API</a>.</p> <p><b>NOTE</b>: Textfelder mit Formatierung sind nicht für mobile Workfront-Apps verfügbar. </p> </td> 
+      <td>Ermöglicht Benutzern die Eingabe mehrerer Textzeilen in das Feld und die Formatierung des Texts mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Dies ist für Workfront-Objekte auf der Startseite, im Bereich "Updates", in Listen und im Bereich "Details"verfügbar. Eine Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.</p> <p>Dieser benutzerdefinierte Feldtyp wird in Filtern für Listen und Berichte nicht unterstützt.</p> <p>Informationen zum Zugriff auf dieses Feld über die API finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Speicherung von Rich-Text-Feldern in der API</a>.</p> <p><b>HINWEIS</b>: Textfelder mit Formatierung sind nicht für mobile Workfront-Apps verfügbar. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dropdown</td> 
@@ -112,7 +112,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Berechnet</td> 
-      <td>Ermöglicht die Definition eines Ausdrucks und die Anzeige des Ergebnisses im benutzerdefinierten Formular. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular</a>.</td> 
+      <td>Ermöglicht die Definition eines Ausdrucks und die Anzeige des Ergebnisses im benutzerdefinierten Formular. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Datum</td> 
@@ -132,7 +132,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Abschnittsumbruch</td> 
-      <td>Eine Abschnittspause ist eigentlich kein Feld. Sie können einen Abschnittsumbruch verwenden, um Ihre benutzerdefinierten Felder und Widgets in Abschnitte zu organisieren und bei Bedarf für jeden Abschnitt verschiedene Anzeige- und Bearbeitungsberechtigungen zu konfigurieren. Informationen zum Hinzufügen und Konfigurieren von Abschnittspausen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular</a>.</td> 
+      <td>Eine Abschnittspause ist eigentlich kein Feld. Sie können einen Abschnittsumbruch verwenden, um Ihre benutzerdefinierten Felder und Widgets in Abschnitte zu organisieren und bei Bedarf für jeden Abschnitt verschiedene Anzeige- und Bearbeitungsberechtigungen zu konfigurieren. Weitere Informationen zum Hinzufügen und Konfigurieren von Abschnittsumbrüchen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular</a>.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -141,7 +141,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Felder, die mehrere Auswahlmöglichkeiten zulassen, wie das Kontrollkästchen und das Dropdown-Menü, sind in Berichten schwer zu grafisch und gruppieren. Um eine einfachere Diagrammerstellung und Gruppierung in Berichten zu ermöglichen, können Sie für jede Auswahl separate Felder erstellen (z. B. ein einzeiliges Textfeld).
 
-1. Im **Feldeinstellungen** konfigurieren Sie die verfügbaren Optionen für den Typ des benutzerdefinierten Felds, das Sie hinzufügen:
+1. Konfigurieren Sie auf der Registerkarte **Feldeinstellungen** die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -161,7 +161,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <li>Obwohl dies möglich ist, sollten Sie diesen Namen nicht ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Wenn dies der Fall ist, erkennt das System das benutzerdefinierte Feld nicht mehr, in dem es jetzt in anderen Bereichen von Workfront referenziert werden kann. <p>Wenn Sie beispielsweise das benutzerdefinierte Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es nicht im Bericht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter Verwendung des neuen Namens erneut hinzu.</p> </li>
       <li> <p>Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wurde.</p> </li>
       <li><p>Es wird empfohlen, das Punkt-/Punkt-Zeichen nicht im benutzerdefinierten Feldnamen zu verwenden, um Fehler bei der Verwendung des Felds in verschiedenen Bereichen von Workfront zu vermeiden.</p></li>
-      </ul> <p>Jeder benutzerdefinierte Feldname muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. Weitere Informationen finden Sie unter <a href="#add-a-custom-field-to-a-custom-form">Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen</a> in diesem Artikel.</p> </td>
+      </ul> <p>Jeder benutzerdefinierte Feldname muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden. Weitere Informationen finden Sie unter <a href="#add-a-custom-field-to-a-custom-form">Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular</a> in diesem Artikel.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Anleitung</td> 
@@ -173,7 +173,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td role="rowheader">Format</td> 
       <td> <p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll. Sie können die Formatauswahl nach dem Speichern des Formulars ändern. Das neue Format muss jedoch den eingegebenen Wert unterstützen.</p>
 
-   <p><strong>Beispiel:</strong> Wenn Sie einen numerischen Wert für ein Feld im Textformat für mindestens ein Objekt speichern und das Format später in Zahl oder Währung ändern, tritt kein Fehler auf. </p>
+   <p><strong>Beispiel:</strong> Wenn Sie einen numerischen Wert für ein Feld mit Textformat für mindestens ein Objekt speichern und das Format später in Zahl oder Währung ändern, tritt kein Fehler auf. </p>
       <p>Wenn Sie jedoch einen alphanumerischen Wert in einem Feld mit dem Textformat für mindestens ein Objekt speichern und dann versuchen, das Format in Zahl oder Währung zu ändern, wird ein Fehler ausgegeben, da der gespeicherte alphanumerische Wert nicht mit den Formaten Zahl oder Währung kompatibel ist. </p>
 
    <p><strong>Hinweis:</strong> Die Zeichenbeschränkung für Zahlenfelder beträgt 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und die Begrenzung zu vermeiden.</p>
@@ -207,7 +207,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
         <li>Sie gehören zu einer oder mehreren Gruppen, die Sie angeben</li> 
         <li>Sie sind mit einer von Ihnen angegebenen Rolle oder Berufsbezeichnung verknüpft.</li> 
         <li>Sie gehören zur gleichen Gruppe wie die Person, die das Feld verwendet</li> 
-       </ul> <p>Sie müssen den Filter für den ausgewählten Objekttyp mithilfe der Textmodus-Syntax definieren. Informationen zum Erstellen eines Filters mit dem Textmodus finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Filter im Textmodus bearbeiten</a>.</p>
+       </ul> <p>Sie müssen den Filter für den ausgewählten Objekttyp mithilfe der Textmodus-Syntax definieren. Informationen zum Erstellen eines Filters mit dem Textmodus finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Bearbeiten eines Filters mit dem Textmodus</a>.</p>
        <p><b>NOTE</b>:   
         <ul> 
          <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden durch Hinzufügen eines Filters zu einem Feld vom TypAhead keine Objekte (außerhalb des Filterbereichs) entfernt, die Benutzer bereits über das Feld hinzugefügt haben.</li> 
@@ -229,7 +229,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      <tr> 
       <td role="rowheader">Feldänderungen in Aktualisierungs-Feeds nachverfolgen</td> 
       <td><p>Klicken Sie auf die Dropdown-Liste und wählen Sie dann die Objekttypen aus, bei denen die Werteänderungen des Felds automatisch verfolgt werden sollen.</p> 
-      <p><b>NOTE</b>: Diese Option ist für Folgendes nicht verfügbar:</p> 
+      <p><b>HINWEIS</b>: Diese Option ist für Folgendes nicht verfügbar:</p> 
       <ul> 
       <li>Benutzerdefinierte Formulare, die den folgenden Objekttypen zugeordnet sind: Ausgaben, Firma, Iteration, Rechnungsdatensatz, Dokument und Gruppe.</li> 
       <li>Die folgenden Feldtypen: Berechneter, beschreibender Text und Abschnittsumbruch</li> 
@@ -237,25 +237,25 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <p><b>WICHTIG</b>: Die Auswahl oder Deaktivierung eines Objekttyps wirkt sich auf alle benutzerdefinierten Formulare aus, die mit dem ausgewählten Objekttyp verknüpft sind und dieses Feld enthalten. Wenn Sie beispielsweise die Auswahl eines Objekttyps hier aufheben und das benutzerdefinierte Formular speichern, werden die Werteänderungen des Felds für diesen Objekttyp in keinem benutzerdefinierten Formular mehr verfolgt, das das Feld enthält.</p>
        <p>Nachdem Sie hier einen Objekttyp für ein Feld ausgewählt und das benutzerdefinierte Formular gespeichert haben, wird das Feld auf der Registerkarte "Benutzerdefinierte Felder"im Bereich "Feeds aktualisieren"unter "Einrichtung"angezeigt.</p> 
        <p>Wenn dieses Feld dagegen im Bereich "Feeds aktualisieren"unter "Einrichtung"gelöscht wird, wird der Objekttyp für diese Einstellung für alle benutzerdefinierten Formulare deaktiviert, die mit dem Objekttyp verknüpft sind und dieses Feld enthalten.</p> 
-       <p>Weitere Informationen finden Sie im Abschnitt . <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Fügen Sie die Felder hinzu, die von Workfront verfolgt werden sollen</a> im Artikel <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Systemaktualisierungen konfigurieren</a>.</p> </td> 
+       <p>Weitere Informationen finden Sie im Abschnitt <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Felder hinzufügen, die Workfront verfolgen soll</a> im Artikel <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Systemaktualisierungen konfigurieren</a> .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Logik hinzufügen</td>
-      <td>Geben Sie an, welche Felder im Formular angezeigt werden sollen, basierend auf den Auswahlen, die Benutzer in vorhandenen Feldern treffen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Anzeigenlogik hinzufügen und Logik zu einem benutzerdefinierten Formular überspringen</a>.</td> 
+      <td>Geben Sie an, welche Felder im Formular angezeigt werden sollen, basierend auf den Auswahlen, die Benutzer in vorhandenen Feldern treffen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Hinzufügen der Anzeigelogik und Überspringen der Logik in ein benutzerdefiniertes Formular</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Auswahl </td> 
       <td> <p>(Nur Dropdown-, Kontrollkästchen- oder Optionsfelder; optional)</p> 
        <ol> 
-        <li> <p>Klicks <b>Optionen</b>, aktivieren Sie dann einen der folgenden Schritte:</p> 
+        <li> <p>Klicken Sie auf <b>Optionen</b> und aktivieren Sie dann eine der folgenden Optionen:</p> 
            <ul> 
             <li><strong>Werte anzeigen</strong>: Zeigt die Werte jeder Auswahl im Feld an. Der Titel jeder Auswahl wird standardmäßig angezeigt.</li> 
-            <li><strong>Sortierungsoptionen A-Z</strong>: Sortiert die Auswahlmöglichkeiten, die Sie im Feld alphabetisch hinzufügen.</li> 
+            <li><strong>Sortieroptionen A-Z</strong>: Sortiert die Auswahlmöglichkeiten, die Sie dem Feld alphabetisch hinzufügen.</li> 
            </ul> 
         </li> 
-        <li> <p>Klicken Sie für jede Auswahlmöglichkeit, die Sie für den Benutzer hinzufügen, auf das Zahnradsymbol <img src="assets/gear-icon-settings.png">und wählen Sie dann eine der folgenden Optionen aus:</p> 
+        <li> <p>Klicken Sie für jede Auswahlmöglichkeit, die Sie für den Benutzer hinzufügen, auf das Zahnradsymbol <img src="assets/gear-icon-settings.png"> und wählen Sie dann eine der folgenden Optionen aus:</p> 
            <ul> 
-            <li><strong>Standardmäßig auswählen</strong>: Wählen Sie im Feld standardmäßig die gewünschte Option aus.</li> 
+            <li><strong>Standardmäßig auswählen</strong>: Wählen Sie im Feld standardmäßig die Auswahl aus.</li> 
             <li> <p><strong>Auswahl ausblenden</strong>: Blendet die Auswahl im Feld aus. Ausgeblendete Optionen stehen in Berichten weiterhin zur Verfügung.</p> </li> 
             <li> <p><strong>Auswahl entfernen</strong>: Entfernt die Auswahl aus dem Feld.</p> <p><b>WARNUNG</b>: Wenn Sie aktuelle Objekte haben, die diese Auswahl verwenden, entfernen Sie sie nicht aus dem Feld. Wenn Sie sie entfernen, gehen historische Daten verloren. Wählen Sie stattdessen die Option aus, um sie auszublenden. Dies verhindert, dass Benutzer sie in Zukunft auswählen.</p> </li> 
            </ul> 
@@ -265,12 +265,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     </tbody> 
    </table>
 
-1. (Bedingt) Wenn Sie den Anzeigetyp eines Felds im benutzerdefinierten Formular ändern möchten, klicken Sie auf die Schaltfläche **Anzeigetyp** und klicken Sie auf den gewünschten Typ.
+1. (Bedingt) Um den Anzeigetyp eines Felds im benutzerdefinierten Formular zu ändern, klicken Sie auf das Dropdown-Menü **Anzeigetyp** und dann auf den gewünschten Typ.
 
    Sie können zwischen den folgenden Feldanzeigetypen wechseln:
 
-   * **Felder vom Typ Auswahl**: Kontrollkästchen, Dropdown, Optionsfelder.
-   * **Textfelder**: Einzeiliges Textfeld, Absatztextfeld. (Sie können ein Textfeld mit Formatierung nicht in einen anderen Anzeigetyp wechseln. Sie können sie jedoch entfernen und einen anderen Feldtyp hinzufügen.)
+   * **Auswahlfelder**: Kontrollkästchen, Dropdown, Optionsfelder.
+   * **Textfelder**: Einzelzeilentext, Absatztext-Feld. (Sie können ein Textfeld mit Formatierung nicht in einen anderen Anzeigetyp wechseln. Sie können sie jedoch entfernen und einen anderen Feldtyp hinzufügen.)
 
    Wenn Sie beispielsweise ein Kontrollkästchen-Feld erstellt haben, können Sie es in ein Dropdown-Feld oder ein Optionsfeld ändern. Wenn Sie ein einzeiliges Textfeld erstellt haben, können Sie es in ein Absatztext -Feld ändern.
 
@@ -285,19 +285,19 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Oder
 
-   Fügen Sie bereits für Ihre Organisation erstellte Felder hinzu, wie hier beschrieben: [Wiederverwenden eines benutzerdefinierten Felds oder Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   Fügen Sie Felder hinzu, die bereits für Ihre Organisation erstellt wurden, wie unter [Benutzerdefiniertes Feld oder Widget in einem benutzerdefinierten Formular wiederverwenden](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md) beschrieben.
 
    >[!NOTE]
    >
    >Sie können bis zu 500 Felder und Widgets in einem einzelnen benutzerdefinierten Formular hinzufügen. Je nach Komplexität eines Formulars kann die Leistung jedoch beeinträchtigt werden, wenn mehr als 100 Formulare vorhanden sind. Beispiele für komplexe Formulare sind Formulare mit kaskadierenden Parametern, berechnete benutzerdefinierte Datenfelder und Optionen mit mehreren Werten in einem einzelnen Feld.
 
-1. Klicks **Anwenden**.
+1. Klicken Sie auf **Anwenden**.
 1. Wenn Sie Ihr benutzerdefiniertes Formular auf andere Weise weiter erstellen möchten, führen Sie einen der folgenden Artikel aus:
 
-   * [Positionieren von benutzerdefinierten Feldern und Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Positionieren Sie benutzerdefinierte Felder und Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Einen Abschnittsumbruch zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
    * [Vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular wiederverwenden](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Anzeigenlogik hinzufügen und Logik zu einem benutzerdefinierten Formular überspringen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Anzeigerlogik hinzufügen und Logik in ein benutzerdefiniertes Formular überspringen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Benutzerdefiniertes Formular in der Vorschau anzeigen und ausfüllen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

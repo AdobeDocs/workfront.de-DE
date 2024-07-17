@@ -31,7 +31,7 @@ ht-degree: 0%
 
 In diesem Artikel werden die Funktionen aufgelistet, die nach dem Start des Adobe Workfront-Planungsprogramms am 22. Mai 2023 für das Jahr 2023 veröffentlicht wurden.
 
-Informationen zu den 2024 veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planung der aktuellen Release-Aktivität](/help/quicksilver/planning/general/release-activity.md).
+Informationen zu den 2024 veröffentlichten Funktionen finden Sie unter [Planen der aktuellen Adobe Workfront-Versionsaktivität](/help/quicksilver/planning/general/release-activity.md).
 
 Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am Workfront-Planungsprogramm teilnehmen, können auf alle Funktionen in ihren Produktionsumgebungen zugreifen.
 
@@ -79,7 +79,7 @@ Produktion: 21. Dezember 2023
 >
 >Ihr Unternehmen muss Adobe Workfront Fusion erwerben, um Verbindungen mit Adobe Workfront-Planungsfunktionen aufbauen zu können.
 >
->Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Weitere Informationen finden Sie unter [Adobe Workfront Fusion - Übersicht](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu den Planungsfunktionen herzustellen. Mit der neuen Fusion-Verbindung können Sie:
 
@@ -125,7 +125,7 @@ Beachten Sie bei dieser Verbesserung Folgendes:
 
 * Alle Tabellenansichten eines Datensatztyps haben dasselbe Primärfeld, das Sie auswählen.
 
-Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ### Verbinden von Datensätzen in Planungsfunktionen mit Adobe Experience Manager Assets
 
@@ -137,7 +137,7 @@ Produktionsversion: 21. Dezember 2023
 >
 >Die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, damit Adobe Workfront Planning-Leistungsdatensätze mit Adobe Experience Manager Assets verbunden werden können.
 >
->Wenn Sie Fragen zum Einstieg in die Adobe Admin Console haben, lesen Sie den Abschnitt [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Wenn Sie Fragen zum Einstieg in Adobe Admin Console haben, lesen Sie die [FAQ zum einheitlichen Erlebnis für Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Sie können jetzt eine Verbindung zwischen den Datensatztypen der Adobe Workfront-Planungsfunktionen und Adobe Experience Manager Assets herstellen.
 
@@ -153,7 +153,7 @@ Nachdem Sie die Verbindung hergestellt haben, ist mit diesem Update die folgende
 
 * Sie können im Feld &quot;Verbundener Datensatz&quot;in der Tabellenansicht des Planungsfunktionsdatensatzes auf den Asset-Namen klicken und ein Popup-Fenster mit der Asset-Miniaturansicht und mehreren Schlüsselfeldern anzeigen. Im Popup-Fenster können Sie in Experience Manager zum Asset-Viewer navigieren und alle Details dazu anzeigen.
 
-Weitere Informationen finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Woche vom 4. Dezember 2023
 
@@ -176,7 +176,7 @@ Beachten Sie Folgendes:
 
 Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
-Informationen zu verknüpften Feldern finden Sie unter [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md).
+Weitere Informationen zu verknüpften Feldern finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Woche vom 27. November 2023
 
@@ -208,9 +208,9 @@ Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilve
 
 Vorschau und Produktion: 7. November 2023
 
-Sie können Datensätze nun in der Tabellenansicht einer Seite vom Typ Datensatz gruppieren. Sie können in der Planungsfunktion drei eindeutige Felder gruppieren<!--checking into this for now: and by four fields when using the API-->.
+Sie können Datensätze nun in der Tabellenansicht einer Seite vom Typ Datensatz gruppieren. Sie können in der Planungsfunktionsoberfläche<!--checking into this for now: and by four fields when using the API--> nach drei eindeutigen Feldern gruppieren.
 
-Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Woche vom 30. Oktober 2023
 
@@ -309,7 +309,7 @@ Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/qu
 
 Vorschau und Produktion: 9. Oktober 2023
 
-Sie können jetzt nach einem Suchbegriff suchen, um schnell einen Datensatz in der Tabellenansicht zu finden. Sie können Suchbegriffe und Sonderzeichen aus allen auf dem Bildschirm sichtbaren Feldern verwenden, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+Sie können jetzt nach einem Suchbegriff suchen, um schnell einen Datensatz in der Tabellenansicht zu finden. Sie können Suchbegriffe und Sonderzeichen aus allen auf dem Bildschirm sichtbaren Feldern verwenden, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Woche vom 18. September 2023
 
@@ -317,7 +317,7 @@ Sie können jetzt nach einem Suchbegriff suchen, um schnell einen Datensatz in d
 
 Vorschau und Produktion: 20. September 2023
 
-Sie können jetzt eine oder mehrere Zeilen (oder Datensätze) in der Tabellenansicht einer Datensatztypseite neu anordnen. Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+Sie können jetzt eine oder mehrere Zeilen (oder Datensätze) in der Tabellenansicht einer Datensatztypseite neu anordnen. Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Woche vom 4. September 2023
 
@@ -358,7 +358,7 @@ Um die richtigen Informationen zu einem bestimmten Datensatz anzuzeigen, insbeso
 
 Sie können einzelne Felder in jeder Kopfzeile der Feldspalten ein- oder ausblenden oder Sie können alle Felder des Datensatztyps über eine Einstellung in der Symbolleiste der Tabellenansicht verwalten.
 
-Weitere Informationen finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md).
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Woche vom 21. August 2023
 

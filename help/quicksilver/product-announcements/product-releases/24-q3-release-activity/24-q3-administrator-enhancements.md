@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit der Version vom 3. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Versionsübersicht des dritten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Geschäftsregeln sind jetzt verfügbar
 
@@ -46,7 +46,7 @@ Mit Version 24.7 ist der Formularentwickler allgemein verfügbar und wird zum St
 
 Nach dieser Version haben Sie nicht mehr die Möglichkeit, zum alten Formular-Builder zurückzukehren.
 
-Weitere Informationen zum Formularentwickler und eine Videodemonstration finden Sie in der [Beta-Version von Formularentwickler](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+Weitere Informationen zum Formularentwickler und eine Videodemonstration finden Sie in der Beta-Version von [Formularentwickler](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Verschieben von Objekten zwischen Workfront-Umgebungen mit Umgebungsförderung
 
@@ -60,7 +60,7 @@ Zuvor mussten Objekte in Produktionsumgebungen separat von Sandbox- oder Vorscha
 
 Weitere Informationen zur Umgebungsförderung finden Sie unter [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungsförderung)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ Weitere Informationen zur Umgebungsförderung finden Sie unter [Übersicht über
 
 Sie können jetzt sowohl benutzerdefinierte Formulare als auch benutzerdefinierte Felder im neuen Formularentwickler freigeben. Dies ermöglicht eine bessere Zusammenarbeit zwischen Benutzern bei benutzerdefinierten Formularen.
 
-Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) und [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
+Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) und [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets für den Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 ## Neues benutzerdefiniertes Feld aus dem Bereich &quot;Felder&quot;hinzufügen
 
@@ -87,7 +87,7 @@ Sie können jetzt ein neues benutzerdefiniertes Feld oder Widget direkt aus dem 
 
 Diese Funktion ist sowohl mit dem benutzerdefinierten Formularentwickler als auch mit dem älteren benutzerdefinierten Formularersteller verfügbar.
 
-Weitere Informationen finden Sie unter [Benutzerdefiniertes Feld, Abschnittsumbruch oder Widget hinzufügen oder bearbeiten](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
+Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten von benutzerdefinierten Feldern, Abschnittspausen oder Widgets](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
 ## Dropdown-Feldtyp mit Mehrfachauswahl, der im Formularentwickler verfügbar ist
 
@@ -101,4 +101,4 @@ Sie können weiterhin ein Dropdown-Feld mit nur einer Auswahl erstellen und den 
 
 Diese Option ist im alten Formular-Builder nicht verfügbar.
 
-Weitere Informationen finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

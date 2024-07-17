@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"Ansicht: persönliche Nutzerzeit'
-description: '"Ansicht: persönliche Nutzerzeit'
+title: "Ansicht: persönliche Zeitdauer des Benutzers"
+description: "Ansicht: persönliche Zeitdauer des Benutzers"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 ---
 
-# Ansicht: persönliche Nutzerzeit
+# Ansicht: persönliche Zeitdauer des Benutzers
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
@@ -32,7 +32,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -47,7 +47,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,10 +56,10 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Persönliche Zeit des Benutzers anzeigen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Berichte > Neuer Bericht**.
+1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Berichte > Neuer Bericht**.
 
-1. Wählen Sie aus dem Dropdown-Menü **Zeitlimit**.
-1. Klicken **Speichern und schließen**.
+1. Wählen Sie aus dem Dropdown-Menü **Ausschaltzeit** aus.
+1. Klicken Sie auf **Speichern + schließen**.
 
    Der Bericht zeigt die folgenden Felder standardmäßig in der Ansicht an:
 
@@ -77,11 +77,11 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    * Filter
    * Diagramm
 
-   Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    >[!TIP]
    >
-   >Es wird empfohlen, eine Gruppierung für das User -Objekt hinzuzufügen, um das Lesen des Berichts zu vereinfachen.
+   >Es wird empfohlen, eine Gruppierung für das User -Objekt hinzuzufügen, damit der Bericht leichter zu lesen ist.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Add Time Off information to a user report</h2>

@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: '"Fehlermeldung auf der [!DNL Adobe Workfront] Mobile App: "Ihr Konto ist nicht für die API aktiviert."'
-description: '"Fehlermeldung auf der [!DNL Adobe Workfront] Mobile App: "Ihr Konto ist nicht für die API aktiviert."'
+title: "Fehlermeldung in der  [!DNL Adobe Workfront] Mobile App: 'Ihr Konto ist nicht für die API aktiviert.'"
+description: "Fehlermeldung in der  [!DNL Adobe Workfront] Mobile App: 'Ihr Konto ist nicht für die API aktiviert.'"
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ---
 
-# Fehlermeldung auf [!DNL Adobe Workfront] Mobile App: &quot;[!UICONTROL Ihr Konto ist nicht für die API aktiviert.]&quot;
+# Fehlermeldung bei der [!DNL Adobe Workfront] Mobile App: &quot;[!UICONTROL Ihr Konto ist nicht für die API aktiviert.]&quot;
 
 ## Zugriffsanforderungen
 
@@ -26,7 +26,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe [!DNL Workfront] Lizenz</strong></td> 
@@ -41,19 +41,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Problem
 
-Beim Versuch, sich bei der [!DNL Adobe Workfront] Mobile App erhalten Sie den folgenden Fehler: *[!UICONTROL Ihr Konto ist nicht für die API aktiviert. Teilen Sie Ihrem Systemadministrator mit, dass er Sie einrichten wird. Entschuldige das!]*
+Wenn Sie versuchen, sich bei der mobilen App [!DNL Adobe Workfront] anzumelden, erhalten Sie den folgenden Fehler: *[!UICONTROL Ihr Konto ist nicht für die API aktiviert. Teilen Sie Ihrem Systemadministrator mit, dass er Sie einrichten wird. Tut mir leid.]*
 
 ## Ursache
 
-Ihre [!DNL Workfront] Administrator hat die [!DNL Workfront] -Umgebung, auf die von einem Mobilgerät aus zugegriffen werden soll.
+Ihr [!DNL Workfront] -Administrator hat den Zugriff auf Ihre [!DNL Workfront] -Umgebung von einem Mobilgerät aus nicht aktiviert.
 
 ## Lösung
 
-1. Melden Sie sich bei der [!DNL Workfront] Webanwendung als [!DNL Workfront] Administrator.
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** Bereich.
-1. Erweitern Sie die **[!UICONTROL System]** Menü und klicken Sie auf **[!UICONTROL Voreinstellungen]**.
+1. Melden Sie sich bei der [!DNL Workfront] -Webanwendung als [!DNL Workfront] Administrator an.
+1. Wechseln Sie zum Bereich **[!UICONTROL Setup]** .
+1. Erweitern Sie das Menü **[!UICONTROL System]** und klicken Sie dann auf **[!UICONTROL Voreinstellungen]**.
 
-1. Unter dem **[!UICONTROL Sicherheit]** auswählen, wählen Sie die **[!UICONTROL Verwendung von [!DNL Workfront]der mobilen Anwendungen und [!DNL Workfront Outlook] Add-In]** aktivieren.
+1. Wählen Sie unter dem Abschnitt **[!UICONTROL Sicherheit]** die Option **[!UICONTROL Benutzer dürfen die Mobile Apps von [!DNL Workfront] verwenden und die Option [!DNL Workfront Outlook] Add-In]** , um sie zu aktivieren.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.\
-   Alle Benutzer im System können jetzt auf [!DNL Workfront] von ihren mobilen Apps und von [!DNL Outlook].
+   Alle Benutzer im System können jetzt von ihren mobilen Apps aus auf [!DNL Workfront] und von [!DNL Outlook] zugreifen.

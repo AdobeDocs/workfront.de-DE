@@ -25,7 +25,7 @@ Umgekehrt ermöglicht das Entsperren eines Projekts, einer Aufgabe oder einer Pr
 
 Dies entspricht der Möglichkeit, dass ein Workfront-Administrator eine Voreinstellung für alle Benutzer im System sperren oder entsperren muss.
 
-Informationen dazu, wie ein Workfront-Administrator eine Voreinstellung für alle Gruppen im System sperren oder entsperren kann, finden Sie unter [Projektvoreinstellungen für alle Gruppen im System sperren oder entsperren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+Informationen dazu, wie ein Workfront-Administrator eine Voreinstellung für alle Gruppen im System sperren oder entsperren kann, finden Sie unter [Sperren oder Entsperren von Projektanforderungen für alle Gruppen im System](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
@@ -41,6 +41,7 @@ Informationen dazu, wie ein Workfront-Administrator eine Voreinstellung für all
 >* Wenn Sie eine Gruppe unter eine Gruppe verschieben, die über eine entsperrte Voreinstellung verfügt, wirkt sich diese Voreinstellung nicht auf die verschobene Gruppe aus.
 >
 >  Wenn die Voreinstellung in der verschobenen Gruppe zum Zeitpunkt des Verschiebevorgangs gesperrt ist, bleibt sie gesperrt. Der Gruppenadministrator kann sie jedoch jetzt entsperren, da sie für die übergeordnete Gruppe entsperrt ist.
+>
 
 ## Zugriffsanforderungen
 
@@ -52,32 +53,32 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Gruppenprojekt, -aufgabe oder -präferenz sperren oder entsperren
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Gruppen**.
 1. Klicken Sie auf den Namen der Gruppe, in der Sie eine Projektvoreinstellung sperren oder entsperren möchten.
-1. Klicken Sie im linken Bereich auf **Projektvoreinstellungen** oder **Voreinstellungen für Aufgaben und Probleme**.
+1. Klicken Sie im linken Bereich auf **Projekteinstellungen** oder **Voreinstellungen für Aufgaben und Probleme**.
 
 1. Führen Sie auf der angezeigten Seite einen der folgenden Schritte aus, um eine Voreinstellung zu erhalten, die auf Systemebene entsperrt ist, oder für eine Gruppe über Ihrer Gruppe:
 
-   * Wenn Sie möchten, dass Administratoren von Gruppen unter Ihrer Gruppe eine Voreinstellung für ihre Gruppen konfigurieren können, entsperren Sie sie. ![](assets/unlock-toggle-button.png).
-   * Wenn Sie möchten, dass alle Gruppen unter Ihren Einstellungen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass sie gesperrt ist. ![](assets/lock-toggle-button.png).
+   * Wenn Sie möchten, dass Administratoren von Gruppen unter Ihrer Gruppe eine Voreinstellung für ihre Gruppen konfigurieren können, entsperren Sie sie ![](assets/unlock-toggle-button.png).
+   * Wenn Sie möchten, dass alle Gruppen unter Ihren Einstellungen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass sie ![](assets/lock-toggle-button.png) gesperrt ist.
 
-      >[!IMPORTANT]
-      >
-      >Es ist wichtig, mit den Administratoren und Benutzern in Gruppen unter Ihnen zu kommunizieren, um sicherzustellen, dass alle Anforderungen so berücksichtigt werden, wie Sie eine gesperrte Voreinstellung konfigurieren. Wenn Sie sie sperren, wird Ihre Konfiguration für sie von allen Untergruppen unten übernommen. Wenn die Voreinstellung für einen beliebigen Zeitraum entsperrt wurde, ersetzt Ihre Konfiguration diejenigen, die von Gruppenadministratoren in niedrigeren Untergruppen vorgenommen wurden.
+     >[!IMPORTANT]
+     >
+     >Es ist wichtig, mit den Administratoren und Benutzern in Gruppen unter Ihnen zu kommunizieren, um sicherzustellen, dass alle Anforderungen so berücksichtigt werden, wie Sie eine gesperrte Voreinstellung konfigurieren. Wenn Sie sie sperren, wird Ihre Konfiguration für sie von allen Untergruppen unten übernommen. Wenn die Voreinstellung für einen beliebigen Zeitraum entsperrt wurde, ersetzt Ihre Konfiguration diejenigen, die von Gruppenadministratoren in niedrigeren Untergruppen vorgenommen wurden.
 
 1. Klicken Sie auf **Speichern**.

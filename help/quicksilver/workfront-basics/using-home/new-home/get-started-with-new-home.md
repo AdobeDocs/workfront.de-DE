@@ -31,7 +31,7 @@ Die neue Startseite ist sehr anpassbar, sodass Sie die Widgets auswählen könne
 
 Widgets sind die Grundlage des neuen Home. Wenn Sie Ihrer Startseite Widgets hinzufügen, können Sie auswählen, welcher Informationstyp angezeigt wird, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets sind nur für bestimmte Lizenztypen verfügbar, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind.
 
-Informationen zum Hinzufügen, Verschieben, Ändern oder Löschen von Widgets finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+Informationen zum Hinzufügen, Verschieben, Ändern, Ändern oder Löschen von Widgets finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen können, sowie eine Zusammenfassung der angezeigten Informationen:
 
@@ -53,16 +53,16 @@ Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen könn
 * **Team-Anforderungen**\
     Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.
 
-* **Erwartung der Genehmigung**\
+* **Warten auf meine Genehmigung**\
     Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget.
 
 * **Alle Genehmigungen**\
-        <span class="preview"> Zeigt zwei Diagramme mit Informationen über die durchschnittliche Genehmigungszeit und -entscheidungen sowie Listenansichten ausstehender und überfälliger Genehmigungen an.</span> <span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span>
+        <span class="preview"> Zeigt 2 Diagramme mit Informationen über die durchschnittliche Genehmigungszeit und -entscheidungen sowie Listenansichten ausstehender und überfälliger Genehmigungen an.</span> <span style="color: #ff0000;">Diese Funktion ist Teil einer schrittweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span>
 
 * **Erwähnungen**\
     Zeigt aktuelle Kommentar-Threads aus Workfront an, ähnlich wie auf der Seite My Updates . Sie können die Antwortschaltfläche verwenden, um eine Antwort im Widget zu erstellen. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen, die Ihnen zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, die Ihnen gehören, die Sie als primärer Ansprechpartner fungieren oder die Sie erstellt haben, sofern die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
 
-* **Aufgaben**\
+* **To-dos**\
     Mit diesem einzigartigen Widget können Sie Elemente zu einer persönlichen Checkliste hinzufügen, die Sie frei bearbeiten können. Aufgaben werden als Aufgaben in Ihrem persönlichen Projekt nachverfolgt und bleiben bis zu zwei Wochen nach der Fertigstellung erhalten.
 
   >[!NOTE]
@@ -133,16 +133,16 @@ Sie können Ihrer Startseite ein wenig persönliches Erlebnis hinzufügen, indem
 
 1. Gehen Sie zur Startseite, indem Sie einen der folgenden Schritte ausführen:
 
-   * Wenn Startseite als Landingpage festgelegt ist, klicken Sie auf die Schaltfläche **Adobe Workfront** icon ![Adobe Workfront-Symbol](../new-home/assets/home-icon-30x29.png) in der linken oberen Ecke des Bildschirms.
-   * Klicken Sie auf **Hauptmenü** in der oberen rechten Ecke des Bildschirms oder **Hauptmenü** icon ![Symbol für Hauptmenü](../new-home/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Startseite**.
+   * Wenn Home als Landingpage festgelegt ist, klicken Sie auf das Symbol **Adobe Workfront** ![Adobe Workfront-Symbol](../new-home/assets/home-icon-30x29.png) oben links auf Ihrem Bildschirm.
+   * Klicken Sie oben rechts im Bildschirm auf das Symbol **Hauptmenü** oder, falls verfügbar, auf das Symbol **Hauptmenü** ![Hauptmenüsymbol](../new-home/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Startseite**.
 
-1. Klicks **Anpassen** oben rechts im Bildschirm.
+1. Klicken Sie oben rechts im Bildschirm auf **Anpassen** .
 
    ![Schaltfläche &quot;Anpassen&quot;](../new-home/assets/customize-button.png)
 
    Das Bedienfeld Anpassen wird geöffnet.
 
-1. Im **Hintergrund** Abschnitt **Anpassen** auf die gewünschte Farbe für den Home-Hintergrund klicken. Sie können auch auf **Keines** um den Hintergrund zu entfernen.
+1. Klicken Sie im Bereich **Hintergrund** des Bedienfelds **Anpassen** auf die Farbe, die Sie für Ihren Home-Hintergrund auswählen möchten. Sie können auch auf **Keine** klicken, um den Hintergrund zu entfernen.
 
 ## Zurück zum aktuellen Starterlebnis
 
@@ -150,15 +150,15 @@ Wenn Sie das vorhandene Home-Erlebnis bevorzugen, können Sie das neue Home-Erle
 
 So gehen Sie zurück zum aktuellen Starterlebnis:
 
-1. Gehen Sie zur Startseite, indem Sie entweder auf die **Adobe Workfront** icon ![Adobe Workfront-Symbol](../new-home/assets/home-icon-30x29.png) in der linken oberen Ecke des Bildschirms, wenn Startseite als Landingpage festgelegt ist, oder klicken Sie auf die Schaltfläche **Hauptmenü** Symbol oben rechts ![](assets/dots-main-menu.png) oder **Hauptmenü** icon ![Symbol für Hauptmenü](../new-home/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Startseite**.
+1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Symbol **Adobe Workfront** ![Adobe Workfront-Symbol](../new-home/assets/home-icon-30x29.png) in der oberen linken Ecke des Bildschirms klicken, wenn &quot;Home&quot;als Landingpage festgelegt ist, oder klicken Sie auf das Symbol **Hauptmenü** in der oberen rechten Ecke ![](assets/dots-main-menu.png) oder auf das Symbol **Hauptmenü** Symbol ![Hauptmenü-Symbol](../new-home/assets/main-menu-icon-left-nav.png) oben links, sofern verfügbar, Klicken Sie auf **Home**.
 
-1. Klicken Sie auf **Zurück zur aktuellen Startseite** rechts unten auf der Seite.
+1. Klicken Sie unten rechts auf der Seite auf die Schaltfläche &quot;**Zurück zur aktuellen Startseite**&quot;.
 
    ![Zurück zur aktuellen Schaltfläche &quot;Home&quot;](../new-home/assets/go-back-to-current-home-button.png)
 
    Ein Bestätigungsfenster wird angezeigt.
 
-1. Nehmen Sie eine kurze Umfrage zu Ihrem Erlebnis mit der neuen Startseite vor oder klicken Sie auf **Zurück zur aktuellen Startseite** zum aktuellen Starterlebnis zurückgesetzt.
+1. Nehmen Sie eine kurze Umfrage zu Ihrem Erlebnis mit der neuen Startseite vor oder klicken Sie auf **Zurück zur aktuellen Startseite** , um zum aktuellen Starterlebnis zurückzukehren.
 
 >[!NOTE]
 >

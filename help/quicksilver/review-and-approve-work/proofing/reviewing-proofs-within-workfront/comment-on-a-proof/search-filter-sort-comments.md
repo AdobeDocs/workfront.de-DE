@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Select oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -39,22 +39,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Suche nach der Kommentarliste
 
 Sie können in der Kommentarliste nach Text suchen, der im Kommentar selbst, in der Kommentarnummer oder in dem Benutzer enthalten ist, der den Kommentar abgegeben hat.
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
-1. Suchen Sie den gewünschten Testversand und klicken Sie auf **Offener Testversand**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
+1. Suchen Sie den gewünschten Testversand und klicken Sie dann auf **Testversand öffnen**.
 
-1. (Bedingt) Wenn der Kommentarbereich nicht geöffnet ist, klicken Sie auf **Kommentare anzeigen** in der oberen rechten Ecke.
-1. Klicken Sie auf **Suche** -Symbol, um das Suchfeld anzuzeigen.
+1. (Bedingt) Wenn der Kommentarbereich nicht geöffnet ist, klicken Sie oben rechts auf **Kommentare anzeigen** .
+1. Klicken Sie auf das Symbol **Suchen** , um das Suchfeld anzuzeigen.
 
 1. Geben Sie eine der folgenden Optionen ein:
 
@@ -70,12 +70,12 @@ Sie können in der Kommentarliste nach Text suchen, der im Kommentar selbst, in 
 Sie können die angezeigten Kommentare filtern, indem Sie Filterparameter wie Benutzer, Aktionen, ungelesenen Status und mehr definieren.
 
 1. Öffnen Sie den Testversand, in dem Sie Kommentare filtern möchten.
-1. (Bedingt) Wenn der Kommentarbereich nicht geöffnet ist, klicken Sie auf **Kommentare anzeigen** in der oberen rechten Ecke.
-1. Klicken Sie im Kommentarbereich auf die **Filter** Symbol.
+1. (Bedingt) Wenn der Kommentarbereich nicht geöffnet ist, klicken Sie oben rechts auf **Kommentare anzeigen** .
+1. Klicken Sie im Kommentarbereich auf das Symbol **Filter** .
 
    ![proof_comment_filter.png](assets/proof-comment-filter.png)
 
-1. Verwenden Sie die Optionen, die unter dem **Filter** -Symbol, um die Kommentare nach einem der folgenden Kriterien zu filtern:
+1. Verwenden Sie die Optionen, die unter dem Symbol **Filter** angezeigt werden, um die Kommentare nach einem der folgenden Kriterien zu filtern:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -95,25 +95,25 @@ Sie können die angezeigten Kommentare filtern, indem Sie Filterparameter wie Be
       <td role="rowheader"><strong>Allgemeine Filteroptionen</strong> </td> 
       <td> 
        <ul> 
-        <li><strong>Ungelöst</strong>: Zeigt nur Kommentare an, die noch nicht aufgelöst wurden. </li> 
+        <li><strong>Nicht aufgelöst</strong>: Zeigt nur Kommentare an, die noch nicht aufgelöst wurden. </li> 
         <li><strong>Ungelesen</strong>: Zeigt nur Kommentare an, die Sie noch nicht gelesen haben. </li> 
-        <li><strong>Mit Anlagen</strong>: Zeigt nur Kommentare an, die einen Anhang enthalten, oder Kommentare, die eine Antwort enthalten, die einen Anhang enthält.</li> 
-        <li><strong>Nur aktuelle Seite</strong>:Zeigt nur Kommentare von der Seite an, die Sie gerade anzeigen. Die Kommentarliste wird aktualisiert, wenn Sie die sichtbare Seite ändern. Nur für statische und interaktive Testsendungen verfügbar.</li> 
+        <li><strong>Mit Anlagen</strong>: Zeigt nur Kommentare an, die eine Anlage enthalten, oder Kommentare, die eine Antwort enthalten, die eine Anlage enthält.</li> 
+        <li><strong>Nur aktuelle Seite</strong>: Zeigt nur Kommentare von der Seite an, die Sie gerade anzeigen. Die Kommentarliste wird aktualisiert, wenn Sie die sichtbare Seite ändern. Nur für statische und interaktive Testsendungen verfügbar.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken **Anwenden** oder klicken Sie auf **Filter** -Symbol, um die Kommentarliste mit den angewendeten Filterkriterien anzuzeigen. Das Symbol Filter wird mit einem blauen Punkt angezeigt, der angibt, dass ein Filter angewendet wurde.
+1. Klicken Sie auf **Anwenden** oder auf das Symbol **Filter** , um die Kommentarliste mit den angewendeten Filterkriterien anzuzeigen. Das Symbol Filter wird mit einem blauen Punkt angezeigt, der angibt, dass ein Filter angewendet wurde.
 
-1. Wenn Sie mit dem Filtern fertig sind und alle Kommentare sehen möchten, klicken Sie auf die **Filter** Symbol, klicken Sie auf **Zurücksetzen** und klicken Sie dann auf **Filter** erneut.
+1. Wenn Sie mit dem Filtern fertig sind und alle Kommentare anzeigen möchten, klicken Sie auf das Symbol **Filter** , klicken Sie auf **Zurücksetzen** und anschließend erneut auf das Symbol **Filter** .
 
 ## Sortieren der Kommentarliste
 
 Wenn Sie die Kommentarliste sortieren, wird die von Ihnen ausgewählte Sortieroption beim nächsten Öffnen eines Testversands in dem von Ihnen verwendeten Testversand-Viewer gespeichert.
 
 1. Öffnen Sie den Testversand, in dem Sie Kommentare sortieren möchten.
-1. Wenn der Kommentarbereich nicht geöffnet ist, klicken Sie auf **Kommentare anzeigen** in der oberen rechten Ecke.
+1. Wenn der Kommentarbereich nicht geöffnet ist, klicken Sie oben rechts auf **Kommentare anzeigen** .
 
 1. Klicken Sie auf das Sortiermenü, um es zu öffnen.
 1. ![](assets/mceclip3.png)
@@ -126,8 +126,8 @@ Wenn Sie die Kommentarliste sortieren, wird die von Ihnen ausgewählte Sortierop
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Neueste</td> 
-      <td>Zeigt die neuesten Kommentare oben in der Kommentarliste an.</td> 
+      <td role="rowheader">Späteste</td> 
+      <td>Zeigt die neuesten Kommentare oben in der Liste an.</td> 
       <td>Für alle Testsendungen verfügbar</td> 
      </tr> 
      <tr> 
@@ -151,7 +151,7 @@ Wenn Sie die Kommentarliste sortieren, wird die von Ihnen ausgewählte Sortierop
       <td>Nur für statische Testsendungen verfügbar.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Zeitstempel (nach unten)</td> 
+      <td role="rowheader">Zeitstempel (unten)</td> 
       <td>Zeigt Kommentare in der Reihenfolge an, wann sie im Verhältnis zur Video-Timeline angezeigt werden. Kommentare, die später in der Timeline abgegeben wurden, werden zuerst angezeigt. </td> 
       <td>Nur für Videotests verfügbar.</td> 
      </tr> 
@@ -167,7 +167,7 @@ Wenn Sie die Kommentarliste sortieren, wird die von Ihnen ausgewählte Sortierop
      </tr> 
      <tr> 
       <td role="rowheader">Gerät (nach unten)</td> 
-      <td> <p>(Nur für interaktive Testsendungen verfügbar.) Zeigt Kommentare in der Reihenfolge an, die der beim Kommentar ausgewählten Auflösung entspricht. Kommentare zu höheren Auflösungen werden zuerst angezeigt.</p> <p>Informationen zum Ändern der Auflösung in einem interaktiven Testversand finden Sie unter <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Ändern der interaktiven Testversandauflösung im Testversand-Viewer</a>.</p> </td> 
+      <td> <p>(Nur für interaktive Testsendungen verfügbar.) Zeigt Kommentare in der Reihenfolge an, die der beim Kommentar ausgewählten Auflösung entspricht. Kommentare zu höheren Auflösungen werden zuerst angezeigt.</p> <p>Informationen zum Ändern der Auflösung in einem interaktiven Testversand finden Sie unter <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Ändern der interaktiven Testversandauflösung im Testversand-Viewer</a>.</p> </td> 
       <td>Nur für interaktive Testsendungen verfügbar.</td> 
      </tr> 
     </tbody> 

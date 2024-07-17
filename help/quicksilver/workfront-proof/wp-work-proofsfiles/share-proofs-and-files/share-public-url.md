@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Öffentliche URL freigeben in [!DNL Workfront Proof]
+title: Öffentliche URL in  [!DNL Workfront Proof] freigeben
 description: Sie können einen Testversand freigeben, indem Sie dem gewünschten Empfänger die URL Öffentlicher Testversand bereitstellen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Öffentliche URL freigeben in [!DNL Workfront Proof]
+# Öffentliche URL in [!DNL Workfront Proof] freigeben
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Sie können einen Testversand freigeben, indem Sie dem gewünschten Empfänger die URL Öffentlicher Testversand bereitstellen.
 
@@ -29,15 +29,15 @@ Es wird auch eine Option zum Signieren angeboten, sodass Personen, die speziell 
 * Sie müssen die öffentliche URL manuell kopieren und in eine E-Mail einfügen und an die entsprechende Person senden.
 * Die Personen, denen Sie die öffentliche URL zuweisen, werden NICHT im Abschnitt &quot;Workflow&quot;der Seite &quot;Testdetails&quot;angezeigt.
 
-Wenn Abonnements für den Testversand aktiviert sind, kann sich jeder, der Zugriff auf die Testversand-URL hat, selbst für den Testversand anmelden (also fügen Sie sich selbst zum Überprüfungszyklus mit der Standardrolle hinzu, die vom Testversand-Eigentümer festgelegt wurde).
+Wenn Abonnements für den Testversand aktiviert sind, kann sich jeder, der Zugriff auf die Testversand-URL hat, selbst für den Testversand anmelden (also fügen Sie sich selbst zum Überprüfungszyklus mit der Standardrolle hinzu, die vom Besitzer des Testversands festgelegt wurde).
 
-Siehe [Abonnieren eines Testversands in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) für weitere Informationen.
+Weitere Informationen finden Sie unter [Abonnieren eines Testversands in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) .
 
 So verwenden Sie die öffentliche URL eines Testversands:
 
-1. Gehen Sie zur Seite Testversand-Standard , wie beschrieben in [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Öffnen Sie die **[!UICONTROL Mehr Freigabeoptionen]** Abschnitt.
-1. Stellen Sie sicher, dass die Variable **Testversand-URL** aktiviert ist.
+1. Wechseln Sie zur Seite &quot;Testversand-Standard&quot;, wie unter [Testversand-Details verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+1. Öffnen Sie den Abschnitt **[!UICONTROL Mehr Freigabeoptionen]** .
+1. Stellen Sie sicher, dass die **Testversand-URL** aktiviert ist.
 1. Kopieren Sie die öffentliche URL in die Zwischenablage.
 1. Fügen Sie die öffentliche URL in eine E-Mail oder ein Chat-Fenster ein und senden Sie sie an Ihren Empfänger
 
@@ -53,10 +53,10 @@ Wenn sie nicht bereits validiert wurden, müssen sie sich für den Testversand a
 >
 >Abonnements können deaktiviert werden. In diesem Fall können sie den Testversand nicht abonnieren.
 
-Siehe [Abonnieren eines Testversands in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) für weitere Informationen.
+Weitere Informationen finden Sie unter [Abonnieren eines Testversands in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) .
 
 So greifen Sie über eine öffentliche URL auf den Testversand zu:
 
-* Benutzer öffnen den Testversand mithilfe ihrer Anmeldedaten, die ihre registrierte E-Mail-Adresse und ihr Passwort für [!DNL Workfront Proof].
+* Benutzer öffnen den Testversand mithilfe ihrer Anmeldedaten, die ihre registrierte E-Mail-Adresse und ihr Passwort für [!DNL Workfront Proof] enthalten.
 * Nicht-Benutzer öffnen den Testversand, indem sie eine E-Mail-Adresse und einen Anzeigenamen eingeben.
-* Wählen Sie in beiden Fällen **[!UICONTROL Erinnern Sie sich]** damit Sie Ihre Daten einmal eingeben müssen (für diesen Testversand).
+* Wählen Sie in beiden Fällen **[!UICONTROL Mich merken]** aus, damit Sie Ihre Details einmal eingeben müssen (für diesen Testversand).

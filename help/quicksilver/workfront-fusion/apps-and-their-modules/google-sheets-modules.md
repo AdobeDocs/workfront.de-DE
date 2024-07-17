@@ -5,33 +5,33 @@ product-area: workfront-integrations;documents
 keywords: Connector
 navigation-topic: apps-and-their-modules
 title: Google Tabellen-Module
-description: Zur Verwendung [!DNL Google Sheets] mit [!DNL Adobe Workfront Fusion],you need the [!UICONTROL Workfront Fusion Google Sheets] -Erweiterung (optional, aber für sofortige Trigger erforderlich).
+description: Um die Erweiterung [!DNL Google Sheets] mit der Erweiterung [!DNL Adobe Workfront Fusion],you need the [!UICONTROL Workfront Fusion Google Sheets] zu verwenden (optional, aber für sofortige Trigger erforderlich).
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
 source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3941'
+source-wordcount: '4000'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Sheets]-Module
+# [!DNL Google Sheets] Module
 
-In einer [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!DNL Google Sheets], und stellen Sie eine Verbindung zu mehreren Drittanbieteranwendungen und -diensten her.
+In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!DNL Google Sheets] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 
-Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe [Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter [Erstellen einer Verbindung zu  [!DNL Adobe Workfront Fusion]  - Grundlegende Anweisungen](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -41,29 +41,29 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Verwendung [!UICONTROL Google Tabellen] -Module, müssen Sie über eine [!UICONTROL Google] -Konto.
+Um die Module [!UICONTROL Google Tabellen] zu verwenden, müssen Sie über ein [!UICONTROL Google] -Konto verfügen.
 
 ## Trigger
 
@@ -83,7 +83,7 @@ Das Modul ruft nur neue Zeilen ab, die noch nicht ausgefüllt wurden. Der Trigge
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tabelle] </td> 
@@ -98,20 +98,20 @@ Das Modul ruft nur neue Zeilen ab, die noch nicht ausgefüllt wurden. Der Trigge
    <td> <p> Wählen Sie aus, ob das Arbeitsblatt die Kopfzeile enthält.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Ja]</strong> </p> <p>Das Modul ruft die Kopfzeile nicht als Ausgabedaten ab. </p> <p>Variablennamen in der Ausgabe werden von den Kopfzeilen aufgerufen.</p> </li> 
-     <li> <p><strong>[!UICONTROL Nein]</strong> </p> <p>Das Modul ruft auch die erste Tabellenzeile ab</p> <p>Variablennamen in der Ausgabe werden als A, B, C, D usw. bezeichnet.</p> </li> 
+     <li> <p><strong>[!UICONTROL No]</strong> </p> <p>Das Modul ruft auch die erste Tabellenzeile ab</p> <p>Variablennamen in der Ausgabe werden als A, B, C, D usw. bezeichnet.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Zeile mit Kopfzeilen] </td> 
-   <td> <p>Geben Sie den Bereich der Kopfzeile ein. Beispiel, <code>A1:F1</code>.</p> </td> 
+   <td role="rowheader">Zeile mit Kopfzeilen </td> 
+   <td> <p>Geben Sie den Bereich der Kopfzeile ein. Beispiel: <code>A1:F1</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Erste Tabellenzeile]</td> 
-   <td> <p>Geben Sie den Bereich der ersten Tabellenzeile ein. Beispiel, <code>A1:F1</code>.</p> </td> 
+   <td> <p>Geben Sie den Bereich der ersten Tabellenzeile ein. Beispiel: <code>A1:F1</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Wert-Renderoption]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatierter Wert]</p> <p>Die Werte werden in der Antwort entsprechend der Zellenformatierung berechnet und formatiert. Die Formatierung basiert auf dem Gebietsschema des Arbeitsblatts, nicht auf dem Gebietsschema des anfordernden Benutzers. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde zurückgeben <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatierter Wert]</p> <p>Die Werte werden berechnet, aber in der Antwort nicht formatiert. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde die Zahl <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formel]</p> <p>Die Werte werden nicht berechnet. Die Antwort enthält die Formeln. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde zurückgeben <code>"=A1"</code>.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatierter Wert]</p> <p>Die Werte werden in der Antwort entsprechend der Zellenformatierung berechnet und formatiert. Die Formatierung basiert auf dem Gebietsschema des Arbeitsblatts, nicht auf dem Gebietsschema des anfordernden Benutzers. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> hat und als Währung formatiert ist, gibt <code>A2</code> den Wert <code>"$1.23"</code> zurück.</p> <p style="font-weight: bold;">[!UICONTROL Unformatierter Wert]</p> <p>Die Werte werden berechnet, aber in der Antwort nicht formatiert. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> aufweist und als Währung formatiert ist, gibt <code>A2</code> die Zahl <code>"1.23"</code> zurück.</p> <p style="font-weight: bold;">[!UICONTROL Formel]</p> <p>Die Werte werden nicht berechnet. Die Antwort enthält die Formeln. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> hat und als Währung formatiert ist, gibt <code>A2</code> den Wert <code>"=A1"</code> zurück.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Renderoption für Datum und Uhrzeit</p> </td> 
@@ -119,7 +119,7 @@ Das Modul ruft nur neue Zeilen ab, die noch nicht ausgefüllt wurden. Der Trigge
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Legen Sie die maximale Anzahl von Ergebnissen fest, die [!DNL Workfront Fusion] in einem Ausführungszyklus verwendet.</p> </td> 
+   <td> <p>Legen Sie die maximale Anzahl von Ergebnissen fest, mit denen [!DNL Workfront Fusion] während eines Ausführungszyklus arbeiten soll.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,21 +130,21 @@ Das Modul ruft nur neue Zeilen ab, die noch nicht ausgefüllt wurden. Der Trigge
 * [[!UICONTROL Eine Zeile aktualisieren]](#update-a-row)
 * [[!UICONTROL Löschen einer Zeile]](#clear-a-row)
 * [[!UICONTROL Eine Zeile löschen]](#delete-a-row)
-* [[!UICONTROL Zelle abrufen]](#get-a-cell)
+* [[!UICONTROL Abrufen einer Zelle]](#get-a-cell)
 * [[!UICONTROL Zelle aktualisieren]](#update-a-cell)
 * [[!UICONTROL Zelle löschen]](#clear-a-cell)
 * [[!UICONTROL Blatt hinzufügen]](#add-a-sheet)
 * [[!UICONTROL Erstellen einer Tabelle]](#create-a-spreadsheet)
-* [[!UICONTROL Blatt löschen]](#delete-a-sheet)
+* [[!UICONTROL Eine Tabelle löschen]](#delete-a-sheet)
 * [[!UICONTROL API-Aufruf durchführen]](#make-an-api-call)
 
 ### [!UICONTROL Eine Zeile hinzufügen]
 
 Dieses Modul hängt eine Zeile an ein Blatt an.
 
-Bei der Konfiguration [!DNL Google Sheets] Module, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Zusätzlich zu diesen [!DNL Google Sheets] -Felder können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie [!DNL Google Sheets] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL Google Sheets] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -154,15 +154,15 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Modus]</td> 
-   <td> <p>Wählen Sie aus, ob Sie die Tabelle und das Blatt manuell oder durch Zuordnung auswählen möchten.</p> <p>Hinweis: Eine manuelle Zuordnung ist beispielsweise dann nützlich, wenn eine neue Tabelle in einer [!DNL Workfront Fusion] und Sie möchten Daten in der neu erstellten Tabelle direkt im Szenario hinzufügen.</p> </td> 
+   <td> <p>Wählen Sie aus, ob Sie die Tabelle und das Blatt manuell oder durch Zuordnung auswählen möchten.</p> <p>Hinweis: Die manuelle Zuordnung ist beispielsweise dann nützlich, wenn eine neue Tabelle in einem [!DNL Workfront Fusion] -Szenario erstellt wird und Sie Daten in der neu erstellten Tabelle direkt im Szenario hinzufügen möchten.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
-   <td> <p>Wählen Sie die [!DNL Google] Tabelle.</p> </td> 
+   <td> <p>Wählen Sie die Tabelle [!DNL Google] aus.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -177,7 +177,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
    <td> <p> Wählen Sie aus, ob das Arbeitsblatt die Kopfzeile enthält.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Ja]</strong> </p> <p>Das Modul ruft die Kopfzeile nicht als Ausgabedaten ab. </p> <p>Variablennamen in der Ausgabe werden von den Kopfzeilen aufgerufen.</p> </li> 
-     <li> <p><strong>[!UICONTROL Nein]</strong> </p> <p>Das Modul ruft auch die erste Tabellenzeile ab</p> <p>Variablennamen in der Ausgabe werden als A, B, C, D usw. bezeichnet.</p> </li> 
+     <li> <p><strong>[!UICONTROL No]</strong> </p> <p>Das Modul ruft auch die erste Tabellenzeile ab</p> <p>Variablennamen in der Ausgabe werden als A, B, C, D usw. bezeichnet.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -188,7 +188,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
    <td>[!UICONTROL Werteingabe-Option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Benutzer eingegeben]</strong></p> <p>Die Werte werden so analysiert, als ob der Benutzer sie in die Benutzeroberfläche eingegeben hätte. Zahlen bleiben Zahlen, aber Zeichenfolgen können in Zahlen, Datumsangaben oder andere Formate konvertiert werden, die den gleichen Regeln entsprechen, die bei der Eingabe von Text in eine Zelle über die [!DNL Google Sheets] Benutzeroberfläche.</p> </li> 
+     <li> <p><strong>[!UICONTROL Benutzer eingegeben]</strong></p> <p>Die Werte werden so analysiert, als ob der Benutzer sie in die Benutzeroberfläche eingegeben hätte. Zahlen bleiben Zahlen, aber Zeichenfolgen können in Zahlen, Datumsangaben oder andere Formate konvertiert werden, die den gleichen Regeln entsprechen, die bei der Eingabe von Text in eine Zelle über die [!DNL Google Sheets] -Benutzeroberfläche angewendet werden.</p> </li> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> Die vom Benutzer eingegebenen Werte werden nicht analysiert und unverändert gespeichert. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -213,15 +213,15 @@ Mit diesem Modul können Sie den Zelleninhalt in einer ausgewählten Zeile ände
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Modus]</td> 
-   <td> <p>Wählen Sie aus, ob Sie die Tabelle und das Blatt manuell oder durch Zuordnung auswählen möchten.</p> <p>Hinweis: Eine manuelle Zuordnung ist beispielsweise dann nützlich, wenn eine neue Tabelle im [!UICONTROL Workfront Fusion]-Szenario erstellt wird und Sie dem neu erstellten Arbeitsblatt Daten direkt im Szenario hinzufügen möchten.</p> </td> 
+   <td> <p>Wählen Sie aus, ob Sie die Tabelle und das Blatt manuell oder durch Zuordnung auswählen möchten.</p> <p>Hinweis: Die manuelle Zuordnung ist beispielsweise dann nützlich, wenn eine neue Tabelle im [!UICONTROL Workfront Fusion]-Szenario erstellt wird und Sie dem neu erstellten Arbeitsblatt Daten direkt im Szenario hinzufügen möchten.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
-   <td> <p>Wählen Sie die [!DNL Google] Tabelle.</p> </td> 
+   <td> <p>Wählen Sie die Tabelle [!DNL Google] aus.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -236,7 +236,7 @@ Mit diesem Modul können Sie den Zelleninhalt in einer ausgewählten Zeile ände
    <td> <p> Wählen Sie aus, ob das Arbeitsblatt die Kopfzeile enthält.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Ja]</strong> </p> <p>Das Modul ruft die Kopfzeile nicht als Ausgabedaten ab. </p> <p>Variablennamen in der Ausgabe werden von den Kopfzeilen aufgerufen.</p> </li> 
-     <li> <p><strong>[!UICONTROL Nein]</strong> </p> <p>Das Modul ruft auch die erste Tabellenzeile ab</p> <p>Variablennamen in der Ausgabe werden als A, B, C, D usw. bezeichnet.</p> </li> 
+     <li> <p><strong>[!UICONTROL No]</strong> </p> <p>Das Modul ruft auch die erste Tabellenzeile ab</p> <p>Variablennamen in der Ausgabe werden als A, B, C, D usw. bezeichnet.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -247,7 +247,7 @@ Mit diesem Modul können Sie den Zelleninhalt in einer ausgewählten Zeile ände
    <td>[!UICONTROL Werteingabe-Option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Benutzer eingegeben]</strong></p> <p>Die Werte werden so analysiert, als ob der Benutzer sie in die Benutzeroberfläche eingegeben hätte. Zahlen bleiben Zahlen, aber Zeichenfolgen können in Zahlen, Datumsangaben oder andere Formate konvertiert werden, die den gleichen Regeln entsprechen, die bei der Eingabe von Text in eine Zelle über die [!DNL Google Sheets] Benutzeroberfläche.</p> </li> 
+     <li> <p><strong>[!UICONTROL Benutzer eingegeben]</strong></p> <p>Die Werte werden so analysiert, als ob der Benutzer sie in die Benutzeroberfläche eingegeben hätte. Zahlen bleiben Zahlen, aber Zeichenfolgen können in Zahlen, Datumsangaben oder andere Formate konvertiert werden, die den gleichen Regeln entsprechen, die bei der Eingabe von Text in eine Zelle über die [!DNL Google Sheets] -Benutzeroberfläche angewendet werden.</p> </li> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> Die vom Benutzer eingegebenen Werte werden nicht analysiert und unverändert gespeichert. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -264,11 +264,11 @@ Löscht Werte aus einer angegebenen Zeile.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
-   <td> <p>Wählen Sie die [!DNL Google] -Tabelle, die das Arbeitsblatt enthält, aus dem Sie eine Zeile löschen möchten.</p> </td> 
+   <td> <p>Wählen Sie die [!DNL Google] -Tabelle aus, die das Blatt enthält, aus dem Sie eine Zeile löschen möchten.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -276,7 +276,7 @@ Löscht Werte aus einer angegebenen Zeile.
   </tr> 
   <tr> 
    <td>[!UICONTROL Zeilennummer]</td> 
-   <td> <p>Geben Sie die Nummer der Zeile ein, aus der die Daten gelöscht werden sollen. Beispiel, <code> 23</code>.</p> </td> 
+   <td> <p>Geben Sie die Nummer der Zeile ein, aus der die Daten gelöscht werden sollen. Beispiel: <code> 23</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -291,7 +291,7 @@ Löscht eine angegebene Zeile.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -308,7 +308,7 @@ Löscht eine angegebene Zeile.
  </tbody> 
 </table>
 
-### [!UICONTROL Zelle abrufen]
+### [!UICONTROL Abrufen einer Zelle]
 
 Ruft einen Wert aus einer ausgewählten Zelle ab.
 
@@ -318,11 +318,11 @@ Ruft einen Wert aus einer ausgewählten Zelle ab.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
-   <td> <p>Wählen Sie die [!DNL Google] Tabelle.</p> </td> 
+   <td> <p>Wählen Sie die Tabelle [!DNL Google] aus.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -334,7 +334,7 @@ Ruft einen Wert aus einer ausgewählten Zelle ab.
   </tr> 
   <tr> 
    <td>[!UICONTROL Wert-Renderoption]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatierter Wert]</p> <p>Die Werte werden in der Antwort entsprechend der Zellenformatierung berechnet und formatiert. Die Formatierung basiert auf dem Gebietsschema des Arbeitsblatts, nicht auf dem Gebietsschema des anfordernden Benutzers. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde zurückgeben <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!DNL Unformatted value]</p> <p>Die Werte werden berechnet, aber in der Antwort nicht formatiert. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde die Zahl <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!DNL Formula]</p> <p>Die Werte werden nicht berechnet. Die Antwort enthält die Formeln. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde zurückgeben <code>"=A1"</code>.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatierter Wert]</p> <p>Die Werte werden in der Antwort entsprechend der Zellenformatierung berechnet und formatiert. Die Formatierung basiert auf dem Gebietsschema des Arbeitsblatts, nicht auf dem Gebietsschema des anfordernden Benutzers. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> hat und als Währung formatiert ist, gibt <code>A2</code> den Wert <code>"$1.23"</code> zurück.</p> <p style="font-weight: bold;">[!DNL Unformatted value]</p> <p>Die Werte werden berechnet, aber in der Antwort nicht formatiert. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> aufweist und als Währung formatiert ist, gibt <code>A2</code> die Zahl <code>"1.23"</code> zurück.</p> <p style="font-weight: bold;">[!DNL Formula]</p> <p>Die Werte werden nicht berechnet. Die Antwort enthält die Formeln. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> hat und als Währung formatiert ist, gibt <code>A2</code> den Wert <code>"=A1"</code> zurück.</p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Date and time render option]</td> 
@@ -351,11 +351,11 @@ Ruft einen Wert aus einer ausgewählten Zelle ab.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
-   <td> <p>Wählen Sie die [!DNL Google] Tabelle.</p> </td> 
+   <td> <p>Wählen Sie die Tabelle [!DNL Google] aus.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Cell] </td> 
@@ -369,7 +369,7 @@ Ruft einen Wert aus einer ausgewählten Zelle ab.
    <td>[!UICONTROL Werteingabe-Option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Benutzer eingegeben]</strong></p> <p>Die Werte werden so analysiert, als ob der Benutzer sie in die Benutzeroberfläche eingegeben hätte. Zahlen bleiben Zahlen, aber Zeichenfolgen können in Zahlen, Datumsangaben oder andere Formate konvertiert werden, die den gleichen Regeln entsprechen, die bei der Eingabe von Text in eine Zelle über die [!DNL Google Sheets] Benutzeroberfläche.</p> </li> 
+     <li> <p><strong>[!UICONTROL Benutzer eingegeben]</strong></p> <p>Die Werte werden so analysiert, als ob der Benutzer sie in die Benutzeroberfläche eingegeben hätte. Zahlen bleiben Zahlen, aber Zeichenfolgen können in Zahlen, Datumsangaben oder andere Formate konvertiert werden, die den gleichen Regeln entsprechen, die bei der Eingabe von Text in eine Zelle über die [!DNL Google Sheets] -Benutzeroberfläche angewendet werden.</p> </li> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> Die vom Benutzer eingegebenen Werte werden nicht analysiert und unverändert gespeichert. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -386,7 +386,7 @@ Löscht einen Wert aus einer angegebenen Zelle.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -413,7 +413,7 @@ Erstellt ein neues Arbeitsblatt in einer ausgewählten Tabelle.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -438,7 +438,7 @@ Erstellt ein neues Arbeitsblatt in einer ausgewählten Tabelle.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Titel] </td> 
@@ -463,16 +463,16 @@ Erstellt ein neues Arbeitsblatt in einer ausgewählten Tabelle.
   </tr> 
   <tr> 
    <td>[!UICONTROL Zahlenformat]</td> 
-   <td> <p>Wählen Sie das Standardformat aller Zellen des Arbeitsblatts aus.</p> <p><strong>[!UICONTROL Text]</strong>: Textformatierung. Beispiel: <code>1000. 12</code></p> <p><strong>[!UICONTROL Number]</strong>: Zahlenformatierung. Beispiel: <code>1,000.12</code></p> <p><strong>[!UICONTROL Prozent]</strong>: Prozentformatierung. Beispiel: <code>10. 12%</code></p> <p><strong>[!UICONTROL Währung]</strong>: Währungsformatierung. Beispiel: <code>$1,000.12</code></p> <p><strong>[!UICONTROL Datum]</strong>: Datumsformatierung. Beispiel: <code>9/26/2008</code></p> <p><strong>[!UICONTROL Time]</strong>: Zeitformatierung. Beispiel: <code>3:59:00 PM</code></p> <p><strong>[!UICONTROL Datum/Uhrzeit]</strong>: Formatierung von Datum und Uhrzeit. Beispiel: <code>9/26/08 15:59:00</code> </p> <p><strong>[!UICONTROL Scientific]</strong>Wissenschaftliche Zahlenformatierung. Beispiel: <code>1. 01E+03</code></p> </td> 
+   <td> <p>Wählen Sie das Standardformat aller Zellen des Arbeitsblatts aus.</p> <p><strong>[!UICONTROL Text]</strong>: Textformatierung. Beispiel: <code>1000. 12</code></p> <p><strong>[!UICONTROL Number]</strong>: Zahlenformatierung. Beispiel: <code>1,000.12</code></p> <p><strong>[!UICONTROL Prozent]</strong>: Prozentformatierung. Beispiel: <code>10. 12%</code></p> <p><strong>[!UICONTROL Währung]</strong>: Währungsformatierung. Beispiel: <code>$1,000.12</code></p> <p><strong>[!UICONTROL Date]</strong>: Datumsformatierung. Beispiel: <code>9/26/2008</code></p> <p><strong>[!UICONTROL Time]</strong>: Zeitformatierung. Beispiel: <code>3:59:00 PM</code></p> <p><strong>[!UICONTROL Datum/Uhrzeit]</strong>: Formatierung von Datum und Uhrzeit. Beispiel: <code>9/26/08 15:59:00</code> </p> <p><strong>[!UICONTROL Scientific]</strong>Wissenschaftliche Zahlenformatierung. Beispiel: <code>1. 01E+03</code></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabellen] </td> 
-   <td> <p>Klicken <strong>[!UICONTROL Hinzufügen]</strong> , um dem Arbeitsblatt ein Blatt hinzuzufügen. Geben Sie für jedes Blatt einen Titel für das Blatt und den Index des Blatts ein oder ordnen Sie ihn zu. Der Index 0 steht für das erste Blatt.</p> </td> 
+   <td> <p>Klicken Sie auf <strong>[!UICONTROL Add]</strong> , um dem Arbeitsblatt ein Blatt hinzuzufügen. Geben Sie für jedes Blatt einen Titel für das Blatt und den Index des Blatts ein oder ordnen Sie ihn zu. Der Index 0 steht für das erste Blatt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Blatt löschen]
+### [!UICONTROL Eine Tabelle löschen]
 
 Löscht ein bestimmtes Blatt.
 
@@ -482,11 +482,11 @@ Löscht ein bestimmtes Blatt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
-   <td> <p>Wählen Sie die [!DNL Google] Tabelle.</p> </td> 
+   <td> <p>Wählen Sie die Tabelle [!DNL Google] aus.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -505,11 +505,11 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihres [Fusion App]-Kontos mit [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [Fusion App]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Erstellen einer Verbindung mit [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td>Geben Sie einen Pfad relativ zu ein <code>https://sheets.googleapis.com/v4/</code>.</td> 
+   <td>Geben Sie einen Pfad relativ zu <code>https://sheets.googleapis.com/v4/</code> ein.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Methode]</p> </td> 
@@ -517,7 +517,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Header]</td> 
-   <td> <p>Fügen Sie die Header der Anforderung in Form eines standardmäßigen JSON-Objekts hinzu. Beispiel: <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] fügt die Autorisierungskopfzeilen für Sie hinzu.</p> </td> 
+   <td> <p>Fügen Sie die Header der Anfrage in Form eines standardmäßigen JSON-Objekts hinzu, z. B. <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] fügt die Autorisierungskopfzeilen für Sie hinzu.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Abfragezeichenfolge]</td> 
@@ -525,7 +525,7 @@ Mit diesem Aktionsmodul können Sie einen benutzerdefinierten API-Aufruf ausfüh
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Notiz:   <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:   <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -550,11 +550,11 @@ Sucht Zeilen mithilfe der Filteroptionen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden Ihres [Fusion App]-Kontos mit [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Erstellen Sie eine Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [Fusion App]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Erstellen einer Verbindung mit [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
-   <td> <p>Wählen Sie die [!DNL Google] Tabelle.</p> </td> 
+   <td> <p>Wählen Sie die Tabelle [!DNL Google] aus.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -582,7 +582,7 @@ Sucht Zeilen mithilfe der Filteroptionen.
   </tr> 
   <tr> 
    <td>[!UICONTROL Wert-Renderoption]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatierter Wert]</p> <p>Die Werte werden in der Antwort entsprechend der Zellenformatierung berechnet und formatiert. Die Formatierung basiert auf dem Gebietsschema des Arbeitsblatts, nicht auf dem Gebietsschema des anfordernden Benutzers. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde zurückgeben <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatierter Wert]</p> <p>Die Werte werden berechnet, aber in der Antwort nicht formatiert. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde die Zahl <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formel]</p> <p>Die Werte werden nicht berechnet. Die Antwort enthält die Formeln. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde zurückgeben <code>"=A1"</code>.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatierter Wert]</p> <p>Die Werte werden in der Antwort entsprechend der Zellenformatierung berechnet und formatiert. Die Formatierung basiert auf dem Gebietsschema des Arbeitsblatts, nicht auf dem Gebietsschema des anfordernden Benutzers. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> hat und als Währung formatiert ist, gibt <code>A2</code> den Wert <code>"$1.23"</code> zurück.</p> <p style="font-weight: bold;">[!UICONTROL Unformatierter Wert]</p> <p>Die Werte werden berechnet, aber in der Antwort nicht formatiert. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> aufweist und als Währung formatiert ist, gibt <code>A2</code> die Zahl <code>"1.23"</code> zurück.</p> <p style="font-weight: bold;">[!UICONTROL Formel]</p> <p>Die Werte werden nicht berechnet. Die Antwort enthält die Formeln. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> hat und als Währung formatiert ist, gibt <code>A2</code> den Wert <code>"=A1"</code> zurück.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Renderoption für Datum und Uhrzeit</td> 
@@ -590,7 +590,7 @@ Sucht Zeilen mithilfe der Filteroptionen.
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximale Anzahl der zurückgegebenen Zeilen]</td> 
-   <td>Legen Sie die maximale Anzahl von Zeilen fest, die [!DNL Workfront Fusion] wird während eines Ausführungszyklus zurückgegeben.</td> 
+   <td>Legen Sie die maximale Anzahl von Zeilen fest, die [!DNL Workfront Fusion] während eines Ausführungszyklus zurückgibt.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -605,7 +605,7 @@ Gibt Ergebnisse zurück, die den angegebenen Kriterien entsprechen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -617,7 +617,7 @@ Gibt Ergebnisse zurück, die den angegebenen Kriterien entsprechen.
   </tr> 
   <tr> 
    <td>[!UICONTROL Abfrage]</td> 
-   <td> <p>Verwenden Sie die [!DNL Google Charts Query Language]. Beispiel: <code>select * where B = "John"</code></p> <p>Weitere Informationen finden Sie unter [!DNL Google Charts Query Language], siehe <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Query Language Reference</a> im [!DNL Google] Dokumentation.</p> </td> 
+   <td> <p>Verwenden Sie den [!DNL Google Charts Query Language]. Beispiel: <code>select * where B = "John"</code></p> <p>Weitere Informationen zu [!DNL Google Charts Query Language] finden Sie unter <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Query Language Reference</a> in der Dokumentation zu [!DNL Google].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -630,11 +630,11 @@ Gibt Ergebnisse zurück, die den angegebenen Kriterien entsprechen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
-   <td> <p>Wählen Sie die [!DNL Google] Tabelle.</p> </td> 
+   <td> <p>Wählen Sie die Tabelle [!DNL Google] aus.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
@@ -649,12 +649,12 @@ Gibt Ergebnisse zurück, die den angegebenen Kriterien entsprechen.
    <td> <p>Aktivieren Sie dieses Kontrollkästchen, wenn das Blatt eine Kopfzeile enthält.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Zeile mit Kopfzeilen]</td> 
-   <td>Geben Sie den Bereich der Tabellenüberschriften ein. Beispiel <code>A1:F1</code>. Wenn Sie das Feld leer lassen, [!DNL Workfront Fusion] nimmt an, dass sich die Kopfzeile in der ersten Zeile des angegebenen Bereichs befindet.</td> 
+   <td>Zeile mit Kopfzeilen</td> 
+   <td>Geben Sie den Bereich der Tabellenüberschriften ein. Beispiel <code>A1:F1</code>. Wenn Sie das Feld leer lassen, geht [!DNL Workfront Fusion] davon aus, dass sich die Kopfzeile in der ersten Zeile des angegebenen Bereichs befindet.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Wert-Renderoption]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatierter Wert]</p> <p>Die Werte werden in der Antwort entsprechend der Zellenformatierung berechnet und formatiert. Die Formatierung basiert auf dem Gebietsschema des Arbeitsblatts, nicht auf dem Gebietsschema des anfordernden Benutzers. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde zurückgeben <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatierter Wert]</p> <p>Die Werte werden berechnet, aber in der Antwort nicht formatiert. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde die Zahl <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formel]</p> <p>Die Werte werden nicht berechnet. Die Antwort enthält die Formeln. Wenn beispielsweise <code>A1</code> is <code>1.23</code> und <code>A2</code> is <code>=A1</code> und als Währung formatiert, <code>A2</code> würde zurückgeben <code>"=A1"</code>.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatierter Wert]</p> <p>Die Werte werden in der Antwort entsprechend der Zellenformatierung berechnet und formatiert. Die Formatierung basiert auf dem Gebietsschema des Arbeitsblatts, nicht auf dem Gebietsschema des anfordernden Benutzers. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> hat und als Währung formatiert ist, gibt <code>A2</code> den Wert <code>"$1.23"</code> zurück.</p> <p style="font-weight: bold;">[!UICONTROL Unformatierter Wert]</p> <p>Die Werte werden berechnet, aber in der Antwort nicht formatiert. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> aufweist und als Währung formatiert ist, gibt <code>A2</code> die Zahl <code>"1.23"</code> zurück.</p> <p style="font-weight: bold;">[!UICONTROL Formel]</p> <p>Die Werte werden nicht berechnet. Die Antwort enthält die Formeln. Wenn beispielsweise <code>A1</code> den Wert <code>1.23</code> und <code>A2</code> den Wert <code>=A1</code> hat und als Währung formatiert ist, gibt <code>A2</code> den Wert <code>"=A1"</code> zurück.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Renderoption für Datum und Uhrzeit</td> 
@@ -665,7 +665,7 @@ Gibt Ergebnisse zurück, die den angegebenen Kriterien entsprechen.
 
 ### [!UICONTROL Listenblätter]
 
-Dieses Modul gibt eine Liste aller Arbeitsblätter in einer Tabelle zurück.
+Dieses Modul gibt eine Liste aller Arbeitsblätter in einem Arbeitsblatt zurück.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -673,11 +673,11 @@ Dieses Modul gibt eine Liste aller Arbeitsblätter in einer Tabelle zurück.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Verbinden der [!DNL Google Sheets] Konto [!DNL Workfront Fusion], siehe <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden Sie die App oder den Webdienst des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen Sie ein Szenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Sheets]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!DNL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tabelle] </td> 
-   <td> <p>Wählen Sie die [!DNL Google] -Tabelle, die die Tabellen enthält, die Sie auflisten möchten.</p> </td> 
+   <td> <p>Wählen Sie die [!DNL Google] -Tabelle aus, die die Tabellen enthält, die Sie auflisten möchten.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -686,34 +686,34 @@ Dieses Modul gibt eine Liste aller Arbeitsblätter in einer Tabelle zurück.
 
 Wenn der Fehler `429: RESOURCE_EXHAUSTED` auftritt, haben Sie das Limit der API-Rate überschritten.
 
-Die [!DNL Google Sheets] Die API erlaubt maximal 500 Anfragen pro 100 Sekunden pro Projekt und 100 Anfragen pro 100 Sekunden pro Benutzer. Beschränkungen für Lese- und Schreibvorgänge werden separat verfolgt. Es gibt keine tägliche Nutzungsbegrenzung.
+Die [!DNL Google Sheets] -API erlaubt maximal 500 Anfragen pro 100 Sekunden pro Projekt und 100 Anfragen pro 100 Sekunden pro Benutzer. Beschränkungen für Lese- und Schreibvorgänge werden separat verfolgt. Es gibt keine tägliche Nutzungsbegrenzung.
 
 Weitere Informationen finden Sie unter [developers.google.com/sheets/api/limits](https://developers.google.com/sheets/api/limits).
 
 ## Tipps und Tricks
 
-* [Wie Sie leere Zellen von einem [!DNL Google] Blatt](#how-to-get-empty-cells-from-a-google-sheet)
-* [Hinzufügen einer Schaltfläche in einem Arbeitsblatt, um ein Szenario auszuführen](#add-a-button-in-a-sheet-to-run-a-scenario)
+* [Abrufen leerer Zellen aus einem [!DNL Google] Blatt](#how-to-get-empty-cells-from-a-google-sheet)
+* [Hinzufügen einer Schaltfläche in einem Arbeitsblatt zur Ausführung eines Szenarios](#add-a-button-in-a-sheet-to-run-a-scenario)
 
-### Wie Sie leere Zellen von einem [!DNL Google Sheet]
+### Abrufen leerer Zellen von einem [!DNL Google Sheet]
 
-Verwenden Sie die [!UICONTROL Suchzeilen (erweitert)] -Modul und verwenden Sie diese Formel, um die leeren Spalten zu erhalten.
+Verwenden Sie das Modul [!UICONTROL Suchzeilen (erweitert)] und rufen Sie mit dieser Formel die leeren Spalten ab.
 <pre>select * where E is null</pre>Hier ist "E"die Spalte und "ist null"die Bedingung. Sie können eine erweiterte Abfrage mit [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage) erstellen.
 
-### Hinzufügen einer Schaltfläche in einem Arbeitsblatt, um ein Szenario auszuführen
+### Hinzufügen einer Schaltfläche in einem Arbeitsblatt zur Ausführung eines Szenarios
 
-1. In [!DNL Workfront Fusion], fügen Sie die **[!UICONTROL Webhook]** > **[!UICONTROL Benutzerdefinierte Webhooks]** -Modul/Trigger im Szenario ein und konfigurieren Sie es (siehe [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
+1. Fügen Sie in [!DNL Workfront Fusion] das Modul/den Trigger **[!UICONTROL Webhook]** > **[!UICONTROL Benutzerdefinierte Webhooks]** in das Szenario ein und konfigurieren Sie ihn (siehe [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
 
 1. Kopieren Sie die URL des Webhooks.
 1. Führen Sie das Szenario aus.
-1. Wählen Sie in Google Tabellen die Option **[!UICONTROL Einfügen]** > **[!UICONTROL Zeichnen]**... in der Hauptmenüleiste.
+1. Wählen Sie in Google Tabellen **[!UICONTROL Einfügen]** > **[!UICONTROL Zeichnen]**... aus der Hauptmenüleiste.
 
-1. Im [!UICONTROL Zeichnen] Fenster, klicken Sie auf **[!UICONTROL Textfeld]** icon ![](assets/text-box.png) am oberen Rand des Fensters.
-1. Erstellen Sie eine Schaltfläche und klicken Sie auf **[!UICONTROL Speichern und schließen]** in der oberen rechten Ecke:
+1. Klicken Sie im Fenster [!UICONTROL Zeichnen] auf das Symbol **[!UICONTROL Textfeld]** oben im Fenster ![](assets/text-box.png).
+1. Erstellen Sie eine Schaltfläche und klicken Sie oben rechts auf die Schaltfläche **[!UICONTROL Speichern und schließen]** :
 1. Die Schaltfläche wird in Ihr Arbeitsblatt eingefügt. Klicken Sie auf die drei vertikalen Punkte in der oberen rechten Ecke der Schaltfläche:
-1. Auswählen **[!UICONTROL Weisen Sie Skript zu.].** aus dem Menü.
-1. Geben Sie den Namen Ihres Scripts (der Funktion) ein, z. B. `runScenario` und klicken Sie auf **[!UICONTROL OK]**:
-1. Auswählen **[!UICONTROL Instrumente]** > **[!UICONTROL Skript-Editor]** in der Menüleiste des Hauptmenüs.
+1. Wählen Sie &quot;**[!UICONTROL Skript zuweisen&quot;aus.].** aus dem Menü.
+1. Geben Sie den Namen Ihres Skripts (Funktion) ein, z. B. `runScenario`, und klicken Sie auf **[!UICONTROL OK]**:
+1. Wählen Sie in der Hauptmenüleiste **[!UICONTROL Tools]** > **[!UICONTROL Skript-Editor]** aus.
 
 1. Fügen Sie den folgenden Code ein:
 
@@ -722,41 +722,41 @@ Verwenden Sie die [!UICONTROL Suchzeilen (erweitert)] -Modul und verwenden Sie d
 
      <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
 
-1. Presse **[!UICONTROL Strg+S]** Um die Skriptdatei zu speichern, geben Sie einen Projektnamen ein und klicken Sie auf **[!UICONTROL OK]**.
+1. Drücken Sie **[!UICONTROL Strg+S]**, um die Skriptdatei zu speichern, geben Sie einen Projektnamen ein und klicken Sie auf **[!UICONTROL OK]**.
 
-1. Zurück zu [!DNL Google Sheets] und klicken Sie auf Ihre neue Schaltfläche.
+1. Wechseln Sie zurück zu [!DNL Google Sheets] und klicken Sie auf Ihre neue Schaltfläche.
 1. Erteilen Sie dem Skript die erforderliche Autorisierung:
-1. In [!DNL Workfront Fusion], überprüfen Sie, ob das Szenario erfolgreich ausgeführt wurde.
+1. Überprüfen Sie in [!DNL Workfront Fusion], ob das Szenario erfolgreich ausgeführt wurde.
 
 ## Datum in einer Tabelle speichern
 
-Wenn Sie einen Datumswert in einer Tabelle ohne Formatierung speichern, wird dieser im Arbeitsblatt als Text im ISO 8601-Format angezeigt. Allerdings [!DNL Google Sheets] Formeln oder Funktionen, die mit Datumsangaben arbeiten, die diesen Text nicht verstehen (Beispiel: Formel `=A1+10`) zeigt den folgenden Fehler an:
+Wenn Sie einen Datumswert in einer Tabelle ohne Formatierung speichern, wird dieser im Arbeitsblatt als Text im ISO 8601-Format angezeigt. [!DNL Google Sheets] Formeln oder Funktionen, die mit Datumsangaben arbeiten, die diesen Text nicht verstehen (Beispiel: Formel `=A1+10`), zeigen jedoch den folgenden Fehler an:
 
 ![](assets/mceclip6-350x87.png)
 
-Hilfe bei der [!DNL Google Sheets] Um das Datum zu verstehen, formatieren Sie es mit dem [[!UICONTROL formatDate] (Datum; Format; [Zeitzone])](../../workfront-fusion/functions/date-and-time-functions.md#formatda) -Funktion. Das richtige Format, das an die Funktion übergeben wird, da das zweite Argument von den Gebietsschemaeinstellungen des Arbeitsblatts abhängt.
+Damit [!DNL Google Sheets] das Datum besser verstehen kann, formatieren Sie es mit der Funktion [[!UICONTROL formatDate] (date; format; [timezone])](../../workfront-fusion/functions/date-and-time-functions.md#formatda). Das richtige Format, das an die Funktion übergeben wird, da das zweite Argument von den Gebietsschemaeinstellungen des Arbeitsblatts abhängt.
 
 So bestimmen Sie das richtige Format:
 
-1. Auswählen **[!UICONTROL Datei]** > **[!UICONTROL Tabelle]** Einstellungen aus dem Hauptmenü, um das Gebietsschema zu überprüfen/festzulegen.
+1. Wählen Sie im Hauptmenü die Einstellungen **[!UICONTROL Datei]** > **[!UICONTROL Tabellenblatt]** aus, um das Gebietsschema zu überprüfen/festzulegen.
 
-1. Nachdem Sie das richtige Gebietsschema überprüft/festgelegt haben, legen Sie das entsprechende Datums- und Uhrzeitformat fest, indem Sie **[!UICONTROL Format]** > **[!UICONTROL Zahl]** aus dem Hauptmenü. Das Format wird neben dem Menüelement Datum/Uhrzeit angezeigt:
+1. Nachdem Sie das richtige Gebietsschema überprüft/festgelegt haben, bestimmen Sie das entsprechende Datums- und Uhrzeitformat, indem Sie im Hauptmenü die Option **[!UICONTROL Format]** > **[!UICONTROL Nummer]** auswählen. Das Format wird neben dem Menüelement Datum/Uhrzeit angezeigt:
 
-1. So erstellen Sie das richtige Format, das an die [!UICONTROL formatDate()] -Funktion, siehe Liste der [Token für die Datums- und Uhrzeitformatierung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
+1. Um das richtige Format zu erstellen, das an die Funktion [!UICONTROL formatDate()] übergeben werden soll, lesen Sie die Liste der [Token für die Formatierung von Datum und Uhrzeit in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
 
-**Beispiel:** Die Verwendung von `MM/DD/YYYY HH:mm:ss` Format für das Gebietsschema USA:
+**Beispiel:** Die Verwendung des `MM/DD/YYYY HH:mm:ss` -Formats für das Gebietsschema USA:
 
 ![](assets/locale-time-350x83.png)
 
-## Ausbeutung [!DNL Google Sheets] Funktionen
+## Funktionen von [!DNL Google Sheets] nutzen
 
-Wenn Sie eine integrierte Funktion vermissen, diese jedoch von [!DNL Google Sheets], können Sie es ausnutzen. Weitere Informationen finden Sie unter [Verwendung [!DNL Google Sheets] Funktionen](../../workfront-fusion/functions/map-using-functions.md#exploiti) in [Elemente mithilfe von Funktionen in zuordnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md) .
+Wenn Sie eine integrierte Funktion vermissen, diese jedoch durch [!DNL Google Sheets] gekennzeichnet ist, können Sie sie nutzen. Weitere Informationen finden Sie unter [Verwenden von [!DNL Google Sheets] Funktionen](../../workfront-fusion/functions/map-using-functions.md#exploiti) in [Ordnen Sie Elemente mithilfe von Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md) zu.
 
-## Keep [!DNL Google Sheets] von Zahlen in Daten ändern
+## Vermeiden Sie es von [!DNL Google Sheets], Zahlen in Daten zu ändern
 
-Möglicherweise wird eine Zeichenfolge von Zahlen, die Sie als Text verwenden, als Datum in einer [!DNL Google] Arbeitsblatt. Sie geben beispielsweise 1-2019 ein, beabsichtigen es als Text, aber Google interpretiert es als Datum. Sie können die Zahl als Text vorformatieren, um dies zu verhindern.
+Möglicherweise wird eine Zeichenfolge mit Zahlen, die Sie als Text verwenden, als Datum in einem [!DNL Google] -Arbeitsblatt interpretiert. Sie geben beispielsweise 1-2019 ein, beabsichtigen es als Text, aber Google interpretiert es als Datum. Sie können die Zahl als Text vorformatieren, um dies zu verhindern.
 
-1. In [!DNL Google Sheets], markieren Sie die Spalte oder Zelle, die die Zahl(n) enthält.
-1. Klicken **[!UICONTROL Format]** > **[!UICONTROL Zahl]** > **[!UICONTROL Nur Text]**.
+1. Markieren Sie in [!DNL Google Sheets] die Spalte oder Zelle, die die Zahl oder die Zahlen enthält.
+1. Klicken Sie auf **[!UICONTROL Format]** > **[!UICONTROL Zahl]** > **[!UICONTROL Klartext]**.
 
-Eine weitere Behelfslösung in [!DNL Workfront Fusion] ein Apostroph (&#39;) vor einer Zahl eingeben, z. B. &#39;1-2019 oder &#39;1/47. Das Apostroph wird nicht in der Zelle angezeigt, nachdem die Daten von [!DNL Workfront Fusion].
+Eine weitere Problemumgehung in [!DNL Workfront Fusion] besteht darin, vor einer Zahl ein Apostroph (&#39;) einzugeben, z. B. &quot;1-2019&quot;oder &quot;1/47&quot;. Der Apostroph wird nicht in der Zelle angezeigt, nachdem die Daten von [!DNL Workfront Fusion] gesendet wurden.

@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für eine Vorlage</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für eine Vorlage</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,10 +69,10 @@ Die folgenden Elemente werden nie aus einem vorhandenen Projekt in ein neues kop
 ## Eine Vorlage kopieren
 
 1. Markieren Sie die Vorlage, die Sie kopieren möchten.
-1. Klicken Sie auf **Mehr** Menü ![](assets/qs-more-icon-on-an-object.png)Klicken Sie auf **Kopieren**.
-1. Geben Sie einen Namen für die Vorlage im **Name der neuen Vorlage** -Feld.
+1. Klicken Sie auf das Menü **Mehr** ![](assets/qs-more-icon-on-an-object.png) und dann auf **Kopieren**.
+1. Geben Sie im Feld **Neuer Vorlagenname** einen Namen für die Vorlage an.
 
    Standardmäßig lautet der neue Name **Kopie von `<original template name>`.**
 
-1. Auswählen, ob Sie **Benutzerzuweisungen für Aufgaben und Vorlagen beibehalten**: Wählen Sie diese Option, um alle Aufgaben- und Vorlagenzuweisungen aus der ursprünglichen Vorlage in die neue Vorlage zu übertragen.
-1. Klicks **Speichern** , um eine Kopie der Vorlage zu erstellen.
+1. Wählen Sie aus, ob Sie **Benutzerzuweisungen für Aufgaben und Vorlagen beibehalten** möchten: Wählen Sie diese Option aus, um alle Aufgaben- und Vorlagenzuweisungen aus der ursprünglichen Vorlage in die neue Vorlage zu übertragen.
+1. Klicken Sie auf **Speichern** , um eine Kopie der Vorlage zu erstellen.

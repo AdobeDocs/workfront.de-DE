@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 40%
+source-wordcount: '498'
+ht-degree: 43%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 40%
   <tr> 
    <th>Felder</th> 
    <th>Verweise</th> 
-   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Sammlungen</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
+   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Sammlungen</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">++++++++++++ </p> </th> 
    <th>Suchen</th> 
    <th>Aktionen</th> 
    <th>Abfragen</th> 
@@ -66,7 +66,7 @@ ht-degree: 40%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Anzahl </td> 
+   <td>Count </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -102,7 +102,7 @@ ht-degree: 40%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Suchen </td> 
+   <td>Suche </td> 
   </tr> 
  </tbody> 
 </table>
@@ -244,7 +244,7 @@ ht-degree: 40%
 
 ### AccessRule<sup>1</sup>
 
-<sup>1</sup> Als meldepflichtig markiert
+<sup>1</sup> Gekennzeichnet als berichtspflichtig
 
  
 
@@ -258,7 +258,7 @@ ht-degree: 40%
 
   
 
-### Validierungspfad<sup>1</sup>
+### Genehmigungspfad<sup>1</sup>
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -268,7 +268,7 @@ ht-degree: 40%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Entferntes berichtspflichtiges Flag
+<sup>1</sup> Reportfähige Markierung entfernt
 
  
 
@@ -284,7 +284,7 @@ ht-degree: 40%
 
 <sup>1</sup> Datumsvalidierung hinzugefügt
 
-<sup>2</sup> Nicht-filterbare Markierung hinzugefügt
+<sup>2</sup> Flag nicht_filtern hinzugefügt
 
  
 
@@ -298,7 +298,7 @@ ht-degree: 40%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Feld includeIssues hinzugefügt
+<sup>1</sup> Feld &quot;includeIssues&quot;hinzugefügt
 
  
 
@@ -314,7 +314,7 @@ ht-degree: 40%
 
  
 
-### Benutzerdefinierte Enumeration 
+### Benutzerdefinierte Enum 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -353,7 +353,7 @@ ht-degree: 40%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderung des PRÄZISION-Validators für 8 bis 9
+<sup>1</sup> Änderung des PRÄZISIONSvalidators für 8 bis 9
 
  
 
@@ -459,7 +459,7 @@ ht-degree: 40%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Typ geändert von &quot;Int&quot;zu &quot;Double&quot; 
+<sup>1</sup> Typ geändert von &quot;int&quot;zu &quot;double&quot; 
 
  
 

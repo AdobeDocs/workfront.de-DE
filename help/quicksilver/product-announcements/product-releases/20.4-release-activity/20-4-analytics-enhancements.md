@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Analyseverbesserungen beschrieben, die mit Version 20.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab dem 9. November 2020 verfügbar sein.
 
-Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [20.4 - Versionsübersicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Paginierung und Sortierung zu erweiterten Analysen hinzugefügt
 
@@ -29,4 +29,4 @@ Damit Sie die gewünschten Informationen anzeigen können, ohne restriktive Filt
 
 Zuvor wurde die Anzahl der Projekte, die Sie ansehen konnten, im Bereich &quot;Erweiterte Analyse&quot;auf 50 begrenzt.
 
-Diese Funktion ist jetzt im [Verbesserte Analytics, Lernpfad in Teil 1](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) auf Workfront One.
+Diese Funktion ist jetzt im Lernpfad [Verbesserte Analytics, Teil 1 des Lernpfads](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) in Workfront One enthalten.

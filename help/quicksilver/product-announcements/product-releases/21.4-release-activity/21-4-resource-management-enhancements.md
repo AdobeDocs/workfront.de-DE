@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 21.4 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Schnelle Zuweisungen im Arbeitslastausgleich vornehmen
 
@@ -25,7 +25,7 @@ Sie können jetzt effizient Ressourcen im Arbeitslastausgleich mit minimalen Kli
 
 Vor dieser Verbesserung konnten Sie nur Elemente zuweisen, indem Sie auf das Menü Mehr einer Aufgabe oder eines Problems und dann auf Zuweisen klicken. Jetzt werden die dem Benutzer zugewiesenen geplanten Stunden beim Ziehen der Aufgaben in Echtzeit aktualisiert.
 
-Informationen zum Zuweisen von Arbeitselementen im Arbeitslastausgleich finden Sie unter [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Informationen zum Zuweisen von Arbeitselementen im Arbeitslastausgleich finden Sie unter [Übersicht über die Zuweisung von Arbeit im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Neue Standardoption für den Lastenausgleich
 
@@ -48,5 +48,5 @@ Weitere Informationen finden Sie unter [Verwalten von Filtern im Lastenausgleich
 
 >[!NOTE]
 >
->Mit den Filteraktualisierungen haben wir die **Alle Arbeitselemente** und **Die Arbeitselemente dieses Projekts** integrierte Filter im Arbeitslastausgleich eines Projekts.
+>Mit den Filteraktualisierungen haben wir die integrierten Filter **Alle Arbeitselemente** und **Die Arbeitselemente dieses Projekts** im Arbeitslastausgleich eines Projekts eliminiert.
 

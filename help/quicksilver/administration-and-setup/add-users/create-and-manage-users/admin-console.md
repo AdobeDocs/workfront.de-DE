@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >Die Funktion in diesem Artikel ist nur verfügbar, wenn die Workfront-Instanz Ihres Unternehmens in der Adobe Business Platform integriert wurde.
 >
->Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Vorgehensweisen, die sich je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Als Adobe-Administrator können Sie Adobe Workfront-Systemadministratoren mithilfe von Adobe Admin Console erstellen. Die Konsole ist ein zentraler Speicherort für die Verwaltung der Adobe-Berechtigungen in Ihrem gesamten Unternehmen. Weitere Informationen finden Sie unter [Übersicht über Admin Consolen](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
+Als Adobe-Administrator können Sie Adobe Workfront-Systemadministratoren mithilfe von Adobe Admin Console erstellen. Die Konsole ist ein zentraler Speicherort für die Verwaltung der Adobe-Berechtigungen in Ihrem gesamten Unternehmen. Weitere Informationen finden Sie in der [Admin Console-Übersicht](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Bevor Sie die Admin Console für Workfront verwenden, sollten Sie eine E-Mail er
 
    Oder
 
-   Wenn Sie bereits über ein Adobe-Konto verfügen, gehen Sie zum [Adobe Admin Console-Seite](https://adminconsole.adobe.com/).
+   Wenn Sie bereits über ein Adobe-Konto verfügen, wechseln Sie zur Seite [Adobe Admin Console](https://adminconsole.adobe.com/).
 
 ## Weitere Informationen zum Adobe Admin Console
 
@@ -69,7 +69,7 @@ Bevor Sie die Admin Console für Workfront verwenden, sollten Sie eine E-Mail er
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
   -->
 
-* Der Benutzer **Startseite** wird anhand des Benutzers bestimmt, der sie erstellt hat. Dies kann nicht innerhalb der Admin Console angepasst werden.
+* Der Benutzer **Home Group** wird anhand des Benutzers bestimmt, der ihn erstellt hat. Dies kann nicht innerhalb der Admin Console angepasst werden.
 * Die Zugriffsstufe &quot;Systemadministrator&quot;von Workfront kann nur in der Adobe Admin Console bearbeitet werden.
 
   <!--
@@ -92,7 +92,7 @@ Bevor Sie die Admin Console für Workfront verwenden, sollten Sie eine E-Mail er
 
 ## Zugriff auf den Benutzer- und Administratorbereich für Ihre Produktionsinstanz von Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. Aus dem [Adobe Admin Console-Seite](https://adminconsole.adobe.com/), wählen Sie die **Produkte** in der oberen Navigationsleiste ein und wählen Sie dann **Workfront**.
+1. Wählen Sie auf der Seite [Adobe Admin Console](https://adminconsole.adobe.com/) die Registerkarte **Produkte** in der oberen Navigationsleiste und dann **Workfront** aus.
 
    <!--![](assets/admin-product-1.png)-->
 
@@ -109,7 +109,7 @@ Bevor Sie die Admin Console für Workfront verwenden, sollten Sie eine E-Mail er
    >
    >Möglicherweise werden in der Liste auch Links zu Sandbox-Umgebungen angezeigt. Weitere Informationen finden Sie unter [Die Adobe Workfront-Vorschau-Sandbox-Umgebung](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-1. In der Liste, die angezeigt wird, mit dem **Produktprofile** auf den Namen des Workfront-Produktprofils klicken.
+1. Klicken Sie in der angezeigten Liste mit der ausgewählten Registerkarte **Produktprofile** auf den Namen des Workfront-Produktprofils.
 
    ![](assets/prod-profile-1.png)
 
@@ -121,7 +121,7 @@ Bevor Sie die Admin Console für Workfront verwenden, sollten Sie eine E-Mail er
 
 1. Fahren Sie mit einem der folgenden Abschnitte in diesem Artikel fort:
 
-   * [Erstellen von Benutzern in Workfront mit Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console)
+   * [Erstellen von Benutzern in Workfront mit der Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console)
    * [Erstellen von Systemadministratoren in Workfront mit Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console)
 
 ## Erstellen von Systemadministratoren in Workfront mit Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
@@ -132,10 +132,10 @@ Die Zugriffsebene für Systemadministratoren wird nur auf der Adobe Admin Consol
 
 Sie müssen einen Benutzer zu Ihrer Produktionsinstanz von Workfront hinzufügen, bevor Sie ihn zu einem Workfront-Systemadministrator machen können.
 
-1. Navigieren Sie zum Benutzer- und Administratorbereich der Admin Console, wie im Abschnitt beschrieben. [Zugriff auf den Benutzer- und Administratorbereich für Ihre Produktionsinstanz von Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in diesem Artikel.
-1. Wählen Sie die **Administratoren** oberhalb der Benutzerliste.
-1. Auswählen **Admin hinzufügen**.
-1. Im **Produktprofiladministratoren hinzufügen** Geben Sie die E-Mail-Adressen oder Namen der Administratoren ein, die Sie hinzufügen möchten, und wählen Sie **Speichern**.
+1. Wechseln Sie in der Admin Console zum Benutzer- und Administratorbereich, wie im Abschnitt [Zugriff auf den Benutzer- und Administratorbereich für Ihre Produktionsinstanz von Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in diesem Artikel beschrieben.
+1. Wählen Sie die Registerkarte **Administratoren** über der Liste der Benutzer aus.
+1. Wählen Sie **Admin hinzufügen** aus.
+1. Geben Sie in das Feld **Produktprofiladministratoren hinzufügen** die E-Mail-Adressen oder Namen der Administratoren ein, die Sie hinzufügen möchten, und wählen Sie dann **Speichern** aus.
 
    ![](assets/add-admin-1.png)
 
@@ -157,9 +157,9 @@ Sie müssen einen Benutzer zu Ihrer Produktionsinstanz von Workfront hinzufügen
 
 ### Erstellen von Benutzern in Workfront direkt in der Adobe Admin Console
 
-1. Navigieren Sie zum Benutzer- und Administratorbereich der Admin Console, wie im Abschnitt beschrieben. [Zugriff auf den Benutzer- und Administratorbereich für Ihre Produktionsinstanz von Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in diesem Artikel.
-1. Mit dem **Benutzer** oberhalb der Liste ausgewählte Registerkarte, wählen Sie **Benutzer hinzufügen**.
-1. Im **Benutzer zu diesem Produktprofil hinzufügen** Geben Sie die E-Mail-Adresse oder den Namen eines Benutzers ein, den Sie hinzufügen möchten, und wählen Sie **Speichern**.
+1. Wechseln Sie in der Admin Console zum Benutzer- und Administratorbereich, wie im Abschnitt [Zugriff auf den Benutzer- und Administratorbereich für Ihre Produktionsinstanz von Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in diesem Artikel beschrieben.
+1. Wählen Sie bei ausgewählter Registerkarte **Benutzer** oberhalb der Liste die Option **Benutzer hinzufügen** aus.
+1. Geben Sie in das Feld **Benutzer zu diesem Produktprofil hinzufügen** die E-Mail-Adresse oder den Namen eines Benutzers ein, den Sie hinzufügen möchten, und wählen Sie dann **Speichern** aus.
 
    Der Benutzer wird in Workfront mit der Zugriffsstufe Anforderer erstellt.
 
@@ -169,7 +169,7 @@ Sie müssen einen Benutzer zu Ihrer Produktionsinstanz von Workfront hinzufügen
 
 1. Ändern Sie in Workfront die Zugriffsebene des Benutzers.
 
-   Anweisungen dazu, wie ein Workfront-Administrator die Zugriffsstufe eines Benutzers ändern kann, finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Anweisungen dazu, wie ein Workfront-Administrator die Zugriffsebene des Benutzers ändern kann, finden Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. Wiederholen Sie die Schritte 3 und 4, um weitere Benutzer hinzuzufügen.
 
@@ -197,13 +197,13 @@ So genehmigen Sie einen Benutzer:
 
 {{step-1-to-users}}
 
-1. Wählen Sie den Benutzer aus und klicken Sie dann auf das **Mehr** icon ![](assets/more-icon.png).
+1. Wählen Sie den Benutzer aus und klicken Sie dann auf das Symbol **Mehr** ![](assets/more-icon.png).
 
-1. Klicken Sie zur Genehmigung des Benutzers auf **Genehmigen** Klicken Sie auf **Einsenden**.
+1. Um den Benutzer zu genehmigen, klicken Sie auf **Genehmigen** und dann auf **Senden**.
 
    Oder
 
-   Um den Benutzer abzulehnen und ihn aus Workfront zu löschen, klicken Sie auf **Ablehnen** Klicken Sie auf **Einsenden**.
+   Um den Benutzer abzulehnen und ihn aus Workfront zu löschen, klicken Sie auf **Ablehnen** und dann auf **Senden**.
 
    Genehmigte Benutzer werden automatisch zur Adobe Admin Console hinzugefügt.
 

@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Datenspeicher in [!DNL Adobe Workfront Fusion]
+title: Datenspeicher in  [!DNL Adobe Workfront Fusion]
 description: Ein Datenspeicher, der einer Datenbank oder einer einfachen Tabelle ähnelt, kann Daten aus Szenarien speichern und so die Übertragung von Daten zwischen einzelnen Szenarien oder Szenario-Läufen ermöglichen. Sie können einen Datenspeicher verwenden, um während der Synchronisierung neue Daten aus verschiedenen Systemen zu speichern.
 author: Becky
 feature: Workfront Fusion
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Ein Datenspeicher, der einer Datenbank oder einer einfachen Tabelle ähnelt, kann Daten aus Szenarien speichern und so die Übertragung von Daten zwischen einzelnen Szenarien oder Szenario-Läufen ermöglichen. Sie können einen Datenspeicher verwenden, um während der Synchronisierung neue Daten aus verschiedenen Systemen zu speichern.
 
-Mit den Datenspeichermodulen können Sie die folgenden Aktionen für Datensätze in Ihren [!DNL Adobe Workfront Fusion] Datenspeicher:
+Mit den Datenspeichermodulen können Sie die folgenden Aktionen für Datensätze in Ihrem [!DNL Adobe Workfront Fusion] -Datenspeicher ausführen:
 
 * Hinzufügen
 * Ersetzen
@@ -29,7 +29,7 @@ Mit den Datenspeichermodulen können Sie die folgenden Aktionen für Datensätze
 * Suchen
 * Anzahl
 
-Informationen zur Verwendung von Datenspeichermodulen finden Sie unter [[!UICONTROL Datenspeicher] Module](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+Informationen zur Verwendung von Datenspeichermodulen finden Sie unter [[!UICONTROL Datenspeicher] -Module](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 Eine Videoeinführung zu Datenspeichern in Workfront Fusion finden Sie unter:
 
@@ -54,7 +54,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuell: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p>
    <p>Oder</p>
    <p>Veraltet: Beliebig </p>
    </td> 
@@ -62,17 +62,17 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul>
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul>
    <p>Oder</p>
-   <p>Aktuell: Ihr Unternehmen muss Einkäufe tätigen [!DNL Adobe Workfront Fusion].</p>
+   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Datenspeicherplatz verfügbar
 
@@ -99,27 +99,27 @@ Fusionsinstanzen in den Select- oder Prime-Paketen erhalten:—>
 
 Ihr Unternehmen kann über bis zu 50 Datenspeicher verfügen. Die kombinierte Größe dieser Datenspeicher darf die Gesamtdatenspeichergröße Ihres Unternehmens nicht überschreiten.
 
-## Erstellen Sie einen Datenspeicher in [!DNL Workfront Fusion]
+## Erstellen eines Datenspeichers in [!DNL Workfront Fusion]
 
 * [Datenspeicher einrichten](#set-up-the-data-store)
 * [Einrichten der Datenstruktur](#set-up-the-data-structure)
 
 ### Datenspeicher einrichten
 
-Bevor Sie einen Datenspeicher in einem Modul verwenden können, müssen Sie den Datenspeicher in [!DNL Workfront Fusion].
+Bevor Sie einen Datenspeicher in einem Modul verwenden können, müssen Sie den Datenspeicher in [!DNL Workfront Fusion] erstellen.
 
 >[!NOTE]
 >
->Ihre Organisation verfügt über eine begrenzte Anzahl verfügbarer Datenspeicher. Wenn Sie versuchen, mehr Datenspeicher zu erstellen, als verfügbar sind, [!DNL Workfront] gibt eine [!UICONTROL Maximale Anzahl der erreichten Filialen] Fehler.
+>Ihre Organisation verfügt über eine begrenzte Anzahl verfügbarer Datenspeicher. Wenn Sie versuchen, mehr Datenspeicher als verfügbar zu erstellen, gibt [!DNL Workfront] den Fehler [!UICONTROL Maximale Speicherkapazität erreicht] zurück.
 >
->Weitere Informationen finden Sie unter [Fehler &quot;Maximale Speicheranzahl erreicht&quot;](#maximum-stores-reached-error) in diesem Artikel.
+>Weitere Informationen finden Sie unter [Maximale Speicherkapazität erreicht Fehler](#maximum-stores-reached-error) in diesem Artikel.
 
-1. Melden Sie sich bei Ihrer [!DNL Workfront Fusion] -Konto.
-1. Klicks **[!UICONTROL Datenspeicher]** im linken Navigationsbereich.
-1. Klicks **[!UICONTROL Datenspeicher hinzufügen]** in der oberen rechten Ecke des Bildschirms.
+1. Melden Sie sich bei Ihrem [!DNL Workfront Fusion] -Konto an.
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Datenspeicher]** .
+1. Klicken Sie oben rechts im Bildschirm auf **[!UICONTROL Datenspeicher hinzufügen]** .
 1. Geben Sie Einstellungen für den neuen Datenspeicher ein.
 
-   Ein fett hervorgehobener Titel auf einem Feld in einem [!DNL Workfront Fusion] -Modul gibt eine erforderliche Einstellung an.
+   Ein fett hervorgehobener Titel auf einem Feld in einem [!DNL Workfront Fusion]-Modul zeigt eine erforderliche Einstellung an.
 
    <table style="table-layout:auto">
     <col> 
@@ -134,7 +134,7 @@ Bevor Sie einen Datenspeicher in einem Modul verwenden können, müssen Sie den 
       <td> <p>Eine Datenstruktur ist eine Liste der Spalten für eine Tabelle. Diese Liste zeigt den Spaltennamen und den Datentyp an.</p> <p>Führen Sie einen der folgenden Schritte aus:</p> 
        <ul> 
         <li style="font-weight: bold;">Wählen Sie eine bereits erstellte Datenstruktur aus.</li> 
-        <li> <p style="font-weight: bold;">Neue Datenstruktur hinzufügen</p> <p>Klicks <strong>[!UICONTROL Hinzufügen]</strong> , um eine neue Datenstruktur zu erstellen.</p> <p>Weitere Informationen finden Sie unter <a href="#set-up-the-data-structure" class="MCXref xref">Einrichten der Datenstruktur</a> in diesem Artikel beschrieben.</p> </li> 
+        <li> <p style="font-weight: bold;">Neue Datenstruktur hinzufügen</p> <p>Klicken Sie auf <strong>[!UICONTROL Add]</strong> , um eine neue Datenstruktur zu erstellen.</p> <p>Weitere Informationen finden Sie im Abschnitt <a href="#set-up-the-data-structure" class="MCXref xref">Einrichten der Datenstruktur</a> in diesem Artikel.</p> </li> 
         <li style="font-weight: bold;"> <p>Lassen Sie das Feld leer</p> <p style="font-weight: normal;">Wenn Sie keine Datenstruktur auswählen oder hinzufügen, enthält die Datenbank nur den Primärschlüssel. Ein solcher Datenbanktyp ist nützlich, wenn Sie nur Schlüssel speichern möchten und nur wissen möchten, ob ein bestimmter Schlüssel in der Datenbank vorhanden ist oder nicht.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -148,7 +148,7 @@ Bevor Sie einen Datenspeicher in einem Modul verwenden können, müssen Sie den 
 ### Einrichten der Datenstruktur
 
 1. Klicken Sie beim Erstellen oder Bearbeiten eines Datenspeichers auf **[!UICONTROL Hinzufügen]**.
-1. Im **[!UICONTROL Datenstruktur hinzufügen]** konfigurieren Sie die folgenden Felder, die angezeigt werden:
+1. Konfigurieren Sie im angezeigten Feld **[!UICONTROL Datenstruktur hinzufügen]** die folgenden Felder:
 
    <table style="table-layout:auto">
     <col> 
@@ -162,8 +162,8 @@ Bevor Sie einen Datenspeicher in einem Modul verwenden können, müssen Sie den 
       <td> <p>[!UICONTROL Spezifikation]</p> </td> 
       <td> <p>Führen Sie einen der folgenden Schritte aus, um die Spalten Ihres Datenspeichers einzurichten.</p> 
        <ul> 
-        <li> <p>Klicks <strong>[!UICONTROL Element hinzufügen]</strong> um die Eigenschaften einer Spalte manuell anzugeben.</p> <p>Geben Sie die <strong>[!UICONTROL Name]</strong> und <strong>[!UICONTROL Typ]</strong> für die Datenspeicherspalte erstellen und entsprechende Eigenschaften definieren.</p> </li> 
-        <li> <p>Klicks <strong>[!UICONTROL Generator]</strong> , um die Spalten aus den von Ihnen angegebenen Beispieldaten zu bestimmen.</p> 
+        <li> <p>Klicken Sie auf <strong>[!UICONTROL Element hinzufügen]</strong> , um die Eigenschaften einer Spalte manuell anzugeben.</p> <p>Geben Sie den <strong>[!UICONTROL Namen]</strong> und den <strong>[!UICONTROL Typ]</strong> für die Datenspeicherspalte ein und definieren Sie die entsprechenden Eigenschaften.</p> </li> 
+        <li> <p>Klicken Sie auf <strong>[!UICONTROL Generator]</strong> , um die Spalten aus den von Ihnen angegebenen Beispieldaten zu bestimmen.</p> 
          <div class="example" data-mc-autonum="<b>Example: </b>">
           <span class="autonumber"><span><b>Beispiel: </b></span></span> 
           <p>Beispielsweise werden mit den folgenden JSON-Beispieldaten drei Spalten erstellt: Name, Alter und Telefonnummer. Die Telefonnummer ist eine Sammlung von Mobiltelefon- und Festnetztelefonnummern.</p> 
@@ -177,7 +177,7 @@ Bevor Sie einen Datenspeicher in einem Modul verwenden können, müssen Sie den 
           <p><code>&rbrace;</code> </p> 
           <p>Die leeren Spalten in der Datenspeicheransicht:</p> 
           <p> <img src="assets/empty-columns-350x132.png" style="width: 350;height: 132;"> </p> 
-          <p>Anschließend können Sie Werte manuell oder mithilfe der Variablen [!DNL Workfront Fusion] Datenspeichermodule.</p> 
+          <p>Anschließend können Sie dem Datenspeicher Werte manuell oder mithilfe der [!DNL Workfront Fusion] -Datenspeichermodule hinzufügen.</p> 
          </div> </li> 
        </ul> </td> 
      </tr> 
@@ -190,7 +190,7 @@ Bevor Sie einen Datenspeicher in einem Modul verwenden können, müssen Sie den 
 
 ## Vorhandenen Datenspeicher bearbeiten
 
-Sie können die Eigenschaften und Inhalte eines vorhandenen Datenspeichers im [!UICONTROL Datenspeicher] Gebiet von [!DNL Workfront Fusion].
+Sie können die Eigenschaften und Inhalte eines vorhandenen Datenspeichers im Bereich [!UICONTROL Datenspeicher] von [!DNL Workfront Fusion] bearbeiten.
 
 * [Eigenschaften eines Datenspeichers bearbeiten](#edit-the-properties-of-a-data-store)
 * [Inhalt eines Datenspeichers bearbeiten](#edit-the-contents-of-a-data-store)
@@ -199,24 +199,24 @@ Sie können die Eigenschaften und Inhalte eines vorhandenen Datenspeichers im [!
 
 Zu den Eigenschaften eines Datenspeichers gehören die vom Datenspeicher verwendete Datenstruktur sowie die Größe des Datenspeichers.
 
-1. Klicks **[!UICONTROL Datenspeicher]** ![](assets/data-store-icon.png) im linken Navigationsbereich, um die [!UICONTROL Datenspeicher] Bereich.
-1. Klicks **[!UICONTROL Bearbeiten]** ![](assets/data-store-edit.png) neben dem Datenspeicher, den Sie bearbeiten möchten.
-1. (Optional) Wenn Sie die von diesem Datenspeicher verwendete Datenstruktur in eine andere vorhandene Datenstruktur ändern möchten, wählen Sie sie aus dem **[!UICONTROL Datenstruktur]** angezeigt.
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Datenspeicher]** ![](assets/data-store-icon.png) , um den Bereich [!UICONTROL Datenspeicher] zu öffnen.
+1. Klicken Sie neben dem zu bearbeitenden Datenspeicher auf **[!UICONTROL Bearbeiten]** ![](assets/data-store-edit.png) .
+1. (Optional) Wenn Sie die von diesem Datenspeicher verwendete Datenstruktur in eine andere vorhandene Datenstruktur ändern möchten, wählen Sie sie aus der Dropdownliste **[!UICONTROL Datenstruktur]** aus.
 
    Oder
 
-   (Optional) Wenn Sie die von diesem Datenspeicher verwendete Datenstruktur in eine völlig neue Datenstruktur ändern möchten, lesen Sie [Einrichten der Datenstruktur](#set-up-the-data-structure) in diesem Artikel.
+   (Optional) Wenn Sie die von diesem Datenspeicher verwendete Datenstruktur in eine völlig neue Datenstruktur ändern möchten, finden Sie weitere Informationen unter [Einrichten der Datenstruktur](#set-up-the-data-structure) in diesem Artikel.
 
-1. (Optional) Ändern Sie die Größe des Datenspeichers, indem Sie die neue Größe in die **[!UICONTROL Datenspeichergröße in MB]** -Feld.
+1. (Optional) Ändern Sie die Größe des Datenspeichers, indem Sie die neue Größe in das Feld **[!UICONTROL Datenspeichergröße in MB]** eingeben.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ### Inhalt eines Datenspeichers bearbeiten
 
-1. Klicken Sie auf **[!UICONTROL Datenspeicher]** icon ![](assets/data-store-icon.png) im linken Navigationsbereich, um die [!UICONTROL Datenspeicher] Bereich.
-1. Klicks **[!UICONTROL Durchsuchen]**  neben dem Datenspeicher, den Sie bearbeiten möchten.
+1. Klicken Sie im linken Navigationsbereich auf das Symbol **[!UICONTROL Datenspeicher]** ![](assets/data-store-icon.png) , um den Bereich [!UICONTROL Datenspeicher] zu öffnen.
+1. Klicken Sie neben dem zu bearbeitenden Datenspeicher auf **[!UICONTROL Durchsuchen]** .
 1. (Optional) Ordnen Sie die Spalten neu an, indem Sie sie an die gewünschte Position ziehen.
-1. (Optional) [!UICONTROL Bearbeiten] durch Klicken auf die **[!UICONTROL Bearbeiten]** -Symbol in dieser Zelle und geben Sie dann den gewünschten Wert ein.
-1. (Optional) Fügen Sie dem Datenspeicher ein neues Element hinzu, indem Sie auf **[!UICONTROL Hinzufügen]** und geben Sie dann die Informationen für das neue Element ein.
+1. (Optional) [!UICONTROL Bearbeiten] Sie eine einzelne Zelle, indem Sie auf das Symbol **[!UICONTROL Bearbeiten]** in dieser Zelle klicken und dann den gewünschten Wert eingeben.
+1. (Optional) Fügen Sie dem Datenspeicher ein neues Element hinzu, indem Sie auf **[!UICONTROL Hinzufügen]** klicken und dann die Informationen für das neue Element eingeben.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Fehlerbehebung
@@ -233,16 +233,16 @@ Es gibt derzeit kein Tool, das die automatische Wiederherstellung verlorener Dat
 
 1. Überprüfen Sie alle Ausführungsprotokolle von Szenarien, in denen Elemente zum Datenspeicher eingefügt wurden.
 
-   Weitere Informationen zur Prüfung von Ausführungsprotokollen finden Sie unter [Anzeigen des Ausführungsverlaufs eines Szenarios im [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+   Weitere Informationen zum Überprüfen von Ausführungsprotokollen finden Sie unter [Ausführungsverlauf eines Szenarios anzeigen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 1. Kopieren Sie die Daten.
 1. Fügen Sie die Daten erneut in Ihren Datenspeicher ein.
 
-   Informationen zum Einfügen von Daten in einen Datenspeicher finden Sie unter [Inhalt eines Datenspeichers bearbeiten](#edit-the-contents-of-a-data-store) in diesem Artikel.
+   Informationen zum Einfügen von Daten in einen Datenspeicher finden Sie unter [Bearbeiten des Inhalts eines Datenspeichers](#edit-the-contents-of-a-data-store) in diesem Artikel.
 
-### [!UICONTROL Außerhalb des Platzes] error
+### Fehler [!UICONTROL Nicht genügend Platz]
 
-Ein [!UICONTROL Nicht genügend Platz] tritt auf, da Ihren zuvor erstellten Datenspeichern bereits Ihr zugewiesener Datenspeicher zugewiesen wurde.
+Ein Fehler vom Typ [!UICONTROL Nicht genügend Speicherplatz] tritt auf, da Ihren zuvor erstellten Datenspeichern bereits Ihr zugewiesener Datenspeicherspeicher zugewiesen wurde.
 
 #### Workaround
 
@@ -254,9 +254,9 @@ Ein [!UICONTROL Nicht genügend Platz] tritt auf, da Ihren zuvor erstellten Date
 >
 >Es wird empfohlen, nicht den gesamten Speicherplatz einem Datenspeicher zuzuweisen, es sei denn, Sie sind sicher, dass Sie keine weiteren Datenspeicher benötigen.
 
-### [!UICONTROL Maximale Anzahl der erreichten Filialen] error
+### Fehler [!UICONTROL Maximale Anzahl der erreichten Stores]
 
-A [!UICONTROL Maximale Anzahl der erreichten Filialen] Fehler tritt auf, da Ihr Unternehmen alle verfügbaren Datenspeicher verwendet hat. Eine Organisation verfügt über eine Reihe verfügbarer Datenspeicher, die der doppelten Anzahl verfügbarer Szenarien entsprechen. Daher hängt die Gesamtzahl der verfügbaren Datenspeicher vom von Ihnen erworbenen Plan ab.
+Der Fehler [!UICONTROL Maximale Speichergröße erreicht] tritt auf, da Ihr Unternehmen alle verfügbaren Datenspeicher verwendet hat. Eine Organisation verfügt über eine Reihe verfügbarer Datenspeicher, die der doppelten Anzahl verfügbarer Szenarien entsprechen. Daher hängt die Gesamtzahl der verfügbaren Datenspeicher vom von Ihnen erworbenen Plan ab.
 
 Wenn Ihr Unternehmen beispielsweise einen Plan mit 15 Szenarien erworben hat, kann das Unternehmen über bis zu 30 Datenspeicher verfügen.
 

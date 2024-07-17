@@ -34,13 +34,13 @@ Workfront verfügt über mehrere Tools zur Ressourcenverwaltung. Jedes Tool hat 
 
 * Verwenden Sie die folgenden Tools, um zu planen, wie Ressourcen auf höherer Ebene zugewiesen werden, bevor die eigentliche Arbeit an Projekten beginnt:
 
-   * **Der Ressourcen-Planer**: Sie können den Ressourcen-Planer in der ersten Phase des Ressourcenmanagements verwenden, um die Projektzeit Ihrer Ressourcen entsprechend der geplanten Verfügbarkeit zu planen. Während der Planung der Ressourcenphase können Sie Benutzer in Ressourcen-Pools organisieren und einem Projekt mehrere Ressourcen-Pools zuweisen.
+   * **Der Ressourcen-Planer**: Sie können den Ressourcen-Planer in der ersten Phase des Ressourcenmanagements verwenden, um die Projektzeit Ihrer Ressourcen entsprechend ihrer geplanten Verfügbarkeit zu planen. Während der Planung der Ressourcenphase können Sie Benutzer in Ressourcen-Pools organisieren und einem Projekt mehrere Ressourcen-Pools zuweisen.
 
      Weitere Informationen zur Ressourcenplanung finden Sie unter [Ressourcenplanung: Artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
-   * **Der Szenario-Planer**: Hierbei handelt es sich um eine übergeordnete Ressourcenplanung, mit der Sie sie über mehrere Initiativen hinweg verwalten können, die sich über einen Ein-, Drei- oder Fünfjahresplan erstrecken und mehrere Projekte umfassen können. Sie können das beste Szenario nutzen, um die Verfügbarkeit und Ihr Budget optimal zu nutzen.
+   * **Der Szenario-Planer**: Dies ist eine übergeordnete Ressourcenplanung, mit der Sie sie über mehrere Initiativen hinweg verwalten können, die sich über einen Ein-, Drei- oder Fünfjahresplan erstrecken und mehrere Projekte umfassen können. Sie können das beste Szenario nutzen, um die Verfügbarkeit und Ihr Budget optimal zu nutzen.
 
-     Für den Szenario-Planer ist zusätzlich zur Workfront-Lizenz eine separate Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../scenario-planner/scenario-planner-overview.md).
+     Für den Szenario-Planer ist zusätzlich zur Workfront-Lizenz eine separate Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../scenario-planner/scenario-planner-overview.md).
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
@@ -48,9 +48,9 @@ Workfront verfügt über mehrere Tools zur Ressourcenverwaltung. Jedes Tool hat 
 
 * Verwenden Sie das folgende Tool, um die tatsächliche Arbeit (Aufgaben und Probleme) zu planen oder Ressourcen zuzuweisen:
 
-   * **Der Lastenausgleich**: Dies gehört zu einer Phase der Ressourcenverwaltung auf niedrigerer Ebene, in der Sie Ihre Ressourcen der eigentlichen Arbeit (Aufgaben und Probleme) zuweisen können, die sie ausführen müssen, basierend auf der Zeitdauer, die zum Abschließen der Ressourcen erforderlich ist, und deren Verfügbarkeit. Mithilfe des Workload Balancer können Sie Benutzern tatsächliche Aufgaben zuweisen, die derzeit nicht zugewiesen sind oder Auftragsrollen zugewiesen sind.
+   * **Der Lastenausgleich**: Dies gehört zu einer Phase der Ressourcenverwaltung auf niedrigerer Ebene, in der Sie Ihre Ressourcen der eigentlichen Arbeit (Aufgaben und Probleme) zuweisen können, die sie ausführen müssen, basierend auf der für ihre Fertigstellung erforderlichen Dauer und der Verfügbarkeit. Mithilfe des Workload Balancer können Sie Benutzern tatsächliche Aufgaben zuweisen, die derzeit nicht zugewiesen sind oder Auftragsrollen zugewiesen sind.
 
-     Weitere Informationen zum Workfront Balancer finden Sie unter [Der Lastenausgleich: Artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Weitere Informationen zum Workfront Balancer finden Sie unter [The Workload Balancer: article index](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -72,7 +72,7 @@ Workfront verfügt über mehrere Tools zur Ressourcenverwaltung. Jedes Tool hat 
 -->
 * Verwenden Sie das folgende Tool, um die veranschlagten, geplanten und tatsächlichen Zuweisungen für mehrere Projekte zu analysieren:
 
-   * **Nutzungsbericht**: Verwenden Sie diesen Bericht, um die Nutzung der Ressourcen für Projekte anzuzeigen. Sie können die geplanten, geplanten und tatsächlichen Zuweisungen für Ihre Projekte und deren Auswirkungen auf die Kosten und Einnahmen der Projekte vergleichen.
+   * **Nutzungsbericht**: Verwenden Sie diesen Bericht, um die Nutzung von Ressourcen für Projekte anzuzeigen. Sie können die geplanten, geplanten und tatsächlichen Zuweisungen für Ihre Projekte und deren Auswirkungen auf die Kosten und Einnahmen der Projekte vergleichen.
 
      Weitere Informationen zum Nutzungsbericht finden Sie unter [Informationen zur Ressourcenauslastung anzeigen](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
@@ -84,17 +84,17 @@ Workfront verfügt über mehrere Tools zur Ressourcenverwaltung. Jedes Tool hat 
 
 Die Ressourcenverwaltung in Workfront umfasst die folgenden Etappen:
 
-* **Konfiguration**: Als Systemadministrator, Ressourcenmanager oder Projekteigentümer müssen Sie bestimmte Felder und Objekte in Ihrer Workfront-Instanz konfigurieren, bevor Sie Ihre Ressourcen verwalten. Weitere Informationen zu den Voraussetzungen für die Ressourcenverwaltung in Workfront finden Sie im Abschnitt [Voraussetzungen für eine genaue Ressourcenverwaltung](#prerequisites-for-accurate-resource-management) in diesem Artikel beschrieben.\
+* **Konfiguration**: Als Systemadministrator, Ressourcenmanager oder Projekteigentümer müssen Sie bestimmte Felder und Objekte in Ihrer Workfront-Instanz konfigurieren, bevor Sie Ihre Ressourcen verwalten. Weitere Informationen zu den Voraussetzungen für die Ressourcenverwaltung in Workfront finden Sie im Abschnitt [Voraussetzungen für eine genaue Ressourcenverwaltung](#prerequisites-for-accurate-resource-management) in diesem Artikel.\
   Zusätzlich zu Projekten mit Arbeitselementen müssen Sie die folgenden Elemente in Workfront konfigurieren:
 
    * Benutzende\
      Weitere Informationen zum Erstellen von Benutzern finden Sie im Artikel [Benutzer hinzufügen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
    * Aufgabengebiete\
-     Weitere Informationen zum Erstellen von Aufgabenrollen finden Sie im Artikel [Erstellen und Verwalten von Vorgangsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+     Weitere Informationen zum Erstellen von Auftragsrollen finden Sie im Artikel [Erstellen und Verwalten von Auftragsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
    * Zeitpläne\
-     Weitere Informationen zum Erstellen von Zeitplänen finden Sie im Artikel [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Weitere Informationen zum Erstellen von Zeitplänen finden Sie im Artikel [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * Projektpräferenzen
 
@@ -102,7 +102,7 @@ Die Ressourcenverwaltung in Workfront umfasst die folgenden Etappen:
      >
      >Nur ein System- oder Gruppenadministrator kann die Projekteinstellungen für Ihr System oder Ihre Gruppe ändern.
 
-     Weitere Informationen zum Definieren von Projekteinstellungen finden Sie im Artikel [Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+     Weitere Informationen zum Definieren von Projekteinstellungen finden Sie im Artikel [Systemweite Projektanvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    * Ressourcenpools
 
@@ -128,7 +128,7 @@ Die Ressourcenverwaltung in Workfront umfasst die folgenden Etappen:
   For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
-* **Analyse**: Als Ressourcen-Manager, Projekt-Eigentümer oder Personen-Manager überprüfen Sie den Nutzungsbericht, um zu verstehen, wie die budgetierten und geplanten Zuweisungen Ihrer Ressourcen mit den tatsächlichen vergleichen. Überprüfen Sie die Informationen nach Stunden, Kosten oder Umsatz. Weitere Informationen zum Bericht &quot;Nutzung&quot;finden Sie unter [Informationen zur Ressourcenauslastung anzeigen](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **Analyse**: Als Ressourcen-Manager, Projekt-Eigentümer oder Personen-Manager lesen Sie den Nutzungsbericht, um zu verstehen, wie die geplante und geplante Zuweisung Ihrer Ressourcen mit den tatsächlichen vergleichen. Überprüfen Sie die Informationen nach Stunden, Kosten oder Umsatz. Informationen zum Nutzungsbericht finden Sie unter [Informationen zur Ressourcenauslastung anzeigen](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## Zugriff auf Ressourcen, die mithilfe der Ressourcen-Management-Tools in Workfront angezeigt und verwaltet werden müssen
 
@@ -147,7 +147,7 @@ Sie müssen einer der folgenden Benutzer sein und über die folgenden Zugriffsbe
    * Zugriff auf Finanzdaten bearbeiten, um Kosteninformationen im Ressourcenplaner anzuzeigen
    * Zugriff auf Finanzdaten anzeigen, um Kosten- und Umsatzinformationen im Nutzungsbericht anzuzeigen (nur Benutzer mit einer Planungslizenz)
 
-* Tragen Sie zu oder höheren Berechtigungen bei, die Zuweisungen für die Projekte enthalten, für die Sie Ressourcen verwalten möchten.
+* Contribute oder höhere Berechtigungen, die Zuweisungen für die Projekte enthalten, für die Sie Ressourcen verwalten möchten.
 
 <!--
 * Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).
@@ -157,9 +157,9 @@ Sie müssen einer der folgenden Benutzer sein und über die folgenden Zugriffsbe
   >You do not have to be a Resource Manager to use the Resource Planner, Scenario Planner, or the Workload Balancer. 
 -->
 
-Informationen zum benötigten Zugriff auf Budgetressourcen finden Sie im Artikel [Erforderlicher Zugriff auf Budgetmittel](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Informationen zum benötigten Zugriff auf Budgetressourcen finden Sie im Artikel [Für Budgetressourcen benötigter Zugriff](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Informationen zum Zugriff, der für die Verwaltung von Ressourcen im Workload Balancer erforderlich ist, finden Sie unter [Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+Informationen über den Zugriff, der zum Verwalten von Ressourcen im Lastenausgleich erforderlich ist, finden Sie unter [Für die Verwaltung von Ressourcen im Lastenausgleich benötigter Zugriff](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 ## Voraussetzungen für eine genaue Ressourcenverwaltung  {#prerequisites-for-accurate-resource-management}
 
@@ -167,11 +167,11 @@ Sie müssen eine Reihe von Anforderungen erfüllen, bevor Sie die Tools zur Ress
 
 Informationen zu den Anforderungen für die einzelnen Ressourcenverwaltungstools in Workfront finden Sie unter folgenden Themen:
 
-* Der Abschnitt [Voraussetzungen für die Arbeit im Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) im Artikel [Übersicht über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* Der Abschnitt [Voraussetzungen für die Arbeit im Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) im Artikel [Überblick über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* Der Abschnitt [Best Practices für die Verwendung des Lastenausgleichs](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) im Artikel [Übersicht über den Lastenausgleich](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
-* [Erforderlicher Zugriff auf Budgetressourcen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
-* [Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+* Der Abschnitt [Best Practices für die Verwendung des Workload-Balancers](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) im Artikel [Übersicht über den Arbeitslastausgleich](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* [Zugriff erforderlich für Budgetressourcen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+* [Der Zugriff, der zum Verwalten von Ressourcen im Lastenausgleich erforderlich ist](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -9,13 +9,13 @@ exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
 source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Organigramm anzeigen
 
-Die Organisationsdiagrammfunktion ermöglicht es Ihnen, die mit einem bestimmten [!DNL Adobe Workfront] Benutzer. Organizative Diagramme eignen sich hervorragend, um die Struktur einer bestimmten Abteilung zu visualisieren.
+Mit der Organisationsdiagrammfunktion können Sie die mit einem bestimmten [!DNL Adobe Workfront] -Benutzer verknüpfte Organisationstabelle anzeigen. Organizative Diagramme eignen sich hervorragend, um die Struktur einer bestimmten Abteilung zu visualisieren.
 
 ## Zugriffsanforderungen
 
@@ -28,8 +28,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -38,11 +38,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Organigramm eines Benutzers suchen
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]und klicken Sie dann auf Ihren Benutzernamen neben Ihrem Profilbild.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und klicken Sie dann auf Ihren Benutzernamen neben Ihrem Profilbild.![](assets/main-menu-icon.png)
 
-1. Klicken Sie im linken Bereich auf **[!UICONTROL Organigramm]**.\
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Org Chart]**.\
    ![Organisationsdiagramm](assets/org-chart.png)

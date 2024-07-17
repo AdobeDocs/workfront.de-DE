@@ -58,19 +58,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 >
 >Wenn Sie eine Benachrichtigung erneut sperren, erben alle Gruppen im System die Benachrichtigung genau so, wie Sie sie festgelegt haben. Dadurch werden alle Änderungen überschrieben, die Gruppenadministratoren möglicherweise für ihre Gruppen vorgenommen haben. Daher ist es empfehlenswert, sie zuerst zu konsultieren.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **Email** > **Benachrichtigungen**.
+1. Klicken Sie auf **E-Mail** > **Benachrichtigungen**.
 
-1. Stellen Sie sicher, dass **Ereignisbenachrichtigungen** ist geöffnet.
-1. Klicken Sie auf das Symbol rechts neben der Benachrichtigung, um zum gesperrten ![Sperrsymbol](assets/lock-toggle-button.png) oder entsperrt ![Symbol &quot;Entsperren&quot;](assets/unlock-toggle-button.png) Position.
+1. Stellen Sie sicher, dass die Registerkarte **Ereignisbenachrichtigungen** geöffnet ist.
+1. Klicken Sie auf das Symbol rechts neben der Benachrichtigung, um sie zur gesperrten Position ![Sperrsymbol](assets/lock-toggle-button.png) oder entsperrten ![Entsperrungssymbol](assets/unlock-toggle-button.png) zu wechseln.
 
    Oder
 
-   Wenn Sie mehrere Benachrichtigungen gleichzeitig entsperren oder sperren möchten, wählen Sie sie aus und klicken Sie auf Entsperren . ![Symbol &quot;Entsperren&quot;](assets/unlock-icon-toolbar.png) oder Sperren ![Sperrsymbol](assets/lock-icon-locked-qs.png) -Schaltfläche, die in der Symbolleiste über der Liste angezeigt wird.
+   Wenn Sie mehrere Benachrichtigungen gleichzeitig entsperren oder sperren möchten, wählen Sie sie aus und klicken Sie dann auf die Schaltfläche Entsperren ![Entsperren](assets/unlock-icon-toolbar.png) oder Sperren ![Sperrsymbol](assets/lock-icon-locked-qs.png) , die in der Symbolleiste über der Liste angezeigt wird.
 
 1. Klicken Sie auf **Speichern**.
 1. (Optional) Wenn Sie die Ereignisbenachrichtigung für eine Gruppe der obersten Ebene konfigurieren möchten, anstatt diese Aufgabe dem Gruppenadministrator zu überlassen, können Sie einen der folgenden Schritte ausführen:
 
-   * Löschen **Systemereignisbenachrichtigungen** Suchen Sie im Suchfeld über der Benachrichtigungsliste nach dem Namen der Gruppe der obersten Ebene, um deren Benachrichtigungen aufzulisten, und aktivieren oder deaktivieren Sie die entsperrten Benachrichtigungen in der angezeigten Liste.
-   * Klicks **Gruppen** Klicken Sie im linken Menü auf den Namen der Gruppe der obersten Ebene. Klicks **Ereignisbenachrichtigungen** Konfigurieren Sie dann die entsperrte Ereignisbenachrichtigung, wie hier beschrieben: [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+   * Löschen Sie **Systemereignisbenachrichtigungen** im Suchfeld über der Benachrichtigungsliste, suchen Sie nach dem Namen der Gruppe der obersten Ebene, um deren Benachrichtigungen aufzulisten, und wählen Sie ihn aus. Aktivieren oder deaktivieren Sie dann die entsperrten Benachrichtigungen in der angezeigten Liste.
+   * Klicken Sie im linken Menü auf **Gruppen** und dann auf den Namen der Gruppe der obersten Ebene. Klicken Sie im linken Bereich auf **Ereignisbenachrichtigungen** und konfigurieren Sie dann die Benachrichtigung zum entsperrten Ereignis, wie unter [Ereignisbenachrichtigungen für eine Gruppe anzeigen und konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md) beschrieben.

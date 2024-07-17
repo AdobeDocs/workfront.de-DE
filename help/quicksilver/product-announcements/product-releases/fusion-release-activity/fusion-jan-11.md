@@ -23,7 +23,7 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfr
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 ## Erweiterter Connector und Module jetzt verfügbar
 
@@ -36,7 +36,7 @@ Sie können jetzt Workfront Fusion verwenden, um eine Verbindung zu Ihrem Widen-
 * Abrufen einer Asset-Liste in einer Sammlung
 * Führen Sie einen benutzerdefinierten API-Aufruf durch.
 
-Weitere Informationen finden Sie unter [Breitenmodule](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+Weitere Informationen finden Sie unter [Erweiterte Module](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
 
 ## Datadoc-Connector und -Module sind jetzt verfügbar
 
@@ -44,10 +44,10 @@ Sie können jetzt Workfront Fusion verwenden, um eine Verbindung zu Ihrem Datado
 
 Mit den Datadog-Modulen können Sie:
 
-* Zeitpunkte für Beiträge
+* Post-Zeitreihenpunkte
 * Ausführen eines benutzerdefinierten API-Aufrufs
 
-Informationen zu Datadog-Modulen finden Sie unter [Datenmodulen](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+Weitere Informationen zu Datadog-Modulen finden Sie unter [Datadog-Module](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
 
 ## Cvent-Connector und -Module sind jetzt verfügbar
 
@@ -62,7 +62,7 @@ Mit den Cvent-Modulen können Sie:
 * Aktualisieren oder Löschen von Kontakten
 * Benutzerdefinierte API-Aufrufe durchführen
 
-Informationen zu den verfügbaren Cvent-Modulen finden Sie unter [Cut-Module](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+Weitere Informationen zu den verfügbaren Cvent-Modulen finden Sie unter [Cvent modules](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
 
 ## Microsoft Dynamics 365-Connector und -Module jetzt verfügbar
 
@@ -72,7 +72,7 @@ Sie können jetzt mit Workfront Fusion 2.0 eine Verbindung zu Ihrem Microsoft Dy
 * Erstellen, Lesen, Aktualisieren oder Löschen eines Microsoft Dynamics 365-Datensatzes
 * Ausführen eines benutzerdefinierten API-Aufrufs
 
-Informationen zu verfügbaren Microsoft Dynamics 365-Modulen finden Sie unter [Microsoft Dynamics 365-Module](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+Informationen zu den verfügbaren Microsoft Dynamics 365-Modulen finden Sie unter [Microsoft Dynamics 365-Module](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
 ## DocuSign-Connector und -Module jetzt verfügbar
 
@@ -86,7 +86,7 @@ Sie können jetzt Workfront Fusion 2.0 verwenden, um eine Verbindung zu Ihrem Do
 * Datei in einen Umschlag hochladen
 * Ausführen eines benutzerdefinierten API-Aufrufs
 
-Weitere Informationen finden Sie unter [DocuSign-Module](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+Weitere Informationen finden Sie unter [DocuSign modules](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
 
 ## Ausführungsverlauf eines Szenarios durchsuchen
 
@@ -94,7 +94,7 @@ Wir haben es Ihnen erleichtert, bestimmte Informationen aus früheren Szenario-A
 
 Bisher musste nach bestimmten Ausführungsinformationen für jede Ausführung einzeln gesucht werden.
 
-Weitere Informationen finden Sie unter [Ausführungsverlauf eines Szenarios in Adobe Workfront Fusion anzeigen](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Weitere Informationen finden Sie unter [Anzeigen des Ausführungsverlaufs eines Szenarios in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Aktualisierungen für den Datenspeicher von Fusion 2.0
 

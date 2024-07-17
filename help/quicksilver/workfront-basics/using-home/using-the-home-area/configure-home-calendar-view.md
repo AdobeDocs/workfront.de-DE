@@ -13,16 +13,16 @@ ht-degree: 1%
 
 ---
 
-# Konfigurieren Sie Ihre [!UICONTROL Startseitenkalender] Ansichtseinstellungen
+# Ansichtseinstellungen für den [!UICONTROL Home-Kalender] konfigurieren
 
 <!--Audited: 01/2024-->
 
-Sie können die [!UICONTROL Startseitenkalender] -Einstellungen, um Folgendes zu tun:
+Sie können die Einstellungen für [!UICONTROL Home Calendar] wie folgt konfigurieren:
 
-* Integration mit einer Web-basierten Version von [!DNL Outlook] in [!DNL Office 365] oder [!DNL Outlook Live] auf der Cloud. Sie können alle Ereignisse aus Ihrem Outlook-Kalender sowie alle zugehörigen Kalender anzeigen, die Sie in Ihrem [!UICONTROL Startseitenkalender] in Adobe Workfront.
-* Helfen Sie Ihnen, Ihre Arbeitslast anhand der verfügbaren Arbeitszeiten auf der [!UICONTROL Zuordnung] Bar.
+* Integration mit einer Web-basierten Version von [!DNL Outlook] in [!DNL Office 365] oder [!DNL Outlook Live] auf der Cloud. Sie können alle Ereignisse aus Ihrem Outlook-Kalender sowie alle zugehörigen Kalender anzeigen, die Sie in Ihrem [!UICONTROL Home-Kalender] in Adobe Workfront auswählen.
+* Helfen Sie Ihnen, Ihre Arbeitslast anhand der verfügbaren Arbeitszeiten in der Symbolleiste [!UICONTROL Zuordnung] zu verfolgen.
 
-Weitere Informationen zum Home-Kalender finden Sie unter [[!UICONTROL Startseitenkalender] Ansicht](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+Weitere Informationen zum Home-Kalender finden Sie unter [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 In diesem Artikel wird beschrieben, wie Sie die Einstellungen des Home-Kalenders konfigurieren und den Home-Kalender in Ihren externen Outlook-Kalender integrieren können.
 
@@ -52,73 +52,73 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren [!DNL Workfront] Administrator. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan oder welchen Lizenztyp Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Über die Integration [!DNL Microsoft Outlook] Kalender
+## Über die Integration von [!DNL Microsoft Outlook]-Kalendern
 
-Beachten Sie Folgendes, wenn Sie Ihren Home-Kalender mit Ihrem [!DNL Microsoft Outlook] calendar:
+Beachten Sie Folgendes bei der Konfiguration Ihres Home-Kalenders mit Ihrem [!DNL Microsoft Outlook] -Kalender:
 
-* Sie können nur eine webbasierte Version von [!DNL Outlook] in Cloud-gehostet [!DNL Office 365] oder [!DNL Outlook Live].
+* Sie können nur eine webbasierte Version von [!DNL Outlook] in Cloud-gehostete [!DNL Office 365] oder [!DNL Outlook Live] integrieren.
 
-  On-Premise [!DNL Outlook] und [!DNL Outlook] auf einem Cloud-basierten Unternehmen [!DNL Exchange] -Server werden nicht unterstützt.
+  On-Premise [!DNL Outlook] und [!DNL Outlook] auf einem Cloud-basierten Enterprise [!DNL Exchange]-Server werden nicht unterstützt.
 
   Wenn Ihr Unternehmen Single Sign-On verwendet, benötigen Sie [!DNL Microsoft 365 E3] oder [!DNL E5].
 
-* Anlagen, die mit Ihrer [!DNL Outlook] -Ereignisse nicht an die [!DNL Outlook] Ereignisse in Ihrem Home-Kalender.
-* Integration mit einer [!DNL Outlook] Der Kalender muss für jeden Benutzer einzeln ausgefüllt werden.
-* Ereignisse, die in [!UICONTROL aufgrund] Die Leiste wird nicht in Ihrer [!DNL Microsoft] Kalender, es sei denn, Sie haben sie aus dem [!UICONTROL Arbeitsliste] auf [!DNL Adobe Workfront] Kalender. Weitere Informationen finden Sie unter [[!UICONTROL aufgrund] bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) und [Arbeitsliste auf der [!UICONTROL Startseitenkalender]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in [[!UICONTROL Startseitenkalender] Ansicht](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+* Anlagen, die mit Ihren [!DNL Outlook] -Ereignissen verknüpft sind, sind nicht an die [!DNL Outlook] -Ereignisse in Ihrem Home-Kalender angehängt.
+* Die Integration in einen [!DNL Outlook] -Kalender muss für jeden Benutzer einzeln abgeschlossen sein.
+* Ereignisse, die in der Leiste [!UICONTROL Fälligkeit] erscheinen, werden nicht in Ihrem [!DNL Microsoft] Kalender angezeigt, es sei denn, Sie haben sie aus der [!UICONTROL Arbeitsliste] in Ihren [!DNL Adobe Workfront] Kalender gezogen. Weitere Informationen finden Sie unter [[!UICONTROL Fälligkeit] Leiste](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) und [Liste &quot;Arbeit&quot;im [!UICONTROL Home-Kalender]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in der Ansicht [[!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-* Wenn Sie die Integration mit [!DNL Outlook], nur Arbeitselemente, die auf die [!UICONTROL Startseitenkalender] ab diesem Zeitpunkt synchronisiert. Elemente, die sich vor der Aktivierung der Integration im Home-Kalender befanden, werden nicht angezeigt. Sie müssen sie erneut in den Home-Kalender ziehen, wenn Sie sie in [!DNL Outlook].
-* Wenn Sie eine [!DNL Outlook] -Kalender mit anderen Personen oder wenn Sie die Berechtigungsebene für einen Kalender ändern, den Sie für andere freigeben, wirkt sich diese Änderung nicht auf deren Kalender aus (ca. 30 Minuten). Weitere Informationen finden Sie im [!DNL Microsoft Outlook] Dokumentation.\
-   Wenn Sie die [!DNL Workfront] Kalender mit [!DNL Outlook] Kalender, den Sie für andere Benutzer freigeben, sehen diese Ihre [!DNL Workfront] Kalendereinträge für ca. 30 Minuten.
+* Wenn Sie die Integration mit [!DNL Outlook] aktivieren, werden nur Arbeitselemente synchronisiert, die ab diesem Zeitpunkt in den [!UICONTROL Home Calendar] gezogen werden. Elemente, die sich vor der Aktivierung der Integration im Home-Kalender befanden, werden nicht angezeigt. Sie müssen sie erneut in den Home-Kalender ziehen, wenn sie in [!DNL Outlook] angezeigt werden sollen.
+* Wenn Sie einen [!DNL Outlook] -Kalender für andere Personen freigeben (oder die Freigabe aufheben) oder die Berechtigungsstufe für einen Kalender ändern, den Sie für andere freigeben, wirkt sich diese Änderung nicht auf deren Kalender aus (ca. 30 Minuten). Weitere Informationen finden Sie in der Dokumentation zu [!DNL Microsoft Outlook] .\
+   Wenn Sie also [!DNL Workfront] Kalender in einen [!DNL Outlook] -Kalender integrieren, den Sie für andere Benutzer freigeben, werden diese Ihre [!DNL Workfront] Kalenderelemente für ca. 30 Minuten nicht sehen.
 
 >[!NOTE]
 >
->Die [!DNL Outlook] Die Kalenderkonfiguration ist vollständig von der [!DNL Outlook] Add-in ([!UICONTROL [!DNL Outlook] Integration] oder [!DNL Workfront Outlook]). Es ist keine Installation erforderlich, um den Kalender zu konfigurieren, es ist jedoch eine Installation für die [!DNL Outlook] Add-In. Weitere Informationen über [!DNL Outlook] Add-In siehe [Einrichten [!DNL Adobe Workfront for Outlook]](../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
+>Die Kalenderkonfiguration [!DNL Outlook] ist vollständig getrennt vom [!DNL Outlook] Add-in ([!UICONTROL [!DNL Outlook] Integration] oder [!DNL Workfront Outlook]). Es ist keine Installation erforderlich, um den Kalender zu konfigurieren, aber es ist eine Installation für das [!DNL Outlook]-Add-in erforderlich. Weitere Informationen zum [!DNL Outlook] Add-In finden Sie unter [Einrichten [!DNL Adobe Workfront for Outlook]](../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
 
-## Konfigurieren Sie Ihre [!UICONTROL Startseitenkalender] Einstellungen anzeigen und in Outlook-Kalender integrieren
+## Konfigurieren Sie die Anzeigeeinstellungen für den [!UICONTROL Home-Kalender] und integrieren Sie sie in Outlook-Kalender.
 
-1. Im [!UICONTROL Startseitenkalender] Ansicht, klicken Sie auf die **[!UICONTROL Einstellungen]** Zahnradsymbol ![Calendar_Settings_Zahnradsymbol.png](assets/calendar-settings-gear-icon.png) in der oberen rechten Ecke, um die **[!UICONTROL Kalendereinstellungen]** auf der rechten Seite.
+1. Klicken Sie in der Ansicht [!UICONTROL Home Calendar] auf das Zahnradsymbol **[!UICONTROL Einstellungen]** ![Calendar_Settings_Zahnradsymbol.png](assets/calendar-settings-gear-icon.png) oben rechts, um das Bedienfeld **[!UICONTROL Kalendereinstellungen]** auf der rechten Seite zu öffnen.
 
-   Wenn Sie Informationen zum Zugriff auf die [!UICONTROL Startseitenkalender] Ansicht, siehe [Anzeigen der [!UICONTROL Startseitenkalender]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+   Informationen zum Zugriff auf die Ansicht [!UICONTROL Home Calendar] finden Sie unter [Anzeigen des [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-1. (Optional) So integrieren Sie Ihre [!DNL Microsoft Outlook] Kalender, klicken Sie **[!UICONTROL Konto hinzufügen]** in der oberen rechten Ecke des **[!UICONTROL Kalendereinstellungen]** Bedienfeld. Wenn Sie dazu aufgefordert werden, geben Sie [!DNL Microsoft Outlook] Login-Informationen. Sie können diesen Schritt wiederholen, um mehrere [!DNL Outlook] Konten.
+1. (Optional) Um Ihren [!DNL Microsoft Outlook] -Kalender zu integrieren, klicken Sie oben rechts im Bedienfeld **[!UICONTROL Kalendereinstellungen]** auf **[!UICONTROL Konto hinzufügen]** . Geben Sie dann, wenn Sie dazu aufgefordert werden, Ihre [!DNL Microsoft Outlook] Anmeldedaten ein. Sie können diesen Schritt wiederholen, um mehrere [!DNL Outlook] -Konten hinzuzufügen.
 
    >[!NOTE]
    >
-   >Du musst geben [!DNL Workfront] Zugriffsberechtigung für Ihre [!DNL Outlook] Kalender. Genehmigungen erteilen [!DNL Workfront] Lesen Sie Ihre [!DNL outlook] Profil erstellen und Ihre [!DNL Microsoft] Kalender.
+   >Sie müssen [!DNL Workfront] die Berechtigung erteilen, auf Ihren [!DNL Outlook] -Kalender zuzugreifen. Durch die Erteilung der Berechtigung kann [!DNL Workfront] den Zugriff auf Kalenderdaten aufrechterhalten, Ihr [!DNL outlook] -Profil lesen und Ihren [!DNL Microsoft] -Kalender lesen und aktualisieren.
 
-1. Aktualisieren Sie das Browser-Fenster, um Informationen aus Ihrem [!DNL Outlook] im Kalender und im [!UICONTROL Kalendereinstellungen] Bedienfeld.
-1. Klicken Sie auf **[!UICONTROL Einstellungen]** Zahnradsymbol in der oberen rechten Ecke, um die **[!UICONTROL Kalendereinstellungen]** Bedienfeld. ![Calendar_Settings_Zahnradsymbol.png](assets/calendar-settings-gear-icon.png)
+1. Aktualisieren Sie das Browser-Fenster, um Informationen aus Ihrem [!DNL Outlook] -Konto im Kalender und im Bedienfeld [!UICONTROL Kalendereinstellungen] anzuzeigen.
+1. Klicken Sie erneut oben rechts auf das Zahnradsymbol **[!UICONTROL Einstellungen]** , um das Bedienfeld **[!UICONTROL Kalendereinstellungen]** zu öffnen. ![Calendar_Settings_Zahnrad_icon.png](assets/calendar-settings-gear-icon.png)
 
-1. (Optional) Unter jedem [!DNL Microsoft] Konto, das Sie im vorherigen Schritt hinzugefügt haben, wählen Sie **[!UICONTROL Ansicht]** oder **[!UICONTROL Synchronisieren]**:
+1. (Optional) Wählen Sie unter jedem [!DNL Microsoft] -Konto, das Sie im vorherigen Schritt hinzugefügt haben, **[!UICONTROL Ansicht]** oder **[!UICONTROL Synchronisation]** aus:
 
-   * **[!UICONTROL Ansicht]**: Diese schreibgeschützte Option wird angezeigt. [!DNL Microsoft] Kalenderereignisse in Ihrer [!UICONTROL Startseitenkalender].
-   * **[!UICONTROL Synchronisieren]**: Diese Option ermöglicht eine bidirektionale Synchronisation zwischen [!DNL Microsoft] und [!UICONTROL Startseite] Kalender. Mit anderen Worten: [!DNL Workfront] [!UICONTROL Startseitenkalender] -Elemente exportieren [!DNL Microsoft] Kalender und [!DNL Microsoft] Kalenderelemente in Workfront importieren [!UICONTROL Startseitenkalender] in Echtzeit.
+   * **[!UICONTROL Ansicht]**: Dies ist eine schreibgeschützte Option, mit der [!DNL Microsoft] Kalenderereignisse im [!UICONTROL Home-Kalender] angezeigt werden.
+   * **[!UICONTROL Sync]**: Diese Option ermöglicht eine bidirektionale Synchronisation zwischen Ihren [!DNL Microsoft]- und [!UICONTROL Home]-Kalendern. Mit anderen Worten: [!DNL Workfront] [!UICONTROL Home Calendar] -Elemente werden in Ihren [!DNL Microsoft] Kalender und in Ihren [!DNL Microsoft] -Kalendereintrag in Echtzeit in Ihren Workfront [!UICONTROL Home Calendar] importiert.
 
      ![](assets/view-sync-checkboxes-qs.png)
 
-1. (Optional) Unter Ihrer [!DNL Workfront] -Konto oder ein integriertes Konto die zugehörigen Kalender auswählen, die Sie auf Ihrem [!UICONTROL Startseitenkalender] (z. B. Ihr PTO-, Geburtstags- oder Feiertagskalender), klicken Sie dann auf die [!UICONTROL Aktualisieren] oder [!UICONTROL Neu laden] -Schaltfläche, um Ihre Änderungen anzuzeigen.
+1. (Optional) Wählen Sie unter Ihrem [!DNL Workfront] -Konto oder einem integrierten Konto die zugehörigen Kalender aus, die Sie im [!UICONTROL Home Calendar] anzeigen möchten (z. B. Ihren PTO-, Geburtstags- oder Feiertagskalender), und klicken Sie dann auf die Schaltfläche [!UICONTROL Aktualisieren] oder [!UICONTROL Neu laden] Ihres Browsers, um Ihre Änderungen anzuzeigen.
 
-1. (Optional) Im **[!UICONTROL Allgemein]** Abschnitt unter **[!UICONTROL Woche beginnen am]** wählen Sie den Tag aus, den Sie als ersten Tag Ihrer Arbeitswoche im Startkalender anzeigen möchten.
+1. (Optional) Wählen Sie im Abschnitt **[!UICONTROL Allgemein]** unter **[!UICONTROL Woche starten am]** den Tag aus, der als erster Tag Ihrer Arbeitswoche im Home-Kalender angezeigt werden soll.
 
    ![](assets/general-section-home-calendar-settings-panel.png)
 
 1. Konfigurieren Sie die folgenden Optionen:
 
    * **[!UICONTROL Meine Arbeitstage]:** Wählen Sie die Arbeitstage aus.
-   * **[!UICONTROL Meine übliche Startzeit]:** Wählen Sie den Zeitpunkt aus, zu dem Sie Ihren Arbeitstag beginnen.
+   * **[!UICONTROL Meine übliche Startzeit]:** Wählen Sie die Zeit aus, zu der Sie Ihren Arbeitstag beginnen.
    * **[!UICONTROL Meine übliche Endzeit]:** Wählen Sie die Zeit aus, zu der Sie Ihren Arbeitstag beenden.
 
-   [!DNL Workfront] verwendet diese drei Einstellungen, um die Anzahl der Stunden zu berechnen, die Sie in einer Woche arbeiten. Diese Zahl wirkt sich auf die [!UICONTROL Zuordnung] -Leiste, die Ihnen dabei hilft, Ihre Arbeitslast anhand Ihrer verfügbaren Arbeitszeiten zu verfolgen. Weitere Informationen finden Sie unter [[!UICONTROL Zuordnung] bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time) im Artikel [[!UICONTROL Startseitenkalender] Ansicht](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+   [!DNL Workfront] verwendet diese drei Einstellungen, um die Anzahl der Stunden zu berechnen, die Sie in einer Woche arbeiten. Diese Zahl wirkt sich auf die Leiste [!UICONTROL Zuordnung] aus, mit der Sie Ihre Arbeitslast anhand Ihrer verfügbaren Arbeitszeiten nachverfolgen können. Weitere Informationen finden Sie unter [[!UICONTROL Zuordnung] bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time) im Artikel [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-1. Klicken Sie außerhalb der **[!UICONTROL Kalendereinstellungen]** -Bereich, um ihn zu schließen.
+1. Klicken Sie außerhalb des Bereichs **[!UICONTROL Kalendereinstellungen]** , um ihn zu schließen.
 
    [!DNL Workfront] speichert Ihre Änderungen automatisch.
 
-Informationen zur Verwendung der [!UICONTROL Kalender] Informationen zur Verwaltung Ihrer Arbeitsaufgaben und integrierten Kalenderereignisse finden Sie unter [Verwenden Sie die [!UICONTROL Startseitenkalender] Ansicht](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+Informationen zur Verwendung der Ansicht [!UICONTROL Kalender] zur Verwaltung Ihrer Arbeitszuweisungen und integrierten Kalenderereignisse finden Sie unter [Verwenden der Ansicht [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

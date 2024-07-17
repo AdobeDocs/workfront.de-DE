@@ -31,10 +31,10 @@ Die Einstellungen, die bestimmen, wie Sie E-Mail-Warnungen zu Testkommentaren un
  <tbody> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Systemeinstellungen</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">Ihr Adobe Workfront-Administrator kann bestimmen, wie Sie E-Mail-Warnungen zu Kommentaren und Entscheidungen zu Testsendungen erhalten, an denen Sie arbeiten, wie hier beschrieben: <a href="../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md" class="MCXref xref">Konfigurieren von Benutzerinformationen mit Workfront Testversand</a></span> </p> </td> 
+   <td> <p><span class="wysiwyg-font-size-medium">Ihr Adobe Workfront-Administrator kann bestimmen, wie Sie E-Mail-Warnungen zu Kommentaren und Entscheidungen zu Testsendungen erhalten, an denen Sie arbeiten, wie unter <a href="../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md" class="MCXref xref">Benutzerinformationen mit Workfront Proof konfigurieren</a></span> beschrieben. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Neues Fenster "Testversand", Fenster "Details des Testversands"</strong></span> </p> </td> 
+   <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Neues Testversand-Fenster, Fenster mit Testdetails</strong></span> </p> </td> 
    <td> <p><span class="wysiwyg-font-size-medium">Wenn Sie ein Testversand im Fenster Neuer Testversand oder im Fenster Testversand-Details durchführen, können Sie bestimmen, wie Sie E-Mail-Warnungen zu Kommentaren und Entscheidungen zum Testversand erhalten. Dadurch wird die von Ihrem Workfront-Administrator ausgewählte Option außer Kraft gesetzt, jedoch nur für diesen speziellen Testversand. Weitere Informationen finden Sie unter</span> </p> 
     <ul> 
      <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Erstellen eines erweiterten Testversands mit einem einfachen Workflow</a> </p> </li> 
@@ -42,8 +42,8 @@ Die Einstellungen, die bestimmen, wie Sie E-Mail-Warnungen zu Testkommentaren un
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Testversand-Viewer</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">Wenn Sie einen Testversand öffnen, dem Sie hinzugefügt wurden, können Sie bestimmen, wie Sie E-Mail-Warnungen zu Kommentaren zum Testversand erhalten. Dadurch wird die von Ihrem Workfront-Administrator ausgewählte Option sowie die von der Person, die Sie zum Testversand hinzugefügt hat, ausgewählte Option außer Kraft gesetzt. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Benachrichtigungen für Testversandkommentare und -entscheidungen verwalten</a></span> </p> <p><span class="wysiwyg-font-size-medium"><em><strong>NOTE</strong> Im Testversand-Viewer ist die letzte Option anders gekennzeichnet ("Keine E-Mails"anstelle von "Deaktiviert"), sie funktioniert jedoch auf die gleiche Weise.</em></span> </p> </td> 
+   <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>Der Testversand-Viewer</strong></span> </p> </td> 
+   <td> <p><span class="wysiwyg-font-size-medium">Wenn Sie einen Testversand öffnen, dem Sie hinzugefügt wurden, können Sie bestimmen, wie Sie E-Mail-Warnungen zu Kommentaren zum Testversand erhalten. Dadurch wird die von Ihrem Workfront-Administrator ausgewählte Option sowie die von der Person, die Sie zum Testversand hinzugefügt hat, ausgewählte Option außer Kraft gesetzt. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Benachrichtigungen für Testversand-Kommentare und -Entscheidungen verwalten</a></span> </p> <p><span class="wysiwyg-font-size-medium"><em><strong>HINWEIS</strong> Im Testversand-Viewer ist die letzte Option anders gekennzeichnet ("Keine E-Mails"anstelle von "Deaktiviert"), funktioniert aber auf dieselbe Weise.</em></span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +52,7 @@ Die Einstellungen, die bestimmen, wie Sie E-Mail-Warnungen zu Testkommentaren un
 >
 >Diese Optionen betreffen nur E-Mail-Warnungen, die Sie über Testkommentare und Entscheidungen erhalten können. Sie wirken sich nicht auf die E-Mail-Warnungen aus, die Sie über den Fluss eines Testversands erhalten können, wie z. B. die E-Mail &quot;Neuer Testversand&quot;oder &quot;Später Testversand&quot;. Weitere Informationen zu E-Mail-Warnungen bezüglich des Testversands finden Sie in den folgenden Artikeln:
 >
->* [Neue Testversion](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
->* [E-Mail zur neuen Version](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
+>* [Neue Testversand-E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
+>* [Die E-Mail zur neuen Version](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
 >* [Verspätete Testversand-E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
->* [Die E-Mail zum Testversand](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+>* [Der Testversand einer E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)

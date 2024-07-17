@@ -72,7 +72,7 @@ Informationen zum manuellen Ausrichten von zwei Zielen finden Sie unter [Ziele d
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -80,7 +80,7 @@ Sie müssen über Folgendes verfügen, bevor Sie beginnen können:
 
 * Ein vorhandenes Ziel mit vorhandenen Ergebnissen und Aktivitäten.
 
-  Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+  Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
@@ -119,16 +119,16 @@ Beachten Sie beim Konvertieren von Ergebnissen und Aktivitäten in Ziele Folgend
 -->
 
 1. Gehen Sie zu einem Ziel, das über ein Ergebnis oder eine Aktivität verfügt, die Sie in ein Ziel konvertieren möchten.
-1. Klicken Sie auf der Zielseite auf **Fortschrittsanzeigen** im linken Bereich.
-1. Wählen Sie ein Ergebnis oder eine Aktivität in der Liste der Fortschrittsanzeigen aus und klicken Sie auf die Schaltfläche **In Ziel konvertieren** icon ![](assets/convert-to-goal-icon-unshimmed.png) oben in der Fortschrittsanzeige. Das Feld In Ziel konvertieren wird geöffnet.
+1. Klicken Sie auf der Zielseite im linken Bereich auf **Fortschrittsanzeigen** .
+1. Wählen Sie ein Ergebnis oder eine Aktivität in der Liste der Fortschrittsanzeigen aus und klicken Sie dann oben in der Fortschrittsanzeige-Liste auf das Symbol **In Ziel konvertieren** ![](assets/convert-to-goal-icon-unshimmed.png). Das Feld In Ziel konvertieren wird geöffnet.
 
    ![](assets/convert-to-goal-box-unshimmed.png)
 1. Aktualisieren Sie die folgenden Informationen:
    * **Zielname**: Standardmäßig hat das neue Ziel denselben Namen wie das ursprüngliche Ergebnis oder die ursprüngliche Aktivität.
-   * **Zeitraum**: Standardmäßig ist der Zeitraum des neuen Ziels das aktuelle Quartal. Sie können die **Benutzerdefinierte Datumswerte aktivieren** -Einstellung, um einen benutzerdefinierten Zeitraum für das neue Ziel zu definieren.
-   * **Goal Owner**: Standardmäßig ist der neue Zieleigentümer der Eigentümer des ursprünglichen Ergebnisses oder der Aktivität.
+   * **Zeitraum**: Standardmäßig ist der Zeitraum des neuen Ziels der aktuelle Quartal. Sie können die Einstellung **Benutzerdefinierte Datumswerte aktivieren** auswählen, um einen benutzerdefinierten Zeitraum für das neue Ziel festzulegen.
+   * **Zieleigentümer**: Standardmäßig ist der neue Zieleigentümer der Eigentümer des ursprünglichen Ergebnisses oder der Aktivität.
    * **Beschreibung**: Fügen Sie weitere Informationen zum neuen Ziel hinzu.
-1. Klicks **Speichern**
+1. Klicken Sie auf **Speichern**
 
    Das Ergebnis oder die Aktivität wird jetzt in ein untergeordnetes Ziel des ursprünglichen Ziels konvertiert. Sie wird als Ziel in der Liste der Fortschrittsindikatoren des ursprünglichen Ziels aufgeführt.
 

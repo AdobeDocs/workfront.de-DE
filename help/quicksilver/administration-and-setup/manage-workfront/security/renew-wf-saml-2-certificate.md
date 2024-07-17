@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, ist keine Aktion erforderlich.
 >
->Eine Liste der Verfahren, die je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterschiedlich sind, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Die Adobe Workfront-Server verwenden für Authentifizierung und Autorisierung das SAML 2.0-Protokoll. Nach der Aktualisierung bleibt das neue Zertifikat ein Jahr gültig. Wenn es an der Zeit ist, das Zertifikat in Ihrem Identitäts-Provider zu verlängern, erhalten Sie eine Warnung in Workfront, die Sie darauf hinweist, dass diese Änderung erforderlich ist. Als Workfront-Administrator können Sie diese Änderung auf Systemebene verwalten.
 
@@ -64,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,13 +72,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 So überprüfen Sie die Warnmeldung und bestätigen die Aktualisierung der SAML 2.0-Metadaten in Ihrem Identitäts-Provider:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **System** > **Single Sign-on**.
+1. Klicken Sie auf **System** > **Single Sign-On**.
 
-1. Im **Typ** Dropdown-Menü auswählen **SAML 2.0**.
+1. Wählen Sie im Dropdownmenü **Typ** die Option **SAML 2.0** aus.
 
-1. Klicks **SAML 2.0-Metadaten herunterladen**.
+1. Klicken Sie auf **SAML 2.0-Metadaten herunterladen**.
 
    Dadurch wird das erneuerte Workfront-Zertifikat für SAML 2.0 heruntergeladen, das die richtigen Metadaten für Ihren Server enthält.
 
@@ -93,7 +93,7 @@ So überprüfen Sie die Warnmeldung und bestätigen die Aktualisierung der SAML 
 
 1. Aktualisieren Sie auf Ihrem Identitäts-Provider-Server das neue Zertifikat, das Sie heruntergeladen haben.
 1. (Bedingt) Wenn sich die ACS-URL (Assertion Consumer Service) oder die Antwort-URL in Ihrem Identitäts-Provider geändert hat, ändern Sie sie zurück zu der URL, die Sie in Schritt 5 kopiert haben.
-1. In Workfront im **Single Sign-on (SSO)-Seite** müssen Sie sicherstellen, dass diese Option aktiviert ist: **Das neue Workfront-Zertifikat wurde bereits in den Identitätsanbieter hochgeladen**.
+1. Stellen Sie in Workfront auf der Seite **Single Sign-on (SSO)** sicher, dass diese Option aktiviert ist: **Das neue Workfront-Zertifikat wurde bereits in den Identitätsanbieter hochgeladen**.
 
    >[!NOTE]
    >
@@ -107,8 +107,8 @@ So überprüfen Sie die Warnmeldung und bestätigen die Aktualisierung der SAML 
 
    Die Warnmeldung wird nicht mehr angezeigt, da Sie die Verlängerung des SAML 2.0-Zertifikats auf dem Server Ihres Identitäts-Providers bestätigt haben.
 
-1. Klicks **Verbindung testen** , um Ihre Konfiguration zu testen.
+1. Klicken Sie auf **Verbindung testen** , um Ihre Konfiguration zu testen.
 
    Es sollte eine Meldung angezeigt werden, die bestätigt, dass die Verbindung erfolgreich hergestellt wurde.
 
-Weitere Informationen oder Hilfe zur manuellen Konfiguration von Metadaten erhalten Sie von unserem Support-Team, wie hier beschrieben: [Support kontaktieren](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Wenden Sie sich für weitere Informationen oder Unterstützung bei der manuellen Konfiguration von Metadaten an unser Support-Team, wie unter [Support kontaktieren](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) beschrieben.

@@ -20,9 +20,9 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Wenn Sie Adobe Workfront-Administrator sind oder über die Zugriffsebene &quot;Planer&quot;verfügen, mit der Sie die Einstellungen anderer Benutzer bearbeiten können, können Sie die Benachrichtigungseinstellungen für mehrere Benutzer gleichzeitig konfigurieren. Dazu gehört auch die Angabe, ob Benutzer Benachrichtigungen im Fall von Ereignissen erhalten oder in einer täglichen Digest-E-Mail, wie hier beschrieben: [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md). Informationen zur Zugriffsstufe, die zum Bearbeiten von Benutzern erforderlich ist, finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Wenn Sie Adobe Workfront-Administrator sind oder über die Zugriffsebene &quot;Planer&quot;verfügen, mit der Sie die Einstellungen anderer Benutzer bearbeiten können, können Sie die Benachrichtigungseinstellungen für mehrere Benutzer gleichzeitig konfigurieren. Dazu gehört auch die Angabe, ob Benutzer Benachrichtigungen bei Ereignissen erhalten oder in einer täglichen Digest-E-Mail, wie in [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md) beschrieben. Weitere Informationen zur Zugriffsstufe, die zum Bearbeiten von Benutzern erforderlich ist, finden Sie unter [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfigurieren, einschließlich Ihres eigenen Profils. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfigurieren, einschließlich Ihres eigenen Profils. Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Zugriffsanforderungen
@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,28 +57,28 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Wenn Sie die Benachrichtigungseinstellungen stapelweise konfigurieren, können Sie nur die Einstellungen ändern, die den ausgewählten Benutzern gemeinsam sind.
 
-Wenn Sie eine Benachrichtigungseinstellung ändern, wird der Titel **Bearbeitet** für diese Benachrichtigungseinstellung angezeigt, um Sie darüber zu informieren, dass diese Benachrichtigungseinstellung geändert wurde.
+Wenn Sie eine Benachrichtigungseinstellung ändern, wird für diese Benachrichtigungseinstellung die Bezeichnung **Bearbeitet** angezeigt, um Sie darüber zu informieren, dass diese Benachrichtigungseinstellung geändert wurde.
 
 So ändern Sie die E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer:
 
 {{step-1-to-users}}
 
-1. Wählen Sie die Benutzer aus und klicken Sie auf **Bearbeiten**.
-1. Im **Person bearbeiten** wird angezeigt, klicken Sie auf **Benachrichtigungen**.
+1. Wählen Sie die Benutzer aus und klicken Sie dann auf **Bearbeiten**.
+1. Klicken Sie im angezeigten Feld **Person bearbeiten** auf **Benachrichtigungen**.
 
 1. Erweitern Sie eine Kategorie, um Benachrichtigungseinstellungen zu dieser Kategorie anzuzeigen.
 
-   Wenn mindestens ein Benutzer ausgewählt ist, bei dem die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kategorieprüffeld für diese Benachrichtigung eine horizontale Zeile ![](assets/straight-line-instead-of-checkmark.jpg) anstelle eines Häkchen.
+   Wenn mindestens ein Benutzer ausgewählt ist, bei dem die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kategorieprüffeld für diese Benachrichtigung eine horizontale Zeile ![](assets/straight-line-instead-of-checkmark.jpg) anstelle eines Kontrollkästchens.
 
 
 1. Klicken Sie auf alle Benachrichtigungen, die die Benutzer täglich oder sofort erhalten sollen, oder löschen Sie alle Benachrichtigungen, die sie nicht mehr erhalten sollen.
 
    >[!NOTE]
    >
-   >   Für **Kommunikation** -Kategorie, können Sie einzelne Benachrichtigungen nur für den sofortigen Versand auswählen. Sie müssen alle Benachrichtigungen auswählen, die täglich versendet werden sollen.
+   >   In der Kategorie **Kommunikation** können Sie einzelne Benachrichtigungen nur für den sofortigen Versand auswählen. Sie müssen alle Benachrichtigungen auswählen, die täglich versendet werden sollen.
 
 
-1. Wenn Sie Benachrichtigungen als täglichen Digest ausgewählt haben, wählen Sie oben in der **Benachrichtigungen** im Abschnitt **Email Daily Digest nach** Menü.
+1. Wenn Sie Benachrichtigungen als täglichen Digest ausgewählt haben, wählen Sie oben im Abschnitt **Benachrichtigungen** im Menü **Tägliche Digest per E-Mail nach** die Uhrzeit aus, zu der die Digest-Versendung durchgeführt werden soll.
 
    ![](assets/daily-digest-time.png)
 

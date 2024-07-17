@@ -6,7 +6,8 @@ title: Videos zu den Fusionsgrundlagen
 description: Videos zu den Fusionsgrundlagen
 author: Becky
 feature: Workfront Fusion
-source-git-commit: b27577fbc57e1efc23f57e2f03ae75d7af2409d1
+exl-id: 7ba95790-1255-4a3e-ba7b-8dc73001b583
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%
@@ -19,11 +20,11 @@ Diese Videos helfen Ihnen, sich mit einigen Funktionen von Adobe Workfront Fusio
 
 ## Grundlagen
 
-* [Einführung in Webhooks](https://video.tv.adobe.com/v/3427025/){target=_blank}
-* [Zwischenwebhooks](https://video.tv.adobe.com/v/3427030/){target=_blank}
+* [In Webhooks einleiten](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [Zwischenmäßige Webhooks](https://video.tv.adobe.com/v/3427030/){target=_blank}
 * [Datenspeicher](https://video.tv.adobe.com/v/3427029/){target=_blank}
-* [Fusionsentwicklungstool](https://video.tv.adobe.com/v/3427031/){target=_blank}
-* [Ordner synchronisieren](https://video.tv.adobe.com/v/3427033/){target=_blank}
+* [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}
+* [Synchronisieren von Ordnern](https://video.tv.adobe.com/v/3427033/){target=_blank}
 
 ## Connectoren
 
@@ -31,12 +32,3 @@ Diese Videos helfen Ihnen, sich mit einigen Funktionen von Adobe Workfront Fusio
 * [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 * [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 * [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
-
-
-
-
-
-
-
-
-

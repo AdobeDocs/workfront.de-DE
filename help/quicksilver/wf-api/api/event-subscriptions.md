@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Im Folgenden finden Sie verschiedene Ressourcen zu Ereignisanmeldungen in Adobe Workfront:
 
-* [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md)
+* [Ereignis-Abonnement-API](../../wf-api/general/event-subs-api.md)
 * [Best Practices für Ereignisabonnements](../../wf-api/general/event-sub-best-practice.md)
-* [Versandanforderungen für Ereignisabschlüsse](../../wf-api/general/setup-event-sub-endpoint.md)
-* [Ressourcen-Felder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md)
+* [Versandanforderungen für Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md)
+* [Ressourcenfelder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md)
 * [Wiederholungen von Ereignisabonnements](../../wf-api/api/event-sub-retries.md)
-* [Filtern von Ereignis-Abonnementnachrichten](../../wf-api/api/filter-event-sub-messages.md)
+* [Filtern von Ereignis-Abonnementmeldungen](../../wf-api/api/filter-event-sub-messages.md)
 * [Ausgehendes Nachrichtenformat für Ereignisabonnements](../../wf-api/api/message-format-event-subs.md)
 * [Häufig gestellte Fragen - Ereignisabos](../../wf-api/general/event-subs-faq.md)
 

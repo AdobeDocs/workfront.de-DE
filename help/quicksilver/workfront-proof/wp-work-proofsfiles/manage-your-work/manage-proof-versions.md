@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -18,27 +18,27 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Das Verwalten von Feedback über mehrere Versionen oder Revisionen eines Werkes hinweg kann eine große Herausforderung sein. [!DNL Workfront Proof] vereinfacht diesen Vorgang, indem Sie mehrere Versionen eines Testversands erstellen und vergleichen können.
 
-Die Anzahl der Versionen eines Testversands, die Sie erstellen können, ist unbegrenzt. Wenn Sie also mit einem Client viele Revisionen durchlaufen müssen, um eine endgültige Genehmigung zu erhalten, können alle erstellten Versionen angezeigt und einfach verwaltet werden in [!DNL Workfront Proof].
+Die Anzahl der Versionen eines Testversands, die Sie erstellen können, ist unbegrenzt. Wenn Sie also viele Revisionen mit einem Client durchlaufen müssen, um eine endgültige Genehmigung zu erhalten, können alle erstellten Versionen innerhalb von [!DNL Workfront Proof] angezeigt und einfach verwaltet werden.
 
 Berechtigungen beziehen sich auf eine Version, sodass Sie einer Person die Berechtigung erteilen können, eine Version, aber keine andere zu sehen. Wenn Sie hingegen eine spätere Version für eine Person freigeben, können diese keine früheren Versionen sehen, es sei denn, Sie gehen zurück und fügen sie ausdrücklich auch zu diesen früheren Versionen hinzu.
 
 Um eine neue Version eines Testversands zu erstellen, benötigen Sie Bearbeitungsrechte für den Testversand.
 
-Siehe [Verwalten von Proof-Rollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) um weitere Informationen darüber zu erhalten, wer über Bearbeitungsrechte für einen Testversand verfügt. Weitere Informationen zum Erstellen von Versionen finden Sie unter .
+Weitere Informationen dazu, wer über Bearbeitungsrechte für einen Testversand verfügt, finden Sie unter [Verwalten von Proof-Rollen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) . Weitere Informationen zum Erstellen von Versionen finden Sie unter .
 
 ## Anzeigen von Testversionen im Testversand-Viewer
 
 Der vollständige Name der Version, die Sie anzeigen, wird oben links im Testversand-Viewer angezeigt. Alle anderen Versionen des Testversands werden nur als Versionsnummern angezeigt.
 
-1. Öffnen Sie einen Testversand im Testversand-Viewer, wie unter [Öffnen eines Testversands in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md).
+1. Öffnen Sie einen Testversand im Testversand-Viewer, wie unter [Öffnen eines Testversands in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md) beschrieben.
 1. Klicken Sie im Testversand-Viewer auf die Versionsnummer rechts neben dem Testversandnamen.
 1. Um die andere Version anzuzeigen, klicken Sie im Menü, das angezeigt wird, wenn Sie auf die Versionsnummer klicken, auf ihren Namen.
-1. Um zwei Versionen zu vergleichen, klicken Sie auf die **[!UICONTROL Testsendungen vergleichen]** Symbol.\
-   ![Vergleichen_Testsendungen_button.png](assets/compare-proofs-button.png)\
+1. Um zwei Versionen zu vergleichen, klicken Sie auf das Symbol **[!UICONTROL Testsendungen vergleichen]** .\
+   ![Vergleichen_der_Testsendungen_button.png](assets/compare-proofs-button.png)\
    Wenn mehrere Versionen des Testversands vorhanden sind, können Sie auswählen, welche Version Sie vergleichen möchten, indem Sie auf jeder Seite des Bildschirms zur Modusaufteilung auf die entsprechende Versionsnummer klicken.
 
 Informationen zum Überprüfen von Testsendungen in einem Testversand-Viewer finden Sie unter [Testversand überprüfen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
@@ -47,8 +47,8 @@ Informationen zum Überprüfen von Testsendungen in einem Testversand-Viewer fin
 
 Sie können auf alle Versionen eines Testversands über die Seite Testversand-Details zugreifen.
 
-1. Öffnen Sie die Seite mit den Testversanddetails für einen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Klicken Sie oben auf der Seite auf die Registerkarte für die Versionsregisterkarten und klicken Sie auf **[!UICONTROL Testversand durchführen]** , um die gewünschte Version im Testversand-Viewer zu öffnen.\
+1. Öffnen Sie die Seite &quot;Testversand-Details&quot;für einen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+1. Klicken Sie oben auf der Seite auf die Registerkarte für die Versionsregisterkarten und klicken Sie auf **[!UICONTROL Zum Testversand wechseln]** , um die gewünschte Version im Testversand-Viewer zu öffnen.\
    ![Version_tabs_on_Proof_Details_page.png](assets/version-tabs-on-proof-details-page-350x205.png)
 
 ## Verknüpfen von Testversionen
@@ -57,24 +57,24 @@ Wenn Ihr Testversand mehrere Versionen aufweist, wird die vorherige Version des 
 
 Wenn Sie den übergeordneten Testversand (frühere Version) in einen anderen Testversand in Ihrem Konto ändern oder einen einzelnen Testversand mit einem anderen Testversand in Ihrem Konto verbinden möchten (als neue Version des anderen Testversands), können Sie dies anhand der folgenden Schritte einfach tun:
 
-1. Öffnen Sie die Seite mit den Testversanddetails für einen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Klicken **[!UICONTROL Mehr]** > **[!UICONTROL Ändern der vorherigen Version]**.
+1. Öffnen Sie die Seite &quot;Testversand-Details&quot;für einen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Vorherige Version ändern]**.
 
-1. Im **[!UICONTROL Ändern der vorherigen Version]** das Feld, das angezeigt wird, wählen Sie den Testversand aus, den Sie als übergeordneten Testversand einrichten möchten (frühere Version).\
+1. Wählen Sie im angezeigten Feld **[!UICONTROL Bisherige Version ändern]** den Testversand aus, den Sie als übergeordneten Testversand festlegen möchten (vorherige Version).\
    Wenn Sie Hilfe beim Auffinden des Testversands in der Liste benötigen, können Sie die Spalten sortieren, indem Sie auf die Spaltenüberschrift klicken.
 
-1. Klicken **[!UICONTROL Ändern der vorherigen Version]** unten in der Box, um Versionen zu verbinden.
+1. Klicken Sie unten im Feld auf **[!UICONTROL Bisherige Version ändern]** , um Versionen zu verbinden.
 
 >[!NOTE]
 >
->Wenn Sie einen Testversand mit einem anderen Testversand in Ihrem Konto verbinden (als neue Version), [!DNL Workfront Proof] sperrt den Testversand, der jetzt die vorherige Version ist.
+>Wenn Sie einen Testversand mit einem anderen Testversand in Ihrem Konto verbinden (als neue Version), sperrt [!DNL Workfront Proof] den Testversand, der jetzt die vorherige Version ist.
 
 ## Aufhebung der Verknüpfung von Testversionen
 
 Sie können die Verknüpfung des gerade angezeigten Testversands mit dem übergeordneten Testversand (frühere Version) aufheben, ohne ihn mit einem anderen Testversand in Ihrem Konto zu verknüpfen:
 
-1. Öffnen Sie die Seite mit den Testversanddetails für einen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Klicken **[!UICONTROL Mehr]** > **[!UICONTROL Link zur vorherigen Version entfernen]**.
+1. Öffnen Sie die Seite &quot;Testversand-Details&quot;für einen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Link zur vorherigen Version entfernen]**.
 
    * Nur die letzte Version kann vom gesamten Satz der Versionen getrennt (getrennt) werden. Es wird dann zu einem einzigen Beweis.
    * Wenn Sie eine Version zwischen zwei vorhandenen Versionen einfügen müssen, können Sie die Verknüpfung aller Versionen desselben Testversands aufheben und diese in der richtigen Reihenfolge neu verknüpfen.

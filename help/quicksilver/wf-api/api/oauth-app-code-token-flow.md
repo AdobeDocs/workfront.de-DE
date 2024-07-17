@@ -27,7 +27,7 @@ Um die Integration mit Workfront zu ermöglichen und die Kommunikation Ihrer Cli
 
 ## Erstellen einer OAuth2-Anwendung
 
-Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungscode-Fluss)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungscode-Fluss)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md) .
 
 >[!NOTE]
 >
@@ -46,9 +46,9 @@ Ihre Benutzer müssen sich anmelden, um diese Integration in ihrem eigenen Konto
 
 * `client_id`: Dies ist die Client-ID, die beim Erstellen der OAuth2-App in Workfront generiert wurde.
 
-* `redirect_uri`: Dies ist die Umleitungs-URL, die Sie beim Erstellen der App eingegeben haben. Ihre Benutzer werden zu dieser Seite weitergeleitet, nachdem sie die App für ihr Konto autorisiert haben.
+* `redirect_uri`: Die Umleitungs-URL, die Sie beim Erstellen der App eingegeben haben. Ihre Benutzer werden zu dieser Seite weitergeleitet, nachdem sie die App für ihr Konto autorisiert haben.
 
-* `response_type`: Dieser muss den Wert aufweisen. `code`.
+* `response_type`: Dieser Wert muss den Wert `code` haben.
 
 Die URL für die Autorisierungsseite lautet daher:
 
@@ -95,17 +95,17 @@ Um Ihre Benutzer mit OAuth2 anzumelden, gehen Sie wie folgt vor:
 
    ![](assets/consent-screen-350x227.png)
 
-1. Wenn der Benutzer den Zugriff zulässt, wird die Seite an die `redirect_url`. Die Umleitung muss die folgenden Abfrageparameter enthalten:
+1. Wenn der Benutzer den Zugriff zulässt, wird die Seite zu &quot;`redirect_url`&quot;umgeleitet. Die Umleitung muss die folgenden Abfrageparameter enthalten:
 
 * `code`: Der Autorisierungscode, der zum Abrufen des Zugriffs-/Aktualisierungstokens erforderlich ist.
-* `domain`: Die Domäne Ihres Unternehmens. Beispiel: in `myorganization.my.workfront.com`, lautet die Domäne `myorganization`.
-* `lane`: die Spur der Anfrage. Beispiel: in `myorganization.preview.workfront.com`, ist die Spur `preview`.
+* `domain`: Die Domäne Ihres Unternehmens. Beispiel: In `myorganization.my.workfront.com` ist die Domäne `myorganization`.
+* `lane`: die Spur der Anfrage. Beispiel: In `myorganization.preview.workfront.com` ist die Spur `preview`.
 
   >[!IMPORTANT]
   >
-  >Die `code` ist nur 2 Minuten gültig. Daher müssen Sie die Aktualisierungs- und Zugriffstoken innerhalb dieser Zeit abrufen.
+  >Die `code` ist nur für 2 Minuten gültig. Daher müssen Sie die Aktualisierungs- und Zugriffstoken innerhalb dieser Zeit abrufen.
 
-1. Wenn Sie über einen Code verfügen, können Sie eine Aktualisierung anfordern und auf Token zugreifen, indem Sie den Code zusammen mit Client-App-Anmeldeinformationen an die `/integrations/oauth2/api/v1/token` -Endpunkt.
+1. Wenn Sie über einen Code verfügen, können Sie eine Aktualisierung anfordern und auf Token zugreifen, indem Sie den Code zusammen mit den Anmeldeinformationen der Client-App an den Endpunkt `/integrations/oauth2/api/v1/token` senden.
 
    Die vollständige Token-Anforderungs-URL lautet
 
@@ -113,7 +113,7 @@ Um Ihre Benutzer mit OAuth2 anzumelden, gehen Sie wie folgt vor:
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
 
-   **Beispiele:**  Beispiel für einen CURL-Aufruf an einen Token-Endpunkt:
+   **Beispiele:** Beispiel für CURL-Aufruf an Token-Endpunkt:
 
    Beispiel 1
 
@@ -157,7 +157,7 @@ Um Ihre Benutzer mit OAuth2 anzumelden, gehen Sie wie folgt vor:
    }
    ```
 
-   Das Zugriffstoken ist identisch mit ```sessionID```und läuft auf dieselbe Weise ab wie normal ```sessionID```
+   Das Zugriffstoken ist mit ```sessionID``` identisch und läuft genauso ab wie regulärer ```sessionID```
 
    >[!IMPORTANT]
    >
@@ -208,4 +208,4 @@ Es wird das folgende Ergebnis zurückgegeben:
 }
 ```
 
-Und das Zugriffstoken ist das `sessionID` , mit dem eine API-Anfrage an Workfront gesendet werden kann.
+Und auch das Zugriffstoken ist der `sessionID` , der verwendet werden kann, um eine API-Anfrage an Workfront zu richten.

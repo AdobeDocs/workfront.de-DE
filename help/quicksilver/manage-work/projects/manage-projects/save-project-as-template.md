@@ -2,14 +2,14 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Projekt als Vorlage speichern
-description: Speichern Sie ein Projekt als Vorlage "Als Vorlage speichern"auf Projektebene, damit Benutzer dies in der Benutzeroberfläche sehen; Es gibt einen weiteren Artikel, zu dem dieser Link ausführlicher (Schritt für Schritt) ist. Diese Funktion muss sowohl in Projekt- als auch in Vorlagenbereichen verbleiben.)"
+description: Speichern Sie ein Projekt als Vorlage "Als Vorlage speichern"auf Projektebene, damit Benutzer dies in der Benutzeroberfläche sehen. Es gibt einen weiteren Artikel, zu dem dieser Link ausführlicher ist (Schritt für Schritt). Diese Funktion muss sowohl in Projekt- als auch in Vorlagenbereichen verbleiben.)"
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 2%
+source-wordcount: '450'
+ht-degree: 1%
 
 ---
 
@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -75,7 +75,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für ein Projekt </p> <p>Sie erhalten nach dem Speichern des Projekts als Vorlage Verwaltungsberechtigungen für die Vorlage.</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für ein Projekt </p> <p>Sie erhalten nach dem Speichern des Projekts als Vorlage Verwaltungsberechtigungen für die Vorlage.</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Projekt als Vorlage speichern
 
 1. Wechseln Sie zu dem Projekt, das Sie als Vorlage speichern möchten.
-1. Klicken Sie auf **Mehr** Menü ![](assets/qs-more-icon-on-an-object.png), dann **Als Vorlage speichern**.
+1. Klicken Sie auf das Menü **Mehr** ![](assets/qs-more-icon-on-an-object.png) und dann auf **Als Vorlage speichern**.
 1. Geben Sie die folgenden Informationen für die Vorlage an:
 
    <table style="table-layout:auto"> 
@@ -104,8 +104,8 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
       <td role="rowheader">Ist aktiv</td> 
       <td> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
-        <li> <p><strong>Ja</strong>: Andere Benutzer können die Vorlage finden und an Projekte anhängen.</p> </li> 
-        <li><strong>Nein</strong>: Andere Benutzer können die Vorlage nicht finden und nicht an Projekte anhängen.</li> 
+        <li> <p><strong>Ja</strong>: Andere Benutzer können die Vorlage finden und sie an Projekte anhängen.</p> </li> 
+        <li><strong>Nein</strong>: Andere Benutzer können die Vorlage nicht finden und sie nicht an Projekte anhängen.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -115,20 +115,20 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
     </tbody> 
    </table>
 
-1. Klicken **Verwalten von Forms** , um die Formulare zu entfernen oder neu anzuordnen. Informationen zum Entfernen und Neuanordnen von benutzerdefinierten Formularen in der Vorlage finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Klicken Sie auf **Forms verwalten** , um die Formulare zu entfernen oder neu anzuordnen. Informationen zum Entfernen und Neuanordnen von benutzerdefinierten Formularen in der Vorlage finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. Klicken **Nächster Schritt.**
-1. Im **Optionen** aktivieren Sie das Kontrollkästchen neben allen Informationen, die Sie aus der Vorlage löschen möchten.
+1. Klicken Sie auf **Nächster Schritt.**
+1. Aktivieren Sie im Abschnitt **Optionen** das Kontrollkästchen neben allen Informationen, die Sie aus der Vorlage löschen möchten.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. Klicken **Nächster Schritt.**
-1. Im **Ausschließen** auswählen Sie alle Aufgaben, die Sie aus dem Projekt ausschließen möchten.
+1. Klicken Sie auf **Nächster Schritt.**
+1. Wählen Sie im Abschnitt **Ausschließen** alle Aufgaben aus, die Sie aus dem Projekt ausschließen möchten.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Klicken **Vorlage abschließen und speichern**
+1. Klicken Sie auf **Vorlage abschließen und speichern.**
 
    Ihre Vorlage wird jetzt in der Liste der verfügbaren Vorlagen angezeigt und kann entweder an ein vorhandenes Projekt angehängt oder zum Erstellen eines neuen Projekts verwendet werden.

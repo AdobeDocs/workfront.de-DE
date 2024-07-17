@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # Anzeigen und Verwalten benutzerdefinierter OAuth2-Anwendungen
 
-Als [!DNL Adobe Workfront] Administrator können Sie die OAuth2-Anwendungen für Ihre Instanz von [!DNL Workfront], die anderen Anwendungen den Zugriff erlauben [!UICONTROL Workfront].
+Als [!DNL Adobe Workfront] -Administrator können Sie die OAuth2-Anwendungen für Ihre Instanz von [!DNL Workfront] anzeigen und verwalten, die anderen Anwendungen den Zugriff auf [!UICONTROL Workfront] ermöglichen.
 
 >[!NOTE]
 >
->* Im Kontext von OAuth2 bezieht sich &quot;Oauth2-Anwendung&quot;auf diese Art von Zugriffslink zwischen einer App und einem Server, z. B. [!DNL Workfront]. Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für [!DNL Workfront] Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>* Im Kontext von OAuth2 bezieht sich &quot;Oauth2-Anwendung&quot;auf diese Art von Zugriffslink zwischen einer App und einem Server wie [!DNL Workfront]. Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für [!DNL Workfront] Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md) .
 >* Sie können bis zu zehn OAuth2-Anwendungen gleichzeitig haben.
 
 * Informationen zum Erstellen benutzerdefinierter OAuth2-Anwendungen finden Sie unter [Erstellen von OAuth2-Anwendungen für [!DNL Workfront] Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
-* Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungscode-Ablauf) finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungscode-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-code-token-flow.md).
-* Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mithilfe der Serverauthentifizierung (JWT-Fluss) finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-jwt-flow.md).
-* Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit PKCE finden Sie unter [Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des PKCE-Flusses konfigurieren und verwenden](../../wf-api/api/oauth-app-pkce-flow.md).
+* Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranmeldeinformationen (Fluss des Autorisierungscodes) finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungscodeflusses](../../wf-api/api/oauth-app-code-token-flow.md).
+* Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mithilfe der Serverauthentifizierung (JWT-Fluss) finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses](../../wf-api/api/oauth-app-jwt-flow.md).
+* Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit PKCE finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mit PKCE Flow](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Zugriffsanforderungen
 
@@ -46,20 +46,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> Sie müssen [!DNL Workfront] Administrator. </p>
-    <p>Informationen über [!DNL Workfront] Administratoren, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p>
+   <td> Sie müssen ein [!DNL Workfront] -Administrator sein. </p>
+    <p>Weitere Informationen zu [!DNL Workfront] -Administratoren finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für einen Benutzer</a>.</p>
      </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Voraussetzungen
 
-Sie müssen [!UICONTROL OAuth2] Anwendungen für Ihre Organisation erstellen, bevor Sie sie anzeigen oder verwalten können.
+Sie müssen [!UICONTROL OAuth2]-Anwendungen für Ihr Unternehmen erstellen, bevor Sie sie anzeigen oder verwalten können.
 
-Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für [!DNL Workfront] Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für [!DNL Workfront] Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md) .
 
 ## Benutzerdefinierte OAuth2-Anwendungen verwalten
 
@@ -68,22 +68,22 @@ Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für [!
 
 ### Anzeigen und Bearbeiten benutzerdefinierter OAuth2-Anwendungen {#view-and-edit-custom-oauth2-applications}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth-Anwendungen]**.
-1. Klicks **[!UICONTROL App-Integration erstellen]**.
-1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Bearbeiten]** ![](assets/edit-icon.png) wenn es ganz rechts angezeigt wird.
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]** und wählen Sie dann **[!UICONTROL OAuth Applications]** aus.
+1. Klicken Sie auf **[!UICONTROL App-Integration erstellen]**.
+1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Bearbeiten]** ![](assets/edit-icon.png) , wenn sie ganz rechts angezeigt wird.
 1. (Optional) Bearbeiten Sie alle Details der Anwendung.
 
-   Informationen zu Feldern für OAuth2- und JWT-Apps finden Sie unter [Erstellen von OAuth2-Anwendungen für [!DNL Workfront] Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+   Informationen zu Feldern, die sich auf OAuth2- und JWT-Apps beziehen, finden Sie unter [Erstellen von OAuth2-Anwendungen für [!DNL Workfront] Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ### Löschen benutzerdefinierter OAuth2-Anwendungen {#delete-custom-oauth2-applications}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth-Anwendungen]**.
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]** und wählen Sie dann **[!UICONTROL OAuth Applications]** aus.
 1. Klicken Sie auf ** **.
-1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Löschen]** ![](assets/delete.png) wenn es ganz rechts angezeigt wird.
+1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Löschen]** ![](assets/delete.png) , wenn sie ganz rechts angezeigt wird.
 
 ## Verwalten von Client-Geheimnissen in OAuth2-Anwendungen
 
@@ -103,25 +103,25 @@ Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für [!
 
 
 
-1. Klicken Sie auf *[!UICONTROL *Hauptmenü]** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol *[!UICONTROL *Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth-Anwendungen]**.
-1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Bearbeiten]** angezeigt, wenn es ganz rechts angezeigt wird.
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]** und wählen Sie dann **[!UICONTROL OAuth Applications]** aus.
+1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten]** , wenn es ganz rechts angezeigt wird.
 1. Details zum Client-Geheimnisbereich anzeigen:
 
    * Erstellungsdatum
    * Zuletzt verwendetes Datum
    * Notizen
 
-     Informationen zum Hinzufügen von Notizen zu einem Client-Geheimnis finden Sie unter [Notizen für Client Secret hinzufügen oder bearbeiten](#add-or-edit-notes-for-client-secret).
+     Informationen zum Hinzufügen von Notizen zu einem Client-Geheimnis finden Sie unter [Hinzufügen oder Bearbeiten von Notizen zum Client-Geheimnis](#add-or-edit-notes-for-client-secret).
 
 ### Notizen für Client Secret hinzufügen oder bearbeiten {#add-or-edit-notes-for-client-secret}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth-Anwendungen]**.
-1. Klicks **[!UICONTROL App-Integration erstellen]**.
-1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Bearbeiten]** angezeigt, wenn es ganz rechts angezeigt wird.
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]** und wählen Sie dann **[!UICONTROL OAuth Applications]** aus.
+1. Klicken Sie auf **[!UICONTROL App-Integration erstellen]**.
+1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten]** , wenn es ganz rechts angezeigt wird.
 1. Suchen Sie nach dem Client-Geheimnis, für das Sie eine Notiz hinzufügen oder bearbeiten möchten.
 1. Klicken Sie auf das Feld, das Details zum Client-Geheimnis enthält.
 
@@ -131,14 +131,14 @@ Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für [!
    >
    >Der Text für Notizen ist maximal 64 Zeichen lang.
 
-1. Klicken Sie auf &quot;Out of the box&quot;oder drücken Sie die **[!UICONTROL Eingabe]** , um den Text zu speichern.
+1. Klicken Sie auf das vorkonfigurierte Feld oder drücken Sie die **[!UICONTROL Eingabetaste]**, um den Text der Notiz zu speichern.
 
 ### Client-Geheimnis löschen {#delete-client-secret}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]**, wählen Sie **[!UICONTROL OAuth-Anwendungen]**.
-1. Klicks **[!UICONTROL App-Integration erstellen]**.
-1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Bearbeiten]** angezeigt, wenn es ganz rechts angezeigt wird.
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]** und wählen Sie dann **[!UICONTROL OAuth Applications]** aus.
+1. Klicken Sie auf **[!UICONTROL App-Integration erstellen]**.
+1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten]** , wenn es ganz rechts angezeigt wird.
 1. Suchen Sie nach dem Client-Geheimnis, das Sie löschen möchten.
-1. Klicken Sie auf **[!UICONTROL Löschen]** icon ![](assets/delete.png) neben dem Client-Geheimnis.
+1. Klicken Sie auf das Symbol **[!UICONTROL Löschen]** ![](assets/delete.png) neben dem Client-Geheimnis.

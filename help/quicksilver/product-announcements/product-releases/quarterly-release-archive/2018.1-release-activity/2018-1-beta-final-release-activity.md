@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 Beta-Version
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.1 verfügbar waren. Die Funktion wurde am 31. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
+title: Beta-Version 2018.1 - Aktivität "Abschließende Version"
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit der endgültigen Beta-Version 2018.1 verfügbar waren. Die Funktion wurde am 31. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 Beta-Version
+# Beta-Version 2018.1 - Aktivität &quot;Abschließende Version&quot;
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.1 verfügbar waren. Die Funktion wurde am 31. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit der endgültigen Beta-Version 2018.1 verfügbar waren. Die Funktion wurde am 31. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
 
 >[!IMPORTANT]
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.1 vorgenommen wurden, finden Sie unter  [Übersicht über die Versionsaktivität 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.1 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-Die Beta-endgültige Version 2018.1 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die endgültige Version 2018.1 von Beta enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren**
 
@@ -34,8 +34,8 @@ Die Beta-endgültige Version 2018.1 enthält Verbesserungen für Workfront-Admin
 
 * [Mobile Verbesserungen](#mobile-enhancements)
 * [Jira-Integration](#jira-integration)
-* [Aktualisierung von Viewer-Namen für die Überprüfung](#update-to-proofing-viewer-names)
-* [Änderung an der Synchronisierungskadenz bei der Synchronisierung von der Testproduktionsumgebung in die Vorschau](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
+* [Aktualisierung zum Testen von Viewer-Namen](#update-to-proofing-viewer-names)
+* [Wechsel zur Synchronisierungskadenz bei der Synchronisierung von der Testproduktionsumgebung zur Vorschau ](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
 * [Warnmeldung wird angezeigt, wenn die 2.000 Elementgrenze im Ressourcenplaner erreicht ist](#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner)
 
 ## Mobile Verbesserungen {#mobile-enhancements}
@@ -45,7 +45,7 @@ Die folgenden Funktionen werden Anfang März 2018 in den Appstores verfügbar se
 * Neue Navigation: Die Startseite unserer mobilen Apps wurde neu gestaltet.
 * Startseite auf Mobile: Unsere neue Startseite wurde jetzt auch in unseren mobilen Apps aktualisiert.
 
-Die neue Funktion wird sowohl für die iOS- als auch für die Android-Plattform unterstützt.
+Die neue Funktion wird sowohl für die iOS- als auch für die Android-Plattformen unterstützt.
 
 ## Jira-Integration {#jira-integration}
 
@@ -59,7 +59,7 @@ Sie können Folgendes über diese Integration konfigurieren:
 
 Das Workfront-Add-on ist für die On-Premise- und On-Demand-Versionen von Jira verfügbar. Das Add-on ist kostenlos und steht ab März 2018 im Atlassian Marketplace zum Download bereit.
 
-Weitere Informationen zum Workfront-Add-on für Jira, einschließlich eines Links zum Herunterladen, finden Sie unter [Verwenden von Workfront mit Jira.](https://support.workfront.com/hc/en-us/sections/115001130053)
+Weitere Informationen zum Workfront-Add-on für Jira, einschließlich eines Links zum Herunterladen, finden Sie unter [Verwenden von Workfront mit Jira](https://support.workfront.com/hc/en-us/sections/115001130053).
 
 ## Aktualisierung von Viewer-Namen für die Überprüfung {#update-to-proofing-viewer-names}
 
@@ -78,7 +78,7 @@ Die Namen des HTML5-basierten Testversand-Viewers und der Flash-basierten Testve
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Der Workfront-Administrator kann jetzt bestimmen, wie Workfront die Ressourcenverfügbarkeit und die Benutzerzuweisung auf Systemebene berechnet (unter Berücksichtigung von Stunden und FTE-Verfügbarkeit). Der Workfront-Administrator kann die Ressourcenverfügbarkeit und die Benutzerzuordnung so konfigurieren, dass sie entweder anhand des Standardzeitplans oder des Benutzerzeitplans berechnet werden.
 
@@ -92,7 +92,7 @@ Weitere Informationen finden Sie unter &quot;Konfigurieren, wie Workfront Ressou
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 
 ## Änderung an der Synchronisierungskadenz bei der Synchronisierung von der Testproduktionsumgebung in die Vorschau {#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview}
@@ -101,11 +101,11 @@ Weitere Informationen finden Sie unter &quot;Konfigurieren, wie Workfront Ressou
 >
 >Diese Änderung tritt am 11. Februar 2018 in Kraft.
 
-Daten aus der Workfront-Produktionsumgebung für Testsendungen werden nun wöchentlich mit der Workfront-Umgebung für die Testversandvorschau synchronisiert.
+Daten aus der Workfront Proof-Produktionsumgebung werden nun wöchentlich mit der Workfront Proof-Vorschau-Umgebung synchronisiert.
 
-Vor dieser Änderung wurden die Daten monatlich aus der Workfront-Produktionsumgebung in die Vorschau-Umgebung synchronisiert, während die Daten aus der Workfront-Produktionsumgebung wöchentlich mit der Workfront-Vorschau-Umgebung synchronisiert wurden. Diese Diskrepanz verursachte einige Synchronisierungsfehler bei der Verwendung der Proofing-Funktion in der Workfront-Vorschau-Umgebung. 
+Vor dieser Änderung wurden die Daten monatlich aus der Workfront Proof-Produktionsumgebung in die Vorschau-Umgebung synchronisiert, während die Daten aus der Workfront-Produktionsumgebung wöchentlich mit der Workfront-Vorschau-Umgebung synchronisiert wurden. Diese Diskrepanz verursachte einige Synchronisierungsfehler bei der Verwendung der Proofing-Funktion in der Workfront-Vorschau-Umgebung. 
 
-Weitere Informationen finden Sie unter [Vorschau der Sandbox-Testumgebung - Workfront-Testversand](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
+Weitere Informationen finden Sie unter [Vorschau der Sandbox-Testumgebung - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
 
 ## Warnmeldung wird angezeigt, wenn die 2.000 Elementgrenze im Ressourcenplaner erreicht ist {#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner}
 
@@ -117,7 +117,7 @@ Da wir derzeit an einer dauerhafteren Lösung arbeiten, um die Leistung im Resso
 
 Wenn der Ressourcen-Planer versucht, mehr als 2.000 Elemente zu laden, wird eine Benachrichtigung angezeigt, die Sie darauf hinweist, dass nur 2.000 Elemente angezeigt werden können.
 
-Weitere Informationen zu diesen Beschränkungen und deren Auswirkungen auf den Ressourcen-Planer finden Sie unter [Anzeigebeschränkungen für den Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+Weitere Informationen zu diesen Beschränkungen und deren Auswirkungen auf den Ressourcen-Planer finden Sie unter [Anzeigebeschränkungen für Ressourcen-Planer](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our beta program for the Resource Planner performance, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a>.</p>

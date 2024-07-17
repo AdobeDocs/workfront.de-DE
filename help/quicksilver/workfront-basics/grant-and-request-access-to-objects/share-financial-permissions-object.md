@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 3%
+source-wordcount: '566'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ Sie müssen über Folgendes verfügen, um Finanzdaten zu Objekten freizugeben:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -74,7 +74,7 @@ Sie müssen über Folgendes verfügen, um Finanzdaten zu Objekten freizugeben:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte, Aufgaben und Probleme, die mindestens View Finance-Berechtigungen enthalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte, Aufgaben und Probleme, die mindestens View Finance-Berechtigungen enthalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,15 +85,15 @@ Sie müssen über Folgendes verfügen, um Finanzdaten zu Objekten freizugeben:
 
 Beachten Sie Folgendes bei der Erteilung von Finanzberechtigungen für Objekte:
 
-* Sie können finanziellen Berechtigungen für Projekte, Aufgaben, Probleme, <span class="preview">und Ratenkarten</span>.
+* Sie können finanziellen Berechtigungen für Projekte, Aufgaben, Probleme, <span class="preview">und Ratenkarten</span> gewähren.
 * Berechtigungen können vererbt werden: Wenn Sie über View Finance-Berechtigungen für ein Projekt verfügen, erben Sie automatisch View Finance-Berechtigungen für die Aufgaben und Probleme im Projekt.
 
 So erteilen Sie einem Objekt finanzielle Berechtigungen:
 
 1. Gehen Sie zu einer Aufgabe, einem Projekt oder einem Problem, die/das Sie für andere freigeben möchten.
-1. Klicken Sie in der Nähe des Objektnamens auf das Menü Mehr . ![](assets/more-icon.png)Klicken Sie auf **Freigabe**.
+1. Klicken Sie in der Nähe des Objektnamens auf das Menü Mehr ![](assets/more-icon.png) und dann auf **Freigabe**.
 
-1. Im **geben `<Object name>` Zugriff auf** -Feld geben Sie den Namen eines Benutzers, Teams, einer Rolle, einer Gruppe oder eines Unternehmens ein, für den bzw. das Sie das Objekt freigeben möchten.
+1. Geben Sie im Feld **Erteilen von `<Object name>` Zugriff auf** den Namen eines Benutzers, Teams, einer Rolle, einer Gruppe oder eines Unternehmens ein, für den/das Sie das Objekt freigeben möchten.
 
    >[!TIP]
    >
@@ -102,21 +102,21 @@ So erteilen Sie einem Objekt finanzielle Berechtigungen:
 1. Wenn rechts neben dem ausgewählten Namen ein Dropdown-Menü angezeigt wird, klicken Sie auf eine der folgenden verfügbaren Optionen:
 
    * **Anzeigen**
-   * **Mitwirken**
+   * **Contribute to it**
    * **Verwalten**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
-1. Klicken Sie im selben Dropdown-Menü auf **Erweiterte Einstellungen**, führen Sie dann einen der folgenden Schritte aus:
+1. Klicken Sie im selben Dropdown-Menü auf **Erweiterte Einstellungen** und führen Sie dann einen der folgenden Schritte aus:
 
-   * Wenn Sie im vorherigen Schritt eine der drei Optionen ausgewählt haben, stellen Sie sicher, dass **Finanzen anzeigen** ausgewählt ist.
-   * Wenn Sie **Finanzverwaltung verwalten** Stellen Sie im vorherigen Schritt sicher, dass **Finanzverwaltung verwalten** ausgewählt ist.
+   * Wenn Sie eine der drei Optionen im vorherigen Schritt ausgewählt haben, stellen Sie sicher, dass **Finanzen anzeigen** ausgewählt ist.
+   * Wenn Sie im vorherigen Schritt **Finanzen verwalten** ausgewählt haben, stellen Sie sicher, dass **Finanzen verwalten** ausgewählt ist.
 
 1. Klicken Sie auf **Speichern**.
 
 ## Finanzielle Erlaubnis für alle Freigabeebenen
 
-Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzer erhalten, wenn Sie ihnen Berechtigungen zum Anzeigen, Beitragen oder Verwalten von Objekten gewähren: 
+Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzer erhalten, wenn Sie ihnen Anzeige-, Contribute- oder Verwaltungsberechtigungen für Objekte erteilen: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -127,7 +127,7 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzer erhalten
   <tr> 
    <th><strong>Aktionen</strong> </th> 
    <th><strong>Verwalten</strong> </th> 
-   <th><strong>Mitwirken</strong> </th> 
+   <th><strong>Contribute</strong> </th> 
    <th><strong>Anzeigen</strong> </th> 
   </tr> 
  </thead> 
@@ -191,4 +191,4 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzer erhalten
 
 &#42;Erfordert zusätzlichen Zugriff auf die Ressourcenverwaltung.
 
-Informationen zum Zugriff auf Resource Management finden Sie unter [Zugriff auf Resource Management gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Informationen zum Zugriff auf die Ressourcenverwaltung finden Sie unter [Gewähren des Zugriffs auf die Ressourcenverwaltung](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).

@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht und Gruppierung: Projekt anzeigen Tatsächliche Dauer aggregiert durch den Durchschnitt in einer Gruppierung"
+title: "Ansicht und Gruppierung: Anzeige der tatsächlichen Projektdauer, aggregiert nach dem Durchschnitt in einer Gruppierung"
 description: Sie können die folgende Spalte zu einem Projektbericht hinzufügen, um die tatsächliche Dauer als Durchschnitt in einer Gruppierung anzuzeigen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
-# Ansicht und Gruppierung: Projekt anzeigen Tatsächliche Dauer aggregiert durch den Durchschnitt in einer Gruppierung
+# Ansicht und Gruppierung: Anzeige der tatsächlichen Projektdauer, aggregiert nach dem Durchschnitt in einer Gruppierung
 
 Sie können die folgende Spalte zu einem Projektbericht hinzufügen, um die tatsächliche Dauer als Durchschnitt in einer Gruppierung anzuzeigen.
 
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,16 +57,15 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So fügen Sie diese Spalte einer Projektansicht hinzu:
 
 1. (Empfohlen) Um die besten Ergebnisse zu erzielen und den aggregierten Durchschnittswert der tatsächlichen Dauer anzuzeigen, muss Ihrer Projektliste oder Ihrem Bericht eine Gruppierung hinzugefügt werden.\
-   Weitere Informationen zum Erstellen von Gruppierungen finden Sie im Artikel [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Weitere Informationen zum Erstellen von Gruppierungen finden Sie im Artikel [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Wechseln Sie zu einer vorhandenen Projektansicht.
-1. Erweitern Sie das Dropdown-Menü Ansicht und wählen Sie **Ansicht anpassen**.
-1. Klicken **Spalte hinzufügen**.
-1. Klicken **In den Textmodus wechseln**.
-1. Bewegen Sie den Mauszeiger über die **In dieser Spalte anzeigen** und klicken Sie auf **Klicken, um Text zu bearbeiten**.
+1. Erweitern Sie das Dropdown-Menü Ansicht und wählen Sie **Ansicht anpassen** aus.
+1. Klicken Sie auf **Spalte hinzufügen**.
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Bewegen Sie den Mauszeiger über den Bereich **In dieser Spalte anzeigen** und klicken Sie auf **Klicken Sie auf , um Text zu bearbeiten**.
 
 1. Entfernen Sie den gesamten Text im Feld Textmodus und ersetzen Sie ihn durch den folgenden Code:
+   <pre>aggregator.displayFormat=related <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=actualduration <br>aggregator.valueField=ISTDurationMinutes <br>aggregator.valueFormat=val <br>displayName=Project Actual Duration <br>durationunitfield=durationUnit .value <br>linkedname=project <br>namekey=actualduration <br>namekeyargkey=actualduration <br>querysort=ISTDurationMinutes <br>textmode=true <br>valueField=ISTDurationMinutes <br>valueFormat=connection#M:D <br>viewalias=actualduration</pre>
 
-   <pre>aggregator.displayFormat=composite <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=actualduration <br>aggregator.valueField=currentDurationMinutes <br>aggregator.valueFormat=val <br>displayName=Tatsächliche Projektdauer <br>durationunitfield=durationUnit.value <br>linkedname=project <br>namekey=actualduration <br>namekeyargkey=actualduration <br>querysort=currentDurationMinutes <br>textmode=true <br>valueField=effectiveDurationMinutes <br>valueFormat=related#M:D <br>viewalias=actualduration</pre>
-
-1. Klicken **Ansicht speichern**.
+1. Klicken Sie auf **Ansicht speichern**.

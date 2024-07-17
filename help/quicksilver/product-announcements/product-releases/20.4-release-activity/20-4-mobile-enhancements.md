@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 20.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab dem 9. November 2020 verfügbar sein.
 
-Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [20.4 - Versionsübersicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Funktion in Benachrichtigungen zu Microsoft Teams hinzugefügt
 
@@ -38,9 +38,9 @@ Weitere Informationen finden Sie unter [Verwalten von Adobe Workfront-Benachrich
 
 Workfront arbeitet mit der Mobile Device Management (MDM)-Plattform MobileIron zusammen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten.
 
-Mit Workfront für MobileIron können Administratoren die Funktionen zum Kopieren/Einfügen und die Bildschirmaufzeichnung einschränken. Sie können die App Workfront for MobileIron unter [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
+Mit Workfront für MobileIron können Administratoren die Funktionen zum Kopieren/Einfügen und die Bildschirmaufzeichnung einschränken. Sie können die App Workfront for MobileIron unter [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront) herunterladen.
 
-Informationen zum Konfigurieren der App finden Sie unter [Adobe Workfront für MobileIron konfigurieren](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Informationen zum Konfigurieren der App finden Sie unter [Konfigurieren von Adobe Workfront für MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 ## Schnelles Erstellen einer Aufgabe in der mobilen Workfront-App
 
@@ -62,4 +62,4 @@ In der Mobile App können Sie den virtuellen Assistenten bitten, Ihnen mit den f
 
 Diese Befehle zeigen eine Liste der verschiedenen Dinge an, über die Sie den Assistenten fragen können.
 
-**Hinweis: Der mobile Virtual Assistant wird seit April 2024 nicht mehr unterstützt.**
+**Hinweis: Der mobile virtuelle Assistent für Mobilgeräte wird seit April 2024 nicht mehr unterstützt.**

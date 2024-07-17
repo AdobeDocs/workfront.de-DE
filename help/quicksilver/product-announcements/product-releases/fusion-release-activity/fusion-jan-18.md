@@ -23,13 +23,13 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfr
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 ## Debugging-Szenarien mit dem Workfront Fusion DevTool
 
-Um das Debugging Ihrer Szenarien zu vereinfachen, haben wir eine Chrome-Erweiterung für Workfront Fusion 2.0 DevTool erstellt. Mit dieser Erweiterung können Sie manuelle Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und Details zu jedem API-Aufruf anzeigen. Das DevTool bietet außerdem Tools, mit denen Sie Ihr Szenario ändern können, ohne Module einzeln ändern oder filtern zu müssen.
+Um das Debugging Ihrer Szenarien zu vereinfachen, haben wir eine Workfront Fusion 2.0 DevTool Chrome-Erweiterung erstellt. Mit dieser Erweiterung können Sie manuelle Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und Details zu jedem API-Aufruf anzeigen. Das DevTool bietet außerdem Tools, mit denen Sie Ihr Szenario ändern können, ohne Module einzeln ändern oder filtern zu müssen.
 
-Anweisungen und zum Herunterladen des Workfront Fusion 2.0-Entwicklungstools finden Sie unter [Debugging-Szenarien mit dem Adobe Workfront Fusion DevTool](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md).
+Anweisungen und Informationen zum Herunterladen des Workfront Fusion 2.0-Entwicklungstools finden Sie unter [Debugszenarien mit dem Adobe Workfront Fusion DevTool](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md).
 
 ## Azure Active Directory-Connectoren und -Module sind jetzt verfügbar
 
@@ -67,4 +67,4 @@ Sie können jetzt mit Workfront Fusion 2.0 eine Verbindung zu Ihrem Qualtrics-Ko
 * Verteilen einer Umfrage per E-Mail
 * Führen Sie einen benutzerdefinierten API-Aufruf durch.
 
-Weitere Informationen finden Sie unter [Qualtrics-Module](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md).
+Weitere Informationen finden Sie unter [Qualtrics modules](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md).

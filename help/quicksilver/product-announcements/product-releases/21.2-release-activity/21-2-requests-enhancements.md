@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Verbesserungen bei Anforderungen
 
-Auf dieser Seite werden alle Anfragen-Verbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle Anfragen-Verbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 - Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Festlegen der Art von Zuweisungen, die Sie für eine neue Anforderung vornehmen
 
@@ -50,7 +50,7 @@ Da wir Ihr Feedback zur Erstellung von Anforderungen in das neue Workfront-Erleb
 
 Informationen zum Erstellen neuer Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt in den [Grundlagen der Mitwirkenden für den neuen Lernpfad von Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) auf Workfront One enthalten.
 
 ## Verbesserungen am Anforderungs-Workflow
 
@@ -64,7 +64,7 @@ Da wir weiterhin Ihr Feedback hören und einbinden, haben wir dem neuen Anforder
 * Die Sortierung der Liste der gesendeten Anforderungen nach einer der Spalten wird jetzt beibehalten, wenn Sie von der Seite weg navigieren. Weitere Informationen finden Sie unter [Gesendete Anforderungen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * Beim Erstellen einer neuen Anforderung befinden sich die Schaltflächen Senden und Abbrechen jetzt am unteren Rand des neuen Anfrageformulars. Weitere Informationen finden Sie unter [Erstellen und Senden von Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt in den [Grundlagen der Mitwirkenden für den neuen Lernpfad von Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) auf Workfront One enthalten.
 
 ## Öffnen Sie das Bedienfeld &quot;Zusammenfassung&quot;im Bereich &quot;Gesendet&quot;des Bereichs Anforderungen .
 
@@ -74,9 +74,9 @@ Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Expe
 
 Damit Ihr Erlebnis in allen Bereichen von Adobe Workfront konsistent ist, haben wir das Symbol Zusammenfassung öffnen zum Bereich Gesendet des Bereichs Anforderungen hinzugefügt. Jetzt können Sie das Bedienfeld Zusammenfassung für eingereichte Probleme öffnen und weitere Informationen zu den Problemen anzeigen, sie zuweisen oder ein Dokument oder einen Kommentar hinzufügen.
 
-Informationen zu den gesendeten Anfragen finden Sie unter [Gesendete Anforderungen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Weitere Informationen zu den gesendeten Anfragen finden Sie unter [Gesendete Anfragen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt in den [Grundlagen der Mitwirkenden für den neuen Lernpfad von Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) auf Workfront One enthalten.
 
 ## Entfernen von neuen Ausgabefeldern aus einem neuen Anforderungsformular
 
@@ -102,9 +102,9 @@ Um die Konsistenz mit dem neuen Workfront-Erlebnis zu gewährleisten und die Eff
 
 Möglichkeit, einen Link zur Anforderungswarteschlange, Themengruppe oder Warteschlangenthema freizugeben, während Sie die Anforderung eingeben.
 
-Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Informationen zum Senden von Anforderungen finden Sie unter [Erstellen und Senden von Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt in den [Grundlagen der Mitwirkenden für den neuen Lernpfad von Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) auf Workfront One enthalten.
 
 ## Link in eine Anforderungswarteschlange freigeben, wenn eine Anforderung gesendet wird
 
@@ -116,6 +116,6 @@ Jetzt ist es möglich, einen Link zu einer Anforderungswarteschlange, einer Them
 
 Bevor Sie eine neue Anforderung senden, können Sie einen Link in die Anforderungswarteschlange, die Themengruppe oder das Warteschlangenthema der Anforderung kopieren und für andere Benutzer freigeben oder in ein Dashboard einbetten.
 
-Informationen zum Teilen eines Links zu einer Anforderungswarteschlange beim Senden einer Anforderung finden Sie unter [Link in eine Anforderungswarteschlange freigeben](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Informationen zum Teilen eines Links zu einer Anforderungswarteschlange beim Senden einer Anforderung finden Sie unter [Link zu einer Anforderungswarteschlange freigeben](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-Diese Funktion ist jetzt im [Grundlagen für Mitwirkende am neuen Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Lernpfad auf Workfront One.
+Diese Funktion ist jetzt in den [Grundlagen der Mitwirkenden für den neuen Lernpfad von Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) auf Workfront One enthalten.

@@ -83,7 +83,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
-Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Bearbeiten eines Arbeitsbereichs
@@ -91,45 +91,45 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 {{step1-to-planning}}
 
 1. Klicken Sie auf eine Workspace-Karte, um den Arbeitsbereich zu öffnen.
-1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste **Eingabe**.
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Workspace-Namen in der Kopfzeile klicken Sie auf **Bearbeiten**.
+1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die **Eingabetaste**.
+1. Klicken Sie auf das Menü **Mehr** rechts neben dem Workspace-Namen in der Kopfzeile und dann auf **Bearbeiten**.![](assets/more-menu.png)
 
    ![](assets/edit-workspace-box.png)
 
-   Aktualisieren Sie die folgenden Informationen in der **Arbeitsbereich bearbeiten** Feld:
+   Aktualisieren Sie die folgenden Informationen im Feld **Arbeitsbereich bearbeiten** :
 
    * Fügen Sie einen Namen für den Arbeitsbereich hinzu. <!--did they add a label for this field?-->
    * **Beschreibung**: Fügen Sie Informationen zum Arbeitsbereich hinzu.
    * Wählen Sie ein Symbol aus, das mit dem Arbeitsbereich verknüpft werden soll.
 
-1. Klicks **Speichern** , um das Feld &quot;Arbeitsbereich bearbeiten&quot;zu schließen und Ihre Änderungen anzuwenden.
+1. Klicken Sie auf **Speichern** , um das Feld &quot;Arbeitsbereich bearbeiten&quot;zu schließen und Ihre Änderungen anzuwenden.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um einen neuen Workspace-Abschnitt hinzuzufügen:
 
-   * Klicks **Abschnitt hinzufügen** unten im Arbeitsbereich.
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Abschnitt oben hinzufügen** oder **Abschnitt unten hinzufügen**.
+   * Klicken Sie unten im Arbeitsbereich auf **Abschnitt hinzufügen** .
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Abschnitt über** hinzufügen oder auf **Abschnitt unter** hinzufügen .
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Speicherort eines Abschnitts zu ändern:
 
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Grab** icon ![](assets/grab-icon.png)und ziehen Sie sie per Drag-and-Drop an die richtige Stelle.
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Nach oben** oder **Nach unten**. Der Abschnitt wird innerhalb des Arbeitsbereichs nach oben oder unten verschoben.
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das Symbol **Grab** ![](assets/grab-icon.png) und ziehen Sie es dann an die rechte Stelle.
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Nach oben verschieben** oder **Nach unten**. Der Abschnitt wird innerhalb des Arbeitsbereichs nach oben oder unten verschoben.
 
 1. (Optional) Gehen Sie wie folgt vor, um einen Arbeitsbereich zu löschen:
 
-   1. Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Löschen**. <!--add screen shot when UI is final?-->
-   1. Wählen Sie einen neuen Abschnitt aus, um alle Datensatztypen dorthin zu verschieben, und klicken Sie dann auf **Löschen**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+   1. Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie dann auf das Menü **Mehr** ![](assets/more-menu.png) und dann auf **Löschen**. <!--add screen shot when UI is final?-->
+   1. Wählen Sie einen neuen Abschnitt aus, um alle Datensatztypen darauf zu verschieben, und klicken Sie dann auf **Löschen** <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->.
 
       Alle Datensatztypen werden in den Auswahlabschnitt verschoben und der Abschnitt wird gelöscht.
 
-1. (Optional) Klicken Sie auf **Datensatztyp hinzufügen** , um dem Arbeitsbereich Datensatztypen hinzuzufügen.
+1. (Optional) Klicken Sie auf **Hinzufügen des Datensatztyps** , um dem Arbeitsbereich Datensatztypen hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ &quot;Record&quot;, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) in der oberen rechten Ecke und klicken Sie auf **Bearbeiten** , um das Erscheinungsbild eines Datensatztyps zu ändern.
+1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ &quot;Record&quot;, klicken Sie oben rechts auf das Menü **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Bearbeiten** , um das Erscheinungsbild eines Datensatztyps zu ändern.
 
-   Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Weitere Informationen finden Sie unter [Bearbeiten von Datensatztypen](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ &quot;Record&quot;, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) in der oberen rechten Ecke und klicken Sie auf **Löschen** , um einen Datensatztyp zu löschen.
+1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ &quot;Record&quot;, klicken Sie oben rechts auf das Menü **Mehr** ![](assets/more-menu.png) und dann auf **Löschen** , um einen Datensatztyp zu löschen.
 
    Weitere Informationen finden Sie unter [Löschen von Datensatztypen](/help/quicksilver/planning/architecture/delete-record-types.md).
 
@@ -137,6 +137,6 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
    ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
-1. (Optional) Klicken Sie auf **Freigeben** in der oberen rechten Ecke des Arbeitsbereichs, um den Arbeitsbereich für andere freizugeben.
+1. (Optional) Klicken Sie oben rechts im Arbeitsbereich auf **Freigeben** , um den Arbeitsbereich für andere freizugeben.
 
    Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md).

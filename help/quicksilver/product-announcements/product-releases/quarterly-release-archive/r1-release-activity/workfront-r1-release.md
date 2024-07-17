@@ -32,7 +32,7 @@ Workfront gibt drei Mal im Jahr neue Produktfunktionen für alle Produktlinien f
 **Verwalten der Arbeit direkt in Ihrer E-Mail**
 Durch die direkte Integration in Outlook 365 können Sie doppelte Arbeit vermeiden, wenn Sie Workfront direkt über Outlook 365 aktualisieren. Konvertieren Sie E-Mails in Aufgaben, versenden Sie E-Mail-Konversationen und Anhänge als Updates und antworten Sie auf Kommentare - ohne Outlook verlassen zu müssen.
 
-Weitere Informationen:  [In der Vorschau 2016 verfügbare Funktionen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
+Weitere Informationen:  [Funktionalität, die 2016 in der Vorschau bereitgestellt wurde](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![](assets/mceclip0-350x218.png)\
 **Projekte auf Kurs halten und Budget beibehalten**
@@ -41,7 +41,7 @@ Verwalten Sie Ihre Ressourcen und deren Nutzung, halten Sie die Projekte mit dem
 Weitere Informationen:  [R1 Vorschau 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
 ![](assets/mceclip1-350x169.png)\
-**Anpassung von Terminologie und Benachrichtigungen**
+**Terminologie- und Benachrichtigungsanpassung**
 Machen Sie Workfront für Ihr Team relevanter, indem Sie die benutzerdefinierte Terminologiefunktion nutzen, um Begriffe wie &quot;Portfolio&quot;oder &quot;Projekt&quot;so zu ändern, dass sie unabhängig von der Branche auf Ihr bevorzugtes Gebietsschema passen. Darüber hinaus kann jeder Benutzer nun die Benachrichtigungstypen anpassen, die er erhält, indem er die Digest-Häufigkeit regelt.
 
 Weitere Informationen:  [R1 Vorschau 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
@@ -53,7 +53,7 @@ Weitere Informationen:  [R1 Vorschau 5](../../../../product-announcements/produ
 
 ![](assets/mceclip3-350x122.png)
 
-**Workfront Recycle-Container**
+**Workfront Recycle Bin**
 Der neue Workfront-Papierkorb unterstützt Sie beim Wiederherstellen von Projekten, Aufgaben, Problemen sowie allen zugehörigen Dokumenten, Formularen und Aktualisierungen innerhalb von 30 Tagen nach dem Löschen.
 
 Weitere Informationen:  [R1 Vorschau 1 und 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
@@ -61,16 +61,16 @@ Weitere Informationen:  [R1 Vorschau 1 und 2](../../../../product-announcements
 ### PROOFHQ-VERBESSERUNGEN {#proofhq-enhancements}
 
 ![](assets/mceclip4-350x201.png)\
-**Testversand-Suche und Suchen**
+**Suche und Suchen testen**
 Die neue Suchfunktion in ProofHQ ermöglicht es Ihnen, schnell und einfach alle Instanzen eines Wortes oder einer Wortgruppe direkt in den Testsendungen zu suchen und zu finden, während Sie sie überprüfen. Dies gilt für alle textbasierten Dokumente, einschließlich PDF- und Microsoft Word-Dateien.
 
-Weitere Informationen:  [R1 Endgültige](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
+Weitere Informationen:  [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
 ![](assets/mceclip5-350x226.png)\
 **Visuelle Berichterstellung und erweiterte benutzerdefinierte Ansichten**
 Neue Berichtsmetriken in ProofHQ ermöglichen es Ihnen, die Umlaufzeit, verspätete Prozentsätze, die Anzahl der Kommentare und die Zeit bis zur ersten Aktivität zu verfolgen. Neue benutzerdefinierte Ansichten erstellen eine erweiterte Filterlogik, sodass Sie die exakten Daten direkt bei Bedarf erhalten.
 
-Weitere Informationen:  [R1 Endgültige](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
+Weitere Informationen:  [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
 **Vorschau von ProofHQ**
 Mit ProofHQ können Sie jetzt neue Funktionen in einer Vorschau-Umgebung testen, bevor sie für alle Benutzer freigegeben werden.
@@ -84,7 +84,7 @@ Für Marketing-Teams, die eine bessere Verwaltung, Veröffentlichung und Verfolg
 **DAM-erforderliche Metadatenfelder**
 Verbessern Sie die Kategorisierung digitaler Assets mit den erforderlichen Metadatenfeldern, die eine bessere Steuerung der Asset-Freigabe ermöglichen.
 
-**Halten Sie alle mit Workfront in Kontakt und arbeiten Sie effizient.**
+**Halten Sie alle mit Workfront beschäftigt und effizient.**
 Workfront ist eine Enterprise Work Management-Lösung, die es modernen Fachkräften und Führungskräften ermöglicht,
 
 * Anpassen der Arbeit an individuelle und organisatorische Präferenzen und Erhöhung der Akzeptanz
@@ -92,8 +92,8 @@ Workfront ist eine Enterprise Work Management-Lösung, die es modernen Fachkräf
 * eine bessere und aussagekräftigere Sichtbarkeit der Ressourcen, sowohl der Budgets als auch der Menschen
 * Die richtige Arbeit leisten - schneller als zuvor
 
-**WEITERE INFORMATIONEN**
+**MEHR FINDEN**
 
-* Für eine vollständige Liste der in R1 verfügbaren Verbesserungen: [Übersicht über die Release-Aktivität R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
+* Für eine vollständige Liste der in R1 verfügbaren Verbesserungen: [R1-Versionsaktivität - Übersicht](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront. Weil Arbeit wichtig ist.

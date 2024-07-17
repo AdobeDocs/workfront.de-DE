@@ -10,7 +10,7 @@ role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '336'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 Adobe Workfront-Administratoren können eine benutzerdefinierte Webhook-Integration für ihr Unternehmen hinzufügen, indem sie zu Einrichtung > Dokumente > Benutzerdefinierte Integrationen in Workfront navigieren. Auf der Seite Benutzerspezifische Integration unter Einrichtung können Administratoren eine Liste der vorhandenen Dokument-Webhook-Integrationen anzeigen. Auf dieser Seite können Integrationen hinzugefügt, bearbeitet, aktiviert und deaktiviert werden.
 
-Um eine Integration hinzuzufügen, klicken Sie auf **Benutzerspezifische Integration hinzufügen**.
+Um eine Integration hinzuzufügen, klicken Sie auf **Benutzerdefinierte Integration hinzufügen**.
 
 ![](assets/webhooks-integration-350x230.png)
 

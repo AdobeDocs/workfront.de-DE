@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit der Version vom 3. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Versionsübersicht des dritten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## Bearbeiten Sie die Aufgabe und geben Sie das Datum und die Bedingung für die Übermittlung aus der Kopfzeile oder dem Detailabschnitt aus.
@@ -30,9 +30,9 @@ Um die Aktualisierung von Aufgaben und Problemen zu vereinfachen, haben wir jetz
 Informationen zum Aktualisieren des Zustimmungsdatums und der sCondition finden Sie in den folgenden Artikeln:
 
 * [Aktualisierungsbedingung für Aufgaben und Probleme](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
-* [Aktualisierung des Veröffentlichungsdatums für Aufgaben und Probleme](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+* [Aktualisierungsdatum für Aufgaben und Probleme ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3429471/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Wichtigere intelligente Zuweisungen
 

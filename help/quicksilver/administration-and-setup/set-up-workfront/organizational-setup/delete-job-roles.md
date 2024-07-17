@@ -30,8 +30,8 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -39,12 +39,12 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf die Rollen "Aufträge"</p> <p><b>NOTE</b>: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Administratorzugriff auf die Rollen "Aufträge"</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Löschen von Auftragsrollen
 
@@ -52,24 +52,24 @@ Sie müssen über Folgendes verfügen:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this moved from create and manage job roles)</p>
 -->
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken **[!UICONTROL Vorgangsrollen].**
+1. Klicken Sie auf **[!UICONTROL Vorgangsrollen].**
 1. Wählen Sie die Auftragsrolle aus, die Sie löschen möchten, und klicken Sie dann auf **[!UICONTROL Löschen].**
 1. Führen Sie einen der folgenden Schritte aus, wenn der Auftragsrolle Objekte (Benutzer, Aufgaben, Probleme) zugewiesen sind:
 
-   * **Ersetzen Sie die Auftragsrolle durch eine andere Auftragsrolle:** Wählen Sie aus der Dropdown-Liste die neue Auftragsrolle aus.
+   * **Ersetzen Sie die Auftragsrolle durch eine andere Auftragsrolle:** Wählen Sie die neue Auftragsrolle aus der Dropdownliste aus.
 
-      Sämtliche aktuellen und vergangene Ressourcenzuweisungen, die mit der Rolle &quot;gelöschter Auftrag&quot;verknüpft sind, werden an die von Ihnen ausgewählte Auftragsrolle übertragen.
+     Sämtliche aktuellen und vergangene Ressourcenzuweisungen, die mit der Rolle &quot;gelöschter Auftrag&quot;verknüpft sind, werden an die von Ihnen ausgewählte Auftragsrolle übertragen.
 
-      Benutzer, denen nur eine Rolle zugewiesen wurde, werden der von Ihnen ausgewählten Rolle &quot;Job&quot;zugewiesen. Benutzern, denen eine sekundäre Rolle zugewiesen wurde, wird nicht die von Ihnen ausgewählte Rolle zugewiesen.
+     Benutzer, denen nur eine Rolle zugewiesen wurde, werden der von Ihnen ausgewählten Rolle als Job zugewiesen. Benutzer, denen eine Rolle als sekundärer Job zugewiesen wurde, werden nicht der von Ihnen ausgewählten Rolle als Job zugewiesen.
 
-   * **Löschen Sie die Auftrags- und Ressourcenzuordnung:** Auswählen **[!UICONTROL Keines]** aus der Dropdown-Liste aus.
+   * **Löschen Sie die Auftrags- und Ressourcenzuordnung:** Wählen Sie **[!UICONTROL Keine]** aus der Dropdownliste aus.
 
-      >[!IMPORTANT]
-      >
-      >Durch Löschen einer Auftragsrolle werden alle aktuellen und vergangene Ressourcenzuweisungen, die sich auf diese Stellenrolle beziehen, für alle Projekte gelöscht.
+     >[!IMPORTANT]
+     >
+     >Durch Löschen einer Auftragsrolle werden alle aktuellen und vergangene Ressourcenzuweisungen, die sich auf diese Stellenrolle beziehen, für alle Projekte gelöscht.
 
-      &#x200B; z. B. wenn eine Aufgabe oder ein Problem nur dieser Aufgabenrolle zugewiesen ist, wird die Zuweisung der Aufgabe oder des Problems aufgehoben, nachdem die Auftragsrolle gelöscht wurde.
+     &#x200B; z. B. wenn eine Aufgabe oder ein Problem nur dieser Aufgabenrolle zugewiesen ist, wird die Zuweisung der Aufgabe oder des Problems aufgehoben, nachdem die Auftragsrolle gelöscht wurde.
 
-1. Klicken  **[!UICONTROL Ja, löschen]**.
+1. Klicken Sie auf **[!UICONTROL Ja, löschen Sie es]**.

@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ Dies wird verursacht, wenn das geplante Startdatum mit dem geplanten Abschlussda
 
 Es gibt viele Faktoren, die dazu führen können, dass die geplanten Start- und Abschlussdaten übereinstimmen. Dieses Problem ist weitgehend an die Zeitverteilung der Aufgabe bzw. des Problems gebunden.
 
-In den meisten Fällen sollte die Zuordnung je nach Dauer-Typ und Aufgabenbegrenzung für die Aufgabe das geplante Abschlussdatum wesentlich weiter verlängern als erwartet. In einigen Fällen kann es jedoch, je nach Konfiguration des Duration Type und der Task Constraint, möglich sein, dass dies stattdessen &quot;null&quot;ist.
+In den meisten Fällen sollte die Zuordnung je nach Dauer-Typ und Aufgabenbegrenzung für die Aufgabe das geplante Abschlussdatum wesentlich weiter verlängern als erwartet. In einigen Fällen kann es jedoch, je nach Konfiguration des Duration Type und der Task Constraint, möglich sein, dass dies stattdessen auf null gesetzt wird.
 
 Im Folgenden finden Sie die Best Practices, die Sie in diesen Fällen mit Links zu ihren unterstützenden Artikeln überprüfen sollten:
 
-* Voraussichtlicher Abschluss: [Übersicht über das geplante Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
+* Projiziertes Abschlussdatum: [Überblick über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
 * Aufgabenbegrenzung: [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
-* Dauer Typ: [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+* Dauer: [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 
 Wenn das geplante Abschlussdatum, die Aufgabenbegrenzung oder der Typ Dauer erwartungsgemäß funktionieren, wenden Sie sich an den Support, um eine tiefgehendere Fehlerbehebung zu erhalten.

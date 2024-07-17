@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das Objekt verwalten, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das Objekt verwalten, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,13 +58,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wählen Sie in der Nähe des Dokumentnamens die Version des Dokuments aus, für die Sie im Dropdown-Menü Version eine Genehmigung erstellen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Klicks **Genehmigungen** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Genehmigungen** .
 
 1. (Optional) Legen Sie einen Termin für die Genehmigung fest. Benutzer und Teams werden per E-Mail 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist benachrichtigt.
 
-1. Um einen Genehmiger hinzuzufügen, klicken Sie auf die **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
+1. Um einen Genehmiger hinzuzufügen, klicken Sie auf den **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
 
-1. Um einen Validierer hinzuzufügen, klicken Sie auf das **Überprüfer** und beginnen Sie mit der Eingabe eines Benutzers oder Teams.
+1. Um einen Überprüfer hinzuzufügen, klicken Sie auf das Kontrollkästchen **Überprüfer** und beginnen Sie mit der Eingabe des Namens eines Benutzers oder Teams.
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -72,21 +72,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen Sie eine Dokumentüberprüfung- oder Genehmigungsanforderung aus dem Bereich &quot;Dokumentzusammenfassung&quot;
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 
 1. Klicken Sie auf das benötigte Dokument. Daraufhin wird der Bereich Dokumentzusammenfassung für dieses Dokument geöffnet.
 
 1. Wählen Sie im Versions-Dropdown-Menü die Version des Dokuments aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Scrollen Sie nach unten zum **Genehmigungen** im Bereich &quot;Dokumentzusammenfassung&quot;auf und klicken Sie dann auf **Hinzufügen**.
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** im Bereich &quot;Dokumentzusammenfassung&quot;und klicken Sie dann auf **Hinzufügen**.
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. (Optional) Legen Sie einen Termin für die Genehmigung fest. Benutzer und Teams werden per E-Mail 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist benachrichtigt.
 
-1. Um einen Genehmiger hinzuzufügen, klicken Sie auf die **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
+1. Um einen Genehmiger hinzuzufügen, klicken Sie auf den **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
 
-1. Um einen Validierer hinzuzufügen, klicken Sie auf das **Überprüfer** und beginnen Sie mit der Eingabe eines Benutzers oder Teams.
+1. Um einen Überprüfer hinzuzufügen, klicken Sie auf das Kontrollkästchen **Überprüfer** und beginnen Sie mit der Eingabe des Namens eines Benutzers oder Teams.
 
    ![](assets/add-approver-and-deadline.png)
 

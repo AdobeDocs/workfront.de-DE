@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Weisen Sie Benutzern einen Artikel zu der [!UICONTROL Kanban] Pinnwand
+# Benutzer einer Geschichte auf der [!UICONTROL Kanban]-Pinnwand zuweisen
 
 ## Zugriffsanforderungen
 
@@ -24,8 +24,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -33,20 +33,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Weisen Sie Benutzern einen Artikel zu der [!UICONTROL Kanban] Pinnwand
+## Benutzer einer Geschichte auf der [!UICONTROL Kanban]-Pinnwand zuweisen
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Teams]**.
-1. (Optional) Klicken Sie auf die **[!UICONTROL Switch Team]** icon ![Symbol &quot;Team wechseln&quot;](assets/switch-team-icon.png), wählen Sie entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Navigieren Sie zum Gerät. [!UICONTROL Kanban] Pinnwand, auf der Sie Benutzer zuweisen möchten.
-1. Navigieren Sie zur Kachel &quot;Geschichte&quot;im [!UICONTROL Kanban] Pinnwand, auf der Sie einen Benutzer hinzufügen möchten.
+1. Gehen Sie zur agilen [!UICONTROL Kanban]-Pinnwand, wo Sie Benutzer zuweisen möchten.
+1. Wechseln Sie auf der [!UICONTROL Kanban]-Pinnwand zur Kachel &quot;Geschichte&quot;, auf der Sie einen Benutzer hinzufügen möchten.
 1. Klicken Sie auf den Teamavatar auf der Kachel &quot;Geschichte&quot;(oder einen Benutzeravatar, wenn einer bereits zugewiesen ist), geben Sie den Namen des Benutzers ein, den Sie der Geschichte zuweisen möchten, und klicken Sie dann auf den Namen, wenn er angezeigt wird. Sie können auch einen vorgeschlagenen Benutzer auswählen.
 
    >[!TIP]

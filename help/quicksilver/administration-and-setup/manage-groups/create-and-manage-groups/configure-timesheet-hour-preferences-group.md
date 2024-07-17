@@ -30,11 +30,11 @@ Die folgenden Abschnitte auf der Seite &quot;Timesheet- und Stundeneinstellungen
 
 * Gelöschte Projekte, Aufgaben und Probleme
 
-Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde freischaltet, finden Sie im Abschnitt . [Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde entsperrt, finden Sie im Abschnitt [Zeitblatt- und Stundeneinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt und Stundeneinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) .
 
 >[!TIP]
 >
->Eine Konfiguration auf Gruppenebene ist auch für Projektvoreinstellungen sowie für Aufgaben- und Problemvoreinstellungen möglich. Weitere Informationen finden Sie unter [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) und [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>Eine Konfiguration auf Gruppenebene ist auch für Projektvoreinstellungen sowie für Aufgaben- und Problemvoreinstellungen möglich. Weitere Informationen finden Sie unter [Konfigurieren von Projektanvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) und [Konfigurieren von Aufgaben und Ausgabevoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Zugriffsanforderungen
 
@@ -52,12 +52,12 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 +++
 
@@ -73,7 +73,7 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
   Add example here?
   -->
 
-* Nachdem ein Workfront-Administrator eine Voreinstellung auf Systemebene entsperrt und sie für Ihre Gruppe konfiguriert hat, können Sie sie sperren, um sicherzustellen, dass alle in den Gruppen unter Ihrer Gruppe dieselbe Konfiguration verwenden. Dies entspricht der Möglichkeit, dass ein Workfront-Administrator eine Voreinstellung für alle Benutzer im System konfigurieren und sperren muss. Weitere Informationen finden Sie unter [Voreinstellung für Zeitblatt und Stunde einer Gruppe sperren oder entsperren](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Nachdem ein Workfront-Administrator eine Voreinstellung auf Systemebene entsperrt und sie für Ihre Gruppe konfiguriert hat, können Sie sie sperren, um sicherzustellen, dass alle in den Gruppen unter Ihrer Gruppe dieselbe Konfiguration verwenden. Dies entspricht der Möglichkeit, dass ein Workfront-Administrator eine Voreinstellung für alle Benutzer im System konfigurieren und sperren muss. Weitere Informationen finden Sie unter [Vorgabe zum Sperren oder Entsperren eines Gruppen-Timesheets und einer Stunde](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 ## Konfigurieren einer entsperrten Zeitleiste oder einer Stundenvoreinstellung für eine Gruppe
 
@@ -81,14 +81,14 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
 >
 >Wenn Sie Workfront-Administrator sind, können Sie die Schritte 1 bis 4 umgehen, indem Sie &quot;Einrichtung&quot;> &quot;Zeitblatt und Stunden&quot;> &quot;Voreinstellungen&quot;aufrufen und dann im Feld oben auf der Seite nach dem Gruppennamen suchen.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, deren Timesheet- oder Stundeneinstellungen Sie konfigurieren möchten.
 1. Klicken Sie im linken Bereich auf **Timesheets und Stunden**.
 
-1. Auf der angezeigten Seite wird im **Allgemeine Voreinstellungen** konfigurieren Sie eine der folgenden Optionen:
+1. Konfigurieren Sie auf der angezeigten Seite im Abschnitt **Allgemeine Voreinstellungen** eine der folgenden Optionen:
 
    >[!TIP]
    >
@@ -106,7 +106,7 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
        <li>Ihre Timesheets als "Allgemeine Zeit"</li>
        </ul> 
        <p>Dies ist nützlich, wenn Benutzer planen, außerhalb des Büros zu sein, und diese Zeit vorher protokollieren möchten.</p> 
-       <p><b>NOTE</b>: Sie können Benutzer nicht daran hindern, die Zeit für Aufgaben oder Probleme zu protokollieren, die geschlossen oder abgebrochen werden. Sie können Benutzer nur daran hindern, die Zeit für komplette oder tote Projekte zu protokollieren. Es wird empfohlen, Filter in Listen mit Aufgaben und Problemen zu verwenden, um auszuschließen, dass abgeschlossene oder abgebrochene Aufgaben für Benutzer nicht sichtbar sind.</p> </td> 
+       <p><b>HINWEIS</b>: Sie können Benutzer nicht daran hindern, die Zeit für Aufgaben oder Probleme zu protokollieren, die geschlossen oder abgebrochen werden. Sie können Benutzer nur daran hindern, die Zeit für komplette oder tote Projekte zu protokollieren. Es wird empfohlen, Filter in Listen mit Aufgaben und Problemen zu verwenden, um auszuschließen, dass abgeschlossene oder abgebrochene Aufgaben für Benutzer nicht sichtbar sind.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aufwendungen aus einem Zeitblatt hinzufügen</td> 
@@ -138,7 +138,7 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
     </tbody> 
    </table>
 
-1. Im **Wo Benutzer die Zeit protokollieren können** konfigurieren Sie eine der folgenden Optionen:
+1. Konfigurieren Sie im Abschnitt &quot;**Wo Benutzer die Zeit protokollieren können**&quot;eine der folgenden Optionen:
 
    <table style="table-layout:auto">
     <col>
@@ -163,14 +163,14 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
    >
    >Diese Voreinstellung wird je nach Konfiguration der Voreinstellungen für die Home Group des Benutzers angewendet. Wenn diese Einstellungen in den Voreinstellungen für die Startseite des Benutzers aktiviert sind, können sie die Zeit direkt für Projekte protokollieren, einschließlich abgeschlossener oder veralteter Projekte, unabhängig davon, ob die Gruppeneinstellungen des Projekts dies zulassen oder nicht.
 
-1. Im **Vorausfüllen von Zeitesheets** konfigurieren Sie eine der folgenden Optionen:
+1. Konfigurieren Sie im Abschnitt **Vorfüllen von Timesheets** eine der folgenden Optionen:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Arbeiten, die sich in &lt;number of="" weeks=""&gt; des Arbeitsbereichs des Zeitplans</td> 
+      <td role="rowheader">Arbeiten, die innerhalb von &lt;Anzahl der Wochen&gt; des Arbeitsbereichs des Zeitplans liegen</td> 
       <td> <p>Definiert die Anzahl der Wochen vor und nach dem Datumsbereich des Zeitblatts, das Datum der dem Benutzer zugewiesenen Aufgaben und Probleme enthält. Die Standardeinstellung ist 1 Woche, und Sie können diesen Bereich auf 4 Wochen erweitern. Das bedeutet, dass das Timesheet mit Aufgaben und Problemen vorausgefüllt ist, die zwischen vier Wochen vor dem Datumsbereich des Zeitblatts und bis zu vier Wochen nach dem Datumsbereich des Zeitblatts liegen, wenn Sie für Ihren Bereich vier Wochen auswählen. </p> </td> 
      </tr> 
      <tr> 

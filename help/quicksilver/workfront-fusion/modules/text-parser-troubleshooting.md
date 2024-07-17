@@ -10,7 +10,7 @@ feature: Workfront Fusion
 exl-id: 8a3821cf-d0c6-4917-86e7-90a4872a5795
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,14 @@ Verwenden Sie diese Informationen, wenn Sie keinen Text-Parser erhalten können,
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -36,35 +36,35 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Fehlerbehebung
 
 Im Beispielszenario möchten Sie den Dateityp eines Dateidokuments &quot;filename.docx&quot;analysieren und die Erweiterung des Dateinamens variiert immer von DOCX über PDF bis CSV.
 
-Der Ausdruck, den Sie in diesem Fall verwenden können, lautet [!DNL \..+]
+Der Ausdruck, den Sie in diesem Fall verwenden können, ist [!DNL \..+]
 
-Wenn Sie dies auf Regex-Ausdruck auf regex101.com verwenden würden, erhalten Sie eine vollständige Übereinstimmung.
+Wenn Sie dies auf einem Regex-Ausdruck auf regex101.com verwenden würden, erhalten Sie eine vollständige Übereinstimmung.
 
 ![](assets/regex-expression-350x130.png)
 
@@ -90,8 +90,8 @@ In der Ausgabe, die im folgenden Bild gezeigt wird, stimmt die Erfassungsgruppe 
 
 ![](assets/text-parser-output-350x389.png)
 
-Eine weitere Problemumgehung, die auch regex enthält, ist die Verwendung der Funktion replace .
+Eine weitere Problemumgehung, die auch regex enthält, ist die Verwendung der Funktion replace
 
 `{{replace("abcdefghijklmno pqr stuvw xyz.docx"; "/.\./"; ".")}}`
 
-Dann ersetzen `abcdefghijklmno pqr stuvw xyz.docx` mit Ihrer eigentlichen Dateinamenvariable.
+Ersetzen Sie dann `abcdefghijklmno pqr stuvw xyz.docx` durch Ihre tatsächliche Dateinamenvariable.

@@ -11,7 +11,7 @@ role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -32,27 +32,27 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Gruppenmitgliedschaften anzeigen und verwalten
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Gruppen**.
 
    In der angezeigten Liste können Workfront-Administratoren alle Gruppen und Untergruppen anzeigen. Gruppenadministratoren können nur die Gruppen und Untergruppen sehen, die sie verwalten.
 
 1. Klicken Sie auf den Namen der Gruppe, die Sie bearbeiten möchten.
-1. Auf der angezeigten Seite wird mit **Gruppenmitglieder** Führen Sie einen der folgenden Schritte aus:
+1. Führen Sie auf der angezeigten Seite, während im linken Menü **Gruppenmitglieder** ausgewählt ist, einen der folgenden Schritte aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -62,19 +62,19 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td role="rowheader">Einen Benutzer zur Gruppe hinzufügen</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Klicken <strong>Mitglieder hinzufügen</strong> <img src="assets/add-icon-plus-in-circle.png">, geben Sie den Namen des Benutzers ein und wählen Sie ihn aus, wenn er angezeigt wird.</li> 
+        <li value="1">Klicken Sie auf <strong>Mitglieder hinzufügen</strong> <img src="assets/add-icon-plus-in-circle.png">, geben Sie den Namen des Benutzers ein und wählen Sie ihn aus, wenn er angezeigt wird.</li> 
         <li value="2"> <p>Wiederholen Sie diesen Vorgang für alle anderen Benutzer, die Sie hinzufügen möchten.</p> <p>Sie können auf das X rechts neben einem Namen klicken, wenn Sie diesen Benutzer nicht hinzufügen möchten.</p> </li> 
-        <li value="3">Klicken <strong>Fertig</strong> wenn Sie fertig sind.</li> 
+        <li value="3">Klicken Sie auf <strong>Fertig</strong> , wenn Sie fertig sind.</li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Einen Benutzer aus der Gruppe entfernen</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Wählen Sie einen oder mehrere Benutzernamen aus und klicken Sie dann auf <strong>Element entfernen</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
-        <li value="2"> <p>Klicken <strong>Entfernen</strong> in der angezeigten Warnmeldung angezeigt.</p> <p>Sie können einen Benutzer finden, den Sie aus der Liste entfernen möchten, indem Sie auf <strong>Personen und Gruppen in der Liste suchen</strong>, geben Sie den Namen in das Feld ein und klicken Sie dann auf den Namen, sobald er angezeigt wird.</p> <p><b>NOTIZ</b>:  
+        <li value="1">Wählen Sie einen oder mehrere Benutzernamen aus und klicken Sie dann auf <strong>Mitglied entfernen</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
+        <li value="2"> <p>Klicken Sie in der angezeigten Warnmeldung auf <strong>Entfernen</strong> .</p> <p>Sie können einen Benutzer finden, den Sie aus der Liste entfernen möchten, indem Sie auf <strong>Personen und Gruppen in der Liste durchsuchen</strong> klicken, den Namen in das Feld eingeben und dann auf den Namen klicken, wenn er angezeigt wird.</p> <p><b>NOTE</b>:  
           <ul> 
-           <li>Wenn es sich bei dieser Gruppe um die Home Group für einen Benutzer handelt, den Sie entfernen möchten, müssen Sie zunächst eine andere Home Group im Profil des Benutzers zuweisen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">Übersicht über Startsegmente</a> und <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Benutzerprofil bearbeiten</a>.</li> 
+           <li>Wenn es sich bei dieser Gruppe um die Home Group für einen Benutzer handelt, den Sie entfernen möchten, müssen Sie zunächst eine andere Home Group im Profil des Benutzers zuweisen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">Übersicht über die Home-Gruppen</a> und <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a>.</li> 
            <li>Wenn die Gruppe nur einen Gruppenadministrator hat und Sie ihn oder sie aus der Gruppe entfernen müssen, müssen Sie zuerst einen weiteren Gruppenadministrator der Gruppe zuweisen.</li> 
            <li>Ein Benutzer kann einzeln zu einer Untergruppe sowie zur übergeordneten Gruppe gehören. Wenn Sie eine Person aus einer Untergruppe entfernen, bleiben sie Teil der übergeordneten Gruppe. Wenn Sie sie aus der übergeordneten Gruppe entfernen, bleiben sie ebenfalls Teil der Untergruppe. Wenn Sie nicht möchten, dass einem Benutzer der Zugriff für die übergeordnete Gruppe gestattet wird, müssen Sie den Benutzer sowohl aus den Untergruppen als auch aus der übergeordneten Gruppe entfernen, wenn er an beiden Stellen einzeln aufgeführt wird.</li> 
           </ul> </p> </li> 
@@ -85,7 +85,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
         <li value="1">Wählen Sie einen oder mehrere Benutzernamen aus und klicken Sie dann auf <strong>Bearbeiten</strong> <img src="assets/edit-icon.png">.</li> 
-        <li value="2"> <p>Ändern Sie die Profilinformationen des Benutzers.</p> <p>Informationen zu den Änderungen, die Sie vornehmen können, finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Benutzerprofil bearbeiten</a>.</p> </li> 
+        <li value="2"> <p>Ändern Sie die Profilinformationen des Benutzers.</p> <p>Informationen zu den Änderungen, die Sie vornehmen können, finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -98,7 +98,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
      <tr> 
       <td role="rowheader">Anzeigen und Bearbeiten von Gruppenrollen von Mitgliedern</td> 
-      <td> <p>Die <strong>Gruppenrolle</strong> enthält die Rolle jedes Mitglieds. Als Gruppenadministrator können Sie auf die Rolle eines Mitglieds doppelklicken, um sie zu ändern.</p> <p>Für Gruppenmitglieder, die keine Gruppenadministratoren sind, kann diese Spalte nicht bearbeitet werden.</p> <p>Gruppenadministratoren stehen immer oben in der Liste.</p> </td> 
+      <td> <p>Die Spalte <strong>Gruppenrolle</strong> enthält die Rolle jedes Mitglieds. Als Gruppenadministrator können Sie auf die Rolle eines Mitglieds doppelklicken, um sie zu ändern.</p> <p>Für Gruppenmitglieder, die keine Gruppenadministratoren sind, kann diese Spalte nicht bearbeitet werden.</p> <p>Gruppenadministratoren stehen immer oben in der Liste.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Senden eines Kommentars an Gruppenmitglieder</td> 
@@ -110,11 +110,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr> 
      <tr> 
       <td role="rowheader">Benutzer in Workfront aktivieren</td> 
-      <td>Wählen Sie einen oder mehrere inaktive Benutzer aus und klicken Sie auf <strong>Benutzer aktivieren</strong> , um sie in Workfront zu aktivieren. </td> 
+      <td>Wählen Sie einen oder mehrere inaktive Benutzer aus und klicken Sie dann auf <strong>Benutzer aktivieren</strong> , um sie in Workfront zu aktivieren. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Benutzer in Workfront deaktivieren</td> 
-      <td>Wählen Sie einen oder mehrere aktive Benutzer aus und klicken Sie auf <strong>Benutzer deaktivieren</strong><img src="assets/deactivate-user.png"> , um sie in Workfront zu deaktivieren.</td> 
+      <td>Wählen Sie einen oder mehrere aktive Benutzer aus und klicken Sie dann auf <strong>Benutzer deaktivieren</strong><img src="assets/deactivate-user.png"> , um sie in Workfront zu deaktivieren.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nach Spalte sortieren</td> 

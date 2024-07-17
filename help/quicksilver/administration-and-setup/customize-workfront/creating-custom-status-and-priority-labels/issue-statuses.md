@@ -11,7 +11,7 @@ role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -38,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,11 +49,11 @@ Sie können auf den Status von Problemen auf Systemebene zugreifen und diesen ä
 
 So greifen Sie auf den Status von Problemen auf Systemebene zu:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken **Projektvoreinstellungen** > **Status**.
+1. Klicken Sie auf **Projekteinstellungen** > **Status**.
 
-1. Klicken Sie auf **Probleme** , um den in Workfront verfügbaren Problemstatus anzuzeigen.
+1. Klicken Sie auf die Registerkarte **Probleme** , um den in Workfront verfügbaren Problemstatus anzuzeigen.
 
    ![](assets/issue-status.png)
 
@@ -73,7 +73,7 @@ Die folgenden Problemstatus werden mit Ihrer Workfront-Instanz bereitgestellt:
  <col> 
  <thead> 
   <tr> 
-   <th>Systemproblem - Status</th> 
+   <th>Status des Systemfehlers</th> 
    <th>Verwendung des Status</th> 
    <th>Was geschieht im Status?</th> 
   </tr> 
@@ -106,13 +106,13 @@ Die folgenden Problemstatus werden mit Ihrer Workfront-Instanz bereitgestellt:
   </tr> 
   <tr> 
    <td>Abwarten von Feedback (entspricht On Hold)</td> 
-   <td>Sie können in diesem Status ein Problem platzieren, um anzugeben, dass Sie auf Feedback warten (normalerweise vom Primären Ansprechpartner), bevor Sie mit der Bearbeitung des Problems fortfahren können. </td> 
+   <td>Sie können ein Problem in diesen Status einfügen, um anzugeben, dass Sie auf Feedback warten (normalerweise vom Primären Kontakt), bevor Sie mit der Bearbeitung des Problems fortfahren können. </td> 
    <td> <p>Wenn sich das Problem in einem Projekt mit dem Status "Aktuell"befindet, wird das Problem auf der Registerkarte "Arbeiten am"der Benutzer angezeigt, die dem Problem zugewiesen sind.</p> <p>Wenn ein Problem auf Feedback wartet, kann ein Projekt nicht abgeschlossen werden.</p> <p>Dieser Status ist für die Berichterstellung wichtig, um zwischen aktuell offenen, aber in Bearbeitung befindlichen Problemen (normalerweise im Status In Bearbeitung ) und Problemen zu unterscheiden, die aktuell geöffnet sind, aber nicht bearbeitet werden, da mehr Feedback erforderlich ist, um sie abzuschließen (normalerweise im Status Erwartetes Feedback ).</p> </td> 
   </tr> 
   <tr> 
    <td>Kann nicht dupliziert werden (entspricht geschlossen)</td> 
    <td>Sie können ein Problem in diesen Status einfügen, um anzugeben, dass Sie das Problem schließen, aber das Problem, das das Öffnen des Problems ausgelöst hat, konnte nicht angezeigt werden. Das Problem könnte noch existieren, kann aber nicht zu einem bestimmten Zeitpunkt repliziert werden. </td> 
-   <td> <p>Dieser Status ist für die Berichterstellung wichtig, um zwischen abgeschlossenen Problemen und Problemen zu unterscheiden, deren Problem behoben wurde (in der Regel im Status Geschlossen ), und Problemen, deren Problem zu einem bestimmten Zeitpunkt nicht sichtbar ist (in der Regel im Status Kann duplizieren ).</p> <p>Wenn ein Problem als Kann nicht duplizieren markiert ist, wird das Problem aus der Liste "Arbeiten an"des Verantwortlichen entfernt. In diesem Fall zeigt das Problem einen Wert für das tatsächliche Abschlussdatum an.</p> <p>Wenn alle Aufgaben in einem Projekt abgeschlossen sind und sich einige Probleme im Status Kann nicht duplizieren befinden, kann das Projekt abgeschlossen werden.</p> </td> 
+   <td> <p>Dieser Status ist für die Berichterstellung wichtig, um zwischen abgeschlossenen Problemen und Problemen zu unterscheiden, deren Problem behoben wurde (in der Regel im Status Geschlossen ), und Problemen, deren Problem zu einem bestimmten Zeitpunkt nicht sichtbar ist (in der Regel im Status Kann duplizieren ).</p> <p>Wenn ein Problem als "Kann nicht duplizieren"markiert ist, wird das Problem aus der Liste "Arbeiten an"des Verantwortlichen entfernt. In diesem Fall zeigt das Problem einen Wert für das tatsächliche Abschlussdatum an.</p> <p>Wenn alle Aufgaben in einem Projekt abgeschlossen sind und sich einige Probleme im Status Kann nicht duplizieren befinden, kann das Projekt abgeschlossen werden.</p> </td> 
   </tr> 
   <tr> 
    <td>Gelöst (entspricht geschlossen)</td> 
@@ -136,4 +136,4 @@ Die folgenden Problemstatus werden mit Ihrer Workfront-Instanz bereitgestellt:
 
 Ein Workfront-Administrator kann Workfront den Status von Problemen auf Systemebene und Gruppenebene hinzufügen und die Reihenfolge ändern, in der Benutzer sie sehen. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-Ein Gruppenadministrator kann einen benutzerspezifischen Status hinzufügen, der für eine Gruppe spezifisch ist. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Ein Gruppenadministrator kann einen benutzerspezifischen Status für eine Gruppe hinzufügen. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).

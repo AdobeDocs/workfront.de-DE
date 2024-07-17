@@ -10,8 +10,8 @@ role: Developer
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 5%
+source-wordcount: '96'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ GET /files
 | offset  |  Der Seitenversatz, der zusammen mit &quot;max&quot;verwendet wird. |
 
 
-## Antwort
+## Reaktion
 
 JSON mit einer Liste von Dateien und Ordnern. Die Metadaten für jedes Element sind mit denen identisch, die vom Endpunkt /metadata zurückgegeben werden.
 

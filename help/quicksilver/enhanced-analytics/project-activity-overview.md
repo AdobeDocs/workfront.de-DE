@@ -10,7 +10,7 @@ exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ Die Visualisierung der Projektaktivität zeigt eine aggregierte Ansicht der Akti
 >[!NOTE]
 >
 >Die Visualisierung &quot;Aktivität nach Team&quot;verhält sich ähnlich wie diese Visualisierung, aber die Visualisierung &quot;Aktivität nach Team&quot;zeigt die Aktivität des Startseiten-Teams für alle Projekte an.\
->Informationen zur Visualisierung der Aktivität nach Team finden Sie unter [Anzeigen der Aktivitätsvisualisierung nach Team in Enhanced Analytics](../enhanced-analytics/activity-by-team-overview.md).
+>Informationen zur Visualisierung &quot;Aktivität nach Team&quot;finden Sie unter [Anzeigen der Aktivitäts-Visualisierung nach Team in Enhanced Analytics](../enhanced-analytics/activity-by-team-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -56,25 +56,25 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
-Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;in der [Übersicht über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualisierung der Projektaktivität
 
 Projektaktivitäten werden in verschiedenen Farben angezeigt, um bestimmte Ereignisse in einem Projekt über einen bestimmten Zeitraum zusammenzufassen:
 
-* **Benutzer angemeldet**: Die violetten Kästchen zeigen an, dass sich die dem Projekt zugewiesenen Personen an diesem Tag angemeldet haben. Ein dunklerer Schatten zeigt eine höhere Anzahl von Personen an, die sich anmelden.
+* **Benutzer, die sich angemeldet haben**: Die lilafarbenen Felder zeigen, dass sich Personen, die dem Projekt zugewiesen sind, an diesem Tag angemeldet haben. Je dunkler der Farbton, umso mehr Personen haben sich angemeldet.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Änderung des Aufgabenstatus**: Rosa Kästchen zeigen an, dass Personen den Status einer Aufgabe für das Projekt an diesem Tag geändert haben. Eine dunklere Schattierung weist auf eine höhere Anzahl von Aufgabenstatus hin, die sich ändern.
+* **Änderung des Aufgabenstatus**: Rosa Kästchen zeigen an, dass Personen den Status einer Aufgabe für das Projekt an diesem Tag geändert haben. Je dunkler der Farbton, umso mehr Aufgabenstatus haben sich geändert.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Abgeschlossene Aufgaben**: Blaue Kästchen zeigen an, dass Personen eine Aufgabe für das Projekt abgeschlossen haben. Eine dunklere Schattierung weist auf eine höhere Anzahl an auszuführenden Aufgaben hin.
+* **Aufgaben abgeschlossen**: blaue Felder zeigen an, dass Personen eine Aufgabe für das Projekt abgeschlossen haben. Je dunkler der Farbton, umso mehr Aufgaben wurden abgeschlossen.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -82,20 +82,20 @@ Wenn Sie den Mauszeiger über ein Feld bewegen, wird angezeigt, wie oft die Akti
 
 Anhand dieser Informationen können Sie Folgendes feststellen:
 
-* Die Aktivität an einem bestimmten Projekt.
+* Die Aktivität für ein bestimmtes Projekt.
 * Die Aktivität eines Projekts im Vergleich zu anderen Projekten.
-* Welche Benutzer arbeiten an einem Projekt und mit welcher Häufigkeit?
+* Welche Benutzende an einem Projekt arbeiten und mit welcher Frequenz.
 
-Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
+Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Überblick über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualisierung der Projektaktivität anzeigen
 
-1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon-16x12.png), wählen Sie **Analytics**.
+1. Klicken Sie auf das Hauptmenü-Symbol ![](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics** aus.
 1. (Optional) Wenn Sie einen anderen Datumsbereich verwenden möchten, wählen Sie im Filter für den Datumsbereich die neuen Start- und Enddaten aus.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 1. (Bedingt) Wenn Sie den Projektdatensatz einschränken müssen, wählen Sie die Filter aus, die Sie verwenden möchten, und wenden Sie sie an.
 
-   Weitere Informationen zum Hinzufügen von Filtern in der erweiterten Analyse finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Weitere Informationen zum Hinzufügen von Filtern in Enhanced Analytics finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nach dem Hinzufügen von Filtern werden Daten für bis zu 50 Projekte angezeigt und die Filter bleiben auch dann aktiv, wenn Sie die Seite verlassen oder sich von Workfront abmelden.
 
@@ -113,7 +113,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Optional) Klicken Sie zum Ändern der Projektsortierung auf die Schaltfläche **Sortieren nach** und wählen Sie dann eine neue Sortieroption aus:
+1. (Optional) Um die Sortierung der Projekte zu ändern, klicken Sie auf das Menü **Sortieren nach** und wählen Sie dann eine neue Sortieroption aus:
 
    * **A - Z**
    * **Z - A**
@@ -136,7 +136,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    ![](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das **Symbol &quot;Exportieren&quot;** ![](assets/export.png) Wählen Sie oben rechts in der Visualisierung das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie oben rechts in der Visualisierung auf das Symbol **Exportieren** ![](assets/export.png) und wählen Sie dann das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**

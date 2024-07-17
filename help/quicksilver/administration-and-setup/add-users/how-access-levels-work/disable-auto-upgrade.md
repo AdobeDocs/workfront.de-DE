@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Die Entscheidungen über die Prüfung und die Dokumentierung sind auf alle nicht bezahlten Workfront-Lizenzen für die neuen Pläne beschränkt. Wenn Benutzer die zugewiesene Anzahl von Entscheidungen erreichen, werden sie standardmäßig auf eine Light-Lizenz aktualisiert.
 
-Sie können die Option für die automatische Aktualisierung im Setup-Bereich deaktivieren. Weitere Informationen zur Funktionsweise von automatischen Aktualisierungen finden Sie unter [Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - Überblick](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Sie können die Option für die automatische Aktualisierung im Setup-Bereich deaktivieren. Weitere Informationen zur Funktionsweise von automatischen Aktualisierungen finden Sie unter [Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - Übersicht](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 >[!IMPORTANT]
 >
@@ -56,6 +56,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step-1-to-setup}}
 
-1. Erweitern [!UICONTROL **System**] Klicken Sie im linken Navigationsbereich auf [!UICONTROL **Voreinstellungen**].
-1. Im [!UICONTROL **Allgemeine Voreinstellungen**] -Abschnitt, überprüfen Sie die [!UICONTROL **Deaktivieren Sie die automatische Aktualisierung innerhalb der Zugriffsebenen.**] ankreuzen.
+1. Erweitern Sie [!UICONTROL **System**] im linken Navigationsbereich und klicken Sie dann auf [!UICONTROL **Voreinstellungen**].
+1. Aktivieren Sie im Abschnitt [!UICONTROL **Allgemeine Voreinstellungen**] die Option [!UICONTROL **Automatische Aktualisierung in Zugriffsebenen deaktivieren**] .
 1. Klicken Sie auf [!UICONTROL **Speichern**].

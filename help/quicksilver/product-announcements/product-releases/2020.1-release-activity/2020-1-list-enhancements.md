@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 2020.1 an Listen vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau-Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 2020.1 verfügbaren Änderungen finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 2020.1 verfügbar sind, finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Neuer Speichermodus beim Vornehmen von Änderungen in einer Aufgabenliste: Timeline-Planungsmodus
 
@@ -66,7 +66,7 @@ Informationen zur Verwendung von Schnellfiltern finden Sie unter [Erste Schritte
 
 Jetzt können Sie eine Zugriffsebene verwenden, um die Fähigkeit von Benutzern zu begrenzen, die Steuerelemente Filter, Ansicht und Gruppierung für Listen und Berichte zu bearbeiten. Dies ist nützlich, wenn Sie benutzerdefinierte Felder haben, die nur Benutzern mit einer bestimmten Zugriffsebene angezeigt werden sollen.
 
-Weitere Informationen finden Sie unter [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+Weitere Informationen finden Sie unter [Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 ## Neues Menü im Bereich &quot;Updates&quot;
 
@@ -76,13 +76,13 @@ Verwenden Sie das Menü Mehr für ein Update, um:
 * Kopieren Sie den direkten Link in einen Aktualisierungs-Thread oder ein Update
 * Aktualisieren löschen
 
-Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Neue Fortschrittsleiste im Bereich &quot;Updates&quot;
 
 Der prozentuale Fortschrittsbalken im Bereich Updates hat einen neuen Look. Klicken und ziehen Sie, um den Prozentsatz zu aktualisieren, oder doppelklicken Sie, um die Zahl manuell einzugeben.
 
-Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Spaltenüberschriften von Listen und Berichten in Satzschreibweise anzeigen
 

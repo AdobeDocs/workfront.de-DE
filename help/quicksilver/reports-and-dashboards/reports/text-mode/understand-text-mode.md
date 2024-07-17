@@ -41,7 +41,7 @@ Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich 
 
 >[!TIP]
 >
->Sie können auch die Funktionen berechneter benutzerdefinierter Felder erweitern, indem Sie eine Version des Textmodus für benutzerdefinierte Felder verwenden. Syntax und Regeln zum Erstellen eines berechneten benutzerdefinierten Felds unterscheiden sich von denen, die Sie in Berichten und Listen verwenden. Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>Sie können auch die Funktionen berechneter benutzerdefinierter Felder erweitern, indem Sie eine Version des Textmodus für benutzerdefinierte Felder verwenden. Syntax und Regeln zum Erstellen eines berechneten benutzerdefinierten Felds unterscheiden sich von denen, die Sie in Berichten und Listen verwenden. Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir dringend, unsere Klassen für erweiterte Berichte zu verwenden, um ein tieferes Verständnis unserer Textmodussprache zu erhalten. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Es wird empfohlen, den Standardmodus zu verwenden, um sicherzustellen, dass die von Ihnen erstellten Berichte bei der Aktualisierung der Workfront-Software intakt bleiben. Während der Textmodus es Ihnen ermöglicht, komplexere Ansichten, Filter und Gruppierungen zu erstellen, ist die Wartung ebenfalls komplizierter und wird bei der Aktualisierung der Workfront-Software nicht garantiert.
@@ -53,7 +53,7 @@ Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich 
 
 * Es gibt einen Satz von Regeln und eine eindeutige Syntax, die Sie verwenden müssen, um Berichte und Listen im Textmodus erfolgreich zu erstellen. Vergewissern Sie sich, dass Sie mit der Workfront-Syntax für den Textmodus vertraut sind, bevor Sie beginnen.
 
-  Informationen zur Syntax und den Regeln für die Verwendung des Textmodus finden Sie unter [Übersicht über die Syntax der Textmodi](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Informationen zur Syntax und den Regeln für die Verwendung des Textmodus finden Sie unter [Übersicht über die Syntax des Textmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Nachdem Sie ein Berichterstellungselement im Textmodus angepasst haben, können Sie entweder nicht wieder in den Standardmodus wechseln (in einer Ansicht) oder der Code für das von Ihnen erstellte Element wird möglicherweise gelöscht (in Filtern und Gruppierungen). Dies liegt daran, dass nicht alle Felder, die im Textmodus unterstützt werden, im Standardmodus unterstützt werden.
 
@@ -63,7 +63,7 @@ In der Benutzeroberfläche für den Standardmodus werden Felder angezeigt, mit d
 
 Weitere Informationen zur Benutzeroberfläche des Standardmodus und zum Erstellen eines Berichts oder einer Liste finden Sie unter:
 
-* [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* [Erstellen Sie einen benutzerdefinierten Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * [Berichtselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## Textmodus-Benutzeroberfläche
@@ -74,7 +74,7 @@ Weitere Informationen zur Benutzeroberfläche des Standardmodus und zum Erstelle
 
 Im Textmodus können Sie komplexere Ansichten, Filter, Gruppierungen und Eingabeaufforderungen erstellen, indem Sie Felder verwenden, die in der Benutzeroberfläche des Standardmodus nicht verfügbar sind. Im Workfront-Textmodus ist eine Sammlung kodierter Anweisungen, die angeben, welche Objekte in einem Bericht oder einer Liste angezeigt werden sollen.
 
-Eine vollständige Liste aller unserer berichtspflichtigen Felder finden Sie im Abschnitt [API-Explorer](../../../wf-api/general/api-explorer.md).
+Eine vollständige Liste aller berichtspflichtigen Felder finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
@@ -91,18 +91,18 @@ Informationen zur Verwendung des Textmodus in Ansichten, Filtern und Gruppierung
 -->
 
 * [Bearbeiten einer Ansicht im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* [Filter im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [Bearbeiten eines Filters mit dem Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [Textmodus in einer Gruppierung bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 Benutzerdefinierte Eingabeaufforderungen können nur im Textmodus bearbeitet werden. Sie können nur über einen Bericht auf Eingabeaufforderungen zugreifen.
 
-Informationen zum Zugriff auf die Textmodus-Benutzeroberfläche für benutzerdefinierte Eingabeaufforderungen finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Informationen zum Zugriff auf die Textmodus-Oberfläche für benutzerdefinierte Aufforderungen finden Sie unter [Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Allgemeine Gründe für die Verwendung des Textmodus {#common-reasons-to-use-text-mode}
 
 Neben der Erstellung benutzerdefinierter Eingabeaufforderungen, die nur im Textmodus konfiguriert werden können, empfehlen wir, die Berichterstellung zu verwenden, um Ansichten, Filter und Gruppierungen zu erstellen. Es gibt jedoch einige Fälle, in denen Sie den Textmodus verwenden können, um Ihre Berichte und Listen zu erweitern.
 
-Weitere Informationen zu häufigen Verwendungen für den Textmodus finden Sie unter [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Weitere Informationen zu häufigen Verwendungen für den Textmodus finden Sie unter [Überblick über häufige Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 
 <!--

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta 2"
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit der Beta 2-Version 2018.1 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 14. Dezember 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
+title: Beta 2-Release-Aktivität 2018.1
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2 Version 2018.1 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 14. Dezember 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 ---
 
-# Aktivität &quot;Beta 2&quot;
+# Beta 2-Release-Aktivität 2018.1
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit der Beta 2-Version 2018.1 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 14. Dezember 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2 Version 2018.1 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 14. Dezember 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird im März 2018 in der Produktionsumgebung zur Verfügung gestellt.
 
 >[!IMPORTANT]
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.1 vorgenommen wurden, finden Sie unter  [Übersicht über die Versionsaktivität 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.1 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-Die Beta-Version 2018.1 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Beta 2-Version 2018.1 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren**
 
@@ -33,22 +33,22 @@ Die Beta-Version 2018.1 enthält Verbesserungen für Workfront-Administratoren u
 **Für alle Benutzer**
 
 * [Systemweite Breitbildanzeige](#system-wide-widescreen-display)
-* [Ändern der Größe des Timeline-Schnappschusses im Gantt-Diagramm](#resize-timeline-snapshot-on-the-gantt-chart)
+* [Ändern der Größe des Timeline-Snapshots auf dem Gantt-Diagramm](#resize-timeline-snapshot-on-the-gantt-chart)
 * [Interaktiver Ressourcen-Planer im Geschäftsfall](#interactive-resource-planner-in-the-business-case)
 * [Visualisierung im Ressourcenplaner - Diagramm für die Benutzerzuordnung](#visualization-in-the-resource-planner-user-allocation-chart)
-* [Verbesserungen im Heimbereich](#improvements-in-the-home-area)
+* [Verbesserungen im Startbereich](#improvements-in-the-home-area)
 * [Neue Verbesserungen beim Testversand-Viewer](#new-proofing-viewer-improvements) 
 
 ## Gruppenverwaltung für Benutzer und Layoutvorlagen {#group-administration-for-users-and-layout-templates}
 
 Sie können jetzt Gruppenadministratoren in Workfront bestimmen. Das Feld Gruppeninhaber wurde in Gruppenadministrator umbenannt. Benutzer, die als Gruppenadministratoren benannt wurden, verfügen über zusätzliche Berechtigungen zur Verwaltung von Benutzern und Layoutvorlagen für die von ihnen verwalteten Gruppen.
 
-* [Benutzerverwaltung nach Gruppenadministrator](#user-management-by-group-administrator)
+* [Benutzerverwaltung durch Gruppenadministrator](#user-management-by-group-administrator)
 * [Verwaltung von Layout-Vorlagen durch Gruppenadministratoren](#layout-template-management-by-group-administrators)
 
 ### Benutzerverwaltung nach Gruppenadministrator {#user-management-by-group-administrator}
 
-Wir stellen das neue Konzept der **Gruppenadministrator**. Um dies zu unterstützen, muss die Variable **Gruppeneigentümer** wurde umbenannt in **Gruppenadministrator** und die Benutzer, die als Gruppenadministratoren benannt sind, verfügen über zusätzliche Berechtigungen zur Verwaltung von Benutzern und Gruppen.
+Wir führen das neue Konzept von **Gruppenadministrator** ein. Um dies zu unterstützen, wurde das Feld **Gruppeneigentümer** in **Gruppenadministrator** umbenannt und die Benutzer, die als Gruppenadministratoren benannt sind, verfügen über zusätzliche Berechtigungen zum Verwalten von Benutzern und Gruppen.
 
 Zusätzlich zu den Berechtigungen, die der Gruppeneigentümer zuvor für die Verwaltung von Benutzern hatte, hat der Gruppenadministrator jetzt den folgenden zusätzlichen Zugriff bei der Verwaltung von Benutzern in den Gruppen, in denen sie als Gruppenadministrator festgelegt sind:
 
@@ -58,11 +58,11 @@ Zusätzlich zu den Berechtigungen, die der Gruppeneigentümer zuvor für die Ver
 
 Vor dieser Änderung konnte nur der Workfront-Administrator diese Funktionen ausführen.
 
-Weitere Informationen zu Gruppenadministratoren finden Sie im Abschnitt &quot;Grundlegendes zu Gruppenadministratoren&quot;unter [Gruppe erstellen](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Weitere Informationen zu Gruppenadministratoren finden Sie im Abschnitt &quot;Grundlegendes zu Gruppenadministratoren&quot;unter [Erstellen einer Gruppe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ### Verwaltung von Layout-Vorlagen durch Gruppenadministratoren {#layout-template-management-by-group-administrators}
 
-Wir stellen das neue Konzept der **Gruppe mit Administratorzugriff** , die Sie mit einer Layout-Vorlage verknüpfen können.
+Wir stellen das neue Konzept von **Gruppe mit Administratorzugriff** vor, das Sie mit einer Layout-Vorlage verknüpfen können.
 
 Der Benutzer, der für diese Gruppe als Gruppenadministrator bestimmt wurde, hat Zugriff auf die Verwaltung dieser Layout-Vorlage und die Erstellung neuer Layoutvorlagen, in denen die Gruppen, die er verwaltet, die Administratorgruppen der Vorlagen sind. 
 
@@ -97,11 +97,11 @@ Als Ressourcen-Manager können Sie jetzt Ressourcen-Pools im Abschnitt &quot;Res
 
 Vor dieser Änderung konnten Sie die Ressourcen-Budgeting-Informationen im Geschäftsfall anzeigen, wenn das Projekt für Ressourcen im globalen Ressourcen-Planer geplant war.
 
-Weitere Informationen zum Abschluss von Budgetierungs-Projektressourcen im Geschäftsfall finden Sie unter [Haushaltsmittel im Geschäftsfall](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+Weitere Informationen zum Abschließen von Budgeting-Projektressourcen im Geschäftsfall finden Sie unter [Budgetressourcen im Geschäftsfall](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## Visualisierung im Ressourcenplaner - Diagramm für die Benutzerzuordnung {#visualization-in-the-resource-planner-user-allocation-chart}
 
-Sie können nun die gesamte geplante Zuordnung aller Benutzer im Ressourcen-Planer in einer Grafik anzeigen. Das Diagramm steht zur Verfügung, wenn Sie **Ansicht nach Benutzer** im Ressourcen-Planer.
+Sie können nun die gesamte geplante Zuordnung aller Benutzer im Ressourcen-Planer in einer Grafik anzeigen. Das Diagramm ist verfügbar, wenn Sie im Ressourcenplaner die Option **Nach Benutzer anzeigen** auswählen.
 
 Das Diagramm enthält die folgenden Informationen:
 
@@ -112,7 +112,7 @@ Das Diagramm enthält die folgenden Informationen:
 
 Vor dieser Änderung konnten Sie die Zuordnung und Verfügbarkeit einzelner Benutzer nur im Tabellenformat anzeigen.
 
-Weitere Informationen zum Benutzerzuordnungsdiagramm finden Sie im Ressourcenplaner unter [Übersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Weitere Informationen über das Diagramm zur Benutzerzuordnung im Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Verbesserungen im Heimbereich {#improvements-in-the-home-area}
 
@@ -130,26 +130,26 @@ Im Bereich Home sind jetzt verschiedene Verbesserungen verfügbar, darunter:
 
 * Nachdem Sie bei einer Anfrage auf &quot;Bearbeiten&quot;geklickt haben, werden die mit dem Problem verknüpften Felder im rechten Bereich angezeigt.
 
-  Weitere Informationen zum Bearbeiten von Anforderungen aus dem Home-Bereich finden Sie unter [Verwalten von Arbeits- und Teamanfragen im Startbereich](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) in [Verwalten von Arbeits- und Teamanfragen im Startbereich](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+  Weitere Informationen zum Bearbeiten von Anforderungen aus dem Home-Bereich finden Sie unter [Verwalten von Arbeits- und Teamanfragen im Home-Bereich](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) in [Verwalten von Arbeits- und Teamanfragen im Home-Bereich](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
 * Zeigen Sie auf einen Benutzeravatar auf ein Arbeitselement im linken Bereich, um den Namen des Benutzers anzuzeigen.
 * Erweitern Sie den Bereich &quot;Verspätet&quot;im linken Bereich, um alle verspäteten Elemente anzuzeigen (wenn dieser Bereich ausgeblendet wird, werden nur die ersten fünf Elemente angezeigt).
 * Nachdem Sie ein Element als &quot;Abgeschlossen&quot;markiert haben, bleibt das Element im linken Bereich, bis Sie ein anderes Element auswählen.\
   Informationen zum Anzeigen abgeschlossener Elemente finden Sie unter [Anzeigen von Elementen in der Arbeitsliste im Startbereich](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) in [Anzeigen von Elementen in der Arbeitsliste im Startbereich](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-Weitere Informationen zur Verwendung des neuen Heimbereichs sowie Informationen zu den Unterschieden in der Funktionalität zwischen &quot;Meine Arbeit&quot;und &quot;Startseite&quot;finden Sie unter [Verwenden des Startbereichs](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Weitere Informationen zur Verwendung des neuen Home-Bereichs sowie Informationen zu den Unterschieden in der Funktionalität zwischen &quot;Meine Arbeit&quot;und &quot;Home&quot;finden Sie unter [Verwenden des Home-Bereichs](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Neue Verbesserungen beim Testversand-Viewer  {#new-proofing-viewer-improvements}
 
 * [Verbessertes Layout und Design](#improved-layout-and-design)
 * [Suchkommentare nach Kommentarnummer](#search-comments-by-comment-number)
 * [Option zum Bearbeiten des Kommentars neben dem Markup-Indikator](#option-to-edit-comment-next-to-the-markup-indicator)
-* [Alle Kommentare als &quot;Gelesen&quot;markieren](#mark-all-comments-as-read)
+* [Alle Kommentare als gelesen markieren](#mark-all-comments-as-read)
 * [Verbesserungen des linken Menüs](#left-menu-improvements)
 
 ### Verbessertes Layout und Design {#improved-layout-and-design}
 
-Der Testversand-Viewer hat ein aktualisiertes Erscheinungsbild. Die folgenden Bereiche des Testversand-Viewers wurden aktualisiert:
+Der Testversand-Viewer hat ein aktualisiertes Erscheinungsbild. Die  Die folgenden Bereiche des Testversand-Viewers wurden aktualisiert:
 
 * Bereich &quot;Miniaturansichten&quot;
 

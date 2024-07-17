@@ -54,7 +54,7 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,9 +62,9 @@ Sie müssen über Folgendes verfügen:
 
 Sie müssen eines der folgenden Objekte erstellen, bevor Sie sie zu einem Dashboard hinzufügen können:
 
-* **Berichte**: Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* **Berichte**: Informationen zum Erstellen von Berichten finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* **Kalender**: Informationen zum Erstellen von Kalendern finden Sie unter [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+* **Kalender**: Informationen zum Erstellen von Kalendern finden Sie unter [Übersicht über Kalenderberichte](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 Sie können vorhandene externe Seiten zu einem Dashboard hinzufügen oder eine aus dem neuen Dashboard erstellen. Informationen zum Erstellen externer Seiten finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
@@ -72,7 +72,7 @@ Sie können vorhandene externe Seiten zu einem Dashboard hinzufügen oder eine a
 
 {{step1-to-dashboards}}
 
-1. Klicks **Neues Dashboard**.\
+1. Klicken Sie auf **Neues Dashboard**.\
    Das Dialogfeld Neues Dashboard wird angezeigt.
 
 1. Geben Sie Folgendes an:
@@ -92,7 +92,7 @@ Sie können vorhandene externe Seiten zu einem Dashboard hinzufügen oder eine a
     </tbody>
    </table>
 
-1. Wählen Sie ein Layout aus, indem Sie oben im **Layout auswählen/Berichte hinzufügen/Kalender hinzufügen** Abschnitt. Dies ist das Layout, in dem die Berichte, Kalender oder externen Seiten im Dashboard angezeigt werden.
+1. Wählen Sie ein Layout aus, indem Sie oben im Abschnitt **Layout auswählen/ Berichte hinzufügen/ Kalender hinzufügen** auf das entsprechende Optionsfeld klicken. Dies ist das Layout, in dem die Berichte, Kalender oder externen Seiten im Dashboard angezeigt werden.
 
    Standardmäßig wird das einspaltige Layout verwendet.
 
@@ -102,7 +102,7 @@ Sie können vorhandene externe Seiten zu einem Dashboard hinzufügen oder eine a
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Suchen Sie nach Berichten, Kalendern oder externen Seiten im **Suche nach Name oder Typ ...** und ziehen Sie sie in den Layout-Bereich, sobald sie in der Liste angezeigt werden.
+1. Suchen Sie im Feld **Suche nach Name oder Typ ...** nach Berichten, Kalendern oder externen Seiten und ziehen Sie sie in den Layout-Bereich, wenn sie in der Liste angezeigt werden.
 
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ Sie können vorhandene externe Seiten zu einem Dashboard hinzufügen oder eine a
 
 1. (Optional) Klicken Sie auf **Externe Seite hinzufügen** , um dem Dashboard eine neue externe Seite hinzuzufügen.
 
-   Weitere Informationen zum Erstellen externer Seiten und zum Einbetten in Dashboards finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   Weitere Informationen zum Erstellen externer Seiten und zum Einbetten in Dashboards finden Sie unter [Einbetten externer Webseiten in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 1. Klicken Sie auf **Speichern + schließen**.
 

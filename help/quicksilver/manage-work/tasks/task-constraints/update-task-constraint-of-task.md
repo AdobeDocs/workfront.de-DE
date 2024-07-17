@@ -8,8 +8,8 @@ feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 9%
+source-wordcount: '355'
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen, um die Aufgabenbegrenzung einer Aufgabe z
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über Folgendes verfügen, um die Aufgabenbegrenzung einer Aufgabe z
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf die Aufgabe verwalten </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf die Aufgabe verwalten </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,29 +48,29 @@ Sie müssen über Folgendes verfügen, um die Aufgabenbegrenzung einer Aufgabe z
 
 ## Aktualisieren der Aufgabenbegrenzung einer Aufgabe
 
-1. Klicken **Hauptmenü** > **Projekte** und klicken Sie auf ein Projekt, um darauf zuzugreifen.
-1. Klicken Sie auf **Aufgaben** im linken Bereich.
-1. Klicken **Aufgabendetails** Klicken Sie im linken Bereich und dann im Bereich &quot;Übersicht&quot;auf **Aufgabenbegrenzung**.
+1. Klicken Sie auf **Hauptmenü** > **Projekte** und dann auf ein Projekt, um darauf zuzugreifen.
+1. Klicken Sie im linken Bereich auf den Abschnitt **Aufgaben** .
+1. Klicken Sie im linken Bereich auf **Aufgabendetails** und dann im Bereich &quot;Übersicht&quot;auf **Aufgabenbegrenzung**.
 
    ![](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
-   | Feste Daten | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: Feste Datumswerte](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
+   | Feste Daten | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: Feste Datumswerte](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
    |---|---|
-   | Muss beginnen am | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: Muss beginnen bei](../../../manage-work/tasks/task-constraints/must-start-on.md). |
-   | Muss beendet werden am | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: Muss abgeschlossen sein am](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
-   | So bald wie möglich (SBWM) | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: So bald wie möglich](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
-   | So spät wie möglich (SSWM) | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: So bald wie möglich](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
-   | Frühestmögliche Zeit | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: Frühzeitige Verfügbarkeitszeit](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
-   | Neueste verfügbare Zeit | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: Neueste verfügbare Zeit](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
-   | Nicht später anfangen als | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: Start nicht später als](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
-   | Nicht früher anfangen als | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: Start nicht früher als](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
-   | Nicht später beenden als (NSBA) | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: Finish No Later Than](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Beenden nicht früher als | Weitere Informationen finden Sie unter [Übersicht über Aufgabenbeschränkungen: Beenden nicht früher als](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Muss beginnen am | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: Muss am ](../../../manage-work/tasks/task-constraints/must-start-on.md) beginnen. |
+   | Muss beendet werden am | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: Muss am ](../../../manage-work/tasks/task-constraints/must-finish-on.md) abgeschlossen sein. |
+   | So bald wie möglich (SBWM) | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: Sofort wie möglich](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
+   | So spät wie möglich (SSWM) | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: So spät wie möglich](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
+   | Frühestmögliche Zeit | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: Frühester verfügbarer Zeitpunkt](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
+   | Neueste verfügbare Zeit | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: Neueste verfügbare Zeit](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
+   | Nicht später anfangen als | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: Start nicht später als](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
+   | Nicht früher anfangen als | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: Start nicht früher als ](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
+   | Nicht später beenden als (NSBA) | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: Beenden Sie nicht später als ](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
+   | Beenden nicht früher als | Weitere Informationen finden Sie unter [Aufgabenbegrenzung - Übersicht: Beenden Sie nicht früher als](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. Klicken **Speichern** **Änderungen**.
+1. Klicken Sie auf **Speichern** **Änderungen**.
 
  

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Version 3"2018.2
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Version 2018.2 verfügbar waren. Die Funktion wurde am 19. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Beta 3-Release-Aktivität 2018.2
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 3 Version 2018.2 verfügbar waren. Die Funktion wurde am 19. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 im Produktionsumfeld zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta-Version 3&quot;2018.2
+# Beta 3-Release-Aktivität 2018.2
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Version 2018.2 verfügbar waren. Die Funktion wurde am 19. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 3 Version 2018.2 verfügbar waren. Die Funktion wurde am 19. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 im Produktionsumfeld zur Verfügung gestellt.
 
 >[!IMPORTANT]
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter  [Übersicht über die Versionsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Die Beta-Version 2018.2 enthält folgende Verbesserungen:
+Beta 3 Version 2018.2 umfasst die folgenden Erweiterungen:
 
 * [Verwalten von Lizenzen in Ihrem System](#manage-licenses-in-your-system)
-* [Festlegen von Flags für Geschichten auf dem Kanban Board](#set-flags-for-stories-on-the-kanban-board)
-* [Felder direkt auf einer Agile Story-Karte bearbeiten](#edit-fields-directly-on-an-agile-story-card)
+* [Legen Sie Flags für Geschichten auf der Kanban-Pinnwand fest](#set-flags-for-stories-on-the-kanban-board)
+* [Felder direkt auf einer Agile Story Card bearbeiten](#edit-fields-directly-on-an-agile-story-card)
 * [Verbesserte Suchrelevanz für mehrere Wörter](#improved-search-relevancy-for-multiple-words)
 
 ## Verwalten von Lizenzen in Ihrem System {#manage-licenses-in-your-system}
@@ -37,7 +37,7 @@ Wir haben eine neue Lizenzseite für Workfront-Administratoren erstellt, auf der
 
 Vor dieser Änderung konnten Workfront-Administratoren die Lizenzanzahl nur im Lizenzabschnitt der Seite &quot;Kundeninformationen&quot;anzeigen.
 
-Weitere Informationen finden Sie unter [Verwalten der verfügbaren Lizenzen in Ihrem System](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+Weitere Informationen finden Sie unter [Verfügbare Lizenzen in Ihrem System verwalten](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 
 ## Festlegen von Flags für Geschichten auf dem Kanban Board {#set-flags-for-stories-on-the-kanban-board}
 

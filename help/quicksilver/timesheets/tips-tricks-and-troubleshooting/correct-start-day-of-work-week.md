@@ -9,7 +9,7 @@ feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
 source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Problem
 
-Der Wochentag auf meinem Timesheet stimmt nicht mit dem Wochentag überein, der in meinem Timesheet-Profil konfiguriert ist (siehe [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).).
+Der Wochentag auf meinem Timesheet stimmt nicht mit dem Wochentag überein, der in meinem Timesheet-Profil konfiguriert ist (wie unter [Erstellen, Bearbeiten und Zuweisen von Zeitzeichenprofilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) beschrieben).
 
 ## Lösung
 
@@ -32,9 +32,9 @@ Die Änderung des Gebietsschemas hat keine Auswirkungen auf den Wochentag im Res
 
 Im Folgenden finden Sie Anweisungen zum Ändern der Sprache und Gebietsschemaeinstellungen für verschiedene Browser, die von Workfront unterstützt werden.
 
-* **Chrome:** Kopieren Sie den folgenden Link und fügen Sie ihn in Ihren Chrome-Browser ein: `chrome://settings/languages` dann zu Sprachen.
-* **Firefox:**Kopieren Sie den folgenden Link und fügen Sie ihn in Ihren Firefox-Browser ein: `about:preferences#content` dann zu Sprachen.
+* **Chrome:** Kopieren Sie den folgenden Link und fügen Sie ihn in Ihren Chrome-Browser ein: `chrome://settings/languages` und gehen Sie dann zu &quot;Sprachen&quot;.
+* **Firefox:**Kopieren Sie den folgenden Link und fügen Sie ihn in Ihren Firefox-Browser ein: `about:preferences#content` und gehen Sie dann zu Sprachen.
 * **IE 11:** Tools -> Internetoptionen -> Allgemein -> Sprachen
-* **Safari:** Leider erlaubt Safari nicht, die Browsersprache zu ändern, ohne auch die gesamte Betriebssystemsprache zu ändern. Es ist wahrscheinlich einfacher, einfach einen anderen Browser wie Chrome oder Firefox zu installieren.
+* **Safari:** Leider erlaubt Safari nicht, die Sprache des Webbrowsers zu ändern, ohne auch die Sprache des gesamten Betriebssystems zu ändern. Es ist wahrscheinlich einfacher, einfach einen anderen Browser wie Chrome oder Firefox zu installieren.
 
  

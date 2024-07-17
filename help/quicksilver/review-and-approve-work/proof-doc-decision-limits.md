@@ -9,7 +9,7 @@ exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -23,17 +23,17 @@ Die Beschränkungen werden jeden Monat auf Benutzerbasis zurückgesetzt. Die Ent
   <tr>
    <td> 
    </td>
-   <td><strong>Extern</strong> 
+   <td><strong>External</strong> 
    </td>
-   <td><strong>Mitwirkender oder Mitwirkende</strong> 
+   <td><strong>Contributor</strong> 
    </td>
-   <td><strong>Leicht</strong> 
+   <td><strong>Light</strong> 
    </td>
    <td><strong>Standard</strong> 
    </td>
   </tr>
   <tr>
-   <td><strong>Auswählen</strong> 
+   <td><strong>Select</strong> 
    </td>
    <td>3 
    </td>
@@ -45,7 +45,7 @@ Die Beschränkungen werden jeden Monat auf Benutzerbasis zurückgesetzt. Die Ent
    </td>
   </tr>
   <tr>
-   <td><strong>Erstklassig</strong> 
+   <td><strong>Prime</strong> 
    </td>
    <td>5 
    </td>
@@ -53,7 +53,7 @@ Die Beschränkungen werden jeden Monat auf Benutzerbasis zurückgesetzt. Die Ent
    </td>
   </tr>
   <tr>
-   <td><strong>Ultimativ</strong> 
+   <td><strong>Ultimate</strong> 
    </td>
    <td>7 
    </td>
@@ -68,7 +68,7 @@ Erreicht ein externer Benutzer seine Entscheidungsgrenze, verliert er nicht den 
 
 ## Mitwirkende Benutzer
 
-Sobald ein Benutzer mit einer Contributor-Lizenz seine Entscheidungsgrenze erreicht, wird er automatisch auf die Light-Lizenz aktualisiert und verfügt über unbegrenzte Testsendungen und Dokumententscheidungen. Weitere Informationen zur Light-Lizenz finden Sie im [Geringfügige Zugangsstufe](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) im Abschnitt [Übersicht über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) Artikel.
+Sobald ein Benutzer mit einer Contributor-Lizenz seine Entscheidungsgrenze erreicht, wird er automatisch auf die Light-Lizenz aktualisiert und verfügt über unbegrenzte Testsendungen und Dokumententscheidungen. Weitere Informationen zur Light-Lizenz finden Sie im Abschnitt [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) im Artikel [Access Levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) .
 
 >[!NOTE]
 >

@@ -29,7 +29,7 @@ Sie können an Adobe Workfront-Planungsdatensätzen zusammenarbeiten, indem Sie 
 Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 
 * **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzer zu Datensätzen hinzufügen.
-* **Geschichte**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen. Weitere Informationen finden Sie unter [Übersicht über den Verlaufsabschnitt](/help/quicksilver/planning/records/history-section-overview.md).
+* **Verlauf**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen. Weitere Informationen finden Sie in der [Verlaufsübersicht](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -73,7 +73,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <td> <p>Anzeigen oder höherer Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
 </td>
   </tr>
@@ -130,14 +130,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs werden angezeigt.
 
-1. Wählen Sie eine Tabellenansicht aus dem **Ansicht** Dropdown-Menü.
+1. Wählen Sie eine Tabellenansicht aus dem Dropdownmenü **Ansicht** aus.
 1. Klicken Sie in der Tabellenansicht auf den Namen eines Datensatzes.
 
-   Der Rekord **Details** Seite geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bereich geöffnet.
+   Die Seite **Details** des Datensatzes wird geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bereich geöffnet.
 
-1. (Bedingt) Wenn das rechte Bedienfeld nicht standardmäßig geöffnet wird, klicken Sie auf die **Kommentare anzeigen** ![](assets/show-comments-icon.png) rechts oben, um den Abschnitt Kommentare zu öffnen.
+1. (Bedingt) Wenn das rechte Bedienfeld nicht standardmäßig geöffnet ist, klicken Sie oben rechts auf das Symbol **Kommentare anzeigen** ![](assets/show-comments-icon.png) , um den Abschnitt &quot;Kommentare&quot;zu öffnen.
 
-1. Beginnen Sie mit der Eingabe eines Kommentars im **Neuer Kommentar** ankreuzen.
+1. Geben Sie einen Kommentar in das Feld **Neuer Kommentar** ein.
 
    ![](assets/empty-comment-box-on-record.png)
 
@@ -148,11 +148,11 @@ Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs w
 1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um eine Änderung rückgängig zu machen oder wiederherzustellen:
    * STRG + Z ( ⌘ + z für Mac) zum Rückgängigmachen einer Änderung
    * STRG + Y ( ⌘ + y für Mac) zum Wiederholen einer Änderung
-1. (Optional) Hinzufügen **@** gefolgt vom Namen eines Benutzers, der in der Aktualisierung jemanden taggt.
+1. (Optional) Fügen Sie **@** hinzu, gefolgt vom Namen eines Benutzers, der eine Person in der Aktualisierung taggt.
 
    <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
 
-1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis, Links oder Bilder zu Ihrer Aktualisierung hinzuzufügen und Ihren Inhalt zu verbessern. Weitere Informationen finden Sie im Artikel im Abschnitt &quot;Verwenden von Rich Text in einem Workfront-Update&quot; [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis, Links oder Bilder zu Ihrer Aktualisierung hinzuzufügen und Ihren Inhalt zu verbessern. Weitere Informationen finden Sie im Abschnitt &quot;Verwenden von Rich Text in einem Workfront-Update&quot;im Artikel [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]
    >
@@ -162,8 +162,8 @@ Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs w
    >
    >![](assets/new-line-indicator-comments.png)
 
-1. Klicks **Einsenden** , um die Aktualisierung zum Datensatz hinzuzufügen.
-1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) in der oberen rechten Ecke des Kommentars klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf **Senden** , um die Aktualisierung zum Datensatz hinzuzufügen.
+1. (Optional) Um einen Kommentar zu bearbeiten, klicken Sie in der oberen rechten Ecke des Kommentars auf das Menü **Mehr** und dann auf **Bearbeiten**.![](assets/more-menu.png)
 
    >[!IMPORTANT]
    >
@@ -175,32 +175,32 @@ Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs w
    >
    >Kommentare aus dem aktuellen Jahr zeigen das Jahr nicht im Datumsstempel an. Wenn Sie den Mauszeiger über einen Zeitstempel bewegen, wird das vollständige Datum einschließlich des Jahres angezeigt.
 
-1. (Optional und bedingt) Um nach einem vorhandenen Kommentar zu suchen, geben Sie in das Suchfeld in der oberen rechten Ecke des **Kommentare** Bereich.
+1. (Optional und bedingt) Um nach einem vorhandenen Kommentar zu suchen, beginnen Sie mit der Eingabe eines Suchbegriffs in das Suchfeld in der oberen rechten Ecke des Bereichs **Kommentare** .
 
    ![](assets/search-box-for-comments-area.png)
 
-1. (Optional) Klicken Sie auf **Antwort** oder beginnen Sie mit der Eingabe eines Kommentars im **Antwort hinzufügen ...** -Bereich, um auf einen vorhandenen Kommentar zu antworten, und führen Sie dann die Schritte 4 bis 8 oben aus. <!--(**************accurate??***********)-->
+1. (Optional) Klicken Sie auf **Antworten** oder geben Sie einen Kommentar in den Bereich **Antwort hinzufügen ...** ein, um auf einen vorhandenen Kommentar zu antworten, und führen Sie dann die Schritte 4 bis 8 oben aus. <!--(**************accurate??***********)-->
 
-1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die beim Hinzufügen Ihrer Kommentare außerhalb des sichtbaren Bereichs im Abschnitt Kommentare angezeigt werden, klicken Sie auf **Ansicht** innerhalb der **neues Kommentarbanner** unten auf dem Bildschirm, um diese Kommentare anzuzeigen.
+1. (Bedingt und optional) Wenn andere Benutzer Kommentare hinzugefügt haben, die außerhalb des sichtbaren Bereichs im Abschnitt Kommentare angezeigt werden, während Sie Ihre Kommentare hinzugefügt haben, klicken Sie unten auf dem Bildschirm auf **Anzeigen** im Banner **neue Kommentare** , um diese Kommentare anzuzeigen.
 
    ![](assets/new-comments-banner-on-record.png)
 
    Weitere Kommentare werden unten auf dem Bildschirm angezeigt.
 
-1. (Optional) Klicken Sie auf die **liken** -Symbol, um ein Update zu mögen oder zu bestätigen, dass Sie es gelesen haben. Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
+1. (Optional) Klicken Sie auf das Symbol **Gefällt mir** , um ein Update zu mögen oder zu bestätigen, dass Sie es gelesen haben. Das Symbol wird mit der Anzahl der &quot;Gefällt mir&quot;-Klicks aktualisiert.
 1. (Bedingt und optional) Wenn Sie weitere Personen in Ihren Kommentar aufgenommen haben, klicken Sie auf die Avatare der in der Aktualisierung enthaltenen Benutzer, um eine Liste der Benutzer anzuzeigen, für die der Kommentar freigegeben ist.
-1. (Optional) Klicken Sie auf die **Mehr** icon ![](assets/more-menu.png) in der oberen rechten Ecke des Kommentars klicken und auf eine der folgenden Optionen klicken, um Informationen aus einem Kommentar zu kopieren:
+1. (Optional) Klicken Sie oben rechts im Kommentar auf das Symbol **Mehr** ![](assets/more-menu.png) und klicken Sie auf eine der folgenden Optionen, um Informationen aus einem Kommentar zu kopieren:
 
-   * **Link kopieren**: Dadurch wird ein Link zum Kommentar in die Zwischenablage kopiert.
+   * **Link kopieren**: Kopiert einen Link zum Kommentar in die Zwischenablage.
    * **Textkörper kopieren**: Kopiert den Text des Kommentars in die Zwischenablage.
-   * **Anführungsantwort**: Kopiert den Inhalt Ihres Kommentars in eine neue Antwort. Bilder sind nicht in der kopierten Antwort enthalten.
+   * **Antwort zitieren**: Kopiert den Inhalt Ihres Kommentars in eine neue Antwort. Bilder sind nicht in der kopierten Antwort enthalten.
 
-   Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Klicken Sie auf die **Mehr** icon ![](assets/more-menu.png) in der oberen rechten Ecke des Kommentars klicken Sie auf **Löschen** , um den Kommentar zu löschen.
-1. (Optional) Klicken Sie auf die **Kommentare ausblenden** icon ![](assets/hide-comments-icon.png) , um den rechten Bereich zu schließen.
+   Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Klicken Sie oben rechts im Kommentar auf das Symbol **Mehr** ![](assets/more-menu.png) und dann auf **Löschen** , um den Kommentar zu löschen.
+1. (Optional) Klicken Sie auf das Symbol **Kommentare ausblenden** ![](assets/hide-comments-icon.png) , um den rechten Bereich zu schließen.
 
 ## Übersicht über den Verlaufsabschnitt
 
 Sie können die am Datensatz vorgenommenen Änderungen im Abschnitt Verlauf des rechten Bereichs eines Datensatzes überprüfen.
 
-Weitere Informationen finden Sie unter [Übersicht über den Verlaufsabschnitt](/help/quicksilver/planning/records/history-section-overview.md).
+Weitere Informationen finden Sie in der [Verlaufsübersicht](/help/quicksilver/planning/records/history-section-overview.md).

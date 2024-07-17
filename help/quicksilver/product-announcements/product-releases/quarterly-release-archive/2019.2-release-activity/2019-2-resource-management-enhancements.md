@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die in Version 2019.2 enthalten sind. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
 
-Eine Liste aller 2019.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivitäten 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.2 vorgenommen wurden, finden Sie unter [Übersicht über die Veröffentlichungsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Anzeigen der Portfolio-Priorität im Ressourcenplaner
 
@@ -26,7 +26,7 @@ Sie können jetzt eine Einstellung im Ressourcenplaner aktivieren, mit der Sie d
 
 Vor dieser Verbesserung konnten Sie die Portfoliopriorität eines Projekts nicht im Ressourcenplaner anzeigen.
 
-Informationen zum Aktivieren dieser Einstellung finden Sie unter [Einstellungen](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) Abschnitt [Wissenswertes zu den Bereichen des Ressourcen-Planers](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Informationen zum Aktivieren dieser Einstellung finden Sie im Abschnitt [Einstellungen](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) des Abschnitts [Grundlegendes zu den Bereichen des Ressourcenplaners](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Freigeben von Filtern im Ressourcenplaner
 
@@ -34,7 +34,7 @@ Sie können jetzt Filter, die Sie im Ressourcenplaner erstellen, für ausgewähl
 
 Vor dieser Verbesserung waren die von Ihnen erstellten Filter für alle Benutzer sichtbar, die auf den Ressourcenplaner zugreifen konnten.
 
-Informationen zum Filtern im Ressourcen-Planer finden Sie unter [Filtern von Inhalten im Ressourcenplaner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Informationen zum Filtern im Ressourcen-Planer finden Sie unter [Filtern von Inhalten im Ressourcen-Planer](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Neue Zugriffsebene für das Ressourcen-Management
 
@@ -50,9 +50,9 @@ Mit dieser Änderung ist die Verwaltung von Ressourcen-Pools jetzt Teil der Zugr
 
 Auch mit dieser Änderung ist es nicht mehr erforderlich, als Ressourcen-Manager für ein Projekt benannt zu werden. Es ist jedoch erforderlich, über den richtigen Zugriff auf Resource Management zu verfügen, um Ressourcen verwalten zu können.
 
-Informationen über den neuen Zugriff, der für Haushaltsmittel erforderlich ist, finden Sie unter [Zugriff erforderlich für Budgetressourcen](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Weitere Informationen über den neuen Zugriff, der für Budgetierungsressourcen erforderlich ist, finden Sie unter [Für Budgeteinnahmen benötigter Zugriff](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Informationen zur neuen Zugriffsebene für Resource Management finden Sie unter [Grundlegendes zum Zugriff auf Ressourcenverwaltung](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Informationen zur neuen Zugriffsebene für Resource Management finden Sie unter [Grundlegendes zum Zugriff auf Resource Management](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Bestellen von Portfolios nach Prioritäten im Ressourcenplaner
 
@@ -60,7 +60,7 @@ Sie können jetzt Projekte nach ihrer Portfoliopriorität im Ressourcen-Planer b
 
 Vor dieser Verbesserung konnten Sie nur die Portfoliopriorität im Ressourcen-Planer anzeigen und die Projekte nur nach ihrer Planerpriorität bestellen.
 
-Informationen zum Sortieren von Projekten nach Portfoliopriorität im Ressourcenplaner finden Sie unter [Priorisierung von Projekten im Ressourcenplaner](../../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+Informationen zum Sortieren von Projekten nach Portfoliopriorität im Resource Planer finden Sie unter [Priorisieren von Projekten im Resource Planer](../../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Filterverbesserung für Ressourcenplaner
 

@@ -3,15 +3,15 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Token für die Datums- und Uhrzeitformatierung in [!DNL Adobe Workfront Fusion]
-description: Die folgenden Token für die Datums- und Uhrzeitformatierung sind im [!DNL Adobe Workfront Fusion mapping] Bereich.
+title: Token für die Datums- und Uhrzeitformatierung in  [!DNL Adobe Workfront Fusion]
+description: Die folgenden Token für die Datums- und Uhrzeitformatierung sind im Bereich [!DNL Adobe Workfront Fusion mapping] verfügbar.
 author: Becky
 feature: Workfront Fusion
 exl-id: 19d0608e-7902-4d09-b71d-e6ae8ed7a6fd
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 6%
+source-wordcount: '373'
+ht-degree: 5%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 6%
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -34,27 +34,27 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Jahres-, Monats- und Tag-Token
 
@@ -128,7 +128,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
   <tr> 
    <td><code>Do</code> </td> 
    <td><code>1st 2nd ... 30th 31st</code></td> 
-   <td> <p> Tag des Monats mit ordinal</p> </td> 
+   <td> <p> Tag des Monats mit Ordinalzahl</p> </td> 
   </tr> 
   <tr> 
    <td><code>DD</code> </td> 
@@ -267,7 +267,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
   <tr> 
    <td><code>H</code> </td> 
    <td><code>0 1 ... 22 23</code></td> 
-   <td> <p>24-Stunden-Zeit</p> </td> 
+   <td> <p>24 Stunden</p> </td> 
   </tr> 
   <tr> 
    <td><code>HH</code> </td> 
@@ -277,7 +277,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
   <tr> 
    <td><code>h</code> </td> 
    <td><code>1 2 ... 11 12</code></td> 
-   <td> <p> 12-Stunden-Zeit</p> </td> 
+   <td> <p> 12 Stunden</p> </td> 
   </tr> 
   <tr> 
    <td><code>hh </code> </td> 
@@ -287,7 +287,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
   <tr> 
    <td><code>k</code> </td> 
    <td><code>1 2 ... 23 24</code></td> 
-   <td> <p> 24-Stunden-Zeit</p> </td> 
+   <td> <p> 24 Stunden</p> </td> 
   </tr> 
   <tr> 
    <td><code>kk</code></td> 
@@ -297,12 +297,12 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
   <tr> 
    <td><code>A</code></td> 
    <td><code>AM PM </code> </td> 
-   <td> <p>Post- oder Ante-Meridiem (Großbuchstabe)</p> </td> 
+   <td> <p>Post oder Ante-Meridiem (Großbuchstabe)</p> </td> 
   </tr> 
   <tr> 
    <td><code>a</code> </td> 
    <td><code>am pm </code> </td> 
-   <td> <p> Post- oder Ante-Meridiem (Kleinbuchstaben)</p> </td> 
+   <td> <p> Post- oder Ante-Meridiem (Kleinbuchstabe)</p> </td> 
   </tr> 
   <tr> 
    <td><code>m</code> </td> 
@@ -332,12 +332,12 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
   <tr> 
    <td><code>SS</code> </td> 
    <td><code>00 01 ... 98 99</code> </td> 
-   <td> <p> Prozentuale Sekunden mit vorangestellter Null</p> </td> 
+   <td> <p> Bruchteile von Sekunden mit vorangestellter Null</p> </td> 
   </tr> 
   <tr> 
    <td><code>SSS</code> </td> 
    <td><code>000 001 ... 998 999</code> </td> 
-   <td> <p> Bruchteile von Sekunden mit zwei führenden Nullen</p> </td> 
+   <td> <p> Bruchteile von Sekunden mit zwei vorangestellten Nullen</p> </td> 
   </tr> 
   <tr> 
    <td><code>SSSS ... SSSSSSSSS</code> </td> 

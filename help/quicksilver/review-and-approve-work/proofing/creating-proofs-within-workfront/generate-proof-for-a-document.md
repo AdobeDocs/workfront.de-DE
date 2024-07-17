@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> 
    <p>Neu: Beliebig </p>
-   <p>Aktuell: Pro oder höher</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <p>Aktuell: Pro oder höher</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -58,22 +58,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Hochladen eines Dokuments und Erstellen eines Testversands
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, in dem/der Sie einen neuen Testversand erstellen möchten.
-1. Klicken Sie auf **Dokumente** Registerkarte.
-1. Dokumente auswählen ![](assets/document-icon.png) im linken Bereich.
-1. Klicks **Neu hinzufügen** Klicken Sie auf **Testversand** im angezeigten Menü.
+1. Klicken Sie auf die Registerkarte **Dokumente**.
+1. Klicken Sie im linken Bereich auf Dokumente ![](assets/document-icon.png) .
+1. Klicken Sie auf **Neu hinzufügen** und dann im angezeigten Menü auf **Testversand** .
 
    >[!TIP]
    >
-   >Sie können die **Automatische Erstellung von Testsendungen beim Hochladen von Dokumenten** in Ihrem Benutzerprofil festzulegen, um diesen Prozess zu automatisieren. Weitere Informationen finden Sie unter [Meine Einstellungen konfigurieren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
+   >Sie können die Einstellung **Testsendungen beim Hochladen von Dokumenten automatisch generieren** in Ihrem Benutzerprofil aktivieren, um diesen Prozess zu automatisieren. Weitere Informationen finden Sie unter [Meine Einstellungen konfigurieren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
 
-1. Im **Neuer Testversand** angezeigt wird, können Sie
+1. Auf der angezeigten Seite **Neuer Testversand** können Sie
 
    * [Erstellen eines erweiterten Testversands mit einem einfachen Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
@@ -81,10 +81,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Hochladen eines Dokuments und Erstellen einer neuen Version eines Testversands
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, in der Sie eine neue Version eines vorhandenen Testversands erstellen möchten.
-1. Klicken Sie auf **Dokumente** Registerkarte.
+1. Klicken Sie auf die Registerkarte **Dokumente**.
 1. Wählen Sie das Dokument aus, dem Sie eine neue Version hinzufügen möchten.
-1. Klicks **Neu hinzufügen** > **Version** > **Testversand**.
-1. Im **Neue Testversion** angezeigt wird, können Sie
+1. Klicken Sie auf **Neu hinzufügen** > **Version** > **Testversand**.
+1. Auf der Seite **Neue Testversion** können Sie
 
    * [Erstellen eines erweiterten Testversands mit einem einfachen Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
@@ -93,23 +93,23 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können ein Dokument aus Ihrem Dateisystem (z. B. Ihrem Desktop) ziehen und ablegen, um einen neuen Testversand oder eine neue Version eines vorhandenen Testversands zu erstellen. Der Testversand enthält die folgenden Einstellungen, je nachdem, ob Sie einen neuen Testversand oder eine neue Version erstellen:
 
-* **Neuer Beweis:** Erstellt einen einfachen Testversand, der nur für Sie freigegeben ist. Sie können die Freigabeeinstellungen nach der Erstellung des Testversands ändern, wie unter [Testversandeinstellungen bearbeiten](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+* **Neuer Testversand:** Erstellt einen einfachen Testversand, der nur für Sie freigegeben ist. Sie können die Freigabeeinstellungen ändern, nachdem der Testversand erstellt wurde, wie unter [Testversandeinstellungen bearbeiten](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) beschrieben.
 
 * **Neue Version des vorhandenen Testversands:** Erstellt eine neue Version mit denselben Testversandeinstellungen wie die vorherige Version.
 
 So erstellen Sie mit Drag &amp; Drop eine neue Testversand- oder Testversion:
 
 1. Stellen Sie sicher, dass Testsendungen so konfiguriert sind, dass sie automatisch generiert werden, wie in beschrieben.
-1. Fahren Sie mit  [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)erläutert die Drag &amp; Drop-Methode zum Hinzufügen von Dokumenten. 
+1. Fahren Sie mit  [Dokumente aus Ihrem Dateisystem zu Adobe Workfront hinzufügen](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), was die Drag-and-Drop-Methode zum Hinzufügen von Dokumenten erklärt. 
 
 ## Erstellen eines Testversands für ein vorhandenes Dokument
 
-1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Schaltfläche **Dokumente** Abschnitt.
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Testversand erstellen** -Link, der unter dem Dokumentnamen erscheint.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf den Abschnitt **Dokumente** .
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf den Link **Testversand erstellen** , der unter dem Dokumentnamen angezeigt wird.
 
    >[!NOTE]
    >
-   >Wenn Sie **Automatische Erstellung von Testsendungen beim Hochladen von Dokumenten** in Ihrem Benutzerprofil aktiviert ist, erstellt das System automatisch einen einfachen Testversand.
+   >Wenn Sie in Ihrem Benutzerprofil **Testsendungen beim Hochladen von Dokumenten automatisch generieren** aktiviert haben, erstellt das System automatisch einen einfachen Testversand.
 
 1. Wählen Sie eine der folgenden Optionen aus:
 

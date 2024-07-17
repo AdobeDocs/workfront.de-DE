@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen bei Integration und Mobile beschrieben, die in Version 2019.2 enthalten sind. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
 
-Eine Liste aller 2019.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivitäten 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.2 vorgenommen wurden, finden Sie unter [Übersicht über die Veröffentlichungsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Verbesserungen bei Workfront für Microsoft Teams
 
@@ -40,5 +40,5 @@ Die Workfront für Adobe Creative Cloud-Erweiterung umfasst jetzt die Integratio
 
 ## Verbessertes Listenerlebnis in iOS und Android
 
-Das Erscheinungsbild für alle Listenansichten wird jetzt sowohl in den iOS- als auch in den Android-Apps aktualisiert. Dieser neue Look ermöglicht es Ihnen, die Elemente in Ihrer Liste auf den einzelnen Registerkarten schnell zu identifizieren und die Gruppierungen über die Registerkarte Startseite zu erweitern.
+Das Erscheinungsbild für alle Listenansichten wird jetzt sowohl in den iOS- als auch in Android-Apps aktualisiert. Dieser neue Look ermöglicht es Ihnen, die Elemente in Ihrer Liste auf den einzelnen Registerkarten schnell zu identifizieren und die Gruppierungen über die Registerkarte Startseite zu erweitern.
 

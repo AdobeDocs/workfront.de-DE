@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für eine Aufgabe verwalten</p> <p>Anzeigen von Berechtigungen für eine Vorlage beim Konvertieren in ein Projekt mithilfe einer Vorlage</p> <p>Nach dem Erstellen des Projekts verfügen Sie über Verwaltungsberechtigungen für das Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für eine Aufgabe verwalten</p> <p>Anzeigen von Berechtigungen für eine Vorlage beim Konvertieren in ein Projekt mithilfe einer Vorlage</p> <p>Nach dem Erstellen des Projekts verfügen Sie über Verwaltungsberechtigungen für das Projekt</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tr> 
     <tr> 
     <td>Status</td> 
-    <td> Standardstatus, der für die Gruppe in der Vorlage ausgewählt wird. Wenn die Vorlage nicht mit der Gruppe verknüpft ist, wird der Projektstatus vom Workfront-Administrator im Bereich "Projekteinstellungen"des Setups auf den Standardstatus festgelegt. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Systemweite Projektvoreinstellungen konfigurieren</a>
+    <td> Standardstatus, der für die Gruppe in der Vorlage ausgewählt wird. Wenn die Vorlage nicht mit der Gruppe verknüpft ist, wird der Projektstatus vom Workfront-Administrator im Bereich "Projekteinstellungen"des Setups auf den Standardstatus festgelegt. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Systemweite Projektanvoreinstellungen konfigurieren</a>
 
   Es gibt die folgenden Szenarien, um den Status des Projekts zu aktualisieren:
   <ul>
@@ -102,8 +102,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <td>Projekttermine</td> 
     <td> 
       <ul> 
-      <li> <p><b>Geplantes Startdatum</b>: Die nächstgelegene Arbeitszeit, die auf der Arbeitszeit des Vorlagenzeitplans basiert, sollte entsprechend der Zeitzone des Zeitplans der Vorlage vorausgewählt werden. Dieses Feld ist deaktiviert, wenn im Feld Planen von die Option Aus Abschluss ausgewählt ist. </p> </li> 
-      <li> <p><b>Geplantes Abschlussdatum</b>: Die nächstgelegene Arbeitszeit, die auf der Arbeitszeit des Vorlagenzeitplans basiert, sollte entsprechend der Zeitzone des Zeitplans der Vorlage vorausgewählt werden. Dieses Feld ist deaktiviert, wenn im Feld Planung von die Option Von Start ausgewählt ist. </p> </li> 
+      <li> <p><b>Vorgesehenes Startdatum</b>: Die nächstgelegene Arbeitszeit, die auf der Arbeitszeit des Vorlagenzeitplans basiert, sollte entsprechend der Zeitzone des Zeitplans der Vorlage vorausgewählt werden. Dieses Feld ist deaktiviert, wenn im Feld Planen von die Option Aus Abschluss ausgewählt ist. </p> </li> 
+      <li> <p><b>Vorgesehenes Abschlussdatum</b>: Die nächstgelegene Arbeitszeit, die auf der Arbeitszeit des Vorlagenzeitplans basiert, sollte entsprechend der Zeitzone des Zeitplans der Vorlage vorausgewählt werden. Dieses Feld ist deaktiviert, wenn im Feld Planung von die Option Von Start ausgewählt ist. </p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -162,20 +162,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Konvertieren einer Aufgabe in ein Projekt
 
 1. Wechseln Sie zu der Aufgabe, die Sie in ein Projekt konvertieren möchten.
-1. Klicken Sie auf **Mehr** icon ![](assets/more-icon.png), dann **In Projekt konvertieren**.
+1. Klicken Sie auf das Symbol **Mehr** ![](assets/more-icon.png) und dann auf **In Projekt konvertieren**.
 1. Wählen Sie eine der folgenden Optionen aus:
 
    * **Neues Projekt**
-   * Eine Vorlage im **Aus Vorlagen auswählen** Abschnitt
+   * Eine Vorlage im Abschnitt **Aus Vorlagen auswählen**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
-1. Klicks **Weiter** auf der angezeigten Benachrichtigung.
-1. Im **In Projekt konvertieren** Geben Sie Folgendes an:
+1. Klicken Sie in der angezeigten Benachrichtigung auf **Weiter** .
+1. Geben Sie im Feld **In Projekt konvertieren** Folgendes an:
 
    * **Name**: Benennen Sie Ihr Projekt. Der Standardname ist der Name der Aufgabe.
    * (Optional) **Beschreibung**: Beschreiben Sie den Zweck dieses Projekts.
-   * (Optional und bedingt) Wenn Sie ein Projekt aus einer Vorlage erstellen möchten, aktualisieren Sie die verfügbaren Felder im **In Projekt konvertieren** Dialogfeld.
+   * (Optional und bedingt) Wenn Sie das Erstellen eines Projekts aus einer Vorlage ausgewählt haben, aktualisieren Sie die verfügbaren Felder im Dialogfeld **In Projekt konvertieren** .
 
      Weitere Informationen zum Bearbeiten von Feldern in Projekten finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -183,13 +183,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      >
      >Um die Felder im Abschnitt Finanzen im Feld In Projekt konvertieren zu aktualisieren, müssen Sie in Ihrer Zugriffsebene Zugriff auf Finanzdaten bearbeiten haben. Wenn Sie auf Ihrer Zugriffsebene Zugriff auf Finanzdaten anzeigen haben, werden alle Finanzinformationen aus der Vorlage an das neue Projekt übertragen und Sie können sie nicht bearbeiten, während Sie das Problem konvertieren. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Vorlage freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * (Optional) Hinzufügen **Benutzerdefinierte Forms** zum neuen Projekt.
+   * (Optional) Fügen Sie **Benutzerdefiniertes Forms** zum neuen Projekt hinzu.
 
      >[!TIP]
      >
-     Wenn ein benutzerdefiniertes Formular mit mehreren Objekten, das an die Aufgabe angehängt ist, für die Verwendung mit Aufgaben und Projekten konfiguriert ist, werden alle im Formular gespeicherten Informationen bei der Konvertierung beibehalten.
+     >Wenn ein benutzerdefiniertes Formular mit mehreren Objekten, das an die Aufgabe angehängt ist, für die Verwendung mit Aufgaben und Projekten konfiguriert ist, werden alle im Formular gespeicherten Informationen bei der Konvertierung beibehalten.
      >
      >
-     Wenn Sie eine Vorlage für die Konvertierung verwenden und ein benutzerdefiniertes Formular, das an die Vorlage angehängt ist, ein benutzerdefiniertes Feld enthält, das auch in einem benutzerdefinierten Formular enthalten ist, das an die Aufgabe angehängt ist, wird der Feldwert der Aufgabe für das neue Projekt verwendet. Wenn das benutzerdefinierte Feld jedoch für die Aufgabe leer ist, wird der Wert aus der Vorlage verwendet.
+     >Wenn Sie eine Vorlage für die Konvertierung verwenden und ein benutzerdefiniertes Formular, das an die Vorlage angehängt ist, ein benutzerdefiniertes Feld enthält, das auch in einem benutzerdefinierten Formular enthalten ist, das an die Aufgabe angehängt ist, wird der Feldwert der Aufgabe für das neue Projekt verwendet. Wenn das benutzerdefinierte Feld jedoch für die Aufgabe leer ist, wird der Wert aus der Vorlage verwendet.
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.

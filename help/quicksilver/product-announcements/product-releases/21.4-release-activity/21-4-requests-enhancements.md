@@ -17,17 +17,17 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Anfragen-Verbesserungen beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Verbesserte Suche für Anforderungen enthält jetzt Sonderzeichen
 
 Damit Suchanfragewarteschlangen beim Senden von Anforderungen schneller und einfacher werden, wurde der Suchalgorithmus dahingehend verbessert, dass jetzt Warteschlangen gefunden werden, die möglicherweise Sonderzeichen enthalten.
 
-Sie können beispielsweise eine Anforderungswarteschlange mit dem Namen&#42;Workfront durch Eingabe von &quot;&#42;Workfront&quot;oder &quot;Workfront&quot;im Feld &quot;Anfragetyp&quot;ein.
+Sie können beispielsweise eine Anforderungswarteschlange mit dem Namen &quot;&#42;Workfront&quot;finden, indem Sie im Feld &quot;Anfragetyp&quot;entweder &quot;&#42;Workfront&quot;oder &quot;Workfront&quot;eingeben.
 
 Alle Sonderzeichen werden unterstützt.
 
-Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Informationen zum Senden von Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Neues Erscheinungsbild für eingebettete Anfragewarteschlangen im neuen Workfront-Erlebnis
 

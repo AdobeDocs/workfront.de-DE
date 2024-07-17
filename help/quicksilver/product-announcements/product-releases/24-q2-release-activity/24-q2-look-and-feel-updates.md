@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens der Version vom zweiten Quartal 2024 vorgenommen wurden.
 
-Eine Liste aller mit der Version vom zweiten Quartal 2024 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Eine Liste aller Änderungen, die mit der Version vom zweiten Quartal 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des zweiten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Look-and-Feel-Aktualisierungen für zwei E-Mail-Vorlagen
 
@@ -34,4 +34,4 @@ Die E-Mail-Vorlagen zum Hinzufügen eines Genehmigers zu einem Asset und zum Hin
 
 Die Registerkarten für Forms, Felder und Abschnitte im Bereich &quot;Einrichtung&quot;> &quot;Benutzerdefinierter Forms&quot;wurden aktualisiert und sind nun entsprechend den anderen Bereichen von Workfront moderner gestaltet. Sie können nun über das linke Navigationsmenü auf die drei Bereiche zugreifen. Filter, Ansichten und Gruppierungen sind weiterhin für die Listen verfügbar. Der aktualisierte Entwurf gilt für benutzerdefinierte Formulare, Felder und Abschnitte, die sowohl im neuen Formularentwickler als auch im alten Formularersteller erstellt wurden.
 
-Weitere Informationen finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) und [Benutzerdefiniertes Formular mit dem alten Formular-Builder erstellen oder bearbeiten](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) und [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars mit dem alten Formularersteller](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).

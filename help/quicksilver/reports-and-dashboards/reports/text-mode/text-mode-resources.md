@@ -28,10 +28,10 @@ Verwenden Sie die folgende Dokumentation, um die Verwendung der Textmodus-Benutz
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [Übersicht über die Syntax der Textmodi](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Überblick über die häufigsten Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [Übersicht über die Syntax im Textmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Bearbeiten einer Ansicht im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* [Filter im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [Bearbeiten eines Filters mit dem Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [Textmodus in einer Gruppierung bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 * [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
@@ -50,10 +50,10 @@ Dieser Abschnitt enthält die folgenden Artikel:
   -->
 
 * [Bedingte Formatierung im Textmodus verwenden](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
-* [Datumsangaben in Textmodusberichten formatieren](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
-* [Formatnummern, Währungs- und Prozentwerte in Textmodusberichten](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
+* [Formatieren von Datumsangaben in Textmodusberichten](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
+* [Formatieren von Zahlen, Währung und Prozentwerten in Textmodusberichten](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
 * [Felder in bedingter Formatierung vergleichen](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
-* [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
-* [Erstellen von &quot;OR&quot;-Anweisungen in Textmodusfiltern](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
-* [Erstellen komplexer Textmodusfilter mithilfe von EXISTS-Anweisungen](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* [Verweisen auf Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
+* [Erstellen Sie &quot;OR&quot;-Anweisungen in Textmodusfiltern](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
+* [Erstellen Sie komplexe Textmodusfilter mithilfe von EXISTS-Anweisungen](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
   <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

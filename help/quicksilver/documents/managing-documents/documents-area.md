@@ -22,11 +22,11 @@ Im Bereich &quot;Dokumente&quot;können Sie Metadaten für in Adobe Workfront ho
 
 Es gibt zwei Arten von Dokumenten-Bereichen. Die Funktionen sind für beide identisch:
 
-* **Dokumentbereich in einem Programm, Portfolio, Projekt, Aufgabe oder Problem:** Listet alle Dokumente auf, auf die Sie Zugriff für ein bestimmtes Projekt, eine bestimmte Aufgabe oder ein bestimmtes Problem haben. Klicken Sie auf **Dokumente** ![](assets/document-icon-12x14.png) im linken Bereich beim Anzeigen eines Projekts, einer Aufgabe oder eines Problems.
+* **Dokumentbereich in einem Programm, Portfolio, Projekt, Aufgabe oder Problem:** Listet alle Dokumente auf, auf die Sie Zugriff für ein bestimmtes Projekt, eine bestimmte Aufgabe oder ein bestimmtes Problem haben. Um auf diesen Bereich zuzugreifen, klicken Sie im linken Bereich auf **Dokumente** ![](assets/document-icon-12x14.png) , während Sie ein Projekt, eine Aufgabe oder ein Problem anzeigen.
 
-* **Bereich &quot;Globale Dokumente&quot;** Listet alle Dokumente auf, auf die Sie in Workfront Zugriff haben. Klicken Sie auf **Dokumente** ![](assets/document-icon.png) im Hauptmenü ![](assets/main-menu-icon.png).
+* **Bereich &quot;Globale Dokumente&quot;:** Listet alle Dokumente auf, auf die Sie in Workfront Zugriff haben. Um auf diesen Bereich zuzugreifen, klicken Sie im Hauptmenü auf ![](assets/main-menu-icon.png) auf **Dokumente** ![](assets/document-icon.png) .
 
-Informationen zum Hochladen von Dokumenten in Workfront finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Weitere Informationen zum Hochladen von Dokumenten in Workfront finden Sie unter [Dokumente aus Ihrem Dateisystem zu Adobe Workfront hinzufügen](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 
 Im Dokumentbereich werden die folgenden Elemente aufgezeichnet:
@@ -46,7 +46,7 @@ Sie können auf die Überschrift Details klicken, um zum vollständigen Bereich 
 
 ![](assets/documents-area-v2-350x199.png)
 
-Weitere Informationen zur Zusammenfassung finden Sie unter [Übersicht über Dokumente](../../documents/managing-documents/summary-for-documents.md).
+Weitere Informationen zur Zusammenfassung finden Sie unter [Übersicht für Dokumente - Übersicht](../../documents/managing-documents/summary-for-documents.md).
 
 ## Beweisentscheidung
 
@@ -62,7 +62,7 @@ Im Bereich &quot;Globale Dokumente&quot;können Sie zwei Ordnertypen einrichten,
 
 * **Smart-Ordner:** Zeigt nur die Dokumente an, die Sie sehen möchten. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Smart-Ordnern](../../documents/organizing-documents/create-manage-smart-folders.md).
 
-* **Meine Ordner:** Organisieren Sie Dokumente wie gewünscht. Weitere Informationen finden Sie unter [Erstellen von Dokumentordnern](../../documents/organizing-documents/create-documents-folder.md).
+* **Meine Ordner:** Organisieren Sie Dokumente so, wie Sie sie möchten. Weitere Informationen finden Sie unter [Erstellen von Dokumentordnern](../../documents/organizing-documents/create-documents-folder.md).
 
 ## Erweiterte Dokumentdetails
 

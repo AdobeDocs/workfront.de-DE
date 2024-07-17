@@ -23,7 +23,7 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfr
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 ## Figures-Verbindung und -Module jetzt verfügbar
 
@@ -31,7 +31,7 @@ Jetzt können Sie mit Adobe Workfront Fusion eine Verbindung zu Ihrem Figma-Kont
 
 * Trigger eines Szenarios, in dem ein Ereignis in Ihrem Figures-Konto auftritt
 
-* Veröffentlichen oder Löschen von Kommentaren zu einer Datei
+* Post oder Löschen von Kommentaren zu einer Datei
 
 * Listen Sie Kommentare zu einer Datei, einem Dateiversionsverlauf, Projektdateien oder Projekten auf.
 
@@ -68,7 +68,7 @@ Jetzt können Sie mit Adobe Workfront Fusion eine Verbindung zu Ihren Adobe Crea
 * Ausführen eines benutzerdefinierten API-Aufrufs
 
 
-Weitere Informationen finden Sie unter [Adobe Creative Cloud-Bibliotheksmodelle](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+Weitere Informationen finden Sie unter [Adobe Creative Cloud Libraries-Module](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
 
 ## Adobe Target-Verbindung und -Module jetzt verfügbar
 
@@ -83,4 +83,4 @@ Jetzt können Sie mit Adobe Workfront Fusion eine Verbindung zu Ihrem Adobe Targ
 * Ausführen eines benutzerdefinierten API-Aufrufs
 
 
-Weitere Informationen: [Adobe Target-Module](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).
+Weitere Informationen finden Sie unter [Adobe Target-Module](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).

@@ -25,6 +25,7 @@ Sie können die Rollenzuordnung für alle Arbeitsrollen anzeigen, die Arbeitsele
 >* [Rollenzuweisung für Projekte und Initiativen im Arbeitslastausgleich anzeigen](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
 >  Sie müssen über eine Scenario Planer-Lizenz verfügen, um die Startzeiten im Bereich Rollenzuweisung anzuzeigen. Weitere Informationen zum Szenario-Planer finden Sie unter [Erste Schritte mit dem Szenario-Planer](../../../scenario-planner/get-started-with-scenario-planning.md) .
+>
 
 ## Zugriffsanforderungen
 
@@ -66,7 +67,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -78,7 +79,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder Höhere Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,27 +92,32 @@ Sie müssen über Folgendes verfügen:
 
 * Aufgaben oder Probleme, die Auftragsrollen oder Benutzern zugewiesen sind, die mit einer Auftragsrolle verknüpft sind.
 
-   >[!TIP]
-   Wenn die Aufgaben oder Probleme nicht zugewiesen, Teams zugewiesen oder Benutzern ohne Auftragsrolle zugewiesen sind, sind die geplanten Stunden des Projekts im Bereich Rollenzuweisung null.
+  >[!TIP]
+  >
+  >Wenn die Aufgaben oder Probleme nicht zugewiesen, Teams zugewiesen oder Benutzern ohne Auftragsrolle zugewiesen sind, sind die geplanten Stunden des Projekts im Bereich Rollenzuweisung null.
 
 * Aufgaben und Probleme mit einer Dauer größer als null.
 
 ## Anzeigen von geplanten Projektstunden im Bereich &quot;Rollenzuweisung&quot;
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Projekte**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Projekte**.![](assets/main-menu-icon.png)
 1. Klicken Sie auf den Namen eines Projekts, um darauf zuzugreifen. Dadurch wird die Seite Projekt geöffnet.
 1. Klicken Sie im linken Bereich auf einen der folgenden Elemente:
 
    * **Aufgaben**
-   * **Workload-Balancer**
+   * **Workload Balancer**
 
-1. Klicken Sie auf **Rollenzuweisung anzeigen** icon ![](assets/show-role-allocation-icon.png).
+1. Klicken Sie auf das Symbol **Rollenzuweisung anzeigen** ![](assets/show-role-allocation-icon.png).
 
    Das Bedienfeld Rollenzuordnung wird angezeigt.
 
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
-1. Überprüfen Sie die folgenden Informationen in der **Rollenzuweisung** Bereich: |Feld | Beschreibung | |—|—| | **Auftragsrolle** |Auftragsrollen, die Aufgaben und Problemen im Projekt zugewiesen sind. Dabei kann es sich um direkt den Aufgaben und Problemen zugewiesene Aufgabenrollen oder Aufgabenrollen handeln, die mit Benutzern verknüpft sind, die Aufgaben und Problemen im Projekt zugewiesen sind.  | | **Geplante Stunden** |Die Gesamtanzahl der geplanten Stunden aus Aufgaben und Problemen, die Stellenrollen oder Benutzern zugewiesen sind, die mit einer Auftragsrolle im Projekt verknüpft sind. |
+1. Überprüfen Sie die folgenden Informationen im Bereich **Rollenzuweisung** :
+|Feld | Beschreibung|
+|—|—|
+| **Auftragsrolle** |Auftragsrollen, die Aufgaben und Problemen im Projekt zugewiesen sind. Dabei kann es sich um direkt den Aufgaben und Problemen zugewiesene Aufgabenrollen oder Aufgabenrollen handeln, die mit Benutzern verknüpft sind, die Aufgaben und Problemen im Projekt zugewiesen sind.  |
+| **Geplante Stunden** |Die Gesamtanzahl der geplanten Stunden aus Aufgaben und Problemen, die Stellenrollen oder Benutzern zugewiesen sind, die mit einer Auftragsrolle im Projekt verknüpft sind.  |
 
 
 

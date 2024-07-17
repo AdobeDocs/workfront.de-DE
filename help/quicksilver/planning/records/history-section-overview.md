@@ -29,7 +29,7 @@ Sie können an Adobe Workfront-Planungsdatensätzen zusammenarbeiten, indem Sie 
 Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 
 * **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzer zu Datensätzen hinzufügen. Weitere Informationen zum Verwalten von Kommentaren in Workfront-Planungsprotokollen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
-* **Geschichte**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen.
+* **Verlauf**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen.
 
 ## Suchen Sie den Abschnitt Verlauf eines Datensatzes
 
@@ -42,12 +42,12 @@ Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs werden angezeigt.
 
-1. Wählen Sie eine Tabellenansicht aus dem **Ansicht** Dropdown-Menü.
+1. Wählen Sie eine Tabellenansicht aus dem Dropdownmenü **Ansicht** aus.
 1. Klicken Sie in der Tabellenansicht auf den Namen eines Datensatzes.
 
    Die Seite des Datensatzes wird geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bereich geöffnet.
-1. Klicken Sie auf **Verlauf anzeigen** icon ![](assets/show-history-icon.png). Alle Änderungen an den Feldern des Datensatzes werden im rechten Bereich angezeigt, beginnend mit dem letzten.
-1. (Optional) Klicken Sie auf die **Verlauf ausblenden** icon ![](assets/hide-history-icon.png) , um den rechten Bereich zu schließen.
+1. Klicken Sie auf das Symbol **Verlauf anzeigen** ![](assets/show-history-icon.png). Alle Änderungen an den Feldern des Datensatzes werden im rechten Bereich angezeigt, beginnend mit dem letzten.
+1. (Optional) Klicken Sie auf das Symbol **Verlauf ausblenden** ![](assets/hide-history-icon.png) , um das rechte Bedienfeld zu schließen.
 
 ## Überlegungen zum Abschnitt Verlauf
 

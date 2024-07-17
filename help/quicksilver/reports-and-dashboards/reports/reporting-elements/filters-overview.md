@@ -44,7 +44,7 @@ Im Folgenden finden Sie Filtertypen, die Sie in Workfront verwenden können:
   </tr> 
   <tr> 
    <td><strong>Temporäre oder dauerhafte Filter für Sondergebiete</strong></td> 
-   <td>Wird von Workfront erstellt oder von Ihnen oder anderen Benutzern angepasst. Sie können permanente Filter speichern und mehr als einmal verwenden oder sie vorübergehend anwenden, um Ihre unmittelbaren Anforderungen zu erfüllen, ohne sie zu speichern. Nicht gespeicherte Filter können nicht freigegeben oder gelöscht werden. Sie sind in speziellen Bereichen verfügbar, wie im Abschnitt beschrieben. <a href="#workfront-filters-for-special-areas" class="MCXref xref">Workfront-Filter für Sonderbereiche</a> in diesem Artikel. </td> 
+   <td>Wird von Workfront erstellt oder von Ihnen oder anderen Benutzern angepasst. Sie können permanente Filter speichern und mehr als einmal verwenden oder sie vorübergehend anwenden, um Ihre unmittelbaren Anforderungen zu erfüllen, ohne sie zu speichern. Nicht gespeicherte Filter können nicht freigegeben oder gelöscht werden. Sie sind in speziellen Bereichen verfügbar, wie im Abschnitt <a href="#workfront-filters-for-special-areas" class="MCXref xref">Workfront-Filter für spezielle Bereiche</a> in diesem Artikel beschrieben. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ Im Folgenden finden Sie Filtertypen, die Sie in Workfront verwenden können:
 
 Schnellfilter ermöglichen die Suche nach einem Element auf dem Bildschirm mithilfe eines Suchbegriffs. Nach dem Aktualisieren der Seite wird der temporäre Schnellfilter gelöscht. Sie können temporäre Filter nicht speichern, um sie wiederzuverwenden.
 
-Informationen zu Schnellfiltern finden Sie unter [Schnellfilter auf Listen anwenden](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+Informationen zu Schnellfiltern finden Sie unter [Anwenden des Schnellfilters auf eine Liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 ## Workfront-permanente Filter für Listen und Berichte
 
@@ -63,8 +63,8 @@ Informationen zu Objekten in Workfront und zu Objekten, für die Sie Berichte er
 
 Weitere Informationen zu Filtern in Listen und Berichten finden Sie in den folgenden Artikeln:
 
-* [Filter in Adobe Workfront erstellen oder bearbeiten](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [Filter, Ansichten und Gruppierungen entfernen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+* [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+* [Entfernen von Filtern, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [Filter, Ansichten oder Gruppierungen freigeben](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 
 ## Workfront-Filter für Sonderbereiche {#workfront-filters-for-special-areas}
@@ -72,17 +72,17 @@ Weitere Informationen zu Filtern in Listen und Berichten finden Sie in den folge
 Sie können in den folgenden Bereichen von Workfront entweder integrierte Filter oder benutzerdefinierte Filter verwenden:
 
 * Startseite\
-  Weitere Informationen finden Sie unter [Arbeitsliste filtern](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) im Artikel [Anzeigen von Elementen in der Arbeitsliste im Startbereich](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Weitere Informationen finden Sie im Abschnitt [Filtern der Arbeitsliste](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) im Artikel [Anzeigen von Elementen in der Arbeitsliste im Startbereich](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Anforderungsbereich. Filter können im Bereich Anforderungen nicht angepasst werden.
 
   Weitere Informationen finden Sie unter [Gesendete Anforderungen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 * Ressourcenplaner\
-  Weitere Informationen finden Sie im Artikel [Filtern von Informationen im Ressourcenplaner](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  Weitere Informationen finden Sie im Artikel [Filterinformationen im Ressourcen-Planer](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Nutzungsbericht
 
-  Weitere Informationen finden Sie im Abschnitt . [Informationen zur Filterauslastung](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) im Artikel [Informationen zur Ressourcenauslastung anzeigen](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  Weitere Informationen finden Sie im Abschnitt [Informationen zur Filterauslastung](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) im Artikel [Informationen zur Ressourcenauslastung anzeigen](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Workload Balancer
 
@@ -90,15 +90,15 @@ Sie können in den folgenden Bereichen von Workfront entweder integrierte Filter
 
 * Analytics-Bereich
 
-  Weitere Informationen finden Sie unter [Filter in erweiterten Analysen anwenden](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
+  Weitere Informationen finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * Blueprint-Bereich
 
-  Weitere Informationen finden Sie unter [Blueprint installieren](../../../administration-and-setup/blueprints/blueprints-install.md).
+  Weitere Informationen finden Sie unter [Installieren eines Blueprints](../../../administration-and-setup/blueprints/blueprints-install.md).
 
 * Szenarienplaner
 
-  Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+  Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
 
   >[!TIP]
   >
@@ -142,9 +142,9 @@ Beim Arbeiten mit Listen und Berichten können Sie Informationen auf dem Bildsch
 >[!IMPORTANT]
 >
 >Beim Erstellen oder Bearbeiten von Filtern in Berichten müssen Sie den Bericht bearbeiten, damit der neue Filter zum Standardfilter für den Bericht wird. Wenn Sie nur den Filter bearbeiten, wird der Standardfilter des Berichts außerhalb des ReportBuilder nicht aktualisiert.\
->Informationen zum Bearbeiten eines Berichts finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>Informationen zum Bearbeiten eines Berichts finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) .
 
-Weitere Informationen zu Workfront-Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Informationen zu Workfront-Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 Informationen zu Workfront-Berichten finden Sie unter [Erste Schritte mit Berichten](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
@@ -154,7 +154,7 @@ Beachten Sie beim Arbeiten mit Filtern in Listen oder Berichten Folgendes:
 
 * Ihr Workfront-Administrator muss Ihnen die Option Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten gewähren, um permanente Filter zu erstellen.
 
-  Weitere Informationen finden Sie unter [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Weitere Informationen finden Sie unter [Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Ihre Berechtigungen für einen Filter bestimmen, wie Filter gespeichert werden. Wenn Sie den Filter ursprünglich erstellt haben, können Sie die Änderungen speichern. Andernfalls werden Sie aufgefordert, eine neue Version des zu ändernden Filters zu speichern.
 
@@ -162,7 +162,7 @@ Beachten Sie beim Arbeiten mit Filtern in Listen oder Berichten Folgendes:
   >
   >Beachten Sie, dass sich Änderungen an einem Filter, den Sie für andere freigegeben haben, auch auf diese auswirken.
 
-* Sie können einen Filter anpassen, der nur für Sie freigegeben wurde, wenn der Benutzer, der den Filter freigegeben hat, Ihnen Zugriff auf Verwalten gewährt hat. Informationen zum Freigeben eines Filters finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Sie können einen Filter anpassen, der nur für Sie freigegeben wurde, wenn der Benutzer, der den Filter freigegeben hat, Ihnen Zugriff auf Verwalten gewährt hat. Informationen zum Freigeben eines Filters finden Sie unter [Freigeben eines Filters, einer Ansicht oder einer Gruppierung](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Elemente eines Filters
 
@@ -174,7 +174,7 @@ Dies ist ein Beispiel für den standardmäßigen Filter-Builder:
 
 Dies ist ein Beispiel für den alten Filter-Builder:
 
-![Legacy Filter Builder](assets/filter-statements-with-or-and-and-nwe.png)
+![Legacy filter Builder](assets/filter-statements-with-or-and-and-nwe.png)
 
 Ein Filter enthält die folgenden Elemente:
 
@@ -184,7 +184,7 @@ Ein Filter enthält die folgenden Elemente:
  <tbody> 
   <tr> 
    <td><strong>Objekt</strong></td> 
-   <td> <p>Das Workfront-Datenbankobjekt des Filters. Informationen darüber, welche Objekte in Workfront gemeldet werden können, finden Sie unter <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Übersicht über Adobe Workfront-Objekte</a>. </p> <p>Beispielsweise können Projekte, Aufgaben, Probleme, Benutzer oder Dokumente das Objekt eines Filters sein. </p> </td> 
+   <td> <p>Das Workfront-Datenbankobjekt des Filters. Informationen dazu, welche Objekte in Workfront gemeldet werden können, finden Sie unter <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Übersicht über Adobe Workfront-Objekte</a>. </p> <p>Beispielsweise können Projekte, Aufgaben, Probleme, Benutzer oder Dokumente das Objekt eines Filters sein. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Feld</strong></td> 
@@ -196,11 +196,11 @@ Ein Filter enthält die folgenden Elemente:
   </tr> 
   <tr> 
    <td><strong>Benutzerin oder Benutzer</strong></td> 
-   <td>Verbindet mehrere Filteranweisungen. Weitere Informationen finden Sie im Abschnitt . <a href="#filter-operators" class="MCXref xref">Filteroperatoren</a> in diesem Artikel. </td> 
+   <td>Verbindet mehrere Filteranweisungen. Weitere Informationen finden Sie im Abschnitt <a href="#filter-operators" class="MCXref xref">Filteroperatoren</a> in diesem Artikel. </td> 
   </tr> 
   <tr> 
    <td><strong>Modifikator</strong></td> 
-   <td>Gibt an, welche Art von Informationen mit Ihren Daten übereinstimmen sollen. Weitere Informationen finden Sie im Abschnitt . <a href="#filter-modifiers" class="MCXref xref">Filter-Modifikatoren</a> in diesem Artikel. </td> 
+   <td>Gibt an, welche Art von Informationen mit Ihren Daten übereinstimmen sollen. Weitere Informationen finden Sie im Abschnitt <a href="#filter-modifiers" class="MCXref xref">Filter-Modifikatoren</a> in diesem Artikel. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,11 +209,11 @@ Ein Filter enthält die folgenden Elemente:
 
 Workfront verfügt über zwei Filteroperatoren, die jede Filteranweisung miteinander verbinden:
 
-* **UND**: Wenn Sie zwei Filteranweisungen durch den UND -Operator verknüpfen, geben Sie an, dass beide Filteranweisungen gleichzeitig erfüllt werden sollen.
+* **AND**: Wenn Sie zwei Filteranweisungen durch den UND-Operator verknüpfen, geben Sie an, dass beide Filteranweisungen gleichzeitig erfüllt werden sollen.
 
   Standardmäßig werden die Anweisungen in einem Filter durch den UND -Operator verbunden.
 
-* **ODER**: Wenn Sie zwei Filteranweisungen des ODER-Operators verknüpfen, geben Sie an, dass beide Anweisungen erfüllt werden sollen.
+* **OR**: Wenn Sie zwei Filteranweisungen des ODER-Operators verknüpfen, geben Sie an, dass eine der beiden Anweisungen erfüllt werden soll.
 
   >[!TIP]
   >
@@ -230,7 +230,7 @@ Sie können Filter-Modifikatoren verwenden, um anzugeben, welche Art von Informa
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
-Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter- und Bedingungs-Modifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 ## Erstellen von Filtern in der Builder-Oberfläche
 
@@ -240,13 +240,13 @@ Sie können einen Filter auf folgende Weise mithilfe der Standard- oder Legacy-B
 * Vorhandenen Filter ändern
 * Vorhandenen Filter kopieren
 
-Informationen zum Erstellen eines Filters mit der Standard- oder Legacy-Builder-Oberfläche finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Informationen zum Erstellen eines Filters mit der Standard- oder Legacy-Builder-Oberfläche finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Erstellen von Filtern über die Benutzeroberfläche des Textmodus
 
 Sie können Filter mithilfe der Textmodus-Benutzeroberfläche erstellen. Es wird empfohlen, die meisten Filteranweisungen mithilfe der Standard- oder Legacy-Builder-Oberfläche zu erstellen und den Code des Filters nur als letzten Schritt zu bearbeiten. Es wird nicht empfohlen, einen völlig neuen Filter mithilfe der Textmodus-Oberfläche zu erstellen.
 
-Weitere Informationen zum Erstellen eines Filters mithilfe der Textmodus-Benutzeroberfläche finden Sie unter [Filter im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+Weitere Informationen zum Erstellen eines Filters mit der Textmodus-Oberfläche finden Sie unter [Bearbeiten eines Filters mit dem Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 ## Erstellen von Filtern für komplexe Felder
 
@@ -274,7 +274,7 @@ Wenn Sie einen Filter erstellen möchten, der nur Projekte findet, bei denen die
 
 Diese Syntax stellt sicher, dass die Werte als eine Option zusammen gelesen werden. Wenn Sie den Schrägstrich weglassen, liest Workfront das Komma als OR. In diesem Fall werden nur die Projekte ausgewählt, die entweder die erste oder die zweite Option aufweisen.
 
-Diese Syntax gilt auch bei der Erstellung von Eingabeaufforderungen. Weitere Informationen zur Verwendung von Eingabeaufforderungen finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Diese Syntax gilt auch bei der Erstellung von Eingabeaufforderungen. Weitere Informationen zur Verwendung von Eingabeaufforderungen finden Sie unter [Eine Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ### Filter erstellen, deren Werte ein benutzerdefiniertes Mehrfachauswahlfeld sind {#create-filters-for-whose-values-are-a-multi-select-custom-field}
 

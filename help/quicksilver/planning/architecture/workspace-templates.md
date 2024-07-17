@@ -100,7 +100,7 @@ You must have the following:
 
 Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anzahl der darin enthaltenen Felder:
 
-* **Allgemein: Marketing-Management**: Ideal für Organisationen, die die Grundlage eines grundlegenden Marketing-Systems schaffen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+* **Allgemein: Marketing-Management**: Ideal für Unternehmen, die die Grundlage eines grundlegenden Marketing-Systems schaffen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
    * Betriebliche Datensatztypen:
 
@@ -111,7 +111,7 @@ Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anza
       * **Marken**: 6 Felder
       * **Produkte**: 5 Felder
 
-* **Erweitert: Marketing-Management**: Geeignet für Teams, die zur Erforschung nuancierter Marketing-Strategien bereit sind. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+* **Erweitert: Marketing-Management**: Geeignet für Teams, die bereit sind, erweiterte Marketing-Strategien zu erkunden. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
    * Betriebliche Datensatztypen:
 
@@ -119,33 +119,33 @@ Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anza
       * **Programme**: 23 Felder
 
    * Taxonomien:
-      * **Regionen**: 1 Feld
-      * **Journey-Phasen für Kunden**: 4 Felder
+      * **Regionen**: 1-Feld
+      * **Customer Journey Stages**: 4 Felder
       * **Zielgruppen**: 8 Felder
       * **Lieferziele**: 12 Felder
       * **Marken**: 6 Felder
 
-* **Unternehmen: Marketing-Management**: Für große oder ausgereifte Unternehmen mit komplexen Marketingsystemen entwickelt. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+* **Unternehmen: Marketing-Management**: Für große oder ausgereifte Unternehmen mit komplexen Marketing-Systemen entwickelt. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
    * Betriebliche Datensatztypen:
 
       * **Kampagnen**: 15 Felder
       * **Programme**: 15 Felder
       * **Taktik**: 11 Felder
-      * **Tätigkeiten**: 18 Felder
+      * **Aktivitäten**: 18 Felder
 
    * Taxonomien:
 
       * **Produkte**: 10 Felder
       * **Lieferziele**: 18 Felder
-      * **Zielgruppen**: 8 Felder
+      * **Target Audiences**: 8 Felder
       * **Regionen**: 8 Felder
-      * **Unterregionen**: 7 Felder
+      * **Unterbereiche**: 7 Felder
       * **Partner**: 7 Felder
-      * **Nutzungsszenarios**: 7 Felder
-      * **Journey-Phasen für Kunden**: 3 Felder
+      * **Anwendungsfälle**: 7 Felder
+      * **Customer Journey Stages**: 3 Felder
 
-* **Vertriebsmanagement**: Sie können ein umfassendes Vertriebssystem erstellen, das Ihren Verkaufsprozess optimiert und die Effizienz erhöht. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+* **Verkaufsverwaltung**: Sie können ein umfassendes Verkaufssystem erstellen, das Ihren Verkaufsprozess optimiert und die Effizienz erhöht. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
    * Betriebliche Datensatztypen:
 
@@ -157,10 +157,10 @@ Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anza
       * **Lead**: 14 Felder
       * **Kontakt**: 12 Felder
       * **Region**: 3 Felder
-      * **Branche**: 2 Feld
+      * **Branche**: 2-Feld
       * **Einkaufszentrum**: 1 Feld
-      * **Produkt/Service**: 1 Feld
-      * **Wettbewerb**: 1 Feld
+      * **Produkt/ Dienst**: 1 Feld
+      * **Konkurrenz**: 1 Feld
 
 * **Produktverwaltung**: Mit dieser Vorlage können Sie einen effizienten und strukturierten Produktverwaltungsprozess erstellen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 

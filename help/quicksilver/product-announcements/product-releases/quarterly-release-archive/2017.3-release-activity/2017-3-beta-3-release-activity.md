@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Version 3"2017.3
+title: Beta 3-Release-Aktivität 2017.3
 description: Die Version 2017.3 wird Anfang November 2017 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ---
 
-# Aktivität &quot;Beta-Version 3&quot;2017.3
+# Beta 3-Release-Aktivität 2017.3
 
 Die Version 2017.3 wird Anfang November 2017 in der Produktionsumgebung verfügbar gemacht.
 
@@ -22,22 +22,22 @@ Die Version 2017.3 wird Anfang November 2017 in der Produktionsumgebung verfügb
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller 2017.3 vorgenommenen Änderungen finden Sie unter  [Übersicht über die Release-Aktivitäten 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Eine Liste aller 2017.3 vorgenommenen Änderungen finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 Die Beta 3-Version 2017.3 enthält Verbesserungen für alle Benutzer:
 
 * [Anpassen der Diagrammfarben](#customize-chart-colors)
 * [Zusätzliche Optionen beim Kopieren von Projekten](#additional-options-when-copying-projects)
 * [Verbesserung des Ressourcenplaners: Filter](#resource-planner-improvement-filters)
-* [Verbesserung des Ressourcenplans: Problemzeiten im Bereich &quot;Einstellungen&quot;anzeigen](#resource-planner-improvement-show-issue-hours-in-the-settings-area)
-* [SSO-Informationen für benutzerdefinierte Aktualisierungs- und Vorschau-Sandboxes nicht aktualisieren](#sso-information-for-the-custom-refresh-and-preview-sandboxes-do-not-refresh)
-* [Aktualisierte Anforderungen an die Browserunterstützung für Workfront Testversand](#updated-browser-support-requirements-for-workfront-proof)
+* [Verbesserung des Ressourcenplaners: Zeigt Problemzeiten im Bereich &quot;Einstellungen&quot;](#resource-planner-improvement-show-issue-hours-in-the-settings-area) an
+* [SSO-Informationen für die benutzerdefinierten Aktualisierungs- und Vorschau-Sandboxes werden nicht aktualisiert](#sso-information-for-the-custom-refresh-and-preview-sandboxes-do-not-refresh)
+* [Aktualisierte Anforderungen an die Browserunterstützung für Workfront Proof](#updated-browser-support-requirements-for-workfront-proof)
 
 ## Anpassen der Diagrammfarben {#customize-chart-colors}
 
 Jetzt können Sie die Farben der Elemente der Diagramme anpassen. Dies gilt für alle Diagrammtypen in Berichten. Dies gilt nicht für die Gantt-Grafik.
 
-Vor dieser Änderung wurden die Elemente aller Grafiken standardmäßig von Workfront ausgewählt. Weitere Informationen zum Anpassen der Diagrammfarben finden Sie in den Abschnitten &quot;Anpassen der Diagrammfarben&quot;unter [Diagramm zu einem Bericht hinzufügen](../../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+Vor dieser Änderung wurden die Elemente aller Grafiken standardmäßig von Workfront ausgewählt. Weitere Informationen zum Anpassen der Diagrammfarben finden Sie in den Abschnitten &quot;Anpassen der Diagrammfarben&quot;in [Hinzufügen eines Diagramms zu einem Bericht](../../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 ## Zusätzliche Optionen beim Kopieren von Projekten {#additional-options-when-copying-projects}
 
@@ -62,7 +62,7 @@ Mit der neuen Funktion wurden die vorherigen Optionen entfernt und die folgenden
 * Berechtigungen leeren
 * Alle auswählen
 
-Weitere Informationen zu den neuen Funktionen zum Kopieren von Projekten finden Sie im Abschnitt &quot;Kopieren eines Projekts in der Vorschauumgebung&quot;unter   [Projekt kopieren](../../../../manage-work/projects/manage-projects/copy-project.md).
+Weitere Informationen zu den neuen Funktionen zum Kopieren von Projekten finden Sie im Abschnitt &quot;Kopieren eines Projekts in der Vorschauumgebung&quot;unter   [Kopieren Sie ein Projekt](../../../../manage-work/projects/manage-projects/copy-project.md).
 
 ## Verbesserung des Ressourcenplaners: Filter {#resource-planner-improvement-filters}
 
@@ -76,22 +76,22 @@ Sie können die im Ressourcenplaner angezeigten Informationen nun nach den folge
 
 Sie können auch einen benutzerdefinierten Filter hinzufügen, der auf diesen Objekten basiert.
 
-Weitere Informationen zur Verwendung des Ressourcen-Planers finden Sie unter [Übersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+Weitere Informationen zur Verwendung des Ressourcen-Planers finden Sie unter [Ressourcenplaner - Übersicht](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
 
 ## Verbesserung des Ressourcenplans: Problemzeiten im Bereich &quot;Einstellungen&quot;anzeigen {#resource-planner-improvement-show-issue-hours-in-the-settings-area}
 
 Im Ressourcenplaner gibt es einen neuen Bereich &quot;Einstellungen&quot;, in dem mehrere Optionen zum Anpassen des Ressourcenplaners angezeigt werden. Mit dieser Version haben wir die erste Option hinzugefügt, mit der geplante Stunden aus Problemen in die Spalten &quot;Geplante Stunden&quot;des Ressourcenplaners aufgenommen werden können.
 
-Weitere Informationen zur Verwendung des Ressourcen-Planers finden Sie unter [Übersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Weitere Informationen zur Verwendung des Ressourcen-Planers finden Sie unter [Ressourcenplaner - Übersicht](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## SSO-Informationen für benutzerdefinierte Aktualisierungs- und Vorschau-Sandboxes nicht aktualisieren {#sso-information-for-the-custom-refresh-and-preview-sandboxes-do-not-refresh}
 
 Ab dieser Version werden die SSO-Informationen beim Aktualisieren Ihrer benutzerdefinierten Aktualisierungs- und Vorschau-Sandboxes nicht aus Ihrer Produktionsumgebung kopiert und auch nicht deaktiviert. Vor dieser Änderung wurden die SSO-Informationen in den benutzerdefinierten Aktualisierungs- und Vorschau-Sandboxes deaktiviert und auf &quot;Keine&quot;gesetzt.
 
-Weitere Informationen zur Umgebung &quot;Custom Refresh Sandbox&quot;finden Sie unter [Die benutzerdefinierte Adobe Workfront-Aktualisierungs-Sandbox-Umgebung](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+Weitere Informationen zur Sandbox-Umgebung für benutzerdefinierte Aktualisierung finden Sie unter [Die Sandbox-Umgebung für benutzerdefinierte Adobe Workfront-Aktualisierung](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 Weitere Informationen zur Vorschau-Sandbox-Umgebung finden Sie unter [Die Adobe Workfront-Vorschau-Sandbox-Umgebung](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-## Aktualisierte Anforderungen an die Browserunterstützung für Workfront Testversand {#updated-browser-support-requirements-for-workfront-proof}
+## Aktualisierte Anforderungen an die Browserunterstützung für Workfront Proof {#updated-browser-support-requirements-for-workfront-proof}
 
-Die Anforderungen an die Browserunterstützung für Workfront Testversand wurden aktualisiert. Weitere Informationen finden Sie unter [Adobe Workfront-Browseranforderungen](../../../../workfront-basics/workfront-browser-requirements.md).
+Die Anforderungen an die Browserunterstützung für Workfront Proof wurden aktualisiert. Weitere Informationen finden Sie unter [Browseranforderungen für Adobe Workfront](../../../../workfront-basics/workfront-browser-requirements.md).

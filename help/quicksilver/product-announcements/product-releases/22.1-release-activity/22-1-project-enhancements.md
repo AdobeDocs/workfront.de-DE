@@ -35,7 +35,7 @@ Vor dieser Verbesserung wurde die Option Alle Vorgänger beim Kopieren oder Vers
 
 Weitere Informationen finden Sie in den Artikeln:
 
-* [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
+* [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
 * [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md)
 
 ## Aktualisierte Symbolleiste auf der Dashboard-Liste und den Berichten in Dashboards
@@ -49,7 +49,7 @@ Die Seiten mit der aktualisierten Symbolleiste sind:
 * Liste meiner Dashboards
 * Liste freigegebener Dashboards
 
-Weitere Informationen finden Sie unter [Erstellen und Verwalten von Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
+Weitere Informationen finden Sie unter [Dashboards erstellen und verwalten](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
 
 ## Hinzufügen und Bearbeiten des Übersichtsbereichs für benutzerdefinierte Formulare für Dokumente
 
@@ -59,7 +59,7 @@ Mit dieser Änderung sehen Sie auch ein neues Erscheinungsbild in der Dokumentzu
 
 Zuvor mussten Sie in den Dokumentdetails zur Registerkarte für benutzerdefinierte Formulare wechseln, um Bearbeitungen vorzunehmen oder benutzerdefinierte Formulare hinzuzufügen.
 
-Weitere Informationen finden Sie unter [Übersicht über Dokumente](../../../documents/managing-documents/summary-for-documents.md).
+Weitere Informationen finden Sie unter [Überblick über Dokumente](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Neues Erlebnis beim Kopieren einer oder mehrerer Aufgaben
 
@@ -95,7 +95,7 @@ Weitere Informationen finden Sie unter [Aufgaben verschieben](../../../manage-wo
 
 >[!NOTE]
 >
->Diese Funktion wurde am 4. März 2022 vorübergehend aus der Produktionsumgebung entfernt. Später wurde es in einer schrittweisen Einführung ab dem 28. April 2022 veröffentlicht. Die Einführung wurde am 5. Mai 2022 abgeschlossen. Dies ist jetzt in der Vorschau und Produktion für alle Kunden verfügbar. (Die neuesten Aktualisierungen zum Status dieser Funktion, die für die Produktion freigegeben wird, finden Sie unter [2.3 Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+>Diese Funktion wurde am 4. März 2022 vorübergehend aus der Produktionsumgebung entfernt. Später wurde es in einer schrittweisen Einführung ab dem 28. April 2022 veröffentlicht. Die Einführung wurde am 5. Mai 2022 abgeschlossen. Dies ist jetzt in der Vorschau und Produktion für alle Kunden verfügbar. (Die neuesten Aktualisierungen zum Status dieser Funktion, die für die Produktion freigegeben wird, finden Sie unter [22.3 - Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
 
 Damit Ihre Verwendung von Workfront mit dem neuen Workfront-Erlebnis konsistent ist, haben wir die Benutzeroberfläche zum Konvertieren eines Problems in ein Projekt neu gestaltet, wenn Sie eine Vorlage verwenden, wenn Sie sie von der Problemseite aus konvertieren.
 
@@ -109,7 +109,7 @@ Weitere Informationen finden Sie unter [Konvertieren eines Problems in ein Proje
 
 >[!NOTE]
 >
->Diese Funktion wurde am 4. März 2022 vorübergehend aus der Produktionsumgebung entfernt. Später wurde es in einer schrittweisen Einführung ab dem 28. April 2022 veröffentlicht. Die Einführung wurde am 5. Mai 2022 abgeschlossen. Dies ist jetzt in der Vorschau und Produktion für alle Kunden verfügbar. (Die neuesten Aktualisierungen zum Status dieser Funktion, die für die Produktion freigegeben wird, finden Sie unter [2.3 Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+>Diese Funktion wurde am 4. März 2022 vorübergehend aus der Produktionsumgebung entfernt. Später wurde es in einer schrittweisen Einführung ab dem 28. April 2022 veröffentlicht. Die Einführung wurde am 5. Mai 2022 abgeschlossen. Dies ist jetzt in der Vorschau und Produktion für alle Kunden verfügbar. (Die neuesten Aktualisierungen zum Status dieser Funktion, die für die Produktion freigegeben wird, finden Sie unter [22.3 - Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
 
 Um Ihre Arbeit effizienter zu gestalten und die Konvertierung von Problemen in einer schnelllebigen Umgebung zu vereinfachen, haben wir die Möglichkeit hinzugefügt, ein Problem mithilfe einer Vorlage aus einer Liste, einem Bericht oder einem Dashboard in ein Projekt zu konvertieren.
 
@@ -129,7 +129,7 @@ Zuvor wurde der Filter nach Benutzerliste auf Kanban- und Scrum-Pinnwänden alph
 
 Weitere Informationen finden Sie in den folgenden Informationen
 
-* [Filtern nach Benutzer auf der Scrum-Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
+* [Filtern nach Benutzer auf der Trommelplatine](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
 * [Filtern nach Benutzer auf der Kanban-Pinnwand](../../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
 
 ## Beschränken der Möglichkeit, Dokumente zu einer freigegebenen Vorlage hinzuzufügen
@@ -138,11 +138,11 @@ Manchmal fügen Personen Dokumente zu einer Projektvorlage hinzu, weil sie glaub
 
 Anweisungen zum Freigeben einer Vorlage finden Sie unter [Projektvorlagen freigeben](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-Informationen zur neuen erweiterten Einstellung &quot;Dokumente hinzufügen&quot;finden Sie im Abschnitt im Artikel [Vorlage freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+Informationen zur neuen erweiterten Einstellung &quot;Dokumente hinzufügen&quot;finden Sie im Abschnitt im Artikel [Freigeben einer Vorlage](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 ## Dokumentordner freigeben
 
 Jetzt können Sie einen Dokumentordner und dessen Inhalt im Bereich Dokumente freigeben. Zuvor war dies nicht möglich - Sie mussten jedes Dokument separat in einem Ordner freigeben.
 
-Weitere Informationen finden Sie unter [Dokumentordner freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Weitere Informationen finden Sie unter [Freigeben eines Dokumentordners](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 

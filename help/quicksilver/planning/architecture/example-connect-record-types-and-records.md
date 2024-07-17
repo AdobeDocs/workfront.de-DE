@@ -38,48 +38,48 @@ Sie möchten ein Feld für den Datensatztyp von Campaign erstellen, in dem Sie d
 Gehen Sie dazu folgendermaßen vor:
 
 1. Öffnen Sie die Tabellenansicht für den Campaign-Datensatztyp in einem Arbeitsbereich.
-1. Klicken Sie auf **+** in der oberen rechten Ecke der Tabellenansicht ein neues Feld hinzufügen, und klicken Sie dann auf **Neue Verbindung** Klicken Sie auf **Produkt** im ausgewählten Arbeitsbereich angezeigt.
+1. Klicken Sie auf das Symbol &quot;**+**&quot;in der oberen rechten Ecke der Tabellenansicht, um ein neues Feld hinzuzufügen, klicken Sie dann auf &quot;**Neue Verbindung**&quot;und anschließend im ausgewählten Arbeitsbereich auf &quot;**Produkt**&quot;.
 1. Fügen Sie die folgenden Informationen hinzu, beispielsweise:
 
-   * **Record Type**: Produkt <!--did they change the casing here?-->
-   * **Name**: Benennen Sie das neue Feld. Beispiel: &quot;Produktinformationen&quot;. Dies ist der Name des verknüpften Datensatzfelds.
+   * **Record type**: Product <!--did they change the casing here?-->
+   * **Name**: Geben Sie dem neuen Feld einen Namen. Beispiel: &quot;Produktinformationen&quot;. Dies ist der Name des verknüpften Datensatzfelds.
    * **Beschreibung**: Fügen Sie eine Beschreibung für das neue Feld hinzu. Beispiel: &quot;Dies sind die Produkte, mit denen meine Kampagnen verknüpft werden sollen.&quot; Die Beschreibung des Felds wird angezeigt, wenn Sie den Mauszeiger über das Feld in der Spaltenüberschrift bewegen.
-   * **Mehrere Datensätze zulassen**: Wenn Sie diese Option aktiviert lassen, können Benutzer mehrere Datensätze auswählen, wenn das verknüpfte Datensatztyp-Feld (Produktinformationen) in den Originaldatensätzen (Kampagnen) angezeigt wird. In unserem Fall können Benutzer mehrere Produkte auswählen, die mit einer Kampagne verbunden werden sollen.
-   * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird die **Suchfelder hinzufügen** wird als Nächstes geöffnet, damit Sie Produktfelder mit dem Campaign-Datensatztyp verknüpfen können. Sie können auf **Überspringen** um diesen Schritt zu überspringen und Produktfelder später hinzuzufügen.
+   * **Mehrere Datensätze zulassen**: Wenn Sie diese Option deaktiviert lassen, können Benutzer mehrere Datensätze auswählen, wenn das Feld &quot;Verknüpfter Datensatztyp&quot;(Produktinformationen) in den Originaldatensätzen (Kampagnen) angezeigt wird. In unserem Fall können Benutzer mehrere Produkte auswählen, die mit einer Kampagne verbunden werden sollen.
+   * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird als Nächstes das Feld **Suchfelder hinzufügen** geöffnet, damit Sie Produktfelder mit dem Kampagnen-Datensatztyp verknüpfen können. Sie können auf **Überspringen** klicken, um diesen Schritt zu überspringen und Produktfelder später hinzuzufügen.
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Optional) Deaktivieren Sie die **Titel** Umschalten in der **Anzeige von Datensätzen** -Abschnitt, um nur das Miniaturbild des Datensatzes in den verbundenen Feldern anzuzeigen. Wenn diese Option aktiviert ist, zeigen Datensätze sowohl die Miniaturansicht als auch den Titel an. Der Umschalter ist standardmäßig aktiviert.
-1. (Bedingt) Wenn Sie die Option **Option &quot;Suchfelder auswählen&quot;** im vorherigen Schritt aus der Liste der Felder, die mit der **Produkt** Record Type, klicken Sie auf die **+** -Symbol für **Budget** und klicken Sie auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Budget (aus Produktinformationen)**, der Name des verknüpften Felds. Alle Informationen zum Produktbudget werden in diesem Feld für die Kampagnendatensätze angezeigt.
+1. (Optional) Deaktivieren Sie den Umschalter **Titel** im Abschnitt **Erscheinungsbild von Datensätzen** , um nur das Miniaturbild des Datensatzes in den verbundenen Feldern anzuzeigen. Wenn diese Option aktiviert ist, zeigen Datensätze sowohl die Miniaturansicht als auch den Titel an. Der Umschalter ist standardmäßig aktiviert.
+1. (Bedingt) Wenn Sie im vorherigen Schritt die Option **Suchfelder auswählen** ausgewählt haben, klicken Sie in der Liste der Felder, die mit dem Datensatztyp **Produkt** verknüpft sind, auf das Symbol **+** für das Feld **Budget** und klicken Sie dann auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Budget (aus Produktinformationen)** erstellt, das dem Namen des verknüpften Felds entspricht. Alle Informationen zum Produktbudget werden in diesem Feld für die Kampagnendatensätze angezeigt.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
    >[!TIP]
    >
-   >    Wenn Sie das Budget aller ausgewählten Produkte als eine Gesamtanzahl anzeigen möchten, wählen Sie **SUM** im Dropdown-Menü rechts neben dem Feldnamen. Wenn Benutzer mehrere Produkte in der **Produktinformationen** verknüpftes Datensatzfeld, das **Budget (aus Produktinformationen)** fügt alle Budgetwerte zusammen und zeigt die Summe an. <!-- check the shot below - added a bug with a couple of UI changes here-->
+   >    Wenn Sie das Budget aller ausgewählten Produkte als eine Gesamtanzahl anzeigen möchten, wählen Sie im Dropdown-Menü rechts neben dem Feldnamen **SUM** aus. Wenn Benutzer mehrere Produkte im Feld **Produktinformationen** verknüpfter Datensatz auswählen, werden im Feld **Budget (aus Produktinformationen)** alle Budgetwerte hinzugefügt und die Gesamtsumme angezeigt. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Wenn Sie **Keines**, anstelle von **SUM**, werden die einzelnen Budgets der ausgewählten Produkte durch Kommas getrennt angezeigt.
+   > Wenn Sie &quot;**None**&quot;anstelle von &quot;**SUM**&quot;auswählen, werden die einzelnen Budgets der ausgewählten Produkte durch Kommas getrennt angezeigt.
 
    Dadurch werden die folgenden Felder generiert:
 
    * In der Tabellenansicht von Campaign-Datensätzen und auf der Datensatzseite einer Kampagne:
 
-      * **Produktinformationen** (verknüpftes Datensatzfeld): Zeigt den Namen der Produkte an, wenn Sie sie hinzufügen.
-      * **Budget (aus Produktinformationen)** (verknüpftes Feld): Zeigt die Budgets der im Feld Produktinformationen ausgewählten Produkte an.
+      * **Produktinformationen** (das verknüpfte Datensatzfeld): Zeigt den Namen oder die Namen der Produkte an, wenn Sie sie hinzufügen.
+      * **Budget (aus Produktinformationen)** (das verknüpfte Feld): Zeigt die Budgets der im Feld Produktinformationen ausgewählten Produkte an.
 
    * In der Tabellenansicht &quot;Produktdatensatz&quot;und auf der Seite Produktdatensatz eines Produkts:
 
-      * **Kampagne**: Dies gibt an, dass der Produktdatensatztyp vom Campaign-Datensatztyp aus verknüpft ist.
+      * **Kampagne**: Dies bedeutet, dass der Produktdatensatztyp vom Campaign-Datensatztyp aus verknüpft ist.
 
      ![](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
    >[!TIP]
    >
-   >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol gekennzeichnet ![](assets/relationship-field-icon.png).
+   >    Verknüpfte Datensatzfelder erhalten das Beziehungssymbol ![](assets/relationship-field-icon.png).
 
-1. Aus dem **Kampagne** Tabellenansicht des Datensatztyps erstellen, erstellen Sie eine Kampagne, indem Sie in der Tabelle des Kampagnentyps eine neue Zeile hinzufügen.
+1. Erstellen Sie in der Tabellenansicht vom Typ **Kampagne** eine Kampagne, indem Sie der Tabelle des Kampagnentyps eine neue Zeile hinzufügen.
 
-1. Doppelklicken Sie in die **Produktinformationen** Spalte der neuen Kampagne.
+1. Doppelklicken Sie in die Spalte **Produktinformationen** der neuen Kampagne.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -87,9 +87,9 @@ Gehen Sie dazu folgendermaßen vor:
 
    * Klicken Sie in der Liste auf den Namen eines verbundenen Produkts, um es dem ausgewählten Datensatz hinzuzufügen. Das Produkt wird automatisch hinzugefügt.
    * Geben Sie den Namen eines Produkts ein und klicken Sie darauf, wenn es in der Liste angezeigt wird. Das Produkt wird automatisch hinzugefügt.
-   * Klicks **Alle anzeigen** , um alle Produkte anzuzeigen.
+   * Klicken Sie auf **Alle anzeigen** , um alle Produkte anzuzeigen.
 
-1. (Bedingt) Wenn Sie auf **Alle anzeigen** im vorherigen Schritt die Variable **Objekte verbinden** angezeigt.
+1. (Bedingt) Wenn Sie im vorherigen Schritt auf &quot;**See all**&quot;geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -97,15 +97,15 @@ Gehen Sie dazu folgendermaßen vor:
 
    Oder
 
-   Wählen Sie die Produktdatensätze aus, mit denen Sie eine Verbindung herstellen möchten, und klicken Sie auf **Objekte verbinden**.
+   Wählen Sie die Produktdatensätze aus, die Sie mit den Campaign-Datensätzen verbinden möchten, und klicken Sie dann auf **Objekte verbinden**.
 
    >[!TIP]
    >
-   >    Sie können die Datensatzseite einer Kampagne öffnen, das verknüpfte Datensatzfeld suchen und auf die Schaltfläche **+** im Feld, um Produkte aus dem verbundenen Produktdatensatz-Typ hinzuzufügen.
+   >    Sie können die Datensatzseite einer Kampagne öffnen, das verknüpfte Datensatzfeld suchen und auf das Symbol **+** im Feld klicken, um Produkte vom verbundenen Produktdatensatztyp hinzuzufügen.
 
    Die folgenden Spalten werden in der Tabelle vom Typ Campaign-Datensatz ausgefüllt:
-   * Die **Produktinformationen** wird für den Campaign-Datensatz mit den ausgewählten Produkten ausgefüllt.
-   * **Das Budget (aus Produktinformationen)** wird mit dem Budgetwert für jedes ausgewählte Produkt oder mit einem Gesamtbudget der ausgewählten Produkte ausgefüllt (wenn Sie SUM für Ihren Aggregator ausgewählt haben).
+   * Das Feld **Produktinformationen** wird für den Campaign-Datensatz mit den ausgewählten Produkten ausgefüllt.
+   * **Das Feld Budget (aus Produktinformationen)** wird mit dem Budgetwert für jedes ausgewählte Produkt oder mit einer Gesamtsumme aller Budgets der ausgewählten Produkte ausgefüllt (wenn Sie SUM für Ihren Aggregator ausgewählt haben).
 
    ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
@@ -113,7 +113,7 @@ Gehen Sie dazu folgendermaßen vor:
    >
    >Wenn Sie keinen Aggregator für mehrere Werte auswählen, werden alle Werte aus den ausgewählten Produkten durch Kommas getrennt angezeigt.
 
-1. So füllen Sie die **Kampagne** aus dem **Produkt** -Tabellenansicht, wiederholen Sie die Schritte 5 bis 7, angefangen bei der Tabellenansicht vom Typ Produktdatensatz und wählen Sie Kampagneninformationen aus. Dadurch wird auch das Feld Produktinformationen in der Tabelle des Campaign-Datensatztyps aktualisiert. <!--ensure the step numbers remain correct-->
+1. Um das Feld **Kampagne** aus der Tabellenansicht **Produkt** auszufüllen, wiederholen Sie die Schritte 5 bis 7, beginnend mit der Tabellenansicht des Produktdatensatzes und wählen Sie Kampagneninformationen aus. Dadurch wird auch das Feld Produktinformationen in der Tabelle des Campaign-Datensatztyps aktualisiert. <!--ensure the step numbers remain correct-->
 
 
 ## Verbinden eines Workfront-Planungs-Datensatztyps mit einem Workfront-Projektobjekttyp und eines Datensatzes mit einzelnen Projekten
@@ -132,25 +132,25 @@ Gehen Sie dazu folgendermaßen vor:
 
 1. Wechseln Sie zu einer Workspace, wo Sie den Campaign-Datensatztyp mit Workfront-Projekten verbinden möchten.
 1. Öffnen Sie die Tabellenansicht für den Campaign-Datensatztyp im ausgewählten Arbeitsbereich.
-1. Klicken Sie auf **+** in der oberen rechten Ecke der Tabellenansicht ein neues Feld hinzufügen, und klicken Sie dann auf **Neue Verbindung** Klicken Sie auf **Projekt** im **Workfront-Objekttypen** Abschnitt.
+1. Klicken Sie auf das Symbol &quot;**+**&quot;in der oberen rechten Ecke der Tabellenansicht, um ein neues Feld hinzuzufügen, klicken Sie dann auf &quot;**Neue Verbindung**&quot;und dann auf &quot;**Projekt**&quot;im Abschnitt &quot;**Workfront-Objekttypen**&quot;.
 1. Fügen Sie die folgenden Informationen hinzu, beispielsweise:
 
-   * **Record Type**: Projekt (aus dem Workfront-Unterabschnitt)
+   * **Record type**: Project (aus dem Workfront-Unterabschnitt)
    * **Name**: Geben Sie dem neuen Feld einen Namen, z. B. &quot;Projektinformationen&quot;.
    * **Beschreibung**: Fügen Sie eine Beschreibung für das neue Feld hinzu. Beispiel: &quot;Dies sind die Projekte, mit denen meine Kampagnen verknüpft werden sollen.&quot; Die Beschreibung wird in der Tabellenansicht angezeigt, wenn Sie den Mauszeiger über den Feldnamen in der Spaltenüberschrift bewegen.
    * 
-      * **Mehrere Datensätze zulassen**: Wenn Sie diese Option deaktiviert lassen, können Benutzer mehrere Projekte auswählen, wenn das Feld &quot;Verknüpfter Projekttyp&quot;(Projektinformationen) in den Originaldatensätzen (Kampagnen) angezeigt wird.
-   * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird die **Suchfelder hinzufügen** wird als Nächstes geöffnet, damit Sie Projektfelder mit dem Campaign-Datensatztyp verknüpfen können. Sie können auf **Überspringen** , um diesen Schritt zu überspringen und die Projektfelder später hinzuzufügen.
+      * **Mehrere Datensätze zulassen**: Wenn diese Option aktiviert bleibt, können Benutzer mehrere Projekte auswählen, wenn das Feld für den verknüpften Projekttyp (Projektinformationen) in den Originaldatensätzen (Kampagnen) angezeigt wird.
+   * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird als Nächstes das Feld **Suchfelder hinzufügen** geöffnet, damit Sie Projektfelder mit dem Kampagnen-Datensatztyp verknüpfen können. Sie können auf **Überspringen** klicken, um diesen Schritt zu überspringen und die Felder des Projekts später hinzuzufügen.
 
    ![](assets/new-connection-tab-with-workfront-option.png)
 
-1. (Bedingt) Wenn Sie die Option **Option &quot;Suchfelder auswählen&quot;** im vorherigen Schritt aus der Liste der Felder, die mit der **Projekt** Objekttyp auswählen, klicken Sie auf die **+** -Symbol für **Geplanter Umsatz** und klicken Sie auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Geplanter Umsatz (aus Projektinformationen)**, der Name des verknüpften Felds. Alle Informationen aus dem Feld Geplanter Umsatz des Projekts werden in diesem Feld automatisch für die Kampagneneinträge angezeigt.
+1. (Bedingt) Wenn Sie im vorherigen Schritt die Option **Suchfelder auswählen** ausgewählt haben, klicken Sie in der Liste der Felder, die mit dem Objekttyp **Projekt** verknüpft sind, auf das Symbol **+** für das Feld **Geplanter Umsatz** und klicken Sie dann auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Geplanter Umsatz (aus Projektinformationen)** erstellt, das dem Namen des verknüpften Felds entspricht. Alle Informationen aus dem Feld Geplanter Umsatz des Projekts werden in diesem Feld automatisch für die Kampagneneinträge angezeigt.
 
    >[!TIP]
    >
-   >    Wenn Sie den geplanten Umsatz aller ausgewählten Projekte als eine Gesamtsumme anzeigen möchten, wählen Sie **SUM** im Dropdown-Menü rechts neben dem Feldnamen. Wenn Benutzer mehrere Projekte in der **Projektinformationen** verknüpftes Objektfeld, das **Geplanter Umsatz (aus Produktinformationen)** fügt alle Werte zusammen und zeigt die Summe an. <!-- check the shot below - added a bug with a couple of UI changes here-->
+   >    Wenn Sie den geplanten Umsatz aller ausgewählten Projekte als eine Gesamtsumme anzeigen möchten, wählen Sie im Dropdown-Menü rechts neben dem Feldnamen **SUM** aus. Wenn Benutzer mehrere Projekte im Feld **Projektinformationen** des verknüpften Objekts auswählen, werden im Feld **Geplanter Umsatz (aus Produktinformationen)** alle zugehörigen Werte hinzugefügt und die Gesamtsumme angezeigt. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Wenn Sie **Keines**, anstelle von **SUM**, werden die einzelnen geplanten Umsätze durch Kommas getrennt angezeigt.
+   > Wenn Sie &quot;**None**&quot;anstelle von &quot;**SUM**&quot;auswählen, werden die einzelnen geplanten Umsätze durch Kommas getrennt angezeigt.
 
    ![](assets/add-planned-revenue-project-field-to-new-connection.png)
 
@@ -158,14 +158,14 @@ Gehen Sie dazu folgendermaßen vor:
 
    * In der Tabellenansicht von Campaign-Datensätzen und auf der Datensatzseite von Campaign:
 
-      * **Projektinformationen** (verknüpftes Objektfeld): Zeigt den Namen der Projekte an.
-      * **Geplanter Umsatz (aus Projektinformationen)** (verknüpftes Feld): Daraufhin werden die geplanten Umsätze der im Feld Projektinformationen ausgewählten Projekte angezeigt.
+      * **Projektinformationen** (das verknüpfte Objektfeld): Zeigt den Namen der Projekte an.
+      * **Geplanter Umsatz (aus Projektinformationen)** (das verknüpfte Feld): Zeigt die geplanten Umsätze der im Feld Projektinformationen ausgewählten Projekte an.
 
    >[!TIP]
    >
-   >    Verknüpfte Objektfelder werden durch das Verknüpfungssymbol ![](assets/relationship-field-icon.png).
+   >    Verknüpfte Objektfelder erhalten das Beziehungssymbol ![](assets/relationship-field-icon.png).
 
-1. Aus dem **Kampagne** Tabellenansicht des Datensatztyps erstellen Sie eine Kampagne, indem Sie der Tabelle eine neue Zeile hinzufügen.
+1. Erstellen Sie in der Tabellenansicht **Kampagnen** eine Kampagne, indem Sie der Tabelle eine neue Zeile hinzufügen.
 
 1. Doppelklicken Sie in die Spalte Projektinformationen** der neuen Kampagne.
 
@@ -175,9 +175,9 @@ Gehen Sie dazu folgendermaßen vor:
 
    * Klicken Sie in der Liste auf den Namen eines Projekts, um es dem ausgewählten Datensatz hinzuzufügen. Das Projekt wird automatisch hinzugefügt.
    * Geben Sie den Namen eines Projekts ein und klicken Sie darauf, wenn es in der Liste angezeigt wird. Das Projekt wird automatisch hinzugefügt.
-   * Klicks **Alle anzeigen** , um alle Projekte anzuzeigen.
+   * Klicken Sie auf **Alle anzeigen** , um alle Projekte anzuzeigen.
 
-1. (Bedingt) Wenn Sie auf **Alle anzeigen** im vorherigen Schritt die Variable **Objekte verbinden** angezeigt.
+1. (Bedingt) Wenn Sie im vorherigen Schritt auf &quot;**See all**&quot;geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
 
    ![](assets/connect-projects-larger-box.png)
 
@@ -185,17 +185,17 @@ Gehen Sie dazu folgendermaßen vor:
 
    Oder
 
-   Wählen Sie die Datensätze des Projekts aus, die Sie mit den Campaign-Datensätzen verbinden möchten, und klicken Sie auf **Objekte verbinden**.
+   Wählen Sie die Projektdatensätze aus, die Sie mit den Campaign-Datensätzen verbinden möchten, und klicken Sie dann auf **Objekte verbinden**.
 
    >[!TIP]
    >
-   >    Sie können die Seite einer Kampagne öffnen, das verknüpfte Projektfeld suchen und auf die Schaltfläche **+** im Feld, um Projekte aus dem verbundenen Produktdatensatz-Typ hinzuzufügen.
+   >    Sie können die Seite einer Kampagne öffnen, das verknüpfte Projektfeld suchen und auf das Symbol **+** im Feld klicken, um Projekte aus dem verbundenen Produktdatensatztyp hinzuzufügen.
 
    Dadurch wird dem ausgewählten Arbeitsbereich Folgendes hinzugefügt:
 
    * In der Datensatztyp-Tabelle von Campaign:
-      * Die **Projektinformationen** wird für den Campaign-Datensatz mit den ausgewählten Projekten gefüllt.
-      * Die **Geplanter Umsatz (aus Produktinformationen)** mit dem Budgetwert für jedes ausgewählte Produkt gefüllt. Dies ist ein schreibgeschütztes Feld.
+      * Das Feld **Projektinformationen** wird für den Campaign-Datensatz mit den ausgewählten Projekten ausgefüllt.
+      * Das Feld **Geplanter Umsatz (aus Produktinformationen)** wird mit dem Budgetwert für jedes ausgewählte Produkt ausgefüllt. Dies ist ein schreibgeschütztes Feld.
 
    ![](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
@@ -208,9 +208,9 @@ Gehen Sie dazu folgendermaßen vor:
    Dadurch wird das Projekt in Workfront geöffnet, wenn Sie mindestens über Anzeigeberechtigungen für das Projekt verfügen.
 1. (Optional) Aktualisieren Sie die Informationen zum Projekt in Workfront, sofern Sie dazu berechtigt sind.
 
-1. (Optional) Bewegen Sie in der Tabellenansicht von Campaign den Mauszeiger über die **Projektinformationen** -Feldüberschrift, klicken Sie auf den nach unten zeigenden Pfeil und klicken Sie dann auf **Suchfelder bearbeiten.**
-1. Klicken Sie auf **+** für alle Projektfelder, die Sie dem Workfront-Planungsdatensatz des Projekts hinzufügen möchten, im **Nicht ausgewählte Felder** Abschnitt.
-1. Klicken Sie auf **-** für alle Projektfelder, die Sie aus dem Workfront-Projekt-Planungsdatensatz entfernen möchten, im **Ausgewählte Felder** Abschnitt.
+1. (Optional) Halten Sie in der Tabellenansicht von Campaign den Mauszeiger über die Feldüberschrift **Projektinformationen**, klicken Sie auf den nach unten zeigenden Pfeil und klicken Sie dann auf **Suchfelder bearbeiten** .
+1. Klicken Sie für alle Projektfelder, die Sie zum Workfront-Planungdatensatz des Projekts hinzufügen möchten, im Abschnitt **Nicht ausgewählte Felder** auf das Symbol **+** .
+1. Klicken Sie für alle Projektfelder, die Sie aus dem Workfront-Projektplanungsdatensatz entfernen möchten, im Abschnitt **Ausgewählte Felder** auf das Symbol **-** .
 1. Klicken Sie auf **Speichern**.
 
    Dem Campaign-Datensatztyp werden zusätzliche verknüpfte Felder hinzugefügt.

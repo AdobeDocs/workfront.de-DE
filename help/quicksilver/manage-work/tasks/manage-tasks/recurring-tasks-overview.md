@@ -11,7 +11,7 @@ role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
 source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '688'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Sie können wiederkehrende Aufgaben für Aktivitäten erstellen, die Sie im Rahm
 
 In diesem Artikel werden Informationen und Überlegungen zum Erstellen und Bearbeiten wiederkehrender Aufgaben beschrieben.
 
-Informationen zum Erstellen wiederkehrender Aufgaben in Adobe Workfront finden Sie unter [Wiederkehrende Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Informationen zum Erstellen wiederkehrender Aufgaben in Adobe Workfront finden Sie unter [Erstellen wiederkehrender Aufgaben](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
 ## Übersicht über wiederkehrende Aufgaben und Überlegungen
 
@@ -43,7 +43,7 @@ Beachten Sie beim Erstellen wiederkehrender Aufgaben in Workfront Folgendes:
 * Sie können wiederkehrende Aufgaben nicht zu einer Vorlage hinzufügen.
 * Sie können einer vorhandenen Aufgabe keine Wiederholungshäufigkeit hinzufügen.
 * Wiederkehrende Aufgaben werden als Unteraufgaben oder untergeordnete Aufgaben für das Hauptvorkommen angezeigt, das als übergeordnete Aufgabe angezeigt wird.
-* Eine Genehmigung kann nicht an eine übergeordnete wiederkehrende Aufgabe angehängt werden.
+* Sie können einer übergeordneten wiederkehrenden Aufgabe keine Genehmigung anhängen.
 * Workfront überträgt die meisten Felder, die Sie beim Erstellen für die übergeordnete Wiederholung aktualisieren, an die untergeordneten Aufgaben. Die folgenden Felder werden bei ihrer Erstellung nicht an die untergeordneten Aufgaben übertragen:
 
    * Die Aufgabenbegrenzung der untergeordneten Aufgaben ändert sich automatisch in:
@@ -56,7 +56,7 @@ Beachten Sie beim Erstellen wiederkehrender Aufgaben in Workfront Folgendes:
 * Die folgenden Änderungen betreffen die übergeordnete Aufgabe, nachdem Sie angegeben haben, dass die Aufgabe wiederkehrend ist:
 
    * Das Feld Dauer wird für die übergeordnete Aufgabe in Dauer pro Auftreten umbenannt. Die Dauer für die untergeordneten Aufgaben bleibt erhalten.
-   * Der Status ist in der übergeordneten Aufgabe deaktiviert und für die untergeordneten Elemente automatisch auf Neu eingestellt. Die übergeordnete Aufgabe wird automatisch abgeschlossen und der Status wird in Abgeschlossen aktualisiert, wenn alle untergeordneten Elemente abgeschlossen sind.
+   * Der Status ist für die übergeordnete Aufgabe deaktiviert und für die untergeordneten Elemente automatisch auf Neu eingestellt. Die übergeordnete Aufgabe wird automatisch abgeschlossen und der Status wird in Abgeschlossen aktualisiert, wenn alle untergeordneten Elemente abgeschlossen sind.
    * Die einzigen für wiederkehrende Aufgaben verfügbaren Arten von Dauer sind:
 
       * Einfach
@@ -65,9 +65,9 @@ Beachten Sie beim Erstellen wiederkehrender Aufgaben in Workfront Folgendes:
 
 ## Überlegungen zum Bearbeiten wiederkehrender Aufgaben
 
-Einige Änderungen, die Sie an einer übergeordneten Aufgabe für wiederkehrende Aufgaben vornehmen, werden möglicherweise nicht bei allen vorhandenen Vorkommen aktualisiert. Untergeordnete Aufgaben, die Fortschritt anzeigen oder einzeln aktualisiert wurden, werden beim Aktualisieren der übergeordneten Aufgabe nicht aktualisiert. Nach Auffassung von Workfront zeigt eine Aufgabe Fortschritte in folgenden Situationen an:
+Einige Änderungen, die Sie an einer übergeordneten Aufgabe für wiederkehrende Aufgaben vornehmen, werden möglicherweise nicht bei allen vorhandenen Vorkommen aktualisiert. Untergeordnete Aufgaben, die Fortschritt anzeigen oder einzeln aktualisiert wurden, werden beim Aktualisieren der übergeordneten Aufgabe nicht aktualisiert. Workfront ist der Ansicht, dass eine Aufgabe Fortschritte in folgenden Situationen zeigt:
 
-* Der Status wird aktualisiert und die Aufgabe ist nicht mehr neu
+* Status wird aktualisiert und Aufgabe ist nicht mehr neu
 * Der Prozentsatz für den Abschluss der Aufgabe ist größer als null
 * Die Aufgabe hat Vorgängerbeziehungen
 
@@ -75,17 +75,17 @@ Die folgende Tabelle zeigt, ob Änderungen am übergeordneten Trigger an den unt
 
 | Bei der übergeordneten Aufgabe aktualisierte Felder | Updates werden an unbearbeitete Kinder oder untergeordnete Elemente übertragen, ohne dass ein Fortschritt aufgezeichnet wurde |
 |---|---|
-| Wiederholungsfrequenz* | ms |
-| Arbeitsaufträge | ✔ |
-| Name | ✔ |
-| Beschreibung | ✔ |
-| Priorität | ✔ |
-| Dauer | ✔ |
-| Geplante Stunden | ✔ |
-| Kostenart | ✔ |
-| Umsatztyp | ✔ |
-| Ressourcenabgleich | ✔ |
-| Abgleichsverzögerung | ✔ |
+| Häufigkeit der Wiederholungen* | ms |
+| Arbeitsaufträge | ms |
+| Name | ms |
+| Beschreibung | ms |
+| Priorität | ms |
+| Dauer | ms |
+| Geplante Stunden | ms |
+| Kostenart | ms |
+| Umsatztyp | ms |
+| Ressourcenabgleich | ms |
+| Abgleichsverzögerung | ms |
 | Aufgabenbeschränkung | Aktualisieren der untergeordneten Elemente nicht |
 | Benutzerdefinierte Forms anhängen oder entfernen | Aktualisieren der untergeordneten Elemente nicht |
 | Dauertyp | Aktualisieren der untergeordneten Elemente nicht |
@@ -93,11 +93,11 @@ Die folgende Tabelle zeigt, ob Änderungen am übergeordneten Trigger an den unt
 
 {style="table-layout:auto"}
 
-&#42; Die folgenden Szenarien bestehen, wenn Sie die Häufigkeit der Wiederholungen einer übergeordneten Aufgabe aktualisieren:
+&#42; Die folgenden Szenarien sind vorhanden, wenn Sie die Wiederholungshäufigkeit einer übergeordneten Aufgabe aktualisieren:
 
 * Wenn Sie die Häufigkeit der Wiederholungen für eine bestehende übergeordnete Aufgabe ändern, werden die vorhandenen Unteraufgaben gelöscht und durch neue Unteraufgaben ersetzt, die auf die neue Wiederholungshäufigkeit folgen, wenn keine Fortschritte angezeigt werden und Sie sie nicht manuell aktualisiert haben.
 * Wenn Sie die Häufigkeit der Wiederholungen für eine bestehende übergeordnete Aufgabe ändern, werden Unteraufgaben, die Fortschritt anzeigen, nicht gelöscht. Diese Aufgaben werden zu diesem Zeitpunkt als von der Wiederholung getrennt betrachtet.
 
-&#42;&#42; Zuweisungen, die an der übergeordneten Aufgabe vorgenommen werden, werden auf alle Unteraufgaben in der Wiederholung angewendet. Alle Änderungen, die an der Zuweisung der übergeordneten Aufgabe vorgenommen werden, überschreiben alle einzelnen Zuweisungen für die Unteraufgabe. Wenn die Aufgabe den Fortschritt anzeigt, ändert sich die Zuweisung nicht.
+&#42;&#42; Zuweisungen, die für die übergeordnete Aufgabe vorgenommen werden, werden auf alle Unteraufgaben in der Wiederholung angewendet. Alle Änderungen, die an der Zuweisung der übergeordneten Aufgabe vorgenommen werden, überschreiben alle einzelnen Zuweisungen für die Unteraufgabe. Wenn die Aufgabe den Fortschritt anzeigt, ändert sich die Zuweisung nicht.
 
  

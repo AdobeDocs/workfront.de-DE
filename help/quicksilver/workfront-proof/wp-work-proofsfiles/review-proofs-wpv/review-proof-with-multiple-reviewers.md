@@ -18,17 +18,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Mehrere Validierungsverantwortliche können einen Testversand gleichzeitig überprüfen. Wenn Sie einen Testversand überprüfen, können Sie sehen, wer noch denselben Testversand überprüft.
 
-Sie können Präsenzindikatoren anzeigen, wenn andere Validierungsverantwortliche denselben Testversand geöffnet haben, unabhängig davon, ob sie dem Testversand Kommentare hinzufügen oder nicht. Wenn Kommentare hinzugefügt werden, erscheinen die Kommentare während der Überprüfung des Testversands; Sie müssen den Testversand-Viewer nicht aktualisieren, um ihn anzuzeigen.
+Sie können Präsenzindikatoren anzeigen, wenn andere Validierungsverantwortliche denselben Testversand geöffnet haben, unabhängig davon, ob sie dem Testversand Kommentare hinzufügen oder nicht. Wenn der Benutzer Kommentare hinzufügt, werden die Kommentare angezeigt, während Sie den Testversand überprüfen. Sie müssen den Testversand-Viewer nicht aktualisieren, um ihn anzuzeigen.
 
 1. Zeigen Sie die Präsenzindikatoren in der oberen rechten Ecke des Testversand-Viewers an.
 
-   Wenn Sie [!DNL Workfront Proof] (nicht die in [!DNL Workfront]), enthalten die Präsenzindikatoren die [!DNL Workfront Proof] Profilbild oder, wenn kein Profilbild vorhanden ist, die erste und letzte Initialisierung, wenn der Benutzer.
+   Wenn Sie [!DNL Workfront Proof] verwenden (nicht die in [!DNL Workfront] integrierte Testversandfunktion), enthalten die Präsenzindikatoren das [!DNL Workfront Proof] -Profilbild des Benutzers oder, falls kein Profilbild vorhanden ist, die erste und letzte Initialisierung, wenn der Benutzer über ein solches Profil verfügt.
 
-   Profilbilder in [!DNL Workfront] nicht im Testversand-Viewer angezeigt.
+   Profilbilder in [!DNL Workfront] werden nicht im Testversand-Viewer angezeigt.
 
 1. (Optional) Bewegen Sie den Mauszeiger über eine Präsenzanzeige, um den Namen des Benutzers anzuzeigen.
 

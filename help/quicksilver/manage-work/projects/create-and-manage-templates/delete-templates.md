@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Löschen von Projektvorlagen
 
-Es wird empfohlen, Vorlagen, die Sie nicht mehr verwenden, zu deaktivieren, anstatt sie zu löschen, damit Sie historische Informationen über Ihre Projekte im Laufe der Zeit speichern können. Informationen zum Deaktivieren einer Vorlage finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Es wird empfohlen, Vorlagen, die Sie nicht mehr verwenden, zu deaktivieren, anstatt sie zu löschen, damit Sie historische Informationen über Ihre Projekte im Laufe der Zeit speichern können. Weitere Informationen zum Deaktivieren einer Vorlage finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für die Vorlage verwalten, die Berechtigungen zum Löschen enthält</p> <p> <img src="assets/template-manage-permissions-with-advanced-settings-350x352.png" style="width: 350;height: 352;"> </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für die Vorlage verwalten, die Berechtigungen zum Löschen enthält</p> <p> <img src="assets/template-manage-permissions-with-advanced-settings-350x352.png" style="width: 350;height: 352;"> </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Überlegungen zum Löschen von Vorlagen
 
 * Die Aufgaben, die zu den Projekten hinzugefügt wurden, als die Vorlage angehängt wurde, verbleiben in den Projekten. Die mit den Aufgaben verknüpften Vorlagenaufgabeninformationen werden jedoch gelöscht.
-* Der Name der Vorlage wird nicht mehr im **Vorlage** im Feld **Übersicht** Unterregisterkarte des Projekts.
+* Der Name der Vorlage wird nicht mehr im Feld **Vorlage** auf der Unterregisterkarte **Überblick** des Projekts angezeigt.
 
 * Sie können eine kürzlich gelöschte Vorlage aus dem Papierkorb wiederherstellen. Informationen zum Wiederherstellen von Elementen aus dem Papierkorb finden Sie unter [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
@@ -63,10 +63,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Dadurch wird eine Liste von Vorlagen geöffnet
 
-1. Wählen Sie die zu löschende Vorlage aus, indem Sie das Kontrollkästchen links neben dem Vorlagennamen aktivieren und dann auf **Löschen > Ja, Löschen** , um den Löschvorgang zu bestätigen.
+1. Wählen Sie die Vorlage aus, die Sie löschen möchten, indem Sie das Kontrollkästchen links neben dem Vorlagennamen aktivieren und dann auf **Löschen > Ja, Löschen** klicken, um den Löschvorgang zu bestätigen.
 
    Oder
 
-   Klicken Sie auf den Namen einer Vorlage, um darauf zuzugreifen, und klicken Sie dann auf das **Mehr** Menü ![](assets/qs-more-icon-on-an-object.png) , dann **Vorlage löschen > Ja, Löschen**.
+   Klicken Sie auf den Namen einer Vorlage, um darauf zuzugreifen, und klicken Sie dann auf das Menü **Mehr** ![](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlage löschen > Ja, löschen**.
 
    Die Vorlage kann nicht mehr mit einem Projekt verknüpft werden.

@@ -39,7 +39,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> </td> 
+   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Administratorzugriff für bestimmte Bereiche</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -48,21 +48,21 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 ## Erstellen einer Vorschau und Fertigstellung eines benutzerdefinierten Formulars
 
-1. Erstellen und konfigurieren Sie ein benutzerdefiniertes Formular, wie in den Artikeln beschrieben. [Benutzerdefiniertes Formular mit dem alten Formular-Builder erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular mit dem Legacy-Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)und andere.
+1. Beginnen Sie mit der Erstellung und Konfiguration eines benutzerdefinierten Formulars, wie in den Artikeln [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular mit dem alten Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) und anderen beschrieben.
 
-1. (Optional) Klicken Sie auf **Vorschau** , um zu sehen, wie das Formular bei Verwendung aussieht, und klicken Sie auf **Endvorschau** , um zum Bearbeiten des Formulars zurückzukehren.
+1. (Optional) Klicken Sie auf **Vorschau** , um zu sehen, wie das Formular bei Verwendung aussehen wird, und klicken Sie dann auf **Vorschau beenden** , um zum Bearbeiten des Formulars zurückzukehren.
 
-1. Klicks **Speichern+Schließen** , um Ihre Änderungen zu speichern.
+1. Klicken Sie auf **Speichern+Schließen** , um Ihre Änderungen zu speichern.
 
    Oder
 
-   Wenn Sie Ihre Änderungen nicht im Formular beibehalten möchten, klicken Sie auf **Abbrechen** Klicken Sie auf **Weiter und schließen**.
+   Wenn Sie Ihre Änderungen nicht im Formular beibehalten möchten, klicken Sie auf **Abbrechen** und dann auf **Weiter und Schließen**.
 
    >[!NOTE]
    >
    >Wenn das Formular bereits an viele Objekte angehängt ist, kann es einige Minuten dauern, bis Ihre Änderungen auf alle Objekte angewendet werden. Dies geschieht im Hintergrund, sodass Sie während des Wartens an anderen Aufgaben in Workfront arbeiten können.
 
-1. (Optional) Fügen Sie das Formular zum Workfront-Objekt hinzu, wo es verwendet werden soll, wie beschrieben in [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Optional) Fügen Sie das Formular zum Workfront-Objekt hinzu, wo Sie es verwenden möchten, wie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) beschrieben.
 
    Normale Benutzer können dies auch tun, wenn sie über Administratorrechte für das Objekt verfügen.
 

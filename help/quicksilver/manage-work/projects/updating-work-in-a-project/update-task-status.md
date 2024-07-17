@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Aktualisieren des Status von Aufgaben
 
@@ -75,8 +75,8 @@ Sie können den Aufgabenstatus in den folgenden Bereichen von Workfront aktualis
 So aktualisieren Sie den Aufgabenstatus in der Aufgabenüberschrift manuell:
 
 1. Gehen Sie zu einer Aufgabe, für die Sie den Status aktualisieren möchten.
-1. Klicken Sie auf **Status** in der Aufgabenüberschrift ein und wählen Sie einen neuen Status aus.
-1. Um einen visuellen Hinweis zum Abschluss von Aufgaben anzuzeigen, ziehen Sie die Blase unter **Prozent abgeschlossen** in der Kopfzeile der Aufgabe
+1. Klicken Sie in der Aufgabenkopfzeile auf das Feld **Status** und wählen Sie einen neuen Status aus.
+1. Um einen visuellen Hinweis zum Abschluss der Aufgabe anzuzeigen, ziehen Sie die Blase unter **Prozent abgeschlossen** in die Kopfzeile der Aufgabe
 
    Oder
 
@@ -86,12 +86,12 @@ So aktualisieren Sie den Aufgabenstatus in der Aufgabenüberschrift manuell:
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um zusätzliche Informationen über die Aktualisierung bereitzustellen:
 
-   * Um einen Hinweis zur Aktualisierung hinzuzufügen, navigieren Sie zum **Updates** und klicken Sie auf **Neuer Kommentar**, und geben Sie eine Notiz ein.
+   * Um einen Hinweis zur Aktualisierung hinzuzufügen, gehen Sie zum Abschnitt **Aktualisierungen** und klicken Sie auf **Neuer Kommentar**. Geben Sie dann einen Hinweis ein.
 
      ![](assets/add-update-to-task.png)
 
-   * Um bestimmte Benutzer über die Aktualisierung zu benachrichtigen, geben Sie deren Namen in das **Personen oder Teams taggen** -Feld, das angezeigt wird, wenn Sie einen Kommentar eingeben. Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Klicken Sie auf , um das Übermittlungsdatum der Aufgabe zu aktualisieren. **Aufgabendetails**, bearbeiten Sie dann die **Datum der Übermittlung** -Feld. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Um bestimmte Benutzer über die Aktualisierung zu benachrichtigen, geben Sie deren Namen in das Feld **Personen oder Teams taggen** ein, das angezeigt wird, wenn Sie einen Kommentar eingeben. Weitere Informationen finden Sie unter [Taggen anderer Benutzer bei Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Klicken Sie zum Aktualisieren des Übermittlungsdatums der Aufgabe auf **Aufgabendetails** und bearbeiten Sie dann das Feld **Übermittlungsdatum** . Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
 
    >[!IMPORTANT]
@@ -142,9 +142,9 @@ Workfront aktualisiert den Status einer Aufgabe automatisch in einen anderen Sta
    <td>In Arbeit</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Klicken Sie auf die Schaltfläche Aufgabe starten , um die Arbeit an einer Aufgabe zu akzeptieren, die Ihnen zugewiesen ist.</span> </td> 
+   <td><span>Klicken Sie auf die Schaltfläche Aufgabe starten , um die Arbeit an einer Aufgabe zu akzeptieren, die Ihnen zugewiesen ist</span> </td> 
    <td><span>Neu</span> </td> 
-   <td> <p>Jeder Status, der mit der Schaltfläche Aufgabe starten in den Einstellungen des Home-Teams verknüpft ist.</p> <p>Weitere Informationen zum Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start Task", finden Sie unter <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch die Schaltfläche Start</a></span>.</p> <p>Tipp: <span>Klicken</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Schaltfläche "Rückgängig"</span>Wenn Sie auf Aufgabe starten klicken, wird der Status auf Neu zurückgesetzt. </p> </td> 
+   <td> <p>Jeder Status, der mit der Schaltfläche Aufgabe starten in den Einstellungen des Home-Teams verknüpft ist.</p> <p>Weitere Informationen zum Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start Task"finden Sie unter <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start"</a></span>.</p> <p>Tipp: <span>Durch Klicken auf die Schaltfläche "Rückgängig"<span data-mc-conditions="QuicksilverOrClassic.Quicksilver">nach dem Klicken auf "Aufgabe starten"wird der Status auf "Neu"zurückgesetzt.</span></span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

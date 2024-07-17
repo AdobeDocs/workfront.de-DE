@@ -23,13 +23,13 @@ Sie können die folgenden Filtertypen in Adobe Workfront anwenden:
 
 * Schnellfilter in einer Objektliste, um ein Element mithilfe eines Suchbegriffs zu finden. Hierbei handelt es sich um temporäre Filter, die Sie nicht für die zukünftige Verwendung speichern können.
 
-  Informationen zu Schnellfiltern finden Sie unter [Schnellfilter auf Listen anwenden](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Informationen zu Schnellfiltern finden Sie unter [Anwenden des Schnellfilters auf eine Liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 * Ständige Filter, die Sie speichern und in mehreren Listen und Berichten mehrmals verwenden können. In diesem Artikel wird beschrieben, wie Sie einen permanenten Filter erstellen oder einen vorhandenen Filter in einer Liste oder einem Bericht bearbeiten.
 
 * Filter in anderen Bereichen von Workfront außerhalb von Listen und Berichten.
 
-  Eine Liste aller Filter in Workfront und der Bereiche, in denen sie angewendet werden können, finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Eine Liste aller Filter in Workfront und der Bereiche, in denen Sie sie anwenden können, finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -77,7 +77,7 @@ Oder
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für Filter verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für Filter verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Sie können Filter anhand der in der folgenden Tabelle beschriebenen Typen von F
 <li> <p>Listen </p> </li>
 </ul>
 <ul>
-<li> <p>Die Liste "Projekte"im Szenario-Planer</p> <p>Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md">Übersicht über den Szenario-Planer</a>. </p> </li>
+<li> <p>Die Liste "Projekte"im Szenario-Planer</p> <p>Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md">Überblick über den Szenario-Planer</a>. </p> </li>
 </ul>
 <p><b>NOTE:</b></p> <p>Standardgenerator für Filter sind in Berichten nicht verfügbar.
 </td>
@@ -132,12 +132,12 @@ Sie können Filter anhand der in der folgenden Tabelle beschriebenen Typen von F
 </tbody>
 </table>
 
-Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront verstehen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zu Workfront-Objekten finden Sie unter [Grundlegendes zu Objekten in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Beachten Sie beim Erstellen von Filtern mit den verschiedenen Schnittstellen Folgendes:
 
 * Sie finden den Standard-Builder an denselben Stellen wie die alte Filterschnittstelle für die in der obigen Tabelle aufgelisteten Bereiche.
-* Der Standard-Builder ist das Standarderlebnis für alle Bereiche, in denen er verfügbar ist. Um zum alten Filter-Builder zu wechseln, klicken Sie auf das **Mehr** Menü neben [!UICONTROL **Filter**] und wählen [!UICONTROL **Zurück zu alten Filtern**].
+* Der Standard-Builder ist das Standarderlebnis für alle Bereiche, in denen er verfügbar ist. Um zum alten Filtergenerator zu wechseln, klicken Sie auf das Menü **Mehr** neben [!UICONTROL **Filter**] und wählen Sie [!UICONTROL **Zurück zu Legacy-Filtern**].
 
   ![Zurück zu alten Filtern](assets/use-legacy-filters.png)
 
@@ -145,7 +145,7 @@ Beachten Sie beim Erstellen von Filtern mit den verschiedenen Schnittstellen Fol
 
   >[!TIP]
   >
-  >Der Standard-Builder enthält keinen Filter &quot;Alle&quot;, da alle Listenelemente angezeigt werden, wenn keine Filter angewendet werden. Klicks [!UICONTROL **Alle löschen**] oben rechts im Builder, um alle aktiven Filter zu löschen und alle Elemente anzuzeigen. Wenn [!UICONTROL **Alle löschen**] abgeblendet ist, werden keine Filter angewendet.
+  >Der Standard-Builder enthält keinen Filter &quot;Alle&quot;, da alle Listenelemente angezeigt werden, wenn keine Filter angewendet werden. Klicken Sie oben rechts im Builder auf [!UICONTROL **Alle löschen**] , um alle aktiven Filter zu löschen und alle Elemente anzuzeigen. Wenn [!UICONTROL **Alle löschen**] abgeblendet ist, werden keine Filter angewendet.
 
 * Die Standard- und Legacy-Builder haben beim Erstellen von Filtern mit mehreren Aussagen, die die UND- und ODER-Operatoren kombinieren, eine etwas andere Syntax. Daher können diese Filter beim Wechsel von einem Builder zu einem anderen unterschiedlich angezeigt werden.
 
@@ -157,7 +157,7 @@ Beachten Sie beim Erstellen von Filtern mit den verschiedenen Schnittstellen Fol
   >
   >      `(A OR B) AND C`
   >
-  >1. Wechseln Sie zum Legacy-Builder und bearbeiten Sie den Filter mithilfe der Syntax des Legacy-Builders, wie im Abschnitt beschrieben [Erstellen oder Bearbeiten von Filtern im Legacy-Builder](#create-filter-in-legacy-builder) in diesem Artikel. Die Syntax für den Legacy-Builder zeigt die Filteranweisungen wie folgt an:
+  >1. Wechseln Sie zum Legacy-Builder und bearbeiten Sie den Filter mithilfe der Syntax des Legacy-Builders, wie im Abschnitt [Erstellen oder Bearbeiten eines Filters im Legacy-Builder](#create-filter-in-legacy-builder) in diesem Artikel beschrieben. Die Syntax für den Legacy-Builder zeigt die Filteranweisungen wie folgt an:
   >
   >      `A AND C`
   >      `OR`
@@ -186,7 +186,7 @@ Sie können Filter auf folgende Weise mithilfe der Standard-Builder-Oberfläche 
 Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
 
 1. Rufen Sie eine Liste auf, in der Sie einen Filter erstellen möchten oder der den anzupassenden Filter enthält.
-1. Klicken Sie auf **Filter** icon ![Filtersymbol](assets/filter-nwepng.png) , um die Builder-Oberfläche zu öffnen.
+1. Klicken Sie auf das Symbol **Filter** ![Filtersymbol](assets/filter-nwepng.png), um die Builder-Oberfläche zu öffnen.
 
    ![Standardfilter-Builder](assets/new-filters-all-filter-types.png)
 
@@ -217,12 +217,12 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicks **Neuer Filter** , um einen neuen Filter zu erstellen.
-   * Bewegen Sie den Mauszeiger über einen vorhandenen Filter, den Sie verwalten können, und klicken Sie auf die Schaltfläche **Bearbeiten** icon ![Symbol Bearbeiten](assets/edit-icon.png) , um sie zu bearbeiten.
+   * Klicken Sie auf **Neuer Filter** , um einen neuen Filter zu erstellen.
+   * Bewegen Sie den Mauszeiger über einen vorhandenen Filter, den Sie verwalten dürfen, und klicken Sie auf das Symbol **Bearbeiten** ![Bearbeiten-Symbol](assets/edit-icon.png) , um ihn zu bearbeiten.
 
      Oder
 
-     Bewegen Sie den Mauszeiger über einen vorhandenen Filter, den Sie anzeigen können, und klicken Sie auf die Schaltfläche **Mehr** Menü ![Mehr Menü](assets/more-icon-spectrum.png)und klicken Sie auf **Duplizieren** , um den vorhandenen Filter zu kopieren und eine Kopie zu bearbeiten.
+     Bewegen Sie den Mauszeiger über einen vorhandenen Filter, den Sie anzeigen können, klicken Sie auf das Menü **Mehr** ![Mehr Menü](assets/more-icon-spectrum.png) und klicken Sie auf **Duplizieren** , um den vorhandenen Filter zu kopieren und eine Kopie zu bearbeiten.
 
    ![Weitere Menüoptionen](assets/new-filters-more-menu-options-with-delete.png)
 
@@ -243,38 +243,38 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
    </tbody>
    </table>
 
-   ![Include if all or any or true Dropdownmenü](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
+   ![Einschließen, wenn das gesamte Dropdown-Menü oder ein beliebiges Dropdown-Menü oder true](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
    Weitere Informationen zu Filteroperatoren finden Sie unter [Filterübersicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klicken Sie auf das Feld-Dropdown-Menü, um eine Liste der zuletzt verwendeten Felder und der vorgeschlagenen Felder anzuzeigen, nach denen gefiltert werden soll. Die vorgeschlagenen Felder werden derzeit in der Liste angezeigt, die Sie filtern.
 
-   Sie können auch **Felder durchsuchen** um eine Liste aller Felder anzuzeigen, nach denen Sie filtern können. Die Felder der erweiterten Suche werden nach Objektkategorie gruppiert.
+   Sie können auch **Felder durchsuchen** auswählen, um eine Liste aller Felder anzuzeigen, nach denen Sie filtern können. Die Felder der erweiterten Suche werden nach Objektkategorie gruppiert.
 
-   ![Suchen Sie nach einem Feld, nach dem gefiltert werden soll](assets/new-filter-search-for-field.png)
+   ![Suchen Sie ein Feld, nach dem Sie filtern möchten.](assets/new-filter-search-for-field.png)
 
 1. Klicken Sie auf das Dropdown-Menü &quot;Modifikator&quot;, um einen Modifikator auszuwählen. Der Standard-Modifikator ist &quot;Gleich&quot;.
 
-   Weitere Informationen finden Sie unter [Filter- und Bedingungs-Modifikatoren](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Weitere Informationen finden Sie unter [Filter und Bedingungsmodifikatoren](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!TIP]
    >
    >Beim Erstellen des Filters werden die Ergebnisse sofort in der Liste angezeigt. Wenn der Filterbereich die Liste abdeckt, können Sie sie schließen, um die Anzeige zu sehen. Die eingegebenen Informationen bleiben beim erneuten Öffnen des Bedienfelds im Builder.
 
-1. Geben Sie den Wert eines Felds ein, nach dem Sie filtern möchten. Geben Sie beispielsweise den Namen eines Problems ein, wenn Sie nach `Issue:Name`. Wählen Sie den Wert aus, wenn er in der Liste angezeigt wird.
+1. Geben Sie den Wert eines Felds ein, nach dem Sie filtern möchten. Geben Sie beispielsweise den Namen eines Problems ein, wenn Sie nach `Issue:Name` filtern möchten. Wählen Sie den Wert aus, wenn er in der Liste angezeigt wird.
 
    >[!TIP]
    >
    >Je nach ausgewähltem Modifikator können Sie mehrere Werte auswählen.
 
-1. Klicks **Filter hinzufügen** um ein anderes Feld auszuwählen, fügen Sie der Filteranweisung ein Filterkriterium hinzu.
-1. (Optional) Klicken Sie auf die **Löschen** icon ![Löschsymbol](assets/delete.png) um vorhandene Filteranweisungen zu entfernen.
+1. Klicken Sie auf **Filter hinzufügen** , um ein anderes Feld auszuwählen und der Filteranweisung ein Filterkriterium hinzuzufügen.
+1. (Optional) Klicken Sie auf das Symbol **Löschen** ![Löschsymbol](assets/delete.png) , um vorhandene Filteranweisungen zu entfernen.
 
    Oder
 
-   Klicks **Alle löschen** , um alle Filterkriterien zu löschen.
+   Klicken Sie auf **Alle löschen** , um alle Filterkriterien zu löschen.
 
-1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen** , um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sets ist **UND**. Klicken Sie auf den Operator , um ihn in **ODER**.
+1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen** , um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sets ist **AND**. Klicken Sie auf den Operator, um ihn in **ODER** zu ändern.
 
    >[!TIP]
    >
@@ -288,7 +288,7 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
    >In diesem Fall ist jede Filteranweisung durch ein UND verbunden und die Filtergruppen sind durch ein ODER verbunden.
 
-1. (Optional) Klicken Sie auf **Textmodus** , um den Filter im Textmodus weiter zu erstellen.
+1. (Optional) Klicken Sie auf **Textmodus** , um mit der Erstellung des Filters im Textmodus fortzufahren.
 
    ![Textmodus auswählen](assets/new-filter-select-text-mode.png)
 
@@ -300,9 +300,9 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
    >
    >Es wird empfohlen, möglichst viele Filter mit der Standard-Builder-Oberfläche zu erstellen und nur den Textmodus zu verwenden, wenn Sie die Filter ändern müssen, die nur im Textmodus unterstützt werden.
 
-   Weitere Informationen zum Erstellen eines Filters mithilfe der Textmodus-Benutzeroberfläche finden Sie unter [Filter im Textmodus bearbeiten](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Weitere Informationen zum Erstellen eines Filters mit der Textmodus-Oberfläche finden Sie unter [Bearbeiten eines Filters mit dem Textmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klicks **Textmodus beenden** , um zur standardmäßigen Builder-Oberfläche zurückzukehren.
+1. Klicken Sie auf **Textmodus beenden** , um zur standardmäßigen Builder-Oberfläche zurückzukehren.
 
    >[!WARNING]
    >
@@ -312,34 +312,34 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
 
    Wenn der Filter keine Ergebnisse liefert, ist die Liste leer.
 
-1. Klicks **Als neu speichern** , um den Filter für die zukünftige Verwendung zu speichern.
+1. Klicken Sie auf **Als neu speichern** , um den Filter für die zukünftige Verwendung zu speichern.
 
    ![Benennen und speichern Sie den Filter](assets/save-as-untitled-filter-ui-nwe.png)
 
-1. Auswählen **Unbenannter Filter** und geben Sie stattdessen den Namen des neuen Filters ein.
+1. Wählen Sie **Unbenannter Filter** aus und geben Sie stattdessen den Namen des neuen Filters ein.
 
    >[!TIP]
    >
    >Benennen Sie den Filter unbedingt, damit Sie ihn später finden können. Wenn Sie den Filter nicht benennen, wird er im System als &quot;Unbenannter Filter&quot;bezeichnet.
 
-1. Wählen Sie aus dem **Symbol** Dropdown-Menü.
+1. Wählen Sie aus dem Dropdownmenü **Symbol** ein Symbol für den neuen Filter aus.
 
-   ![Symbol für Filter auswählen](assets/new-filter-select-icon.png)
+   ![Wählen Sie ein Symbol für den Filter](assets/new-filter-select-icon.png)
 
 1. (Optional) Fügen Sie eine Beschreibung für den Filter hinzu, um anzugeben, was eindeutig ist. Die Beschreibung wird unter dem Filternamen in der Filterliste angezeigt.
 
    >[!TIP]
    >
-   >Klicken **Abbrechen** Sie gelangen jederzeit zurück zum Filterbaubereich.
+   >Wenn Sie jederzeit auf **Abbrechen** klicken, gelangen Sie zurück zum Filterbaubereich.
 
-1. Klicks **Speichern**. Der Filter wird in der Liste &quot;Gespeichert&quot;gespeichert und auf die Liste der Elemente angewendet.
-1. (Optional) Um einen Filter in die Liste &quot;Favoriten&quot;zu verschieben, bewegen Sie den Mauszeiger über einen beliebigen Filter in der Filterleiste und klicken Sie auf **Favorit** icon ![Favoritensymbol](assets/favorites-icon-small.png).
+1. Klicken Sie auf **Speichern**. Der Filter wird in der Liste &quot;Gespeichert&quot;gespeichert und auf die Liste der Elemente angewendet.
+1. (Optional) Um einen Filter in die Liste &quot;Favoriten&quot;zu verschieben, bewegen Sie den Mauszeiger über einen beliebigen Filter in der Filterleiste und klicken Sie auf das Symbol **Favorit** ![Favoritensymbol](assets/favorites-icon-small.png).
 
    Oder
 
-   Bewegen Sie den Mauszeiger über einen Filter in der Filterleiste und klicken Sie auf das Menü Mehr . ![Mehr Menü](assets/more-icon-spectrum.png)und klicken Sie auf **Favorit**.
+   Bewegen Sie den Mauszeiger über einen Filter in der Filterleiste, klicken Sie auf das Menü &quot;Mehr&quot;![Mehr Menü](assets/more-icon-spectrum.png) und klicken Sie auf **Favorit**.
 
-1. (Optional) Klicken Sie auf die **Filter stapeln** Schaltfläche zum Aktivieren von gestapelten Filtern. Mit dieser Option können Sie mehr als einen gespeicherten Filter anwenden. Die Filterregeln werden in der Reihenfolge angewendet, in der Sie sie auswählen.
+1. (Optional) Klicken Sie auf die Schaltfläche **Filter stapeln** , um gestapelte Filter zu aktivieren. Mit dieser Option können Sie mehr als einen gespeicherten Filter anwenden. Die Filterregeln werden in der Reihenfolge angewendet, in der Sie sie auswählen.
 
    >[!TIP]
    >
@@ -351,7 +351,7 @@ Erstellen Sie einen Filter mit der Standard-Builder-Oberfläche:
 
    Die Anzahl der ausgewählten Filter wird neben dem Filtersymbol oben in der Elementliste angezeigt.
 
-   ![Anzahl ausgewählter Filter](assets/number-of-filters-selected.png)
+   ![Anzahl der ausgewählten Filter](assets/number-of-filters-selected.png)
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
@@ -369,37 +369,37 @@ Sie können veraltete Filter in Listen und Berichten wie folgt erstellen:
 Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist das Erstellen eines Filters von Grund auf oder aus einem vorhandenen Filter ähnlich.
 
 1. Markieren Sie eine Liste oder einen Bericht mit dem anzupassenden Filter.
-1. Klicken Sie auf **Filter** icon ![Filtersymbol](assets/filter-nwepng.png).
+1. Klicken Sie auf das Symbol **Filter** ![Filtersymbol](assets/filter-nwepng.png).
 
    >[!TIP]
    >
    >Der Ersteller des Berichts muss die Bearbeitung von Filtern zulassen, damit die Dropdownliste Filter in einem Bericht angezeigt werden kann. Der Filter Berichtsstandard wird standardmäßig auf einen Bericht angewendet. Der Filter Berichtsstandard kann nur angepasst werden, wenn Sie den Bericht bearbeiten.
 
-   ![Filter-Dropdown](assets/filter-drop-down-expanded-nwe.png)
+   ![Filter-Dropdown-Liste](assets/filter-drop-down-expanded-nwe.png)
 
-1. Klicks **Neuer Filter** oben in der Filterliste.
+1. Klicken Sie oben in der Filterliste auf **Neuer Filter** .
 
    Oder
 
-   Bewegen Sie den Mauszeiger über den zu ändernden Filter und klicken Sie auf die Schaltfläche **Bearbeiten** icon ![](assets/edit-icon.png).
+   Bewegen Sie den Mauszeiger über den Filter, den Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
 
    Der Builder zum Anpassen der Filterstarts.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Ändern Sie vorhandene Filterregeln, indem Sie auf die vorhandene Regel klicken und eine neue Option auswählen.
-   * Hinzufügen einer Filterregel durch Klicken auf **Hinzufügen einer weiteren Filterregel** eingeben, beginnen Sie mit der Eingabe des Namens der Option, für die Sie eine Regel im **Eingabe des Feldnamens beginnen** und klicken Sie dann auf ihn, wenn er in der Dropdown-Liste angezeigt wird.
+   * Fügen Sie eine Filterregel hinzu, indem Sie auf &quot;**Andere Filterregel hinzufügen**&quot;klicken, mit der Eingabe des Namens der Option beginnen, für die Sie eine Regel hinzufügen möchten, und klicken Sie dann im Feld &quot;**Feldname eingeben&quot;** auf die Filterregel und dann auf sie, wenn sie in der Dropdownliste angezeigt wird.
 
-     Die mit dem Objekt Ihres Filters verknüpften Felder werden im Abschnitt **Eingabe des Feldnamens beginnen** ankreuzen.
+     Felder, die mit dem Objekt Ihres Filters verknüpft sind, werden im Feld **Feldname eingeben** aufgeführt.
 
-   * Klicks **UND** oder **ODER** beim Hinzufügen einer Filterregel.\
-     Verwenden Sie beim Hinzufügen von Filterregeln die Filter-Modifikatoren, um die Bedingung Ihres Filters festzulegen. Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter- und Bedingungs-Modifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   * Klicken Sie beim Hinzufügen einer Filterregel auf **AND** oder **OR** .\
+     Verwenden Sie beim Hinzufügen von Filterregeln die Filter-Modifikatoren, um die Bedingung Ihres Filters festzulegen. Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
      >
      >Wenn Sie eine Gruppe von UND-Anweisungen durch mehrere OR-Anweisungen verbinden, müssen Sie die Felder wiederholen, die sich zwischen den OR-Anweisungen für jede Gruppe von Anweisungen nicht ändern.
      >
-     >![Connected filter-Anweisungen](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![Anweisungen für Connected filter](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
      >
      >Wenn Sie einen Filter für Aufgaben erstellen, die das Wort &quot;Marketing&quot;enthalten und sich in Projekten mit dem Status Aktuell oder Planung befinden, müssen Sie über die folgenden Filterregeln verfügen:
      >
@@ -415,21 +415,21 @@ Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist da
 
    * Löschen Sie eine vorhandene Filterregel durch Klicken auf das X-Symbol.
 
-1. (Optional) Klicken Sie auf **In den Textmodus wechseln** , um über die Benutzeroberfläche des Textmodus einen Filter hinzuzufügen.
+1. (Optional) Klicken Sie auf **Wechseln in den Textmodus** , um einen Filter über die Benutzeroberfläche &quot;Textmodus&quot;hinzuzufügen.
 
-   Weitere Informationen zum Erstellen eines Filters mithilfe der Textmodus-Benutzeroberfläche finden Sie unter [Filter im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Weitere Informationen zum Erstellen eines Filters mit der Textmodus-Oberfläche finden Sie unter [Bearbeiten eines Filters mit dem Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klicks **Filter speichern** , um einen Filter zu erstellen oder den ausgewählten Filter durch Ihre Änderungen zu ersetzen.
+1. Klicken Sie auf **Filter speichern** , um einen Filter zu erstellen oder den ausgewählten Filter durch Ihre Änderungen zu ersetzen.
 
    Oder
 
-   Klicks **Als neuen Filter speichern** , um einen Filter aus dem ausgewählten Filter zu erstellen.
+   Klicken Sie auf **Als neuen Filter speichern** , um einen Filter aus dem ausgewählten Filter zu erstellen.
 
    Der neue Filter wird in der Filterliste angezeigt und automatisch auf die ausgewählte Liste oder den ausgewählten Bericht angewendet.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
-   * Geben Sie von Ihnen erstellte Filter für andere Benutzer frei oder stellen Sie sie systemweit zur Verfügung. Weitere Informationen finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Geben Sie von Ihnen erstellte Filter für andere Benutzer frei oder stellen Sie sie systemweit zur Verfügung. Weitere Informationen finden Sie unter [Freigeben eines Filters, einer Ansicht oder einer Gruppierung](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
    * Entfernen Sie Filter, die nicht mehr in der Liste angezeigt werden sollen. Weitere Informationen finden Sie unter [Filter, Ansichten und Gruppierungen entfernen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 

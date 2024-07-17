@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 45839f8a-31b2-43a3-a9ea-5437df8cc6b4
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 4%
+source-wordcount: '317'
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -44,11 +44,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Hinzufügen von Bühnen und Benutzern zu einem automatisierten Workflow
 
-1. Bewegen Sie in der Dokumentliste den Mauszeiger über das Dokument und klicken Sie auf **Testversand-Workflow** angezeigt.
+1. Bewegen Sie in der Dokumentliste den Mauszeiger über das Dokument und klicken Sie dann bei der Anzeige auf **Workflow für die Überprüfung** .
 1. Klicken Sie in der rechten oberen Ecke von Adobe Workfront auf **Neue Phase**.
 1. Geben Sie Folgendes an:
 
@@ -58,10 +58,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Name</strong> </td> 
-      <td>Fügen Sie Ihrer Bühne einen Namen hinzu.</td> 
+      <td>Fügen Sie einen Namen für Ihre Bühne hinzu.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Frist</strong> </td> 
+      <td role="rowheader"><strong>Deadline</strong> </td> 
       <td>Wählen Sie ein Datum für den Termin aus.</td> 
      </tr> 
      <tr> 
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td>Wählen Sie aus, wann die Bühne aktiviert werden soll.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fristoptionen</strong> </td> 
+      <td role="rowheader"><strong>Deadline options</strong> </td> 
       <td>Geben Sie an, wie der Termin Trigger werden soll.</td> 
      </tr> 
      <tr> 
@@ -95,6 +95,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tbody> 
    </table>
 
-1. Klicken **Phase hinzufügen**.
+1. Klicken Sie auf **Phase hinzufügen**.
 1. (Optional) Wiederholen Sie die Schritte 3 und 4, bis Sie mit Ihrem Workflow zufrieden sind.
-1. Klicken **Fertig**.
+1. Klicken Sie auf **Fertig**.

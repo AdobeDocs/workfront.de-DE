@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 20.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab dem 9. November 2020 verfügbar sein.
 
-Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [20.4 - Versionsübersicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Den bestehenden Testversand-Workflow bei der Generierung einer neuen Version übernehmen
 
@@ -29,7 +29,7 @@ Jetzt wird der bestehende Testversand-Workflow auf alle neuen Versionen übertra
 
 Zuvor gab es einen geringfügigen Unterschied in der Art und Weise, wie der Testversand-Workflow übertragen wurde, je nachdem, wo Sie ihn in Workfront generiert haben.
 
-Weitere Informationen finden Sie unter [Erstellen einer neuen Testversion](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+Weitere Informationen finden Sie unter [Erstellen einer neuen Version eines Testversands](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
 
 ## Dokumentgenehmigungsschaltflächen im Proofing-Viewer
 

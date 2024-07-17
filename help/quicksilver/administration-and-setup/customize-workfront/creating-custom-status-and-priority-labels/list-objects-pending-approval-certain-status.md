@@ -21,31 +21,31 @@ Wenn Sie versuchen, einen Status zu löschen, wird Ihnen möglicherweise eine Fe
 
 ## Im Standardmodus
 
-1. Navigieren Sie zu **Berichterstellung** Bereich in der globalen Navigationsleiste und wählen Sie dann die **Berichte** Registerkarte.
-1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Berichte**.
-1. Klicken **Neuer Bericht**, wählen Sie **Projektbericht**, **Aufgabenbericht** oder **Problembericht**.
-1. Öffnen Sie die **Filter** Registerkarte.
-1. Klicken **Filterregel hinzufügen**, führen Sie dann die folgenden Schritte aus, um die Regel einzurichten:
-   1. Typisierung beginnen `status`, wählen Sie **Status** angezeigt.
-   1. Urlaub **Gleich** im zweiten Feld.
+1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zum Bereich **Berichterstellung** und wählen Sie dann die Registerkarte **Berichte** aus.
+1. Klicken Sie oben rechts auf das Hauptmenü-Symbol ![](assets/main-menu-icon.png) und dann auf **Berichte**.
+1. Klicken Sie auf &quot;**Neuer Bericht**&quot;und wählen Sie dann &quot;**Projektbericht**&quot;, &quot;**Aufgabenbericht**&quot;oder &quot;**Problembericht**&quot;.
+1. Öffnen Sie die Registerkarte **Filter** .
+1. Klicken Sie auf **Filterregel hinzufügen** und führen Sie dann die folgenden Schritte aus, um die Regel einzurichten:
+   1. Beginnen Sie mit der Eingabe von `status` und wählen Sie dann **Status** aus, wenn es angezeigt wird.
+   1. Belassen Sie **Equal** im zweiten Feld.
    1. Wählen Sie im dritten Feld den Namen des Status aus.
-1. Klicken **Filterregel hinzufügen** wiederholen Sie dann die folgenden Schritte, um die Regel einzurichten
-   1. Typisierung beginnen `pending status`und wählen Sie dann dieses Element aus, wenn es unter dem Objekttyp angezeigt wird, in dem Sie suchen (**Projekt**, **Aufgabe** oder **Problem**).
-   1. Urlaub **Gleich** im zweiten Feld.
-   1. Typ `in` im dritten Feld.
-1. Klicken **Filterregel hinzufügen** wiederholen Sie dann die folgenden Schritte, um die Regel einzurichten
-   1. Starten Sie den Typgenehmigungsprozess und wählen Sie dann **Gruppen-ID** wann sie unter angezeigt wird **Validierungsprozess**.
-   1. Auswählen **Ist leer** im zweiten Feld.
-1. Klicken **Speichern und schließen** , um den Bericht auszuführen und alle Objekte des Typs aufzulisten, den Sie mit Genehmigungsprozessen in ausstehendem Status basierend auf dem von Ihnen angegebenen Status (**Projekt**, **Aufgabe** oder **Problem**).
+1. Klicken Sie erneut auf **Filterregel hinzufügen** und führen Sie dann die folgenden Schritte aus, um die Regel einzurichten
+   1. Beginnen Sie mit der Eingabe von `pending status` und wählen Sie dann dieses Element aus, wenn es unter dem Objekttyp angezeigt wird, in dem Sie suchen (**Projekt**, **Aufgabe** oder **Problem**).
+   1. Belassen Sie **Equal** im zweiten Feld.
+   1. Geben Sie `in` in das dritte Feld ein.
+1. Klicken Sie erneut auf **Filterregel hinzufügen** und führen Sie dann die folgenden Schritte aus, um die Regel einzurichten
+   1. Starten Sie den Typisierungsprozess und wählen Sie dann **Gruppen-ID** aus, wenn er unter **Genehmigungsprozess** angezeigt wird.
+   1. Wählen Sie im zweiten Feld **Ist leer** aus.
+1. Klicken Sie auf **Speichern + Schließen** , um den Bericht auszuführen und alle Objekte des Typs aufzulisten, die Sie mit Genehmigungsprozessen im ausstehenden Status basierend auf dem von Ihnen angegebenen Status (**Projekt**, **Aufgabe** oder **Problem**) angegeben haben.
 1. Wiederholen Sie diese Schritte, um dieselben Informationen für die beiden anderen Objektarten zu finden.
 
 
 ## Im Textmodus
 
-1. Klicken Sie auf das Symbol Hauptmenü . ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Berichte**.
-1. Klicken **Neuer Bericht**, wählen Sie **Projektbericht**, **Aufgabenbericht** oder **Problembericht**.
-1. Öffnen Sie die **Filter** Registerkarte.
-1. Auswählen **In den Textmodus wechseln**.
+1. Klicken Sie oben rechts auf das Hauptmenü-Symbol ![](assets/main-menu-icon.png) und dann auf **Berichte**.
+1. Klicken Sie auf &quot;**Neuer Bericht**&quot;und wählen Sie dann &quot;**Projektbericht**&quot;, &quot;**Aufgabenbericht**&quot;oder &quot;**Problembericht**&quot;.
+1. Öffnen Sie die Registerkarte **Filter** .
+1. Wählen Sie **In den Textmodus wechseln** aus.
 1. Kopieren Sie Folgendes und fügen Sie es in das Bearbeitungsfenster ein. Ersetzen Sie dabei XXX durch die 3-Buchstaben-Taste für den Status:
 
    `status=XXX`
@@ -59,5 +59,5 @@ Wenn Sie versuchen, einen Status zu löschen, wird Ihnen möglicherweise eine Fe
    * [Zugriff auf die Liste der Systemaufgabenstatus](task-statuses.md)
    * [Zugriff auf die Liste der Systemfehlerstatus](issue-statuses.md)
 
-1. Klicken **Speichern und schließen** , um den Bericht auszuführen und alle Objekte des Typs aufzulisten, den Sie mit Genehmigungsprozessen in ausstehendem Status basierend auf dem von Ihnen angegebenen Status (**Projekt**, **Aufgabe** oder **Problem**).
+1. Klicken Sie auf **Speichern + Schließen** , um den Bericht auszuführen und alle Objekte des Typs aufzulisten, die Sie mit Genehmigungsprozessen im ausstehenden Status basierend auf dem von Ihnen angegebenen Status (**Projekt**, **Aufgabe** oder **Problem**) angegeben haben.
 1. Wiederholen Sie diese Schritte, um dieselben Informationen für die beiden anderen Objektarten zu finden.

@@ -19,7 +19,7 @@ Der Prozess der Genehmigung von Timesheets bietet Managern einen Einblick in die
 
 Adobe Workfront bietet die Möglichkeit, die Validierungen von Zeitblättern zu konfigurieren, um sie in diesem Bereich zu unterstützen.
 
-Informationen zum Übermitteln eines Zeitplans finden Sie unter [Zeitblatt zur Genehmigung einreichen](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+Informationen zum Übermitteln eines Zeitblatts finden Sie unter [Zeitblatt zur Genehmigung einreichen](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
 ## Zugriffsanforderungen
 
@@ -50,23 +50,23 @@ In der Regel werden Timesheets von funktionalen Managern oder Personal genehmigt
 
 Bei der Erstellung des Datenblatt-Profils wird ein Timesheet-Genehmiger definiert. Sie müssen über eine Planungslizenz verfügen, um als Genehmiger benannt zu werden.
 
-Weitere Informationen zur Benennung von Zeitblatt-Genehmigern finden Sie im Abschnitt . [Erstellen oder Bearbeiten eines Zeitleistenprofils](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) im Artikel [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Weitere Informationen zum Benennen von Timesheet-Genehmigern finden Sie im Abschnitt &quot;[Erstellen oder Bearbeiten eines Timesheet-Profils](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create)&quot;im Artikel &quot;[Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)&quot;.
 
 ## Timesheet genehmigen
 
-Sie können alle Timesheets genehmigen, die übermittelt wurden und in denen Sie als Genehmiger benannt wurden. Wenn ein Timesheet zur Genehmigung vorgelegt wird, wird das Timesheet im **Genehmigungen** -Bereich auf **Startseite**  Seite. Weitere Informationen finden Sie unter [Validierung der Arbeit](../../review-and-approve-work/manage-approvals/approving-work.md).
+Sie können alle Timesheets genehmigen, die übermittelt wurden und in denen Sie als Genehmiger benannt wurden. Wenn ein Timesheet zur Genehmigung eingereicht wird, wird das Timesheet im Bereich **Genehmigungen** auf Ihrer **Startseite** aufgelistet  Seite. Weitere Informationen finden Sie unter [Arbeiten genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Wenn der Workfront-Administrator die Genehmigung für das Datenblatt für den Benutzer und die Zurückweisung des Datenblatts an Benutzer-Ereignishandler aktiviert hat, werden Sie benachrichtigt, nachdem das Datenblatt genehmigt oder abgelehnt wurde. Informationen zum Aktivieren von Ereignisbenachrichtigungen finden Sie unter [Typen von Ereignisbenachrichtigungen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Wenn der Workfront-Administrator die Genehmigung für das Datenblatt für den Benutzer und die Zurückweisung des Datenblatts an Benutzer-Ereignishandler aktiviert hat, werden Sie benachrichtigt, nachdem das Datenblatt genehmigt oder abgelehnt wurde. Weitere Informationen zum Aktivieren von Ereignisbenachrichtigungen finden Sie unter [Ereignislaufbenachrichtigungstypen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 So validieren Sie ein Zeitblatt:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
-1. Klicks **Timesheets**.
-1. Wählen Sie die **Meine Datenblatt-Genehmigungen** oben rechts auf der Seite, um nur die von Ihnen genehmigten Timesheets anzuzeigen
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+1. Klicken Sie auf **Timesheets**.
+1. Wählen Sie oben rechts auf der Seite die Option &quot;**My Timesheet Approvals**&quot;, um nur die von Ihnen genehmigten Timesheets anzuzeigen.
 
    Oder
 
-   Wählen Sie die **Meine Datenblatt-Genehmigungen** Filter oben in der Liste des Zeitplans.
+   Wählen Sie den Filter **Meine Timesheet-Genehmigungen** oben in der Timesheet-Liste aus.
 
    ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -80,20 +80,20 @@ So validieren Sie ein Zeitblatt:
    >   
    >
 
-1. (Optional) Klicken Sie auf die **suchen** icon ![](assets/search-icon.png) am Anfang der Timesheet-Liste und geben Sie einen Suchbegriff ein, um nach einem bestimmten Timesheet zu suchen. Sie können nach einem Zeitrahmen, nach dem Namen eines Eigentümers oder Genehmigers suchen.
+1. (Optional) Klicken Sie oben in der Timesheet-Liste auf das Symbol **Suchen** ![](assets/search-icon.png) und geben Sie einen Suchbegriff ein, um nach einem bestimmten Timesheet zu suchen. Sie können nach einem Zeitrahmen, nach dem Namen eines Eigentümers oder Genehmigers suchen.
 1. Klicken Sie auf den Zeitrahmen des zu validierenden Zeitplans. Das Timesheet wird geöffnet.
 
    >[!TIP]
    >
-   >Timesheets, die auf die Genehmigung warten, haben den Status [!UICONTROL Gesendet].
+   >Timesheets, die auf die Genehmigung warten, haben den Status &quot;[!UICONTROL Gesendet]&quot;.
 
 
-1. Klicks **Genehmigen**
+1. Klicken Sie auf **Genehmigen** .
 
    Oder
 
-   Wenn Sie das Timesheet ablehnen möchten, klicken Sie auf **Ablehnen** in der linken unteren Ecke des Zeitblatts.
+   Wenn Sie das Timesheet ablehnen möchten, klicken Sie in der linken unteren Ecke des Zeitblatts auf **Ablehnen** .
 
-   Wenn die Genehmigung erteilt wurde, ändert sich der Status des Zeitblatts in **Geschlossen**.
+   Falls genehmigt, ändert sich der Status des Zeitblatts in **Geschlossen**.
 
    Wenn die Änderung abgelehnt wird, ändert sich der Status des Zeitblatts in **Abgelehnt**.

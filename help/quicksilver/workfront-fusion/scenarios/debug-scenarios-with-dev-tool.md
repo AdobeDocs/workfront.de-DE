@@ -14,9 +14,9 @@ ht-degree: 1%
 
 ---
 
-# Debugging-Szenarien mit dem [!DNL Adobe Workfront Fusion] Entwicklungstool
+# Debugging-Szenarien mit dem [!DNL Adobe Workfront Fusion] Entwickler-Tool
 
-Die [!DNL Adobe Workfront Fusion] Mit Devtool können Sie Szenarien verstehen und Fehler beheben. Das Entwickler-Tool fügt ein zusätzliches Bedienfeld zum [!DNL Chrome Developer Tools]. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes ausgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
+Mit dem Entwickler-Tool [!DNL Adobe Workfront Fusion] können Sie Szenarien verstehen und Fehler beheben. Das Entwickler-Tool fügt dem [!DNL Chrome Developer Tools] ein zusätzliches Bedienfeld hinzu. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes ausgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
 
 >[!NOTE]
 >
@@ -24,8 +24,8 @@ Die [!DNL Adobe Workfront Fusion] Mit Devtool können Sie Szenarien verstehen un
 
 Eine Videoeinführung und exemplarische Anleitung zum Fusion-Entwickler finden Sie unter
 
-* [Fusionsentwicklungstool](https://video.tv.adobe.com/v/3427031/){target=_blank}.
-* [Schrittweise Anleitung für Entwickler](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}.
+* [Entwickler-exemplarische Vorgehensweise](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
 ## Zugriffsanforderungen
 
@@ -46,38 +46,38 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
   <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Zugriff auf das Workfront Fusion-Entwicklungstool
 
-Der Zugriff auf das Entwickler-Tool hängt davon ab, ob Sie Fusion im [!DNL Adobe Unified Experience].
+Der Zugriff auf das Entwickler-Tool hängt davon ab, ob Sie Fusion im [!DNL Adobe Unified Experience] verwenden.
 
-* [Greifen Sie auf das Entwickler-Tool im [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
-* [Zugriff auf das Entwickler-Tool in der klassischen [!DNL Fusion] Erlebnis](#access-the-devtool-in-the-classic-fusion-experience)
+* [Zugriff auf das Entwickler-Tool im Ordner [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [Zugriff auf das Entwickler-Tool im klassischen [!DNL Fusion] Erlebnis](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Greifen Sie auf das Entwickler-Tool im [!DNL Adobe Unified Experience] oder das neue Fusionserlebnis
+### Zugriff auf das Entwickler-Tool im [!DNL Adobe Unified Experience] oder dem neuen Fusionserlebnis
 
 Wenn Sie Fusion in der Adobe Unified Shell verwenden oder auf das neue Fusion-Erlebnis aktualisiert haben, können Sie über den Szenario-Editor auf das Dev-Tool zugreifen.
 
-1. Klicken Sie auf **Hilfswerkzeuge** ![Hilfswerkzeuge](assets/debugger-icon.png) -Symbol unten auf dem Bildschirm angezeigt.
+1. Klicken Sie unten auf dem Bildschirm auf das Symbol **Helper tools** ![Helper tools](assets/debugger-icon.png) .
 
 Oder:
 
@@ -86,32 +86,32 @@ Oder:
    Informationen zum Suchen des Szenario-Editors finden Sie unter [Szenario-Editor](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
 
 1. Klicken Sie mit der rechten Maustaste in einen leeren Bereich der Seite (nicht auf ein Modul).
-1. Auswählen **Entwickler-Tool öffnen**.
+1. Wählen Sie **Entwickler öffnen** aus.
 
-### Zugriff auf das Entwickler-Tool in der klassischen [!DNL Fusion] Erlebnis
+### Zugriff auf das Entwickler-Tool im klassischen Erlebnis [!DNL Fusion]
 
-So verwenden Sie das Entwickler-Tool im klassischen [!DNL Fusion] Erlebnis, müssen Sie eine [!DNL Chrome] -Erweiterung. Sie können diese Erweiterung dann über die [!DNL Chrome] Entwicklertools.
+Um das Entwickler-Tool im klassischen [!DNL Fusion] -Erlebnis zu verwenden, müssen Sie eine [!DNL Chrome] -Erweiterung installieren. Sie können diese Erweiterung dann über die [!DNL Chrome] Entwicklertools verwenden.
 
-* [Installieren Sie die [!DNL Chrome] Entwicklererweiterung](#install-the-chrome-devtool-extension)
-* [Suchen Sie die [!DNL Workfront Fusion] Entwicklungstool](#locate-the-workfront-fusion-devtool)
+* [Installieren Sie die Erweiterung [!DNL Chrome] Devtool installieren .](#install-the-chrome-devtool-extension)
+* [Suchen Sie das  [!DNL Workfront Fusion] Entwickler-Tool](#locate-the-workfront-fusion-devtool)
 
-#### Installieren Sie die [!DNL Chrome] Entwicklererweiterung
+#### Installieren der Erweiterung [!DNL Chrome] Devtool
 
-Sie können die [!DNL Workfront Fusion] Entwickeln in [!DNL Chrome] durch die [!UICONTROL [!DNL Chrome] Webstore].
+Sie können das [!DNL Workfront Fusion] Entwickler-Tool über den [!UICONTROL [!DNL Chrome] Webspeicher] zu [!DNL Chrome] hinzufügen.
 
-1. Klicks [dieser Link](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) , um zu [!DNL Workfront Fusion] Entwickler im [!UICONTROL [!DNL Chrome] Webstore].
-1. Klicks **[!UICONTROL Hinzufügen zu[!DNL Chrome]]**.
-1. Überprüfen Sie im sich öffnenden Fenster die Berechtigungen. Wenn Sie den Berechtigungen zustimmen, klicken Sie auf **[!UICONTROL Erweiterung hinzufügen]**.
+1. Klicken Sie auf [diesen Link](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) , um zum [!DNL Workfront Fusion] Entwickler-Tool im [!UICONTROL [!DNL Chrome] Webspeicher] zu wechseln.
+1. Klicken Sie auf **[!UICONTROL Zu[!DNL Chrome]]** hinzufügen.
+1. Überprüfen Sie im sich öffnenden Fenster die Berechtigungen. Wenn Sie mit den Berechtigungen einverstanden sind, klicken Sie auf **[!UICONTROL Erweiterung hinzufügen]**.
 
-Die [!DNL Workfront Fusion] Die Entwicklererweiterung wird zu Ihrem [!DNL Chrome] Erweiterungen.
+Die [!DNL Workfront Fusion] Devtool-Erweiterung wird Ihren [!DNL Chrome] -Erweiterungen hinzugefügt.
 
 
-#### Suchen Sie die [!DNL Workfront Fusion] Entwicklungstool
+#### Suchen Sie das [!DNL Workfront Fusion]-Entwickler-Tool
 
-So verwenden Sie die [!DNL Workfront Fusion] Entwickler: Sie müssen die [!DNL Workfront Fusion] Entwickeln der Tool-Erweiterung für Ihre [!DNL Chrome] Browser, wie beschrieben in [Installieren der Chrome Developer Tool-Erweiterung](#install-the-chrome-Devtool-extension).
+Um das [!DNL Workfront Fusion]-Entwickler-Tool zu verwenden, müssen Sie die [!DNL Workfront Fusion] Entwickler-Tool-Erweiterung zu Ihrem [!DNL Chrome] -Browser hinzufügen, wie unter [Installieren der Chrome Devtool-Erweiterung](#install-the-chrome-Devtool-extension) beschrieben.
 
-1. Öffnen Sie Ihre [!DNL Workfront Fusion] Szenario.
-1. Öffnen [!DNL Chrome Developer Tools]:
+1. Öffnen Sie Ihr [!DNL Workfront Fusion]-Szenario.
+1. Öffnen Sie [!DNL Chrome Developer Tools]:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -130,15 +130,15 @@ So verwenden Sie die [!DNL Workfront Fusion] Entwickler: Sie müssen die [!DNL W
 
    >[!TIP]
    >
-   >Es wird empfohlen, die [!DNL Chrome Developer Console] nach unten, um eine bessere Ansicht Ihrer Module zu erhalten.
+   >Es wird empfohlen, die [!DNL Chrome Developer Console] unten anzudocken, um eine bessere Ansicht Ihrer Module zu erhalten.
 
-1. Klicken Sie auf **[!DNL Workfront Fusion]** Registerkarte in [!DNL Chrome Dev Tools].
+1. Klicken Sie auf die Registerkarte **[!DNL Workfront Fusion]** in [!DNL Chrome Dev Tools].
 
-## Verwenden Sie die [!DNL Workfront Fusion] Entwicklungstool
+## Verwenden des [!DNL Workfront Fusion]-Entwicklungstools
 
 Workfront Fusion Devtool ist in drei Hauptbereiche unterteilt. Sie finden diese im linken Bereich Ihres Entwickler-Tools-Fensters.
 
-* [Live Stream](#live-stream)
+* [Live-Stream](#live-stream)
 * [Szenario-Debugger](#scenario-debugger)
 * [Instrumente](#tools)
 
@@ -146,7 +146,7 @@ Workfront Fusion Devtool ist in drei Hauptbereiche unterteilt. Sie finden diese 
 
 Live Stream zeigt an, was im Hintergrund passiert, wenn Sie in Ihrem Szenario auf &quot;Einmal ausführen&quot;klicken.
 
-1. Klicken Sie auf **[!UICONTROL Live Stream]** icon ![](assets/live-stream-icon.png) , um den Abschnitt &quot;Live-Stream&quot;zu öffnen.
+1. Klicken Sie auf das Symbol **[!UICONTROL Live-Stream]** ![](assets/live-stream-icon.png), um den Abschnitt &quot;Live-Stream&quot;zu öffnen.
 1. Führen Sie einen der folgenden Schritte aus:
 
    <table style="table-layout:auto"> 
@@ -167,15 +167,15 @@ Live Stream zeigt an, was im Hintergrund passiert, wenn Sie in Ihrem Szenario au
         <li> <p>Anfrageinhalt</p> </li> 
         <li> <p>Antwortheader</p> </li> 
         <li> <p>Response Body</p> </li> 
-       </ul> <p>Um diese Informationen anzuzeigen, klicken Sie auf die entsprechende Registerkarte im rechten Bereich des [!DNL Workfront Fusion] Entwickler.</p> </td> 
+       </ul> <p>Um diese Informationen anzuzeigen, klicken Sie auf die entsprechende Registerkarte im rechten Bereich des [!DNL Workfront Fusion] Entwickler-Tools.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Suchanfragen und Antworten</p> </td> 
-      <td> <p>Geben Sie den Suchbegriff in das Suchfeld im linken Bereich des [!DNL Workfront Fusion] Entwickler-Tool, um nur Anforderungen anzuzeigen, die den Suchbegriff enthalten.</p> </td> 
+      <td> <p>Geben Sie den Suchbegriff in das Suchfeld im linken Bereich des [!DNL Workfront Fusion] Entwickler-Tools ein, um nur Anforderungen anzuzeigen, die den Suchbegriff enthalten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Liste von Anforderungen entfernen </p> </td> 
-      <td> <p>Klicken Sie auf das Papierkorbsymbol in der oberen rechten Ecke des linken Bedienfelds des Entwickler-Tools, um die Liste der von der [!DNL Workfront Fusion] Entwickler. </p> </td> 
+      <td> <p>Klicken Sie auf das Papierkorbsymbol in der oberen rechten Ecke des linken Bedienfelds des Entwickler-Tools, um die Liste der vom Entwickler-Tool aufgezeichneten Anforderungen zu löschen.[!DNL Workfront Fusion] </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Aktivieren der Konsolenprotokollierung</p> </td> 
@@ -185,8 +185,8 @@ Live Stream zeigt an, was im Hintergrund passiert, wenn Sie in Ihrem Szenario au
       <td role="rowheader"> <p>Rufen Sie die Anforderung im JSON-Rohformat oder in der cURL ab</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>Rohe JSON</strong> </p> <p>Klicks <strong>[!UICONTROL RAW kopieren]</strong> in der oberen rechten Ecke des rechten Bereichs des Entwickler-Tools.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Klicks <strong>[!UICONTROL cURL kopieren]</strong> in der oberen rechten Ecke des rechten Bereichs des Entwickler-Tools.</p> </li> 
+        <li> <p><strong>Roh JSON</strong> </p> <p>Klicken Sie oben rechts im rechten Bereich des Entwickler-Tools auf <strong>[!UICONTROL RAW kopieren]</strong>.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Klicken Sie oben rechts im rechten Bereich des Entwickler-Tools auf <strong>[!UICONTROL cURL kopieren]</strong>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -196,37 +196,37 @@ Live Stream zeigt an, was im Hintergrund passiert, wenn Sie in Ihrem Szenario au
 
 Der Szenario-Debugger ist für komplexere Szenarien nützlich. Er zeigt den Verlauf der ausgeführten Szenarien an und ermöglicht es Ihnen, Module nach ihrem Namen oder ihrer ID zu suchen.
 
-1. Klicken Sie auf **[!UICONTROL Szenario-Debugger]** icon ![](assets/scenario-debugger-icon.png) , um den Szenario-Debugger zu öffnen.
-1. (Optional) Geben Sie den Suchbegriff (Name oder Modul-ID) in das Suchfeld im linken Bereich von ein. [!DNL Workfront Fusion] Entwickler im [!UICONTROL Szenario-Debugger] Abschnitt.
+1. Klicken Sie auf das Symbol **[!UICONTROL Szenario-Debugger]** ![](assets/scenario-debugger-icon.png), um den Szenario-Debugger zu öffnen.
+1. (Optional) Geben Sie den Suchbegriff (Name oder Modul-ID) im Suchfeld im linken Bereich von [!DNL Workfront Fusion] Devtool im Abschnitt [!UICONTROL Szenario-Debugger] ein.
 1. Doppelklicken Sie auf den Namen des Moduls, um seine Einstellungen im Szenario-Editor zu öffnen.
 1. Zeigen Sie die Anfragedetails an, indem Sie auf den gewünschten Vorgang klicken.
 
 ### Instrumente
 
-Die [!DNL Workfront Fusion] Das Entwickler-Tool verfügt über Tools, die die Einrichtung Ihres Szenarios erleichtern.
+Das [!DNL Workfront Fusion]-Entwickler-Tool verfügt über Tools, die die Einrichtung Ihres Szenarios erleichtern.
 
-1. Klicken Sie auf **[!UICONTROL Instrumente]** icon ![](assets/console-tools-icon.png) , um die Tools zu öffnen.
+1. Klicken Sie auf das Symbol **[!UICONTROL Tools]** ![](assets/console-tools-icon.png), um die Tools zu öffnen.
 1. Wählen Sie das gewünschte Tool aus
 1. Konfigurieren Sie die Felder wie unten beschrieben.
-1. Klicks **[!UICONTROL Ausführen]**.
+1. Klicken Sie auf **[!UICONTROL Ausführen]**.
 
 Tools und ihre Felder:
 
-* [Fokussieren eines Moduls](#focus-a-module)
-* [Module nach Zuordnung suchen](#find-modules-by-mapping)
+* [Fokus auf ein Modul](#focus-a-module)
+* [Module durch Zuordnung suchen](#find-modules-by-mapping)
 * [App-Metadaten abrufen](#get-app-metadata)
 * [Zuordnung kopieren](#copy-mapping)
 * [Filter kopieren](#copy-filter)
-* [Verbindung austauschen](#swap-connection)
+* [Verbindung tauschen](#swap-connection)
 * [Variable tauschen](#swap-variable)
 * [App tauschen](#swap-app)
-* [Basis 64](#base-64)
-* [Modulname kopieren](#copy-module-name)
+* [Base 64](#base-64)
+* [Modulnamen kopieren](#copy-module-name)
 * [Remap Source](#remap-source)
-* [App markieren](#highlight-app)
+* [Anwendung markieren](#highlight-app)
 * [Migrieren von GS](#migrate-gs)
 
-#### [!UICONTROL Fokussieren eines Moduls]
+#### [!UICONTROL Fokus auf ein Modul]
 
 Öffnet die Einstellungen des angegebenen Moduls nach ID.
 
@@ -237,7 +237,7 @@ Tools und ihre Felder:
     </tr>
 </table>
 
-#### [!UICONTROL Module nach Zuordnung suchen]
+#### [!UICONTROL Module durch Zuordnung suchen]
 
 Ermöglicht die Suche nach Modulwerten für einen bestimmten Begriff. Die Ausgabe enthält IDs von Modulen, die den gesuchten Begriff enthalten.
 
@@ -262,7 +262,7 @@ Ruft Metadaten der App anhand des Modulnamens oder der ID der App ab. Dies ist b
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Quellmodul]</td>
+        <td>[!UICONTROL Source Module]</td>
         <td>Wählen Sie das Modul aus, für das Sie Metadaten abrufen möchten.</td>
     </tr>
 </table>
@@ -280,7 +280,7 @@ Kopiert Werte aus dem Quellmodul in das Zielmodul.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quellmodul]</td> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
    <td> <p> Wählen Sie das Modul aus oder geben Sie die ID des Moduls ein, aus dem Sie Feldwerte kopieren möchten.</p> </td> 
   </tr> 
   <tr> 
@@ -303,7 +303,7 @@ Kopiert die Filtereinstellungen aus dem Quellmodul in das Zielmodul.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quellmodul]</td> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
    <td> <p> Wählen Sie das Modul aus oder geben Sie die ID des Moduls ein, aus dem Sie Filterwerte kopieren möchten.</p> </td> 
   </tr> 
   <tr> 
@@ -317,13 +317,13 @@ Kopiert die Filtereinstellungen aus dem Quellmodul in das Zielmodul.
  </tbody> 
 </table>
 
-#### [!UICONTROL Verbindung austauschen]
+#### [!UICONTROL Verbindung tauschen]
 
 Dupliziert eine Verbindung vom Quellmodul zu jedem Modul im Szenario derselben App.
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Quellmodul]</td>
+        <td>[!UICONTROL Source Module]</td>
         <td>Wählen Sie das Modul aus oder geben Sie die Kennung des Moduls ein, aus dem Sie die Verbindung duplizieren möchten.</td>
     </tr>
 </table>
@@ -372,7 +372,7 @@ Dies kann beispielsweise verwendet werden, um die Module von Gmail- und E-Mail-A
  </tbody> 
 </table>
 
-#### [!UICONTROL Basis 64]
+#### [!UICONTROL Base 64]
 
 Dient der Codierung der eingegebenen Daten in Base64 oder der Dekodierung von Base64. Einige Anforderungen sind in Base64 kodiert. Dieses Tool kann nützlich sein, wenn Sie in der kodierten Anforderung nach bestimmten Daten suchen möchten.
 
@@ -391,7 +391,7 @@ Dient der Codierung der eingegebenen Daten in Base64 oder der Dekodierung von Ba
  </tbody> 
 </table>
 
-#### [!UICONTROL Modulname kopieren]
+#### [!UICONTROL Modulnamen kopieren]
 
 Kopiert den Namen des ausgewählten Moduls in die Zwischenablage.
 
@@ -417,7 +417,7 @@ Sie müssen zunächst das Modul, das Sie als Quellmodul verwenden möchten, zur 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Quellmodul] </td> 
+   <td role="rowheader">[!UICONTROL Source Module] </td> 
    <td> <p> Wählen Sie das Modul aus, das Sie als Zuordnungsquelle für andere Module in Ihrem Szenario ersetzen möchten.</p> </td> 
   </tr> 
   <tr> 
@@ -431,7 +431,7 @@ Sie müssen zunächst das Modul, das Sie als Quellmodul verwenden möchten, zur 
  </tbody> 
 </table>
 
-#### [!UICONTROL App markieren]
+#### [!UICONTROL Anwendung markieren]
 
 Hebt Module der angegebenen App in Ihrem Szenario hervor.
 
@@ -456,6 +456,6 @@ Hebt Module der angegebenen App in Ihrem Szenario hervor.
 
 #### [!UICONTROL Migrieren von GS]
 
-Dieses Tool wurde speziell für die Aktualisierung entwickelt [!DNL Google Sheets] (alte) Module auf die neueste [!DNL Google Sheets] -Version. Eine neue Version des Moduls wird direkt nach der älteren Version des Moduls in der Szenarioroute hinzugefügt.
+Dieses Tool wurde speziell zum Aktualisieren der [!DNL Google Sheets] -Module (veraltet) auf die neueste [!DNL Google Sheets] -Version entwickelt. Eine neue Version des Moduls wird direkt nach der älteren Version des Moduls in der Szenarioroute hinzugefügt.
 
 Für dieses Modul müssen Sie keine Parameter festlegen.

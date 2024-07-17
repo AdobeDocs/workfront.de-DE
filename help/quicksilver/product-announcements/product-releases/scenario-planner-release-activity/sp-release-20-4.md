@@ -21,7 +21,7 @@ Der Workfront-Szenario-Planer ist nur mit dem neuen Adobe Workfront-Erlebnis ver
 
 Die folgenden Funktionen wurden für Version 20.4 hinzugefügt:
 
-## Veröffentlichen Sie Szenarien, um Projekte über den Workfront-Szenario-Planer zu aktualisieren und zu erstellen
+## Publish-Szenarien zum Aktualisieren und Erstellen von Projekten über den Workfront-Szenario-Planer
 
 Mit einer neuen Funktion im Workfront-Szenario-Planer können Sie jetzt ein Szenario veröffentlichen und dessen Initiativen regulären Projekten zuordnen. Dadurch werden Projekte aus bereits bestehenden Initiativen erstellt oder Projekte aktualisiert, die bereits mit in den Plan importierten Initiativen verknüpft sind. Informieren Sie sich über die Projekte, sparen Sie Zeit bei der Dateneingabe und stellen Sie die Genauigkeit sicher.
 
@@ -44,5 +44,5 @@ Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie ein zuvor in einen
 
 Um andere Benutzer zur Zusammenarbeit beim Arbeiten im Workfront-Szenario-Planer einzuladen, können Sie jetzt von Ihnen erstellte Pläne für andere Benutzer freigeben. Wenn Sie vor dieser Verbesserung auf einen Plan zugreifen konnten, den Sie nicht mit einem Link erstellt haben, muss der Plan jetzt für Sie freigegeben werden, bevor Sie darauf zugreifen können.
 
-Informationen zur Freigabe eines Plans im Szenario-Planer finden Sie unter [Plan im Szenario-Planer freigeben](../../../scenario-planner/share-a-plan.md).
+Informationen zum Freigeben eines Plans im Szenario-Planer finden Sie unter [Freigeben eines Plans im Szenario-Planer](../../../scenario-planner/share-a-plan.md).
 

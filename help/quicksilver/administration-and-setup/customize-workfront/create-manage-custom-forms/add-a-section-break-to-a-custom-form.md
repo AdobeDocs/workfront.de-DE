@@ -25,9 +25,9 @@ Wenn Sie beispielsweise sensible Informationen verfolgen müssen, die nur System
 
 Die Zugriffseinstellungen, die Sie für einen Abschnitt auswählen, sind direkt an die Berechtigungen gebunden, die Benutzer für das Workfront-Objekt haben, an das das benutzerdefinierte Formular angehängt ist. Sie können einen Abschnitt ein- oder ausblenden, je nachdem, ob der Benutzer Zugriff auf das Objekt hat, zu dem er beitragen oder es verwalten kann. Sie können auch einen Abschnitt auf &quot;Nur Administrator&quot;festlegen, damit nur Benutzer mit Systemadministrator-Zugriffsstufe darauf zugreifen können.
 
-Weitere Informationen zu Berechtigungen für Objekte finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Weitere Informationen zu Berechtigungen für Objekte finden Sie unter [Überblick über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 <!--
 >[!TIP]
@@ -62,20 +62,20 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Erstellen und Konfigurieren des Zugriffs für einen Abschnitt in einem benutzerdefinierten Formular
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Fügen Sie benutzerdefinierte Felder und Widgets zum Formular hinzu, wie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie in [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) beschrieben.
+1. Fügen Sie benutzerdefinierte Felder und Widgets zum Formular hinzu, wie in [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) beschrieben.
 
-1. Während Sie das benutzerdefinierte Formular noch erstellen oder bearbeiten, finden Sie im **Feld hinzufügen** Registerkarte, klicken **Abschnittsumbruch**.
+1. Klicken Sie beim Erstellen oder Bearbeiten des benutzerdefinierten Formulars auf der Registerkarte **Feld hinzufügen** auf **Abschnittsumbruch**.
 
    ![](assets/click-section-break.jpg)
 
-1. Im **Feldeinstellungen** die gewünschten Optionen für den Abschnitt konfigurieren:
+1. Konfigurieren Sie auf der Registerkarte **Feldeinstellungen** die gewünschten Optionen für den Abschnitt:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,7 +93,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader"><p>Logik hinzufügen</p></td> 
-      <td><p>Verwenden Sie eine Anzeigelogik, um anzugeben, ob der Abschnitt basierend auf der Auswahl im Formular angezeigt werden soll, die Benutzer beim Ausfüllen des Formulars in benutzerdefinierten Feldern mit Mehrfachauswahl treffen.</p><p><strong>NOTE:</strong> Wenn auf alle einzelnen Felder unter einem Abschnittsumbruch eine Anzeigereihenfolge angewendet wird und sie alle aufgrund der Logik ausgeblendet sind, wird der gesamte Abschnitt im benutzerdefinierten Formular ausgeblendet. Dies geschieht auch dann, wenn die Anzeigelogik nicht auf den Abschnittsumbruch angewendet wird.</p><p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Anzeigenlogik hinzufügen und Logik zu einem benutzerdefinierten Formular überspringen</a>.</p></td> 
+      <td><p>Verwenden Sie eine Anzeigelogik, um anzugeben, ob der Abschnitt basierend auf der Auswahl im Formular angezeigt werden soll, die Benutzer beim Ausfüllen des Formulars in benutzerdefinierten Feldern mit Mehrfachauswahl treffen.</p><p><strong>HINWEIS:</strong> Wenn auf alle einzelnen Felder unter einem Abschnittsumbruch eine Anzeigereihenfolge angewendet wird und sie alle infolge der Logik ausgeblendet sind, wird der gesamte Abschnitt im benutzerdefinierten Formular ausgeblendet. Dies geschieht auch dann, wenn die Anzeigelogik nicht auf den Abschnittsumbruch angewendet wird.</p><p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Hinzufügen der Anzeigelogik und Überspringen der Logik in ein benutzerdefiniertes Formular</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Zugriff erteilen</p> </td> 
@@ -104,24 +104,24 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
           <li><p><b>Eingeschränkte Bearbeitung</b>: (Nur verfügbar, wenn das Objekt ein Projekt, eine Aufgabe, ein Problem oder ein Benutzer ist):</p> 
           <p>Ermöglicht Benutzern, zum Objekt beizutragen, wenn es sich um ein Projekt, eine Aufgabe oder ein Problem handelt.</p>
           <p>Ermöglicht Benutzern, das Profil zu bearbeiten oder Eigentümer der Profilberechtigung für das Objekt zu sein, wenn es ein Benutzer ist.</p></li> 
-          <li><b>Bearbeiten</b>: Verwalten von Berechtigungen für das Objekt </li> 
-          <li><b>Nur Administrator</b>: Zugriffsstufe für Systemadministrator</li> 
+          <li><b>Bearbeiten</b>: Berechtigungen für das Objekt verwalten </li> 
+          <li><b>Nur Administrator</b>: Zugriffsstufe des Systemadministrators</li> 
          </ul> </li> 
         <p>Die folgenden Berechtigungen sind unter <b>Benutzer mit diesem Zugriff auf das Objekt können Feldwerte bearbeiten</b>: </p> 
          <ul> 
           <li> <p><b>Eingeschränkte Bearbeitung</b>: (Nur verfügbar, wenn das Objekt ein Projekt, eine Aufgabe, ein Problem oder ein Benutzer ist):</p> 
            <p>Wenn das Objekt ein Projekt, eine Aufgabe oder ein Problem ist, ermöglicht diese Berechtigung Benutzern, zum Objekt beizutragen</p>
           <p>Wenn das Objekt ein Benutzer ist, können Benutzer mit dieser Berechtigung das Profil bearbeiten oder Inhaber der Profilberechtigung für das Objekt sein.</p> 
-          <li><b>Bearbeiten</b>: Verwalten von Berechtigungen für das Objekt </li> 
-          <li><b>Nur Administrator</b>: Zugriffsstufe für Systemadministrator</li> 
+          <li><b>Bearbeiten</b>: Berechtigungen für das Objekt verwalten </li> 
+          <li><b>Nur Administrator</b>: Zugriffsstufe des Systemadministrators</li> 
          </ul> </li> 
        </ul> 
-       <p>Weitere Informationen zu Berechtigungen für Objekte finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Übersicht über die Freigabe von Berechtigungen für Objekte</a>.</p> 
+       <p>Weitere Informationen zu Berechtigungen für Objekte finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Überblick über die Freigabe von Berechtigungen für Objekte</a>.</p> 
        <p><b>NOTE</b>:  
        <ul> 
        <li> <p>Benutzer ohne die hier angegebenen Berechtigungen können die benutzerdefinierten Felder und Widgets im Abschnitt nicht sehen. </p> <p>Dies gilt auch, wenn Sie die Feldwerte in Berichten anzeigen oder in berechneten Feldern in der Textmodusberichterstellung verwenden.</p> </li>
        <li><p>Für benutzerdefinierte Formulare mit Anforderung/Problem: Wenn Sie Zugriff auf die Felder in der Abschnittsumfrage anzeigen möchten, aber zum Bearbeiten der Felder Administratorzugriff erforderlich ist, sind der Abschnitt und alle zugehörigen Felder für Benutzer ohne Administratorrechte nicht sichtbar, wenn sie das Formular ausfüllen. Nachdem die Anforderung erstellt wurde, können Benutzer mit Zugriff auf die Ansicht die Felder im Abschnitt anzeigen.</p></li>
-       <li> <p>Wenn Sie mehrere Objekttypen mit Ihrem Formular verknüpfen, können sich die in diesen Schritten verfügbaren Anzeige- und Bearbeitungsberechtigungen ändern. Weitere Informationen finden Sie unter <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Wie sich mehrere Objekttypen auf die Berechtigung zum Umbruch von Abschnitten in einem benutzerdefinierten Formular auswirken können</a> in diesem Artikel.</p> </li> 
+       <li> <p>Wenn Sie mehrere Objekttypen mit Ihrem Formular verknüpfen, können sich die in diesen Schritten verfügbaren Anzeige- und Bearbeitungsberechtigungen ändern. Weitere Informationen finden Sie in diesem Artikel unter <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Wie mehrere Objekttypen die Berechtigungen für Abschnittsumbrüche in einem benutzerdefinierten Formular beeinflussen können</a>.</p> </li> 
         </ul> </p> </td> 
      </tr> 
     </tbody> 
@@ -131,19 +131,19 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Dies ist vor dem Speichern des Abschnitts erforderlich.
 
-1. Klicks **Fertig**.
+1. Klicken Sie auf **Fertig**.
 
    >[!TIP]
    >
-   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular zu öffnen.
+   >Sie können jederzeit während der Erstellung eines benutzerdefinierten Formulars auf **Anwenden** klicken, um Ihre Änderungen zu speichern und das Formular offen zu halten.
 
 1. Wenn Sie Ihr benutzerdefiniertes Formular auf andere Weise weiter erstellen möchten, führen Sie einen der folgenden Artikel aus:
 
-   * [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
+   * [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
    * [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Positionieren von benutzerdefinierten Feldern und Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Anzeigenlogik hinzufügen und Logik zu einem benutzerdefinierten Formular überspringen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Positionieren Sie benutzerdefinierte Felder und Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Anzeigerlogik hinzufügen und Logik in ein benutzerdefiniertes Formular überspringen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Benutzerdefiniertes Formular in der Vorschau anzeigen und ausfüllen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 <!--
@@ -224,7 +224,7 @@ Wenn Sie in einem benutzerdefinierten Formular mit einer Abschnittspause, die mi
 
 >[!INFO]
 >
->**Beispiel:** In einem benutzerdefinierten Formular, das mit dem Projektobjekttyp verknüpft ist, wird ein Abschnittsumbruch mit der Berechtigung Eingeschränkte Bearbeitung konfiguriert.
+>**Beispiel:** In einem benutzerdefinierten Formular, das dem Projektobjekttyp zugeordnet ist, wird ein Abschnittsumbruch mit der Berechtigung &quot;Eingeschränkte Bearbeitung&quot;konfiguriert.
 >
 >Sie fügen den Objekttyp Portfolio zum Formular hinzu. Das bedeutet, dass die Option Eingeschränkte Bearbeitungsberechtigung für den Abschnittsumbruch im Formular nicht mehr verfügbar ist.
 >

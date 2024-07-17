@@ -19,14 +19,14 @@ ht-degree: 7%
 
 <!-- Audited: 1/2024 -->
 
-Ereignisbenachrichtigungen sind E-Mails, die von verschiedenen Ereignistypen auf Objekten wie Projekten, Aufgaben und Problemen ausgelöst werden, wie hier beschrieben: [Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/event-notifications.md).
+Ereignisbenachrichtigungen sind E-Mails, die von verschiedenen Ereignistypen für Objekte wie Projekte, Aufgaben und Probleme ausgelöst werden, wie in [Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/event-notifications.md) beschrieben.
 
 Diese Benachrichtigungen können auf System- und Gruppenebene konfiguriert werden:
 
 * Informationen zum Konfigurieren von Ereignisbenachrichtigungen auf Systemebene finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 * Informationen zum Konfigurieren von Ereignisbenachrichtigungen auf Gruppenebene finden Sie unter [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-Einzelne Benutzer können auch ihre individuellen Ereignisbenachrichtigungen in ihrem jeweiligen Profil aktivieren und deaktivieren. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Einzelne Benutzer können auch ihre individuellen Ereignisbenachrichtigungen in ihrem jeweiligen Profil aktivieren und deaktivieren. Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 In den folgenden Tabellen sind alle Adobe Workfront-Ereignisbenachrichtigungen aufgeführt, eine kurze Beschreibung des Ereignisses sowie Informationen dazu, ob das Ereignis standardmäßig aktiv oder inaktiv ist.
 
@@ -86,7 +86,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
    <td> <p>Problem</p> </td> 
    <td> <p>Problem mit ausstehender Genehmigung</p> </td> 
    <td> <p>Genehmigende Personen</p> </td> 
-   <td> <p>Ich muss ein Problem genehmigen.</p> <p>Welche Benutzer eine E-Mail-Benachrichtigung für dieses Ereignis erhalten, hängt davon ab, ob die Einstellung "Genehmiger muss nicht im Projektteam sein (für Genehmigungsprozesse, die eine Rolle enthalten)"aktiviert ist (wie beschrieben in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Globale Genehmigungseinstellungen konfigurieren</a>). </p> <p>Wenn diese Option aktiviert ist</strong>, wird eine E-Mail-Benachrichtigung an alle Benutzer im System mit der Rolle "Genehmiger"gesendet.</p> <p>Wenn diese Option deaktiviert ist</strong>, erhalten nur Projektteams mit der Rolle "Genehmiger"eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird gesendet, wenn das Projekt den Status Planung oder Aktuell aufweist. </p> </td> 
+   <td> <p>Ich muss ein Problem genehmigen.</p> <p>Welche Benutzer eine E-Mail-Benachrichtigung für dieses Ereignis erhalten, hängt davon ab, ob die Einstellung "Genehmiger muss nicht im Projektteam sein (für Genehmigungsprozesse, die eine Rolle enthalten)"aktiviert ist (wie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Globale Genehmigungseinstellungen konfigurieren</a> beschrieben). </p> <p>Wenn diese Option aktiviert ist, wird eine E-Mail-Benachrichtigung an alle Benutzer im System mit der Rolle "Genehmiger"gesendet.</strong></p> <p>Wenn diese Option deaktiviert ist, erhalten nur Mitglieder des Projektteams mit der Rolle "Genehmiger"eine E-Mail-Benachrichtigung.</strong></p> <p>Eine Benachrichtigung wird gesendet, wenn das Projekt den Status Planung oder Aktuell aufweist. </p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
    <td> <p>Projekt</p> </td> 
    <td> <p>Projekt mit ausstehender Genehmigung</p> </td> 
    <td> <p>Genehmigende Personen</p> </td> 
-   <td> <p>Ich muss ein Projekt genehmigen.</p> <p>Welche Benutzer eine E-Mail-Benachrichtigung für dieses Ereignis erhalten, hängt davon ab, ob die Einstellung "Genehmiger muss nicht im Projektteam sein (für Genehmigungsprozesse, die eine Auftragsrolle enthalten)"aktiviert ist (wie beschrieben in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Globale Genehmigungseinstellungen konfigurieren</a>).</p> <p>Wenn diese Option aktiviert ist</strong>, wird eine E-Mail-Benachrichtigung an alle Benutzer im System mit der Rolle "Genehmiger"gesendet.</p> <p>Wenn diese Option deaktiviert ist</strong>, erhalten nur Projektteams mit der Rolle "Genehmiger"eine E-Mail-Benachrichtigung.</p> </td> 
+   <td> <p>Ich muss ein Projekt genehmigen.</p> <p>Welche Benutzer eine E-Mail-Benachrichtigung für dieses Ereignis erhalten, hängt davon ab, ob die Einstellung "Genehmiger muss nicht im Projektteam sein (für Genehmigungsprozesse, die eine Auftragsrolle enthalten)"aktiviert ist (wie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Globale Genehmigungseinstellungen konfigurieren</a> beschrieben).</p> <p>Wenn diese Option aktiviert ist, wird eine E-Mail-Benachrichtigung an alle Benutzer im System mit der Rolle "Genehmiger"gesendet.</strong></p> <p>Wenn diese Option deaktiviert ist, erhalten nur Mitglieder des Projektteams mit der Rolle "Genehmiger"eine E-Mail-Benachrichtigung.</strong></p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
    <td> <p>Aufgabe</p> </td> 
    <td> <p>Aufgabe mit ausstehender Genehmigung</p> </td> 
    <td> <p>Genehmigende Personen</p> </td> 
-   <td> <p>Ich muss eine Aufgabe genehmigen.</p> <p>Welche Benutzer eine E-Mail-Benachrichtigung für dieses Ereignis erhalten, hängt davon ab, ob die Einstellung "Genehmiger muss nicht im Projektteam sein (für Genehmigungsprozesse, die eine Rolle enthalten)"aktiviert ist (wie beschrieben in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Globale Genehmigungseinstellungen konfigurieren</a>). </p> <p>Wenn diese Option aktiviert ist</strong>, wird eine E-Mail-Benachrichtigung an alle Benutzer im System mit der Rolle "Genehmiger"gesendet.</p> <p>Wenn diese Option deaktiviert ist</strong>, erhalten nur Projektteams mit der Rolle "Genehmiger"eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus zum Zeitpunkt der Anfrage aktuell ist.</p> </td> 
+   <td> <p>Ich muss eine Aufgabe genehmigen.</p> <p>Welche Benutzer eine E-Mail-Benachrichtigung für dieses Ereignis erhalten, hängt davon ab, ob die Einstellung "Genehmiger muss nicht im Projektteam sein (für Genehmigungsprozesse, die eine Rolle enthalten)"aktiviert ist (wie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Globale Genehmigungseinstellungen konfigurieren</a> beschrieben). </p> <p>Wenn diese Option aktiviert ist, wird eine E-Mail-Benachrichtigung an alle Benutzer im System mit der Rolle "Genehmiger"gesendet.</strong></p> <p>Wenn diese Option deaktiviert ist, erhalten nur Mitglieder des Projektteams mit der Rolle "Genehmiger"eine E-Mail-Benachrichtigung.</strong></p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus zum Zeitpunkt der Anfrage aktuell ist.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ Siehe auch [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/
 
 ## Von mir gestellte Anfragen
 
-Siehe auch [Benachrichtigungen: Von mir gestellte Anforderungen](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+Siehe auch [Benachrichtigungen: Anforderungen, die ich gestellt habe](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ Siehe auch [Benachrichtigungen: Von mir gestellte Anforderungen](../../../workfr
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokument anfordern</p> </td> 
    <td> <p>Primärer Ansprechpartner für Probleme</p> </td> 
-   <td> <p>Ein Dokument wird geändert oder hochgeladen, wenn es sich um ein Problem handelt, für das ich der Hauptkontakt bin.</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument hochgeladen oder in einem Problem geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist ebenfalls der primäre Ansprechpartner.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und für das Projekt auf der Registerkarte Warteschlangeneinstellungen die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist.</p> </td> 
+   <td> <p>Ein Dokument wird geändert oder hochgeladen, wenn es sich um ein Problem handelt, für das ich der Hauptkontakt bin.</p> <p>Der primäre Ansprechpartner des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument hochgeladen oder in einem Problem geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist ebenfalls der primäre Ansprechpartner.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und auf der Registerkarte Warteschlangeneinstellungen die Option "Publish as Help Request Queue"für das Projekt aktiviert ist.</p> </td> 
    <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ Siehe auch [Benachrichtigungen: Von mir gestellte Anforderungen](../../../workfr
 
 ## Kommunikation
 
-Siehe auch [Mitteilungen: Kommunikation](../../../workfront-basics/using-notifications/notifications-communication.md).
+Siehe auch [Benachrichtigungen: Kommunikation](../../../workfront-basics/using-notifications/notifications-communication.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -297,7 +297,7 @@ Siehe auch [Mitteilungen: Kommunikation](../../../workfront-basics/using-notific
    <td> <p>Dokument</p> </td> 
    <td> <p>Kommentar zu Dokument</p> </td> 
    <td> <p>Dokumentbesitzer</p> </td> 
-   <td> <p>Zu meinem Dokument wird ein Kommentar hinzugefügt.</p> <p>Der Dokumenteigentümer in Workfront erhält eine E-Mail-Benachrichtigung, wenn ein Kommentar im Dokument veröffentlicht wird, es sei denn, der Benutzer, der den Kommentar veröffentlicht hat, ist auch Dokumenteigentümer.</p> <p>Alle Benutzer, die direkt in den Kommentar eingeschlossen sind, erhalten ebenfalls eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist. </p> <p>Betreff der E-Mail zur sofortigen Benachrichtigung ist: <em>Kommentar zu &lt;request name=""&gt; on &lt;project name=""&gt; (ref# &lt;request reference="" number=""&gt;)</em></p> <p> Betreff der täglichen Digest-Benachrichtigung ist:<em> Kommunikationsgrad &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p>Zu meinem Dokument wird ein Kommentar hinzugefügt.</p> <p>Der Dokumenteigentümer in Workfront erhält eine E-Mail-Benachrichtigung, wenn ein Kommentar im Dokument veröffentlicht wird, es sei denn, der Benutzer, der den Kommentar veröffentlicht hat, ist auch Dokumenteigentümer.</p> <p>Alle Benutzer, die direkt in den Kommentar eingeschlossen sind, erhalten ebenfalls eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist. </p> <p>Betreff der E-Mail mit sofortiger Benachrichtigung ist: <em>Kommentar zu &lt;Anforderungsname&gt; unter &lt;Projektname&gt; (ref# &lt;Anforderungsreferenz&gt;)</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist:<em> Digest of Communication &lt;Datum des täglichen Digest&gt;</em></p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -311,14 +311,14 @@ Siehe auch [Mitteilungen: Kommunikation](../../../workfront-basics/using-notific
    <td> <p>Benutzerin oder Benutzer</p> </td> 
    <td>Directed Update</td> 
    <td>Benutzerin oder Benutzer</td> 
-   <td> <p>Jemand nimmt mich in ein direktes Update auf.</p> <p>Eine gezielte Aktualisierung ist der Fall, wenn ein Benutzer einen anderen Benutzer in eine Aktualisierung einbezieht, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagging anderer Benutzer auf Updates</a>.</p> <p>In diesem Fall erhält der Benutzer, der in der empfohlenen Aktualisierung enthalten ist, eine E-Mail-Benachrichtigung über die Aktualisierung.</p> <p>Die E-Mail-Benachrichtigung wird nur gesendet, wenn der Benutzer über Zugriffsrechte für das Objekt verfügt und es in seinem Profil aktiviert bleibt.  </p> <p>Diese Ereignisbenachrichtigung ist standardmäßig aktiviert und kann nicht deaktiviert werden.</p> </td> 
+   <td> <p>Jemand nimmt mich in ein direktes Update auf.</p> <p>Eine gezielte Aktualisierung ist der Fall, wenn ein Benutzer einen anderen Benutzer in ein Update einbezieht, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere auf Updates taggen</a> beschrieben.</p> <p>In diesem Fall erhält der Benutzer, der in der empfohlenen Aktualisierung enthalten ist, eine E-Mail-Benachrichtigung über die Aktualisierung.</p> <p>Die E-Mail-Benachrichtigung wird nur gesendet, wenn der Benutzer über Zugriffsrechte für das Objekt verfügt und es in seinem Profil aktiviert bleibt.  </p> <p>Diese Ereignisbenachrichtigung ist standardmäßig aktiviert und kann nicht deaktiviert werden.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Team</p> </td> 
    <td> <p>Directed Update</p> </td> 
    <td> <p>Team-Mitglieder</p> </td> 
-   <td> <p>Jemand bezieht mein Team in ein direktes Update ein.</p> <p>Eine gezielte Aktualisierung ist der Fall, wenn ein Benutzer einen anderen Benutzer in eine Aktualisierung einbezieht, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tagging anderer Benutzer auf Updates</a>.</p> <p>In diesem Fall erhält jedes Mitglied des Teams, das in der empfohlenen Aktualisierung enthalten ist, eine E-Mail-Benachrichtigung über die Aktualisierung.</p> <p>Die E-Mail-Benachrichtigung wird nur an Benutzer gesendet, die über Zugriffsberechtigungen für das Objekt der Aktualisierung verfügen.</p> <p>Wenn der Benutzer, der die gezielte Aktualisierung sendet, Mitglied des Teams ist, das eingeschlossen ist, erhält der Benutzer, der die Aktualisierung sendet, keine E-Mail-Benachrichtigung.</p> </td> 
+   <td> <p>Jemand bezieht mein Team in ein direktes Update ein.</p> <p>Eine gezielte Aktualisierung ist der Fall, wenn ein Benutzer einen anderen Benutzer in ein Update einbezieht, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere auf Updates taggen</a> beschrieben.</p> <p>In diesem Fall erhält jedes Mitglied des Teams, das in der empfohlenen Aktualisierung enthalten ist, eine E-Mail-Benachrichtigung über die Aktualisierung.</p> <p>Die E-Mail-Benachrichtigung wird nur an Benutzer gesendet, die über Zugriffsberechtigungen für das Objekt der Aktualisierung verfügen.</p> <p>Wenn der Benutzer, der die gezielte Aktualisierung sendet, Mitglied des Teams ist, das eingeschlossen ist, erhält der Benutzer, der die Aktualisierung sendet, keine E-Mail-Benachrichtigung.</p> </td> 
    <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
@@ -360,7 +360,7 @@ Siehe auch [Mitteilungen: Kommunikation](../../../workfront-basics/using-notific
 
 ## Validierungsinformationen
 
-Siehe auch [Benachrichtigungen: Validierungsinformationen](../../../workfront-basics/using-notifications/notifications-approval-information.md).
+Siehe auch [Benachrichtigungen: Genehmigungsinformationen](../../../workfront-basics/using-notifications/notifications-approval-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -494,7 +494,7 @@ Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesenen Aufgabe
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokument anfordern</p> </td> 
    <td> <p>Benutzer, dem das Problem zugewiesen wurde</p> </td> 
-   <td> <p>Dokumente werden bei Anforderungen, denen ich zugewiesen bin, hochgeladen oder geändert.</p> <p>Der Problemverantwortliche erhält eine E-Mail-Benachrichtigung, wenn Dokumente in einem von ihm hinzugefügten Problem hochgeladen oder geändert werden.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn der Benutzer, der an dem Problem teilgenommen hat, der Problemverantwortliche ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und für das Projekt auf der Registerkarte Warteschlangeneinstellungen die Option "Als Warteschlange für Hilfeanfragen veröffentlichen"aktiviert ist.</p> </td> 
+   <td> <p>Dokumente werden bei Anforderungen, denen ich zugewiesen bin, hochgeladen oder geändert.</p> <p>Der Problemverantwortliche erhält eine E-Mail-Benachrichtigung, wenn Dokumente in einem von ihm hinzugefügten Problem hochgeladen oder geändert werden.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn der Benutzer, der an dem Problem teilgenommen hat, der Problemverantwortliche ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus aktuell ist und auf der Registerkarte Warteschlangeneinstellungen die Option "Publish as Help Request Queue"für das Projekt aktiviert ist.</p> </td> 
    <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
@@ -535,7 +535,7 @@ Siehe auch [Benachrichtigungen: Informationen über die mir zugewiesenen Aufgabe
 
 ## Informationen zu Projekten, die ich verwende
 
-Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich verwende](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich auf](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md) verwende.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -627,7 +627,7 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich verwende](..
 
 ## Informationen über Projekte, die ich besitze
 
-Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich besitze](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
+Siehe auch [Benachrichtigungen: Informationen zu Projekten, deren Inhaber ich bin](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -811,7 +811,7 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, die ich sponsere](..
 
 ## Verschiedene Informationen
 
-Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+Siehe auch [Benachrichtigungen: Verschiedene Informationen](../../../workfront-basics/using-notifications/notifications-misc-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -861,7 +861,7 @@ Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/
    <td> <p>Benutzerin oder Benutzer</p> </td> 
    <td> <p>Neuer Benutzer</p> </td> 
    <td> <p>Benutzerin oder Benutzer</p> </td> 
-   <td> <p>Wenn ein neuer Benutzer in Workfront erstellt wird, senden Sie eine E-Mail an den Benutzer.</p> <p>Nachdem der neue Benutzer erstellt wurde, erhält er eine Einladung in eine E-Mail, in der er darüber informiert wird, dass ein Workfront-Konto erstellt wurde, und er aufgefordert wird, sein Kennwort festzulegen.</p> <p>Bei der Erstellung eines neuen Benutzers können Benutzer die Option "Einladungs-E-Mail an diese Person senden"auswählen (siehe <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Benutzer hinzufügen</a><span style="font-weight: 400;">). Wenn jedoch die Option "Neuer Benutzer für Benutzer"global aktiviert ist, erhalten alle neuen Benutzer die Einladung per E-Mail, unabhängig davon, ob die Option "Einladungs-E-Mail an diese Person senden"ausgewählt ist.</span></p> </td> 
+   <td> <p>Wenn ein neuer Benutzer in Workfront erstellt wird, senden Sie eine E-Mail an den Benutzer.</p> <p>Nachdem der neue Benutzer erstellt wurde, erhält er eine Einladung in eine E-Mail, in der er darüber informiert wird, dass ein Workfront-Konto erstellt wurde, und er aufgefordert wird, sein Kennwort festzulegen.</p> <p>Beim Erstellen eines neuen Benutzers können Benutzer die Option "Einladungs-E-Mail an diese Person senden"auswählen (wie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Benutzer hinzufügen</a><span style="font-weight: 400;"> beschrieben). Wenn jedoch die Option "Neuer Benutzer für Benutzer"global aktiviert ist, erhalten alle neuen Benutzer die Einladung per E-Mail, unabhängig davon, ob die Option "Einladungs-E-Mail an diese Person senden"aktiviert ist.</span></p> </td> 
    <td> Inaktiv </td> 
   </tr> 
   <tr> 
@@ -903,7 +903,7 @@ Siehe auch [Mitteilungen: Verschiedene Informationen](../../../workfront-basics/
    <td> Projekt <br>Aufgabe <br>Problem</td> 
    <td>Neues Update</td> 
    <td>Abonnent </td> 
-   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Eine E-Mail wird gesendet, wenn eine Aufgabe, ein Problem oder ein Projekt aktualisiert wird, für das ich angemeldet bin.</span> </p> </td> 
+   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Eine E-Mail wird gesendet, wenn an einer Aufgabe, einem Problem oder einem Projekt, für das ich angemeldet bin, eine Aktualisierung vorgenommen wird.</span> </p> </td> 
    <td>Aktiv (nur Instant)</td> 
   </tr> 
  </tbody> 

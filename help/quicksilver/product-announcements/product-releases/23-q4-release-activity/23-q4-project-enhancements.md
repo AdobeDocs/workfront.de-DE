@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit der Version vom 4. Quartal 2023 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden mit Version 23.10 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des vierten Quartals 2023 verfügbar sind, finden Sie unter [Übersicht über die Version 2023 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2023 verfügbar sind, finden Sie unter [Überblick über das vierte Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Neue Dokumentgenehmigungen
 
@@ -28,9 +28,9 @@ In dieser Version wurde der Genehmigungsprozess optimiert, um neben neuen Funkti
 * Verbesserter Prozess zum Hinzufügen eines externen Genehmigers oder Prüfers
 * Verbesserte Genehmigungs- und Überprüfungserfahrung für externe Genehmiger und Prüfer
 
-Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über die neuen Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über neue Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3424867){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3424867){target=_blank}
 
 ## Entwurf beim Hinzufügen eines neuen Problems zu einem Projekt aktualisiert
 
@@ -50,13 +50,13 @@ Bei einer kleinen Anzahl von Formularfeldern wird keine dynamische Neuberechnung
 
 Weitere Informationen finden Sie unter [Informationen in benutzerdefinierten Formularfeldern bearbeiten](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3422678/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
 ## Geplante Stunden für untergeordnete wiederkehrende Aufgaben mit einfacher Dauer ohne Zuweisung festlegen
 
 Die Art und Weise, wie geplante Stunden wiederkehrenden Aufgaben ohne Zuweisung und einfache Dauer zugeordnet werden, wurde geändert. Wenn Sie jetzt &quot;Geplante Stunden&quot;für eine neue wiederkehrende Aufgabe mit dem Typ Einfache Dauer und ohne Zuweisung festlegen, werden die Stunden auch den einzelnen Wiederholungen zugeordnet. Vor dieser Änderung wurden die Stunden nicht für einzelne Wiederholungen gespeichert, wenn die Zuordnung der übergeordneten Aufgaben aufgehoben wurde.
 
-Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter [Wiederkehrende Aufgaben erstellen](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter [Erstellen wiederkehrender Aufgaben](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
 ## Echtzeitaktualisierungen auf der Aufgabenliste
 

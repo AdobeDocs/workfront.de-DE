@@ -21,17 +21,16 @@ Alle [!DNL Adobe Workfront] Benutzer können den Blueprint-Katalog durchsuchen.
 
 Als Systemadministrator haben Sie folgende Möglichkeiten:
 
-* Hinzufügen [!UICONTROL Blueprints] zum Hauptmenü in Layout-Vorlagen und weisen Sie Benutzern oder Gruppen die Layoutvorlage zu. Weitere Informationen finden Sie unter [Anpassen der [!UICONTROL Hauptmenü] Layout-Vorlage verwenden](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) und [Benutzer einer Layoutvorlage zuweisen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+* Fügen Sie [!UICONTROL Blueprints] zum Hauptmenü in Layoutvorlagen hinzu und weisen Sie Benutzern oder Gruppen die Layoutvorlage zu. Weitere Informationen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) und [Zuweisen von Benutzern zu einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-   >[!NOTE]
-   >
-   >* Benutzern, denen keine Layoutvorlage zugewiesen wurde, wird die [!UICONTROL Blueprints] im [!UICONTROL Hauptmenü].
-   >* Wenn Sie eine neue Layoutvorlage erstellen, wird die [!UICONTROL Blueprints] ist in der [!UICONTROL Aktive Elemente] Liste für [!UICONTROL Hauptmenü] Standardmäßig.
-
+  >[!NOTE]
+  >
+  >* Benutzern, denen keine Layoutvorlage zugewiesen ist, wird das Symbol [!UICONTROL Blueprints] im [!UICONTROL Hauptmenü] angezeigt.
+  >* Wenn Sie eine neue Layoutvorlage erstellen, ist das Symbol [!UICONTROL Blueprints] standardmäßig in der Liste [!UICONTROL Aktive Elemente] für das Hauptmenü [!UICONTROL 5} enthalten.]
 
 
 * Gewähren Sie Benutzern Zugriff, um die Installation von Blueprints anzufordern, indem Sie eine Anforderungswarteschlange zum Speichern der Anforderungen einrichten. Dort können Sie Anforderungen an eine zentrale Stelle verfolgen und aktualisieren. Gehen Sie für weitere Informationen wie folgt vor:
-* Installieren Sie Blueprints. Weitere Informationen finden Sie unter [Blueprint installieren](../../administration-and-setup/blueprints/blueprints-install.md).
+* Installieren Sie Blueprints. Weitere Informationen finden Sie unter [Installieren eines Blueprints](../../administration-and-setup/blueprints/blueprints-install.md).
 
 ## Zugriffsanforderungen
 
@@ -43,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe [!DNL Workfront] Lizenz</strong></td> 
@@ -58,8 +57,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Voraussetzungen {#prerequisites}
 
-* Sie müssen eine vorhandene Anforderungswarteschlange verwenden, um Blueprint-Anforderungen zu speichern. Das Projekt muss als Anforderungswarteschlange gespeichert werden und sich in [!UICONTROL Aktuell] Status.
-* Die Anforderungswarteschlange muss öffentlich sein. In den Details der Anforderungswarteschlange: &quot;[!UICONTROL Wer kann dieser Warteschlange Anforderungen hinzufügen?]&quot; muss auf **[!UICONTROL Jeder]**.
+* Sie müssen eine vorhandene Anforderungswarteschlange verwenden, um Blueprint-Anforderungen zu speichern. Das Projekt muss als Anforderungswarteschlange gespeichert werden und sich im Status [!UICONTROL Aktuell] befinden.
+* Die Anforderungswarteschlange muss öffentlich sein. In den Details der Anforderungswarteschlange &quot;[!UICONTROL Wer kann dieser Warteschlange Anforderungen hinzufügen?]&quot; muss auf **[!UICONTROL Anyone]** gesetzt werden.
 
 >[!TIP]
 >
@@ -69,18 +68,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Bevor Benutzer die Installation von Blueprints für sie anfordern können, müssen Sie eine Anforderungswarteschlange für diese Anforderungen auswählen. Bis die Anforderungswarteschlange definiert ist, können Benutzer nur den Blueprints-Katalog durchsuchen.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Blueprints]**.
-1. Klicken **[!UICONTROL Blueprint-Anforderungen konfigurieren]** oben rechts im Katalogbildschirm.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Blueprints]**.![](assets/main-menu-icon.png)
+1. Klicken Sie oben rechts im Katalogbildschirm auf **[!UICONTROL Blueprint-Anforderungen konfigurieren]** .
 
    <!--
    <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>In the <strong>Configure blueprints</strong> dialog, ensure that the <strong>Configure request queues</strong> tab is selected.</p> </li>
    -->
 
-1. Im **[!UICONTROL Blueprints konfigurieren]** eingeben, den Namen einer aktiven Anforderungswarteschlange eingeben und auswählen, wenn sie in den Suchergebnissen angezeigt wird.
+1. Geben Sie im Dialogfeld **[!UICONTROL Blueprints konfigurieren]** den Namen einer aktiven Anforderungswarteschlange ein und wählen Sie sie aus, wenn sie in den Suchergebnissen angezeigt wird.
 
    >[!IMPORTANT]
    >
-   >In dieser Liste werden nur Warteschlangen für öffentliche Anforderungen angezeigt. Informationen zum Veröffentlichen der Anforderungswarteschlange finden Sie unter [Voraussetzungen](#prerequisites) Abschnitt weiter oben.
+   >In dieser Liste werden nur Warteschlangen für öffentliche Anforderungen angezeigt. Informationen zum Veröffentlichen Ihrer Anforderungswarteschlange finden Sie im Abschnitt [Voraussetzungen](#prerequisites) oben.
 
    Die Voreinstellung für die Anforderungswarteschlange ist festgelegt und Benutzer können jetzt die Blueprint-Installation anfordern.
 
@@ -95,4 +94,4 @@ Bevor Benutzer die Installation von Blueprints für sie anfordern können, müss
 
 >[!NOTE]
 >
->Wenn Sie einen angeforderten Blueprint installieren, sollten Sie den Problemstatus in **[!UICONTROL Geschlossen]** oder **[!UICONTROL Gelöst]** in der Anforderungswarteschlange, damit der Anforderer benachrichtigt wird. Informationen zum Installieren eines Blueprints finden Sie unter [Blueprint installieren](../../administration-and-setup/blueprints/blueprints-install.md).
+>Wenn Sie einen angeforderten Blueprint installieren, sollten Sie den Problemstatus in der Anforderungswarteschlange in **[!UICONTROL Geschlossen]** oder **[!UICONTROL Aufgelöst]** ändern, damit der Anforderer benachrichtigt wird. Weitere Informationen zum Installieren eines Blueprints finden Sie unter [Installieren eines Blueprints](../../administration-and-setup/blueprints/blueprints-install.md).

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront ändert die Systemverwaltung von Benutzern und Kennwörtern. Diese Änderungen werden in einer stufenweisen Version mit dem Namen **Erweiterte Authentifizierung** Erlebnis. Die erweiterte Authentifizierung bietet Benutzern eine konsistentere und sicherere Anmeldeerfahrung für alle Workfront-Produkte und -Dienste.
+Adobe Workfront ändert die Systemverwaltung von Benutzern und Kennwörtern. Diese Änderungen werden in einer stufenweisen Version mit dem Namen **Erweiterte Authentifizierung** eingeführt. Die erweiterte Authentifizierung bietet Benutzern eine konsistentere und sicherere Anmeldeerfahrung für alle Workfront-Produkte und -Dienste.
 
 Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionalität:
 
@@ -31,7 +31,7 @@ Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionali
  <thead> 
   <tr> 
    <th> <p><strong>Funktion</strong> </p> </th> 
-   <th><strong>Alte Authentifizierung</strong> </th> 
+   <th><strong>Legacy-Authentifizierung</strong> </th> 
    <th><strong>Erweiterte Authentifizierung 1.0</strong> </th> 
    <th> <p>Erweiterte Authentifizierung 2.0</p> </th> 
   </tr> 
@@ -60,7 +60,7 @@ Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionali
    <td> <p>✓</p> <p>Mehrere Benutzer können nicht dieselbe E-Mail-Adresse haben, wenn sich die Adresse nur von Fall zu Fall unterscheidet. </p> <p>Workfront-Administratoren werden Ende 2019 benachrichtigt, damit sie mit der Behebung doppelter E-Mail-Adressen beginnen können.</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Optionen zur Kennwortverwaltung</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Optionen für die Kennwortverwaltung</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionali
    <td> <p>Nicht geplant</p> <p>Diese Funktion ist keine Best Practice für Sicherheitsmaßnahmen</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Anforderungen für Passwortrichtlinien</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Passwortrichtlinien-Anforderungen</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 

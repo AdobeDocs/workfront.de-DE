@@ -51,21 +51,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Kommentare zu Zeitstundeneinträgen auf einem Zeitblatt anzeigen {#view-hour-entry-comments-on-a-timesheet}
 
-Sie können Kommentare zu einzelnen Stundeneinträgen konfigurieren, um sie im Timesheet anzuzeigen. Die Option zum Ein- und Ausblenden von Kommentaren wirkt sich nicht auf Kommentare zum Gesamtzeitblatt oder auf Kommentare zu einzelnen Artikeln aus. Weitere Informationen finden Sie unter  [Kommentare zu einem Timesheet erstellen](#make-comments-on-a-timesheet).
+Sie können Kommentare zu einzelnen Stundeneinträgen konfigurieren, um sie im Timesheet anzuzeigen. Die Option zum Ein- und Ausblenden von Kommentaren wirkt sich nicht auf Kommentare zum Gesamtzeitblatt oder auf Kommentare zu einzelnen Artikeln aus. Weitere Informationen finden Sie unter  [Kommentar zu einem Zeitblatt ](#make-comments-on-a-timesheet).
 
 Standardmäßig werden Kommentare ausgeblendet, wenn Sie zum ersten Mal auf ein Timesheet zugreifen.
 
 So zeigen Sie Kommentare auf einem Zeitblatt an:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
 
-1. Klicks **Timesheets**.
+1. Klicken Sie auf **Timesheets**.
 1. Öffnen Sie das Timesheet, in dem Sie Kommentare anzeigen möchten.
-1. Klicks **Kommentare anzeigen** in der rechten oberen Ecke des Zeitblatts.
+1. Klicken Sie in der oberen rechten Ecke des Zeitblatts auf **Kommentare anzeigen** .
 Kommentare werden unter dem Element angezeigt, in dem der Stundeneintrag und der Kommentar protokolliert wurden.
 
    ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
@@ -73,45 +73,45 @@ Kommentare werden unter dem Element angezeigt, in dem der Stundeneintrag und der
 
 ## Kommentare zu einem Timesheet erstellen {#make-comments-on-a-timesheet}
 
-* [Kommentar zum Gesamtzeitplan](#comment-on-the-overall-timesheet)
-* [Kommentar zu einem einzelnen Stundeneintrag in einem Timesheet](#comment-on-an-individual-hour-entry-in-a-timesheet)
+* [Kommentar zum Gesamtzeitblatt](#comment-on-the-overall-timesheet)
+* [Kommentar zu einem einzelnen Stundeneintrag in einem Zeitblatt](#comment-on-an-individual-hour-entry-in-a-timesheet)
 * [Kommentar zu einem Arbeitselement in einem Zeitblatt](#comment-on-a-work-item-in-a-timesheet)
 
 ### Kommentar zum Gesamtzeitplan {#comment-on-the-overall-timesheet}
 
 Sie können allgemeine Kommentare zum Timesheet machen. Das Kommentieren auf das gesamte Timesheet ähnelt dem Kommentieren auf andere Objekte.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder **Hauptmenü** icon ![](assets/lines-main-menu.png) in der oberen linken Ecke oder in Workfront, falls verfügbar.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts oder auf das Symbol **Hauptmenü** ![](assets/lines-main-menu.png) oben links oder Workfront (falls verfügbar).![](assets/main-menu-icon.png)
 
-1. Klicks **Timesheets**.
+1. Klicken Sie auf **Timesheets**.
 1. Gehen Sie zum Timesheet, wo Sie einen Kommentar abgeben möchten.
-1. Klicks **Updates** Klicken Sie im linken Bereich auf das **Kommentare** Registerkarte.
-1. Beginnen Sie mit dem Hinzufügen neuer Kommentare oder Antworten zu vorhandenen, wie unter [Update der Arbeit](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Fügen Sie Personen oder Teams in die **Personen oder Teams taggen** -Feld, um andere in Ihre Aktualisierung aufzunehmen. Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Optional) Wählen Sie die **Privatperson in meinem Unternehmen** , wenn Sie möchten, dass nur Personen aus Ihrem Unternehmen die Aktualisierung anzeigen.
-1. Geben Sie Ihren Kommentar ein und klicken Sie dann auf **Einsenden**.
+1. Klicken Sie im linken Bereich auf **Aktualisierungen** und dann auf die Registerkarte **Kommentare**.
+1. Beginnen Sie mit dem Hinzufügen neuer Kommentare oder Antworten zu vorhandenen, wie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md) beschrieben.
+1. (Optional) Fügen Sie Personen oder Teams im Feld **Personen oder Teams taggen** hinzu, um andere Personen in Ihre Aktualisierung aufzunehmen. Weitere Informationen finden Sie unter [Taggen anderer Benutzer bei Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. (Optional) Wählen Sie die Option &quot;**Für mein Unternehmen privat**&quot;, wenn Sie nur Personen aus Ihrem Unternehmen die Aktualisierung anzeigen möchten.
+1. Geben Sie Ihren Kommentar ein und klicken Sie dann auf **Senden**.
 
-   Ihr Kommentar wird im [!UICONTROL Updates] im Bereich des Zeitplans im Tab Kommentare .
+   Ihr Kommentar wird im Abschnitt [!UICONTROL Aktualisierungen] des Zeitplans auf der Registerkarte &quot;Kommentare&quot;angezeigt.
 
-1. (Optional) Klicken Sie auf die **Systemaktivität** Registerkarte zur Überprüfung systemgenerierter Aktualisierungen
+1. (Optional) Klicken Sie auf die Registerkarte **Systemaktivität** , um systemgenerierte Aktualisierungen zu überprüfen.
 
    Oder
 
-   Klicken Sie auf **Alle** , um Systemaktivität und Benutzerkommentare in chronologischer Reihenfolge anzuzeigen.
+   Klicken Sie auf die Registerkarte **Alle** , um Systemaktivität und Benutzerkommentare in chronologischer Reihenfolge anzuzeigen.
 
    >[!TIP]
    >
    >   Die Registerkarte &quot;Alle&quot;ist schreibgeschützt und Sie können von dort keine Antworten auf Kommentare geben.
 
 
-   Weitere Informationen finden Sie unter [Update der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Kommentar zu einem einzelnen Stundeneintrag in einem Timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
 
-1. Klicks **Timesheets**.
-1. Gehen Sie zum Timesheet, in dem Sie einen Kommentar abgeben möchten, und klicken Sie auf **Datenblatt** im linken Bereich.
+1. Klicken Sie auf **Timesheets**.
+1. Gehen Sie zum Timesheet, zu dem Sie einen Kommentar abgeben möchten, und klicken Sie im linken Bereich auf **Timesheet** .
 1. Klicken Sie in das Stundeneingabefeld, in dem Sie einen Kommentar abgeben möchten, und klicken Sie auf **Kommentar** , um einen Kommentar für Ihren Stundeneintrag hinzuzufügen.
 
    >[!TIP]
@@ -122,8 +122,8 @@ Sie können allgemeine Kommentare zum Timesheet machen. Das Kommentieren auf das
    Führen Sie einen der folgenden Schritte aus:
 
    * Geben Sie einen neuen Kommentar ein und klicken Sie auf **Fertig**.
-   * Existierenden Kommentar bearbeiten und auf klicken **Fertig** oder klicken Sie auf **Abbrechen** , um die Änderungen zu verwerfen.
-   * Klicken Sie auf **Löschen** icon ![](assets/delete.png) , um einen gespeicherten Kommentar zu löschen.
+   * Bearbeiten Sie einen vorhandenen Kommentar und klicken Sie auf **Fertig** oder auf **Abbrechen** , um die Änderungen zu verwerfen.
+   * Klicken Sie auf das Symbol **Löschen** ![](assets/delete.png) , um einen gespeicherten Kommentar zu löschen.
 
      In der rechten oberen Ecke des Stundeneingabefelds wird eine blaue Markierung angezeigt, die angibt, dass bei der Zeiteingabe Kommentare protokolliert wurden.
 
@@ -136,7 +136,7 @@ Sie können allgemeine Kommentare zum Timesheet machen. Das Kommentieren auf das
    >   * Befehl + Rückgabe für Mac-Computer.
 
 
-1. (Optional) Informationen zum Konfigurieren von Kommentaren zu Stundeneinträgen für die Anzeige im Timesheet finden Sie im Abschnitt . [Kommentare zu Zeitstunden auf einem Zeitblatt anzeigen](#view-hour-entry-comments-on-a-timesheet) in diesem Artikel.
+1. (Optional) Informationen zum Konfigurieren von Stundeneintragskommentaren für die Anzeige im Timesheet finden Sie im Abschnitt [Kommentare zur Stundeneingabe auf einem Timesheet anzeigen](#view-hour-entry-comments-on-a-timesheet) in diesem Artikel.
 
 ### Kommentar zu einem Arbeitselement in einem Zeitblatt {#comment-on-a-work-item-in-a-timesheet}
 
@@ -147,12 +147,12 @@ Sie können allgemeine Kommentare zum Timesheet machen. Das Kommentieren auf das
 
 Sie können nur Kommentare zu Aufgaben und Problemen in einem Timesheet erstellen. Sie können keine Kommentare zu Projekten oder zur allgemeinen Zeit abgeben.
 
-1. Klicken Sie auf [!UICONTROL **Hauptmenü**] icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront.
-1. Klicks [!UICONTROL **Timesheets**].
-1. Gehen Sie zum gewünschten Timesheet und klicken Sie auf [!UICONTROL **Datenblatt**] im linken Bereich.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol [!UICONTROL **Hauptmenü**] ![](assets/main-menu-icon.png).
+1. Klicken Sie auf [!UICONTROL **Timesheets**].
+1. Gehen Sie zum Timesheet, zu dem Sie einen Kommentar abgeben möchten, und klicken Sie im linken Bereich auf [!UICONTROL **Timesheet**] .
 1. Klicken Sie auf die Zeile einer Aufgabe oder eines Problems und dann auf [!UICONTROL **Zusammenfassung öffnen**].
-1. Beginnen Sie mit der Eingabe eines Updates in die [!UICONTROL **Updates**] Bereich des Bedienfelds &quot;Zusammenfassung&quot;und klicken Sie auf [!UICONTROL **Einsenden**].
+1. Beginnen Sie mit der Eingabe eines Updates im Bereich [!UICONTROL **Aktualisierungen**] im Bereich &quot;Zusammenfassung&quot;und klicken Sie dann auf [!UICONTROL **Senden**] .
 Die Aktualisierung wird im Abschnitt Updates der Aufgabe und des Problems angezeigt.
 1. (Optional) Klicken Sie auf [!UICONTROL **Zusammenfassung schließen**] , um das Bedienfeld &quot;Zusammenfassung&quot;zu schließen.
 
-   Weitere Informationen zum Aktualisieren von Aufgaben und Problemen im Bereich &quot;Zusammenfassung&quot;finden Sie unter [Zusammenfassungsübersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Weitere Informationen zum Aktualisieren von Aufgaben und Problemen im Bereich &quot;Zusammenfassung&quot;finden Sie unter [Übersicht &quot;Zusammenfassung&quot;](../../workfront-basics/the-new-workfront-experience/summary-overview.md).

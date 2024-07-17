@@ -42,18 +42,18 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Gruppenmitgliedschaften verwalten
 
 Sie können Benutzer und andere Gruppen zu einer von Ihnen verwalteten Gruppe hinzufügen und daraus entfernen. Sie können Gruppenmitglieder auch als Administratoren für die Gruppe zuweisen und die Benutzerprofilinformationen der Gruppenmitglieder verwalten.
 
-Anweisungen finden Sie unter [Gruppenmitgliedschaften anzeigen und verwalten](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+Anweisungen finden Sie unter [Mitglieder einer Gruppe anzeigen und verwalten](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
 
 ## Details einer Gruppe verwalten
 
@@ -71,27 +71,27 @@ Anweisungen finden Sie unter [Details einer Gruppe anzeigen und verwalten](../..
 
 Ohne die Hauptseite einer Gruppe zu verlassen, die Sie anzeigen, können Sie die Gruppe schnell bearbeiten, kopieren oder löschen.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **Gruppen**.
+1. Klicken Sie auf **Gruppen**.
 
    In der angezeigten Liste können Sie die von Ihnen verwalteten Gruppen sowie die darin enthaltenen Untergruppen sehen. Adobe Workfront-Administratoren können alle Gruppen sehen.
 
-1. Wählen Sie die Gruppe aus und klicken Sie auf Bearbeiten . ![](assets/edit-icon.png), Kopie ![](assets/copy-icon.png)oder Löschen ![](assets/delete.png) Symbol.
+1. Wählen Sie die Gruppe aus und klicken Sie dann auf das Symbol ![](assets/edit-icon.png) bearbeiten, Kopieren ![](assets/copy-icon.png) oder Löschen ![](assets/delete.png) .
 
    Wenn Sie Informationen zur Verwendung des angezeigten Felds benötigen, sehen Sie sich eine der folgenden Möglichkeiten an:
 
    * **Bearbeiten**: [Details einer Gruppe anzeigen und verwalten](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **Kopieren**: [Erstellen einer Gruppe der obersten Ebene durch Kopieren einer vorhandenen Gruppe oder Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) im Artikel [Gruppe erstellen](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   * **Kopieren**: [Erstellen Sie eine Gruppe der obersten Ebene durch Kopieren einer vorhandenen Gruppe oder Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) in den Artikel [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
 
-   * **Löschen**: [Gruppe löschen](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+   * **Löschen**: [Löschen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
 ## Konfigurieren von Projekt-, Aufgaben- und Problemeinstellungen für eine Gruppe
 
 Wenn Sie Gruppenadministrator sind und Ihre Gruppe andere Einstellungen für Projekt, Aufgabe und Ausgabe als auf Systemebene festgelegt benötigen, können Sie den Workfront-Administrator bitten, eine Voreinstellung für alle Gruppen in der Organisation zu entsperren. Nachdem die Sperre aufgehoben wurde, können Sie sie (und Gruppenadministratoren für alle anderen Gruppen) für die von Ihnen verwalteten Gruppen konfigurieren.
 
-Anweisungen finden Sie unter [Konfigurieren von Projektvoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) und  [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+Anweisungen finden Sie unter [Konfigurieren von Projekteigenschaften für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) und [Konfigurieren von Aufgaben und Ausgabevoreinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Untergruppen auflisten, hinzufügen und konfigurieren
 
@@ -122,13 +122,13 @@ Anweisungen finden Sie unter [Erstellen und Ändern von Gruppenprojekten](../../
 
 Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie die Genehmigungsprozesse anzeigen und bearbeiten, auf die die Administratoren der Gruppe oder einer ihrer Untergruppen Administratorzugriff haben.
 
-Anweisungen finden Sie unter [Validierungsprozesse auf Gruppenebene](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+Anweisungen finden Sie unter [Genehmigungsprozesse auf Gruppenebene](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 ## Layout-Vorlagen einer Gruppe anzeigen und verwalten
 
 Wenn Sie eine Gruppe anzeigen, die Sie im Bereich &quot;Gruppen&quot;verwalten, können Sie die Layout-Vorlage anzeigen und verwenden, auf die die Administratoren der Gruppe oder einer ihrer Untergruppen administrativen Zugriff haben.
 
-Anweisungen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Anweisungen finden Sie unter [Erstellen und Ändern von Layoutvorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Zeitpläne von Gruppenmitgliedern anzeigen und verwalten
 
@@ -140,7 +140,7 @@ Anweisungen finden Sie unter [Erstellen und Ändern der Zeitpläne einer Gruppe]
 
 ## Anzeigen und Verwalten von Profilen der Gruppenmitglieder
 
-Wenn Sie sich die Hauptseite einer von Ihnen verwalteten Gruppe ansehen, können Sie die Timesheet-Profile verwalten, für die Sie und die anderen Administratoren der Gruppe - oder einer ihrer Untergruppen - über die Berechtigung zum Bearbeiten verfügen. Anweisungen finden Sie unter [Erstellen und Verwalten von Timesheet-Profilen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
+Wenn Sie sich die Hauptseite einer von Ihnen verwalteten Gruppe ansehen, können Sie die Timesheet-Profile verwalten, für die Sie und die anderen Administratoren der Gruppe - oder einer ihrer Untergruppen - über die Berechtigung zum Bearbeiten verfügen. Eine Anleitung finden Sie unter [Erstellen und Verwalten von Datenblatt-Profilen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
 
 ## Mitglieder einer Gruppe anzeigen und verwalten
 
@@ -154,7 +154,7 @@ Anweisungen finden Sie unter [Erstellen und Ändern von Teams einer Gruppe](../.
 
 ## Anzeigen und Verwalten von Unternehmen einer Gruppe
 
-Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie mit der Gruppe oder einer ihrer Untergruppen verbundene Unternehmen anzeigen und zusammenarbeiten. Anweisungen finden Sie unter [Erstellen und Ändern von Unternehmen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md).
+Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie mit der Gruppe oder einer ihrer Untergruppen verbundene Unternehmen anzeigen und zusammenarbeiten. Anweisungen finden Sie unter [Unternehmen einer Gruppe erstellen und ändern](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md).
 
 ## Anzeigen und Verwalten der Portfolios und Programme einer Gruppe
 
@@ -163,7 +163,7 @@ Wenn Sie eine Gruppe anzeigen, die Sie im Bereich &quot;Gruppen&quot;verwalten, 
 * Sie sind mit der angezeigten Gruppe oder einer ihrer Untergruppen verknüpft.
 * Sie sind berechtigt, sie anzuzeigen, weil Sie sie erstellt oder für Sie freigegeben haben
 
-Anweisungen finden Sie unter [Erstellen und Ändern von Gruppenprojekten](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) und [Erstellen, Ändern und Anzeigen von Programmen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+Anweisungen finden Sie unter [Erstellen und Ändern von Gruppenprojekten](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) und [Erstellen, Ändern und Anzeigen von Gruppenprogrammen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
 ## Gruppe deaktivieren oder reaktivieren
 
@@ -179,4 +179,4 @@ Sie können eine Gruppe in ihrem standardmäßigen aktiven Status belassen oder 
 
 Die Deaktivierung einer Gruppe kann nützlich sein, wenn sie derzeit nicht verwendet wird, da Benutzer sie nicht mehr in Typ-Ahead-Feldern sehen, wenn sie nach einer Gruppe suchen, die sie mit einem anderen Objekt verknüpfen möchten.
 
-Anweisungen zum Aktivieren oder Aktivieren einer Gruppe finden Sie unter [Gruppe deaktivieren oder reaktivieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+Anweisungen dazu, wie Sie eine Gruppe inaktiv oder aktiv machen, finden Sie unter [Deaktivieren oder Reaktivieren einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).

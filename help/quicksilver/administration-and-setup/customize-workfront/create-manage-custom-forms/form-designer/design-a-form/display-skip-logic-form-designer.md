@@ -49,7 +49,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Logiksymbole anzeigen und überspringen
 
@@ -66,12 +66,12 @@ Benutzerdefinierte Formulare zeigen Symbole an, die angeben, welche Logik auf be
 
 Wählen Sie ein Feld mit angewendeter Logik aus, um die vorhandenen Logikregeln in den Feldeinstellungen anzuzeigen.
 
-![Logische Regeln](assets/form-designer-view-only-logic.png)
+![Logikregeln](assets/form-designer-view-only-logic.png)
 
 ## Überlegungen zur Verwendung der Anzeigelogik und der Logik zum Überspringen
 
 * Um eine Anzeigerlogik zu einem benutzerdefinierten Feld, Widget oder Abschnittsumbruch hinzuzufügen, muss mindestens ein Auswahlfeld (Optionsfelder, Dropdown-Menüs oder Kontrollkästchen) vor dem Feld im Formular positioniert werden.
-Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Sie können einem Widget oder einer Abschnittsumbruch keine Logik zum Überspringen hinzufügen. Sie können sie nur zu einem Multiple-Choice-Feld hinzufügen (Optionsfelder, Dropdown-Listen oder Kontrollkästchen).
 * Sie können einem benutzerdefinierten Feld sowohl die Anzeigenlogik als auch die Logik überspringen, wenn Folgendes für das benutzerdefinierte Feld zutrifft:
 
@@ -93,12 +93,12 @@ Die Anzeigereihenfolge definiert, welche benutzerdefinierten Felder im Formular 
 
 {{step-1-to-setup}}
 
-1. Klicks **Benutzerdefinierte Forms**.
-1. Erstellen Sie ein neues benutzerdefiniertes Formular oder öffnen Sie ein vorhandenes Formular. Siehe [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) für Details.
+1. Klicken Sie auf **Benutzerdefinierter Forms**.
+1. Erstellen Sie ein neues benutzerdefiniertes Formular oder öffnen Sie ein vorhandenes Formular. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) .
 1. Fügen Sie dem Formular nach Bedarf Felder hinzu. Vor dem anzuzeigenden Zielfeld muss mindestens ein Multiple-Choice-Feld (Optionsfeld, Dropdown-Menü oder Kontrollkästchen) positioniert werden.
-1. Wählen Sie das Zielfeld aus und klicken Sie auf **Logik hinzufügen** unten links im Bildschirm.
-1. Wählen Sie die **Anzeigelogik** Registerkarte.
-1. Klicks **Anzeigenregel hinzufügen** auf dem Logikaufbau.
+1. Wählen Sie das Zielfeld aus und klicken Sie unten links im Bildschirm auf **Logik hinzufügen** .
+1. Wählen Sie die Registerkarte **Logik anzeigen** aus.
+1. Klicken Sie im Logikaufbau auf **Anzeigenregel hinzufügen** .
 
    ![Logikaufbau anzeigen](assets/custom-form-logic-builder-display-blank.png)
 
@@ -106,14 +106,14 @@ Die Anzeigereihenfolge definiert, welche benutzerdefinierten Felder im Formular 
 
    1. Die erste Option besteht darin, das definierende Feld auszuwählen. Dies ist das Feld mit dem Auswahlwert, das die Zielgruppe anzeigt. Es muss sich um ein Multiple-Choice-Feld handeln.
    1. Die zweite Option besteht darin, den Auswahlwert auszuwählen. Es sind nur die für dieses Feld bereits definierten Werte verfügbar.
-   1. Die dritte Option ist **Ausgewählt** oder **Nicht ausgewählt**. Auswahl **Ausgewählt** bedeutet, dass bei Auswahl des Werts das Zielfeld angezeigt wird. Auswahl **Nicht ausgewählt** bedeutet, dass das Zielfeld angezeigt wird, wenn ein anderer Wert im Definitionsfeld ausgewählt ist.
-   1. So fügen Sie eine **und** -Regel zur Logikanweisung hinzu, klicken Sie auf **Regel hinzufügen** direkt unterhalb der soeben erstellten Regel. Befolgen Sie dieselben Anweisungen zum Erstellen der Regel. Alle Und-Regeln müssen erfüllt sein, damit das Zielfeld angezeigt wird.
+   1. Die dritte Option ist **Ausgewählt** oder **Nicht ausgewählt**. Die Auswahl von **Ausgewählt** bedeutet, dass bei Auswahl des Werts das Zielfeld angezeigt wird. Die Auswahl von **Nicht ausgewählt** bedeutet, dass bei Auswahl eines anderen Werts im Definitionsfeld das Zielfeld angezeigt wird.
+   1. Um der Logikanweisung eine Regel **und** hinzuzufügen, klicken Sie direkt unter der soeben erstellten Regel auf **Regel hinzufügen** . Befolgen Sie dieselben Anweisungen zum Erstellen der Regel. Alle Und-Regeln müssen erfüllt sein, damit das Zielfeld angezeigt wird.
 
       ![Logikaufbau anzeigen](assets/custom-form-logic-builder-display1.png)
 
-   1. So fügen Sie eine **Oder** -Regel zur Logikanweisung hinzu, klicken Sie auf **Regel hinzufügen** im unteren Bereich des Logikgenerators. Klicken Sie anschließend auf **Regel hinzufügen** innerhalb des Bereichs Oder und befolgen Sie dieselben Anweisungen zum Erstellen der Regel. Wenn eine Oder-Regel erfüllt ist, wird das Zielfeld angezeigt.
+   1. Um der Logikanweisung eine Regel **oder** hinzuzufügen, klicken Sie unten im Logikaufbau auf **Regel hinzufügen** . Klicken Sie dann im Bereich Oder auf **Regel hinzufügen** und befolgen Sie dieselben Anweisungen zum Erstellen der Regel. Wenn eine Oder-Regel erfüllt ist, wird das Zielfeld angezeigt.
 
-1. Klicks **Speichern** wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
+1. Klicken Sie auf **Speichern** , wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
 
    Die Symbole für die Anzeigenlogik werden dem Zielfeld und dem Definitionsfeld im Formularentwickler hinzugefügt.
 
@@ -123,12 +123,12 @@ Logik überspringen definiert benutzerdefinierte Formularfelder, die übersprung
 
 {{step-1-to-setup}}
 
-1. Klicks **Benutzerdefinierte Forms**.
-1. Erstellen Sie ein neues benutzerdefiniertes Formular oder öffnen Sie ein vorhandenes Formular. Siehe [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) für Details.
+1. Klicken Sie auf **Benutzerdefinierter Forms**.
+1. Erstellen Sie ein neues benutzerdefiniertes Formular oder öffnen Sie ein vorhandenes Formular. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) .
 1. Fügen Sie dem Formular nach Bedarf Felder hinzu. Das definierende Feld für die Logik zum Überspringen muss ein Multiple-Choice-Feld sein (Optionsfeld, Dropdown-Menü oder Kontrollkästchen).
-1. Wählen Sie das definierende Feld aus und klicken Sie auf **Logik hinzufügen** unten links im Bildschirm.
-1. Wählen Sie die **Logik überspringen** Registerkarte.
-1. Klicks **Regel zum Überspringen hinzufügen** auf dem Logikaufbau.
+1. Wählen Sie das definierende Feld aus und klicken Sie unten links im Bildschirm auf **Logik hinzufügen** .
+1. Wählen Sie die Registerkarte **Logik überspringen** aus.
+1. Klicken Sie im Logikaufbau auf **Regel zum Überspringen hinzufügen** .
 
    ![Logikaufbau überspringen](assets/custom-form-logic-builder-skip-blank.png)
 
@@ -136,14 +136,14 @@ Logik überspringen definiert benutzerdefinierte Formularfelder, die übersprung
 
    1. Das definierende Feld wird im Builder angezeigt. Dies ist das Feld, auf das Sie die Logik zum Überspringen angewendet haben.
    1. Die erste Option besteht darin, den Auswahlwert auszuwählen. Es sind nur die für das Feld bereits definierten Werte verfügbar.
-   1. Die zweite Option lautet **Ausgewählt** oder **Nicht ausgewählt**. Auswahl **Ausgewählt** bedeutet, dass bei Auswahl des Werts das Zielfeld angezeigt und die dazwischen liegenden Felder übersprungen werden. Auswahl **Nicht ausgewählt** bedeutet, dass bei Auswahl eines anderen Werts im definierenden Feld das Zielfeld angezeigt und die dazwischen liegenden Felder übersprungen werden.
-   1. Die dritte Option ist das Zielfeld oder der Ort, zu dem übersprungen werden soll. Wählen Sie einen Feldnamen oder **Formularende**. Möglicherweise müssen Sie zuerst auf das Wort &quot;leer&quot;klicken, bevor Sie eine Option auswählen.
+   1. Die zweite Option ist **Ausgewählt** oder **Nicht ausgewählt**. Die Auswahl von **Ausgewählt** bedeutet, dass bei Auswahl des Werts das Zielfeld angezeigt und die dazwischen liegenden Felder übersprungen werden. Die Auswahl von **Nicht ausgewählt** bedeutet, dass bei Auswahl eines anderen Werts im definierenden Feld das Zielfeld angezeigt und die dazwischen liegenden Felder übersprungen werden.
+   1. Die dritte Option ist das Zielfeld oder der Ort, zu dem übersprungen werden soll. Wählen Sie einen Feldnamen oder **Formularende** aus. Möglicherweise müssen Sie zuerst auf das Wort &quot;leer&quot;klicken, bevor Sie eine Option auswählen.
 
       ![Logikaufbau überspringen](assets/custom-form-logic-builder-skip1.png)
 
-   1. So fügen Sie eine **Oder** -Regel zur Logikanweisung hinzu, klicken Sie auf **Regel hinzufügen** im unteren Bereich des Logikgenerators. Wählen Sie dann die Optionen aus, die denselben Aufforderungen zum Erstellen der Regel folgen. Wenn eine **Oder** -Regel erfüllt ist, wird das Zielfeld angezeigt.
+   1. Um der Logikanweisung eine Regel **oder** hinzuzufügen, klicken Sie unten im Logikaufbau auf **Regel hinzufügen** . Wählen Sie dann die Optionen aus, die denselben Aufforderungen zum Erstellen der Regel folgen. Wenn eine **Oder** -Regel erfüllt ist, wird das Zielfeld angezeigt.
 
-1. Klicks **Speichern** wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
+1. Klicken Sie auf **Speichern** , wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
 
    Die Symbole für die Logik überspringen werden dem Zielfeld und dem Definitionsfeld im Formularentwickler hinzugefügt.
 

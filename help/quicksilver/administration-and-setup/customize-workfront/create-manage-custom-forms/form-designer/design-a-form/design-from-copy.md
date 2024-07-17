@@ -45,15 +45,15 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen
 
 {{step-1-to-setup}}
 
-1. Klicks **Benutzerdefinierter Forms.**
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie als Grundlage für ein neues benutzerdefiniertes Formular verwenden möchten, und klicken Sie dann auf ![Kopiersymbol](assets/copy-icon.png).
-1. Im **Benutzerdefinierte Formularkopie** Geben Sie die folgenden Informationen ein:
+1. Klicken Sie auf **Benutzerdefinierter Forms.**
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie als Grundlage für ein neues benutzerdefiniertes Formular verwenden möchten, und klicken Sie dann auf das Symbol ![Kopieren](assets/copy-icon.png).
+1. Geben Sie in das Feld **Benutzerdefinierte Formularkopie** die folgenden Informationen ein:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,7 +65,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Formulartypen </p> </td> 
-      <td> <p>Im <b>Formulartyp</b> Wählen Sie die Objekttypen aus, mit denen das benutzerdefinierte Formular verwendet werden soll, und klicken Sie auf das X neben allen Typen, die Sie entfernen möchten. Typen, die bereits mit dem Formular verknüpft sind, sind in der Liste deaktiviert.</p> 
+      <td> <p>Wählen Sie im Feld <b>Formulartyp</b> die Objekttypen aus, mit denen das benutzerdefinierte Formular verwendet werden soll, und klicken Sie auf das X neben allen Typen, die Sie entfernen möchten. Typen, die bereits mit dem Formular verknüpft sind, sind in der Liste deaktiviert.</p> 
       <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>Das Formular muss mindestens einem Objekttyp zugeordnet sein.</p> 
       </td> 
@@ -73,14 +73,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     </tbody> 
    </table>
 
-1. Klicks **Kopieren**.
+1. Klicken Sie auf **Kopieren**.
 
    Wenn berechnete Felder im Originalformular auf Felder verweisen, die nicht mit einem Objekttyp kompatibel sind, den Sie dem neuen Formular hinzufügen, werden Sie aufgefordert, die Berechnungen in diesen Feldern zu ändern.
 
    Wenn eine Zugriffsoption für einen Abschnittsumbruch im Originalformular nicht mit einem Objekttyp kompatibel ist, den Sie zum neuen hinzufügen, werden Sie in einer Meldung aufgefordert, die Option anzupassen.
 
-1. Wählen Sie das soeben kopierte Formular aus und klicken Sie auf ![Symbol Bearbeiten](assets/edit-icon.png).
-1. Nehmen Sie Änderungen am Formular vor, wie in den folgenden Abschnitten des [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) Artikel:
+1. Wählen Sie das soeben kopierte Formular aus und klicken Sie dann auf das Symbol ![Bearbeiten](assets/edit-icon.png).
+1. Nehmen Sie alle Änderungen am Formular vor, wie in den folgenden Abschnitten des Artikels [Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben:
 
    * [Vorhandenes Feld oder Widget in einem anderen benutzerdefinierten Formular wiederverwenden](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
       * [Textfelder hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
@@ -90,4 +90,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       * [Bilder, PDF und Videos hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
       * [Hinzufügen von Adobe XD-Dateien](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
 
-1. (Optional) Nachdem Sie auf **Speichern+Schließen**, fügen Sie das Formular an das Objekt an, in dem Sie es verwenden möchten, wie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Optional) Nachdem Sie auf &quot;**Speichern+Schließen**&quot;geklickt haben, fügen Sie das Formular an das Objekt an, in dem Sie es verwenden möchten, wie unter &quot;[Benutzerdefiniertes Formular zu einem Objekt hinzufügen](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)&quot;beschrieben.

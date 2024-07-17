@@ -9,7 +9,7 @@ role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Ein Abonnement kann auch andere Attribute aufweisen, z. B. seine eigene eindeuti
 
 ## Kann ich basierend auf bestimmten Kriterien in einer Ereignis-Payload auswählen, welche Ereignisse an einen Endpunkt gesendet werden?
 
-Ereignisabonnementfilter ermöglichen die Sortierung von Ereignisunterschriften nach bestimmten Kriterien. Es wird empfohlen, Filter auf Ereignis-Abonnements anzuwenden, da dadurch die Anzahl der Nachrichten, die ein Endpunkt verbrauchen muss, erheblich reduziert werden kann. Weitere Informationen finden Sie unter [Filter für Ereignisabschlüsse](../../wf-api/general/event-subs-api.md#event).
+Ereignisabonnementfilter ermöglichen die Sortierung von Ereignisunterschriften nach bestimmten Kriterien. Es wird empfohlen, Filter auf Ereignis-Abonnements anzuwenden, da dadurch die Anzahl der Nachrichten, die ein Endpunkt verbrauchen muss, erheblich reduziert werden kann. Weitere Informationen finden Sie unter [Filterung von Ereignisabonnements](../../wf-api/general/event-subs-api.md#event).
 
 ## Warum gibt die API einen 409-Konflikt-Antwort-Code zurück?
 
@@ -45,9 +45,9 @@ Wenn Sie versuchen, ein Ereignisabonnement zu erstellen und einen Antwortcode zu
 
 Suchen Sie nach den folgenden Szenarien und verwenden Sie die empfohlene Lösung:
 
-* Stellen Sie sicher, dass Ihr Abonnement-Endpunkt, der durch die Variable **url** field - gibt einen HTTP-Antwort-Code (2.XX) zurück. Ist dies nicht der Fall, wenden Sie sich an den Workfront-Support oder lesen Sie [Versandanforderungen für Ereignisabschlüsse](../../wf-api/general/setup-event-sub-endpoint.md).
+* Stellen Sie sicher, dass Ihr Abonnement-Endpunkt, der durch das Feld **url** definiert wird, einen HTTP-Antwortcode von 2000 zurückgibt. Ist dies nicht der Fall, kontaktieren Sie den Workfront-Support oder lesen Sie die Informationen unter [Voraussetzungen für die Bereitstellung der Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
 
-* Die Ereignisbereitstellungsanforderung kann einen Timeout aufweisen, bevor sie abgeschlossen wird. Stellen Sie sicher, dass Ihr Endpunkt innerhalb von 5 Sekunden konsistent reagiert. Dies ist die standardmäßige Zeitüberschreitung, die für die HTTP-Anforderung festgelegt wurde, um eine Ereignisabonnementmeldung bereitzustellen. Wenn Ihr Endpunkt nicht innerhalb von 5 Sekunden antwortet, wenden Sie sich an den Workfront-Support oder lesen Sie [Versandanforderungen für Ereignisabschlüsse](../../wf-api/general/setup-event-sub-endpoint.md).
+* Die Ereignisbereitstellungsanforderung kann einen Timeout aufweisen, bevor sie abgeschlossen wird. Stellen Sie sicher, dass Ihr Endpunkt innerhalb von 5 Sekunden konsistent reagiert. Dies ist die standardmäßige Zeitüberschreitung, die für die HTTP-Anforderung festgelegt wurde, um eine Ereignisabonnementmeldung bereitzustellen. Wenn Ihr Endpunkt nicht innerhalb von 5 Sekunden antwortet, wenden Sie sich an den Workfront-Support oder lesen Sie die Informationen unter [Voraussetzungen für die Bereitstellung der Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
 * Die Ereignisse generieren möglicherweise nicht die Art, wie Sie denken. Stellen Sie sicher, dass Sie keine Annahmen darüber treffen, wie oder wann Ereignisse ausgelöst werden sollen und was tun. Sie können beispielsweise davon ausgehen, dass das Aktualisieren eines Dokuments für eine Aufgabe ein Ereignis zur Aufgabenaktualisierung generiert, stattdessen jedoch ein Ereignis zum Erstellen oder Aktualisieren von Dokumenten generiert.
 * Ihr Abonnement wird möglicherweise nicht wie erwartet konfiguriert. Sie können Ereignisabonnements in verschiedenen Umgebungen erstellen und erwarten, dass diese wie ihre anderen Workfront-Daten übertragen. Ereignisabonnementdaten sind jedoch nicht so konfiguriert, dass sie kopiert oder in andere Umgebungen weitergeleitet werden. Stellen Sie sicher, dass Sie API-Anfragen an die richtige Umgebung senden und dass die Abonnements in dieser Umgebung wie erwartet konfiguriert sind.
 * Die Payload wurde nicht empfangen, da die erforderliche Workfront-IP-Adresse nicht zur Zulassungsliste Ihrer Firewall hinzugefügt wurde. Ereignisabonnemensereignisse werden nur von wenigen IP-Adressen gesendet. Stellen Sie sicher, dass das Zielnetzwerk über alle IP-Ausnahmen verfügt, die für den Empfang von Payloads von Workfront-Ereignisanmeldungen erforderlich sind.
@@ -73,11 +73,11 @@ Einige der folgenden Szenarien können verantwortlich sein:
 
 ## Was soll ich tun, wenn ich beim Versuch, die Ereignisabonnement-API aufzurufen, den Status 500 erhalte?
 
-Wenden Sie sich an den Workfront-Support. Informationen zum Kontakt mit dem Support finden Sie unter [Support kontaktieren](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Wenden Sie sich an den Workfront-Support. Informationen zum Kontaktieren des Supports finden Sie unter [Wenden Sie sich an den Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Welche verschiedenen Authentifizierungstypen kann ich mit Workfront-Ereignisabonnements verwenden?
 
-Sie können jede Authentifizierung verwenden, die ein Trägertoken verwendet. Die **authToken** -Feld eines Abonnements ist eine Zeichenfolge, die ein OAuth2-Träger-Token darstellt, das zur Authentifizierung mit der in der **url** -Feld. Theoretisch kann dieser Token-Wert alles sein, solange der Ziel-Endpunkt weiß, wie er seine Kodierung handhabt, d. h. **UTF-8**.
+Sie können jede Authentifizierung verwenden, die ein Trägertoken verwendet. Das Feld **authToken** eines Abonnements ist eine Zeichenfolge, die ein OAuth2-Träger-Token darstellt, das zur Authentifizierung mit der im Feld **url** angegebenen URL verwendet wird. Theoretisch könnte dieser Token-Wert alles sein, solange der Ziel-Endpunkt weiß, wie er seine Kodierung handhabt, nämlich **utf-8**.
 
 ## Wie lange sollte es dauern, bis ich meine Ereignis-Payload von Workfront-Ereignisanmeldungen erhalte?
 
@@ -85,12 +85,12 @@ Im Allgemeinen erhalten Sie in weniger als 5 Sekunden nach der Protokollierung d
 
 ## Zusätzliche Ressourcen
 
-* **API-Dokumentation**: [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md)
+* **API-Dokumentation**: [Ereignis-Abonnement-API](../../wf-api/general/event-subs-api.md)
 
-* **Best Practices**: [Best Practices für Ereignisabonnements](../../wf-api/general/event-sub-best-practice.md)
+* **Best Practices**: [Best Practices für die Ereignisanmeldung](../../wf-api/general/event-sub-best-practice.md)
 
-* **Felder, die die Payloads der Trigger-Ereignisanmeldung enthalten**: [Ressourcen-Felder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md)
+* **Felder, die die Payloads für Trigger-Ereignisabonnements**: [Felder für Ereignisabonnement-Ressourcen](../../wf-api/api/event-sub-resource-fields.md)
 
-* **Neuversuche bei Ereignisabonnements**: [Wiederholungen von Ereignisabonnements](../../wf-api/api/event-sub-retries.md)
+* **Neuversuche bezüglich der Ereignisabonnements**: [Wiederholungen der Ereignisabonnements](../../wf-api/api/event-sub-retries.md)
 
 * **Konfigurieren der Firewall für Workfront**: [Konfigurieren der Zulassungsliste Ihrer Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

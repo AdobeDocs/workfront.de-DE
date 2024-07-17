@@ -58,13 +58,13 @@ Wenn Sie interaktive Inhalte in einer ZIP-Datei zum Testen bündeln, stellen Sie
 
   Dies ist bei Verwendung des Desktop Proofing Viewers nicht erforderlich.
 
-  Weitere Informationen finden Sie unter [Grundlegendes zum Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  Weitere Informationen finden Sie unter [Grundlegendes zum Desktop-Proofing-Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
 * Die Website muss in einem iframe angezeigt werden dürfen.
 
   Dies ist bei Verwendung des Desktop Proofing Viewers nicht erforderlich.
 
-  Weitere Informationen finden Sie unter [Grundlegendes zum Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  Weitere Informationen finden Sie unter [Grundlegendes zum Desktop-Proofing-Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
 ## Über die Erstellung eines interaktiven Testversands
 
@@ -72,7 +72,7 @@ Nachdem Sie die ZIP-Bundle-Datei vorbereitet haben, erstellen Sie einen interakt
 
 Weitere Informationen finden Sie unter [Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
-Wenn Sie Workfront Testversand verwenden, lesen Sie den Abschnitt . [Erstellen eines Testversands für interaktive Inhalte](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) im Artikel [Testsendungen in Workfront Testversand generieren](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Wenn Sie Workfront Proof verwenden, finden Sie weitere Informationen im Abschnitt [Erstellen eines Testversands für interaktive Inhalte](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) im Artikel [Testsendungen in Workfront Proof generieren](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) .
 
 ## Über die Überprüfung interaktiver Testsendungen
 

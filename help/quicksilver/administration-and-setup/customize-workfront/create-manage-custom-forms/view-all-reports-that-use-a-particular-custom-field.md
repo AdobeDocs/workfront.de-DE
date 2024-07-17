@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sie können eine benutzerdefinierte Ansicht im Bereich &quot;Benutzerdefinierter Forms&quot;hinzufügen, die anzeigt, welche Berichte ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden. Dies ist nützlich, wenn Sie das Feld oder Widget bearbeiten oder löschen müssen, da es möglicherweise bereits in einem oder mehreren Berichten implementiert ist. Es ist wichtig zu beurteilen, ob diese Berichte angepasst werden müssen, damit sie weiterhin ordnungsgemäß funktionieren.
 
-Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Zugriffsanforderungen
 
@@ -44,34 +44,34 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Berichte auflisten, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Benutzerdefinierte Forms**.
-1. Klicks **Felder** , um einen Bericht anzuzeigen, in dem alle benutzerdefinierten Felder und Widgets in Ihrer Workfront-Instanz aufgelistet sind.
+1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms**.
+1. Klicken Sie auf **Felder** , um einen Bericht anzuzeigen, in dem alle benutzerdefinierten Felder und Widgets in Ihrer Workfront-Instanz aufgelistet sind.
 
-1. Klicken Sie auf **Ansicht** und suchen Sie dann nach benutzerdefinierten Ansichten in der Liste, die die **Berichte** -Spalte (keine Standardspalte auf dieser Registerkarte).
+1. Klicken Sie auf das Menü **Ansicht** und suchen Sie dann nach benutzerdefinierten Ansichten in der Liste, die die Spalte **Berichte** enthalten (dies ist keine Standardspalte auf dieser Registerkarte).
 
-   In der Spalte Berichte können Sie sehen, welche Berichte die einzelnen benutzerdefinierten Felder und Widgets verwenden, die zu einem benutzerdefinierten Formular in Ihrem System hinzugefügt wurden. Es ist möglich, dass jemand bereits eine Ansicht erstellt hat, die Folgendes enthält: **Berichte** Spalte.
+   In der Spalte Berichte können Sie sehen, welche Berichte die einzelnen benutzerdefinierten Felder und Widgets verwenden, die zu einem benutzerdefinierten Formular in Ihrem System hinzugefügt wurden. Es ist möglich, dass bereits eine Ansicht erstellt wurde, die die Spalte **Berichte** enthält.
 
-1. Wenn keine Ansicht angezeigt wird, die die **Berichte** erstellen Sie eine neue Ansicht, die Folgendes enthält:
+1. Wenn keine Ansicht angezeigt wird, die die Spalte **Berichte** enthält, erstellen Sie eine neue Ansicht, die diese enthält:
 
-   1. Klicken Sie auf **Ansicht** Menü und klicken Sie auf **Neue Ansicht**.
+   1. Klicken Sie auf das Menü **Ansicht** und dann auf **Neue Ansicht**.
 
-   1. Im **Neue Ansicht** Seite, die angezeigt wird, ersetzen Sie im Feld links oben **Neue Parameteransicht** mit einem beschreibenden Namen für die Ansicht, z. B. *Felder und Widgets*.
+   1. Ersetzen Sie auf der angezeigten Seite **Neue Ansicht** im Feld links oben die Option **Neue Parameteransicht** durch einen beschreibenden Namen für die Ansicht, z. B. *Felder und Widgets*.
 
-   1. Klicks **Spalte hinzufügen** in der rechten unteren Ecke.
-   1. Im **In dieser Spalte anzeigen** in der Nähe der oberen linken Ecke angezeigt wird, beginnen Sie mit der Eingabe. *Bericht*, wählen Sie **Berichte** , wenn sie in der Liste unter dem Feld angezeigt wird.
+   1. Klicken Sie unten rechts auf **Spalte hinzufügen**.
+   1. Geben Sie in das Feld **In dieser Spalte anzeigen** oben links den Wert *report* ein und wählen Sie dann **Reports** aus, wenn es in der Liste unter dem Feld angezeigt wird.
 
-   1. (Bedingt) Wenn Sie die **Berichte** -Spalte, die Sie gerade zu einer anderen horizontalen Position hinzugefügt haben, ziehen Sie die Kopfzeile in **Spaltenvorschau** unten auf der Seite.
+   1. (Bedingt) Wenn Sie die gerade hinzugefügte Spalte **Berichte** an eine andere horizontale Position verschieben möchten, ziehen Sie die Kopfzeile in den Bereich **Spaltenvorschau** am unteren Rand der Seite.
 
-   1. Klicks **Fertig** Klicken Sie auf **Ansicht speichern**.
+   1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.
 
-1. Klicken Sie auf **Ansicht** Dropdown-Menü und wählen Sie dann den Namen der soeben erstellten benutzerdefinierten Ansicht aus.
-1. Im **Name** -Spalte, das benutzerdefinierte Feld oder Widget suchen, das Sie bearbeiten oder löschen möchten, und dann die **Berichte** in dieser Zeile, um zu sehen, welche Berichte sie verwenden (falls vorhanden).
+1. Klicken Sie auf das Dropdownmenü **Ansicht** und wählen Sie dann den Namen der soeben erstellten benutzerdefinierten Ansicht aus.
+1. Suchen Sie in der Spalte **Name** das benutzerdefinierte Feld oder Widget, das Sie bearbeiten oder löschen möchten, und sehen Sie sich dann die Spalte **Berichte** in dieser Zeile an, um zu sehen, welche Berichte es verwenden (falls vorhanden).
 
    Um die Informationen für diese Spalte zu finden, sucht Workfront in allen Berichtsfiltern, Ansichten und Gruppierungen nach den benutzerdefinierten Feldern und Widgets.
 
@@ -88,9 +88,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >Diese Ansicht ist auch in einem Parameterbericht verfügbar:
    >      
    > 1. Klicken Sie im Hauptmenü auf **Berichte**.
-   > 1. Klicken Sie links oben auf **Neuer Bericht** Klicken Sie auf **Parameter** in der Liste, die angezeigt wird.
-   > 1. Klicks **Spalte hinzufügen** in der rechten unteren Ecke.
-   > 1. Im **In dieser Spalte anzeigen** in der Nähe der oberen linken Ecke angezeigt wird, beginnen Sie mit der Eingabe. *Bericht*, wählen Sie **Berichte** , wenn sie in der Liste unter dem Feld angezeigt wird.
-   > 1. (Bedingt) Wenn Sie die **Berichte** -Spalte, die Sie gerade zu einer anderen horizontalen Position hinzugefügt haben, ziehen Sie die Kopfzeile in **Spaltenvorschau** unten auf der Seite.
-   > 1. Klicks **Fertig** Klicken Sie auf **Speichern+Schließen**.
-   > 1. Geben Sie einen beschreibenden Namen für den Bericht ein, beispielsweise *Felder und Widgets*.
+   > 1. Klicken Sie in der linken oberen Ecke auf **Neuer Bericht** und klicken Sie dann in der angezeigten Liste auf **Parameter** .
+   > 1. Klicken Sie unten rechts auf **Spalte hinzufügen**.
+   > 1. Geben Sie in das Feld **In dieser Spalte anzeigen** oben links den Wert *report* ein und wählen Sie dann **Reports** aus, wenn es in der Liste unter dem Feld angezeigt wird.
+   > 1. (Bedingt) Wenn Sie die gerade hinzugefügte Spalte **Berichte** an eine andere horizontale Position verschieben möchten, ziehen Sie die Kopfzeile in den Bereich **Spaltenvorschau** am unteren Rand der Seite.
+   > 1. Klicken Sie auf **Fertig** und dann auf **Speichern+Schließen**.
+   > 1. Geben Sie einen beschreibenden Namen für den Bericht ein, z. B. *Felder und Widgets*.

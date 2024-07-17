@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Verwalten von Testversandfristen
 
-* [Festlegen eines Termins für einen vorhandenen Grundnachweis](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
+* [Legen Sie einen Termin für einen vorhandenen grundlegenden Testversand fest](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
 * [Hinzufügen, Bearbeiten oder Löschen eines Termins für eine Phase](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
-* [Festlegen einzelner Überprüfungsfristen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
+* [Festlegen einzelner Reviewer-Termine](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
 * [Entfernen einzelner Überprüfungstermine](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)

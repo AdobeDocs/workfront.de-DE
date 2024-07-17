@@ -12,8 +12,8 @@ role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: '315'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Anzeigen des Zugriffs für Benutzer. Weitere Informationen zum Zugriff auf die Anzeige von Benutzern finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Anzeigen des Zugriffs für Benutzer Weitere Informationen zum Zugriff auf das Anzeigen von Benutzern finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,31 +48,32 @@ Sie müssen über Folgendes verfügen:
 
 ## Zugriffsebenen und Lizenzen Ihrer Benutzer auflisten
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Benutzer**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer**.![](assets/main-menu-icon.png)
 
    Standardmäßig werden alle Benutzer, die als Aktiv festgelegt sind, in der Liste angezeigt.
 
-1. Im **Ansicht** Dropdown-Menü auswählen **Lizenzen**.
+1. Wählen Sie im Dropdownmenü **Ansicht** die Option **Lizenzen** aus.
 
    In der Spalte Lizenz wird der Name der jedem Benutzer zugewiesenen Lizenz angezeigt.
 
-1. Im **Gruppierung** Dropdown-Menü, klicken Sie auf **Lizenztyp**.
+1. Klicken Sie im Dropdownmenü **Gruppierung** auf **Lizenztyp**.
 
    In dieser Ansicht werden die Benutzer gruppiert, die über dieselben Lizenztypen verfügen.
 
 1. (Optional) So filtern Sie die Liste nach einer bestimmten Lizenz:
 
-   1. Klicken Sie auf **Filter** Dropdown-Menü, und klicken Sie auf **Neuer Filter**.
+   1. Klicken Sie auf das Dropdown-Menü **Filter** und dann auf **Neuer Filter**.
 
-   1. Klicken **Filterregel hinzufügen**.
-   1. Typisierung beginnen **Lizenz** und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
-   1. Mit dem **Gleich** -Modifikator ausgewählt ist, geben Sie den Namen der Lizenz ein, nach der Sie die Liste filtern möchten.
+   1. Klicken Sie auf **Filterregel hinzufügen**.
+   1. Geben Sie **Lizenz** ein und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
+   1. Geben Sie bei ausgewähltem Modifikator **Equal** den Namen der Lizenz ein, nach der Sie die Liste filtern möchten.
 
       Sie können mehr als einen Lizenztyp angeben.
 
-   1. Klicken **Filter speichern**.
+   1. Klicken Sie auf **Filter speichern**.
 
       In der Liste werden nur die Benutzer angezeigt, die den im Filter angegebenen Lizenztypen zugeordnet sind.
+
    >[!TIP]
    >
    >Sie können die Liste auch nach Lizenztypen gruppieren oder nach einer bestimmten Lizenz filtern.

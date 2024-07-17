@@ -33,11 +33,11 @@ Die folgende Tabelle enthält Informationen über den Unterschied zwischen dem V
  <tbody> 
   <tr> 
    <td role="rowheader">Verpflichtungsdatum</td> 
-   <td> <p>Das Datum der Veröffentlichung ist das Datum, bis zu dem die Person, die einer Aufgabe oder einem Problem zugewiesen ist, die Absicht hat, die Aufgabe oder das Problem manuell abzuschließen.</p> <p>Weitere Informationen zum Festlegen von Datumswerten finden Sie unter <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Datum bestätigen - Übersicht</a>.</p> </td> 
+   <td> <p>Das Datum der Veröffentlichung ist das Datum, bis zu dem die Person, die einer Aufgabe oder einem Problem zugewiesen ist, die Absicht hat, die Aufgabe oder das Problem manuell abzuschließen.</p> <p>Weitere Informationen zu den Zusendedaten finden Sie unter <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Übersicht über das Veröffentlichungsdatum</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Geplantes Abschlussdatum</td> 
-   <td> <p>Das geplante Abschlussdatum zeigt an, wann der Projektinhaber erwartet, dass die Aufgabe oder das Problem abgeschlossen ist. Sie kann entweder manuell vom Projekteigentümer oder von jedem Benutzer mit Verwaltungsberechtigungen für die Aufgabe oder das Problem festgelegt oder automatisch von Adobe Workfront berechnet werden.</p> <p>Weitere Informationen zu geplanten Abschlussdaten finden Sie unter <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Übersicht über die geplante Aufgabe - Abschlussdatum</a></p> </td> 
+   <td> <p>Das geplante Abschlussdatum zeigt an, wann der Projektinhaber erwartet, dass die Aufgabe oder das Problem abgeschlossen ist. Sie kann entweder manuell vom Projekteigentümer oder von jedem Benutzer mit Verwaltungsberechtigungen für die Aufgabe oder das Problem festgelegt oder automatisch von Adobe Workfront berechnet werden.</p> <p>Weitere Informationen zu geplanten Abschlussdaten finden Sie unter <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Übersicht über die geplante Aufgabe - Abschlussdatum </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,5 +63,5 @@ Wenn das vom Verantwortlichen angebotene Datum für die Zusage für den Projekte
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Datum bestätigen - Übersicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+* [Übersicht über das Datum des Versands ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Aktualisieren der Daten zum Bestätigen von Aufgaben und Problemen](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Die Artikel in diesem Abschnitt enthalten Informationen dazu, wie Sie die Arbeit delegieren können, während Sie vorübergehend nicht im Büro sind.
 
-* [Delegieren von Aufgaben und Problemen - Übersicht](../../manage-work/delegate-work/delegate-work-overview.md)
+* [Delegieren von Aufgaben und Problemen - Überblick](../../manage-work/delegate-work/delegate-work-overview.md)
 * [Verwalten der Zuweisung von Aufgaben und Ausgaben](../../manage-work/delegate-work/how-to-delegate-work.md)

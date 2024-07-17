@@ -22,12 +22,12 @@ Sie können einen ganzen Bericht - oder einen bestimmten Block - in ein Dateifor
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Arbeitsfläche für die Berichterstellung Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Bericht exportieren
 
 1. Navigieren Sie zu dem Bericht, den Sie exportieren möchten.
-1. Klicken Sie im Berichtkopf auf die **Mehr** icon ![](assets/more-icon-27x15.png)klicken **Export** und wählen Sie dann das Dateiformat aus, das Sie erstellen möchten.
+1. Klicken Sie in der Kopfzeile des Berichts auf das Symbol **Mehr** ![](assets/more-icon-27x15.png), klicken Sie auf **Exportieren** und wählen Sie dann das Dateiformat aus, das Sie erstellen möchten.
 
    >[!NOTE]
    >

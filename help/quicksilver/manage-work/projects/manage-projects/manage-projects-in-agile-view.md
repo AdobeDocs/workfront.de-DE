@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Sie können die agile Funktionalität für Ihr Projekt ohne die administrativen Herausforderungen nutzen, die normalerweise mit agilen Vorgehensweisen einhergehen (z. B. Verwaltung eines Team-Rückstands oder Erstellung von Iterationen).
 
-Wenn Sie in einer agilen Umgebung arbeiten möchten, die einen Team-Backlog verwendet und es Ihnen ermöglicht, Iterationen aus Aufgaben im Backlog zu erstellen, folgen Sie den Anweisungen unter [Arbeiten in einer agilen Umgebung](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Wenn Sie in einer agilen Umgebung arbeiten möchten, die einen Team-Backlog verwendet und es Ihnen ermöglicht, Iterationen aus Aufgaben im Backlog zu erstellen, befolgen Sie die Anweisungen unter [In einer agilen Umgebung arbeiten](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Zugriffsanforderungen
 
@@ -56,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,20 +74,20 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 Die folgende agile Funktion ist verfügbar, wenn ein Projekt in einer agilen Ansicht verwaltet wird:
 
 * Fertigstellungsstatus\
-  Weitere Informationen zum Fertigstellungsstatus finden Sie unter [Übersicht über den Iteration-Abschlussstatus](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
+  Weitere Informationen zum Fertigstellungsstatus finden Sie unter [Übersicht über den Iterationsabschluss](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md).
 
 * Story Board\
-  Weitere Informationen zum Storyboard finden Sie im Abschnitt [Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) Abschnitt.
+  Weitere Informationen zum Story-Forum finden Sie im Abschnitt [Scrum Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) .
 
-Es gibt einige Unterschiede bei der Verwendung von agilen Ansichten für ein Projekt im Vergleich zur Arbeit in einer reinen agilen Umgebung (mit Rückständen und Iterationen). Weitere Informationen finden Sie unter [Unterschiede bei der Verwendung der Agile-Ansicht für ein Projekt im Vergleich zu einer Iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) in diesem Artikel.
+Es gibt einige Unterschiede bei der Verwendung von agilen Ansichten für ein Projekt im Vergleich zur Arbeit in einer reinen agilen Umgebung (mit Rückständen und Iterationen). Weitere Informationen finden Sie unter [Unterschiede bei der Verwendung der Agile-Ansicht in einem Projekt gegenüber einer Iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) in diesem Artikel.
 
 ### Unterschiede bei der Verwendung der Agile-Ansicht für ein Projekt im Vergleich zu einer Iteration {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [Aufgaben und Unteraufgaben folgen verschiedenen Anzeigeregeln in einer Projekt-Agile-Ansicht und auf dem Story-Forum einer Iteration](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [Aufgaben und Unteraufgaben folgen verschiedenen Anzeigeregeln in einer Projekt-Agile-Ansicht und auf der Story-Pinnwand einer Iteration.](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
 * [Rücklogs und Iterationen werden in der Agile-Ansicht nicht verwendet](#backlogs-and-iterations-are-not-used)
 * [Die Aufgabenreihenfolge wird in der Agile-Ansicht beibehalten und kann nicht neu angeordnet werden](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
 * [Aufgaben werden nur in geplanten Stunden auf einer Projektliste gemessen](#tasks-are-measured-only-in-planned-hours)
-* [Das Agile-Team wird nicht in einer Agile-Ansicht verwendet](#the-agile-team-is-not-used)
+* [Das Agile-Team wird in einer Agile-Ansicht nicht verwendet](#the-agile-team-is-not-used)
 * [Jeder Benutzer im Projekt kann das Projekt in einer anderen Agile-Ansicht anzeigen](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
 #### Aufgaben und Unteraufgaben folgen verschiedenen Anzeigeregeln in einer Projekt-Agile-Ansicht und auf dem Story-Forum einer Iteration {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
@@ -99,9 +99,9 @@ Es gibt einige Unterschiede bei der Verwendung von agilen Ansichten für ein Pro
 
   Diese Aufgaben werden in der agilen Projektansicht wie folgt angezeigt:
 
-  ![Projektansicht in der Mobile-Ansicht - Aufgaben ohne übergeordnete Aufgaben oder Unteraufgaben](assets/agile-project-singlecard-nwe.png)
+  ![Ansicht &quot;Projekt agile&quot;- Aufgaben ohne übergeordnete Aufgaben oder Unteraufgaben](assets/agile-project-singlecard-nwe.png)
 
-* Übergeordnete Aufgaben mit Unteraufgaben werden immer im **Meldungen** -Spalte des Story-Board der Agile-Ansicht. Unteraufgaben werden in der Swimlane der übergeordneten Aufgabe angezeigt.\
+* Übergeordnete Aufgaben mit Unteraufgaben werden immer in der Spalte **Meldungen** der Storys-Pinnwand der Agile-Ansicht angezeigt. Unteraufgaben werden in der Swimlane der übergeordneten Aufgabe angezeigt.\
   Diese Aufgaben werden beispielsweise in der Listenansicht des Projekts wie folgt angezeigt:
 
   ![Agile Projektliste - Aufgaben mit übergeordneten Elementen und Unteraufgaben](assets/agile-project-parent-list-nwe.png)\
@@ -117,7 +117,7 @@ Es gibt einige Unterschiede bei der Verwendung von agilen Ansichten für ein Pro
 Beim Anzeigen eines Projekts in einer agilen Ansicht werden die folgenden agilen Komponenten nicht verwendet:
 
 * **Rückprotokoll:** Es wird kein Rückstau verwendet, da Aufgaben im Projekt automatisch als Meldungen angezeigt werden.
-* **Iterationen:** Statt Iterationen zu erstellen, um die Daten zu definieren, zu denen die Arbeit abgeschlossen sein wird, werden die aktuell in der Projekt-Timeline festgelegten Tage zu Arbeitstagen.
+* **Iterationen:** Statt Iterationen zu erstellen, um die Termine zu definieren, zu denen die Arbeit abgeschlossen sein wird, werden die derzeit in der Projekt-Timeline festgelegten Tage zu Arbeitstagen.
 
 #### Die Aufgabenreihenfolge wird in der Agile-Ansicht beibehalten und kann nicht neu angeordnet werden {#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered}
 
@@ -148,27 +148,27 @@ Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder
 ## Anzeigen eines Projekts in der Agile-Ansicht
 
 1. Wechseln Sie zu dem Projekt, das Sie in einer agilen Ansicht anzeigen möchten, entweder in der Aufgabenliste oder in der Problemliste.
-1. Klicken Sie auf **Pinnwandansicht** icon ![Pinnwandsymbol](assets/board-icon-for-agile-view.png).
+1. Klicken Sie auf das Symbol **Pinnwandansicht** ![Pinnwandsymbol](assets/board-icon-for-agile-view.png).
 
    Die Pinnwandansicht des Projekts wird standardmäßig angezeigt.
 
-   ![Vorstandsansicht des Projekts](assets/project-agile-board-view.png)
+   ![Pinnwandansicht des Projekts](assets/project-agile-board-view.png)
 
    <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
 1. (Optional) Klicken Sie auf **Konfigurieren** , um Optionen für die Spalten und Karten festzulegen.
 
-   Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen der angezeigten Felder auf einer Karte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie in der Pinnwandansicht eines Projekts keine Spaltenrichtlinien definieren können.
+   Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie in der Pinnwandansicht eines Projekts keine Spaltenrichtlinien definieren können.
 
-1. (Optional) Klicken Sie auf **Verwenden des veralteten agile** , um die ältere agile Ansicht anstelle der Pinnwandansicht zu verwenden.
+1. (Optional) Klicken Sie auf &quot;**Legacy-Datei verwenden&quot;**&quot;, um die Legacy-Mobile-Ansicht anstelle der Pinnwandansicht zu verwenden.
 
 1. (Optional - Nur ältere Dateiansicht) Wenn Sie eine benutzerdefinierte agile Ansicht erstellt haben oder wenn ein anderer Benutzer eine benutzerdefinierte agile Ansicht erstellt und für Sie freigegeben hat, können Sie sie anstelle der standardmäßigen agilen Ansicht anzeigen.
 
-   Klicken Sie auf **Ansicht** Dropdown-Menü und klicken Sie dann auf die gewünschte benutzerdefinierte Ansicht.
+   Klicken Sie auf das Dropdown-Menü **Ansicht** und dann auf die gewünschte benutzerdefinierte Ansicht.
 
-   Die benutzerdefinierte Ansicht &quot;agile&quot;wird verwendet, wenn Sie das nächste Mal auf die **Agile** Symbol.
+   Die benutzerdefinierte agile Ansicht wird verwendet, wenn Sie das nächste Mal auf das Symbol **Agile** klicken.
 
-   Informationen zum Erstellen einer neuen agilen Ansicht finden Sie unter [Agile Ansichten erstellen und anpassen](#create-and-customize-agile-views), unten.
+   Informationen zum Erstellen einer neuen agilen Ansicht finden Sie unten unter [Erstellen und Anpassen von Agile-Ansichten](#create-and-customize-agile-views).
 
    Das Projekt wird in der benutzerdefinierten agile Ansicht angezeigt.
 
@@ -176,9 +176,9 @@ Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder
 
    Wenn Aufgaben sich in einem Status befinden, der nicht auf der agilen Story-Pinnwand angezeigt wird, wird die Aufgabe selbst nicht auf der agilen Story-Pinnwand angezeigt (der prozentuale Abschluss dieser Aufgaben trägt jedoch weiterhin zum Percent Complete der übergeordneten Aufgaben und zum Percent Complete des übergeordneten Projekts bei).
 
-   Um der agilen Ansicht Status hinzuzufügen, erstellen Sie entweder eine neue agile Ansicht oder passen Sie eine vorhandene agile Ansicht an, wie unter [Agile Ansichten erstellen und anpassen](#create-and-customize-agile-views), unten.
+   Um der agilen Ansicht Status hinzuzufügen, erstellen Sie entweder eine neue agile Ansicht oder passen Sie eine vorhandene agile Ansicht an, wie in [Erstellen und Anpassen von Agile-Ansichten](#create-and-customize-agile-views) unten beschrieben.
 
-1. (Optional) Klicken Sie auf die Schaltfläche **Liste** Symbol.
+1. (Optional) Um zur Listenansicht zurückzukehren, klicken Sie auf das Symbol **Liste** .
 
 ## Agile Ansichten erstellen und anpassen {#create-and-customize-agile-views}
 
@@ -188,7 +188,7 @@ Informationen zum Anpassen einer agilen Ansicht finden Sie unter [Erstellen oder
 
 Wie bei standardmäßigen Ansichten in Workfront können Sie vorhandene agile Ansichten anpassen oder neue agile Ansichten von Grund auf neu erstellen. Im Gegensatz zu Standardansichten können Sie keine neuen agilen Ansichten basierend auf vorhandenen agilen Ansichten erstellen.
 
-Weitere Informationen zum Erstellen und Anpassen agiler Ansichten finden Sie unter [Erstellen oder Anpassen einer Agile-Ansicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) im Artikel [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Weitere Informationen zum Erstellen und Anpassen agiler Ansichten finden Sie im Abschnitt [Erstellen oder Anpassen einer Agile-Ansicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) im Artikel [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Vorhandene Agile-Ansicht freigeben
 

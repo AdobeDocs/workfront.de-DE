@@ -19,7 +19,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
-   * A Pro oder höher [Adobe Workfront-Abo](https://www.workfront.com/plans).
+   * Pro oder höher [Adobe Workfront-Plan](https://www.workfront.com/plans).
    * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
 
 * Für den neuen Plan und die Lizenzstruktur:
@@ -34,7 +34,7 @@ Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront 
 
 Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Ein Workfront- oder Gruppenadministrator kann die Namen von Objekten in Workfront Goals so anpassen, dass sie der Terminologie Ihres Unternehmens besser entsprechen.
 
@@ -48,4 +48,4 @@ Als Administrator können Sie die folgenden Workfront Goals-Objektnamen mithilfe
 
 Die Terminologie der Workfront-Ziele ist identisch mit der Terminologieanpassung in Workfront.
 
-Informationen zur Anpassung der Terminologie in Workfront finden Sie unter [Benutzeroberflächenterminologie mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Informationen zum Anpassen der Terminologie in Workfront finden Sie unter [Benutzeroberflächenterminologie mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).

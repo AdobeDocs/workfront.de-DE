@@ -3,7 +3,7 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Die [!DNL Adobe Workfront] Vorschau der Sandbox-Umgebung
+title: Vorschau der Sandbox-Umgebung [!DNL Adobe Workfront]
 description: Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient. Es wird jedes Wochenende von Workfront aktualisiert. Daten, die am Freitag zu Ihrer Live-Umgebung hinzugefügt wurden, werden am folgenden Montag in Ihrer Vorschau-Sandbox angezeigt. Alle Support-Pakete haben Zugriff auf diese Sandbox.
 author: Lisa
 feature: System Setup and Administration
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 ---
 
-# Die [!DNL Adobe Workfront] Vorschau der Sandbox-Umgebung
+# Die Vorschau-Sandbox-Umgebung [!DNL Adobe Workfront]
 
 <!-- Audited: 12/2023 -->
 
-Es gibt zwei Testumgebungen für [!DNL Workfront] , die Repliken Ihrer [!DNL Workfront] Produktionsumgebung:
+Es gibt zwei Testumgebungen für [!DNL Workfront] , die Repliken Ihrer [!DNL Workfront] -Produktionsumgebung sind:
 
 * Vorschau-Sandbox
 
-  Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende aktualisiert wird [!DNL Workfront]. Daten, die am Freitag zu Ihrer Live-Umgebung hinzugefügt wurden, werden am folgenden Montag in Ihrer Vorschau-Sandbox angezeigt.
+  Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende von [!DNL Workfront] aktualisiert wird. Daten, die am Freitag zu Ihrer Live-Umgebung hinzugefügt wurden, werden am folgenden Montag in Ihrer Vorschau-Sandbox angezeigt.
 
   Alle Support-Pakete haben Zugriff auf die Vorschau-Sandbox.
 
 * Die benutzerdefinierte Aktualisierungs-Sandbox
 
-  Die Sandbox für benutzerdefinierte Aktualisierungen ist eine separate Testumgebung, die von Ihnen manuell aktualisiert wird. Es fallen zusätzliche Kosten an, um die Sandbox &quot;Benutzerdefinierte Aktualisierung&quot;zu erhalten. Weitere Informationen zu dieser Umgebung finden Sie unter [Die [!DNL Adobe Workfront] Benutzerdefinierte Sandbox-Umgebung aktualisieren](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  Die Sandbox für benutzerdefinierte Aktualisierungen ist eine separate Testumgebung, die von Ihnen manuell aktualisiert wird. Es fallen zusätzliche Kosten an, um die Sandbox &quot;Benutzerdefinierte Aktualisierung&quot;zu erhalten. Weitere Informationen zu dieser Umgebung finden Sie unter [Die  [!DNL Adobe Workfront] Sandbox-Umgebung für benutzerdefinierte Aktualisierung](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ Es gibt zwei Testumgebungen für [!DNL Workfront] , die Repliken Ihrer [!DNL Wor
   <tr> 
    <th> <p> </p> </th> 
    <th> <p><strong>[!UICONTROL Standard] Support-Paket</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus], [!UICONTROL Preferred] und [!UICONTROL Enterprise] Support Packages</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Plus], [!UICONTROL Preferred] und [!UICONTROL Enterprise] Support Packs</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -63,9 +63,9 @@ Die Vorschau-Sandbox dient als Umgebung, in der Benutzer in Ihrer Organisation D
 
 Die Vorschau-Sandbox enthält Ihre tatsächlichen Produktionsdaten. Sie wird jedoch jedes Wochenende aktualisiert, sodass die Daten bis zu einer Woche hinter der Produktionsumgebung liegen können. Elemente, die seit der letzten Aktualisierungszeit erstellt wurden, befinden sich bis zur folgenden Aktualisierung in der Umgebung &quot;Sandbox-Vorschau&quot;.
 
-Daten fließen unidirektional, von der Produktion zur Vorschau und nicht umgekehrt. Eine Aktualisierung der Vorschauumgebung wird immer von [!DNL Workfront] jedes Wochenende.
+Daten fließen unidirektional, von der Produktion zur Vorschau und nicht umgekehrt. Eine Aktualisierung der Vorschauumgebung wird immer von [!DNL Workfront] an jedem Wochenende geplant.
 
-Vorschau-Sandbox ermöglicht auch [!DNL Workfront] , um neue Funktionen in einer sicheren Umgebung bereitzustellen, bevor sie für die Bereitstellung in der Produktion bereit sind. Sie können die neuen Funktionen testen und [!DNL Workfront] Feedback zu ihrer Funktionalität durch Zugriff auf die Vorschau-Sandbox. Aus diesem Grund liegt der Code der Vorschau-Sandbox immer vor dem Produktions-Code, obwohl Ihre Daten wöchentlich aktualisiert werden.
+Vorschau-Sandbox ermöglicht es [!DNL Workfront] auch, neue Funktionen in einer sicheren Umgebung bereitzustellen, bevor sie für die Bereitstellung in der Produktion bereit sind. Sie können die neuen Funktionen testen und [!DNL Workfront] Feedback zu ihrer Funktionalität geben, indem Sie auf die Vorschau-Sandbox zugreifen. Aus diesem Grund liegt der Code der Vorschau-Sandbox immer vor dem Produktions-Code, obwohl Ihre Daten wöchentlich aktualisiert werden.
 
 Die Vorschau-Umgebung eignet sich ideal für Trainings, das Testen neuer Funktionen und die Bestimmung der Einrichtungsfunktionalität.
 
@@ -73,26 +73,26 @@ Die Vorschau-Umgebung eignet sich ideal für Trainings, das Testen neuer Funktio
 >
 >Beachten Sie beim Zugriff auf die Vorschau-Sandbox das blaue Banner oben im Bildschirm. Das Banner kann während der Arbeit in dieser Umgebung nicht entfernt werden.
 >
->Der Name der Umgebung, auf die Sie zugreifen (Vorschau), und die Release-Version des Codes werden im Banner angezeigt. Klicks **[!UICONTROL Neue Funktionen]** für Informationen zu dieser Version.
+>Der Name der Umgebung, auf die Sie zugreifen (Vorschau), und die Release-Version des Codes werden im Banner angezeigt. Klicken Sie auf **[!UICONTROL Siehe Neue Funktionen]** , um Informationen zu dieser Version zu erhalten.
 >
 >![](assets/preview-banner-nwe-350x161.png)
 
 ## Zugriff auf die Vorschau-Sandbox
 
-Standardmäßig wird als [!DNL Workfront] Administrator haben Sie Zugriff auf die [!UICONTROL Vorschau] Sandbox-Umgebung. Wenn Sie nicht auf die [!UICONTROL Vorschau] Sandbox-Umgebung, wie in diesem Abschnitt beschrieben, kontaktieren Sie Ihre [!DNL Workfront] Administrator oder unserem Support-Team.
+Standardmäßig haben Sie als [!DNL Workfront] -Administrator Zugriff auf die Sandbox-Umgebung [!UICONTROL Vorschau] . Wenn Sie nicht auf die Sandbox-Umgebung [!UICONTROL Vorschau] zugreifen können, wie in diesem Abschnitt beschrieben, wenden Sie sich an Ihren [!DNL Workfront] -Administrator oder unser Support-Team.
 
 
-### Zugriff auf die Vorschau-Sandbox über [!DNL Workfront] Schnittstelle {#accessing-the-preview-sandbox-from-the-workfront-interface}
+### Zugriff auf die Vorschau-Sandbox über die [!DNL Workfront]-Oberfläche {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
-Als [!DNL Workfront] Administrator können Sie über die [!DNL Workfront] -Schnittstelle.
+Als [!DNL Workfront] -Administrator können Sie über die Benutzeroberfläche von [!DNL Workfront] auf die Vorschau-Sandbox zugreifen.
 
 So greifen Sie auf die Vorschau-Sandbox zu:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Einrichtung]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **[!UICONTROL System]** > **[!UICONTROL Voreinstellungen]**.
+1. Klicken Sie auf **[!UICONTROL System]** > **[!UICONTROL Voreinstellungen]**.
 
-1. Im **[!UICONTROL Testumgebungen]** Abschnitt, klicken Sie auf **[!UICONTROL Sandbox-Vorschau]**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Testumgebungen]** auf **[!UICONTROL Sandbox-Vorschau]**.
 
 1. Melden Sie sich mit Ihren Vorschauanmeldeinformationen an.
 
@@ -129,7 +129,7 @@ So melden Sie sich mit einer URL bei der Vorschau-Sandbox an:
 
 1. Navigieren Sie zu dieser URL: `https://companyname.preview.workfront.com/`.
 
-   Sie können auch auf die Vorschau-Sandbox zugreifen, indem Sie [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
+   Sie können auch auf die Vorschau-Sandbox zugreifen, indem Sie zu [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login) navigieren.
 
 1. Melden Sie sich mit Ihren Anmeldedaten für die Vorschau an.
 
@@ -141,14 +141,14 @@ Workfront deaktiviert die gesamte E-Mail-Kommunikation in der Vorschau-Sandbox-U
 
 >[!NOTE]
 >
->Berichtversand und Push-Benachrichtigungen in der Mobile App sind in der Sandbox-Umgebung &quot;Vorschau&quot;immer deaktiviert. Weder du noch der [!DNL Workfront] -Administrator kann die Berichtbereitstellung oder Push-Benachrichtigungen für die mobile App aktivieren, wenn Sie auf die Sandbox-Vorschau-Umgebung zugreifen.
+>Berichtversand und Push-Benachrichtigungen in der Mobile App sind in der Sandbox-Umgebung &quot;Vorschau&quot;immer deaktiviert. Weder Sie noch der Administrator [!DNL Workfront] können die Berichtübermittlung oder Push-Benachrichtigungen für die mobile App aktivieren, wenn Sie auf die Umgebung &quot;Sandbox-Vorschau&quot;zugreifen.
 >
->Weitere Informationen zu Berichtbereitstellungen für die Produktionsumgebung finden Sie unter [Berichtversand - Übersicht](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+>Weitere Informationen zu Berichtbereitstellungen für die Produktionsumgebung finden Sie unter [Übersicht über die Berichtbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 
 ## Einmaliges Anmelden (SSO)
 
-Wenn Sie SSO verwenden, wenden Sie sich an unser Support-Team, um sicherzustellen, dass es ordnungsgemäß konfiguriert ist, damit Sie sich mit Ihren SSO-Anmeldeinformationen bei der anmelden können. [!UICONTROL Vorschau] Sandbox. Wenn Ihre anfängliche Anmeldung fehlschlägt, wenden Sie sich an Ihren regulären Support-Ansprechpartner oder [!DNL Workfront] Administrator um Hilfe.
+Wenn Sie SSO verwenden, wenden Sie sich an unser Support-Team, um sicherzustellen, dass es ordnungsgemäß konfiguriert ist, damit Sie sich mit Ihren SSO-Anmeldeinformationen bei der Sandbox [!UICONTROL Vorschau] anmelden können. Wenn Ihre anfängliche Anmeldung fehlschlägt, wenden Sie sich an Ihren regulären Support-Ansprechpartner oder an den [!DNL Workfront] -Administrator, um Hilfe zu erhalten.
 
 Weitere Informationen zu Single Sign-On finden Sie unter [Überblick über Single Sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
@@ -156,9 +156,9 @@ Weitere Informationen zu Single Sign-On finden Sie unter [Überblick über Singl
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die [!DNL Adobe Admin Console]. Wenn Ihr Unternehmen bei der [!DNL Adobe Admin Console]keine Maßnahmen erforderlich sind.
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in den [!DNL Adobe Admin Console] integriert wurden. Wenn Ihr Unternehmen in die [!DNL Adobe Admin Console] integriert wurde, ist keine Aktion erforderlich.
 >
->Für eine Liste von Verfahren, die je nachdem, ob Ihr Unternehmen in die [!DNL Adobe Admin Console], siehe [Plattformbasierte Verwaltungsunterschiede ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Vorgehensweisen, die sich je nachdem, ob Ihr Unternehmen in den [!DNL Adobe Admin Console] integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Verwaltungsunterschiede ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 Wenn Sie Ihre Vorschau-Sandbox so konfigurieren möchten, dass sie mit einer Single-Sign-On-Lösung funktioniert, können Sie dies tun, indem Sie sie getrennt von Ihrer Produktionsumgebung konfigurieren. Die SSO-Konfiguration in der Vorschau-Sandbox ist unabhängig von Ihrer SSO-Konfiguration in der Produktionsumgebung.
@@ -167,14 +167,14 @@ Wenn Ihre Vorschau-Sandbox aktualisiert wird (an jedem Wochenende), werden die S
 
 Die Schritte zum Konfigurieren von Single Sign-on in der Vorschau-Sandbox ähneln denen zum Konfigurieren in der Produktionsumgebung.
 
-Weitere Informationen zur Konfiguration [!DNL Workfront] mit SSO, siehe [Überblick über Single Sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit SSO finden Sie unter [Überblick über die einmalige Anmeldung in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Vorschau der Umgebungsleistung und -verfügbarkeit
 
 [!DNL Workfront] Vorschau-Umgebungen sind nicht für Leistungs- oder Belastungstests vorgesehen. Verwenden Sie stattdessen diese Umgebungen, um die Funktionsfunktionalität mit den vorhandenen Workflows Ihres Unternehmens zu validieren.
 
-[!DNL Workfront] Vorschauumgebungen sollten immer verfügbar sein.
+[!DNL Workfront] Die Vorschau-Umgebungen sollten immer verfügbar sein.
 
-Jeder Ausfall zu einem [!DNL Workfront] Die Vorschau der Umgebung während der regulären Geschäftszeiten hat unmittelbar nach der Lösung von etwaigen Produktionsproblemen Priorität.
+Jeder Ausfall der Vorschau-Umgebung während der regulären Geschäftszeiten wird unmittelbar nach Behebung etwaiger Produktionsprobleme eine erste Priorität haben.[!DNL Workfront]
 
-Jeder Ausfall zu einem [!DNL Workfront] Die Vorschau der Umgebung am Wochenende (Samstag und Sonntag) wird angesprochen, damit die Umgebung am Montag für Geschäftszeiten läuft.
+Jeder Ausfall einer [!DNL Workfront] Vorschau-Umgebung an Wochenenden (Samstags und Sonntagen) wird behoben, damit die Umgebung am Montag für Geschäftszeiten ausgeführt wird.

@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Auf dieser Seite werden alle Verbesserungen an Berichten und Dashboards beschrieben, die mit Version 23.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter [23.2 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Eine Liste aller Änderungen, die derzeit im 23.2-Versionszyklus verfügbar sind, finden Sie unter [23.2 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Dashboards für die Arbeitsfläche
 

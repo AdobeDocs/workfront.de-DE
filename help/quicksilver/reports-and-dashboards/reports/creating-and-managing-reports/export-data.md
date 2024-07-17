@@ -26,21 +26,21 @@ Einige der Gründe für den Export von Daten sind:
 * Sie möchten eine externe Sicherung Ihrer Workfront-Daten erstellen.
 * Innerhalb der Workfront-Webanwendung ist die Anzeige von nur 2.000 Ergebnissen auf einer Seite begrenzt. Wenn Ihr Bericht mehr als 2.000 Ergebnisse liefert, können Sie den Bericht in eines der verfügbaren Formate exportieren und alle Ergebnisse im Bericht in einer Liste anzeigen.
 
-Sie können einen Bericht entweder manuell über die Benutzeroberfläche von Workfront exportieren oder einen Versand für einen Bericht planen. Dieser Bericht wird Ihnen zu einem späteren Zeitpunkt übermittelt. Weitere Informationen zur Planung bereitgestellter Berichte finden Sie unter [Berichtversand - Übersicht](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Sie können einen Bericht entweder manuell über die Benutzeroberfläche von Workfront exportieren oder einen Versand für einen Bericht planen. Dieser Bericht wird Ihnen zu einem späteren Zeitpunkt übermittelt. Weitere Informationen zur Planung bereitgestellter Berichte finden Sie unter [Übersicht über die Berichtbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Die Informationen in diesem Artikel gelten nicht für die folgenden Exporte:
 
 * Exportieren von Informationen aus Diagrammberichten.
 
-  Weitere Informationen zum Exportieren eines Diagrammberichts finden Sie unter [Diagramm zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Weitere Informationen zum Exportieren eines Diagrammberichts finden Sie unter [Hinzufügen eines Diagramms zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 * Exportieren von Informationen aus der Gantt-Grafik.
 
-  Weitere Informationen zum Exportieren der Gantt-Grafik finden Sie unter [Gantt-Diagramm in PDF exportieren](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+  Weitere Informationen zum Exportieren des Gantt-Diagramms finden Sie unter [Exportieren des Gantt-Diagramms in PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
 * Exportieren von Informationen aus dem Ressourcenplaner.
 
-  Weitere Informationen zum Exportieren der Informationen aus dem Ressourcen-Planer finden Sie unter &quot;Exportoption&quot;in [Navigationsübersicht über den Ressourcenplaner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Weitere Informationen zum Exportieren der Informationen aus dem Ressourcenplaner finden Sie unter &quot;Exportoption&quot;in der Navigationsübersicht für den Ressourcenplaner [1}.](../../../resource-mgmt/resource-planning/resource-planner-navigation.md)
 
 ## Zugriffsanforderungen
 
@@ -76,7 +76,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +84,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Der Bericht muss erstellt werden, bevor die Daten exportiert werden können.
 
-Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) oder [Berichtkopie erstellen](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerspezifischen Bericht erstellen](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) oder [Kopie eines Berichts erstellen](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Exportformate und -beschränkungen
 
@@ -109,7 +109,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Die Anzeige von Berichten in Workfront sowie der Export durch einen manuellen Export, einen gelieferten Bericht oder über die API unterliegt verschiedenen Einschränkungen.
 
-* **50.000 Zellen:** Die maximal zulässige Anzahl von Zellen in einem Berichtsexport für Excel-Dateien.
+* **50.000 Zellen:** Die maximale Anzahl von Zellen, die in einem Berichtsexport für Excel-Dateien zulässig sind.
 * **50.000 Zeilen:** Die Anzahl der Datenzeilen, die in einem Berichtsexport für PDF- und tabulatorgetrennte Dateien zulässig sind.
 
    * Bei Excel .xls-Dateien beträgt diese Beschränkung **65.000 Zeilen**.
@@ -129,7 +129,7 @@ Die Anzeige von Berichten in Workfront sowie der Export durch einen manuellen Ex
 
   Informationen zur Verwendung von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-  Informationen zur Verwendung von Eingabeaufforderungen finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Informationen zur Verwendung von Eingabeaufforderungen finden Sie unter [Eine Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 * Diese Beschränkungen gelten für:
 
@@ -138,7 +138,7 @@ Die Anzeige von Berichten in Workfront sowie der Export durch einen manuellen Ex
    * Export über eine API-Integration.
    * Daten, die über einen Kick-Start exportiert wurden.
 
-     Weitere Informationen zum Exportieren von Daten über Schnellstarts finden Sie unter [Exportieren von Daten aus Adobe Workfront über Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Weitere Informationen zum Exportieren von Daten über Kick-Start finden Sie unter [Daten aus Adobe Workfront über Kick-Starts exportieren](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
@@ -146,11 +146,11 @@ Die Anzeige von Berichten in Workfront sowie der Export durch einen manuellen Ex
 
    * Exportieren von Nutzungsinformationen für ein Projekt.
 
-     Weitere Informationen zum Exportieren von Nutzungsinformationen für ein Projekt finden Sie unter [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+     Weitere Informationen zum Exportieren von Nutzungsinformationen für ein Projekt finden Sie unter [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
-* **Dateigröße von 10 MB:** Maximale Dateigröße für exportierte Berichte, die für die Bereitstellung geplant sind. Wenn eine an eine E-Mail angehängte exportierte Datei größer als 5 MB ist, wird ein Link, über den die Datei heruntergeladen werden kann, per E-Mail anstelle des angehängten exportierten Berichts gesendet.
+* **10 MB Dateigröße:** Maximale Dateigröße für exportierte Berichte, die für die Bereitstellung geplant sind. Wenn eine an eine E-Mail angehängte exportierte Datei größer als 5 MB ist, wird ein Link, über den die Datei heruntergeladen werden kann, per E-Mail anstelle des angehängten exportierten Berichts gesendet.
 * **65.530 Hyperlinks:** Dies ist eine Beschränkung, die Excel für Dokumente mit mehr als 65.530 Hyperlinks vorschreibt. Diese Dokumente können nicht geöffnet werden, wenn sie manuell exportiert oder in einem gelieferten Bericht gesendet werden. Beachten Sie, dass ein Excel-Dokument möglicherweise nur 200 Datenzeilen enthält. Wenn jedoch mehr als 65.530 Links innerhalb des Dokuments vorhanden sind, wird das Dokument nicht geöffnet. Diese Beschränkung gilt nur für Excel-Dateien, nicht aber für die anderen unterstützten Formate. 
-* **256 Spalten**: Dies ist eine Beschränkung, die Excel für Dokumente mit mehr als 256 Spalten vorschreibt. Diese Dokumente können nicht manuell exportiert oder in einem gelieferten Bericht gesendet werden. Diese Beschränkung gilt nur für Excel-Dateien, nicht aber für die anderen unterstützten Formate.
+* **256 Spalten**: Dies ist eine Begrenzung, die Excel für Dokumente mit mehr als 256 Spalten vorgibt. Diese Dokumente können nicht manuell exportiert oder in einem gelieferten Bericht gesendet werden. Diese Beschränkung gilt nur für Excel-Dateien, nicht aber für die anderen unterstützten Formate.
 
 Wenn Sie versuchen, Daten über den Grenzwert hinaus zu exportieren, erhalten Sie möglicherweise nicht alle erwarteten Daten im Export. Stattdessen wird ein geänderter Bericht innerhalb der Grenze erstellt.
 
@@ -171,7 +171,7 @@ Wenden Sie sich an den technischen Support von Workfront, wenn Sie Bedenken oder
 
    Lassen Sie alle Elemente deaktiviert, um die gesamte Liste zu exportieren.
 
-1. Klicks **Export** und wählen Sie ein Format aus.
+1. Klicken Sie auf **Exportieren** und wählen Sie dann ein Format aus.
 
    <!--
    This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
@@ -183,7 +183,7 @@ Wenden Sie sich an den technischen Support von Workfront, wenn Sie Bedenken oder
 
    Oder
 
-   Klicken Sie auf **Export** icon ![Symbol &quot;Exportieren&quot;](assets/export-icon-nwe.png)und wählen Sie ein Format aus.
+   Klicken Sie auf das Symbol **Exportieren** ![Exportsymbol](assets/export-icon-nwe.png) und wählen Sie dann ein Format aus.
 
    Welche Optionen zum PDF-Export verfügbar sind, hängt von den Gebietsschemaeinstellungen in Ihren Workfront-Benutzereinstellungen ab:
 
@@ -200,7 +200,7 @@ Wenden Sie sich an den technischen Support von Workfront, wenn Sie Bedenken oder
      -->
 
 1. (Bedingt) Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrer Festplatte.
-1. Fahren Sie mit [Exportierte Dokumente verwenden](#use-the-exported-document).
+1. Fahren Sie mit [Verwenden des exportierten Dokuments](#use-the-exported-document) fort.
 
 ### Daten aus einem Dashboard exportieren {#export-data-from-a-dashboard}
 
@@ -225,7 +225,7 @@ Unabhängig davon, ob Sie eine Liste von Objekten oder einen Bericht exportieren
 
 Wenn Sie eine Objektliste exportieren, wird der Objekttyp in der exportierten Datei im Dateinamen und im Titel der Liste angezeigt.
 
-Wenn Sie eine Liste von Aufgaben oder Problemen exportieren, wird die **Dateiname** kann einer der folgenden sein:
+Wenn Sie eine Liste von Aufgaben oder Problemen exportieren, kann der **Dateiname** einer der folgenden sein:
 
 * Wenn Sie Aufgaben- und Problemlisten in ein Projekt exportieren:
 
@@ -234,20 +234,20 @@ Wenn Sie eine Liste von Aufgaben oder Problemen exportieren, wird die **Dateinam
 
 * Wenn Sie Aufgaben- und Problemlisten in eine Aufgabe (Unteraufgaben) exportieren:
 
-   * **Die_Projektname_die_Task_name_Exported_Tasks**(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
+   * **The_project_name_the_task_name_Exported_Tasks**(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
    * **The_project_name_the_task_name_Exported_Issues**(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
 
 Wenn Sie eine Liste anderer Objekte aus einem Projekt in eine PDF-Datei exportieren, zeigt der Dateiname des exportierten Dokuments den Typ der exportierten Objekte an.\
 Beispielsweise kann der Dateiname wie folgt lauten:
 
-* *Exportiert_Benutzer*, wenn Sie die Registerkarte Personen im Projekt (*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
-* *Exportierte_Risiken*, wenn eine Liste von Risiken für das Projekt exportiert wird (*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
+* *Exportierte_Benutzer*, beim Export der Registerkarte &quot;Personen&quot;im Projekt(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
+* *Exported_Risks*, beim Exportieren einer Liste von Risiken für das Projekt (*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
 
 #### Dateinamen für exportierte Berichte {#file-names-for-exported-reports}
 
 Wenn Sie einen Bericht exportieren, lautet der Dateiname des exportierten Berichts:
 
-*Der_Berichtsname*(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
+*The_report_name*(*in PDF, Excel, Excel (.xlsx) oder tabulatorgetrennten Formaten)*
 
 ### Titel {#titles}
 
@@ -268,8 +268,8 @@ Wenn Sie Aufgaben- und Problemlisten in einer Aufgabe in eine PDF-Datei exportie
 Wenn Sie eine Liste anderer Objekte aus einem Projekt in eine PDF-Datei exportieren, zeigt der Titel des exportierten Dokuments den Typ der exportierten Objekte an.\
 Der Titel kann beispielsweise wie folgt lauten:
 
-* *Exportierte Benutzer*, wenn Sie die Registerkarte Personen im Projekt exportieren.
-* *Exportierte Risiken*, wenn eine Liste von Risiken für das Projekt exportiert wird.
+* *Exportierte Benutzer* beim Export der Registerkarte &quot;Personen&quot;im Projekt.
+* *Exportierte Risiken* beim Exportieren einer Liste von Risiken im Projekt.
 
 #### Titel für exportierte Berichte {#titles-for-exported-reports}
 
@@ -291,8 +291,8 @@ Der Zeitstempel umfasst:
 
 Je nach Dokumenttyp werden Zeitstempel an verschiedenen Stellen angezeigt:
 
-* **PDF:** Die Zeitstempel werden in der Fußzeile jeder Seite und im Dateinamen angezeigt.
-* **Excel:** Im Dateinamen werden Zeitstempel angezeigt.
+* **PDF:** Zeitstempel werden in der Fußzeile jeder Seite und im Dateinamen angezeigt.
+* **Excel:** Zeitstempel werden im Dateinamen angezeigt.
 
 ### Formatierung {#formatting}
 
@@ -314,7 +314,7 @@ Links können auf jedes Objekt in Workfront verweisen, das Verknüpfungen unters
 
 >[!TIP]
 >
->Wenn die Zeile `valueformat=HTML` im Textmodus für eine Spalte mit benutzerdefiniertem Feld angezeigt wird und die Link-Werte nicht in einer exportierten PDF-Datei angezeigt werden, müssen Sie zusätzliche Codezeilen für Ihre Spalte im Textmodus eingeben.
+>Wenn die Zeile `valueformat=HTML` im Textmodus für eine benutzerdefinierte Feldspalte angezeigt wird und die Link-Werte nicht in einer exportierten PDF-Datei angezeigt werden, müssen Sie im Textmodus zusätzliche Codezeilen für Ihre Spalte eingeben.
 >
 >Wenn Sie beispielsweise über ein benutzerdefiniertes Feld namens Open Q1 Projects verfügen, das Links enthält, fügen Sie den folgenden Code hinzu:
 >
@@ -335,4 +335,4 @@ Wenn Ihr Workfront-Administrator Ihrer Workfront-Instanz für die globale Naviga
 
 Daten, die in andere Formate exportiert werden, können nicht mit Ihrem Logo personalisiert werden.
 
-Weitere Informationen zum Branding Ihrer Workfront-Instanz und zur globalen Navigationsleiste finden Sie unter [Markieren Sie Ihre Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Weitere Informationen zum Branding Ihrer Workfront-Instanz und der globalen Navigationsleiste finden Sie unter [Markieren Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).

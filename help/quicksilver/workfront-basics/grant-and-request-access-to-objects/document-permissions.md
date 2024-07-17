@@ -9,14 +9,14 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 4%
+source-wordcount: '616'
+ht-degree: 1%
 
 ---
 
 # Freigeben eines Dokuments
 
-Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf das Anzeigen oder Bearbeiten von Dokumenten, wenn sie Zugriffsebenen zuweisen, wie hier beschrieben: [Zugriff auf Dokumente gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
+Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf das Anzeigen oder Bearbeiten von Dokumenten, wenn sie Zugriffsebenen zuweisen, wie unter [Zugriff auf Dokumente gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md) beschrieben.
 
 Die Zugriffsebene, die der Workfront-Administrator Benutzern gewährt, ermöglicht es ihnen, Dokumente anzuzeigen oder zu bearbeiten. Darüber hinaus können andere Benutzer anderen Benutzern auch Berechtigungen zum Anzeigen oder Verwalten bestimmter Dokumente erteilen, die sie selbst hochgeladen haben oder auf die sie Zugriff haben.
 
@@ -24,17 +24,17 @@ Berechtigungen beziehen sich auf ein Element in Workfront und legen fest, welche
 
 Der Benutzer, der ein Dokument in Workfront hochlädt, hat standardmäßig die Berechtigung &quot;Verwalten&quot;.
 
-Informationen zum Freigeben eines gesamten Dokumentordners finden Sie unter [Dokumentordner freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Informationen zum Freigeben eines gesamten Dokumentordners finden Sie unter [Freigeben eines Dokumentordners](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
 ## Überlegungen zum Freigeben von Dokumenten
 
-Zusätzlich zu den unten stehenden Überlegungen siehe [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
 >Ein Workfront-Administrator kann allen Elementen im System Berechtigungen hinzufügen oder entfernen, ohne Eigentümer dieser Elemente zu sein.
 
-* Das Freigeben eines Dokuments ähnelt dem Freigeben anderer Objekte in Workfront. Informationen zum Freigeben von Dokumenten in Workfront finden Sie unter [Objekt freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Das Freigeben eines Dokuments ähnelt dem Freigeben anderer Objekte in Workfront. Informationen zum Freigeben von Dokumenten in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Sie können Dokumenten die folgenden Berechtigungen erteilen:
 
    * Anzeigen
@@ -42,19 +42,19 @@ Zusätzlich zu den unten stehenden Überlegungen siehe [Übersicht über die Fre
 
 * Sie können ein Dokument auch öffentlich oder systemweit freigeben.
 
-   >[!CAUTION]
-   >
-   >Es wird empfohlen, bei der Freigabe eines Objekts mit vertraulichen Informationen für externe Benutzer Vorsicht walten zu lassen. Dadurch können sie Informationen anzeigen, ohne Workfront-Benutzer oder Teil Ihres Unternehmens zu sein.
+  >[!CAUTION]
+  >
+  >Es wird empfohlen, bei der Freigabe eines Objekts mit vertraulichen Informationen für externe Benutzer Vorsicht walten zu lassen. Auf diese Weise können sie Informationen anzeigen, ohne Workfront-Benutzer oder Teil Ihres Unternehmens zu sein.
 
 * Sie können ein Dokument für eine Person freigeben, die kein Workfront-Konto hat, indem Sie deren E-Mail-Adresse im Feld Dokumentzugriff gewähren hinzufügen.
 * Wenn Sie ein Dokument freigeben, haben Benutzer denselben Zugriff auf alle Dokumentversionen und alle Dokumentsendungen.\
-   Weitere Informationen zum Testen in Workfront finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md) Abschnitt.
+  Weitere Informationen zum Testen in Workfront finden Sie im Abschnitt [Testversand](../../review-and-approve-work/proofing/proofing.md) .
 
 * Sie können Berechtigungen für Dokumente von den Objekten erben, mit denen sie verknüpft sind. Ihr Workfront-Administrator kann die Vererbung von Berechtigungen für Dokumente auf Ihrer Zugriffsebene beschränken.
 
-   Weitere Informationen zum Einschränken von geerbten Berechtigungen auf Dokumente finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Weitere Informationen zum Einschränken von geerbten Berechtigungen auf Dokumente finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-   Sie können geerbte Berechtigungen für Dokumente manuell entfernen. Weitere Informationen finden Sie unter [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+  Sie können geerbte Berechtigungen für Dokumente manuell entfernen. Weitere Informationen finden Sie unter [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * Ein angehängtes Dokument erbt die Berechtigungen nur von dem Objekt, an das es angehängt wurde. Wenn Sie einen Ordner für das Objekt erstellen und das Dokument in den Ordner verschieben, erbt es die Berechtigungen des Ordners. Wenn Sie jedoch einen Ordner für ein übergeordnetes oder übergeordnetes Objekt erstellen und das Dokument in diesen Ordner verschieben, erbt es nicht die Berechtigungen dieses Ordners.
 
@@ -90,7 +90,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Herunterladen</td> 
+   <td scope="row">Download</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -155,22 +155,22 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Korrekturabzug**</td> 
+   <td scope="row">Testversand**</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Korrekturabzug generieren**</td> 
+   <td scope="row">Testversand generieren**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Korrekturabzug entfernen**</td> 
+   <td scope="row">Testversand entfernen**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Freigeben*</td> 
+   <td scope="row">Freigabe*</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -212,6 +212,6 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
  </tbody> 
 </table>
 
-&#42; Die Aktion wird sowohl von Dokumenten als auch von Dokumentordnern gemeinsam verwendet.
+&#42; Die Aktion wird sowohl von Dokumenten als auch von Dokumentenordnern genutzt.
 
-&#42;&#42; Sie müssen über eine separate Testlizenz verfügen, die mit Ihrem Workfront-Konto verknüpft ist, um Dokumente testen zu können. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie eine Testlizenz erwerben möchten. Weitere Informationen zum Testen in Workfront finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md).
+&#42;&#42; Sie müssen über eine separate Testversandlizenz verfügen, die Ihrem Workfront-Konto zugeordnet ist, um Dokumente testen zu können. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie eine Testlizenz erwerben möchten. Weitere Informationen zum Testen in Workfront finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md).

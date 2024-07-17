@@ -2,23 +2,23 @@
 product-previous: mobile
 content-type: reference
 navigation-topic: announcements
-title: Aktualisierte mobile App für iOS und Android (Anfang August 2017)
+title: Aktualisierte Mobile App für iOS und Android (Anfang August 2017)
 description: Die mobile Adobe Workfront-App sollte Anfang August 2017 in den Apple App- und Google Play Stores aktualisiert werden.
 author: Luke
 feature: Product Announcements
 exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
 source-git-commit: f05b462ff596ccc19215ca684802a9820a98211a
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
 
-# Aktualisierte mobile App für iOS und Android (Anfang August 2017)
+# Aktualisierte Mobile App für iOS und Android (Anfang August 2017)
 
 Die mobile Adobe Workfront-App sollte Anfang August 2017 in den Apple App- und Google Play Stores aktualisiert werden. 
 
-Das Update umfasst die folgenden Verbesserungen für die mobilen Plattformen von Android und iOS:
+Das Update umfasst die folgenden Verbesserungen für die mobilen Plattformen Android und iOS :
 
 ## Anfragen senden
 
@@ -26,7 +26,7 @@ Ab der neuen Version der Mobile App können Sie mit Ihrem Mobilgerät Anforderun
 
 Sie können eine Anforderung senden, sie der richtigen Ressource zuweisen und sie aktualisieren, wenn Sie unterwegs sind. 
 
-Weitere Informationen zum Übermitteln von Anforderungen an die mobile App finden Sie im Abschnitt &quot;Anforderungen senden&quot;in .
+Weitere Informationen zum Übermitteln von Anforderungen an die Mobile App finden Sie im Abschnitt &quot;Anforderungen senden&quot;in .
 
 
 
@@ -55,4 +55,4 @@ Ab der neuen Version der Mobile App können Sie Testsendungen von Dokumenten auf
 
 Vor dieser Aktualisierung konnten Sie mithilfe der Mobile App Projekt-, Aufgaben-, Problem- und Dokumentgenehmigungen durchführen. Sie benötigen eine Proof HQ-Lizenz, um Dokumentsendungen in der mobilen App zu genehmigen. 
 
-Weitere Informationen zum Testen in Workfront finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md) Abschnitt. 
+Weitere Informationen zum Testen in Workfront finden Sie im Abschnitt [Testversand](../../../review-and-approve-work/proofing/proofing.md) . 

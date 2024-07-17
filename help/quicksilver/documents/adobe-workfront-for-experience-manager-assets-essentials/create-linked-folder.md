@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
   <tr>
    <td><strong>Adobe Workfront-Plan*</strong>
    </td>
-   <td>Beliebig
+   <td>Alle
    </td>
   </tr>
   <tr>
@@ -43,7 +43,7 @@ Sie müssen über Folgendes verfügen:
    </td>
   </tr>
   <tr>
-   <td><strong>Berechtigungen für Experience Manager</strong>
+   <td><strong>Experience Manager permissions</strong>
    </td>
    <td>Sie müssen über Schreibzugriff auf den Zielordner in der Experience Manager-Integration verfügen.
    </td>
@@ -64,7 +64,7 @@ Sie müssen über Folgendes verfügen:
 
 Bevor Sie beginnen
 
-* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der as a Cloud Service Integration von Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Integration von Experience Manager Assets Essentials konfigurieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der Experience Manager Assets as a Cloud Service-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Konfigurieren der Experience Manager Assets Essentials-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Verknüpften Ordner erstellen
@@ -78,11 +78,11 @@ So erstellen Sie einen verknüpften Ordner:
 
 
 1. Wechseln Sie zu dem Projekt, in dem Sie den Ordner ablegen möchten.
-1. Auswählen **Neu hinzufügen** und gehen Sie dann zur Experience Manager-Integration, die Ihr Administrator eingerichtet hat.
+1. Wählen Sie **Neu hinzufügen** und gehen Sie dann zur Experience Manager-Integration, die Ihr Administrator eingerichtet hat.
 
    >[!NOTE]
    >
    >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration wählen, sodass Experience Manager Assets oder Assets Essentials möglicherweise nicht speziell erwähnt werden.
 
-1. Auswählen **Verknüpften Ordner erstellen**. Das System erstellt automatisch einen Ordner in Experience Manager basierend auf dem Speicherort, der beim Einrichten der Integration angegeben wurde.
+1. Wählen Sie **Verknüpften Ordner erstellen** aus. Das System erstellt automatisch einen Ordner in Experience Manager basierend auf dem Speicherort, der beim Einrichten der Integration angegeben wurde.
    ![Erstellen eines verknüpften Ordners](assets/linked-folder.png)

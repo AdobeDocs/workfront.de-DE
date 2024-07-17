@@ -9,7 +9,7 @@ exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -27,11 +27,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testversandfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -44,15 +44,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Zugriffs- und Abonnementeinstellungen beim Erstellen eines Testversands konfigurieren
 
 So richten Sie Zugriffs- und Abonnementeinstellungen für einen Testversand während der Erstellung ein:
 
-1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf die Schaltfläche **Dokumente** Abschnitt.
-1. Klicken **Neu hinzufügen** oben rechts.
-1. Scrollen Sie zum **Testversandeinstellungen** in der rechten unteren Ecke des **Neuer Testversand** Seite.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zur Ausgabe, an der Sie den Testversand durchführen möchten, und klicken Sie dann auf den Abschnitt **Dokumente** .
+1. Klicken Sie oben rechts auf **Neu hinzufügen** .
+1. Scrollen Sie zum Abschnitt **Testversand-Einstellungen** in der rechten unteren Ecke der Seite **Neuer Testversand** .
 
 1. Konfigurieren Sie die folgenden Einstellungen:
 
@@ -61,18 +61,18 @@ So richten Sie Zugriffs- und Abonnementeinstellungen für einen Testversand wäh
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Freigabe des Korrekturabzugs über öffentliche URL oder eingebetteten Code erlauben</strong> </td> 
+      <td role="rowheader"><strong>Freigabe eines Testversands über öffentliche URL oder Einbettungscode zulassen</strong> </td> 
       <td>Wenn diese Option aktiviert ist, kann der Testversand über eine öffentliche URL oder einen Einbettungscode freigegeben werden.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Abonnement des Korrekturabzugs über öffentliche URL oder eingebetteten Code erlauben</strong> </td> 
+      <td role="rowheader"><strong>Zulassen, dass der Testversand über eine öffentliche URL oder einen Einbettungscode abgeonniert wird</strong> </td> 
       <td>Wenn diese Option aktiviert ist, können Personen, die dem Testversand nicht explizit hinzugefügt wurden, den Testversand abonnieren. Die Person, die den Testversand abonniert, erhält die Rolle und E-Mail, die Sie in den folgenden Einstellungen definieren:
        <ul>
-        <li><p><strong>Abonnentenrolle:</strong> Die standardmäßige Testversand-Rolle, die allen Prüfern zugewiesen wird, die den Testversand abonnieren. </p><p>Wichtig: Wenn <strong>Freigabe zulassen mit</strong> auf alles andere als <strong>Alle</strong> in den Testversandeinstellungen von Workfront funktioniert das Abonnement nur für Personen innerhalb des Unternehmens. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Konfigurieren von Testeinstellungen in Workfront Testversand</a>.</p></li>
-        <li><strong>Einstellungen für E-Mail-Warnhinweise für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li>
+        <li><p><strong>Abonnentenrolle:</strong> Die Standardrolle für den Testversand, die allen Validierern zugewiesen ist, die den Testversand abonnieren. </p><p>Wichtig: Wenn <strong>Freigabe für </strong> zulassen in den Workfront Proof-Einstellungen auf einen anderen Wert als <strong>Alle</strong> festgelegt ist, funktioniert das Abonnement nur für Personen innerhalb des Unternehmens. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Konfigurieren der Testversandeinstellungen in Workfront Proof</a>.</p></li>
+        <li><strong>E-Mail-Warnhinweiseinstellungen für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Validierern zugewiesen wird, die den Testversand abonnieren.</li>
        </ul><p>
         <ul>
-         <li><strong>Der Zugriff per E-Mail-Link ist nachweislich für folgende Zwecke erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können <strong>Keine E-Mail</strong> (Für den Zugriff auf den Testversand ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail-Benachrichtigung zum Testversand</strong> (Der Abonnent erhält einen Link zum Testversand per E-Mail ohne Überprüfung) oder <strong>Validierungs- und Testversand-Benachrichtigungs-E-Mails</strong> (Der Abonnent erhält per E-Mail einen Link zum Testversand und muss auf den Link klicken, um auf einen Testversand zugreifen zu können. Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.)</li>
+         <li><strong> Nachweis des Zugriffs über einen E-Mail-Link erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können "<strong>Keine E-Mail</strong>"(für den Testversand ist kein E-Mail-Link erforderlich), "<strong>Nur E-Mail-Testversand</strong>"(Abonnenten erhalten einen Link zum Testversand per E-Mail ohne Überprüfung) oder "<strong>E-Mail-Benachrichtigung zur Validierung und zum Testversand</strong>"(Abonnenten erhalten per E-Mail einen Link und müssen auf den Link klicken, um einen Testversand anzuzeigen). Diese Option dient dazu, um sicherzustellen, dass die richtige E-Adresse angegeben wird , auf die sie Zugriff haben).</li>
         </ul><p>Hinweis:  Wenn die Testsendungen den automatisierten Workflow angehängt haben, generieren alle Abonnements Bestätigungs-E-Mails an die Testversand-Inhaber, sodass diese entscheiden können, zu welcher Stufe die Person hinzugefügt werden soll.<br></p></p></td> 
      </tr> 
     </tbody> 
@@ -84,8 +84,8 @@ So richten Sie Zugriffs- und Abonnementeinstellungen für einen Testversand wäh
 
 So richten Sie Zugriffs- und Abonnementeinstellungen für einen bereits in Workfront vorhandenen Testversand ein:
 
-1. Wählen Sie im Bereich Dokumente das Dokument aus, das den Testversand enthält, für den Sie die Einstellungen konfigurieren möchten, und klicken Sie dann auf **Dokumentdetails**.
-1. Klicken Sie im linken Bereich auf **Testen der Viewer-Einstellungen**.
+1. Wählen Sie im Bereich &quot;Dokumente&quot;das Dokument aus, das den Testversand enthält, für den Sie Einstellungen konfigurieren möchten, und klicken Sie dann auf **Dokumentdetails**.
+1. Klicken Sie im linken Bereich auf **Testversand-Viewer-Einstellungen**.
 1. Konfigurieren Sie die folgenden Einstellungen:
 
    <table style="table-layout:auto"> 
@@ -93,18 +93,18 @@ So richten Sie Zugriffs- und Abonnementeinstellungen für einen bereits in Workf
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Freigabe über öffentliche URL oder Einbettungscode zulassen</strong><strong>e</strong> </td> 
+      <td role="rowheader"><strong>Zulassen der Freigabe eines Testversands über öffentliche URL oder Einbettungscode</strong><strong>e</strong> </td> 
       <td>Wenn diese Option aktiviert ist, kann der Testversand über eine öffentliche URL oder einen Einbettungscode freigegeben werden.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Abonnement des Korrekturabzugs über öffentliche URL oder eingebetteten Code erlauben</strong> </td> 
+      <td role="rowheader"><strong>Zulassen, dass der Testversand über eine öffentliche URL oder einen Einbettungscode abgeonniert wird</strong> </td> 
       <td>Wenn diese Option aktiviert ist, können Personen, die dem Testversand nicht explizit hinzugefügt wurden, den Testversand abonnieren. Die Person, die den Testversand abonniert, erhält die Rolle und E-Mail, die Sie in den folgenden Einstellungen definieren:
        <ul>
-        <li><p><strong>Abonnentenrolle:</strong> Die standardmäßige Testversand-Rolle, die allen Prüfern zugewiesen wird, die den Testversand abonnieren. </p><p>Wichtig: Wenn <strong>Freigabe zulassen mit</strong> auf alles andere als <strong>Alle</strong> in den Testversandeinstellungen von Workfront funktioniert das Abonnement nur für Personen innerhalb des Unternehmens. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Konfigurieren von Testeinstellungen in Workfront Testversand</a>.</p></li>
-        <li><strong>Einstellungen für E-Mail-Warnhinweise für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Prüfern zugewiesen wird, die den Testversand abonnieren.</li>
+        <li><p><strong>Abonnentenrolle:</strong> Die Standardrolle für den Testversand, die allen Validierern zugewiesen ist, die den Testversand abonnieren. </p><p>Wichtig: Wenn <strong>Freigabe für </strong> zulassen in den Workfront Proof-Einstellungen auf einen anderen Wert als <strong>Alle</strong> festgelegt ist, funktioniert das Abonnement nur für Personen innerhalb des Unternehmens. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Konfigurieren der Testversandeinstellungen in Workfront Proof</a>.</p></li>
+        <li><strong>E-Mail-Warnhinweiseinstellungen für Abonnenten:</strong> Der Standard-E-Mail-Warnhinweis, der allen Validierern zugewiesen wird, die den Testversand abonnieren.</li>
        </ul><p>
         <ul>
-         <li><strong>Der Zugriff per E-Mail-Link ist nachweislich für folgende Zwecke erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können <strong>Keine E-Mail</strong> (Für den Zugriff auf den Testversand ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail-Benachrichtigung zum Testversand</strong> (Der Abonnent erhält einen Link zum Testversand per E-Mail ohne Überprüfung) oder <strong>Validierungs- und Testversand-Benachrichtigungs-E-Mails</strong> (Der Abonnent erhält per E-Mail einen Link zum Testversand und muss auf den Link klicken, um auf einen Testversand zugreifen zu können. Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.)</li>
+         <li><strong> Nachweis des Zugriffs über einen E-Mail-Link erforderlich:</strong> Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Testversand erhält. Sie können "<strong>Keine E-Mail</strong>"(für den Testversand ist kein E-Mail-Link erforderlich), "<strong>Nur E-Mail-Testversand</strong>"(Abonnenten erhalten einen Link zum Testversand per E-Mail ohne Überprüfung) oder "<strong>E-Mail-Benachrichtigung zur Validierung und zum Testversand</strong>"(Abonnenten erhalten per E-Mail einen Link und müssen auf den Link klicken, um einen Testversand anzuzeigen). Diese Option dient dazu, um sicherzustellen, dass die richtige E-Adresse angegeben wird , auf die sie Zugriff haben).</li>
         </ul><p>Hinweis:  Wenn die Testsendungen den automatisierten Workflow angehängt haben, generieren alle Abonnements Bestätigungs-E-Mails an die Testversand-Inhaber, sodass diese entscheiden können, zu welcher Stufe die Person hinzugefügt werden soll.<br></p></p></td> 
      </tr> 
     </tbody> 

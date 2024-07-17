@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3646'
-ht-degree: 3%
+source-wordcount: '3620'
+ht-degree: 2%
 
 ---
 
@@ -108,7 +108,7 @@ Zugang zu Handlungen in ihrem Namen. Dieser Handshaking-Prozess erfolgt nur einm
 1. Der Benutzer beginnt damit, die Webhook-Integration mit seinem Konto zu verbinden. Dies geschieht derzeit durch Klicken auf das Dropdown-Menü &quot;Dokument hinzufügen&quot;> &quot;Dienst hinzufügen&quot;> &quot;Name der benutzerdefinierten Integration&quot;.
 1. Workfront navigiert zum Benutzer über die Authentifizierungs-URL, die ihn auffordern kann, sich beim externen Dokumentenanbieter anzumelden. Diese Seite wird vom Webhook Provider oder vom externen Dokumentenverwaltungssystem gehostet. Dadurch fügt Workfront der Authentifizierungs-URL einen &quot;state&quot;-Parameter hinzu. Dieser Wert muss zurück an Workfront übergeben werden, indem der gleiche Wert im folgenden Schritt an den Workfront-URI angehängt wird.
 1. Nach der Anmeldung beim externen System (oder wenn der Benutzer bereits angemeldet ist) wird der Benutzer zu einer &quot;Authentifizierungsseite&quot;geleitet, auf der erklärt wird, dass Workfront Zugriff anfordert, um eine Reihe von Aktionen im Namen des Benutzers durchzuführen.
-1. Wenn der Benutzer auf die Schaltfläche &quot;Zulassen&quot;klickt, leitet der Browser zum Workfront-Weiterleitungs-URI um und fügt &quot;code=&quot;hinzu`<code>`&quot; auf den Querystring. Gemäß der OAuth2-Spezifikation ist dieses Token kurzlebig. Die Abfragezeichenfolge muss auch die folgende sein: &quot;state=`<sent_by_workfront>`&quot;.
+1. Wenn der Benutzer auf die Schaltfläche &quot;Zulassen&quot;klickt, leitet der Browser zum Workfront-Weiterleitungs-URI um und fügt &quot;code=`<code>`&quot; zum Querystring hinzu. Gemäß der OAuth2-Spezifikation ist dieses Token kurzlebig. Die Abfragezeichenfolge muss auch die folgende sein: &quot;state=`<sent_by_workfront>`&quot;.
 1. Workfront verarbeitet diese Anforderung und führt einen API-Aufruf an die Token-Endpunkt-URL mit dem Autorisierungscode aus.
 1. Die Token-Endpunkt-URL gibt ein Aktualisierungstoken und Zugriffstoken zurück.
 1. Workfront speichert diese Token und stellt die Webhook-Integration für diesen Benutzer vollständig bereit.
@@ -216,7 +216,7 @@ Die URL kann konfiguriert werden und entspricht dem URL-Wert des Token-Endpunkts
 
  
 
-**Reaktion**
+**Antwort**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -261,7 +261,7 @@ client_secret=6asdf7a7a9a4af
 ```
 
 
-**Reaktion**
+**Antwort**
 
 ```
 {
@@ -277,7 +277,7 @@ Gibt Metadaten für die angegebene Datei oder den angegebenen Ordner zurück.
 
 **URL**
 
-GET /metadata?id=[Dokument- oder Ordner-ID]
+GET /metadata?id=[document or folder ID]
 
 **Abfrageparameter**
 
@@ -300,7 +300,7 @@ GET /metadata?id=[Dokument- oder Ordner-ID]
 
  
 
-**Reaktion**
+**Antwort**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -364,7 +364,7 @@ GET /metadata?id=[Dokument- oder Ordner-ID]
 
 **Beispiel:** `https://www.acme.com/api/metadata?id=12345`
 
-**Reaktion**
+**Antwort**
 
 ```
 {
@@ -401,13 +401,13 @@ GET /files
 
 Die Document Webhooks-API unterstützt derzeit keine Paginierung.
 
-**Reaktion**
+**Antwort**
 
 JSON mit einer Liste von Dateien und Ordnern. Die Metadaten für jedes Element sind mit denen identisch, die vom Endpunkt /metadata zurückgegeben werden.
 
 **Beispiel:** `https://www.acme.com/api/files?parentId=123456`
 
-**Reaktion**
+**Antwort**
 
 ```
 [
@@ -469,13 +469,13 @@ Die Document Webhooks-API unterstützt derzeit keine Paginierung.
 
  
 
-**Reaktion**
+**Antwort**
 
 JSON mit einer Liste von Metadaten für Dateien und Ordner, die der Abfrage entsprechen. Was eine &quot;Übereinstimmung&quot;ausmacht, wird vom Webhook-Provider bestimmt. Idealerweise sollte eine Volltextsuche durchgeführt werden. Eine filename-basierte Suche funktioniert ebenfalls.
 
 **Beispiel:** `https://www.acme.com/api/search?query=test-query`
 
-**Reaktion**
+**Antwort**
 
 ```
 [
@@ -513,7 +513,7 @@ GET /download
 
  
 
-**Reaktion**
+**Antwort**
 
 Die rohen Bytes des Dokuments.
 
@@ -538,7 +538,7 @@ GET /thumbnail
 
  
 
-**Reaktion**
+**Antwort**
 
 Die unformatierten Miniaturansichten.
 
@@ -587,13 +587,13 @@ POST /uploadInit
 
  
 
-**Reaktion**
+**Antwort**
 
 Die Metadaten für die Datei, wie vom Endpunkt /metadata definiert.
 
 **Beispiel:** `https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b`
 
-**Reaktion**
+**Antwort**
 
 `[file_metadata]` enthält die neue Dokument-ID, die vom Dokumentanbieter verwendet wird.
 
@@ -614,11 +614,11 @@ PUT /upload
 
  
 
-**Anfrageinhalt**
+**Anforderungstext**
 
 Die rohen Inhalts-Bytes für das Dokument.
 
-**Reaktion**
+**Antwort**
 
 ```
 {
@@ -634,9 +634,9 @@ oder
 }
 ```
 
-**Beispiel:** `https://www.acme.com/api/upload?id=1234` *[Dokument-Bytes, die im Aktualisierungsstream enthalten sind]*
+**Beispiel:** `https://www.acme.com/api/upload?id=1234` *[Dokumentenbytes im Aktualisierungsstream]*
 
-**Reaktion**
+**Antwort**
 
 ```
 {
@@ -656,7 +656,7 @@ Abfrageparameter
 
 Keine. Darüber hinaus sollten Aufrufe an diesen Endpunkt keine Authentifizierung erfordern.
 
-**Reaktion**
+**Antwort**
 
 JSON mit Informationen zu diesem Dienst
 
@@ -702,7 +702,7 @@ JSON mit Informationen zu diesem Dienst
 
 **Beispiel:** https://www.acme.com/api/serviceInfo
 
-**Rückgabe**
+**Gibt** zurück
 
 ```
 {
@@ -733,7 +733,7 @@ POST /createFolder
 
  
 
-**Reaktion**
+**Antwort**
 
 Die Metadaten für den neu erstellten Ordner, wie vom Endpunkt /metadata definiert.
 
@@ -819,7 +819,7 @@ PUT /rename
 
  
 
-Antwort
+Reaktion
 
 Eine JSON-Zeichenfolge, die den Erfolg oder Fehler angibt, wie im Abschnitt Umgang mit Fehlern unten angegeben.
 
@@ -889,7 +889,7 @@ GET /customAction
 
  
 
-**Reaktion**
+**Antwort**
 
 Eine JSON-Zeichenfolge, die den Erfolg oder Fehler angibt, wie im Abschnitt Umgang mit Fehlern unten angegeben. Bei einem Fehler (d. h. Status = &quot;Fehler&quot;) zeigt Workfront die bereitgestellte Fehlermeldung an.
 

@@ -62,7 +62,7 @@ In dieser Version aus dem 5. Alpha haben wir Folgendes:
 * Zusätzliche Möglichkeit zum Hinzufügen externer Genehmiger
 * Verbesserte Ansicht für externe Genehmiger zum Anzeigen von Dokumentvorschau, -download und -kommentaren
 
-Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3424613/){target=_blank}.
+Sehen Sie sich den [Video-Durchgang](https://video.tv.adobe.com/v/3424613/){target=_blank} an.
 
 ### Alpha-Version 4 - Mai 2023
 
@@ -70,23 +70,23 @@ In dieser Version aus dem vierten Alpha haben wir vor dem Start in die Produktio
 
 Wir freuen uns auf diesen Meilenstein und freuen uns auf viel mehr!
 
-Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3420094/){target=_blank}.
+Sehen Sie sich den [Video-Durchgang](https://video.tv.adobe.com/v/3420094/){target=_blank} an.
 
 ### Alpha-Version 3 - März 2023
 
 In dieser Version aus dem 3. Alpha haben wir Ihr Feedback integriert, indem wir Erfolgsmeldungen eingeführt haben, die nach Abschluss von Aktionen wie dem Hinzufügen oder Entfernen von Genehmigern und Validierern angezeigt werden. Darüber hinaus bietet diese Version eine verbesserte Sichtbarkeit der ausstehenden Genehmigungen, die jetzt auf den Seiten &quot;Startseite&quot;und &quot;Meine Aktualisierungen&quot;angezeigt werden können, sodass Benutzer Dokumente einfach direkt von diesen Seiten aus genehmigen können.
 
-Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3417854/){target=_blank}.
+Sehen Sie sich den [Video-Durchgang](https://video.tv.adobe.com/v/3417854/){target=_blank} an.
 
 ### Alpha-Version 2 - Januar 2023
 
 Mit dieser Version aus Alpha 2 können Sie Personen und Teams als Validierer oder Genehmiger hinzufügen und Genehmigungsentscheidungen direkt auf der Seite mit den Dokumentdetails treffen.
 
-Beobachten Sie die [Videoeinführung](https://video.tv.adobe.com/v/3413941){target=_blank}.
+Sehen Sie sich den [Video-Durchgang](https://video.tv.adobe.com/v/3413941){target=_blank} an.
 
 ### Alpha-Version 1 - November 2022
 
-Sehen Sie sich unsere [Videoeinführung](https://video.tv.adobe.com/v/3412837){target=_blank} und fühlen Sie sich frei zu folgen, wenn Sie möchten!
+Sehen Sie sich unseren [Video-Durchgang](https://video.tv.adobe.com/v/3412837){target=_blank} an und folgen Sie einfach, wenn Sie möchten!
 
 Wenn Sie dem Video folgen möchten, müssen Sie Folgendes in Ihrer Vorschau-Umgebung einrichten:
 

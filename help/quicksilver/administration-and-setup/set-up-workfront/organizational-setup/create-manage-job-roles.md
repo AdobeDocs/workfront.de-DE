@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Erstellen und Verwalten von Aufgabengebieten
-description: Als [!DNL Adobe Workfront] -Administrator oder Benutzer mit Administratorzugriff auf "Auftragsrollen"können Sie Auftragsrollen erstellen, die Benutzern zugewiesen werden können, und Standardauftragsrollen löschen, die für Ihr Unternehmen nicht relevant sind.
+description: Als [!DNL Adobe Workfront] Administrator oder Benutzer mit administrativem Zugriff auf "Vorgangsrollen"können Sie Auftragsrollen erstellen, die Benutzern zugewiesen werden können, und Standardauftragsrollen löschen, die für Ihr Unternehmen nicht relevant sind.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Als [!DNL Adobe Workfront] -Administrator oder Benutzer mit Administratorzugriff auf &quot;Auftragsrollen&quot;können Sie Auftragsrollen erstellen, die Benutzern zugewiesen werden können, und Standardauftragsrollen löschen, die für Ihr Unternehmen nicht relevant sind. Weitere Informationen zum Administratorzugriff finden Sie unter [!DNL Workfront], siehe [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Als [!DNL Adobe Workfront] -Administrator oder Benutzer mit administrativem Zugriff auf &quot;Vorgangsrollen&quot;können Sie Auftragsrollen erstellen, die Benutzern zugewiesen werden können, und Standardauftragsrollen löschen, die für Ihr Unternehmen nicht relevant sind. Informationen zum administrativen Zugriff in [!DNL Workfront] finden Sie unter [Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Zugriffsanforderungen
 
@@ -50,7 +50,7 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 +++
 
@@ -61,7 +61,7 @@ So erstellen Sie eine Arbeitsplatzrolle:
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf &#x200B; **[!UICONTROL Vorgangsrollen].**
-1. Klicks **[!UICONTROL Neue Auftragsrolle].**
+1. Klicken Sie auf **[!UICONTROL Neue Auftragsrolle].**
 1. Konfigurieren Sie Folgendes:
 
    <table style="table-layout:auto"> 
@@ -70,7 +70,7 @@ So erstellen Sie eine Arbeitsplatzrolle:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Geben Sie einen Namen für die Auftragsrolle an. Dieser Name wird überall in [!DNL Workfront] wobei das Feld [!UICONTROL Auftragsrolle] angezeigt wird. </p> <p>Tipp: Der Name einer Auftragsrolle kann bis zu 255 Zeichen enthalten. Längere Namen können jedoch in bestimmten Bereichen von [!DNL Workfront]. </p> </td> 
+      <td> <p>Geben Sie einen Namen für die Auftragsrolle an. Dies ist der Name, der überall in [!DNL Workfront] angezeigt wird, wo das Feld [!UICONTROL Auftragsrolle] angezeigt wird. </p> <p>Tipp: Der Name einer Auftragsrolle kann bis zu 255 Zeichen enthalten. Längere Namen können jedoch in bestimmten Bereichen von [!DNL Workfront] abgeschnitten werden. </p> </td> 
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Beschreibung]</td> 
@@ -80,46 +80,46 @@ So erstellen Sie eine Arbeitsplatzrolle:
       <td role="rowheader"><span>[!UICONTROL ist aktiv]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>Auswählen <b>[!UICONTROL Ja]</b> Wenn Sie möchten, dass die Rolle aktiv ist und überall in verfügbar ist [!DNL Workfront] mit Benutzern, Arbeitselementen usw. verknüpft werden. </p> </li> 
-        <li> <p>Auswählen <b>[!UICONTROL Nein]</b>, wenn Sie möchten, dass die Rolle deaktiviert wird und nicht für die Zuweisung an Benutzer, Arbeitselemente usw. verfügbar ist. </p> </li> 
-       </ul> <p><span>Informationen zum Deaktivieren von Vorgangsrollen finden Sie unter</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Deaktivieren von Vorgangsrollen</a>. </p> </td> 
+        <li> <p>Wählen Sie <b>[!UICONTROL Ja]</b> aus, wenn die Rolle aktiv sein und überall in [!DNL Workfront] verfügbar sein soll, damit sie mit Benutzern, Arbeitselementen usw. verknüpft werden kann. </p> </li> 
+        <li> <p>Wählen Sie <b>[!UICONTROL No]</b> aus, wenn die Rolle deaktiviert und nicht für die Zuweisung an Benutzer, Arbeitselemente usw. verfügbar sein soll. </p> </li> 
+       </ul> <p><span>Weitere Informationen zum Deaktivieren von Vorgangsrollen finden Sie unter </span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Deaktivieren von Vorgangsrollen</a>. </p> </td> 
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Basiswährung]</span> </td> 
-      <td> <p><span>Dies ist die [!UICONTROL Basiswährung], die von Ihrem Workfront-Administrator im Bereich [!UICONTROL Setup] festgelegt wurde. Weitere Informationen finden Sie unter</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wechselkurse einrichten</a> .</p> <p>Tipp: <span>Sie können die [!UICONTROL Basiswährung] nicht auf der Ebene der Auftragsrollen bearbeiten. Dieses Feld ist abgeblendet und dient als Erinnerung an die Basiswährung für Ihr System.</span> </p> </td> 
+      <td> <p><span>Dies ist die [!UICONTROL Basiswährung], die von Ihrem Workfront-Administrator im Bereich [!UICONTROL Setup] festgelegt wurde. Weitere Informationen finden Sie unter</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a> .</p> <p>Tipp: <span>Sie können die [!UICONTROL Basiswährung] nicht auf Arbeitsplatzrollenebene bearbeiten. Dieses Feld ist abgeblendet und dient als Erinnerung an die Basiswährung für Ihr System.</span> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Kostensatz]</td> 
       <td><p>Dies ist die Kosten pro Stunde für die Rolle "Auftrag". Dieser Wert berechnet die geplanten und tatsächlichen Kosten der Aufgaben und Probleme im Zusammenhang mit der Rolle sowie schließlich die geplanten und tatsächlichen Kosten der Projekte. Geben Sie den Wechselkurs mithilfe der [!UICONTROL Basiswährung] ein.</p> 
-      <p>Klicken Sie für datumswirksame Kostensätze auf <strong>[!UICONTROL Zusatzrate]</strong>. Geben Sie den Wert der Kosten/Stunde für den Zeitraum ein und weisen Sie nach Bedarf ein [!UICONTROL Startdatum] und ein [!UICONTROL Enddatum] zu. Der erste Kostensatz hat kein Startdatum und der letzte Kostensatz hat kein Enddatum.</p> <p>Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Kostensatz kein Enddatum hat und Sie einen zweiten Kostensatz mit einem Startdatum vom 1. Mai 2023 hinzufügen, wird dem ersten Kostensatz ein Enddatum vom 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.</p> <p>Tipp: Bei der Bearbeitung einer vorhandenen Auftragsrolle können Sie <strong>Nach Startdatum sortieren</strong> um das neueste Startdatum oben in der Ratenliste anzuzeigen.</p></td> 
+      <p>Klicken Sie für Datumswerte mit effektiven Kostensätzen auf <strong>[!UICONTROL Rate hinzufügen]</strong>. Geben Sie den Wert der Kosten/Stunde für den Zeitraum ein und weisen Sie nach Bedarf ein [!UICONTROL Startdatum] und ein [!UICONTROL Enddatum] zu. Der erste Kostensatz hat kein Startdatum und der letzte Kostensatz hat kein Enddatum.</p> <p>Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Kostensatz kein Enddatum hat und Sie einen zweiten Kostensatz mit einem Startdatum vom 1. Mai 2023 hinzufügen, wird dem ersten Kostensatz ein Enddatum vom 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.</p> <p>Tipp: Wenn Sie eine vorhandene Auftragsrolle bearbeiten, können Sie <strong>Nach Startdatum sortieren</strong> auswählen, um das neueste Startdatum oben in der Ratenliste anzuzeigen.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Abrechnungsrate] </td> 
-      <td><p>Dies ist die Abrechnungsrate pro Stunde für die Auftragsrolle. Dieser Wert berechnet die geplanten und tatsächlichen Einnahmen aus Aufgaben und Problemen im Zusammenhang mit der Rolle sowie letztlich die geplanten und tatsächlichen Einnahmen der Projekte. Geben Sie den Wechselkurs mithilfe der [!UICONTROL Basiswährung] ein.</p> <p>Klicken Sie für datumswirksame Abrechnungsraten auf <strong>[!UICONTROL Zusatzrate]</strong>. Geben Sie den Wert der Abrechnung/Stunde für den Zeitraum ein und weisen Sie nach Bedarf ein [!UICONTROL Startdatum] und ein [!UICONTROL Enddatum] zu. Der erste Abrechnungskurs hat kein Startdatum und der letzte Abrechnungskurs hat kein Enddatum.</p> <p>Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Abrechnungskurs kein Enddatum hat und Sie einen zweiten mit dem Startdatum 1. Mai 2023 hinzufügen, wird dem ersten Abrechnungskurs ein Enddatum vom 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.</p> <p>Tipp: Bei der Bearbeitung einer vorhandenen Auftragsrolle können Sie <strong>Nach Startdatum sortieren</strong> um das neueste Startdatum oben in der Ratenliste anzuzeigen.</p> </td> 
+      <td><p>Dies ist die Abrechnungsrate pro Stunde für die Auftragsrolle. Dieser Wert berechnet die geplanten und tatsächlichen Einnahmen aus Aufgaben und Problemen im Zusammenhang mit der Rolle sowie letztlich die geplanten und tatsächlichen Einnahmen der Projekte. Geben Sie den Wechselkurs mithilfe der [!UICONTROL Basiswährung] ein.</p> <p>Klicken Sie für das Datum, an dem die effektiven Abrechnungsraten gelten, auf <strong>[!UICONTROL Zusatzrate]</strong>. Geben Sie den Wert der Abrechnung/Stunde für den Zeitraum ein und weisen Sie nach Bedarf ein [!UICONTROL Startdatum] und ein [!UICONTROL Enddatum] zu. Der erste Abrechnungskurs hat kein Startdatum und der letzte Abrechnungskurs hat kein Enddatum.</p> <p>Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Abrechnungskurs kein Enddatum hat und Sie einen zweiten mit dem Startdatum 1. Mai 2023 hinzufügen, wird dem ersten Abrechnungskurs ein Enddatum vom 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.</p> <p>Tipp: Wenn Sie eine vorhandene Auftragsrolle bearbeiten, können Sie <strong>Nach Startdatum sortieren</strong> auswählen, um das neueste Startdatum oben in der Ratenliste anzuzeigen.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Währung überschreiben]</span> </td> 
       <td>
-        <p>Wählen Sie eine Währung aus, die mit dieser Auftragsrolle verknüpft ist. Diese Währung [!DNL Workfront] verwendet sie zur Berechnung von Kosten und Einnahmen im Zusammenhang mit dieser Stellenfunktion. </p> 
-        <p><span>Dies unterscheidet sich von der [!UICONTROL Basiswährung], die von Ihrem [!DNL Workfront] Administrator im [!UICONTROL Setup] -Bereich und kann sich von der mit einem Projekt verknüpften Währung unterscheiden.</span> </p> 
+        <p>Wählen Sie eine Währung aus, die mit dieser Auftragsrolle verknüpft ist. Dies ist die Währung, die [!DNL Workfront] zur Berechnung der Kosten und Einnahmen im Zusammenhang mit dieser Stellenfunktion verwendet. </p> 
+        <p><span>Dies unterscheidet sich von der [!UICONTROL Basiswährung], die von Ihrem [!DNL Workfront] -Administrator im [!UICONTROL Setup] -Bereich eingerichtet wurde, und kann sich von der mit einem Projekt verknüpften Währung unterscheiden.</span> </p> 
         <p>Tipp: In diesem Feld sind nur Währungen verfügbar, die im Bereich [!UICONTROL Wechselkurse] Ihres Systems verfügbar sind. Wenn Sie nur eine Währung eingerichtet haben, wird dieses Feld nicht angezeigt.</p> 
-       <p><span>Informationen zum Einrichten der [!UICONTROL Basiswährung] finden Sie unter [!DNL Workfront], siehe</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wechselkurse einrichten</a>.</p> <p><span>Informationen zum Ändern der Währung eines Projekts finden Sie unter</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Ändern der Projektwährung</a>.</p> </td> 
+       <p><span>Informationen zum Einrichten der [!UICONTROL Basiswährung] in [!DNL Workfront] finden Sie unter </span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>.</p> <p><span>Informationen zum Ändern der Währung eines Projekts finden Sie unter </span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Ändern der Projektwährung</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Währungskostensatz überschreiben]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Währungskostenrate überschreiben]</span> </td> 
       <td>
         <p>Dies ist die Kosten pro Stunde für die Rolle "Auftrag"unter Verwendung der ausgewählten [!UICONTROL Überschreibungswährung]. [!DNL Workfront] verwendet diesen Wert zur Berechnung der geplanten und tatsächlichen Kosten von Aufgaben und Problemen, die mit der Auftragsrolle verbunden sind. </p> 
-        <p><span>Geben Sie in das oben angegebene Feld [!UICONTROL Override Currency] den Wert ein. Dadurch wird auch der Kostensatz für diese Auftragsrolle bei Verwendung der [!UICONTROL Basiswährung] aktualisiert.</span> </p> 
-        <p>Für Informationen zum [!DNL Workfront] berechnet Kosten, siehe <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten verfolgen</a>.</p> 
-       <p>Tipp: Beim Aktualisieren einer vorhandenen Auftragsrolle, der bereits eine Kostenquote zugeordnet ist, [!DNL Workfront] berechnet die [!UICONTROL Überschreibungswährung]-Rate basierend auf der Konversionsrate in Ihrem System. Wenn Sie die [!UICONTROL Override Currency Cost Rate] aktualisieren, wird auch die Kostenstelle der Auftragsrolle automatisch aktualisiert.</p> </td> 
+        <p><span>Geben Sie die Rate in die oben angegebene [!UICONTROL Überschreibungswährung] ein. Dadurch wird auch der Kostensatz für diese Auftragsrolle bei Verwendung der [!UICONTROL Basiswährung] aktualisiert.</span> </p> 
+        <p>Informationen zur Berechnung der Kosten durch [!DNL Workfront] finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten für die Nachverfolgung</a>.</p> 
+       <p>Tipp: Beim Aktualisieren einer vorhandenen Auftragsrolle, der bereits eine Kostenquote zugeordnet ist, berechnet [!DNL Workfront] die [!UICONTROL Override Currency]-Rate basierend auf der Konversionsrate in Ihrem System. Wenn Sie die [!UICONTROL Override Currency Cost Rate] aktualisieren, wird auch die Kostenstelle der Auftragsrolle automatisch aktualisiert.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Währungsabrechnungsrate überschreiben]</span> </td> 
       <td>
         <p>Dies ist die Abrechnungsrate pro Stunde der Auftragrolle unter Verwendung der ausgewählten [!UICONTROL Überschreibungswährung]. [!DNL Workfront] verwendet diesen Wert zur Berechnung des geplanten und des tatsächlichen Umsatzes von Aufgaben und Problemen, die mit der Auftragsrolle verbunden sind. </p>
-        <p><span>Geben Sie in das oben angegebene Feld [!UICONTROL Override Currency] den Wert ein. Dadurch wird auch der Abrechnungskurs für diese Auftragsrolle aktualisiert, wenn die [!UICONTROL Basiswährung] verwendet wird.</span> </p>
-        <p>Für Informationen zum [!DNL Workfront] berechnet den Umsatz, siehe <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Rechnungsstellung und Umsatz</a>.</p>
-        <p>Tipp: Beim Aktualisieren einer vorhandenen Stellenrolle, der bereits eine Abrechnungsrate zugeordnet ist, [!DNL Workfront] berechnet die Überschreibungswährungsrate basierend auf der Konversionsrate in Ihrem System. Wenn Sie die Überschreiben der Währungsabrechnungsrate aktualisieren, wird auch die Abrechnungsrate der Auftragsrolle automatisch aktualisiert. </p>
+        <p><span>Geben Sie die Rate in die oben angegebene [!UICONTROL Überschreibungswährung] ein. Dadurch wird auch der Abrechnungskurs für diese Auftragsrolle aktualisiert, wenn die [!UICONTROL Basiswährung] verwendet wird.</span> </p>
+        <p>Informationen zur Berechnung des Umsatzes durch [!DNL Workfront] finden Sie unter <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Rechnungsstellung und Umsatz</a>.</p>
+        <p>Tipp: Beim Aktualisieren einer vorhandenen Auftragsrolle, der bereits eine Abrechnungsrate zugeordnet ist, berechnet [!DNL Workfront] die Überschreibungswährungsrate basierend auf der Konversionsrate in Ihrem System. Wenn Sie die Überschreiben der Währungsabrechnungsrate aktualisieren, wird auch die Abrechnungsrate der Auftragsrolle automatisch aktualisiert. </p>
        </td>
      </tr> 
     </tbody> 
@@ -129,7 +129,7 @@ So erstellen Sie eine Arbeitsplatzrolle:
    >
    >Die Rolle von Arbeitsplätzen ist ein integraler Bestandteil der Ressourcenverwaltung. Um die Tools zur Ressourcenplanung zu verwenden, benötigen die Rollen einen damit verbundenen Kosten- und Abrechnungskurs. Weitere Informationen finden Sie unter [Erste Schritte mit der Ressourcenverwaltung](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-1. Klicks **[!UICONTROL Auftragsliste erstellen]**. Die Rolle &quot;Auftrag&quot;kann jetzt Aufgaben, Problemen, Genehmigungen oder Layoutvorlagen oder anderen Objekten zugewiesen werden. Weitere Informationen zu allen Verwendungen von Vorgangsrollen finden Sie unter [!DNL Workfront], siehe [Übersicht über die Auftragsrolle](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Weitere Informationen zum Löschen einer Stellenrolle finden Sie unter [Löschen von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
+1. Klicken Sie auf **[!UICONTROL Auftragsrolle erstellen]**. Die Rolle &quot;Auftrag&quot;kann jetzt Aufgaben, Problemen, Genehmigungen oder Layoutvorlagen oder anderen Objekten zugewiesen werden. Weitere Informationen zu allen Verwendungen von Auftragsrollen in [!DNL Workfront] finden Sie unter [Übersicht über Auftragsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Weitere Informationen zum Löschen einer Auftragsrolle finden Sie unter [Löschen von Auftragsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

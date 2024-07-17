@@ -17,35 +17,35 @@ Mit Webinhaltblöcken können Sie Informationen von externen Websites direkt in 
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Beta-Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Arbeitsfläche für die Berichterstellung Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Webinhaltsbausteine hinzufügen oder bearbeiten
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Berichterstellung**.
-1. Klicks **Neuer Bericht**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Berichterstellung**.![](assets/main-menu-icon.png)
+1. Klicken Sie auf **Neuer Bericht**.
 
    Oder
 
-   Gehen Sie zu einem vorhandenen Bericht und klicken Sie auf die Schaltfläche **Mehr** icon ![](assets/more-icon-27x15.png) Klicken Sie in der Berichtüberschrift auf **Bearbeiten**.
+   Wechseln Sie zu einem vorhandenen Bericht, klicken Sie auf das Symbol **Mehr** ![](assets/more-icon-27x15.png) in der Kopfzeile des Berichts und klicken Sie dann auf **Bearbeiten**.
 
-1. Auf der rechten Seite des Bildschirms unter **Baustein hinzufügen**, entweder:
+1. Fügen Sie rechts im Bildschirm unter **Baustein hinzufügen** einen der folgenden Schritte ein:
 
-   Ziehen Sie die **Webinhalt** auf der Arbeitsfläche direkt zu Ihrer gewünschten Position.
+   Ziehen Sie das Symbol **Webinhalt** direkt an die gewünschte Position auf der Arbeitsfläche.
 
    Oder
 
-   Doppelklicken Sie auf die **Webinhalt** -Symbol, um oben auf der Arbeitsfläche einen Block hinzuzufügen.
+   Doppelklicken Sie auf das Symbol **Webinhalt** , um oben auf der Arbeitsfläche einen Block hinzuzufügen.
 
    >[!TIP]
    >
    >Sie können die Größe des Blocks nach seiner Platzierung durch Ziehen der Ecken-Griffe ändern.
 
-1. Klicks **Unbenannter Webinhalt** Geben Sie in die Kopfzeile des Blocks einen Titel für den Block ein.
-1. Klicken Sie auf **Bearbeiten** icon ![](assets/edit-icon.png) in der Blockkopfzeile.
+1. Klicken Sie im Block-Header auf **Webinhalt ohne Titel** und geben Sie dann einen Titel für den Block ein.
+1. Klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png) in der Kopfzeile des Blocks.
 
    ![](assets/web-content-block-header-350x76.png)
 
-1. Im **Einstellungen** das geöffnet wird, geben Sie die vollständige URL für die Seite ein, die Sie in der **URL** -Feld.
+1. Geben Sie im sich öffnenden Bedienfeld **Einstellungen** im Feld **URL** die vollständige URL für die Seite ein, die angezeigt werden soll (einschließlich &quot;https://&quot;).
 
    >[!NOTE]
    >
@@ -68,10 +68,10 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 
    {style="table-layout:auto"}
 
-1. (Optional) Klicken Sie auf die **Parameter übergeben** Umschalten, um eine Liste der verfügbaren Übergabeparameter zu öffnen.
+1. (Optional) Klicken Sie auf den Umschalter **Parameter übergeben** , um eine Liste der verfügbaren Übergabeparameter zu öffnen.
 
    >[!WARNING]
    >
    >Parameter für die Weiterleitung sind derzeit deaktiviert.
 
-1. Klicks **Einbetten-URL** , um Ihre Auswahl zu speichern und zu Ihrem Bericht zurückzukehren.
+1. Klicken Sie auf **URL einbetten** , um Ihre Auswahl zu speichern und zu Ihrem Bericht zurückzukehren.

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
@@ -32,5 +32,5 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Vergleichen von Testsendungen im Testversand-Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [Anzeigen früherer Testversionen im Web Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [Herunterladen eines Testversands im Testversand-Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [Tastaturbefehle im [!DNL Workfront Proof] Testversand-Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [Tastaturbefehle im Proofing-Viewer für  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [Legacy-Testversand-Viewer entfernt](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

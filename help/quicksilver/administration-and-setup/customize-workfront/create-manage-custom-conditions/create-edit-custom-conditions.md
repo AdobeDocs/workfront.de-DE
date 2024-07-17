@@ -10,7 +10,7 @@ role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
 source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '642'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td>Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
@@ -37,24 +37,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td>Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Benutzerdefinierte Bedingung erstellen oder bearbeiten
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken **Projektvoreinstellungen** > **Bedingungen**.
+1. Klicken Sie auf **Projekteinstellungen** > **Bedingungen**.
 
-1. Klicken Sie auf die Registerkarte des Objekttyps (**Projekt**, **Aufgabe** oder **Problem**), die Sie mit der Bedingung verknüpfen möchten.
+1. Klicken Sie auf die Registerkarte des Objekttyps (**Projekt**, **Aufgabe** oder **Problem**), den Sie mit der Bedingung verknüpfen möchten.
 
 1. Um eine neue Bedingung zu erstellen, klicken Sie auf **Neue Bedingung hinzufügen**.
 
    Oder
 
-   Um eine vorhandene Bedingung zu bearbeiten, bewegen Sie den Mauszeiger über die zu bearbeitende Bedingung und klicken Sie auf **Bearbeiten** -Symbol, das ganz rechts angezeigt wird.
+   Um eine vorhandene Bedingung zu bearbeiten, bewegen Sie den Mauszeiger über die zu bearbeitende Bedingung und klicken Sie dann auf das Symbol **Bearbeiten** , das ganz rechts angezeigt wird.
 
    ![](assets/custom-condition-edit-nwe.jpg)
 
@@ -79,7 +79,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      <tr> 
       <td>Entspricht </td> 
       <td><p>(Erforderlich, nur für Projekte) Klicken Sie auf die Option in der Dropdownliste, die die Funktion Ihrer neuen Bedingung am besten beschreibt. Beispielsweise würden Sie für eine Bedingung mit dem Namen Tracking Well auf Auf Target klicken. Dadurch wird bestimmt, wie Ihre Standardbedingungen funktionieren. Jede von Ihnen erstellte Bedingung muss mit einer der Optionen im Dropdown-Menü übereinstimmen.</p>
-      <p>Informationen zu Standardbedingungen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte</a> und <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Benutzerdefinierte Bedingung als Standard für Aufgaben und Probleme festlegen</a>.</p>
+      <p>Informationen zu Standardbedingungen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte</a> und <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Festlegen einer benutzerdefinierten Bedingung als Standard für Aufgaben und Probleme</a>.</p>
       <p>Diese Option kann nach der Erstellung der Bedingung nicht mehr geändert werden.</p></td> 
      </tr> 
      <tr> 
@@ -100,24 +100,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Sie können die Terminologie und Farben von Bedingungen für alle drei Objektarten standardisieren. Kopieren Sie dazu den Bedingungsnamen und den Farb-Hex-Code von einer Registerkarte (Projekt, Aufgabe, Problem) in die entsprechende Bedingung auf den anderen beiden Registerkarten.
 
-1. (Optional) Ziehen Sie ![](assets/move-icon---dots.png) jede Bedingung an eine neue Position, um die Liste neu anzuordnen.
+1. (Optional) Ziehen Sie ![](assets/move-icon---dots.png) beliebige Bedingungen an eine neue Position, um die Liste neu anzuordnen.
 
    Dadurch ändert sich die Reihenfolge, in der Bedingungen in Projekten, Aufgaben und Problemen angezeigt werden:
 
    * Wenn ein Benutzer ein Projekt bearbeitet
 
-      ![](assets/change-condition-edit-project.png)
+     ![](assets/change-condition-edit-project.png)
 
    * Wenn ein Benutzer die Bedingung für eine Aufgabe oder ein Problem auf der Registerkarte Updates ändert:
 
-      ![](assets/change-condition-update-comment.png)
+     ![](assets/change-condition-update-comment.png)
 
    * Wenn ein Benutzer die Bedingung für eine Aufgabe oder ein Problem in einer Listenansicht ändert:
 
-      ![](assets/change-conditions-list-dropdown-only.png)
+     ![](assets/change-conditions-list-dropdown-only.png)
 
 1. Klicken Sie auf **Speichern**.
 
-Sie können Ihre benutzerdefinierte Bedingung als Standardbedingung für Projekte oder für Aufgaben und Probleme festlegen. Weitere Informationen finden Sie unter [Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) und [Benutzerdefinierte Bedingung als Standard für Aufgaben und Probleme festlegen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
+Sie können Ihre benutzerdefinierte Bedingung als Standardbedingung für Projekte oder für Aufgaben und Probleme festlegen. Weitere Informationen finden Sie unter [Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) und [Festlegen einer benutzerdefinierten Bedingung als Standard für Aufgaben und Probleme](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
 Weitere Informationen zu benutzerdefinierten Bedingungen finden Sie unter [Benutzerdefinierte Bedingungen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

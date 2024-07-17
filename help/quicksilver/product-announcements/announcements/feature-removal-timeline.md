@@ -34,12 +34,12 @@ Verschiedene Funktionen werden schrittweise aus dem Adobe Workfront-Produkt entf
    <td> <p>Letzte Version mit neuen Funktionsverbesserungen in Classic mit Version 21.2</p> <p>Ab 31. März 2022 nicht mehr unterstützt</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Internet Explorer-Unterstützung</p> <p>Mit dem Wegfall der Unterstützung für Internet Explorer unterstützt Workfront jetzt offiziell Microsoft Edge. </p> <p>Weitere Informationen zu unterstützten Browsern finden Sie unter <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Adobe Workfront-Browseranforderungen</a>.</p> </td> 
+   <td> <p>Internet Explorer-Unterstützung</p> <p>Mit der Abschaffung der Unterstützung für Internet Explorer unterstützt Workfront jetzt offiziell Microsoft Edge. </p> <p>Weitere Informationen zu unterstützten Browsern finden Sie unter <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Browseranforderungen für Adobe Workfront</a>.</p> </td> 
    <td>Mit Version 21.1</td> 
    <td>In Version 21.2 nicht mehr unterstützt</td> 
   </tr> 
   <tr> 
-   <td> <p>Ressourcenplanung</p> <p>Der Lastenausgleich bietet ein verbessertes Erlebnis bei der Planung von Ressourcen.</p> <p>Detaillierte Informationen zum Arbeitslastausgleich finden Sie unter <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Übersicht über den Lastenausgleich</a>.</p> </td> 
+   <td> <p>Ressourcenplanung</p> <p>Der Lastenausgleich bietet ein verbessertes Erlebnis bei der Planung von Ressourcen.</p> <p>Detaillierte Informationen zum Arbeitslastausgleich finden Sie unter <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Übersicht über den Arbeitslastausgleich</a>.</p> </td> 
    <td> </td> 
    <td> <p>Ab 9. November 2020 nicht mehr unterstützt (mit Version 20.4)</p> <p>—</p> <p>Aus der Workfront-Plattform nach dem ersten Halbjahr 2022 entfernt</p> </td> 
   </tr> 

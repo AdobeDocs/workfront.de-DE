@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Datenspeichermodule
-description: Ein [!DNL Adobe Workfront Fusion] -Datenspeicher, ähnlich wie eine Datenbank oder eine einfache Tabelle, können Daten aus Szenarien speichern, sodass Daten zwischen einzelnen Szenarien oder Szenario-Läufen übertragen werden können. Sie können einen Datenspeicher verwenden, um während der Synchronisierung neue Daten aus verschiedenen Systemen zu speichern.
+description: Ein [!DNL Adobe Workfront Fusion] Datenspeicher, der einer Datenbank oder einer einfachen Tabelle ähnelt, kann Daten aus Szenarien speichern und so die Übertragung von Daten zwischen einzelnen Szenarien oder Szenario-Ausführungen ermöglichen. Sie können einen Datenspeicher verwenden, um während der Synchronisierung neue Daten aus verschiedenen Systemen zu speichern.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Datenspeicher] Module
+# [!UICONTROL Datenspeicher] -Module
 
-Ein [!DNL Adobe Workfront Fusion] -Datenspeicher, ähnlich wie eine Datenbank oder eine einfache Tabelle, können Daten aus Szenarien speichern, sodass Daten zwischen einzelnen Szenarien oder Szenario-Läufen übertragen werden können. Sie können einen Datenspeicher verwenden, um während der Synchronisierung neue Daten aus verschiedenen Systemen zu speichern.
+Ein [!DNL Adobe Workfront Fusion] -Datenspeicher, der einer Datenbank oder einer einfachen Tabelle ähnelt, kann Daten aus Szenarien speichern und so die Übertragung von Daten zwischen einzelnen Szenarien oder Szenario-Ausführungen ermöglichen. Sie können einen Datenspeicher verwenden, um während der Synchronisierung neue Daten aus verschiedenen Systemen zu speichern.
 
-Mit den Datenspeichermodulen können Sie Datensätze in Ihren [!DNL Adobe Workfront Fusion] Datenspeicher.
+Mit den Datenspeichermodulen können Sie Einträge in Ihrem [!DNL Adobe Workfront Fusion] -Datenspeicher hinzufügen, ersetzen, aktualisieren, abrufen, löschen, suchen oder zählen.
 
-Informationen zur Erstellung, Bearbeitung und Fehlerbehebung von Datenspeichern finden Sie unter [Datenspeicher in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Informationen zum Erstellen, Bearbeiten und Fehlerbehebung von Datenspeichern finden Sie unter [Datenspeicher in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
 Eine Videoeinführung zu Datenspeichern in Workfront Fusion finden Sie unter:
 
@@ -46,41 +46,41 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Verwendung [!UICONTROL Datenspeicher] -Modulen erstellen, müssen Sie zunächst einen Datenspeicher erstellen.
+Um die Module [!UICONTROL Datenspeicher] zu verwenden, müssen Sie zunächst einen Datenspeicher erstellen.
 
 Informationen zum Erstellen von Datenspeichern finden Sie unter [Datenspeicher in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
-## [!UICONTROL Datenspeicher] Module und ihre Felder
+## [!UICONTROL Datenspeicher] -Module und ihre Felder
 
-Wenn Sie Datenspeichermodule konfigurieren, [!DNL Workfront Fusion] zeigt die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche Datenspeicherfelder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Wenn Sie Datenspeichermodule konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche Datenspeicherfelder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Ordnen Sie Informationen zwischen Modulen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-Alle [!UICONTROL Datenspeicher] -Module sind Aktionstypmodule.
+Alle [!UICONTROL Datenspeicher] -Module sind Aktionstyp-Module.
 
 * [Hinzufügen/Ersetzen von Datensätzen](#addreplace-a-record)
 * [Datensatz aktualisieren](#update-a-record)
@@ -91,7 +91,7 @@ Alle [!UICONTROL Datenspeicher] -Module sind Aktionstypmodule.
 * [Suchdatensätze](#search-records)
 * [Count Records](#count-records)
 
-### [!UICONTROL Hinzufügen/Ersetzen von Datensätzen]
+### [!UICONTROL Datensatz hinzufügen/ersetzen]
 
 Dieses Aktionsmodul fügt einen Datensatz hinzu oder ersetzt ihn.
 
@@ -101,7 +101,7 @@ Das Modul gibt die Kennung des Datensatzes und alle zugehörigen Felder sowie al
 
 >[!NOTE]
 >
->Das Modul gibt einen Fehler aus, wenn Sie versuchen, den Datensatz hinzuzufügen, der sich bereits im Datenspeicher unter demselben Namen befindet, und die [!UICONTROL Vorhandenen Datensatz überschreiben] deaktiviert ist.
+>Das Modul löst einen Fehler aus, wenn Sie versuchen, den Datensatz hinzuzufügen, der sich bereits im Datenspeicher unter demselben Namen befindet, und die Option [!UICONTROL Vorhandenen Datensatz überschreiben] deaktiviert ist.
 
 Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
@@ -184,7 +184,7 @@ Das Modul gibt die Kennung des Datensatzes und alle zugehörigen Felder sowie al
  </tbody> 
 </table>
 
-### [!UICONTROL Überprüfen des Vorhandenseins eines Datensatzes]
+### [!UICONTROL Prüfen des Vorhandenseins eines Datensatzes]
 
 Dieses Aktionsmodul gibt an, ob ein bestimmter Datensatz vorhanden ist.
 
@@ -205,7 +205,7 @@ Sie geben den Datenspeicher und den Schlüssel des Datensatzes an.
  </tbody> 
 </table>
 
-### [!UICONTROL Datensatz löschen]
+### [!UICONTROL Einen Datensatz löschen]
 
 Dieses Aktionsmodul löscht einen Datensatz.
 
@@ -271,7 +271,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
-   <td> <p> Maximale Anzahl von Suchergebnissen festlegen [!DNL Workfront Fusion] gibt während eines Ausführungszyklus zurück.</p> </td> 
+   <td> <p> Legen Sie die maximale Anzahl von Suchergebnissen fest, die [!DNL Workfront Fusion] während eines Ausführungszyklus zurückgibt.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Fortfahren der Routenausführung, selbst wenn das Modul keine Ergebnisse zurückgibt]</td> 
@@ -280,7 +280,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-### [!UICONTROL Count Records]
+### [!UICONTROL Datensätze zählen]
 
 Dieses Aktionsmodul nummeriert die Datensätze in einem Datenspeicher.
 

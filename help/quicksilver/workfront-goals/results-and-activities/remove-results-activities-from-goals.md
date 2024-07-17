@@ -23,9 +23,9 @@ Sie können Ergebnisse, Aktivitäten und Projekte aus Zielen entfernen, wenn sie
 
 Informationen zum Erstellen von Zielen sowie zum Hinzufügen von Ergebnissen und Aktivitäten zu diesen finden Sie in den folgenden Artikeln:
 
-* [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md)
+* [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
 * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Ergebnisse zu Zielen in Adobe Workfront-Zielen hinzufügen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Ergebnisse und Aktivitäten in Adobe Workfront-Zielen bearbeiten](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 Ziele können auch auf übergeordnete Ziele ausgerichtet werden, sodass sie zu Kinderzielen werden. Kinderziele sind auch Fortschrittsindikatoren der übergeordneten Ziele.
@@ -92,7 +92,7 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -105,7 +105,7 @@ Sie müssen ein Ziel mit Ergebnissen, Aktivitäten oder Projekten verknüpfen.
 * Wenn Sie das Ergebnis oder die Aktivität aus einem Ziel entfernen, wirkt sich der Fortschritt des entfernten Ergebnisses oder der Aktivität auf den Gesamtfortschritt des Ziels aus.
 * Ein Projekt kann nicht aus einem Ziel gelöscht werden, es kann jedoch vom Ziel getrennt werden. Wenn Sie das Projekt vom Ziel trennen, wirkt sich der Prozentsatz des Projektabschlusses nicht mehr auf den Fortschritt des Ziels aus.
 
-  Informationen darüber, wie Projekte den Zielfortschritt beeinflussen, finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Informationen dazu, wie Projekte den Zielfortschritt beeinflussen, finden Sie unter [Projekte zu Zielen in Adobe Workfront hinzufügen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * Sie können ein Ergebnis oder eine Aktivität nicht aus einem Ziel entfernen und die Verbindung zu einem untergeordneten Ziel bzw. Projekt nicht trennen, wenn es sich um die letzte Fortschrittsanzeige für das Ziel handelt.
 * Wenn ein Projekt aus dem Bereich &quot;Projekte&quot;gelöscht wird und es der letzte Fortschrittsindikator eines Ziels ist, wird das Ziel inaktiv.
@@ -141,7 +141,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Ziele**.
+1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ziele**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -151,11 +151,11 @@ How you delete results and activities differs depending on the environment you u
 
    Dadurch wird die Zielseite geöffnet.
 
-1. Klicks **Fortschrittsanzeigen** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Fortschrittsanzeigen** .
 
-1. Wählen Sie ein Ergebnis oder eine Aktivität aus und klicken Sie auf die Schaltfläche **Löschen** icon ![](assets/delete-icon.png) oben in der Liste.
+1. Wählen Sie ein Ergebnis oder eine Aktivität aus und klicken Sie dann oben in der Liste auf das Symbol **Löschen** ![](assets/delete-icon.png) .
 
-1. Klicks **Löschen** , um den Löschvorgang zu bestätigen. Das Ergebnis oder die Aktivität wird gelöscht und kann nicht wiederhergestellt werden. Der prozentuale Abschluss des Ziels wird aktualisiert, um die gelöschte Aktivität oder das gelöschte Ergebnis auszuschließen.
+1. Klicken Sie auf **Löschen** , um den Löschvorgang zu bestätigen. Das Ergebnis oder die Aktivität wird gelöscht und kann nicht wiederhergestellt werden. Der prozentuale Abschluss des Ziels wird aktualisiert, um die gelöschte Aktivität oder das gelöschte Ergebnis auszuschließen.
 
 
 ## Entfernen von Projekten aus Zielen
@@ -186,7 +186,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Klicken Sie auf **Hauptmenü** Symbol oben rechts und klicken Sie dann auf **Ziele**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts und dann auf **Ziele**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -196,9 +196,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 1. Klicken Sie auf den Namen eines Ziels, aus dem Sie Ergebnisse und Aktivitäten entfernen möchten.
 
    Dadurch wird die Zielseite geöffnet.
-1. Klicks **Fortschrittsanzeigen** im linken Bereich.
-1. Wählen Sie ein Projekt aus und klicken Sie dann auf das **Trennen** icon ![](assets/disconnect-icon.png) oben in der Liste.
-1. Klicks **Trennen** zur Bestätigung.
+1. Klicken Sie im linken Bereich auf **Fortschrittsanzeigen** .
+1. Wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf das Symbol **Trennen** ![](assets/disconnect-icon.png) .
+1. Klicken Sie zur Bestätigung auf **Trennen** .
 
    Das Projekt ist nicht mehr mit dem Ziel verbunden. Der prozentuale Abschluss des Ziels wird aktualisiert, um das nicht verbundene Projekt auszuschließen.
 

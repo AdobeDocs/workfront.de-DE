@@ -20,7 +20,7 @@ Sie können Karten auf einer Pinnwand nach Verantwortlichen oder Tag gruppieren.
 
 >[!NOTE]
 >
->Alle Karten in der Ansaugspalte sind nicht in einer Gruppe enthalten, und die Ansauspalte wird ausgeblendet, wenn eine Gruppe angewendet wird. Informationen über die Aufnahmespalte finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Alle Karten in der Ansaugspalte sind nicht in einer Gruppe enthalten, und die Ansauspalte wird ausgeblendet, wenn eine Gruppe angewendet wird. Informationen zur Ansauspalte finden Sie unter [Hinzufügen einer Ansauspalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Zugriffsanforderungen
 
@@ -33,8 +33,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -43,19 +43,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Gruppieren von Karten auf einer Pinnwand
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Pinnwände]**.
-1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicks **[!UICONTROL Gruppe]** um das Gruppenbedienfeld auf der linken Seite der Pinnwand zu öffnen.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie auf **[!UICONTROL Gruppe]** , um den Gruppenbereich links auf der Pinnwand zu öffnen.
 
    >[!NOTE]
    >
-   >Die Standardeinstellung für die Gruppierung nach ist **[!UICONTROL Keines]**. Sie können diese Option jederzeit auswählen, um eine Gruppe zu entfernen und nur die Spalten auf der Pinnwand anzuzeigen.
+   >Die Standardeinstellung für die Gruppierung nach ist **[!UICONTROL None]**. Sie können diese Option jederzeit auswählen, um eine Gruppe zu entfernen und nur die Spalten auf der Pinnwand anzuzeigen.
 
-1. Um die Karten zu gruppieren, wählen Sie **[!UICONTROL Zuweisung]** oder **[!UICONTROL Tags]**.
+1. Um die Karten zu gruppieren, wählen Sie **[!UICONTROL Zuweisungen]** oder **[!UICONTROL Tags]** aus.
 
    Die Karten werden automatisch gruppiert. Klicken Sie auf den Pfeil neben dem Gruppennamen, um die Gruppe zu reduzieren und zu erweitern.
 
@@ -63,9 +63,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wählen Sie aus, was passiert, wenn eine Karte in eine andere Gruppe verschoben wird.
 
-   * **[!UICONTROL Hinzufügen zu Bevollmächtigten] / [!UICONTROL Tags hinzufügen]:** Die Bevollmächtigten oder Tags in der neuen Gruppe werden der bestehenden Liste der Bevollmächtigten oder Tags auf der Karte hinzugefügt.
+   * **[!UICONTROL Auf Bevollmächtigten hinzufügen] / [!UICONTROL Auf Tags hinzufügen]:** Die Bevollmächtigten oder Tags in der neuen Gruppe werden der vorhandenen Liste der Bevollmächtigten oder Tags auf der Karte hinzugefügt.
    * **[!UICONTROL Zuweisung überschreiben] / [!UICONTROL Tags überschreiben]:** Die Bevollmächtigten oder Tags in der neuen Gruppe überschreiben alle anderen Bevollmächtigten oder Tags und werden zu den einzigen Bevollmächtigten oder Tags auf der Karte.
 
    ![[!UICONTROL Nach Optionen gruppieren]](assets/group-by-rail.png)
 
-1. Klicks **[!UICONTROL Gruppen ausblenden]** , um das Gruppenbedienfeld auszublenden und die gesamte Pinnwand anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Gruppen ausblenden]** , um das Gruppenbedienfeld auszublenden und die gesamte Pinnwand anzuzeigen.

@@ -82,11 +82,11 @@ Sie müssen über Folgendes verfügen, um die in diesem Artikel beschriebenen Ak
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Zugriff auf Workfront-Ziele
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke und klicken Sie auf **Ziele**.
+1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ziele**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -106,9 +106,9 @@ Sie müssen über Folgendes verfügen, um die in diesem Artikel beschriebenen Ak
 
    Oder
 
-   Klicks **Neues Ziel** , um ein neues Ziel hinzuzufügen.
+   Klicken Sie auf **Neues Ziel** , um ein neues Ziel hinzuzufügen.
 
-   Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+   Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
 ## Einzelne Ziele öffnen und verwalten
 
@@ -154,13 +154,13 @@ To access an individual goal in the Production environment:
 
 So greifen Sie auf ein einzelnes Ziel zu:
 
-1. Klicken Sie auf **Hauptmenü** rechts oben in Workfront auf und klicken Sie dann auf **Ziele** .
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Workfront und dann auf **Ziele** .
 Die Zielliste wird standardmäßig angezeigt.
    ![](assets/goal-list-unshimmed.png)
 1. Klicken Sie auf den Namen eines Ziels in der Liste.
 Die Seite des Ziels wird angezeigt.
    ![](assets/goal-page-unshimmed.png)
-1. Klicken Sie auf **Mehr** Menü ![](assets/more-icon.png) rechts neben dem Zielnamen, um das Ziel weiter zu bearbeiten oder freizugeben.
-1. Klicks **Zieldetails** im linken Bereich, um Informationen zum Ziel zu bearbeiten. Weitere Informationen finden Sie unter [Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;in Adobe Workfront-Zielen](../goal-management/update-goals-in-goal-details-panel.md).
+1. Klicken Sie auf das Menü **Mehr** rechts neben dem Zielnamen, um das Ziel weiter zu bearbeiten oder freizugeben.![](assets/more-icon.png)
+1. Klicken Sie im linken Bereich auf **Zieldetails** , um Informationen zum Ziel zu bearbeiten. Weitere Informationen finden Sie unter [Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;unter Adobe Workfront-Ziele](../goal-management/update-goals-in-goal-details-panel.md).
 
 

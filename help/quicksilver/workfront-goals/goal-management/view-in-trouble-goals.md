@@ -19,7 +19,7 @@ ht-degree: 0%
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-Ziele mit Fortschritten bei Problembehebung laufen Gefahr, nicht erreicht zu werden, und werden durch eine rote Fortschrittsleiste bei den Adobe Workfront-Zielen repräsentiert. Sie sollten Ihre Ziele oft überprüfen und verstehen, warum der Fortschritt hinkt. Informationen zum Zielfortschritt finden Sie unter [Übersicht über den Zielfortschritt und die Bedingungen in den Adobe Workfront-Zielen](../../workfront-goals/goal-management/calculate-goal-progress.md).
+Ziele mit Fortschritten bei Problembehebung laufen Gefahr, nicht erreicht zu werden, und werden durch eine rote Fortschrittsleiste bei den Adobe Workfront-Zielen repräsentiert. Sie sollten Ihre Ziele oft überprüfen und verstehen, warum der Fortschritt hinkt. Weitere Informationen zum Zielfortschritt finden Sie unter [Übersicht über den Zielfortschritt und den Zielzustand in Adobe Workfront-Zielen](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Zugriffsanforderungen
 
@@ -81,11 +81,11 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Recommendations verhindert, dass Ziele in Schwierigkeiten Fortschritte erzielen
 
-Bevor Ziele einen Fortschritt von In Trouble erreichen, können Sie sie oft beobachten und ihren Fortschritt anpassen, wenn sie einen Fortschritt von &quot;Risiko&quot; erreichen. Ziele, die gefährdet sind, laufen Gefahr, in Schwierigkeiten zu geraten. Weitere Informationen zum Zielfortschritt finden Sie unter [Übersicht über den Zielfortschritt und die Bedingungen in den Adobe Workfront-Zielen](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Bevor Ziele einen Fortschritt von In Trouble erreichen, können Sie sie oft beobachten und ihren Fortschritt anpassen, wenn sie einen Fortschritt von &quot;Risiko&quot; erreichen. Ziele, die gefährdet sind, laufen Gefahr, in Schwierigkeiten zu geraten. Weitere Informationen zum Zielfortschritt finden Sie unter [Übersicht über den Zielfortschritt und den Zielzustand in Adobe Workfront-Zielen](../../workfront-goals/goal-management/calculate-goal-progress.md) .
 
 Bevor Ihre Ziele den Fortschritt von In Trouble erreichen, empfehlen wir Folgendes:
 
@@ -94,11 +94,11 @@ Bevor Ihre Ziele den Fortschritt von In Trouble erreichen, empfehlen wir Folgend
 
 ## Überprüfen von Problemzielen in der Zielliste
 
-Sie können Ziele in jedem Abschnitt der Workfront-Ziele überprüfen. Weitere Informationen zu den Workfront-Zielen finden Sie unter [Überblick über die Adobe Workfront-Ziele - Abschnitte](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Sie können Ziele in jedem Abschnitt der Workfront-Ziele überprüfen. Weitere Informationen zu den Workfront-Zielabschnitten finden Sie unter [Überblick über die Adobe Workfront-Ziele](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 In diesem Artikel wird beschrieben, wie Sie Ziele in der Zielliste überprüfen.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) > **Ziele** .
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -107,7 +107,7 @@ In diesem Artikel wird beschrieben, wie Sie Ziele in der Zielliste überprüfen.
 
 1. (Empfohlen) Passen Sie die folgenden Filter für den Bereich &quot;Zielliste&quot;an, um Risikoziele zu überprüfen:
 
-   * Klicks **Firma**, dann **Meine Teams**, dann **Meine Gruppen**, dann **Persönlich** Ziele in dieser Reihenfolge anzeigen, um Ziele anzuzeigen, die zu Ihrer Organisation, Ihren Teams, Gruppen und dann Ihren eigenen Zielen gehören.
+   * Klicken Sie auf **Firma**, dann auf **Meine Teams**, dann auf **Meine Gruppen** und dann auf **Persönliche** Ziele, um Ziele anzuzeigen, die zu Ihrer Organisation, Ihren Teams, Gruppen und dann Ihren eigenen Zielen gehören.
 
      >[!TIP]
      >
@@ -116,12 +116,12 @@ In diesem Artikel wird beschrieben, wie Sie Ziele in der Zielliste überprüfen.
      >
      >Sie können nicht nach Unternehmen suchen, die dieses Feld verwenden. Standardmäßig wird nur Ihr Unternehmen ausgewählt, das Eigentümer Ihrer Workfront-Instanz ist.
 
-   * Klicken Sie für jede der oben ausgewählten Organisationseinheiten auf **Neuer Filter** > **Fortschritt** > **In Schwierigkeiten** >**Anwenden.**
+   * Klicken Sie für jede der oben ausgewählten Organisationseinheiten auf &quot;**Neuer Filter**&quot;> &quot;**Fortschritt**&quot;> &quot;**Unter Probleme**&quot;> &quot;**Anwenden&quot;.**
    * (Optional) Wählen Sie den Zeitraum aus, für den Sie Ziele anzeigen möchten.
 
      Die Fortschrittsleistenanzeige wird für jedes Ziel in der Zielliste rot angezeigt.
 
-     Weitere Informationen zum Filtern von Zielen unter Verwendung aller anderen Kriterien im rechten Bereich finden Sie unter [Informationen in Adobe Workfront-Zielen filtern](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+     Weitere Informationen zum Filtern von Zielen mit allen anderen Kriterien im rechten Bereich finden Sie unter [Informationen in Adobe Workfront-Zielen filtern](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 1. Bewegen Sie den Mauszeiger über den Fortschrittsleistenindikator, um zu sehen, was der tatsächliche Fortschrittsprozentsatz ist und welcher erwartete Wert für den aktuellen Tag ist.
 
@@ -131,9 +131,9 @@ In diesem Artikel wird beschrieben, wie Sie Ziele in der Zielliste überprüfen.
 
    In Schwierigkeiten befindliche Ziele für die ausgewählten Benutzer werden in der Zielliste angezeigt.
 
-1. Klicken Sie auf einen Zielnamen, um die Zielseite zu öffnen, und klicken Sie dann auf **Fortschrittsanzeigen** im linken Bereich. Zeigen Sie an, welcher Fortschrittsindikator dafür sorgt, dass das Ziel im Rückstand ist, und aktualisieren Sie den Fortschritt des Indikators inline im **Tatsächlicher Fortschritt** in der Liste der Fortschrittsindikatoren.
+1. Klicken Sie auf einen Zielnamen, um die Zielseite zu öffnen, und klicken Sie dann im linken Bereich auf **Fortschrittsanzeigen** . Zeigen Sie in der Spalte **Tatsächlicher Fortschritt** der Liste der Fortschrittsindikatoren an, durch welche Fortschrittsanzeige das Ziel in Verzug geraten ist, und aktualisieren Sie den Fortschritt des Indikators inline.
 
-   Informationen zur Aktualisierung von Ergebnissen und Aktivitäten finden Sie unter [Aktualisieren des Zielfortschritts in Adobe Workfront-Zielen](../goal-review-and-workfront-goals-sections/check-in-goals.md)
+   Informationen zum Aktualisieren von Ergebnissen und Aktivitäten finden Sie unter [Aktualisieren des Zielfortschritts in Adobe Workfront-Zielen](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
    ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 

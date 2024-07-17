@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Zugriff auf Objekte im Startbereich gewähren
 
-Benutzer können den Zugriff auf Objekte in Adobe Workfront anfordern. Weitere Informationen zum Anfordern von Zugriff finden Sie unter  [Zugriff auf Objekte anfordern](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+Benutzer können den Zugriff auf Objekte in Adobe Workfront anfordern. Weitere Informationen zum Anfordern von Zugriff finden Sie unter  [Fordern Sie Zugriff auf Objekte an](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 Wenn Sie Eigentümer eines Objekts sind, können Sie den Zugriff auf Elemente in Ihrem Home-Bereich gewähren oder verweigern.
 
@@ -75,7 +75,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte, Aufgaben, Probleme oder Dokumente</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte, Aufgaben, Probleme oder Dokumente</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,28 +84,28 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Zugriff auf Objekte im Startbereich gewähren
 
-1. Klicken Sie auf **Startseite** icon ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie oben links in Adobe Workfront auf das Symbol **Startseite** ![](assets/home-icon-30x29.png) .
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
-   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf die **Hauptmenü** ![](assets/main-menu-icon.png) in der rechten oberen Ecke der Seite klicken Sie auf **Startseite**.
+   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf das **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und klicken Sie dann auf **Startseite**.
 
 1. (Bedingt) Führen Sie aus dem veralteten Home-Bereich folgende Schritte aus:
 
-   1. Im **Arbeitsliste**, wählen Sie die Zugriffsanforderung, die Sie verwalten möchten, im **Genehmigungen** Abschnitt.
+   1. Wählen Sie in der **Arbeitsliste** die Zugriffsanforderung, die Sie verwalten möchten, im Abschnitt **Genehmigungen** aus.
 
    ![screen_shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
    Die Anforderung wird rechts neben der Arbeitsliste angezeigt.
 
    1. Klicken Sie oben rechts auf die Schaltfläche Zugriff gewähren .\
-      Je nach Art des angeforderten Zugriffs ändert sich der Schaltflächenname. Wenn der Anfragende beispielsweise um Zugriff auf Ansicht bittet, lautet die Schaltfläche **Zugriff auf Ansicht gewähren**.\
-      ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+      Je nach Art des angeforderten Zugriffs ändert sich der Schaltflächenname. Wenn der Anfragende z. B. um Zugriff auf Ansicht bittet, lautet die Schaltfläche &quot;**Zugriff auf Ansicht gewähren**&quot;.\
+      ![grant_access_2.png](assets/grant-access-2-350x98.png)
 
-   1. (Optional) Um eine andere als die angeforderte Zugriffsstufe zu gewähren, klicken Sie auf den Pfeil neben der Schaltfläche &quot;Zugriff gewähren&quot;, wählen Sie den neuen Zugriff aus und klicken Sie auf **Gewähren &lt; Berechtigungsstufe > Zugriff >**.\
+   1. (Optional) Um eine andere als die angeforderte Zugriffsstufe zu gewähren, klicken Sie auf den Pfeil neben der Schaltfläche &quot;Zugriff gewähren&quot;und wählen Sie den neuen Zugriff aus. Klicken Sie dann auf **Gewähren &lt; Berechtigungsstufe > Zugriff >**.\
       Es wird eine Meldung angezeigt, in der bestätigt wird, dass der Zugriff gewährt wurde.
 
    1. (Optional) Klicken Sie auf **Ignorieren** , um den Zugriff zu verweigern.\
@@ -113,11 +113,11 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 1. (Bedingt) Führen Sie im neuen Startbereich folgende Schritte aus:
 
-   1. Navigieren Sie zu **Erwartung der Genehmigung** Widget und suchen Sie die Anforderung für weiteren Zugriff und klicken Sie dann auf **Zugriff gewähren**.
+   1. Wechseln Sie zum Widget **Warten auf meine Genehmigung** , suchen Sie die Anforderung für weiteren Zugriff und klicken Sie dann auf **Zugriff gewähren** .
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
-   1. (Optional) Um eine andere als die angeforderte Zugriffsebene zu gewähren, klicken Sie auf das Dropdown-Menü links neben der Schaltfläche Zugriff gewähren und wählen Sie den neuen Zugriff aus. Klicken Sie dann auf **Zugriff gewähren**.
+   1. (Optional) Um eine andere als die angeforderte Zugriffsebene zu gewähren, klicken Sie auf das Dropdown-Menü links neben der Schaltfläche Zugriff gewähren , wählen Sie den neuen Zugriff aus und klicken Sie dann auf **Zugriff gewähren**.
 
       Die Zugriffsanfrage wird gewährt und aus der Liste der Genehmigungsanfragen verschwindet.
 
@@ -125,11 +125,11 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## E-Mail-Benachrichtigungen für Anforderungen konfigurieren
 
-Sie können konfigurieren, ob Sie E-Mail-Benachrichtigungen für Zugriffsanfragen erhalten. Ihr Workfront-Administrator kann diese Funktion deaktivieren (wie beschrieben in [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Sie können konfigurieren, ob Sie E-Mail-Benachrichtigungen für Zugriffsanfragen erhalten. Ihr Workfront-Administrator kann diese Funktion deaktivieren (wie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) beschrieben).
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **Voreinstellungen** oder scrollen Sie zum Abschnitt Voreinstellungen .
-1. Im **E-Mail-Adresse** Dropdown-Liste auswählen oder deren Auswahl aufheben **Jemand bittet um Zugriff von mir**, je nachdem, ob Sie E-Mail-Benachrichtigungen erhalten möchten, wenn ein anderer Benutzer von Ihnen den Zugriff anfordert oder nicht.
+1. Klicken Sie auf **Voreinstellungen** oder scrollen Sie zum Abschnitt &quot;Voreinstellungen&quot;.
+1. Wählen oder deaktivieren Sie in der Dropdownliste **E-Mail an mich senden** die Option **Jemand fordert von mir Zugriff an**, je nachdem, ob Sie E-Mail-Benachrichtigungen erhalten möchten, wenn ein anderer Benutzer von Ihnen Zugriff anfordert oder nicht.
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -39,7 +39,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das Dokument anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf das Dokument anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,11 +50,11 @@ Sie müssen über Folgendes verfügen:
 
 * In diesem Artikel wird davon ausgegangen, dass das Dokument über mehrere Versionen verfügt.
 
-   Informationen zum Hochladen neuer Dokumentversionen in Workfront finden Sie unter [Eine neue Version eines Dokuments hochladen](../../documents/managing-documents/upload-new-document-version.md).
+  Informationen zum Hochladen neuer Dokumentversionen in Workfront finden Sie unter [Hochladen einer neuen Dokumentversion](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Liste aller Versionen eines Dokuments anzeigen
 
-1. Scrollen Sie in der Zusammenfassung zur Ansicht **Alle Versionen** Abschnitt. Hier können Sie alle Versionen des Dokuments anzeigen.
+1. Scrollen Sie in der Zusammenfassung zum Bereich **Alle Versionen** . Hier können Sie alle Versionen des Dokuments anzeigen.
 
 ## Anzeigen und Verwalten von Details für eine frühere Dokumentversion
 
@@ -66,15 +66,15 @@ Sie müssen über Folgendes verfügen:
 
 ## Herunterladen einer einzelnen Dokumentversion
 
-1. In der Zusammenfassung unter **Versionen** klicken Sie auf das Menü Mehr . ![](assets/more-icon.png) rechts neben der Version, und klicken Sie dann auf **Download** in der Dropdown-Liste, die angezeigt wird.
+1. Klicken Sie in der Zusammenfassung unter &quot;**Versionen**&quot;auf das Menü &quot;Mehr&quot;![](assets/more-icon.png) rechts neben der Version und klicken Sie dann in der angezeigten Dropdownliste auf &quot;**Download**&quot;.
 
    ![](assets/more-versions-350x143.png)
 
 ## Alle Versionen eines Dokuments herunterladen
 
-1. Klicken **Dokumentdetails**, wählen Sie **Alle Versionen** im linken Bereich.
+1. Klicken Sie auf **Dokumentdetails** und wählen Sie dann im linken Bereich **Alle Versionen** aus.
 
-1. Klicken **Alle herunterladen** oben in der Liste.
+1. Klicken Sie oben in der Liste auf **Alle herunterladen** .
 
 ## Dokumentversion löschen
 
@@ -86,19 +86,19 @@ Wenn Sie versehentlich eine Version eines Dokuments hochladen oder eine Version 
 
 Beachten Sie Folgendes, wenn Sie erwägen, eine Dokumentversion zu löschen:
 
-* Es kann jeweils nur eine Version gelöscht werden. Wenn eine Version gelöscht wird, wird diese Aktion im **Updates** im Dokument .
+* Es kann jeweils nur eine Version gelöscht werden. Wenn eine Version gelöscht wird, wird diese Aktion im Dokument unter **Aktualisierungen** angezeigt.
 * Wenn Sie eine neue Version hochladen, nachdem Sie eine Version gelöscht haben, erhält die neue Version die nächste sequenzielle Nummer. Wenn es beispielsweise 3 Versionen eines Dokuments gibt und Sie Version 3 löschen, lautet das nächste hochgeladene Dokument Version 4.
 * Systemaktualisierungen und Kommentare zu einer Version werden nach dem Löschen der Version in Workfront beibehalten.
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deleting a document version in Workfront does not delete the Proof version.&nbsp;</li>
   -->
 
 So löschen Sie eine Dokumentversion:
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.Suchen Sie das benötigte Dokument.
-1. Im **Version** in der Zusammenfassung klicken Sie auf die Version und anschließend auf **Löschen** in der Dropdown-Liste, die angezeigt wird. Die **Löschen** ist nur sichtbar, wenn mindestens zwei Versionen vorhanden sind.
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus. Suchen Sie das gewünschte Dokument.
+1. Klicken Sie im Bereich **Version** in der Zusammenfassung auf die Version und klicken Sie dann in der angezeigten Dropdownliste auf **Löschen** . Die Option **Löschen** ist nur sichtbar, wenn mindestens zwei Versionen vorhanden sind.
 
-   Wenn das Dokument mit einer externen Quelle verknüpft ist, wird dieser Link gelöscht und das Dokument kann nicht mehr über Workfront aufgerufen werden.
+   Wenn das Dokument mit einer externen Quelle verknüpft ist, wird dieser Link gelöscht und der Zugriff auf das Dokument ist über Workfront nicht mehr möglich.
 
    ![](assets/more-versions-350x143.png)

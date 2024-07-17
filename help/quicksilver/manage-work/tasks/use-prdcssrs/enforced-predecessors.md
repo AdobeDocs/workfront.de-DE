@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Vorläufer sind Aufgaben, von denen andere Aufgaben zur Erfüllung abhängen. Vorgängerbeziehungen wirken sich auf das Start- und Fertigstellungsdatum der Aufgaben aus und beeinflussen letztendlich die Zeitleiste des Projekts.
 
-Weitere Informationen zu Vorgängern finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Weitere Informationen zu Vorgängern finden Sie unter [Übersicht über Aufgabenverfasser](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Durch das Festlegen von Vorgängerbeziehungen zwischen Aufgaben definieren Sie, wie der Start oder die Fertigstellung einer abhängigen Aufgabe vom Start oder der Fertigstellung ihrer Vorgängeraufgaben abhängt. Dazu werden verschiedene Abhängigkeitstypen verwendet.
 
@@ -68,31 +68,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Erzwingen eines Vorgängers auf Aufgabenebene
 
 1. Gehen Sie zur Nachfolgeaufgabe, deren Vorgänger Sie erzwingen möchten.
-1. Klicks **Vorgänger** Klicken Sie im linken Bereich auf **Vorgänger hinzufügen**. Möglicherweise müssen Sie auf **Mehr anzeigen**, dann **Vorgänger**.
-1. (Bedingt) Wenn Sie einen projektübergreifenden Vorgänger hinzufügen möchten, entfernen Sie den Namen des Projekts im **Übergeordnetes Projekt** und ersetzen Sie es durch ein anderes Projekt.
-1. Geben Sie den Namen der Vorgängeraufgabe(en) in der **Aufgaben** -Feld.
-1. Geben Sie die **Abhängigkeitstyp** zwischen diesen beiden Aufgaben.
+1. Klicken Sie im linken Bereich auf **Vorgänger** und dann auf **Vorgänger hinzufügen**. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
+1. (Bedingt) Wenn Sie einen projektübergreifenden Vorgänger hinzufügen möchten, entfernen Sie den Namen des Projekts im Feld **Übergeordnetes Projekt** und ersetzen Sie es durch ein anderes Projekt.
+1. Geben Sie den Namen der Vorgängeraufgabe(en) im Feld **Aufgaben** an.
+1. Geben Sie den **Abhängigkeitstyp** zwischen diesen beiden Aufgaben an.
 
-   Die Standardeinstellung **Abhängigkeitstyp** is **Finish-Start**.
+   Der standardmäßige **Abhängigkeitstyp** ist **Finish-Start**.
 
-1. Wählen Sie die **Durchgesetzt** -Feld, um den Vorgänger zu erzwingen.
+1. Wählen Sie das Feld **Erzwungen** aus, um den Vorgänger zu erzwingen.
 1. Klicken Sie auf **Speichern**.
 
 ## Erzwingen eines Vorgängers in einer Aufgabenliste
 
 1. Rufen Sie eine Aufgabenliste für ein Projekt auf.
-1. Aus dem **Ansicht** aus dem Dropdown-Menü die **Standardansicht**.
+1. Wählen Sie aus dem Dropdownmenü **Ansicht** die **Standardansicht** aus.
 
 1. Notieren Sie sich die Anzahl der Aufgaben, die Sie als Vorgänger festlegen werden.
 1. Suchen Sie die Nachfolgeaufgabe, deren Vorgänger Sie erzwingen möchten.
-1. Im **Vorgänger** eingeben, die Nummer der Vorgängeraufgabe gefolgt von &quot;e&quot;. Geben Sie beispielsweise &quot;1e&quot;ein, um die Aufgabe Nr. 1 als Vorgänger zur ausgewählten Aufgabe hinzuzufügen.
+1. Geben Sie in der Spalte **Vorgänger** die Nummer der Vorgängeraufgabe gefolgt von &quot;e&quot;ein. Geben Sie beispielsweise &quot;1e&quot;ein, um die Aufgabe Nr. 1 als Vorgänger zur ausgewählten Aufgabe hinzuzufügen.
 1. Klicken Sie auf die Eingabetaste , um Ihre Vorgängerinformationen für die Aufgabe zu speichern.
 
    ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)

@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Router] -Modul in [!DNL Adobe Workfront Fusion]
+# Modul [!UICONTROL Router] in [!DNL Adobe Workfront Fusion]
 
-Die [!UICONTROL Router] ermöglicht es Ihnen, Ihren Fluss in mehrere Routen zu verzweigen und die Daten innerhalb der einzelnen Routen unterschiedlich zu verarbeiten. Einmal [!UICONTROL Router] -Modul ein Bundle erhält, es an jede verbundene Route weiterleitet, in der die Routen an die [!UICONTROL Router] -Modul.
+Mit dem Modul [!UICONTROL Router] können Sie Ihren Fluss in mehrere Routen verzweigen und die Daten in den einzelnen Routen unterschiedlich verarbeiten. Sobald ein Modul vom Typ [!UICONTROL Router] ein Bundle erhält, leitet es es an jede verbundene Route weiter, in der Reihenfolge, in der die Routen mit dem Modul [!UICONTROL Router] verbunden waren.
 
 >[!NOTE]
 >
->* Um die Reihenfolge der Routen zu überprüfen, können Sie auf die [!UICONTROL Automatische Ausrichtung] -Symbol, über das die Routen entsprechend der Reihenfolge von oben nach unten angeordnet werden.
+>* Um die Reihenfolge der Routen zu überprüfen, können Sie auf das Symbol [!UICONTROL Automatische Ausrichtung] klicken, mit dem die Routen entsprechend der Reihenfolge von oben nach unten angeordnet werden.
 >
->  Um die Reihenfolge zu ändern, entfernen Sie die [!UICONTROL Router] und verbinden Sie die Routen in der gewünschten Reihenfolge neu.
+>  Um die Reihenfolge zu ändern, entfernen Sie das Modul [!UICONTROL Router] und verbinden Sie die Routen in der gewünschten Reihenfolge erneut.
 >
 >* Routen werden nacheinander, nicht parallel verarbeitet. Ein Bundle wird erst dann an die nächste Route gesendet, wenn es vollständig von der vorherigen Route verarbeitet wurde.
 >
@@ -32,14 +32,14 @@ Die [!UICONTROL Router] ermöglicht es Ihnen, Ihren Fluss in mehrere Routen zu v
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -47,53 +47,53 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Hinzufügen einer [!UICONTROL Router] -Modul in ein Szenario
+## Hinzufügen eines [!UICONTROL Router]-Moduls zu einem Szenario
 
-A [!UICONTROL Router] kann auf eine der folgenden Arten zu einem Szenario hinzugefügt werden:
+Ein [!UICONTROL Router] kann einem Szenario auf eine der folgenden Arten hinzugefügt werden:
 
-* Wenn Sie die [!UICONTROL Router] -Modul nach einem Modul, klicken Sie auf den rechten Griff des Moduls und beginnen Sie mit der Eingabe **[!UICONTROL Router]** , um danach zu suchen, und wählen Sie **[!UICONTROL Flusssteuerung]** > **[!UICONTROL Router]** in der Liste der Module, die angezeigt werden.
+* Wenn Sie das Modul [!UICONTROL Router] nach einem Modul verbinden möchten, klicken Sie auf den rechten Griff des Moduls. Geben Sie dann **[!UICONTROL Router]** ein, um danach zu suchen. Wählen Sie dann **[!UICONTROL Flusssteuerung]** > **[!UICONTROL Router]** in der Liste der angezeigten Module.
 
   ![](assets/connect-the-router-350x108.png)
 
-* Wenn Sie die [!UICONTROL Router] -Modul zwischen zwei Modulen, klicken Sie auf das Schraubenschlüsselsymbol unter der Route, die die beiden Module verbindet (oder klicken Sie mit der rechten Maustaste auf die Route) und wählen Sie **[!UICONTROL Router hinzufügen]** aus dem Menü.
+* Wenn Sie das Modul [!UICONTROL Router] zwischen zwei Modulen einfügen möchten, klicken Sie auf das Schraubenschlüsselsymbol unter der Route, die die beiden Module verbindet (oder klicken Sie mit der rechten Maustaste auf die Route) und wählen Sie im Menü die Option **[!UICONTROL Router hinzufügen]** aus.
 
   ![](assets/insert-router-350x191.png)
 
-* Sie können eine [!UICONTROL Router] automatisch hinzugefügt. Um beispielsweise in der Abbildung unten das Modul in der unteren rechten Ecke mit dem Modul in der oberen linken Ecke zu verbinden (das bereits mit dem Modul in der oberen rechten Ecke verbunden ist), ziehen Sie den linken Ziehpunkt des unteren rechten Moduls und legen Sie es auf das Modul oben links ab.
+* Sie können ein Modul [!UICONTROL Router] automatisch einfügen. Um beispielsweise in der Abbildung unten das Modul in der unteren rechten Ecke mit dem Modul in der oberen linken Ecke zu verbinden (das bereits mit dem Modul in der oberen rechten Ecke verbunden ist), ziehen Sie den linken Ziehpunkt des unteren rechten Moduls und legen Sie es auf das Modul oben links ab.
 
   ![](assets/insert-router-automatically-350x379.png)
 
 ## Filter
 
-Sie können einen Filter auf eine Route nach der [!UICONTROL Router] -Modul verwenden, um Bundles wie auf jeder anderen Route zu filtern:
+Sie können einen Filter auf eine Route nach dem Modul [!UICONTROL Router] platzieren, um Bundles wie auf jeder anderen Route zu filtern:
 
 1. Klicken Sie auf einen der Punkte in der Route.
 
    ![](assets/router-click-a-dot-in-route-350x339.png)
 
-1. Im **[!UICONTROL Filter einrichten]** -Feld, das angezeigt wird, Bedingungen hinzufügen und dann auf **[!UICONTROL OK]** , um die Filtereinrichtung zu speichern.
+1. Fügen Sie im angezeigten Feld **[!UICONTROL Filter einrichten]** Bedingungen hinzu und klicken Sie auf **[!UICONTROL OK]** , um die Filtereinrichtung zu speichern.
 
    ![](assets/set-up-a-filter-2-350x242.png)
 
@@ -101,13 +101,13 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Filters zu einem Szena
 
 ## Die Ausweichroute
 
-Die Filtereinrichtung auf einer Route nach einer [!UICONTROL Router] -Modul enthält eine spezielle Option: Die Ausweichroute:
+Die Filtereinrichtung auf einer Route nach einem Modul [!UICONTROL Router] enthält eine spezielle Option: Die Ausweichroute:
 
 ![](assets/fallback-route-350x260.png)
 
-Wenn diese Route aktiviert ist, wird sie verwendet, wenn ein Bundle nicht über die [!UICONTROL Router] -Modul über eine andere Route, da die Filter auf den anderen Routen es herausgefiltert haben.
+Wenn diese Route aktiviert ist, wird sie verwendet, wenn ein Bundle nicht über eine andere Route über das Modul [!UICONTROL Router] fortfahren kann, da die Filter auf den anderen Routen es herausgefiltert haben.
 
-Die Fallback-Route wird mit einem anderen Pfeilzeichen innerhalb der [!UICONTROL Router] -Modul:
+Die Fallback-Route wird mit einem anderen Pfeilzeichen innerhalb des Moduls [!UICONTROL Router] unterschieden:
 
 ![](assets/arrow-sign-in-router-module-350x361.png)
 
@@ -115,12 +115,12 @@ Die Fallback-Route wird mit einem anderen Pfeilzeichen innerhalb der [!UICONTROL
 
 Ein typischer Anwendungsfall der Ausweichroute besteht darin, den Fluss mit einer Route fortzusetzen, wenn die Bedingung erfüllt ist, und mit einer anderen Route, falls dies nicht der Fall ist, wie in den folgenden Schritten gezeigt:
 
-1. Einfügen einer [!UICONTROL Router] -Modul in Ihrem Szenario.
-1. Verbinden Sie beide Routen mit dem [!UICONTROL Router] Modul .
+1. Fügen Sie ein [!UICONTROL Router] -Modul in Ihr Szenario ein.
+1. Verbinden Sie beide Routen mit dem Modul [!UICONTROL Router] .
 1. Klicken Sie auf die erste Route und geben Sie eine Bedingung an:
 
    ![](assets/set-up-a-filter-2-350x242.png)
 
-1. Klicken Sie auf die zweite Route und aktivieren Sie die [!UICONTROL Ausweichroute] Option:
+1. Klicken Sie auf die zweite Route und aktivieren Sie die Option [!UICONTROL Ausweichroute] :
 
    ![](assets/enable-fallback-route-option-350x238.png)

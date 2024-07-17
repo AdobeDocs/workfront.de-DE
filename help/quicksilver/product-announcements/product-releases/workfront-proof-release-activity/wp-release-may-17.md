@@ -2,8 +2,8 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: 'Workfront-Release-Aktivität: Woche vom 17. Mai 2021'
-description: Auf dieser Seite werden Änderungen an der Workfront Testversand-Anwendung (eigenständige Testversand-Anwendung) beschrieben. Die hier beschriebenen Änderungen gelten nicht für die Testfunktion in der Adobe Workfront-Anwendung.
+title: 'Workfront Proof-Release-Aktivität: Woche vom 17. Mai 2021'
+description: Auf dieser Seite werden Änderungen an der Workfront Proof (eigenständige Testversand-Anwendung) beschrieben. Die hier beschriebenen Änderungen gelten nicht für die Testfunktion in der Adobe Workfront-Anwendung.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Workfront-Veröffentlichungsaktivität: Woche vom 17. Mai 2021
+# Workfront Proof-Release-Aktivität: Woche vom 17. Mai 2021
 
-Auf dieser Seite werden Änderungen an der Workfront Testversand-Anwendung (eigenständige Testversand-Anwendung) beschrieben. Die hier beschriebenen Änderungen gelten nicht für die Testfunktion in der Adobe Workfront-Anwendung.
+Auf dieser Seite werden Änderungen an der Workfront Proof (eigenständige Testversand-Anwendung) beschrieben. Die hier beschriebenen Änderungen gelten nicht für die Testfunktion in der Adobe Workfront-Anwendung.
 
-## Benutzerprofilmenüs in Workfront Testversand verwenden jetzt Typeahead-Felder für die Benutzersuche
+## Benutzerprofilmenüs in Workfront Proof verwenden jetzt Typeahead-Felder, um nach Benutzern zu suchen
 
 >[!NOTE]
 >

@@ -10,8 +10,8 @@ role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
 source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '451'
+ht-degree: 0%
 
 ---
 
@@ -39,14 +39,14 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Andere Zulassungslisten
 
-Wenn Ihre Firewall oder Ihr Mail-Server so konfiguriert ist, dass nur bestimmte Anbieter Zugriff erhalten, müssen Sie bestimmte IP-Adressen zu ihrer Zulassungsliste hinzufügen. Dadurch wird die Kommunikation zwischen Ihrer Umgebung und den Adobe Workfront-Servern geöffnet. Weitere Informationen hierzu finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Wenn Ihre Firewall oder Ihr Mail-Server so konfiguriert ist, dass nur bestimmte Anbieter Zugriff erhalten, müssen Sie bestimmte IP-Adressen zu ihrer Zulassungsliste hinzufügen. Dadurch wird die Kommunikation zwischen Ihrer Umgebung und den Adobe Workfront-Servern geöffnet. Weitere Informationen dazu finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall-Benutzer](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 Wenn Ihr Unternehmen den Enterprise-Plan verwendet, können Sie die Workfront-E-Mail-Zulassungsliste so konfigurieren, dass gesteuert wird, welche E-Mail-Domänen E-Mails von Workfront akzeptieren dürfen und welche E-Mail-Domänen sich in der E-Mail-Adresse befinden können, die Benutzer in ihrem Workfront-Benutzerprofil angeben. Weitere Informationen finden Sie unter [Konfigurieren der E-Mail-Zulassungsliste](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
@@ -54,11 +54,11 @@ Wenn Ihr Unternehmen den Enterprise-Plan verwendet, können Sie die Workfront-E-
 
 Nachdem Sie IP-Adressen zur Workfront-Zulassungsliste hinzugefügt haben, können nur diese IP-Adressen für den Zugriff auf Workfront verwendet werden. Benutzer, die versuchen, von einer anderen IP-Adresse aus auf Workfront zuzugreifen, erhalten eine Fehlermeldung, die darauf hinweist, dass ihre IP-Adresse gesperrt ist.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken **System** > **Kundeninformationen.**
+1. Klicken Sie auf **System** > **Kundeninformationen.**
 
-1. Im **IP-Zulassungsliste** Bereich, wählen Sie **Aktivieren Sie die IP-Zulassungsliste.**
+1. Wählen Sie im Bereich **IP-Zulassungsliste** die Option **IP-Zulassungsliste aktivieren** aus.
 
    Diese Option ist standardmäßig deaktiviert.
 
@@ -70,7 +70,7 @@ Nachdem Sie IP-Adressen zur Workfront-Zulassungsliste hinzugefügt haben, könne
 
    Die IP-Adresse, die Sie für den Zugriff auf Workfront verwenden, muss der Zulassungsliste hinzugefügt werden, bevor die Zulassungsliste aktiviert wird.
 
-1. Klicken **IP-Bereich hinzufügen,** Geben Sie dann die IP-Adresse oder den IP-Adressbereich an, über die Sie auf Workfront zugreifen können möchten.
+1. Klicken Sie auf **IP-Bereich hinzufügen** und geben Sie dann die IP-Adresse oder den IP-Adressbereich an, über die Sie auf Workfront zugreifen können möchten.
 1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere IP-Adressen oder IP-Adressbereiche hinzuzufügen.
 
    Sie können bis zu 45 Adressen oder Bereiche hinzufügen.

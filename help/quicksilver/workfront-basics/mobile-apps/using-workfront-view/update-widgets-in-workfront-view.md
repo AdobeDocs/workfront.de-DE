@@ -2,24 +2,24 @@
 product-previous: mobile
 navigation-topic: use-workfront-view
 title: Aktualisieren von Widgets in der Ansicht "Projektdetails"
-description: Sie können zusätzliche Informationen zu den [!UICONTROL Projekt] nachdem Sie über die Projektliste darauf zugegriffen haben, indem Sie Ihren [!UICONTROL Projektdetails] angezeigt. Jeder Benutzer kann seine eigenen Widgets anpassen.
+description: Sie können zusätzliche Informationen zum [!UICONTROL Projekt] anzeigen, nachdem Sie über die Projektliste darauf zugegriffen haben, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
 
-# Aktualisieren von Widgets im [!UICONTROL Projektdetails] Ansicht
+# Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails]
 
-Sie können zusätzliche Informationen zu den [!UICONTROL Projekt] nachdem Sie über die Projektliste darauf zugegriffen haben, indem Sie Ihren [!UICONTROL Projektdetails] angezeigt. Jeder Benutzer kann seine eigenen Widgets anpassen.
+Sie können zusätzliche Informationen zum [!UICONTROL Projekt] anzeigen, nachdem Sie über die Projektliste darauf zugegriffen haben, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen in [!DNL Workfront] um die Schritte in diesem Artikel auszuführen:
+Sie müssen über den folgenden Zugriff in [!DNL Workfront] verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,8 +28,8 @@ Sie müssen über folgenden Zugriff verfügen in [!DNL Workfront] um die Schritt
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -38,13 +38,13 @@ Sie müssen über folgenden Zugriff verfügen in [!DNL Workfront] um die Schritt
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Aktualisieren Sie die Widgets im [!UICONTROL Projektdetails] Ansicht
+## Aktualisieren Sie die Widgets in der Ansicht [!UICONTROL Projektdetails] .
 
-1. Aus dem [!DNL Adobe Workfront View] Navigieren Sie zu einem Projekt, indem Sie auf dessen Namen tippen.
-1. Tippen Sie unten auf dem Bildschirm auf die Registerkarte .\
-   Die [!UICONTROL Widget] -Bereich angezeigt.\
+1. Navigieren Sie auf der Startseite von [!DNL Adobe Workfront View] zu einem Projekt, indem Sie auf dessen Namen tippen.
+1. Tippen Sie auf die Registerkarte unten in der Mitte des Bildschirms.\
+   Der Bereich [!UICONTROL widget] wird angezeigt.\
    Scrollen Sie durch die Widgets, indem Sie von links nach rechts wischen.\
    ![](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
@@ -55,25 +55,25 @@ Sie müssen über folgenden Zugriff verfügen in [!DNL Workfront] um die Schritt
 
 1. Wählen Sie aus den folgenden Widgets aus:
 
-   * **[!UICONTROL Aufgabenbedingung]**: Zeigt alle Aufgaben im Projekt an, indem Sie [!UICONTROL Bedingung] in einem Tortendiagramm.
+   * **[!UICONTROL Aufgabenbedingung]**: Zeigt alle Aufgaben im Projekt nach [!UICONTROL Bedingung] in einem Kreisdiagramm an.
    * **[!UICONTROL Probleme]**: Zeigt die Zeitleiste aller Probleme in einem Liniendiagramm an. Die Anzahl offener Probleme wird in Klammern angegeben.
-   * **[!UICONTROL Stunden]**: Zeigt die [!UICONTROL Aktuell] und [!UICONTROL Geplante Stunden] in den Aufgaben des Projekts in einem kombinierten Liniendiagramm.
-   * **[!UICONTROL Problem]** [!UICONTROL Status]: Zeigt alle Probleme nach Status in einem Tortendiagramm an.
-   * **[!UICONTROL Updates]**: Zeigt alle Aktualisierungen und Kommentare zum Projekt an.
-   * **[!UICONTROL Kosten]**: Zeigt die [!UICONTROL Aktuell] und [!UICONTROL Geplante Kosten] des Projekts in einem kombinierten Balkendiagramm.
-   * **[!UICONTROL Umsatz]**: Zeigt die [!UICONTROL Aktuell] und [!UICONTROL Geplanter Umsatz] des Projekts in einem kombinierten Balkendiagramm.
-   * **[!UICONTROL Aufgabenfortschritt]**: Zeigt alle Aufgaben im Projekt an, indem Sie [!UICONTROL Statusfortschritt] in einem Tortendiagramm.
-   * **[!UICONTROL Bevorstehende Aufgaben]**: Zeigt bis zu 6 anstehende Aufgaben an. Das Widget sortiert die Projektaufgaben in der folgenden Reihenfolge:
+   * **[!UICONTROL Stunden]**: Zeigt die [!UICONTROL tatsächlichen ] und die [!UICONTROL geplanten Stunden] für die Aufgaben des Projekts in einem kombinierten Liniendiagramm an.
+   * **[!UICONTROL Problem]** [!UICONTROL Status]: Zeigt alle Probleme nach Status in einem Kreisdiagramm an.
+   * **[!UICONTROL Aktualisierungen]**: Zeigt alle Aktualisierungen und Kommentare zum Projekt an.
+   * **[!UICONTROL Kosten]**: Zeigt die [!UICONTROL tatsächlichen ] und die [!UICONTROL geplanten Kosten] des Projekts in einem kombinierten Balkendiagramm an.
+   * **[!UICONTROL Umsatz]**: Zeigt den [!UICONTROL tatsächlichen ] und den [!UICONTROL geplanten Umsatz] des Projekts in einem kombinierten Balkendiagramm an.
+   * **[!UICONTROL Aufgabenfortschritt]**: Zeigt alle Aufgaben im Projekt nach [!UICONTROL Fortschrittsstatus] in einem Kreisdiagramm an.
+   * **[!UICONTROL Bevorstehende Aufgaben]**: Zeigt bis zu 6 bevorstehende Aufgaben an. Das Widget sortiert die Projektaufgaben in der folgenden Reihenfolge:
 
-      * zuerst durch die [!UICONTROL Geschätztes Fälligkeitsdatum]
-      * Sekunde, durch [!UICONTROL Struktur der Arbeitsaufschlüsselung]
+      * zuerst durch den Wert [!UICONTROL Geschätztes Fälligkeitsdatum]
+      * second, by [!UICONTROL Work Breakdown Structure]
 
-      Es werden die letzten beiden abgeschlossenen Aufgaben (falls zutreffend) und die nächsten vier Aufgaben angezeigt. Um zu verstehen, welche Aufgaben im [!DNL Workfront] Zeigen Sie die mobile App an, können Sie einen Aufgabenbericht für das angezeigte Projekt erstellen und nach dem geschätzten Fälligkeitsdatum und dann nach dem [!DNL Workfront] Aufschlüsselungsstruktur. Die ersten sechs Aufgaben werden in der Workfront View Mobile App im Abschnitt [!UICONTROL Bevorstehende] Aufgaben-Widget.
+     Es werden die letzten beiden abgeschlossenen Aufgaben (falls zutreffend) und die nächsten vier Aufgaben angezeigt. Um zu verstehen, welche Aufgaben in der Mobile App anzeigen werden, können Sie einen Aufgabenbericht für das angezeigte Projekt erstellen und nach dem geschätzten Fälligkeitsdatum und dann nach der [!DNL Workfront] Aufschlüsselungsstruktur sortieren. [!DNL Workfront] Die ersten sechs Aufgaben sind die Aufgaben, die im Widget [!UICONTROL Bevorstehende ] Aufgaben in der Workfront-App anzeigen aufgeführt sind.
 
    * **[!UICONTROL Verbleibende Aufgaben]**: Zeigt die unvollständigen Aufgaben in einem Liniendiagramm an.
    * **[!UICONTROL Dokumente]**: Zeigt eine Liste der Dokumente an, die an das Projekt angehängt sind.\
 
-      Sie können die folgenden Dokumentformate mit [!DNL Workfront View]:
+     Sie können die folgenden Dokumentformate mit [!DNL Workfront View] öffnen:
 
       * alle Textdateien
       * .pdf
@@ -88,4 +88,4 @@ Sie müssen über folgenden Zugriff verfügen in [!DNL Workfront] um die Schritt
       * Projektzeitplan
    * **[!UICONTROL Team]**: Zeigt die Namen der Benutzer an, die sich im Projektteam befinden.\
 
-      Weitere Informationen zu Projektteams finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Weitere Informationen zu Projektteams finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).

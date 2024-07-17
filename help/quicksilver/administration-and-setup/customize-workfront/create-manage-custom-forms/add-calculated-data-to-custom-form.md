@@ -39,13 +39,13 @@ Ein berechnetes benutzerdefiniertes Feld kann Folgendes enthalten:
 
   >[!INFO]
   >
-  >**Beispiel:** Um den durch Projekte und Aufgaben generierten Gewinn zu berechnen, können Sie ein berechnetes benutzerdefiniertes Feld namens Profit erstellen, das einen mathematischen Ausdruck enthält, der Kosten vom Umsatz abzieht.
+  >**Beispiel:** Um den Gewinn zu berechnen, der durch Projekte und Aufgaben generiert wurde, können Sie ein berechnetes benutzerdefiniertes Feld namens &quot;Profit&quot;erstellen, das einen mathematischen Ausdruck enthält, der Kosten vom Umsatz abzieht.
   >
   >Dazu können Sie den mathematischen Ausdruck SUB (subtract) mit den integrierten Workfront-Feldern Tatsächliche Kosten und tatsächliche Umsätze verwenden.
   >
   >In den folgenden Schritten sehen Sie, wie dieses Beispiel ausgeführt werden kann.
 
-Informationen zum Erstellen benutzerdefinierter Formulare für Ihre Organisation und zum Verständnis des Typs der Felder, die Sie ihnen zuordnen können, finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Informationen zum Erstellen benutzerdefinierter Formulare für Ihr Unternehmen und zum Verständnis des Typs der Felder, die Sie ihnen zuweisen können, finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Zugriffsanforderungen
 
@@ -75,7 +75,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welche Konfigurationen für Plan, Lizenztyp oder Zugriffsstufe Sie verwenden. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welche Konfigurationen für Plan, Lizenztyp oder Zugriffsstufe Sie verwenden. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,9 +88,9 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
 >
 >Bevor Sie ein berechnetes benutzerdefiniertes Feld erstellen, identifizieren Sie die vorhandenen Felder, die Sie einbeziehen möchten, damit Sie sicher sind, dass die für die Berechnung erforderlichen Daten in Workfront vorhanden sind.
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie in [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) beschrieben.
 
-1. Im **Feld hinzufügen** Registerkarte, klicken **Berechnet**.
+1. Klicken Sie auf der Registerkarte **Feld hinzufügen** auf **Berechnet**.
 
    Im Anzeigebereich auf der rechten Seite zeigt das Feld den Füllwert 12345 an. Dies ist ein Hinweis, der Sie daran erinnert, dass es sich bei dem Feld um ein berechnetes benutzerdefiniertes Feld handelt, während Sie das benutzerdefinierte Formular erstellen oder bearbeiten. Wenn das Formular an ein Objekt angehängt ist und Benutzer es ausfüllen, sehen sie das Ergebnis der Berechnung im Feld und nicht den Wert 12345.
 
@@ -104,7 +104,7 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td>Geben Sie eine Beschriftung für das Feld ein. Dies ist es, was Benutzer sehen, wenn sie das benutzerdefinierte Formular verwenden. Das Feld <b>Name</b>, der automatisch ausgefüllt wird und mit der Beschriftung übereinstimmt, wird von Workfront in Berichten referenziert. Dies ist ein Pflichtfeld.</td> 
+      <td>Geben Sie eine Beschriftung für das Feld ein. Dies ist es, was Benutzer sehen, wenn sie das benutzerdefinierte Formular verwenden. Das Feld <b>Name</b>, das automatisch ausgefüllt wird und mit der Beschriftung übereinstimmt, wird von Workfront in Berichten referenziert. Dies ist ein Pflichtfeld.</td> 
      </tr>
 
    <tr> 
@@ -123,7 +123,7 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
       <li> <p>Erinnern Sie sich daran, was die Formel ist und wie sie funktioniert. Dies ist besonders hilfreich, wenn Sie dieses berechnete benutzerdefinierte Feld für mehrere Formulare verwenden möchten.</p> </li> 
        <li> <p>Als QuickInfo können Benutzer sehen, wenn sie den Mauszeiger über das Feld bewegen. Sie können hier jeden Text hinzufügen, den Sie in der QuickInfo sehen möchten.</p> </li> 
        </ul>
-       <p>Wenn Sie nicht möchten, dass Benutzer die Formel in der QuickInfo sehen, was für sie verwirrend sein kann, fügen Sie sie nicht zum Feld Anweisungen hinzu. Verwenden Sie stattdessen die Einstellung "Formel in Anweisungen anzeigen", um die Formel ein- oder auszublenden, wie in diesem Artikel beschrieben. <a href="#build-the-calculation-for-your-calculated-custom-field">Erstellen Sie die Berechnung für Ihr berechnetes benutzerdefiniertes Feld</a> in diesem Artikel.</p>
+       <p>Wenn Sie nicht möchten, dass Benutzer die Formel in der QuickInfo sehen, was für sie verwirrend sein kann, fügen Sie sie nicht zum Feld Anweisungen hinzu. Verwenden Sie stattdessen die Einstellung "Formel in Anweisungen anzeigen", um die Formel ein- oder auszublenden, wie in diesem Artikel <a href="#build-the-calculation-for-your-calculated-custom-field">Berechnung für Ihr berechnetes benutzerdefiniertes Feld erstellen</a> in diesem Artikel beschrieben.</p>
 
    <p>Informationen zur Verwendung desselben berechneten benutzerdefinierten Felds in einem neuen Formular finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular wiederverwenden</a>.</p>
 
@@ -131,20 +131,20 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Das Format, in dem die Ergebnisse des Felds gespeichert und angezeigt werden sollen.</p> <p>Wenn Sie das Feld in mathematischen Berechnungen verwenden möchten, verwenden Sie immer eine <strong>Zahl</strong> oder <strong>Währung</strong> Format. Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</p> 
+      <td> <p>Das Format, in dem die Ergebnisse des Felds gespeichert und angezeigt werden sollen.</p> <p>Wenn Sie das Feld in mathematischen Berechnungen verwenden möchten, verwenden Sie immer das Format <strong>Zahl</strong> oder <strong>Währung</strong> . Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</p> 
       <p><b>WICHTIG</b>: <p>Bevor Sie ein Format auswählen, sollten Sie das richtige Format für das neue Feld berücksichtigen. Das Formatfeld kann nach dem Speichern des benutzerdefinierten Formulars nicht mehr bearbeitet werden. Die Auswahl des falschen Formats könnte sich auf zukünftige Berechnungen und aggregierte Werte in Berichts- und Listengruppierungen auswirken.</p>
-      <p><strong>NOTE:</strong> Berechnete Felder mit Währungsformat sollten keine Anführungszeichen enthalten. (Verwenden Sie beispielsweise 800.00 und nicht "800.00.") Die Verwendung von Anführungszeichen kann aufgrund von Nuancen bei der Sprachformatierung für Währungstypen zu unerwarteten Folgen führen.</p></td> 
+      <p><strong>HINWEIS:</strong> Berechnete Felder mit dem Währungsformat dürfen keine Anführungszeichen enthalten. (Verwenden Sie beispielsweise 800.00 und nicht "800.00.") Die Verwendung von Anführungszeichen kann aufgrund von Nuancen bei der Sprachformatierung für Währungstypen zu unerwarteten Folgen führen.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Aktualisieren Sie weiterhin die benutzerdefinierten Feldinformationen, wie im Abschnitt beschrieben. [Erstellen Sie die Berechnung für Ihr berechnetes benutzerdefiniertes Feld](#build-the-calculation-for-your-calculated-custom-field) in diesem Artikel.
+1. Aktualisieren Sie weiterhin die benutzerdefinierten Feldinformationen, wie im Abschnitt [Berechnung für Ihr berechnetes benutzerdefiniertes Feld erstellen](#build-the-calculation-for-your-calculated-custom-field) in diesem Artikel beschrieben.
 
 ## Erstellen Sie die Berechnung für Ihr berechnetes benutzerdefiniertes Feld {#build-the-calculation-for-your-calculated-custom-field}
 
-1. Erstellen Sie das berechnete benutzerdefinierte Feld, wie im Abschnitt beschrieben. [Berechnetes Feld zu einem benutzerdefinierten Formular hinzufügen](#add-a-calculated-field-to-a-custom-form) in diesem Artikel.
+1. Erstellen Sie das berechnete benutzerdefinierte Feld, wie im Abschnitt [Berechnetes Feld zu einem benutzerdefinierten Formular hinzufügen](#add-a-calculated-field-to-a-custom-form) in diesem Artikel beschrieben.
 
-1. Klicks **Maximieren** , um die **Berechnungs-Editor** und erstellen Sie Ihre Berechnung.
+1. Klicken Sie auf **Maximieren** , um den **Berechnungs-Editor** zu öffnen und Ihre Berechnung zu erstellen.
 
    >[!INFO]
    >
@@ -152,11 +152,11 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
    >
    >`SUB({actualRevenue},{actualCost})`
    >
-   >In diesem Beispiel `SUB` ist der Ausdruck und die referenzierten Felder sind `actualRevenue` und `actualCost`.
+   >In diesem Beispiel ist `SUB` der Ausdruck und die referenzierten Felder sind `actualRevenue` und `actualCost`.
 
    Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, die die Felder enthalten, auf die Sie verweisen möchten, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird. Informationen zu den verfügbaren Ausdrücken finden Sie unter [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-   Jedes Feld muss von geschweiften Klammern umgeben sein, wie im Abschnitt beschrieben [Syntax in berechneten benutzerdefinierten Feldern erforderlich](#syntax-required-in-calculated-custom-fields) in diesem Artikel. Wenn Sie mit der Eingabe des Namens eines Felds beginnen, unterbreitet das System Vorschläge und Sie können einen Vorschlag auswählen, um ihn in Ihre Berechnung einzufügen.
+   Jedes Feld muss von geschweiften Klammern umgeben sein, wie im Abschnitt [Syntax erforderlich in berechneten benutzerdefinierten Feldern](#syntax-required-in-calculated-custom-fields) in diesem Artikel beschrieben. Wenn Sie mit der Eingabe des Namens eines Felds beginnen, unterbreitet das System Vorschläge und Sie können einen Vorschlag auswählen, um ihn in Ihre Berechnung einzufügen.
 
    >[!NOTE]
    >
@@ -165,9 +165,9 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
    >   * Textfeld mit Formatierung
    >   * Beschreibender Text.
    >   
-   >   Informationen zu den benutzerdefinierten Feldtypen finden Sie unter [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   >   Weitere Informationen zu den benutzerdefinierten Feldtypen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
-1. Klicken Sie im Feld &quot;Berechnungs-Editor&quot;auf das große Textfeld, klicken Sie dann auf &quot;Suchen&quot;oder &quot;Erweitern&quot;und klicken Sie auf eine Option aus dem **Ausdruck** und **Felder** rechts neben dem Textfeld. Dadurch werden sie zur Berechnung hinzugefügt.
+1. Klicken Sie im Feld &quot;Berechnung-Editor&quot;auf das große Textfeld, klicken Sie dann auf die Suche oder erweitern und klicken Sie auf eine Option in den Abschnitten **Ausdrücke** und **Felder** rechts neben dem Textfeld. Dadurch werden sie zur Berechnung hinzugefügt.
 
    Sie können auch mit der Eingabe eines Ausdrucks oder Felds in das große Textfeld beginnen und es dann auswählen, wenn es angezeigt wird. Jedes Element wird mit einem &quot;F&quot;für das Feld oder einem &quot;E&quot;für den Ausdruck angezeigt.
 
@@ -177,18 +177,18 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
    >
    >Sie können eine der folgenden Aktionen ausführen, um Hilfe bei der Berechnung zu erhalten:
    > 
-   >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, in dem gezeigt wird, wie er verwendet werden kann, und einen Link &quot;Mehr erfahren&quot;zu weiteren Informationen in diesem Artikel anzuzeigen. [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, in dem gezeigt wird, wie er verwendet werden kann, und einen Link &quot;Weitere Informationen&quot;zu weiteren Informationen im Artikel [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) anzuzeigen.
    >  ![](assets/hover-expression-help-text.jpg)
    >* Verwenden Sie die Farbcodierung, um die hinzugefügten Komponenten zu identifizieren. Die Ausdrücke werden blau und die Felder grün angezeigt.
    >  ![](assets/colors-fields-expressions.jpg)
    >* Suchen Sie nach Berechnungsfehlern, die bei der Durchführung hervorgehoben sind. Sie können den Mauszeiger über einen hervorgehobenen Fehler bewegen, um eine kurze Beschreibung seiner Ursache anzuzeigen.
    >  ![](assets/error-help.png)
-   >* Im **Vorschau auf vorhandenes Objekt** Bereich unterhalb Ihrer Berechnung, beginnen Sie mit der Eingabe des Namens eines Workfront-Objekts und wählen Sie es aus, wenn es in der Liste angezeigt wird. Dadurch erhalten Sie eine Vorschau des Felds, wie es aussieht, wenn das Formular an das Objekt angehängt wird.
+   >* Geben Sie im Bereich **Vorschau für ein vorhandenes Objekt** unter Ihrer Berechnung den Namen eines Workfront-Objekts ein und wählen Sie es aus, wenn es in der Liste angezeigt wird. Dadurch erhalten Sie eine Vorschau des Felds, wie es aussieht, wenn das Formular an das Objekt angehängt wird.
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
    >* Referenzausdrücke in einer langen Berechnung unter Verwendung der auf der linken Seite angezeigten Zeilennummern.
 
-1. Klicks **Minimieren** wenn Sie mit der Erstellung der Berechnung für das berechnete benutzerdefinierte Feld fertig sind.
+1. Klicken Sie auf **Minimieren** , wenn Sie mit der Erstellung der Berechnung für das berechnete benutzerdefinierte Feld fertig sind.
 
    >[!NOTE]
    >
@@ -202,7 +202,7 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
     <tbody> 
      <tr> 
       <td role="rowheader">Logik hinzufügen</td> 
-      <td>Sie können die Anzeigelogik hinzufügen, um zu bestimmen, ob das berechnete Feld angezeigt wird, basierend auf mindestens einer Auswahl, die ein Benutzer beim Ausfüllen des Formulars in einem vorherigen Multiple-Choice-Feld (Dropdown, Kontrollkästchen oder Optionsfelder) trifft. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Anzeigenlogik hinzufügen und Logik zu einem benutzerdefinierten Formular überspringen</a>. <p>Dies ist nur verfügbar, wenn dem berechneten benutzerdefinierten Feld im Formular mindestens ein Kontrollkästchen, ein Optionsfeld oder ein Dropdown-Feld vorangeht. </p> <p>Die Logik für das Überspringen ist für berechnete benutzerdefinierte Felder nicht verfügbar.</p> </td> 
+      <td>Sie können die Anzeigelogik hinzufügen, um zu bestimmen, ob das berechnete Feld angezeigt wird, basierend auf mindestens einer Auswahl, die ein Benutzer beim Ausfüllen des Formulars in einem vorherigen Multiple-Choice-Feld (Dropdown, Kontrollkästchen oder Optionsfelder) trifft. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Hinzufügen der Anzeigelogik und Überspringen der Logik in ein benutzerdefiniertes Formular</a>. <p>Dies ist nur verfügbar, wenn dem berechneten benutzerdefinierten Feld im Formular mindestens ein Kontrollkästchen, ein Optionsfeld oder ein Dropdown-Feld vorangeht. </p> <p>Die Logik für das Überspringen ist für berechnete benutzerdefinierte Felder nicht verfügbar.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vorherige Berechnungen aktualisieren</td> 
@@ -210,27 +210,27 @@ Sie können sowohl integrierte Workfront-Felder als auch benutzerdefinierte Feld
      </tr> 
      <tr> 
       <td role="rowheader">Formel in Anleitungen anzeigen</td> 
-      <td>Lassen Sie diese Option aktiviert, wenn Benutzer, die das benutzerdefinierte Formular ausfüllen, die Formel des Felds sehen sollen, wenn sie den Mauszeiger über das Feld bewegen. Weitere Informationen finden Sie in den Informationen zu <a href="#instructions" class="MCXref xref">Anweisungen</a> früher in dieser Tabelle.</td> 
+      <td>Lassen Sie diese Option aktiviert, wenn Benutzer, die das benutzerdefinierte Formular ausfüllen, die Formel des Felds sehen sollen, wenn sie den Mauszeiger über das Feld bewegen. Weitere Informationen finden Sie in den Informationen zu <a href="#instructions" class="MCXref xref">Anweisungen</a> weiter oben in dieser Tabelle.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicks **Fertig** wenn alle Änderungen am berechneten benutzerdefinierten Feld abgeschlossen sind.
+1. Klicken Sie auf **Fertig** , wenn alle Änderungen im berechneten benutzerdefinierten Feld abgeschlossen sind.
 
-   Oder klicken Sie auf **Anwenden** , um Ihre Änderungen bis jetzt auf das Formular anzuwenden, wenn Sie dem Formular weiterhin benutzerdefinierte Felder hinzufügen möchten.
+   Oder klicken Sie auf **Anwenden** , um Ihre Änderungen so weit auf das Formular anzuwenden, wenn Sie dem Formular weiterhin benutzerdefinierte Felder hinzufügen möchten.
 
-   Oder klicken Sie auf **Speichern und schließen** wenn alle Änderungen im benutzerdefinierten Formular abgeschlossen sind.
+   Oder klicken Sie auf **Speichern + Schließen** , wenn alle Änderungen im benutzerdefinierten Formular abgeschlossen sind.
 1. Um sicherzustellen, dass Ihr berechnetes benutzerdefiniertes Feld ordnungsgemäß funktioniert, hängen Sie das benutzerdefinierte Formular an ein Objekt an und überprüfen Sie dann das Ergebnis im berechneten benutzerdefinierten Feld.
 
-   Anweisungen zum Anhängen eines benutzerdefinierten Formulars finden Sie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+   Anweisungen zum Anhängen eines benutzerdefinierten Formulars finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Wenn Sie Ihr benutzerdefiniertes Formular auf andere Weise weiter erstellen möchten, können Sie mit einem der folgenden Artikel fortfahren:
 
-   * [Benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-   * [Positionieren von benutzerdefinierten Feldern und Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+   * [Positionieren Sie benutzerdefinierte Felder und Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [Vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular wiederverwenden](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Anzeigenlogik hinzufügen und Logik zu einem benutzerdefinierten Formular überspringen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Anzeigerlogik hinzufügen und Logik in ein benutzerdefiniertes Formular überspringen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Benutzerdefiniertes Formular in der Vorschau anzeigen und ausfüllen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 ## Syntax in berechneten benutzerdefinierten Feldern erforderlich
@@ -249,15 +249,15 @@ Beispiel: `{actualRevenue}`
 
 Bei Feldnamen wird zwischen Groß- und Kleinschreibung unterschieden und sie müssen im Binnenmajuskel-Format angezeigt werden, wie sie im Workfront-System angezeigt werden.
 
-* Wenn die Berechnung auf ein benutzerdefiniertes Feld verweisen soll, muss der Name des Felds von geschweiften Klammern umgeben sein und von `DE:` innerhalb der Klammern. Bei benutzerdefinierten Feldern wird zwischen Groß- und Kleinschreibung unterschieden. Sie müssen so formatiert sein, wie sie in der Workfront-Benutzeroberfläche angezeigt werden.
+* Wenn die Berechnung auf ein benutzerdefiniertes Feld verweisen soll, muss der Feldname in geschweiften Klammern stehen und in den Klammern vor `DE:` stehen. Bei benutzerdefinierten Feldern wird zwischen Groß- und Kleinschreibung unterschieden. Sie müssen so formatiert sein, wie sie in der Workfront-Benutzeroberfläche angezeigt werden.
 
 Beispiel: `{DE:Profit}`
 
-Das System listet alle benutzerdefinierten Felder auf, aus denen Sie bei der Eingabe auswählen können `DE:`.
+Das System listet alle benutzerdefinierten Felder auf, aus denen Sie bei der Eingabe von `DE:` wählen können.
 
 * Wenn die Berechnung auf ein Feld verweisen soll, das Daten aus dem übergeordneten Objekt abruft, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, müssen Sie dem Feldnamen den Objekttyp des übergeordneten Objekts voranstellen (auch in geschweiften Klammern).
 
-  Wenn das benutzerdefinierte Formular beispielsweise für Aufgaben konfiguriert ist und Sie möchten, dass das Feld den tatsächlichen Umsatz des übergeordneten Objekts berechnet, wenn das Formular an eine Aufgabe angehängt wird, müssen Sie Folgendes angeben: `project` als Objekttyp des Felds:
+  Wenn das benutzerdefinierte Formular beispielsweise für Aufgaben konfiguriert ist und Sie möchten, dass das Feld den tatsächlichen Umsatz des übergeordneten Objekts berechnet, wenn das Formular an eine Aufgabe angehängt wird, müssen Sie &quot;`project`&quot;als Objekttyp des Felds angeben:
 
   `{project}.{actualRevenue}`
 
@@ -265,7 +265,7 @@ Das System listet alle benutzerdefinierten Felder auf, aus denen Sie bei der Ein
 
   `{project}.{DE:profit}`
 
-  Wenn Sie sich nicht sicher sind, welcher Objekttyp des übergeordneten Objekts lautet, weil das benutzerdefinierte Formular für mehrere Objekttypen konfiguriert ist, können Sie die Filtervariable &quot;Platzhalter&quot;verwenden `$$OBJCODE` , damit die Berechnung für jeden der möglichen Typen funktioniert. Weitere Informationen finden Sie unter [Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten](#calculated-custom-fields-in-multi-object-custom-forms) in diesem Artikel.
+  Wenn Sie nicht sicher sind, welcher Objekttyp des übergeordneten Objekts lautet, weil das benutzerdefinierte Formular für mehrere Objekttypen konfiguriert ist, können Sie die Platzhalterfiltervariable `$$OBJCODE` verwenden, damit die Berechnung für jeden der möglichen Typen funktioniert. Weitere Informationen finden Sie unter [Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten](#calculated-custom-fields-in-multi-object-custom-forms) in diesem Artikel.
 
 ### Separate Elemente mit Zeiträumen
 
@@ -292,7 +292,7 @@ Um beispielsweise auf die ausgewählte Option in einem benutzerdefinierten Feld 
 
 >[!NOTE]
 >
->Die Syntax für ein Feld vom TypAhead unterscheidet sich von der für andere Feldtypen, da Sie `:name` am Ende.
+>Die Syntax für ein Feld vom Typ voraus unterscheidet sich von der für andere Feldtypen, da Sie am Ende `:name` hinzufügen müssen.
 >
 >Um beispielsweise auf die ausgewählte Option in einem benutzerdefinierten Typenvorfeld mit dem Namen &quot;Executive sponsor&quot;zu verweisen, geben Sie Folgendes ein:
 >
@@ -315,17 +315,17 @@ In einem benutzerdefinierten Formular mit mehreren Objekten müssen die ausgewä
 In diesem Fall haben Sie folgende Möglichkeiten:
 
 * Entfernen Sie eines der beiden inkompatiblen Elemente aus dem benutzerdefinierten Formular - entweder dem Objekttyp oder dem referenzierten berechneten benutzerdefinierten Feld.
-* Beides beibehalten und die Platzhalterfiltervariable verwenden `$$OBJCODE` als Bedingung in einem IF-Ausdruck verwenden, um zwei verschiedene Versionen des Felds In Charge zu erstellen. Dadurch kann das Feld unabhängig vom Objekttyp, an den das Formular angehängt ist, erfolgreich funktionieren.
+* Behalten Sie beide Elemente bei und verwenden Sie die Platzhalterfiltervariable `$$OBJCODE` als Bedingung in einem IF-Ausdruck, um zwei verschiedene Versionen des Felds &quot;In Charge&quot;zu erstellen. Dadurch kann das Feld unabhängig vom Objekttyp, an den das Formular angehängt ist, erfolgreich funktionieren.
 
 >[!INFO]
 >
->**Beispiel:** Es gibt zwar kein Feld Zugeordneter Benutzer: Name in Projekten, es gibt jedoch ein integriertes Feld Inhaber (das automatisch mit dem Namen der Person ausgefüllt wird, die das Projekt erstellt hat, es sei denn, dies wird manuell geändert).
+>**Beispiel:** Obwohl es in Projekten kein Feld &quot;Zugeordneter Name&quot;gibt, gibt es ein integriertes Feld &quot;Eigentümer&quot;(das automatisch mit dem Namen der Person gefüllt wird, die das Projekt erstellt hat, es sei denn, dies wird manuell geändert).
 >
->In Ihrem benutzerdefinierten Feld &quot;In Charge&quot;können Sie also `$$OBJCODE` wie unten gezeigt, um auf das Feld Inhaber zu verweisen, wenn das benutzerdefinierte Formular an ein Projekt angehängt wird, und auf das Feld Zugeordneter Name , wenn das Formular an eine Aufgabe angehängt wird:
+>In Ihrem benutzerdefinierten Feld &quot;In Charge&quot;können Sie also &quot;`$$OBJCODE`&quot;wie unten gezeigt verwenden, um auf das Feld &quot;Inhaber&quot;zu verweisen, wenn das benutzerdefinierte Formular an ein Projekt angehängt wird, und auf das Feld &quot;Zugeordneter Name&quot;, wenn das Formular an eine Aufgabe angehängt wird:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-Weitere Informationen zu Variablen finden Sie unter `$$OBJCODE,` see [Übersicht über Wildcard-Filtervariablen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Weitere Informationen zu Variablen wie `$$OBJCODE,` finden Sie unter [Übersicht über Wildcard-Filtervariablen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Automatische Aktualisierung berechneter benutzerdefinierter Felder
 

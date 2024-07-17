@@ -45,7 +45,7 @@ Eine Liste der verfügbaren Adobe-APIs finden Sie unter [Adobe-APIs](https://dev
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz</td>
       <td>
-   <p>Aktuelle Anforderungen an die Fusionszulassung: nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Fusion-Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
    <p>Legacy-Fusion-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
    </td>
@@ -53,9 +53,9 @@ Eine Liste der verfügbaren Adobe-APIs finden Sie unter [Adobe-APIs](https://dev
     <tr>
       <td role="rowheader">Produkt</td>
       <td>
-   <p>Neuer Workfront-Plan: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Neuer Workfront-Plan: Wenn Sie über den [!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Aktueller Workfront-Plan: Ihr Unternehmen muss kaufen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Aktueller Workfront-Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td>
     </tr>
   </tbody>
@@ -72,7 +72,7 @@ Eine Liste der verfügbaren Adobe-APIs finden Sie unter [Adobe-APIs](https://dev
      Oder
    * Fügen Sie die API einem vorhandenen Projekt hinzu.
 
-  Informationen zum Erstellen oder Hinzufügen einer API zu einem Projekt in der Adobe Developer Console finden Sie unter [Projekt erstellen](https://developer.adobe.com/dep/guides/dev-console/create-project/) in der Adobe-Dokumentation.
+  Informationen zum Erstellen oder Hinzufügen einer API zu einem Projekt in Adobe Developer Console finden Sie unter [Erstellen eines Projekts](https://developer.adobe.com/dep/guides/dev-console/create-project/) in der Adobe-Dokumentation.
 
 ## Verbindung erstellen
 
@@ -84,11 +84,11 @@ Sie können separate Verbindungen zu separaten Projekten erstellen, Sie können 
 >
 >Mit dem Adobe Authenticator-Connector haben Sie die Wahl zwischen einer OAuth-Server-zu-Server-Verbindung oder einer JWT-Verbindung (Service Account). Adobe hat veraltete JWT-Anmeldeinformationen, die nach dem 1. Januar 2025 nicht mehr funktionieren werden. **Daher empfehlen wir dringend, OAuth-Verbindungen zu erstellen.**
 >
->Weitere Informationen zu diesen Verbindungstypen finden Sie unter [Server-zu-Server-Authentifizierung](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in der Adobe-Dokumentation
+>Weitere Informationen zu diesen Verbindungstypen finden Sie unter [Serverauthentifizierung für Server](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in der Adobe-Dokumentation
 
 So erstellen Sie eine Verbindung:
 
-1. Klicken Sie in einem beliebigen Adobe Authenticator-Modul auf **Hinzufügen** neben dem Feld Verbindung .
+1. Klicken Sie in einem beliebigen Adobe Authenticator-Modul neben dem Feld Verbindung auf **Hinzufügen** .
 1. Füllen Sie die folgenden Felder aus:
 
    <table style="table-layout:auto"> 
@@ -111,11 +111,11 @@ So erstellen Sie eine Verbindung:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client-ID]</td>
-        <td>Geben Sie Ihre [!DNL Adobe] Client-ID. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].
+        <td>Geben Sie Ihre [!DNL Adobe] Client-ID ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Geben Sie Ihre [!DNL Adobe] Client Secret. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].
+        <td>Geben Sie Ihr [!DNL Adobe] Client-Geheimnis ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Bereiche]</td>
@@ -123,11 +123,11 @@ So erstellen Sie eine Verbindung:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID des technischen Kontos]</td>
-        <td>Geben Sie Ihre [!DNL Adobe] Kennung des technischen Kontos. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].
+        <td>Geben Sie Ihre [!DNL Adobe] ID des technischen Kontos ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Organisations-ID]</td>
-        <td>Wenn Sie eine JWT-Verbindung ausgewählt haben, geben Sie Ihre [!DNL Adobe] Organisations-ID. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] im Abschnitt [!DNL Adobe Developer Console].
+        <td>Wenn Sie eine JWT-Verbindung ausgewählt haben, geben Sie Ihre [!DNL Adobe] Organisations-ID ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Meta Scopes]</td>
@@ -136,11 +136,11 @@ So erstellen Sie eine Verbindung:
       <tr>
         <td role="rowheader">[!UICONTROL Privater Schlüssel]</td>
         <td>
-          <p>Wenn Sie eine JWT-Verbindung ausgewählt haben, geben Sie den privaten Schlüssel ein, der generiert wurde, als Ihre Anmeldeinformationen in der [!DNL Adobe Developer Console]. </p>
+          <p>Wenn Sie eine JWT-Verbindung ausgewählt haben, geben Sie den privaten Schlüssel ein, der beim Erstellen Ihrer Anmeldedaten in [!DNL Adobe Developer Console] generiert wurde. </p>
           <p>So extrahieren Sie Ihren privaten Schlüssel oder Ihr Zertifikat:</p>
           <ol>
             <li value="1">
-              <p>Klicks <b>[!UICONTROL Extract]</b>.</p>
+              <p>Klicken Sie auf <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
               <p>Wählen Sie den Dateityp aus, den Sie extrahieren.</p>
@@ -152,7 +152,7 @@ So erstellen Sie eine Verbindung:
               <p>Geben Sie das Kennwort für die Datei ein.</p>
             </li>
             <li value="5">
-              <p>Klicks <b>[!UICONTROL Save]</b> , um die Datei zu extrahieren und zur Verbindungseinrichtung zurückzukehren.</p>
+              <p>Klicken Sie auf <b>[!UICONTROL Save]</b> , um die Datei zu extrahieren und zur Verbindungseinrichtung zurückzukehren.</p>
             </li>
           </ol>
         </td>
@@ -163,7 +163,7 @@ So erstellen Sie eine Verbindung:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Authentifizierungs-URL]</td>
-        <td>Lassen Sie dieses Feld leer, um die standardmäßige Adobe IMS-Authentifizierungs-URL von zu verwenden. <code>https://ims-na1.adobelogin.com</code>. Wenn Sie Adobe IMS nicht zur Authentifizierung verwenden, geben Sie die URL ein, die für die Authentifizierung verwendet werden soll.</td>
+        <td>Lassen Sie dieses Feld leer, um die standardmäßige Adobe IMS-Authentifizierungs-URL von <code>https://ims-na1.adobelogin.com</code> zu verwenden. Wenn Sie Adobe IMS nicht zur Authentifizierung verwenden, geben Sie die URL ein, die für die Authentifizierung verwendet werden soll.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Umgebung]</td>
@@ -176,7 +176,7 @@ So erstellen Sie eine Verbindung:
     </tbody>
     </table>
 
-1. Klicks **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+1. Klicken Sie auf **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 ## Modul
 
@@ -194,7 +194,7 @@ Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen.
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Verbindung]</td>
-     <td>Anweisungen zum Erstellen einer Verbindung zum Adobe Authenticator-Modul finden Sie unter <a href="#create-a-connection" class="MCXref xref" >Verbindung erstellen</a> in diesem Artikel.</td>
+     <td>Anweisungen zum Erstellen einer Verbindung mit dem Adobe Authenticator-Modul finden Sie in diesem Artikel unter <a href="#create-a-connection" class="MCXref xref" >Erstellen einer Verbindung</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -226,7 +226,7 @@ Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> Fügen Sie die Anführungszeichen in Ihre JSON-Datei außerhalb der bedingten Anweisung ein.</p> 
+   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

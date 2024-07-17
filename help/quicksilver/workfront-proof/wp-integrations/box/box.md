@@ -20,11 +20,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Einführung in die [!DNL Workfront Proof] und [!DNL Box] Integration](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Erstellen Sie einen Testversand über Ihre [!DNL Box] Konto](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [Synchronisieren [!DNL Box] Ordner mit [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [Originaldatei eines Testversands anzeigen in [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [Einführung in die Integration von [!DNL Workfront Proof] und [!DNL Box] s](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Erstellen eines Testversands über Ihr [!DNL Box] Konto](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Synchronisieren von [!DNL Box] Ordnern mit [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [Originaldatei eines Testversands in [!DNL Box] anzeigen](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

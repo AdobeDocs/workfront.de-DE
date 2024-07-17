@@ -25,7 +25,7 @@ Sie können die Vorgänger von Aufgaben in den folgenden Bereichen von Adobe Wor
 * In der Gantt-Grafik
 * Im Abschnitt &quot;Vorgänger&quot;einer abhängigen Aufgabe
 
-Weitere Informationen finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über Aufgabenverfasser](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -56,31 +56,31 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Erstellen eines Vorgängers
 
 1. Wechseln Sie zu einem Projekt.
-1. Klicks **Aufgaben** im linken Bereich.
-1. Stellen Sie sicher, dass Ihre aktuelle Ansicht die **Vorgänger** Spalte.
+1. Klicken Sie im linken Bereich auf **Aufgaben** .
+1. Stellen Sie sicher, dass in Ihrer aktuellen Ansicht die Spalte **Vorgänger** angezeigt wird.
 
    Wenn in der Ansicht die Spalte &quot;Vorgänger&quot;nicht angezeigt wird, wechseln Sie zu einer Ansicht, die dies tut, oder fügen Sie die Spalte zu Ihrer Ansicht hinzu.
 
 1. Wählen Sie die Aufgabe aus, die Sie als abhängige Aufgabe festlegen möchten.
-1. Klicken Sie in die **Vorgänger** Spalte.
-1. Geben Sie die Aufgabennummer ein, die Sie als Vorgänger der ausgewählten Aufgabe festlegen möchten, und drücken Sie dann die Eingabetaste **Eingabe**.
+1. Klicken Sie in die Spalte **Vorgänger** .
+1. Geben Sie die Aufgabennummer ein, die Sie als Vorgänger der ausgewählten Aufgabe festlegen möchten, und drücken Sie dann **Enter**.
 
    >[!TIP]
    >
    >Gehen Sie wie folgt vor, um einen projektübergreifenden Vorgänger hinzuzufügen:
    >
-   >1. Klicken Sie auf **Planmodus** Symbol und wählen Sie **Automatische Speicherung**.
+   >1. Klicken Sie auf das Symbol **Planmodus** und wählen Sie **Autosave** aus.
    >
    >1. Geben Sie die Referenznummer des Projekts des Vorgängers, gefolgt von Doppelpunkt und die Nummer der Aufgabe ein. Geben Sie beispielsweise 765021:12 ein. Dies bedeutet, dass die Referenznummer des Vorläuferprojekts 765021 und der Vorläufer die Aufgabennummer 12 für das Projekt ist.
    >
    >1. Fügen Sie den Abhängigkeitstyp für diesen Vorgänger hinzu. Weitere Informationen finden Sie unter [Erstellen projektübergreifender Vorgänger](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
    >
-   >Presse **Eingabe**.
+   >Drücken Sie die Taste **Enter**.
    >
    >**WICHTIG**
    >
@@ -88,32 +88,32 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    Das Vorgängersymbol wird grün, wenn die Vorgängeraufgabe als abgeschlossen markiert ist. Dies signalisiert, dass die abhängige Aufgabe einsatzbereit ist.
 
-   Weitere Informationen zu den in der Spalte &quot;Vorgänger&quot;verfügbaren Beziehungstypen finden Sie unter [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [Übersicht über die Vorgänger von Aufgaben](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+   Weitere Informationen zu den in der Spalte &quot;Vorgänger&quot;verfügbaren Beziehungstypen finden Sie unter [Übersicht über Aufgabenverfasser](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [Übersicht über Aufgabenverfasser](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Anzeigen von Vorgängerdetails
 
 Sie können in der Aufgabenliste schnell Details zum Vorgänger anzeigen.
 
-1. Bewegen Sie in der Aufgabenliste den Mauszeiger über die vorangestellte Nummer in der **Vorgänger** Spalte.
+1. Bewegen Sie in der Aufgabenliste den Mauszeiger über die Vorgängernummer in der Spalte **Vorgänger** .
 
    Ein Feld mit den Details des Vorgängers wird angezeigt.
 
-   ![Details zu Vorgängern](assets/predecessor-details-in-task-list.png)
+   ![Details des Vorgängers](assets/predecessor-details-in-task-list.png)
 
    Die folgenden Details werden angezeigt:
 
    **Vorgängername:** Der Name des Vorgängers, auf den verwiesen wird. Die Aufgabennummer des Vorgängers ist enthalten. Klicken Sie auf den Aufgabennamen, um ihn zu öffnen. Im obigen Beispiel ist der Vorgänger Produktion/Ausführung/Versand.
 
-   **Projektname:** Der Name des Projekts, in dem sich der Vorgänger befindet. Das Projekt wird als aktuelles Projekt identifiziert, wenn der Vorgänger zu denselben Projekten wie die Aufgabe gehört, oder als übergreifendes Projekt, wenn der Vorgänger zu einem anderen Projekt gehört. Im obigen Beispiel lautet der Projektname Digital Asset Production (Integrated) - Project. Weitere Informationen zu projektübergreifenden Vorgängern finden Sie unter [Erstellen projektübergreifender Vorgänger](../../tasks/use-prdcssrs/cross-project-predecessors.md).
+   **Projektname:** Der Name des Projekts, in dem sich der Vorgänger befindet. Das Projekt wird als aktuelles Projekt identifiziert, wenn der Vorgänger zu denselben Projekten wie die Aufgabe gehört, oder als übergreifendes Projekt, wenn der Vorgänger zu einem anderen Projekt gehört. Im obigen Beispiel lautet der Projektname Digital Asset Production (Integrated) - Project. Weitere Informationen zu projektübergreifenden Vorgängern finden Sie unter [Erstellen von projektübergreifenden Vorgängern](../../tasks/use-prdcssrs/cross-project-predecessors.md).
 
-   Sie können die Projektdetails erweitern, um die geplanten Start- und Enddaten, Bedingungen, Status, Prozentsatz der Fertigstellung und Eigentümer des Projekts anzuzeigen. Für ein übergreifendes Projekt können Sie dann auf **Siehe Projekt** , um das Projekt zu öffnen.
+   Sie können die Projektdetails erweitern, um die geplanten Start- und Enddaten, Bedingungen, Status, Prozentsatz der Fertigstellung und Eigentümer des Projekts anzuzeigen. Für ein übergreifendes Projekt können Sie dann auf **Siehe Projekt** klicken, um das Projekt zu öffnen.
 
    **ID:** Die Referenznummer des Projekts, in dem sich der Vorgänger befindet.
 
    **Geplanter Start:** Das geplante Startdatum der Vorgängeraufgabe.
 
-   **Geplantes Ende:** Das geplante Abschlussdatum der Vorläuferaufgabe.
+   **Geplantes Ende:** Das geplante Abschlussdatum der Vorgängeraufgabe.
 
-   **Anzahl der Vorgänger:** Die Anzahl der Vorgänger für den Vorgänger, auf den verwiesen wird. Im obigen Beispiel hat der Vorgänger, auf den verwiesen wird, 1 Vorgänger.
+   **Anzahl der Vorgänger:** Die Anzahl der Vorgänger, auf die verwiesen wird. Im obigen Beispiel hat der Vorgänger, auf den verwiesen wird, 1 Vorgänger.
 
-   **Nachfolger:** Die Anzahl der Nachfolgeaufgaben (oder abhängigen Aufgaben) für den Vorgänger, auf den verwiesen wird. Im obigen Beispiel hat der referenzierte Vorgänger 1 Nachfolger.
+   **Anzahl der Nachfolger:** Die Anzahl der Nachfolger (oder abhängigen) Aufgaben für den Vorgänger, auf den verwiesen wird. Im obigen Beispiel hat der referenzierte Vorgänger 1 Nachfolger.

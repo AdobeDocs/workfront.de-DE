@@ -1,8 +1,8 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Domain-Format für Adobe Workfront-API-Aufrufe
-description: Suchen Sie Ihre Domain zur Verwendung in der Adobe Workfront-API
+title: Domänenformat für Adobe Workfront-API-Aufrufe
+description: Suchen Sie Ihre Domäne zur Verwendung in der Adobe Workfront-API.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 ---
 
-# Domain-Format für Adobe Workfront-API-Aufrufe
+# Domänenformat für Adobe Workfront-API-Aufrufe
 
-Wenn Sie einen API-Aufruf an die Workfront-API durchführen, verwenden Sie im Aufruf die Domain Ihres Unternehmens. Das Format dieser Domain-URL unterscheidet sich, je nachdem, ob Ihr Unternehmen in die Adobe Unified Shell integriert wurde.
+Wenn Sie die Workfront-API aufrufen, verwenden Sie die Domäne Ihres Unternehmens im -Aufruf. Das Format dieser Domänen-URL unterscheidet sich je nachdem, ob Ihr Unternehmen in die Adobe Unified Shell integriert wurde.
 
-Um herauszufinden, ob sich Ihr Unternehmen auf der Adobe Unified Shell befindet, überprüfen Sie die URL, die angezeigt wird, wenn Sie eine Workfront-Seite anzeigen.
+Um herauszufinden, ob sich Ihr Unternehmen auf der Adobe Unified Shell befindet, überprüfen Sie die URL, die beim Anzeigen einer Workfront-Seite angezeigt wird.
 
 | Workfront-URL beginnt mit: | URL für API-Aufrufe: |
 |---|---|
 | `<yourdomain>.my.workfront.com` | `<yourdomain>.my.workfront.com` |
 | `experience.adobe.com` | `<yourdomain>.my.workfront.adobe.com` |
 
-So suchen Sie Ihre Domain:
+So suchen Sie Ihre Domäne:
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) Klicken Sie in der rechten oberen Ecke von Adobe Workfront oder (falls verfügbar) auf die Schaltfläche **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) Klicken Sie oben links auf und dann auf **[!UICONTROL Setup]** ![Symbol „Setup“](/help/_includes/assets/gear-icon-setup.png).
-1. Auswählen **System** und wählen Sie dann **Kundeninformationen**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf das Symbol **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).![
+1. Wählen Sie **System** und dann **Kundeninformationen** aus.
 
-   Ihre Domain wird auf der rechten Seite des Bildschirms aufgeführt.
+   Ihre Domäne wird rechts auf dem Bildschirm angezeigt.
 
-   ![Domain](assets/domain.png)
+   ![Domäne](assets/domain.png)
 

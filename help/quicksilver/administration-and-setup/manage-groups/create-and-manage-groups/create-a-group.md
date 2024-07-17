@@ -42,12 +42,12 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Erstellen einer Gruppe der obersten Ebene von Grund auf neu
 
@@ -55,7 +55,7 @@ In diesen Schritten wird beschrieben, wie Sie eine neue Gruppe von Grund auf neu
 
 Sie müssen ein Workfront-Administrator sein, um eine Gruppe der obersten Ebene zu erstellen.
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
@@ -63,9 +63,9 @@ Sie müssen ein Workfront-Administrator sein, um eine Gruppe der obersten Ebene 
 
    >[!TIP]
    >
-   >Am unteren Rand der Gruppenliste können Sie auch auf **Weitere Gruppen hinzufügen** Um eine Gruppe in Zeilen hinzuzufügen, klicken Sie auf **Eingabe** wenn Sie mit dem Hinzufügen der Gruppeninformationen fertig sind.
+   >Am unteren Rand der Gruppenliste können Sie auch auf **Weitere Gruppen hinzufügen** klicken, um eine Gruppe in der Zeile hinzuzufügen, und dann auf **Enter** klicken, wenn Sie mit dem Hinzufügen der Gruppeninformationen fertig sind.
 
-1. Im **Neue Gruppe** ein, das angezeigt wird, geben Sie einen Namen für die Gruppe ein.
+1. Geben Sie im angezeigten Feld **Neue Gruppe** einen Namen für die Gruppe ein.
 1. Geben Sie die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
@@ -82,7 +82,7 @@ Sie müssen ein Workfront-Administrator sein, um eine Gruppe der obersten Ebene 
      </tr> 
      <tr> 
       <td role="rowheader">Ist aktiv</td> 
-      <td> <p>(Standardmäßig aktiviert) Macht die Gruppe in Ihrer Workfront-Instanz aktiv.</p> <p>Wenn normale Benutzer in vorgelagerten Feldern wie dem unten gezeigten nach einer Gruppe suchen, um sie an ein Objekt anzuhängen oder für dieses freizugeben, werden nur aktive Gruppen in der Liste angezeigt.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Um dies für Ihre Benutzer zu optimieren, können Sie die Option Ist aktiv für aktuell nicht verwendete Gruppen deaktivieren.</p> <p>Mithilfe dieses Felds können Sie die Gruppenliste einfach anhand des aktiven oder inaktiven Status anzeigen, filtern und gruppieren. Informationen zur Verwendung von Ansichten, Filtern und Gruppierungen in Listen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Berichtselemente: Filter, Ansichten und Gruppierungen</a>.</p> </td> 
+      <td> <p>(Standardmäßig aktiviert) Macht die Gruppe in Ihrer Workfront-Instanz aktiv.</p> <p>Wenn normale Benutzer in vorgelagerten Feldern wie dem unten gezeigten nach einer Gruppe suchen, um sie an ein Objekt anzuhängen oder für dieses freizugeben, werden nur aktive Gruppen in der Liste angezeigt.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Um dies für Ihre Benutzer zu optimieren, können Sie die Option Ist aktiv für aktuell nicht verwendete Gruppen deaktivieren.</p> <p>Mithilfe dieses Felds können Sie die Gruppenliste einfach anhand des aktiven oder inaktiven Status anzeigen, filtern und gruppieren. Informationen zur Verwendung von Ansichten, Filtern und Gruppierungen in Listen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Berichterstellungselemente: Filter, Ansichten und Gruppierungen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Diese Gruppe und ihre Untergruppen öffentlich machen</td> 
@@ -90,15 +90,15 @@ Sie müssen ein Workfront-Administrator sein, um eine Gruppe der obersten Ebene 
         <ul> 
          <li>Sie können eine Untergruppe nicht allein öffentlich machen, aber Sie können die übergeordnete Gruppe auf oberster Ebene öffentlich machen, wodurch auch alle Untergruppen der übergeordneten Gruppe öffentlich gemacht werden.</li> 
          <li>Eine Untergruppe, die zu einer öffentlichen Gruppe gehört, ist standardmäßig öffentlich, sodass alle Benutzer mit Bearbeitungszugriff die Untergruppe auch anderen Benutzern hinzufügen können.</li> 
-        </ul> </p> <p>Informationen zum Zugriff, der für die Bearbeitung von Benutzern erforderlich ist, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Benutzern Zugriff gewähren</a>. Informationen zum Bearbeiten von Benutzern finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a>.</p> </td> 
+        </ul> </p> <p>Wenn Sie Informationen über den für die Bearbeitung von Benutzern benötigten Zugriff benötigen, finden Sie weitere Informationen unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>. Weitere Informationen zum Bearbeiten von Benutzern finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Business Leader </td> 
-      <td> <p>Sie können einen Benutzer für eine von Ihnen verwaltete Gruppe als Business Leader zuweisen. Ein Business Leader ist jemand, der Geschäftsentscheidungen für die Gruppe trifft. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Übersicht über Business Leader</a><span>.</span></p> <p>Wenn die Person noch nicht Mitglied der Gruppe ist, werden sie durch Hinzufügen ihres Namens zu diesem Feld auch zur Gruppe hinzugefügt.</p> <p><b>NOTE</b>:  
+      <td> <p>Sie können einen Benutzer für eine von Ihnen verwaltete Gruppe als Business Leader zuweisen. Ein Business Leader ist jemand, der Geschäftsentscheidungen für die Gruppe trifft. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Übersicht über den Business Leader</a><span>.</span></p> <p>Wenn die Person noch nicht Mitglied der Gruppe ist, werden sie durch Hinzufügen ihres Namens zu diesem Feld auch zur Gruppe hinzugefügt.</p> <p><b>NOTE</b>:  
         <ul> 
          <li>Bevor Sie den Business Leader aus einer Gruppe entfernen können, müssen Sie dessen Namen aus dem Feld Business Leader entfernen.</li> 
-         <li>Wenn Sie den Namen aus dem Feld "Business Leader"entfernen, bleibt dieser Benutzer Mitglied der Gruppe, es sei denn, Sie entfernen ihn daraus. Anweisungen zum Entfernen einer Person aus einer Gruppe finden Sie im Abschnitt <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Gruppenmitgliedschaften verwalten</a> im Artikel <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Verwalten einer Gruppe</a>.</li> 
-        </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Übersicht über Business Leader</a>.</p> </td> 
+         <li>Wenn Sie den Namen aus dem Feld "Business Leader"entfernen, bleibt dieser Benutzer Mitglied der Gruppe, es sei denn, Sie entfernen ihn daraus. Anweisungen zum Entfernen einer Person aus einer Gruppe finden Sie im Abschnitt <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Verwalten der Gruppenmitgliedschaften</a> im Artikel <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Verwalten einer Gruppe</a>.</li> 
+        </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Übersicht über den Business Leader</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gruppenmitglieder und Gruppenadministratoren</td> 
@@ -114,7 +114,7 @@ Sie müssen ein Workfront-Administrator sein, um eine Gruppe der obersten Ebene 
     </tbody> 
    </table>
 
-1. Klicks **Gruppe erstellen**.
+1. Klicken Sie auf **Gruppe erstellen**.
 
 ## Erstellen einer Gruppe der obersten Ebene durch Kopieren einer vorhandenen Gruppe oder Untergruppe {#create-a-top-level-group-by-copying-an-existing-group-or-subgroup}
 
@@ -127,14 +127,14 @@ Beachten Sie Folgendes, wenn Sie dies tun möchten:
 
 So erstellen Sie eine neue Gruppe der obersten Ebene durch Kopieren einer Gruppe oder Untergruppe:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
    In der angezeigten Liste können Sie die von Ihnen verwalteten Gruppen sowie die darin enthaltenen Untergruppen sehen. Adobe Workfront-Administratoren können alle Gruppen sehen.
 
-1. Wählen Sie die Gruppe aus, die Sie kopieren möchten, und klicken Sie dann auf das Symbol Kopieren . ![](assets/copy-icon.png).
-1. Im **Gruppe kopieren** ein, das angezeigt wird, geben Sie einen **Gruppenname** für die kopierte Gruppe.
+1. Wählen Sie die Gruppe aus, die Sie kopieren möchten, und klicken Sie dann auf das Kopiersymbol ![](assets/copy-icon.png).
+1. Geben Sie im angezeigten Feld **Gruppe kopieren** einen **Gruppennamen** für die kopierte Gruppe ein.
 
 1. Geben Sie die folgenden Informationen an:
 
@@ -152,7 +152,7 @@ So erstellen Sie eine neue Gruppe der obersten Ebene durch Kopieren einer Gruppe
      </tr> 
      <tr> 
       <td role="rowheader">Ist aktiv</td> 
-      <td> <p>(Standardmäßig aktiviert) Macht die Gruppe in Ihrer Workfront-Instanz aktiv.</p> <p>Wenn normale Benutzer in vorgelagerten Feldern wie dem unten gezeigten nach einer Gruppe suchen, um sie an ein Objekt anzuhängen oder für dieses freizugeben, werden nur aktive Gruppen in der Liste angezeigt.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Um dies für Ihre Benutzer zu optimieren, können Sie die Option Ist aktiv für aktuell nicht verwendete Gruppen deaktivieren.</p> <p>Mithilfe dieses Felds können Sie die Gruppenliste einfach anhand des aktiven oder inaktiven Status anzeigen, filtern und gruppieren. Informationen zur Verwendung von Ansichten, Filtern und Gruppierungen in Listen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Berichtselemente: Filter, Ansichten und Gruppierungen</a>.</p>  </td> 
+      <td> <p>(Standardmäßig aktiviert) Macht die Gruppe in Ihrer Workfront-Instanz aktiv.</p> <p>Wenn normale Benutzer in vorgelagerten Feldern wie dem unten gezeigten nach einer Gruppe suchen, um sie an ein Objekt anzuhängen oder für dieses freizugeben, werden nur aktive Gruppen in der Liste angezeigt.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Um dies für Ihre Benutzer zu optimieren, können Sie die Option Ist aktiv für aktuell nicht verwendete Gruppen deaktivieren.</p> <p>Mithilfe dieses Felds können Sie die Gruppenliste einfach anhand des aktiven oder inaktiven Status anzeigen, filtern und gruppieren. Informationen zur Verwendung von Ansichten, Filtern und Gruppierungen in Listen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Berichterstellungselemente: Filter, Ansichten und Gruppierungen</a>.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Diese Gruppe und ihre Untergruppen öffentlich machen</td> 
@@ -160,15 +160,15 @@ So erstellen Sie eine neue Gruppe der obersten Ebene durch Kopieren einer Gruppe
         <ul> 
          <li>Sie können eine Untergruppe nicht allein öffentlich machen, aber Sie können sie als übergeordnete Gruppe der obersten Ebene veröffentlichen, wodurch auch alle Untergruppen der übergeordneten Gruppe öffentlich gemacht werden.</li> 
          <li>Eine Untergruppe, die zu einer öffentlichen Gruppe gehört, ist standardmäßig öffentlich, sodass alle Benutzer mit Bearbeitungszugriff die Untergruppe auch anderen Benutzern hinzufügen können.</li> 
-        </ul> </p> <p>Informationen zum Zugriff, der für die Bearbeitung von Benutzern erforderlich ist, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Benutzern Zugriff gewähren</a>. Informationen zum Bearbeiten von Benutzern finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Profil eines Benutzers bearbeiten</a>.</p> </td> 
+        </ul> </p> <p>Wenn Sie Informationen über den für die Bearbeitung von Benutzern benötigten Zugriff benötigen, finden Sie weitere Informationen unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Gewähren des Zugriffs für Benutzer</a>. Weitere Informationen zum Bearbeiten von Benutzern finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Profil eines Benutzers bearbeiten</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Business Leader </td> 
-      <td> <p>Sie können einen Benutzer für eine von Ihnen verwaltete Gruppe als Business Leader zuweisen. Ein Business Leader ist jemand, der Geschäftsentscheidungen für die Gruppe trifft. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Übersicht über Business Leader</a><span>.</span></p> <p>Wenn die Person noch nicht Mitglied der Gruppe ist, werden sie durch Hinzufügen ihres Namens zu diesem Feld auch zur Gruppe hinzugefügt.</p> <p><b>NOTE</b>:  
+      <td> <p>Sie können einen Benutzer für eine von Ihnen verwaltete Gruppe als Business Leader zuweisen. Ein Business Leader ist jemand, der Geschäftsentscheidungen für die Gruppe trifft. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Übersicht über den Business Leader</a><span>.</span></p> <p>Wenn die Person noch nicht Mitglied der Gruppe ist, werden sie durch Hinzufügen ihres Namens zu diesem Feld auch zur Gruppe hinzugefügt.</p> <p><b>NOTE</b>:  
         <ul> 
          <li>Bevor Sie den Business Leader aus einer Gruppe entfernen können, müssen Sie dessen Namen aus dem Feld Business Leader entfernen.</li> 
-         <li>Wenn Sie den Namen aus dem Feld "Business Leader"entfernen, bleibt dieser Benutzer Mitglied der Gruppe, es sei denn, Sie entfernen ihn daraus. Anweisungen zum Entfernen einer Person aus einer Gruppe finden Sie im Abschnitt <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Gruppenmitgliedschaften verwalten</a> im Artikel <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Verwalten einer Gruppe</a>.</li> 
-        </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Übersicht über Business Leader</a>.</p> </td> 
+         <li>Wenn Sie den Namen aus dem Feld "Business Leader"entfernen, bleibt dieser Benutzer Mitglied der Gruppe, es sei denn, Sie entfernen ihn daraus. Anweisungen zum Entfernen einer Person aus einer Gruppe finden Sie im Abschnitt <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Verwalten der Gruppenmitgliedschaften</a> im Artikel <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Verwalten einer Gruppe</a>.</li> 
+        </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Übersicht über den Business Leader</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gruppenmitglieder und Gruppenadministratoren</td> 
@@ -190,4 +190,4 @@ So erstellen Sie eine neue Gruppe der obersten Ebene durch Kopieren einer Gruppe
    >* Wenn die ursprüngliche Gruppe Untergruppen enthält, werden die Untergruppen der neuen Gruppe hinzugefügt und ihre Namen lauten standardmäßig &quot;Der ursprüngliche Untergruppenname (Kopie)&quot;.
    >* Sie können alle Benutzer oder Untergruppen aus der ursprünglichen Gruppe entfernen, indem Sie auf das X rechts neben dem Namen des Benutzers oder der Untergruppe klicken.
 
-1. Klicks **Gruppe erstellen**.
+1. Klicken Sie auf **Gruppe erstellen**.

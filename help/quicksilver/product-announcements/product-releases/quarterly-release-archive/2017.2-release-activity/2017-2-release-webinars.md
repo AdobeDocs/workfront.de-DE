@@ -20,12 +20,12 @@ Diese Webinare konzentrierten sich auf die Funktionen der Version 2017.2. 
 
 Die Version 2017.2 steht derzeit zum Testen in der Vorschau zur Verfügung. Die Version 2017.2 wird Ende Juli oder Anfang August 2017 in der Produktionsumgebung auf verfügbar sein.
 
-Weitere Informationen zu den in den Webinaren behandelten Funktionen finden Sie in der [Übersicht über die Versionsaktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) Seite.
+Weitere Informationen zu den in den Webinaren behandelten Funktionen finden Sie auf der Seite [Übersicht über die Veröffentlichungsaktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) .
 
 Die folgenden Webinaraufnahmen sind verfügbar:
 
-* [Webinar zur Version 27.2 (27. Juni 2017)](#2017-2-release-webinar-june-27-2017)
-* [24. Mai 2017.2 Beta 1 und 2 (24. Mai 2017)](#2017-2-beta-1-and-2-may-24-2017)
+* [Veröffentlichungs-Webinar 2017.2 (27. Juni 2017)](#2017-2-release-webinar-june-27-2017)
+* [2017.2 Beta 1 und 2 (24. Mai 2017)](#2017-2-beta-1-and-2-may-24-2017)
 
 ## Webinar zur Version 27.2 (27. Juni 2017) {#2017-2-release-webinar-june-27-2017}
 
@@ -37,8 +37,8 @@ Das Webinar ist aus praktischen Gründen in folgende Themen unterteilt:
 * [Ressourcenverwaltung](#resource-management)
 * [Proofing](#proofing)
 * [Weitere Verbesserungen](#other-enhancements)
-* [Mobilnummer](#mobile)
-* [Funktion wird entfernt](#functionality-being-removed)
+* [Mobil](#mobile)
+* [Entfernte Funktionalität](#functionality-being-removed)
 * [Administratoren und Entwickler](#administrators-and-developers)
 
 ### Einführung {#introduction}
@@ -100,6 +100,6 @@ Dieser Teil des Webinars enthält folgende Themen:
 * API-Änderungen
 * API-Version 7 (und andere Änderungen)
 
-## 24. Mai 2017.2 Beta 1 und 2 (24. Mai 2017) {#2017-2-beta-1-and-2-may-24-2017}
+## 2017.2 Beta 1 und 2 (24. Mai 2017) {#2017-2-beta-1-and-2-may-24-2017}
 
-Das Veröffentlichungs-Webinar wurde am 24. Mai 2017 vorgestellt. In diesem Webinar wurden Funktionen behandelt, die in den Versionen Beta 1 und Beta 2 2017.2 zur Verfügung gestellt wurden.
+Das Veröffentlichungs-Webinar wurde am 24. Mai 2017 vorgestellt. In diesem Webinar wurden Funktionen behandelt, die in den Versionen 2017.2 von Beta 1 und Beta 2 verfügbar gemacht wurden.

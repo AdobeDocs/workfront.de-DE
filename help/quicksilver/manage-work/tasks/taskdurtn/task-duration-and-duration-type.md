@@ -35,19 +35,19 @@ Im Folgenden finden Sie zwei Szenarien, in denen die Dauer in Adobe Workfront be
 
    1. Workfront berücksichtigt den Benutzerzeitplan.
    1. Wenn der Benutzer keinem Zeitplan zugeordnet ist, berücksichtigt Workfront den Zeitplan des Projekts.
-   1. Wenn das Projekt nicht mit einem Zeitplan verknüpft ist, berücksichtigt Workfront den Standardzeitplan Ihres Systems. Weitere Informationen zu Zeitplänen finden Sie unter [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   1. Wenn das Projekt nicht mit einem Zeitplan verknüpft ist, berücksichtigt Workfront den Standardzeitplan Ihres Systems. Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Wenn die Aufgabe mehreren Benutzern zugewiesen ist:
 
    1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des Hauptverantwortlichen.
 
-  Ihr Workfront-Administrator legt fest, welcher Zeitplan von Workfront verwendet wird, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Ihr Workfront-Administrator legt fest, welcher Zeitplan von Workfront verwendet wird, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   Die Schritte ähneln dem ersten Szenario, nachdem Sie ermittelt haben, welcher Zeitplan von Workfront zur Berechnung der Dauer verwendet wird.
 
 >[!NOTE]
 >
->Unter Berücksichtigung der Projektzeit des Primären Verantwortlichen können sich die geplanten Aufgabendaten anpassen, die Aufgabendauer bleibt jedoch gleich. Informationen zur Berücksichtigung der Zeitdauer des Primären Verantwortlichen bei der Projektplanung finden Sie unter  [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+>Unter Berücksichtigung der Projektzeit des Primären Verantwortlichen können sich die geplanten Aufgabendaten anpassen, die Aufgabendauer bleibt jedoch gleich. Weitere Informationen zur Berücksichtigung der Zeitdauer des Primären Verantwortlichen bei der Projektplanung finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Zeiteinheiten für Aufgabendauer
 
@@ -108,18 +108,18 @@ Der Typ der Dauer hilft bei der Beantwortung der folgenden Fragen:
   <tr> 
    <th scope="row"><p><strong>Dauertyp</strong></p></th> 
    <th scope="col"> <p><strong>Funktion</strong> </p> </th> 
-   <th scope="col"> <p><strong>Auswirkungen von Ressourcen</strong> </p> </th> 
+   <th scope="col"> <p><strong>Wie sich Ressourcen darauf auswirken</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <th scope="col"> <p><strong>Berechnete Zuweisung</strong> </p> </th> 
-   <td scope="col"> <p>Berechnet den Zuordnungsprozentsatz für jeden Verantwortlichen einer Aufgabe. </p> <p>Wenn Sie diesen Dauerhaltungstyp auswählen, können Sie für die Aufgabe die jeweilige Dauer und die geplanten Stunden eingeben. Workfront teilt die geplanten Stunden durch die Anzahl der Stunden innerhalb der Aufgabendauer und anschließend durch die Anzahl der Ressourcen, die der Aufgabe zur Berechnung der Zuweisung für jeden Verantwortlichen zugewiesen sind.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">Übersicht über den Dauer-Typ: Berechnete Zuweisung</a>.</p> </td> 
+   <td scope="col"> <p>Berechnet den Zuordnungsprozentsatz für jeden Verantwortlichen einer Aufgabe. </p> <p>Wenn Sie diesen Dauerhaltungstyp auswählen, können Sie für die Aufgabe die jeweilige Dauer und die geplanten Stunden eingeben. Workfront teilt die geplanten Stunden durch die Anzahl der Stunden innerhalb der Aufgabendauer und anschließend durch die Anzahl der Ressourcen, die der Aufgabe zur Berechnung der Zuweisung für jeden Verantwortlichen zugewiesen sind.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">Übersicht über den Durationstyp: Berechnete Zuweisung</a>.</p> </td> 
    <td scope="col">Die Dauer und die geplanten Stunden ändern sich nicht, wenn der Aufgabe Bevollmächtigte hinzugefügt oder entfernt werden. </td> 
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>Berechnete Arbeit</strong> </p> </th> 
-   <td scope="col"> <p>Bestimmt die geplanten Stunden (Aufwandsmenge), die zum Abschluss der Aufgabe erforderlich sind.</p> <p>Wird normalerweise verwendet, wenn die der Aufgabe zugewiesenen Ressourcen für die gesamte Dauer der Aufgabe zugewiesen werden.</p> <p>Wenn Sie diesen Dauerhaltungstyp auswählen, können Sie für die Aufgabe eine individuelle Dauer eingeben. Workfront berechnet die geplanten Stunden für die Aufgabe, indem es die Anzahl der Tage in der Dauer mit der Anzahl der Arbeitsstunden im Zeitplan und der Anzahl der Verantwortlichen für die Aufgabe multipliziert. </p> <p>Sie können den Zuordnungsprozentwert jedes Bevollmächtigten manuell in die Aufgabe ändern, wodurch sich die Anzahl der geplanten Stunden verkürzt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">Übersicht über den Dauer-Typ: Berechnete Arbeit</a>.</p> </td> 
+   <td scope="col"> <p>Bestimmt die geplanten Stunden (Aufwandsmenge), die zum Abschluss der Aufgabe erforderlich sind.</p> <p>Wird normalerweise verwendet, wenn die der Aufgabe zugewiesenen Ressourcen für die gesamte Dauer der Aufgabe zugewiesen werden.</p> <p>Wenn Sie diesen Dauerhaltungstyp auswählen, können Sie für die Aufgabe eine individuelle Dauer eingeben. Workfront berechnet die geplanten Stunden für die Aufgabe, indem es die Anzahl der Tage in der Dauer mit der Anzahl der Arbeitsstunden im Zeitplan und der Anzahl der Verantwortlichen für die Aufgabe multipliziert. </p> <p>Sie können den Zuordnungsprozentwert jedes Bevollmächtigten manuell in die Aufgabe ändern, wodurch sich die Anzahl der geplanten Stunden verkürzt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">Übersicht über den Durationstyp: Berechnete Arbeit</a>.</p> </td> 
    <td scope="col"> <p>Geplante Stunden erhöhen sich, wenn der Aufgabe die Zuweisung hinzugefügt wird. </p> <p>Die geplanten Stunden werden reduziert, wenn die Zuweisung aus der Aufgabe entfernt wird.</p> </td> 
   </tr> 
   <tr> 
@@ -129,7 +129,7 @@ Der Typ der Dauer hilft bei der Beantwortung der folgenden Fragen:
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>Einfach</strong> </p> </th> 
-   <td scope="col"> <p>Bestimmt die geplanten Stunden und die Dauer (die für diesen Durationstyp gleich sind) anhand der Anzahl der Stunden, für die jeder Verantwortliche zugewiesen wird. </p> <p>Workfront berechnet die geplanten Stunden, indem es die geplanten zugewiesenen Stunden für jeden Bevollmächtigten addiert. </p> <p>Sie haben die Möglichkeit, die Anzahl der Stunden, die jedem Bevollmächtigten zugewiesen werden, manuell zu ändern und die Anzahl der geplanten Stunden und die Menge der Dauer entsprechend zu ändern. Wenn Sie eine Gesamtzahl der zugewiesenen Stunden für alle Bevollmächtigten wählen, wird diese Zahl gleichmäßig zwischen jedem Bevollmächtigten aufgeteilt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Übersicht über den Dauer-Typ: Einfach</a>.</p> </td> 
+   <td scope="col"> <p>Bestimmt die geplanten Stunden und die Dauer (die für diesen Durationstyp gleich sind) anhand der Anzahl der Stunden, für die jeder Verantwortliche zugewiesen wird. </p> <p>Workfront berechnet die geplanten Stunden, indem es die geplanten zugewiesenen Stunden für jeden Bevollmächtigten addiert. </p> <p>Sie haben die Möglichkeit, die Anzahl der Stunden, die jedem Bevollmächtigten zugewiesen werden, manuell zu ändern und die Anzahl der geplanten Stunden und die Menge der Dauer entsprechend zu ändern. Wenn Sie eine Gesamtzahl der zugewiesenen Stunden für alle Bevollmächtigten wählen, wird diese Zahl gleichmäßig zwischen jedem Bevollmächtigten aufgeteilt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Übersicht über den Durationstyp: Einfach</a>.</p> </td> 
    <td scope="col"> <p>Die Stunden werden gleichmäßig auf die Bevollmächtigten verteilt, wenn Sie eine Gesamtzahl der zugewiesenen Stunden auswählen. Als Projektmanager können Sie jedoch die Stunden für jeden Verantwortlichen manuell anpassen. </p> <p>Sie können entweder die geplante Stunde und Dauer einer Aufgabe mit dem einfachen Typ Dauer inline oder auf Aufgabenebene bearbeiten. </p> <p>Wenn ein agiles Team einer Aufgabe zugewiesen ist, wird der Typ der Dauer automatisch auf Einfach gesetzt und kann nicht geändert werden. Die Aufgabendauer eines agilen Teams muss größer als 0 Minuten sein.</p> </td> 
   </tr> 
  </tbody> 
@@ -137,8 +137,8 @@ Der Typ der Dauer hilft bei der Beantwortung der folgenden Fragen:
 
 ## Der Typ der neuen Aufgaben mit Dauer
 
-Der Dauer-Typ einer neuen Aufgabe entspricht dem in Ihrem System eingerichteten Dauer-Typ. Der Standardtyp für die Dauer ist &quot;Berechnete Zuweisung&quot;. Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standardtyp für die Dauer des Projekts für Ihr System oder die mit dem Projekt verknüpfte Gruppe aktualisieren. Weitere Informationen finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Der Dauer-Typ einer neuen Aufgabe entspricht dem in Ihrem System eingerichteten Dauer-Typ. Der Standardtyp für die Dauer ist &quot;Berechnete Zuweisung&quot;. Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standardtyp für die Dauer des Projekts für Ihr System oder die mit dem Projekt verknüpfte Gruppe aktualisieren. Weitere Informationen finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Ändern der Dauer einer Aufgabe
 
-Informationen zum Ändern der Dauer einer Aufgabe finden Sie unter [Aktualisierung des Zeitdauer-Typs einer Aufgabe](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Weitere Informationen zum Ändern des Dauer-Typs einer Aufgabe finden Sie unter [Aktualisieren des Dauer-Typs einer Aufgabe](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).

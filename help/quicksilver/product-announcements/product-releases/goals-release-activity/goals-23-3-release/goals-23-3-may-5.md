@@ -6,10 +6,10 @@ title: Adobe Workfront Goals-Version 23.3 - Aktivität Woche vom 1. Mai 2023
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 23.3 für Adobe Workfront-Ziele in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 1. Mai 2023 in der Produktionsumgebung verfügbar sein.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+exl-id: 1e85b9d2-f9a5-4cdd-b805-78ab35230817
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ Verbesserungen am Abschnitt &quot;Aktualisierungen&quot;der Ziele werden innerha
 
 Die für Ziele bereitgestellten Kommentierungsverbesserungen entsprechen denen, die mit dem neuen Kommentar-Beta-Erlebnis für andere Workfront-Objekte veröffentlicht wurden.
 
-Weitere Informationen finden Sie unter [Neue Kommentarerlebnis-Release-Aktivität](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Weitere Informationen finden Sie unter [Neue Kommentarerlebnis-Veröffentlichungsaktivität](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).

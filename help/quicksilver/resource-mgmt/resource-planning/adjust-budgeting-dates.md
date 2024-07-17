@@ -39,11 +39,11 @@ Sie müssen über Folgendes verfügen:
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf das Ressourcen-Management, das Zugriff auf die Option "Prioritäten bearbeiten"und die Budgetzeiten im Ressourcenplaner enthält.</p> <p>Zugriff auf Finanzdaten, Projekte und Benutzer bearbeiten</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für die Projekte, für die Informationen zum Budget bereitgestellt werden sollen, mit der Möglichkeit, die Finanzen zu verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für die Projekte, für die Informationen zum Budget bereitgestellt werden sollen, mit der Möglichkeit, die Finanzen zu verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,14 +52,14 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Budgetierungsdaten anpassen
 
-1. Navigieren Sie zum Ressourcenplaner und wählen Sie **Anzeigen nach Projekt**.
+1. Wechseln Sie zum Ressourcenplaner und wählen Sie **Nach Projekt anzeigen** aus.
 
    >[!NOTE]
    >
    >Sie können die Option Geplante Datumswerte anpassen nur verwenden, wenn Sie den Ressourcenplaner nach Projekt anzeigen.
 
-1. Bewegen Sie den Mauszeiger über den Namen eines Projekts und klicken Sie auf die Schaltfläche **Mehr** Menü.
-1. Klicken **Anpassen der Budgetierungsdaten**.\
+1. Bewegen Sie den Mauszeiger über den Namen eines Projekts und klicken Sie dann auf das Menü **Mehr** .
+1. Klicken Sie auf **Budgetierungsdaten anpassen**.\
    Die Zeitleiste für die Projektzuordnung wird angezeigt.\
    Der Zeitrahmen, in dem die Stunden derzeit in den Haushaltsplan eingesetzt werden, wird bei einem Haushaltskonflikt orange und bei keinem Konflikt blau hervorgehoben.
 
@@ -70,7 +70,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 1. Entfernen Sie die geplanten Stunden aus der vorhandenen Timeline des Projekts und fügen Sie sie der Timeline hinzu, die die beste Verfügbarkeit anzeigt.
 1. Klicken Sie auf **Speichern**.
 1. (Bedingt und optional) Wenn sich die Zeitrahmen ohne Budgetkonflikte außerhalb der Zeitleiste des Projekts befinden, klicken Sie auf den Namen des Projekts, um auf das Projekt zuzugreifen.
-1. (Bedingt und optional) Klicken Sie auf **Projekt bearbeiten**, bearbeiten Sie dann die **Geplantes Startdatum** oder **Geplantes Abschlussdatum** , um die Zeitleiste des Projekts für den Zeitrahmen ohne Budgetkonflikte zu ändern.\
+1. (Bedingt und optional) Klicken Sie auf **Projekt bearbeiten** und bearbeiten Sie dann das geplante Startdatum **3} oder das geplante Abschlussdatum** 5}, um die Timeline des Projekts für den Zeitraum ohne Budgetkonflikte zu ändern.****\
    Weitere Informationen zum Bearbeiten von Projekten finden Sie im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. (Bedingt und optional) Klicken Sie auf **Änderungen speichern**.

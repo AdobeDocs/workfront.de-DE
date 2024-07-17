@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: caa0e7b1-37c3-4973-92ce-cc93df4e4186
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Sie können Projektvorlagen verwenden, um die meisten wiederholbaren Prozesse, Informationen und Einstellungen zu erfassen, die mit den Projekten in Ihrer Organisation verbunden sind. Während Projekte bestimmte Start- und Enddatumswerte aufweisen, enthalten Vorlagen allgemeine Start- und Fertigstellungstage, die anhand des Gesamtzeitplans des Projekts zeigen, wohin diese Daten in das Projekt fallen.
 
-**Beispiel:** Wenn das Startdatum eines Projekts der 1. April ist und Sie möchten, dass eine Aufgabe am 3. April (zwei Tage nach Projektbeginn) beginnt, sollte die entsprechende Aufgabe auf der Vorlage, die das Projekt erstellt, an Tag 2 der Vorlage beginnen, wobei der erste Tag der Vorlage als Tag 0 gilt.
+**Beispiel:** Wenn das Startdatum eines Projekts der 1. April ist und Sie möchten, dass eine Aufgabe am 3. April (zwei Tage nach dem Projektstart) beginnt, sollte die entsprechende Aufgabe in der Vorlage, die das Projekt erstellt, an Tag 2 der Vorlage beginnen, wobei der erste Tag der Vorlage als Tag 0 gilt.
 
 ## Starttag
 
@@ -31,9 +31,9 @@ Im Folgenden finden Sie einige Aktionen, die den Starttag der Vorlagenaufgaben �
 * Aktualisieren der Dauer der Vorlagenaufgaben
 * Aktualisieren der Aufgabenbegrenzungen
 
-   Bei Verwendung datumsbasierter Aufgabenbegrenzungen können Sie den Starttag der Vorlagenaufgaben manuell aktualisieren. Beispiele für datumsbasierte Aufgabenbeschränkungen sind &quot;Feste Datumswerte&quot;, &quot;Anfang nicht früher als&quot;, &quot;Anfang nicht später als&quot;, &quot;Muss beginnen&quot;.
+  Bei Verwendung datumsbasierter Aufgabenbegrenzungen können Sie den Starttag der Vorlagenaufgaben manuell aktualisieren. Beispiele für datumsbasierte Aufgabenbeschränkungen sind &quot;Feste Datumswerte&quot;, &quot;Anfang nicht früher als&quot;, &quot;Anfang nicht später als&quot;, &quot;Muss beginnen&quot;.
 
-* Vorlagenaufgaben aktualisieren
+* Aktualisieren der Vorlagenaufgaben-Vorgänger
 
 ## Tag der Fertigstellung
 
@@ -44,9 +44,9 @@ Im Folgenden finden Sie einige Aktionen, die den Fertigstellungstag der Vorlagen
 * Aktualisieren der Dauer der Vorlagenaufgaben
 * Aktualisieren der Aufgabenbegrenzungen
 
-   Bei Verwendung datumsbasierter Aufgabenbegrenzungen können Sie den Abschlusstag der Vorlagenaufgaben manuell aktualisieren. Beispiele für datumsbasierte Aufgabenbeschränkungen sind &quot;Feste Datumswerte&quot;, &quot;Fertig stellen nicht früher als&quot;, &quot;Später beenden nicht&quot;und &quot;Fertig stellen am&quot;.
+  Bei Verwendung datumsbasierter Aufgabenbegrenzungen können Sie den Abschlusstag der Vorlagenaufgaben manuell aktualisieren. Beispiele für datumsbasierte Aufgabenbeschränkungen sind &quot;Feste Datumswerte&quot;, &quot;Fertig stellen nicht früher als&quot;, &quot;Später beenden nicht&quot;und &quot;Fertig stellen am&quot;.
 
-* Vorlagenaufgaben aktualisieren
+* Aktualisieren der Vorlagenaufgaben-Vorgänger
 
 ## Arbeiten mit Vorlagen, die nach Abschluss geplant sind
 
@@ -54,8 +54,8 @@ Sie können eine Vorlage ab Fertigstellungstag planen. Weitere Informationen fin
 
 Beachten Sie Folgendes bei der Arbeit mit Vorlagen, die ab dem Abschlussdatum geplant sind:
 
-* Durch Ändern des Startdatums wird die Aufgabenbegrenzung auf &quot;Muss beginnen am&quot;gesetzt.
+* Wenn Sie den Starttag ändern, wird die Aufgabenbegrenzung auf &quot;Muss beginnen am&quot;gesetzt.
 * Durch Ändern des Abschlussdatums wird die Aufgabenbegrenzung auf &quot;Must Finish On&quot;gesetzt.
 * Wenn die Vorlage ab dem Abschlussdatum geplant ist, wird der Tag der Aufgabenbegrenzung ab dem Abschlussdatum berechnet.
 
-   **Beispiel:** Die Dauer Ihrer Vorlage beträgt 285 Tage, und Sie haben eine Vorlagenaufgabe mit einer Dauer von 60 Tagen. Wenn Sie die Aufgabenbegrenzung auf &quot;Must Start On and Constraint Day&quot;auf &quot;120&quot;setzen, wird der Starttag 165 (285 - 120) und der Abschlusstag 225 (165 + 60) sein. Wenn Sie also den Starttag bearbeiten, wird er tatsächlich als Beschränkungstag interpretiert.
+  **Beispiel:** Die Dauer Ihrer Vorlage beträgt 285 Tage, und Sie haben eine Vorlagenaufgabe mit einer Dauer von 60 Tagen. Wenn Sie die Aufgabenbegrenzung auf &quot;Must Start On and Constraint Day&quot;auf &quot;120&quot;setzen, wird der Starttag 165 (285 - 120) und der Abschlusstag 225 (165 + 60) sein. Wenn Sie also den Starttag bearbeiten, wird er tatsächlich als Beschränkungstag interpretiert.

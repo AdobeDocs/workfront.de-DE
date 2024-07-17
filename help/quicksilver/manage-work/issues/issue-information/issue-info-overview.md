@@ -24,7 +24,7 @@ Im Gegensatz zu Aufgaben können Probleme nicht dazu führen, dass der prozentua
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Problemdauer - Übersicht](../../../manage-work/issues/issue-information/issue-duration.md)
-* [Priorität von Problemen aktualisieren](../../../manage-work/issues/issue-information/update-issue-priority.md)
+* [Aktualisierungsfehlerpriorität ](../../../manage-work/issues/issue-information/update-issue-priority.md)
 * [Schweregrad des Problems aktualisieren](../../../manage-work/issues/issue-information/update-issue-severity.md)
-* [Überblick über das geplante Abschlussdatum](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
+* [Überblick über das geplante Abschlussdatum des Problems](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 * [Verwenden Sie &quot;opTask&quot;und &quot;issue&quot;, wenn Sie auf Probleme verweisen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)

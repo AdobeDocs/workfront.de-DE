@@ -9,7 +9,7 @@ role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ Dieser Fehler tritt auf, wenn Sie versuchen, über die API ein benutzerdefiniert
 
 Fügen Sie das richtige benutzerdefinierte Formular zum Thema Warteschlange hinzu.
 
-Weitere Informationen zu Warteschlangenthemen finden Sie unter [Erstellen von Warteschlangenthemen](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Weitere Informationen zu Warteschlangenthemen finden Sie unter [Themen für Warteschlangen erstellen](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

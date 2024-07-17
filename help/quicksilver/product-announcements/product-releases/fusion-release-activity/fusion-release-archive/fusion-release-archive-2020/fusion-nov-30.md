@@ -24,7 +24,7 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfr
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 ## Preislimit für Workfront Fusion 2.0-Webhooks.
 
@@ -32,7 +32,7 @@ Wir haben eine neue Leistungsgarantie für Workfront Fusion 2.0 eingeführt. Jet
 
 Zuvor waren Webhook-Anfragen nicht beschränkt.
 
-Weitere Informationen finden Sie unter [Limits bei der Leistung von Adobe Workfront Fusion](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
+Weitere Informationen finden Sie unter [Limits für die Leistung von Adobe Workfront Fusion](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
 
 ## Hinzufügen eines benutzerdefinierten Formulars zu einem Workfront-Objekt in Workfront Fusion 2.0
 

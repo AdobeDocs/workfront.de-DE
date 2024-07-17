@@ -19,8 +19,8 @@ ht-degree: 4%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über die Agile-Burndown-Liste](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
-* [Übersicht über den Iteration-Abschlussstatus](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
-* [Größe der Aufschlüsselungsgrafik ändern und reduzieren](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
-* [Daten in der Startgrafik synchronisieren](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
+* [Agile Burndown-Diagramm - Übersicht](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
+* [Übersicht über den Iterationsabschluss-Status](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
+* [Größe der Burndown-Grafik ändern und reduzieren](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
+* [Daten im Startdiagramm synchronisieren](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
 * [Verwenden eines alternativen Teamzeitplans für Startdiagramme](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

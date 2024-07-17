@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: e66142fa-3b0d-4821-9aa5-040c62f00d62
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -18,24 +18,24 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Wenn Sie über einen Enterprise-Plan verfügen, können Sie mithilfe der Dropzone neue Testsendungen und neue Versionen von Testsendungen an Ihr Konto senden, ohne sich bei Ihrem Konto anmelden zu müssen.
 
-Wenn Sie einen Testversand über die Dropzone durchführen, wird er auf der Dropzone-Seite in Ihrer [!DNL Workfront Proof] -Konto. Von dort aus können Sie ihn in Ihren Workflow weiterleiten.
+Wenn Sie einen Testversand über die Dropzone durchführen, wird dieser in Ihrem [!DNL Workfront Proof] -Konto auf der Dropzone-Seite angezeigt. Von dort aus können Sie ihn in Ihren Workflow weiterleiten.
 
 ## Senden eines neuen Testversands über die Dropzone-URL
 
-1. Rufen Sie in Ihrem Browser die eindeutige Dropzone-URL auf, wie beschrieben in [Konfigurieren Sie die Dropzone in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
+1. Wechseln Sie in Ihrem Browser zur eindeutigen Dropzone-URL, wie unter [Konfigurieren der Dropzone in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) beschrieben.
 1. Geben Sie Ihre E-Mail-Adresse ein.
-1. Klicken **[!UICONTROL Datei auswählen]** oder **[!UICONTROL Erfassen einer Webseite]** und wählen Sie die Datei oder Webseite aus, die Sie hochladen möchten.
+1. Klicken Sie auf &quot;**[!UICONTROL Select a file]**&quot;oder &quot;**[!UICONTROL Capture a web page]**&quot;und wählen Sie die Datei oder Webseite aus, die Sie hochladen möchten.
 
-1. Geben Sie den Sicherheitscode ein und klicken Sie auf **[!UICONTROL Nächste]**.\
+1. Geben Sie den Sicherheitscode ein und klicken Sie dann auf **[!UICONTROL Weiter]**.\
    Eine Statusleiste zeigt den Fortschritt des Uploads an.\
    Im nächsten Bildschirm können Sie Details zum Testversand hinzufügen.\
    Beachten Sie, dass dieser Abschnitt nur angezeigt wird, wenn er in den Dropzone-Einstellungen aktiviert wurde.
 
-1. Nachdem Sie die Details ausgefüllt haben, klicken Sie auf **[!UICONTROL Nächste]**.
+1. Nachdem Sie die Details ausgefüllt haben, klicken Sie auf **[!UICONTROL Weiter]**.
 1. Validierungsverantwortliche, die zum Testversand hinzugefügt wurden, erhalten ihre Benachrichtigungs-E-Mail erst nach Aktivierung des Testversands (siehe unten).
 1. Ihr Testversand durchläuft die folgenden Status, nachdem Sie ihn an die Dropzone gesendet haben:
 
@@ -46,15 +46,15 @@ Wenn Sie einen Testversand über die Dropzone durchführen, wird er auf der Drop
 
 ## Senden einer neuen Version eines vorhandenen Testversands über die Dropzone-URL
 
-1. Rufen Sie in Ihrem Browser die eindeutige Dropzone-URL auf, wie beschrieben in [Konfigurieren Sie die Dropzone in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
+1. Wechseln Sie in Ihrem Browser zur eindeutigen Dropzone-URL, wie unter [Konfigurieren der Dropzone in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) beschrieben.
 1. Geben Sie Ihre E-Mail-Adresse ein.
 1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie eine neue Version eines vorhandenen Testversands hochladen.\
    Informationen zum Erstellen einer neuen Testversand-Version finden Sie unter .
-1. Klicken **[!UICONTROL Datei auswählen]** oder **[!UICONTROL Erfassen einer Webseite]** und wählen Sie die Datei oder Webseite aus, die Sie hochladen möchten.
+1. Klicken Sie auf &quot;**[!UICONTROL Select a file]**&quot;oder &quot;**[!UICONTROL Capture a web page]**&quot;und wählen Sie die Datei oder Webseite aus, die Sie hochladen möchten.
 
-1. Geben Sie den Sicherheitscode ein und klicken Sie auf **[!UICONTROL Nächste]**.\
+1. Geben Sie den Sicherheitscode ein und klicken Sie dann auf **[!UICONTROL Weiter]**.\
    Eine Statusleiste zeigt den Fortschritt des Uploads an.\
-   Workfront Testversand sendet Ihnen eine Validierungs-E-Mail.
+   Workfront Proof sendet Ihnen eine Validierungs-E-Mail.
 
 1. Klicken Sie auf den Link in der E-Mail.\
    Die E-Mail öffnet das Dropzone-Fenster in Ihrem Browser. Der Link in der E-Mail-Benachrichtigung ist 24 Stunden lang gültig.
@@ -62,7 +62,7 @@ Wenn Sie einen Testversand über die Dropzone durchführen, wird er auf der Drop
    Im nächsten Bildschirm können Sie Testversanddetails hinzufügen.\
    Dieser Abschnitt wird nur angezeigt, wenn er in den Dropzone-Einstellungen aktiviert wurde.
 
-1. Geben Sie die Details ein, klicken Sie auf **[!UICONTROL Nächste]**.
+1. Geben Sie die Details ein und klicken Sie auf **[!UICONTROL Weiter]**.
 
    >[!NOTE]
    >
@@ -117,9 +117,9 @@ Die Dropzone-Seite erleichtert die Verwaltung der Übermittlungen in Ihrer Dropz
 * Filter (5)
 * Menü für Testaktionen (6)
 * Archivierung des Testversands aufheben (7)
-* Testversandzusammenfassung erweitern/reduzieren (8)
+* Testversand-Zusammenfassung erweitern/reduzieren (8)
 * Testversand auswählen (9)
 
-Die Optionen für Seitenlayout, Sortierung und Filterung sind mit denen im Szenario [!DNL Views] Listen. Siehe [Elemente auf der Seite &quot;Ansichten&quot;verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) für weitere Informationen.
+Die Optionen für Seitenlayout, Sortierung und Filterung sind mit denen in den Listen [!DNL Views] identisch. Weitere Informationen finden Sie unter [Elemente auf der Ansichtsseite verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) .
 
-![new_Dropzone_design_feb_2013_jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)
+![new_droppedZone_design_feb_2013_jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)

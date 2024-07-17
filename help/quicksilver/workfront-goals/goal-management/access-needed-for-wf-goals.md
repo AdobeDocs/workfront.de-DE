@@ -21,15 +21,15 @@ Ihr Adobe Workfront-Administrator muss sicherstellen, dass alle folgenden Beding
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* Ihr Unternehmen muss die richtige Lizenz für Workfront Goals erwerben. Weitere Informationen finden Sie im Abschnitt . [Zugriff der Workfront Goals-Organisation erhalten](#obtain-workfront-goals-organization-access) in diesem Artikel.
+* Ihr Unternehmen muss die richtige Lizenz für Workfront Goals erwerben. Weitere Informationen finden Sie im Abschnitt &quot;[Zugriff auf die Organisation von Workfront Goals erhalten](#obtain-workfront-goals-organization-access)&quot;in diesem Artikel.
 
-* Weisen Sie den richtigen Workfront-Lizenztyp zu. Weitere Informationen zur Zuweisung von Lizenztypen und Zugriffsebenen finden Sie im Abschnitt . [Aktualisierung der Lizenztypen und Einstellungen der Zugriffsebene](#update-license-types-and-access-level-settings) in diesem Artikel.
+* Weisen Sie den richtigen Workfront-Lizenztyp zu. Informationen zum Zuweisen von Lizenztypen und Zugriffsebenen finden Sie im Abschnitt [Aktualisieren von Lizenztypen und Einstellungen auf Zugriffsstufe](#update-license-types-and-access-level-settings) in diesem Artikel.
 
 >[!NOTE]
 >
 >Benutzer mit externem Lizenztyp können nicht auf Workfront-Ziele zugreifen.
 
-* Gewähren Sie Zugriff auf Ziele in Ihrer Zugriffsebene. Weitere Informationen finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* Gewähren Sie Zugriff auf Ziele in Ihrer Zugriffsebene. Weitere Informationen finden Sie unter [ Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
 * Weisen Sie eine Layout-Vorlage zu, die den Bereich Ziele im Hauptmenü enthält.
 
@@ -37,11 +37,11 @@ Ihr Adobe Workfront-Administrator muss sicherstellen, dass alle folgenden Beding
   >
   >Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält.
 
-  Weitere Informationen finden Sie im Abschnitt [Hinzufügen von Workfront-Zielen zu einer Layoutvorlage](#add-workfront-goals-to-a-layout-template) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Workfront-Ziele zu einer Layoutvorlage hinzufügen](#add-workfront-goals-to-a-layout-template) in diesem Artikel.
 
 * Wenn Sie Ziele ändern müssen, die Sie nicht selbst erstellt haben, muss der Zielersteller die Ziele für Sie freigeben und Ihnen Verwaltungsberechtigungen erteilen.
 
-  Weitere Informationen finden Sie im Abschnitt . [Freigeben einzelner Ziele für andere Benutzer](#share-individual-goals-with-other-users) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Freigeben einzelner Ziele für andere Benutzer](#share-individual-goals-with-other-users) in diesem Artikel.
 
 ## Zugriff der Workfront Goals-Organisation erhalten {#obtain-workfront-goals-organization-access}
 
@@ -57,7 +57,7 @@ Je nachdem, welchen Workfront-Plan Ihr Unternehmen derzeit durchführt, gibt es 
 
   Nachdem Ihr Unternehmen die zusätzliche Lizenz erworben hat, aktiviert Workfront Workfront Goals für Ihr Konto. Informationen zum Erwerb einer Lizenz für Workfront Goals erhalten Sie von Ihrem Workfront-Kundenbetreuer.
 
-Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aktualisierung der Lizenztypen und Einstellungen der Zugriffsebene  {#update-license-types-and-access-level-settings}
 
@@ -76,9 +76,9 @@ Je nachdem, welchen Workfront-Plan Ihr Unternehmen derzeit durchführt, gibt es 
    * Überprüfung
    * Anfrage
 
-Nachdem Ihr Workfront-Administrator Ihnen einen dieser Lizenztypen gewährt hat, müssen Sie darüber hinaus auf der Zugriffsebene auf Ziele zugreifen können. Informationen zum Zugriff auf Ziele finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Nachdem Ihr Workfront-Administrator Ihnen einen dieser Lizenztypen gewährt hat, müssen Sie darüber hinaus auf der Zugriffsebene auf Ziele zugreifen können. Informationen zum Zugriff auf Ziele finden Sie unter [Gewähren des Zugriffs auf Adobe Workfront-Ziele](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
-Als Workfront-Administrator können Sie die Anzahl der Workfront Goals-Lizenzen in Ihrem System überprüfen und verstehen, wie viele derzeit aktiviert sind. Weitere Informationen finden Sie unter [Verwalten der verfügbaren Lizenzen in Ihrem System](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Als Workfront-Administrator können Sie die Anzahl der Workfront Goals-Lizenzen in Ihrem System überprüfen und verstehen, wie viele derzeit aktiviert sind. Weitere Informationen finden Sie unter [Verfügbare Lizenzen in Ihrem System verwalten](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 >[!NOTE]
 >
@@ -98,9 +98,9 @@ Ihr Workfront-Administrator oder Gruppenadministrator kann Ihrer Layoutvorlage a
 Informationen zum Aktualisieren der Layout-Vorlage finden Sie in den folgenden Artikeln:
 
 * [Erstellen und Verwalten von Layoutvorlagen](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
-* [Hauptmenü mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-* [Anpassen von fixierten Seiten mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-* [Landingpage mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+* [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+* [Pinned-Seiten mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [Passen Sie die Landingpage mithilfe einer Layoutvorlage an](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
 * [Benutzer einer Layoutvorlage zuweisen](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
 ## Freigeben einzelner Ziele für andere Benutzer {#share-individual-goals-with-other-users}
@@ -109,4 +109,4 @@ Standardmäßig können alle Benutzer, die mindestens Zugriff auf Ziele in ihrer
 
 Jeder Benutzer mit Zugriff auf Ziele bearbeiten kann Ziele erstellen und erhält automatisch Zugriff auf die von ihm erstellten Ziele. Wenn sie die Ziele anderer Benutzer bearbeiten müssen, muss jemand mit der Berechtigung zum Verwalten dieser Ziele die Ziele, die sie nicht erstellt haben, für sie freigeben.
 
-Informationen zum Freigeben von Zielen für Benutzer und zum Gewähren von Verwaltungsberechtigungen finden Sie unter [Freigeben eines Ziels in Workfront-Zielen](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+Weitere Informationen zum Freigeben von Zielen für Benutzer und zum Gewähren von Verwaltungsberechtigungen finden Sie unter [Freigeben eines Ziels in Workfront-Zielen](../../workfront-goals/workfront-goals-settings/share-a-goal.md).

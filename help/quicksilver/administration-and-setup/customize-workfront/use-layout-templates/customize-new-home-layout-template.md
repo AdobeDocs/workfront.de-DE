@@ -35,9 +35,9 @@ Weitere Informationen zum neuen Home finden Sie unter [Erste Schritte mit der ne
 
 Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Gruppenlayoutvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Layoutvorlagen für Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../use-layout-templates/assign-users-to-layout-template.md).
+Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
@@ -58,18 +58,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Neue Startseite mit einer Layoutvorlage anpassen
 
-1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie beschrieben in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
 
-1. Klicken Sie auf den Abwärtspfeil. ![](assets/dropdown-arrow.png) under **Anpassen der Ansicht von Benutzern** Klicken Sie auf **Startseite Workspace**.
+1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow.png) unter **Anpassen, was Benutzer sehen**, und klicken Sie dann auf **Home Workspace**.
 
-1. Klicken Sie in den rechts angezeigten Registerkarten auf **Design und Layout** Widgets und den Hintergrund auszuwählen und anzuordnen oder **Widget-Einstellungen** um Einstellungen für einzelne Widgets zu verwalten, wie z. B. verfügbare Filter und Gruppen.
+1. Klicken Sie auf den Registerkarten rechts entweder auf **Design &amp; Layout** , um Widgets und den Hintergrund auszuwählen und anzuordnen, oder auf **Widget-Einstellungen** , um Einstellungen für einzelne Widgets wie verfügbare Filter und Gruppen zu verwalten.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,8 +79,8 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
       <td role="rowheader">Design und Layout</td> 
       <td>
       <p>Wählen Sie aus, welche Widgets in den Arbeitsbereichen der Benutzer vorhanden sein sollen, geben Sie ihre Position an und wählen Sie einen Hintergrund aus. Beachten Sie, dass Benutzer zwar die ausgewählten Widgets nicht entfernen können, sie sich jedoch frei bewegen und ihre Größe ändern sowie zusätzliche Widgets hinzufügen können.</p>
-      <p>Diese Registerkarte fungiert im Wesentlichen als kleiner neuer Home-Arbeitsbereich. Daher kann sie entsprechend den Schritten angepasst werden, die unter <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der neuen Startseite</a>. Wählen Sie Widgets aus und ordnen Sie den Arbeitsbereich so an, wie er für Benutzer angezeigt werden soll.</p>
-      <p>Gehen Sie wie folgt vor, um den Hintergrund zu ändern <b>Hintergrundanpassung</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Erste Schritte mit der neuen Startseite</a>.</p>
+      <p>Diese Registerkarte fungiert im Wesentlichen als kleiner neuer Home-Arbeitsbereich. Daher kann sie entsprechend den Schritten angepasst werden, die unter <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Widgets im neuen Home</a> hinzufügen, bearbeiten oder entfernen beschrieben werden. Wählen Sie Widgets aus und ordnen Sie den Arbeitsbereich so an, wie er für Benutzer angezeigt werden soll.</p>
+      <p>Um den Hintergrund zu ändern, führen Sie die Schritte unter <b>Hintergrundanpassung</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Erste Schritte mit der neuen Startseite</a> aus.</p>
       <p>
 
 >[!NOTE]
@@ -99,7 +99,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
         <li>Meine Aufgaben</li>
         <li>Meine Probleme</li>
       </ul>
-      <p>Sobald Sie das Widget ausgewählt haben, das Sie bearbeiten möchten, werden die verfügbaren Optionen auf der rechten Seite angezeigt. Zu diesen Optionen gehören <b>Filter</b>, <b>Spalten</b>, und <b>Gruppen</b>. Sie können:</p>
+      <p>Sobald Sie das Widget ausgewählt haben, das Sie bearbeiten möchten, werden die verfügbaren Optionen auf der rechten Seite angezeigt. Zu diesen Optionen gehören <b>Filter</b>, <b>Spalten</b> und <b>Gruppen</b>. Sie können:</p>
       <ul>
       <li><p><b>Wählen Sie Filter, Spalten oder Gruppen aus, die Benutzern zur Verfügung stehen, und ordnen Sie sie an:</b></p>
       <p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt. Ziehen Sie Optionen per Drag-and-Drop in die Liste, um eine Reihenfolge festzulegen.</li></p>
@@ -131,7 +131,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    Oder
 
-   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern** in der unteren linken Ecke.
+   Wenn Sie mit der Anpassung fertig sind, klicken Sie unten links auf **Speichern** .
 
 
 >[!NOTE]

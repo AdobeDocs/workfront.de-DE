@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Filter: Anzeigen von Versandberichten"'
+title: 'Filter: für die Bereitstellung geplante Berichte anzeigen'
 description: Dieser Berichtsfilter zeigt alle Berichte an, deren Bereitstellung in Adobe Workfront geplant ist. Es wird am besten mit der Standardansicht verwendet.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -10,11 +10,11 @@ exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Filter: Anzeige der für die Bereitstellung geplanten Berichte
+# Filter: für die Bereitstellung geplante Berichte anzeigen
 
 Dieser Berichtsfilter zeigt alle Berichte an, deren Bereitstellung in Adobe Workfront geplant ist. Es wird am besten mit der Standardansicht verwendet.
 
@@ -28,11 +28,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Filteränderung anfordern </p>
+   <td> <p>Filteranforderung </p>
    <p>Berichtänderung planen</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,13 +55,13 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 So wenden Sie diesen Filter an:
 
 1. Gehen Sie zu einer Liste von Berichten.
-1. Aus dem **Filter** Dropdown-Menü auswählen **Neuer Filter**.
+1. Wählen Sie aus dem Dropdownmenü **Filter** die Option **Neuer Filter** aus.
 
-1. Klicken **In den Textmodus wechseln**.
-1. Im **Festlegen von Filterregeln für Ihren Bericht** -Bereich, kopieren Sie den folgenden Code und fügen Sie ihn ein:
+1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Kopieren Sie im Bereich **Filterregeln für Ihren Bericht festlegen** den folgenden Code und fügen Sie ihn ein:
 
    ```
    scheduledReportID=0<br>scheduledReportID_Mod=notnull
    ```
 
-1. Klicken **Filter speichern**.
+1. Klicken Sie auf **Filter speichern**.

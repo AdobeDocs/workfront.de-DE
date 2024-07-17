@@ -19,9 +19,9 @@ ht-degree: 0%
 
 In einer Gruppe ist der Business Leader die Person, die für die Gruppe Entscheidungen über Ziele, Strategien, Budget, Einstellungen usw. trifft. In einer Organisation mit einem Chief Marketing Officer wäre diese Person wahrscheinlich der Geschäftsführer für Marketing.
 
-Als Gruppenadministrator können Sie einen Benutzer als Business Leader für eine Gruppe oder Untergruppe zuweisen, die Sie verwalten. Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe). Anweisungen finden Sie unter [Gruppe erstellen](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Als Gruppenadministrator können Sie einen Benutzer als Business Leader für eine Gruppe oder Untergruppe zuweisen, die Sie verwalten. Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe). Anweisungen finden Sie unter [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-Wenn Sie allgemeine Informationen über Gruppen benötigen, lesen Sie [Gruppenübersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Wenn Sie allgemeine Informationen zu Gruppen benötigen, finden Sie weitere Informationen unter [Gruppenübersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Wenn Sie allgemeine Informationen über Gruppen benötigen, lesen Sie [Gruppenü
 >
 -->
 
-## Verwenden des Felds &quot;Business Leader&quot;in der Berichterstellung
+## Verwenden des Felds &quot;Business Leader&quot;in Berichten
 
 Ein Benutzer, der einen Bericht für eine Gruppe erstellt, kann das Feld &quot;Business Leader&quot;in einen Filter, eine Ansicht oder eine Gruppierung aufnehmen.
 

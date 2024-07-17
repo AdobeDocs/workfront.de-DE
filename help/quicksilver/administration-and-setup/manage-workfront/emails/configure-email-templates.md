@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,13 +59,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Email** > **Benachrichtigungen**> **E-Mail-Vorlagen**.
+1. Klicken Sie im linken Bereich auf **E-Mail** > **Benachrichtigungen**> **E-Mail-Vorlagen**.
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
-1. Klicks **Neue E-Mail-Vorlage**.
+1. Klicken Sie auf **Neue E-Mail-Vorlage**.
 
-1. Im **Neue E-Mail-Vorlage** Geben Sie die folgenden Informationen an:
+1. Geben Sie im Feld **Neue E-Mail-Vorlage** die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +97,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Text </td> 
-      <td> <p>Fügen Sie den Text für den Inhalt der E-Mail-Nachricht hinzu.</p> <p>Sie können die HTML-Formatierung für den E-Mail-Inhalt verwenden, wie im Abschnitt beschrieben <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">HTML-Formatierung zu einer E-Mail-Vorlage hinzufügen</a> in diesem Artikel.</p> </td> 
+      <td> <p>Fügen Sie den Text für den Inhalt der E-Mail-Nachricht hinzu.</p> <p>Sie können die HTML-Formatierung für den E-Mail-Inhalt verwenden, wie im Abschnitt <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">HTML-Formatierung zu einer E-Mail-Vorlage hinzufügen</a> in diesem Artikel beschrieben.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## HTML-Formatierung zu einer E-Mail-Vorlage hinzufügen {#add-html-formatting-to-an-email-template}
 
 Sie können E-Mail-Vorlagen HTML-Tags hinzufügen, um benutzerdefinierte Benachrichtigungen zu erstellen.\
-Erstellen Sie die E-Mail-Vorlage wie in [Neue E-Mail-Vorlage erstellen](#create-a-new-email-template).
+Beginnen Sie mit der Erstellung der E-Mail-Vorlage, wie in [Erstellen einer neuen E-Mail-Vorlage](#create-a-new-email-template) beschrieben.
 
 Die HTML-Formatierung kann Ihre E-Mail-Vorlagen anreichern, wie in den folgenden Abschnitten dargestellt.
 
@@ -117,7 +117,7 @@ Die HTML-Formatierung kann Ihre E-Mail-Vorlagen anreichern, wie in den folgenden
 
 ### Verknüpfung zu Workfront-Objekten {#link-to-workfront-objects}
 
-Sie können mithilfe der Variablen `$$` -Platzhalter, um den E-Mail-Generator anzuweisen, nach Werten aus der Datenbank zu suchen, die mit einem bestimmten Objekt verknüpft sind.
+Mithilfe des Platzhalters &quot;`$$`&quot; können Sie Verknüpfungen zu Workfront-Feldern einfügen, um den E-Mail-Generator anzuweisen, nach Werten aus der Datenbank zu suchen, die mit einem bestimmten Objekt verknüpft sind.
 
 Der Hauptteil der E-Mail für eine Benachrichtigung, die den Verantwortlichen der Aufgabe über den Beginn benachrichtigt, kann beispielsweise folgende Struktur aufweisen:
 
@@ -145,13 +145,13 @@ Führen Sie einen der folgenden Schritte aus, um den Platzhalterwert für ein Ob
 
 * Wählen Sie im API Explorer auf der Registerkarte Felder eines beliebigen Objekts die Namen Ihrer Objekte aus. Weitere Informationen zum API Explorer finden Sie unter [API-Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Verwenden Sie die `valuefield` -Wert, den Sie in einer Textmodusansicht eines Berichts finden. Weitere Informationen zu Textmoduswerten finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Verwenden Sie den `valuefield` -Wert, den Sie in einer Textmodusansicht eines Berichts finden. Weitere Informationen zu Textmoduswerten finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Die `heading` -Wert kann der Name des Objekts sein, wie er im E-Mail-Textkörper angezeigt werden soll.
+Der Wert `heading` kann der Name des Objekts sein, wie er im E-Mail-Textkörper angezeigt werden soll.
 
 ### Verknüpfung zu benutzerdefinierten Feldern mit HTML {#link-to-custom-fields-with-html}
 
-Sie können mithilfe der Variablen `$$` -Platzhalter, um den E-Mail-Generator anzuweisen, nach Werten aus der mit dem Objekt verknüpften Datenbank zu suchen. Sie müssen auf beiden Seiten der Datenbankattributreferenz vorhanden sein.
+Mithilfe des Platzhalters &quot;`$$`&quot; können Sie Links zu Benutzern und benutzerdefinierten Feldern hinzufügen, um den E-Mail-Generator anzuweisen, nach Werten aus der mit dem Objekt verknüpften Datenbank zu suchen. Sie müssen auf beiden Seiten der Datenbankattributreferenz vorhanden sein.
 
 Wenn Sie beispielsweise den folgenden Text als HTML hinzufügen, wird der Vorname des zugewiesenen Benutzers zur Erinnerungsbenachrichtigung hinzugefügt, die mit einer Aufgabe verknüpft ist:
 
@@ -163,7 +163,7 @@ Um benutzerdefinierte Felder mit derselben Formatierung hinzuzufügen, können S
 
 Dies ist beispielsweise eine E-Mail-Vorlage, die einen Verweis auf ein benutzerdefiniertes Feld namens Versanddatum enthält und davon ausgeht, dass das Feld Versanddatum zu einer Aufgabe gehört.
 
-Ersetzen `<your domain>` mit der Workfront-Domäne Ihres Unternehmens ohne die Klammern:
+Ersetzen Sie `<your domain>` durch die Workfront-Domäne Ihres Unternehmens ohne die Klammern:
 
 ```html
 <html>
@@ -206,9 +206,9 @@ Ersetzen `<your domain>` mit der Workfront-Domäne Ihres Unternehmens ohne die K
 
 Um eine E-Mail-Vorlage für eine verspätete Projekterinnerung zu bearbeiten, beachten Sie diese Informationen für die Felder Betreff und Inhalt .
 
-Ersetzen `<your domain>` mit der Workfront-Domäne Ihres Unternehmens, ohne die Klammern.
+Ersetzen Sie `<your domain>` durch die Workfront-Domäne Ihres Unternehmens ohne die Klammern.
 
-**Betrifft:**
+**Betreff:**
 
 Ein von Ihnen verwaltetes Projekt ist zu spät
 
@@ -242,11 +242,11 @@ Möglicherweise möchten Sie auch eine Erinnerungsbenachrichtigung für eine bev
 
 Der folgende Code kann in eine E-Mail-Vorlage eingefügt werden, die für Aufgaben- und Problemerinnerungsbenachrichtigungen verwendet werden kann, die eine beliebige Anzahl von Tagen vor dem geplanten Startdatum der Aufgabe oder des Problems gesendet werden.
 
-Ersetzen `<your domain>` mit der Workfront-Domäne Ihres Unternehmens, ohne die Klammern.
+Ersetzen Sie `<your domain>` durch die Workfront-Domäne Ihres Unternehmens ohne die Klammern.
 
-Um dies für eine Problem-E-Mail zu verwenden, ändern Sie die `/task/view.` -Wert in der Verknüpfung zum Arbeitselement `/issue/view`.
+Um dies für eine Problem-E-Mail zu verwenden, ändern Sie den Wert `/task/view.` in der Verknüpfung zum Arbeitselement in `/issue/view`.
 
-**Betrifft:**
+**Betreff:**
 
 `$$name$$ to start on $$plannedStartDate$$`
 
@@ -289,4 +289,4 @@ Um dies für eine Problem-E-Mail zu verwenden, ändern Sie die `/task/view.` -We
 
 ![email_template_delivered.png](assets/email-template-delivered.png)
 
-Nachdem eine E-Mail-Vorlage erstellt wurde, können Benutzer sie mit Erinnerungsbenachrichtigungen verknüpfen, wie unter [Einrichten von Erinnerungsbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Nachdem eine E-Mail-Vorlage erstellt wurde, können Benutzer sie mit Erinnerungsbenachrichtigungen verknüpfen, wie unter [Einrichten von Erinnerungsbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md) beschrieben.

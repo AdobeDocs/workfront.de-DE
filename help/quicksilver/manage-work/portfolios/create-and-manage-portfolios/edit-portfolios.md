@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Sie können Informationen zu Portfolios bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie sie für Sie freigegeben haben.
 
-Sie können eine [!UICONTROL Portfolio] auf der Portfolioseite oder Sie können Portfolios in einer Liste bearbeiten.
+Sie können ein [!UICONTROL Portfolio] auf der Portfolioseite bearbeiten oder Portfolios in einer Liste bearbeiten.
 
 ## Zugriffsanforderungen
 
@@ -32,27 +32,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] Lizenzübersicht*</td> 
+   <td role="rowheader">Übersicht über Adobe [!DNL Workfront] Lizenzen*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsstufe*</td> 
-   <td> <p>[!UICONTROL] Zugriff auf Portfolios bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Informationen zum Zugriff auf Portfolios in Ihrer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref">Zugriff auf Portfolios gewähren</a>. Informationen zur Verwendung von [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
+   <td> <p>[!UICONTROL] Zugriff auf Portfolios bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Portfolios in Ihrer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref">Gewähren des Zugriffs auf Portfolios</a>. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Berechtigungen für ein Portfolio verwalten</p> <p> Informationen zum Gewähren von Berechtigungen für Portfolios finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">Portfolio freigeben </a>. </p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>[!UICONTROL Berechtigungen für ein Portfolio verwalten</p> <p> Informationen zum Gewähren von Berechtigungen für Portfolios finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">Ein Portfolio freigeben </a>. </p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Bearbeiten von Portfolios
 
-1. Navigieren Sie zu **[!UICONTROL Hauptmenü]**.
-1. Klicks **[!UICONTROL Portfolios]** und klicken Sie dann auf den Namen eines Portfolios, um es zu öffnen.
-1. (Optional) Um eingeschränkte Informationen zum Portfolio zu bearbeiten, klicken Sie auf **[!UICONTROL Portfolio-Details]** im linken Bereich.
+1. Wechseln Sie zum **[!UICONTROL Hauptmenü]**.
+1. Klicken Sie auf **[!UICONTROL Portfolio]** und dann auf den Namen eines Portfolios, um es zu öffnen.
+1. (Optional) Um eingeschränkte Informationen zum Portfolio zu bearbeiten, klicken Sie im linken Bereich auf **[!UICONTROL Portfolio-Details]** .
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)
 
@@ -62,15 +62,15 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihre [!DNL Workfront] Administrator oder Gruppenadministrator hat Ihre Layoutvorlage geändert. Die Felder in [!UICONTROL Portfolio-Details] -Bereich neu angeordnet oder nicht angezeigt werden. Weitere Informationen finden Sie unter [Anpassen der [!UICONTROL Details] Ansicht mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Je nachdem, wie Ihr [!DNL Workfront] -Administrator oder Gruppenadministrator Ihre Layoutvorlage geändert hat, werden die Felder im Bereich [!UICONTROL Portfolio-Details] möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Ansicht [!UICONTROL Details] mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   So bearbeiten Sie Informationen in der [!UICONTROL Details] führen Sie folgende Schritte aus:
+   Gehen Sie wie folgt vor, um Informationen im Abschnitt [!UICONTROL Details] zu bearbeiten:
 
-   1. (Optional) Klicken Sie auf die **[!UICONTROL Alle reduzieren]** in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
-   1. (Optional und bedingt) Wenn ein Bereich ausgeblendet wird, klicken Sie auf die Schaltfläche **Rechtspfeil** ![](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
-   1. Informationen zu den Feldern, die in der [!UICONTROL Portfolio-Details] können Sie das Portfolio im Abschnitt [!UICONTROL Portfolio bearbeiten] wie unten beschrieben.
-   1. (Optional) Wenn keine benutzerdefinierten Formulare an das Portfolio angehängt sind, beginnen Sie mit der Eingabe des Namens eines Formulars im **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **[!UICONTROL Änderungen speichern]**.
-   1. (Optional) Klicken Sie auf die **[!UICONTROL Export]** icon ![](assets/export.png) zur Ausfuhr [!UICONTROL Übersicht] und Informationen zu benutzerdefinierten Formularen in eine PDF-Datei und klicken Sie dann auf **[!UICONTROL Export]**. Wählen Sie aus den folgenden Optionen aus:
+   1. (Optional) Klicken Sie oben rechts auf das Symbol **[!UICONTROL Alle reduzieren]** , um alle Bereiche zu reduzieren.
+   1. (Optional und bedingt) Wenn ein Bereich ausgeblendet wird, klicken Sie neben jedem Bereich auf den Pfeil **rechts zeigen** ![](assets/right-pointing-arrow.png) , um den zu bearbeitenden Bereich zu erweitern.
+   1. Informationen zu den im Bereich [!UICONTROL Portfolio-Details] sichtbaren Feldern erhalten Sie, wenn Sie das Portfolio im Feld [!UICONTROL Portfolio bearbeiten] bearbeiten, wie unten beschrieben.
+   1. (Optional) Wenn dem Portfolio keine benutzerdefinierten Formulare angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **[!UICONTROL Änderungen speichern]**.
+   1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Exportieren]** ![](assets/export.png), um die [!UICONTROL Übersicht] und die benutzerdefinierten Formulardaten in eine PDF-Datei zu exportieren, und klicken Sie dann auf **[!UICONTROL Exportieren]**. Wählen Sie aus den folgenden Optionen aus:
 
       * Alle auswählen (wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular angehängt ist)
       * Übersicht
@@ -89,33 +89,33 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
 
-   * Klicken Sie auf **[!UICONTROL Mehr]** Menü neben dem Portfolionamen und **[!UICONTROL Bearbeiten].**
+   * Klicken Sie auf das Menü **[!UICONTROL Mehr]** neben dem Portfolionamen und dann auf **[!UICONTROL Bearbeiten].**
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
-   * Gehen Sie zu einer Liste von Portfolios, wählen Sie ein oder mehrere Portfolios aus, die Sie bearbeiten möchten, und klicken Sie dann auf das **[!UICONTROL Bearbeiten]** icon ![](assets/edit-icon.png) oben in der Liste.
+   * Gehen Sie zu einer Liste von Portfolios und wählen Sie ein oder mehrere Portfolios aus, die Sie bearbeiten möchten, und klicken Sie dann oben in der Liste auf das Symbol **[!UICONTROL Bearbeiten]** ![](assets/edit-icon.png) .
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
-   Die **[!UICONTROL Portfolio bearbeiten]** angezeigt.
+   Das Dialogfeld **[!UICONTROL Portfolio bearbeiten]** wird angezeigt.
 
    ![](assets/edit-portfolio-box-classic-350x224.png)
 
-   Alle Portfoliofelder sind im Abschnitt [!UICONTROL Portfolio bearbeiten] und werden nach den im linken Bereich aufgelisteten Bereichen gruppiert.
+   Alle Portfoliofelder sind im Feld [!UICONTROL Portfolio bearbeiten] verfügbar und werden nach den im linken Bereich aufgelisteten Bereichen gruppiert.
 
 1. Ziehen Sie in Erwägung, Informationen in einem der folgenden Abschnitte anzugeben:
 
-   * [[!UICONTROL Übersicht]](#overview)
+   * [[!UICONTROL Überblick]](#overview)
    * [Benutzerdefinierte Formulare](#Custom%C2%A0F)
    * [Kommentar](#comment)
 
-### [!UICONTROL Übersicht] {#overview}
+### [!UICONTROL Überblick] {#overview}
 
 1. Beginnen Sie mit der Bearbeitung eines Portfolios wie oben beschrieben.
-1. Klicks **[!UICONTROL Übersicht]** und geben Sie die folgenden Felder an:
+1. Klicken Sie auf **[!UICONTROL Überblick]** und geben Sie die folgenden Felder an:
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: note below is drafted: drafted till they release new Edit Portfolio boxes)</p>
@@ -146,11 +146,11 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Portfolio verknüpft ist oder für dessen Abschluss verantwortlich ist. </p> <p>Tipp:  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Portfolio] auf der Seite [!UICONTROL Details] wie folgt vor: </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Symbol [!UICONTROL Information] klicken <img src="assets/info-icon.png"> , das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Diese Option ist nicht im Feld [!UICONTROL Portfolio bearbeiten] verfügbar. </p> </p> </td> 
+      <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Portfolio verknüpft ist oder für dessen Abschluss verantwortlich ist. </p> <p>Tipp:  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Portfolio] auf der Seite [!UICONTROL Details] wie folgt vor: </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das [!UICONTROL Informationssymbol] <img src="assets/info-icon.png"> klicken, das daneben angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Diese Option ist nicht im Feld [!UICONTROL Portfolio bearbeiten] verfügbar. </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
-      <td> <p>Wählen Sie aus der Dropdown-Liste die gewünschte Ausrichtung aus. Mit einer Scorecard wird gemessen, wie gut ein Projekt mit den festgelegten Kriterien eines Portfolios übereinstimmt, die häufig die Aufgaben, Werte und strategischen Ziele einer Organisation widerspiegeln. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Anwenden einer Scorecard auf ein Projekt und Generieren einer Alignment-Bewertung</a> und <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Scorecard erstellen</a>.</p> </td> 
+      <td> <p>Wählen Sie aus der Dropdown-Liste die gewünschte Ausrichtung aus. Mit einer Scorecard wird gemessen, wie gut ein Projekt mit den festgelegten Kriterien eines Portfolios übereinstimmt, die häufig die Aufgaben, Werte und strategischen Ziele einer Organisation widerspiegeln. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Anwenden einer Scorecard auf ein Projekt und Generieren einer Alignment-Punktzahl</a> und <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Erstellen einer Scorecard</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL ist aktiv]</td> 
@@ -159,29 +159,29 @@ Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
     </tbody> 
    </table>
 
-1. Klicks **[!UICONTROL Änderungen speichern]** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
 
 ### Benutzerdefinierte Formulare
 
 1. Beginnen Sie mit der Bearbeitung des Portfolios wie oben beschrieben.
-1. Klicken Sie auf **[!UICONTROL Forms hinzufügen]** Dropdown-Menü, um ein benutzerdefiniertes Formular auszuwählen und es zum Portfolio hinzuzufügen.
+1. Klicken Sie auf das Dropdown-Menü **[!UICONTROL Forms hinzufügen]** , um ein benutzerdefiniertes Formular auszuwählen und es dem Portfolio hinzuzufügen.
 
    Sie müssen benutzerdefinierte Portfolio-Formulare erstellen, bevor sie hinzugefügt werden können.
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihre [!DNL Workfront] -Administrator legen die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular fest, nicht alle können dieselben Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern in einem Abschnitt eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für das Portfolio selbst haben. Informationen zum Festlegen von Berechtigungen für Abschnitte eines benutzerdefinierten Formulars finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   >Je nachdem, wie Ihr [!DNL Workfront] -Administrator die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festlegt, können nicht alle die gleichen Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern in einem Abschnitt eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für das Portfolio selbst haben. Informationen zum Festlegen von Berechtigungen für Abschnitte eines benutzerdefinierten Formulars finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Aktualisieren Sie alle Felder in den benutzerdefinierten Formularen und klicken Sie auf **[!UICONTROL Änderungen speichern]** oder fahren Sie mit dem folgenden Abschnitt fort.
+1. Aktualisieren Sie alle Felder in den benutzerdefinierten Formularen und klicken Sie dann auf **[!UICONTROL Änderungen speichern]** oder fahren Sie mit dem folgenden Abschnitt fort.
 
 ### Kommentar {#comment}
 
 1. Beginnen Sie mit der Bearbeitung eines Portfolios wie oben beschrieben.
-1. Klicks **[!UICONTROL Kommentar]**.
+1. Klicken Sie auf **[!UICONTROL Kommentar]**.
 
    ![](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. Fügen Sie im **[!UICONTROL Posten von Aktualisierungen im Portfolio]** -Feld.
-1. (Optional) Klicken Sie auf die **[!UICONTROL Personen]** -Symbol, um dem Kommentar einen Benutzer oder ein Team hinzuzufügen.
-1. (Optional) Klicken Sie auf die **[!UICONTROL Sperren]** -Symbol, um den Kommentar zu sperren und ihn nur für Benutzer in Ihrem Unternehmen privat zu machen.
+1. Fügen Sie im Feld **[!UICONTROL Post einen Kommentar hinzu und aktualisieren Sie das Portfolio]** -Feld.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Personen]** , um dem Kommentar einen Benutzer oder ein Team hinzuzufügen.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Sperren]** , um den Kommentar zu sperren und ihn nur für Benutzer in Ihrem Unternehmen privat zu machen.
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.

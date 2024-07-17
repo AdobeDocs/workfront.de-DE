@@ -21,7 +21,7 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
-Als Adobe Workfront-Administrator können Sie benutzerdefinierte Status für Projekte, Aufgaben und Probleme erstellen. Diese können für Benutzer im gesamten Workfront-System oder für bestimmte Gruppen oder Untergruppen verwendet werden. Weitere Informationen zu Status finden Sie unter [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Als Adobe Workfront-Administrator können Sie benutzerdefinierte Status für Projekte, Aufgaben und Probleme erstellen. Diese können für Benutzer im gesamten Workfront-System oder für bestimmte Gruppen oder Untergruppen verwendet werden. Weitere Informationen zu Statusangaben finden Sie unter [Statusübersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,13 +64,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können einen benutzerdefinierten Status hinzufügen, der von Ihrer gesamten Organisation oder von einer einzelnen Gruppe verwendet werden kann.
 
-Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstellen, können Sie ihn so konfigurieren, dass alle Gruppen im System ihn verwenden können, ohne ihn zu bearbeiten. Sie können sie auch so konfigurieren, dass Gruppenadministratoren sie für ihre Gruppen ändern können, wie hier beschrieben: [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstellen, können Sie ihn so konfigurieren, dass alle Gruppen im System ihn verwenden können, ohne ihn zu bearbeiten. Sie können sie auch so konfigurieren, dass Gruppenadministratoren sie für ihre Gruppen ändern können, wie unter [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) beschrieben.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **[!UICONTROL Einrichtung]** ![Einrichtungssymbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf das Symbol **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).![
 
-1. Klicken Sie im linken Bereich auf **Projektvoreinstellungen** > **Status**.
+1. Klicken Sie im linken Bereich auf **Projekteinstellungen** > **Status**.
 
-1. (Bedingt) Wenn Sie einen Status für die Verwendung im gesamten System erstellen oder bearbeiten, stellen Sie sicher, dass **Systemstatus** wird in dem Feld oben rechts aktiviert.
+1. (Bedingt) Wenn Sie einen Status für die Verwendung im gesamten System erstellen oder bearbeiten, stellen Sie sicher, dass im Feld oben rechts **Systemstatus** ausgewählt ist.
 
    ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
@@ -80,13 +80,13 @@ Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstelle
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgaben** oder **Probleme**), die Sie mit dem Status verknüpfen möchten.
+1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgaben** oder **Probleme**) aus, den Sie mit dem Status verknüpfen möchten.
 
-1. Klicken Sie beim Erstellen eines neuen Status auf **Neuen Status hinzufügen**.
+1. Wenn Sie einen neuen Status erstellen, klicken Sie auf **Neuen Status hinzufügen**.
 
    Oder
 
-   Wenn Sie einen vorhandenen Status bearbeiten, halten Sie den Mauszeiger darüber und klicken Sie auf die Schaltfläche **Bearbeiten** -Symbol, das ganz rechts angezeigt wird.
+   Wenn Sie einen vorhandenen Status bearbeiten, bewegen Sie den Mauszeiger darüber und klicken Sie dann auf das Symbol **Bearbeiten** , das ganz rechts angezeigt wird.
 
    ![](assets/custom-status-edit.png)
 
@@ -143,6 +143,6 @@ Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstelle
 
 1. Klicken Sie auf **Speichern**.
 
-   Anweisungen dazu, wie Sie diesen Status zu einem Standardstatus machen, finden Sie unter [Verwenden benutzerdefinierter Status als Standardstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   Anweisungen dazu, wie Sie diesen Status zu einem Standardstatus machen, finden Sie unter [Benutzerdefinierte Status als Standardstatus verwenden](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
-Weitere Informationen zum Neuanordnen des Gruppenstatus finden Sie unter [Neuanordnen der Status auf Systemebene und Gruppe](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Weitere Informationen zum Neuanordnen des Gruppenstatus finden Sie unter [Neuanordnen des Status auf Systemebene und Gruppe ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

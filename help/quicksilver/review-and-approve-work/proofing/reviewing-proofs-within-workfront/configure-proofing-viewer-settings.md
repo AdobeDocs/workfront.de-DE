@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -62,12 +62,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Konfigurieren der Einstellungen des Testversand-Viewers
 
@@ -75,32 +75,32 @@ So konfigurieren Sie die Testversand-Viewer-Einstellungen:
 
 1. Öffnen Sie den Web Proofing Viewer oder den Desktop Proofing Viewer auf eine der folgenden Arten:
 
-   * Wenn Sie einen Testversand in Adobe Workfront durchführen, wechseln Sie zu einer Dokumentliste mit einem Testversand, den Sie anzeigen möchten, bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Offener Testversand**.
-   * Wenn Sie Workfront Testversand verwenden, klicken Sie auf das **Gehe zu Testversand** Symbol für den Testversand im Dashboard oder in der Liste &quot;Ansichten&quot; ![](assets/go-to-proof-blue-icon.png).
+   * Wenn Sie einen Testversand in Adobe Workfront durchführen, wechseln Sie zu einer Dokumentliste mit einem Testversand, den Sie anzeigen möchten, bewegen Sie den Mauszeiger über das Dokument und klicken Sie auf **Testversand öffnen**.
+   * Wenn Sie Workfront Proof verwenden, klicken Sie auf das Symbol &quot;**Gehe zu Testversand**&quot;für den Testversand im Dashboard oder in der Liste &quot;Ansichten&quot;![](assets/go-to-proof-blue-icon.png).
 
-1. Wenn die linke Symbolleiste nicht angezeigt wird, klicken Sie auf die Schaltfläche **Menü** Symbol oben links im Viewer für die Web-Proofing.
+1. Wenn die linke Symbolleiste nicht angezeigt wird, klicken Sie auf das Symbol &quot;**Menü**&quot;, das sich in der linken oberen Ecke des Web Proofing Viewers befindet.
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Klicken Sie in der linken Symbolleiste auf die **Einstellungen** icon ![](assets/settings-icon-in-pv.png).
+1. Klicken Sie in der linken Symbolleiste auf das Symbol **Einstellungen** ![](assets/settings-icon-in-pv.png).
 
-1. Konfigurieren Sie eine der folgenden Optionen **Einstellungen** diese Anzeige.
+1. Konfigurieren Sie eine der folgenden **Einstellungen**, die angezeigt werden.
 
    Die verfügbaren Einstellungen variieren je nach Art des geöffneten Testversands.
 
-   * **Markierungen anzeigen** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Dies sind die Kommentarzeichen, die Prüfer Testsendungen hinzufügen, wenn sie die Markup-Tools verwenden. Wenn Sie sie deaktivieren, können Sie sie immer noch sehen, wenn Sie auf einen Kommentar in der Kommentarliste klicken.
+   * **Markups anzeigen** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Dies sind die Kommentarzeichen, die Prüfer bei der Verwendung der Markup-Tools zu Testsendungen hinzufügen. Wenn Sie sie deaktivieren, können Sie sie immer noch sehen, wenn Sie auf einen Kommentar in der Kommentarliste klicken.
 
      Diese Einstellung wirkt sich auf alle geöffneten Testsendungen aus.
 
-   * **Stifte anzeigen** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Dies sind die nummerierten Pins, die Prüfer bei der Verwendung der Markup-Tools zu Testsendungen hinzufügen. Sie geben an, wo und in welcher Reihenfolge der Validierer Kommentare hinzugefügt hat. Wenn Sie sie deaktivieren, können Sie sie immer noch sehen, wenn Sie auf einen Kommentar in der Kommentarliste klicken.
+   * **Pins anzeigen** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Dies sind die nummerierten Pins, die Prüfer bei Verwendung der Markup Tools zu Testsendungen hinzufügen. Sie geben an, wo und in welcher Reihenfolge der Validierer Kommentare hinzugefügt hat. Wenn Sie sie deaktivieren, können Sie sie immer noch sehen, wenn Sie auf einen Kommentar in der Kommentarliste klicken.
 
      Diese Einstellung wirkt sich auf alle geöffneten Testsendungen aus.
 
-   * **Verwenden erweiterter Markup-Tools** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Standardmäßig werden die Optionen des Markup-Tools über dem Testversand-Viewer angezeigt. Sie können sie so konfigurieren, dass sie nur in einem vertikalen Menü angezeigt werden, das nur durch Klicken geöffnet wird.
+   * **Verwenden Sie erweiterte Markup-Tools** (immer verfügbar im Web Proofing Viewer und im Desktop Proofing Viewer): Standardmäßig werden die Markup-Tool-Optionen oben im Testversand-Viewer angezeigt. Sie können sie so konfigurieren, dass sie nur in einem vertikalen Menü angezeigt werden, das nur durch Klicken geöffnet wird.
 
      Diese Einstellung gilt für alle Testsendungen, die Sie öffnen.
 
-   * **E-Mail-Benachrichtigungen senden zu** (immer im Web Proofing Viewer und im Desktop Proofing Viewer verfügbar): Klicken Sie auf eine der folgenden Optionen. Diese Einstellung wirkt sich nur auf den geöffneten Testversand aus. Weitere Informationen finden Sie unter [Benachrichtigungen über Testversandkommentare und Entscheidungen - Überblick](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **Senden Sie mir E-Mail-Benachrichtigungen über** (immer verfügbar im Web Proofing Viewer und im Desktop Proofing Viewer): Klicken Sie auf eine der folgenden Optionen. Diese Einstellung wirkt sich nur auf den geöffneten Testversand aus. Weitere Informationen finden Sie unter [Übersicht über Testversand-Kommentare und -Entscheidungen über Benachrichtigungen](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
      <table style="table-layout:auto"> 
       <col> 
@@ -112,7 +112,7 @@ So konfigurieren Sie die Testversand-Viewer-Einstellungen:
        </tr> 
        <tr> 
         <td role="rowheader">Antworten auf meine Kommentare</td> 
-        <td>Eine E-Mail wird nur dann an den Validierer gesendet, wenn jemand explizit auf seinen Kommentar antwortet (dabei werden eigene Antworten auf eigene Kommentare ausgeschlossen). Das bedeutet, dass der Validierer nicht benachrichtigt wird, wenn jemand, der den Testversand durchführt, einen neuen Kommentar abgibt.<p>Diese Einstellung wird Ihren Kunden empfohlen, den Testversand durchzuführen, damit sie über keine weiteren Kommentare zum Testversand informiert und nur über Antworten auf ihre eigenen Kommentare informiert werden.</p><p>validierungsverantwortliche Benutzer mit dieser E-Mail-Warnungseinstellung werden zwar nicht über andere neue Kommentare benachrichtigt, können aber dennoch alle Kommentare zum Testversand im Testversand-Viewer anzeigen.</p><p>Weitere Informationen zu Kommentaren finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Kommentare zum Testversand anzeigen und beantworten</a>.</p></td> 
+        <td>Eine E-Mail wird nur dann an den Validierer gesendet, wenn jemand explizit auf seinen Kommentar antwortet (dabei werden eigene Antworten auf eigene Kommentare ausgeschlossen). Das bedeutet, dass der Validierer nicht benachrichtigt wird, wenn jemand, der den Testversand durchführt, einen neuen Kommentar abgibt.<p>Diese Einstellung wird Ihren Kunden empfohlen, den Testversand durchzuführen, damit sie über keine weiteren Kommentare zum Testversand informiert und nur über Antworten auf ihre eigenen Kommentare informiert werden.</p><p>validierungsverantwortliche Benutzer mit dieser E-Mail-Warnungseinstellung werden zwar nicht über andere neue Kommentare benachrichtigt, können aber dennoch alle Kommentare zum Testversand im Testversand-Viewer anzeigen.</p><p>Informationen zu Kommentaren finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Anzeigen und Antworten auf Testkommentare</a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Entscheidungen</td> 
@@ -128,7 +128,7 @@ So konfigurieren Sie die Testversand-Viewer-Einstellungen:
        </tr> 
        <tr> 
         <td role="rowheader">Tägliche Zusammenfassung</td> 
-        <td>Workfront sendet eine E-Mail mit allen Kommentaren, Antworten und Entscheidungen, die nur an Tagen aufgelistet sind, an denen neben Ihrer eigenen Aktivität Aktivitäten stattfinden.<p>Mit diesem Warnhinweis können Sie eine Zusammenfassung des Projekts anzeigen, ohne über den gesamten Tag hinweg durch mehrere Aktualisierungen überlastet zu sein.</p><p>Ein Anwendungsbeispiel für diese Zusammenfassung ist ein Abteilungsleiter, der den Gesamtfortschritt des Projekts überwachen möchte.</p><p>Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Benachrichtigungen für Testversandkommentare und -entscheidungen verwalten</a>.</p></td> 
+        <td>Workfront sendet eine E-Mail mit allen Kommentaren, Antworten und Entscheidungen, die nur an Tagen aufgelistet sind, an denen neben Ihrer eigenen Aktivität Aktivitäten stattfinden.<p>Mit diesem Warnhinweis können Sie eine Zusammenfassung des Projekts anzeigen, ohne über den gesamten Tag hinweg durch mehrere Aktualisierungen überlastet zu sein.</p><p>Ein Anwendungsbeispiel für diese Zusammenfassung ist ein Abteilungsleiter, der den Gesamtfortschritt des Projekts überwachen möchte.</p><p>Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Benachrichtigungen für Testversand-Kommentare und -Entscheidungen verwalten</a>.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">Keine E-Mail</td> 
@@ -141,7 +141,7 @@ So konfigurieren Sie die Testversand-Viewer-Einstellungen:
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **Beim Klicken auf Hyperlinks in einem Testversand** (nur im Desktop Proofing Viewer verfügbar): Wählen Sie eine Option aus, um festzulegen, was im Desktop Proofing Viewer geschieht, wenn Sie auf einen Link klicken, der auf einer neuen Registerkarte oder einem neuen Browser-Fenster geöffnet werden soll.
+   * **Beim Klicken auf Hyperlinks in einem Testversand** (nur im Desktop Proofing Viewer verfügbar): Wählen Sie eine Option aus, um festzulegen, was im Desktop Proofing Viewer passiert, wenn Sie auf einen Link klicken, der auf einer neuen Browserregisterkarte oder in einem neuen Browserfenster geöffnet werden soll.
 
      Diese Einstellung gilt für alle interaktiven Testsendungen, die Sie öffnen.
 

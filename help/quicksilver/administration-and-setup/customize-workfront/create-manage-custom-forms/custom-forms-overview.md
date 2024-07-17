@@ -78,7 +78,7 @@ Benutzer können benutzerdefinierte Formulare an die folgenden Objekttypen anhä
 * Wiederholung
 * Abrechnungseintrag
 
-Weitere Informationen zum Anhängen von benutzerdefinierten Formularen an Objekte finden Sie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Weitere Informationen zum Anhängen von benutzerdefinierten Formularen an Objekte finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 Informationen dazu, was mit benutzerdefinierten Formularen beim Konvertieren eines Objekts geschieht, finden Sie unter [Übertragen benutzerdefinierter Formulardaten beim Konvertieren eines Objekts](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 

@@ -77,7 +77,7 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zur Freigabe von Zielen
 
@@ -118,7 +118,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Teilen eines Ziels
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) > **Ziele** .
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Sie müssen über Folgendes verfügen:
 
 1. Klicken Sie auf den Namen eines Ziels in der Liste. Die Zielseite wird geöffnet.
 
-1. Klicken Sie auf **Weitere Symbole** neben dem Zielnamen klicken Sie dann auf **Freigeben**.
+1. Klicken Sie auf das Symbol &quot;**Mehr&quot;** neben dem Zielnamen und dann auf &quot;**Freigeben**&quot;.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -137,20 +137,20 @@ Sie müssen über Folgendes verfügen:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie die **Systemweit verwalten** -Einstellung, um allen Benutzern im System, die in ihrer Zugriffsebene Zugriff auf Ziele bearbeiten haben, Verwaltungsberechtigungen zu erteilen. Diese Option ist für alle neuen Ziele standardmäßig deaktiviert.
-   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, dem Sie &quot;Manage-Berechtigungen&quot;im **Zugriff gewähren an** ankreuzen. Wählen Sie den Namen aus, wenn er in der Liste angezeigt wird.
+   * Wählen Sie die Einstellung **Systemübergreifendes Verwalten** aus, um allen Systemadministratoren, die Zugriff auf Ziele bearbeiten in ihrer Zugriffsebene haben, Verwaltungsberechtigungen zu erteilen. Diese Option ist für alle neuen Ziele standardmäßig deaktiviert.
+   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, dem Sie &quot;Verwalten&quot;Berechtigungen erteilen möchten, in das Feld **Zugriff auf** gewähren. Wählen Sie den Namen aus, wenn er in der Liste angezeigt wird.
 
      >[!TIP]
      >
      >Sie können ein Ziel nur für andere Benutzer freigeben. Sie können keine Ziele für Gruppen, Teams oder Ihr Unternehmen freigeben.
 
-1. Klicks **Freigeben**.
+1. Klicken Sie auf **Freigabe**.
 
    Das Ziel wird für die von Ihnen angegebenen Benutzer freigegeben. Eine systemweite Beschriftung oder der Name der Benutzer, die über Verwaltungsberechtigungen für das Ziel verfügen, wird im Feld Zugriff auf Verwalten im Bereich Zieldetails angezeigt.
 
 ## Optionen für Zielberechtigungen
 
-In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie beim Freigeben eines Ziels gewähren können. Weitere Informationen über den Zugriff, den Benutzer auf der Grundlage ihrer Lizenz erhalten, finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie beim Freigeben eines Ziels gewähren können. Weitere Informationen dazu, welche Zugriffsberechtigungen Benutzer auf der Grundlage ihrer Lizenz erhalten, finden Sie unter [Gewähren des Zugriffs auf Adobe Workfront-Ziele](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -234,7 +234,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie beim Freig
 
 **Sie müssen Zugriff auf die Berechtigungen Projekte anzeigen und anzeigen haben, die hinzugefügt wurden oder die Sie zum Ziel hinzufügen möchten, um sie anzuzeigen.
 
-Informationen zur Zugriffsebene von Projekten finden Sie unter [Projektzugriff gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Weitere Informationen zur Zugriffsebene für Projekte finden Sie unter [Gewähren des Zugriffs auf Projekte](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Weitere Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 

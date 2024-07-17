@@ -27,7 +27,7 @@ ht-degree: 7%
 
 Als Adobe Workfront-Administrator können Sie die Web- und Mobile-Apps von Workfront so konfigurieren, dass sie in eine SAML (Security Assertion Markup Language) 2.0-Lösung für Single Sign-on (SSO) integriert werden.
 
-Nachdem Sie SAML 2.0 in Workfront wie in den folgenden Abschnitten beschrieben konfiguriert haben, können Sie die Konfiguration wie in [SAML 2.0-Metadaten in Ihrem Identitäts-Provider aktualisieren](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+Nachdem Sie SAML 2.0 in Workfront wie in den folgenden Abschnitten beschrieben konfiguriert haben, können Sie die Konfiguration wie in [SAML 2.0-Metadaten in Ihrem Identitätsanbieter aktualisieren](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md) beschrieben beibehalten.
 
 ## Zugriffsanforderungen
 
@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,9 +65,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicks **System** > **Single Sign-On (SSO).**
+1. Klicken Sie auf **System** > **Single Sign-On (SSO).**
 
-1. Im **Typ** Dropdown-Liste auswählen **SAML 2.0.**
+1. Wählen Sie in der Dropdownliste **Typ** die Option **SAML 2.0.** aus.
 
 1. Klicken Sie oben in den angezeigten Optionen auf **SAML 2.0-Metadaten herunterladen** , um die Datei auf Ihren Computer herunterzuladen.
 
@@ -93,7 +93,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr>
      <tr>
       <td role="rowheader">Füllen der Felder aus den Metadaten des Identitätsanbieters </td> 
-      <td>Exportieren Sie in Ihrer SAML 2.0 Identity Provider-Lösung eine XML-Datei für Service Provider-Metadaten und speichern Sie sie an einem temporären Speicherort auf Ihrem Computer. Auswählen <strong>Datei auswählen</strong>, suchen und wählen Sie die gespeicherte Datei aus, um sie Ihrer Workfront-Konfiguration hinzuzufügen.</td> 
+      <td>Exportieren Sie in Ihrer SAML 2.0 Identity Provider-Lösung eine XML-Datei für Service Provider-Metadaten und speichern Sie sie an einem temporären Speicherort auf Ihrem Computer. Wählen Sie <strong>Datei auswählen</strong> aus, suchen und wählen Sie dann die gespeicherte Datei aus, um sie Ihrer Workfront-Konfiguration hinzuzufügen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anmeldungsportal-URL</span> </td> 
@@ -101,7 +101,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr>
      <tr>
       <td role="rowheader">Abmelde-URL</span> </td> 
-      <td> <p>Geben Sie die Abmelde-URL für den IDP-Server ein. Workfront sendet eine HTTP-Anforderung an diese URL, bevor es sich von Workfront abmeldet. Dadurch wird die Benutzersitzung auf dem Remote-Server geschlossen, wenn die Workfront-Sitzung geschlossen wird.</p> <p><b>NOTE</b>: Sie werden nur dann zur Abmelde-URL weitergeleitet, wenn Sie über die Option verfügen. <strong>Nur SAML 2.0-Authentifizierung zulassen</strong> in Ihrem Benutzerprofil aktiviert wurde.</p> </td>
+      <td> <p>Geben Sie die Abmelde-URL für den IDP-Server ein. Workfront sendet eine HTTP-Anforderung an diese URL, bevor es sich von Workfront abmeldet. Dadurch wird die Benutzersitzung auf dem Remote-Server geschlossen, wenn die Workfront-Sitzung geschlossen wird.</p> <p><b>HINWEIS</b>: Sie werden nur dann zur Abmelde-URL weitergeleitet, wenn die Option <strong>Nur SAML 2.0-Authentifizierung zulassen</strong> in Ihrem Benutzerprofil aktiviert ist.</p> </td>
      </tr>
      <tr>
       <td role="rowheader">Kennwortänderungs-URL </td> 
@@ -126,9 +126,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
        <p>Wenn Sie das Kontrollkästchen aktivieren, werden die folgenden Optionen angezeigt:</p> 
        <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
        <p>Wählen Sie aus der Dropdownliste das Workfront-Benutzerattribut aus, das Sie zuordnen möchten, und geben Sie dann das entsprechende Ordnerattribut im Benutzerverzeichnis an.</p> 
-       <p>Die <strong>Verzeichnisattribut</strong> sollte den Verzeichnisattributnamen aus der Benutzerattribut-Tabelle enthalten, die Sie beim erfolgreichen Testen Ihrer SAML 2.0-Konfiguration gespeichert haben.</p> 
-       <p>Sie können den Workfront-Standardwert im <strong>Standardwert</strong> -Feld. Sie können Regeln auch auf Grundlage der Werte Ihres SAML 2.0 Identity Providers festlegen.</p> 
-       <p><b>WARNUNG</b>: Workfront versucht, die unten aufgeführten Attribute jedes Mal zuzuordnen, wenn sich ein Benutzer beim System anmeldet. Aus diesem Grund empfehlen wir keine Zuordnung von Zugriffsebenen. Wenn ein Attribut falsch zugeordnet ist, können Sie den Administratorzugriff einfach entfernen. Klicks <strong>Zuordnung hinzufügen</strong> , um zusätzliche Regeln hinzuzufügen.
+       <p>Das Feld <strong>Verzeichnisattribut</strong> sollte den Verzeichnisattributnamen aus der Benutzerattributtabelle enthalten, die Sie beim erfolgreichen Testen Ihrer SAML 2.0-Konfiguration gespeichert haben.</p> 
+       <p>Sie können einen Workfront-Standardwert im Feld <strong>Standardwert</strong> festlegen. Sie können Regeln auch auf Grundlage der Werte Ihres SAML 2.0 Identity Providers festlegen.</p> 
+       <p><b>WARNUNG</b>: Workfront versucht, die unten aufgeführten Attribute jedes Mal zuzuordnen, wenn sich ein Benutzer beim System anmeldet. Aus diesem Grund empfehlen wir keine Zuordnung von Zugriffsebenen. Wenn ein Attribut falsch zugeordnet ist, können Sie den Administratorzugriff einfach entfernen. Klicken Sie auf <strong>Zuordnung hinzufügen</strong> , um weitere Regeln hinzuzufügen.
        </p> 
        <p>Sie können die folgenden Workfront-Attribute zuordnen:</p> 
       <ul> 
@@ -156,7 +156,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <li> <p>Arbeitszeittabellen-Profil</p> </li> 
       <li> <p>Titel</p> </li> 
       </ul>
-      <p>Klicks <strong>Speichern</strong> wenn Sie die Zuordnung von Benutzerattributen abgeschlossen haben.</p> </td> 
+      <p>Klicken Sie auf <strong>Speichern</strong> , wenn Sie die Zuordnung von Benutzerattributen abgeschlossen haben.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zertifikat </td> 
@@ -170,19 +170,19 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Aktivieren </td> 
-      <td> <p>Aktiviert SSO auf dem Workfront-System. Stellen Sie sicher, dass Sie Ihren Benutzern Anleitungen zur Anmeldung übermittelt haben.</p> <p>Nachdem Sie Ihre SSO-Konfiguration in Workfront aktiviert haben, müssen Sie die <strong>Nur SAML 2.0-Authentifizierung zulassen</strong> für alle Benutzer festgelegt, damit sie SSO verwenden können.</p> <p>Weitere Informationen zum Aktualisieren von Benutzern für SSO finden Sie unter <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Benutzer für Single Sign-on aktualisieren</a>.</p> <p>Weitere Informationen zu Benutzereinstellungen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a>.</p> </td> 
+      <td> <p>Aktiviert SSO auf dem Workfront-System. Stellen Sie sicher, dass Sie Ihren Benutzern Anleitungen zur Anmeldung übermittelt haben.</p> <p>Nachdem Sie Ihre SSO-Konfiguration in Workfront aktiviert haben, müssen Sie die Einstellung "<strong>Nur SAML 2.0-Authentifizierung zulassen</strong>"für alle Benutzer aktivieren, damit sie SSO verwenden können.</p> <p>Weitere Informationen zum Aktualisieren von Benutzern für SSO finden Sie unter <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Aktualisieren von Benutzern für Single Sign-on</a>.</p> <p>Weitere Informationen zu Benutzereinstellungen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Konfiguration bestätigen </td> 
       <td> 
-      <p>Klicks <strong>Verbindung testen</strong> , um zu überprüfen, ob Workfront und der SAML 2.0 Identity Provider miteinander kommunizieren können. Diese Verbindung ist nur erfolgreich, wenn Sie die XML-Dateien ausgetauscht haben.
+      <p>Klicken Sie auf <strong>Verbindung testen</strong> , um zu überprüfen, ob Workfront und der SAML 2.0 Identity Provider miteinander kommunizieren können. Diese Verbindung ist nur erfolgreich, wenn Sie die XML-Dateien ausgetauscht haben.
       </p> 
       <p>Nachdem Sie die Verknüpfung zwischen Ihrem SAML 2.0 Identity Provider und Workfront erfolgreich getestet haben, wird ein Bildschirm ähnlich dem folgenden angezeigt.</p>
-      <p><b>NOTE</b>: Dieser Bildschirm wird in einem Browser-Popup angezeigt, sodass Sie Popup-Blocker in Ihrem Browser deaktivieren.</p>
+      <p><b>HINWEIS</b>: Dieser Bildschirm wird in einem Browser-Popup angezeigt, sodass Sie Popup-Blocker in Ihrem Browser deaktivieren.</p>
       <p>Speichern Sie die in der Tabelle angezeigten Informationen zur späteren Verwendung.</p>
       <p><img src="assets/success-table-saml-2.png"></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicks **Speichern** , um die SAML 2.0-Konfiguration zu speichern.
+1. Klicken Sie auf **Speichern** , um die SAML 2.0-Konfiguration zu speichern.

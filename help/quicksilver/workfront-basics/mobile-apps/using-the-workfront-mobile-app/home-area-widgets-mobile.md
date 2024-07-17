@@ -2,7 +2,7 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Startbereich-Widgets
-description: Die Widgets für den Startbereich von iOS und Android helfen Ihnen dabei, Arbeitselemente schnell zu finden.
+description: Die Widgets für den Startbereich von iOS und Android helfen Ihnen dabei, Ihre Arbeitselemente schnell zu finden.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
@@ -13,16 +13,16 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Startseite] Bereich-Widgets
+# [!UICONTROL Home] -Bereich-Widgets
 
-Die Startbereich-Widgets für beide [!DNL iOS] und [!DNL Android] hilft Ihnen, Ihre Arbeitselemente schnell zu finden.
+Die Widgets für den Startbereich sowohl für [!DNL iOS] als auch für [!DNL Android] helfen Ihnen dabei, Ihre Arbeitselemente schnell zu finden.
 
 ![Startbereich-Widgets](assets/mobile-home-area-widgets.png)
 
-**[!UICONTROL Heute]:** Zeigt die Anzahl der heute fälligen Arbeitselemente an. Wählen Sie das Widget aus, um die Liste der Elemente anzuzeigen.
+**[!UICONTROL Heute fällig]:** Zeigt die Anzahl der Arbeitselemente an, die heute fällig sind. Wählen Sie das Widget aus, um die Liste der Elemente anzuzeigen.
 
 **[!UICONTROL Wöchentliche Arbeit]:** Zeigt die Anzahl der Arbeitselemente an, die in dieser Woche anfallen. Wählen Sie das Widget aus, um die Liste der Elemente anzuzeigen.
 
 **[!UICONTROL Verspätete Arbeit]:** Zeigt die Anzahl der Arbeitselemente an, die verspätet sind (nach dem geplanten Abschlussdatum). Wählen Sie das Widget aus, um die Liste der Elemente anzuzeigen.
 
-**[!UICONTROL Erwähnungen]:** Zeigt die Anzahl der ungelesenen Erwähnungen an. Eine Erwähnung ist eine Benachrichtigung, in der Sie im [!UICONTROL Updates] Registerkarte für ein Objekt in [!DNL Adobe Workfront]. Wählen Sie das Widget aus, um die Liste der Erwähnungen anzuzeigen.
+**[!UICONTROL Erwähnungen]:** Zeigt die Anzahl der ungelesenen Erwähnungen an. Eine Erwähnung ist eine Benachrichtigung, in der Sie auf der Registerkarte [!UICONTROL Aktualisierungen] für ein Objekt in [!DNL Adobe Workfront] getaggt oder benachrichtigt werden. Wählen Sie das Widget aus, um die Liste der Erwähnungen anzuzeigen.

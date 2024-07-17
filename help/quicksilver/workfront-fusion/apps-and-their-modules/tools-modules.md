@@ -4,33 +4,33 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Instrumente
-description: Die [!DNL Adobe Workfront Fusion Tools] enthält mehrere nützliche Module, die Ihr Szenario verbessern können.
+description: Der Abschnitt [!DNL Adobe Workfront Fusion Tools] enthält mehrere nützliche Module, die Ihr Szenario verbessern können.
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2290'
+source-wordcount: '2283'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Instrumente]
+# [!UICONTROL Tools]
 
-Die [!DNL Adobe Workfront Fusion Tools] enthält mehrere nützliche Module, die Ihr Szenario verbessern können.
+Der Abschnitt [!DNL Adobe Workfront Fusion Tools] enthält mehrere nützliche Module, die Ihr Szenario verbessern können.
 
-[!UICONTROL Instrumente] -Module sind in der Liste der Apps verfügbar oder über die [!UICONTROL Instrumente] icon ![](assets/tools-icon-small.png) unten auf dem Bildschirm.
+Die Module [!UICONTROL Tools] sind in der Liste der Apps oder im Symbol [!UICONTROL Tools] ![](assets/tools-icon-small.png) unten auf dem Bildschirm verfügbar.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enthaltene Funktionalität nutzen zu können:
+Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -40,27 +40,27 @@ Sie müssen über den folgenden Zugriff verfügen, um die in diesem Artikel enth
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Nein [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
    <p>Oder</p>
-   <p>Ältere Lizenzanforderungen: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderungen: Wenn Sie über [!UICONTROL Select] oder [!UICONTROL Prime] verfügen [!DNL Adobe Workfront] Planung, Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden. [!DNL Workfront Fusion] ist in [!UICONTROL Ultimate] enthalten. [!DNL Workfront] Plan.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
-   <p>Ältere Produktanforderungen: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] , um die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
+   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Instrumente] und ihre Felder
+## [!UICONTROL Tools] und ihre Felder
 
 * [Trigger](#triggers)
 * [Aktionen](#actions)
@@ -73,7 +73,7 @@ Informationen über [!DNL Adobe Workfront Fusion] Lizenzen, siehe [[!DNL Adobe W
 
 Mit diesem Modul können Sie einen benutzerdefinierten Trigger erstellen und dessen Eingabepakete definieren.
 
-Sie können dieses Modul beispielsweise für Kontakte oder andere Listen verwenden, die an eine bestimmte E-Mail-Adresse gesendet werden sollen (z. B. [!UICONTROL Email] >[!UICONTROL E-Mail senden]oder [!DNL Gmail] >[!UICONTROL E-Mail senden] -Module) oder als einfache Erinnerung, die ausgelöst werden soll, wann immer Sie möchten.
+Sie können dieses Modul beispielsweise für Kontakte oder andere Listen verwenden, die an eine bestimmte E-Mail-Adresse gesendet werden sollen (z. B. die Module [!UICONTROL E-Mail] >[!UICONTROL E-Mail senden] oder [!DNL Gmail] >[!UICONTROL E-Mail senden] ), oder als einfache Erinnerung, die bei Bedarf ausgelöst wird.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,13 +93,13 @@ Sie können dieses Modul beispielsweise für Kontakte oder andere Listen verwend
 * [[!UICONTROL Inkrementierungsfunktion]](#increment-function)
 * [[!UICONTROL Mehrere Variablen festlegen]](#set-multiple-variables)
 * [[!UICONTROL Variable festlegen]](#set-variable)
-* [[!UICONTROL Schlafen]](#sleep)
+* [[!UICONTROL schlafen]](#sleep)
 
 #### [!UICONTROL Abrufen mehrerer Variablen]
 
-Dieses Modul ruft Werte ab, die zuvor von der [!UICONTROL Variable festlegen] oder [!UICONTROL Mehrere Variablen festlegen] -Modul.
+Dieses Modul ruft Werte ab, die zuvor vom Modul [!UICONTROL Variable festlegen] oder [!UICONTROL Mehrere Variablen festlegen] erstellt wurden.
 
-Dieses Modul kann Variablen lesen, die an einer beliebigen Stelle im Szenario festgelegt wurden, selbst wenn die Variable auf einer anderen Route als der festgelegt wurde, auf der die [!UICONTROL Abrufen mehrerer Variablen] -Modul befindet. Die einzige Voraussetzung ist, dass die [!UICONTROL Instrumente] > [!UICONTROL Variable festlegen] oder [!UICONTROL Instrumente] > [!UICONTROL Mehrere Variablen festlegen] -Modul vor dem [!UICONTROL Instrumente] > [!UICONTROL Abrufen mehrerer Variablen] -Modul. Weitere Informationen zur Reihenfolge, in der Module ausgeführt werden, finden Sie unter [Router-Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+Dieses Modul kann Variablen lesen, die an einer beliebigen Stelle im Szenario festgelegt wurden, selbst wenn die Variable in einer anderen Route als der festgelegt wurde, in der sich das Modul [!UICONTROL Mehrere Variablen abrufen] befindet. Die einzige Voraussetzung ist, dass das Modul [!UICONTROL Tools] > [!UICONTROL Variable festlegen] oder [!UICONTROL Tools] > [!UICONTROL Mehrere Variable festlegen] vor dem Modul [!UICONTROL Tools] > [!UICONTROL Mehrere Variablen abrufen] ausgeführt wird. Weitere Informationen zur Reihenfolge, in der Module ausgeführt werden, finden Sie unter [Router-Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -114,17 +114,17 @@ Dieses Modul kann Variablen lesen, die an einer beliebigen Stelle im Szenario fe
 
 >[!INFO]
 >
->**Beispiele:**  Die folgenden Verwendungsmöglichkeiten sind möglich: [!UICONTROL Satz]/[!UICONTROL Abrufen (mehrerer) Variablen] -Module:
+>**Beispiele:** Die folgenden Verwendungsmöglichkeiten sind für die Module [!UICONTROL Set]/[!UICONTROL Get (multiple) Variable(s)] möglich:
 >
 >* So speichern Sie einen berechneten Wert für die spätere Verwendung, auch in einer anderen Route. Dies ist in Fällen nützlich, in denen der Wert in mehreren Modulen verwendet wird und die Formel zur Berechnung des Werts zu komplex ist.
->* So debuggen Sie eine Formel. Wenn eine in einem Modul verwendete Formel anscheinend kein korrektes Ergebnis liefert, kopieren Sie die Formel und fügen Sie sie in ein [!UICONTROL Variable festlegen] -Modul, das Sie vor dem entsprechenden Modul einfügen. Trennen Sie die Module nach der [!UICONTROL Variable festlegen] und führen Sie das Szenario aus. Überprüfen Sie die [!UICONTROL Variable festlegen] die Ausgabe, Anpassung oder Vereinfachung der Formel des Moduls, wiederholte Ausführung des Szenarios und Fortsetzung des Vorgangs, bis das Problem behoben wurde.
+>* Debugging einer Formel. Wenn eine in einem Modul verwendete Formel anscheinend kein korrektes Ergebnis liefert, kopieren Sie die Formel und fügen Sie sie in ein Modul [!UICONTROL Variable festlegen] ein, das Sie vor dem entsprechenden Modul einfügen. Trennen Sie die Module nach dem Modul [!UICONTROL Variable festlegen] und führen Sie das Szenario aus. Überprüfen Sie die Ausgabe des Moduls [!UICONTROL Variable festlegen] , passen Sie die Formel an oder vereinfachen Sie sie, führen Sie das Szenario erneut aus und machen Sie dies so lange weiter, bis das Problem behoben wurde.
 
 
 #### [!UICONTROL Variable abrufen]
 
-Dieses Modul ruft einen Wert ab, der zuvor vom [!UICONTROL Variable festlegen] oder [!UICONTROL Mehrere Variablen festlegen] -Modul.
+Dieses Modul ruft einen Wert ab, der zuvor vom Modul [!UICONTROL Variable festlegen] oder [!UICONTROL Mehrere Variablen festlegen] erstellt wurde.
 
-Dieses Modul kann Variablen lesen, die an einer beliebigen Stelle im Szenario festgelegt wurden, selbst wenn die Variable auf einer anderen Route als der festgelegt wurde, auf der die [!UICONTROL Variable abrufen] -Modul befindet. Die einzige Voraussetzung ist, dass die [!UICONTROL Instrumente] > [!UICONTROL Variable festlegen] oder [!UICONTROL Instrumente] > [!UICONTROL Mehrere Variablen festlegen] -Modul vor dem [!UICONTROL Instrumente] > [!UICONTROL Variable abrufen] -Modul. Weitere Informationen zur Reihenfolge, in der Module ausgeführt werden, finden Sie unter [Router-Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+Dieses Modul kann Variablen lesen, die an einer beliebigen Stelle im Szenario festgelegt wurden, selbst wenn die Variable in einer anderen Route festgelegt wurde als dort, wo sich das Modul [!UICONTROL Variable abrufen] befindet. Die einzige Voraussetzung ist, dass das Modul [!UICONTROL Tools] > [!UICONTROL Variable festlegen] oder [!UICONTROL Tools] > [!UICONTROL Mehrere Variablen festlegen] vor dem Modul [!UICONTROL Tools] > [!UICONTROL Variable abrufen] ausgeführt wird. Weitere Informationen zur Reihenfolge, in der Module ausgeführt werden, finden Sie unter [Router-Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -168,20 +168,20 @@ Dieses Modul gibt einen Wert zurück, der nach dem Vorgang jedes Moduls um 1 ink
 >![](assets/example-email-350x246.gif)
 >
 >1. So erstellen Sie dieses Szenario:
->1. Legen Sie die **[!UICONTROL Wert zurücksetzen]** auf &quot;Nie&quot;gesetzt.
->1. Legen Sie die Route für ungerade Werte fest. Legen Sie den Filter für diese Route mithilfe der Modulus-Mathematikfunktion fest, die `1`:
+>1. Setzen Sie das Feld **[!UICONTROL Wert zurücksetzen]** des Moduls auf &quot;Nie&quot;.
+>1. Legen Sie die Route für ungerade Werte fest. Legen Sie den Filter für diese Route mithilfe der Modulus-mathematischen Funktion auf `1` fest:
 >
 >   ![](assets/odd-350x459.png)
 >
->  **Hinweis**: Vergessen Sie nicht, die [!UICONTROL Gleich] -Operator aus der Standardeinstellung [!UICONTROL Text] dem [!UICONTROL Numerisch] Operator.
+>  **Hinweis**: Vergessen Sie nicht, den Operator [!UICONTROL Gleich] vom standardmäßigen Operator [!UICONTROL Text] in den Operator [!UICONTROL Numerisch] zu ändern.
 >
->1. Legen Sie die Route für Gleichheitswerte mit der Modulus-mathematischen Funktion fest, die gleich `0`:
+>1. Legen Sie die Route für Gleichheitswerte mit der Modulus-mathematischen Funktion auf `0` fest:
 >
 >Die inkrementelle Funktion fügt jedes Mal, wenn das Szenario ausgeführt wird, einmal hinzu. Die Filter prüfen die Inkrementierung und beeinflussen den Wert, sodass E-Mails gleichmäßig verteilt werden.
 
 #### [!UICONTROL Mehrere Variablen festlegen]
 
-Dieses Modul erstellt Variablen, die von anderen Modulen in der Route zugeordnet werden können. Die Variable kann auch der Variablen [!UICONTROL Variable abrufen] oder [!UICONTROL Abrufen mehrerer Variablen] -Module für jede Route im Szenario.
+Dieses Modul erstellt Variablen, die von anderen Modulen in der Route zugeordnet werden können. Die Variable kann auch den Modulen [!UICONTROL Variable abrufen] oder [!UICONTROL Mehrere Variablen abrufen] für jede Route im Szenario zugeordnet werden.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -204,7 +204,7 @@ Dieses Modul erstellt Variablen, die von anderen Modulen in der Route zugeordnet
    <td> <p>Wählen Sie aus, wie lange die Variablen gültig bleiben sollen (den gleichen Wert beibehalten).</p> 
     <ul> 
      <li><strong>[!UICONTROL Ein Zyklus]</strong>: Die Variable ist für einen Zyklus gültig. Nützlich, wenn mehrere Webhooks in einem Szenario empfangen werden (mehr Webhooks = mehr Zyklen). </li> 
-     <li><strong>[!UICONTROL One execution]</strong>: Die -Variable ist für die Ausführung eines Szenarios gültig. Eine Ausführung kann einen oder mehrere Zyklen enthalten.</li> 
+     <li><strong>[!UICONTROL Eine Ausführung]</strong>: Die Variable ist für die Ausführung eines Szenarios gültig. Eine Ausführung kann einen oder mehrere Zyklen enthalten.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -212,7 +212,7 @@ Dieses Modul erstellt Variablen, die von anderen Modulen in der Route zugeordnet
 
 #### [!UICONTROL Variable festlegen]
 
-Dieses Modul erstellt eine Variable, die von anderen Modulen in der Route zugeordnet werden kann. Die Variable kann auch der Variablen [!UICONTROL Variable abrufen] oder [!UICONTROL Abrufen mehrerer Variablen] -Module für jede Route im Szenario.
+Dieses Modul erstellt eine Variable, die von anderen Modulen in der Route zugeordnet werden kann. Die Variable kann auch den Modulen [!UICONTROL Variable abrufen] oder [!UICONTROL Mehrere Variablen abrufen] für jede Route im Szenario zugeordnet werden.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ Dieses Modul erstellt eine Variable, die von anderen Modulen in der Route zugeor
    <td> <p>Wählen Sie aus, wie lange die Variablen gültig bleiben sollen (den gleichen Wert beibehalten).</p> 
     <ul> 
      <li><strong>[!UICONTROL Ein Zyklus]</strong>: Die Variable ist für einen Zyklus gültig. Nützlich, wenn mehrere Webhooks in einem Szenario empfangen werden (mehr Webhooks = mehr Zyklen). </li> 
-     <li><strong>[!UICONTROL One execution]</strong>: Die -Variable ist für die Ausführung eines Szenarios gültig. Eine Ausführung kann einen oder mehrere Zyklen enthalten.</li> 
+     <li><strong>[!UICONTROL Eine Ausführung]</strong>: Die Variable ist für die Ausführung eines Szenarios gültig. Eine Ausführung kann einen oder mehrere Zyklen enthalten.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -237,11 +237,11 @@ Dieses Modul erstellt eine Variable, die von anderen Modulen in der Route zugeor
  </tbody> 
 </table>
 
-#### [!UICONTROL Schlafen]
+#### [!UICONTROL schlafen]
 
 Mit diesem Modul können Sie den Szenario-Fluss für bis zu 300 Sekunden (5 Minuten) verzögern.
 
-Diese Funktion kann nützlich sein, wenn Sie beispielsweise die Variable [!DNL target] Laden des Dienstservers oder , um menschliches Verhalten beim Senden von Massen-SMS oder E-Mails zu imitieren.
+Diese Funktion kann beispielsweise nützlich sein, wenn Sie die Last des Dienstservers von [!DNL target] verringern oder das menschliche Verhalten beim Senden von Massen-SMS oder E-Mails imitieren möchten.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -265,13 +265,13 @@ Diese Funktion kann nützlich sein, wenn Sie beispielsweise die Variable [!DNL t
 >
 >Weitere Informationen zu Datenspeichern finden Sie unter [Datenspeicher in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md).
 >
->Weitere Informationen zu bestimmten Datenspeichermodulen finden Sie unter [[!UICONTROL Datenspeicher] Module](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+>Weitere Informationen zu bestimmten Datenspeichermodulen finden Sie unter [[!UICONTROL Datenspeicher] -Module](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 ### Aggregatoren
 
 * [[!UICONTROL Numerischer Aggregator]](#numeric-aggregator)
-* [[!UICONTROL Tabellenaggregator]](#table-aggregator)
-* [[!UICONTROL Textaggregator]](#text-aggregator)
+* [[!UICONTROL Tabellen-Aggregator]](#table-aggregator)
+* [[!UICONTROL Text-Aggregator]](#text-aggregator)
 
 #### [!UICONTROL Numerischer Aggregator]
 
@@ -282,7 +282,7 @@ Mit diesem Modul können Sie numerische Werte abrufen, dann eine der ausgewählt
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!UICONTROL Quellmodul]</p> </td> 
+   <td> <p>[!UICONTROL Source-Modul]</p> </td> 
    <td> <p>Wählen Sie das Modul aus, aus dem die Felder aggregiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
@@ -304,7 +304,7 @@ Mit diesem Modul können Sie numerische Werte abrufen, dann eine der ausgewählt
  </tbody> 
 </table>
 
-#### [!UICONTROL Tabellenaggregator]
+#### [!UICONTROL Tabellen-Aggregator]
 
 Dieses Modul führt Werte aus den ausgewählten Feldern empfangener Bundles mithilfe einer angegebenen Spalten- und Zeilentrennzeichen in einem Bundle zusammen (mit dem Sie eine Tabelle erstellen können).
 
@@ -313,7 +313,7 @@ Dieses Modul führt Werte aus den ausgewählten Feldern empfangener Bundles mith
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!UICONTROL Quellmodul]</p> </td> 
+   <td> <p>[!UICONTROL Source-Modul]</p> </td> 
    <td> <p>Wählen Sie das Modul aus, aus dem die Felder aggregiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
@@ -339,7 +339,7 @@ Dieses Modul führt Werte aus den ausgewählten Feldern empfangener Bundles mith
  </tbody> 
 </table>
 
-#### [!UICONTROL Textaggregator]
+#### [!UICONTROL Text-Aggregator]
 
 Dieses Modul führt Werte aus den ausgewählten Feldern empfangener Bundles zu einem Bundle zusammen.
 
@@ -348,7 +348,7 @@ Dieses Modul führt Werte aus den ausgewählten Feldern empfangener Bundles zu e
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!UICONTROL Quellmodul]</p> </td> 
+   <td> <p>[!UICONTROL Source-Modul]</p> </td> 
    <td> <p>Wählen Sie das Modul aus, aus dem die Felder aggregiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
@@ -413,7 +413,7 @@ Konvertiert eingegebenen Text (oder Binärdaten) in die ausgewählte Kodierung.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Output data codepage]</p> </td> 
-   <td> <p>Wählen Sie den Kodierungstyp Ihrer Zieldaten (Ausgabedaten) aus.</p> </td> 
+   <td> <p>Wählen Sie den Kodierungstyp Ihrer Zieldaten (Ausgabe) aus.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -437,9 +437,9 @@ Konvertiert eingegebenen Text (oder Binärdaten) in die ausgewählte Kodierung.
      <p>Ein regulärer Ausdruck ist eine Folge von Zeichen, bei denen jedes Zeichen ein Metazeichen mit einer besonderen Bedeutung oder ein reguläres Zeichen mit einer literalen Bedeutung ist. Diese Zeichen und Metazeichen identifizieren ein Muster, das für die Suche nach Text verwendet werden kann. Wenn Sie beispielsweise nach Namen suchen möchten, können Sie einen regulären Ausdruck einrichten, um nach einem Muster zu suchen, das aus zwei aufeinander folgenden Wörtern besteht, die mit Großbuchstaben beginnen. Reguläre Ausdrücke sind ein leistungsstarkes Werkzeug zum Durchsuchen und Bearbeiten von Text.</p> 
      <p>Eine Diskussion über reguläre Ausdrücke geht über den Rahmen dieses Artikels hinaus. Wir empfehlen die folgenden Ressourcen:</p> 
      <ul> 
-      <li>Eine vollständige Liste der Metazeichen finden Sie unter <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Reguläre Ausdrücke</a> in MDN-Webdocs.</li> 
-      <li>Für ein Tutorial zum Erstellen regulärer Ausdrücke empfehlen wir, <a href="https://regexone.com/">RegexOne</a>.</li> 
-      <li>Für das Experimentieren mit regulären Ausdrücken empfehlen wir die <a href="https://regex101.com/">Reguläre Ausdrücke 101</a> Website. Wählen Sie im linken Bereich den ECMAScript (JavaScript)-FLAVOR aus.</li> 
+      <li>Die vollständige Liste der Metazeichen finden Sie unter <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Reguläre Ausdrücke</a> in den MDN-Webdocs.</li> 
+      <li>Für ein Tutorial zum Erstellen regulärer Ausdrücke empfehlen wir <a href="https://regexone.com/">RegexOne</a>.</li> 
+      <li>Für das Experimentieren mit regulären Ausdrücken empfehlen wir die Website <a href="https://regex101.com/">Reguläre Ausdrücke 101</a> . Wählen Sie im linken Bereich den ECMAScript (JavaScript)-FLAVOR aus.</li> 
      </ul> 
     </div> </td> 
   </tr> 

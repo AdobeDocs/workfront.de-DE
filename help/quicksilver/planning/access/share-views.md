@@ -91,13 +91,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 
 ## Berechtigungen für eine Ansicht freigeben <!--internally-->
 
-Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechtigungen freigeben, um <!--with users or groups in Workfront-->.
+Sie können von Ihnen erstellte Ansichten oder Ansichten mit der Berechtigung &quot;Verwalten&quot;für <!--with users or groups in Workfront--> freigeben.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
 
    Dadurch wird die Seite mit dem Datensatztyp geöffnet.
 
-1. Bewegen Sie auf der Registerkarte Ansicht den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen der Ansicht klicken Sie auf **Freigeben**.
+1. Bewegen Sie auf der Registerkarte &quot;Ansicht&quot;den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Ansichtsnamen und klicken Sie dann auf **Freigeben** .
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -119,10 +119,10 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus, um die Ansicht freizugeben:
 
-   * **Nur eingeladene Personen können auf**: Sie müssen Benutzer oder Gruppen angeben, für die Sie die Ansicht freigeben möchten. Dies ist die Standardoption.
-   * **Jeder im Arbeitsbereich kann**: Alle Benutzer mit der Berechtigung Anzeigen oder höher für Arbeitsbereiche können auf die Ansicht zugreifen.
+   * **Nur eingeladene Personen können auf** zugreifen: Sie müssen Benutzer oder Gruppen angeben, für die Sie die Ansicht freigeben möchten. Dies ist die Standardoption.
+   * **Alle Benutzer im Arbeitsbereich können anzeigen**: Alle Benutzer mit der Berechtigung &quot;Ansicht&quot;oder höher für Arbeitsbereiche können auf die Ansicht zugreifen.
 
-1. Im **Gewähren des Ansichtszugriffs auf** ein, geben Sie den Namen eines Benutzers oder einer Gruppe ein und klicken Sie dann darauf, wenn er in der Liste angezeigt wird.  <!--***********replace screen shot below when public sharing is released***********-->
+1. Geben Sie im Feld **Gewähren des Ansichtszugriffs auf** den Namen eines Benutzers oder einer Gruppe ein und klicken Sie dann auf diesen, wenn er in der Liste angezeigt wird.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -130,17 +130,17 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit Verwaltungsberechti
    * Anzeigen
    * Verwalten
 
-     Informationen zu Berechtigungsebenen und zu den Aktionen, die Benutzer für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     Informationen zu Berechtigungsebenen und zu den Aktionen, die Benutzer für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über die Berechtigungen für die Freigabe in der Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
      Systemadministratoren erhalten immer Berechtigungen zum Verwalten von Ansichten, die für sie freigegeben sind.
 
-1. Klicks **Link kopieren** , um einen Link zur Ansicht in die Zwischenablage zu kopieren.
+1. Klicken Sie auf **Link kopieren** , um einen Link in die Ansicht in die Zwischenablage zu kopieren.
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf die Seite vom Typ Datensatz zugreifen und sie in der ausgewählten Ansicht anzeigen zu können.
 1. Klicken Sie auf **Speichern**.
 
    >[!TIP]
    >
-   >   Für Sie freigegebene Ansichten verfügen über einen Personenindikator ![](assets/view-shared-with-others-people-icon.png) neben dem Ansichtssymbol. Ansichten ohne Personen-Indikator sind Ansichten, die Sie erstellt haben.
+   >   Für Sie freigegebene Ansichten haben neben dem Ansichtssymbol einen Personenindikator ![](assets/view-shared-with-others-people-icon.png). Ansichten ohne Personen-Indikator sind Ansichten, die Sie erstellt haben.
 
 
 
@@ -189,9 +189,9 @@ To share a view publicly in Workfront Planning:
 {{step1-to-planning}}
 
 1. Öffnen Sie den Arbeitsbereich, dessen Ansicht Sie die Freigabe stoppen möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz. Dadurch wird die Seite mit dem Datensatztyp geöffnet.
-1. Bewegen Sie den Mauszeiger über den Registerkartennamen der Ansicht, von der Sie die Freigabe entfernen möchten, und klicken Sie auf die Schaltfläche **Mehr** Menü ![](assets/more-menu.png)Klicken Sie auf **Freigeben**.
-1. Suchen Sie den Benutzer oder die Gruppe, den/die Sie entfernen möchten, und klicken Sie dann auf **Entfernen** im Dropdown-Menü Berechtigungen rechts neben dem Namen des Benutzers oder der Gruppe.
-1. Klicks **Speichern**.
+1. Bewegen Sie den Mauszeiger über den Registerkartennamen der Ansicht, von der Sie die Freigabe entfernen möchten, und klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Freigeben**.
+1. Suchen Sie den Benutzer oder die Gruppe, den/die Sie entfernen möchten, und klicken Sie dann im Dropdown-Menü für Berechtigungen rechts neben dem Namen des Benutzers oder der Gruppe auf **Entfernen** .
+1. Klicken Sie auf **Speichern**.
 Der Benutzer oder die Benutzer, die zur entfernten Gruppe gehören, haben keinen Zugriff mehr auf die Ansicht. Es gibt keine Benachrichtigung für die Benutzer, die nicht mehr auf die Ansicht zugreifen konnten, dass sie diesen Zugriff verloren haben.
 
 <!--Replace the above instructions with the following when public sharing is released: 

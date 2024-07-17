@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
 source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Beispiele für Aufgabenabhängigkeiten, die die Neuberechnung der Zeitleiste des
   </tr> 
   <tr> 
    <td role="rowheader"><p>Timeline-Berechnungen</p></td> 
-   <td>Workfront führt keine automatischen Timeline-Berechnungen für Projekte durch, die seit 6 Monaten nicht aktualisiert wurden, und wird erst fortgesetzt, wenn eine Aktualisierung vorgenommen wurde.<p>Für Projekte, die seit 3 Monaten nicht aktualisiert wurden, führt Workfront wöchentliche statt nächtliche Zeitleistenberechnungen durch.</p><p>Informationen zur Berechnung der Projektzeitleiste finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projektzeitpläne neu berechnen</a>. </p></td> 
+   <td>Workfront führt keine automatischen Timeline-Berechnungen für Projekte durch, die seit 6 Monaten nicht aktualisiert wurden, und wird erst fortgesetzt, wenn eine Aktualisierung vorgenommen wurde.<p>Für Projekte, die seit 3 Monaten nicht aktualisiert wurden, führt Workfront wöchentliche statt nächtliche Zeitleistenberechnungen durch.</p><p>Informationen zum Berechnen der Projekt-Timeline finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projektzeitpläne neu berechnen</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>

@@ -10,7 +10,7 @@ role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In diesem Artikel wird erläutert, was mit der Gruppe benutzerdefinierter Status
 
 Beachten Sie die folgenden Szenarien, in denen beschrieben wird, was mit der Gruppe benutzerdefinierter Status passiert, wenn Sie eine Gruppe unter einer anderen Gruppe an eine neue Position verschieben.
 
-Informationen zum Verschieben einer Gruppe finden Sie unter [Gruppe verschieben](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
+Informationen zum Verschieben einer Gruppe finden Sie unter [Verschieben einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,8 +51,8 @@ Informationen zum Verschieben einer Gruppe finden Sie unter [Gruppe verschieben]
      <li>Wenn die vorherige übergeordnete Gruppe einen benutzerdefinierten Status sperrt, der beim Verschieben der Gruppe entsperrt wurde, wird der Status der verschobenen Untergruppe nicht gesperrt.</li> 
      <li>Die verschobene Gruppe kann jetzt Status entsperren, die gesperrt waren, als sie sie von der vorherigen übergeordneten Gruppe übernommen hat.</li> 
     </ul> 
-     <p><b>BEISPIEL:</b><p> 
-     <p>Olivia, der Gruppenadministrator der Marketing-Gruppe, erstellt zwei Status für die Gruppe. Sie benennt einen First Review mit dem Schlüssel ABC und sperrt ihn. Sie nennt die andere Final Review mit dem Schlüssel XYZ und sperrt sie nicht.</p> 
+     <p><b>BEISPIEL</b><p> 
+     <p>Olivia, der Gruppenadministrator für die Marketing-Gruppe, erstellt zwei Status für die Gruppe. Sie benennt einen First Review mit dem Schlüssel ABC und sperrt ihn. Sie nennt die andere Final Review mit dem Schlüssel XYZ und sperrt sie nicht.</p> 
      <p>Sie erstellt außerdem eine Untergruppe unter der Marketing-Gruppe namens Produktmarketing. Zum Zeitpunkt der Erstellung übernimmt sie automatisch die Erstüberprüfung und die Endgültige Überprüfung von der Marketing-Gruppe.</p> 
      <p>Später verschiebt Olivia die Produktmarketing-Untergruppe unter die Produktgruppe. Sowohl die erste Überprüfung als auch die endgültige Überprüfung gehen mit der Produktmarketinggruppe an ihren neuen Speicherort unter der Produktgruppe.</p> 
      <p>Obwohl die erste Überprüfung vor der Verschiebung gesperrt war, kann der Produktmarketing-Gruppenadministrator sie jetzt bearbeiten, da es sich nicht mehr um einen von der übergeordneten Gruppe, aus der sie stammt, verwalteten Status handelt.</p> 
@@ -80,6 +80,6 @@ Wenn einer der Status der gelöschten Gruppe auch von der Zielgruppe verwendet w
 >* Der Name der Version Gruppe B des Status überschreibt den Namen der Version Gruppe A.
 >* Wenn der Status von einer Person in Gruppe A auf ein Objekt angewendet wurde, bevor diese Gruppe gelöscht wurde, wird der Statusname des Objekts in den Namen für den von Gruppe B verwendeten Status aktualisiert.
 >
->Informationen zum Schlüssel für einen Status finden Sie in der Tabelle in diesem Artikel unter [Benutzerdefinierten Status erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [Erstellen oder Bearbeiten eines Status für eine Gruppe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create).
+>Informationen zum Schlüssel für einen Status finden Sie in der Tabelle in diesem Artikel unter [Erstellen oder Bearbeiten eines benutzerdefinierten Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [Erstellen oder Bearbeiten eines Status für eine Gruppe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create).
 >
->Informationen zum Löschen einer Gruppe finden Sie unter [Gruppe löschen](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
+>Informationen zum Löschen einer Gruppe finden Sie unter [Löschen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).

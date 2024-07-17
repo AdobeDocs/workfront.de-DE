@@ -30,12 +30,10 @@ Obwohl jede bestehende Gruppe im System als Startseite eines Benutzers zugewiese
 
 >[!NOTE]
 >
->Wenn Sie Ihre Startseiten-Gruppen in Organisationseinheiten neu organisieren müssen, müssen Sie >
->1. Erstellen Sie die neue Gruppe, wie unter [Gruppe erstellen](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
->1. Weisen Sie die neue Gruppe wie unter [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-
+>Wenn Sie Ihre Home Groups in Organisationseinheiten neu organisieren müssen, müssen Sie >
+>1. Erstellen Sie die neue Gruppe, wie in [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) beschrieben.
+>1. Weisen Sie die neue Gruppe wie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) beschrieben erneut als Startseite des Benutzers zu.
 >
-
 
 ## Verwaltung von Layout-Vorlagen
 
@@ -53,4 +51,4 @@ Workfront-Administratoren haben die Möglichkeit, die maximale Lizenzanzahl für
 
 Durch die Festlegung einer maximalen Lizenzanzahl können Workfront-Administratoren verhindern, dass eine Geschäftseinheit Workfront-Lizenzen verwendet, die für andere Geschäftsbereiche erworben wurden.
 
-Weitere Informationen finden Sie unter [Verwalten der verfügbaren Lizenzen in Ihrem System](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Weitere Informationen finden Sie unter [Verfügbare Lizenzen in Ihrem System verwalten](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

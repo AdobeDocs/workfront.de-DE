@@ -1,5 +1,5 @@
 ---
-title: Grundlegendes zu erweiterten Analyse-KPIs
+title: Erweiterte Analyse-KPIs
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ---
 
-# Grundlegendes zu erweiterten Analyse-KPIs
+# Erweiterte Analyse-KPIs
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Oben auf dem Bildschirm im Bereich &quot;Erweiterte Analyse&quot;werden vier wichtige Leistungsindikatoren (KPIs) angezeigt. Mit diesen Metriken können Sie schnell erkennen, wie lange Projekte in Anspruch nehmen, wie groß die Projekte sind und wie viele Projekte innerhalb eines bestimmten Zeitraums abgeschlossen werden. Diese Zahlen sind nicht auf das Maximum von 50 Projekten beschränkt, das für die Visualisierungen auf dieser Seite angezeigt wird. Stattdessen basieren diese Daten auf allen Projekten, die für bestimmte Filter gelten. Diese Zahlen werden angepasst, wenn Sie den ausgewählten Datumsbereich oder einen Filter ändern.
 
-Informationen zum Hinzufügen von Filtern finden Sie unter [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md).
+Informationen zum Hinzufügen von Filtern finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 ## Abgeschlossene Projekte
 
@@ -33,7 +33,7 @@ Die abgeschlossenen KPI der Projekte zeigt an, wie viele Projekte innerhalb des 
 
 ## Termingerecht abgeschlossene Projekte
 
-Die rechtzeitig abgeschlossenen Projekte zeigen den Prozentsatz der Projekte innerhalb des gefilterten Zeitraums an, die rechtzeitig abgeschlossen wurden, sowie wie der Prozentsatz seit dem vorherigen Zeitraum gestiegen oder gesunken ist. Unter diesen Zahlen finden Sie den Prozentsatz der im vorherigen Zeitraum fertig gestellten Projekte sowie die Anzahl der Tage im vorherigen Zeitraum.
+Die rechtzeitig abgeschlossenen Projekte zeigen den Prozentsatz der Projekte innerhalb des gefilterten Zeitraums an, die rechtzeitig abgeschlossen wurden, sowie wie der Prozentsatz seit dem vorherigen Zeitraum gestiegen oder gesunken ist. Unter diesen Zahlen finden Sie den Prozentsatz der im vorherigen Zeitraum rechtzeitig abgeschlossenen Projekte sowie die Anzahl der Tage im vorherigen Zeitraum.
 
 ![](assets/kpi-projects-completed-on-time-350x180.png)
 

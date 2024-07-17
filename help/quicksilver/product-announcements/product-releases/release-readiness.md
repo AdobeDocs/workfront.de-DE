@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Vorbereiten auf eine [!DNL Adobe Workfront] Version
+title: Vorbereitung auf eine  [!DNL Adobe Workfront] Version
 description: Befolgen Sie diese Tipps, um Ihre Organisation für jede neue Workfront-Version reibungslos zu aktualisieren.
 author: Becky
 feature: Product Announcements
@@ -14,48 +14,48 @@ ht-degree: 0%
 
 ---
 
-# Vorbereiten auf eine [!DNL Adobe Workfront] Geplante Veröffentlichung
+# Vorbereitung auf eine geplante Version von [!DNL Adobe Workfront]
 
 >[!NOTE]
 >
 >Workfront bietet zwei Modelle zur Veröffentlichung neuer Funktionen und Updates. Ihr Unternehmen kann entscheiden, ob es neue Funktionen vierteljährlich oder nach einem Zeitplan für eine schnellere Veröffentlichung erhält. Der Prozess der Vorbereitung auf eine Version ist ähnlich, unabhängig vom Modell, das Ihr Unternehmen verwendet.
 >
->Eine ausführliche Erläuterung der beiden Versionsmodelle finden Sie unter [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Eine ausführliche Erläuterung der beiden Versionsmodelle finden Sie unter [Aktivieren oder Deaktivieren von schnellen Versionen für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-[!DNL Adobe Workfront] veröffentlicht regelmäßig wichtige Aktualisierungen der Produktionsumgebung. Als [!DNL Workfront] Administrator haben Sie die Möglichkeit sicherzustellen, dass Ihr Unternehmen einen reibungslosen Übergang zu jeder neuen Version der [!DNL Workfront] Produkt.
+[!DNL Adobe Workfront] veröffentlicht regelmäßig wichtige Aktualisierungen der Produktionsumgebung. Als [!DNL Workfront] -Administrator haben Sie die Möglichkeit sicherzustellen, dass Ihr Unternehmen einen reibungslosen Übergang zu jeder neuen Version des [!DNL Workfront] -Produkts hat.
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-Sehen Sie sich das folgende Video an, um mehr darüber zu erfahren, wie Sie sich auf eine [!DNL Adobe Workfront] verfügbar.
+Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie sich auf eine Version von [!DNL Adobe Workfront] vorbereiten können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
-## Verstehen Sie die [!DNL Workfront] Freigabeprozess
+## Verstehen des [!DNL Workfront]-Veröffentlichungsprozesses
 
-Eine ausführliche Beschreibung der [!DNL Workfront] Freigabeprozess, siehe [[!DNL Adobe Workfront] Veröffentlichungszeitplan und -prozess](workfront-release-schedule.md).
+Eine ausführliche Beschreibung des [!DNL Workfront]-Veröffentlichungsprozesses finden Sie unter [[!DNL Adobe Workfront] Veröffentlichungsplan und -prozess](workfront-release-schedule.md).
 
-## Vorbereiten auf eine [!DNL Workfront] Version
+## Vorbereiten auf eine Version [!DNL Workfront]
 
 >[!TIP]
 >
->Sie können eine Projektvorlage erstellen, um terminierte Arbeiten zu verfolgen [!DNL Workfront] veröffentlicht.
+>Sie können eine Projektvorlage erstellen, um die mit geplanten [!DNL Workfront]-Versionen verbundenen Arbeiten zu verfolgen.
 >
->Weitere Informationen finden Sie unter [Verwenden Sie eine [!DNL Workfront] Projekt zur Nachverfolgung der Release-Arbeit](#use-a-workfront-project-to-track-release-work) in diesem Artikel.
+>Weitere Informationen finden Sie unter [Verwenden eines [!DNL Workfront] Projekts, um Veröffentlichungsarbeiten zu verfolgen](#use-a-workfront-project-to-track-release-work) in diesem Artikel.
 
 
 Es wird empfohlen, einige oder alle der folgenden Aktionen zu berücksichtigen, die Ihnen bei der Vorbereitung Ihres Unternehmens auf bevorstehende Versionen helfen können:
 
 * [Halten Sie sich mit den Versionshinweisen auf dem Laufenden](#stay-up-to-date-with-release-notes)
-* [Beobachten Sie die [!DNL Workfront] Ankündigungszentrum](#watch-the-workfront-announcement-center)
-* [Die [!UICONTROL Vorschau-Sandbox] Umgebung](#explore-the-preview-sandbox-environment)
+* [Anzeigen des [!DNL Workfront] Ankündigungs-Centers](#watch-the-workfront-announcement-center)
+* [Durchsuchen der Umgebung [!UICONTROL Sandbox-Vorschau]](#explore-the-preview-sandbox-environment)
 * [Webinar zur Veröffentlichung besuchen](#attend-the-release-webinar)
 * [Feedback zu Workfront](#offer-feedback-to-workfront)
 
 ### Halten Sie sich mit den Versionshinweisen auf dem Laufenden
 
-Versionshinweise für eine bestimmte Funktion werden veröffentlicht, wenn die Funktion zu Ihrer [!UICONTROL Vorschau-Sandbox] Umgebung. Auf diese Weise können Sie die Funktion kennen und untersuchen, bevor sie Teil Ihrer Produktionsumgebung ist.
+Versionshinweise für eine bestimmte Funktion werden veröffentlicht, wenn die Funktion in Ihre [!UICONTROL Vorschau-Sandbox] -Umgebung gelangt. Auf diese Weise können Sie die Funktion kennen und untersuchen, bevor sie Teil Ihrer Produktionsumgebung ist.
 
 Jede Version verfügt über eine Übersichtsseite zu Versionen mit kurzen Beschreibungen der einzelnen Funktionen und Links zu ausführlicheren Notizen, die zusätzliche Informationen sowie Demovideos enthalten. Diese ausführlichen Hinweise werden wöchentlich organisiert, wenn die Versionen zur Vorschau angezeigt werden, und dann nach Bereichen umstrukturiert, die näher am tatsächlichen vierteljährlichen Produktionsveröffentlichungsdatum liegen.
 
@@ -63,13 +63,13 @@ Wir empfehlen dringend, sich die Demovideos anzusehen, die in den Versionshinwei
 
 Links zu den Versionsübersichten finden Sie unter [Produktversionen](product-releases.md).
 
-### Beobachten Sie die [!DNL Workfront] Ankündigungszentrum
+### Sehen Sie sich das [!DNL Workfront] Ankündigungs-Center an
 
 >[!IMPORTANT]
 >
->Mitteilungen des Ankündigungszentrums direkt von [!DNL Workfront] sind nur verfügbar für [!DNL Workfront] Administratoren.
+>Nachrichten des Ankündigungs-Centers direkt von [!DNL Workfront] stehen nur [!DNL Workfront] Administratoren zur Verfügung.
 
-Als [!DNL Workfront] Administrator, erhalten Sie die Nachricht &quot;Ankündigungs-Center&quot;von [!DNL Workfront] über verschiedene Aspekte der Version. Sie erhalten eine Mitteilung über das Ankündigungs-Center, wenn eine der folgenden Aktionen eintritt:
+Als [!DNL Workfront] -Administrator erhalten Sie von [!DNL Workfront] eine Mitteilung über verschiedene Aspekte der Version. Sie erhalten eine Mitteilung über das Ankündigungs-Center, wenn eine der folgenden Aktionen eintritt:
 
 * In der Produktionsumgebung sind neue Funktionen verfügbar
 * In der Vorschau veröffentlichte Funktionen werden vor der geplanten Veröffentlichung für die Produktion freigegeben.
@@ -78,28 +78,28 @@ Als [!DNL Workfront] Administrator, erhalten Sie die Nachricht &quot;Ankündigun
 
 >[!TIP]
 >
->Stellen Sie sicher, dass Sie Informationen zu neuen Versionen erhalten, indem Sie die Auswahl aufheben.[!UICONTROL Neue Versionen]&quot; in der [!UICONTROL Ankündigungszentrum] -Einstellungen.
+>Vergewissern Sie sich, dass Sie Informationen zu neuen Versionen erhalten, indem Sie in den Einstellungen für das [!UICONTROL Ankündigungszentrum] die Auswahl von &quot;[!UICONTROL Neue Versionen]&quot;aufheben.
 >
->Weitere Informationen finden Sie unter [Abmeldung von Nachrichten in Ankündigungs-Center](../announcements/unsubscribe-from-ac-messages.md).
+>Weitere Informationen finden Sie unter [Abmeldung von Nachrichten aus dem Ankündigungs-Center](../announcements/unsubscribe-from-ac-messages.md).
 
 
-### Die [!UICONTROL Vorschau-Sandbox] Umgebung
+### Durchsuchen der Umgebung [!UICONTROL Sandbox-Vorschau]
 
-Die [!UICONTROL Vorschau-Sandbox] Umgebung, auch bekannt als [!UICONTROL Vorschau] dient als Umgebung, in der Benutzer in Ihrem Unternehmen sicher testen und mit einer separaten Kopie Ihrer Daten aus der Produktionsumgebung arbeiten können. [!UICONTROL Workfront] veröffentlicht in der Regel neue Funktionen und Funktionen in der Vorschau-Umgebung mindestens zwei Wochen vor ihrer Veröffentlichung in der Produktionsumgebung. Sie haben die Möglichkeit, sich mit diesen Funktionen vertraut zu machen, bevor sie in die täglichen Workflows Ihrer Benutzer veröffentlicht werden. Wenn Ihre Benutzer dann Schwierigkeiten haben, die neuen Funktionen zu nutzen, können Sie ihnen bei der Anpassung leichter helfen.
+Die Umgebung [!UICONTROL Vorschau-Sandbox], auch als Umgebung mit der Bezeichnung [!UICONTROL Vorschau] bezeichnet, dient als Umgebung, in der Benutzer in Ihrer Organisation sicher Ihre Daten aus der Produktionsumgebung testen und mit ihnen arbeiten können. [!UICONTROL Workfront] gibt normalerweise neue Funktionen und Funktionen in der Vorschau-Umgebung mindestens zwei Wochen frei     bevor sie in die Produktionsumgebung freigegeben werden. Sie haben die Möglichkeit, sich mit diesen Funktionen vertraut zu machen, bevor sie in die täglichen Workflows Ihrer Benutzer veröffentlicht werden. Wenn Ihre Benutzer dann Schwierigkeiten haben, die neuen Funktionen zu nutzen, können Sie ihnen bei der Anpassung leichter helfen.
 
 >[!TIP]
 >
 >Es wird empfohlen, die Vorschau-Umgebung zu verwenden, um Funktionen zu testen und kennenzulernen, bevor sie in Ihrer Produktionsumgebung veröffentlicht werden.
 
-Wenn eine Funktion in die Vorschau-Sandbox-Umgebung freigegeben wird, [!DNL Workfront] Die Dokumentation wurde aktualisiert und enthält nun die neue Funktion. Sie können nach dem entsprechenden Artikel suchen oder Links zur Dokumentation aus den Versionshinweisen befolgen.
+Wenn eine Funktion in der Vorschau-Sandbox-Umgebung veröffentlicht wird, wird die Dokumentation zu [!DNL Workfront] aktualisiert, um die neue Funktion aufzunehmen. Sie können nach dem entsprechenden Artikel suchen oder Links zur Dokumentation aus den Versionshinweisen befolgen.
 
-Weitere Informationen über [!UICONTROL Vorschau-Sandbox] Umgebung, siehe [Die [!DNL Adobe Workfront] [!UICONTROL Vorschau-Sandbox] Umgebung](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+Weitere Informationen zur Umgebung [!UICONTROL Sandbox-Vorschau] finden Sie unter [Die Umgebung  [!DNL Adobe Workfront] [!UICONTROL Sandbox-Vorschau-Umgebung]](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) .
 
 ### Webinar zur Veröffentlichung besuchen
 
-[!DNL Workfront] hostet ein Release-Webinar kurz vor einigen Versionen. Hier wird die [!DNL Workfront] Das Produktteam erklärt und demonstriert neue Funktionen und kann Fragen von Teilnehmern beantworten.
+[!DNL Workfront] hostet kurz vor einigen Versionen ein Release-Webinar. Hier erklärt und demonstriert das Produktteam von [!DNL Workfront] neue Funktionen und Funktionen und kann Fragen von Teilnehmern beantworten.
 
-Veröffentlichungs-Webinare werden über die [!DNL Workfront] Ankündigungszentrum. Registrierungslinks finden Sie auf der Seite Versionsübersicht .
+Release-Webinare werden über das [!DNL Workfront] Ankündigungszentrum bekannt gegeben. Registrierungslinks finden Sie auf der Seite Versionsübersicht .
 
 Links zu den Versionsübersichten finden Sie unter [Produktversionen](product-releases.md).
 
@@ -107,7 +107,7 @@ Links zu den Versionsübersichten finden Sie unter [Produktversionen](product-re
 
 Einige neue Funktionen verfügen möglicherweise über die Schaltfläche &quot;Feedback geben&quot;. Wir berücksichtigen dieses Feedback bei der Vorbereitung der Freigabe der Funktion für die Produktion.
 
-Wenn Sie außerdem einen Fehler finden oder ein Problem mit neuen Funktionen haben, wenden Sie sich an den Workfront-Support. Weitere Informationen finden Sie unter [Support kontaktieren](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Wenn Sie außerdem einen Fehler finden oder ein Problem mit neuen Funktionen haben, wenden Sie sich an den Workfront-Support. Weitere Informationen finden Sie unter [Wenden Sie sich an den Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 
 
@@ -124,11 +124,11 @@ Wenn Sie sich darauf vorbereiten, Ihren Benutzern Versionsinformationen zu über
 
 * Interne Newsletter
 * E-Mail
-* Mitteilungen des Ankündigungszentrums (weitergeleitet von [!DNL Workfront] oder von Ihnen erstellt)
-* Mitteilungen zu Tools für die Zusammenarbeit, z. B. [!DNL Slack] oder [!DNL Microsoft Teams]
+* Mitteilungen des Announcement-Zentrums (weitergeleitet von [!DNL Workfront] oder von Ihnen erstellt)
+* Mitteilungen zu Tools für die Zusammenarbeit wie [!DNL Slack] oder [!DNL Microsoft Teams]
 * Interne Webinare oder Schulungen
 
-Sie können die Balance zwischen [!DNL Workfront] Ressourcen (z. B. Dokumentation, Versionshinweise und Schulungen) mit Informationen, die besser auf die Anforderungen und Workflows Ihres Unternehmens zugeschnitten sind. Wenn Sie Benutzern zeigen, wie neue Funktionen ihre Arbeit verbessern oder Zeit und Energie sparen können, können Sie die Änderungen leichter übernehmen. Sie können jedoch Zeit sparen, indem Sie die Demos oder die Dokumentation verwenden, die bereits verfügbar sind über [!DNL Workfront].
+Sie können die Balance zwischen [!DNL Workfront] Ressourcen (z. B. Dokumentation, Versionshinweise und Schulungen) und Informationen wählen, die besser auf die Anforderungen und Workflows Ihres Unternehmens zugeschnitten sind. Wenn Sie Benutzern zeigen, wie neue Funktionen ihre Arbeit verbessern oder Zeit und Energie sparen können, können Sie die Änderungen leichter übernehmen. Sie können jedoch Zeit sparen, indem Sie die Demos oder die Dokumentation verwenden, die bereits über [!DNL Workfront] verfügbar sind.
 
 Im Laufe der Zeit erkennen Sie die Kommunikation, die für Ihr Unternehmen am effektivsten ist. Wir empfehlen, Ihre Prozesse zu dokumentieren, den Erfolg zu bewerten und Ihre Kommunikation für die nächste Version zu verfeinern.
 
@@ -138,13 +138,13 @@ Wenn Sie Informationen über die Version sammeln, können Sie entscheiden, dass 
 
 Informationen zu Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-## Verwenden Sie eine [!DNL Workfront] Projekt zur Nachverfolgung der Release-Arbeit
+## Verwenden Sie ein [!DNL Workfront] -Projekt, um Veröffentlichungsarbeiten zu verfolgen.
 
-Es wird empfohlen, ein Projekt zu erstellen, um sicherzustellen, dass Ihr Unternehmen für die neue Version bereit ist. Hier können Sie Aufgaben für jeden Workflow oder jeden Aspekt von [!DNL Workfront] , die Sie in der Vorschau-Umgebung testen möchten. Wenn Sie sich auf Ihre Workflows konzentrieren, berücksichtigen Sie neue Funktionen, die vorhandene Workflows ändern können, und verstehen, welche Workflows nicht betroffen sind. Sie haben u. a. folgende Aufgaben:
+Es wird empfohlen, ein Projekt zu erstellen, um sicherzustellen, dass Ihr Unternehmen für die neue Version bereit ist. Hier können Sie Aufgaben für jeden Workflow oder Aspekt von [!DNL Workfront] erstellen, den Sie in der Vorschau-Umgebung testen möchten. Wenn Sie sich auf Ihre Workflows konzentrieren, berücksichtigen Sie neue Funktionen, die vorhandene Workflows ändern können, und verstehen, welche Workflows nicht betroffen sind. Sie haben u. a. folgende Aufgaben:
 
 * Erstellen eines Projekts testen
 * Testen der Testversandvalidierung
-* Zugriffsebenen für Tests [!UICONTROL Arbeitnehmer] und [!UICONTROL Planer]
+* Testen der Zugriffsebenen für [!UICONTROL Arbeitnehmer] und [!UICONTROL Planer]
 * Testen mobiler Apps
 
 Neben Tests kann es auch hilfreich sein, Freigabeaufgaben zu verfolgen. Sie können diese Aufgaben zu diesem Projekt hinzufügen oder ein neues erstellen. Hier können Sie Aufgaben wie die folgenden hinzufügen:

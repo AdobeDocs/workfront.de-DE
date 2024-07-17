@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21. 2 Verbesserungen bei der Berichterstellung
 
-Auf dieser Seite werden alle Berichterstellungsverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle Berichterstellungsverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 - Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Beschränkung der Stundenbearbeitung in Projekten und Berichten
 
@@ -25,7 +25,7 @@ Um die Stundenbearbeitung in einem Projekt und in den Stundenberichten auf der R
 
 Zuvor konnten Benutzer mit aktivierter Zugriffsebene &quot;Timesheets und Stunden&quot;Stunden bearbeiten.
 
-Weitere Informationen finden Sie unter [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für das Zeitblatt und die Stunde](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Neues Erscheinungsbild für das Zuweisungsfeld in aktualisierten Listen und Berichten
 
@@ -62,7 +62,7 @@ Um dem modernen Erscheinungsbild anderer Bereiche des neuen Workfront-Erlebnisse
 * Wenn Sie auf ein Typeahead-Feld klicken, wird jetzt das Menü mit Vorschlägen angezeigt, bevor Sie Text eingeben.
 * Das Menü &quot;Vorschläge&quot;reagiert besser auf die Länge der Werte. Diese Werte werden jetzt am Ende abgeschnitten, wenn die Zeichenbeschränkung erreicht wird, und nicht in der Mitte des Werts.
 
-Informationen zu aktualisierten Listen finden Sie in der [Der Unterschied zwischen der aktualisierten und der alten Liste](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) im Artikel [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Informationen zu aktualisierten Listen finden Sie im Abschnitt [Unterschied zwischen der aktualisierten und der alten Liste](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) im Artikel [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) .
 
 ![](assets/typeahead-updates-350x336.png)
 
@@ -80,5 +80,5 @@ Sie können diesen Bericht beispielsweise so einrichten, dass er Aktivitäten in
 
 Zuvor konnten Sie nur über die Workfront-API Berichte zu Systemaktualisierungen erstellen.
 
-Weitere Informationen zu diesem Bericht und dessen Verwendung finden Sie unter [Bericht zum Bereich &quot;Updates&quot;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Weitere Informationen zu diesem Bericht und dessen Verwendung finden Sie unter [Bericht zum Aktualisierungsbereich](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

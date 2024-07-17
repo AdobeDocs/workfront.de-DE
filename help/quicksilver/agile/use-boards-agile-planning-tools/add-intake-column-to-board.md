@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Hinzufügen einer Aufnahmespalte zu einer Pinnwand
 
-Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufügen, die Aufgaben und Probleme automatisch als verbundene Karten einzieht, wenn sie in [!DNL Workfront], basierend auf von Ihnen definierten Filtern. Die Ansauspalte kann als Rückstau für ein Kanban-Team dienen, als Aufnahmeort für ein Support-Team, um Probleme zu sehen, wenn sie einer Anfragewarteschlange hinzugefügt werden, oder zu einem anderen Zweck, den Sie benötigen.
+Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufügen, die Aufgaben und Probleme automatisch als verbundene Karten einfügt, wenn sie in [!DNL Workfront] hinzugefügt werden, basierend auf von Ihnen definierten Filtern. Die Ansauspalte kann als Rückstau für ein Kanban-Team dienen, als Aufnahmeort für ein Support-Team, um Probleme zu sehen, wenn sie einer Anfragewarteschlange hinzugefügt werden, oder zu einem anderen Zweck, den Sie benötigen.
 
 Auf einer Pinnwand ist nur eine Aufnahmespalte erlaubt, und sie erscheint immer als ganz links liegende Spalte.
 
@@ -42,7 +42,7 @@ Probleme:
 >
 >Es wird empfohlen, die Pinnwand häufig zu aktualisieren, wenn mehrere Benutzer gleichzeitig auf der Pinnwand arbeiten. Das Aktualisieren der Seite hilft dabei, die visuellen Änderungen auf der Pinnwand auf dem neuesten Stand zu halten, und verhindert, dass Probleme wie doppelte Karten aus der Annahmespalte auf die Pinnwand verschoben werden.
 
-Weitere Informationen zu Spalten finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Informationen zu verbundenen Karten finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Weitere Informationen zu Spalten finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Informationen zu verbundenen Karten finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Zugriffsanforderungen
 
@@ -65,29 +65,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Ansauspalte mit einfachen Filtern erstellen
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Pinnwände]**.
-1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicks **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
-1. Erweitern **[!UICONTROL Board]**.
-1. Aktivieren **[!UICONTROL Dynamische Aufnahme von Elementen an Bord]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](assets/main-menu-icon.png) oben rechts in Adobe Workfront und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie rechts auf der Pinnwand auf **[!UICONTROL Konfigurieren]** , um den Bereich &quot;Konfigurieren&quot;zu öffnen.
+1. Erweitern Sie **[!UICONTROL Pinnwand]**.
+1. Aktivieren Sie **[!UICONTROL Dynamische Aufnahme von Elementen an die Pinnwand]**.
 
-   ![Einzugsspalten - einfache Filteroptionen](assets/intake-column-simple-filters.png)
+   ![Einnehmen von einfachen Filteroptionen für Spalten](assets/intake-column-simple-filters.png)
 
    Die Ansaugspalte wird auf der linken Seite der Pinnwand hinzugefügt. Sie bleibt leer, bis Sie Filter darauf anwenden.
 
-1. (Optional) Suchen Sie nach und wählen Sie [!DNL Workfront] [!UICONTROL **Projekte**].
-1. (Optional) Suchen Sie nach Benutzern oder Teams und wählen Sie sie aus. [!UICONTROL **Zuweisungen**].
-1. Auswählen [!UICONTROL **Fertiggestellte Arbeit einschließen**] , um Aufgaben und Probleme mit dem Status Fertig stellen in der Spalte Aufnahme anzuzeigen.
+1. (Optional) Suchen Sie nach und wählen Sie [!DNL Workfront] [!UICONTROL **Projekte**] aus.
+1. (Optional) Suchen Sie nach Benutzern oder Teams [!UICONTROL **Zuweisungen**] und wählen Sie sie aus.
+1. Wählen Sie [!UICONTROL **Abgeschlossene Arbeit einschließen**] aus, um Aufgaben und Probleme mit dem Status &quot;Fertig stellen&quot;in der Annahmespalte anzuzeigen.
 
    >[!NOTE]
    >
    >Wenn diese Option nicht ausgewählt ist und Karten in anderen Status als vollständig markiert sind, werden sie auf der Pinnwand &quot;abfallen&quot;und nicht mehr angezeigt.
 
-1. Klicks [!UICONTROL **Anwenden**].
+1. Klicken Sie auf [!UICONTROL **Anwenden**].
 
    Alle Objekte werden in der Spalte für die Aufnahme der Pinnwand als verbundene Karten angezeigt.
 
@@ -95,16 +95,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen einer Annahmespalte mit erweiterten Filtern
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Pinnwände]**.
-1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Pinnwand erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicks **[!UICONTROL Konfigurieren]** auf der rechten Seite der Pinnwand, um den Bereich Konfigurieren zu öffnen.
-1. Erweitern **[!UICONTROL Board]**.
-1. Aktivieren **[!UICONTROL Dynamische Aufnahme von Elementen an Bord]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](assets/main-menu-icon.png) oben rechts in Adobe Workfront und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
+1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie rechts auf der Pinnwand auf **[!UICONTROL Konfigurieren]** , um den Bereich &quot;Konfigurieren&quot;zu öffnen.
+1. Erweitern Sie **[!UICONTROL Pinnwand]**.
+1. Aktivieren Sie **[!UICONTROL Dynamische Aufnahme von Elementen an die Pinnwand]**.
 
    Die Ansaugspalte wird auf der linken Seite der Pinnwand hinzugefügt. Sie bleibt leer, bis Sie Filter darauf anwenden.
 
-1. Klicks [!UICONTROL **Erweiterte Filter verwenden**].
-1. Klicks **[!UICONTROL Hinzufügen von Filterquellen]** und wählen **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]**.
+1. Klicken Sie auf [!UICONTROL **Erweiterte Filter verwenden**].
+1. Klicken Sie auf **[!UICONTROL Filterquellen hinzufügen]** und wählen Sie **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]** aus.
 
    ![Erweiterte Filteroptionen für Spalten aufnehmen](assets/intake-column-advanced-filters1.png)
 
@@ -114,21 +114,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Außerdem können Sie gespeicherte Filter und Systemstandardfilter auswählen.
 
-1. Klicken Sie im Filterbereich auf **[!UICONTROL Neuer Filter]** um zu beginnen.
+1. Klicken Sie im Filterbereich auf **[!UICONTROL Neuer Filter]** , um zu beginnen.
 
-   ![Klicken Sie auf Neuen Filter](assets/intake-filter-dialog5.png)
+   ![Klicken Sie auf Neuer Filter](assets/intake-filter-dialog5.png)
 
 1. Erstellen Sie Ihren Filter und klicken Sie auf **[!UICONTROL Als neu speichern]**.
 
-   ![Filter Builder](assets/intake-filter-dialog6.png)
+   ![Filter-Builder](assets/intake-filter-dialog6.png)
 
-   Dieses Beispiel zeigt einen Filter für Aufgaben aus einem bestimmten Projekt, die sich im Status von [!UICONTROL Neu] oder [!UICONTROL In Bearbeitung].
+   Dieses Beispiel zeigt einen Filter für Aufgaben eines bestimmten Projekts, die sich im Status &quot;[!UICONTROL Neu]&quot;oder &quot;[!UICONTROL In Bearbeitung]&quot; befinden.
 
    >[!NOTE]
    >
    >Es wird empfohlen, den Platzhalter &quot;Me&quot;(angemeldeter Benutzer) nicht in einem Pinnwandfilter zu verwenden, da nicht garantiert ist, dass immer Aufgaben oder Probleme für den angemeldeten Benutzer angezeigt werden. Nachdem die Pinnwand mit den richtigen Aufgaben und Problemen eingerichtet wurde, können Sie die Pinnwand filtern, um Elemente für einen bestimmten Bevollmächtigten anzuzeigen. Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-   Weitere Informationen zum Erstellen eines Filters finden Sie im Artikel im Abschnitt &quot;Erstellen oder Bearbeiten eines Filters im Standard-Builder&quot; [Erstellen und Bearbeiten von Filtern in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Weitere Informationen zum Erstellen eines Filters finden Sie im Abschnitt &quot;Erstellen oder Bearbeiten eines Filters im Standard-Builder&quot;im Artikel [Erstellen oder Bearbeiten von Filtern in  [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Benennen Sie den Filter und klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -140,7 +140,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![Gespeicherter Filter](assets/intake-filter-dialog8.png)
 
-1. (Optional) Um den Filter für andere freizugeben, halten Sie den Mauszeiger über den gespeicherten Filter und klicken Sie auf **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png)und wählen Sie **[!UICONTROL Freigeben]**. Wählen Sie im Feld Freigabe filtern die Benutzer oder Teams aus, für die Sie eine Freigabe vornehmen möchten. Weitere Informationen finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+1. (Optional) Um den Filter für andere freizugeben, bewegen Sie den Mauszeiger über den gespeicherten Filter, klicken Sie auf das Menüsymbol **[!UICONTROL Mehr]** im Menü ![Mehr ](assets/more-icon-spectrum.png) und wählen Sie **[!UICONTROL Freigeben]** aus. Wählen Sie im Feld Freigabe filtern die Benutzer oder Teams aus, für die Sie eine Freigabe vornehmen möchten. Weitere Informationen finden Sie unter [Filter, Ansichten oder Gruppierungen freigeben](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 1. (Optional) Um sowohl Aufgaben als auch Probleme in die Ansauspalte aufzunehmen, klicken Sie auf **[!UICONTROL Quellen filtern]** und wählen Sie das andere Objekt aus, um einen weiteren Filter zu erstellen.
 1. Wenn Sie mit dem Hinzufügen von Filtern fertig sind, überprüfen Sie in der Spalte Aufnahme , ob die richtigen Aufgaben und Probleme angezeigt werden.
 
@@ -148,21 +148,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!NOTE]
    >
-   >Sie können die Filter jederzeit aktualisieren, indem Sie das Fenster &quot;Konfigurieren&quot;öffnen und auf **[!UICONTROL Quellen filtern]** und wählen Sie **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]**.
+   >Sie können die Filter jederzeit aktualisieren, indem Sie das Fenster &quot;Konfigurieren&quot;öffnen, auf **[!UICONTROL Quellen filtern]** klicken und **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]** auswählen.
 
 ## Annahmespalte verwenden
 
-Die Karten in der Annahmespalte können erst bearbeitet werden, wenn Sie sie in andere Pinnwandspalten verschieben. Sie können auf die Karte klicken, um sie in einer schreibgeschützten Ansicht zu öffnen, oder auf ![Aufgabe oder Problem öffnen](assets/boards-launch-icon.png) , um die Aufgabe oder das Problem in einer neuen Browser-Registerkarte zu öffnen.
+Die Karten in der Annahmespalte können erst bearbeitet werden, wenn Sie sie in andere Pinnwandspalten verschieben. Sie können auf die Karte klicken, um sie in einer schreibgeschützten Ansicht zu öffnen, oder auf ![Aufgabe oder Problem öffnen](assets/boards-launch-icon.png) klicken, um die Aufgabe oder das Problem in einer neuen Browser-Registerkarte zu öffnen.
 
 Sie können die Elemente in der Annahmespalte manuell neu anordnen.
 
 Die Symbole oben rechts in der Aufnahmespalte zeigen an, wie viele Karten sich derzeit in der Spalte befinden und wie viele Filter angewendet werden.
 
-1. (Optional) Klicken Sie auf , um in der Ansaugluft nach einem Element zu suchen. ![Suchsymbol](assets/search-icon.png) in der Spalte ein.
+1. (Optional) Klicken Sie zum Suchen nach einem Element in der Annahmespalte auf das Symbol ![Suchsymbol](assets/search-icon.png) in der Spalte.
 1. (Optional) Um eine Karte aus der Ansauspalte in eine andere Spalte zu verschieben, ziehen Sie die Karte an die gewünschte Position.
 
    Oder
 
-   Klicken Sie auf **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Verschieben]**. Klicken Sie anschließend auf die **[!UICONTROL Element verschieben]** auswählen, eine andere Spalte auswählen und **[!UICONTROL Verschieben]**.
+   Klicken Sie auf das Menüsymbol **[!UICONTROL Mehr]** im Menü ![Mehr ](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Verschieben]** aus. Wählen Sie dann im Feld **[!UICONTROL Element verschieben]** eine weitere Spalte und dann **[!UICONTROL Verschieben]** aus.
 
-1. (Optional) Klicken Sie zum Löschen der Annahmespalte auf die **[!UICONTROL Mehr]** Menü ![Weitere Menüsymbole](assets/more-icon-spectrum.png) und wählen **[!UICONTROL Löschen]**.
+1. (Optional) Klicken Sie zum Löschen der Annahmespalte auf das Menüsymbol **[!UICONTROL Mehr]** im Menü ![Mehr ](assets/more-icon-spectrum.png) und wählen Sie **[!UICONTROL Löschen]** aus.

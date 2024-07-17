@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über Teamanfragen](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
+* [Übersicht über Team-Anforderungen](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
 * [Verwalten von Arbeits- und Teamanfragen](../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)

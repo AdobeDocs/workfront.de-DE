@@ -30,7 +30,7 @@ hide: yes
 
 {{planning-important-intro}}
 
-Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Sie können das Erscheinungsbild von Datensatztypen bearbeiten, die Sie oder andere Benutzer erstellt haben. Informationen zum Erstellen von Datensatztypen für die Workfront-Planung finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Sie können das Erscheinungsbild von Datensatztypen bearbeiten, die Sie oder andere Benutzer erstellt haben. Informationen zum Erstellen von Workfront-Planungs-Datensatztypen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Zugriffsanforderungen
 
@@ -104,11 +104,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
-1. Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf **Mehr** Menü ![](assets/more-menu.png) in der rechten oberen Ecke der Datensatztypkarte klicken Sie auf **Bearbeiten**.
+1. Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf das Menü **Mehr** Menü ![](assets/more-menu.png) in der oberen rechten Ecke der Datensatztypkarte und klicken Sie dann auf **Bearbeiten**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-1. Im **Datensatztyp bearbeiten** die folgenden Informationen aktualisieren:
+1. Aktualisieren Sie im Feld **Datensatz-Typ bearbeiten** die folgenden Informationen:
 
    * Bearbeiten Sie bei Bedarf den Namen des Datensatztyps. <!--did they add a field label for this? -->
    * **Beschreibung**: Bearbeiten oder fügen Sie eine Beschreibung für den Datensatztyp mit weiteren Informationen hinzu.
@@ -120,7 +120,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf **Speichern**.
 1. (Optional) Klicken Sie im Arbeitsbereich auf die Karte vom Typ Datensatz , um die Seite des Datensatztyps zu öffnen.
-1. Klicken Sie auf **Mehr** Menü rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten** , um Informationen zum Datensatztyp zu aktualisieren.
+1. Klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Datensatztyps und dann auf **Bearbeiten** , um Informationen zum Datensatztyp zu aktualisieren.
 
    >[!TIP]
    >

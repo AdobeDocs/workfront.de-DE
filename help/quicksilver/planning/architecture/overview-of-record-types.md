@@ -31,7 +31,7 @@ Informationen zum Erstellen von Datensatztypen finden Sie unter [Erstellen von D
 * Wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen, werden Datensatztypen in den folgenden Arbeitsbereich-Abschnitten erstellt:
 
    * **Operative Datensatztypen**: Datensatztypen, die strategische Pläne, Initiativen oder geplante Arbeiten darstellen. Beispielsweise sind Kampagnen-, Aktivitäts-, Tactik- und Opportunity-Datensätze operationell.
-   * **Taxonomien**: Record types, die Attribute zu einem betrieblichen Datensatztyp erfassen. Beispiel: Region, Adresse, Zielgruppe sind Taxonomien.
+   * **Taxonomies**: Record types, die Attribute über einen betrieblichen Datensatztyp erfassen. Beispiel: Region, Adresse, Zielgruppe sind Taxonomien.
 
 * Wenn Sie einen Datensatztyp in einem von Ihnen erstellten Arbeitsbereich erstellen, können Sie den Datensatztyp in einem beliebigen Abschnitt platzieren, den Sie im Arbeitsbereich erstellen.
 * Wenn Sie einen Datensatztyp erstellen, können nur Sie und diejenigen, die Sie für den Zugriff auf den Arbeitsbereich berechtigen, den Datensatztyp anzeigen.

@@ -19,19 +19,19 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel darüber, wie Sie Berechtigungen für Objekte erteilen und anfordern können:
 
-* [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+* [Überblick über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 * [Objekt freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-* [Zugriff auf Objekte im Startbereich gewähren](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
+* [Gewähren des Zugriffs auf Objekte im Startbereich](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
 * [Zugriff auf Objekte anfordern](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
-* [Vererbte Berechtigungen für Objekte anzeigen](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
+* [Anzeigen von geerbten Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
-* [Aufgabe freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
-* [Problem freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+* [Projekt in Adobe Workfront freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [Aufgaben freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
+* [Ein Problem freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [Vorlage freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
 * [Projektvorlagen freigeben](../../manage-work/projects/create-and-manage-templates/share-project-template.md)
-* [Freigeben von Finanzberechtigungen für ein Objekt](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
-* [Portfolio freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)
+* [Finanzberechtigungen für ein Objekt freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
+* [Ein Portfolio freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)
 * [Programm freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
 * [Freigeben eines Dokuments](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
 * [Dokumentordner freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
@@ -45,4 +45,4 @@ Dieser Abschnitt enthält die folgenden Artikel darüber, wie Sie Berechtigungen
 
   Dies erfordert eine zusätzliche Lizenz für Workfront Goals. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-* [Zugriff auf Adobe Workfront konfigurieren](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+* [Konfigurieren Sie den Zugriff auf Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).

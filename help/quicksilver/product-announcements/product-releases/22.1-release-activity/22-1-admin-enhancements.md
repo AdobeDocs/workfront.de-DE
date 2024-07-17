@@ -57,7 +57,7 @@ Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../admini
 
 Der Bereich &quot;Benutzerdefinierte Forms&quot;hat ein neues Erscheinungsbild, das ihn mit vielen anderen Bereichen des neuen Workfront-Erlebnisses auf den neuesten Stand bringt.
 
-Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Viele Verbesserungen beim Erstellen von berechneten benutzerdefinierten Feldern
 
@@ -71,7 +71,7 @@ Das Erstellen berechneter benutzerdefinierter Felder ist jetzt mit diesen Hinzuf
 
 Außerdem können Sie im anpassbaren Text &quot;Anweisungen&quot;für ein berechnetes benutzerdefiniertes Feld die Formel des Felds ein- oder ausblenden. Dies ist nützlich, wenn Sie glauben, dass die Benutzer, die das benutzerdefinierte Formular ausfüllen, diese Informationen nicht benötigen.
 
-Weitere Informationen zum Erstellen eines berechneten benutzerdefinierten Felds finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Weitere Informationen zum Erstellen eines berechneten benutzerdefinierten Felds finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Audit-Protokollinformationen zu Status und Unternehmen anzeigen
 
@@ -102,13 +102,13 @@ Zuvor waren diese Aktionen nur im Feld Unternehmen bearbeiten verfügbar.
 
 Die aktualisierte Symbolleiste enthält auch alle Aktionen, die in der vorherigen Symbolleiste verfügbar waren, z. B. das Bearbeiten der Benutzerprofilinformationen der Mitglieder und das Deaktivieren dieser Informationen im System.
 
-Weitere Informationen finden Sie unter [Verwalten von Firmenmitgliedschaften](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Weitere Informationen finden Sie unter [Verwalten von Unternehmensmitgliedschaften](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Ausdrücke und Felder im Fenster des neuen berechneten Felds auswählen
 
 Wir machen es weiterhin einfacher, ein berechnetes Feld in einem benutzerdefinierten Formular zu erstellen. Wenn Sie nun auf Maximieren klicken, um den neuen Berechnungs-Editor zu öffnen, können Sie die benötigten Ausdrücke und Felder suchen und auswählen.
 
-Weitere Informationen finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Weitere Informationen finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Gruppen können ihre eigenen Voreinstellungen für das Zeitblatt und die Stunde konfigurieren
 
@@ -120,9 +120,9 @@ In einer großen Organisation müssen einige Gruppen möglicherweise die Voreins
 
 Diese Möglichkeit wurde kürzlich auch für Projektvoreinstellungen sowie für Aufgaben- und Problemeinstellungen hinzugefügt.
 
-Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde freischaltet, finden Sie im Abschnitt . [Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt- und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde entsperrt, finden Sie im Abschnitt [Zeitblatt- und Stundeneinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt und Stundeneinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) .
 
-Informationen dazu, wie ein Gruppenadministrator entsperrte Aufgaben konfiguriert und die Voreinstellungen für eine Gruppe ausgibt, finden Sie unter [Konfigurieren von Zeitblatt- und Stundeneinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Informationen dazu, wie ein Gruppenadministrator entsperrte Aufgaben konfiguriert und Voreinstellungen für eine Gruppe ausgibt, finden Sie unter [Konfigurieren von Voreinstellungen für Zeitblätter und Stunden für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Auswählen mehrerer Benachrichtigungen, die Sie für Gruppen entsperren oder erneut sperren möchten
 
@@ -139,13 +139,13 @@ Wenn Sie eine Gruppe löschen, können Sie mit zwei Verbesserungen im Feld Grupp
 * Sie können damit beginnen, den Namen der Gruppe einzugeben, um sie schnell zu finden. Zuvor gab es nur eine Dropdown-Liste, in die Sie nicht eingeben konnten. Dies war für Organisationen mit vielen Gruppen problematisch, da Sie durch die Liste blättern mussten, um die gewünschte Gruppe zu finden. Außerdem hatte die Dropdown-Liste eine Elementbegrenzung, sodass die gewünschte Gruppe möglicherweise nicht angezeigt wurde.
 * Sie können das neue Infosymbol verwenden, um sicherzustellen, dass Sie die gewünschte Ersatzgruppe auswählen. Wenn Sie den Mauszeiger über das Symbol bewegen, wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und die Namen der Administratoren.
 
-Weitere Informationen finden Sie unter [Gruppe löschen](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
+Weitere Informationen finden Sie unter [Eine Gruppe löschen](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
 
 ## Größerer Bereich zum Erstellen berechneter Felder
 
 Jetzt ist es einfacher, komplexe berechnete Felder in einem benutzerdefinierten Formular zu erstellen. Klicken Sie auf die neue Schaltfläche Maximieren , um ein großes Bearbeitungsfenster zum Erstellen Ihrer Berechnung zu öffnen. Wenn Sie fertig sind, klicken Sie auf Minimieren , um mit der Arbeit an Ihrem benutzerdefinierten Formular fortzufahren.
 
-Weitere Informationen finden Sie unter [Hinzufügen errechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Weitere Informationen finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Hinzufügen benutzerdefinierter Formulare zu Gruppen
 
@@ -157,7 +157,7 @@ Benutzerdefinierte Formulare werden jetzt für das Gruppenobjekt unterstützt. D
 * Benutzerdefiniertes Formular entfernen
 * Bearbeiten benutzerdefinierter Daten aus Listen und, im neuen Workfront-Erlebnis, von der Seite Gruppe
 
-Informationen zu benutzerdefinierten Formularen finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+Weitere Informationen zu benutzerdefinierten Formularen finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
 ## Erstellen von OAuth2-Apps zur Integration von Anwendungen in Workfront
 
@@ -171,4 +171,4 @@ Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Wo
 
 Im Bereich &quot;Unternehmen&quot;im Setup erleichtern neue Bestätigungsnachrichten und leichte Textänderungen die Verwaltung von Firmenmitgliedschaften. Beispielsweise lautet der Abschnittsname &quot;Personen&quot;im linken Bedienfeld jetzt &quot;Unternehmensmitglieder&quot;.
 
-Informationen zur Verwaltung von Unternehmensmitgliedschaften finden Sie unter [Verwalten von Firmenmitgliedschaften](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Informationen zur Verwaltung von Unternehmensmitgliedschaften finden Sie unter [Verwalten von Unternehmensmitgliedschaften](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).

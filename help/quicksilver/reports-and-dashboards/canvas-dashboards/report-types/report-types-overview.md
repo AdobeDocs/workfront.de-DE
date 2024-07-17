@@ -6,7 +6,8 @@ description: Es gibt eine Reihe verschiedener Berichte, die Sie zu einem Leinwan
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Es gibt eine Reihe verschiedener Berichte, die Sie zu einem Leinwand-Dashboard h
 * Tabellenberichte
 * Ausstehende Validierungsberichte
 
-Allgemeine Informationen zum Hinzufügen und Anordnen von Berichten in einem Leinwand-Dashboard finden Sie unter [Hinzufügen, Entfernen oder Anordnen von Berichten in einem Leinwand-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Weitere Informationen zum Hinzufügen und Formatieren bestimmter Berichtstypen finden Sie im folgenden Artikelindex.
+Allgemeine Informationen zum Hinzufügen und Anordnen von Berichten in einem Canvas-Dashboard finden Sie unter [Hinzufügen, Entfernen und Anordnen von Berichten in einem Canvas-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Weitere Informationen zum Hinzufügen und Formatieren bestimmter Berichtstypen finden Sie im folgenden Artikelindex.
 
 ## Berichtstypen des Arbeitsfläche-Dashboards: Artikelindex
 

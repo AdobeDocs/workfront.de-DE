@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 5a408439-9767-4d68-be04-034f0bce275a
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 0%
+source-wordcount: '339'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Die in diesem Artikel beschriebenen Tastaturbefehle sind sowohl im Web Proofing 
    <td><strong>Aktion für statische Testsendungen</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p>Leertaste<br>Oder<br>k (Groß- oder Kleinschreibung)</p> </td> 
+   <td> <p>Leertaste<br>oder<br>k (Groß- oder Kleinschreibung)</p> </td> 
    <td> <p>Video abspielen oder anhalten</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -54,7 +54,7 @@ Die in diesem Artikel beschriebenen Tastaturbefehle sind sowohl im Web Proofing 
   </tr> 
   <tr> 
    <td> <p>j (Groß- oder Kleinschreibung)</p> </td> 
-   <td> <p>Video 5 Sekunden rückwärts zurückspulen</p> </td> 
+   <td> <p>Video 5 Sekunden zurückspulen</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ Die in diesem Artikel beschriebenen Tastaturbefehle sind sowohl im Web Proofing 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Strg+Eingabetaste </p> <p><strong>Windows:</strong> cmd+return</p> </td> 
+   <td> <p><strong>Mac:</strong> Strg+Eingabetaste </p> <p><strong>Windows:</strong> cmd+return</p> </td> 
    <td> <p>Kommentar speichern</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ Die in diesem Artikel beschriebenen Tastaturbefehle sind sowohl im Web Proofing 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0 (null)<br>Oder<br> fn+Linkspfeil<br> Oder<br> Home key</p> </td> 
+   <td> <p>0 (null)<br>oder<br> fn+Nach-links-Pfeil<br> oder <br> Home-Schlüssel</p> </td> 
    <td> <p>Video neu starten</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -113,37 +113,37 @@ Die in diesem Artikel beschriebenen Tastaturbefehle sind sowohl im Web Proofing 
    <td> <p>Vergrößern oder Verkleinern</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Strg+0</p> <p><strong>Windows:</strong> Strg+0</p> </td> 
+   <td> <p><strong>Mac:</strong> Strg+0</p> <p><strong>Windows:</strong> Strg+0</p> </td> 
    <td> <p> An Seite anpassen</p> </td> 
    <td> <p>An Seite anpassen</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Strg+1</p> <p><strong>Windows:</strong> Strg+1</p> </td> 
+   <td> <p><strong>Mac:</strong> Strg+1</p> <p><strong>Windows:</strong> Strg+1</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Zoom auf 100 % </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Strg+2</p> <p><strong>Windows:</strong> Strg+2</p> </td> 
+   <td> <p><strong>Mac:</strong> Strg+2</p> <p><strong>Windows:</strong> Strg+2</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>An Breite anpassen </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Strg+3</p> <p><strong>Windows:</strong> Strg+3 </p> </td> 
+   <td> <p><strong>Mac:</strong> Strg+3</p> <p><strong>Windows:</strong> Strg+3 </p> </td> 
    <td> <p> </p> </td> 
    <td> <p>An Höhe anpassen </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd++ <br>Oder <br>cmd+shift+scrollen nach oben</p> <p><strong>Windows:</strong> Strg++</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd++ <br>oder <br>cmd+shift+scroll up</p> <p><strong>Windows:</strong> Strg++</p> </td> 
    <td> <p> Einzoomen</p> </td> 
    <td> <p>Einzoomen </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+- <br>Oder <br>Befehl+Umschalt+Scrollen nach unten</p> <p><strong>Windows:</strong> Strg+-</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+- <br>oder <br>cmd+shift+scrollen Sie nach unten</p> <p><strong>Windows:</strong> Strg+-</p> </td> 
    <td> <p>Auszoomen </p> </td> 
    <td> <p>Auszoomen</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Windows:</strong> Halten Sie beim Ziehen des Bildes die Leertaste</p> </td> 
+   <td> <p><strong>Windows:</strong> Halten Sie beim Ziehen des Bildes die Leertaste.</p> </td> 
    <td> <p> Schwenken</p> </td> 
    <td> <p> Schwenken</p> </td> 
   </tr> 
@@ -158,14 +158,14 @@ Die in diesem Artikel beschriebenen Tastaturbefehle sind sowohl im Web Proofing 
    <td> <p>Nächstes Suchergebnis</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+Shift+g</p> <p><strong>Windows:</strong> Strg+Umschalt+g</p> <p><strong>Mac und Windows:</strong> Drücken Sie Umschalt+Eingabetaste im Suchfeld.</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+Shift+g</p> <p><strong>Windows:</strong> Strg+Umschalt+g</p> <p><strong>Mac und Windows:</strong> Drücken Sie die Tastenkombination Umschalt+Eingabetaste im Suchfeld.</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Vorheriges Suchergebnis</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Mac:</strong> cmd+z</p> <p><strong>Windows:</strong> Strg+Z</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>Rückgängigmachen der Eingabe eines Kommentars</p> </td> 
+   <td> <p>Rückgängig: Eingabe eines Kommentars</p> </td> 
   </tr> 
  </tbody> 
 </table>

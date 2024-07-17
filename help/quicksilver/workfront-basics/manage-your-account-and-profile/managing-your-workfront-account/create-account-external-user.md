@@ -1,40 +1,41 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Konto erstellen [!DNL Adobe Workfront] als externer Benutzer
+title: Erstellen eines Kontos [!DNL Adobe Workfront]  als externer Benutzer
 description: Sie können aufgefordert werden, Aufgaben in Workfront auszuführen, auch wenn Sie nicht Mitglied einer Organisation in Workfront sind. Sie können diese Arbeit einfacher erledigen, indem Sie ein Konto in Workfront erstellen.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: a7416559941f826c119438aadc0fb9a04d46d20b
+exl-id: cfe6d7ab-e4c5-41e6-aa93-23133ac543a0
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
 
 ---
 
-# Erstellen Sie ein Konto in [!DNL Adobe Workfront] als externer Benutzer
+# Erstellen eines Kontos in [!DNL Adobe Workfront] als externer Benutzer
 
-Sie können aufgefordert werden, Elemente in [!DNL Workfront] auch wenn Sie kein Mitglied eines [!DNL Workfront] Organisation. Beispielsweise können Sie aufgefordert werden, Dokumente zu überprüfen oder zu genehmigen. Sie können diese Elemente einfacher anzeigen oder genehmigen, indem Sie ein Konto in [!DNL Workfront].
+Sie können eingeladen werden, Elemente in [!DNL Workfront] anzuzeigen oder zu genehmigen, auch wenn Sie nicht Mitglied einer [!DNL Workfront] -Organisation sind. Beispielsweise können Sie aufgefordert werden, Dokumente zu überprüfen oder zu genehmigen. Sie können diese Elemente einfacher anzeigen oder genehmigen, indem Sie ein Konto in [!DNL Workfront] erstellen.
 
-Wenn ein Benutzer [!DNL Workfront] fordert Sie auf, ein Dokument zu überprüfen oder zu genehmigen; <!--or shares a Workfront object such as a report or Board with you, -->Sie erhalten eine E-Mail. Wenn Sie auf den Link in der E-Mail klicken, gelangen Sie direkt zu dem Element, das für Sie freigegeben wurde.
+Wenn ein Benutzer in [!DNL Workfront] eine Anfrage zur Überprüfung oder Genehmigung eines Dokuments stellt, erhalten Sie <!--or shares a Workfront object such as a report or Board with you, -->eine E-Mail. Wenn Sie auf den Link in der E-Mail klicken, gelangen Sie direkt zu dem Element, das für Sie freigegeben wurde.
 
-Erstellen eines Kontos in [!DNL Workfront] ermöglicht es Ihnen, alle Elemente anzuzeigen, die für Sie freigegeben oder von Ihnen angefordert wurden. Ohne Konto können Sie nur über die einzelnen E-Mail-Links auf diese Elemente zugreifen.
+Wenn Sie ein Konto in [!DNL Workfront] erstellen, können Sie alle Elemente sehen, die für Sie freigegeben oder von Ihnen angefordert wurden. Ohne Konto können Sie nur über die einzelnen E-Mail-Links auf diese Elemente zugreifen.
 
 ## Konto erstellen
 
 Sie können beim Anzeigen eines Assets, das für Sie freigegeben wurde, ein Konto erstellen.
 
-1. Klicken Sie auf der Asset-Seite auf **Einrichten des Kontos beenden** in der Kopfzeile des Dokuments.
+1. Klicken Sie auf der Asset-Seite in der Kopfzeile des Dokuments auf **Kontoeinstellungen abschließen** .
 
-1. Füllen Sie die **Passwort** Abschnitt.
+1. Füllen Sie den Abschnitt **Kennwort** aus.
 
-   Weitere Informationen finden Sie unter [Passwort](#password).
+   Weitere Informationen finden Sie unter [Kennwort](#password).
 
-1. (Optional) Füllen Sie die **Profil** Abschnitt.
+1. (Optional) Füllen Sie den Abschnitt **Profil** aus.
 
    Weitere Informationen finden Sie unter [Profil](#profile).
 
-1. Klicks **Konto erstellen**.
+1. Klicken Sie auf **Konto erstellen**.
 
 
 Geben Sie bei der Präsentation der Seite Konto erstellen die folgenden Informationen ein.
@@ -69,4 +70,4 @@ Nachdem Sie Ihr Konto erstellt haben, können Sie sich bei Workfront anmelden, u
 
   `https://<Domain is here>.my.workfront.com/...`
 
-Anweisungen finden Sie unter [Bei Workfront anmelden](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Anweisungen finden Sie unter [Anmelden bei Workfront](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).

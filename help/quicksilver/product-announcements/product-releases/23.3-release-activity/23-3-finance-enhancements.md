@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen des Finanzmanagements beschrieben, die mit Version 23.3 vorgenommen wurden.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 verfügbar sind, finden Sie unter [23.3 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Eine Liste aller Änderungen, die derzeit im 23.3-Versionszyklus verfügbar sind, finden Sie unter [23.3 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Datum der tatsächlichen Kosten- und Abrechnungskurse
 
@@ -40,4 +40,4 @@ Außerdem sind jetzt im Benutzerprofil datumswirksame Aufgabenrollensätze verf�
 
 Mit einer neuen Funktion, Ratenkarten, können Sie mehrere Abrechnungsraten pro Auftragseinstellung festlegen, basierend auf dem Standort. Eine Abrechnungsrate für eine Stellenaufgabe und einen Ort kann auch effektive Daten enthalten. An Projekte können Ratenkarten angehängt werden, um alle Rateninformationen gleichzeitig für die jeweilige Rolle und den jeweiligen Standort des Auftrags anzuwenden. Standortbasierte Rollen können auch Aufgaben zugewiesen werden, mit der Möglichkeit, ihre Raten auf der Zuweisungsebene zu überschreiben.
 
-Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Erstellen und Verwalten von Vorgangsrollen](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md), und [Übersicht über Rechnungsstellung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Auftragsrollen erstellen und verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) und [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).

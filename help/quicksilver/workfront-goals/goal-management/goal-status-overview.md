@@ -24,7 +24,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Abo](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
 
 * Für den aktuellen Plan und die Lizenzstruktur:
 
@@ -50,9 +50,9 @@ Der Zielstatus gibt an, ob ein Ziel aktiv ist und derzeit Fortschritte aufzeichn
 * Das Öffnen eines geschlossenen Ziels aktualisiert auch den Fortschritt des Ziels.
 * Bestimmte Aktionen, die Sie für ein Ziel ausführen, aktualisieren auch dessen Status. Informationen dazu, wie Sie Zielstatus aktualisieren können, finden Sie in den folgenden Artikeln:
 
-   * [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md)
+   * [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
    * [Ziele in Adobe Workfront aktivieren](../../workfront-goals/goal-management/activate-goals.md)
-   * [Löschen und Deaktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+   * [Ziele in Adobe Workfront löschen und deaktivieren](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
    * [Ziele in Adobe Workfront schließen und erneut öffnen](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Übersicht über den Zielstatus in Workfront-Zielen
@@ -65,12 +65,12 @@ Ziele können in Workfront-Zielen einen der folgenden Status aufweisen:
 
 * [Entwurf](#draft)
 * [Aktiv](#active)
-* [Inaaktiv](#inactive)
+* [inactive](#inactive)
 * [Geschlossen](#closed)
 
 ### Entwurf {#draft}
 
-* Dies ist der Standardstatus für ein neu erstelltes Ziel. Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+* Dies ist der Standardstatus für ein neu erstelltes Ziel. Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 * Workfront-Ziele zeichnen keine Fortschritte bei der Erreichung eines entworfenen Ziels auf.
 * Sie können den Fortschritt eines entworfenen Ziels nicht aktualisieren.
 * Entwürfe von Zielen können nicht geschlossen oder deaktiviert werden, da sie keine Fortschrittsinformationen enthalten.
@@ -117,7 +117,7 @@ Ziele können in Workfront-Zielen einen der folgenden Status aufweisen:
 
 ### Geschlossen {#closed}
 
-* Sie können ein Ziel schließen, wenn Sie angeben möchten, dass Sie es erreicht haben oder dass Sie daran nicht mehr arbeiten, und dies auch in Zukunft nicht tun werden. Informationen zum Schließen von Zielen finden Sie unter [Ziele in Adobe Workfront schließen und erneut öffnen](../../workfront-goals/goal-management/close-and-reopen-goals.md).
+* Sie können ein Ziel schließen, wenn Sie angeben möchten, dass Sie es erreicht haben oder dass Sie daran nicht mehr arbeiten, und dies auch in Zukunft nicht tun werden. Informationen zum Schließen von Zielen finden Sie unter [Schließen und erneutes Öffnen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/close-and-reopen-goals.md).
 
   >[!TIP]
   >

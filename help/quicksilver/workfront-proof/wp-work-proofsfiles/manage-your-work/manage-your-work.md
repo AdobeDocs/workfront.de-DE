@@ -20,19 +20,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
 * [Elemente auf der Seite &quot;Ansichten&quot;verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
 * [Verwalten von Testversionen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
-* [Konfigurieren der Testversandeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
-* [Benutzerdefinierte Ansichten erstellen und verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
-* [Herunterladen von in gespeicherten Dateien [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
+* [Konfigurieren der Testversandeinstellungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
+* [Erstellen und Verwalten benutzerdefinierter Ansichten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
+* [Herunterladen von Dateien, die in [!DNL Workfront Proof] gespeichert sind](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
 * [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
 * [Anzeigen von Fortschritt und Status eines Testversands in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
-* [Testversand löschen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
-* [Grundlegendes zum Teststaat in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
+* [Einen Testversand in [!DNL Workfront Proof] löschen](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
+* [Grundlegendes zum Teststatus in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
 * [Wiederherstellen und Löschen des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
-* [Ausführen von Berichten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
+* [Berichte ausführen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)

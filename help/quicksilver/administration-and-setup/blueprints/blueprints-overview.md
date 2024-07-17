@@ -28,7 +28,7 @@ Blueprints sind Sets von Workfront-Objekten, die häufige Anwendungsfälle in Wo
 >
 >Beispiele:
 >
->* **Einrichtung der Personalverwaltung**
+>* **Einrichtung der Personalorganisation**
 >
 >   Dieser Entwurf enthält die Konfiguration von Organisationsstrukturen, die auf eine Personalabteilung erweitert werden sollen.
 >
@@ -47,9 +47,9 @@ Blueprints stellen grundlegende Bausteine bereit, mit denen Sie ein Arbeitsverwa
 
 Jeder Blueprint richtet sich an eine Abteilung und ein spezifisches Laufzeitniveau, damit Sie bewährte Best Practices schneller in Ihr System implementieren können. Die im Folgenden beschriebenen Laufzeitstufen sind in der Blueprint-Katalogkarte und den Details angegeben.
 
-* **[!UICONTROL Verwaltet]:** Verwaltete Projektvorlagen unterstützen die Übernahme eines neuen Geschäftsprozesses, bevor Aktivitäten und Ergebnisse vollständig als Standardverfahren akzeptiert werden. Sie enthalten Aufgaben, die sicherstellen, dass jeder Schritt des neuen Prozesses befolgt wird.
+* **[!UICONTROL Managed]:** Verwaltete Projektvorlagen unterstützen die Übernahme eines neuen Geschäftsprozesses, bevor Aktivitäten und Ergebnisse vollständig als Standardverfahren akzeptiert werden. Sie enthalten Aufgaben, die sicherstellen, dass jeder Schritt des neuen Prozesses befolgt wird.
 
-* **[!UICONTROL Integriert]:** Bei integrierten Projektvorlagen wird davon ausgegangen, dass Geschäftsfunktionen durch ein Standardbetriebssystem unterstützt werden. Mitwirkende kennen die Schritte und Aufgaben, die sie ausführen müssen, um den Prozess zu verfolgen. Die Projektvorlagen zur Unterstützung dieses Prozesses enthalten weniger Aufgaben, um nur Meilensteine und andere wichtige Ergebnisse zu verfolgen, die für Berichterstellungszwecke erforderlich sind.
+* **[!UICONTROL Integrierte Projektvorlagen]:** Bei integrierten Projektvorlagen wird davon ausgegangen, dass Geschäftsfunktionen durch ein standardmäßiges Betriebsverfahren unterstützt werden. Mitwirkende kennen die Schritte und Aufgaben, die sie ausführen müssen, um den Prozess zu verfolgen. Die Projektvorlagen zur Unterstützung dieses Prozesses enthalten weniger Aufgaben, um nur Meilensteine und andere wichtige Ergebnisse zu verfolgen, die für Berichterstellungszwecke erforderlich sind.
 
 ## Den richtigen Blueprint finden
 
@@ -62,7 +62,7 @@ Der Blueprint-Typ zeigt, was im Blueprint enthalten ist. Der Typ wird unten auf 
 Die folgenden Blueprint-Typen sind verfügbar:
 
 * **Projektvorlagen**: Umfasst Standardobjekte, die mit einer Projektvorlage verknüpft sind (Aufgaben, Probleme, Rollen und Teams), sowie einige Voreinstellungen für diese Objekte. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
-* **Organisatorische Strukturen**: Umfasst Objekte, die mit der Struktur einer Organisation verknüpft sind (Unternehmen, Gruppen, Rollen und Teams). Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Organisationsstrukturen**: Umfasst Objekte, die mit der Struktur einer Organisation verknüpft sind (Unternehmen, Gruppen, Rollen und Teams). Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
 * **Dashboards**: Umfasst ein oder mehrere Dashboards für einen bestimmten Anwendungsfall, z. B. Implementierungsdienste.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
@@ -78,22 +78,22 @@ Jeder Blueprint enthält eine Detailseite. Auf dieser Seite haben Sie folgende M
 
 * Zusammenfassung des Workflow-Inhalts anzeigen
 * Eine kurze Zusammenfassung des Blueprints lesen
-* Installationsverlauf anzeigen (klicken Sie auf **[!UICONTROL Siehe Details]** um die vollständige Liste der mit dem Blueprint installierten Objekte anzuzeigen)
+* Installationsverlauf anzeigen (klicken Sie auf **[!UICONTROL Siehe Details]** , um die vollständige Liste der mit dem Blueprint installierten Objekte anzuzeigen)
 * Anzeigen von Rollen, Teams, Unternehmen und Gruppen
 * Sehen Sie sich ein visuelles Beispiel für den jeweiligen Blueprint an, z. B. eine Projektvorlage (Sie können das vollständige Bild im Browser anzeigen oder herunterladen).
 
-![[!UICONTROL Blueprint-Details] page](assets/blueprint-details-page-2022.png)
+![[!UICONTROL Blueprint-Details] Seite](assets/blueprint-details-page-2022.png)
 
 ## Blueprint installieren
 
-Ein Workfront-Administrator kann einen Blueprint direkt in allen Umgebungen (Produktions-, Vorschau- oder Sandbox-Umgebungen) installieren. Weitere Informationen finden Sie unter [Blueprint installieren](../../administration-and-setup/blueprints/blueprints-install.md) oder [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
+Ein Workfront-Administrator kann einen Blueprint direkt in allen Umgebungen (Produktions-, Vorschau- oder Sandbox-Umgebungen) installieren. Weitere Informationen finden Sie unter [Installieren eines Blueprints](../../administration-and-setup/blueprints/blueprints-install.md) oder [Konfigurieren eines Blueprints](../../administration-and-setup/blueprints/configure-template-package.md).
 
-Nach der Installation sind Sie möglicherweise nicht sicher, welche Maßnahmen die nächsten Schritte am besten sind. Weitere Informationen finden Sie unter [Nach der Installation eines Blueprints zu ergreifende Maßnahmen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+Nach der Installation sind Sie möglicherweise nicht sicher, welche Maßnahmen die nächsten Schritte am besten sind. Weitere Informationen finden Sie unter [Aktionen, die nach der Installation eines Blueprints ausgeführt werden sollen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
 ## Zusätzliche Hinweise zu Blueprints und Vorlagen
 
-Blueprints ersetzen nicht die Funktionalität der Projektvorlagen in [!DNL Adobe Workfront]. Blueprints bieten Ihnen die Möglichkeit, neue Vorlagen schneller zu erstellen, um mehr Ihrer Arbeit in [!DNL Workfront].
+Blueprints ersetzen nicht die Funktionalität der Projektvorlagen in [!DNL Adobe Workfront]. Mit Blueprints können Sie neue Vorlagen schneller erstellen, um mehr Ihrer Arbeit in [!DNL Workfront] zu organisieren.
 
-Ein Blueprint kann nicht kopiert oder bearbeitet werden. Nachdem Sie die Lösung jedoch von einem Blueprint aus installiert haben, können Sie die Projektvorlage, die Vorgangsrollen oder die aus dem Blueprint erstellten Teams auf die gleiche Weise ändern, wie Sie diese Datensätze normalerweise in der [!DNL Workfront] -Schnittstelle. Wenn Sie einen Blueprint installieren, wird die Vorlage auch im [!UICONTROL Vorlagen] Gebiet von [!DNL Workfront] und der ursprüngliche Entwurf im [!UICONTROL Blueprints] Bereich. Sie müssen keine Kopie der Vorlage erstellen, bevor Sie mit der Anpassung an Ihre Anforderungen beginnen.
+Ein Blueprint kann nicht kopiert oder bearbeitet werden. Nachdem Sie die Lösung jedoch über einen Blueprint installiert haben, können Sie die Projektvorlage, die Auftragsrollen oder die aus dem Blueprint erstellten Teams auf die gleiche Weise ändern, wie Sie diese Datensätze normalerweise in der Oberfläche von [!DNL Workfront] aktualisieren. Wenn Sie einen Blueprint installieren, wird die Vorlage im Bereich [!UICONTROL Vorlagen] von [!DNL Workfront] gespeichert und der ursprüngliche Blueprint bleibt im Bereich [!UICONTROL Blueprints]. Sie müssen keine Kopie der Vorlage erstellen, bevor Sie mit der Anpassung an Ihre Anforderungen beginnen.
 
 Blueprints entfernen oder ersetzen keine in Ihrer Umgebung konfigurierten Elemente. Wenn Sie eine vorhandene Vorlage ersetzen möchten, indem Sie einen Blueprint installieren, der eine neue Vorlage erstellt, empfehlen wir, die vorherige Version zu deaktivieren, um Verwirrung bei Ihren Planern zu vermeiden, die Projekte aus Vorlagen erstellen.

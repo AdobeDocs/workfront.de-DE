@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert [!DNL Adobe Workfront Fusion] zusätzlich zu einer [!UICONTROL Adobe Workfront] -Lizenz.
+>[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einer [!UICONTROL Adobe Workfront] -Lizenz eine [!DNL Adobe Workfront Fusion] -Lizenz.
 
 
 <table style="table-layout:auto">
@@ -36,7 +36,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">API-Schlüssel</td> 
-   <td>Ein eindeutiger Code, der den Benutzer, Entwickler oder das Programm identifiziert, der bzw. das die API einer Software aufruft und zur Authentifizierung verwendet wird. Seit [!DNL Adobe Workfront Fusion] -Module funktionieren, indem sie APIs verbinden. Manchmal sind API-Schlüssel erforderlich. API-Schlüssel werden von der App verteilt, die sie benötigt. Wenn Sie beispielsweise einen API-Schlüssel für [!DNL ActiveCampaign], würde dies über Ihre [!DNL ActiveCampaign] -Konto.</td> 
+   <td>Ein eindeutiger Code, der den Benutzer, Entwickler oder das Programm identifiziert, der bzw. das die API einer Software aufruft und zur Authentifizierung verwendet wird. Da [!DNL Adobe Workfront Fusion] -Module durch Verbinden von APIs funktionieren, sind manchmal API-Schlüssel erforderlich. API-Schlüssel werden von der App verteilt, die sie benötigt. Wenn Sie beispielsweise einen API-Schlüssel für [!DNL ActiveCampaign] benötigen, fordern Sie ihn über Ihr [!DNL ActiveCampaign]-Konto an.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">App oder Dienst</td> 
@@ -52,11 +52,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Verbindung]</p> </td> 
-   <td> <p>Wenn Sie eine App oder einen Dienst zu einem Szenario hinzufügen, müssen Sie höchstwahrscheinlich zuerst eine Verbindung zwischen [!DNL Workfront Fusion] und die App oder den Dienst, um die ausgewählten Daten abzurufen oder zu senden. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Verbindungen - Übersicht</a>.</p> </td> 
+   <td> <p>Wenn Sie eine App oder einen Dienst zu einem Szenario hinzufügen, müssen Sie höchstwahrscheinlich zuerst eine Verbindung zwischen [!DNL Workfront Fusion] und der App oder dem Dienst erstellen, um die ausgewählten Daten abzurufen oder zu senden. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Übersicht über Verbindungen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Zyklus</p> </td> 
-   <td> <p>Ein Zyklus bezieht sich auf zwei Phasen des Szenario-Laufs: Vorgang und Versand. Das Szenario kann aus einem oder mehreren Zyklen bestehen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Ausführung des Szenarios, Zyklen und Phasen in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Ein Zyklus bezieht sich auf zwei Phasen des Szenario-Laufs: Vorgang und Versand. Das Szenario kann aus einem oder mehreren Zyklen bestehen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Ausführung, Zyklen und Phasen eines Szenarios in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Datenspeicher</p> </td> 
@@ -96,7 +96,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Router]</p> </td> 
-   <td>Ermöglicht die Duplizierung von Daten oder das Hinzufügen neuer Routen zu einem Szenario, sodass Daten umgeleitet und verschiedene Datengruppen separat verarbeitet werden können. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">Modul [!UICONTROL Router] in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td>Ermöglicht die Duplizierung von Daten oder das Hinzufügen neuer Routen zu einem Szenario, sodass Daten umgeleitet und verschiedene Datengruppen separat verarbeitet werden können. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">[!UICONTROL Router]-Modul in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Szenario</p> </td> 
@@ -108,11 +108,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Trigger</p> </td> 
-   <td> <p>Ein Modul, mit dem Sie Bundles erfassen können, die seit der letzten Ausführung eines Szenarios hinzugefügt oder aktualisiert wurden. Es gibt zwei Arten von Triggern: Abruf und Instant (Webhooks). Weitere Informationen finden Sie unter <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Sofortige Trigger (Webhooks) in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Ein Modul, mit dem Sie Bundles erfassen können, die seit der letzten Ausführung eines Szenarios hinzugefügt oder aktualisiert wurden. Es gibt zwei Arten von Triggern: Abruf und Instant (Webhooks). Weitere Informationen finden Sie unter <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant Trigger (Webhooks) in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Webhook</p> </td> 
-   <td> <p>Ein spezieller Trigger, mit dem Sie ein Szenario sofort ausführen können, nachdem ein neues Bundle verfügbar ist. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Sofortige Trigger (Webhooks) in [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Ein spezieller Trigger, mit dem Sie ein Szenario sofort ausführen können, nachdem ein neues Bundle verfügbar ist. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant Trigger (Webhooks) in [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

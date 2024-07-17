@@ -17,10 +17,10 @@ ht-degree: 0%
 
 # Testsendungen verwalten
 
-* [Testversandeinstellungen bearbeiten](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
-* [Testversandzusammenfassung in Adobe Workfront drucken](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
-* [Testversand löschen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
-* [Wiederherstellen eines archivierten Testversands](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
+* [Testversand-Einstellungen bearbeiten](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
+* [Drucken einer Testversand-Zusammenfassung in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
+* [Einen Testversand löschen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
+* [Archivierten Testversand wiederherstellen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
 * [Aktivität auf einem Testversand in Adobe Workfront anzeigen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
-* [Validierungsbericht für Testsendungen verwenden](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
-* [Zugriff auf Workfront Testing von Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
+* [Verwenden Sie den Bericht zur Genehmigung des Testversands](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
+* [Zugriff auf Workfront Proof über Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)

@@ -19,7 +19,7 @@ Die Planungs- und tatsächlichen Kosten der Aufgaben und ihre Arbeitskosten werd
 
 Sie können den Kostentyp für einzelne Aufgaben innerhalb des Projekts konfigurieren. Jeder Kostentyp wirkt sich auf die Werte für geplante Kosten und tatsächliche Kosten aus.
 
-Informationen zu Tracking-Kosten in Adobe Workfront finden Sie unter [Kosten verfolgen](../../../manage-work/projects/project-finances/track-costs.md).
+Informationen zu den Tracking-Kosten in Adobe Workfront finden Sie unter [Kosten-Tracking](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Zugriffsanforderungen
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Beitragen oder höhere Berechtigungen zu einem Projekt</p> <p>Berechtigungen für eine Aufgabe verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Contribute oder höhere Berechtigungen für ein Projekt</p> <p>Berechtigungen für eine Aufgabe verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,8 +53,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Konfigurieren des Kostentyps einer einzelnen Aufgabe
 
 1. Gehen Sie zu der Aufgabe, in der Sie den Kostentyp konfigurieren möchten.
-1. Klicken **Aufgabendetails** im linken Bereich, und erweitern Sie dann die **Finanzen** Bereich.
-1. Doppelklicken **Kostentyp** und wählen Sie den Kostentyp aus, den Sie auf die Aufgabe anwenden möchten.
+1. Klicken Sie im linken Bereich auf **Aufgabendetails** und erweitern Sie dann den Bereich **Finanzen** .
+1. Doppelklicken Sie auf **Kostentyp** und wählen Sie den Kostentyp aus, den Sie auf die Aufgabe anwenden möchten.
 
    ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
@@ -65,6 +65,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Benutzer pro Stunde
    * Stundensatz nach Funktion
 
-   Weitere Informationen zu den einzelnen Aufgabenkostentypen finden Sie unter [Kosten verfolgen](../../../manage-work/projects/project-finances/track-costs.md).
+   Weitere Informationen zu den einzelnen Aufgabenkostentypen finden Sie unter [Kosten-Tracking](../../../manage-work/projects/project-finances/track-costs.md).
 
-1. Klicken **Speichern** **Änderungen** **.**
+1. Klicken Sie auf **Speichern** **Änderungen** **.**

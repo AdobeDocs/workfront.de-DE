@@ -23,8 +23,8 @@ Wenn Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers ausführe
 
 >[!TIP]
 >
->Sie sollten die **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** nur dann mit einem aktiven Benutzer verknüpft werden, wenn der Bericht mit den Zugriffsrechten dieses Benutzers angezeigt werden soll. Beispielsweise kann ein Benutzer mit einer Arbeits-Lizenz nicht berechtigt sein, alle Elemente in einem Bericht anzuzeigen, der von einem Planungs-Lizenzbenutzer oder einem Systemadministrator erstellt wurde, es sei denn, der Bericht wird mit den Zugriffsrechten eines Planers oder Systemadministrators angezeigt.\
-Wenn der Bericht für Benutzer mit ähnlichem Zugriff wie der in der Variablen **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** ein, können Sie dieses Feld leer lassen.
+>Sie sollten das Feld **Diesen Bericht ausführen durch das Feld Zugriffsrechte von:** durch einen aktiven Benutzer ersetzen, wenn der Bericht mit den Zugriffsrechten dieses Benutzers angezeigt werden soll. Beispielsweise kann ein Benutzer mit einer Arbeits-Lizenz nicht berechtigt sein, alle Elemente in einem Bericht anzuzeigen, der von einem Planungs-Lizenzbenutzer oder einem Systemadministrator erstellt wurde, es sei denn, der Bericht wird mit den Zugriffsrechten eines Planers oder Systemadministrators angezeigt.\
+>Wenn der Bericht für Benutzer mit ähnlichem Zugriff wie der im Feld **Diesen Bericht mit Zugriffsrechten ausführen von:** angegebene Benutzer freigegeben ist, können Sie dieses Feld leer lassen.
 
 ## Zugriffsanforderungen
 
@@ -48,7 +48,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht anzeigen (zum Anzeigen des gelieferten Berichts)</p> <p>Berechtigungen für einen Bericht verwalten (zum Ausführen des Berichts)</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht anzeigen (zum Anzeigen des gelieferten Berichts)</p> <p>Berechtigungen für einen Bericht verwalten (zum Ausführen des Berichts)</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,57 +57,57 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Bericht mit Zugriffsrechten für einen anderen Benutzer anzeigen
 
-Füllen der **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** -Feld stellt sicher, dass ein Bericht die gleichen Daten enthält, unabhängig davon, welcher Benutzer auf den Bericht zugreift. Der Bericht wird so angezeigt wie für den angegebenen Benutzer.
+Wenn Sie das Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** ausfüllen, wird sichergestellt, dass ein Bericht die gleichen Daten enthält, unabhängig davon, welcher Benutzer auf den Bericht zugreift. Der Bericht wird so angezeigt wie für den angegebenen Benutzer.
 
-Die Benutzer, die auf den Bericht zugreifen, müssen mindestens über Anzeigeberechtigungen für den Bericht verfügen, damit sie ihn sehen können. Wenn der Benutzer in der **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** deaktiviert ist, wird der Bericht nicht mehr für andere Benutzer angezeigt, für die der Bericht freigegeben ist.
+Die Benutzer, die auf den Bericht zugreifen, müssen mindestens über Anzeigeberechtigungen für den Bericht verfügen, damit sie ihn sehen können. Wenn der im Feld **Diesen Bericht ausführen mit Zugriffsrechten von:** angegebene Benutzer deaktiviert ist, wird der Bericht nicht mehr für andere Benutzer angezeigt, für die der Bericht freigegeben ist.
 
 So führen Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers aus:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Berichte**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Workfront und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
 
 1. Wählen Sie den Bericht aus, der mit den Zugriffsrechten eines anderen Benutzers angezeigt werden soll.
-1. Klicks **Berichtaktionen** Klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf **Berichtaktionen** und dann auf **Bearbeiten**.
 
-1. Klicks **Berichtseinstellungen**.
+1. Klicken Sie auf **Berichtseinstellungen**.
 
-1. Im **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** ein, geben Sie den Namen des Benutzers ein, als den der Bericht angezeigt werden soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.\
+1. Geben Sie im Feld **Diesen Bericht mit Zugriffsrechten ausführen von:** den Namen des Benutzers ein, als den der Bericht angezeigt werden soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.\
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
    >
-   Benutzer mit einer niedrigeren Zugriffsebene, die Berichte erstellen dürfen, können keinen anderen Benutzer als sich selbst für die **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** -Feld.
+   >Benutzer mit einer niedrigeren Zugriffsebene, die Berichte erstellen dürfen, können keinen anderen Benutzer als sich selbst für das Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** auswählen.
 
-1. Klicks **Fertig**.
-1. Klicks **Speichern und schließen**.\
-   Der Bericht wird nun für alle Benutzer angezeigt, für die der Bericht freigegeben ist, als ob er von dem in der Variablen **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** -Feld.
+1. Klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Speichern + schließen**.\
+   Der Bericht wird nun für alle Benutzer angezeigt, für die der Bericht freigegeben ist, als ob er von dem im Feld **Diesen Bericht mit Zugriffsrechten ausführen von:** angegebenen Benutzer angezeigt wurde.
 
 >[!IMPORTANT]
 >
-Eingeben eines anderen Benutzers als des angemeldeten Benutzers für die **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** wirkt sich auf die im Bericht angezeigten Informationen aus, wenn der Bericht einen Filter enthält, der einen Platzhalter verwendet, der auf den angemeldeten Benutzer verweist. Der Bericht wird entsprechend dem Wert angezeigt, der im **Führen Sie diesen Bericht mit den Zugriffsrechten von aus:** -Feld anstelle des im Platzhalterfilter definierten Felds.
+>Wenn Sie einen anderen Benutzer als den angemeldeten Benutzer für das Feld **Diesen Bericht ausführen mit Zugriffsrechten von:** eingeben, wirkt sich dies auf die im Bericht angezeigten Informationen aus, wenn der Bericht einen Filter enthält, der einen Platzhalter verwendet, der auf den angemeldeten Benutzer verweist. Der Bericht wird entsprechend dem Wert angezeigt, der im Feld **Diesen Bericht mit dem Feld Zugriffsberechtigungen ausführen von:** angegeben wurde, anstatt dem, was im Platzhalterfilter definiert ist.
 >
-Weitere Informationen zu Platzhaltern für Benutzerfelder finden Sie im Abschnitt &quot;Benutzerbasierte Variablen&quot;unter [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>Weitere Informationen zu Platzhaltern für Benutzerfelder finden Sie im Abschnitt &quot;Benutzerbasierte Variablen&quot;in der [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Bericht mit Zugriffsrechten eines anderen Benutzers bereitstellen
 
-Sie können Berichte einrichten, die als Anhang an eine E-Mail gesendet werden. Sie können diese bereitgestellten Berichte so einrichten, dass sie für Benutzer mit einer höheren Zugriffsebene angezeigt werden, sodass alle Benutzer dieselben Informationen in den gelieferten Berichten sehen können. Die Benutzer, die den in der E-Mail gesendeten Bericht sehen werden, müssen zur Liste der Empfänger im Berichtversand hinzugefügt werden. Weitere Informationen zum Einrichten eines Berichts für die Bereitstellung finden Sie im Artikel [Berichtversand - Übersicht](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Sie können Berichte einrichten, die als Anhang an eine E-Mail gesendet werden. Sie können diese bereitgestellten Berichte so einrichten, dass sie für Benutzer mit einer höheren Zugriffsebene angezeigt werden, sodass alle Benutzer dieselben Informationen in den gelieferten Berichten sehen können. Die Benutzer, die den in der E-Mail gesendeten Bericht sehen werden, müssen zur Liste der Empfänger im Berichtversand hinzugefügt werden. Weitere Informationen zum Einrichten eines Berichts für die Bereitstellung finden Sie im Artikel [Übersicht über die Berichtbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 So senden Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Workfront auf **Berichte**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Workfront und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
 
 1. Wählen Sie den Bericht aus, den Sie mit den Zugriffsrechten eines anderen Benutzers bereitstellen möchten.
 1. Klicken Sie auf den Namen des Berichts, um ihn auszuwählen.
-1. Klicks **Berichtaktionen**.
-1. Klicks **Bericht senden**.
+1. Klicken Sie auf **Berichtaktionen**.
+1. Klicken Sie auf **Bericht senden**.
 
-1. Im **Stellen Sie diesen Bericht mit den Zugriffsrechten von bereit:** eingeben, den Namen des Benutzers eingeben, den der Bericht anzeigen soll, als er in einer E-Mail versendet wird, und ihn dann auswählen, wenn er in der Liste angezeigt wird. Die Standardeinstellung ist der Name des Benutzers, der den Bericht erstellt.\
+1. Geben Sie im Feld **Diesen Bericht mit den Zugriffsrechten von:** an, wie der Bericht in einer E-Mail-Versand dargestellt werden soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Die Standardeinstellung ist der Name des Benutzers, der den Bericht erstellt.\
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
    >
-   Benutzer mit einer niedrigeren Zugriffsebene, die Berichte erstellen dürfen, können keinen anderen Benutzer als sich selbst für die **Stellen Sie diesen Bericht mit den Zugriffsrechten von bereit:** -Feld.
+   >Benutzer mit einer niedrigeren Zugriffsebene, die Berichte erstellen dürfen, können keinen anderen Benutzer als sich selbst für das Feld **Diesen Bericht mit den Zugriffsrechten von:** bereitstellen auswählen.
 
-1. Wählen Sie die **Format** soll der Bericht in der E-Mail angezeigt werden:
+1. Wählen Sie das **Format** aus, das der Bericht in der E-Mail anzeigen soll:
 
    * HTML
    * PDF
@@ -115,24 +115,24 @@ So senden Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers:
    * MS Excel (.xlsx)
    * TSV
 
-1. Klicks **Jetzt senden** , um es sofort zu versenden.\
+1. Klicken Sie auf **Jetzt senden** , um es sofort zu senden.\
    Oder\
-   Klicks **Wiederholen der Bereitstellung** um einen wiederkehrenden Versand für den Bericht zu planen.\
-   Weitere Informationen zu Berichtbereitstellungen finden Sie im Artikel [Berichtversand - Übersicht](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+   Klicken Sie auf **Wiederholen Versand durchführen** , um einen wiederkehrenden Versand für den Bericht zu planen.\
+   Weitere Informationen zu Berichtbereitstellungen finden Sie im Artikel [Übersicht über die Berichtbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Einschränkungen für Berichte mit einer Quellspalte
+## Einschränkungen für Berichte mit einer Source-Spalte
 
-Die folgenden Berichte zeigen eine Quellspalte an, in der Sie Informationen zum übergeordneten Objekt anzeigen können:
+Die folgenden Berichte zeigen eine Source-Spalte an, in der Sie Informationen zum übergeordneten Objekt anzeigen können:
 
 * Problemberichte
 * Stündliche Berichte
 * Dokumentberichte
 
-Wenn Benutzer keine Berechtigungen für das übergeordnete Objekt eines Problems, einer Stunde oder eines Dokuments haben, wird die Spalte Quelle des Berichts leer angezeigt, selbst wenn der Bericht für die Anzeige konfiguriert ist oder mit den Zugriffsrechten eines anderen Benutzers bereitgestellt werden soll.
+Wenn Benutzer keine Berechtigungen für das übergeordnete Objekt eines Problems, einer Stunde oder eines Dokuments haben, wird die Source-Spalte des Berichts leer angezeigt, selbst wenn der Bericht für die Anzeige oder Bereitstellung mit den Zugriffsrechten eines anderen Benutzers konfiguriert ist.
 
 Um Informationen über das übergeordnete Objekt im Bericht anzuzeigen, wird empfohlen, eine Spalte für das übergeordnete Objekt hinzuzufügen, in der der Name des übergeordneten Objekts angezeigt werden kann.
 
-Beispielsweise können Sie einem Bericht mit einer Quellspalte Folgendes hinzufügen:
+Sie können beispielsweise Folgendes zu einem Bericht mit einer Source-Spalte hinzufügen:
 
 * Die Spalten &quot;Projektname&quot;, &quot;Aufgabenname&quot;oder &quot;Problemname&quot;in einem Dokument- oder Stundenbericht.
 * Die Spalten &quot;Projektname&quot;oder &quot;Aufgabenname&quot;für einen Problembericht.

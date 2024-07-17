@@ -49,12 +49,12 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Löschen eines benutzerdefinierten Formulars
 
 {{step-1-to-setup}}
 
-1. Klicks **Benutzerdefinierter Forms.**
-1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie auf ![Löschsymbol](assets/delete-icon.png).
-1. Wenn Sie sicher sind, dass Sie das benutzerdefinierte Formular und alle zugehörigen Daten zu Objekten, an die es angehängt wurde, dauerhaft löschen möchten, klicken Sie auf **Ja, löschen**.
+1. Klicken Sie auf **Benutzerdefinierter Forms.**
+1. Wählen Sie das benutzerdefinierte Formular aus und klicken Sie dann auf das Symbol ![Löschen](assets/delete-icon.png).
+1. Wenn Sie sicher sind, dass Sie das benutzerdefinierte Formular und alle zugehörigen Daten zu den Objekten, an die es angehängt wurde, dauerhaft löschen möchten, klicken Sie auf **Ja, löschen**.

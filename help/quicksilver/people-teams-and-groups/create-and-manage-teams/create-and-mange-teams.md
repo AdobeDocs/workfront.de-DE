@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Teams - Übersicht](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
+* [Überblick über Teams](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
 * [Team erstellen](../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 * [Erstellen und Verwalten von Agile-Teams](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
 * [Team-Einstellungen bearbeiten](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
 * [Verwalten der Arbeit Ihres Teams](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
 * [Deaktivieren eines Teams](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
-* [Konfigurieren Sie die [!UICONTROL Fertig] Schaltfläche für Aufgaben](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-* [Konfigurieren Sie die [!UICONTROL Fertig] Schaltfläche für Probleme](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-* [Ersetzen Sie die [!UICONTROL Arbeiten daran] Schaltfläche mit [!UICONTROL Starten] button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+* [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+* [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+* [Ersetzen Sie die Schaltfläche [!UICONTROL Bearbeiten ] durch eine Schaltfläche [!UICONTROL Starten] .](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

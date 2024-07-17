@@ -37,12 +37,12 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben, wenden Sie sich an Ihren Workfront-Administrator.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
 ## Gruppe deaktivieren oder reaktivieren
 
@@ -52,36 +52,36 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 >
 >Wenn Sie eine dieser Optionen reaktivieren müssen, können Sie dies tun, nachdem Sie einen der folgenden Schritte ausgeführt haben:
 >
->* Entfernen Sie sie aus der übergeordneten Gruppe. Weitere Informationen finden Sie im Abschnitt . [Entfernen Sie eine Untergruppe aus ihrer übergeordneten Gruppe und machen Sie sie zu einer Gruppe der obersten Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* Entfernen Sie sie aus der übergeordneten Gruppe. Weitere Informationen finden Sie im Abschnitt [Eine Untergruppe aus ihrer übergeordneten Gruppe entfernen und daraus eine Gruppe der obersten Ebene machen](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) .
 >
->* Verschieben Sie sie unter eine aktive Gruppe. Weitere Informationen finden Sie im Abschnitt . [Erstellen, Verschieben, Anzeigen, Bearbeiten, Kopieren, Umbenennen, Exportieren oder Löschen einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* Verschieben Sie sie unter eine aktive Gruppe. Weitere Informationen finden Sie im Abschnitt [Erstellen, Verschieben, Anzeigen, Bearbeiten, Kopieren, Umbenennen, Exportieren oder Löschen einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Wählen Sie im linken Bereich die Option **Gruppen**.
+1. Wählen Sie im linken Bereich **Gruppen** aus.
 
    In der angezeigten Liste können Sie die von Ihnen verwalteten Gruppen sowie die darin enthaltenen Untergruppen sehen. Adobe Workfront-Administratoren können alle Gruppen sehen.
 
 1. Klicken Sie auf den Namen der Gruppe, um die zugehörige Seite zu öffnen.
 
-1. Klicken Sie auf das Menü Mehr ![](assets/more-icon.png) neben dem Namen der Gruppe klicken Sie auf **Deaktivieren** oder **Reaktivieren**.
+1. Klicken Sie auf das Menü Mehr neben dem Namen der Gruppe und dann auf **Deaktivieren** oder **Reaktivieren**.![](assets/more-icon.png)
 
    >[!NOTE]
    >
    >Die Option Ist aktiv (Option Reaktivieren in der Vorschau) ist nicht verfügbar, wenn es sich bei der Gruppe um eine Untergruppe einer deaktivierten Gruppe handelt. Bevor Sie sie reaktivieren können, müssen Sie sie aus der übergeordneten Gruppe entfernen oder unter eine aktive Gruppe verschieben, wie im obigen wichtigen Hinweis beschrieben.
 
-1. (Bedingt) Wenn Sie die Gruppe deaktivieren, klicken Sie auf **Deaktivieren** im **Gruppe deaktivieren** angezeigt.
+1. (Bedingt) Wenn Sie die Gruppe deaktivieren, klicken Sie im angezeigten Feld **Gruppe deaktivieren** auf **Deaktivieren** .
 
 ## Überlegungen zu inaktiven Gruppen
 
-Beachten Sie Folgendes zu einer Gruppe, die Sie deaktivieren, indem Sie die Option Ist aktiv deaktivieren, wie im Abschnitt beschrieben [Gruppe deaktivieren oder reaktivieren](#View) in diesem Artikel.
+Beachten Sie Folgendes zu einer Gruppe, die Sie deaktivieren, indem Sie die Option Ist aktiv deaktivieren, die im Abschnitt [Deaktivieren oder reaktivieren einer Gruppe](#View) in diesem Artikel erläutert wird.
 
 * Durch Deaktivieren einer Gruppe werden auch alle Untergruppen darunter deaktiviert. Dies umfasst Untergruppen, die Sie nach der Deaktivierung hinzufügen.
 
-  Informationen zum erneuten Aktivieren einer Untergruppe finden Sie in dieser Situation unter [Über die Reaktivierung einer Untergruppe unterhalb einer inaktiven übergeordneten Gruppe](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in diesem Artikel.
+  Informationen zum erneuten Aktivieren einer Untergruppe in dieser Situation finden Sie unter [Über die Reaktivierung einer Untergruppe unterhalb einer inaktiven übergeordneten Gruppe](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in diesem Artikel.
 
-* Wenn Sie in der Einrichtung zum Bereich Gruppen navigieren, werden in der Liste nur aktive Gruppen angezeigt, da der Standardfilter Aktiv ist ![](assets/filter-nwepng.png) verwendet werden. Wenn Sie alle von Ihnen verwalteten Gruppen sehen möchten, einschließlich der inaktiven Gruppen, können Sie den Filter Alle verwenden. Oder verwenden Sie den Filter Inaktiv , um nur die inaktiven aufzulisten.
+* Wenn Sie in der Einrichtung zum Bereich Gruppen navigieren, sehen Sie nur aktive Gruppen in der Liste, da &quot;Aktiv&quot;der Standardfilter ![](assets/filter-nwepng.png) dafür ist. Wenn Sie alle von Ihnen verwalteten Gruppen sehen möchten, einschließlich der inaktiven Gruppen, können Sie den Filter Alle verwenden. Oder verwenden Sie den Filter Inaktiv , um nur die inaktiven aufzulisten.
 
   Weitere Informationen zu Filtern in Listen finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -102,10 +102,10 @@ Beachten Sie Folgendes zu einer Gruppe, die Sie deaktivieren, indem Sie die Opti
 
 Durch Deaktivieren einer Gruppe werden auch alle Untergruppen darunter deaktiviert. Wenn Sie eine der Untergruppen unter einer inaktiven Gruppe reaktivieren müssen, haben Sie zwei Möglichkeiten:
 
-* Verschieben Sie die Untergruppe unter eine aktive Gruppe. Aktivieren Sie dann die Option Ist aktiv für die verschobene Gruppe, wie im Abschnitt beschrieben [Gruppe deaktivieren oder reaktivieren](#View) in diesem Artikel.
+* Verschieben Sie die Untergruppe unter eine aktive Gruppe. Aktivieren Sie dann die Option Ist aktiv für die verschobene Gruppe, wie im Abschnitt [Deaktivieren oder reaktivieren Sie eine Gruppe](#View) in diesem Artikel beschrieben.
 
-  Anweisungen zum Verschieben einer Gruppe finden Sie unter [Gruppe verschieben](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
+  Anweisungen zum Verschieben einer Gruppe finden Sie unter [Verschieben einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
 
-* Entfernen Sie die Untergruppe aus ihrer übergeordneten Gruppe (wodurch die Untergruppe zu einer Gruppe der obersten Ebene wird). Aktivieren Sie dann die Option Ist aktiv für die verschobene Gruppe, wie im Abschnitt beschrieben [Gruppe deaktivieren oder reaktivieren](#View) in diesem Artikel.
+* Entfernen Sie die Untergruppe aus ihrer übergeordneten Gruppe (wodurch die Untergruppe zu einer Gruppe der obersten Ebene wird). Aktivieren Sie dann die Option Ist aktiv für die verschobene Gruppe, wie im Abschnitt [Deaktivieren oder reaktivieren Sie eine Gruppe](#View) in diesem Artikel beschrieben.
 
-  Anweisungen zum Entfernen einer Untergruppe aus ihrer übergeordneten Gruppe finden Sie im Abschnitt [Entfernen Sie eine Untergruppe aus ihrer übergeordneten Gruppe und machen Sie sie zu einer Gruppe der obersten Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Anweisungen zum Entfernen einer Untergruppe aus ihrer übergeordneten Gruppe finden Sie im Abschnitt [Entfernen einer Untergruppe aus ihrer übergeordneten Gruppe und Einrichten einer Gruppe der obersten Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) .

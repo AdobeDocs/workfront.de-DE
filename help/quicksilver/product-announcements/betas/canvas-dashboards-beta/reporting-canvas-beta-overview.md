@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Eine komplette Neuerung der Berichterstellung in Workfront, dem neuen Tool für die Berichtsarbeitsfläche, befindet sich derzeit in der Entwicklung. Bei der Erstellung von Reporting-Arbeitsflächen haben wir hart daran gearbeitet, ein Erlebnis zu bieten, das maximale Flexibilität bietet, verbunden mit einem intuitiven, modularen Design, sodass Benutzer wie Sie Ihre eigenen Daten am effektivsten für die Erstellung und Freigabe von Berichten nutzen können. Durch einen neuen, einheitlichen Berichtstyp, mit dem Sie nahezu jedes Element auf eine grenzenlose Arbeitsfläche ziehen und ablegen können, wird die Erstellung eines visuellen Daten-Master-Elements bald einfacher denn je sein.
 
-Dieser Artikel enthält Informationen zur aktuellen privaten Beta-Version, die auf bestimmte Kunden beschränkt ist. Neue Reporting-Arbeitsflächenfunktionen werden jetzt über Canvas-Dashboards bereitgestellt. Siehe **Entwicklungsplan** unten finden Sie weitere Informationen.
+Dieser Artikel enthält Informationen zur aktuellen privaten Beta-Version, die auf bestimmte Kunden beschränkt ist. Neue Reporting-Arbeitsflächenfunktionen werden jetzt über Canvas-Dashboards bereitgestellt. Weitere Informationen finden Sie unten unter **Entwicklungsplan** .
 
 ### Entwicklungsplan
 
@@ -33,7 +33,7 @@ Wir werden diese neuen Erlebnisse schrittweise bereitstellen, beginnend mit Vers
 
 >[!IMPORTANT]
 >
->Die unten stehenden Beta-Informationen richten sich an Administratoren, die bereits in der Beta-Version der Reporting-Arbeitsfläche enthalten waren und keine neuen Teilnehmer mehr akzeptieren. Wenn Sie neue Funktionen der Reporting-Arbeitsfläche testen möchten, während sie hinzugefügt werden, lesen Sie **Entwicklungsplan** Informationen zum Aktivieren von Canvas-Dashboards.
+>Die unten stehenden Beta-Informationen richten sich an Administratoren, die bereits in der Beta-Version der Reporting-Arbeitsfläche enthalten waren und keine neuen Teilnehmer mehr akzeptieren. Wenn Sie neue Funktionen der Reporting-Arbeitsfläche testen möchten, während sie hinzugefügt werden, finden Sie oben unter **Entwicklungsplan** Informationen zur Aktivierung der Canvas-Dashboards.
 
 ### Verfügbarkeit
 
@@ -43,8 +43,8 @@ Die Beta-Version der Reporting-Arbeitsfläche steht allen Unternehmen in AWS zur
 
 Die Beta-Version der Reporting-Arbeitsfläche ist vollständig optional, kann jedoch nur von einem Workfront-Administrator aktiviert werden. So melden Sie sich als Systemadministrator an:
 
-1. Wählen Sie die **Berichterstellung (Beta)** im Hauptmenü Ihrer Workfront-Instanz.
-1. Klicks **Accept** um die Bedingungen zu akzeptieren.
+1. Wählen Sie im Hauptmenü Ihrer Workfront-Instanz das Symbol **Berichterstellung (Beta)** aus.
+1. Klicken Sie auf **Akzeptieren** , um die Bedingungen zu akzeptieren.
 1. Lassen Sie zu, dass die Daten Ihres Unternehmens der Berichtsarbeitsfläche hinzugefügt werden (dies kann bis zu einigen Stunden dauern).
 1. Verwendung der Berichtsarbeitsfläche.
 
@@ -52,24 +52,24 @@ Nachdem die Daten Ihres Unternehmens der Arbeitsfläche für die Berichterstellu
 
 So aktivieren Sie andere Benutzer, die keine Workfront-Administratoren sind:
 
-1. Wählen Sie die **Berichterstellung (Beta)** im Hauptmenü Ihrer Workfront-Instanz.
-1. Klicken Sie auf **Berechtigungen für die Berichterstellung**.
+1. Wählen Sie im Hauptmenü Ihrer Workfront-Instanz das Symbol **Berichterstellung (Beta)** aus.
+1. Klicken Sie auf **Berechtigungen für die Berichtarbeitsfläche**.
 1. Suchen Sie nach bestimmten Benutzern, die Sie teilnehmen möchten, und wählen Sie sie aus.
 
    >[!IMPORTANT]
    >
-   >Benutzer, denen Sie Zugriff auf die Berichtarbeitsfläche gewähren, haben Zugriff auf **all** -Daten im System schreibgeschützt sind, unabhängig von den Standardberechtigungen zur Anzeige dieser Daten.
+   >Benutzer, denen Sie Zugriff auf die Berichtarbeitsfläche gewähren, haben - unabhängig von den Standardberechtigungen für die Anzeige dieser Daten - Zugriff auf **alle** Daten im System in schreibgeschützter Kapazität.
 
 1. Klicken Sie auf **Speichern**.
-1. Fügen Sie die **Berichterstellung (Beta)** in die Vorlage für das Hauptlayout jedes ausgewählten Benutzers ein. Weitere Informationen finden Sie unter [Hauptmenü mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-1. Jeder Benutzer muss dann einzeln zur **Berichterstellung (Beta)** in ihrem Hauptmenü und akzeptieren Sie die Bedingungen.
+1. Fügen Sie das Symbol **Berichterstellung (Beta)** in die Vorlage für das Hauptlayout jedes ausgewählten Benutzers ein. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Jeder Benutzer muss dann einzeln zum Symbol **Berichterstellung (Beta)** in seinem Hauptmenü navigieren und die Geschäftsbedingungen akzeptieren.
 
 ### Feedback senden
 
 So senden Sie Feedback zur Beta-Version:
 
-1. Klicken Sie auf der Reporting-Arbeitsfläche in Workfront auf die **Feedback senden** Schaltfläche.
-1. Füllen Sie das Formular aus und klicken Sie auf **Einsenden**.
+1. Klicken Sie auf der Berichtsarbeitsfläche in Workfront auf die Schaltfläche **Feedback senden** .
+1. Füllen Sie das Formular aus und klicken Sie dann auf **Senden**.
 
 ## Häufig gestellte Fragen zu Beta
 
@@ -86,7 +86,7 @@ Unsere aktuelle Migrationsstrategie in der offiziellen Version ermöglicht Ihnen
    1. Sie erhalten die Möglichkeit, eine CSV-Datei mit allen Berichten und Dashboards im System zusammen mit allen relevanten Tracking-Informationen zu exportieren (Anzahl der Ansichten, wann und von wem).
    1. Erstellen Sie einen Export von Berichten, die mit geplanten Sendungen mit den Empfängern eingerichtet wurden.
 
-1. Wählen Sie die Berichte und Dashboards aus, die Sie migrieren möchten, und klicken Sie auf **Migrieren**
+1. Wählen Sie die Berichte und Dashboards aus, die Sie migrieren möchten, und klicken Sie dann auf **Migrieren** .
 
    Dies ist eine einmalige Migration. Es wird eine Kopie der ausgewählten Berichte und Dashboards auf die Berichtsarbeitsfläche erstellt, sodass der alte Bericht oder das Dashboard im aktuellen Reporting-Tool intakt bleiben.
 
@@ -125,7 +125,7 @@ Ein Workfront-Administrator kann die Beta-Version nicht deaktivieren. Es können
 
 1. Melden Sie sich als Systemadministrator an.
 1. Navigieren Sie zur Berichtsarbeitsfläche.
-1. Klicken Sie auf Berichtsarbeitsfläche . **Berechtigungen**.
+1. Klicken Sie auf Berichterstellungsarbeitsfläche **Berechtigungen**.
 1. Entfernen Sie die Benutzer, die Sie aus der Beta-Liste ausschließen möchten, aus der Liste, für die Sie sich angemeldet haben.
 1. Klicken Sie auf **Speichern**.
 +++

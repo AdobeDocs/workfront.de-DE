@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 1%
+source-wordcount: '305'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -46,15 +46,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Anzeigen von Ordnern
+## Ordner anzeigen
 
 Sie können Ordner in der Miniatur-, Standard- oder Listenansicht anzeigen. Um die Ansicht zu ändern, verwenden Sie die Ansichtsoptionen in der oberen rechten Ecke.
 
-1. Klicken **Dokumente** im Hauptmenü. ![](assets/main-menu-icon.png)
+1. Klicken Sie im Hauptmenü auf **Dokumente** . ![](assets/main-menu-icon.png)
 
    Oder
 
-   Klicken Sie bei geöffnetem Workfront-Objekt auf **Dokumente** im linken Bereich.
+   Klicken Sie bei geöffnetem Workfront-Objekt im linken Bereich auf **Dokumente** .
 
 1. Klicken Sie auf die Ansichtsoptionen über dem rechten Bereich, um die Darstellung der Dokumente zu ändern.
 
@@ -64,18 +64,18 @@ Sie können Ordner in der Miniatur-, Standard- oder Listenansicht anzeigen. Um d
 
 Erstellen Sie Ordner, um Ihre Dokumente besser zu organisieren. Sie können bis zu 2.000 Ordner für ein Objekt und bis zu 50 Unterordner für jeden Ordner erstellen. Unterordner werden auf maximal 2.000 Ordner angerechnet.
 
-1. Klicken **Dokumente** im Hauptmenü. ![](assets/main-menu-icon.png)
+1. Klicken Sie im Hauptmenü auf **Dokumente** . ![](assets/main-menu-icon.png)
 
    Oder
 
-   Klicken Sie bei geöffnetem Workfront-Objekt auf **Dokumente** im linken Bereich.
+   Klicken Sie bei geöffnetem Workfront-Objekt im linken Bereich auf **Dokumente** .
 
-1. Um einen Ordner der obersten Ebene zu erstellen, stellen Sie sicher, dass nichts ausgewählt ist, und klicken Sie auf **Neu hinzufügen** > **Ordner**.
+1. Um einen Ordner der obersten Ebene zu erstellen, stellen Sie sicher, dass nichts ausgewählt ist, und klicken Sie dann auf **Neu hinzufügen** > **Ordner**.
 
    Oder
 
-   Um einen Unterordner zu erstellen, wählen Sie den Ordner aus, in dem Sie den Unterordner erstellen möchten, und klicken Sie dann auf **Neu hinzufügen** > **Ordner**.
+   Um einen Unterordner zu erstellen, wählen Sie den Ordner aus, in dem Sie den Unterordner erstellen möchten, und klicken Sie dann auf **Neu hinzufügen** > **Ordner**.
 
-## Freigeben von Ordnern
+## Ordner freigeben
 
-Informationen zum Freigeben von Ordnern finden Sie unter [Dokumentordner freigeben](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Informationen zum Freigeben von Ordnern finden Sie unter [Freigeben eines Dokumentordners](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).

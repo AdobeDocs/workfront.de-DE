@@ -33,8 +33,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -47,13 +47,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-boards}}
 
-1. Um einen Workflow zu öffnen, klicken Sie auf [!UICONTROL **Arbeitsablauf anzeigen**].
-1. Wählen Sie die [!UICONTROL Iterationsvorgang] Pinnwand.
+1. Um einen Workstream zu öffnen, klicken Sie auf [!UICONTROL **Workflow anzeigen**].
+1. Wählen Sie die Pinnwand [!UICONTROL Iterationsvorgang] aus.
 1. Überprüfen Sie den Metrikbereich über der Pinnwand oben rechts. Klicken Sie auf die Nach-oben- und Nach-unten-Pfeile, um zwischen den Iterationen zu wechseln.
 
    Die folgenden Metriken werden angezeigt: Gesamtzahl der der Iteration zugewiesenen Punkte, die verbleibenden Punkte, die bei der Iteration noch nicht abgeschlossen sind, und die Anzahl der bei der Iteration abgeschlossenen Punkte.
 
-1. (Optional) Klicken Sie auf die [!UICONTROL **Iterationsdetails**] icon ![Iterationsdetails](assets/iteration-details-button.png) , um das Detaildialogfeld für die ausgewählte Iteration zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png) , um das Detaildialogfeld für die ausgewählte Iteration zu öffnen.
 
 ## Iterationsmetriken im Dashboard überprüfen
 

@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Testversandgruppen
-description: Erfahren Sie mehr über Gruppen in Workfront Testversand.
+description: Erfahren Sie mehr über Gruppen in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Hinzufügen von Gruppen zu Testsendungen](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
-* [Erstellen von Testversandgruppen mit [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
-* [Gruppen privat machen mit [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-* [Gruppen verwalten mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
+* [Erstellen von Testversandgruppen mit  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
+* [Gruppen mit  [!DNL Workfront Proof] privat machen](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+* [Verwalten von Gruppen mit  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)

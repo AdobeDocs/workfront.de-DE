@@ -87,7 +87,7 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;
 
@@ -180,11 +180,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Klicken Sie auf den Namen eines Ziels in der Zielliste und dann auf den Namen eines Ziels.
 
-   Dadurch wird die **Zieldetails** auf der linken Seite.
+   Dadurch wird der Abschnitt **Zieldetails** auf der linken Seite geöffnet.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Klicken Sie auf **Symbol Bearbeiten** ![](assets/edit-icon.png) in der oberen rechten Ecke und klicken Sie auf **Alle bearbeiten** oder **Übersicht**
+1. Klicken Sie oben rechts auf das Symbol **Bearbeiten** ![](assets/edit-icon.png) und dann auf **Alle bearbeiten** oder **Überblick** .
 
    Oder
 
@@ -198,11 +198,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    * **Beschreibung**: Fügen Sie Informationen zum Ziel hinzu oder aktualisieren Sie diese.
    * **Fortschritt**: Gibt an, welcher Prozentsatz des Ziels bisher abgeschlossen wurde. Sie können den Fortschritt eines Ziels nicht manuell aktualisieren. Ziel des Fortschritts ist die Berechnung aller Fortschrittsindikatoren.
-   * **Bedingung**: Gibt an, ob das Ziel neu ist und noch nicht aktualisiert wurde, ob es sich um ein Ziel handelt, das rechtzeitig abgeschlossen werden soll oder zurückliegt. Die Bedingung eines Ziels kann nicht aktualisiert werden. Die Bedingung des Ziels wird automatisch von Worfront berechnet.\
+   * **Bedingung**: Gibt an, ob das Ziel neu ist und noch nicht aktualisiert wurde, ob es sich um ein Ziel handelt, das rechtzeitig abgeschlossen werden soll, oder ob es einen Rückstand aufweist. Die Bedingung eines Ziels kann nicht aktualisiert werden. Die Bedingung des Ziels wird automatisch von Worfront berechnet.\
      Weitere Informationen zu Zielbedingungen und Fortschritt finden Sie unter
-     [Übersicht über den Zielfortschritt und die Bedingungen in den Adobe Workfront-Zielen](../goal-management/calculate-goal-progress.md).
-   * **Status**: Der Status eines Ziels kann nicht manuell aktualisiert werden. Weitere Informationen finden Sie unter [Zielstatusübersicht in Adobe Workfront-Zielen](../goal-management/goal-status-overview.md).
-   * **Goal Owner**: Klicken Sie auf , um den Namen des Eigentümers des Ziels zu aktualisieren. Geben Sie den Namen eines Benutzers, Teams, einer Gruppe oder Ihres Unternehmens ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Sie können nur einen Inhaber für ein Ziel haben.
+     [Überblick über den Zielfortschritt und die Bedingungen in Adobe Workfront-Zielen](../goal-management/calculate-goal-progress.md).
+   * **Status**: Sie können den Status eines Ziels nicht manuell aktualisieren. Weitere Informationen finden Sie unter [Zielstatusübersicht in Adobe Workfront-Zielen](../goal-management/goal-status-overview.md).
+   * **Zieleigentümer**: Klicken Sie auf , um den Namen des Eigentümers des Ziels zu aktualisieren. Geben Sie den Namen eines Benutzers, Teams, einer Gruppe oder Ihres Unternehmens ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Sie können nur einen Inhaber für ein Ziel haben.
    * **Übergeordnetes Ziel**: Beginnen Sie mit der Eingabe des Namens eines Ziels, das Sie als übergeordnetes Ziel des ausgewählten Ziels festlegen möchten. Der Fortschritt des ausgewählten Ziels aktualisiert automatisch den Fortschritt des übergeordneten Ziels.
 
      >[!TIP]
@@ -216,7 +216,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    * **Zeitraum**: Klicken Sie auf , um den Zeitraum für das Ziel zu aktualisieren.\
      Oder\
-     Auswählen **Benutzerdefinierte Datumswerte aktivieren** zum Angeben von Daten für die **Starten** und **Enddaten**.
-   * **Notizen schließen**: Dieses Feld ist nur für Ziele mit dem Status Geschlossen sichtbar. Geschlossene Ziele können nicht bearbeitet werden. Beim erneuten Öffnen eines geschlossenen Ziels werden die schließenden Notizen dauerhaft gelöscht.
+     Wählen Sie **Benutzerdefinierte Datumswerte aktivieren** aus, um die Datumsangaben für das Ziel **Start** und das Enddatum **Enddatum** anzugeben.
+   * **Notizen schließen**: Dieses Feld ist nur für Ziele mit dem Status &quot;Geschlossen&quot;sichtbar. Geschlossene Ziele können nicht bearbeitet werden. Beim erneuten Öffnen eines geschlossenen Ziels werden die schließenden Notizen dauerhaft gelöscht.
 
 

@@ -24,7 +24,7 @@ Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfr
 
 Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der letzten Fehlerkorrekturen in Workfront Fusion finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen mit der Bezeichnung Workfront Fusion Maintenance Update .
+Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
 
 
 ## Verbesserungen der Suchfunktion für den Ausführungsverlauf von Szenarien
@@ -39,4 +39,4 @@ Um die Suche nach den benötigten Daten im Ausführungsverlauf eines Szenarios z
 
 Zuvor konnten Benutzer nur nach Text suchen und Filter nur in der vollständigen Liste der Ausführungen verwenden.
 
-Weitere Informationen finden Sie unter [Ausführungsverlauf eines Szenarios in Adobe Workfront Fusion anzeigen](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Weitere Informationen finden Sie unter [Anzeigen des Ausführungsverlaufs eines Szenarios in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).

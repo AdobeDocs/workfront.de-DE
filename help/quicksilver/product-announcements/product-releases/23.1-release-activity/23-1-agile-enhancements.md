@@ -41,9 +41,9 @@ Die Datumszuordnung gilt auch für verbundene Checklisten-Elemente, die mit Unte
 
 Das Fälligkeitsdatum auf verbundenen Karten und Ad-hoc-Karten enthält jetzt auch ein Zeitfeld.
 
-Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Weitere Informationen finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Elemente der Pinnwand-Checkliste und Workfront-Unteraufgaben sind jetzt verknüpft.
 
@@ -55,9 +55,9 @@ Wenn Sie einer Pinnwand für eine Workfront-Aufgabe eine verbundene Karte hinzuf
 
 Zuvor waren Checklisten-Elemente und Unteraufgaben nicht verknüpft. Wenn Sie eine Unteraufgabe auf der Pinnwand einbeziehen möchten, können Sie sie als separate verbundene Karte importieren oder manuell ein Element der Checkliste zu einer Karte hinzufügen.
 
-Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Verwalten von Checklisten-Elementen auf Karten](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+Weitere Informationen finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Verwalten von Checklisten-Elementen auf Karten](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Kartenzähler auf Pinnwandspalten
 
@@ -77,7 +77,7 @@ Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksi
 
 Sie können das Dashboard der Pinnwände nun nach Pinnwandnamen oder -datum sortieren und in der Liste nach einer bestimmten Pinnwand suchen.
 
-Weitere Informationen finden Sie unter [Verwenden des Dashboards-Dashboards](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
+Weitere Informationen finden Sie unter [Verwenden des Dashboards für Pinnwände](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
 
 ## Status wird auf der Karte angezeigt
 
@@ -87,7 +87,7 @@ Weitere Informationen finden Sie unter [Verwenden des Dashboards-Dashboards](/he
 
 Wenn einer Karte auf einer Pinnwand ein Status zugewiesen wurde, wird der Status jetzt auf der Karte angezeigt, sodass Sie die Karte nicht öffnen müssen, um den Status zu sehen. Diese Verbesserung gilt sowohl für Ad-hoc-Karten als auch für verbundene Karten.
 
-Weitere Informationen finden Sie unter [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Weitere Informationen finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 ![Status auf Karte](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
@@ -109,7 +109,7 @@ Sie können die vollständige URL kopieren und an eine andere Person senden. Sie
 
 Zuvor waren Links für Pinnwände, aber nicht für bestimmte Karten verfügbar.
 
-Informationen zu Karten finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) und [Angeschlossene Karten auf Pinnwänden verwenden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Informationen zu Karten finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) und [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Filtern nach Verbindung auf Pinnwänden
 
@@ -121,7 +121,7 @@ Die Liste der Filter auf einer Pinnwand enthält jetzt die Option, nach Verbindu
 
 Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Karten aus einer Pinnwand planmäßig archivieren
 
@@ -135,4 +135,4 @@ Wenn Sie die Karten nach dem Absturz der Pinnwand erneut anzeigen möchten, kön
 
 Weitere Informationen finden Sie unter [Kartenfalloff konfigurieren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
-[Videodemonstration zu dieser Funktion anzeigen](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412323/){target=_blank}

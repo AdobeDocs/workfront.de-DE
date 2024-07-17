@@ -2,27 +2,27 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '''Duration Type overview: Berechnete Arbeit"'
+title: 'Duration Type overview: Calculated Work'
 description: '"Berechnete Arbeit"ist eine Dauer, die Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Durationstypen in Workfront finden Sie unter Übersicht über die Aufgabendauer und -dauer.'
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
 
-# Übersicht über den Durationstyp: Berechnete Arbeit
+# Übersicht über den Dauer-Typ: Berechnete Arbeit
 
-&quot;Berechnete Arbeit&quot;ist eine Dauer, die Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Durationstypen in Workfront finden Sie unter [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+&quot;Berechnete Arbeit&quot;ist eine Dauer, die Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Durationstypen in Workfront finden Sie unter [Übersicht über die Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Übersicht über den Typ der berechneten Arbeitsdauer
 
 Berechnete Arbeit bestimmt den Aufwand (geplante Stunden), der zum Abschluss der Aufgabe erforderlich ist. Es wird empfohlen, den Typ &quot;Berechnete Arbeitsdauer&quot;zu verwenden, wenn die der Aufgabe zugewiesenen Ressourcen für die gesamte Dauer der Aufgabe zugewiesen sind.
 
-Ihr Workfront- oder Gruppenadministrator kann den Standardtyp für die Dauer Ihres Systems oder Ihrer Gruppe als &quot;Berechnete Arbeit&quot;festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Typ Dauer erstellt. Informationen zum Ändern der Aufgaben- und Problemvoreinstellungen im Rahmen Ihrer Projekteigenschaften auf System- oder Gruppenebene finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Ihr Workfront- oder Gruppenadministrator kann den Standardtyp für die Dauer Ihres Systems oder Ihrer Gruppe als &quot;Berechnete Arbeit&quot;festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Typ Dauer erstellt. Informationen zum Ändern der Aufgaben- und Ausgabevoreinstellungen als Teil Ihrer Projektanforderungen auf System- oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Wenn Ressourcen zu einer Aufgabe hinzugefügt werden, kann ein Projektmanager mit einer geplanten Erhöhung des Aufwands rechnen. Ein einstündiges Planungstreffen mit drei Ressourcen stellt beispielsweise drei Gesamtarbeitsstunden dar, und ein einstündiges Planungstreffen mit zehn Ressourcen stellt zehn Arbeitsstunden dar. Dabei wird davon ausgegangen, dass jede Ressource der Aufgabe mit 100 % Zuordnung zugewiesen ist.
 
@@ -30,13 +30,13 @@ Wenn Ressourcen zu einer Aufgabe hinzugefügt werden, kann ein Projektmanager mi
 
 Wenn Sie den Typ &quot;Berechnete Arbeitsdauer&quot;für eine Aufgabe verwenden, berechnet Workfront die Arbeitsleistung für jede Aufgabe anhand der folgenden beiden Formeln. Die Formeln variieren je nachdem, welcher Prozentsatz der Zeit der Zuweisung der einzelnen Ressourcen zu der Aufgabe entspricht und wie viele Ressourcen Sie den einzelnen Aufgaben zugewiesen haben:
 
-* Vereinfachte Formel: Wenn Sie der Aufgabe eine Ressource zugewiesen haben und sie der Aufgabe zu 100 % ihrer verfügbaren Zeit zugewiesen sind, wird der Wert für &quot;Arbeit erforderlich&quot;für jede Aufgabe mit der folgenden Formel berechnet:
+* Vereinfachte Formel: Wenn Sie der Aufgabe eine Ressource zugewiesen haben und sie der Aufgabe für 100 % ihrer verfügbaren Zeit zugewiesen sind, wird der Wert für &quot;Arbeit erforderlich&quot;für jede Aufgabe anhand der folgenden Formel berechnet:
 
 ```
 Work Required (Planned Hours) = (Duration of the task in hours) x (The number of resources assigned to the task)
 ```
 
-* Komplexe Formel: Wenn Sie jede Ressource mit unterschiedlichen Zuordnungen zuweisen, berücksichtigt die Formel diese Zuordnungen und berücksichtigt diese Varianten:
+* Komplexe Formel: Wenn Sie jede Ressource mit verschiedenen Zuordnungen zuweisen, berücksichtigt die Formel diese Zuordnungen und berücksichtigt diese Varianten:
 
 ```
 Work Required (Planned Hours) = SUM[(Duration of the task in hours) x (Percent allocated towards tasks for each resource)]
@@ -54,7 +54,7 @@ Im folgenden Beispiel wird unter &quot;Projektvoreinstellungen&quot;unter &quot;
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Anzahl der Bevollmächtigten (jeweils 100% zugewiesen)</strong> </p> </th> 
+   <th> <p><strong>Anzahl der zugewiesenen Personen (jeweils 100 %)</strong> </p> </th> 
    <th> <p><strong>Dauer</strong> </p> </th> 
    <th> <p><strong>Geplante Stunden</strong> </p> </th> 
   </tr> 
@@ -82,9 +82,9 @@ In diesem Fall wird jedem Bevollmächtigten 100 % der Aufgabe &quot;Berechnete A
 
 ![](assets/calcwork-350x71.png)
 
-## Ändern des Zeittyps einer Aufgabe in &quot;Berechnete Arbeit&quot;
+## Ändern Sie den Aufgabentyp in &quot;Berechnete Arbeit&quot;
 
-Informationen zum Ändern der Dauer einer Aufgabe finden Sie unter [Aktualisierung des Zeitdauer-Typs einer Aufgabe](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Weitere Informationen zum Ändern des Dauer-Typs einer Aufgabe finden Sie unter [Aktualisieren des Dauer-Typs einer Aufgabe](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

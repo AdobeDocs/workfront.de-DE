@@ -85,7 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Arbeitsdokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workflows](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zu Hintergrundbildern von Datensatzseiten
 
@@ -122,46 +122,46 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    Oder
 
-   Klicken Sie in der Tabellenansicht auf die **Details öffnen** icon ![](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte.
+   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** ![](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte.
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    ![](assets/details-box.png)
 
-1. (Optional) Klicken Sie auf die **In neuer Registerkarte öffnen** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der rechten oberen Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie oben rechts in der Datensatzvorschau auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> , um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
 
    ![](assets/details-page.png)
 
-1. Klicken Sie in der Datensatzvorschau oder -seite auf **Deckblatt hinzufügen**
+1. Klicken Sie in der Datensatzvorschau oder -seite auf **Deckblatt hinzufügen** .
 
 
    Oder
 
-   Bewegen Sie den Mauszeiger über ein vorhandenes Titelbild und klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) Klicken Sie auf **Hochladen**. <!--check the casing here; I logged a bug for this-->
-Die **Datensatzabdeckung** wird in der **Hochladen** Registerkarte.
+   Bewegen Sie den Mauszeiger über ein vorhandenes Titelbild, klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) und dann auf **Hochladen** . <!--check the casing here; I logged a bug for this-->
+Das Feld **Abdeckung der Datensätze** wird auf der Registerkarte **Hochladen** geöffnet.
 
    ![](assets/record-cover-box-for-upload.png)
 
-1. Klicks **Bilder durchsuchen** und suchen Sie nach einem Bild auf Ihrem Computer, um es auszuwählen und hinzuzufügen.
+1. Klicken Sie auf **Bilder durchsuchen** und suchen Sie nach einem Bild auf Ihrem Computer, um es auszuwählen und hinzuzufügen.
 
-1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das **Neues Bild hochladen** icon ![](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
+1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Neues Bild hochladen** ![](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
 
-1. (Optional) Klicken Sie auf die **Galerie** und klicken Sie auf ein Bild in der Bildergalerie. Die Bildergalerie kann nicht geändert werden.
+1. (Optional) Klicken Sie auf die Registerkarte **Galerie** und dann auf ein Bild in der Bildergalerie. Die Bildergalerie kann nicht geändert werden.
 
    ![](assets/record-cover-box-for-gallery.png)
 
-1. Klicks **Bild verwenden**.
+1. Klicken Sie auf **Bild verwenden**.
 
    Das Bild wird oben auf der Datensatzvorschau oder Seite hochgeladen und die Änderungen werden automatisch gespeichert.
 
    ![](assets/record-page-with-cover-image.png)
 
-1. (Optional) Bewegen Sie den Mauszeiger über das Bild und klicken Sie auf die **Mehr** Menü ![](assets/more-menu.png) Führen Sie in der rechten unteren Ecke des Titelbilds einen der folgenden Schritte aus:
+1. (Optional) Bewegen Sie den Mauszeiger über das Bild und klicken Sie dann in der rechten unteren Ecke des Titelbilds auf das Menü **Mehr** . Führen Sie dann einen der folgenden Schritte aus:![](assets/more-menu.png)
 
-   * Klicks **Hochladen** , wenn Sie das Titelbild ersetzen und Schritt 6 wiederholen möchten, um ein neues Bild hochzuladen und zu speichern.
-   * Klicks **Reposition** und verwenden Sie die **Reposition** Tool ![](assets/reposition-tool-icon.png) , um das Titelbild zu zentrieren, und klicken Sie dann auf **Speichern** wann geschehen.
-   * Klicks **Entfernen** , um das Titelbild zu entfernen.
+   * Klicken Sie auf **Hochladen** , wenn Sie das Titelbild ersetzen und Schritt 6 wiederholen möchten, um ein neues Bild hochzuladen und zu speichern.
+   * Klicken Sie auf **Neu positionieren**, verwenden Sie das Werkzeug **Neu positionieren** ![](assets/reposition-tool-icon.png), um das Titelbild zu zentrieren, und klicken Sie dann nach Abschluss auf **Speichern** .
+   * Klicken Sie auf **Entfernen** , um das Titelbild zu entfernen.
 
    Workfront speichert Ihre Änderungen automatisch.

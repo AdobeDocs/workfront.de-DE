@@ -21,11 +21,11 @@ Sie können in den folgenden Bereichen in Adobe Workfront Dokumente zu Projekten
 * Der Dokumentbereich für ein Workfront-Objekt
 * Eine verbundene Karte auf einer Workfront-Pinnwand
 
-Sie können auch neue Dokumentversionen hochladen und Links zu Dokumenten von Drittanbieter-Cloud-Anbietern wie Google Drive, Dropbox und Microsoft OneDrive hinzufügen. Weitere Informationen zum Hinzufügen neuer Dokumentversionen finden Sie unter [Eine neue Version eines Dokuments hochladen](../../documents/managing-documents/upload-new-document-version.md). Informationen zum Hinzufügen von Dokumenten von Drittanbieter-Cloud-Anbietern finden Sie unter [Verknüpfen von Dokumenten mit externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Sie können auch neue Dokumentversionen hochladen und Links zu Dokumenten von Drittanbieter-Cloud-Anbietern wie Google Drive, Dropbox und Microsoft OneDrive hinzufügen. Weitere Informationen zum Hinzufügen neuer Versionen von Dokumenten finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md). Informationen zum Hinzufügen von Dokumenten von Drittanbieter-Cloud-Anbietern finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Es gibt keine Einschränkungen hinsichtlich der Dateitypen und -größen, die Sie in Workfront hochladen können. Um jedoch erfolgreich zu sein, muss der Upload innerhalb von fünf Minuten abgeschlossen sein und Sie müssen über ausreichend Speicherplatz verfügen.
 
-Informationen zum Hochladen neuer Dokumentversionen in Workfront finden Sie unter [Eine neue Version eines Dokuments hochladen](../../documents/managing-documents/upload-new-document-version.md).
+Informationen zum Hochladen neuer Dokumentversionen in Workfront finden Sie unter [Hochladen einer neuen Dokumentversion](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Zugriffsanforderungen
 
@@ -69,7 +69,7 @@ Sie können Workfront über das Dateisystem auf Ihrer Workstation neue Dokumente
 Hinzufügen eines Dokuments:
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, dem Sie ein neues Dokument hinzufügen möchten.
-1. Klicken Sie auf **Dokumente** und klicken Sie auf die **Neu hinzufügen** Dropdown-Menü.
+1. Klicken Sie auf die Registerkarte **Dokumente** und dann auf das Dropdown-Menü **Neu hinzufügen** .
 
    ![](assets/add-new-doc.png)
 
@@ -83,28 +83,28 @@ Hinzufügen eines Dokuments:
       <td role="rowheader">Hochladen von Dokumenten aus Ihrem Dateisystem auf Ihre Workstation</td> 
       <td> 
        <ol> 
-        <li value="1">Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Dokument.</strong></li> 
+        <li value="1">Wählen Sie aus dem Dropdownmenü <strong>Neu hinzufügen</strong> die Option <strong>Dokument.</strong></li> 
         <li value="2"> <p>Suchen Sie das Dokument, das Sie hinzufügen möchten, und wählen Sie es aus dem Dateisystem auf Ihrer Workstation aus.<br></p> <p>Sie können mehrere Dokumente auswählen, indem Sie die Umschalttaste drücken, während Sie zusätzliche Dateien auswählen.</p> </li> 
-        <li value="3">Klicks <strong>Öffnen</strong>.</li> 
+        <li value="3">Klicken Sie auf <strong>Öffnen</strong>.</li> 
        </ol> 
-       <p><b>NOTE</b>: Sie können Dateien auch direkt aus Ihrem Dateimanager in die Dokumentliste ziehen.</td> 
+       <p><b>HINWEIS</b>: Sie können Dateien auch direkt aus Ihrem Dateimanager in die Dokumentliste ziehen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hochladen von Dokumenten von einer Drittanbieteranwendung wie Google Drive oder SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Von &lt;name_of_third-party_application&gt;</strong>.</p> <p>Um beispielsweise ein Dokument von Google Drive hochzuladen, klicken Sie auf <strong>Vom Google Drive</strong>.</p> </li> 
-        <li value="2"> <p>Befolgen Sie die Anweisungen, um das Dokument in der Drittanbieteranwendung auszuwählen.<br></p> <p>Weitere Informationen zu verknüpften Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Verknüpfen von Dokumenten mit externen Anwendungen</a>.</p> </li> 
+        <li value="1"> <p>Wählen Sie aus dem Dropdownmenü <strong>Neu hinzufügen</strong> die Option <strong>Aus &lt;Name_der_Drittanbieteranwendung&gt;</strong> aus.</p> <p>Um beispielsweise ein Dokument vom Google Drive hochzuladen, klicken Sie auf <strong>Vom Google Drive</strong>.</p> </li> 
+        <li value="2"> <p>Befolgen Sie die Anweisungen, um das Dokument in der Drittanbieteranwendung auszuwählen.<br></p> <p>Weitere Informationen zu verknüpften Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Verknüpfen von Dokumenten aus externen Anwendungen</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anfordern eines Dokuments von einem anderen Workfront-Benutzer</td> 
       <td> 
        <ol> 
-        <li value="1">Aus dem <strong>Neu hinzufügen</strong> Dropdown-Menü auswählen <strong>Anfordern eines Dokuments</strong>.</li> 
-        <li value="2">Im <strong>Von wem angefordert du es?</strong> Geben Sie den Namen des Benutzers ein, von dem Sie das Dokument anfordern.</li> 
-        <li value="3">Im <strong>Sagen Sie ihnen, was Sie anfordern</strong> -Feld den Namen des Dokuments eingeben.</li> 
-        <li value="4"> <p>Klicks <strong>Anfrage senden</strong>.</p> <p>Ihre Anforderung wird auf der Registerkarte Dokumente angezeigt.</p> <p>Weitere Informationen zum Anfordern von Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Anfordern eines Dokuments</a>.</p> </li> 
+        <li value="1">Wählen Sie aus dem Dropdownmenü <strong>Neu hinzufügen</strong> die Option <strong>Dokument anfordern</strong> aus.</li> 
+        <li value="2">Geben Sie in das Feld <strong>Von wem Sie es von </strong> anfordern, den Namen des Benutzers ein, von dem Sie das Dokument anfordern.</li> 
+        <li value="3">Geben Sie in das Feld <strong>Sagen Sie ihnen, was Sie anfordern</strong> den Namen des Dokuments ein.</li> 
+        <li value="4"> <p>Klicken Sie auf <strong>Anfrage senden</strong>.</p> <p>Ihre Anforderung wird auf der Registerkarte Dokumente angezeigt.</p> <p>Weitere Informationen zum Anfordern von Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Anfordern eines Dokuments</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 

@@ -10,7 +10,7 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 1%
 
 Sie können die folgenden Arten von Anforderungen finden, die Sie oder eine andere Person gesendet haben, oder Anforderungen, die Sie gestartet haben, aber noch nie abgesendet haben. Sie können diese Anforderungen in den folgenden Bereichen von Adobe Workfront finden:
 
-* **Gesendeter Bereich**: Alle Anfragen, die Sie oder eine andere Person gesendet haben und auf die Sie zumindest Zugriff haben.
-* **Entwurfsabschnitt** : Alle Anfragen, die Sie gestartet haben, aber noch nie beendet haben und Sie nie gesendet haben. Weitere Informationen zu Entwurfsanfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* **Gesendeter Abschnitt**: Alle Anfragen, die Sie oder eine andere Person gesendet haben und auf die Sie mindestens Zugriff haben.
+* **Entwurfsabschnitt** : Alle Anforderungen, die Sie gestartet, aber noch nie abgeschlossen und nie gesendet haben. Weitere Informationen zu Entwurfsanforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
@@ -38,7 +38,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Übersicht über Adobe Workfront-Lizenzen*</td> 
@@ -52,7 +52,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Anforderungen oder höher anzeigen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für Anforderungen oder höher anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,14 +63,14 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
-1. Klicken **Gesendet** im linken Bereich, um alle gesendeten Anfragen anzuzeigen.
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+1. Klicken Sie im linken Bereich auf **Gesendet** , um alle gesendeten Anfragen anzuzeigen.
 
    Sie können bis zu 2000 Anfragen anzeigen, die möglicherweise auf mehreren Seiten angezeigt werden.
 
    >[!TIP]
    >
-   >Die Spalten in der Liste &quot;Gesendete Anforderungen&quot;können nicht angepasst werden.
+   >Sie können die Spalten in der Liste Gesendete Anforderungen nicht anpassen.
 
    ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
@@ -101,7 +101,7 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
       </tr> 
       <tr> 
          <td role="rowheader">Eingabedatum</td> 
-         <td>Das Datum, an dem die Anforderung gesendet wurde, oder das Datum, an dem das auflösende Objekt erstellt wurde, wenn die Anforderung beim Konvertieren gelöscht wurde. </td> 
+         <td>Das Datum, an dem die Anforderung gesendet wurde, oder das Datum, an dem das auflösende Objekt erstellt wurde, wenn die Anforderung bei der Konvertierung gelöscht wurde. </td> 
       </tr> 
       <tr> 
          <td role="rowheader">Datum der letzten Aktualisierung</td> 
@@ -116,17 +116,17 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
    >
    >Wenn Sie von der Liste Gesendete Anforderungen weg navigieren, bleibt die ausgewählte Sortieroption erhalten.
 
-1. (Optional) Wählen Sie eine Anforderung in der Liste aus und klicken Sie auf das **Zusammenfassung öffnen** icon ![](assets/open-summary-with-text-nwe.png) , um das Bedienfeld &quot;Zusammenfassung&quot;zu öffnen und zusätzliche Informationen zur Anforderung anzuzeigen, Kommentare und Dokumente hinzuzufügen oder sie zuzuweisen. Weitere Informationen zum Bedienfeld &quot;Zusammenfassung&quot;finden Sie unter [Zusammenfassungsübersicht](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Optional) Wählen Sie eine Anforderung in der Liste aus und klicken Sie dann auf das Symbol **Zusammenfassung öffnen** ![](assets/open-summary-with-text-nwe.png) , um das Bedienfeld &quot;Zusammenfassung&quot;zu öffnen und zusätzliche Informationen zur Anforderung anzuzeigen, Kommentare und Dokumente hinzuzufügen oder sie zuzuweisen. Weitere Informationen zum Bedienfeld &quot;Zusammenfassung&quot;finden Sie unter [Übersicht&quot;](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Wenn das Bedienfeld &quot;Zusammenfassung&quot;bereits geöffnet ist, wird das Symbol &quot;Zusammenfassung öffnen&quot;in &quot;Zusammenfassung schließen&quot;geändert.
 
-1. (Optional und bedingt) Klicken Sie auf die **X** rechts oben oder **Zusammenfassung schließen** icon ![](assets/close-summary-with-text-nwe.png) , um das Bedienfeld &quot;Zusammenfassung&quot;zu schließen.
+1. (Optional und bedingt) Klicken Sie auf das Symbol **X** oben rechts oder auf das Symbol **Zusammenfassung schließen** ![](assets/close-summary-with-text-nwe.png) , um das Bedienfeld &quot;Zusammenfassung&quot;zu schließen.
 
    Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wurde und das Problem im Konvertierungsprozess gelöscht wurde, ist das Bedienfeld &quot;Zusammenfassung&quot;leer. Informationen zu Konvertierungsproblemen finden Sie unter [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Aus dem **Filtersymbol** ![](assets/filter-nwepng.png) Wählen Sie oben rechts in der Liste einen der in der folgenden Tabelle aufgeführten Filter aus.
+1. Wählen Sie oben rechts in der Liste aus dem Symbol **Filter** ![](assets/filter-nwepng.png) einen der in der folgenden Tabelle aufgeführten Filter aus.
 
    >[!TIP]
    >
@@ -141,7 +141,7 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
       <td>Alle gesendeten Anfragen, unabhängig vom Status oder der Person, die sie gesendet hat.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Öffnen</td> 
+      <td role="rowheader">Offen</td> 
       <td> <p>Alle gesendeten Anfragen, die aktuell geöffnet sind, unabhängig davon, wer sie gesendet hat. Nur Anfragen, die Sie mindestens berechtigt haben, hier anzuzeigen, wenn Sie sie nicht selbst übermittelt haben. </p> <p>Anforderungen ohne das tatsächliche Abschlussdatum oder deren aufgelöstes Objekt kein tatsächliches Abschlussdatum hat, werden auf der Unterregisterkarte "Öffnen"aufgelistet.</p> <p><b>TIPP</b>
 
    Anforderungen, die sich in einem Status befinden, der nicht mit Geschlossen übereinstimmt, werden als offen betrachtet.</p> </td>
@@ -159,7 +159,7 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
     </tbody> 
    </table>
 
-1. (Optional) Klicken Sie auf die **Seite filtern** icon ![](assets/search-icon.png) oben in der Liste, um nach einer Anforderung anhand des Namens zu suchen. Die Liste wird mit Ergebnissen aktualisiert, die Ihren Suchkriterien entsprechen.
+1. (Optional) Klicken Sie oben in der Liste auf das Symbol **Filterseite** ![](assets/search-icon.png) , um nach einer Anforderung anhand des Namens zu suchen. Die Liste wird mit Ergebnissen aktualisiert, die Ihren Suchkriterien entsprechen.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -184,7 +184,7 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
    </ul></li>
    -->
 
-1. Klicken **Entwürfe** , um alle entworfenen Anforderungen anzuzeigen. Workfront speichert eine unbegrenzte Anzahl von Entwürfen für jede Anforderungswarteschlange in diesem Ordner. Wenn Sie eine neue Anforderung für ein Warteschlangenthema eingeben, das bereits über einen Entwurf verfügt, werden Sie aufgefordert, einen vorhandenen Entwurf zu verwenden. Weitere Informationen finden Sie unter [Anforderungen aus Entwürfen erstellen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+1. Klicken Sie auf **Entwürfe** , um alle entworfenen Anforderungen anzuzeigen. Workfront speichert eine unbegrenzte Anzahl von Entwürfen für jede Anforderungswarteschlange in diesem Ordner. Wenn Sie eine neue Anforderung für ein Warteschlangenthema eingeben, das bereits über einen Entwurf verfügt, werden Sie aufgefordert, einen vorhandenen Entwurf zu verwenden. Weitere Informationen finden Sie unter [Anforderungen aus Entwürfen erstellen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
  
 

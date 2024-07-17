@@ -19,4 +19,4 @@ ht-degree: 7%
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Neue Startseite](../../workfront-basics/using-home/new-home/new-home.md)
-* [Verwenden Sie die [!UICONTROL Startseite] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+* [Verwenden des Bereichs [!UICONTROL Home]](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)

@@ -9,7 +9,7 @@ role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Weitere Informationen zum Veröffentlichungsintervall und zur Einstellung der Ve
 >
 >* Wenn Ihr Unternehmen derzeit die Standard-API verwendet, hat Ihr Workfront-Administrator eine Mitteilung zum Ankündigungszentrum mit weiteren Anweisungen zur Standard-API erhalten.
 >
->Die neueste Version der API finden Sie unter [API-Versionierung und Support-Zeitplan](../../wf-api/api/api-version-support-schedule.md).
+>Informationen zur neuesten Version der API finden Sie unter [API-Versionierung und Support-Zeitplan](../../wf-api/api/api-version-support-schedule.md).
 
 
 ## Bestimmen der verwendeten API-Version

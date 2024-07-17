@@ -19,15 +19,15 @@ ht-degree: 4%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md)
-* [Filter in erweiterten Analysen anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md)
-* [Erweiterte Analyse-KPIs](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
+* [Verbesserte Analyseübersicht](../enhanced-analytics/enhanced-analytics-overview.md)
+* [Filter in Enhanced Analytics anwenden](../enhanced-analytics/use-enhanced-analytics-filters.md)
+* [Erweiterte Analyse-KPIs verstehen](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
 * [Anzeigen der Visualisierung des Flugplans in der erweiterten Analyse](../enhanced-analytics/flight-plan-overview.md)
-* [Anzeigen der Niederschlagsvisualisierung in der erweiterten Analyse](../enhanced-analytics/burndown-overview.md)
-* [Anzeigen der Aufgaben in der Flugvisualisierung in Enhanced Analytics](../enhanced-analytics/tasks-in-flight-overview.md)
-* [Anzeigen der Visualisierung der Projektaktivität in der erweiterten Analyse](../enhanced-analytics/project-activity-overview.md)
+* [Anzeigen der Aufschlüsselungsvisualisierung in der erweiterten Analyse](../enhanced-analytics/burndown-overview.md)
+* [Anzeigen der Aufgaben in der Visualisierung des Fluges in Enhanced Analytics](../enhanced-analytics/tasks-in-flight-overview.md)
+* [Anzeigen der Visualisierung der Projektaktivität in Enhanced Analytics](../enhanced-analytics/project-activity-overview.md)
 * [Anzeigen der Projekt-Treemap-Visualisierung in Enhanced Analytics](../enhanced-analytics/project-treemap-overview.md)
-* [Anzeigen der Aktivitätsvisualisierung nach Team in Enhanced Analytics](../enhanced-analytics/activity-by-team-overview.md)
+* [Anzeigen der Aktivitäts-Visualisierung nach Team in Enhanced Analytics](../enhanced-analytics/activity-by-team-overview.md)
 <!--
 * [View the Resource capacity visualization in Enhanced analytics](../enhanced-analytics/resource-capacity-overview.md) 
 * [View the Team capacity visualization in Enhanced analytics](../enhanced-analytics/team-capacity-overview.md) 

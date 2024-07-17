@@ -27,4 +27,4 @@ Bisher waren die Datei-Uploads in diesem Modul auf 5 MB beschränkt.
 
 Weitere Informationen zu den Adobe Creative Cloud-Bibliotheksmodulen finden Sie unter [Adobe Creative Cloud-Bibliotheksmodule](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
 
-Weitere Informationen zu anderen Workfront Fusion-Leistungsgarantien, einschließlich Dateigrößenbeschränkungen, finden Sie unter [Limits bei der Leistung von Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).
+Weitere Informationen zu anderen Workfront Fusion-Leistungsgarantien, einschließlich Dateigrößenbeschränkungen, finden Sie unter [Adobe Workfront Fusion-Leistungsgarantien](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).

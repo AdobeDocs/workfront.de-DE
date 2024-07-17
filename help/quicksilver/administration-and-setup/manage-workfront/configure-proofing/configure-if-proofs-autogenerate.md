@@ -8,8 +8,8 @@ description: Sie können konfigurieren, ob das System automatisch Testsendungen 
 author: Courtney
 source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
@@ -27,8 +27,8 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Abo</a> </td> 
-   <td>Beliebig</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Plan</a> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Überblick über Lizenzen</a>*</td> 
@@ -36,7 +36,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffskonfigurationen</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein. Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,26 +45,26 @@ Sie müssen über Folgendes verfügen:
 
 ## Konfigurieren, ob Testsendungen automatisch für einen einzelnen Benutzer generiert werden
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
-1. Wählen Sie einen Benutzer mit Testversandzugriff aus und klicken Sie auf **Bearbeiten**.
-1. Im **Voreinstellungen** -Abschnitt, aktivieren oder deaktivieren Sie die **Automatische Erstellung von Testsendungen beim Hochladen von Dokumenten** aktivieren.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
+1. Wählen Sie einen Benutzer mit Testversandzugriff aus und klicken Sie dann auf **Bearbeiten**.
+1. Aktivieren oder deaktivieren Sie im Abschnitt **Voreinstellungen** das Kontrollkästchen **Testsendungen beim Hochladen von Dokumenten automatisch generieren** .
 
    ![](assets/autogenerate-proofs-350x216.png)
 
-1. Klicken **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 
 ## Konfigurieren, ob Testsendungen automatisch für mehrere Benutzer generiert werden
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
-1. Wählen Sie Benutzer mit Testversandzugriff aus und klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
+1. Wählen Sie Benutzer mit Testversandzugriff aus und klicken Sie dann auf **Bearbeiten**.
 
    >[!IMPORTANT]
    >
    >Wenn nicht alle Benutzer Zugriff auf Testsendungen haben, wird die Option Testsendungen beim Hochladen von Dokumenten automatisch generieren nicht angezeigt.
 
-1. Im **Voreinstellungen** Abschnitt aktivieren **Automatische Erstellung von Testsendungen beim Hochladen von Dokumenten** Kontrollkästchen aktivieren und dann **Ja** oder **Nein**.
+1. Aktivieren Sie im Abschnitt **Voreinstellungen** das Kontrollkästchen **Testsendungen beim Hochladen von Dokumenten automatisch generieren** und aktivieren Sie dann **Ja** oder **Nein**.
 
    ![](assets/autogenerate-proofs-bulk-350x285.png)
 
-1. Klicken **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.
 

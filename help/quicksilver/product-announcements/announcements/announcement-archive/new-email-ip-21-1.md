@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: announcements
 title: Neue IP-Adressen für Adobe Workfront-E-Mails mit Version 21.1
-description: Um den erfolgreichen E-Mail-Versand zu verbessern, fügen wir neue IP-Adressen mit der Produktionsversion 21.1 für die unten aufgeführten Cluster hinzu. Um herauszufinden, auf welchem Cluster sich Ihre Instanz befindet, gehen Sie zu "Setup &gt", "System&gt", "Customer Info".
+description: Um den erfolgreichen E-Mail-Versand zu verbessern, fügen wir neue IP-Adressen mit der Produktionsversion 21.1 für die unten aufgeführten Cluster hinzu. Um herauszufinden, auf welchem Cluster sich Ihre Instanz befindet, gehen Sie zu Setup &gt; System&gt; Customer Info.
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
@@ -33,7 +33,7 @@ Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um sicherzu
 * 23 251 239 98
 * 23 251 239 99
 
-(Weitere Informationen zur Zulassungsliste und anderen IP-Adressen, die möglicherweise bereits zu Ihrer Zulassungsliste hinzugefügt wurden, finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+(Weitere Informationen zur Zulassungsliste und anderen IP-Adressen, die möglicherweise bereits zu Ihrer Zulassungsliste hinzugefügt wurden, finden Sie unter [Konfigurieren der Firewall-Zulassungsliste](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
 
 Wann muss dies geschehen?
 

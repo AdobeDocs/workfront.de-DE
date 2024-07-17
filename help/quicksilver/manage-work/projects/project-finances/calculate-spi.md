@@ -9,8 +9,8 @@ feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 1%
+source-wordcount: '449'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen von Finanzen</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen von Finanzen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,13 +60,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Projektmanager wissen, dass ein SPI-Wert von 1 bedeutet, dass das Projekt planmäßig oder planmäßig durchgeführt wird.  Werte größer als 1 weisen darauf hin, dass ein Projekt vor dem Zeitplan liegt und Werte kleiner als 1 bedeuten, dass ein Projekt hinter dem Zeitplan liegt.  Je weiter von 1, desto größer ist die Abweichung vom Plan.
 
-| **SPI-Wert** | **Angabe von &quot;On Schedule&quot;** |
+| **SPI-Wert** | **Anzeige von &quot;On Schedule&quot;** |
 |---|---|
 | 1 | Im Plan oder planmäßig |
 | > 1 (größer als 1) | Vorfeld des Zeitplans |
 | &lt; 1 (weniger als 1) | Hinter dem Zeitplan |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Berechnung von SPI durch Workfront  {#how-workfront-calculates-spi}
 
@@ -76,7 +76,7 @@ Workfront berechnet SPI anhand der folgenden Formel:
 SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 ```
 
-*&#42;Wenn die geplanten Stunden bis Datum = 0, SPI = 1 sind*.
+*&#42;Wenn die geplanten Stunden auf Datum = 0 geplant sind, ist SPI = 1*.
 
 Geplante Stunden Planen bis Datum werden zu dem Zeitpunkt berechnet, zu dem Sie die Berechnungen durchführen. Sie zeigt die Anzahl der geplanten Stunden bis zum aktuellen Datum an. Sie kann automatisch neu berechnet werden, wenn Sie Ihre Finanzdaten zur Genauigkeit ändern. In Workfront gibt es kein Feld, das diesen Wert angibt.
 
@@ -87,10 +87,10 @@ Wenn Sie beispielsweise ein Projekt mit einer Aufgabe haben und die Aufgabe 10 g
 1. Wechseln Sie zum Projekt oder zur Aufgabe, in dem/der SPI angezeigt werden soll.
 1. Je nachdem, ob Sie SPI für ein Projekt oder eine Aufgabe anzeigen möchten, führen Sie einen der folgenden Schritte aus:
 
-   1. Klicken **Projektdetails** im linken Bereich angezeigt. Zeigen Sie dann die **Finanzen** Bereich.
+   1. Klicken Sie im linken Bereich auf **Projektdetails** und zeigen Sie dann den Bereich **Finanzen** an.
 
-   1. Klicken **Aufgabendetails** im linken Bereich angezeigt. Zeigen Sie dann die **Finanzen** Bereich.
+   1. Klicken Sie im linken Bereich auf **Aufgabendetails** und zeigen Sie dann den Bereich **Finanzen** an.
 
       ![](assets/spi-on-project-nwe.png)
 
-1. Suchen Sie die **CPI/SPI/CSI** -Feld.
+1. Suchen Sie das Feld **CPI/SPI/CSI**.

@@ -1,6 +1,6 @@
 ---
-title: 2.2&nbsp;Projektverbesserungen
-description: 2.2&nbsp;Projektverbesserungen
+title: 22.2&nbsp;Projektverbesserungen
+description: 22.2&nbsp;Projektverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-die Woche vom 4. April 2022. Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [2.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+die Woche vom 4. April 2022. Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [22.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Adobe Workfront Boards sind jetzt erhältlich!
 
@@ -40,7 +40,7 @@ Beachten Sie, dass die Karten auf einer Pinnwand nicht mit Objekten und Arbeitse
 
 Ein Systemadministrator muss Pinnwände in Layoutvorlagen aktivieren, damit die Option allen Benutzern im Hauptmenü zur Verfügung steht.
 
-Weitere Informationen finden Sie unter [Übersicht über Pinnwände](../../../agile/boards-overview.md).
+Weitere Informationen finden Sie unter [Überblick über Pinnwände](../../../agile/boards-overview.md).
 
 ## Weitere Verbesserungen an Workfront-Pinnwänden
 
@@ -71,7 +71,7 @@ Weitere Informationen finden Sie unter [Erste Schritte mit Pinnwänden in Adobe 
 
 Es ist jetzt einfacher, Fehler beim Posten einer Aktualisierung zu erfassen. Beim Fertigstellen eines Kommentars auf der Registerkarte &quot;Aktualisieren&quot;eines Objekts wird jetzt ein Popup-Fenster für 7 Sekunden erstellt, in dem Sie den Beitrag abbrechen und zur Bearbeitung zurückkehren können - bevor das System ihn mit einem Zeitstempel versehen oder E-Mails und In-App-Benachrichtigungen sendet. Wenn Sie das Popup-Fenster schließen, die Seite verlassen oder 7 Sekunden warten, bis das Fenster eine Zeitüberschreitung aufweist, wird der Beitrag normal ausgeführt.
 
-Weitere Informationen finden Sie unter [Update der Arbeit](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Aktualisiertes Erlebnis beim Kopieren und Verschieben von Problemen
 
@@ -87,14 +87,14 @@ Zu den Verbesserungen dieser neu gestalteten Benutzeroberfläche gehören:
 
 Weitere Informationen zu Verschieben- oder Kopierproblemen finden Sie in den folgenden Artikeln:
 
-* [Probleme kopieren](../../../manage-work/issues/manage-issues/copy-issues.md)
+* [Kopierprobleme](../../../manage-work/issues/manage-issues/copy-issues.md)
 * [Probleme verschieben](../../../manage-work/issues/manage-issues/move-issues.md)
 
 ## Neues Erlebnis beim Kopieren eines Projekts
 
 Damit Sie Workfront mit dem neuen Adobe Workfront-Erlebnis konsistent nutzen können, haben wir die Benutzeroberfläche zum Kopieren von Projekten neu gestaltet. Dies ist derzeit beim Kopieren eines Projekts aus der Projektseite oder beim Kopieren eines Projekts aus einer Liste oder einem Bericht verfügbar. Vor dieser Aktualisierung konnten Sie nur ein Projekt aus der Projektseite kopieren.
 
-Weitere Informationen finden Sie unter [Projekt kopieren](../../../manage-work/projects/manage-projects/copy-project.md).
+Weitere Informationen finden Sie unter [Kopieren eines Projekts](../../../manage-work/projects/manage-projects/copy-project.md).
 
 ## Möglichkeit, Projekte aus Listen und Berichten über ein neues Menü &quot;Mehr&quot;zu verwalten
 
@@ -111,11 +111,11 @@ Wir haben ein neues Menü &quot;Mehr&quot;in Projektlisten und Berichten hinzuge
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Projektzeitpläne neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
-* [Neuberechnung der Projektfinanzen](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
+* [Projekt-Timelines neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
+* [Neuberechnen der Projektfinanzen](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Informationen in benutzerdefinierten Formularfeldern bearbeiten](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Eine Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
-* [Projekt in ein Microsoft-Projekt exportieren](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [Projekt in Microsoft-Projekt exportieren](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Abonnieren von Elementen in Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## Behalten Sie Benutzer im Dashboard, in der Liste oder im Bericht bei, nachdem das Problem in ein Projekt konvertiert wurde.
@@ -152,5 +152,5 @@ Um die optimale Leistung für Benutzer sicherzustellen, die Ordner freigeben, be
 
 Jeder Ordner auf der sechsten Ebene oder darunter übernimmt seine Freigabekonfigurationen direkt über dem Ordner.
 
-Weitere Informationen zum Freigeben von Ordnern finden Sie unter [Dokumentordner freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Weitere Informationen zum Freigeben von Ordnern finden Sie unter [Freigeben eines Dokumentordners](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 

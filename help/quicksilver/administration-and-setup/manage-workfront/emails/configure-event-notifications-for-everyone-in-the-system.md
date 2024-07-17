@@ -26,11 +26,11 @@ Je nach dem von Ihnen aktivierten Ereignis und der Benutzer bleibt in seinem Pro
 
 Sie müssen zunächst angeben, welche Benachrichtigungen alle Ihre Benutzer im Setup-Bereich Ihrer Workfront-Instanz erhalten sollen. Nachdem Sie eine Benachrichtigung im Bereich Einrichtung aktiviert haben, wird sie für jeden Benutzer auf seiner Profilseite aktiviert.
 
-Nachdem Benachrichtigungen im Bereich Einrichtung aktiviert wurden und auf den Profilseiten der Benutzer angezeigt werden, können einzelne Benutzer oder ein anderer Benutzer mit einer Planungslizenz die aktivierten Benachrichtigungen in einem Benutzerprofil auch konfigurieren, um zu steuern, welche Benachrichtigungen ein bestimmter Benutzer erhält und wie oft. Weitere Informationen finden Sie unter [Ihre eigenen E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Nachdem Benachrichtigungen im Bereich Einrichtung aktiviert wurden und auf den Profilseiten der Benutzer angezeigt werden, können einzelne Benutzer oder ein anderer Benutzer mit einer Planungslizenz die aktivierten Benachrichtigungen in einem Benutzerprofil auch konfigurieren, um zu steuern, welche Benachrichtigungen ein bestimmter Benutzer erhält und wie oft. Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Eine Liste aller Ereignisbenachrichtigungen, die Sie aktivieren und deaktivieren können, finden Sie unter [Typen von Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Eine Liste aller Ereignisbenachrichtigungen, die Sie aktivieren und deaktivieren können, finden Sie unter [Benachrichtigungstypen für Ereignisse](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Informationen zum Entsperren einer Ereignisbenachrichtigung, damit Gruppenadministratoren sie für ihre Gruppen konfigurieren können, finden Sie unter [Entsperren oder Sperren der Konfiguration von Ereignisbenachrichtigungen für alle Gruppen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) und [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Informationen zum Entsperren einer Ereignisbenachrichtigung, sodass Gruppenadministratoren sie für ihre Gruppen konfigurieren können, finden Sie unter [Entsperren oder Sperren der Konfiguration von Ereignisbenachrichtigungen für alle Gruppen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) und [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 ## Zugriffsanforderungen
 
@@ -60,7 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,12 +74,12 @@ Sie müssen Benachrichtigungen im Einrichtungsbereich von Workfront aktivieren, 
 
 {{step-1-to-setup}}
 
-1. Klicks **Email** > **Benachrichtigungen**.
+1. Klicken Sie auf **E-Mail** > **Benachrichtigungen**.
 
    ![](assets/notifications-area-under-setup-emails.png)
 
 
-1. Stellen Sie sicher, dass **Ereignisbenachrichtigungen** ist geöffnet.
+1. Stellen Sie sicher, dass die Registerkarte **Ereignisbenachrichtigungen** geöffnet ist.
 1. Schalten Sie den Schalter links neben dem Ereignisnamen um, um ihn zu aktivieren oder zu deaktivieren.
 
    Informationen zum standardmäßigen Benachrichtigungsstatus für ein Ereignis finden Sie unter [Ereignisbenachrichtigungen](../../../workfront-basics/using-notifications/event-notifications.md).
@@ -88,7 +88,7 @@ Sie müssen Benachrichtigungen im Einrichtungsbereich von Workfront aktivieren, 
 
    Weitere Informationen zum Anpassen der Betreffzeilen von E-Mail-Benachrichtigungen finden Sie unter [Anpassen von E-Mail-Betreffs für Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Optional) Wenn Sie die Konfiguration für eine E-Mail-Benachrichtigung entsperren möchten, damit Gruppenadministratoren sie für ihre Gruppen einzeln konfigurieren können, klicken Sie auf die Schaltfläche ![](assets/lock-toggle-button.png) rechts neben der Benachrichtigung, um sie in die entsperrte Position zu wechseln ![](assets/unlock-toggle-button.png).
+1. (Optional) Wenn Sie die Konfiguration für eine E-Mail-Benachrichtigung entsperren möchten, damit Gruppenadministratoren sie für ihre Gruppen separat konfigurieren können, klicken Sie auf die Schaltfläche &quot;![](assets/lock-toggle-button.png)&quot; rechts neben der Benachrichtigung, um sie an die entsperrte Position &quot;![](assets/unlock-toggle-button.png)&quot; zu wechseln.
 
    >[!NOTE]
    >

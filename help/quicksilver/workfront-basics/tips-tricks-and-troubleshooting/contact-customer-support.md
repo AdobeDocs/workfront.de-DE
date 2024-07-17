@@ -21,15 +21,15 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-Als [!DNL Adobe Workfront] -Kunde, können Sie die [!DNL Workfront] Support-Team per Telefon oder durch Einreichen eines Tickets online.
+Als [!DNL Adobe Workfront] -Kunde können Sie sich telefonisch oder durch Online-Übermittlung eines Tickets an das [!DNL Workfront] Kundenunterstützungsteam wenden.
 
 >[!NOTE]
 >
->Bei kritischen Problemen wenden Sie sich an [!DNL Workfront] Support per Telefon.
+>Wenden Sie sich bei kritischen Problemen telefonisch an den [!DNL Workfront] Kundensupport.
 
 ## Telefon
 
-Sie können [!DNL Workfront Customer Support] 7 Tage in der Woche, 24 Stunden am Tag, mit den folgenden Zahlen:
+Sie können [!DNL Workfront Customer Support] 7 Tage in der Woche, 24 Stunden am Tag über die folgenden Nummern kontaktieren:
 
 * USA: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -37,30 +37,30 @@ Sie können [!DNL Workfront Customer Support] 7 Tage in der Woche, 24 Stunden am
 
 ## Web
 
-Sie können ein Support-Ticket über die Self-Service-Website einreichen [!DNL Experience League] Portal.
+Sie können ein Support-Ticket über das Self-Service-Portal [!DNL Experience League] einreichen.
 
 >[!IMPORTANT]
 >
 >Nur autorisierte Support-Kontakte (oder Benutzer mit Supportberechtigung) können Online-Support-Tickets einreichen.
 
 
-1. Aus dem [[!DNL Experience League]](https://experienceleague.adobe.com) Website, klicken Sie **[!UICONTROL Support]**  oben auf der Seite.
+1. Klicken Sie auf der [[!DNL Experience League]](https://experienceleague.adobe.com) -Website oben auf der Seite auf **[!UICONTROL Support]** .
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   Die [!UICONTROL Support] Seite geöffnet.
+   Die Seite [!UICONTROL Support] wird geöffnet.
 
-   Aus dem [!UICONTROL Support] Homepage können Sie zu Ihren offenen Support-Fällen navigieren, einen neuen Fall protokollieren und die obere [!UICONTROL Support] oder auf zusätzliche Lernquellen zugreifen.
+   Auf der Startseite [!UICONTROL Support] können Sie zu Ihren offenen Support-Fällen navigieren, einen neuen Fall protokollieren, die wichtigsten Artikel [!UICONTROL Support] anzeigen oder auf zusätzliche Lernquellen zugreifen.
 
-1. Um eine Groß-/Kleinschreibung einzureichen, wählen Sie die Option **[!UICONTROL Support-Fall öffnen]** Klicken Sie auf **[!UICONTROL Sign] In**.
+1. Um eine Groß-/Kleinschreibung einzureichen, wählen Sie die Option **[!UICONTROL Öffnen Sie eine Support-Anfrage]** und klicken Sie dann auf **[!UICONTROL Signieren] In**.
 
-1. Klicks **[!UICONTROL Fall öffnen]** in der linken Seitenleiste.
+1. Klicken Sie in der linken Seitenleiste auf **[!UICONTROL Schreibweise öffnen]** .
 
 <!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 -->
 
-Die [!UICONTROL Fallerstellung] -Seite geöffnet, auf der Sie Ihren Produktnamen eingeben können ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], usw.), den Titel der Groß-/Kleinschreibung und die Beschreibung der Groß-/Kleinschreibung.
+Die Seite [!UICONTROL Groß-/Kleinschreibung erstellen] wird geöffnet. Hier können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Groß-/Kleinschreibung und die Groß-/Kleinschreibung eingeben.
 
 >[!TIP]
 >
@@ -69,14 +69,14 @@ Die [!UICONTROL Fallerstellung] -Seite geöffnet, auf der Sie Ihren Produktnamen
 
 1. Füllen Sie die Informationen für die folgenden Felder aus, um uns genauere Informationen zu geben:
 
-   * **[!UICONTROL Fallpriorität]** ([!UICONTROL Niedrig], [!UICONTROL Mittel], [!UICONTROL Hoch], [!UICONTROL Kritisch])
-   * **[!UICONTROL Anwendungsbeispiel]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals]usw.)
-   * **[!UICONTROL Umgebung]** ([!UICONTROL Produktion], [!UICONTROL Vorschau], [!UICONTROL Sandbox]usw.)
+   * **[!UICONTROL Groß-/Kleinschreibung]** ([!UICONTROL Niedrig], [!UICONTROL Medium], [!UICONTROL Hoch], [!UICONTROL Kritisch])
+   * **[!UICONTROL Case Product]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals] usw.)
+   * **[!UICONTROL Umgebung]** ([!UICONTROL Produktion], [!UICONTROL Vorschau], [!UICONTROL Sandbox] usw.)
    * **[!UICONTROL Kundenregion]** (Nord- und Südamerika, EMEA, APAC)
 
-1. Laden Sie alle relevanten Dateien hoch und klicken Sie dann auf **[!UICONTROL Submit Case]**.
+1. Laden Sie alle relevanten Dateien hoch und klicken Sie dann auf **[!UICONTROL Groß-/Kleinschreibung übermitteln]**.
 
-   Der Fall wird eingereicht, und die [!UICONTROL Meine Fälle] angezeigt.
+   Der Fall wird gesendet und die Seite [!UICONTROL Meine Fälle] wird angezeigt.
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)
@@ -87,19 +87,19 @@ Wenden Sie sich bei Fragen oder Problemen beim Einreichen einer Anfrage an den S
 
 ## Anzeigen und Verwalten von Support-Fällen
 
-1. Navigieren Sie zum **[!UICONTROL Meine Fälle]** Seite. Diese Seite wird geöffnet, wenn Sie eine Groß-/Kleinschreibung übermitteln oder indem Sie auf **[!UICONTROL Meine Fälle]** in der linken Navigation.
+1. Navigieren Sie zur Seite **[!UICONTROL Meine Fälle]** . Diese Seite wird geöffnet, wenn Sie eine Groß-/Kleinschreibung senden, oder Sie können sie öffnen, indem Sie im linken Navigationsbereich auf **[!UICONTROL Meine Fälle]** klicken.
 
-1. (Optional) Verwenden Sie die Optionen oben auf der Seite, um nach **Produkt ([!DNL Experience Cloud] Lösung)** oder Fall **[!UICONTROL Status]** ([!UICONTROL Öffnen] oder Closed). Sie können auch die [!UICONTROL suchen] um nach Keywords zu suchen, die zu Ihren Support-Fällen gehören.
+1. (Optional) Verwenden Sie die Optionen oben auf der Seite, um nach **Produkt ([!DNL Experience Cloud] Lösung)** oder Groß-/Kleinschreibung **[!UICONTROL Status]** ([!UICONTROL Öffnen] oder Cl verwendet) zu filtern. Sie können auch das Feld [!UICONTROL search] verwenden, um nach Keywords zu suchen, die zu Ihren Support-Fällen gehören.
 
-1. (Optional) Klicken Sie auf die Schaltfläche **Fallnummer** , um darauf zuzugreifen.
+1. (Optional) Um weitere Details zu einem Fall anzuzeigen, klicken Sie auf die **Nummer der Groß-/Kleinschreibung** , um darauf zuzugreifen.
 
    Die Fallansicht wird geöffnet.
 
 1. (Optional) Überprüfen Sie in der Fallansicht die neuesten Kommentare mit dem zugewiesenen Falleigentümer und fügen Sie zusätzliche Anhänge oder Antworten hinzu.
 
-1. (Optional) Klicken Sie zur Eskalation der Groß-/Kleinschreibung auf **[!UICONTROL Eskalieren an die Verwaltung]** rechts auf der Seite unter **[!UICONTROL Anwendungsdetails].
+1. (Optional) Um die Groß-/Kleinschreibung zu eskalieren, klicken Sie rechts auf der Seite unter **[!UICONTROL Kleinschreibung] auf &quot;**[!UICONTROL Zur Verwaltung eskalieren]**&quot;.
 
-1. Klicken Sie auf **[!UICONTROL Schreibweise]** -Schaltfläche, um den Fall zu schließen.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Groß-/Kleinschreibung schließen]** , um den Fall zu schließen.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

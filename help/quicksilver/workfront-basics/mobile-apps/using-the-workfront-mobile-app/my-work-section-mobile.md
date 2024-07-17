@@ -1,8 +1,8 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Mein Arbeitsbereich in der mobilen App
-description: Die [!UICONTROL Meine Arbeit] Abschnitt [!UICONTROL Startseite] zeigt Ihre Aufgaben, Probleme, Projekte, Genehmigungen, Anforderungen und Timesheets an.
+title: Mein Arbeitsbereich in der App
+description: Im Abschnitt "[!UICONTROL Meine Arbeit]"im Bereich "[!UICONTROL Home]"werden Ihre Aufgaben, Probleme, Projekte, Genehmigungen, Anforderungen und Timesheets angezeigt.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
@@ -13,27 +13,27 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Meine Arbeit] Abschnitt in der App
+# Abschnitt &quot;[!UICONTROL Meine Arbeit]&quot;in der App
 
-Die [!UICONTROL Meine Arbeit] Abschnitt [!UICONTROL Startseite] zeigt Ihre Aufgaben, Probleme, Projekte, Genehmigungen, Anforderungen und Timesheets an.
+Im Abschnitt &quot;[!UICONTROL Meine Arbeit]&quot;im Bereich &quot;[!UICONTROL Home]&quot;werden Ihre Aufgaben, Probleme, Projekte, Genehmigungen, Anforderungen und Timesheets angezeigt.
 
 >[!NOTE]
 >
->[!UICONTROL Meine Arbeit] in der App ist getrennt von [!UICONTROL Meine Arbeit] auf der Desktop-Version von [!UICONTROL Adobe Workfront].
+>[!UICONTROL Meine Arbeit] in der mobilen App ist in der Desktop-Version von [!UICONTROL Adobe Workfront] von [!UICONTROL Meine Arbeit] getrennt.
 
 ![](assets/home-myworksection-338x379.png)
 
-## Anpassen der [!UICONTROL Meine Arbeit] Abschnitt
+## Anpassen des Abschnitts [!UICONTROL Meine Arbeit]
 
-Sie können auswählen, welche Menüelemente angezeigt werden sollen [!UICONTROL Meine Arbeit] und ändern Sie die Artikelreihenfolge.
+Sie können auswählen, welche Menüelemente in [!UICONTROL Meine Arbeit] angezeigt werden sollen, und die Reihenfolge der Elemente ändern.
 
 1. Tippen Sie im unverankerten Menü auf Ihr Foto oder Ihre Initialen, um auf Ihr Profil zuzugreifen.
-1. Scrollen Sie zum **[!UICONTROL Konfiguration]** Abschnitt und tippen Sie auf **[!UICONTROL Einstellungen]**.
-1. Im **[!UICONTROL Einstellungen]** Seite, wählen Sie die Menüelemente aus und ziehen Sie sie in die richtige Reihenfolge für die [!UICONTROL Startseite] Bereich.
+1. Scrollen Sie zum Abschnitt **[!UICONTROL Konfiguration]** und tippen Sie auf **[!UICONTROL Einstellungen]**.
+1. Wählen Sie auf der Seite **[!UICONTROL Einstellungen]** die Menüelemente aus und ziehen Sie sie in die richtige Reihenfolge für den Bereich [!UICONTROL Startseite] .
 1. Tippen Sie auf das blaue Umschalter-Symbol, um alle Menüelemente auszublenden, die nicht angezeigt werden sollen. Tippen Sie auf das graue Umschalter-Symbol, um das Element erneut anzuzeigen.
 
    >[!NOTE]
    >
-   >Die [!UICONTROL Aufgaben und Probleme] -Menüelement immer angezeigt wird und Sie können es nicht ausblenden.
+   >Das Menüelement [!UICONTROL Aufgaben und Probleme] wird immer angezeigt und kann nicht ausgeblendet werden.
 
    ![](assets/mobile-settings-338x366.png)

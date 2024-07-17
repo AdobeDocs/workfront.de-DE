@@ -22,11 +22,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Workflow-Beispiele](../../workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
-* [Persönliche Einstellungen in [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
+* [Persönliche Einstellungen in  [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
 * [Systeminformationen in [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/system-information/system-information.md)
 * [[!DNL Workfront Proof] - häufig gestellte Fragen](../../workfront-proof/wp-getstarted/faqs/faqs.md)

@@ -10,7 +10,7 @@ feature: Product Announcements, Workfront Scenario Planner
 exl-id: 66847d81-75db-45b0-83b0-168a1cc5ebdd
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -46,8 +46,8 @@ Um Sie bei der strategischen Planung Ihrer Projekte zu unterstützen und sicherz
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+* [Überblick über die Abstimmung von Ressourcenzuweisungen zwischen Projekten und Initiativen](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 * [Navigieren Sie zum Lastenausgleich .](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
-Weitere Informationen finden Sie unter [Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+Weitere Informationen finden Sie unter [Überblick über die Abstimmung von Ressourcenzuweisungen zwischen Projekten und Initiativen](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 

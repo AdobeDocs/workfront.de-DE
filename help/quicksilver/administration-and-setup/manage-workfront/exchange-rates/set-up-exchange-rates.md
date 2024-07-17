@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
-title: Wechselkurse einrichten
+title: Einrichten von Wechselkursen
 description: Als Adobe Workfront-Administrator können Sie in Workfront Wechselkurse einrichten.
 feature: System Setup and Administration
 role: Admin
@@ -10,11 +10,11 @@ exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
 source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Wechselkurse einrichten
+# Einrichten von Wechselkursen
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -31,7 +31,7 @@ Wechselkurse wirken sich auf alle Finanzelemente in Workfront aus. Die Basiswäh
 Weitere Informationen zum Überschreiben der Basiswährung in Workfront für Projekte und Stellenrollen finden Sie in den folgenden Artikeln:
 
 * [Ändern der Projektwährung](../../../manage-work/projects/project-finances/change-project-currency.md)
-* [Erstellen und Verwalten von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+* [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
 
 Die Art und Weise, wie Sie Wechselkurse einrichten, beeinflusst, ob Benutzer die Wechselkurse für ein bestimmtes Projekt ändern können.
 
@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -57,18 +57,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>NOTE</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsstufe festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Wechselkurse einrichten
+## Einrichten von Wechselkursen
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicks **Projektvoreinstellungen** > **Wechselkurse.**
+1. Klicken Sie auf **Projekteinstellungen** > **Wechselkurse.**
 
-1. Klicks **Währung hinzufügen.**
+1. Klicken Sie auf **Währung hinzufügen.**
 1. Beginnen Sie mit der Eingabe des Währungsnamens und klicken Sie dann auf die Währung, wenn sie in der Dropdown-Liste angezeigt wird.
 
 1. Geben Sie im bereitgestellten Feld den Wechselkurs für die gewählte Währung an, da er sich auf die Währung bezieht, die im System als Basiswährung festgelegt ist.
@@ -76,7 +76,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Dies ist die Währung, die als Standard für alle Projekte und Berichte im gesamten System verwendet wird.
 
-1. Klicks **Speichern** , um Ihre Änderungen zu speichern.
+1. Klicken Sie auf **Speichern** , um Ihre Änderungen zu speichern.
 
 ## Benutzer können die Standardwährung für ein Projekt ändern
 
@@ -84,11 +84,11 @@ Benutzer können die Standardwährung für ein Projekt ändern, wenn die folgend
 
 * Der Benutzer verfügt über eine Planungslizenz mit Administratorzugriff auf Wechselkurse.
 
-  Weitere Informationen finden Sie unter [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Weitere Informationen finden Sie unter [Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Im Workfront-System ist mehr als eine Währung aktiviert.
 
-Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der Projektwährung](../../../manage-work/projects/project-finances/change-project-currency.md).
+Informationen dazu, wie Benutzer die Standardwährung eines Projekts ändern können, finden Sie unter [Ändern der Projektwährung](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Benutzern ermöglichen, die Standardwährung für eine Auftragsrolle zu ändern
 
@@ -96,8 +96,8 @@ Benutzer können die Währung für eine Auftragsrolle ändern, wenn die folgende
 
 * Der Benutzer verfügt über eine Planungslizenz mit Administratorzugriff auf &quot;Vorgangsrollen&quot;.
 
-  Weitere Informationen finden Sie unter [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Weitere Informationen finden Sie unter [Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Im Workfront-System ist mehr als eine Währung aktiviert.
 
-Informationen dazu, wie Benutzer die Standardwährung für eine bestimmte Auftragsrolle ändern können, finden Sie unter [Erstellen und Verwalten von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Informationen dazu, wie Benutzer die Standardwährung für eine bestimmte Auftragsrolle ändern können, finden Sie unter [Erstellen und Verwalten von Auftragsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

@@ -22,25 +22,25 @@ ht-degree: 0%
 In diesen Artikeln wird erläutert, wie Sie als Adobe Workfront-Administrator Benutzern Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren können, indem Sie ihnen eine Zugriffsebene zuweisen.
 
 * [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
-* [Gewähren eines vollen Administratorzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
-* [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
-* [Projektzugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+* [Gewähren eines vollen Administratorzugriffs für einen Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
+* [Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+* [Gewähren des Zugriffs auf Projekte](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [Zugriff auf Probleme gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [Gewähren des Zugriffs auf Probleme](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Zugriff auf Dokumente gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
-* [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [Gewähren von Zugriff auf Teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Zugriff auf Vorlagen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
-* [Zugriff auf Portfolios gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
-* [Zugriff auf Programme gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
+* [Gewähren des Zugriffs auf Portfolios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
+* [Gewähren des Zugriffs auf Programme](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
 * [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-* [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
-* [Zugriff auf den Szenario-Planer gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
-* [Zugriff auf Resource Management gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
+* [Gewähren des Zugriffs auf den Szenario-Planer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [Gewähren des Zugriffs auf die Ressourcenverwaltung](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Zugriff auf Adobe Workfront-Ziele gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
 ## Siehe auch
 
-* Allgemeine Informationen zu Zugriffsebenen finden Sie unter [Funktionsweise von Zugriffsstufen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
-* Informationen dazu, wie Benutzer Objekte miteinander teilen können, finden Sie unter Gewähren von Ansichts- und Bearbeitungsberechtigungen für diese Objekte [Gewähren und Anfordern von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) und [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* Allgemeine Informationen zu Zugriffsebenen finden Sie unter [Funktionsweise der Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+* Informationen dazu, wie Benutzer Objekte miteinander teilen und ihnen Ansichts- und Bearbeitungsberechtigungen für diese Objekte gewähren können, finden Sie unter [Erteilen und Anfordern von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) und [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).

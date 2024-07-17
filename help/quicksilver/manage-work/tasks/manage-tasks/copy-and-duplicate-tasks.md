@@ -74,7 +74,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für eine Aufgabe verwalten </p> <p>Beitragen oder höhere Berechtigungen zum Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für eine Aufgabe verwalten </p> <p>Contribute oder höhere Berechtigungen für das Projekt</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,8 +106,8 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
    Wechseln Sie zu einem Aufgabenbericht.
 
-1. (Bedingt) Klicken Sie auf **Aufgaben** im linken Bereich, wenn Sie das Projekt geöffnet haben, das die Aufgaben enthält.
-1. Klicken Sie auf **Planmodus** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png)und stellen sicher, dass **Automatische Speicherung** aktiviert ist.
+1. (Bedingt) Klicken Sie im linken Bereich auf **Aufgaben** , wenn Sie das Projekt geöffnet haben, das die Aufgaben enthält.
+1. Klicken Sie auf das Symbol **Planmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) und stellen Sie sicher, dass die Option **Automatisches Speichern** aktiviert ist.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -117,13 +117,13 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
 1. Wählen Sie die zu kopierenden Aufgaben aus und führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **Mehr Menü** Klicken Sie oben in der Aufgabenliste auf **Kopieren nach**.
+   * Klicken Sie oben in der Aufgabenliste auf das Menü &quot;**Mehr&quot;** und dann auf &quot;**Kopieren nach**&quot;.
    * Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und klicken Sie dann auf **Kopieren nach**.
-   * Klicken Sie bei der Auswahl einer Aufgabe auf die **Mehr** Menü ![](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Kopieren nach**.
+   * Klicken Sie bei der Auswahl einer Aufgabe auf das Menü **Mehr** Menü ![](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Kopieren nach**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
-1. Fahren Sie mit dem Kopieren der Aufgabe fort, wie im Abschnitt beschrieben [Kopieren einer Aufgabe auf Aufgabenebene](#copy-a-task-at-the-task-level) beginnt mit Schritt 4.
+1. Fahren Sie mit dem Kopieren der Aufgabe fort, wie im Abschnitt [Kopieren einer Aufgabe auf Aufgabenebene](#copy-a-task-at-the-task-level) beschrieben, beginnend mit Schritt 4.
 
    <!--
       (NOTE: is this still accurate?!)
@@ -135,13 +135,13 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
 
 1. Suchen Sie eine Aufgabe in Ihrem Workfront-System, indem Sie danach suchen.
 1. Klicken Sie auf den Namen der Aufgabe, um sie zu öffnen.
-1. Klicken Sie auf **Mehr** Dropdown-Menü ![](assets/qs-more-menu.png) neben dem Namen der Aufgabe klicken Sie auf **Kopieren nach**.
+1. Klicken Sie auf das Dropdown-Menü **Mehr** neben dem Namen der Aufgabe und dann auf **Kopieren nach**.![](assets/qs-more-menu.png)
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    Das Feld Aufgabe kopieren wird angezeigt.
 
-1. (Optional) Aktualisieren Sie die **Aufgabenname**.
+1. (Optional) Aktualisieren Sie den **Aufgabennamen**.
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Geben Sie den Namen der **Zielprojekt** wo Sie die Aufgabe in die **Zielprojekt auswählen** -Feld.
+1. Geben Sie den Namen des **Zielprojekts** ein, in das Sie die Aufgabe kopieren möchten, und zwar im Feld **Zielprojekt auswählen** .
 
    >[!TIP]
    >
@@ -159,20 +159,20 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
 
    Der aktuelle Projektname wird standardmäßig angezeigt. Wenn Sie die Aufgabe im selben Projekt kopieren möchten, lassen Sie dieses Feld unverändert.
 
-1. (Bedingt) Klicken Sie auf **Zugriff anfordern** , um Zugriff auf das Projekt anzufordern, wenn Sie keinen Zugriff auf das ausgewählte Projekt haben.
+1. (Bedingt) Klicken Sie auf **Zugriffsanfrage anfordern** , um den Zugriff auf das Projekt anzufordern, wenn Sie keinen Zugriff auf das ausgewählte Projekt haben.
 1. (Bedingt) Kopieren Sie die Aufgabe weiterhin in das ausgewählte Zielprojekt, ohne Zugriff anzufordern, wenn Sie Zugriff haben, um Aufgaben zu einer der Aufgaben im Zielprojekt hinzuzufügen.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass diesen Projekten Aufgaben hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Ähnliche Meldungen werden angezeigt, wenn das ausgewählte Projekt noch nicht genehmigt, abgeschlossen oder deaktiviert ist, wenn der Workfront-Administrator verhindert, dass diesen Projekten Aufgaben hinzugefügt werden. Weitere Informationen finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Klicks **Optionen** Deaktivieren Sie dann im linken Bereich die Aufgabenattribute, die Sie nicht mit der Aufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
+1. Klicken Sie im linken Bereich auf **Optionen** und deaktivieren Sie dann die Aufgabenattribute, die Sie nicht mit der Aufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
 
    >[!TIP]
    >
-   >Auswählen und Deselektieren **Alle auswählen** Deaktiviert alle Optionen.
+   >Wenn Sie dann die Auswahl von **Alle auswählen** deaktivieren, werden alle Optionen deaktiviert.
 
    Deaktivieren Sie die folgenden Optionen, um sie nicht an die kopierte Aufgabe zu übertragen. In der folgenden Tabelle wird beschrieben, was passiert, wenn die Optionen deaktiviert werden:
 
@@ -227,7 +227,7 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
     </tbody> 
    </table>
 
-1. (Optional) Klicken Sie auf **Übergeordnetes Element auswählen** Wählen Sie im linken Bereich die Aufgabe im Zielprojekt aus, die Sie der kopierten Aufgabe übergeordnet werden möchten.
+1. (Optional) Klicken Sie im linken Bereich auf **Übergeordnetes Element auswählen** und wählen Sie dann die Aufgabe im Zielprojekt aus, die Sie zum übergeordneten Element der kopierten Aufgabe werden möchten.
 
    >[!TIP]
    >
@@ -246,11 +246,11 @@ Neben dem Kopieren von Aufgaben in eine Aufgabenliste können Sie auch eine Aufg
 
    Wenn Sie keine übergeordnete Aufgabe auswählen, werden die Aufgaben als Hauptaufgaben und nicht als Unteraufgaben kopiert und am Ende der Aufgabenliste im Zielprojekt platziert.
 
-1. Klicks **Aufgabe kopieren**
+1. Klicken Sie auf **Aufgabe kopieren**
 
    Oder
 
-   Klicks **Aufgaben kopieren** wenn Sie mehrere Aufgaben in einer Liste auswählen.
+   Klicken Sie auf **Aufgaben kopieren** , wenn Sie mehrere Aufgaben in einer Liste auswählen.
 Die kopierten Aufgaben befinden sich jetzt im angegebenen Projekt und sind entweder Unteraufgaben der ausgewählten übergeordneten Aufgabe oder die letzten Aufgaben des Projekts.
 
 ## Aufgaben duplizieren
@@ -286,19 +286,19 @@ Sie können eine Aufgabe in einer Aufgabenliste schnell duplizieren, wenn Sie f�
 ### Aufgaben duplizieren
 
 1. Wechseln Sie zu dem Projekt, das die zu duplizierenden Aufgaben enthält.
-1. Klicks **Aufgaben** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Aufgaben** .
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Bedingt) Klicken Sie auf die **Planmodus** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) und die **Automatische Speicherung** aktiviert ist, wählen Sie die Aufgaben aus, die Sie duplizieren möchten, und klicken Sie dann auf **Mehr Menü** ![](assets/qs-more-menu-29x11.png) > **Duplizieren**.
+   * (Bedingt) Klicken Sie auf das Symbol **Planmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) und stellen Sie sicher, dass die Option **Automatisches Speichern** aktiviert ist, wählen Sie die Aufgaben aus, die Sie duplizieren möchten, und klicken Sie dann auf das Menü **Mehr** ![](assets/qs-more-menu-29x11.png) > **Duplizieren** .
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Bedingt) Klicken Sie auf die **Planmodus** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manuelles Speichern** > **Standard** oder **Timeline-Planung** und führen Sie dann die folgenden Schritte aus:
+   * (Bedingt) Klicken Sie auf das Symbol **Planmodus** > ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manuelles Speichern** > **Standard** oder **Timeline-Planung** und führen Sie dann folgende Schritte aus:
 
-      1. Wählen Sie die zu duplizierenden Aufgaben aus und klicken Sie auf **Duplizieren**.
+      1. Wählen Sie die Aufgaben aus, die Sie duplizieren möchten, und klicken Sie auf **Duplizieren**.
       1. (Optional) Klicken Sie auf **Rückgängig** , um Ihre Änderungen rückgängig zu machen und die Aufgaben nicht zu duplizieren.
-      1. (Optional und bedingt) Klicken Sie auf **Wiederholen** wenn Sie zuvor auf **Rückgängig**, um die Änderungen beizubehalten und die Aufgaben zu duplizieren.
+      1. (Optional und bedingt) Klicken Sie auf **Wiederholen** , wenn Sie zuvor auf **Rückgängig** geklickt haben, um die Änderungen beizubehalten und die Aufgaben zu duplizieren.
 
-      1. Klicks **Speichern** , um Ihre Änderungen zu speichern.
+      1. Klicken Sie auf **Speichern** , um Ihre Änderungen zu speichern.
 
          Die Aufgaben werden dupliziert und demselben Projekt wie die ursprünglichen Aufgaben hinzugefügt.

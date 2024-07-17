@@ -18,13 +18,13 @@ ht-degree: 6%
 
 # Über das standardmäßige Adobe Workfront-Layout
 
-Das Standardlayout ist die Anordnung des Hauptmenüs ![](assets/main-menu-icon.png), das linke Bedienfeld sowie die Ansichten, Gruppierungen und Filter, bevor ein Adobe Workfront-Administrator Änderungen mithilfe einer Layoutvorlage vornimmt.
+Das Standardlayout ist die Anordnung des Hauptmenüs ![](assets/main-menu-icon.png), des linken Bereichs sowie der Ansichten, Gruppierungen und Filter, bevor ein Adobe Workfront-Administrator Änderungen mithilfe einer Layoutvorlage vornimmt.
 
-Informationen dazu, wie ein Workfront-Administrator das Standardlayout eines Benutzers ändern kann, indem er ihm eine Layoutvorlage zuweist, finden Sie unter [Benutzer einer Layoutvorlage zuweisen](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+Informationen dazu, wie ein Workfront-Administrator das Standardlayout eines Benutzers ändern kann, indem er ihm eine Layoutvorlage zuweist, finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >
->Benutzer können ihr eigenes Layout ändern, indem sie die Voreinstellungen ihres Benutzerprofils bearbeiten. Weitere Informationen finden Sie unter [Voreinstellungen](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) Abschnitt in [Meine Einstellungen konfigurieren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>Benutzer können ihr eigenes Layout ändern, indem sie die Voreinstellungen ihres Benutzerprofils bearbeiten. Weitere Informationen finden Sie im Abschnitt [Voreinstellungen](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) unter [Meine Einstellungen konfigurieren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## Standardlayouts für jede Zugriffsebene
 
@@ -57,8 +57,8 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
   <tr> 
    <td rowspan="2"><strong>Projekte</strong> </td> 
    <td><strong>Projekte</strong> </td> 
-   <td>ms <br>(Standard-Landingpage)</td> 
-   <td><span style="font-weight: 400;"> ms</span> <br>(Standard-Landingpage)</td> 
+   <td><br>(Standard-Landingpage)</td> 
+   <td><span style="font-weight: 400;"></span> <br>(Standard-Landingpage)</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -164,8 +164,8 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
    <td>ms </td> 
    <td>ms </td> 
    <td>ms </td> 
-   <td>ms <br>(Standard-Landingpage)</td> 
-   <td>ms <br>(Standard-Landingpage)</td> 
+   <td><br>(Standard-Landingpage)</td> 
+   <td><br>(Standard-Landingpage)</td> 
   </tr> 
   <tr> 
    <td><strong>Alle Anforderungen</strong> </td> 
@@ -177,7 +177,7 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
    <td>ms </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Datenblatt</strong> </td> 
+   <td rowspan="3"><strong>Zeitblatt</strong> </td> 
    <td><strong>Meine Timesheets</strong> </td> 
    <td>ms </td> 
    <td> ms</td> 

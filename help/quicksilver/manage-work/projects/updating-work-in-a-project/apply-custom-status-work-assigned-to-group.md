@@ -19,7 +19,7 @@ ht-degree: 0%
 Alina, I moved this out of an admin article about statuses (Create and customize statuses)
 -->
 
-Wenn ein Projekt mit einer Gruppe verknüpft ist, können Sie sowohl den Status auf Systemebene als auch einen benutzerdefinierten Status, der mit dieser Gruppe verknüpft ist, auf das Projekt oder Aufgaben und Probleme in diesem Projekt anwenden. Informationen zum Gruppenstatus in Adobe Workfront finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Wenn ein Projekt mit einer Gruppe verknüpft ist, können Sie sowohl den Status auf Systemebene als auch einen benutzerdefinierten Status, der mit dieser Gruppe verknüpft ist, auf das Projekt oder Aufgaben und Probleme in diesem Projekt anwenden. Weitere Informationen zum Gruppenstatus in Adobe Workfront finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 >[!TIP]
 >
@@ -66,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -80,7 +80,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Projekt verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,18 +91,19 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 Wenn Sie die Gruppe für ein Projekt aktualisieren, ändern sich die für den Status der Aufgaben, Probleme oder das Projekt verfügbaren Optionen entsprechend der Gruppe.
 
-1. Wechseln Sie zu einem Projekt oder erstellen Sie ein neues Projekt, wie unter [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md).
-1. Klicken Sie auf **Mehr** icon ![](assets/more-icon.png)Klicken Sie auf **Bearbeiten**.
+1. Wechseln Sie zu einem Projekt oder erstellen Sie ein neues Projekt, wie unter [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md) beschrieben.
+1. Klicken Sie auf das Symbol **Mehr** ![](assets/more-icon.png) und dann auf **Bearbeiten**.
 
-1. Im **Projekt bearbeiten** unten im **Übersicht** Wählen Sie die Gruppe im **Gruppe** Dropdown-Menü.
+1. Wählen Sie im Feld **Projekt bearbeiten** unten im Abschnitt **Überblick** die Gruppe im Dropdownmenü **Gruppe** aus.
 
-1. Im **Status** Dropdown-Menü den benutzerdefinierten Status aus.
+1. Wählen Sie im Dropdownmenü **Status** den benutzerdefinierten Status aus.
 
    >[!NOTE]
    >
-   >Wenn Sie eine andere Gruppe im **Gruppe** Dropdown-Menü die benutzerdefinierten Status im **Status** automatisch mit der neuen Gruppe korrelieren.
+   >Wenn Sie im Dropdown-Menü **Gruppe** eine andere Gruppe auswählen, ändern sich die benutzerdefinierten Status im Menü **Status** automatisch, um sie mit der neuen Gruppe zu korrelieren.
    >
    >
    >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >
 
 1. Wählen Sie den Status des Projekts aus. Die benutzerdefinierten Status, die Sie erstellt und auf diese Gruppe angewendet haben, werden in der Liste angezeigt.

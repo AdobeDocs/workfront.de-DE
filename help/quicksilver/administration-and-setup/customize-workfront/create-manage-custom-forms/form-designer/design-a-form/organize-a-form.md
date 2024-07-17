@@ -1,9 +1,9 @@
 ---
-title: Organisieren und Anzeigen einer Vorschau eines Formulars mit dem Form Designer
+title: Organisieren und Anzeigen einer Vorschau eines Formulars mit der Formular-Designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Sie können ein benutzerdefiniertes Formular mit dem Form Designer organisieren.
+description: Sie können ein benutzerdefiniertes Formular mit dem Formular Designer organisieren.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -40,7 +40,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> </td> 
+   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Administratorzugriff für bestimmte Bereiche</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -53,15 +53,15 @@ Wenn Sie beispielsweise sensible Informationen verfolgen müssen, die nur System
 
 Die Zugriffseinstellungen, die Sie für einen Abschnitt auswählen, sind direkt an die Berechtigungen gebunden, die Benutzer für das Workfront-Objekt haben, an das das benutzerdefinierte Formular angehängt ist. Sie können einen Abschnitt ein- oder ausblenden, je nachdem, ob der Benutzer Zugriff auf das Objekt hat, zu dem er beitragen oder es verwalten kann. Sie können auch einen Abschnitt auf &quot;Nur Administrator&quot;festlegen, damit nur Benutzer mit Systemadministrator-Zugriffsstufe darauf zugreifen können.
 
-Weitere Informationen zu Berechtigungen für Objekte finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Weitere Informationen zu Berechtigungen für Objekte finden Sie unter [Überblick über die Freigabe von Berechtigungen für Objekte](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Erstellen und Konfigurieren des Zugriffs für einen Abschnitt in einem benutzerdefinierten Formular
 
-1. Erstellen oder bearbeiten Sie ein benutzerdefiniertes Formular und fügen Sie Felder hinzu, wie beschrieben in [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Erstellen oder bearbeiten Sie ein benutzerdefiniertes Formular und fügen Sie Felder hinzu, wie in [Formular entwerfen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
 
-1. Klicks **Abschnittsumbruch** und ziehen Sie sie an die gewünschte Position auf der Arbeitsfläche.
+1. Klicken Sie auf **Abschnittsumbruch** und ziehen Sie sie an die gewünschte Position auf der Arbeitsfläche.
 
 1. Konfigurieren Sie im rechten Bereich die gewünschten Optionen für den Abschnitt:
 
@@ -72,7 +72,7 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bezeichnung</td> 
+      <td role="rowheader">Label</td> 
       <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Abschnitt angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
      </tr> 
      <tr> 
@@ -92,40 +92,40 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
           <li><p><b>Eingeschränkte Bearbeitung</b>: (Nur verfügbar, wenn das Objekt ein Projekt, eine Aufgabe, ein Problem oder ein Benutzer ist):</p> 
           <p>Ermöglicht Benutzern, zum Objekt beizutragen, wenn es sich um ein Projekt, eine Aufgabe oder ein Problem handelt.</p>
           <p>Ermöglicht Benutzern, das Profil zu bearbeiten oder Eigentümer der Profilberechtigung für das Objekt zu sein, wenn es ein Benutzer ist.</p></li> 
-          <li><b>Bearbeiten</b>: Verwalten von Berechtigungen für das Objekt </li> 
-          <li><b>Nur Administrator</b>: Zugriffsstufe für Systemadministrator</li> 
+          <li><b>Bearbeiten</b>: Berechtigungen für das Objekt verwalten </li> 
+          <li><b>Nur Administrator</b>: Zugriffsstufe des Systemadministrators</li> 
          </ul> </li> 
         <p>Die folgenden Berechtigungen sind unter <b>Benutzer mit diesem Zugriff auf das Objekt können Feldwerte bearbeiten</b>: </p> 
          <ul> 
           <li> <p><b>Eingeschränkte Bearbeitung</b>: (Nur verfügbar, wenn das Objekt ein Projekt, eine Aufgabe, ein Problem oder ein Benutzer ist):</p> 
            <p>Wenn das Objekt ein Projekt, eine Aufgabe oder ein Problem ist, ermöglicht diese Berechtigung Benutzern, zum Objekt beizutragen</p>
           <p>Wenn das Objekt ein Benutzer ist, können Benutzer mit dieser Berechtigung das Profil bearbeiten oder Inhaber der Profilberechtigung für das Objekt sein.</p> 
-          <li><b>Bearbeiten</b>: Verwalten von Berechtigungen für das Objekt </li> 
-          <li><b>Nur Administrator</b>: Zugriffsstufe für Systemadministrator</li> 
+          <li><b>Bearbeiten</b>: Berechtigungen für das Objekt verwalten </li> 
+          <li><b>Nur Administrator</b>: Zugriffsstufe des Systemadministrators</li> 
          </ul> </li> 
        </ul> 
-       <p>Weitere Informationen zu Berechtigungen für Objekte finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Übersicht über die Freigabe von Berechtigungen für Objekte</a>.</p> 
+       <p>Weitere Informationen zu Berechtigungen für Objekte finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Überblick über die Freigabe von Berechtigungen für Objekte</a>.</p> 
        <p><b>NOTE</b>:  
        <ul> 
        <li> <p>Benutzer ohne die hier angegebenen Berechtigungen können die benutzerdefinierten Felder und Widgets im Abschnitt nicht sehen. </p> <p>Dies gilt auch, wenn Sie die Feldwerte in Berichten anzeigen oder in berechneten Feldern in der Textmodusberichterstellung verwenden.</p> </li> 
        <li><p>Für benutzerdefinierte Formulare mit Anforderung/Problem: Wenn Sie Zugriff auf die Felder in der Abschnittsumfrage anzeigen möchten, aber zum Bearbeiten der Felder Administratorzugriff erforderlich ist, sind der Abschnitt und alle zugehörigen Felder für Benutzer ohne Administratorrechte nicht sichtbar, wenn sie das Formular ausfüllen. Nachdem die Anforderung erstellt wurde, können Benutzer mit Zugriff auf die Ansicht die Felder im Abschnitt anzeigen.</p></li>
-       <li> <p>Wenn Sie mehrere Objekttypen mit Ihrem Formular verknüpfen, können sich die in diesen Schritten verfügbaren Anzeige- und Bearbeitungsberechtigungen ändern. Weitere Informationen finden Sie unter <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Wie sich mehrere Objekttypen auf die Berechtigung zum Umbruch von Abschnitten in einem benutzerdefinierten Formular auswirken können</a> in diesem Artikel.</p> </li> 
+       <li> <p>Wenn Sie mehrere Objekttypen mit Ihrem Formular verknüpfen, können sich die in diesen Schritten verfügbaren Anzeige- und Bearbeitungsberechtigungen ändern. Weitere Informationen finden Sie in diesem Artikel unter <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Wie mehrere Objekttypen die Berechtigungen für Abschnittsumbrüche in einem benutzerdefinierten Formular beeinflussen können</a>.</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><p>Logik hinzufügen</p></td> 
-      <td><p>Verwenden Sie eine Anzeigelogik, um anzugeben, ob der Abschnitt basierend auf der Auswahl im Formular angezeigt werden soll, die Benutzer beim Ausfüllen des Formulars in benutzerdefinierten Feldern mit Mehrfachauswahl treffen.</p><p><strong>NOTE:</strong> Wenn auf alle einzelnen Felder unter einem Abschnittsumbruch eine Anzeigereihenfolge angewendet wird und sie alle aufgrund der Logik ausgeblendet sind, wird der gesamte Abschnitt im benutzerdefinierten Formular ausgeblendet. Dies geschieht auch dann, wenn die Anzeigelogik nicht auf den Abschnittsumbruch angewendet wird.</p><p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Fügen Sie die Anzeigenlogik hinzu und überspringen Sie die Logik mit dem Formularentwickler</a>.</p></td> 
+      <td><p>Verwenden Sie eine Anzeigelogik, um anzugeben, ob der Abschnitt basierend auf der Auswahl im Formular angezeigt werden soll, die Benutzer beim Ausfüllen des Formulars in benutzerdefinierten Feldern mit Mehrfachauswahl treffen.</p><p><strong>HINWEIS:</strong> Wenn auf alle einzelnen Felder unter einem Abschnittsumbruch eine Anzeigereihenfolge angewendet wird und sie alle infolge der Logik ausgeblendet sind, wird der gesamte Abschnitt im benutzerdefinierten Formular ausgeblendet. Dies geschieht auch dann, wenn die Anzeigelogik nicht auf den Abschnittsumbruch angewendet wird.</p><p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Hinzufügen der Anzeigelogik und Überspringen der Logik mit dem Formularentwickler</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Ziehen Sie mindestens ein benutzerdefiniertes Feld oder Widget in den neuen Abschnitt oder fügen Sie es hinzu. Dies ist vor dem Speichern des Abschnitts erforderlich.
 
-1. Klicks **Fertig**.
+1. Klicken Sie auf **Fertig**.
 
    >[!TIP]
    >
-   >Sie können auf **Anwenden** Sie können jederzeit ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular zu öffnen.
+   >Sie können jederzeit während der Erstellung eines benutzerdefinierten Formulars auf **Anwenden** klicken, um Ihre Änderungen zu speichern und das Formular offen zu halten.
 
 ### Wie sich mehrere Objektarten auf die Genehmigungen von Abschnittsumbrüchen auswirken können {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
@@ -135,7 +135,7 @@ Wenn Sie in einem benutzerdefinierten Formular mit einer Abschnittspause, die mi
 
 >[!INFO]
 >
->**Beispiel:** In einem benutzerdefinierten Formular, das mit dem Projektobjekttyp verknüpft ist, wird ein Abschnittsumbruch mit der Berechtigung Eingeschränkte Bearbeitung konfiguriert.
+>**Beispiel:** In einem benutzerdefinierten Formular, das dem Projektobjekttyp zugeordnet ist, wird ein Abschnittsumbruch mit der Berechtigung &quot;Eingeschränkte Bearbeitung&quot;konfiguriert.
 >
 >Sie fügen den Objekttyp Portfolio zum Formular hinzu. Das bedeutet, dass die Option Eingeschränkte Bearbeitungsberechtigung für den Abschnittsumbruch im Formular nicht mehr verfügbar ist.
 >
@@ -145,7 +145,7 @@ Wenn Sie in einem benutzerdefinierten Formular mit einer Abschnittspause, die mi
 ## Positionieren von benutzerdefinierten Feldern und Widgets in einem benutzerdefinierten Formular
 
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie unter [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie in [Formular entwerfen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
 
 1. Um benutzerdefinierte Felder und Widgets in derselben Zeile zu positionieren, ziehen Sie eine neben die andere, bis eine Linie dazwischen angezeigt wird.
 
@@ -160,20 +160,20 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 >[!NOTE]
 >
->* Sie können die **Vorschau** rechts oben, um eine Vorstellung davon zu erhalten, wie die benutzerdefinierten Felder und Widgets im Formular angezeigt werden.
+>* Sie können die Schaltfläche **Vorschau** oben rechts verwenden, um eine Vorstellung davon zu erhalten, wie die benutzerdefinierten Felder und Widgets im Formular angezeigt werden.
 >* Benutzerdefinierte Felder und Widgets werden im Formular möglicherweise nicht immer auf die gleiche Weise angezeigt, je nachdem, wie viel Platz auf dem Bildschirm verfügbar ist, wenn ein Benutzer das Formular anzeigt. Beispielsweise kann das dritte Feld in einer Zeile von Feldern zur nächsten Zeile von Feldern umbrechen, wenn der horizontale Bereich begrenzt ist.
 
 1. (Optional) Um ein benutzerdefiniertes Feld oder Widget über oder unter einem anderen zu positionieren, ziehen Sie es über oder unter, bis eine horizontale blaue Linie zwischen den Elementen angezeigt wird.
 
-1. Klicken Sie zum Speichern der Änderungen auf **Anwenden**
+1. Klicken Sie zum Speichern Ihrer Änderungen auf **Anwenden** .
 
    oder
 
-   Klicks **Speichern und schließen**.
+   Klicken Sie auf **Speichern und schließen**.
 
 ## Vorschau eines benutzerdefinierten Formulars
 
-1. Erstellen oder bearbeiten Sie ein benutzerdefiniertes Formular und fügen Sie Felder hinzu, wie beschrieben in [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Erstellen oder bearbeiten Sie ein benutzerdefiniertes Formular und fügen Sie Felder hinzu, wie in [Formular entwerfen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
 
-1. Klicks **Vorschau** in der oberen rechten Ecke, um zu sehen, wie das Formular bei Verwendung aussehen wird, und klicken Sie dann auf **Endvorschau** , um zum Bearbeiten des Formulars zurückzukehren.
+1. Klicken Sie oben rechts auf **Vorschau** , um zu sehen, wie das Formular bei Verwendung aussehen wird, und klicken Sie dann auf **Vorschau beenden** , um zum Bearbeiten des Formulars zurückzukehren.
 

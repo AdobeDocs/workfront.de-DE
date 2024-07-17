@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -39,7 +39,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder Höhere Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,11 +49,11 @@ Sie müssen über Folgendes verfügen:
 ## Geschäftsfall exportieren
 
 1. Wechseln Sie zu dem Projekt, aus dem Sie das Geschäftsszenario exportieren möchten.
-1. Klicken **Geschäftsfall** im linken Bereich.
-1. Oben rechts **Zusammenfassung von Geschäftsfällen** Bereich, klicken Sie **Export**.
+1. Klicken Sie im linken Bereich auf **Geschäftsszenario** .
+1. Klicken Sie oben rechts im Bereich **Zusammenfassung der Geschäftsszenarios** auf **Exportieren**.
 
    ![](assets/bc-summary--350x587.png)\
-   Eine PDF-Datei wird auf Ihren Computer heruntergeladen. Die Datei enthält alle Bereiche des Business Case in einem leicht lesbaren Format.
+   Eine PDF  -Datei auf Ihren Computer heruntergeladen. Die Datei enthält alle Bereiche des Business Case in einem einfach zu lesenden Format.
 
    ![BC_Summary_exporting.png](assets/bc-summary-exported-350x160.png)
 

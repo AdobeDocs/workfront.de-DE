@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Version 2017.3"
+title: Beta 1-Release-Aktivität von 2017.3
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Version 2017.3 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 9. August 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird Anfang November 2017 in der Produktionsumgebung zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta-Version 2017.3&quot;
+# Beta 1-Release-Aktivität von 2017.3
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Version 2017.3 verfügbar waren. Die Funktionalität auf dieser Seite wurde am 9. August 2017 in der Vorschau-Umgebung bereitgestellt. Sie wird Anfang November 2017 in der Produktionsumgebung zur Verfügung gestellt.
 
@@ -22,14 +22,14 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller 2017.3 vorgenommenen Änderungen finden Sie unter  [Übersicht über die Release-Aktivitäten 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Eine Liste aller 2017.3 vorgenommenen Änderungen finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-Die Beta-Version 2017.3 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Version 2017.3 von Beta 1 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren:**
 
 * [Verhindern, dass Aufgaben und Probleme gelöscht werden, wenn Stunden protokolliert werden](#prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
-* [Entfernung der Einstellung &quot;Frühzeitiger Zugriff&quot;aus dem Einrichtungsbereich](#removal-of-the-early-access-setting-from-the-setup-area)
+* [Entfernung der Einstellung &quot;Frühzeitiger Zugriff&quot;aus dem Setup-Bereich](#removal-of-the-early-access-setting-from-the-setup-area)
 * [Änderung der Standard-E-Mail-Adresse in Workfront](#workfront-default-email-address-change)
 
 **Für alle Benutzer:**
@@ -39,7 +39,7 @@ Die Beta-Version 2017.3 enthält Verbesserungen für Workfront-Administratoren u
 * [Spaltengröße ändern und in Berichten und Listen neu anordnen](#resize-and-reorder-columns-in-reports-and-lists)
 * [Option &quot;Benutzerdefinierte Daten löschen&quot;beim Kopieren von Aufgaben und Problemen](#clear-custom-data-option-when-copying-tasks-and-issues)
 * [Erstellen eines Projekts direkt aus einer Vorlage](#create-a-project-directly-from-a-template)
-* [In-App-Benachrichtigung für angemeldete Objekte](#in-app-notification-for-subscribed-objects)
+* [ In-App-Benachrichtigung für abonnierte Objekte](#in-app-notification-for-subscribed-objects)
 * [@Tagging derzeit nicht in der Vorschauumgebung verfügbar](#tagging-currently-not-available-in-the-preview-environment)
 * [Einbeziehen von Informationen zur Benutzerzuordnung in den Nutzungsbericht in ein Projekt](#include-user-allocation-information-in-the-utilization-report-on-a-project)
 
@@ -47,12 +47,12 @@ Die Beta-Version 2017.3 enthält Verbesserungen für Workfront-Administratoren u
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Die folgenden Verbesserungen der Ressourcenplanung sind verfügbar, wenn Sie Ressourcen für ein Team, für ein Projekt oder für mehrere Projekte als Ressourcen-Manager planen:
 
 * [Anzeigen des Planungsbereichs im Vollbildmodus](#view-scheduling-area-in-full-screen-mode)
-* [Weitere Datumsbereichsoptionen zum Anzeigen des Ressourcenzeitplanbereichs](#more-date-range-options-for-viewing-the-resource-scheduling-area)
+* [Weitere Datumsbereichsoptionen zum Anzeigen des Zeitplanbereichs für Ressourcen](#more-date-range-options-for-viewing-the-resource-scheduling-area)
 * [Anzeigen der prognostizierten Daten in der Timeline für die Planung](#view-projected-dates-on-the-scheduling-timeline)
 
 ### Anzeigen des Planungsbereichs im Vollbildmodus {#view-scheduling-area-in-full-screen-mode}
@@ -104,7 +104,7 @@ Jetzt können Sie Spalten in einem Bericht oder einer Liste neu anordnen und die
 
 Diese Funktion steht nicht für Dashboard-Listen oder -Berichte zur Verfügung, da diese Listen in einer neuen Datenrasterstruktur neu gestaltet wurden. Für alle anderen Listen ist diese Funktion in dieser Version aktiviert.
 
-Weitere Informationen zur Größenanpassung und Neuanordnung von Spalten finden Sie unter [Spaltenbreite und -reihenfolge ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Weitere Informationen zum Ändern der Größe und Neuanordnen von Spalten finden Sie unter [Spaltenbreite und -reihenfolge ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 ## Option &quot;Benutzerdefinierte Daten löschen&quot;beim Kopieren von Aufgaben und Problemen {#clear-custom-data-option-when-copying-tasks-and-issues}
 
@@ -114,13 +114,13 @@ Vor dieser Änderung wurden die benutzerdefinierten Daten, die in einem benutzer
 
 Weitere Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Weitere Informationen zu Kopierproblemen finden Sie unter [Probleme kopieren](../../../../manage-work/issues/manage-issues/copy-issues.md).
+Weitere Informationen zu Kopierproblemen finden Sie unter [Kopierprobleme](../../../../manage-work/issues/manage-issues/copy-issues.md).
 
 ## Erstellen eines Projekts direkt aus einer Vorlage {#create-a-project-directly-from-a-template}
 
 Sie können jetzt ein Projekt aus einer Vorlage auf Vorlagenebene erstellen.
 
-Vor dieser Änderung können Sie ein Projekt aus einer Vorlage nur auf der Registerkarte &quot;Projekte&quot;im Projektbereich von Workfront erstellen, indem Sie **Neues Projekt aus Vorlage** -Option.
+Vor dieser Änderung können Sie ein Projekt aus einer Vorlage nur auf der Registerkarte &quot;Projekte&quot;im Projektbereich von Workfront erstellen, indem Sie die Option **Neues Projekt aus Vorlage** verwenden.
 
 Weitere Informationen zum Erstellen eines Projekts aus einer Vorlage finden Sie unter [Erstellen eines Projekts mit einer Vorlage](../../../../manage-work/projects/create-projects/create-project-from-template.md).
 
@@ -132,9 +132,9 @@ Vor dieser Änderung wurden beim Löschen einer Aufgabe oder eines Problems, bei
 
 Weitere Informationen zum Löschen von Aufgaben finden Sie unter [Aufgaben löschen](../../../../manage-work/tasks/manage-tasks/delete-tasks.md).
 
-Weitere Informationen zum Löschen von Problemen finden Sie unter [Probleme löschen](../../../../manage-work/issues/manage-issues/delete-issues.md).
+Weitere Informationen zum Löschen von Problemen finden Sie unter [Löschprobleme](../../../../manage-work/issues/manage-issues/delete-issues.md).
 
-Weitere Informationen zum Aktivieren der Systemeinstellung für Aufgaben und zum Löschen von Problemen finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Weitere Informationen zum Aktivieren der Systemeinstellung für Aufgaben- und Problemlöschungen finden Sie unter [Systemweite Aufgaben- und Ausgabevoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Entfernung der Einstellung &quot;Frühzeitiger Zugriff&quot;aus dem Einrichtungsbereich {#removal-of-the-early-access-setting-from-the-setup-area}
 
@@ -144,7 +144,7 @@ Vor dieser Änderung konnten Workfront-Administratoren Benutzer weiterhin zur Um
 
 ## Änderung der Standard-E-Mail-Adresse in Workfront {#workfront-default-email-address-change}
 
-Die Standard-E-Mail-Adresse für ausgehende Workfront-E-Mails wurde von [noreply@attask.com](mailto:noreply@attask.com) nach [noreply@my.workfront.com](mailto:noreply@workfront.com).
+Die Standard-E-Mail-Adresse für ausgehende Workfront-E-Mails wurde von [noreply@attask.com](mailto:noreply@attask.com) in [noreply@my.workfront.com](mailto:noreply@workfront.com) geändert.
 
 Wenn Sie derzeit aus Workfront gesendete E-Mails filtern, müssen Sie Ihren Filter so ändern, dass er die neue Standardadresse widerspiegelt. 
 
@@ -154,15 +154,15 @@ Weitere Informationen finden Sie unter .
 
 ## In-App-Benachrichtigung für angemeldete Objekte {#in-app-notification-for-subscribed-objects}
 
-Wenn ein Benutzer einen Kommentar zu Projekten, Aufgaben und Problemen abgibt, für die Sie angemeldet sind, erhalten Sie jetzt eine In-App-Benachrichtigung. Weitere Informationen zu In-App-Anmelde-Benachrichtigungen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Wenn ein Benutzer einen Kommentar zu Projekten, Aufgaben und Problemen abgibt, für die Sie angemeldet sind, erhalten Sie jetzt eine In-App-Benachrichtigung. Weitere Informationen zu In-App-Abonnement-Benachrichtigungen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-Je nach den Funktionen, die Ihr Workfront-Administrator aktiviert hat, können Sie auch E-Mail-Benachrichtigungen für abonnierte Elemente erhalten. Sie können sich einfach von einem Artikel über einen Link in einer Anmelde-E-Mail abmelden, wie in [Adobe Workfront-Benachrichtigungen](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Je nach den Funktionen, die Ihr Workfront-Administrator aktiviert hat, können Sie auch E-Mail-Benachrichtigungen für abonnierte Elemente erhalten. Sie können sich einfach von einem Artikel über einen Link in einer Anmelde-E-Mail abmelden, wie in [Adobe Workfront-Benachrichtigungen](../../../../workfront-basics/using-notifications/wf-notifications.md) beschrieben.
 
 Vor dieser Änderung haben Sie immer eine E-Mail-Benachrichtigung für abonnierte Artikel erhalten und es gab keine Option, eine In-App-Benachrichtigung zu erhalten.
 
-Sie können zwar die Abonnement-E-Mail deaktivieren, aber In-App-Benachrichtigungen für abonnierte Elemente können nicht deaktiviert werden. Weitere Informationen finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Sie können zwar die Abonnement-E-Mail deaktivieren, aber In-App-Benachrichtigungen für abonnierte Elemente können nicht deaktiviert werden. Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigungen für alle Benutzer im System](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Weitere Informationen zum Abonnieren von Elementen finden Sie unter [Abonnieren von Elementen in Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+Weitere Informationen zum Abonnieren von Elementen finden Sie unter [Artikel in Adobe Workfront abonnieren](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
 
 ## @Tagging derzeit nicht in der Vorschauumgebung verfügbar {#tagging-currently-not-available-in-the-preview-environment}
 
@@ -173,16 +173,16 @@ Wenn wir daran arbeiten, die Funktion &quot;Rich-Text-Format&quot;in den Aktuali
 * Problem
 * Arbeitszeittabelle
 
-Sie können andere weiterhin taggen, indem Sie auf **Andere in diese Aktualisierung einbeziehen** Symbol.
+Sie können andere weiterhin taggen, indem Sie auf das Symbol **Andere einschließen auf dieses Update** klicken.
 
-Weitere Informationen finden Sie unter [Tagging anderer Benutzer auf Updates](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Weitere Informationen finden Sie unter [Taggen anderer Benutzer bei Updates](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Einbeziehen von Informationen zur Benutzerzuordnung in den Nutzungsbericht in ein Projekt {#include-user-allocation-information-in-the-utilization-report-on-a-project}
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Der Nutzungsbericht zu einem Projekt berücksichtigt nun, ob die geplanten Stunden für die Dauer einer Aufgabe neu zugewiesen wurden. Wenn die Benutzerzuordnung für Stunden geändert wurde (wie unter &quot;Verwalten von Benutzerzuweisungen in den Planungsbereichen&quot;beschrieben), können die Daten im Nutzungsbericht betroffen sein, wenn die im Nutzungsbericht ausgewählten Daten nur einen Teil einer Aufgabe enthalten.
 
-Weitere Informationen finden Sie unter [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen finden Sie unter [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).

@@ -8,7 +8,7 @@ feature: Product Announcements
 exl-id: 153668ae-0647-47fd-9153-ce45cd8c54ee
 source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Diese Änderung wird am 7. August in der Vorschau- und Sandbox-Umgebung wirksam,
 
 ### Beim Zugriff auf Workfront über den Browser {#when-accessing-workfront-via-the-browser}
 
-Stellen Sie sicher, dass Benutzer in Ihrem Unternehmen über einen unterstützten Browser auf Workfront zugreifen. (Informationen zu unterstützten Browsern finden Sie unter [Adobe Workfront-Browseranforderungen](../../../workfront-basics/workfront-browser-requirements.md).
+Stellen Sie sicher, dass Benutzer in Ihrem Unternehmen über einen unterstützten Browser auf Workfront zugreifen. (Informationen zu unterstützten Browsern finden Sie unter [Browseranforderungen für Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).)
 
 Alle von Workfront unterstützten Browser sind mit TLS 1.2 kompatibel.
 

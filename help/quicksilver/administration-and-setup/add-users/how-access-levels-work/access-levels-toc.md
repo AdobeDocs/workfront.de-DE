@@ -23,10 +23,10 @@ Als Adobe Workfront-Administrator können Sie Benutzern Zugriff auf das Anzeigen
 * [Übersicht über die neuen Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 * [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
 * [Zugriff auf Objekte und Bereiche durch neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-* [Für jeden Objekttyp verfügbare Funktionen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+* [Für jeden Objekttyp verfügbare Funktionalität](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 * [Deaktivieren Sie die Option für die automatische Aktualisierung für nicht bezahlte Benutzer im neuen Lizenzplan](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
 
 ## Siehe auch
 
 * Informationen zum Erstellen von Zugriffsebenen finden Sie unter [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
-* Informationen dazu, wie Benutzer Objekte miteinander teilen können, finden Sie unter Gewähren von Ansichts- und Bearbeitungsberechtigungen für diese Objekte [Gewähren und Anfordern von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* Weitere Informationen dazu, wie Benutzer Objekte miteinander teilen können, indem sie ihnen Ansichts- und Bearbeitungsberechtigungen für diese Objekte gewähren, finden Sie unter [Gewähren und Anfordern von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).

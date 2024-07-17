@@ -19,15 +19,15 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Änderungen beschrieben, die mit Version 2019.3 vorgenommen wurden. Es wurde in der Produktionsumgebung in der Woche vom 19. August 2019 zur Verfügung gestellt.
 
-Eine Liste aller 2019.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivitäten 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.3 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Unterstützung freigegebener Elemente in der MS OneDrive-Integration
 
 Jetzt können Sie Ihre freigegebenen OneDrive-Dateien und -Ordner mit Workfront-Objekten verknüpfen. Umgekehrt können Sie Dateien in Workfront in freigegebene Ordner in OneDrive hochladen.
 
-Weitere Informationen finden Sie in den Abschnitten . [Externes Dokument mit Workfront verknüpfen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Externe Ordner verknüpfen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder), und [Aktualisieren und Verknüpfen eines Dokuments von Workfront mit einem externen Cloud-Anbieter](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) im Artikel [Verknüpfen von Dokumenten mit externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Weitere Informationen finden Sie in den Abschnitten [Verknüpfen eines externen Dokuments mit Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Verknüpfen eines oder mehrerer externer Ordner](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder) und [Aktualisieren und Verknüpfen eines Dokuments von Workfront mit einem externen Cloud-Anbieter](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) im Artikel [Verknüpfen von Dokumenten aus externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Weitere Informationen finden Sie im Abschnitt . [Externes Dokument mit Workfront verknüpfen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) im Artikel [Verknüpfen von Dokumenten mit externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Weitere Informationen finden Sie im Abschnitt &quot;[Verknüpfen eines externen Dokuments mit Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents)&quot;im Artikel &quot;[Verknüpfen von Dokumenten aus externen Anwendungen&quot;](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)&quot;.
 
 ## Domänenspezifikation für alle Workfront-Anmeldungen erforderlich
 
@@ -39,7 +39,7 @@ Diese Änderung kann sich sowohl auf Benutzeranmeldungen als auch auf API-Integr
 
   Wenn Ihre Unternehmensdomäne nicht in der Workfront-URL enthalten ist, wird jetzt auf dem Anmeldebildschirm neben den Feldern Benutzername und Kennwort ein neues Feld Domäne angezeigt.
 
-  Für die meisten Kunden ist keine Änderung erforderlich, da die Domäneninformationen bereits in der Workfront-URL enthalten sind. Beispiel: &quot;*domain*.my.workfront.com.&quot;
+  Für die meisten Kunden ist keine Änderung erforderlich, da die Domäneninformationen bereits in der Workfront-URL enthalten sind. Beispiel: &quot;*domain*.my.workfront.com&quot;.
 
 * **API-Integrationen**
 

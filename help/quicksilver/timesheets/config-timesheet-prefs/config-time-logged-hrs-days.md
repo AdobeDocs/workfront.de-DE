@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -50,15 +50,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Führen Sie je nach Ziel und Zugriffsstufe im System einen der folgenden Schritte aus:
 
-   * **Planen Sie die Konfiguration der Zeitprotokollierung für Sie selbst:** Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf Ihren Benutzernamen neben Ihrem Profilbild. Klicken Sie dann auf die **Mehr** neben Ihrem Namen und wählen Sie **Bearbeiten**.
+   * **Planen Sie den Benutzer beim Konfigurieren der Zeitprotokollierung für sich selbst:** Klicken Sie auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und klicken Sie dann auf Ihren Benutzernamen neben Ihrem Profilbild. Klicken Sie dann auf das Symbol **Mehr** neben Ihrem Namen und wählen Sie **Bearbeiten** aus.
 
-   * **Systemadministrator, der die Zeitprotokollierung für andere konfiguriert:** Bearbeiten Sie ein oder mehrere Benutzerkonten, wie unter [Benutzerprofil bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   * **Systemadministrator, der die Zeitprotokollierung für andere konfiguriert:** Beginnen Sie mit der Bearbeitung eines oder mehrerer Benutzerkonten, wie in [Profil eines Benutzers bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) beschrieben.
 
-1. Im daraufhin angezeigten Dialogfeld wird im **Ressourcenplanung** -Abschnitt, suchen Sie die **Anmeldezeit** -Option.
+1. Suchen Sie im daraufhin angezeigten Dialogfeld im Abschnitt **Ressourcenplanung** die Option **Log Time in** .
 
    ![](assets/new-timesheet-log-hours-350x249.png)
 
-1. (Bedingt) Wenn Sie Systemadministrator sind und mehrere Benutzer gleichzeitig bearbeiten, wählen Sie **Anmeldezeit**.
+1. (Bedingt) Wenn Sie ein Systemadministrator sind, der mehrere Benutzer gleichzeitig bearbeitet, wählen Sie **Protokollzeit in** aus.
 1. Wählen Sie aus den folgenden Optionen für die Protokollierungszeit aus:
 
    | Option | Beschreibung |
@@ -66,11 +66,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    | **Stunden** | Benutzer geben Stunden bei der Protokollierung in Workfront an. |
    | **Tage** | Benutzer geben Tage bei der Protokollierung in Workfront an. |
 
-1. (Bedingt) Wenn Sie die Protokollzeit in Tagen ausgewählt haben, wird im **Entsprechende Stunden für vollständige Workday** Geben Sie die Anzahl der Stunden ein, die einem vollen Tag entsprechen. Ein Tag auf dem Timesheet eines Benutzers entspricht der Anzahl der Stunden, die Sie hier eingeben.
+1. (Bedingt) Wenn Sie die Protokollzeit in Tagen ausgewählt haben, geben Sie im Feld **Entsprechende Stunden für vollständige Workday** die Anzahl der Stunden ein, die einem vollen Tag entsprechen. Ein Tag auf dem Timesheet eines Benutzers entspricht der Anzahl der Stunden, die Sie hier eingeben.
 
    Beachten Sie beim Konfigurieren dieser Einstellung Folgendes:
 
    * Diese Option ist nicht verfügbar, wenn konfiguriert wird, die Uhrzeit in Stunden zu protokollieren.
-   * Diese Option wird nur zum Zwecke der Protokollierung verwendet. Diese Option hängt nicht mit der **Zeitplan** -Option, die auch beim Bearbeiten eines Benutzers verfügbar ist. Die **Zeitplan** wird bei der Berechnung der Zeitpläne und in anderen Bereichen von Workfront verwendet. (Weitere Informationen zur Verwendung des **Zeitplan** , siehe [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md). 
+   * Diese Option wird nur zum Zwecke der Protokollierung verwendet. Diese Option steht nicht in Zusammenhang mit der Option **Zeitplan** , die auch beim Bearbeiten eines Benutzers verfügbar ist. Die Option **Zeitplan** wird bei der Berechnung von Zeitleisten und in anderen Bereichen von Workfront verwendet. (Weitere Informationen zur Verwendung der Option **Zeitplan** finden Sie unter [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).) 
 
-1. Klicken **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.

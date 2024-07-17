@@ -9,8 +9,8 @@ role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 28%
+source-wordcount: '537'
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 28%
 
 ## Aktualisierte Ressourcen
 
-Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfront-API aktualisiert. Informationen zu den Ressourcen, die neu in Version 8 sind, finden Sie unter [Neue Funktionen in API Version 8](../../wf-api/api/new-api-version-8.md). Änderungen an einer Ressource werden wie folgt angegeben:
+Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfront-API aktualisiert. Informationen zum Anzeigen der Ressourcen, die neu in Version 8 sind, finden Sie unter [Neue Funktionen in API Version 8](../../wf-api/api/new-api-version-8.md). Änderungen an einer Ressource werden wie folgt angegeben:
 
 * Hinzufügungen werden einfach aufgelistet
 * Entfernungen werden mit Durchstreichen angezeigt
@@ -28,7 +28,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| action<sup>1</sup>  |   |   |   |   |   |   |
+| Aktion<sup>1</sup>  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 

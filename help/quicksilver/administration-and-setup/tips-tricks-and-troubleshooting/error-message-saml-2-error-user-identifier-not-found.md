@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '''Fehlermeldung: SAML 2.0-Fehler: Benutzerkennung nicht gefunden"'
+title: 'Fehlermeldung: SAML 2.0-Fehler: Benutzer-ID nicht gefunden'
 description: Sie können keine erfolgreiche Verbindung zu ADFS herstellen.
 author: Caroline
 feature: System Setup and Administration
@@ -11,12 +11,12 @@ role: Admin
 exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
-# Fehlermeldung: SAML 2.0-Fehler: Benutzerkennung nicht gefunden
+# Fehlermeldung: SAML 2.0-Fehler: Benutzer-ID nicht gefunden
 
 ## Problem
 
@@ -42,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen [!DNL Workfront] Administrator. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> <p><b>NOTE</b>: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administrator kann Ihre Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Sie müssen ein [!DNL Workfront] -Administrator sein. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für einen Benutzer</a>.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,12 +59,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Stellen Sie auf dem ADFS-Server sicher, dass ein Anspruch auf Namen-ID besteht:
 
-1. Klicken Sie unter Windows auf **[!UICONTROL Starten]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0-Verwaltung]**.\
+1. Klicken Sie unter Windows auf &quot;**[!UICONTROL Start]**&quot;> &quot;**[!UICONTROL Administration]**&quot;> &quot;**[!UICONTROL ADFS 2.0-Verwaltung]**&quot;.\
    Das Dialogfeld ADFS 2.0-Verwaltung wird angezeigt.
 
-1. Auswählen **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauen in Partei]** im linken Bereich.
+1. Wählen Sie im linken Bereich die Option **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauenswürdige Parteivertrauer]** aus.
 
-1. Klicken Sie mit der rechten Maustaste auf das Vertrauen der vertrauenswürdigen Partei in Bezug auf Adobe Workfront und wählen Sie **[!UICONTROL Anforderungsregeln bearbeiten]**.
-1. Stellen Sie sicher, dass der Anspruch eine **[!UICONTROL Ausgehender Anforderungstyp]** von **[!UICONTROL Name: ID]**.
+1. Klicken Sie mit der rechten Maustaste auf die Vertrauenswürdigkeit der vertrauenswürdigen Partei in Bezug auf Adobe Workfront und wählen Sie **[!UICONTROL Anforderungsregeln bearbeiten]**.
+1. Vergewissern Sie sich, dass der Anspruch einen **[!UICONTROL ausgehenden Anforderungstyp]** von **[!UICONTROL Name-ID]** aufweist.
 
 ![1.png](assets/1-350x287.png)

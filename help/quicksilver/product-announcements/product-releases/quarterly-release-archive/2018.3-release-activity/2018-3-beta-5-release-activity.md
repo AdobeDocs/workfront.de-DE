@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Version 5"2018.3
+title: Beta 5-Release-Aktivität von 2018.3
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 5-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 21. September 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
@@ -14,34 +14,34 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta-Version 5&quot;2018.3
+# Beta 5-Release-Aktivität von 2018.3
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 5-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 21. September 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
 
-Eine Liste aller Änderungen, die 2018.3 vorgenommen wurden, finden Sie unter  [Übersicht über die Release-Aktivitäten 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.3 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 Die Beta 5-Version 2018.3 enthält Verbesserungen für alle Benutzer:
 
-* [Verfolgen von Genehmigungen, die Sie im Startbereich eingereicht haben](#track-approvals-you-ve-submitted-in-the-home-area)
+* [Tracking von Genehmigungen, die Sie im Startbereich gesendet haben](#track-approvals-you-ve-submitted-in-the-home-area)
 * [Ersetzen von Flash-basierten Tools in Workfront](#replacement-of-flash-based-tools-in-workfront)
 * [Ermöglichen des Zugriffs auf die Unterregisterkarte &quot;Planung&quot;eines Projekts durch Arbeitslizenzanwender](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
 * [Verbesserte Filter im Ressourcenplaner](#improved-filters-in-the-resource-planner)
-* [Anzeigen der tatsächlichen Stunden im Ressourcenplaner](#view-actual-hours-in-the-resource-planner)
-* [Ressourcen-Planer-Daten im Business Case-Export](#resource-planner-data-in-the-business-case-export)
-* [Außerkraftsetzen der Rechnungsrate auf Unternehmensebene](#enable-company-level-billing-rate-override)
-* [Vereinfachte rollenbasierte Genehmigungen](#simplified-role-based-approvals)
-* [Nutzungsbericht: Füllt die budgetierten Stunden aus dem neuen Ressourcenbudgeting-Bereich aus](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
-* [Nutzungsbericht: Budgetierte Stunden nach Benutzer in einem Projekt anzeigen](#utilization-report-view-budgeted-hours-by-user-on-a-project)
+* [Tatsächliche Stunden im Ressourcenplaner anzeigen](#view-actual-hours-in-the-resource-planner)
+* [Ressourcenplandaten im Business Case Export](#resource-planner-data-in-the-business-case-export)
+* [Aktivierung der Überschreibung der Abrechnungsrate auf Unternehmensebene](#enable-company-level-billing-rate-override)
+* [ Vereinfachte rollenbasierte Genehmigungen](#simplified-role-based-approvals)
+* [Nutzungsbericht: Füllt die budgetierten Stunden aus dem neuen Ressourcenbudgeting-Bereich](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
+* [Nutzungsbericht: Budgetierte Stunden nach Benutzer für ein Projekt anzeigen](#utilization-report-view-budgeted-hours-by-user-on-a-project)
 * [SWF-Dateien werden im Testversand-Viewer nicht mehr unterstützt](#swf-files-no-longer-supported-in-the-proofing-viewer)
 * [Schnellere Zugänglichkeit von Aktionen in der Kommentarliste im Testversand-Viewer](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
 * [Verbesserung der Testversand-Freigabe im Testversand-Viewer](#proof-sharing-improvement-in-the-proofing-viewer)
 * [Verbesserungen der Kommentarliste im Testversand-Viewer](#comments-list-enhancements-in-the-proofing-viewer)
-* [Zoomen und Schwenken von Videosendungen im Testversand-Viewer](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
+* [Testen und Schwenken von Videos im Testversand-Viewer](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
 * [Hellerer Hintergrund im Testversand-Viewer](#lighter-background-in-the-proofing-viewer)
 * [Bessere Sichtbarkeit, wenn ein Kommentar im Testversand-Viewer bearbeitet wurde](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer)
-* [Anzeigen der Anzahl der mit einer Aktion verknüpften Kommentare in der Kommentarliste im Testversand-Viewer](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
-* [Festlegen der Stufe beim Hinzufügen von Benutzern zu einem Testversand im Testversand-Viewer](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
-* [Öffnen der zugehörigen Website über einen interaktiven oder statischen Website-Proof](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
+* [Anzeigen der Anzahl der Kommentare, die mit einer Aktion verknüpft sind, in der Kommentarliste im Testversand-Viewer](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
+* [Geben Sie die Bühne an, wenn Benutzer im Testversand-Viewer zu einem Testversand hinzugefügt werden.](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
+* [Öffnen der zugehörigen Website von einem interaktiven oder statischen Website-Proof](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
 * [Verbesserungen der Druckzusammenfassung](#print-summary-enhancements)
 * [Verbesserte Ladezeit für Testsendungen](#improved-proof-loading-time)
 * [Neue Funktionen auf der Registerkarte &quot;Aktualisierungen&quot;in der mobilen Workfront-App](#new-look-and-feel-of-the-updates-tab-in-the-workfront-mobile-app)
@@ -59,13 +59,13 @@ Von der Startseite aus haben Sie folgende Möglichkeiten:
 
   Bisher konnten Sie nur im Bereich Meine Arbeit mit gesendeten Genehmigungen interagieren. 
 
-Weitere Informationen finden Sie unter [Genehmigungen verwalten](../../../../review-and-approve-work/manage-approvals/manage-approvals.md). 
+Weitere Informationen finden Sie unter [Verwalten von Genehmigungen](../../../../review-and-approve-work/manage-approvals/manage-approvals.md). 
 
 ## Ersetzen von Flash-basierten Tools in Workfront {#replacement-of-flash-based-tools-in-workfront}
 
 Alle Funktionen, die auf Flash-Technologie basieren, sollen ab Version 2018.3 aus Workfront entfernt werden und werden durch eine neue Lösung ersetzt.
 
-Weitere Informationen zu allen Bereichen, die von der Entfernung dieser Funktionen betroffen sind, und Informationen zu den Werkzeugen, die sie ersetzen werden, finden Sie unter [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Weitere Informationen zu allen Bereichen, die von der Entfernung dieser Funktionen betroffen sind, und Informationen dazu, welche Tools sie ersetzen werden, finden Sie unter [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ## Ermöglichen des Zugriffs auf die Unterregisterkarte &quot;Planung&quot;eines Projekts durch Arbeitslizenzanwender {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -77,7 +77,7 @@ Informationen zum Zugriff auf die Unterregisterkarte &quot;Planung&quot;eines Pr
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Verbesserte Filter im Ressourcenplaner {#improved-filters-in-the-resource-planner}
 
@@ -93,7 +93,7 @@ Sie können die tatsächlichen Stunden in der Benutzeransicht des Ressourcen-Pla
 
 Vor dieser Verbesserung waren die tatsächlichen Stunden im Ressourcenplaner nicht sichtbar.
 
-Informationen zum Anzeigen von Stundeninformationen im Ressourcenplaner finden Sie unter [Übersicht über den Ressourcenplaner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Informationen zum Anzeigen von Stundeninformationen im Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Ressourcen-Planer-Daten im Business Case-Export {#resource-planner-data-in-the-business-case-export}
 
@@ -101,7 +101,7 @@ Wenn Sie den Geschäftsfall in eine PDF exportieren, spiegeln die Finanzinformat
 
 Zuvor spiegelte die exportierte Datei die Informationen im Bereich &quot;Ältere Ressourcenschätzungen&quot;und im Kapazitätsplaner wider. 
 
-Informationen zum Exportieren des Geschäftsfalls finden Sie im Abschnitt [Geschäftsszenario für ein Projekt erstellen](../../../../manage-work/projects/define-a-business-case/create-business-case.md) Abschnitt in [Geschäftsszenario für ein Projekt erstellen](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Informationen zum Exportieren des Geschäftsfeldes finden Sie im Abschnitt [Geschäftsszenario für ein Projekt erstellen](../../../../manage-work/projects/define-a-business-case/create-business-case.md) in [Erstellen eines Geschäftsfeldes für ein Projekt](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Außerkraftsetzen der Rechnungsrate auf Unternehmensebene {#enable-company-level-billing-rate-override}
 
@@ -119,7 +119,7 @@ Rollenbasierte Genehmigungen funktionieren jetzt einfacher an einem Projekt. Jet
 
 Zuvor mussten Sie dem Projektteam Benutzer zuweisen, sicherstellen, dass sie in ihrem Benutzerprofil die richtige Rolle hatten, und diese Rolle im Legacy Team Builder auswählen.
 
-Weitere Informationen finden Sie im Abschnitt . [Übersicht über das Projektteam](../../../../manage-work/projects/planning-a-project/project-team-overview.md) im Artikel [Übersicht über das Projektteam](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Weitere Informationen finden Sie im Abschnitt [Überblick über das Projektteam](../../../../manage-work/projects/planning-a-project/project-team-overview.md) im Artikel [Überblick über das Projektteam](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Nutzungsbericht: Füllt die budgetierten Stunden aus dem neuen Ressourcenbudgeting-Bereich aus {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -131,7 +131,7 @@ Die im Nutzungsbericht veranschlagten Stunden werden jetzt aus den Informationen
 
 Vor dieser Änderung wurden Informationen aus dem Bereich &quot;Ressourcenschätzungen&quot;verwendet.
 
-Weitere Informationen finden Sie unter  [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) im Artikel  [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen finden Sie unter  [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) im Artikel  [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Nutzungsbericht: Budgetierte Stunden nach Benutzer in einem Projekt anzeigen {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,13 +143,13 @@ Der Nutzungsbericht zu einem Projekt zeigt jetzt die budgetierten Stunden nach B
 
 Vor dieser Änderung wurden im Nutzungsbericht nur die geplanten Stunden nach der Rolle des Auftrags angezeigt. 
 
-Weitere Informationen finden Sie unter  [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) im Artikel  [Übersicht über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen finden Sie unter  [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) im Artikel  [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## SWF-Dateien werden im Testversand-Viewer nicht mehr unterstützt {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
 Aufgrund von Sicherheitsbedenken im Zusammenhang mit dem Adobe-Flash unterstützt der Testversand-Viewer keine aus SWF-Dateien erstellten Testsendungen mehr. Wenn Sie einen zuvor für eine SWF-Datei erstellten Testversand öffnen, wird eine Meldung angezeigt, in der der zuvor im Testversand-Viewer angezeigte Testversand-Inhalt angezeigt wird. Sie können alle Kommentare zum Testversand sehen. Sie können auch Kommentare herunterladen und die ursprüngliche SWF-Datei herunterladen.
 
-Weitere Informationen finden Sie unter [Unterstützte Testing-Dateitypen und Größenbeschränkungen - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) im Artikel [Unterstützte Testing-Dateitypen und Größenbeschränkungen - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
+Weitere Informationen finden Sie unter [Übersicht über unterstützte Testversand-Dateitypen und Größenbeschränkungen](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) im Artikel [Unterstützte Testversanddateitypen und Größenbeschränkungen - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
 
 ## Schnellere Zugänglichkeit von Aktionen in der Kommentarliste im Testversand-Viewer {#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer}
 
@@ -157,7 +157,7 @@ Sie können jetzt die Aktion für einen Kommentar im Testversand-Viewer schnelle
 
 Zuvor mussten Sie den Kommentar öffnen, ein Dropdown-Menü öffnen, ein Untermenü öffnen und dann auf die gewünschte Aktion klicken.
 
-Weitere Informationen finden Sie unter [Verwenden von Aktionen für Testversand-Kommentare](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+Weitere Informationen finden Sie unter [Verwenden von Aktionen für Testkommentare](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
 ## Verbesserung der Testversand-Freigabe im Testversand-Viewer {#proof-sharing-improvement-in-the-proofing-viewer}
 
@@ -165,7 +165,7 @@ Wenn Sie eine URL aus dem Testversand-Viewer senden, sind die angezeigten Option
 
 Zuvor boten diese Optionen dieselben Funktionen wie jetzt, aber ihre Organisation war nicht mit den entsprechenden Optionen in der Liste &quot;Dokumente&quot;konsistent.
 
-Weitere Informationen finden Sie im Abschnitt  [URL freigeben](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) im Artikel  [Freigeben eines Testversands aus dem Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Weitere Informationen finden Sie im Abschnitt  [Geben Sie die URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) im Artikel frei  [Geben Sie einen Testversand aus dem Testversand-Viewer frei](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Verbesserungen der Kommentarliste im Testversand-Viewer {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -215,7 +215,7 @@ Wenn Sie einen Validierer zu einem Testversand hinzufügen, der über einen auto
 
 Zuvor, als Sie Überprüfer über den Testversand-Viewer zu einem Testversand hinzugefügt haben, platzierte Workfront sie in der derzeit aktiven Bühne.
 
-Weitere Informationen finden Sie unter [Freigeben eines Testversands durch Hinzufügen von Benutzern](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in [Freigeben eines Testversands aus dem Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Weitere Informationen finden Sie unter [Freigeben eines Testversands durch Hinzufügen von Benutzern dazu](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in [Freigeben eines Testversands aus dem Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Öffnen der zugehörigen Website über einen interaktiven oder statischen Website-Proof {#opening-the-associated-website-from-an-interactive-or-static-website-proof}
 
@@ -242,7 +242,7 @@ Die folgenden Verbesserungen sind jetzt auf der Seite Druckzusammenfassung verf�
 * Wenn es sich bei dem Testversand um eine Weberfassung handelt, zeigt jede Seite mit Kommentaren die Auflösung an, in der die Webseite erfasst wurde. Dies ist beispielsweise hilfreich, wenn der Testversand Seiten enthält, die für Mobilgeräte erfasst werden, und dieselben Seiten, die für Laptop- und Desktop-Computer erfasst werden.
 * Wenn Sie nun Kommentare auf der Seite Druckzusammenfassung nach dem Status Aktion, Autor oder Nicht aufgelöst filtern, gilt Ihr Filter für Testsendungen, die Sie als PDF- oder Excel-Dateien exportieren, nicht nur für gedruckte Testsendungen.
 
-Weitere Informationen finden Sie unter [Testversandzusammenfassung in Adobe Workfront drucken](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Weitere Informationen finden Sie unter [Drucken einer Testversand-Zusammenfassung in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ## Verbesserte Ladezeit für Testsendungen {#improved-proof-loading-time}
 
@@ -254,4 +254,4 @@ Informationen zum Öffnen von Testsendungen finden Sie unter .
 
 Das Erscheinungsbild der Registerkarte &quot;Aktualisierungen&quot;in der Mobile App wurde aktualisiert. Diese Verbesserung ist derzeit nur in der Workfront Beta-App für Android verfügbar.
 
-Informationen zum Verwalten von Aktualisierungen und Kommentaren in der mobilen Workfront-App finden Sie im Abschnitt in .
+Informationen zum Verwalten von Aktualisierungen und Kommentaren in der mobilen Workfront-App finden Sie im Abschnitt .  in .

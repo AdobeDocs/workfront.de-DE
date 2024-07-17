@@ -72,7 +72,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Hinzufügen von Benutzern zu einem Projektteam
 
-Wenn Sie Benutzer zum Projektteam hinzufügen, erhalten sie Anzeigeberechtigungen für das Projekt sowie die Aufgaben, Probleme und Dokumente des Projekts. Weitere Informationen finden Sie im Artikel [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Wenn Sie Benutzer zum Projektteam hinzufügen, erhalten sie Anzeigeberechtigungen für das Projekt sowie die Aufgaben, Probleme und Dokumente des Projekts. Weitere Informationen finden Sie im Artikel [Überblick über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
@@ -89,7 +89,7 @@ Wenn Sie Benutzer zum Projektteam hinzufügen, erhalten sie Anzeigeberechtigunge
 
 Sie können dem Projektteam auf folgende Weise Benutzer hinzufügen:
 
-* [Benutzer automatisch zu einem Projektteam hinzufügen](#automatically-add-users-to-a-project-team)
+* [Benutzer automatisch einem Projektteam hinzufügen](#automatically-add-users-to-a-project-team)
 * [Manuelles Hinzufügen von Benutzern zu einem Projektteam](#manually-add-users-to-a-project-team)
 
 ### Benutzer automatisch zu einem Projektteam hinzufügen {#automatically-add-users-to-a-project-team}
@@ -109,7 +109,7 @@ Benutzer werden auch automatisch zum Projektteam hinzugefügt, wenn sie den folg
 
 Wenn Benutzer, die keine Rolle im Projekt erfüllen, über bestimmte Aktualisierungen oder Änderungen während der Projektlaufzeit benachrichtigt werden möchten, können Sie sie manuell zum Projektteam hinzufügen.
 
-Weitere Informationen dazu, welche Benachrichtigungen für Benutzer des Projektteams aktiviert werden können, finden Sie unter [Typen von Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Weitere Informationen dazu, welche Benachrichtigungen für Benutzer im Projekt-Team aktiviert werden können, finden Sie unter [Ereignistypbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -121,15 +121,15 @@ Weitere Informationen dazu, welche Benachrichtigungen für Benutzer des Projektt
 
 1. Wechseln Sie zu dem Projekt, dem Sie Benutzer hinzufügen möchten.
 
-1. Klicks **Personen** im linken Bereich. Möglicherweise müssen Sie auf **Mehr anzeigen** zuerst.
+1. Klicken Sie im linken Bereich auf **Personen** . Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
 
-1. Klicks **Benutzer hinzufügen**.
+1. Klicken Sie auf **Benutzer hinzufügen**.
 
    Das Dialogfeld Benutzer zum Projektteam hinzufügen wird angezeigt.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. Im **Benutzer hinzufügen** Geben Sie den Namen eines aktiven Workfront-Benutzers ein, den Sie dem Projektteam hinzufügen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdownliste angezeigt wird.
+1. Geben Sie im Feld **Benutzer hinzufügen** den Namen eines aktiven Workfront-Benutzers ein, den Sie dem Projektteam hinzufügen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdownliste angezeigt wird.
 
    Wiederholen Sie diesen Schritt, um dem Projektteam mehrere Benutzer hinzuzufügen. Die Benutzer müssen zur Gruppe gehören, die mit dem Projekt verknüpft ist.
 
@@ -138,10 +138,10 @@ Weitere Informationen dazu, welche Benachrichtigungen für Benutzer des Projektt
    >* Sie können keine Benutzer hinzufügen, indem Sie ihre Teams, Gruppen, Unternehmen oder Rollen hinzufügen.
    >* Beachten Sie beim Hinzufügen der Benutzer den Avatar, die Primäre Rolle des Benutzers und seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
    >
-   >  Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. Klicks **Hinzufügen**.
+1. Klicken Sie auf **Hinzufügen**.
 
    Die Benutzer erhalten Ansichtsberechtigungen für das Projekt und erhalten Benachrichtigungen über das Projekt als Teil des Projektteams.
 

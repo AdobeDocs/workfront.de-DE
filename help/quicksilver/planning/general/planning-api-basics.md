@@ -28,12 +28,12 @@ Objekte werden bearbeitet, indem eine HTTP-Anfrage an ihren eindeutigen URI gese
 
 Die standardmäßigen HTTP-Methoden entsprechen den folgenden Vorgängen:
 
-* **GET** - Ruft ein Objekt nach Kennung ab, sucht mithilfe einer Abfrage nach allen Objekten
+* **GET** - Ruft ein Objekt nach ID ab, sucht mithilfe einer Abfrage nach allen Objekten
 * **POST** - Fügt ein neues Objekt ein
 * **PUT** - Bearbeiten eines vorhandenen Objekts
 * **DELETE** - Löscht ein Objekt
 
-Weitere Informationen und Beispiele zu den einzelnen Vorgängen finden Sie unter [Entwicklerdokumentation für die Workfront Planning API](https://developer.adobe.com/wf-planning/).
+Weitere Informationen und Beispiele zu den einzelnen Vorgängen finden Sie in der [Dokumentation zur Workfront Planning API für Entwickler](https://developer.adobe.com/wf-planning/) .
 
 ### Feldtypen und Suchmodifikatoren, die mit ihnen verwendet werden
 
@@ -329,9 +329,9 @@ Anfrageinhalt:
 
 ### Abfragebeschränkungen und paginierte Antworten
 
-Standardmäßig geben API-Anfragen zur Planung 500 Ergebnisse zurück, beginnend mit dem Anfang der Liste. Um die Standardbegrenzung für die Anzahl der Ergebnisse zu überschreiben, können Sie die Variable `limit` -Parameter in Ihren Anforderungen verwenden und auf eine andere Zahl mit bis zu 2000 Ergebnissen festlegen.
+Standardmäßig geben API-Anfragen zur Planung 500 Ergebnisse zurück, beginnend mit dem Anfang der Liste. Um die Standardbegrenzung für die Anzahl der Ergebnisse zu überschreiben, können Sie den Parameter `limit` in Ihren Anforderungen verwenden und ihn auf eine andere Zahl mit bis zu 2000 Ergebnissen setzen.
 
-Wir empfehlen, paginierte Antworten für große Datensätze zu verwenden, indem Sie die `offset` -Parameter zu Ihren Anforderungen hinzufügen. Paginierte Antworten ermöglichen es Ihnen, den Speicherort des ersten zurückzugebenden Ergebnisses anzugeben.
+Es wird empfohlen, paginierte Antworten für große Datensätze zu verwenden, indem Sie den Parameter `offset` zu Ihren Anforderungen hinzufügen. Paginierte Antworten ermöglichen es Ihnen, den Speicherort des ersten zurückzugebenden Ergebnisses anzugeben.
 
 Wenn Sie beispielsweise die Ergebnisse 2001-4000 zurückgeben möchten, können Sie die folgende Anfrage verwenden. In diesem Beispiel werden seit dem 2001. Ergebnis 2000 Datensätze zurückgegeben, die sich im aktiven Status befinden:
 

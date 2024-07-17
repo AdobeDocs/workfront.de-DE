@@ -19,20 +19,20 @@ ht-degree: 1%
 
 Mit Workfront Data Lake können Sie die Workfront-Daten Ihres Unternehmens mit Business Intelligence-Tools verwenden oder in einem externen Data Warehouse speichern.
 
-Um Ihre Workfront Data Lake-Daten mit einem externen Produkt zu verbinden, müssen Sie zunächst erforderliche IPs zur Zulassungsliste hinzufügen, wie unter [Hinzufügen von IPs zur Zulassungsliste](#add-ips-to-the-allowlist) unten. Darüber hinaus benötigen die meisten Produkte zusätzliche Informationen über Ihren Data Lake, um eine Verbindung herzustellen:
+Um Ihre Workfront Data Lake-Daten mit einem externen Produkt zu verbinden, müssen Sie zunächst erforderliche IPs zur Zulassungsliste hinzufügen, wie unten unter [IPs zur Zulassungsliste hinzufügen](#add-ips-to-the-allowlist) beschrieben. Darüber hinaus benötigen die meisten Produkte zusätzliche Informationen über Ihren Data Lake, um eine Verbindung herzustellen:
 
 | Feldname | Wert |
 |---------------|-------------|
-| Server | Die URL für die Verbindung ohne `https://` -Teil (gefunden in der **Datenzugriff** Seite in Workfront*) |
+| Server | Die URL für die Verbindung ohne den `https://` -Teil (auf der Seite **Datenzugriff** in Workfront* zu finden) |
 | Port | `443` |
 | Datenbank | `WORKFRONT` |
 | Warehouse | `READER_WH` |
 | Schema | `WF` |
 | Funktion | `READER_ROLE` |
-| Benutzername | Der beim Erstellen der Verbindung ausgewählte Benutzername (befindet sich auf der **Datenzugriff** Seite in Workfront*) |
+| Benutzername | Der beim Erstellen der Verbindung ausgewählte Benutzername (auf der Seite **Datenzugriff** in Workfront* zu finden) |
 | Kennwort | Das bei der ersten Snowflake-Anmeldung ausgewählte Kennwort* |
 
-*Informationen darüber, wo Sie die **Datenzugriff** Seite, die Ihre Data Lake-Verbindungen enthält, siehe [Erstellen eines Leserkontos (Dienstkontos) für Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*Informationen darüber, wo Sie die Seite &quot;**Datenzugriff**&quot; finden, auf der Ihre Daten-See-Verbindungen enthalten sind, finden Sie unter [Erstellen eines Leserkontos (Dienstkonto) für Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
@@ -43,25 +43,25 @@ Um Ihre Workfront Data Lake-Daten mit einem externen Produkt zu verbinden, müss
 
 ## Hinzufügen von IPs zur Zulassungsliste
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Einrichtung**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Setup**.
 
 1. Klicken Sie im linken Bereich auf **System** > **Datenzugriff**.
 
-1. Klicken Sie auf **Zulässige IPs** und klicken Sie auf die **Hinzufügen einer IP-Adresse zu Ihrer Zulassungsliste** Schaltfläche.
+1. Klicken Sie auf die Registerkarte **Zulässige IP-Adressen** und dann auf die Schaltfläche **IP-Adresse zu Ihrer Zulassungsliste hinzufügen** .
 
-1. Geben Sie einen Namen für die IP-Adresse in **Beschreibung der IP-Adresse** und geben Sie die IP-Adresse (oder den CIDR-Block) für das Tool ein, das Sie in verwenden möchten **IP-Adresse** Klicken Sie auf **Hinzufügen von IP-Adresse zur Zulassungsliste**.
+1. Geben Sie in **IP-Adressbeschreibung** einen Namen für die IP-Adresse ein, geben Sie die IP-Adresse (oder den CIDR-Block) für das Tool ein, das Sie in **IP-Adresse** verwenden möchten, und klicken Sie dann auf **IP zu Zulassungsliste hinzufügen**.
 
    ![IP-Adresse hinzufügen](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## Entfernen einer IP-Adresse aus der Zulassungsliste
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]** icon ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke auf **Einrichtung**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Setup**.
 
 1. Klicken Sie im linken Bereich auf **System** > **Datenzugriff**.
 
-1. Klicken Sie auf **Zulässige IPs** Registerkarte und dann auf das Papierkorbsymbol ![Löschsymbol](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts neben der IP-Adresse, die Sie entfernen möchten.
+1. Klicken Sie auf die Registerkarte **Zulässige IP-Adressen** und dann auf das Papierkorbsymbol ![Löschsymbol](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts neben der IP-Adresse, die Sie entfernen möchten.
 
-1. Markieren Sie im sich öffnenden Fenster das zu validierende Kästchen und klicken Sie auf **Löschen**.
+1. Aktivieren Sie im sich öffnenden Fenster das Kontrollkästchen zur Bestätigung und klicken Sie auf **Löschen**.
 
 ## Datenfreigabe mit Business Intelligence-Tools
 
@@ -76,5 +76,5 @@ Unten finden Sie eine Reihe häufig verwendeter Business Intelligence-Tools. Üb
 
 Unten finden Sie eine Reihe gemeinsamer Data Warehouse-Informationen. Über die Links gelangen Sie auf die Dokumentations-Site jedes Dienstes, auf der Sie mehr über die Anbindung an Ihren Data Lake erfahren.
 
-* [Datenricks](https://docs.databricks.com/en/connect/index.html)
+* [Databricks](https://docs.databricks.com/en/connect/index.html)
 * [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)

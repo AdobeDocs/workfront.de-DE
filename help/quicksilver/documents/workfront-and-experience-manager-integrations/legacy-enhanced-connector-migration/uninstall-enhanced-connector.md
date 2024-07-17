@@ -2,20 +2,20 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Deinstallieren des erweiterten Workfront for Adobe Experience Manager-Connectors
-description: Sie müssen den erweiterten Connector Workfront mit Adobe Experience Manager deinstallieren und die neueste native Integration nutzen, die Workfront und Adobe Experience Manager Assets as a Cloud Service verbindet.
+description: Sie müssen den erweiterten Connector Workfront mit Adobe Experience Manager deinstallieren, um die neueste native Integration zu nutzen, die Workfront und Adobe Experience Manager Assets as a Cloud Service verbindet.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
 source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-# Deinstallieren des erweiterten Connectors Workfront mit Adobe Experience Manager
+# Deinstallieren des erweiterten Connectors von Workfront mit Adobe Experience Manager
 
-Sie müssen den erweiterten Connector Workfront mit Adobe Experience Manager deinstallieren und die neueste native Integration nutzen, die Workfront und Adobe Experience Manager Assets as a Cloud Service verbindet.
+Sie müssen den erweiterten Connector Workfront mit Adobe Experience Manager deinstallieren, um die neueste native Integration zu nutzen, die Workfront und Adobe Experience Manager Assets as a Cloud Service verbindet.
 
 ## Voraussetzungen
 
@@ -23,7 +23,7 @@ Sie müssen den erweiterten Connector Workfront mit Adobe Experience Manager dei
 
 ## Deinstallieren des erweiterten Connectors
 
-1. Rufen Sie Ihr AEM as a Cloud Service Repository aus Cloud Manager auf und klonen Sie es.
+1. Greifen Sie über Cloud Manager auf Ihr AEM as a Cloud Service-Repository zu und klonen Sie es.
 
 1. Öffnen Sie Ihr geklontes Git-Repository in der IDE Ihrer Wahl.
 
@@ -104,4 +104,4 @@ Sie müssen den erweiterten Connector Workfront mit Adobe Experience Manager dei
 
 1. Übertragen Sie die Änderungen und den Code in das Cloud Manager-Repository.
 
-1. Führen Sie die Cloud Manager-Pipeline aus, um die Änderungen auf Ihrer Cloud Services-Instanz bereitzustellen.
+1. Führen Sie die Cloud Manager-Pipeline aus, um die Änderungen auf Ihrer Cloud Service-Instanz bereitzustellen.

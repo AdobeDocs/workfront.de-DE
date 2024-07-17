@@ -1,5 +1,5 @@
 ---
-title: Hilfe für Zugriff [!UICONTROL Workfront] DAM
+title: Hilfe für den Zugriff auf [!UICONTROL Workfront] DAM
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 ---
 
-# Hilfe für Zugriff [!UICONTROL [!DNL Adobe Workfront] DAM]
+# Hilfe zum Zugriff für [!UICONTROL [!DNL Adobe Workfront] DAM]
 
-[!UICONTROL [!DNL Adobe Workfront] DAM] ist ein natives Digital Asset Management (DAM)-System in [!DNL Workfront] , mit dem Sie digitale Dateien speichern, organisieren, suchen, abrufen und freigeben können.
+[!UICONTROL [!DNL Adobe Workfront] DAM] ist ein natives DAM-System (Digital Asset Management) in [!DNL Workfront], mit dem Sie digitale Dateien speichern, organisieren, suchen, abrufen und freigeben können.
 
-Sie können auf die Support-Dokumentation für [!UICONTROL [!DNL Workfront] DAM]  an den folgenden Speicherorten:
+Sie können auf die Support-Dokumentation für [!UICONTROL [!DNL Workfront] DAM] in den folgenden Verzeichnissen zugreifen:
 
-* Wenn Sie die eigenständige [!UICONTROL Workfront DAM] Anwendung (außerhalb des Hauptteils [!DNL Workfront] ), siehe [!DNL Webdam] Hilfe-Site.
-* Wenn Sie [!UICONTROL [!DNL Workfront] DAM] -Funktion innerhalb des Hauptteils [!DNL Workfront] -Anwendung, siehe [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] innerhalb [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-* HINWEIS: Wenn Sie eine Funktionsanforderung senden oder ein Problem protokollieren müssen, wenden Sie sich an [!DNL Workfront] Kundenunterstützung per Telefon, E-Mail oder [!DNL Workfront] Hilfeseite. Weitere Informationen finden Sie unter [Support kontaktieren](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+* Wenn Sie die eigenständige Anwendung [!UICONTROL Workfront DAM] (außerhalb der Hauptanwendung [!DNL Workfront]) verwenden, finden Sie weitere Informationen auf der Hilfeseite für [!DNL Webdam] .
+* Wenn Sie die [!UICONTROL [!DNL Workfront] DAM]-Funktionalität innerhalb der Hauptanwendung [!DNL Workfront] nutzen, finden Sie weitere Informationen unter [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] in  [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md) .
+* HINWEIS: Wenn Sie eine Funktionsanfrage senden oder ein Problem protokollieren müssen, wenden Sie sich an den [!DNL Workfront] Kundensupport per Telefon, E-Mail oder die [!DNL Workfront] Hilfe-Site. Weitere Informationen finden Sie unter [Wenden Sie sich an den Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

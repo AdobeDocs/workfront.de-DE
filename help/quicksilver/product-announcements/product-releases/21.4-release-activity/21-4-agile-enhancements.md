@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Benutzerzuweisungen auf Kanban- und Scrum-Pinnwänden
 
@@ -41,7 +41,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Scrum](../../../agile/
 >
 >Diese Funktion wurde am 16. September 2021 in der Vorschau-Umgebung veröffentlicht.
 
-Im Rahmen der Version 21.3 haben wir Verbesserungen an der Kopfzeile und den Storyboards der Karte vorgenommen (siehe [Aktualisierungen der Kartenkopfzeile und des Storyboards](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Diese Aktualisierungen galten sowohl für Iterationen als auch für die agile Projektansicht.
+Im Rahmen der Version 21.3 haben wir Verbesserungen an der Kopfzeile von Karten mit Mobilgeräten und Storyboards vorgenommen (siehe [Aktualisierungen der Grafikkarte und des Storyboards](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Diese Aktualisierungen galten sowohl für Iterationen als auch für die agile Projektansicht.
 
 Mit Version 21.4 werden diese Verbesserungen für die agile Ansicht auf Projekten rückgängig gemacht. An agilen Iterationen werden keine Änderungen vorgenommen.
 
@@ -56,5 +56,5 @@ Im Folgenden finden Sie die Änderungen, die bezüglich der agilen Ansicht in Pr
 
 Sie können jetzt eine neue Geschichte oder ein neues Problem direkt aus dem Kanban-Board erstellen. Dies erleichtert das schnelle Hinzufügen einer neuen Story, ohne dazu zu einem Projekt, Bericht oder Dashboard wechseln zu müssen, um eine Aufgabe zu erstellen.
 
-Weitere Informationen finden Sie unter [Geschichten und Probleme aus dem Kanban-Board hinzufügen](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
+Weitere Informationen finden Sie unter [Meldungen und Probleme aus dem Kanban-Board hinzufügen](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
 

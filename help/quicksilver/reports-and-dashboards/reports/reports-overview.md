@@ -21,13 +21,13 @@ ht-degree: 1%
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Grundlagen zur Berichterstellung](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [Berichterstellungsgrundlagen](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
 * [Übersicht über Berichterstellungselemente](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
 * [Verwenden integrierter Berichte](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
-* [Berichte erstellen und verwalten](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
+* [Erstellen und Verwalten von Berichten](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
 * [Berechnete benutzerdefinierte Daten in Berichten](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 * [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Textmodus-Ressourcen: Artikelindex](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
-* [Berichtnutzung - Übersicht](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
+* [Übersicht über die Berichtverwendung](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [Kalender: Artikelindex](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [Tipps, Tricks und Fehlerbehebung für Berichte](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

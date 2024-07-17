@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 verfügbar sind, finden Sie unter [23.3 Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Eine Liste aller Änderungen, die derzeit im 23.3-Versionszyklus verfügbar sind, finden Sie unter [23.3 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Neue Dokumentgenehmigungen
 
@@ -29,10 +29,10 @@ In dieser ersten Version wurde der Genehmigungsprozess optimiert, um neben neuen
 * Direktes Treffen von Genehmigungsentscheidungen über Meine Updates und Startseite
 * Erstellen von Genehmigungen für bestimmte Dokumentversionen
 
-Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über die neuen Dokumentgenehmigungen](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über neue Dokumentgenehmigungen](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
 
 ## Schaltfläche &quot;Neue Freigabe&quot;
 
 Die Option Freigeben wurde aus dem Menü Mehr für Projekte, Aufgaben und Probleme abgerufen, um die Freigabe intuitiver zu gestalten. Die neue Schaltfläche Freigeben wird jetzt neben dem Namen eines Objekts direkt vor dem Menü Mehr angezeigt. Die Freigabe von Dokumenten, Portfolios und Programmen bleibt unverändert.
 
-Weitere Informationen zum Freigeben von Objekten finden Sie unter [Objekt freigeben](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
+Weitere Informationen zum Freigeben von Objekten finden Sie unter [Freigeben eines Objekts](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).

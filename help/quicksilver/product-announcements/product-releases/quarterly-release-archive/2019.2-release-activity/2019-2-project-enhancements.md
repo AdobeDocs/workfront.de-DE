@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Auf dieser Seite werden alle in Version 2019.2 enthaltenen Projektverbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
 
-Eine Liste aller 2019.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Release-Aktivitäten 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die in Version 2019.2 vorgenommen wurden, finden Sie unter [Übersicht über die Veröffentlichungsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Schnellere Suche nach Gruppen beim Anpassen von Status
 
@@ -32,7 +32,7 @@ Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines Status](
 
 Sie können jetzt benutzerdefinierte Standardformulare und Genehmigungsprozesse konfigurieren, die an Aufgaben angehängt werden, wenn Sie Aufgaben zu einem Projekt hinzufügen. Sie können die Standardeinstellungen auf Projektebene konfigurieren.
 
-Informationen zum Konfigurieren von benutzerdefinierten Standardformularen und Genehmigungsprozessen für Aufgaben auf Projektebene finden Sie im Abschnitt &quot;Aufgaben&quot;im [Projekte bearbeiten](../../../../manage-work/projects/manage-projects/edit-projects.md) Artikel.
+Informationen zum Konfigurieren von benutzerdefinierten Standardformularen und Genehmigungsprozessen für Aufgaben auf Projektebene finden Sie im Abschnitt &quot;Aufgaben&quot;im Artikel [Projekte bearbeiten](../../../../manage-work/projects/manage-projects/edit-projects.md) .
 
 ## Gesamte Zeile einer übergeordneten Aufgabe in Fettdruck in einer Aufgabenliste anzeigen
 
@@ -46,7 +46,7 @@ Vor dieser Verbesserung wurden alle Änderungen immer automatisch gespeichert.
 
 Informationen zum Bearbeiten von Aufgaben in einer Aufgabenliste finden Sie unter [Aufgaben bearbeiten](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-Informationen zum Bearbeiten von Aufgaben in der Gantt-Grafik finden Sie unter [Aktualisieren von Informationen in der Aufgabenliste Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Informationen zum Bearbeiten von Aufgaben im Gantt-Diagramm finden Sie unter [Informationen in der Aufgabenliste aktualisieren Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Neue Standardwerte für die Spaltenbreite in neuen Listen
 
@@ -86,7 +86,7 @@ Sie können jetzt die budgetierten Kosten der geplanten Arbeit (BCWS) und die ve
 
 Obwohl diese Projektleistungsmetriken bereits in Workfront in Finanzberechnungen verwendet wurden, waren sie im System vor dieser Verbesserung nicht sichtbar.
 
-Informationen zur Berechnung der BCWS finden Sie unter [Geplante Arbeitskosten berechnen (BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+Weitere Informationen zur Berechnung der BCWS finden Sie unter [Berechnete Kosten geplanter Arbeit (BCWS) berechnen](../../../../manage-work/projects/project-finances/calculate-bcws.md).
 
-Informationen zur Berechnung von BCWP finden Sie unter [Berechnung der veranschlagten Arbeitskosten (BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
+Weitere Informationen zur Berechnung des BCWP finden Sie unter [Berechnung der veranschlagten Arbeitskosten (BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
 

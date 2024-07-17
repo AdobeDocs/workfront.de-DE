@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Version 5"2018.2
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Version 2018.2 verfügbar waren. Die Funktion ist ab dem 1. Juni 2018 in der Vorschau-Umgebung verfügbar. Die Veröffentlichung von Verbesserungen bei der Prüfung mit Beta 5 wird am Montag, dem 4. Juni in der Vorschau-Umgebung verfügbar sein. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Beta 5-Release-Aktivität 2018.2
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 5 Version 2018.2 verfügbar waren. Die Funktion ist ab dem 1. Juni 2018 in der Vorschau-Umgebung verfügbar. Verbesserungen der Testversand-Veröffentlichung mit Beta 5 werden am Montag, den 4. Juni in der Vorschau-Umgebung verfügbar sein. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,21 +14,21 @@ ht-degree: 1%
 
 ---
 
-# Aktivität &quot;Beta-Version 5&quot;2018.2
+# Beta 5-Release-Aktivität 2018.2
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Version 2018.2 verfügbar waren. Die Funktion ist ab dem 1. Juni 2018 in der Vorschau-Umgebung verfügbar. Die Veröffentlichung von Verbesserungen bei der Prüfung mit Beta 5 wird am Montag, dem 4. Juni in der Vorschau-Umgebung verfügbar sein. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 5 Version 2018.2 verfügbar waren. Die Funktion ist ab dem 1. Juni 2018 in der Vorschau-Umgebung verfügbar. Verbesserungen der Testversand-Veröffentlichung mit Beta 5 werden am Montag, den 4. Juni in der Vorschau-Umgebung verfügbar sein. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
 
 >[!IMPORTANT]
 >
 > Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter  [Übersicht über die Versionsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Die Beta-Version 2018.2 enthält die Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Beta 5-Version 2018.2 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
 
 **Für Administratoren**
 
-* [Vom Benutzer ausgelöste Änderungen mit Prüfprotokollen anzeigen](#view-user-triggered-changes-with-audit-logs)
+* [Anzeigen benutzerbedingter Änderungen mit Auditprotokollen](#view-user-triggered-changes-with-audit-logs)
 * [Lizenzinformationen als Gruppenadministrator anzeigen](#view-license-information-as-a-group-administrator)
 
 **Für alle Benutzer**
@@ -43,11 +43,11 @@ Die Beta-Version 2018.2 enthält die Verbesserungen für Workfront-Administrator
 * [Excel-Exportlimit erhöhen](#increase-excel-export-limit)
 * [Schnellfilter für Projektlisten](#quick-filters-for-project-lists)
 * [Referenzprobleme-Sammlungen in Projekt- und Aufgabenberichten](#reference-issue-collections-in-project-and-task-reports)
-* [Neues Menü für eine zuverlässigere Version beim Hinzufügen neuer Dokumentversionen in Workfront](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
-* [Mobile Verbesserungen der Android Beta Mobile App](#mobile-improvements-in-the-android-beta-mobile-app)
-* [Verbesserungen beim Testen von Viewern (Workfront- und Workfront-Testversand)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
-* [Verbesserungen bei der Überprüfung in Workfront](#proofing-enhancements-in-workfront)
-* [Verbesserungen bei der Testprüfung in Workfront](#proofing-enhancements-in-workfront-proof)
+* [Neues Menü mit robusteren Versionen beim Hinzufügen neuer Dokumentversionen in Workfront](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
+* [Verbesserungen für Mobilgeräte in der mobilen Android Beta-App](#mobile-improvements-in-the-android-beta-mobile-app)
+* [Viewer-Verbesserungen für die Überprüfung (Workfront und Workfront Proof)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
+* [Verbesserungen beim Testen in Workfront](#proofing-enhancements-in-workfront)
+* [Verbesserungen bei der Überprüfung in Workfront Proof](#proofing-enhancements-in-workfront-proof)
 
 ## Kalenderansicht im Startbereich {#calendar-view-in-the-home-area}
 
@@ -109,7 +109,7 @@ Weitere Informationen finden Sie unter [Gruppenadministratoren](../../../../admi
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 In den Einstellungen für die Zeitplanung automatisierter Ressourcen können Sie jetzt einer Auftragsrolle ein Limit zuweisen. Auf diese Weise können Sie die Anzahl der Ressourcen steuern, denen mit der gleichen Rolle Aufgaben zugewiesen werden.
 
@@ -133,7 +133,7 @@ Die Projekt- und Rollenansichten des Ressourcen-Planers enthalten jetzt die folg
 
 Vor diesen Verbesserungen haben Sie berichtet, dass der Ressourcen-Planer langsam geladen wurde und dass Sie Unstimmigkeiten in den angezeigten Daten bemerkt haben. Mit diesen Verbesserungen sollten diese nun beseitigt werden.
 
-Informationen und Informationen zu den neuen Einschränkungen für den Ressourcen-Planer finden Sie unter [Anzeigebeschränkungen für den Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+Informationen und Informationen zu den neuen Einschränkungen für den Ressourcen-Planer finden Sie unter [Anzeigebeschränkungen für den Ressourcen-Planer](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref" xrefformat="{para}">Resource Planner performance beta </a></p>
@@ -155,9 +155,9 @@ Wenn Sie nun den rechten Rahmen einer Spalte ziehen, um ihre Größe zu ändern,
 
 Vor dieser Verbesserung wurde die Größe der benachbarten Spalte rechts von der Größenanpassung proportional angepasst, sodass sie auf den Bildschirm passt. Sie konnten den Rand einer Spalte nicht über den rechten Rand der benachbarten Spalte ziehen.  
 
-Informationen zur Größenanpassung der Spalten in Listen finden Sie unter [Spaltenbreite und -reihenfolge ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Informationen zum Ändern der Größe der Neuanordnungsspalten in Listen finden Sie unter [Spaltenbreite und -reihenfolge ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Informationen zur Teilnahme an unserem Beta-Test-Programm für die aktuellen Listenverbesserungen finden Sie unter [Studie zu neuen Listen.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Anmeldung erforderlich)
+Informationen zur Teilnahme an unserem Beta-Test-Programm für die aktuellen Listenverbesserungen finden Sie unter [Neue Listen-Studie .](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Anmeldung erforderlich)
 
 ## Symbolunterstützung für die neuen Projektlisten {#icon-support-for-the-new-project-lists}
 
@@ -169,7 +169,7 @@ Da wir an der Verbesserung der Funktionalität unserer Listen gearbeitet haben, 
 
 Mit dieser Version können in Ihren Projektlisten für Projekte oder andere Objekte in einer Projektliste wieder Statussymbole angezeigt werden.
 
-Weitere Informationen zum Arbeiten in Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Informationen zum Arbeiten in Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Feld &quot;Große Miniaturansicht&quot;in Dokumentansichten hinzufügen {#add-large-thumbnail-field-in-document-views}
 
@@ -177,7 +177,7 @@ Wir fügen ein neues Feld namens Große Miniaturansicht zu einer Dokumentansicht
 
 Vor dieser Änderung konnten Sie nur das Feld Miniaturansicht zu einer Dokumentansicht hinzufügen, die eine 33-66 Pixel breite Miniaturansicht des Dokuments anzeigt.
 
-Informationen zu Feldern in Listen und Berichten finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Weitere Informationen zu Feldern in Listen und Berichten finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Excel-Exportlimit erhöhen {#increase-excel-export-limit}
 
@@ -208,7 +208,7 @@ Derzeit sind Schnellfilter nur für Projektlisten in den folgenden Unterregister
 * Projekte in meinem Besitz
 * Alle Projekte
 
-Informationen zu Schnellfiltern finden Sie im Abschnitt &quot;Anwenden von Schnellfiltern auf Listen&quot;unter [Erste Schritte mit Listen in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Informationen zu Schnellfiltern finden Sie im Abschnitt &quot;Anwenden von Schnellfiltern auf Listen&quot;in [Erste Schritte mit Listen in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Referenzprobleme-Sammlungen in Projekt- und Aufgabenberichten {#reference-issue-collections-in-project-and-task-reports}
 
@@ -216,13 +216,13 @@ Sie können jetzt eine Sammlung von Problemen in einer Projekt- oder Aufgabenans
 
 Vor dieser Verbesserung konnten Sie nur eine Sammlung von Aufgaben in einer Projektansicht oder einem -filter referenzieren.
 
-Informationen zum Referenzieren einer Sammlung in einem Bericht finden Sie unter [Referenzieren von Sammlungen in einem Bericht](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Informationen zum Verweisen auf eine Sammlung in einem Bericht finden Sie unter [Verweisen auf Sammlungen in einem Bericht](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-Informationen zur Verwendung des Textmodus finden Sie unter  [Übersicht über die häufigsten Verwendungen für den Textmodus](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Informationen zur Verwendung des Textmodus finden Sie unter  [Überblick über häufige Verwendungen für den Textmodus](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 >[!NOTE]
 >
->Im folgenden Video war der Beispieltextmodus für Problemkollektionen falsch. Der richtige Beispieltextmodus ist verfügbar unter [Referenzieren von Sammlungen in einem Bericht](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+>Im folgenden Video war der Beispieltextmodus für Problemkollektionen falsch. Der richtige Beispieltextmodus ist in [Referenzsammlungen in einem Bericht](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md) verfügbar.
 
 ## Neues Menü für eine zuverlässigere Version beim Hinzufügen neuer Dokumentversionen in Workfront {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -245,9 +245,9 @@ Die folgenden Optionen sind jetzt im Menü Neue Version für alle Bereiche verf�
 
 Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) im Artikel [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-## Mobile Verbesserungen der Android Beta Mobile App {#mobile-improvements-in-the-android-beta-mobile-app}
+## Mobile Verbesserungen in der Android Beta Mobile App {#mobile-improvements-in-the-android-beta-mobile-app}
 
-Die folgenden Verbesserungen sind in der Android Beta-Version der Mobile App kurz nach dem Tag dieser Version verfügbar:
+Die folgenden Verbesserungen sind in der Android Beta-Version der App kurz nach diesem Release verfügbar:
 
 * Aktionen wischen
 
@@ -262,34 +262,34 @@ Die folgenden Verbesserungen sind in der Android Beta-Version der Mobile App kur
 
 * Neues Erscheinungsbild beim Anzeigen der Registerkarte &quot;Details&quot;eines Elements
 
-  Die Benutzeroberfläche wurde beim Anzeigen eines Elements in der Android-Beta-Version der Mobile App geändert, um die Bearbeitung, Fertigstellung oder Anfügung eines Dokuments zu vereinfachen.
+  Die Benutzeroberfläche wurde beim Anzeigen eines Elements in der Android Beta-Version der App geändert, um die Bearbeitung, Fertigstellung oder Anfügung eines Dokuments zu vereinfachen.
 
 * Neues Erlebnis bei Protokollierungszeit
 
   Die Protokollierungszeit ist schneller und einfacher als zuvor, mit einer einfacheren Zugriffsmöglichkeit auf die Protokollzeit-Schaltfläche und einer optimierten Oberfläche für die Protokollierungszeiten.
 
-Mit dieser Version sind diese Verbesserungen nur für die Android-Beta-Version der mobilen Workfront-App verfügbar. Sie sind derzeit nicht für iOS verfügbar.
+Mit dieser Version sind diese Verbesserungen nur für die Android Beta-Version der mobilen Workfront-App verfügbar. Sie sind derzeit nicht für iOS verfügbar.
 
-Weitere Informationen dazu, wie Sie sich als Beta-Tester anmelden und die Android Beta-Version der mobilen Workfront-App herunterladen können, finden Sie unter .
+Weitere Informationen dazu, wie Sie sich als Beta-Tester anmelden und die Android Beta-Version der mobilen Workfront-App herunterladen, finden Sie unter .
 
-## Verbesserungen beim Testen von Viewern (Workfront- und Workfront-Testversand) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
+## Viewer-Verbesserungen für die Überprüfung (Workfront und Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
 
-* [Aktualisierte Seite &quot;Druckzusammenfassung&quot;](#updated-print-summary-page)
-* [Hinzufügen von Benutzern zu einem Testversand direkt über den Testversand-Viewer](#add-users-to-a-proof-directly-from-the-proofing-viewer)
+* [Aktualisierte Seite mit der Druckzusammenfassung ](#updated-print-summary-page)
+* [Benutzer direkt vom Testversand-Viewer zu einem Testversand hinzufügen](#add-users-to-a-proof-directly-from-the-proofing-viewer)
 * [Alle Markup-Tools im Testversand-Viewer anzeigen](#display-all-markup-tools-in-the-proofing-viewer)
-* [Konfigurieren von Standardsortierungsoptionen im Testversand-Viewer](#configure-default-sorting-options-in-the-proofing-viewer)
+* [Konfigurieren der standardmäßigen Sortieroptionen im Testversand-Viewer](#configure-default-sorting-options-in-the-proofing-viewer)
 * [Anzeigen von Workfront-Dokumentgenehmigungen im Desktop-Proofing-Viewer](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
 * [Konfigurieren von Links, die neue Registerkarten und Windows öffnen, um sie im Desktop Proofing Viewer zu öffnen](#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer)
 * [Präsenzindikator im Testversand-Viewer](#presence-indicator-in-the-proofing-viewer)
 * [Filtern von Kommentaren zum Anzeigen einer einzelnen Seite für interaktive URL-Testsendungen im Desktop-Testversand-Viewer](#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer)
-* [Desktop Proofing Viewer für statische und Videoinhalte](#desktop-proofing-viewer-for-static-and-video-content)
+* [Desktop-Proofing-Viewer für statische und Videoinhalte](#desktop-proofing-viewer-for-static-and-video-content)
 * [Hinzufügen benutzerdefinierter Geräte zu Ihrem System](#add-custom-devices-to-your-system)
 
 ### Aktualisierte Seite &quot;Druckzusammenfassung&quot; {#updated-print-summary-page}
 
 Die Seite &quot;Druckzusammenfassung&quot;wurde mit einem neuen Erscheinungsbild und verbesserter Funktionalität aktualisiert.
 
-Weitere Informationen finden Sie unter [Testversandzusammenfassung in Adobe Workfront drucken](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Weitere Informationen finden Sie unter [Drucken einer Testversand-Zusammenfassung in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ### Hinzufügen von Benutzern zu einem Testversand direkt über den Testversand-Viewer {#add-users-to-a-proof-directly-from-the-proofing-viewer}
 
@@ -297,7 +297,7 @@ Jetzt können Sie Benutzer direkt über den Web Proofing Viewer und den Desktop 
 
 Zuvor war es nicht möglich, einzelne Benutzer zu einem Testversand hinzuzufügen. Stattdessen können Sie nur die öffentliche URL oder den Einbettungscode kopieren.
 
-Weitere Informationen finden Sie unter [Freigeben eines Testversands durch Hinzufügen von Benutzern](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) im Artikel  [Freigeben eines Testversands aus dem Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Weitere Informationen finden Sie unter [Freigeben eines Testversands durch Hinzufügen von Benutzern dazu](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) im Artikel  [Geben Sie einen Testversand aus dem Testversand-Viewer frei](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ### Alle Markup-Tools im Testversand-Viewer anzeigen {#display-all-markup-tools-in-the-proofing-viewer}
 
@@ -305,7 +305,7 @@ Sie können das Markup-Tool jetzt so konfigurieren, dass es immer wieder angezei
 
 Zuvor waren Markup-Tools nur in einem Dropdown-Menü verfügbar.
 
-Weitere Informationen zum Konfigurieren dieser Markup-Einstellung finden Sie unter [Konfigurieren der Einstellungen des Testversand-Viewers](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Weitere Informationen zum Konfigurieren dieser Markup-Einstellung finden Sie unter [Konfigurieren der Testversand-Viewer-Einstellungen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 Weitere Informationen zur Verwendung von Markup-Optionen bei der Überprüfung eines Testversands finden Sie im Artikel .
 
@@ -321,7 +321,7 @@ Jetzt können Sie im Desktop Proofing Viewer eine Workfront-Dokument-Genehmigung
 
 Bisher konnten Sie nur mit dem Web Proofing-Viewer eine Workfront-Dokumentvalidierungsentscheidung treffen. 
 
-Weitere Informationen finden Sie unter  [Entscheidungsfindung über einen Testversand im Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) im Artikel  [Entscheidungsfindung über einen Testversand im Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Weitere Informationen finden Sie unter  [Entscheidungsfindung über einen Testversand im Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) im Artikel  [Entscheiden Sie sich für einen Testversand im Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ### Konfigurieren von Links, die neue Registerkarten und Windows öffnen, um sie im Desktop Proofing Viewer zu öffnen {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -329,13 +329,13 @@ Beim Testen von interaktiven Inhalten im Desktop Proofing Viewer können Sie jet
 
 Im Viewer für die alte Prüfung konnten Links, die auf einer neuen Registerkarte oder in einem neuen Fenster geöffnet wurden, im Testversand-Viewer nicht überprüft werden.
 
-Weitere Informationen finden Sie unter [Konfigurieren der Einstellungen des Testversand-Viewers](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Testversand-Viewer-Einstellungen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 ### Präsenzindikator im Testversand-Viewer {#presence-indicator-in-the-proofing-viewer}
 
 Wenn Sie nun einen Testversand im Web Proofing Viewer oder Desktop Proofing Viewer überprüfen, können Sie den Avatar jedes Benutzers anzeigen, der den Testversand gerade anzeigt, wird in der rechten oberen Ecke des Testversand-Viewers angezeigt.
 
-Weitere Informationen finden Sie unter [Testversand gleichzeitig mit mehreren Validierungsverantwortlichen prüfen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
+Weitere Informationen finden Sie unter [Testversand gleichzeitig mit mehreren Prüfern überprüfen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
 
 ### Filtern von Kommentaren zum Anzeigen einer einzelnen Seite für interaktive URL-Testsendungen im Desktop-Testversand-Viewer {#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer}
 
@@ -351,9 +351,9 @@ Der Desktop Proofing Viewer unterstützt jetzt statische und Videoinhalte.
 
 Zuvor wurden nur interaktive Inhalte unterstützt.
 
-Informationen zum Konfigurieren von statischen und Video-Testsendungen zum Öffnen im Desktop Proofing Viewer finden Sie unter [Konfigurieren der Einstellungen des Testversand-Viewers](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Informationen zum Konfigurieren von statischen und Video-Testsendungen, die im Desktop Proofing Viewer geöffnet werden sollen, finden Sie unter [Konfigurieren von Testversand-Viewer-Einstellungen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
-Weitere Informationen zum Desktop Proofing Viewer finden Sie unter [Überprüfen von Testsendungen im Viewer für die Desktop-Testversion.](https://support.workfront.com/hc/en-us/sections/360000686434)
+Weitere Informationen zum Desktop-Proofing-Viewer finden Sie unter [Überprüfen von Testsendungen im Desktop-Proofing-Viewer.](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Hinzufügen benutzerdefinierter Geräte zu Ihrem System {#add-custom-devices-to-your-system}
 
@@ -367,8 +367,8 @@ Informationen dazu, wie Benutzer beim Überprüfen interaktiver Inhalte Geräte 
 
 ## Verbesserungen bei der Überprüfung in Workfront {#proofing-enhancements-in-workfront}
 
-* [Direktes Freigeben des Testlinks über Workfront](#share-the-proof-link-directly-from-workfront)
-* [Bericht zu zusätzlichen Testdaten in Workfront](#report-on-additional-proofing-data-in-workfront)
+* [Freigeben des Testversand-Links direkt über Workfront](#share-the-proof-link-directly-from-workfront)
+* [Bericht über zusätzliche Testdaten in Workfront](#report-on-additional-proofing-data-in-workfront)
 * [Historische Daten für Testversandgenehmigungen in Workfront anzeigen](#view-historical-data-for-proof-approvals-in-workfront)
 
 ### Direktes Freigeben des Testlinks über Workfront {#share-the-proof-link-directly-from-workfront}
@@ -377,7 +377,7 @@ Jetzt können Sie einen Link für einen Testversand in Workfront generieren und 
 
 Vor dieser Änderung konnten Sie den Testversand-Link nur in Workfront kopieren und mithilfe einer alternativen Methode verteilen.
 
-Weitere Informationen finden Sie unter [Freigeben eines Testversands in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) im Artikel [Freigeben eines Testversands in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+Weitere Informationen finden Sie unter [Freigeben eines Testversands in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) im Artikel [Freigeben eines Testversands in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) .
 
 >[!NOTE]
 >
@@ -417,21 +417,21 @@ Vor dieser Änderung konnte die Entscheidung nach einer Entscheidung über einen
 
 Weitere Informationen finden Sie unter  [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-## Verbesserungen bei der Testprüfung in Workfront {#proofing-enhancements-in-workfront-proof}
+## Verbesserungen bei der Überprüfung in Workfront Proof {#proofing-enhancements-in-workfront-proof}
 
-* [Erstellen einer neuen Version eines Testversands direkt über den Testversand-Viewer (Workfront Testversand)](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
-* [Neuer Link &quot;Testdetails&quot;im Testversand-Viewer und Desktop Proofing-Viewer (Workfront-Testversand)](#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof)
+* [Erstellen einer neuen Version eines Testversands direkt über den Testversand-Viewer (Workfront Proof)](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
+* [Neuer Link &quot;Testdetails&quot;im Testversand-Viewer und im Desktop Proofing Viewer (Workfront Proof)](#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof)
 
-### Erstellen einer neuen Version eines Testversands direkt über den Testversand-Viewer (Workfront Testversand) {#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof}
+### Erstellen einer neuen Version eines Testversands direkt über den Testversand-Viewer (Workfront Proof) {#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof}
 
-Beim Testen im Workfront-Testversand können Sie jetzt direkt aus dem neuen Testversand-Viewer und dem Desktop Proofing Viewer eine neue Testversion erstellen.
+Beim Testen in Workfront Proof können Sie jetzt direkt aus dem neuen Testversand-Viewer und dem Desktop Proofing-Viewer eine neue Testversion erstellen.
 
 Zuvor war diese Option nur im alten Flash-Viewer verfügbar.
 
-Weitere Informationen finden Sie unter [Kopieren von Testsendungen in Workfront Testversand](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) im Artikel  [Kopieren von Testsendungen in Workfront Testversand](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+Weitere Informationen finden Sie unter [Kopieren von Testsendungen in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) im Artikel  [Kopieren von Testsendungen in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
-### Neuer Link &quot;Testdetails&quot;im Testversand-Viewer und Desktop Proofing-Viewer (Workfront-Testversand) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
+### Neuer Link &quot;Testdetails&quot;im Testversand-Viewer und im Desktop Proofing Viewer (Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 
-Beim Anzeigen eines Testversands im Testversand-Viewer können Workfront-Testversand-Benutzer jetzt schnell zur Seite mit den Testversanddetails in Workfront Testversand wechseln.
+Beim Anzeigen eines Testversands im Testversand-Viewer können Workfront Proof-Benutzer jetzt schnell zur Seite mit den Testversanddetails in Workfront Proof wechseln.
 
 Weitere Informationen finden Sie unter &quot;Anzeigen von Testversanddetails&quot;.

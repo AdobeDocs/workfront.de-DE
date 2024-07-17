@@ -12,7 +12,7 @@ exl-id: 4025002b-4b11-4105-81d6-5d493a0f2255
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [API-Grundlagen](../../wf-api/general/api-basics.md)
 * [API-Explorer](../../wf-api/general/api-explorer.md)
-* [API Explorer verwenden](../../wf-api/general/using-api-explorer.md)
+* [Verwenden des API-Explorers](../../wf-api/general/using-api-explorer.md)
 * [Rich-Text-Felder in der Adobe Workfront-API](../../wf-api/general/rich-text-field-api.md)
 * [API-Beispielskripte](../../wf-api/general/api-example-scripts.md)
 * [Verwenden der API zum Synchronisieren von Daten für Programme und Dienste](../../wf-api/general/api-sync-data.md)

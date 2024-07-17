@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # R1 Endgültige
 
-Die folgende Funktion ist derzeit nicht in der Vorschau oder Beta verfügbar, wird aber in der Produktionsumgebung in R1 veröffentlicht:
+Die folgende Funktion ist derzeit nicht in der Vorschau oder in Beta verfügbar, wird aber in der Produktionsumgebung in R1 veröffentlicht:
 
 ## Festlegen von Genehmigungsentscheidungen für Testsendungen aus dem Arbeitsbereich (Workfront)
 
@@ -24,7 +24,7 @@ Wenn ein Benutzer Sie jetzt einem Testversand hinzufügt und entweder die Rolle 
 
 Informationen zum Hinzufügen von Benutzern zu einem Testversand mithilfe des automatisierten Workflows finden Sie unter [Freigeben eines Testversands in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Freigeben eines Testversands in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-Informationen dazu, wie Sie Genehmigungsentscheidungen im Bereich &quot;Meine Arbeit&quot;treffen, finden Sie unter [Validierung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Validierung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Informationen dazu, wie Sie Genehmigungsentscheidungen im Arbeitsbereich &quot;Meine Arbeit&quot;treffen, finden Sie unter [Genehmigung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Arbeiten genehmigen](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Bericht zu Testgenehmigungen in meinem Arbeitsbereich (Workfront)
 
@@ -38,9 +38,9 @@ Die Berichte zur Validierung des Testversands enthalten folgende Informationen:
 * Korrekturabzugs-ID
 * Erstellungsdatum des Testversands
 
-Sie können auf diese Validierung zugreifen, wenn Sie einen Bericht basierend auf einem Objekt erstellen, wie in [Benutzerdefinierten Bericht erstellen](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Sie können auf diese Genehmigung zugreifen, wenn Sie einen Bericht basierend auf einem Objekt erstellen, wie unter [Benutzerspezifischen Bericht erstellen](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
 
-Weitere Informationen zum Objektbericht für Testsendungen finden Sie in der [Objekte in Adobe Workfront verstehen](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) Abschnitt in [Objekte in Adobe Workfront verstehen](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zum Objektbericht für Testsendungen finden Sie im Abschnitt [Objekte in Adobe Workfront verstehen](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) in [Objekte in Adobe Workfront verstehen](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Automatische Generierung einer neuen Version eines Dokumentennachweises mithilfe von Drag &amp; Drop (Workfront)
 
@@ -50,7 +50,7 @@ Zuvor, als Sie eine neue Version des Dokuments hinzugefügt haben, wurde der Tes
 
 Wenn Sie das Menü &quot;Mehr Dokumente&quot;zum Hochladen einer neuen Version verwenden, wird kein Testversand automatisch generiert.
 
-Weitere Informationen finden Sie im Abschnitt unter
+Weitere Informationen finden Sie unter  Abschnitt in
 
 ## Aktivieren Sie allen Testnutzern, über die Workfront-Benutzeroberfläche (Workfront) direkt auf ProofHQ zuzugreifen.
 
@@ -58,7 +58,7 @@ Jetzt können Sie allen Testversand-Benutzern in Ihrem System einen nahtlosen Zu
 
 Diese Option ist standardmäßig nicht aktiviert. Wenden Sie sich zur Aktivierung dieser Option an den technischen Support von Workfront und fordern Sie diesen Zugriff für alle Testbenutzer in Ihrem System an.
 
-Weitere Informationen finden Sie unter [Zugriff auf Workfront Testing von Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) in  [Zugriff auf Workfront Testing von Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Weitere Informationen finden Sie unter [Zugriff auf Workfront Proof über Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) in  [Greifen Sie über Adobe Workfront auf Workfront Proof zu](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 Vor dieser Änderung konnte nur der Workfront-Administrator über die Workfront-Benutzeroberfläche direkt auf die ProofHQ-Site zugreifen.
 
@@ -76,9 +76,9 @@ Workfront deaktiviert nun die gesamte E-Mail-Kommunikation aus der Sandbox-Vorsc
 
 Weitere Informationen finden Sie in den folgenden Informationen:
 
-* [Die Adobe Workfront-Vorschau-Sandbox-Umgebung](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) in [Die Adobe Workfront-Vorschau-Sandbox-Umgebung](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+* [Die Adobe Workfront-Vorschau-Sandbox-Umgebung](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) in [Adobe Workfront-Vorschau-Sandbox-Umgebung](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-* &quot;Empfangen von E-Mails von der Sandbox &quot;Benutzerdefinierte Aktualisierung&quot;in [Die benutzerdefinierte Adobe Workfront-Aktualisierungs-Sandbox-Umgebung](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* &quot;Empfangen von E-Mails von der Sandbox &quot;Benutzerdefinierte Aktualisierung&quot; in [der Sandbox-Umgebung für benutzerdefinierte Adobe Workfront-Aktualisierung](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## Outlook für Office 365 (Workfront)
 
@@ -106,7 +106,7 @@ Weitere Informationen zur Mobile App finden Sie unter .
 
 Sie können jetzt Suchen in PDF-Dokumenten, Office-Dokumenten und statischen Webseiten durchführen.
 
-Weitere Informationen finden Sie unter  [Inhalt in einem Testversand durchsuchen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+Weitere Informationen finden Sie unter  [Suchinhalt in einem Testversand](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
 
 ## Aktualisierte globale Navigationsleiste (ProofHQ)
 
@@ -121,13 +121,13 @@ Sie können jetzt die folgenden zusätzlichen Informationen in benutzerdefiniert
 
 * **Daten auf Empfängerebene**\
   Sie können benutzerdefinierte Ansichten konfigurieren, um die folgenden Spalten für Daten auf Empfängerebene einzuschließen: Rolle, Position, E-Mail-Warnungen, Meine Deadline, Datum zum Testversand hinzugefügt und Empfängersuche.\
-  Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-* **Testdaten**\
+  Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront Proof-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+* **Testen von Daten**\
   Sie können benutzerdefinierte Ansichten so konfigurieren, dass die folgenden Spalten zu Testdaten hinzugefügt werden: Anzahl der Kommentare (alle Versionen), Größe auf Festplatte, Testtyp, Anzahl der Dateien pro Version, Daten der Kommentaranhänge (Größe auf Festplatte, Dateiname) und Filterung nach Unterordner.\
-  Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront Proof-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **Daten auf Staging-Ebene im Zusammenhang mit automatisierten Workflows**\
   Sie können benutzerdefinierte Ansichten konfigurieren, um die folgenden Spalten für einzelne Phasen automatisierter Workflows einzuschließen: SOCD-Status, Staging-Deadlines, Name der aktiven Bühne, Name der nächsten Stufe, Name der Staging-Umgebung und Vorlage.\
-  Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten im Workfront Proof-Testversand](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Verbesserungen an Testberichten (früher Analytics) (ProofHQ)
 
@@ -149,4 +149,4 @@ Funktionen, die an ProofHQ veröffentlicht werden, stehen zunächst zum Testen i
 
 Mit diesem neuen Workflow zur Veröffentlichung von Funktionen zur Vorschau vor der Produktion können Sie besser auf zukünftige Aktualisierungen Ihrer ProofHQ-Produktionsumgebung vorbereitet sein.
 
-Weitere Informationen zur ProofHQ-Vorschau-Umgebung finden Sie unter [Vorschau der Sandbox-Testumgebung - Workfront-Testversand](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+Weitere Informationen zur ProofHQ-Vorschau-Umgebung finden Sie unter [Vorschau der Sandbox-Testumgebung - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).

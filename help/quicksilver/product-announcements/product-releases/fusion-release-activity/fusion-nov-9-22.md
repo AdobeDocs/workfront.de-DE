@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Workfront Fusion-Release-Aktivität: Woche vom 7. November 2022
 
-**Webhook-Warteschlangenoptimierung**
+**Optimierung der Webhook-Warteschlange**
 
 Die Webhook-Warteschlange von Fusion wurde mit dieser Version optimiert. Der Dienst, der Webhooks akzeptiert, ist jetzt von Warteschlangen- und anderen Prozessen getrennt. Diese Änderung ermöglicht es Fusion, Webhook-Warteschlangen schneller und konsistenter zu verarbeiten.
 

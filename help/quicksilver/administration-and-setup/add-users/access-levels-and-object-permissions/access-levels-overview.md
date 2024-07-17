@@ -46,19 +46,19 @@ Informationen zu Themen in Bezug auf Zugriffsebenen finden Sie in den folgenden 
  <tbody> 
   <tr> 
    <td><p><strong>Lizenzen</strong></p></td> 
-   <td> <p>Die an eine Zugriffsstufe angehängte Lizenz bestimmt, wie die Zugriffsstufe konfiguriert werden kann.</p> <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Überblick über Lizenzen</a>.</p> <p><strong>Tipp</strong>: Sie können sehen, welche Zugriffsebene und welche Lizenz jedem Benutzer zugewiesen ist, indem Sie eine Benutzerliste oder einen Bericht anzeigen. Anweisungen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Zugriffsebenen und Lizenzen Ihrer Benutzer auflisten</a>.</p> </td> 
+   <td> <p>Die an eine Zugriffsstufe angehängte Lizenz bestimmt, wie die Zugriffsstufe konfiguriert werden kann.</p> <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Überblick über Lizenzen</a>.</p> <p><strong>Tipp</strong>: Sie können sehen, welche Zugriffsebene und welche Lizenz jedem Benutzer zugewiesen ist, indem Sie eine Benutzerliste oder einen Bericht anzeigen. Anweisungen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Zugriffsebene und Lizenzen Ihrer Benutzer auflisten</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Integrierte Zugriffsebenen</strong></td> 
-   <td> <p>Weitere Informationen zu den 6 integrierten Zugriffsebenen, die im obigen Bild angezeigt werden, finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Integrierte Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Weitere Informationen zu den 6 im obigen Bild angezeigten integrierten Zugriffsebenen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Integrierte Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Zuweisen von Zugriffsebenen</strong></td> 
-   <td> <p>Anweisungen zum Zuweisen einer Zugriffsstufe zu einem Benutzer finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a>.</p> </td> 
+   <td> <p>Anweisungen zum Zuweisen einer Zugriffsebene zu einem Benutzer finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Profil eines Benutzers bearbeiten</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Zugriffsebenen Standard, Light, Contributor</td> 
-   <td> <p>Wenn diese Zugriffsebenen in Ihrer Umgebung anstelle von Plan, Arbeit, Überprüfung oder Anforderung angezeigt werden, verwendet Ihr Unternehmen das neue Zugriffsstufenmodell. Informationen zum neuen Modell finden Sie unter <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Übersicht über die neuen Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Wenn diese Zugriffsebenen in Ihrer Umgebung anstelle von Plan, Arbeit, Überprüfung oder Anforderung angezeigt werden, verwendet Ihr Unternehmen das neue Zugriffsstufenmodell. Informationen zum neuen Modell finden Sie unter <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Übersicht über neue Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

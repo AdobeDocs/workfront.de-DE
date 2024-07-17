@@ -13,17 +13,17 @@ ht-degree: 1%
 
 ---
 
-# Konfigurieren Sie die [!UICONTROL Fertig] Schaltfläche für Aufgaben
+# Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben
 
-Die [!UICONTROL Fertig] -Schaltfläche kann automatisch den Status einer Aufgabe oder eines Problems festlegen. Standardmäßig [!UICONTROL Adobe Workfront] markiert eine Aufgabe als [!UICONTROL Abgeschlossen] wenn ein Bevollmächtigter auf Fertig für sein Arbeitselement klickt.
+Mit der Schaltfläche [!UICONTROL Fertig] können Sie automatisch den Status einer Aufgabe oder eines Problems festlegen. Standardmäßig kennzeichnet [!UICONTROL Adobe Workfront] eine Aufgabe als [!UICONTROL Abgeschlossen], wenn ein Bevollmächtigter auf &quot;Fertig&quot;für sein Arbeitselement klickt.
 
 ## Übersicht
 
-Benutzer mit bestimmten Berechtigungen können die [!UICONTROL Fertig] -Schaltfläche, um bestimmte Status im System widerzuspiegeln. Es gibt zwei verschiedene Möglichkeiten: [!UICONTROL Fertig] Schaltfläche funktioniert für Aufgaben in [!UICONTROL Workfront]:
+Benutzer mit bestimmten Berechtigungen können die Schaltfläche [!UICONTROL Fertig] so konfigurieren, dass sie bestimmte Status im System widerspiegelt. Die Schaltfläche [!UICONTROL Fertig] funktioniert auf zwei verschiedene Arten für Aufgaben in [!UICONTROL Workfront]:
 
-* Wenn dem Benutzer ein Home Team zugewiesen wurde, wird ein [!DNL Workfront] Administrator oder Benutzer mit [!UICONTROL Plan] -Lizenz kann die [!UICONTROL Fertig] -Schaltfläche, um bestimmte Status für Teammitglieder widerzuspiegeln. Siehe [Konfigurieren Sie die [!UICONTROL Fertig] Schaltfläche für ein Team](#configure-the-uicontrol-done-button-for-a-team) in diesem Artikel.
-* Wenn der Benutzer über keine [!UICONTROL Startseite], aber sie haben [!UICONTROL Sonstige Teams] in ihrem Profil sucht Workfront nach der Einstellung der [!UICONTROL Fertig] auf einem der mit dem Benutzer verknüpften Teams. Die Auswahl ist zufällig und der Status, der mit einem der Teams verknüpft ist, wird für die Aufgabe verwendet.
-* Wenn dem Benutzer kein Home Team zugewiesen ist, wird die [!UICONTROL Fertig] -Schaltfläche für Aufgaben ist an einen vollständigen Status gebunden. In diesem Szenario sind keine Konfigurationsoptionen verfügbar. Die [!UICONTROL Fertig] -Schaltfläche wird automatisch auf diesen Status festgelegt.
+* Wenn dem Benutzer ein Home Team zugewiesen ist, kann ein [!DNL Workfront] -Administrator oder ein Benutzer mit der Lizenz [!UICONTROL Plan] die Schaltfläche [!UICONTROL Fertig] so konfigurieren, dass bestimmte Status für Teammitglieder angezeigt werden. Siehe [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für ein Team](#configure-the-uicontrol-done-button-for-a-team) in diesem Artikel.
+* Wenn der Benutzer über kein [!UICONTROL Home-Team] verfügt, jedoch über [!UICONTROL Other Teams] in seinem Profil verfügt, sucht Workfront nach der Einstellung der Schaltfläche [!UICONTROL Fertig] für eines der mit dem Benutzer verknüpften Teams. Die Auswahl ist zufällig und der Status, der mit einem der Teams verknüpft ist, wird für die Aufgabe verwendet.
+* Wenn dem Benutzer kein Home-Team zugewiesen ist, wird die Schaltfläche [!UICONTROL Fertig] für Aufgaben an den vollständigen Status gebunden. In diesem Szenario sind keine Konfigurationsoptionen verfügbar. Die Schaltfläche [!UICONTROL Fertig] erhält automatisch diesen Status.
 
 ## Zugriffsanforderungen
 
@@ -36,8 +36,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] Plan*</strong></p></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] plan*</strong></p></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong><p>[!DNL Adobe Workfront] license*</strong></p></td> 
@@ -46,17 +46,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
 
-## Konfigurieren Sie die [!UICONTROL Fertig] Schaltfläche für ein Team
+## Konfigurieren der Schaltfläche [!UICONTROL Fertig] für ein Team
 
-Sie können ändern, welcher Status auf das Arbeitselement angewendet wird, indem Sie die [!UICONTROL Fertig] Schaltfläche. Sie können auch mehrere Status festlegen und dem Benutzer die Auswahl des entsprechenden Status ermöglichen.
+Mit der Schaltfläche [!UICONTROL Fertig] können Sie ändern, welcher Status auf das Arbeitselement angewendet wird. Sie können auch mehrere Status festlegen und dem Benutzer die Auswahl des entsprechenden Status ermöglichen.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **[!UICONTROL Teams]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in Adobe Workfront und klicken Sie dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
 
-1. Klicken Sie auf **[!UICONTROL Switch Team]** und wählen Sie entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü und klicken Sie auf **[!UICONTROL Bearbeiten]**.
-1. Suchen Sie die **[!UICONTROL Schaltfläche &quot;Fertig&quot;]** -Abschnitt unten im **[!UICONTROL Team-Einstellungen]** Seite.
+1. Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** und wählen Sie dann entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und dann auf **[!UICONTROL Bearbeiten]**.
+1. Suchen Sie den Abschnitt **[!UICONTROL Fertige Schaltfläche]** unten auf der Seite **[!UICONTROL Team-Einstellungen]** .
 
 1. Wählen Sie für jeden Arbeitselementtyp einen oder mehrere Status aus.
 
@@ -64,12 +64,12 @@ Sie können ändern, welcher Status auf das Arbeitselement angewendet wird, inde
    >
    >Beachten Sie bei der Auswahl von Status für Aufgaben oder Probleme Folgendes:
    >
-   >* Wenn Sie für jeden Arbeitselement-Typ einen Status auswählen, wird der Status der Aufgabe oder des Problems auf diesen Status festgelegt, wenn ein Benutzer auf [!UICONTROL Fertig] auf ihren Posten. Wenn Sie mehrere Status für jeden Arbeitselement-Typ festlegen, wird ein Dropdown-Menü zum [!UICONTROL Fertig] und der Benutzer muss einen Status auswählen, um den Status des Arbeitselements zu ändern.
-   >* Sie können nur Status auf Systemebene mit dem [!UICONTROL Fertig] Schaltfläche. Sie können keine gruppenspezifischen Status mit den Status der Arbeitselemente verknüpfen.
-   >* Wenn ein dem Element zugewiesener Benutzer das Element in den Status setzt, der dem Element zugeordnet ist [!UICONTROL Fertig] Schaltfläche, wird das Element als [!UICONTROL Fertig] für diesen Benutzer, unabhängig davon, ob der von Ihnen ausgewählte Status ein [!UICONTROL Abgeschlossen] oder [!UICONTROL Geschlossen] Status oder Arbeitsstatus.
+   >* Wenn Sie für jeden Arbeitselement-Typ einen Status auswählen, wird der Status der Aufgabe oder des Problems auf diesen Status festgelegt, wenn ein Benutzer auf [!UICONTROL Fertig] für sein Element klickt. Wenn Sie für jeden Arbeitselement-Typ mehrere Status festlegen, wird der Schaltfläche [!UICONTROL Fertig] ein Dropdown-Menü hinzugefügt und der Benutzer muss einen Status auswählen, um den Status des Arbeitselements zu ändern.
+   >* Sie können nur Status auf Systemebene mit der Schaltfläche [!UICONTROL Fertig] verknüpfen. Sie können keine gruppenspezifischen Status mit den Status der Arbeitselemente verknüpfen.
+   >* Wenn ein dem Element zugewiesener Benutzer das Element in den Status setzt, der mit der Schaltfläche [!UICONTROL Fertig] verknüpft ist, wird das Element für diesen Benutzer als [!UICONTROL Fertig] angezeigt, unabhängig davon, ob es sich bei dem ausgewählten Status um den Status [!UICONTROL Abgeschlossen] oder [!UICONTROL Geschlossen] oder um einen Arbeitsstatus handelt.
    >   
    >   
-   >  Beispiel: das [!UICONTROL Fertig] Schaltfläche mit [!UICONTROL In Bearbeitung] bewirkt, dass das Arbeitselement als [!UICONTROL Fertig] für den Benutzer, der den Status ändert von [!UICONTROL Neu] nach [!UICONTROL In Bearbeitung].
+   >  Wenn Sie beispielsweise die Schaltfläche [!UICONTROL Fertig] mit [!UICONTROL In Bearbeitung] verknüpfen, wird das Arbeitselement für den Benutzer, der den Status von [!UICONTROL Neu] in [!UICONTROL Gestartet] ändert, als [!UICONTROL Fertig] angezeigt.
    >   
    >* Problemtypen können angepasst werden und können andere Namen haben als die unten in Ihrer Umgebung aufgelisteten.\
    >  Im Folgenden finden Sie die Standardaufgaben und Problemtypen:
@@ -80,24 +80,24 @@ Sie können ändern, welcher Status auf das Arbeitselement angewendet wird, inde
    >   * [!UICONTROL Änderungsanforderung]
    >   * [!UICONTROL Bug-Bericht]
 
-   Wenn die Aufgabe oder das Problem mehreren Benutzern zugewiesen ist, wird ein[!UICONTROL Fertig mit meinem Teil]&quot; im Dropdown-Menü neben den verschiedenen Status, die für Ihr Team ausgewählt wurden.
+   Wenn die Aufgabe oder das Problem mehreren Benutzern zugewiesen ist, wird im Dropdown-Menü neben den für Ihr Team ausgewählten verschiedenen Status die Option &quot;[!UICONTROL Fertig mit meinem Teil]&quot; angezeigt.
 
-1. Klicken **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
 ## Benutzer einem Startseiten-Team zuordnen
 
-So nehmen Sie die Änderungen an der [!UICONTROL Fertig] -Schaltflächenfunktionalität für Benutzer sichtbar machen, können Sie das Team, dessen Einstellungen Sie geändert haben, zum Startseiten-Team der Benutzer machen.
+Um die Änderungen an der Schaltflächenfunktion [!UICONTROL Fertig] für Benutzer sichtbar zu machen, können Sie das Team, dessen Einstellungen Sie geändert haben, zum Startseiten-Team der Benutzer machen.
 
 So verknüpfen Sie Benutzer mit einem Home-Team:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** icon ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront].
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront].
 
-1. Klicken **[!UICONTROL Benutzer]** und wählen Sie dann den oder die Benutzer aus, die Sie mit einem Home Team verbinden möchten.
-1. Klicken Sie auf **[!UICONTROL Mehr]** Menü und wählen Sie **[!UICONTROL Bearbeiten]**.\
+1. Klicken Sie auf **[!UICONTROL Benutzer]** und wählen Sie dann den Benutzer aus, den/die Sie mit einem Home-Team verbinden möchten.
+1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. Im **[!UICONTROL Einrichtung]** auswählen, wählen Sie die **[!UICONTROL Startseite]** -Feld. Beginnen Sie mit der Eingabe des Namens des Teams, dessen Einstellungen Sie mit den Benutzern verknüpfen möchten. Klicken Sie auf den Namen des Teams, sobald es in der Liste angezeigt wird.
+1. Wählen Sie im Abschnitt **[!UICONTROL Organisation]** das Feld **[!UICONTROL Home Team]** aus. Geben Sie den Namen des Teams ein, dessen Einstellungen Sie den Benutzern zuweisen möchten. Klicken Sie auf den Namen des Teams, sobald es in der Liste angezeigt wird.
 
-1. Klicken **[!UICONTROL Änderungen speichern]**.\
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.\
    Die von Ihnen ausgewählten Benutzer sind jetzt mit einem Home-Team verknüpft.
-Alle Teameinstellungen, einschließlich der Status, die mit dem [!UICONTROL Fertig] -Schaltfläche nun für diese Benutzer sichtbar.
+Alle Teameinstellungen, einschließlich der Status, die mit der Schaltfläche [!UICONTROL Fertig] verknüpft sind, sind nun für diese Benutzer sichtbar.

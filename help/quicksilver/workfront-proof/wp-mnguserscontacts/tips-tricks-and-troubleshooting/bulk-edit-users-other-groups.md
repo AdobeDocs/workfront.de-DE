@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problem:
 
@@ -30,10 +30,13 @@ Nach dem Speichern der Änderungen wurden alle vorhandenen &quot;Sonstige Gruppe
 
 Das resultierende Verhalten hängt von der aktuellen Gruppenmitgliedschaft der ausgewählten Benutzer ab:
 
-* Wenn alle ausgewählten Benutzer Andere Gruppenmitgliedschaften exakt übereinstimmen ... Nachdem Sie die Benutzer ausgewählt haben, wählen Sie [!UICONTROL edit], die [!UICONTROL Andere Gruppen] zeigt die vollständige Liste aller Gruppen an, zu denen diese Benutzer gehören.
+* Wenn alle ausgewählten Benutzer Andere Gruppenmitgliedschaften exakt übereinstimmen ...
+Nachdem Sie die Benutzer ausgewählt und [!UICONTROL Bearbeiten] ausgewählt haben, wird im Feld [!UICONTROL Andere Gruppen] die vollständige Liste angezeigt
+der Gruppen, zu denen diese Benutzer gehören.
 
-* Wenn die ausgewählten Benutzer über verschiedene Mitglieder der Gruppe Andere Gruppen verfügen.. Nachdem Sie die Benutzer ausgewählt haben, klicken Sie auf [!UICONTROL Bearbeiten], die [!UICONTROL Andere Gruppen] leer ist.
+* Wenn die ausgewählten Benutzer über verschiedene Mitglieder der Gruppe Andere Gruppen verfügen..
+Nachdem Sie die Benutzer ausgewählt und auf [!UICONTROL Bearbeiten] geklickt haben, ist das Feld [!UICONTROL Andere Gruppen] leer.
 
-Wenn Sie auf **[!UICONTROL Änderungen speichern]**, wird das im Feld Andere Gruppen angezeigte Element gespeichert.
+Wenn Sie auf **[!UICONTROL Änderungen speichern]** klicken, wird das im Feld &quot;Andere Gruppen&quot;angezeigte Element gespeichert.
 
 Der vorherige Inhalt des Felds wird überschrieben.

@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
 <p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make this work for PiW</p>
@@ -29,7 +29,7 @@ Während des Prüfungs- und Validierungsprozesses können Sie einem oder allen V
 Die Standard-E-Mail zur Erinnerung enthält folgende Informationen:
 
 * Persönlicher Link zum Testversand
-* Miniaturansicht des Testversandbilds
+* Miniaturansicht des Testversand-Bildes
 * Folgende Testversanddetails:
 
    * Name des Korrekturabzugs
@@ -37,32 +37,32 @@ Die Standard-E-Mail zur Erinnerung enthält folgende Informationen:
    * Ordnername (falls zutreffend)
    * Liste der validierungsverantwortlichen Benutzer und Fortschritt des Testversands
 
-Sie können auch jemanden an mehrere Testsendungen erinnern, die mit ihnen geteilt wurden. Weitere Informationen finden Sie unter [Erinnern eines Validierers an Zuweisungen in Workfront Testversand](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
+Sie können auch jemanden an mehrere Testsendungen erinnern, die mit ihnen geteilt wurden. Weitere Informationen finden Sie unter [Erinnern an einen Prüfer über Zuweisungen in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
 
 ## Senden einer Nachricht an Überprüfer bei einem Testversand
 
-1. In jeder Listenansicht oder auf der [!UICONTROL Dashboard], klicken Sie auf die **[!UICONTROL Mehr]** Menü (drei Punkte) für den Testversand und klicken Sie dann auf **[!UICONTROL Nachricht]**.
+1. Klicken Sie in einer Listenansicht oder im [!UICONTROL Dashboard] auf das Menü **[!UICONTROL Mehr]** (drei Punkte) für den Testversand und klicken Sie dann auf **[!UICONTROL Nachricht]**.
 
-1. Im **[!UICONTROL Nachricht]** angezeigt wird, wählen Sie die gewünschten Empfänger aus.
+1. Wählen Sie im angezeigten Feld **[!UICONTROL Nachricht]** die gewünschten Empfänger aus.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie die Standardeinstellung [!DNL Workfront Proof] Meldung, klicken Sie auf **[!UICONTROL Benutzerdefinierte Nachricht verwerfen]** Klicken Sie auf **[!UICONTROL Senden]**.\
+   * Wenn Sie die Standardmeldung [!DNL Workfront Proof] verwenden möchten, klicken Sie auf **[!UICONTROL Benutzerdefinierte Nachricht verwerfen]** und dann auf **[!UICONTROL Senden]**\.
 
-      Die Standardnachricht weist die Prüfer darauf hin, dass sie zum Testversand hinzugefügt wurden, und enthält die Frist für den Testversand.
+     Die Standardnachricht weist die Prüfer darauf hin, dass sie zum Testversand hinzugefügt wurden, und enthält die Frist für den Testversand.
 
-   * Wenn Sie eine eigene benutzerdefinierte Nachricht erstellen möchten, geben Sie einen **[!UICONTROL Betreff]** und **[!UICONTROL Nachricht],** Klicken Sie dann auf **[!UICONTROL Senden].**&#x200B; Eine personalisierte Erinnerungsmail enthält dieselben Informationen wie die Standard-Erinnerungsmail, enthält aber auch Ihre benutzerdefinierte Betreffzeile und benutzerdefinierte Nachricht im Textkörper der E-Mail.
+   * Wenn Sie eine eigene benutzerdefinierte Nachricht erstellen möchten, geben Sie einen **[!UICONTROL Betreff]** und die **[!UICONTROL Nachricht],** ein und klicken Sie dann auf **[!UICONTROL Senden].** &#x200B; Eine personalisierte Erinnerungsmail enthält dieselben Informationen wie die Standard-Erinnerungsmail, enthält aber auch Ihre benutzerdefinierte Betreffzeile und benutzerdefinierte Nachricht im Textkörper der E-Mail.
 
 ## Senden einer Nachricht an Überprüfer auf einer Bühne
 
-1. Klicken Sie in einer Listenansicht oder im Dashboard auf die Schaltfläche **[!UICONTROL Mehr]** Menü (drei Punkte) für den Testversand und klicken Sie dann auf **[!UICONTROL Anzeigen von Testversand-Details]**.
+1. Klicken Sie in einer Listenansicht oder im Dashboard auf das Menü **[!UICONTROL Mehr]** (drei Punkte) für den Testversand und dann auf **[!UICONTROL Testversanddetails anzeigen]**.
 
-1. under **[!UICONTROL Workflow,]** Klicken Sie in der rechten oberen Ecke der Bühne auf die **[!UICONTROL Mehr]** (drei Punkte) Menü für die Bühne und klicken Sie dann auf **[!UICONTROL Meldung bei]** im Dropdown-Menü.
+1. Klicken Sie unter &quot;**[!UICONTROL Workflow,]**&quot;in der oberen rechten Ecke der Bühne auf das Menü &quot;**[!UICONTROL Mehr]**&quot;(drei Punkte) für die Bühne und klicken Sie dann im Dropdown-Menü auf &quot;**[!UICONTROL Nachricht alle]**&quot;.
 
-1. Im **[!UICONTROL Nachricht]** angezeigt wird, wählen Sie die gewünschten Empfänger aus.
+1. Wählen Sie im angezeigten Feld **[!UICONTROL Nachricht]** die gewünschten Empfänger aus.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie die Standardeinstellung [!DNL Workfront Proof] Meldung, klicken Sie auf **[!UICONTROL Benutzerdefinierte Nachricht verwerfen]** Klicken Sie auf **[!UICONTROL Senden]**.\
+   * Wenn Sie die Standardmeldung [!DNL Workfront Proof] verwenden möchten, klicken Sie auf **[!UICONTROL Benutzerdefinierte Nachricht verwerfen]** und dann auf **[!UICONTROL Senden]**\.
 
-      Die Standardnachricht weist die Prüfer darauf hin, dass sie zum Testversand hinzugefügt wurden, und enthält die Frist für den Testversand.
+     Die Standardnachricht weist die Prüfer darauf hin, dass sie zum Testversand hinzugefügt wurden, und enthält die Frist für den Testversand.
 
-   * Wenn Sie eine eigene benutzerdefinierte Nachricht erstellen möchten, geben Sie einen **[!UICONTROL Betreff]** und **[!UICONTROL Nachricht],** Klicken Sie dann auf **[!UICONTROL Senden].**&#x200B; Eine personalisierte Erinnerungsmail enthält dieselben Informationen wie die Standard-Erinnerungsmail, enthält aber auch Ihre benutzerdefinierte Betreffzeile und benutzerdefinierte Nachricht im Textkörper der E-Mail.
+   * Wenn Sie eine eigene benutzerdefinierte Nachricht erstellen möchten, geben Sie einen **[!UICONTROL Betreff]** und die **[!UICONTROL Nachricht],** ein und klicken Sie dann auf **[!UICONTROL Senden].** &#x200B; Eine personalisierte Erinnerungsmail enthält dieselben Informationen wie die Standard-Erinnerungsmail, enthält aber auch Ihre benutzerdefinierte Betreffzeile und benutzerdefinierte Nachricht im Textkörper der E-Mail.

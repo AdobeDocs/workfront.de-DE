@@ -8,7 +8,7 @@ feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
 source-git-commit: 9da0c8234f563a0202cd15017b37a341476f7406
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Informationen darüber, welche Informationen angezeigt und bearbeitet werden können {#understand-what-information-can-be-viewed-and-edited}
 
-Beim Anzeigen einer Story-Kachel auf der [!UICONTROL Kanban] -Pinnwand, sind die Informationen in der folgenden Tabelle verfügbar. Sie können die meisten Informationen inline bearbeiten, direkt über die Kachel &quot;Geschichte&quot;.
+Bei der Anzeige eines Story-Bausteins auf der [!UICONTROL Kanban]-Pinnwand sind die Informationen in der folgenden Tabelle verfügbar. Sie können die meisten Informationen inline bearbeiten, direkt über den Bereich &quot;Geschichte&quot;.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,9 +25,9 @@ Beim Anzeigen einer Story-Kachel auf der [!UICONTROL Kanban] -Pinnwand, sind die
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Informationen</strong> </th> 
+   <th><strong>Information</strong> </th> 
    <th><strong>Sichtbar</strong> </th> 
-   <th><strong>Bearbeitbare Inline-Zeilen</strong> </th> 
+   <th><strong>Bearbeitbare Inline-Anzeige</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -42,12 +42,12 @@ Beim Anzeigen einer Story-Kachel auf der [!UICONTROL Kanban] -Pinnwand, sind die
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Die Anzahl der vollständigen Punkte oder Stunden der Meldung und die Anzahl der der Meldung zugewiesenen Punkte oder Stunden<br>Diese Zahlen werden verwendet, um den "Percent Complete"für jede Meldung zu berechnen und anzuzeigen.</p> </td> 
+   <td> <p>Die Anzahl der Punkte oder Stunden, die für die Meldung vollständig sind, und die Anzahl der Punkte oder Stunden, die der Meldung zugeordnet sind<br>Diese Zahlen werden verwendet, um die Prozentzahl der Vollständigkeit für jede Meldung zu berechnen und anzuzeigen.</p> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Prozentualer Abschluss] für jede Geschichte und jedes Thema.<br>[!UICONTROL Der prozentuale Abschluss] für die Iteration wird auf der Grundlage des [!UICONTROL Prozentsatzes abgeschlossen] für jede Geschichte berechnet.<br></p> <p>Bei der Aktualisierung von [!UICONTROL Prozent Vollständigkeit] für eine Meldung oder ein Problem können Sie eine beliebige Zahl zwischen 0 und 100 wählen.</p> </td> 
+   <td> <p>[!UICONTROL Prozentualer Abschluss] für jede Geschichte und jedes Thema.<br>[!UICONTROL Der prozentuale Abschluss] für die Iteration wird basierend auf dem [!UICONTROL Prozentwert für jeden Artikel berechnet.<br></p> <p>Bei der Aktualisierung von [!UICONTROL Prozent Vollständigkeit] für eine Meldung oder ein Problem können Sie eine beliebige Zahl zwischen 0 und 100 wählen.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -62,7 +62,7 @@ Beim Anzeigen einer Story-Kachel auf der [!UICONTROL Kanban] -Pinnwand, sind die
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Alle zusätzlichen Felder (einschließlich benutzerdefinierter Felder), die möglicherweise zur agilen Ansicht hinzugefügt wurden, indem die agile Ansicht geändert wurde, wie unter "Erstellen und Anpassen einer Agile-Ansicht"in <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Ansichten - Übersicht in [!DNL Adobe Workfront]</a></p> </td> 
+   <td> <p>Alle zusätzlichen Felder (einschließlich benutzerdefinierter Felder), die möglicherweise zur agilen Ansicht hinzugefügt wurden, indem die agile Ansicht geändert wurde, wie unter "Erstellen und Anpassen einer Agile-Ansicht"in <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Übersicht über Ansichten in [!DNL Adobe Workfront]</a> beschrieben.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -78,8 +78,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -87,28 +87,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] Administrator , wenn sie zusätzliche Einschränkungen für Ihre Zugriffsebene festlegen. Für Informationen zur [!DNL Workfront] Administratoren können die Zugriffsebene ändern, siehe <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] Administrator.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Anzeigen und Bearbeiten von Informationen zu einem Story-Baustein
 
-1. Klicken Sie auf *[!UICONTROL *Hauptmenü]** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront]Klicken Sie auf **[!UICONTROL Teams]**.
+1. Klicken Sie auf das Symbol *[!UICONTROL *Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Teams]**.
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Switch Team]** icon ![Symbol &quot;Team wechseln&quot;](assets/switch-team-icon.png), wählen Sie entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Navigieren Sie zu [!UICONTROL Kanban] Pinnwand.
+1. Gehen Sie zur [!UICONTROL Kanban]-Pinnwand.
 1. Erweitern Sie die Kachel &quot;Geschichte&quot;, um alle Felder anzuzeigen, die mit der Geschichte verbunden sind.
 
    ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. (Optional) Um ein Feld zu bearbeiten, klicken Sie auf das Feld und nehmen Sie dann alle Änderungen vor.\
-   Sie müssen [!UICONTROL Bearbeiten] Berechtigungen für die Aufgabe oder das Problem, um die Story-Kachel zu bearbeiten.\
-   Weitere Informationen zu den einzelnen Feldern und darüber, ob sie bearbeitet werden können, finden Sie unter [Informationen darüber, welche Informationen angezeigt und bearbeitet werden können](#understand-what-information-can-be-viewed-and-edited).
+   Sie müssen über die Berechtigung [!UICONTROL Bearbeiten] für die Aufgabe oder das Problem verfügen, um die Kachel &quot;Geschichte&quot;bearbeiten zu können.\
+   Weitere Informationen zu den einzelnen Feldern und dazu, ob sie bearbeitet werden können, finden Sie unter [Informationen darüber, welche Informationen angezeigt und bearbeitet werden können](#understand-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]
 >
->So ändern Sie die [!UICONTROL Prozent abgeschlossen], müssen Sie eine Zahl zwischen 0 und 100 eingeben. Das Feld ist kein Schieberegler, den Sie verschieben können.
+>Um den [!UICONTROL Prozentsatz abgeschlossen] zu ändern, müssen Sie eine Zahl zwischen 0 und 100 eingeben. Das Feld ist kein Schieberegler, den Sie verschieben können.

@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei
 
@@ -63,10 +63,10 @@ Nachdem Sie interaktive Inhalte in einer ZIP-Datei zu einem Testversand hinzugef
    * Bei in iOS erstellten ZIP-Dateien identifiziert das Tool automatisch den richtigen Ordner, in dem der Inhalt abgelegt wird.
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zum Problem, in das Sie die ZIP-Datei hochladen möchten.
-1. Klicks **Dokumente** im linken Bereich .
-1. Klicks **Neu hinzufügen** Klicken Sie auf **Testversand** im angezeigten Menü.
-1. Im **Dateien hinzufügen** -Abschnitt, ziehen Sie die gewünschte ZIP-Datei per Drag-and-Drop oder suchen Sie nach der gewünschten ZIP-Datei.
-1. Klicks **Testversand erstellen** , um einen einfachen Testversand ohne Überprüfungsprozess zu erstellen.\
+1. Klicken Sie im linken Bereich auf **Dokumente** .
+1. Klicken Sie auf **Neu hinzufügen** und dann im angezeigten Menü auf **Testversand** .
+1. Ziehen Sie im Abschnitt **Dateien hinzufügen** die benötigte ZIP-Datei per Drag-and-Drop oder suchen Sie nach der gewünschten ZIP-Datei.
+1. Klicken Sie auf **Testversand erstellen** , um einen einfachen Testversand ohne Überprüfungsprozess zu erstellen.\
    oder\
    Fahren Sie mit der Konfiguration eines erweiterten Testversands fort:
 

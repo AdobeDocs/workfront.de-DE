@@ -62,7 +62,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,16 +73,16 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum u
 ![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
+1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
 
-1. Klicks **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Geplantes Abschlussdatum&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Geplantes Abschlussdatum&quot;im Feld **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicks **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Tatsächliches Abschlussdatum&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen** und beginnen Sie mit der Eingabe &quot;Tatsächliches Abschlussdatum&quot;im Feld **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicks **Spalte hinzufügen** Klicken Sie auf **In den Textmodus wechseln**.
+1. Klicken Sie auf **Spalte hinzufügen** und dann auf **Wechseln zum Textmodus**.
 
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch den folgenden Code:
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
 
    ```
     displayname=Planned-Actual Completion Date
@@ -93,26 +93,26 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum u
     valueformat=HTML
    ```
 
-1. Klicks **Speichern**, dann **Ansicht speichern**.
+1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.
 
 ## Berechnung der Zeit- und Datumsdifferenz zwischen dem Feld eines Objekts und einem anderen Feld eines übergeordneten Objekts
 
-Eine Liste der Objekte und ihrer übergeordneten Elemente finden Sie im Abschnitt &quot;Die Interdependenz und Hierarchie von Objekten verstehen&quot;unter [Objekte in Adobe Workfront verstehen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+Eine Liste der Objekte und ihrer übergeordneten Elemente finden Sie im Abschnitt &quot;Grundlegendes zur Interdependenz und Hierarchie von Objekten&quot;in [Grundlegendes zu Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum einer Aufgabe und dem geplanten Abschlussdatum der übergeordneten Aufgabe oder des Projekts berechnen, in dem sich die Aufgabe befindet.
 
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Gehen Sie zu einer Liste von Aufgaben.
-1. Aus dem **Ansicht** Dropdown-Menü, klicken Sie auf **Neue Ansicht**.
+1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
 
-1. Klicks **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Projekt geplant Abschlussdatum&quot;oder &quot;Übergeordnetes Abschlussdatum&quot;in die **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen** und geben Sie im Feld **In dieser Spalte anzeigen** den Wert &quot;Projekt für das geplante Abschlussdatum&quot;oder &quot;Übergeordnetes Abschlussdatum&quot;ein und wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird.
 
-1. Klicks **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Geplantes Abschlussdatum&quot;im **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Geplantes Abschlussdatum&quot;im Feld **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicks **Spalte hinzufügen** Klicken Sie auf **In den Textmodus wechseln**.
+1. Klicken Sie auf **Spalte hinzufügen** und dann auf **Wechseln zum Textmodus**.
 
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im **Textmodus** und ersetzen Sie sie durch einen der folgenden Codes:
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch einen der folgenden Codes:
 
    * So zeigen Sie den Unterschied zwischen dem geplanten Abschlussdatum des Projekts und dem der Aufgabe an:
 
@@ -131,4 +131,4 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum e
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Klicks **Speichern**, dann **Ansicht speichern**.
+1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.

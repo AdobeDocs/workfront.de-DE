@@ -9,7 +9,7 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3573'
 ht-degree: 2%
 
 ---
@@ -251,17 +251,17 @@ Für API v11 wurden keine Ressourcen entfernt.
    <td> 
     <ul> 
      <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
-     <li><a href="#document" class="MCXref xref">Dokument</a> </li> 
-     <li><a href="#iteration" class="MCXref xref">Wiederholung</a> </li> 
-     <li><a href="#layout-template" class="MCXref xref">Layoutvorlage</a> </li> 
+     <li><a href="#document" class="MCXref xref">Document</a> </li> 
+     <li><a href="#iteration" class="MCXref xref">Iteration</a> </li> 
+     <li><a href="#layout-template" class="MCXref xref">Layout-Vorlage</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">MilestonePath</a> </li> 
-     <li><a href="#note" class="MCXref xref">Notiz</a> </li> 
+     <li><a href="#note" class="MCXref xref">Hinweis</a> </li> 
      <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
      <li><a href="#parameter" class="MCXref xref">Parameter</a> </li> 
      <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
      <li><a href="#program" class="MCXref xref">Programm</a> </li> 
      <li><a href="#project" class="MCXref xref">Projekt</a> </li> 
-     <li><a href="#proofapproval" class="MCXref xref">TestversandApproval</a> </li> 
+     <li><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </li> 
      <li><a href="#queuedef" class="MCXref xref">QueueDef</a> </li> 
      <li><a href="#reservedtime" class="MCXref xref">ReservedTime</a> </li> 
     </ul> </td> 
@@ -276,8 +276,8 @@ Für API v11 wurden keine Ressourcen entfernt.
      <li><a href="#template" class="MCXref xref">Vorlage</a> </li> 
      <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
-     <li><a href="#timesheet" class="MCXref xref">Arbeitszeittabelle</a> </li> 
-     <li><a href="#update" class="MCXref xref">Aktualisieren</a> </li> <!--
+     <li><a href="#timesheet" class="MCXref xref">Zeitblatt</a> </li> 
+     <li><a href="#update" class="MCXref xref">Update</a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 

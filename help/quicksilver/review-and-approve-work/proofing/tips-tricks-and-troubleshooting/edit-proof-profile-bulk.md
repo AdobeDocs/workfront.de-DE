@@ -10,7 +10,7 @@ exl-id: a804a007-7c9f-471e-ad07-8adca6672575
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -26,11 +26,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testzugang für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testversandfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein. Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs</a>.</p> </td> 
+   <td> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -38,27 +38,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront-Testversandadministrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
 ## Testberechtigungsprofil stapelweise bearbeiten
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
 
-1. Benutzer sortieren nach **Zugriffsstufe**. Wir empfehlen die Stapelbearbeitung nach Zugriffsstufe , um sicherzustellen, dass **Profil für Testberechtigungen** angezeigt.
+1. Sortieren Sie Ihre Benutzer nach **Zugriffsebene**. Wir empfehlen die Stapelbearbeitung nach Zugriffsstufe, um sicherzustellen, dass das Feld **Profil für Testversandberechtigungen** angezeigt wird.
 
 1. Aktivieren Sie das Kontrollkästchen neben den Benutzern, die Sie auf derselben Zugriffsebene auswählen möchten. Das Feld &quot;Profil für Testberechtigungen&quot;ist nur für Zugriffsstufen von Arbeitnehmern und höher verfügbar.
-1. Klicks **Bearbeiten** oben in der Liste.
-1. Im **Zugriff** finden Sie die **Profil für Testberechtigungen** und wählen Sie aus.
+1. Klicken Sie oben in der Liste auf **Bearbeiten** .
+1. Suchen Sie im Abschnitt **Zugriff** das Dropdown-Menü **Profil für Testberechtigungen** und wählen Sie Ihre Auswahl aus.
 
    >[!NOTE]
    >
-   >Je nach Ihrem Workfront-Plan müssen Sie möglicherweise die **Benutzer kann Testsendungen generieren** Kontrollkästchen, um die **Profil für Testberechtigungen** angezeigt.
+   >Abhängig von Ihrem Workfront-Plan müssen Sie möglicherweise das Kontrollkästchen **Benutzer kann Testsendungen generieren** aktivieren, damit das Menü **Testberechtigungsprofil** angezeigt wird.
 
    ![](assets/proof-permission-profile-350x203.png)
 
-1. Klicks **Änderungen speichern**.
+1. Klicken Sie auf **Änderungen speichern**.

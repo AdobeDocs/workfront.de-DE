@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Planung oder höher mit Administratorzugriff auf Erinnerungsbenachrichtigungen</p> <p>Informationen zum Gewähren eines administrativen Zugriffs für Planbenutzer finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren</a>.</p> </td> 
+   <td> <p>Planung oder höher mit Administratorzugriff auf Erinnerungsbenachrichtigungen</p> <p>Informationen zum Gewähren eines administrativen Zugriffs für einen Planbenutzer finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,17 +60,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## E-Mail-Betreffzeilen für Ereignisbenachrichtigungen anpassen {#customize-email-subject-lines-for-event-notifications}
 
-1. Klicken Sie auf **Hauptmenü** icon ![](assets/main-menu-icon.png) Klicken Sie oben rechts in Adobe Workfront auf **Einrichtung** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
 
-1. Klicken Sie im linken Bereich auf **Email** > **Benachrichtigungen**.
+1. Klicken Sie im linken Bereich auf **E-Mail** > **Benachrichtigungen**.
 
-1. Klicken Sie auf **Ereignisbenachrichtigungen** Registerkarte.
-1. Klicken Sie auf den Namen der Ereignisbenachrichtigung, die Sie anpassen möchten, um die **Ereignisbenachrichtigung** ankreuzen.
-1. Im **Email Subject Line** ändern Sie den Text und die Felder, einschließlich der benutzerdefinierten Felder, im E-Mail-Betreff.
+1. Klicken Sie auf die Registerkarte **Ereignisbenachrichtigungen**.
+1. Klicken Sie auf den Namen der Ereignisbenachrichtigung, die Sie anpassen möchten, um das Feld **Ereignisbenachrichtigung** zu öffnen.
+1. Ändern Sie im Feld **E-Mail-Betreffzeile** den Text und die Felder, einschließlich der benutzerdefinierten Felder, im E-Mail-Betreff.
 
    Die Namen der hinzugefügten Felder müssen mit der Binnenmajuskel-Schreibweise-Syntax unserer Datenbankstruktur übereinstimmen. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-1. Klicks **Aktualisieren** um die neuen Betreffzeilen für Ihre E-Mails zu speichern.
+1. Klicken Sie auf **Aktualisieren** , um die neuen Betreffzeilen für Ihre E-Mails zu speichern.
 
 ## E-Mail-Betreffzeilen für E-Mails mit mehreren Objekten anpassen
 
@@ -84,7 +84,7 @@ Wenn ein Benutzer in eine Konversation über die Aufgabe, das Problem, die Vorla
 
 Wenn eine E-Mail zum zweiten Betreff hinzugefügt wird, wird eine E-Mail generiert. Hier enthält die Betreffzeile &quot;topReferenceObject:name&quot;und Workfront gibt erneut an, auf welches Objekt verwiesen wurde, und gibt diesen Objektnamen anstelle von &quot;topReferenceObject:name&quot;im Betreff zurück. Die Betreffzeile der E-Mail würde in etwa so aussehen: &quot;Kommentar zu Projekt ABC&quot;.
 
-Informationen zum Bearbeiten der E-Mail-Betreffzeilen und zum Hinzufügen zusätzlicher Felder zu den beiden Betreffzeilen finden Sie unter [E-Mail-Betreffzeilen für Ereignisbenachrichtigungen anpassen](#customize-email-subject-lines-for-event-notifications) in diesem Artikel.
+Informationen zum Bearbeiten der E-Mail-Betreffzeilen und zum Hinzufügen zusätzlicher Felder zu beiden Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für Ereignisbenachrichtigungen](#customize-email-subject-lines-for-event-notifications) in diesem Artikel.
 
 ## E-Mail-Betreffzeilen für E-Mails mit mehreren Aktionen anpassen
 
@@ -94,4 +94,4 @@ Wenn Sie beispielsweise ein Dokument anfordern, das einem Problem hinzugefügt w
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 
-Informationen zum Bearbeiten der E-Mail-Betreffzeilen und zum Hinzufügen zusätzlicher Felder zu den beiden Betreffzeilen finden Sie unter [E-Mail-Betreffzeilen für Ereignisbenachrichtigungen anpassen](#customize-email-subject-lines-for-event-notifications) in diesem Artikel.
+Informationen zum Bearbeiten der E-Mail-Betreffzeilen und zum Hinzufügen zusätzlicher Felder zu beiden Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für Ereignisbenachrichtigungen](#customize-email-subject-lines-for-event-notifications) in diesem Artikel.

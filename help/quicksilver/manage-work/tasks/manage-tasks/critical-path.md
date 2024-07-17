@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ Die folgenden Funktionen können sich auf den kritischen Pfad eines Projekts aus
 
 * Die Arbeitsaufschlüsselungsstruktur des Projekts.
 
-   Weitere Informationen zur Struktur der Arbeitsaufschlüsselung finden Sie unter [Bestimmen der Arbeitsaufschlüsselungsstruktur in einem Projekt](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
+  Weitere Informationen zur Arbeitsaufschlüsselungsstruktur finden Sie unter [Arbeitsaufschlüsselungsstruktur in einem Projekt bestimmen](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
 
 * Die Zeit (Dauer), die der Abschluss jeder Aufgabe benötigt.
 * Die Abhängigkeiten zwischen den Aufgaben.
 
-   Beachten Sie Folgendes:
+  Beachten Sie Folgendes:
 
    * Wenn eine Aufgabe auf dem Kritischen Pfad eine Vorgängerbeziehung hat, befinden sich ihre Vorgänger und Nachfolger auch auf dem kritischen Pfad, wenn sich die Datumsänderungen der Vorgänger oder Nachfolger direkt auf ihre abhängigen Personen auswirken.
 
-      >[!TIP]
-      >
-      >Wenn sich das Datum des Nachfolgers einer Aufgabe nicht direkt auf das Datum ihrer abhängigen Aufgaben auswirkt und sich dies nicht auf die Daten des Projekts auswirkt, befindet sich die Nachfolgeaufgabe nicht auf dem kritischen Pfad.
-      >
-      >
-      >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >[!TIP]
+     >
+     >Wenn sich das Datum des Nachfolgers einer Aufgabe nicht direkt auf das Datum ihrer abhängigen Aufgaben auswirkt und sich dies nicht auf die Daten des Projekts auswirkt, befindet sich die Nachfolgeaufgabe nicht auf dem kritischen Pfad.
+     >
+     >
+     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >
 
    * Wenn eine Unteraufgabe als Aufgabe &quot;Kritischer Pfad&quot;identifiziert wird, wird die übergeordnete Aufgabe auch als Aufgabe &quot;Kritischer Pfad&quot;identifiziert, wenn das voraussichtliche Anfangsdatum und die voraussichtliche Uhrzeit der übergeordneten Aufgabe mit denen der Unteraufgabe übereinstimmen.
 
@@ -54,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -66,7 +67,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für eine Aufgabe </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für eine Aufgabe </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,12 +86,12 @@ Sie können die Aufgaben, die zum kritischen Pfad gehören, in den folgenden Ber
 So zeigen Sie Aufgaben auf dem kritischen Pfad in der Gantt-Grafik an:
 
 1. Wechseln Sie zu einem Projekt, für das Sie den kritischen Pfad anzeigen möchten.
-1. Klicken **Aufgaben** im linken Bereich.
-1. Klicken Sie auf **Gantt-Diagramm** in der oberen rechten Ecke der Aufgabenliste.
+1. Klicken Sie im linken Bereich auf **Aufgaben** .
+1. Klicken Sie oben rechts in der Aufgabenliste auf das Symbol **Gantt-Diagramm** .
 
    ![gantt_chart_icon__1_.png](assets/gantt-chart-icon--1-.png)
 
-1. Erweitern Sie die **Optionen** Menü und aktivieren Sie dann die **Kritischer Pfad** -Option.
+1. Erweitern Sie das Menü **Optionen** und aktivieren Sie dann die Option **Kritischer Pfad** .
 
    Die Aufgaben, die sich auf dem kritischen Pfad befinden, haben eine rote Linie über ihrer Zeitleiste im Gantt-Diagramm.
 
@@ -101,22 +102,22 @@ So zeigen Sie Aufgaben auf dem kritischen Pfad in der Gantt-Grafik an:
 So zeigen Sie in einer Aufgabenliste an, welche Aufgaben sich auf dem kritischen Pfad befinden:
 
 1. Wechseln Sie zu einem Projekt, für das Sie den kritischen Pfad anzeigen möchten.
-1. Klicken **Aufgaben** im linken Bereich.
-1. Aus dem **Ansicht** Dropdown-Menü auswählen **Status**.
+1. Klicken Sie im linken Bereich auf **Aufgaben** .
+1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Status** aus.
 
-   Die Aufgaben, die sich auf dem kritischen Pfad befinden, haben einen **Kritischer Pfad** -Markierung in **Flags** der Liste.
+   Die Aufgaben, die sich auf dem kritischen Pfad befinden, haben in der Spalte **Flags** der Liste die Markierung **Kritischer Pfad** .
 
    Sie können dieselbe Ansicht auf einen Aufgabenbericht anwenden.
 
-   Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    Oder
 
-   Aus dem **Filter** Dropdown-Menü auswählen **Neuer Filter**.
+   Wählen Sie aus dem Dropdownmenü **Filter** die Option **Neuer Filter** aus.
 
-1. Klicken **Filterregel hinzufügen** und Eingabe beginnen **Ist kritisch** im **Nur zeigen mir Aufgaben, in denen die ...** -Feld.
+1. Klicken Sie auf **Filterregel hinzufügen** und beginnen Sie mit der Eingabe von **Is Critical** im Feld **Only show me Tasks , in denen das Feld ...** .
 
 1. Wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
-1. Klicken **Filter speichern**.
+1. Klicken Sie auf **Filter speichern**.
 
    Die Liste sollte nur Aufgaben anzeigen, die sich auf dem kritischen Pfad befinden.

@@ -78,7 +78,7 @@ Sie müssen über Folgendes verfügen:
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -87,7 +87,7 @@ Sie müssen über Folgendes verfügen, bevor Sie beginnen können:
 * Eine Layout-Vorlage, die den Bereich Ziele im Hauptmenü enthält.
 * Ein vorhandenes Ziel.
 
-  Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+  Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >Ein Ziel darf nicht mehr als 1000 Aktivitäten, Ergebnisse, Projekte oder aufeinander abgestimmte Ziele haben.
@@ -138,25 +138,25 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Klicken Sie auf das Hauptmenü ![](assets/main-menu-icon.png), dann **Ziele**.
+1. Klicken Sie auf das Hauptmenü ![](assets/main-menu-icon.png) und dann auf **Ziele**.
 
-1. Aus dem **Zielliste** klicken Sie auf den Namen eines Ziels, um die Zielseite zu öffnen.
-1. Klicks **Fortschrittsanzeigen** im linken Bereich.
-1. Erweitern Sie die **Neuer Fortschrittsanzeiger** Dropdown-Menü, und klicken Sie auf **Ergebnis erstellen**.
+1. Klicken Sie in der **Zielliste** auf den Namen eines Ziels, um die Zielseite zu öffnen.
+1. Klicken Sie im linken Bereich auf **Fortschrittsanzeigen** .
+1. Erweitern Sie das Dropdown-Menü **Neuer Fortschrittsanzeige** und klicken Sie dann auf **Ergebnis erstellen**.
 
    Das Feld Neues Ergebnis wird geöffnet.
 
    ![](assets/new-result-box-unshimmed.png)
 
-1. Geben Sie einen Namen für das Ergebnis im **Ergebnisname** -Feld. Dies ist ein Pflichtfeld.
-1. (Optional) Entfernen Sie Ihren Namen aus dem **Ergebniseigentümer** ein, wenn Sie das Ergebnis einem anderen Benutzer zuweisen möchten. Standardmäßig sind Sie Eigentümer einer von Ihnen erstellten Aktivität.
+1. Geben Sie im Feld **Result name** einen Namen für das Ergebnis ein. Dies ist ein Pflichtfeld.
+1. (Optional) Entfernen Sie Ihren Namen aus dem Feld **Ergebniseigentümer** , wenn Sie das Ergebnis einem anderen Benutzer zuweisen möchten. Standardmäßig sind Sie Eigentümer einer von Ihnen erstellten Aktivität.
 
    >[!NOTE]
    >
    >Sie können kein Team, keine Gruppe oder das Unternehmen als Ergebniseigentümer zuweisen.
 
-1. Im **Wie wollen Sie Ihr Ergebnis messen?** -Bereich, geben Sie die folgenden Informationen an:
-   * **Werttyp**: Zeigt an, wie Sie den Fortschritt am Ergebnis messen möchten. Sie können den Fortschritt numerisch, mit einem Prozentwert oder mit einem Währungsbetrag messen.
+1. In der **Wie soll das Ergebnis gemessen werden?** -Bereich, geben Sie die folgenden Informationen an:
+   * **Werttyp**: Gibt an, wie der Fortschritt am Ergebnis gemessen werden soll. Sie können den Fortschritt numerisch, mit einem Prozentwert oder mit einem Währungsbetrag messen.
 
      Wählen Sie einen Werttyp aus den in der folgenden Tabelle aufgeführten Optionen aus:
 
@@ -167,8 +167,8 @@ Adding results to goals differs depending on which environment you use.
      | CN¥,DKK,KR,Mex$, R, R$, zł, £ , ¥ , € , ₹, ฿, MYR, ₪, $ | Währungswerte |
 
    * **Anfangswert**: Der Wert, den das Ergebnis am Anfang hat, bevor ein Fortschritt aufgezeichnet wurde.
-   * **Zielwert**: Der Wert, den das Ergebnis erzielen soll, wenn es als abgeschlossen betrachtet wird.
-1. Klicks **Ergebnis erstellen**.
+   * **Zielwert**: Der Wert, den das Ergebnis erreichen soll, wenn es als abgeschlossen betrachtet wird.
+1. Klicken Sie auf **Ergebnis erstellen**.
 
    Das Ergebnis wird im Abschnitt Fortschrittsindikatoren der Zielseite unter der Ergebnisgruppierung angezeigt.
 

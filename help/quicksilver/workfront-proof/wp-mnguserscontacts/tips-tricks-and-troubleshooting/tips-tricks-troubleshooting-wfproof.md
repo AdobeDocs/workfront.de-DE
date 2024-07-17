@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Tipps, Tricks und Fehlerbehebung für [!DNL Workfront Proof] Benutzer und Kontakte
-description: Erfahren Sie, wie Sie die Fehlerbehebung für Workfront Proof durchführen.
+description: Erfahren Sie, wie Sie eine Fehlerbehebung bei Workfront Proof durchführen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# Tipps, Tricks und Fehlerbehebung für [!DNL Workfront Proof] Benutzer und Kontakte
+# Tipps, Tricks und Fehlerbehebung für [!DNL Workfront Proof]-Benutzer und -Kontakte
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen in [!DNL Adobe Workfront], siehe [Testing](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

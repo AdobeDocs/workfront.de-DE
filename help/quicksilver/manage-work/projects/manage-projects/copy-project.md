@@ -10,7 +10,7 @@ exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Sie können ein Projekt kopieren, anstatt es von Grund auf neu zu erstellen. Sie
 >
 >* Probleme
 >* Abrechnungssätze
->* Rechnungsnachweise
+>* Abrechnungseinträge
 >* Notizen
 >* Stunden
 >* Projektübergreifende Vorkenntnisse
@@ -85,7 +85,7 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront-Lizenz*</p> </td> 
@@ -93,36 +93,36 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Konfigurationen auf Zugriffsebene*</strong> </td> 
-   <td> <p>Bearbeiten des Zugriffs auf Projekte mit der Möglichkeit zum Erstellen <span>und kopieren</span> Projekte</p> <p><b>NOTIZ</b>
+   <td> <p>Bearbeiten des Zugriffs auf Projekte mit der Möglichkeit, <span>und</span> Projekte zu erstellen</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsstufe ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für das Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für das Projekt</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Kopieren einzelner Projekte
+## Kopieren eines einzelnen Projekts
 
 Beim Kopieren eines Projekts werden auch einige Informationen aus dem ursprünglichen Projekt in das neue Projekt kopiert. Sie können auch angeben, welche Elemente während des Kopiervorgangs nicht in das neue Projekt kopiert werden sollen.
 
-So kopieren Sie ein Projekt:
+Kopieren eines Projekts:
 
-1. Wechseln Sie zu dem Projekt, das Sie kopieren möchten, und klicken Sie auf das **Mehr** icon ![](assets/qs-more-menu.png) rechts neben dem Projektnamen
+1. Wechseln Sie zu dem Projekt, das Sie kopieren möchten, und klicken Sie auf das Symbol **Mehr** ![](assets/qs-more-menu.png) rechts neben dem Projektnamen
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oder
 
-   Wechseln Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus. Klicken Sie dann auf das **Mehr** icon ![](assets/qs-more-menu.png) oben in der Liste.
+   Wechseln Sie zu einer Projektliste oder einem Bericht, wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf das Symbol **Mehr** ![](assets/qs-more-menu.png) .
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. Klicken **Kopieren**.
+1. Klicken Sie auf **Kopieren**.
 
 1. Aktualisieren Sie den Namen des neuen Projekts.
 
@@ -130,9 +130,9 @@ So kopieren Sie ein Projekt:
 
    ![](assets/copy-project-box-nwe-350x276.png)
 
-1. Wählen Sie die **Status** für das neue Projekt.
+1. Wählen Sie den **Status** für das neue Projekt aus.
 
-   Standardmäßig wird die **Status** entspricht dem des ursprünglichen Projekts.
+   Standardmäßig stimmt der **Status** mit dem des Originalprojekts überein.
 
 1. (Optional) Heben Sie die Auswahl der Elemente auf, die Sie nicht in das neue Projekt kopieren möchten. In der folgenden Tabelle wird beschrieben, was passiert, wenn Sie die Elemente deaktivieren:
 
@@ -145,7 +145,7 @@ So kopieren Sie ein Projekt:
       <td role="rowheader">Alle auswählen</td> 
       <td> <p>Wählt alle Optionen aus und löscht alle im neuen Projekt aufgelisteten Felder und Objekte.</p> <p><b>TIPP</b>
 
-   Auswahl aufheben <strong>Alle auswählen</strong> Hebt die Auswahl aller Elemente auf. </p> </td>
+   Wenn Sie &quot;<strong>Alle auswählen&quot;</strong> deaktivieren, werden alle Elemente deaktiviert. </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Arbeitsaufträge</td> 
@@ -181,7 +181,7 @@ So kopieren Sie ein Projekt:
       <td role="rowheader">Veranschlagte Stunden</td> 
       <td> <p>Entfernt die im Bereich Ressourcenplanung des Geschäftsszenarios des Projekts vorgesehenen Stunden aus dem kopierten Projekt.</p>
 
-<b>NOTIZ</b>
+<b>NOTE</b>
 
 Mit dem Szenario-Planer in den Haushalt eingestellte Stunden werden nie in das neue Projekt kopiert, da das neue Projekt nicht mit einer Initiative im Szenario-Planer verknüpft ist. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetressourcen im Geschäftsfall mit dem Szenario-Planer</a>
 </tr></td>
@@ -192,7 +192,7 @@ Mit dem Szenario-Planer in den Haushalt eingestellte Stunden werden nie in das n
         <li>Unterregisterkarte "Finanzen"des Projekts</li> 
         <li> Geplanter Vorteil im Geschäftsfall</li> 
         <li>Finanzinformationen zu allen Aufgaben<br></li> 
-       </ul> <p>Weitere Informationen zur Unterregisterkarte "Projekt-Finanzen"finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Informationen im Bereich "Projekt-Finanzen"verwalten</a>.</p> </td> 
+       </ul> <p>Weitere Informationen zur Unterregisterkarte "Projekt-Finanzen"finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Verwalten von Informationen im Bereich "Projekt-Finanzen"</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Genehmigungsprozess</td> 
@@ -204,7 +204,7 @@ Mit dem Szenario-Planer in den Haushalt eingestellte Stunden werden nie in das n
      </tr> 
      <tr> 
       <td role="rowheader">Ausgaben</td> 
-      <td>Entfernt Ausgaben, die mit den Aufgaben oder dem Projekt verbunden sind. </td> 
+      <td>Entfernt Ausgaben im Zusammenhang mit den Aufgaben oder dem Projekt. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Berechtigungen</td> 
@@ -213,7 +213,7 @@ Mit dem Szenario-Planer in den Haushalt eingestellte Stunden werden nie in das n
     </tbody> 
    </table>
 
-1. Klicken **Kopieren** , um eine Kopie des Projekts zu erstellen.
+1. Klicken Sie auf **Kopieren** , um eine Kopie des Projekts zu erstellen.
 
    Dadurch wird ein neues Projekt erstellt, das dem kopierten Projekt ähnlich ist.
 

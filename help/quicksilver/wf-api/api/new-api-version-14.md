@@ -9,8 +9,8 @@ role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 2%
+source-wordcount: '891'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Für API Version 14 wurden keine Ressourcen entfernt.
 Die folgenden Ressourcen wurden für API Version 14 geändert.
 
 * [BillingRecord (BILL)](#billingrecord-bill)
-* [Kategorie (KG)](#category-ctgy)
+* [Kategorie (CTGY)](#category-ctgy)
 * [CustomEnum (CSTEM)](#customenum-cstem)
 * [Kunde (CUST)](#customer-cust)
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
@@ -51,7 +51,7 @@ Ein BillingRecord -Objekt zeichnet die Einnahmen, Stunden oder Ausgaben auf, die
 
 Weitere Informationen zu Rechnungsdatensätzen finden Sie unter [Erstellen von Rechnungsdatensätzen](../../manage-work/projects/project-finances/create-billing-records.md).
 
-Das BillingRecord -Objekt hat die Markierung hinzugefügt **DATA_EXTENDIBLE**.
+Das BillingRecord -Objekt hat die Markierung **DATA_EXTENDIBLE** hinzugefügt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -155,7 +155,7 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
      <li> <p><b>name</b> </p> <p>Möglicher Wert hinzugefügt:</p> 
       <ul> 
        <li> <p>Benutzer können Bilder in Aktualisierungen hinzufügen (updates:images.toggle)</p> </li> 
-      </ul> <p>Dieser Parameter unterstützt die Möglichkeit, Bilder zu Arbeitselementaktualisierungen hinzuzufügen. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update der Arbeit</a>.</p> </li> 
+      </ul> <p>Dieser Parameter unterstützt die Möglichkeit, Bilder zu Arbeitselementaktualisierungen hinzuzufügen. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Funktionsweise aktualisieren</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -175,7 +175,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
    <td role="rowheader">Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p><b>lastCallbackDate</b> </p> <p>Hinzugefügt. In diesem Feld werden das Datum und die Uhrzeit des letzten Rückrufs aus Workfront Testversand aufgezeichnet, wenn die Version mit einem Testversand verknüpft ist.</p> </li> 
+     <li> <p><b>lastCallbackDate</b> </p> <p>Hinzugefügt. In diesem Feld werden das Datum und die Uhrzeit des letzten Rückrufs aus Workfront Proof aufgezeichnet, wenn die Version mit einem Testversand verknüpft ist.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -185,7 +185,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
 
 Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
 
-Weitere Informationen zu Gruppen finden Sie unter [Gruppen vs. Teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+Weitere Informationen zu Gruppen finden Sie unter [Gruppen im Vergleich zu Teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -205,7 +205,7 @@ Weitere Informationen zu Gruppen finden Sie unter [Gruppen vs. Teams in Adobe Wo
 
 Ein NoteTag -Objekt stellt den Akt des Taggings eines Benutzers oder Teams bei einer Aktualisierung eines Arbeitselements dar.
 
-Weitere Informationen zum Tagging in Aktualisierungen finden Sie unter [Tagging anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Weitere Informationen zum Tagging in Updates finden Sie unter [Tagging anderer Benutzer bei Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -266,13 +266,13 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
 
 Ein Resource Allocation -Objekt stellt die Schätzung der Ressourcen dar, die für ein bestimmtes Projekt benötigt werden. Dieses Objekt wird nur im Legacy-Ressourcen-Planer verwendet. Verwenden Sie für das entsprechende Feld im neuen Ressourcenplaner Budgeted Hour (BGHR).
 
-Das Resource Allocation -Objekt hat das Flag entfernt **REPORTABLE**.
+Das Resource Allocation -Objekt entfernte die Markierung **REPORTABLE**.
 
 ### Rolle (ROLE) {#role-role}
 
-Ein Rollenobjekt (Auftragsrolle) steht für eine funktionale Kapazität oder eine Fachkompetenz, die ein Benutzer ausfüllen kann, z. B. Designer oder Produkt-Manager.
+Ein Rollenobjekt (Auftragsrolle) stellt eine funktionale Kapazität oder eine von einem Benutzer auszufüllende Fähigkeit dar, z. B. Designer oder Produktmanager.
 
-Informationen zu Auftragsrollen finden Sie unter [Übersicht über die Auftragsrolle](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+Weitere Informationen zu Auftragsrollen finden Sie unter [Übersicht über Auftragsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

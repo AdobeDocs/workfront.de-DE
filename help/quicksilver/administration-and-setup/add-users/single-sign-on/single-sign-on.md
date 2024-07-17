@@ -25,8 +25,8 @@ Sie können Workfront in Ihre bestehende Single Sign-On-Lösung (SSO) integriere
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Überblick über Single Sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-* [Benutzer für Single Sign-on aktualisieren](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+* [Überblick über die einmalige Anmeldung in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+* [Aktualisieren von Benutzern für Single Sign-on](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
 * [Konfigurieren von Adobe Workfront mit SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 * [SAML 2.0-Metadaten in Ihrem Identitäts-Provider aktualisieren](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
 * [Konfigurieren von Adobe Workfront mit SAML 2.0 mithilfe von ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)

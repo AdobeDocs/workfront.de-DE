@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2128'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -41,7 +41,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für eine Vorlage und die Vorlagenaufgabe verwalten </p> <p>Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Zugriff auf Objekte anfordern </a>.</p> </td> 
+   <td> <p>Berechtigungen für eine Vorlage und die Vorlagenaufgabe verwalten </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,27 +76,27 @@ Beachten Sie beim Verschieben von Vorlagenaufgaben Folgendes:
 
 * Die folgenden Informationen werden nicht an die verschobene Aufgabe übertragen:
 
-   * Meilensteine.
+   * Meilensteine
 
 ## Vorlagenaufgaben kopieren
 
 Sie können eine einzelne Vorlagenaufgabe kopieren oder mehrere Vorlagenaufgaben stapelweise kopieren.
 
 1. Wechseln Sie zu der Vorlage, die die Vorlagenaufgabe oder Vorlagenaufgaben enthält, die Sie kopieren möchten.
-1. Klicks **Vorlagenaufgaben** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Vorlagenaufgaben** .
 1. Führen Sie einen der folgenden Schritte aus:
    * Klicken Sie auf den Namen einer Vorlagenaufgabe, um sie zu öffnen.
    * Wählen Sie eine oder mehrere Vorlagenaufgaben in der Liste aus.
-1. (Bedingt) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) oben in der Aufgabenliste der Vorlage oder rechts neben dem Namen der Vorlagenaufgabe, wenn Sie die Aufgabe geöffnet haben, klicken Sie auf **Kopieren nach** oder **Kopieren**, je nachdem von wo aus Sie auf die Option Kopieren zugreifen.
+1. (Bedingt) Klicken Sie oben in der Vorlagenaufgabenliste auf das Menü **Mehr** ![](assets/more-icon.png) oder bei geöffneter Aufgabe rechts vom Vorlagennamen, und klicken Sie dann auf **Kopieren nach** oder **Kopieren**, je nachdem, von wo aus Sie auf die Option Kopieren zugreifen.
 Das Feld Vorlage kopieren wird geöffnet.
    ![](assets/copy-template-task-box-unshimmed.png)
-1. (Optional) Benennen Sie die Vorlagenaufgabe in der **Vorlagenname** -Feld.
+1. (Optional) Benennen Sie die Vorlagenaufgabe im Feld **Vorlagenstammname** um.
 
    >[!TIP]
    >
    >Dieses Feld ist abgeblendet und kann nicht bearbeitet werden, wenn Sie mehrere Vorlagenaufgaben in eine Liste kopieren möchten. Sie können den Mauszeiger über das Feld &quot;Vorlagenname&quot;bewegen und eine Liste aller ausgewählten Vorlagenaufgaben wird angezeigt.
 
-1. Geben Sie den Namen der **Zielvorlage** wo Sie die Vorlagenaufgabe in die **Zielvorlage auswählen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie mit der Eingabe des Namens der **Zielvorlage**, in die Sie die Vorlagenaufgabe kopieren möchten, im Feld **Zielvorlage auswählen** und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
 
    Der aktuelle Vorlagenname wird standardmäßig angezeigt. Wenn Sie die Vorlagenaufgabe in dieselbe Vorlage kopieren möchten, lassen Sie dieses Feld unverändert.
 
@@ -104,14 +104,14 @@ Das Feld Vorlage kopieren wird geöffnet.
    >
    >Sie können auch mit der Eingabe der Referenznummer beginnen oder die Kennung der Vorlage eingeben. Auf diese Weise können Sie zwischen Vorlagen mit identischen Namen unterscheiden.
 
-1. (Bedingt) Klicken Sie auf **Zugriff anfordern** , um Zugriff auf die Zielvorlage anzufordern, wenn Sie keinen Zugriff auf die ausgewählte Vorlage haben.
+1. (Bedingt) Klicken Sie auf **Zugriffsanfrage** , um den Zugriff auf die Zielvorlage anzufordern, wenn Sie keinen Zugriff auf die ausgewählte Vorlage haben.
 1. (Bedingt) Kopieren Sie die Vorlagenaufgabe weiterhin in die ausgewählte Zielvorlage, ohne Zugriff anzufordern, wenn Sie Zugriff haben, um Vorlagenaufgaben zu einer der Vorlagenaufgaben in der Zielvorlage hinzuzufügen.
 
-1. Klicks **Optionen** Deaktivieren Sie dann im linken Bereich die VorlagenAufgabenattribute, die Sie nicht mit der Vorlagenaufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
+1. Klicken Sie im linken Bereich auf **Optionen** und deaktivieren Sie dann die VorlagenAufgabenattribute, die Sie nicht mit der Vorlagenaufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
 
    >[!TIP]
    >
-   >Auswahl aufheben **Alle auswählen** Deaktiviert alle Optionen.
+   >Wenn Sie die Option **Alle auswählen** deaktivieren, werden alle Optionen deaktiviert.
 
    Deaktivieren Sie die folgenden Optionen, um sie nicht in die kopierte Vorlagenaufgabe zu übertragen. In der folgenden Tabelle wird beschrieben, was passiert, wenn die Optionen deaktiviert werden:
 
@@ -179,7 +179,7 @@ Das Feld Vorlage kopieren wird geöffnet.
    </table>
 
 
-1. (Optional) Klicken Sie auf **Übergeordnetes Element auswählen** Wählen Sie im linken Bereich die Vorlagenaufgabe in der Zielvorlage aus, die Sie zur übergeordneten Aufgabe der kopierten Vorlagenaufgabe werden möchten.
+1. (Optional) Klicken Sie im linken Bereich auf **Übergeordnetes Element auswählen** und wählen Sie dann die Vorlagenaufgabe in der Zielvorlage aus, die Sie zum übergeordneten Element der kopierten Vorlagenaufgabe werden möchten.
 
    >[!TIP]
    >
@@ -188,7 +188,7 @@ Das Feld Vorlage kopieren wird geöffnet.
    Wählen Sie ein übergeordnetes Element aus, indem Sie einen der folgenden Schritte ausführen:
 
    * Wählen Sie in der Aufgabenliste der Vorlage einen der übergeordneten Elemente im Vorlagenplan aus.
-   * Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und suchen Sie anhand des Namens nach einer übergeordneten Vorlagenaufgabe.
+   * Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und suchen Sie nach einer übergeordneten Vorlagenaufgabe anhand des Namens.
 
    Die Vorlagenaufgabe sollte in der Liste angezeigt werden.
 
@@ -196,7 +196,7 @@ Das Feld Vorlage kopieren wird geöffnet.
 
    Wenn Sie keine übergeordnete Vorlagenaufgabe auswählen, werden die Vorlagenaufgaben als Hauptvorlagenaufgaben und nicht als Unteraufgaben kopiert und am Ende der Vorlagenaufgabenliste in der Zielvorlage platziert.
 
-1. Klicks **Aufgabe &quot;Vorlage kopieren&quot;**.
+1. Klicken Sie auf **Vorlagenaufgabe kopieren**.
 
    Die kopierten Vorlagenaufgaben befinden sich nun in der angegebenen Vorlage und sind entweder Unteraufgaben der ausgewählten übergeordneten Vorlagenaufgabe oder der letzten Vorlagenaufgaben in der Vorlage.
 
@@ -206,35 +206,35 @@ Das Feld Vorlage kopieren wird geöffnet.
 Sie können eine Vorlagenaufgabe entweder in eine andere Vorlagenaufgabe in derselben Vorlage oder in eine andere Vorlage verschieben. Sie können eine Vorlagenaufgabe oder mehrere Vorlagenaufgaben stapelweise verschieben.
 
 1. Markieren Sie die Vorlage, die die zu verschiebenden Vorlagenaufgaben enthält.
-1. Klicks **Vorlagenaufgaben** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **Vorlagenaufgaben** .
 1. Führen Sie einen der folgenden Schritte aus:
    * Klicken Sie auf den Namen einer Vorlagenaufgabe, um sie zu öffnen.
    * Wählen Sie eine oder mehrere Vorlagenaufgaben in der Liste aus.
-1. (Bedingt) Klicken Sie auf die **Mehr** Menü ![](assets/more-icon.png) oben in der Aufgabenliste der Vorlage oder rechts neben dem Namen der Vorlagenaufgabe, wenn Sie die Aufgabe geöffnet haben, klicken Sie auf **Verschieben nach** oder **Verschieben**, je nachdem, von wo aus Sie auf die Option Verschieben zugreifen.
+1. (Bedingt) Klicken Sie oben in der Vorlagenaufgabenliste auf das Menü **Mehr** ![](assets/more-icon.png) oder bei geöffneter Aufgabe rechts vom Vorlagenstammnamen, und klicken Sie dann auf **Verschieben nach** oder **Verschieben**, je nachdem, von wo aus Sie auf die Option Verschieben zugreifen.
 Das Feld Vorlage verschieben wird geöffnet.
    ![](assets/move-template-task-box-unshimmed.png)
 
-1. (Optional) Benennen Sie die Vorlagenaufgabe in der **Vorlagenname** -Feld.
+1. (Optional) Benennen Sie die Vorlagenaufgabe im Feld **Vorlagenstammname** um.
 
    >[!TIP]
    >
    >Dieses Feld ist abgeblendet und kann nicht bearbeitet werden, wenn Sie mehrere Vorlagenaufgaben in eine Liste verschieben möchten. Sie können den Mauszeiger über das Feld &quot;Vorlagenname&quot;bewegen und eine Liste aller ausgewählten Vorlagenaufgaben wird angezeigt.
 
-1. Geben Sie den Namen der **Zielvorlage** wo Sie die Vorlagenaufgabe in die **Zielvorlage auswählen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Geben Sie den Namen der **Zielvorlage** ein, in die Sie die Vorlagenaufgabe in das Feld **Zielvorlage auswählen** verschieben möchten, und wählen Sie sie dann aus, wenn sie in der Liste angezeigt wird.
 
    >[!TIP]
    >
    >Sie können auch mit der Eingabe der Referenznummer beginnen oder die Kennung der Vorlage eingeben. Auf diese Weise können Sie zwischen Vorlagen mit identischen Namen unterscheiden.
 
-1. (Bedingt) Klicken Sie auf **Zugriff anfordern** , um Zugriff auf die Vorlage anzufordern, wenn Sie keinen Zugriff auf die Zielvorlage haben.
+1. (Bedingt) Klicken Sie auf **Zugriffsanfrage** , um den Zugriff auf die Vorlage anzufordern, wenn Sie keinen Zugriff auf die Zielvorlage haben.
 1. (Bedingt) Verschieben Sie die Vorlagenaufgabe weiterhin in die ausgewählte Zielvorlage, ohne Zugriff anzufordern, wenn Sie Zugriff haben, um Vorlagenaufgaben zu einer der Vorlagenaufgaben in der Zielvorlage hinzuzufügen.
 
-1. Klicks **Optionen** Deaktivieren Sie dann im linken Bereich die VorlagenAufgabenattribute, die Sie nicht mit der Vorlagenaufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
+1. Klicken Sie im linken Bereich auf **Optionen** und deaktivieren Sie dann die VorlagenAufgabenattribute, die Sie nicht mit der Vorlagenaufgabe kopieren möchten. Alle Optionen sind standardmäßig ausgewählt.
 
    >[!TIP]
    >
    >* Der Abschnitt Optionen ist erst verfügbar, nachdem Sie eine Zielvorlage ausgewählt haben.
-   >* Auswahl aufheben **Alle auswählen** Deaktiviert alle Optionen.
+   >* Wenn Sie die Option **Alle auswählen** deaktivieren, werden alle Optionen deaktiviert.
 
    Deaktivieren Sie die Option aus den folgenden Optionen, um die Informationen nicht an die verschobene Vorlagenaufgabe zu übertragen. In der folgenden Tabelle wird beschrieben, was passiert, wenn die Optionen deaktiviert werden:
 
@@ -312,7 +312,7 @@ Das Feld Vorlage verschieben wird geöffnet.
    </table>
 
 
-1. (Optional) Klicken Sie auf **Übergeordnetes Element auswählen** Wählen Sie im linken Bereich die Vorlagenaufgabe in der Zielvorlage aus, die Sie zur übergeordneten Aufgabe der verschobenen Vorlage werden möchten.
+1. (Optional) Klicken Sie im linken Bereich auf **Übergeordnetes Element auswählen** und wählen Sie dann die Vorlagenaufgabe in der Zielvorlage aus, die Sie zum übergeordneten Element der verschobenen Vorlagenaufgabe werden möchten.
 
    >[!TIP]
    >
@@ -321,7 +321,7 @@ Das Feld Vorlage verschieben wird geöffnet.
    Wählen Sie ein übergeordnetes Element aus, indem Sie einen der folgenden Schritte ausführen:
 
    * Wählen Sie in der Aufgabenliste der Vorlage einen der übergeordneten Elemente im Vorlagenplan aus.
-   * Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und suchen Sie anhand des Namens nach einer übergeordneten Vorlagenaufgabe.
+   * Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und suchen Sie nach einer übergeordneten Vorlagenaufgabe anhand des Namens.
 
    Die Vorlagenaufgabe sollte in der Liste angezeigt werden.
 
@@ -329,6 +329,6 @@ Das Feld Vorlage verschieben wird geöffnet.
 
    Wenn Sie keine übergeordnete Vorlagenaufgabe auswählen, werden die Vorlagenaufgaben als Hauptvorlagenaufgaben und nicht als Unteraufgaben verschoben und am Ende der Vorlagenaufgabenliste auf der Zielvorlage platziert.
 
-1. Klicks **Vorlagenaufgabe verschieben**.
+1. Klicken Sie auf **Vorlagenaufgabe verschieben**.
 
    Die verschobenen Vorlagenaufgaben befinden sich nun in der angegebenen Vorlage und sind entweder Unteraufgaben der ausgewählten übergeordneten Vorlagenaufgabe oder der letzten Vorlagenaufgaben in der Vorlage.

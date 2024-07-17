@@ -19,8 +19,8 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Projekt erstellen](../../../manage-work/projects/create-projects/create-project.md)
+* [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md)
 * [Projekt anfordern](../../../manage-work/projects/create-projects/request-project.md)
 * [Erstellen eines Projekts mit einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md)
-* [Importieren eines Projekts aus einem Microsoft-Projekt](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
+* [Importieren eines Projekts aus Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
 * [Erstellen von Projekt-Grundlinien](../../../manage-work/projects/create-projects/create-baselines.md)

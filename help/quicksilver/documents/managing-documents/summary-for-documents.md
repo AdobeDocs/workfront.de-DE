@@ -51,12 +51,12 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Öffnen Sie die Zusammenfassungsansicht
 
-1. Navigieren Sie zu **Dokumente** und wählen Sie ein Element in der Liste aus.
-1. Klicken Sie auf **Symbol &quot;Zusammenfassung öffnen&quot;** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Markieren Sie im Bereich **Dokumente** ein Element in der Liste.
+1. Klicken Sie auf das Symbol **Zusammenfassung öffnen** ![](assets/qs-summary-in-new-toolbar-small.png).
 
    Nachdem Sie die Zusammenfassung geöffnet haben, bleibt sie beim Klicken auf andere Dokumente geöffnet und bleibt geöffnet, bis Sie sie manuell schließen.
 
@@ -64,9 +64,9 @@ Sie müssen über Folgendes verfügen:
 
 ## Details
 
-Im Bereich Details können Sie allgemeine Übersichtsinformationen anzeigen und mit benutzerdefinierten Formularen interagieren. Klicks **Details** oben im Abschnitt, um zur vollständigen Seite mit den Dokumentdetails zu gelangen.
+Im Bereich Details können Sie allgemeine Übersichtsinformationen anzeigen und mit benutzerdefinierten Formularen interagieren. Klicken Sie oben im Abschnitt auf **Details** , um zur vollständigen Seite mit den Dokumentdetails zu gelangen.
 
-* [Übersicht](#overview)
+* [Überblick](#overview)
 * [Benutzerdefinierte Formulare](#custom-forms)
 
 ![](assets/copy-of-doc-summary-details-section-350x404.png)
@@ -87,7 +87,7 @@ Verwenden Sie den Abschnitt &quot;Benutzerdefinierter Forms&quot;, um mit dem Do
 
 Im Abschnitt Updates können Sie die Aktualisierung lesen, die ein Benutzer am Dokument oder Testversand vorgenommen hat. Die Zusammenfassung zeigt die ersten beiden Kommentare. Weitere Informationen zu Aktualisierungen finden Sie unter [Kommentar zu einem Testversand](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![Abschnitt &quot;Aktualisierungen&quot;im Bereich &quot;Zusammenfassung&quot;](assets/summary-updates-section-new-comments.png)
+Abschnitt ![Aktualisierungen im Zusammenfassungsbereich](assets/summary-updates-section-new-comments.png)
 
 ## Genehmigungen
 
@@ -95,14 +95,14 @@ Verwenden Sie den Abschnitt Genehmigungen , um eine Dokumentgenehmigung anzuford
 
 Testversandvalidierungen müssen im Testversand-Workflow hinzugefügt werden. Weitere Informationen zu Genehmigungen finden Sie unter
 
-* [Validierung der Arbeit](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [Genehmigung der Arbeit](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Dokumentgenehmigungen anfordern](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versionen
 
-Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für ein bestimmtes Dokument erstellt wurden. Klicken Sie auf **Mehr Menü** nach
+Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für ein bestimmtes Dokument erstellt wurden. Klicken Sie auf das Menü **Mehr** , um
 
 * Testversand öffnen
 * Testversand oder Dokument herunterladen

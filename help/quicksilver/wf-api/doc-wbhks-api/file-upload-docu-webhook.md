@@ -10,8 +10,8 @@ role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 3%
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
@@ -61,7 +61,7 @@ POST /uploadInit
  </tbody> 
 </table>
 
-## Antwort
+## Reaktion
 
 Die Metadaten für die Datei, wie vom Endpunkt /metadata definiert. Dazu gehört die Dokument-ID, die vom Provider verwendet wird.
 
@@ -86,11 +86,11 @@ PUT /upload
 | id  |  Die Dokument-ID, die gerade erstellt wurde. |
 
 
-**Anfrageinhalt**
+**Anforderungstext**
 
 Die rohen Inhalts-Bytes für das Dokument.
 
-**Reaktion**
+**Antwort**
 
 ```
 {
