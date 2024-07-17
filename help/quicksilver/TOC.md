@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
+source-git-commit: dff543fcd657ba5208e1ef1110502175155d2040
 workflow-type: tm+mt
-source-wordcount: '14439'
+source-wordcount: '14438'
 ht-degree: 1%
 
 ---
@@ -490,6 +490,9 @@ ht-degree: 1%
          * [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [Umgebungsförderung mit der API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [Häufig gestellte Fragen zur Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+         * [Fehlerbehebung bei der Umgebungswerbung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
    * Benutzerverwaltung {#add-users}
       * [Benutzerverwaltung: Artikelindex](administration-and-setup/add-users/add-users.md)
       * Erstellen und Verwalten von Benutzenden {#create-manage-users}
@@ -2207,7 +2210,6 @@ ht-degree: 1%
       * [Übersicht über das Adobe Workfront Fusion-Szenario](workfront-fusion/scenarios/scenario-overview.md)
       * [Erstellen eines Szenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/create-a-scenario.md)
       * [Der Szenario-Editor in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-editor.md)
-      * [Grundlegende Szenario-Einstellungen in Adobe Workfront Fusion](workfront-fusion/scenarios/basic-scenario-settings.md)
       * [Das Bedienfeld &quot;Szenario-Einstellungen&quot;in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-settings-panel.md)
       * [Szenariodetails in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-detail.md)
       * [Ablauf der Szenario-Ausführung in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-flow.md)
