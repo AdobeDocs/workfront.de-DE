@@ -6,9 +6,9 @@ description: Das [!DNL Adobe Workfront] Glossar listet häufig verwendete Begrif
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '20304'
+source-wordcount: '20310'
 ht-degree: 0%
 
 ---
@@ -1531,7 +1531,7 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   </tr> 
   <tr> 
    <td>[!UICONTROL Geplantes Abschlussdatum]</td> 
-   <td> <p>Sie können das geplante [!UICONTROL Abschlussdatum] manuell auf ein Datum Ihrer Wahl festlegen. Wenn Sie das geplante Abschlussdatum nicht festlegen, wird es von [!DNL Workfront] automatisch festgelegt. Wenn dies automatisch festgelegt wird, lautet das geplante Abschlussdatum [!UICONTROL]: [!UICONTROL Geplantes Startdatum] + [!UICONTROL Dauer].</p> <p>Weitere Informationen finden Sie in den folgenden Artikeln:</p> 
+   <td> <p>Sie können das geplante [!UICONTROL Abschlussdatum] einer Aufgabe, eines Projekts oder einer Ausgabe manuell auf ein Datum Ihrer Wahl festlegen. Wenn Sie das geplante Abschlussdatum nicht festlegen, wird es von [!DNL Workfront] automatisch festgelegt. Wenn dies automatisch festgelegt wird, lautet das geplante Abschlussdatum [!UICONTROL]: [!UICONTROL Geplantes Startdatum] + [!UICONTROL Dauer].</p> <p>Weitere Informationen finden Sie in den folgenden Artikeln:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Überblick über die Aufgabe [!UICONTROL Geplantes Abschlussdatum]</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Legen Sie das Projekt fest [!UICONTROL Geplantes Abschlussdatum]</a> </p> </li> 

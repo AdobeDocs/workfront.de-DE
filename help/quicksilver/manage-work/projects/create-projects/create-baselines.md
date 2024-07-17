@@ -6,9 +6,9 @@ description: Eine Grundlinie ist ein Projekt-Schnappschuss, der wichtige Informa
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ drafted for P&P:
 </table>
 -->
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -68,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
     <td><p>Neu: Standard</p>
         <p>oder</p>
         <p>Aktuell: Plan </p> </td> 
@@ -84,7 +82,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -115,7 +113,7 @@ Sie können eine Grundlinie wie folgt erstellen:
 
 So erstellen Sie eine Grundlinie:
 
-1. Navigieren Sie zu einem Projekt.
+1. Wechseln Sie zu einem Projekt.
 1. Klicken Sie im linken Bereich auf **Grundlinien**.
 
    Oder

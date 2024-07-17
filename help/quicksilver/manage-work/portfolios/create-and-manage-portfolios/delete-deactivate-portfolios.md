@@ -6,9 +6,9 @@ description: Portfolios sind Sammlungen von Projekten oder Programmen in Adobe W
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -77,14 +77,16 @@ Wenn Sie ein Portfolio deaktivieren, können Sie weiterhin über den Bereich [!U
 >
 >Je nachdem, wie Ihr [!DNL Workfront]- oder Gruppenadministrator Ihre Layoutvorlage konfiguriert, wird der Bereich [!UICONTROL Portfolios] möglicherweise nicht im [!UICONTROL Hauptmenü] angezeigt. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
+{{step1-click-main-menu}}
+
 1. Klicken Sie auf **[!UICONTROL Portfolio]** .
 1. Klicken Sie auf den Namen des Portfolios.
 1. Klicken Sie auf das Menü **Mehr** rechts neben dem Portfolionamen und dann auf **[!UICONTROL Portfolio deaktivieren]**.![](assets/more-icon.png)
 
 ## Löschen eines Portfolios
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
+{{step1-click-main-menu}}
+
 1. Klicken Sie auf **[!UICONTROL Portfolio]** .
 1. Wählen Sie das Portfolio aus und klicken Sie dann auf **[!UICONTROL Löschen]** &#x200B; dem Symbol [!UICONTROL Löschen] ![](assets/delete.png).
-1. Klicken Sie im angezeigten Feld auf **[!UICONTROL Ja, löschen Sie es]**, um zu bestätigen.
+1. Klicken Sie auf **[!UICONTROL Ja, löschen Sie sie]**, um sie zu bestätigen.

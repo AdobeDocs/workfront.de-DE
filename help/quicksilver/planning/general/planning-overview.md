@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1989'
 ht-degree: 2%
 
 ---
@@ -287,13 +287,18 @@ So suchen Sie die Workfront-Planung:
 
 1. Melden Sie sich bei Adobe Workfront an.
 
-1. Klicken Sie oben rechts auf das **Hauptmenü** ![](assets/main-menu-workfront.png) oder klicken Sie auf das **Hauptmenü** ![](assets/main-menu-shell.png) in der oberen linken Ecke, sofern es verfügbar ist.
+{{step1-click-main-menu}}
 
 1. Klicken Sie auf **Planung** ![](assets/planning-icon.png).
 
    Die Landingpage für die Workfront-Planung wird geöffnet.
 
    ![](assets/planning-landing-page-admin.png)
+
+   >[!TIP]
+   >
+   >    Ihr Workfront-Administrator kann den Planungsbereich zur Option Landingpage auswählen in Ihrer Layoutvorlage hinzufügen, damit Sie die Planung öffnen können, sobald Sie sich bei Workfront anmelden. Weitere Informationen finden Sie unter [Landingpage mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+
 
 1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
    * **Meine Arbeitsbereiche**: Zeigt die von Ihnen erstellten Arbeitsbereiche an.

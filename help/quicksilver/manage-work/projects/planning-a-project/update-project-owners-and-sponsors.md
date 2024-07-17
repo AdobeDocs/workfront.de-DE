@@ -6,14 +6,17 @@ description: Wenn Sie ein Projekt in Adobe Workfront erstellen, werden Sie autom
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
+
 # Projekteigentümer und -sponsoren aktualisieren
+
+<!--Audited: 07/2024-->
 
 Wenn Sie ein Projekt in Adobe Workfront erstellen, werden Sie automatisch als Projekteigentümer des Projekts festgelegt. Sie können dieses Feld mit einem anderen Benutzer aktualisieren. Sie können auch das Feld Projektsponsor eines Projekts aktualisieren.
 
@@ -60,34 +63,35 @@ Weitere Informationen zu Projekteigentümern und Sponsoren finden Sie unter [Üb
 </table>
 -->
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Neu: Standard</p> 
+   <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für ein Projekt bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für ein Projekt bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aktualisieren des Projekteigentümers eines Projekts
 
@@ -105,7 +109,7 @@ Wenn Sie einen Benutzer als Projekteigentümer eines Projekts hinzufügen, gewä
 
    Der Projekteigentümer wird im Projektheader und im Bereich Projektdetails aktualisiert.
 
-![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Aktualisieren des Projektsponsors eines Projekts
 

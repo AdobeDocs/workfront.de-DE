@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '3581'
+source-wordcount: '3553'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Sie können die Zeit auf die folgenden Elemente im Timesheet protokollieren:
 
 So protokollieren Sie die Zeit auf einem Timesheet:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
+{{step1-click-main-menu}}
 
 1. Klicken Sie auf [!UICONTROL **Timesheets**]. Ihr aktuelles Timesheet wird standardmäßig angezeigt.
    ![Zeitblatt](assets/timesheet-redesigned-nwe.png)

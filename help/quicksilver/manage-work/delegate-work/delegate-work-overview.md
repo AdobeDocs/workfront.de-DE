@@ -4,10 +4,10 @@ content-type: overview
 navigation-topic: delegate-work
 title: Delegieren von Arbeiten - Übersicht
 description: Wenn Sie planen, für kurze Zeit abwesend zu sein, können Sie Ihre Arbeit vorübergehend an andere Benutzer delegieren, um sicherzustellen, dass Ihre Abwesenheit nicht zu einem Hindernis für die Fertigstellung der Arbeit wird.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 1%

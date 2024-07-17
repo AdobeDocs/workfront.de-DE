@@ -3,10 +3,10 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delegieren von Aufgaben und Problemen
 description: Sie können die Arbeit, der Sie zugewiesen sind, während Sie nicht im Büro sind, vorübergehend delegieren. In diesem Artikel wird beschrieben, wie Aufgaben und Problemzuweisungen delegiert werden.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 0%
