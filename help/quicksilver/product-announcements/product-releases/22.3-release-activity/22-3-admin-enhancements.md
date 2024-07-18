@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 Wir unterstützen Sie weiterhin dabei, benutzerdefinierte Formulare mit neuen Asset-Widgets, die Sie hinzufügen können, visueller und informativer zu gestalten, z. B. mit Bildern und Videos. Jetzt können Sie einem benutzerdefinierten Formular einen Link zu einer PDF-Datei hinzufügen. Wenn das Formular an ein Objekt angehängt wird, können Benutzer, die mit dem Objekt arbeiten, die PDF innerhalb des Formulars anzeigen und damit interagieren.
 
-Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## Der Berechnungseditor für benutzerdefinierte Formularfelder zeigt Fehlerinformationen an
 
 >[!NOTE]
@@ -63,8 +61,6 @@ Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten von Bildern 
 >Diese Funktion ist vorübergehend nicht verfügbar. Diese Seite wird aktualisiert, sobald die Funktion verfügbar ist.
 
 Die Bearbeitung von Berechnungen für benutzerdefinierte Felder ist jetzt einfacher, da hilfreiche Fehlerinformationen direkt in der Berechnung angegeben werden. Während Sie ein berechnetes Feld in einem benutzerdefinierten Formular erstellen, werden die Fehler rosa hervorgehoben. Wenn Sie den Mauszeiger über den markierten Teil bewegen, wird eine QuickInfo angezeigt, in der beschrieben wird, was das Problem ist.
-
-Weitere Informationen finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Anpassung von Projektkopfzeilen
 
@@ -111,6 +107,4 @@ Weitere Informationen finden Sie unter [Deaktivieren oder Reaktivieren einer Gru
 Jetzt können Sie einem benutzerdefinierten Formular einen neuen Modus für Informationen, visuelles Interesse und Kreativität bereitstellen, indem Sie ein Video hinzufügen. Wenn das Formular an ein Objekt angehängt wird, können Benutzer, die mit dem Objekt arbeiten, das Video jederzeit wiedergeben.
 
 Zuvor konnten Sie einem benutzerdefinierten Formular nur textbasierte Felder und Bilder hinzufügen.
-
-Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines Bild- oder Video-Asset-Widgets in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../admini
 
 Der Bereich &quot;Benutzerdefinierte Forms&quot;hat ein neues Erscheinungsbild, das ihn mit vielen anderen Bereichen des neuen Workfront-Erlebnisses auf den neuesten Stand bringt.
 
-Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 ## Viele Verbesserungen beim Erstellen von berechneten benutzerdefinierten Feldern
 
 Das Erstellen berechneter benutzerdefinierter Felder ist jetzt mit diesen Hinzufügungen im neuen Berechnungs-Editor viel einfacher:
@@ -70,8 +68,6 @@ Das Erstellen berechneter benutzerdefinierter Felder ist jetzt mit diesen Hinzuf
 * Sie können das Ergebnis Ihrer Berechnung mithilfe eines vorhandenen Objekts in der Vorschau anzeigen, ohne den Berechnungs-Editor verlassen zu müssen.
 
 Außerdem können Sie im anpassbaren Text &quot;Anweisungen&quot;für ein berechnetes benutzerdefiniertes Feld die Formel des Felds ein- oder ausblenden. Dies ist nützlich, wenn Sie glauben, dass die Benutzer, die das benutzerdefinierte Formular ausfüllen, diese Informationen nicht benötigen.
-
-Weitere Informationen zum Erstellen eines berechneten benutzerdefinierten Felds finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Audit-Protokollinformationen zu Status und Unternehmen anzeigen
 
@@ -108,8 +104,6 @@ Weitere Informationen finden Sie unter [Verwalten von Unternehmensmitgliedschaft
 
 Wir machen es weiterhin einfacher, ein berechnetes Feld in einem benutzerdefinierten Formular zu erstellen. Wenn Sie nun auf Maximieren klicken, um den neuen Berechnungs-Editor zu öffnen, können Sie die benötigten Ausdrücke und Felder suchen und auswählen.
 
-Weitere Informationen finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
 ## Gruppen können ihre eigenen Voreinstellungen für das Zeitblatt und die Stunde konfigurieren
 
 >[!NOTE]
@@ -144,8 +138,6 @@ Weitere Informationen finden Sie unter [Eine Gruppe löschen](../../../administr
 ## Größerer Bereich zum Erstellen berechneter Felder
 
 Jetzt ist es einfacher, komplexe berechnete Felder in einem benutzerdefinierten Formular zu erstellen. Klicken Sie auf die neue Schaltfläche Maximieren , um ein großes Bearbeitungsfenster zum Erstellen Ihrer Berechnung zu öffnen. Wenn Sie fertig sind, klicken Sie auf Minimieren , um mit der Arbeit an Ihrem benutzerdefinierten Formular fortzufahren.
-
-Weitere Informationen finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Hinzufügen benutzerdefinierter Formulare zu Gruppen
 

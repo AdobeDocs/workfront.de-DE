@@ -7,9 +7,9 @@ description: Sie können einen Link zu einer internen benutzerdefinierten URL an
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 ## Erstellen Sie das berechnete benutzerdefinierte Feld &quot;Benutzerdefinierte URL&quot;
 
-Informationen zum Erstellen eines berechneten benutzerdefinierten Felds finden Sie im Artikel [Berechnete Daten zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Informationen zum Erstellen eines berechneten benutzerdefinierten Felds finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Wenn Sie Zugriff haben, um ein benutzerdefiniertes Formular zu erstellen, können Sie ein berechnetes benutzerdefiniertes Feld für Aufgaben namens &quot;Benutzerdefinierte URL&quot;erstellen. Dieses Feld verknüpft direkt mit der Unterregisterkarte **Übersicht** auf der Registerkarte **Aufgabendetails** .
 

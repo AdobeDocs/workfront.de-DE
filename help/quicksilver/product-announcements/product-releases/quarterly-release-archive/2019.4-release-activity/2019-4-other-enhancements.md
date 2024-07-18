@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ Eine Liste aller Änderungen, die in Version 2019.4 vorgenommen wurden, finden S
      <strong>Zusätzliche Objekttypen, die für die Felder vom Typ voraus in einem benutzerdefinierten Formular verfügbar sind</strong> 
      <p>Wenn Sie jetzt ein benutzerdefiniertes "TypeAhead"-Feld erstellen, können Sie die folgenden Objekttypen mit dem Feld verknüpfen: Benutzer, Firma, Gruppe, Auftragsrolle, Portfolio, Programm, Projekt und Vorlage.</p> 
      <p>Zuvor konnten Sie nur den User-Objekttyp mit einem benutzerdefinierten Feld "TypeAhead"verknüpfen.</p> 
-     <p>Weitere Informationen finden Sie im Abschnitt <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a> im Artikel <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -75,7 +74,6 @@ Eine Liste aller Änderungen, die in Version 2019.4 vorgenommen wurden, finden S
      <p>Wenn Sie beispielsweise ein Kontrollkästchen-Feld erstellt haben, können Sie es in ein Dropdown-Feld oder ein Optionsfeld ändern. Diese drei Feldanzeigetypen sind austauschbar.</p> 
      <p>Wenn Sie ein einzeiliges Textfeld erstellt haben, können Sie es in ein Absatztext -Feld ändern. Diese beiden Feldanzeigetypen sind austauschbar.</p> 
      <p>Bisher mussten Sie zum Ändern des Anzeigetyps eines benutzerdefinierten Felds ein neues Feld erstellen und das alte löschen. Dies erforderte die Übertragung von Daten, die häufig zeitaufwendig waren.</p> 
-     <p>Weitere Informationen finden Sie unter <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a> im Artikel <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a></p> 
     </div> </td> 
   </tr> 
   <tr> 

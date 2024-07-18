@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2422'
 ht-degree: 1%
 
 ---
@@ -176,8 +176,8 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
      <li> <p><strong>coreAction</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Aufgaben bei der Verwaltung der Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Arbeitslastausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
@@ -247,8 +247,8 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benöti
      <li> <p style="font-weight: bold;">action</p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Aufgaben bei der Verwaltung der Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Arbeitslastausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -270,8 +270,8 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
      <li><strong>coreAction</strong> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Aufgaben bei der Verwaltung der Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Arbeitslastausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
@@ -618,7 +618,7 @@ Ein Parameter -Objekt ist ein benutzerdefiniertes Feld.
 
 Die Ressource Parameter hat das Flag SHARABLE hinzugefügt.
 
-Weitere Informationen zu benutzerdefinierten Feldern finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) in [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -725,9 +725,8 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
      <li><strong>requestorCoreAction</strong> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Aufgaben bei der Verwaltung der Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Arbeitslastausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets</a></p> </li> 
-      </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li>
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 

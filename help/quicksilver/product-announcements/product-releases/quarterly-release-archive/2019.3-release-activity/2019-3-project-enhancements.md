@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Wenn Sie beispielsweise ein Kontrollkästchen-Feld erstellt haben, können Sie e
 Wenn Sie ein einzeiliges Textfeld erstellt haben, können Sie es in ein Absatztext -Feld ändern. Diese beiden Feldanzeigetypen sind austauschbar.
 
 Bisher mussten Sie zum Ändern des Anzeigetyps eines benutzerdefinierten Felds ein neues Feld erstellen und das alte löschen. Dies erforderte die Übertragung von Daten, die häufig zeitaufwendig waren.
-
-Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) im Artikel [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ Weitere Informationen zur Zeitdauer finden Sie unter [Persönliche Zeit von ](..
 Wir haben einen neuen Feldtyp im benutzerdefinierten Formular-Builder mit dem Namen &quot;TypeAhead&quot;erstellt. In diesem Feld können Sie Felder hinzufügen, die Objekte zu Ihren benutzerdefinierten Formularen darstellen. Derzeit ist das User-Objekt mit &quot;TypeAhead&quot;aktiviert, und andere Objekte werden in Zukunft verfügbar sein.
 
 Zuvor mussten Administratoren Benutzer manuell als einzelne Optionen in Dropdown-Menüs für benutzerdefinierte Formulare verwalten.
-
-Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >

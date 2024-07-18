@@ -7,9 +7,9 @@ description: Sie können einen Bericht nur dann anhand eines benutzerdefinierten
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Sie können kein Diagramm in einem Bericht erstellen, indem Sie auf ein benutzer
 Um ein berechnetes Feld zu erstellen, das auf ein benutzerdefiniertes Mehrfachauswahlfeld verweist, müssen folgende Voraussetzungen erfüllt sein:
 
 * Ein benutzerdefiniertes Feld mit mehreren Auswahlen in einem benutzerdefinierten Formular.\
-  Informationen zum Erstellen benutzerdefinierter Formulare und zum Hinzufügen benutzerdefinierter Felder finden Sie im Artikel [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Informationen zum Erstellen benutzerdefinierter Formulare und zum Hinzufügen benutzerdefinierter Felder finden Sie im Artikel [Formular mit dem Formularentwickler entwerfen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Ein benutzerdefiniertes Formular mit dem benutzerdefinierten Mehrfachauswahlfeld, das an Objekte angehängt ist.
 * Werte für das benutzerdefinierte Mehrfachauswahlfeld für jedes Objekt.
@@ -95,7 +95,7 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
 1. Erstellen Sie ein benutzerdefiniertes Formular oder bearbeiten Sie ein vorhandenes.
 
-   Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Wählen Sie das Objekt oder die Objekte aus, die Sie für das benutzerdefinierte Formular verwenden möchten.
 1. Klicken Sie auf **Feld hinzufügen** und dann auf **Berechnet** , um das benutzerdefinierte Feld mit Mehrfachauswahl zum Formular hinzuzufügen.

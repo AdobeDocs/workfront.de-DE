@@ -2,9 +2,9 @@
 title: Anzeigenlogik hinzufügen und Logik zu einem benutzerdefinierten Formular überspringen
 description: Anzeigenlogik hinzufügen und Logik zu einem benutzerdefinierten Formular überspringen
 draft: Probably
-source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ Die Feldtypen mit Mehrfachauswahl sind Dropdown, Kontrollkästchen und Optionsfe
   Dies wäre besonders nützlich, wenn Sie viele weitere Felder zu Logos, Website-Updates und Broschüren hinzufügen, die dieser Benutzer nicht sehen muss.
 Sie können eine Logikregel zum Überspringen nur auf ein benutzerdefiniertes Feld anwenden, nicht auf ein Widget oder einen Abschnitt.
 
-Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Zugriffsanforderungen
 

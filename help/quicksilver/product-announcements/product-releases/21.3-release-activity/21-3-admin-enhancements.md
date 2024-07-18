@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,3 @@ Weitere Informationen finden Sie unter [Verwalten von Gruppenstatus](../../../ad
 ## Neu für Administratoren: Benutzerdefiniertes Formular für den Rechnungsdatensatz erstellen
 
 Jetzt können Sie verbessern, wie Benutzer Rechnungsinformationen erfassen, indem Sie ein benutzerdefiniertes Formular für Rechnungsdatensätze erstellen. Benutzer können das benutzerdefinierte Formular an einen Rechnungsdatensatz anhängen, es ausfüllen und Berichte ausführen, die die Informationen im Formular enthalten.
-
-Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-Weitere Informationen zum Anhängen eines benutzerdefinierten Rechnungsdatensatzformulars an ein Projekt finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Mit dem neuen Formularentwickler haben wir die Möglichkeit hinzugefügt,
 
 * **Ändern der Größe für beschreibende Texte**: Sie können jetzt beschreibende Textfelder kleine, mittlere oder große Größen zuweisen. Sie können sie auch für dieselbe Zeile mit anderen Feldern verwenden. <span style="color: #ff0000;"> Das Ändern der Größe für den beschreibenden Text wurde zeitweise verzögert, kommt aber bald an.</span></li>
 
-Weitere Informationen finden Sie unter [Übersicht über den Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über benutzerdefinierte Formulare](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 [Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3416586/){target=_blank}
 

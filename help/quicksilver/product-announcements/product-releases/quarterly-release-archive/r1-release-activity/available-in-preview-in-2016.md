@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,6 @@ Weitere Informationen zu Dashboards finden Sie unter [Dashboard erstellen](../..
 Sie können jetzt steuern, wer Zugriff auf ein benutzerdefiniertes Formular hat, indem Sie einzelnen Benutzern, Teams, Rollen, Gruppen oder Unternehmen Zugriff gewähren. 
 
 Vor dieser Änderung konnten Sie nur Gruppen Zugriff gewähren.
-
-Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 ## Integration mit Adobe Creative Cloud
 

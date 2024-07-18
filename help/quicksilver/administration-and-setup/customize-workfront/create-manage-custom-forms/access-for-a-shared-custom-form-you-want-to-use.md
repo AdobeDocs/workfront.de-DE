@@ -3,24 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: access,shared,custom,form
 navigation-topic: create-and-manage-custom-forms
-title: Zugriff auf ein freigegebenes benutzerdefiniertes Feld, das Sie verwenden möchten
+title: Zugriff auf ein freigegebenes benutzerdefiniertes Feld
 description: Wenn ein Benutzer ein benutzerdefiniertes Feld mit dem Zugriff auf "Anzeigen"oder "Verwalten"teilt, kann er mehrere andere Einstellungen konfigurieren, um diesen Zugriff weiter zu definieren. Wenn Sie ein Empfänger des Felds sind, wirken sich diese Einstellungen auf das Feld aus. Wenn Sie das Feld anzeigen, sehen Sie möglicherweise Folgendes.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
 
-# Zugriff auf ein freigegebenes benutzerdefiniertes Feld, das Sie verwenden möchten
+# Zugriff auf ein freigegebenes benutzerdefiniertes Feld
 
 Wenn ein Benutzer ein benutzerdefiniertes Feld mit dem Zugriff auf &quot;Anzeigen&quot;oder &quot;Verwalten&quot;teilt, kann er mehrere andere Einstellungen konfigurieren, um diesen Zugriff weiter zu definieren. Wenn Sie ein Empfänger des Felds sind, wirken sich diese Einstellungen auf das Feld aus. Wenn Sie das Feld anzeigen, sehen Sie möglicherweise Folgendes.
 
-Weitere Informationen dazu, wie Benutzer Freigabeeinstellungen beim Freigeben eines benutzerdefinierten Formulars konfigurieren, finden Sie unter [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Weitere Informationen dazu, wie Benutzer Freigabeeinstellungen beim Freigeben eines benutzerdefinierten Formulars konfigurieren, finden Sie unter [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets in einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 <table style="table-layout:auto"> 
  <col> 

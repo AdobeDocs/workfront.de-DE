@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 1670edf153e57152e51adcfbda052eb74541d931
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 1%
@@ -72,7 +72,7 @@ Bevor Sie beginnen, müssen Sie über Folgendes verfügen:
 
    Sie benötigen den richtigen Zugriff, um ein benutzerdefiniertes Formular anzuhängen und die Informationen im Formular zu bearbeiten.
 
-Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Weitere Informationen zum Anhängen von Formularen an Objekte finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -102,7 +102,7 @@ Das Exportieren von Informationen aus dem Bereich Details eines Objekts ist für
    >   * Wenn Ihre Gruppe oder Ihr Workfront-Administrator die Auswahl aller Felder im Bereich Überblick aufhebt und dem Objekt benutzerdefinierte Formulare angehängt sind, wird der Abschnitt Übersicht nicht angezeigt.
    >   * Wenn Ihre Gruppe oder Ihr Workfront-Administrator die Auswahl aller Felder im Bereich Übersicht aufhebt und dem Objekt keine benutzerdefinierten Formulare angehängt sind, ist das Dropdown-Menü Exportieren nicht sichtbar.
    >   * Wenn an das Objekt keine benutzerdefinierten Formulare angehängt sind, können Sie nur den Übersichtsbereich exportieren.
-   >   * Benutzerdefinierte Felder, die hinter der Logik liegen und im Formular nicht sichtbar sind, werden nicht exportiert. Weitere Informationen zum Hinzufügen von Logik zu einem benutzerdefinierten Formular finden Sie unter [Hinzufügen der Anzeigerlogik und Überspringen der Logik zu einem benutzerdefinierten Formular](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
+   >   * Benutzerdefinierte Felder, die hinter der Logik liegen und im Formular nicht sichtbar sind, werden nicht exportiert. Weitere Informationen zum Hinzufügen von Logik zu einem benutzerdefinierten Formular finden Sie unter [Hinzufügen der Anzeigerlogik und Überspringen der Logik zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
    >   
    >
 

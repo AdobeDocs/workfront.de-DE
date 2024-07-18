@@ -6,7 +6,7 @@ description: Sie können die Reihenfolge aktualisieren, in der die an ein Objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 
 ## Voraussetzungen
 
-* Ihr Workfront-Administrator oder ein Planbenutzer mit Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Ihr Workfront-Administrator oder ein Planbenutzer mit Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Sie müssen benutzerdefinierte Formulare an ein Objekt anhängen.
 
   Informationen zum Anwenden benutzerdefinierter Formulare auf ein Objekt finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -92,7 +92,7 @@ Möglicherweise wird dasselbe Feld in mehreren benutzerdefinierten Formularen an
 
   Sie können für dieselben Felder in verschiedenen Formularen, die an dasselbe Objekt angehängt sind, keine unterschiedlichen Werte haben.
 
-* Wenn Sie für zwei verschiedene Objekte dieselben berechneten Felder haben, müssen deren Berechnungen identisch sein, um Fehler zu vermeiden. Weitere Informationen zum Hinzufügen berechneter Felder zu benutzerdefinierten Formularen einschließlich mehrerer Formulare finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) .
+* Wenn Sie für zwei verschiedene Objekte dieselben berechneten Felder haben, müssen deren Berechnungen identisch sein, um Fehler zu vermeiden. Weitere Informationen zum Hinzufügen berechneter Felder zu benutzerdefinierten Formularen einschließlich mehrerer Formulare finden Sie unter [Hinzufügen berechneter Felder zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 ## Verwalten mehrerer benutzerdefinierter Formulare bei der Massenbearbeitung von Objekten
 

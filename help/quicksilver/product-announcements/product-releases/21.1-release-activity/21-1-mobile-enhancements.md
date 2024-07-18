@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Wir haben der mobilen Workfront-App die Breadcrumb-Navigation hinzugefügt. Jetz
 ## Rich-Text wird in benutzerdefinierten Formularen in der Workfront-App unterstützt
 
 Sie können jetzt Rich-Text-Formatierungen in benutzerdefinierten Formulartextfeldern in der mobilen Workfront-App verwenden.
-
-Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars mit Textfeldern finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## SSO-Benutzer können sich jetzt mit der Face ID oder der Fingerabdruck-Technologie erneut bei der Workfront-App anmelden
 

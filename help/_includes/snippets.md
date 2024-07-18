@@ -1,7 +1,7 @@
 ---
-source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
+source-git-commit: 56fdec48612520012e606e0906cf3ac05fa27e37
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2457'
 ht-degree: 1%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Mit der kommenden Version vom 15. Juli (Version 24.7) ist der Formularentwickler allgemein verfügbar und wird zum Standarderlebnis beim Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront. Der alte Formular-Builder ist nicht mehr verfügbar. Es wird empfohlen, jetzt zum Formularentwickler zu wechseln und dessen Funktionen zu nutzen.
+>Der alte Formular-Builder ist ab Version 24.7 vom 18. Juli 2024 nicht mehr verfügbar. Der Formularentwickler ist jetzt das Standarderlebnis zum Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront.
 >
 >Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
->
->Der alte Formular-Builder wurde am 19. Juni 2024 aus der Vorschau-Umgebung entfernt und wird mit der Version 24.7 im Juli aus der Produktionsumgebung entfernt.
 
 ## Verknüpfen der rechten Gruppe mit dem Team {#right-group-team}
 

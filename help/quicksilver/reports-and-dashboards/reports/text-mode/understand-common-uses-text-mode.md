@@ -6,7 +6,7 @@ description: Übersicht über die häufigsten Verwendungen für den Textmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -58,9 +58,9 @@ Sie können den Textmodus verwenden, wenn Sie Folgendes in Workfront erreichen m
 
 Sie können den Textmodus verwenden, um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen.
 
-Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Weitere Informationen zum Erstellen eines berechneten benutzerdefinierten Felds im Textmodus finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Weitere Informationen zum Erstellen eines berechneten benutzerdefinierten Felds im Textmodus finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Sie können beispielsweise ein berechnetes benutzerdefiniertes Feld hinzufügen, das einen Uhrzeit- und Datumsstempel des Zeitpunkts anzeigt, zu dem ein Element als In Bearbeitung markiert wurde. Sie können diese Berechnung für andere Status verwenden.
 

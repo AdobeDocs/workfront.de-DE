@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 7%
+source-wordcount: '366'
+ht-degree: 11%
 
 ---
 
@@ -29,10 +29,11 @@ Sie können beispielsweise ein benutzerdefiniertes Formular mit dem Namen &quot;
 
 ## Erstellen eines benutzerdefinierten Formulars
 
-Es gibt zwei Optionen zum Erstellen eines benutzerdefinierten Formulars in [!DNL Workfront]. Sie können den alten benutzerdefinierten Formular-Builder oder den neuen Formularentwickler verwenden:
+Der Formularentwickler verfügt über einen Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können. Außerdem können Sie Felder in die Abschnitte ziehen, während Sie Ihr Formular entwerfen.
 
-* [Alter benutzerdefinierter Formular-Builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Form Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+![Beispielformulardesigner](assets/form-designer-example.png)
 
 ## Benutzerdefinierte Felder und Widgets
 
@@ -42,15 +43,17 @@ In einem benutzerdefinierten Formular können Sie zusätzliche Felder erstellen,
 
 Sie können die folgenden Typen von benutzerdefinierten Feldern zu einem benutzerdefinierten Formular in Workfront hinzufügen:
 
-* Einzelzeilentext oder Einzelzeilentext im Formularentwickler
-* Absatztext-Feld oder Absatztext im Formularentwickler
-* Textfeld mit Formatierung oder Text mit Formatierung im Formularentwickler
+* Einzeiliger Text
+* Text des Absatzes
+* Text mit Formatierung
 * Dropdown
-* Externe Suche - nur im Formularentwickler verfügbar
+* Mehrfachauswahl-Dropdown
+* Externes Nachschlagen
+* Natives Feld
 * Typeahead
 * Berechnet
-* Datums- oder Datumsfeld im Formularentwickler
-* Kontrollkästchen
+* Datumsfeld
+* Kontrollkästchen-Gruppe
 * Optionsschaltflächen
 * Beschreibender Text
 * Abschnittsumbruch
@@ -58,6 +61,10 @@ Sie können die folgenden Typen von benutzerdefinierten Feldern zu einem benutze
 * Bild
 * PDF
 * Video
+
+>[!NOTE]
+>
+>Um Feldänderungen in Update-Feeds zu verfolgen, gehen Sie zu Einrichtung > Benutzeroberfläche > Feeds aktualisieren. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 ## Objekte, an die Benutzer ein benutzerdefiniertes Formular anhängen können
 
@@ -81,5 +88,4 @@ Benutzer können benutzerdefinierte Formulare an die folgenden Objekttypen anhä
 Weitere Informationen zum Anhängen von benutzerdefinierten Formularen an Objekte finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 Informationen dazu, was mit benutzerdefinierten Formularen beim Konvertieren eines Objekts geschieht, finden Sie unter [Übertragen benutzerdefinierter Formulardaten beim Konvertieren eines Objekts](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
-
 

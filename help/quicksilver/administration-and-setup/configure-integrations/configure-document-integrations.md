@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -216,7 +216,7 @@ Informationen werden nur einseitig zugeordnet, von [!DNL Workfront] zu [!DNL Wor
 Sie können dasselbe [!DNL Workfront] -Feld verschiedenen [!DNL Workfront DAM] -Feldern zuordnen, Sie können jedoch nicht dasselbe [!DNL Workfront DAM] -Feld für mehrere [!DNL Workfront] -Felder verwenden.
 
 Wenn Sie mehrere [!DNL Workfront] -Felder konfigurieren müssen, um in ein [!DNL Workfront DAM] -Feld zu exportieren, erstellen Sie zunächst ein berechnetes benutzerdefiniertes Feld in [!DNL Workfront], um alle individuellen benutzerdefinierten Felder eines Objekts anzuzeigen. Ordnen Sie dann das berechnete [!DNL Workfront] -Feld einem [!DNL Workfront DAM] -Feld zu.\
-Weitere Informationen zu berechneten benutzerdefinierten Feldern finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Weitere Informationen zu berechneten benutzerdefinierten Feldern finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Die Zuordnung wirkt sich auf alle Dokumente aus, die von einem Benutzer von [!DNL Workfront] in [!UICONTROL Workfront] DAM hochgeladen wurden.
 

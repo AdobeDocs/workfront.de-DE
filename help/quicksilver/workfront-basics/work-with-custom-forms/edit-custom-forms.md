@@ -7,9 +7,9 @@ description: Sie können Informationen in einem benutzerdefinierten Formular bea
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Sie müssen über Folgendes verfügen:
    <td> 
     <ul> 
      <li> <p>Contribute oder höhere Berechtigungen für das Objekt, für das Sie das benutzerdefinierte Formular bearbeiten möchten</p> </li> 
-     <li>Zeigen Sie Berechtigungen für die Felder an, die Sie bearbeiten möchten. Informationen zum Freigeben von Berechtigungen für benutzerdefinierte Felder finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets</a>.</li> 
+     <li>Zeigen Sie Berechtigungen für die Felder an, die Sie bearbeiten möchten. Informationen zum Freigeben von Berechtigungen für benutzerdefinierte Felder finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets</a>.</li> 
      <li> <p>Berechtigungen für die Abschnitte im Formular bearbeiten, in denen sich die zu bearbeitenden Felder befinden</p> </li> 
     </ul> <p>Informationen zum Anfordern von zusätzlichem Zugriff für Objekte finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
   </tr> 
@@ -54,7 +54,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Voraussetzungen
 
-* Ihr Workfront-Administrator oder ein Planbenutzer mit Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Ihr Workfront-Administrator oder ein Planbenutzer mit Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Sie müssen benutzerdefinierte Formulare an ein Objekt anhängen.
 
   Informationen zum Anwenden benutzerdefinierter Formulare auf ein Objekt finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -91,7 +91,7 @@ Die Informationen in einem benutzerdefinierten Formular, das an ein Objekt angeh
    * Textfelder (fett, kursiv oder unterstrichen) können nur formatiert werden, wenn der Benutzer, der das Formular erstellt hat, sie als Textfeld mit Feldtyp &quot;Formatierung&quot;eingerichtet hat. Einzelzeilentextfelder und Absatztextfelder können nicht formatiert werden.
    * Sie können die Tageszeit in einem Datumsfeldtyp nur dann aktualisieren, wenn der Benutzer, der das Formular erstellt hat, es bei der Erstellung des Felds eingeschlossen hat.
 
-   Weitere Informationen zu allen Feldtypen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Weitere Informationen zu allen Feldtypen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicken Sie auf **Änderungen speichern**.
 

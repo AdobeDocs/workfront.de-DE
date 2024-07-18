@@ -6,9 +6,9 @@ description: Sie können Objekte inline bearbeiten, wenn sie in einer Liste oder
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0912e4ef29d682ae3e6dd0e543b8e77fb7f29b6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -88,8 +88,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!NOTE]
    >
-   >Wenn ein benutzerdefiniertes Feld so konfiguriert wurde, dass eine Formatierung zulässig ist, können Sie Text beim Inline-Bearbeiten des Felds in einer aktualisierten Liste fett, kursiv oder unterstrichen formatieren.\
-   >Informationen zum Konfigurieren der Formatierung für ein benutzerdefiniertes Feld finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).\
+   >Wenn ein benutzerdefiniertes Feld so konfiguriert wurde, dass eine Formatierung zulässig ist, können Sie Text beim Inline-Bearbeiten des Felds in einer aktualisierten Liste fett, kursiv oder unterstrichen formatieren.
+   >Informationen zum Konfigurieren der Formatierung für ein benutzerdefiniertes Feld finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    >Informationen zu aktualisierten Listen finden Sie im Abschnitt &quot;Der Unterschied zwischen den aktualisierten und den alten Listen&quot;im Artikel [Erste Schritte mit Listen in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Drücken Sie [!UICONTROL Tab] , um zur nächsten bearbeitbaren Zelle zu wechseln.
