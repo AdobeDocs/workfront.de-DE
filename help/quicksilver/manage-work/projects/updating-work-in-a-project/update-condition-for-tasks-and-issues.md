@@ -6,20 +6,22 @@ description: Die Bedingung einer Aufgabe oder eines Problems ist eine Markierung
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
 
 # Aktualisierungsbedingung für Aufgaben und Probleme
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 Die Bedingung einer Aufgabe oder eines Problems ist eine Markierung, die darauf platziert wird, um anzugeben, wie es funktioniert. Dies unterscheidet sich vom Status des Arbeitselements, der die aktuelle Phase der Entwicklung des Elements angibt.
 
@@ -29,7 +31,7 @@ Die Bedingungswerte, auf die wir in diesem Artikel verweisen, sind standardmäß
 
 ## Zugriffsanforderungen {#access-requirements}
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,15 +43,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>
-
-Für die neuen Lizenzen:
-<ul><li><p>Standard für Aufgaben</p></li>
+   <td> 
+   Neu:
+   <ul><li><p>Standard für Aufgaben</p></li>
    <li><p>Beitragende oder höher für Probleme</p></li></ul>
-
-
-Für aktuelle Lizenzen:
-<ul><li><p>Arbeit oder höher für Aufgaben</p></li>
+   Aktuell:
+   <ul><li><p>Arbeit oder höher für Aufgaben</p></li>
    <li><p>Anfrage oder höher für Probleme</p></li></ul>
     </td> 
   </tr> 
@@ -66,7 +65,9 @@ Für aktuelle Lizenzen:
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -78,9 +79,9 @@ Bedingungen werden als Markierung angezeigt, die mit Aufgaben oder Problemen ver
 
 Sie finden die Bedingungen für Aufgaben und Probleme in den folgenden Bereichen von Workfront:
 
-* <span class="preview">Die Detailseite, nachdem sie von einem Workfront- oder Gruppenadministrator Ihrer Layoutvorlage hinzugefügt wurde. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) </span>.
+* Die Detailseite, nachdem sie von einem Workfront- oder Gruppenadministrator Ihrer Layoutvorlage hinzugefügt wurde. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-* <span class="preview">Die Kopfzeile einer Aufgabe oder eines Problems, nachdem ein Workfront- oder Gruppenadministrator sie Ihrer Layoutvorlage hinzugefügt hat. Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md) </span>.
+* Die Kopfzeile einer Aufgabe oder eines Problems, nachdem ein Workfront- oder Gruppenadministrator sie zu Ihrer Layoutvorlage hinzugefügt hat. Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 * Nachdem ein Workfront- oder Gruppenadministrator sie Ihrer Layoutvorlage hinzugefügt hat, wird sie im Bereich &quot;Zusammenfassung&quot;angezeigt. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
@@ -110,7 +111,7 @@ Wenn Sie das Feld Bedingung in der Ansicht anzeigen, können Sie die Bedingung e
 
 >[!NOTE]
 >
->Sie können Ihren System- oder Gruppenadministrator bitten, das Feld Bedingung zu Ihrem Zusammenfassungsbereich hinzuzufügen, um die Aktualisierung in verschiedenen Bereichen von Workfront zu vereinfachen.
+>Sie können Ihren System- oder Gruppenadministrator bitten, das Feld Bedingung zu Ihrem Zusammenfassungsbereich hinzuzufügen oder die Aufgaben- oder Problemüberschrift oder Detailseiten hinzuzufügen.
 >
 >Weitere Informationen finden Sie in den folgenden Artikeln:
 >
@@ -124,31 +125,27 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-Führen Sie einen der folgenden Schritte aus, um die Bedingung einer Aufgabe oder eines Problems manuell zu aktualisieren:
+Sie können die Bedingungen für Aufgaben und Probleme in verschiedenen Bereichen von Workfront manuell aktualisieren. In den folgenden Abschnitten wird beschrieben, wie Sie die Bedingung von Aufgaben und Problemen manuell aktualisieren können.
 
-<div class="preview">
+### Aktualisieren der Bedingung einer Aufgabe oder eines Problems in der Aufgaben- oder Problemkopfzeile
 
-1. So aktualisieren Sie die Bedingung einer Aufgabe oder eines Problems in der Aufgaben- oder Problemkopfzeile:
+1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator das Feld Bedingung zur Aufgaben- oder Problemüberschrift Ihrer Layoutvorlage hinzugefügt hat, klicken Sie in der Kopfzeile auf das Feld **Bedingung** und wählen Sie aus den folgenden Optionen aus:
+   * Keine Probleme
+   * Kleinere Probleme
+   * Größere Probleme
 
-   1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator das Feld Bedingung zur Aufgaben- oder Problemüberschrift Ihrer Layoutvorlage hinzugefügt hat, klicken Sie in der Kopfzeile auf das Feld **Bedingung** und wählen Sie aus den folgenden Optionen aus:
-      * Keine Probleme
-      * Kleinere Probleme
-      * Größere Probleme
+   ![](assets/condition-in-task-header.png)
+1. Klicken Sie auf Eingabetaste , um die Bedingung zu speichern.
 
-      ![](assets/condition-in-task-header.png)
-   1. Klicken Sie auf Eingabetaste , um die Bedingung zu speichern.
+### Aktualisieren der Bedingung einer Aufgabe oder eines Problems im Abschnitt mit den Aufgaben- oder Problemdetails
 
-1. So aktualisieren Sie die Bedingung einer Aufgabe oder eines Problems im Abschnitt &quot;Aufgaben- oder Problemdetails&quot;:
-
-   1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator das Feld Bedingung zum Bereich Details einer Aufgabe oder eines Problems in Ihrer Layoutvorlage hinzugefügt hat, klicken Sie im linken Bereich auf **Details** , klicken Sie dann auf **Aufgabenbedingung** oder **Problembedingung** und wählen Sie eine der folgenden Optionen aus:
-      * Keine Probleme
-      * Kleinere Probleme
-      * Größere Probleme
+1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator das Feld Bedingung zum Bereich Details einer Aufgabe oder eines Problems in Ihrer Layoutvorlage hinzugefügt hat, klicken Sie im linken Bereich auf **Details** , klicken Sie dann auf **Aufgabenbedingung** oder **Problembedingung** und wählen Sie eine der folgenden Optionen aus:
+   * Keine Probleme
+   * Kleinere Probleme
+   * Größere Probleme
 1. Klicken Sie auf **Änderungen speichern**. Die Bedingung der Aufgabe oder des Problems wird aktualisiert.
 
-</div>
-
-So aktualisieren Sie die Bedingung einer Aufgabe oder eines Problems in einem Bericht oder einer Liste:
+### Aktualisieren der Bedingung einer Aufgabe oder eines Problems in einem Bericht oder einer Liste
 
 1. Rufen Sie eine Liste der Aufgaben oder Probleme auf, für die Sie über Verwaltungsberechtigungen verfügen. Stellen Sie sicher, dass das Feld **Bedingung** in der Listenansicht sichtbar ist.
 

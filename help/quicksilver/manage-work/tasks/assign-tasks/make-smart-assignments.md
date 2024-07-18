@@ -6,14 +6,16 @@ description: Sie können Smart-Zuweisungen verwenden, um zu ermitteln, wer der b
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Smart-Zuweisungen vornehmen
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -27,13 +29,13 @@ Sie können Smart-Zuweisungen verwenden, um zu ermitteln, wer der beste Benutzer
 
 Smart-Zuweisungen sind Vorschläge für Benutzer, Rollen oder Teams, die Ihnen Adobe Workfront präsentiert, wenn Sie Ressourcen Arbeitselemente zuweisen. Workfront basiert seine Vorschläge auf einem Algorithmus, der die am besten geeignete Ressource für den Auftrag bestimmt.
 
-<span class="preview">Es gibt zwei separate Algorithmen in Workfront, die Smart-Zuweisungen berechnen, die für Aufgaben und Probleme unterschiedlich funktionieren. </span>
+Es gibt zwei separate Algorithmen in Workfront, die Smart-Zuweisungen berechnen, die für Aufgaben und Probleme unterschiedlich funktionieren.
 
 Weitere Informationen zu den Kriterien für die Bestimmung von Smart-Zuweisungen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Smart-Zuweisungen vornehmen
 
@@ -71,35 +75,25 @@ Smart-Zuweisungen sind an den meisten Stellen verfügbar, an denen Sie Zuweisung
    * Aufgabe oder Problemliste oder Bericht
    * Aufgaben- oder Problemkopfzeile
    * Das Bedienfeld &quot;Aufgabe oder Problem-Zusammenfassung&quot;
-   * <span class="preview">Ein Feld für eine neue Aufgabe oder ein neues Problem, wenn Sie eine neue Aufgabe oder ein neues Problem zu einem Projekt hinzufügen</span>
+   * Ein Feld &quot;Neue Aufgabe&quot;oder &quot;Neues Problem&quot;, wenn Sie eine neue Aufgabe oder ein neues Problem zu einem Projekt hinzufügen
    * Das Feld Zuweisungen für ein Element, das im Startbereich aufgeführt ist
    * Eine Aufgabe oder ein Problem im Arbeitslastausgleich
 
 1. Platzieren Sie den Cursor im Feld Zuweisungen und warten Sie zwei Sekunden.
 
-   <div class="preview">
-   Ein oder mehrere der folgenden Abschnitte mit Vorschlägen für die intelligente Zuweisung werden angezeigt:
+   Bei Problemen werden die Smart-Zuweisungen in den folgenden Abschnitten angezeigt:
 
-   * **Vorgeschlagene Zuweisungen**: Zeigt Informationen zu Aufgaben an. <!--remove the note when we go to production with smarter assignments-->
+   * **Benutzer und Teams**
+   * **Vorgangsrollen**
 
-     >[!TIP]
-     >
-     >   In der Kopfzeile der Liste wird **Hier sind einige Empfehlungen** anstelle von **Vorgeschlagene Zuweisungen** in der Produktionsumgebung angezeigt.
-     >
-   * **Benutzer und Teams**: Zeigt Informationen zu Aufgaben und Problemen an.
-   * **Vorgangsrollen**: Zeigt Aufgaben und Probleme an.
-   * **Auftragsrollen von Ratenkarten**: Zeigt Informationen zu Aufgaben an. Weitere Informationen finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
-   </div>
-
-   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
-
+   ![](assets/smart-assignments-issue-header.png)
 
    Bei Aufgaben werden die Smart-Zuweisungen in den folgenden Abschnitten angezeigt, je nachdem, in welcher Phase der Algorithmusberechnung die Zuweisungen identifiziert wurden:
 
-   * **Vorgeschlagene Zuweisungen**: Zuweisungen, die in der ersten Phase der Algorithmusberechnung der Aufgabe-Smart-Zuweisung identifiziert wurden. <span class="preview">Dieser Abschnitt ist nicht für Probleme verfügbar.</span>
-   * <span class="preview">**Benutzer und Teams**, **Auftragsrollen** oder **Auftragsrollen auf Ratenkarten**: Zuweisungen, die in der zweiten Phase der Algorithmusberechnung der Aufgabe &quot;Smart-Zuweisung&quot;identifiziert wurden. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * **Vorgeschlagene Zuweisungen**: Zeigt Zuweisungen an, die in der ersten Phase des Algorithmus für die intelligente Aufgabenzuweisung identifiziert wurden.
+   * **Benutzer und Teams**, **Auftragsrollen** oder <span class="preview">**Auftragsrollen auf Ratenkarten**</span>: Zuweisungen, die in der zweiten Phase der Algorithmusberechnung der Aufgabe &quot;Smart-Zuweisung&quot;identifiziert wurden.
 
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

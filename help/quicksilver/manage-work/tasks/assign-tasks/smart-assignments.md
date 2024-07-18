@@ -7,9 +7,9 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">Eine Aufgabenliste oder ein Bericht in der Spalte &quot;Zuweisungen&quot;</span>
+* Aufgabenliste oder Bericht in der Spalte &quot;Zuweisungen&quot;
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">Eine Aufgabenüberschrift im Feld &quot;Zuweisungen&quot;</span>
+* Aufgabenüberschrift im Feld &quot;Zuweisungen&quot;
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Eine Problem-Kopfzeile im Feld &quot;Zuweisungen&quot;
 
@@ -63,24 +63,24 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
 * Die Aufgaben- oder Problemzusammenfassung im Bereich &quot;Zuweisungen&quot;
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">Das Feld &quot;Zuweisungen&quot;im Feld &quot;Neue Aufgabe&quot;beim Hinzufügen einer Aufgabe zu einem Projekt</span>
+* Das Feld Zuweisungen im Feld &quot;Neue Aufgabe&quot;, wenn eine Aufgabe zu einem Projekt hinzugefügt wird
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* Das Feld Zuweisungen für ein Element, das im Startbereich aufgeführt ist, wenn Sie eine Aufgabe oder ein Problem öffnen
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * Arbeitslastausgleich im Bereich &quot;Zugeordneter Benutzer&quot;, wenn Sie eine Aufgabe oder ein Problem zuweisen
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Kriterien für intelligente Zuweisungen
-
-<div class="preview">
 
 Smart-Zuweisungen funktionieren bei Aufgaben anders als bei Problemen.
 
@@ -134,17 +134,16 @@ Wenn im ersten Schritt von Aufgaben-Smart-Zuweisungen keine Übereinstimmungen g
 
 Weitere Informationen finden Sie im Abschnitt [Kriterien für intelligente Zuweisungen für Aufgaben und Probleme](#smart-assignments-criteria-for-tasks-and-issues) in diesem Artikel.
 
-Zuweisungen, die in dieser Phase identifiziert werden, werden in den Abschnitten **Benutzer und Teams**, **Aufgabenrollenzuweisungen** und **Kartenrollen bewerten** des Felds &quot;Zuweisungen&quot;aufgeführt. Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) <!--keep the rate cards roles in yellow after the release of assignments to Prod-->.
+Zuweisungen, die in dieser Phase identifiziert werden, werden in den Abschnitten **Benutzer und Teams**, **Aufgabenrollenzuweisungen** und <span class="preview">**Kartenrollen bewerten**</span> des Felds &quot;Zuweisungen&quot;aufgeführt. <span class="preview">Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span> <!--keep the rate cards roles in yellow after the release of assignments to Prod-->.
 
 ### Kriterien für intelligente Zuweisungen für Aufgaben und Probleme
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview">Die folgenden Kriterien gelten nur für Aufgaben, wenn in der ersten Phase der Berechnung der intelligenten Aufgabenzuweisung keine Übereinstimmungen gefunden wurden. Weitere Informationen finden Sie im Abschnitt [Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben](#first-phase-of-smart-assignment-calculation-for-tasks) in diesem Artikel. Die folgenden Kriterien gelten standardmäßig immer für Probleme. </span>
+>Die folgenden Kriterien gelten nur für Aufgaben, wenn in der ersten Phase der Berechnung der intelligenten Aufgabenzuweisung keine Übereinstimmungen gefunden wurden. Weitere Informationen finden Sie im Abschnitt [Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben](#first-phase-of-smart-assignment-calculation-for-tasks) in diesem Artikel. Die folgenden Kriterien gelten standardmäßig immer für Probleme.
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 Benutzer werden in der Dropdown-Liste &quot;Smart-Zuweisungen&quot;empfohlen, die auf einer Kombination der folgenden Kriterien basiert (aufgelistet in der Reihenfolge von am wichtigsten zu am wenigsten wichtig):
 

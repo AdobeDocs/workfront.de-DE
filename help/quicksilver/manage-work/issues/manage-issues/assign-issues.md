@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # Zuweisen von Problemen
 
-<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
+<!--Audited: 07/2024-->
 
 Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer für das Abschließen der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Überblick über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -45,7 +45,7 @@ Das Zuweisen von Problemen und Aufgaben ist in Adobe Workfront ähnlich. Allgeme
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,25 +54,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td> <p>Neu: Mitarbeiter oder höher</p>
+   <p>Aktuell: Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsstufe*</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Anzeigen oder höherer Zugriff auf Projekte und Aufgaben</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Probleme in Ihrer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a>. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Anzeigen oder höherer Zugriff auf Projekte und Aufgaben zur Zuweisung eines Problems</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Problem verwalten</p> <p>Contribute-Berechtigungen für das Element, in das Sie das Problem kopieren und Probleme hinzufügen können.</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Gewähren des Zugriffs für Benutzer</a>.</p> </td> 
+   <td> <p>Berechtigungen für das Problem verwalten</p> <p> Anzeigen von Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem sich das Problem befindet, beim Zuweisen eines Problems</p><p>Contribute-Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem sich das Problem befindet, bei der Zuweisung mehrerer Probleme.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen zur Mehrfachzuweisung von Stellenrollen, Teams und Benutzern
 
@@ -137,7 +140,7 @@ Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes
      >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
-     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+     <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -43,34 +43,35 @@ Darüber hinaus können Sie erweiterte Zuweisungen in den folgenden Bereichen vo
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td> <p>Neu: Standard</p>
+    <p>Aktuell: Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben und Probleme bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Aufgaben und Probleme bearbeiten</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute oder höhere Berechtigungen für eine Aufgabe oder ein Problem</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Contribute oder höhere Berechtigungen für eine Aufgabe oder ein Problem</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erweiterte Zuweisungen vornehmen
 
@@ -167,6 +168,5 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
    * **Geplante Stunden**: Wenn der Typ &quot;Dauer&quot;für die berechnete Zuweisung oder einfach ist, aktualisieren Sie die Anzahl der geplanten Stunden. Die Zuordnungsprozentsätze oder die Stunden für jede Ressource werden als Ergebnis gleichmäßig verteilt. Workfront berechnet die geplanten Stunden, wenn die Dauer berechnet wird (Work or Effort Driven). Weitere Informationen finden Sie unter [Übersicht über die Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-     ![Erweiterte Zuweisungen](assets/advanced-assignments-duration-type-allocations.png)
 
 1. Klicken Sie auf **Speichern**.

@@ -6,45 +6,46 @@ description: Beim Zuweisen von Benutzern oder Rollen zu einer Aufgabe werden sie
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Benutzer- und Rollenzuordnungsstunden für Aufgaben
 
-Beim Zuweisen von Benutzern oder Rollen zu einer Aufgabe werden sie einer bestimmten Anzahl von Stunden zugewiesen, um die Aufgabe abzuschließen. Sie können die Anzahl der Stunden, die jedem Benutzer oder jeder Auftragsrolle zugewiesen werden, wenn sie einer Aufgabe zugewiesen werden, manuell ändern, wenn der Aufgabendauer-Typ einfach ist.
-
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td> <p>Neu: Standard </p>
+   <p>Aktuell: Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Aufgaben bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute oder höhere Berechtigungen für die Aufgabe</p> <p>Berechtigungen bearbeiten, um die Zuordnungszeiten im Feld "Aufgabe bearbeiten"zu aktualisieren</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Contribute oder höhere Berechtigungen für die Aufgabe</p> <p>Berechtigungen bearbeiten, um die Zuordnungszeiten im Feld "Aufgabe bearbeiten"zu aktualisieren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen zum Ändern der Zuordnungszeiten für eine Aufgabe
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2598'
 ht-degree: 3%
 
 ---
@@ -93,6 +93,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Datensätze mithilfe der Tabellenansicht bearbeiten
+
+Sie können Datensatzinformationen nur in der Tabellenansicht bearbeiten.
+
+Weitere Informationen zum Bearbeiten von Datensätzen in der Tabellenansicht finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
 ## Tabellenansicht verwalten {#manage-a-table-view}
 

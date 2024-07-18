@@ -6,20 +6,21 @@ description: Ändern von Benutzerzuweisungen für mehrere Probleme in einer List
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
 
 # Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste
 
+<!--Audited: 07/2024-->
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-Sie können Benutzerzuweisungen gleichzeitig für mehrere Probleme ändern. Weitere Informationen zum Bearbeiten oder Zuweisen von Problemen finden Sie in den folgenden Artikeln:
+Sie können Benutzerzuweisungen gleichzeitig für mehrere Probleme ändern. Weitere Informationen zum Bearbeiten oder Zuweisen von Problemen finden Sie in den folgenden Artikeln:
 
 * [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Zuweisen von Problemen](../../../manage-work/issues/manage-issues/assign-issues.md)
@@ -32,32 +33,35 @@ Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Überblick
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td> <p>Neu: Standard </p>
+   <p>Aktuell: Anforderung oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Anzeigen oder höherer Zugriff auf Projekte und Aufgaben zur Zuweisung eines Problems</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Problem verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Problem verwalten</p> <p>Contribute-Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem sich das Problem befindet, bei der Zuweisung mehrerer Probleme.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

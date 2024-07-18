@@ -6,9 +6,9 @@ description: Sie können das Übermittlungsdatum einer Aufgabe oder eines Proble
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 0%
 
 # Aktualisieren der Daten zum Bestätigen von Aufgaben und Problemen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 Sie können das Übermittlungsdatum einer Aufgabe oder eines Problems, dem Sie zugewiesen sind, manuell aktualisieren. Weitere Informationen zu den Zusendedaten in Adobe Workfront finden Sie unter [Übersicht über das Veröffentlichungsdatum](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -28,7 +30,7 @@ Sie können das Übermittlungsdatum einer Aufgabe oder eines Problems, dem Sie z
 
 <!--Audited: 01/2024-->
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,12 +43,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
-   Für die neuen Lizenzen:
+   Neu:
    <ul>
    <li><p>Standard für Aufgaben</p> </li>
    <li><p>Beitragende oder höher für Probleme</p></li>
    </ul>
-   Für aktuelle Lizenzen:
+   Aktuell:
 <ul>
    <li><p>Arbeit oder höher für Aufgaben</p></li> 
    <li><p>Anfrage oder höher für Probleme</p></li>
@@ -65,7 +67,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -77,10 +81,10 @@ Bevor Sie das Übermittlungsdatum einer Aufgabe oder eines Problems bearbeiten k
 In den folgenden Bereichen von Workfront können Sie das Übermittlungsdatum einer Aufgabe oder eines Problems aktualisieren:
 
 * Der Bereich Details einer Aufgabe oder eines Problems
-* <span class="preview">Die Aufgaben- oder Problemkopfzeile</span>
+* Aufgaben- oder Problemkopfzeile
 
-  <span class="preview">Ihr Workfront- oder Gruppenadministrator muss der Aufgaben- oder Problemüberschrift Ihrer Layoutvorlage das &quot;Datum festlegen&quot;hinzufügen, um es auf der Aufgaben- oder Problemseite anzuzeigen.
-Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  Ihr Workfront- oder Gruppenadministrator muss der Aufgaben- oder Problemüberschrift Ihrer Layoutvorlage das Datum &quot;Bestätigen&quot;hinzufügen, um es auf der Aufgaben- oder Problemseite anzuzeigen.
+Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme identisch.
 
@@ -98,9 +102,9 @@ Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme i
 
    Weitere Informationen dazu, wer der Aufgabeneigentümer für ein Problem oder eine Aufgabe ist, finden Sie im Abschnitt [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) im Artikel [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Bedingt und optional) Wenn Ihr Workfront- oder Gruppenadministrator das Datum für die Übermittlung zu Ihrer Aufgaben- oder Problemüberschrift hinzugefügt hat, klicken Sie in der Kopfzeile auf das Feld **Veröffentlichungsdatum** und wählen Sie dann ein Datum aus dem Kalender aus. Wenn sich das Datum des Versands nicht in der Kopfzeile befindet, fahren Sie mit den folgenden Schritten fort. </span>
+1. (Bedingt und optional) Wenn Ihr Workfront- oder Gruppenadministrator Ihrer Aufgaben- oder Problemüberschrift das Datum der Übermittlung hinzugefügt hat, klicken Sie in der Kopfzeile auf das Feld **Datum der Übermittlung** und wählen Sie dann ein Datum aus dem Kalender aus. Wenn sich das Datum des Versands nicht in der Kopfzeile befindet, fahren Sie mit den folgenden Schritten fort.
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>
+   ![](assets/commit-date-task-header.png)
 
 1. Klicken Sie im linken Bereich auf **Aufgabendetails** oder **Problemdetails** .
 1. Klicken Sie auf **Überblick** , um es zu erweitern.

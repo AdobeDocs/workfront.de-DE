@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -162,6 +162,9 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
    * Klicken Sie auf die Spaltenüberschrift einer Spalte, um sie auszuwählen und zu kopieren. Klicken Sie dann auf die Spaltenüberschrift einer anderen Spalte und fügen Sie den Inhalt der kopierten Spalte ein. Die Spalten müssen ähnliche Feldtypen enthalten.
    * Klicken Sie bei gedrückter Umschalt-Taste auf mehrere Zeilen in einer Tabelle, kopieren Sie die Informationen in die ausgewählten Zeilen, klicken Sie dann auf eine andere Zeile und fügen Sie die ausgewählten Informationen in die neue Zeile und die folgenden Zeilen ein.
    * Kopieren Sie die Informationen aus einer Zelle, wählen Sie dann mehrere Zellen aus und fügen Sie dieselben Informationen in mehrere Zellen ein. Sie können mehrere Zellen auswählen und dieselben Informationen in mehrere Zellen aus benachbarten Zeilen und Spalten einfügen.
+   * Wählen Sie die untere rechte Ecke einer vorhandenen Zelle aus, die die zu kopierenden Informationen enthält, und ziehen Sie sie per Drag-and-Drop über die angrenzenden Zellen, in die Sie dieselben Informationen einfügen möchten. Alle Zellen müssen denselben Informationstyp aufweisen.
+
+     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    >[!NOTE]
    >

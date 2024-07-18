@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1985'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
 
@@ -146,12 +146,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Oder
 
-   Klicken Sie auf den Namen der Zuweisungen, falls die Aufgabe oder das Problem bereits zugewiesen wurde.
+   Klicken Sie auf den Namen der Zuweisungen, falls die Aufgabe bereits zugewiesen ist.
 
-   In der Produktionsumgebung:
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">In der Vorschau-Umgebung:</span>
    ![Arbeitsaufträge](assets/assignments-box-in-task-header.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
@@ -168,7 +164,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">Beim Hinzufügen einer Auftragsrollenzuweisung können Sie nach der Auftragsrolle oder dem Ort suchen. Wählen Sie in der Liste Auftragsrollen eine Rolle aus, um die standardmäßige Abrechnungsrate für die Zuweisung zu verwenden, oder wählen Sie eine Auftragsrolle für die Ratenkarte aus, um die Abrechnungsrate aus der Ratenkarte zu verwenden. Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Bedingt) Klicken Sie auf einen der Namen in den Listen <span class="preview">**Vorgeschlagene Zuweisungen**, **Benutzer und Teams** oder **Auftragsrollen** oder **Rollen der Ratenkarten**</span> , wenn sie angezeigt werden. Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Bedingt) Klicken Sie auf einen der Namen in den Listen **Vorgeschlagene Zuweisungen**, **Benutzer und Teams** oder **Auftragsrollen** oder <span class="preview">**Rollen der Ratenkarten**</span> , wenn sie angezeigt werden. Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Sie können mit der Eingabe des Namens jedes Benutzers, Teams oder Auftrags beginnen, der der Aufgabe zuzuweisen, und diese dann auswählen, wenn sie in der Liste angezeigt wird.
 
@@ -215,7 +211,7 @@ So weisen Sie Aufgaben in einer Liste zu:
      >
      >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
-     ><span class="preview">Beim Hinzufügen einer Auftragsrollenzuweisung können Sie nach der Auftragsrolle oder dem Ort suchen. Wählen Sie die System-/Standardauftragsrolle aus, um die standardmäßige Abrechnungsrate für die Zuweisung zu verwenden, oder wählen Sie eine Ratenkarten-Auftragsrolle aus, um die Abrechnungsrate aus der Ratenkarte zu verwenden. Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Beim Hinzufügen einer Auftragsrollenzuweisung können Sie nach der Auftragsrolle oder dem Ort suchen. Wählen Sie eine Auftragsrolle aus, um die standardmäßige Abrechnungsrate für die Zuweisung zu verwenden, oder wählen Sie eine Ratenkartenrolle aus, um die Abrechnungsrate auf der Ratenkarte zu verwenden. Weitere Informationen zu Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
 1. (Bedingt) Wenn dies im Feld **Zuweisungen** sichtbar ist, klicken Sie auf das Symbol **Personen** in der oberen rechten Ecke des Zuweisungsfelds, um das Feld **Erweiterte Zuweisungen** zu öffnen und erweiterte Zuweisungen zu erstellen.
