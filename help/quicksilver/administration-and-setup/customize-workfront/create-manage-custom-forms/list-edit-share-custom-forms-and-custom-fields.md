@@ -4,9 +4,11 @@ description: Wenn Sie eine Liste der benutzerdefinierten Formulare Ihres Unterne
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+hidefromtoc: true
+hide: true
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 Wenn Sie eine Liste der benutzerdefinierten Formulare Ihres Unternehmens sowie der benutzerdefinierten Felder und Widgets anzeigen, die ihnen hinzugefügt wurden, können Sie mithilfe der Optionen in der Symbolleiste deren Eigenschaften bearbeiten, einschränken, für wen sie freigegeben wurden, sie kopieren und löschen. Sie können auch andere Informationen in den angezeigten Spalten anzeigen, z. B. mit welchen Objekttypen die einzelnen benutzerdefinierten Formulare verknüpft sind.
 
-Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) und [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
 
@@ -53,9 +55,9 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    Informationen dazu, was Sie tun können, wenn Sie ein benutzerdefiniertes Formular in der Liste auswählen, finden Sie in den folgenden Artikeln:
 
-   * [Benutzerdefiniertes Formular erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Freigeben eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-   * [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+   * [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Löschen oder Deaktivieren eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. Klicken Sie auf die Registerkarte **Felder**.
@@ -76,12 +78,12 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    Informationen dazu, was Sie tun können, wenn Sie ein Element in der Liste auswählen, finden Sie in den folgenden Artikeln:
 
    * [Hinzufügen oder Bearbeiten eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-   * [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+   * [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets in einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [Löschen eines benutzerdefinierten Felds oder Widgets aus dem System](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. Wählen Sie die Registerkarte **Abschnitte** aus und stellen Sie sicher, dass **Parametergruppe** als **Ansicht** für die Liste ausgewählt ist.
 
    In dieser Ansicht werden alle Abschnittsumbrüche zusammen mit einer Liste benutzerdefinierter Formulare mit den einzelnen Abschnittsumbrüchen angezeigt.
 
-   Weitere Informationen zum Bearbeiten eines benutzerdefinierten Abschnitts, den Sie in der Liste auswählen, finden Sie unter [Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+   Informationen zum Bearbeiten eines benutzerdefinierten Abschnitts, den Sie in der Liste auswählen, finden Sie unter [Formular organisieren und in der Vorschau anzeigen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 

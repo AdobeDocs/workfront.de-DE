@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,11 @@ Zuvor konnten Sie ein benutzerdefiniertes Formular so konfigurieren, dass es nur
 
 Diese Funktion funktioniert mit allen benutzerdefinierten Formularen, die zuvor in Ihrem Workfront-System erstellt wurden. Wenn Sie beispielsweise bereits über ein benutzerdefiniertes Formular verfügen, das für den Objekttyp &quot;Aufgabe&quot;erstellt wurde, können Sie jetzt das Formular so konfigurieren, dass es auch mit anderen Objekttypen wie Projekt und Problem funktioniert.
 
-Weitere Informationen finden Sie im Abschnitt [Erstellen eines benutzerdefinierten Formulars beginnen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) im Artikel [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 >[!NOTE]
 >
->* Zum Zeitpunkt der ersten Vorschau dieser Funktion haben wir die Möglichkeit, ein benutzerdefiniertes Formular mit mehreren Objekten zu kopieren, vorübergehend deaktiviert. Diese Fähigkeit wurde am 24. März aktiviert. Informationen zum Kopieren eines benutzerdefinierten Formulars finden Sie unter [Kopieren eines benutzerdefinierten Formulars, um ein neues zu erstellen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* In einem berechneten benutzerdefinierten Feld sind einige Felder, auf die Sie verweisen, möglicherweise nicht mit Objekttypen kompatibel, die für das Formular konfiguriert sind. Unsere Lösung ist eine Platzhalterkarte, mit der die Berechnung je nach dem Objekt, an das das Formular angehängt ist, unterschiedliche Werte ausgeben kann. Am 24. März haben wir die Platzhalter hinzugefügt. Informationen zur Verwendung finden Sie im Abschnitt [Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) im Artikel [Berechnete Daten zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* Für Abschnittsumbrüche in benutzerdefinierten Formularen haben wir eine Reihe allgemeiner Anzeigeberechtigungen und Bearbeitungsberechtigungen erstellt, die für alle Objekttypen gelten, die Sie für ein Formular konfigurieren können. In einem Szenario haben wir festgestellt, dass eine dieser Berechtigungen, &quot;Eingeschränkte Bearbeitung&quot;, Fehler in einem Formular verursachen kann. Dieses Problem wurde am 24. März behoben. Weitere Informationen zu Abschnittspausen finden Sie unter [Einen Abschnittsumbruch zu einem benutzerdefinierten Formular hinzufügen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* Zum Zeitpunkt der ersten Vorschau dieser Funktion haben wir die Möglichkeit, ein benutzerdefiniertes Formular mit mehreren Objekten zu kopieren, vorübergehend deaktiviert. Diese Fähigkeit wurde am 24. März aktiviert.
+>* In einem berechneten benutzerdefinierten Feld sind einige Felder, auf die Sie verweisen, möglicherweise nicht mit Objekttypen kompatibel, die für das Formular konfiguriert sind. Unsere Lösung ist eine Platzhalterkarte, mit der die Berechnung je nach dem Objekt, an das das Formular angehängt ist, unterschiedliche Werte ausgeben kann. Am 24. März haben wir die Platzhalter hinzugefügt.
+>* Für Abschnittsumbrüche in benutzerdefinierten Formularen haben wir eine Reihe allgemeiner Anzeigeberechtigungen und Bearbeitungsberechtigungen erstellt, die für alle Objekttypen gelten, die Sie für ein Formular konfigurieren können. In einem Szenario haben wir festgestellt, dass eine dieser Berechtigungen, &quot;Eingeschränkte Bearbeitung&quot;, Fehler in einem Formular verursachen kann. Dieses Problem wurde am 24. März behoben.
 >
 
 ## Der Blueprints-Katalog steht allen Benutzern zur Verfügung und Administratoren können Anfragen zulassen
@@ -60,7 +58,6 @@ Zuvor waren benutzerdefinierte Formulare vollständig textbasiert.
 >
 >In den neuen Adobe Workfront-Erlebnisbereichen, die noch nicht modernisiert wurden, wie z. B. dem Feld, das angezeigt wird, wenn Sie Elemente per Massenbearbeitung bearbeiten, werden keine benutzerdefinierten Formularbilder angezeigt. Sie werden angezeigt, wenn wir diese Bereiche weiter aktualisieren.
 
-Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines Asset-Widgets in einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Neue standardmäßige Zugriffsstufenkonfigurationen
 

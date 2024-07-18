@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,4 @@ Die Anzeige und Auswahl von Kontrollkästchen- und Optionsschaltflächen-Optione
 Dies hängt davon ab, wie Sie die Felder im benutzerdefinierten Formular positionieren. Wenn Sie ein anderes Feld mit dem Kontrollkästchen oder dem Optionsfeld in derselben Zeile platzieren, verfügen die Optionen möglicherweise nur über genügend horizontalen Platz, um in einer Spalte angezeigt zu werden.
 
 Informationen zum Ausfüllen eines benutzerdefinierten Formulars finden Sie unter [Informationen in benutzerdefinierten Formularfeldern bearbeiten](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
-
-Informationen zum Erstellen eines Kontrollkästchen- oder Optionsfeld-Felds in einem benutzerdefinierten Formular finden Sie in den Abschnitten [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) und [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) im Artikel [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

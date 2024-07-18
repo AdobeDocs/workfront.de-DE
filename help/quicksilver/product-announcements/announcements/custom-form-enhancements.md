@@ -4,9 +4,9 @@ description: Die folgenden wichtigen Verbesserungen wurden in Version 22.2 für 
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,6 @@ Derzeit können Benutzer das Widget nicht in den folgenden Bereichen sehen: &#x2
 * Das Feld &quot;Bearbeiten&quot;für das Objekt, wenn es nicht das neue Adobe Workfront-Erlebnis anzeigt (z. B. das Feld &quot;Kosten bearbeiten&quot;)
 * &#x200B; der mobilen Workfront-App
 
-Weitere Informationen zum Hinzufügen von Widgets zu benutzerdefinierten Formularen finden Sie unter [Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## Verknüpfen eines benutzerdefinierten Formulars mit mehreren Objekttypen
 
 Sie können jedem neuen benutzerdefinierten Formular mehrere Objekttypen zuweisen:
@@ -68,8 +66,6 @@ Dies ist besonders hilfreich, wenn Sie ein Problem oder eine Aufgabe konvertiere
 >
 >Wenn die Konvertierung stattfindet, muss das benutzerdefinierte Formular bereits mit dem Objekttyp verknüpft sein, in den Sie konvertieren.
 
-Anweisungen zum Hinzufügen eines Asset-Widgets zu einem benutzerdefinierten Formular finden Sie unter [Hinzufügen oder Bearbeiten von Bildern oder anderen Asset-Widgets in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 Beachten Sie Folgendes, wenn Sie ein benutzerdefiniertes Formular mit mehreren Objekten erstellen oder bearbeiten:
 
 * [Berechtigungsoptionen für Abschnittsumbrüche](#permission-options-for-section-breaks)
@@ -89,8 +85,6 @@ Die für alle anderen Objektarten (Portfolio, Dokument, Programm, Kosten, Untern
 In einem benutzerdefinierten Formular, das mit Objekttypen aus beiden Gruppen verknüpft ist, verwendet das System einen gemeinsamen Satz von Abschnittsumbruchberechtigungen, die für alle Objektarten gelten. Anstatt insbesondere die Option Berechtigung Eingeschränkt bearbeiten zu verwenden, ersetzt dieser allgemeine Satz die Option Berechtigung bearbeiten für die Option Berechtigung Eingeschränkte Bearbeitung . Die Option &quot;Bearbeiten&quot;ist mit allen Objektarten kompatibel.
 
 Wenn Sie einen Objekttyp verknüpfen, der andere Berechtigungsoptionen verwendet als die anderen Objekttypen, die bereits in einem benutzerdefinierten Formular vorhanden sind, wird eine Meldung angezeigt, mit der Sie zu den allgemeinen Berechtigungsoptionen für das Formular wechseln können. Diese Änderung gilt für alle Felder, auch wenn sie sich nicht in einer Abschnittspause befinden.
-
-Weitere Informationen finden Sie unter [Hinzufügen eines Abschnittsumbruchs zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 
 ### Kompatibilität berechneter benutzerdefinierter Felder
 
@@ -125,7 +119,6 @@ In diesem Fall haben Sie folgende Möglichkeiten:
 >
 >  Wenn Sie einen Objekttyp vor einem Feldnamen hinzufügen, verweist er auf das übergeordnete Objekt des Objekts, sodass Sie `{project}.{name}` nicht mit einem Projekt verwenden können, Sie ihn jedoch mit einer Aufgabe verwenden können.
 
-Anweisungen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 Weitere Informationen zu Variablen wie `$$OBJCODE` finden Sie unter [Übersicht über Wildcard-Filtervariablen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1208'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ Bevor Sie einen Benutzer hinzufügen, erfassen Sie die unten aufgeführten Infor
 * In welchem Heimteam sollte dieser Benutzer sein? Sollte die Person in mehr als einem Team sein? Weitere Informationen zu Teams finden Sie unter [Übersicht über Teams](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Welche benutzerdefinierten Informationen müssen Sie mit diesem Benutzer verknüpfen?
 
-  Wenn Informationen zu Benutzern in von Ihnen erstellten benutzerdefinierten Feldern erfasst werden, müssen Sie beim Erstellen eines Benutzers über ein benutzerdefiniertes Formular verfügen. Weitere Informationen zu benutzerdefinierten Formularen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Wenn Informationen zu Benutzern in von Ihnen erstellten benutzerdefinierten Feldern erfasst werden, müssen Sie beim Erstellen eines Benutzers über ein benutzerdefiniertes Formular verfügen. Weitere Informationen zu benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Neuen Benutzer erstellen
 

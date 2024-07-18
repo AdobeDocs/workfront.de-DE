@@ -6,9 +6,9 @@ description: Sie können einen Bericht oder eine Liste in Adobe Workfront erstel
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich 
 
 >[!TIP]
 >
->Sie können auch die Funktionen berechneter benutzerdefinierter Felder erweitern, indem Sie eine Version des Textmodus für benutzerdefinierte Felder verwenden. Syntax und Regeln zum Erstellen eines berechneten benutzerdefinierten Felds unterscheiden sich von denen, die Sie in Berichten und Listen verwenden. Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>Sie können auch die Funktionen berechneter benutzerdefinierter Felder erweitern, indem Sie eine Version des Textmodus für benutzerdefinierte Felder verwenden. Syntax und Regeln zum Erstellen eines berechneten benutzerdefinierten Felds unterscheiden sich von denen, die Sie in Berichten und Listen verwenden. Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir dringend, unsere Klassen für erweiterte Berichte zu verwenden, um ein tieferes Verständnis unserer Textmodussprache zu erhalten. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Es wird empfohlen, den Standardmodus zu verwenden, um sicherzustellen, dass die von Ihnen erstellten Berichte bei der Aktualisierung der Workfront-Software intakt bleiben. Während der Textmodus es Ihnen ermöglicht, komplexere Ansichten, Filter und Gruppierungen zu erstellen, ist die Wartung ebenfalls komplizierter und wird bei der Aktualisierung der Workfront-Software nicht garantiert.
@@ -254,7 +254,6 @@ Weitere Informationen zu häufigen Verwendungen für den Textmodus finden Sie un
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you want to use a custom field in a <code>valueexpression</code> line you must precede the name of the field by <code>DE:</code> to indicate that it is a custom field. The name of the field is spelled as it appears in the interface. </p>
    <note type="important">
    <span>When you use a custom field that is placed in a custom form section that has restricted permissions for some users, the calculation of the valueexpression is blank when those users view this calculation in a report. For information about adjusting permissions on custom form sections, see</span>
-   <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>.
    </note>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, if you have a custom field labeled "Developer Name" and you want to display this field in upper case in a column, you can use the following <code>valueexpression</code> to indicate this:</p>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>valueexpression=UPPER({DE:Developer Name}</code>) </p>

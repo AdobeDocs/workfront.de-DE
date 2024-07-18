@@ -6,9 +6,9 @@ description: Wenn nach dem Absenden des Problems noch mehr Arbeit erforderlich i
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >[!TIP]
    >
    >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten, das an das Problem angehängt ist, für die Verwendung sowohl mit Problemen als auch mit Aufgaben konfiguriert ist, werden alle im Formular gespeicherten Informationen bei der Konvertierung beibehalten, wenn sowohl die Felder für das Problem als auch die benutzerdefinierten Formulare der Aufgabe vorhanden sind.
-   >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten und einem berechneten Feld an das Problem sowie an die Aufgabe angehängt ist, müssen das Problem und die Aufgabe mit allen Feldern kompatibel sein, auf die in den berechneten benutzerdefinierten Feldern des Formulars verwiesen wird. Wenn eine Inkompatibilität vorliegt, werden Sie durch eine Meldung darauf hingewiesen, dass Sie Anpassungen vornehmen müssen. Weitere Informationen finden Sie im Abschnitt &quot;Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten&quot;im Abschnitt [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular mit dem älteren Formular-Builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten und einem berechneten Feld an das Problem sowie an die Aufgabe angehängt ist, müssen das Problem und die Aufgabe mit allen Feldern kompatibel sein, auf die in den berechneten benutzerdefinierten Feldern des Formulars verwiesen wird. Wenn eine Inkompatibilität vorliegt, werden Sie durch eine Meldung darauf hingewiesen, dass Sie Anpassungen vornehmen müssen. Weitere Informationen finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
    >* Wenn beim Bearbeiten des Projekts im Feld &quot;Task Default Custom Forms&quot;Standardformulare für das Zielprojekt definiert sind, werden diese Aufgabenformulare auch der neuen Aufgabe hinzugefügt. Alle benutzerdefinierten Felder, die zwischen dem ursprünglichen Problem und den Feldern in den Standardformularen für Aufgaben vorhanden sind, werden mit Informationen aus den Problemfeldern vorausgefüllt.
 
 

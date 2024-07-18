@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '750'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Ein benutzerdefiniertes Formular muss aktiv sein, damit es im Feld [!UICONTROL B
 
 Sie können ein benutzerdefiniertes Formular beim Bearbeiten des benutzerdefinierten Formulars aktivieren.
 
-Weitere Informationen zum Bearbeiten benutzerdefinierter Formulare und eine Liste von Objekten, mit denen Sie sie verknüpfen können, finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Informationen zum Bearbeiten benutzerdefinierter Formulare und eine Liste von Objekten, mit denen Sie sie verknüpfen können, finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Firmen
 

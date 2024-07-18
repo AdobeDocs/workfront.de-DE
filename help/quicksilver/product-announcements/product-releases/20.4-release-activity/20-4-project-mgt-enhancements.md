@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Um Ihnen mehr Kontrolle darüber zu geben, wer von Ihnen erstellte benutzerdefin
 Bis jetzt war es bei der Erstellung eines benutzerdefinierten Felds für alle Benutzer im System bearbeitbar. Dies ist weiterhin der Standardstatus eines benutzerdefinierten Felds. Jetzt können Sie die Freigabe eines benutzerdefinierten Felds jedoch auf bestimmte Benutzer, Rollen, Teams, Gruppen und Unternehmen beschränken. Sie können bestimmen, ob Ihre Empfänger das benutzerdefinierte Feld verwalten oder nur anzeigen können.
 
 Um Ihnen dieses Erlebnis bekannt zu machen, haben wir die Benutzeroberfläche für diese Funktion so gestaltet, dass sie anderen Objektbereichen ähnelt, die in Workfront gemeinsam genutzt werden.
-
-Weitere Informationen finden Sie unter [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 ## Neu für Administratoren: Standardmäßige Freigabe benutzerdefinierter Formulare
 

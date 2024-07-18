@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -44,4 +44,4 @@ Wenn Sie ein benutzerdefiniertes Formular in der Beta-Version des Formulardesign
 
 Die Bearbeitung vorhandener Logik und das Hinzufügen neuer Logik zu einem benutzerdefinierten Formular sind noch nicht in der Beta-Version des Formularentwurfs verfügbar, sind jedoch für die Zukunft geplant.
 
-Weitere Informationen finden Sie unter [Übersicht über den Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über benutzerdefinierte Formulare](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

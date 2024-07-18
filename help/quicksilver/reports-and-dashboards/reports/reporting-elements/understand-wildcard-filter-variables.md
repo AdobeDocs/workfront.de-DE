@@ -7,9 +7,9 @@ description: Durch die Verwendung von Platzhaltern in Filtern können Sie auf ei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 1%
 
 ---
@@ -222,7 +222,6 @@ Sie können aus den folgenden objektbasierten Platzhaltern wählen:
      <p>Die Variable $$OBJCODE bezieht sich auf den Typ eines Objekts. </p> 
      <p>Wenn in einem benutzerdefinierten Formular die ausgewählten Objekttypen des Formulars nicht mit einem Feld kompatibel sind, auf das in einem berechneten benutzerdefinierten Feld verwiesen wird, können Sie diesen Platzhalter verwenden, um zu vermeiden, dass für diese Objekttypen doppelte Formulare erstellt werden.</p> 
      <p>Im berechneten benutzerdefinierten Feld schließen Sie dazu den Platzhalter in einen IF-Ausdruck ein, damit die Berechnung für die Objekttypen Ihres Formulars unterschiedliche Werte ausgeben kann. </p> 
-     <p>Weitere Informationen und ein Beispiel finden Sie im Abschnitt <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Berechnete benutzerdefinierte Felder in benutzerdefinierten Formularen mit mehreren Objekten</a> im Artikel <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Berechnete Daten zu einem benutzerdefinierten Formular hinzufügen</a>.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

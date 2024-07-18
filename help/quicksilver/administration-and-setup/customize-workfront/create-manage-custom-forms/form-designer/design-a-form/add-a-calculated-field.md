@@ -1,5 +1,5 @@
 ---
-title: Berechnete Felder mit dem Formularentwickler hinzufügen
+title: Berechnete Felder zu einem Formular hinzufügen
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
+source-git-commit: 420c26c22cb1e6c0eab0f4cb0e211922d9ed2350
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
 
-# Berechnete Felder mit dem Formularentwickler hinzufügen
+# Berechnete Felder zu einem Formular hinzufügen
 
 Sie können ein berechnetes benutzerdefiniertes Feld hinzufügen, das vorhandene Daten verwendet, um neue Daten zu generieren, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird.
 

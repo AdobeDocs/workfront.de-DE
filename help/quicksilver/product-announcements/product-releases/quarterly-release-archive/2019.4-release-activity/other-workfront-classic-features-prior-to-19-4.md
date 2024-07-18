@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '354'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,6 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen in Version 2019.4 ve
      <p>Wenn Sie beispielsweise ein Kontrollkästchen-Feld erstellt haben, können Sie es in ein Dropdown-Feld oder ein Optionsfeld ändern. Diese drei Feldanzeigetypen sind austauschbar.</p> 
      <p>Wenn Sie ein einzeiliges Textfeld erstellt haben, können Sie es in ein Absatztext -Feld ändern. Diese beiden Feldanzeigetypen sind austauschbar.</p> 
      <p>Bisher mussten Sie zum Ändern des Anzeigetyps eines benutzerdefinierten Felds ein neues Feld erstellen und das alte löschen. Dies erforderte die Übertragung von Daten, die häufig zeitaufwendig waren.</p> 
-     <p>Weitere Informationen finden Sie unter <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a> im Artikel <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a></p> 
      <div class="workfront_plans"> 
       <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
       <ul> 

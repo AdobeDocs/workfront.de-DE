@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '615'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Wenn ein Benutzer ein Dokument von [!DNL Workfront] an eine [!DNL Workfront] -An
 
 Sie können dasselbe [!DNL Workfront] -Feld verschiedenen Metadatenfeldern in [!DNL Workfront DAM] zuordnen, aber Sie können in keiner dieser Anwendungen ein Metadatenfeld für mehrere [!DNL Workfront] -Metadatenfelder verwenden.
 
-Um mehrere [!DNL Workfront] -Felder für den Export in ein Metadatenfeld in einer [!DNL Workfront] -Anwendung zu konfigurieren, erstellen Sie zunächst ein berechnetes benutzerdefiniertes Feld in [!DNL Workfront], um alle einzelnen benutzerdefinierten Felder eines Objekts anzuzeigen. Ordnen Sie dann das berechnete [!DNL Workfront] -Feld einem Metadatenfeld in der [!DNL Workfront] -Anwendung zu. Weitere Informationen zu berechneten benutzerdefinierten Feldern finden Sie unter [Hinzufügen berechneter Daten zu einem benutzerdefinierten Formular](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Um mehrere [!DNL Workfront] -Felder für den Export in ein Metadatenfeld in einer [!DNL Workfront] -Anwendung zu konfigurieren, erstellen Sie zunächst ein berechnetes benutzerdefiniertes Feld in [!DNL Workfront], um alle einzelnen benutzerdefinierten Felder eines Objekts anzuzeigen. Ordnen Sie dann das berechnete [!DNL Workfront] -Feld einem Metadatenfeld in der [!DNL Workfront] -Anwendung zu. Weitere Informationen zu berechneten benutzerdefinierten Feldern finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Bevor Sie Felder für den Metadaten-Zuordnungsprozess zuordnen können, müssen Sie die Anwendung in [!DNL Workfront] aktivieren. Weitere Informationen finden Sie unter [Dokumentintegrationen konfigurieren](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 

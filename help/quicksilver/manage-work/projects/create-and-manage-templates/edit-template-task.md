@@ -7,9 +7,9 @@ description: Nach der Erstellung einer Vorlage können Sie Informationen zu den 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2385'
 ht-degree: 4%
 
 ---
@@ -350,7 +350,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit der Vorlagenaufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Sie können einer Vorlagenaufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen. Die Formulare werden automatisch zu den aus der Vorlage erstellten Aufgaben hinzugefügt.
+1. Wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit der Vorlagenaufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einer Vorlagenaufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen. Die Formulare werden automatisch zu den aus der Vorlage erstellten Aufgaben hinzugefügt.
 1. (Bedingt und optional) Wenn Sie ein benutzerdefiniertes Formular an die Vorlagenaufgabe angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie die Vorlagenaufgabe speichern können.
 
    >[!NOTE]

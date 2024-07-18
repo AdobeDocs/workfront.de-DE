@@ -6,20 +6,14 @@ description: Beim Zuweisen von Benutzern oder Rollen zu einer Aufgabe werden sie
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Benutzer- und Rollenzuordnungsstunden für Aufgaben
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
-
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Beim Zuweisen von Benutzern oder Rollen zu einer Aufgabe werden sie einer bestimmten Anzahl von Stunden zugewiesen, um die Aufgabe abzuschließen. Sie können die Anzahl der Stunden, die jedem Benutzer oder jeder Auftragsrolle zugewiesen werden, wenn sie einer Aufgabe zugewiesen werden, manuell ändern, wenn der Aufgabendauer-Typ einfach ist.
 
@@ -82,10 +76,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Stellen Sie sicher, dass der **Dauer-Typ** der Aufgabe **einfach** ist.
 1. Ändern Sie die **Zuordnungen** für jeden Aufgabenverantwortlichen. Dies sind die Gesamtzuweisungen für jede Zuweisung zu dieser Aufgabe während der gesamten Dauer der Aufgabe. Dadurch kann auch die Gesamtdauer der geplanten Aufgaben aktualisiert werden.
 
-   Beispielbild in der Produktionsumgebung:
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
-
-   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
    ![Ändern der Zuordnungen](assets/advanced-assignments-duration-type-allocations.png)
 
 1. Klicken Sie auf **Speichern**.

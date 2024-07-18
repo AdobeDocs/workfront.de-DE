@@ -5,9 +5,9 @@ description: Benutzerdefinierter Forms wird verwendet, um Informationen zu erfas
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Benutzerdefinierter Forms wird verwendet, um Informationen zu erfassen, die nicht in vorhandenen Adobe Workfront-Feldern angezeigt werden. 
 
-Weitere Informationen zum Erstellen eines benutzerdefinierten Forms finden Sie im Artikel [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Weitere Informationen zum Erstellen von benutzerdefinierten Forms finden Sie im Artikel [Formular mit dem Formularentwickler entwerfen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
 

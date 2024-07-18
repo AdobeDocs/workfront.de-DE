@@ -5,9 +5,9 @@ title: Arbeiten über Zeitzonen hinweg
 description: Es kann hilfreich sein, zu verstehen, wie [!DNL Adobe Workfront] Zeitzonen verwendet, um Zeitfelder für Objekte und Uhrzeiten in anderen Bereichen wie E-Mails zu berechnen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -111,10 +111,10 @@ Sie können Benutzern auf verschiedene Weise dabei helfen, einfacher über mehre
 
 Sie können eine Reihe berechneter benutzerdefinierter Felder in einem benutzerdefinierten Formular verwenden, um die aktuelle Zeit für Benutzer in Ihrer Organisation anzuzeigen, z. B. eine Reihe von Flughafenuhren, die die Zeit in mehreren Städten anzeigen. Sie können für jede Zeitzone, in der Ihre Benutzer arbeiten, ein Feld erstellen, in dem die Zeit für die Zeitzone berechnet wird.
 
-Weitere Informationen finden Sie unter [Berechnete Daten zu einem benutzerdefinierten Formular hinzufügen](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) sowie im Abschnitt [Berechnete benutzerdefinierte Felder für Datum und Uhrzeit](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) im Artikel [Übersicht der berechneten Datenausdrücke](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Weitere Informationen finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) sowie im Abschnitt [Berechnete benutzerdefinierte Felder für Datum und Uhrzeit](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) im Artikel [Übersicht über berechnete Datenausdrücke](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Verwenden Sie in einem benutzerdefinierten Formular Textfelder anstelle von Datumsfeldern. {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
 Wenn Sie nicht möchten, dass [!DNL Workfront] die Zeiten, für die Sie in einem Objekt konfigurieren, für Benutzer in verschiedenen Zeitzonen konvertiert, können Sie ein Textfeld in einem benutzerdefinierten Formular verwenden, das Sie an ein Objekt anhängen, und nicht ein Datumsfeld. Auf diese Weise zeigt die Zeit die Zeit an, die Sie für jeden im Projekt eingeben.
 
-Wenn Sie dies tun, empfehlen wir, die Benutzer des Formulars daran zu erinnern, den Unterschied zwischen ihrer Zeitzone und Ihrer zu berechnen, damit sie bestimmen können, wann die Arbeit beginnen und enden soll. Sie können dies in die Anweisungen aufnehmen, die Sie für das benutzerdefinierte Formular eingeben, oder in eine QuickInfo für dieses Feld. Weitere Informationen finden Sie unter [Hinzufügen eines benutzerdefinierten Felds zu einem benutzerdefinierten Formular](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+Wenn Sie dies tun, empfehlen wir, die Benutzer des Formulars daran zu erinnern, den Unterschied zwischen ihrer Zeitzone und Ihrer zu berechnen, damit sie bestimmen können, wann die Arbeit beginnen und enden soll. Sie können dies in die Anweisungen aufnehmen, die Sie für das benutzerdefinierte Formular eingeben, oder in eine QuickInfo für dieses Feld. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

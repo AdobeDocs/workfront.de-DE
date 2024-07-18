@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [20.3
 Wenn der Systemadministrator jetzt benutzerdefinierte Formularfelder erstellt, die für die Formatierung konfiguriert sind, können Sie den Text in den Feldern formatieren, in denen Sie ihn am häufigsten verwenden: in Listen in Workfront. Anstatt in den Bereich &quot;Details&quot;zu wechseln, um Text im benutzerdefinierten Formular zu formatieren, können Sie auf ein Feld in einer Liste klicken und dort &quot;Fett&quot;, &quot;Kursiv&quot;und &quot;Unterstrichen&quot;auf Text anwenden.
 
 Beachten Sie, dass diese Funktion nur in den aktualisierten Listen verfügbar ist. Weitere Informationen zu aktualisierten Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
-
-Informationen dazu, wie ein Workfront-Administrator Textfelder mit Formatierung erstellt, finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Aktualisiertes Erscheinungsbild verschiedener globaler Kopfzeilen
 
@@ -113,5 +111,4 @@ Um Ihnen mehr Flexibilität bei der Beschriftung und Umbenennung von benutzerdef
 
 In der Vergangenheit wurde die Beschriftung sowohl über dem Feld für Benutzer angezeigt als auch vom System verwendet, um das Feld zu identifizieren. Das Ändern der Beschriftung für Benutzer führte dazu, dass das Feld überall dort fehlschlug, wo es verwendet wurde, da es vom System nicht mehr identifiziert werden konnte.
 
-Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

@@ -7,7 +7,7 @@ description: Sie können auswählen, ob Sie monatlich oder vierteljährlich neue
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Erstellen und Bearbeiten von Geschäftsregeln
-
-{{highlighted-preview-article-level}}
 
 Mit einer Geschäftsregel können Sie eine Validierung auf Workfront-Objekte anwenden und verhindern, dass Benutzer ein Objekt erstellen, bearbeiten oder löschen, wenn bestimmte Bedingungen erfüllt sind. Geschäftsregeln helfen bei der Verbesserung der Datenqualität und der betrieblichen Effizienz, indem sie Aktionen verhindern, die die Datenintegrität beeinträchtigen könnten.
 

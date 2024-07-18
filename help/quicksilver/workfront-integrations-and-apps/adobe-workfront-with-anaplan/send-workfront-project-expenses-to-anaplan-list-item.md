@@ -6,9 +6,9 @@ description: Dieses Integrationsszenario teilt die aufwendigen Details eines [!D
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Sie müssen Folgendes in [!DNL Workfront] haben, um dieses Szenario zu verwenden
   | [!UICONTROL Letztes Übermittlungsdatum] | Datum |
   | [!UICONTROL Integrationshinweise] | Absatztextfeld |
 
-  Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Erwartete [!DNL Anaplan] Konfiguration
 

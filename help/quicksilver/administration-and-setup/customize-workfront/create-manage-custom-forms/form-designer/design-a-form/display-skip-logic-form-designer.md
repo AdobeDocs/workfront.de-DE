@@ -1,5 +1,5 @@
 ---
-title: Fügen Sie die Anzeigenlogik hinzu und überspringen Sie die Logik mit dem Formularentwickler
+title: Hinzufügen der Anzeigenlogik und Überspringen der Logik zu einem Formular
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
 
-# Fügen Sie die Anzeigenlogik hinzu und überspringen Sie die Logik mit dem Formularentwickler
+# Hinzufügen der Anzeigenlogik und Überspringen der Logik zu einem Formular
 
 Sie können festlegen, welche Abschnitte eines benutzerdefinierten Formulars angezeigt oder übersprungen werden sollen, je nach den Optionen, die ein Benutzer beim Ausfüllen vornimmt.
 
