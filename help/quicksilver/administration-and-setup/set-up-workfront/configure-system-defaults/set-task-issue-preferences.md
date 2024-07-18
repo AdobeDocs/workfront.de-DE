@@ -74,7 +74,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Bearbeiten Sie es</a> </li>
-  --&gt;
+  -->
 
 * [[!UICONTROL Zugriff]](#access)
 
@@ -118,7 +118,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader" [!UICONTROL>Beim Konvertieren eines Problems in eine Aufgabe]</td> 
+    <td role="rowheader"> [!UICONTROL Beim Konvertieren eines Problems in eine Aufgabe]</td> 
     <td> <p>Die Einstellungen in diesem Abschnitt bestimmen, was während des Konvertierungsprozesses von Problem zu Aufgabe geschieht:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Behalten Sie das ursprüngliche Problem bei und binden Sie seine Lösung an die Aufgabe]</strong>: Wenn Sie das Problem konvertieren, bleibt es als Problem sichtbar, bis die Aufgabe abgeschlossen ist. Der Status des Problems ändert sich automatisch in [!UICONTROL Geschlossen] , wenn die Aufgabe abgeschlossen ist. Wenn diese Option deaktiviert ist, wird das Problem gelöscht.</p> <p><b>NOTE</b>:  <p>Benutzer ohne Zugriff oder Berechtigung zum Löschen von Problemen können das Problem beim Konvertieren nicht löschen, unabhängig vom Status dieser Einstellung. Informationen zum Zugriff auf und zu Berechtigungen für Probleme finden Sie unter:</p> 
