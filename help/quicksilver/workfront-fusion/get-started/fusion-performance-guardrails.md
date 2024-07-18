@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 8c25835525cc58db0dbe9b22d4f286330e3cb001
+source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 1%
+source-wordcount: '601'
+ht-degree: 0%
 
 ---
 
@@ -72,6 +72,7 @@ Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung, daher ist [!DNL
 ## Ausführungsverlauf
 
 * Die Ausführungsverlauflogs sind auf eine Größe von **100 MB** beschränkt. Wenn der Ausführungsverlauf diese Größe überschreitet, werden nur die ersten 100 MB angezeigt.
+* Wenn ein Szenario mehrere gleichzeitige Ausführungen hat. Nur fünf Ausführungen werden im Bereich &quot;Ausführungen&quot;der Seite mit den Szenariodetails angezeigt. Dies gilt auch dann, wenn mehr als fünf Ausführungen ausgeführt werden.
 
 ## Unvollständige Ausführungen
 
