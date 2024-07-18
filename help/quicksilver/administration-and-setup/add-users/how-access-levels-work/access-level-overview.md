@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1745'
 ht-degree: 5%
 
 ---
@@ -281,8 +281,8 @@ Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Ob
 | Projekt |   | ✓ |   |
 | Aufgabe |   | ✓ |   |
 | Problem |   |   | ✓ |
-| Portfolios | ✓ |   |   |
-| Programme | ✓ |   |   |
+| Portfolios |   | ✓ |   |
+| Programme |   | ✓ |   |
 | Berichte (einschließlich Dashboards und Kalenderberichten) |   | ✓ (Registerkarte &quot;Nur Details&quot;) |   |
 | Filter, Ansichten und Gruppierungen |   |   | ✓ |
 | Dokument |   |   | ✓ |
@@ -297,6 +297,13 @@ Im Folgenden finden Sie die höchsten verfügbaren Zugriffseinstellungen für Ob
 | Ziele |   |   | ✓ |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>Ab Version 24.7 haben Mitarbeiter standardmäßig Zugriff auf Programme und Portfolios in der Ansicht.
+>
+> 
+>Mitarbeiter, die vor Version 24.7 integriert wurden, haben standardmäßig keinen Zugriff auf Programme und Portfolios. Bei Bedarf können Sie den Zugriff auf die Ansicht manuell aktualisieren.
 
 ### Zugriffsstufe für externe Benutzer
 
