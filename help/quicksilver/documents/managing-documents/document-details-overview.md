@@ -7,9 +7,9 @@ description: Auf der Seite "Dokumentdetails"können Sie die Eigenschaften eines 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '203'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Auf der Seite &quot;Dokumentdetails&quot;können Sie die Eigenschaften eines Dok
 
 ## Öffnen Sie die Seite &quot;Dokumentdetails&quot;
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Dokumente**.![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf **Dokumentdetails**.
 

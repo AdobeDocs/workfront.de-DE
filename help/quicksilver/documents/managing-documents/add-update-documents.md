@@ -6,9 +6,9 @@ description: Sie können Aktualisierungen eines Dokuments hinzufügen oder darau
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Sie können Aktualisierungen eines Dokuments hinzufügen oder darauf antworten, um mit Mitwirkenden zu kommunizieren und ein Audit-Protokoll zu erstellen. Weitere Informationen zum Hinzufügen von Aktualisierungen zu Arbeitselementen finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -50,6 +52,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Hinzufügen von Dokumentaktualisierungen oder Antworten darauf
 

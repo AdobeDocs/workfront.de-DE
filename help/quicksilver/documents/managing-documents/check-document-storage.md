@@ -6,9 +6,9 @@ description: Es gibt zwar keine Einschränkungen in Bezug auf die Typen und Grö
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Es gibt zwar keine Einschränkungen in Bezug auf die Typen und Größen einzelner Dateien, die Benutzer in Ihre Workfront-Instanz hochladen können, doch gibt es eine Beschränkung für den Workfront-Plan in Bezug auf die Gesamtmenge des von Ihrer Workfront-Instanz verwendeten Speichers. Als Adobe Workfront-Administrator überwachen Sie den Dokumentenspeicher Ihrer Instanz im Bereich &quot;Einrichtung&quot;.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -38,9 +40,12 @@ Sie müssen über Folgendes verfügen:
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
+
 ## Dokumentenspeicher überprüfen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
+
 1. Klicken Sie im linken Bereich auf **System** > **Kundeninformationen**.
 1. Suchen Sie im Abschnitt **Grundlegende Informationen** nach **Speicherkontingent**. Hier können Sie sehen, wie viel Speicher Sie derzeit verwenden und wie viel Gesamtspeicher Ihr Workfront-Plan beinhaltet.
 

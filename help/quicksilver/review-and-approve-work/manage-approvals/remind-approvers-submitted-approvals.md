@@ -6,9 +6,9 @@ description: Sie können Genehmiger an ausstehende Genehmigungen für Objekte in
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,8 @@ Sie können Genehmiger an ausstehende Genehmigungen für die folgenden Objekte e
 * Dokumente
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,7 +49,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Alle Anforderungen
 

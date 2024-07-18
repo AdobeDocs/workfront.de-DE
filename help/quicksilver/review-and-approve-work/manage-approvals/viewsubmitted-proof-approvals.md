@@ -6,9 +6,9 @@ description: Genehmigungen zur Prüfung werden nur dann im Bereich "Home"angezei
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Genehmigungen zur Prüfung werden nur dann im Bereich &quot;Home&quot;angezeigt, wenn Ihre Adobe Workfront-Umgebung mit einem Workfront Proof Premium-Konto integriert ist. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie die Proofing-Funktion nicht wie hier beschrieben verwenden können.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,7 +46,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Anzeigen gesendeter Testversandgenehmigungen
 

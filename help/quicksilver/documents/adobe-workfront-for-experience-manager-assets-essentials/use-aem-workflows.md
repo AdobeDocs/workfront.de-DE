@@ -6,9 +6,9 @@ description: Verwenden von Workflows in der Integration von Experience Manager A
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Exper
 
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -62,6 +64,8 @@ Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <
    </td>
   </tr>
 </table>
+
++++
 
 ## Voraussetzungen
 
@@ -145,7 +149,6 @@ Alle Workflow-Werte finden Sie unter:
 >Da verknüpfte Ordner beim Erstellen des Projekts erstellt werden, ist die Bearbeitung des Workflows für verknüpfte Ordner in einem vorhandenen Projekt nicht wirksam. Die Bearbeitung dieser Werte beim Erstellen eines Projekts funktioniert erwartungsgemäß.
 
 So bearbeiten Sie den Workflow für verknüpfte Ordner:
-
 
 1. Schalten Sie den Ordner **[!UICONTROL Verknüpften Ordner erstellen]** nach Bedarf ein oder aus. Wenn Sie sie aktivieren, können Sie die Konfiguration des verknüpften Ordners bearbeiten.
 

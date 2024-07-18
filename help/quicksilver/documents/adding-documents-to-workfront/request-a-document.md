@@ -6,9 +6,9 @@ description: Sie können ein Dokument für jedes Objekt anfordern, das Dokumente
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,9 @@ ht-degree: 0%
 Sie können ein Dokument für jedes Objekt anfordern, das Dokumente unterstützt.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 
 Sie müssen über Folgendes verfügen:
 
@@ -42,7 +45,9 @@ Sie müssen über Folgendes verfügen:
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Anfordern eines Dokuments
++++
+
+## Dokument anfordern
 
 1. Wechseln Sie zu dem Bereich, in dem sich das gewünschte Dokument befinden soll.
 1. Klicken Sie auf die Registerkarte **Dokumente**. 

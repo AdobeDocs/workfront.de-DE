@@ -6,9 +6,9 @@ description: Sie können mehrere Versionen eines Dokuments in Workfront verwalte
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Sie können mehrere Versionen eines Dokuments in Workfront verwalten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -45,6 +47,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Voraussetzungen
 

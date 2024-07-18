@@ -6,9 +6,9 @@ description: Sie können ein Dokument auschecken, um zu verhindern, dass andere 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Sie können ein Dokument auschecken, um zu verhindern, dass andere Benutzer es löschen oder eine neue Version hochladen. Es kann jeweils nur ein Benutzer ein Dokument auschecken. Sie können alle Dokumente auschecken, die in Adobe Workfront hochgeladen wurden, sowie Dokumente, die mit Dokumentanbietern von Drittanbietern verknüpft sind (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint oder andere benutzerdefinierte Anbieter). 
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -45,6 +47,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Aktionen, die bei ausgecheckten Dokumenten zulässig sind
 

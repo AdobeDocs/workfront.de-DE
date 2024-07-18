@@ -6,9 +6,9 @@ description: Durch die Delegierung von Validierungsanfragen können Sie einen an
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Sie können keine Zeitblatt-, Dokument- oder Testversandgenehmigungen delegieren
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan oder welchen Lizenztyp Sie haben.
+
++++
 
 ## Grundlegendes zum Benutzerzugriff für delegierte Genehmigungen
 
@@ -79,9 +83,7 @@ Nachdem die Genehmigungsdelegierung beendet oder abgebrochen wurde, hat der Benu
 
 ## Delegieren von Genehmigungsanfragen im Startbereich
 
-* [Delegieren Ihrer Genehmigungen an einen anderen Benutzer](#delegate-your-approvals-to-another-user)
-* [Aktualisieren oder Anhalten einer Genehmigungsdelegierung](#update-or-stop-an-approval-delegation)
-* [Delegierte Genehmigungen anzeigen](#view-delegated-approvals)
+Sie können Genehmigungsanfragen über den Bereich &quot;Startseite&quot;delegieren.
 
 ### Delegieren von Genehmigungen an einen anderen Benutzer {#delegate-your-approvals-to-another-user}
 

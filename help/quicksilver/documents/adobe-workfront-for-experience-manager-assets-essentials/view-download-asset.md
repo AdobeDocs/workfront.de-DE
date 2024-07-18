@@ -6,9 +6,9 @@ description: Sie können ein Asset in Adobe Workfront anzeigen oder herunterlade
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: 3b063899c5c7992aad71d1eb8c8fafff7fda84c3
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Sie können ein Asset in Adobe Workfront anzeigen oder herunterladen, das über Experience Manager Assets oder Assets Essentials verknüpft ist.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -49,6 +51,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Voraussetzungen
 

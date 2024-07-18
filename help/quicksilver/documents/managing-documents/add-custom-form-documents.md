@@ -6,9 +6,9 @@ description: Sie können ein benutzerdefiniertes Formular zu einem Dokument oder
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Sie können ein benutzerdefiniertes Formular zu einem Dokument oder einer Dokumentversion hinzufügen, um zusätzliche Informationen oder Metadaten zu erfassen, die für Ihre Assets spezifisch sind.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -45,6 +47,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Voraussetzungen
 

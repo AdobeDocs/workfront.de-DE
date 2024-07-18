@@ -6,9 +6,9 @@ description: Sie können Dokumente aus Adobe Workfront einzeln oder in großen M
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Sie können Dokumente aus Adobe Workfront einzeln oder in großen Mengen herunterladen. Dokumente können von jedem Bereich heruntergeladen werden, der Dokumente in Workfront enthält. 
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -45,6 +47,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Herunterladen eines einzelnen Dokuments
 

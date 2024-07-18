@@ -6,9 +6,9 @@ description: Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmig
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstelle
 Informationen zum Verknüpfen von Genehmigungen mit Arbeiten in Workfront finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -48,7 +50,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Suchen von Genehmigungen in Adobe Workfront
 
@@ -111,16 +115,13 @@ Sie können den Genehmigungsstatus eines Objekts in den folgenden Abschnitten de
  </tbody> 
 </table>
 
-* [Verwenden Sie den Bereich Updates , um einen Genehmigungsstatus anzuzeigen](#use-the-updates-area-to-view-an-approval-status)
-* [Verwenden Sie den Bereich Genehmigungen , um einen Genehmigungsstatus anzuzeigen.](#use-the-approvals-area-to-view-an-approval-status)
-
 ### Im Bereich Updates können Sie einen Genehmigungsstatus anzeigen. {#use-the-updates-area-to-view-an-approval-status}
 
 Wenn eine Genehmigung für ein Projekt, eine Aufgabe oder ein Problem eingeleitet wird, wird auf der Registerkarte **Aktualisierungen** des Objekts ein Status angezeigt, der den Genehmigungsstatus angibt. Ein neuer Status wird immer dann angezeigt, wenn das Objekt durch den Genehmigungsprozess wechselt. Dazu gehören die folgenden Ereignisse:
 
 * Ein Genehmigungsprozess wird für ein Objekt eingeleitet. Der Validierungsprozess wird bei Änderung des Status eingeleitet.
 * Das Objekt wird zurückgewiesen
-* Das Objekt wird genehmigt 
+* Das Objekt wird genehmigt
 
 >[!TIP]
 >

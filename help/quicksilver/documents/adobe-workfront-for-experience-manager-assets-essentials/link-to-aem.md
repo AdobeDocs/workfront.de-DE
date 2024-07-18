@@ -6,9 +6,9 @@ description: Sie können ein Asset oder einen Ordner aus Experience Manager Asse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Sie können ein Asset oder einen Ordner aus Experience Manager Assets oder Asset
 Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Experience Manager Assets oder Assets Essentials senden. Wenn Ihr Workfront-Administrator die Synchronisierung von Objektmetadaten aktiviert hat, bleiben die Felder immer auf dem neuesten Stand, wenn sie in beiden Anwendungen geändert werden.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -55,6 +57,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Voraussetzungen
 

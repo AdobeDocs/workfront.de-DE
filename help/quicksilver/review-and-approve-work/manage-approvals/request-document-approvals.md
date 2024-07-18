@@ -6,9 +6,9 @@ description: Sie können die Genehmigung von Managern oder anderen Benutzern fü
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 9a32fcc876efd5d5250b515c1c285f5375615510
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Sie können die Genehmigung von Managern oder anderen Benutzern für ein Dokument in Adobe Workfront anfordern. Sie können auch Dokumentgenehmigungen von Personen ohne Workfront-Konten anfordern, wenn Ihr Workfront-Administrator diese Funktion aktiviert hat, wie in [Systemsicherheitseinstellungen konfigurieren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) beschrieben.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,7 +46,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Dokumentgenehmigung anfordern
 

@@ -6,9 +6,9 @@ description: Sie können weitere Genehmiger zu einer Dokumentgenehmigung direkt 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Sie können weitere Genehmiger zu einer Dokumentgenehmigung direkt über den Bereich Startseite hinzufügen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,7 +46,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Zusätzliche Genehmiger zu gesendeten Dokumentgenehmigungen hinzufügen
 

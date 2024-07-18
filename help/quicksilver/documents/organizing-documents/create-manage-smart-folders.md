@@ -6,9 +6,9 @@ description: Smart-Ordner werden verwendet, um Dokumente außerhalb eines Projek
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Smart-Ordner werden verwendet, um Dokumente außerhalb eines Projekts, einer Auf
 Standardmäßig stehen Ihnen beim ersten Zugriff auf den Bereich &quot;Dokumente&quot;zwei intelligente Ordner zur Verfügung: &quot;Alle Dokumente&quot;und &quot;Zuletzt&quot;. Sie können standardmäßige Smart-Ordner bearbeiten, umbenennen oder kopieren, aber nicht löschen. Sie können zusätzliche Smart-Ordner erstellen, um anderen Anforderungen an die Asset-Verwaltung zu entsprechen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,6 +45,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Anzeigen intelligenter Ordner 
 
@@ -88,7 +92,7 @@ Sie können Ordner in der Miniatur-, Standard- oder Listenansicht anzeigen. Um d
 
 1. Nehmen Sie Ihre Änderungen vor und klicken Sie dann auf **Ordner speichern**.
 
-## Smart-Ordner löschen 
+## Smart-Ordner löschen
 
 1. Wechseln Sie zum Bereich **Dokumente** , der den Smart-Ordner enthält, den Sie löschen möchten.
 1. Klicken Sie in der Spalte **Ordner** auf den Dropdown-Pfeil neben dem Smart-Ordner, den Sie löschen möchten.

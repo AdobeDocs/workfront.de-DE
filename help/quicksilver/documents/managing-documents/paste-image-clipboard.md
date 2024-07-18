@@ -6,9 +6,9 @@ description: Sie können eine Bilddatei zu Adobe Workfront hinzufügen, indem Si
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 399c56757839a670a39b942d6b57992bd4f94cdc
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Diese Funktion ist browserspezifisch wie folgt:
 * **Safari:** Diese Funktion wird nicht unterstützt.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -56,6 +58,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Aus der Zwischenablage einfügen
 

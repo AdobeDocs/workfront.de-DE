@@ -6,9 +6,9 @@ description: Validierung der Arbeit
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstelle
 Informationen zum Verknüpfen von Genehmigungen mit Arbeiten in Workfront finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -52,7 +54,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Suchen von Genehmigungen in Adobe Workfront
 

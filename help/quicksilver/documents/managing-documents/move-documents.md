@@ -6,9 +6,9 @@ description: Ein Benutzer mit Verwaltungsrechten für ein Dokument kann das Doku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Wenn Sie ein Dokument verschieben, wird auch eine der folgenden Aktionen mit dem
 * Dokumentgenehmigungen
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -54,6 +56,8 @@ Sie müssen über Folgendes verfügen:
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
+
 ## Verschieben von Dokumenten
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
@@ -66,4 +70,4 @@ Sie müssen über Folgendes verfügen:
 
 1. Klicken Sie auf **Beenden**.
 
-Sie können ein Dokument auch von der Seite &quot;Dokumentdetails&quot;verschieben. Weitere Informationen finden Sie im Artikel .
+Sie können ein Dokument auch von der Seite &quot;Dokumentdetails&quot;verschieben.

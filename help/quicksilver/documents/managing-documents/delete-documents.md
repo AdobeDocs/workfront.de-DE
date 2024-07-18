@@ -6,9 +6,9 @@ description: Sie können hochgeladene Dokumente löschen. Wenn Sie Zugriff auf b
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '234'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Sie können hochgeladene Dokumente löschen. Wenn Sie Zugriff auf bestimmte Dokumente erhalten, können Sie diese ebenfalls löschen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -45,6 +47,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 So löschen Sie ein Dokument:
 

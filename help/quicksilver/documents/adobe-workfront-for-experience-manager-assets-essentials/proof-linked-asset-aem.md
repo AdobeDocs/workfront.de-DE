@@ -6,9 +6,9 @@ description: Nachdem Sie ein Asset aus Experience Manager Assets Essentials verk
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 3b063899c5c7992aad71d1eb8c8fafff7fda84c3
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Nachdem Sie ein Asset aus Experience Manager Assets Essentials verknüpft haben, können Sie einen Testversand erstellen und Benutzer zum Überprüfen und Hinzufügen von Kommentaren zum Asset zuweisen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -50,7 +52,9 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Voraussetzungen
 

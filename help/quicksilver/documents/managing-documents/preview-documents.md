@@ -6,9 +6,9 @@ description: Sie können eine Vorschau eines Dokuments im Bereich "Dokumente"anz
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Sie können eine Vorschau eines Dokuments im Bereich &quot;Dokumente&quot;anzeigen. Dies ist besonders für Bilder nützlich.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -47,6 +49,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Dokumentvorschau
 

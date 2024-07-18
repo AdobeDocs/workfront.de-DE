@@ -6,9 +6,9 @@ description: Sie können einen Link für jeden Dokumentordner kopieren, der in e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Sie können einen direkten Link für jeden Dokumentordner kopieren, der in einem der folgenden [!DNL Workfront]-Objekte enthalten ist: [!UICONTROL Programm], [!UICONTROL Portfolio], [!UICONTROL Projekt], [!UICONTROL Aufgabe] oder [!UICONTROL Problem]. Sie können einen Link für keine Ordner im Bereich [!UICONTROL Dokumente] aus dem Hauptmenü kopieren, da diese Ordner direkt mit Ihrem Benutzerprofil verknüpft sind und nicht für andere freigegeben werden können.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,6 +44,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Kopieren und Freigeben eines Links zu einem Dokumentordner
 

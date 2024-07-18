@@ -7,9 +7,9 @@ description: Im Bedienfeld Dokumentdetails und Zusammenfassung für Dokumente wi
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Im Bedienfeld Dokumentdetails und Zusammenfassung für Dokumente wird eine Echtzeitansicht der zugeordneten Metadaten angezeigt. Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Experience Manager Assets oder Assets Essentials senden. Wenn Ihr Workfront-Administrator die Synchronisierung von Objektmetadaten aktiviert hat, bleiben die Felder immer auf dem neuesten Stand, wenn sie in beiden Anwendungen geändert werden.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -62,6 +64,7 @@ Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
 
 ## Voraussetzungen
 
@@ -77,6 +80,7 @@ So öffnen Sie das Metadatenbedienfeld in den Dokumentdetails:
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 1. Bewegen Sie den Mauszeiger über das gewünschte Dokument und wählen Sie dann **Dokumentdetails** aus.
 1. Suchen und erweitern Sie den Abschnitt **Metadaten** .
+
    >[!NOTE]
    >
    >Die Felder in diesem Abschnitt können nicht bearbeitet werden. Sie sind schreibgeschützt.
@@ -91,6 +95,7 @@ So öffnen Sie das Metadatenbedienfeld im Bereich &quot;Zusammenfassung&quot;:
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 1. Suchen Sie das gewünschte Dokument.
 1. Klicken Sie auf das Symbol **Zusammenfassung** ![Zusammenfassung](assets/summary-panel-icon.png) und erweitern Sie dann den Abschnitt **Metadaten** .
+
    >[!NOTE]
    >
    >Die Felder in diesem Abschnitt können nicht bearbeitet werden. Sie sind schreibgeschützt.

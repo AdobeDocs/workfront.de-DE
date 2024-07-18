@@ -6,9 +6,9 @@ description: Dokumente können in Ordner unterteilt werden. Sie können persönl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Dokumente können in Ordner unterteilt werden. Sie können persönliche Ordner i
 >Beim Organisieren von Dokumenten werden lediglich Verknüpfungen zwischen den Dokumenten und den Objekten erstellt, mit denen Sie sie verknüpfen. Sie werden nicht im System umgelenkt.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,15 +48,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
+
 ## Ordner anzeigen
 
 Sie können Ordner in der Miniatur-, Standard- oder Listenansicht anzeigen. Um die Ansicht zu ändern, verwenden Sie die Ansichtsoptionen in der oberen rechten Ecke.
 
-1. Klicken Sie im Hauptmenü auf **Dokumente** . ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   Oder
+Oder
 
-   Klicken Sie bei geöffnetem Workfront-Objekt im linken Bereich auf **Dokumente** .
+Klicken Sie bei geöffnetem Workfront-Objekt im linken Bereich auf **Dokumente** .
 
 1. Klicken Sie auf die Ansichtsoptionen über dem rechten Bereich, um die Darstellung der Dokumente zu ändern.
 
@@ -64,11 +68,11 @@ Sie können Ordner in der Miniatur-, Standard- oder Listenansicht anzeigen. Um d
 
 Erstellen Sie Ordner, um Ihre Dokumente besser zu organisieren. Sie können bis zu 2.000 Ordner für ein Objekt und bis zu 50 Unterordner für jeden Ordner erstellen. Unterordner werden auf maximal 2.000 Ordner angerechnet.
 
-1. Klicken Sie im Hauptmenü auf **Dokumente** . ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   Oder
+Oder
 
-   Klicken Sie bei geöffnetem Workfront-Objekt im linken Bereich auf **Dokumente** .
+Klicken Sie bei geöffnetem Workfront-Objekt im linken Bereich auf **Dokumente** .
 
 1. Um einen Ordner der obersten Ebene zu erstellen, stellen Sie sicher, dass nichts ausgewählt ist, und klicken Sie dann auf **Neu hinzufügen** > **Ordner**.
 

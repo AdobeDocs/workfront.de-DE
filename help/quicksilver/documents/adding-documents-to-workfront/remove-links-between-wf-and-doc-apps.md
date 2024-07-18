@@ -6,9 +6,9 @@ description: Beim erstmaligen Hochladen eines Dokuments von einem Dienst fordert
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Informationen zum Verknüpfen externer Dokumentdienste mit Workfront finden Sie 
 Da es sich bei dem Dokumentdienst um den Dienst handelt, der die Berechtigung zum Verknüpfen mit Workfront zulässt, ist es nicht möglich, dass Workfront die vom Dokumentdienst erteilte Berechtigung entfernt. Sie müssen die Berechtigung aus der Document Service-Anwendung entfernen oder Sie müssen unser Support-Team anrufen, um diesen Link von unseren Servern zu entfernen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -45,6 +47,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Entfernen Sie die Verknüpfung zwischen Workfront und Dropbox
 

@@ -7,9 +7,9 @@ description: Sie können einen Ordner erstellen, der mit Experience Manager Asse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Sie können einen Ordner erstellen, der mit Experience Manager Assets oder Asset
 
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -59,6 +61,7 @@ Sie müssen über Folgendes verfügen:
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
 
 ## Voraussetzungen
 
@@ -74,8 +77,6 @@ Der verknüpfte Ordner wird an dem Speicherort erstellt, der vom Workfront-Admin
 Der Name des verknüpften Ordners wird automatisch basierend auf dem Portfolio, dem Programm und dem zugehörigen Projekt erstellt und kann nicht geändert werden. Wenn das Projekt keinem Portfolio oder Programm zugeordnet ist, zeigt der verknüpfte Ordner den Projektnamen und das Erstellungsdatum an.
 
 So erstellen Sie einen verknüpften Ordner:
-
-
 
 1. Wechseln Sie zu dem Projekt, in dem Sie den Ordner ablegen möchten.
 1. Wählen Sie **Neu hinzufügen** und gehen Sie dann zur Experience Manager-Integration, die Ihr Administrator eingerichtet hat.

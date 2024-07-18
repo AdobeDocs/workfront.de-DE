@@ -6,9 +6,9 @@ description: Sie können eine neue Version eines Dokuments hinzufügen, das Sie 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Wenn das Dokument einen Testversand enthält und Sie eine neue Version des Testd
 Informationen zum Hinzufügen einer neuen Version eines mit Workfront verknüpften Dokuments aus einer externen Anwendung finden Sie unter [Hinzufügen einer neuen Version eines verknüpften Dokuments](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) in [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -53,6 +55,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Drag &amp; Drop zum Hinzufügen einer neuen Version
 
