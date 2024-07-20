@@ -6,16 +6,14 @@ description: Sie können Genehmigungsvorlagen erstellen, um Ihren Genehmigungspr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
+source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '226'
 ht-degree: 2%
 
 ---
 
 # Erstellen einer Genehmigungsvorlage für Assets und Dokumente
-
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Im Workfront-Setup-Bereich können Benutzer mit einer Standardlizenz wiederverwendbare Genehmigungsvorlagen erstellen. Nach der Erstellung können Genehmigungsvorlagen auf Assets im Bereich &quot;Dokumente&quot;eines Projekts, einer Aufgabe oder eines Problems angewendet werden.
 
@@ -24,6 +22,8 @@ Im Workfront-Setup-Bereich können Benutzer mit einer Standardlizenz wiederverwe
 >Der Inhalt dieses Artikels bezieht sich auf die aktualisierte Funktion zur Dokumentgenehmigung, die nur für bestimmte Konten verfügbar ist. Informationen zu Standardgenehmigungsverfahren finden Sie in den Artikeln unter [Arbeitsgenehmigungen](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,6 +46,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erstellen einer Validierungsvorlage
 

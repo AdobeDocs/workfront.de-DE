@@ -6,7 +6,7 @@ title: "Erstellen einer Überprüfungs- oder Genehmigungsanforderung für ein Fr
 description: Sie können eine Überprüfungs- oder Genehmigungsanfrage für mit Frame.io verbundene Assets erstellen.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Hinzufügen**.
 
-![](assets/doc-summary-add-approvers.png)
+   ![](assets/doc-summary-add-approvers.png)
 
 1. (Optional) Legen Sie einen Termin für die Genehmigung fest. Benutzer und Teams werden per E-Mail 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist benachrichtigt.
 

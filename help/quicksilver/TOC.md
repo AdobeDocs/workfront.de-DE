@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14298'
 ht-degree: 1%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 1%
    * Testversand {#proofing}
       * [Testversand: Artikelindex](review-and-approve-work/proofing/proofing.md)
       * Testversandübersicht {#proofing-overview}
-         * [Testversand - Übersicht](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [Testversandübersicht: Artikelindex](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Übersicht über das Profil für Testberechtigungen](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [Übersicht über Testrollen](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [Übersicht über den automatisierten Workflow](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1836,7 +1836,7 @@ ht-degree: 1%
          * [Fortschritt und Status des Testversands - Übersicht](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * Testsendungen erstellen {#create-proofs}
-         * [Testsendungen erstellen](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+         * [Erstellen von Testsendungen: Artikelindex](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Konfigurieren der Standardeinstellungen für persönliche Testsendungen](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Erstellen eines mehrseitigen Testversands](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Erstellen eines interaktiven Testversands für eine Website oder einen anderen Webinhalt](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1846,9 +1846,9 @@ ht-degree: 1%
          * [Erstellen eines erweiterten Testversands mit einem einfachen Workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
       * Testsendungen in Adobe Workfront verwalten {#manage-proofs-in-workfront}
-         * [Verwalten von Testsendungen in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * [Verwalten von Testsendungen in Adobe Workfront: Artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * Testsendungen verwalten {#manage-proofs}
-            * [Testsendungen verwalten](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [Testsendungen verwalten: Artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [Testversandeinstellungen bearbeiten](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Testversandzusammenfassung in Adobe Workfront drucken](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
             * [Testversand löschen](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1857,27 +1857,27 @@ ht-degree: 1%
             * [Validierungsbericht für Testsendungen verwenden](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Zugriff auf Workfront Proof über Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * Verwalten von Testversandversionen {#manage-proof-versions}
-            * [Verwalten von Korrekturabzugsversionen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [Verwalten von Testversandversionen: Artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Erstellen einer neuen Testversion](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Anzeigen von Testversionen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [Details zur Testversion anzeigen und verwalten](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [Herunterladen von Testversionen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
          * Testversand-Validierungsverantwortliche verwalten {#manage-proof-reviewers}
-            * [Testversand-Validierungsverantwortliche verwalten](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+            * [Verwalten von Testversand-Validierern: Artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [Zugriffs- und Abonnementeinstellungen für einen Testversand konfigurieren](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Freigeben eines Testversands in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [Versand von E-Mail-Nachrichten an Prüfer anhand eines Testversands](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
          * Verwalten von Testversandbenachrichtigungen {#manage-proof-notifications}
-            * [Verwalten von Testversandbenachrichtigungen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+            * [Verwalten von Testversandbenachrichtigungen: Artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [Benachrichtigungen für Testversandkommentare und -entscheidungen verwalten](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * Verwalten von Testversandterminen {#manage-proof-deadlines}
-            * [Verwalten von Testversandfristen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+            * [Verwalten von Testversandfristen: Artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [Festlegen eines Termins für einen vorhandenen Grundnachweis](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [Hinzufügen, Bearbeiten oder Löschen eines Termins für eine Phase](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [Festlegen einzelner Überprüfungsfristen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [Entfernen einzelner Überprüfungstermine](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * Verwalten automatisierter Testsendungen {#manage-automated-proofs}
-            * [Verwalten automatisierter Testsendungen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [Verwalten automatisierter Testsendungen: Artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [Anzeigen von automatisierten Workflow-Phasen auf einem Testversand](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [Anzeigen aktiver Bühnen auf einem Testversand](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [Erstellen oder Bearbeiten eines automatisierten Workflows für einen vorhandenen Testversand](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1885,16 +1885,16 @@ ht-degree: 1%
             * [Konvertieren eines einfachen Workflows in einen automatisierten Workflow bei einem Testversand](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [Hinzufügen von Bühnen und Benutzern zu einem automatisierten Workflow auf einem Testversand](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
       * Verwenden des Desktop Proofing Viewers {#use-the-desktop-proofing-viewer}
-         * [Verwenden des Desktop Proofing Viewers](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [Verwenden des Desktop Proofing Viewers: Artikelindex](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [Installieren des Desktop Proofing Viewers](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [Aktualisieren des Desktop Proofing Viewers](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [Öffnen Sie Testsendungen im Desktop Proofing Viewer.](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Überprüfen nicht interaktiver Inhalte im Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [Häufig gestellte Fragen - Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * Überprüfen von Testsendungen in Adobe Workfront {#review-proofs-in-workfront}
-         * [Überprüfen von Testsendungen in Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * [Überprüfen von Testsendungen in Adobe Workfront: Artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * Testversand überprüfen {#review-a-proof}
-            * [Überprüfen eines Korrekturabzugs](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [Testversand überprüfen: Artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Inhalt in einem Testversand anzeigen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Fläche innerhalb eines Testversands messen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [Ändern der Maßeinheit der Timeline in einem Videotest](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1911,7 +1911,7 @@ ht-degree: 1%
             * [Ändern der interaktiven Testversandauflösung im Testversand-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Konfigurieren der Einstellungen des Testversand-Viewers](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
          * Kommentar zu einem Testversand {#comment-on-a-proof}
-            * [Kommentar zu Testsendungen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+            * [Kommentar zu Testsendungen: Artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Kommentar zu einem Testversand](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [Kommentare zum Testversand anzeigen und beantworten](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
             * [Testversand-Kommentare durchsuchen, filtern und sortieren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1921,12 +1921,12 @@ ht-degree: 1%
             * [Verwenden von Aktionen für Testversand-Kommentare](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [Benutzer zum Freigeben eines Testversands taggen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
          * Entscheidungsfindung über einen Testversand {#make-decision-on-proof}
-            * [Entscheidung über einen Testversand](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+            * [Entscheidungsfindung über einen Testversand: Artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [Testversand genehmigen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [Entscheidungsfindung über einen Testversand im Testversand-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [Vorhandene Entscheidung für einen Testversand ändern](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Tipps, Tricks und Fehlerbehebung für die Prüfung in Adobe Workfront {#ttt-proofing-in-workfront}
-         * [Tipps, Tricks und Fehlerbehebung für die Prüfung in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+         * [Tipps, Tricks und Fehlerbehebung für die Prüfung in Adobe Workfront: Artikelindex](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Benutzer mit einer Testlizenz in Adobe Workfront auflisten](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [Testberechtigungsprofil stapelweise bearbeiten](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Freigabe über öffentliche URL oder Einbettungscode deaktivieren](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1934,7 +1934,7 @@ ht-degree: 1%
          * [Dokumentname nach dem Hochladen geändert und enthält ungültiges Zeichen](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Testen eines PowerPoint mit einem eingebetteten Video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * Tipps, Tricks und Fehlerbehebung für Genehmigungen {#ttt-approvals}
-      * [Tipps, Tricks und Fehlerbehebung bei Genehmigungen](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Tipps, Tricks und Fehlerbehebung bei Genehmigungen: Artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Anzahl der Testsendungen und Dokumententscheidungen für alle Benutzer anzeigen](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
    * [Timesheets: Artikelindex](timesheets/timesheets-all.md)

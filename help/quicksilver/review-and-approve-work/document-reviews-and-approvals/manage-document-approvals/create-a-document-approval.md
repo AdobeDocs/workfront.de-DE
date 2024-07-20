@@ -6,9 +6,9 @@ description: Sie können die Genehmigung von anderen Benutzern für ein Dokument
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ Sie können die Genehmigung von anderen Benutzern oder Teams für ein Dokument i
 >Der Inhalt dieses Artikels bezieht sich auf die aktualisierte Funktion zur Dokumentgenehmigung, die nur für bestimmte Konten verfügbar ist. Informationen zu Standardgenehmigungsverfahren finden Sie in den Artikeln unter [Arbeitsgenehmigungen](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -49,6 +52,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Erstellen einer Dokumentüberprüfung- oder Genehmigungsanforderung über die Dokumentseite
 
