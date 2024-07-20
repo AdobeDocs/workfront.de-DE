@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
+source-git-commit: f9ef12c5a91391dea4d25ceaa1cf648ae4baebf6
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1813'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Geschäftsregeln sind jetzt verfügbar </a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In Production ]{type=Informative}
                         <p>Administratoren können nun im Einrichtungsbereich von Workfront Geschäftsregeln hinzufügen.</p>
                         <p>Mit einer Geschäftsregel können Sie eine Validierung auf Workfront-Objekte anwenden und verhindern, dass Benutzer ein Objekt erstellen, bearbeiten oder löschen, wenn bestimmte Bedingungen erfüllt sind. Die Regeln werden mit einer Formel erstellt, die der berechneten Feldern in benutzerdefinierten Formularen ähnelt.</p>
                     </td>
@@ -79,6 +79,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Benutzerdefinierter Formularentwickler allgemein in Adobe Workfront verfügbar</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Mit Version 24.7 ist der Formularentwickler allgemein verfügbar und wird zum Standarderlebnis beim Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront. Wenn Sie ein neues benutzerdefiniertes Formular erstellen oder ein vorhandenes Formular öffnen, wird der Arbeitsbereich im Arbeitsbereich des Formulardesigners angezeigt.</p>
                         <p>Nach dieser Version haben Sie nicht mehr die Möglichkeit, zum alten Formular-Builder zurückzukehren.</p>
                     </td>
@@ -127,6 +128,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Fügen Sie ein neues benutzerdefiniertes Feld aus dem Felderbereich hinzu</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Sie können jetzt ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zum Erstellen des Felds zu öffnen. Auf diese Weise können Sie schnell wiederverwendbare benutzerdefinierte Felder erstellen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -221,7 +223,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen für Workfront für Experience Manager Assets und Assets Essentials</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In Production ]{type=Informative}
                         <p>Wir haben die folgenden Verbesserungen an der Workfront für Experience Manager Assets- und Assets Essentials-Integrationen vorgenommen:</p>
                         <ul>
                             <li><p>Die Integration unterstützt nun GCP als Cloud Service-Provider. AWS und Azure wurden zuvor unterstützt.</p></li>
@@ -261,7 +263,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Bearbeiten Sie die Aufgabe und geben Sie das Datum und die Bedingung für die Übermittlung aus der Kopfzeile oder dem Detailabschnitt aus.</a></p>
-                        [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
+                        [!BADGE In Production ]{type=Informative}
                         <p>Um die Aktualisierung von Aufgaben und Problemen zu vereinfachen, haben wir jetzt die Felder "Datum und Bedingung für die Übermittlung"als Optionen hinzugefügt, die in einer Layout-Vorlage zum Abschnitt "Aufgaben- und Problemkopfzeilen und Details"hinzugefügt werden können. Benutzer können diese Felder jetzt über die Kopfzeile oder den Detailabschnitt einer Seite aktualisieren, wenn sie der geänderten Layoutvorlage zugewiesen sind.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -281,7 +283,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Weitere relevante Zuweisungen wurden dem Workflow "Neue Aufgabe"hinzugefügt</a></p>
-                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Dieselbe Funktionalität für relevantere Smart-Zuweisungen wurde dem Feld Zuweisungen im Feld Neue Aufgabe hinzugefügt, wenn eine Aufgabe zu einem Projekt und in einer Projektaufgabenliste hinzugefügt wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -301,7 +303,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Weitere relevante Smart-Zuweisungen</a></p>
-                        <p>[!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -340,12 +342,13 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Sicherheitsupdates für den Desktop Proofing Viewer</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Das Sicherheitsupdate für Workfront Proof Desktop Proofing Viewer 2.1.35 enthält Sicherheitsfehlerbehebungen für Sicherheitslücken, die in früheren Versionen identifiziert wurden.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: Juli 2024</p>
+                                <p>Vorschau-Version: 4. Juli 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktion für alle Kunden: 4. Juli 2024</span></p>
@@ -375,6 +378,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Zeitlimit, die jetzt im Lastenausgleich angezeigt wird</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Um die Arbeit nahtlos anzupassen, wenn der primäre Verantwortliche für eine Aufgabe eine geplante Zeitüberschreitung aufweist, weist der Arbeitslastausgleich jetzt sowohl den primären als auch den sekundären Benutzern Stunden zu, wenn die Projekt-Timeline neu berechnet wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -423,6 +427,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience ist jetzt für weitere Workfront-Organisationen verfügbar</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Um Unternehmen den Zugriff auf die Vorteile des Adobe Unified Experience zu ermöglichen, haben wir begonnen, es bestehenden Workfront-Kunden zur Verfügung zu stellen. </p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -440,6 +445,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Schaltfläche "Hilfe"aus der Hauptnavigationsleiste entfernt</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Um das Erlebnis für Benutzer zu vereinheitlichen, die nicht Unified Shell verwenden, wurde die Schaltfläche Hilfe in der Hauptnavigationsleiste entfernt. Diese Schaltfläche, die nicht für Unified Shell-Benutzer vorhanden ist und mit der Workfront-Dokumentation verknüpft ist, war redundant und mit einer ähnlichen Schaltfläche für alle Benutzer im Hauptmenü verfügbar.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -456,7 +462,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbessertes Benutzeroberflächenerlebnis für Benutzer mit eingeschränktem Objektzugriff</a></p>
-                        [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
+                        [!BADGE In Production ]{type=Informative}
                         <p>Wenn ein Benutzer keinen Zugriff auf ein Objekt hat, wird ihm überall dort "Kein Zugriff"angezeigt, wo der Objektname in Workfront angezeigt wird. Dieses verbesserte Erlebnis gilt auch für die Workfront-API.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
