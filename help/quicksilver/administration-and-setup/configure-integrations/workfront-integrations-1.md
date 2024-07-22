@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
+source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -260,7 +260,7 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
      <li>[!DNL Workfront] Benachrichtigungen in [!DNL Slack] empfangen </li> 
      <li>Verwalten von Genehmigungen in [!DNL Slack] </li> 
      <li>Erstellen von [!DNL Workfront] Aufgaben und Problemen aus [!DNL Slack] </li> 
-     <li>Post kommentiert ein Projekt oder eine Aufgabe aus [!DNL Slack]</li> 
+     <li>Posten von Kommentaren zu einem Projekt oder einer Aufgabe aus [!DNL Slack]</li> 
     </ul> <p>Weitere Informationen finden Sie unter <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
@@ -306,9 +306,9 @@ Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront für Ex
 
 [!DNL Workfront] verfügt über viele Partnerintegrationen, die Ihr [!DNL Workfront] -Erlebnis bereichern.
 
-Beispiele für vorhandene Partnerangebote sind Integrationen mit [!DNL Salesforce.com], [!DNL Oracle Responsys] und [!DNL Microsoft Visual Studio].
+Workfront verfügt über viele Partnerintegrationen, die Ihr Workfront-Erlebnis bereichern. Beispiele für vorhandene Partnerangebote sind Integrationen mit Claravine, RWS Group und mehr.
 
-Weitere Informationen zu diesen und anderen Partnerintegrationen finden Sie im Abschnitt [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Weitere Informationen zu diesen und anderen Partnerintegrationen finden Sie unter [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
 
 ## [!DNL Workfront] API
 
