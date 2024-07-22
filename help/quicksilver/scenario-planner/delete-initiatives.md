@@ -6,9 +6,9 @@ description: Sie können Initiativen löschen, die sich auf einen von Ihnen erst
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -96,9 +96,9 @@ Eine Liste der Pläne wird angezeigt.
 
 ### Massenlöschung von Initiativen {#delete-initiatives-in-bulk}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf [!UICONTROL Szenarien].
+{{step1-to-scenario-planner}}
 
-   Eine Liste der Pläne wird angezeigt.
+Eine Liste der Pläne wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen, und suchen Sie dann die Initiative, die Sie löschen möchten.
 1. Wählen Sie die Felder links neben den Initiativen aus, die Sie löschen möchten, klicken Sie dann im Menü, das unten im Plan angezeigt wird, auf **[!UICONTROL Löschen]** und klicken Sie dann auf **[!UICONTROL Ja, löschen Sie sie]**.

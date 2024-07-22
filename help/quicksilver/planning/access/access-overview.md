@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Für die Verwendung von Adobe Workfront Planning gibt es Lizenz- und Freigabeber
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+<!--update the Workfront plan below at GA to Ultimate and it is not available in the current plans-->
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 
 <table style="table-layout:auto">
  <col>
@@ -52,14 +54,14 @@ Für die Verwendung von Adobe Workfront Planning gibt es Lizenz- und Freigabeber
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Alle</p>
+   <p>Alle, um Workfront-Planungsinformationen anzuzeigen</p>
    <p>Um Arbeitsbereiche zu erstellen, benötigen Sie die folgende Lizenz:</p>
    <ul>
    <li>
    Neu: Standard
    </li>
    <li>
-   Aktuell: Worker oder höher
+   Aktuell: Plan
    </li>
    </ul>
   </td>
@@ -118,7 +120,7 @@ Für die Workfront-Planung gibt es keine Zugriffskontrollen.
 
 Benutzer mit beliebigen Lizenztypen können auf die Workfront-Planung zugreifen.
 
-Informationen zur Gewährung von Zugriff in Workfront finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen und ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+<!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Berechtigungen erteilen
 

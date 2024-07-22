@@ -5,18 +5,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Verwalten von Stundentypen
 description: Sie können Stundentypen mit Ihren Stundeneinträgen verknüpfen. Hour-Typen sind Bezeichnungen, mit denen Sie Ihre Stundeneinträge definieren.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 0%
+source-wordcount: '754'
+ht-degree: 1%
 
 ---
 
 # Verwalten von Stundentypen
+
+<!--Audited: 07/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
@@ -45,7 +47,7 @@ Es gibt zwei Stundentypen:
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,15 +58,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>Neu: [!UICONTROL Standard]</p>
+   <p>Aktuell: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen ein [!DNL Workfront] -Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>Sie müssen ein [!DNL Workfront] -Administrator sein.</p> <p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Integrierte Stundentypen
 
@@ -85,7 +92,7 @@ Als [!DNL Workfront] -Administrator können Sie für Ihre Organisation neue Stun
 
 So erstellen Sie neue Stundentypen:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe] Workfront und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Zeitblatt &amp; Stunden]** > **[!UICONTROL Stunden-Typen]**.
 
@@ -131,7 +138,7 @@ Durch Deaktivieren der Stundentypen werden die Stundentypen an einer beliebigen 
 
 So deaktivieren Sie einen Stundentyp:
 
-1. Klicken Sie in der oberen rechten Ecke von [!DNL Adobe Workfront] in der globalen Navigationsleiste auf **[!UICONTROL Einrichten]** .
+{{step-1-to-setup}}
 
 1. Erweitern Sie **[!UICONTROL Voreinstellungen für das Zeitblatt und die Stunden]** und klicken Sie dann auf **[!UICONTROL Stündungstypen]**.
 

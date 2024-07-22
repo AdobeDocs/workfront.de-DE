@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '516'
 ht-degree: 2%
 
 ---
 
 # Meilensteinpfad erstellen
+
+<!--Audited: 07/2024-->
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -62,7 +64,7 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
 
 ## Meilensteinpfad erstellen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **Prozesse** > **Milestone-Pfade**.
 1. Klicken Sie auf **Neuer Meilensteinpfad.**
