@@ -6,20 +6,22 @@ description: Wenn Sie den Adobe Workfront-Szenario-Planer verwenden, können Sie
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1618'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]
 
+<!--Audited: 07/2024-->
+
 Bei Verwendung des [!UICONTROL Adobe Workfront-Szenario-Planers] können Sie Initiativen in einem Plan erstellen, den Sie erstellt haben oder der für Sie freigegeben wurde. Durch die Erstellung von Initiativen können Sie zeigen, wie kleinere Organisationseinheiten zur Fertigstellung des Plans beitragen. Wenn Ihr Unternehmen beispielsweise über einen Plan für die nächsten drei Jahre verfügt, um einen neuen Markt zu erschließen, können Sie innerhalb dieses Plans Initiativen für jede Abteilung erstellen, um abzuschätzen, ob die einzelnen Abteilungen Personen und Budgets benötigen, um diesen Plan durchzuführen.
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,19 +29,24 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td>[!UICONTROL Business] oder höher</td> 
+   <td> <p>Aktuell: [!UICONTROL Business] oder höher</p>
+   <p>Neu: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] license* </p> </td> 
-   <td> <p>[!UICONTROL Review] oder höher</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>Neu: Licht oder höher</p> 
+   <p>Aktuell: [!UICONTROL Review] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td>Produkt </td> 
-   <td> <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können. </p> <p>Informationen zum Abrufen des [!DNL Workfront Scenario Planner] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> benötigten Zugriffs. </p> </td> 
+   <td>Produkt*</td> 
+   <td> 
+   <p>Für die aktuellen Workfront-Pläne: </p>
+   <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können.</p> <p>Informationen zu Zugriff und Berechtigungen für den [!DNL Workfront Scenario Planner] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> benötigten Zugriff. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Konfigurationen auf Zugriffsebene* </td> 
-   <td> <p>Zugriff auf [!UICONTROL Bearbeiten] oder höher auf die [!DNL Scenario Planner]</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td>Zugriffsebene </td> 
+   <td> <p>Zugriff auf [!UICONTROL Bearbeiten] [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektberechtigungen </p> </td> 
@@ -48,7 +55,9 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -71,7 +80,7 @@ Sie können Initiativen wie folgt erstellen:
 
 So erstellen Sie von Grund auf neue Initiativen:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf [!UICONTROL Szenarien].
+{{step1-to-scenario-planner}}
 
 1. Klicken Sie auf den Namen des Plans, für den Sie eine Initiative erstellen möchten.
 1. Klicken Sie auf das Symbol **+** links neben **[!UICONTROL Neue Initiative]** .

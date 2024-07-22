@@ -7,22 +7,22 @@ description: Als Business Manager können Sie mit dem Adobe Workfront-Szenario-P
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
 
 # Pläne - Übersicht in der [!DNL Scenario Planner]
 
-Die [!DNL Scenario Planner] erfordert zusätzlich zur [!DNL Adobe Workfront] -Lizenz eine separate Lizenz. Weitere Informationen zum [!DNL Workfront Scenario Planner] finden Sie unter [Überblick [!DNL Scenario Planner] 3}.](../scenario-planner/scenario-planner-overview.md)
-
 Als Business Manager können Sie mit dem [!DNL Adobe Workfront Scenario Planner] die Strategie für die kurz- und langfristige Zukunft Ihres Unternehmens skizzieren, indem Sie die Ein-, Drei- oder Fünf-Jahres-Pläne skizzieren.
 
 ## Zugriffsanforderungen
 
-Um die [!DNL Adobe Workfront Scenario Planner] zu verwenden, müssen Sie über folgenden Zugriff verfügen:
+Informationen zu den Zugriffsanforderungen für den Zugriff auf den Szenario-Planer finden Sie unter [Für die Verwendung des Szenario-Planers benötigter Zugriff](/help/quicksilver/scenario-planner/access-needed-to-use-sp.md).
+
+<!--To use the [!DNL Adobe Workfront Scenario Planner] you must have the following access:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,32 +30,32 @@ Um die [!DNL Adobe Workfront Scenario Planner] zu verwenden, müssen Sie über f
  <tbody> 
   <tr> 
    <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] plan</a>*</p> </td> 
-   <td>[!UICONTROL Business] oder höher</td> 
+   <td>[!UICONTROL Business] or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Lizenztyp*</p> </td> 
-   <td> <p>[!UICONTROL Review] oder höher. Weitere Informationen finden Sie unter <a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] Lizenzübersicht</a>.</p> </td> 
+   <td role="rowheader"> <p>License type*</p> </td> 
+   <td> <p>[!UICONTROL Review] or higher. For more information, see <a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td> <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können.</p> <p>Informationen zum Abrufen des [!DNL Workfront Scenario Planner] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> benötigten Zugriffs. </p> </td> 
+   <td role="rowheader">Product</td> 
+   <td> <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about obtaining the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Zugriffsstufe*</td> 
-   <td> <p>Zugriff auf die [!UICONTROL Ansicht] oder höher auf die [!DNL Scenario Planner]</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>[!UICONTROL View] access or higher to the [!DNL Scenario Planner]</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Objektberechtigungen</p> </td> 
-   <td> <p>[!UICONTROL Ansichtsberechtigungen oder höher für einen Plan<!--
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> <p>[!UICONTROL View] permissions or higher for a plan***************
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         (NOTE: this might change if they have permissions for initiatives/ scenarios, etc) 
       </MadCap:conditionalText>
-     --></p> <p>Informationen zum Anfordern von zusätzlichem Zugriff auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan in der [!DNL Scenario Planner]</a>.</p> </td> 
+     ***************</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-*Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+-->
 
 ## Übersicht über Pläne
 

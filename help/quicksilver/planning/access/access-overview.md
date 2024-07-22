@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Für die Verwendung von Adobe Workfront Planning gibt es Lizenz- und Freigabeber
 
 ## Zugriffsanforderungen
 
-Sie müssen über die folgenden Einstellungen verfügen, um die Adobe Workfront-Planung verwenden zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto">
  <col>
@@ -88,6 +88,8 @@ Sie müssen über die folgenden Einstellungen verfügen, um die Adobe Workfront-
 </table>
 
 *Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Planungsbereich im Hauptmenü für andere freigeben

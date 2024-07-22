@@ -6,18 +6,16 @@ description: Nachdem Sie Projekte und Initiativen miteinander verbunden haben, k
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
 
 # Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Arbeitslastausgleich] anzeigen
 
->[!IMPORTANT]
->
->Ihr Unternehmen muss eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, damit Sie Informationen zur Initiative für ein Projekt anzeigen können. Informationen zum Abrufen des [!DNL Workfront Scenario Planner] finden Sie unter [Für die Verwendung des  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) benötigten Zugriffs.
+<!--Audited: 07/2024-->
 
 Nachdem Sie Projekte und Initiativen miteinander verbunden haben, können Sie die Ressourcenzuordnung nebeneinander verwalten, um sicherzustellen, dass sie übereinstimmen. Dadurch wird verhindert, dass sie überverteilt oder nicht verwendet werden.
 
@@ -27,36 +25,43 @@ Allgemeine Informationen zur Abstimmung von Ressourcen zwischen Projekten und In
 
 ## Zugriffsanforderungen
 
-Sie müssen Folgendes tun:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
-   <td>[!UICONTROL Business] oder höher</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Aktuell: [!UICONTROL Business] oder höher</p>
+   <p>Neu: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> license*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] oder höher</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>Neu: Licht oder höher</p> 
+   <p>Aktuell: [!UICONTROL Review] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Produkt</b> </td> 
-   <td> <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können.</p> <p>Informationen zum Abrufen des [!DNL Workfront Scenario Planner] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md">Für die Verwendung des [!DNL Scenario Planner]</a> benötigten Zugriffs. </p> </td> 
+   <td>Produkt* </td> 
+   <td> 
+   <p>Für die aktuellen Workfront-Pläne: </p>
+   <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können.</p> <p>Informationen zu Zugriff und Berechtigungen für den [!DNL Workfront Scenario Planner] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> benötigten Zugriff. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationen auf Zugriffsebene*</strong> </td> 
-   <td> <p>[!UICONTROL Ansicht] oder höherer Zugriff auf Projekte </p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td>Zugriffsebene </td> 
+   <td> <p>[!UICONTROL Ansicht] oder höherer Zugriff auf [!UICONTROL Projekte]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p>[!UICONTROL Ansicht] oder höhere Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md">[!UICONTROL Anforderung] des Zugriffs auf einen Plan in der [!DNL Workfront Scenario Planner]</a>.</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff auf ein Projekt finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>. </p> </td> 
+   <td> <p>Objektberechtigungen </p> </td> 
+   <td> <p>[!UICONTROL Ansicht] Berechtigungen für ein Projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Arbeitslastausgleich] anzeigen
 
@@ -133,8 +138,6 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] -Lizenz erworben hat
    >   * Wenn Aufgaben oder Probleme eine [!UICONTROL Dauer] von null haben.
    >   
    >
-
-
 
 1. (Optional) Wenn die Spalte [!UICONTROL Varianz] anzeigt, dass Ihre Ressourcen überverteilt sind, passen Sie eine der folgenden Aktionen an:
 

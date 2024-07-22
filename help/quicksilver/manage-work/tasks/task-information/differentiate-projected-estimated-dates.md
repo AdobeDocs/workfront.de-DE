@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Differenz zwischen prognostizierten und geschätzten Datumswerten
+title: Übersicht über die geplanten und geschätzten Datumswerte
 description: Es gibt verschiedene Arten von Daten, die den Zeitablauf von Aufgaben zwischen dem Zeitpunkt, zu dem sie beginnen können, und dem Zeitpunkt, zu dem sie abgeschlossen werden können, anzeigen.
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# Differenz zwischen prognostizierten und geschätzten Datumswerten
+# Übersicht über die geplanten und geschätzten Datumswerte
+
+<!--Audited: 07/2024-->
 
 Es gibt verschiedene Arten von Daten, die den Zeitablauf von Aufgaben zwischen dem Zeitpunkt, zu dem sie beginnen können, und dem Zeitpunkt, zu dem sie abgeschlossen werden können, anzeigen. Im Folgenden finden Sie einige Daten, die die Zeitleiste von Aufgaben anzeigen:
 
@@ -25,7 +27,7 @@ Es gibt verschiedene Arten von Daten, die den Zeitablauf von Aufgaben zwischen d
 
 In diesem Artikel werden die Unterschiede zwischen den geschätzten und den geplanten Daten für Projekte beschrieben.
 
-Wenn die Aufgabe zum ersten Mal erstellt wird, sollten in der Regel die Datumswerte &quot;Geplant&quot;, &quot;Geplant&quot;und &quot;Geplant&quot;übereinstimmen. Es gibt einige Ausnahmen. 
+Wenn die Aufgabe zum ersten Mal erstellt wird, sollten in der Regel die Datumswerte &quot;Geplant&quot;, &quot;Geplant&quot;und &quot;Geplant&quot;übereinstimmen. Es gibt einige Ausnahmen.
 
 Weitere Informationen zu den Projekt-, Aufgaben- und Ausgabedaten in Adobe Workfront finden Sie unter [Überblick über die Projekt-, Aufgaben- und Problemdatumswerte in Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
@@ -45,7 +47,7 @@ Beachten Sie Folgendes bei der Arbeit mit prognostizierten und geschätzten Datu
 
 * Sie können weder die geschätzten noch die geplanten Daten der Aufgaben manuell ändern. Beide werden von Adobe Workfront berechnet.
 * Bei der Erstellung einer Aufgabe sollten die prognostizierten und geplanten Daten identisch sein und die tatsächlichen Zeiten veranschaulichen, zu denen die Aufgaben beginnen oder enden können.\
-  Bestimmte Aktualisierungen, die Sie an Aufgaben vornehmen, wirken sich direkt auf die Werte der geplanten und geschätzten Datumswerte aus. 
+  Bestimmte Aktualisierungen, die Sie an Aufgaben vornehmen, wirken sich direkt auf die Werte der geplanten und geschätzten Datumswerte aus.
 
   Wenn der Benutzer z. B. eine Aufgabe startet oder abschließt, zeigt die Aufgabe die tatsächlichen Start- und Abschlussdaten an, die sich auf die geplanten und geschätzten Datumswerte der Aufgabe auswirken. Wenn ein Verantwortlicher für die Aufgabe das Datum des Versands ändert, beeinflusst dieses Datum auch das Datum der geplanten Aufgabe.
 
@@ -75,35 +77,35 @@ In der folgenden Liste werden verschiedene Szenarien angezeigt, in denen die gep
 
 * Wenn eine Aufgabe als abgeschlossen markiert ist:
 
-  *Vorgeschlagene Datumswerte = Geschätzte Datumswerte = tatsächliche Datumswerte*
+  `Projected Dates = Estimated Dates = Actual Dates`
 
 * Wenn eine Aufgabe ein tatsächliches Startdatum hat:
 
-  *Projiziertes Startdatum = Geschätztes Startdatum = tatsächliches Startdatum*
+  `Projected Start Date = Estimated Start Date = Actual Start Date`
 
 * Wenn eine Aufgabe kein tatsächliches Startdatum hat, aber eine erzwungene Beschränkung für das geplante Startdatum (Muss beginnen am) vorliegt, das in der Zukunft liegt:
 
-  *Projiziertes Startdatum = Beschränkungsdatum*
+  `Projected Start Date = Constraint Date`
 
   Weitere Informationen zum Beschränkungsdatum finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Wenn eine Aufgabe kein tatsächliches Startdatum hat und die Aufgabe kein erzwungenes Beschränkungsdatum hat:
 
-  *Projiziertes Startdatum = das nächste verfügbare Datum in der Zukunft, das unter den Zeitplan für die Arbeit fällt*
+  `Projected Start Date = the next available date in the future that falls within working schedule`
 
 * Wenn der Bevollmächtigte das Zustimmungsdatum aktualisiert:
 
-  *Voraussichtliches Abschlussdatum = Abschlussdatum*
+  `Projected Completion Date = Commit Date`
 
   Weitere Informationen zum Datum der Übermittlung finden Sie unter [Übersicht über das Datum der Übermittlung](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Wenn die Aufgabe kein aktualisiertes Veröffentlichungsdatum hat und die Aufgabe eine erzwungene Beschränkung (Must Finish On) für das geplante Abschlussdatum aufweist, das in der Zukunft liegt:
 
-  *Voraussichtliches Abschlussdatum = Beschränkungsdatum*
+  `Projected Completion Date = Constraint Date`
 
 * Wenn eine Aufgabe kein aktualisiertes Veröffentlichungsdatum hat, ein erzwungenes Einschränkungsdatum in der Zukunft oder ein Einschränkungsdatum in der Vergangenheit hat:
 
-  *Vorgeschlagenes Abschlussdatum = Systemberechnung für das Abschlussdatum basierend auf dem aktuellen Fortschritt und der noch zu erledigenden Arbeit*
+  `Projected Completion Date = system calculation for the Completion Date based on the current progress and the work left to be done`
 
 ### Erfahren Sie, wann die geschätzten Datumswerte die Aufgaben aktualisieren {#understand-when-the-estimated-dates-update-on-tasks}
 
@@ -111,7 +113,7 @@ Im Vergleich zu den oben beschriebenen Szenarien für die prognostizierten Datum
 
 ## Einfluss auf die Timeline einer Aufgabe
 
-Im Folgenden finden Sie einige Beispiele dafür, was die tatsächliche Timeline einer Aufgabe beeinflussen kann: 
+Im Folgenden finden Sie einige Beispiele dafür, was die tatsächliche Timeline einer Aufgabe beeinflussen kann:
 
 * Aufgabenfortschritt in Bezug auf die geplanten Datumswerte und den aktuellen Tag
 * Prozentualer Abschluss der Aufgabe bis jetzt

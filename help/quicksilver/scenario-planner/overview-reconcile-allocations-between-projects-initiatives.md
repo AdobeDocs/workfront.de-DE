@@ -6,18 +6,14 @@ description: Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen
-
->[!IMPORTANT]
->
->Ihr Unternehmen muss eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, damit Sie Informationen zur Initiative für ein Projekt anzeigen können. Informationen zum Abrufen des [!DNL Workfront Scenario Planner] finden Sie unter [Für die Verwendung des Szenario-Planers benötigter Zugriff](../scenario-planner/access-needed-to-use-sp.md) .
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: two more articles were added to split content from here according to where the reconciling can happen) </p>

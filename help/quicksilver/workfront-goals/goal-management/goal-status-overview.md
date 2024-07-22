@@ -7,33 +7,31 @@ description: Der Zielstatus gibt an, ob ein Ziel aktiv ist und derzeit Fortschri
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '818'
 ht-degree: 4%
 
 ---
 
 # Zielstatusübersicht in Adobe Workfront-Zielen
 
-Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
-
-* Für den neuen Plan und die Lizenzstruktur:
-
-   * Ein ultimativer Plan
-
-     Oder
-
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
-
-* Für den aktuellen Plan und die Lizenzstruktur:
-
-   * A Pro oder höher
-   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
-
-Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
-
-Der Zielstatus gibt an, ob ein Ziel aktiv ist und derzeit Fortschritte aufzeichnet oder ob es inaktiv, entworfen oder bereits erreicht ist.
+>[!IMPORTANT]
+>
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>
+>* Für den neuen Plan und die Lizenzstruktur:
+>
+>   * Der ultimative Workfront-Plan
+>    
+>* Für den aktuellen Plan und die Lizenzstruktur:
+>
+>   * Workfront-Abo mit Pro oder höher
+>   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>
+>Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+> 
+>Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 ## Überlegungen beim Aktualisieren des Zielstatus in Workfront-Zielen
 

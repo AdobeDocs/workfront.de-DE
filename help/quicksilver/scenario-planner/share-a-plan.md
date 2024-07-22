@@ -7,14 +7,16 @@ description: Sie können einen von Ihnen im Adobe Workfront-Szenario-Planer erst
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
 # Plan im [!DNL Scenario Planner] freigeben
+
+<!--Audited: 07/2024-->
 
 Sie können einen Plan im [!DNL Adobe Workfront Scenario Planner] für andere Benutzer freigeben, damit diese an derselben Arbeit wie Sie zusammenarbeiten können.
 
@@ -24,37 +26,43 @@ Sie können einen Plan im [!DNL Adobe Workfront Scenario Planner] für andere Be
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
-   <td>[!UICONTROL Business] oder höher</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Aktuell: [!UICONTROL Business] oder höher</p>
+   <p>Neu: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> license*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] oder höher</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>Neu: Licht oder höher</p> 
+   <p>Aktuell: [!UICONTROL Review] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Produkt</b> </td> 
-   <td> <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können.</p> <p>Informationen zum Abrufen des [!DNL Workfront Scenario Planner] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> benötigten Zugriffs. </p> </td> 
+   <td>Produkt* </td> 
+   <td> 
+   <p>Für die aktuellen Workfront-Pläne: </p>
+   <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können.</p> <p>Informationen zu Zugriff und Berechtigungen für den [!DNL Workfront Scenario Planner] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> benötigten Zugriff. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationen auf Zugriffsebene*</strong> </td> 
-   <td> <p>Zugriff auf [!UICONTROL Bearbeiten] [!DNL Scenario Planner]</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td>Zugriffsebene </td> 
+   <td> <p>Zugriff auf [!UICONTROL Bearbeiten] [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p> [!UICONTROL Verwalten] Berechtigungen für den Plan
-     <p>Informationen zum Anfordern von zusätzlichem Zugriff auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!UICONTROL Anforderung] des Zugriffs auf einen Plan in der [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Objektberechtigungen </p> </td> 
+   <td> <p>[!UICONTROL Berechtigungen für einen Plan verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan in der [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -70,69 +78,13 @@ Weitere Informationen zum Zugriff auf den [!DNL Scenario Planner] für verschied
 
 ## Überlegungen zur Freigabe von Plänen
 
+* Alle Benutzer, einschließlich Systemadministratoren, haben nur Zugriff auf von ihnen erstellte Pläne.
 * Sie können einen einzelnen Plan oder mehrere Pläne gemeinsam nutzen.
 * Sie können keine Pläne anzeigen, die Sie nicht erstellt haben oder die nicht für Sie freigegeben sind.
 * Sie können einen Plan nur für andere Benutzer freigeben. Sie können keine Pläne für Gruppen, Teams oder Unternehmen freigeben.
 * Sie müssen zunächst einen Plan speichern, bevor Sie ihn freigeben können.
 * Sie können eine URL für einen Plan für einen anderen Benutzer freigeben. Wenn der Benutzer nicht berechtigt ist, mindestens den Plan anzuzeigen, kann er den Zugriff auf den Plan von einem anderen Benutzer anfordern, wenn er die URL erhält. Weitere Informationen zum Anfordern des Zugriffs auf einen Plan finden Sie unter [Anfordern des Zugriffs auf einen Plan in der Datei [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * Beim Freigeben mehrerer Pläne, die bereits für andere freigegeben wurden, ersetzen die Benutzer, für die Sie freigegeben haben, nicht, sondern werden für jeden ausgewählten Plan zu den vorhandenen Benutzern hinzugefügt.
-
-## Pläne freigeben
-
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in Workfront und klicken Sie dann auf **[!UICONTROL Szenarien]**.![](assets/main-menu-icon.png)
-1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen.
-
-   Oder
-
-   Wählen Sie mehrere Pläne aus, um sie stapelweise freizugeben.
-
-   >[!TIP]
-   >
-   >Sie können einen Plan freigeben, indem Sie auf die Avatare der Benutzer klicken, für die der Plan freigegeben ist, in der oberen rechten Ecke des Plan-Headers.
-
-1. (Bedingt) Wenn Sie einen Plan geöffnet haben, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![](assets/more-icon.png) rechts neben dem Namen [!UICONTROL Plan] und dann auf **[!UICONTROL Freigabe]** .
-
-   Oder
-
-   Wenn Sie mehrere Pläne für die Freigabe in großen Mengen ausgewählt haben, klicken Sie oben in der Liste der Pläne auf das Symbol **[!UICONTROL Freigabe]** ![](assets/share-icon-26x26.png) , um das Zugriffsfeld [!UICONTROL Plan] zu öffnen.
-
-   >[!TIP]
-   >
-   >* Benutzer mit Berechtigungen für alle ausgewählten Pläne werden im Zugriffsfeld [!UICONTROL Plan] angezeigt.
-   >* Zusätzliche Benutzer werden zu den ausgewählten Plänen hinzugefügt und ersetzen nicht die vorhandenen Benutzer.
-
-1. Geben Sie im Feld **[!UICONTROL Planzugriff auf]** den Namen der Benutzer ein, für die Sie den Plan freigeben möchten, und wählen Sie sie aus, wenn sie in der Liste angezeigt werden.
-1. Wählen Sie im Dropdown-Menü Berechtigungen rechts neben dem Benutzernamen die Berechtigungsebene aus, die Sie dem Plan gewähren möchten.
-1. Wählen Sie aus den folgenden Optionen aus:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Ansicht]</td> 
-      <td>Benutzer, für die Sie den Plan freigeben, sind berechtigt, den Plan anzuzeigen. Sie können keine Informationen zum Plan bearbeiten, keine Initiativen, Szenarien oder Veröffentlichungsszenarien hinzufügen. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Verwalten]</td> 
-      <td> <p>Benutzer, für die Sie den Plan freigeben, haben die Berechtigung, den Plan zu verwalten. Dazu gehören die Bearbeitung von Informationen, das Hinzufügen von Initiativen, Szenarien und die Veröffentlichung des Plans. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   >[!TIP]
-   >
-   >Sie können einen Plan nur löschen, wenn Sie ihn erstellt haben. Sie können Pläne, die für Sie freigegeben wurden, nicht löschen.
-
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
-   Der Plan wird nun für die von Ihnen angegebenen Benutzer freigegeben.
-
-   Sie können Benutzer mit Berechtigungen für den Plan in der Spalte Für mich freigegeben in einer Liste von Plänen oder in der oberen rechten Ecke der Planüberschrift anzeigen.
-
-   >[!TIP]
-   >
-   >Sie können für Sie freigegebene Pläne anzeigen, indem Sie den Filter [!UICONTROL Für mich freigegeben] in einer Liste von Plänen anwenden.
 
 ## Berechtigungsoptionen planen
 
@@ -215,3 +167,63 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie beim Freig
 Weitere Informationen zur Zugriffsebene für Projekte finden Sie unter [Gewähren des Zugriffs auf Projekte](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Weitere Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekts in  [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+
+## Pläne freigeben
+
+{{step1-to-scenario-planner}}
+
+1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen.
+
+   Oder
+
+   Wählen Sie mehrere Pläne aus, um sie stapelweise freizugeben.
+
+   >[!TIP]
+   >
+   >Sie können einen Plan freigeben, indem Sie auf die Avatare der Benutzer klicken, für die der Plan freigegeben ist, in der oberen rechten Ecke des Plan-Headers.
+
+1. (Bedingt) Wenn Sie einen Plan geöffnet haben, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![](assets/more-icon.png) rechts neben dem Namen [!UICONTROL Plan] und dann auf **[!UICONTROL Freigabe]** .
+
+   Oder
+
+   Wenn Sie mehrere Pläne für die Freigabe in großen Mengen ausgewählt haben, klicken Sie oben in der Liste der Pläne auf das Symbol **[!UICONTROL Freigabe]** ![](assets/share-icon-26x26.png) , um das Zugriffsfeld [!UICONTROL Plan] zu öffnen.
+
+   >[!TIP]
+   >
+   >* Benutzer mit Berechtigungen für alle ausgewählten Pläne werden im Zugriffsfeld [!UICONTROL Plan] angezeigt.
+   >* Zusätzliche Benutzer werden zu den ausgewählten Plänen hinzugefügt und ersetzen nicht die vorhandenen Benutzer.
+
+1. Geben Sie im Feld **[!UICONTROL Planzugriff auf]** den Namen der Benutzer ein, für die Sie den Plan freigeben möchten, und wählen Sie sie aus, wenn sie in der Liste angezeigt werden.
+1. Wählen Sie im Dropdown-Menü Berechtigungen rechts neben dem Benutzernamen die Berechtigungsebene aus, die Sie dem Plan gewähren möchten.
+1. Wählen Sie aus den folgenden Optionen aus:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Ansicht]</td> 
+      <td>Benutzer, für die Sie den Plan freigeben, sind berechtigt, den Plan anzuzeigen. Sie können keine Informationen zum Plan bearbeiten, keine Initiativen, Szenarien oder Veröffentlichungsszenarien hinzufügen. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Verwalten]</td> 
+      <td> <p>Benutzer, für die Sie den Plan freigeben, haben die Berechtigung, den Plan zu verwalten. Dazu gehören die Bearbeitung von Informationen, das Hinzufügen von Initiativen, Szenarien und die Veröffentlichung des Plans. </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   >[!TIP]
+   >
+   >Sie können einen Plan nur löschen, wenn Sie ihn erstellt haben. Sie können Pläne, die für Sie freigegeben wurden, nicht löschen.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+   Der Plan wird nun für die von Ihnen angegebenen Benutzer freigegeben.
+
+   Sie können Benutzer mit Berechtigungen für den Plan in der Spalte Für mich freigegeben in einer Liste von Plänen oder in der oberen rechten Ecke der Planüberschrift anzeigen.
+
+   >[!TIP]
+   >
+   >Sie können für Sie freigegebene Pläne anzeigen, indem Sie den Filter [!UICONTROL Für mich freigegeben] in einer Liste von Plänen anwenden.
+
+

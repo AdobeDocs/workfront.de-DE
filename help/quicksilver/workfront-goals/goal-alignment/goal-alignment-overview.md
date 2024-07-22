@@ -7,33 +7,28 @@ description: Die Zielausrichtung stellt sicher, dass alle Mitarbeiter in Ihrer O
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # Übersicht über die Zielausrichtung in Adobe Workfront-Zielen
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
-> 
+>
 >* Für den neuen Plan und die Lizenzstruktur:
+>
+>   * Der ultimative Workfront-Plan
 >    
->   * Ein ultimativer Plan
->        
->     Oder
->        
->   * Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne.
->       Weitere Informationen finden Sie unter [Adobe Workfront - Preise und Verpackung](https://www.workfront.com/plans).
->      
 >* Für den aktuellen Plan und die Lizenzstruktur:
->    
->   * Pro oder höher [Adobe Workfront-Plan]
+>
+>   * Workfront-Abo mit Pro oder höher
 >   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
->    
+>
 >Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 > 
 >Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).

@@ -5,34 +5,31 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1374'
 ht-degree: 1%
 
 ---
 
 # Erste Schritte mit Adobe Workfront-Zielen
 
-Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
-
-* Für den neuen Plan und die Lizenzstruktur:
-
-   * Ein ultimativer Plan
-
-     Oder
-
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
-
-* Für den aktuellen Plan und die Lizenzstruktur:
-
-   * A Pro oder höher
-   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
-
-
-Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
-
-Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>
+>* Für den neuen Plan und die Lizenzstruktur:
+>
+>   * Der ultimative Workfront-Plan
+>    
+>* Für den aktuellen Plan und die Lizenzstruktur:
+>
+>   * Workfront-Abo mit Pro oder höher
+>   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>
+>Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+> 
+>Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Jede Organisation muss klare Ziele festlegen und kommunizieren, um ihre Teams produktiv, fokussiert und engagiert zu halten. Wirklich zu wissen, wie Arbeit an Strategie ausgerichtet ist, ist entscheidend für Erfolg. Doch ohne ein System der Akzeptanz, das Ihre Strategie und Ziele mit der Arbeit in der Organisation verbindet, kann es wirklich schwierig sein, die Ausrichtung zu erreichen.
 

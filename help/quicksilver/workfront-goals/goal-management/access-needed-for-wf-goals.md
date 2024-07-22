@@ -7,9 +7,9 @@ description: Ihr Adobe Workfront-Administrator muss sicherstellen, dass bestimmt
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,7 @@ Ihr Adobe Workfront-Administrator muss sicherstellen, dass alle folgenden Beding
 
 Je nachdem, welchen Workfront-Plan Ihr Unternehmen derzeit durchführt, gibt es die folgenden Szenarien:
 
-* Wenn Ihr Unternehmen über einen neuen Workfront-Plan verfügt, müssen Sie über einen der folgenden Schritte verfügen:
-
-   * Ein ultimativer Workfront-Plan. Workfront-Ziele sind in diesem Plan enthalten.
-   * Ein Workfront-Abonnement mit Auswahl oder höher und eine separate Workfront Goals-Lizenz.
+* Wenn Ihr Unternehmen über einen neuen Workfront-Plan verfügt, müssen Sie über einen Ultimate Workfront-Plan verfügen. Workfront-Ziele sind nur in diesem Plan enthalten.
 
 * Wenn Ihr Unternehmen über den aktuellen Workfront-Plan verfügt, muss Ihr Unternehmen zusätzlich zur Workfront-Lizenz eine zusätzliche Lizenz erwerben, damit Ihre Benutzer auf Workfront-Ziele zugreifen können.
 

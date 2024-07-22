@@ -7,9 +7,9 @@ description: Das geplante Abschlussdatum ist ein berechneter Echtzeitindikator d
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ In den folgenden Abschnitten wird beschrieben, wie das geplante Abschlussdatum f
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
    <p>Neu: 
    <ul><li><p>Beitragende oder höher zur Anzeige des geplanten Abschlussdatums in einem Bericht</p></li> <li><p>Eine Standardlizenz zum Erstellen eines Berichts</p></li> </ul>
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Zugriffsebene</td> 
    <td> <p>Anzeigen oder höherer Zugriff auf Projekte</p> <p>Sie müssen Zugriff auf Berichte, Dashboards und Kalender bearbeiten haben, um einen Bericht erstellen zu können</p> <p>Sie müssen Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten haben, um einen Bericht zu erstellen oder eine Listenansicht zu ändern</p>  </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## So bestimmt Adobe Workfront das geplante Abschlussdatum
 
@@ -85,7 +87,7 @@ Die Kriterien zur Bestimmung des geplanten Abschlussdatums unterscheiden sich je
   >Wenn der Vorgänger einer Aufgabe über ein tatsächliches Abschlussdatum verfügt, erhalten die abhängigen Aufgaben ein prognostiziertes Abschlussdatum, wie im folgenden Szenario beschrieben:
   >
   >
-  >Wenn das Projekt Aufgabe A, Aufgabe B und Aufgabe C umfasst und Aufgabe B der Nachfolger von Aufgabe A ist, ist Aufgabe C der Nachfolger von Aufgabe B und ein tatsächliches Abschlussdatum wird Aufgabe A hinzugefügt, wird das geplante Abschlussdatum automatisch für Aufgabe B neu berechnet (sofern der **Aktualisierungstyp** des Projekts auf &quot;Automatisch&quot;und &quot;Bei Änderung&quot;festgelegt ist), jedoch nicht für Aufgabe C neu berechnet. Derzeit berechnet Workfront aus Leistungsgründen das geplante Abschlussdatum für Aufgaben, die eine Ebene nach oben oder unten von der aktualisierten Aufgabe entfernt sind. 
+  >Wenn das Projekt Aufgabe A, Aufgabe B und Aufgabe C umfasst und Aufgabe B der Nachfolger von Aufgabe A ist, ist Aufgabe C der Nachfolger von Aufgabe B und ein tatsächliches Abschlussdatum wird Aufgabe A hinzugefügt, wird das geplante Abschlussdatum automatisch für Aufgabe B neu berechnet (sofern der **Aktualisierungstyp** des Projekts auf &quot;Automatisch&quot;und &quot;Bei Änderung&quot;festgelegt ist), jedoch nicht für Aufgabe C neu berechnet. Derzeit berechnet Workfront aus Leistungsgründen das geplante Abschlussdatum für Aufgaben, die eine Ebene nach oben oder unten von der aktualisierten Aufgabe entfernt sind.
 
 * **Probleme:** Das prognostizierte Abschlussdatum des Problems wird zunächst so eingestellt, dass es mit dem geplanten Abschlussdatum des Problems übereinstimmt.
 
@@ -119,9 +121,9 @@ So erstellen Sie einen Problembericht mit dem geplanten Abschlussdatum:
 1. Wählen Sie die Registerkarte **Spalten (Ansicht)** aus.
 1. Klicken Sie auf **Spalte hinzufügen** und geben Sie im Feld **In dieser Spalte anzeigen:** das Feld **Voraussichtliches Abschlussdatum** ein.
 
-1. Wählen Sie sie aus, wenn sie in der Liste unter dem Objekt **Problem** angezeigt wird. 
+1. Wählen Sie sie aus, wenn sie in der Liste unter dem Objekt **Problem** angezeigt wird.
 1. Klicken Sie auf **Speichern + schließen**.
 
-   Die Spalte **Voraussichtliches Abschlussdatum** im Bericht wird ausgefüllt. 
+   Die Spalte **Voraussichtliches Abschlussdatum** im Bericht wird ausgefüllt.
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

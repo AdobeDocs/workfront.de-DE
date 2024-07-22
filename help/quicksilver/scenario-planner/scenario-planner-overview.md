@@ -7,9 +7,9 @@ description: Für den Szenario-Planer ist zusätzlich zur Adobe Workfront-Lizenz
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '565'
 ht-degree: 5%
 
 ---
@@ -18,12 +18,16 @@ ht-degree: 5%
 
 <!-- Audited: 1/2024 -->
 
-Die [!DNL Scenario Planner] erfordert zusätzlich zur [!DNL Adobe Workfront] -Lizenz eine separate Lizenz.
-Informationen über den für die Verwendung von [!DNL Workfront Scenario Planner] benötigten Zugriff finden Sie unter [Für die Verwendung von  [!DNL Scenario Planner]](access-needed-to-use-sp.md) benötigten Zugriff.
+Der Zweck des [!DNL Workfront Scenario Planner] ist es, die Ausführung Ihrer Pläne auf Unternehmensebene zu beschleunigen und Ihnen dabei zu helfen, wichtige Entscheidungen zu treffen, die das Erreichen vorhersehbarer, gewünschter Ergebnisse für Ihr Unternehmen vorantreiben.
+
+Sie müssen über den folgenden [!DNL Workfront]-Plan verfügen, um auf die [!DNL Workfront Scenario Planner] zuzugreifen:
+
+* Für den neuen Workfront-Plan: Ein [!UICONTROL Ultimate] -Plan.
+* Für den aktuellen [!DNL Workfront]-Plan: Sie müssen zusätzlich zum Kauf einer [!DNL Scenario Planner] -Lizenz über einen Business- oder einen höheren Plan verfügen.
+
+Weitere Informationen über den für die Verwendung von [!DNL Workfront Scenario Planner] erforderlichen Zugriff finden Sie unter [Für die Verwendung von  [!DNL Scenario Planner]](access-needed-to-use-sp.md) benötigten Zugriff.
 
 ## [!DNL Scenario Planner] Übersicht
-
-Der Zweck des [!DNL Workfront Scenario Planner] ist es, die Ausführung Ihrer Pläne auf Unternehmensebene zu beschleunigen und Ihnen dabei zu helfen, wichtige Entscheidungen zu treffen, die das Erreichen vorhersehbarer, gewünschter Ergebnisse für Ihr Unternehmen vorantreiben.
 
 Mit dem [!DNL Workfront Scenario Planner] können Sie Pläne auf Unternehmensebene erstellen, die die strategischen Gesamtergebnisse Ihres Unternehmens umreißen. Sie können mehrere Initiativen für einen Plan definieren und in verschiedene Szenarien unterteilen, um die optimale Lösung für die Ausführung des Plans zu finden.
 

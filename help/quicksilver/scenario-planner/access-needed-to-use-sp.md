@@ -7,33 +7,24 @@ description: Der Szenario-Planer benötigt eine separate Lizenz von Adobe Workfr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # Zugriff erforderlich für die Verwendung des [!DNL Scenario Planner]
 
-Die [!DNL Scenario Planner] erfordert eine zusätzliche Lizenz. Weitere Informationen zum [!DNL Workfront Scenario Planner] finden Sie unter [Überblick [!DNL Scenario Planner] 3}.](../scenario-planner/scenario-planner-overview.md)
+<!--Audited: 04/2024-->
+
+Die [!DNL Scenario Planner] hat zusätzliche Lizenzanforderungen. Weitere Informationen zum [!DNL Workfront Scenario Planner] finden Sie unter [Überblick [!DNL Scenario Planner] 3}.](../scenario-planner/scenario-planner-overview.md)
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
 Ohne korrekten Zugriff oder ohne entsprechende Berechtigungen können Sie möglicherweise den Bereich [!UICONTROL Szenarien] von [!DNL  Adobe Workfront] nicht anzeigen und keine Pläne oder Initiativen für Ihr Unternehmen verwalten. Die Verwaltung von Plänen und Initiativen umfasst das Erstellen, Bearbeiten und Löschen.
-
->[!IMPORTANT]
->
->Beim Zugriff auf [!UICONTROL Szenarien] können Sie nur von Ihnen erstellte Pläne anzeigen und verwalten. Wenn Sie anderen Benutzern erlauben möchten, die von Ihnen erstellten Pläne anzuzeigen oder zu verwalten, müssen Sie Folgendes tun:
->
->* Link zu Ihrem Plan an andere Benutzer senden
->* Plan für andere Benutzer freigeben
->
->  Informationen zum Freigeben eines Plans finden Sie unter [Planen in der  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) freigeben.
->
->Wenn ein Benutzer deaktiviert wird, haben seine Pläne keinen Eigentümer und können nicht aufgerufen werden, es sei denn, sie wurden zuvor über einen Link freigegeben.
 
 ## Zugriff erforderlich, um die [!DNL Adobe Workfront Scenario Planner] anzuzeigen und zu verwenden
 
@@ -43,13 +34,7 @@ Sie müssen sicherstellen, dass alle folgenden Bedingungen erfüllt sind, bevor 
 
    Je nachdem, ob Sie den neuen oder den aktuellen Workfront-Plan verwenden, muss Ihr Unternehmen über einen der folgenden Schritte verfügen:
 
-   * Für die neuen Pläne muss Ihre Organisation über einen der folgenden Schritte verfügen:
-
-      * Der Plan [!UICONTROL Ultimate] [!DNL Workfront]. Der Szenario-Planer ist im Ultimate-Plan enthalten.
-
-        Oder
-
-      * Der Plan [!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] zusätzlich zum Kauf einer separaten [!DNL Scenario Planner] Lizenz.
+   * Für die neuen Pläne muss Ihr Unternehmen über den Plan [!UICONTROL Ultimate] [!DNL Workfront] verfügen. Der Szenario-Planer ist nur im Plan [!UICONTROL Ultimate] enthalten.
 
    * Für die aktuellen Workfront-Pläne muss Ihr Unternehmen über Folgendes verfügen:
 
@@ -133,7 +118,20 @@ Ihr [!DNL Workfront] -Administrator muss Ihnen den folgenden Zugriff zuweisen, d
 
 Zugriffsebenen arbeiten mit Berechtigungen in [!DNL Workfront] zusammen, um Ihnen Einblick in Pläne und Initiativen zu geben, die Sie nicht erstellt haben. Zusätzlich zum Zugriff auf die [!DNL Scenario Planner] müssen Sie auch über die richtigen Berechtigungen für den Plan verfügen, den Sie anzeigen oder verwalten möchten, wenn Sie nicht der Ersteller dieser Pläne sind.
 
-Standardmäßig haben Sie nur Zugriff auf von Ihnen erstellte Pläne. Um Pläne anzuzeigen, die andere Benutzer erstellt haben, müssen sie ihre Pläne für Sie freigeben. Weitere Informationen zu Freigabeplänen finden Sie unter [Planen in der  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) freigeben.
+Alle Benutzer, einschließlich Systemadministratoren, haben nur Zugriff auf von ihnen erstellte Pläne.
 
-Wenn ein Benutzer einen Link zu einem Plan teilt, ohne den Plan auch freizugeben, können Sie Berechtigungen für den Plan anfordern. Weitere Informationen zum Anfordern von Berechtigungen für Pläne finden Sie unter [Anfordern des Zugriffs auf einen Plan in der Datei [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+Um Pläne anzuzeigen, die andere Benutzer erstellt haben, müssen sie ihre Pläne wie folgt für Sie freigeben:
+
+* Plan für Sie freigeben
+
+  Weitere Informationen zu Freigabeplänen finden Sie unter [Planen in der  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) freigeben.
+
+* Link zu einem von ihnen erstellten Plan senden
+
+  Wenn ein Benutzer einen Link zu einem Plan teilt, ohne den Plan auch freizugeben, können Sie Berechtigungen für den Plan anfordern. Weitere Informationen zum Anfordern von Berechtigungen für Pläne finden Sie unter [Anfordern des Zugriffs auf einen Plan in der Datei [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+
+>[!NOTE]
+>
+>Wenn ein Benutzer deaktiviert wird, haben seine Pläne keinen Eigentümer und können nicht aufgerufen werden, es sei denn, sie wurden zuvor über einen Link freigegeben.
+
 

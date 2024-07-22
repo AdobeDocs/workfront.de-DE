@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Tracking-Modus für Aufgaben festlegen](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [Verzögerung der Aufgabenebene aktualisieren](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [Aktualisierung des Aufgabenkosten-Typs](../../../manage-work/tasks/task-information/update-task-cost-type.md)
-* [Differenz zwischen prognostizierten und geschätzten Datumswerten](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+* [Überblick über die prognostizierten und geschätzten Datumswerte](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
 * [Übersicht über die ursprüngliche Dauer der Aufgabe und die ursprünglich geplanten Stunden](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [Unterschied zwischen geplanter Dauer und Dauer für Aufgaben](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 

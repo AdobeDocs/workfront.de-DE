@@ -7,31 +7,29 @@ description: Workfront Goals hilft Ihnen bei der Definition, Kommunikation und E
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Adobe Workfront-Ziele
 
-Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
-
-* Für den neuen Plan und die Lizenzstruktur:
-
-   * Ein ultimativer Plan
-
-     Oder
-
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
-
-* Für den aktuellen Plan und die Lizenzstruktur:
-
-   * A Pro oder höher
-   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
-
-Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>[!IMPORTANT]
+>
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>
+>* Für den neuen Plan und die Lizenzstruktur:
+>
+>   * Der ultimative Workfront-Plan
+>    
+>* Für den aktuellen Plan und die Lizenzstruktur:
+>
+>   * Workfront-Abo mit Pro oder höher
+>   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>
+>Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 
 
 Workfront Goals hilft Ihnen bei der Definition, Kommunikation und Erzielung strategischer Ergebnisse, indem es eine Strategie mit der Ausführung und dem Versand von Nachrichten verbindet. Sie können die Bemühungen aller auf das konzentrieren, was wirklich wichtig ist, Fortschritte messbar machen und Teams in die Lage versetzen, erstaunliche Ergebnisse zu erzielen. Menschen können ihre beste Arbeit verrichten, wenn sie wissen, dass ihre Beiträge einen sinnvollen Einfluss haben.
