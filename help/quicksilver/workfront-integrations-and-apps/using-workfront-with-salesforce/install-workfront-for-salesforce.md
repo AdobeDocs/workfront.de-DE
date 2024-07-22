@@ -6,10 +6,10 @@ description: Um die App zu installieren, bevor sie in der AppExchange verfügbar
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
+source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 0%
+source-wordcount: '1026'
+ht-degree: 1%
 
 ---
 
@@ -197,3 +197,39 @@ Beispiel: *yourDomain.my.workfront.com*.
 
    Benutzer von [!UICONTROL Salesforce] können die [!DNL Workfront]-App verwenden, sobald Sie den Abschnitt [!DNL Workfront] zu ihren Seitenlayouts [!UICONTROL Opportunity] oder [!UICONTROL Account] hinzugefügt haben.\
    Informationen zum Konfigurieren des Abschnitts [!DNL Workfront] für Benutzer finden Sie unter Abschnitt [Konfigurieren des Abschnitts [!DNL Adobe Workfront] für  [!DNL Salesforce] Benutzer](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+
+## Berechtigungen für die Integration von Workfront in Salesforce konfigurieren
+
+### Berechtigungen für `workfront_business`
+
+1. Navigieren Sie zu **Setup** > **Sicherheit** > **Vertrauenswürdige URLs**.
+1. Wählen Sie `workfront_business` aus der Liste aus.
+1. Klicken Sie auf **Bearbeiten**.
+1. Überprüfen Sie unter CSP-Richtlinien die folgenden Optionen:
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (iFrame-Inhalt)
+   * img-src (Bilder)
+   * media-src (Audio und Video)
+   * style-src (stylesheets)
+
+1. Klicken Sie auf **Speichern**.
+
+
+### Berechtigungen für &quot;workfront_session&quot;
+
+1. Navigieren Sie zu **Setup** > **Sicherheit** > **Vertrauenswürdige URLs**.
+1. Wählen Sie `workfront_session` aus der Liste aus.
+1. Klicken Sie auf **Bearbeiten**.
+1. Überprüfen Sie unter CSP-Richtlinien die folgenden Optionen:
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (iFrame-Inhalt)
+   * img-src (Bilder)
+   * media-src (Audio und Video)
+   * style-src (stylesheets)
+
+1. Klicken Sie auf **Speichern**.
+
