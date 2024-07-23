@@ -6,9 +6,9 @@ description: Bei der Arbeit an einem Testversand, sei es als Adobe Workfront-Ben
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '989'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Bei der Arbeit an einem Testversand, sei es als Adobe Workfront-Benutzer oder al
 >Diese Benachrichtigungen unterscheiden sich von den E-Mail-Warnungen, die Sie über den Fluss eines Testversands zwischen Validierungsverantwortlichen erhalten können. Sie unterscheiden sich auch von den E-Mail-Warnhinweiseinstellungen, die Sie in Workfront konfigurieren können. 
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -49,6 +51,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## Benachrichtigungen für Testversandkommentare und -entscheidungen verwalten
 

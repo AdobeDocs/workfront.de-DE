@@ -6,9 +6,9 @@ description: Das Verwalten von Feedback über mehrere Versionen oder Revisionen 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Beachten Sie beim Erstellen einer neuen Testversand-Version die folgenden Inform
 >Wenn in Adobe Workfront ein Testversand erstellt wird, müssen alle neuen Versionen, die für diesen Testversand erstellt wurden, auch in Workfront erstellt werden. Es ist nicht möglich, in Workfront Proof eine neue Testversion zu erstellen, wenn dieser Testversand in Workfront erstellt wurde.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -58,6 +60,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## Erstellen einer neuen Testversion in Workfront
 
@@ -228,7 +232,7 @@ Wenn in der vorherigen Version des Testversands ein benutzerdefinierter Betreff/
 
   >[!NOTE]
   >
-  > Dies wird durch benutzerdefinierte Standardbetreff/Standardnachricht, die in Ihren persönlichen Einstellungen gespeichert sind, nicht beeinträchtigt.
+  >Dies wird durch benutzerdefinierte Standardbetreff/Standardnachricht, die in Ihren persönlichen Einstellungen gespeichert sind, nicht beeinträchtigt.
 
 Wenn Sie einen Standardbetreff und eine Standardnachricht in Ihren persönlichen Einstellungen gespeichert haben, wirkt sich dies auf die Nachricht aus, die standardmäßig auf der Seite Neue Version angezeigt wird:
 

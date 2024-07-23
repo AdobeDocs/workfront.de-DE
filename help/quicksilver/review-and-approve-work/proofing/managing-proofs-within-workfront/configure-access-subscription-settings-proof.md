@@ -6,9 +6,9 @@ description: Sie können bestimmte Zugriffs- und Abonnementeinstellungen für ei
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Sie können bestimmte Zugriffs- und Abonnementeinstellungen für einzelne Testsendungen konfigurieren, z. B. ob Benutzer sich anmelden müssen und ob Benutzer den Testversand abonnieren dürfen. Sie können Zugriffs- und Abonnementeinstellungen für einen Testversand während der Erstellung einrichten oder einen Testversand einrichten, der bereits in Workfront existiert.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -45,6 +47,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## Zugriffs- und Abonnementeinstellungen beim Erstellen eines Testversands konfigurieren
 

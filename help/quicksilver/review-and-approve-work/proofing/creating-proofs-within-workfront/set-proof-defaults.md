@@ -6,9 +6,9 @@ description: Sie können die Standardeinstellungen für den persönlichen Testve
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Sie können die Standardeinstellungen für den persönlichen Testversand definieren, die für von Ihnen erstellte Testsendungen gelten. Diese Standardeinstellungen werden jedes Mal angewendet, wenn Sie einen erstmaligen Testversand erstellen oder eine neue Testversand-Version in Workfront hochladen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,9 +44,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
++++
+
 ## Konfigurieren der Standardeinstellungen für persönliche Testsendungen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und dann auf **Testversand**.![](assets/main-menu-icon.png)
+{{step1-to-proofing}}
 
 1. Klicken Sie oben rechts auf Ihren Avatar und wählen Sie **Persönliche Einstellungen** aus.
 1. Wählen Sie die Registerkarte **Testversand-Standardeinstellungen** und geben Sie dann die folgenden Informationen an:

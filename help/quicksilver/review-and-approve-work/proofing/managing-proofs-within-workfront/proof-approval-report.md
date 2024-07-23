@@ -6,9 +6,9 @@ description: Im Validierungsbericht für Testsendungen erhalten Sie Informatione
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Im Validierungsbericht für Testsendungen erhalten Sie Informationen zu Testsendungen in Ihrer Umgebung.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -46,9 +48,12 @@ Sie müssen über Folgendes verfügen:
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
+
 ## Validierungsbericht für Testsendungen verwenden
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
+{{step1-to-reports}}
+
 1. Klicken Sie auf &quot;**Neuer Bericht**&quot;und scrollen Sie dann zu &quot;**Bestätigung der Genehmigung prüfen**&quot;.
 
    ![](assets/proof-approval-report.png)

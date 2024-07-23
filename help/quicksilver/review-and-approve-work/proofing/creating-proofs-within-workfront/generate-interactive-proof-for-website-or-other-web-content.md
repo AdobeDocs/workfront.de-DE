@@ -6,9 +6,9 @@ description: Sie können einen neuen interaktiven Testversand oder eine neue Ver
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ In einem interaktiven Testversand können Prüfer wie gewohnt mit der Website od
 >Stellen Sie sicher, dass die Website oder der interaktive Inhalt für die Personen zugänglich ist, die ihn überprüfen werden. Sie können nur dann im Testversand darauf zugreifen, wenn sie auch über das Internet darauf zugreifen können.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -51,6 +53,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## Erstellen eines interaktiven Testversands für eine Website oder einen anderen Webinhalt
 

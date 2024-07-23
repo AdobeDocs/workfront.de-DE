@@ -6,9 +6,9 @@ description: Sie können den Fortschritt eines mit einem automatisierten Workflo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Sie können den Fortschritt eines mit einem automatisierten Workflow konfigurier
 Informationen zum Hinzufügen von Bühnen und Benutzern zu einem Testversand mit einem automatisierten Workflow finden Sie unter [Hinzufügen von Bühnen und Benutzern zu einem automatisierten Workflow bei einem Testversand](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,6 +49,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## Anzeigen des Diagramms &quot;Automatisierter Workflow&quot;
 

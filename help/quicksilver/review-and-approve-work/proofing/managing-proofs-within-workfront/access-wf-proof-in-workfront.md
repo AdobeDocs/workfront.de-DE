@@ -7,9 +7,9 @@ description: Sie können schnell über die Benutzeroberfläche von Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Wenn Sie nicht auf Workfront Proof zugreifen können, wie in diesem Abschnitt be
 
 ## Zugriff auf Workfront Proof über Workfront {#access-workfront-proof-from-workfront}
 
-Standardmäßig können nur Benutzer mit Administratorrechten innerhalb von Workfront auf Workfront Proof zugreifen, wie in diesem Abschnitt beschrieben. 
+Standardmäßig können nur Benutzer mit Administratorrechten innerhalb von Workfront auf Workfront Proof zugreifen, wie in diesem Abschnitt beschrieben.
 
-1. Klicken Sie im Hauptmenü ![](assets/main-menu-icon.png) auf Testversand ![](assets/proofing-main-menu.png) .
+{{step1-to-proofing}}
 
-   Sie werden automatisch bei Ihrem Workfront Proof Premium-Konto angemeldet.
+Sie werden automatisch bei Ihrem Workfront Proof Premium-Konto angemeldet.
 
 Informationen zu den Funktionen, die nach der Anmeldung bei Ihrem Workfront Proof Premium-Konto verfügbar sind, finden Sie auf der [Workfront-Hilfeseite](https://support.workfront.com).
 

@@ -6,9 +6,9 @@ description: Während des Prüfungs- und Validierungsprozesses können Sie einem
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ Während des Prüfungs- und Validierungsprozesses können Sie einem oder allen V
 Sie können zwischen dem Versand einer generischen E-Mail zur Erinnerung oder dem Versand einer benutzerdefinierten Nachricht an einen oder alle mit einer bestimmten Phase verknüpften Benutzer wählen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -51,6 +53,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## E-Mail-Nachrichten an Benutzer auf einem Testversand senden
 

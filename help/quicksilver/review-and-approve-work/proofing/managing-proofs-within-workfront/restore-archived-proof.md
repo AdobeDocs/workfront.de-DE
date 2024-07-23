@@ -6,9 +6,9 @@ description: Ein Testversand wird automatisch archiviert, wenn er 60 aufeinander
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Ein Testversand wird automatisch archiviert, wenn er 60 aufeinander folgende Tage lang nicht geöffnet wird. Archivierte Testsendungen werden weiterhin auf die gleiche Weise in der Dokumentliste angezeigt wie vor der Archivierung des Testversands.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -38,6 +40,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, welchen Plan oder Testversand Sie haben.
+
++++
 
 ## Wiederherstellen eines archivierten Testversands
 
