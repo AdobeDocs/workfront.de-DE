@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Sie können die folgenden Integrationen zum Verwalten von Dokumenten konfigurier
 
   Für die aktuellen Pläne ist ein [!UICONTROL Pro] [!DNL Workfront] Plan oder höher erforderlich, um diese Funktion zu verwenden. Für die neuen Pläne ist diese Funktion mit allen Plänen verfügbar. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://www.workfront.com/plans).
 
-Darüber hinaus können Sie Ihr [!DNL Workfront] -Dokumenterlebnis mit einem nativen DAM-System (Digital Asset Management) oder mit DAM-Integrationen von Drittanbietern verbessern. Administratoren müssen diese Funktionen aktivieren, damit Benutzer den Dienst mit ihrem [!DNL Workfront] -Konto verknüpfen können. Weitere Informationen zu Workfront DAM finden Sie unter [Verwalten von Dokumenten mit  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+Darüber hinaus können Sie Ihr [!DNL Workfront] -Dokumenterlebnis mit DAM-Integrationen von Drittanbietern verbessern. Administratoren müssen diese Funktionen aktivieren, damit Benutzer den Dienst mit ihrem [!DNL Workfront] -Konto verknüpfen können.
 
 ## Integrationen zum Verwalten von Dokumenten konfigurieren
 
@@ -197,8 +197,6 @@ Nachdem die benutzerdefinierte Dokumentintegration erstellt wurde, können Sie s
 1. Klicken Sie auf **[!UICONTROL Speichern]** , um die Integration zu erstellen.
 
 ## Dokumentintegrationen verwenden
-
-Informationen dazu, wie Benutzer [!DNL Workfront DAM] verwenden können, finden Sie unter [Verwalten von Dokumenten mit  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 Weitere Informationen dazu, wie Benutzer Testsendungen verwenden können, finden Sie unter [Erstellen von Testsendungen](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 
