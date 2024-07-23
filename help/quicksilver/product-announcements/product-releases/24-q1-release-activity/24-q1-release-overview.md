@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
@@ -348,7 +348,8 @@ Das Webinar zur Version 24.1 wurde am 11. Januar 2024 veröffentlicht. Sie könn
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Weitere relevante Smart-Zuweisungen</a></p><p>Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Weitere relevante Smart-Zuweisungen</a></p>
+                        [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}<p>Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
@@ -360,7 +361,7 @@ Das Webinar zur Version 24.1 wurde am 11. Januar 2024 veröffentlicht. Sie könn
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.3 (März 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion für alle Kunden: Mit der Version 24.4 (April 2024)</p>
+                                <p>Produktion für alle Kunden: Mit der Version 24.10 (Oktober 2024)</p>
                             </li>
                         </ul>
                     </td>

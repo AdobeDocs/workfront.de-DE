@@ -1,10 +1,9 @@
 ---
-title: Projektverbesserungen im zweiten Quartal 2024
-description: Projektverbesserungen im zweiten Quartal 2024
+title: Projektverbesserungen im vierten Quartal 2024
+description: Projektverbesserungen im vierten Quartal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
 source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
 source-wordcount: '329'
@@ -12,12 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Projektverbesserungen im zweiten Quartal 2024
+# Projektverbesserungen im vierten Quartal 2024
 
-Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit der Version vom 4. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des zweiten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
-
+Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2024 verfügbar sind, finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Dem Workflow &quot;Neue Aufgabe&quot;hinzugefügte relevantere Zuweisungen
 

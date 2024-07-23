@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Geschäftsregeln sind jetzt verfügbar </a></p>
                         [!BADGE In Production ]{type=Informative}
@@ -74,6 +74,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                                 <p>Produktionsversion für alle Kunden: Mit der Version 24.7 (18. Juli 2024)</p>
                             </li>
                         </ul>
+                        <p><i>Nur für Organisationen mit dem neuen Ultimate-Plan verfügbar.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -278,13 +279,12 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                                 <p>Produktionsversion für alle Kunden: Mit der Version 24.7 (18. Juli 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Diese Funktion wurde vorübergehend aus der Produktion für Kunden entfernt, die nicht dem Zeitplan für die schnelle Veröffentlichung entsprechen.</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Weitere relevante Zuweisungen wurden dem Workflow "Neue Aufgabe"hinzugefügt</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
                         <p>Dieselbe Funktionalität für relevantere Smart-Zuweisungen wurde dem Feld Zuweisungen im Feld Neue Aufgabe hinzugefügt, wenn eine Aufgabe zu einem Projekt und in einer Projektaufgabenliste hinzugefügt wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -296,16 +296,15 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsversion für alle Kunden: Mit der Version 24.7 (18. Juli 2024)</p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (Oktober 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Diese Funktion wurde vorübergehend aus der Produktion für Kunden entfernt, die nicht dem Zeitplan für die schnelle Veröffentlichung entsprechen.</span>&lt;/
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Weitere relevante Smart-Zuweisungen</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
                         <p>Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -317,7 +316,7 @@ Das Live-Webinar der Version 24.7 wurde abgebrochen, Sie können sich aber trotz
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsversion für alle Kunden: Mit der Version 24.7 (18. Juli 2024)</p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (Oktober 2024)</p>
                             </li>
                         </ul>
                     </td>

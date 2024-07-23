@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2742'
 ht-degree: 4%
 
 ---
@@ -66,11 +66,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Bevor Sie die in diesem Artikel beschriebenen Aktionen durchführen können, müssen Sie Folgendes sicherstellen:
 
-* Alle Felder, über die Sie Berichte erstellen möchten, werden in Workfront nachverfolgt. Sie können nur Berichte zu Daten aus dem verfolgten Bereich Updates erstellen.
+* Alle Felder (einschließlich benutzerdefinierter Felder), für die Sie Berichte erstellen möchten, werden in Workfront nachverfolgt. Sie können nur Berichte zu Daten aus dem verfolgten Bereich Updates erstellen.
 
   Informationen zum Hinzufügen von Feldern, die von Workfront verfolgt werden sollen, finden Sie unter [Konfigurieren von Systemaktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-* Für alle benutzerdefinierten Felder, für die Sie einen Bericht erstellen möchten, ist die Einstellung &quot;**Feldänderungen in Update-Feeds anzeigen**&quot;aktiviert.
 
 ## Übersicht über den Journaleintrag
 

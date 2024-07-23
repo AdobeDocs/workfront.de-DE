@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -27,18 +27,32 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des drit
 
 Um die Aktualisierung von Aufgaben und Problemen zu vereinfachen, haben wir jetzt die Felder &quot;Datum und Bedingung für die Übermittlung&quot;als Optionen hinzugefügt, die in einer Layout-Vorlage zum Abschnitt &quot;Aufgaben- und Problemkopfzeilen und Details&quot;hinzugefügt werden können. Benutzer können diese Felder jetzt über die Kopfzeile oder den Detailabschnitt einer Seite aktualisieren, wenn sie der geänderten Layoutvorlage zugewiesen sind. Vor dieser Verbesserung konnten Sie bei der Anpassung der Kopfzeilen die Bedingung und das Datum der Veröffentlichung von Aufgaben und Problemen nicht hinzufügen.
 
-Informationen zum Aktualisieren des Zustimmungsdatums und der sCondition finden Sie in den folgenden Artikeln:
+Weitere Informationen zum Aktualisieren des Zustimmungsdatums und der Bedingungen finden Sie in den folgenden Artikeln:
 
 * [Aktualisierungsbedingung für Aufgaben und Probleme](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 * [Aktualisierungsdatum für Aufgaben und Probleme ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 [Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
+## Dem Workflow &quot;Neue Aufgabe&quot;hinzugefügte relevantere Zuweisungen
+
+>[!NOTE]
+>
+>Vorschau-Version: 13. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.5 (16. Mai 2024); Produktionsversion für alle Kunden: Mit Version 24.10 (Oktober 2024).
+
+In den folgenden Bereichen haben wir dem Feld Zuweisungen die gleichen Funktionen für relevantere Smart-Zuweisungen hinzugefügt:
+
+* Feld &quot;Neue Aufgabe&quot;beim Hinzufügen einer Aufgabe zu einem Projekt
+
+* In einer Liste mit Projektaufgaben
+
+Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## Wichtigere intelligente Zuweisungen
 
 >[!NOTE]
 >
->Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit Version 24.5 (16. Mai 2024); Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024).
+>Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit Version 24.5 (16. Mai 2024); Produktionsversion für alle Kunden: Mit Version 24.10 (Oktober 2024).
 
 Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.
 
