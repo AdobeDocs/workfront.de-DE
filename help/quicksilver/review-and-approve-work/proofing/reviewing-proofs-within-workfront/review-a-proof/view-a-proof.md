@@ -6,16 +6,25 @@ description: Erfahren Sie, wie Sie Inhalte in einem Testversand anzeigen können
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
 # Inhalt in einem Testversand anzeigen
 
+Sie können den Testversand-Viewer verwenden, um Dateien in Workfront anzuzeigen und zu markieren.
+
+>[!NOTE]
+>
+>Wenn sich Ihre Workfront-Instanz im einheitlichen Erlebnis befindet, wird der Testversand-Viewer in einer neuen Registerkarte geöffnet.
+
+
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,6 +52,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## Ansicht Ihres Testversands ändern
 
