@@ -6,9 +6,9 @@ description: Sie können Aktionen verwenden, um zu verfolgen, was bei jedem Komm
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '438'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,8 @@ Sie können Aktionen verwenden, um zu verfolgen, was bei jedem Kommentar-Thread 
 Informationen dazu, wie Ihr Workfront-Administrator Aktionen aktiviert und konfiguriert, finden Sie unter .
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -51,6 +53,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## Verwenden von Aktionen für Kommentare
 

@@ -6,9 +6,9 @@ description: Hier erfahren Sie, wie Sie Text in einem Testversand schnell finden
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '230'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,8 @@ Sie können Text in einem für die folgenden Dokumenttypen erstellten Testversan
 >Vor dem 26. April 2017 erstellte Testsendungen können möglicherweise nicht durchsucht werden.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -53,6 +55,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## Inhalt in einem Testversand durchsuchen
 

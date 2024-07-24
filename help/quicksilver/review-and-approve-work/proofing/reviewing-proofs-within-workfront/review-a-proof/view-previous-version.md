@@ -6,9 +6,9 @@ description: Sie können eine frühere Version eines Testversands anzeigen, sofe
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 9416a3ee-2812-4a25-af38-2c5daeaeef07
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Sie können eine frühere Version eines Testversands anzeigen, sofern vorhanden.
 >Die in diesem Artikel beschriebenen Informationen sind nur mit dem Web Proofing Viewer verfügbar und nur bei der Überprüfung von Videos oder statischen Testsendungen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -49,6 +51,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## Anzeigen früherer Testversand-Versionen im Testversand-Viewer
 

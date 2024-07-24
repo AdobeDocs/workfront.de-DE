@@ -6,9 +6,9 @@ description: Sie können einen Testversand aus dem Testversand-Viewer freigeben,
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Sie können einen Testversand aus dem Testversand-Viewer freigeben, wenn die Fre
 >Die Einstellung Freigeben eines Testversands über öffentliche URLs oder Einbettungscodes zulassen muss aktiviert sein.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -49,6 +51,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+
++++
 
 ## URL freigeben
 

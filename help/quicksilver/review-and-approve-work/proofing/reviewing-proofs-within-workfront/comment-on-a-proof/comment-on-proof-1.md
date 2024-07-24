@@ -6,9 +6,9 @@ description: Kommentare ermöglichen es Ihnen, Feedback zu Inhalten zu geben und
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Beim Tagging von Benutzern in Kommentaren zu einem Testversand können die Benut
 * Wenn Sie als externer Benutzer zum Testversand hinzugefügt wurden und Mitglied einer anderen Umgebung mit einem anderen Testversandkonto sind, können Sie nur diese Benutzer aus Ihrer ursprünglichen Umgebung mit Tags versehen. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -55,6 +57,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
++++
+
 ## Kommentar zu einem Testversand
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
@@ -78,17 +82,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Draw a freehand line</strong> </td> 
+      <td role="rowheader"><strong>Zeichnen einer Freihand-Linie</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>Hiermit können Sie dem ausgewählten Bereich eine Freihand-Zeile hinzufügen.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw a line</strong> </td> 
+      <td role="rowheader"><strong>Zeichnen einer Linie</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>Ermöglicht das Zeichnen einer Linie auf dem ausgewählten Bereich.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw und Pfeil</strong> </td> 
+      <td role="rowheader"><strong>Zeichnen eines Pfeils</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
       <td>Hiermit können Sie einem ausgewählten Bereich einen Pfeil hinzufügen.</td> 
      </tr> 
@@ -98,7 +102,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td>Markiert den ausgewählten Bereich.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw ein Rechteck</strong> </td> 
+      <td role="rowheader"><strong>Zeichnen eines Rechtecks</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>Ermöglicht das Zeichnen eines Rechtecks um einen Bereich.</td> 
      </tr> 

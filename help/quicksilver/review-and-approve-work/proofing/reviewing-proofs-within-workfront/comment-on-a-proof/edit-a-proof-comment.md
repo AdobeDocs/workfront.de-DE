@@ -6,9 +6,9 @@ description: Kommentare können nicht bearbeitet werden, nachdem dem Kommentar e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Kommentare können nicht bearbeitet werden, nachdem dem Kommentar eine Antwort hinzugefügt wurde. Diese Einschränkung behält die Integrität des Kommentar-Threads bei. Wenn Sie einen Kommentar bearbeiten, wirkt sich dies nicht auf den Zeitpunkt aus, zu dem der Kommentar abgegeben wurde.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -50,6 +52,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
 
++++
+
 ## Testversand-Kommentare bearbeiten
 
 Sie können jeden Kommentar, den Sie zu einem Testversand machen, bearbeiten. Darüber hinaus können die folgenden Benutzer Kommentare anderer Benutzer bearbeiten:
@@ -69,7 +73,7 @@ So bearbeiten Sie Testversand-Kommentare:
 
 1. ![Edit_a_comment-More_icon.png](assets/edit-a-comment-more-icon.png)
 
-1. Nehmen Sie Änderungen am Kommentar vor und klicken Sie dann auf **Post**.
+1. Nehmen Sie Änderungen am Kommentar vor und klicken Sie dann auf **Beitrag**.
 
    >[!NOTE]
    >
