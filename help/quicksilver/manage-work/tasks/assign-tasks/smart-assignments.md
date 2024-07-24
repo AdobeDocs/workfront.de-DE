@@ -7,7 +7,7 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -51,13 +51,13 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
   ![](assets/smart-assignments-issue-list.png)
 
-* Aufgabenliste oder Bericht in der Spalte &quot;Zuweisungen&quot;
+* <span class="preview">Eine Aufgabenliste oder ein Bericht in der Spalte &quot;Zuweisungen&quot;</span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* Aufgabenüberschrift im Feld &quot;Zuweisungen&quot;
+* <span class="preview">Eine Aufgabenüberschrift im Feld &quot;Zuweisungen&quot;</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Eine Problem-Kopfzeile im Feld &quot;Zuweisungen&quot;
 
@@ -67,9 +67,9 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* Das Feld Zuweisungen im Feld &quot;Neue Aufgabe&quot;, wenn eine Aufgabe zu einem Projekt hinzugefügt wird
+* <span class="preview">Das Feld &quot;Zuweisungen&quot;im Feld &quot;Neue Aufgabe&quot;beim Hinzufügen einer Aufgabe zu einem Projekt</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* Arbeitslastausgleich im Bereich &quot;Zugeordneter Benutzer&quot;, wenn Sie eine Aufgabe oder ein Problem zuweisen
+* <span class="preview">Lastenausgleich im Bereich &quot;Zugeordnetes Element&quot;beim Zuweisen einer Aufgabe oder eines Problems</span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Kriterien für intelligente Zuweisungen
