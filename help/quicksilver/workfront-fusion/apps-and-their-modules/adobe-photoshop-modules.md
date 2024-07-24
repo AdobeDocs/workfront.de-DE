@@ -9,7 +9,7 @@ description: Mit den Adobe Photoshop-Modulen können Sie ein Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 1de5018a13f1fbe4383ce9655bc3fe29612b1411
+source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
 workflow-type: tm+mt
 source-wordcount: '3966'
 ht-degree: 0%
@@ -25,9 +25,9 @@ Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weiter
 
 Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-+++**Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.**
-
 ## Zugriffsanforderungen
+
++++**Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.**
 
 Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
