@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Erweiterte Zuweisungen erstellen
+
+<!-- Audited: 07/2024-->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
+
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Sie können Aufgaben- oder Problemzuweisungen mit erweiterten Zuweisungen verwalten.
 
@@ -92,7 +100,7 @@ Darüber hinaus können Sie erweiterte Zuweisungen in den folgenden Bereichen vo
 
 1. Klicken Sie auf **Erweitert**.
 
-   ![Klicken Sie auf Erweitert](assets/assignments-box-in-task-header.png)
+   <span class="preview">![Klicken Sie auf Erweitert](assets/assignments-box-in-task-header.png)</span>
 
 1. Geben Sie im Feld **Personen, Rollen und Teams durchsuchen** den Namen eines Benutzers, einer Rolle oder eines Teams ein und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
@@ -138,15 +146,10 @@ Darüber hinaus können Sie erweiterte Zuweisungen in den folgenden Bereichen vo
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * Nachdem Sie die Zuweisung von Aufgaben manuell geändert haben, werden die geplanten Stunden der Aufgaben möglicherweise entsprechend aktualisiert. Weitere Informationen finden Sie im Abschnitt &quot;Aktualisieren der geplanten Aufgaben bei der Verwaltung von Benutzerzuweisungen&quot;im Artikel [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * Sie können die Zuweisungszuordnungen für Probleme nicht manuell ändern.
      >   * Sie können die Zuordnungen für Teams, die Aufgaben zugewiesen sind, nicht manuell ändern.
-     >   
-     >
 
    * **Rolle des Bevollmächtigten:** Wählen Sie die Rolle aus, die der Benutzer bei der Erfüllung dieser Zuweisung verwenden soll.  Die Primäre Rolle des Benutzers wird standardmäßig angezeigt. Klicken Sie in das Feld &quot;Rolle des Bevollmächtigten&quot;, um eine andere Rolle auszuwählen.  Wenn Sie die Aufgabe oder das Problem zuerst einer Rolle zuweisen und dann einen Benutzer hinzufügen, der diese Rolle als zweite Zuweisung erfüllen kann, wird die Liste der vorgeschlagenen Benutzer nach Benutzern gefiltert, die die der Aufgabe und dem Problem bereits zugewiesenen Rollen erfüllen können.
 

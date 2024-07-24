@@ -7,14 +7,16 @@ description: Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie 
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Smart-Zuweisungen
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Übersicht über die Version 2024 im dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Bei der Verwaltung von Aufgaben und Problemzuweisungen können Sie mithilfe von intelligenten Zuweisungen ermitteln, wer die beste Ressource ist, um die Arbeit abzuschließen. Smart-Zuweisungen sind Vorschläge, die Ihnen Adobe Workfront präsentiert, wenn Sie Arbeitselemente Ressourcen zuweisen, die auf einem Algorithmus basieren, der die am besten geeignete Ressource für den Auftrag bestimmt. Bei intelligenten Zuweisungen kann es sich um Benutzer, Auftragsrollen oder Teams handeln.
 
@@ -36,10 +38,10 @@ Dieser Artikel enthält allgemeine Informationen zu Smart-Zuweisungen. Informati
 
 Beachten Sie beim Arbeiten mit Smart-Zuweisungen Folgendes:
 
-* Der Algorithmus funktioniert unabhängig für Aufgaben und Probleme. Das bedeutet, dass die Liste der vorgeschlagenen Benutzer für Probleme möglicherweise von der Liste der vorgeschlagenen Benutzer für eine Aufgabe abweicht, da Workfront die Listen nach Kriterien erstellt, die sich auf Probleme und Aufgaben beziehen.
-* Bei intelligenten Zuweisungen werden keine Auftrags- oder Teams empfohlen. Stattdessen handelt es sich um Vorschläge von Benutzern, die am besten geeignet sind, eine Aufgabe oder ein Problem abzuschließen.
-* Bei den vorgeschlagenen Zuweisungen handelt es sich immer um aktive Benutzer.
-* Der zuerst aufgeführte Benutzer sollte die beste Übereinstimmung für die Aufgabe sein.
+* <span class="preview">Der Algorithmus funktioniert unabhängig für Aufgaben und Probleme. Das bedeutet, dass die Liste der vorgeschlagenen Benutzer für Probleme möglicherweise von der Liste der vorgeschlagenen Benutzer für eine Aufgabe abweicht, da Workfront die Listen nach Kriterien erstellt, die sich auf Probleme und Aufgaben beziehen. </span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* Bei den vorgeschlagenen Zuweisungen handelt es sich immer um aktive Benutzer, Stellenrollen oder Teams.
+* Die zuerst aufgeführte Ressource sollte die beste Übereinstimmung für die Aufgabe sein.
 
 ## Suchen nach Vorschlägen für intelligente Zuweisungen
 
@@ -51,11 +53,11 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
 * Aufgabenliste oder Bericht in der Spalte &quot;Zuweisungen&quot;
 
-  ![](assets/smart-assignments-task-list.png)
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * Aufgabenüberschrift im Feld &quot;Zuweisungen&quot;
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * Eine Problem-Kopfzeile im Feld &quot;Zuweisungen&quot;
 
@@ -67,7 +69,7 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
 * Das Feld Zuweisungen im Feld &quot;Neue Aufgabe&quot;, wenn eine Aufgabe zu einem Projekt hinzugefügt wird
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,7 +79,7 @@ Sie können Smart-Zuweisungen in den folgenden Bereichen anzeigen, wo Sie Aufgab
 
 * Arbeitslastausgleich im Bereich &quot;Zugeordneter Benutzer&quot;, wenn Sie eine Aufgabe oder ein Problem zuweisen
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Kriterien für intelligente Zuweisungen
@@ -86,11 +88,13 @@ Smart-Zuweisungen funktionieren bei Aufgaben anders als bei Problemen.
 
 ### Kriterien für intelligente Zuweisungen für Aufgaben
 
-Die Berechnung der Aufgaben-Smart-Zuweisungen erfolgt in zwei Phasen, die zwei verschiedene Algorithmen verwenden.
+Die Berechnung der intelligenten Aufgabenzuweisungen funktioniert in <span class="preview">zwei Phasen, die zwei verschiedene Algorithmen verwenden.</span>
 
-Je nachdem, welcher Algorithmus die intelligente Zuweisung findet, werden die Zuweisungen unter zwei separaten Abschnitten im Feld Zuweisungen aufgeführt. Weitere Informationen finden Sie unter [Erstellen von Smart-Zuweisungen](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+<span class="preview">Je nachdem, welcher Algorithmus die intelligente Zuweisung findet, werden die Zuweisungen unter zwei separaten Abschnitten im Feld Zuweisungen aufgelistet.</span> Weitere Informationen finden Sie unter [Smart-Zuweisungen vornehmen](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### Erste Phase der Berechnung der intelligenten Zuweisung für Aufgaben
 
@@ -127,6 +131,8 @@ Bei der Berechnung des Ähnlichkeitswerts und der Reihenfolge, in der die Zuweis
 * Die in dieser Phase identifizierten Zuweisungen sind im Abschnitt    **Vorgeschlagene Zuweisungen** im Abschnitt &quot;Zuweisungen&quot;für Aufgaben.
 
 * Wenn bei dieser Berechnung keine Übereinstimmung vorliegt, beginnt die zweite Phase der intelligenten Zuweisungen, die anhand eines anderen Algorithmus berechnet wird.
+
+</div>
 
 #### Zweite Phase der Berechnung der intelligenten Zuweisung für Aufgaben
 

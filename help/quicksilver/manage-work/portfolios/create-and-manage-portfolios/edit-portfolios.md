@@ -6,10 +6,10 @@ description: Sie können Informationen zu Portfolios bearbeiten, die Sie erstell
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 0%
+source-wordcount: '997'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können ein [!UICONTROL Portfolio] auf der Portfolioseite bearbeiten oder Po
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,29 +29,35 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Neu: Beliebig</p>
+   <p>Aktuell:[!UICONTROL Business] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Übersicht über Adobe [!DNL Workfront] Lizenzen*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenses*</td> 
+   <td> <p>Neu: Standard</p>
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsstufe*</td> 
-   <td> <p>[!UICONTROL] Zugriff auf Portfolios bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Portfolios in Ihrer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref">Gewähren des Zugriffs auf Portfolios</a>. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>[!UICONTROL] Zugriff auf Portfolios bearbeiten</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Berechtigungen für ein Portfolio verwalten</p> <p> Informationen zum Gewähren von Berechtigungen für Portfolios finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">Ein Portfolio freigeben </a>. </p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>[!UICONTROL Berechtigungen für ein Portfolio verwalten</p>
+   <p> Verwalten von Berechtigungen für die Projekte im Portfolio zum Hinzufügen oder Entfernen aus dem Portfolio</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Bearbeiten von Portfolios
 
-1. Wechseln Sie zum **[!UICONTROL Hauptmenü]**.
-1. Klicken Sie auf **[!UICONTROL Portfolio]** und dann auf den Namen eines Portfolios, um es zu öffnen.
+{{step1-to-portfolios}}
+
+1. Klicken Sie auf den Namen eines Portfolios, um es zu öffnen.
 1. (Optional) Um eingeschränkte Informationen zum Portfolio zu bearbeiten, klicken Sie im linken Bereich auf **[!UICONTROL Portfolio-Details]** .
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)
@@ -181,7 +187,7 @@ Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welche
 
    ![](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. Fügen Sie im Feld **[!UICONTROL Post einen Kommentar hinzu und aktualisieren Sie das Portfolio]** -Feld.
+1. Fügen Sie einen Kommentar im Feld **[!UICONTROL Posten einer Aktualisierung im Portfolio]** -Feld hinzu.
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Personen]** , um dem Kommentar einen Benutzer oder ein Team hinzuzufügen.
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Sperren]** , um den Kommentar zu sperren und ihn nur für Benutzer in Ihrem Unternehmen privat zu machen.
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.

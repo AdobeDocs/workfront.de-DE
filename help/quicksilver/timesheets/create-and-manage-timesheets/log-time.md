@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3553'
+source-wordcount: '3775'
 ht-degree: 0%
 
 ---
@@ -473,3 +473,36 @@ Weitere Informationen finden Sie unter [Verwenden Sie verbundene Karten auf Pinn
 
 Sie können die Zeit über die mobile Workfront-App protokollieren.
 Weitere Informationen finden Sie unter [Adobe Workfront für Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) oder [Adobe Workfront für iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+
+## Protokollstunden in Listen und Berichten bearbeiten
+
+Sie können die protokollierten Stunden in den folgenden Bereichen bearbeiten:
+
+* Alle Bereiche, in denen Sie die Stunden hinzugefügt haben, einschließlich geöffneter Zeitpläne
+* Stündliche Listen und Berichte.
+
+Sie können die folgenden Elemente eines Stundeneintrags bearbeiten, wenn Sie einen Stundeneintrag in einer Liste oder einem Bericht bearbeiten:
+
+* Anzahl Stunden
+* Stundentyp
+* Mit dem Stundeneintrag verknüpfte Auftragsrolle
+
+Je nachdem, welchen Typ von Stundeneinträgen Sie bearbeiten, stehen die folgenden Felder zur Bearbeitung zur Verfügung:
+
+* Wenn Sie projektspezifische Stunden bearbeiten:
+
+   * Sie können die Anzahl der Stunden bearbeiten.
+   * Sie können den Stundentyp nur in projektspezifische Typen ändern.
+   * Sie können die Zuweisung der Stundenrolle &quot;Auftrag&quot;nur ändern, wenn sie im Setup aktiviert war. Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für das Zeitblatt und die Stunde](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+
+* Wenn Sie die allgemeinen Stunden bearbeiten:
+
+   * Sie können die Anzahl der Stunden bearbeiten.
+   * Sie können den Typ Stunde nur in allgemeine Typen ändern.
+   * Sie können die Zuweisung der Stundenrolle &quot;Auftrag&quot;nicht ändern, da allgemeine Stunden nicht mit Rollen verknüpft werden können.
+
+* Wenn Sie eine Mischung aus allgemeinen und projektspezifischen Stunden in großen Mengen bearbeiten:
+
+   * Sie können die Anzahl der Stunden bearbeiten.
+   * Sie können den Stundentyp nicht ändern, da allgemeine Stundentypen nicht in projektspezifische Typen geändert werden können und projektspezifische Stundentypen nicht in allgemeine Typen geändert werden können.
+   * Sie können die Aufgabenrollenzuweisung nicht ändern, da allgemeine Stunden nicht mit Rollen verknüpft werden können.

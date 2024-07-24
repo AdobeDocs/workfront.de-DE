@@ -6,14 +6,16 @@ description: Sie können Ihre Projekte organisieren, indem Sie sie zu Programmen
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen eines Projekts zu einem Programm
+
+<!--Audited: 7/2024-->
 
 Sie können Ihre Projekte organisieren, indem Sie sie zu Programmen innerhalb von Portfolios hinzufügen. Sie können mehrere Projekte innerhalb eines Programms haben, aber Sie können nur ein Programm mit einem Projekt verknüpfen.
 
@@ -25,32 +27,35 @@ Informationen zum Erstellen von Programmen finden Sie unter [Programm erstellen]
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Team] oder höher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td><p>Neu: Standard</p> 
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL Ansicht] Zugriff auf Programme oder höher</p> <p>[!UICONTROL Zugriff auf Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>[!UICONTROL Zugriff auf Programme oder höher bearbeiten</p> <p>[!UICONTROL Zugriff auf Projekte bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL View] Berechtigungen für das Programm</p> <p>[!UICONTROL Verwalten] Berechtigungen für Projekte</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Programm</p> <p>[!UICONTROL Verwalten] Berechtigungen für Projekte</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Projekt zu einem bestehenden Programm hinzufügen
 
@@ -96,4 +101,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. (Bedingt) Wenn Sie **[!UICONTROL Vorhandenes Projekt]** ausgewählt haben, gehen Sie wie folgt vor:
 
    1. Geben Sie im Dialogfeld **[!UICONTROL Projekte hinzufügen]** den Namen des Projekts in das bereitgestellte Feld ein und wählen Sie es dann aus, wenn es in der Liste angezeigt wird. Sie können mehrere Projekte gleichzeitig hinzufügen.
-   1. Klicken Sie auf **[!UICONTROL Projekte hinzufügen]**.**&#x200B;** &#x200B; Das Projekt wird auf der Registerkarte **[!UICONTROL Projekte]** des Programms angezeigt und ist jetzt mit dem Programm und Portfolio verknüpft. 
+   1. Klicken Sie auf **[!UICONTROL Projekte hinzufügen]**.**&#x200B;** &#x200B; Das Projekt wird auf der Registerkarte **[!UICONTROL Projekte]** des Programms angezeigt und ist jetzt mit dem Programm und Portfolio verknüpft.

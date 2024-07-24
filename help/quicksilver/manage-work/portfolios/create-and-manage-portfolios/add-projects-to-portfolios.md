@@ -6,9 +6,9 @@ description: Es wird empfohlen, Portfolios beim Initiieren Projekte hinzuzufüge
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,9 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Neu: Beliebig</p>
+   <p>Aktuell:[!UICONTROL Business] oder höher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -42,12 +43,12 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
    <p>Aktuell:[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>[!UICONTROL View] Zugriff auf Portfolio oder höher</p> <p>[!UICONTROL Zugriff auf Projekte bearbeiten</p> </td> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>[!UICONTROL Zugriffs-Portfolios bearbeiten]</p> <p>[!UICONTROL Zugriff auf Projekte bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL View] Berechtigungen für das Portfolio</p> <p>[!UICONTROL Verwalten] Berechtigungen für Projekte</p>  </td> 
+   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Portfolio</p> <p>[!UICONTROL Verwalten] Berechtigungen für Projekte</p>  </td> 
   </tr> 
  </tbody> 
 </table>

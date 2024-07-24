@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,9 @@ Es gibt zwei Stundentypen:
   >
   >Wenn Sie projektspezifische Stundentypen in Ihrem [!DNL Workfront] -System aktivieren, muss mindestens ein projektspezifischer Stundentyp für jedes Projekt in Ihrem System aktiviert sein. Sie können einen projektspezifischen Stundentyp nicht auf Systemebene aktivieren und auf Projektebene sind keine projektspezifischen Stundentypen verfügbar.
 
-* **Allgemeine Stundentypen**: Allgemeine Stunden können nicht mit einem Projekt, einer Aufgabe oder einem Problem verknüpft werden und werden direkt in einem Timesheet protokolliert. Weitere Informationen zur Protokollierungszeit finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Allgemeine Stundentypen**: Allgemeine Stunden können nicht mit einem Projekt, einer Aufgabe oder einem Problem verknüpft werden und werden direkt in einem Timesheet protokolliert.
+
+Informationen zur Protokollierung von Stunden und deren Zuordnung zu Stundentypen finden Sie unter [Protokollzeit](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Zugriffsanforderungen
 
