@@ -6,22 +6,47 @@ description: Sie können einem Dokument, für das bereits ausstehende Genehmigun
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
+source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 2%
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 # Übersicht über die neuen Dokumentgenehmigungen
 
-Die neuen Dokumentgenehmigungen stellen eine umfassende Neugestaltung des bestehenden Genehmigungsprozesses dar, der derzeit für Adobe Workfront entwickelt wird. Derzeit in begrenzter Version verfügbar, ist es als praktische und effektive Lösung für Unternehmen konzipiert, die umfassende Mitwirkung von Interessengruppen und versionsspezifische Dokumentgenehmigungen erfordern. Das durchdachte Design und die neuen Funktionen erleichtern die Zusammenarbeit, die Rollenübersicht und die Versionskontrolle im Genehmigungsprozess und erhöhen so Effizienz und Rechenschaftspflicht.
-
-Lesen Sie weiter unten, um weitere Informationen zu geplanten Funktionen und Versionen für neue Dokumentgenehmigungen zu erhalten.
-
 >[!IMPORTANT]
 >
 >Der Inhalt dieses Artikels bezieht sich auf die aktualisierte Funktion zur Dokumentgenehmigung, die nur für bestimmte Konten verfügbar ist. Informationen zu Standardgenehmigungsverfahren finden Sie in den Artikeln unter [Arbeitsgenehmigungen](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
+Die neuen Dokumentgenehmigungen stellen eine umfassende Neugestaltung des bestehenden Genehmigungsprozesses dar, der derzeit für Adobe Workfront entwickelt wird. Derzeit in begrenzter Version verfügbar, ist es als praktische und effektive Lösung für Unternehmen konzipiert, die umfassende Mitwirkung von Interessengruppen und versionsspezifische Dokumentgenehmigungen erfordern. Das durchdachte Design und die neuen Funktionen erleichtern die Zusammenarbeit, die Rollenübersicht und die Versionskontrolle im Genehmigungsprozess und erhöhen so Effizienz und Rechenschaftspflicht.
+
+## Wichtige Unterschiede zwischen der Testversand- und Legacy-Dokumentgenehmigung
+
+**Proofing**
+
+* Die Entscheidungsschaltflächen für Dokumentgenehmigungen stehen im Testversand-Viewer nicht zur Verfügung. Entscheidungen können in der Dokumentzusammenfassung, den Startseiten-Widgets von Workfront oder auf der Seite &quot;Dokumentdetails&quot;getroffen werden.
+* Die Teilnehmer an der Dokumentgenehmigung werden in der Dokumentzusammenfassung und nicht in der Registerkarte für den Testversand-Workflow angezeigt.
+* Neue Dokumentgenehmigungen werden im aktuellen Reporting-Tool nicht unterstützt. Das Widget Alle Genehmigungen , das in den neuen Dashboards &quot;Startseite&quot;und &quot;Arbeitsfläche&quot;verfügbar ist, enthält die folgenden Details zu Genehmigungen für neue Dokumente:
+
+   * Genehmigungen nach Entscheidung
+   * Durchschnittliche Genehmigungszeit
+   * Ausstehende Genehmigungen
+   * Überfällige Genehmigungen
+
+**Genehmigungen veralteter Dokumente**
+
+* Sie können zusätzlich zu Genehmigern Überprüfer hinzufügen.
+* Sie können ein ganzes Workfront-Team entweder als Prüfer oder als Genehmiger festlegen.
+* Sie können einen Termin für die Überprüfung oder Genehmigung festlegen.
+* Sie können Validierungsvorlagen erstellen und wiederverwenden.
+* Sie können mehrere wichtige Leistungsindikatoren für Ihre Genehmigungen in den Startseiten-Widgets von Workfront anzeigen.
+
+## Verwenden neuer Dokumentgenehmigungen
+
+Benutzer, die Dokumentgenehmigungen erstellen oder verwalten möchten, finden Informationen in den Artikeln unter &quot;[Einrichten und Verwalten von Asset- und Dokumentgenehmigungen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)&quot;.
+
+Benutzer, die Dokumente überprüfen oder genehmigen möchten, für die sie eine Anforderung erhalten haben, finden Informationen in den Artikeln unter [Dokumente genehmigen und überprüfen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 ## Neue Funktionen und Designziele
 
@@ -45,17 +70,4 @@ Im Laufe mehrerer Versionen stellen wir Benutzern neue Dokumentgenehmigungen zur
 
 Wenn Sie in Ihrer Produktionsumgebung neue Dokumentgenehmigungen aktivieren möchten, wenden Sie sich an Ihren Kundenerfolg oder an Ihren strategischen Kundenbetreuer.
 
-## Verwenden neuer Dokumentgenehmigungen
 
-Benutzer, die Dokumentgenehmigungen erstellen oder verwalten möchten, finden Informationen in den Artikeln unter &quot;[Einrichten und Verwalten von Asset- und Dokumentgenehmigungen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)&quot;.
-
-Benutzer, die Dokumente überprüfen oder genehmigen möchten, für die sie eine Anforderung erhalten haben, finden Informationen in den Artikeln unter [Dokumente genehmigen und überprüfen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
-
->[!IMPORTANT]
->
->Die Genehmigungen für neue Dokumente werden im aktuellen Reporting-Tool nicht unterstützt. Das Widget Alle Genehmigungen , das in den neuen Dashboards &quot;Startseite&quot;und &quot;Arbeitsfläche&quot;verfügbar ist, enthält die folgenden Details zu Genehmigungen für neue Dokumente:
->
->* Genehmigungen nach Entscheidung
->* Durchschnittliche Genehmigungszeit
->* Ausstehende Genehmigungen
->* Überfällige Genehmigungen
