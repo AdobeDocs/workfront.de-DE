@@ -6,9 +6,9 @@ description: Sie können einem Dokument, für das bereits ausstehende Genehmigun
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
+source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Die neuen Dokumentgenehmigungen stellen eine umfassende Neugestaltung des besteh
 
 ## Wichtige Unterschiede zwischen der Testversand- und Legacy-Dokumentgenehmigung
 
-**Proofing**
+**Unterschiede zum Testversand**
 
 * Die Entscheidungsschaltflächen für Dokumentgenehmigungen stehen im Testversand-Viewer nicht zur Verfügung. Entscheidungen können in der Dokumentzusammenfassung, den Startseiten-Widgets von Workfront oder auf der Seite &quot;Dokumentdetails&quot;getroffen werden.
 * Die Teilnehmer an der Dokumentgenehmigung werden in der Dokumentzusammenfassung und nicht in der Registerkarte für den Testversand-Workflow angezeigt.
@@ -34,13 +34,17 @@ Die neuen Dokumentgenehmigungen stellen eine umfassende Neugestaltung des besteh
    * Ausstehende Genehmigungen
    * Überfällige Genehmigungen
 
-**Genehmigungen veralteter Dokumente**
+**Unterschiede zu älteren Dokumentgenehmigungen**
 
-* Sie können zusätzlich zu Genehmigern Überprüfer hinzufügen.
-* Sie können ein ganzes Workfront-Team entweder als Prüfer oder als Genehmiger festlegen.
-* Sie können einen Termin für die Überprüfung oder Genehmigung festlegen.
-* Sie können Validierungsvorlagen erstellen und wiederverwenden.
-* Sie können mehrere wichtige Leistungsindikatoren für Ihre Genehmigungen in den Startseiten-Widgets von Workfront anzeigen.
+Mit neuen Dokumentgenehmigungen können Sie
+
+* Hinzufügen von Validierern zusätzlich zu Genehmigern
+* Weisen Sie ein ganzes Workfront-Team als Validierungsverantwortliche oder Genehmiger zu
+* Legen Sie einen Termin für die Überprüfung oder Genehmigung fest
+* Erstellen und Wiederverwenden von Validierungsvorlagen
+* Neue Versionen für
+* Anzeigen mehrerer wichtiger Leistungsindikatoren für Ihre Genehmigungen in Workfront Home-Widgets
+* Verwenden Sie Canvas-Dashboards, um Berichtdetails zu neuen Dokumentgenehmigungen anzuzeigen
 
 ## Verwenden neuer Dokumentgenehmigungen
 
