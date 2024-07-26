@@ -6,9 +6,9 @@ description: Sie können Aufgaben löschen, die möglicherweise dupliziert oder 
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 463fc65db6adb5cae6ecffb2e165155c89a63d6d
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ Je nachdem, wie Ihr Workfront-Administrator die Voreinstellungen zum Projekt, zu
    1. (Bedingt) Wenn der Umschalter **Autosave** aktiviert ist:
 
       1. Wählen Sie die Aufgaben aus, die Sie löschen möchten, und klicken Sie dann auf **Mehr**
-      1. Klicken Sie auf **Löschen** und dann auf **Ja, löschen Sie es**, um den Löschvorgang zu bestätigen.
+      1. Klicken Sie auf **Löschen** und dann auf **Löschen** , um den Löschvorgang zu bestätigen.
 
          Die Aufgaben werden gelöscht.
 
@@ -149,7 +149,7 @@ Je nachdem, wie Ihr Workfront-Administrator die Voreinstellungen zum Projekt, zu
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Klicken Sie auf **Aufgabe löschen**.
-1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja, löschen Sie ihn**.
+1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Löschen**.
 
    Möglicherweise lässt Ihr Workfront-Administrator oder Gruppenadministrator das Löschen von Aufgaben, bei denen Stunden protokolliert werden, nicht zu.
 
