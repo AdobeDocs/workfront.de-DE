@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6090'
 ht-degree: 4%
 
 ---
@@ -538,7 +538,6 @@ Beispiele für die Verwendung des Felds &quot;Externe Suche&quot;zum Aufrufen de
 
 >[!NOTE]
 >
->* Die externe Suchfunktion wird derzeit nicht für benutzerdefinierte Document-Formulare unterstützt.
 >* Externe Suchfelder aus benutzerdefinierten Formularen werden in Dashboards derzeit nicht unterstützt. Sie können den Feldwert nicht inline bearbeiten und er wird möglicherweise nicht richtig in einem Dashboard angezeigt. (Externe Suchfelder werden in Leinwanddashboards unterstützt.)
 >* Externe Suchfelder werden im Outlook-Plug-in nicht unterstützt.
 >* Externe Suchfelder sind in Listen verfügbar, es sei denn, das Feld ist von einem anderen Feld abhängig.
@@ -593,7 +592,7 @@ So fügen Sie eine externe Suche hinzu:
      </tr>
      <tr> 
       <td role="rowheader">HTTP-Methode</td> 
-      <td>Wählen Sie für die Methode <strong>Get</strong>, <strong>Post</strong> oder <strong>Put</strong> aus.</td> 
+      <td>Wählen Sie <strong>Get</strong>, <strong>Post</strong> oder <strong>Put</strong> für die Methode aus.</td> 
      </tr>
      <tr> 
       <td role="rowheader">JSON-Pfad</td>
