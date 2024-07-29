@@ -6,9 +6,9 @@ description: Sie können [!DNL Jira] Probleme mit [!DNL Adobe Workfront] Aufgabe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -136,18 +136,24 @@ Weitere Informationen zum Aktualisieren verknüpfter Elemente finden Sie unter [
 So verknüpfen Sie [!DNL Jira]-Probleme manuell mit [!DNL Workfront] -Elementen:
 
 1. (Bedingt) Melden Sie sich bei [!DNL Workfront] an und suchen Sie nach einem Problem oder einer Aufgabe, die Sie mit dem Problem [!DNL Jira] verknüpfen möchten.
-1. (Bedingt) Kopieren Sie in der Adressleiste des Elements die **URL** des Elements in Workfront.
+1. (Bedingt) Kopieren Sie aus dem Bereich [!UICONTROL Details] die **[!UICONTROL Referenznummer]** des Elements in Workfront.
 
    Oder
 
-   Kopieren Sie aus dem Bereich [!UICONTROL Details] die **[!UICONTROL Referenznummer]** des Elements in Workfront.
+   Kopieren Sie in der Adressleiste des Elements die **URL** des Elements in Workfront.
+
+   >[!IMPORTANT]
+   >
+   >Wenn Ihr Unternehmen mit dem Adobe Unified Experience integriert wurde, müssen Sie die **Referenznummer** verwenden, um Workfront-Elemente mit Jira zu verknüpfen. (Die Option URL ist verfügbar, gibt jedoch einen Fehler zurück, wenn Sie sie verwenden.) Informationen zum einheitlichen Erlebnis finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+   >
+   >Für Unternehmen, die nicht über Adobe Unified Experience verfügen, wird die Verwendung der URL-Option nicht empfohlen, da sich die URLs ändern können.
 
    >[!NOTE]
    >
    >Sie müssen über eine [!DNL Workfront] -Lizenz verfügen, um sich bei [!DNL Workfront] anzumelden. Andernfalls muss Ihnen ein [!DNL Workfront] -Benutzer diese Informationen bereitstellen.
 
 1. Navigieren Sie in [!DNL Jira] zu einem Problem, das Sie manuell mit dem Element [!DNL Workfront] verknüpfen möchten.
-1. Fügen Sie im rechten Bereich [!DNL Workfront] die **URL** oder die **[!UICONTROL Referenz-Nummer]** des Elements [!DNL Workfront] ein, mit dem Sie eine Verknüpfung herstellen möchten.
+1. Fügen Sie im rechten Bereich [!DNL Workfront] die **[!UICONTROL Referenznummer]** oder die **URL** des Elements [!DNL Workfront] ein, das Sie mit ihm verknüpfen möchten.
 
 1. Klicken Sie auf **[!UICONTROL Link]**.
 
