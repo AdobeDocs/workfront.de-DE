@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Sie können eine Ansicht für die folgenden Entitäten freigeben:
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -93,7 +93,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Berechtigungen für eine Ansicht freigeben <!--internally-->
 
@@ -141,8 +141,6 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit der Berechtigung &q
    >[!TIP]
    >
    >   Für Sie freigegebene Ansichten haben neben dem Ansichtssymbol einen Personenindikator ![](assets/view-shared-with-others-people-icon.png). Ansichten ohne Personen-Indikator sind Ansichten, die Sie erstellt haben.
-
-
 
 <!--
 ## Share permissions to a view publicly

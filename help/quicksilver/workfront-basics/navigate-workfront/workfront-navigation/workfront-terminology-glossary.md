@@ -6,9 +6,9 @@ description: Das [!DNL Adobe Workfront] Glossar listet häufig verwendete Begrif
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '20310'
+source-wordcount: '20384'
 ht-degree: 0%
 
 ---
@@ -303,7 +303,7 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
   <tr> 
    <td>[!UICONTROL Budgetiertes Abschlussdatum]</td> 
    <td> <p>Dies ist ein veraltetes Feld. Alle Informationen, die in diesem Feld angezeigt werden, beziehen sich auf eine Funktion, die [!DNL Workfront] entfernt hat. Dieses Feld kann nicht aktualisiert werden. </p>
-   <p> Dieses Feld ist weiterhin in [!UICONTROL Projekt]- und [!UICONTROL Aufgaben]-Berichten und -Listen sichtbar.</p>  </td> 
+   <p> Dieses Feld ist weiterhin in [!UICONTROL Projekt]-Berichten und -Listen sichtbar.</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgetierte Kosten]</td>
@@ -443,7 +443,7 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
    <td>[!UICONTROL Budgetiertes Startdatum]</td> 
   <td> <p>Dies ist ein veraltetes Feld. Alle Informationen, die in diesem Feld angezeigt werden, beziehen sich auf eine Funktion, die [!DNL Workfront] entfernt hat. Dieses Feld kann nicht aktualisiert werden.</p>
   <p>Diese Bereiche wurden aus [!DNL Workfront] entfernt. </p> 
-  <p>Das Feld ist weiterhin in [!UICONTROL Projekt]- und [!UICONTROL Aufgabe]-Berichten und -Listen sichtbar.</p>
+  <p>Das Feld ist weiterhin in [!UICONTROL Projekt]-Berichten und -Listen sichtbar.</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1540,6 +1540,19 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   <tr> 
    <td>[!UICONTROL Geplante Kosten]</td> 
    <td> <p>Gesamtsumme der [!UICONTROL Planten Arbeitskosten] und der [!UICONTROL Planeten Kosten] des Projekts. Dies umfasst nicht die geplanten [!UICONTROL Risikokosten] für das Projekt.  </p> </td> 
+  </tr>
+
+
+
+<tr> 
+   <td>[!UICONTROL Geplante Datumsausrichtung]</td> 
+   <td> <p>Dies ist ein automatischer Indikator, mit dem Workfront Projekte, Aufgaben und Probleme zuweist, um anzuzeigen, wann ein Element in Bezug auf das geplante Abschlussdatum abgeschlossen wird. </p>
+   <p>Die folgenden Werte sind für den Indikator Geplante Datumsausrichtung möglich: </p>
+<ul>
+<li>Wird zum geplanten Abschlussdatum fertiggestellt</li>
+<li>Wird vor dem geplanten Abschlussdatum fertiggestellt</li>
+<li>Wird nach dem geplanten Abschlussdatum fertiggestellt</li></ul>
+<p>Die geplante Datumsausrichtung ist in Projekt-, Aufgaben- und Problemlisten und Berichten sichtbar. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Geplante Dauer]</td> 

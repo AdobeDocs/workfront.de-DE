@@ -6,7 +6,7 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 6%
@@ -41,14 +41,14 @@ Sie können die folgenden Objekte freigeben:
 
 * Ansichten
 
-  Sie müssen Benutzern, einschließlich Systemadministratoren, Berechtigungen erteilen, unabhängig von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche auf Ansichten zuzugreifen. Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md).
+   * Sie müssen Benutzern, einschließlich Systemadministratoren, Berechtigungen erteilen, unabhängig von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche auf Ansichten zuzugreifen. Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md).
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+     <!--move the link above to the end of this section-->
 
 Sie können einen Arbeitsbereich oder eine Ansicht für die folgenden Entitäten freigeben:
 
 * Benutzende
 * Gruppen
-
-<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 
 ## Überlegungen zum Freigeben von Objekten in der Adobe Workfront-Planung
 
@@ -60,6 +60,14 @@ Sie können einen Arbeitsbereich oder eine Ansicht für die folgenden Entitäten
 * Sie können einen Link zu einem Arbeitsbereich oder einer Ansicht für andere freigeben.
 
   Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich oder die Seite vom Typ Datensatz zugreifen zu können, die in der ausgewählten Ansicht angezeigt wird.
+
+  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
+    The following scenarios exist:
+        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
+        * Users who receive the link to a view can access the view in the following ways: 
+        
+            * Must be active users and log in to Workfront
+            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
 
 ## Berechtigungen für Adobe Workfront Planning-Objekte freigeben
 
