@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 32f2c7227ba5851f5a9de85bd350fe9093a5fc8f
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Wenn Sie beispielsweise den AI-Assistenten fragen, wie ich eine Anforderungswart
 So erhalten Sie Informationen oder Anweisungen aus der Workfront-Dokumentation mit dem AI-Assistenten:
 
 1. Klicken Sie auf das Symbol **AI-Assistent** ![AI-Assistent-Symbol](assets/ai-assistant-icon.png) oben rechts im Bildschirm.
-1. Geben Sie im Bereich &quot;AI Assistant&quot;Ihre Eingabeaufforderung im Textbereich unten im Bedienfeld ein.
+1. Geben Sie im Bedienfeld &quot;AI Assistant&quot;Ihre Eingabeaufforderung in den Textbereich unten im Bedienfeld ein.
 
    Je nach Größe oder Komplexität der Eingabeaufforderung kann es einen Moment dauern, bis der KI-Assistent die Informationen findet. Wir empfehlen einfache Eingabeaufforderungen.
 
