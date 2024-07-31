@@ -6,9 +6,9 @@ description: Sie können die Sprache ändern, in der Sie Adobe Workfront und E-M
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
+source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1022'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Workfront unterstützt die folgenden Sprachen:
 * Chinesisch - vereinfacht (zh-CN)
 * Chinesisch - Traditionell (zh-TW)
 
-Die Sprache, die zur Anzeige von Workfront in Ihrem Browser verwendet wird, wird durch Ihre Browserspracheinstellungen gesteuert. Stellen Sie sicher, dass Sie eine Sprache für Ihren Browser auswählen, die in der Liste der unterstützten Sprachen aufgeführt ist.
+Die Sprache, die zur Anzeige von Workfront in Ihrem Browser verwendet wird, wird von Ihren Browserspracheinstellungen gesteuert, wenn Ihr Unternehmen nicht über IMS verfügt, oder von Ihrer Adobe Experience Cloud-Profilsprache, wenn Ihr Unternehmen nicht über IMS verfügt. Wählen Sie in beiden Fällen eine Sprache aus, die in der Liste der unterstützten Sprachen aufgeführt ist.
 
 Um ausgehende E-Mails in einer der unterstützten Sprachen anzuzeigen, ändern Sie das Gebietsschema für E-Mails an Benutzer oder die Einstellungen für Kundeninformationen in Workfront.\
 Sie müssen ein Workfront-Administrator sein, um die Einstellungen für Kundeninformationen ändern zu können.\
@@ -97,22 +97,34 @@ Weitere Informationen zu Workfront Fusion finden Sie unter [Übersicht über Ado
 
 Sie können die Sprache, in der Sie Workfront anzeigen, und die Sprache der ausgehenden E-Mails ändern, indem Sie die folgenden Einstellungen ändern:
 
-* Die Sprache Ihres Browsers
+* Die Sprache Ihres Browsers (für Benutzer, die nicht IMS verwenden)
+* Die primäre und sekundäre Sprache Ihres AEM Profils (für Benutzer mit IMS)
 * Die Einstellungen für &quot;Kundeninformationen&quot;und &quot;Gebietsschema für Benutzer-E-Mails&quot;in Ihrem Workfront-Konto.
 
 Um alle verfügbaren Übersetzungen für Ihre ausgewählte Sprache anzuzeigen, sollten sowohl das Workfront-Gebietsschema als auch das Browser-Gebietsschema auf dieselbe Sprache eingestellt sein.
 
-* [Ändern der Browsersprache](#change-the-browser-language)
+* [Browsersprache ändern](#change-the-browser-language)
+* [Adobe Experience Cloud-Sprache ändern](#change-the-adobe-experience-cloud-language)
 * [Workfront- und Benutzer-E-Mail-Gebietsschemata ändern](#change-the-workfront-and-user-locales)
 
 ### Browsersprache ändern {#change-the-browser-language}
 
-Wenn Sie die Browsersprache ändern, wird Ihre Workfront-Benutzeroberfläche in dieser Sprache angezeigt.\
+Wenn Ihr Unternehmen nicht über IMS verfügt und Sie die Browsersprache ändern, wird Ihre Workfront-Benutzeroberfläche in dieser Sprache angezeigt.\
 Weitere Informationen dazu, welche Sprachen von Workfront unterstützt werden, finden Sie unter [Unterstützte Sprachen in Adobe Workfront](#supported-languages).
 
 Die Browsersprache muss für einzelne Benutzer geändert werden.
 
 Weitere Informationen zur Sprachänderung Ihres Browsers finden Sie im Menü &quot;Hilfe&quot;.
+
+## Adobe Experience Cloud-Sprache ändern
+
+Wenn Ihr Unternehmen IMS verwendet, bestimmt Ihre Adobe Experience Cloud-Profilsprache die Sprache, die in Workfront angezeigt wird.
+
+1. Klicken Sie auf Ihr Profilbild ganz rechts in der Adobe Experience Cloud-Symbolleiste und dann auf **Voreinstellungen**. Die Adobe Experience Cloud-Symbolleiste befindet sich direkt über der Workfront-Symbolleiste.
+
+1. Klicken Sie unter **Profil** unter Ihrem Namen und Ihrer E-Mail-Adresse auf den Namen der aktuell ausgewählten Sprache.
+
+1. Wählen Sie Ihre bevorzugten Sprachen in den Dropdown-Listen **Erste Sprache** und **Zweite Sprache** aus. Die erste Sprache ist Ihre Standardsprache, während die zweite nur angezeigt wird, wenn die erste Sprache von einer bestimmten Anwendung nicht unterstützt wird.
 
 ### Workfront- und Benutzer-E-Mail-Gebietsschemata ändern {#change-the-workfront-and-user-locales}
 
