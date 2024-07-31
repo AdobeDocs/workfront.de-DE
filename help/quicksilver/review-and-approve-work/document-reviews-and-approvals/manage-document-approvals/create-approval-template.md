@@ -6,7 +6,7 @@ description: Sie können Genehmigungsvorlagen erstellen, um Ihren Genehmigungspr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 2%
@@ -61,6 +61,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    |----------------------------|---|
    | **(Optional) Timeframe** | Geben Sie den Zeitrahmen in Tage ein. Der Validierungszeitraum wird aus diesem Feld berechnet, sobald die Vorlage auf ein Asset angewendet wird. |
    | **Genehmiger oder Prüfer hinzufügen** | Beginnen Sie mit der Eingabe des Namens von Benutzern oder Teams und benennen Sie sie dann als Prüfer oder Genehmiger. |
+
 1. Klicken Sie auf **Speichern**.
 
 

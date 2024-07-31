@@ -6,10 +6,10 @@ description: Sie können die Rollenzuordnung für alle Arbeitsrollen anzeigen, d
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -114,10 +114,9 @@ Sie müssen über Folgendes verfügen:
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Überprüfen Sie die folgenden Informationen im Bereich **Rollenzuweisung** :
-|Feld | Beschreibung|
-|—|—|
-| **Auftragsrolle** |Auftragsrollen, die Aufgaben und Problemen im Projekt zugewiesen sind. Dabei kann es sich um direkt den Aufgaben und Problemen zugewiesene Aufgabenrollen oder Aufgabenrollen handeln, die mit Benutzern verknüpft sind, die Aufgaben und Problemen im Projekt zugewiesen sind.  |
-| **Geplante Stunden** |Die Gesamtanzahl der geplanten Stunden aus Aufgaben und Problemen, die Stellenrollen oder Benutzern zugewiesen sind, die mit einer Auftragsrolle im Projekt verknüpft sind.  |
 
-
+   | Feld | Beschreibung |
+   |---|---|
+   | **Auftragsrolle** | Den Aufgaben und Problemen im Projekt zugewiesene Auftragsrollen. Dabei kann es sich um direkt den Aufgaben und Problemen zugewiesene Aufgabenrollen oder Aufgabenrollen handeln, die mit Benutzern verknüpft sind, die Aufgaben und Problemen im Projekt zugewiesen sind. |
+   | **Geplante Stunden** | Die Gesamtzahl der geplanten Stunden aus Aufgaben und Problemen, die Stellenrollen oder Benutzern zugewiesen sind, die mit einer Auftragsrolle im Projekt verknüpft sind. |
 
