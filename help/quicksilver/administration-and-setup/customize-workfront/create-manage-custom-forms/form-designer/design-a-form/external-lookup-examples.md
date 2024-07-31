@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ Ein Feld &quot;Externe Suche&quot;in einem benutzerdefinierten Formular ruft ein
 
 In diesem Artikel finden Sie Beispiele für die Verwendung des Felds Externe Suche , um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen. Sie können auch die externe Suche verwenden, um mit einem externen System wie Jira, Salesforce oder ServiceNow zu kommunizieren.
 
-Externe Suchfelder sind nur im neuen Formularentwickler verfügbar, nicht im alten Formularersteller. Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular und zusätzliche Definitionen der externen Lookup-Komponenten finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular und zusätzliche Definitionen der externen Lookup-Komponenten finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Einrichten eines externen Suchfelds für dieselbe Instanz von Workfront
 
 Sie können die externe Suche verwenden, um Daten aus Ihrer Workfront-Instanz in das benutzerdefinierte Formular zu übertragen.
+
+### Verwenden nativer Workfront-Feldwerte in der externen Suche
 
 In diesem Beispiel wird gezeigt, wie die Workfront-API aufgerufen und Daten aus dem vorhandenen Feld &quot;Statusabfrage&quot;in das Feld &quot;Externe Suche&quot;übertragen werden.
 
@@ -69,6 +71,43 @@ In diesem Beispiel wird gezeigt, wie die Workfront-API aufgerufen und Daten aus 
    ![Benutzerdefiniertes Formular mit externem Suchfeld](assets/external-lookup-project-status-example1.png)
 
    ![Externe Suchoptionen basierend auf dem Status](assets/external-lookup-project-status-example2.png)
+
+### Verwenden benutzerdefinierter Feldwerte in der externen Suche
+
+In diesem Beispiel wird gezeigt, wie Sie die Workfront-API aufrufen und Daten aus einem benutzerdefinierten Feld in Ihr externes Suchfeld übertragen. Das benutzerdefinierte Beispielfeld heißt &quot;Benutzerdefinierte Farben&quot;.
+
+1. Öffnen Sie das benutzerdefinierte Formular.
+1. Suchen Sie auf der linken Seite des Bildschirms nach **Externer Suchvorgang** und ziehen Sie ihn in einen Bereich auf der Arbeitsfläche.
+1. Geben Sie den **Titel** und den **Namen** für das Feld ein.
+1. Wählen Sie das **Format** für das Feld aus.
+1. Geben Sie den API-URL-Aufruf im Feld **Basis-API-URL** ein.
+
+   **Beispiel**
+   `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
+
+1. Überprüfen Sie die **Abhängigkeiten** für die Felder, auf die dieses Suchfeld in der API verweist.
+
+   Ein Abhängigkeitsfeld kann ein beliebiges benutzerdefiniertes oder natives Feld sein, das auf der Detailseite des Objekts vorhanden ist.
+
+1. Wählen Sie die **HTTP-Methode** aus.
+
+   Dies ist meist **Get**.
+
+1. Geben Sie den **JSON-Pfad** ein, um die Ergebnisse aus Ihrem API-Aufruf zu erhalten.
+
+   **Beispiel**
+   `$.data[*].parameterValues.["DE:Combo Colors"]`
+
+   * &quot;parameterValues&quot;bezieht sich auf jedes benutzerdefinierte Feld in Workfront für das Objekt, auf dem Sie sich befinden.
+   * In diesem Beispiel ist &quot;DE:Combo Colors&quot;das spezifische benutzerdefinierte Feld, das die Werte enthält, die Sie abrufen möchten.
+
+   >[!NOTE]
+   >
+   >**Kopfzeileninformationen** sind für einen Aufruf an dieselbe Workfront-Instanz nicht erforderlich.
+
+1. Klicken Sie auf **Anwenden**.
+
+   Wenn das benutzerdefinierte Formular einem Workfront-Objekt hinzugefügt wird, werden alle Werte im Feld &quot;Kombinationsfarben&quot;in der Dropdown-Liste &quot;Externes Suchfeld&quot;angezeigt.
 
 ## Externes Suchfeld für eine öffentliche API einrichten
 
