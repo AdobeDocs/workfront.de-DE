@@ -6,9 +6,9 @@ description: Ressourcen-Pools sind Sammlungen von Benutzern, mit denen Sie Resso
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -93,14 +93,14 @@ Sie müssen über Folgendes verfügen:
     </tbody>
    </table>
 
-1. (Optional) Verwenden Sie den Link &quot;**Rückgängig**&quot;, um die Benutzer zu entfernen, die über eine Gruppe, ein Team, ein Unternehmen oder eine Jobrolle hinzugefügt wurden. <span class="preview">(Die Funktion &quot;Rückgängig&quot;ist in der Vorschau-Umgebung vorübergehend nicht verfügbar.)</span>
+1. (Optional) Verwenden Sie den Link &quot;**Rückgängig**&quot;, um die Benutzer zu entfernen, die über eine Gruppe, ein Team, ein Unternehmen oder eine Jobrolle hinzugefügt wurden.
 
    >[!NOTE]
    >
    >Es gibt keine Beschränkung dafür, wie viele Benutzer Sie in einem Ressourcen-Pool haben können. Es wird jedoch empfohlen, nicht zu viele Benutzer zu einem Ressourcen-Pool hinzuzufügen, da das Ressourcen-Management andernfalls zu einer Herausforderung werden könnte. Die Liste der Benutzer zeigt nur die ersten 2.000 Benutzer im Ressourcen-Pool an und sie werden alphabetisch aufgelistet.
 
    <span class="preview">Beispielbild in der Vorschauumgebung:</span>
-   <span class="preview">![Benutzer, die zum Ressourcen-Pool hinzugefügt wurden](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![Benutzer, die zum Ressourcen-Pool hinzugefügt wurden](assets/users-in-resource-pool2.png)</span>
 
    Beispielbild in der Produktionsumgebung:
    ![Benutzer, die zum Ressourcen-Pool hinzugefügt wurden](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
