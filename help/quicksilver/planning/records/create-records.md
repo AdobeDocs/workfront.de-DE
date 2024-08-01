@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ In der Adobe Workfront-Planung ist ein Datensatz eine Instanz eines Datensatztyp
 
 Sie können Datensätze anhand einer der folgenden Methoden erstellen:
 
-* Erstellen Sie sie manuell für Datensatztypen
-* Erstellen Sie Datensätze durch Kopieren und Einfügen von Informationen aus einer externen Liste.
+* Fügen Sie sie von der Seite mit dem Datensatztyp hinzu
+* Datensätze aus einer externen Liste kopieren und einfügen
+* Duplizieren Sie sie
 
 In diesem Artikel wird beschrieben, wie Sie Datensätze erstellen können. Informationen zum Verwalten von Datensätzen in der Tabellen- oder Timeline-Ansicht finden Sie in den folgenden Artikeln:
 
@@ -95,7 +96,7 @@ In diesem Artikel wird beschrieben, wie Sie Datensätze erstellen können. Infor
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Erstellen von Datensätzen durch manuelles Hinzufügen zu einem Datensatztyp <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Erstellen von Datensätzen durch Hinzufügen zu einem Datensatztyp <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 Sie können Datensätze in der Tabellenansicht einer Seite vom Typ Datensatz erstellen.
 
@@ -118,7 +119,8 @@ Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
       * Klicken Sie in der letzten Zeile der Tabelle auf **Neuer Datensatz** .
 
-      * Klicken Sie in einer beliebigen Spalte oder Zeile der Tabelle auf die Tastenkombination **Umschalt + Eingabetaste**. Hierdurch wird eine leere Zeile angezeigt.
+      * Klicken Sie in einer beliebigen Spalte oder Zeile der Tabelle auf die Tastenkombination **Umschalt + Eingabetaste**. Dadurch wird eine leere Zeile unter dem Datensatz hinzugefügt, aus dem Sie beginnen.
+      * Bewegen Sie den Mauszeiger über das Primärfeld eines Datensatzes, klicken Sie auf das Menü **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Feld und klicken Sie dann auf **Datensatz über** einfügen oder **Datensatz unter** einfügen .
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -179,7 +181,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## Datensätze durch Kopieren und Einfügen von Informationen aus einer externen Liste erstellen
+## Datensätze durch Kopieren und Einfügen aus einer externen Liste erstellen
 
 1. Beginnen Sie mit der Erstellung von Datensätzen in der Tabellenansicht, wie im Abschnitt [Erstellen von Datensätzen beschrieben, indem Sie sie manuell zu einem Datensatztyp hinzufügen](#create-records-by-manually-adding-them-to-a-record-type) in diesem Artikel.
 
@@ -207,3 +209,8 @@ You can import records from other applications by linking them to existing recor
 
    * Die Zeilen enthalten die neuen Datensätze
    * Die Spalten enthalten Informationen zu den Feldern der Datensätze.
+
+
+## Datensätze durch Duplizierung erstellen
+
+Informationen zum Duplizieren von Datensätzen finden Sie unter [Duplizieren von Datensätzen](/help/quicksilver/planning/records/copy-or-duplicate-records.md).

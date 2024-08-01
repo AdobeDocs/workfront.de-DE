@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '5528'
+source-wordcount: '5654'
 ht-degree: 0%
 
 ---
@@ -39,24 +39,12 @@ Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichu
 
 Die Workfront-Planung wurde seit Januar 2024 vorübergehend aus der Vorschau- und Sandbox-Umgebung entfernt. Alle in diesen Artikeln dokumentierten Funktionen sind derzeit in der Produktion verfügbar.
 
-## Woche vom 29. Juli 2024
-
-### Die öffentliche API für die Adobe Workfront-Planung ist jetzt verfügbar
-
-Produktion: 30. Juli 2024
-
-Vorschau: zu bestimmen
-
-Die öffentliche API für die Adobe Workfront-Planung ist jetzt verfügbar.
-
-Weitere Informationen finden Sie unter [Grundlagen der Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md).
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -71,6 +59,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## Woche vom 29. Juli 2024
+
+### Die öffentliche API für die Adobe Workfront-Planung ist jetzt verfügbar
+
+Produktion: 30. Juli 2024
+
+Vorschau: zu bestimmen
+
+Die öffentliche API für die Adobe Workfront-Planung ist jetzt verfügbar.
+
+Weitere Informationen finden Sie unter [Grundlagen der Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md).
+
+### Datensätze in die Tabellenansicht einfügen und duplizieren
+
+Produktion: 1. August 2024
+Vorschau: zu bestimmen
+
+Beim Arbeiten mit Datensätzen in der Tabellenansicht wurden die folgenden Funktionen eingeführt:
+
+* Datensätze duplizieren: Durch Duplizieren eines existierenden Datensatzes können Sie schnell einen Datensatz erstellen.  Es wird ein identischer Datensatz erstellt. Diese Funktion ist nur in der Tabellenansicht verfügbar.
+
+* Sie können einen neuen Datensatz über oder unter einem vorhandenen Datensatz in der Tabellenansicht einfügen. Vor dieser Verbesserung fügen Sie nur Datensätze am unteren Rand der Tabellenansicht hinzu.
+
+Sie können die neuen Funktionen aus den folgenden Bereichen ausführen:
+
+* Das Menü Mehr eines Datensatzes
+
+* Die neue Symbolleiste, die in der Tabellenansicht am unteren Rand der Datensatzseite hinzugefügt wurde
+
+Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
+
 
 ## Woche vom 8. Juli 2024
 

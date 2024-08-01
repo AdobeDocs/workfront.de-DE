@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2630'
 ht-degree: 3%
 
 ---
@@ -135,9 +135,8 @@ Das Hinzufügen von Spalten zu einer Ansicht entspricht dem Hinzufügen von Feld
 
 Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufügen.
 
-1. Wechseln Sie zu einer Seite vom Typ Datensatz und wählen Sie eine Ansicht vom Typ **Tabelle** aus dem Dropdown-Menü &quot;Ansicht&quot;.
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und klicken Sie auf die Registerkarte &quot;Tabellenansicht&quot;, oder klicken Sie auf **+ Ansicht** , um eine neue Ansicht hinzuzufügen, und wählen Sie dann **Tabelle** aus.
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Beginnen Sie mit dem Hinzufügen von Feldern (oder Spalten), wie im Artikel [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md) beschrieben.
 
    Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen und als neue Felder auf der Datensatzseite hinzugefügt werden.
@@ -213,9 +212,8 @@ Die Zeilen einer Tabellenansicht zeigen einzelne Datensätze des ausgewählten D
 
 Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp haben.
 
-1. Wechseln Sie zu einer Seite vom Typ Datensatz und wählen Sie eine Ansicht vom Typ **Tabelle** aus dem Dropdown-Menü &quot;Ansicht&quot;.
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und klicken Sie auf die Registerkarte &quot;Tabellenansicht&quot;, oder klicken Sie auf **+ Ansicht** , um eine neue Ansicht hinzuzufügen, und wählen Sie dann **Tabelle** aus.
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Beginnen Sie mit dem Hinzufügen von Datensätzen (oder Zeilen), wie im Artikel [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md) beschrieben.
 
    Die Datensätze, die Sie in der Tabellenansicht hinzufügen, werden sofort gespeichert und sind für alle Benutzer sichtbar, die über Ansicht oder höhere Berechtigungen für den Arbeitsbereich verfügen.
@@ -229,13 +227,8 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
    >[!NOTE]
    >
    >Wenn Sie mindestens eine Sortierung auf die Tabellenansicht anwenden, können Sie die Reihenfolge der Zeilen nicht ändern.
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >Die Änderungen an der Zeilenreihenfolge sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -244,6 +237,7 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
 Mithilfe von Filtern können Sie die Anzahl der auf dem Bildschirm angezeigten Informationen verringern.
 
 Beachten Sie Folgendes beim Arbeiten mit Filtern in der Tabellenansicht:
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * Die Filter, die Sie für die Tabellenansicht erstellen, funktionieren unabhängig von den Filtern in der Timeline-Ansicht, wenn sie auf denselben Datensatztyp angewendet werden.
