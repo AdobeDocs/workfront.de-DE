@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: Verknüpfen von Ressourcen-Pools mit Benutzern
-description: Verknüpfen von Ressourcen-Pools mit Benutzern
-author: Alina
+description: Sie müssen einen Ressourcen-Pool erstellen, bevor Sie ihn mit Benutzern verknüpfen können. Sie können Benutzer bei der Erstellung Ihrer Ressourcen-Pools Ressourcen-Pools zuordnen.
+author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
