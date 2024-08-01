@@ -7,9 +7,9 @@ description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfron
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,12 @@ Diese Vorlagen automatisieren Workfront-Prozesse und -Workflows.
 ### [!BADGE Neu!]{type=Informative}
 
 Diese Fusion-Vorlage erstellt eine standardmäßige Checkliste für alle Karten, die eine bestimmte Spalte auf einer bestimmten Pinnwand zeitbasiert eingeben.
+
+### [!BADGE Neu!]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+Dieses Szenario wird durch ein neues Projekt ausgelöst, das erstellt wird. In diesem Szenario können Sie eine Pinnwand erstellen, die nach dem Projekt benannt ist, Spalten basierend auf Ihren Anforderungen umbenennen oder erstellen, benutzerdefinierte Tags erstellen und dem ursprünglichen Projekt einen Filter für die Ansauspalte zuweisen.  Es können Tausende zusätzlicher Änderungen vorgenommen werden, aber ab hier können Sie sehen, welche Möglichkeiten es gibt, einen Ausgangspunkt für die Standardisierung der Pinnwände in Ihrem Unternehmen zu schaffen.
 
 ### Workfront - Projekterstellung aus CSV
 
