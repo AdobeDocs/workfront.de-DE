@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -154,3 +154,11 @@ Informationen zu den Wartungsupdates, die in der Version vom 4. Quartal 2024 vor
 ### Schulungsaktualisierungen
 
 Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt &quot;Neue Funktionen&quot;auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+
+### Funktion wird bald aus Workfront entfernt
+
+Die folgende Funktion wird in Kürze aus Workfront entfernt:
+
+#### Veraltetes Home-Erlebnis mit Version 24.10
+
+Mit der Version 24.10 werden wir offiziell das alte Home-Erlebnis einstellen. Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird. Weitere Informationen über die Umstellung, einschließlich der Möglichkeiten für Benutzer und Administratoren zur Vorbereitung, werden demnächst bereitgestellt.

@@ -6,16 +6,16 @@ description: Sie können die Sprache ändern, in der Sie Adobe Workfront und E-M
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 1%
 
 ---
 
 # Unterstützte Sprachen in Adobe Workfront
 
-Sie können die Sprache ändern, in der Sie Adobe Workfront und E-Mails aus Workfront anzeigen, indem Sie die Spracheinstellungen in Ihrem Browser und Ihr standardmäßiges E-Mail-Gebietsschema in Workfront anpassen.
+Sie können die Sprache ändern, in der Sie Adobe Workfront und E-Mails aus Workfront anzeigen, indem Sie die Spracheinstellungen in Ihrem Browser (falls nicht IMS) oder Ihren Adobe Experience Cloud-Profilsprachvoreinstellungen (falls IMS) und Ihrem standardmäßigen E-Mail-Gebietsschema in Workfront anpassen.
 
 Die Workfront-Terminologie wird bei jedem Workfront-Update für die unterstützten Sprachen aktualisiert.
 
