@@ -6,7 +6,7 @@ description: Es gibt zwar keine Beschränkung dafür, wie viele Benutzer Sie in 
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
+source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -75,7 +75,7 @@ Oder\
    Beginnen Sie mit der Eingabe des Namens eines Unternehmens, einer Rolle im Job, eines Teams oder einer Gruppe, wenn Sie alle mit diesen Entitäten verknüpften Benutzer entfernen möchten.
 
    <span class="preview">Beispielbild in der Vorschauumgebung:<span>
-   <span class="preview">![Entfernen von Benutzern aus Resource Pool](assets/remove-users-from-resource-pool.png)<span>
+   ![Entfernen von Benutzern aus Resource Pool](assets/remove-users-from-resource-pool.png)
 
    Beispielbild in der Produktionsumgebung:
    ![Suchen im Ressourcen-Pool](assets/search-inside-new-resource-pool-350x314.png)
