@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 49126ecec4a90c32139b49ee3dc37ce6671bb1d1
+source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Bearbeiten von Geschäftsregeln
-
->[!IMPORTANT]
->
->Geschäftsregeln sind vorübergehend nicht verfügbar.
 
 Mit einer Geschäftsregel können Sie eine Validierung auf Workfront-Objekte anwenden und verhindern, dass Benutzer ein Objekt erstellen, bearbeiten oder löschen, wenn bestimmte Bedingungen erfüllt sind. Geschäftsregeln helfen bei der Verbesserung der Datenqualität und der betrieblichen Effizienz, indem sie Aktionen verhindern, die die Datenintegrität beeinträchtigen könnten.
 
