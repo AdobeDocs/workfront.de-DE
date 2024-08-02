@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -27,10 +27,8 @@ Wenn Sie eine Ansicht freigeben, gewähren Sie anderen Berechtigungen für den Z
 
 Sie können eine Ansicht für die folgenden Entitäten freigeben:
 
-* Workfront-Benutzer
-* Workfront-Gruppen
-<!--* Publicly, with users outside Workfront
--->
+* Intern mit Workfront-Benutzern und -Gruppen
+* Öffentlich für Benutzer außerhalb von Workfront
 
 ## Zugriffsanforderungen
 
@@ -95,9 +93,21 @@ Sie können eine Ansicht für die folgenden Entitäten freigeben:
 
 +++
 
-## Berechtigungen für eine Ansicht freigeben <!--internally-->
+## Überlegungen beim Freigeben von Ansichten
 
-Sie können von Ihnen erstellte Ansichten oder Ansichten mit der Berechtigung &quot;Verwalten&quot;für <!--with users or groups in Workfront--> freigeben.
+* Sie können internen Workfront-Benutzern Ansichts- oder Verwaltungsberechtigungen für eine Ansicht erteilen.
+
+* Benutzer mit Verwaltungsberechtigungen können die Ansichtseinstellungen ändern, freigeben, duplizieren oder löschen.
+
+* Sie können Ansichten für Personen außerhalb Ihres Unternehmens über einen öffentlichen Link freigeben.
+
+* Wenn Sie eine Ansicht öffentlich freigeben, steht der Link für eine begrenzte Zeit für jedermann außerhalb Ihres Unternehmens zur Verfügung, angegeben durch das Ablaufdatum. Zum Anzeigen der freigegebenen Tabellenansicht ist keine Anmeldung erforderlich.
+
+* Personen außerhalb Ihrer Organisation, die Zugriff auf eine Ansicht haben, können keine anderen Ansichten erstellen, die freigegebene Ansicht bearbeiten oder Datensatzinformationen in der Tabelle hinzufügen, löschen oder bearbeiten.
+
+## Berechtigungen intern für eine Ansicht freigeben
+
+Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie über Verwaltungsberechtigungen verfügen, in Workfront für Benutzer oder Gruppen freigeben.
 
 >[!NOTE]
 >
@@ -115,14 +125,14 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit der Berechtigung &q
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   <!--The Internal sharing tab should be selected by default.-->
+   Die Registerkarte **Interne Freigabe** sollte standardmäßig ausgewählt sein.
 
-1. (Optional) Wählen Sie aus den folgenden Optionen aus, um die Ansicht freizugeben:
+1. (Optional) Wählen Sie im Bereich **Wer Zugriff hat** aus den folgenden Optionen aus:
 
    * **Nur eingeladene Personen können auf** zugreifen: Sie müssen Benutzer oder Gruppen angeben, für die Sie die Ansicht freigeben möchten. Dies ist die Standardoption.
    * **Alle Benutzer im Arbeitsbereich können anzeigen**: Alle Benutzer mit der Berechtigung &quot;Ansicht&quot;oder höher für Arbeitsbereiche können auf die Ansicht zugreifen.
 
-1. Geben Sie im Feld **Gewähren des Ansichtszugriffs auf** den Namen eines Benutzers oder einer Gruppe ein und klicken Sie dann auf diesen, wenn er in der Liste angezeigt wird.  <!--***********replace screen shot below when public sharing is released***********-->
+1. Geben Sie im Feld **Gewähren des Ansichtszugriffs auf** den Namen eines Benutzers oder einer Gruppe ein und klicken Sie dann auf diesen, wenn er in der Liste angezeigt wird.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -142,45 +152,41 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten mit der Berechtigung &q
    >
    >   Für Sie freigegebene Ansichten haben neben dem Ansichtssymbol einen Personenindikator ![](assets/view-shared-with-others-people-icon.png). Ansichten ohne Personen-Indikator sind Ansichten, die Sie erstellt haben.
 
-<!--
-## Share permissions to a view publicly
+## Berechtigungen öffentlich für eine Ansicht freigeben
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie über Verwaltungsberechtigungen verfügen, für Personen freigeben, die keine Workfront-Lizenz besitzen und die möglicherweise nicht zu Ihrem Unternehmen gehören.
 
-Consider the following when publicly sharing a Workfront Planning view: 
-
-* You can share a public link to a record type page that displays in the view you are sharing.
-* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
-* The shared public link must have an expiration date after which the link is no longer accessible. 
-
-To share a view publicly in Workfront Planning: 
+So geben Sie eine Ansicht in der Workfront-Planung öffentlich frei:
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
+1. Öffnen Sie den Arbeitsbereich, dessen Ansicht Sie freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz.
 
-   This opens the record type page.
+   Dadurch wird die Seite mit dem Datensatztyp geöffnet.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. Bewegen Sie auf der Registerkarte &quot;Ansicht&quot;den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Ansichtsnamen und klicken Sie dann auf **Freigeben** .
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Click **Public sharing**.
+1. Klicken Sie auf **Öffentliche Freigabe**.
 
-1. Enable the **Create public link** setting.
+   ![](assets/public-sharing-tab-for-views.png)
 
-   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+1. Aktivieren Sie die Einstellung **Öffentlichen Link erstellen** .
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+   Ein Link wird verfügbar. Dies ist ein öffentlicher Link. Bei der Freigabe kann jeder, der über den Link verfügt, einschließlich Personen außerhalb Ihrer Organisation, auf die Seite mit dem Datensatztyp zugreifen und Datensätze und Felder auf der Seite anzeigen.
 
-1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
+1. Klicken Sie auf das Symbol **Link kopieren** ![](assets/copy-link-view.png) , um den Link in die Zwischenablage zu kopieren.
 
-1. Click **Save**.
+1. Geben Sie manuell ein Datum ein oder verwenden Sie den Kalender im Feld **Ablaufdatum des Links** , um ein Ablaufdatum für den öffentlichen Link auszuwählen. Nach dem ausgewählten Datum ist die Ansicht der Datensatzseite nicht mehr verfügbar.
 
-1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+1. Klicken Sie auf **Speichern**.
 
--->
+   Das Ansichtssymbol wird aktualisiert und zeigt an, dass die Ansicht öffentlich freigegeben ist.
 
+   ![](assets/public-shared-view-icon-highlighted.png)
+
+1. (Optional) Fügen Sie den kopierten Link in eine E-Mail, eine Chat-Nachricht, ein Dokument oder einen Workfront-Kommentar ein, um ihn für andere freizugeben.
 
 ## Berechtigungen für eine Ansicht entfernen
 
@@ -188,26 +194,16 @@ To share a view publicly in Workfront Planning:
 
 1. Öffnen Sie den Arbeitsbereich, dessen Ansicht Sie die Freigabe stoppen möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz. Dadurch wird die Seite mit dem Datensatztyp geöffnet.
 1. Bewegen Sie den Mauszeiger über den Registerkartennamen der Ansicht, von der Sie die Freigabe entfernen möchten, und klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Freigeben**.
-1. Suchen Sie den Benutzer oder die Gruppe, den/die Sie entfernen möchten, und klicken Sie dann im Dropdown-Menü für Berechtigungen rechts neben dem Namen des Benutzers oder der Gruppe auf **Entfernen** .
+1. Gehen Sie wie folgt vor, um die interne Freigabe einer Ansicht zu entfernen:
+
+   1. Stellen Sie sicher, dass die Registerkarte **Interne Freigabe** ausgewählt ist.
+   1. Suchen Sie den Benutzer oder die Gruppe, was Sie entfernen möchten, erweitern Sie das Dropdown-Menü für Berechtigungen rechts neben dem Namen des Benutzers oder der Gruppe und klicken Sie dann auf **Entfernen**.
+
+1. Gehen Sie wie folgt vor, um die öffentliche Freigabe einer Ansicht zu entfernen:
+
+   1. Klicken Sie auf die Registerkarte **Öffentliche Freigabe**.
+   1. Deaktivieren Sie die Option **Öffentlichen Link erstellen** .
+
 1. Klicken Sie auf **Speichern**.
-Der Benutzer oder die Benutzer, die zur entfernten Gruppe gehören, haben keinen Zugriff mehr auf die Ansicht. Es gibt keine Benachrichtigung für die Benutzer, die nicht mehr auf die Ansicht zugreifen konnten, dass sie diesen Zugriff verloren haben.
 
-<!--Replace the above instructions with the following when public sharing is released: 
-
-{{step1-to-planning}}
-
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
-1. To remove the internal sharing of a view, do the following: 
-
-   1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
-
-1. To remove the public sharing of a view, do the following: 
-
-   1. Click the **Public sharing** tab.
-   1. Deselect the **Create public link** option. 
-
-1. Click **Save**.
-   
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->
+   Benutzer haben keinen Zugriff mehr auf die Ansicht. Es gibt keine Benachrichtigung für Benutzer, die nicht mehr auf die Ansicht zugreifen können, dass sie diesen Zugriff nicht mehr haben.

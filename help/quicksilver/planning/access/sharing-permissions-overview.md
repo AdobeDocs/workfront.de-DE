@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '800'
 ht-degree: 6%
 
 ---
@@ -37,15 +37,17 @@ Sie können die folgenden Objekte freigeben:
 
 * Arbeitsbereiche
 
-  Wenn Sie einen Arbeitsbereich freigeben, werden auch alle Datensatztypen, Datensätze und Felder freigegeben, die mit den Arbeitsbereichen verknüpft sind. Ansichten werden nicht freigegeben.
+   * Sie können Arbeitsbereiche für Personen in Ihrem Unternehmen freigeben.
+   * Wenn Sie einen Arbeitsbereich freigeben, werden auch alle Datensatztypen, Datensätze und Felder freigegeben, die mit den Arbeitsbereichen verknüpft sind. Ansichten werden nicht freigegeben.
 
 * Ansichten
 
-   * Sie müssen Benutzern, einschließlich Systemadministratoren, Berechtigungen erteilen, unabhängig von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche auf Ansichten zuzugreifen. Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md).
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-     <!--move the link above to the end of this section-->
+   * Sie müssen Benutzern, einschließlich Systemadministratoren, Berechtigungen erteilen, unabhängig von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche auf Ansichten zuzugreifen.
+   * Sie können eine Ansicht öffentlich für Personen außerhalb Ihres Unternehmens freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren. Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und deren Felder, einschließlich verbundener Datensätze und Felder, anzeigen.
 
-Sie können einen Arbeitsbereich oder eine Ansicht für die folgenden Entitäten freigeben:
+  Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md).
+
+Intern können Sie einen Arbeitsbereich oder eine Ansicht für die folgenden Workfront-Entitäten freigeben:
 
 * Benutzende
 * Gruppen
@@ -59,15 +61,12 @@ Sie können einen Arbeitsbereich oder eine Ansicht für die folgenden Entitäten
 * Andere Benutzer, einschließlich Systemadministratoren, können nur auf Ansichten zugreifen, die sie erstellt haben oder die für sie freigegeben wurden. Systemadministratoren können nur Berechtigungen zum Verwalten einer Ansicht erhalten.
 * Sie können einen Link zu einem Arbeitsbereich oder einer Ansicht für andere freigeben.
 
-  Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich oder die Seite vom Typ Datensatz zugreifen zu können, die in der ausgewählten Ansicht angezeigt wird.
+  Die folgenden Szenarien existieren:
+   * Benutzer, die den Link zu einem Arbeitsbereich erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich zugreifen zu können.
+   * Benutzer, die den Link zu einer Ansicht erhalten, können wie folgt auf die Ansicht zugreifen:
 
-  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
-    The following scenarios exist:
-        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
-        * Users who receive the link to a view can access the view in the following ways: 
-        
-            * Must be active users and log in to Workfront
-            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
+      * Muss aktive Benutzer sein und sich bei Workfront anmelden, wenn der Link zur Ansicht intern freigegeben wurde.
+      * Kann externe Benutzer in Workfront sein und über einen öffentlich freigegebenen Link auf die Ansicht zugreifen, ohne sich bei Workfront anzumelden.
 
 ## Berechtigungen für Adobe Workfront Planning-Objekte freigeben
 
@@ -156,37 +155,25 @@ Sie müssen Benutzern Berechtigungen für Ansichten erteilen, damit sie Zugriff 
 * Zeilenhöhe
 * Einstellungen
 
-
-<!--You can share views internally or publicly. -->
+Sie können Ansichten intern oder öffentlich freigeben.
 
 Im Folgenden finden Sie die Berechtigungsebenen für Ansichten und Ansichtselemente:
 
-|        | Verwalten (nur eingeladene Personen können darauf zugreifen) | Anzeigen (nur eingeladene Personen können darauf zugreifen) | Jeder im Arbeitsbereich kann anzeigen* |
+| Interne Freigabe | Verwalten (nur eingeladene Personen können darauf zugreifen) | Anzeigen (nur eingeladene Personen können darauf zugreifen) | Jeder im Arbeitsbereich kann anzeigen* |
 |--------|--------|-------|------------------------------|
 | Bearbeiten | ✓ |       |                            |
 | Löschen | ✓ |       |                            |
 | Freigeben | ✓ |       |                           |
 | Anzeigen | ✓ | ✓ | ✓ |
-| Zugriff auf die Ansicht | ✓ | ✓ | ✓ |
-| Anwenden von temporären Filtern, Gruppierungen, Sortieren | ✓ | ✓ | ✓ |
+| Anwenden | ✓ | ✓ | ✓ |
+
+| Öffentliche Freigabe | Anzeigen |
+|--------|-------|
+| Anzeigen | ✓ |
+| Anwenden | ✓ |
 
 *Benutzer müssen über Ansicht oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Zugriff auf diese Ansicht zu erhalten.
 
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
-|--------|--------|-------|------------------------------|
-| Edit   | ✓      |       |                            |
-| Delete | ✓      |       |                            |
-| Share  | ✓       |       |                           |
-| View   | ✓      | ✓     | ✓                         |
-| Apply  | ✓      | ✓     | ✓                          |
-
-|   Public sharing      | View  |
-|--------|-------|
-| View   | ✓     |
-| Apply  | ✓     |
--->
 
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
@@ -196,5 +183,15 @@ Im Folgenden finden Sie die Berechtigungsebenen für Ansichten und Ansichtseleme
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |    
+| Apply  | ✓      | ✓     |  
+
+
+|        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Access the view  | ✓      | ✓     | ✓                          |
+| Apply temporary filters, groupings, sort  | ✓      | ✓     | ✓                          |
 -->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
 workflow-type: tm+mt
-source-wordcount: '5654'
+source-wordcount: '5786'
 ht-degree: 0%
 
 ---
@@ -38,27 +38,6 @@ Das Workfront-Planungsprogramm begann seit dem 22. Mai 2023. Eine Liste aller 20
 Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden. Kunden, die am Workfront-Planungsprogramm teilnehmen, können auf alle Funktionen in ihren Produktionsumgebungen zugreifen.
 
 Die Workfront-Planung wurde seit Januar 2024 vorübergehend aus der Vorschau- und Sandbox-Umgebung entfernt. Alle in diesen Artikeln dokumentierten Funktionen sind derzeit in der Produktion verfügbar.
-
-<!--
-### Share Workfront Planning views publicly
-
-(***************ensure this is available for *********ALL************** the views and not just the table---***********)
-
-Production: <date>
-
-Preview: To be determined 
-
-To work seamlessly with external stakeholders, you can now share record views with others from outside your organization. You can share a public link to the view you want others to have access to.  
-
-The following capabilities are included with this update: 
-
-* Share the view of a record type page with a public link that would expire on a specific date. 
-
-* The shared link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
-
-* People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
-
-For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
 
 ## Woche vom 29. Juli 2024
 
@@ -91,6 +70,23 @@ Sie können die neuen Funktionen aus den folgenden Bereichen ausführen:
 
 Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
 
+### Öffentliche Freigabe von Workfront-Planungsansichten
+
+Produktion: 2. August 2024
+
+Vorschau: zu bestimmen
+
+Um nahtlos mit externen Stakeholdern zusammenzuarbeiten, können Sie jetzt Datensatzansichten mit anderen von außerhalb Ihres Unternehmens teilen. Sie können einen öffentlichen Link für die Ansicht freigeben, auf die andere Zugriff haben sollen.
+
+Dieses Update beinhaltet die folgenden Funktionen:
+
+* Geben Sie die Ansicht einer Seite vom Typ Datensatz mit einem öffentlichen Link frei, der an einem bestimmten Datum abläuft.
+
+* Der freigegebene Link ist für einen begrenzten Zeitraum von jedem außerhalb Ihres Unternehmens zugänglich, entsprechend dem Ablaufdatum. Zum Anzeigen der freigegebenen Ansicht ist keine Anmeldung erforderlich.
+
+* Personen, die über den öffentlichen Link auf die Ansicht zugreifen, können keine anderen Ansichten erstellen, die freigegebene Ansicht bearbeiten oder Datensatzinformationen hinzufügen, löschen oder bearbeiten.
+
+Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md).
 
 ## Woche vom 8. Juli 2024
 
