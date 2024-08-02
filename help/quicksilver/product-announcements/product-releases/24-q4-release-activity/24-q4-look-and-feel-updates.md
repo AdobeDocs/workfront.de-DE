@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -28,6 +28,16 @@ Die Bestätigungsnachrichten Benutzer löschen und Benutzer deaktivieren, die be
 
 Informationen zum Löschen und Deaktivieren von Benutzern finden Sie unter [Benutzer löschen](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) und [Benutzer deaktivieren oder reaktivieren](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
+## Look-and-Feel-Aktualisierungen für die Seite &quot;Ressourcenpools&quot;
+
+>[!NOTE]
+>
+>Vorschau-Version: 1. August 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.8 (August 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.10 (Oktober 2024)
+
+Wir haben die Seite &quot;Ressourcenpools&quot;mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Weitere Informationen finden Sie unter [Erstellen von Ressourcen-Pools](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+
 ## Look-and-Feel-Aktualisierung für Löschaufgaben
 
 >[!NOTE]
@@ -37,17 +47,6 @@ Informationen zum Löschen und Deaktivieren von Benutzern finden Sie unter [Benu
 Die Meldung &quot;Aufgabe löschen&quot;, die Benutzern beim Löschen einer Aufgabe angezeigt wird, wurde auf ein moderneres Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
 Informationen zum Löschen einer Aufgabe finden Sie unter [Aufgaben löschen](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md).
-
-
-## Look-and-Feel-Aktualisierungen für die Seite &quot;Ressourcenpools&quot;
-
->[!NOTE]
->
->Vorschau-Version: 25. Juli 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.8 (August 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.10 (Oktober 2024)
-
-Wir haben die Seite &quot;Ressourcenpools&quot;mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
-
-Weitere Informationen finden Sie unter [Erstellen von Ressourcen-Pools](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ## Look-and-Feel-Aktualisierungen für die Benachrichtigungsseite
 
