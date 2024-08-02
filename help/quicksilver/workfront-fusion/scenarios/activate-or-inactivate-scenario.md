@@ -7,7 +7,7 @@ description: In diesem Artikel wird beschrieben, warum aktive oder deaktivierte 
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -76,6 +76,6 @@ Sie müssen ein Szenario erstellen, bevor Sie es aktivieren können.
 ## Aktivieren oder Deaktivieren eines Szenarios:
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Szenarios]** ![](assets/scenarios-icon.png) und klicken Sie dann auf das Szenario, um es zu öffnen.
-1. Klicken Sie in der oberen rechten Ecke des Fensters auf den Umschalter **[!UICONTROL Ein/Aus]** .
+1. Klicken Sie in der linken unteren Ecke des Fensters auf den Umschalter **[!UICONTROL Ein/Aus]** .
 
    ![](assets/on-off-switch.jpg)
