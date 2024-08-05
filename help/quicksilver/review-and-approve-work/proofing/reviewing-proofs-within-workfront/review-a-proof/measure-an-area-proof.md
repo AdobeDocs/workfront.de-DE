@@ -6,9 +6,9 @@ description: Sie können einen Bereich innerhalb eines Testversands messen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '353'
 ht-degree: 1%
 
 ---
@@ -80,3 +80,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. (Optional) Wenn der Messbereich eine exakte Größe aufweisen soll, geben Sie die Werte **Auswahlgröße** ein.
 1. (Optional) Wenn Sie einen bestimmten Prozentsatz in einem Bereich messen müssen, aktivieren Sie das Kontrollkästchen Prozentsatz berechnen . Es wird ein neues Feld angezeigt, in dem Sie die Anpassung vornehmen können\
    ![](assets/calculate-percentage-350x230.png)
+
+1. Klicken Sie oben im Testversand-Viewer auf das Symbol **Bereich messen** , um das Tool zu schließen, wenn Sie fertig sind.
+
+   ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
