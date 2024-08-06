@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '846'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 {{planning-important-intro}}
 
-Sie können Berechtigungen für einen Arbeitsbereich oder eine Ansicht in der Adobe Workfront-Planung freigeben oder daraus entfernen.
+Sie können Berechtigungen für einen Adobe Workfront Planning-Arbeitsbereich oder eine Ansicht freigeben oder daraus entfernen.
 
 In diesem Artikel werden die Berechtigungsebenen für Workfront Planning-Objekte beschrieben.
 
@@ -38,11 +38,16 @@ Sie können die folgenden Objekte freigeben:
 * Arbeitsbereiche
 
    * Sie können Arbeitsbereiche für Personen in Ihrem Unternehmen freigeben.
-   * Wenn Sie einen Arbeitsbereich freigeben, werden auch alle Datensatztypen, Datensätze und Felder freigegeben, die mit den Arbeitsbereichen verknüpft sind. Ansichten werden nicht freigegeben.
+   * Wenn Sie einen Arbeitsbereich freigeben, werden auch alle Datensatztypen, Datensätze und Felder freigegeben, die mit den Arbeitsbereichen verknüpft sind.
+
+     Wenn Sie einen Arbeitsbereich freigeben, werden Ansichten nicht freigegeben. Ansichten werden separat freigegeben.
 
 * Ansichten
 
    * Sie müssen Benutzern, einschließlich Systemadministratoren, Berechtigungen erteilen, unabhängig von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche auf Ansichten zuzugreifen.
+   * Wenn Sie eine Ansicht freigeben, werden alle Ansichtselemente freigegeben, einschließlich Filter, Gruppierung, Sortierung oder Einstellungen.
+
+     Wenn Sie eine Ansicht freigeben, werden die in der Ansicht sichtbaren Datensätze nicht freigegeben. Datensätze müssen durch die Freigabe von Arbeitsbereichen freigegeben werden.
    * Sie können eine Ansicht öffentlich für Personen außerhalb Ihres Unternehmens freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren. Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und deren Felder, einschließlich verbundener Datensätze und Felder, anzeigen.
 
   Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md).
@@ -124,7 +129,7 @@ Im Folgenden finden Sie die Berechtigungsstufen für Datensätze:
 
 |        | Verwalten | Mitwirken | Anzeigen |
 |--------|--------|------------|-------|
-| Erstellen | ✓ |            |       |
+| Erstellen | ✓ | ✓ |       |
 | Löschen | ✓ | ✓ |       |
 | Bearbeiten | ✓ | ✓ |       |
 | Anzeigen | ✓ | ✓ | ✓ |

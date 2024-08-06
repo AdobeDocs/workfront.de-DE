@@ -6,18 +6,22 @@ description: Durch die Übermittlung Ihres Zeitblatts zur Genehmigung erhalten S
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
 
 # Zeitblatt zur Genehmigung einreichen
 
+<!--Audited: 8/2024-->
+
 Durch die Übermittlung Ihres Zeitblatts zur Genehmigung erhalten Sie von Ihrem Manager einen Einblick in Ihre Arbeitszeit. Die Genehmiger können überprüfen, ob die aufgezeichnete Zeit in den richtigen Bereichen zugewiesen wurde und ob eine ausreichende Anzahl von Stunden für den Zeitraum aufgezeichnet wurde.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -26,25 +30,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Licht oder höher </p>
+   <p>Aktuell: Überprüfen oder höher </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff oder höher auf Aufgaben und Probleme anzeigen</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Aufgaben und Probleme anzeigen oder höher </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder Höhere Berechtigungen für Aufgaben und Probleme</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für das Timesheet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Zeitblatt zur Genehmigung einreichen
 
@@ -53,7 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ### Zeitblatt zur Genehmigung einreichen
 
-Nachdem ein Timesheet-Genehmiger festgelegt wurde (wie im Abschnitt [Zeitblatt-Genehmiger benennen](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) im Artikel [Zeitblatt genehmigen](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** unten auf dem Timesheet in die Schaltfläche **Zur Genehmigung senden** .
+Nachdem ein Timesheet-Genehmiger festgelegt wurde (wie im Abschnitt [Zeitblatt-Genehmiger benennen](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) im Artikel [Zeitblatt genehmigen](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** am unteren Rand des Zeitblatts in die Schaltfläche **Zur Genehmigung übermitteln** .
 
 So senden Sie ein Datenblatt zur Genehmigung:
 
@@ -120,7 +127,7 @@ So zeigen Sie den Status eines Zeitblatts an:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Offen</td> 
+      <td role="rowheader">Öffnen</td> 
       <td> <p>Ihr Timesheet ist derzeit geöffnet und Sie können die Zeit protokollieren. </p> <p>Ein zurückgerufenes Timesheet wird mit dem Status "Open"angezeigt. Weitere Informationen finden Sie im Abschnitt <a href="#recall-a-timesheet" class="MCXref xref">Zeitblatt erinnern</a> in diesem Artikel. </p> </td> 
      </tr> 
      <tr> 

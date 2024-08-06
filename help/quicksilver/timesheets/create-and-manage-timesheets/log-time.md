@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3775'
+source-wordcount: '3856'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: 
-   <ul><li>Einfache oder höhere Protokollierung der allgemeinen Stunden in einem Zeitblatt</li>
-   <li>Standard zum Protokollieren der Stunden eines Projekts, einer Aufgabe oder eines Problems</li></ul>
-
-
-<p>Aktuell: 
+   <td> <p>Neu: </p>
+   <p>Leicht oder höher, um Stunden für ein Projekt, eine Aufgabe, ein Problem oder allgemeine Stunden auf einem Zeitblatt zu protokollieren</p>
+   <p>Aktuell: 
    <ul><li>Überprüfen oder höher zur Protokollierung der allgemeinen Stunden in einem Zeitblatt</li>
    <li>Arbeiten oder höher zur Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ Weitere Informationen finden Sie unter [Adobe Workfront für Android](/help/quic
 
 ## Protokollstunden in Listen und Berichten bearbeiten
 
+>[!CAUTION]
+>
+>* Sie können keine Stundeneinträge ändern, die zu einem geschlossenen Zeitblatt gehören. Sie müssen zunächst das Timesheet erneut öffnen und dann die Informationen zur Stundeneingabe ändern.
+>* Wenn Sie den Typ Stunde von einem Typ ändern, der nicht als Umsatz gezählt wird, in einen anderen Typ, der als Umsatz zählt, treten auch Änderungen an den Finanzen des Projekts auf. Wenn Sie die Stündentypen von einem Typ ändern, der als Umsatz zählt, in einen Typ, der nicht als Umsatz gezählt wird, werden auch die Finanzen des Projekts aktualisiert.
+>
+>Weitere Informationen finden Sie unter [Verwalten von Stundentypen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+>
 Sie können die protokollierten Stunden in den folgenden Bereichen bearbeiten:
 
 * Alle Bereiche, in denen Sie die Stunden hinzugefügt haben, einschließlich geöffneter Zeitpläne

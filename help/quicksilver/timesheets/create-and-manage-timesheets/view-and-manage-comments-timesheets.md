@@ -6,9 +6,9 @@ description: Sie können Kommentare zu Timesheets, den in den Timesheets enthalt
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Sie können zu den folgenden Elementen in einem Timesheet Kommentare abgeben:
 * Bei einem einzelnen Element, z. B. einer Aufgabe oder einem Problem
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene</td> 
-   <td> <p>Zugriff oder höher auf Aufgaben und Probleme anzeigen</p> </td> 
+   <td> <p>Zugriff auf Aufgaben und Probleme anzeigen oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -53,6 +55,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Kommentare zu Zeitstundeneinträgen auf einem Zeitblatt anzeigen {#view-hour-entry-comments-on-a-timesheet}
 
 Sie können Kommentare zu einzelnen Stundeneinträgen konfigurieren, um sie im Timesheet anzuzeigen. Die Option zum Ein- und Ausblenden von Kommentaren wirkt sich nicht auf Kommentare zum Gesamtzeitblatt oder auf Kommentare zu einzelnen Artikeln aus. Weitere Informationen finden Sie unter  [Kommentar zu einem Zeitblatt ](#make-comments-on-a-timesheet).
@@ -61,9 +65,10 @@ Standardmäßig werden Kommentare ausgeblendet, wenn Sie zum ersten Mal auf ein 
 
 So zeigen Sie Kommentare auf einem Zeitblatt an:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+{{step1-to-timesheets}}
 
-1. Klicken Sie auf **Timesheets**.
+Der Bereich **Timesheets** wird geöffnet.
+
 1. Öffnen Sie das Timesheet, in dem Sie Kommentare anzeigen möchten.
 1. Klicken Sie in der oberen rechten Ecke des Zeitblatts auf **Kommentare anzeigen** .
 Kommentare werden unter dem Element angezeigt, in dem der Stundeneintrag und der Kommentar protokolliert wurden.

@@ -6,14 +6,16 @@ description: Der Prozess der Genehmigung von Timesheets bietet Managern einen Ei
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
 # Timesheet genehmigen
+
+<!--Audited: 8/2024-->
 
 Der Prozess der Genehmigung von Timesheets bietet Managern einen Einblick in die Arbeitszeiten ihrer direkten Berichte. Die Genehmiger können überprüfen, ob die aufgezeichnete Zeit in den richtigen Bereichen zugewiesen wurde und ob für den betreffenden Zeitraum eine ausreichende Anzahl von Stunden aufgezeichnet wurde.
 
@@ -22,6 +24,8 @@ Adobe Workfront bietet die Möglichkeit, die Validierungen von Zeitblättern zu 
 Informationen zum Übermitteln eines Zeitblatts finden Sie unter [Zeitblatt zur Genehmigung einreichen](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -32,36 +36,41 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader"><p>Adobe Workfront-Abo</p></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td> <p>Neu: Standard</p>
+   <p>Aktuell: Plan </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan oder welchen Lizenztyp Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Zeitblatt-Genehmiger bestimmen
 
 In der Regel werden Timesheets von funktionalen Managern oder Personal genehmigt. (Timesheets werden normalerweise nicht von Projektmanagern genehmigt.)
 
-Bei der Erstellung des Datenblatt-Profils wird ein Timesheet-Genehmiger definiert. Sie müssen über eine Planungslizenz verfügen, um als Genehmiger benannt zu werden.
+Bei der Erstellung des Datenblatt-Profils wird ein Timesheet-Genehmiger definiert. Sie müssen über eine Planungslizenz verfügen, um als Genehmiger benannt zu werden.
 
 Weitere Informationen zum Benennen von Timesheet-Genehmigern finden Sie im Abschnitt &quot;[Erstellen oder Bearbeiten eines Timesheet-Profils](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create)&quot;im Artikel &quot;[Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)&quot;.
 
 ## Timesheet genehmigen
 
-Sie können alle Timesheets genehmigen, die übermittelt wurden und in denen Sie als Genehmiger benannt wurden. Wenn ein Timesheet zur Genehmigung eingereicht wird, wird das Timesheet im Bereich **Genehmigungen** auf Ihrer **Startseite** aufgelistet  Seite. Weitere Informationen finden Sie unter [Arbeiten genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md).
+Sie können alle Timesheets genehmigen, die übermittelt wurden und in denen Sie als Genehmiger benannt wurden. Wenn ein Timesheet zur Genehmigung eingereicht wird, wird das Timesheet im Bereich **Genehmigungen** auf Ihrer Seite **Startseite** aufgelistet. Weitere Informationen finden Sie unter [Arbeiten genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Wenn der Workfront-Administrator die Genehmigung für das Datenblatt für den Benutzer und die Zurückweisung des Datenblatts an Benutzer-Ereignishandler aktiviert hat, werden Sie benachrichtigt, nachdem das Datenblatt genehmigt oder abgelehnt wurde. Weitere Informationen zum Aktivieren von Ereignisbenachrichtigungen finden Sie unter [Ereignislaufbenachrichtigungstypen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 So validieren Sie ein Zeitblatt:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
-1. Klicken Sie auf **Timesheets**.
+{{step1-to-timesheets}}
+
+Der Bereich **Timesheets** wird geöffnet.
+
 1. Wählen Sie oben rechts auf der Seite die Option &quot;**My Timesheet Approvals**&quot;, um nur die von Ihnen genehmigten Timesheets anzuzeigen.
 
    Oder
@@ -72,7 +81,7 @@ So validieren Sie ein Zeitblatt:
 
    >[!NOTE]
    >
-   >Die Option &quot;Meine Timesheet-Genehmigungen&quot;wird nicht oben in der Liste der Zeitblätter oder in der Filterliste angezeigt, wenn Ihr Workfront-Administrator oder ein Gruppenadministrator den Filter Meine Zeitblatt-Genehmigungen entweder aus dem Bereich &quot;Listen-Steuerelemente&quot;im Bereich &quot;Einstellungen&quot;oder aus Ihrer Layout-Vorlage entfernt hat. Weitere Informationen finden Sie in den folgenden Artikeln:
+   >Die Option &quot;Meine Timesheet-Genehmigungen&quot;wird nicht oben in der Liste der Zeitblätter oder in der Filterliste angezeigt, wenn Ihr Workfront-Administrator oder ein Gruppenadministrator den Filter Meine Zeitblatt-Genehmigungen entweder aus dem Bereich &quot;Listen-Steuerelemente&quot;im Bereich &quot;Einstellungen&quot;oder aus Ihrer Layout-Vorlage entfernt hat. Weitere Informationen finden Sie in den folgenden Artikeln:
    >
    >   
    >   
