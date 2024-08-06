@@ -7,9 +7,9 @@ description: Einige Trigger-Module ermöglichen es Ihnen, das erste Bundle auszu
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ Sie können auch angeben, ob Sie alle Bundles oder nur die Bundles von nach eine
 Weitere Informationen zu Trigger-Modulen finden Sie im Abschnitt [Trigger-Module](../../workfront-fusion/modules/module-types.md#triggers) im Artikel [Modultypen](../../workfront-fusion/modules/module-types.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
@@ -60,6 +62,8 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
 Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ## Festlegen, wo ein Trigger-Modul beginnt
 

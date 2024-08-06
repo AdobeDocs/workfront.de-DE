@@ -8,9 +8,9 @@ description: In diesem Dokument wird beschrieben, wie sich [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: d09174b874ff59676a28881de02ae4e7196d0f80
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '652'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 3%
 # Typerzwingung in [!DNL Adobe Workfront Fusion]
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
 
@@ -55,6 +57,8 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
 Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ### Typerzwingung
 
