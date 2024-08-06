@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
+source-git-commit: 990b27821fcf5ae4f3ec954ddd3b58ed1b140319
 workflow-type: tm+mt
-source-wordcount: '6090'
+source-wordcount: '6252'
 ht-degree: 4%
 
 ---
@@ -53,10 +53,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** .
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Klicken Sie auf **Neues benutzerdefiniertes Formular.**
 1. Wählen Sie die Objekttypen aus, an die das benutzerdefinierte Formular angehängt werden soll, und klicken Sie dann auf **Weiter**.
 
@@ -76,6 +72,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Als Nächstes können Sie Ihrem benutzerdefinierten Formular Felder hinzufügen. Siehe die folgenden Abschnitte:
    * [Vorhandenes Feld oder Widget in einem anderen benutzerdefinierten Formular wiederverwenden](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Hinweise zu Feldnamen und -bezeichnungen](#notes-on-field-names-and-labels)
    * [Textfelder hinzufügen](#add-text-fields)
    * [Berechnete Felder hinzufügen](#add-calculated-fields)
    * [Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzufügen](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -89,7 +86,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können beim Entwerfen Ihres benutzerdefinierten Formulars neue oder vorhandene Felder verwenden.
 
-## Vorhandenes Feld oder Widget in einem anderen benutzerdefinierten Formular wiederverwenden
+### Vorhandenes Feld oder Widget in einem anderen benutzerdefinierten Formular wiederverwenden
 
 1. Klicken Sie oben links im Bildschirm auf **Feldbibliothek**.
 
@@ -108,6 +105,39 @@ Sie können beim Entwerfen Ihres benutzerdefinierten Formulars neue oder vorhand
    oder
 
    Klicken Sie auf **Speichern und schließen**.
+
+### Hinweise zu Feldnamen und -bezeichnungen {#notes-on-field-names-and-labels}
+
+Die **Beschriftung** ist für die meisten Felder verfügbar. Es handelt sich um eine beschreibende Bezeichnung, die über dem Feld oder Widget im benutzerdefinierten Formular angezeigt wird. Sie können den Titel jederzeit ändern.
+
+>[!NOTE]
+>
+>Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.
+
+Für jedes Feld ist ein **Name** erforderlich. Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Feld oder Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.
+
+>[!NOTE]
+>
+>Obwohl dies möglich ist, sollten Sie diesen Namen nicht ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Wenn dies der Fall ist, erkennt das System das benutzerdefinierte Feld nicht mehr, in dem es jetzt in anderen Bereichen von Workfront referenziert werden kann.
+>Wenn Sie beispielsweise das benutzerdefinierte Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es nicht im Bericht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter Verwendung des neuen Namens erneut hinzu.
+>
+>Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wurde.
+>
+>Es wird empfohlen, das Punkt-/Punkt-Zeichen nicht im benutzerdefinierten Feldnamen zu verwenden, um Fehler bei der Verwendung des Felds in verschiedenen Bereichen von Workfront zu vermeiden.
+
+Die folgenden Sonderzeichen werden in benutzerdefinierten Feldbezeichnungen und -namen nicht unterstützt.
+
+* \t
+* \n
+* \r
+* \f
+* `[`
+* `]`
+* (
+* )
+* :
+* `{`
+* `}`
 
 ### Textfelder hinzufügen
 
@@ -158,13 +188,13 @@ Hinzufügen eines Textfelds:
     <li>Einzeiliger Text</li>
     <li>Text des Absatzes</li>
     <li>Text mit Formatierung</li>
-    <li>Beschreibender Text - In Kürze verfügbar</li>
+    <li>Beschreibender Text</li>
     </ul></td>
     </tr>
     <tr>
     <td>Label</td>
     <td><p>Geben Sie eine beschreibende Bezeichnung ein, die über dem Widget angezeigt werden soll. Sie können den Titel jederzeit ändern.<p>
-    <p>WICHTIG: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.</p></td>
+    <p>WICHTIG: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p></td>
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Text des Absatzes</li>
@@ -174,11 +204,7 @@ Hinzufügen eines Textfelds:
     <tr>
      <td>Name</td>
     <td><p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
-    <p><b>WICHTIG</b>:   
-      <ul> 
-      <li>Obwohl dies möglich ist, sollten Sie diesen Namen nicht ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Wenn dies der Fall ist, erkennt das System das benutzerdefinierte Feld nicht mehr, in dem es jetzt in anderen Bereichen von Workfront referenziert werden kann. <p>Wenn Sie beispielsweise das benutzerdefinierte Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es nicht im Bericht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter Verwendung des neuen Namens erneut hinzu.</p> </li>
-      <li> <p>Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wurde.</p> </li>
-      <li><p>Es wird empfohlen, das Punkt-/Punkt-Zeichen nicht im benutzerdefinierten Feldnamen zu verwenden, um Fehler bei der Verwendung des Felds in verschiedenen Bereichen von Workfront zu vermeiden.</p></li>
+    <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p>
     </td>
     <td><ul>
     <li>Einzeiliger Text</li>
@@ -189,7 +215,7 @@ Hinzufügen eines Textfelds:
     </tr>
     <tr>
     <td>Anleitung</td>
-    <td>Geben Sie weitere Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
+    <td>Geben Sie weitere Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
