@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 2%
@@ -293,7 +293,7 @@ So suchen Sie die Workfront-Planung:
 
 1. Klicken Sie auf **Planung** ![](assets/planning-icon.png).
 
-   Die Landingpage für die Workfront-Planung wird geöffnet.
+   Die Hauptseite Workfront-Planung wird geöffnet.
 
    ![](assets/planning-landing-page-admin.png)
 
@@ -303,8 +303,8 @@ So suchen Sie die Workfront-Planung:
 
 
 1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
-   * **Meine Arbeitsbereiche**: Zeigt die von Ihnen erstellten Arbeitsbereiche an.
-   * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche des Systems an, einschließlich der für Sie freigegebenen Arbeitsbereiche.
+   * **Meine Arbeitsbereiche**: Zeigt die von Ihnen erstellten Arbeitsbereiche an. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+   * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche des Systems an, einschließlich der für Sie freigegebenen Arbeitsbereiche. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
 
    Für alle anderen Benutzer werden alle Arbeitsbereiche, die sie erstellt haben oder für sie freigegeben wurden, im Bereich **Arbeitsbereiche** angezeigt.
 

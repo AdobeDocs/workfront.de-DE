@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
@@ -100,9 +100,22 @@ Es wird empfohlen, einige oder alle Datensatztypen, Datensätze, Felder und Ansi
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, den Sie löschen möchten.
+1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Meine Arbeitsbereiche** , um auf die von Ihnen erstellten Arbeitsbereiche zuzugreifen, oder auf **Andere Arbeitsbereiche** , um auf Arbeitsbereiche zuzugreifen, die für Sie freigegeben sind. <!--change it to Workspaces I'm on-->
+
+1. Klicken Sie auf die Karte des Arbeitsbereichs, den Sie löschen möchten.
 
    Die Workspace-Seite wird angezeigt.
+
+<!--***********Replace the first step with this:*******
+
+1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have workspaces that display on more than two rows.
+1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
+1. To delete a workspace, do one of the following:
+
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card, then click **De,ete**. 
+   * Click a workspace card to open the workspace. 
+   
+   ***********Add (Conditional) If you clicked a workspace card,******to the step below****-->
 
 1. Klicken Sie neben dem Workspace-Namen auf das Menü **Mehr** und dann auf **Löschen**.![](assets/more-menu.png)
 

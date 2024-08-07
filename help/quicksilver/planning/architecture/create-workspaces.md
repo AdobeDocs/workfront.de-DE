@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '723'
 ht-degree: 1%
 
 ---
@@ -98,6 +98,15 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 ## Überlegungen zu Arbeitsbereichen
 
 * Sie können Arbeitsbereiche für bestimmte Organisationseinheiten in Ihrer Organisation erstellen, die der einzigartigen Funktionsweise jeder Einheit entsprechen.
+* Je nach Workfront-Lizenz werden Arbeitsbereiche auf den folgenden Registerkarten im Planungsbereich angezeigt:
+
+   * Für Systemadministratoren werden Arbeitsbereiche auf den folgenden Registerkarten angezeigt:
+
+      * **Meine Arbeitsbereiche**: Zeigt die von Ihnen erstellten Arbeitsbereiche an. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+      * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche des Systems an, einschließlich der für Sie freigegebenen Arbeitsbereiche. &lt;!—Ersetzen durch: Andere Arbeitsbereiche: Zeigt alle anderen Arbeitsbereiche im System an. >
+
+   * Für alle anderen Benutzer werden Arbeitsbereiche, die sie erstellt haben, und Arbeitsbereiche, die für sie freigegeben wurden, im Arbeitsbereich angezeigt.
+
 * Die in einem Arbeitsbereich enthaltenen Datensatztypen sollten den Arbeitszyklus einer Organisationseinheit widerspiegeln.
 * Wenn Sie einen Arbeitsbereich erstellen, haben nur Sie die Berechtigung, auf Ihren Arbeitsbereich zuzugreifen und ihn zu verwalten. Sie müssen es für andere Benutzer freigeben, damit sie mit Ihnen an derselben Stelle zusammenarbeiten können. Weitere Informationen finden Sie unter [Freigeben eines Arbeitsbereichs](/help/quicksilver/planning/access/share-workspaces.md). Systemadministratoren können alle Arbeitsbereiche verwalten, auch die, die sie nicht erstellt haben.
 * Sie können über Folgendes verfügen:
@@ -144,6 +153,7 @@ Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, u
    * Ein leerer Arbeitsbereich mit dem Namen **Unbenannter Workspace** , in dem Sie Datensatztypen manuell hinzufügen können, wenn Sie einen neuen Arbeitsbereich erstellen.
    * Ein Arbeitsbereich mit dem Namen nach der ausgewählten Vorlage, der mit Beispieldatensatztypen gefüllt ist. Sie können die Datensatztypen und den Arbeitsbereich weiter anpassen.
 
+   Für Workfront-Administratoren wird der neue Arbeitsbereich auf der Registerkarte **Meine Arbeitsbereiche** angezeigt. <!--replace this with: Workspaces I'm on tab-->
 1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste.
 
 1. (Optional und bedingt) Wenn Sie den Arbeitsbereich aus einer Vorlage erstellt haben, klicken Sie in den Namen der Abschnitte **Typen für operative Datensätze** oder **Taxonomien** .

@@ -6,9 +6,9 @@ description: Der Prozess der Genehmigung von Timesheets bietet Managern einen Ei
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td> <p>Neu: Standard</p>
-   <p>Aktuell: Plan </p> </td> 
+   <p>Aktuell: Plan </p> 
+   <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Administratorzugriff auf Timesheets und Stunden </p> </td> 
+  </tr>
+
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Zeitblatt-Genehmiger bestimmen
 
-In der Regel werden Timesheets von funktionalen Managern oder Personal genehmigt. (Timesheets werden normalerweise nicht von Projektmanagern genehmigt.)
+In der Regel werden Timesheets von funktionalen Managern oder Personal genehmigt. Timesheets werden in der Regel nicht von Projektmanagern genehmigt. Projektmanager können die in Projekten protokollierte Zeit genehmigen, Teams oder Personalverantwortliche sollten jedoch Zeitpläne genehmigen.
 
 Bei der Erstellung des Datenblatt-Profils wird ein Timesheet-Genehmiger definiert. Sie müssen über eine Planungslizenz verfügen, um als Genehmiger benannt zu werden.
 
