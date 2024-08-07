@@ -155,9 +155,9 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie über Ver
    Die Ansicht wird mit dem Personensymbol ![](assets/view-shared-with-others-people-icon.png) aktualisiert, um anzugeben, dass die Ansicht jetzt für andere Benutzer freigegeben ist.
 
    >>
-   [!TIP]
+   >[!TIP]
    >>
-   Ansichten ohne Personen oder ein globales Symbol sind Ansichten, die Sie erstellt haben und die nicht für andere freigegeben sind. Nicht freigegebene Ansichten sind nur für Sie sichtbar.
+   >Ansichten ohne Personen oder ein globales Symbol sind Ansichten, die Sie erstellt haben und die nicht für andere freigegeben sind. Nicht freigegebene Ansichten sind nur für Sie sichtbar.
 
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf die Seite vom Typ Datensatz zugreifen und sie in der ausgewählten Ansicht anzeigen zu können.
 
@@ -167,7 +167,7 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie über Ver
 
 >[!IMPORTANT]
 >
-Nur Benutzer mit Verwaltungsberechtigungen für einen Arbeitsbereich können die Ansichten des Arbeitsbereichs öffentlich freigeben.
+>Nur Benutzer mit Verwaltungsberechtigungen für einen Arbeitsbereich können die Ansichten des Arbeitsbereichs öffentlich freigeben.
 
 
 So geben Sie eine Ansicht in der Workfront-Planung öffentlich frei:
@@ -199,7 +199,7 @@ So geben Sie eine Ansicht in der Workfront-Planung öffentlich frei:
    Die Ansicht wird mit dem globalen Symbol ![](assets/public-shared-view-icon-highlighted.png) aktualisiert, um anzugeben, dass die Ansicht öffentlich freigegeben ist.
 
    >>
-   [!TIP]
+   >[!TIP]
    >
    >Ansichten ohne Personen oder ein globales Symbol sind Ansichten, die Sie erstellt haben und die nicht für andere freigegeben sind. Nicht freigegebene Ansichten sind nur für Sie sichtbar.
 
