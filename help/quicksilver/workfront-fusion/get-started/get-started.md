@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
-source-git-commit: 811f38da4f91695ef0589dd10122b29d09e4e09c
+source-git-commit: 10ff6535447bb314f08bd159132057f85e12ef71
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Erstellen einfacher Praxisszenarien in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
 * [Erstellen eines Szenarios für die Automatisierung von Verfahren in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 * [Erstellen Sie ein Szenario für die Integration einer Praxis in  [!DNL Adobe Workfront Fusion] .](../../workfront-fusion/get-started/create-a-practice-scenario.md)
+* [KI-Assistent in Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
 * [[!DNL Adobe Workfront Fusion] Leistungsgarantien](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
 * [IP-Adressen für den Zugriff auf [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md)
