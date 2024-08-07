@@ -9,9 +9,9 @@ description: Mit den Adobe Photoshop-Modulen können Sie ein Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
+source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4308'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 ![](assets/map-toggle-350x74.png)
 
-* [Anwenden von Photoshop-Bearbeitungen](#apply-psd-edits)
+* [Anwenden von PSD-Bearbeitungen](#apply-psd-edits)
 * [Automatische Farbkorrektur eines Bildes](#auto-color-correct-an-image)
 * [Bildformat konvertieren](#convert-image-format)
 * [Erstellen von Masken](#create-a-mask)
@@ -263,14 +263,14 @@ Dieses Aktionsmodul wendet eine Vielzahl von Bearbeitungen auf Dokument- und Ebe
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Speicher]</td>
       <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p>
+        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p><p>Durch die Auswahl von interner Fusion-Speicherung wird die Datei für spätere Module verfügbar, die Datei wird jedoch außerhalb des Szenarios nicht verfügbar gemacht.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu. </td> 
+   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu. Dies ist nur erforderlich, wenn Sie nicht den internen Speicher von Fusion für den Ausgabespeicher ausgewählt haben.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -322,14 +322,14 @@ Diese automatische Farbe des Aktionsmoduls korrigiert das angegebene Bild.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Speicher]</td>
       <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p>
+        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p><p>Durch die Auswahl von interner Fusion-Speicherung wird die Datei für spätere Module verfügbar, die Datei wird jedoch außerhalb des Szenarios nicht verfügbar gemacht.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu. </td> 
+   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu. Dies ist nur erforderlich, wenn Sie nicht den internen Speicher von Fusion für den Ausgabespeicher ausgewählt haben.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -386,14 +386,14 @@ Dieses Aktionsmodul konvertiert eine Datei in JPEG, PNG, PSD oder TIFF.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Speicher]</td>
       <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p>
+        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p><p>Durch die Auswahl von interner Fusion-Speicherung wird die Datei für spätere Module verfügbar, die Datei wird jedoch außerhalb des Szenarios nicht verfügbar gemacht.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu. </td> 
+   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu. Dies ist nur erforderlich, wenn Sie nicht den internen Speicher von Fusion für den Ausgabespeicher ausgewählt haben. </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -445,14 +445,14 @@ Dieses Aktionsmodul gibt eine PNG-Datei mit einem Mast zurück, der um den Betre
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Speicher]</td>
       <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die Maskendatei gespeichert werden soll.</p>
+        <p>Wählen Sie den Dateidienst aus, in dem die Maskendatei gespeichert werden soll.</p><p>Durch die Auswahl von interner Fusion-Speicherung wird die Datei für spätere Module verfügbar, die Datei wird jedoch außerhalb des Szenarios nicht verfügbar gemacht.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Geben Sie die URL oder den Pfad ein, in dem die Maskendatei gespeichert werden soll, oder ordnen Sie sie zu. </td> 
+   <td> Geben Sie die URL oder den Pfad ein, in dem die Maskendatei gespeichert werden soll, oder ordnen Sie sie zu. Dies ist nur erforderlich, wenn Sie nicht den internen Speicher von Fusion für den Ausgabespeicher ausgewählt haben.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -575,6 +575,119 @@ Dieses Aktionsmodul bearbeitet Textebenen in einer Photoshop-Datei.
    <td> Wählen Sie die Komprimierungsstufe für die Ausgabedatei aus. </td> 
     </tr>
   </tbody>
+</table>
+
+
+
+### Ausführen von Photoshop-Aktionen (JSON)
+
+Dieses Aktionsmodul führt Photoshop-Aktionen mithilfe von JSON-Befehlen aus.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Verbindung]</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Photoshop]</a> .</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Input) Speicher]</td>
+      <td>
+        <p>Wählen Sie den Dateidienst aus, in dem die zu bearbeitende Datei gespeichert ist.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>Speicherort der [!UICONTROL (Eingabe)-Datei]</p>
+      </td>
+   <td> Geben Sie die URL oder den Pfad der Datei ein, die Sie bearbeiten möchten, oder ordnen Sie sie zu. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Action JSON]</td>
+      <td>
+        <p>Geben Sie den JSON-Befehl für die Aktion ein, die Sie ausführen möchten.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Schriftarten/Muster/Pinsel/Zusätzliche Bilder]</td>
+      <td>
+        <p>Klicken Sie für jede Schrift, jedes Muster, jede Bürste oder jedes zusätzliche Bild, das Sie in dieser Aktion verwenden möchten, auf Element hinzufügen und geben Sie den Speicherort und den Speicherort des Elements ein.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Schriftart/Muster/Pinseldatei-URL]</p>
+      </td>
+   <td> Geben Sie die URL oder den Pfad der Datei ein, die Sie verwenden möchten, oder ordnen Sie sie zu. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Dateispeicher ausgibt]</td>
+      <td>
+        <p>Wählen Sie den Dateidienst aus, in dem die bearbeitete Datei gespeichert werden soll.</p><p>Durch die Auswahl von interner Fusion-Speicherung wird die Datei für spätere Module verfügbar, die Datei wird jedoch außerhalb des Szenarios nicht verfügbar gemacht.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL der Ausgabedatei]</p>
+      </td>
+   <td> Geben Sie die URL oder den Pfad ein, in dem die bearbeitete Datei gespeichert werden soll, oder ordnen Sie sie zu.  Dies ist nur erforderlich, wenn Sie nicht den internen Speicher von Fusion für den Ausgabespeicher ausgewählt haben.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file type]</p>
+      </td>
+   <td> Wählen Sie den Dateityp für die bearbeitete Datei aus. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Wählen Sie aus, ob die neu bearbeitete Datei bereits existierende Ausgabedateien überschreibt.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Komprimierung]</p>
+      </td>
+   <td> Wählen Sie die Komprimierungsstufe für die Ausgabedatei aus. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Ausgaben]</td>
+      <td>
+        <p>Klicken Sie für jede zu erstellende konvertierte Datei auf Element hinzufügen und geben Sie den Speicherort, den Speicherort und den Typ wie in dieser Tabelle aufgeführt ein.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Speicher]</td>
+      <td>
+        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) File location]</p>
+      </td>
+   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Wählen Sie den Dateityp aus, in den Sie die Datei konvertieren möchten. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">Überschreiben von [!UICONTROL (Ausgabe)]</td>
+      <td>
+        <p>Wählen Sie aus, ob die neu bearbeitete Datei bereits existierende Ausgabedateien überschreibt. Dies gilt nur für Dateien im Adobe-Speicher.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximale Anzahl an zurückgegebenen Ergebnissen]</p>
+      </td>
+   <td>Geben Sie die maximale Anzahl von Datensätzen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungszyklen eines Szenarios zurückgeben soll.</td> 
+    </tr>
+      </tbody>
 </table>
 
 ### Execute Depth Blur
@@ -725,117 +838,6 @@ Dieses Aktionsmodul führt eine Photoshop-Aktion für das ausgewählte Bild aus.
    <td> Wählen Sie die Komprimierungsstufe für die Ausgabedatei aus. </td> 
     </tr>
   </tbody>
-</table>
-
-### Ausführen von Photoshop-Aktionen (JSON)
-
-Dieses Aktionsmodul führt Photoshop-Aktionen mithilfe von JSON-Befehlen aus.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Photoshop] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Photoshop]</a> .</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Input) Speicher]</td>
-      <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die zu bearbeitende Datei gespeichert ist.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>Speicherort der [!UICONTROL (Eingabe)-Datei]</p>
-      </td>
-   <td> Geben Sie die URL oder den Pfad der Datei ein, die Sie bearbeiten möchten, oder ordnen Sie sie zu. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Action JSON]</td>
-      <td>
-        <p>Geben Sie den JSON-Befehl für die Aktion ein, die Sie ausführen möchten.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Schriftarten/Muster/Pinsel/Zusätzliche Bilder]</td>
-      <td>
-        <p>Klicken Sie für jede Schrift, jedes Muster, jede Bürste oder jedes zusätzliche Bild, das Sie in dieser Aktion verwenden möchten, auf Element hinzufügen und geben Sie den Speicherort und den Speicherort des Elements ein.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Schriftart/Muster/Pinseldatei-URL]</p>
-      </td>
-   <td> Geben Sie die URL oder den Pfad der Datei ein, die Sie verwenden möchten, oder ordnen Sie sie zu. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Dateispeicher ausgibt]</td>
-      <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die bearbeitete Datei gespeichert werden soll.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL URL der Ausgabedatei]</p>
-      </td>
-   <td> Geben Sie die URL oder den Pfad ein, in dem die bearbeitete Datei gespeichert werden soll, oder ordnen Sie sie zu. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Output file type]</p>
-      </td>
-   <td> Wählen Sie den Dateityp für die bearbeitete Datei aus. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Overwrite]</td>
-      <td>
-        <p>Wählen Sie aus, ob die neu bearbeitete Datei bereits existierende Ausgabedateien überschreibt.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Komprimierung]</p>
-      </td>
-   <td> Wählen Sie die Komprimierungsstufe für die Ausgabedatei aus. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Ausgaben]</td>
-      <td>
-        <p>Klicken Sie für jede zu erstellende konvertierte Datei auf Element hinzufügen und geben Sie den Speicherort, den Speicherort und den Typ wie in dieser Tabelle aufgeführt ein.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Output) Speicher]</td>
-      <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Output) File location]</p>
-      </td>
-   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Output) Type]</p>
-      </td>
-   <td>Wählen Sie den Dateityp aus, in den Sie die Datei konvertieren möchten. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">Überschreiben von [!UICONTROL (Ausgabe)]</td>
-      <td>
-        <p>Wählen Sie aus, ob die neu bearbeitete Datei bereits existierende Ausgabedateien überschreibt. Dies gilt nur für Dateien im Adobe-Speicher.</p>
-      </td>
-    </tr>
-        <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Maximale Anzahl an zurückgegebenen Ergebnissen]</p>
-      </td>
-   <td>Geben Sie die maximale Anzahl von Datensätzen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungszyklen eines Szenarios zurückgeben soll.</td> 
-    </tr>
-      </tbody>
 </table>
 
 ### Ausführen des Produkt-Zuschnitts
@@ -1020,14 +1022,14 @@ Dieses Aktionsmodul identifiziert den Hauptbetreff des Bildes und entfernt den H
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Speicher]</td>
       <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p>
+        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p><p>Durch die Auswahl von interner Fusion-Speicherung wird die Datei für spätere Module verfügbar, die Datei wird jedoch außerhalb des Szenarios nicht verfügbar gemacht.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu. </td> 
+   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu.  Dies ist nur erforderlich, wenn Sie nicht den internen Speicher von Fusion für den Ausgabespeicher ausgewählt haben.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -1115,14 +1117,14 @@ Dieses Aktionsmodul ersetzt ein Smart-Objekt innerhalb einer PSD-Ebene und gener
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Speicher]</td>
       <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p>
+        <p>Wählen Sie den Dateidienst aus, in dem die neue Datei gespeichert werden soll.</p><p>Durch die Auswahl von interner Fusion-Speicherung wird die Datei für spätere Module verfügbar, die Datei wird jedoch außerhalb des Szenarios nicht verfügbar gemacht.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu. </td> 
+   <td> Geben Sie die URL oder den Pfad ein, in dem die neue Datei gespeichert werden soll, oder ordnen Sie sie zu.  Dies ist nur erforderlich, wenn Sie nicht den internen Speicher von Fusion für den Ausgabespeicher ausgewählt haben.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1162,14 +1164,14 @@ Durch diese Aktion wird die Größe eines Bildes unter Verwendung des gleichen S
     <tr>
       <td role="rowheader">[!UICONTROL Speicher]</td>
       <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die Datei gespeichert wird, deren Größe Sie ändern möchten.</p>
+        <p>Wählen Sie den Dateidienst aus, in dem die Datei gespeichert wird, deren Größe Sie ändern möchten.</p><p>Durch die Auswahl von interner Fusion-Speicherung wird die Datei für spätere Module verfügbar, die Datei wird jedoch außerhalb des Szenarios nicht verfügbar gemacht.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Dateispeicherort]</p>
       </td>
-   <td> Geben Sie die URL oder den Pfad der Datei ein, deren Größe Sie ändern möchten, oder ordnen Sie sie zu. </td> 
+   <td> Geben Sie die URL oder den Pfad der Datei ein, deren Größe Sie ändern möchten, oder ordnen Sie sie zu.  Dies ist nur erforderlich, wenn Sie nicht den internen Speicher von Fusion für den Ausgabespeicher ausgewählt haben.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Ausgaben]</td>
@@ -1269,18 +1271,17 @@ Dieses Aktionsmodul fügt dem ausgewählten Bild ein Wasserzeichen hinzu.
       </td>
    <td> Geben Sie den Abstand (in Pixel) vom oberen Rand des Bildes ein, den das Wasserzeichen aufweisen soll.</td> 
     </tr>  
-    </tr>  
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Speicher]</td>
       <td>
-        <p>Wählen Sie den Dateidienst aus, in dem die mit Wasserzeichen versehene Datei gespeichert werden soll.</p>
+        <p>Wählen Sie den Dateidienst aus, in dem die mit Wasserzeichen versehene Datei gespeichert werden soll.</p><p>Durch die Auswahl von interner Fusion-Speicherung wird die Datei für spätere Module verfügbar, die Datei wird jedoch außerhalb des Szenarios nicht verfügbar gemacht.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Geben Sie die URL oder den Pfad ein, in dem die mit Wasserzeichen versehene Datei gespeichert werden soll, oder ordnen Sie sie zu. </td> 
+   <td> Geben Sie die URL oder den Pfad ein, in dem die mit Wasserzeichen versehene Datei gespeichert werden soll, oder ordnen Sie sie zu. Dies ist nur erforderlich, wenn Sie nicht den internen Speicher von Fusion für den Ausgabespeicher ausgewählt haben.</td> 
     </tr>
     <tr>
       <td role="rowheader">
