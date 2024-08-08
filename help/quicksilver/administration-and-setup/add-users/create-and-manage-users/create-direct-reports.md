@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Sie können Benutzer als Direktberichte für einen anderen Benutzer festlegen. Auf diese Weise können Sie ein Organisationsdiagramm erstellen, in dem die Verwaltungsstruktur Ihres Unternehmens dargestellt wird.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Sie können Benutzer als Direktberichte für einen anderen Benutzer festlegen. Auf diese Weise können Sie ein Organisationsdiagramm erstellen, in dem die Verwaltungsstruktur Ihres Unternehmens dargestellt wird. Weitere Informationen finden Sie unter [Organigramm anzeigen](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -46,6 +48,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
++++
+
 ## Direkte Berichte erstellen
 
 1. Beginnen Sie mit der Bearbeitung eines Benutzers, wie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) beschrieben.
@@ -54,6 +58,5 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    Dieses Feld darf nicht leer sein.
 
 1. Geben Sie im Feld **Direkte Berichte** Benutzer an, die Berichte an den Benutzer richten, den Sie bearbeiten.
-
 1. (Optional) Geben Sie im Feld **Berichte an** den Namen des Benutzers an, für den dieser Benutzer Berichte erstellt.
 1. Klicken Sie auf **Änderungen speichern**.

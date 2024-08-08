@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Sie können Benutzerkonten stapelweise bearbeiten. Bei der Massenbearbeitung von
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -63,9 +65,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
++++
+
 ## Stapelweises Bearbeiten von Benutzerkonten
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
+{{step-1-to-users}}
 
 1. Wählen Sie mehr als einen Benutzer aus und klicken Sie dann auf das Bearbeitungssymbol ![](assets/edit-icon.png).
 

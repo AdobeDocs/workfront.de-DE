@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Sie können alle Prüfprotokolle im System oder solche anzeigen, die bestimmte Filterkriterien erfüllen. Sie können auch Prüfprotokolle exportieren. In den Auditprotokollen werden Benutzeränderungen aufgelistet, die in den letzten 90 Tagen im System ausgelöst wurden.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Informationen zu allen Auditprotokolltypen und deren Erstellung finden Sie unter
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -46,9 +48,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
++++
+
 ## Audit-Protokolle anzeigen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **System > Audit Logs**.
 1. Wählen Sie im Dropdown-Menü **Protokolltyp** den Typ des Auditprotokolls aus, das Sie anzeigen möchten.
@@ -70,7 +74,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 ## Audit-Logs exportieren
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **System > Audit Logs**.
 

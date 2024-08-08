@@ -1,5 +1,5 @@
 ---
-title: Benutzer deaktivieren oder reaktivieren
+title: Deaktivieren oder Reaktivieren eines Benutzers
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Sie können einen Benutzer jederzeit reaktivieren.
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -72,6 +74,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
++++
+
 ## Voraussetzungen
 
 Bevor Sie einen Workfront-Administrator oder einen Standard- oder Planen-Lizenzbenutzer deaktivieren, müssen Sie dessen Objekte und Aktivitäten mit einem anderen Benutzer verknüpfen.
@@ -90,7 +94,7 @@ Beachten Sie beim Deaktivieren eines Benutzers Folgendes:
 
 So deaktivieren Sie einen Benutzer:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol **Mehr** ![](assets/more-icon.png) und dann auf **Deaktivieren**.
 
@@ -104,7 +108,7 @@ Workfront-Administratoren und Benutzer der Lizenzplanung können das Deaktivieru
 
 So planen Sie die Deaktivierung eines Benutzers:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Wählen Sie den Namen des Benutzers aus.
 
@@ -131,7 +135,7 @@ Es wird empfohlen, einen Bericht für Benutzer zu erstellen, die für die Deakti
 
 ## Benutzer erneut aktivieren
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol &quot;Mehr&quot;![](assets/more-icon.png) und dann auf **Aktivieren**.
 

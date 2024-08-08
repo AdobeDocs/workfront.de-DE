@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,8 @@ Wenn ein Benutzer Ihre Organisation verlässt, können Sie ihn aus Adobe Workfro
 -->
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -59,6 +61,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Löschen oder Deaktivieren eines Benutzers
 
@@ -118,9 +122,8 @@ Sie können Benutzer einzeln löschen oder mehrere Benutzer gleichzeitig dauerha
 
 ## Löschen eines oder mehrerer Benutzer
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+{{step-1-to-users}}
 
-1. Klicken Sie auf **Benutzer**.
 1. Wählen Sie mindestens einen Benutzer aus, den Sie löschen möchten, klicken Sie auf das Menü Mehr ![](assets/more-icon.png) und dann auf **Löschen**.
 1. Klicken Sie in dem angezeigten Feld auf **Löschen** , um den Löschvorgang zu bestätigen.
 

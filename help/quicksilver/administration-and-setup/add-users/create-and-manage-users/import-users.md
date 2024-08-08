@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Sie können Benutzer zur Adobe Workfront-Site importieren, indem Sie Benutzer von einem Netzwerkordnerdienst (z. B. Active Directory oder einem anderen LDAP-Ordner) synchronisieren oder mithilfe einer Tabellenimportdatei importieren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Sie können Benutzer mithilfe einer Tabellenimportdatei importieren.
 Bevor Sie einen neuen Benutzer erstellen, stellen Sie zunächst sicher, dass Sie alle Objekte erstellt haben, die Sie mit dem Benutzer verknüpfen möchten. Wenn Sie beispielsweise keinen Zeitplan erstellt haben, können Sie dem neuen Benutzer keinen Zeitplan zuweisen. Das Feld, mit dem Sie einen Zeitplan mit dem neuen Benutzer verknüpfen, wird nicht im Bildschirm &quot;Neuer Benutzer&quot;angezeigt.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -60,9 +62,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
++++
+
 ## Importieren von Benutzern mithilfe einer Tabellenimportdatei
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
+{{step-1-to-users}}
 
 1. Klicken Sie auf den Dropdown-Pfeil **Neuer Benutzer** und dann auf **Benutzer importieren**.
 

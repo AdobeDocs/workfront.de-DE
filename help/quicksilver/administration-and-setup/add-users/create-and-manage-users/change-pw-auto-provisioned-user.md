@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Ändern des Kennworts für einen automatisch bereitgestellten Benutzer
-description: Wenn ein neuer Benutzer häufig versucht, sein temporäres Kennwort zu ändern, gibt er seine E-Mail-Adresse ein und erhält einen Fehler wegen eines falschen Benutzernamens. Sie müssen ihren systemzugewiesenen Benutzernamen eingeben, d. h. ihre Globally Unique Identifier (GUID). Da sich eine GUID nur schwer merken und verwenden lässt, empfehlen wir, den Benutzernamen eines neuen Benutzers in die Workfront-E-Mail-Adresse zu ändern und ihm dann zu erlauben, sein Passwort zu ändern.
-author: Caroline
+description: Es wird empfohlen, den Benutzernamen eines neuen Benutzers in seine Workfront-E-Mail-Adresse zu ändern und ihm dann zu erlauben, sein Passwort zu ändern.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Da die Verwendung von GUID-Benutzernamen schwierig sein kann, empfehlen wir, zun
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Ändern des Kennworts für einen automatisch bereitgestellten Benutzer
 

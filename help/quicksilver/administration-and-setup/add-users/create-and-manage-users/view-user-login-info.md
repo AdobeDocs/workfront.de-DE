@@ -1,16 +1,16 @@
 ---
-title: Anzeigen von Benutzeranmeldedaten
+title: Anzeigen von Informationen zur Benutzeranmeldung
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Sie können sehen, wie oft sich Benutzer bei Workfront anmelden und wann sie sich zuletzt angemeldet haben, indem Sie angeben, dass Sie diese Informationen in die Ansicht einer Benutzerliste oder in einen Bericht für Benutzer aufnehmen möchten.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Sie können sehen, wie oft sich Benutzer bei Adobe Workfront anmelden und wann sie sich zuletzt angemeldet haben, indem Sie angeben, dass Sie diese Informationen in die Ansicht einer Benutzerliste oder in einen Bericht für Benutzer aufnehmen möchten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -45,6 +47,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## So erfasst Workfront Anmeldeinformationen
 
