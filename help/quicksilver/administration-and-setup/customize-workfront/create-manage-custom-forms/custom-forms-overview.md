@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: efcffadba5dba15d7e521524865e5e5ac3836baa
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -48,7 +48,7 @@ Sie können die folgenden Typen von benutzerdefinierten Feldern zu einem benutze
 * Text mit Formatierung
 * Dropdown
 * Mehrfachauswahl-Dropdown
-* Externes Nachschlagen
+* Externe Suche
 * Natives Feld
 * Typeahead
 * Berechnet

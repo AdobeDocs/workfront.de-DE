@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b2c5990c1ec1656c44c0621e854adf54b6bc19a3
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '5529'
 ht-degree: 5%
@@ -552,7 +552,7 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
 
 Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen. Das externe Suchfeld ist auch in Listen und Berichten verfügbar.
 
-Beispiele für die Verwendung des Felds &quot;Externe Suche&quot;zum Aufrufen derselben Instanz von Workfront oder einer öffentlichen API finden Sie unter [Beispiele für das Feld &quot;Externe Suche&quot;in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Beispiele für die Verwendung des externen Suchfelds zum Aufrufen derselben Instanz von Workfront oder einer öffentlichen API finden Sie unter [Beispiele für das externe Suchfeld in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
@@ -598,7 +598,7 @@ So fügen Sie eine externe Suche hinzu:
       <li><p>$$QUERY - Dies stellt den Suchtext dar, den der Endbenutzer in das Feld eingibt, und ermöglicht Ihnen die Implementierung der Abfragefilterung für Ihre Endbenutzer. (Der Benutzer sucht im Dropdown-Menü nach dem Wert.)</p>
       <p>Wenn die API, auf die Sie verweisen, dies zulässt, können Sie in Ihre Suchabfrage auch Modifikatoren einfügen, um festzustellen, wie die Suche funktionieren soll. Beispielsweise können Sie Folgendes als Basis-API-URL verwenden, um Personen die Suche nach Workfront-Projekten zu ermöglichen, die bestimmten Text enthalten: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Weitere Informationen zu den Workfront-Suchmodifikatoren finden Sie in den <a href="/help/quicksilver/wf-api/general/api-basics.md">API-Grundlagen</a>.</p>
       <p><strong>HINWEIS:</strong> Wenn Sie $$QUERY nicht verwenden und der Benutzer Text in das Suchfeld eingibt, werden die bereits vorhandenen Auswahlmöglichkeiten eingegrenzt. Wenn Sie jedoch $$QUERY verwenden und der Benutzer alles eingibt, wird ein neuer Netzwerkaufruf an Ihre API durchgeführt. Wenn Sie mehr als 2000 Werte in Ihrer API haben und die API Abfragen unterstützt, können Sie $$QUERY verwenden, um nicht nur aus den vorhandenen 2000 Werten zu suchen, sondern auch aus der ursprünglichen API mit den eingeschränkten Optionen.</p></li>
-      <li><p>{fieldName} - Dabei ist fieldName ein benutzerdefiniertes oder natives Feld in Workfront. Auf diese Weise können Sie Dropdown-Optionsfilter für die Kaskadierung implementieren, wenn Sie den Wert eines bereits ausgewählten Felds an das Feld Externe Suche übergeben, um Optionen nach unten zu filtern. (Beispielsweise ist das Feld Region bereits im Formular vorhanden und Sie schränken eine Liste von Ländern von der API auf Länder ein, die sich in einer bestimmten Region befinden.)</p>
+      <li><p>{fieldName} - Dabei ist fieldName ein benutzerdefiniertes oder natives Feld in Workfront. Auf diese Weise können Sie Dropdown-Optionsfilter für die Kaskadierung implementieren, wenn Sie den Wert eines bereits ausgewählten Felds an das externe Suchfeld übergeben, um Optionen nach unten zu filtern. (Beispielsweise ist das Feld Region bereits im Formular vorhanden und Sie schränken eine Liste von Ländern von der API auf Länder ein, die sich in einer bestimmten Region befinden.)</p>
       <p>Bei einem externen Suchfeld, das von anderen Feldern abhängig ist (unter Verwendung der Syntax {fieldName} ), sind die von der API zurückgegebenen Optionen auf die Optionen beschränkt, die mit den Zeichenfolgen oder Werten übereinstimmen, die in den anderen Feldern eingegeben wurden. (Diese Funktion wird in Listen und Berichten nicht unterstützt.)</p></li>
       <li>{referenceObject}.{fieldName} - Wobei das Feld Teil eines Objekts ist. Diese Syntax ähnelt benutzerdefinierten Ausdrücken. (Beispiel: PortfolioID={project}.{portfolioID})</li></ul>
       <p><strong>HINWEIS:</strong> Überprüfen Sie die Dokumentation für die API, mit der Sie arbeiten, für die spezifischen Abfragen, die Sie definieren können.</p></td>

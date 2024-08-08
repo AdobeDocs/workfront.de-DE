@@ -3,33 +3,33 @@ title: Beispiele für das externe Suchfeld in einem benutzerdefinierten Formular
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Ein Feld "Externe Suche"in einem benutzerdefinierten Formular ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. In diesem Artikel finden Sie Beispiele für die Verwendung des Felds Externe Suche , um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen.
+description: Ein externes Suchfeld in einem benutzerdefinierten Formular ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Dieser Artikel enthält Beispiele für die Verwendung des externen Suchfelds, um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # Beispiele für das externe Suchfeld in einem benutzerdefinierten Formular
 
-Ein Feld &quot;Externe Suche&quot;in einem benutzerdefinierten Formular ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen.
+Ein externes Suchfeld in einem benutzerdefinierten Formular ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen.
 
-In diesem Artikel finden Sie Beispiele für die Verwendung des Felds Externe Suche , um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen. Sie können auch die externe Suche verwenden, um mit einem externen System wie Jira, Salesforce oder ServiceNow zu kommunizieren.
+Dieser Artikel enthält Beispiele für die Verwendung des externen Suchfelds, um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen. Sie können auch die externe Suche verwenden, um mit einem externen System wie Jira, Salesforce oder ServiceNow zu kommunizieren.
 
 Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular und zusätzliche Definitionen der externen Lookup-Komponenten finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Einrichten eines externen Suchfelds für dieselbe Instanz von Workfront
+## Richten Sie ein externes Suchfeld für dieselbe Instanz von Workfront ein
 
 Sie können die externe Suche verwenden, um Daten aus Ihrer Workfront-Instanz in das benutzerdefinierte Formular zu übertragen.
 
-### Verwenden nativer Workfront-Feldwerte in der externen Suche
+### Native Workfront-Feldwerte in der externen Suche verwenden
 
-In diesem Beispiel wird gezeigt, wie die Workfront-API aufgerufen und Daten aus dem vorhandenen Feld &quot;Statusabfrage&quot;in das Feld &quot;Externe Suche&quot;übertragen werden.
+In diesem Beispiel wird gezeigt, wie die Workfront-API aufgerufen und Daten aus dem vorhandenen Feld &quot;Statusabfrage&quot;in Ihr externes Suchfeld übertragen werden.
 
 1. Öffnen Sie das benutzerdefinierte Formular.
 1. Suchen Sie auf der linken Seite des Bildschirms nach **Externer Suchvorgang** und ziehen Sie ihn in einen Bereich auf der Arbeitsfläche.
@@ -107,7 +107,7 @@ In diesem Beispiel wird gezeigt, wie Sie die Workfront-API aufrufen und Daten au
 
 1. Klicken Sie auf **Anwenden**.
 
-   Wenn das benutzerdefinierte Formular einem Workfront-Objekt hinzugefügt wird, werden alle Werte im Feld &quot;Kombinationsfarben&quot;in der Dropdown-Liste &quot;Externes Suchfeld&quot;angezeigt.
+   Wenn das benutzerdefinierte Formular einem Workfront-Objekt hinzugefügt wird, werden alle Werte im Feld &quot;Kombinationsfarben&quot;in der Dropdown-Liste Externes Suchfeld angezeigt.
 
 ## Externes Suchfeld für eine öffentliche API einrichten
 
@@ -131,7 +131,7 @@ Listet alle Länder auf: <https://api.first.org/data/v1/countries>
    Ermöglicht dem Benutzer die Suche nach einem Land in einer Region: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
 
    * Die verfügbaren Regionen werden in Workfront in einem separaten benutzerdefinierten Feld definiert.
-   * Wenn der Benutzer eine Region im Formular auswählt, zeigt das Feld &quot;Externe Suche&quot;nur die Länder in dieser Region an (das Land, in dem sich die Region befindet, die in der API definiert ist). Der Benutzer kann auch nach einem Land in der ausgewählten Region suchen.
+   * Wenn der Benutzer eine Region im Formular auswählt, zeigt das externe Suchfeld nur die Länder in dieser Region an (das Land, in dem sich die Region befindet, die in der API definiert ist). Der Benutzer kann auch nach einem Land in der ausgewählten Region suchen.
 
 1. Überprüfen Sie die **Abhängigkeiten** für die Felder, auf die dieses Suchfeld in der API verweist.
 
@@ -167,3 +167,23 @@ Listet alle Länder auf: <https://api.first.org/data/v1/countries>
    ![Benutzerdefiniertes Formular mit externem Suchfeld](assets/external-lookup-countries-example1.png)
 
    ![Externe Suchoptionen für ein Land basierend auf Region](assets/external-lookup-countries-example2.png)
+
+## Zusätzliche Anwendungsfälle für externe Suchfelder
+
+Es gibt viele weitere Anwendungsfälle zum Erstellen einer externen Suche.
+
+**Anwendungsfall:** Ersetzen Sie typeahead-Felder, da sie Probleme mit der Berichterstellung verursachen können.
+**Lösung:** Verwenden Sie einen API-Aufruf für vorhandene Objekte im System.
+
+Beispiel einer Basis-API-URL für Vorlagen, um ein typeahead -Feld zu ersetzen:
+`$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
+
+**Anwendungsfall:** Erstellen Sie Dropdown-Felder mit weiteren Funktionen (z. B. ist eine Zeilenumbruch im Feld Externes Suchfeld vorhanden).
+**Lösung:** Verwenden Sie einen API-Aufruf für vorhandene Objekte im System oder erstellen Sie ein neues Objekt und verwenden Sie einen API-Aufruf für dieses Objekt.
+
+**Anwendungsfall:** Definieren Sie eine Möglichkeit für Benutzer, ihre eigenen Felder außerhalb des benutzerdefinierten Formularbereichs zu verwalten. Richten Sie das externe Suchfeld ein und Sie können Benutzern die Objekte des Felds zuweisen. Diese Option eignet sich gut für Felder und Teams mit hoher Wartung.
+**Lösung:** Erstellen Sie ein neues Objekt und verwenden Sie einen API-Aufruf für dieses Objekt.
+
+**Anwendungsfall:** Integration mit Objekten außerhalb von Workfront. Beispielsweise beim Zugriff auf ein anderes System, um den Namen jedes Benutzers abzurufen, anstatt in einem typeahead -Feld eingeschränkt zu sein.
+**Lösung:** Webhook-/Fusion-Automatisierung zur Verbindung mit anderen Systemen.
+
