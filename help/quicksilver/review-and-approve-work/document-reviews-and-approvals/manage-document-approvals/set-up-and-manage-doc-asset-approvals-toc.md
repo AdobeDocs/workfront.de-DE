@@ -7,13 +7,13 @@ description: Dieser Abschnitt enthält Artikel zum Verwalten von Asset- und Doku
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
+exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
+source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # Asset- und Dokumentgenehmigungen einrichten und verwalten: Artikelindex
 
@@ -25,3 +25,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Entfernen von Genehmigern oder Prüfern aus einem Asset oder Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [Erstellen einer Genehmigungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 * [Hinzufügen eines Frame.io-Assets zu einem verbundenen Workfront-Projekt](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+* [Verwenden neuer Dokumentgenehmigungen und Testsendungen gemeinsam](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
