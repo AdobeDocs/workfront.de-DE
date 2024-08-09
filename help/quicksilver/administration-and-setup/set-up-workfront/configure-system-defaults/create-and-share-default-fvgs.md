@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Standardfilter, Ansichten und Gruppierungen erstellen, bearbeiten und freigeben
 description: Sie können Standardfilter, Ansichten und Gruppierungen erstellen und diese dann Benutzern in Ihrer Organisation zur Verfügung stellen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Sie können Standardfilter, Ansichten und Gruppierungen erstellen und diese dann
 Wenn Sie Standardfilter, Ansichten und Gruppierungen erstellen, wie in diesem Artikel beschrieben, können Benutzer, für die Sie sie freigeben, diese beim Anzeigen ihrer Listen nutzen. Benutzer können ihre eigenen Filter, Ansichten und Gruppierungen basierend auf den von Ihnen erstellten erstellen, diese können jedoch nicht direkt ändern.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,6 +49,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Standardfilter, Ansichten oder Gruppierungen erstellen
 

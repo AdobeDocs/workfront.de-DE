@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
-title: Orte konfigurieren
+title: Konfigurieren von Standorten
 description: Als Adobe Workfront-Administrator können Sie die Standardspeicherorte konfigurieren, die in den Ratenkarten Auftragsrollen zugewiesen werden können.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Mit Ratenkarten kann Ihr Unternehmen die Abrechnungssätze für Projekte einfach verwalten. Weitere Informationen finden Sie unter [Verwalten von Ratenkarten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). Als [!DNL Adobe] [!DNL Workfront] -Administrator können Sie die Standardspeicherorte konfigurieren, die für die Zuweisung von Auftragsrollen in Ratenkarten verfügbar sind. Dadurch wird sichergestellt, dass die Ratenkarten die Marktkurse an jedem Standort genau widerspiegeln.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,6 +46,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Orte für die gesamte Organisation konfigurieren
 

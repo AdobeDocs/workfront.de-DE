@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Systemweite Projektvoreinstellungen konfigurieren
+title: Konfigurieren von systemweiten Projektvoreinstellungen
 description: Als [!DNL Adobe Workfront] Administrator können Sie die Standardeinstellungen für alle im System erstellten Projekte konfigurieren. Diese Voreinstellungen wirken sich auf Projekt-, Aufgaben- und Problemverhalten aus.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '2561'
 ht-degree: 0%

@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Anpassen von Standardausgabetypen
 description: Sie können die Bezeichnungen für jeden Standardausgabetyp anpassen, um die in Ihrer Organisation verwendete Terminologie besser abzustimmen. Problemtypen sind nützlich zum Anpassen des Problemstatus und Erstellen von Anforderungswarteschlangen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Problemtypen sind unter folgenden Umständen nützlich:
 Sie können die Bezeichnungen für jeden Standardausgabetyp anpassen, um die in Ihrer Organisation verwendete Terminologie besser abzustimmen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,6 +48,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Standardmäßige Problemtypen
 
@@ -70,7 +74,7 @@ Beachten Sie Folgendes zum Anpassen von Problemtypen:
 
 So passen Sie einen Problemtyp an:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Projekteinstellungen]** > **[!UICONTROL Status]**.
 

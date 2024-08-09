@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Ihre Benutzer müssen sich anmelden, um diese Integration in ihrem eigenen Konto
 
 * `client_id`: Dies ist die Client-ID, die beim Erstellen der OAuth2-App in Workfront generiert wurde.
 
-* `redirect_uri`: Die Umleitungs-URL, die Sie beim Erstellen der App eingegeben haben. Ihre Benutzer werden zu dieser Seite weitergeleitet, nachdem sie die App für ihr Konto autorisiert haben.
+* `redirect_uri`: Diese URL muss mit der Umleitungs-URL übereinstimmen, die Sie beim Erstellen der OAuth2-App in Workfront eingegeben haben. Ihre Benutzer werden zu dieser Seite weitergeleitet, nachdem sie die App für ihr Konto autorisiert haben.
 
 * `response_type`: Dieser Wert muss den Wert `code` haben.
 

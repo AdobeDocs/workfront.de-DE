@@ -5,13 +5,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Firewall-Übersicht
 description: Da Adobe Workfront mit dem Netzwerk Ihres Unternehmens kommuniziert, muss die Firewall Ihres Unternehmens so konfiguriert sein, dass sie diese Kommunikation zulässt. Firewalls sind hochwirksame Sicherheitsmaßnahmen, die durch die Trennung des Netzwerks eines Unternehmens vom Internet funktionieren. Sie stellen sicher, dass nur ausgewählte Daten und Netzwerk-Traffic in das oder aus dem Netzwerk des Unternehmens übertragen werden können. Die Firewall lässt Daten basierend auf der Site zu, die die Daten sendet oder empfängt. Als Adobe Workfront-Administrator müssen Sie sicherstellen, dass an oder von Workfront gesendete Daten über die Firewall Ihres Unternehmens übermittelt werden können.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Geben Sie Ihrem Netzwerkadministrator die folgenden Informationen an:
 
 ### Cluster- und Workfront-Plan Ihres Unternehmens anzeigen {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf das Symbol **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).![
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **System** .
 1. Um den Cluster anzuzeigen, wählen Sie **Kundeninformationen** aus.

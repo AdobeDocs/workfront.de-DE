@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Benutzerdefinierte Quartale für Projekte aktivieren
+title: Benutzerdefinierte Quartal für Projekte aktivieren
 description: Zu Berichtszwecken können Sie benutzerdefinierte Quartale erstellen, wenn die Quartale Ihres Unternehmens auf bestimmten Kriterien basieren, die nicht mit Kalenderdaten identisch sind (z. B. Geschäftstage oder Einkaufstage).
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Zu Berichtszwecken können Sie benutzerdefinierte Quartale erstellen, wenn die Q
 Sie können bis zu acht benutzerdefinierte Quartale für Ihr [!DNL Adobe Workfront]-System konfigurieren.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,9 +46,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Benutzerdefinierte Quartale für Ihr [!DNL Workfront] -System einrichten
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Projekteinstellungen]** > **[!UICONTROL Projekte].**
 

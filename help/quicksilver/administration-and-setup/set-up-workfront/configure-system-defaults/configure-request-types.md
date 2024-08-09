@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Anfragetypen konfigurieren
 description: Bei der Arbeit an einem Projekt können Sie feststellen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine bestimmte Aufgabe protokollieren. Sie können auch Anfragen senden, die als Probleme in einem Projekt aufgezeichnet werden, das als Anforderungswarteschlange bezeichnet wird. Probleme und Anforderungen werden in Adobe Workfront als austauschbar betrachtet.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Bei der Arbeit an einem Projekt können Sie feststellen, dass unerwartete Ereign
 Informationen zum Erstellen von Problemen in [!DNL Workfront] finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md). Informationen zum Erstellen von Anforderungen in [!DNL Workfront] finden Sie unter [Erstellen und Senden [!DNL Adobe Workfront] von Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md). Informationen zum Verknüpfen von Anfragetypen mit Projekten finden Sie unter [Definieren von Anfragetypen für ein Projekt](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,6 +45,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 <!--
 THIS IS DRAFTED IN FLARE
@@ -77,7 +81,7 @@ Als [!DNL Workfront] -Administrator können Sie die Namen der Anfragetypen in Ih
 
 So passen Sie die Namen der Anfragetypen an:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Projekteinstellungen]** > **[!UICONTROL Status]**.
 

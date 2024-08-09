@@ -4,20 +4,20 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Konfigurieren der E-Mail-Zulassungsliste
 description: Wenn Ihr Unternehmen den WorkspaceEnterprise-Plan verwendet, können Sie eine Workfront-E-Mail-Zulassungsliste erstellen, um zu steuern, welche E-Mail-Domains E-Mails von Workfront akzeptieren dürfen und welche E-Mail-Domains sich in der E-Mail-Adresse befinden können, die Benutzer in ihrem Benutzerprofil angeben. Dies ist nützlich, wenn die Sicherheitsrichtlinie Ihres Unternehmens Benutzer daran hindert, in Workfront gespeicherte Daten an externe E-Mail-Adressen zu senden. Sie können nur Ihre internen Unternehmensdomänen in die Zulassungsliste aufnehmen, um sicherzustellen, dass diese Richtlinie befolgt wird.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren der E-Mail-Zulassungsliste
 
-Wenn Ihr Unternehmen den WorkspaceEnterprise-Plan verwendet, können Sie eine Workfront-E-Mail-Zulassungsliste erstellen, um Folgendes zu steuern:
+Wenn Ihr Unternehmen den Workfront Enterprise-Plan verwendet, können Sie eine Workfront-E-Mail-Zulassungsliste erstellen, um Folgendes zu steuern:
 
 * Welche E-Mail-Domains dürfen E-Mails von Workfront akzeptieren?
 * Welche E-Mail-Domänen können sich in der E-Mail-Adresse befinden, die Benutzer in ihrem Benutzerprofil angeben.
@@ -31,14 +31,13 @@ Dies ist nützlich, wenn die Sicherheitsrichtlinie Ihres Unternehmens Benutzer d
 >Sämtliche E-Mails von Workfront werden von dieser Adresse gesendet, um einen erfolgreichen E-Mail-Versand zu ermöglichen und den Versand von E-Mails zu verhindern. Dies umfasst sowohl automatisierte Warnhinweise als auch die Kommunikation zwischen Benutzern.
 >
 >Die Zeile Von in einer Workfront-E-Mail, die Sie von einem Benutzer namens Joan Harris erhalten, würde beispielsweise wie folgt aussehen:
->
-```
->Joan Harris <notifications@my.workfront.com>
->```
+>`Joan Harris <notifications@my.workfront.com>`
 
 Informationen zum Konfigurieren der Firewall Ihres Unternehmens für das Öffnen der Kommunikation zwischen Ihrer Umgebung und den Adobe Workfront-Servern finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -61,6 +60,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Andere Zulassungslisten
 
 Wenn Ihr Unternehmen über den Unternehmensplan verfügt, können Sie eine Adobe Workfront IP-Zulassungsliste konfigurieren, die den Zugriff auf Workfront auf 45 von Ihnen festgelegte IP-Adressen oder IP-Adressbereiche beschränkt. Dies bietet eine zusätzliche Sicherheitsebene für die Workfront-Anwendung. Weitere Informationen finden Sie unter [Zugriffsbeschränkung auf Adobe Workfront nach IP-Adresse](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
@@ -69,12 +70,10 @@ Wenn Ihre Firewall oder Ihr E-Mail-Server so konfiguriert ist, dass nur bestimmt
 
 ## Konfigurieren der E-Mail-Zulassungsliste
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **System** > **Kundeninformationen**.
-
 1. Wählen Sie im Bereich **E-Mail-Zulassungsliste** die Option **Domain-Zulassungsliste aktivieren** und klicken Sie dann auf **Domäne hinzufügen**.
 1. Geben Sie in das angezeigte Feld eine Domäne ein, die Sie zulassen möchten, z. B. `ourcompany.com`, und klicken Sie dann auf **Domäne hinzufügen**.
-
 1. Wiederholen Sie den vorherigen Schritt, um alle anderen Domänen hinzuzufügen, die Sie zulassen möchten.
 1. Wenn Sie fertig sind, klicken Sie auf **Speichern**.

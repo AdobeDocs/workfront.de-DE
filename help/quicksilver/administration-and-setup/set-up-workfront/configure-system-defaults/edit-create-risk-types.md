@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Risikotypen bearbeiten und erstellen
+title: Bearbeiten und Erstellen von Risikotypen
 description: Sie können einem Projekt in der Planungsphase Risiken hinzufügen, um potenzielle Hindernisse vor der Genehmigung von Arbeiten zu identifizieren. Risiken sind mögliche Ereignisse, die den termingerechten oder budgetären Abschluss des Projekts verhindern könnten.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Sie können einem Projekt in der Planungsphase Risiken hinzufügen, um potenzielle Hindernisse vor der Genehmigung von Arbeiten zu identifizieren. Risiken sind mögliche Ereignisse, die den termingerechten oder budgetären Abschluss des Projekts verhindern könnten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,6 +46,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Risikotypen
 
 Risikotypen sind Beschriftungen, die Sie für Ihre Risiken verwenden können, um sie zu Berichtszwecken zu kategorisieren. Sie werden im Bereich **[!UICONTROL Einrichtung]** vom [!DNL Adobe Workfront] -Administrator erstellt. Nachdem die Risikotypen in Ihrem **[!UICONTROL Setup]** -Bereich festgelegt wurden, sind sie universell für Ihr System. Alle Projekteigentümer können für ihre Projekte die gleichen Risikotypen verwenden.
@@ -57,7 +61,7 @@ Einige Risikotypen befinden sich standardmäßig bereits in [!DNL Workfront]. Um
 
 ### Vorhandene Risikotypen bearbeiten {#edit-existing-risk-types}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Risikotypen]**.
 1. Wählen Sie den Risikotyp aus, den Sie bearbeiten möchten.
@@ -74,7 +78,7 @@ Sie können neben den Standardrisikokarten auch neue Risikotypen erstellen, die 
 
 So erstellen Sie einen neuen Risikotyp:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Risikotypen]**.
 1. Klicken Sie auf **[!UICONTROL Neuer Risikotyp]**.

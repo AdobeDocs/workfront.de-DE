@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Projektvoreinstellungen für alle Gruppen im System sperren oder entsperren
+title: Projekteinstellungen für alle Gruppen im System sperren oder entsperren
 description: Gruppen in Ihrer Organisation benötigen möglicherweise eine andere Projektreferenz, die für ihre individuellen Workflows unterschiedlich konfiguriert ist. Sie können die Voreinstellung für alle Gruppen in der Organisation freigeben, damit sie sie selbst konfigurieren können.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Gruppen in Ihrer Organisation benötigen möglicherweise eine andere Projektrefe
 Wenn eine Voreinstellung entsperrt ist und der Gruppenadministrator sie ändert, erhalten die mit der Gruppe verknüpften Projekte die Konfiguration für diese Voreinstellung aus der Gruppeneinstellung und nicht aus der Einstellung auf Systemebene.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,6 +46,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Über gesperrte und entsperrte Voreinstellungen
 
 Durch das Sperren der von Ihnen auf Systemebene konfigurierten Projekt-, Aufgaben- oder Problemvoreinstellungen wird sichergestellt, dass alle dieselbe Einstellung für diese Voreinstellung verwenden. Obwohl Sie eine Voreinstellung, die Sie sperren, weiterhin neu konfigurieren können, können Gruppenadministratoren sie nicht für ihre Gruppen neu konfigurieren.
@@ -60,7 +64,7 @@ Anweisungen zum Sperren oder Entsperren eines Projekts, einer Aufgabe oder einer
 
 ## Entsperren Sie eine Projektvoreinstellung, damit sie von Gruppen konfiguriert werden kann.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Projekteinstellungen]** und dann auf **[!UICONTROL Projekte]**.
 

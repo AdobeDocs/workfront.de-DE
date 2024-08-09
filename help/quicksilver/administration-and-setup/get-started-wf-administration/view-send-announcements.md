@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: Mitteilungen senden
 description: Als Adobe Workfront-Administrator können Sie die Seite "Mitteilungen"verwenden, um Mitteilungen an Benutzer zu senden.
-author: Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Mitteilungen zu Mitteilungen von Workfront enthalten normalerweise Informationen
 Informationen zum Anzeigen von Mitteilungen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -45,6 +47,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Mitteilungen an Benutzer senden
 

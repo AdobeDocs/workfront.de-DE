@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Konfigurieren der Zulassungsliste Ihrer Firewall
 description: Wenn Ihre Firewall oder Ihr Mail-Server so konfiguriert ist, dass nur bestimmte Anbieter Zugriff erhalten, müssen Sie bestimmte IP-Adressen zu ihrer Zulassungsliste hinzufügen. Dadurch wird die Kommunikation zwischen Ihrer Umgebung und den Adobe Workfront-Servern geöffnet und Ihre Benutzer können Nachrichten von Workfront senden und SSO mit Active Directory oder LDAP verwenden.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,8 @@ Die IP-Adressen, die Sie Ihrer Zulassungsliste in Ihrer Firewall hinzufügen mü
 
 So suchen Sie den Cluster Ihres Unternehmens:
 
-1. Als Workfront-Administrator klicken Sie auf das Symbol **Hauptmenü** ![Hauptmenü](assets/main-menu-icon.png) und dann auf **Setup**.
+{{step-1-to-setup}}
+
 1. Klicken Sie im linken Navigationsbereich auf **System** und wählen Sie dann **Kundeninformationen** aus.
 1. Suchen Sie das Feld **Cluster-Setup** in der rechten oberen Ecke der Seite. Der Cluster Ihres Unternehmens ist hier aufgeführt.
 

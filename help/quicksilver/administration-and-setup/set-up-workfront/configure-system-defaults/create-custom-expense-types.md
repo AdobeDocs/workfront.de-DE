@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Benutzerdefinierte Ausgabentypen erstellen
+title: Erstellen benutzerdefinierter Ausgabentypen
 description: Als [!DNL Adobe Workfront] Administrator können Sie benutzerdefinierte Ausgabentypen erstellen, um die mit Ihren Aufgaben und Projekten verbundenen Ausgaben zu definieren und zu verfolgen. Ausgaben sind Nicht-Arbeitskosten, die mit Aufgaben oder Projekten verknüpft werden können.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Als [!DNL Adobe Workfront] -Administrator können Sie benutzerdefinierte Ausgabe
 Sie können von Ihnen erstellte Ausgabetypen bearbeiten oder löschen. Sie können die integrierten [!DNL Workfront] Ausgabetypen nicht löschen oder bearbeiten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,6 +48,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Standardausgabetypen
 
 Die Ausgabentypen, die standardmäßig in &quot;[!DNL Workfront]&quot;enthalten sind, können nicht gelöscht oder bearbeitet werden. Dazu gehören:
@@ -59,7 +63,8 @@ Die Ausgabentypen, die standardmäßig in &quot;[!DNL Workfront]&quot;enthalten 
 
 ## Benutzerdefinierte Ausgabentypen erstellen
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Klicken Sie auf **[!UICONTROL Ausgabetypen]**.
 1. Klicken Sie auf **[!UICONTROL Neuer Ausgabentyp]**.
 1. Geben Sie im angezeigten Feld **[!UICONTROL Neuer Ausgabentyp]** die folgenden Informationen an:
@@ -101,7 +106,8 @@ Die Ausgabentypen, die standardmäßig in &quot;[!DNL Workfront]&quot;enthalten 
 
 ## Ändern benutzerdefinierter Ausgabentypen
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Klicken Sie auf **[!UICONTROL Ausgabetypen]**.
 1. Wählen Sie den Ausgabentyp aus, den Sie ändern möchten, und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 

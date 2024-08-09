@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Voreinstellungen für die Ressourcenverwaltung konfigurieren
 description: Als [!DNL Adobe Workfront] Administrator können Sie die Voreinstellungen für die Ressourcenverwaltung für Ihr System konfigurieren. Diese Voreinstellungen für die Ressourcenverwaltung bestimmen, wie die Benutzerverfügbarkeit oder -kapazität und die FTE für die [!DNL Workfront] Tools zur Ressourcenplanung und -planung berechnet werden.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Als [!DNL Adobe Workfront] -Administrator können Sie die Voreinstellungen für 
 </table>
 -->
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -77,6 +79,8 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Adm
  </tbody> 
 </table>
 
++++
+
 ## Bei der Berechnung der Kapazität eines Benutzers berücksichtigte Informationen
 
 Bei der Berechnung der Nutzerkapazität berücksichtigt Workfront die folgenden Informationen:
@@ -97,7 +101,8 @@ Informationen zur Planung und Planung von Ressourcen in [!DNL Workfront] finden 
 >
 >Da es sich um eine globale Einstellung handelt, wirkt sich diese Auswahl auf alle Berechnungen für das gesamte System aus, für alle Benutzer, in allen Tools zur Ressourcenverwaltung.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
+
 1. Klicken Sie auf **[!UICONTROL Ressourcenverwaltung]**.
 1. Wählen Sie eine der folgenden Methoden aus, um die Verfügbarkeit von Benutzern in [!DNL Workfront] zu berechnen:
 

@@ -4,13 +4,13 @@ product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
 title: Konfigurieren von Timeline-Neuberechnungen für Projekte
 description: Durch die Neuberechnung der Zeitpläne können Manager sehen, wie Kräfte außerhalb des Projekts die Zeitleiste des Projekts beeinflussen. Der Zeitrahmen eines Projekts bezieht sich auf die geplanten und geplanten Daten für das Projekt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Als [!DNL Adobe Workfront] -Administrator können Sie Zeitpläne für alle Proje
 In diesem Artikel wird beschrieben, wie Sie als [!DNL Workfront] -Administrator feststellen können, wie und wann [!DNL Workfront] Projektzeitpläne automatisch berechnet, indem Sie die Projekteinstellungen im Bereich [!UICONTROL Einrichtung] konfigurieren.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -46,11 +48,13 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  </tbody> 
 </table>
 
++++
+
 ## Automatische Neuberechnungen konfigurieren
 
 Als [!DNL Adobe Workfront] -Administrator können Sie konfigurieren, wann [!DNL Workfront] die Projektzeitpläne automatisch neu berechnet. [!DNL Workfront] kann die Projektzeitpläne entweder jede Nacht neu berechnen, wenn sich der Projektumfang ändert oder beides.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts oder, falls verfügbar, auf das Symbol [!UICONTROL **Hauptmenü**] ![](assets/lines-main-menu.png) in der oberen linken Ecke von [!DNL Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Projekteinstellungen]** > **[!UICONTROL Projekte].**
 
