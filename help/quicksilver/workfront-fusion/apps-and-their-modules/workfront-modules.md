@@ -9,7 +9,7 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
+source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
 workflow-type: tm+mt
 source-wordcount: '6280'
 ht-degree: 2%
@@ -145,12 +145,12 @@ Wenn Sie [!DNL Workfront] -Module konfigurieren, zeigt [!DNL Workfront Fusion] d
 
 Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
+
+![](assets/map-toggle-350x74.png)
 >[!NOTE]
 >
 >* Wenn in einem Workfront-Modul nicht die aktuellsten Felder angezeigt werden, liegt dies möglicherweise an Caching-Problemen. Warten Sie eine Stunde und versuchen Sie es erneut.
 >* HTTP-429-Statuscodes von Adobe Workfront sollten keine Deaktivierungen verursachen, sondern eine kurze Ausführungspause im Szenario Trigger werden.
-
-![](assets/map-toggle-350x74.png)
 
 * [Trigger](#triggers)
 * [Aktionen](#actions)
