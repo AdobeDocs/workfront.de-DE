@@ -4,20 +4,24 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Sie können eine benutzerdefinierte Bedingung löschen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # Benutzerdefinierte Bedingung löschen
 
+Sie können eine benutzerdefinierte Bedingung löschen, wenn sie nicht mehr benötigt wird.
+
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -40,9 +44,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Benutzerdefinierte Bedingung löschen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **Projekteinstellungen** > **Bedingungen**.
 

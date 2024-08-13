@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Verwalten von Stundentypen
+title: Hour-Typen verwalten
 description: Sie können Stundentypen mit Ihren Stundeneinträgen verknüpfen. Hour-Typen sind Bezeichnungen, mit denen Sie Ihre Stundeneinträge definieren.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 1%

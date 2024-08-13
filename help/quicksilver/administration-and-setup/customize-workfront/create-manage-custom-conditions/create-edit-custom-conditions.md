@@ -1,16 +1,16 @@
 ---
-title: Benutzerdefinierte Bedingung erstellen oder bearbeiten
+title: Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Als Adobe Workfront-Administrator können Sie eine benutzerdefinierte Bedingung für Projekte, Aufgaben und Probleme erstellen oder bearbeiten, um sie den Anforderungen Ihres Unternehmens anzupassen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 2%
 Als Adobe Workfront-Administrator können Sie eine benutzerdefinierte Bedingung für Projekte, Aufgaben und Probleme erstellen oder bearbeiten, um sie den Anforderungen Ihres Unternehmens anzupassen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,9 +44,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Benutzerdefinierte Bedingung erstellen oder bearbeiten
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **Projekteinstellungen** > **Bedingungen**.
 

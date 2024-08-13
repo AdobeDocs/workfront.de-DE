@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: access-levels
 title: Zugriff auf Objekte und Bereiche durch neue Lizenzen
 description: Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder Anzeigen), die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 18%

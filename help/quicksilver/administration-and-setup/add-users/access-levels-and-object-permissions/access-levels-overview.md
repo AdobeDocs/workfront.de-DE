@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: access,level,system,administrator,planer,worker,reviewer,requestor,external,user
 navigation-topic: access-levels
 description: Jeder Benutzer muss über eine Zugriffsstufe verfügen, um sich in Workfront anmelden und arbeiten zu können. Mit der Zugriffsebene können Sie steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und tun kann. Jede der sechs integrierten Zugriffsebenen ist an eine der fünf Workfront-Lizenzen angehängt, die Plan, Arbeit, Überprüfung, Anforderung und extern sind.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

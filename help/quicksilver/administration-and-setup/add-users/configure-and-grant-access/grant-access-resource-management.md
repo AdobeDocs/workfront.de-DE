@@ -1,16 +1,16 @@
 ---
-title: Zugriff auf Resource Management gewähren
+title: Zugriff auf die Ressourcenverwaltung gewähren
 user-type: administrator
 product-area: system-administration;resource-management
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-Administrator können Sie eine Zugriffsstufe verwenden, um den Zugriff eines Benutzers auf die Ressourcenverwaltung in Workfront zu definieren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 2%
 Als Adobe Workfront-Administrator können Sie mithilfe einer Zugriffsebene den Zugriff eines Benutzers auf die Ressourcenverwaltung definieren, wie in der Übersicht über die Zugriffsebenen [1} erläutert.](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -41,6 +43,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Benutzerzugriff auf Ressourcen-Management-Tools mithilfe einer benutzerdefinierten Zugriffsebene konfigurieren
 

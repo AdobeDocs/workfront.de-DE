@@ -1,13 +1,13 @@
 ---
-title: Gewähren eines vollen Administratorzugriffs
+title: Gewähren eines vollen Administratorzugriffs für einen Benutzer
 description: Sie können Benutzern uneingeschränkten Administratorzugriff auf Workfront gewähren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1579'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,8 @@ Als Adobe Workfront-Administrator können Sie einen anderen Workfront-Administra
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Vollständigen Systemadministratorzugriff für einen einzelnen Benutzer gewähren
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
+{{step-1-to-users}}
 
 1. Klicken Sie auf den Namen des Benutzers, dem Sie Administratorrechte gewähren möchten.
 1. Klicken Sie auf das Menü Mehr ![](assets/more-icon.png) und dann auf **Bearbeiten**.

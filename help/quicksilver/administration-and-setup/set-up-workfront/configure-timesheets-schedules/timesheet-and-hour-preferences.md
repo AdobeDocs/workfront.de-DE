@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Zeitblatt- und Stundenvoreinstellungen konfigurieren
+title: Konfigurieren der Voreinstellungen für das Datenblatt und die Stunde
 description: Als [!DNL Adobe Workfront] Administrator können Sie in [!DNL Workfront] Voreinstellungen für Timesheets und Stunden festlegen, um zu definieren, mit welchen Elementen die Timesheets vorbelegt werden können und zu welchen Elementen Benutzer die Zeit protokollieren können.
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Als [!DNL Adobe Workfront] -Administrator können Sie in [!DNL Workfront] Vorein
 >
 >Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md) und [Übersicht über das Timesheet](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
-
-
 Alle Änderungen, die Sie an Timesheets vornehmen, wirken sich auf alle in der Zukunft erstellten Timesheets aus.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -64,6 +64,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Festlegen von Zeitblatt- und Stundenvoreinstellungen
 

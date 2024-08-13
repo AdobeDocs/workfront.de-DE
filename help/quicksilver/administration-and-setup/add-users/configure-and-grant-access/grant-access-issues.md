@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf Probleme in Workfront zu definieren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um d
 Informationen zur Verwendung benutzerdefinierter Zugriffsebenen zur Verwaltung des Benutzerzugriffs auf andere Objekttypen in Workfront finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,6 +45,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Gewähren des Benutzerzugriffs auf Probleme mithilfe einer benutzerdefinierten Zugriffsebene
 

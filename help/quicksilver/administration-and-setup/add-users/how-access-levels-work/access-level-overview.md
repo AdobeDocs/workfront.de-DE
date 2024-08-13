@@ -1,16 +1,16 @@
 ---
-title: Übersicht über die neuen Zugriffsebenen
+title: Neue Übersicht über Zugriffsebenen
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,standard,light,contributor
 navigation-topic: access-levels
 description: Jeder Benutzer muss über eine Zugriffsstufe verfügen, um sich in Workfront anmelden und arbeiten zu können. Mit der Zugriffsebene können Sie steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und tun kann.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1745'
 ht-degree: 5%

@@ -1,16 +1,16 @@
 ---
-title: Benutzerdefinierte Bedingung als Standard für Aufgaben und Probleme festlegen
+title: Festlegen einer benutzerdefinierten Bedingung als Standard für Aufgaben und Probleme
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Wenn ein Benutzer auf Bearbeiten klickt oder einen Aktualisierungskommentar zu einer neuen Aufgabe hinzufügt, der er zugewiesen wurde (ohne manuell eine Bedingung für die Aufgabe festzulegen), zeigt Adobe Workfront die Standardbedingung für Aufgaben an, die in Einrichtung konfiguriert ist. Dasselbe gilt für Probleme.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Wenn ein Benutzer auf Bearbeiten klickt oder einen Aktualisierungskommentar zu e
 Workfront verwendet die integrierte Bedingung reibungslos als Standardbedingung für Aufgaben und separat für Probleme. Als Workfront-Administrator können Sie die Standardbedingung für beide Objekttypen in eine von Ihnen erstellte benutzerdefinierte Bedingung ändern.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,9 +46,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Legen Sie eine benutzerdefinierte Bedingung als Standardbedingung für Aufgaben oder Probleme fest:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **Projekteinstellungen** > **Bedingungen**.
 

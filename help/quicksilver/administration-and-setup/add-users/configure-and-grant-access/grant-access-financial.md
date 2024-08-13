@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-Administrator können Sie den Zugriff eines Benutzers auf Finanzdaten in Workfront über dessen Zugriffsstufe definieren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Als Adobe Workfront-Administrator können Sie den Zugriff eines Benutzers auf Fo
 * Ressourcenbudgeting-Informationen in den Tools für die Ressourcenplanung
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,6 +48,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Überlegungen zur Gewährung des Zugangs zu Finanzdaten
 

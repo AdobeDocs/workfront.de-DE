@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf Aufgaben in Workfront zu definieren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aafa8886-82e2-41c4-8fcb-cbb9df2d55dd
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um d
 Informationen zur Verwendung benutzerdefinierter Zugriffsebenen zur Verwaltung des Benutzerzugriffs auf andere Objekttypen in Workfront finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,6 +45,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Benutzerzugriff auf Aufgaben mit einer benutzerdefinierten Zugriffsebene konfigurieren
 

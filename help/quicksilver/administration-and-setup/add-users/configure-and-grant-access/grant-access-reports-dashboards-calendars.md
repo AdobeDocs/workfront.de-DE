@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;dashboards;calendars
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-Administrator können Sie eine Zugriffsstufe verwenden, um den Zugriff eines Benutzers auf Berichte, Dashboards und Kalender in Workfront zu definieren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 776bb223-3481-4ea9-8049-276b2dec95c5
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Dieser Zugriff umfasst auch den Zugriff auf externe Seiten. Weitere Informatione
 >Informationen zu Berechtigungen, die Benutzer für einen Bericht, ein Dashboard oder einen Kalender gewähren können, wenn sie ihn freigeben, finden Sie unter [Freigeben von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -50,6 +52,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Benutzerzugriff auf Berichte, Dashboards und Kalender mithilfe einer benutzerdefinierten Zugriffsebene konfigurieren
 

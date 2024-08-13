@@ -6,11 +6,11 @@ keywords: access,model,funnel,chart,levels,permissions
 navigation-topic: access-levels
 title: Integrierte Zugriffsebenen
 description: Jede der sechs aktuellen integrierten Zugriffsebenen wurde für einen bestimmten Benutzertyp entwickelt, einschließlich Systemadministrator, Planer, Worker, Reviewer, Anforderer und externer Benutzer. Mit diesen Zugriffsebenen können Sie steuern, welche Benutzer im System bearbeitet und angezeigt werden können. Wenn Sie eine benutzerdefinierte Zugriffsebene benötigen, können Sie eine integrierte Zugriffsebene kopieren und entsprechend der Zugriffsmenge ändern, die Sie benötigen, um sie für die verschiedenen Workfront-Objekttypen zuzulassen.
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 5%

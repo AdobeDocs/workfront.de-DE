@@ -1,13 +1,13 @@
 ---
 title: Zugriff auf den Szenario-Planer gewähren
 description: Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf den Szenario-Planer zu definieren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um d
 Zusätzlich zum Zugriff auf den Szenario-Planer muss ein Benutzer mit einer Nicht-Systemadministratorzugriffsstufe auch Zugriff auf Finanzdaten haben, um alle in einem Plan enthaltenen Finanzinformationen wie Budgets, Kosten und Rollen für den Arbeitsplatz sehen zu können. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -50,6 +52,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Benutzerzugriff auf den Szenario-Planer mit einer benutzerdefinierten Zugriffsebene konfigurieren
 

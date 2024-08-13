@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Wenn der Bedingungstyp eines Projekts auf Fortschrittsstatus anstelle von Manuell festgelegt ist, zeigt Adobe Workfront automatisch eine von drei integrierten Standardbedingungen für das Projekt (On Target, At Risk oder In Trouble) an, während es weitergeht, wie unter Übersicht über Projektbedingungen und Bedingungstyp beschrieben.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Wenn der Bedingungstyp eines Projekts auf Fortschrittsstatus anstelle von Manuel
 Sie können Ihre benutzerdefinierten Bedingungen als Standardbedingungen festlegen, anstatt diese drei integrierten Standardbedingungen zu verwenden. Sie können beispielsweise die Standardbedingung On Target ändern und in allen Projekten als Tracking Well anzeigen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,9 +48,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Legen Sie eine benutzerdefinierte Bedingung als Standardbedingung für alle Projekte fest:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **Projekteinstellungen** > **Bedingungen**.
 

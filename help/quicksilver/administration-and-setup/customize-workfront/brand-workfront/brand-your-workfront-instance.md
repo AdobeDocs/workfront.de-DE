@@ -1,16 +1,16 @@
 ---
-title: Markieren Sie Ihre Adobe Workfront-Instanz
+title: Markieren Ihrer Adobe Workfront-Instanz
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: Als Workfront-Administrator können Sie Workfront mit Logos auf dem Anmeldebildschirm, im oberen Navigationsbereich und im Hauptmenü markieren. Sie können auch das Hintergrundbild und die Farbe des Anmeldebildschirms ändern.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,8 @@ Sie können auch das Hintergrundbild und die Farbe des Anmeldebildschirms änder
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -78,9 +80,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Markieren des Anmeldebildschirms
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **System** > **Branding**.
 

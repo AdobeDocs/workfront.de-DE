@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-Administrator können Sie eine Zugriffsstufe verwenden, um den Zugriff eines Benutzers auf Workfront-Ziele zu definieren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als Adobe Workfront-Administrator können Sie mithilfe einer Zugriffsebene den Zugriff eines Benutzers auf Adobe Workfront-Ziele definieren, wie in der Übersicht über die Zugriffsebenen [1} erläutert.](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um Benutzern Zugriff auf Workfront-Ziele zu gewähren:
 
@@ -49,6 +51,8 @@ Sie müssen über Folgendes verfügen, um Benutzern Zugriff auf Workfront-Ziele 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welche Zugriffsebene Sie haben.
 
 Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
++++
 
 ## Gewähren des Benutzerzugriffs auf Workfront-Ziele mithilfe einer benutzerdefinierten Zugriffsebene
 

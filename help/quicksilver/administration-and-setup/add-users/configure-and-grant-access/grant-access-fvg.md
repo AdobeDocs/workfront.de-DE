@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-Administrator können Sie eine Zugriffsstufe verwenden, um den Zugriff eines Benutzers auf die Filter-, Anzeige- und Gruppierungssteuerelemente für Listen und Berichte zu definieren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '422'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um d
 Informationen zu den Steuerelementen für Filter, Ansicht und Gruppierung finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,6 +45,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Benutzerzugriff auf Filter, Ansichten und Gruppierungen mithilfe einer benutzerdefinierten Zugriffsebene konfigurieren
 

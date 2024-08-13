@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: Konfigurieren von Adobe Workfront mit SAML 2.0 mithilfe von ADFS
 description: Sie können die Authentifizierung für Workfront mit SAML 2.0 aktivieren.
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Als Adobe Workfront-Administrator können Sie Workfront mit einer SAML (Security
 Dieses Handbuch konzentriert sich auf die Einrichtung von ADFS ohne automatische Bereitstellung oder Attributzuordnungen. Wir empfehlen Ihnen, das Setup abzuschließen und es zu testen, bevor Sie eine automatische Bereitstellung einrichten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,6 +48,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Aktivieren der Authentifizierung für Workfront mit SAML 2.0
 
 Um die Authentifizierung für die Workfront-Webanwendung und die Workfront-Mobile App mit SAML 2.0 zu aktivieren, führen Sie die folgenden Abschnitte aus:
@@ -57,7 +61,8 @@ Um die Authentifizierung für die Workfront-Webanwendung und die Workfront-Mobil
 
 ### Abrufen der Workfront SSO-Metadatendatei {#retrieve-the-workfront-sso-metadata-file}
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
+
 1. Klicken Sie im linken Bereich auf **System** > **Single Sign-On (SSO)**.
 1. Klicken Sie im Dropdownmenü **Typ** auf **SAML 2.0** , um weitere Informationen und Optionen anzuzeigen.
 1. Kopieren Sie die URL, die nach **Metadaten-URL** angezeigt wird.

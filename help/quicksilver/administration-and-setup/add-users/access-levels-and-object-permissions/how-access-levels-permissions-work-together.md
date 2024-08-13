@@ -1,16 +1,16 @@
 ---
-title: Wie Zugriffsebenen und Berechtigungen zusammenarbeiten
+title: Funktionsweise von Zugriffsebenen und Berechtigungen
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,chart,levels,permissions
 navigation-topic: access-levels
 description: Der Adobe Workfront-Administrator legt fest, welche Zugriffsebene die einzelnen Benutzer haben sollen. Diese Zugriffsebene definiert, was Benutzer mit Objekttypen und -bereichen im System sehen und tun können.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 2%

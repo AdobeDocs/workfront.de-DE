@@ -1,18 +1,18 @@
 ---
-title: Deaktivieren Sie die Option für die automatische Aktualisierung für nicht bezahlte Benutzer im neuen Lizenzplan
+title: Deaktivieren Sie die Option für ein automatisches Upgrade für nicht bezahlte Benutzer im neuen Lizenzplan
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,standard,light,contributor
 navigation-topic: access-levels
 description: Jeder Benutzer muss über eine Zugriffsstufe verfügen, um sich in Workfront anmelden und arbeiten zu können. Mit der Zugriffsebene können Sie steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und tun kann.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '216'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Sie können die Option für die automatische Aktualisierung im Setup-Bereich dea
 >Nach der Deaktivierung wird jeder nicht bezahlte Benutzer, der die zugewiesene Anzahl von Entscheidungen überschreitet, nicht automatisch aktualisiert.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -51,6 +53,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Deaktivieren Sie automatische Upgrades für nicht bezahlte Benutzer.
 

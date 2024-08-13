@@ -1,16 +1,16 @@
 ---
-title: Erstellen eines Teams im Bereich "Einrichtung"
+title: Erstellen eines Teams aus dem Einrichtungsbereich
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
 description: Als Adobe Workfront-Administrator können Sie im Bereich "Einrichtung"ein Team erstellen.
-author: Caroline, Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '563'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,8 @@ Als Adobe Workfront-Administrator können Sie im Bereich &quot;Einrichtung&quot;
 >
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -48,9 +50,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Team erstellen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **Teams** und dann auf **Neues Team**.
 

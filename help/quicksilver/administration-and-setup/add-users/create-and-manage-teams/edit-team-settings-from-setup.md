@@ -1,13 +1,13 @@
 ---
-title: Bearbeiten Sie die Einstellungen eines Teams im Bereich "Einrichtung".
+title: Bearbeiten der Einstellungen eines Teams im Setup-Bereich
 description: Als Adobe Workfront-Administrator können Sie die Einstellungen eines Teams im Bereich Einrichtung bearbeiten. Sie können Benutzer zu einem Team hinzufügen, die Layoutvorlage eines Teams festlegen und festlegen, wie der Status aufgezeichnet wird, wenn Arbeitselemente von einem Team abgeschlossen werden.
-author: Caroline, Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '617'
 ht-degree: 3%
 
 ---
@@ -25,6 +25,8 @@ Weitere Informationen zu Teams finden Sie unter [Übersicht über Teams](../../.
 >
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,9 +49,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Team-Einstellungen bearbeiten
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Teams** .
 1. Wählen Sie ein Team aus und klicken Sie dann auf **Bearbeiten** ![](assets/edit-icon.png).

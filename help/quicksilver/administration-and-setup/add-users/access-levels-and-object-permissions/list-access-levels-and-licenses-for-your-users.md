@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: access,level,license
 navigation-topic: access-levels
 description: Sie können sehen, welche Zugriffsebene und welche Lizenz den einzelnen Benutzern in einer Benutzerliste oder einem Bericht zugewiesen ist.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 Sie können sehen, welche Zugriffsebene und welche Lizenz den einzelnen Benutzern in einer Benutzerliste oder einem Bericht zugewiesen ist.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -46,11 +48,13 @@ Sie müssen über Folgendes verfügen:
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
+
 ## Zugriffsebenen und Lizenzen Ihrer Benutzer auflisten
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer**.![](assets/main-menu-icon.png)
+{{step-1-to-users}}
 
-   Standardmäßig werden alle Benutzer, die als Aktiv festgelegt sind, in der Liste angezeigt.
+Standardmäßig werden alle Benutzer, die als Aktiv festgelegt sind, in der Liste angezeigt.
 
 1. Wählen Sie im Dropdownmenü **Ansicht** die Option **Lizenzen** aus.
 

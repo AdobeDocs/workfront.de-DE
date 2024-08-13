@@ -1,13 +1,13 @@
 ---
-title: Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren
+title: Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche
 description: Als Adobe Workfront-Administrator können Sie eine Zugriffsstufe verwenden, um Benutzern mit einer Planungslizenz Administratorzugriff auf bestimmte Systembereiche zu gewähren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsstufe verwenden, um B
 >Dies unterscheidet sich vom Gewähren des uneingeschränkten Administratorzugriffs für einen Benutzer auf Workfront, wie unter [Gewähren eines vollen Administratorzugriffs für einen Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) erläutert. &#x200B;
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -45,13 +47,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Gewähren Sie Benutzern von der Planung Administratorzugriff auf bestimmte Bereiche von Workfront
 
 >[!IMPORTANT]
 >
 >Wir empfehlen dringend, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie nach der Einrichtung Ihrer Benutzer darauf verweisen können. Um eine Zugriffsebene anzupassen, kopieren Sie die standardmäßige Zugriffsebene und ändern Sie die Kopie. (Sie können dies für jede Zugriffsstufe mit Ausnahme von &quot;Systemadministrator&quot;und &quot;Externer Benutzer&quot;tun.)
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Zugriffsebenen**.
 1. Klicken Sie auf den Namen der Zugriffsstufe, die Sie verwenden möchten, um Benutzern Administratorzugriff auf bestimmte Bereiche von Workfront zu gewähren.
