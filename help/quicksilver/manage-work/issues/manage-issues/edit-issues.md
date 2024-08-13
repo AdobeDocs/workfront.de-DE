@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Probleme bearbeiten
-description: Sie können Informationen zu Problemen bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie die Probleme für Sie freigegeben haben.
+description: Sie können Informationen zu Problemen bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie die Probleme für Sie freigegeben haben. In diesem Artikel wird beschrieben, wie Sie nach einem Problem suchen, es suchen und bearbeiten können, wenn Sie dazu berechtigt sind.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2508'
+source-wordcount: '2529'
 ht-degree: 2%
 
 ---

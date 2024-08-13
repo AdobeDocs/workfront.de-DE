@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2495'
 ht-degree: 1%
 
 ---
@@ -156,7 +156,6 @@ Sie können Folgendes verbinden:
 
    * Aus einem Planungsdatensatz in der Workfront-Planung
 
-
 ## Voraussetzungen für die Verknüpfung von Datensätzen
 
 Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgendes erforderlich:
@@ -181,7 +180,7 @@ Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgen
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
-1. Wählen Sie eine **Tabellenansicht** aus dem Dropdown-Menü **Ansicht** in der oberen rechten Ecke der Seite mit dem Datensatztyp aus.
+1. Klicken Sie auf den Namen einer Ansicht vom Typ **Tabelle** , um sie zu öffnen.
 1. (Optional) Fügen Sie dem ausgewählten Datensatztyp durch Hinzufügen einer neuen Zeile zur Tabelle Datensätze hinzu. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit einem anderen Datensatztyp verbunden haben, wechseln Sie zur verknüpften Datensatzspalte und doppelklicken Sie auf die Zelle, die dem Datensatz entspricht, den Sie mit anderen Datensätzen verknüpfen möchten.
 
@@ -191,9 +190,18 @@ Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgen
 
    * Klicken Sie in der Liste auf den Namen eines verbundenen Datensatzes, um ihn zum ausgewählten Datensatz hinzuzufügen. Der Datensatz wird automatisch hinzugefügt.
    * Geben Sie den Namen eines Datensatzes ein und klicken Sie darauf, wenn er in der Liste angezeigt wird. Der Datensatz wird automatisch hinzugefügt.
-   * Klicken Sie auf **Alle anzeigen** , um alle Datensätze anzuzeigen.
 
-1. (Bedingt) Wenn Sie im vorherigen Schritt auf **Alle auswählen** geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
+   <!--1. (Optional) If you cannot find a record to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records by connecting them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+   >[!TIP]
+   >
+   >    Sie können die Seite eines Datensatzes öffnen, indem Sie auf den Namen des Datensatzes klicken, das verknüpfte Datensatzfeld suchen und auf das Feld doppelklicken (wenn bereits Datensätze verbunden sind) oder auf **Datensätze verbinden** klicken (wenn das Feld leer ist), um Datensätze aus dem verbundenen Datensatz oder Objekttyp hinzuzufügen.
+   >
+   >![](assets/connect-records-from-record-page-field.png)
+
+1. (Optional) Klicken Sie auf **Alle anzeigen** , um alle Datensätze anzuzeigen.
+
+1. (Bedingt) Wenn Sie im vorherigen Schritt auf &quot;**See all**&quot;geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -201,17 +209,11 @@ Um Datensätze mit anderen Datensätzen oder Objekten zu verknüpfen, ist Folgen
 
    Oder
 
-   Wählen Sie den Namen eines oder mehrerer Datensätze im Feld aus und klicken Sie dann oben rechts im Feld &quot;Objekte verbinden&quot;auf **Objekte verbinden** .
-
-   >[!TIP]
-   >
-   >    Sie können die Seite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das verbundene Feld klicken (wenn bereits Datensätze verbunden sind) oder auf **Datensätze verbinden** (wenn das Feld leer ist) klicken, um Datensätze aus dem verbundenen Datensatz oder Objekttyp hinzuzufügen.
-   >
-   >![](assets/connect-records-from-record-page-field.png)
+   Wählen Sie den Namen eines oder mehrerer Datensätze im Feld aus und klicken Sie dann auf **Objekte verbinden**.
 
    Folgendes wird hinzugefügt:
 
-   * Die verknüpften Datensätze werden im verknüpften Datensatzfeld des Datensatzes angezeigt, den Sie in Schritt 6 ausgewählt haben. <!--accurate?-->
+   * Die verknüpften Datensätze werden im verknüpften Datensatzfeld des Datensatzes angezeigt, den Sie in einem vorherigen Schritt ausgewählt haben.
    * Die verknüpften Felder werden mit den Informationen aus den verknüpften Datensätzen ausgefüllt, wenn Sie verknüpfte Suchfelder hinzugefügt haben, als Sie die Datensatztypen verbunden haben.
 
    Durch die Aktualisierung der verknüpften Datensätze werden die verknüpften Felder für die Datensätze aktualisiert, von denen Sie automatisch eine Verknüpfung herstellen. Verknüpfte Felder können nicht manuell bearbeitet werden.
@@ -259,7 +261,12 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
    * Klicken Sie in der Liste auf ein Objekt, um es dem ausgewählten Datensatz hinzuzufügen. Objekte werden alphabetisch aufgelistet. Das Objekt wird automatisch hinzugefügt.
    * Geben Sie den Namen eines Objekts ein und klicken Sie darauf, wenn es in der Liste angezeigt wird. Das Objekt wird automatisch hinzugefügt.
-   * Klicken Sie auf &quot;**See all**&quot;, um alle Objekte anzuzeigen, für die Sie mindestens über die Berechtigung zum Anzeigen verfügen.
+
+   >[!TIP]
+   >
+   >Sie können die Seite eines Datensatzes in der Ansicht öffnen, auf das verknüpfte Datensatzfeld doppelklicken oder im Feld auf **Verbinden** klicken, um Objekte aus dem verbundenen Objekttyp hinzuzufügen.
+
+1. (Optional) Klicken Sie auf &quot;**See all**&quot;, um alle Objekte anzuzeigen, für die Sie mindestens über die Berechtigung zum Anzeigen verfügen.
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt auf &quot;**See all**&quot;geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
 
@@ -269,7 +276,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
    Oder
 
-   Wählen Sie den Namen eines oder mehrerer Objekte im Feld aus und klicken Sie dann oben rechts im Feld &quot;Objekte verbinden&quot;auf **Objekte verbinden** .
+   Wählen Sie den Namen eines oder mehrerer Objekte im Feld aus und klicken Sie dann auf **Objekte verbinden**.
 
    >[!IMPORTANT]
    >
@@ -281,10 +288,6 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
    * Die ausgewählten Workfront-Objekte werden dem verknüpften Datensatzfeld hinzugefügt.
    * Wenn Sie sie bei der Verbindung des Datensatztyps mit Workfront hinzugefügt haben, werden die verknüpften Felder (oder die Suchfelder) der Workfront-Objekte automatisch mit Informationen aus Workfront gefüllt.
-
-   >[!TIP]
-   >
-   >Sie können die Seite eines Datensatzes öffnen, das verknüpfte Datensatzfeld suchen und auf das Symbol **+** im Feld klicken, um Objekte aus dem verbundenen Objekttyp hinzuzufügen.
 
    Weitere Informationen zum Verbinden von Datensatztypen mit Objekten aus einer anderen Anwendung finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 

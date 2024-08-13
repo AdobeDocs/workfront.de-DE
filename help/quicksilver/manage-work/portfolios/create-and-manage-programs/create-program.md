@@ -2,13 +2,13 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Programm erstellen
-description: Ein Programm stellt eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben, die über Projektgrenzen hinausgehen. Programme können nicht außerhalb eines Portfolios existieren.
+description: Ein Programm stellt eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben, die über Projektgrenzen hinausgehen. Programme sind eine Unterteilung von Portfolios und können nicht außerhalb eines Portfolios existieren. Programme teilen in der Regel dieselben Ressourcen wie andere Programme innerhalb desselben Portfolios. Sie können Programme erstellen, um Ihre Portfolios zu organisieren, wenn sie zu groß werden.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,12 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-Ein Programm stellt eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben, die über Projektgrenzen hinausgehen. Programme können nicht außerhalb eines Portfolios existieren.
+Ein Programm stellt eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben, die über Projektgrenzen hinausgehen.
+Programme sind eine Unterteilung von Portfolios und können nicht außerhalb eines Portfolios existieren. Programme teilen in der Regel dieselben Ressourcen wie andere Programme innerhalb desselben Portfolios.
+
+Sie können Programme erstellen, um Ihre Portfolios zu organisieren, wenn sie zu groß werden.
+
+Sie können beispielsweise über ein Portfolio für das Geschäftsjahr 2024 verfügen, das alle Projekte Ihrer Marketingabteilung enthält. Möglicherweise möchten Sie im Portfolio Marketing Fiscal Year 2024 eine weitere Organisation Ihrer Projekte in Geschäftsquartale in Erwägung ziehen und Marketingprogramme für das Geschäftsjahr 1-4 2024 hinzufügen.
 
 ## Zugriffsanforderungen
 

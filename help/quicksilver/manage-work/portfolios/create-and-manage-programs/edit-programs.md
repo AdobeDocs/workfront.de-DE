@@ -1,14 +1,14 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: Bearbeiten von Programmen
-description: Sie können Informationen zu Programmen bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie sie für Sie freigegeben haben.
+title: Programme bearbeiten
+description: Sie können Informationen zu Programmen bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie sie für Sie freigegeben haben. In diesem Artikel wird beschrieben, wie Sie nach einem Programm suchen, es suchen und bearbeiten können, wenn Sie dazu berechtigt sind.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
-1. Fügen Sie im Feld **[!UICONTROL Post einen Kommentar hinzu und aktualisieren Sie das Programmfeld]**.
+1. Fügen Sie im Feld **[!UICONTROL Veröffentlichen Sie eine Aktualisierung des Programms]** einen Kommentar hinzu.
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Personen]** , um dem Kommentar einen Benutzer oder ein Team hinzuzufügen.
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Sperren]** , um den Kommentar zu sperren und ihn nur für Benutzer in Ihrem Unternehmen privat zu machen.
 

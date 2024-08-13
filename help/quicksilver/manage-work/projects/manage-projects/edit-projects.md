@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Projekte bearbeiten
-description: Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten. Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Planungsstatus befindet.
+description: Sie können ein Projekt in Adobe Workfront beliebig oft bearbeiten. Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Planungsstatus befindet. In diesem Artikel wird beschrieben, wie Sie nach einem Projekt suchen, es suchen und bearbeiten können, wenn Sie dazu berechtigt sind.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '7513'
+source-wordcount: '7534'
 ht-degree: 1%
 
 ---

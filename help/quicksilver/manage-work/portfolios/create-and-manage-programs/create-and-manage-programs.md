@@ -2,22 +2,23 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: Programme erstellen und verwalten
-description: Programme stellen eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben, das über Projektgrenzen hinausgeht. Programme können nicht außerhalb eines Portfolios existieren.
+title: Erstellen und Verwalten von Programmen
+description: Programme stellen eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben, das über Projektgrenzen hinausgeht. Programme sind eine Unterteilung von Portfolios und können nicht außerhalb eines Portfolios existieren.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # Programme erstellen und verwalten
 
-Programme stellen eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben, das über Projektgrenzen hinausgeht. Programme können nicht außerhalb eines Portfolios existieren.
+Programme stellen eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben, das über Projektgrenzen hinausgeht.
+Programme sind eine Unterteilung von Portfolios und können nicht außerhalb eines Portfolios existieren.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

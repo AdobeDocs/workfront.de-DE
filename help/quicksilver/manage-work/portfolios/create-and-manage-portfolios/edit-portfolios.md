@@ -1,14 +1,14 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Bearbeiten von Portfolios
-description: Sie können Informationen zu Portfolios bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie sie für Sie freigegeben haben.
+title: Portfolios bearbeiten
+description: Sie können Informationen zu Portfolios bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie sie für Sie freigegeben haben. In diesem Artikel wird beschrieben, wie Sie ein Portfolio suchen, suchen und bearbeiten können, wenn Sie dazu über entsprechende Berechtigungen verfügen.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
