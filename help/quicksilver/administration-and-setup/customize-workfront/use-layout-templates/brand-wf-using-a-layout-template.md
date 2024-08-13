@@ -1,5 +1,5 @@
 ---
-title: Brand Adobe Workfront mit einer Layoutvorlage
+title: Brand Adobe Workfront mithilfe einer Layoutvorlage
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Weitere Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Brand Adobe Workfront mit einer Layoutvorlage
 

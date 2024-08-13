@@ -1,5 +1,5 @@
 ---
-title: Benutzeroberflächenterminologie mithilfe einer Layoutvorlage anpassen
+title: Benutzeroberflächen-Terminologie mithilfe einer Layoutvorlage anpassen
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,8 @@ Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuw
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -66,6 +68,8 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Terminologie der Benutzeroberfläche anpassen
 

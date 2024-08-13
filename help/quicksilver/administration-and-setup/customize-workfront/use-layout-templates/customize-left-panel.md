@@ -1,5 +1,5 @@
 ---
-title: Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage
+title: Anpassen des linken Bereichs mithilfe einer Layout-Vorlage
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuw
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -55,6 +57,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Anpassen des linken Bereichs für einen Bereich in [!DNL Workfront]:
 

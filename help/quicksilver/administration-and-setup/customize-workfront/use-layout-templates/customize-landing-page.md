@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuw
 >Wenn Anforderungen als Landingpage festgelegt ist, sehen Mitarbeiter- oder Anforderer-Benutzer, die der Layoutvorlage zugewiesen sind, stattdessen die Startseite als Landingpage. Es wird empfohlen, eine andere Landingpage als &quot;Anforderungen für Layoutvorlagen für Mitarbeiter- oder Anforderer-Benutzer&quot;auszuwählen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -52,6 +54,8 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Landingpage anpassen
 

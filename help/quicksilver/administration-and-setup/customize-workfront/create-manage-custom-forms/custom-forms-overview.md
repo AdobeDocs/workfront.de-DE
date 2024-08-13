@@ -1,5 +1,5 @@
 ---
-title: Übersicht über benutzerdefinierte Formulare
+title: Übersicht über benutzerdefinierte Forms
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 10%
+source-wordcount: '441'
+ht-degree: 9%
 
 ---
 
 # Übersicht über benutzerdefinierte Formulare
 
 <!--Audited: 12/2023-->
+
+{{highlighted-preview}}
 
 {{form-designer-default}}
 
@@ -30,6 +32,8 @@ Sie können beispielsweise ein benutzerdefiniertes Formular mit dem Namen &quot;
 ## Erstellen eines benutzerdefinierten Formulars
 
 Der Formularentwickler verfügt über einen Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können. Außerdem können Sie Felder in die Abschnitte ziehen, während Sie Ihr Formular entwerfen. Sie können die Größe der rechten Seite des Bildschirms ändern, um mehr Platz für die Feldoptionen bereitzustellen.
+
+Mit der Schaltfläche <span class="preview">Layout **(in diesem Bild nicht angezeigt) können Sie aus einem zweispaltigen oder dreiseitigen Arbeitsbereich wählen.** Die Schaltfläche gibt an, welches Layout derzeit ausgewählt ist. Das dreiseitige Layout zeigt die Feldeinstellungen in der Spalte ganz rechts an. Im zweispaltigen Layout werden die Feldeinstellungen in der linken Spalte neben der Feldbibliothek angezeigt.</span>
 
 Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
