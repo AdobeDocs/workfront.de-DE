@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 2%
 
 ---
@@ -136,11 +136,11 @@ Informationen zu Datensatztypen finden Sie unter [Übersicht über Datensatztype
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie den Mauszeiger über die Karte vom Typ Datensatz, klicken Sie auf das Menü Mehr und dann auf **Löschen**.
+   * Bewegen Sie den Mauszeiger über die Karte des Datensatztyps, klicken Sie auf das Menü **Mehr** und dann auf **Löschen**.
    * Klicken Sie auf die Karte für den zu löschenden Datensatztyp und klicken Sie auf der Seite &quot;Record Type&quot;auf das Menü **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie dann auf **Löschen**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
 1. Geben Sie **delete** in das Bestätigungsfeld ein und klicken Sie dann auf **Dauerhaft löschen**. Dabei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-   Der ausgewählte Datensatztyp sowie die zugehörigen Felder, Datensätze und Ansichten werden gelöscht.
+   Der ausgewählte Datensatztyp sowie die zugehörigen Felder, Datensätze und Ansichten werden gelöscht und können nicht wiederhergestellt werden.

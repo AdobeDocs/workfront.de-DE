@@ -1,13 +1,13 @@
 ---
-title: Übersicht über die Verbindungstypen
+title: Übersicht über Verbindungstypen
 description: Eine Möglichkeit, anzugeben, wie sich einzelne Datensatztypen zueinander verhalten, besteht darin, sie miteinander zu verbinden. Außerdem können Sie Adobe Workfront Planning-Record-Typen mit Objekttypen aus anderen Anwendungen verbinden, um das Benutzererlebnis zu verbessern und den Fokus in einer Anwendung zu behalten.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 0%
+source-wordcount: '1086'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Sie können angeben, dass einzelne Datensatztypen miteinander oder mit Objekten aus anderen Anwendungen in Beziehung stehen, indem Sie sie verbinden.
 
-Dieser Artikel gibt einen Überblick darüber, wie sich Datensätze verbinden, und beschreibt die Verbindungstypen, die Sie zwischen Datensätzen und Objekttypen herstellen können.
+In diesem Artikel wird eine Übersicht über Verbindungen vom Typ Datensatz beschrieben und beschrieben, welche Verbindungstypen zwischen Datensätzen und Objekttypen hergestellt werden können.
 
 Weitere Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -29,9 +29,9 @@ Weitere Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbind
 
 * Sie können die folgenden Entitäten in der Adobe Workfront-Planung verbinden:
 
-   * Zwei Datensatztypen
+   * Zwei Datensatztypen.
 
-     Die Datensatztypen müssen zum selben Arbeitsbereich gehören.
+     Standardmäßig können Sie zwei Datensatztypen aus demselben Arbeitsbereich verbinden. Sie können auch Datensatztypen einrichten, um über andere Arbeitsbereiche eine Verbindung mit Datensatztypen herzustellen.
    * Ein Datensatztyp und ein Objekttyp aus einer anderen Anwendung.
 
 * Sie können die Workfront Planning-Datensatztypen mit den folgenden Objekttypen aus den folgenden Anwendungen verbinden:
@@ -70,38 +70,51 @@ Weitere Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbind
       * Über Workfront-Objekte ist der Zugriff auf die Felder für die Planung von Datensätzen nicht möglich.
       * Die Planung von Datensatzfeldern ist über Experience Manager-Assets verfügbar, wenn der Workfront-Administrator die Metadaten-Zuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-   * **Wenn Sie verknüpfte (oder Nachschlagefelder) Felder aus dem Datensatz oder Objekt hinzufügen, mit dem Sie eine Verbindung herstellen, wird ein verknüpftes (oder Nachschlagefeld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, in dem Datensatz angezeigt, von dem Sie eine Verbindung herstellen.**
+   * **Wenn Sie verknüpfte (oder Nachschlagefelder) Felder aus dem Datensatz oder Objekt hinzufügen, mit dem Sie eine Verbindung herstellen,**: Zusätzlich zur Erstellung eines verknüpften Datensatzfelds können Sie auch eine Verbindung zu Feldern des verbundenen Datensatzes oder Objekttyps herstellen, die als Nachschlagefelder bezeichnet werden. Ein verknüpftes (oder Lookup-Feld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, wird auf dem Datensatz angezeigt, von dem Sie eine Verbindung herstellen.
 
      Sie können Felder von anderen Datensatztypen oder von Objekten einer anderen Anwendung mit dem Datensatztyp für die Workfront-Planung verbinden.
 
      Verknüpfte Felder sind schreibgeschützt und zeigen automatisch Informationen aus verbundenen Datensätzen oder Objekten an, wenn Sie die Datensätze oder Objekte verbinden.
 
+     Sie können in Formeln, Filtern oder Gruppierungen auf Suchfelder aus anderen Datensätzen oder Objektarten verweisen.
+
      Wenn Sie beispielsweise den Datensatztyp &quot;Kampagne&quot;mit einem Workfront-Projekt verbinden und das Feld &quot;Geplantes Abschlussdatum&quot;des Projekts in den Workfront-Planungsdatensatz übertragen möchten, wird automatisch ein verknüpftes Feld namens &quot;Geplantes Abschlussdatum&quot;(aus Projekt) für die Kampagne erstellt. Sie können dieses verknüpfte Feld nicht manuell bearbeiten. Im Feld Geplantes Abschlussdatum (aus Projekt) wird das geplante Abschlussdatum der verknüpften Projekte angezeigt.
 
      >[!IMPORTANT]
      >
-     >Jeder Benutzer mit der Berechtigung Anzeigen oder höher für den Arbeitsbereich kann die Informationen in den verknüpften Feldern anzeigen, unabhängig von seinen Berechtigungen oder Zugriffsrechten in der Anwendung der verknüpften Objekttypen.
+     >Jeder Benutzer mit der Berechtigung Anzeigen oder höher für den Arbeitsbereich kann die Informationen in den Suchfeldern anzeigen, unabhängig von seinen Berechtigungen oder Zugriffsrechten in der Anwendung der verknüpften Objektarten <!--or their permissions in other workspaces-->.
+
+<!--see the commented out text above for the release of cross-workspace connections-->
 
 * Verknüpfte Datensatzfelder erhalten das Beziehungssymbol ![](assets/relationship-field-icon.png).
 
   Verknüpfte Felder erhalten ein Symbol, das den Feldtyp identifiziert. Verknüpfte (oder Lookup-) Felder weisen beispielsweise Symbole darauf hin, dass es sich bei einem Feld um eine Zahl, einen Absatz oder ein Datum handelt.
 
-* Suchfelder wird ein Symbol vorangestellt, das den Typ der im Feld angezeigten Informationen angibt.
 
 ## Verbindungstypen
 
 Nachdem Sie eine Verbindung zwischen zwei Datensatztypen oder zwischen einem Datensatz und einem Objekttyp aus einer anderen Anwendung hergestellt haben, können Sie in den verbundenen Datensatzfeldern Datensätze hinzufügen.
 
-Je nachdem, wie viele Datensätze Sie einer Verbindung hinzufügen können, stehen Ihnen beim Verbinden von Datensatztypen folgende Verbindungstypen zur Verfügung:
+Je nachdem, wie viele Datensätze Sie einem verbundenen Datensatzfeld hinzufügen können, stehen Ihnen beim Verbinden von Datensatztypen folgende Verbindungstypen zur Verfügung:
 
-* [Eins bis viele](#one-to-many-connection-type)
-* [Eins bis eins](#many-to-one-connection-type)
-* [Viele bis eins](#many-to-one-connection-type)
-* [Viele bis viele](#many-to-many-connection-type)
+* [Eins-zu-viele](#one-to-many-connection-type)
+* [Eins-zu-eins](#many-to-one-connection-type)
+* [Viele-zu-eins](#many-to-one-connection-type)
+* [Viele-zu-viele](#many-to-many-connection-type)
+
+>[!WARNING]
+>
+>Diese Optionen sind beim Verbinden der folgenden Elemente nicht verfügbar:
+>* Zwei Datensätze aus verschiedenen Arbeitsbereichen
+>
+>* Einen Datensatztyp und AEM Assets
+
 
 <!-- add screen shots for each type of connection below-->
 
 ### Eins-zu-viele-Verbindungstyp
+
+![](assets/one-to-many-connection-picker.png)
 
 Wenn Sie den 1:n-Verbindungstyp zwischen Datensatztypen auswählen, können Sie später einen Datensatz mit mehreren Datensätzen verbinden, mit denen Sie eine Verbindung herstellen möchten.
 
@@ -111,6 +124,8 @@ Wenn Sie diesen Verbindungstyp auswählen, können Sie ihn später nur in einen 
 
 ### Eins-zu-Eins-Verbindungstyp
 
+![](assets/one-to-one-connection-picker.png)
+
 Wenn Sie den Eins-zu-Eins-Verbindungstyp zwischen Datensätzen auswählen, können Sie später einen Datensatz mit einem anderen Datensatz verbinden, mit dem Sie eine Verbindung herstellen.
 
 Wenn Sie beispielsweise Kampagnen mit Projekten verbinden, können Sie eine Kampagne mit einem Projekt verbinden. Ein Projekt kann nur mit einer Kampagne verbunden werden.
@@ -118,6 +133,8 @@ Wenn Sie beispielsweise Kampagnen mit Projekten verbinden, können Sie eine Kamp
 Wenn Sie diesen Verbindungstyp auswählen, können Sie ihn später in einen anderen Verbindungstyp ändern.
 
 ### Viele-zu-eins-Verbindungstyp
+
+![](assets/many-to-one-connection-picker.png)
 
 Wenn Sie zwischen den Datensatztypen den Verbindungstyp n:1 auswählen, können Sie später viele Datensätze mit nur einem Datensatz verbinden, mit dem Sie eine Verbindung herstellen.
 
@@ -127,8 +144,11 @@ Wenn Sie diesen Verbindungstyp auswählen, können Sie ihn später nur in einen 
 
 ### Viele-zu-viele-Verbindungstyp
 
+![](assets/many-to-many-connection-picker.png)
+
 Wenn Sie den Verbindungstyp Viele-zu-viele zwischen Datensätzen auswählen, können Sie später viele Datensätze mit mehreren Datensätzen verbinden, mit denen Sie eine Verbindung herstellen möchten.
 
 Wenn Sie beispielsweise Kampagnen mit Projekten verbinden, können Sie mehrere Kampagnen mit mehreren Projekten verbinden. Sie können auch mehrere Projekte mit mehreren Kampagnen verbinden.
 
 Wenn Sie diesen Verbindungstyp auswählen, können Sie den Verbindungstyp nach dem Speichern nicht mehr ändern.
+

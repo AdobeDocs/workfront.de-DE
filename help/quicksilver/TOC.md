@@ -3,10 +3,10 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '14309'
-ht-degree: 1%
+source-wordcount: '14317'
+ht-degree: 2%
 
 ---
 
@@ -440,7 +440,7 @@ ht-degree: 1%
    * Erste Schritte mit Administration {#get-started-administration}
       * [Erste Schritte mit Administration: Artikelindex](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Übersicht über die Definition von Zielen für Ihre Adobe Workfront-Implementierung](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
-      * [Verwalten der verfügbaren Lizenzen in Ihrem System](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+      * [Verfügbare Lizenzen im System verwalten](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [Grundlagen konfigurieren](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
       * [Firewall-Übersicht](administration-and-setup/get-started-wf-administration/firewall-overview.md)
       * [Konfigurieren der Firewall-Zulassungsliste](administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
@@ -465,7 +465,7 @@ ht-degree: 1%
          * [Neuberechnungen der Projektzeitleiste](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Benutzerdefinierte Quartale für Projekte](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-         * [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
+         * [Geschäftsregeln erstellen und bearbeiten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Orte konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * Konfigurieren von Zeitplänen und Timesheet-Voreinstellungen {#configure-timesheets-schedules}
@@ -473,7 +473,7 @@ ht-degree: 1%
          * [Zeitpläne - Übersicht](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
          * [Konfigurieren von Protokollzeittypen](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
          * [Voreinstellungen für das Datenblatt und die Stunde](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-         * [Verwalten von Stundentypen](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
+         * [Stundentypen verwalten](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
          * [Zeitplan erstellen](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * Organisations-Setup {#organization-setup}
          * [Organisatorische Einrichtung](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
@@ -486,8 +486,8 @@ ht-degree: 1%
          * [Deaktivieren von Vorgangsrollen](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [Außerkraftsetzen der Abrechnungsraten für Stellenangebote](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
       * Vom System verfolgte Update-Feeds {#system-tracked-updates}
-         * [Vom System getrackte Aktualisierungen](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-         * [Vom System getrackte Aktualisierungen](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+         * [Systemverfolgte Aktualisierungen](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+         * [Systemverfolgte Aktualisierungen](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [Systemaktualisierungen konfigurieren](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [Voreinstellungen für Benutzeraktualisierungen konfigurieren](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
       * Adobe Workfront-Testumgebungen {#testing-environments}
@@ -562,7 +562,7 @@ ht-degree: 1%
       * Single Sign-on in Workfront {#sso}
          * [Single Sign-on: Artikelindex](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Übersicht über Single Sign-on](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-         * [Benutzer für Single Sign-on aktualisieren](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+         * [Benutzende für Single Sign-on aktualisieren](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [Konfigurieren von Workfront mit SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
          * [Aktualisierung der SAML 2.0-Metadaten im Identitäts-Provider](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
          * [Konfigurieren von Adobe Workfront mit SAML 2.0 mithilfe von ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
@@ -581,7 +581,7 @@ ht-degree: 1%
       * Layout-Vorlagen {#layout-templates}
          * [Layout-Vorlagen](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [Standard-Workfront-Layout](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-         * [Erstellen und Verwalten von Layoutvorlagen](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
+         * [Layout-Vorlagen erstellen und verwalten](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
          * [Hauptmenü anpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
          * [Objektüberschriften mithilfe einer Layoutvorlage anpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [Anpassen des linken Bedienfelds](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
@@ -633,13 +633,13 @@ ht-degree: 1%
          * [Alle Aufgabenstatus auflisten](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
          * [Aufgabenstatus](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
          * [Status von Listenproblemen](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
-         * [Erstellen oder Bearbeiten eines Status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
+         * [Status erstellen oder bearbeiten](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
          * [Anzeigereihenfolge von Status ändern](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)
          * [Status auf Systemebene gesperrt und entsperrt](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
          * [Benutzerdefinierte Status als Standardstatus festlegen](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
          * [Benutzerdefinierten Status löschen](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
          * [Auflisten ausstehender Objekte mit einem bestimmten Status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
-         * [Erstellen und Anpassen von Prioritäten](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
+         * [Prioritäten erstellen und anpassen](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
          * [Erstellen und Anpassen von Problemschwerpunkten](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
       * Genehmigungsprozesse und Meilensteinseiten {#approvals-milestones}
          * [Genehmigungsprozesse und Meilensteinpfade](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
@@ -695,7 +695,7 @@ ht-degree: 1%
          * [Workfront-Zugriff auf IP-Adressen begrenzen](administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
          * [Dateiverschlüsselung](administration-and-setup/manage-workfront/security/file-encryption.md)
          * [Ändern der Workfront-Domäne](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
-         * [Verwalten von API-Schlüsseln](administration-and-setup/manage-workfront/security/manage-api-keys.md)
+         * [API-Schlüssel verwalten](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [Datenschutzrichtlinie](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [Verbesserte Authentifizierung - Übersicht](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
          * [SAML 2.0-Metadaten in Ihrem IDP bei Verwendung der erweiterten Authentifizierung aktualisieren](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
@@ -795,7 +795,7 @@ ht-degree: 1%
       * [Erstellen von Adobe Workfront-Creative Cloud-Paketen für Ihre Benutzer in Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Anzeigen und Verwalten benutzerdefinierter OAuth2-Anwendungen](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
-      * [Konfigurieren der JumpSeat-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
+      * [JumpSeat-Integration konfigurieren](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
    * Blueprints {#blueprints}
       * [Blueprints](administration-and-setup/blueprints/blueprints.md)
       * [Blueprints - Übersicht](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1485,7 +1485,7 @@ ht-degree: 1%
    * [Teams und Gruppen](people-teams-and-groups/people-teams-and-groups.md)
    * Teams erstellen und verwalten {#create-manage-teams}
       * [Erstellen und Verwalten von Teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
-      * [Teams - Übersicht](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
+      * [Teams-Überblick](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
       * [Team erstellen](people-teams-and-groups/create-and-manage-teams/create-a-team.md)
       * [Erstellen und Verwalten von Agile-Teams](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
       * [Team-Einstellungen bearbeiten](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
@@ -1753,7 +1753,7 @@ ht-degree: 1%
       * [Erforderlicher Zugriff auf Budgetressourcen in Adobe Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [Übersicht über den Ressourcenplaner](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [Suchen Sie den Ressourcen-Planer .](resource-mgmt/resource-planning/locate-resource-planner.md)
-      * [Navigationsübersicht über den Ressourcenplaner](resource-mgmt/resource-planning/resource-planner-navigation.md)
+      * [Übersicht über die Navigation im Ressourcenplaner](resource-mgmt/resource-planning/resource-planner-navigation.md)
       * [Überprüfen der Ressourcenverfügbarkeit und -zuordnung mithilfe des Adobe Workfront Resource Planner](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
       * [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
       * [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
@@ -1943,7 +1943,7 @@ ht-degree: 1%
       * [Übersicht über das Datenblatt](timesheets/timesheets/timesheet-layout.md)
    * Erstellen und Verwalten von Timesheets {#create-and-manage-timesheets-in-adobe-workfront}
       * [Erstellen und Verwalten von Timesheets: Artikelindex](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-      * [Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
+      * [Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Definieren von Stundentypen und Verfügbarkeit](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Erstellen eines Datenblatts für die einmalige Verwendung](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [Timesheet-Informationen bearbeiten](timesheets/create-and-manage-timesheets/edit-timesheets.md)
@@ -2039,11 +2039,13 @@ ht-degree: 1%
       * [Allgemeine Informationen zur Adobe Workfront-Planung: Artikelindex](planning/general/planning-general-article-index.md)
       * [Übersicht über die Adobe Workfront-Planung](planning/general/planning-overview.md)
       * [Grundlagen der Adobe Workfront-Planungs-API](planning/general/planning-api-basics.md)
+      * [Übersicht über die Objektbeschränkungen für Adobe Workfront Planung](planning/general/limitations-overview.md)
       * [Übersicht über den Adobe Workfront Planning AI Assistant](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront Planung der aktuellen Release-Aktivität](planning/general/release-activity.md)
       * [Archive der Adobe Workfront-Release-Aktivitäten für 2023](planning/general/release-activity-archives-2023.md)
    * Adobe Workfront-Planungsarchitektur {#adobe-workfront-planning-architecture}
       * [Architektur: Artikelindex](planning/architecture/architecture-information.md)
+      * [Arbeitsbereiche - Übersicht](planning/architecture/workspaces-overview.md)
       * [Erstellen von Arbeitsbereichen](planning/architecture/create-workspaces.md)
       * [Übersicht über Datensatztypen](planning/architecture/overview-of-record-types.md)
       * [Erstellen von Datensatztypen](planning/architecture/create-record-types.md)

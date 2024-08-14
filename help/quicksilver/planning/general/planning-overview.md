@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1836'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,8 @@ Weitere Informationen zum Gewähren von Zugriff auf und zum Aktivieren anderer B
 Workfront Planning ist zwar Teil von Workfront, enthält jedoch proprietäre Konzepte und Terminologie. Stellen Sie sicher, dass Sie mit den neuen Konzepten vertraut sind, bevor Sie mit der Einrichtung der Workfront-Planung für Ihr Unternehmen beginnen.
 
 Das Framework für die Workfront-Planung ist vollständig anpassbar. Sie können alle Datensatztypen, ihre Attribute und alle mit ihnen verknüpften Felder entsprechend den Anforderungen Ihrer Organisation erstellen.
+
+Es gibt Einschränkungen dafür, wie viele Workfront Planning-Objekte Sie erstellen können. Weitere Informationen finden Sie unter [Übersicht über die Objektbeschränkungen bei der Adobe Workfront-Planung](/help/quicksilver/planning/general/limitations-overview.md).
 
 Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planung:
 
@@ -252,34 +254,6 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
 
 Weitere Informationen finden Sie unter [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md).
-
-
-## Adobe Workfront Planning - Objektbeschränkungen
-
-Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die Sie in der Workfront-Planung erstellen können. Die Einschränkungen können sich ändern, wenn wir in die nächsten Entwicklungsphasen eintreten.
-
-<!--consider making the table view a stand-alone article when we go to GA-->
-
-| Adobe Workfront Planning-Objekt | Limit |
-|-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Anzahl der Arbeitsbereiche für eine Workfront-Instanz | 1.000 |
-| Anzahl der Abschnitte für einen Arbeitsbereich | 50 |
-| Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Datensatztypen aus allen Abschnitten und solche, die bei Verwendung einer Workspace-Vorlage erstellt werden) |
-| Datensatzanzahl für einen Datensatztyp | 50.000 |
-| Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
-| Anzahl der Zeichen für ein Textfeld | 1.000 Zeichen |
-| Dateigröße, die Sie in eine Datensatztyp-Tabelle einfügen können | 1 MB |
-| Dateigröße, die Sie über die API für eine Datentyptabelle importieren können | 1,5 MB |
-| Die Rate, mit der API-Anfragen gestellt werden können | 200 Anfragen pro Minute |
-| Größe der CSV-Datei, die Sie importieren können* | 5 MB |
-| Anzahl der Ansichten, die ein Benutzer für einen Datensatztyp erstellen kann | 100 |
-
-<!--add to the table above: Maximum number of views created by one use 100 -->
-
->[!IMPORTANT]
->
->*Diese Funktion wurde vorübergehend deaktiviert und steht zu einem späteren Zeitpunkt zur Verfügung.
-
 
 ## Adobe Workfront-Planung suchen
 

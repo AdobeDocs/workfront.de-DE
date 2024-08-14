@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 1%
 In der Adobe Workfront-Planung sind Arbeitsbereiche zentrale Standorte für Teams zur Arbeitsplanung.
 
 Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Sie können die Arbeitsbereiche in der Adobe Workfront-Planung vollständig anpassen.
+
+Allgemeine Informationen zu Arbeitsbereichen finden Sie unter [Arbeitsbereiche - Übersicht](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -95,27 +97,6 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Überlegungen zu Arbeitsbereichen
-
-* Sie können Arbeitsbereiche für bestimmte Organisationseinheiten in Ihrer Organisation erstellen, die der einzigartigen Funktionsweise jeder Einheit entsprechen.
-* Je nach Workfront-Lizenz werden Arbeitsbereiche auf den folgenden Registerkarten im Planungsbereich angezeigt:
-
-   * Für Systemadministratoren werden Arbeitsbereiche auf den folgenden Registerkarten angezeigt:
-
-      * **Meine Arbeitsbereiche**: Zeigt die von Ihnen erstellten Arbeitsbereiche an. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche des Systems an, einschließlich der für Sie freigegebenen Arbeitsbereiche. &lt;!—Ersetzen durch: Andere Arbeitsbereiche: Zeigt alle anderen Arbeitsbereiche im System an. >
-
-   * Für alle anderen Benutzer werden Arbeitsbereiche, die sie erstellt haben, und Arbeitsbereiche, die für sie freigegeben wurden, im Arbeitsbereich angezeigt.
-
-* Die in einem Arbeitsbereich enthaltenen Datensatztypen sollten den Arbeitszyklus einer Organisationseinheit widerspiegeln.
-* Wenn Sie einen Arbeitsbereich erstellen, haben nur Sie die Berechtigung, auf Ihren Arbeitsbereich zuzugreifen und ihn zu verwalten. Sie müssen es für andere Benutzer freigeben, damit sie mit Ihnen an derselben Stelle zusammenarbeiten können. Weitere Informationen finden Sie unter [Freigeben eines Arbeitsbereichs](/help/quicksilver/planning/access/share-workspaces.md). Systemadministratoren können alle Arbeitsbereiche verwalten, auch die, die sie nicht erstellt haben.
-* Sie können über Folgendes verfügen:
-
-   * Bis zu 50 Abschnitte in einem Arbeitsbereich.
-   * Bis zu 1.000 Datensatztypen aus allen Bereichen eines Arbeitsbereichs. Alle Datensatztypen sind für jeden Arbeitsbereich eindeutig. <!--this might change-->
-   * Bis zu 1.000 Arbeitsbereiche in der Workfront-Instanz Ihres Unternehmens.
-
-
 ## Arbeitsbereich erstellen
 
 Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, um Ihre Objekte in der Workfront-Planung zu organisieren. Weitere Informationen zum Bearbeiten eines Arbeitsbereichs finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md).
@@ -153,7 +134,7 @@ Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, u
    * Ein leerer Arbeitsbereich mit dem Namen **Unbenannter Workspace** , in dem Sie Datensatztypen manuell hinzufügen können, wenn Sie einen neuen Arbeitsbereich erstellen.
    * Ein Arbeitsbereich mit dem Namen nach der ausgewählten Vorlage, der mit Beispieldatensatztypen gefüllt ist. Sie können die Datensatztypen und den Arbeitsbereich weiter anpassen.
 
-   Für Workfront-Administratoren wird der neue Arbeitsbereich auf der Registerkarte **Meine Arbeitsbereiche** angezeigt. <!--replace this with: Workspaces I'm on tab-->
+   Für Workfront-Administratoren wird der neue Arbeitsbereich auf der Registerkarte **Meine Arbeitsbereiche** angezeigt. <!--replace this with: **Workspaces I'm on** tab-->
 1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste.
 
 1. (Optional und bedingt) Wenn Sie den Arbeitsbereich aus einer Vorlage erstellt haben, klicken Sie in den Namen der Abschnitte **Typen für operative Datensätze** oder **Taxonomien** .

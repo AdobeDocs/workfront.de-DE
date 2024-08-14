@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,16 @@ In den unten aufgeführten Artikeln wird beschrieben, wie Sie die Workfront-Plan
 >
 >Die in den folgenden Abschnitten referenzierte Dokumentation ist einige Zeit verfügbar, nachdem die Funktionen für die Produktion freigegeben wurden.
 
-## Allgemeine Übersicht über die Adobe Workfront-Planung
+## Allgemeine Informationen zur Adobe Workfront-Planung
 
-In den folgenden Artikeln erhalten Sie einen Überblick über die neue Workfront-Planung:
+In den folgenden Artikeln finden Sie allgemeine Informationen zur neuen Workfront-Planung:
 
 <!--update the video when we have something better, especially after early access - remove it-->
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront-Planungsübersicht](/help/quicksilver/planning/general/planning-overview.md): Ein Überblick über die Adobe Workfront-Planung auf hoher Ebene, einschließlich der Terminologie und Konzepte, die für diese Lösung eindeutig sind. Wir empfehlen Ihnen, hier mit Workfront Planning Ihre Journey zu beginnen.
+* [Übersicht über die Objektbeschränkungen bei der Adobe Workfront-Planung](/help/quicksilver/planning/general/limitations-overview.md): Eine Liste der Einschränkungen für die Anzahl der Objekte, die Sie in der Workfront-Planung erstellen können.
 * [Adobe Workfront Planung der aktuellen Release-Aktivität](/help/quicksilver/planning/general/release-activity.md): Eine Liste aller Funktionen, die seit dem Start des Adobe Workfront-Planungsprogramms am 22. Mai 2023 veröffentlicht wurden, mit genauen Versionsinformationen und einem kurzen Überblick über die einzelnen Funktionen.
 * [Adobe Workfront Planning AI Assistant Overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem Workfront AI Assistant for Planning können Sie über Befehle nach Datensätzen suchen oder Datensätze erstellen, aktualisieren und löschen und dem Assistenten die Arbeit überlassen.
 
@@ -76,7 +77,7 @@ Die folgenden Abschnitte enthalten Artikel, in denen ausführlich beschrieben wi
    * Erstellen, Bearbeiten und Löschen von Arbeitsbereichen
    * Erstellen, Bearbeiten und Löschen von Datensatztypen
    * Verbinden von Datensatztypen und Beispielen zum Verbinden von Datensatztypen
-   * Workspace-Vorlage
+   * Workspace-Vorlagen
 
 * [Felder: Artikelindex](/help/quicksilver/planning/fields/fields-information.md) enthält die folgenden Informationen:
 
