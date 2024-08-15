@@ -8,14 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
 
 # Benutzer löschen
+
+>[!IMPORTANT]
+>
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Unternehmen, die noch nicht in die Adobe Business Platform integriert sind. Wenn Sie in der Adobe Business Platform integriert wurden, müssen Sie Benutzer in der Adobe Admin Console löschen.
+>
+>Eine Liste der Vorgehensweisen, die sich je nachdem, ob Ihr Unternehmen in die Adobe Business Platform integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Wenn ein Benutzer Ihre Organisation verlässt, können Sie ihn aus Adobe Workfront entfernen.
 
