@@ -7,7 +7,7 @@ description: Sie können Informationen zu allen Ausführungen eines Szenarios an
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -70,8 +70,6 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
    Wenn Sie im Szenario-Editor an dem Szenario arbeiten, klicken Sie in der linken oberen Ecke des Fensters auf den Linkspfeil ![](assets/exit-editing-arrow.png).
 
 1. Zeigen Sie die Informationen in der Liste auf der rechten Seite an.
-
-   ![](assets/open-history-tab-350x202.png)
 
    Sie können auch auf klicken, um eine vollständige Seitenansicht dieser Informationen anzuzeigen. Mit der Vollseitenansicht können Sie den Verlauf filtern, um bestimmte Ausführungen anzuzeigen.
 

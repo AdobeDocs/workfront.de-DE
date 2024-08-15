@@ -7,7 +7,7 @@ description: In diesem Artikel werden die Einstellungen beschrieben, die im Bedi
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
@@ -132,10 +132,7 @@ Das Festlegen weiterer Zyklen kann nützlich sein, wenn Sie eine Unterbrechung d
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->Die [!UICONTROL maximale Anzahl der zurückgegebenen Dateien] im Modul [!UICONTROL Dropbox] >[!UICONTROL Dateien ansehen] ist auf `10` eingestellt.
->
->![](assets/max-number-cycles-10-350x175.png)
->
+>Die [!UICONTROL Maximale Anzahl der zurückgegebenen Dateien] im Modul [!UICONTROL Workfront] >[!UICONTROL Datensätze überwachen] ist auf `10` eingestellt.
 >Wenn 100 Anfragen an [!DNL Workfront] gesendet werden und das Feld [!UICONTROL Limit] auf 10 gesetzt ist, werden nach einem Szenario 90 Dateien nicht mehr verarbeitet. Die nächsten 10 Dateien werden bei der nächsten geplanten Ausführung des Szenarios verarbeitet.
 >
 >### Die maximale Anzahl von Zyklen ist auf 10 festgelegt.

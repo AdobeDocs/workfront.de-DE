@@ -7,10 +7,10 @@ description: Szenariodetails in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 1%
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -74,6 +74,10 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
      <tr> 
       <td role="rowheader">[!UICONTROL Moduldiagramm] </td> 
       <td>Auf dieser Registerkarte wird die visuelle Darstellung des Szenarios angezeigt. Das Diagramm ist mit dem im Szenario-Editor identisch</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Berichte] (Registerkarte) </td> 
+      <td> <p>Öffnen Sie diese Registerkarte, um ein Diagramm der Anzahl der von diesem Szenario in den letzten 30 Tagen durchgeführten Vorgänge anzuzeigen.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Verlauf] (Registerkarte) </td> 

@@ -7,7 +7,7 @@ description: In diesem Artikel wird beschrieben, wie Sie ein Integrationsszenari
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '2139'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Das Erstellen eines Szenarios umfasst mehrere Hauptaufgaben:
    Der Szenario-Editor wird angezeigt. Er enthält ein leeres Modul in der Mitte, die vorab geladene [!DNL Google Sheets]-App und einige Optionen in der Symbolleiste am unteren Rand.
 
 <!--
-   ![](assets/scenario-editor-350x235.png)
+   ![](assets/scenario-editor.png)
 -->
 
 Wenn Sie mit der Erstellung eines neuen Szenarios beginnen, ist es empfehlenswert, einen Namen dafür zu erstellen.

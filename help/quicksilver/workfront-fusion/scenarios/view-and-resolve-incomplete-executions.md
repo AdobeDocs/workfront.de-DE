@@ -7,7 +7,7 @@ description: Der Ordner [!UICONTROL Unvollständige Ausführungen] speichert Sze
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 5%
@@ -65,9 +65,13 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 
 ## Unvollständige Ausführungen anzeigen
 
-Wenn bei einem Modul während des Vorgangs ein Fehler auftritt, wird dem Ordner Unvollständige Ausführungen eine neue unvollständige Ausführung hinzugefügt. Jede unvollständige Ausführung enthält den Blueprint des Szenarios und alle Bundles, die dem fehlerhaften Modul zugeordnet werden können. Die Liste der unvollständigen Ausführungen kann durch Klicken auf die Registerkarte [!UICONTROL Unvollständige Ausführungen] auf der Detailseite des Szenarios geöffnet werden:
+Wenn bei einem Modul während des Vorgangs ein Fehler auftritt, wird dem Ordner Unvollständige Ausführungen eine neue unvollständige Ausführung hinzugefügt. Jede unvollständige Ausführung enthält den Blueprint des Szenarios und alle Bundles, die dem fehlerhaften Modul zugeordnet werden können. Die Liste der unvollständigen Ausführungen kann durch Klicken auf die Registerkarte [!UICONTROL Unvollständige Ausführungen] auf der Detailseite des Szenarios geöffnet werden.
+
+<!--
 
 ![](assets/incomplete-executions-tab-350x102.png)
+
+-->
 
 Weitere Informationen finden Sie unter [Fehler, die zu unvollständigen Ausführungen führen](#errors-resulting-into-incomplete-executions).
 
