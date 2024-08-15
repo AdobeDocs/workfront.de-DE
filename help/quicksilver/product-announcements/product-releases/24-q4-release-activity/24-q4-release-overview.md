@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,49 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 
 ## Adobe Workfront-Verbesserungen
 
+* [Verbesserungen für Administratoren]
 * [Projektverbesserungen](#project-enhancements)
 * [Integrationsverbesserungen](#integration-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
+
+### Administratorverbesserungen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungstermine</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Layout-Schaltfläche im benutzerdefinierten Formularentwickler erlaubt zwei oder drei Spalten</a></p>
+                        <p>Mit der Schaltfläche "Layout"im benutzerdefinierten Formularentwickler können Sie aus einem zweispaltigen oder dreiseitigen Arbeitsbereich wählen. Der ursprüngliche Formularentwickler verwendet drei Spalten und die Feldeinstellungen werden in der Spalte ganz rechts angezeigt. Wenn Sie zwei Spalten auswählen, werden die Feldeinstellungen in der Spalte ganz links neben der Feldbibliothek angezeigt.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 12. August 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (September 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion für alle Kunden: TBD</p>
+                            </li>
+                        </ul>
+                        <p><i>Diese Funktion ist Teil einer stufenweisen Veröffentlichung und wird im September für eine begrenzte Anzahl von Kunden verfügbar sein.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Projektverbesserungen
 
@@ -77,7 +117,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Weitere relevante Smart-Zuweisungen</a></p>
-                        [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
+                        [!BADGE In Production ]{type=Informative}
                         <p>Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -154,7 +194,29 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI-Assistent in Workfront verfügbar</a></p>
+                        <p>Um Ihnen die Arbeit zu erleichtern, haben wir Adobe I Assistant zu Workfront hinzugefügt. Der KI-Assistent kann Sie bei Folgendem unterstützen:</p>
+                        <ul>
+                            <li>Zusammenfassung von Arbeitselementen und Dokumenten, sodass Sie schnell ein allgemeines Verständnis von Aufgaben, Projekten und Assets gewinnen können.</li>
+                            <li>Bereitstellung von Informationen aus der Experience League-Dokumentation, Einbringen von Anweisungen und Referenzmaterial in Workfront und Verknüpfung zu einer ausführlicheren Dokumentation.</li>
+                            <li>Erstellen und Verfeinern von Formeln für berechnete benutzerdefinierte Formularfelder, Generieren von Formeln aus Textaufforderungen oder Auffinden von Fehlern in vorhandenen Formeln.</li>
+                            </ul>
+                            <p>Ihr Workfront-Administrator kann den KI-Assistenten für Ihr Unternehmen aktivieren oder deaktivieren. Der KI-Assistent steht für Instanzen mit Select-, Prime- und Ultimate-Plänen zur Verfügung.</p>
+                        </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 28. August 2024</p>
+                            </li>
+                            <li>
+                                <p class="preview">Produktionsversion: 28. August 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                            
            </tbody>
         </table>
 
