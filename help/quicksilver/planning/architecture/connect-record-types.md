@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 0%
@@ -39,7 +39,7 @@ In diesem Artikel wird beschrieben, wie Sie zwei Workfront Planning-Record-Typen
 
 Nachdem Sie die Verbindung zwischen Datensätzen oder Objekttypen hergestellt haben, können Sie einzelne Datensätze miteinander verbinden und Felder aus den verknüpften Datensätzen oder Objekttypen in einem Workfront Planning-Datensatz anzeigen.
 
-<!-- uncomment out for the release close to GA: For general information about connection types, see [Connection record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 Informationen zum Verbinden eines Workfront-Planungsprotokolls mit einem Objekt aus einer anderen Anwendung finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
 
@@ -240,7 +240,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
         * Many to one
         * Many to many
         
-        For information about connection types, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+        For information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
    * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie verknüpft sind. Durch die Verknüpfung werden Informationen aus dem Datensatz oder Objekt angezeigt, mit dem Sie in dem Datensatz verknüpfen, den Sie möchten. Diese Option ist standardmäßig aktiviert.
 
      >[!TIP]

@@ -1,23 +1,24 @@
 ---
-title: "Übersicht über den Adobe Workfront Planning AI Assistant"
+title: Übersicht über den Adobe Workfront Planning AI Assistant
 description: Sie können den KI-Assistenten verwenden, um Datensätze basierend auf dem aktuellen Seitenkontext und der aktuellen Datensatzstruktur zu generieren, zu aktualisieren oder zu entfernen. Die Befehle des Benutzers und die Ausführung dieser Befehle durch die KI arbeiten zusammen, um sicherzustellen, dass von der KI vorgenommene Änderungen in Ihrer Umgebung korrekt widergespiegelt werden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
-
 # Übersicht über den Adobe Workfront Planning AI Assistant
 
-<!-- update TOC and miniTOC when making this live-->
+<!-- update metadata above at GA-->
 
 >[!IMPORTANT]
 >
+><span class="preview">Der KI-Assistent wurde vorübergehend entfernt und wird zu einem späteren Zeitpunkt zurückgegeben.</span>
 >Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning und die Workfront AI Assistant (Beta), die neue Angebote von Adobe Workfront sind.
 >
 >Die Workfront-Planung befindet sich derzeit in einer frühen Zugriffsphase und der Workfront AI-Assistent befindet sich in der Beta-Phase.
@@ -36,7 +37,7 @@ Die Befehle des Benutzers und die Ausführung dieser Befehle durch die KI arbeit
 
 ## Überlegungen zum KI-Assistenten
 
-* Der KI-Assistent ist standardmäßig für Workfront-Administratoren verfügbar.
+* Der KI-Assistent ist standardmäßig für den Workfront-Hauptadministrator verfügbar. Weitere Informationen finden Sie unter [Grundlegende Informationen für Ihr System konfigurieren](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * Der Workfront-Administrator muss den KI-Assistenten für alle anderen Benutzer aktivieren. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 

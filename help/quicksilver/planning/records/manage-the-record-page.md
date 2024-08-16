@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -145,11 +145,11 @@ So fügen Sie einer Datensatzvorschau oder -seite einen Abschnitt hinzu:
 
 1. (Optional) Klicken Sie oben rechts in der Datensatzvorschau auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) , um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
-   Die Datensatzseite wird geöffnet.
+   Die Datensatzseite wird geöffnet. <!--The Details tab opens by default. -->
 
    ![](assets/details-page.png)
 
-1. Bewegen Sie in der Datensatzvorschau oder -seite den Mauszeiger über den Leerraum links von den Feldern und klicken Sie dann auf das Symbol **Abschnitt hinzufügen** ![](assets/add-section-icon.png) , um einen Abschnitt hinzuzufügen.
+1. Bewegen Sie in der Vorschau oder Seite des <!--**Details** tab of the--> Datensatzes den Mauszeiger links von den Feldern über den Leerraum und klicken Sie dann auf das Symbol **Abschnitt hinzufügen** ![](assets/add-section-icon.png) , um einen Abschnitt hinzuzufügen.
 1. Klicken Sie in den Namen des Abschnitts und ersetzen Sie den Abschnitt **Unbenannt** durch einen Namen. Klicken Sie dann auf &quot;Enter&quot;. Die unter dem Abschnitt angezeigten Felder sind automatisch Teil des neuen Abschnitts.
 1. Ziehen Sie Felder in den neuen Abschnitt, wie im Abschnitt [Felder in der Datensatzvorschau oder Detailseite neu anordnen](#rearrange-fields-in-the-record-preview-or-details-page) in diesem Artikel beschrieben.
 
@@ -182,7 +182,13 @@ Alle Abschnitte werden standardmäßig erweitert.
 
    Alle Änderungen an den Abschnitten und der Feldreihenfolge werden automatisch gespeichert.
 
-## Neuanordnen von Feldern auf der Datensatzvorschau- oder Detailseite
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## Die Felder in der Vorschau oder Seite des Datensatzes neu anordnen
 
 {{step1-to-planning}}
 

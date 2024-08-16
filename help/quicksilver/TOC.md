@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: e97d4b7565370feaf23d73b17b97f88f4b8afa63
+source-git-commit: 21ce33ccb09e4fd7d0cc8c31631ef66e3ce73211
 workflow-type: tm+mt
-source-wordcount: '14330'
+source-wordcount: '14333'
 ht-degree: 2%
 
 ---
@@ -2077,6 +2077,7 @@ ht-degree: 2%
    * Adobe Workfront-Planungsprotokolle {#adobe-workfront-planning-records}
       * [Datensätze: Artikelindex](planning/records/records-information.md)
       * [Datensätze erstellen](planning/records/create-records.md)
+      * [Übersicht über verbundene Datensätze](planning/records/connected-records-overview.md)
       * [Datensätze verbinden](planning/records/connect-records.md)
       * [Datensätze bearbeiten](planning/records/edit-records.md)
       * [Datensätze löschen](planning/records/delete-records.md)

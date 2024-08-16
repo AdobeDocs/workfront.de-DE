@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,9 @@ Der Abschnitt Planung ist für die folgenden Workfront-Objekte verfügbar:
 
 ## Überlegungen zum Abschnitt &quot;Planung&quot;von Workfront-Objekten
 
-* Zunächst müssen Sie Datensatztypen mit Workfront-Objekttypen und Datensätze mit Workfront-Objekten verbinden, um sie in Workfront anzuzeigen.
+* Die Datensatztypen für die Workfront-Planung müssen mit den Workfront-Objekttypen verbunden sein.
+
+* Mindestens ein Datensatz muss mit einem Workfront-Objekt verbunden sein, damit Datensätze in Workfront angezeigt werden können.
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
