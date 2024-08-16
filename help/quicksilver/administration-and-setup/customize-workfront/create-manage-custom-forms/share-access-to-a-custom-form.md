@@ -1,5 +1,5 @@
 ---
-title: Freigeben eines benutzerdefinierten Formulars
+title: Benutzerdefiniertes Formular freigeben
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1419'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Sie können den Zugriff für ein benutzerdefiniertes Formular konfigurieren, um zu steuern, wer - Person, Rolle, Gruppe, Team, Unternehmen - es anzeigen, freigeben und bearbeiten kann.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -46,6 +48,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Zugriff auf benutzerdefinierte Formulare {#access-to-custom-forms}
 

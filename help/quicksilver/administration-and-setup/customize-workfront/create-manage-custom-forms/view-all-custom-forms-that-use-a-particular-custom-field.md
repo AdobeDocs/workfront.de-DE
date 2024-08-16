@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Alle benutzerdefinierten Formulare anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
+title: Alle benutzerdefinierten Forms anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
 description: Sie können herausfinden, welche benutzerdefinierten Formulare ein benutzerdefiniertes Feld oder Widget verwenden, das Sie ändern oder löschen möchten. Es ist wichtig zu bewerten, ob diese benutzerdefinierten Formulare Anpassungen erfordern, damit sie weiterhin ordnungsgemäß funktionieren oder nach dem Ändern oder Löschen des Felds oder Widgets weiterhin nützlich sind.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Sie können herausfinden, welche benutzerdefinierten Formulare ein benutzerdefin
 Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -48,6 +50,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Finden Sie heraus, welche benutzerdefinierten Formulare ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 420c26c22cb1e6c0eab0f4cb0e211922d9ed2350
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Ein berechnetes benutzerdefiniertes Feld kann Folgendes enthalten:
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -47,21 +49,26 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Neu: Standard</p>
+   <p>oder</p>
+   <p>Aktuell: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Administratorzugriff für bestimmte Bereiche</a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welche Konfigurationen für Plan, Lizenztyp oder Zugriffsstufe Sie verwenden.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vorhandenes berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular wiederverwenden
 
@@ -81,7 +88,7 @@ Sie können für dasselbe Feld auch eine andere Berechnung für das neue Formula
 
 So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** .
 
@@ -119,7 +126,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld:
 >
 >Bevor Sie ein neues berechnetes benutzerdefiniertes Feld erstellen, identifizieren Sie die vorhandenen Felder, die Sie einbeziehen möchten, damit Sie sicher sind, dass die für die Berechnung erforderlichen Daten in Workfront vorhanden sind.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** .
 

@@ -1,5 +1,5 @@
 ---
-title: Deaktivieren oder reaktivieren Sie ein benutzerdefiniertes Formular
+title: Deaktivieren oder Reaktivieren eines benutzerdefinierten Formulars
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Sie können ein benutzerdefiniertes Formular reaktivieren oder deaktivieren. Es 
 >Wenn ein benutzerdefiniertes Formular deaktiviert ist, aber weiterhin Teil eines Warteschlangenthemas oder einer Anforderungswarteschlangendefinition ist, wird es an neue Anforderungen angehängt. Wenn das Formular nicht in den Anforderungen enthalten sein soll, müssen Sie es manuell aus der Anforderungswarteschlange entfernen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -50,6 +52,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Deaktivieren eines benutzerdefinierten Formulars
 

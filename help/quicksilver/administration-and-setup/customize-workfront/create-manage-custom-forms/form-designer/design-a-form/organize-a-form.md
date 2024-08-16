@@ -1,5 +1,5 @@
 ---
-title: Formular organisieren und in der Vorschau anzeigen
+title: Organisieren und Anzeigen einer Vorschau eines Formulars
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler organisi
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -28,22 +30,26 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Neuer Plan: Standard</p>
+   <p>Neu: Standard</p>
    <p>oder</p>
-   <p>Aktueller Plan: Plan</p></td> 
+   <p>Aktuell: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Administratorzugriff für bestimmte Bereiche</a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Abschnittsumbruch hinzufügen
 

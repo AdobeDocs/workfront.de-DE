@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen der Anzeigenlogik und Überspringen der Logik zu einem Formular
+title: Hinzufügen der Anzeigerlogik und Überspringen der Logik zu einem Formular
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Sie können festlegen, welche Abschnitte eines benutzerdefinierten Formulars ang
 >Die Logik gilt nur innerhalb eines Formulars und kann nicht auf einer Auswahl aus einem anderen Formular basieren.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -50,6 +52,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Logiksymbole anzeigen und überspringen
 

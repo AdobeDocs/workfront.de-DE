@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Um die Systemleistung zu verbessern und die Verwendung von Formularen für Benut
 >Alternativ können Sie eine Problemumgehung verwenden, um zu verhindern, dass Daten in nicht mehr verwendeten Feldern verloren gehen, siehe [Benutzerdefiniertes Feld entfernen, ohne Daten zu verlieren, die Benutzer in ](#remove-a-custom-field-without-losing-data-that-users-have-entered) in diesem Artikel eingegeben haben.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -54,6 +56,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Löschen eines benutzerdefinierten Felds oder Widgets aus dem System
 
