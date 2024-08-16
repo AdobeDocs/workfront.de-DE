@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -233,6 +233,8 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
    Workfront speichert Ihre Änderungen automatisch.
 
+   <!--1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).-->
+
 1. (Optional) Klicken Sie oben rechts in der Datensatzvorschau auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> , um die Datensatzseite in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort, wie im Abschnitt [Datensatz auf der Seite des Datensatzes bearbeiten](#edit-a-record-from-the-records-page) in diesem Artikel beschrieben.
 
 ### Datensatz auf der Datensatzseite bearbeiten
@@ -285,6 +287,9 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
    Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront speichert Ihre Änderungen automatisch.
+
+   <!--1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).-->
+
 
 ## Datensatz aus einem Workfront-Objekt im Abschnitt Planung bearbeiten
 

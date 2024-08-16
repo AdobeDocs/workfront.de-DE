@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1874'
 ht-degree: 2%
 
 ---
@@ -89,8 +89,9 @@ Weitere Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie
 | Ansichten freigeben | ✓ | |  |
 | Öffentliche Freigabe von Ansichten über externe Ressourcen | ✓ | |  |
 | Doppelte Ansichten | ✓ | |  |
-| Anfragen senden |                               |                                  | ✓ |
-| Kreativbeschreibung |                               |                                  | ✓ |
+| Anfragen senden |                               | ✓ |                 |
+| Exportieren von Datensatzdetails in Word |                               | ✓ |                 |
+| Exportieren von Datensatzdetails auf PDF |                               |                                  | ✓ |
 | Farbe und Symbol eines Datensatzes anpassen | ✓ |                                  |                 |
 | Kommentare zu Datensätzen hinzufügen | ✓ |                                  |                 |
 | In-App-Benachrichtigungen empfangen | ✓ |                                  |                 |
@@ -104,8 +105,9 @@ Weitere Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie
 | Planen von Datensätzen aus Workfront-Objekten | ✓ |                                  |                 |
 | Workfront Planning Public API | ✓ |                                  |                 |
 | Workfront Planning AI Assistant* | ✓ |                                  |                 |
+| Reporting zu Workfront-Planungsinformationen (Arbeitsfläche-Dashboard) |                               | ✓ |                 |
 
-*Der KI-Assistent wurde vorübergehend entfernt und wird zu einem späteren Zeitpunkt zurückkehren.
+*Der KI-Assistent wurde vorübergehend entfernt und steht zu einem späteren Zeitpunkt zur Verfügung.
 
 ## Aktivieren der Adobe Workfront-Planung für Benutzer in Ihrer Workfront-Instanz
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -42,8 +42,7 @@ Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs werden angezeigt.
 
-1. Wählen Sie eine Tabellenansicht aus dem Dropdownmenü **Ansicht** aus.
-1. Klicken Sie in der Tabellenansicht auf den Namen eines Datensatzes.
+1. Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes.
 
    Die Seite des Datensatzes wird geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bereich geöffnet.
 1. Klicken Sie auf das Symbol **Verlauf anzeigen** ![](assets/show-history-icon.png). Alle Änderungen an den Feldern des Datensatzes werden im rechten Bereich angezeigt, beginnend mit dem letzten.
