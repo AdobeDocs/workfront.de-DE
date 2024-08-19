@@ -6,9 +6,9 @@ description: Sie können eine Testversand-Zusammenfassung drucken, als PDF speic
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,8 @@ Sie können eine Testversand-Zusammenfassung direkt aus der Dokumentliste drucke
 
 >[!NOTE]
 >
->Sie können nicht mehrere Testversand-Zusammenfassungen gleichzeitig aus der Dokumentliste drucken.
+>* Zusammenfassungen, die größer als 1 GB sind, werden nicht unterstützt.
+>* Sie können nicht mehrere Testversand-Zusammenfassungen gleichzeitig aus der Dokumentliste drucken.
 
 1. Halten Sie in der Dokumentliste, die den Testversand enthält, den Mauszeiger über die das Dokument enthaltende Zeile und klicken Sie dann auf **Zusammenfassung drucken** .
 
