@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Neuanordnen der Status auf Systemebene und Gruppe
+title: Neuanordnen der Systemstatus- und Gruppenstatus
 description: Als Workfront-Administrator können Sie die Reihenfolge der Projekte, Aufgaben und Ausgabestatus für alle Benutzer im System oder für eine Gruppe ändern.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '516'
 ht-degree: 6%
 
 ---
@@ -35,6 +35,8 @@ Als Workfront-Administrator können Sie die Reihenfolge der Projekte, Aufgaben u
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
+
++++
 
 ## Standardreihenfolge der Status
 
@@ -108,7 +112,7 @@ Standardmäßig werden die Status in der folgenden Reihenfolge angezeigt:
 
 ## Neuanordnen des Status für Aufgaben und Projekte systemweit oder für eine Gruppe
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Projekteinstellungen > Status**.
 1. (Bedingt) Wenn Sie den Status einer Gruppe neu anordnen, geben Sie den Namen der Gruppe in das Feld oben rechts ein und klicken Sie dann auf den Namen, sobald er angezeigt wird.

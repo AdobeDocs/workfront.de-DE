@@ -5,13 +5,13 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Sie können den Status eines Problems verwenden, um Benutzern im System anzuzeigen, in welchem Entwicklungsstadium ein Problem zu einem bestimmten Zeitpunkt vorliegt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1467'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 Sie können den Status eines Problems verwenden, um Benutzern im System anzuzeigen, in welchem Entwicklungsstadium ein Problem zu einem bestimmten Zeitpunkt vorliegt.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,13 +45,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Status von Zugriffsproblemen
 
 Sie können auf den Status von Problemen auf Systemebene zugreifen und diesen ändern. Sie können einige Informationen zu den Standardsystemstatus bearbeiten oder neue benutzerdefinierte Status erstellen. Weitere Informationen zum Erstellen benutzerdefinierter Status oder Bearbeiten des Systemstatus finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 So greifen Sie auf den Status von Problemen auf Systemebene zu:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **Projekteinstellungen** > **Status**.
 

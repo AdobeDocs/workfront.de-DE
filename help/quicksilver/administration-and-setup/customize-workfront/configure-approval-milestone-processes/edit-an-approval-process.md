@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-title: Validierungsprozess bearbeiten
+title: Bearbeiten eines Genehmigungsprozesses
 description: Wenn Sie Adobe Workfront-Administrator sind oder über Administratorzugriff auf Genehmigungsprozesse verfügen, können Sie alle Genehmigungsprozesse im System anzeigen und bearbeiten.
 author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1950'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstelle
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
@@ -58,9 +60,12 @@ Sie müssen über Folgendes verfügen:
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
+
 ## Vorhandenen Genehmigungsprozess bearbeiten
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
+
 1. (Bedingt) Wenn Sie einen Genehmigungsprozess auf Systemebene bearbeiten, klicken Sie im linken Bereich auf **Prozesse** > **Validierungen** .
 
    Oder

@@ -1,18 +1,18 @@
 ---
 title: Erstellen und Anpassen von Prioritäten
 description: Im Einrichtungsbereich von Workfront können Sie die Prioritäten für Projekte, Aufgaben und Probleme festlegen. Prioritäten geben Ihren Projekten, Aufgaben oder Problemen in Adobe Workfront Priorität.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 2%
 
 ---
 
-# Erstellen und Anpassen von Prioritäten
+# Prioritäten erstellen und anpassen
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -21,6 +21,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Im Einrichtungsbereich von Workfront können Sie die Prioritäten für Projekte, Aufgaben und Probleme festlegen. Prioritäten geben Ihren Projekten, Aufgaben oder Problemen in Adobe Workfront Priorität.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,6 +44,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Anpassung vorhandener Prioritäten
 
@@ -87,7 +91,7 @@ Die standardmäßig für jeden Objekttyp (Projekt, Aufgabe und Problem) bereitge
 
 Zusätzlich zu den Standardprioritäten, die in Workfront bereitgestellt werden, können Sie Ihre eigenen Prioritäten hinzufügen, um die Anforderungen Ihres Unternehmens zu berücksichtigen.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Projekteinstellungen** > **Prioritäten**.
 

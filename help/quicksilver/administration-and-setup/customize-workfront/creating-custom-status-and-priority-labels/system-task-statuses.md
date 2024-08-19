@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Status von Systemaufgaben
 description: Die drei in Workfront integrierten Systemaufgabenstatus sind erforderlich. Das bedeutet, dass Sie sie entsperren, umbenennen und neu anordnen können, sie jedoch nicht ausblenden oder löschen können. Sie können auch neue Systemaufgabenstatus hinzufügen, die den Anforderungen in Ihrer Organisation entsprechen. Das Ändern des Status einer Aufgabe ist normalerweise ein manueller Prozess, aber manchmal wird der Status einer Aufgabe automatisch geändert, je nach anderen Faktoren, die im System auftreten.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

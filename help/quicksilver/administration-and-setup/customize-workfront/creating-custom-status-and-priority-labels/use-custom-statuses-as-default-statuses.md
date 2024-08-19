@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Verwenden benutzerdefinierter Status als Standardstatus
 description: Wenn ein benutzerdefinierter Status als Standardstatus festgelegt wird, wird der neue Standardstatus im gesamten System auf verschiedene Weise verwendet. Die Art und Weise, wie sie verwendet wird, hängt davon ab, ob sie als Standardstatus auf Systemebene oder als Standardstatus auf Gruppenebene festgelegt ist.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Wenn ein benutzerdefinierter Status als Standardstatus festgelegt wird, wird der neue Standardstatus im gesamten System auf verschiedene Weise verwendet. Die Art und Weise, wie sie verwendet wird, hängt davon ab, ob sie als Standardstatus auf Systemebene oder als Standardstatus auf Gruppenebene festgelegt ist.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -41,6 +43,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Benutzerdefinierte Standardstatus auf Systemebene
 
@@ -76,7 +80,8 @@ Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Ausg
 
 ## Benutzerdefinierten Status als Standardstatus festlegen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
+
 1. Klicken Sie im linken Bereich auf **Projekteinstellungen** > **Status**.
 1. (Bedingt) Wenn Sie einen Standardstatus für eine Gruppe festlegen, geben Sie im Menü oben rechts den Namen der Gruppe ein und wählen Sie diese dann aus, wenn sie angezeigt wird.
 1. Öffnen Sie je nach dem Statustyp, den Sie als Standardstatus festlegen möchten, die Registerkarte **Projekt**, **Aufgaben** oder **Probleme**.

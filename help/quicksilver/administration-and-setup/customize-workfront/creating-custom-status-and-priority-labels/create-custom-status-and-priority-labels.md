@@ -1,23 +1,23 @@
 ---
-title: Status und Prioritätsbezeichnungen
+title: "Erstellen benutzerdefinierter Status und Prioritätsbezeichnungen: Artikelindex"
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: Als Adobe Workfront-Administrator können Sie benutzerdefinierte Status für Projekte, Aufgaben und Probleme erstellen. Diese können für Benutzer im gesamten Workfront-System oder für bestimmte Gruppen oder Untergruppen verwendet werden. Der Status eines Arbeitselements stellt den aktuellen Entwicklungsstatus dar.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 0%
+source-wordcount: '145'
+ht-degree: 3%
 
 ---
 
-# Benutzerdefinierte Status und Prioritätsbezeichnungen erstellen
+# Erstellen Sie benutzerdefinierte Status und Prioritätsbezeichnungen: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
@@ -33,6 +33,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Benutzerdefinierten Status löschen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
 * [Auflisten von Objekten mit ausstehenden Genehmigungsprozessen mit einem bestimmten Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
 * [Erstellen und Anpassen von Prioritäten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
-* [Erstellen oder Anpassen von Problemschwerpunkten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
+* [Problemschweregrade erstellen oder anpassen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
 
 Weitere Informationen zu den Status auf Gruppenebene finden Sie unter [Verwalten von Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).

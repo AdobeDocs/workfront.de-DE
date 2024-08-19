@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Status auf Systemebene gesperrt und entsperrt
+title: Gesperrte und entsperrte Systemstatus
 description: Das Sperren benutzerdefinierter Status ist eine Möglichkeit, sicherzustellen, dass Personen in Ihrem gesamten Unternehmen dieselben Prozesse in ihrem Arbeitsablauf verwenden. Wenn ein Status gesperrt ist, steht er allen Benutzern im System zur Verfügung. Obwohl Sie sie bearbeiten oder löschen können, können Gruppenadministratoren dies nicht für ihre Gruppen tun. Umgekehrt ermöglicht das Entsperren benutzerdefinierter Status Gruppenadministratoren mehr Flexibilität bei der Verwaltung der eindeutigen Workflows, die in ihren Gruppen verwendet werden. Sie können die Attribute eines entsperrten Status ändern oder sie für ihre Gruppen löschen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c70a10a920d32ad00a2e833b331c92a598902d21
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

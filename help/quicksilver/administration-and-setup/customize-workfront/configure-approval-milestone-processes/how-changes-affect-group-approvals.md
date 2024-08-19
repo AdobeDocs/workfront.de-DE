@@ -1,15 +1,15 @@
 ---
-title: Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse
+title: Auswirkungen der Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: In diesem Artikel wird erläutert, was passiert, wenn ein Genehmigungsprozess bereits verwendet wird, wenn ein Workfront-Administrator (oder ein Benutzer mit Administratorzugriff auf Genehmigungsprozesse) seine Zuordnung zu einer Gruppe ändert.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 1%

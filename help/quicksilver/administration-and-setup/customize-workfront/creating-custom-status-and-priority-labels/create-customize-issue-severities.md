@@ -4,18 +4,18 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Ihre Benutzer können Prioritätsstufen verwenden, um festzulegen, wie schwerwiegend ein Problem ist. Sie können einen der fünf Standardabstufungen in Adobe Workfront anpassen oder einen neuen Schweregrad für Ihre Benutzer erstellen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 4%
+source-wordcount: '588'
+ht-degree: 5%
 
 ---
 
-# Erstellen oder Anpassen von Problemschwerpunkten
+# Problemschweregrade erstellen oder anpassen
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -30,6 +30,8 @@ Ihre Benutzer können Prioritätsstufen verwenden, um festzulegen, wie schwerwie
 >Aufgaben und Projekte haben keine Schwerpunkte.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -51,6 +53,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Integrierte Problembereiche
 
@@ -85,7 +89,7 @@ Workfront verfügt über fünf integrierte Problemschwerpunkte:
 
 Als Workfront-Administrator können Sie Problemabstufungen entsprechend den Anforderungen Ihrer Benutzer erstellen und bearbeiten.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Projekteinstellungen** > **Schwerpunkte**.
 

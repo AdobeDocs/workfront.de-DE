@@ -2,27 +2,27 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Auflisten von Objekten mit ausstehenden Genehmigungsprozessen mit einem bestimmten Status
+title: Auflisten von Objekten mit einem ausstehenden Genehmigungsprozess unter Verwendung eines bestimmten Status
 description: Wenn Sie versuchen, einen Status zu löschen, wird Ihnen möglicherweise eine Fehlermeldung angezeigt, dass dieser nicht gelöscht werden kann, da er in ausstehenden Genehmigungsprozessen für Objekte in Ihrem System verwendet wird. Wenn Sie diese Objekte suchen und überprüfen möchten, um zu entscheiden, was Sie tun müssen, können Sie einen Bericht ausführen, der sie auflistet.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# Auflisten von Objekten mit ausstehenden Genehmigungsprozessen mit einem bestimmten Status
+# Objekte mit ausstehendem Genehmigungsprozess mit einem bestimmten Status auflisten
 
 Wenn Sie versuchen, einen Status zu löschen, wird Ihnen möglicherweise eine Fehlermeldung angezeigt, dass dieser nicht gelöscht werden kann, da er sich in mindestens einem ausstehenden Genehmigungsprozess in Ihrem System befindet. Sie können einen Bericht ausführen, um die Objekte aufzulisten, für die die Genehmigung aussteht, und dann für jedes Objekt entscheiden, was Sie tun müssen.
 
 ## Im Standardmodus
 
-1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zum Bereich **Berichterstellung** und wählen Sie dann die Registerkarte **Berichte** aus.
-1. Klicken Sie oben rechts auf das Hauptmenü-Symbol ![](assets/main-menu-icon.png) und dann auf **Berichte**.
+{{step1-to-reports}}
+
 1. Klicken Sie auf &quot;**Neuer Bericht**&quot;und wählen Sie dann &quot;**Projektbericht**&quot;, &quot;**Aufgabenbericht**&quot;oder &quot;**Problembericht**&quot;.
 1. Öffnen Sie die Registerkarte **Filter** .
 1. Klicken Sie auf **Filterregel hinzufügen** und führen Sie dann die folgenden Schritte aus, um die Regel einzurichten:
@@ -42,7 +42,8 @@ Wenn Sie versuchen, einen Status zu löschen, wird Ihnen möglicherweise eine Fe
 
 ## Im Textmodus
 
-1. Klicken Sie oben rechts auf das Hauptmenü-Symbol ![](assets/main-menu-icon.png) und dann auf **Berichte**.
+{{step1-to-reports}}
+
 1. Klicken Sie auf &quot;**Neuer Bericht**&quot;und wählen Sie dann &quot;**Projektbericht**&quot;, &quot;**Aufgabenbericht**&quot;oder &quot;**Problembericht**&quot;.
 1. Öffnen Sie die Registerkarte **Filter** .
 1. Wählen Sie **In den Textmodus wechseln** aus.

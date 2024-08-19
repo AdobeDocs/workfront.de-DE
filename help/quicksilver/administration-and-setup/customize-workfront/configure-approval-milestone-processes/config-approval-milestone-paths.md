@@ -1,19 +1,19 @@
 ---
-title: Genehmigungsprozesse und Meilensteinpfade
+title: Genehmigungsverfahren und Meilensteinpfade
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: Sie können einen Validierungsprozess erstellen, den Benutzer an ein Arbeitselement, Dokument oder Testversand anhängen können. Sie können auch Meilensteinpfade erstellen, die auf jedes Projekt im System angewendet werden können.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
