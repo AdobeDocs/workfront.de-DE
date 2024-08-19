@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
+source-git-commit: 592041f8d53004a6261fd743ea65ea323624df69
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -27,19 +27,25 @@ ht-degree: 1%
 
 Als Workfront-Administrator können Sie festlegen, für welche Benutzer in Ihrem Unternehmen der KI-Assistent aktiviert ist. Dies wird über Zugriffsebenen verwaltet.
 
+## Zugriffsanforderungen
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td><p>Neu: Beliebig</p>
+       <p>oder</p>
+       <p>Aktuell: Nicht verfügbar</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
        <p>oder</p>
-       <p>Aktuell: Plan</p></td>
+       <p>Aktuell: Nicht verfügbar</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 

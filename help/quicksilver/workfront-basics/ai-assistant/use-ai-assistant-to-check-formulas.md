@@ -7,24 +7,51 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Berechnete Feldformeln mit dem KI-Assistenten überarbeiten
+# Berechnete Feldformeln mit dem AI-Assistenten generieren oder überarbeiten
 
-Mit dem KI-Assistenten können Sie Fehler in Ihren ungültigen benutzerdefinierten Ausdrücken in berechneten Feldern beheben.
+Sie können den AI-Assistenten verwenden, um Formeln basierend auf einer von Ihnen angegebenen Eingabeaufforderung zu generieren. Sie können auch Fehler in Ihren ungültigen benutzerdefinierten Ausdrücken in berechneten Feldern beheben.
+
+## Zugriffsanforderungen
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td><p>Neu: Prime oder Ultimate</p>
+       <p>oder</p>
+       <p>Aktuell: Nicht verfügbar</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Nicht verfügbar</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Berechneten Feldausdruck generieren
+
+## Berechneten Feldausdruck überprüfen
 
 Wenn Sie das berechnete Feld im benutzerdefinierten Formular-Builder erstellen, wird unter dem Feld eine Fehlermeldung angezeigt, wenn die Formel ungültig ist.
 
 ![Ungültiger Ausdrucksfehler](assets/invalid-expression.png)
 
 Der KI-Assistent kann Ihnen dabei helfen, Ihre Formel in einen gültigen Ausdruck für berechnete Felder zu überarbeiten.
-
-## Berechneten Feldausdruck überprüfen
 
 So überarbeiten Sie einen ungültigen Ausdruck für ein berechnetes Feld:
 

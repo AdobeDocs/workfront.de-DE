@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,31 @@ Der AI-Assistent kann die folgenden Objekte zusammenfassen:
 >Die Zusammenfassungs-Funktion des AI-Assistenten unterscheidet sich vom Bedienfeld Zusammenfassung .
 >
 >Weitere Informationen zum Bereich &quot;Zusammenfassung&quot;in Workfront finden Sie unter [Überblick über die Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+## Zugriffsanforderungen
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td><p>Neu: Beliebig</p>
+       <p>oder</p>
+       <p>Aktuell: Nicht verfügbar</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Nicht verfügbar</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Zusammenfassen eines Objekts
 

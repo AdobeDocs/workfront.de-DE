@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 32f2c7227ba5851f5a9de85bd350fe9093a5fc8f
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 Der KI-Assistent kann Informationen aus der Workfront-Dokumentation suchen, sodass Sie Adobe Experience League nicht mehr besuchen müssen, um die benötigte Hilfe zu erhalten.
 
 Wenn Sie beispielsweise den AI-Assistenten fragen, wie ich eine Anforderungswarteschlange erstellen kann, werden Anweisungen zum Erstellen der Anforderung zurückgegeben, die aus dem Artikel [Anforderungswarteschlangen erstellen und verwalten](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) abgerufen werden.
+
+## Zugriffsanforderungen
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td><p>Neu: Beliebig</p>
+       <p>oder</p>
+       <p>Aktuell: Nicht verfügbar</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Nicht verfügbar</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Informationen vom AI-Assistenten abrufen
 
