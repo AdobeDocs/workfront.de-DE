@@ -8,16 +8,48 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 7%
+source-wordcount: '587'
+ht-degree: 6%
 
 ---
 
 # Konfigurieren der standardmäßigen Testversandeinstellungen
 
 Mit diesen Einstellungen können Sie Standardwerte festlegen, die für alle neuen Testsendungen gelten, die von Ihren Benutzern erstellt wurden. Die meisten dieser Einstellungen können jedoch beim Erstellen eines Testversands überschrieben werden.
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td>Alle</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td>
+   <p>Neu: Standard</p>
+   oder
+   <p>Aktuell: Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen zu Workfront-Administratoren finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## Neue Standardeinstellungen für den Testversand konfigurieren
 

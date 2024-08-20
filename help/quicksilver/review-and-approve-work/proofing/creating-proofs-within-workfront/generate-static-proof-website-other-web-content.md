@@ -6,7 +6,7 @@ description: Sie können einen neuen statischen Testversand oder eine neue Versi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Um einen statischen Testversand zu erstellen, muss die Website öffentlich zugä
 
    >[!NOTE]
    >
-   > Die URL darf maximal 1.000 Zeichen enthalten.
+   > Die URL darf maximal 2.000 Zeichen enthalten.
 
 1. Klicken Sie auf die von Ihnen hinzugefügte URL.
 
