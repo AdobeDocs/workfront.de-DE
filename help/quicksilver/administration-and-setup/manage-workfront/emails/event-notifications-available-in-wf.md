@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Typen von Ereignisbenachrichtigungen
+title: Ereignistbenachrichtigungstypen
 description: Ereignisbenachrichtigungen sind E-Mails, die von verschiedenen Ereignistypen auf Objekten wie Projekten, Aufgaben und Problemen ausgelöst werden. In diesem Artikel werden die verfügbaren Arten von Ereignisbenachrichtigungen aufgeführt und beschrieben.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 7%

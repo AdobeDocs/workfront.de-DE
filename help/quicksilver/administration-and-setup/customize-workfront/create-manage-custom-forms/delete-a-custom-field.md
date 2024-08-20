@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Um die Systemleistung zu verbessern und die Verwendung von Formularen für Benut
 
 >[!CAUTION]
 >
->Beim Löschen eines benutzerdefinierten Felds werden auch alle benutzerdefinierten Daten gelöscht, die Benutzer in das Feld eingegeben haben, wenn benutzerdefinierte Formulare ausgefüllt werden, die an Objekte angehängt sind. Diese gelöschten Daten können nicht wiederhergestellt werden.
+>Beim Löschen eines benutzerdefinierten Felds werden auch alle benutzerdefinierten Daten gelöscht, die Benutzer in das Feld eingegeben haben, wenn benutzerdefinierte Formulare ausgefüllt werden, die an Objekte angehängt sind. Diese gelöschten Daten können nicht wiederhergestellt werden. Außerdem gibt es kein Benachrichtigungssystem, um Benutzer, die das benutzerdefinierte Formular verwenden, darauf hinzuweisen, dass es gelöscht wurde.
 >
 >Sie können alle benutzerdefinierten Formulare und Berichte anzeigen, die ein benutzerdefiniertes Feld verwenden, das Sie löschen möchten, um die möglichen Auswirkungen abzuschätzen. Weitere Informationen finden Sie unter [Alle benutzerdefinierten Formulare anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) und [Alle Berichte anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >

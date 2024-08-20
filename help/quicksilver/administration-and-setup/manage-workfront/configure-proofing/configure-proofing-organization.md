@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als Adobe Workfront-Administrator oder Workfront Proof-Administrator können Sie die standardmäßigen Testversandeinstellungen für Ihre Organisation anpassen. Zu diesen Einstellungen gehören standardmäßige Freigabeoptionen, Branding und mehr.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -44,6 +46,8 @@ Sie müssen über Folgendes verfügen:
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
+
 ## Aktionen konfigurieren
 
 Informationen zur Verwendung von Aktionen im Testversand-Viewer finden Sie unter [Verwenden von Aktionen für Testkommentare](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
@@ -56,7 +60,7 @@ Sie können Aktionen für Ihre Organisation wie folgt konfigurieren:
 
 ### Hinzufügen oder Umbenennen einer Aktion {#add-or-rename-an-action}
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png) und dann auf Testversand ![](assets/proofing-in-main-menu.png) , um auf Workfront Proof zuzugreifen.
+{{step1-to-proofing}}
 
 1. Klicken Sie oben rechts auf der Workfront Proof-Benutzeroberfläche auf **Einstellungen** > **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen** .
 
@@ -73,7 +77,7 @@ Sie können Aktionen für Ihre Organisation wie folgt konfigurieren:
 
 ### Deaktivieren oder Reaktivieren einer Aktion {#deactivate-or-reactivate-an-action}
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png) und dann auf Testversand ![](assets/proofing-in-main-menu.png) , um auf Workfront Proof zuzugreifen.
+{{step1-to-proofing}}
 
 1. Klicken Sie oben rechts auf der Workfront Proof-Benutzeroberfläche auf **Einstellungen** > **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen** .
 
@@ -82,7 +86,7 @@ Sie können Aktionen für Ihre Organisation wie folgt konfigurieren:
 
 ### Aktionen neu ordnen {#reorder-actions}
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png) und dann auf Testversand ![](assets/proofing-in-main-menu.png) , um auf Workfront Proof zuzugreifen.
+{{step1-to-proofing}}
 
 1. Klicken Sie oben rechts auf der Workfront Proof-Benutzeroberfläche auf **Einstellungen** > **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen** .
 
@@ -98,7 +102,7 @@ Informationen dazu, wie Benutzer beim Überprüfen interaktiver Inhalte Geräte 
 
 So fügen Sie ein benutzerdefiniertes Gerät hinzu:
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png) und dann auf Testversand ![](assets/proofing-in-main-menu.png) , um auf Workfront Proof zuzugreifen.
+{{step1-to-proofing}}
 
 1. Klicken Sie oben rechts auf der Workfront Proof-Benutzeroberfläche auf **Einstellungen** > **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen** .
 

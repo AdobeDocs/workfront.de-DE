@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: E-Mail-Einladungen für neue Benutzer verwalten
+title: Verwalten von E-Mail-Einladungen für neue Benutzer
 description: Als Adobe Workfront-Administrator können Sie Workfront mithilfe von E-Mail-Einladungen Benutzer hinzufügen und diese über das Hinzufügen benachrichtigen.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-# E-Mail-Einladungen für neue Benutzer verwalten
+# E-Mail-Einladungen für neue Benutzende verwalten
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -44,6 +44,8 @@ Informationen zum Empfangen von E-Mail-Einladungen finden Sie unter [Empfangen v
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## E-Mail-Einladungen generieren {#generate-email-invitations}
 
 E-Mail-Einladungen werden in den folgenden Szenarien generiert:
@@ -80,7 +84,8 @@ E-Mail-Einladungen werden in den folgenden Szenarien generiert:
 
 So generieren Sie manuell E-Mail-Einladungen für bestehende nicht registrierte Benutzer:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
+{{step-1-to-users}}
+
 1. Wählen Sie den Benutzer aus, der die Bezeichnung **Unregistered** nach seinem Namen anzeigt.
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -101,7 +106,7 @@ So generieren Sie manuell E-Mail-Einladungen für bestehende nicht registrierte 
 
 Als Workfront-Administrator können Sie die Nachricht konfigurieren, die Sie in die E-Mail-Einladungen für neue Benutzer einfügen.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie links in der Liste auf **E-Mail** > **Einladungen**.
 

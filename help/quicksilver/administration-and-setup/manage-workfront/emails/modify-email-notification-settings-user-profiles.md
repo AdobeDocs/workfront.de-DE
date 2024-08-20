@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration
 keywords: modify,email,notification,settings,bulk,bulk,edit,configure,multiple,users
 navigation-topic: emails-administration
-title: E-Mail-Benachrichtigungseinstellungen mehrerer Benutzer ändern
+title: Einstellungen für E-Mail-Benachrichtigungen mehrerer Benutzer ändern
 description: Dieser Artikel enthält Informationen für Workfront- oder Gruppenadministratoren darüber, wie sie die E-Mail-Benachrichtigungen anderer Benutzer aktualisieren können.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Konfigurieren der standardmäßigen Testversandeinstellungen
+title: Standardmäßige Testeinstellungen konfigurieren
 description: Mit diesen Einstellungen können Sie Standardwerte festlegen, die für alle neuen Testsendungen gelten, die von Ihren Benutzern erstellt wurden. Die meisten dieser Einstellungen können jedoch beim Erstellen eines Testversands überschrieben werden.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 6%
+source-wordcount: '557'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Neue Standardeinstellungen für den Testversand konfigurieren
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup**.![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
+
 1. Klicken Sie im linken Bereich auf **Testsendungen** > **Testversandeinstellungen**.
 1. Konfigurieren Sie im Abschnitt **Neue Testversand-Standardwerte** die folgenden Einstellungen:
 
@@ -113,7 +114,8 @@ Benutzer können Testversandentscheidungen verwenden, um den Status des Testvers
 
 So konfigurieren Sie Testversandentscheidungen:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup**.![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
+
 1. Klicken Sie im linken Bereich auf **Testsendungen** > **Testversandeinstellungen**.
 1. Im Abschnitt **Entscheidungen** können Sie
 

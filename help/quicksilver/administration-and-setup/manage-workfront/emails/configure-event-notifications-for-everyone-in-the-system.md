@@ -1,18 +1,18 @@
 ---
-title: Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren
+title: Konfigurieren von Ereignisbenachrichtigungen für alle Benutzer im System
 description: Ereignisbenachrichtigungen Trigger senden E-Mails an Benutzer, wenn ein bestimmtes Ereignis eintritt. Als Adobe Workfront-Administrator oder Benutzer mit der Zugriffsebene "Planer"können Sie eine Ereignisbenachrichtigung für alle Benutzer im System konfigurieren. Die Konfiguration einer Ereignisbenachrichtigung besteht darin, sie zu aktivieren oder zu deaktivieren.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren
+# Ereignisbenachrichtigungen für alle Systembenutzenden konfigurieren
 
 <!-- Audited: 1/2024 -->
 

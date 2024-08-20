@@ -2,24 +2,26 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Konfigurieren von standardmäßigen Testrollen
+title: Konfigurieren von standardmäßigen Proofing-Rollen
 description: Als Adobe Workfront-Administrator können Sie die standardmäßigen Testversandrollen für Benutzer und Gastbenutzer konfigurieren, die auf in Workfront erstellte Testsendungen zugreifen. Jeder Benutzer, der Benutzer zu einem Testversand hinzufügt, kann diese Rollen anpassen.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 1%
+source-wordcount: '550'
+ht-degree: 2%
 
 ---
 
-# Konfigurieren von standardmäßigen Testrollen
+# Standard-Proofing-Rollen konfigurieren
 
 Als Adobe Workfront-Administrator können Sie die standardmäßigen Testversandrollen für Benutzer und Gastbenutzer konfigurieren, die auf in Workfront erstellte Testsendungen zugreifen. Jeder Benutzer, der Benutzer zu einem Testversand hinzufügt, kann diese Rollen anpassen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,11 +46,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Konfigurieren von standardmäßigen Testrollen
++++
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+## Standard-Proofing-Rollen konfigurieren
 
-   <!--
+{{step-1-to-setup}}
+
+<!--
    <li In the left panel, click Proofs Proof roles.
    -->
 

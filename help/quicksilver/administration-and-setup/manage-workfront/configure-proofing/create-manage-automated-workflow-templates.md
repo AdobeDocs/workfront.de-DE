@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Erstellen und Verwalten von Vorlagen für automatisierte Workflows
+title: Erstellen und Verwalten automatisierter Workflow-Vorlagen
 description: Wenn als Adobe Workfront-Administrator der Inhaltsüberprüfungsprozess Ihres Unternehmens häufig wiederholt wird oder Inhalte häufig von denselben Personen geprüft werden, können Sie automatisierte Workflow-Vorlagen erstellen, die die validierungsverantwortlichen Benutzer mit von Ihnen festgelegten Testversandrollen und Benachrichtigungseinstellungen enthalten. Eine Automated Workflow-Vorlage kann einfach mit nur einem oder zwei Validierungsverantwortlichen oder komplex mit vielen Phasen und Abhängigkeiten sein.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als Adobe Workfront-Administrator oder Workfront Proof-Administrator können Sie die Benutzerkonten konfigurieren, für die Testsendungen freigegeben werden können, festlegen, ob die Benutzer alle Versionen eines Testversands sehen können und wann Benutzer Zugriff auf freigegebene Elemente erhalten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -44,9 +46,11 @@ Sie müssen über Folgendes verfügen:
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
+
 ## Freigabe für andere Konten konfigurieren
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png) und dann auf Testversand ![](assets/proofing-in-main-menu.png) , um auf Workfront Proof zuzugreifen.
+{{step1-to-proofing}}
 
 1. Klicken Sie auf **Einstellungen** > **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen**.
 
@@ -57,7 +61,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Sichtbarkeit für alle Versionen eines freigegebenen Testversands konfigurieren
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png) und dann auf Testversand ![](assets/proofing-in-main-menu.png) , um auf Workfront Proof zuzugreifen.
+{{step1-to-proofing}}
 
 1. Klicken Sie auf **Einstellungen** > **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen**.
 
@@ -75,7 +79,7 @@ Sie können angeben, wann Testsendungen mit einem automatisierten Workflow für 
 
 So konfigurieren Sie, wann Testsendungen mit einem automatisierten Workflow für Benutzer sichtbar sind:
 
-1. Klicken Sie in Workfront auf das Hauptmenü ![](assets/main-menu-icon.png) und dann auf Testversand ![](assets/proofing-in-main-menu.png) , um auf Workfront Proof zuzugreifen.
+{{step1-to-proofing}}
 
 1. Klicken Sie auf **Einstellungen** > **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen**.
 

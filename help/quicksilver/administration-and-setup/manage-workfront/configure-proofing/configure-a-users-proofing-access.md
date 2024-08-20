@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Als Adobe Workfront-Administrator oder Workfront Proof-Administrator können Sie
 Informationen zu den für grundlegende und integrierte Testsendungen verfügbaren Testversandfunktionen finden Sie unter [Zugriff auf die Testversandfunktion in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,6 +48,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
+
 ## Testversand für einen Benutzer aktivieren und deaktivieren (nur ältere Pläne) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 Wenn Ihr Unternehmen als Workfront-Administrator einen bestehenden Select- oder Premium-Workfront-Plan verwendet, können Sie die Testversandfunktion für den Benutzer aktivieren und deaktivieren.
@@ -63,7 +67,8 @@ Sie können einen Benutzer zwar als Testbenutzer aktivieren, müssen jedoch übe
 
 Das ausgewählte Berechtigungsprofil wird den Benutzern für jeden in Ihrer Organisation vorhandenen Testversand gewährt.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
+{{step-1-to-users}}
+
 1. Wählen Sie einen oder mehrere Benutzer aus und klicken Sie dann auf **Bearbeiten**.
 
 1. Klicken Sie im Abschnitt **Zugriff** auf eine der folgenden Workfront Proof-Berechtigungsoptionen im Dropdown-Menü **Testversand-Berechtigungsprofil**:

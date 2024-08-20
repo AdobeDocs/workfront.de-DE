@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Einrichten automatischer Erinnerungen
-description: Einrichten automatischer Erinnerungen
+description: Sie können automatische Erinnerungen an Trigger-E-Mail-Benachrichtigungen einrichten, wenn alle Aufgaben oder Probleme fällig, spät oder in der Nähe des geplanten Fertigstellungsdatums sind.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 4%
+source-wordcount: '627'
+ht-degree: 3%
 
 ---
 
@@ -35,6 +35,8 @@ Eine automatische Erinnerung kann an eine oder mehrere der folgenden Aktionen ge
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -56,11 +58,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Einrichten automatischer Erinnerungen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
-1. Klicken Sie auf **E-Mail** >**Automatische Erinnerungen**.
+1. Klicken Sie auf **E-Mail** > **Automatische Erinnerungen**.
 
 1. Wählen Sie im Bereich **Benachrichtigung zu spät senden an** eine der folgenden Optionen aus:
 
@@ -85,7 +89,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         <td>(Senden Sie im Bereich <b>Terminerinnerung an </b> .) Wählen Sie diese Option aus, wenn der Benutzer, der einer Aufgabe oder einem Problem zugewiesen ist, eine Benachrichtigung über sein Arbeitselement erhalten soll, die sich dem Fälligkeitsdatum nähert.</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. Wählen Sie den Zeitpunkt für den automatischen Versand der Erinnerung aus, indem Sie die Zeit vor oder nach dem Fälligkeitsdatum des Arbeitselements auswählen.
 
