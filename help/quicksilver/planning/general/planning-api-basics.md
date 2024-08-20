@@ -1,16 +1,16 @@
 ---
-title: "Grundlagen der Adobe Workfront-Planungs-API"
+title: Grundlagen der Adobe Workfront-Planungs-API
 description: Das Ziel der Adobe Workfront Planning API besteht darin, das Erstellen von Integrationen mit der Planung zu vereinfachen, indem eine REST-fähige Architektur eingeführt wird, die über HTTP ausgeführt wird. In diesem Dokument wird davon ausgegangen, dass Sie mit REST- und JSON-Antworten vertraut sind, und der von der Planungs-API verfolgte Ansatz beschrieben.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
+exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
+source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 2%
 
 ---
-
 
 # Grundlagen der Adobe Workfront-Planungs-API
 
@@ -98,13 +98,13 @@ Workfront Planning unterstützt die folgenden Suchmodifikatoren:
         <td>$greaterThanOrEqual </td>
         <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
         <td>Gibt Datensätze zurück, deren Feldwert größer oder gleich dem Filter ist  </td>
-        <td><ul><li>10</li><li>20</li><ul><li>25</li> </td>
+        <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
     </tr>
     <tr>
         <td>$lessThan </td>
         <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
         <td>Gibt Datensätze zurück, deren Feldwert kleiner als der Filter ist  </td>
-        <td><ul><li>5</li><li>9</li><ul> </td>
+        <td><ul><li>5</li><li>9</li></td></ul> 
     </tr>
     <tr>
         <td>$lessThanOrEqual </td>
@@ -355,6 +355,3 @@ Anfrageinhalt:
 Verwenden Sie einen Sortierparameter, um sicherzustellen, dass Ihre Ergebnisse korrekt paginiert werden. Dadurch können die Ergebnisse in derselben Reihenfolge zurückgegeben werden, sodass die Paginierung die Ergebnisse nicht wiederholt oder überspringt.
 
 Weitere Informationen zum Sortieren finden Sie unter [Sortieren von Abfrageergebnissen in der API](#sorting-query-results-in-the-api) in diesem Artikel.
-
-
-
