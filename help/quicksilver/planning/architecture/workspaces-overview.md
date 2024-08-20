@@ -4,9 +4,9 @@ description: Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von ei
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
 
    * Für Systemadministratoren werden Arbeitsbereiche auf den folgenden Registerkarten angezeigt:
 
-      * **Meine Arbeitsbereiche**: Zeigt die von Ihnen erstellten Arbeitsbereiche an. <!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche des Systems an, einschließlich der für Sie freigegebenen Arbeitsbereiche. <!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **Arbeitsbereiche, die ich verwende**: Zeigt Arbeitsbereiche an, die Sie erstellt haben, oder Arbeitsbereiche, die für Sie freigegeben sind.
+      * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an.
 
    * Für alle anderen Benutzer werden Arbeitsbereiche, die sie erstellt haben, und Arbeitsbereiche, die für sie freigegeben wurden, im Arbeitsbereich angezeigt.
 
@@ -55,6 +55,7 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
   Systemadministratoren können alle Arbeitsbereiche verwalten, auch die, die sie nicht erstellt haben.
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * Es gibt Einschränkungen dafür, wie viele Workspace-Objekte Sie in Ihrer Instanz der Workfront-Planung erstellen können. Weitere Informationen finden Sie unter [Übersicht über die Objektbeschränkungen bei der Adobe Workfront-Planung](/help/quicksilver/planning/general/limitations-overview.md).
 
 

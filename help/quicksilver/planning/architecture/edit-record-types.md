@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 2%
+source-wordcount: '628'
+ht-degree: 1%
 
 ---
 
@@ -35,8 +35,6 @@ Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Sie können das
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
-
-<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
 
 <table style="table-layout:auto">
  <col>
@@ -79,7 +77,8 @@ Datensatztypen sind die Objekttypen der Adobe Workfront-Planung. Sie können das
 <tr>
    <td role="rowheader"><p>Berechtigungen</p></td>
    <td> <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
+   <p>Nur Systemadministratoren können Datensatztypen von anderen Arbeitsbereichen aus verbinden.</p>
 </td>
   </tr>
 <tr>
@@ -115,60 +114,34 @@ Oder
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-   <!--replace everything below with the commented out text below-->
+1. Im Feld **Datensatz-Typ bearbeiten** wird standardmäßig die Registerkarte **Erscheinungsbild** geöffnet.
 
-1. Aktualisieren Sie im Feld **Datensatz-Typ bearbeiten** die folgenden Informationen:
+   ![](assets/edit-record-type-box-appearance-tab.png)
 
-   * Bearbeiten Sie bei Bedarf den Namen des Datensatztyps. <!--did they add a field label for this? -->
+   Aktualisieren Sie die folgenden Informationen auf der Registerkarte **Erscheinungsbild** :
+
+   * Bearbeiten Sie bei Bedarf den Namen des Datensatztyps. <!--did they add a field label for this?-->
    * **Beschreibung**: Bearbeiten oder fügen Sie eine Beschreibung für den Datensatztyp mit weiteren Informationen hinzu.
    * Bearbeiten Sie die Farbe und Form des Symbols, das dem Datensatztyp zugeordnet ist. Gehen Sie wie folgt vor:
-      * Wählen Sie eine Farbe aus, um den Datensatztyp zu identifizieren. Dies ist die Farbe des Symbols für den Datensatztyp. Graustufen ist standardmäßig ausgewählt.
+      * Wählen Sie eine Farbe aus, um den Datensatztyp zu identifizieren. Dies ist die Farbe des Symbols für den Datensatztyp.
       * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
 
-     ![](assets/update-record-type-box.png)
-
-1. Klicken Sie auf **Speichern**.
-1. (Optional) Klicken Sie im Arbeitsbereich auf die Karte vom Typ Datensatz , um die Seite des Datensatztyps zu öffnen.
-1. Klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Datensatztyps und dann auf **Bearbeiten** , um Informationen zum Datensatztyp zu aktualisieren.
-
-   >[!TIP]
-   >
-   >   Sie können den Datensatztyp in der Kopfzeile umbenennen.
-
-   ![](assets/more-menu-options-from-record-type-page.png)
-
-   <!--check this screen shot - not sure this is valid ???-->
-
-1. (Optional) Um einen anderen Datensatztyp zu bearbeiten, erweitern Sie den nach unten zeigenden Pfeil rechts neben einem Namen des Datensatztyps, suchen Sie nach einem Datensatztyp und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-
-<!--*******************For GA - replace the above with this:
-
-1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
-
-    * Edit the record type name, if needed. (*****did they add a field label for this?******)
-    * **Description**: Edit or add a description for the record type with more information about it. 
-    * Edit the color and shape of the icon associated with the record type. Do the following: 
-        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
-
-        ![](assets/update-record-type-box.png)
-
-1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
-
-   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
-   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
-   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+1. (Bedingt) Wenn Sie Systemadministrator sind, klicken Sie im Feld **Datensatz-Typ bearbeiten** auf die Registerkarte **Erweiterte Einstellungen** .
 
    ![](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+1. (Bedingt) Aktualisieren Sie als Systemadministrator die folgenden Informationen auf der Registerkarte **Erweiterte Einstellungen**:
 
+   * **Von anderen Arbeitsbereichen verbinden**: Wählen Sie diesen Umschalter aus, um Benutzern zu ermöglichen, von anderen Arbeitsbereichen aus eine Verbindung zu diesem Datensatztyp herzustellen. Diese Option ist standardmäßig deaktiviert.
+   * **Systemweit**: Wählen Sie diese Option, damit Benutzer von allen Arbeitsbereichen im System aus eine Verbindung zu diesem Datensatz herstellen können.
+   * **Spezifische Arbeitsbereiche**: Wählen Sie diese Option, um die Arbeitsbereiche zu beschränken, von denen Benutzer eine Verbindung zu diesem Datensatztyp herstellen können. Erweitern Sie dann das Dropdown-Menü und wählen Sie die Arbeitsbereiche aus, aus denen Benutzer eine Verbindung zu diesem Datensatztyp herstellen sollen. Sie können mit der Eingabe des Namens eines Arbeitsbereichs beginnen und diesen auswählen, wenn er in der Liste angezeigt wird.
 
-1. Click **Save**.
-1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+1. Klicken Sie auf **Speichern**.
 
-1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+   Auf der Datensatztyp-Karte im Arbeitsbereich wird oben rechts ein Verbindungssymbol ![](assets/connect-from-other-workspaces-icon.png) angezeigt, das angibt, dass der Datensatz jetzt über andere Arbeitsbereiche zugänglich ist.
+
+1. (Optional) Klicken Sie im Arbeitsbereich auf die Karte vom Typ Datensatz , um die Seite des Datensatztyps zu öffnen, und benennen Sie dann den Datensatztyp in der Kopfzeile um.
+
+1. (Optional) Um einen anderen Datensatztyp zu bearbeiten, erweitern Sie auf der Seite mit dem Datensatztyp den nach unten zeigenden Pfeil rechts neben dem Namen eines Datensatztyps, suchen Sie nach einem Datensatztyp und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
    ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
-
-   -->

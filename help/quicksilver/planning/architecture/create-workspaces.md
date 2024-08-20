@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -134,7 +134,10 @@ Sie können einen Arbeitsbereich erstellen und ihm Datensatztypen hinzufügen, u
    * Ein leerer Arbeitsbereich mit dem Namen **Unbenannter Workspace** , in dem Sie Datensatztypen manuell hinzufügen können, wenn Sie einen neuen Arbeitsbereich erstellen.
    * Ein Arbeitsbereich mit dem Namen nach der ausgewählten Vorlage, der mit Beispieldatensatztypen gefüllt ist. Sie können die Datensatztypen und den Arbeitsbereich weiter anpassen.
 
-   Für Workfront-Administratoren wird der neue Arbeitsbereich auf der Registerkarte **Meine Arbeitsbereiche** angezeigt. <!--replace this with: **Workspaces I'm on** tab-->
+   Für Workfront-Administratoren wird der neue Arbeitsbereich auf der Registerkarte **Arbeitsbereiche, die ich verwende** angezeigt.
+
+   Für alle anderen Benutzer, die Arbeitsbereiche erstellen können, wird der neue Arbeitsbereich im Bereich **Arbeitsbereiche** angezeigt.
+
 1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die Eingabetaste.
 
 1. (Optional und bedingt) Wenn Sie den Arbeitsbereich aus einer Vorlage erstellt haben, klicken Sie in den Namen der Abschnitte **Typen für operative Datensätze** oder **Taxonomien** .

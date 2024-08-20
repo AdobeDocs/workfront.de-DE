@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -91,28 +91,20 @@ Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforde
 
 {{step1-to-planning}}
 
-1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Meine Arbeitsbereiche** , um auf die von Ihnen erstellten Arbeitsbereiche zuzugreifen, oder auf **Andere Arbeitsbereiche** , um auf Arbeitsbereiche zuzugreifen, die für Sie freigegeben sind. <!--replace My workspaces with **Workspaces I'm on**-->
+1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Arbeitsbereiche, die ich verwende, um auf die erstellten Arbeitsbereiche zuzugreifen, oder auf** Andere Arbeitsbereiche **, um auf Arbeitsbereiche zuzugreifen, die für Sie freigegeben wurden.**
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******
+<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
 
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To edit a workspace, do one of the following:
+1. (Optional) Klicken Sie auf **Alle anzeigen** , um weitere Arbeitsbereiche anzuzeigen. Der Link **Alle anzeigen** wird nur angezeigt, wenn Sie mehr als zwei Zeilen Workspace-Karten haben.
+1. (Optional) Klicken Sie auf K **Anzeigen weniger** , um die Anzahl der auf dem Bildschirm angezeigten Arbeitsbereiche zu begrenzen.
+1. Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu bearbeiten:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Edit**.
+   * Bewegen Sie den Mauszeiger über die Workspace-Karte und klicken Sie dann oben rechts auf der Karte auf das Menü **Mehr** ![](assets/more-menu.png) .
+Oder
+   * Klicken Sie auf eine Workspace-Karte, um den Arbeitsbereich zu öffnen, und klicken Sie dann auf das Menü **Mehr** rechts neben dem Arbeitsbereichnamen.![](assets/more-menu.png)
+1. Klicken Sie auf **Bearbeiten**.
 
-   ![](assets/edit-workspace-box.png)
-   -->
-
-1. Klicken Sie auf eine Workspace-Karte, um den Arbeitsbereich zu öffnen.
-
-   Die Workspace-Seite wird geöffnet.
-
-1. Klicken Sie in den Namen des Arbeitsbereichs in der Kopfzeile des neuen Arbeitsbereichs, um ihn umzubenennen, und drücken Sie dann die **Eingabetaste**.
-1. Klicken Sie auf das Menü **Mehr** rechts neben dem Workspace-Namen in der Kopfzeile und dann auf **Bearbeiten**.![](assets/more-menu.png)
+   Das Feld **Arbeitsbereich bearbeiten** wird angezeigt.
 
    ![](assets/edit-workspace-box.png)
 

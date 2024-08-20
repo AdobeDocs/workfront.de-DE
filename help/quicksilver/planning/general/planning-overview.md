@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1880'
 ht-degree: 2%
 
 ---
@@ -78,11 +78,11 @@ Weitere Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie
 | Sortieren von Datensätzen in der Timeline-Ansicht |                               | ✓ |                  |
 | Sortieren von Gruppierungen in der Tabellenansicht |                               | ✓ |                  |
 | Sortieren von Gruppierungen in der Timeline-Ansicht |                               | ✓ |                  |
-| Arbeitsbereiche verbinden |                               | ✓ |                  |
 | In der Tabellenansicht nach Datensätzen suchen | ✓ |   |
 | Suchen nach Datensätzen in der Timeline-Ansicht | ✓ |   |
 | Verbinden von Workfront-Planungsdatensätzen mit Workfront-Projekten, -Programmen, -Portfolios, -Unternehmen, -Gruppen | ✓ |                                 |                  |
 | Verbinden von Workfront-Planungsdatensätzen mit Adobe Experience Manager-Assets | ✓ |                                  |                 |
+| Planen von Datensätzen aus verschiedenen Arbeitsbereichen | ✓ |                                  |                 |
 | Seite mit detaillierten Informationen aufzeichnen | ✓ |                                  |                  |
 | Layout der Datensatzseite aktualisieren | ✓ |                                 |                  |
 | Freigeben von Arbeitsbereichen | ✓ | |  |
@@ -282,10 +282,10 @@ So suchen Sie die Workfront-Planung:
 
 
 1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
-   * **Meine Arbeitsbereiche**: Zeigt die von Ihnen erstellten Arbeitsbereiche an. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-   * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche des Systems an, einschließlich der für Sie freigegebenen Arbeitsbereiche. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+   * **Arbeitsbereiche, die ich verwende**: Zeigt Arbeitsbereiche an, die Sie erstellt haben, oder Arbeitsbereiche, die für Sie freigegeben sind.
+   * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an.
 
-   Für alle anderen Benutzer werden alle Arbeitsbereiche, die sie erstellt haben oder für sie freigegeben wurden, im Bereich **Arbeitsbereiche** angezeigt.
+   Für alle anderen Benutzer werden beide Arbeitsbereiche, die sie erstellt haben oder für sie freigegeben wurden, im Bereich **Arbeitsbereiche** angezeigt.
 
 1. (Optional und empfohlen) Fahren Sie mit einigen der folgenden Aktionen fort, um Ihre Arbeitsstruktur zu erstellen:
 
