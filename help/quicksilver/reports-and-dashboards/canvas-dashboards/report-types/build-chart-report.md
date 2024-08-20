@@ -6,14 +6,18 @@ description: Ein Diagrammbericht, der Ihre Daten als Balken-, Spalten-, Linien- 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines Diagrammberichts in einem Dashboard auf der Arbeitsfläche
+
+>[!IMPORTANT]
+>
+>Auf dieser Seite wird die Funktionalität beschrieben, die nur für Benutzer verfügbar ist, die in der Beta-Version der Canvas-Dashboards eingeschrieben sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Ein Diagrammbericht, der Ihre Daten als Balken-, Spalten-, Linien- oder Tortendiagramm visualisiert, kann einem Dashboard auf der Arbeitsfläche hinzugefügt werden.
 

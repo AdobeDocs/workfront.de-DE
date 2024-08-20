@@ -6,14 +6,18 @@ description: Grundlegende Anweisungen zur Verwendung von Canvas-Dashboards, eins
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit Dashboards auf der Arbeitsfläche
+
+>[!IMPORTANT]
+>
+>Auf dieser Seite wird die Funktionalität beschrieben, die nur für Benutzer verfügbar ist, die in der Beta-Version der Canvas-Dashboards eingeschrieben sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Mit Leinwanddashboards können Sie Ihre Adobe Workfront-Daten einfach visualisieren, indem Sie verschiedene Berichtstypen auf eine anpassbare Arbeitsfläche hinzufügen. Auf dieser Seite finden Sie grundlegende Anweisungen zur Verwendung von Canvas-Dashboards, einschließlich der Navigation zur Liste der Canvas-Dashboards sowie der Erstellung und Bearbeitung dieser Dashboards.
 

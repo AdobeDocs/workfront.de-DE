@@ -6,14 +6,18 @@ description: Nachdem Sie ein Canvas-Dashboard erstellt haben, können Sie ihm Be
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen, Entfernen oder Anordnen von Berichten in einem Leinwand-Dashboard
+
+>[!IMPORTANT]
+>
+>Auf dieser Seite wird die Funktionalität beschrieben, die nur für Benutzer verfügbar ist, die in der Beta-Version der Canvas-Dashboards eingeschrieben sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Nachdem Sie ein Canvas-Dashboard erstellt haben, können Sie ihm Berichte hinzufügen, die Ihre Adobe Workfront-Daten in verschiedenen Formaten anzeigen. Diese Berichte können nach Bedarf auf der Arbeitsfläche verschoben und in der Größe angepasst werden. Informationen zum Erstellen eines Canvas-Dashboards finden Sie unter [Erste Schritte mit Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

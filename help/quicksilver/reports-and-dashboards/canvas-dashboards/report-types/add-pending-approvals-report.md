@@ -6,14 +6,18 @@ description: Ein Bericht zu ausstehenden Genehmigungen, der Daten zu Ihren ausst
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # Einen Bericht über ausstehende Genehmigungen zu einem Dashboard auf der Arbeitsfläche hinzufügen
+
+>[!IMPORTANT]
+>
+>Auf dieser Seite wird die Funktionalität beschrieben, die nur für Benutzer verfügbar ist, die in der Beta-Version der Canvas-Dashboards eingeschrieben sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Ein Bericht zu ausstehenden Genehmigungen, der Daten zu Ihren ausstehenden und vorherigen Genehmigungsentscheidungen enthält, kann einem Dashboard auf der Arbeitsfläche hinzugefügt werden.
 

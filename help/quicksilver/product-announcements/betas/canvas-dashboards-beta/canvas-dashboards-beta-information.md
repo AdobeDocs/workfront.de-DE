@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,9 @@ Canvas-Dashboards sind eine derzeit in Entwicklung befindliche Funktion, mit der
 Grundlegende Informationen zur Verwendung von Canvas-Dashboards finden Sie unter [Erste Schritte mit Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 Eine Liste aller Dokumentation zu Canvas-Dashboards finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Beta-Zeitplan:**
+**Beta status**
 
-* Abgeschlossenes Beta-Startdatum - TBA
-* Open beta start date - TBA
-* Geplantes Veröffentlichungsdatum - TBA
+Canvas-Dashboards befinden sich derzeit in einer geschlossenen Beta-Testphase und stehen daher nur bestimmten Kunden auf Einladung zur Verfügung.
 
 ## Beta-Teilnahme
 

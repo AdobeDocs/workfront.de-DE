@@ -6,14 +6,18 @@ description: Sie können ein Canvas-Dashboard für andere Adobe Workfront-Benutz
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Freigeben eines Canvas-Dashboards
+
+>[!IMPORTANT]
+>
+>Auf dieser Seite wird die Funktionalität beschrieben, die nur für Benutzer verfügbar ist, die in der Beta-Version der Canvas-Dashboards eingeschrieben sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Sie können ein Canvas-Dashboard für andere Adobe Workfront-Benutzer freigeben, damit diese es anzeigen oder bearbeiten können.
 

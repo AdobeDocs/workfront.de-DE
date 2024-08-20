@@ -6,14 +6,18 @@ description: Ein KPI-Bericht, der deutlich einen einzelnen aggregierten KPI anze
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines KPI-Berichts in einem Leinwand-Dashboard
+
+>[!IMPORTANT]
+>
+>Auf dieser Seite wird die Funktionalität beschrieben, die nur für Benutzer verfügbar ist, die in der Beta-Version der Canvas-Dashboards eingeschrieben sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Ein KPI-Bericht, der deutlich einen einzelnen aggregierten KPI anzeigt, kann einem Canvas-Dashboard hinzugefügt werden.
 
