@@ -7,9 +7,9 @@ description: In diesem Artikel werden die Einstellungen beschrieben, die im Bedi
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,30 @@ Diese Option bestimmt, wie [!DNL Adobe Workfront Fusion] ausgeführt wird, wenn 
 
 ## [!UICONTROL  Sequenzielle Verarbeitung]
 
-Diese Option bestimmt, wie [!DNL Workfront Fusion] ausgeführt wird, wenn ein Fehler auftritt und die Ausführung eines Szenarios in die [Ansicht verschoben wird und unvollständige Ausführungen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) aufgelöst werden. Wenn die Option [!UICONTROL Sequenzielle Verarbeitung] aktiviert ist, stoppt Workfront Fusion die Verarbeitung der Aufgabensequenz vollständig, bis alle unvollständigen Ausführungen abgeschlossen sind. Wenn die Option [!UICONTROL Sequenzielle Verarbeitung] deaktiviert ist, wird das Szenario weiterhin gemäß seinem Zeitplan ausgeführt, wobei wiederholte Versuche unternommen werden, die unvollständigen Ausführungen erneut auszuführen.
+Diese Option zwingt alle Ausführungen zur richtigen Reihenfolge und ist in erster Linie für Webhooks und unvollständige Ausführungen relevant.
+
+Wenn die sequenzielle Verarbeitung aktiviert ist, werden parallele Ausführungen des Szenarios deaktiviert.
+
+### Sofortige Webhooks
+
+Wenn ein Webhook-Trigger als `instant` konfiguriert und &quot;Sequenzielle Verarbeitung&quot;aktiviert ist, werden alle Instant-Webhook-Payloads in die Warteschlange gestellt und in der Reihenfolge verarbeitet, in der sie eintreffen. Dies kann nützlich sein, wenn Ereignisse von externen Systemen in exakter Reihenfolge verarbeitet werden.
+
+>[!NOTE]
+>
+>Es gibt automatische Verarbeitungsverzögerungen, da jede Payload verarbeitet wird, bevor der nächste gestartet wird.
+
+### Nicht abgeschlossene Ausführungen
+
+Wenn &quot;Unvollständige Ausführungen&quot;ebenfalls aktiviert ist und während der Ausführung eines Szenarios ein Fehler auftritt, wird das Szenario angehalten. Dann tritt einer der folgenden Fehler auf:
+
+* Wenn die Option für die sequenzielle Verarbeitung **aktiviert** ist, stoppt Workfront Fusion die Verarbeitung der bereits vorhandenen Sequenz, bis alle unvollständigen Ausführungen abgeschlossen sind.
+* Wenn die Option &quot;Sequenzielle Verarbeitung&quot;auf **disabled** gesetzt ist, wird das Szenario weiterhin gemäß seinem Zeitplan ausgeführt, wobei wiederholte Versuche unternommen werden, die unvollständigen Ausführungen erneut auszuführen.
+
+Weitere Informationen zu unvollständigen Ausführungen finden Sie unter [Anzeigen und Auflösen unvollständiger Ausführungen in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+
+<!--
+
+This option determines how [!DNL Workfront Fusion] proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the [!UICONTROL Sequential processing] option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the [!UICONTROL Sequential processing] option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.-->
 
 >[!NOTE]
 >
