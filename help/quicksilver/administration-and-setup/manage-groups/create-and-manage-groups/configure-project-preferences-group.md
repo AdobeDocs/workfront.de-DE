@@ -1,16 +1,16 @@
 ---
-title: Konfigurieren von Projektvoreinstellungen für eine Gruppe
+title: Konfigurieren von Projekteinstellungen für eine Gruppe
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 description: Wenn Sie Gruppenadministrator und Adobe Workfront-Administrator sind und eine Projektvoreinstellung für alle Gruppen im System freischalten, können Sie diese Voreinstellung so konfigurieren, dass sich diese Voreinstellung auf alle nachfolgenden von Ihrer Gruppe erstellten Projekte auswirkt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '2658'
+source-wordcount: '2654'
 ht-degree: 2%
 
 ---
@@ -36,6 +36,8 @@ Weitere Informationen dazu, wie ein Workfront-Administrator eine Projektvoreinst
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -55,13 +57,15 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
++++
+
 ## Konfigurieren einer entsperrten Projektreferenz für eine Gruppe
 
 >[!TIP]
 >
 >Wenn Sie Workfront-Administrator sind, können Sie die Schritte 1 bis 4 umgehen, indem Sie zu Einrichtung > Projekteinstellungen > Projekte navigieren und dann im Feld oben auf der Seite nach dem Gruppennamen suchen.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 

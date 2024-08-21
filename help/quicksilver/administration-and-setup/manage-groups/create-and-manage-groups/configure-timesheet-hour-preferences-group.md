@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: group,Preferences,task,groups,issue,unlock
 navigation-topic: create-and-manage-groups
-title: Konfigurieren von Zeitblatt- und Stundeneinstellungen für eine Gruppe
+title: Konfigurieren von Timesheet- und Stunden-Voreinstellungen für eine Gruppe
 description: Auf Systemebene kann ein Adobe Workfront-Administrator die Abschnitte "Allgemeine Voreinstellungen"und "Timesheet- und Stundenvoreinstellungen"entsperren und Zeitesheets vorab ausfüllen. Auf diese Weise können Gruppenadministratoren die Optionen in diesen Abschnitten unabhängig für ihre eigenen Gruppen konfigurieren.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1364'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Ein Adobe Workfront-Administrator kann die folgenden Abschnitte der Voreinstellu
 
 * Allgemeine Einstellungen
 * Wo Benutzende die Zeit protokollieren können
-* Vorausfüllen von Zeitesheets
+* Vorab-Ausfüllen von Arbeitszeittabellen
 
 Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
 
@@ -81,7 +81,7 @@ Beachten Sie die folgenden Informationen zum Konfigurieren eines entsperrten Zei
 >
 >Wenn Sie Workfront-Administrator sind, können Sie die Schritte 1 bis 4 umgehen, indem Sie &quot;Einrichtung&quot;> &quot;Zeitblatt und Stunden&quot;> &quot;Voreinstellungen&quot;aufrufen und dann im Feld oben auf der Seite nach dem Gruppennamen suchen.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 

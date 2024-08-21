@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Kick-Starts-Szenario: Importieren von benutzerdefinierten Feldern mit mehreren Optionen in Workfront"
+title: "Kick-Start-Szenario: Importieren von benutzerdefinierten Feldern mit mehreren Optionen in Workfront"
 description: Mit der Kick-Start-Funktion können Sie benutzerdefinierte Felder mit mehreren Optionen in Adobe Workfront importieren.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,9 @@ Wenn Sie die Workfront-Datenbankobjekte und -struktur gut verstehen, können Sie
 
 So exportieren Sie vorhandene Daten aus Workfront:
 
-1. Klicken Sie oben rechts auf der Workfront-Benutzeroberfläche auf **Hauptmenü > Einrichtung** .
-1. Erweitern Sie das Menü **System** links und klicken Sie dann auf **Daten exportieren (Kick-Starts)**.
+{{step-1-to-setup}}
+
+1. Erweitern Sie **System** im linken Menü und klicken Sie dann auf **Daten exportieren (Kick-Starts)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ So exportieren Sie vorhandene Daten aus Workfront:
 
 Nachdem Sie die Informationen zu vorhandenen benutzerdefinierten Feldern in Ihrem System durchsucht haben, können Sie eine neue Schnellstartvorlage für Ihren Import herunterladen.
 
-1. Klicken Sie oben rechts auf der Workfront-Benutzeroberfläche auf **Hauptmenü > Einrichtung** .
+{{step-1-to-setup}}
 
-1. Erweitern Sie das Menü **System** nach links.
+1. Erweitern Sie **System** im linken Menü.
 
 1. Klicken Sie auf **Daten importieren (Kick-Starts)**.
 
@@ -129,9 +130,6 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
    >Informationen zu den Namen der Objekte in der Workfront-Datenbank finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. Stellen Sie sicher, dass die folgenden Informationen korrekt formatiert sind:
@@ -245,7 +243,9 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
 
 Nachdem Sie die in den vorherigen Abschnitten beschriebenen Schritte ausgeführt haben, fahren Sie mit den folgenden Schritten fort, um die neuen Felder und Formulare in Workfront hochzuladen:
 
-1. Klicken Sie auf **Daten importieren** **(Kick-Starts) **unter dem Menü **Hauptmenü > Einrichtung > System**.
+{{step-1-to-setup}}
+
+1. Klicken Sie auf **System > Import Data (Kick-Starts)**.
 
 1. Klicken Sie unter dem Abschnitt **Daten mit Kick-Start-Tabelle hochladen** auf **Datei auswählen** .
 

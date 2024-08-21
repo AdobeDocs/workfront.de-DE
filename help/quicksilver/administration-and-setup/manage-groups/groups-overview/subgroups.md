@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-title: Übersicht über Untergruppen
+title: Untergruppen - Übersicht
 description: Sie können bis zu 14 Ebenen von Untergruppen unter einer Gruppe erstellen. Auf jeder dieser Ebenen können Sie eine unbegrenzte Anzahl paralleler Untergruppen erstellen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%

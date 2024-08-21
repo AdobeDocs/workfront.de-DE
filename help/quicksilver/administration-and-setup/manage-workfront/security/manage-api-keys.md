@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: Verwalten von API-Schlüsseln
+title: API-Schlüssel verwalten
 description: Um API-Sicherheitslücken zu minimieren, können Adobe Workfront-Administratoren die API-Schlüssel verwalten, mit denen Anwendungen im Auftrag eines Benutzers auf Workfront zugreifen können.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1322'
 ht-degree: 2%
 
 ---
 
-# Verwalten von API-Schlüsseln
+# API-Schlüssel verwalten
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
@@ -34,6 +34,8 @@ Beispiele für Anwendungen, die die Workfront-API nutzen:
 >Beim Zurücksetzen oder Entfernen eines API-Schlüssels muss jede Anwendung, die die Workfront-API nutzt und sich über diesen API-Schlüssel bei Workfront authentifiziert, neu konfiguriert werden, um wieder Zugriff auf Workfront zu erhalten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -56,6 +58,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Workfront-API-Schlüssel
 
 Jeder Benutzer in Workfront verfügt über einen eindeutigen API-Schlüssel. Dieser Schlüssel wird pro Benutzer generiert, wenn der Benutzer auf eine Integration zugreift, die die Workfront-API nutzt (z. B. die mobile Workfront-App oder eine Dokumentintegration).
@@ -74,7 +78,7 @@ Sie können den API-Schlüssel für Ihr Administratorbenutzerkonto generieren, z
 >
 >Sie können auch einen API-Schlüssel über die API generieren. Weitere Informationen finden Sie im Abschnitt [Event Subscription API](../../../wf-api/general/event-subs-api.md) in der [Event Subscription API](../../../wf-api/general/event-subs-api.md).
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **System >** **Customer Info.**
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
@@ -98,7 +102,7 @@ Sie können API-Schlüssel für Benutzer in anderen Rollen als dem Workfront-Adm
 
 1. (Bedingt) Wenn Ihr Unternehmen die SSO-Zugriffsverwaltung (Single Sign-On) verwendet, deaktivieren Sie vorübergehend die Option, für die eine SSO-Authentifizierung erforderlich ist.
 
-   1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+   {{step-1-to-setup}}
 
    1. Erweitern Sie **System** und klicken Sie dann auf **Single Sign-on (SSO)**.
    1. Wählen Sie im Feld **Typ** den SSO-Typ aus, den Ihr Unternehmen verwendet.
@@ -115,7 +119,7 @@ Sie können API-Schlüssel für Benutzer in anderen Rollen als dem Workfront-Adm
 
 1. (Bedingt) Aktivieren Sie die Option, für die eine SSO-Authentifizierung erforderlich ist, wenn Sie sie in Schritt 1 deaktiviert haben.
 
-   1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+   {{step-1-to-setup}}
 
    1. Erweitern Sie **System** und klicken Sie dann auf **Single Sign-on (SSO)**.
 
@@ -126,7 +130,7 @@ Sie können API-Schlüssel für Benutzer in anderen Rollen als dem Workfront-Adm
 
 Sie können API-Schlüssel so konfigurieren, dass sie für alle Benutzer in Ihrem System ablaufen. Wenn der API-Schlüssel eines Benutzers abläuft, muss der Benutzer sich erneut bei allen Anwendungen authentifizieren, die die Workfront-API für den Zugriff auf Workfront verwenden. Sie können die Häufigkeit ändern, mit der die API-Schlüssel ablaufen. Sie können auch konfigurieren, ob API-Schlüssel ablaufen, wenn das Kennwort eines Benutzers abläuft.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **System** > **Kunden-Info**.
 1. Wählen Sie im Bereich **API-Schlüsseleinstellungen** in der Dropdown-Liste **Nach der Erstellung** die API-Schlüssel **, die in der Dropdownliste** ablaufen, den Zeitrahmen aus, in dem die API-Schlüssel ablaufen sollen.
@@ -151,7 +155,7 @@ Wenn Sie wegen einer bestimmten Sicherheitsverletzung in Bezug auf Ihr Workfront
 >
 >Durch das Entfernen der API-Schlüssel für alle Benutzer werden ALLE API-Schlüssel für alle Benutzer im System ungültig. Dadurch schlagen all Ihre Integrationen in Workfront fehl, bis Sie einen neuen API-Schlüssel in Workfront generieren und alle Ihre Integrationen aktualisieren.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Erweitern Sie **System** und klicken Sie dann auf **Kundeninformationen**.
 

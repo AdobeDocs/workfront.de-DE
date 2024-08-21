@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Benutzerdefinierten Status als Standardstatus für eine Gruppe verwenden
-description: Als Gruppenadministrator können Sie einen benutzerdefinierten Status als Standardstatus für eine von Ihnen verwaltete Gruppe oder Untergruppe konfigurieren. Dies ist nützlich, wenn das System einem Projekt, einer Aufgabe oder einem Problem automatisch einen Workfront-Status zuweisen muss. Bei einem Projekt, einer Aufgabe oder einem Problem wird immer der benutzerdefinierte Status angezeigt, den Sie als Standardstatus festlegen, anstatt den Workfront-Status anzuzeigen, dem es entspricht.
-author: Caroline
+title: Verwenden eines benutzerdefinierten Status als Standardstatus für eine Gruppe
+description: Als Gruppenadministrator können Sie einen benutzerdefinierten Status als Standardstatus für eine von Ihnen verwaltete Gruppe oder Untergruppe konfigurieren.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Admin
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -50,6 +52,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
++++
+
 ## Problemstatus
 
 Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Ausgabetypen dafür aktiviert sein (Fehlerbericht, Änderungsreihenfolge, Problem und Anfrage). Beispielsweise kann der Status Neu geöffnet im unten gezeigten Problemstatus nicht als Standardstatus verwendet werden, da der Problemtyp Reihenfolge ändern nicht ausgewählt ist:
@@ -58,7 +62,8 @@ Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Ausg
 
 ## Benutzerdefinierten Status als Standardstatus für eine Gruppe festlegen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
+
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png) und klicken Sie dann auf den Namen der Gruppe, in der Sie Status erstellen oder anpassen möchten.
 1. Klicken Sie im linken Bereich auf **Status** ![](assets/gear-icon-settings.png).
 1. Öffnen Sie je nach dem Statustyp, den Sie als Standardstatus festlegen möchten, die Registerkarte **Projekt**, **Aufgaben** oder **Probleme**.

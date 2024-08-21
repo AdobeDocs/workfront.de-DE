@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: create,group,subgroup,new
 navigation-topic: create-and-manage-groups
-title: Gruppe erstellen
+title: Erstellen einer Gruppe
 description: Als Adobe Workfront-Administrator können Sie Gruppen erstellen, um Benutzer und Projekte zu organisieren und Zugriffsberechtigungen in Workfront zuzuweisen.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1658'
 ht-degree: 3%
 
 ---
@@ -29,6 +29,8 @@ Jede Untergruppe benötigt mindestens einen Gruppenadministrator. Gruppenadminis
 Wenn Sie Gruppenadministrator oder Workfront-Administrator sind, können Sie auch Untergruppen unter einer Gruppe erstellen. Anweisungen finden Sie unter [Erstellen einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -49,13 +51,15 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
++++
+
 ## Erstellen einer Gruppe der obersten Ebene von Grund auf neu
 
 In diesen Schritten wird beschrieben, wie Sie eine neue Gruppe von Grund auf neu erstellen. Informationen zum Erstellen einer Gruppe oder Untergruppe durch Kopieren einer vorhandenen Gruppe finden Sie unter [Erstellen einer Gruppe der obersten Ebene durch Kopieren einer vorhandenen Gruppe oder Untergruppe](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in diesem Artikel.
 
 Sie müssen ein Workfront-Administrator sein, um eine Gruppe der obersten Ebene zu erstellen.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
@@ -127,7 +131,7 @@ Beachten Sie Folgendes, wenn Sie dies tun möchten:
 
 So erstellen Sie eine neue Gruppe der obersten Ebene durch Kopieren einer Gruppe oder Untergruppe:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 

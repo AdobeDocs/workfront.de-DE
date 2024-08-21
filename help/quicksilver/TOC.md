@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
+source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
 workflow-type: tm+mt
 source-wordcount: '14337'
 ht-degree: 2%
@@ -707,8 +707,8 @@ ht-degree: 2%
       * Verwalten von gelöschten Elementen {#manage-deleted-items}
          * [Gelöschte Elemente verwalten](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [Gelöschte Elemente wiederherstellen](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-         * [Wiederhergestelltes Element anzeigen](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-         * [Funktionsweise gelöschter Objekte](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+         * [Wiederhergestellte Elemente anzeigen](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+         * [Auswirkungen von gelöschten Objekten auf Stunden](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [Einzelne untergeordnete Objekte wiederherstellen](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
       * Diagnose {#diagnostics}
          * [Diagnose](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)

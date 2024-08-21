@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: Kennwortrichtlinien für die Authentifizierung konfigurieren
+title: Kennwortrichtlinien für Authentifizierung konfigurieren
 description: Als Adobe Workfront-Administrator können Sie Optionen für Kennwortrichtlinien konfigurieren, um die Authentifizierungserfahrung auf Ihr Workfront-System anzupassen.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 2%
 
 ---
 
-# Kennwortrichtlinien für die Authentifizierung konfigurieren
+# Kennwortrichtlinien für Authentifizierung konfigurieren
 
 {{important-admin-console-onboard}}
 
@@ -26,6 +26,8 @@ Es wird empfohlen, die Authentifizierungseinstellungen während der Workfront-Im
 Verbesserte Funktionen zur Kennwortverwaltung stehen in Kürze zur Verfügung oder stehen möglicherweise bereits für Ihre Organisation zur Verfügung. Verwenden Sie einen der folgenden Abschnitte, je nachdem, ob Ihr Unternehmen Zugriff auf das neue Authentifizierungs-Erlebnis hat.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -48,13 +50,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Authentifizierung konfigurieren (für alle Kunden verfügbar) {#configure-authentication-available-for-all-customers}
 
 Authentifizierungsoptionen werden für alle Kunden angezeigt. Verbesserte Funktionen zur Kennwortverwaltung stehen in Kürze zur Verfügung oder sind möglicherweise bereits für Ihre Organisation verfügbar, wie im Abschnitt [Erweiterte Authentifizierung konfigurieren)](#configure-enhanced-authentication-coming-soon) in diesem Artikel beschrieben.
 
 So konfigurieren Sie Authentifizierungsvoreinstellungen:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **System** > **Authentifizierung**.
 
@@ -97,7 +101,7 @@ In diesem Abschnitt wird die erweiterte Authentifizierungserfahrung beschrieben,
 
 So konfigurieren Sie erweiterte Authentifizierungseinstellungen:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **System** > **Erweiterte Authentifizierung**.
 1. Geben Sie in das Feld **Kennwortlänge** die Mindestanzahl von Zeichen ein, die für ein gültiges Kennwort erforderlich sind.

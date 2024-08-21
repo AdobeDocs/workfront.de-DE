@@ -7,9 +7,10 @@ title: Gelöschte Elemente verwalten
 description: Als Workfront-Administrator können Sie Workfront-Projekte, -Aufgaben, -Probleme, -Dokumente und -Vorlagen wiederherstellen, wenn sie in den letzten 30 Tagen gelöscht wurden. Beim Wiederherstellen eines Objekts werden auch alle untergeordneten Objekte und Felder wiederhergestellt.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 6b76ff52-2809-4d11-aeb0-a328e1efc489
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%

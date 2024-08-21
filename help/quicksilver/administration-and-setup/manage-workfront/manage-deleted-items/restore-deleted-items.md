@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Gelöschte Elemente wiederherstellen
-description: Wenn Sie Workfront-Administrator sind, können Sie Projekte, Aufgaben, Probleme, Dokumente und Vorlagen in Adobe Workfront wiederherstellen, wenn sie in den letzten 30 Tagen gelöscht wurden. Nach 30 Tagen werden diese Elemente dauerhaft gelöscht und können nicht wiederhergestellt werden. Beim Wiederherstellen eines Objekts werden auch alle untergeordneten Objekte und Felder wiederhergestellt. Wenn Sie beispielsweise ein Projekt wiederherstellen, werden alle Aufgaben, Probleme, Dokumente, Stunden, Anmerkungen, Zuweisungen und benutzerdefinierten Daten im Projekt ebenfalls wiederhergestellt.items
+description: Wenn Sie Workfront-Administrator sind, können Sie Projekte, Aufgaben, Probleme, Dokumente und Vorlagen in Adobe Workfront wiederherstellen, wenn sie in den letzten 30 Tagen gelöscht wurden. Nach 30 Tagen werden diese Elemente dauerhaft gelöscht und können nicht wiederhergestellt werden.
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1044'
+ht-degree: 2%
 
 ---
 

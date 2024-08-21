@@ -3,22 +3,22 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Kick-Starts - einfache Projekt- und Aufgabenimportvorbereitung
+title: "Kick-Starts-Szenario: Vorbereitung des einfachen Projekts und des Aufgabenimports"
 description: Beschreibt ausführlich die verfügbaren Einstellungen und Steuerelemente für ein einfaches Projekt und den Import von Aufgaben mithilfe der Kick Start-Methode.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1475'
 ht-degree: 9%
 
 ---
 
 # Szenario &quot;Kick-Starts&quot;: einfache Vorbereitung für Projekt- und Aufgabenimport
 
-Beschreibt ausführlich die verfügbaren Einstellungen und Steuerelemente für ein einfaches Projekt und den Import von Aufgaben mithilfe der Kick Start-Methode.
+Beschreibt ausführlich die verfügbaren Einstellungen und Steuerelemente für ein einfaches Projekt und den Import von Aufgaben mithilfe der Kick-Start-Methode.
 
 ## Szenario
 

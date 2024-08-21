@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: security
 title: Ändern der Adobe Workfront-Domäne
 description: Als Adobe Workfront-Administrator und autorisierter Workfront-Support-Kontakt können Sie beim Workfront-Support Hilfe anfordern, um die Workfront-Domäne Ihres Unternehmens zu ändern.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 Als Adobe Workfront-Administrator und autorisierter Workfront-Support-Kontakt können Sie beim Workfront-Support Hilfe anfordern, um die Workfront-Domäne Ihres Unternehmens zu ändern.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -48,6 +50,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Domain-Änderung anfordern
 
 1. Erstellen Sie ein Support-Ticket auf dem Experience League.
@@ -64,7 +68,7 @@ Wenn Ihr Unternehmen SSO verwendet, sind die folgenden Schritte erforderlich, na
 >
 >Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie in der linken Seitenleiste auf **System** > **Kundeninformationen** und stellen Sie sicher, dass Ihre Domäne auf der Seite &quot;Kundeninformationen&quot;aktualisiert wird.
 

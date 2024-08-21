@@ -1,16 +1,16 @@
 ---
-title: Benutzer als Gruppenadministrator zuweisen
+title: Zuweisen eines Benutzers als Gruppenadministrator
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Als Gruppenadministrator einer Gruppe können Sie anderen Benutzern Gruppenadministratoren für diese Gruppe zuweisen. Adobe Workfront-Administratoren können dies ebenfalls tun.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Weitere Informationen zu Gruppenadministratoren und deren Möglichkeiten finden 
 Allgemeine Informationen zu Gruppen finden Sie unter [Gruppenübersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -44,9 +46,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
++++
+
 ## Benutzer als Gruppenadministrator zuweisen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 

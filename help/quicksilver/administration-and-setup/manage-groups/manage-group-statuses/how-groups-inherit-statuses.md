@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Vererben von Status durch Gruppen
+title: Übernehmen von Status durch Gruppen
 description: Wenn Sie die für eine Gruppe verfügbaren Status auflisten, sehen Sie Folgendes
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3937fd72-fa54-4777-9ec4-1f097df7a2ee
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%

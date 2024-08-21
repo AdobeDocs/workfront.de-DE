@@ -1,16 +1,16 @@
 ---
-title: Übersicht über Startsegmente
+title: Startsegmentübersicht
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: Im Profil des Benutzers wird eine Home Group zugewiesen. Alle Benutzer benötigen eine Home Group. Ein Benutzer kann mehreren Gruppen angehören, kann jedoch nur eine Home Group haben. Obwohl jede bestehende Gruppe im System als Startseite eines Benutzers zugewiesen werden kann, empfehlen wir, neue Gruppen zu erstellen und zuzuweisen, die größere Organisationseinheiten darstellen. Überlegen Sie bei der Einrichtung von Home Groups, wie Ihr Unternehmen Ihre Adobe Workfront-Benutzer teilt.
-author: Caroline
+description: Im Profil des Benutzers wird eine Home Group zugewiesen. Alle Benutzer benötigen eine Home Group.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---

@@ -6,11 +6,11 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Häufig gestellte Fragen zu Kick-Starts
 description: Hier finden Sie Antworten auf häufig gestellte Fragen zum Importieren und Exportieren von Workfront-Daten mithilfe von Kick-Starts.
-author: Caroline
+author: LIsa
 feature: System Setup and Administration
 role: Admin
 exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
-source-git-commit: 1ebdb3797e30a7e06f4dfd4a7e0e5f540351c126
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%

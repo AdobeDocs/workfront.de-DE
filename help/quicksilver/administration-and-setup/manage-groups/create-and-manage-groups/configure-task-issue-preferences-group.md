@@ -1,17 +1,17 @@
 ---
-title: Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe
+title: Konfigurieren der Voreinstellungen für Aufgaben und Probleme für eine Gruppe
 user-type: administrator
 product-area: system-administration;user-management;setup
 keywords: group,Preferences,task,issue,unlock
 navigation-topic: create-and-manage-groups
 description: Wenn Gruppen in Ihrem Unternehmen eine Aufgabe oder eine Aufgabenvorgabe unabhängig von der Konfiguration auf Systemebene konfigurieren müssen, kann ein Adobe Workfront-Administrator die Voreinstellung entsperren. Als Gruppenadministrator können Sie dann die Voreinstellung für Ihre Gruppe konfigurieren und sie wirkt sich auf alle Aufgaben oder Probleme aus, die mit Ihrer Gruppe verbunden sind.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1891'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,8 @@ Weitere Informationen dazu, wie der Workfront-Administrator Voreinstellungen ent
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -58,13 +60,15 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
++++
+
 ## Konfigurieren von entsperrten Aufgaben und Problemeinstellungen für eine Gruppe der obersten Ebene
 
 >[!TIP]
 >
 >Wenn Sie Workfront-Administrator sind, können Sie die Schritte 1 bis 4 umgehen, indem Sie zu Einrichtung > Projekteinstellungen > Aufgaben und Probleme navigieren und dann im Feld oben auf der Seite nach dem Gruppennamen suchen.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 

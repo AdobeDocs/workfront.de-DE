@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Als Gruppenadministrator können Sie eine Gruppe, die Sie verwalten, im Bereich 
 >Wenn Sie als Administrator für eine Gruppe zugewiesen sind, erben Sie die Rolle des Gruppenadministrators für alle Untergruppen, die darunter liegen. Die einzigen Benutzer, die eine Untergruppe verwalten können, sind die Gruppenadministratoren für die oberste Gruppe darüber sowie alle Gruppenadministratoren, die der Untergruppe zugewiesen sind.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -48,6 +50,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
+
++++
 
 ## Gruppenmitgliedschaften verwalten
 
@@ -71,7 +75,7 @@ Anweisungen finden Sie unter [Details einer Gruppe anzeigen und verwalten](../..
 
 Ohne die Hauptseite einer Gruppe zu verlassen, die Sie anzeigen, können Sie die Gruppe schnell bearbeiten, kopieren oder löschen.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **Gruppen**.
 

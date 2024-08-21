@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: Vermeiden doppelter Benutzer
+title: Vermeiden von doppelten Benutzern
 description: Bei der Erstellung eines neuen Benutzers in Adobe Workfront können Sie keine E-Mail-Adresse mehr verwenden, die bereits von einem anderen Benutzer verwendet wird, selbst wenn die E-Mail-Adresse von Fall zu Fall unterschiedlich ist (z. B. JohnDoe@example.com und johndoe@example.com). Um sich auf zukünftige Authentifizierungsverbesserungen vorzubereiten, stellen Sie außerdem sicher, dass alle Benutzer über eindeutige E-Mail-Adressen in einer Workfront-Instanz verfügen.
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Bei der Erstellung eines neuen Benutzers in Adobe Workfront können Sie keine E-Mail-Adresse mehr verwenden, die bereits von einem anderen Benutzer verwendet wird, selbst wenn die E-Mail-Adresse von Fall zu Fall unterschiedlich ist (z. B. JohnDoe@example.com und johndoe@example.com). Um sich auf zukünftige Authentifizierungsverbesserungen vorzubereiten, stellen Sie außerdem sicher, dass alle Benutzer über eindeutige E-Mail-Adressen in einer Workfront-Instanz verfügen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,6 +44,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
++++
+
 ## Erstellen von Benutzern mit eindeutigen E-Mail-Adressen
 
 Ab Version 2019.4 können Sie bei der Erstellung eines neuen Benutzers in Workfront keine E-Mail-Adresse mehr verwenden, die bereits von einem anderen Benutzer verwendet wird, selbst wenn die E-Mail-Adresse von Fall zu Fall unterschiedlich ist. Sie können beispielsweise keinen Benutzer mit der E-Mail-Adresse JohnDoe@example.com erstellen, wenn ein anderer Benutzer die E-Mail-Adresse johndoe@example.com hat.
@@ -53,7 +57,7 @@ So beheben Sie doppelte E-Mail-Adressen in einer Workfront-Instanz:
 
 1. Untersuchen Sie doppelte Benutzer und entscheiden Sie, welcher Benutzer nicht mehr benötigt wird.
 
-   1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Workfront und klicken Sie dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
+   {{step-1-to-users}}
 
    1. Wählen Sie im Menü **Filter** die Option **Alle** aus.
 

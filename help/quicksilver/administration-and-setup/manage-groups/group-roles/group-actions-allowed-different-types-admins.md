@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Für verschiedene Arten von Administratoren zulässige Aktionen
+title: Für Gruppenadministratoren zulässige Aktionen
 description: In dieser Tabelle werden die Verwaltungsaktivitäten verglichen, die für einen Adobe Workfront-Administrator, der das Workfront-System verwaltet, einen Gruppenadministrator, der eine Gruppe der obersten Ebene verwaltet, und einen Gruppenadministrator, der eine Untergruppe verwaltet, verfügbar sind.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 2%
+source-wordcount: '537'
+ht-degree: 3%
 
 ---
 
@@ -98,7 +98,7 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td>Erstellen und Verwalten von Layoutvorlagen</td> 
+   <td>Layout-Vorlagen erstellen und verwalten</td> 
    <td>✓ </td> 
    <td>✓</td> 
    <td>✓</td> 

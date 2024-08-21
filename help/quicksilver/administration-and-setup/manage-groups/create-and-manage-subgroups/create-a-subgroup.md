@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: Erstellen einer Untergruppe
 description: Sie können eine Untergruppe unter einer Gruppe erstellen, die Sie verwalten, um Benutzer und Projekte zu organisieren und Zugriffsberechtigungen in Adobe Workfront zuzuweisen. In der Regel verwalten Gruppenadministratoren Gruppen und Untergruppen. Sie können die Seite Gruppen verwenden, um ihre Gruppen und Untergruppen an einem Ort zu verwalten.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '879'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Admin
 In der Regel verwalten Gruppenadministratoren jedoch Gruppen und Untergruppen. Sie können die Seite Gruppen verwenden, um ihre Gruppen und Untergruppen an einem Ort zu verwalten. Informationen dazu, wie Gruppen und Untergruppen in Workfront funktionieren, finden Sie unter [Gruppenübersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md) und [Übersicht über Untergruppen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -44,9 +46,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
++++
+
 ## Hinzufügen einer Untergruppe
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **Gruppen**.
 

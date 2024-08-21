@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Neuanordnen von Gruppenstatus
 description: Als Gruppenadministrator können Sie die Reihenfolge der Projekte, Aufgaben und Problemstatus für eine von Ihnen verwaltete Gruppe ändern.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '487'
 ht-degree: 6%
 
 ---
@@ -38,6 +38,8 @@ Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Admin
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
+
++++
 
 ## Standardreihenfolge der Status
 
@@ -108,7 +112,7 @@ Standardmäßig werden die Status in der folgenden Reihenfolge angezeigt:
 
 ## Neuanordnen des Status für Aufgaben und Projekte in einer von Ihnen verwalteten Gruppe
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** und klicken Sie dann auf den Namen der Gruppe.
 1. Klicken Sie im linken Bereich auf **Status**.
@@ -122,7 +126,7 @@ Standardmäßig werden die Status in der folgenden Reihenfolge angezeigt:
 
 ## Status für Probleme neu anordnen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** und klicken Sie dann auf den Namen der Gruppe.
 1. Klicken Sie im linken Bereich auf **Status**.

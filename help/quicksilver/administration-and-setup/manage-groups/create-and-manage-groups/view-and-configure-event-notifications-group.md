@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Informationen zur standardmäßigen Benachrichtigungseinstellung für ein Ereign
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
 <table style="table-layout:auto"> 
@@ -51,10 +53,15 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
++++
+
 ## Anzeigen und Konfigurieren von Ereignisbenachrichtigungen einer Gruppe
 
-1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind und sich bereits auf der Seite &quot;E-Mail-Benachrichtigungen&quot;befinden (Setup > E-Mail > Benachrichtigungen), können Sie Folgendes tun und dann zu Schritt 6 wechseln: Löschen Sie **Systemereignisbenachrichtigungen** im Feld über der Liste, beginnen Sie mit der Eingabe des Gruppennamen in das Feld und klicken Sie dann auf die Gruppe, wenn sie angezeigt wird.
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+>[!TIP]
+>
+>Wenn Sie Workfront-Administrator sind und sich bereits auf der Seite &quot;E-Mail-Benachrichtigungen&quot;befinden (Setup > E-Mail > Benachrichtigungen), können Sie Folgendes tun und dann mit Schritt 6: Löschen Sie **Systemereignisbenachrichtigungen** im Feld über der Liste beginnen, den Gruppennamen in das Feld eingeben und dann auf ihn klicken, wenn er angezeigt wird.
+
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 

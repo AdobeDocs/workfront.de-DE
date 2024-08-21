@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Gruppenrollen
-description: Der Workfront-Administrator gewährt Gruppen Zugriff auf die Bereiche der Workfront, in denen sie arbeiten und kommunizieren müssen. Jede Gruppe kann dann ihre Workfront-Informationen wie Benutzer, Vorlagen, benutzerdefinierte Formulare und Projekte von denen anderer Abteilungen trennen. Für jede Gruppe ist mindestens ein Gruppenadministrator erforderlich. Unter einer Gruppe können bis zu 14 Ebenen von Untergruppen existieren.
-author: Caroline
+description: Der Workfront-Administrator gewährt Gruppen Zugriff auf die Bereiche der Workfront, in denen sie arbeiten und kommunizieren müssen. Jede Gruppe kann dann ihre Workfront-Informationen wie Benutzer, Vorlagen, benutzerdefinierte Formulare und Projekte von denen anderer Abteilungen trennen.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '70'
 ht-degree: 2%
 
 ---

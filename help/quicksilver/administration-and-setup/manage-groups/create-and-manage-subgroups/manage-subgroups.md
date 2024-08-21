@@ -5,13 +5,13 @@ keywords: manage,subgroup,edit
 navigation-topic: create-and-manage-subgroups
 title: Verwalten einer Untergruppe
 description: Als Gruppenadministrator einer Untergruppe können Sie die Untergruppe erstellen, verschieben, anzeigen, bearbeiten, kopieren, umbenennen, exportieren und löschen. Sie können eine Untergruppe auch zu einer Gruppe der obersten Ebene machen, indem Sie sie aus ihrer übergeordneten Gruppe entfernen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Wenn es Gruppen über Ihrer Gruppe gibt, können ihre Administratoren diese Ding
 Weitere Informationen zu Untergruppen finden Sie unter [Übersicht über Untergruppen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -47,9 +49,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
 
++++
+
 ## Erstellen, Verschieben, Anzeigen, Bearbeiten, Kopieren, Umbenennen, Exportieren oder Löschen einer Untergruppe
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
@@ -125,9 +129,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 >
 >In Workfront wird diese Marketingabteilung durch eine Gruppe namens Marketing mit drei Untergruppen namens Feldmarketing, Produktmarketing und digitalem Marketing vertreten. Um die Projekte aufzulisten, die zur gesamten Marketing-Abteilung gehören (alle vier Gruppen), können Sie einen Filter für den Bereich &quot;Projekte&quot;mit der folgenden Filterregel erstellen:
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >Sie können auch das Feld &quot;Oberster übergeordneter Name&quot;verwenden, um Daten zu identifizieren, die einer Gruppe der obersten Ebene zugeordnet sind, jedoch nur in Ansichten, nicht in Filtern oder Gruppierungen.
 
@@ -141,7 +143,7 @@ Sie können eine Untergruppe zu einer Gruppe der obersten Ebene machen, indem Si
 >
 >Anweisungen zum Deaktivieren und erneuten Aktivieren von Gruppen finden Sie in den Abschnitten [Details einer Gruppe anzeigen und verwalten](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view) und [Details einer Gruppe anzeigen und verwalten](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive) im Artikel [Details einer Gruppe anzeigen und verwalten](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md) .
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
 
@@ -159,8 +161,6 @@ Beachten Sie beim Kopieren einer Untergruppe Folgendes.
 
 * Wenn eine von Ihnen kopierte Untergruppe über eigene Untergruppen verfügt, werden diese in die Kopie einbezogen und ihre Namen wie folgt formatiert:
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * Jede Untergruppe, die zu einer öffentlichen Gruppe gehört, ist ebenfalls öffentlich, sodass jeder Benutzer mit Bearbeitungsbenutzerzugriff in oder aus der Gruppe Benutzer zur Untergruppe hinzufügen kann.

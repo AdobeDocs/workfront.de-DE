@@ -3,24 +3,26 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Kick-Start-Szenario: Vorbereitung für Unternehmen, Gruppe, Rolle und Benutzerkick-Start"
+title: "Kick-Start-Szenario: Vorbereitung für Unternehmen, Gruppe, Rolle und Anwender-Kick-Starts"
 description: Wenn Sie mit der Implementierung von Adobe Workfront beginnen, können Sie anstelle der manuellen Eingabe von Daten Ihre Kundenliste, Ihre internen Abteilungen, Ihre Jobrollen und Benutzerinformationen importieren.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 2%
 
 ---
 
-# Kick-Start-Szenario: Vorbereitung für Unternehmen, Gruppe, Rolle und Anwender-Kick-Start
+# Kick-Starts-Szenario: Vorbereitung von Unternehmen, Gruppe, Rolle und Kick-Start-Benutzern
 
 Wenn Sie mit der Implementierung von Adobe Workfront beginnen, können Sie anstelle der manuellen Eingabe von Daten Ihre Kundenliste, Ihre internen Abteilungen, Ihre Jobrollen und Benutzerinformationen importieren.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,6 +44,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Was Sie importieren können
 
@@ -67,7 +71,7 @@ In der folgenden Tabelle sind die zu importierenden Unternehmen, Gruppen und Rol
  </tbody> 
 </table>
 
-Die Rollennamen müssen eindeutig sein, vorhandene Vorgangsrollen können nicht importiert werden.
+Rollennamen müssen eindeutig sein. Vorhandene Vorgangsrollen können nicht importiert werden.
 
 In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene Benutzerattribute für jedes aufgeführt:
 
@@ -157,7 +161,7 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 
 ## Herunterladen einer Kick-Start-Vorlage
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **System** > **Kick-Starts** > **Daten importieren**.
 
@@ -299,4 +303,4 @@ In den folgenden Tabellen sind die zu importierenden Benutzer sowie verschiedene
 1. Füllen Sie bei Bedarf weitere Benutzerdetails aus und speichern Sie dann die Datei.
 1. Importieren Sie die Excel-Datei.
 
-   Befolgen Sie die Anweisungen im Abschnitt **Kick Start Files importieren** dieses Artikels.
+   Befolgen Sie die Anweisungen unter [Importieren von Daten in Adobe Workfront mithilfe einer Kick-Start-Vorlage](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

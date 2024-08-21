@@ -1,13 +1,13 @@
 ---
 title: SAML 2.0-Metadaten in Ihrem IDP bei Verwendung der erweiterten Authentifizierung aktualisieren
 description: Als Adobe Workfront-Administrator können Sie Workfront Single Sign-On (SSO) mit jedem Identitäts-Provider integrieren, der das SAML 2.0-Protokoll (Security Assertion Markup Language) unterstützt.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Informationen zum Konfigurieren von SAML vor der Migration zum erweiterten Authe
 
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,6 +49,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Verwenden Sie Okta als Identitätsanbieter.
 
@@ -120,7 +124,8 @@ Dieses Verfahren liefert wichtige Informationen für die Konfiguration von Okta 
    1. Kopieren Sie die URL, die im Feld der Browser-URL angezeigt wird.
 
 1. Melden Sie sich bei Workfront als Workfront-Administrator an.
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **System** > **Single Sign-On (SSO)**.
 
