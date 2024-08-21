@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f713e8fa72c98b6df2509e71acd7080d4df46a3a
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -102,11 +102,11 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Übersicht über Daten
 
         Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Wenn Sie sie mit einer Excel- oder CSV-Datei importieren.
+     <!--* When you import them using an Excel or CSV file. 
 
-        >[!IMPORTANT]
-        >
-        >Diese Funktion ist seit dem 21. März 2024 vorübergehend deaktiviert. Sie wird zu einem späteren Zeitpunkt aktiviert.
+            >[!IMPORTANT]
+            >
+            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
 
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
@@ -145,7 +145,9 @@ Informationen dazu, welche Datensatztypen in den einzelnen Vorlagen enthalten si
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. (Optional) Klicken Sie auf **Abschnitt hinzufügen** , um einen neuen Abschnitt zum Arbeitsbereich hinzuzufügen.
 1. Klicken Sie auf **Hinzufügen des Datensatztyps**.
-1. (Bedingt) Wenn beim Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei aktiviert ist, klicken Sie auf **Von Grund auf**. Andernfalls wird das Feld **Record Type** hinzufügen geöffnet.
+
+   Das Feld Datensatztyp hinzufügen wird geöffnet.
+   <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -171,9 +173,7 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
    Die Seite vom Typ Datensatz wird standardmäßig in der Tabellenansicht angezeigt. Die Spalten der Tabelle sind Felder, die mit dem neuen Datensatztyp verknüpft sind. Jede Zeile ist ein eindeutiger Datensatz, den Sie hinzufügen müssen.
 
-   >[!TIP]
-   >
-   >    Wenn Sie einen Datensatztyp aus einer Excel- oder CSV-Datei importieren, werden auch Datensätze importiert.
+   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    Standardmäßig werden die folgenden Felder in den Tabellenansichtsspalten eines operationellen Datensatztyps angezeigt:
 
@@ -207,86 +207,69 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
    * [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei
+<!--
+## Create record types by importing an Excel or CSV file
 
 >[!IMPORTANT]
 >
->Diese Funktion ist seit dem 21. März 2024 vorübergehend deaktiviert. Sie wird zu einem späteren Zeitpunkt aktiviert.
+>This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
 
-Beachten Sie beim Importieren von Datensatztypen mit einer Excel- oder CSV-Datei Folgendes:
+Consider the following when importing record types using an Excel or CSV file: 
 
-* Jedes Blatt der Excel-Datei wird zu einem Datensatztyp.
-* Die Spalten der einzelnen Blätter werden zu den Feldern, die mit jedem Datensatztyp verknüpft sind.
-* Felder sind für ihre jeweiligen Datensatztypen eindeutig.
-* Jede Zeile in jedem Blatt wird zu einem eindeutigen Datensatz, der mit dem jeweiligen Datensatztyp verknüpft ist.
-* Jedes Blatt der Excel-Datei darf nicht größer sein als:
-   * 50.000 Zeilen
-   * 500 Spalten
-* Die Excel-Datei sollte nicht größer als 5 MB sein.
-* Leere Arbeitsblätter werden nicht unterstützt.
+* Each sheet of the Excel file becomes a record type. 
+* The columns of each sheet become the fields associated with each record type. 
+* Fields are unique for their respective record types. 
+* Each row in each sheet becomes a unique record associated with its respective record type. 
+* Each sheet of the Excel file should not exceed the following: 
+    * 50,000 rows
+    * 500 columns
+* The Excel file should not be larger than 5MB.
+* Empty sheets are not supported. 
 
-So importieren Sie Datensatztypen mithilfe einer Excel-Datei:
+To import record types using an Excel file: 
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensatztypen erstellen möchten.
+1. Click the workspace where you want to create record types, 
 
-   Oder
+    Or
 
-   Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-1. Klicken Sie auf **Hinzufügen des Datensatztyps**.
-1. Klicken Sie auf **Excel/CSV**.
-1. Ziehen Sie eine zuvor gespeicherte Excel- oder CSV-Datei in den Arbeitsbereich oder klicken Sie auf **Wählen Sie eine CSV- oder Excel-Datei aus**, um nach einer Datei zu suchen.
-1. Klicken Sie auf **Überprüfen Sie Ihre Daten**.
-
-   Das Feld Vorschau und Bearbeitung wird mit den folgenden Informationen angezeigt:
-
-   * Die Namen der Blätter oder der künftigen Datensatztypen werden im linken Bereich angezeigt. Workfront Planning wählt standardmäßig ein Symbol und eine Farbe für jeden neuen Datensatztyp aus.
-   * Die erste Tabelle oder der erste Datensatztyp wird ausgewählt und die Namen der Felder, die mit ihr verknüpft sind, werden als Spaltenüberschriften angezeigt. Der Feldtyp wird standardmäßig ausgewählt.
-   * Jede Zeile stellt einen neuen Datensatz dar. Nur die ersten zehn Datensätze werden im Feld Vorschau und Bearbeitung angezeigt.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (Optional) Klicken Sie im linken Bereich auf den Namen der einzelnen Blätter, um die darin enthaltenen Informationen zu überprüfen.
-
-   >[!NOTE]
-   >
-   >    Leere Blätter werden nicht unterstützt und sind abgeblendet.
-
-
-1. (Optional) Klicken Sie auf das Dropdown-Menü **Zu importierende Arbeitsblätter auswählen** und heben Sie die Auswahl der Arbeitsblätter auf, die Sie nicht importieren möchten.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   Sie können die Auswahl der Anzeige mit grauem Hintergrund deaktivieren.
-
-1. Klicken Sie auf **Importieren** , wenn Sie zum Importieren Ihrer Datei bereit sind.
-
-   Die folgenden Informationen werden in die Workfront-Planung importiert:
-
-   * Neue Datensatztypen
-   * Neue Felder, die jedem Datensatztyp zugeordnet sind
-   * Neue Datensätze, die mit jedem Datensatztyp verknüpft sind
-
-   Sie können mit der Verwaltung von Feldern und Datensätzen auf den Seiten mit den Datensatztypen beginnen.
-
-   Jeder, der Zugriff auf Workfront Planning hat, kann jetzt die importierten Datensatztypen und ihre Informationen anzeigen und bearbeiten. <!--this will change with permissions-->
-
-<!--## Connect record types with object types from another application
-
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
-
-For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+1. Click **Add record type**. 
+1. Click **Excel/CSV**.
+1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
+1. Click **Review your data**.
     
-You can import the following objects from the following applications: 
+    The Preview and edit box displays with the following information: 
 
-* From Workfront:
+    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
+    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
+    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
 
-    * Projects
-    * Portfolios
-    * Programs
-    * Company
-    * Group
+    ![](assets/preview-and-edit-box.png)
 
-For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
--->
+1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+
+    >[!NOTE]
+    >
+    >    Sheets that are empty are not supported and are dimmed. 
+
+
+1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+
+    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+
+    Sheets you deselected display with a gray background. 
+
+1. Click **Import** when you are ready to import your file. 
+
+    The following information imports in to Workfront Planning:
+
+    * New record types
+    * New fields associated with each record type
+    * New records associated with each record type
+
+    You can start managing fields and records on the record types pages. 
+    
+    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+

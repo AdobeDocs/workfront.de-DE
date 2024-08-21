@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2287'
 ht-degree: 1%
 
 ---
@@ -151,11 +151,11 @@ Um Datensätze mit anderen Datensätzen oder Objekten zu verbinden, müssen Sie 
 
 In den folgenden Bereichen können Sie Datensätze aus der Workfront-Planung verbinden:
 
-* Aus einem Planungsdatensatz in der Workfront-Planung in den verbundenen Feldern in der Tabellenansicht.
+* Aus einem Planungsdatensatz in der Workfront-Planung in den verbundenen Datensatzfeldern in der Tabellenansicht.
 * Aus einem Planungsdatensatz in der Workfront-Planung in der Datensatzvorschau oder auf der Seite in den verbundenen Datensatzfeldern.
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+  * From a Planning record in the record's preview or page on the Connections tab.-->
 
 ### Adobe Workfront-Planungsdatensätze über die Tabellenansicht oder die <!--Details tab of the--> -Datensatzseite verbinden
 
@@ -211,7 +211,7 @@ In den folgenden Bereichen können Sie Datensätze aus der Workfront-Planung ver
    >
    >* &quot;Verknüpfte Felder&quot;und &quot;Suchfelder&quot;werden synonym verwendet.
    >
-   >* Wenn Sie die Einstellung **Mehrere Datensätze zulassen** aktiviert haben, als Sie die Datensatztypen verbunden haben, werden die Werte der Felder für die ausgewählten Objekte entweder durch Kommas getrennt oder gemäß dem ausgewählten Aggregator aggregiert.
+   >* Wenn Sie mehrere Datensätze verbinden möchten, während Sie die Datensatztypen verbunden haben, werden die Feldwerte aus den verschiedenen Objekten entweder durch Kommas getrennt oder nach dem ausgewählten Aggregator aggregiert.
 
 1. (Optional) Schließen Sie die Seite mit dem Datensatztyp und wechseln Sie zum ausgewählten Arbeitsbereich.
 1. Klicken Sie auf die Karte des Datensatztyps, mit dem Sie verknüpft sind.
@@ -286,7 +286,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
    >[!TIP]
    >
-   >* Wenn Sie die Einstellung Mehrere Datensätze zulassen aktivieren, werden die Werte der Lookup-Felder entweder durch Kommas getrennt angezeigt oder entsprechend dem ausgewählten Aggregator aggregiert.
+   >* Wenn Sie beim Verbinden der Datensatztypen mehrere Datensätze miteinander verbinden möchten, werden die Werte der Lookup-Felder entweder durch Kommas getrennt angezeigt oder entsprechend dem ausgewählten Aggregator aggregiert.
    >
    >* Für die verknüpften Workfront-Objekte in Workfront wird kein verknüpftes Datensatzfeld erstellt.
 
@@ -360,7 +360,7 @@ So verbinden Sie Datensätze mit AEM Assets:
 
      >[!TIP]
      >
-     >* Wenn Sie die Einstellung Mehrere Datensätze zulassen aktiviert haben, werden die Werte der verschiedenen Objekte je nach ausgewähltem Aggregator entweder durch Kommas getrennt oder aggregiert angezeigt.
+     >* Wenn Sie beim Verbinden der Datensatztypen mehrere Datensätze miteinander verbinden möchten, werden die Werte der verschiedenen Objekte je nach ausgewähltem Aggregator entweder durch Kommas getrennt oder aggregiert angezeigt.
      >
      >* Für die verknüpften Experience Manager-Assets in der Experience Manager Assets-Anwendung wird kein mit der Workfront-Planung verknüpftes Datensatzfeld erstellt.
 
@@ -408,6 +408,12 @@ So verbinden Sie Datensätze mit AEM Assets:
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 

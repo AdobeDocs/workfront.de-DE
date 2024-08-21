@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3361'
 ht-degree: 2%
 
 ---
@@ -43,9 +43,9 @@ In der Workfront-Planung können Sie Felder auf folgende Weise erstellen:
 
 * Neu
 * Durch Verbinden von Datensatztypen
-* Durch Importieren von Datensatztypen mit einer Excel- oder CSV-Datei
 * Erstellen eines Datensatztyps
 * Erstellen eines Arbeitsbereichs aus einer Vorlage
+  <!--* By importing record types using an Excel or CSV file-->
 
 Weitere Informationen zu Workfront-Planungsfeldern finden Sie unter [Feldübersicht](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -401,7 +401,13 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
     * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
     * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
     * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    
+        >[!TIP]
+        >
+        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+
     * **Date**: The result of the formula field displays as a date. 
+
 
         A preview of what the result will look like displays under the **Format** field. 
 
@@ -545,9 +551,9 @@ Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung
 
 Informationen zum Verbinden von Workfront-Planungs-Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-## Erstellen von Feldern durch Importieren von Datensatztypen mithilfe einer Excel- oder CSV-Datei
+<!--## Create fields by importing record types using an Excel or CSV file
 
-Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## Erstellen von Feldern durch Erstellung eines Datensatztyps
 

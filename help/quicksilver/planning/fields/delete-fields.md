@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ Sie können nicht mehr relevante Workfront-Planungsfelder löschen.
 * Sie können ein Feld nur in der Tabellenansicht des Datensatztyps löschen.
 * Das primäre Feld eines Datensatzes kann nicht gelöscht werden.
 * Alle im Feld gespeicherten Informationen werden gelöscht und können nicht abgerufen werden.
-* Wenn Sie ein verknüpftes Datensatzfeld löschen, werden auch alle verknüpften Suchfelder aus dem Datensatztyp gelöscht, aus dem Sie eine Verknüpfung herstellen. Die verknüpften Datensatzfelder der Datensatztypen, mit denen Sie eine Verknüpfung herstellen, werden nicht gelöscht.
+* Wenn Sie ein verbundenes Datensatzfeld löschen, werden auch alle verbundenen Suchfelder aus dem Datensatztyp gelöscht, von dem Sie eine Verbindung herstellen. Die verbundenen Datensatzfelder der Datensatztypen, mit denen Sie eine Verbindung herstellen, werden ebenfalls aus dem Datensatz gelöscht, mit dem Sie eine Verbindung herstellen.
+
+  Wenn Sie beispielsweise Kampagnen mit einem anderen Datensatztyp namens &quot;product&quot;verbinden und das Feld Produktverbindung und das Suchfeld Produktstatus aus der Kampagne löschen, werden folgende Elemente gelöscht:
+
+   * Feld Produktgebunden in der Kampagne
+   * Das Suchfeld Produktstatus in der Kampagne
+   * Das Feld Verbindung mit Kampagne des Produkts.
 
   Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
