@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1900'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 2%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
-
-<!-- remove the references to closed beta from the entire article-->
-
-<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
 
 >[!IMPORTANT]
 >
@@ -34,7 +30,6 @@ ht-degree: 2%
 >
 >Eine vollständige Liste aller Abschnitte und Artikel, die die Workfront-Planung dokumentieren, finden Sie unter [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md).
 
-<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Einführung in die Adobe Workfront-Planung
 
@@ -56,6 +51,8 @@ Im Folgenden finden Sie einige der wichtigsten Funktionen:
 * Relation zu Objektarten aus anderen Systemen, Erstellung eines kohärenten Frameworks für alle Ihre Prozesse.
 
 ## Derzeit verfügbare Adobe Workfront-Planungsfunktionen
+
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
 
 Die folgende Tabelle zeigt die wichtigsten Funktionen, die in der Workfront-Planung verfügbar sein werden, und einen Zeitplan ihrer Verfügbarkeit. Die Liste enthält nicht alle Funktionen.
 
@@ -90,7 +87,7 @@ Weitere Informationen zu neuen Funktionen und deren Veröffentlichung finden Sie
 | Öffentliche Freigabe von Ansichten über externe Ressourcen | ✓ | |  |
 | Doppelte Ansichten | ✓ | |  |
 | Anfragen senden |                               | ✓ |                 |
-| Exportieren von Datensatzdetails in Word |                               | ✓ |                 |
+| Exportieren von Datensatzdetails in Word | ✓ |                                  |                 |
 | Exportieren von Datensatzdetails auf PDF |                               |                                  | ✓ |
 | Farbe und Symbol eines Datensatzes anpassen | ✓ |                                  |                 |
 | Kommentare zu Datensätzen hinzufügen | ✓ |                                  |                 |
@@ -203,9 +200,9 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
    * Zuletzt geändert von
    * Zuletzt geändert am
 
-* **Verknüpfte Datensatztypen**, **Verknüpfte Datensätze** und **verknüpfte Datensatzfelder** oder **Connected record types**, **Connected records** und **Connected fields**: Sie können in der Workfront-Planung eine Verbindung zwischen den folgenden Entitäten herstellen:
+* **Connected record types**, **Connected records** und **Connected fields**: Sie können eine Verbindung zwischen den folgenden Entitäten in der Workfront-Planung erstellen:
 
-   * Zwei Datensatztypen.
+   * Zwei Datensatztypen für die Workfront-Planung.
    * Ein Datensatztyp und ein Workfront-Projekt-, Programm-, Portfolio-, Unternehmens- oder Gruppenobjekttyp.
    * Ein Datensatztyp und ein Adobe Experience Manager-Asset oder -Ordner.
 
@@ -224,7 +221,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
   >[!TIP]
   >
-  > Sie können die folgenden Feldtypen nicht als Suchfelder hinzufügen:
+  > Sie können die folgenden Feldtypen nicht als Suchfelder aus den verbundenen Datensätzen oder Objekttypen hinzufügen:
   >
   >* Personen
   >* Erstellt von
@@ -246,11 +243,11 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
   Im Folgenden finden Sie Ansichtstypen, die Sie auf die Seite vom Typ Datensatz anwenden können:
 
-   * **Tabellenansicht**: Zeigt Datensätze und deren Felder im Tabellenformat an. Die Tabellenzeilen enthalten die einzelnen Datensätze und die Spalten die Datensatzfelder. Dies ist die Standardansicht.
+   * **Tabellenansicht**: Zeigt Datensätze und ihre Felder, einschließlich verbundener und Suchfelder, im Tabellenformat an. Die Tabellenzeilen enthalten die einzelnen Datensätze und die Spalten die Datensatzfelder. Dies ist die Standardansicht.
 
      ![](assets/table-view-example.png)
 
-   * **Timeline-Ansicht**: Zeigt Datensätze an, die mindestens zwei Datumsfeld-Felder in einer chronologischen Timeline aufweisen.
+   * **Timeline-Ansicht**: Zeigt Datensätze an, die mindestens zwei Datumsfeld-Felder in einer chronologischen Timeline aufweisen. In der Timeline-Ansicht können Sie bis zu fünf verbundene Datensatztypen und deren Datensätze anzeigen.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -279,7 +276,6 @@ So suchen Sie die Workfront-Planung:
    >[!TIP]
    >
    >    Ihr Workfront-Administrator kann den Planungsbereich zur Option Landingpage auswählen in Ihrer Layoutvorlage hinzufügen, damit Sie die Planung öffnen können, sobald Sie sich bei Workfront anmelden. Weitere Informationen finden Sie unter [Landingpage mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
-
 
 1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
    * **Arbeitsbereiche, die ich verwende**: Zeigt Arbeitsbereiche an, die Sie erstellt haben, oder Arbeitsbereiche, die für Sie freigegeben sind.
