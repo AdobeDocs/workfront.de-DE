@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
+source-git-commit: 21411f9d68b0142c13f8ff92c4f55ad6fe0bb457
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14295'
 ht-degree: 2%
 
 ---
@@ -434,8 +434,6 @@ ht-degree: 2%
          * [Neues Kommentierungserlebnis](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Neue Kommentarerlebnis-Release-Aktivität](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Häufig gestellte Fragen zu neuen Kommentaren](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Beta-Version der Workfront- und Frame.io-Integration {#frame-io-wf-integration-beta}
-         * [Beta zur nativen Integration von Adobe Workfront und Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Workfront Data Lake beta {#data-lake-beta}
          * [Workfront Data Lake-Beta-Informationen](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration und Einrichtung {#administration-and-setup}
@@ -785,7 +783,6 @@ ht-degree: 2%
    * Integrationen konfigurieren {#configure-integrations}
       * [Integrationen konfigurieren](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-Integrationen](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [Integration von [!DNL Workfront] und [!DNL Frame.io] konfigurieren](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Experience Manager Assets as a Cloud Service-Integration konfigurieren](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Integration von Experience Manager Assets Essentials konfigurieren](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Konfigurieren von Workfront mit dem Legacy-Connector von Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -1198,7 +1195,6 @@ ht-degree: 2%
          * [Erstellen eines Projekts mit einer Vorlage](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importieren eines Projekts aus einem Microsoft-Projekt](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Erstellen von Projekt-Grundlinien](manage-work/projects/create-projects/create-baselines.md)
-         * [Erstellen Sie ein Projekt, das mit Frame.io verbunden ist](manage-work/projects/create-projects/create-frame-connected-project.md)
       * Arbeiten an einem Projekt aktualisieren {#update-work-on-a-project}
          * [Arbeit an einem Projekt aktualisieren: Artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Anwenden von Status auf Arbeiten, die einer Gruppe zugeordnet sind](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1809,15 +1805,12 @@ ht-degree: 2%
       * [Asset- und Dokumentüberprüfung und -genehmigung: Artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Übersicht über Dokumentgenehmigungen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Übersicht über den Entscheidungsstatus von Dokumenten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Erste Schritte mit Asset-Überprüfung und -Genehmigung mit Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * Asset- und Dokumentgenehmigungen einrichten und verwalten {#manage-asset-review-and-approval}
          * [Asset- und Dokumentgenehmigungen einrichten und verwalten: Artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Erstellen einer Überprüfungs- oder Genehmigungsanforderung für ein Frame.io-Asset](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
          * [Hinzufügen zusätzlicher Validierer oder Genehmiger zu einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Entfernen von Genehmigern oder Prüfern aus einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Erstellen einer Genehmigungsvorlage für Assets und Dokumente](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Hinzufügen eines Frame.io-Assets zu einem verbundenen Workfront-Projekt](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
          * [Verwenden neuer Dokumentgenehmigungen und Testsendungen gemeinsam](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * Überprüfen und Genehmigen von Assets und Dokumenten {#review-and-approve-documents}
          * [Dokumente überprüfen und genehmigen: Artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)

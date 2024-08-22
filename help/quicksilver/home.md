@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront] documentation'
 description: Dokumentation für [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: a29cd19d6b261aa7709966c68cd821cdddf17ccc
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '341'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,6 @@ Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe
 >[!TAB Betas]
 
 * [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-* [Integration von Workfront und Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
 >[!TAB Bekannte Probleme]
 
