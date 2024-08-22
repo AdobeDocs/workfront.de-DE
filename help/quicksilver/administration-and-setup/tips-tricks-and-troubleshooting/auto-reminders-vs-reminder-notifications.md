@@ -3,15 +3,15 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Automatische Erinnerungen oder Erinnerungsbenachrichtigungen
-description: In diesem Artikel werden die Unterschiede zwischen automatischen Erinnerungen und Erinnerungsbenachrichtigungen beschrieben und es werden Szenarien für die einzelnen Erinnerungen bereitgestellt. Weitere Informationen zu allen [!DNL Adobe Workfront] Benachrichtigungen finden Sie unter Adobe [!DNL Workfront] Benachrichtigungen.
-author: Caroline
+title: Automatische Erinnerungen und Erinnerungsbenachrichtigungen
+description: In diesem Artikel werden die Unterschiede zwischen automatischen Erinnerungen und Erinnerungsbenachrichtigungen beschrieben und es werden Szenarien für die einzelnen Erinnerungen bereitgestellt.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---

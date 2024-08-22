@@ -3,13 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: E-Mail-Header-Datei speichern
+title: Speichern einer E-Mail-Header-Datei
 description: Gelegentlich kann der Support eine E-Mail-Header-Datei anfordern.  [!DNL Adobe Workfront]  Jede E-Mail-Anwendung hat ihre eigene Methode, diese Datei zu erhalten. Im Folgenden finden Sie einige Anweisungen für E-Mail-Anwendungen zum Suchen und Speichern der Kopfzeile. [!DNL Outlook]
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%

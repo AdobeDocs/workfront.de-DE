@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Wenn eine authentifizierte E-Mail aufgrund der DMARC-Richtlinie der Domäne nicht akzeptiert wird
+title: Nicht authentifizierte E-Mail wird aufgrund der DMARC-Richtlinie der Domain nicht akzeptiert.
 description: Wenn eine vom [!DNL Workfront] System gesendete E-Mail aufgrund der DMARC-Richtlinie der Domäne nicht akzeptiert wird, kann Ihr E-Mail-Administrator das Problem beheben, indem er Ihr E-Mail-System so konfiguriert, dass alle E-Mails von workfront.com aus zugelassen werden.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2443267a-dcc0-485b-be29-17539fb54188
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

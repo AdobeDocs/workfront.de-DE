@@ -3,30 +3,32 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Exportieren von historischen Daten aus Adobe Workfront: Vor- und Nachteile"
+title: "Exportieren historischer Daten aus Adobe Workfront: Vorteile und Nachteile"
 description: In diesem Artikel werden die Vor- und Nachteile von 4 Optionen erläutert, mit denen Sie historische Daten aus Workfront exportieren können.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
 
 # Exportieren Sie historische Daten aus [!DNL Adobe Workfron]t: Vor und Nachteile
 
-In diesem Artikel werden die Vor- und Nachteile von 4 Optionen erläutert, mit denen Sie historische Daten aus [!DNL Workfront] exportieren können.
+In diesem Artikel werden die Vor- und Nachteile von vier Optionen erläutert, mit denen Sie historische Daten aus [!DNL Workfront] exportieren können.
 
 ## Verwenden Sie einen unserer Partner
 
-[!DNL AtAppStore], ein [!DNL Workfront] zertifizierter Partner, verfügt über eine benutzerfreundliche App, mit der Sie Ihre Daten herunterladen können. Diese App enthält auch einen Viewer, mit dem Sie Ihre Daten einfach anzeigen können.
+[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) verfügt über eine benutzerfreundliche App (ihre [Workfront Snapshot](https://store.atappstore.com/product/workfront-snapshot/) -Lösung), mit der Sie Ihre Daten selbst herunterladen können. Mit einem optionalen Viewer (mit der Lösung [Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/) ) können Sie Ihre Daten einfach offline anzeigen.
 
-* **Vorteile:** Alle Ihre [!DNL Workfront] Objekte werden exportiert, einschließlich der benutzerdefinierten Felder. Die Benutzeroberfläche des Viewers ist einfach zu verwenden und zu lesen, und sie ist einfach in einer [!DNL MS Access]-Datenbank zu importieren.
+* **Vorteile:** Alle Ihre Core [!DNL Workfront]-Objekte werden exportiert, einschließlich der benutzerdefinierten Felder und Hinweise, die alle dann in einer leicht zugänglichen [!DNL MS Access]-Datenbank gespeichert werden. Die Benutzeroberfläche des Viewers ist einfach zu verwenden und zu lesen. Das Extrahieren von Dokumenten ist auch separat als Dienst verfügbar, wobei die Ausgabe in einer logischen Ordnerstruktur organisiert ist, die den einzelnen Dokumenten (und optional den vorherigen Versionen) zugeordnet ist.
 
-* **Nachteile:** Dokumente werden nicht exportiert. Sie müssen sie separat herunterladen. Weitere Informationen finden Sie unter [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](https://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
+* **Nachteile:** Es gibt eine technische Beschränkung von 2 GB an Daten. Mit AtAppStore können Sie jedoch nur das kaufen, was Sie benötigen.
+
+* **Kosten:** Weitere Informationen finden Sie unter [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
 ## Eine [!DNL Postgres]-Datendump-Datei von unserem Datenbankteam anfordern
 
@@ -35,6 +37,7 @@ Ihr Kundenbetreuer kann eine Anfrage an unser Datenbankteam senden, um eine Date
 * **Vorteile**: Sie erhalten die gesamte Datenladung, einschließlich benutzerdefinierter Felder, sowie Dokumente, die im System gespeichert sind.
 
 * **Nachteile**: Die Datenbankdatei ist schwer zu lesen: Sie können diese Datei nur lesen, wenn Sie sie in eine [!DNL Postgres] -Datenbank hochladen und die Beziehungen zwischen den Tabellen wiederherstellen. Die Dokumente werden auf einem separaten Dateiserver gespeichert und müssen separat mithilfe eines separaten Prozesses vom AOS-Team extrahiert werden. Dabei gibt es keine Organisation für die Dokumente, und alle werden durch ihre GUID referenziert.
+
 * **Kosten**: Dieser Download verursacht Kosten, die davon abhängen, wie lange das Team benötigt, um die Datei zu erstellen. Wenden Sie sich an Ihren AEM/CAE, um weitere Informationen zu erhalten oder diesen Prozess zu starten.
 
 ## Export über [!UICONTROL Kick-Starts]

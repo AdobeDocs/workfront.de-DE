@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '''Fehlermeldung: Es gibt ein leichtes Problem. Dieses Feld wird in einer Konfiguration mit mehreren Formularen verwendet."'
+title: "Fehlermeldung: Es gibt ein leichtes Problem. Dieses Feld wird in einer Konfiguration mit mehreren Formularen verwendet."
 description: Wenn Sie eine Berechnung in einem berechneten benutzerdefinierten Feld in einem benutzerdefinierten Formular ändern und eine Fehlermeldung angibt, dass das Feld in einer Konfiguration mit mehreren Formularen verwendet wird, müssen Sie das Feld durch ein neues Feld ersetzen, das die gewünschte Berechnung enthält.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ In diesem Artikel wird erläutert, wie Sie das Objekt finden und dann das Proble
 
 ## Suchen Sie das Objekt, an das die benutzerdefinierten Formulare angehängt sind. {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Benutzer]** ![](assets/users-icon-in-main-menu.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Benutzerdefinierter Forms]** > **[!UICONTROL Felder]**.
 1. Wenden Sie die Ansicht **[!UICONTROL Feldliste]** an, um das berechnete Feld zu finden, das Sie ändern möchten, und notieren Sie sich jedes benutzerdefinierte Formular, in dem es verwendet wird (z. B. Formular 1, Formular 2, Formular 3) .
