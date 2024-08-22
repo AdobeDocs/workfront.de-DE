@@ -6,9 +6,9 @@ description: Sie können Berechtigungen für ein von Ihnen erstelltes Objekt ode
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -140,7 +140,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Systemweit sichtbar machen.</strong></td> 
-   <td> <p>Das Objekt kann in Suchvorgängen gefunden und von jedem mit einem Workfront-Konto angezeigt werden.</p> </td> 
+   <td> <p>Das Objekt kann in Suchvorgängen gefunden und von Benutzern mit einem Workfront-Konto angezeigt werden.</p><p><b>Hinweis&gt;/b&gt;: Benutzer mit Mitarbeiter- oder Anforderungslizenzen können keine Projekte sehen, selbst wenn diese Einstellung aktiviert ist. </td> 
   </tr> 
  </tbody> 
 </table>
