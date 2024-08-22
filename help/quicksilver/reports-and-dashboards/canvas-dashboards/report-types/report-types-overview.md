@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Auf dieser Seite wird die Funktionalität beschrieben, die nur für Benutzer verfügbar ist, die in der Beta-Version der Canvas-Dashboards eingeschrieben sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
+>Auf dieser Seite werden die Funktionen beschrieben, die als Teil der Beta-Version der Canvas-Dashboards verfügbar sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Es gibt eine Reihe verschiedener Berichte, die Sie zu einem Leinwand-Dashboard hinzufügen können, um Ihre Workfront-Daten auf unterschiedliche Weise zu visualisieren. Die folgenden Berichtstypen können einem Dashboard auf der Arbeitsfläche hinzugefügt werden:
 

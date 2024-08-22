@@ -6,9 +6,9 @@ description: Ein Tabellenbericht, der Ihre Daten als konfigurierbare Tabelle anz
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Auf dieser Seite wird die Funktionalität beschrieben, die nur für Benutzer verfügbar ist, die in der Beta-Version der Canvas-Dashboards eingeschrieben sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
+>Auf dieser Seite werden die Funktionen beschrieben, die als Teil der Beta-Version der Canvas-Dashboards verfügbar sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Ein Tabellenbericht, der Ihre Daten als konfigurierbare Tabelle anzeigt, kann einem Dashboard auf der Arbeitsfläche hinzugefügt werden.
 

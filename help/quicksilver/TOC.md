@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '14337'
+source-wordcount: '14341'
 ht-degree: 2%
 
 ---
@@ -410,6 +410,7 @@ ht-degree: 2%
       * [Häufig gestellte Fragen zum Wartungsfenster](product-announcements/announcements/maintenance-window-faq.md)
       * [Zum Hinzufügen von Testsendungen zu Ihrer Zulassungsliste erforderliche Änderung](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Abmeldung von Nachrichten aus dem Ankündigungs-Center im neuen Adobe Workfront-Erlebnis](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+      * [Handbuch zur veralteten Homepage-Einstellung](product-announcements/announcements/legacy-home-deprecation.md)
       * Ankündigungsarchiv {#announcement-archive}
          * [Ankündigungsarchiv](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Verbesserungen beim benutzerdefinierten Formular](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
