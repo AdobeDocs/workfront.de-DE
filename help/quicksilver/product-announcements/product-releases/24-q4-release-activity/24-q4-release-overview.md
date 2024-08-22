@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,10 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 
 ## Adobe Workfront-Verbesserungen
 
-* [Verbesserungen für Administratoren]
-* [Projektverbesserungen](#project-enhancements)
+* [Administratorverbesserungen](#administrator-enhancements)
 * [Integrationsverbesserungen](#integration-enhancements)
+* [Projektverbesserungen](#project-enhancements)
+* [Verbesserungen bei der Überprüfung](#proofing-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Administratorverbesserungen
@@ -73,6 +74,41 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                             </li>
                         </ul>
                         <p><i>Diese Funktion ist Teil einer stufenweisen Veröffentlichung und wird im September für eine begrenzte Anzahl von Kunden verfügbar sein.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Integrationsverbesserungen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungstermine</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei der Anmeldung bei Outlook-Integrationen</a></p>
+                        <p>Die Anmeldeerfahrung für die Outlook-Integration wurde optimiert, sodass alle Kunden dieselbe Schaltfläche sehen, um sich bei Workfront anzumelden, unabhängig davon, ob sie IMS-fähig sind oder nicht. Die nachfolgenden Anmeldeschritte bleiben für IMS- und Nicht-IMS-Instanzen unterschiedlich, die Anfangsseite ist jedoch für alle Benutzer gleich.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 6. August 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion für alle Kunden: 6. August 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
@@ -137,7 +173,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
            </tbody>
         </table>
 
-### Integrationsverbesserungen
+### Verbesserungen bei der Überprüfung
 
 <table>
             <col style="width: 50%;" />
@@ -155,23 +191,22 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei der Anmeldung bei Outlook-Integrationen</a></p>
-                        <p>Die Anmeldeerfahrung für die Outlook-Integration wurde optimiert, sodass alle Kunden dieselbe Schaltfläche sehen, um sich bei Workfront anzumelden, unabhängig davon, ob sie IMS-fähig sind oder nicht. Die nachfolgenden Anmeldeschritte bleiben für IMS- und Nicht-IMS-Instanzen unterschiedlich, die Anfangsseite ist jedoch für alle Benutzer gleich.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium-Update für den Desktop Proofing Viewer</a></p>
+                        <p>Wir aktualisieren den Desktop Proofing Viewer, um Chromium 126.0.6478.127 zu unterstützen, das Probleme mit UI-Elementen in interaktiven Testsendungen behebt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 6. August 2024</p>
+                                <p>Vorschau-Version: 29. August 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsversion für alle Kunden: 6. August 2024</span></p>
+                                <p><span class="preview">Produktionsversion für alle Kunden: 29. August 2024</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
-
 
 ### Weitere Verbesserungen
 
