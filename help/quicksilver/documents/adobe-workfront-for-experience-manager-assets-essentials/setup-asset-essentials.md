@@ -1,15 +1,15 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Integration von Experience Manager Assets Essentials konfigurieren
+title: Konfigurieren der Integration von Experience Manager Assets Essentials
 description: Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -27,48 +27,51 @@ Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essent
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-Plan*</strong>
+   <td>[!DNL Adobe Workfront] Plan
    </td>
    <td>Alle
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-Lizenzen*</strong>
+   <td>[!DNL Adobe Workfront] Lizenz
    </td>
-   <td>Plan
+   <td><p>Aktuell: [!UICONTROL Plan]</p>
+   <p>Neu: [!UICONTROL Standard]</p></td>
+  </tr>
+  <tr>
+   <td>[!DNL Experience Manager] Lizenz
+   </td>
+   <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>Experience Manager license</strong>
-   </td>
-   <td>Standard
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Produkt</strong>
+   <td>Produkt
    </td>
    <td>Sie müssen über Experience Manager Assets Essentials verfügen und dem Produkt als Benutzer in der Admin Console hinzugefügt werden.
    </td>
   </tr>
   <tr>
-   <td><strong>Konfigurationen auf Zugriffsebene</strong>
+   <td>Konfigurationen auf Zugriffsebene
    </td>
-   <td>Sie müssen Workfront-Administrator sein. Weitere Informationen zu Workfront-Administratoren finden Sie unter <strong>Gewähren des vollen Administratorzugriffs für Benutzer</strong>.
+   <td>Sie müssen ein [!DNL Workfront] -Administrator sein.
    </td>
   </tr>
 </table>
 
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
-
++++
 
 ## Integration einrichten
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und dann auf **Einrichten**.
+{{step-1-to-setup}}
+
 1. Wählen Sie im linken Bereich das Symbol **Dokumente** ![Dokumente](assets/document-icon.png) und dann **Experience Manager-Integration** aus.
 1. Wählen Sie **Experience Manager-Integration hinzufügen** aus.
 1. Geben Sie Folgendes an:
@@ -126,20 +129,21 @@ Look for essentials article
 For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
-+++
-
 
 ### Assets
 
 Metadaten werden zugeordnet, wenn ein Asset zum ersten Mal aus Workfront gesendet wird. Dokumente mit den integrierten oder benutzerdefinierten Feldern werden automatisch den angegebenen Feldern zugeordnet, wenn ein Asset zum ersten Mal an Experience Manager Assets Essentials gesendet wird.
 
 1. Wählen Sie in der Spalte **Workfront field** ein integriertes oder benutzerdefiniertes Workfront-Feld aus.
+
    >[!NOTE]
    >
    >Sie können ein einzelnes Workfront-Feld mehreren Experience Manager Assets-Feldern zuordnen. Sie können nicht mehrere Workfront-Felder einem einzelnen Experience Manager Assets-Feld zuordnen.
+
 1. Wählen Sie im Feld **Experience Manager** ein Experience Manager Assets -Feld aus.
 
    Um ein Workfront-Feld einem Experience Manager Assets-Tag zuzuordnen, wählen Sie `xcm:keywords` aus.
+
 1. Wiederholen Sie die Schritte 1 und 2 nach Bedarf.
    ![Aktivieren von Metadaten](assets/metadata-assets-essentials.png)
 1. Klicken Sie auf **Speichern** oder wechseln Sie zum Abschnitt [Verknüpfte Ordner einrichten (optional)](#set-up-linked-folders-optional) in diesem Artikel.

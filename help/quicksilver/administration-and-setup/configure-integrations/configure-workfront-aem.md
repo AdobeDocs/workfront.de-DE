@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von [!DNL Workfront] mit dem [!DNL Adobe Experience Manager] alten Connector
+title: Konfigurieren von [!DNL Workfront] mit [!DNL Adobe Experience Manager] Legacy-Connector
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 2f840ea68c9efb78acb4c24346c6775671ed0334
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als [!DNL Adobe Workfront] -Administrator können Sie [!DNL Workfront] in [!UICONTROL Adobe Experience Manager (AEM) Assets] integrieren und Ihrem Unternehmen eine umfassende Inhaltsverwaltungslösung für die Erstellung, Freigabe und Wartung von Assets innerhalb Ihres Workflows bereitstellen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,6 +45,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
++++
 
 ## [!DNL Workfront for AEM Assets]
 
@@ -149,7 +153,8 @@ Bevor Sie beginnen, müssen Sie Berechtigungen für den Workfront-Service aktivi
       So rufen Sie Ihren [!DNL Workfront] -API-Schlüssel ab:
 
       1. Öffnen Sie eine Browser-Registerkarte und melden Sie sich als [!DNL Workfront] -Administrator bei Ihrem [!DNL Workfront] -Konto an.
-      1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+
+      {{step-1-to-setup}}
 
       1. Klicken Sie auf **[!UICONTROL System]** >**[!UICONTROL Customer Info]**.
 
@@ -256,7 +261,7 @@ Nachdem Sie den Connector [!UICONTROL Workfront für AEM Assets] installiert hab
    >
    >[!UICONTROL Workfront] empfiehlt die Erstellung eines [!UICONTROL Workfront] -Administrators, der ausschließlich Ihrer AEM dient. Weitere Informationen zum Zuweisen der Zugriffsstufe des Administrators für [!UICONTROL Workfront] zu einem Benutzer finden Sie unter [Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Dokumente]**> **[!UICONTROL Benutzerspezifische Integration].**
 

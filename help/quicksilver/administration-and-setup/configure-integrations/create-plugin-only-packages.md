@@ -6,8 +6,9 @@ navigation-topic: administrator-integrations
 description: Ein Adobe Admin Console-Administrator kann ein schlankes, Plug-in-only-Paket erstellen. Durch die Verteilung dieser vorkonfigurierten Pakete können Administratoren sicherstellen, dass die Benutzer über diese Plug-ins verfügen, ohne sich darauf verlassen zu müssen, dass der Benutzer das Plug-in selbst durchsucht. Es wird empfohlen, diese einfachen Plug-ins zu verwenden, um die Adobe Workfront für Creative Cloud-Plug-ins an Benutzer in Ihrem Unternehmen zu verteilen.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 4%

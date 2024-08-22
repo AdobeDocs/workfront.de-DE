@@ -6,11 +6,12 @@ navigation-topic: administrator-integrations
 description: Als [!DNL anAdobe] [!DNL Workfront] -Administrator können Sie die Verbindung zwischen Workfront und einem der Dokumentenanbieter eines Drittanbieters deaktivieren.
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
+author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +22,8 @@ Als [!DNL Adobe] [!DNL Workfront] -Administrator können Sie die Verbindung zwis
 Wenn Sie die Verbindung zwischen [!DNL Workfront] und einem Dokumentanbieter deaktivieren, werden die Links zu den Dokumenten in [!DNL Workfront] nicht mehr angezeigt. Benutzer können die verknüpften Dokumente nicht mehr sehen, sie können keine Änderungen an den Dokumenten über die &quot;[!DNL Workfront]&quot;-Links vornehmen und sie können diesem Anbieter keine weiteren Dokumente hinzufügen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
 
@@ -45,12 +48,15 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
++++
+
 ## Cloud-Provider-Integrationen deaktivieren
 
 So deaktivieren Sie Dokumentintegrationen für [!UICONTROL Workfront DAM], [!DNL Box], [!DNL Dropbox], [!DNL Google Drive], [!DNL Microsoft OneDrive], [!DNL WebDAM]:
 
 1. Melden Sie sich bei [!DNL Workfront] als [!DNL Workfront] -Administrator an.
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Dokumente]** > **[!UICONTROL Cloud-Anbieter]**.
 
@@ -62,7 +68,8 @@ So deaktivieren Sie Dokumentintegrationen für [!UICONTROL Workfront DAM], [!DNL
 ## Die [!DNL SharePoint]-Integration deaktivieren
 
 1. Melden Sie sich bei [!DNL Workfront] als [!DNL Workfront] -Administrator an.
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+
+{{step-1-to-setup}}
 
 1. Erweitern Sie **[!UICONTROL Dokumente]** und klicken Sie dann auf **[!UICONTROL [!DNL SharePoint]Integration]**.
 1. Wählen Sie die [!DNL SharePoint] -Integration aus, die Sie deaktivieren möchten.
@@ -72,7 +79,8 @@ So deaktivieren Sie Dokumentintegrationen für [!UICONTROL Workfront DAM], [!DNL
 ## Deaktivieren benutzerdefinierter Integrationen
 
 1. Melden Sie sich bei [!DNL Workfront] als Administrator an.
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **[!UICONTROL Dokumente]** > **[!UICONTROL Benutzerdefinierte Integration]**.
 1. Wählen Sie die benutzerdefinierte Integration aus, die Sie deaktivieren möchten.

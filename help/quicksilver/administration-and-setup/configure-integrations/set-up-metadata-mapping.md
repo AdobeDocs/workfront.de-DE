@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Metadaten sind beschreibende Informationen, die mit einem Dokument verknüpft sind. Sie können [!DNL Adobe Workfront] so einrichten, dass Metadaten mit Dokumenten eingefügt werden, die an [!DNL Workfront] Anwendungen gesendet werden.
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 Metadaten sind beschreibende Informationen, die mit einem Dokument verknüpft sind. Sie können &quot;[!DNL Adobe Workfront]&quot;einrichten, um Metadaten mit Dokumenten einzuschließen, die an [!DNL Workfront] -Anwendungen gesendet werden.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -41,6 +43,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Über [!DNL Workfront] Metadaten
 
@@ -64,7 +68,7 @@ Bevor Sie Felder für den Metadaten-Zuordnungsprozess zuordnen können, müssen 
 
 ## Konfigurieren von [!DNL Workfront] zum Senden von Metadaten
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Dokumente]** > **[!UICONTROL Metadatenzuordnung]**.
 
@@ -82,7 +86,8 @@ Bevor Sie Felder für den Metadaten-Zuordnungsprozess zuordnen können, müssen 
 ## Zugeordnete Felder löschen
 
 1. Melden Sie sich bei [!DNL Workfront] als Administrator an.
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+
+{{step-1-to-setup}}
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Dokumente]** > **[!UICONTROL Metadatenzuordnung]**.
 

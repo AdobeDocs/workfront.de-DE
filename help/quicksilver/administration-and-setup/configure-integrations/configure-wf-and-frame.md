@@ -1,5 +1,5 @@
 ---
-title: Integration von [!DNL Workfront] und [!DNL Frame.io] konfigurieren
+title: Konfigurieren der Integration von [!DNL Workfront] und [!DNL Frame.io] s
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ Der Workfront-Administrator aktiviert die Integration zwischen Workfront und Fra
 >
 >Diese Funktion ist nur für Unternehmen verfügbar, die in den [!DNL Adobe Admin Console] integriert wurden.
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
-   </td>
-   <td>Alle
-   </td>
+   <td>[!DNL Adobe Workfront] Plan</td>
+   <td>Alle</td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenses</strong>
+   <td>[!DNL Adobe Workfront] Lizenzen
    </td>
-   <td>Aktuell: [!UICONTROL Plan] <br>
-   Neu: [!UICONTROL Standard]
-   </td>
+   <td><p>Aktuell: [!UICONTROL Plan]</p>
+   <p>Neu: [!UICONTROL Standard]</p></td>
   </tr>
-
-<tr>
-   <td><strong>Konfigurationen auf Zugriffsebene</strong>
+  <tr>
+   <td>Konfigurationen auf Zugriffsebene
    </td>
    <td>Sie müssen ein [!DNL Workfront] -Administrator sein.
    </td>
@@ -54,6 +52,7 @@ Sie müssen über Folgendes verfügen:
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Konfigurieren eines standardmäßigen [!DNL Frame.io]-Kontos [!BADGE In Kürze verfügbar]{type=Informative}
 
