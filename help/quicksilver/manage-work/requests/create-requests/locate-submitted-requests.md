@@ -1,16 +1,16 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Gesendete Anforderungen suchen
+title: Gesendete Anforderungen lokalisieren
 description: Erfahren Sie mehr über die Bereiche von Adobe Workfront, in denen Sie Anforderungen finden können, die Sie oder eine andere Person gesendet haben oder die Sie nie gesendet und als Entwürfe gespeichert haben.
-author: Alina
+author: Lisa
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -30,40 +30,46 @@ Sie können die folgenden Arten von Anforderungen finden, die Sie oder eine ande
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Übersicht über Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Mitarbeiter oder höher</p>
+   Oder
+   <p>Aktuell: Anforderung oder höher</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
-  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td><p>Zugriff auf Probleme bearbeiten</p></td> 
+  </tr>
+  <tr>
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Anforderungen oder höher anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td><p>Anzeigen von Berechtigungen oder höher für Anforderungen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gesendete Anforderungen suchen
 
 So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+{{step1-to-requests}}
+
 1. Klicken Sie im linken Bereich auf **Gesendet** , um alle gesendeten Anfragen anzuzeigen.
 
    Sie können bis zu 2000 Anfragen anzeigen, die möglicherweise auf mehreren Seiten angezeigt werden.
@@ -141,7 +147,7 @@ So suchen Sie nach Anforderungen, die Sie oder andere Benutzer gesendet haben:
       <td>Alle gesendeten Anfragen, unabhängig vom Status oder der Person, die sie gesendet hat.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Offen</td> 
+      <td role="rowheader">Öffnen</td> 
       <td> <p>Alle gesendeten Anfragen, die aktuell geöffnet sind, unabhängig davon, wer sie gesendet hat. Nur Anfragen, die Sie mindestens berechtigt haben, hier anzuzeigen, wenn Sie sie nicht selbst übermittelt haben. </p> <p>Anforderungen ohne das tatsächliche Abschlussdatum oder deren aufgelöstes Objekt kein tatsächliches Abschlussdatum hat, werden auf der Unterregisterkarte "Öffnen"aufgelistet.</p> <p><b>TIPP</b>
 
    Anforderungen, die sich in einem Status befinden, der nicht mit Geschlossen übereinstimmt, werden als offen betrachtet.</p> </td>

@@ -1,19 +1,19 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Erstellen und Senden von Adobe Workfront-Anforderungen
+title: Erstellen und Senden von Anforderungen
 description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufgaben repräsentiert. Sie können jedoch in einer Umgebung arbeiten, in der ungeplante Arbeiten - in Form von zufälligen Anfragen - jederzeit eintreten können. Workfront bietet einen Workflow, mit dem dieser Umgebungstyp mithilfe von Anforderungswarteschlangen berücksichtigt werden kann.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2303'
 ht-degree: 1%
 
 ---
 
-# Erstellen und Senden von Adobe Workfront-Anforderungen
+# Anforderungen erstellen und senden
 
 <!--Audited: 12/2023-->
 
@@ -47,18 +47,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Neu: Mitarbeiter oder höher</p>
    Oder
    <p>Aktuell: Anforderung oder höher</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Zugriff auf Probleme bearbeiten</p>  </td> 
   </tr> 
  </tbody> 
@@ -110,14 +110,9 @@ Informationen zum Erstellen von Anforderungen aus vorhandenen Entwürfen finden 
 
 So erstellen Sie eine Anforderung in der Workfront-Webanwendung:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links.
+{{step1-to-requests}}
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   </MadCap:conditionalText>
-   -->
-
-1. Klicken Sie auf **Anforderungen** und dann oben rechts auf der Seite auf **Neue Anforderung** .
+1. Klicken Sie oben rechts auf der Seite auf **Neue Anforderung** .
 
    >[!TIP]
    >
@@ -331,7 +326,7 @@ Sie können Anforderungen mit dem Outlook-Client senden. Sie können eine neue A
 
 Informationen zum Senden von Anforderungen mit dem Outlook-Client finden Sie im Artikel [Erstellen einer Adobe Workfront-Anfrage von einer Outlook-E-Mail](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
-## Erstellen von Anforderungen mithilfe der mobilen Workfront-App
+## Erstellen von Anforderungen mit der mobilen Workfront-App
 
 Sie können Anfragen über die Mobile App auf Ihrem Smartphone senden. Sie können eine neue Anforderung erstellen und an die Anforderungswarteschlangen senden, auf die Sie in der Webanwendung Zugriff haben.
 

@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Anforderungen aus Entwürfen erstellen
 description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Ihnen Workfront bei Eingabe einer neuen Anforderung vorschlägt, können Sie auch über den Bereich Entwürfe auf eine Entwurfsanfrage zugreifen und sie von dort abschicken.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,8 @@ Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Ihnen Workfront bei E
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -26,21 +28,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Mitarbeiter oder höher</p>
+   Oder
+   <p>Aktuell: Anforderung oder höher</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Probleme bearbeiten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen für das Erstellen von Anforderungen aus Entwürfen
 
@@ -52,8 +59,9 @@ Sie müssen Folgendes tun, bevor Sie eine Anforderung aus einem Entwurf erstelle
 
 ## Anforderungen aus Entwürfen erstellen
 
-1. Klicken Sie oben rechts in Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
-1. Klicken Sie auf **Anforderungen** > **Entwürfe**.
+{{step1-to-requests}}
+
+1. Wählen Sie im linken Bereich **Entwürfe** aus.
 
    In dieser Liste wird für jedes Warteschlangenthema jeder Anforderungswarteschlange ein Entwurf angezeigt.
 
