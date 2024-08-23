@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 1517f7480bbe481bc918876441d1b70b09963a97
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ Um den KI-Assistenten für Ihre Organisation zu aktivieren, muss **alle** der fo
 * Das Adobe Unified Experience muss aktiviert sein
 * Ihr Unternehmen muss über einen Workfront-Plan für Select, Prime oder Ultimate verfügen
 * Adobe muss über eine unterzeichnete Adobe Gen-AI-Vereinbarung verfügen.
+
+  Weitere Informationen zum Unterzeichnen der Vereinbarung finden Sie unter [Unterschreiben der Adobe Gen AI Agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in diesem Artikel.
 
 ## Überlegungen zum KI-Assistenten
 
