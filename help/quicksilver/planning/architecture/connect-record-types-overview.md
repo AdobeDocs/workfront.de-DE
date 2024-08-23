@@ -4,20 +4,17 @@ description: Eine Möglichkeit, anzugeben, wie sich einzelne Datensatztypen zuei
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 45134c538465a25767de1863d99a10c23bb8edf0
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 0%
+source-wordcount: '1438'
+ht-degree: 1%
 
 ---
 
 
 <!--update metadata at GA-->
-<!--add mini TOC when live, already added to big TOC to get the link-->
 
 # Übersicht über verbundene Datensatztypen
-
-<!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 
 Sie können angeben, dass einzelne Datensatztypen miteinander oder mit Objekten aus anderen Anwendungen in Beziehung stehen, indem Sie sie verbinden.
 
@@ -95,75 +92,76 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
 
      Verknüpfte Felder erhalten ein Symbol, das den Feldtyp identifiziert. Verknüpfte (oder Lookup-) Felder weisen beispielsweise Symbole darauf hin, dass es sich bei einem Feld um eine Zahl, einen Absatz oder ein Datum handelt.
 
-<!--## Connection types
+## Verbindungstypen
 
-After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
+Nachdem Sie eine Verbindung zwischen zwei Datensatztypen oder zwischen einem Datensatz und einem Objekttyp aus einer anderen Anwendung hergestellt haben, können Sie in den verbundenen Datensatzfeldern Datensätze hinzufügen.
 
-Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
+Je nachdem, wie viele Datensätze Sie einem verbundenen Datensatzfeld hinzufügen können, stehen Ihnen beim Verbinden von Datensatztypen folgende Verbindungstypen zur Verfügung:
 
-* [Many to many](#many-to-many-connection-type)
-* [One to many](#one-to-many-connection-type)
-* [Many to one](#many-to-one-connection-type)
-* [One to one](#many-to-one-connection-type)
+* [Viele-zu-viele](#many-to-many-connection-type)
+* [Eins-zu-viele](#one-to-many-connection-type)
+* [Viele-zu-eins](#many-to-one-connection-type)
+* [Eins-zu-eins](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->These options are not available when connecting the following: 
->* Two records from different workspaces
+>Diese Optionen sind beim Verbinden der folgenden Elemente nicht verfügbar:
 >
->* A record type and Experience Manager assets
+>* Zwei Datensätze aus verschiedenen Arbeitsbereichen
+>
+>* Datensatz-Typ und Experience Manager-Assets
 
-### Many-to-many connection type
+### Viele-zu-viele-Verbindungstyp
 
 ![](assets/many-to-many-connection-picker.png)
 
-When you create a many-to-many connection between record types, you can then select multiple records in the connection field from both record types. 
+Wenn Sie eine n:n-Verbindung zwischen Datensatztypen erstellen, können Sie dann aus beiden Datensatztypen mehrere Datensätze im Verbindungsfeld auswählen.
 
-For example, if you create a many-to-many connection between campaigns and projects, you can select multiple projects for each campaign, and multiple campaigns for each project. 
+Wenn Sie beispielsweise eine n:n-Verbindung zwischen Kampagnen und Projekten herstellen, können Sie für jede Kampagne mehrere Projekte und für jedes Projekt mehrere Kampagnen auswählen.
 
-A real-life example of a many-to-many relationship type is the relationship between movies and actors. Each movie can have multiple actors, and each actor can play in multiple movies. 
+Ein reales Beispiel für eine Beziehung zwischen vielen und vielen ist die Beziehung zwischen Filmen und Schauspielern. Jeder Film kann mehrere Schauspieler haben, und jeder Schauspieler kann in mehreren Filmen spielen.
 
-When you select this connection type, you cannot change the connection type after you save it. 
+Wenn Sie diesen Verbindungstyp auswählen, können Sie den Verbindungstyp nach dem Speichern nicht mehr ändern.
 
-### One-to-many connection type
+### Eins-zu-viele-Verbindungstyp
 
 ![](assets/one-to-many-connection-picker.png)
 
 
-When you create a one-to-many connection between record types, you can then select multiple records in the connection field in the current record type, but the corresponding connection field in the record type you connect to will allow selecting only one record. The connected record field that is automatically created on the second record type is automatically set to a many-to-one relationship type. 
+Wenn Sie eine Eins-zu-viele-Verbindung zwischen Datensatztypen erstellen, können Sie dann im aktuellen Datensatztyp mehrere Datensätze im Verbindungsfeld auswählen. Das entsprechende Verbindungsfeld im Datensatztyp, zu dem Sie eine Verbindung herstellen, ermöglicht jedoch die Auswahl nur eines Datensatzes. Das Feld &quot;Verbundener Datensatz&quot;, das automatisch für den zweiten Datensatztyp erstellt wird, wird automatisch auf einen Beziehungstyp zwischen zwei Datensätzen eingestellt.
 
-For example, if you create a one-to-many connection between campaigns and projects, you can select multiple projects for each campaign, but each project can be connected to only one campaign.
+Wenn Sie beispielsweise eine Eins-zu-viele-Verbindung zwischen Kampagnen und Projekten herstellen, können Sie für jede Kampagne mehrere Projekte auswählen, aber jedes Projekt kann nur mit einer Kampagne verbunden sein.
 
-A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+Ein reales Beispiel für einen 1:n-Beziehungstyp ist die Beziehung zwischen Bibliotheken und Büchern: Eine Bibliothek hat viele Bücher im Inventar, aber ein bestimmtes Buch kann nur zu einem bestimmten Zeitpunkt in einer Bibliothek sein.
 
-When you select this connection type, you can later change it only to a many-to-many connection type. 
+Wenn Sie diesen Verbindungstyp auswählen, können Sie ihn später nur in einen Verbindungstyp vom Typ Viele-zu-viele ändern.
 
-### Many-to-one connection type
+### Viele-zu-eins-Verbindungstyp
 
 ![](assets/many-to-one-connection-picker.png)
 
 
-When you create a many-to-one connection between record types, you can then connect each record in the current record type with only one record from the connected record type. The connected record field that is automatically created on the second record type is automatically set to a one-to-many relationship type. 
+Wenn Sie eine n:1-Verbindung zwischen Datensatztypen erstellen, können Sie dann jeden Datensatz im aktuellen Datensatztyp mit nur einem Datensatz des verbundenen Datensatztyps verbinden. Das Feld für den verknüpften Datensatz, das automatisch beim zweiten Datensatztyp erstellt wird, wird automatisch auf einen 1:n-Beziehungstyp eingestellt.
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+Wenn Sie beispielsweise Kampagnen mit Projekten verbinden und diese Art von Verbindung wählen, können Sie einer Kampagne nur ein Projekt hinzufügen. Sie können jedoch einem Projekt mehrere Kampagnen hinzufügen.
 
-A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+Ein reales Beispiel für einen Beziehungstyp zwischen einer und vielen Filmen ist die Beziehung zwischen vielen Filmen und einem Schauspieler: Ein Schauspieler kann in vielen Filmen sein, aber jeder Film kann nur einen bestimmten Schauspieler haben, der einmal in seiner Wiedergabe war.
 
-When you select this connection type, you can later change it only to a many-to-many connection type.
+Wenn Sie diesen Verbindungstyp auswählen, können Sie ihn später nur in einen Verbindungstyp vom Typ Viele-zu-viele ändern.
 
-### One-to-one connection type
+### Eins-zu-Eins-Verbindungstyp
 
 ![](assets/one-to-one-connection-picker.png)
 
-When you create a one-to-one connection between record types, in both record types you can connect each record only with one record from the other record type.
+Wenn Sie eine Eins-zu-Eins-Verbindung zwischen Datensatztypen herstellen, können Sie in beiden Datensatztypen jeden Datensatz nur mit einem Datensatz des anderen Datensatztyps verbinden.
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+Wenn Sie beispielsweise Kampagnen mit Projekten verbinden und diese Art der Verbindung auswählen, können Sie eine Kampagne mit einem Projekt verbinden. Ein Projekt kann nur mit einer Kampagne verbunden werden.
 
-A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+Ein echtes Beispiel für eine Eins-zu-Eins-Beziehung ist die Beziehung zwischen einer Person und der eindeutigen Kennung ihres Landes (z. B. Sozialversicherungsnummer, Pass-ID, lokale Identifikationsnummer): Jede Person hat nur eine eindeutige Kennung für ein Land und jede eindeutige Kennung kann nur mit einer Person verknüpft werden.
 
-When you select this connection type, you can later change it to any other connection type. 
+Wenn Sie diesen Verbindungstyp auswählen, können Sie ihn später in einen anderen Verbindungstyp ändern.
 
--->
+
 
 
 

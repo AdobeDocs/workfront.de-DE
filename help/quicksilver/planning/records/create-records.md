@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,89 @@ Sie können Datensätze anhand einer der folgenden Methoden erstellen:
 * Fügen Sie sie von der Seite mit dem Datensatztyp in der Tabellenansicht hinzu
 * Datensätze aus einer externen Liste kopieren und einfügen
 * Duplizieren Sie sie
-  <!--* Create them as you connect them from other records-->
+* Erstellen Sie sie, während Sie sie mit anderen Datensätzen verbinden
 
-In diesem Artikel wird beschrieben, wie Sie Datensätze erstellen können. Informationen zum Verwalten von Datensätzen in der Tabellen- oder Timeline-Ansicht finden Sie in den folgenden Artikeln:
+In diesem Artikel wird beschrieben, wie Sie Datensätze erstellen können.
+
+Informationen zum Verwalten von Datensätzen in der Tabellen- oder Timeline-Ansicht finden Sie in den folgenden Artikeln:
 
 * [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Zugriffsanforderungen
 
+<!--Updated for GA-->
+
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
+
+Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produkte</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront-Planung<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
+   <td> 
+<p>Die folgenden Workfront-Pläne:</p> 
+<ul><li>Auswählen</li> 
+<li>Erstklassig</li> 
+<li>Ultimativ</li></ul> 
+<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td> 
+   <td> 
+<p>Alle </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
+   <td> 
+<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td> Standard
+   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p> 
+   <p>Bearbeiten Sie den Zugriff in Workfront für die Objekttypen, die Sie erstellen möchten (Projekte und Portfolios), während Sie die Datensätze mit ihnen verbinden. </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td> <p>Verwalten Sie Berechtigungen für den Arbeitsbereich, dem Sie Datensätze hinzufügen möchten. </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
+   <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Projekte) hinzuzufügen.</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--OLD info: 
 
 <table style="table-layout:auto">
  <col>
@@ -45,59 +118,52 @@ In diesem Artikel wird beschrieben, wie Sie Datensätze erstellen können. Infor
     <tr>
 <tr>
 <td>
-   <p> Produkt</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Ihr Unternehmen muss in der Phase des frühen Zugriffs für die Workfront-Planung eingeschrieben sein </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Abo</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alle</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Neu: Standard</p>
-   <p>Aktuell: Plan</p>  
+   <p>New: Standard</p>
+   <p>Current: Plan</p>  
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffskontrollen für die Adobe Workfront-Planung </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Contribute oder höhere Berechtigungen für einen Arbeitsbereich</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p>  
-</td>
-  </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
-
-
-<!--For the release of in-context record creation - add this to the table above for permissions and access:
-
-* Manage permissions to the workspace you want to add records to. 
-* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
-* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
 
 
 ## Erstellen von Datensätzen durch Hinzufügen zu einem Datensatztyp <!--in a record type table (I don't think you can create them elsewhere right now)-->
@@ -218,31 +284,30 @@ You can import records from other applications by linking them to existing recor
 
 Informationen zum Duplizieren von Datensätzen finden Sie unter [Duplizieren von Datensätzen](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
-<!--check the steps with the release of in-context record types epic: 
+## Erstellen von Datensätzen während der Verbindung
 
-## Create records as you connect them
+Sie können Datensätze oder Workfront-Objekte erstellen, während Sie sie mit anderen Datensätzen verbinden.
 
-You can create records or Workfront objects as you connect them from other records. 
+Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze oder Workfront-Objekte hinzufügen können, indem Sie sie aus vorhandenen Datensätzen verbinden:
 
-You must have the following before you can add new records or Workfront objects by connecting them from existing records:
-
-* Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+* Verbundene Datensatztypen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Verbundene Datensätze. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+* Die korrekten Zugriffs- und Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen](#access-requirements) in diesem Artikel beschrieben.
 
 >[!NOTE]
 >
->Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
+>Das Erstellen von Workfront-Projekten und -Portfolios während Sie sie mit Workfront-Planungsdatensätzen verbinden, ähnelt dem Erstellen von Datensätzen für die Planung , während Sie sie mit anderen Datensätzen verbinden.
 
-To create records as you are connecting them from other records: 
+So erstellen Sie Datensätze, während Sie sie aus anderen Datensätzen verbinden:
 
-1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting from. 
+1. Beginnen Sie mit dem Verbinden von Workfront-Planungsprotokollen, wie im Artikel [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md) beschrieben.
+1. (Bedingt) Wenn Sie beim Versuch, einen Datensatz aus dem verbundenen Datensatzfeld eines anderen Datensatzes hinzuzufügen, keinen Eintrag finden können, suchen Sie nach einem Datensatz und klicken Sie auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, aus dem Sie eine Verbindung herstellen.
 
-    ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
-    The record is created and added to the connected record field. 
-1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
-1. (Optional) Start adding information for the new record in the table view, or click its name to open the details page and add information there. 
+   Der Datensatz wird erstellt und dem Feld des verbundenen Datensatzes hinzugefügt.
+1. (Optional) Rufen Sie die Tabellenansicht des Datensatztyps auf, dessen Datensatz Sie erstellt haben. In der letzten Zeile der Ansicht wird ein neuer Datensatz angezeigt.
+1. (Optional) Beginnen Sie mit dem Hinzufügen von Informationen für den neuen Datensatz in der Tabellenansicht.
+Oder
+Klicken Sie auf seinen Namen, um die Detailseite zu öffnen und dort Informationen hinzuzufügen.
 
--->

@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Layout der Datensatzseite verwalten
 
@@ -36,7 +36,11 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 ## Zugriffsanforderungen
 
+<!--Updated for GA-->
+
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
+
+Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 <table style="table-layout:auto">
  <col>
@@ -47,51 +51,65 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
     <tr>
 <tr>
 <td>
-   <p> Produkt</p> </td>
+   <p> Produkte</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront-Planung<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td>
    <td>
-<p>Ihr Unternehmen muss in der Phase des frühen Zugriffs für die Workfront-Planung eingeschrieben sein </p>
+<p>Die folgenden Workfront-Pläne:</p>
+<ul><li>Auswählen</li>
+<li>Erstklassig</li>
+<li>Ultimativ</li></ul>
+<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront-Abo</p></td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td>
    <td>
 <p>Alle</p>
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
+   <td>
+<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p>
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
-   <p>Neu: Standard</p>
-   Oder
-   <p>Aktuell: Plan</p> 
+   <p>Standard</p>
+   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffskontrollen für die Adobe Workfront-Planung</p>  
+  <tr>
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
-</td>
+   <td role="rowheader"><p>Objektberechtigungen</p></td>
+   <td>
+   <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Ihr Workfront- oder Gruppenadministrator muss den Planungsbereich in Ihre Layoutvorlage einfügen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p>  
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü und den Planungsbereich für Projekte, Portfolios und Programme enthält. </p> Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -145,11 +163,11 @@ So fügen Sie einer Datensatzvorschau oder -seite einen Abschnitt hinzu:
 
 1. (Optional) Klicken Sie oben rechts in der Datensatzvorschau auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) , um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
-   Die Datensatzseite wird geöffnet. <!--The Details tab opens by default. -->
+   Die Datensatzseite wird geöffnet. Die Registerkarte Details wird standardmäßig geöffnet.
 
    ![](assets/details-page.png)
 
-1. Bewegen Sie in der Vorschau oder Seite des <!--**Details** tab of the--> Datensatzes den Mauszeiger links von den Feldern über den Leerraum und klicken Sie dann auf das Symbol **Abschnitt hinzufügen** ![](assets/add-section-icon.png) , um einen Abschnitt hinzuzufügen.
+1. Bewegen Sie auf der Registerkarte **Details** der Datensatzvorschau oder -seite den Mauszeiger über den Leerraum links von den Feldern und klicken Sie dann auf das Symbol **Abschnitt hinzufügen** ![](assets/add-section-icon.png) , um einen Abschnitt hinzuzufügen.
 1. Klicken Sie in den Namen des Abschnitts und ersetzen Sie den Abschnitt **Unbenannt** durch einen Namen. Klicken Sie dann auf &quot;Enter&quot;. Die unter dem Abschnitt angezeigten Felder sind automatisch Teil des neuen Abschnitts.
 1. Ziehen Sie Felder in den neuen Abschnitt, wie im Abschnitt [Felder in der Datensatzvorschau oder Detailseite neu anordnen](#rearrange-fields-in-the-record-preview-or-details-page) in diesem Artikel beschrieben.
 
@@ -182,11 +200,23 @@ Alle Abschnitte werden standardmäßig erweitert.
 
    Alle Änderungen an den Abschnitten und der Feldreihenfolge werden automatisch gespeichert.
 
-<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+1. (Optional) Klicken Sie auf das Symbol **Exportieren** ![](assets/export-icon-in-record-details-page.png) , um die Registerkarte &quot;Details&quot;in eine Word-Datei zu exportieren. Weitere Informationen finden Sie unter [Details eines Datensatzes exportieren](/help/quicksilver/planning/records/export-the-record-page.md).
 
-      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+1. (Optional) Klicken Sie auf die Registerkarte **Verbindungen** neben der Registerkarte **Details**. Möglicherweise müssen Sie auf **Mehr** klicken, bevor Sie auf die Registerkarte **Verbindungen** klicken.
 
-      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+   Alle Datensätze oder Objekte, die mit dem ausgewählten Datensatz verbunden sind, werden unter den Namen des Datensatztyps oder der Anwendung angezeigt, zu der sie gehören.
+
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+1. (Optional) Wählen Sie die Einstellung **Alle Datensätze anzeigen** in der oberen rechten Ecke der Registerkarte &quot;Verbindungen&quot;aus. Es werden alle verbundenen Datensatztypen angezeigt, einschließlich derjenigen, die noch keine Datensätze mit dem System verbunden haben. Standardmäßig ist der Umschalter deaktiviert und die Datensatztypen ohne verbundene Datensätze werden ausgeblendet.
+
+1. (Optional) Klicken Sie auf **Verbinden** , um den verbundenen Datensatztypen weitere Datensätze hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+
+1. (Optional) Bewegen Sie den Mauszeiger über eine Datensatzkarte, klicken Sie auf das Symbol zum Trennen des Datensatzes **-** und klicken Sie dann auf **Trennen**. <!--this is copied to the Manage the Planning page in Workfront article; update in both articles-->
+Folgendes geschieht:
+   * Der Datensatz ist nicht mehr mit dem Workfront-Objekt verbunden.
+   * Das Workfront-Objekt wird auch aus dem verbundenen Feld des Datensatzes aus der Workfront-Planung entfernt.
+   * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden ebenfalls gelöscht.
 
 ## Die Felder in der Vorschau oder Seite des Datensatzes neu anordnen
 

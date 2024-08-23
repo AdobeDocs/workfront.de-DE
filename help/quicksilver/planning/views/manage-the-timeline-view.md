@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '2636'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,76 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Ansichten von Date
 
 ## Zugriffsanforderungen
 
+<!--Updated for GA-->
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produkte</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront-Planung<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
+   <td> 
+<p>Die folgenden Workfront-Pläne:</p> 
+<ul><li>Auswählen</li> 
+<li>Erstklassig</li> 
+<li>Ultimativ</li></ul> 
+<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td> 
+   <td> 
+<p>Alle </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
+   <td> 
+<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td> <ul><li><p>Alle zum Anzeigen der Workfront-Planungsinformationen</p></li>
+   <li><p>Standard, um Arbeitsbereiche zu erstellen</p></li></ul>
+   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td>   <p>Berechtigungen für eine Ansicht verwalten</p>  
+   <p>Anzeigen oder Ändern von Berechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -47,136 +114,54 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tr>
 <tr>
 <td>
-   <p> Produkt</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-Abkommen</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Ihr Unternehmen muss in der Phase des frühen Zugriffs für die Workfront-Planung eingeschrieben sein </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-Abo</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alle</p>
+<p>Any</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
-   <td>
-   <p>Neu: Standard</p>
-   Oder
-   <p>Aktuell: Plan </p> 
-  </td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Konfigurationen auf Zugriffsebene</p></td>
-   <td> Es gibt keine Zugriffskontrollen für die Adobe Workfront-Planung</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Berechtigungen</p></td>
-   <td> <p>Berechtigungen für eine Ansicht verwalten</p>  
-   <p>Berechtigungen für eine Ansicht anzeigen, um die Anzeigeeinstellungen vorübergehend zu ändern</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-
-<!--EDIT PERMISSIONS AND ACCESS AND REPLACE THE table above with the following table at Planning GA release: 
-## Access requirements
-
-You must have the following to be able to access Workfront Planning: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Products</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
-  </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
-   <td>
-<p>Any of the following new Workfront plans:</p>
-<ul><li>Select</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning is not available for legacy Workfront plans</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
-   <td>
-<p>Any of the following Workfront Planning plans:</p>
-<ul><li>Planning</li>
-<li>Planning Plus</li>
-</ul>
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-
-  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <ul><li><p>Any, to view Workfront Planning information</p></li>
-   <li><p>Standard, to create workspaces</p></li></ul>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
+  
   <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Manage permissions to a view</p>  
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings</p>
-  </td>
+</td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-*********ensure that the link ^^^^^^^^above^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************
-
--->
-
++++
 
 ## Verwalten einer Timeline-Ansicht {#manage-a-timeline-view}
 
@@ -249,7 +234,11 @@ So verwalten Sie eine Timeline-Ansicht:
    * [Filter](#add-filters)
    * [Gruppierung](#add-grouping)
    * [Einstellungen](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
+
+1. (Optional) Klicken Sie auf **Aufschlüsselung** , um verbundene Datensätze in der Timeline anzuzeigen.
+
+   Weitere Informationen finden Sie im Abschnitt [Verwenden der Aufschlüsselungsfunktion, um verbundene Datensätze in der Timeline-Ansicht anzuzeigen](#break-down-connected-records-in-the-timeline-view)
 
 ### Filter hinzufügen
 
@@ -329,7 +318,6 @@ So fügen Sie eine Gruppierung in der Timeline-Ansicht hinzu:
 
 1. Klicken Sie auf außerhalb des Felds **Gruppeneinträge nach** , um sie zu schließen.
 1. (Optional) Klicken Sie auf **Einstellungen** und dann auf **Farbe** , um Farbcode-Gruppierungen vorzunehmen. Weitere Informationen finden Sie im Abschnitt [Einstellungen für die Timeline-Ansicht bearbeiten](#edit-the-timeline-view-settings) in diesem Artikel.
-   <!--1. (Optional) Click **Breakdown** to display connected records on the timeline. For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view)-->
 
 <!-- 
 
@@ -419,60 +407,54 @@ Aktualisieren Sie die Einstellungen der Timeline-Ansicht, um anzugeben, welche I
 
    Die Datensätze werden in der Timeline-Ansicht mit den von Ihnen ausgewählten Spezifikationen angezeigt.
 
-<!--
-### Use the Breakdown feature to display connected records in the timeline view
+### Verwenden Sie die Aufschlüsselungsfunktion, um verbundene Datensätze in der Timeline-Ansicht anzuzeigen.
 
-You can display connected records in a record's timeline view by using the Breakdown feature. Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. 
+Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der Timeline-Ansicht eines Datensatzes anzeigen. Wenn Sie Datensätze nach ihren Verbindungen aufschlüsseln, können Sie die Zeitpläne anderer verbundener Datensätze anzeigen und verstehen, wie sich diese auf die Performance und die Fristen Ihrer Datensätze auswirken können.
 
-#### Considerations when using the Breakdown feature
+#### Überlegungen zur Verwendung der Aufschlüsselungsfunktion
 
-* You can display connected records or objects under the records of the selected record type in the timeline view. 
-* You can display the following in the timeline view, using the Breakdown feature:
-    * Workfront Planning records connected to the selected record type. 
-    * Workfront (*************or AEM Assets*************)  object types connected to the selected record type.
-    * Workfront Planning records or objects from other application that are connected to records connected to the selected record type. 
-    
-        For example, you might connect campaigns to portfolios. In addition, you might connect  another record type, products, with projects, as well as with campaigns. When you build the campaign timeline view, you can break down the campaigns by portfolios, products, and projects. 
+* Sie können verbundene Datensätze oder Objekte in der Timeline-Ansicht unter den Datensätzen des ausgewählten Datensatztyps anzeigen.
+* Mithilfe der Aufschlüsselungsfunktion können Sie Folgendes in der Timeline-Ansicht anzeigen:
+   * Workfront Planning-Datensätze, die mit dem ausgewählten Datensatztyp verbunden sind.
+   * Workfront-Objekttypen (************* oder AEM Assets *************), die mit dem ausgewählten Datensatztyp verbunden sind.
+   * Workfront Planning speichert Datensätze oder Objekte aus anderen Anwendungen, die mit Datensätzen verbunden sind, die mit dem ausgewählten Datensatztyp verbunden sind.
 
-* You cannot display object types that are connected only to Workfront objects in Workfront, but are not connected to a Workfront Planning record type. You can only display object or record types that are connected in Workfront Planning. 
+     Sie können beispielsweise Kampagnen mit Portfolios verknüpfen. Darüber hinaus können Sie einen anderen Datensatztyp, Produkte, Projekte sowie Kampagnen, miteinander verbinden. Beim Erstellen der Kampagnen-Timeline-Ansicht können Sie die Kampagnen nach Portfolios, Produkten und Projekten aufschlüsseln.
 
-    For example, tasks, are connected to projects in Workfront. Using the Breakdown feature, you can display projects that are connected to campaigns in Planning, but not tasks connected to projects in Workfront. 
+* Es ist nicht möglich, Objekttypen anzuzeigen, die nur mit Workfront-Objekten in Workfront verbunden sind, aber nicht mit einem Workfront-Planungs-Datensatztyp verbunden sind. Sie können nur Objekt- oder Datensatztypen anzeigen, die mit der Workfront-Planung verbunden sind.
 
-    If you want to display both portfolios and projects in the timeline view of a Workfront Planning record type, both the portfolios and the projects must be connected to the Planning record or to a record connected to the Planning record whose timeline view you are managing.
-* You can only display record types that are associated with at least two date fields. 
-* The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
-* The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
-* There is a limit of 5 record types that you can include in a record's breakdown. 
+  Beispielsweise sind Aufgaben mit Projekten in Workfront verbunden. Mithilfe der Aufschlüsselungsfunktion können Sie Projekte anzeigen, die mit Kampagnen in der Planung verbunden sind, aber keine mit Projekten in Workfront verbundenen Aufgaben.
 
+  Wenn Sie sowohl Portfolios als auch Projekte in der Timeline-Ansicht eines Datensatztyps für die Workfront-Planung anzeigen möchten, müssen sowohl die Portfolios als auch die Projekte mit dem Planungsdatensatz oder einem Datensatz verbunden sein, der mit dem Planungsdatensatz verbunden ist, dessen Timeline-Ansicht Sie verwalten.
+* Sie können nur Datensatztypen anzeigen, die mindestens zwei Datumsfeldern zugeordnet sind.
+* Die Datumsfelder für die Datensatztypen, die in der Timeline-Ansicht angezeigt werden sollen, müssen in der Tabellenansicht des ausgewählten Datensatztyps als Lookup-Felder angezeigt werden.
+* Die Start- und Enddaten der Datensätze, die in der Timeline-Ansicht angezeigt werden sollen, müssen in chronologischer Reihenfolge aufgeführt werden. Wenn ein Datensatz beispielsweise das Startdatum 31. Januar und das Enddatum 1. Januar hat, wird er nicht in der Timeline-Ansicht angezeigt. Weitere Informationen finden Sie im Abschnitt [Verwalten einer Timeline-Ansicht](#manage-a-timeline-view) in diesem Artikel.
+* Es gibt maximal 5 Datensatztypen, die Sie in die Aufschlüsselung eines Datensatzes aufnehmen können.
 
-#### Break down connected records in the timeline view
+#### Aufschlüsseln von verbundenen Datensätzen in der Timeline-Ansicht
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Breakdown**.
-1. Expand the **Select a linked record type** box and select a connected record type. (**************add new screen shot***************)
+1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. (Bedingt) Wenn Sie die Timeline-Ansicht im Standardmodus anzeigen, klicken Sie auf **Aufschlüsselung**.
+1. Erweitern Sie das Feld **Einen verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-    ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![](assets/breakdown-picker-and-button-on-timeline.png)
 
-    >[!TIP]
-    >
-    >    If you do not have any connected records, or if the connected records do not have at least two date fields, the **Select a linked record type** box is not available.
+   >[!TIP]
+   >
+   >    Wenn keine verbundenen Datensätze vorhanden sind oder die verbundenen Datensätze nicht mindestens zwei Datumsfelder aufweisen, ist das Feld **Verknüpften Datensatztyp auswählen** nicht verfügbar.
 
-1. Choose a **Start date** and an **End date field**.
+1. Wählen Sie ein **Startdatum** und ein **Enddatumsfeld** aus.
 
-    >[!TIP]
-    >
-    >    The Start and End dates must be sequential. If the End date is before the Start date, no records will display in the timeline. 
+   >[!TIP]
+   >
+   >    Das Start- und das Enddatum müssen sequenziell sein. Wenn das Enddatum vor dem Startdatum liegt, werden in der Timeline keine Datensätze angezeigt.
 
-    A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
+   Auf der Symbolleiste des ausgewählten Datensatzes in der Timeline wird ein nach rechts zeigender Pfeil angezeigt, wenn sie mit anderen Datensätzen verbunden sind.
+1. Klicken Sie auf den Rechtspfeil, um einen Datensatztyp und seine Verbindungen anzuzeigen.
 
-    ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
+   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
-
-1. (Optional) Repeat the steps above to add more connected records. 
-
-    >[!TIP]
-    >
-    >    You can add up to 5 connected records in a timeline using the Breakdown feature. 
+1. (Optional) Wiederholen Sie die obigen Schritte, um weitere verbundene Datensätze hinzuzufügen.
 
 
--->
+
