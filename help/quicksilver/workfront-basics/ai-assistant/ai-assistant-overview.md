@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
+source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,21 @@ Der KI-Assistent bietet derzeit die folgenden Funktionen:
 
 1. Wenn der KI-Assistent nicht die benötigte Antwort bereitstellt, verfeinern Sie Ihre Eingabeaufforderung und versuchen Sie es erneut.
 
+## Unterschreiben der Adobe Gen AI-Vereinbarung
 
+Wenn Ihr Unternehmen über keine unterzeichnete Adobe Gen-KI-Vereinbarung zur -Datei verfügt, kann der KI-Assistent für Ihr Unternehmen nicht aktiviert werden.
 
+Wenn ein Benutzer versucht, AI Assistant zu verwenden, wenn die Adobe Gen AI-Vereinbarung nicht unterzeichnet wurde, wird ihm eine Meldung angezeigt:
 
+* Benutzer: Benutzer werden darüber informiert, dass der KI-Assistent für ihre Organisation nicht aktiviert wurde und dass sie sich an ihren Workfront-Administrator wenden können, um ihn für ihre Organisation anzufordern.
+* Administratoren: Administratoren werden darüber informiert, dass keine unterzeichnete Adobe Gen AI-Vereinbarung vorliegt, und können verlangen, dass eine Kopie der Vereinbarung zur Unterzeichnung gesendet wird.
+
+So fordern Sie die Adobe Gen AI-Vereinbarung an:
+
+1. Als Workfront-Administrator klicken Sie auf das Symbol &quot;KI-Assistent&quot;![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Beginnen Sie mit der Eingabe im Bedienfeld &quot;AI Assistant&quot;.
+1. Wenn die Meldung zur Adobe Gen AI Agreement (KI-Vereinbarung) angezeigt wird, klicken Sie auf **Review Agreement (Vereinbarung überprüfen)**.
+1. Geben Sie den Namen und die E-Mail-Adresse der Person in Ihrem Unternehmen ein, die die Adobe Gen AI-Vereinbarung unterzeichnet.
+
+   Die Vereinbarung wird dieser Person zur Unterzeichnung übermittelt. Nach der Unterzeichnung und Rückgabe wird der KI-Assistent für Ihre Organisation aktiviert.
 
