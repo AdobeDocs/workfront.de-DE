@@ -5,9 +5,9 @@ title: Handbuch zur veralteten Homepage-Einstellung
 description: Diese Seite enthält Informationen über die bevorstehende Einstellung der alten Homepage.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Workfront-Community, wir haben Nachrichten - wir werden bald das alte Home
 
 ![](assets/legacy-home-worklist-view.png)
 
-Diese Seite wird in der Version 24.10 (für den 17. Oktober 2024 geplant) nicht mehr unterstützt. Zu diesem Zeitpunkt müssen Sie zum neuen Starterlebnis wechseln. Wenn Sie Ihre Arbeit mit dem alten Home verwaltet haben, machen Sie sich keine Gedanken! Neben der kontinuierlichen Verbesserung des neuen Hauses haben wir uns damit beschäftigt, ein optimiertes Arbeitsmanagement-Erlebnis namens &quot;Meine Prioritäten&quot;zu entwickeln.
+Diese Seite wird in der Version 24.10 (für den 17. Oktober 2024 geplant) nicht mehr unterstützt. Zu diesem Zeitpunkt müssen Sie zum neuen Starterlebnis wechseln. Wenn Sie Ihre Arbeit mit dem alten Home verwaltet haben, machen Sie sich keine Gedanken! Neben der kontinuierlichen Verbesserung des neuen Hauses sind wir damit beschäftigt, ein optimiertes Arbeitsmanagement-Erlebnis namens &quot;Prioritäten&quot;zu entwickeln.
 Trotzdem wissen wir, dass eine solche Änderung störend sein kann, und wir möchten Ihnen bei Ihrem Übergang helfen, so gut es möglich ist. Diese Seite enthält Informationen darüber, was genau sich ändern wird, Ratschläge zur Vorbereitung auf den Übergang und Antworten auf häufig gestellte Fragen.
 
 ## Veraltete Informationen
@@ -35,7 +35,7 @@ Trotzdem wissen wir, dass eine solche Änderung störend sein kann, und wir möc
 
 * Als Ersatz ist bereits eine neue Startseite verfügbar. Weitere Informationen zur Verwendung des neuen Home finden Sie unter [Erste Schritte mit dem neuen Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) . Sie kann sowohl von Benutzern über Personalisierungsoptionen als auch von Administratoren über Layoutvorlagen angepasst werden.
 
-* Meine Prioritäten sind in der Entwicklung und werden als weiteres Element der optimierten Arbeitsverwaltungserfahrung in Adobe Workfront dienen.
+* Die Prioritäten sind in der Entwicklung und werden als weiteres Element der optimierten Arbeitserfahrung in Adobe Workfront dienen.
 
 ## Vorbereitung auf die Einstellung
 
@@ -57,7 +57,7 @@ Dadurch erhalten Ihre Benutzer so bald wie möglich Zeit, sich an das neue Erleb
 
 ### Befolgen Sie die Entwicklung des Starterlebnisses.
 
-Wir empfehlen außerdem, stets über die neuesten Versionshinweise auf dem Laufenden zu bleiben (siehe [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md)), um mehr über alle Änderungen zu erfahren, die am Home-Erlebnis vorgenommen wurden, wenn wir näher an die Einstellung herankommen. Lesen Sie außerdem weiter über &quot;Meine Prioritäten&quot;, um unsere Vision für die Zukunft des Arbeitsmanagements in Adobe Workfront besser zu verstehen (weitere Informationen werden in Kürze bereitgestellt).
+Wir empfehlen außerdem, stets über die neuesten Versionshinweise auf dem Laufenden zu bleiben (siehe [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md)), um mehr über alle Änderungen zu erfahren, die am Home-Erlebnis vorgenommen wurden, wenn wir näher an die Einstellung herankommen. Lesen Sie außerdem die Prioritätenliste weiter, um unsere Vision für das künftige Arbeitsmanagement in Adobe Workfront besser zu verstehen (weitere Informationen werden in Kürze verfügbar sein).
 
 ### Hilfe anfordern
 
@@ -70,7 +70,7 @@ Sollten während der Umstellung Probleme auftreten, wenden Sie sich an Ihren Kun
 Nein, es wird vollständig aus der Anwendung entfernt.
 +++
 
-+++ Ist jede Funktion des alten Hauses im neuen Zuhause (oder schließlich in &quot;Meine Prioritäten&quot;) verfügbar?
++++ Ist jede Funktion des alten Hauses im neuen Zuhause (oder schließlich in den Prioritäten) verfügbar?
 
 Beinahe mit Ausnahme von:
 
@@ -78,7 +78,7 @@ Beinahe mit Ausnahme von:
 
 * Die Anzeige von Zeitstempeln für Fälligkeitsdaten von Objekten ist derzeit nicht verfügbar.
 
-* Die Anzeige des Commit-Datums im Update-Feed ist derzeit nicht verfügbar. Es gibt jedoch eine mögliche Problemumgehung: Zeigen Sie das Commit-Datum in der Kopfzeilenanpassung durch Layoutvorlagen an.
+* Die Anzeige des Commit-Datums im Update-Feed ist derzeit nicht verfügbar. Es gibt jedoch eine mögliche Problemumgehung: das Commit-Datum in der Kopfzeile durch Anpassung der Layout-Vorlage anzeigen.
 +++
 
 +++ Wie kann ich regeln, auf welche Widgets Benutzer Zugriff auf das neue Home haben?
@@ -102,5 +102,5 @@ Benutzerdefinierte Felder können wie folgt im neuen Startseiten angezeigt werde
 
 +++ Kann ich Feedback senden?
 
-Ja! Klicken Sie dazu auf der neuen Startseite auf die In-App-Schaltfläche **Feedback geben** , auf der bevorstehenden Seite &quot;Meine Prioritäten&quot;oder im [Workfront-Ideenforum](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas) .
+Ja! Klicken Sie dazu auf der neuen Startseite auf die In-App-Schaltfläche **Feedback geben** , auf der nächsten Prioritätsseite oder im [Workfront-Ideenforum](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas) .
 +++
