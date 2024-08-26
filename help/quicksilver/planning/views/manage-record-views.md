@@ -1,20 +1,20 @@
 ---
-title: Verwalten von Datensatzansichten
+title: Ansichten von Datensätzen verwalten
 description: Bei Verwendung der Adobe Workfront-Planung können Sie Datensätze in einer Tabellen-, Timeline- oder Kalenderansicht anzeigen.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 1%
 
 ---
 
-# Verwalten von Datensatzansichten
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Verwalten von Datensatzansichten
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ In diesem Artikel werden die folgenden Informationen zu Datensatzansichten besch
 
 
 ## Zugriffsanforderungen
-
-<!--Updated for GA-->
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
@@ -87,7 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td> <ul><li><p>Alle zum Anzeigen der Workfront-Planungsinformationen</p></li>
+   <td> <ul><li><p>Standard, Light oder Contributor, um Workfront-Planungsinformationen anzuzeigen</p></li>
    <li><p>Standard, um Arbeitsbereiche zu erstellen</p></li></ul>
    <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
   </td> 

@@ -4,9 +4,9 @@ description: Sie können ein Anfrageformular für jeden Datensatztyp erstellen, 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,5 @@ Sie können ein Anfrageformular für jeden Datensatztyp erstellen, es für Benut
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Anforderungsformular in der Adobe Workfront-Planung erstellen](/help/quicksilver/planning/requests/create-request-form.md)
+* [Anforderungsformular in der Adobe Workfront-Planung erstellen und verwalten](/help/quicksilver/planning/requests/create-request-form.md)
 * [Übermitteln von Adobe Workfront-Planungsanfragen](/help/quicksilver/planning/requests/submit-requests.md)

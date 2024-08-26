@@ -1,28 +1,17 @@
 ---
 title: "Datensätze: Artikelindex"
 description: Nachdem Sie in der Adobe Workfront-Planung Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen. In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in der Adobe Workfront-Planung erstellen und verwalten können.
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 1%
 
 ---
 
-<!-- update the metadata with real information when making this available in TOC and in the left nav
----
-title: "Records: article index"
-description: After you create record types in Adobe Workfront Planning you can create individual records of those types. The following articles describe how you can create and manage records and their information in Adobe Workfront Planning.
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User
-hide: yes
----
--->
 
 # Datensätze: Artikelindex
 

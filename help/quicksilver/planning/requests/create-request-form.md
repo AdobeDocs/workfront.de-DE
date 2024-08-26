@@ -1,23 +1,25 @@
 ---
-title: Anforderungsformular in der Adobe Workfront-Planung erstellen
-description: Nachdem Sie im Adobe Workfront-Planungsbereich einen Datensatztyp ausgewählt haben, können Sie ein Anforderungsformular erstellen, das diesem Datensatztyp zugeordnet ist, und einen Link mit anderen internen oder externen Benutzern teilen.
+title: Anforderungsformular in der Adobe Workfront-Planung erstellen und verwalten
+description: Nachdem Sie im Adobe Workfront-Planungsbereich einen Datensatztyp ausgewählt haben, können Sie ein Anforderungsformular erstellen und dieses mit diesem Datensatztyp verknüpfen. Sie können dann einen Link mit anderen internen oder externen Benutzern teilen. Benutzer mit einem Link zum Formular können die Feldwerte ausfüllen und durch Senden einen neuen Datensatz für den damit verknüpften Datensatztyp hinzufügen.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '1101'
 ht-degree: 2%
 
 ---
 
-# Anforderungsformular in der Adobe Workfront-Planung erstellen
+# Anforderungsformular in der Adobe Workfront-Planung erstellen und verwalten
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
 Nachdem Sie im Adobe Workfront-Planungsbereich einen Datensatztyp ausgewählt haben, können Sie ein Anforderungsformular erstellen und dieses mit diesem Datensatztyp verknüpfen. Sie können dann einen Link mit anderen internen oder externen Benutzern teilen. <!--double-check on the external part of it-->
+
+Benutzer mit einem Link zum Formular können die Feldwerte ausfüllen und durch Senden einen neuen Datensatz für den damit verknüpften Datensatztyp hinzufügen.
 
 ## Zugriffsanforderungen
 
@@ -52,7 +54,8 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 <tr>
    <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td>
    <td>
-<p>Alle </p>   </td>
+<p>Alle </p>  
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>. </td>
 
 <tr>
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
@@ -118,31 +121,76 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 1. Klicken Sie auf **Erstellen**. Das Anfrageformular für den ausgewählten Datensatztyp wird geöffnet.
 
+   ![](assets/campaigns-request-form-edit-mode.png)
+
    Das Anfrageformular enthält standardmäßig die folgenden Informationen:
 
+   * Alle in der Tabellenansicht des ausgewählten Datensatztyps verfügbaren Datensatzfelder.
    * **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anforderungsformular anwendet. Der Abschnitt Standard kann nicht umbenannt oder entfernt werden.
    * Feld **Betreff** : Das Feld, das die Anforderung in Workfront identifiziert. Diese Funktion ist noch nicht verfügbar.
    * Alle mit dem Datensatztyp verknüpften Felder.
 
    Die im Anfrageformular enthaltenen Felder sind für alle sichtbar, die eine Anfrage an diesen Datensatztyp senden.
 
-1. (Optional) Entfernen Sie das Feld **Betreff** , da es in der Workfront-Planung nicht sichtbar ist. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Bewegen Sie den Mauszeiger über alle Felder im Formular, die Sie entfernen möchten. Sie werden der Registerkarte **Felder** auf der linken Seite des Formulars hinzugefügt.
-1. Klicken Sie auf ein beliebiges Feld und verwenden Sie dann die Steuerelemente auf der rechten Seite des Formulars, um eine der folgenden Informationen über die Felder zu definieren:
+1. (Optional) Bewegen Sie den Mauszeiger über alle Felder im Formular, die Sie entfernen möchten, und klicken Sie dann auf das Symbol **x** , um sie zu entfernen. Sie werden der Registerkarte **Felder** links neben dem Formular hinzugefügt.
+
+   Entfernen Sie beispielsweise das Feld **Betreff** , da dies in der Workfront-Planung nicht sichtbar ist. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. Klicken Sie auf ein beliebiges Feld und verwenden Sie dann die Steuerelemente auf der rechten Seite des Formulars, um deren Größe oder eine der folgenden Informationen zu den Feldern zu definieren:
 
    * **Beschriftung**: Dies ist der Name des Felds, wie er im Anfrageformular angezeigt wird. Dadurch wird der Name des Datensatzfelds nicht geändert.
    * **Anweisungen**: Fügen Sie weitere Informationen zum Feld hinzu.
    * **Machen Sie ein erforderliches Feld**: Wenn ausgewählt, muss das Feld einen Wert enthalten. Andernfalls kann das Formular nicht gesendet werden.
    * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird.
 
-1. Klicken Sie auf die Registerkarte Inhaltselemente rechts im Formular und fügen Sie eines der folgenden Elemente hinzu:
+1. (Optional) Klicken Sie auf die Registerkarte **Inhaltselemente** auf der linken Seite des Formulars und fügen Sie eines der folgenden Elemente hinzu:
 
-   * Beschreibender Text
-   * Abschnittsumbruch
+   * **Beschreibender Text**
+   * **Abschnittsumbruch**
 
    Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+1. (Optional) Klicken Sie auf **Vorschau** , um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden eines neuen Datensatzes verwenden werden.
+1. Klicken Sie auf **Publish** , um das Formular zu veröffentlichen und einen eindeutigen Link dafür zu erhalten.
 
+   Folgendes geschieht:
+
+   * Die Schaltfläche Publish wurde entfernt.
+   * Die Schaltfläche **Veröffentlichung rückgängig machen** wird dem Formular hinzugefügt. Wenn Sie darauf klicken, wird der Zugriff auf das Formular verhindert.
+   * Dem Formular wird eine Schaltfläche **Freigabe** hinzugefügt.
+
+1. Klicken Sie auf **Freigeben** , um das Formular für andere freizugeben.
+
+   ![](assets/share-box-for-request-form.png)
+
+1. Wählen Sie aus den folgenden Optionen aus, um anzugeben, welche Benutzertypen auf dieses Formular zugreifen können:
+
+   * Jede Person mit Zugriff auf den Arbeitsbereich (Ansicht oder höher)
+   * Jede Person mit Zugriff auf den Arbeitsbereich (Beitrag oder höher)
+   * Jede Person mit dem Link
+
+   >[!IMPORTANT]
+   >
+   >Wenn Sie &quot;Jeder, der über den Link verfügt&quot;auswählen, kann jeder, auch außerhalb Ihres Unternehmens, der kein Workfront-Konto hat, auf das Formular zugreifen und einen neuen Datensatz senden.
+
+1. (Bedingt) Wenn Sie im vorherigen Schritt **Jeder Benutzer mit dem Link** ausgewählt haben, wählen Sie im verfügbaren Kalender das **Ablaufdatum des Links** aus. Personen erhalten nach Ablauf des Links einen Fehler. Sie müssen das Link-Datum aktualisieren, bevor sie erneut auf das Formular zugreifen können.  <!--add info here about how long the expiration date should be; logged bug-->
+
+1. Klicken Sie auf **Link speichern und kopieren** , um die Freigabedetails für das Formular zu speichern.
+
+   Die Optionen zur Formularfreigabe werden gespeichert und der Link wird in die Zwischenablage kopiert. Sie können es jetzt für andere freigeben.
+
+   Informationen zum Erstellen von Datensätzen mithilfe eines Links zu einem Anforderungsformular finden Sie unter [Planungsanforderungen für die Adobe Workfront übermitteln](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Klicken Sie in der rechten unteren Ecke des Bildschirms auf **Speichern** , um das Formular zu speichern.
+1. Klicken Sie in der Kopfzeile auf den linken Pfeil neben dem Formularnamen, um das Formular zu schließen.
+
+   Die Seite mit dem Datensatztyp wird geöffnet.
+1. (Optional) Klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Datensatztyps in der Kopfzeile und führen Sie einen der folgenden Schritte aus:![](assets/more-menu.png)
+   * Klicken Sie auf **Anforderungsformular aktualisieren** , um Änderungen am Anforderungsformular vorzunehmen.
+   * Klicken Sie auf **Link zum Anforderungsformular kopieren** , um den Link zum Formular für andere freizugeben.
+
+   >[!TIP]
+   >
+   >Es gibt einen Hinweis darauf, dass der Link öffentlich freigegeben wird, wenn dies der Fall ist.
 
 
 

@@ -1,35 +1,22 @@
 ---
-title: Übersicht über den Adobe Workfront Planning AI Assistant
+title: Übersicht über den Adobe Workfront Planning AI Assistant - Überblick
 description: Sie können den KI-Assistenten verwenden, um Datensätze basierend auf dem aktuellen Seitenkontext und der aktuellen Datensatzstruktur zu generieren, zu aktualisieren oder zu entfernen. Die Befehle des Benutzers und die Ausführung dieser Befehle durch die KI arbeiten zusammen, um sicherzustellen, dass von der KI vorgenommene Änderungen in Ihrer Umgebung korrekt widergespiegelt werden.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
+
 # Übersicht über den Adobe Workfront Planning AI Assistant
 
-<!-- update metadata above at GA-->
-
->[!IMPORTANT]
->
-><span class="preview">Der Workfront AI-Assistent wurde vorübergehend entfernt und steht zu einem späteren Zeitpunkt zur Verfügung.</span>
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning und die Workfront AI Assistant (Beta), die neue Angebote von Adobe Workfront sind.
->
->Die Workfront-Planung befindet sich derzeit in einer frühen Zugriffsphase und der Workfront AI-Assistent befindet sich in der Beta-Phase.
->
->Workfront Planning und der AI Assistant (Beta) stehen nur einer begrenzten Anzahl von Kunden zur Verfügung.
->
->Sie müssen Workfront-Kunde sein, um diese Funktionen nutzen zu können.
->
->Ihr Kundenbetreuer wird Sie darüber informieren, ob Sie Teil dieser Phase sind.
->
->Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
+{{planning-important-intro}}
 
 Sie können den AI-Assistenten verwenden, um Datensätze basierend auf dem aktuellen Seitenkontext und der aktuellen Datensatzstruktur zu generieren, zu aktualisieren oder zu entfernen.
 
@@ -37,7 +24,8 @@ Die Befehle des Benutzers und die Ausführung dieser Befehle durch die KI arbeit
 
 ## Überlegungen zum KI-Assistenten
 
-* Der KI-Assistent ist standardmäßig für den Workfront-Hauptadministrator verfügbar. Weitere Informationen finden Sie unter [Grundlegende Informationen für Ihr System konfigurieren](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* Der KI-Assistent muss für Ihre Organisation aktiviert werden, bevor er für Benutzer in Ihrem Unternehmen verfügbar ist. Weitere Informationen finden Sie unter [AI Assistant Overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+* Nachdem Workfront den KI-Assistenten für Ihr Unternehmen aktiviert hat, steht er dem Hauptadministrator von Workfront zur Verfügung. Weitere Informationen finden Sie unter [Grundlegende Informationen für Ihr System konfigurieren](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * Der Workfront-Administrator muss den KI-Assistenten für alle anderen Benutzer aktivieren. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
@@ -71,7 +59,7 @@ Sie können den AI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 * Datensätze löschen
 * Wiederherstellen von gerade gelöschten Datensätzen
 
-## Zugriff auf den KI-Assistenten
+## Zugriff auf die KI-Assistenzkraft im Planungsbereich
 
 1. Melden Sie sich bei Workfront an und wechseln Sie dann zum Bereich **Planung** .
 
