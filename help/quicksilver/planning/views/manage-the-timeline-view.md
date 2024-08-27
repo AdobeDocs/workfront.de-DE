@@ -1,30 +1,19 @@
 ---
 title: Verwalten der Timeline-Ansicht
 description: Rufen Sie Datensätze in einer Timeline-Ansicht auf der Seite Adobe Workfront Planning record type auf und bearbeiten Sie sie. Passen Sie die Timeline mit Filtern, Gruppierungen und Einstellungen an. Mit der Aufschlüsselungsfunktion können Sie verbundene Datensätze anzeigen.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2621'
 ht-degree: 0%
 
 ---
 
 # Verwalten der Timeline-Ansicht
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,11 +23,9 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Ansichten von Date
 
 ## Zugriffsanforderungen
 
-<!--Updated for GA-->
++++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td> <ul><li><p>Alle zum Anzeigen der Workfront-Planungsinformationen</p></li>
-   <li><p>Standard, um Arbeitsbereiche zu erstellen</p></li></ul>
+   <td><p> Standard </p>
    <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
   </td> 
   </tr> 
@@ -92,7 +78,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Berechtigungen für eine Ansicht verwalten</p>  
-   <p>Anzeigen oder Ändern von Berechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
+   <p>Berechtigungen für eine Ansicht anzeigen, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout-Vorlage</p></td> 
@@ -102,6 +88,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 *Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--OLD: 
 
@@ -161,7 +149,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Verwalten einer Timeline-Ansicht {#manage-a-timeline-view}
 

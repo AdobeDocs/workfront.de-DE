@@ -1,17 +1,16 @@
 ---
 title: Arbeitsbereiche - Überblick
 description: Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Sie können die Arbeitsbereiche in der Adobe Workfront-Planung vollständig an die Workflows Ihrer Organisationseinheiten anpassen.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Arbeitsbereiche - Übersicht
 
@@ -19,7 +18,6 @@ ht-degree: 0%
 
 Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisationseinheit verwendet werden, und stellt den Arbeitslebenszyklus und die Prozesse der Einheit dar. Sie können die Arbeitsbereiche in der Adobe Workfront-Planung vollständig anpassen.
 
-<!--replace shot below with new tab name for Workspaces I'm on-->
 
 ![](assets/workspaces-landing-page-admin-account.png)
 

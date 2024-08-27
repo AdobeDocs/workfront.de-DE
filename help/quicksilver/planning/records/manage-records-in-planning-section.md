@@ -1,23 +1,20 @@
 ---
-title: Verwalten von Datensätzen im Bereich "Planung"von Adobe Workfront-Objekten
+title: Verwalten von Datensätzen im Planungsabschnitt von Adobe Workfront-Objekten
 description: Sie können die mit Adobe Workfront-Objekten verknüpften Workfront-Planungsdatensätze im Planungsabschnitt eines Workfront-Objekts im linken Bereich anzeigen.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
-
-<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
-
 
 # Verwalten von Datensätzen im Bereich &quot;Planung&quot;von Adobe Workfront-Objekten
 
@@ -34,8 +31,6 @@ Der Abschnitt Planung ist für die folgenden Workfront-Objekte verfügbar:
 * Company-->
 
 ## Zugriffsanforderungen
-
-<!--Updated for GA-->
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 

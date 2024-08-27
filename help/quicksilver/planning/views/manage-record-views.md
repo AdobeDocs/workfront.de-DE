@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1194'
 ht-degree: 1%
 
 ---
@@ -42,9 +42,9 @@ In diesem Artikel werden die folgenden Informationen zu Datensatzansichten besch
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,8 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td> <ul><li><p>Standard, Light oder Contributor, um Workfront-Planungsinformationen anzuzeigen</p></li>
-   <li><p>Standard, um Arbeitsbereiche zu erstellen</p></li></ul>
+   <td><p> Standard </p>
    <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
   </td> 
   </tr> 
@@ -98,7 +97,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Berechtigungen für eine Ansicht verwalten</p>  
-   <p>Anzeigen oder Ändern von Berechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
+   <p>Berechtigungen für eine Ansicht anzeigen, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout-Vorlage</p></td> 

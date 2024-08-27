@@ -3,9 +3,9 @@ title: Anfordern von Berechtigungen für eine Ansicht oder eine Workspace
 description: Sie können Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern, denen andere Benutzer einen Link geschickt haben, zu dem Sie zuvor noch nicht freigegeben haben.
 hidefrontoc: true
 hide: true
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 author: Alina
 feature: Workfront Planning
-role: User
+role: User, Admin
 ---
 -->
 
@@ -27,6 +27,8 @@ role: User
 # Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich
 
 Sie können Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern, denen andere Benutzer einen Link geschickt haben, zu dem Sie zuvor noch nicht freigegeben haben.
+
+Das Anfordern von Berechtigungen für eine Ansicht ähnelt dem Anfordern von Berechtigungen für einen Arbeitsbereich.
 
 ## Zugriffsanforderungen
 
@@ -86,8 +88,10 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>  <p>Berechtigungen für eine Ansicht verwalten</p>  
-   <p>Nur Benutzer mit Verwaltungsberechtigungen für einen Arbeitsbereich können eine Ansicht öffentlich freigeben.</p></td> 
+   <td>  <p>Nachdem Ihre Genehmigungsanfrage erteilt wurde, können Sie die folgenden Berechtigungen erhalten:</p>
+   <ul><li><p>Anzeigen oder Verwalten für eine Ansicht</p></li>
+   <li><p>Anzeigen, Contribute oder Verwalten eines Arbeitsbereichs</p></li></ul>  
+   <p>Nur Benutzer mit Verwaltungsberechtigungen für einen Arbeitsbereich und eine Ansicht können eine Ansicht öffentlich freigeben.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout-Vorlage</p></td> 
@@ -100,20 +104,32 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 +++
 
-## Anfordern und Erteilen von Berechtigungen für Ansichten oder Arbeitsbereiche
+## Anfordern von Berechtigungen für Ansichten oder Arbeitsbereiche
 
-Wenn jemand einen Link zu einem Arbeitsbereich oder einer Ansicht ohne Zugriff für Sie freigegeben hat, liegt folgendes Szenario vor:
+Das Anfordern von Berechtigungen für eine Ansicht ähnelt dem Anfordern von Berechtigungen für einen Arbeitsbereich.
+
+Wenn jemand einen Link zu einem Arbeitsbereich oder einer Ansicht ohne Zugriff mit Ihnen teilt:
 
 1. Klicken Sie auf den für Sie freigegebenen Link für die Ansicht oder den Arbeitsbereich.
 
    Eine Seite **Sie haben keinen Zugriff auf** wird angezeigt, um Sie darüber zu informieren, dass Sie keinen Zugriff auf die Ansicht oder den Arbeitsbereich haben.
 
+   ![](assets/request-access-to-view.png)
+
 1. (Bedingt) Wenn der freigegebene Link für eine Ansicht für einen Arbeitsbereich dient, auf den Sie Zugriff haben, klicken Sie auf **Mit vorhandener Ansicht öffnen**. Wenn Sie berechtigt sind, auf den Arbeitsbereich zuzugreifen, wird die Seite mit dem Datensatztyp in der Standardansicht geöffnet.
 
-1. (Optional) Fügen Sie dem verfügbaren Feld eine personalisierte Nachricht hinzu.
+1. (Optional und bedingt) Wenn Sie nicht berechtigt sind, den Arbeitsbereich anzuzeigen, fügen Sie eine personalisierte Nachricht in das verfügbare Feld ein und klicken Sie auf **Zugriff anfordern**.
 
-1. Klicken Sie auf **Zugriff anfordern**.
+   Alle Benutzer mit Verwaltungsberechtigungen für die Ansicht oder den Arbeitsbereich erhalten die folgenden Benachrichtigungen für die Zugriffsanforderung:
+   * In-App-Benachrichtigung
+     ![](assets/in-app-notification-for-access-request.png)
+   * Eine E-Mail-Benachrichtigung
+     ![](assets/email-notification-for-access-request.png)
 
-   Alle Benutzer mit Verwaltungsberechtigungen für die Ansicht oder den Arbeitsbereich erhalten eine E-Mail-Benachrichtigung für Ihre Anfrage.
-1. Benutzer, die die E-Mail-Benachrichtigung für die Zugriffsanfrage erhalten haben, rufen die Ansicht oder den Arbeitsbereich auf und gewähren Ihnen Berechtigungen.
-1. Sie erhalten eine E-Mail-Benachrichtigung, die Sie darüber informiert, dass Ihnen Zugriff auf die Ansicht oder den Arbeitsbereich gewährt wurde. Sie können über die E-Mail-Benachrichtigung auf die Ansicht oder den Arbeitsbereich zugreifen.
+   Informationen zum Gewähren von Berechtigungen für Ansichten und Arbeitsbereiche finden Sie in den folgenden Artikeln:
+
+   * [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
+   * [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
+1. (Bedingt) Wenn Ihnen der Ansicht- oder Arbeitsbereichsmanager Berechtigungen für die Ansicht oder den Arbeitsbereich erteilt, erhalten Sie eine E-Mail-Benachrichtigung mit der Bestätigung, dass die Berechtigungen erteilt oder verweigert wurden. <!--check this - I was not able to test this-->
+
+

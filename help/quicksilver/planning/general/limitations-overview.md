@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,8 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 | Anzahl der Abschnitte für einen Arbeitsbereich | 50 |
 | Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Datensatztypen aus allen Abschnitten und solche, die bei Verwendung einer Workspace-Vorlage erstellt werden) |
 | Datensatzanzahl für einen Datensatztyp | 25.000 |
-| Datensatzanzahl für einen Arbeitsbereich | 25.000 für Kunden mit Planungsplan <br> 500.000 für Kunden mit Planung Plus-Plan |
-| Anzahl der Datensätze für eine Instanz des Workfront-Planungstyps | 500.000 für Kunden mit Planungsplan <br>2 Mio. für Kunden mit Planung Plus-Plan |
+| Datensatzanzahl für einen Arbeitsbereich | 25.000 für Kunden mit Planung <br> 500.000 für Kunden mit Planung Plus |
+| Anzahl der Datensätze für eine Instanz der Workfront-Planung | 500.000 für Kunden mit Planungsplan <br>2 Mio. für Kunden mit Planning Plus |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
 | Anzahl der Zeichen für ein Textfeld | 1.000 Zeichen |
 | Dateigröße, die Sie in eine Datensatztyp-Tabelle einfügen können | 1 MB |
