@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Einige Zeilen enthalten Informationen mit den Bezeichnungen &quot;Neu&quot;und &
    <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> Adobe Workfront-Pläne beziehen sich auf die Funktionen, die Ihr Unternehmen erworben hat. Die meisten Workfront-Funktionen stehen in allen Plänen zur Verfügung, mit einigen wenigen Ausnahmen, die sich hauptsächlich auf die strategische Planung und Kontrolle von Unternehmen beziehen. 
    <ul><li>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welchen Adobe Workfront-Plan Ihr Unternehmen verwendet, einschließlich der Frage, ob sich Ihr Unternehmen unter dem neuen oder aktuellen Verpackungsmodell befindet.</li>
-   <li>Anweisungen dazu, wie ein Workfront-Administrator den Workfront-Plan Ihres Unternehmens finden kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Cluster- und Workfront-Plan anzeigen</a>.</li></ul> </td> 
+   <li>Anweisungen dazu, wie ein Workfront-Administrator den Workfront-Plan Ihres Unternehmens finden kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Cluster- und Workfront-Plan anzeigen</a>.</li><li>Weitere Informationen zu den neuen Workfront-Plänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
