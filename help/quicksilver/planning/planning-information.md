@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 3fe348250dae1af6cbb74c3704bc396d90ac378a
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -83,12 +83,10 @@ Die folgenden Abschnitte enthalten Artikel, in denen ausführlich beschrieben wi
    * Datensätze freigeben
    * Workfront-Planungsabschnitt für Workfront-Objekte
 
-<!--
-* [Adobe Workfront Planning Requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) contains the following information:
+* [Adobe Workfront Planning Requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) enthält die folgenden Informationen:
 
-    * How to create a request form for a record type.
-    * How users can submit a request to a record type request form and create records. 
--->
+   * Erstellen eines Anfrageformulars für einen Datensatztyp.
+   * So können Benutzer eine Anforderung an ein Anforderungsformular vom Typ Datensatz senden und Datensätze erstellen.
 
 * [Ansichten: Artikelindex](/help/quicksilver/planning/views/views-information.md) enthält die folgenden Informationen:
 

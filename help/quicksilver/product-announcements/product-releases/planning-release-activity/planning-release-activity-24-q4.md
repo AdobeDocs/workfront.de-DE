@@ -4,10 +4,11 @@ title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
 description: Dies ist die Veröffentlichungsaktivität für das Adobe Workfront-Planungsprodukt für das vierte Quartal 2024.
 author: Alina
 feature: Product Announcements
+role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -40,6 +41,16 @@ Eine Liste aller Funktionen, die nach der allgemeinen Release vom 28. August 202
 >
 >Vorschau und Produktionsversion: 28. August 2024
 
-Workfront Planning steht allen Kunden zur Verfügung, die zusätzlich zu ihrer Workfront-Lizenz eine Workfront Planning-Lizenz erworben haben. Weitere Informationen zur Workfront-Planung erhalten Sie von Ihrem Kundenbetreuer.
+Adobe Workfront Planning ist ein neues Angebot von Adobe Workfront. Die Workfront-Planung ermöglicht es, umfassende Einblicke in die Betriebsdetails einer Organisation zu erhalten und wichtige Geschäftsfragen in jeder Phase des Lebenszyklus der Arbeitsverwaltung zu beantworten.
+
+Im Folgenden finden Sie einige der wichtigsten Funktionen der Adobe Workfront-Planung:
+
+* Lösung des Problems der Planung der Arbeit in allen Phasen und für alle am Arbeitsprozess beteiligten Akteure.
+
+* Passen Sie Ihre Workflows vollständig an, indem Sie entscheiden, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, und konfigurieren Sie, wie diese Objekte miteinander verbunden werden.
+
+* Stellen Sie eine Verbindung zu Objekttypen aus anderen Systemen her und erstellen Sie ein kohärentes Framework für alle Ihre Prozesse.
 
 Weitere Informationen zur Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
+
+Weitere Informationen zu Funktionen, die vor diesem Start für die Workfront-Planung freigegeben wurden, finden Sie unter [Adobe Workfront Planning Release activity for 2024](/help/quicksilver/planning/general/release-activity.md) .

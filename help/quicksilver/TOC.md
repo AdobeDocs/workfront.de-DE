@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
+source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14353'
 ht-degree: 2%
 
 ---
@@ -2073,6 +2073,7 @@ ht-degree: 2%
       * [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](planning/access/license-type-overview.md)
       * [Freigeben von Arbeitsbereichen](planning/access/share-workspaces.md)
       * [Ansichten freigeben](planning/access/share-views.md)
+      * [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](planning/access/request-permissions.md)
    * Adobe Workfront-Planungsprotokolle {#adobe-workfront-planning-records}
       * [Datensätze: Artikelindex](planning/records/records-information.md)
       * [Datensätze erstellen](planning/records/create-records.md)
@@ -2089,6 +2090,10 @@ ht-degree: 2%
       * [Layout der Datensatzseite verwalten](planning/records/manage-the-record-page.md)
       * [Verwalten von Datensätzen im Bereich &quot;Planung&quot;von Adobe Workfront-Objekten](planning/records/manage-records-in-planning-section.md)
       * [Datensatzdetails exportieren](/help/quicksilver/planning/records/export-the-record-page.md)
+   * Adobe Workfront-Planungsanfragen {#adobe-workfront-planning-requests}
+      * [Adobe Workfront-Planungsanfragen: Artikelindex](planning/requests/requests-article-index.md)
+      * [Anforderungsformular in der Adobe Workfront-Planung erstellen und verwalten](planning/requests/create-request-form.md)
+      * [Planungsanfragen für Adobe Workfront zur Erstellung von Datensätzen übermitteln](planning/requests/submit-requests.md)
    * Ansichten für die Adobe Workfront-Planung {#adobe-workfront-planning-views}
       * [Ansichten: Artikelindex](planning/views/views-information.md)
       * [Verwalten von Datensatzansichten](planning/views/manage-record-views.md)

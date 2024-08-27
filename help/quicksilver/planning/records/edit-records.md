@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,10 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 * [Von einem Workfront-Objekt im Abschnitt Planung](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Datensatz in der Tabellenansicht eines Datensatztyps inline bearbeiten
+
+Wenn Sie Datensätze aus der Tabellenansicht bearbeiten, gibt es einen Hinweis, welches Feld von anderen Benutzern zum Zeitpunkt der Anzeige des Datensatzes bearbeitet wird.
+
+Weitere Informationen finden Sie unter [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md).
 
 {{step1-to-planning}}
 

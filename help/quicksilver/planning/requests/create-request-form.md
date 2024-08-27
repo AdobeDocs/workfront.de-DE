@@ -1,12 +1,13 @@
 ---
 title: Anforderungsformular in der Adobe Workfront-Planung erstellen und verwalten
 description: Nachdem Sie im Adobe Workfront-Planungsbereich einen Datensatztyp ausgewählt haben, können Sie ein Anforderungsformular erstellen und dieses mit diesem Datensatztyp verknüpfen. Sie können dann einen Link mit anderen internen oder externen Benutzern teilen. Benutzer mit einem Link zum Formular können die Feldwerte ausfüllen und durch Senden einen neuen Datensatz für den damit verknüpften Datensatztyp hinzufügen.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1138'
 ht-degree: 2%
 
 ---
@@ -17,9 +18,13 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-Nachdem Sie im Adobe Workfront-Planungsbereich einen Datensatztyp ausgewählt haben, können Sie ein Anforderungsformular erstellen und dieses mit diesem Datensatztyp verknüpfen. Sie können dann einen Link mit anderen internen oder externen Benutzern teilen. <!--double-check on the external part of it-->
+Sie können ein Anfrageformular erstellen und es in der Adobe Workfront-Planung einem Datensatztyp zuordnen. Sie können dann einen Link mit anderen internen oder externen Benutzern teilen.
 
-Benutzer mit einem Link zum Formular können die Feldwerte ausfüllen und durch Senden einen neuen Datensatz für den damit verknüpften Datensatztyp hinzufügen.
+Benutzer mit einem Link zum Formular können die Feldwerte darin aktualisieren und neue Datensätze durch Senden hinzufügen.
+
+In diesem Artikel wird beschrieben, wie ein Workspace-Manager ein Anforderungsformular erstellen kann, das mit einem Datensatztyp verknüpft ist.
+
+Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstellen eines Datensatzes finden Sie unter [Planungsanfragen zum Erstellen von Datensätzen durch Adobe Workfront übermitteln](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Zugriffsanforderungen
 
@@ -170,9 +175,11 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    >[!IMPORTANT]
    >
-   >Wenn Sie &quot;Jeder, der über den Link verfügt&quot;auswählen, kann jeder, auch außerhalb Ihres Unternehmens, der kein Workfront-Konto hat, auf das Formular zugreifen und einen neuen Datensatz senden.
+   >Wenn Sie **Jeder, der über den Link** verfügt, auswählen, kann jeder auf das Formular zugreifen und einen neuen Datensatz senden, selbst Personen außerhalb Ihres Unternehmens, die kein Workfront-Konto haben.
 
-1. (Bedingt) Wenn Sie im vorherigen Schritt **Jeder Benutzer mit dem Link** ausgewählt haben, wählen Sie im verfügbaren Kalender das **Ablaufdatum des Links** aus. Personen erhalten nach Ablauf des Links einen Fehler. Sie müssen das Link-Datum aktualisieren, bevor sie erneut auf das Formular zugreifen können.  <!--add info here about how long the expiration date should be; logged bug-->
+1. (Bedingt) Wenn Sie im vorherigen Schritt **Jeder Benutzer mit dem Link** ausgewählt haben, wählen Sie im verfügbaren Kalender das **Ablaufdatum des Links** aus. Personen erhalten nach Ablauf des Links einen Fehler. Sie müssen das Link-Datum aktualisieren, bevor sie erneut auf das Formular zugreifen können.
+
+   Sie können zukünftige Datumsangaben innerhalb von 180 Tagen ab dem aktuellen Datum auswählen.
 
 1. Klicken Sie auf **Link speichern und kopieren** , um die Freigabedetails für das Formular zu speichern.
 
@@ -191,6 +198,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    >[!TIP]
    >
    >Es gibt einen Hinweis darauf, dass der Link öffentlich freigegeben wird, wenn dies der Fall ist.
+   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
 
 
 

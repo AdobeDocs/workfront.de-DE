@@ -1,11 +1,13 @@
 ---
 title: Anfordern von Berechtigungen für eine Ansicht oder eine Workspace
 description: Sie können Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern, denen andere Benutzer einen Link geschickt haben, zu dem Sie zuvor noch nicht freigegeben haben.
-hidefrontoc: true
-hide: true
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -130,6 +132,6 @@ Wenn jemand einen Link zu einem Arbeitsbereich oder einer Ansicht ohne Zugriff m
 
    * [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
    * [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Bedingt) Wenn Ihnen der Ansicht- oder Arbeitsbereichsmanager Berechtigungen für die Ansicht oder den Arbeitsbereich erteilt, erhalten Sie eine E-Mail-Benachrichtigung mit der Bestätigung, dass die Berechtigungen erteilt oder verweigert wurden. <!--check this - I was not able to test this-->
+1. (Bedingt) Wenn Ihnen der Ansicht- oder Arbeitsbereichsmanager Berechtigungen für die Ansicht oder den Arbeitsbereich erteilt, erhalten Sie eine E-Mail-Benachrichtigung und eine In-App-Benachrichtigung mit einer Bestätigung, dass die Berechtigung erteilt wurde. <!--check this - I was not able to test this-->
 
 

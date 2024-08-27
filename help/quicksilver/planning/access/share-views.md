@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: c497276579c5d70c29fe961e43356e1ae603262d
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -273,29 +273,27 @@ So geben Sie eine Ansicht in der Workfront-Planung öffentlich frei:
 
 1. (Optional) Fügen Sie den kopierten Link in eine E-Mail, eine Chat-Nachricht, ein Dokument oder einen Workfront-Kommentar ein, um ihn für andere freizugeben.
 
-<!--
-## Grant permissions to a view from a permission request
+## Berechtigungen für eine Ansicht über eine Berechtigungsanforderung gewähren
 
-Users who access a link to a view to which they do not have permissions can request permissions to the view. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
+Benutzer, die auf einen Link zu einer Ansicht zugreifen, für die sie keine Berechtigungen haben, können Berechtigungen für die Ansicht anfordern. Alle Benutzer mit Verwaltungsberechtigungen für die Ansicht erhalten die Berechtigungsanforderung und können die Berechtigungen gewähren oder verweigern.
 
-1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
-   * An email notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. (Bedingt) Wenn Sie der Manager einer Ansicht sind, erhalten Sie möglicherweise eine Anfrage eines anderen Benutzers zum Zugriff auf die Ansicht in den folgenden Bereichen:
 
-   The **Pending access requests** box displays. 
+   * In-App-Benachrichtigung
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+   * Eine E-Mail-Benachrichtigung
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+1. (Bedingt) Klicken Sie im Benachrichtigungsbereich in Workfront auf die In-App-Benachrichtigung
+Oder
+Klicken Sie in der E-Mail-Benachrichtigung auf **Alle Benachrichtigungen anzeigen** und klicken Sie dann auf die Benachrichtigung in der Liste.
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   Das Feld **Ausstehende Zugriffsanforderungen** wird angezeigt.
 
-   If you approved the request, the users are added to the sharing box of the view. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. Wählen Sie den Benutzer aus, für den Sie die Berechtigung genehmigen oder verweigern möchten, und klicken Sie dann auf **Alle genehmigen** oder **Alle verweigern**.
+1. Klicken Sie auf den nach links zeigenden Pfeil neben **Ausstehende Zugriffsanforderungen** und dann auf **Speichern**.
+
+   Wenn Sie die Anfrage genehmigt haben, werden die Benutzer zum Freigabefeld der Ansicht hinzugefügt. Der Benutzer, der die Berechtigung anfordert, erhält eine E-Mail-Bestätigung, dass seine Anfrage genehmigt wurde. <!--will they also get an in-app notification??-->
 
 ## Berechtigungen für eine Ansicht entfernen
 

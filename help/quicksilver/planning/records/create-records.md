@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ In der Adobe Workfront-Planung ist ein Datensatz eine Instanz eines Datensatztyp
 
 Sie können Datensätze anhand einer der folgenden Methoden erstellen:
 
-* Fügen Sie sie von der Seite mit dem Datensatztyp in der Tabellenansicht hinzu
+* Hinzufügen von Datensätzen auf der Seite &quot;Record Type&quot;in der Tabellenansicht
 * Datensätze aus einer externen Liste kopieren und einfügen
-* Duplizieren Sie sie
-* Erstellen Sie sie, während Sie sie mit anderen Datensätzen verbinden
-  <!--* Create them by submitting a request form-->
+* Datensätze aus einer Tabellenansicht duplizieren
+* Erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden
+* Erstellen Sie sie, indem Sie ein Anfrageformular an einen Datensatztyp senden
 
 In diesem Artikel wird beschrieben, wie Sie Datensätze erstellen können.
 
@@ -165,8 +165,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 +++
 
-
-## Erstellen von Datensätzen durch Hinzufügen zu einem Datensatztyp <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Erstellen von Datensätzen durch Hinzufügen zu einem Datensatztyp in einer Tabelle vom Typ Datensatz
 
 Sie können Datensätze in der Tabellenansicht einer Seite vom Typ Datensatz erstellen.
 
@@ -311,13 +310,12 @@ So erstellen Sie Datensätze, während Sie sie aus anderen Datensätzen verbinde
 Oder
 Klicken Sie auf seinen Namen, um die Detailseite zu öffnen und dort Informationen hinzuzufügen.
 
-<!--
-## Create records by submitting a request form
+## Erstellen von Datensätzen durch Senden eines Anfrageformulars an einen Datensatztyp
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+Nachdem ein Benutzer ein Anfrageformular für einen Datensatztyp erstellt und einen Link mit Ihnen geteilt hat, können Sie eine Anfrage senden, die einen Datensatz für diesen Datensatztyp erstellt.
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anforderungsformulars in der Adobe Workfront-Planung](/help/quicksilver/planning/requests/create-request-form.md).
 
-Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+Sowohl Workfront-Benutzer als auch externe Benutzer Ihrer Organisation können Anfragen an die Planung von Datensatztypen senden und Datensätze erstellen, sofern sie über eine Verknüpfung mit dem Anfrageformular verfügen.
 
-For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->
+Weitere Informationen finden Sie unter [Planungsanfragen zur Erstellung von Datensätzen mit Adobe Workfront senden](/help/quicksilver/planning/requests/submit-requests.md).

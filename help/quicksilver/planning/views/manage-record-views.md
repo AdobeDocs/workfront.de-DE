@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1368'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,8 @@ In diesem Artikel werden die folgenden Informationen zu Datensatzansichten besch
 
 * [Erstellen und Bearbeiten einer Ansicht](#create-or-edit-record-views)
 * [Ansicht löschen](#delete-views)
-* [Duplizieren einer Ansicht](#duplicate-views)
+* [Ansicht duplizieren](#duplicate-views)
+* [Aktivieren Sie die Echtzeit-Präsenz-Indikatoren in einer Ansicht](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -343,3 +344,22 @@ Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenan
 
    Die Ansicht wird dupliziert und der Name der neuen Ansicht folgt dem folgenden Muster: `Original view's name (Copy)`. Die neue Registerkarte &quot;Ansicht&quot;wird am Ende aller Ansichtsregisterkarten angezeigt.
 
+## Echtzeitpräsenzanzeige in einer Ansicht aktivieren
+
+Die Avatare anderer Benutzer, die Datensatzinformationen gleichzeitig mit der Anzeige in der oberen rechten Ecke aller Datensatzansichten bearbeiten, werden standardmäßig angezeigt.
+
+Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld ein anderer Benutzer zum Zeitpunkt der Anzeige des Datensatzes bearbeitet.
+
+1. Gehen Sie zu einer Seite vom Typ Datensatz und öffnen Sie eine beliebige Ansicht.
+1. (Bedingt) Wenn andere Benutzer die Datensätze des ausgewählten Typs gleichzeitig bearbeiten, werden ihre Avatare in der oberen rechten Ecke der Ansicht angezeigt.
+1. Klicken Sie auf das Dropdown-Menü neben den Avataren und wählen Sie den Umschalter **Mitwirkende anzeigen** aus. Der Umschalter ist standardmäßig ausgewählt.
+
+   ![](assets/show-collaborators-toggle-selected.png)
+
+1. (Bedingt) Öffnen Sie eine Tabellenansicht. Das Feld, das eine andere Person bearbeitet, wird in der Farbe entsprechend der Umrisslinie ihres Avatars in der Tabellenansicht dargestellt.
+
+   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >Sie können in jeder Ansicht den Umschalter **Mitwirkende anzeigen** auswählen. Das bearbeitete Feld wird nur in der Tabellenansicht dargestellt.

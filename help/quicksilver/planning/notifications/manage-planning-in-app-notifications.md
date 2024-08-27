@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,14 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Wenn Sie von jemandem in einem Datensatzkommentar markiert werden, erhalten Sie möglicherweise eine In-App-Benachrichtigung für dieses Tag.
+Sie können In-App-Benachrichtigungen von der Workfront-Planung erhalten, wenn die folgenden Szenarien vorliegen:
 
->[!IMPORTANT]
->
->Ihr Unternehmen muss Adobe Unified Experience-Kunde sein, um Benachrichtigungen von der Workfront-Planung erhalten zu können.
->
->Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+* Jemand markiert Sie in einem Datensatz-Kommentar
 
-Weitere Informationen zum Tagging anderer Kommentare in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
+  Weitere Informationen zum Tagging anderer Kommentare in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
+* Jemand bittet um Ihre Erlaubnis, auf eine Ansicht oder einen Arbeitsbereich zuzugreifen
+* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen Arbeitsbereich gewährt wurde <!--verify this-->
+* Jemand hat Ihnen den Zugriff auf eine Ansicht oder einen Arbeitsbereich verweigert. <!--verify this-->
 
 ## Zugriffsanforderungen
 
@@ -158,7 +157,7 @@ OLD:
 +++
 -->
 
-## In-App-Benachrichtigungen verwalten
+## In-App-Benachrichtigungen verwalten, wenn Sie von einem Benutzer mit einem Kommentar markiert werden
 
 1. (Bedingt) Nachdem ein Benutzer einen Kommentar zu einem Datensatz mit einem Tags versehen hat, gehen Sie zum In-App-Symbol **Benachrichtigungen** ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
@@ -170,3 +169,8 @@ OLD:
 
 1. (Optional) Klicken Sie auf **Alle als gelesen markieren** , um anzugeben, dass Sie alle Benachrichtigungen gelesen haben.
 1. (Optional) Klicken Sie auf **Alle anzeigen** , um zur Seite **Benachrichtigungen** in Adobe Experience Cloud zu wechseln.
+
+
+## Verwalten von In-App-Benachrichtigungen beim Anfordern, Gewähren oder Ablehnen von Berechtigungen für eine Ansicht oder einen Arbeitsbereich
+
+Informationen zum Anfordern, Gewähren oder Ablehnen von Berechtigungen für eine Ansicht oder einen Arbeitsbereich finden Sie unter [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](/help/quicksilver/planning/access/request-permissions.md).

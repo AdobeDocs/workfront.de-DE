@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3609'
 ht-degree: 2%
 
 ---
@@ -449,34 +449,31 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise ein Formelfeld für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie das Budget des Projekts in der für den Aktivitäts-Record-Typ erstellten Formel referenzieren.
 
-<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+1. Wählen Sie im Feld **Format** aus den folgenden Optionen aus, um das Format des Ergebnisses anzugeben, das im Feld Formeltyp angezeigt wird:
 
-    * **Text**: The result of the formula field displays as plain text. 
-    * **Number**: The result of the formula field displays as a number. 
-    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
-    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
-    * **Tags**: The result of the formula field displays as a tag with the object's name. 
-    
-        >[!TIP]
-        >
-        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+   * **Text**: Das Ergebnis des Formelfelds wird als normaler Text angezeigt.
+   * **Zahl**: Das Ergebnis des Formelfelds wird als Zahl angezeigt.
+   * **Prozent**: Das Ergebnis des Formelfelds wird als Zahl gefolgt von einem Prozentzeichen angezeigt.
+   * **Währung**: Das Ergebnis des Formelfelds wird als Zahl angezeigt, der ein Währungssymbol vorangestellt oder gefolgt ist.
+   * **Tags**: Das Ergebnis des Formelfelds wird als Tag mit dem Namen des Objekts angezeigt.
 
-    * **Date**: The result of the formula field displays as a date. 
+     >[!TIP]
+     >
+     >Wir empfehlen Tags für Felder, die Arrays anzeigen. In diesem Fall wird jedes Array-Element als separates Tag angezeigt.
 
+     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
-        A preview of what the result will look like displays under the **Format** field. 
+   * **Datum**: Das Ergebnis des Formelfelds wird als Datum angezeigt.
 
-        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     Eine Vorschau des Ergebnisses wird unter dem Feld **Format** angezeigt.
 
-        >[!WARNING]
-        >
-        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+     >[!WARNING]
+     >
+     >Wenn das Ergebnis der Formel nicht dem ausgewählten Format entspricht, wird im Feld eine Fehlermeldung angezeigt.
 
--->
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Formelfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
-
 
 ### Personen
 

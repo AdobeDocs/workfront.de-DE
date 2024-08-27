@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -186,29 +186,27 @@ So geben Sie einen Arbeitsbereich für andere frei:
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich zugreifen zu können.
 1. Klicken Sie auf **Speichern**.
 
-<!--
-## Grant permissions to a workspace from a permission request
+## Berechtigungen für einen Arbeitsbereich aus einer Berechtigungsanfrage erteilen
 
-Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 
+Benutzer, die auf einen Link zu einem Arbeitsbereich zugreifen, für den sie keine Berechtigungen haben, können Berechtigungen für den Arbeitsbereich anfordern. Alle Benutzer mit Verwaltungsberechtigungen für den Arbeitsbereich erhalten die Berechtigungsanforderung und können die Berechtigungen gewähren oder verweigern.
 
-1. (Conditional) If you are are the manager of a workspace, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request.png)
-   * An email notification
-      ![](assets/email-notification-for-access-request.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. (Bedingt) Wenn Sie der Manager eines Arbeitsbereichs sind, können Sie von einem anderen Benutzer eine Anfrage zum Zugriff auf die Ansicht in den folgenden Bereichen erhalten:
 
-   The **Pending access requests** box displays. 
+   * In-App-Benachrichtigung
+     ![](assets/in-app-notification-for-access-request.png)
+   * Eine E-Mail-Benachrichtigung
+     ![](assets/email-notification-for-access-request.png)
+1. (Bedingt) Klicken Sie im Benachrichtigungsbereich in Workfront auf die In-App-Benachrichtigung
+Oder
+Klicken Sie in der E-Mail-Benachrichtigung auf **Alle Benachrichtigungen anzeigen** und klicken Sie dann auf die Benachrichtigung in der Liste.
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   Das Feld **Ausstehende Zugriffsanforderungen** wird angezeigt.
 
-   If you approved the request, the users are added to the sharing box of the workspace. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. Wählen Sie den Benutzer aus, für den Sie die Berechtigung genehmigen oder verweigern möchten, und klicken Sie dann auf **Alle genehmigen** oder **Alle verweigern**.
+1. Klicken Sie auf den nach links zeigenden Pfeil neben **Ausstehende Zugriffsanforderungen** und dann auf **Speichern**.
+
+   Wenn Sie die Anforderung genehmigt haben, werden die Benutzer der Freigabefelder des Arbeitsbereichs hinzugefügt. Der Benutzer, der die Berechtigung anfordert, erhält eine E-Mail-Bestätigung, dass seine Anfrage genehmigt wurde. <!--will they also get an in-app notification??-->
 
 
 ## Berechtigungen für einen Arbeitsbereich entfernen

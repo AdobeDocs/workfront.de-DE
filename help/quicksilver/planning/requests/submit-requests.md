@@ -1,19 +1,18 @@
 ---
 title: Übermitteln von Adobe Workfront-Planungsanfragen
 description: Nachdem Sie von einer Datensatztyp-Seite in der Adobe Workfront-Planung einen Link zu einem Anfrageformular für eine Person freigegeben haben, können Sie eine Anforderung hinzufügen, um Datensätze für den mit dem Anfrageformular verknüpften Datensatztyp zu erstellen.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
 
 # Planungsanfragen für Adobe Workfront zur Erstellung von Datensätzen übermitteln
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -22,6 +21,10 @@ ht-degree: 1%
 Nachdem Sie von einer Datensatztyp-Seite in der Adobe Workfront-Planung einen Link zu einem Anfrageformular für eine Person freigegeben haben, können Sie eine Anforderung hinzufügen, um Datensätze für den mit dem Anfrageformular verknüpften Datensatztyp zu erstellen.
 
 Workfront-Benutzer und externe Benutzer können Anfragen an die Planung von Datensatztypen senden und Datensätze erstellen. <!--double check on the external users-->
+
+In diesem Artikel wird beschrieben, wie Sie eine Anfrage zum Hinzufügen neuer Datensätze zu einem Datensatztyp senden können.
+
+Informationen dazu, wie ein Workspace-Manager ein Anforderungsformular erstellen und mit einem Datensatztyp verknüpfen kann, finden Sie unter [Erstellen und Verwalten eines Anforderungsformulars in der Adobe Workfront-Planung](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Zugriffsanforderungen
 
@@ -57,7 +60,6 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    <td>
 <p>Alle </p>  
 <p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>. </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
    <td>
@@ -110,7 +112,7 @@ Bevor Sie eine Anfrage an ein Workfront Planning-Anfrageformular senden können,
 * Das Anfrageformular muss für einen Link freigegeben werden, damit Sie darauf zugreifen können. Die folgenden Szenarien existieren:
 
    * Wenn Sie über ein Workfront-Konto verfügen, wurde der Link nur für interne Personen freigegeben und Sie haben Zugriff auf den Arbeitsbereich. Personen außerhalb von Workfront können nicht auf einen intern freigegebenen Link zugreifen.
-   * Wenn Sie kein Workfront-Konto haben, wurde der Link für externe Personen freigegeben. Workfront-Benutzer können auch einen Link verwenden, der für externe Personen freigegeben wurde.
+   * Wenn Sie kein Workfront-Konto haben, wurde der Link für externe Personen freigegeben. Workfront-Benutzer können auch auf einen Link zugreifen, der für externe Personen freigegeben wurde.
 
 * Der Link zum Formular darf nicht abgelaufen sein.
 

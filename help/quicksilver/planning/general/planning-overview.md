@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '1986'
 ht-degree: 1%
@@ -377,5 +377,5 @@ Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Wor
 
 * [Grundlagen der Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md): Ziel der Adobe Workfront Planning-API ist es, die Erstellung von Integrationen mit der Planung zu vereinfachen, indem eine REST-basierte Architektur eingeführt wird, die über HTTP funktioniert.
 
-* Berichtsfunktionen für die Workfront-Planung: Sie können jetzt Workfront-Planungsinformationen in einem Bericht in Workfront mithilfe des Workfront Canvas-Dashboards anzeigen. Weitere Informationen finden Sie unter [Erste Schritte mit Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Workfront-Planungs-Berichterstellungsfunktionen**: Sie können jetzt Workfront-Planungsinformationen in einem Bericht in Workfront mithilfe des Workfront Canvas-Dashboards anzeigen. Weitere Informationen finden Sie unter [Erste Schritte mit Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

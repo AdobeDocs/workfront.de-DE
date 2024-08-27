@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '590'
 ht-degree: 7%
 
 ---
@@ -162,17 +162,16 @@ OLD:
 * Sie können die Berechnung eines Formelfelds nach dem Speichern aktualisieren und die Ergebnisse der Berechnung werden automatisch für alle Datensätze desselben Typs aktualisiert.
 * Sie müssen die Felder, auf die Sie verweisen, in Formeln hinzufügen, die auf der Oberfläche für die Workfront-Planung angezeigt werden.
 * Sie können nur auf Felder verweisen, die in der Tabellenansicht eines Datensatztyps oder auf der Seite mit den Datensatzdetails angezeigt werden.
-<!--* You can format the result of a formula calculation by choosing from the following options:
+* Sie können das Format für den Wert einer Formelberechnung definieren, indem Sie aus den folgenden Formatoptionen wählen:
 
    * Text
-   * Number
-   * Percent
-   * Currency
+   * Zahl
+   * Prozent
+   * Währung
    * Tags
-   * Date
+   * Datum
 
-   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
-
+  Weitere Informationen finden Sie im Abschnitt &quot;Formel&quot;im Artikel [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Unterstützte Formeln
 
