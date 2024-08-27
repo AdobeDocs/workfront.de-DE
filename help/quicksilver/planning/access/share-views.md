@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -236,7 +236,7 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie über Ver
 
 >[!IMPORTANT]
 >
-Nur Benutzer mit Verwaltungsberechtigungen für einen Arbeitsbereich können die Ansichten des Arbeitsbereichs öffentlich freigeben.
+>Nur Benutzer mit Verwaltungsberechtigungen für einen Arbeitsbereich können die Ansichten des Arbeitsbereichs öffentlich freigeben.
 
 
 So geben Sie eine Ansicht in der Workfront-Planung öffentlich frei:

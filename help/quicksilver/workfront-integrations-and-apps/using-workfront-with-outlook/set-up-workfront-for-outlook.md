@@ -6,9 +6,9 @@ description: Mit dem Add-in [!DNL Adobe Workfront] [!DNL Outlook] können Sie di
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
+source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Das [!DNL Workfront]-Add-in für [!DNL Outlook] wird in Umgebungen unterstützt,
 Workfront unterstützt die folgenden Versionen von [!DNL Outlook]:
 
 * [!DNL Outlook 2013] oder höher am [!DNL Windows]
-*[!DNL  Outlook 2016] oder höher am [!DNL Windows]
+* [!DNL Outlook 2016] oder höher am [!DNL Windows]
 * [!DNL Outlook] auf [!DNL Mac] ([!DNL Microsoft 365])
 * [!DNL Outlook] auf [!DNL Windows] ([!DNL Microsoft 365])
 * [!DNL Outlook] im Internet
@@ -90,7 +90,7 @@ Beim Konfigurieren des Clients muss der Benutzer einen der folgenden Kontotypen 
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com] &#x200B;**&#x200B;** &#x200B; Wenn der Client für die Verbindung mit POP3 oder IMAP konfiguriert ist, wird das [!DNL Workfront]-Add-In nicht geladen.
+* [!DNL Outlook.com] Wenn der Client für die Verbindung mit POP3 oder IMAP konfiguriert ist, wird das [!DNL Workfront]-Add-in nicht geladen.
 
 ### Mail-Server-Anforderungen {#mail-server-requirements}
 

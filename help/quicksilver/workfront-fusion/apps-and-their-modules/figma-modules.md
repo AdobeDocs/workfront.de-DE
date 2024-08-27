@@ -9,9 +9,9 @@ description: Mit den [!DNL Adobe Workfront Fusion] Figma-Modulen können Sie Lis
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 * [Kommentare auflisten](#list-comments)
 
-* [Post einen Kommentar](#post-a-comment)
+* [Posten eines Kommentars](#post-a-comment)
 
 
 #### [!UICONTROL Einen Kommentar löschen]
@@ -156,7 +156,7 @@ Dieses Suchmodul listet alle Kommentare auf, die an eine einzelne Datei in [!DNL
 </table>
 
 
-#### [!UICONTROL Post a comment]
+#### [!UICONTROL Posten eines Kommentars]
 
 Dieses Aktionsmodul sendet einen Kommentar in eine Figma-Datei.
 
@@ -363,7 +363,7 @@ Dieses Aktionsmodul ruft eine einzelne Datei oder ein Bild aus einer Bildbibliot
       <td>Wählen Sie die Datei aus, von der Sie JSON zurückgeben möchten.</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>Knoten-IDs</td>
+      <td role="rowheader">[!UICONTROL Knoten-IDs]</td>
       <td>
         <p>Geben Sie die Knoten ein, die das Modul rendern soll.</p>
         <p>Klicken Sie für jeden Knoten, den Sie rendern möchten, auf <b>[!UICONTROL Hinzufügen]</b> und geben Sie den Text des Knotens ein.</p>

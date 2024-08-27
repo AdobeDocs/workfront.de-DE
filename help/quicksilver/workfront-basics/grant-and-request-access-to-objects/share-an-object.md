@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf di
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 1. Geben Sie im Feld **&lt; Objektname > Zugriff auf** gewähren den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für den Sie das Objekt freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-   ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
+   ![](assets/new-share-button-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -132,7 +132,8 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   Für Ansicht, Verwalten und Contribute stehen je nach ausgewähltem Objekt unterschiedliche erweiterte Optionen zur Verfügung.\
+   Für Ansicht, Verwalten und Contribute stehen je nach ausgewähltem Objekt unterschiedliche erweiterte Optionen zur Verfügung.
+
    Weitere Informationen zu Berechtigungsebenen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Optional) Um dieses Objekt allen Benutzern im System zur Verfügung zu stellen, klicken Sie auf das Dropdown-Menü unter &quot;**Wer Zugriff hat**&quot;. Klicken Sie dann im Dropdown-Menü auf &quot;**Alle im System können** anzeigen.
@@ -187,7 +188,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 1. Geben Sie im Feld &quot;**Gib &lt; Objektname > Zugriff auf**&quot;den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für den Sie das Objekt freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -234,7 +235,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
    >
    >Diese Option ist nicht für alle Objekte verfügbar.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Bedingt) Wenn Sie das Objekt für externe Benutzer öffentlich gemacht haben, klicken Sie auf **Link kopieren** und verteilen Sie den Link dann an externe Benutzer.
 
@@ -254,11 +255,11 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 1. Aktivieren Sie das Kontrollkästchen neben den Objekten, die Sie freigeben möchten, und klicken Sie dann oben auf der Seite auf das Symbol **Freigeben** ![](assets/share-icon.png) .
 
-   ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
+   ![](assets/list-share-object-select.png){width="350"}
 
 1. Geben Sie im Fenster &quot;**&lt; Objekt > Zugriff**&quot;im Feld &quot;**Bearbeiten &lt; Objektname > Zugriff für**&quot;den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für die Sie die Objekte freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -286,10 +287,10 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
      >
      >Sie können Contribute-Berechtigungen nur für die folgenden Objekte gewähren:
      >
-     >   * Projekte
-     >   * Aufgaben
-     >   * Probleme
-     >  
+     >* Projekte
+     >* Aufgaben
+     >* Probleme
+     >
 
    * **Verwalten:** Benutzer haben vollen Zugriff auf das Objekt ohne Administratorrechte (die auf Zugriffsebene gewährt werden). Darüber hinaus verfügen sie über alle Berechtigungen für Ansicht und Contribute.
 
@@ -328,7 +329,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
    >
    >Diese Option ist nicht für alle Objekte verfügbar.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Bedingt) Wenn Sie die Objekte für externe Benutzer öffentlich gemacht haben, klicken Sie auf **Link kopieren** und verteilen Sie den Link dann an externe Benutzer.
 

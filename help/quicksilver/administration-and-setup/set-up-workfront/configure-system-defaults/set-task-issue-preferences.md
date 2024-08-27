@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
 
-# Systemweite Aufgaben- und Problemeinstellungen konfigurieren
+# Systemweite Aufgaben- und Problemvoreinstellungen konfigurieren
 
 <!-- Audited: 2/2024 -->
 
@@ -111,7 +111,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL Status von gelösten Problemen automatisch aktualisieren, wenn sich der Status des aufgelösten Objekts ändert]</td> 
-    <td> <p>Wenn ein Problem in ein Projekt oder eine Aufgabe konvertiert wird, werden sowohl das ursprüngliche Problem als auch das konvertierte Projekt oder die konvertierte Aufgabe zu auflösenden Objekten. Mit dieser Einstellung können Sie die Auflösung des ursprünglichen Problems mit der Auflösung des auflösbaren Objekts korrelieren. Weitere Informationen zum Auflösen von Objekten finden Sie unter <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Übersicht über das Auflösen und Auflösen von Objekten </a>.</p> <p>Damit diese Einstellung irgendwelche Auswirkungen haben kann, muss die Option <strong>[!UICONTROL Das ursprüngliche Problem beibehalten"ausgewählt und seine Auflösung mit der Aufgabe]</strong> verknüpft werden.</p> 
+    <td> <p>Wenn ein Problem in ein Projekt oder eine Aufgabe konvertiert wird, werden sowohl das ursprüngliche Problem als auch das konvertierte Projekt oder die konvertierte Aufgabe zu auflösenden Objekten. Mit dieser Einstellung können Sie die Auflösung des ursprünglichen Problems mit der Auflösung des auflösbaren Objekts korrelieren. Weitere Informationen zum Auflösen von Objekten finden Sie unter <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Übersicht über das Auflösen und Auflösen von Objekten </a>.</p> <p>Damit diese Einstellung irgendwelche Auswirkungen haben kann, muss die Option "<strong>[!UICONTROL Das ursprüngliche Problem beibehalten"ausgewählt und seine Auflösung mit der Aufgabe "</strong>"verknüpft werden.</p> 
       <ul> 
       <li>Wenn diese Einstellung aktiviert ist, können Sie benutzerdefinierte Status mit demselben Schlüssel für Probleme und Projekte oder Aufgaben erstellen. Wenn das Projekt oder die Aufgabe (als auflösbares Objekt) in den benutzerdefinierten Status umgewandelt wird, spiegelt die Änderung auch den Status des Problems wider. Der Statusschlüssel muss für das Problem und den Projekt- oder Aufgabenstatus identisch sein.</li> 
       <li>Wenn diese Einstellung deaktiviert ist, wird beim Auflösen des Objektstatus automatisch der Standardstatus anstelle der benutzerdefinierten festgelegt. Weitere Informationen zu den Standardstatus finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Zugriff auf die Liste der Systemfehlerstatus</a>.</li> 

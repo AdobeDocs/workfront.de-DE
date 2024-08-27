@@ -8,7 +8,7 @@ description: Die Adobe Workfront Fusion JSON-App bietet Module zur Verarbeitung 
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Wenn das Feld JSON-Zeichenfolge eine Sammlung `{ ... }` enthält, ist die Ausgab
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Wenn das JSON-Zeichenfolgenfeld ein Array `[ ... ]` enthält, ist die Ausgabe ei
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -239,26 +239,26 @@ Dieses Aktionsmodul wandelt ein Objekt in eine JSON-Zeichenfolge um.
 1. Verbinden Sie das Modul [!UICONTROL JSON] > [!UICONTROL JSON] nach dem Modul [!UICONTROL Array Aggregator] . Die Einrichtung des Moduls erfordert eine Datenstruktur, die das JSON-Format beschreibt. Klicken Sie auf **[!UICONTROL Hinzufügen]** , um die Einrichtung der Datenstruktur zu öffnen. Die einfachste Möglichkeit, diese Datenstruktur zu erstellen, besteht darin, sie automatisch aus einem JSON-Beispiel zu generieren. Klicken Sie auf **[!UICONTROL Generator]** und fügen Sie Ihr JSON-Beispiel in das Feld **[!UICONTROL Beispieldaten]** ein:
 >
 **Beispiel:**
->   
->```
->{
 >
->"books": [
->
->{
->
->"id": "ID",
->
->"title": "Title",
->
->"author": "Author"
->
->}
->
->]
->
->}
->```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Feld [!UICONTROL Spezifikation] in der Datenstruktur enthält jetzt die generierte Struktur.
 1. Ändern Sie den Namen Ihrer Datenstruktur in etwas spezifischeres und klicken Sie auf **[!UICONTROL Speichern]**. Ein Feld, das dem Root-Array-Attribut entspricht, wird als zuordnbares Feld in der Einrichtung des JSON-Moduls angezeigt.

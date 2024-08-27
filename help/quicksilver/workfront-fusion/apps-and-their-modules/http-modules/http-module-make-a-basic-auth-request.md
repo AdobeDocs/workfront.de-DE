@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: c84e4b021640a2b145bf4f36ddddbdfe33baacf1
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data] ist eine HTTP-Multipart-Anfrage zum Senden von Dateien und Daten. Sie wird häufig zum Hochladen von Dateien auf den Server verwendet.</p> <p>Fügen Sie Felder hinzu, die in der Anfrage gesendet werden sollen. Jedes Feld muss ein Schlüssel-Wert-Paar enthalten.</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>Geben Sie den Schlüssel und den Wert ein, die im Anfrageinhalt gesendet werden sollen.</p> </li> 
-       <li> <p><strong>[!UICONTROL Datei]</strong> </p> <p>Geben Sie den Schlüssel ein und geben Sie im Anfragetext die Quelldatei an, die Sie senden möchten.</p> <p>Ordnen Sie die Datei zu, die Sie vom vorherigen Modul hochladen möchten (z. B. [!UICONTROL HTTP] &gt;[!UICONTROL Datei abrufen] oder [!UICONTROL Google Drive] &gt;[!UICONTROL Datei herunterladen), oder geben Sie den Dateinamen und die Dateidaten manuell ein.</p> </li> 
+       <li> <p><strong>[!UICONTROL Datei]</strong> </p> <p>Geben Sie den Schlüssel ein und geben Sie im Anfragetext die Quelldatei an, die Sie senden möchten.</p> <p>Ordnen Sie die Datei zu, die Sie vom vorherigen Modul hochladen möchten (z. B. [!UICONTROL HTTP] &gt; [!UICONTROL Datei abrufen] oder [!UICONTROL Google Drive] &gt; [!UICONTROL Datei herunterladen]), oder geben Sie den Dateinamen und die Dateidaten manuell ein.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

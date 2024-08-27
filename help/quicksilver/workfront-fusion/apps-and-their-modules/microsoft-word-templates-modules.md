@@ -10,9 +10,9 @@ description: In einem Adobe Workfront Fusion-Szenario können Sie Workflows auto
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 0b8a4e3864cf9ca2c179a824bdb87977819c9383
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -102,17 +102,13 @@ Eine [!DNL Microsoft Word] -Vorlage ist ein normales [!DNL Microsoft Word] -Doku
 
 ### Einfaches Wert-Tag {#simple-value-tag}
 
-Ein einfaches Wert-Tag wird einfach durch einen entsprechenden Wert ersetzt. Der Name des Tags entspricht dem Wert des Felds [!UICONTROL Schlüssel] , der in zwei geschweifte Klammern gesetzt wird, beispielsweise
-
-
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
-
-
-.
+Ein einfaches Wert-Tag wird einfach durch einen entsprechenden Wert ersetzt. Der Name des Tags entspricht dem Wert des Felds [!UICONTROL Schlüssel] , der in zwei geschweifte Klammern gesetzt wird, z. B. `{{name}}`.
 
 **Beispiel:** Um ein Dokument zu erstellen, in dem &quot;Hi, Petr!&quot;steht, können Sie ein [!DNL Microsoft Word Template] -Modul verwenden, um die folgende Vorlage zu erstellen:
 
-<pre>&gt; Hi &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
+```
+> Hi {{name}}!
+```
 
 Dazu richten Sie das -Modul wie folgt ein:
 
@@ -123,12 +119,21 @@ Dazu richten Sie das -Modul wie folgt ein:
 Sie können ein Bedingungs-Tag verwenden, um Text einzuschließen, der nur gerendert werden soll, wenn bestimmte Bedingungen erfüllt sind. Um den Text einzuschließen, platzieren Sie ihn zwischen öffnenden und schließenden Bedingungs-Tags wie &quot;hasPhone&quot;, wenn die Bedingung lautet, ob die Daten eine Telefonnummer enthalten oder nicht. Dem Namen eines öffnenden Tags wird ein Hash-Zeichen # vorangestellt, dem Namen eines schließenden Tags ein Schrägstrich vorangestellt, wie im folgenden Beispiel gezeigt.
 
 **Beispiel:** Um ein Dokument zu erstellen, das die Telefonnummer eines Kunden enthält, wenn die Eingabedaten eine Telefonnummer, aber keine E-Mail-Adresse enthalten, können Sie ein [!DNL Microsoft Word Template] -Modul verwenden und die folgende Vorlage erstellen:
-<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;Telefon: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;Email: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>Dazu richten Sie das -Modul wie folgt ein:
+
+```
+> {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}
+> {{#hasEmail}}Email: {{email}} {{/hasEmail}}
+```
+
+Dazu richten Sie das -Modul wie folgt ein:
 
 ![](assets/word-template-conditional-350x501.png)
 
 Im Dokument würde die Telefonnummer wie folgt aussehen:
-<pre>&gt; Telefon: 4445551234</pre>
+
+```
+> Phone: 4445551234
+```
 
 ### Schleifentag {#loop-tag}
 
@@ -141,7 +146,11 @@ Sie können ein Loop-Tag, auch als Abschnitt-Tag bezeichnet, verwenden, um einen
 
 **Beispiel:** Um ein Dokument zu erstellen, in dem der Name und die Telefonnummer jedes Kontakts in einer Kundenliste aufgeführt sind, können Sie ein [!DNL Microsoft Word Template] -Modul verwenden und die folgende Vorlage erstellen:
 
-<pre>&gt; {#contact}</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
+```
+> {{#contact}}
+>     {{name}}, {{phone}}
+> {{/contact}}
+```
 
 Dazu richten Sie das -Modul wie folgt ein:
 
