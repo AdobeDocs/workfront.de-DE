@@ -2,19 +2,19 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Vorabauswahl für Funktionen für [!DNL Adobe Workfront] Pinnwände
+title: Frühzeitiges Feature Opt-in für [!DNL Workfront] Pinnwände
 description: Lesen Sie diesen Artikel , um mehr über die Anmeldung der frühzeitigen Funktion zu erfahren. [!DNL Workfront Boards]
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
-# Vorabauswahl für Funktionen für [!DNL Adobe Workfront] [!UICONTROL Pinnwände]
+# Vorabauswahl für Funktionen für [!DNL Workfront] [!UICONTROL Pinnwände]
 
 Die frühe Funktion zum Opt-in für [!DNL Adobe Workfront] [!UICONTROL Pinnwände] wurde im Juli 2022 gestartet.
 

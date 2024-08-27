@@ -9,10 +9,10 @@ description: Sie können den Adobe Workfront-Mainboards-Connector verwenden, um 
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
+source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 1%
+source-wordcount: '2631'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Dieser Connector befindet sich derzeit in Beta.
+>Der Boards Fusion-Connector befindet sich im Beta-Status. Daher ist die Unterstützung für diesen Connector begrenzt und kann sich aufgrund der künftigen Entwicklung von Foren ändern. Darüber hinaus kann es ohne Vorankündigung Änderungen an der GraphQL-API geben, die sich auf Ihren Fusion-Connector-Prozess auswirken könnten.
 
 Adobe Workfront-Pinnwände sind flexible Tools, die die Teamzusammenarbeit ermöglichen, indem sie Zugriff auf eine freigegebene Pinnwand mit Spalten und Karten bieten.
 

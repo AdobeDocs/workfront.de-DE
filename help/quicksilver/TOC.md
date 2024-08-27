@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
 workflow-type: tm+mt
-source-wordcount: '14318'
+source-wordcount: '14317'
 ht-degree: 2%
 
 ---
@@ -1017,7 +1017,7 @@ ht-degree: 2%
    * [Übersicht über Pinnwände](agile/boards-overview.md)
    * Erste Schritte mit Pinnwänden in Adobe Workfront {#boards-in-workfront}
       * [Erste Schritte mit Pinnwänden: Artikelindex](agile/get-started-with-boards/get-started-with-boards.md)
-      * [Videodemonstration in Adobe Workfront-Foren](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
+      * [Videodemonstration in Workfront-Foren](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Opt-in zu frühzeitigen Werbeunterbrechungen](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Verwenden des Dashboards-Dashboards](agile/get-started-with-boards/use-boards-page.md)
       * [Pinnwand erstellen oder bearbeiten](agile/get-started-with-boards/create-edit-board.md)

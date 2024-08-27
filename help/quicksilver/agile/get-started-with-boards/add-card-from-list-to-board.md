@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Hinzufügen vorhandener Aufgaben oder Probleme zu einer Adobe Workfront-Pinnwand oder einem Workstream
+title: Hinzufügen vorhandener Aufgaben oder Probleme zu einem Workfront-Forum
 description: Sie können eine Aufgabe oder ein Problem in einer Pinnwand in Adobe Workfront aus einer Listen- oder Berichtansicht hinzufügen.
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
 
-# Hinzufügen vorhandener Aufgaben oder Probleme zu einer [!DNL Adobe Workfront]-Pinnwand oder einem Workstream
+# Hinzufügen vorhandener Aufgaben oder Probleme zu einer [!DNL Workfront]-Pinnwand
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,8 @@ Sie können eine Aufgabe oder ein Problem in [!DNL Adobe Workfront] einer Pinnwa
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto">
@@ -30,26 +32,33 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td>
    <td> <p>Alle</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td>
-   <td> <p>[!UICONTROL Arbeit] oder höher</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td>
+   <td>
+   <p>Neu: [!UICONTROL Standard]</p> 
+   <p>oder</p>
+   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td>
-   <td> <p>[!UICONTROL Ansicht] oder höhere Berechtigungen für die Aufgabe oder das Problem</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td>
+   <td role="rowheader">Objektberechtigungen</td>
+   <td>[!UICONTROL Ansicht] oder höhere Berechtigungen für die Aufgabe oder das Problem </td>
   </tr>
  </tbody>
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand oder einem Workstream aus einer Liste
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront].
-1. Wählen Sie eine der folgenden Optionen aus: **[!UICONTROL Projekte]**, **[!UICONTROL Berichterstellung]** oder **[!UICONTROL Dashboards]**.
+{{step1-click-main-menu}}
+
+1. Wählen Sie eine der folgenden Optionen aus: **[!UICONTROL Projekte]**, **[!UICONTROL Berichte]** oder **[!UICONTROL Dashboards]**.
 1. Wechseln Sie zum Projekt, Bericht oder Dashboard, das die Aufgabe oder das Problem enthält, die/das Sie der Pinnwand oder dem Workstream hinzufügen möchten.
 1. Wählen Sie eine oder mehrere Aufgaben oder Probleme aus.
 
@@ -70,7 +79,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Hinzufügen vorhandener Aufgaben oder Probleme zu einer Pinnwand oder einem Workstream aus den Objektdetails
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
+
 1. Klicken Sie auf [!UICONTROL **Projekte**] und dann auf den Namen eines Projekts, um es zu öffnen.
 1. Klicken Sie im linken Bereich auf [!UICONTROL **Aufgaben**] oder [!UICONTROL **Probleme**].
 1. Klicken Sie auf die Aufgabe, Unteraufgabe oder das Problem, die/das Sie einer Pinnwand oder einem Workstream hinzufügen möchten.
