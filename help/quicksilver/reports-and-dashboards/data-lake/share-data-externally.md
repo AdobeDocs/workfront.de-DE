@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Herstellen einer Verbindung zum Workfront Data Lake
 description: Mit Workfront Data Lake können Sie die Workfront-Daten Ihres Unternehmens mit beliebten Business Intelligence-Tools verwenden oder in einem externen Data Warehouse speichern.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 1%
 
 ---
 
-# Herstellen einer Verbindung zum Workfront Data Lake
+# Herstellen einer Verbindung zu Workfront Data Connect
 
-Mit Workfront Data Lake können Sie die Workfront-Daten Ihres Unternehmens mit Business Intelligence-Tools verwenden oder in einem externen Data Warehouse speichern.
+Mit Workfront Data Connect können Sie die Workfront-Daten Ihres Unternehmens mit Business Intelligence-Tools verwenden oder in einem externen Data Warehouse speichern.
 
-Um Ihre Workfront Data Lake-Daten mit einem externen Produkt zu verbinden, müssen Sie zunächst erforderliche IPs zur Zulassungsliste hinzufügen, wie unten unter [IPs zur Zulassungsliste hinzufügen](#add-ips-to-the-allowlist) beschrieben. Darüber hinaus benötigen die meisten Produkte zusätzliche Informationen über Ihren Data Lake, um eine Verbindung herzustellen:
+Um Ihren Data Connect Data Lake mit einem externen Produkt zu verbinden, müssen Sie zunächst alle erforderlichen IPs zur Zulassungsliste hinzufügen, wie unten unter [Hinzufügen von IPs zur Zulassungsliste hinzufügen](#add-ips-to-the-allowlist) beschrieben. Darüber hinaus benötigen die meisten Produkte zusätzliche Informationen über Ihren Data Lake, um eine Verbindung herzustellen:
 
 | Feldname | Wert |
 |---------------|-------------|
@@ -32,14 +32,13 @@ Um Ihre Workfront Data Lake-Daten mit einem externen Produkt zu verbinden, müss
 | Benutzername | Der beim Erstellen der Verbindung ausgewählte Benutzername (auf der Seite **Datenzugriff** in Workfront* zu finden) |
 | Kennwort | Das bei der ersten Snowflake-Anmeldung ausgewählte Kennwort* |
 
-*Informationen darüber, wo Sie die Seite &quot;**Datenzugriff**&quot; finden, auf der Ihre Daten-See-Verbindungen enthalten sind, finden Sie unter [Erstellen eines Leserkontos (Dienstkonto) für Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*Informationen darüber, wo Sie die Seite &quot;**Datenzugriff**&quot; finden, auf der Ihre Data Connect-Verbindungen enthalten sind, finden Sie unter [Erstellen eines Leserkontos (Dienstkonto) für Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
 >Nachdem ein Eintrag zur IP-Zulassungsliste hinzugefügt wurde, sind alle anderen IP-Adressen nicht mehr zulässig. Stellen Sie sicher, dass Sie alle erforderlichen IP-Adressen - sowohl für die Erstellung als auch für die Lektüre Ihres Visualisierungs-Tools - eingegeben haben, bevor Sie versuchen, das Tool zu verwenden. Andernfalls kann es zu einem Fehler bezüglich ungültiger Anmeldedaten kommen.
 >
 >Wenn keine IP-Adressen in Ihrer Zulassungsliste enthalten sind, aber dennoch Probleme beim Herstellen einer Verbindung zu einem BI-Tool auftreten, überprüfen Sie die Proxyserverkonfiguration für das BI-Tool.
-
 
 ## Hinzufügen von IPs zur Zulassungsliste
 

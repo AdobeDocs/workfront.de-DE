@@ -1,31 +1,31 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: Data Lake-Datenwörterbuch
-description: Diese Seite enthält Informationen zur Datenstruktur und zum Dateninhalt im Workfront Data Lake.
+navigation-topic: data connect
+title: Datenwörterbuch zu Workfront Data Connect
+description: Diese Seite enthält Informationen zur Datenstruktur und zum Dateninhalt in Workfront Data Connect.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 5%
 
 ---
 
-# Workfront Data Lake-Datenwörterbuch
+# Datenwörterbuch zu Workfront Data Connect
 
-Diese Seite enthält Informationen zur Datenstruktur und zum Dateninhalt im Workfront Data Lake.
+Diese Seite enthält Informationen zur Datenstruktur und zum Dateninhalt in Workfront Data Connect.
 
 >[!NOTE]
 >
->Die Daten im Workfront Data Lake werden alle vier Stunden aktualisiert, sodass aktuelle Änderungen möglicherweise nicht sofort übernommen werden.
+>Die Daten in Data Connect werden alle vier Stunden aktualisiert, sodass aktuelle Änderungen möglicherweise nicht sofort übernommen werden.
 
 ## Tabellenarten
 
-Es gibt eine Reihe von Tabellentypen, die Sie verwenden können, um Ihre Workfront-Daten so anzuzeigen, dass sie den größten Einblick bieten.
+Es gibt eine Reihe von Tabellentypen, die Sie in Data Connect verwenden können, um Ihre Workfront-Daten so anzuzeigen, dass sie den größten Einblick bieten.
 
 * **Aktuelle Tabelle**
 
@@ -43,9 +43,9 @@ Es gibt eine Reihe von Tabellentypen, die Sie verwenden können, um Ihre Workfro
 
 ## Entitätsbeziehungsdiagramm
 
-Objekte in Workfront (und damit in Ihrem Data Lake) werden nicht nur durch ihre individuellen Werte definiert, sondern durch ihre Beziehungen zu anderen Objekten. Das unten stehende Entitätsbeziehungsdiagramm bietet eine allgemeine Zuordnung von Objektbeziehungen im Workfront Data Lake. Das Diagramm kann über den folgenden Link angezeigt und heruntergeladen werden:
+Objekte in Workfront (und damit in Ihrem Data Connect Data Lake) werden nicht nur durch ihre individuellen Werte definiert, sondern durch ihre Beziehungen zu anderen Objekten. Das unten stehende Diagramm zur Entitätsbeziehung bietet eine allgemeine Zuordnung von Objektbeziehungen in Data Connect. Das Diagramm kann über den folgenden Link angezeigt und heruntergeladen werden:
 
-[Workfront Data Lake-Entitätsbeziehungsdiagramm](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+[Beziehungsdiagramm der Data Connect-Entität](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Es gibt eine Reihe von Datumsobjekten, die Informationen darüber bereitstellen,
 
 ## Terminologie
 
-In der folgenden Tabelle werden Objektnamen in Workfront (sowie deren Namen in der Benutzeroberfläche und API) mit den entsprechenden Namen im Data Lake korreliert.
+Die folgende Tabelle ordnet die Objektnamen in Workfront (sowie deren Namen in der Benutzeroberfläche und in der API) mit den entsprechenden Namen in Data Connect zu.
 
 <table>
 <thead>
