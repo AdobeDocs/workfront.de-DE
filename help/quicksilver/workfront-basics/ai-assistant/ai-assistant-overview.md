@@ -4,18 +4,14 @@ content-type: reference
 description: Übersicht über den KI-Assistenten
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # Übersicht über den KI-Assistenten
-
->[!IMPORTANT]
->
->Der Workfront AI-Assistent wurde vorübergehend entfernt und steht zu einem späteren Zeitpunkt zur Verfügung.
 
 Der KI-Assistent von Workfront hilft Ihnen bei der Erledigung Ihrer Arbeit, indem er In-App-Informationen und -Vorschläge in einem in natürlicher Sprache geführten Gespräch anbietet. Der KI-Assistent bietet Ihnen eine reibungslosere Arbeitserfahrung durch
 
@@ -47,6 +43,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).## Voraussetzungen für den AI-Assistenten
+
+## Voraussetzungen für den AI-Assistenten
 
 Um den KI-Assistenten für Ihre Organisation zu aktivieren, muss **alle** der folgenden Punkte gelten:
 

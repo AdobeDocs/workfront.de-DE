@@ -5,23 +5,14 @@ description: Sie können steuern, welche Zugriffsebenen in Ihrer Organisation Zu
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: eee21282e894137df32e3d23e7affcc0f43abd02
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '228'
 ht-degree: 1%
 
 ---
 
 # Aktivieren oder Deaktivieren des AI-Assistenten
-
->[!IMPORTANT]
->
->Derzeit ist AI Assistant für eine begrenzte Anzahl von Kunden von Workfront und Workfront Planning verfügbar.
->
->* Workfront: AI Assistant Beta
->* Workfront-Planung: Frühzeitiger Zugriff
->
->Ihr Kundenbetreuer kann Sie darüber informieren, ob Sie einer dieser Gruppen angehören.
 
 Als Workfront-Administrator können Sie festlegen, für welche Benutzer in Ihrem Unternehmen der KI-Assistent aktiviert ist. Dies wird über Zugriffsebenen verwaltet.
 
@@ -62,7 +53,7 @@ So aktivieren Sie den AI-Assistenten für eine bestimmte Zugriffsstufe:
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf das Symbol **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).![
 1. Wählen Sie im linken Navigationsbereich **Zugriffsebenen** aus.
-1. Wählen Sie die Zugriffsebene aus, für die Sie den AI-Assistenten deaktivieren möchten.
+1. Wählen Sie die Zugriffsebene aus, für die Sie den KI-Assistenten aktivieren möchten.
 1. Scrollen Sie im Fenster Zugriffsebene bearbeiten nach unten zum unteren Rand des Fensters und klicken Sie auf **Zusätzliche Einschränkungen festlegen..**.
 1. Aktivieren Sie im Bereich Zusätzliche Einschränkungen festlegen die Option **Workfront AI Assistant aktivieren**.
 1. Klicken Sie auf **Speichern**.
