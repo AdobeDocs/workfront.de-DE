@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 >Einen Überblick über die Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-In diesem Artikel werden die Funktionen aufgelistet, die 2023 nach dem Start des Adobe Workfront-Planungsprogramms am 22. Mai 2023 veröffentlicht wurden.
+In diesem Artikel werden die Funktionen aufgelistet, die 2023 nach dem Start des Betaprogramms für die Adobe Workfront-Planung am 22. Mai 2023 veröffentlicht wurden.
 
 Weitere Informationen zu Release-Aktivitäten finden Sie auch in den folgenden Artikeln:
 
-* [Adobe Workfront-Planungs-Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md): Informationen zur aktuellen Release-Aktivität für die Workfront-Planung.
+* [Adobe Workfront Planning-Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) für Informationen zur aktuellen Release-Aktivität für die Workfront-Planung.
 
-* [Adobe Workfront Planning-Release-Aktivität für 2024](/help/quicksilver/planning/general/release-activity.md): Informationen zu den Funktionen, die 2024, also vor der allgemeinen Verfügbarkeit am 28. August 2024, veröffentlicht wurden.
+* [Adobe Workfront Planning-Release-Aktivität für 2024](/help/quicksilver/planning/general/release-activity.md) für Informationen zu den Funktionen, die 2024, also vor der allgemeinen Verfügbarkeit am 28. August 2024, veröffentlicht wurden.
 
 Die veröffentlichten Funktionen werden in der Reihenfolge ihrer Veröffentlichung aufgelistet, wobei die neuesten zuerst aufgeführt werden.
 
