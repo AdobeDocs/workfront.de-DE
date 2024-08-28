@@ -5,7 +5,7 @@ description: Sie können steuern, welche Zugriffsebenen in Ihrer Organisation Zu
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: eee21282e894137df32e3d23e7affcc0f43abd02
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
@@ -58,3 +58,4 @@ So aktivieren Sie den AI-Assistenten für eine bestimmte Zugriffsstufe:
 1. Aktivieren Sie im Bereich Zusätzliche Einschränkungen festlegen die Option **Workfront AI Assistant aktivieren**.
 1. Klicken Sie auf **Speichern**.
 1. Wiederholen Sie die Schritte 3 bis 6 für jede Zugriffsstufe, für die Sie den KI-Assistenten aktivieren möchten.
+

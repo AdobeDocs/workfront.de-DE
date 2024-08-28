@@ -5,7 +5,7 @@ description: Mithilfe der Funktion Diese Funktion zusammenfassen können Sie Arb
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -55,3 +55,4 @@ So erhalten Sie Informationen oder Anweisungen aus der Workfront-Dokumentation m
 1. Zeigen Sie die Antwort im Bereich &quot;AI Assistant&quot;an.
 1. (Optional) Wenn die Antwort nicht die benötigten Informationen enthält, verfeinern Sie Ihre Antwort und versuchen Sie es erneut.
 1. (Optional und bedingt) Wenn die Antwort einen Link zu einem Adobe Experience League-Artikel enthält, klicken Sie auf den Link, um den Artikel in einem neuen Fenster zu öffnen.
+

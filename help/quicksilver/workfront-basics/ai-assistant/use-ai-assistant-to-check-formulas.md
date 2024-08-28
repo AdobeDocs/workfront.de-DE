@@ -5,7 +5,7 @@ description: Mit dem KI-Assistenten können Sie Fehler in Ihren ungültigen benu
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -68,3 +68,4 @@ So überarbeiten Sie einen ungültigen Ausdruck für ein berechnetes Feld:
 >Es wird empfohlen, das berechnete Feld zu testen, um sicherzustellen, dass es das erwartete Ergebnis abruft.
 
 Weitere Informationen zu berechneten Feldern in Workfront finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+
