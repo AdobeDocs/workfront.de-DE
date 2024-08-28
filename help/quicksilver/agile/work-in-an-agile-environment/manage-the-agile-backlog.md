@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: Verwalten des agilen Rückprotokolls
+title: Verwalten des Agile-Rückprotokolls
 description: Aufgaben und Probleme können einem agilen Team zugewiesen und dem Backlog dieses Teams je nach der vom Team verwendeten agilen Methode als Meldungen hinzugefügt werden.
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -39,20 +39,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
-   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td> <p>Neu: [!UICONTROL Standard]</p> 
+   oder
+   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td> 
-   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Worker] oder höher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL Verwalten] Zugriff auf das Projekt, auf dem sich die Story befindet</p>  </td> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td>[!UICONTROL Verwalten] Zugriff auf das Projekt, auf dem sich die Story befindet </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +76,7 @@ Mit der Drag &amp; Drop-Methode können Sie die Reihenfolge der Meldungen in der
    >
    >Wenn einer Aufgabe oder einem Problem ein agiles Team zugewiesen wurde und das Projekt keinen Status aufweist, der mit Aktuell übereinstimmt, werden sie nicht im Rückstand angezeigt. Sie wirken sich jedoch weiterhin auf die Rückstandsanzahl in der Spalte Bestellung aus.
 
-1. Wählen Sie einen oder mehrere Storys aus und ziehen Sie dann die Meldungen in die Reihenfolge, in der sie im Rückstand angezeigt werden sollen.\
+1. Wählen Sie einen oder mehrere Storys aus und ziehen Sie dann die Meldungen in die Reihenfolge, in der sie im Rückstand angezeigt werden sollen.
    ![Ziehen Sie die Elemente im Rückstadium per Drag-and-Drop](assets/agile-backlog-drag-and-drop.png)
 
 ### Meldungen aufschlüsseln {#break-down-stories}
@@ -96,8 +94,8 @@ Da Geschichten in einem Rückstau unterschiedlich groß sind, können Benutzer s
 So unterteilen Sie eine Geschichte:
 
 1. Gehen Sie in den Rückstand, der die Meldung enthält, die Sie aufschlüsseln möchten.
-1. Wählen Sie die Geschichte aus, die Sie unterteilen möchten, und klicken Sie dann auf **[!UICONTROL Aufschlüsselungsmeldung]**.\
-   Das Dialogfeld [!UICONTROL Aufschlüsselungsmeldung] wird angezeigt.\
+1. Wählen Sie die Geschichte aus, die Sie unterteilen möchten, und klicken Sie dann auf **[!UICONTROL Aufschlüsselungsmeldung]**.
+Das Dialogfeld [!UICONTROL Aufschlüsselungsmeldung] wird angezeigt.
    ![Dialogfeld &quot;Aufschlüsselungsmeldung&quot;](assets/backlog-breakdown-dialog.png)
 
 1. Geben Sie einen Namen und eine Schätzung für die Geschichte ein und wählen Sie aus, ob die Geschichte fertig ist.
@@ -179,19 +177,17 @@ Sie können eine Aufgabe oder ein Problem einem agilen Team zuweisen. Nachdem si
 
 So weisen Sie einem agilen Team eine Aufgabe oder ein Problem zu:
 
-1. Rufen Sie das Projekt auf, das die Aufgabe enthält, die Sie zuweisen möchten.
+1. Wechseln Sie zu dem Projekt, das die Aufgabe enthält, die Sie zuweisen möchten.
 1. Wählen Sie die Aufgabe oder das Problem in der Liste aus.
 1. Klicken Sie auf **[!UICONTROL Bearbeiten]**.
 1. Klicken Sie auf **[!UICONTROL Zuweisungen]**.
 1. (Optional) Löschen Sie alle vorhandenen Bevollmächtigten.
 1. Klicken Sie auf **[!UICONTROL Zuweisung hinzufügen]**.
 1. Beginnen Sie mit der Eingabe des Namens des agilen Teams, das Sie der Aufgabe oder dem Problem zuweisen möchten, und klicken Sie dann auf den Teamnamen, wenn er in der Dropdown-Liste angezeigt wird.
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.\
-   Die Aufgabe oder das Problem ist jetzt im Team-Backlog verfügbar.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+Die Aufgabe oder das Problem ist jetzt im Team-Backlog verfügbar.
 
 ## Verschieben von Meldungen in den oder aus dem Rückstand
-
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 
 * [Verschieben von Meldungen aus dem Rückstadium in eine Iteration oder + Pinnwand](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Verschieben vorhandener Meldungen in den Backlog](#move-existing-stories-to-the-backlog)
@@ -200,9 +196,9 @@ So weisen Sie einem agilen Team eine Aufgabe oder ein Problem zu:
 ### Verschieben von Meldungen aus dem Rückstadium in eine Iteration oder + Pinnwand
 
 1. Gehen Sie zum Rückstand des agile Teams.
-1. Wählen Sie die Geschichten aus, die Sie in eine Iteration oder Kanban-Pinnwand verschieben möchten, und klicken Sie dann auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.\
-   Wenn Sie die Geschichte auf eine [!UICONTROL Kanban]-Pinnwand verschieben, wird die Pinnwand [!UICONTROL Geschichte in die Kanban]-Pinnwand verschoben.\
-   Wenn Sie die Geschichte in eine Iteration verschieben, wird das Dialogfeld [!UICONTROL Geschichte in eine Iteration verschieben] angezeigt.\
+1. Wählen Sie die Geschichten aus, die Sie in eine Iteration oder Kanban-Pinnwand verschieben möchten, und klicken Sie dann auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.
+Wenn Sie die Geschichte auf eine [!UICONTROL Kanban]-Pinnwand verschieben, wird die Pinnwand [!UICONTROL Geschichte in die Kanban]-Pinnwand verschoben.
+Wenn Sie die Geschichte in eine Iteration verschieben, wird das Dialogfeld [!UICONTROL Geschichte in eine Iteration verschieben] angezeigt.
    ![Dialogfeld &quot;Geschichte verschieben&quot;](assets/agile-backlog-addtoiteration.png)
 
 1. Führen Sie einen der folgenden Schritte aus:

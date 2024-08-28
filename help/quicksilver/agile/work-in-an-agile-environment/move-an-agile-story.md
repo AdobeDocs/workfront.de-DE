@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
-title: Bewegliche Geschichte
+title: Agile Geschichte verschieben
 description: Sie können eine agile Geschichte entweder in eine andere Iteration (für Scrum-Teams) oder in den Rückstand (für Kanban- und Scrum-Teams) verschieben.
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Sie können eine agile Geschichte entweder in eine andere Iteration (für Scrum-
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -28,25 +30,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Arbeit] oder höher</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td> <p>Neu: [!UICONTROL Standard]</p> 
+   oder
+   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL Zugriff auf den Artikel verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td>[!UICONTROL Zugriff auf den Artikel verwalten</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Verschieben Sie eine Geschichte von einer Iteration oder Kanban-Pinnwand in den Backlog.
 
@@ -59,8 +61,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![Dialogfeld &quot;Geschichte verschieben&quot;](assets/iteration-story-move.png)
 
-1. Wählen Sie das Backlog von *team_name* aus.\
-   Im obigen Beispiel lautet der Teamname &#x200B; **Marketing.**
+1. Wählen Sie den Backlog **von**team_name aus.
+Im obigen Beispiel lautet der Teamname **Marketing**.
 
 1. Klicken Sie auf **[!UICONTROL Geschichte verschieben]**.
 
@@ -85,6 +87,6 @@ Sie können eine Geschichte für Ihr Scrum-Team in eine andere Iteration verschi
 
    >[!NOTE]
    >
-   >Das Arbeitselement [!UICONTROL Vorgesehenes Startdatum] und [!UICONTROL Vorgesehenes Abschlussdatum] sind von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] betroffen. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Daten angewendet werden, wenn Arbeitselemente zu einer Iteration hinzugefügt werden](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Das Arbeitselement [!UICONTROL Vorgesehenes Startdatum] und [!UICONTROL Vorgesehenes Abschlussdatum] sind von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] betroffen. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Daten angewendet werden, wenn Arbeitselemente zu einer Iteration hinzugefügt werden](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) im Artikel [Konfigurieren von Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klicken Sie auf **[!UICONTROL Geschichte verschieben]**.

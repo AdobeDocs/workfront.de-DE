@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Verwenden Sie Flags auf Geschichten auf dem Kanban-Board
+title: Verwenden Sie Flags on Stories auf dem Kanban Board
 description: Auf der  [!DNL Kanban] Pinnwand bieten Flags einen visuellen Hinweis darauf, wann eine Geschichte bereit ist, zum nächsten Status zu wechseln. Dies ermöglicht Kanban-Teams, beim Verschieben von Geschichten über Status hinweg einen "Pull"-Ansatz anstelle eines "Push"-Ansatzes zu verwenden.
 author: Lisa
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 33daf0633701a1c271552e796ffe22a58645c561
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -28,53 +28,57 @@ Beachten Sie Folgendes bei der Verwendung von Flags für Meldungen:
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Arbeit] oder höher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Worker] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td> <p>Neu: [!UICONTROL Standard]</p> 
+   oder
+   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Verwenden Sie Flags auf Meldungen auf der [!UICONTROL Kanban]-Pinnwand
 
 So ändern Sie eine Markierung für eine Geschichte:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+{{step1-to-team}}
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Kanban]-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Gehen Sie zur [!UICONTROL Kanban]-Pinnwand, an der Sie eine Markierung für eine Geschichte ändern möchten.
-1. Erweitern Sie den Bereich Geschichte , um das Flag anzuzeigen.\
-   Die Markierung ist für jede Geschichte standardmäßig auf **[!UICONTROL Auf Track]** gesetzt.\
+1. Erweitern Sie den Bereich Geschichte , um das Flag anzuzeigen.
+Die Markierung ist für jede Geschichte standardmäßig auf **[!UICONTROL Auf Track]** gesetzt.
    ![Kanban-Karte](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. Klicken Sie auf die aktuelle Markierung und wählen Sie dann aus den folgenden Optionen aus:
 
-   * **[!UICONTROL Auf Track]:** Die Meldung befindet sich im entsprechenden Status und es müssen derzeit keine Maßnahmen ergriffen werden.\
+   * **[!UICONTROL Auf Track]:** Die Meldung befindet sich im entsprechenden Status und es müssen derzeit keine Maßnahmen ergriffen werden.
 
-     Dies ist die Standardkennzeichnung für jede Geschichte auf dem Kanban-Board.\
-      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
+     Dies ist die Standardkennzeichnung für jede Geschichte auf dem Kanban-Board.
+     ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL Ist blockiert]:** Die Meldung kann nicht zum nächsten Status übergehen. Wenn diese Markierung auf eine Geschichte gesetzt ist, zählt die Geschichte nicht zur WIP-Grenze. (Weitere Informationen zu WIP-Beschränkungen finden Sie im Artikel [Kanban konfigurieren](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).\
+   * **[!UICONTROL Ist blockiert]:** Die Meldung kann nicht zum nächsten Status übergehen. Wenn diese Markierung auf eine Geschichte gesetzt ist, zählt die Geschichte nicht zur WIP-Grenze. (Weitere Informationen zu WIP-Beschränkungen finden Sie im Artikel [Kanban konfigurieren](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).)
 
      ![kanban_flag_block.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL Bereit zum Ziehen]:** Die Geschichte kann von einem anderen Team-Mitglied in den nächsten Status verschoben werden.\
+   * **[!UICONTROL Bereit zum Ziehen]:** Die Geschichte ist bereit, von einem anderen Mitglied des Teams in den nächsten Status versetzt zu werden.
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

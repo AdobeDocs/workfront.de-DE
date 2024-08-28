@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: Iteration erstellen
+title: Erstellen einer Iteration
 description: Iterationen sind eine Schlüsselkomponente für Scrum-agile-Teams bei der Planung der Arbeitskapazität. [!DNL Adobe Workfront] ermöglicht es Scrum agile Teams, ihre Arbeit zu verwalten, indem mehrere Iterationen erstellt werden, um Teamanforderungen gerecht zu werden.
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Iterationen sind eine Schlüsselkomponente für Scrum-agile-Teams bei der Planun
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Review] oder höher</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td> <p>Neu: [!UICONTROL Light] oder höher</p> 
+   oder
+   <p>Aktuell: [!UICONTROL Review] oder höher</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Iteration hinzufügen
 
 Verwenden Sie die Funktion [!UICONTROL Iteration hinzufügen] , um schnell eine Iteration zu erstellen und Aufgaben und Probleme später hinzuzufügen.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+{{step1-to-team}}
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Iterationen]** auf **[!UICONTROL Iteration hinzufügen]**.\
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Iterationen]** auf **[!UICONTROL Iteration hinzufügen]**.
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. Geben Sie Folgendes an:
@@ -90,7 +96,7 @@ Verwenden Sie die Funktion [!UICONTROL Iteration hinzufügen] , um schnell eine 
 
 Verwenden Sie die Funktion [!UICONTROL Iteration planen] , um eine Iteration mithilfe von Aufgaben im Rückstadium zu erstellen.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+{{step1-to-team}}
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
@@ -129,10 +135,10 @@ Verwenden Sie die Funktion [!UICONTROL Iteration planen] , um eine Iteration mit
     </tbody> 
    </table>
 
-1. (Optional) Wählen Sie Meldungen aus, die Sie der Iteration jetzt hinzufügen möchten, oder Sie können diesen Schritt überspringen und einer Iteration zu einem späteren Zeitpunkt Meldungen hinzufügen. Die Geschichten oben im Rückstand haben eine höhere Priorität. Geschichten werden grün hervorgehoben, wenn sie in die Kapazität passen; sie werden rot hervorgehoben, wenn sie dies nicht tun.\
-   Sie können sowohl Aufgaben als auch Probleme zu einer einzelnen Iteration hinzufügen:
+1. (Optional) Wählen Sie Meldungen aus, die Sie der Iteration jetzt hinzufügen möchten, oder Sie können diesen Schritt überspringen und einer Iteration zu einem späteren Zeitpunkt Meldungen hinzufügen. Die Geschichten oben im Rückstand haben eine höhere Priorität. Geschichten werden grün hervorgehoben, wenn sie in die Kapazität passen; sie werden rot hervorgehoben, wenn sie dies nicht tun.
+Sie können sowohl Aufgaben als auch Probleme zu einer einzelnen Iteration hinzufügen:
 
-   * **So fügen Sie der Iteration Aufgaben hinzu:** Stellen Sie auf der Registerkarte **[!UICONTROL Rückprotokoll]** sicher, dass die Registerkarte **[!UICONTROL Meldungen]** ausgewählt ist (diese Registerkarte ist bei Ansicht des Rückstands standardmäßig ausgewählt). Wählen Sie die Meldungen aus, die Sie der Iteration hinzufügen möchten.\
+   * **So fügen Sie der Iteration Aufgaben hinzu:** Stellen Sie auf der Registerkarte **[!UICONTROL Rückprotokoll]** sicher, dass die Registerkarte **[!UICONTROL Meldungen]** ausgewählt ist (diese Registerkarte ist bei Ansicht des Rückstands standardmäßig ausgewählt). Wählen Sie die Geschichten aus, die Sie der Iteration hinzufügen möchten.
 
      Wenn Sie einer Iteration Aufgaben hinzufügen, wird das Startdatum der Aufgabe wie in [[!UICONTROL Grundlegendes] darüber berechnet, wie die Aufgabenstartdaten berechnet werden, wenn sie einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
@@ -151,4 +157,4 @@ Wenn Sie eine Aufgabe als Geschichte zu einer Iteration hinzufügen, wird für j
 
 Das [!UICONTROL Projektende-Datum] wird anstelle des   wenn das Projektstartdatum nach dem Iterationsstartdatum liegt und das Projektende-Datum nach dem Iterationsenddatum liegt.
 
-Sie können einzelne Scrum-Teams so konfigurieren, dass die Projektdaten standardmäßig anstelle der Iterationsdaten verwendet werden. Weitere Informationen finden Sie im Abschnitt [Konfigurieren, wie Daten angewendet werden, wenn Arbeitselemente zu einer Iteration hinzugefügt werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Sie können einzelne Scrum-Teams so konfigurieren, dass die Projektdaten standardmäßig anstelle der Iterationsdaten verwendet werden. Weitere Informationen finden Sie im Abschnitt [Konfigurieren, wie Daten angewendet werden, wenn Arbeitselemente zu einer Iteration hinzugefügt werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

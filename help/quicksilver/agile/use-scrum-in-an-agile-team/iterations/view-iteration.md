@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: Iteration anzeigen
+title: Anzeigen einer Iteration
 description: Sie können alle Iterationen für ein bestimmtes Team anzeigen oder eine einzelne Iteration anzeigen. Iterationen zeigen Daten zu den Meldungen, Problemen und Dokumenten an, die in der Iteration enthalten sind.
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Sie können alle Iterationen für ein bestimmtes Team anzeigen oder eine einzeln
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -28,21 +30,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Review] oder höher</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td> <p>Neu: [!UICONTROL Light] oder höher</p> 
+   oder
+   <p>Aktuell: [!UICONTROL Review] oder höher</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Anzeigen von Iterationen, die einem bestimmten Team zugewiesen sind
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+{{step1-to-team}}
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
@@ -55,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >**[!UICONTROL Aktuelle Iteration]** wird nur im linken Bereich angezeigt, wenn sie der Layoutvorlage zugewiesen ist, und es gibt mindestens eine Aufgabe oder ein Problem bei der Iteration. Weitere Informationen finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
-1. (Optional) Klicken Sie auf den Namen der spezifischen Iteration, die Sie anzeigen möchten.\
-   Die Iterationsgeschichten werden angezeigt.
+1. (Optional) Klicken Sie auf den Namen der spezifischen Iteration, die Sie anzeigen möchten.
+Die Iterationsgeschichten werden angezeigt.
 
    ![[!UICONTROL Meldungen in der Iteration]](assets/iteration-stories-list-NWE.png)

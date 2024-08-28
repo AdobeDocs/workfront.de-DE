@@ -2,13 +2,13 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Kanban konfigurieren
-description: Sie erstellen ein Kanban- oder Scrum-agile-Team in [!DNL Adobe Workfront].
+description: Sie können die folgenden Optionen für agile Kanban-Teams während oder nach der Erstellung des Teams konfigurieren.
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1498'
 ht-degree: 1%
 
 ---
@@ -46,26 +46,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Alle</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
    <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Zugriff auf Teams bearbeiten</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan oder welchen Lizenztyp Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -148,7 +148,7 @@ So konfigurieren Sie dem agile Team zugewiesene Storykarten, um zusätzliche Fel
 1. Klicken Sie auf das Symbol **[!UICONTROL Teams wechseln]** ![Teams wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das agile Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]**.\
+1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
@@ -179,9 +179,9 @@ So begrenzen Sie die WIP für Ihr Kanban-Team:
 
 1. Stellen Sie im Abschnitt **[!UICONTROL Agile]** im Abschnitt **[!UICONTROL Methodologie]** sicher, dass Kanban ausgewählt ist.
 
-1. Geben Sie im Abschnitt **[!UICONTROL Meldungsbrett]** im Feld **[!UICONTROL WIP-Limit]** die maximal zulässige Anzahl von Elementen in jeder Spalte des [!UICONTROL Kanban]-Spielbretts an. Sie können für jede Spalte einen anderen Grenzwert festlegen. Die Höchstgrenze, die Sie für jede Spalte festlegen können, beträgt 100.\
-   Wenn diese Einstellung festgelegt ist, zeigt die WIP-Begrenzung jedes Mal, wenn die Beschränkung für eine Spalte auf der Storyboard-Karte überschritten wird, eine Warnmeldung auf der Karte [!UICONTROL Kanban] an. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit [!UICONTROL Complete] übereinstimmt.\
-   Das WIP-Limit ist lediglich eine visuelle Warnung und schränkt Ihr Team nicht ein, mehr Elemente in einer Spalte als das von Ihnen festgelegte Limit zu haben.
+1. Geben Sie im Abschnitt **[!UICONTROL Meldungsbrett]** im Feld **[!UICONTROL WIP-Limit]** die maximal zulässige Anzahl von Elementen in jeder Spalte des [!UICONTROL Kanban]-Spielbretts an. Sie können für jede Spalte einen anderen Grenzwert festlegen. Die Höchstgrenze, die Sie für jede Spalte festlegen können, beträgt 100.
+Wenn diese Einstellung festgelegt ist, zeigt die WIP-Begrenzung jedes Mal, wenn die Beschränkung für eine Spalte auf der Storyboard-Karte überschritten wird, eine Warnmeldung auf der Karte [!UICONTROL Kanban] an. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit [!UICONTROL Complete] übereinstimmt.
+Das WIP-Limit ist lediglich eine visuelle Warnung und schränkt Ihr Team nicht ein, mehr Elemente in einer Spalte als das von Ihnen festgelegte Limit zu haben.
 
    ![WIP-Limit](assets/wip-limit-350x193.png)
 
