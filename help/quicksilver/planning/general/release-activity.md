@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '7432'
 ht-degree: 0%
@@ -179,7 +179,7 @@ Weitere Informationen finden Sie unter [Kalenderansicht verwalten](/help/quicksi
 
 ### Die KI-Assistenzkraft wurde für die Workfront-Planung wieder aktiviert
 
-Produktion und Vorschau: 28. August 2024
+Vorschau und Produktion: 28. August 2024
 
 Die Workfront AI-Assistenzkraft wurde für die Workfront-Planung wieder aktiviert.
 
@@ -187,7 +187,7 @@ Weitere Informationen zum Workfront Planning AI Assistant finden Sie unter [Übe
 
 ### Berichtsfunktionen für die Workfront-Planung mit dem Canvas-Dashboard
 
-Produktion und Produktion: 28. August 2024
+Vorschau und Produktion: 28. August 2024
 
 Jetzt können Sie Informationen zur Workfront-Planung in einem Bericht über das Workfront Canvas-Dashboard anzeigen. Weitere Informationen finden Sie unter [Erste Schritte mit Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

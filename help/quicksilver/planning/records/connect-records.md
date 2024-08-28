@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2714'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ In den folgenden Bereichen eines Planungsdatensatzes können Sie Datensätze aus
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
-1. Klicken Sie auf den Namen einer Ansicht vom Typ **Tabelle** , um sie zu öffnen.
+1. Klicken Sie auf den Namen einer Tabellenansicht, um sie zu öffnen.
 1. (Optional) Fügen Sie dem ausgewählten Datensatztyp durch Hinzufügen einer neuen Zeile zur Tabelle Datensätze hinzu. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit einem anderen Datensatztyp verbunden haben, wechseln Sie zur verknüpften Datensatzspalte und doppelklicken Sie auf die Zelle, die dem Datensatz entspricht, den Sie mit anderen Datensätzen verknüpfen möchten.
 
@@ -240,7 +240,7 @@ In den folgenden Bereichen eines Planungsdatensatzes können Sie Datensätze aus
 
    >[!TIP]
    >
-   >    Sie können die Seite eines Datensatzes wie folgt in der Tabellenansicht öffnen:
+   >    Sie können die Seite eines Datensatzes öffnen und andere Datensätze verknüpfen, indem Sie in der Tabellenansicht Folgendes tun:
    >1. Klicken Sie in der Ansicht auf den Namen des Datensatzes.
    >1. Suchen Sie das verknüpfte Datensatzfeld und doppelklicken Sie auf das Feld (falls bereits Datensätze verbunden sind).
    >Oder

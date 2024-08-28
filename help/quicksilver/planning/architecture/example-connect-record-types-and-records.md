@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -44,12 +44,21 @@ Gehen Sie dazu folgendermaßen vor:
    * **Record type**: Product <!--did they change the casing here?-->
    * **Name**: Geben Sie dem neuen Feld einen Namen. Beispiel: &quot;Produktinformationen&quot;. Dies ist der Name des verknüpften Datensatzfelds.
    * **Beschreibung**: Fügen Sie eine Beschreibung für das neue Feld hinzu. Beispiel: &quot;Dies sind die Produkte, mit denen meine Kampagnen verknüpft werden sollen.&quot; Die Beschreibung des Felds wird angezeigt, wenn Sie den Mauszeiger über das Feld in der Spaltenüberschrift bewegen.
-   * **Mehrere Datensätze zulassen**: Wenn Sie diese Option deaktiviert lassen, können Benutzer mehrere Datensätze auswählen, wenn das Feld &quot;Verknüpfter Datensatztyp&quot;(Produktinformationen) in den Originaldatensätzen (Kampagnen) angezeigt wird. In unserem Fall können Benutzer mehrere Produkte auswählen, die mit einer Kampagne verbunden werden sollen.
+   * **Verbindungstyp**: Wählen Sie eine der folgenden Optionen aus:
+      * **Viele zu viele**: Benutzer können eine Kampagne mit mehreren Produkten und ein Produkt mit mehreren Kampagnen verbinden.
+      * **1:n**: Benutzer können eine Kampagne mit mehreren Produkten und ein Produkt mit einer Kampagne verbinden.
+      * **Viele zu eins**: Benutzer können eine Kampagne mit einem Produkt und ein Produkt mit vielen Kampagnen verbinden.
+      * **Eins zu eins**: Benutzer können eine Kampagne mit einem Produkt und ein Produkt mit einer Kampagne verbinden.
+
+     >[!NOTE]
+     >
+     >Die Option **Verbindungstyp** ist beim Verbinden von Datensätzen aus verschiedenen Arbeitsbereichen oder beim Verbinden von Experience Manager-Assets nicht verfügbar. Weitere Informationen finden Sie unter [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+   * **Erscheinungsbild der Aufzeichnung**: Deaktivieren Sie den Umschalter **Titel** , wenn Sie den Namen der Produkte nicht anzeigen möchten, wenn Sie sie zum Feld &quot;Produktinformationen&quot;der Kampagne hinzufügen. Wenn diese Option aktiviert ist, zeigen Datensätze sowohl die Miniaturansicht als auch den Titel an. Der Umschalter ist standardmäßig aktiviert.
    * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird als Nächstes das Feld **Suchfelder hinzufügen** geöffnet, damit Sie Produktfelder mit dem Kampagnen-Datensatztyp verknüpfen können. Sie können auf **Überspringen** klicken, um diesen Schritt zu überspringen und Produktfelder später hinzuzufügen.
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Optional) Deaktivieren Sie den Umschalter **Titel** im Abschnitt **Erscheinungsbild von Datensätzen** , um nur das Miniaturbild des Datensatzes in den verbundenen Feldern anzuzeigen. Wenn diese Option aktiviert ist, zeigen Datensätze sowohl die Miniaturansicht als auch den Titel an. Der Umschalter ist standardmäßig aktiviert.
 1. (Bedingt) Wenn Sie im vorherigen Schritt die Option **Suchfelder auswählen** ausgewählt haben, klicken Sie in der Liste der Felder, die mit dem Datensatztyp **Produkt** verknüpft sind, auf das Symbol **+** für das Feld **Budget** und klicken Sie dann auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Budget (aus Produktinformationen)** erstellt, das dem Namen des verknüpften Felds entspricht. Alle Informationen zum Produktbudget werden in diesem Feld für die Kampagnendatensätze angezeigt.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
@@ -138,8 +147,12 @@ Gehen Sie dazu folgendermaßen vor:
    * **Record type**: Project (aus dem Workfront-Unterabschnitt)
    * **Name**: Geben Sie dem neuen Feld einen Namen, z. B. &quot;Projektinformationen&quot;.
    * **Beschreibung**: Fügen Sie eine Beschreibung für das neue Feld hinzu. Beispiel: &quot;Dies sind die Projekte, mit denen meine Kampagnen verknüpft werden sollen.&quot; Die Beschreibung wird in der Tabellenansicht angezeigt, wenn Sie den Mauszeiger über den Feldnamen in der Spaltenüberschrift bewegen.
-   * 
-      * **Mehrere Datensätze zulassen**: Wenn diese Option aktiviert bleibt, können Benutzer mehrere Projekte auswählen, wenn das Feld für den verknüpften Projekttyp (Projektinformationen) in den Originaldatensätzen (Kampagnen) angezeigt wird.
+   * **Verbindungstyp**: Wählen Sie eine der folgenden Optionen aus:
+      * **Viele zu viele**: Benutzer können eine Kampagne mit mehreren Produkten und ein Produkt mit mehreren Kampagnen verbinden.
+      * **1:n**: Benutzer können eine Kampagne mit mehreren Produkten und ein Produkt mit einer Kampagne verbinden.
+      * **Viele zu eins**: Benutzer können eine Kampagne mit einem Produkt und ein Produkt mit vielen Kampagnen verbinden.
+      * **Eins zu eins**: Benutzer können eine Kampagne mit einem Produkt und ein Produkt mit einer Kampagne verbinden.
+   * **Nur Objekte verknüpfen, die diesen Kriterien entsprechen**: Wählen Sie ein benutzerdefiniertes Formular aus dem Dropdownmenü **Benutzerdefiniertes Formular** aus. Nur Projekte, die mit den angegebenen Formularen verknüpft sind, können mit Kampagnen verbunden werden. Sie können mehrere Formulare auswählen.
    * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird als Nächstes das Feld **Suchfelder hinzufügen** geöffnet, damit Sie Projektfelder mit dem Kampagnen-Datensatztyp verknüpfen können. Sie können auf **Überspringen** klicken, um diesen Schritt zu überspringen und die Felder des Projekts später hinzuzufügen.
 
    ![](assets/new-connection-tab-with-workfront-option.png)

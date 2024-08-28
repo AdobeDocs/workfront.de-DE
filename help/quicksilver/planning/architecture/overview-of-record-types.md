@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Informationen zum Erstellen von Datensatztypen finden Sie unter [Erstellen von D
 * Wenn Sie einen Datensatztyp in einem von Ihnen erstellten Arbeitsbereich erstellen, können Sie den Datensatztyp in einem beliebigen Abschnitt platzieren, den Sie im Arbeitsbereich erstellen.
 * Wenn Sie einen Datensatztyp erstellen, können nur Sie und diejenigen, die Sie für den Zugriff auf den Arbeitsbereich berechtigen, den Datensatztyp anzeigen.
 * Sie müssen einen Arbeitsbereich erstellen, bevor Sie Datensatztypen für den Arbeitsbereich erstellen können.
-* Sie können in einem Arbeitsbereich insgesamt 1.000 Datensatztypen verwenden, unabhängig davon, wie viele Abschnitte der Arbeitsbereich umfasst. Dies umfasst Datensatztypen, die Sie von Grund auf neu erstellen oder die bei Verwendung einer Vorlage erstellt werden.
+* Einschränkungen hinsichtlich der Anzahl von Datensatztypen, die in einer Workspace- oder Workfront-Instanz verfügbar sind, finden Sie unter [Übersicht über die Objektbeschränkungen bei der Adobe Workfront-Planung](/help/quicksilver/planning/general/limitations-overview.md).
 
 
 <!--

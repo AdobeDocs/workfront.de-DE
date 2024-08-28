@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 1%
+source-wordcount: '1989'
+ht-degree: 2%
 
 ---
 
@@ -174,8 +174,6 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
 * **Workspace**: Eine Sammlung von Datensatztypen, die den Betriebslebenszyklus eines bestimmten Unternehmens definieren. Ein Arbeitsbereich ist der Arbeitsbereich einer Organisationseinheit.
 
-  Eine Workfront-Instanz kann über maximal 1.000 Arbeitsbereiche verfügen.
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
@@ -204,9 +202,15 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront Planning enthält eine Workspace-Vorlage für Vertrieb, Marketing und Produktverwaltung .
+  Adobe Workfront Planning enthält die folgenden Vorlagen:
 
-  Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+   * Allgemein: Marketing-Management
+   * Erweitert: Marketing-Management
+   * Unternehmen: Marketing-Management
+   * Sales Management
+   * Produktverwaltung
+
+  Weitere Informationen finden Sie unter [Liste der Workspace-Vorlagen](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 * **Felder**: Felder sind Attribute, die Sie zu Datensatztypen hinzufügen können. Felder enthalten Informationen zum Datensatztyp. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -293,7 +297,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
   Im Folgenden finden Sie Ansichtstypen, die Sie auf die Seite vom Typ Datensatz anwenden können:
 
-   * **Tabellenansicht**: Zeigt Datensätze und ihre Felder, einschließlich verbundener und Suchfelder, im Tabellenformat an. Die Tabellenzeilen enthalten die einzelnen Datensätze und die Spalten die Datensatzfelder. Dies ist die Standardansicht.
+   * **Tabellenansicht**: Zeigt Datensätze und deren Felder, einschließlich Verbindungs- und Suchfelder, im Tabellenformat an. Die Tabellenzeilen enthalten die einzelnen Datensätze und die Spalten die Datensatzfelder. Die Tabellenansicht ist die Standardansicht.
 
      ![](assets/table-view-example.png)
 
