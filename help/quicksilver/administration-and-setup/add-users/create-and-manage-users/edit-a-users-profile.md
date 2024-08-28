@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3336'
 ht-degree: 0%
 
 ---
@@ -111,8 +111,10 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td role="rowheader">Einstellungen </td> 
       <td> 
        <ul> 
-      <li> <p><b>Zeitzone:</b> Die Zeitzone des Benutzers.</p> <p>Informationen dazu, wie Sie Benutzer bei der Zusammenarbeit in Workfront über Zeitzonen hinweg unterstützen, finden Sie unter <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeiten über Zeitzonen hinweg</a>.</p> </li> 
-       <li><b>E-Mail-Gebietsschema</b>: Das bevorzugte E-Mail-Gebietsschema des Benutzers. Dies wirkt sich auf das Zahlenformat und das Datumsformat der E-Mails aus, die von Workfront an diesen Benutzer gesendet werden.</li>
+      <li> <p><b>Zeitzone:</b> Die Zeitzone des Benutzers.</p> <p>Informationen dazu, wie Sie Benutzer bei der Zusammenarbeit in Workfront über Zeitzonen hinweg unterstützen, finden Sie unter <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeiten über Zeitzonen hinweg</a>.</p> </li>
+
+   <li><p><b>E-Mail-Gebietsschema</b>: Das bevorzugte E-Mail-Gebietsschema des Benutzers. Dies wirkt sich auf das Zahlenformat und das Datumsformat der E-Mails aus, die von Workfront an diesen Benutzer gesendet werden.</p>
+      <p><b>HINWEIS:</b> Wenn sich Ihr Unternehmen auf dem Adobe Unified Experience befindet, werden die Sprachvoreinstellungen des Benutzers in seinem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Informationen zum Zugriff auf diese Voreinstellungen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li>
 
    <li><b>E-Mails von dieser Testumgebung erhalten</b>: Aktivieren Sie diese Option, wenn Sie E-Mail-Benachrichtigungen von der Umgebung erhalten möchten, in der Sie derzeit angemeldet sind.
       <p><b>NOTIZ</b></p>

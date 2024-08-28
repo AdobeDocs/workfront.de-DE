@@ -4,11 +4,11 @@ navigation-topic: get-started-with-workfront
 title: Unterstützte Sprachen in Adobe Workfront
 description: Sie können die Sprache ändern, in der Sie Adobe Workfront und E-Mails aus Workfront anzeigen, indem Sie die Spracheinstellungen in Ihrem Browser und Ihr standardmäßiges E-Mail-Gebietsschema in Workfront anpassen.
 feature: Get Started with Workfront
-author: Caroline
+author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ Die Browsersprache muss für einzelne Benutzer geändert werden.
 
 Weitere Informationen zur Sprachänderung Ihres Browsers finden Sie im Menü &quot;Hilfe&quot;.
 
-## Adobe Experience Cloud-Sprache ändern
+### Adobe Experience Cloud-Sprache ändern
 
 Wenn Ihr Unternehmen IMS verwendet, bestimmt Ihre Adobe Experience Cloud-Profilsprache die Sprache, die in Workfront angezeigt wird.
 
@@ -149,6 +149,10 @@ So ändern Sie das standardmäßige Workfront E-Mail-Gebietsschema:
 ### Gebietsschema der E-Mail für Benutzer ändern {#change-the-user-locale}
 
 Beim Ändern des Gebietsschemas für die E-Mail-Adresse von Benutzern ändern Sie das in den ausgehenden Nachrichten verwendete Sprache-, Datums- und Zahlenformat. Diese Einstellungen setzen die im Bereich &quot;Kundeninformationen&quot;der Einrichtung ausgewählten Systemeinstellungen außer Kraft.
+
+>[!NOTE]
+>
+>Wenn Ihr Unternehmen das Adobe Unified Experience verwendet, werden die Sprachvoreinstellungen in Ihrem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Siehe [Ändern der Adobe Experience Cloud-Sprache](#change-the-adobe-experience-cloud-language) in diesem Artikel.
 
 So ändern Sie das Gebietsschema Ihrer Benutzer-E-Mail:
 
