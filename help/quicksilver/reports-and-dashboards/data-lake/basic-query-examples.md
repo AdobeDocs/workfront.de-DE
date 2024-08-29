@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ In diesem Beispiel wird gezeigt, wie Sie eine Abfrage erstellen können, um Ihre
 
 ### Szenario:
 
-Ihr Unternehmen, PeopleSoft, verwendet ein benutzerdefiniertes Formular namens Finance Integration. Das Formular wird an jedes Projekt angehängt und enthält die folgenden Felder:
+Ihr Unternehmen, das ein benutzerdefiniertes Formular namens Finanzintegration verwendet. Das Formular wird an jedes Projekt angehängt und enthält die folgenden Felder:
 
-* **PeopleSoft Business Unit** - Ein benutzerdefiniertes Feld, das eine Zeichenfolge enthält.
-* **PeopleSoft ProjectID** - Ein benutzerdefiniertes Feld, das eine numerische Zeichenfolge enthält.
-* **Erweiterter Projektname** - Ein berechnetes benutzerdefiniertes Datenfeld, das die Werte von PeopleSoft Business Unit, PeopleSoft ProjectID und dem nativen Workfront-Projektnamen in einer einzigen Zeichenfolge verkettet.
+* **Business Unit** - Ein benutzerdefiniertes Feld, das eine Zeichenfolge enthält.
+* **ProjectID** - Ein benutzerdefiniertes Feld, das eine numerische Zeichenfolge enthält.
+* **Erweiterter Projektname** - Ein berechnetes benutzerdefiniertes Datenfeld, das die Werte der Geschäftseinheit, der Projekt-ID und des nativen Workfront-Projektnamen in einer einzigen Zeichenfolge verkettet.
 
 Sie müssen diese Informationen in die Antwort für eine Abfrage gegen Data Connect aufnehmen. Benutzerdefinierte Datenwerte für einen Datensatz im Data Lake sind in einer Spalte mit dem Titel `parameterValues` enthalten. Diese Spalte wird als JSON-Objekt gespeichert.
 
@@ -40,8 +40,8 @@ SELECT
     projectid,
     parametervalues,
     name,
-    parametervalues:"DE:PeopleSoft Business Unit" :: int as PeopleSoftBusinessUnit,
-    parametervalues:"DE:PeopleSoft Project ID" :: int as PeopleSoftProjectID,
+    parametervalues:"DE:Business Unit" :: int as BusinessUnit,
+    parametervalues:"DE:Project ID" :: int as ProjectID,
     parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
 FROM PROJECTS_CURRENT
 WHERE ExpandedProjectName is not null
@@ -54,8 +54,8 @@ Die obige Abfrage gibt die folgenden Daten zurück:
 * `projectid` - die native Workfront-Projekt-ID
 * `parametervalues` - eine Spalte, die ein JSON-Objekt speichert
 * `name` - der native Workfront-Projektname
-* `PeopleSoft Business Unit` - ein benutzerdefinierter Datenwert, der im `parametervalues` -Objekt enthalten ist
-* `PeopleSoft Project ID` - ein benutzerdefinierter Datenwert, der im `parametervalues` -Objekt enthalten ist
+* `Business Unit` - ein benutzerdefinierter Datenwert, der im `parametervalues` -Objekt enthalten ist
+* `Project ID` - ein benutzerdefinierter Datenwert, der im `parametervalues` -Objekt enthalten ist
 * `Expanded Project Name` - ein benutzerdefinierter Datenwert, der im `parametervalues` -Objekt enthalten ist
 
 <!--## Task query 

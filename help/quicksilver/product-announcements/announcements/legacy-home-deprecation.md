@@ -5,9 +5,9 @@ title: Handbuch zur veralteten Homepage-Einstellung
 description: Diese Seite enthält Informationen über die bevorstehende Einstellung der alten Homepage.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Wir empfehlen Administratoren:
 
 1. Weisen Sie den Rest Ihrer Benutzer dem neuen Layout der Startseite zu.
 
-Dadurch erhalten Ihre Benutzer so bald wie möglich Zeit, sich an das neue Erlebnis anzupassen und ihre neuen Startseiten an ihre individuellen Bedürfnisse anzupassen.
+Dadurch erhalten Ihre Benutzer so bald wie möglich Zeit, sich an das neue Erlebnis anzupassen und ihre neuen Startseiten an ihre individuellen Bedürfnisse anzupassen. Unter [Entfernen, Hinzufügen und Neuanordnen von Widgets auf der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) finden Sie Informationen dazu, wie Benutzer die Widgets auf ihrer eigenen neuen Startseite anpassen können.
 
 ### Befolgen Sie die Entwicklung des Starterlebnisses.
 
@@ -74,7 +74,7 @@ Nein, es wird vollständig aus der Anwendung entfernt.
 
 Beinahe mit Ausnahme von:
 
-* Kalender, der derzeit auf unserer Roadmap für das neue Heim liegt.
+* Kalender, der sich derzeit auf unserem Fahrplan für Prioritäten befindet.
 
 * Die Anzeige von Zeitstempeln für Fälligkeitsdaten von Objekten ist derzeit nicht verfügbar.
 

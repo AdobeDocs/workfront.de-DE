@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
+source-git-commit: 41fe217aee733e8382416366542845d90c1b10fd
 workflow-type: tm+mt
-source-wordcount: '14353'
+source-wordcount: '14358'
 ht-degree: 2%
 
 ---
@@ -438,8 +438,8 @@ ht-degree: 2%
          * [Neues Kommentierungserlebnis](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Neue Kommentarerlebnis-Release-Aktivität](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Häufig gestellte Fragen zu neuen Kommentaren](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront Data Lake beta {#data-lake-beta}
-         * [Workfront Data Lake-Beta-Informationen](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+      * Workfront Data Connect-Beta {#data-lake-beta}
+         * [Beta-Informationen zu Workfront Data Connect](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration und Einrichtung {#administration-and-setup}
    * [Administration und Einrichtung: Artikelindex](administration-and-setup/administration-and-setup.md)
    * Erste Schritte mit Administration {#get-started-administration}
@@ -502,6 +502,7 @@ ht-degree: 2%
          * [Übersicht über die Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
          * [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+         * [Zurücksetzen eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
          * [Umgebungsförderung mit der API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
          * [Häufig gestellte Fragen zur Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
          * [Fehlerbehebung bei der Umgebungswerbung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
@@ -1733,12 +1734,12 @@ ht-degree: 2%
       * [Anzeigen der Visualisierung der Projektaktivität in der erweiterten Analyse](enhanced-analytics/project-activity-overview.md)
       * [Anzeigen der Projekt-Treemap-Visualisierung in Enhanced Analytics](enhanced-analytics/project-treemap-overview.md)
       * [Anzeigen der Aktivitätsvisualisierung nach Team in Enhanced Analytics](enhanced-analytics/activity-by-team-overview.md)
-   * Workfront Data Lake {#data-lake}
-      * [Workfront Data Lake - Übersicht](reports-and-dashboards/data-lake/data-lake-overview.md)
+   * Workfront Data Connect {#data-lake}
+      * [Übersicht über Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Leserkonto erstellen](reports-and-dashboards/data-lake/create-a-reader-account.md)
-      * [Herstellen einer Verbindung zum Workfront Data Lake](reports-and-dashboards/data-lake/share-data-externally.md)
-      * [Workfront Data Lake-Datenwörterbuch](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [Grundlegende Workfront Data Lake-Abfragebeispiele](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Herstellen einer Verbindung zu Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
+      * [Datenwörterbuch zu Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Workfront Data Connect-Abfragebeispiele](reports-and-dashboards/data-lake/basic-query-examples.md)
 * Verwalten von Ressourcen {#manage-resources}
    * [Ressourcen verwalten](resource-mgmt/manage-resources.md)
    * Ressourcen-Management {#resource-management}
