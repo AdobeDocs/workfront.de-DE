@@ -1,5 +1,5 @@
 ---
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 5ea52fd7843a8e202980ed03d2e87953c7726f35
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 1%
@@ -349,7 +349,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 ## Neueste DPV-Version {#latest-version}
 
-**Neueste Version**: 2.1.35 ab dem 04.07.2024
+**Neueste Version**: 2.1.36 ab 29.08.2024
 
 <!-- Release -->
 
