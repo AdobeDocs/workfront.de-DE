@@ -3,9 +3,10 @@ title: Liste der Workspace-Vorlagen
 description: Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Adobe Workfront Planning verfügt über eine Reihe von Vorlagen, mit denen Sie beim Erstellen Ihres Arbeitsbereichs mit grundlegenden Datensatztypen und Feldern beginnen können.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%

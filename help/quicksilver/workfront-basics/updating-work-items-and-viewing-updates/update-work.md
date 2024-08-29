@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '3007'
 ht-degree: 0%
 
 ---
@@ -378,7 +378,7 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    1. Klicken Sie in der Aktualisierung auf die Stelle, an der Sie einen Link einfügen möchten.
    1. Klicken Sie in der Symbolleiste **Rich Text** auf das Symbol **Hyperlink** ![](assets/link-icon.png).
 
-   1. Geben Sie im angezeigten Feld **Link erstellen** unter **URL** die URL der Quelle ein oder fügen Sie sie ein.
+   1. Geben oder fügen Sie in das Feld **Link erstellen** unter **URL** die URL der Quelle ein, mit der Sie eine Verknüpfung herstellen möchten.
 
    1. Geben Sie unter &quot;**Text für die Anzeige**&quot;den Link-Text ein oder fügen Sie ihn ein.
    1. Klicken Sie auf **Speichern**.
@@ -386,7 +386,7 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um ein Bild an Ihre Aktualisierung anzuhängen:
 
    * Speichern Sie das Bild auf unserem Computer und ziehen Sie es in den Bereich Neuer Kommentar .
-   * Kopieren Sie einen Screenshot von Ihrem Computer und fügen Sie ihn dann in den Kommentar ein.<!-- This is not available in the legacy commenting experience.-->
+   * Kopieren Sie einen Screenshot von Ihrem Computer und fügen Sie ihn dann in den Kommentar ein.
    * Klicken Sie auf das Symbol **Bild hinzufügen** ![](assets/add-image-mountain-with-plus-icon.png) und navigieren Sie zum Bild auf Ihrem Computer.
 
 
@@ -399,7 +399,8 @@ Sie können Ihre Aktualisierungen durch Verwendung von Rich Text oder durch Hinz
    >* Der Workfront-Administrator muss das Hinzufügen von Bildern im Abschnitt &quot;Voreinstellungen für Feeds aktualisieren&quot;der Workfront-Benutzeroberfläche aktivieren, bevor die Symbole Bild oder Anhang hinzufügen angezeigt werden. Weitere Informationen finden Sie unter [Konfigurieren von Voreinstellungen für Benutzeraktualisierungen](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Die maximale Bilddateigröße beträgt 7 MB. Unterstützte Bilddateitypen sind .jpg, .gif und .png.
    >* Auf Bilder kann über den Abschnitt Updates eines Objekts zugegriffen werden. Sie sind auch im Bereich Dokumente unter dem Hauptmenü verfügbar.
-   >* Sie können das Bild einfügen, indem Sie mit der rechten Maustaste auf den neuen Kommentar klicken oder indem Sie Strg + V für Windows (oder für Mac) auf die Tastatur drücken.
+   >Sie können einen Screenshot von Ihrem Computer mithilfe einer Tastenkombination oder z. B. mit der Druckbildfunktion (auf Windows-Computern) kopieren.
+   >* Sie können das Bild einfügen, indem Sie mit der rechten Maustaste auf den neuen Kommentar klicken und dann auf **Einfügen** klicken, oder indem Sie Strg + V für Windows (bzw. bei Mac auf die Schaltfläche GHz + V drücken).
    >* Sie können ein Update mit einem Bild und ohne Text senden.
    >* Wenn Sie einen Kommentar löschen, der ein Bild enthält, wird das Bild sowohl aus dem Abschnitt &quot;Aktualisierungen&quot;als auch aus dem Bereich &quot;Dokumente&quot;entfernt. Das Bild wird auch aus dem Bereich &quot;Dokumente&quot;gelöscht, wenn Sie einen Kommentar bearbeiten und das Bild löschen.
    >* Wenn jemand ein Bild löscht, das mit einem Kommentar verknüpft ist, wird es auch aus dem Kommentar entfernt.

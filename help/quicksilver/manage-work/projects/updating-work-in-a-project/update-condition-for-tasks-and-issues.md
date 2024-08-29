@@ -6,7 +6,7 @@ description: Die Bedingung einer Aufgabe oder eines Problems ist eine Markierung
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Die Bedingungswerte, auf die wir in diesem Artikel verweisen, sind standardmäß
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Anzeigen oder höherer Berechtigungen für Aufgaben und Probleme zur Anzeige ihrer Bedingung</p>
-   <p>Verwalten von Berechtigungen für Aufgaben und Probleme zum Aktualisieren der Bedingung</p>
+   <p>Contribute-Berechtigungen für Aufgaben und Probleme beim Aktualisieren der Bedingung</p>
   </td> 
   </tr> 
  </tbody> 

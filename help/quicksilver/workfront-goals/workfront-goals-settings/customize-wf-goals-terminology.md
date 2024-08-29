@@ -6,35 +6,31 @@ description: Ein Workfront- oder Gruppenadministrator kann die Namen von Objekte
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '221'
 ht-degree: 1%
 
 ---
 
 # Terminologie für Adobe Workfront-Ziele anpassen
 
-Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
-
-* Für den aktuellen Plan und die Lizenzstruktur:
-
-   * Pro oder höher [Adobe Workfront-Plan](https://www.workfront.com/plans).
-   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
-
-* Für den neuen Plan und die Lizenzstruktur:
-
-   * Ein ultimativer Plan
-
-     Oder
-
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne.
-
-Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
-
-Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+>[!IMPORTANT]
+>
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>
+>* Für den neuen Plan und die Lizenzstruktur:
+>
+>   * Der ultimative Workfront-Plan
+>    
+>* Für den aktuellen Plan und die Lizenzstruktur:
+>
+>   * Workfront-Abo mit Pro oder höher
+>   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>
+>Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+> 
+>Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Ein Workfront- oder Gruppenadministrator kann die Namen von Objekten in Workfront Goals so anpassen, dass sie der Terminologie Ihres Unternehmens besser entsprechen.
 

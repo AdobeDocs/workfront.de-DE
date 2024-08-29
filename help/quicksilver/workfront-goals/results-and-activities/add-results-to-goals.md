@@ -7,9 +7,9 @@ description: Ergebnisse messen den Fortschritt eines Ziels. Ohne die Zuordnung v
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '587'
 ht-degree: 3%
 
 ---
@@ -32,9 +32,8 @@ Sie müssen über Folgendes verfügen:
    <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td> 
    <p>Für den neuen Plan und die Lizenzstruktur:
-  <ul><li>Ein ultimativer Plan </li>
-  Oder
-  <li>Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. </li></ul> </p>
+  <ul><li>Ein ultimativer Plan </li></ul>
+   </p>
 <p>Für den aktuellen Plan und die Lizenzstruktur: 
 <ul><li> A Pro oder höher </li>
   <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>

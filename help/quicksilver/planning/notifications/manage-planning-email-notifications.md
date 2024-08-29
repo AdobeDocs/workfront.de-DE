@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -24,8 +24,8 @@ Sie können E-Mail-Benachrichtigungen von der Workfront-Planung erhalten, wenn d
 
   Weitere Informationen zum Tagging anderer Kommentare in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
 * Jemand bittet um Ihre Erlaubnis, auf eine Ansicht oder einen Arbeitsbereich zuzugreifen
-* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen Arbeitsbereich gewährt wurde <!--verify this-->
-* Jemand hat Ihnen den Zugriff auf eine Ansicht oder einen Arbeitsbereich verweigert. <!--verify this-->
+* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen Arbeitsbereich gewährt wurde <!--Isk confirmed that there is nno email for denying access but did not test-->
+
 
 ## Zugriffsanforderungen
 
@@ -63,7 +63,7 @@ Sie können E-Mail-Benachrichtigungen von der Workfront-Planung erhalten, wenn d
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
+<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein.</p> 
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -165,6 +165,10 @@ OLD:
 1. (Bedingt) Wenn verfügbar, klicken Sie auf **Alle Benachrichtigungen anzeigen**. <!--check with Lilit - do non-IMS users have this button??-->
 Die Seite **Benachrichtigungen** wird in Adobe Experience Cloud geöffnet. Alle Benachrichtigungen aus allen Adobe Experience Cloud-Anwendungen werden angezeigt.
 
-## Verwalten von E-Mail-Benachrichtigungen beim Anfordern, Gewähren oder Ablehnen von Berechtigungen für eine Ansicht oder einen Arbeitsbereich
+## Verwalten von E-Mail-Benachrichtigungen beim Anfordern und Gewähren von Berechtigungen
+
+Sie erhalten E-Mail-Benachrichtigungen, wenn jemand Ihnen Berechtigungen für eine Ansicht oder einen Arbeitsbereich erteilt.
 
 Informationen zum Anfordern, Gewähren oder Ablehnen von Berechtigungen für eine Ansicht oder einen Arbeitsbereich finden Sie unter [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](/help/quicksilver/planning/access/request-permissions.md).
+
+Informationen zum Verwalten von Workfront-Planungs-Benachrichtigungen finden Sie unter [Voreinstellungen für Adobe Workfront-Planungs-Benachrichtigungen verwalten](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

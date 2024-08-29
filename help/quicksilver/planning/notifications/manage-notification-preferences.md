@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Sie können In-App- oder E-Mail-Benachrichtigungen erhalten, wenn die folgenden 
 
 * Jemand fügt Ihnen einen Kommentar auf der Datensatzseite hinzu
 * Jemand bittet um Zugriff auf eine Ansicht oder einen Arbeitsbereich
-* Jemand gewährt oder verweigert Ihnen Zugriff auf eine Ansicht oder einen Arbeitsbereich <!--test this - could not test before GA-->
+* Jemand gewährt Ihnen Zugriff auf eine Ansicht oder einen Arbeitsbereich <!--I could not test this but Isk confirmed-->
 
 ## Zugriffsanforderungen
 
@@ -62,7 +62,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
+<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein.</p> 
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ Heben Sie die Auswahl der Benachrichtigungen auf, die nicht mehr empfangen werde
 1. Die folgenden Benachrichtigungen sind für Workfront verfügbar:
 
    * **Erwähnungen**: Sie erhalten eine Benachrichtigung, wenn jemand Sie in Workfront Planning mit einem Kommentar markiert
-   * **Anforderungen**: Sie erhalten eine Benachrichtigung, wenn jemand eine Berechtigung für ein Workfront Planning-Objekt anfordert.
+   * **Anforderungen**: Sie erhalten eine Benachrichtigung, wenn ein Benutzer Sie um Berechtigungen für ein Workfront Planning-Objekt bittet oder ihm Berechtigungen erteilt
 
    Weitere Informationen zum Verwalten von Benachrichtigungen finden Sie unter [Kontovoreinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

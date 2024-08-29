@@ -1,42 +1,35 @@
 ---
 title: Anfordern von Berechtigungen für eine Ansicht oder eine Workspace
-description: Sie können Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern, denen andere Benutzer einen Link geschickt haben, zu dem Sie zuvor noch nicht freigegeben haben.
+description: Wenn jemand einen Link zu einer Ansicht oder einem Arbeitsbereich weitergibt, auf die bzw. den Sie keinen Zugriff haben, können Sie Berechtigungen anfordern, um sie öffnen zu können. In diesem Artikel werden die Schritte erläutert, mit denen Sie den Zugriff auf eine Ansicht oder einen Arbeitsbereich anfordern können, wenn ein freigegebener Link auftritt, der nicht geöffnet werden kann.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
-
 # Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich
 
-Sie können Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern, denen andere Benutzer einen Link geschickt haben, zu dem Sie zuvor noch nicht freigegeben haben.
+Sie können Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern, wenn jemand einen Link mit Ihnen teilt, der die Ansicht oder den Arbeitsbereich betrifft, auf den Sie keinen Zugriff haben.
 
 Das Anfordern von Berechtigungen für eine Ansicht ähnelt dem Anfordern von Berechtigungen für einen Arbeitsbereich.
+
+In diesem Artikel wird beschrieben, wie Sie den Zugriff auf eine Ansicht oder einen Arbeitsbereich anfordern, wenn jemand einen Link mit Ihnen teilt und Sie nicht auf die freigegebene Seite zugreifen können.
+
+Informationen zum Gewähren von Berechtigungen für Ansichten und Arbeitsbereiche finden Sie in den folgenden Artikeln:
+
+* [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
+* [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
@@ -128,10 +121,6 @@ Wenn jemand einen Link zu einem Arbeitsbereich oder einer Ansicht ohne Zugriff m
    * Eine E-Mail-Benachrichtigung
      ![](assets/email-notification-for-access-request.png)
 
-   Informationen zum Gewähren von Berechtigungen für Ansichten und Arbeitsbereiche finden Sie in den folgenden Artikeln:
-
-   * [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
-   * [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Bedingt) Wenn Ihnen der Ansicht- oder Arbeitsbereichsmanager Berechtigungen für die Ansicht oder den Arbeitsbereich erteilt, erhalten Sie eine E-Mail-Benachrichtigung und eine In-App-Benachrichtigung mit einer Bestätigung, dass die Berechtigung erteilt wurde. <!--check this - I was not able to test this-->
+1. (Bedingt) Wenn Ihnen der Ansicht- oder Arbeitsbereichsmanager Berechtigungen für die Ansicht oder den Arbeitsbereich erteilt, erhalten Sie eine E-Mail-Benachrichtigung und eine In-App-Benachrichtigung mit einer Bestätigung, dass die Berechtigung erteilt wurde. <!--check this - I was not able to test this, but Isk confirmed.-->
 
 

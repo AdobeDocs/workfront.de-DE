@@ -6,10 +6,10 @@ description: Der Zielfortschritt wird von Fortschrittsindikatoren wie Aktivität
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 0%
 
 ---
 
@@ -35,12 +35,6 @@ Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront 
 Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront berechnet den Zielfortschritt anhand der Fortschrittsanzeigen automatisch.
-
-## Voraussetzungen
-
-Sie müssen über Folgendes verfügen, bevor Sie beginnen können:
-
-* Eine Layout-Vorlage, die den Bereich Ziele im Hauptmenü enthält.
 
 ## Übersicht über den Zielfortschritt und die Schwelle
 

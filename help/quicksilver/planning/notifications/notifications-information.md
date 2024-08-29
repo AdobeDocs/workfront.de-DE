@@ -1,14 +1,14 @@
 ---
 title: "Adobe Workfront Planning Notifications: Article Index"
-description: Wenn Sie von jemandem in einem Datensatzkommentar markiert werden, erhalten Sie möglicherweise E-Mail- oder In-App-Benachrichtigungen zu diesem Tag. Die Art der Benachrichtigungen, die Sie erhalten, hängt davon ab, ob Ihr Unternehmen Adobe Unified Experience-Kunde ist oder nicht. In den folgenden Artikeln wird beschrieben, welche Art von Workfront-Planungs-Benachrichtigungen Sie erhalten können und wie Sie Ihre Voreinstellungen verwalten.
+description: Sie können eine E-Mail oder eine In-App-Benachrichtigung erhalten, wenn jemand Sie in einem Datensatzkommentar markiert oder Sie um Berechtigungen für eine Ansicht oder einen Arbeitsbereich bittet oder ihnen erteilt. In den folgenden Artikeln wird beschrieben, welche Art von Workfront-Planungs-Benachrichtigungen Sie erhalten können und wie Sie Ihre Benachrichtigungseinstellungen verwalten.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Wenn Sie von jemandem in einen Datensatzkommentar getaggt werden, erhalten Sie möglicherweise eine E-Mail oder eine In-App-Benachrichtigung für dieses Tag.
-
-Die Art der Benachrichtigungen, die Sie erhalten, hängt davon ab, ob Ihr Unternehmen Adobe Unified Experience-Kunde ist oder nicht.
+Sie können eine E-Mail oder eine In-App-Benachrichtigung erhalten, wenn jemand Sie in einem Datensatzkommentar markiert oder Sie um Berechtigungen für eine Ansicht oder einen Arbeitsbereich bittet oder ihnen erteilt.
 
 In den folgenden Artikeln wird beschrieben, welche Art von Workfront-Planungs-Benachrichtigungen Sie erhalten können und wie Sie Ihre Voreinstellungen verwalten:
 

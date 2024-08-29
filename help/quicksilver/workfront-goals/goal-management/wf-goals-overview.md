@@ -7,9 +7,9 @@ description: Workfront Goals hilft Ihnen bei der Definition, Kommunikation und E
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
 >
 >Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
-
+> 
+>Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Workfront Goals hilft Ihnen bei der Definition, Kommunikation und Erzielung strategischer Ergebnisse, indem es eine Strategie mit der Ausführung und dem Versand von Nachrichten verbindet. Sie können die Bemühungen aller auf das konzentrieren, was wirklich wichtig ist, Fortschritte messbar machen und Teams in die Lage versetzen, erstaunliche Ergebnisse zu erzielen. Menschen können ihre beste Arbeit verrichten, wenn sie wissen, dass ihre Beiträge einen sinnvollen Einfluss haben.
 
@@ -42,9 +43,9 @@ Weitere Informationen zu Best Practices für die Verwendung von Workfront-Zielen
 >
 >Strategische Ziele, die Sie mit Workfront-Zielen verwalten, sollten nicht mit Zielen auf Projektebene verwechselt werden, die Teil des Geschäftsszenarios des Projekts sind. Weitere Informationen zu Zielen auf Projektebene finden Sie unter [Erstellen von Geschäftsfallzielen](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
-## In Workfront-Zielen enthaltene Funktionen
+## Funktionen für Workfront-Ziele
 
-Die folgende Funktion ist derzeit in Workfront Goals enthalten:
+Die folgenden Funktionen sind in den Workfront-Zielen enthalten:
 
 * Erstellen Sie vierteljährliche oder jährliche Ziele und weisen Sie sie Benutzern, Teams, Gruppen oder Ihrer Organisation zu. Sie können auch Zielzeitpläne anpassen.
 

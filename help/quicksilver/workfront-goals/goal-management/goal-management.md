@@ -8,29 +8,30 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 # Zielverwaltung in Adobe Workfront Goals
 
-Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
-
-* Für den neuen Plan und die Lizenzstruktur:
-
-   * Ein ultimativer Plan
-
-     Oder
-
-     Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
-
-* Für den aktuellen Plan und die Lizenzstruktur:
-
-   * A Pro oder höher
-   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>[!IMPORTANT]
+>
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>
+>* Für den neuen Plan und die Lizenzstruktur*:
+>
+>   * Ein ultimativer Plan
+>    
+>* Für den aktuellen Plan und die Lizenzstruktur:
+>
+>   * A Pro oder höher
+>   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>
+>*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+>
 
 Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 
