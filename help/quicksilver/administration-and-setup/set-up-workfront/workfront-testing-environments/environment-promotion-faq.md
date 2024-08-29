@@ -8,10 +8,10 @@ description: Erfahren Sie mehr über die häufig gestellten Fragen zur Workfront
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Die domänenübergreifende Förderung von Umgebungen wird derzeit nicht unterst�
 
 ### Antwort
 
-Nein. Die Umgebungsförderung ist sowohl für IMS-fähige als auch für Nicht-IMSWorkfront-Instanzen verfügbar.
+Nein. Die Umgebungsförderung ist sowohl für IMS-fähige als auch für Nicht-IMS-Workfront-Instanzen verfügbar.
 
 ## Wie können wir feststellen, ob unsere Workfront-Instanz über eine Prime- oder Ultimate-Lizenz verfügt?
 
@@ -73,4 +73,3 @@ Das Rollback hat oberste Priorität und befindet sich derzeit in der Entwicklung
 * &quot;Vorhandene verwenden&quot;entspricht &quot;Überspringen&quot;oder Ignorieren der Bereitstellung, da sie dem vorhandenen Objekt in der Zielumgebung zugeordnet ist und keine Änderungen vornimmt.
 * Um Objekte zu überspringen, wird empfohlen,
 Alle Objekte, die Sie nicht über das Promotion-Paket oder direkt aus der Quellumgebung installieren möchten. Nachdem Sie die Objekte entfernt haben, assemblieren Sie das Paket neu.
-
