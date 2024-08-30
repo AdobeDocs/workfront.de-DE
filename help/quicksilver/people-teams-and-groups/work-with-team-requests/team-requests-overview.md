@@ -2,12 +2,12 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Übersicht über Teamanfragen
+title: Übersicht über Teamanforderungen
 description: Team-Anfragen finden Sie im Bereich Teams im Hauptmenü.
 author: Lisa
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

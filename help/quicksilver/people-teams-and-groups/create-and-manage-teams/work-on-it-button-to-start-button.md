@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Ersetzen der Schaltfläche "Work On It"durch die Schaltfläche Start
+title: Ersetzen Sie die Schaltfläche "Arbeiten auf diesem Gerät"durch eine Schaltfläche "Starten".
 description: Die Standardkonfiguration von Adobe Workfront enthält eine Schaltfläche "Bearbeiten", die Aufgaben und Probleme enthält, die für Elemente angezeigt werden, denen Sie zugewiesen wurden.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -25,26 +25,31 @@ Sie können die Schaltfläche [!DNL Work On It] durch eine Schaltfläche [!UICON
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Plan</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Neu: Standard</p>
+   <p>oder</p>
+   <p>Aktuell: Plan</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Konfigurieren der Schaltfläche [!UICONTROL Start]
 
@@ -66,7 +71,7 @@ Wenn Sie über eine [!UICONTROL Plan] -Lizenz verfügen, können Sie die Schaltf
 
 So konfigurieren Sie die Schaltfläche Start :
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in Adobe Workfront und klicken Sie dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+{{step1-to-team}}
 
 1. Wählen Sie im Dropdownmenü **[!UICONTROL Teams]** ein Team aus.\
    oder\
@@ -87,9 +92,9 @@ So konfigurieren Sie die Schaltfläche Start :
 
 So verknüpfen Sie Benutzer mit einem Home-Team:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront].
+{{step-1-to-users}}
 
-1. Klicken Sie auf **[!UICONTROL Benutzer]** und wählen Sie dann den Benutzer aus, den/die Sie mit einem Home-Team verbinden möchten.
+1. Wählen Sie den oder die Benutzer aus, die Sie mit einem Home-Team verbinden möchten.
 1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.\
    ![](assets/user-settings-nwe-350x291.png)
 

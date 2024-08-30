@@ -1,14 +1,14 @@
 ---
 product-area: user-management
 navigation-topic: collaboration
-title: Organigramm anzeigen
+title: Organizations-Diagramm anzeigen
 description: Mit der Organisationsdiagrammfunktion können Sie die mit einem bestimmten Adobe Workfront-Benutzer verknüpfte Organisationstabelle anzeigen. Organizative Diagramme eignen sich hervorragend, um die Struktur einer bestimmten Abteilung zu visualisieren.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,35 @@ Mit der Organisationsdiagrammfunktion können Sie die mit einem bestimmten [!DNL
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Neu: Licht oder höher</p>
+   <p>oder</p>
+   <p>Aktuell: Überprüfen oder höher</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Organigramm eines Benutzers suchen
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und klicken Sie dann auf Ihren Benutzernamen neben Ihrem Profilbild.![](assets/main-menu-icon.png)
+{{step1-click-profile-pic}}
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Org Chart]**.\
    ![Organisationsdiagramm](assets/org-chart.png)

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Verwalten von Arbeits- und Teamanfragen
+title: Verwalten von Arbeits- und Team-Anforderungen
 description: Eine Anfrage stellt eine ausstehende Aufgabe oder Problemzuweisung dar. Arbeitsanfragen werden an Einzelpersonen gesendet und Team-Anfragen werden an Teams gesendet.
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -24,26 +24,36 @@ Eine Anfrage stellt eine ausstehende Aufgabe oder Problemzuweisung dar. Arbeitsa
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Überprüfen oder höher, um eine Anforderung zuzuweisen oder zu bearbeiten; mindestens arbeiten, um eine Anforderung neu zuzuweisen</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>So weisen Sie eine Anforderung zu oder bearbeiten sie sie:
+   <p>Neu: Licht oder höher</br>
+    oder</br>
+   Aktuell: Überprüfen oder höher</p>
+   <p>So weisen Sie eine Anforderung erneut zu:
+   <p>Neu: Standard</br>
+    oder</br>
+   Aktuell: Arbeit oder höher</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Zuweisen einer Anforderung zu einem Team {#assign-a-request-to-a-team}
 
@@ -64,7 +74,7 @@ Sie können eine Anforderung manuell über die Team-Seite einem Team zuweisen, w
 
 So weisen Sie einem Team manuell über die Team-Seite eine Anforderung zu:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+{{step1-to-team}}
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
 
@@ -80,7 +90,8 @@ So weisen Sie einem Team manuell über die Team-Seite eine Anforderung zu:
 
 Sie können Anforderungen, die Ihrem Team zugewiesen wurden, neu zuweisen:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Teams]**.![](assets/main-menu-icon.png)
+{{step1-to-team}}
+
 1. Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
 1. Wählen Sie im linken Navigationsbereich **[!UICONTROL Team Requests]** aus.
 1. Klicken Sie auf das Symbol **[!UICONTROL Neu zuweisen]** .

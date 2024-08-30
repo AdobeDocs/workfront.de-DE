@@ -7,16 +7,18 @@ description: Lesen Sie diese Tipps, wenn Sie eine Fehlermeldung erhalten, dass d
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
 
-# Benutzername bereits in Verwendung
+# Benutzername bereits verwendet
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -24,20 +26,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
-   <td> <p>Alle</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Neu: Standard</p>
+   <p>oder</p>
+   <p>Aktuell: Plan</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td> 
-   <td> <p>[!UICONTROL Systemadministrator]</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Systemadministrator</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Frage
 
@@ -57,7 +66,8 @@ Dies kann auftreten, weil der Benutzername oder die E-Mail-Adresse in der aktuel
 
 Stellen Sie sicher, dass Benutzername und E-Mail-Adresse in der aktuellen [!DNL Workfront]-Instanz eindeutig sind:
 
-1. Klicken Sie als [!DNL Workfront] -Administrator auf das Symbol **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Benutzer]**.
+{{step-1-to-users}}
+
 1. Sehen Sie sich die Spalte **[!UICONTROL E-Mail]** in der Personenliste an, um sicherzustellen, dass keine doppelten E-Mails gesendet werden.
 1. Fügen Sie der Ansicht eine Spalte für den Benutzernamen hinzu.
 
