@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ In diesem Beispiel wird gezeigt, wie Sie eine Abfrage erstellen können, um Ihre
 
 ### Szenario:
 
-Ihr Unternehmen, das ein benutzerdefiniertes Formular namens Finanzintegration verwendet. Das Formular wird an jedes Projekt angehängt und enthält die folgenden Felder:
+Ihr Unternehmen verwendet ein benutzerdefiniertes Formular namens Finanzintegration. Das Formular wird an jedes Projekt angehängt und enthält die folgenden Felder:
 
 * **Business Unit** - Ein benutzerdefiniertes Feld, das eine Zeichenfolge enthält.
 * **ProjectID** - Ein benutzerdefiniertes Feld, das eine numerische Zeichenfolge enthält.

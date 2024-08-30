@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 >
 >| Monatliche Version | Quartalsversion |
 >|----|----|
->| <ul><li>24.8 (August 2024)</li><li>24.9 (September 2024)</li><li>24.10 Uhr (Oktober 2024)</li></ul> | <ul><li>24.10 Uhr (Oktober 2024)</li></ul> |
+>| <ul><li>24.8 (15. August 2024)</li><li>24.9 (12. September 2024)</li><li>24.10 Uhr (Oktober 2024)</li></ul> | <ul><li>24.10 Uhr (Oktober 2024)</li></ul> |
 >
 >Beachten Sie, dass für die endgültige Version jedes Quartals (24.10 in diesem Quartal) die Benutzer des Zeitplans für die schnelle Veröffentlichung die Version einen Tag früher erhalten.
 >
@@ -58,6 +58,25 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Weiterleiten von Umgebungs-Promotion-Paketen</a></p>
+                        <p>Um die Umgebungsförderung flexibler und benutzerfreundlicher zu gestalten, haben wir die Rollback-Funktion aktiviert. Jetzt können Sie Pakete innerhalb von 24 Stunden zurücksetzen, um frühere Konfigurationen, die von einem Umgebungs-Promotionpaket betroffen sind, leichter wiederherzustellen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 29. August 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (12. September 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (Oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Layout-Schaltfläche im benutzerdefinierten Formularentwickler erlaubt zwei oder drei Spalten</a></p>
                         <p>Mit der Schaltfläche "Layout"im benutzerdefinierten Formularentwickler können Sie aus einem zweispaltigen oder dreiseitigen Arbeitsbereich wählen. Der ursprüngliche Formularentwickler verwendet drei Spalten und die Feldeinstellungen werden in der Spalte ganz rechts angezeigt. Wenn Sie zwei Spalten auswählen, werden die Feldeinstellungen in der Spalte ganz links neben der Feldbibliothek angezeigt.</p>
                     </td>
@@ -67,7 +86,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p>Vorschau-Version: 12. August 2024</p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (September 2024)</p>
+                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (12. September 2024)</p>
                             </li>
                             <li>
                                 <p>Produktionsversion für alle Kunden: TBD</p>
@@ -192,6 +211,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium-Update für den Desktop Proofing Viewer</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Wir aktualisieren den Desktop Proofing Viewer, um Chromium 126.0.6478.127 zu unterstützen, das Probleme mit UI-Elementen in interaktiven Testsendungen behebt.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -217,6 +237,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Allgemeine Verfügbarkeit der Adobe Workfront-Planung</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Workfront Planning steht allen Kunden zur Verfügung, die zusätzlich zu ihrer Workfront-Lizenz eine Workfront Planning-Lizenz erworben haben. Weitere Informationen zur Workfront-Planung erhalten Sie von Ihrem Kundenbetreuer.</p>
                         <p>Die neuesten Informationen zur Workfront Planning-Version pro Quartal finden Sie unten im Abschnitt <a href="#workfront-planning-enhancements">Verbesserungen der Workfront-Planung</a> .</p>
                     </td>
@@ -231,6 +252,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI-Assistent in Workfront verfügbar</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Um Ihnen die Arbeit zu erleichtern, haben wir Adobe I Assistant zu Workfront hinzugefügt. Der KI-Assistent kann Sie bei Folgendem unterstützen:</p>
                         <ul>
                             <li>Zusammenfassung von Arbeitselementen und Dokumenten, sodass Sie schnell ein allgemeines Verständnis von Aufgaben, Projekten und Assets gewinnen können.</li>
