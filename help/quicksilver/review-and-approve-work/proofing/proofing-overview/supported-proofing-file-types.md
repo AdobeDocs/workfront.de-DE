@@ -7,9 +7,9 @@ description: Sie können verschiedene Dateitypen für Ihre Validierer freigeben 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,11 +181,8 @@ Workfront hat die folgenden Beschränkungen:
 > * PPSX - Microsoft PowerPoint-Bildschirmpräsentation
 > * XLT - Microsoft Excel-Vorlage
 > * XLTX - Microsoft Excel-Vorlage
-
->[!WARNING]
-> Der folgende statische Dateityp wird aufgrund eines Sicherheitsproblems vorübergehend nicht unterstützt:
->
 > * EPS - Encapsulated PostScript
+
 
 * AI - Adobe Illustrator Artwork
 * AIT - Adobe Illustrator-Vorlage
