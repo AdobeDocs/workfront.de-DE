@@ -2,14 +2,14 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-management-overview
-title: Erste Schritte mit der Ressourcenverwaltung
+title: Erste Schritte mit Resource Management
 description: Mit Resource Management können Sie Ihr System so konfigurieren, dass die Verwendung Ihrer Ressourcen auf der Grundlage ihrer Verfügbarkeit genau vorhergesagt wird, sodass die erforderliche Arbeit rechtzeitig und im Budget abgeschlossen wird.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ Die folgenden Benutzer haben Zugriff auf die Tools für die Ressourcenverwaltung
 Sie müssen einer der folgenden Benutzer sein und über die folgenden Zugriffsberechtigungen und Zugriffsberechtigungen für Ressourcen-Management-Tools verfügen:
 
 * Der Systemadministrator.
-* Ein Benutzer mit einer Planungslizenz.
+* Ein Benutzer mit einer Standard- oder Planlizenz.
 
   Ein Benutzer mit einer Work-Lizenz kann den Workload-Balancer eines Projekts verwenden und Zuweisungen und Zuordnungen verwalten.
 
-  Zusätzlich zur Lizenz für Work oder höher müssen Sie über Folgendes verfügen, um spezifische Tools für die Ressourcenverwaltung zu verwenden:
+  Zusätzlich zur Lizenz für Work oder höher (oder einer Standardlizenz) müssen Sie über Folgendes verfügen, um bestimmte Tools für die Ressourcenverwaltung verwenden zu können:
 
    * Zugriff auf die Ressourcenverwaltung bearbeiten (nicht erforderlich für Zuweisungen im Arbeitslastausgleich)
    * Zugriff auf Finanzdaten bearbeiten, um Kosteninformationen im Ressourcenplaner anzuzeigen
@@ -168,7 +168,6 @@ Sie müssen eine Reihe von Anforderungen erfüllen, bevor Sie die Tools zur Ress
 Informationen zu den Anforderungen für die einzelnen Ressourcenverwaltungstools in Workfront finden Sie unter folgenden Themen:
 
 * Der Abschnitt [Voraussetzungen für die Arbeit im Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) im Artikel [Überblick über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * Der Abschnitt [Best Practices für die Verwendung des Workload-Balancers](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) im Artikel [Übersicht über den Arbeitslastausgleich](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Zugriff erforderlich für Budgetressourcen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Der Zugriff, der zum Verwalten von Ressourcen im Lastenausgleich erforderlich ist](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: Verknüpfen von Ressourcen-Pools mit Benutzern
+title: Ressourcen-Pools Benutzern zuordnen
 description: Sie müssen einen Ressourcen-Pool erstellen, bevor Sie ihn mit Benutzern verknüpfen können. Sie können Benutzer bei der Erstellung Ihrer Ressourcen-Pools Ressourcen-Pools zuordnen.
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
@@ -33,38 +33,45 @@ Informationen zum Erstellen von Ressourcen-Pools finden Sie unter [Erstellen von
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Pro und höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td><p>Neu: Beliebig</p>
+       <p>oder</p>
+       <p>Aktuell: Pro und höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf die Ressourcenverwaltung bearbeiten, einschließlich Zugriff auf Ressourcen-Pools verwalten</p> <p>Zugriff auf Projekte, Vorlagen und Benutzer bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf die Ressourcenverwaltung bearbeiten, einschließlich Zugriff auf Ressourcen-Pools verwalten</p> <p>Zugriff auf Projekte, Vorlagen und Benutzer bearbeiten</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für die Projekte, Vorlagen und Benutzer, mit denen Sie die Ressourcenpools verknüpfen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td>Verwalten von Berechtigungen für die Projekte, Vorlagen und Benutzer, mit denen Sie die Ressourcenpools verknüpfen möchten</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Verknüpfen von Ressourcen-Pools mit einem Benutzer
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+{{step-1-to-users}}
 
-1. Klicken Sie auf **Benutzer**.
 1. Aktivieren Sie das Kontrollkästchen neben dem Namen eines Benutzers aus der Liste und klicken Sie dann auf **Bearbeiten**.
 1. Klicken Sie auf **Ressourcenplanung**.
 1. Geben Sie den Namen eines Ressourcenpools, den Sie mit dem Benutzer verknüpfen möchten, im Feld **Ressourcenpools** ein und wählen Sie ihn dann aus der Liste aus, wenn er angezeigt wird.\
@@ -83,9 +90,8 @@ Sie können mehrere Benutzer stapelweise bearbeiten und dieselben Ressourcen-Poo
 
 So verknüpfen Sie Ressourcenpools stapelweise mit mehreren Benutzern:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+{{step-1-to-users}}
 
-1. Klicken Sie auf **Benutzer**.
 1. Wählen Sie mehrere Benutzer in der Liste aus und klicken Sie auf **Bearbeiten**.
 1. Klicken Sie auf **Ressourcenplanung**.
 1. Geben Sie im Feld **Ressourcen-Pools** den Namen eines Ressourcenpools ein, den Sie den Benutzern zuweisen möchten, und wählen Sie ihn dann aus der Liste aus, wenn er angezeigt wird.\

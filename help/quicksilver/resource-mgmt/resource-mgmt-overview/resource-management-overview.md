@@ -2,16 +2,16 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: Ressourcenverwaltung
+title: Ressourcenverwaltung - Überblick
 description: Ressourcenmanagement ermöglicht es Ressourcenmanagern, geschäftliche Entscheidungen zu treffen, die sicherstellen, dass die heute verfügbaren Mitarbeiter mit der höchsten Priorität in den Haushalt aufgenommen werden. Obwohl es auf der Ebene der Job-Rolle beginnen kann, befasst sich das Resource Management letztendlich mit Benutzern und deren unzureichender Nutzung oder Überbindung.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 1%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 

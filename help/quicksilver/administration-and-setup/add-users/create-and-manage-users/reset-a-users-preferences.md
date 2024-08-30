@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -110,13 +110,25 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Voreinstellungen
 1. Wählen Sie **Anmelden als** aus.
 1. Geben Sie den Namen des Benutzers ein, dessen Voreinstellungen Sie zurücksetzen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 1. Wählen Sie **Anmelden** aus.
-1. Fügen Sie im Feld URL oben im Webbrowser `/resetUser` nach `workfront.com` hinzu.
+1. Wenn Ihr Unternehmen nicht in das Adobe Unified Experience integriert wurde, führen Sie diesen Schritt aus:
 
-   >[!NOTE]
-   >
-   >Dabei wird zwischen Groß- und Kleinschreibung unterschieden. Die U muss großgeschrieben werden, die übrigen Zeichen müssen in Kleinbuchstaben geschrieben werden. Beispiel:
-   >
-   >`https://company_domain.my.workfront.com/resetUser`
+   * Fügen Sie im Feld URL oben im Webbrowser `/resetUser` nach `workfront.com` hinzu.
+
+     >[!NOTE]
+     >
+     >Dabei wird zwischen Groß- und Kleinschreibung unterschieden. Die U muss großgeschrieben werden, die übrigen Zeichen müssen in Kleinbuchstaben geschrieben werden. Beispiel:
+     >
+     >`https://company_domain.my.workfront.com/resetUser`
+
+1. Wenn Ihr Unternehmen in das Adobe Unified Experience integriert wurde, führen Sie diesen Schritt aus:
+
+   * Fügen Sie im Feld URL oben im Webbrowser den Wert `/resetUser` nach `workfront` hinzu.
+
+     >[!NOTE]
+     >
+     >Dabei wird zwischen Groß- und Kleinschreibung unterschieden. Die U muss großgeschrieben werden, die übrigen Zeichen müssen in Kleinbuchstaben geschrieben werden. Beispiel:
+     >
+     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Drücken Sie die Taste **Enter**.
 1. Um alle Benutzereinstellungen zurückzusetzen, wählen Sie **Zurücksetzen** aus.
