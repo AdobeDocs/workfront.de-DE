@@ -6,9 +6,9 @@ description: Sie können Ziele anzeigen, die Sie oder andere, die zu Adobe Workf
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1366'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,8 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
    <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td> 
    <p>Für den neuen Plan und die Lizenzstruktur:
-  <ul><li>Ein ultimativer Plan </li>
-  Oder
-  <li>Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne. </li></ul> </p>
+  <ul><li>Ein ultimativer Plan </li> </ul>
+
 <p>Für den aktuellen Plan und die Lizenzstruktur: 
 <ul><li> A Pro oder höher </li>
   <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
