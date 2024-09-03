@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2622'
 ht-degree: 0%
 
 ---
@@ -403,7 +403,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 * Sie können verbundene Datensätze oder Objekte in der Timeline-Ansicht unter den Datensätzen des ausgewählten Datensatztyps anzeigen.
 * Mithilfe der Aufschlüsselungsfunktion können Sie Folgendes in der Timeline-Ansicht anzeigen:
    * Workfront Planning-Datensätze, die mit dem ausgewählten Datensatztyp verbunden sind.
-   * Workfront-Objekttypen (************* oder AEM Assets *************), die mit dem ausgewählten Datensatztyp verbunden sind.
+   * Workfront-Objekttypen oder Experience Manager-Assets, die mit dem ausgewählten Datensatztyp verbunden sind.
    * Workfront Planning speichert Datensätze oder Objekte aus anderen Anwendungen, die mit Datensätzen verbunden sind, die mit dem ausgewählten Datensatztyp verbunden sind.
 
      Sie können beispielsweise Kampagnen mit Portfolios verknüpfen. Darüber hinaus können Sie einen anderen Datensatztyp, Produkte, Projekte sowie Kampagnen, miteinander verbinden. Beim Erstellen der Kampagnen-Timeline-Ansicht können Sie die Kampagnen nach Portfolios, Produkten und Projekten aufschlüsseln.

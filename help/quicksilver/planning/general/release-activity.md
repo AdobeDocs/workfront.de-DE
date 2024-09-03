@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '7432'
+source-wordcount: '7462'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,11 @@ Vorschau und Produktion: 28. August 2024
 Wenn Sie den Zugriff auf einen Arbeitsbereich oder eine Ansicht anfordern, erhält der Benutzer, von dem Sie den Zugriff anfordern, eine E-Mail-Benachrichtigung über die Anfrage. Nachdem die Anfrage genehmigt wurde, erhalten Sie eine E-Mail-Benachrichtigung mit einer Bestätigung, dass Ihre Anfrage genehmigt wurde.
 
 Sie können über die E-Mail-Benachrichtigung auf die Ansicht oder den Arbeitsbereich zugreifen, wenn die Berechtigung erteilt wurde.  <!--see if they also get an in-app notification-->
+
+>[!NOTE]
+>
+>Ihr Unternehmen muss in das Adobe Unified Experience integriert sein, damit Benutzer über eine Berechtigungsanfrage Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern und erteilen können.
+
 
 Weitere Informationen finden Sie unter [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](/help/quicksilver/planning/access/request-permissions.md).
 

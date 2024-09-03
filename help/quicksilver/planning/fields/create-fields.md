@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3622'
 ht-degree: 2%
 
 ---
@@ -225,7 +225,7 @@ OLD:
 
 ### Einzeiliger Text {#single-line-text}
 
-Einzelzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie können beispielsweise die Informationen zu Eigentümern, Interessenvertretern, Teams oder Organisationseinheiten in einem einzeiligen Textfeld erfassen. Der Inhalt eines einzeiligen Textfelds kann bis zu 250 Zeichen lang sein. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+Einzelzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie können beispielsweise die Informationen zu Eigentümern, Interessenvertretern, Teams oder Organisationseinheiten in einem einzeiligen Textfeld erfassen. Der Inhalt eines einzeiligen Textfelds kann bis zu 1.000 Zeichen enthalten. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Felder von Grund auf erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Einzeiliger Text** aus.
 
@@ -245,9 +245,12 @@ Absatzfelder erfassen zusätzliche alphanumerische Informationen zu einem Datens
 
 >[!TIP]
 >
->* Der Inhalt eines Absatzfelds kann bis zu 1.000 Zeichen lang sein.
+>* Sie können für einen Datensatztyp maximal 20 Absatzfelder verwenden.
 >
+>* Der Inhalt eines Absatzfelds kann bis zu 100.000 Zeichen enthalten.
 >* Sie können die Rich-Text-Formatierung verwenden, um den Inhalt von Absatzfeldern zu verbessern, wenn sie in der Tabellenansicht oder auf der Detailseite eines Datensatzes angezeigt werden. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+>
+
 
 1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Absatz** aus.
 

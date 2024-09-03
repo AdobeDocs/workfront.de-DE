@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1392'
 ht-degree: 1%
 
 ---
@@ -356,10 +356,12 @@ Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld e
 
    ![](assets/show-collaborators-toggle-selected.png)
 
-1. (Bedingt) Öffnen Sie eine Tabellenansicht. Das Feld, das eine andere Person bearbeitet, wird in der Farbe entsprechend der Umrisslinie ihres Avatars in der Tabellenansicht dargestellt.
+1. (Bedingt) Öffnen Sie eine Tabellenansicht. Das Feld, das eine andere Person aktiv bearbeitet, wird in der Tabellenansicht in der Farbe hervorgehoben, die dem Umriss ihres Avatars entspricht.
+
+   Wenn die Hervorhebungsfarbe des Avatars grau ist, hat der Benutzer den Datensatz vor mehr als 30 Sekunden nicht mehr aktiv bearbeitet.
 
    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >
-   >Sie können in jeder Ansicht den Umschalter **Mitwirkende anzeigen** auswählen. Das bearbeitete Feld wird nur in der Tabellenansicht dargestellt.
+   >Sie können in jeder Ansicht den Umschalter **Mitwirkende anzeigen** auswählen. Das derzeit von anderen Benutzern bearbeitete Feld wird nur in der Tabellenansicht dargestellt.

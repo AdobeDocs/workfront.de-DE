@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '725'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,8 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
+<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p>
+<p>Ihr Unternehmen muss in das Adobe Unified Experience integriert sein, damit Benutzer über eine Berechtigungsanfrage Berechtigungen für einen Arbeitsbereich anfordern und gewähren können. </p> 
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -203,6 +204,11 @@ Klicken Sie in der E-Mail-Benachrichtigung auf **Alle Benachrichtigungen anzeige
    Das Feld **Ausstehende Zugriffsanforderungen** wird angezeigt.
 
    ![](assets/notifications-list-approval-box.png)
+
+1. (Optional) Wählen Sie für den Benutzer, dessen Berechtigungen Sie genehmigen möchten, eine der folgenden Optionen aus dem Dropdown-Menü rechts neben dem Benutzernamen aus:
+   * **Anzeigen**
+   * **Contribute**
+   * **Verwalten**
 1. Wählen Sie den Benutzer aus, für den Sie die Berechtigung genehmigen oder verweigern möchten, und klicken Sie dann auf **Alle genehmigen** oder **Alle verweigern**.
 1. Klicken Sie auf den nach links zeigenden Pfeil neben **Ausstehende Zugriffsanforderungen** und dann auf **Speichern**.
 
