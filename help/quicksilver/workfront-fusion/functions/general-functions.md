@@ -8,9 +8,9 @@ description: Die folgenden allgemeinen Funktionen sind im Bedienfeld Adobe Workf
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
+source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,12 @@ Gibt den Wertpfad eines Objekts oder Arrays zurück. Verwenden Sie Punktnotation
 
 Gibt die `value1` zurück, wenn der Ausdruck als &quot;true&quot;ausgewertet wird; sonst wird die `value2` zurückgegeben.
 
+Verwenden Sie das Schlüsselwort `and` , um eine if -Anweisung zu erstellen, die nur dann einen Wert zurückgibt, wenn zwei oder mehr Ausdrücke als &quot;true&quot;ausgewertet werden.
+
+Verwenden Sie die Operatoren `and` und `or`, um `if` -Anweisungen zu kombinieren.
+
+![ und operator](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**Beispiele:**
@@ -81,9 +87,14 @@ Gibt die `value1` zurück, wenn der Ausdruck als &quot;true&quot;ausgewertet wir
 >
 >    Gibt eine
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   Gibt B zurück
+>
+>* `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    Gibt B zurück
+>   
 
 ## [!UICONTROL ifempty (value1; value2)]
 
@@ -107,7 +118,7 @@ Gibt den Wert `value1` zurück, wenn dieser Wert nicht leer ist. Andernfalls wir
 
 ## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-Wertet einen Wert (den so genannten Ausdruck) mit einer Werteliste aus; gibt das Ergebnis zurück, das dem ersten übereinstimmenden Wert entspricht.
+Wertet einen Wert (den so genannten Ausdruck) mit einer Werteliste aus; gibt das Ergebnis zurück, das dem ersten übereinstimmenden Wert entspricht. Um einen `else` -Wert einzuschließen, fügen Sie ihn nach dem letzten Ausdruck oder Wert hinzu.
 
 >[!INFO]
 >
@@ -123,7 +134,9 @@ Wertet einen Wert (den so genannten Ausdruck) mit einer Werteliste aus; gibt das
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  Gibt 4 zurück
+>   Gibt 4 zurück
+>   
+>   In dieser Funktion ist 4 der Wert, der zurückgegeben wird, wenn keine Ausdrücke zutreffen (der Wert `else` ).
 
 ## [!UICONTROL omit(object; key1; [key2; ...])]
 
