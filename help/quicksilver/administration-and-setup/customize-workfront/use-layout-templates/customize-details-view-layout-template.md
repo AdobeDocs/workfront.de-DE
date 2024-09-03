@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,13 @@ Um sie für eine Gruppe durchzuführen, müssen Sie Manager dieser Gruppe sein</
 1. Führen Sie im Abschnitt **Details** einen der folgenden Schritte aus, um anzupassen, was Benutzer in der Detailansicht sehen:
 
    * Ziehen Sie beliebige Abschnittskopfzeilen ![](assets/move-icon---dots.png) , um ihre Reihenfolge zu ändern.
-   * Aktivieren oder deaktivieren Sie die Optionen unter **Überblick** und **Benutzerdefinierter Forms** , um sie ein- oder auszublenden.
+   * Aktivieren oder deaktivieren Sie Optionen unter den verschiedenen Bereichen (z. B. **Überblick**, **Finanzen** und **Benutzerdefinierter Forms**), um sie ein- oder auszublenden.
 
      Wenn Sie alle Felder in einem dieser Abschnitte ausblenden, wird der gesamte Abschnitt ausgeblendet.
 
-     Alle Felder sind standardmäßig aktiviert.
+     Alle Felder sind standardmäßig aktiviert. Sie können das Kontrollkästchen **Alle auswählen** in einem Bereich aktivieren oder deaktivieren, um alle Felder in diesem Bereich ein- oder auszublenden.
+
+   ![Detailansicht in Layout-Vorlage](assets/layout-template-details-view.png)
 
 1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
 
