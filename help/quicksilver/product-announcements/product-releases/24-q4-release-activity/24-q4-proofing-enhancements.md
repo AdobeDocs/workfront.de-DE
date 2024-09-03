@@ -4,9 +4,9 @@ description: Verbesserungen bei der Testprüfung im vierten Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,17 @@ Auf dieser Seite werden alle Verbesserungen beim Testen beschrieben, die mit der
 
 Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2024 verfügbar sind, finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Leere Bildschirmkorrektur für Desktop Proofing Viewer Windows-Benutzer
+
+>[!NOTE]
+>
+>Vorschau-Version: 30. August 2024; Produktionsversion für alle Kunden: 30. August 2024.
+
+Es wurde ein Problem mit der neuen Version 2.1.36 des Desktop Proofing-Viewers behoben, bei dem einige Windows-Benutzer nach dem Öffnen des Viewers einen leeren Bildschirm angezeigt haben.
+
+Neue Version für Windows-Benutzer: 2.1.37
+
+
 ## Chromium-Update für den Desktop Proofing Viewer
 
 >[!NOTE]
@@ -26,3 +37,5 @@ Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten
 Wir aktualisieren den Desktop Proofing Viewer, um Chromium 126.0.6478.127 zu unterstützen, das Probleme mit UI-Elementen in interaktiven Testsendungen behebt.
 
 Neue Version: 2.1.36
+
+

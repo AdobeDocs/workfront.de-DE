@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,24 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td>
                         <p><span class="bold">Veröffentlichungstermine</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Leere Bildschirmkorrektur für Benutzer von Windows mit Desktop Proofing für Windows-Desktop-Computer</a></p>
+                        [!BADGE In Production ]{type=Informative}
+                        <p>Es wurde ein Problem mit der neuen Version 2.1.36 des Desktop Proofing-Viewers behoben, bei dem einige Windows-Benutzer nach dem Öffnen des Viewers einen leeren Bildschirm angezeigt haben. </p>
+                        <p>Neue Version für Windows-Benutzer: 2.1.37</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 30. August 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion für alle Kunden: 30. August 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
