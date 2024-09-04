@@ -6,10 +6,10 @@ description: Als Projektmanager können Sie festlegen, wie die Bedingung eines P
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Bedingungstyp für ein Projekt festlegen
 
 1. Wechseln Sie zu dem Projekt, für das Sie den Bedingungstyp aktualisieren möchten.
-1. Führen Sie einen der folgenden Schritte aus: 
+1. Führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie auf das Menü **Mehr** rechts neben dem Projektnamen und dann auf **Bearbeiten**.![](assets/qs-more-menu.png)
    * Klicken Sie im linken Bereich auf **Projektdetails** .
@@ -72,4 +72,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Klicken Sie auf **Änderungen speichern** , wenn Sie den Bedingungstyp im Abschnitt &quot;Projektdetails&quot;ändern.
 
- 
+
