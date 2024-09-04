@@ -8,9 +8,9 @@ description: Die Adobe Workfront Fusion JSON-App bietet Module zur Verarbeitung 
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Wenn das Feld JSON-Zeichenfolge eine Sammlung `{ ... }` enthält, ist die Ausgab
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Wenn das JSON-Zeichenfolgenfeld ein Array `[ ... ]` enthält, ist die Ausgabe ei
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -125,13 +125,14 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 ![](assets/map-toggle-350x74.png)
 
-* [Aggregat zu JSON](#aggregate-to-json)
 * [JSON in XML konvertieren](#convert-json-to-xml)
 * [JSON analysieren](#parse-json)
 * [JSON erstellen](#create-json)
 * [JSON transformieren](#transform-json)
 
-### [!UICONTROL Aggregat zu JSON]
+### Aggregatoren
+
+#### [!UICONTROL Aggregat zu JSON]
 
 Dieses Aggregatormodul aggregiert die Ausgabe eines vorherigen Moduls in JSON.
 
@@ -162,7 +163,14 @@ Dieses Aggregatormodul aggregiert die Ausgabe eines vorherigen Moduls in JSON.
  </tbody> 
 </table>
 
-### [!UICONTROL JSON in XML konvertieren]
+### Transformatoren
+
+* [JSON in XML konvertieren](#convert-json-to-xml)
+* [JSON erstellen](#create-json)
+* [JSON analysieren](#parse-json)
+* [JSON transformieren](#transform-json)
+
+#### [!UICONTROL JSON in XML konvertieren]
 
 Dieses Aktionsmodul konvertiert eine JSON-Zeichenfolge in XML.
 
@@ -177,7 +185,22 @@ Dieses Aktionsmodul konvertiert eine JSON-Zeichenfolge in XML.
  </tbody> 
 </table>
 
-### [!UICONTROL JSON analysieren]
+#### [!UICONTROL JSON erstellen]
+
+Dieses Aktionsmodul erstellt JSON aus einer Datenstruktur.
+
+<table style="table-layout:auto"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Datenstruktur</td> 
+   <td> <p>Wählen Sie die Datenstruktur aus, die Sie zum Erstellen von JSON verwenden möchten. Weitere Informationen finden Sie unter <a href="#data-structure" class="MCXref xref">Datenstruktur</a> in diesem Artikel.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL JSON analysieren]
 
 Dieses Aktionsmodul analysiert eine JSON-Zeichenfolge in einer Datenstruktur, mit der Sie auf die Daten in der JSON-Zeichenfolge zugreifen können.
 
@@ -196,22 +219,7 @@ Dieses Aktionsmodul analysiert eine JSON-Zeichenfolge in einer Datenstruktur, mi
  </tbody> 
 </table>
 
-### [!UICONTROL JSON erstellen]
-
-Dieses Aktionsmodul erstellt JSON aus einer Datenstruktur.
-
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Datenstruktur</td> 
-   <td> <p>Wählen Sie die Datenstruktur aus, die Sie zum Erstellen von JSON verwenden möchten. Weitere Informationen finden Sie unter <a href="#data-structure" class="MCXref xref">Datenstruktur</a> in diesem Artikel.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL JSON transformieren]
+#### [!UICONTROL JSON transformieren]
 
 Dieses Aktionsmodul wandelt ein Objekt in eine JSON-Zeichenfolge um.
 
@@ -238,28 +246,27 @@ Dieses Aktionsmodul wandelt ein Objekt in eine JSON-Zeichenfolge um.
 >
 1. Verbinden Sie das Modul [!UICONTROL JSON] > [!UICONTROL JSON] nach dem Modul [!UICONTROL Array Aggregator] . Die Einrichtung des Moduls erfordert eine Datenstruktur, die das JSON-Format beschreibt. Klicken Sie auf **[!UICONTROL Hinzufügen]** , um die Einrichtung der Datenstruktur zu öffnen. Die einfachste Möglichkeit, diese Datenstruktur zu erstellen, besteht darin, sie automatisch aus einem JSON-Beispiel zu generieren. Klicken Sie auf **[!UICONTROL Generator]** und fügen Sie Ihr JSON-Beispiel in das Feld **[!UICONTROL Beispieldaten]** ein:
 >
->     **Beispiel:**
+**Beispiel:**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Feld [!UICONTROL Spezifikation] in der Datenstruktur enthält jetzt die generierte Struktur.
 1. Ändern Sie den Namen Ihrer Datenstruktur in etwas spezifischeres und klicken Sie auf **[!UICONTROL Speichern]**. Ein Feld, das dem Root-Array-Attribut entspricht, wird als zuordnbares Feld in der Einrichtung des JSON-Moduls angezeigt.

@@ -8,9 +8,9 @@ description: Ein Webhook ist ein HTTP-Aufruf, der durch ein Ereignis ausgelöst 
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Sie können auch die folgenden Schritte ausführen, um die Beispieldaten über d
 
    Die Elemente des Webhooks sind jetzt im Zuordnungsbereich für die Verwendung mit nachfolgenden Modulen im Szenario verfügbar.
 
-## Warteschlange
+## Die Webhook-Warteschlange
 
 Wenn ein Webhook Daten erhält und kein aktives Szenario mit diesen Daten verbunden ist, werden die Daten in der Warteschlange gespeichert. Nachdem Sie das Szenario aktiviert haben, werden alle Pakete, die in der Warteschlange warten, nacheinander verarbeitet.
 

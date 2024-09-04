@@ -9,9 +9,9 @@ description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflo
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '2850'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -651,6 +651,10 @@ Dieses Aktionsmodul sucht nach Sites anhand eines von Ihnen angegebenen Paramete
 </table>
 
 ### Sonstige
+
+* [Abrufen von Änderungen](#get-changes)
+* [API-Aufruf durchführen](#make-an-api-call)
+* [Ereignisse beobachten](#watch-events)
 
 #### Abrufen von Änderungen
 

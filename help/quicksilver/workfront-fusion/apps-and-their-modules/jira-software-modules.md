@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
 source-wordcount: '2072'
 ht-degree: 1%
@@ -282,8 +282,8 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein Datensatz hinzugefügt, aktu
 ### Aktionen
 
 * [[!UICONTROL Problem zum Sprint hinzufügen]](#add-issue-to-sprint)
-* [[!UICONTROL Benutzerspezifischer API-Aufruf]](#custom-api-call)
 * [[!UICONTROL Erstellen eines Datensatzes]](#create-a-record)
+* [[!UICONTROL Benutzerspezifischer API-Aufruf]](#custom-api-call)
 * [[!UICONTROL Datensatz löschen]](#delete-a-record)
 * [[!UICONTROL Herunterladen eines Anhangs]](#download-an-attachment)
 * [[!UICONTROL Datensatz lesen]](#read-a-record)

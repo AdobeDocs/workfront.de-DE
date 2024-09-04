@@ -10,9 +10,9 @@ description: Mit dem [!DNL Adobe Experience Manager Assets] Connector für das [
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,15 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 ![](assets/map-toggle-350x74.png)
 
+* [Kopieren von Ordnern oder Assets](#copy-a-folder-or-asset)
+* [Datensatz erstellen](#create-a-record)
+* [Löschen von Ordnern, Assets oder Ausgabedarstellungen](#delete-a-folder-asset-or-rendition)
+* [Abrufen einer Ordnerliste](#get-a-folder-listing)
+* [Benutzerdefinierte API-Aufrufe durchführen](#make-a-custom-api-call)
+* [Verschieben von Ordnern oder Assets](#move-a-folder-or-asset)
+* [Datensatz aktualisieren](#update-a-record)
+* [Hochladen eines Assets](#upload-an-asset)
+
 ### [!UICONTROL Kopieren eines Ordners oder Assets]
 
 Dieses Aktionsmodul kopiert einen Ordner oder ein Asset an einen anderen Speicherort in Ihrem Adobe Experience Manager Assets-Konto.
@@ -260,7 +269,7 @@ Dieses Aktionsmodul erstellt einen Ordner oder einen Asset-Kommentar.
  </tbody> 
 </table>
 
-### [!UICONTROL Datensatz löschen]
+### [!UICONTROL Löschen eines Ordners, Assets oder Ausgabeformats]
 
 Dieses Aktionsmodul löscht einen Ordner, ein Asset oder eine Ausgabedarstellung.
 

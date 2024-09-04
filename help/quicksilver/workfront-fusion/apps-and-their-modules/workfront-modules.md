@@ -9,7 +9,7 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '6280'
 ht-degree: 2%
@@ -147,6 +147,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 
 ![](assets/map-toggle-350x74.png)
+
 >[!NOTE]
 >
 >* Wenn in einem Workfront-Modul nicht die aktuellsten Felder angezeigt werden, liegt dies möglicherweise an Caching-Problemen. Warten Sie eine Stunde und versuchen Sie es erneut.
