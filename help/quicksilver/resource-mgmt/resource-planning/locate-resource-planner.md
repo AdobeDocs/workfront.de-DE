@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Suchen Sie den Ressourcen-Planer .
-description: '(Dieser Artikel ist von diesem Artikel ausgegangen: Entwurf des Inhalts im Artikel, wenn er live kommt: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)'
-author: Alina
+description: Sie können den Ressourcen-Planer verwenden, um die Zuweisung Ihrer Ressourcen zu Projekten zu verwalten. Sie können auf den Ressourcen-Planer für mehrere Projekte gleichzeitig oder für ein Projekt über den Geschäftsfallbereich des Projekts zugreifen.
+author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,42 @@ Sie können den Ressourcen-Planer verwenden, um die Zuweisung Ihrer Ressourcen z
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Pro und höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td><p>Neu: Beliebig</p>
+       <p>oder</p>
+       <p>Aktuell: Pro oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> <p>Planen oder höher, um den Ressourcenplaner im globalen Bereich zu finden</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Licht oder höher;</br>
+          Standard zum Suchen des Ressourcen-Planers im Hauptmenü</p>
+       <p>oder</p>
+       <p>Aktuell: Überprüfen oder höher;</br>
+       Planen Sie, den Ressourcen-Planer im Hauptmenü zu finden.</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff oder höher auf die Ressourcenverwaltung anzeigen</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff oder höher auf die Ressourcenverwaltung anzeigen</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Projekte und Benutzer anzeigen </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für Projekte und Benutzer anzeigen </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -79,14 +83,14 @@ Wenn Sie den Ressourcenplaner für mehrere Projekte verwenden, stellen die Zuord
 
 So greifen Sie auf den Abschnitt &quot;Planer&quot;im Bereich &quot;Ressourcen&quot;zu:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+{{step1-to-resourcing}}
 
-1. Klicken Sie auf **Ressourcen**. Der Planer wird standardmäßig angezeigt.  Weitere Informationen zu Budgeteinträgen im Ressourcenplaner finden Sie im Artikel [Budgetressourcen im Ressourcenplaner unter Verwendung der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Der Planer wird standardmäßig angezeigt.  Weitere Informationen zu Budgeteinträgen im Ressourcenplaner finden Sie im Artikel [Budgetressourcen im Ressourcenplaner unter Verwendung der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-   ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. Bewegen Sie den Mauszeiger über den linken Bereich und klicken Sie auf **Ressourcenpools**.\
-   Informationen zum Erstellen von Ressourcen-Pools finden Sie unter [Erstellen von Ressourcen-Pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+1. Klicken Sie im linken Bereich auf **Ressourcenpools** .
+Informationen zum Erstellen von Ressourcen-Pools finden Sie unter [Erstellen von Ressourcen-Pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Verwenden des Ressourcen-Planers für ein Projekt {#use-the-resource-planner-for-one-project}
 

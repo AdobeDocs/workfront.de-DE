@@ -6,7 +6,7 @@ description: Ressourcen-Pools sind Sammlungen von Benutzern, die Ihnen bei der V
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Adobe Workfront-Abo</td> 
    <td><p>Neu: Beliebig</p>
        <p>oder</p>
-       <p>Aktuell: Pro und höher</p> </td> 
+       <p>Aktuell: Pro oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 

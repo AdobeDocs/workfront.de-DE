@@ -3,15 +3,15 @@ title: Benutzerdefinierte Hilfe-URL konfigurieren
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: Wenn Sie eine benutzerdefinierte interne Hilfeseite erstellen, die Informationen darüber enthält, wie Ihr Unternehmen Workfront verwendet, können Sie das Hilfesymbol des Hauptmenüs so konfigurieren, dass zu dieser Site navigiert wird. Dies wirkt sich nicht auf den Haupt-Hilfe-Link im Hauptmenü und die kontextsensitiven Hilfelinks in Workfront aus, über die Benutzer zur Hilfe-Site von Workfront gelangen.
+description: Wenn Sie eine benutzerdefinierte interne Hilfeseite erstellen, die Informationen darüber enthält, wie Ihr Unternehmen Workfront verwendet, können Sie das Hilfesymbol des Hauptmenüs so konfigurieren, dass zu dieser Site navigiert wird.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,9 @@ Wenn Sie eine benutzerdefinierte interne Hilfeseite erstellen, die Informationen
 
 ![](assets/custom-help-button.png)
 
-Dies wirkt sich nicht auf den Haupt-Hilfe-Link im Hauptmenü und die kontextsensitiven Hilfelinks in Workfront aus, über die Benutzer zur Hilfe-Site von Workfront gelangen.
+Dies wirkt sich nicht auf die kontextsensitiven Hilfelinhalte in Workfront aus, die Benutzer zur Workfront-Hilfeseite führen.
 
-![](assets/custom-help-url.png)
-
-Informationen dazu, wie Benutzer auf eine benutzerdefinierte Hilfe-URL zugreifen, die Sie in Workfront konfigurieren, sowie auf die normale Workfront-Hilfeseite finden Sie unter [Zugriff auf die Workfront-Hilfe im neuen Adobe Workfront-Erlebnis](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Informationen dazu, wie Benutzer auf eine benutzerdefinierte Hilfe-URL zugreifen, die Sie in Workfront konfigurieren, und auf die normale Workfront-Hilfeseite finden Sie unter [Zugriff auf Adobe Workfront-Hilfe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Zugriffsanforderungen
 
@@ -64,3 +62,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Wenn für Ihren benutzerdefinierten Hilfeort Anmeldeinformationen erforderlich sind, sind diese für Benutzer erforderlich, die über Workfront auf die Site zugreifen. Wenn Sie kein Single Sign-On (SSO) verwenden, müssen die Anmeldedaten für Ihre benutzerdefinierte Hilfeseite möglicherweise getrennt von den Workfront-Anmeldedaten verwaltet werden.
 
 1. Klicken Sie auf **Speichern**.
+
+   Nachdem Sie eine benutzerdefinierte Hilfe-URL gespeichert haben, können Sie zur standardmäßigen Workfront-Hilfeseite zurückkehren, indem Sie die benutzerdefinierte URL löschen und auf **Speichern** klicken.

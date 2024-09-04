@@ -5,9 +5,9 @@ description: Die obere Navigationsleiste, die oben auf Ihrem Bildschirm in [!DNL
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 692f3be1d7d3c3099e822440872ebdf3af3e04d1
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,13 @@ Ihr Workfront-Administrator kann das Startseiten-Symbol anpassen, um eine andere
 
 Sie können häufig besuchte Seiten so anheften, dass sie in der oberen Navigationsleiste angezeigt werden. Weitere Informationen zu fixierten Seiten finden Sie unter [Seiten anheften, um Ihren Arbeitsbereich anzupassen](../../workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-## Menü [!UICONTROL Hilfe]
+<!--
+## [!UICONTROL Help] menu
 
-Im Menü **[!UICONTROL Hilfe]** können Sie nach Hilfe zu einer bestimmten Aufgabe suchen, weitere Informationen zur Verwendung von [!DNL Workfront] finden, Inhalte zur aktuellen Seite anzeigen oder Feedback zu Ihrem Erlebnis senden.
+The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
 
-Weitere Informationen zum Hilfemenü finden Sie unter [Zugriff [!DNL Adobe Workfront] Hilfe](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
 
 ## Menü [!UICONTROL Benachrichtigungen]
 

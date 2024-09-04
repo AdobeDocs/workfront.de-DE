@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten
+title: Budgetressourcen im Ressourcenplaner unter Verwendung der Projekt- und Rollenansichten
 description: Sie können Ressourcen im Adobe Workfront Resource Planer mithilfe der Projekt- und Rollenansicht einplanen. Sie können keine Ressourcen mit der Ansicht "User"im Ressourcenplaner einplanen.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Bevor Sie mit Budgetinformationen im Ressourcenplaner beginnen, lesen Sie die fo
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -40,27 +42,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Pro und höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+    <td><p>Neu: Beliebig</p>
+       <p>oder</p>
+       <p>Aktuell: Pro oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Bearbeiten Sie den Zugriff auf das Ressourcen-Management, das Zugriff auf die Option "Prioritäten bearbeiten"und die Budgetzeiten im Ressourcenplaner enthält.</p> <p>Zugriff auf Finanzdaten zu Budgetressourcen nach Kosten bearbeiten</p> <p>Zugriff auf Projekte und Benutzer bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Bearbeiten Sie den Zugriff auf das Ressourcen-Management, das Zugriff auf die Option "Prioritäten bearbeiten"und die Budgetzeiten im Ressourcenplaner enthält.</p> <p>Zugriff auf Finanzdaten anhand von Budgetressourcen nach Kosten bearbeiten</p> <p>Zugriff auf Projekte und Benutzer bearbeiten</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für die Projekte, für die Sie Informationen zum Budget benötigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für die Projekte, für die Sie Informationen zum Budget benötigen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Budgetressourcen im Ressourcenplaner
 
@@ -74,9 +80,8 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+{{step1-to-resourcing}}
 
-1. Klicken Sie auf **Ressourcen**.
 1. Der **Planer** wird standardmäßig angezeigt.
 1. (Bedingt) Wählen Sie die Ansicht **Nach Projekt anzeigen** aus.
 1. Erweitern Sie die Projekte und die Auftragsrollen, um die Zuordnung für das Projekt, die Rollen oder Benutzer zu verwalten.
@@ -87,9 +92,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    * Klicken Sie auf das Menü **Mehr** für die Auftragrolle des Benutzers und klicken Sie dann auf **Planete Stunden des Benutzers als budgetiert festlegen**.\
      Die budgetierten Stunden eines jeden Benutzers werden anhand der folgenden Formel berechnet:
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Führen Sie einen der folgenden Schritte aus, um die Budgetzuweisung für Stellenrollen vorzunehmen:
 
@@ -102,17 +105,13 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    * (Bedingt) Wenn Sie Stunden für Benutzer in einem Budget festgelegt haben, klicken Sie auf das Menü **Mehr** für die Auftragsrolle und dann auf **Gesamtdauer der von den Benutzern für die Rolle &quot;Rolle&quot;festgelegten Stunden**.\
      Die für die einzelnen Rollen veranschlagten Stunden werden anhand der folgenden Formel berechnet:
 
-     ```
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * Klicken Sie auf das Menü **Mehr** für das Projekt und klicken Sie dann auf **Geplante Stunden für Rollen festlegen** .\
      Die für die einzelnen Rollen veranschlagten Stunden werden anhand der folgenden Formel berechnet:\
      *
 
-     ```
-     Role Budgeted Hours = Role Planned Hours
-     ```
+     `Role Budgeted Hours = Role Planned Hours`
 
      >[!NOTE]
      >   
@@ -132,9 +131,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
    * Budget der Rollen im Rahmen des Projekts, wie in Schritt 7 beschrieben.\
      Die im Projekt veranschlagten Stunden werden nach folgender Formel berechnet:
 
-     ```
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * Geben Sie in der Spalte **BDG** manuell eine Anzahl von geplanten Stunden, FTE oder Kosten für das Projekt an.\
      Dadurch wird die Rolle der budgetierten Stunden aktualisiert, wie in Schritt 7 beschrieben.\
@@ -175,9 +172,7 @@ So weisen Sie Budgetzuweisungen im Ressourcenplaner in der Ansicht &quot;Rolle&q
    * Klicken Sie auf das Menü **Mehr** für das Projekt und dann auf **Planen Sie die Stunden der Benutzer auf den Haushaltsplan setzen**.\
      Die budgetierten Stunden eines jeden Benutzers werden anhand der folgenden Formel berechnet:
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Führen Sie einen der folgenden Schritte aus, um die Budgetzuweisung für Stellenrollen vorzunehmen:
 
@@ -187,15 +182,11 @@ So weisen Sie Budgetzuweisungen im Ressourcenplaner in der Ansicht &quot;Rolle&q
    * Klicken Sie auf das Menü **Mehr** für die Auftragsrolle und klicken Sie dann auf &quot;Planete Stunden von Projekten als Budget festlegen&quot;.**Die Rollenbudgetierungsstunden werden anhand der folgenden Formel berechnet:\
      *
 
-     ```
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      *Die budgetierten Projektstunden werden mit der folgenden Formel berechnet:
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * Geben Sie in der Spalte **BDG** manuell eine Anzahl von geplanten Stunden, VZÄ oder Kosten für die Projekte an, die unter der Auftragsrolle aufgeführt sind.\
      Dadurch wird die Anzahl der geplanten Stunden zur Rolle hinzugefügt.
@@ -213,24 +204,20 @@ So weisen Sie Budgetzuweisungen im Ressourcenplaner in der Ansicht &quot;Rolle&q
    * Klicken Sie auf das Menü **Mehr** für die Auftragsrolle und dann auf **Planen Sie die Projektstunden als budgetiert festlegen**.\
      Die im Projekt veranschlagten Stunden werden nach folgender Formel berechnet:
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      Das Projekt Budgeted Hours wird den Role Budgeted Hours hinzugefügt.
 
    * (Bedingt) Wenn Sie die Stunden für die Benutzer eingeplant haben, klicken Sie auf das Menü **Mehr** für das Projekt und klicken Sie dann auf **Gesamtbesuchszeit für das Projekt**.\
      Die im Projekt veranschlagten Stunden werden anhand der folgenden Formel berechnet:
 
-     ```
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. Klicken Sie auf **Speichern**.\
-   Nachdem Sie Ihre Ressourcen im Ressourcen-Planer zusammengefasst haben, werden die budgetierten Stunden für Ihre Ressourcen und alle damit verbundenen Kosten im Business Case jedes Projekts aufgelistet.\
-   Weitere Informationen zum Verständnis des Ressourcenbudgeting-Bereichs des Geschäftsfalls finden Sie im Artikel [Budgetressourcen im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Nachdem Sie Ihre Ressourcen im Ressourcen-Planer zusammengefasst haben, werden die budgetierten Stunden für Ihre Ressourcen und alle damit verbundenen Kosten im Business Case jedes Projekts aufgelistet.
+Weitere Informationen zum Verständnis des Ressourcenbudgeting-Bereichs des Geschäftsfalls finden Sie im Artikel [Budgetressourcen im Geschäftsfall](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Optional) Wählen Sie die Ansicht **Nach Benutzer anzeigen** aus, um festzustellen, ob die Benutzer für jeden Benutzer über eine verfügbare und die geplante Stunde verfügen oder nicht genügend ausgelastet sind. Budgetierte Stunden sind in der Ansicht &quot;View by User&quot;nicht sichtbar.
 

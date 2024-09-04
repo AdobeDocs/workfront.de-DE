@@ -2,12 +2,12 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners
+title: Übersicht über Stunden, FTE und Kosteninformationen im Projekt und Rollenansichten des Ressourcenplaners
 description: Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%

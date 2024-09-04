@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Navigationsübersicht über den Ressourcenplaner
+title: Navigationsübersicht über Ressourcenplaner
 description: Mithilfe des Adobe Workfront Resource Planers können Sie die Verfügbarkeit Ihrer Ressourcen sowie den geplanten Zeitraum für den Abschluss der Projektarbeit einfach nachvollziehen. Anschließend können Sie die Zuordnung Ihrer Benutzer und deren Aufgabenrollen für die Projekte verwalten, denen sie zugewiesen sind.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2621'
 ht-degree: 1%
 
 ---
 
-# Navigationsübersicht über den Ressourcenplaner
+# Übersicht über die Navigation im Ressourcenplaner
 
 Mithilfe des Adobe Workfront Resource Planers können Sie die Verfügbarkeit Ihrer Ressourcen sowie den geplanten Zeitraum für den Abschluss der Projektarbeit einfach nachvollziehen. Anschließend können Sie die Zuordnung Ihrer Benutzer und deren Aufgabenrollen für die Projekte verwalten, denen sie zugewiesen sind.
 

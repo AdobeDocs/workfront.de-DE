@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '14363'
+source-wordcount: '14362'
 ht-degree: 2%
 
 ---
@@ -1756,7 +1756,7 @@ ht-degree: 2%
          * [Verknüpfen von Ressourcen-Pools mit Benutzern](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
          * [Benutzer aus Ressourcen-Pools entfernen](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
       * [Erste Schritte mit der Ressourcenplanung](resource-mgmt/resource-planning/get-started-resource-planning.md)
-      * [Erforderlicher Zugriff auf Budgetressourcen in Adobe Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+      * [Erforderlicher Zugriff auf Budgetressourcen in Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [Übersicht über den Ressourcenplaner](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [Suchen Sie den Ressourcen-Planer .](resource-mgmt/resource-planning/locate-resource-planner.md)
       * [Übersicht über die Navigation im Ressourcenplaner](resource-mgmt/resource-planning/resource-planner-navigation.md)

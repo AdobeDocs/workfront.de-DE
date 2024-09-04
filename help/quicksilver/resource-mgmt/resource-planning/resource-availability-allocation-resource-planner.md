@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Überprüfen der Ressourcenverfügbarkeit und -zuordnung mithilfe des Adobe Workfront Resource Planner
 description: Im Ressourcenplaner können Sie die Verfügbarkeit Ihrer Ressourcen und die geplante oder geplante Arbeit für Ihre Projekte einsehen. Diese Werte werden in Stunden-, FTE- (Vollzeitäquivalent) oder Kostenbeträgen angezeigt und sind in Spalten unterteilt.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1237'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,8 @@ Im Ressourcenplaner können Sie die Verfügbarkeit Ihrer Ressourcen und die gepl
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -26,39 +28,37 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Pro und höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td><p>Neu: Beliebig</p>
+       <p>oder</p>
+       <p>Aktuell: Pro oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Licht oder höher</p>
+       <p>oder</p>
+       <p>Aktuell: Überprüfen oder höher</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Zeigen Sie den Zugriff auf Folgendes an oder höher:</p> 
     <ul> 
      <li> <p>Ressourcenverwaltung</p> </li> 
      <li> <p>Finanzielle Daten</p> </li> 
      <li> <p>Benutzende</p> </li> 
      <li> <p>Projekte</p> </li> 
-    </ul> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder Höhere Berechtigungen für die Projekte, die Sie im Ressourcenplaner anzeigen möchten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen oder Höhere Berechtigungen für die Projekte, die Sie im Ressourcenplaner anzeigen möchten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--note from the table about the license: Review or higher: 
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (waiting on Vazgen to confirm - working differenly in classic)
-      </MadCap:conditionalText>
-     -->
++++
 
 ## Voraussetzungen
 
@@ -173,9 +173,7 @@ Beachten Sie Folgendes, wenn Sie Ihre Ansicht in den Ressourcenplaner ändern:
 
    Bei Auswahl dieser Option berechnet Workfront die Nettowerte anhand der folgenden Formel:
 
-   ```
-   Net = Available - Planned
-   ```
+   `Net = Available - Planned`
 
    >[!TIP]
    >
