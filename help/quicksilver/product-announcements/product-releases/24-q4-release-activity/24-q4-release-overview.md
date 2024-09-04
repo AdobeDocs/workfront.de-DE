@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,23 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td>
                         <p><span class="bold">Veröffentlichungstermine</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">In Layoutvorlagen ist jetzt die Option "Alle auswählen"verfügbar</a></p>
+                        [!BADGE In Production ]{type=Informative}
+                        <p>Um das Anzeigen und Ausblenden von Feldern mit Layoutvorlagen zu vereinfachen, wurde den Bereichen Übersicht und Finanzen in der Detailansicht in einer Layoutvorlage das Kontrollkästchen "Alle auswählen"hinzugefügt. Diese Option ist verfügbar, wenn Sie Projekt, Aufgabe, Problem, Portfolio oder Programm unter "Anpassen, was Benutzer sehen"ausgewählt haben.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 29. August 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion für alle Kunden: 6. August 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +134,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei der Anmeldung bei Outlook-Integrationen</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Die Anmeldeerfahrung für die Outlook-Integration wurde optimiert, sodass alle Kunden dieselbe Schaltfläche sehen, um sich bei Workfront anzumelden, unabhängig davon, ob sie IMS-fähig sind oder nicht. Die nachfolgenden Anmeldeschritte bleiben für IMS- und Nicht-IMS-Instanzen unterschiedlich, die Anfangsseite ist jedoch für alle Benutzer gleich.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
