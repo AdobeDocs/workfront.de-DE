@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1432'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td> 
    <td> 
 <p>Alle </p> 
-<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>. </p> 
+<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 

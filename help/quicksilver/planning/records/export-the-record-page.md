@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,7 @@ ht-degree: 1%
 
 # Datensatzdetails exportieren
 
-Um effizienter mit anderen zusammenzuarbeiten, die möglicherweise kein Workfront-Konto haben, können Sie die Details eines Datensatzes in ein Word-Dokument exportieren und für diese freigeben.
-
-<!--replace the above with this, when we release export to PDF:
-
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them.-->
+Um effizienter mit anderen zusammenzuarbeiten, die möglicherweise kein Workfront-Konto haben, können Sie die Details eines Datensatzes in eine Datei exportieren und für diese freigeben.
 
 ## Zugriffsanforderungen
 
@@ -54,7 +50,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td> 
    <td> 
 <p>Alle </p> 
-<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>. </p> 
+<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
@@ -150,16 +146,12 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 ## Überlegungen zum Exportieren von Datensatzdetails:
 
-* Sie können die Details eines Datensatzes in ein Word-Dokument exportieren.
+* Sie können die Details eines Datensatzes in die folgenden Dateiformate exportieren:
 
-<!--replace the first bullet with this, when it's possible:
+   * .docx Word
+   * .pdf
 
-* You can export a record's details to the following file formats:
-
-    * Word
-    * PDF -->
-
-* Sie können die Detailseite einer Datensatzseite exportieren. Die Registerkarte Verbindungen kann nicht exportiert werden.
+* Sie können den Tab Details einer Datensatzseite exportieren. Die Registerkarte Verbindungen kann nicht exportiert werden.
 
 * Die exportierte Datei behält das Layout der Datensatzseite bei, einschließlich der Miniaturansicht und der Titelbilder.
 
@@ -182,10 +174,15 @@ Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs w
 
 1. Wählen Sie die Registerkarte **Details** aus. Die Registerkarte Details sollte standardmäßig geöffnet werden.
 
-1. Klicken Sie entweder in der Vorschau oder auf der Datensatzseite auf das Symbol **Exportieren** ![](assets/export-icon-in-record-details-page.png).
+1. Klicken Sie entweder in der Vorschau oder auf der Datensatzseite auf das Symbol **Exportieren** ![](assets/export-icon-in-record-details-page.png) und klicken Sie dann auf eine der folgenden Optionen:
 
-   Eine Word-Datei (.docx) lädt und wird auf Ihrem Computer gespeichert.
+   * **Microsoft Word**
+   * **Adobe PDF**
+
+   Eine Word-Datei (.docx) oder eine PDF-Datei wird heruntergeladen und auf Ihrem Computer gespeichert.
+
+   Der Name der exportierten Datei ist das Primäre Feld des Datensatzes.
 
    ![](assets/exported-word-file.png)
 
-1. (Optional) Gehen Sie zur heruntergeladenen Datei, öffnen Sie sie und bearbeiten Sie sie oder teilen Sie sie mit anderen.
+1. (Optional) Gehen Sie zur heruntergeladenen Datei, öffnen Sie sie und bearbeiten Sie sie (falls es sich um eine Word-Datei handelt) oder geben Sie sie für andere frei.
