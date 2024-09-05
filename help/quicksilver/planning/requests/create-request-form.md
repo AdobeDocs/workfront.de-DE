@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -130,7 +131,17 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    Das Anfrageformular enthält standardmäßig die folgenden Informationen:
 
-   * Alle in der Tabellenansicht des ausgewählten Datensatztyps verfügbaren Datensatzfelder.
+   * In der Tabellenansicht des ausgewählten Datensatztyps verfügbare Datensatzfelder. <!--they are working on removing the limitation below-->
+
+     >[!IMPORTANT]
+     >
+     >   Felder der folgenden Typen werden nicht im Anfrageformular angezeigt:
+     >
+     >    * Personen
+     >    * Verbundene Felder (einschließlich Verbindungen mit Experience Manager-Assets)
+     >    * Verbundene Suchfelder
+     >    * Formel
+
    * **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anforderungsformular anwendet. Der Abschnitt Standard kann nicht umbenannt oder entfernt werden.
    * Feld **Betreff** : Das Feld, das die Anforderung in Workfront identifiziert. Diese Funktion ist noch nicht verfügbar.
    * Alle mit dem Datensatztyp verknüpften Felder.
@@ -199,6 +210,3 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    >
    >Es gibt einen Hinweis darauf, dass der Link öffentlich freigegeben wird, wenn dies der Fall ist.
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-
-

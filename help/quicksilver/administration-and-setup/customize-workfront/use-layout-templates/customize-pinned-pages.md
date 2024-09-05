@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 4%
 
 ---
 
@@ -64,11 +64,38 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
 1. Führen Sie im angezeigten Dropdown-Menü einen der folgenden Schritte aus:
 
-   * Klicken Sie auf ein Menüelement &quot;Hauptmenü&quot;.
+   * Wählen Sie aus den folgenden Bereichen aus:
 
-     >[!IMPORTANT]
-     >
-     >Für die Anzeige der Bereiche Szenarien und Ziele sind zusätzliche Lizenzen erforderlich. Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md) oder Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+      * Analytik
+      * Kalender
+      * Dashboards
+      * Dokumente
+      * Ziele
+      * Startseite
+      * Meine Updates
+      * Portfolios
+      * Programme
+      * Projekte
+      * Berichte
+      * Anforde- rungen
+      * Ressourcen- zuordnung
+      * Szenarios
+      * Teams
+      * Vorlagen
+      * Arbeitszeit- tabellen
+      * Benutzende
+      * Blueprints
+      * In Planung
+
+   >[!IMPORTANT]
+   >
+   >Für die Anzeige der Bereiche Szenarien, Ziele und Planung sind zusätzliche Lizenzen erforderlich.
+   >
+   >* Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Weitere Informationen zur Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 
    * Klicken Sie auf **Dashboard hinzufügen**, geben Sie einen beschreibenden Titel für den benutzerdefinierten Abschnitt **3} ein und fügen Sie das Dashboard hinzu.**
 

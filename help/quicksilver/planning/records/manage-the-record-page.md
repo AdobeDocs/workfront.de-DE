@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ Folgendes geschieht:
    * Das Workfront-Objekt wird auch aus dem verbundenen Feld des Datensatzes aus der Workfront-Planung entfernt.
    * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden ebenfalls gelöscht.
 
-## Die Felder in der Vorschau oder Seite des Datensatzes neu anordnen
+## Ordnen Sie die Felder im Tab Details des Datensatzes neu an.
 
 {{step1-to-planning}}
 
@@ -240,11 +240,11 @@ Folgendes geschieht:
 
 1. (Optional) Klicken Sie oben rechts in der Datensatzvorschau auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> , um die Datensatzseite in einer neuen Registerkarte zu öffnen.
 
-   Die Datensatzseite wird geöffnet.
+   Die Registerkarte **Details** des Datensatzes wird standardmäßig geöffnet.
 
    ![](assets/details-page.png)
 
-1. Klicken Sie in der Datensatzvorschau oder -seite auf das Symbol **grab** ![](assets/grab-icon.png) links neben dem Feldnamen und ziehen Sie es dann an die gewünschte Stelle. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Klicken Sie auf der Registerkarte **Details** des Datensatzes auf das Symbol **Grab** ![](assets/grab-icon.png) links neben dem Feldnamen und ziehen Sie es dann an die gewünschte Stelle. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    Die neue Position des Felds wird sowohl in der Vorschau als auch auf der Seite aller Datensätze desselben Typs für alle Benutzer aktualisiert, die die Datensätze anzeigen.
 

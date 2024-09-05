@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '7446'
+source-wordcount: '7484'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,13 @@ Dieses Update beinhaltet die folgenden Funktionen:
 * Als Workspace-Manager können Sie ein Anforderungsformular erstellen und es mit einem Datensatztyp verknüpfen. Sie können einen Link zu diesem Formular für andere Benutzer, einschließlich externe Benutzer, freigeben.
 
 * Wenn Benutzer auf das Formular zugreifen, es ausfüllen und die Anfrage senden, wird ein Datensatz für den mit dem Anfrageformular verknüpften Datensatztyp erstellt.
+
+* Je nachdem, wie es konfiguriert ist, zeigt das Anfrageformular alle Felder des Datensatztyps an, mit Ausnahme von Feldern der folgenden Typen:
+
+   * Personen
+   * Verbundene Felder (einschließlich Verbindungen mit Experience Manager-Assets)
+   * Verbundene Suchfelder
+   * Formel
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anforderungsformulars in der Adobe Workfront-Planung](/help/quicksilver/planning/requests/create-request-form.md).
 

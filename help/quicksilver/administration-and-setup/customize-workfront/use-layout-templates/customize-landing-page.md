@@ -8,16 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 5%
 
 ---
 
 # Landingpage mithilfe einer Layoutvorlage anpassen
 
 Als Adobe Workfront-Administrator können Sie eine Layoutvorlage verwenden, um den Bereich anzugeben, der Benutzern bei jeder Anmeldung bei Workfront angezeigt werden soll.
+
+Benutzer können eine der folgenden Aktionen öffnen:
+
+* Workfront-Gebiet
+* Ein benutzerdefiniertes Dashboard.
 
 Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,9 +67,38 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
 1. Klicken Sie im Bereich **Obere Navigation** auf **Landingpage auswählen** und wählen Sie dann den Bereich aus, den Benutzer sehen sollen, wenn sie sich anmelden.
 
+   Wählen Sie aus den folgenden Bereichen aus oder fügen Sie ein benutzerdefiniertes Dashboard hinzu:
+
+   * Analytik
+   * Kalender
+   * Dashboards
+   * Dokumente
+   * Ziele
+   * Startseite
+   * Meine Updates
+   * Portfolios
+   * Programme
+   * Projekte
+   * Berichte
+   * Anforde- rungen
+   * Ressourcen- zuordnung
+   * Szenarios
+   * Teams
+   * Vorlagen
+   * Arbeitszeit- tabellen
+   * Benutzende
+   * Blueprints
+   * In Planung
+
    >[!IMPORTANT]
    >
-   >Für die Anzeige der Bereiche Szenarien und Ziele sind zusätzliche Lizenzen erforderlich. Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md) oder Informationen zum Workfront-Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+   >Für die Anzeige der Bereiche Szenarien, Ziele und Planung sind zusätzliche Lizenzen erforderlich.
+   >
+   >* Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Weitere Informationen zur Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 
 1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
 

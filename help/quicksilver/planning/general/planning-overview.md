@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 2%
+source-wordcount: '2039'
+ht-degree: 1%
 
 ---
 
@@ -154,13 +154,13 @@ Die folgenden Funktionen sind derzeit in der Workfront-Planung verfügbar:
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
 -->
 
-
-
 ## Aktivieren der Workfront-Planung für Benutzer in Ihrer Workfront-Instanz
 
-Ihr Unternehmen muss sich für das Adobe Workfront-Planungsprogramm registrieren, bevor Sie auf seine Funktionen zugreifen können. Wenn Sie sich für dieses Programm qualifizieren, sollten Sie von Ihrem Kundenbetreuer Informationen über die Anmeldung erhalten haben.
+Nachdem Ihr Unternehmen eine Lizenz für die Workfront-Planung erworben hat, müssen folgende Voraussetzungen erfüllt sein, damit Sie auf die Workfront-Planung zugreifen können:
 
-Weitere Informationen zum Gewähren von Zugriff auf und zum Aktivieren anderer Benutzer für die Verwendung der Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+* Ihr Workfront-Administrator muss Ihnen eine Layoutvorlage zuweisen, die die Planung im Hauptmenü enthält. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) und [Zuweisen von Benutzern zu einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+
+* Ihr Workfront-Administrator muss Ihnen eine Workfront-Lizenz und Workfront-Planungsberechtigungen zuweisen, mit denen Sie Objekte in der Workfront-Planung anzeigen oder erstellen können. Weitere Informationen zum Gewähren von Zugriff auf und zum Aktivieren anderer Benutzer für die Verwendung der Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminologie der Workfront-Planung
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      <tr> 
       <td>[!UICONTROL Projekt]</td> 
       <td>Der Name eines Projekts</td> 
-      <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Geschäftsfall], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Validierungen], [!UICONTROL Grundlinien], [!UICONTROL Abrechnungsraten], [!UICONTROL Abrechnung], Aufzeichnungen UICONTROL Ausgaben], [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics]</td> 
+      <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Geschäftsfall], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Validierungen], [!UICONTROL Grundlinien], [!UICONTROL Abrechnungsraten], [!UICONTROL Abrechnung], Aufzeichnungen Ausgaben!UICONTROL, [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL CONTROL Planning]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -104,12 +104,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>Der Name eines Portfolios</td> 
-      <td>[!UICONTROL Projekte], [!UICONTROL Programme], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimierung], [!UICONTROL Dokumente], [!UICONTROL Updates]</td> 
+      <td>[!UICONTROL Projekte], [!UICONTROL Programme], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimierung], [!UICONTROL Dokumente], [!UICONTROL Updates], [!UICONTROL Planung]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Programm]</td> 
       <td>Der Name eines Programms</td> 
-      <td>[!UICONTROL Projekte], [!UICONTROL Programmdetails], [!UICONTROL Updates], [!UICONTROL Dokumente]</td> 
+      <td>[!UICONTROL Projekte], [!UICONTROL Programmdetails], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Planung]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Vorlage]</td> 
@@ -198,6 +198,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      --> 
     </tbody> 
    </table>
+
+   *Ihr Unternehmen muss eine zusätzliche Lizenz für Workfront Planning erwerben, um diesen Bereich zum linken Bereich von Projekten, Portfolios und Programmen hinzufügen zu können. Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md)
 
    >[!NOTE]
    >

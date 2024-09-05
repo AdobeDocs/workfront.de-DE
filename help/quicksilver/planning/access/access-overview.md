@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '666'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 1%
 >
 >Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, ein neues Angebot von Adobe Workfront.
 >
->Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+>Ihr Unternehmen muss eine zusätzliche Lizenz für Workfront Planning erwerben, um auf seine Funktionen zugreifen zu können.
 >
->* Ein neuer Workfront-Plan und eine neue -Lizenz. Die Workfront-Planung ist nicht für ältere Workfront-Pläne oder -Lizenzen verfügbar.
->* Eine zusätzliche Lizenz für Workfront Planning.
->* Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein.
+>Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer
 >
 >Weitere Informationen zur Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 
 Für die Verwendung von Adobe Workfront Planning gibt es Lizenz- und Freigabeberechtigungen.
+
+In diesem Artikel werden der Zugriff und die Einstellungen beschrieben, die Sie für die Verwendung der Funktionen der Workfront-Planung benötigen.
 
 ## Zugriffsanforderungen
 
@@ -112,7 +112,12 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü und den Planungsbereich für die Objekte enthält, die eine Verbindung zur Workfront-Planung herstellen können: Projekte, Portfolios und Programme. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Anpassen des Hauptmenüs mithilfe einer Layoutvorlage</a> und <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Zuweisen von Benutzern zu einer Layoutvorlage</a>. </p>  
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die die Planungsoption in den folgenden Bereichen enthält:</p>
+   <ul><li>Hauptmenü</li>
+   <li>Linke Leiste von Projekten, Portfolios und Programmen</li>
+   <li>Landingpage</li>
+   <li>Nadeln</li></ul>
+   <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Erstellen und Verwalten von Layoutvorlagen</a>.</p> 
 </td>
   </tr>
  </tbody>
@@ -189,19 +194,24 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-
-
-## Planungsbereich im Hauptmenü für andere freigeben
+## Planungsbereich mithilfe einer Layoutvorlage freigeben
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-Nachdem sich Ihr Unternehmen für das Workfront-Planungsprogramm angemeldet hat, können Sie den Planungsbereich mithilfe einer Layoutvorlage zum Hauptmenü aller Benutzer hinzufügen.
+Nachdem Ihr Unternehmen eine zusätzliche Workfront Planning-Lizenz erworben hat, kann Ihr Systemadministrator die Planungsoption in den folgenden Bereichen hinzufügen, indem er eine Layout-Vorlage ändert und zuweist:
+
+* Hauptmenü
+* Landingpage
+* Linke Leiste für Projekte, Portfolios und Programme
+* Nadeln
+
+So fügen Sie Ihrer Workfront-Instanz Workfront-Planungsbereiche hinzu:
 
 1. Melden Sie sich bei **Workfront** als Workfront-Administrator an.
 
-1. Fügen Sie das Symbol **Planung** ![](assets/planning-icon.png) mithilfe einer **Layout-Vorlage** zum **Hauptmenü** hinzu.
+1. Wechseln Sie zu **Hauptmenü** > **Setup** > **Benutzeroberfläche** > **Layout-Vorlagen** und öffnen oder erstellen Sie eine Layoutvorlage.
 
-   Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Informationen zum Anpassen einer Layoutvorlage finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 1. Weisen Sie die Layoutvorlage den Benutzern zu, die Zugriff auf die Workfront-Planung haben möchten.
 

@@ -5,15 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
 
-
 # Datensatzdetails exportieren
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Um effizienter mit anderen zusammenzuarbeiten, die möglicherweise kein Workfront-Konto haben, können Sie die Details eines Datensatzes in eine Datei exportieren und für diese freigeben.
 
@@ -149,7 +151,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 * Sie können die Details eines Datensatzes in die folgenden Dateiformate exportieren:
 
    * .docx Word
-   * .pdf
+   * <span class="preview">.pdf</span>
 
 * Sie können den Tab Details einer Datensatzseite exportieren. Die Registerkarte Verbindungen kann nicht exportiert werden.
 
@@ -177,12 +179,18 @@ Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs w
 1. Klicken Sie entweder in der Vorschau oder auf der Datensatzseite auf das Symbol **Exportieren** ![](assets/export-icon-in-record-details-page.png) und klicken Sie dann auf eine der folgenden Optionen:
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-   Eine Word-Datei (.docx) oder eine PDF-Datei wird heruntergeladen und auf Ihrem Computer gespeichert.
+   Eine Word-Datei (.docx) <span class="preview">oder eine PDF</span>-Datei wird heruntergeladen und auf Ihrem Computer gespeichert.
 
    Der Name der exportierten Datei ist das Primäre Feld des Datensatzes.
 
    ![](assets/exported-word-file.png)
 
+   >[!NOTE]
+   >
+   >    Zusätzliche Informationen, die nicht auf der Seite angezeigt werden und nur sichtbar sind, nachdem Sie auf der Registerkarte Details auf Mehr anzeigen geklickt haben, werden nicht in der exportierten PDF angezeigt. In der exportierten Datei werden nur die auf der Seite sichtbaren Informationen angezeigt.
+
+
 1. (Optional) Gehen Sie zur heruntergeladenen Datei, öffnen Sie sie und bearbeiten Sie sie (falls es sich um eine Word-Datei handelt) oder geben Sie sie für andere frei.
+
