@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ Eine Liste aller Dokumentation zu Canvas-Dashboards finden Sie unter [Übersicht
 
 **Beta status**
 
-Canvas-Dashboards befinden sich derzeit in einer öffentlichen Beta-Testphase und unterliegen daher häufigen Änderungen. Unten finden Sie Anweisungen zum Anmelden in der Beta-Version.
+Canvas-Dashboards befinden sich derzeit in einer geschlossenen Beta-Testphase und unterliegen daher häufigen Änderungen. Unten finden Sie Anweisungen zum Anmelden in der Beta-Version.
 
 ## Beta-Teilnahme
+
+>[!IMPORTANT]
+>
+>Canvas-Dashboards befinden sich derzeit in der geschlossenen Beta-Phase und stehen daher nur bestimmten Organisationen zur Verfügung. Wir laden weiterhin Organisationen direkt aus einer Warteliste derjenigen, die Interesse geäußert haben, zur Beta-Phase ein. Sie können Ihre Organisation zur Kellnerliste hinzufügen, indem Sie [dieses Adobe-Feedback-Programmformular](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta) senden. Darüber hinaus erhalten Unternehmen, die Workfront Planning als Teil ihres Packages erworben haben, Beta-Zugriff, um produktübergreifende Reporting-Funktionen zu testen.
+>
+>Schließlich werden wir zu einer offenen Beta-Phase übergehen, an der der Registrierungsprozess für alle Organisationen verfügbar sein wird.
 
 ### Anmelden
 
@@ -33,11 +39,7 @@ Anmeldung in der Beta-Version:
 
 1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Dashboards**.
 
-1. Klicken Sie oben rechts auf der Seite auf die Beta-Schaltfläche **Beitritt zur Canvas-Dashboards-Beta** .
-
-   >[!NOTE]
-   >
-   >Diese Schaltfläche ist nur verfügbar, wenn Ihr Unternehmen in der geschlossenen Beta-Phase zugelassen wurde. Wenn die offene Beta beginnt, ist dies für alle Organisationen verfügbar.
+1. Klicken Sie oben rechts auf der Seite auf die Beta-Schaltfläche **Beitritt zur Canvas-Dashboards-Beta** . Beachten Sie, dass diese Schaltfläche nur verfügbar ist, wenn Ihre Organisation zur geschlossenen Beta-Phase eingeladen wurde.
 
 1. Lesen Sie die Begriffe und klicken Sie dann auf **Akzeptieren**. Sie sind jetzt in der Beta-Phase eingeschrieben. Beachten Sie jedoch, dass es einige Minuten dauern wird, bis Ihre Workfront-Daten in den Canvas-Dashboards vollständig verfügbar sind.
 
