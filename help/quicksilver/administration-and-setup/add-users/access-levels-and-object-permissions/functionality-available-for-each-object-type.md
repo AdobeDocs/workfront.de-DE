@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1919'
 ht-degree: 10%
 
 ---
@@ -357,7 +357,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
   </tr> 
   <tr> 
    <td>Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Kennworts für jeden Benutzer</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>HINWEIS</b>: Sie können sich nicht als ein Benutzer anmelden, der ein Systemadministrator ist.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -365,7 +365,7 @@ Benutzer mit einer Planungslizenz haben vollen Zugriff auf Berichte. Alle andere
   </tr> 
   <tr> 
    <td>Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Kennworts für alle Benutzer in einer Gruppe, die sie verwalten</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>HINWEIS</b>: Sie können sich nicht als ein Benutzer anmelden, der ein Systemadministrator ist.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 

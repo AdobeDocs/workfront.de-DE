@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Sie können verwalten, welche Informationen Benutzer für andere Benutzer anzeig
       <td> <p>Ermöglicht Benutzern Folgendes für beliebige Benutzer in Workfront:</p> 
        <ul> 
         <li>Benutzer bearbeiten, löschen oder deaktivieren</li> 
-        <li>Als Benutzer anmelden</li> 
+        <li>Als Benutzer anmelden<p><b>HINWEIS</b>: Sie können sich nicht als ein Benutzer anmelden, der ein Systemadministrator ist.</p></li> 
         <li>Kennwort des Benutzers zurücksetzen</li> 
        </ul> <p>Diese Option ist standardmäßig deaktiviert.</p> </td> 
      </tr> 
