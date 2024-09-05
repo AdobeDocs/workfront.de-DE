@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2087'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Um [!DNL Jira Software] mit [!DNL Workfront Fusion] zu verbinden, müssen Sie ei
 1. Fügen Sie in [!DNL Workfront Fusion] ein [!DNL Jira] -Modul zu einem Szenario hinzu, um das Feld **[!UICONTROL Verbindung erstellen]** zu öffnen.
 1. Geben Sie die folgenden Informationen an:
 
-   * **[!UICONTROL Dienst-URL]**
+   * **[!UICONTROL Dienst-URL]:** Dies ist die Basis-URL, mit der Sie auf Ihr Jira-Konto zugreifen. Beispiel: `yourorganization.atlassian.net`
    * **[!UICONTROL Benutzername]**
    * **[!UICONTROL API-Token]:** Dies ist das API-Token, das Sie im Abschnitt [API-Token in  [!DNL Jira]](#create-an-api-token-in-jira) dieses Artikels erstellen.
 
@@ -231,7 +231,7 @@ Um einen privaten Schlüssel für Ihre [!DNL Workfront Fusion Jira]-Verbindung z
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>Geben Sie Ihre [!DNL Jira] Instanz-URL ein. </td> 
+      <td>Geben Sie Ihre [!DNL Jira] Instanz-URL ein. Beispiel: <code>yourorganization.atlassian.net</code></td> 
      </tr> 
     </tbody> 
    </table>
@@ -378,9 +378,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
+     <img src="assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
  </tbody> 
 </table>
