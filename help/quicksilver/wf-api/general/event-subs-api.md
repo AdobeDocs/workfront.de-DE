@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2157'
 ht-degree: 3%
 
 ---
@@ -452,6 +452,12 @@ Beispielsweise kann ein Abonnement für ein Ereignis **UPDATE - TASK** nur dann 
 * Das Anwenden mehrerer Filter auf ein Abonnement entspricht der Verwendung eines logischen **AND** -Operators.
 * Auf ein einzelnes Objekt können mehrere Ereignisabonnements angewendet werden, sofern mindestens ein Parameter für das Abonnementfeld für Ereignisse zwischen den einzelnen Ereignisabonnements unterschiedlich ist.
 * Wenn einem einzelnen Objekt mehrere Ereignisabonnements zugewiesen sind, können alle mit diesem Objekt verknüpften Ereignisabonnements an einen einzelnen Endpunkt zurückgegeben werden. Diese Vorgehensweise kann als äquivalenter Ersatz für den logischen Operator **OR** verwendet werden, der nicht mithilfe von Filterparametern festgelegt werden kann.
+* Die folgenden Felder können nicht gefiltert werden:
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE.fields
 
 ### Verwenden von Vergleichsoperatoren
 
