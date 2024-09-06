@@ -7,9 +7,9 @@ description: In diesem Artikel wird beschrieben, warum aktive oder deaktivierte 
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
+source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Sie können mit Szenarien arbeiten, die entweder einen aktiven oder einen inakti
 
 * Ein inaktives Szenario wird nur ausgeführt, wenn Sie es manuell ausführen.
 
-  Dies ist nützlich, wenn Sie das Szenario nur zu bestimmten Zeiten ausführen möchten.
+  Dies ist nützlich, wenn Sie das Szenario jedes Mal manuell ausführen möchten.
 
 Sie können ein Szenario je nach Verwendungszweck jederzeit aktivieren oder deaktivieren.
 
