@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Filtern von Informationen im Ressourcenplaner
-description: '''(AL:*Iterate on this article: filtering by custom data. Weitere Verbesserungen? Sonderzeichen können sich ändern - folgen Sie der Geschichte, um zu erfahren, wann. Ursprünglich kam es in Beta 3 17.3.)"'
-author: Alina
+description: Mithilfe von Filtern können Sie ändern, welche Informationen im Ressourcenplaner aus allen im System gespeicherten Informationen angezeigt werden.
+author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,40 @@ Mithilfe von Filtern können Sie ändern, welche Informationen im Ressourcenplan
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Pro und höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td><p>Neu: Beliebig</p>
+       <p>oder</p>
+       <p>Aktuell: Pro oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Licht oder höher</p>
+       <p>oder</p>
+       <p>Aktuell: Überprüfen oder höher</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte, Benutzer und Ressourcenverwaltung anzeigen oder höher </p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Anzeigen des Zugriffs oder höher auf Projekte, Benutzer und Ressourcenverwaltung</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Projekte anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für Projekte anzeigen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Übersicht über die Filter für Ressourcenplaner
 
@@ -117,18 +119,16 @@ Beachten Sie beim Erstellen eines Filters Folgendes:
 
 So erstellen Sie einen Filter im Ressourcenplaner:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+{{step1-to-resourcing}}
 
-1. Klicken Sie auf **Ressourcen**.
+Der **Planer** wird standardmäßig angezeigt.
 
-   Der **Planer** wird standardmäßig angezeigt.
+Standardmäßig wird beim ersten Zugriff auf den Ressourcenplaner der <strong>Standardfilter</strong> angewendet.<br>Weitere Informationen zum Standardfilter finden Sie im Abschnitt <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Überblick über den Standardfilter im Ressourcenplaner</a> in diesem Artikel.
 
-   Standardmäßig wird beim ersten Zugriff auf den Ressourcenplaner der <strong>Standardfilter</strong> angewendet.<br>Weitere Informationen zum Standardfilter finden Sie im Abschnitt <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Überblick über den Standardfilter im Ressourcenplaner</a> in diesem Artikel.
-
-1. Klicken Sie in der linken oberen Ecke der auf das Symbol **Filter** .\
-   ![filter_icon.png](assets/filter-icon.png)\
-   Oder\
-   Erweitern Sie das Dropdown-Menü **Filter** und klicken Sie auf **Neuen Filter hinzufügen**.\
+1. Klicken Sie in der linken oberen Ecke der auf das Symbol **Filter** .
+   ![filter_icon.png](assets/filter-icon.png)
+Oder
+Erweitern Sie das Dropdown-Menü **Filter** und klicken Sie auf **Neuen Filter hinzufügen**.
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Um einen Filter mithilfe der integrierten Kriterien zu erstellen, geben Sie eines der folgenden Felder an:

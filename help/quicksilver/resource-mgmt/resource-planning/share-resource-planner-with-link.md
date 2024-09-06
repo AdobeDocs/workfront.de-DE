@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Freigeben der User-Ansicht "Resource Planer"über einen Link
+title: Freigeben der Benutzeransicht des Ressourcenplaners für einen Link
 description: Adobe Workfront kann eine eindeutige URL für die Benutzeransicht des Ressourcen-Planers generieren, die Sie als externe Seite in ein Dashboard einbetten oder separat in einer neuen Browser-Registerkarte öffnen können. Dies ist hilfreich, wenn Sie die Ressourcen-Planer-Informationen für Benutzer freigeben, die möglicherweise keinen direkten Zugriff auf den Ressourcen-Bereich haben.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,40 @@ Adobe Workfront kann eine eindeutige URL für die Benutzeransicht des Ressourcen
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Pro und höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+    <td><p>Neu: Beliebig</p>
+       <p>oder</p>
+       <p>Aktuell: Pro oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf Ressourcenverwaltung, Projekte und Benutzer</p> <p>Zugriff auf Finanzdaten anzeigen, um Kosteninformationen anzuzeigen </p> <p><b>HINWEIS</b> Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Anzeigen oder höherer Zugriff auf Ressourcenverwaltung, Projekte und Benutzer</p> <p>Zugriff auf Finanzdaten anzeigen, um Kosteninformationen anzuzeigen</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder Höhere Berechtigungen für die Projekte, die Sie im Ressourcenplaner anzeigen möchten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen oder Höhere Berechtigungen für die Projekte, die Sie im Ressourcenplaner anzeigen möchten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 Beachten Sie Folgendes beim Generieren der eindeutigen URL für die Benutzeransicht des Ressourcen-Planers:
@@ -62,10 +70,9 @@ Beachten Sie Folgendes beim Generieren der eindeutigen URL für die Benutzeransi
 
 So rufen Sie eine eindeutige URL in der Benutzeransicht des Ressourcen-Planers ab und geben sie für andere Benutzer frei:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+{{step1-to-resourcing}}
 
-1. Klicken Sie auf **Ressourcen**.
-1. Wählen Sie in der die Option **Nach Benutzer anzeigen** aus.
+1. Wählen Sie **Nach Benutzer anzeigen** aus.
 1. (Optional) Wählen Sie den Zeitraum aus, nach dem die Informationen im Ressourcenplaner angezeigt werden sollen. Wählen Sie aus den folgenden Optionen aus:
 
    * Woche

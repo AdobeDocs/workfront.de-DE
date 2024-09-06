@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
 
-# Erstellen und Bearbeiten von Geschäftsregeln
+# Geschäftsregeln erstellen und bearbeiten
 
 Mit einer Geschäftsregel können Sie eine Validierung auf Workfront-Objekte anwenden und verhindern, dass Benutzer ein Objekt erstellen, bearbeiten oder löschen, wenn bestimmte Bedingungen erfüllt sind. Geschäftsregeln helfen bei der Verbesserung der Datenqualität und der betrieblichen Effizienz, indem sie Aktionen verhindern, die die Datenintegrität beeinträchtigen könnten.
 
@@ -74,10 +74,17 @@ Informationen zu datumsbasierten Platzhaltern finden Sie unter [Verwenden datums
 
 In Geschäftsregeln ist auch ein API-Platzhalter verfügbar. Sie können `$$ISAPI` verwenden, um die Regel nur in der Benutzeroberfläche oder nur in der API Trigger.
 
+Die Platzhalter `$$BEFORE_STATE` und `$$AFTER_STATE` werden in Ausdrücken verwendet, um vor und nach jeder Änderung auf die Feldwerte des Objekts zuzugreifen.
+
+* Diese Platzhalter sind beide für den Trigger &quot;Bearbeiten&quot;verfügbar. Der Standardstatus für den Trigger &quot;Bearbeiten&quot;(wenn kein Status im Ausdruck enthalten ist) ist &quot;`$$AFTER_STATE`&quot;.
+* Der Trigger zur Objekterstellung erlaubt nur den Wert `$$AFTER_STATE`, da der Status &quot;before&quot;nicht vorhanden ist.
+* Der Trigger zum Löschen von Objekten lässt nur den Wert &quot;`$$BEFORE_STATE`&quot;zu, da der Nach-Status nicht vorhanden ist.
+
+
 Einige einfache Geschäftsregelszenarien sind:
 
 * Benutzer können in der letzten Februar-Woche keine neuen Ausgaben hinzufügen. Diese Formel könnte wie folgt lauten: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Benutzer können kein Projekt bearbeiten, das sich im Status Abgeschlossen befindet. Diese Formel könnte wie folgt lauten: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Benutzer können den Projektnamen eines Projekts nicht im Status Abgeschlossen bearbeiten. Diese Formel könnte wie folgt lauten: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 Ein Szenario mit verschachtelten IF-Anweisungen ist:
 

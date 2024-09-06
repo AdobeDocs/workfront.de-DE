@@ -4,10 +4,10 @@ product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: Anzeigen der verfügbaren, geplanten und tatsächlichen Stunden oder der FTE im Ressourcenplaner bei Verwendung der Benutzeransicht
 description: Zeigen Sie verfügbare, geplante und tatsächliche Stunden oder VZÄ im Ressourcenplaner an, wenn Sie die User viewPlanning-Funktion im RP verwenden. Vielleicht "budgeting resources in the RP"oder "Managing Resources in the RP". usw. - oder müssen Sie möglicherweise von einem anderen POV umgeleitet werden?!)"
-author: Alina
+author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%
