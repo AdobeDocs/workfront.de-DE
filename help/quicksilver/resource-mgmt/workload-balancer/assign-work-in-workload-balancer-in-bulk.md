@@ -1,25 +1,21 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs
+title: Zuweisen von Massenarbeit mithilfe des Lastenausgleichs
 description: Sie können mithilfe des Adobe Workfront Workload Balancer Ressourcen mehreren Aufgaben und Problemen in großen Mengen zuweisen.
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 2%
+source-wordcount: '1521'
+ht-degree: 1%
 
 ---
 
 # Stapelweises Zuweisen von Arbeiten mithilfe des Lastenausgleichs
 
 <!--Audited: 07/2024-->
-
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 Sie können mithilfe des Adobe Workfront Workload Balancer Ressourcen mehreren Aufgaben und Problemen in großen Mengen zuweisen.
 
@@ -28,6 +24,8 @@ Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern mithilfe des Workl
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,36 +36,31 @@ Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern mithilfe des Workl
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> 
-   <p>Neu: Standard</p>
-   <p>Aktuell:</p>
-   <ul>
-   <li><p>Planen Sie bei Verwendung des Lastenausgleichs im Ressourcenbereich</p></li>
-   <li><p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p></li></ul>
-
-</td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Planen Sie bei Verwendung des Workload-Balancers im Ressourcenbereich;</br>
+       Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf Folgendes:</p> 
     <ul> 
-     <li> <p>Ressourcenverwaltung</p> </li> 
-     <li> <p>Projekte</p> </li> 
-     <li> <p>Aufgaben</p> </li> 
-     <li> <p>Probleme</p> </li> 
+     <li>Ressourcenverwaltung</li> 
+     <li>Projekte</li> 
+     <li>Aufgaben</li> 
+     <li>Probleme</li> 
     </ul>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme, die Zuweisungen beinhalten</p> </td> 
+   <td>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme, die Zuweisungen beinhalten</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,27 +93,27 @@ Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern mithilfe des Workl
 
 1. (Bedingt) Wenn Sie über den Bereich &quot;Ressourcen&quot;oder für ein Team auf den Arbeitslastausgleich zugreifen, erweitern Sie das Dropdown-Menü **Projekt: Name** und wählen Sie mit den Filtermodifikatoren das Projekt oder die Projekte aus, für die Sie Zuweisungen vornehmen möchten. Sie können Projekte nach Name (dies ist die Standardoption) oder nach Status auswählen.
 
-Weitere Informationen zu Workfront-Filtermodifikatoren finden Sie unter [Filter und Bedingungsmodifikatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Weitere Informationen zu Workfront-Filtermodifikatoren finden Sie unter [Filter und Bedingungsmodifikatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
->[!NOTE]
->
->Der Projektname wird standardmäßig ausgewählt, wenn Sie auf den Lastenausgleich für ein Projekt zugreifen.
+   >[!NOTE]
+   >
+   >Der Projektname wird standardmäßig ausgewählt, wenn Sie auf den Lastenausgleich für ein Projekt zugreifen.
 
-![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (Optional) Klicken Sie auf **Projektaufgaben auswählen** , um die Aufgaben auszuwählen, für die Sie Zuweisungen vornehmen möchten. Wählen Sie dann im Dropdown-Menü **Aufgabe: Name** Aufgaben nach Name (dies ist die Standardoption) oder Status aus und verwenden Sie die Filter-Modifikatoren, um nach bestimmten Aufgaben zu suchen.
 
-Weitere Informationen zu Workfront-Filtermodifikatoren finden Sie unter [Filter und Bedingungsmodifikatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Weitere Informationen zu Workfront-Filtermodifikatoren finden Sie unter [Filter und Bedingungsmodifikatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
->[!NOTE]
->
->Sie können keine Aufgaben im Status Abgeschlossen auswählen.
+   >[!NOTE]
+   >
+   >Sie können keine Aufgaben im Status Abgeschlossen auswählen.
 
-![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
->[!TIP]
->
->Lassen Sie diese Auswahl leer, wenn Sie Massenzuweisungen für Probleme sowie Aufgaben vornehmen möchten.
+   >[!TIP]
+   >
+   >Lassen Sie diese Auswahl leer, wenn Sie Massenzuweisungen für Probleme sowie Aufgaben vornehmen möchten.
 
 1. (Optional) Klicken Sie neben einem der ausgewählten Kriterien auf das Symbol **Löschen** ![](assets/delete.png)
 

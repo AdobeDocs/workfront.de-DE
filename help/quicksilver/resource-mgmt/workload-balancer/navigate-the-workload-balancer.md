@@ -6,9 +6,9 @@ description: Verwenden Sie den Lastenausgleich , um die Verfügbarkeit Ihrer Res
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '4146'
+source-wordcount: '4068'
 ht-degree: 0%
 
 ---
@@ -21,47 +21,9 @@ Der Lastenausgleich ist in mehreren Bereichen von Adobe Workfront verfügbar. Di
 
 Weitere Informationen darüber, wo sich der Lastenausgleich befindet, finden Sie unter [Suchen des Lastenausgleichs](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
-
 ## Zugriffsanforderungen
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -70,33 +32,37 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Ressourcenbereich</p>
-   <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Planen Sie bei Verwendung des Workload-Balancers im Ressourcenbereich;</br>
+       Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Zeigen Sie den Zugriff auf Folgendes an oder höher:</p> 
     <ul> 
-     <li> <p>Ressourcenverwaltung</p> </li> 
-     <li> <p>Projekte</p> </li> 
-     <li> <p>Aufgaben</p> </li> 
-     <li> <p>Probleme</p> </li> 
-    </ul> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+     <li>Ressourcenverwaltung</li> 
+     <li>Projekte</li> 
+     <li>Aufgaben</li> 
+     <li>Probleme</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für die Projekte, Aufgaben und Probleme </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td>Anzeigen von oder höheren Berechtigungen für die Projekte, Aufgaben und Probleme</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen zum Anzeigen von Elementen im Arbeitslastausgleich
 
@@ -156,7 +122,8 @@ Nachdem Sie die Einstellungen ausgewählt haben, die Sie auf Ihre Ansicht anwend
 
 So navigieren Sie zum Arbeitslade-Balancer für mehrere Projekte:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Workfront und klicken Sie dann auf **Ressourcen**.![](assets/main-menu-icon.png)
+{{step1-to-resourcing}}
+
 1. Klicken Sie im linken Bereich auf **Lastenausgleich** .
 
    ![Workload Balancer](assets/nwe-balancer-global.png)
@@ -433,9 +400,11 @@ Weitere Informationen zu den Aufgaben und Problemen finden Sie im Workload Balan
 
 Das Navigieren in den Arbeitslastausgleich eines Teams ähnelt dem Navigieren im Arbeitslastausgleich für mehrere Projekte. Weitere Informationen finden Sie im Abschnitt &quot;[Navigieren im Arbeitslastausgleich für mehrere Projekte&quot;](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in diesem Artikel.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** ![Hauptmenü](assets/main-menu-icon.png) und dann auf **Teams**.
+{{step1-to-team}}
+
 Die Seite Ihres Home-Teams wird standardmäßig angezeigt.
-1. Klicken Sie im linken Bereich auf **Lastenausgleich** . Der Lastenausgleich eines Teams sollte standardmäßig angezeigt werden.
+
+1. Klicken Sie im linken Bereich auf **Lastenausgleich** .
 
    ![Lastenausgleich eines Teams](assets/nwe-balancer-team-350x172.png)
 
@@ -448,7 +417,8 @@ Die Seite Ihres Home-Teams wird standardmäßig angezeigt.
 
 ## Navigieren Sie zum Arbeitslastausgleich eines einzelnen Projekts.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** ![Hauptmenü](assets/main-menu-icon.png) und dann auf **Projekte**.
+{{step1-to-projects}}
+
 1. Klicken Sie auf den Namen eines Projekts, um die Projektseite zu öffnen.
 1. Klicken Sie im linken Bereich auf **Lastenausgleich** . Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Lastenausgleich** klicken.
 

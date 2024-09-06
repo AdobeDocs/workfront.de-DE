@@ -6,7 +6,7 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ihre täglichen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,26 +35,21 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>
-   <p>Bei Verwendung des Lastenausgleichs im Bereich "Ressourcen"benötigen Sie:</p>
-   <p>Neu: Standard</p>
-   <p>Oder</p>
-   <p>Aktuell: Plan</p>
-   <p>Wenn Sie den Lastenausgleich eines Teams oder Projekts verwenden, benötigen Sie Folgendes:</p>
-   <p>Neu: Standard</p>
-   <p>Oder</p>
-   <p>Aktuell: Arbeit</p>
- </td> 
-  </tr> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Planen Sie bei Verwendung des Workload-Balancers im Ressourcenbereich;</br>
+       Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf Folgendes:</p> 
     <ul> 
-     <li> <p>Ressourcenverwaltung</p> </li> 
-     <li> <p>Projekte</p> </li> 
-     <li> <p>Aufgaben</p> </li> 
-     <li> <p>Probleme</p> </li> 
-    </ul> </td> 
+     <li>Ressourcenverwaltung</li> 
+     <li>Projekte</li> 
+     <li>Aufgaben</li> 
+     <li>Probleme</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 

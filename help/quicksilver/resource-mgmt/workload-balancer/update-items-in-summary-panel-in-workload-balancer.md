@@ -6,16 +6,14 @@ description: Sie können das Bedienfeld "Zusammenfassung"im Arbeitslastausgleich
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '403'
+ht-degree: 2%
 
 ---
 
 # Aktualisieren von Arbeitselementen im Arbeitslastausgleich mithilfe der Zusammenfassung
-
-{{highlighted-preview}}
 
 Sie können das Bedienfeld Zusammenfassung einer Aufgabe oder eines Problems verwenden, um wichtige Informationen zu diesem Element zu aktualisieren. im Lastenausgleich.
 
@@ -23,40 +21,46 @@ Das Bedienfeld Zusammenfassung ist für Aufgaben und Probleme sowohl in den Bere
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Planen Sie bei Verwendung des Lastenausgleichs im Ressourcenbereich</p>
-   <p>Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p> 
- </p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Planen Sie bei Verwendung des Workload-Balancers im Ressourcenbereich;</br>
+       Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Bearbeiten Sie den Zugriff auf Folgendes:</p> 
     <ul> 
-     <li> <p>Ressourcenverwaltung</p> </li> 
-     <li> <p>Projekte</p> </li> 
-     <li> <p>Aufgaben</p> </li> 
-     <li> <p>Probleme</p> </li> 
-    </ul> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+     <li>Ressourcenverwaltung</li> 
+     <li>Projekte</li> 
+     <li>Aufgaben</li> 
+     <li>Probleme</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aktualisieren von Aufgaben und Problemen im Bereich &quot;Workload Balancer Summary&quot;
 
@@ -82,15 +86,7 @@ Sie müssen über Folgendes verfügen:
 
    Das Bedienfeld &quot;Zusammenfassung&quot;wird rechts geöffnet.
 
-   <div class="preview">
-
-   Beispiel des Zusammenfassungs-Bedienfelds in der Vorschau-Umgebung:
    ![Bedienfeld &quot;Zusammenfassung&quot;](assets/summary-panel-task-wb-new-comments.png)
-
-   </div>
-
-   Beispiel des Zusammenfassungsbereichs in der Produktionsumgebung:
-   ![Bedienfeld &quot;Zusammenfassung&quot;](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Ändern Sie eine Reihe von Feldern für das Arbeitselement, geben Sie eine Aktualisierung ein oder navigieren Sie von hier zu anderen Bereichen von Workfront, um Dokumente oder andere Informationen zum Arbeitselement hinzuzufügen.
 

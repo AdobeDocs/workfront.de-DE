@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
-# Exportieren Sie historische Daten aus [!DNL Adobe Workfron]t: Vor und Nachteile
+# Exportieren Sie historische Daten aus [!DNL Adobe Workfront]: Vor und Nachteile
 
 In diesem Artikel werden die Vor- und Nachteile von vier Optionen erläutert, mit denen Sie historische Daten aus [!DNL Workfront] exportieren können.
 
@@ -32,11 +32,11 @@ In diesem Artikel werden die Vor- und Nachteile von vier Optionen erläutert, mi
 
 ## Eine [!DNL Postgres]-Datendump-Datei von unserem Datenbankteam anfordern
 
-Ihr Kundenbetreuer kann eine Anfrage an unser Datenbankteam senden, um eine Datenbank-Dump-Datei (.dmp [!DNL Postgres] -Datei) mit Ihren Daten zu exportieren. Eine zusätzliche Anfrage wird an unser AOS-Team gesendet, um alle gespeicherten Dokumente abzurufen.
+Sie müssen eine Anfrage an unser Support-Team senden, das dann eine Anfrage an unser Datenbankteam sendet, um eine Datenbank-Dump-Datei (.dmp [!DNL Postgres] -Datei) mit Ihren Daten zu exportieren. Eine zusätzliche Anfrage wird an unser NOC-Team gesendet, um alle gespeicherten Dokumente abzurufen.
 
 * **Vorteile**: Sie erhalten die gesamte Datenladung, einschließlich benutzerdefinierter Felder, sowie Dokumente, die im System gespeichert sind.
 
-* **Nachteile**: Die Datenbankdatei ist schwer zu lesen: Sie können diese Datei nur lesen, wenn Sie sie in eine [!DNL Postgres] -Datenbank hochladen und die Beziehungen zwischen den Tabellen wiederherstellen. Die Dokumente werden auf einem separaten Dateiserver gespeichert und müssen separat mithilfe eines separaten Prozesses vom AOS-Team extrahiert werden. Dabei gibt es keine Organisation für die Dokumente, und alle werden durch ihre GUID referenziert.
+* **Nachteile**: Die Datenbankdatei ist schwer zu lesen: Sie können diese Datei nur lesen, wenn Sie sie in eine [!DNL Postgres] -Datenbank hochladen und die Beziehungen zwischen den Tabellen wiederherstellen. Die Dokumente werden auf einem separaten Dateiserver gespeichert und müssen separat mithilfe eines separaten Prozesses vom NOC-Team extrahiert werden. Dabei gibt es keine Organisation für die Dokumente, und alle werden durch ihre GUID referenziert.
 
 * **Kosten**: Dieser Download verursacht Kosten, die davon abhängen, wie lange das Team benötigt, um die Datei zu erstellen. Wenden Sie sich an Ihren AEM/CAE, um weitere Informationen zu erhalten oder diesen Prozess zu starten.
 
