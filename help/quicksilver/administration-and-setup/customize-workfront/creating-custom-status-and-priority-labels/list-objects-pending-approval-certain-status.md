@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,43 @@ ht-degree: 0%
 # Objekte mit ausstehendem Genehmigungsprozess mit einem bestimmten Status auflisten
 
 Wenn Sie versuchen, einen Status zu löschen, wird Ihnen möglicherweise eine Fehlermeldung angezeigt, dass dieser nicht gelöscht werden kann, da er sich in mindestens einem ausstehenden Genehmigungsprozess in Ihrem System befindet. Sie können einen Bericht ausführen, um die Objekte aufzulisten, für die die Genehmigung aussteht, und dann für jedes Objekt entscheiden, was Sie tun müssen.
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td>Alle</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+     <p>Neu: Standard</p>
+     <p>oder</p>
+     <p>Aktuell: Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td><p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p><p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td>Sie erhalten Verwaltungsberechtigungen für die von Ihnen erstellten Berichte.</td>
+  </tr>
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Im Standardmodus
 

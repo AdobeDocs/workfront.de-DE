@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2180'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Informationen zu Genehmigungen, die mit Dokumenten oder Testsendungen verknüpft
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,14 +56,14 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neuer Plan: Standard </p>
+   <td> <p>Neu: Standard </p>
  <p>oder</p> 
-<p>Aktueller Plan: Plan </p> 
+<p>Aktuell: Plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Wenn Sie Workfront-Administrator sind oder über Administratorzugriff auf Genehmigungsprozesse verfügen, können Sie einen Validierungsprozess auf Systemebene oder einen Validierungsprozess auf Gruppenebene für eine bestimmte Gruppe erstellen.</p> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Wenn Sie Systemadministrator sind oder Administratorzugriff auf Genehmigungsprozesse haben, können Sie einen Validierungsprozess auf Systemebene oder einen Validierungsprozess auf Gruppenebene für eine bestimmte Gruppe erstellen.</p> 
    <p>Als Gruppenadministrator können Sie Genehmigungsprozesse auf Gruppenebene für von Ihnen verwaltete Gruppen erstellen.</p> </td> 
   </tr> 
  </tbody> 
