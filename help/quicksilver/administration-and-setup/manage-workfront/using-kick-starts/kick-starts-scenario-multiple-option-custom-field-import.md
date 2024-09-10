@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,37 @@ Diese Felder können manchmal viele (manchmal Hunderte) Optionen haben. Durch de
 >1. Füllen der Excel Kick-Start-Tabelle
 >1. Hochladen der Excel-Tabelle in Workfront
 
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td>Alle</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p> Neu: Standard</p>
+   oder
+   <p>Aktuell: Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td>[!UICONTROL Systemadministrator]</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exportieren vorhandener benutzerdefinierter Daten aus Workfront (optionaler Schritt)
 

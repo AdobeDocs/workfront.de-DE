@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '217'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td>Sie müssen ein [!DNL Workfront] -Administrator sein. </td> 
+   <td>[!UICONTROL Systemadministrator]</td>  
   </tr> 
  </tbody> 
 </table>

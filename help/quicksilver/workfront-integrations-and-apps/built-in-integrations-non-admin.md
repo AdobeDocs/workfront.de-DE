@@ -7,9 +7,9 @@ description: Sie können [!DNL Adobe Workfront] in Anwendungen von Drittanbieter
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -45,6 +45,17 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      </ul>
      <li><p>Laden Sie die Datei von <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> herunter/installieren Sie sie.</p></li></ul>
      <p>Weitere Informationen und Anweisungen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installieren des [!DNL Adobe Workfront]-Plug-ins für [!DNL Creative Cloud] Anwendungen</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets und Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Automatische Erstellung von Ordnern, die zwischen Workfront und Adobe Experience Manager verknüpft sind 
+      <li>Synchronisieren von Metadaten für vorhandene verknüpfte Assets</p></li>
+      <li>Automatisches Aktualisieren der Metatada für Portfolio, Programm, Projekt, Aufgabe, Ausgabe und Dokumente bei einer Änderung in Workfront.</li>
+      <li>Verbinden Sie mühelos mehrere Experience Manager Assets-Repositorys mit einer Workfront-Umgebung oder mehreren Workfront-Umgebungen mit einem Experience Manager Assets-Repository über Organisations-IDs hinweg.</li></ul>
+     <p>Weitere Informationen und Anweisungen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Überblick über Adobe Experience Manager Assets-Integrationen</a></p> 
+     </td>
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -142,7 +153,7 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      <li>[!DNL Workfront] Benachrichtigungen in [!DNL Slack] empfangen </li> 
      <li>Verwalten von Genehmigungen in Slack </li> 
      <li>Erstellen von [!DNL Workfront] Aufgaben und Problemen aus [!DNL Slack] </li> 
-     <li>Post kommentiert ein Projekt oder eine Aufgabe von Slack</li> 
+     <li>Posten von Kommentaren zu einem Projekt oder einer Aufgabe von Slack</li> 
     </ul> </td> 
   </tr> 
   <tr> 

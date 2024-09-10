@@ -6,9 +6,9 @@ description: Einige Funktionen unterscheiden sich zwischen [!DNL Workfront] und 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
+source-git-commit: b3837dc83c56cb3d7796b8bee39e8bab78e35415
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ In dieser Tabelle werden einige Funktionen beschrieben, die sich zwischen den be
 | Die Navigation enthält einen Navigationsbereich auf oberster Ebene für [!DNL Adobe] Produkte, [!DNL Adobe] Benachrichtigungen, Hilfe und Ihr Benutzerprofil sowie die Navigationsleiste von [!DNL Workfront]. | Die Navigation enthält nur die Navigationsleiste [!DNL Workfront] . |
 | Auf die Hilfe kann über das Hauptmenü [!UICONTROL  und den oberen Navigationsbereich zugegriffen werden.] | Auf die Hilfe kann über das [!UICONTROL Hauptmenü] und die Navigationsleiste [!DNL Workfront] zugegriffen werden. |
 | Der Testversand-Viewer wird in einer neuen Registerkarte geöffnet | Der Testversand-Viewer wird in Workfront geöffnet |
+| Die für den Zugriff auf Workfront verwendete URL lautet `experience.adobe.com` | Die für den Zugriff auf Workfront verwendete URL lautet `(CompanyName).my.workfront.com` |
 
 {style="table-layout:auto"}
 

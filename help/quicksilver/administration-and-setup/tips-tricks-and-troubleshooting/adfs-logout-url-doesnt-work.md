@@ -9,9 +9,9 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Adobe [!DNL Workfront] Lizenz</td> 
    <td> 
    <p>Neu: Standard</p>
+   Oder
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen ein [!DNL Workfront] -Administrator sein. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für einen Benutzer</a>.</p>  </td> 
+   <td>[!UICONTROL Systemadministrator]</td>  
   </tr> 
  </tbody> 
 </table>

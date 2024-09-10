@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1052'
 ht-degree: 2%
 
 ---
@@ -40,26 +40,32 @@ Ein Gruppenadministrator kann diese Objekte auch für eine von ihm verwaltete Gr
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
-   oder
-   <p>Aktuell: Plan</p></td> 
+       <p>Oder</p>
+       <p>Aktuell: Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

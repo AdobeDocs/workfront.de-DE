@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 Wenn Benutzer keine [!DNL Adobe Workfront] E-Mail-Benachrichtigungen erhalten, müssen Sie Ihrer Firewall [!DNL Workfront] SPF-Einträge hinzufügen. Sie müssen mit Ihrem IT-Team zusammenarbeiten, um SPF-Einträge hinzuzufügen.
 
 ## Zugriffsanforderungen
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
@@ -47,7 +45,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td>Sie müssen ein [!DNL Workfront] -Administrator sein. </td> 
+   <td>[!UICONTROL Systemadministrator]</td> 
   </tr> 
  </tbody> 
 </table>

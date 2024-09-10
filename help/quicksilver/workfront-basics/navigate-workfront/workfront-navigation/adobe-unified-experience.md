@@ -6,9 +6,9 @@ description: Durch den Zugriff auf [!DNL Workfront] über Adobe Experience Cloud
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
+source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Durch den Zugriff auf [!DNL Workfront] bis [!DNL Adobe Experience Cloud] erhalten Sie ein nahtloses, einheitliches Erlebnis für die Verwaltung all Ihrer [!DNL Adobe] -Anwendungen. Mit der einheitlichen Identitätsverwaltung können Sie sich an einem zentralen Ort ohne mehrere URLs oder Anmelde-IDs anmelden.
 
-Um festzustellen, ob Ihr Unternehmen das Adobe Unified Experience verwendet, überprüfen Sie die URL, die Sie für den Zugriff auf Workfront verwenden.
+Wenn Ihr Unternehmen über das Adobe Unified Experience verfügt, beginnt die URL, die Sie für den Zugriff auf Workfront verwenden, mit `experience.adobe.com`.
 
 | URL | Adobe-Erlebnis |
 |------------|------------|
@@ -109,3 +109,4 @@ Wenn Ihr Kennwort von [!DNL Adobe] verwaltet wird, können Sie das Kennwort in I
 [In diesem Artikel erfahren Sie, wie Sie Ihr Adobe-Kennwort ändern.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Weitere Informationen zum Ändern des Kennworts erhalten Sie von Ihrem Administrator.
+

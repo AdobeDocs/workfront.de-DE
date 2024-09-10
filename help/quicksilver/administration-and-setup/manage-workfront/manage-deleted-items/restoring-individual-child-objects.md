@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Einzelne untergeordnete Objekte wiederherstellen
-description: In diesem Dokument wird beschrieben, wie Sie Hilfe beim Wiederherstellen einzelner untergeordneter Objekte erhalten, die in weniger als 30 Tagen zuvor aus Ihrer Adobe Workfront-Produktions- oder Vorschau-Umgebung gelöscht wurden.
+description: In diesem Artikel wird beschrieben, wie Sie Hilfe beim Wiederherstellen einzelner untergeordneter Objekte erhalten, die in weniger als 30 Tagen zuvor aus Ihrer Adobe Workfront-Produktions- oder Vorschau-Umgebung gelöscht wurden.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
 
 # Einzelne untergeordnete Objekte wiederherstellen
 
-In diesem Dokument wird beschrieben, wie Sie Hilfe beim Wiederherstellen einzelner untergeordneter Objekte erhalten, die in weniger als 30 Tagen zuvor aus Ihrer Adobe Workfront-Produktions- oder Vorschau-Umgebung gelöscht wurden.
+In diesem Artikel wird beschrieben, wie Sie Hilfe beim Wiederherstellen einzelner untergeordneter Objekte erhalten, die in weniger als 30 Tagen zuvor aus Ihrer Adobe Workfront-Produktions- oder Vorschau-Umgebung gelöscht wurden.
 
 Ein Workfront-Administrator kann Projekte, Aufgaben, Probleme und Dokumente in jeder Workfront-Instanz wiederherstellen, wie unter [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) beschrieben. Nur das Workfront-Datenbankteam kann Objekte wie Aufgaben, Probleme, Dokumente, benutzerdefinierte Formulare, Stunden und Notizen unabhängig vom übergeordneten Objekt wiederherstellen.
 
@@ -42,6 +42,39 @@ Weitere Informationen zu den Wartungsfenstern für die Vorschau-Sandbox-Umgebung
 >[!IMPORTANT]
 >
 >Dokumente bilden eine Ausnahme zu diesen Wiederherstellungsmethoden. Sie können sie manuell aus der Vorschau-Umgebung herunterladen und erneut in die Produktionsumgebung hochladen. Wenn Sie Dokumente stapelweise herunterladen und hochladen möchten, müssen Sie eine Datenwiederherstellung von Workfront anfordern.
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td>Alle</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>Oder</p>
+       <p>Aktuell: Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td>[!UICONTROL Systemadministrator]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Für die Wiederherstellung benötigte Informationen
 

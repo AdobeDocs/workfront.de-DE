@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Mit der Zugriffsebene des Systemadministrators können Sie sich wie jeder andere anmelden.</p> <p>Mit einer Standard- oder Planer-Zugriffsebene können Sie sich als Benutzer mit einer niedrigeren Lizenzstufe anmelden, wenn die Einstellung <b>Benutzer</b> in der Zugriffsebene für den Zugriff auf <b>Bearbeiten</b> konfiguriert ist, wobei <b>Erstellen</b> und mindestens eine der beiden Optionen <b>Benutzeradministrator</b> unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png"> aktiviert ist. </p> 
-   <p><b>HINWEIS</b>: Wenn der Benutzer <b>Admin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie ein Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p></td> 
+   <p><b>HINWEIS</b>: Wenn <b>Benutzeradministrator (Gruppenbenutzer)</b> aktiviert ist, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p></td>
   </tr> 
  </tbody> 
 </table>

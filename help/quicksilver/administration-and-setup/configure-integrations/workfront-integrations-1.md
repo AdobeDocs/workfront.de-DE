@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,18 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
      <p>Weitere Informationen und Anweisungen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installieren des [!DNL Adobe Workfront]-Plug-ins für [!DNL Creative Cloud] Anwendungen</a></p> 
      </td>  <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets und Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Automatische Erstellung von Ordnern, die zwischen Workfront und Adobe Experience Manager verknüpft sind 
+      <li>Synchronisieren von Metadaten für vorhandene verknüpfte Assets</p></li>
+      <li>Automatisches Aktualisieren der Metatada für Portfolio, Programm, Projekt, Aufgabe, Ausgabe und Dokumente bei einer Änderung in Workfront.</li>
+      <li>Verbinden Sie mühelos mehrere Experience Manager Assets-Repositorys mit einer Workfront-Umgebung oder mehreren Workfront-Umgebungen mit einem Experience Manager Assets-Repository über Organisations-IDs hinweg.</li></ul>
+     <p>Weitere Informationen und Anweisungen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Überblick über Adobe Experience Manager Assets-Integrationen</a></p> 
+     </td>
+   <td><ul><li>Workfront muss sich in einer Admin Console mit einer zugewiesenen Organisations-ID befinden.</li><li>Workfront und Experience Manager Assets oder Assets Essentials müssen dem Benutzer, der die Integration konfiguriert, als Produkt zugewiesen werden.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
