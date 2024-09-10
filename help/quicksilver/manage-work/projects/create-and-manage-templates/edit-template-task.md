@@ -7,16 +7,18 @@ description: Nach der Erstellung einer Vorlage können Sie Informationen zu den 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2409'
 ht-degree: 4%
 
 ---
 
 # Vorlagenaufgabe bearbeiten
 
-Nach der Erstellung einer Vorlage können Sie Informationen zu den Vorlagenaufgaben bearbeiten. Die Informationen, die Sie für eine Vorlagenaufgabe aktualisieren, sind mit Projektaufgaben verknüpft, nachdem Sie die Vorlage zum Erstellen eines Projekts oder zum Anhängen der Vorlage an ein Projekt verwendet haben.
+<!--Audited: 09/2024-->
+
+Nach der Erstellung einer Vorlage können Sie die Informationen der Vorlagenaufgaben bearbeiten. Die Informationen, die Sie für eine Vorlagenaufgabe aktualisieren, sind mit Projektaufgaben verknüpft, nachdem Sie die Vorlage zum Erstellen eines Projekts oder zum Anhängen der Vorlage an ein Projekt verwendet haben.
 
 Weitere Informationen zum Erstellen einer Vorlage finden Sie unter [Erstellen einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
@@ -28,6 +30,8 @@ Sie können Vorlagenaufgaben bearbeiten oder Vorlagenaufgaben stapelweise bearbe
 
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -55,7 +59,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welche Zugriffsebene Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -88,7 +94,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 
    >[!TIP]
    >
-   >Informationen zu allen Feldern, die im Bereich &quot;Details&quot;angezeigt werden, erhalten Sie, wenn Sie mit der Bearbeitung aller Felder fortfahren. Verwenden Sie dazu das unten stehende Feld &quot;Vorlage bearbeiten&quot;.
+   >Informationen zu allen Feldern, die im Bereich &quot;Details&quot;angezeigt werden, erhalten Sie, wie unten beschrieben, mit der Bearbeitung aller Felder über das Feld &quot;Vorlage bearbeiten&quot;.
 
 1. (Bedingt) Um alle Informationen zur Vorlagenaufgabe zu bearbeiten, klicken Sie auf das Menü **Mehr** Menü ![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Vorlagenaufgabe und dann auf **Bearbeiten**.
 
@@ -212,7 +218,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 
 ### Finanzielle Details {#finance}
 
-1. Beginnen Sie mit der Bearbeitung einer Aufgabe wie oben beschrieben.
+1. Beginnen Sie mit der Bearbeitung einer Vorlagenaufgabe wie oben beschrieben.
 1. Klicken Sie auf **Finance**.
 
    ![edit_task_finance.png](assets/edit-task-finance-350x216.png)
@@ -259,7 +265,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 
 ### Einstellungen {#settings}
 
-1. Beginnen Sie mit der Bearbeitung einer Aufgabe wie oben beschrieben.
+1. Beginnen Sie mit der Bearbeitung einer Vorlagenaufgabe wie oben beschrieben.
 1. Klicken Sie auf **Einstellungen**.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -319,7 +325,7 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 
 ### Arbeitsaufträge {#assignments}
 
-1. Beginnen Sie mit der Bearbeitung einer Aufgabe wie oben beschrieben.
+1. Beginnen Sie mit der Bearbeitung einer Vorlagenaufgabe wie oben beschrieben.
 1. Klicken Sie auf **Zuweisungen**.
 
    ![assignments_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
@@ -343,14 +349,22 @@ Sie können eine Vorlagenaufgabe über die Bereiche &quot;Vorlagenaufgabe bearbe
 
 ### Benutzerdefinierte Formulare {#custom-forms}
 
-Sie können benutzerdefinierte Standardformulare definieren, die automatisch an Aufgaben angehängt werden, wenn die Aufgaben einem Projekt hinzugefügt werden. Informationen zum Einrichten des Projekts, um benutzerdefinierte Standardformulare für Aufgaben einzuschließen, finden Sie im Abschnitt &quot;Aufgaben&quot;im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+Sie können benutzerdefinierte Formulare definieren, die standardmäßig automatisch an Aufgaben angehängt werden, wenn die Aufgaben einem Projekt hinzugefügt werden. Informationen zum Einrichten des Projekts, um benutzerdefinierte Standardformulare für Aufgaben einzuschließen, finden Sie im Abschnitt &quot;Aufgaben&quot;im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Beginnen Sie mit der Bearbeitung einer Aufgabe wie oben beschrieben. test
+Sie können auch benutzerdefinierte Formulare zu künftigen Aufgaben eines Projekts hinzufügen, wenn das Projekt aus einer Vorlage erstellt wird, indem Sie die benutzerdefinierten Formulare zu den Vorlagenaufgaben hinzufügen.
+
+1. Beginnen Sie mit der Bearbeitung einer Vorlagenaufgabe wie oben beschrieben.
 1. Klicken Sie auf **Benutzerdefinierter Forms**.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit der Vorlagenaufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einer Vorlagenaufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen. Die Formulare werden automatisch zu den aus der Vorlage erstellten Aufgaben hinzugefügt.
+1. Wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit der Vorlagenaufgabe verknüpfen möchten.
+
+   Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können.
+In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
+Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Sie können einer Vorlagenaufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen.
+Die Formulare werden automatisch zu den aus der Vorlage erstellten Aufgaben hinzugefügt.
 1. (Bedingt und optional) Wenn Sie ein benutzerdefiniertes Formular an die Vorlagenaufgabe angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie die Vorlagenaufgabe speichern können.
 
    >[!NOTE]
@@ -368,14 +382,12 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Kommentar {#comment}
 
-1. Beginnen Sie mit der Bearbeitung einer Aufgabe wie oben beschrieben.
+1. Beginnen Sie mit der Bearbeitung einer Vorlagenaufgabe wie oben beschrieben.
 1. Klicken Sie auf **Kommentar**.
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. Geben Sie einen Kommentar an, der im Aktualisierungsstream der Vorlagenaufgabe im verfügbaren Feld angezeigt werden soll. Dieser Kommentar ist für alle sichtbar, die Zugriff auf die Vorlage und die Vorlagenaufgabe haben und auf Notizen zugreifen können.
 1. Klicken Sie auf **Änderungen speichern**.
-
-   Ihre Änderungen werden für diese Vorlagenaufgabe gesendet.
 
    Wenn Sie oder ein anderer Benutzer ein Projekt aus dieser Vorlage erstellt, werden alle Einstellungen, die Sie auf Vorlagenaufgaben angewendet haben, zu den Einstellungen für die Projektaufgaben.

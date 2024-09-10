@@ -6,20 +6,24 @@ description: Portfolio- oder Projektmanagement (Project Portfolio Management, PP
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '646'
 ht-degree: 1%
 
 ---
 
 # Übersicht über die Portfolio-Verwaltung
 
-<!--Audited: 12/2023-->
+<!--Audited: 09/2024-->
 
 ## Übersicht über das Projekt-Portfolio-Management (PPM)
 
-Portfolio- oder Projektmanagement (Project Portfolio Management, PPM) ist der Prozess der Priorisierung und Verwaltung einer Projektliste, um spezifische Geschäftsziele zu erreichen. So ist ein Portfolio eine Sammlung von Projekten mit gemeinsamen Geschäftszielen. Das Ergebnis einer effektiven PPM-Methode ermöglicht es Führungskräften,
+Portfolio- oder Projektmanagement (Project Portfolio Management, PPM) ist der Prozess der Priorisierung und Verwaltung einer Projektliste, um spezifische Geschäftsziele zu erreichen.
+
+In diesem Artikel werden die allgemeinen Konzepte für das Portfoliomanagement beschrieben. Allgemeine Informationen zur Verwaltung von Portfolios in Adobe Workfront finden Sie unter [Übersicht über Portfolios in Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+
+Ein Portfolio ist eine Sammlung von Projekten mit gemeinsamen Geschäftszielen. Das Ergebnis einer effektiven PPM-Methode ermöglicht es Führungskräften,
 
 * Identifizieren Sie alle Projekte in einem Portfolio.
 * Machen Sie sich mit den Auswirkungen der einzelnen Projekte auf Ressourcen, Kosten und Umsatz vertraut.
@@ -40,12 +44,12 @@ Mithilfe der Portfolio-Management-Tools in [!DNL Workfront] können Sie Ihre Pro
 
 Die folgende Abbildung zeigt den allgemeinen Überblick über den PPM-Prozess in [!DNL Workfront]:
 
-![](assets/pm1-350x88.png)
+![](assets/project-portfolio-management-process-diagram.png)
 
 * [Projektanforderung](#project-request)
 * [Projektprüfung](#project-review)
 * [Portfolio-Optimierung](#portfolio-optimization)
-* [Ressourcenplanung](#resource-planning)
+* [Ressourcenverwaltung](#resource-management)
 * [Projektausführung](#project-execution)
 * [Projekt-Postmortem](#project-postmortem)
 
@@ -59,7 +63,7 @@ Weitere Informationen zum Erstellen eines Geschäftsfalls und einer Projektanfor
 
 Nachdem Sie die Projektanforderung eingereicht haben, prüft der Portfolio-Manager oder ein Executive-Team die Anfrage und entscheidet, ob das Projekt genehmigt werden soll. Wenn der Projektverantwortliche das Projekt genehmigt, wird das Projekt für ein Projekt-Portfolio des Unternehmens ausgewählt.
 
-Weitere Informationen zu Portfolios finden Sie in der [Übersicht über das Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Weitere Informationen zur Genehmigung eines Geschäftsfalls finden Sie unter [Genehmigen eines Geschäftsfalls](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Weitere Informationen zu Portfolios finden Sie unter [Übersicht über das Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Weitere Informationen zum Genehmigen eines Geschäftsfalls finden Sie unter [Genehmigen eines Geschäftsfalls](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Portfolio-Optimierung {#portfolio-optimization}
 
@@ -67,7 +71,7 @@ Nach dem Hinzufügen aller Projekte zum Portfolio optimiert und priorisiert der 
 
 Weitere Informationen zur Portfoliooptimierung finden Sie unter [Projekte im Portfolio Optimizer optimieren](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
-### Ressourcenplanung {#resource-planning}
+### Ressourcenverwaltung {#resource-management}
 
 Neben der Optimierung der Portfolioleistung und der Priorisierung der Projekte stellt der Ressourcen-Manager sicher, dass den Projekten angemessene Ressourcen zugewiesen werden. Sie bewerten die Verfügbarkeit und Zuordnung der Ressourcen mithilfe der in [!DNL Workfront] verfügbaren Ressourcen-Management-Tools.
 
@@ -79,7 +83,8 @@ Weitere Informationen zur Ressourcenverwaltung finden Sie im Abschnitt [Ressourc
 
 Nachdem Sie die Projektgenehmigung vom Projektmanager und die Ressourcenvalidierung vom Ressourcen-Manager erhalten haben, können Sie als Projekteigentümer das Portfolio in den Status &quot;[!UICONTROL Aktuell]&quot;versetzen und Ihre Benutzer können mit der Projektbearbeitung beginnen. Es wird empfohlen, in dieser Phase eine Grundlinie des Projekts zu erfassen, um einen Referenzpunkt für das Projekt in seinem ursprünglichen Zustand zu haben.
 
-Weitere Informationen zum Verwalten von Projekten in [!DNL Workfront] finden Sie unter [Verwalten von Projekten: Artikelindex](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Weitere Informationen zum Verwalten von Projekten in [!DNL Workfront] finden Sie unter [Verwalten von Projekten: Artikelindex](../../../manage-work/projects/manage-projects/manage-projects-overview.md).
+
 Weitere Informationen zum Erstellen von Grundlinien für Projekte finden Sie unter [Erstellen von Projekt-Grundlinien](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Projekt-Postmortem {#project-postmortem}

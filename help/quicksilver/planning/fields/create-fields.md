@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 2%
@@ -247,7 +247,7 @@ Absatzfelder erfassen zusätzliche alphanumerische Informationen zu einem Datens
 >
 >* Sie können für einen Datensatztyp maximal 20 Absatzfelder verwenden.
 >
->* Der Inhalt eines Absatzfelds kann bis zu 100.000 Zeichen enthalten.
+>* Der Inhalt eines Absatzfelds kann bis zu 10.000 Zeichen lang sein.
 >* Sie können die Rich-Text-Formatierung verwenden, um den Inhalt von Absatzfeldern zu verbessern, wenn sie in der Tabellenansicht oder auf der Detailseite eines Datensatzes angezeigt werden. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 >
 

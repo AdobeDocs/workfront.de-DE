@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
+exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 1%
 
 ---
-
 
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
@@ -34,7 +34,7 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 | Anzahl der Datensätze für eine Instanz der Workfront-Planung | 500.000 für Kunden mit Planungsplan <br>2 Mio. für Kunden mit Planning Plus |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
 | Anzahl der Zeichen für ein einzeiliges Textfeld | 1.000 Zeichen |
-| Anzahl der Zeichen für ein Absatzfeld | 100.000 Zeichen |
+| Anzahl der Zeichen für ein Absatzfeld | 10.000 Zeichen |
 | Anzahl der Absatzfelder für einen Datensatztyp | 20 Absatzfelder |
 | Dateigröße, die Sie in eine Datensatztyp-Tabelle einfügen können | 1 MB |
 | Dateigröße, die Sie über die API für eine Datentyptabelle importieren können | 1,5 MB |
@@ -73,4 +73,3 @@ Informationen zu Preisen und Verpackungen für die Workfront-Planung finden Sie 
 <!--[!IMPORTANT]
 >
 >*This functionality has been temporarily removed and it will be available at a later date.-->
-

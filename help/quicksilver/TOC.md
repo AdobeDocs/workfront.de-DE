@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: d43bc45ca400846307958fc15e04e16ef37eff11
 workflow-type: tm+mt
-source-wordcount: '14362'
+source-wordcount: '14372'
 ht-degree: 2%
 
 ---
@@ -172,6 +172,7 @@ ht-degree: 2%
          * [21.1 Weitere Verbesserungen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion-Release-Aktivität {#fusion-release}
          * [Adobe Workfront Fusion-Release-Aktivität](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion-Release-Aktivität: Woche vom 19. August 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
          * [Workfront Fusion-Release-Aktivität: Woche vom 5. August 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
          * [Workfront Fusion-Release-Aktivität: Woche vom 29. Juli 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
          * [Workfront Fusion-Release-Aktivität: Woche vom 22. Juli 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
@@ -1450,6 +1451,7 @@ ht-degree: 2%
          * [Entfernen eines Projekts aus einem Portfolio](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [Überprüfen angeforderter Projekte](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * Programme erstellen und verwalten {#create-and-manage-programs}
+         * [Programmübersicht in [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [Programme erstellen und verwalten](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [Programm erstellen](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [Bearbeiten von Programmen](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
