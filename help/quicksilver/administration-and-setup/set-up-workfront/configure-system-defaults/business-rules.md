@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -80,7 +80,6 @@ Die Platzhalter `$$BEFORE_STATE` und `$$AFTER_STATE` werden in Ausdrücken verwe
 * Der Trigger zur Objekterstellung erlaubt nur den Wert `$$AFTER_STATE`, da der Status &quot;before&quot;nicht vorhanden ist.
 * Der Trigger zum Löschen von Objekten lässt nur den Wert &quot;`$$BEFORE_STATE`&quot;zu, da der Nach-Status nicht vorhanden ist.
 
-
 Einige einfache Geschäftsregelszenarien sind:
 
 * Benutzer können in der letzten Februar-Woche keine neuen Ausgaben hinzufügen. Diese Formel könnte wie folgt lauten: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ Benutzer können keine abgeschlossenen Projekte bearbeiten und keine Projekte mi
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

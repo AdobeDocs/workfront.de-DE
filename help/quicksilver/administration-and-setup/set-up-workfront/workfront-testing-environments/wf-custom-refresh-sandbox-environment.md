@@ -3,15 +3,15 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Die Sandbox-Umgebung  [!DNL Adobe Workfront]  Benutzerdefinierte Aktualisierung
+title: Die [!DNL Adobe Workfront] benutzerdefinierte Sandbox-Umgebung für die Aktualisierung
 description: Die Sandbox für benutzerdefinierte Aktualisierungen ist eine Umgebung, in der Sie Daten aus Ihrer Produktionsumgebung testen und verwenden können. Es ist auch ideal für Trainings und die Bestimmung der Einrichtungsfunktionalität.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1639'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,11 @@ Die Sandbox für benutzerdefinierte Aktualisierungen ist eine Umgebung, in der S
 >
 >  Weitere Informationen zur Vorschau-Sandbox finden Sie unter [Die  [!DNL Adobe Workfront] Sandbox-Umgebung in der Vorschau anzeigen](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,6 +55,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
