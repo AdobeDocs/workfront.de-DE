@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
+source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 * [Integrationsverbesserungen](#integration-enhancements)
 * [Projektverbesserungen](#project-enhancements)
 * [Verbesserungen bei der Überprüfung](#proofing-enhancements)
+* [Verbesserungen bei Berichten und Dashboards](#report-and-dashboard-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
+
 
 ### Administratorverbesserungen
 
@@ -259,6 +261,39 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                                 <p><span class="preview">Produktionsversion für alle Kunden: 29. August 2024</span></p>
                             </li>
                         </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Verbesserungen bei Berichten und Dashboards
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungstermine</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Data Connect ist für neue Pläne verfügbar</a></p>
+                        <p>Workfront Data Connect steht Unternehmen für einen der neuen Workfront-Pläne zur Verfügung. Data Connect ermöglicht Unternehmen den Zugriff auf ihre Daten als sicheren und skalierbaren Data Lake, der mithilfe von Business Intelligence-Tools analysiert und visualisiert oder extern gespeichert werden kann. Darüber hinaus können Unternehmen Data Connect verwenden, um Datenanalysen anzuzeigen, die zuvor nicht verfügbar waren, z. B. zeitbasierte Trendanalyse, Variablenzuordnung und Analyse externer Systemdaten in Kombination mit Workfront-Daten.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p><span class="preview">Produktionsversion für alle Kunden: Mit der Version 24.10 (Oktober 2024)</span></p>
+                            </li>
+                        </ul>
+                        <p><i>Nur für Unternehmen verfügbar, die an einem der neuen Adobe Workfront-Pläne teilnehmen. Data Connect ist im Ultimate-Plan enthalten oder kann als Add-on zu den Prime- und Select-Plänen erworben werden.</i></p>
                     </td>
                 </tr>
            </tbody>
