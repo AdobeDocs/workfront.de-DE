@@ -6,9 +6,9 @@ description: Sie können den [!UICONTROL Portfolio Optimizer] verwenden, um Ihre
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Sie können den [!UICONTROL Portfolio Optimizer] verwenden, um Ihre Projekte anh
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -26,25 +28,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] oder höher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td> Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Neu: [!UICONTROL Standard] </p>
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL Zugriff auf Projekte und Portfolios bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>[!UICONTROL Zugriff auf Projekte und Portfolios bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Portfolio</p> <p>Contribute oder höhere Berechtigungen für Projekte</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Portfolio</p> <p>Contribute oder höhere Berechtigungen für Projekte</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Projektoptimierung im Portfolio Optimizer
 

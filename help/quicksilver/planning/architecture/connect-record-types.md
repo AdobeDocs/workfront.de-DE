@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2197'
 ht-degree: 1%
 
 ---
 
 
 # Datensatztypen verbinden
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 {{planning-important-intro}}
 
@@ -183,8 +185,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    * Ein anderer Datensatztyp aus dem ausgewählten Arbeitsbereich
 
-     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
      >
      > 
@@ -193,7 +194,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    * Ein Datensatztyp aus einem anderen Arbeitsbereich, der für die Verbindung von anderen Arbeitsbereichen konfiguriert wurde. Weitere Informationen finden Sie unter [Bearbeiten von Datensatztypen](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
      >[!TIP]
      >
@@ -206,7 +207,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    * **Experience Manager Assets** aus dem Abschnitt **Adobe-Anwendungen**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. Aktualisieren Sie die folgenden Informationen:
 
@@ -221,7 +222,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
      Diese Option ist nur verfügbar, wenn Datensätze aus zwei verschiedenen Arbeitsbereichen oder einem Datensatz und einem Adobe Experience Manager-Asset-Objekt verbunden werden.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
    * **Verbindungstyp**: Wählen Sie eine der folgenden Optionen aus, um anzugeben, mit wie vielen Datensätzen sie eine Verbindung herstellen können:
 
@@ -232,7 +233,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
      Diese Option ist nur verfügbar, wenn Datensätze aus demselben Arbeitsbereich, einem Datensatz und einem Workfront-Objekttyp verbunden werden.
 
-     ![](assets/many-to-many-connection-picker.png)
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
 
      Weitere Informationen zu Verbindungstypen finden Sie unter [Übersicht über Connected Record Types](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -259,13 +260,21 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    >
    >Ihr Workfront-Administrator kann Experience Manager Assets-Feldern Planungsfelder über das Metadaten-Mapping in Workfront zuordnen. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-1. (Bedingt) Wenn Sie ausgewählt haben, dass eine Verbindung mit Experience Manager Assets oder einem Workfront-Planungs-Datensatztyp hergestellt werden soll, deaktivieren Sie den Umschalter **Titel** im Bereich **Erscheinungsbild von Datensätzen** , wenn Sie nicht möchten, dass der Titel der verbundenen Datensätze oder Assets im verknüpften Feld angezeigt wird. Wenn diese Option deaktiviert ist, werden nur die Miniaturansichten der Datensätze in den verknüpften Feldern angezeigt. Datensätze ohne Miniaturbild zeigen stattdessen ein Bildsymbol an. Der Umschalter ist standardmäßig ausgewählt. Ein Beispiel dafür, wie die verbundenen Datensätze im Bereich **Erscheinungsbild eines Datensatzes** angezeigt werden.
+1. (Bedingt) Wenn Sie die Verbindung mit Experience Manager Assets oder einem Workfront-Planungs-Datensatztyp hergestellt haben, wählen Sie eine der folgenden Optionen im Bereich **Erscheinungsbild von Datensätzen** aus:
+
+   * <span class="preview">**Name und Bild**: Sowohl der Name als auch die Miniaturansicht oder das Symbol der verbundenen Datensätze werden im Feld des verbundenen Datensatzes angezeigt. Dies ist die Standardoption. </span>
+   * <span class="preview">**Name**: Nur der Name der verbundenen Datensätze wird im Feld des verbundenen Datensatzes angezeigt.</span>
+   * <span class="preview">**Bild**: Nur die Miniaturansicht oder das Symbol der verbundenen Datensätze wird im Feld des verbundenen Datensatzes angezeigt.</span>
+
+   Datensätze ohne Miniaturbild zeigen stattdessen das Symbol des Datensatztyps an. Ein Beispiel dafür, wie die verbundenen Datensätze im Bereich **Erscheinungsbild eines Datensatzes** angezeigt werden.
 
    >[!TIP]
    >
    >    Wenn Sie zulassen, dass mehrere Datensätze verknüpft werden, kann die Anzeige nur der Miniaturansicht in kleineren Bereichen, wie z. B. Datensatzansichten, Platz sparen.
    >
-   >Der Titel eines Datensatzes ist das primäre Feld des Datensatzes. Weitere Informationen finden Sie unter [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >Der Name eines Datensatzes ist das primäre Feld des Datensatzes. Weitere Informationen finden Sie unter [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >
+   >Die Auswahl eines Datensatzaussehens ist bei der Auswahl von Workfront-Objekttypen nicht möglich.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -286,7 +295,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    >    Jeder Benutzer mit der Berechtigung Anzeigen oder höher für den Arbeitsbereich kann die Informationen in den verknüpften Feldern anzeigen, unabhängig von seinen Berechtigungen oder Zugriffsrechten in der Anwendung der verknüpften Objekttypen.
 
 
-1. (Optional) Klicken Sie auf **Überspringen** , um das Hinzufügen von Feldern aus dem verknüpften Datensatz oder Objekttyp zu überspringen. Der **Name** oder der **Titel** des verknüpften Datensatzes ist das einzige sichtbare Feld in der Tabellenansicht des Datensatztyps, von dem Sie eine Verbindung herstellen.
+1. (Optional) Klicken Sie auf **Überspringen** , um das Hinzufügen von Feldern aus dem verknüpften Datensatz oder Objekttyp zu überspringen. Der Name oder das Primäre Feld des verknüpften Datensatzes ist das einzige sichtbare Feld in der Tabellenansicht des Datensatztyps, von dem Sie eine Verbindung herstellen.
 
 1. (Optional und bedingt) Wenn Sie ein Feld vom Typ Zahl, Währung, Prozentsatz oder Datum verknüpfen möchten, wählen Sie auch einen Aggregatorwert aus, um mehrere Werte zusammenzufassen. Die Werte der verknüpften Felder werden entweder durch Kommas getrennt oder als zusammengefasster Wert entsprechend dem ausgewählten Aggregator angezeigt, wenn Benutzer im verknüpften Datensatzfeld mehr als einen verknüpften Datensatz auswählen.
 

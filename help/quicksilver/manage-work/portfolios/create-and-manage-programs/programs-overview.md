@@ -6,7 +6,7 @@ title: Programmübersicht in [!DNL Adobe Workfront]
 description: Ein Programm ist eine Sammlung von Projekten, die einheitliche Merkmale aufweisen. Diese Projekte konkurrieren normalerweise um dieselben Ressourcen, Budgets oder Zeitnischen. Programme sind eine Untergruppe von Portfolios. Sie können Projekte mit Programmen verknüpfen, bevor sie einem Portfolio hinzugefügt werden.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -34,12 +34,12 @@ Sie müssen über folgenden Zugriff verfügen, um Portfolios erstellen und verwa
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Neu: Beliebig</p>
-   <p>Aktuell:[!UICONTROL Business] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Business] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p>
-   <p>Aktuell:[!UICONTROL Plan] </p> </td> 
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 

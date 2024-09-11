@@ -6,9 +6,9 @@ description: Ein Projekt ist eine große Arbeitseinheit in Adobe Workfront. Sie 
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,22 @@ Sie können ein Projekt in Workfront mit einer der folgenden Methoden erstellen:
 
   Weitere Informationen zum Importieren von Projekten mit Kick-Start finden Sie unter [Kick-Starts-Szenario: Vorbereitung des einfachen Projekts und des Aufgabenimports](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish eine Initiative aus einem Szenario im Adobe Workfront-Szenario-Planer. Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md). Informationen zum Erstellen von Projekten aus Veröffentlichungsinitiativen finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen im Szenario-Planer](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publish eine Initiative aus einem Szenario im Adobe Workfront-Szenario-Planer.
+
+  Für den Szenario-Planer ist eine der folgenden Voraussetzungen erforderlich:
+
+   * Eine zusätzliche Lizenz für die aktuelle Workfront-Lizenzstruktur.
+   * Eine Ultimate-Lizenz für die neue Workfront-Lizenzstruktur.
+
+  Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md). Informationen zum Erstellen von Projekten aus Veröffentlichungsinitiativen finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen im Szenario-Planer](../../../scenario-planner/publish-scenarios-update-projects.md).
+
+* Fügen Sie Projekte hinzu, während Sie sie aus einem Datensatztyp in der Workfront-Planung verbinden. Sie können nur Projekte ohne Vorlagen aus der Workfront-Planung erstellen.
+
+  Sie benötigen eine neue Workfront-Lizenz und eine zusätzliche Workfront Planning-Lizenz für Workfront Planning.
+
+  Informationen zum Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+
+  Informationen zum Erstellen von Projekten durch Hinzufügen zu Datensätzen finden Sie im Abschnitt &quot;Erstellen von Datensätzen während der Verbindung mit ihnen&quot; im Artikel [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md).
 
 ## Voraussetzungen
 

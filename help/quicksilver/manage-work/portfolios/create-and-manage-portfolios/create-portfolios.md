@@ -6,10 +6,10 @@ description: Ein Portfolio ist eine Sammlung von Projekten, die für dieselben R
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 2%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
@@ -31,8 +31,7 @@ Sie können Portfolios verwenden, um Projekte zu gruppieren, die zu denselben Pr
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Neu: Beliebig</p>
-   <p>Aktuell:[!UICONTROL Business] oder höher</p> </td> 
+   <td> <p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -53,6 +52,27 @@ Sie können Portfolios verwenden, um Projekte zu gruppieren, die zu denselben Pr
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Möglichkeiten zum Erstellen von Portfolios
+
+Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
+
+* Erstellen Sie ein neues Portfolio, das im Bereich Portfolios des Hauptmenüs beginnt. In diesem Artikel wird beschrieben, wie Sie ein neues Portfolio erstellen können.
+
+* Importieren Sie ein Portfolio mit Kick-Start.
+
+  Als Workfront-Administrator können Sie Portfolios mit einem Kick-Start importieren.
+
+  Informationen zum Importieren von Daten mithilfe von Kick-Start-Schritten in Workfront finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kick-Start-Vorlage](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+* Fügen Sie Portfolios hinzu, während Sie sie aus einem Datensatztyp in der Workfront-Planung verbinden.
+
+  Sie benötigen eine neue Workfront-Lizenz und eine zusätzliche Workfront Planning-Lizenz für Workfront Planning.
+
+  Informationen zum Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+
+  Informationen zum Erstellen von Portfolios durch Hinzufügen zu Datensätzen finden Sie im Abschnitt &quot;Erstellen von Datensätzen während der Verbindung mit ihnen&quot; im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+
 
 ## Erstellen von Portfolios
 

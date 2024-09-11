@@ -6,9 +6,9 @@ description: Sie können Informationen zu Programmen bearbeiten, die Sie erstell
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,9 @@ Sie können ein Programm auf der Programmseite bearbeiten oder Programme in eine
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -28,25 +31,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Neu: [!UICONTROL Standard] </p><p>Oder </p><p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsstufe*</td> 
-   <td> <p>[!UICONTROL Zugriff auf Programme bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen zum Zugriff auf Programme in Ihrer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">Zugriff auf Programme gewähren</a>. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>. </p> </td> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>[!UICONTROL Zugriff auf Programme bearbeiten</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Berechtigungen für ein Programm verwalten</p> <p> Informationen zum Gewähren von Berechtigungen für Programme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">Programm freigeben </a>. </p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>[!UICONTROL Berechtigungen für ein Programm verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Bearbeiten von Programmen
 

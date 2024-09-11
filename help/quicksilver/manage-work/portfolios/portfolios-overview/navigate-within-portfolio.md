@@ -6,9 +6,9 @@ description: In einem Portfolio navigieren
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,9 @@ Weitere Informationen zu Portfolios finden Sie unter [Übersicht über das Portf
 
 ## Zugriffsanforderungen
 
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -32,25 +35,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Neu: [!UICONTROL Standard] </p>
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL Zugriff auf Projekte und Portfolios bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>[!UICONTROL Zugriff auf Projekte und Portfolios bearbeiten</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Portfolio</p> <p>Anzeigen von oder höheren Berechtigungen für Projekte</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Portfolio</p> <p>Anzeigen von oder höheren Berechtigungen für Projekte</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## In einem Portfolio navigieren
 
@@ -60,15 +66,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wählen Sie im Dropdownmenü **[!UICONTROL Filter]** Folgendes aus:
 
    * **[!UICONTROL Portfolios, deren Inhaber ich bin]**: Enthält eine Liste der Portfolios, für die Sie als [!UICONTROL Portfolio-Manager] benannt sind.
-   * **[!UICONTROL Alle]**: Umfasst alle Portfolios, für die Sie mindestens Zugriff auf Ansicht haben.\
+   * **[!UICONTROL Alle]**: Umfasst alle Portfolios, für die Sie mindestens Zugriff auf Ansicht haben.
 
-     Weitere Informationen zum Zugriff auf Portfolios finden Sie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Ein Portfolio freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+     Weitere Informationen zum Zugriff auf Portfolios finden Sie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Ein Portfolio freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Informationen zum Hinzufügen neuer Portfolios finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-1. Klicken Sie auf den Namen eines Portfolios, um darauf zuzugreifen.\
-   Die folgenden Portfolio-Leistungsmetriken werden im Bereich [!UICONTROL Portfolio-Details] innerhalb eines Portfolios angezeigt:
+1. Klicken Sie auf den Namen eines Portfolios, um darauf zuzugreifen.
+Die folgenden Portfolio-Leistungsmetriken werden im Bereich [!UICONTROL Portfolio-Details] innerhalb eines Portfolios angezeigt:
 
    * Ob das Portfolio [!UICONTROL Einschaltzeit] ist
    * Ob das Portfolio [!UICONTROL Auf Budget] ist
@@ -96,8 +102,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      Weitere Informationen zum Erstellen von Filtern finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Klicken Sie im linken Bereich auf **[!UICONTROL Programme]** , um Programme im Portfolio zu erstellen oder vorhandene zu verwalten.\
-   Weitere Informationen zu Programmen finden Sie im Abschnitt [Programme erstellen und verwalten](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) .
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Programme]** , um Programme im Portfolio zu erstellen oder vorhandene zu verwalten.
+Weitere Informationen zu Programmen finden Sie im Abschnitt [Programme erstellen und verwalten](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) .
 
 1. (Optional) Erweitern Sie den Bereich &quot;**[!UICONTROL Portfolio-Details]**&quot;im linken Bereich und klicken Sie dann auf &quot;**[!UICONTROL Überblick]**&quot;oder &quot;**[!UICONTROL Benutzerdefinierter Forms]**&quot;, um Informationen zum Portfolio zu bearbeiten.
 
