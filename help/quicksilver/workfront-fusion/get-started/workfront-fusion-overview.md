@@ -8,9 +8,9 @@ description: Die Aufgabe von [!DNL Adobe Workfront Fusion] ist es, Ihre Prozesse
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
+source-git-commit: 600f5d41e1dbecf1f354805f7fc17bbcf2409aee
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,15 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 
 ## Übersicht über Workfront Fusion
 
-Die Aufgabe von [!DNL Adobe Workfront Fusion] besteht darin, Ihre Prozesse zu automatisieren, sodass Sie sich auf neue Aufgaben konzentrieren können, anstatt dieselben Aufgaben immer wieder zu wiederholen. Es funktioniert durch die Verknüpfung von Aktionen innerhalb und zwischen Apps und Diensten, um ein Szenario zu erstellen, in dem Ihre Daten automatisch übertragen und transformiert werden. Das Szenario, in dem Sie Watches für Daten in einer App oder einem Dienst erstellen und diese Daten verarbeiten, um das gewünschte Ergebnis zu liefern.
+Die Aufgabe von [!DNL Adobe Workfront Fusion] besteht darin, Ihre Prozesse zu automatisieren, sodass Ihre Benutzer nicht so viel Zeit mit Routineaufgaben verbringen müssen. Es funktioniert durch die Verknüpfung von Aktionen innerhalb und zwischen Apps und Diensten, um ein Szenario zu erstellen, in dem Ihre Daten automatisch übertragen und transformiert werden. Das Szenario, in dem Sie Watches für Daten in einer App oder einem Dienst erstellen und diese Daten verarbeiten, um das gewünschte Ergebnis zu liefern.
 
-Ein Szenario besteht aus einer Reihe von Modulen, die angeben, wie Daten in einer App umgewandelt oder zwischen Apps und Webdiensten übertragen werden sollen.
+Ein Szenario in Workfront Fusion stellt einen bestimmten Workflow dar. Beispielsweise könnte ein sehr einfaches Szenario eine bestimmte Workfront-Anforderungswarteschlange für Anforderungen überwachen und diese Anforderungen dann mithilfe einer Vorlage automatisch in Projekte konvertieren.
 
-Sie legen Module aus verschiedenen Apps und Webdiensten in ein Szenario, das eine Aufgabe ausführt. Mit einer [!DNL Workfront Fusion for Work Automation and Integration] -Lizenz können Sie beispielsweise ein Szenario erstellen, das in einer App oder einem Webdienst nach neuen Daten sucht und diese Daten dann in einem nachfolgenden Modul im Szenario verwendet, um ein bestimmtes Ergebnis zu erstellen, z. B. die Erstellung eines neuen Datensatzes. Nachdem Sie ein Szenario eingerichtet haben, führt [!DNL Workfront Fusion] die Aufgabe automatisch für Sie aus.
+Szenarien können erstellt werden, um sehr spezifische Situationen und Anwendungsfälle zu beheben. Sie können Filter verwenden, um die Aktion basierend auf Datenfeldern oder Eigenschaften zu ändern, durch Dateien oder Daten zu iterieren, Daten in einem Datenspeicher zu speichern und sie in einem anderen Szenario zu verwenden oder Ihr Szenario auf viele andere Arten zu konfigurieren.
+
+Sie können Ihrem Szenario auch andere Anwendungen als Workfront hinzufügen. Fusion umfasst viele dedizierte Connectoren für externe Anwendungen, darunter Anwendungen von Adobe, Google, Microsoft und vielen anderen. Wenn es keinen dedizierten Connector für eine Anwendung gibt, bietet Fusion Möglichkeiten, über eine öffentliche API eine Verbindung zu einem beliebigen Dienst herzustellen.
+
+Workfront Fusion bietet außerdem Funktionen, die Szenarien unterstützen, wie z. B. Vorlagen zur Szenarioerstellung, Ausführungsverlauf und Debugging.
 
 >[!NOTE]
 >
@@ -72,8 +76,12 @@ Sie legen Module aus verschiedenen Apps und Webdiensten in ein Szenario, das ein
 
 Wenn Sie mit der Arbeit mit Workfront Fusion beginnen, sind möglicherweise die folgenden Ressourcen hilfreich:
 
-* Weitere Informationen zu verfügbaren [!DNL Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+* Informationen zu Workfront Fusion-Schulungsressourcen finden Sie unter [Übersicht über die Workfront-Fusion-Schulungen](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
-* Weitere Informationen zu Szenarien finden Sie unter [Erstellen eines Szenarios für die Praxisintegration in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+* Informationen zum Erstellen von Praxisszenarien finden Sie unter [Erstellen von Praxisszenarien](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 
-* Weitere Informationen zu Modulen finden Sie unter [Modultypen](../../workfront-fusion/modules/module-types.md).
+<!--
+
+* To learn more about how scenarios work, see, see [new article]().
+
+-->
