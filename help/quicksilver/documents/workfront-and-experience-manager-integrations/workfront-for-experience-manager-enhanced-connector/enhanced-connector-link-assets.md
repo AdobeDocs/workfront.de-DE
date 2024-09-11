@@ -5,18 +5,26 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
+
 
 # Verknüpfen von Assets und Ordnern mit dem erweiterten Connector
 
 Sie können ein Asset oder einen Ordner aus Experience Manager Assets mit einem beliebigen Workfront-Objekt verknüpfen, das Dokumente unterstützt. Von Experience Manager Assets gesendete Assets werden nicht auf Ihren gesamten Dokumentenspeicher in Workfront angerechnet. Dokumente, die von Workfront hochgeladen und an Experience Manager Assets gesendet werden, zählen zum Gesamtspeicher.
 
+
+>[!NOTE]
+>
+>Excel-Dateien, die über den erweiterten Connector verknüpft sind, können in Workfront nicht in der Vorschau angezeigt werden. Sie müssen die Datei herunterladen, um darauf zugreifen zu können.
+
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,7 +38,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td> <p>Aktuell: Anforderung oder höher</p> 
+   oder
+   <p>Neu: Mitarbeiter oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
@@ -48,6 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
++++
 
 ## Voraussetzungen
 
