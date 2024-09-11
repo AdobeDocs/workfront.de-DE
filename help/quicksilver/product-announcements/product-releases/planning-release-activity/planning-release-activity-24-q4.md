@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
+title: Adobe Workfront - Planung der Release-Aktivität für die Version 24.10
 description: Dies ist die Veröffentlichungsaktivität für das Adobe Workfront-Planungsprodukt für das vierte Quartal 2024.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
-
 
 # Aktivität vom vierten Quartal 2024 für die Adobe Workfront-Planung
 
@@ -37,6 +37,22 @@ Informationen zu den in dieser Version enthaltenen Funktionen finden Sie unter [
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
 Eine Liste aller Funktionen, die nach der allgemeinen Release vom 28. August 2024 für die Adobe Workfront-Planung freigegeben wurden, finden Sie unter [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Anzeigeoptionen für verbundene Datensätze
+
+>[!NOTE]
+>
+>Vorschau-Version: 9. September 2024; Produktionsversion für alle Kunden: Mit der Version 24.10 (Oktober 2024)
+
+Beim Verbinden von Datensatztypen haben wir den Bereich für das Erscheinungsbild von Datensätzen neu gestaltet. Bei der Entscheidung, wie die verbundenen Datensätze in den verbundenen Feldern angezeigt werden, können Sie nun aus den folgenden Optionen auswählen:
+
+* Name
+* Name und Bild
+* Bild
+
+Vor dieser Verbesserung können Sie den Titel -Umschalter aktivieren oder deaktivieren, um den Namen der Datensätze anzuzeigen oder nur das Symbol oder die Miniaturansicht anzuzeigen. Der Umschalter Titel wurde entfernt.
+
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Exportieren von Datensatzdetails auf PDF
 
@@ -67,4 +83,3 @@ Im Folgenden finden Sie einige der wichtigsten Funktionen der Adobe Workfront-Pl
 * Stellen Sie eine Verbindung zu Objekttypen aus anderen Systemen her und erstellen Sie ein kohärentes Framework für alle Ihre Prozesse.
 
 Weitere Informationen zur Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
-
