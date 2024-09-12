@@ -1,14 +1,14 @@
 ---
 title: Verwalten der Timeline-Ansicht
-description: Rufen Sie Datensätze in einer Timeline-Ansicht auf der Seite Adobe Workfront Planning record type auf und bearbeiten Sie sie. Passen Sie die Timeline mit Filtern, Gruppierungen und Einstellungen an. Mit der Aufschlüsselungsfunktion können Sie verbundene Datensätze anzeigen.
+description: Rufen Sie Datensätze in einer Timeline-Ansicht auf der Seite Adobe Workfront Planning record type auf und bearbeiten Sie sie. In diesem Artikel wird beschrieben, wie Sie eine Timeline-Ansicht erstellen und eine vorhandene bearbeiten oder löschen können. Passen Sie die Timeline mit Filtern, Gruppierungen und Einstellungen an. Mit der Aufschlüsselungsfunktion können Sie verbundene Datensätze anzeigen.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2637'
 ht-degree: 0%
 
 ---

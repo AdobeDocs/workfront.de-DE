@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 4%
+source-wordcount: '630'
+ht-degree: 3%
 
 ---
 
@@ -26,6 +26,8 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Lay
 >[!NOTE]
 >
 >Die Optionen des Hauptmenüs, die den Benutzern angezeigt werden, hängen vom Lizenztyp und den Einstellungen der jeweiligen Zugriffsstufe ab. Einige Benutzer, die diese Layoutvorlage verwenden werden, sehen möglicherweise nicht alle Optionen, die Sie hier auswählen. Weitere Informationen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) und [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+>
+>Möglicherweise werden im Hauptmenü verschiedene Optionen angezeigt, wenn Ihr Unternehmen mit dem einheitlichen Adobe Workfront-Erlebnis integriert wurde. Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 

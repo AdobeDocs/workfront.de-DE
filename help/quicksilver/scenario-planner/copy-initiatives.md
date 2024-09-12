@@ -6,10 +6,10 @@ description: Sie können Initiativen erstellen, indem Sie bestehende kopieren. S
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 0%
+source-wordcount: '497'
+ht-degree: 1%
 
 ---
 
@@ -29,8 +29,10 @@ Sie können Initiativen erstellen, indem Sie bestehende kopieren. Sie können In
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td> <p>Aktuell: [!UICONTROL Business] oder höher</p>
-   <p>Neu: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Neu: Ultimate </p></li>
+   <p>Der Szenario-Planer ist für den neuen Workfront Select- oder Workfront-Plan nicht verfügbar. </p>
+   <li><p>Aktuell: [!UICONTROL Business] oder höher</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -40,9 +42,11 @@ Sie können Initiativen erstellen, indem Sie bestehende kopieren. Sie können In
   </tr> 
   <tr> 
    <td>Produkt* </td> 
-   <td> 
-   <p>Für die aktuellen Workfront-Pläne: </p>
-   <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können.</p> <p>Informationen zu Zugriff und Berechtigungen für den [!DNL Workfront Scenario Planner] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> benötigten Zugriff. </p> </td> 
+   <td> <ul><li><p>Für die neuen Workfront-Pläne:</p><p> Adobe Workfront</li></p>
+   <li><p>Für die aktuellen Workfront-Pläne: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront-Szenario-Planer</p></li></ul>
+
+<p>Weitere Informationen finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> erforderlichen Zugriff. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Zugriffsebene </td> 

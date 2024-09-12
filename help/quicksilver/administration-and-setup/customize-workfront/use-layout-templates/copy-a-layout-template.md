@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
 
 # Layout-Vorlage kopieren
+
+<!--Audited: 09/2024-->
 
 Sie können eine vorhandene Layoutvorlage kopieren. Dies ist hilfreich, wenn Ihr Unternehmen mehrere Layoutvorlagen benötigt, die viele der gleichen Einstellungen aufweisen.
 
@@ -38,17 +40,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td><p>Neu: Standard</p>
+   <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Layout-Vorlage kopieren

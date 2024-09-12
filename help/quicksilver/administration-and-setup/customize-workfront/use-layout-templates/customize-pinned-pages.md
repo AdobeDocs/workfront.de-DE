@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '495'
 ht-degree: 4%
 
 ---
 
 # Anpassen von fixierten Seiten mithilfe einer Layoutvorlage
 
-In einer Layoutvorlage können Sie die Seiten veröffentlichen, die Benutzer immer oben in Adobe Workfront zur Verfügung haben sollen. Dabei kann es sich um Seiten handeln, die über das Hauptmenü ![](assets/main-menu-icon.png) aufgerufen werden, oder um Dashboards.
+In einer Layoutvorlage können Sie die Seiten veröffentlichen, die Benutzer immer oben in Adobe Workfront zur Verfügung haben sollen. Dabei kann es sich entweder um Seiten handeln, die über das Hauptmenü ![](assets/main-menu-icon.png) oder, falls verfügbar, über das Hauptmenü ![](assets/lines-main-menu.png) aufgerufen werden, oder um Dashboards.
 
 Alle Pins, die Ihre Benutzer selbst hinzugefügt haben, werden rechts neben den Pins angezeigt, die Sie in der Layoutvorlage hinzufügen.
 
@@ -44,16 +44,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td><p>Neu: Standard</p>
+  <p> Aktuell: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
@@ -49,16 +49,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td><p>Neu: Standard</p>
+  <p> Aktuell: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +72,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
 1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow.png) unter **Anpassen, was Benutzer sehen**, und klicken Sie dann auf **Startseite und Zusammenfassung**.
 
-1. Klicken Sie in der Liste auf der linken Seite auf den Objekttyp (**Aufgaben**, **Probleme**, **Projekte**, **Dokumente** oder **Dokumentversionen**), den Sie in &quot;Startseite und Zusammenfassung&quot;anpassen möchten.
+1. Klicken Sie links in der Liste auf den Objekttyp (**Aufgaben**, **Probleme**, **Projekte**, **Dokumente** oder **Dokumentversionen**), den Sie in &quot;Startseite und Zusammenfassung&quot;anpassen möchten.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -139,7 +143,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
         <li>Geplantes Abschlussdatum</li>
         <li>Verpflichtungsdatum</li>
         <li>Gesendetes Datum</li>
-       </ul><p><b>HINWEIS</b>: Wenn diese Option aktiviert ist, werden Arbeitselemente, die überfällig werden, in die verspätete Gruppierung in der Hausarbeitsliste verschoben, und zwar nur auf Grundlage des Datums, nicht der Zeit.</p></td> 
+       </ul><p><b>NOTE</b>:</p> <p> Wenn diese Option aktiviert ist, werden Arbeitselemente, die überfällig werden, in die verspätete Gruppierung in der Hausarbeitsliste verschoben, wobei nur das Datum und nicht die Uhrzeit verwendet wird.</p></td> 
      </tr> 
     </tbody> 
    </table>

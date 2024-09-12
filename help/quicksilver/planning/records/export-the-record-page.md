@@ -6,16 +6,21 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '539'
 ht-degree: 1%
 
 ---
 
 # Datensatzdetails exportieren
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
+
+<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Überblick über die Version des vierten Quartals 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+
 
 Um effizienter mit anderen zusammenzuarbeiten, die möglicherweise kein Workfront-Konto haben, können Sie die Details eines Datensatzes in eine Datei exportieren und für diese freigeben.
 

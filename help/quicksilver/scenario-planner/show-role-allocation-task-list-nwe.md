@@ -6,9 +6,9 @@ description: Nachdem Sie Projekte und Initiativen miteinander verbunden haben, k
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,10 @@ Allgemeine Informationen zur Abstimmung von Ressourcen zwischen Projekten und In
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td> <p>Aktuell: [!UICONTROL Business] oder höher</p>
-   <p>Neu: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Neu: Ultimate </p></li>
+   <p>Der Szenario-Planer ist für den neuen Workfront Select- oder Workfront-Plan nicht verfügbar. </p>
+   <li><p>Aktuell: [!UICONTROL Business] oder höher</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -44,17 +46,19 @@ Allgemeine Informationen zur Abstimmung von Ressourcen zwischen Projekten und In
   </tr> 
   <tr> 
    <td>Produkt* </td> 
-   <td> 
-   <p>Für die aktuellen Workfront-Pläne: </p>
-   <p>Sie müssen eine zusätzliche Lizenz für die [!DNL Adobe Workfront Scenario Planner] erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können.</p> <p>Informationen zu Zugriff und Berechtigungen für den [!DNL Workfront Scenario Planner] finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> benötigten Zugriff. </p> </td> 
+   <td> <ul><li><p>Für die neuen Workfront-Pläne:</p><p> Adobe Workfront</li></p>
+   <li><p>Für die aktuellen Workfront-Pläne: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront-Szenario-Planer</p></li></ul>
+
+<p>Weitere Informationen finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> erforderlichen Zugriff. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Zugriffsebene </td> 
-   <td> <p>[!UICONTROL Ansicht] oder höherer Zugriff auf [!UICONTROL Projekte]</p> </td> 
+   <td> <p>Anzeigen oder höherer Zugriff auf Projekte.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektberechtigungen </p> </td> 
-   <td> <p>[!UICONTROL Ansicht] Berechtigungen für ein Projekt</p> </td> 
+   <td> <p> Anzeigen oder höherer Berechtigungen für ein Projekt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +71,7 @@ Allgemeine Informationen zur Abstimmung von Ressourcen zwischen Projekten und In
 
 Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] -Lizenz erworben hat, können Sie die Ressourcenzuweisungen zwischen der Initiative und dem mit ihr verknüpften Projekt im Abschnitt [!UICONTROL Aufgaben] des Projekts abstimmen.
 
-1. (Bedingt) Verbinden Sie ein Projekt mit einer Initiative mit einer der Methoden, die unter [Rollenzuweisung für Projekte und Initiativen in der Aufgabenliste anzeigen](#Connect) dieses Artikels beschrieben sind.
+1. (Bedingt) Ein Projekt muss mit einer Initiative verbunden sein, indem eine der im Abschnitt [Rollenzuordnung für Projekte und Initiativen in der Aufgabenliste anzeigen](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) dieses Artikels beschriebenen Methoden verwendet wird.
 
    >[!IMPORTANT]
    >

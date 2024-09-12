@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
 
 # Über das standardmäßige Adobe Workfront-Layout
 
-Das Standardlayout ist die Anordnung des Hauptmenüs ![](assets/main-menu-icon.png), des linken Bereichs sowie der Ansichten, Gruppierungen und Filter, bevor ein Adobe Workfront-Administrator Änderungen mithilfe einer Layoutvorlage vornimmt.
+Das Standardlayout ist die Anordnung des Hauptmenüs ![](assets/main-menu-icon.png) oder des Hauptmenüs ![](assets/lines-main-menu.png), sofern verfügbar, des linken Bereichs sowie der Ansichten, Gruppierungen und Filter, bevor ein Adobe Workfront-Administrator Änderungen mithilfe einer Layoutvorlage vornimmt.
 
 Informationen dazu, wie ein Workfront-Administrator das Standardlayout eines Benutzers ändern kann, indem er ihm eine Layoutvorlage zuweist, finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -30,7 +30,7 @@ Informationen dazu, wie ein Workfront-Administrator das Standardlayout eines Ben
 
 Das Standardlayout jedes Benutzers hängt von seiner Zugriffsstufe ab. Einige Benutzer sehen möglicherweise bestimmte Bereiche im Hauptmenü oder bestimmte Elemente des linken Bedienfelds nicht, je nach der ihnen zugewiesenen Zugriffsebene.
 
-Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäßig für jede Zugriffsebene angezeigt werden. Der Standard-Landingbereich für jede Zugriffsebene wird ebenfalls angegeben:
+Die folgende Tabelle zeigt den Standard-Landingbereich und die Elemente des linken Bedienfelds für jede Zugriffsebene:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
   <tr> 
    <th>Bereich</th> 
    <th> Linke Bedienfeldelemente </th> 
-   <th> <p>Systemadministrator</p> </th> 
-   <th> <p>Planer</p> </th> 
+   <th> Systemadministrator</th> 
+   <th> Planer </th> 
    <th>Arbeitskraft</th> 
    <th>Prüfende Person</th> 
    <th>Anfragender</th> 
@@ -150,7 +150,7 @@ Die folgende Tabelle zeigt, welche Elemente des linken Bedienfelds standardmäß
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Anfragen</strong> </td> 
-   <td><strong>Neue Anforderung</strong> </td> 
+   <td>Neue Anforderung </td> 
    <td>ms </td> 
    <td>ms </td> 
    <td>ms </td> 

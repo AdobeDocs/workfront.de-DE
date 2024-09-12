@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Als Adobe Workfront-Administrator können Sie mithilfe von Auditprotokollen Benutzeränderungen verfolgen, die in den letzten 90 Tagen im System ausgelöst wurden.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1530'
 ht-degree: 3%
 
 ---
@@ -65,10 +65,11 @@ Die folgenden Felder werden in jedem Auditprotokolleintrag aufgezeichnet:
 ## Auditprotokolltypen und die sie Trigger Aktionen
 
 * [Zugriffsebene](#access-level)
+* [Verfahrensregeln](#business-rules)
 * [Firma](#company)
 * [Bedingung](#condition)
 * [Benutzerdefiniertes Feld](#custom-field)
-* [Benutzerdefinierte Formulare](#custom-forms)
+* [Benutzerdefiniertes Formular](#custom-forms)
 * [Benutzerdefinierter Abschnitt](#custom-section)
 * [Wechselkurs](#exchange-rate)
 * [Gruppe](#group)
@@ -97,6 +98,21 @@ Das System generiert einen Protokolleintrag auf Zugriffsstufe, wenn ein Benutzer
      >Das System zeichnet keine Berechtigungsänderungen an Finanzdaten oder den folgenden Zugriffstypen auf: Anzeigen und Bearbeiten.
      >
      >Wenn ein Benutzer beispielsweise den Zugriffstyp Planer von Ansicht zu Bearbeiten ändert, zeigt das System keine Informationen an, die im Dropdown-Menü Einstellungen anpassen enthalten sind.
+
+### Verfahrensregeln
+
+Geschäftsregeln sind nur für Kunden verfügbar, die einen Ultimate Workfront Plan erworben haben. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+Das System generiert einen Audit-Protokolleintrag für Geschäftsregeln, wenn ein Benutzer einen der folgenden Schritte ausführt:
+
+* Erstellt eine Geschäftsregel
+* Bearbeiten von Geschäftsregeln:
+
+   * Benennt ihn um
+   * Fügt Ausdrücke hinzu oder entfernt diese
+   * Ändert einen Trigger
+
+* Löscht eine Geschäftsregel
 
 ### Firma {#company}
 
@@ -160,7 +176,7 @@ Das System generiert einen Eintrag des Prüfprotokolls &quot;Benutzerdefiniertes
 * Löscht ein benutzerdefiniertes Feld
 * Freigeben eines benutzerdefinierten Felds
 
-### Benutzerdefinierte Formulare {#custom-forms}
+### Benutzerdefiniertes Formular {#custom-form}
 
 Das System generiert einen benutzerdefinierten Forms-Auditprotokolleintrag, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
@@ -241,7 +257,7 @@ Weitere Informationen zum Konfigurieren von Auftragsrollen finden Sie unter [Ers
 Das System generiert einen Auditprotokolleintrag für den Anmeldeversuch, wenn ein Benutzer einen der folgenden Schritte ausführt:
 
 * Anmelden, Abmelden oder Fehler bei einem Anmeldeversuch in Workfront (in einem Browser und in der App)
-* Anmelden, Abmelden oder Fehler bei einem Anmeldeversuch bei einer Workfront-Integration (z. B. Workfront für Slack und Workfront für Salesforce)
+* Anmeldung, Abmeldung oder Fehler bei einem Anmeldeversuch bei einer Workfront-Integration (z. B. Workfront für Slack und Workfront für Salesforce)
 * Anmelden oder Abmelden von der Workfront-API
 
 Die Protokolle für Anmeldeversuche werden nicht aufgezeichnet, wenn ein Workfront-Administrator die Funktion Anmelden als verwendet.

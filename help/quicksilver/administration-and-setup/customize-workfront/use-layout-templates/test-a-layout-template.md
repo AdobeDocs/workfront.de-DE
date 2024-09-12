@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
 # Testen einer neuen Layoutvorlage
 
-Es ist wichtig, die neue Vorlage oder Layoutvorlage zu testen, bevor sie Benutzern zugewiesen wird.
+Es ist wichtig, die neu erstellte Layoutvorlage zu testen, bevor Sie sie Benutzern zuweisen.
 
 Weitere Informationen zu Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
