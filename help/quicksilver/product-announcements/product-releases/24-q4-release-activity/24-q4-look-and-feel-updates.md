@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Eine Liste aller Änderungen, die mit der Version vom vierten Quartal 2024 verf�
 
 >[!NOTE]
 >
->Vorschau-Version: 18. Juli 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (September 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.10 (Oktober 2024)
+>Vorschau-Version: 18. Juli 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (12. September 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.10 (Oktober 2024)
 
 Die Seite Einrichtung > System > Voreinstellungen wurde auf ein moderneres Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 

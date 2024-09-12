@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 * [Verbesserungen bei der Überprüfung](#proofing-enhancements)
 * [Verbesserungen bei Berichten und Dashboards](#report-and-dashboard-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
-
+* [Funktion wird bald aus Workfront entfernt](#functionality-soon-to-be-removed-from-workfront)
 
 ### Administratorverbesserungen
 
@@ -78,6 +78,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Weiterleiten von Umgebungs-Promotion-Paketen</a></p>
+                        [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
                         <p>Um die Umgebungsförderung flexibler und benutzerfreundlicher zu gestalten, haben wir die Rollback-Funktion aktiviert. Jetzt können Sie Pakete innerhalb von 24 Stunden zurücksetzen, um frühere Konfigurationen, die von einem Umgebungs-Promotionpaket betroffen sind, leichter wiederherzustellen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -192,7 +193,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Weitere relevante Smart-Zuweisungen</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
                         <p>Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
@@ -362,6 +363,14 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
            </tbody>
         </table>
 
+### Funktion wird bald aus Workfront entfernt
+
+Die folgende Funktion wird in Kürze aus Workfront entfernt:
+
+#### Veraltetes Home-Erlebnis mit Version 24.10
+
+Mit der Version 24.10 werden wir offiziell das alte Home-Erlebnis einstellen. Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird. Weitere Informationen zur Umstellung, einschließlich Hinweise dazu, was Benutzer und Administratoren zur Vorbereitung tun können, finden Sie im [Handbuch zur veralteten Home-Version](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
 ## Ankündigungen
 
 ### Workfront Fusion-Verbesserungen
@@ -399,11 +408,3 @@ Informationen zu den Wartungsupdates, die in der Version vom 4. Quartal 2024 vor
 ### Schulungsaktualisierungen
 
 Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt &quot;Neue Funktionen&quot;auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
-
-### Funktion wird bald aus Workfront entfernt
-
-Die folgende Funktion wird in Kürze aus Workfront entfernt:
-
-#### Veraltetes Home-Erlebnis mit Version 24.10
-
-Mit der Version 24.10 werden wir offiziell das alte Home-Erlebnis einstellen. Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird. Weitere Informationen zur Umstellung, einschließlich Hinweise dazu, was Benutzer und Administratoren zur Vorbereitung tun können, finden Sie im [Handbuch zur veralteten Home-Version](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).

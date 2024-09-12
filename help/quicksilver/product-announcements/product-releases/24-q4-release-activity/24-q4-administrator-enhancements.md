@@ -4,9 +4,10 @@ description: Verbesserungen für Administratoren im vierten Quartal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -38,6 +39,8 @@ Um die Umgebungsförderung flexibler und benutzerfreundlicher zu gestalten, habe
 Zuvor wurden Konfigurationen manuell oder über ein anderes Umgebungsförderungspaket wiederhergestellt.
 
 Weitere Informationen zum Zurücksetzen eines Umgebungs-Promotion-Pakets finden Sie unter [Zurücksetzen eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md).
+
+[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
 ## Die Schaltfläche &quot;Layout&quot;im benutzerdefinierten Formularentwickler ermöglicht zwei oder drei Spalten
 

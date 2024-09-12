@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Informationen zur Verwendung einer neu erstellten Verbindung mit einem externen 
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -31,7 +33,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>TBD</td> 
+   <td><p>In den folgenden Plänen enthalten:</p>
+    <ul>
+        <li>Ultimativ</li> 
+    </ul>    
+   <p>Kann als Zusatzprodukt zu den folgenden Plänen erworben werden:</p> 
+    <ul>
+        <li>Auswählen</li> 
+        <li>Erstklassig</li>
+    </ul> 
+    <p>Workfront Data Connect ist nicht für ältere Workfront-Pläne verfügbar.</p> 
+   </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -45,6 +57,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Leserkonto erstellen
 
