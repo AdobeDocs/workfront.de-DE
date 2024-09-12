@@ -9,16 +9,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 84a72ab4547a582707351948052fdd59cc57a9d5
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
+source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
 # Zurücksetzen eines Umgebungs-Promotion-Pakets
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
+
 
 Nachdem Sie ein Paket installiert haben, können Sie es zurücksetzen. Dadurch werden die Änderungen entfernt, die das Paket in der Zielumgebung vorgenommen hat, und die betroffenen Objekte in ihren vorherigen Konfigurationen wiederhergestellt.
 
@@ -86,10 +87,3 @@ Beachten Sie Folgendes, um festzustellen, ob ein bestimmter Paketeinsatz zurück
 
 1. (Optional) Zeigen Sie im Bereich Rollback-Vorschau die Änderungen an, die auftreten, wenn die Bereitstellung zurückgesetzt wird.
 1. Klicken Sie oben rechts im Bildschirm auf **Zurückrollen** .
-
-
-
-
-
-
-
