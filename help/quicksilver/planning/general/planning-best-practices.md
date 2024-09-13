@@ -1,10 +1,11 @@
 ---
 title: Best Practices für die Adobe Workfront-Planung
 description: Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams organisieren. Dies sind einige Best Practices, die wir für die ersten Schritte mit der Workfront-Planung empfehlen.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: ae10d35c61bf40c9e6f0422bd670b9733ad62aae
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
 source-wordcount: '3225'
 ht-degree: 0%

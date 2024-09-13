@@ -6,9 +6,9 @@ description: Wenn Sie den Adobe Workfront-Szenario-Planer verwenden, können Sie
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Bei Verwendung des [!UICONTROL Adobe Workfront-Szenario-Planers] können Sie Ini
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Neu: Ultimate </p></li>
-   <p>Der Szenario-Planer ist für den neuen Workfront Select- oder Workfront-Plan nicht verfügbar. </p>
+   <p>Der Szenario-Planer ist für die neuen Workfront Select- oder Workfront Prime-Pläne nicht verfügbar. </p>
    <li><p>Aktuell: [!UICONTROL Business] oder höher</p></ul>
    </td> 
   </tr> 
