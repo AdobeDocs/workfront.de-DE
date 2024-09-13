@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 8b087b69a671852d7a71e1bb3fa4491bbac1b770
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ In den folgenden Artikeln finden Sie allgemeine Informationen zur neuen Workfron
 * [Adobe Workfront-Planungsübersicht](/help/quicksilver/planning/general/planning-overview.md): Ein Überblick über die Adobe Workfront-Planung auf hoher Ebene, einschließlich der Terminologie und Konzepte, die für diese Lösung eindeutig sind. Wir empfehlen Ihnen, hier mit Workfront Planning Ihre Journey zu beginnen.
 * [Übersicht über die Objektbeschränkungen bei der Adobe Workfront-Planung](/help/quicksilver/planning/general/limitations-overview.md): Eine Liste der Einschränkungen für die Anzahl der Objekte, die Sie in der Workfront-Planung erstellen können.
 * [Adobe Workfront Planning-Release-Aktivität für 2024](/help/quicksilver/planning/general/release-activity.md): Eine Liste aller Funktionen, die im Frühstadium der Workfront-Planung 2024 veröffentlicht wurden. Dazu gehören Links zu früheren Versionen, die seit dem Start des Betaprogramms für die Adobe Workfront-Planung am 22. Mai 2023 aufgetreten sind.
-* [Best Practices für die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-best-practices.md): Eine Sammlung von Best Practices für die Verwendung und häufig gestellte Fragen zur Workfront-Planung.
+* [Best Practices für die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-best-practices.md): Eine Sammlung häufig gestellter Fragen und Best Practices zur Verwendung der Workfront-Planung.
 
 ## Zusätzliche Funktionen für die Workfront-Planung
 
