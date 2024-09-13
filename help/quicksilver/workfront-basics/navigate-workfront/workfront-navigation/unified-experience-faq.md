@@ -6,9 +6,9 @@ description: Einige Funktionen unterscheiden sich zwischen [!DNL Workfront] und 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b3837dc83c56cb3d7796b8bee39e8bab78e35415
+source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ In dieser Tabelle werden einige Funktionen beschrieben, die sich zwischen den be
 | Auf die Hilfe kann über das Hauptmenü [!UICONTROL  und den oberen Navigationsbereich zugegriffen werden.] | Auf die Hilfe kann über das [!UICONTROL Hauptmenü] und die Navigationsleiste [!DNL Workfront] zugegriffen werden. |
 | Der Testversand-Viewer wird in einer neuen Registerkarte geöffnet | Der Testversand-Viewer wird in Workfront geöffnet |
 | Die für den Zugriff auf Workfront verwendete URL lautet `experience.adobe.com` | Die für den Zugriff auf Workfront verwendete URL lautet `(CompanyName).my.workfront.com` |
+| Das Datumsformat (z. B. MM/TT/JJJJ) basiert auf den Browsereinstellungen | Das Datumsformat (z. B. MM/TT/JJJJ) basiert auf den Spracheinstellungen für das einheitliche Erlebnis. Wenn der Benutzer seine Spracheinstellungen nicht aktualisiert hat, werden die Einstellungen für `en-US` verwendet. |
 
 {style="table-layout:auto"}
 
