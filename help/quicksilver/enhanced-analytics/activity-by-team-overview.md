@@ -7,9 +7,9 @@ description: Die Visualisierung "Aktivität nach Team"zeigt Aktivitäten an, die
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '701'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,9 @@ Die Visualisierung &quot;Aktivität nach Team&quot;zeigt Aktivitäten an, die w�
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,6 +62,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
