@@ -5,9 +5,10 @@ title: Übersicht über neue Filter für Startseiten-Widgets
 description: Sie können aus einer Reihe von Widgets wählen, um den Inhalt anzupassen, der auf Ihrer Startseite angezeigt wird. Diese Widgets können in der Größe angepasst und auf Ihrer Startseite angeordnet werden.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '742'
 ht-degree: 14%
 
 ---
@@ -19,6 +20,7 @@ Sie können Filter für die folgenden Widgets verwenden, um Arbeit zu finden und
 * [Meine Projekte](#my-projects)
 * [Meine Aufgaben](#my-tasks)
 * [Meine Probleme](#my-issues)
+* [Meine Arbeit]
 
 ## Meine Projekte
 
@@ -229,4 +231,52 @@ Sie können die folgenden Filter im Widget Meine Probleme verwenden:
     <td>In meiner Funktion nicht zugewiesen</td>
     <td>Zeigt alle Probleme an, denen kein primärer Benutzer zugewiesen ist, denen jedoch eine Rolle zugewiesen ist </td>
   </tr>
+</table>
+
+## Meine Arbeit
+
+Sie können die folgenden Filter im Widget Meine Arbeit verwenden:
+
+<table>
+  <tbody>
+    <tr>
+      <td>Arbeiten an</td>
+      <td>Zeigt Elemente an, an denen Sie derzeit arbeiten</td>
+    </tr>
+    <tr>
+      <td>Startbereit</td>
+      <td>Zeigt Elemente mit 
+      <ul>
+      <li>Keine unvollständigen Vorgänger oder Aufgabeneinschränkungen</li>
+      <li>Das geplante Startdatum liegt in der Vergangenheit oder bis zu zwei Wochen in der Zukunft</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Nicht bereit</td>
+      <td>Zeigt Elemente an,
+       <ul>
+      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen, die verhindern, dass das Element bearbeitet wird</li>
+      oder
+      <li>Das geplante Startdatum liegt in Zukunft bei mehr als zwei Wochen.</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>Angefordert</td>
+      <td>Zeigt Probleme an, mit denen Sie noch nicht begonnen haben</td>
+    </tr>
+    <tr>
+      <td>Von mir delegiert</td>
+      <td>Zeigt Elemente an, die Sie anderen Benutzern zugewiesen haben</td>
+    </tr>
+    <tr>
+      <td>An mich delegiert</td>
+      <td>Zeigt Elemente an, die Ihnen von Benutzern zugewiesen wurden</td>
+    </tr>
+    <tr>
+      <td>Abgeschlossen</td>
+      <td>Zeigt die Arbeit an, die in den letzten zwei Wochen abgeschlossen wurde. Diese Filteroption umfasst keine Genehmigungen.</td>
+    </tr>
+  </tbody>
 </table>
