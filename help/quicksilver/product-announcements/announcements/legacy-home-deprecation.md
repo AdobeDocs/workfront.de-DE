@@ -5,9 +5,10 @@ title: Handbuch zur veralteten Homepage-Einstellung
 description: Diese Seite enthält Informationen über die bevorstehende Einstellung der alten Homepage.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Beinahe mit Ausnahme von:
 * Die Anzeige von Zeitstempeln für Fälligkeitsdaten von Objekten ist derzeit nicht verfügbar.
 
 * Die Anzeige des Commit-Datums im Update-Feed ist derzeit nicht verfügbar. Es gibt jedoch eine mögliche Problemumgehung: das Commit-Datum in der Kopfzeile durch Anpassung der Layout-Vorlage anzeigen.
+* Genehmigungen, die ich gesendet habe, werden derzeit in der neuen Startseite nicht unterstützt. Wenn Sie diese Funktion benötigen, können Sie hier in den folgenden Community-Beiträgen einen Kommentar hochladen oder posten:
+   * [Hinzufügen des Widgets &quot;Genehmigungen, die ich gesendet habe&quot; zu &quot;Neue Startseite&quot;](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [Hinzufügen von &quot;Validierungen, die ich gesendet habe&quot;zur neuen Startseite](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++ Wie kann ich regeln, auf welche Widgets Benutzer Zugriff auf das neue Home haben?

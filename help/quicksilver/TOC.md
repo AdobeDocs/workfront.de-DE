@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 2f731d1ee8381df6a9d0d767743dc8b5b52f4a1b
+source-git-commit: d996e2777060ccd7d264af7f61261737b36a616b
 workflow-type: tm+mt
 source-wordcount: '14404'
 ht-degree: 2%
@@ -414,10 +414,10 @@ ht-degree: 2%
    * Mitteilungen {#announcements}
       * [Ankündigungen](product-announcements/announcements/announcements.md)
       * [Zeitplan von nicht mehr unterstützten Funktionen](product-announcements/announcements/feature-removal-timeline.md)
+      * [Handbuch zur veralteten Homepage-Einstellung](product-announcements/announcements/legacy-home-deprecation.md)
       * [Häufig gestellte Fragen zum Wartungsfenster](product-announcements/announcements/maintenance-window-faq.md)
       * [Zum Hinzufügen von Testsendungen zu Ihrer Zulassungsliste erforderliche Änderung](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Abmeldung von Nachrichten aus dem Ankündigungs-Center im neuen Adobe Workfront-Erlebnis](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * [Handbuch zur veralteten Homepage-Einstellung](product-announcements/announcements/legacy-home-deprecation.md)
       * Ankündigungsarchiv {#announcement-archive}
          * [Ankündigungsarchiv](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Verbesserungen beim benutzerdefinierten Formular](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
