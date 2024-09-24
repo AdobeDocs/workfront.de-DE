@@ -6,9 +6,9 @@ description: Das neue Home ist eine leistungsstarke neue Funktion für die Verwa
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
+source-git-commit: 233016ccc574118df705b857092d647767c05835
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1173'
 ht-degree: 5%
 
 ---
@@ -33,10 +33,13 @@ Widgets sind die Grundlage des neuen Home. Wenn Sie Ihrer Startseite Widgets hin
 
 Informationen zum Hinzufügen, Verschieben, Ändern, Ändern oder Löschen von Widgets finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
-Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen können, sowie eine Zusammenfassung der angezeigten Informationen:
+Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit auswählen können, sowie eine Zusammenfassung der angezeigten Informationen:
 
 * **Meine Arbeit**\
     Dieses Widget ist ein idealer Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben und Anforderungen. Es zeigt alle von Ihnen zugewiesenen Aufgaben, Probleme und Anforderungen an einem Ort an. Sie können auf die Schaltfläche Bearbeiten klicken, um mit der Arbeit an einem Element zu beginnen, oder auf die Schaltfläche Fertig , um es als vollständig zu markieren. Sie können auch Informationen (Status, Bedingung, Prozent abgeschlossen) zu Aufgaben und Problemen, zur Protokollzeit und zum Hinzufügen von Aktualisierungen über das Widget &quot;Meine Arbeit&quot;aktualisieren.
+
+* **Pinnwände**\
+    Zeigt alle Pinnwände an, die Sie erstellt haben oder zur Verwendung eingeladen wurden. Sie können auch eine neue Pinnwand erstellen, die auf folgenden Vorlagen basiert: Basis-Pinnwand, Kanban-Pinnwand, Retrospective-Pinnwand, Dynamische Pinnwand.
 
 * **Meine Projekte**\
     Zeigt Projekte an, deren Inhaber Sie sind, oder Projekte, die Sie in einer Liste haben. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Projekt direkt über das Widget erstellen.
@@ -48,7 +51,7 @@ Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen könn
     Zeigt Probleme an, die Ihnen in einer Liste zugewiesen sind. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Problem direkt über das Widget erstellen. Dieses Widget enthält nur Probleme, deren verknüpfte Projekte auf &quot;Aktuell&quot;eingestellt sind, nicht aber abgeschlossene Projekte. Sie können Ihre Probleme auch delegieren, während Sie nicht im Büro sind.
 
 * **Meine Anforderungen**\
-    Zeigt alle von Ihnen gesendeten Anfragen, einen Filter zur ausschließlichen Anzeige offener Anforderungen und eine Schaltfläche an, die den Zusammenfassungsbereich für eine Anforderung öffnet.
+    Zeigt alle von Ihnen gesendeten Anfragen, einen Filter zur ausschließlichen Anzeige offener Anforderungen und eine Schaltfläche an, mit der der Zusammenfassungsbereich für eine Anforderung geöffnet wird.
 
 * **Team-Anforderungen**\
     Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.
@@ -57,7 +60,7 @@ Im Folgenden finden Sie die zehn Widgets, aus denen Sie derzeit auswählen könn
     Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget.
 
 * **Alle Genehmigungen**\
-        <span class="preview"> Zeigt 2 Diagramme mit Informationen über die durchschnittliche Genehmigungszeit und -entscheidungen sowie Listenansichten ausstehender und überfälliger Genehmigungen an.</span> <span style="color: #ff0000;">Diese Funktion ist Teil einer schrittweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span>
+        Zeigt zwei Diagramme mit Informationen über die durchschnittliche Genehmigungszeit und -entscheidungen sowie Listenansichten ausstehender und überfälliger Genehmigungen an. <span style="color: #ff0000;">Diese Funktion ist Teil einer schrittweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span>
 
 * **Erwähnungen**\
     Zeigt aktuelle Kommentar-Threads aus Workfront an, ähnlich wie auf der Seite My Updates . Sie können die Antwortschaltfläche verwenden, um eine Antwort im Widget zu erstellen. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen, die Ihnen zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, die Ihnen gehören, die Sie als primärer Ansprechpartner fungieren oder die Sie erstellt haben, sofern die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.

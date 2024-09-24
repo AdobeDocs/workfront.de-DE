@@ -5,9 +5,9 @@ title: Verwalten Ihrer Arbeit mit dem Widget "Meine Arbeit"
 description: Das Widget Meine Arbeit zeigt alle zugewiesenen Aufgaben, Probleme und Anforderungen an einem Ort an. Hier können Sie Ihre Arbeit filtern und organisieren, die Zeit protokollieren, Aktualisierungen vornehmen und Arbeitselemente als abgeschlossen markieren.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c96169186af3bc83b823ec8870173911cf546091
+source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -74,6 +74,7 @@ Sie können die Filter &quot;Meine Arbeit&quot;so anpassen, dass sie sich auf be
       <td>Zeigt Elemente mit 
       <ul>
       <li>Keine unvollständigen Vorgänger oder Aufgabeneinschränkungen</li>
+      <p>und</p>
       <li>Das geplante Startdatum liegt in der Vergangenheit oder bis zu zwei Wochen in der Zukunft</li>
       </ul>
       </td>
@@ -83,7 +84,7 @@ Sie können die Filter &quot;Meine Arbeit&quot;so anpassen, dass sie sich auf be
       <td>Zeigt Elemente an,
        <ul>
       <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen, die verhindern, dass das Element bearbeitet wird</li>
-      oder
+      <p>oder</p>
       <li>Das geplante Startdatum liegt in Zukunft bei mehr als zwei Wochen.</li>
       </ul>
        </td>
@@ -127,7 +128,7 @@ Bei bereits fällig gewordenen Elementen wird neben dem Datum ein Warnsymbol ang
 
 >[!TIP]
 >
->Um eine Liste zu erstellen, die alle fälligen Elemente am oberen Rand des Widgets &quot;Meine Arbeit&quot;anzeigt, sortieren Sie nach Fälligkeitsdatum und wenden Sie keine Gruppe an.
+>Um eine Liste zu erstellen, die alle fälligen Elemente am oberen Rand des Widgets &quot;Meine Arbeit&quot;anzeigt, sortieren Sie nach Fälligkeitsdatum und wenden Sie keine Gruppierung an.
 
 
 ![](assets/sort-my-work-widget.png)
@@ -156,7 +157,7 @@ Sie können das Bedienfeld Zusammenfassung öffnen, um Informationen in einer Au
 * Aktualisierung hinzufügen
 * Navigieren Sie zum Dokumentbereich, um ein Dokument hochzuladen.
 * Anzeigen von Arbeitselementdetails und Aktualisieren benutzerdefinierter Felder
-Workfront-Administratoren können anpassen, welche Felder in der Zusammenfassung in der Vorlage Layout angezeigt werden. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Workfront-Administratoren können anpassen, welche Felder in der Zusammenfassung in der Layoutvorlage angezeigt werden. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Status des Arbeitselements ändern
 * Unteraufgaben anzeigen
 * Zeit erfassen
