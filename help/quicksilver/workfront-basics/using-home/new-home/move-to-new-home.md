@@ -5,7 +5,7 @@ title: Wechsel von der alten zur neuen Startseite
 description: Die alte Startseite wird am 17.10.17 mit der Version Q4 aus Workfront entfernt. Dieser Artikel enthält Informationen dazu, welche Funktionen in der neuen Startseite verfügbar sein werden, sowie Empfehlungen zum Verschieben von Benutzern in das neue Starterlebnis.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b34de7dc66d69b030e313ee891a7404e1d5470e8
+source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 5%
