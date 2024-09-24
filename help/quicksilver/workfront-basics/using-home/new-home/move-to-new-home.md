@@ -5,9 +5,9 @@ title: Wechsel von der alten zur neuen Startseite
 description: Die alte Startseite wird am 17.10.17 mit der Version Q4 aus Workfront entfernt. Dieser Artikel enthält Informationen dazu, welche Funktionen in der neuen Startseite verfügbar sein werden, sowie Empfehlungen zum Verschieben von Benutzern in das neue Starterlebnis.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
+source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit auswählen können
 
 +++
 
-  ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### Für jeden Lizenztyp verfügbare Widgets anzeigen
 
@@ -262,3 +262,17 @@ Wir empfehlen Administratoren:
 1. Weisen Sie den Rest Ihrer Benutzer erneut dem Layout Neue Startseite zu.
 
 Dadurch erhalten Ihre Benutzer so bald wie möglich Zeit, sich an das neue Erlebnis anzupassen und ihre neuen Startseiten entsprechend ihren individuellen Anforderungen anzupassen. Unter [Entfernen, Hinzufügen und Neuanordnen von Widgets auf der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) finden Sie Informationen dazu, wie Benutzer die Widgets auf ihrer eigenen neuen Startseite anpassen können.
+
+### Ressourcen für Endbenutzer
+
+**Hilfe-Artikel**
+
+* [Verwalten Ihrer Arbeit mit dem Widget &quot;Meine Arbeit&quot;](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**Training**
+
+* [Worker-Grundlagen in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>Dies ist ein kostenloser Kurs, aber Sie müssen sich anmelden und sich anmelden, um darauf zugreifen zu können.
