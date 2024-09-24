@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
+source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
 workflow-type: tm+mt
-source-wordcount: '5546'
-ht-degree: 5%
+source-wordcount: '5541'
+ht-degree: 4%
 
 ---
 
@@ -152,7 +152,7 @@ Sie können einem benutzerdefinierten Formular mehrere verschiedene Textfelder h
 +++ **Erweitern, um Beschreibungen der verfügbaren Textfelder anzuzeigen**
 
 * **Einzeiliges Textfeld**: Ermöglicht Benutzern die Eingabe einer einzelnen Textzeile in das Feld.
-* **Absatztextfeld**: Ermöglicht Benutzern die Eingabe mehrerer Textzeilen in das Feld.
+* **Absatzfeld**: Ermöglicht Benutzern die Eingabe mehrerer Textzeilen in das Feld.
 * **Textfeld mit Formatierung**: Ermöglicht dem Benutzer die Eingabe mehrerer Textzeilen in das Feld und die Formatierung des Textes mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Eine Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.
 
   Dieser benutzerdefinierte Feldtyp wird in Filtern für Listen und Berichte nicht unterstützt.
@@ -171,9 +171,9 @@ Hinzufügen eines Textfelds:
 
 1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Textfelder und ziehen Sie es in einen Bereich auf der Arbeitsfläche:
 
-   * Einzelzeilentext
-   * Absatztext
-   * Textfeld mit Formatierung
+   * Einzeiliger Text
+   * Absatz
+   * Text mit Formatierung
    * Beschreibender Text
 
    ![](assets/drag-field-to-section.png)
@@ -192,7 +192,7 @@ Hinzufügen eines Textfelds:
    </td>
     <td><ul>
     <li>Einzeiliger Text</li>
-    <li>Text des Absatzes</li>
+    <li>Absatz</li>
     <li>Text mit Formatierung</li>
     <li>Beschreibender Text</li>
     </ul></td>
@@ -203,7 +203,7 @@ Hinzufügen eines Textfelds:
     <p>WICHTIG: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p></td>
     <td><ul>
     <li>Einzeiliger Text</li>
-    <li>Text des Absatzes</li>
+    <li>Absatz</li>
     <li>Text mit Formatierung</li>
     </ul></td>
     </tr>
@@ -214,7 +214,7 @@ Hinzufügen eines Textfelds:
     </td>
     <td><ul>
     <li>Einzeiliger Text</li>
-    <li>Text des Absatzes</li>
+    <li>Absatz</li>
     <li>Text mit Formatierung</li>
     <li>Beschreibender Text</li>
     </ul></td>
@@ -226,7 +226,7 @@ Hinzufügen eines Textfelds:
     </td>
     <td><ul>
     <li>Einzeiliger Text</li>
-    <li>Text des Absatzes</li>
+    <li>Absatz</li>
     <li>Text mit Formatierung</li>
     </ul></td>
     </tr>
@@ -240,7 +240,7 @@ Hinzufügen eines Textfelds:
      </ul></p></td> </td>
     <td><ul>
     <li>Einzeiliger Text</li>
-    <li>Text des Absatzes</li>
+    <li>Absatz</li>
     </ul></td>
     </tr>
     <tr>
@@ -248,7 +248,7 @@ Hinzufügen eines Textfelds:
     <td>Zwischen einzelnen Zeilen- und Absatztextfeldern wechseln.</td>
     <td><ul>
     <li>Einzeiliger Text</li>
-    <li>Text des Absatzes</li>
+    <li>Absatz</li>
     </ul></td>
     </tr>
     <tr>
@@ -285,8 +285,8 @@ Sie können einem benutzerdefinierten Formular Optionsfelder, Kontrollkästcheng
 +++ **Erweitern, um Beschreibungen der verfügbaren Felder anzuzeigen**
 
 * **Optionsfelder**: Erfordert, dass Benutzer nur eine Auswahl auswählen.
-* **Kontrollkästchengruppe**: Ermöglicht Benutzern die Auswahl mehrerer Optionen.
-* **Dropdown**: Bietet eine Liste von Dropdown-Optionen.
+* **Kontrollkästchengruppe**: Ermöglicht Benutzern die Auswahl mehrerer Auswahlmöglichkeiten.
+* **Dropdown-Liste mit Einzelauswahl**: Bietet eine Liste mit Dropdown-Optionen.
 * **Dropdown für mehrere Auswahlen**: Ermöglicht Benutzern die Auswahl mehrerer Auswahlmöglichkeiten aus einer Dropdown-Liste.
 
 +++
@@ -300,9 +300,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
 1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    * Optionsschaltflächen
-   * Kontrollkästchen-Gruppe
-   * Dropdown
-   * Mehrfachauswahl-Dropdown
+   * Kontrollkästchengruppe
+   * Dropdown für Einzelauswahl
+   * Dropdown für mehrere Auswahlen
 
    ![Ziehen Sie ein Feld auf die Arbeitsfläche](assets/drag-field-to-section.png)
 
@@ -320,9 +320,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td> 
      <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchen-Gruppe</li>
-    <li>Dropdown</li>
-    <li>Mehrfachauswahl-Dropdown</li>
+    <li>Kontrollkästchengruppe</li>
+    <li>Dropdown für Einzelauswahl</li>
+    <li>Dropdown für mehrere Auswahlen</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -331,9 +331,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td>
      <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchen-Gruppe</li>
-    <li>Dropdown</li>
-    <li>Mehrfachauswahl-Dropdown</li>
+    <li>Kontrollkästchengruppe</li>
+    <li>Dropdown für Einzelauswahl</li>
+    <li>Dropdown für mehrere Auswahlen</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -343,9 +343,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchen-Gruppe</li>
-    <li>Dropdown</li>
-    <li>Mehrfachauswahl-Dropdown</li>
+    <li>Kontrollkästchengruppe</li>
+    <li>Dropdown für Einzelauswahl</li>
+    <li>Dropdown für mehrere Auswahlen</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -358,19 +358,19 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
      </ul></p></td> 
      <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchen-Gruppe</li>
-    <li>Dropdown</li>
-    <li>Mehrfachauswahl-Dropdown</li>
+    <li>Kontrollkästchengruppe</li>
+    <li>Dropdown für Einzelauswahl</li>
+    <li>Dropdown für mehrere Auswahlen</li>
     </ul></td>
     </tr> 
     <tr> 
      <td role="rowheader">Anzeigetyp</td> 
-    <td>Wechseln Sie zwischen Optionsfeldern, Kontrollkästchengruppen, Dropdown-Listen oder Dropdown-Listen mit Mehrfachauswahl für das Feld.</td> 
+    <td>Wechseln Sie zwischen Optionsfeldern, Kontrollkästchengruppe, Dropdown-Liste mit Einzelauswahl oder Dropdown-Liste mit Mehrfachauswahl für das Feld.</td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchen-Gruppe</li>
-    <li>Dropdown</li>
-    <li>Mehrfachauswahl-Dropdown</li>
+    <li>Kontrollkästchengruppe</li>
+    <li>Dropdown für Einzelauswahl</li>
+    <li>Dropdown für mehrere Auswahlen</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -378,9 +378,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     <td>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann. </td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchen-Gruppe</li>
-    <li>Dropdown</li>
-    <li>Mehrfachauswahl-Dropdown</li>
+    <li>Kontrollkästchengruppe</li>
+    <li>Dropdown für Einzelauswahl</li>
+    <li>Dropdown für mehrere Auswahlen</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -403,9 +403,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </ol> </td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchen-Gruppe</li>
-    <li>Dropdown</li>
-    <li>Mehrfachauswahl-Dropdown</li>
+    <li>Kontrollkästchengruppe</li>
+    <li>Dropdown für Einzelauswahl</li>
+    <li>Dropdown für mehrere Auswahlen</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -441,7 +441,7 @@ Sie können einem benutzerdefinierten Formular Typeahead- und Datumsfelder hinzu
    * Team
    * Vorlage
    * Firma
-* **Datumsfeld**: Zeigt einen Kalender an, in dem Benutzer Datum und Uhrzeit auswählen können.
+* **Datum**: Zeigt einen Kalender an, in dem Benutzer Datum und Uhrzeit auswählen können.
 
 +++
 
@@ -450,7 +450,7 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
 1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    * Typeahead
-   * Datumsfeld
+   * Datum
 
    ![](assets/drag-field-to-section.png)
 
@@ -468,7 +468,7 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
       <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Datumsfeld</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -477,7 +477,7 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
       <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td>
     <td><ul>
     <li>Typeahead</li>
-    <li>Datumsfeld</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -487,14 +487,14 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
       </td> 
          <td><ul>
     <li>Typeahead</li>
-    <li>Datumsfeld</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Tageszeit anzeigen</td> 
       <td>Aktivieren Sie diese Option, wenn Sie die Tageszeit zusammen mit dem Datum im Feld anzeigen möchten.</td> 
          <td><ul>
-    <li>Datumsfeld</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -532,7 +532,7 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
       <td>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann. </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Datumsfeld</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -807,7 +807,7 @@ Diese Tabelle listet die verfügbaren nativen Felder für bestimmte Workfront-Ob
 
 +++
 
-1. Suchen Sie auf der linken Bildschirmseite nach **Natives Feld** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Suchen Sie auf der linken Seite des Bildschirms nach **Nativer Feldverweis** und ziehen Sie ihn in einen Bereich auf der Arbeitsfläche.
 1. Konfigurieren Sie rechts im Bildschirm die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 

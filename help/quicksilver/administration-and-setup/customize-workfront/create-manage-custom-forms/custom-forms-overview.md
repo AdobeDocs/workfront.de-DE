@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ Sie können beispielsweise ein benutzerdefiniertes Formular mit dem Namen &quot;
 
 Der Formularentwickler verfügt über einen Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können. Außerdem können Sie Felder in die Abschnitte ziehen, während Sie Ihr Formular entwerfen. Sie können die Größe der rechten Seite des Bildschirms ändern, um mehr Platz für die Feldoptionen bereitzustellen.
 
-Mit der Schaltfläche <span class="preview">Layout **(in diesem Bild nicht angezeigt) können Sie aus einem zweispaltigen oder dreiseitigen Arbeitsbereich wählen.** Die Schaltfläche gibt an, welches Layout derzeit ausgewählt ist. Das dreiseitige Layout zeigt die Feldeinstellungen in der Spalte ganz rechts an. Im zweispaltigen Layout werden die Feldeinstellungen in der linken Spalte neben der Feldbibliothek angezeigt.</span>
+<span class="preview">Mit der Schaltfläche Layout (die in diesem Bild nicht angezeigt wird) können Sie aus einem zweispaltigen oder dreiseitigen Arbeitsbereich wählen. Die Schaltfläche gibt an, welches Layout derzeit ausgewählt ist. Das dreiseitige Layout zeigt die Feldeinstellungen in der Spalte ganz rechts an. Im zweispaltigen Layout werden die Feldeinstellungen in der linken Spalte neben der Feldbibliothek angezeigt.</span>
 
 Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -48,16 +48,16 @@ In einem benutzerdefinierten Formular können Sie zusätzliche Felder erstellen,
 Sie können die folgenden Typen von benutzerdefinierten Feldern zu einem benutzerdefinierten Formular in Workfront hinzufügen:
 
 * Einzeiliger Text
-* Text des Absatzes
+* Absatz
 * Text mit Formatierung
-* Dropdown
-* Mehrfachauswahl-Dropdown
+* Dropdown für Einzelauswahl
+* Dropdown für mehrere Auswahlen
 * Externe Suche
-* Natives Feld
+* Referenz zu nativen Feldern
 * Typeahead
 * Berechnet
-* Datumsfeld
-* Kontrollkästchen-Gruppe
+* Datum
+* Kontrollkästchengruppe
 * Optionsschaltflächen
 * Beschreibender Text
 * Abschnittsumbruch
