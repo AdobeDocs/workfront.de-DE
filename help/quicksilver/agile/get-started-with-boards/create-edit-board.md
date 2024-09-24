@@ -6,9 +6,9 @@ description: Im Dashboard [!UICONTROL Pinnwände] können Sie eine neue Pinnwand
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '858'
 ht-degree: 1%
 
 ---
@@ -107,6 +107,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wählen Sie im Dashboard die zu öffnende Pinnwand aus.
 1. Bearbeiten Sie die Pinnwand nach Bedarf. Sie können auf den Pinnwandnamen klicken, um ihn umzubenennen.
+
+   Um verbundene Karten mit Workfront zu synchronisieren und neue Aufgaben und Probleme auf die Pinnwand oder die Ansauspalte zu übertragen, klicken Sie auf das Menü **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) neben dem Pinnwandnamen und wählen Sie **[!UICONTROL Verknüpfte Elemente synchronisieren]**.
 
    Weitere Informationen finden Sie unter [Hinzufügen oder Entfernen von Mitgliedern aus einer Pinnwand](../../agile/get-started-with-boards/add-members-to-board.md), [Verwalten von Pinnwandspalten](../../agile/get-started-with-boards/manage-board-columns.md) und [Hinzufügen einer Karte zu einer Pinnwand](../../agile/get-started-with-boards/add-card-to-board.md).
 

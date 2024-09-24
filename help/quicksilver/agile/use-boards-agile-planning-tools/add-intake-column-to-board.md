@@ -7,9 +7,9 @@ description: Sie können optional eine Aufnahmespalte zu Ihrer Pinnwand hinzufü
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1126'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,8 @@ Probleme:
 >[!IMPORTANT]
 >
 >Es wird empfohlen, die Pinnwand häufig zu aktualisieren, wenn mehrere Benutzer gleichzeitig auf der Pinnwand arbeiten. Das Aktualisieren der Seite hilft dabei, die visuellen Änderungen auf der Pinnwand auf dem neuesten Stand zu halten, und verhindert, dass Probleme wie doppelte Karten aus der Annahmespalte auf die Pinnwand verschoben werden.
+>
+>Um mit Workfront zu synchronisieren und neue Aufgaben und Probleme auf die Pinnwand oder die Ansauspalte zu übertragen, klicken Sie auf das Menü **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) neben dem Pinnwandnamen und wählen Sie **[!UICONTROL Verknüpfte Elemente synchronisieren]**.
 
 Weitere Informationen zu Spalten finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Informationen zu verbundenen Karten finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 

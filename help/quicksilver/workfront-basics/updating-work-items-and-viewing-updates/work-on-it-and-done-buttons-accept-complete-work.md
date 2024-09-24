@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
+source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,14 @@ Wenn Sie einer Aufgabe oder einem Problem zugewiesen sind, können Sie eine kont
 
 Mithilfe der kontextuellen Schaltfläche können Sie Arbeitselemente akzeptieren oder abschließen. So können Sie zulassen, dass Adobe Workfront mehrere Felder zu den Elementen aktualisiert, ohne diese manuell aktualisieren zu müssen.
 
+Die Schaltflächen &quot;Bearbeiten&quot;und &quot;Fertig&quot;sind für Benutzer mit folgenden Eigenschaften sichtbar:
+
+* Eine Standardlizenz (neu) oder eine Plan- oder Arbeitslizenz (aktuell)
+* Eingeschränkter Bearbeitungszugriff oder höher für Aufgaben oder Probleme
+
 ## Bearbeiten Sie die Namen der Schaltfläche &quot;Fertig&quot;.
 
-Je nachdem, in welchem Bereich von Workfront Sie auf Ihre Aufgabe oder Ihr Problem zugreifen, kann die Schaltfläche Bearbeiten oder Fertig die Namen ändern, wie in den folgenden Szenarien beschrieben: 
+Je nachdem, in welchem Bereich von Workfront Sie auf Ihre Aufgabe oder Ihr Problem zugreifen, kann die Schaltfläche Bearbeiten oder Fertig die Namen ändern, wie in den folgenden Szenarien beschrieben:
 
 * Wenn die Aufgabe oder das Problem Ihnen zum ersten Mal zugewiesen wird und der Status Neu lautet, wird die Schaltfläche als Bearbeitung angezeigt.
 
@@ -33,7 +38,7 @@ Je nachdem, in welchem Bereich von Workfront Sie auf Ihre Aufgabe oder Ihr Probl
   >
   >Sie können die Schaltfläche &quot;Work On It&quot;durch die Schaltfläche Start ersetzen. Weitere Informationen zum Ersetzen der Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche &quot;Start&quot;finden Sie unter [Ersetzen der Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche &quot;Start&quot;](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
-* Nachdem Sie auf &quot;Bearbeitung für Annahme bearbeiten&quot;geklickt haben, ändert sich die Schaltfläche in Fertig markieren , je nachdem, von wo aus Sie in Workfront auf die Aufgabe oder das Problem zugreifen. Informationen darüber, wo Sie auf die Schaltfläche &quot;Bearbeiten&quot;zugreifen können, finden Sie im Abschnitt [Suchen Sie die Schaltfläche &quot;Bearbeiten&quot;und &quot;Fertig&quot;](#locate-the-work-on-it-and-done-button) in diesem Artikel.
+* Nachdem Sie auf &quot;Work On It accept&quot;geklickt haben, ändert sich die Schaltfläche in &quot;Mark as done&quot;oder &quot;Done&quot;, je nachdem, wo Sie in Workfront auf die Aufgabe oder das Problem zugreifen. Informationen darüber, wo Sie auf die Schaltfläche &quot;Bearbeiten&quot;zugreifen können, finden Sie im Abschnitt [Suchen Sie die Schaltfläche &quot;Bearbeiten&quot;und &quot;Fertig&quot;](#locate-the-work-on-it-and-done-button) in diesem Artikel.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
