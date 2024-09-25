@@ -6,9 +6,9 @@ description: Planen eines automatischen Berichtversands
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ So planen Sie einen Bericht für die automatische Bereitstellung oder zum Bearbe
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Uhrzeit</p> </td> 
-      <td> <p>Wählen Sie die Tageszeit für den Versand aus.</p> <p>Tipp: Da sich das Laden des Systems auf die Bereitstellungszeiten des Berichts auswirken kann, kann es zu einer Verzögerung zwischen der geplanten und der tatsächlichen Bereitstellungszeit kommen. Wenn Sie einen Bericht zu einem bestimmten Zeitpunkt bereitstellen möchten, empfehlen wir, den Versand vor dem gewünschten Zeitpunkt zu planen. Beispielsweise wird empfohlen, den Versand einen Tag vor dem gewünschten Datum zu planen.</p> </td> 
+      <td> <p>Wählen Sie die Tageszeit für den Versand aus.</p> <p>Tipp: Da sich das Laden des Systems auf die Bereitstellungszeiten des Berichts auswirken kann, kann es zwischen der geplanten und der tatsächlichen Bereitstellungszeit zu einer Verzögerung von bis zu 24 Stunden kommen. Wenn Sie einen Bericht zu einem bestimmten Zeitpunkt bereitstellen möchten, empfehlen wir, den Versand vor dem gewünschten Zeitpunkt zu planen. Im Allgemeinen empfehlen wir, den Versand mindestens einen Tag vor dem gewünschten Datum zu planen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Wiederholung am</p> </td> 

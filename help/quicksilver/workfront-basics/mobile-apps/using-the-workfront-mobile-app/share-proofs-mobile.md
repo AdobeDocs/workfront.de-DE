@@ -6,9 +6,9 @@ description: Sie können ein Testversand-Dokument direkt über die Mobile App f�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Diese Option sendet eine E-Mail mit einem öffentlichen Testversand-Link an eine
 
 ## Testversand herunterladen
 
-Sie können eine Kopie des Testversands auf Ihr Mobilgerät herunterladen.
+Sie können eine Kopie des Testversands auf Ihr Mobilgerät herunterladen. Beachten Sie, dass Sie zwar keine Videodateien in der Vorschau anzeigen können, diese aber dennoch herunterladen können.
 
 1. Öffnen Sie den Dokumenttest und wählen Sie das Menü **[!UICONTROL Mehr]** im Menü ![Mehr Menü](assets/mobile-verticalmoremenu-20x33.png) oben rechts im Dokument aus. Wählen Sie dann **[!UICONTROL Mehr]** aus.
 1. Wählen Sie **[!UICONTROL Download]** aus.
