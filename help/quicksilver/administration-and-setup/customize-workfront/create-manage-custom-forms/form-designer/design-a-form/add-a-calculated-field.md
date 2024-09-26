@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -279,6 +279,8 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern, 
 +++
 
    1. Klicken Sie in das große Textfeld und dann auf **Ausdrücke** und **Felder** , die verfügbar sind, um sie Ihrer Berechnung hinzuzufügen.
+
+      Erweitern Sie einen Objektnamen unter **Felder** , um alle für dieses Objekt verfügbaren Felder anzuzeigen. Die Liste ist auf 200 Elemente begrenzt. Wenn Sie den Feldnamen kennen, können Sie danach suchen.
 
       Sie können auch mit der Eingabe eines Ausdrucks oder Felds in das große Textfeld beginnen und es dann auswählen, wenn es angezeigt wird. Jedes Element wird mit einem &quot;F&quot;für das Feld oder einem &quot;E&quot;für den Ausdruck angezeigt.
 
