@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -103,16 +103,16 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 12. August 2024</p>
+                                <p><s>Vorschau-Version: 12. August 2024</s></p>
                             </li>
                             <li>
-                                <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (12. September 2024)</p>
+                                <p>Produktion für schnelle Veröffentlichung: nicht zutreffend</p>
                             </li>
                             <li>
-                                <p>Produktionsversion für alle Kunden: TBD</p>
+                                <p>Produktionsversion für alle Kunden: nicht verfügbar</p>
                             </li>
                         </ul>
-                        <p><i>Diese Funktion ist Teil einer stufenweisen Veröffentlichung und wird im September für eine begrenzte Anzahl von Kunden verfügbar sein.</i></p>
+                        <p><i>Diese Funktion wurde aus der Vorschau entfernt und wird bei zukünftigen Versionen nicht veröffentlicht.</i></p>
                     </td>
                 </tr>
            </tbody>
