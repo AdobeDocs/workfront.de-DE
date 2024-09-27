@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
+source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 11%
@@ -390,3 +390,4 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 | Anzeigen des Eincheckbereichs im linken Bereich |   | ✓ |
 | Anzeigen des Einstellungsbereichs im linken Bereich | ✓ | ✓ |
 | Eine Liste von Zielen drucken | ✓ | ✓ |
+
