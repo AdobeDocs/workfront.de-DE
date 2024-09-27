@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1953'
 ht-degree: 10%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 10%
 In den folgenden Tabellen sind die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbaren Funktionen aufgeführt.
 
 Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zugriffsebene deaktivieren oder aktivieren können.
+
+>[!NOTE]
+>
+>In diesem Artikel werden die Funktionen beschrieben, die für den Zugriff auf die Ebenen im aktuellen Workfront-Planmodell verfügbar sind. Informationen zu den im neuen Planmodell verfügbaren Funktionen finden Sie unter [Für jeden Objekttyp verfügbare Funktionen für neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Projekte
 
