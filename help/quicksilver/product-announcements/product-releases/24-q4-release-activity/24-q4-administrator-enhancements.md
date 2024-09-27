@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ Weitere Informationen zum Zurücksetzen eines Umgebungs-Promotion-Pakets finden 
 
 >[!NOTE]
 >
->Vorschau-Version: 12. August 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (12. September 2024); Produktion für die vierteljährliche Veröffentlichung: TBD
+>Vorschau-Version: ~~12. August 2024~~; Produktion für schnelle Veröffentlichung: nicht verfügbar; Produktion für die vierteljährliche Veröffentlichung: nicht verfügbar
 >
->_Diese Funktion ist Teil einer schrittweisen Veröffentlichung und wird im September für eine begrenzte Anzahl von Kunden verfügbar sein. Sie bleibt längere Zeit in der Vorschau-Umgebung, während wir Feedback sammeln._
+>_Diese Funktion wurde aus der Vorschau entfernt und wird bei zukünftigen Versionen nicht mehr veröffentlicht._
 
 Mit der Schaltfläche &quot;Layout&quot;im benutzerdefinierten Formularentwickler können Sie aus einem zweispaltigen oder dreiseitigen Arbeitsbereich wählen. Der ursprüngliche Formularentwickler verwendet drei Spalten und die Feldeinstellungen werden in der Spalte ganz rechts angezeigt. Wenn Sie zwei Spalten auswählen, werden die Feldeinstellungen in der Spalte ganz links neben der Feldbibliothek angezeigt.
 
