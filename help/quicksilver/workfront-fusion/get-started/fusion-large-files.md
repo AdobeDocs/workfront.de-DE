@@ -8,16 +8,23 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: d380f495c098e45897ca58627571dfc7dfdcb0f7
+source-git-commit: 630467ca64281df0b257dae8cc5c6edc55ae56ad
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 # Arbeiten mit großen Dateien in Adobe Workfront Fusion
 
-Große Dateiunterstützung ist derzeit für die Workfront- und HTTP-Connectoren verfügbar.
+Einige Fusion-Connectoren unterstützen Dateien mit einer Größe von mehr als 1 GB.
+
+## Connectoren, die große Dateien unterstützen
+
+Die Unterstützung großer Dateien ist derzeit für die folgenden Connectoren verfügbar:
+
+* Workfront
+* HTTP
 
 ## Auswirkungen auf die große Dateigröße auf die Ausführungszeit eines Szenarios
 
