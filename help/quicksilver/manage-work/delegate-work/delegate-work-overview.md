@@ -7,9 +7,9 @@ description: Wenn Sie planen, für kurze Zeit abwesend zu sein, können Sie Ihre
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -28,11 +28,11 @@ Sie können die folgenden Objekte in [!DNL Adobe Workfront] zuweisen:
 
 * Ihnen zugewiesene Aufgaben
 * Ihnen zugewiesene Probleme
-* Projekt-, Aufgaben-, Problem-, Dokumentgenehmigungen, die Ihnen zugewiesen sind.
+* Ihnen zugewiesene Projekt-, Aufgaben- oder Problemgenehmigungen.
 
 Dieser Artikel enthält allgemeine Informationen zum Delegieren von Aufgaben und Problemen.
 
-Informationen zum Delegieren von Projekt-, Aufgaben-, Problem- und Dokumentgenehmigungen finden Sie unter [Genehmigungsanfrage delegieren](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Informationen zum Delegieren von Projekt-, Aufgaben- und Problemgenehmigungen finden Sie unter [Genehmigungsanfrage delegieren](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 Informationen zum Delegieren von Aufgaben und Problemen finden Sie unter [Aufgaben und Probleme delegieren](../../manage-work/delegate-work/how-to-delegate-work.md).
 
@@ -43,6 +43,7 @@ Beachten Sie Folgendes, wenn Sie Aufgaben und Probleme delegieren:
 * Ihr [!DNL Workfront]- oder Gruppenadministrator muss die Delegationsvoreinstellungen im Bereich [!UICONTROL Einrichtung] aktivieren, bevor Sie Ihre Arbeit an andere delegieren können.
 
   Weitere Informationen finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * Sie können Aufgaben und Probleme nur über den Bereich [!UICONTROL Home] delegieren.
 * Für die folgenden Lizenztypen gibt es Ausnahmen:
 
