@@ -4,9 +4,9 @@ description: Verbesserungen für das vierte Quartal 2024 - Startseite
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d07aea784f69d7b2d499b9bc7f9bce3dbbb4444c
+source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten
 
 ## Vereinfachung der Workfront-Erfahrung für Aufgabeneigentümer mit Prioritäten
 
-Einführung von Prioritäten: ein einfacheres, optimiertes und intuitives Workfront-Erlebnis für Aufgabeneigentümer.
+Einführung von Prioritäten: ein einfacheres, optimiertes und intuitiveres Workfront-Erlebnis für Aufgabeneigentümer.
 
 Prioritätensetzung verbessert Fokus und Produktivität, um Kunden zu helfen, in kürzerer Zeit mehr zu erreichen.
 

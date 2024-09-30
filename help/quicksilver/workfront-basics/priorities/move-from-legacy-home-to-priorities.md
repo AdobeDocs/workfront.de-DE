@@ -5,9 +5,9 @@ description: Die alte Startseite wird am 17.10.17 mit der Version Q4 aus Workfro
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b530431ea9db318e03ac1f348e40cfbdedefc01
+source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -49,9 +49,7 @@ Gruppierungen
 
 #### Delegieren von Arbeiten
 
-Benutzer können die delegierte Arbeit derzeit nicht in Prioritätensetzung delegieren oder anzeigen.
-
-Benutzer können die Arbeit weiterhin über die neue Startseite in den folgenden Widgets delegieren:
+Benutzer können die delegierte Arbeit derzeit nicht in Prioritätensetzung delegieren oder anzeigen. Benutzer können jedoch weiterhin die Arbeit über die neue Startseite in den folgenden Widgets delegieren:
 
 * Meine Arbeit
 * Meine Aufgaben
