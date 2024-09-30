@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
+source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 
 * [Administratorverbesserungen](#administrator-enhancements)
 * [Integrationsverbesserungen](#integration-enhancements)
+* [Verbesserungen der Startseite](#home-enhancements)
 * [Projektverbesserungen](#project-enhancements)
 * [Verbesserungen bei der Überprüfung](#proofing-enhancements)
 * [Verbesserungen bei Berichten und Dashboards](#report-and-dashboard-enhancements)
@@ -154,6 +155,48 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
            </tbody>
         </table>
 
+### Verbesserungen der Startseite
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungstermine</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Einführung von Prioritäten: Ein einfacheres, optimiertes und intuitives Workfront-Erlebnis für Aufgabenbesitzer.</a></p>
+                        <p>Prioritätensetzung verbessert Fokus und Produktivität, um Kunden zu helfen, in kürzerer Zeit mehr zu erreichen.</p>
+                        <p>Bei Prioritäten haben Sie folgende Möglichkeiten:</p>
+                        <ul>
+                        <li>Verwaltung und Priorisierung von täglichen Aufgaben: Organisieren Sie Ihren Tag oder Ihre Woche mit konsolidierter Navigation, um mehr Klarheit zu schaffen</li>
+                        <li>Höhere Produktivität: Zugriff auf den Projektkontext und schnellere Ausführung von Aufgaben mit weniger Klicks</li>
+                        <li>Personalisierte Funktionen: Profitieren Sie von einzigartigen Funktionen für Aufgabenbesitzer</li>
+                        </ul>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 3. Oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion für alle Kunden: 17. Oktober 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Projektverbesserungen
 
 <table>
@@ -227,6 +270,23 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td>
                         <p><span class="bold">Veröffentlichungstermine</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Problembehebung beim Kopieren/Einfügen für den Desktop Proofing Viewer</a></p>
+                        <p>Es wurde ein Problem behoben, bei dem Inhalte im Abschnitt Updates des Desktop Proofing-Viewers falsch eingefügt wurden.</p>
+                        <p>Neue Version: 2.1.39</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 2. Oktober 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsversion für alle Kunden: 2. Oktober 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
