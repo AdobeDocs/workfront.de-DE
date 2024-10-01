@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"> <p>Szenario</p> </td> 
    <td> <p>Eine vom Benutzer erstellte Reihe automatisierter Schritte, die jeweils von einem Modul dargestellt und ausgeführt werden. Der Zweck eines Szenarios besteht darin, Daten zu verschieben und zu bearbeiten.</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> Weitere Informationen finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Szenario-Segment</p> </td> 
+   <td> <p> Ein Abschnitt eines Szenarios, der aus einer Reihe von Modulen besteht, die alle mit derselben Anwendung verbunden sind. Szenario-Segmente stellen oft einen kurzen Workflow in der Anwendung dar.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transaktionen</p> </td> 
