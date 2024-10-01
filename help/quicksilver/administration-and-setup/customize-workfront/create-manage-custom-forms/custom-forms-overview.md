@@ -8,20 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
+source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 7%
+source-wordcount: '383'
+ht-degree: 11%
 
 ---
 
 # Übersicht über benutzerdefinierte Formulare
 
 <!--Audited: 12/2023-->
-
-{{highlighted-preview}}
-
-{{form-designer-default}}
 
 Sie können ein benutzerdefiniertes Formular erstellen, das Benutzer an ein Adobe Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
 
@@ -32,8 +28,6 @@ Sie können beispielsweise ein benutzerdefiniertes Formular mit dem Namen &quot;
 ## Erstellen eines benutzerdefinierten Formulars
 
 Der Formularentwickler verfügt über einen Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können. Außerdem können Sie Felder in die Abschnitte ziehen, während Sie Ihr Formular entwerfen. Sie können die Größe der rechten Seite des Bildschirms ändern, um mehr Platz für die Feldoptionen bereitzustellen.
-
-<span class="preview">Mit der Schaltfläche Layout (die in diesem Bild nicht angezeigt wird) können Sie aus einem zweispaltigen oder dreiseitigen Arbeitsbereich wählen. Die Schaltfläche gibt an, welches Layout derzeit ausgewählt ist. Das dreiseitige Layout zeigt die Feldeinstellungen in der Spalte ganz rechts an. Im zweispaltigen Layout werden die Feldeinstellungen in der linken Spalte neben der Feldbibliothek angezeigt.</span>
 
 Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -50,14 +44,14 @@ Sie können die folgenden Typen von benutzerdefinierten Feldern zu einem benutze
 * Einzeiliger Text
 * Absatz
 * Text mit Formatierung
-* Dropdown für Einzelauswahl
+* Einfachauswahl-Dropdown
 * Dropdown für mehrere Auswahlen
-* Externe Suche
-* Referenz zu nativen Feldern
+* Externer Lookup
+* Native Feldreferenz
 * Typeahead
 * Berechnet
 * Datum
-* Kontrollkästchengruppe
+* Kontrollkästchen-Gruppe
 * Optionsschaltflächen
 * Beschreibender Text
 * Abschnittsumbruch
