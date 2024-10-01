@@ -8,28 +8,30 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---
 
-# Neue Startseite mit einer Layoutvorlage anpassen
+# Neue Startseite mit einer Layout-Vorlage anpassen
 
-Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was Benutzer sehen, wenn sie die neue Startseite öffnen.
+Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was Benutzer sehen, wenn sie die neue Startseite zum ersten Mal öffnen.
 
 Sie können Folgendes konfigurieren:
 
-* Welche Widgets werden standardmäßig im Arbeitsbereich und im Seitenlayout angezeigt
+* Welche Widgets werden standardmäßig im Arbeitsbereich angezeigt?
 * Welche Hintergrundbilder werden ausgewählt?
 * Spezifische Widget-Einstellungen, einschließlich der verfügbaren Filter und Gruppen für die Widgets Meine Projekte, My Tasks und My Issues sowie deren Standardeinstellungen
 
 >[!IMPORTANT]
 >
->Die auf dieser Seite beschriebenen Vorlagenoptionen für das Administrator-Layout setzen die Anpassungsoptionen einzelner Benutzer außer Kraft.
->
->Wenn Änderungen an einer Layoutvorlage gespeichert werden, wird die neue Startseite für Benutzer dieser Layoutvorlage entsprechend der Layoutvorlage geändert und die vorhandenen Widget-Auswahlen werden an den unteren Rand der Seite verschoben. Widgets, die vom Administrator ausgewählt wurden, können von einem Benutzer neu positioniert und in der Größe angepasst werden. Sie können jedoch nicht entfernt werden.
+>Endbenutzer können ihren Hintergrund ändern und Widgets auf der Seite neu anordnen, nachdem die Layoutvorlage angewendet wurde. Sie können Widgets, die von einem Workfront-Administrator enthalten sind, nicht entfernen.
+> <br>
+>Administratoren haben die Möglichkeit, neue Widgets für Benutzer hinzuzufügen. Wenn ein Endbenutzer jedoch bereits seine Widget-Reihenfolge oder Hintergrundauswahl angepasst hat, werden diese spezifischen Anpassungen nicht geändert.
+
+
 
 Weitere Informationen zum neuen Home finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -72,6 +74,8 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 +++
 
 ## Neue Startseite mit einer Layoutvorlage anpassen
+
+So passen Sie die neue Startseite mit einer Layoutvorlage an:
 
 1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
 
