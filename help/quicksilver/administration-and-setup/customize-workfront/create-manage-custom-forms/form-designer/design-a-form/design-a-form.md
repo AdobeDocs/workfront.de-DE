@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
+source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
 workflow-type: tm+mt
-source-wordcount: '5541'
-ht-degree: 4%
+source-wordcount: '5575'
+ht-degree: 5%
 
 ---
 
 # Formular mit dem Formularentwickler erstellen
+
+{{highlighted-preview}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 
@@ -89,6 +91,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Hinzufügen neuer oder vorhandener Felder zu Ihrem benutzerdefinierten Formular
 
 Sie können beim Entwerfen Ihres benutzerdefinierten Formulars neue oder vorhandene Felder verwenden.
+
+<span class="preview">Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten links zeigt an, wie viele Felder im Formular verwendet werden, und er ist immer sichtbar, wenn Sie im Formularentwickler scrollen.</span>
 
 ### Vorhandenes Feld oder Widget in einem anderen benutzerdefinierten Formular wiederverwenden
 
@@ -300,9 +304,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
 1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    * Optionsschaltflächen
-   * Kontrollkästchengruppe
-   * Dropdown für Einzelauswahl
-   * Dropdown für mehrere Auswahlen
+   * Kontrollkästchen-Gruppe
+   * Einfachauswahl-Dropdown
+   * Mehrfachauswahl-Dropdown
 
    ![Ziehen Sie ein Feld auf die Arbeitsfläche](assets/drag-field-to-section.png)
 
@@ -320,9 +324,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td> 
      <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchengruppe</li>
-    <li>Dropdown für Einzelauswahl</li>
-    <li>Dropdown für mehrere Auswahlen</li>
+    <li>Kontrollkästchen-Gruppe</li>
+    <li>Einfachauswahl-Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -331,9 +335,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td>
      <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchengruppe</li>
-    <li>Dropdown für Einzelauswahl</li>
-    <li>Dropdown für mehrere Auswahlen</li>
+    <li>Kontrollkästchen-Gruppe</li>
+    <li>Einfachauswahl-Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -343,9 +347,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchengruppe</li>
-    <li>Dropdown für Einzelauswahl</li>
-    <li>Dropdown für mehrere Auswahlen</li>
+    <li>Kontrollkästchen-Gruppe</li>
+    <li>Einfachauswahl-Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -358,9 +362,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
      </ul></p></td> 
      <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchengruppe</li>
-    <li>Dropdown für Einzelauswahl</li>
-    <li>Dropdown für mehrere Auswahlen</li>
+    <li>Kontrollkästchen-Gruppe</li>
+    <li>Einfachauswahl-Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -368,9 +372,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     <td>Wechseln Sie zwischen Optionsfeldern, Kontrollkästchengruppe, Dropdown-Liste mit Einzelauswahl oder Dropdown-Liste mit Mehrfachauswahl für das Feld.</td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchengruppe</li>
-    <li>Dropdown für Einzelauswahl</li>
-    <li>Dropdown für mehrere Auswahlen</li>
+    <li>Kontrollkästchen-Gruppe</li>
+    <li>Einfachauswahl-Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -378,9 +382,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     <td>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann. </td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchengruppe</li>
-    <li>Dropdown für Einzelauswahl</li>
-    <li>Dropdown für mehrere Auswahlen</li>
+    <li>Kontrollkästchen-Gruppe</li>
+    <li>Einfachauswahl-Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -403,9 +407,9 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </ol> </td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
-    <li>Kontrollkästchengruppe</li>
-    <li>Dropdown für Einzelauswahl</li>
-    <li>Dropdown für mehrere Auswahlen</li>
+    <li>Kontrollkästchen-Gruppe</li>
+    <li>Einfachauswahl-Dropdown</li>
+    <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -793,7 +797,7 @@ Diese Tabelle listet die verfügbaren nativen Felder für bestimmte Workfront-Ob
 | Programm | ✓ |   |   | ✓ |   |   |   |   |
 | Voraussichtliches Abschlussdatum | ✓ | ✓ |   |   |   |   |   |   |
 | Geplante Dauer in Minuten |   | ✓ |   |   |   |   |   |   |
-| Geplanter Starttermin | ✓ | ✓ |   |   |   |   |   |   |
+| Projizierter Starttermin | ✓ | ✓ |   |   |   |   |   |   |
 | Referenznummer | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Zeitplanmodus | ✓ |   |   | ✓ |   |   |   |   |
 | Schweregrad |   |   | ✓ |   |   |   |   |   |
