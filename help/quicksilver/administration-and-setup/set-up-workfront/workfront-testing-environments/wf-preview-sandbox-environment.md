@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -168,6 +168,16 @@ Wenn Ihre Vorschau-Sandbox aktualisiert wird (an jedem Wochenende), werden die S
 Die Schritte zum Konfigurieren von Single Sign-on in der Vorschau-Sandbox ähneln denen zum Konfigurieren in der Produktionsumgebung.
 
 Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit SSO finden Sie unter [Überblick über die einmalige Anmeldung in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+
+## Automatische Neuberechnung der Projektzeitpläne
+
+Durch die Neuberechnung der Zeitpläne können Manager sehen, wie Kräfte außerhalb des Projekts die Zeitleiste des Projekts beeinflussen. Der Zeitrahmen eines Projekts bezieht sich auf die geplanten und geplanten Daten für das Projekt.
+
+Als Workfront-Administrator können Sie konfigurieren, wann Workfront die Projektzeitpläne automatisch neu berechnet. Workfront kann die Projektzeitpläne entweder jede Nacht neu berechnen, den Projektumfang ändern oder beides.
+
+Weitere Informationen finden Sie unter [Konfigurieren von Timeline-Neuberechnungen für Projekte](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+In der Vorschau -Umgebung ist die nächtliche Neuberechnung deaktiviert und die Projekt-Timelines werden nicht automatisch neu berechnet. Sie müssen die Projekt-Timeline für die Vorschau-Umgebung manuell neu berechnen. Weitere Informationen finden Sie unter [Projekt-Timelines neu berechnen](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Vorschau der Umgebungsleistung und -verfügbarkeit
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,11 @@ Informationen zu den Aktualisierungstypen für Projekte finden Sie unter [Übers
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Die Timeline aller Projekte im System wird automatisch basierend auf dem Aktualisierungstyp jedes Projekts neu berechnet.
+
+>[!IMPORTANT]
+>
+>In den Umgebungen &quot;Vorschau&quot;und &quot;Benutzerdefinierte Sandbox-Aktualisierung&quot;ist die nächtliche Neuberechnung deaktiviert und die Projekt-Timelines werden nicht automatisch neu berechnet. Sie müssen die Projekt-Timeline für die Umgebungen &quot;Vorschau&quot;und &quot;Benutzerdefinierte Sandbox-Aktualisierung&quot;manuell neu berechnen. Weitere Informationen finden Sie unter [Projekt-Timelines neu berechnen](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
 
 ## Neuberechnen von Zeitleisten für die gesamte [!DNL Workfront]-Instanz
 

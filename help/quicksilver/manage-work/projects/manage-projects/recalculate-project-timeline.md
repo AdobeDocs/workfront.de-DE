@@ -6,9 +6,9 @@ description: Durch die Neuberechnung von Zeitleisten können Manager sehen, wie 
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,11 @@ Standardmäßig werden die Projektzeitpläne täglich, wenn sich der Projektumfa
 
 * [Automatische Neuberechnung der Projektzeitpläne](#automatic-recalculation-of-project-timelines)
 * [Aktionen, die eine automatische Neuberechnung der Projektzeitpläne Trigger haben](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+
+
+>[!IMPORTANT]
+>
+>In den Umgebungen &quot;Vorschau&quot;und &quot;Benutzerdefinierte Sandbox-Aktualisierung&quot;ist die nächtliche Neuberechnung deaktiviert und die Projekt-Timelines werden nicht automatisch neu berechnet. Sie müssen die Projekt-Timeline für die Umgebungen &quot;Vorschau&quot;und &quot;Benutzerdefinierte Sandbox-Aktualisierung&quot;manuell neu berechnen.
 
 ### Automatische Neuberechnung der Projektzeitpläne {#automatic-recalculation-of-project-timelines}
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,16 @@ Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit SSO finden Sie 
 >[!NOTE]
 >
 >Dies ist nicht verfügbar, wenn die [!DNL Workfront] -Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
+
+## Automatische Neuberechnung der Projektzeitpläne
+
+Durch die Neuberechnung der Zeitpläne können Manager sehen, wie Kräfte außerhalb des Projekts die Zeitleiste des Projekts beeinflussen. Der Zeitrahmen eines Projekts bezieht sich auf die geplanten und geplanten Daten für das Projekt.
+
+Als Workfront-Administrator können Sie konfigurieren, wann Workfront die Projektzeitpläne automatisch neu berechnet. Workfront kann die Projektzeitpläne entweder jede Nacht neu berechnen, den Projektumfang ändern oder beides.
+
+Weitere Informationen finden Sie unter [Konfigurieren von Timeline-Neuberechnungen für Projekte](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+In der Umgebung der benutzerdefinierten Aktualisierungs-Sandbox ist die nächtliche Neuberechnung deaktiviert und die Projekt-Timelines werden nicht automatisch neu berechnet. Sie müssen die Projekt-Timeline für die Umgebung &quot;Custom Refresh Sandbox&quot;manuell neu berechnen. Weitere Informationen finden Sie unter [Projekt-Timelines neu berechnen](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Vorgesehene Nutzung und Verfügbarkeit
 
