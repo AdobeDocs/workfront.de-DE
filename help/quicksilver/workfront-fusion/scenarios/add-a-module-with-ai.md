@@ -9,24 +9,24 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: fe096ba36da9b56e0e38f6061481b66cfbeee5c6
+source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 1%
+source-wordcount: '408'
+ht-degree: 0%
 
 ---
 
-# Generieren eines Moduls mit AI
+# Generieren eines Szenario-Segments mit AI
 
 <!--DO NOT DELETE - linked through CSH-->
 
 >[!IMPORTANT]
 >
->Da sich diese Funktion noch in der Anfangsphase ihrer Entwicklung befindet, steht sie nur internen Workfront-Benutzern zur Verfügung.
+>Da diese Funktion in Beta verfügbar ist, steht sie nur einigen Workfront-Benutzern zur Verfügung.
 
-Sie können mithilfe von KI eine Textaufforderung eingeben, in der Sie beschreiben, was Sie mit einem Modul tun müssen. Fusion generiert dann ein HTTP-Modul, das eine Verbindung zum richtigen Endpunkt der gewünschten API herstellt.
+Sie können AI verwenden, um eine Textaufforderung einzugeben, die beschreibt, was Sie für einen Abschnitt Ihres Szenarios benötigen. Fusion generiert dann Module, die diese Aktionen ausführen, die Sie in Ihrem Szenario verwenden können.
 
-Wie bei allen aus AI generierten Elementen empfehlen wir, das generierte Modul zu überprüfen und zu testen, um sicherzustellen, dass es die gewünschte Leistung erzielt.
+Wie bei allen aus AI generierten Modulen empfehlen wir, die generierten Module zu überprüfen und zu testen, um sicherzustellen, dass sie die gewünschte Leistung erzielen.
 
 ## Derzeit unterstützte AI-Modulanwendungen
 
@@ -50,43 +50,54 @@ Die Fusion AI kann derzeit Module generieren, die eine Verbindung zu den folgend
 * OpenAI
 * Slack
 
-## Modul generieren
+## Generieren von Modulen
 
-1. Fügen Sie ein Modul hinzu und wählen Sie in der Liste der Anwendungen die Option **Mit KI generieren** aus.
+1. Beginnen Sie mit dem Hinzufügen eines Moduls und wählen Sie in der Liste der Anwendungen die Option **Mit KI generieren** aus.
 
    Oder
 
-   Klicken Sie mit der rechten Maustaste auf einen leeren Bereich des Szenario-Editors und wählen Sie dann **Mit AI generieren** aus.
+   Klicken Sie unten auf der Seite des Szenario-Editors auf das Symbol Mit KI generieren ![Mit KI generieren](assets/generate-with-ai-icon-beta.png) .
+
+   Das Fenster des KI-Assistenten wird geöffnet.
 1. Geben Sie eine Textaufforderung in das Feld ein.
 
    Tipps zu Eingabeaufforderungen finden Sie in diesem Artikel unter [Tipps zum Erstellen von Textaufforderungen](#tips-for-creating-text-prompts).
-1. Fügen Sie Ihr API-Token für die Anwendung zum -Modul hinzu.
-1. Überprüfen Sie das Modul, um sicherzustellen, dass es für die entsprechende Anwendung und Aktion konfiguriert zu sein scheint.
-1. (Bedingt) Wenn das Modul nicht an Ihr Szenario angehängt ist, ziehen Sie es an die gewünschte Position.
 
-Wir empfehlen, das Modul zu testen, um sicherzustellen, dass das generierte Modul die gewünschte Leistung erzielt.
+   Das Modul oder der Satz von Modulen wird generiert.
+1. (Bedingt) Fügen Sie bei Bedarf Ihr API-Token für die Anwendung zu den Modulen hinzu.
+1. Überprüfen Sie die Module, um sicherzustellen, dass sie für die entsprechende Anwendung und Aktion konfiguriert werden.
+1. (Bedingt) Wenn der Abschnitt zum generierten Szenario nicht an Ihr Szenario angehängt ist, ziehen Sie es an die gewünschte Position.
+
+Es wird empfohlen, die Module zu testen, um sicherzustellen, dass sie die gewünschte Leistung erzielen.
 
 ## Tipps zum Erstellen von Textanforderungen
 
 Textaufforderungen sollten mindestens die folgenden Informationen enthalten:
 
 * Die Anwendung, mit der Sie eine Verbindung herstellen
-* Die Aktion, die Sie ausführen möchten
+* Die Aktionen, die Sie ausführen möchten
+
+>[!IMPORTANT]
+>
+>Sie können mehrere Module gleichzeitig generieren, aber nur Module für eine Anwendung gleichzeitig generieren.
 
 >[!INFO]
 >
 >**Beispiele**:
 >
->* `Retrieve a list of my calendars from Google Calendar`
+>* `Delete the records 'xyz-123', 'xyz-456', 'xyz-789' from Adobe Workfront Planning`
+>Dazu gehören die Anwendung `Workfront Planning` und die Aktion `delete records`. Diese Eingabeaufforderung erstellt drei Module, eines für jeden zu löschenden Datensatz.
+>* `Change campaign summary of the record 'xyz-123' from Adobe Workfront Planning`
+>Dazu gehören die Anwendung `Workfront Planning` und die Aktion `change campaign summary`.
+>* `Get all field details in the record type with ID 'test-record' from Adobe Workfront Planning`
+>Dazu gehören die Anwendung `Workfront Planning` und die Aktion `get field details`.
 >
->   Dazu gehören die Anwendung `Google Calendar` und die Aktion `Retrieve a list of my calendars`.
+>Das folgende Beispiel ist NICHT korrekt:
+>* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
->* `Retrieve popular songs from Spotify`
->
->   Dazu gehören die Anwendung `Spotify` und die Aktion `Retrieve popular songs`.
+>    Dieses Beispiel ist falsch, da es mehr als eine Anwendung enthält
 
 Beachten Sie beim Erstellen von Textanforderungen Folgendes:
 
-* Da jedes Fusion-Modul eine einzelne Aktion ausführt, sollte Ihre Textaufforderung eine bestimmte Aktion beschreiben.
 * Verwenden Sie eine direkte, einfache Sprache.
-* Prüfen und testen Sie Ihr Modul. Wenn die Ausführung nicht wie erwartet erfolgt, verfeinern Sie die Eingabeaufforderung und versuchen Sie es erneut.
+* Prüfen und testen Sie Ihre Module. Wenn die Ausführung nicht wie erwartet erfolgt, verfeinern Sie die Eingabeaufforderung und versuchen Sie es erneut.
