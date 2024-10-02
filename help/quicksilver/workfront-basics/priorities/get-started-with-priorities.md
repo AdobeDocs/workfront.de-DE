@@ -5,9 +5,9 @@ description: Prioritäten sind ein optimiertes, intuitives Erlebnis, das auf Auf
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 3%
 
 ---
@@ -182,6 +182,7 @@ Verwenden Sie die Funktion Aufholen , um zu sehen, was Sie verpasst haben. Wenn 
 
 ## Überlegungen
 
+* Workfront-Administratoren können die Prioritäten derzeit nicht über die Layout-Vorlage anpassen.
 * Der Zugriff auf Aufgaben in Prioritäten erfolgt über verschiedene Registerkarten. In Zukunft werden weitere Registerkarten wie Dokumente, Unteraufgaben, Genehmigungen usw. hinzugefügt. Teilen Sie uns mit, dass Sie diese Elemente benötigen, indem Sie mithilfe der Schaltfläche **Feedback geben** Feedback senden.
 
 

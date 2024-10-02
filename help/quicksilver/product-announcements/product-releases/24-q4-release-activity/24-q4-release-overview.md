@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -173,7 +173,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Einführung von Prioritäten: Ein einfacheres, optimiertes und intuitives Workfront-Erlebnis für Aufgabenbesitzer.</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Einführung von Prioritäten: Ein einfacheres, optimiertes und intuitives Workfront-Erlebnis für Aufgabenbesitzer</a></p>
                         <p>Prioritätensetzung verbessert Fokus und Produktivität, um Kunden zu helfen, in kürzerer Zeit mehr zu erreichen.</p>
                         <p>Bei Prioritäten haben Sie folgende Möglichkeiten:</p>
                         <ul>
