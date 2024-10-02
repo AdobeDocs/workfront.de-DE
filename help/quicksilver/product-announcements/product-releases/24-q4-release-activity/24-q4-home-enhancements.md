@@ -4,9 +4,9 @@ description: Verbesserungen für das vierte Quartal 2024 - Startseite
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Versio
 Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2024 verfügbar sind, finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Vereinfachung der Workfront-Erfahrung für Aufgabeneigentümer mit Prioritäten
+
+>[!NOTE]
+>
+>Vorschau-Version: 3. Oktober 2024; Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024).
 
 Einführung von Prioritäten: ein einfacheres, optimiertes und intuitiveres Workfront-Erlebnis für Aufgabeneigentümer.
 

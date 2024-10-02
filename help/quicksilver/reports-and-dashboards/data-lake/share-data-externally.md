@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '611'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,45 @@ Um Ihren Data Connect Data Lake mit einem externen Produkt zu verbinden, müssen
 >Nachdem ein Eintrag zur IP-Zulassungsliste hinzugefügt wurde, sind alle anderen IP-Adressen nicht mehr zulässig. Stellen Sie sicher, dass Sie alle erforderlichen IP-Adressen - sowohl für die Erstellung als auch für die Lektüre Ihres Visualisierungs-Tools - eingegeben haben, bevor Sie versuchen, das Tool zu verwenden. Andernfalls kann es zu einem Fehler bezüglich ungültiger Anmeldedaten kommen.
 >
 >Wenn keine IP-Adressen in Ihrer Zulassungsliste enthalten sind, aber dennoch Probleme beim Herstellen einer Verbindung zu einem BI-Tool auftreten, überprüfen Sie die Proxyserverkonfiguration für das BI-Tool.
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td><p>In den folgenden Plänen enthalten:</p>
+    <ul>
+        <li>Ultimativ</li> 
+    </ul>    
+   <p>Kann als Zusatzprodukt zu den folgenden Plänen erworben werden:</p> 
+    <ul>
+        <li>Auswählen</li> 
+        <li>Erstklassig</li>
+    </ul> 
+    <p>Workfront Data Connect ist nicht für ältere Workfront-Pläne verfügbar.</p> 
+   </td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Sie müssen Workfront-Administrator sein.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Hinzufügen von IPs zur Zulassungsliste
 

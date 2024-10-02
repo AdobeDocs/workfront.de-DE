@@ -6,9 +6,9 @@ description: Das Dashboard ermöglicht einen schnellen Zugriff auf Informationen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ Das Dashboard ermöglicht einen schnellen Zugriff auf Informationen. Sie können
 
   Weitere Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Kalender
-
-  Weitere Informationen zum Erstellen von Kalendern finden Sie unter [Kalender: Artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
-
 * Externe Seiten
 
   Weitere Informationen zum Erstellen externer Seiten finden Sie unter [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
@@ -33,7 +29,7 @@ Nachdem Sie diese Elemente erstellt und zu einem Dashboard hinzugefügt haben, k
 
 Änderungen an einem Dashboard wirken sich auf alle Benutzer aus, die Zugriff auf dieses Dashboard haben.
 
-Wenn Sie ein Dashboard für Benutzer freigeben, werden alle Berichte, Kalender und externen Seiten ebenfalls für dieselben Benutzer freigegeben.
+Wenn Sie ein Dashboard für Benutzer freigeben, werden auch alle Berichte und externen Seiten für dieselben Benutzer freigegeben.
 
 ## Zugriffsanforderungen
 
@@ -86,7 +82,7 @@ Informationen zum Erstellen von Dashboards finden Sie unter [Dashboards erstelle
    * **Name**: Bearbeiten Sie den Namen des Dashboards.
    * **Beschreibung**: Geben Sie eine Beschreibung für das Dashboard an.
 
-1. Geben Sie im Abschnitt **Verfügbare Berichte und Kalender** den Namen eines Berichts, Kalenders oder einer externen Seite in das Feld **Suche nach Name oder Typ ...** ein und ziehen Sie dann den Bericht oder Kalender in den Layout-Bereich auf die rechte Seite.
+1. Geben Sie im Abschnitt **Verfügbare Berichte** den Namen eines Berichts oder einer externen Seite in das Feld **Suche nach Name oder Typ ...** ein und ziehen Sie dann den Bericht in den Layout-Bereich auf die rechte Seite.
 
    >[!NOTE]
    >

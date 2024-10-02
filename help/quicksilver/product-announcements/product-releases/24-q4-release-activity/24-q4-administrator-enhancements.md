@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe eine
 
 >[!NOTE]
 >
->Vorschau: 29. August 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (12. September 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.10 (Oktober 2024)
+>Vorschau: 29. August 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (12. September 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 24.10 (17. Oktober 2024)
 
 Um die Umgebungsförderung flexibler und benutzerfreundlicher zu gestalten, haben wir die Rollback-Funktion aktiviert. Jetzt können Sie Pakete innerhalb von 24 Stunden zurücksetzen, um frühere Konfigurationen, die von einem Umgebungs-Promotionpaket betroffen sind, leichter wiederherzustellen.
 

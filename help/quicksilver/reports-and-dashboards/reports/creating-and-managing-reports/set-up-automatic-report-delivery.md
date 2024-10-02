@@ -6,9 +6,9 @@ description: Planen eines automatischen Berichtversands
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
@@ -160,6 +160,12 @@ So planen Sie einen Bericht für die automatische Bereitstellung oder zum Bearbe
    Der Bericht wird im Abschnitt **Wiederholende Sendungen** (im Dialogfeld **Bericht senden** ) angezeigt und zum geplanten Zeitpunkt gesendet.
 
    Informationen zu Größenbeschränkungen, die sich auf die Bereitstellung Ihrer Berichte auswirken können, finden Sie in den Abschnitten [Einschränkungen bei der Berichtauslieferung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) und [Exportbeschränkungen](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+
+>[!IMPORTANT]
+>
+>Terminierte Berichte unterliegen bei der Versandverarbeitung einer internen Zeitbegrenzung. Sollte der Versand eines Berichts länger dauern als begrenzt, erhalten Sie eine Benachrichtigung und der Bericht wird unabhängig von den restlichen geplanten Sendungen nicht mehr zugestellt. Um mit dem Versand des Berichts fortzufahren, versuchen Sie zunächst, die Größe des Berichts durch Filter und Ansichten zu reduzieren, und erstellen Sie dann einen neuen geplanten Versand.
+>
+>Wenn Sie einen geplanten Berichtversand verwenden, um Workfront-Daten über ein BI-Tool zu analysieren, empfehlen wir stattdessen die Verwendung von Workfront Data Connect . Weitere Informationen finden Sie unter [Übersicht über Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 1. (Optional) So löschen Sie einen geplanten Versand:
 

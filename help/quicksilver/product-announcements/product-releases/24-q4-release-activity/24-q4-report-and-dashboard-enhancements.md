@@ -4,9 +4,9 @@ description: Verbesserungen am Bericht und Dashboard im vierten Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten
 
 >[!NOTE]
 >
->Produktionsversion für alle Kunden: Mit der Version 24.10 (Oktober 2024)
+>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)
 >
 >_Nur für Unternehmen mit einem der neuen Adobe Workfront-Pläne verfügbar. Data Connect ist im Ultimate-Plan enthalten oder kann als Add-on zu Prime- und Select-Plänen erworben werden._
 

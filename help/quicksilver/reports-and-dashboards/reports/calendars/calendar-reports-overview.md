@@ -7,9 +7,9 @@ description: Ein Kalenderbericht ist ein dynamischer Bericht, der eine visuelle 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '352'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,3 @@ In jedem Kalenderbericht können Sie Gruppen von Elementen erstellen, mit denen 
 >[!NOTE]
 >
 >Wenn bei Ausführung eines Kalenderberichts der Fehler 504 auftritt, enthält der Bericht wahrscheinlich zu viele Filter. Wenn Sie die Anzahl der Filter verringern, sollte der Bericht ausgeführt werden können.
-
-## Kalender zu einem Dashboard hinzufügen
-
-Sie können schnell auf Ihre Kalenderberichte zugreifen, indem Sie sie in einem Dashboard anzeigen. Informationen zum Hinzufügen eines Kalenders zu einem Dashboard finden Sie unter [Bearbeiten eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
