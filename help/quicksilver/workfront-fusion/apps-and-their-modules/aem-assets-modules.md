@@ -10,9 +10,9 @@ description: Mit dem [!DNL Adobe Experience Manager Assets] Connector für das [
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -127,20 +127,28 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Experience Manager Assets
                   <td>Geben Sie die URL für Ihre [!DNL Adobe Experience Manager] -Instanz ein. Fügen Sie am Ende der URL keinen Schrägstrich <code>/</code> ein.</td>
               </tr>
               <tr>
+                  <td role="rowheader">[!UICONTROL Optionen zum Ausfüllen der Kontodetails]</td>
+                  <td>Wählen Sie aus, ob Sie JSON bereitstellen möchten, das Ihre Kontodetails beschreibt, oder ob Sie Details manuell eingeben möchten.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[!UICONTROL Technische Kontodetails im JSON-Format]</td>
+                  <td>Wenn Sie JSON bereitstellen, geben Sie die JSON-Datei ein oder fügen Sie sie ein, die Ihre Kontodetails beschreibt.</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[!UICONTROL Client-ID]</td>
-                  <td>Geben Sie die im [!UICONTROL Server-to-Server]-Setup generierte Client-ID ein.</td>
+                  <td>Geben Sie bei der manuellen Eingabe der Details die Client-ID ein, die beim [!UICONTROL Server-to-Server]-Setup generiert wurde.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client Secret]</td>
-                  <td>Geben Sie den Client-Geheimnisschlüssel ein, der im [!UICONTROL Server-to-Server]-Setup generiert wurde.</td>
+                  <td>Geben Sie bei der manuellen Eingabe der Details das im [!UICONTROL Server-to-Server]-Setup generierte Client-Geheimnis ein.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL ID des technischen Kontos]</td>
-                  <td>Geben Sie die Kennung des technischen Kontos ein. Dies ist das Feld "[!UICONTROL id]"in der JSON-Datei mit den Client-Anmeldeinformationen.</td>
+                  <td>Geben Sie bei der manuellen Eingabe der Details die Kennung des technischen Kontos ein. Dies ist das Feld "[!UICONTROL id]"in der JSON-Datei mit den Client-Anmeldeinformationen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Organisations-ID]</td>
-                  <td class="">Geben Sie die Kennung Ihrer Organisation ein. Dies ist das Feld "[!UICONTROL org]" in der JSON-Datei mit den Client-Anmeldeinformationen.</td>
+                  <td class="">Geben Sie bei der manuellen Eingabe der Details die Kennung Ihres Unternehmens ein. Dies ist das Feld "[!UICONTROL org]" in der JSON-Datei mit den Client-Anmeldeinformationen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
