@@ -6,9 +6,9 @@ description: Diese Seite enthält Informationen über die bevorstehende Einstell
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
+source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ Wir empfehlen Administratoren:
 1. Weisen Sie den Rest Ihrer Benutzer dem neuen Layout der Startseite zu.
 
 Dadurch erhalten Ihre Benutzer so bald wie möglich Zeit, sich an das neue Erlebnis anzupassen und ihre neuen Startseiten an ihre individuellen Bedürfnisse anzupassen. Unter [Entfernen, Hinzufügen und Neuanordnen von Widgets auf der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) finden Sie Informationen dazu, wie Benutzer die Widgets auf ihrer eigenen neuen Startseite anpassen können.
+
+### Erfahren Sie, was in den neuen Startseiten und Prioritäten verfügbar ist.
+
+In den folgenden Artikeln erfahren Sie, welche Funktionen in den neuen Startseiten und Prioritäten verfügbar sind:
+
+* [Wechsel von der alten Startseite zur neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+* [Übergang von der alten Startseite zu Prioritäten](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Befolgen Sie die Entwicklung des Starterlebnisses.
 

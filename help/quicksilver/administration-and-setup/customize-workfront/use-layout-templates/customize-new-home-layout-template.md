@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
+source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ So passen Sie die neue Startseite mit einer Layoutvorlage an:
       <p>Sobald Sie das Widget ausgewählt haben, das Sie bearbeiten möchten, werden die verfügbaren Optionen auf der rechten Seite angezeigt. Zu diesen Optionen gehören <b>Filter</b>, <b>Spalten</b> und <b>Gruppen</b>. Sie können:</p>
       <ul>
       <li><p><b>Wählen Sie Filter, Spalten oder Gruppen aus, die Benutzern zur Verfügung stehen, und ordnen Sie sie an:</b></p>
-      <p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt. Ziehen Sie Optionen per Drag-and-Drop in die Liste, um eine Reihenfolge festzulegen.</li></p>
+      <p>Aktivieren Sie das Kontrollkästchen neben allen Optionen in der Liste, die Benutzer verwenden können sollen. Diese Optionen werden nicht auf das Bedienfeld "Zusammenfassung"erweitert. Sie müssen diesen Bereich auf der Registerkarte "Zusammenfassung"in der Layout-Vorlage konfigurieren. Nicht aktivierte Optionen werden für Benutzer nicht angezeigt. Ziehen Sie Optionen per Drag-and-Drop in die Liste, um eine Reihenfolge festzulegen.</li></p>
       <p>
 
 >[!IMPORTANT]
