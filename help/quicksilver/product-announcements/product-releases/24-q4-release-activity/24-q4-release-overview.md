@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 ## Adobe Workfront-Verbesserungen
 
 * [Administratorverbesserungen](#administrator-enhancements)
+* [Verbesserungen bei der Dokumentenverwaltung](#document-management-enhancements)
 * [Integrationsverbesserungen](#integration-enhancements)
 * [Verbesserungen der Startseite](#home-enhancements)
 * [Projektverbesserungen](#project-enhancements)
@@ -46,8 +47,8 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 ### Administratorverbesserungen
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -57,6 +58,22 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td>
                         <p><span class="bold">Veröffentlichungstermine</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ein Zähler für benutzerdefinierte Formulare zeigt die Anzahl der Felder an</a></p>
+                        <p>Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Langfristig kann es schwierig sein zu wissen, wie viele Felder im Formular vorhanden sind und ob Sie die Grenze erreichen. Den benutzerdefinierten Formularen unten links wurde ein Zähler hinzugefügt. Der Zähler zeigt an, wie viele Felder im Formular verwendet werden, und er ist immer sichtbar, wenn Sie im Formularentwickler einen Bildlauf durchführen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 1. Oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,13 +134,68 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### Verbesserungen bei der Dokumentenverwaltung
+
+>[!IMPORTANT]
+>
+>Die in den **Verbesserungen der Dokumentenverwaltung** aufgelisteten Funktionen sind Teil einer schrittweisen Veröffentlichung und stehen nur bestimmten Kunden zur Verfügung.
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungstermine</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Status der Dokumententscheidung direkt in der Dokumentliste anzeigen</a></p>
+                        <p>Der Entscheidungsstatus eines Dokuments kann jetzt direkt in der Dokumentliste angezeigt werden.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 3. Oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> Schnelles Hinzufügen früherer Überprüfer und Genehmiger zu neuen Dokumentversionen</a></p>
+                        <p>Sie können jetzt schnell Überprüfer und Genehmiger aus früheren Dokumentversionen hinzufügen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 3. Oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
 
 ### Integrationsverbesserungen
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -153,13 +225,13 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Verbesserungen der Startseite
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -194,14 +266,14 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 
 ### Projektverbesserungen
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -254,13 +326,13 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Verbesserungen bei der Überprüfung
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -275,6 +347,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Problembehebung beim Kopieren/Einfügen für den Desktop Proofing Viewer</a></p>
+                        [!BADGE In Production ]{type=Informative}
                         <p>Es wurde ein Problem behoben, bei dem Inhalte im Abschnitt Updates des Desktop Proofing-Viewers falsch eingefügt wurden.</p>
                         <p>Neue Version: 2.1.39</p>
                     </td>
@@ -325,13 +398,13 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Verbesserungen bei Berichten und Dashboards
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -351,21 +424,37 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</span></p>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
                             </li>
                         </ul>
                         <p><i>Nur für Unternehmen verfügbar, die an einem der neuen Adobe Workfront-Pläne teilnehmen. Data Connect ist im Ultimate-Plan enthalten oder kann als Add-on zu den Prime- und Select-Plänen erworben werden.</i></p>
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Weitere Verbesserungen
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Zusammenfassen von Projekten oder Aktualisierungen mit einem Klick</a></p>
+                        <p>Um die Highlights eines Projekts oder eines Aktualisierungsstreams schneller anzuzeigen, haben wir die Schaltflächen Zusammenfassen zu diesen Bereichen von Workfront hinzugefügt. Jetzt können Sie auf die Schaltfläche klicken, um eine Zusammenfassung im KI-Assistenten zu generieren.</p><p>Zuvor konnten Benutzer den AI-Assistenten öffnen und eine Eingabeaufforderung eingeben, um eine Zusammenfassung des Projekts oder den Aktualisierungsstream zu erstellen.</p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau-Version: 3. Oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Allgemeine Verfügbarkeit der Adobe Workfront-Planung</a></p>
@@ -421,7 +510,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                     </td>
                 </tr>                            
            </tbody>
-        </table>
+</table>
 
 ### Funktion wird bald aus Workfront entfernt
 

@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -22,11 +22,28 @@ Eine Liste aller Änderungen, die mit der Version vom vierten Quartal 2024 verf�
 
 >[!NOTE]
 >
->Vorschau-Version: 19. September 2024; Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)
+>Vorschau-Version: 26. September 2024; Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)
 
-Die Benutzeroberfläche der Dashboards wurde entsprechend dem Design anderer Workfront-Bereiche aktualisiert. Zu diesen Änderungen gehören ein neuer Druckvorschau-Bildschirm beim Drucken eines Dashboards sowie die Entfernung der Möglichkeit, Kalender in Dashboards zu platzieren. Bestehende Kalender in Dashboards zeigen stattdessen einen Link zum Kalender an.
+Die Benutzeroberfläche der Dashboards wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert, einschließlich Verbesserungen am Druckvorschau-Bildschirm beim Drucken eines Dashboards.
+
+Aufgrund dieser Änderungen können Kalender nicht mehr in Dashboards platziert werden. Bestehende Kalender in Dashboards zeigen stattdessen einen Link zum Kalender an.
 
 Weitere Informationen zu Dashboards finden Sie unter [Dashboards erstellen und verwalten](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). Weitere Informationen zu Kalendern finden Sie unter [Übersicht über Kalenderberichte](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+
+<!--
+
+## Look and feel updates for reports
+
+>[!NOTE]
+>
+>Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+
+* changes to existing reports that improve their use in Canvas Dashboards
+* an expanded color palette for conditional formatting rules in reports
+
+For more information about -->
 
 ## Look-and-Feel-Updates für die Seite &quot;Systemeinstellungen&quot;
 

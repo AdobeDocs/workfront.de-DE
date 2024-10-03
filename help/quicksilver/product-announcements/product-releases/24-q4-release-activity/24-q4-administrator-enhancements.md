@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit der Version vom 4. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2024 verfügbar sind, finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Ein Zähler für benutzerdefinierte Formulare zeigt die Anzahl der Felder an
+
+>[!NOTE]
+>
+>Vorschau-Version: 1. Oktober 2024; Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)
+
+Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Langfristig kann es schwierig sein zu wissen, wie viele Felder im Formular vorhanden sind und ob Sie die Grenze erreichen.
+
+Den benutzerdefinierten Formularen unten links wurde ein Zähler hinzugefügt. Der Zähler zeigt an, wie viele Felder im Formular verwendet werden, und er ist immer sichtbar, wenn Sie im Formularentwickler einen Bildlauf durchführen.
+
+Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## In Layoutvorlagen ist jetzt die Option &quot;Alle auswählen&quot;verfügbar
 
