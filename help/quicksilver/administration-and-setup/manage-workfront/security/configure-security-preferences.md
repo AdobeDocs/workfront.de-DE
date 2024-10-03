@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 4%
+source-wordcount: '905'
+ht-degree: 3%
 
 ---
 
@@ -128,8 +128,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td>Hiermit können Sie festlegen, ob Benutzern standardmäßig das Erlebnis "Neue Startseite"angezeigt wird. Wenn diese Option aktiviert ist, sehen die Benutzer standardmäßig das Erlebnis "Neues Home", können jedoch weiterhin auf individueller Basis die Option Neues Home aktivieren oder deaktivieren. Wenn diese Option deaktiviert ist, wird Benutzern das Banner nicht angezeigt, über das sie zur neuen Startseite wechseln können. Sie können jedoch dennoch zu ihrer neuen Startseite navigieren, indem sie manuell <code>/home/workspaces</code> am Ende ihrer Instanz-URL eingeben. Diese Einstellung ist standardmäßig aktiviert.</td> 
      </tr>
      <tr> 
+      <td role="rowheader">Aktivieren der Prioritätenliste </td> 
+      <td>Hiermit können Sie festlegen, dass das Erlebnis der Prioritätenliste für Ihre Benutzer aktiviert oder deaktiviert werden soll. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> Weitere Informationen zu Prioritäten finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Erste Schritte mit Prioritäten</a>.</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Testumgebungen</td> 
-      <td>Ermöglicht Ihnen den Zugriff auf Ihre Workfront-Testumgebungen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Die Adobe Workfront-Vorschau-Sandbox-Umgebung</a>.</p></td> 
+      <td>Ermöglicht Ihnen den Zugriff auf Ihre Workfront-Testumgebungen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Die Adobe Workfront-Vorschau-Sandbox-Umgebung</a>.</p></td> 
     </tbody> 
    </table>
 

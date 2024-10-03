@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1006'
 ht-degree: 2%
 
 ---
 
 # Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage
+
+<span class="preview">Dieser Artikel wird in &quot;Anpassen des Zusammenfassungsbereichs mithilfe einer Layoutvorlage&quot;umbenannt, wenn die alte Startseite mit der Version Q4 vom 17. Oktober aus Workfront entfernt wird. 2024.</span>
 
 Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was Benutzer sehen, wenn sie auf eine Aufgabe oder ein Problem in der Startseite und in der Zusammenfassung klicken. Jede Konfiguration, die Sie mithilfe der folgenden Schritte vornehmen, wirkt sich auf die gleiche Weise auf den Startbereich und den Zusammenfassungsbereich aus. Diese Anpassungen gelten nicht für das Bedienfeld &quot;Dokumentzusammenfassung&quot;.
 

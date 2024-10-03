@@ -5,17 +5,15 @@ description: Die alte Startseite wird am 17.10.17 mit der Version Q4 aus Workfro
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 3%
 
 ---
 
 
 # Übergang von der alten Startseite zu Prioritäten
-
-<span class="preview">Prioritäten sind in der Vorschau am 3.10.2024 verfügbar</span>
 
 Die alte Startseite wird am 17.10.17 mit der Version Q4 aus Workfront entfernt. Dieser Artikel enthält Informationen dazu, welche Funktionen in den Prioritäten verfügbar sein werden, sowie Empfehlungen für Workfront-Administratoren, die Benutzer zu Prioritäten verschieben.
 

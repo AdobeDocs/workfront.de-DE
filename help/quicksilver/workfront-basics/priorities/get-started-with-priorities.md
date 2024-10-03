@@ -5,17 +5,15 @@ description: Prioritäten sind ein optimiertes, intuitives Erlebnis, das auf Auf
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '883'
 ht-degree: 3%
 
 ---
 
 
 # Erste Schritte mit Prioritäten
-
-<span class="preview">Prioritäten sind in der Vorschau am 3.10.2024 verfügbar</span>
 
 Prioritäten sind ein optimiertes, intuitives Erlebnis, das auf Aufgabenbesitzer zugeschnitten ist. Die Prioritäten werden in mehreren Phasen festgelegt, beginnend mit der Arbeitsliste.
 
@@ -118,6 +116,16 @@ Die Kalenderansicht bietet eine visuelle Darstellung Ihrer Aufgaben und Probleme
 ## Arbeiten an Aufgaben und Problemen
 
 Unter &quot;Prioritäten&quot;können Sie Arbeitselemente aktualisieren, um die Details Ihrer Arbeitselemente auf dem neuesten Stand zu halten, die Zeit zur genauen Verfolgung Ihrer Arbeitszeiten protokollieren, Assets hochladen, ohne zu einem Projekt navigieren zu müssen, und Schnelllinks hinzufügen, um den Zugriff auf häufig verwendete Ressourcen zu erleichtern.
+
+>[!NOTE]
+>
+>Leichte, Review-, Beitrags- und Anforderungslizenzen haben eingeschränkten Zugriff auf Prioritäten. Weitere Informationen dazu, wie diese Lizenztypen mit Aufgaben und Problemen interagieren können, finden Sie unter
+>
+>* [Zugriff auf Objekte und Bereiche durch für neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [Für jeden Objekttyp verfügbare Funktionen für neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [Zugriff auf Objekte und Bereiche nach Lizenztyp](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [Für jeden Objekttyp verfügbare Funktionalität](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### Hinzufügen und Anzeigen von Updates
 
