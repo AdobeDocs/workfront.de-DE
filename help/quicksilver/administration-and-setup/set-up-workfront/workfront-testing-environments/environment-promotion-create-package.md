@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Geben Sie im Feld **Paketname** einen Namen für das Paket ein.
 1. Geben Sie im Feld **Beschreibung** eine Beschreibung für dieses Paket ein.
-1. Um dem Paket ein Objekt hinzuzufügen, klicken Sie im linken Navigationsbereich auf **Objekte hinzufügen** und wählen Sie den Typ des Objekts aus, das Sie hinzufügen möchten.
-1. Wählen Sie ein oder mehrere Objekte aus der Liste aus oder geben Sie den Namen in die Suchleiste ein und wählen Sie das Objekt aus, wenn es in der Liste angezeigt wird. Sie können mehrere Objekte in der Liste auswählen.
+1. Um dem Paket ein Objekt hinzuzufügen, wählen Sie im linken Navigationsbereich den Objekttyp aus, den Sie hinzufügen möchten.
+1. Wählen Sie ein oder mehrere Objekte aus der angezeigten Liste aus oder geben Sie den Namen in die Suchleiste ein und wählen Sie das Objekt aus, wenn es in der Liste angezeigt wird. Sie können mehrere Objekte in der Liste auswählen.
+
+   Die Liste enthält bis zu 500 Objekte des ausgewählten Objekttyps. Verwenden Sie die Suchleiste, um ein Objekt zu finden, das sich nicht in der Liste befindet.
 1. Klicken Sie auf **Hinzufügen (X Objekte)** , um die ausgewählten Objekte zum Paket hinzuzufügen.
 
    >[!INFO]
