@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Aktualisierung des Aufgabenstatus
+title: Aufgabenstatus aktualisieren
 description: Sie können den Status einer Aufgabe aktualisieren, um andere darüber zu informieren, wo sich die Aufgabe befindet (und wie das Gesamtprojekt) und wie sie vorankommt.
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # Aktualisierung des Aufgabenstatus
+
+<!--Audited: 10/2024-->
 
 Sie können den Status einer Aufgabe aktualisieren, um andere darüber zu informieren, wo sich die Aufgabe befindet (und wie das Gesamtprojekt) und wie sie vorankommt.
 
@@ -22,6 +24,8 @@ Die Standardstatus sind &quot;Neu&quot;, &quot;In Bearbeitung&quot;und &quot;Abg
 Sie können den Aufgabenstatus manuell aktualisieren oder Workfront automatisch aktualisieren lassen, wenn bestimmte Aktionen ausgeführt werden.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren zu können:
 
@@ -51,7 +55,9 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen zum Aktualisieren des Status von Aufgaben
 

@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '3007'
+source-wordcount: '3037'
 ht-degree: 0%
 
 ---
@@ -130,12 +130,19 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * Von einem Workfront-Objekt aus im Abschnitt Updates (für Projekte, Aufgaben und Probleme)
    * Im Startbereich (für Aufgaben und Probleme)
+
+     Weitere Informationen finden Sie unter [Verwalten Ihrer Arbeit mit dem Widget &quot;Meine Arbeit&quot;](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md).
    * Im Bereich &quot;Zusammenfassung&quot;in den folgenden Bereichen (für Aufgaben, Probleme und Dokumente):
 
       * Eine Liste von Objekten
       * Ein Timesheet
       * Startseite
       * Der Lastenausgleich
+
+     Weitere Informationen finden Sie in den folgenden Artikeln:
+
+      * [Zusammenfassungsübersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+      * [Aktualisieren von Arbeitselementen im Arbeitslastausgleich mithilfe der Zusammenfassung](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 

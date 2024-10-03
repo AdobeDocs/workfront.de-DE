@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
+source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 2%
+source-wordcount: '1290'
+ht-degree: 4%
 
 ---
 
@@ -146,17 +146,33 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    * Feld **Betreff** : Das Feld, das die Anforderung in Workfront identifiziert. Diese Funktion ist noch nicht verfügbar.
    * Alle mit dem Datensatztyp verknüpften Felder.
 
-   Die im Anfrageformular enthaltenen Felder sind für alle sichtbar, die eine Anfrage an diesen Datensatztyp senden.
+     Die im Anfrageformular enthaltenen Felder sind für alle sichtbar, die eine Anfrage an diesen Datensatztyp senden.
 
 1. (Optional) Bewegen Sie den Mauszeiger über alle Felder im Formular, die Sie entfernen möchten, und klicken Sie dann auf das Symbol **x** , um sie zu entfernen. Sie werden der Registerkarte **Felder** links neben dem Formular hinzugefügt.
 
    Entfernen Sie beispielsweise das Feld **Betreff** , da dies in der Workfront-Planung nicht sichtbar ist. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Klicken Sie auf ein beliebiges Feld und verwenden Sie dann die Steuerelemente auf der rechten Seite des Formulars, um deren Größe oder eine der folgenden Informationen zu den Feldern zu definieren:
+1. Klicken Sie auf ein beliebiges Feld und verwenden Sie dann die Steuerelemente im rechten Bereich im Formular, um deren Größe oder eine der folgenden Informationen zu definieren:
 
    * **Beschriftung**: Dies ist der Name des Felds, wie er im Anfrageformular angezeigt wird. Dadurch wird der Name des Datensatzfelds nicht geändert.
    * **Anweisungen**: Fügen Sie weitere Informationen zum Feld hinzu.
    * **Machen Sie ein erforderliches Feld**: Wenn ausgewählt, muss das Feld einen Wert enthalten. Andernfalls kann das Formular nicht gesendet werden.
    * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird.
+
+   Der Feldtyp jedes Felds wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben. Die Namen der Feldtypen im Anfrageformular unterscheiden sich von den Namen in der Tabellenansicht. In der folgenden Tabelle werden die Unterschiede zwischen den Namen der Feldtypen in der Tabellenansicht und den Namen der gleichen Felder im Anfrageformular des Datensatztyps beschrieben:
+
+   | Workfront-Planungstyp | Formularfeldtyp anfordern |
+   |-------------------------------|-------------------------|
+   | Einzeiliger Text | Einzeiliger Text |
+   | Absatz | Text mit Formatierung |
+   | Währung, Zahl, Prozentsatz | Einzeiliger Text |
+   | Einzelauswahl | Einfachauswahl-Dropdown |
+   | Mehrfachauswahl | Mehrfachauswahl-Dropdown |
+   | Kontrollkästchen | Kontrollkästchen-Gruppe |
+
+   >[!NOTE]
+   >
+   >   Die Formate der Felder bleiben erhalten. Wenn beispielsweise Währung und Prozentsatz als einzeilige Textfelder angezeigt werden, werden die Informationen in den Feldern als Währung und als Prozentwert angezeigt.
+
 
 1. (Optional) Klicken Sie auf die Registerkarte **Inhaltselemente** auf der linken Seite des Formulars und fügen Sie eines der folgenden Elemente hinzu:
 

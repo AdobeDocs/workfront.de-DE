@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2196'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-Sie können Datensatztypen miteinander oder Datensatztypen mit Objektarten aus anderen Anwendungen verbinden.
+Sie können Datensatztypen miteinander verbinden oder Sie können Datensatztypen mit Objekttypen aus anderen Anwendungen verbinden.
 
 In diesem Artikel wird beschrieben, wie Sie zwei Datensatztypen der Workfront-Planung oder einen Datensatztyp der Workfront-Planung mit einem Objekt aus einer anderen Anwendung verbinden können.
 
@@ -183,7 +183,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 1. Suchen Sie im Feld **Record type** nach einem Datensatztyp oder wählen Sie einen der folgenden Typen aus:
 
-   * Ein anderer Datensatztyp aus dem ausgewählten Arbeitsbereich
+   * Ein anderer Datensatztyp aus dem aktuellen Arbeitsbereich
 
      <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
@@ -198,7 +198,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
      >[!TIP]
      >
-     >Wenn keine Datensatztypen konfiguriert sind, um eine Verbindung mit einem anderen Arbeitsbereich herzustellen, wird der Arbeitsbereich-Abschnitt nicht angezeigt.
+     >Wenn keine Datensatztypen konfiguriert sind, um eine Verbindung mit anderen Arbeitsbereichen herzustellen, wird der Arbeitsbereich-Abschnitt nicht angezeigt.
 
 
    * Ein **Projekt, Portfolio, Programm, Firma** oder **Gruppe** aus dem Abschnitt **Workfront-Objekttypen** .
@@ -218,7 +218,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    >Sie können mehrere Verbindungen zum selben Datensatz oder Objekttyp haben. Wenn Sie den Namen des verbundenen Felds nicht bearbeiten, fügt Workfront eine Zahl nach dem Namen des verbundenen Datensatzes hinzu, um die Anzahl der verbundenen Datensatztypen mit demselben Namen anzugeben.
 
    * **Beschreibung**: Zusätzliche Informationen zum verbundenen Datensatzfeld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
-   * **Mehrere Datensätze zulassen**: Wählen Sie diese Option, um anzugeben, dass Benutzer mehrere Datensätze hinzufügen können, wenn das Feld des verknüpften Datensatztyps in den Originaldatensätzen angezeigt wird. Diese Option ist standardmäßig aktiviert.
+   * **Mehrere Datensätze zulassen**: Wählen Sie diese Option, um anzugeben, dass Benutzer mehrere Datensätze hinzufügen dürfen, wenn das Feld des verknüpften Datensatztyps in den Originaldatensätzen angezeigt wird. Diese Option ist standardmäßig aktiviert.
 
      Diese Option ist nur verfügbar, wenn Datensätze aus zwei verschiedenen Arbeitsbereichen oder einem Datensatz und einem Adobe Experience Manager-Asset-Objekt verbunden werden.
 
@@ -237,7 +237,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
      Weitere Informationen zu Verbindungstypen finden Sie unter [Übersicht über Connected Record Types](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie verknüpft sind. Durch die Verknüpfung werden Informationen aus dem Datensatz oder Objekt angezeigt, mit dem Sie in dem Datensatz verknüpfen, den Sie möchten. Diese Option ist standardmäßig aktiviert.
+   * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie verknüpft sind. Die Verknüpfung zeigt Informationen aus dem Datensatz oder Objekt an, mit dem Sie in dem Datensatz verknüpfen, von dem Sie die Verknüpfung herstellen. Diese Option ist standardmäßig aktiviert.
 
      >[!TIP]
      >
@@ -305,7 +305,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    * Datensätze werden nach jeder eindeutigen Kombination von Feldwerten gruppiert
 
-   * Die Timeline-Ansicht basiert auf dem ersten Datumswert.
+   * Die Timeline-Ansicht basiert auf dem ersten Datumswert
 
    >[!IMPORTANT]
    >
@@ -331,7 +331,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    >[!NOTE]
    >
-   >Sie können beispielsweise den Produktdatensatz (verknüpfter Datensatz) aus dem Campaign-Datensatz (Originaldatensatz) verknüpfen und ihn &quot;Produktfeld&quot;nennen. Sie können auch das Feld Budget des Produktdatensatzes aus dem Campaign-Datensatz verknüpfen und es &quot;Produktbudget&quot;nennen. Wenn Sie mehrere Datensätze im Feld &quot;Produkt&quot;auswählen können, können Sie Produkt 1 mit einem Budget von 100.000 $ und Produkt 2 mit einem Budget von 110.000 $ und Produkt 3 mit einem Budget von 100.000 $ auswählen. Je nach ausgewähltem Aggregator können Sie im verknüpften Feld aus dem ursprünglichen Datensatz die folgenden Budgetinformationen anzeigen:
+   >Sie können beispielsweise den Produktdatensatz (verknüpfter Datensatz) aus dem Campaign-Datensatz (Originaldatensatz) verknüpfen und ihn &quot;Produktfeld&quot;nennen. Sie können auch das Feld Budget des Produktdatensatzes aus dem Campaign-Datensatz verknüpfen und es &quot;Produktbudget&quot;nennen. Wenn Sie mehrere Datensätze im Feld &quot;Produkt&quot;auswählen konnten, können Sie Produkt 1 mit einem Budget von 100.000 $ und Produkt 2 mit einem Budget von 110.000 $ und Produkt 3 mit einem Budget von 100.000 $ auswählen. Je nach ausgewähltem Aggregator können Sie im verknüpften Feld aus dem ursprünglichen Datensatz die folgenden Budgetinformationen anzeigen:
    >
    >* **Keine**: 100.000 $, 110.000 $, 100.000 $
    >* **MAX**: $110.000
@@ -353,7 +353,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     Wenn Sie beispielsweise einen Kampagnen-Record-Typ mit einem Programmdatensatz-Typ verknüpft haben und das Feld Programm-verknüpfter Datensatz &quot;Programminformationen&quot;nennen, wählen Sie dann aus, auch das Feld Budget des Programms in der Tabellenansicht der Kampagne anzuzeigen, wird das verknüpfte Feld automatisch `Budget (from Program information)` in der Tabellenansicht der Kampagne benannt.
+     Wenn Sie beispielsweise einen Kampagnen-Record-Typ mit einem Programmdatensatz-Typ verknüpft haben und das Feld Programm-verknüpfter Datensatz &quot;Programminformationen&quot;nennen und dann ausgewählt haben, um auch das Feld Budget des Programms in der Tabellenansicht der Kampagne anzuzeigen, erhält das verknüpfte Feld automatisch den Namen `Budget (from Program information)` in der Tabellenansicht der Kampagne.
 
    * Wenn Sie Datensatztypen miteinander verknüpfen, wird auch ein verknüpftes Datensatzfeld für den Datensatztyp hinzugefügt, mit dem Sie verknüpft sind. Der Name des verknüpften Datensatzfelds im verknüpften Datensatztyp ist der Name des Datensatztyps, von dem Sie eine Verknüpfung herstellen.
 
@@ -365,7 +365,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 1. (Optional und bedingt) Klicken Sie in der Tabellenansicht des ursprünglichen Datensatztyps oder des verknüpften Datensatztyps auf den nach unten zeigenden Pfeil in der Kopfzeile der verknüpften Datensatzfelder und klicken Sie dann auf einen der folgenden Punkte:
 
-   * **Feld bearbeiten**: Sie können die **Name** und die **Beschreibung** des Felds aktualisieren.
+   * **Feld bearbeiten**: Aktualisieren Sie die **Name** und die **Beschreibung** des Felds.
    * **Suchfelder bearbeiten**: Fügen Sie eines der Felder des verknüpften Datensatzes hinzu oder entfernen Sie es.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

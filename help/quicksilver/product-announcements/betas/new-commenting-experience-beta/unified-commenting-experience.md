@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 >Das Betaprogramm für die neue Kommentarerfahrung begann im April 2023 und endete im Oktober 2023 mit der Version Oktober 2023.
 >
 >Seit dem 11. April 2024 sind alle Funktionen für die neue Kommentarfunktion in der Produktionsumgebung für alle Kunden verfügbar.
+>
+> Das vorherige Kommentarerlebnis wurde aus Workfront entfernt.
 
 ## Funktionen
 
@@ -47,7 +49,7 @@ Zu den Verbesserungen im neuen Kommentarerlebnis gehören die folgenden:
 * Echtzeitanzeige beim Hinzufügen neuer Kommentare zu einem Objekt
 * Kommentare nach dem Senden bearbeiten
 
-Die folgenden Funktionen wurden entfernt oder werden aus dem neuen Erlebnis entfernt:
+Die folgenden Funktionen wurden aus dem neuen Erlebnis entfernt:
 
 * Kommentar zu einer Systemaktualisierung. Kommentare, die in der Vergangenheit zu den Systemaktualisierungen hinzugefügt wurden, wurden auf der neuen Registerkarte Systemaktivität als schreibgeschützte Kommentare importiert.
 * Möglichkeit zur Bearbeitung von Status, Bedingung, Veröffentlichungsdatum und Prozentsatz der Abgeschlossen beim Kommentieren von Aufgaben und Problemen.
@@ -81,17 +83,14 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
   <tr>
    <td><strong>Funktion </strong>
    </td>
-   <td><strong>Vorhanden im alten Kommentarerlebnis </strong>
+   <td><strong>Im alten Kommentarerlebnis vorhanden </strong>
    </td>
    <td><strong>Vorhanden im neuen Kommentarerlebnis </strong>
    </td>
-   <td><strong>Wird in das neue Kommentarerlebnis eingeführt </strong>
+
+<td><strong>Im neuen Kommentarerlebnis eingeführt </strong>
    </td>
-   <td><strong>Wann wird in das neue Kommentarerlebnis eingeführt </strong>
-   </td>
-   <td><strong>In der Suche </strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Kommentare erstellen/lesen/beantworten/löschen 
    </td>
@@ -99,13 +98,11 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
   </td>
    <td>✓ 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Rich-Text (ohne Anführungszeichen und Emojis)
    </td>
@@ -113,12 +110,10 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Rich-Text (Blockzitate)
@@ -143,13 +135,10 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> ✓
    </td>
-   <td> 
+    <td> 2. Quartal 2023
    </td>
-   <td> 2. Quartal 2023
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> Kommentare einfügen
@@ -158,13 +147,10 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td> 2. Quartal 2023
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Antworten auf Kommentare (Gefällt mir) 
    </td>
@@ -174,11 +160,8 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Bilder an Kommentare anhängen 
    </td>
@@ -186,13 +169,10 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓ 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Personen in Kommentaren taggen 
    </td>
@@ -202,11 +182,8 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Entfernen von Thread-Teilnehmern
    </td>
@@ -216,23 +193,13 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>Automatisch alle Thread-Teilnehmer taggen
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>Veröffentlichung eines Kommentars rückgängig machen 
@@ -259,11 +222,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>Ersetzt durch Bearbeitungskommentar 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Kommentare bearbeiten 
    </td>
@@ -289,11 +244,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Kommentarentwürfe speichern, wenn Sie von der Seite weg navigieren 
    </td>
@@ -303,21 +254,13 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Anzeigen neuer Kommentare in Echtzeit (einschließlich der Anzeige, wenn ein Kommentar gelöscht wird)
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>Thread-Link kopieren 
@@ -343,11 +282,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> Ersetzt durch Link "Kopieren"
    </td>
-   <td> 
-   </td>
    <td>2. Quartal 2023 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Kommentartext zitieren 
    </td>
@@ -371,13 +302,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td>✓
    </td>
-   <td> 
+  <td>2. Quartal 2023 
    </td>
-   <td>2. Quartal 2023 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Fließtext kopieren 
    </td>
@@ -385,13 +312,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>In Kommentaren suchen 
    </td>
@@ -399,13 +322,10 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1. Quartal 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Bilder in Kommentare kopieren und einfügen
@@ -414,13 +334,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1. Quartal 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>Verschieben von Bildern in einen Kommentar
@@ -429,22 +345,14 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1. Quartal 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>Benutzerdefiniertes Formular bearbeiten 
    </td>
    <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>Antworten auf Systemaktualisierungen 
@@ -472,11 +376,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
    </td>
    <td> ✓
    </td>
-   <td> Kann zu einem späteren Zeitpunkt veröffentlicht werden
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ Die folgende Tabelle zeigt die Funktionen, die im neuen Kommentierungserlebnis v
 >Weitere Informationen zum Verwalten von Updates für Workfront-Objekte finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-Im Folgenden finden Sie einen geplanten Zeitplan mit wichtigen Meilensteinen für die Veröffentlichung des neuen Kommentierungserlebnisses in der Produktionsumgebung. Zusätzlich zu den unten stehenden Meilensteinen werden wir das Kommentierungserlebnis mit kleineren Verbesserungen weiter verbessern.
+Im Folgenden wird die Timeline mit wichtigen Meilensteinen für die Veröffentlichung des neuen Kommentierungserlebnisses in der Produktionsumgebung beschrieben. Zusätzlich zu den unten stehenden Meilensteinen werden wir das Kommentierungserlebnis mit kleineren Verbesserungen weiter verbessern.
 
-Informationen zu den Funktionen, die nach dem Schließen der Beta-Phase für das neue Kommentar-Erlebnis veröffentlicht wurden, finden Sie auf der Seite mit der aktuellen Versionsübersicht .
+Informationen zu den Funktionen, die nach dem Schließen der Beta-Phase für das neue Kommentar-Erlebnis veröffentlicht wurden, finden Sie auf der Seite mit der aktuellen Versionsübersicht . Weitere Informationen finden Sie unter [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des neuen Kommentierungserlebnisses:
 
 * Mit der Version 23.2 (6. April 2023):
-   * Starten des Kommentierungserlebnisses Beta für Probleme
-   * Das neue Kommentarerlebnis für Ziele freigeben (als einziges Erlebnis)
+   * Beta für das Kommentierungserlebnis für Probleme gestartet
+   * Das neue Kommentierungserlebnis für Ziele wurde veröffentlicht (als einziges Erlebnis)
 * Mit der Version 23.3 (20. Juli 2023):
-   * Starten Sie das Kommentierungserlebnis in Beta für Projekte, Aufgaben und Dokumente.
-   * Das neue Kommentarerlebnis für Karten im Bereich &quot;Foren&quot;freigeben (als einziges Erlebnis)
+   * Das Kommentarerlebnis in Beta für Projekte, Aufgaben und Dokumente wurde gestartet.
+   * Das neue Kommentierungserlebnis für Karten im Bereich Foren wurde veröffentlicht (als einziges Erlebnis)
 * In der Version vom vierten Quartal 2023 (begrenzte Version, nur für Kunden verfügbar, die die schnelle Version wählen):
-   * Das neue Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets freigeben (als einziges Erlebnis)
-   * Aktualisieren Sie das Kommentar-Erlebnis Beta für Projekte, Aufgaben, Probleme und Dokumente, um zur Standardoption zu werden. Die Bezeichnung &quot;Beta&quot;wurde entfernt.
+   * Das neue Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets wurde veröffentlicht (als einziges Erlebnis).
+   * Das Kommentierungserlebnis für Beta für Projekte, Aufgaben, Probleme und Dokumente wurde zur Standardoption hinzugefügt. Die Bezeichnung &quot;Beta&quot;wurde entfernt.
 * Mit der Version vom 26. Quartal 2023 (23.10) (26. Oktober 2023)
-   * Veröffentlichen Sie die neue Kommentarfunktion für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets (als einziges Erlebnis) für alle Kunden.
-   * Machen Sie die neue Kommentarfunktion für Projekte, Aufgaben, Probleme und Dokumente zur Standardoption.
+   * Das neue Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Timesheets (als einziges Erlebnis) wurde für alle Kunden veröffentlicht.
+   * Die neue Kommentarfunktion für Projekte, Aufgaben, Probleme und Dokumente wurde zur Standardoption erklärt.
 
   >[!IMPORTANT]
   >
-  >    Damit wird die Beta-Phase der neuen Kommentarerfahrung abgeschlossen.
+  >    Dadurch wurde die Beta-Phase der neuen Kommentarerfahrung abgeschlossen.
 
-   * Machen Sie alle Funktionen, die für das neue Kommentierungserlebnis veröffentlicht werden, von diesem Datum an Teil der aktuellen regulären monatlichen und vierteljährlichen Versionen.
+   * Es wurden alle Funktionen für das neue Kommentierungserlebnis veröffentlicht, die mit diesem Datum beginnen und Teil der aktuellen regulären monatlichen und vierteljährlichen Versionen sind.
 * Ende 2023:
    * Behalten Sie die alte Kommentarfunktion als sekundäre Option für die folgenden Objekte bei: Projekte, Aufgaben, Probleme und Dokumente. Die neue Kommentarfunktion ist die Standardoption für alle Benutzer dieser Objekte.
-   * Machen Sie das neue Kommentierungserlebnis zum einzigen Erlebnis für alle anderen Objekte.
-
-  >[!NOTE]
-  >
-  >    Iterationen verfügen weiterhin über das alte Kommentierungserlebnis. Das neue Kommentarerlebnis steht nicht für Iterationen zur Verfügung.
+   * Das neue Kommentarerlebnis wurde zum einzigen Erlebnis für alle anderen Objekte.
 
 * Mit der Version vom zweiten Quartal 2024 (11. April 2024):
 
-  Entfernen Sie die Option, um zum alten Kommentar-Stream zurückzukehren und den neuen Kommentar-Stream zum einzigen Erlebnis für alle Objekte zu machen.
+  Die Option, zum alten Kommentar-Stream zurückzukehren und den neuen Kommentar-Stream zum einzigen Erlebnis für alle Objekte zu machen, wurde entfernt.
+
+* 3. Oktober 2024:
+
+  Die Schaltfläche Feedback hinterlassen wurde im Bereich Updates entfernt.
 
 ## Neues Kommentierungserlebnis suchen
 

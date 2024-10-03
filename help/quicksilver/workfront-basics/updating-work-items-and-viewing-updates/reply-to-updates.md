@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Antworten auf Aktualisierungen
+title: Antworten auf Updates
 description: Wenn ein Benutzer ein Update zu einem Arbeitsobjekt hinzufügt oder darauf antwortet, wird seine Antwort im Kommunikations-Thread im Abschnitt Updates des Objekts angezeigt. Sie können eine Antwort zu einem Update hinzufügen oder auf "Gefällt mir"-Klicks klicken, wenn Sie Zugriff auf das Objekt "Ansicht"haben.
 author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,8 @@ In diesem Artikel wird beschrieben, wie Sie auf Kommentare von den meisten Objek
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -80,6 +82,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Antworten auf ein Update oder eine Antwort in Workfront
 

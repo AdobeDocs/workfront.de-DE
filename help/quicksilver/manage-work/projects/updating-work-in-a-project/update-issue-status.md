@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Status des Problems aktualisieren
+title: Problemstatus aktualisieren
 description: Sie können den Status eines Problems aktualisieren, um andere darüber zu informieren, wo das Problem liegt und wie es weitergeht.
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 2%
+source-wordcount: '645'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 2%
 Sie können den Status eines Problems aktualisieren, um andere darüber zu informieren, wo das Problem liegt und wie es weitergeht.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,9 +35,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neue Lizenz: Mitarbeiter oder höher</p>
+   <td> <p>Neu: Mitarbeiter oder höher</p>
    Oder
-   <p>Aktuelle Lizenz: Anfrage oder höher</p>
+   <p>Aktuell: Anforderung oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +51,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Problemstatus
 

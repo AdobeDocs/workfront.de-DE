@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -110,14 +110,16 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 ## Überlegungen zum Abschnitt &quot;Planung&quot;von Workfront-Objekten
 
-* Die Datensatztypen für die Workfront-Planung müssen mit den Workfront-Objekttypen verbunden sein.
+Beachten Sie Folgendes, wenn Sie Workfront Planning-Datensätze im Planungsabschnitt eines Workfront-Objekts anzeigen:
+
+* Die Datensatztypen für die Workfront-Planung müssen zunächst mit den Workfront-Objekttypen verbunden werden.
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
    * [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
-* Sie können den Abschnitt Planung in einem Workfront-Objekt anzeigen, auch wenn dem Workfront-Objekt keine Datensätze zugeordnet sind.
-* Sie können über Workfront im Bereich Planung Datensätze mit Workfront-Objekten verbinden, wenn mit dem Workfront-Objekt mindestens ein Datensatz verbunden ist.
+* Sie können den Planungsabschnitt von einem Workfront-Objekt aus anzeigen, selbst wenn dem Workfront-Objekt keine Datensätze zugeordnet sind.
+* Zusätzlich zum Verbinden von Workfront-Objekten aus dem Planungsbereich von Workfront können Sie über Workfront im Abschnitt Planung auch Planungshandbücher mit Workfront-Objekten verbinden.
 
 ## Verwalten von Datensätzen im Abschnitt &quot;Planung&quot;
 
@@ -130,13 +132,17 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 1. Klicken Sie auf die Karte eines Datensatztyps, der mit einem Workfront-Projekt, -Portfolio oder -Programm verbunden ist.
 1. Wechseln Sie zu einem verbundenen Datensatzfeld, das über eine Verbindung mit einem Workfront-Objekt verfügt, entweder in der Tabellenansicht oder auf der Detailseite eines Datensatzes. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
 1. Klicken Sie im Feld &quot;Verbundener Datensatz&quot;auf den Namen eines Workfront-Objekts.
-Die Seite der Objekte wird in Workfront geöffnet.
+Die Seite des Objekts wird in Workfront geöffnet.
+
+   >[!NOTE]
+   >
+   >  Wenn Sie ein Workfront-Objekt kennen, das bereits mit einem Planungsdatensatz verbunden ist, können Sie vom Workfront-Objekt aus zum Abschnitt Planung navigieren.
 
 1. Klicken Sie im linken Bereich auf **Planung** .
 
    >[!NOTE]
    >
-   >   Ihr Workfront- oder Gruppenadministrator muss den Planungsabschnitt zu Ihrer Layoutvorlage hinzufügen, bevor er für ein Worfront-Projekt, ein -Portfolio oder ein Programm angezeigt wird.
+   >   Ihr Workfront- oder Gruppenadministrator muss den Bereich Planung zu Ihrer Layoutvorlage hinzufügen, bevor er für ein Workfront-Projekt, -Portfolio oder -Programm angezeigt wird.
 
    Der Abschnitt Planung wird mit den folgenden Informationen angezeigt:
 
@@ -152,7 +158,7 @@ Die Seite der Objekte wird in Workfront geöffnet.
 1. Klicken Sie auf eine Datensatzkarte, um weitere Informationen zum Datensatz anzuzeigen. Das Vorschaufeld für Datensätze wird angezeigt.
 1. (Optional) Beginnen Sie mit der Änderung der Felder im Vorschaufeld des Datensatzes. Ihre Änderungen werden automatisch gespeichert.
 1. (Optional) Klicken Sie oben rechts im Vorschaufenster auf das Symbol **In einer neuen Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) , um die Detailseite des Datensatzes zu öffnen. Die Detailseite des Datensatzes wird in der Workfront-Planung geöffnet.
-1. Bewegen Sie den Mauszeiger über eine Datensatzkarte, klicken Sie dann auf das Symbol zum Trennen des Datensatzes **-** und klicken Sie dann auf **Trennen**.
+1. (Optional) Bewegen Sie den Mauszeiger über eine Datensatzkarte, klicken Sie auf das Symbol zum Trennen des Datensatzes **-** und klicken Sie dann auf **Trennen**.
 Folgendes geschieht:
    * Der Datensatz ist nicht mehr mit dem Workfront-Objekt verbunden.
    * Das Workfront-Objekt wird auch aus dem verbundenen Feld des Datensatzes aus der Workfront-Planung entfernt.

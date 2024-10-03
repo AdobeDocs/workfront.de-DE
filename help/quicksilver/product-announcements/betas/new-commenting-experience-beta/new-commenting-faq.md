@@ -9,9 +9,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Wir planen nicht, die Möglichkeit zur Durchführung dieser Aktionen wiederherzu
 
 ## Gibt es Pläne für eine kombinierte Ansicht von Kommentaren und Systemaktualisierungen?
 
-Es gibt derzeit keine Pläne, eine kombinierte Ansicht bereitzustellen. Bitte geben Sie Ihr Feedback und Ihre Anwendungsfälle über die In-App-Feedback-Schaltfläche Hinterlassen oder reichen Sie Anfragen im Workfront Ideas-Bereich der Community ein, damit wir besser verstehen können, wie erforderlich die Funktion ist.
+Es gibt derzeit keine Pläne, eine kombinierte Ansicht bereitzustellen. Senden Sie bei Bedarf eine Anfrage an das Support-Team, damit wir besser verstehen können, wie erforderlich die Funktion ist.
 
 ## Werden Sie die Funktion zum Rückgängigmachen eines geposteten Kommentars wiederherstellen?
 
@@ -40,11 +40,11 @@ Wir haben die Funktion zum Rückgängigmachen eines geposteten Kommentars durch 
 
 ## Wird die Funktion zum Entfernen von Thread-Teilnehmern auf bestimmte Lizenztypen beschränkt?
 
-Es ist derzeit nicht geplant, Berechtigungen oder Zugriffssteuerungen hinzuzufügen, für die diese neu eingeführte Funktion verwendet werden kann. Bitte geben Sie Ihr Feedback und Ihre Anwendungsfälle über die In-App-Feedback-Schaltfläche Hinterlassen oder reichen Sie Anfragen im Workfront Ideas-Bereich der Community ein, damit wir besser verstehen können, wie wichtig diese Funktion ist.
+Es ist derzeit nicht geplant, Berechtigungen oder Zugriffssteuerungen hinzuzufügen, für die diese neu eingeführte Funktion verwendet werden kann. Senden Sie bei Bedarf eine Anfrage an das Support-Team, damit wir besser verstehen können, wie wichtig diese Funktion ist.
 
 ## Gibt es eine Möglichkeit zu steuern, wer Kommentare bearbeiten kann?
 
-Es ist derzeit nicht geplant, Berechtigungen oder Zugriffssteuerungen hinzuzufügen, über die Kommentare bearbeitet werden können. Bitte geben Sie Ihr Feedback und Ihre Anwendungsfälle über die In-App-Feedback-Schaltfläche Hinterlassen oder reichen Sie Anfragen im Workfront Ideas-Bereich der Community ein, damit wir besser verstehen können, wie wichtig diese Funktion ist.
+Es ist derzeit nicht geplant, Berechtigungen oder Zugriffssteuerungen hinzuzufügen, über die Kommentare bearbeitet werden können. Senden Sie bei Bedarf eine Anfrage an das Support-Team, damit wir besser verstehen können, wie wichtig diese Funktion ist.
 
 ## Können Kommentare durchsucht oder gefiltert werden?
 
