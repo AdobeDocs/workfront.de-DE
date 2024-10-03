@@ -6,7 +6,7 @@ description: Der Desktop Proofing Viewer, der hauptsächlich für die Prüfung i
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: fef88c495fc7a634a70db4db767a9e380eff6228
+source-git-commit: 7a8a4709bab58e6b802f578ea47b20babeebeb1b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -63,8 +63,8 @@ Ist dies nicht der Fall, können Sie die folgenden Schritte ausführen.
 
 1. Führen Sie einen der folgenden Schritte aus, um die App herunterzuladen:
 
-   * Wenn Sie die Produktionsumgebung verwenden, klicken Sie für den Desktop Proofing Viewer auf [Mac Production Download .](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.36.pkg)
-   * Wenn Sie die Vorschauumgebung verwenden, klicken Sie auf [Herunterladen der Mac-Vorschau für den Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.36.pkg).
+   * Wenn Sie die Produktionsumgebung verwenden, klicken Sie für den Desktop Proofing Viewer auf [Mac Production Download .](https://app.proofhq.com/desktopviewer/mac)
+   * Wenn Sie die Vorschauumgebung verwenden, klicken Sie auf [Herunterladen der Mac-Vorschau für den Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.39.pkg).
 
 1. Öffnen Sie die Datei, die Sie gerade heruntergeladen haben, um die Installation zu starten.
 1. Klicken Sie im angezeigten Installationsfeld auf **Weiter** und dann auf **Installieren**.
@@ -87,8 +87,8 @@ Wenn Ihr Workfront- oder Workfront Proof-Administrator die App auf Ihre Workstat
 
 1. Führen Sie einen der folgenden Schritte aus, um die App herunterzuladen:
 
-   * Klicken Sie in der Produktionsumgebung für den Desktop Proofing Viewer auf den Download [Windows-Produktion .](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.37.exe)
-   * Klicken Sie in der Vorschau-Umgebung auf [Download der Windows-Vorschau für den Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.37.exe) .
+   * Klicken Sie in der Produktionsumgebung für den Desktop Proofing Viewer auf den Download [Windows-Produktion .](https://app.proofhq.com/desktopviewer/windows)
+   * Klicken Sie in der Vorschau-Umgebung auf [Download der Windows-Vorschau für den Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.39.exe) .
 
 1. Öffnen Sie die Datei, die Sie gerade heruntergeladen haben, um die Installation zu starten.
 1. Öffnen Sie in dem sich öffnenden Installationsfenster die Datei, die Sie gerade heruntergeladen haben, um die Installation zu starten.
