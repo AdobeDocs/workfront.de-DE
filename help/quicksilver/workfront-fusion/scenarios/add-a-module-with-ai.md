@@ -9,9 +9,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
+source-git-commit: 5de5b96bc74ce9b819acfa7b5f16652509ccade1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -58,14 +58,14 @@ Die Fusion AI kann derzeit Module generieren, die eine Verbindung zu den folgend
 
    Klicken Sie unten auf der Seite des Szenario-Editors auf das Symbol Mit KI generieren ![Mit KI generieren](assets/generate-with-ai-icon-beta.png) .
 
-   Das Fenster des KI-Assistenten wird geöffnet.
+   Das Fenster &quot;KI-Assistent&quot;wird geöffnet.
 1. Geben Sie eine Textaufforderung in das Feld ein.
 
    Tipps zu Eingabeaufforderungen finden Sie in diesem Artikel unter [Tipps zum Erstellen von Textaufforderungen](#tips-for-creating-text-prompts).
 
-   Das Modul oder der Satz von Modulen wird generiert.
+   AI Assistant generiert das Modul oder den Satz von Modulen.
 1. (Bedingt) Fügen Sie bei Bedarf Ihr API-Token für die Anwendung zu den Modulen hinzu.
-1. Überprüfen Sie die Module, um sicherzustellen, dass sie für die entsprechende Anwendung und Aktion konfiguriert werden.
+1. Überprüfen Sie die Module, um sicherzustellen, dass sie für die entsprechende Anwendung und Aktion konfiguriert sind.
 1. (Bedingt) Wenn der Abschnitt zum generierten Szenario nicht an Ihr Szenario angehängt ist, ziehen Sie es an die gewünschte Position.
 
 Es wird empfohlen, die Module zu testen, um sicherzustellen, dass sie die gewünschte Leistung erzielen.
