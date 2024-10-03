@@ -5,14 +5,14 @@ title: Zusammenfassen von Projekten mit AI Assistant
 description: Der Projekt-Header enthält eine Schaltfläche, mit der der KI-Assistent zur Zusammenfassung von Projekten verwendet wird.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
-# Zusammenfassen von Aktualisierungen mit dem KI-Assistenten
+# Zusammenfassen von Projekten mit AI Assistant
 
 Der AI-Assistent von Workfront kann Projekte zusammenfassen, sodass Sie Projektinformationen wie Projektzweck und -status schnell verstehen können. Er enthält Beispiele für abgeschlossene und noch ausstehende Aufgaben sowie weitere Details und Hinweise.
 
