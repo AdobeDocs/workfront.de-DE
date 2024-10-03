@@ -5,9 +5,9 @@ description: Mit dem KI-Assistenten können Sie Fehler in Ihren ungültigen benu
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Berechneten Feldausdruck generieren
+## Voraussetzungen
+
+* Ihr Workfront-Administrator muss den KI-Assistenten für Ihr Unternehmen aktiviert haben.
+
+  Weitere Informationen finden Sie unter [Voraussetzungen für den AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in der Übersicht zum Artikel AI Assistant .
+* Ihr Workfront-Administrator muss den KI-Assistenten für Ihre Zugriffsebene aktiviert haben.
+
+  Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+<!--## Generate a calculated field expression-->
 
 ## Berechneten Feldausdruck überprüfen
 

@@ -1,31 +1,24 @@
 ---
-title: Zusammenfassung mit dem KI-Assistenten
-content-type: reference
-description: Mithilfe der Funktion Diese Funktion zusammenfassen können Sie Arbeitselemente und Dokumente schnell zusammenfassen.
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: Zusammenfassen von Projekten mit AI Assistant
+description: Der Projekt-Header enthält eine Schaltfläche, mit der der KI-Assistent zur Zusammenfassung von Projekten verwendet wird.
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
 source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
-# Zusammenfassung mit dem KI-Assistenten
+# Zusammenfassen von Aktualisierungen mit dem KI-Assistenten
+
+Der AI-Assistent von Workfront kann Projekte zusammenfassen, sodass Sie Projektinformationen wie Projektzweck und -status schnell verstehen können. Er enthält Beispiele für abgeschlossene und noch ausstehende Aufgaben sowie weitere Details und Hinweise.
+
+Sie können die Schaltfläche Projektzusammenfassung verwenden, um eine Zusammenfassung zu generieren, oder Sie können eine Eingabeaufforderung in den KI-Assistenten eingeben.
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
-
-Der Workfront-KI-Assistent kann einige Objekte zusammenfassen und bietet Ihnen einen allgemeinen Überblick über die Absicht oder Details des Objekts.
-
-Wenn Sie beispielsweise den AI-Assistenten bitten, ein Projekt zusammenzufassen, erhalten Sie eine kurze Beschreibung des Projektzwecks und -status, Beispiele für abgeschlossene und noch ausstehende Aufgaben sowie weitere Details und Hinweise.
-
-Der AI-Assistent kann die folgenden Objekte zusammenfassen:
-
-* Projekte
-* Aufgaben
-* Probleme
-* Dokumente
 
 >[!NOTE]
 >
@@ -53,6 +46,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
        <p>oder</p>
        <p>Aktuell: Nicht verfügbar</p></td>
   </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>oder</p>
+       <p>Aktuell: Nicht verfügbar</p></td>
+  </tr> 
+ </tbody> 
  </tbody> 
 </table>
 
@@ -67,27 +67,21 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
   Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
+
+
 <div class="preview">
 
-## Zusammenfassen mit den Schaltflächen Zusammenfassen
+## Mithilfe der Schaltfläche &quot;Projektzusammenfassung&quot;zusammenfassen
 
-In den folgenden Bereichen finden Sie Schaltflächen, mit denen mithilfe des AI-Assistenten Zusammenfassungen generiert werden:
+1. Navigieren Sie zum Aktualisierungsstream, den Sie zusammenfassen möchten.
+1. Klicken Sie auf die Schaltfläche **Projektzusammenfassung** .
 
-* Projektheader: Projektzusammenfassung
-* Aktualisierungsbereich: Inhalt zusammenfassen
-
-So verwenden Sie die Schaltfläche Projektzusammenfassung oder Inhalt zusammenfassen :
-
-1. Klicken Sie auf die Schaltfläche .
-
-   Der AI-Assistent wird geöffnet und Sie werden aufgefordert, das Projekt oder die letzten sieben Tage mit Kommentaren zum Aktualisierungsstream zusammenzufassen.
+   Der KI-Assistent wird geöffnet und Sie werden aufgefordert, das Projekt zusammenzufassen.
 
    Je nachdem, wie groß oder komplex das Objekt ist, kann es einen Moment dauern, bis der KI-Assistent die Zusammenfassung generiert.
 
 1. Zeigen Sie die KI-Zusammenfassung im Bereich &quot;KI-Assistent&quot;an.
 1. (Optional) Verfeinern Sie die Eingabeaufforderung, um sicherzustellen, dass Sie die benötigten Informationen erhalten.
-
-   Beispielsweise können Sie die Aufforderung zum Zusammenfassen von Inhalten verfeinern, um die Kommentare für die letzten 14 Tage anstatt für die letzten 7 Tage zusammenzufassen.
 
    </div>
 

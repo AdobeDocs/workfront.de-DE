@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: ada8aa9f72b57d6008473c6d9dcc17765d8656c4
+source-git-commit: a2810eae52a0392107a214967e50a662239e1e5f
 workflow-type: tm+mt
-source-wordcount: '14445'
+source-wordcount: '14455'
 ht-degree: 2%
 
 ---
@@ -925,6 +925,7 @@ ht-degree: 2%
       * [Tagging anderer Benutzer auf Updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Alle Aktualisierungen in einem Hinweis-Bericht anzeigen](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Überblick über die Bearbeitung und Fertig-Schaltflächen](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+      * [Zusammenfassen von Aktualisierungen mit dem KI-Assistenten](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
    * Arbeiten mit benutzerdefinierten Formularen {#work-with-custom-forms}
       * [Arbeiten mit benutzerdefinierten Formularen](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1246,6 +1247,7 @@ ht-degree: 2%
          * [Projekt in der Agile-Ansicht verwalten](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Übersicht über Projektmetriken](manage-work/projects/manage-projects/project-metrics.md)
          * [Übersicht über die Projektbeschränkungen](manage-work/projects/manage-projects/project-maximums.md)
+         * [Zusammenfassen von Aktualisierungen mit dem KI-Assistenten](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * Erstellen und Verwalten von Projektvorlagen {#create-and-manage-project-templates}
          * [Erstellen und Verwalten von Projektvorlagen: Artikelindex](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Übersicht über Projektvorlagen](manage-work/projects/create-and-manage-templates/project-template-overview.md)

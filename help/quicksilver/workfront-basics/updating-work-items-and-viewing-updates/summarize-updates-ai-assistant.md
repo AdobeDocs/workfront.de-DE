@@ -1,31 +1,24 @@
 ---
-title: Zusammenfassung mit dem KI-Assistenten
-content-type: reference
-description: Mithilfe der Funktion Diese Funktion zusammenfassen können Sie Arbeitselemente und Dokumente schnell zusammenfassen.
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: Zusammenfassen von Aktualisierungen mit dem KI-Assistenten
+description: Die Updates sind von einem Objekt enthalten eine Schaltfläche, die den AI-Assistenten verwendet, um Aktualisierungen zusammenzufassen.
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
-# Zusammenfassung mit dem KI-Assistenten
+# Zusammenfassen von Aktualisierungen mit dem KI-Assistenten
+
+Der AI-Assistent von Workfront kann den Inhalt des Aktualisierungsstreams zusammenfassen, sodass Sie die Kommentare und Diskussionen rund um ein Workfront-Objekt schnell verstehen können.
+
+Sie können die Schaltfläche Inhalt zusammenfassen verwenden, um eine Zusammenfassung zu generieren, oder Sie können eine Eingabeaufforderung in den KI-Assistenten eingeben.
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
-
-Der Workfront-KI-Assistent kann einige Objekte zusammenfassen und bietet Ihnen einen allgemeinen Überblick über die Absicht oder Details des Objekts.
-
-Wenn Sie beispielsweise den AI-Assistenten bitten, ein Projekt zusammenzufassen, erhalten Sie eine kurze Beschreibung des Projektzwecks und -status, Beispiele für abgeschlossene und noch ausstehende Aufgaben sowie weitere Details und Hinweise.
-
-Der AI-Assistent kann die folgenden Objekte zusammenfassen:
-
-* Projekte
-* Aufgaben
-* Probleme
-* Dokumente
 
 >[!NOTE]
 >
@@ -65,22 +58,16 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
   Weitere Informationen finden Sie unter [Voraussetzungen für den AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in der Übersicht zum Artikel AI Assistant .
 * Ihr Workfront-Administrator muss den KI-Assistenten für Ihre Zugriffsebene aktiviert haben.
 
-  Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
 <div class="preview">
 
-## Zusammenfassen mit den Schaltflächen Zusammenfassen
+## Mithilfe der Schaltfläche &quot;Inhalt zusammenfassen&quot;
 
-In den folgenden Bereichen finden Sie Schaltflächen, mit denen mithilfe des AI-Assistenten Zusammenfassungen generiert werden:
+1. Navigieren Sie zum Aktualisierungsstream, den Sie zusammenfassen möchten.
+1. Klicken Sie auf die Schaltfläche **Inhalt zusammenfassen** .
 
-* Projektheader: Projektzusammenfassung
-* Aktualisierungsbereich: Inhalt zusammenfassen
-
-So verwenden Sie die Schaltfläche Projektzusammenfassung oder Inhalt zusammenfassen :
-
-1. Klicken Sie auf die Schaltfläche .
-
-   Der AI-Assistent wird geöffnet und Sie werden aufgefordert, das Projekt oder die letzten sieben Tage mit Kommentaren zum Aktualisierungsstream zusammenzufassen.
+   Der AI-Assistent wird geöffnet und Sie werden aufgefordert, die letzten sieben Tage mit Kommentaren zum Aktualisierungsstream zusammenzufassen.
 
    Je nachdem, wie groß oder komplex das Objekt ist, kann es einen Moment dauern, bis der KI-Assistent die Zusammenfassung generiert.
 
