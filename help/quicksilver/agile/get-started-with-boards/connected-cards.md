@@ -6,9 +6,9 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
+source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Wenn eine der folgenden Details für die Karte an einem Ort aktualisiert wird, w
 * [!UICONTROL Unteraufgaben]
 * [!UICONTROL Dokumente]
 
-Um verbundene Karten mit Workfront zu synchronisieren, klicken Sie neben dem Pinnwandnamen auf das Menü **[!UICONTROL Mehr]** ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) und wählen Sie **[!UICONTROL Angeschlossene Elemente synchronisieren]**.
+Um verbundene Karten mit Workfront zu synchronisieren, klicken Sie neben dem Pinnwandnamen auf das Menü **[!UICONTROL Mehr]** ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) und wählen Sie **[!UICONTROL Angeschlossene Elemente synchronisieren]**. Archivierte Karten werden nicht mit Workfront-Aufgaben und -Problemen synchronisiert. Wenn Sie eine Karte wiederherstellen, wird sie erneut synchronisiert.
 
 >[!NOTE]
 >

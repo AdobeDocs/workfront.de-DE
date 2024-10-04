@@ -6,9 +6,9 @@ description: Wenn Sie eine Karte aus einer Pinnwand löschen, wird sie dauerhaft
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Wenn Sie eine verbundene Karte aus einer dynamischen Pinnwand löschen, wird sie
 Wenn Sie eine verbundene Karte aus einem anderen Pinnwandtyp löschen, der über eine Ansauspalte verfügt, wird die Karte bei der Aktualisierung der Pinnwand wieder in der Ansauspalte angezeigt, wenn die verbundene Aufgabe oder das Problem noch nicht als abgeschlossen markiert wurde. Weitere Informationen zu Aufnahmespalten finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 Durch die Archivierung einer Karte wird diese an das Archiv gesendet und Sie können sie später wieder auf der Pinnwand speichern.
+
+Archivierte Karten werden nicht mit Workfront-Aufgaben und -Problemen synchronisiert. Wenn Sie eine Karte wiederherstellen, wird sie erneut synchronisiert.
 
 ## Zugriffsanforderungen
 
@@ -71,7 +73,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Um eine archivierte Karte wiederherzustellen, klicken Sie auf das Menü **[!UICONTROL Mehr]** Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Wiederherstellen]**.
 
-## Filtern einer Pinnwand, um archivierte Karten anzuzeigen {#filter-a-board-to-show-archived-cards}
+## Filtern einer Pinnwand, um archivierte Karten anzuzeigen
 
 Standardmäßig werden nur aktive Karten auf einer Pinnwand angezeigt. Sie können die Pinnwand filtern, um auch alle archivierten Karten anzuzeigen.
 
