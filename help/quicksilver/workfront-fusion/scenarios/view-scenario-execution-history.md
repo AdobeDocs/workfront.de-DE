@@ -2,23 +2,29 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Ausführungsverlauf eines Szenarios in Adobe Workfront Fusion anzeigen
+title: Verlauf eines Szenarios in Adobe Workfront Fusion anzeigen
 description: Sie können Informationen zu allen Ausführungen eines Szenarios anzeigen oder alle Ausführungen des Szenarios nach bestimmten Daten durchsuchen.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
-# Ausführungsverlauf eines Szenarios in [!DNL Adobe Workfront Fusion] anzeigen
+# Anzeigen des Verlaufs eines Szenarios in [!DNL Adobe Workfront Fusion]
 
-Sie können Informationen zu allen Ausführungen eines Szenarios anzeigen oder alle Ausführungen des Szenarios nach bestimmten Daten durchsuchen.
+Sie können Informationen zu den Ereignissen oder Ausführungen eines Szenarios anzeigen oder alle Ausführungen des Szenarios nach bestimmten Daten durchsuchen.
 
-Der Ausführungsverlauf eines Szenarios zeigt alle Ausführungen eines Szenarios für die letzten 30 Tage an.
+Die Ausführung eines Szenarios stellt einen einzelnen Ablauf des Szenarios dar.
+
+Ein Szenario-Ereignis ist eine Änderung des Szenarios, z. B. Bearbeiten, Aktivieren oder Deaktivieren.
+
+>[!NOTE]
+>
+>Der Verlauf eines Szenarios zeigt alle Ereignisse und Ausführungen eines Szenarios für die letzten 30 Tage an.
 
 ## Zugriffsanforderungen
 
@@ -59,9 +65,9 @@ Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welche
 
 Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Alle Ausführungen eines Szenarios anzeigen
+## Szenario-Verlauf anzeigen
 
-### Anzeigen des Ausführungsverlaufs des Szenarios auf der Seite [!UICONTROL Szenario-Detail]
+### Anzeigen des Szenarioverlaufs auf der Seite [!UICONTROL Szenariodetails]
 
 1. Klicken Sie im linken Bereich auf die Registerkarte **[!UICONTROL Szenario]** und klicken Sie dann auf das Szenario.
 
@@ -69,9 +75,7 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 
    Wenn Sie im Szenario-Editor an dem Szenario arbeiten, klicken Sie in der linken oberen Ecke des Fensters auf den Linkspfeil ![](assets/exit-editing-arrow.png).
 
-1. Zeigen Sie die Informationen in der Liste auf der rechten Seite an.
-
-   Sie können auch auf klicken, um eine vollständige Seitenansicht dieser Informationen anzuzeigen. Mit der Vollseitenansicht können Sie den Verlauf filtern, um bestimmte Ausführungen anzuzeigen.
+1. Zeigen Sie den Ausführungsverlauf im Tab **Verlauf** des Bedienfelds auf der rechten Seite an.
 
    Die folgenden Details werden für jede Ausführung des Szenarios aufgelistet:
 
@@ -80,13 +84,16 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
    * Ausführen von **[!UICONTROL Dauer]**
    * Anzahl der **[!UICONTROL Vorgänge]**
    * Größe von **[!UICONTROL Datenübertragung]**
-   * Link zu **[!UICONTROL Details]**
 
->[!NOTE]
->
->Im Szenario-Verlauf wird neben den kürzlich ausgeführten Szenarien ein **Verarbeitungs** -Zeichen angezeigt, während die Ausführungsdetails in den Speicher geschrieben werden. Die Verarbeitung erfolgt unmittelbar nach der Ausführung des Szenarios. und sollte nicht länger als einige Minuten dauern. Details zur Ausführung des Szenarios sind möglicherweise nicht sichtbar, während die Ausführung verarbeitet wird.
+   >[!NOTE]
+   >
+   >Im Szenario-Verlauf wird neben den kürzlich ausgeführten Szenarien ein **Verarbeitungs** -Zeichen angezeigt, während die Ausführungsdetails in den Speicher geschrieben werden. Die Verarbeitung erfolgt unmittelbar nach der Ausführung des Szenarios. und sollte nicht länger als einige Minuten dauern. Details zur Ausführung des Szenarios sind möglicherweise nicht sichtbar, während die Ausführung verarbeitet wird.
 
-### Anzeigen des Ausführungsverlaufs eines Szenarios auf der Registerkarte [!UICONTROL Verlauf]
+1. Um Details zur Ausführung eines bestimmten Szenarios anzuzeigen, klicken Sie im rechten Bereich auf diese Ausführung.
+1. Um Ereignisse anzuzeigen, klicken Sie rechts im Bedienfeld auf die Registerkarte **Ereignisse** .
+
+
+### Anzeigen des Szenario-Verlaufs auf der Registerkarte [!UICONTROL Verlauf]
 
 Die Registerkarte [!UICONTROL Verlauf] enthält mehr Details als auf der Seite [!UICONTROL Szenario-Detail] verfügbar sind. Sie können die Ausführungen auch auf der Registerkarte [!UICONTROL Verlauf] filtern und sortieren.
 
@@ -97,7 +104,7 @@ Die Registerkarte [!UICONTROL Verlauf] enthält mehr Details als auf der Seite [
    Wenn Sie im Szenario-Editor an dem Szenario arbeiten, klicken Sie in der linken oberen Ecke des Fensters auf den Linkspfeil ![](assets/exit-editing-arrow.png).
 
 1. Klicken Sie oben links auf der Seite auf die Registerkarte **[!UICONTROL Verlauf]** .
-1. (Optional) Detaillierte Informationen zu einem ausgewählten Szenario-Lauf, einschließlich der verarbeiteten Bundles, erhalten Sie, wenn Sie auf den Link **[!UICONTROL Details]** klicken.
+1. (Optional) Detaillierte Informationen zu einem ausgewählten Szenario-Lauf, einschließlich der verarbeiteten Bundles, erhalten Sie, wenn Sie in der Zeile für diese Ausführung auf die Schaltfläche **[!UICONTROL Details]** klicken.
 
    Weitere Informationen zur Verarbeitung von Bundles finden Sie unter [Ausführungsfluss eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
@@ -106,6 +113,8 @@ Die Registerkarte [!UICONTROL Verlauf] enthält mehr Details als auf der Seite [
    >* Der Link [!UICONTROL details] ist nur sichtbar, wenn die Ausführung Details enthält.
    >
    >* Im Szenario-Verlauf wird neben den Szenarien, die kürzlich ausgeführt wurden, ein **Verarbeitungsverlauf** -Zeichen angezeigt, während die Ausführungsdetails in den Speicher geschrieben werden. Die Verarbeitung erfolgt unmittelbar nach der Ausführung des Szenarios. und sollte nicht länger als einige Minuten dauern. Details zur Ausführung des Szenarios sind möglicherweise nicht sichtbar, während die Ausführung verarbeitet wird.
+
+1. Um Ereignisse anzuzeigen, aktivieren Sie den Umschalter **Ereignisse anzeigen** .
 
 ## den Ausführungsverlauf des Szenarios filtern
 
@@ -128,13 +137,7 @@ Sie können den Ausführungsverlauf des Szenarios sortieren.
 
 ## Durchsuchen aller Ausführungen eines Szenarios
 
-1. Klicken Sie im linken Bereich auf das Symbol **[!UICONTROL Szenario]** ![](assets/scenarios-icon.png) und klicken Sie dann auf das Szenario.
-
-   Oder
-
-   Wenn Sie im Szenario-Editor an dem Szenario arbeiten, klicken Sie in der linken oberen Ecke des Fensters auf den Linkspfeil ![](assets/exit-editing-arrow.png).
-
-1. Klicken Sie in der oberen linken Ecke des Bildschirms auf die Registerkarte **[!UICONTROL Verlauf]** .
+1. Öffnen Sie den vollständigen Seitenverlauf für ein Szenario, wie unter [Anzeigen des Ausführungsverlaufs eines Szenarios auf der Registerkarte [!UICONTROL Verlauf] ](#view-scenario-execution-history-on-the-history-tab) in diesem Artikel beschrieben.
 1. Klicken Sie oben in der Liste der Ausführungen auf **[!UICONTROL Volltextsuche]** .
 
    Oder
