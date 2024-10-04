@@ -6,9 +6,9 @@ description: Sie können einem Dokument, für das bereits ausstehende Genehmigun
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Scrollen Sie im Bereich Dokumentzusammenfassung nach unten zum Abschnitt **Genehmigungen**, in dem alle vorhandenen Genehmiger und Validierer aufgelistet sind. Um einen Genehmiger hinzuzufügen, stellen Sie sicher, dass das Kontrollkästchen **Genehmiger** aktiviert ist, und beginnen Sie dann, in das Textfeld **Überprüfer** zu tippen. Sie können Workfront-Benutzer oder -Teams anhand des Namens hinzufügen. Wenn Sie stattdessen einen Validierer hinzufügen möchten, deaktivieren Sie einfach das Kontrollkästchen **Genehmiger** , bevor Sie tippen.
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
+
+## Hinzufügen zusätzlicher Überprüfungen und Genehmiger aus einer früheren Version
+
+Wenn Sie eine Genehmigung für eine neue Dokumentversion benötigen, können Sie einfach
 
 <!--
 ## Add additional approvers or reviewers from Home

@@ -6,7 +6,7 @@ description: Sie können die Genehmigung von anderen Benutzern für ein Dokument
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Erstellen von Dokumentüberprüfungs- oder Genehmigungsanfragen
 
-Sie können die Genehmigung von anderen Benutzern oder Teams für ein Dokument in Adobe Workfront anfordern oder anfordern, dass diese ein Dokument überprüfen, ohne es zu genehmigen.
+Sie können die Genehmigung von anderen Benutzern oder Teams für ein Dokument in Adobe Workfront anfordern oder anfordern, dass diese ein Dokument überprüfen, ohne es genehmigen zu müssen.
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
 
-## Erstellen Sie eine Dokumentüberprüfung- oder Genehmigungsanforderung aus dem Bereich &quot;Dokumentzusammenfassung&quot;
+## Erstellen Sie im Bedienfeld &quot;Dokumentzusammenfassung&quot;eine Anforderung zur Überprüfung oder Genehmigung von Dokumenten.
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
 
@@ -96,6 +96,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    ![](assets/add-approver-and-deadline.png)
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
+
+
+
+
 
 <!--
 ## Resubmit an approval on a new version

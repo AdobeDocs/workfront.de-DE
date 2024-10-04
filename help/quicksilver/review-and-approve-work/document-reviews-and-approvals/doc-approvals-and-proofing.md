@@ -5,13 +5,13 @@ title: Verwenden neuer Dokumentgenehmigungen und Testsendungen gemeinsam
 description: Sie können neue Dokumentgenehmigungen mit Testversand verwenden.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
+source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # Verwenden neuer Dokumentgenehmigungen und Testsendungen gemeinsam
 
@@ -85,9 +85,9 @@ So fügen Sie eine neue Version hinzu:
 
 1. (Optional) Legen Sie einen Termin für die Genehmigung fest. Benutzer und Teams werden per E-Mail 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist benachrichtigt.
 
-1. Um einen Genehmiger hinzuzufügen, klicken Sie auf die Schaltfläche Genehmiger und beginnen Sie mit der Eingabe eines Benutzers oder Teams.
+1. Um einen Genehmiger hinzuzufügen, klicken Sie auf die Schaltfläche Genehmiger und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens <span class="preview"> oder wählen Sie einen Genehmiger aus der vorherigen Version.</span>
 
-1. Um einen Validierer hinzuzufügen, klicken Sie auf die Schaltfläche Validierer und geben Sie den Namen des Benutzers oder Teams ein.
+1. Um einen Validierer hinzuzufügen, klicken Sie auf die Schaltfläche &quot;Validierer&quot;und beginnen Sie mit der Eingabe des Benutzer- oder Teamnamens <span class="preview">oder wählen Sie einen Validierer aus der vorherigen Version aus. </span>
 
    ![](assets/add-approvers.png)
 
@@ -125,4 +125,3 @@ So überprüfen und genehmigen Sie ein Dokument:
    * **Erfordert Arbeit**: Das Dokument muss geändert werden und kann nicht verwendet werden. Sobald die angegebenen Änderungen vorgenommen wurden, muss das Dokument als neue Version hochgeladen werden und eine weitere Genehmigungsrunde durchlaufen. Weitere Informationen zum Hochladen einer neuen Version finden Sie unter [Erstellen einer neuen Version nach Bedarf](#create-a-new-version-as-needed) in diesem Artikel.
 
 Sobald Sie eine Entscheidung treffen, wird der Dokumenteigentümer per E-Mail benachrichtigt.
-
