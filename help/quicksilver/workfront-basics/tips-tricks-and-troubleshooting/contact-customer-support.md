@@ -6,9 +6,9 @@ description: Als Adobe Workfront-Kunde können Sie sich telefonisch an den Workf
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -52,19 +52,14 @@ Sie können ein Support-Ticket über das Self-Service-Portal [!DNL Experience Le
 
    Auf der Startseite [!UICONTROL Support] können Sie zu Ihren offenen Support-Fällen navigieren, einen neuen Fall protokollieren, die wichtigsten Artikel [!UICONTROL Support] anzeigen oder auf zusätzliche Lernquellen zugreifen.
 
-1. Um eine Groß-/Kleinschreibung einzureichen, wählen Sie die Option **[!UICONTROL Öffnen Sie eine Support-Anfrage]** und klicken Sie dann auf **[!UICONTROL Signieren] In**.
+<!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. Klicken Sie in der linken Seitenleiste auf **[!UICONTROL Schreibweise öffnen]** .
-
-<!--
-   ![](assets/left-nav-bar-for-exl-support-portal.png)
--->
-
+1. Klicken Sie in der linken Seitenleiste auf **[!UICONTROL Ticket öffnen]** .
 Die Seite [!UICONTROL Groß-/Kleinschreibung erstellen] wird geöffnet. Hier können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Groß-/Kleinschreibung und die Groß-/Kleinschreibung eingeben.
 
->[!TIP]
->
->Seien Sie bei der Beschreibung des Problems, mit dem Sie konfrontiert sind, so beschreibend wie möglich, damit wir den Fehlerbehebungsprozess beschleunigen können.
+   >[!TIP]
+   >
+   >Seien Sie bei der Beschreibung des Problems, mit dem Sie konfrontiert sind, so beschreibend wie möglich, damit wir den Fehlerbehebungsprozess beschleunigen können.
 
 
 1. Füllen Sie die Informationen für die folgenden Felder aus, um uns genauere Informationen zu geben:
@@ -87,7 +82,7 @@ Wenden Sie sich bei Fragen oder Problemen beim Einreichen einer Anfrage an den S
 
 ## Anzeigen und Verwalten von Support-Fällen
 
-1. Navigieren Sie zur Seite **[!UICONTROL Meine Fälle]** . Diese Seite wird geöffnet, wenn Sie eine Groß-/Kleinschreibung senden, oder Sie können sie öffnen, indem Sie im linken Navigationsbereich auf **[!UICONTROL Meine Fälle]** klicken.
+1. Navigieren Sie zur Seite **[!UICONTROL Meine Fälle]** . Diese Seite wird geöffnet, wenn Sie eine Groß-/Kleinschreibung einreichen, oder Sie können sie öffnen, indem Sie im linken Navigationsbereich auf **[!UICONTROL Meine Fälle]** klicken.
 
 1. (Optional) Verwenden Sie die Optionen oben auf der Seite, um nach **Produkt ([!DNL Experience Cloud] Lösung)** oder Groß-/Kleinschreibung **[!UICONTROL Status]** ([!UICONTROL Öffnen] oder Cl verwendet) zu filtern. Sie können auch das Feld [!UICONTROL search] verwenden, um nach Keywords zu suchen, die zu Ihren Support-Fällen gehören.
 
@@ -97,9 +92,9 @@ Wenden Sie sich bei Fragen oder Problemen beim Einreichen einer Anfrage an den S
 
 1. (Optional) Überprüfen Sie in der Fallansicht die neuesten Kommentare mit dem zugewiesenen Falleigentümer und fügen Sie zusätzliche Anhänge oder Antworten hinzu.
 
-1. (Optional) Um die Groß-/Kleinschreibung zu eskalieren, klicken Sie rechts auf der Seite unter **[!UICONTROL Kleinschreibung] auf &quot;**[!UICONTROL Zur Verwaltung eskalieren]**&quot;.
+1. (Optional) Um die Groß-/Kleinschreibung zu eskalieren, klicken Sie auf der rechten Seite der Seite unter **[!UICONTROL Kleinschreibung]** auf &quot;**[!UICONTROL Zur Verwaltung eskalieren]**&quot;.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Groß-/Kleinschreibung schließen]** , um den Fall zu schließen.
+1. (Optional) Klicken Sie zum Schließen der Groß-/Kleinschreibung auf die Schaltfläche **[!UICONTROL Groß-/Kleinschreibung schließen]** .
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
