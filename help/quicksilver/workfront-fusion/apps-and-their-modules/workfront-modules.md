@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '6280'
+source-wordcount: '6518'
 ht-degree: 2%
 
 ---
@@ -744,7 +744,7 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
 
 +++ **[!UICONTROL Dokument hochladen]**
 
-Dieses Aktionsmodul lädt ein Dokument in ein [!DNL Workfront] -Objekt hoch, z. B. ein Projekt, eine Aufgabe oder ein Problem.
+Dieses Aktionsmodul lädt ein Dokument in ein [!DNL Workfront] -Objekt hoch, z. B. ein Projekt, eine Aufgabe oder ein Problem. Dieses Modul lädt das Dokument in Teilen hoch, wodurch der Upload-Prozess für Workfront reibungsloser abläuft.
 
 Sie geben den Speicherort für das Dokument, die Datei, die Sie hochladen möchten, und einen optionalen neuen Namen für die Datei an.
 
@@ -767,6 +767,51 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   <tr> 
    <td>[!UICONTROL Verwandter Datensatztyp]</td> 
    <td>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, in den das Modul das Dokument hochladen soll.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Ordner-ID]</td> 
+   <td>Je nach Typ des zugehörigen Datensatzes müssen Sie möglicherweise eine Ordner-ID eingeben oder zuordnen.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source-Datei]</td> 
+   <td> <p>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen und die Daten der Quelldatei zu.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+
++++
+
++++ **[!UICONTROL Dokument hochladen (veraltet)]**
+
+Dieses Aktionsmodul lädt ein Dokument in ein [!DNL Workfront] -Objekt hoch, z. B. ein Projekt, eine Aufgabe oder ein Problem. Das gesamte Dokument wird gleichzeitig hochgeladen.
+
+Sie geben den Speicherort für das Dokument, die Datei, die Sie hochladen möchten, und einen optionalen neuen Namen für die Datei an.
+
+Das Modul gibt die ID des Dokuments sowie alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+
+Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Related Record ID]</td> 
+   <td>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein, in den Sie das Dokument hochladen möchten.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Verwandter Datensatztyp]</td> 
+   <td>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, in den das Modul das Dokument hochladen soll.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Ordner-ID]</td> 
+   <td>Je nach Typ des zugehörigen Datensatzes müssen Sie möglicherweise eine Ordner-ID eingeben oder zuordnen.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source-Datei]</td> 
