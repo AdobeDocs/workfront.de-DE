@@ -6,14 +6,19 @@ description: Ressourcen-Pools sind Sammlungen von Benutzern, mit denen Sie Resso
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '606'
 ht-degree: 2%
 
 ---
 
-# Erstellen von Ressourcen-Pools
+# Erstellen von Ressourcen-Pools {#create-resource-pools}
+
+>[!CONTEXTUALHELP]
+>id="wf_resource_pools"
+>title="Ressourcenpools"
+>abstract="Ein Ressourcen-Pool ist eine Sammlung von Benutzern, die gleichzeitig für die Fertigstellung eines Projekts benötigt werden. Nachdem Sie einen Ressourcen-Pool erstellt haben, können Sie ihn mit Projekten und Vorlagen verknüpfen."
 
 {{preview-and-fast-release-Q424}}
 
