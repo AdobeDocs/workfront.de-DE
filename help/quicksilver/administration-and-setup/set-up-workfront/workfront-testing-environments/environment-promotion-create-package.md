@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
+source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Bearbeiten oder Zusammenführen eines vorhandenen Pakets
 
-1. Wechseln Sie zu der Umgebung, in der Sie das Paket erstellen möchten. Dies ist die Umgebung, in die Sie Objekte **aus** kopieren.
+Ein Paket muss den Status &quot;`DRAFT`&quot; aufweisen, damit es bearbeitet werden kann.
+
+1. Wechseln Sie zu der Umgebung, in der Sie das Paket bearbeiten möchten. Dies ist die Umgebung, in der das Paket ursprünglich erstellt wurde.
 1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** (6}Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf das Symbol **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).![
 1. Wählen Sie im linken Navigationsbereich **System** und dann **Umgebungsförderung**.
 1. Wählen Sie das Paket aus der angezeigten Liste aus.
@@ -99,6 +101,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. (Optional) Um den Inhalt einschließlich aller Objekte und ihrer Unterobjekte anzuzeigen, klicken Sie im Abschnitt **Inhalt** auf den Dropdown-Pfeil neben dem Objekttyp.
 1. (Optional) Klicken Sie auf **Bereitstellungen**, um die vorherigen Installations- und Installationsversuche dieses Pakets anzuzeigen.
 1. (Optional) Um das Paket zu bearbeiten, klicken Sie oben rechts im Bildschirm auf **Paket bearbeiten** .
+Ein Paket muss den Status &quot;`DRAFT`&quot; aufweisen, damit es bearbeitet werden kann. Um das Paket in den Status `DRAFT` zu verschieben, wählen Sie im Feld **Status** die Option `Draft` aus. Sie können dann mit der Bearbeitung des Pakets fortfahren.
 1. Um das Paket zu installieren, klicken Sie oben rechts im Bildschirm auf **Installieren** .
 
    Anweisungen zum Installieren eines Pakets finden Sie unter [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
