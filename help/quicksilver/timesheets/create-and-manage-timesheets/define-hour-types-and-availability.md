@@ -1,19 +1,21 @@
 ---
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
-title: Definieren von Stundentypen und Verfügbarkeit
+title: Festlegen der Std.-Typen und der Verfügbarkeit
 description: Ein Stündentyp ist eine Bezeichnung, mit der Sie die Zeiteingabe kategorisieren können. Je nach den Reporting-Anforderungen Ihres Unternehmens für Stunden kann dies ein wesentlicher Teil der Protokollierungszeit sein.
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
 
 # Definieren von Stundentypen und Verfügbarkeit
+
+<!--Audited: 10/2024-->
 
 Ein Stündentyp ist eine Bezeichnung, mit der Sie die Zeiteingabe kategorisieren können. Je nach den Reporting-Anforderungen Ihres Unternehmens für Stunden kann dies ein wesentlicher Teil der Protokollierungszeit sein.
 
@@ -34,6 +36,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
+Sie müssen über die folgenden Berechtigungen verfügen, um die in diesem Artikel beschriebenen Schritte durchführen zu können:
+
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -41,15 +45,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan oder höher</p> </td> 
+   <td> <p>Neu: Standard</p> 
+   <p>Aktuell: Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
    <td> <p>Systemadministratorzugriff zur Definition systemweiter Stundentypen und zur Bearbeitung aller Benutzer</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,24 +78,32 @@ Der Systemadministrator bestimmt, welche projektspezifischen Stundentypen system
 Der Projektinhaber bestimmt, ob alle auf Systemebene definierten Stundentypen für das Projekt verfügbar sind (sowie Aufgaben und Probleme innerhalb des Projekts) oder ob nur eine Untergruppe dieser Stundentypen verfügbar ist.
 
 1. Wechseln Sie zu dem Projekt, in dem Sie die Verfügbarkeit von Stundentypen ermitteln möchten.
-1. Klicken Sie auf das Menü **Mehr** neben dem Aufgabennamen und dann auf **Bearbeiten**.
+1. Klicken Sie auf das Menü **Mehr** neben dem Projektnamen in der Kopfzeile und dann auf **Bearbeiten**.
+Das Feld **Projekt bearbeiten** wird geöffnet.
 
-1. Klicken Sie auf **Projekt bearbeiten**.
-1. Suchen Sie im Abschnitt **Einstellungen** die Option **Filter Hour Types** .
+1. Suchen Sie im Abschnitt **Projekteinstellungen** die Einstellung **Stunden-Typen filtern** .
 
 1. Wählen Sie **Nein** aus, um alle projektspezifischen Stundentypen für das Projekt verfügbar zu machen.
 
    Oder
 
-   Wählen Sie &quot;**Ja**&quot;, um nur eine Untergruppe der projektspezifischen Stundentypen für das Projekt verfügbar zu machen, und wählen Sie dann die Stundentypen aus, die Sie verfügbar machen möchten. (Halten Sie die Umschalttaste gedrückt, um mehrere Stundentypen auszuwählen.)
+   Wählen Sie &quot;**Ja**&quot;, um nur eine Untergruppe der projektspezifischen Stundentypen für das Projekt verfügbar zu machen, und wählen Sie dann die Stundentypen aus, die Sie verfügbar machen möchten.
 
-   Wenn Sie diese Option auswählen, stehen nur die ausgewählten Stundentypen zur Verfügung, die bei der Protokollierung von Stunden im Projekt (oder bei Aufgaben und Problemen im Projekt) ausgewählt werden. Wenn Sie diese Option auswählen und keine Stundentypen auswählen, zeigt das Projekt nur allgemeine Stundentypen an.
+   Halten Sie die Umschalttaste gedrückt, um mehrere Stundentypen auszuwählen.
 
-   Dieselbe Auswahl muss für jeden Benutzer getroffen werden, damit der Benutzer diese Stundenoptionen im Projekt sehen kann.
+   >[!NOTE]
+   >
+   >   Beachten Sie Folgendes:
+   >   
+   >   * Wenn Sie &quot;**Ja**&quot;auswählen, können nur die ausgewählten Stundentypen bei der Protokollierung von Stunden im Projekt (oder bei Aufgaben und Problemen im Projekt) ausgewählt werden.
+   >   
+   >   * Wenn Sie &quot;**Ja**&quot;auswählen und keine Stundentypen auswählen, werden im Projekt nur allgemeine Stundentypen angezeigt.
+   >
+   >   * Dieselbe Auswahl muss für jeden Benutzer getroffen werden, damit der Benutzer diese Stundenoptionen im Projekt sehen kann.
+   >
+   >   * Wenn der Standardstundentyp des Benutzers und ein Typ vom Typ Gefilterte Stunde des Projekts übereinstimmen, wird dieser Stundentyp bei der Protokollierung standardmäßig ausgewählt.
 
-   Wenn der Standardstundentyp des Benutzers und ein Typ &quot;Gefilterte Stunde&quot;des Projekts übereinstimmen, wird dieser Stundentyp bei der Protokollierung standardmäßig ausgewählt.
-
-1. Klicken Sie auf **Änderungen speichern**.
+1. Klicken Sie auf **Speichern**.
 
 ## Definieren der Verfügbarkeit auf Benutzerebene
 
@@ -99,12 +113,21 @@ Wenn Sie einen Stundentyp auf Benutzerebene verfügbar machen, wie in diesem Abs
 
 So definieren Sie die für einen Benutzer verfügbaren Stundentypen:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf Ihren Benutzeravatar in der oberen linken Ecke.
 
-1. Klicken Sie in der linken oberen Ecke auf Ihren Benutzeravatar.
+   Oder
+
+   Klicken Sie auf das Symbol **Hauptmenü** oben rechts, falls verfügbar, und klicken Sie dann auf **Workfront-Profil**.![](assets/adobe-main-menu.png)
+
 1. Klicken Sie auf das Menü **Mehr** neben dem Benutzernamen und dann auf **Bearbeiten**.
 
-1. Nur ein Systemadministrator kann andere Benutzer bearbeiten. Wenn Sie über eine Planungslizenz verfügen, können Sie die Stundentypen in Ihrem eigenen Profil bearbeiten.
+   Das Feld **Person bearbeiten** wird geöffnet.
+
+   >[!IMPORTANT]
+   >
+   >Nur ein Systemadministrator kann andere Benutzer bearbeiten. Wenn Sie über eine Planungslizenz verfügen, können Sie die Stundentypen in Ihrem eigenen Profil bearbeiten.
+
+
 1. Führen Sie im Abschnitt **Ressourcenplanung** im Dropdown-Menü **Verfügbare Stündentypen** einen der folgenden Schritte aus, je nachdem, welche Stundentypen Sie verfügbar machen möchten, wenn Sie die Zeit für ein Projekt, eine Aufgabe oder ein Problem protokollieren:
 
    * **So stellen Sie alle Stundentypen für den Benutzer zur Verfügung:** Wählen Sie alle Stundentypen aus.\
@@ -120,7 +143,6 @@ So definieren Sie die für einen Benutzer verfügbaren Stundentypen:
 1. Klicken Sie auf **Änderungen speichern**.
 
    Wenn Sie jetzt Stunden für ein Projekt, eine Aufgabe oder ein Problem protokollieren, sind die von Ihnen ausgewählten Stundentypen verfügbar, wenn dieselben Stundentypen auf Projektebene verfügbar sind.
-
 
 ## Wie Stundentypen auf Benutzerebene und auf Projektebene zusammenarbeiten
 

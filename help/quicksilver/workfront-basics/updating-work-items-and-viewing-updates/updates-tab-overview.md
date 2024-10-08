@@ -7,10 +7,10 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 5%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
@@ -75,8 +75,12 @@ Die folgenden Objekte verfügen über einen Abschnitt Updates , in dem Sie Komme
 * Arbeitszeit- tabellen
 * Teams
 * Ziele
-* Karten im Bereich der Karten
 * Wiederholungen
+
+Die folgenden Objekte verfügen über Bereiche, in denen Sie Kommentare hinzufügen und Systemaktualisierungen überprüfen können:
+
+* Karten auf Pinnwänden
+* Aufzeichnungen in der Workfront-Planung
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -120,7 +124,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Überblick über den Abschnitt &quot;Aktualisierungen&quot;
+### Übersicht über die Registerkarten des Aktualisierungsabschnitts
 
 ![Aktualisierungsabschnitt](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
@@ -132,8 +136,12 @@ Depending on what objects you access the commenting experience for, you might fi
 
      >[!NOTE]
      >
-     >Die Registerkarten Kommentare und Systemaktivität werden in Echtzeit aktualisiert. Sie müssen die Registerkarte Alle aktualisieren, um die neuesten Aktualisierungen anzuzeigen.
+     >Die Tabs Kommentare und Systemaktivitäten werden in Echtzeit aktualisiert. Sie müssen die Registerkarte Alle aktualisieren, um die neuesten Aktualisierungen anzuzeigen.
 
+
+### Ähnlichkeiten und Unterschiede zwischen den Aktualisierungsbereichen verschiedener Objekte
+
+Es gibt Unterschiede zwischen der Anzeige von Kommentaren und Aktualisierungen für verschiedene Objekte.
 
 * Die folgenden Objekte weisen in allen drei Registerkarten des Abschnitts Updates ähnliche Erlebnisse auf:
 
@@ -152,10 +160,23 @@ Depending on what objects you access the commenting experience for, you might fi
    * Vorlagenaufgabe
 
 * Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Systemaktivität&quot;oder &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;unterscheidet sich von dem aller anderen Objekte:
+
    * Wiederholungen
-   * Ad-hoc-Karte
+   * Ad-hoc-Karten im Bereich &quot;Foren&quot;
 
      Weitere Informationen zu Aktualisierungen auf Karten finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
+* Die folgenden Objekte verfügen über die Registerkarte Systemaktivität und haben keine Registerkarte Alle :
+
+   * Verbundene Karten im Bereich &quot;Pinnwände&quot;
+
+     Weitere Informationen finden Sie unter [Verwenden von verbundenen Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+* Die folgenden Objekte verfügen über die Registerkarte Verlauf , die die Registerkarte Systemaktivität ersetzt:
+
+   * Aufzeichnungen in der Workfront-Planung
+
+     Weitere Informationen finden Sie unter [Verlaufsabschnitt - Übersicht](/help/quicksilver/planning/records/history-section-overview.md).
 
 * Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;entspricht dem der meisten Objekte:
 

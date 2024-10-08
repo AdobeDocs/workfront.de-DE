@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf di
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,22 @@ Weitere Informationen zum Freigeben aller anderen Objekte in Workfront finden Si
 * Informationen zu Dokumentordnern finden Sie unter [Freigeben eines Dokumentordners](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * Pläne finden Sie unter [Freigeben eines Plans im Szenario-Planer](../../scenario-planner/share-a-plan.md).
 
-  Dies erfordert eine zusätzliche Lizenz.
+  Für den Workfront-Szenario-Planer ist möglicherweise eine zusätzliche Lizenz erforderlich.
 
-* Ziele finden Sie unter [Freigeben eines Ziels in Workfront-Zielen](../../workfront-goals/workfront-goals-settings/share-a-goal.md). Dies erfordert eine zusätzliche Lizenz.
+* Ziele finden Sie unter [Freigeben eines Ziels in Workfront-Zielen](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+
+  Für Workfront-Ziele ist möglicherweise eine zusätzliche Lizenz erforderlich.
+
+* Informationen zu Workfront Planning-Objekten finden Sie in den folgenden Artikeln:
+
+   * [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
+   * [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
+
+  Für den Zugriff auf die Workfront-Planung ist eine zusätzliche Lizenz erforderlich.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
@@ -85,7 +96,9 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Freigeben eines Projekts, einer Aufgabe oder eines Problems über die zugehörige Seite
 
@@ -176,7 +189,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
    Klicken Sie auf die Schaltfläche **Freigabe** neben dem Objektnamen.
 
-   ![](assets/new-share-button.png)
+   ![](assets/new-share-button-on-portfolio.png)
 
    Oder
 
@@ -188,18 +201,13 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 1. Geben Sie im Feld &quot;**Gib &lt; Objektname > Zugriff auf**&quot;den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für den Sie das Objekt freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-   ![](assets/list-share-add-people.png){width="350"}
+   ![](assets/portfolio-access-box.png)
 
    >[!TIP]
    >
-   >Sie können ein Objekt nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
-
-
-
-   >[!TIP]
+   >* Wenn mehrere Entitäten ähnlich benannt sind, werden sie alle unter ihrem Typ aufgelistet. Die Namen der Entitäten werden in alphabetischer Reihenfolge angezeigt. Die Reihenfolge, in der die Entitätstypen angezeigt werden, ist jedoch zufällig.
    >
-   >Wenn mehrere Entitäten ähnlich benannt sind, werden sie alle unter ihrem Typ aufgelistet. Die Namen der Entitäten werden in alphabetischer Reihenfolge angezeigt. Die Reihenfolge, in der die Entitätstypen angezeigt werden, ist jedoch zufällig.
-   >
+   >* Sie können ein Objekt nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
 
 1. (Optional) Wiederholen Sie Schritt 3 für jeden Benutzer, jedes Team, jede Rolle oder jede Gruppe, dem/der Sie Zugriff auf das Objekt gewähren möchten.
 
@@ -216,14 +224,12 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
      >
      >Der Workfront-Administrator oder der Ersteller von Objekten kann Berechtigungen aus diesen Entitäten entfernen.
 
-     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
 
 1. (Optional) Klicken Sie auf **Erweiterte Einstellungen** , um bestimmte Berechtigungen für das Objekt zu konfigurieren.
 
-   Für Ansicht, Verwalten und Contribute stehen je nach ausgewähltem Objekt unterschiedliche erweiterte Optionen zur Verfügung.\
+   Die Berechtigungen &quot;Anzeigen&quot;und &quot;Verwalten&quot;verfügen je nach ausgewähltem Objekt über unterschiedliche erweiterte Optionen.\
    Weitere Informationen zu den Berechtigungsstufen finden Sie unter [Überblick über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Optional) Um dieses Objekt allen Benutzern im System zur Verfügung zu stellen, klicken Sie auf das Symbol **Zahnrad** ![](assets/gear-icon-settings-with-dn-arrow.jpg) und dann im Dropdown-Menü auf **Dieses Objekt systemweit anzeigen**.
 
@@ -249,25 +255,26 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 ## Freigeben einzelner oder mehrerer Objekte aus einer Liste
 
-1. Rufen Sie die Liste auf, die die freizugebenden Objekte enthält.
+1. Markieren Sie die Liste mit den Objekten, die Sie freigeben möchten.
 
    Informationen dazu, welche Objekte freigegeben werden können, finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. Aktivieren Sie das Kontrollkästchen neben den Objekten, die Sie freigeben möchten, und klicken Sie dann oben auf der Seite auf das Symbol **Freigeben** ![](assets/share-icon.png) .
 
+   Das Feld **&lt; Objekt > Zugriff** wird geöffnet.
+
    ![](assets/list-share-object-select.png){width="350"}
 
-1. Geben Sie im Fenster &quot;**&lt; Objekt > Zugriff**&quot;im Feld &quot;**Bearbeiten &lt; Objektname > Zugriff für**&quot;den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für die Sie die Objekte freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Geben Sie im Feld &quot;**Bearbeiten &lt; Objektname > Zugriff für**&quot;den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für den/das Sie die Objekte freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
-   >Sie können ein Objekt nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
-
-   >[!TIP]
+   >* Sie können ein Objekt nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
    >
-   >Wenn mehrere Entitäten ähnlich benannt sind, werden sie alle unter ihrem Typ aufgelistet. Die Namen der Entitäten werden in alphabetischer Reihenfolge angezeigt. Die Reihenfolge, in der die Entitätstypen angezeigt werden, ist jedoch zufällig.
+   >
+   >* Wenn mehrere Entitäten ähnlich benannt sind, werden sie alle unter ihrem Typ aufgelistet. Die Namen der Entitäten werden in alphabetischer Reihenfolge angezeigt. Die Reihenfolge, in der die Entitätstypen angezeigt werden, ist jedoch zufällig.
    >
 
 1. (Optional) Wiederholen Sie Schritt 3 für jeden Benutzer, jedes Team, jede Rolle oder jede Gruppe, dem/denen Sie Zugriff auf die Objekte gewähren möchten.

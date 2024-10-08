@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,11 @@ In der Adobe Workfront-Planung ist ein Datensatz eine Instanz eines Datensatztyp
 
 Sie können Datensätze anhand einer der folgenden Methoden erstellen:
 
-* Hinzufügen von Datensätzen auf der Seite &quot;Record Type&quot;in der Tabellenansicht
-* Datensätze aus einer externen Liste kopieren und einfügen
-* Datensätze aus einer Tabellenansicht duplizieren
-* Erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden
-* Erstellen Sie sie, indem Sie ein Anfrageformular an einen Datensatztyp senden
-
-In diesem Artikel wird beschrieben, wie Sie Datensätze erstellen können.
+* [Hinzufügen von Datensätzen auf der Seite &quot;Record Type&quot;in der Tabellenansicht](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Datensätze aus einer externen Liste kopieren und einfügen](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [Datensätze aus einer Tabellenansicht duplizieren](#create-records-by-duplicating-them)
+* [Erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden](#create-records-as-you-connect-them)
+* [Erstellen Sie sie, indem Sie ein Anfrageformular an einen Datensatztyp senden](#create-records-by-submitting-a-request-form-to-a-record-type)
 
 Informationen zum Verwalten von Datensätzen in der Tabellen- oder Timeline-Ansicht finden Sie in den folgenden Artikeln:
 
@@ -106,62 +104,6 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 </table>
 
 *Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-<!--OLD info: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p>  
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
 
@@ -305,6 +247,15 @@ So erstellen Sie Datensätze, während Sie sie aus anderen Datensätzen verbinde
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    Der Datensatz wird erstellt und dem Feld des verbundenen Datensatzes hinzugefügt.
+
+   >[!IMPORTANT]
+   >
+   >* Sie können nur Projekte und Portfolios in Workfront erstellen, wenn Sie sie aus einem Datensatz verbinden.
+   >
+   >* Sie können keine Programme, Gruppen oder Unternehmen erstellen, wenn Sie sie aus einem Datensatz in der Workfront-Planung verbinden.
+   >
+   >* Sie können ein Projekt nicht aus einer Vorlage erstellen, wenn Sie Projekte durch Verbinden aus einem Datensatz erstellen. Sie müssen dem neuen Projekt manuell Aufgaben und Projektinformationen oder eine Vorlage hinzufügen, nachdem Sie sie zum Datensatz hinzugefügt haben.
+
 1. (Optional) Rufen Sie die Tabellenansicht des Datensatztyps auf, dessen Datensatz Sie erstellt haben. In der letzten Zeile der Ansicht wird ein neuer Datensatz angezeigt.
 1. (Optional) Beginnen Sie mit dem Hinzufügen von Informationen für den neuen Datensatz in der Tabellenansicht.
 Oder
