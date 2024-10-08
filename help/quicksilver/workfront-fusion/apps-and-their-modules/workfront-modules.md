@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
+source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
 workflow-type: tm+mt
-source-wordcount: '6518'
+source-wordcount: '6558'
 ht-degree: 2%
 
 ---
@@ -324,6 +324,10 @@ Dieses Aktionsmodul führt eine der folgenden Konvertierungen durch:
 * Problem in Aufgabe konvertieren
 * Aufgabe in Projekt konvertieren
 
+>[!NOTE]
+>
+>Ab Juli 2024 können beim Konvertieren eines Objekts benutzerdefinierte Formulare einbezogen werden.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -603,6 +607,10 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
 +++ **[!UICONTROL Falsche Aktion]**
 
 Mit diesem Aktionsmodul können Sie Aktionen für die API ausführen.
+
+>[!NOTE]
+>
+>Ab Juli 2024 enthält die Aktion `convertToProject` das Feld `copyCategories`. Wenn der Wert auf &quot;`TRUE`&quot; gesetzt wird, werden alle benutzerdefinierten Formulare in das Projekt aufgenommen, in das das Problem konvertiert wird.
 
 Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
