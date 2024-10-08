@@ -5,9 +5,9 @@ title: Wechsel von der alten zur neuen Startseite
 description: Die alte Startseite wird am 17.10.17 mit der Version Q4 aus Workfront entfernt. Dieser Artikel enthält Informationen dazu, welche Funktionen in der neuen Startseite verfügbar sein werden, sowie Empfehlungen zum Verschieben von Benutzern in das neue Starterlebnis.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
+source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1641'
 ht-degree: 5%
 
 ---
@@ -271,6 +271,7 @@ Dadurch erhalten Ihre Benutzer so bald wie möglich Zeit, sich an das neue Erleb
 
 **Training**
 
+* [Entfernen, Hinzufügen und Neuanordnen von Widgets im Home-Tutorial](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Worker-Grundlagen in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

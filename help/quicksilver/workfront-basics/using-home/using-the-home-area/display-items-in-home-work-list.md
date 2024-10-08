@@ -6,9 +6,9 @@ description: Die [!UICONTROL Arbeitsliste] im Bereich [!UICONTROL Startseite] ze
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
 workflow-type: tm+mt
-source-wordcount: '1837'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,7 @@ Sie können Elemente in der [!UICONTROL Arbeitsliste] filtern, um nur bestimmte 
         <p>Zeigt nur Aufgaben an, die für den Start bereit sind. Beide der folgenden Anweisungen müssen wahr sein:</p> 
         <ul> 
          <li> <p>Die Aufgaben und ihre Eltern haben keine Vorgänger oder Aufgabeneinschränkungen, die sie daran hindern, daran gearbeitet zu werden.</p> </li> 
+         <li> <p>Alle Vorgängeraufgaben wurden abgeschlossen.</p> </li> 
          <li> <p>Das geplante [!UICONTROL Startdatum] der Aufgaben liegt in der Vergangenheit oder bis zu zwei Wochen in der Zukunft.</p> </li> 
         </ul> 
        </div> </td> 

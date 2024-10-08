@@ -4,9 +4,9 @@ description: Verbesserungen für das vierte Quartal 2024 - Startseite
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
+source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,10 @@ Weitere Informationen finden Sie unter [Erste Schritte mit Prioritäten](/help/q
 
 Mit der Version 24.10 werden wir offiziell das alte Home-Erlebnis einstellen.
 
-Mit dieser Änderung wird der Bereich _Startseite und Zusammenfassung_ in der Layout-Vorlage in _Zusammenfassungsbereich_ umbenannt. Anpassungen in diesem Bereich gelten weiterhin für das Bedienfeld &quot;Zusammenfassung&quot;im neuen Startseite. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Mit dieser Änderung werden die folgenden Bereiche der Layout-Vorlage umbenannt:
+
+* Der Bereich _Home workspace_ wird in _Home_ umbenannt.
+* Der Bereich _Home und Summary_ wird in _Summary panel_ umbenannt. Anpassungen in diesem Bereich gelten weiterhin für das Bedienfeld &quot;Zusammenfassung&quot;im neuen Startseite. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird. Weitere Informationen zur Umstellung, einschließlich Hinweise dazu, was Benutzer und Administratoren zur Vorbereitung tun können, finden Sie im [Handbuch zur veralteten Home-Version](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 
