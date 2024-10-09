@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 1944c21c8234755ac5bc1c6caaed10b817ef409e
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '14476'
+source-wordcount: '14482'
 ht-degree: 2%
 
 ---
@@ -1758,6 +1758,7 @@ ht-degree: 2%
       * [Herstellen einer Verbindung zu Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Datenwörterbuch zu Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect-Abfragebeispiele](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Anzeigen der Workfront Data Connect-Nutzungsmetriken](reports-and-dashboards/data-lake/view-usage-metrics.md)
 * Verwalten von Ressourcen {#manage-resources}
    * [Ressourcen verwalten](resource-mgmt/manage-resources.md)
    * Ressourcen-Management {#resource-management}
@@ -2318,7 +2319,7 @@ ht-degree: 2%
       * [MariaDB-Module](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markdown-Module](workfront-fusion/apps-and-their-modules/markdown-modules.md)
       * [Marketo-Module](workfront-fusion/apps-and-their-modules/marketo-modules.md)
-      * [Mathematisch](workfront-fusion/apps-and-their-modules/math-module.md)
+      * [Mathematik](workfront-fusion/apps-and-their-modules/math-module.md)
       * [Microsoft Dynamics 365-Module](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
       * [Microsoft Office 365-Kalender](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
       * [Microsoft Office 365 Email](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)

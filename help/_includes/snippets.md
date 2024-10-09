@@ -1,7 +1,7 @@
 ---
-source-git-commit: 385dbe63d0db9b13692fb6f5c78ed56bd0d823c4
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '2550'
+source-wordcount: '2586'
 ht-degree: 1%
 
 ---
@@ -154,6 +154,10 @@ Einrichten verknüpfter Ordner:
 >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
 >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall oben rechts auf der Seite auf das Hauptmenü **[!UICONTROL 1} ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol**[!UICONTROL  Hauptmenü&#x200B;]**![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf**[!UICONTROL  Startseite ]**.]**
 >
+
+## Schritt 1: Erste Schritte - Prioritäten {#step1-to-priorities}
+
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Prioritäten]**.
 
 <!-- Integrations -->
 
