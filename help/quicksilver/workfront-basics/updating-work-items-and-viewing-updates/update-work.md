@@ -6,9 +6,9 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '3075'
+source-wordcount: '3065'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,6 @@ Das Hinzufügen von Kommentaren zu anderen Workfront-Objekten ähnelt dem Aktual
 Weitere Informationen zum Kommentieren von Karten, Zielen und Datensätzen in der Workfront-Planung finden Sie in den folgenden Artikeln:
 
 * [Verwalten Sie Zielkommentare in Adobe Workfront-Zielen](../../workfront-goals/goal-management/manage-goal-comments.md).
-
-  Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Goals.
 
 * [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
 

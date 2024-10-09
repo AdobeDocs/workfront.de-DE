@@ -7,7 +7,7 @@ description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, di
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 4%
@@ -128,16 +128,15 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ![Aktualisierungsabschnitt](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-* Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten angezeigt:
+Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten angezeigt:
 
-   * **Kommentare**: Zeigt Kommentare von Benutzern an und Antworten auf diese Kommentare. Auf der Registerkarte Kommentare können Sie neue Kommentare hinzufügen oder auf vorhandene Kommentare antworten. Weitere Informationen zum Aktualisieren von Objekten finden Sie unter [Funktionsweise aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Alle Antworten, die im alten Kommentierungserlebnis an den Datensätzen der Systemaktivität vorgenommen wurden, werden auf der Registerkarte Systemaktivität als schreibgeschützt ausgefüllt. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einer Stelle an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Weitere Informationen zum Aktualisieren von Objekten finden Sie unter [Funktionsweise aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
+* **Kommentare**: Zeigt Kommentare von Benutzern an und Antworten auf diese Kommentare. Auf der Registerkarte Kommentare können Sie neue Kommentare hinzufügen oder auf vorhandene Kommentare antworten. Weitere Informationen zum Aktualisieren von Objekten finden Sie unter [Funktionsweise aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
+* **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Alle Antworten, die im alten Kommentierungserlebnis an den Datensätzen der Systemaktivität vorgenommen wurden, werden auf der Registerkarte Systemaktivität als schreibgeschützt ausgefüllt. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einer Stelle an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Weitere Informationen zum Aktualisieren von Objekten finden Sie unter [Funktionsweise aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
 
-     >[!NOTE]
-     >
-     >Die Tabs Kommentare und Systemaktivitäten werden in Echtzeit aktualisiert. Sie müssen die Registerkarte Alle aktualisieren, um die neuesten Aktualisierungen anzuzeigen.
-
+  >[!NOTE]
+  >
+  >Die Tabs Kommentare und Systemaktivitäten werden in Echtzeit aktualisiert. Sie müssen die Registerkarte Alle aktualisieren, um die neuesten Aktualisierungen anzuzeigen.
 
 ### Ähnlichkeiten und Unterschiede zwischen den Aktualisierungsbereichen verschiedener Objekte
 

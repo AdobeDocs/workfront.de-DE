@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 1%
@@ -183,7 +183,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Record Type**: Der Objekttyp oder die Workfront-Planung.
+* **Record Type**: Der Objekttyp der Workfront-Planung.
 
   Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in der Workfront-Planung eigene Objekttypen erstellen.
 
@@ -199,7 +199,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
   Nachdem Sie einem Arbeitsbereich einen Datensatztyp hinzugefügt haben, können Sie damit beginnen, Datensätze dieses Typs auf der Seite des Datensatztyps hinzuzufügen.
 
-  Beispielsweise kann &quot;Campaign&quot;ein Record-Typ sein und &quot;Summer Campaign for EMEA&quot;ist ein Datensatz des Campaign-Datensatztyps
+  Beispielsweise kann &quot;Campaign&quot;ein Datensatztyp sein und &quot;Summer Campaign for EMEA&quot;ist ein Datensatz vom Typ &quot;Campaign-Datensatz&quot;.
 
   Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md).
 

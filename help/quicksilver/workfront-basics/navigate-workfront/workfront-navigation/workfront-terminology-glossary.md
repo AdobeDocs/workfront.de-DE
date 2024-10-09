@@ -6,9 +6,9 @@ description: Das [!DNL Adobe Workfront] Glossar listet häufig verwendete Begrif
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '20384'
+source-wordcount: '20938'
 ht-degree: 0%
 
 ---
@@ -629,8 +629,37 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
   <tr> 
    <td>[!UICONTROL Bedingungsaktualisierung]</td> 
    <td> <p>In diesem Feld wird der aktuelle Zustand von Aufgaben, Projekten oder Problemen angezeigt. Diese Option zeigt die neuesten Updates, die die Eigentümer von Aufgaben, Projekten oder Problemen im Feld [!UICONTROL Aktualisierungsstatus] bereitgestellt haben, sowie die neue Bedingung an.</p> <p>Kommentare zu Bedingungsaktualisierungen werden nicht in der Spalte [!UICONTROL Bedingungsaktualisierung] angezeigt, sondern nur die Hauptaktualisierung.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Connected record types]</td> 
+   <td> <p>In der Workfront-Planung können Sie eine Verbindung zwischen einem der folgenden Elemente erstellen: </p>
+   <ul>
+   <li>Zwei Datensatztypen</li>
+   <li>Datensatz und Workfront-Objekttyp</li>
+   <li>Datensatz-Typ und Adobe Experience Manager-Asset</li></ul>
+   <p>Durch das Verbinden von Datensatztypen können Sie Informationen aus einem Datensatz oder Objekttyp in einem anderen Datensatztyp anzeigen.</p>
+   <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">Übersicht über Connected Record Types</a>  </p>
+  <p>Für die Planung von Workfront ist eine zusätzliche Lizenz erforderlich. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Connected records]</td> 
+   <td> <p>Wenn Sie in der Workfront-Planung zwei Datensatztypen miteinander verbinden, können Sie zwei einzelne Datensätze dieser Typen miteinander verbinden.  </p>
+   <p>Durch das Verbinden von Datensätzen können Sie Informationen aus einem Datensatz oder einem Objekt aus einer anderen Anwendung in einem anderen Datensatz anzeigen.</p>
+   <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/records/connected-records-overview.md">Übersicht über Connected records</a>. </p>
+
+<p>Für die Planung von Workfront ist eine zusätzliche Lizenz erforderlich. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Verbindungen]</td> 
+   <td> <p>In der Workfront-Planung beziehen sich Verbindungen auf verbundene Datensatztypen oder verbundene Datensätze. Für die Planung von Workfront ist eine zusätzliche Lizenz erforderlich.</p> </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Beschränkungsdatum]</td> 
    <td> <p>Wenn Sie eine [!UICONTROL Task Constraint] verwenden, die an ein bestimmtes Datum gebunden ist, z. B. [!UICONTROL Must Start On], wird dieses spezifische Datum zum [!UICONTROL Constraint Date] der Aufgabe.</p> <p>Mit den folgenden Aufgabenbegrenzungen wird das Feld [!UICONTROL Constraint Date] aktualisiert:</p> 
     <ul> 
@@ -882,11 +911,11 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
 
 <p>Weitere Informationen finden Sie unter <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> und <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Textmodus - Übersicht</a>.</p>
 
-<p>Standardmäßig enthält Workfront eine Reihe von Feldern, die beide Objekte und ihre Informationen definieren. Sie können auch benutzerdefinierte Felder erstellen, um Objekte zu definieren, jedoch keine benutzerdefinierten Objekte erstellen.</p> 
-   </td> 
-  </tr>
+<p>Standardmäßig enthält Workfront eine Reihe von Feldern, die beide Objekte und ihre Informationen definieren. Sie können auch benutzerdefinierte Felder erstellen, um Objekte zu definieren, jedoch keine benutzerdefinierten Objekte erstellen.</p>
 
-<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+<p>In der Workfront-Planung können Sie benutzerdefinierte Felder für alle Datensatztypen erstellen. Workfront-Datensatztypen verfügen über eine sehr begrenzte Anzahl von Feldern. Sie müssen alle Felder von Grund auf neu erstellen und sie mit Datensatztypen verknüpfen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/fields/fields-overview.md">Feldübersicht</a>. </p> <p>Für die Planung von Workfront ist eine zusätzliche Lizenz erforderlich. </p>   
+  </tr>
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>Einer der Hauptbausteine eines Berichts oder eines Listenelements, das bestimmt, welche Informationen auf dem Bildschirm angezeigt werden. Weitere Informationen zu Berichterstellungselementen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Berichterstellungselemente: Filter, Ansichten und Gruppierungen</a>.</p> <p>Der Filter bestimmt die Ergebnisse, die in einem Bericht oder in einer Liste mit einem [!DNL Workfront] -Bedienfeld angezeigt werden, z. B. Projekte, Aufgaben oder Probleme.</p> </td> 
   </tr> 
@@ -1032,7 +1061,6 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
    <li><b>Abgerechnet und genehmigt</b>: Die Stunden wurden protokolliert, vom Projekteigentümer genehmigt und der Status des Abrechnungsdatensatzes wurde als Abgerechnet markiert.</li>
    </ul>
 
-
 <p>Wenn Stunden Teil eines Abrechnungsdatensatzes sind, zeigt der Status Stunde an, ob die Stunden genehmigt wurden oder ob der Abrechnungsdatensatz, zu dem sie gehören, in Rechnung gestellt wurde. Der Stundenstatus eines Stundeneintrags wird nur in einer Stundenliste oder einem Bericht angezeigt. </p>
 
 <p>Weitere Informationen zum Hinzufügen von Stunden zu Rechnungsdatensätzen finden Sie im Abschnitt "Hinzufügen von Stunden zu Rechnungsdatensätzen"im Artikel <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Erstellen von Rechnungsdatensätzen</a>.</p>
@@ -1043,8 +1071,6 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
 
 <p>Allgemeine Stunden, die nicht direkt bei Arbeitselementen protokolliert werden, zeigen keinen Stundenstatus an. </p> </td> 
   </tr>
-
-
 
 <tr> 
    <td>[!UICONTROL Stündentyp]</td> 
@@ -1248,6 +1274,14 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   <tr> 
    <td>[!UICONTROL Listenelemente]</td> 
    <td> <p>Ein Teil der [!UICONTROL Interface-Einrichtung], der die Verknüpfung benutzerdefinierter Filter, Ansichten und Gruppierungen mit einzelnen Benutzern oder global mit allen Benutzern ermöglicht.</p> </td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Suchfelder]</td> 
+   <td> <p>Wenn Sie in der Workfront-Planung die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze miteinander verknüpft haben, können Sie auf die Felder der verknüpften Datensätze in dem Datensatz verweisen, aus dem Sie eine Verbindung herstellen.</p>
+   <p>Wenn Sie beispielsweise einen Campaign-Datensatz mit einem Workfront-Projektobjekttyp verbinden, können Sie das Feld Budget der verbundenen Projekte in den Kampagnensätzen anzeigen. Das Feld Budget-Projekt ist ein Suchfeld aus Projekten in einer Kampagne.</p> <p>Die Werte der Suchfelder werden automatisch in die Datensätze eingefügt, aus denen sie verbunden sind.</p>
+   <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/records/connected-records-overview.md">Übersicht über Connected records</a>.</p>
+   <p>Für die Planung von Workfront ist eine zusätzliche Lizenz erforderlich.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1798,8 +1832,26 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   <tr> 
    <td>[!UICONTROL Bereit]</td> 
    <td> <p>Dieses Feld in einem Aufgabenbericht gibt an, ob eine [!UICONTROL Agile] Aufgabe im Backlog als [!UICONTROL Bereit] markiert wurde. Diese Markierung gilt nur für [!UICONTROL Agile]-Aufgaben, bei denen es sich um Aufgaben handelt, die einem [!UICONTROL Agile]-Team zugewiesen sind. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Datensatz]</td> 
+   <td> <p>In der Workfront-Planung ist ein Datensatz eine eindeutige Instanz eines Datensatztyps.</p>
+<p>Nachdem Sie einem Arbeitsbereich einen Datensatztyp hinzugefügt haben, können Sie damit beginnen, Datensätze dieses Typs auf der Seite des Datensatztyps hinzuzufügen.</p>
+<p>Beispielsweise kann "Campaign"ein Datensatztyp sein und "Summer Campaign for EMEA"ist ein Datensatz vom Typ "Campaign-Datensatz".</p>
+<p>Informationen zum Erstellen von Datensätzen finden Sie unter <a href="/help/quicksilver/planning/records/create-records.md">Erstellen von Datensätzen</a>. </p> <p>Für die Planung von Workfront ist eine zusätzliche Lizenz erforderlich. </p></td> 
+  </tr>
+
+
+<tr> 
+   <td>[!UICONTROL Record Type]</td> 
+   <td> <p>Der Objekttyp von Workfront Planning.</p>
+<p>Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in der Workfront-Planung eigene Objekttypen erstellen. Workfront-Planungs-Objekttypen werden als Datensatztypen bezeichnet.</p>
+<p>Beispielsweise sind in Workfront die Objektarten "Programm", "Portfolio", "Projekt", "Aufgabe"oder "Problem"bereits erstellt.</p>
+<p>In der Workfront-Planung können Sie beliebige Datensatztypen erstellen, die den Workflows Ihres Unternehmens entsprechen. Später können Sie definieren, wie sich die Datensatztypen untereinander oder mit Formularabhängigkeiten verhalten.</p> Informationen zum Erstellen von Datensatztypen finden Sie unter <a href="/help/quicksilver/planning/architecture/create-record-types.md">Erstellen von Datensatztypen</a>. </p> <p>Für die Planung von Workfront ist eine zusätzliche Lizenz erforderlich. </p></td> 
+  </tr>
+
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Häufigkeit der Wiederholungen]</td> 
    <td> <p>Ein Feld, das in den [!UICONTROL Aufgabendetails] oder im Feld [!UICONTROL Aufgabe bearbeiten] eines übergeordneten Elements wiederkehrender Aufgaben angezeigt wird. Die Häufigkeit, mit der die Aufgaben in der Wiederholung auftreten. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Erstellen wiederkehrender Aufgaben</a>. </p> </td> 
   </tr> 
@@ -2340,7 +2392,14 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   <tr> 
    <td>[!UICONTROL Ansicht]</td> 
    <td> <p>Ansichten beziehen sich auf ein Berichterstellungselement, mit dem Sie die Spalten eines Berichts oder einer Objektliste ändern können.</p> 
-   <p> Ansicht bezieht sich auch auf das Recht eines Benutzers, Informationen nur zu einem Objekt anzuzeigen, je nach Zugriffsstufe oder Berechtigungsfreigabe.</p> </td> 
+   <p> Ansicht bezieht sich auch auf das Recht eines Benutzers, Informationen nur zu einem Objekt anzuzeigen, je nach Zugriffsstufe oder Berechtigungsfreigabe.</p> 
+   <p>In der Workfront-Planung werden Datensätze auf der Datensatztypseite in einem der folgenden Ansichtstypen angezeigt:</p>
+   <ul><li>Tabelle</li>
+   <li>Timeline</li>
+   <li>Kalender</li></ul>
+   <p>In der Workfront-Planung umfassen Ansichten die Filter, Gruppierungen, Sortierung und andere Einstellungen, die auf die Datensätze auf dem Bildschirm angewendet werden.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/views/manage-record-views.md">Verwalten von Datensatzansichten</a>.</p>   
+   <p>Für die Planung von Workfront ist eine zusätzliche Lizenz erforderlich.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Symbole anzeigen]</td> 
@@ -2481,6 +2540,15 @@ Sie müssen die zusätzliche Codezeile <code>[!UICONTROL usewidths=true]</code> 
    <p>valueformat=HTML</p>
    </code>
     <p>Informationen zur Verwendung des Textmodus finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Übersicht über die Syntax des Textmodus</a>. </p> </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Workspace] </td> 
+   <td> <p>In der Workfront-Planung ist ein Arbeitsbereich eine Sammlung von Datensatztypen, die den Lebenszyklus einer bestimmten Organisation definieren. Ein Arbeitsbereich ist der Arbeitsbereich einer Organisationseinheit.</p>
+   <p>Für die Planung von Workfront ist eine zusätzliche Lizenz erforderlich. </p>
+   <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/architecture/create-workspaces.md">Erstellen von Arbeitsbereichen</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+
