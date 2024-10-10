@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 09f7e854c2df1291feb150d2169fa6ccd5cdb1d6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1981'
 ht-degree: 6%
 
 ---
@@ -177,6 +177,14 @@ Das Feld **Neue OAuth2-Anwendung** wird angezeigt.
 Anweisungen zum Konfigurieren und Verwenden der OAuth2-Anwendung mit Benutzeranmeldeinformationen (Fluss des Autorisierungscodes) finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses](../../wf-api/api/oauth-app-jwt-flow.md).
 
 ### Erstellen einer OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungscode-Fluss) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
+
+>[!NOTE]
+>
+>Wenn Sie eine Anwendung erstellen, um eine Verbindung zu Workfront Fusion herzustellen, verwenden Sie eine der folgenden Umleitungs-URLs:
+>
+>* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
+>* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (EU-Rechenzentrum)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Azure Data Center)
 
 {{step-1-to-setup}}
 
