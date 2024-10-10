@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Da Adobe Workfront mit dem Netzwerk Ihres Unternehmens kommuniziert, muss die Fi
 Dies wird durch eine Zulassungsliste erreicht, bei der es sich im Wesentlichen um eine &quot;Liste&quot;von Sites handelt, die Daten über die Firewall senden oder empfangen dürfen. Sites können auf zwei Arten identifiziert werden:
 
 * **IP-Adresse**: eine Reihe von Zahlen wie 52.31.132.175
-* **Domäne**: Teil einer URL, z. B. &quot;diese Domäne&quot;in www.thisdomain.com
+* **Domäne**: Teil einer URL, z. B. `thisdomain` in `www.thisdomain.com`.
 
 Workfront verwendet bestimmte IP-Adressen und Domänen für die Web-Kommunikation. Diese müssen der Zulassungsliste Ihres Unternehmens hinzugefügt werden, bevor Sie Workfront in Ihrem Unternehmen verwenden können.
 

@@ -8,9 +8,9 @@ description: Die folgenden allgemeinen Funktionen sind im Bedienfeld Adobe Workf
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -161,3 +161,8 @@ Wählt nur die angegebenen Schlüssel aus dem Objekt aus.
 >`pick(` Benutzer `;` Kennwort `;` E-Mail `)`
 >
 >Gibt nur eine Sammlung des Kennworts und der E-Mail-Adresse des Benutzers zurück.
+
+## mergeCollections(collection1 ; collection2)
+
+Führt zwei Sammlungen durch Kombination ihrer Schlüssel-Wert-Paare zusammen. Wenn beide Sammlungen denselben Schlüssel enthalten, überschreibt der Wert aus der zweiten Sammlung diesen Wert aus der ersten Sammlung.
+
