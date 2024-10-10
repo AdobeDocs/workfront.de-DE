@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 
@@ -62,6 +62,7 @@ Einige Zeilen enthalten Informationen mit den Bezeichnungen &quot;Neu&quot;und &
    <li>Workfront Fusion</li>
    <li>Workfront-Ziele</li>
    <li>Workfront-Szenarienplaner</li>
+   <li>Workfront Planning</li>
    </ul>
    <p>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, ob Ihr Unternehmen eines dieser zusätzlichen Produkte erworben hat.</p></td> 
   </tr> 

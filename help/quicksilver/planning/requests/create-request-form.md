@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 4%
+source-wordcount: '1282'
+ht-degree: 3%
 
 ---
 
@@ -137,13 +137,15 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
      >
      >   Felder der folgenden Typen werden nicht im Anfrageformular angezeigt:
      >
-     >    * Personen
-     >    * Verbundene Felder (einschließlich Verbindungen mit Experience Manager-Assets)
+     >    * Personen (einschließlich Erstellt von und Zuletzt geändert von)
+     >    * Verbundene Felder (einschließlich Verbindungen mit Workfront und Experience Manager-Assets)
      >    * Verbundene Suchfelder
      >    * Formel
+     >    * Erstellungsdatum
+     >    * Zuletzt geändert am
 
    * **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anforderungsformular anwendet. Der Abschnitt Standard kann nicht umbenannt oder entfernt werden.
-   * Feld **Betreff** : Das Feld, das die Anforderung in Workfront identifiziert. Diese Funktion ist noch nicht verfügbar.
+   * Feld **Betreff** : Das Feld, das die Anforderung in Workfront identifiziert. Diese Funktion ist noch nicht verfügbar. Die Konfiguration und der Wert des Felds Betreff können nicht bearbeitet werden.
    * Alle mit dem Datensatztyp verknüpften Felder.
 
      Die im Anfrageformular enthaltenen Felder sind für alle sichtbar, die eine Anfrage an diesen Datensatztyp senden.
@@ -158,21 +160,23 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    * **Machen Sie ein erforderliches Feld**: Wenn ausgewählt, muss das Feld einen Wert enthalten. Andernfalls kann das Formular nicht gesendet werden.
    * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird.
 
-   Der Feldtyp jedes Felds wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben. Die Namen der Feldtypen im Anfrageformular unterscheiden sich von den Namen in der Tabellenansicht. In der folgenden Tabelle werden die Unterschiede zwischen den Namen der Feldtypen in der Tabellenansicht und den Namen der gleichen Felder im Anfrageformular des Datensatztyps beschrieben:
-
-   | Workfront-Planungstyp | Formularfeldtyp anfordern |
-   |-------------------------------|-------------------------|
-   | Einzeiliger Text | Einzeiliger Text |
-   | Absatz | Text mit Formatierung |
-   | Währung, Zahl, Prozentsatz | Einzeiliger Text |
-   | Einzelauswahl | Einfachauswahl-Dropdown |
-   | Mehrfachauswahl | Mehrfachauswahl-Dropdown |
-   | Kontrollkästchen | Kontrollkästchen-Gruppe |
-
    >[!NOTE]
    >
-   >   Die Formate der Felder bleiben erhalten. Wenn beispielsweise Währung und Prozentsatz als einzeilige Textfelder angezeigt werden, werden die Informationen in den Feldern als Währung und als Prozentwert angezeigt.
-
+   >   Der Feldtyp jedes Felds wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben.
+   >   
+   >
+   >   Die nachstehende Tabelle zeigt die Namen der Feldtypen in der Tabellenansicht und die Namen der gleichen Felder im Anfrageformular des Datensatztyps. Die Formate der einzelnen Felder stimmen zwischen der Tabellenansicht und dem Anfrageformular überein.
+   >
+   >   | Workfront-Planungstyp | Formularfeldtyp anfordern |
+   >   |-------------------------------|-------------------------|
+   >   | Einzeiliger Text | Einzeiliger Text |
+   >   | Absatz | Absatz |
+   >   | Währung, Zahl, Prozentsatz | Einzelzeilentext (die Formate dieser Felder bleiben Währung, Zahl und Prozentsatz) |
+   >   | Einzelauswahl | Einzelauswahl |
+   >   | Mehrfachauswahl | Mehrfachauswahl |
+   >   | Kontrollkästchen | Kontrollkästchen |
+   >   | Datum | Datum |
+   >
 
 1. (Optional) Klicken Sie auf die Registerkarte **Inhaltselemente** auf der linken Seite des Formulars und fügen Sie eines der folgenden Elemente hinzu:
 

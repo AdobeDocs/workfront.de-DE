@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2222'
 ht-degree: 1%
 
 ---
@@ -268,13 +268,15 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    Datensätze ohne Miniaturbild zeigen stattdessen das Symbol des Datensatztyps an. Ein Beispiel dafür, wie die verbundenen Datensätze im Bereich **Erscheinungsbild eines Datensatzes** angezeigt werden.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    Wenn Sie zulassen, dass mehrere Datensätze verknüpft werden, kann die Anzeige nur der Miniaturansicht in kleineren Bereichen, wie z. B. Datensatzansichten, Platz sparen.
+   >* Wenn Sie zulassen, dass mehrere Datensätze verknüpft werden, kann die Anzeige nur der Miniaturansicht in kleineren Bereichen, wie z. B. Datensatzansichten, Platz sparen.
    >
-   >Der Name eines Datensatzes ist das primäre Feld des Datensatzes. Weitere Informationen finden Sie unter [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Der Name eines Datensatzes ist das primäre Feld des Datensatzes. Weitere Informationen finden Sie unter [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >Die Auswahl eines Datensatzaussehens ist bei der Auswahl von Workfront-Objekttypen nicht möglich.
+   >* Die Auswahl eines Datensatzaussehens ist bei der Auswahl von Workfront-Objekttypen nicht möglich.
+   >
+   >* Was Sie im Anzeigebereich &quot;Datensatz&quot;auswählen, bestimmt, wie die Datensätze in allen Verbindungen des Systems angezeigt werden, einschließlich aller Ansichten und Detailseiten.
 
 1. Klicken Sie auf **Erstellen**.
 
