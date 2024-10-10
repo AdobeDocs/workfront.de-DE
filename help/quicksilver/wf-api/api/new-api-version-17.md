@@ -2,12 +2,12 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Neue Funktionen in API Version 17
-description: Adobe Workfront hat die API-Version 17 am 6. April 2022 veröffentlicht. API Version 17 enthält die folgenden Änderungen gegenüber Version 15.
+description: Adobe Workfront hat die API-Version 17 am 6. April 2022 veröffentlicht. API Version 17 enthält die folgenden Änderungen gegenüber Version 16.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 1%
