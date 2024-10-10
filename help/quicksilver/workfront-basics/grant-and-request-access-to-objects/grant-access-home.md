@@ -6,9 +6,9 @@ description: Benutzer können den Zugriff auf Objekte in Adobe Workfront anforde
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 1. (Bedingt) Führen Sie im neuen Startbereich folgende Schritte aus:
 
-   1. Wechseln Sie zum Widget **Warten auf meine Genehmigung** , suchen Sie die Anforderung für weiteren Zugriff und klicken Sie dann auf **Zugriff gewähren** .
+   1. Gehen Sie zum Widget **Meine Genehmigung** , suchen Sie die Anforderung für weiteren Zugriff und klicken Sie dann auf **Zugriff gewähren** .
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 

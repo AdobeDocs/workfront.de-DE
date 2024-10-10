@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Weitere Informationen zu den Widgets, die in der neuen Startseite verfügbar sin
 
 ## Neue Mitarbeiter-Standard-Landingpage: Neue Startseite
 
-Die neue Startseite ist jetzt die Standard-Landingpage für Mitarbeiter-/Anforderungskonten. Diese neue Standard-Startseite enthält eine Reihe von Widgets, die speziell ausgewählt wurden, damit Mitarbeiter ihre Arbeit am besten sofort verwalten können. Bei ihrem ersten Besuch auf der Seite werden Mitarbeiter auch angewiesen, die neue Startseite und die spezifischen Widgets zu verwenden, die standardmäßig in einer benutzerdefinierten exemplarischen Vorgehensweise verfügbar sind. Diese Standard-Widgets für Mitarbeiter sind: Meine Anforderungen, Erwähnungen, Wartezeiten auf meine Genehmigung und Pinnwände. Beachten Sie, dass ein Layout mit einer benutzerdefinierten Startseite, das derzeit von einem Mitarbeiter-Konto verwendet wird, ihre Startseite bleibt.
+Die neue Startseite ist jetzt die Standard-Landingpage für Mitarbeiter-/Anforderungskonten. Diese neue Standard-Startseite enthält eine Reihe von Widgets, die speziell ausgewählt wurden, damit Mitarbeiter ihre Arbeit am besten sofort verwalten können. Bei ihrem ersten Besuch auf der Seite werden Mitarbeiter auch angewiesen, die neue Startseite und die spezifischen Widgets zu verwenden, die standardmäßig in einer benutzerdefinierten exemplarischen Vorgehensweise verfügbar sind. Diese Standard-Widgets für Mitarbeiter sind: Meine Anforderungen, Erwähnungen, Meine Genehmigung und Pinnwände. Beachten Sie, dass ein Layout mit einer benutzerdefinierten Startseite, das derzeit von einem Mitarbeiter-Konto verwendet wird, ihre Startseite bleibt.
 
 Weitere Informationen zur Verwendung der neuen Startseite finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Änderungen an der Arbeitsverfolgung in der neuen Startseite
 
-Basierend auf dem Benutzer-Feedback haben wir den seitenweiten Zeitbereichsfilter und die Zusammenfassungsleiste entfernt, in denen Aufgaben aufgelistet wurden, die fällig und abgeschlossen waren. Projekt-, Aufgaben- und Problem-Widgets verfügen jeweils über integrierte Filterfunktionen, mit denen Sie ihren Umfang individuell anpassen können. Darüber hinaus enthalten diese Widgets jetzt nur Inhalte, die derzeit basierend auf dem Status aktiv sind, und stellen sicher, dass die von ihnen verfolgte Arbeit immer relevant ist. Wir haben auch begrenzt, welche Widgets Blasen zur Artikelanzahl anzeigen, die am nützlichsten sind: Meine Arbeit, Erwähnungen, Warten auf meine Genehmigung und Aufgaben.
+Basierend auf dem Benutzer-Feedback haben wir den seitenweiten Zeitbereichsfilter und die Zusammenfassungsleiste entfernt, in denen Aufgaben aufgelistet wurden, die fällig und abgeschlossen waren. Projekt-, Aufgaben- und Problem-Widgets verfügen jeweils über integrierte Filterfunktionen, mit denen Sie ihren Umfang individuell anpassen können. Darüber hinaus enthalten diese Widgets jetzt nur Inhalte, die derzeit basierend auf dem Status aktiv sind, und stellen sicher, dass die von ihnen verfolgte Arbeit immer relevant ist. Wir haben auch begrenzt, welche Widgets Blasen zur Artikelanzahl anzeigen, die am nützlichsten sind: Meine Arbeit, Erwähnungen, Meine Genehmigung und Aufgaben.
 
 Weitere Informationen zur Tracking-Arbeit in der neuen Startseite finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

@@ -5,9 +5,9 @@ description: Die alte Startseite wird am 17.10.17 mit der Version Q4 aus Workfro
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -80,13 +80,13 @@ Benutzer können Arbeiten mit hoher Priorität mit den folgenden Optionen kennze
 
 #### Anzeigen der von mir eingereichten Genehmigungen
 
-Benutzer können keine Genehmigungen anzeigen, die sie unter &quot;Prioritäten&quot;eingereicht haben. Als Problemumgehung können Benutzer einen Validierungsbericht erstellen, um diese Informationen anzuzeigen.
+Benutzer können keine Genehmigungen anzeigen, die sie unter &quot;Prioritäten&quot;eingereicht haben. Als Problemumgehung können Benutzer diese Informationen mithilfe der Filteroption &quot;Genehmigungen, die ich gesendet habe&quot;im Widget Meine Genehmigungen auf der Startseite anzeigen.
 
 ### Anzeigen von Genehmigungen und Teamanfragen
 
 Benutzer können in Prioritäten nicht mit Genehmigungen und Teamanfragen interagieren. Sie können jedoch Genehmigungs- und Teamanfragen in New Home mit den folgenden Widgets verwalten:
 
-* Warten auf Genehmigung
+* Meine Zustimmung
 * Alle Genehmigungen
 * Team-Anforderungen
 

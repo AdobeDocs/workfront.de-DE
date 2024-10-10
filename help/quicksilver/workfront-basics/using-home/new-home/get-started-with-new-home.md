@@ -6,10 +6,10 @@ description: Das neue Home ist eine leistungsstarke neue Funktion für die Verwa
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 233016ccc574118df705b857092d647767c05835
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 5%
+source-wordcount: '1168'
+ht-degree: 3%
 
 ---
 
@@ -56,8 +56,8 @@ Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit auswählen können
 * **Team-Anforderungen**\
     Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.
 
-* **Warten auf meine Genehmigung**\
-    Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget.
+* **Meine Genehmigung**\
+    Zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen, eine Schaltfläche zum Delegieren von Genehmigungen und Schaltflächen zum Treffen von Genehmigungsentscheidungen direkt im Widget an.
 
 * **Alle Genehmigungen**\
         Zeigt zwei Diagramme mit Informationen über die durchschnittliche Genehmigungszeit und -entscheidungen sowie Listenansichten ausstehender und überfälliger Genehmigungen an. <span style="color: #ff0000;">Diese Funktion ist Teil einer schrittweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span>
@@ -85,15 +85,15 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
     </tr>
     <tr>
         <td>Leicht</td>
-        <td>Meine Arbeit, die auf meine Genehmigung wartet</td>
+        <td>Meine Arbeit, meine Genehmigung</td>
     </tr>
     <tr>
         <td>Mitwirkender oder Mitwirkende</td>
-        <td>Meine Anforderungen, Erwähnungen, auf meine Genehmigung warten, Foren</td>
+        <td>Meine Anforderungen, Erwähnungen, meine Zustimmung, Pinnwände</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Warten auf meine Genehmigung</td>
+        <td>Meine Zustimmung</td>
     </tr>
 </table>
 
@@ -116,7 +116,7 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
     </tr>
     <tr>
         <td>Anfrage</td>
-        <td>Meine Projekte warten auf meine Genehmigung</td>
+        <td>Meine Projekte, Meine Genehmigung</td>
     </tr>
     <tr>
         <td>Mitwirken</td>
@@ -124,7 +124,7 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Warten auf meine Genehmigung</td>
+        <td>Meine Zustimmung</td>
     </tr>
 </table>
 

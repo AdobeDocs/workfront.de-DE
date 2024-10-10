@@ -5,9 +5,9 @@ title: Wechsel von der alten zur neuen Startseite
 description: Die alte Startseite wird am 17.10.17 mit der Version Q4 aus Workfront entfernt. Dieser Artikel enthält Informationen dazu, welche Funktionen in der neuen Startseite verfügbar sein werden, sowie Empfehlungen zum Verschieben von Benutzern in das neue Starterlebnis.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1596'
 ht-degree: 5%
 
 ---
@@ -51,12 +51,12 @@ Benutzer können die Arbeit weiterhin über die neue Startseite in den folgenden
 * Meine Arbeit
 * Meine Aufgaben
 * Meine Probleme
-* Warten auf meine Genehmigungen
+* Meine Genehmigungen
 
 Benutzer können die ihnen zugewiesenen Aufgaben in den folgenden Widgets finden:
 
 * Mein Widget &quot;Arbeit&quot;mit dem Filter &quot;An mich delegiert&quot;
-* Warten auf meine Genehmigungen mithilfe des Filters &quot;Delegierte Genehmigungen&quot;
+* Meine Genehmigungen mit dem Filter Delegierte Genehmigungen
 
 | **Legacy Home** | **Neue Startseite** |
 |------------|-----------|
@@ -72,10 +72,7 @@ Benutzer können eine persönliche Aufgabe nicht mehr genau so erstellen wie im 
 
 #### Anzeigen der von mir eingereichten Genehmigungen
 
-Benutzer können keine Genehmigungen anzeigen, die sie in der neuen Startseite eingereicht haben. Wenn Benutzer in Ihrer Organisation diese Funktion benötigen, können Sie einen Validierungsbericht als Workaround erstellen oder einen Kommentar hier in den folgenden Community-Beiträgen posten:
-
-* [Hinzufügen des Widgets &quot;Genehmigungen, die ich gesendet habe&quot; zu &quot;Neue Startseite&quot;](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [Hinzufügen von &quot;Validierungen, die ich gesendet habe&quot;zur neuen Startseite](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+Benutzer können mithilfe des Filters &quot;Von mir gesendete Genehmigungen&quot;im Widget Meine Genehmigungen die von ihnen in der neuen Startseite gesendeten Genehmigungen anzeigen.
 
 #### Elemente zu meiner Priorität hinzufügen
 
@@ -131,7 +128,7 @@ Um das Schnellaktionsmenü zu finden, halten Sie den Mauszeiger über das Arbeit
 
 Benutzer können weiterhin Genehmigungen und Team-Anforderungen in der neuen Startseite mit den folgenden Widgets verwalten:
 
-* Warten auf Genehmigung
+* Meine Zustimmung
 * Alle Genehmigungen
 * Team-Anforderungen
 
@@ -167,7 +164,7 @@ Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit auswählen können
 * **Team-Anforderungen**\
     Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.
 
-* **Warten auf meine Genehmigung**\
+* **Meine Genehmigung**\
     Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget.
 
 * **Alle Genehmigungen**\
@@ -202,15 +199,15 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
     </tr>
     <tr>
         <td>Leicht</td>
-        <td>Meine Arbeit, die auf meine Genehmigung wartet</td>
+        <td>Meine Arbeit, meine Genehmigung</td>
     </tr>
     <tr>
         <td>Mitwirkender oder Mitwirkende</td>
-        <td>Meine Anforderungen, Erwähnungen, auf meine Genehmigung warten, Foren</td>
+        <td>Meine Anforderungen, Erwähnungen, meine Zustimmung, Pinnwände</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Warten auf meine Genehmigung</td>
+        <td>Meine Zustimmung</td>
     </tr>
 </table>
 
@@ -233,7 +230,7 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
     </tr>
     <tr>
         <td>Anfrage</td>
-        <td>Meine Projekte warten auf meine Genehmigung</td>
+        <td>Meine Projekte, Meine Genehmigung</td>
     </tr>
     <tr>
         <td>Mitwirken</td>
@@ -241,7 +238,7 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp einige spezifische W
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Warten auf meine Genehmigung</td>
+        <td>Meine Zustimmung</td>
     </tr>
 </table>
 

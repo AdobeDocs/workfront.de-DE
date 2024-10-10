@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Validierungsverantwortliche und Validierungsverantwortliche können zu einem ein
 Benutzer können wie folgt auf den Frame.io-Viewer zugreifen:
 
 * Workfront-E-Mail-Benachrichtigungen
-* Das Erwartungswidget für meine Genehmigung im neuen Workfront-Startbereich
+* Das Widget Meine Genehmigung im neuen Workfront-Startbereich
   ![](assets/awaiting-my-approval.png)
 
 >[!NOTE]

@@ -5,9 +5,9 @@ description: Prioritäten sind ein optimiertes, intuitives Erlebnis, das auf Auf
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 3%
 
 ---
@@ -176,7 +176,7 @@ Sie können häufig verwendete Links auf der Detailseite des Arbeitselements ein
 
 Die Möglichkeit, Assets zu überprüfen und zu genehmigen, wird im Fahrplan &quot;Prioritäten&quot;beschrieben.
 
-Zunächst wird empfohlen, die Widgets &quot;Warten auf meine Genehmigung&quot;und &quot;Alle Genehmigungen&quot;in der neuen Startseite zu verwenden.
+Zunächst wird empfohlen, die Widgets Meine Genehmigung und Alle Genehmigungen in der neuen Startseite zu verwenden.
 
 Weitere Informationen finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 

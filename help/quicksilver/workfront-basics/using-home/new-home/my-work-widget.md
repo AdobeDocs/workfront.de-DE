@@ -5,9 +5,9 @@ title: Verwalten Ihrer Arbeit mit dem Widget "Meine Arbeit"
 description: Das Widget Meine Arbeit zeigt alle zugewiesenen Aufgaben, Probleme und Anforderungen an einem Ort an. Hier können Sie Ihre Arbeit filtern und organisieren, die Zeit protokollieren, Aktualisierungen vornehmen und Arbeitselemente als abgeschlossen markieren.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ Um das Schnellaktionsmenü zu finden, halten Sie den Mauszeiger über das Arbeit
 
 Genehmigungen und Teamanfragen werden nicht im Widget Meine Arbeit angezeigt. Wenn Sie regelmäßig mit Genehmigungen und Teamanfragen arbeiten, empfehlen wir, die folgenden Widgets zu Ihrer neuen Startseite hinzuzufügen:
 
-* Warten auf Genehmigung
+* Meine Zustimmung
 * Alle Genehmigungen
 * Team-Anforderungen
 
