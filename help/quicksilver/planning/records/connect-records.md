@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2713'
 ht-degree: 1%
@@ -42,8 +42,8 @@ Sie können Folgendes verbinden:
       * Projekte
       * Portfolios
       * Programme
-      * Firma
-      * Gruppe
+      * Firmen
+      * Gruppen
 
    * Adobe Experience Manager Assets
 
@@ -122,66 +122,6 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 *Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace to connect records </p>  
-   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
-   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 +++
 
 ## Voraussetzungen für das Verbinden von Datensätzen
@@ -210,7 +150,7 @@ In den folgenden Bereichen eines Planungsdatensatzes können Sie Datensätze aus
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, dessen Datensätze Sie verbinden möchten
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensätze Sie verbinden möchten.
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite vom Typ Datensatz zu öffnen.
@@ -225,7 +165,7 @@ In den folgenden Bereichen eines Planungsdatensatzes können Sie Datensätze aus
    * Klicken Sie in der Liste auf den Namen eines verbundenen Datensatzes, um ihn zum ausgewählten Datensatz hinzuzufügen. Der Datensatz wird automatisch hinzugefügt.
    * Geben Sie den Namen eines Datensatzes ein und klicken Sie darauf, wenn er in der Liste angezeigt wird. Der Datensatz wird automatisch hinzugefügt.
 
-1. (Optional) Wenn Sie einen Datensatz oder ein Objekt zum Verbinden nicht finden und ihn hinzufügen möchten, klicken Sie auf **+ Hinzufügen** , um einen neuen Datensatz hinzuzufügen. Weitere Informationen finden Sie unter &quot;Erstellen von Datensätzen beim Verbinden&quot;im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+1. (Optional) Wenn Sie einen Datensatz oder ein Objekt zum Verbinden nicht finden und ihn hinzufügen möchten, klicken Sie auf **+ Hinzufügen** , um einen neuen Datensatz hinzuzufügen. Weitere Informationen finden Sie im Abschnitt &quot;Erstellen von Datensätzen während der Verbindung mit ihnen&quot;im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -307,11 +247,11 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
 1. (Optional) Wenn Sie ein Objekt zum Verbinden nicht finden und es hinzufügen möchten, klicken Sie auf **+ Hinzufügen** , um ein neues Projekt oder Portfolio zu erstellen und hinzuzufügen.
 
-   Sie können nur Projekte ohne Vorlage oder Portfolios hinzufügen, wenn Sie sie mit Datensätzen der Planung verbinden. Sie können keine neuen Programme, Benutzer oder Unternehmen hinzufügen.
+   Sie können nur Projekte ohne Vorlage oder Portfolios hinzufügen, wenn Sie sie mit Datensätzen der Planung verbinden. Sie können keine neuen Programme, Gruppen oder Unternehmen hinzufügen.
 
 1. (Optional) Klicken Sie auf &quot;**See all**&quot;, um alle Objekte anzuzeigen, für die Sie mindestens über die Berechtigung zum Anzeigen verfügen.
 
-1. (Bedingt) Wenn Sie im vorherigen Schritt auf &quot;**See all**&quot;geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
+   Wenn Sie im vorherigen Schritt auf &quot;**See all**&quot;geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -382,7 +322,7 @@ So verbinden Sie Datensätze mit Experience Manager-Assets:
 1. Wählen Sie eine **Tabellenansicht** aus dem Dropdown-Menü **Ansicht** in der oberen rechten Ecke der Seite mit dem Datensatztyp aus.
 
 1. (Optional) Klicken Sie auf **Neuer Datensatz** , um dem ausgewählten Datensatztyp neue Datensätze hinzuzufügen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit Experience Manager Assets verbunden haben, wechseln Sie zur verknüpften Objektspalte und bewegen Sie den Mauszeiger über die Zelle, die dem Datensatz entspricht, den Sie mit anderen Objekten aus Experience Manager verknüpfen möchten, und klicken Sie dann auf das Symbol **+** .
+1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit Experience Manager Assets verbunden haben, wechseln Sie zur verknüpften Objektspalte und bewegen Sie den Mauszeiger über die Zelle, die dem Datensatz entspricht, den Sie mit anderen Objekten aus dem Experience Manager verknüpfen möchten, und klicken Sie dann auf das Symbol **+** .
 
    >[!TIP]
    >
@@ -473,7 +413,7 @@ So verbinden Sie Datensätze mit Experience Manager-Assets:
 1. (Bedingt) Klicken Sie auf **Verbinden** , um weitere Datensätze oder Objekte desselben Typs hinzuzufügen.
 1. Führen Sie die in den vorherigen Abschnitten beschriebenen Schritte aus, um Datensätze aus der Workfront-Planung oder Objekte aus Workfront oder Experience Manager Assets zu verbinden.
 Die Datensätze und Objekte werden sofort hinzugefügt.
-1. (Optional) Bewegen Sie den Mauszeiger über die verbundene Karte eines Datensatzes oder Objekts und klicken Sie dann auf das Symbol **Datensatz trennen** **-** , um die Verbindung zum ausgewählten Datensatz zu trennen.
+1. (Optional) Bewegen Sie den Mauszeiger über die verbundene Karte eines Datensatzes oder Objekts und klicken Sie dann auf das Symbol **Datensatz trennen** ![](assets/disconnect-icon-with-tooltip.png) , um die Verbindung zum ausgewählten Datensatz zu trennen.
 
    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 

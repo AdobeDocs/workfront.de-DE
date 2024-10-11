@@ -8,14 +8,18 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
 
 ---
 
+
 # E-Mail-Vorlagen konfigurieren
+
+<!--Audited: 10/2024-->
+
 
 Als Adobe Workfront-Administrator können Sie E-Mail-Vorlagen konfigurieren, um Erinnerungsbenachrichtigungen zu unterstützen.
 
@@ -40,9 +44,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td><p>Aktuell: Plan</p>
+   <td><p>Neu: Standard</p>
    Oder
-   <p>Neu: Standard</p></td> 
+   <p>Aktuell: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene</td> 

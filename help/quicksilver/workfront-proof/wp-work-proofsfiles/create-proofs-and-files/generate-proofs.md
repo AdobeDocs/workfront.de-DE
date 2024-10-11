@@ -7,9 +7,9 @@ description: Mit Workfront Proof können Sie Testsendungen aus Dokumenten oder W
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Mit [!DNL Workfront Proof] können Sie Testsendungen aus Dokumenten oder Website
 
      Weitere Informationen zum Freigeben eines Testversands finden Sie unter &quot;Hinzufügen von Benutzern zu einem Testversand&quot;in [Freigeben eines Testversands in  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-   * **Automatisiert:** Wählen Sie diese Option, um Inhaltsüberprüfungen und -genehmigungen zu verwalten, wenn komplexe Überprüfungsprozesse vorliegen oder wenn Sie regelmäßig Inhalte zur Überprüfung an dieselben Personengruppen senden. Mit automatisiertem Workflow wechselt der Testversand von Phase zu Phase bis zur endgültigen Genehmigung. Die betroffenen Benutzer werden jedes Mal benachrichtigt, wenn sie eine Genehmigung vornehmen müssen.
+   * **Automatisiert:** Wählen Sie diese Option, um Inhaltsüberprüfungen und -genehmigungen zu verwalten, wenn komplexe Überprüfungsprozesse vorliegen oder wenn Sie regelmäßig Inhalte zur Überprüfung an dieselben Personengruppen senden. Mit einem automatisierten Workflow wechselt der Testversand von Phase zu Phase bis zur endgültigen Genehmigung. Die betroffenen Benutzer werden jedes Mal darüber informiert, dass sie eine Genehmigung vorlegen müssen.
 
      Weitere Informationen zum Erstellen eines automatisierten Workflows finden Sie unter [Einrichten eines Testversands mit einem automatisierten Workflow in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
@@ -106,7 +106,7 @@ Mit [!DNL Workfront Proof] können Sie Testsendungen aus Dokumenten oder Website
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nur eine Entscheidung für diesen Testversand erforderlich</td> 
+      <td role="rowheader">Für diesen Nachweis ist nur eine Entscheidung erforderlich</td> 
       <td> <p>Wenn diese Option ausgewählt ist, wird die Überprüfung abgeschlossen, nachdem einer der Entscheidungsträger seine Entscheidung getroffen hat.</p> <p>Diese Option ist standardmäßig deaktiviert.</p> </td> 
      </tr> 
      <tr> 
@@ -122,11 +122,11 @@ Mit [!DNL Workfront Proof] können Sie Testsendungen aus Dokumenten oder Website
       <td> <p><strong></strong> Wenn diese Option aktiviert ist, können die validierungsverantwortlichen Benutzer die Originaldatei herunterladen, aus der der Testversand erstellt wurde.</p> <p>Wenn diese Option deaktiviert ist, ist das Symbol Herunterladen nicht mehr sichtbar.<br>Diese Option ist standardmäßig aktiviert.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Freigeben des Testversands über eine öffentliche URL oder einen Einbettungscode</td> 
+      <td role="rowheader">Freigeben eines Testversands über eine öffentliche URL oder einen Einbettungscode</td> 
       <td>Wenn diese Option aktiviert ist, kann der Testversand über eine öffentliche URL oder einen Einbettungscode freigegeben werden.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Testversand über öffentliche URL oder Einbettungscode abonnieren</td> 
+      <td role="rowheader">Testversand über eine öffentliche URL oder einen Einbettungscode abonnieren</td> 
       <td> <p>Wenn diese Option aktiviert ist, können Personen, die dem Testversand nicht explizit hinzugefügt wurden, den Testversand abonnieren. Die Person, die den Testversand abonniert, erhält die Rolle und E-Mail, die Sie in den folgenden Einstellungen definieren:</p> 
        <ul> 
         <li><strong>Abonnentenrolle</strong>: Die Standardrolle für den Testversand, die allen Validierern zugewiesen ist, die den Testversand abonnieren.</li> 
@@ -220,7 +220,7 @@ So generieren Sie einen Testversand für eine URL:
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-   Wenn Sie eine neue Version zu einem vorhandenen URL-Testversand hinzufügen, werden alle Optionen, die für den ursprünglichen Testversand oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten. Wenn Sie einer vorhandenen URL-Testversand eine neue Version hinzufügen, werden alle Optionen, die für den ursprünglichen Testversand oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten.
+   Wenn Sie eine neue Version zu einem vorhandenen URL-Testversand hinzufügen, werden alle Optionen, die für den ursprünglichen Testversand oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten. Wenn Sie eine neue Version zu einem vorhandenen URL-Testversand hinzufügen, werden alle Optionen, die für den ursprünglichen Testversand oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten.
 
 1. Klicken Sie auf **[!UICONTROL Testversand erstellen]**.
 

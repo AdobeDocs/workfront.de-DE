@@ -1,14 +1,14 @@
 ---
 title: Übersicht über die Adobe Workfront-Planung
-description: Adobe Workfront Planning ist ein neues Angebot von Adobe Workfront. Sie können vollständig anpassbare Arbeitsbereiche erstellen, um Workflows zu definieren, die den Anforderungen jeder Organisationseinheit in Ihrem Unternehmen entsprechen.
+description: Die Adobe Workfront-Planung ist eine zusätzliche Funktion von Adobe Workfront. Sie können vollständig anpassbare Arbeitsbereiche erstellen, um Workflows zu definieren, die den Anforderungen jeder Organisationseinheit in Ihrem Unternehmen entsprechen.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2116'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, ein neues Angebot von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf die Adobe Workfront-Planung, eine zusätzliche Funktion von Adobe Workfront.
 >
 >Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 >
@@ -44,9 +44,9 @@ Eine vollständige Liste der Artikel mit Dokumentation zur Workfront-Planung fin
 
 ## Einführung in die Adobe Workfront-Planung
 
-Adobe Workfront Planning ist ein neues Angebot von Adobe Workfront. Die Workfront-Planung ermöglicht es, umfassende Einblicke in die Betriebsdetails einer Organisation zu erhalten und wichtige Geschäftsfragen in jeder Phase des Lebenszyklus der Arbeitsverwaltung zu beantworten.
+Die Adobe Workfront-Planung ist eine zusätzliche Funktion von Adobe Workfront. Die Workfront-Planung ermöglicht es, umfassende Einblicke in die Betriebsdetails einer Organisation zu erhalten und wichtige Geschäftsfragen in jeder Phase des Lebenszyklus der Arbeitsverwaltung zu beantworten.
 
-Teams und Führungskräfte benötigen klare Antworten auf Fragen wie:
+Die Workfront-Planung kann Fragen wie folgende beantworten:
 
 * Wie viele Kampagnen führen wir in EMEA für das 4. Quartal aus?
 * Gibt es Zielgruppenüberschneidungen zwischen gleichzeitigen Kampagnen?
@@ -92,7 +92,7 @@ Die folgenden Funktionen sind derzeit in der Workfront-Planung verfügbar:
 * Layout der Seite eines Datensatzes anpassen
 * Freigeben von Arbeitsbereichen
 * Ansichten freigeben
-* Öffentliche Freigabe von Ansichten über externe Ressourcen
+* Öffentliche Freigabe von Ansichten für externe Ressourcen, auch für Personen, die nicht Workfront-Benutzer sind
 * Doppelte Ansichten
 * Senden von Anforderungen zum Erstellen von Datensätzen
 * Exportieren Sie Datensatzdetails nach Word <span class="preview">und PDF.</span>
@@ -161,11 +161,11 @@ Die folgenden Funktionen sind derzeit in der Workfront-Planung verfügbar:
 
 ## Aktivieren der Workfront-Planung für Benutzer in Ihrer Workfront-Instanz
 
-Nachdem Ihr Unternehmen eine Lizenz für die Workfront-Planung erworben hat, müssen folgende Voraussetzungen erfüllt sein, damit Sie auf die Workfront-Planung zugreifen können:
+Nachdem Ihr Unternehmen eine Lizenz für Workfront Planning erworben hat, müssen Sie als Workfront-Administrator sicherstellen, dass folgende Voraussetzungen erfüllt sind, damit Benutzer auf die Workfront-Planung zugreifen können:
 
-* Ihr Workfront-Administrator muss Ihnen eine Layoutvorlage zuweisen, die die Planung im Hauptmenü enthält. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) und [Zuweisen von Benutzern zu einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+* Weisen Sie die Benutzer zu, die Zugriff auf eine Layoutvorlage benötigen, die die Planung im Hauptmenü enthält. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) und [Zuweisen von Benutzern zu einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Ihr Workfront-Administrator muss Ihnen eine Workfront-Lizenz und Workfront-Planungsberechtigungen zuweisen, mit denen Sie Objekte in der Workfront-Planung anzeigen oder erstellen können. Weitere Informationen zum Gewähren von Zugriff auf und zum Aktivieren anderer Benutzer für die Verwendung der Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+* Weisen Sie Benutzern eine Workfront-Lizenz und Workfront Planning-Berechtigungen zu, mit denen Sie in der Workfront-Planung entweder eine 5554-Ansicht anzeigen oder Objekte erstellen können. Weitere Informationen zum Gewähren von Zugriff auf und zum Aktivieren anderer Benutzer für die Verwendung der Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminologie der Workfront-Planung
 
@@ -183,7 +183,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Record Type**: Der Objekttyp der Workfront-Planung.
+* **Record Type**: Der Name der Objekttypen in der Workfront-Planung.
 
   Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in der Workfront-Planung eigene Objekttypen erstellen.
 
@@ -318,7 +318,7 @@ Weitere Informationen finden Sie unter [Ansichten von Datensätzen verwalten](/h
 
 ## Adobe Workfront-Planung suchen
 
-Stellen Sie sicher, dass Ihr Unternehmen Zugriff auf die Workfront-Planung hat und dass Ihr System- oder Gruppenadministrator den Planungsbereich zu Ihrem Hauptmenü hinzugefügt hat. Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+Um die Adobe Planning zu finden, stellen Sie sicher, dass Ihr Unternehmen Zugriff auf die Workfront-Planung hat und dass Ihr System- oder Gruppenadministrator den Planungsbereich zu Ihrem Hauptmenü hinzugefügt hat. Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
 So suchen Sie die Workfront-Planung:
 

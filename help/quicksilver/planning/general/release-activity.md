@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '7484'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 ><span class="preview">In diesem Artikel werden die Funktionen aufgelistet, die in der Anfangsphase der Workfront-Planung 2024 vor der allgemeinen Verfügbarkeit am 28. August 2024 veröffentlicht wurden.</span>
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, ein neues Angebot von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf die Adobe Workfront-Planung, eine zusätzliche Funktion von Adobe Workfront.
 >
 >Zusätzlich zu einem Workfront-Plan müssen Sie einen Workfront-Planungsplan erwerben, um auf Workfront-Planungsfunktionen zugreifen und diese verwenden zu können.
 >

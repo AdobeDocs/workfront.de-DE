@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 3%
+source-wordcount: '1236'
+ht-degree: 2%
 
 ---
 
@@ -165,18 +165,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    >   Der Feldtyp jedes Felds wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben.
    >   
    >
-   >   Die nachstehende Tabelle zeigt die Namen der Feldtypen in der Tabellenansicht und die Namen der gleichen Felder im Anfrageformular des Datensatztyps. Die Formate der einzelnen Felder stimmen zwischen der Tabellenansicht und dem Anfrageformular überein.
-   >
-   >   | Workfront-Planungstyp | Formularfeldtyp anfordern |
-   >   |-------------------------------|-------------------------|
-   >   | Einzeiliger Text | Einzeiliger Text |
-   >   | Absatz | Absatz |
-   >   | Währung, Zahl, Prozentsatz | Einzelzeilentext (die Formate dieser Felder bleiben Währung, Zahl und Prozentsatz) |
-   >   | Einzelauswahl | Einzelauswahl |
-   >   | Mehrfachauswahl | Mehrfachauswahl |
-   >   | Kontrollkästchen | Kontrollkästchen |
-   >   | Datum | Datum |
-   >
+   >   Die Felder Währung, Zahl und Prozentsatz werden als einzeiliger Textfeldtyp angezeigt. Das Feldformat wird jedoch beibehalten und die Werte in diesen Feldern werden als Währungs-, Zahlungs- und Prozentwerte angezeigt.
 
 1. (Optional) Klicken Sie auf die Registerkarte **Inhaltselemente** auf der linken Seite des Formulars und fügen Sie eines der folgenden Elemente hinzu:
 

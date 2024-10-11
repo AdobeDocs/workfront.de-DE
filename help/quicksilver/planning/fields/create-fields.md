@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3611'
 ht-degree: 2%
 
 ---
@@ -277,8 +277,8 @@ Sie können ein Mehrfachauswahlfeld verwenden, um zusätzliche Informationen in 
 1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
-   * **Auswahlmöglichkeiten**: Die Optionen, die nach dem Speichern des Felds aus dem Dropdownmenü ausgewählt werden können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Wahl haben.
-1. Klicken Sie auf **Auswahl hinzufügen** , um so viele Auswahlmöglichkeiten wie nötig hinzuzufügen. Es gibt keine Beschränkung dafür, wie viele Auswahlmöglichkeiten Sie einem Mehrfachauswahlfeld hinzufügen können.
+   * **Auswahlmöglichkeiten**: Die Optionen, die Benutzer beim Aktualisieren dieses Felds auswählen können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Wahl verwenden.
+1. Klicken Sie auf **Auswahl hinzufügen** , um weitere Auswahlmöglichkeiten hinzuzufügen. Es gibt keine Beschränkung dafür, wie viele Auswahlmöglichkeiten Sie einem Mehrfachauswahlfeld hinzufügen können.
 1. (Optional) Ziehen Sie die einzelnen Auswahlmöglichkeiten manuell in die gewünschte Reihenfolge oder wählen Sie die
    **Sortieren Sie die Optionen A-Z** , wenn die Auswahl automatisch in alphabetischer Reihenfolge aufgeführt werden soll. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) Um eine Auswahl zu entfernen, klicken Sie auf das Symbol **x** rechts davon.
@@ -301,7 +301,7 @@ Felder mit einmaliger Auswahl erfassen zusätzliche Informationen in einem belie
    * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
    * **Auswahlmöglichkeiten**: Die Optionen, die nach dem Speichern des Felds aus dem Dropdownmenü ausgewählt werden können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Wahl haben.
 
-1. Klicken Sie auf **Auswahl hinzufügen** , um so viele Auswahlmöglichkeiten wie nötig hinzuzufügen. Es gibt keine Beschränkung dafür, wie viele Auswahlmöglichkeiten Sie einem Feld mit Einzelauswahl hinzufügen können.
+1. Klicken Sie auf **Auswahl hinzufügen** , um weitere Auswahlmöglichkeiten hinzuzufügen. Es gibt keine Beschränkung dafür, wie viele Auswahlmöglichkeiten Sie einem Feld mit Einzelauswahl hinzufügen können.
 1. (Optional) Ziehen Sie jede Auswahl manuell in die gewünschte Reihenfolge oder wählen Sie die Option **Sortieroptionen A-Z** aus, wenn die Auswahlmöglichkeiten automatisch in alphabetischer Reihenfolge aufgeführt werden sollen. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) Um eine Auswahl zu entfernen, klicken Sie auf das Symbol **x** rechts davon.
 1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
@@ -450,7 +450,10 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Es ist nicht möglich, Felder vom Typ Mehrfachauswahl in einer Formel hinzuzufügen.
    >
-   >* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise ein Formelfeld für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie das Budget des Projekts in der für den Aktivitäts-Record-Typ erstellten Formel referenzieren.
+   >* Sie können ein Feld referenzieren, das bis zu 4 Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise ein Formelfeld für einen Aktivitäts-Record-Typ (1) erstellen und die Aktivität mit dem Campaign-Record-Typ (2) verbunden ist, der mit einem Workfront-Projekt (3) verbunden ist, können Sie das Feld Budget (4) des Projekts in der für den Aktivitäts-Record-Typ erstellten Formel referenzieren.
+   >
+   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >
 
 1. Wählen Sie im Feld **Format** aus den folgenden Optionen aus, um das Format des Ergebnisses anzugeben, das im Feld Formeltyp angezeigt wird:
 
@@ -604,7 +607,7 @@ Sie können den Feldtyp Letzte Änderung des Datums verwenden, um das Datum hinz
 
 Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Datensatztypen oder einen Datensatztyp und einen Objekttyp aus anderen Anwendungen hinzufügen.
 
-Informationen zum Verbinden von Workfront-Planungs-Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+Informationen zum Verbinden von Workfront-Planungs-Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--## Create fields by importing record types using an Excel or CSV file
 

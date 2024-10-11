@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '591'
 ht-degree: 7%
 
 ---
@@ -175,7 +175,7 @@ OLD:
 
 ## Unterstützte Formeln
 
-Die Planungsformel-Felder von Adobe Workfront unterstützen alle Ausdrücke aus den berechneten Feldern von Workfront. Weitere Informationen finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Die Planungsformel-Felder von Adobe Workfront unterstützen alle Ausdrücke aus den berechneten Feldern von Workfront. Eine Liste der Workfront-Ausdrücke finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Darüber hinaus unterstützen wir die folgenden Ausdrücke für die Felder der Workfront-Planungsformel:
 
