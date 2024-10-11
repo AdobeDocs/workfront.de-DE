@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Weitere Informationen zum Zurücksetzen eines Umgebungs-Promotion-Pakets finden 
 
 >[!NOTE]
 >
->Vorschau-Version: ~~12. August 2024~~; Produktion für schnelle Veröffentlichung: nicht verfügbar; Produktion für die vierteljährliche Veröffentlichung: nicht verfügbar
+>~~Vorschau-Version: 12. August 2024~~; Produktion für schnelle Veröffentlichung: nicht verfügbar; Produktion für die vierteljährliche Veröffentlichung: nicht verfügbar
 >
 >_Diese Funktion wurde aus der Vorschau entfernt und wird bei zukünftigen Versionen nicht mehr veröffentlicht._
 

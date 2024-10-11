@@ -4,9 +4,9 @@ description: Verbesserungen für das vierte Quartal 2024 - Startseite
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Version vom 4. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2024 verfügbar sind, finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Aktualisierungen des Widgets &quot;Auf meine Genehmigung warten&quot;in der neuen Startseite
+
+>[!NOTE]
+>
+>Vorschau-Version: 10. Oktober 2024; Produktionsversion für alle Kunden: 10. Oktober 2024.
+
+Wir haben die folgenden Änderungen am Widget Erwartung meiner Genehmigung vorgenommen:
+
+* **Das Widget wurde umbenannt**: Der Name dieses Widgets lautet jetzt Meine Genehmigungen .
+* **Hinzugefügte Genehmigungen, die ich als Filteroption gesendet habe**: Sie können jetzt mit diesem Widget auf der neuen Startseite gesendete Genehmigungen anzeigen.
+
+Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Vereinfachung der Workfront-Erfahrung für Aufgabeneigentümer mit Prioritäten
 
