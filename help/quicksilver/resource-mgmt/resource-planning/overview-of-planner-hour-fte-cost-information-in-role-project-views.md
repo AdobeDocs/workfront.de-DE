@@ -7,7 +7,7 @@ description: Übersicht über Stunden, FTE und Kosteninformationen in den Projek
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%
@@ -329,7 +329,7 @@ Diese Option wird nur angewendet, wenn Sie die Ansicht im Abschnitt Ausgewählte
 
 >[!NOTE]
 >
->**Wenn die NET Hours, FTE oder Kosten rot angezeigt werden, ist nicht genügend Zeit oder Budget verfügbar, um entweder den Budgetierten** oder die geplante Zeit oder Kosten im Zusammenhang mit der Arbeit abzudecken. In diesem Fall werden die Ressourcen überverteilt.
+>Wenn die NET-Stunden-, FTE- oder Kostenangaben rot angezeigt werden, reicht die verfügbare Zeit oder das Budget nicht aus, um die mit der Arbeit verbundene geplante Zeit oder Kosten zu decken. In diesem Fall werden die Ressourcen überverteilt.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

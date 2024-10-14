@@ -6,7 +6,7 @@ description: Sie können den Lastenausgleich für andere Benutzer freigeben, fü
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 1%
@@ -136,4 +136,4 @@ Sie benötigen den folgenden Zugriff, um Informationen über einen freigegebenen
 
      >[!IMPORTANT]
      >
-     >Wenn Sie den Lastenausgleich zum benutzerdefinierten Abschnitt eines Objekts hinzufügen, werden die Informationen im Arbeitslastausgleich nicht durch das -Objekt gefiltert. Der Lastenausgleich zeigt die Informationen an, die nach den ursprünglich angewendeten Filtern gefiltert wurden.
+     >Wenn Sie den Lastenausgleich zum benutzerdefinierten Abschnitt eines Objekts hinzufügen, werden die Informationen im Arbeitslastausgleich nicht durch das -Objekt gefiltert. Der Lastenausgleich zeigt die Informationen an, die nach den ursprünglich angewendeten Filtern gefiltert wurden.

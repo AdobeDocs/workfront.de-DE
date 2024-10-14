@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3856'
+source-wordcount: '3830'
 ht-degree: 0%
 
 ---
@@ -335,10 +335,8 @@ So entfernen Sie ein manuell hinzugefügtes Element aus dem Timesheet:
 
 Sie können projektspezifische Zeit auf der Startseite protokollieren.
 
-Allgemeine Informationen zur Verwendung des Startbereichs finden Sie in den folgenden Abschnitten:
+Allgemeine Informationen zur Verwendung des Startbereichs finden Sie unter [Verwenden des Startbereichs](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-* Weitere Informationen zur Verwendung des veralteten Home-Bereichs finden Sie unter [Verwenden des Home-Bereichs](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Informationen zur Verwendung des neuen Startbereichs finden Sie unter [Erste Schritte mit der neuen Startseite](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Protokollierung der Zeit eines Arbeitselements aus dem neuen Startbereich
 

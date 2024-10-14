@@ -7,9 +7,9 @@ description: Auf die Kommentarzusammenfassung kann in Workfront Proof zugegriffe
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ Die Zusammenfassung der Kommentare ist direkt in den folgenden Bereichen abrufba
 
 ### Testversand-Viewer {#the-proof-viewer}
 
-Sie können die Kommentarzusammenfassung des Testversands, einschließlich der Miniaturansichten oder des Vollbildbilds des Testversands, drucken, indem Sie auf das Symbol **[!UICONTROL Drucken]** im Proof Viewer klicken. Absatz 1
+Sie können die Kommentarzusammenfassung des Testversands, einschließlich der Miniaturansichten oder des Vollbildbilds des Testversands, drucken, indem Sie auf das Symbol **[!UICONTROL Drucken]** im Proof Viewer klicken.
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### Die Seite mit den Testdetails {#the-proof-details-page}
 
-Sie können die Kommentarzusammenfassung des Testversands drucken, indem Sie auf der Seite mit den Testversanddetails auf das Symbol **[!UICONTROL Drucken]** klicken. Absatz 2
+Sie können die Kommentarzusammenfassung des Testversands drucken, indem Sie auf der Seite mit den Testversanddetails auf das Symbol **[!UICONTROL Drucken]** klicken.
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
@@ -46,17 +46,18 @@ Sie können die Kommentarzusammenfassung des Testversands drucken, indem Sie im 
 
 So greifen Sie über eine Listenansicht auf die Seite [!UICONTROL Kommentar-Zusammenfassung] zu:
 
-1. Klicken Sie auf das Menü **[!UICONTROL Aktionen]** . Absatz 3
-1. Wählen Sie **[!UICONTROL Kommentare drucken]** aus. Absatz 4
+1. Klicken Sie auf das Menü **[!UICONTROL Aktionen]** .
+1. Wählen Sie **[!UICONTROL Kommentare drucken]** aus.
 
-![List_view.png](assets/list-view-350x155.png)\
-Auf der Übersichtsseite Kommentare haben Sie die folgenden Druckoptionen zur Auswahl:
+   ![List_view.png](assets/list-view-350x155.png)
 
-* Miniaturansicht (1)
-* Vollständige Seitenansicht (2)
-* Seite drucken (3)
-* Testversand mit Kommentaren in eine PDF-Datei exportieren (4)
-* Exportieren Sie die Testversand-Kommentare in eine [!DNL Excel]-Datei (5)
+   Auf der Übersichtsseite Kommentare haben Sie die folgenden Druckoptionen zur Auswahl:
+
+   * Miniaturansicht (1)
+   * Vollständige Seitenansicht (2)
+   * Seite drucken (3)
+   * Testversand mit Kommentaren in eine PDF-Datei exportieren (4)
+   * Exportieren Sie die Testversand-Kommentare in eine [!DNL Excel]-Datei (5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -89,7 +90,8 @@ So laden Sie die [!DNL Excel] -Zusammenfassung herunter:
 So laden Sie die [!DNL Excel] -Zusammenfassung von der Seite mit den Testversanddetails herunter:
 
 1. Klicken Sie auf das Symbol Exportieren in **[!DNL Excel]** . Absatz 2
-1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+
+   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## Exportieren nach PDF
 
