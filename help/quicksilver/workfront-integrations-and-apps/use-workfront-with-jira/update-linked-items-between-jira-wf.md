@@ -6,9 +6,9 @@ description: Wenn Sie [!DNL Jira] Probleme mit [!DNL Adobe Workfront] Aufgaben o
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Die folgende Liste zeigt, welche [!DNL Workfront] -Felder mit [!DNL Jira] -Felde
   </tr> 
   <tr> 
    <td>[!UICONTROL Kommentare]</td> 
-   <td> <p>Der Kommentar wird der Registerkarte <strong>[!DNL Workfront]</strong> des [!DNL Jira]-Problems hinzugefügt. Sie wird nicht zur Registerkarte <strong>[!UICONTROL Kommentare]</strong> des [!DNL Jira]-Problems hinzugefügt.</p> <p>Hinweis: Wenn Sie zwei vorhandene Elemente manuell verknüpfen, werden die Kommentare, die zum Element [!DNL Workfront] hinzugefügt wurden, bevor Sie es mit [!DNL Jira] verknüpfen, nicht mit dem Problem [!DNL Jira] synchronisiert. </p> </td> 
+   <td> <p>Der Kommentar wird der Registerkarte <strong>[!DNL Workfront]</strong> des [!DNL Jira]-Problems hinzugefügt. Sie wird nicht zur Registerkarte <strong>[!UICONTROL Kommentare]</strong> des [!DNL Jira]-Problems hinzugefügt.</p> <p>Hinweis: Wenn Sie zwei vorhandene Elemente manuell verknüpfen, werden die Kommentare, die zum Element [!DNL Workfront] hinzugefügt wurden, bevor Sie es mit [!DNL Jira] verknüpfen, nicht mit dem Problem [!DNL Jira] synchronisiert. </p> <p>Jira-Kommentare werden mit Workfront synchronisiert.</td> 
   </tr> 
  </tbody> 
 </table>

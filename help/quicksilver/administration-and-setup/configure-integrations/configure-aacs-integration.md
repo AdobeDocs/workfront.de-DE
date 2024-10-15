@@ -6,9 +6,9 @@ description: Sie können Ihre Arbeit mit Ihrem Inhalt in [!DNL Experience Manage
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -242,9 +242,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Einrichten von Workflows (optional)
 
-Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Experience Manager as a Cloud Service verbinden. Als Workfront-Administrator können Sie Workflows in Workfront konfigurieren und sie dann Projektvorlagen zuweisen. Wenn ein Projekt mit einer Projektvorlage erstellt wird, der ein Workflow zugewiesen ist, werden die im Workflow definierten Aktionen ausgelöst.
+Ein Workflow besteht aus einer Reihe von Aktionen, die Workfront mit Adobe Experience Manager as a Cloud Service verbinden. Als Workfront-Administrator können Sie Workflows in Workfront konfigurieren und sie dann Projektvorlagen zuweisen.
 
-Workflows sind für die Adobe Experience Manager als Ganzes aktiviert und konfiguriert. Diese Workflows können dann auf Projektvorlagen angewendet und auf Vorlagen- oder Projektebene angepasst oder angepasst werden.
+Wenn ein Projekt mit einer Projektvorlage erstellt wird, der ein Workflow zugewiesen ist, werden die im Workflow definierten Aktionen ausgelöst.
+
+Workflows sind für die Adobe Experience Manager als Ganzes aktiviert und konfiguriert. Diese Workflows können dann auf Projektvorlagen angewendet werden. Sie können auf Vorlagenebene oder auf Projektebene angepasst oder angepasst werden, wenn ein Projekt aus dieser Vorlage erstellt wird.
 
 Die folgenden Workflows sind in der Adobe Experience Manager-Integration verfügbar:
 
