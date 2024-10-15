@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 55a4fda46f6d314c71d9ef98864b21b84f946b09
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,28 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einem [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion] -Lizenz.
 
 Wenn Ihre Firewall- oder Mailserver so konfiguriert ist, dass nur bestimmte Anbieter Zugriff haben, müssen Sie bestimmte IP-Adressen zu ihrer Zulassungsliste hinzufügen, um eine offene Kommunikation zwischen Ihrer Umgebung und [!DNL Adobe Workfront Fusion] zu ermöglichen.
+
+## Datenzentrum identifizieren
+
+Die IP-Adressen variieren je nachdem, wo Ihre Daten gespeichert sind.
+
+Wenn Sie über eine URL auf Fusion zugreifen, können Sie die URL untersuchen, um Ihr Datenzentrum zu finden.
+
+| URL | Rechenzentrum |
+| --- | --- |
+| `https://app.workfrontfusion.com/` | US-Rechenzentrum |
+| `https://app-eu.workfrontfusion.com/` | EU-Rechenzentrum |
+| `https://app-az.workfrontfusion.com/` | Azure-Rechenzentrum |
+
+Wenn Sie über experience.adobe.com auf Fusion zugreifen, können Sie auf der Registerkarte &quot;Netzwerk&quot;in Ihrem Browser das Rechenzentrum identifizieren.
+
+| URL | Rechenzentrum |
+| --- | --- |
+| Aufrufe von `https://fusion.adobe.com` | US-Rechenzentrum |
+| Aufrufe von `https://eu.fusion.adobe.com` | EU-Rechenzentrum |
+| Aufrufe von `https://az.fusion.adobe.com` | Azure-Rechenzentrum |
+
+## IP-Adressen für Workfront Fusion
 
 Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um [!DNL Workfront Fusion] für den Zugriff auf Ihr System zu aktivieren.
 
