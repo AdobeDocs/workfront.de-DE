@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -109,7 +109,7 @@ So exportieren Sie eine Kick-Start-Vorlage:
       <td scope="col"> <p>Parameter</p> <p>Beschreibender Text</p><p>Parameteroption</p> <p>Parametergruppe</p> <p>Kategorieparameter</p> <p>Kategorie</p> <p>Bericht</p> <p>Portal-Registerkarten-Abschnitt</p> <p>Dashboard</p> <p>Einstellungen</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Bericht</p> <p>Alle Berichte im System können exportiert werden. Sie können bis zu 100 spezifische Berichte in einem Export auswählen.</p> <p>Kick-Starts unterstützt keine Textmodus-Filter. Für einen erfolgreichen Export müssen die Berichtsfilter in den Standardmodus umgestellt werden.</p> </td> 
+      <td scope="col"> <p>Bericht</p> <p>Alle Berichte im System können exportiert werden. Sie können bis zu 100 spezifische Berichte in einem Export auswählen.</p> <p>Kick-Starts unterstützt keine Textmodus-Filter oder -Gruppierungen. Für einen erfolgreichen Export müssen die Berichtsfilter und Gruppierungen in den Standardmodus umgestellt werden.</p> </td> 
       <td scope="col">Exportiert als ZIP-Datei </td> 
       <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Beschreibender Text</p> <p scope="col">Parameteroption</p> <p scope="col">Parametergruppe</p> <p scope="col">Kategorieparameter</p> <p scope="col">Kategorie</p> <p scope="col">Bericht</p> <p scope="col">Einstellungen</p> </td> 
      </tr> 

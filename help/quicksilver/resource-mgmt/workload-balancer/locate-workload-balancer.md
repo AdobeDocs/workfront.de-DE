@@ -7,9 +7,9 @@ description: Sie können den Lastenausgleich verwenden, um Ressourcen für die A
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -104,16 +104,16 @@ Die Seite Ihres Startseiten-Teams wird angezeigt.
 
 1. Klicken Sie im linken Bereich auf **Lastenausgleich** .
 
-![](assets/nwe-balancer-team-350x172.png)
+   ![](assets/nwe-balancer-team-350x172.png)
 
-Der Lastenausgleich eines Teams zeigt standardmäßig die folgenden Informationen an:
+   Der Lastenausgleich eines Teams zeigt standardmäßig die folgenden Informationen an:
 
-* **Nicht zugewiesene Arbeit**: Dem Team zugewiesene Elemente, die Benutzern nicht zugewiesen sind.
-* **Zugewiesene Arbeit**: Alle Mitglieder des Teams mit allen ihren Zuweisungen.
+   * **Nicht zugewiesene Arbeit**: Dem Team zugewiesene Elemente, die Benutzern nicht zugewiesen sind.
+   * **Zugewiesene Arbeit**: Alle Mitglieder des Teams mit allen ihren Zuweisungen.
 
-  >[!TIP]
-  >
-  >Team-Mitglieder können Aufgaben zugewiesen werden, die auch dem Team zugewiesen sind, oder anderen Teams oder Rollen zugewiesen werden.
+     >[!TIP]
+     >
+     >Team-Mitglieder können Aufgaben zugewiesen werden, die auch dem Team zugewiesen sind, oder anderen Teams oder Rollen zugewiesen werden.
 
 ### Zugriff auf den Lastenausgleich für ein Projekt
 
