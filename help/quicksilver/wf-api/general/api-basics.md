@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4419'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,11 @@ Jedes Objekt im System erhält einen eindeutigen URI, der aus dem Objekttyp und 
 
 Beim Objekttyp wird nicht zwischen Groß- und Kleinschreibung unterschieden. Hierbei kann es sich entweder um den abgekürzten ObjCode (z. B. proj) oder den alternativen Objektnamen (project) handeln.
 
-Eine Liste der gültigen ObjCodes finden Sie unter  [API-Explorer](../../wf-api/general/api-explorer.md).
+Eine Liste der Objekte, gültigen ObjCodes und Objektfelder finden Sie unter  [API-Explorer](../../wf-api/general/api-explorer.md).
+
+>[!NOTE]
+>
+>Im Kontext der Workfront-API ist ein benutzerdefiniertes Formular ein `Category` -Objekt und ein benutzerdefiniertes Feld ein `Parameter` -Objekt.
 
 ### Vorgänge
 

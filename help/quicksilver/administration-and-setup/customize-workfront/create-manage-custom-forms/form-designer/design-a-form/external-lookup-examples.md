@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Ein externes Suchfeld in einem benutzerdefinierten Formular ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen.
 
-Dieser Artikel enthält Beispiele für die Verwendung des externen Suchfelds, um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen. Sie können auch die externe Suche verwenden, um mit einem externen System wie Jira, Salesforce oder ServiceNow zu kommunizieren.
+Dieser Artikel enthält Beispiele für die Verwendung des externen Suchfelds, um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen. Sie können die externe Suche auch verwenden, um mit einem externen System wie Jira, Salesforce oder ServiceNow zu kommunizieren.
 
 Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular und zusätzliche Definitionen der externen Lookup-Komponenten finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -35,10 +35,10 @@ In diesem Beispiel wird gezeigt, wie die Workfront-API aufgerufen und Daten aus 
 1. Suchen Sie auf der linken Seite des Bildschirms nach **Externer Suchvorgang** und ziehen Sie ihn in einen Bereich auf der Arbeitsfläche.
 1. Geben Sie den **Titel** und den **Namen** für das Feld ein.
 1. Wählen Sie das **Format** für das Feld aus.
-1. Geben Sie den API-URL-Aufruf im Feld **Basis-API-URL** ein.
+1. Geben Sie den API-Aufruf im Feld **Basis-API-URL** ein.
 
-   * Sie können $$HOST hinzufügen, um auf dieselbe Instanz zu verweisen.
-   * Sie können $$QUERY hinzufügen, um die Ergebnisse anhand der Abfrage eines anderen Felds zu filtern.
+   * Verwenden Sie $$HOST für die URL, um auf dieselbe Instanz von Workfront zu verweisen, in der sich das benutzerdefinierte Formular befindet.
+   * Um die Ergebnisse anhand der Abfrage eines anderen Felds zu filtern, fügen Sie $$QUERY hinzu.
 
    **Beispiel**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
