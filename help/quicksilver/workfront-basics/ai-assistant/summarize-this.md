@@ -5,7 +5,7 @@ description: Mithilfe der Funktion Diese Funktion zusammenfassen können Sie Arb
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -73,10 +73,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 In den folgenden Bereichen finden Sie Schaltflächen, mit denen mithilfe des AI-Assistenten Zusammenfassungen generiert werden:
 
-* Projektheader: Projektzusammenfassung
-* Aktualisierungsbereich: Inhalt zusammenfassen
+* Projektüberschrift: Projekt zusammenfassen
+* Aktualisierungsbereich: Kommentare zusammenfassen
 
-So verwenden Sie die Schaltfläche Projektzusammenfassung oder Inhalt zusammenfassen :
+So verwenden Sie die Schaltfläche Projekt zusammenfassen oder Kommentare zusammenfassen :
 
 1. Klicken Sie auf die Schaltfläche .
 
