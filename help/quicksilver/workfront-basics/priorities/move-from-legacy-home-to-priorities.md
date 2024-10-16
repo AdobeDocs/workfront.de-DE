@@ -5,9 +5,9 @@ description: Die alte Startseite wird am 17.10.17 mit der Version Q4 aus Workfro
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ In der Tabellenansicht &quot;Prioritäten&quot;werden die Ihnen oder Ihrem Team 
 
 | **Filter** | **Grouping** |
 |------------|-----------|
-| - Arbeiten an <br> - Bereit zum Starten <br> - Nicht bereit <br> - Angefordert <br> - Fertig <br> - Projekt <br> - Fälligkeitsdatum <br> - Status | - None <br> - Week fällig <br> - Status <br> - Projekt |
+| - Arbeiten an <br> - Bereit zum Starten <br> - Nicht bereit <br> - Angefordert <br> - Fertig <br> - Projekt <br> - Fälligkeitsdatum <br> - Status <br> - Mein Fokus | - None <br> - My Focus <br> - Week fällig <br> - Status <br> - Projekt |
 
 
 **In Prioritäten nicht verfügbare Filter und Gruppierungsoptionen für die alte Startseite**
