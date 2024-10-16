@@ -6,9 +6,9 @@ description: Ressourcen-Pools sind Sammlungen von Benutzern, mit denen Sie Resso
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '575'
 ht-degree: 2%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 2%
 >id="wf_resource_pools"
 >title="Ressourcenpools"
 >abstract="Ein Ressourcen-Pool ist eine Sammlung von Benutzern, die gleichzeitig für die Fertigstellung eines Projekts benötigt werden. Nachdem Sie einen Ressourcen-Pool erstellt haben, können Sie ihn mit Projekten und Vorlagen verknüpfen."
-
-{{preview-and-fast-release-Q424}}
 
 Ressourcen-Pools sind Sammlungen von Benutzern, mit denen Sie Ressourcen in Adobe Workfront einfacher verwalten können. Weitere Informationen zu Ressourcen-Pools finden Sie unter [Überblick über Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
@@ -66,14 +64,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 {{step1-to-resourcing}}
 
 1. Klicken Sie im linken Bereich auf **Ressourcenpools** .
-
-   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
-   <span class="preview">![Ressourcenpools](assets/list-of-resource-pools.png)</span>
-
-   Beispielbild in der Produktionsumgebung:
-   ![Ressourcenpools](assets/resource-pools-tab-350x198.png)
-
 1. Klicken Sie auf **New Resource Pool**.
+
+   ![Ressourcenpools](assets/list-of-resource-pools.png)
+
 1. Geben Sie Folgendes an:
 
    <table style="table-layout:auto">
@@ -108,11 +102,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Es gibt keine Beschränkung dafür, wie viele Benutzer Sie in einem Ressourcen-Pool haben können. Es wird jedoch empfohlen, nicht zu viele Benutzer zu einem Ressourcen-Pool hinzuzufügen, da das Ressourcen-Management andernfalls zu einer Herausforderung werden könnte. Die Liste der Benutzer zeigt nur die ersten 2.000 Benutzer im Ressourcen-Pool an und sie werden alphabetisch aufgelistet.
 
-   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
-   <span class="preview">![Benutzer, die zum Ressourcen-Pool hinzugefügt wurden](assets/users-in-resource-pool2.png)</span>
-
-   Beispielbild in der Produktionsumgebung:
-   ![Benutzer, die zum Ressourcen-Pool hinzugefügt wurden](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   ![Benutzer, die zum Ressourcen-Pool hinzugefügt wurden](assets/users-in-resource-pool2.png)
 
 1. (Optional) Klicken Sie auf das X-Symbol rechts neben dem Namen eines Benutzers, um einen Benutzer zu entfernen. Weitere Informationen zum Entfernen von Benutzern aus einem Ressourcen-Pool finden Sie unter [Entfernen von Benutzern aus Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
 1. (Optional) Verwenden Sie die Option **Suchen** , um einen Benutzer im Ressourcen-Pool zu finden.

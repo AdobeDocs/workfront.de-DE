@@ -1,21 +1,19 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: Benutzer aus Ressourcen-Pools entfernen
+title: Entfernen von Benutzern aus Ressourcen-Pools
 description: Es gibt zwar keine Beschränkung dafür, wie viele Benutzer Sie in einem Ressourcenpool haben können, aber die Liste der Benutzer zeigt nur die ersten 2000 Benutzer an, die alphabetisch aufgelistet sind.
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
 
 # Benutzer aus Ressourcen-Pools entfernen
-
-{{preview-and-fast-release-Q424}}
 
 Es gibt zwar keine Beschränkung dafür, wie viele Benutzer Sie in einem Ressourcenpool haben können, aber die Liste der Benutzer zeigt nur die ersten 2000 Benutzer an, die alphabetisch aufgelistet sind.
 
@@ -73,15 +71,10 @@ Oder\
    Oder\
    Beginnen Sie mit der Eingabe des Namens eines Unternehmens, einer Rolle im Job, eines Teams oder einer Gruppe, wenn Sie alle mit diesen Entitäten verknüpften Benutzer entfernen möchten.
 
-   <span class="preview">Beispielbild in der Vorschauumgebung:<span>
-
    ![Entfernen von Benutzern aus Resource Pool](assets/remove-users-from-resource-pool.png)
 
-   Beispielbild in der Produktionsumgebung:
-   ![Suchen im Ressourcen-Pool](assets/search-inside-new-resource-pool-350x314.png)
-
-1. Klicken Sie auf das Symbol &quot;x&quot;auf Benutzerebene, um einen Benutzer aus dem Ressourcen-Pool zu entfernen. Sie werden aus allen Listen entfernt, in denen sie angezeigt werden.\
-   Oder\
-   Um alle Benutzer zu entfernen, die mit einer Auftragsrolle, Gruppe, Gruppe oder Firma verbunden sind, klicken Sie auf der Auftrags-, Gruppen-, Team- oder Unternehmensebene auf **Entfernen** . Dadurch werden alle mit dieser Auftragsrolle, Gruppe, Gruppe oder Firma verknüpften Benutzer aus dem Ressourcen-Pool entfernt.
+1. Klicken Sie auf das X-Symbol auf Benutzerebene, um einen Benutzer aus dem Ressourcen-Pool zu entfernen. Sie werden aus allen Listen entfernt, in denen sie angezeigt werden.
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
 1. Klicken Sie auf **Speichern**.

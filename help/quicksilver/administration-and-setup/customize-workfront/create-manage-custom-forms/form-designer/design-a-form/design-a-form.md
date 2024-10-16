@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
 source-wordcount: '5575'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # Formular mit dem Formularentwickler erstellen
-
-{{highlighted-preview}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 
@@ -92,7 +90,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können beim Entwerfen Ihres benutzerdefinierten Formulars neue oder vorhandene Felder verwenden.
 
-<span class="preview">Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten links zeigt an, wie viele Felder im Formular verwendet werden, und er ist immer sichtbar, wenn Sie im Formularentwickler scrollen.</span>
+Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten links zeigt an, wie viele Felder im Formular verwendet werden, und er ist immer sichtbar, wenn Sie im Formularentwickler scrollen.
 
 ### Vorhandenes Feld oder Widget in einem anderen benutzerdefinierten Formular wiederverwenden
 
