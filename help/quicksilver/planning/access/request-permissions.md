@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich
 
@@ -38,7 +38,7 @@ Informationen zum Gewähren von Berechtigungen für Ansichten und Arbeitsbereich
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 
-Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -131,5 +131,3 @@ Wenn jemand einen Link zu einem Arbeitsbereich oder einer Ansicht ohne Zugriff m
      ![](assets/email-notification-for-access-request.png)
 
 1. (Bedingt) Wenn Ihnen der Ansicht- oder Arbeitsbereichsmanager Berechtigungen für die Ansicht oder den Arbeitsbereich erteilt, erhalten Sie eine E-Mail-Benachrichtigung und eine In-App-Benachrichtigung mit einer Bestätigung, dass die Berechtigung erteilt wurde. <!--check this - I was not able to test this, but Isk confirmed.-->
-
-

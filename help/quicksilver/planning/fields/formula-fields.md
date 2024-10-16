@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '592'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ Weitere Informationen finden Sie im Abschnitt &quot;Formel&quot;im Artikel [Feld
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 
-Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 

@@ -1,14 +1,14 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Zeitblatt zur Genehmigung einreichen
+title: Ein Datenblatt zur Genehmigung einreichen
 description: Durch die Übermittlung Ihres Zeitblatts zur Genehmigung erhalten Sie von Ihrem Manager einen Einblick in Ihre Arbeitszeit. Die Genehmiger können überprüfen, ob die aufgezeichnete Zeit in den richtigen Bereichen zugewiesen wurde und ob eine ausreichende Anzahl von Stunden für den Zeitraum aufgezeichnet wurde.
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Neu: Licht oder höher </p>
    <p>Aktuell: Überprüfen oder höher </p>
   </tr> 
@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ So senden Sie ein Datenblatt zur Genehmigung:
 
    Die Schaltfläche &quot;**Zur Genehmigung übermitteln**&quot; wird durch die Schaltflächen &quot;**Genehmigen**&quot;, &quot;**Ablehnen**&quot;und &quot;**Aufrufen**&quot; ersetzt. Der Status des Zeitblatts ändert sich in **Gesendet**.
 
-   Wenn Ihr Timesheet zur Genehmigung eingereicht wird, wird dem Genehmiger das im Bereich **Genehmigungen** auf der Seite **Startseite** aufgelistete Timesheet angezeigt. Folgendes kann vorkommen:
+   Wenn Ihr Timesheet zur Genehmigung eingereicht wird, wird dem Genehmiger das im Widget **Meine Genehmigungen** im Bereich **Home** aufgelistete Timesheet angezeigt. Folgendes kann vorkommen:
 
    * Wenn sie es genehmigen, ändert sich die Schaltfläche **Recall** in **Re-open** und der Zeitdatenblattstatus wird in **Open** aktualisiert.
    * Wenn sie sie ablehnen, ersetzt die Schaltfläche &quot;**Zur Genehmigung übermitteln**&quot;die Schaltfläche &quot;**Rückruf**&quot;, und der Status des Zeitblatts wird auf &quot;**Abgelehnt**&quot;aktualisiert.

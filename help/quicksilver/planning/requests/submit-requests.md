@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ Informationen dazu, wie ein Workspace-Manager ein Anforderungsformular erstellen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
-Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto">
  <col>
@@ -136,8 +137,3 @@ Bevor Sie eine Anfrage an ein Workfront Planning-Anfrageformular senden können,
 1. Klicken Sie auf **Senden**.
 
    Ihr Formular wird gesendet und dem mit dem Formular verknüpften Datensatztyp wird ein neuer Datensatz hinzugefügt.
-
-
-
-
-

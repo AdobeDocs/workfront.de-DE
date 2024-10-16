@@ -6,9 +6,9 @@ description: Die [!UICONTROL Arbeitsliste] im Bereich [!UICONTROL Startseite] ze
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1840'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Sie können Elemente in der [!UICONTROL Arbeitsliste] filtern, um nur bestimmte 
       <td> 
        <div> 
         <p>Zeigt nur Arbeitselemente an, die Sie einem anderen Benutzer zugewiesen haben.</p> 
-        <p>Weitere Informationen zum Delegieren von Aufgaben finden Sie unter <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Delegieren von Aufgaben und Problemen an einen anderen Benutzer</a>.
+        <p>Weitere Informationen zum Delegieren von Aufgaben finden Sie unter <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Aufgaben und Probleme delegieren</a>.
        </div> </td> 
      </tr> 
      <tr> 

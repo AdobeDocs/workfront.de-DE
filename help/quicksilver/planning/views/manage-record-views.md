@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1407'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ In diesem Artikel werden die folgenden Informationen zu Datensatzansichten besch
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 
-Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 

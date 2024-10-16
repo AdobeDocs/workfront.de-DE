@@ -2,19 +2,21 @@
 product-area: reporting
 keywords: user,delegation,report,delegate,approval
 navigation-topic: create-and-manage-reports
-title: Erstellen eines Berichts zur Benutzerdelegation
+title: Erstellen eines Berichts zur Benutzerdelegierung
 description: Erstellen eines Berichts zur Benutzerdelegation
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 # Erstellen eines Berichts zur Benutzerdelegation
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -39,6 +41,8 @@ Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Genehmi
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -46,12 +50,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Neu: Standard </p>
+   <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
@@ -64,7 +69,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
++++
 
 ## Bericht zur Benutzerdelegierung erstellen
 
@@ -79,14 +85,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    |---|---|
    | **Von Benutzer** | Dies ist der Benutzer, der seine Aufgaben-, Problem- und Projektgenehmigungen an einen anderen Benutzer delegiert. |
    | **An Benutzer** | Dies ist der Benutzer, dem Aufgaben-, Problem- und Projektgenehmigungen zugewiesen wurden. |
-   | **Start** | Dies ist der Beginn der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
-   | **Ende** | Dies ist das Ende der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
+   | **Startdatum** | Dies ist der Beginn der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
+   | **Enddatum** | Dies ist das Ende der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
 
    {style="table-layout:auto"}
 
 1. (Optional) Ändern Sie im ReportBuilder Folgendes:
 
-   * Spalten
+   * Spalten (Ansicht)
    * Gruppierungen
    * Filter
    * Diagramm
@@ -94,7 +100,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Weitere Informationen zu diesen Funktionen finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Nachdem Sie die Erstellung des Berichts abgeschlossen haben, klicken Sie auf **Speichern + Schließen**.
-
-1. Geben Sie einen neuen Namen in das Feld **Berichtsname** ein und klicken Sie dann auf **Bericht speichern**.
 
    Der Bericht wird angezeigt.

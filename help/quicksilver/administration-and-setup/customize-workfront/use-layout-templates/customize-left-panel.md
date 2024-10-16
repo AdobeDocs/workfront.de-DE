@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
 
 # Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage
+
+<!--Audited: 10/2024-->
 
 In einer Layoutvorlage können Sie anpassen, was Benutzer im linken Bedienfeldbereich in [!DNL Adobe Workfront] sehen.
 
@@ -68,26 +70,19 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 ## Anpassen des linken Bereichs für einen Bereich in [!DNL Workfront]:
 
 1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie unter **[!UICONTROL Anpassen, was Benutzer sehen]** auf den Abwärtspfeil ![](assets/dropdown-arrow.png) und klicken Sie dann auf den linken Bereich, den Sie anpassen möchten.
+1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow.png) unter **[!UICONTROL Anpassen, was Benutzer sehen]**, und klicken Sie dann auf den Namen eines Objekttyps oder eines Bereichs [!DNL Workfront] , dessen linker Bereich Sie anpassen möchten.
 
-   >[!NOTE]
-   >
-   >Informationen zur Option [!UICONTROL Home] in dieser Dropdownliste finden Sie unter [Anpassen von [!UICONTROL Home] und [!UICONTROL Zusammenfassung] mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Weitere Informationen zur Option Listen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   Die Objekttypen und [!DNL Workfront] -Bereiche, deren linker Bereich Sie anpassen können, sind in der folgenden Tabelle aufgeführt:
 
-1. Führen Sie in der Liste **[!UICONTROL Linker Bereich]** einen der folgenden Schritte aus, um zu bestimmen, was Benutzer im linken Bereich für die ausgewählte Option ([!DNL Workfront] Bereich oder Objekttyp) sehen:
-
-   * Zeigt ![](assets/add-secondary-nav-item.png) an oder blendet ![](assets/delete-secondary-nav-item.png) Elemente aus. Jedes Element ohne ![](assets/add-secondary-nav-item.png) oder ![](assets/delete-secondary-nav-item.png) kann nicht ausgeblendet werden.
-
-   * Ziehen Sie Elemente ![](assets/move-icon---dots.png) in die Reihenfolge, um sie im linken Bereich zu ändern.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Option</th> 
+      <th>Objekttyp oder Bereich [!DNL Workfront]</th> 
       <th>Wenn Benutzer auf Folgendes klicken..</th> 
-      <th>Sie sehen die Elemente des linken Bedienfelds, die Sie aus den folgenden Optionen auswählen:</th> 
+      <th>Abschnitte im linken Bereich, die Benutzern angezeigt werden, nachdem Sie sie in der Layoutvorlage angezeigt haben:</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -206,24 +201,38 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    *Ihr Unternehmen muss eine zusätzliche Lizenz für Workfront Planning erwerben, um diesen Bereich zum linken Bereich von Projekten, Portfolios und Programmen hinzufügen zu können. Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md)
 
+
+1. Führen Sie in der Liste **[!UICONTROL Linker Bereich]** einen der folgenden Schritte aus, um zu bestimmen, welche Benutzer im linken Bereich für den ausgewählten [!DNL Workfront] -Bereich oder Objekttyp angezeigt werden:
+
+   * Klicken Sie auf die Symbole **Anzeigen** ![](assets/add-secondary-nav-item.png) oder **Ausblenden** ![](assets/delete-secondary-nav-item.png) , um Abschnitte im linken Bereich ein- oder auszublenden. Sie können keine Elemente ausblenden, die kein Symbol **Einblenden** oder **Ausblenden** aufweisen.
+
+   * Ziehen Sie Elemente ![](assets/move-icon---dots.png) in die Reihenfolge, um sie im linken Bereich zu ändern.
+
    >[!NOTE]
    >
-   >Die letzten drei Elemente in der Dropdownliste &quot;**[!UICONTROL Anpassen, was Benutzer sehen]**&quot;([!UICONTROL Listen], [!UICONTROL Startseite und Zusammenfassung] und [!UICONTROL Branding]) dienen zum Konfigurieren von anderen Bereichen als dem linken Bereich. Weitere Informationen finden Sie in diesen Artikeln:
+   >Die folgenden Elemente in der Dropdownliste **[!UICONTROL Anpassen, was Benutzer sehen]** beziehen sich auf andere Bereiche als den linken Bereich:
+   >* [!UICONTROL Listen]
+   >* [!UICONTROL Bedienfeld &quot;Zusammenfassung&quot;]
+   >* [!UICONTROL Startseite]
+   >* [!UICONTROL Branding]
+   > 
+   >Informationen zum Anpassen der zusätzlichen Bereiche finden Sie in den folgenden Artikeln:
    >
    >* [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [Passen Sie [!UICONTROL Home] und [!UICONTROL Summary] mithilfe einer Layoutvorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Passen Sie das Bedienfeld [!UICONTROL Zusammenfassung] mithilfe einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Passen Sie die Startseite mit einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [Adobe markieren [!DNL Workfront] mit einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Optional) Wenn Sie ein Element des linken Bedienfelds hinzufügen möchten, das mit einem der Dashboards Ihres Unternehmens verknüpft ist, klicken Sie auf **[!UICONTROL Benutzerspezifischen Abschnitt hinzufügen]**, geben Sie einen **[!UICONTROL Titel des benutzerdefinierten Abschnitts]** für das Element ein und fügen Sie dann das Dashboard hinzu.
 
-   Dashboard-Elemente werden unten im linken Bereich angezeigt. Benutzer sehen den Titel des von Ihnen eingegebenen benutzerdefinierten Abschnitts neben dem Dashboard-Element, wenn sie den Mauszeiger über das linke Bedienfeld bewegen.
+   Dashboard-Elemente werden unten im linken Bereich angezeigt. Benutzer sehen den Titel des benutzerdefinierten Abschnitts, den Sie neben dem Dashboard-Element eingeben, wenn sie im linken Bereich den Mauszeiger darüber bewegen.
 
    >[!NOTE]
    >
-   >Benutzer können benutzerdefinierte Dashboard-Elemente zu ihrem eigenen linken Bereich hinzufügen. Wenn Sie benutzerdefinierte Dashboard-Elemente zu einer Layoutvorlage hinzufügen, werden Ihre Elemente mit ihren Elementen zusammengeführt, ohne sie zu überschreiben oder zurückzusetzen. Dies gilt auch, wenn Sie Benutzer einer neuen Layoutvorlage mit benutzerdefinierten Dashboard-Elementen zuweisen. Informationen dazu, wie Benutzer das linke Bedienfeld anpassen können, finden Sie unter [Erstellen benutzerdefinierter Registerkarten oder Abschnitte](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
-
-   Weitere Informationen zu Dashboards finden Sie unter [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+   >Benutzer können benutzerdefinierte Dashboard-Elemente zu ihrem eigenen linken Bereich hinzufügen. Wenn Sie benutzerdefinierte Dashboard-Elemente zu einer Layoutvorlage hinzufügen, werden Ihre Elemente zusätzlich zu den von ihnen hinzugefügten Elementen angezeigt, ohne sie zu überschreiben oder zurückzusetzen. Dies gilt auch, wenn Sie Benutzer einer neuen Layoutvorlage mit benutzerdefinierten Dashboard-Elementen zuweisen. Informationen dazu, wie Benutzer das linke Bedienfeld anpassen können, finden Sie unter [Erstellen benutzerdefinierter Registerkarten oder Abschnitte](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >
+   >Weitere Informationen zu Dashboards finden Sie unter [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
 1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
 
@@ -233,4 +242,4 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    >[!TIP]
    >
-   >Sie können jederzeit auf [!UICONTROL Speichern] klicken, um Ihren Fortschritt zu speichern, und die Vorlage dann später weiter ändern.
+   >Sie können jederzeit auf [!UICONTROL **Speichern**] klicken, um Ihren Fortschritt zu speichern, wodurch der Layout-Vorlagen-Editor geschlossen wird, und die Vorlage später weiter ändern.

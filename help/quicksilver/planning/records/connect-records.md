@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2793'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Sie können Folgendes verbinden:
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 
-Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,12 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    <p> Produkte</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront-Planung<p></li></ul></td> 
+   <li><p> Adobe Workfront-Planung<p></li>
+   <li><p>Adobe Experience Manager Assets, wenn Sie AEM Assets mit Planungsdatensätzen verbinden möchten<p>
+   <p>Sie müssen über eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront verfügen.
+    Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
@@ -146,7 +151,7 @@ In den folgenden Bereichen eines Planungsdatensatzes können Sie Datensätze aus
 * Vorschau oder Seite des Datensatzes in den verbundenen Datensatzfeldern auf der Registerkarte Details .
 * Vorschau oder Seite des Datensatzes auf der Registerkarte Verbindungen .
 
-### Verbinden von Adobe Workfront-Planungsdatensätzen über die Tabellenansicht oder die Registerkarte Details der Datensatzseite
+### Verbinden von Adobe Workfront-Planungsdatensätzen über die Tabellenansicht oder den Detailbereich
 
 {{step1-to-planning}}
 
@@ -164,6 +169,11 @@ In den folgenden Bereichen eines Planungsdatensatzes können Sie Datensätze aus
 
    * Klicken Sie in der Liste auf den Namen eines verbundenen Datensatzes, um ihn zum ausgewählten Datensatz hinzuzufügen. Der Datensatz wird automatisch hinzugefügt.
    * Geben Sie den Namen eines Datensatzes ein und klicken Sie darauf, wenn er in der Liste angezeigt wird. Der Datensatz wird automatisch hinzugefügt.
+
+   >[!TIP]
+   >
+   >    Wenn nur das Bild des Datensatzes ausgewählt wurde, um angezeigt zu werden, wenn die Datensatztypen verbunden waren, wird nur die Miniaturansicht oder das Symbol des Datensatzes im verbundenen Feld angezeigt. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 
 1. (Optional) Wenn Sie einen Datensatz oder ein Objekt zum Verbinden nicht finden und ihn hinzufügen möchten, klicken Sie auf **+ Hinzufügen** , um einen neuen Datensatz hinzuzufügen. Weitere Informationen finden Sie im Abschnitt &quot;Erstellen von Datensätzen während der Verbindung mit ihnen&quot;im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 

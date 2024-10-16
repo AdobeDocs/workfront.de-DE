@@ -1,5 +1,5 @@
 ---
-title: Layoutvorlagen
+title: "Layout-Vorlagen: Artikelindex"
 user-type: administrator
 content-type: reference
 product-area: system-administration;templates
@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
@@ -21,22 +21,25 @@ ht-degree: 1%
 
 <!-- Audited: 2/2024 -->
 
-Dieser Abschnitt enthält die folgenden Artikel:
+Als Workfront-Administrator oder Gruppenadministrator können Sie Layoutvorlagen erstellen und ändern, um die Elemente der Adobe anzupassen
+Workfront-Benutzeroberfläche für Ihre Benutzer.
 
-* [Über das standardmäßige Adobe Workfront-Layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-* [Brand Adobe Workfront mit einer Layoutvorlage ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
-* [Hauptmenü mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+In den folgenden Artikeln wird beschrieben, wie Sie die Workfront-Benutzeroberfläche mit Layoutvorlagen anpassen können:
+
+* [Über das standardmäßige Adobe Workfront-Layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
+* [Brand Adobe Workfront mit einer Layoutvorlage ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+* [Hauptmenü mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](../../customize-workfront/use-layout-templates/customize-object-headers.md)
-* [Passen Sie den linken Bereich mithilfe einer Layoutvorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-* [Anpassen der Detailansicht mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-* [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Passen Sie die neue Startseite mit einer Layoutvorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-* [Pinned-Seiten mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-* [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-* [Benutzeroberflächenterminologie mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
-* [Passen Sie die Landingpage mithilfe einer Layoutvorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [Testen einer neuen Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
-* [Gewähren des Administratorzugriffs für eine Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
-* [Benutzer einer Layoutvorlage zuweisen](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
-* [Layout-Vorlage kopieren](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-* [Löschen Sie die klassischen Layoutvorlagen mithilfe eines API-Aufrufs](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+* [Passen Sie den linken Bereich mithilfe einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+* [Anpassen der Detailansicht mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+* [Anpassen des Zusammenfassungsbereichs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [Passen Sie die Startseite mit einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
+* [Pinned-Seiten mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+* [Benutzeroberflächenterminologie mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+* [Passen Sie die Landingpage mithilfe einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+* [Testen einer neuen Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+* [Gewähren des Administratorzugriffs für eine Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
+* [Benutzer einer Layoutvorlage zuweisen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+* [Layout-Vorlage kopieren](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+* [Löschen Sie die klassischen Layoutvorlagen mithilfe eines API-Aufrufs](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)

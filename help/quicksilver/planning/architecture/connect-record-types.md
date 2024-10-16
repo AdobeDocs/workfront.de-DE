@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2248'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Datensatztypen verbinden
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 {{planning-important-intro}}
 
@@ -41,7 +41,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 
-Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,12 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
    <p> Produkte</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront-Planung<p></li></ul></td> 
+   <li><p> Adobe Workfront-Planung<p></li>
+   <li><p> Adobe Experience Manager Assets, wenn Sie AEM Assets mit Datensatztypen verbinden möchten<p>
+   <p>Sie müssen über eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront verfügen.
+    Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p>
+   </li>
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
@@ -185,7 +190,8 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    * Ein anderer Datensatztyp aus dem aktuellen Arbeitsbereich
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
+
      >[!TIP]
      >
      > 
@@ -194,7 +200,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    * Ein Datensatztyp aus einem anderen Arbeitsbereich, der für die Verbindung von anderen Arbeitsbereichen konfiguriert wurde. Weitere Informationen finden Sie unter [Bearbeiten von Datensatztypen](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
      >[!TIP]
      >
@@ -207,7 +213,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
    * **Experience Manager Assets** aus dem Abschnitt **Adobe-Anwendungen**.
 
-     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
+     ![](assets/aem-assets-connection-selection.png)
 
 1. Aktualisieren Sie die folgenden Informationen:
 
@@ -222,7 +228,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
      Diese Option ist nur verfügbar, wenn Datensätze aus zwei verschiedenen Arbeitsbereichen oder einem Datensatz und einem Adobe Experience Manager-Asset-Objekt verbunden werden.
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **Verbindungstyp**: Wählen Sie eine der folgenden Optionen aus, um anzugeben, mit wie vielen Datensätzen sie eine Verbindung herstellen können:
 
@@ -233,7 +239,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
      Diese Option ist nur verfügbar, wenn Datensätze aus demselben Arbeitsbereich, einem Datensatz und einem Workfront-Objekttyp verbunden werden.
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
 
      Weitere Informationen zu Verbindungstypen finden Sie unter [Übersicht über Connected Record Types](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -262,9 +268,9 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 
 1. (Bedingt) Wenn Sie die Verbindung mit Experience Manager Assets oder einem Workfront-Planungs-Datensatztyp hergestellt haben, wählen Sie eine der folgenden Optionen im Bereich **Erscheinungsbild von Datensätzen** aus:
 
-   * <span class="preview">**Name und Bild**: Sowohl der Name als auch die Miniaturansicht oder das Symbol der verbundenen Datensätze werden im Feld des verbundenen Datensatzes angezeigt. Dies ist die Standardoption. </span>
-   * <span class="preview">**Name**: Nur der Name der verbundenen Datensätze wird im Feld des verbundenen Datensatzes angezeigt.</span>
-   * <span class="preview">**Bild**: Nur die Miniaturansicht oder das Symbol der verbundenen Datensätze wird im Feld des verbundenen Datensatzes angezeigt.</span>
+   * **Name und Bild**: Sowohl der Name als auch die Miniaturansicht oder das Symbol der verbundenen Datensätze werden im Feld des verbundenen Datensatzes angezeigt. Dies ist die Standardoption.
+   * **Name**: Nur der Name der verbundenen Datensätze wird im Feld des verbundenen Datensatzes angezeigt.
+   * **Bild**: Nur die Miniaturansicht oder das Symbol der verbundenen Datensätze wird im Feld des verbundenen Datensatzes angezeigt.
 
    Datensätze ohne Miniaturbild zeigen stattdessen das Symbol des Datensatztyps an. Ein Beispiel dafür, wie die verbundenen Datensätze im Bereich **Erscheinungsbild eines Datensatzes** angezeigt werden.
 

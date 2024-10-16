@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '3830'
+source-wordcount: '3650'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: </p>
-   <p>Leicht oder höher, um Stunden für ein Projekt, eine Aufgabe, ein Problem oder allgemeine Stunden auf einem Zeitblatt zu protokollieren</p>
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> <p>Neu: Leicht oder höher, um Stunden für ein Projekt, eine Aufgabe, ein Problem oder allgemeine Stunden auf einem Timesheet zu protokollieren</p>
    <p>Aktuell: 
    <ul><li>Überprüfen oder höher zur Protokollierung der allgemeinen Stunden in einem Zeitblatt</li>
    <li>Arbeiten oder höher zur Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul> </td> 
@@ -64,7 +63,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -338,7 +337,7 @@ Sie können projektspezifische Zeit auf der Startseite protokollieren.
 Allgemeine Informationen zur Verwendung des Startbereichs finden Sie unter [Verwenden des Startbereichs](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 
-#### Protokollierung der Zeit eines Arbeitselements aus dem neuen Startbereich
+<!--#### Log time on a work item from the new Home area-->
 
 Sie können die Zeit für Aufgaben und Probleme in einem der Widgets über das Bedienfeld &quot;Zusammenfassung&quot;im Bereich &quot;Startseite&quot;protokollieren. Weitere Informationen finden Sie im Abschnitt [Zusammenfassungsbereich](#summary-panel) in diesem Artikel.
 
@@ -346,7 +345,7 @@ Außerdem, um die Zeit für ein Element im Widget Meine Arbeit zu protokollieren
 
 1. Wechseln Sie zum Bereich **Home** .
 1. Fügen Sie das Widget **Meine Arbeit** zu Ihrer Startseite hinzu.
-1. (Optional) Wählen Sie eine Aufgabe, ein Problem oder eine Anforderung in einer Liste aus und klicken Sie dann auf **Bearbeiten**
+1. (Optional) Wählen Sie eine Aufgabe, ein Problem oder eine Anforderung in einer Liste aus und klicken Sie dann auf **Bearbeiten**.
 1. Bewegen Sie den Mauszeiger über die Aufgabe oder das Problem, für die Sie die Zeit protokollieren möchten, und klicken Sie dann rechts neben den Aufgabeninformationen auf das Symbol **Protokollzeit** ![](assets/log-time-icon-in-new-home.png) .
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
@@ -355,19 +354,19 @@ Außerdem, um die Zeit für ein Element im Widget Meine Arbeit zu protokollieren
 
    Die protokollierte Zeit wird im Bereich Stunden des Objekts und in Ihrem Zeitblatt angezeigt.
 
-#### Protokollieren der Zeit für ein Arbeitselement aus dem alten Startbereich
+<!--#### Log time on a work item from the legacy Home area
 
-1. Wählen Sie im Bereich **Arbeitsliste** das Element aus, in dem Sie die Zeit protokollieren möchten.
-1. Klicken Sie im rechten Bereich auf **Protokollzeit**.
+1. In the **Work List** area, select the item where you want to log time.
+1. In the right panel, click **Log Time**.  
+  
+   ![](assets/log-time-home-350x181.png)  
 
-   ![](assets/log-time-home-350x181.png)
+1. In the **Enter Hours** drop-down menu, select the appropriate hour type.  
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Specify the time you want to log, then click **Log Time**.
 
-1. Wählen Sie im Dropdownmenü **Stunden eingeben** den entsprechenden Stundentyp aus.\
-   Stündungstypen sind verfügbar, je nachdem, was auf System-, Projekt- und Benutzerebene definiert wurde, wie in [Definieren Sie die Stündentypen und -verfügbarkeit](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) beschrieben.
-1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Einstellung **Manuelles Zuweisen von Vorgangsrollen zu Stundeneinträgen** aktiviert hat, wählen Sie im Dropdownmenü eine Auftragsrolle aus. Die Rolle, die beim Zuweisen zum Arbeitselement angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Konfigurieren von Voreinstellungen für das Zeitblatt und die Stunde](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-1. Geben Sie die Zeit für die Protokollierung an und klicken Sie dann auf **Protokollzeit**.
-
-   Die protokollierte Zeit wird im Bereich Stunden des Objekts und in Ihrem Zeitblatt angezeigt.
+   The logged time displays in the object's Hours section, nad in your timesheet. -->
 
 ### Projekt, Aufgabe oder Problem {#project-task-or-issue}
 

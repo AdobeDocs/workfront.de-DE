@@ -6,9 +6,9 @@ description: Verwenden Sie den Lastenausgleich , um die Verfügbarkeit Ihrer Res
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4067'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ Im Arbeitsbereich &quot;Nicht zugewiesen&quot;werden standardmäßig keine Arbei
 
      >[!TIP]
      >
-     >Wenn Ihr Workfront- oder Gruppenadministrator Delegationen in Ihrer Umgebung aktiviert hat, verwenden Sie die Registerkarte Zuweisungen , um Benutzer der Aufgabe oder dem Problem zuzuweisen. Informationen zum Delegieren von Aufgaben finden Sie unter [Verwalten von Aufgaben und Problemdelegationen](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >Wenn Ihr Workfront- oder Gruppenadministrator Delegationen in Ihrer Umgebung aktiviert hat, verwenden Sie die Registerkarte Zuweisungen , um Benutzer der Aufgabe oder dem Problem zuzuweisen. Informationen zum Delegieren von Aufgaben finden Sie unter [Aufgaben und Probleme delegieren](../../manage-work/delegate-work/how-to-delegate-work.md).
 
    * **Bearbeiten Sie Zuordnungen** und bearbeiten Sie dann die täglichen oder wöchentlichen Zuordnungen für den Benutzer. Informationen zum Verwalten von Benutzerzuordnungen finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../workload-balancer/manage-user-allocations-workload-balancer.md).
 

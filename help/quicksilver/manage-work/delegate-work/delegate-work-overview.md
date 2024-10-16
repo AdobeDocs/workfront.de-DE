@@ -7,9 +7,9 @@ description: Wenn Sie planen, für kurze Zeit abwesend zu sein, können Sie Ihre
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -30,13 +30,18 @@ Sie können die folgenden Objekte in [!DNL Adobe Workfront] zuweisen:
 * Ihnen zugewiesene Probleme
 * Ihnen zugewiesene Projekt-, Aufgaben- oder Problemgenehmigungen.
 
-Dieser Artikel enthält allgemeine Informationen zum Delegieren von Aufgaben und Problemen.
+  >[!TIP]
+  >
+  >   Sie können keine Zeitblatt-, Dokument- oder Testversandgenehmigungen delegieren.
+
+
+Dieser Artikel enthält allgemeine Informationen zum Delegieren von Aufgaben und Problemen, die Ihnen zugewiesen sind.
 
 Informationen zum Delegieren von Projekt-, Aufgaben- und Problemgenehmigungen finden Sie unter [Genehmigungsanfrage delegieren](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 Informationen zum Delegieren von Aufgaben und Problemen finden Sie unter [Aufgaben und Probleme delegieren](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-## Delegieren von Arbeiten - Übersicht
+## Delegieren von Aufgaben und Problemen - Übersicht
 
 Beachten Sie Folgendes, wenn Sie Aufgaben und Probleme delegieren:
 
@@ -62,7 +67,7 @@ Beachten Sie Folgendes, wenn Sie Aufgaben und Probleme delegieren:
 * Wenn Ihnen während der ausgewählten Zeit zusätzliche Aufgaben und Probleme zugewiesen werden, damit Ihre Arbeit anderen Benutzern zugewiesen werden kann, wird die neu zugewiesene Arbeit automatisch an dieselbe Person für den ausgewählten Zeitraum delegiert, wenn die Aufgabe oder das Ausgabedatum innerhalb dieses Zeitrahmens liegt.
 * Derselbe Benutzer kann von mehreren Benutzern als Delegate ausgewählt werden.
 * Delegierte Aufgaben und Probleme werden nicht in den Tools zur Ressourcenverwaltung angezeigt, wie z. B. der [!UICONTROL Lastenausgleich] oder der [!UICONTROL Ressourcenplaner] für die delegierten Benutzer.
-* Sie können delegierte Arbeiten und Delegationsnamen in mehreren Bereichen von [!DNL Workfront] anzeigen. Weitere Informationen finden Sie im Abschnitt &quot;Lokalisieren von delegierten Arbeiten und Delegierungsinformationen&quot;im Artikel [Verwalten von Aufgaben und Problemdelegationen](../delegate-work/how-to-delegate-work.md).
+* Sie können delegierte Arbeiten und Delegationsnamen in mehreren Bereichen von [!DNL Workfront] anzeigen. Weitere Informationen finden Sie im Abschnitt &quot;Lokalisieren von delegierten Arbeiten und Delegierungsinformationen&quot;im Artikel [Delegieren von Aufgaben und Problemen](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]

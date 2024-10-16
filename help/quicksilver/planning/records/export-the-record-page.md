@@ -6,20 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
 # Datensatzdetails exportieren
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Umgebung für alle Kunden oder in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Weitere Informationen zur aktuellen Version finden Sie unter [Überblick über die Version des vierten Quartals 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 
 Um effizienter mit anderen zusammenzuarbeiten, die möglicherweise kein Workfront-Konto haben, können Sie die Details eines Datensatzes in eine Datei exportieren und für diese freigeben.
@@ -28,7 +28,7 @@ Um effizienter mit anderen zusammenzuarbeiten, die möglicherweise kein Workfron
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
 
-Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,7 +156,7 @@ Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 * Sie können die Details eines Datensatzes in die folgenden Dateiformate exportieren:
 
    * .docx Word
-   * <span class="preview">.pdf</span>
+   * .pdf
 
 * Sie können den Tab Details einer Datensatzseite exportieren. Die Registerkarte Verbindungen kann nicht exportiert werden.
 
@@ -184,9 +184,9 @@ Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs w
 1. Klicken Sie entweder in der Vorschau oder auf der Datensatzseite auf das Symbol **Exportieren** ![](assets/export-icon-in-record-details-page.png) und klicken Sie dann auf eine der folgenden Optionen:
 
    * **Microsoft Word**
-   * <span class="preview">**Adobe PDF**</span>
+   * **Adobe PDF**
 
-   Eine Word-Datei (.docx) <span class="preview">oder eine PDF</span>-Datei wird heruntergeladen und auf Ihrem Computer gespeichert.
+   Eine Word-Datei (.docx) oder eine PDF-Datei wird heruntergeladen und auf Ihrem Computer gespeichert.
 
    Der Name der exportierten Datei ist das Primäre Feld des Datensatzes.
 
@@ -194,7 +194,7 @@ Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs w
 
    >[!NOTE]
    >
-   >    Zusätzliche Informationen, die nicht auf der Seite angezeigt werden und nur sichtbar sind, nachdem Sie auf der Registerkarte Details auf Mehr anzeigen geklickt haben, werden nicht in der exportierten PDF angezeigt. In der exportierten Datei werden nur die auf der Seite sichtbaren Informationen angezeigt.
+   >    Zusätzliche Informationen, die nicht auf der Seite angezeigt werden und nur sichtbar sind, nachdem Sie im Bereich mit den Datensatzdetails auf Mehr anzeigen geklickt haben, werden nicht in der exportierten PDF angezeigt. In der exportierten Datei werden nur die auf der Seite sichtbaren Informationen angezeigt.
 
 
 1. (Optional) Gehen Sie zur heruntergeladenen Datei, öffnen Sie sie und bearbeiten Sie sie (falls es sich um eine Word-Datei handelt) oder geben Sie sie für andere frei.

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2110'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Bearbeiten Sie es</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL Zugriff]](#access)
 
@@ -111,7 +111,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL Status von gelösten Problemen automatisch aktualisieren, wenn sich der Status des aufgelösten Objekts ändert]</td> 
-    <td> <p>Wenn ein Problem in ein Projekt oder eine Aufgabe konvertiert wird, werden sowohl das ursprüngliche Problem als auch das konvertierte Projekt oder die konvertierte Aufgabe zu auflösenden Objekten. Mit dieser Einstellung können Sie die Auflösung des ursprünglichen Problems mit der Auflösung des auflösbaren Objekts korrelieren. Weitere Informationen zum Auflösen von Objekten finden Sie unter <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Übersicht über das Auflösen und Auflösen von Objekten </a>.</p> <p>Damit diese Einstellung irgendwelche Auswirkungen haben kann, muss die Option <strong>[!UICONTROL Das ursprüngliche Problem beibehalten ausgewählt und seine Auflösung mit der Aufgabe]</strong> verknüpft werden.</p> 
+    <td> <p>Wenn ein Problem in ein Projekt oder eine Aufgabe konvertiert wird, werden sowohl das ursprüngliche Problem als auch das konvertierte Projekt oder die konvertierte Aufgabe zu auflösenden Objekten. Mit dieser Einstellung können Sie die Auflösung des ursprünglichen Problems mit der Auflösung des auflösbaren Objekts korrelieren. Weitere Informationen zum Auflösen von Objekten finden Sie unter <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Übersicht über das Auflösen und Auflösen von Objekten </a>.</p> <p>Damit diese Einstellung irgendwelche Auswirkungen haben kann, muss die Option "<strong>[!UICONTROL Das ursprüngliche Problem beibehalten"ausgewählt und seine Auflösung mit der Aufgabe "</strong>"verknüpft werden.</p> 
       <ul> 
       <li>Wenn diese Einstellung aktiviert ist, können Sie benutzerdefinierte Status mit demselben Schlüssel für Probleme und Projekte oder Aufgaben erstellen. Wenn das Projekt oder die Aufgabe (als auflösbares Objekt) in den benutzerdefinierten Status umgewandelt wird, spiegelt die Änderung auch den Status des Problems wider. Der Statusschlüssel muss für das Problem und den Projekt- oder Aufgabenstatus identisch sein.</li> 
       <li>Wenn diese Einstellung deaktiviert ist, wird beim Auflösen des Objektstatus automatisch der Standardstatus anstelle der benutzerdefinierten festgelegt. Weitere Informationen zu den Standardstatus finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Zugriff auf die Liste der Systemfehlerstatus</a>.</li> 
@@ -193,15 +193,22 @@ Durch Aktivierung der Einstellung **[!UICONTROL Delegieren von Aufgaben und Prob
 
 Wenn diese Einstellung aktiviert ist, sehen Benutzer Folgendes:
 
-* Der Link [!UICONTROL Delegieren] in ihrem Bereich [!UICONTROL Home]. Von hier aus können sie Genehmigungen oder Aufgaben- und Problemzuweisungen delegieren.
+* Der Link [!UICONTROL **Delegieren**] in den Widgets [!UICONTROL Meine Arbeit], [!UICONTROL Meine Aufgaben] oder [!UICONTROL Meine Probleme] im Bereich [!UICONTROL Home]. Von dort aus können sie Aufgaben- und Problemzuweisungen delegieren.
+
+  >[!NOTE]
+  >
+  >  Der Link [!UICONTROL **Genehmigungen delegieren**] ist immer im Bereich [!UICONTROL Home] aktiviert.
+
 * Ein Hinweis darauf, dass eine Aufgabe oder ein Problem einem anderen Benutzer im Bereich [!UICONTROL Zuweisungen und Delegationen] in der Aufgaben- oder Problemüberschrift zugewiesen wird.
+* Ein Hinweis darauf, dass eine Aufgabe oder ein Problem einem anderen Benutzer im Widget [!UICONTROL Meine Arbeit] in [!UICONTROL Startseite] zugewiesen wurde.
 
   Wenn Sie die Einstellung [!UICONTROL Erlauben, dass Benutzer ihre Aufgaben und Probleme delegieren] deaktivieren, werden die aktuell geplanten Delegationen beendet und die delegierten Benutzer erhalten eine E-Mail-Benachrichtigung, dass die Zuweisung beendet wurde.
 
 Informationen zur Übertragung von Arbeiten an andere finden Sie in den folgenden Artikeln:
 
 * [Delegieren von Arbeiten - Übersicht](../../../manage-work/delegate-work/delegate-work-overview.md)
-* [Verwalten der Zuweisung von Aufgaben und Ausgaben](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [Delegieren von Aufgaben und Problemen](../../../manage-work/delegate-work/how-to-delegate-work.md)
+
 
 <!--
 <p><strong>Work On It</strong></p>
