@@ -6,9 +6,9 @@ description: Sie können Adobe Workfront-Daten aus verschiedenen Listen, Bericht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,6 @@ Die Anzeige von Berichten in Workfront sowie der Export durch einen manuellen Ex
   >Das Exportieren eines Berichts mit einer Kollektionsreferenz innerhalb einer Spalte kann zu einem Fehler führen, selbst wenn der Bericht ansonsten innerhalb der aufgeführten Exportbeschränkungen liegt. Wenn die referenzierte Sammlung zu groß ist, ist der Exportvorgang zeitaufwendig und führt anschließend zu einem Fehler.
   >
   >Um diesen Fehler zu vermeiden, schließen Sie vor dem Export Spalten aus, die auf große Sammlungen verweisen, oder reduzieren Sie die Größe der referenzierten Sammlungen.
-  >
 
   Wenn Ihr Bericht mehr Elemente enthält, die diese Beschränkungen überschreiten, erhalten Sie eine Fehlermeldung, dass der Export nicht erfolgreich ist. Reduzieren Sie die Anzahl der Elemente auf dem Bildschirm auf eine Zahl, die kleiner oder gleich diesen Beschränkungen ist, um die Ergebnisse exportieren zu können.
 
@@ -151,6 +150,14 @@ Die Anzeige von Berichten in Workfront sowie der Export durch einen manuellen Ex
 * **10 MB Dateigröße:** Maximale Dateigröße für exportierte Berichte, die für die Bereitstellung geplant sind. Wenn eine an eine E-Mail angehängte exportierte Datei größer als 5 MB ist, wird ein Link, über den die Datei heruntergeladen werden kann, per E-Mail anstelle des angehängten exportierten Berichts gesendet.
 * **65.530 Hyperlinks:** Dies ist eine Beschränkung, die Excel für Dokumente mit mehr als 65.530 Hyperlinks vorschreibt. Diese Dokumente können nicht geöffnet werden, wenn sie manuell exportiert oder in einem gelieferten Bericht gesendet werden. Beachten Sie, dass ein Excel-Dokument möglicherweise nur 200 Datenzeilen enthält. Wenn jedoch mehr als 65.530 Links innerhalb des Dokuments vorhanden sind, wird das Dokument nicht geöffnet. Diese Beschränkung gilt nur für Excel-Dateien, nicht aber für die anderen unterstützten Formate. 
 * **256 Spalten**: Dies ist eine Begrenzung, die Excel für Dokumente mit mehr als 256 Spalten vorgibt. Diese Dokumente können nicht manuell exportiert oder in einem gelieferten Bericht gesendet werden. Diese Beschränkung gilt nur für Excel-Dateien, nicht aber für die anderen unterstützten Formate.
+
+  >[!IMPORTANT]
+  >
+  >Das Exportieren eines Berichts mit einer Berichtsspalte kann zu einem Fehler führen, selbst wenn sich der Bericht andernfalls innerhalb der aufgelisteten Exportbeschränkungen befindet.
+  >
+  >Wenn Sie die Exportfunktion verwenden, um einen Bericht mit einer Berichtspalte für andere freizugeben, sollten Sie den Bericht freigeben, indem Sie ihn stattdessen veröffentlichen. Weitere Informationen zum Veröffentlichen eines Berichts finden Sie unter [Freigeben eines Berichts in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  >
+  >Wenn Sie die Exportfunktion verwenden, um Daten extern auszuwerten, empfehlen wir stattdessen die Verwendung von Workfront Data Connect . Weitere Informationen finden Sie unter [Übersicht über Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Wenn Sie versuchen, Daten über den Grenzwert hinaus zu exportieren, erhalten Sie möglicherweise nicht alle erwarteten Daten im Export. Stattdessen wird ein geänderter Bericht innerhalb der Grenze erstellt.
 

@@ -6,9 +6,9 @@ description: "HINWEIS: Fügen Sie einen Abschnitt in diesem Artikel hinzu: /Cont
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -97,13 +97,11 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerspezifische
    >
    >Um eine Ansicht im Textmodus zu bearbeiten, müssen Sie jeweils eine Spalte bearbeiten.
 
-1. Klicken Sie oben rechts im Builder auf **In den Textmodus wechseln** .
+1. Klicken Sie oben rechts im Builder auf **In den Textmodus wechseln** und klicken Sie dann auf **Textmodus bearbeiten**.
 
    >[!NOTE]
    >
    >Wenn Sie eine Spalte im Textmodus bearbeiten, fügt Workfront die Codezeile `textmode=true` zur Spalte hinzu. Dies bedeutet, dass die Spalte im Textmodus geändert wird.
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    In der folgenden Tabelle werden die wichtigsten Zeilen in einer Textmodus-Ansicht beschrieben:
 

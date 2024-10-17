@@ -6,7 +6,7 @@ description: Mit einem Filter können Sie die Anzahl der angezeigten Information
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 1%
@@ -399,7 +399,7 @@ Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist da
      >
      >Wenn Sie eine Gruppe von UND-Anweisungen durch mehrere OR-Anweisungen verbinden, müssen Sie die Felder wiederholen, die sich zwischen den OR-Anweisungen für jede Gruppe von Anweisungen nicht ändern.
      >
-     >![Anweisungen für Connected filter](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![Anweisungen für Connected filter](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >Wenn Sie einen Filter für Aufgaben erstellen, die das Wort &quot;Marketing&quot;enthalten und sich in Projekten mit dem Status Aktuell oder Planung befinden, müssen Sie über die folgenden Filterregeln verfügen:
      >

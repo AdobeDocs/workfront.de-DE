@@ -6,7 +6,7 @@ description: Sie können einen Bericht beim Erstellen bestimmter Berichterstellu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -78,8 +78,6 @@ So fügen Sie einen benutzerbasierten Platzhalter in einen Bericht ein:
 1. Geben Sie in das Feld **Name der Eingabe eingeben..** Folgendes ein: `$$USER.ID` oder `$$USER.name`, wenn der Bericht Informationen über den Benutzer anzeigen soll, der sich anmeldet, basierend auf seinem Namen. Sie können andere Platzhalter einfügen, die auf die Gruppe, das Team, das Unternehmen oder andere Informationen des angemeldeten Benutzers verweisen.
 
    Eine vollständige Liste der nutzerbasierten Platzhalter finden Sie unter [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
 1. Klicken Sie auf **Speichern + schließen**.
 

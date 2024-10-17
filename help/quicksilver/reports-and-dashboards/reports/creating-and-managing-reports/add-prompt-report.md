@@ -6,9 +6,9 @@ description: Filter und Eingabeaufforderungen ähneln sich insofern, als sie bei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ Anweisungen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Beric
 1. Wechseln Sie zum Bericht, dem Sie eine Eingabeaufforderung hinzufügen möchten.
 1. Erweitern Sie **Berichtaktionen** und klicken Sie dann auf **Bearbeiten**.
 
-1. Klicken Sie auf **Berichtseinstellungen**.
-1. Klicken Sie im Bereich **Berichtaufforderungen** auf **Eingabeaufforderung hinzufügen**.\
-   ![](assets/qs-add-a-prompt-350x216.png)
+1. Klicken Sie auf die Schaltfläche **Berichtseinstellungen** .
+1. Klicken Sie auf die Registerkarte **Berichtaufforderungen** und dann auf **Eingabeaufforderung hinzufügen**.\
+   ![](assets/create-report-prompt-tab.png)
 
 1. (Bedingt) Wählen Sie das Feld aus, auf dem die Eingabeaufforderung basieren soll. Geben Sie den Namen des Felds ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.\
    Die für Benutzer, die den Bericht ausführen, verfügbaren Optionen variieren je nach ausgewähltem Feld.\
@@ -92,8 +92,9 @@ Anweisungen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Beric
    Geben Sie die folgenden Informationen für die benutzerdefinierte Eingabeaufforderung an: Die Bedingung einer benutzerdefinierten Eingabeaufforderung kann nur im Textmodus bearbeitet werden. Dadurch können mehrere Bedingungen in einem Feld angewendet werden.
 
    * **Feldname:** Dies ist der Name der Eingabeaufforderung, wie er angezeigt wird, bevor Sie den Bericht ausführen.
-   * **Beschriftung:** Dies ist der Name einer der Optionen in der Eingabeaufforderung, wie Sie sie sehen, bevor Sie den Bericht ausführen.
+   * **Bezeichnung des Dropdown-Elements-Elements:** Dies ist der Name einer der Optionen in der Eingabeaufforderung, wie Sie sie sehen, bevor Sie den Bericht ausführen.
    * **Bedingung:** Geben Sie eine Bedingung ein, die die Eingabeaufforderung definiert.
+   * **Standard:** Sie können ein Element als Standardoption für diese Eingabeaufforderung auswählen.
 
    Verwenden Sie dieselbe Syntax, die Sie beim Aufrufen eines Textmodusfilters verwenden würden, und fügen Sie Ihre Anweisungen mit &quot;&amp;&quot;ein. Weitere Informationen zum Bearbeiten eines Filters im Textmodus finden Sie unter [Bearbeiten eines Filters mit dem Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -128,7 +129,7 @@ So führen Sie einen Bericht mit einer Eingabeaufforderung aus:
 
 1. Wechseln Sie mit der Eingabeaufforderung zum Bericht.
 
-   ![](assets/qs-prompt-drop-downs-350x229.png)
+   ![](assets/run-report-prompts.png)
 
 1. Wählen Sie eine Bedingung für einen oder alle auf der Registerkarte **Eingabeaufforderungen** angezeigten Aufforderungen aus.\
    (Optional) Sie können die Eingabeaufforderungen leer lassen und den Bericht nicht nach den Eingabeaufforderungsbedingungen filtern.
@@ -145,13 +146,14 @@ So führen Sie einen Bericht mit einer Eingabeaufforderung aus:
 
 >[!CAUTION]
 >
->Wenn Sie einen erforderlichen Bericht außerhalb von Workfront freigeben, muss der Benutzer, der den Bericht anzeigt, bei Workfront angemeldet sein, damit der Bericht über die Eingabeaufforderung ausgeführt werden kann. Wenn der Benutzer, der den Bericht anzeigt, nicht angemeldet ist, werden alle Ergebnisse des Berichts angezeigt, ohne die Eingabeaufforderung anzuwenden.
+>Wenn Sie einen angezeigten Bericht freigeben, können sowohl angemeldete als auch nicht angemeldete Benutzer, die den Bericht über den öffentlichen Freigabe-Link anzeigen, den Bericht nicht mit den entsprechenden Eingabeaufforderungen ausführen. In diesem Fall werden die Ergebnisse des Berichts angezeigt, ohne dass eine Aufforderung eingeht. Stattdessen basieren die angezeigten Informationen auf der Zugriffsebene und den Berechtigungen des Benutzers oder auf der Zugriffsebene und den Berechtigungen des Berichts &quot;Als Benutzer ausführen&quot;, sofern eine festgelegt ist.
 
 Die Freigabe erforderlicher Berichte aus Workfront unterliegt folgenden Einschränkungen:
 
-* Wenn Sie einen Bericht öffentlich freigeben, können Benutzer den Bericht nicht über die Aufforderung ausführen, es sei denn, sie verfügen über Workfront-Anmeldeinformationen und melden sich zuerst an, um den Bericht in Workfront anzuzeigen.
+* Wenn Sie einen Bericht öffentlich freigeben, können die Benutzer den Bericht nicht mit angewendeten Eingabeaufforderungen ausführen, es sei denn, sie verfügen über Workfront-Anmeldeinformationen, melden sich zuerst an und navigieren direkt in Workfront zum Bericht (nicht über den öffentlichen Freigabe-Link).
 
   Weitere Informationen zum Freigeben von Berichten finden Sie im Artikel [Berichtfreigabe in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
-* Wenn Sie einen Bericht planen, der zum Versand aufgefordert wird, enthält der Bericht im E-Mail-Anhang die Daten des Berichts, die Sie umbenannt haben. Wenn der Benutzer auf den Link in der E-Mail klickt, um auf den Bericht zuzugreifen, muss er sich zuerst anmelden, um den Bericht anzuzeigen und die Eingabeaufforderung selbst auszuführen.
+
+* Wenn Sie einen Bericht planen, der zur Bereitstellung aufgefordert wird, enthält der Bericht im E-Mail-Anhang die Daten des Berichts, die nicht angefordert werden. Wenn der Benutzer auf den Link in der E-Mail klickt, um auf den Bericht zuzugreifen, muss er sich zuerst anmelden, um den Bericht anzuzeigen und die Eingabeaufforderung selbst auszuführen.
 
   Informationen zum Planen eines gelieferten Berichts finden Sie unter [Planen einer automatischen Berichtbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

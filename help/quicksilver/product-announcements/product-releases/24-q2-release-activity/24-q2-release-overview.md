@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -372,7 +372,7 @@ Sie können auch eine PDF-Datei ](https://acrobat.adobe.com/id/urn:aaid:sc:US:17
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (Oktober 2024)</p>
+                                <p>Produktionsversion für alle Kunden: Ankündigung</p>
                             </li>
                         </ul>
                     </td>
@@ -392,7 +392,7 @@ Sie können auch eine PDF-Datei ](https://acrobat.adobe.com/id/urn:aaid:sc:US:17
                                 <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (Oktober 2024)</p>
+                                <p>Produktionsversion für alle Kunden: Ankündigung</p>
                             </li>
                         </ul>
                     </td>

@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf da
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Die Freigabe eines oder mehrerer Berichte aus einer Liste ist identisch.
 
      >[!NOTE]
      >
-     >Wenn der Bericht eine Eingabeaufforderung enthält und Sie ihn öffentlich freigeben, müssen die Benutzer, die den Bericht ausführen, bei Workfront angemeldet sein, damit der Bericht über die Eingabeaufforderung ausgeführt werden kann. Wenn sie sich nicht bei Workfront anmelden können, wird der Bericht angezeigt, ohne dass eine Eingabeaufforderung darauf angewendet wird. Weitere Informationen zu Einschränkungen bei der Freigabe von Berichten für Aufforderungen finden Sie im Abschnitt [Einschränkungen für die Freigabe erforderlicher Berichte](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) im Artikel [Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >Wenn der Bericht eine Eingabeaufforderung enthält und Sie ihn öffentlich freigeben, können Benutzer, die den Bericht über den öffentlichen Freigabe-Link ausführen, den Bericht nicht über die Eingabeaufforderung ausführen. Der Bericht wird angezeigt, ohne dass die Eingabeaufforderung darauf angewendet wird, es sei denn, er meldet sich bei Workfront an und greift auf den Bericht zu, ohne den öffentlichen Freigabe-Link zu verwenden. Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten für Aufforderungen finden Sie im Abschnitt [Einschränkungen für die Freigabe erforderlicher Berichte](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) im Artikel [Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
    * **Diese Option systemweit anzeigen:** Wählen Sie diese Option aus, damit jeder in Workfront mit Zugriff auf Berichte den Bericht sehen kann.
 

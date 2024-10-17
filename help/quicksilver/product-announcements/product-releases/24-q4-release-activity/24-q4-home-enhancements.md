@@ -4,9 +4,9 @@ description: Verbesserungen für das vierte Quartal 2024 - Startseite
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ Wir haben die folgenden Änderungen am Widget Erwartung meiner Genehmigung vorge
 
 * **Das Widget wurde umbenannt**: Der Name dieses Widgets lautet jetzt Meine Genehmigungen .
 * **Hinzugefügte Genehmigungen, die ich als Filteroption gesendet habe**: Sie können jetzt mit diesem Widget auf der neuen Startseite gesendete Genehmigungen anzeigen.
+* **Deadline**: Sie können jetzt den Testversand-Deadline sehen, wenn einer festgelegt wurde. Wenn kein Termin festgelegt ist, wird als Frist standardmäßig das Erstellungsdatum verwendet.
 
 Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

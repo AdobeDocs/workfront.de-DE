@@ -6,9 +6,9 @@ description: Wenn Sie Ihre Berichte mit anderen Benutzern in Adobe Workfront tei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1218'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Ber
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Textfarbe</strong></td> 
-      <td> <p>Wählen Sie die Farbe aus, in der der Text angezeigt wird. Es sind 8 Farben verfügbar.</p> <p><b>NOTIZ</b></p> <p> Wenn das Feld einen Hyperlink enthält, werden die Textfarbenselektionen nicht auf dieses Feld angewendet.</p> </td> 
+      <td> <p>Wählen Sie mithilfe der Farbauswahl die Farbe aus, in der der Text angezeigt wird.</p> <p><b>NOTIZ</b></p> <p> Wenn das Feld einen Hyperlink enthält, werden die Textfarbenselektionen nicht auf dieses Feld angewendet.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Textformat</strong></td> 
@@ -151,7 +151,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Ber
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Hintergrund</strong></td> 
-      <td>Wählen Sie die Hintergrundfarbe für den Text aus. Es sind 8 Farben verfügbar.</td> 
+      <td>Wählen Sie mithilfe der Farbauswahl die Hintergrundfarbe für den Text aus.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Symbol "Anzeigen"</strong></td> 
@@ -189,6 +189,6 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Ber
    * Fügen Sie die Spaltenregel für den roten Hintergrund bei verspäteten Projekten erneut hinzu.
    * Wenn Sie die Regeln und die Ansicht speichern, wird der rote Hintergrund nicht auf ein abgebrochenes Projekt angewendet.
 
-1. Klicken Sie auf **Fertig**.
+1. Klicken Sie auf **Speichern**.
 1. Klicken Sie auf **Speichern + schließen**.\
    Im Bericht sehen Benutzer Änderungen am Format, wenn die angegebenen Bedingungen erfüllt sind.

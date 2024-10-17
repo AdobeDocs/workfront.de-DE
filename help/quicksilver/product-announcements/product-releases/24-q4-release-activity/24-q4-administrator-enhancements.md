@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit der Version vom 4. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2024 verfügbar sind, finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Die Zugriffsebene ist jetzt in der Umgebungsförderung verfügbar
+
+>[!NOTE]
+>
+>Vorschau-Version: 17. Oktober 2024; Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)
+
+Um die Funktionen der Umgebungsförderungsfunktion zu erweitern, haben wir die Möglichkeit hinzugefügt, Zugriffsebenen einzubeziehen. Jetzt können Sie eine Zugriffsebene in einer Sandbox-Umgebung konfigurieren und diese Zugriffsebene dann in Ihre Produktionsumgebung weiterleiten.
+
+Zuvor waren die Zugriffsebenen nicht für die Umgebungswerbung verfügbar.
+
+Weitere Informationen zu Objekten, die für die Umgebungsförderung verfügbar sind, finden Sie unter [Unterstützte Objekte für die Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in der Übersicht über die Promotion der Umgebung des Artikels.
 
 ## Ein Zähler für benutzerdefinierte Formulare zeigt die Anzahl der Felder an
 

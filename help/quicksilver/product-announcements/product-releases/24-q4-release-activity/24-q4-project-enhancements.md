@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fc1c4466-edc3-4ff0-91bc-40c0e3af5eee
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten
 
 >[!NOTE]
 >
->Vorschau-Version: 13. Februar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.5 (16. Mai 2024); Produktionsversion für alle Kunden: Mit Version 24.10 (17. Oktober 2024).
+>Vorschau-Version: 13. Februar 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024); Produktionsfreigabe für alle Kunden: Ankündigung.
 
 In den folgenden Bereichen haben wir dem Feld Zuweisungen die gleichen Funktionen für relevantere Smart-Zuweisungen hinzugefügt:
 
@@ -36,7 +36,7 @@ Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](/hel
 
 >[!NOTE]
 >
->Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit Version 24.5 (16. Mai 2024); Produktionsversion für alle Kunden: Mit Version 24.10 (17. Oktober 2024).
+>Vorschau-Version: 21. Dezember 2023; Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024); Produktionsfreigabe für alle Kunden: Ankündigung.
 
 Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.
 

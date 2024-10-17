@@ -6,9 +6,9 @@ description: Sie können einen Bericht beim Erstellen bestimmter Berichterstellu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,6 @@ So fügen Sie einen datumsbasierten Platzhalter in einen Bericht ein:
 
 1. Gehen Sie zu einem Bericht, für den Sie einen datumsbasierten Platzhalter einfügen möchten.
 1. Klicken Sie auf **Berichtaktionen** und dann auf **Bearbeiten**.
-
 1. Klicken Sie auf die Registerkarte **Filter**.
 1. Klicken Sie auf **Filterregel hinzufügen**.
 1. Geben Sie den Namen des Felds ein, nach dem Sie filtern möchten.\
@@ -79,7 +78,7 @@ So fügen Sie einen datumsbasierten Platzhalter in einen Bericht ein:
    >
    >Sie müssen beim Arbeiten mit Platzhaltern in Adobe Workfront immer die Filtervariable **Equal** auswählen.
 
-1. Geben Sie in das Feld **Name der Eingabe eingeben..** den Wert `$$TODAY` ein, wenn Sie Informationen zu etwas anzeigen möchten, das am selben Tag stattfindet, an dem der Bericht ausgeführt wird.
+1. Klicken Sie auf den Umschalter **relatives Datum festlegen** und geben Sie dann im angezeigten Textfeld `$$TODAY` ein, wenn Sie Informationen zu etwas anzeigen möchten, das am selben Tag wie der Bericht ausgeführt wird.
 
    Oder
 
@@ -91,8 +90,6 @@ So fügen Sie einen datumsbasierten Platzhalter in einen Bericht ein:
 1. (Optional) Wenn Sie Informationen zu etwas anzeigen möchten, das innerhalb eines Zeitraums vor dem Datum der Berichterstellung aufgetreten ist, geben Sie `$$TODAY-1w` ein, um Informationen aus der vorherigen Woche anzuzeigen, oder `$$TODAY-2m`, um Informationen aus den letzten zwei Monaten anzuzeigen. Sie können auch Zeitrahmen für Quartale, Stunden, Tage oder Jahre angeben.
 
    Eine vollständige Liste der Attribute, Kennungen und Operatoren, die Sie in datumsbasierten Platzhaltern verwenden können, finden Sie im Artikel [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. Klicken Sie auf **Speichern + schließen**.
 
