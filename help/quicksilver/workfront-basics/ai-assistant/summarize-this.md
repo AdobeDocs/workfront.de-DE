@@ -5,16 +5,14 @@ description: Mithilfe der Funktion Diese Funktion zusammenfassen können Sie Arb
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
+source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '415'
 ht-degree: 1%
 
 ---
 
 # Zusammenfassung mit dem KI-Assistenten
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Der Workfront-KI-Assistent kann einige Objekte zusammenfassen und bietet Ihnen einen allgemeinen Überblick über die Absicht oder Details des Objekts.
 
@@ -67,8 +65,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
   Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-<div class="preview">
-
 ## Zusammenfassen mit den Schaltflächen Zusammenfassen
 
 In den folgenden Bereichen finden Sie Schaltflächen, mit denen mithilfe des AI-Assistenten Zusammenfassungen generiert werden:
@@ -88,8 +84,6 @@ So verwenden Sie die Schaltfläche Projekt zusammenfassen oder Kommentare zusamm
 1. (Optional) Verfeinern Sie die Eingabeaufforderung, um sicherzustellen, dass Sie die benötigten Informationen erhalten.
 
    Beispielsweise können Sie die Aufforderung zum Zusammenfassen von Inhalten verfeinern, um die Kommentare für die letzten 14 Tage anstatt für die letzten 7 Tage zusammenzufassen.
-
-   </div>
 
 ## Zusammenfassen eines Objekts im AI-Assistenten
 
