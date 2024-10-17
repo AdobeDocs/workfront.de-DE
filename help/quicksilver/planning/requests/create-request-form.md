@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1262'
 ht-degree: 2%
 
 ---
@@ -175,11 +175,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Optional) Klicken Sie auf **Vorschau** , um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden eines neuen Datensatzes verwenden werden.
+1. (Optional) Klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Formulars in der Kopfzeile und dann auf **Bearbeiten** , um den Namen des Formulars zu aktualisieren.![](assets/more-menu.png)
 1. Klicken Sie auf **Publish** , um das Formular zu veröffentlichen und einen eindeutigen Link dafür zu erhalten.
 
    Folgendes geschieht:
 
-   * Die Schaltfläche Publish wurde entfernt.
+   * Die Schaltfläche **Publish** wurde entfernt.
    * Die Schaltfläche **Veröffentlichung rückgängig machen** wird dem Formular hinzugefügt. Wenn Sie darauf klicken, wird der Zugriff auf das Formular verhindert.
    * Dem Formular wird eine Schaltfläche **Freigabe** hinzugefügt.
 

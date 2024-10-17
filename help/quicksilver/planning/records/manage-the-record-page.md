@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ Alle Abschnitte werden standardmäßig erweitert.
 
    Alle Änderungen an den Abschnitten und der Feldreihenfolge werden automatisch gespeichert.
 
-1. (Optional) Klicken Sie auf das Symbol **Exportieren** ![](assets/export-icon-in-record-details-page.png) , um die Registerkarte &quot;Details&quot;in eine Word-Datei zu exportieren. Weitere Informationen finden Sie unter [Details eines Datensatzes exportieren](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das Menü **Exportieren** , um die Registerkarte &quot;Details&quot;in eine Word- oder PDF-Datei zu exportieren. ![](assets/export-icon-in-record-details-page.png) Weitere Informationen finden Sie unter [Details eines Datensatzes exportieren](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Optional) Klicken Sie auf die Registerkarte **Verbindungen** neben der Registerkarte **Details**. Möglicherweise müssen Sie auf **Mehr** klicken, bevor Sie auf die Registerkarte **Verbindungen** klicken.
 

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 0%
@@ -304,7 +304,7 @@ Weitere Informationen finden Sie unter [Ansichten von Datensätzen verwalten](/h
 
    Workfront speichert Ihre Änderungen automatisch.
 
-1. (Optional) Klicken Sie auf das Symbol **Exportieren** ![](assets/export-icon-in-record-details-page.png), um die Details des Datensatzes zu exportieren. Weitere Informationen finden Sie unter [Details eines Datensatzes exportieren](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das Menü **Exportieren** ![](assets/export-icon-in-record-details-page.png) , um die Details des Datensatzes zu exportieren. Weitere Informationen finden Sie unter [Details eines Datensatzes exportieren](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Optional) Klicken Sie oben rechts in der Datensatzvorschau auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> , um die Datensatzseite in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort, wie im Abschnitt [Datensatz auf der Seite des Datensatzes bearbeiten](#edit-a-record-from-the-records-page) in diesem Artikel beschrieben.
 
@@ -359,7 +359,7 @@ Weitere Informationen finden Sie unter [Ansichten von Datensätzen verwalten](/h
 
    Workfront speichert Ihre Änderungen automatisch.
 
-1. (Optional) Klicken Sie auf das Symbol **Exportieren** ![](assets/export-icon-in-record-details-page.png), um die Details des Datensatzes zu exportieren. Weitere Informationen finden Sie unter [Details eines Datensatzes exportieren](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das Menü **Exportieren** ![](assets/export-icon-in-record-details-page.png) , um die Details des Datensatzes zu exportieren. Weitere Informationen finden Sie unter [Details eines Datensatzes exportieren](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Datensatz aus einem Workfront-Objekt im Abschnitt Planung bearbeiten

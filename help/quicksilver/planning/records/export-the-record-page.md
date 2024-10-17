@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -94,63 +94,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 ## Überlegungen zum Exportieren von Datensatzdetails:
 
 * Sie können die Details eines Datensatzes in die folgenden Dateiformate exportieren:
@@ -158,7 +101,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * .docx Word
    * .pdf
 
-* Sie können den Tab Details einer Datensatzseite exportieren. Die Registerkarte Verbindungen kann nicht exportiert werden.
+* Sie können den Tab Details einer Datensatzseite exportieren.
 
 * Die exportierte Datei behält das Layout der Datensatzseite bei, einschließlich der Miniaturansicht und der Titelbilder.
 
@@ -181,7 +124,7 @@ Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs w
 
 1. Wählen Sie die Registerkarte **Details** aus. Die Registerkarte Details sollte standardmäßig geöffnet werden.
 
-1. Klicken Sie entweder in der Vorschau oder auf der Datensatzseite auf das Symbol **Exportieren** ![](assets/export-icon-in-record-details-page.png) und klicken Sie dann auf eine der folgenden Optionen:
+1. Klicken Sie entweder in der Vorschau oder auf der Datensatzseite auf das Menü **Exportieren** und dann auf eine der folgenden Optionen:![](assets/export-icon-in-record-details-page.png)
 
    * **Microsoft Word**
    * **Adobe PDF**

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,13 @@ Gehen Sie dazu folgendermaßen vor:
      >
      >Die Option **Verbindungstyp** ist beim Verbinden von Datensätzen aus verschiedenen Arbeitsbereichen oder beim Verbinden von Experience Manager-Assets nicht verfügbar. Weitere Informationen finden Sie unter [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Erscheinungsbild der Aufzeichnung**: Deaktivieren Sie den Umschalter **Titel** , wenn Sie den Namen der Produkte nicht anzeigen möchten, wenn Sie sie zum Feld &quot;Produktinformationen&quot;der Kampagne hinzufügen. Wenn diese Option aktiviert ist, zeigen Datensätze sowohl die Miniaturansicht als auch den Titel an. Der Umschalter ist standardmäßig aktiviert.
+   * **Erscheinungsbild eines Datensatzes**: Wählen Sie aus den folgenden Optionen aus:
+      * **Name und Bild**: Zeigt den Namen und die Miniaturansicht oder das Symbol der verbundenen Datensätze an. Diese Option ist standardmäßig aktiviert.
+      * **Name**: Zeigt nur den Namen der verbundenen Datensätze an.
+      * **Bild**: Zeigt nur die Miniaturansicht oder das Symbol der verbundenen Datensätze an.
    * **Suchfelder auswählen**: Wenn Sie diese Option ausgewählt lassen, wird als Nächstes das Feld **Suchfelder hinzufügen** geöffnet, damit Sie Produktfelder mit dem Kampagnen-Datensatztyp verknüpfen können. Sie können auf **Überspringen** klicken, um diesen Schritt zu überspringen und Produktfelder später hinzuzufügen.
 
-   ![](assets/new-connection-with-product-record-type.png)
+     ![](assets/new-connection-with-product-record-type.png)
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt die Option **Suchfelder auswählen** ausgewählt haben, klicken Sie in der Liste der Felder, die mit dem Datensatztyp **Produkt** verknüpft sind, auf das Symbol **+** für das Feld **Budget** und klicken Sie dann auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Budget (aus Produktinformationen)** erstellt, das dem Namen des verknüpften Felds entspricht. Alle Informationen zum Produktbudget werden in diesem Feld für die Kampagnendatensätze angezeigt.
 

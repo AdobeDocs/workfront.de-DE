@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -111,13 +111,15 @@ In diesem Beispiel wird gezeigt, wie Sie die Workfront-API aufrufen und Daten au
 
 ## Einrichten eines externen Suchfelds für die Workfront Planning-API
 
-Ein Endpunkt ist in der [Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md) verfügbar, um Datensätze über die Get-Methode nach Datensatztyp-ID zu durchsuchen. Mit diesem Endpunkt können Sie auf Datensätze der Planung in externen Suchfeldern verweisen.
+Ein Endpunkt ist in der Workfront Planning-API verfügbar, um Datensätze über die Get-Methode nach Datensatz-Typ-ID zu suchen. Mit diesem Endpunkt können Sie auf Datensätze der Planung in externen Suchfeldern verweisen.
 
 * **Basis-API-URL:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
 * **HTTP-Methode:** Abrufen
 * **JSON-Pfad:** `$.records[*].data.{fieldID}`
 
   **{fieldID}** ist das Feld, das in den externen Suchergebnissen im benutzerdefinierten Formular für Endbenutzer angezeigt werden soll.
+
+Weitere Informationen finden Sie unter [Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md).
 
 ## Externes Suchfeld für eine öffentliche API einrichten
 
