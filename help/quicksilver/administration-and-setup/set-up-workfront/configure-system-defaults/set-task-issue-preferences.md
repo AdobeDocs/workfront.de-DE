@@ -74,7 +74,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Bearbeiten Sie es</a> </li>
-  --&gt;
+  -->
 
 * [[!UICONTROL Zugriff]](#access)
 
