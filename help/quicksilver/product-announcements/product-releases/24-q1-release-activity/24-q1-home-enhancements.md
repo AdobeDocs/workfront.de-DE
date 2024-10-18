@@ -4,9 +4,9 @@ description: Verbesserungen für das erste Quartal 2024 - Startseite
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des erst
 
 Damit Sie den Status von Genehmigungen und Überprüfungen von Projekten, die Ihnen gehören, leichter erkennen können, haben wir ein neues Widget &quot;Ausstehende Genehmigungen&quot;zu &quot;Home&quot;hinzugefügt. Hier können Sie eine Liste der Benutzer sehen, die zum Genehmigen oder Überprüfen von Dokumenten über Projekte, deren Eigentümer Sie sind, zugewiesen sind, den Status ihrer Überprüfung oder Genehmigung anzeigen und Prüfer und Genehmiger daran erinnern, ihre Überprüfung oder Genehmigung abzuschließen.
 
-Weitere Informationen zu Home-Widgets finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Administratorsteuerelemente für die neue Startseite mit Layoutvorlagen
 
@@ -34,5 +33,3 @@ Weitere Informationen finden Sie unter [Anpassen der neuen Startseite mit einer 
 ## Die Schnellaktion-Schaltflächen für &quot;Arbeit&quot;wurden geändert, sodass sie nur auf dem Mauszeiger angezeigt werden
 
 Um die Leistung zu verbessern, werden die im Widget Meine Arbeit verfügbaren Schnellaktion-Schaltflächen jetzt nur angezeigt, wenn mit der Maus auf ein Arbeitselement gezeigt wird.
-
-Weitere Informationen zu den im Widget &quot;Meine Arbeit&quot;verfügbaren Schnellaktionsschaltflächen finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

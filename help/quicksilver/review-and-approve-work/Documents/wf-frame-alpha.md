@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,6 @@ Um Ihnen bei der Verwaltung und Analyse Ihrer Genehmigungsanfragen auf einen Bli
 
 Für eine detailliertere Ansicht können Sie einen Drilldown in die oben aufgeführten Kategorien durchführen. Das Widget Alle Genehmigungen ist in den Dashboards &quot;Neue Startseite&quot;und &quot;Arbeitsfläche&quot;verfügbar.
 
-Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### Sperren Sie Ihre Überprüfungen und Genehmigungen, sobald eine Gesamtentscheidung getroffen wurde.
 

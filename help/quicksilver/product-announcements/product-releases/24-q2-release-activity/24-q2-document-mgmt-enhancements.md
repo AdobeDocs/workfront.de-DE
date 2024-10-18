@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 3%
 
 ---
 
@@ -61,5 +61,3 @@ Um Ihnen bei der Verwaltung und Analyse Ihrer Genehmigungsanfragen auf einen Bli
 * Überfällige Genehmigungen
 
 Für eine detailliertere Ansicht können Sie einen Drilldown in die oben aufgeführten Kategorien durchführen. Das Widget Alle Genehmigungen ist in den Dashboards &quot;Neue Startseite&quot;und &quot;Arbeitsfläche&quot;verfügbar.
-
-Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

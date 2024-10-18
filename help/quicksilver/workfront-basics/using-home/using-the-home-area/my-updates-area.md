@@ -3,21 +3,18 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Verwenden des Bereichs My Updates
 description: Sie können den Bereich [!UICONTROL Meine Aktualisierungen] verwenden, um schnell die Genehmigungen zu überprüfen, die auf Ihre Entscheidung warten, oder die Unterhaltungen, in denen Sie enthalten sind.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # Verwenden des Bereichs [!UICONTROL Meine Aktualisierungen]
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 Sie können den Bereich [!UICONTROL Meine Aktualisierungen] verwenden, um schnell die Genehmigungen zu überprüfen, die auf Ihre Entscheidung warten, oder die Unterhaltungen, in denen Sie enthalten sind.
 
@@ -28,6 +25,8 @@ Weitere Informationen zu [!DNL Adobe Workfront] -Lizenzen finden Sie unter [[!DN
 Wenn Sie einen anderen Lizenztyp haben als &quot;Überprüfen&quot;, muss der Administrator [!DNL Workfront] oder der Gruppenadministrator den Bereich [!UICONTROL Meine Updates] zu Ihrer Layoutvorlage hinzufügen, um ihn im Hauptmenü anzuzeigen. Weitere Informationen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -57,6 +56,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 *Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 

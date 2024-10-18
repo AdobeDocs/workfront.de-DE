@@ -6,10 +6,10 @@ description: Validierung der Arbeit
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 0%
+source-wordcount: '896'
+ht-degree: 1%
 
 ---
 
@@ -66,68 +66,75 @@ Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, 
 
 ## Genehmigen Sie die Arbeit vom Startbereich aus.
 
-1. Klicken Sie oben links in Adobe Workfront auf das Symbol **Startseite** ![](assets/home-icon-30x29.png) .
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Genehmigungen** hinzuzufügen.
+1. (Bedingt) Klicken Sie auf das Dropdown-Menü **Filter** und wählen Sie dann **Alle** aus, um die Ihnen zugewiesenen und zugewiesenen Genehmigungen anzuzeigen.
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
-   >
-   >   
-   >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
-   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf das **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und klicken Sie dann auf **Startseite**.
+   >Genehmigungen, die Auftragsrollen oder Gruppen zugewiesen sind, werden nicht auf der Startseite angezeigt. Die den Teams zugewiesenen Validierungen werden im Widget Meine Validierungen für jedes Teammitglied angezeigt.
 
-1. Klicken Sie auf das Dropdown-Menü **Filter** .
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
-
-1. Wählen Sie **Genehmigungen** aus.\
-   Alle Arbeitselemente, für die Ihre Genehmigung erforderlich ist, werden angezeigt. 
-
-   >[!NOTE]
-   >
-   >Genehmigungen, die Auftragsrollen oder Gruppen zugewiesen sind, werden nicht auf der Startseite angezeigt. Für Teams zugewiesene Validierungen werden in der Gruppe Teamanfrage in der Arbeitsliste angezeigt.
-
-1. (Optional) Ändern Sie die Reihenfolge, in der Genehmigungen angezeigt werden, wie im Abschnitt &quot;Gruppe und Sortieren nach Datum, Projekt oder Priorität&quot;im Artikel [Elemente in der Arbeitsliste im Startbereich anzeigen](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) beschrieben.
 1. Wählen Sie das Element aus, für das Sie eine Genehmigungsentscheidung treffen möchten.
 
-   ![](assets/task-approval-home-350x127.png)
+   ![](assets/my-approvals-widget.png)
 
 1. Klicken Sie im rechten Bereich auf eine der verfügbaren Optionen, wenn Sie eine Genehmigungsentscheidung treffen. Je nach Typ des zu genehmigenden Elements werden in der rechten oberen Ecke der Seite die folgenden Optionen angezeigt:
 
-   * **Projekte:** Klicken Sie auf **Genehmigen** oder **Ablehnen**.
+   <table>
+   <tr>
+      <td>
+      <p><strong>Zugriff</strong></p>
+      </td>
+      <td>
+      <p><strong>Arbeitselemente</strong></p>
+      </td>
+      <td>
+      <p><strong>Dokumente</strong></p>
+      </td>
+      <td>
+      <p><strong>Korrekturabzüge</strong></p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+       <ul>
+      <li>Zuschuss</li>
+      <li>Ignorieren</li>
+      </ul>
+      Sie können die Zugriffsebene im Dropdown-Menü <b>Zugriff ändern</b> nach Bedarf anpassen.
+      </td>
+      <td>
+         <ul>
+         <li>Genehmigen</li>
+         <li>Ablehnen</li>
+         </ul>
+      Sie können einen Kommentar zu Ihrer Entscheidung hinterlassen, indem Sie auf das Dropdown-Menü in der Entscheidungsschaltfläche klicken.
+      </td>
+      <td>
+   Als Genehmiger zugewiesen
+         <ul>
+         <li>Genehmigen</li>
+         <li>Mit Änderungen genehmigt</li>
+         <li>Muss bearbeitet werden</li>
+         </ul>
+   Als Validierer zugewiesen
+         <ul>
+         <li>Überprüfung abschließen</li>
+         </ul>
+      Die Optionen in dieser Spalte gelten nur für neue Dokumentgenehmigungen. Genehmigungen veralteter Dokumente erscheinen genauso wie Genehmigungen für Arbeitselemente. 
+      </td>
+      <td>
+         <ul>
+         <li>Testversand durchführen</li>
+         </ul>
+         Sie treffen Ihre Entscheidung im Testversand-Viewer. Informationen zum Überprüfen eines Testversands finden Sie unter <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Testsendungen in Adobe Workfront überprüfen</a>.
+      </td>
+   </tr>
+   </table>
 
-   * **Aufgaben:** Klicken Sie auf **Genehmigen** oder **Ablehnen** .
+Nachdem Sie eine Entscheidung getroffen haben, wird die Genehmigung aus dem Widget Meine Genehmigung entfernt.
 
-   * **Probleme:** Klicken Sie auf **Genehmigen** oder **Ablehnen** .
-
-   * **Timesheets:** Klicken Sie auf **Genehmigen** oder **Ablehnen** .
-
-   * **Dokumente:** Klicken Sie auf **Genehmigen**, **Ablehnen** oder **Änderungen**.\
-      Beachten Sie bei der Anzeige Folgendes  Genehmigungen:
-
-      * Hier werden die Genehmigungen für Testsendungen angezeigt, wenn ein Benutzer einen Testversand mit Ihnen teilt, wie im Abschnitt &quot;Link zum Testversand freigeben&quot;im Artikel [Freigeben eines Testversands in Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) beschrieben.
-      * Testversandgenehmigungen werden nur dann im Startbereich angezeigt, wenn Ihre Workfront-Umgebung in ein Workfront Proof Premium-Konto integriert ist. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie die Proofing-Funktion nicht wie hier beschrieben verwenden können.
-      * Sie erhalten eine In-App-Benachrichtigung, in der Sie über die Genehmigung des Testversands informiert werden.\
-        Weitere Informationen zu In-App-Benachrichtigungen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
-
-      * Der Name des Benutzers, der die Genehmigung angefordert hat, wird neben dem Miniaturbild im Startbereich mit folgendem Text angezeigt:\
-        &quot;*Benutzer A* möchte Ihre Genehmigung für ...&quot;
-
-        <!--      
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
-        (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
-        </MadCap:conditionalText>      
-        -->
-
-        Wenn der Benutzername nicht verfügbar ist, wird der folgende Text angezeigt:\
-        &quot;Eine neue Version eines Testversands kann angezeigt werden.&quot;
-      * Um eine Genehmigungsentscheidung für den Testversand zu treffen, klicken Sie auf **Gehe zu Testversand**, klicken Sie auf **Überprüfung abschließen** und anschließend auf eine der verfügbaren Optionen. Bei der Genehmigung eines Testversands stehen folgende Optionen zur Verfügung: **Genehmigt**, **Genehmigt mit Änderungen**, **Erforderliche Änderungen** und **Nicht relevant**.
-
-      * Nachdem eine Entscheidung über den Testversand getroffen wurde, bleibt der Testversand auf der Registerkarte &quot;Meine Genehmigungen&quot;mit dem Text &quot;Entscheidungsfindung&quot;erhalten, bis Sie auf die Schaltfläche **Aktualisieren** klicken oder die Browser-Seite aktualisieren.
-
-        Informationen zum Überprüfen eines Testversands finden Sie unter [Testsendungen in Adobe Workfront überprüfen](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-
-   * **Zugriff:** Wählen Sie im Dropdown-Menü **Zugriff ändern** die zu gewährende Zugriffsebene aus und klicken Sie dann auf **Zugriff gewähren**. Oder klicken Sie auf **Ignore**.
 
 ## Direkte Genehmigung der Arbeit über ein Projekt, eine Aufgabe oder ein Problem
 

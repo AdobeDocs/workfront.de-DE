@@ -6,7 +6,7 @@ description: Der Prozess der Genehmigung von Timesheets bietet Managern einen Ei
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Der Bereich **Timesheets** wird geöffnet.
 
 Der Startbereich wird geöffnet.
 
-1. Stellen Sie sicher, dass das Widget **Meine Genehmigungen** zu Ihrem Startbereich hinzugefügt wurde. Weitere Informationen finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+1. Stellen Sie sicher, dass das Widget **Meine Genehmigungen** zu Ihrem Startbereich hinzugefügt wurde. Weitere Informationen finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 1. Suchen Sie im Widget Meine Validierungen nach einer Timesheet-Validierung.
 1. (Optional) Erweitern Sie das Dropdown-Menü rechts neben den Schaltflächen Genehmigen oder Ablehnen , um einen Kommentar zu Ihrer Entscheidung hinzuzufügen, und klicken Sie dann auf **Hinzufügen**.
 1. Klicken Sie auf eine der folgenden Schaltflächen, um Ihre Validierungsentscheidung zu treffen:

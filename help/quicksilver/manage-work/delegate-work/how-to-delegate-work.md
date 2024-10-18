@@ -6,7 +6,7 @@ description: Sie können die Arbeit, der Sie zugewiesen sind, während Sie nicht
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 0%
@@ -107,7 +107,7 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
 1. Wechseln Sie zum Bereich [!UICONTROL **Home**] .
 1. Stellen Sie sicher, dass die Widgets [!UICONTROL **Meine Arbeit**], [!UICONTROL **Meine Aufgaben**] oder [!UICONTROL **Meine Probleme**] zu Ihrer [!UICONTROL **Startseite**] hinzugefügt wurden.
 
-   Weitere Informationen finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+   Weitere Informationen finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
 1. Klicken Sie oben links in den Widgets [!UICONTROL **Meine Arbeit**], [!UICONTROL **Meine Aufgaben**] oder [!UICONTROL **Meine Probleme**] auf [!UICONTROL **Delegieren**] .
 

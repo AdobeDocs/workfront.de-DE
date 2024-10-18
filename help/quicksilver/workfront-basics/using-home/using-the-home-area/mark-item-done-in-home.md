@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Markieren eines Elements als Fertig im Bereich "Startseite"
 description: Sie können eine Aufgabe oder ein Problem als "Fertig"markieren, wenn Sie die Aufgabe oder der Problemverantwortliche sind. Wenn Sie eine Aufgabe oder ein Problem als Fertig markieren, wird der Status der Aufgabe oder des Problems in Fertig gestellt geändert.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Sie können eine Aufgabe oder ein Problem als &quot;Fertig&quot;markieren, wenn 
 >[!NOTE]
 >
 >Die Schaltfläche [!UICONTROL Fertig] wird nur angezeigt, wenn Sie einer der Ressourcen sind, die der Aufgabe oder dem Problem zugewiesen sind.
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 ## Zugriffsanforderungen
 
@@ -52,18 +54,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Kennzeichnen einer Aufgabe oder eines Problems als [!UICONTROL Fertig]
++++
 
-Nur der Benutzer, der der Aufgabe oder dem Problem zugewiesen ist, kann sie als [!UICONTROL Fertig] markieren.
+## Kennzeichnen eines Arbeitselements als &quot;Fertig&quot;im Widget &quot;Meine Arbeit&quot;
 
 1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Suchen Sie in der **[!UICONTROL Arbeitsliste]** die Elemente, die darauf warten, bearbeitet zu werden.
-1. Führen Sie einen der folgenden Schritte aus:
+1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Arbeit** hinzuzufügen.
+1. Suchen Sie das Arbeitselement und klicken Sie dann auf **[!UICONTROL Als Fertig markieren]** im Arbeitselement.
+Weitere Informationen dazu, wie diese Schaltfläche angezeigt werden kann, finden Sie unter [Grundlegendes zu den Optionen der Schaltfläche [!UICONTROL Fertig] ](#understand-the-options-of-the-done-button) .
+   ![](assets/my-work-done.png)
 
-* Klicken Sie auf **[!UICONTROL Fertig]** im Arbeitselement.\
-   Weitere Informationen dazu, wie diese Schaltfläche angezeigt werden kann, finden Sie unter [Grundlegendes zu den Optionen der Schaltfläche [!UICONTROL Fertig] ](#understand-the-options-of-the-done-button) .
 
-* Wählen Sie das Element aus, das Sie als fertig markieren möchten, klicken Sie dann im rechten Bereich auf **[!UICONTROL Status aktualisieren]** und ändern Sie dann den Status des Elements in einen Status, der mit [!UICONTROL Complete] oder [!UICONTROL Closed] übereinstimmt.
+## Kennzeichnen eines Arbeitselements Fertig im Bedienfeld &quot;Zusammenfassung&quot;
+
+Sie können ein Arbeitselement im Widget My Tasks and My Issues über das Bedienfeld &quot;Zusammenfassung&quot;mit &quot;Fertig&quot;markieren.
+
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Klicken Sie auf **Anpassen** , um die Widgets **My Tasks** oder **My Issues** hinzuzufügen.
+1. Bewegen Sie den Mauszeiger über das Arbeitselement und klicken Sie dann auf das Symbol **Zusammenfassung** .
+   ![](assets/open-summary-new-home.png)
+1. Klicken Sie oben im Bedienfeld &quot;Zusammenfassung&quot;auf **Als fertig markieren** .
+
 
 ## Machen Sie sich mit den Optionen der Schaltfläche [!UICONTROL Fertig] vertraut
 
@@ -81,7 +92,7 @@ Je nachdem, wie viele Status mit der Schaltfläche [!UICONTROL Fertig] verknüpf
 
 Wenn die Schaltfläche [!UICONTROL Fertig] mit einem Status verknüpft ist und das Arbeitselement Ihnen nur zugewiesen ist, lautet die Schaltfläche **[!UICONTROL Fertig]**. Wenn Sie darauf klicken, wird der Status der Aufgabe oder des Problems in den Status geändert, der mit der Schaltfläche [!UICONTROL Fertig] verknüpft ist.
 
-![Schaltfläche &quot;Fertig&quot;](assets/Done.png)
+![Schaltfläche &quot;Fertig&quot;](assets/done-button-status.png)
 
 Um zu verstehen, welcher Status mit der Schaltfläche [!UICONTROL Fertig] verknüpft ist, überprüfen Sie die [!UICONTROL Team-Einstellungen] Ihres Home-Teams für den Abschnitt [!UICONTROL Fertig-Schaltfläche] , wie unter [Team-Einstellungen bearbeiten](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md) beschrieben.
 
@@ -93,17 +104,14 @@ Wenn die Schaltfläche [!UICONTROL Fertig] mit mehr als einem Status verknüpft 
 
 Informationen dazu, wie Sie mehrere Status mit der Schaltfläche [!UICONTROL Fertig] verknüpfen können, finden Sie unter [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) und [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
-<!--
-<img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
 ### Schaltfläche [!UICONTROL Fertig] für Elemente, die mehreren Ressourcen zugewiesen sind
 
-Wenn die Aufgabe oder das Problem mehr als einer Ressource zugewiesen ist, zeigt die Schaltfläche das Wort **[!UICONTROL Fertig]** an, gefolgt von einem Dropdown-Menü. Im Dropdown-Menü haben Sie die Möglichkeit, zwischen **[!UICONTROL Fertig mit meinem Teil]** (der Team-Mitgliedern mitteilt, dass Sie mit Ihrem Teil der Aufgabe fertig sind) oder dem Status zu wählen, der mit der Schaltfläche [!UICONTROL Fertig] verknüpft ist (wodurch das Element abgeschlossen wird). Nachdem Sie **[!UICONTROL Fertig mit meinem Teil]** ausgewählt haben, wird das Arbeitselement aus Ihrer Arbeitsliste entfernt, bleibt jedoch in der Arbeitsliste der dem Arbeitselement weiterhin zugewiesenen Elemente.\
+Wenn die Aufgabe oder das Problem mehr als einer Ressource zugewiesen ist, zeigt die Schaltfläche das Wort **[!UICONTROL Fertig]** an, gefolgt von einem Dropdown-Menü. Im Dropdown-Menü haben Sie die Möglichkeit, zwischen **[!UICONTROL Fertig mit meinem Teil]** (der Team-Mitgliedern mitteilt, dass Sie mit Ihrem Teil der Aufgabe fertig sind) oder dem Status zu wählen, der der Schaltfläche [!UICONTROL Fertig] zugeordnet ist (mit der das Element abgeschlossen wird). Nachdem Sie **[!UICONTROL Fertig mit meinem Teil]** ausgewählt haben, wird das Arbeitselement aus Ihrer Arbeitsliste entfernt, bleibt jedoch in der Arbeitsliste der dem Arbeitselement weiterhin zugewiesenen Elemente.\
 Wenn die Schaltfläche Fertig mit mehreren Status verknüpft ist, werden diese unter **Fertig mit meinem Teil** aufgeführt.
 
 >[!NOTE]
 >
 >Bei einer Aufgabe oder einem Problem mit mehreren Verantwortlichen ist jeder Benutzer dafür verantwortlich anzugeben, dass seine eigene Zuweisung zu der Aufgabe oder dem Problem tatsächlich abgeschlossen wurde. Aus diesem Grund muss jeder Bevollmächtigte auf [!UICONTROL Fertig] klicken, um anzuzeigen, dass er die ihm für das Element zugewiesene Arbeit abgeschlossen hat.
 
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
+![](assets/done-with-my-part.png)
+

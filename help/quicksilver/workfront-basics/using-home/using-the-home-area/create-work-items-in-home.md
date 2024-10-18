@@ -1,25 +1,26 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Erstellen von Arbeitselementen aus dem Startbereich
-description: Sie können Arbeitselemente aus dem Bereich [!UICONTROL Home] erstellen. Sie können persönliche Aufgaben für sich selbst erstellen, Arbeiten von anderen Benutzern anfordern oder Aufgaben zu bestimmten Projekten hinzufügen.
-author: Nolan
+title: Erstellen von Arbeitselementen und Projekten aus dem Startbereich
+description: Sie können Arbeitselemente und Projekte aus dem Bereich [!UICONTROL Home] erstellen.
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '669'
+ht-degree: 3%
 
 ---
 
-# Erstellen von Arbeitselementen aus dem Startbereich
+# Erstellen von Arbeitselementen und Projekten aus dem Startbereich
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
--->
+Sie können Arbeitselemente und Projekte aus dem Bereich [!UICONTROL Home] erstellen. Von zu Hause aus können Sie
 
-Sie können Arbeitselemente aus dem Bereich [!UICONTROL Home] erstellen. Sie können persönliche Aufgaben für sich selbst erstellen, Arbeiten von anderen Benutzern anfordern oder Aufgaben zu bestimmten Projekten hinzufügen.
+* Persönliche Aufgaben für sich selbst erstellen
+* Anfragen senden
+* Hinzufügen von Aufgaben und Problemen zu bestimmten Projekten
+* Erstellen Sie Projekte aus einer Vorlage, ein leeres Projekt oder importieren Sie ein MS-Projekt.
 
 ## Zugriffsanforderungen
 
@@ -51,71 +52,117 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Persönliche Aufgabe erstellen
+## Persönliches Element erstellen
 
-Sie können eine persönliche Aufgabe erstellen, die nur Ihnen im Bereich [!UICONTROL Home] zur Verfügung steht:
-
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Klicken Sie auf **[!UICONTROL Neue Aufgabe]** > **[!UICONTROL Persönlich]**.
-
-   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
-
-1. Geben Sie im Feld **[!UICONTROL Name]** einen Namen für die Aufgabe an.
-1. (Optional) Klicken Sie auf **[!UICONTROL Datum auswählen]** und wählen Sie dann das Datum aus, an dem die Aufgabe fällig ist. Dadurch wird das [!UICONTROL geplante Abschlussdatum] für die Aufgabe festgelegt.\
-   Sie können das geplante Abschlussdatum **[!UICONTROL 1} ändern, indem Sie im rechten Bereich auf das Datum klicken oder das Datum**[!UICONTROL  Dies wird bis zum ]**Datum direkt in der Aufgabe bearbeiten.]**
-
-1. Klicken Sie auf **[!UICONTROL Erstellen]** , um die Aufgabe zu speichern.\
-   Die Aufgabe wird Ihnen zugewiesen und ist im Bereich [!UICONTROL Home] verfügbar.
-
->[!NOTE]
->
->* Wenn Sie eine persönliche Aufgabe erstellen, wird sie in einem &quot;ausgeblendeten&quot;Projekt gespeichert, das in [!UICONTROL Workfront] nicht durchsucht werden kann. Das Projekt trägt den Namen &quot;&lt; Benutzername >&#39;s Tasks&quot;. Der &quot;Benutzername&quot;ist der vollständige Name des Benutzers, der die Aufgabe erstellt hat. Sie können nur dann auf dieses Projekt zugreifen, wenn Sie im Bereich [!UICONTROL Startseite] auf die persönliche Aufgabe klicken, beispielsweise über die Breadcrumb-Leiste der Aufgabe.
->
->* Im Gegensatz zu regulären Projektaufgaben haben persönliche Aufgaben eine begrenzte Anzahl von Feldern, die in der Workfront-Benutzeroberfläche sichtbar sind und keinen Einfluss auf die Planung oder den Fortschritt von Projekten haben. Wenn Sie eine persönliche Aufgabe einem anderen Benutzer zuweisen, werden alle Aufgabenfelder zu einer persönlichen Aufgabe hinzugefügt. Die Aufgabe verbleibt jedoch im persönlichen Projekt des Benutzers, der die Aufgabe erstellt hat.
->
->
->* Persönliche Aufgaben werden nur dann auf Timesheets angezeigt, wenn sie Stunden protokolliert haben oder auf das Timesheet fixiert sind. Sie können eine persönliche Aufgabe nur dann in ein Timesheet einfügen, wenn Stunden für die Aufgabe protokolliert sind. Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
-> 
->* Es wird empfohlen, ein Projekt zu erstellen und persönliche Aufgaben dorthin zu verschieben, wenn Sie persönliche Aufgaben in den regulären Arbeitsablauf einbinden möchten.
->
-> ![[!UICONTROL Projekt für persönliche Aufgaben]](assets/createworkitems-personal--project-350x105.png)
-
-## Arbeit von einem anderen Benutzer anfordern
-
-Sie können Arbeiten von einem anderen Benutzer direkt über den Startbereich anfordern. Wenn Sie eine Arbeit von einem anderen Benutzer anfordern, wie in diesem Abschnitt beschrieben, wird die Aufgabe als Anforderung im Startbereich des Benutzers angezeigt, bis der Benutzer auf **[!UICONTROL Bearbeiten]** klickt.
-
-So fordern Sie Arbeiten von einem anderen Benutzer über den Bereich [!UICONTROL Home] an:
+Sie können ein persönliches Element erstellen, das nur Ihnen im Bereich [!UICONTROL Home] zur Verfügung steht:
 
 1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Klicken Sie auf **[!UICONTROL Neue Aufgabe]** und wählen Sie dann **[!UICONTROL Anforderung]** aus.
+1. (Bedingt) Fügen Sie Ihrem Startbildschirm das zu erledigende Widget hinzu. Klicken Sie auf **Anpassen** und suchen Sie nach **Aufgaben**.
+1. Wechseln Sie zum Widget **Aufgaben** und klicken Sie dann auf **Aufgaben hinzufügen**.
+1. Geben Sie die
+1. (Optional) Klicken Sie auf das Symbol **Datum** ![](assets/date-icon.png), um ein Fälligkeitsdatum für das Element hinzuzufügen.
+   ![](assets/my-work-to-dos.png)
 
-   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. Geben Sie im Feld **[!UICONTROL Name]** einen Namen für die Aufgabe an.
-1. Beginnen Sie im Feld **[!UICONTROL Zuweisen zu]** mit der Eingabe des Namens des Benutzers, Teams oder der Rolle, den/die Sie zuweisen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
-1. Wählen Sie im Dropdownmenü [!UICONTROL Hinzufügen als] aus, ob eine Aufgabe oder ein Problem hinzugefügt werden soll.
-1. Klicken Sie auf **[!UICONTROL Datum auswählen]** und wählen Sie dann das Datum und die Uhrzeit aus, zu der die Aufgabe fällig ist.
-1. Klicken Sie auf **[!UICONTROL Erstellen]** , um die Aufgabe zu speichern.\
-   Die Aufgabe wird als Arbeitsanforderung im Bereich [!UICONTROL Startseite] des von Ihnen angegebenen Benutzers angezeigt.
 
-## Aufgabe oder Problem zu einem Projekt hinzufügen
+## Aufgabe zu einem Projekt hinzufügen
 
-Sie können eine Aufgabe oder ein Problem direkt über den Bereich Startseite zu einem vorhandenen Projekt hinzufügen:
+Sie können einem vorhandenen Projekt eine Aufgabe direkt über den Bereich Startseite hinzufügen:
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf** Startseite **.**[!UICONTROL 
-1. Klicken Sie auf **[!UICONTROL Neue Aufgabe]** und wählen Sie dann **[!UICONTROL Projektaufgabe]** aus.
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Fügen Sie Ihrem Startbildschirm das Widget **My Tasks** hinzu. Klicken Sie auf **Anpassen** und suchen Sie nach **My Tasks**.
+1. Gehen Sie zum Widget **My Tasks** und klicken Sie dann auf **New**.
+   ![](assets/create-new-task.png)
+1. Geben Sie im Dialogfeld **Neue Aufgabe** den Aufgabennamen ein.
+1. Geben Sie einen Projektnamen ein und wählen Sie dann den Namen aus der Liste aus.
+1. (Optional) Geben Sie Informationen in die folgenden Felder ein:
 
-   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
+   | Feld | Anleitung |
+   |----------|----------|
+   | **Beschreibung** | Geben Sie eine Beschreibung ein. |
+   | **Arbeitsaufträge** | Benutzer zuweisen. |
+   | **Dauer** | Geben Sie die Dauer ein. |
+   | **Geplantes Abschlussdatum** | Wählen Sie ein geplantes Abschlussdatum aus. |
+   | **Mehr Optionen** | Wählen Sie weitere Optionen aus, um weitere Einstellungen für die Aufgabe zu konfigurieren. Weitere Informationen zum Erstellen von Aufgaben finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). |
 
-1. Geben Sie im Feld **[!UICONTROL Name]** einen Namen für die Aufgabe oder das Problem an.
-1. Beginnen Sie im Feld **[!UICONTROL Zuweisen zu]** mit der Eingabe des Namens des Benutzers, Teams oder der Rolle, den/die Sie zuweisen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
-1. Geben Sie den Namen des Projekts ein, in dem Sie die Aufgabe oder das Problem erstellen möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
+1. Klicken Sie auf **Aufgabe erstellen**.
 
-   >[!IMPORTANT]
-   >
-   >Die Aufgabe oder das Problem wird nur dann auf der [!UICONTROL Arbeitsliste] angezeigt, wenn für das Projekt [!UICONTROL Status] der Wert [!UICONTROL Aktuell] festgelegt ist.
 
-1. (Bedingt) Um ein Problem zu erstellen, wählen Sie **[!UICONTROL Problem]** aus dem Dropdownmenü **[!UICONTROL Hinzufügen als]** aus. Standardmäßig ist **[!UICONTROL Aufgabe]** ausgewählt.
+## Hinzufügen eines Problems zu einem Projekt
 
-1. Klicken Sie auf **[!UICONTROL Datum auswählen]** und wählen Sie dann das Datum und die Uhrzeit aus, zu der die Aufgabe fällig ist.
-1. Klicken Sie auf **[!UICONTROL Erstellen]** , um die Aufgabe zu speichern.
+Sie können einem vorhandenen Projekt direkt über den Bereich Startseite ein Problem hinzufügen:
+
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Fügen Sie Ihrem Startbildschirm das Widget **Meine Probleme** hinzu. Klicken Sie auf **Anpassen** und suchen Sie nach **Meine Probleme**.
+1. Gehen Sie zum Widget **Meine Probleme** und klicken Sie dann auf **Neu**.
+   ![](assets/create-new-issue.png)
+1. Geben Sie im Dialogfeld **Neues Problem** einen Projektnamen ein und wählen Sie dann den Namen aus der Liste aus.
+1. Geben Sie einen Problemnamen ein.
+1. (Optional) Geben Sie Informationen in die folgenden Felder ein:
+
+   | Feld | Anleitung |
+   |----------|----------|
+   | **Beschreibung** | Geben Sie eine Beschreibung ein. |
+   | **Arbeitsaufträge** | Benutzer zuweisen. |
+   | **Priorität** | Wählen Sie eine Prioritätsstufe aus. |
+   | **Dokumente** | Laden Sie ein Dokument hoch. |
+
+1. Klicken Sie auf **Neues Problem speichern**.
+
+## Anforderung erstellen
+
+Sie können eine Anforderung direkt im Bereich Startseite erstellen:
+
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Fügen Sie Ihrem Startbildschirm das Widget **Meine Anforderungen** hinzu. Klicken Sie auf **Anpassen** und suchen Sie nach **Meine Anforderungen**.
+1. Wechseln Sie zum Widget **Meine Anforderungen** und klicken Sie dann auf **Neu**.
+   ![](assets/create-new-request.png)
+
+1. Geben Sie im Dialogfeld **Neue Anforderung** den Namen der Anforderungswarteschlange ein.
+1. Füllen Sie die entsprechenden Felder aus.
+1. Klicken Sie auf **Senden**.
+
+Weitere Informationen zum Senden von Anforderungen finden Sie unter [Anforderungen erstellen und senden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Projekt erstellen
+
+Sie können ein Projekt direkt im Startbereich erstellen:
+
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Fügen Sie das Widget **Meine Projekte** auf Ihren Startbildschirm hinzu. Klicken Sie auf **Anpassen** und suchen Sie nach **Meine Projekte**.
+1. Wechseln Sie zum Widget **Meine Projekte** und klicken Sie dann auf **Neu**.
+   ![](assets/create-new-project.png)
+1. Wählen Sie eine der folgenden Optionen aus:
+
+   | Feld | Anleitung |
+   |----------|----------|
+   | Vorlagen | Detaillierte Anweisungen zum Erstellen eines Projekts aus einer Vorlage finden Sie unter [Erstellen eines Projekts mit einer Vorlage](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) . |
+   | Leeres Projekt | Detaillierte Anweisungen zum Erstellen eines leeren Projekts finden Sie unter [Neues Projekt erstellen](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) . |
+   | MS Project importieren | Detaillierte Anweisungen zum Importieren eines MS-Projekts finden Sie unter [Importieren eines Projekts aus Microsoft Project](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) . |
+
+
+<!--
+## Create a board
+
+You can create a board directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+
+
+
+
+
+<!--
+## Delete a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+
+## Edit a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Edit the item name.
+1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->

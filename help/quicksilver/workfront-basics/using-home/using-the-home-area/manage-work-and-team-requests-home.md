@@ -2,20 +2,23 @@
 product-area: projects;agile-and-teams
 navigation-topic: use-the-home-area
 title: Verwalten von Arbeits- und Teamanfragen im Startbereich
-description: Wenn Ihnen Arbeitsaufgaben und -probleme zugewiesen sind, werden sie auf der [!UICONTROL Arbeitsliste] im Bereich [!UICONTROL Startseite] aufgelistet. Sie können eine Anforderung anzeigen, neu zuweisen, beantworten, bearbeiten oder entfernen. Arbeitsanforderungen im Bereich [!UICONTROL Startseite] sind nicht auf Probleme beschränkt, die mit Anforderungswarteschlangen verbunden sind.
-author: Lisa
+description: Wenn Ihnen Arbeitsaufgaben und -probleme zugewiesen sind, werden sie im Widget "Meine Arbeit", im Widget "Meine Aufgaben"und im Widget "Meine Probleme"aufgeführt.  Sie können Arbeitselemente und Anforderungen anzeigen, bearbeiten oder entfernen.
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
 
+
 # Verwalten von Arbeits- und Teamanfragen im Bereich [!UICONTROL Home]
 
-Wenn Ihnen Arbeitsaufgaben und -probleme zugewiesen sind, werden sie auf der [!UICONTROL Arbeitsliste] im Bereich [!UICONTROL Startseite] aufgelistet. Sie können eine Anforderung anzeigen, neu zuweisen, beantworten, bearbeiten oder entfernen. Arbeitsanforderungen im Bereich [!UICONTROL Startseite] sind nicht auf Probleme beschränkt, die mit Anforderungswarteschlangen verbunden sind.
+Wenn Ihnen Arbeitsaufgaben und -probleme zugewiesen sind, werden sie im Widget &quot;Meine Arbeit&quot;, im Widget &quot;Meine Aufgaben&quot;und im Widget &quot;Meine Probleme&quot;aufgeführt.  Sie können Arbeitselemente und Anforderungen anzeigen, bearbeiten oder entfernen.
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 ## Zugriffsanforderungen
 
@@ -48,18 +51,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
-## Anzeigen einer Arbeitsanforderung
++++
 
-Arbeitsanforderungen, die Ihnen zugewiesen sind, werden im linken Bereich in [!UICONTROL Startseite] angezeigt. Sie können konfigurieren, welche Anforderungen in [!UICONTROL Startseite] angezeigt werden, indem Sie den Filter oben in der [!UICONTROL Arbeitsliste] verwenden.
+## Arbeitselement im Widget &quot;Meine Arbeit&quot;anzeigen
+
+Arbeitselemente, die Ihnen zugewiesen sind, werden im Widget &quot;Meine Arbeit&quot;in [!UICONTROL Startseite] angezeigt. Sie können mithilfe des Filters oben im Widget [!UICONTROL worklist] konfigurieren, welche Arbeitselemente im Widget &quot;Meine Arbeit&quot;angezeigt werden.
 
 Sie können Filter auswählen, die Elemente anzeigen, die für die Arbeit bereit sind, oder Elemente, an denen Sie derzeit arbeiten.
 
-In diesem Artikel wird beschrieben, wie Sie die Filter im Bereich [!UICONTROL Startseite] verwenden, um Elemente anzuzeigen, an denen Sie derzeit arbeiten oder die Sie in Erwägung ziehen könnten, mit der Arbeit zu beginnen. Informationen zu allen Filtern im Bereich [!UICONTROL Home] finden Sie unter [Elemente in der Arbeitsliste im Bereich [!UICONTROL Home] anzeigen](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+In diesem Artikel wird beschrieben, wie Sie die Filter im Bereich [!UICONTROL Startseite] verwenden, um Elemente anzuzeigen, an denen Sie derzeit arbeiten oder die Sie in Erwägung ziehen könnten, mit der Arbeit zu beginnen. Informationen zur Verwendung von Filtern im Bereich [!UICONTROL Startseite] finden Sie unter [Elemente in der [!UICONTROL Arbeitsliste] im Bereich [!UICONTROL Startseite] anzeigen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
+So zeigen Sie ein Arbeitselement im Widget Meine Arbeit an:
 
 1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Klicken Sie auf das Dropdown-Menü **[!UICONTROL Filter]** .
+1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Arbeit** hinzuzufügen.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
+1. Klicken Sie oben links in der Widget-Arbeitsliste auf das Symbol **Filter** ![](assets/filter-nwepng.png) .
 
 1. Klicken Sie auf eine oder beide der folgenden Optionen für Aufgaben:
 
@@ -73,86 +80,86 @@ In diesem Artikel wird beschrieben, wie Sie die Filter im Bereich [!UICONTROL St
    * Die Aufgaben und ihre Eltern haben möglicherweise Vorgänger oder Aufgabeneinschränkungen, die deren Bearbeitung verhindern.
    * Die Aufgaben oder Probleme haben ein [!UICONTROL geplantes Startdatum], das mehr als zwei Wochen in der Zukunft beträgt.
 
-
 1. Klicken Sie unter [!UICONTROL Aufgaben] oder [!UICONTROL Probleme] auf **[!UICONTROL Arbeiten an]** , um Aufgaben und Probleme anzuzeigen, an denen Sie derzeit arbeiten.
 1. Klicken Sie unter [!UICONTROL Probleme] auf **[!UICONTROL Angefordert]** , um Probleme anzuzeigen, die von Ihnen angefordert wurden (Ihnen wurden zugewiesen), für die Sie sich jedoch noch nicht zur Arbeit bereit erklärt haben.
 
-## Zugriff auf eine Teamanfrage
+## Zugriff auf eine Teamanfrage im Team Request-Widget
 
-Sie können direkt über den Bereich [!UICONTROL Home] auf eine Ihrem Team zugewiesene Anforderung zugreifen. Weitere Informationen zu Team-Anforderungen finden Sie unter [Übersicht über Team-Anforderungen](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Sie können auf eine Ihrem Team zugewiesene Anforderung direkt über das Widget &quot;Team Requests&quot;im Bereich [!UICONTROL Home] zugreifen. Weitere Informationen zu Team-Anforderungen finden Sie unter [Übersicht über Team-Anforderungen](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Klicken Sie im Bereich **[!UICONTROL Arbeitsliste]** auf , um die Gruppe **[!UICONTROL Team-Anforderungen]** zu erweitern.
-
-   Wenn Ihrem Team keine Anforderungen zugewiesen sind, wird die Gruppierung nicht angezeigt.
-
-   ![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
-
-1. Klicken Sie auf den Teamnamen.\
-   Im Abschnitt **[!UICONTROL Team-Anforderungen]** werden alle Anforderungen angezeigt, die Ihrem Team zugewiesen sind. Weitere Informationen zum Arbeiten mit Teamanfragen finden Sie unter [Verwalten von Arbeits- und Teamanfragen](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-## Anforderung erneut zuweisen
+So greifen Sie auf eine Teamanfrage zu:
 
 1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Wählen Sie im Bereich **[!UICONTROL Arbeitsliste]** die Anforderung aus, die Sie neu zuweisen möchten.
+1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Team Requests** hinzuzufügen.
 
-1. Klicken Sie auf das Widget **[!UICONTROL Zuweisungen]** , entfernen Sie sich aus der Anforderung und geben Sie dann den Namen des Benutzers ein, dem Sie die Anforderung neu zuweisen möchten.
+   Das Widget zeigt Teamanfragen unter Teamgruppierungen an. Das Widget **[!UICONTROL Team Requests]** zeigt alle Anfragen an, die einem beliebigen Team zugewiesen sind, in dem Sie sich befinden. Weitere Informationen zum Arbeiten mit Teamanfragen finden Sie unter [Verwalten von Arbeits- und Teamanfragen](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+
+   ![](assets/team-request-widget.png)
+
+## Bearbeiten eines Arbeitselements im Widget &quot;Meine Arbeit&quot;
+
+Wenn Sie auf die Schaltfläche [!UICONTROL Bearbeiten] klicken, geben Sie dies dem Benutzer, der das Arbeitselement gesendet hat, und jedem anderen Benutzer an, der möglicherweise dem Arbeitselement zugewiesen ist, mit dem Sie mit der Arbeit beginnen werden.
+
+So arbeiten Sie an einem Arbeitselement:
+
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Arbeit** hinzuzufügen.
+
+1. Wählen Sie im Bereich **[!UICONTROL worklist]** des Widgets die Anforderung aus, an der Sie arbeiten möchten, und klicken Sie dann auf **[!UICONTROL Work On It]**.
+1. Bewegen Sie den Mauszeiger über das Arbeitselement und klicken Sie dann auf das Symbol **Zusammenfassung** , um Informationen zum Arbeitselement anzuzeigen.
+
+   ![](assets/open-summary-new-home.png)
+
+
+## Arbeitselement entfernen
+
+Wenn Sie sich dafür entscheiden, das Arbeitselement nicht zu bearbeiten, können Sie es aus Ihrer Liste entfernen.
+
+So entfernen Sie ein Arbeitselement:
+
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Arbeit** hinzuzufügen.
+
+1. Bewegen Sie in der Widget-Arbeitsliste den Mauszeiger über das Arbeitselement und klicken Sie dann auf das Symbol **Zusammenfassung** , um Informationen zum Arbeitselement anzuzeigen.
+   ![](assets/open-summary-new-home.png)
+1. Entfernen Sie im Abschnitt **Zuweisungen** Ihren Namen.
+   ![](assets/remove-assignment.png)
+
+
+
+<!--
+## Reassign a request
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
+
+1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
 
    >[!TIP]
    >
-   >Wenn sich die Arbeitanforderung noch im Status &quot;Bereit zum Start&quot;oder &quot;Nicht bereit&quot;befindet, können Sie die Schaltfläche **[!UICONTROL Neu zuweisen]** im Menü **[!UICONTROL Mehr]** in der [!UICONTROL Arbeitsliste] verwenden.\
-   >![Schaltfläche &quot;Neu zuweisen&quot;](assets/reassign-in-left-panel-350x204.png)
+   >If the work request is still in the Ready to Start or Not Ready state, you can use the **[!UICONTROL Reassign]** button in the **[!UICONTROL More]** menu in the [!UICONTROL Work List].\
+   >![Reassign button](assets/reassign-in-left-panel-350x204.png)
 
-1. Wenn der Status einer Aufgabe nach Abschluss in [!UICONTROL Neu] oder [!UICONTROL In Bearbeitung] geändert wird, müssen Sie die Zuweisung des Benutzers aufheben, die Aufgabe speichern und den Benutzer neu zuweisen, damit die Aufgabe wieder in der Arbeitsliste der Startseite angezeigt wird.
+1. If a task's status is changed to [!UICONTROL New] or [!UICONTROL In Progress] after it was completed, you must unassign the user, save the task, then reassign the user in order for the task to reappear in their Home Work List.
 
-## Antwort auf eine Anfrage
 
-Sie können auf eine Anfrage antworten, um die Anfrage weiter zu klären oder ein neues Datum vorzuschlagen.
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Wählen Sie im Bereich **[!UICONTROL Arbeitsliste]** die Anforderung aus, auf die Sie antworten möchten.
-1. Suchen Sie die Person, die Ihnen die Anfrage zugewiesen hat.
+## Reply to a request
 
-   Sie finden diese Informationen auf der Registerkarte [!UICONTROL Aktualisierungen] der Aufgabe. Stellen Sie sicher, dass die Option &quot;**[!UICONTROL Systemaktualisierungen anzeigen]**&quot;aktiviert ist.
+You can reply to a request to further clarify the request or to propose a new date.
 
-1. Klicken Sie auf **[!UICONTROL Neues Update starten]** und beginnen Sie mit der Eingabe Ihrer Antwort.
-1. Geben Sie den Namen des Empfängers in das Feld **[!UICONTROL Benachrichtigen]** ein und klicken Sie dann auf **[!UICONTROL Aktualisieren]**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
+1. Locate the individual who assigned the request to you.
+
+   You can find this information on the [!UICONTROL Updates] tab of the task. Make sure the option to **[!UICONTROL Show System Updates]** is enabled.
+
+1. Click **[!UICONTROL Start new update]** and begin typing your reply.
+1. Enter the name of the recipient in the **[!UICONTROL Notify]** box, then click **[!UICONTROL Update]**.
 
    >[!TIP]
    >
-   >Wenn sich die Arbeitanforderung noch im Status &quot;Bereit zum Start&quot;oder &quot;[!UICONTROL Nicht bereit]&quot;befindet, können Sie die Schaltfläche &quot;**[!UICONTROL Antwort]**&quot;im Menü &quot;**[!UICONTROL Mehr]**&quot;in der [!UICONTROL Arbeitsliste]&quot;verwenden.\
-   >![[!UICONTROL Schaltfläche &quot;Antworten&quot;]](assets/reassign-in-left-panel-350x204.png)   >
+   >If the work request is still in the Ready to Start or [!UICONTROL Not Ready] state, you can use the **[!UICONTROL Reply]** button in the **[!UICONTROL More]** menu in the [!UICONTROL Work List].\
+   >![[!UICONTROL Reply button]](assets/reassign-in-left-panel-350x204.png)   
 
-## Bearbeitung einer Anforderung
-
-Wenn Sie auf die Schaltfläche [!UICONTROL Bearbeiten] klicken, geben Sie an den Benutzer, der die Anforderung gesendet hat, und an jeden anderen Benutzer, der der Anforderung möglicherweise zugewiesen ist, dass Sie mit der Bearbeitung der Anforderung beginnen werden. Weitere Informationen zum Bearbeiten von Anforderungen finden Sie unter [Verwalten von Arbeits- und Teamanfragen](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Wählen Sie im Bereich **[!UICONTROL Arbeitsliste]** die Anforderung aus, an der Sie arbeiten möchten, und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.\
-   Informationen zum Problem werden im rechten Bereich angezeigt.
-
-## Anforderung entfernen
-
-Wenn Sie sich dafür entscheiden, die Anforderung nicht zu bearbeiten, können Sie die Aufgabe oder das Problem entweder zurück in eine Anforderung konvertieren oder aus Ihrer Liste entfernen.
-
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Zeigen Sie in der **[!UICONTROL Arbeitsliste]** auf das Element, auf das gewartet wird.
-1. Klicken Sie auf das Widget **[!UICONTROL Zuweisungen]** und entfernen Sie sich selbst. Dadurch wird das Arbeitselement aus der Arbeitsliste entfernt. Wenn die Anforderung keinem anderen Benutzer oder einer anderen Team- oder Jobrolle zugewiesen wird, bleibt die Zuweisung der Anforderung aufgehoben.
-
-   Oder
-
-   Klicken Sie auf das Menüsymbol **[!UICONTROL Mehr]** rechts neben dem Namen der Aufgabe oder des Problems in der Liste [!UICONTROL Home Work].![](assets/more-icon.png)
-
-   ![](assets/more-menu-in-home-work-list-convert-to-request-remove-add-to-priority-options-nwe-350x160.png)
-
-1. Wählen Sie aus den folgenden Optionen aus:
-
-   * **[!UICONTROL In Arbeitsanforderung konvertieren]:** Wählen Sie diese Option, um das Arbeitselement wieder in eine Arbeitsanforderung zu konvertieren.\
-
-     Das Arbeitselement wird zurück zu einer Anforderung übergeben und Sie bleiben der Anforderung zugewiesen.\
-      Sie können die Anforderung zu einem späteren Zeitpunkt annehmen, indem Sie erneut auf **[!UICONTROL Bearbeiten]** klicken.
-
-   * **[!UICONTROL Entfernen]:** Wählen Sie diese Option aus, um eine Anforderung aus Ihrer [!UICONTROL Arbeitsliste] zu entfernen.\
-
-     Sie werden aus der Anfrage nicht zugewiesen und die Anfrage ist nicht mehr mit Ihrem Namen in [!DNL Adobe Workfront] verknüpft.\
-      Wenn die Anforderung keinem anderen Benutzer oder einer anderen Team- oder Jobrolle zugewiesen wird, bleibt die Zuweisung der Anforderung aufgehoben.
+   -->

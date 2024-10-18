@@ -6,10 +6,10 @@ description: Sie können ein Arbeitselement im Bereich [!UICONTROL Startseite] i
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 0%
+source-wordcount: '658'
+ht-degree: 4%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--Audited: April 2024-->
 
 Sie können ein Arbeitselement im Bereich [!UICONTROL Startseite] in [!DNL Adobe Workfront] anzeigen und ihm Aktualisierungen hinzufügen. Sie können auch andere Daten im Zusammenhang mit dem Arbeitselement bearbeiten, wenn Sie Zugriff darauf haben.
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 ## Zugriffsanforderungen
 
@@ -53,6 +55,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 *Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Anzeigen von Aktualisierungen für ein Arbeitselement
 
 Sie können Aktualisierungen für jedes Arbeitselement in der [!UICONTROL Arbeitsliste] anzeigen:
@@ -61,41 +65,60 @@ Sie können Aktualisierungen für jedes Arbeitselement in der [!UICONTROL Arbeit
 1. Wählen Sie im Bereich **[!UICONTROL Arbeitsliste]** das Element aus, für das Sie Aktualisierungen anzeigen möchten.\
    Aktualisierungen werden im rechten Bereich angezeigt.
 
-1. (Optional) Um Systemaktualisierungen so zu filtern, dass nur Benutzeraktualisierungen angezeigt werden, schalten Sie **[!UICONTROL Systemaktualisierungen anzeigen]** auf Aus.
 
-   ![](assets/show-system-updates-home-350x114.png)
 
-## Bereitstellen von Aktualisierungen für ein Arbeitselement
+## Hinzufügen eines Kommentars zu einem Arbeitselement
 
 Sie können Aktualisierungen für jedes Arbeitselement in der Liste [!UICONTROL Arbeit] bereitstellen:
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Wählen Sie im Bereich **[!UICONTROL Arbeitsliste]** das Element aus, für das Sie eine Aktualisierung bereitstellen möchten.
-1. Klicken Sie im rechten Bereich auf **[!UICONTROL Aktualisieren]** , um ein Textfeld anzuzeigen.
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Klicken Sie auf **Anpassen** , um eines der folgenden Widgets hinzuzufügen:
 
-   ![](assets/make-an-update-box-expanded-home-nwe-350x204.png)
+   | Widget | Beschreibung |
+   |--------------|---------------------------------------------------------------------------------------------------|
+   | Pinnwände | Zeigt alle Pinnwände an, die Sie erstellt haben oder zur Verwendung eingeladen wurden |
+   | Meine Arbeit | Zeigt Ihnen zugewiesene Aufgaben und Probleme an |
+   | Meine Projekte | Zeigt Projekte an, deren Inhaber Sie sind, oder Projekte, auf denen Sie sich befinden |
+   | Meine Aufgaben | Zeigt Ihnen zugewiesene Aufgaben an |
+   | Meine Probleme | Zeigt Ihnen zugewiesene Probleme an |
+   | Meine Anfragen | Zeigt alle Anfragen an, die Sie gesendet haben |
+   | Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, zugewiesenen und gesendeten Genehmigungen an |
 
-1. Geben Sie im entsprechenden Feld Ihre Aktualisierung an.
-1. (Optional) Geben Sie eine der folgenden Informationen an:\
-   **[!UICONTROL Veröffentlichungsdatum]:** Wählen Sie ein Datum aus der Datumsauswahl aus, wenn Sie sich verpflichten, das Arbeitselement abzuschließen.\
-   **[!UICONTROL Wie geht es?]:** Wählen Sie eine neue Bedingung für die Aufgabe oder das Problem aus. Weitere Informationen zu Aufgaben- und Problembedingungen finden Sie unter [Aktualisierungsbedingung für Aufgaben und Probleme](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
-   **[!UICONTROL Status]:** Wählen Sie einen neuen Status für die Aufgabe oder das Problem aus. Weitere Informationen zum Aufgabenstatus finden Sie unter [Aufgabenstatus aktualisieren](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Weitere Informationen zu den Problemstatus finden Sie unter [Zugriff auf die Liste der Systemfehlerstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
-   **[!UICONTROL Abschlussleiste]:** Gibt den Prozentsatz der abgeschlossenen Arbeit an, indem der Fortschrittsbalken auf den gewünschten Prozentsatz verschoben wird. Sie können auch auf die Abschlussleiste doppelklicken und den Prozentsatz eingeben, der abgeschlossen ist.
+1. Suchen Sie das Arbeitselement, das Sie aktualisieren möchten.
+1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf **Neues Update hinzufügen**.
+   ![](assets/add-update-on-widget.png)
+1. Beginnen Sie mit der Eingabe Ihres Kommentars.
+1. (Optional) Beginnen Sie im Feld **Personen oder Teams taggen** mit der Eingabe des Namens oder der E-Mail eines Benutzers oder eines Teams, das Sie in diesen Kommentar aufnehmen möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis, Links oder Bilder zu Ihrem Kommentar hinzuzufügen, um Ihren Inhalt zu verbessern.
+1. Klicken Sie auf **Senden** , um den Kommentar zum Arbeitselement hinzuzufügen.
 
-1. Klicken Sie auf **[!UICONTROL Aktualisieren]**.
+   >[!IMPORTANT]
+   >
+   >Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Um einen Kommentar zu bearbeiten, klicken Sie auf das Menü **Mehr** in der oberen rechten Ecke des Kommentars und dann auf **Bearbeiten**.
+
+Weitere Informationen zum Hinzufügen von Aktualisierungen finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Arbeitselement bearbeiten
 
 Sie können jedes Feld eines beliebigen Arbeitselements bearbeiten, auf das Sie Zugriff haben.
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Wählen Sie im Bereich **[!UICONTROL Arbeitsliste]** das Element aus, das Sie bearbeiten möchten.\
-   Alle Felder, auf die Sie Zugriff haben, werden im rechten Bereich angezeigt.
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Klicken Sie auf **Anpassen** , um eines der folgenden Widgets hinzuzufügen:
 
-1. Bewegen Sie im rechten Bereich den Mauszeiger über das Feld, das Sie bearbeiten möchten.\
-   Wenn Sie berechtigt sind, das Feld zu bearbeiten, wird das Feld hervorgehoben, während Sie den Mauszeiger darüber bewegen.
+   | Widget | Beschreibung |
+   |--------------|---------------------------------------------------------------------------------------------------|
+   | Pinnwände | Zeigt alle Pinnwände an, die Sie erstellt haben oder zur Verwendung eingeladen wurden |
+   | Meine Arbeit | Zeigt Ihnen zugewiesene Aufgaben und Probleme an |
+   | Meine Projekte | Zeigt Projekte an, deren Inhaber Sie sind, oder Projekte, auf denen Sie sich befinden |
+   | Meine Aufgaben | Zeigt Ihnen zugewiesene Aufgaben an |
+   | Meine Probleme | Zeigt Ihnen zugewiesene Probleme an |
+   | Meine Anfragen | Zeigt alle Anfragen an, die Sie gesendet haben |
+   | Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, zugewiesenen und gesendeten Genehmigungen an |
 
-   ![](assets/home-350x123.png)
+1. Bewegen Sie den Mauszeiger über das Arbeitselement und klicken Sie dann auf das Symbol **Zusammenfassung** .
+   ![](assets/open-summary-new-home.png)
 
+1. Bewegen Sie im Bereich &quot;Zusammenfassung&quot;den Mauszeiger über das Feld, das Sie bearbeiten möchten.
+Wenn Sie berechtigt sind, das Feld zu bearbeiten, wird das Feld hervorgehoben, während Sie den Mauszeiger darüber bewegen.
 1. Klicken Sie auf das Feld, das Sie bearbeiten möchten, und nehmen Sie die gewünschte Aktualisierung vor.
 1. Klicken Sie aus dem Feld weg, um Ihre Änderungen zu speichern.

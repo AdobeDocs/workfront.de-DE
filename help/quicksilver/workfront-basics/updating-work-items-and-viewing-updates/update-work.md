@@ -6,7 +6,7 @@ description: Sie können ein Adobe Workfront-Objekt (Projekt, Aufgabe oder Probl
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
 source-wordcount: '3065'
 ht-degree: 0%
@@ -133,7 +133,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Von einem Workfront-Objekt aus im Abschnitt Updates (für Projekte, Aufgaben und Probleme)
    * Im Startbereich (für Aufgaben und Probleme)
 
-     Weitere Informationen finden Sie unter [Verwalten Ihrer Arbeit mit dem Widget &quot;Meine Arbeit&quot;](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md).
+     Weitere Informationen finden Sie unter [Verwalten Ihrer Arbeit mit dem Widget &quot;Meine Arbeit&quot;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
    * Im Bereich &quot;Zusammenfassung&quot;in den folgenden Bereichen (für Aufgaben, Probleme und Dokumente):
 
       * Eine Liste von Objekten

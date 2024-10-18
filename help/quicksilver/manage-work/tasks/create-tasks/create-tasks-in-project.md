@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '749'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Sie können Aufgaben in einem Projekt erst erstellen, nachdem Sie das Projekt er
 
 Beispielsweise können Sie nach der Erstellung eines Projekts Aufgaben hinzufügen und ändern, um den Projektplan zu organisieren. Weitere Informationen zum Erstellen eines Projekts finden Sie unter [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
-Informationen zum Erstellen persönlicher Aufgaben, die sich nicht in einem Projekt befinden, finden Sie im Abschnitt [Erstellen einer persönlichen Aufgabe](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) im Artikel [Erstellen von Arbeitselementen aus dem Startbereich](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Informationen zum Erstellen persönlicher Aufgaben, die sich nicht in einem Projekt befinden, finden Sie im Abschnitt [Erstellen einer persönlichen Aufgabe](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) im Artikel [Erstellen von Arbeitselementen und Projekten aus dem Startbereich](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 In diesem Artikel wird beschrieben, wie Sie Aufgaben von Grund auf neu erstellen. Sie können Aufgaben auch wie folgt erstellen:
 

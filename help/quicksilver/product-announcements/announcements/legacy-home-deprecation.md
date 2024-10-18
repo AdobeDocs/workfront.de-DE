@@ -6,9 +6,9 @@ description: Diese Seite enthält Informationen über die bevorstehende Einstell
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Trotzdem wissen wir, dass eine solche Änderung störend sein kann, und wir möc
 
 **Was kann ich stattdessen verwenden?**
 
-* Als Ersatz ist bereits eine neue Startseite verfügbar. Weitere Informationen zur Verwendung des neuen Home finden Sie unter [Erste Schritte mit dem neuen Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) . Sie kann sowohl von Benutzern über Personalisierungsoptionen als auch von Administratoren über Layoutvorlagen angepasst werden.
+* Als Ersatz ist bereits eine neue Startseite verfügbar. Weitere Informationen zur Verwendung des neuen Home finden Sie unter [Erste Schritte mit dem neuen Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) . Sie kann sowohl von Benutzern über Personalisierungsoptionen als auch von Administratoren über Layoutvorlagen angepasst werden.
 
 * Die Prioritäten sind in der Entwicklung und werden als weiteres Element der optimierten Arbeitserfahrung in Adobe Workfront dienen.
 
@@ -54,13 +54,13 @@ Wir empfehlen Administratoren:
 
 1. Weisen Sie den Rest Ihrer Benutzer dem neuen Layout der Startseite zu.
 
-Dadurch erhalten Ihre Benutzer so bald wie möglich Zeit, sich an das neue Erlebnis anzupassen und ihre neuen Startseiten an ihre individuellen Bedürfnisse anzupassen. Unter [Entfernen, Hinzufügen und Neuanordnen von Widgets auf der neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) finden Sie Informationen dazu, wie Benutzer die Widgets auf ihrer eigenen neuen Startseite anpassen können.
+Dadurch erhalten Ihre Benutzer so bald wie möglich Zeit, sich an das neue Erlebnis anzupassen und ihre neuen Startseiten an ihre individuellen Bedürfnisse anzupassen. Unter [Entfernen, Hinzufügen und Neuanordnen von Widgets auf der neuen Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) finden Sie Informationen dazu, wie Benutzer die Widgets auf ihrer eigenen neuen Startseite anpassen können.
 
 ### Erfahren Sie, was in den neuen Startseiten und Prioritäten verfügbar ist.
 
 In den folgenden Artikeln erfahren Sie, welche Funktionen in den neuen Startseiten und Prioritäten verfügbar sind:
 
-* [Wechsel von der alten Startseite zur neuen Startseite](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [Übergang von der alten Startseite zu Prioritäten](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Befolgen Sie die Entwicklung des Starterlebnisses.
