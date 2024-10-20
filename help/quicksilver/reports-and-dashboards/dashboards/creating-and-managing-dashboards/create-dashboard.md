@@ -6,9 +6,9 @@ description: Sie können Dashboards erstellen, um schnell auf Informationen in A
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -102,13 +102,13 @@ Sie können vorhandene externe Seiten zu einem Dashboard hinzufügen oder eine a
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Suchen Sie im Feld **Suche nach Name oder Typ ...** nach Berichten, Kalendern oder externen Seiten und ziehen Sie sie in den Layout-Bereich, wenn sie in der Liste angezeigt werden.
+1. Geben Sie im Abschnitt **Verfügbare Berichte und Kalender** den Namen eines Berichts, Kalenders oder einer externen Seite in die Suchleiste ein und ziehen Sie dann den Bericht, den Kalender oder die externe Seite in den Layout-Bereich auf die rechte Seite.
 
    >[!NOTE]
    >
    >Bei der Suche nach einem Element gibt die Suche einen der 2.000 zuletzt erstellten Berichte zurück. Berichtsnamen, die Unicode-Zeichen enthalten, werden in den Suchergebnissen nicht zurückgegeben. Es empfiehlt sich, beim Benennen von Objekten in Workfront nicht Unicode-Zeichen einzuschließen, indem Sie Namen eingeben, anstatt Namen aus einer anderen Quelle zu kopieren und einzufügen.
 
-   ![Suche nach Berichten](assets/qs-new-dashboard-ui-0722.png)
+   ![Suche nach Berichten](assets/unshimmed-dashboard-ui.png)
 
 1. (Optional) Klicken Sie auf **Externe Seite hinzufügen** , um dem Dashboard eine neue externe Seite hinzuzufügen.
 

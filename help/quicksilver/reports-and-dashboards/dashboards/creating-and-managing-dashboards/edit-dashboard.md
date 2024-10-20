@@ -6,9 +6,9 @@ description: Das Dashboard ermöglicht einen schnellen Zugriff auf Informationen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Informationen zum Erstellen von Dashboards finden Sie unter [Dashboards erstelle
    * **Name**: Bearbeiten Sie den Namen des Dashboards.
    * **Beschreibung**: Geben Sie eine Beschreibung für das Dashboard an.
 
-1. Geben Sie im Abschnitt **Verfügbare Berichte** den Namen eines Berichts oder einer externen Seite in das Feld **Suche nach Name oder Typ ...** ein und ziehen Sie dann den Bericht in den Layout-Bereich auf die rechte Seite.
+1. Geben Sie im Abschnitt **Verfügbare Berichte und Kalender** den Namen eines Berichts, Kalenders oder einer externen Seite in die Suchleiste ein und ziehen Sie dann den Bericht, den Kalender oder die externe Seite in den Layout-Bereich auf die rechte Seite.
 
    >[!NOTE]
    >
