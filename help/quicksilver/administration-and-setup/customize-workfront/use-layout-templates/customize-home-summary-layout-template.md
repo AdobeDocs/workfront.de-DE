@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '905'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
 1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow.png) unter **Anpassen, was Benutzer sehen**, und klicken Sie dann auf **Zusammenfassungsbereich**.
 
-1. Klicken Sie links in der Liste auf den Objekttyp (**Aufgaben**, **Probleme**, **Projekte**, **Dokumente** oder **Dokumentversionen**), den Sie in &quot;Startseite und Zusammenfassung&quot;anpassen möchten.
+1. Klicken Sie in der Liste auf der linken Seite auf den Objekttyp (**Aufgaben**, **Probleme**, **Projekte**, **Dokumente** oder **Dokumentversionen**), den Sie im Bereich &quot;Zusammenfassung&quot;anpassen möchten.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Bedingt) Wenn das Dropdown-Menü **Schaltfläche &quot;Primäre Aktion festlegen&quot;** angezeigt wird (wenn Sie in der Liste links die Option **Aufgaben** oder **Probleme** auswählen), klicken Sie auf die primäre Aktion (**Fertig** oder **Status**), die Sie Benutzern im Startbereich und im Bedienfeld &quot;Zusammenfassung&quot;zur Verfügung stellen möchten, wenn sie eine Aufgabe oder ein Problem anzeigen.
+1. (Bedingt) Wenn das Dropdown-Menü **Schaltfläche &quot;Primäre Aktion festlegen&quot;** angezeigt wird (wenn Sie in der Liste auf der linken Seite die Option **Aufgaben** oder **Probleme** auswählen), klicken Sie auf die primäre Aktion (**Fertig** oder **Status**), die Benutzern im Zusammenfassungsbereich zur Verfügung stehen soll, wenn sie eine Aufgabe oder ein Problem anzeigen.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Wiederholen Sie die Schritte 3 bis 6, um den Bereich &quot;Zusammenfassung&quot;für alle anderen Objekttypen anzupassen.
-1. Klicken Sie unten links auf **Globale Einstellungen** und aktivieren oder deaktivieren Sie dann eine der folgenden Optionen, die sich auf Adobe Workfront-Objekte in Startseite und Zusammenfassung beziehen:
+1. Klicken Sie unten links auf **Globale Einstellungen** und aktivieren oder deaktivieren Sie dann eine der folgenden Optionen, die sich auf Adobe Workfront-Objekte in der Zusammenfassung beziehen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
     <tbody> 
      <tr> 
       <td role="rowheader">Updates für Arbeiten anzeigen</td> 
-      <td>Zeigt alle Aktualisierungen an, die an einer ausgewählten Aufgabe oder einem Problem in der Startseite oder Zusammenfassung vorgenommen wurden. Dies umfasst sowohl Systemaktualisierungen als auch Aktualisierungen, die von einem Benutzer vorgenommen werden. Benutzer können weiterhin Systemaktualisierungen herausfiltern, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Systemaktualisierungen aktivieren oder deaktivieren</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Arbeit aktualisieren</a> beschrieben.</td> 
+      <td>Zeigt alle Aktualisierungen an, die an einer ausgewählten Aufgabe oder einem ausgewählten Problem im Bereich "Zusammenfassung"vorgenommen wurden. Dies umfasst sowohl Systemaktualisierungen als auch Aktualisierungen, die von einem Benutzer vorgenommen werden. Benutzer können weiterhin Systemaktualisierungen herausfiltern, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Systemaktualisierungen aktivieren oder deaktivieren</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Arbeit aktualisieren</a> beschrieben.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zeit für Arbeit erfassen</td> 
@@ -140,16 +140,16 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
      </tr> 
      <tr> 
       <td role="rowheader">Anzeigen von Dokumenten, die mit Arbeiten verknüpft sind</td> 
-      <td>Zeigt den Bereich "Dokumente"in Startseite und Zusammenfassung an, wenn eine Aufgabe oder ein Problem ausgewählt ist, und listet alle Dokumente auf, die mit der Aufgabe oder dem Problem verbunden sind. Benutzer können auf Dokumente klicken, um sie in einem Vorschaufenster anzuzeigen.</td> 
+      <td>Zeigt den Bereich Dokumente im Bereich Zusammenfassung an, wenn eine Aufgabe oder ein Problem ausgewählt ist, und listet alle Dokumente auf, die mit der Aufgabe oder dem Problem verbunden sind. Benutzer können auf Dokumente klicken, um sie in einem Vorschaufenster anzuzeigen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zeitstempel ausblenden</td> 
-      <td>Blendet Zeitstempel für die folgenden Datumsfelder in Startseite und Zusammenfassung aus:
+      <td>Blendet Zeitstempel für die folgenden Datumsfelder im Bereich "Zusammenfassung"aus:
        <ul>
         <li>Geplantes Abschlussdatum</li>
         <li>Verpflichtungsdatum</li>
         <li>Gesendetes Datum</li>
-       </ul><p><b>NOTE</b>:</p> <p> Wenn diese Option aktiviert ist, werden Arbeitselemente, die überfällig werden, in die verspätete Gruppierung in der Hausarbeitsliste verschoben, wobei nur das Datum und nicht die Uhrzeit verwendet wird.</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>

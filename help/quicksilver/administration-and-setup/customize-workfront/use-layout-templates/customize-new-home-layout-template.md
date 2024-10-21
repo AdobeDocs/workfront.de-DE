@@ -3,21 +3,21 @@ title: Anpassen der neuen Startseite mithilfe einer Layoutvorlage
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was Benutzer sehen, wenn sie die neue Startseite öffnen.
+description: Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was Benutzer sehen, wenn sie die Startseite öffnen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
 
-# Neue Startseite mit einer Layout-Vorlage anpassen
+# Anpassen der Startseite mithilfe einer Layout-Vorlage
 
-Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was Benutzer sehen, wenn sie die neue Startseite zum ersten Mal öffnen.
+Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was Benutzer sehen, wenn sie die Startseite zum ersten Mal öffnen.
 
 Sie können Folgendes konfigurieren:
 
@@ -33,7 +33,7 @@ Sie können Folgendes konfigurieren:
 
 
 
-Weitere Informationen zum neuen Home finden Sie unter [Erste Schritte mit Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Weitere Informationen zur Startseite finden Sie unter [Erste Schritte mit der Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -73,9 +73,9 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
 +++
 
-## Neue Startseite mit einer Layoutvorlage anpassen
+## Startseite mit einer Layoutvorlage anpassen
 
-So passen Sie die neue Startseite mit einer Layoutvorlage an:
+So passen Sie die Startseite mithilfe einer Layoutvorlage an:
 
 1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
 
@@ -91,13 +91,13 @@ So passen Sie die neue Startseite mit einer Layoutvorlage an:
       <td role="rowheader">Design und Layout</td> 
       <td>
       <p>Wählen Sie aus, welche Widgets in den Arbeitsbereichen der Benutzer vorhanden sein sollen, geben Sie ihre Position an und wählen Sie einen Hintergrund aus. Beachten Sie, dass Benutzer zwar die ausgewählten Widgets nicht entfernen können, sie sich jedoch frei bewegen und ihre Größe ändern sowie zusätzliche Widgets hinzufügen können.</p>
-      <p>Diese Registerkarte fungiert im Wesentlichen als kleiner neuer Home-Arbeitsbereich. Daher kann sie entsprechend den Schritten angepasst werden, die unter <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der Startseite</a> beschrieben sind. Wählen Sie Widgets aus und ordnen Sie den Arbeitsbereich so an, wie er für Benutzer angezeigt werden soll.</p>
+      <p>Diese Registerkarte funktioniert im Wesentlichen als kleiner Home-Arbeitsbereich. Daher kann sie entsprechend den Schritten angepasst werden, die unter <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Widgets in Home</a> hinzufügen, bearbeiten oder entfernen beschrieben werden. Wählen Sie Widgets aus und ordnen Sie den Arbeitsbereich so an, wie er für Benutzer angezeigt werden soll.</p>
       <p>Um den Hintergrund zu ändern, führen Sie die Schritte unter <b>Hintergrundanpassung</b> in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Erste Schritte mit Startseite</a> aus.</p>
       <p>
 
 >[!NOTE]
 >
->Nur durch Verschieben oder Ändern der Größe von Widgets in der Layout-Vorlage werden die neuen Startseiten von Benutzern nicht zum Aktualisieren ihres Layouts Trigger. Das Hinzufügen oder Entfernen eines Widgets Trigger jedoch eine Aktualisierung der Benutzerseiten.
+>Durch das Verschieben oder Ändern der Größe von Widgets in der Layout-Vorlage werden die Startseiten von Benutzern nicht zur Aktualisierung ihres Layouts Trigger. Das Hinzufügen oder Entfernen eines Widgets Trigger jedoch eine Aktualisierung der Benutzerseiten.
 
 </p>
      </td> 
@@ -119,7 +119,8 @@ So passen Sie die neue Startseite mit einer Layoutvorlage an:
 
 >[!IMPORTANT]
 >
->Benutzer müssen mindestens Zugriff auf Ansichten erstellen haben, damit die Konfiguration der Administrator-Spalte ordnungsgemäß auf ihre neuen Startseiten angewendet werden kann.
+>* Die Optionen Filter, Spalten und Gruppe sind mit den Optionen zur Listenanpassung in der Layout-Vorlage verknüpft. Die hier vorgenommenen Änderungen gelten auch für diese Einstellungen.
+>* Benutzer müssen mindestens Zugriff auf Ansichten erstellen haben, damit die Konfiguration der Administrator-Spalte ordnungsgemäß auf ihre Startseiten angewendet werden kann.
 
 </p>
       <li><p><b>Legen Sie einen Standardfilter oder eine Gruppe für das Widget fest:</b></p>
@@ -147,4 +148,4 @@ So passen Sie die neue Startseite mit einer Layoutvorlage an:
 
 >[!IMPORTANT]
 >
->Sie müssen die neue Startseite aktualisieren, um Anpassungen aus der Layoutvorlage anzuzeigen.
+>Sie müssen die Startseite aktualisieren, um Anpassungen aus der Layoutvorlage anzuzeigen.
