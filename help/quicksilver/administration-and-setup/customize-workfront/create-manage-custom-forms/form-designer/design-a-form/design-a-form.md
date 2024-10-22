@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '5575'
+source-wordcount: '5540'
 ht-degree: 5%
 
 ---
@@ -562,9 +562,8 @@ Beispiele für die Verwendung des externen Suchfelds zum Aufrufen derselben Inst
 
 >[!NOTE]
 >
->* Externe Suchfelder aus benutzerdefinierten Formularen werden in Dashboards derzeit nicht unterstützt. Sie können den Feldwert nicht inline bearbeiten und er wird möglicherweise nicht richtig in einem Dashboard angezeigt. (Externe Suchfelder werden in Leinwanddashboards unterstützt.)
 >* Externe Suchfelder werden im Outlook-Plug-in nicht unterstützt.
->* Externe Suchfelder sind in Listen verfügbar, es sei denn, das Feld ist von einem anderen Feld abhängig.
+>* Externe Suchfelder sind in Listen nicht verfügbar, wenn das Feld von einem anderen Feld abhängig ist.
 
 So fügen Sie eine externe Suche hinzu:
 

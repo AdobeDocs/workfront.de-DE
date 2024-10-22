@@ -6,9 +6,9 @@ description: Adobe Workfront ermöglicht es agile Teams, ihre Arbeit inkrementel
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Weitere Informationen finden Sie unter [Übersicht über die Agile-Burndown-Graf
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Teams wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und dann auf **[!UICONTROL Neues Team erstellen]**.
 
-   ![Wählen Sie Neues Team erstellen.](assets/create-new-team-350x198.png)
+   ![Wählen Sie Neues Team erstellen](assets/create-new-team.png) aus.
 
    Das Feld Neues Team wird angezeigt.
 
@@ -158,7 +158,7 @@ Sie können ein vorhandenes Team in ein agiles Team konvertieren:
 1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    Diese Option wird nur Teammitgliedern mit der Lizenz [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL Arbeit] angezeigt.
-   ![](assets/edit-team-settings-350x205.png)
+   ![Bearbeiten auswählen](assets/edit-team-settings.png)
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Agile]** die Option **[!UICONTROL Dies ist ein Agile-Team]**.
 

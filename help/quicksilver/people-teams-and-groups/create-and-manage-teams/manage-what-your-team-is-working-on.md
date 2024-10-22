@@ -6,9 +6,9 @@ description: Sie können eine Kalenderansicht der Aufgaben und Probleme sehen, a
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -21,4 +21,4 @@ Sie können nicht zugewiesene Elemente zuweisen, aktuelle Zuweisungen anpassen, 
 
 Ausführliche Informationen zum Verwalten der Ihrem Team zugewiesenen Arbeit finden Sie unter [[!UICONTROL Arbeitslastausgleich]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-![](assets/team-page-with-team-requests-and-balancer-sections-left.png)
+![Team-Seite mit Arbeitslastausgleich](assets/team-page-workload-balancer.png)

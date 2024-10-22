@@ -6,9 +6,9 @@ description: Die Standardkonfiguration von Adobe Workfront enthält eine Schaltf
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ So konfigurieren Sie die Schaltfläche Start :
 
 1. Wählen Sie im Dropdownmenü **[!UICONTROL Teams]** ein Team aus.\
    oder\
-   Klicken Sie auf **[!UICONTROL Team erstellen]**.
+   Klicken Sie auf **[!UICONTROL Neues Team erstellen]**.
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![](assets/more-icon.png) und dann auf **[!UICONTROL Bearbeiten]**.
 

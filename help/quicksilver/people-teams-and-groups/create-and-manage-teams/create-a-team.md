@@ -6,7 +6,7 @@ description: Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Team-In
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Teams wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und dann auf **[!UICONTROL Neues Team erstellen]**.
 
-   ![Wählen Sie Neues Team erstellen.](assets/create-new-team-350x198.png)
+   ![Wählen Sie Neues Team erstellen.](assets/create-new-team.png)
 
 1. Geben Sie in das Feld **[!UICONTROL Neues Team]** die folgenden Informationen ein:
 

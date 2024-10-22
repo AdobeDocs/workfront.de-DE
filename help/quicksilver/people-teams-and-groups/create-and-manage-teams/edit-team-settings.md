@@ -6,9 +6,9 @@ description: Workfront-Administratoren und Benutzer mit einer Plan- oder Arbeits
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** ![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]**.
 
-   Nur Teammitglieder mit einer [!UICONTROL Plan] - oder [!UICONTROL Work] -Lizenz sehen diese Option.
+   Nur Teammitglieder mit einer [!UICONTROL Standard]-, [!UICONTROL Plan]- oder [!UICONTROL Work]-Lizenz sehen diese Option.
 
    Wenn Sie die Option [!UICONTROL Bearbeiten] haben sollten, sie jedoch nicht sehen, bitten Sie Ihren Workfront-Administrator, sicherzustellen, dass [!UICONTROL Team Settings] in der Layoutvorlage für [!UICONTROL Scrum Team], [!UICONTROL Kanban Team] oder [!UICONTROL Waterfall Team] sichtbar ist.
 
-   ![](assets/edit-team-settings-1.png)
+   ![](assets/edit-team-settings.png)
 
 1. In den Teameinstellungen können Sie die folgenden Änderungen vornehmen:
 
