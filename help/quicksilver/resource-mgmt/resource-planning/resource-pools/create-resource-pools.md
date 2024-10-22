@@ -9,7 +9,7 @@ exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="wf_resource_pools"
 >title="Ressourcenpools"
->abstract="Ein Ressourcen-Pool ist eine Sammlung von Benutzern, die gleichzeitig für die Fertigstellung eines Projekts benötigt werden. Nachdem Sie einen Ressourcen-Pool erstellt haben, können Sie ihn mit Projekten und Vorlagen verknüpfen."
+>abstract="Ein Ressourcenpool-Pool ist eine Sammlung von Benutzenden, die gleichzeitig für die Fertigstellung eines Projekts benötigt werden. Nachdem Sie einen Ressourcen-Pool erstellt haben, können Sie ihn mit Projekten und Vorlagen verknüpfen."
 
 Ressourcen-Pools sind Sammlungen von Benutzern, mit denen Sie Ressourcen in Adobe Workfront einfacher verwalten können. Weitere Informationen zu Ressourcen-Pools finden Sie unter [Überblick über Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
