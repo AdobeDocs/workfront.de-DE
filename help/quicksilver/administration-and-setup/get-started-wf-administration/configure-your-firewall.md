@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Weitere Informationen finden Sie im Abschnitt [Cluster- und Workfront-Plan Ihrer
 
 ### IP-Adressen, die die Cluster 1, 2, 3, 5, 7, 8 und 9 zulassen {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-Wenn sich Ihre Produktionsumgebung auf Cluster 1, 2, 3, 5 oder 7 befindet, müssen Sie die folgenden IP-Adressen zulassen.
+Wenn sich Ihre Produktionsumgebung auf Cluster 1, 2, 3, 5, 7, 8 oder 9 befindet, müssen Sie die folgenden IP-Adressen zulassen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -622,4 +622,4 @@ E-Mails aus der Workfront-Anwendung werden mit den Ports 465 und 587 verschlüss
 
 ## E-Mail-Benachrichtigungen vom Workfront-Support
 
-Wenn Sie keine E-Mails vom Workfront-Support erhalten, stellen Sie sicher, dass Sie die benötigten Salesforce-IP-Adressen und -Domänen hinzufügen. Weitere Informationen finden Sie im Salesforce-Hilfeartikel zu den zuzulassenden Salesforce-IP-Adressen und -Domänen.
+Wenn Sie keine E-Mails vom Workfront-Support erhalten, stellen Sie sicher, dass Sie die benötigten Salesforce-IP-Adressen und -Domänen hinzufügen. Weitere Informationen finden Sie im Salesforce-Hilfeartikel über Salesforce-IP-Adressen und Domänen, die zugelassen werden sollen.
