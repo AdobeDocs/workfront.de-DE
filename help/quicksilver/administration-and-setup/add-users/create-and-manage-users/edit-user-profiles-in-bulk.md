@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
        <ul> 
         <li><b>Zeitzone:</b> Die Zeitzone der Benutzer.</li> 
         <li><b>Gebietsschema</b>: Das bevorzugte Gebietsschema der Benutzer. Dies wirkt sich auf das Zahlenformat und das Datumsformat der aus Workfront stammenden E-Mails aus.</li> 
-        <li><b>Versand der Arbeit, die ich mir auf meiner Registerkarte "Arbeit an"zugewiesen habe</b>: Aktivieren Sie diese Option, wenn alles, was die Benutzer sich selbst zuweisen, direkt auf ihrer Registerkarte "Arbeiten am"angezeigt werden soll. Standardmäßig werden alle einem Benutzer zugewiesenen Elemente auf der Registerkarte "Arbeitsanforderung"aufgelistet.</li> 
+        <li><b>Versand der Arbeit, die ich mir auf meiner Registerkarte "Arbeiten am"zugewiesen habe</b>: Diese Einstellung bezieht sich auf eine veraltete Funktion, die aus Workfront entfernt wurde.</li> 
        </ul> </td> 
      </tr> 
      <tr> 

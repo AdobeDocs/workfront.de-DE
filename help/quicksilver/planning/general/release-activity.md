@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7488'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >Zusätzlich zu einem Workfront-Plan müssen Sie einen Workfront-Planungsplan erwerben, um auf Workfront-Planungsfunktionen zugreifen und diese verwenden zu können.
 >
->Eine vollständige Liste der Anforderungen für den Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+>Eine vollständige Liste der Anforderungen für den Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht für die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md).
 >Einen Überblick über die Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 >
 
@@ -1259,7 +1259,7 @@ Im Folgenden finden Sie die Berechtigungsstufen für Datensatzansichten:
 * Ansicht: Benutzer können die Ansicht aus dem Dropdown-Menü Ansicht einer Seite vom Typ Datensatz auswählen.
 * Verwalten: Benutzer können die Ansicht bearbeiten, freigeben und löschen.
 
-Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md) und [Übersicht über die Freigabe von Berechtigungen in den Adobe Workfront-Planungsfunktionen](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über den Zugriff auf die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md) und [Übersicht über die Freigabe von Berechtigungen in den Adobe Workfront-Planungsfunktionen](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Neuer Formelfeldtyp
 

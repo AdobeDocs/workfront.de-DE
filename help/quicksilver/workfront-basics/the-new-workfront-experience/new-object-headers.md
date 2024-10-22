@@ -4,10 +4,11 @@ navigation-topic: the-new-workfront-experience
 title: Objektüberschriften - Übersicht
 description: Sie können Informationen zu Objekten in [!DNL Adobe Workfront] auf einen Blick anzeigen, wenn Sie deren Kopfzeile überprüfen. Die Informationen in einer Kopfzeile können den Eigentümer des Objekts, den Status oder den Prozentsatz der Fertigstellung umfassen.
 feature: Get Started with Workfront
+author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3697'
 ht-degree: 0%
 
 ---
@@ -31,12 +32,12 @@ So greifen Sie beispielsweise auf die Kopfzeile eines Projekts zu:
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL Home] Kopfzeilenübersicht
+<!--## [!UICONTROL Home] header overview 
 
-Die folgenden Header sind in Home verfügbar:
+The following headers are available in Home:
 
-* Aufgabe: Weitere Informationen zur Verwendung dieser Kopfzeile finden Sie in der [Aufgabenübersicht](#task-header-overview) in diesem Artikel.
-* Problem: Weitere Informationen dazu, wie Sie diese Kopfzeile verwenden können, finden Sie in der [Problemübersicht](#issue-header-overview) in diesem Artikel.
+* Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
 
 ## Anpassbare Kopfzeilen
 
@@ -80,8 +81,8 @@ In der Projektheader werden standardmäßig die folgenden Informationen angezeig
    <td> <p>Der Text "[!UICONTROL PROJECT]"wird über dem Projektnamen in der Kopfzeile angezeigt.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Aktionsbereich der Aufgabe</td> 
-   <td> <p>Neben dem Namen des Projekts wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td role="rowheader">Der Aktionsbereich des Projekts</td> 
+   <td> <p>Neben dem Namen des Projekts wird der Aktionsbereich angezeigt, der die Option <b>Freigeben</b> enthält.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prozentsatz abgeschlossen]</td> 
@@ -144,7 +145,7 @@ Die Kopfzeile der Aufgabe enthält standardmäßig die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich der Aufgabe</td> 
-   <td> <p>Neben dem Namen der Aufgabe wird der Bereich [!UICONTROL Aktionen] angezeigt.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>Wenn das Symbol Abhängigkeit angezeigt wird, können Sie auf das Symbol klicken, um alle Vorgänger oder Nachfolger der Aufgabe anzuzeigen.</p> </td> 
+   <td> <p>Neben dem Namen der Aufgabe wird der Aktionsbereich angezeigt, der die Option <b>Freigeben</b> enthält.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>Wenn das Symbol Abhängigkeit angezeigt wird, können Sie auf das Symbol klicken, um alle Vorgänger oder Nachfolger der Aufgabe anzuzeigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prozentsatz abgeschlossen]</td> 
@@ -207,7 +208,7 @@ Die Kopfzeile des Problems enthält standardmäßig die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich des Problems</td> 
-   <td> <p>Neben dem Namen des Problems wird der Bereich [!UICONTROL Aktionen] angezeigt.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>Wenn das Symbol [!UICONTROL Abhängigkeit] angezeigt wird, können Sie auf das Symbol klicken, um alle Vorgänger oder Nachfolger des Problems anzuzeigen.</p>  </td> 
+   <td> <p>Neben dem Namen des Problems wird der Aktionsbereich angezeigt, der die Option <b>Freigeben</b> enthält.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>Wenn das Symbol [!UICONTROL Abhängigkeit] angezeigt wird, können Sie auf das Symbol klicken, um alle Vorgänger oder Nachfolger des Problems anzuzeigen.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prozentsatz abgeschlossen]</td> 
@@ -274,7 +275,7 @@ Der Programmheader enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Aktionsbereich des Programms</td> 
-   <td> <p>Neben dem Programmnamen wird der Bereich [!UICONTROL Aktionen] angezeigt.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Neben dem Programmnamen wird der Aktionsbereich angezeigt, der die Option <b>Freigeben</b> enthält.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prozentsatz abgeschlossen]</td> 
@@ -328,8 +329,8 @@ Der Portfolioheader enthält die folgenden Informationen:
    <td> <p>Wenn das Portfolio deaktiviert ist, wird der Text "[!UICONTROL PORTFOLIO DEACTIVATED]"über dem Portfolionamen in der Kopfzeile angezeigt.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Bereich [!UICONTROL Aktionen] des Portfolios</td> 
-   <td> <p>Neben dem Namen des Portfolios wird der Bereich [!UICONTROL Aktionen] angezeigt.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">Der Aktionsbereich des Portfolios</td> 
+   <td> <p>Neben dem Namen des Portfolios wird der Bereich [!UICONTROL Aktionen] angezeigt.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
@@ -392,7 +393,7 @@ Die Kopfzeile der Vorlage enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich der Vorlage</td> 
-   <td> <p>Neben dem Namen der Vorlage wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Neben dem Namen der Vorlage wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Vorlageninhaber]</td> 
@@ -439,7 +440,7 @@ Die Kopfzeile der Vorlagenaufgabe enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich der Vorlagenaufgabe</td> 
-   <td> <p>Neben dem Namen der Vorlagenaufgabe wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Neben dem Namen der Vorlagenaufgabe wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Zuweisung]</td> 
@@ -485,12 +486,15 @@ Die Kopfzeile des Rechnungsdatensatzes enthält die folgenden Informationen:
    <td> <p>Der Text "[!UICONTROL BILLING RECORD]"wird über dem Namen des Rechnungsdatensatzes in der Kopfzeile angezeigt.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Aktionsbereich des Rechnungsdatensatzes</td> 
+   <td role="rowheader">Das Menü Mehr für den Rechnungsdatensatz</td> 
    <td> <p>Neben dem Namen des Rechnungsdatensatzes wird das [!UICONTROL Mehr] Menü <img src="assets/more-menu.png"> angezeigt, in dem Sie die folgenden Optionen auswählen können:</p> 
     <ul> 
      <li> <p>[!UICONTROL Bearbeiten]</p> </li> 
-     <li> <p> </p> </li> 
-    </ul> </td> 
+     <li> <p> Löschen </p> </li> 
+    </ul>
+    <p><b>NOTIZ</b></p>
+    <p>Das Menü Mehr wird nicht für Rechnungsdatensätze mit dem Status Abgerechnet angezeigt. Abgeschriebene Datensätze können nicht bearbeitet oder gelöscht werden.</p>
+     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Rechnungsdatensatz insgesamt]</td> 
@@ -542,7 +546,7 @@ Die Kopfzeile des Benutzers enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich des Benutzers</td> 
-   <td> <p>Neben dem Namen des Benutzers wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Neben dem Namen des Benutzers wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">E-Mail-Adresse</td> 
@@ -589,7 +593,7 @@ In der Kopfzeile des Teams werden die folgenden Informationen angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich des Teams</td> 
-   <td> <p>Neben dem Namen des Teams wird der Bereich [!UICONTROL Aktionen] angezeigt.</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>Neben dem Namen des Teams wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profilbilder von Teammitgliedern</td> 
@@ -632,8 +636,7 @@ Die Iterationskopfzeile enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich der Iteration</td> 
-   <td> <p>In der oberen rechten Ecke der Kopfzeile wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
-  </tr> 
+   <td> <p>Neben dem Namen der Iteration wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">Besitzerin bzw. Besitzer</td> 
    <td>Dies ist der [!UICONTROL Eigentümer] der Iteration. Sie können den [!UICONTROL Inhaber] nicht in der Kopfzeile bearbeiten.</td> 
@@ -735,7 +738,7 @@ Die Kopfzeile des Dokuments enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich des Dokuments</td> 
-   <td> <p>Neben dem Namen des Dokuments wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td> <p>Neben dem Namen des Dokuments wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Das Genehmigungsgebiet [!UICONTROL Decision]</td> 
@@ -773,7 +776,7 @@ In der Kopfzeile des Unternehmens werden die folgenden Informationen angezeigt:
    <td> <p>Der Text "[!UICONTROL COMPANY]"wird über dem Unternehmensnamen in der Kopfzeile angezeigt.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Aktionsbereich des Unternehmens</td> 
+   <td role="rowheader">Das Menü Mehr des Unternehmens</td> 
    <td> <p>Neben dem Namen des Unternehmens wird das [!UICONTROL Mehr] Menü <img src="assets/more-menu.png"> angezeigt, in dem Sie die folgenden Optionen auswählen können:</p> 
     <ul> 
      <li> <p>[!UICONTROL Bearbeiten]</p> </li> 
@@ -819,7 +822,7 @@ In der Planüberschrift werden die folgenden Informationen angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Aktionsbereich des Plans</td> 
-   <td> <p>Neben dem Namen des Plans wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Neben dem Namen des Plans wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zusätzliche Planmaßnahmen</td> 
@@ -885,9 +888,9 @@ Die Ziel-Kopfzeile enthält die folgenden Informationen:
    <td> <p>Der Text "[!UICONTROL GOAL]"wird über dem Zielnamen in der Kopfzeile angezeigt.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Aktionsbereich des Ziels</td> 
-   <td> <p>Neben dem Namen des Ziels wird der Aktionsbereich angezeigt.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
-   Sie können die folgenden Aktionen im Aktionsbereich des Ziels durchführen:
+   <td role="rowheader">Das Menü Mehr des Ziels</td> 
+   <td> <p>Neben dem Namen des Ziels wird das Menü Mehr <img src="assets/more-icon.png"> angezeigt.</p> </p>
+   Sie können die folgenden Aktionen über das Menü Mehr eines Ziels ausführen:
    <ul><li>[!UICONTROL Bearbeiten]</li>
    <li>[!UICONTROL Kopierziel]</li>
    <li>[!UICONTROL Löschziel]</li>

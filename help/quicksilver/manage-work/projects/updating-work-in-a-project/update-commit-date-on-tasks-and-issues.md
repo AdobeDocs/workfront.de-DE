@@ -6,7 +6,7 @@ description: Sie können das Übermittlungsdatum einer Aufgabe oder eines Proble
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Die Aktualisierung des Veröffentlichungsdatums ist für Aufgaben und Probleme i
 >Weitere Informationen finden Sie in den folgenden Artikeln:
 >
 >* [Überblick über die Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Passen Sie die Startseite und die Zusammenfassung mit einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Passen Sie den Zusammenfassungsbereich mithilfe einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 1. Wechseln Sie zu einer Aufgabe oder einem Problem, der Sie als **Inhaber** zugewiesen sind.

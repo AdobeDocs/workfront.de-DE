@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,7 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie Layoutvo
 * Hauptmenü
 * Linke Navigationsleiste
 * Startbereich
+* Bedienfeld „Zusammenfassung“
 * Ansichten, Filter und Gruppierungen, die für Listen und Berichte verwendet werden.
 * Terminologie auf dem Bildschirm
 * Projekt-, Aufgaben- und Problemkopfzeilen
@@ -101,7 +102,8 @@ Weitere Informationen zu Layoutvorlagen finden Sie unter [Layout-Vorlagen](../..
    * [Passen Sie den linken Bereich mithilfe einer Layoutvorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [Pinned-Seiten mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [Anpassen der Detailansicht mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Anpassen des Zusammenfassungsbereichs mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Startseite mit einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    * [Passen Sie die Landingpage mithilfe einer Layoutvorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Benutzeroberflächenterminologie mithilfe einer Layoutvorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

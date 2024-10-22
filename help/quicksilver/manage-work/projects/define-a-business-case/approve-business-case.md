@@ -5,16 +5,16 @@ description: Nachdem Sie den Geschäftsfall für eine Projektanforderung abgesch
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
 
 # Geschäftsfall genehmigen
 
-Nachdem Sie den Geschäftsfall für eine Projektanforderung abgeschlossen und übermittelt haben, muss der Geschäftsfall genehmigt werden. Dies hängt vom Workflow in Ihrer Organisation ab. Ein Projekt kann beginnen, ohne dass der Geschäftsfall genehmigt werden muss, aber Ihr Adobe Workfront-Administrator und Projekteigentümer halten es möglicherweise nicht für optimal. 
+Nachdem Sie den Geschäftsfall für eine Projektanforderung abgeschlossen und übermittelt haben, muss der Geschäftsfall genehmigt werden. Dies hängt vom Workflow in Ihrer Organisation ab. Ein Projekt kann beginnen, ohne dass der Geschäftsfall genehmigt werden muss, aber Ihr Adobe Workfront-Administrator und Projekteigentümer halten es möglicherweise nicht für optimal.
 
 Weitere Informationen zum Abschließen und Senden eines Geschäftsszenarios finden Sie im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -51,16 +51,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Beachten Sie bei der Genehmigung eines Geschäftsfalls eines Projekts Folgendes:
 
-* Sie müssen über Verwaltungsberechtigungen für ein Projekt verfügen, um den Geschäftsfall für dieses Projekt zu genehmigen. 
-* Sie können die Projekte nicht sehen, die darauf warten, dass der Geschäftsfall im Rahmen Ihrer Validierungen im Hause genehmigt wird.
+* Sie müssen über Verwaltungsberechtigungen für ein Projekt verfügen, um den Geschäftsfall für dieses Projekt zu genehmigen.
+* Sie können die Projekte, die auf die Genehmigung des Geschäftsfalls warten, nicht im Widget Meine Genehmigungen in der Startseite sehen.
 * Sie müssen manuell zu den einzelnen Projekten wechseln, für die die Genehmigung von Geschäftsfällen erforderlich ist, um zu sehen, dass die Genehmigung aussteht. Es gibt keinen Workfront-Benachrichtigungsmechanismus, der jemanden darauf hinweist, dass er den Geschäftsfall eines Projekts genehmigen muss.
-* Sie können die Projekte finden, die auf die Genehmigung des Geschäftsfalls warten, indem Sie entweder einen Projektbericht erstellen oder auf das Portfolio zugreifen, mit dem sie verknüpft sind. 
+* Sie können die Projekte finden, die auf die Genehmigung des Geschäftsfalls warten, indem Sie entweder einen Projektbericht erstellen oder auf das Portfolio zugreifen, mit dem sie verknüpft sind.
 
   Weitere Informationen zu Portfolios finden Sie im Artikel [Überblick über Portfolios in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Genehmigen Sie den Geschäftsfall, indem Sie einen Projektbericht erstellen
 
-Sie können einen Bericht für Projekte erstellen, um zu sehen, welche Projekte genehmigt werden müssen. 
+Sie können einen Bericht für Projekte erstellen, um zu sehen, welche Projekte genehmigt werden müssen.
 
 So erstellen Sie einen Bericht für Projekte, deren Geschäftsszenarios noch nicht genehmigt wurden:
 
@@ -72,23 +72,23 @@ So erstellen Sie einen Bericht für Projekte, deren Geschäftsszenarios noch nic
 
 1. Beginnen Sie mit der Eingabe von &quot;Status&quot;in das Feld **In dieser Spalte anzeigen** und wählen Sie dieses Feld aus, wenn es in der Liste angezeigt wird.
 
-    Diese Spalte zeigt den Status der Projekte an.
+   Diese Spalte zeigt den Status der Projekte an.
 
 1. Wählen Sie die Registerkarte **Filter** des Berichts aus und klicken Sie dann auf **Filterregel hinzufügen**.
 
 1. Beginnen Sie mit der Eingabe von &quot;Status&quot;in das Feld **Nur Projekte anzeigen, in denen das Feld ...** erscheint, und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 1. Wählen Sie **Equal** für den Filtermodifikator aus.
-1. Beginnen Sie mit der Eingabe von &quot;Angefordert&quot; in das verfügbare Feld. 
+1. Beginnen Sie mit der Eingabe von &quot;Angefordert&quot; in das verfügbare Feld.
 
    Dadurch wird sichergestellt, dass der Bericht nur Projekte enthält, die sich im Status &quot;Angefordert&quot;befinden.
 
-     ![request_projects_filter.png](assets/requested-projects-filter-350x14.png)
+   ![request_projects_filter.png](assets/requested-projects-filter-350x14.png)
 
 1. (Optional) Klicken Sie auf **Hinzufügen einer weiteren Filterregel**.
 
    Sie können zusätzliche Filter hinzufügen, um nur Projekte anzuzeigen, bei denen Sie der Projekteigentümer, der Projektsponsor oder der Portfolio-Eigentümer sind.
 
-   Sie können beispielsweise die folgenden Filteranweisungen verwenden: 
+   Sie können beispielsweise die folgenden Filteranweisungen verwenden:
 
    ```
    Project Sponsor ID Equals $$USER.ID
@@ -106,7 +106,7 @@ So erstellen Sie einen Bericht für Projekte, deren Geschäftsszenarios noch nic
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   , um anzuzeigen, wo Sie als Portfolio-Manager benannt sind. 
+   , um anzuzeigen, wo Sie als Portfolio-Manager benannt sind.
 
 1. Klicken Sie auf **Speichern+Schließen**.
 

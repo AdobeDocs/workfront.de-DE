@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Die folgenden Aufgabenstatus werden Ihrer Workfront-Instanz bereitgestellt:
   <tr> 
    <td>Abgeschlossen (erforderlicher Status)</td> 
    <td> <p>Sie können eine Aufgabe manuell als abgeschlossen kennzeichnen, wenn die Arbeit daran abgeschlossen ist.</p> <p>Wenn der Tracking-Modus einer Aufgabe auf Automatisch abschließen festgelegt ist, wird die Aufgabe automatisch als abgeschlossen markiert, wenn sie das geplante Abschlussdatum erreicht.</p> </td> 
-   <td> <p>Wenn eine Aufgabe abgeschlossen ist, wird der prozentuale Abschluss der Aufgabe als 100 % markiert. Die Aufgabe wird nach Abschluss aus der Arbeitsliste des Verantwortlichen im Startbereich entfernt.</p> <p>Wenn Sie eine Aufgabe als abgeschlossen markieren, zeigt die Aufgabe einen Wert für das tatsächliche Abschlussdatum an.</p> <p><b>HINWEIS</b>: Wenn die Aufgabe unvollständige Probleme aufweist und Sie den Aufgabenstatus in "Abgeschlossen"ändern, ändert sich der Status automatisch in "Abgeschlossen - Ausstehende Probleme".</p> </td> 
+   <td> <p>Wenn eine Aufgabe abgeschlossen ist, wird der prozentuale Abschluss der Aufgabe als 100 % markiert. Die Aufgabe wird nach Abschluss aus der Liste "Meine Arbeit"des Verantwortlichen im Bereich "Startseite"entfernt.</p> <p>Wenn Sie eine Aufgabe als abgeschlossen markieren, zeigt die Aufgabe einen Wert für das tatsächliche Abschlussdatum an.</p> <p><b>HINWEIS</b>: Wenn die Aufgabe unvollständige Probleme aufweist und Sie den Aufgabenstatus in "Abgeschlossen"ändern, ändert sich der Status automatisch in "Abgeschlossen - Ausstehende Probleme".</p> </td> 
   </tr> 
  </tbody> 
 </table>

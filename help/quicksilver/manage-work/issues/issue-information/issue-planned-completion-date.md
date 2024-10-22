@@ -6,7 +6,7 @@ description: Das geplante Abschlussdatum eines Problems ist das Datum, bis zu de
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Das geplante Abschlussdatum eines Problems ist das Datum, bis zu dem das Problem voraussichtlich abgeschlossen sein wird.
 
-Sie können entweder das geplante Abschlussdatum eines Problems angeben oder es an Adobe Workfront überlassen, es nach bestimmten Kriterien zu berechnen. 
+Sie können entweder das geplante Abschlussdatum eines Problems angeben oder es an Adobe Workfront überlassen, es nach bestimmten Kriterien zu berechnen.
 
-Das geplante Abschlussdatum der Probleme hat keine Auswirkungen auf das geplante Abschlussdatum des Projekts. Nur die geplanten Abschlussdaten von Aufgaben wirken sich auf das geplante Abschlussdatum des Projekts aus. Weitere Informationen zum geplanten Abschlussdatum des Projekts finden Sie unter [Festlegen des geplanten Abschlussdatums des Projekts](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Das geplante Abschlussdatum der Probleme hat keine Auswirkungen auf das geplante Abschlussdatum des Projekts. Nur die geplanten Abschlussdaten von Aufgaben wirken sich auf das geplante Abschlussdatum des Projekts aus. Weitere Informationen zum geplanten Abschlussdatum des Projekts finden Sie unter [Festlegen des geplanten Abschlussdatums des Projekts](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Sie müssen Zugriff auf Probleme bearbeiten und Berechtigungen zum Verwalten des
 
 Sie können das geplante Abschlussdatum eines Problems in den folgenden Bereichen von Workfront manuell festlegen:
 
-* Im Feld Problem bearbeiten oder im Bereich Problemdetails beim Erstellen oder Bearbeiten eines Problems. Weitere Informationen finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
+* Im Feld Problem bearbeiten oder im Bereich Problemdetails beim Erstellen oder Bearbeiten eines Problems. Weitere Informationen finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
 * Im Bereich Startseite , wenn das geplante Abschlussdatum bei der Anzeige eines Problems angezeigt wird. Weitere Informationen finden Sie unter [Aktualisieren oder Bearbeiten eines Arbeitselements im Startbereich](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * In der Ausgabe-Kopfzeile. Weitere Informationen finden Sie unter [Neue Objektüberschriften](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In einer Problemliste oder einem Bericht, wenn das Feld Geplantes Abschlussdatum in der Ansicht angezeigt wird.
@@ -54,13 +54,13 @@ Wenn Workfront das geplante Abschlussdatum eines Problems automatisch berechnet,
 
   Das Einstiegsdatum und das geplante Startdatum sollten bei einem Problem übereinstimmen, wenn Sie das Problem zum ersten Mal erstellen.
 
-* Die Standarddauer, wie im Abschnitt &quot;Queue Details&quot;des Projekts konfiguriert. Weitere Informationen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Die Standarddauer, wie im Abschnitt &quot;Queue Details&quot;des Projekts konfiguriert. Weitere Informationen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
   Wenn die Standarddauer 0 Tage beträgt, stimmt das geplante Abschlussdatum mit dem geplanten Startdatum des Problems überein.
 
 * Projektzeitplan
 
-Wenn das geplante Abschlussdatum automatisch eingestellt wird, wird es anhand der folgenden Berechnung ermittelt: 
+Wenn das geplante Abschlussdatum automatisch eingestellt wird, wird es anhand der folgenden Berechnung ermittelt:
 
 ```
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
@@ -77,4 +77,4 @@ Die folgenden Situationen sind vorhanden:
 >
 >Workfront berücksichtigt bei der Berechnung der geplanten Abschlussdaten Ausnahmen wie Feiertage und Wochenenden.
 
- 
+

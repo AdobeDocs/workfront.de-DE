@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2106'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 >* Eine zusätzliche Lizenz für Workfront Planning.
 >* Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein.
 >
-> Eine vollständige Liste der Anforderungen für den Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+> Eine vollständige Liste der Anforderungen für den Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht für die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md).
 > 
 
 Dieser Artikel enthält allgemeine Informationen zur Workfront-Planung.
@@ -168,7 +168,7 @@ Nachdem Ihr Unternehmen eine Lizenz für Workfront Planning erworben hat, müsse
 
 * Weisen Sie die Benutzer zu, die Zugriff auf eine Layoutvorlage benötigen, die die Planung im Hauptmenü enthält. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) und [Zuweisen von Benutzern zu einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Weisen Sie Benutzern eine Workfront-Lizenz und Workfront Planning-Berechtigungen zu, mit denen Sie in der Workfront-Planung entweder eine 5554-Ansicht anzeigen oder Objekte erstellen können. Weitere Informationen zum Gewähren von Zugriff auf und zum Aktivieren anderer Benutzer für die Verwendung der Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+* Weisen Sie Benutzern eine Workfront-Lizenz und Workfront Planning-Berechtigungen zu, mit denen Sie in der Workfront-Planung entweder eine 5554-Ansicht anzeigen oder Objekte erstellen können. Weitere Informationen zum Gewähren von Zugriff auf und zum Aktivieren anderer Benutzer für die Verwendung von Workfront Planning finden Sie unter [Zugriffsübersicht für die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminologie der Workfront-Planung
 
@@ -321,7 +321,7 @@ Weitere Informationen finden Sie unter [Ansichten von Datensätzen verwalten](/h
 
 ## Adobe Workfront-Planung suchen
 
-Um die Adobe Planning zu finden, stellen Sie sicher, dass Ihr Unternehmen Zugriff auf die Workfront-Planung hat und dass Ihr System- oder Gruppenadministrator den Planungsbereich zu Ihrem Hauptmenü hinzugefügt hat. Weitere Informationen finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+Um die Adobe Planning zu finden, stellen Sie sicher, dass Ihr Unternehmen Zugriff auf die Workfront-Planung hat und dass Ihr System- oder Gruppenadministrator den Planungsbereich zu Ihrem Hauptmenü hinzugefügt hat. Weitere Informationen finden Sie unter [Übersicht über den Zugriff auf die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md).
 
 So suchen Sie die Workfront-Planung:
 

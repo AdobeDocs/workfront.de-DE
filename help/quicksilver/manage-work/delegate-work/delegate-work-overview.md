@@ -7,9 +7,9 @@ description: Wenn Sie planen, für kurze Zeit abwesend zu sein, können Sie Ihre
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Beachten Sie Folgendes, wenn Sie Aufgaben und Probleme delegieren:
   Weitere Informationen finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Sie können Aufgaben und Probleme nur über den Bereich [!UICONTROL Home] delegieren.
-* Für die folgenden Lizenztypen gibt es Ausnahmen:
+* Beim Delegieren von Arbeiten gibt es Ausnahmen für die folgenden Lizenztypen:
 
    * Sie können Arbeiten an Überprüfer oder Anforderer delegieren, obwohl [!DNL Workfront] dies nicht empfiehlt.
    * Überprüfer können Arbeiten an andere delegieren. Arbeitselemente können nicht in ihrem Bereich [!UICONTROL Home] angezeigt werden. Sie können nur Genehmigungen anzeigen.

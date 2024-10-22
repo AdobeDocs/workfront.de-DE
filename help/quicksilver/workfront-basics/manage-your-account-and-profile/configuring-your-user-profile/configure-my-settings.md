@@ -3,12 +3,12 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Meine Einstellungen konfigurieren
 description: Ihr [!DNL Adobe Workfront] Profil enthält Informationen über Sie (z. B. Ihren Namen, Ihre E-Mail-Adresse, Adresse, Telefonnummer, Titel usw.). Es enthält auch Informationen zu Ihren Interaktionen mit [!DNL Workfront] Benutzern und anderen Benutzern in Ihrem Unternehmen.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3319'
+source-wordcount: '3306'
 ht-degree: 1%
 
 ---
@@ -345,7 +345,7 @@ Sie können Folgendes in diesem Unterabschnitt ändern:
 
 <tr> 
    <td role="rowheader"><strong>[!UICONTROL Versand der mir zugewiesenen Arbeit an meine Registerkarte "Arbeit an"]</strong> </td> 
-   <td>Wählen Sie dieses Feld aus, um die Arbeit, die Sie sich selbst zuweisen, direkt auf der Registerkarte [!UICONTROL Working On] anstelle der Registerkarte [!UICONTROL Work Requests] anzuzeigen.</td> 
+   <td>Dieses Feld bezieht sich auf eine veraltete Funktion, die aus [!DNL Workfront] entfernt wurde.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Bedingt) Automatisches Generieren von Testsendungen beim Hochladen von Dokumenten</strong></td> 

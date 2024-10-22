@@ -7,9 +7,9 @@ description: Das geplante Abschlussdatum einer Aufgabe ist das Datum, bis zu dem
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 Das geplante Abschlussdatum einer Aufgabe ist das Datum, bis zu dem die Aufgabe abgeschlossen sein soll.
 
-Sie können entweder das geplante Abschlussdatum einer Aufgabe angeben oder es Adobe Workfront überlassen, sie nach bestimmten Kriterien zu berechnen. 
+Sie können entweder das geplante Abschlussdatum einer Aufgabe angeben oder es Adobe Workfront überlassen, sie nach bestimmten Kriterien zu berechnen.
 
-Das geplante Abschlussdatum der Aufgaben für ein Projekt bestimmt das geplante Abschlussdatum eines Projekts, an dem das Projekt ab dem Startdatum geplant ist. Weitere Informationen zum geplanten Abschlussdatum des Projekts finden Sie unter [Festlegen des geplanten Abschlussdatums des Projekts](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Das geplante Abschlussdatum der Aufgaben für ein Projekt bestimmt das geplante Abschlussdatum eines Projekts, an dem das Projekt ab dem Startdatum geplant ist. Weitere Informationen zum geplanten Abschlussdatum des Projekts finden Sie unter [Festlegen des geplanten Abschlussdatums des Projekts](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -38,19 +38,19 @@ Das geplante Abschlussdatum der Aufgaben für ein Projekt bestimmt das geplante 
 
 Sie müssen Zugriff auf Aufgaben bearbeiten und Berechtigungen verwalten für die Aufgabe haben, um das geplante Abschlussdatum der Aufgabe aktualisieren zu können.
 
-Das Festlegen des geplanten Abschlussdatums einer Aufgabe hängt vom Typ der Aufgabenbegrenzung ab, die Sie der Aufgabe zuweisen. 
+Das Festlegen des geplanten Abschlussdatums einer Aufgabe hängt vom Typ der Aufgabenbegrenzung ab, die Sie der Aufgabe zuweisen.
 
 Sie können das geplante Abschlussdatum in den folgenden Bereichen von Workfront manuell festlegen:
 
-* Im Feld &quot;Aufgabe bearbeiten&quot;beim Erstellen oder Bearbeiten einer Aufgabe. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* Im Feld &quot;Aufgabe bearbeiten&quot;beim Erstellen oder Bearbeiten einer Aufgabe. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * Im Bereich &quot;Aufgabendetails&quot;. Weitere Informationen finden Sie unter [Verwalten von Aufgabeninformationen im Übersichtsbereich &quot;Aufgabendetails&quot;](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
-* Im Startbereich , wenn das geplante Abschlussdatum bei Ansicht einer Aufgabe angezeigt wird. Weitere Informationen finden Sie unter [Aktualisieren oder Bearbeiten eines Arbeitselements im Startbereich](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* Im Bereich Startseite , wenn das geplante Abschlussdatum bei Ansicht einer Aufgabe im Bereich &quot;Zusammenfassung&quot;angezeigt wird. Weitere Informationen finden Sie unter [Aktualisieren oder Bearbeiten eines Arbeitselements im Startbereich](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * In der Aufgabenüberschrift. Weitere Informationen finden Sie unter [Neue Objektüberschriften](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In einer Aufgabenliste oder in einem Bericht, wenn das Feld Geplantes Abschlussdatum in der Ansicht angezeigt wird.
 
   Weitere Informationen finden Sie unter [Aufgaben in einer Liste bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-Sie können das geplante Abschlussdatum manuell angeben, wenn Sie eine der folgenden Aufgabenbegrenzungen auswählen: 
+Sie können das geplante Abschlussdatum manuell angeben, wenn Sie eine der folgenden Aufgabenbegrenzungen auswählen:
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -96,7 +96,7 @@ Wenn sie automatisch vom System berechnet wird, kann Folgendes das geplante Absc
 
 * Die Zeitdauer, die mit Genehmigungseinstellungen verknüpft ist, wenn die Aufgabe mit einer Genehmigung verknüpft ist. Weitere Informationen finden Sie unter [Konfigurieren der globalen Genehmigungseinstellungen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-Wenn das geplante Abschlussdatum automatisch eingestellt wird, wird es anhand der folgenden Berechnung ermittelt: 
+Wenn das geplante Abschlussdatum automatisch eingestellt wird, wird es anhand der folgenden Berechnung ermittelt:
 
 ```
 Planned Completion Date = Planned Start Date + Duration
@@ -106,5 +106,5 @@ Wenn Ihre Aufgabe beispielsweise das Startdatum 16. September und die Dauer 10 T
 
 >[!NOTE]
 >
-> Der Aktualisierungstyp für das Projekt muss auf Automatisch und Bei Änderung oder Automatisch eingestellt sein, damit die geplanten Stunden und die geplante Dauer automatisch angepasst werden.\
+> Der Aktualisierungstyp für das Projekt muss auf Automatisch und Bei Änderung oder Automatisch eingestellt sein, damit die geplanten Stunden und die geplante Dauer automatisch angepasst werden.\
 >Weitere Informationen zum Aktualisierungstyp finden Sie im Artikel [Auswählen des Aktualisierungstyps für das Projekt](../../../manage-work/projects/manage-projects/select-project-update-type.md).

@@ -6,9 +6,9 @@ description: Das [!DNL Adobe Workfront] Glossar listet häufig verwendete Begrif
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '20938'
+source-wordcount: '20901'
 ht-degree: 0%
 
 ---
@@ -471,7 +471,9 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
   </tr> 
   <tr> 
    <td>[!UICONTROL Kalender]</td> 
-   <td> <p>Es gibt zwei Arten von Kalendern in [!DNL Workfront]: den [!UICONTROL Home Calendar] und Kalenderberichte.</p> <p>Der [!UICONTROL Home Calendar] ist ein persönlicher Kalender, mit dem Benutzer ihre Arbeitslast anhand ihrer verfügbaren Stunden in [!DNL Workfront] verwalten können. Die Benutzer können auch ihren [!UICONTROL Home Calendar] mit der Integration von [!DNL Outlook] ([!DNL Google] und [!DNL Microsoft] integrieren. </p> <p>Weitere Informationen zum [!UICONTROL Home Calendar] finden Sie unter <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] view</a>.</p> <p>Ein Kalenderbericht ist ein dynamischer Bericht, in dem Benutzer das Datum und andere wichtige Details eines Ereignisses anzeigen können, einschließlich Fälligkeitsdatum, Arbeitsstatus und dem Benutzer, dem das Ereignis zugewiesen wurde.</p> <p> Weitere Informationen zu Kalenderberichten finden Sie unter <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Übersicht über Kalenderberichte</a>.</p> </td> 
+   <td> <p>In Workfront ist ein Kalenderbericht ein dynamischer Bericht, in dem Benutzer das Datum und andere wichtige Details eines Ereignisses anzeigen können, einschließlich Fälligkeitsdatum, Arbeitsstatus und dem Benutzer, dem das Ereignis zugewiesen wurde.</p> <p> Weitere Informationen zu Kalenderberichten finden Sie unter <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Übersicht über Kalenderberichte</a>.</p>
+   <p> In der Workfront-Planung ist eine Kalenderansicht eine Art Ansicht für einen Datensatztyp, der Datensätze in einem Kalender anzeigt. Sie benötigen eine zusätzliche Lizenz für den Zugriff auf Workfront Planning. </p>
+    </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
@@ -1644,7 +1646,7 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal-Profil]</td> 
-   <td>Eine vom Administrator definierte Sammlung von Registerkarten und Portal-Abschnitten, die auf der [!DNL Workfront] Application [!UICONTROL Home] und anderen Dashboards angezeigt wird.</td> 
+   <td>Eine vom Administrator definierte Sammlung von Registerkarten und Abschnitten, die in "[!DNL Workfront]"angezeigt wird.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal-Abschnitt]</td> 

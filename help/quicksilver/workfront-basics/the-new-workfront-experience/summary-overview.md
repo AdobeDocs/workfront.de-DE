@@ -5,9 +5,9 @@ description: Sie können das Bedienfeld "Zusammenfassung"verwenden, um Arbeitsel
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '960'
 ht-degree: 2%
 
 ---
@@ -187,9 +187,7 @@ Abschnitt &quot;![Dokumente&quot;im Bereich &quot;Zusammenfassung&quot;](assets/
 
 Verwenden Sie den Abschnitt [!UICONTROL Details] der [!UICONTROL Zusammenfassung], um allgemeine Details zu Arbeitselementen anzuzeigen, Zuweisungen vorzunehmen oder Startdaten hinzuzufügen. Klicken Sie auf **[!UICONTROL Alle anzeigen]** , um direkt zur Registerkarte [!UICONTROL Details] der Aufgabe oder des Problems zu gelangen.
 
->[!NOTE]
->
->Die in diesem Abschnitt angezeigten Felder sind dieselben, die im rechten Bereich auf der Startseite angezeigt werden. Sie können diese Felder [Anpassen von [!UICONTROL Home] und [!UICONTROL Summary] mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) anpassen.
+
 
 ![Detailabschnitt im Zusammenfassungsbereich](assets/summary-details-section.png)
 

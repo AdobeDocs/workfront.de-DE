@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3298'
+source-wordcount: '3264'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       </li>
 
    </li> 
-       <li><b>Versand der Arbeit, die ich mir auf meiner Registerkarte "Arbeit an"zugewiesen habe</b>: Aktivieren Sie diese Option, wenn alles, was der Benutzer sich selbst zuweist, direkt auf der Liste "Arbeiten auf"im Bereich "Startseite"angezeigt werden soll. Standardmäßig werden alle Elemente aufgelistet, die einem Benutzer in den Listen "Bereit zum Start"oder "Nicht bereit"im Bereich "Startseite"zugewiesen sind.</li> 
+       <li><b>Versand der Arbeit, die ich mir auf meiner Registerkarte "Arbeiten am"zugewiesen habe</b>: Diese Einstellung bezieht sich auf eine veraltete Funktion, die aus Workfront entfernt wurde.</li> 
        <li><b> Testsendungen beim Hochladen von Dokumenten automatisch generieren</b>: Aktivieren Sie diese Option, wenn die vom Benutzer hochgeladenen Dokumente sofort einen Testversand erzeugen sollen. </li>
        </ul> </td> 
      </tr> 
@@ -153,7 +153,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <li><b>Direkte Berichte:</b> Wenn Sie ein Unternehmen für den Benutzer angegeben haben, können Sie auch die direkten Berichte des Benutzers angeben. Ein Benutzer kann über mehrere direkte Berichte verfügen. Dieses Feld wird nicht angezeigt, wenn der Benutzer nicht zuerst einem Unternehmen zugeordnet ist.</li> 
       <li><b>Home Team</b>: Geben Sie das Home-Team für den Benutzer an. Benutzer können nur ein Home-Team haben. Das Home Team ist wichtig, wenn es eine Layoutvorlage zuweist oder wenn es die Schaltfläche Work On It für die dem Benutzer zugewiesenen Aufgaben und Probleme definiert. </li> 
       <li><b>Sonstige Teams</b>: Benutzer können mehreren Teams angehören. Ein Benutzer kann die einem seiner Teams zugewiesenen Arbeitselemente in seinem Heimbereich anzeigen. </li> 
-      <li> <p><b>Home Group:</b> Wählen Sie eine geeignete Gruppe aus, um den Benutzer zuzuweisen. Dadurch erhält der Benutzer die Möglichkeit, auf Objekte zuzugreifen, die für die Gruppe freigegeben sind. Sie können Layoutvorlagen auch für die Startseite des Benutzers freigeben.</p> <p>Dies ist ein erforderliches Feld. Jeder Benutzer muss einer Startseite zugeordnet sein. Wenn Sie keine auswählen, wird Ihre Gruppe als Startseite des neuen Benutzers zugewiesen.</p> <p><b>NOTE</b>:</p> 
+      <li> <p><b>Home Group:</b> Wählen Sie eine geeignete Gruppe aus, um den Benutzer zuzuweisen. Dadurch erhält der Benutzer die Möglichkeit, auf Objekte zuzugreifen, die für die Gruppe freigegeben sind. Sie können Layoutvorlagen auch für die Startseite des Benutzers freigeben.</p> <p>Dies ist ein erforderliches Feld. Jeder Benutzer muss einer Startseite zugeordnet sein. Wenn Sie keine auswählen, wird Ihre Home Group als Startseite des neuen Benutzers zugewiesen.</p> <p><b>NOTE</b>:</p> 
       <p> Sie können einem Benutzer nur dann eine Gruppe zuweisen, wenn einer der folgenden Punkte zutrifft:</p>
       <ul><li>Sie sind Workfront-Administrator</li>
       <li>Sie sind der Administrator der Gruppe</li>

@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: Erstellen von Aufgaben
-description: Sie können Aufgaben in einem bestimmten Projekt erstellen oder Aufgaben im Bereich "Startseite"erstellen.
+title: "Aufgaben erstellen: Artikelindex"
+description: Sie können Aufgaben in einem bestimmten Projekt erstellen.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '46'
+ht-degree: 0%
 
 ---
 
-# Erstellen von Aufgaben
+# Aufgaben erstellen: Artikelindex
 
-Sie können Aufgaben in einem bestimmten Projekt erstellen oder Aufgaben im Bereich &quot;Startseite&quot;erstellen.
+<!--Audited: 10/2024-->
+
+Sie können Aufgaben in einem bestimmten Projekt in Adobe Workfront erstellen.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

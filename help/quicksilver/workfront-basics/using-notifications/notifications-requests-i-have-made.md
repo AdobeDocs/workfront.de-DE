@@ -6,9 +6,9 @@ description: Die folgenden Benachrichtigungen informieren Sie über Ihre Anfrage
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Eine persönliche Aufgabe, die ich jemand anderem zugewiesen habe, ist abgeschlossen</strong> </p> <p>Eine Benachrichtigung wird an den Benutzer gesendet, der einer anderen Person eine Ad-hoc-Aufgabe zugewiesen hat, wenn diese Aufgabe abgeschlossen ist. </p> <p>Weitere Informationen zu Ad-hoc-Aufgaben finden Sie unter <a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">Erstellen von Arbeitselementen und Projekten aus dem [!UICONTROL Home]-Bereich</a>.</p> <p>Betreff der E-Mail mit sofortiger Benachrichtigung ist: <em>Task Complete: &lt;Task Name&gt;</em></p> <p> <p>Hinweis: Sie können diese Benachrichtigung nicht für eine tägliche Digest-E-Mail konfigurieren.</p> </p> </td> 
+   <td> <p><strong>Eine persönliche Aufgabe, die ich jemand anderem zugewiesen habe, ist abgeschlossen</strong> </p> <p>Eine Benachrichtigung wird an den Benutzer gesendet, der eine persönliche Arbeitsanfrage an eine andere Person delegiert hat, wenn diese Anfrage abgeschlossen ist. </p>  <p>Betreff der E-Mail mit sofortiger Benachrichtigung ist: <em>Task Complete: &lt;Task Name&gt;</em></p> <p> <p>Hinweis: Sie können diese Benachrichtigung nicht für eine tägliche Digest-E-Mail konfigurieren.</p> </p> </td> 
    <td> Aufgabenname<br>Standardprojektname (Personal Project des Benutzers, der die persönliche Aufgabe erhalten hat)<br>Aufgabenverweisnummer<br>Name des Aufgabeneigentümers<br>Neuer Aufgabenstatus<br>Datum und Uhrzeit des Abschlusses der Aufgabe<br>Vorheriger Aufgabenstatus<br><strong>[!UICONTROL Weitere Informationen]</strong> Schaltfläche<br><br><br></td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
