@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '3684'
+source-wordcount: '3681'
 ht-degree: 3%
 
 ---
@@ -487,7 +487,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 1. Klicken Sie auf **Benutzerdefiniertes Formular hinzufügen** und wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit der Aufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
 
-   Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einer Aufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen.
+   Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einer Aufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen.
 
 1. (Bedingt) Wenn Sie ein benutzerdefiniertes Formular an die Aufgabe angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie die Aufgabe speichern können.
 

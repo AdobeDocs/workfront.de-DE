@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    1. Fügen Sie die benutzerdefinierten Felder zum neuen Formular hinzu, das Sie aus dem ursprünglichen benutzerdefinierten Formular entfernen möchten.
 
-      Weitere Informationen finden Sie im Abschnitt [Hinzufügen neuer oder vorhandener Felder zu Ihrem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) in [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+      Weitere Informationen finden Sie im Abschnitt [Hinzufügen neuer oder vorhandener Felder zu Ihrem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) in [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    1. Speichern Sie das neue benutzerdefinierte Formular.
 

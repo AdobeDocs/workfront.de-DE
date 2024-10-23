@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Langfristig kann e
 
 Den benutzerdefinierten Formularen unten links wurde ein Zähler hinzugefügt. Der Zähler zeigt an, wie viele Felder im Formular verwendet werden, und er ist immer sichtbar, wenn Sie im Formularentwickler einen Bildlauf durchführen.
 
-Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## In Layoutvorlagen ist jetzt die Option &quot;Alle auswählen&quot;verfügbar
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -101,4 +101,4 @@ Sie können weiterhin ein Dropdown-Feld mit nur einer Auswahl erstellen und den 
 
 Diese Option ist im alten Formular-Builder nicht verfügbar.
 
-Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

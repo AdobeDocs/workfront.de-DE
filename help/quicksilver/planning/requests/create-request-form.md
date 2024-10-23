@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1259'
 ht-degree: 2%
 
 ---
@@ -172,7 +172,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * **Beschreibender Text**
    * **Abschnittsumbruch**
 
-   Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Optional) Klicken Sie auf **Vorschau** , um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden eines neuen Datensatzes verwenden werden.
 1. (Optional) Klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Formulars in der Kopfzeile und dann auf **Bearbeiten** , um den Namen des Formulars zu aktualisieren.![](assets/more-menu.png)

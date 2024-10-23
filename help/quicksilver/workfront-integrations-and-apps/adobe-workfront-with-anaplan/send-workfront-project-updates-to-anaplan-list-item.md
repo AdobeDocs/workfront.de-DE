@@ -6,10 +6,10 @@ description: Dieses Integrationsszenario teilt Fortschritt, Status und wichtige 
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ Sie müssen Folgendes in [!DNL Workfront] haben, um dieses Szenario zu verwenden
    </tbody> 
   </table>
 
-  Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 <!--
 <note type="note">  

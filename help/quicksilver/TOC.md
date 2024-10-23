@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
+source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
 workflow-type: tm+mt
-source-wordcount: '14512'
+source-wordcount: '14518'
 ht-degree: 2%
 
 ---
@@ -614,7 +614,7 @@ ht-degree: 2%
          * [Übersicht über benutzerdefinierte Formulare](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Benutzerdefiniertes Formular erstellen {#design-a-form}
             * [Erstellen eines Formulars: Artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-            * [Formular mit dem Formularentwickler erstellen](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [Benutzerdefiniertes Formular erstellen](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [Erstellen eines Formulars aus einer Kopie](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [Berechnete Felder zu einem Formular hinzufügen](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [Hinzufügen der Anzeigenlogik und Überspringen der Logik zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
@@ -1933,6 +1933,7 @@ ht-degree: 2%
             * [Anzeigen früherer Testversand-Versionen im Testversand-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [Ändern der interaktiven Testversandauflösung im Testversand-Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Konfigurieren der Einstellungen des Testversand-Viewers](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+            * [Überprüfen interaktiver Inhalte mit dem Adobe Workfront-Überprüfungstool](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
          * Kommentar zu einem Testversand {#comment-on-a-proof}
             * [Kommentar zu Testsendungen: Artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Kommentar zu einem Testversand](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)

@@ -6,9 +6,9 @@ description: Übersicht über die häufigsten Verwendungen für den Textmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Sie können den Textmodus verwenden, wenn Sie Folgendes in Workfront erreichen m
 
 Sie können den Textmodus verwenden, um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen.
 
-Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zum Hinzufügen eines berechneten benutzerdefinierten Felds zu einem benutzerdefinierten Formular finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Weitere Informationen zum Erstellen eines berechneten benutzerdefinierten Felds im Textmodus finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 

@@ -6,9 +6,9 @@ description: Sie können Ihre Arbeit mit Ihrem Inhalt in [!DNL Experience Manage
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ So konfigurieren Sie Metadatenfelder:
 1. Konfigurieren Sie ein Metadatenschema in [!DNL Experience Manager Assets], wie in [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe [!DNL Workfront]  und  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en) beschrieben.
 
 
-1. Konfigurieren Sie benutzerdefinierte Formularfelder in Workfront. [!DNL Workfront] verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen, wie in [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
+1. Konfigurieren Sie benutzerdefinierte Formularfelder in Workfront. [!DNL Workfront] verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen, wie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
 
 +++ **Erweitern, um weitere Informationen zu unterstützten Workfront- und Experience Manager Assets-Feldern anzuzeigen**
 

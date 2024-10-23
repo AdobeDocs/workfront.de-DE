@@ -7,9 +7,9 @@ description: Das folgende berechnete Feld zeigt das Datum, an dem der Objektstat
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, das de
 
 1. Gehen Sie zu einem benutzerdefinierten Formular, in das Sie das Feld einfügen möchten.
 1. Klicken Sie auf **Berechnet** , um dem Formular ein berechnetes benutzerdefiniertes Feld hinzuzufügen.
-1. Geben Sie eine **Beschriftung** für das benutzerdefinierte Feld ein, z. B. *Status Timestamp Custom Field*.
-1. Klicken Sie auf **Fertig** und dann auf **Speichern+Schließen**.
+1. Geben Sie eine **Beschriftung** für das benutzerdefinierte Feld ein. Beispiel: &quot;Status Timestamp Custom Field&quot;.
+1. Klicken Sie auf **Speichern+Schließen**.
 1. Öffnen Sie das benutzerdefinierte Formular erneut und wählen Sie dann das neue Feld **Status-Zeitstempel für benutzerdefiniertes Feld** im Formular aus.
 1. Kopieren Sie in das Feld **Berechnung** die folgende Berechnung für Ihr benutzerdefiniertes Feld und fügen Sie sie ein:
 

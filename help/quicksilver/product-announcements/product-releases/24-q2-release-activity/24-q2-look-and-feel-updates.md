@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ Die E-Mail-Vorlagen zum Hinzufügen eines Genehmigers zu einem Asset und zum Hin
 
 Die Registerkarten für Forms, Felder und Abschnitte im Bereich &quot;Einrichtung&quot;> &quot;Benutzerdefinierter Forms&quot;wurden aktualisiert und sind nun entsprechend den anderen Bereichen von Workfront moderner gestaltet. Sie können nun über das linke Navigationsmenü auf die drei Bereiche zugreifen. Filter, Ansichten und Gruppierungen sind weiterhin für die Listen verfügbar. Der aktualisierte Entwurf gilt für benutzerdefinierte Formulare, Felder und Abschnitte, die sowohl im neuen Formularentwickler als auch im alten Formularersteller erstellt wurden.
 
-Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

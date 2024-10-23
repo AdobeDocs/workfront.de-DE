@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Wenn Sie ein neues benutzerdefiniertes Feld oder Widget zu einem benutzerdefinierten Formular hinzufügen, kann standardmäßig jeder Benutzer im System mit Zugriff auf benutzerdefinierte Formulare die Eigenschaften für dieses Element bearbeiten (z. B. Titel und Name). Sie können dies ändern, indem Sie steuern, für wen es freigegeben werden kann.
 
-Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
 

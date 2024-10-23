@@ -5,9 +5,9 @@ description: Sie können den Geschäftsfall verwenden, um ein Projekt anzuforder
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Beachten Sie Folgendes, wenn Sie ein Projekt über einen Geschäftsfall anforder
 
    Benutzerdefinierte Forms müssen erstellt werden, bevor sie an Projekte angehängt werden können.
 
-   Weitere Informationen zu Custom Forms finden Sie im Artikel [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Weitere Informationen zu Custom Forms finden Sie im Artikel [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicken Sie auf **Senden**.
 

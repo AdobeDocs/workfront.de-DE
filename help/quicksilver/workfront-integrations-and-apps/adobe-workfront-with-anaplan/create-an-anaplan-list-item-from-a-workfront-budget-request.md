@@ -6,9 +6,9 @@ description: Dieses Integrationsszenario verknüpft ein [!DNL Adobe Workfront] P
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Sie müssen Folgendes in [!DNL Workfront] haben, um dieses Szenario zu verwenden
    </tbody> 
   </table>
 
-  Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Projektvorlagen, die Kampagnen und andere Projekte darstellen, für die eine Finanzierung erforderlich ist, konfiguriert mit einem Warteschlangenthema [!UICONTROL Budgetanforderung] . Das Warteschlangenthema [!UICONTROL Budgetanforderung] wird zugewiesen, um das benutzerdefinierte Formular [!UICONTROL Budgetanforderung] zu verwenden.
 * Ein Formular **[!UICONTROL Kampagnenbeschreibung]** für das Projektobjekt.
@@ -141,7 +141,7 @@ Sie müssen Folgendes in [!DNL Workfront] haben, um dieses Szenario zu verwenden
    </tbody> 
   </table>
 
-  Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Erwartete [!DNL Anaplan] Konfiguration
 

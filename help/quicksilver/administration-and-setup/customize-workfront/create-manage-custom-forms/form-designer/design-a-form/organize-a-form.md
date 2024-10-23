@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Die Zugriffseinstellungen, die Sie für einen Abschnitt auswählen, sind direkt 
 
 Weitere Informationen zu Berechtigungen für Objekte finden Sie unter [Überblick über die Freigabe von Berechtigungen für Objekte](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Erstellen und Konfigurieren des Zugriffs für einen Abschnitt in einem benutzerdefinierten Formular
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars und dem Hinzufügen von Feldern, wie in [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
+1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars und dem Hinzufügen von Feldern, wie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
 
 1. Klicken Sie auf **Abschnittsumbruch** und ziehen Sie ihn an die gewünschte Position auf der Arbeitsfläche.
 
@@ -147,7 +147,7 @@ Wenn Sie in einem benutzerdefinierten Formular mit einer Abschnittspause, die mi
 ## Positionieren von benutzerdefinierten Feldern und Widgets in einem benutzerdefinierten Formular
 
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie in [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
+1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars, wie in [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
 
 1. Um benutzerdefinierte Felder und Widgets in derselben Zeile zu positionieren, ziehen Sie eine neben die andere, bis eine Linie dazwischen angezeigt wird.
 
@@ -166,7 +166,7 @@ Wenn Sie in einem benutzerdefinierten Formular mit einer Abschnittspause, die mi
 
 ## Vorschau eines benutzerdefinierten Formulars
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars und dem Hinzufügen von Feldern, wie in [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
+1. Beginnen Sie mit der Erstellung oder Bearbeitung eines benutzerdefinierten Formulars und dem Hinzufügen von Feldern, wie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
 
 1. Klicken Sie oben rechts auf **Vorschau** , um zu sehen, wie das Formular bei Verwendung aussehen wird, und klicken Sie dann auf **Vorschau beenden** , um zum Bearbeiten des Formulars zurückzukehren.
 

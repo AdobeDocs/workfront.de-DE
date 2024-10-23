@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2146'
 ht-degree: 0%
 
 ---
@@ -210,7 +210,7 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
 
    Der Wert eines Felds ist der Name, der beispielsweise in Berichten angezeigt wird, während der Name in den benutzerdefinierten Formularen angezeigt wird, die an Objekte angehängt sind.
 
-   Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -231,7 +231,7 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
 
    * **`setParameterID`** = die Optionen, die dem benutzerdefinierten Feld _Marke_ entsprechen, haben den Wert **`setParameterID`** von 1 und die Optionen, die dem Feld _Medien_ entsprechen, haben den Wert **`setParameterID`**2. Die Tabellen `PARAM` und `POPT` verweisen gegenseitig auf die Optionen, zu denen das benutzerdefinierte Feld gehört.
    * **`setDisplayOrder`**= Die Spalte mit der Anzeigereihenfolge gibt die Reihenfolge an, in der die Optionen in Ihrem benutzerdefinierten Feld angezeigt werden. Sie können mit 1 beginnen und für alle Optionen in aufsteigender Reihenfolge fortfahren, unabhängig davon, zu welchen Feldern sie gehören. Wichtig ist hier, dass für jede Option eindeutige Zahlen vorliegen.
-   * Die Spalten **`setLabel`** und `**setValue`** enthalten in der Regel dieselben Informationen und sollten die in der Workfront-Benutzeroberfläche gewünschten Namen widerspiegeln. Der Wert einer Option ist der Name, der beispielsweise in Berichten angezeigt wird, während der Titel in den benutzerdefinierten Formularen angezeigt wird, wenn er an ein Objekt angehängt wird. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * Die Spalten **`setLabel`** und `**setValue`** enthalten in der Regel dieselben Informationen und sollten die in der Workfront-Benutzeroberfläche gewünschten Namen widerspiegeln. Der Wert einer Option ist der Name, der beispielsweise in Berichten angezeigt wird, während der Titel in den benutzerdefinierten Formularen angezeigt wird, wenn er an ein Objekt angehängt wird. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = geben Sie `TRUE` ein, wenn eine der Optionen ausgeblendet werden soll.
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -296,7 +296,7 @@ Nachdem Sie die in den vorherigen Abschnitten beschriebenen Schritte ausgeführt
    >Die neuen Formulare und die importierten Felder sind noch nicht verknüpft. Das Formular wird ohne benutzerdefinierte Felder importiert. Sie müssen die Felder manuell zum neuen benutzerdefinierten Formular oder zu einem anderen vorhandenen benutzerdefinierten Formular hinzufügen.
 
 
-   Weitere Informationen zum Hinzufügen von Feldern zu benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Weitere Informationen zum Hinzufügen von Feldern zu benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Bedingt) Wenn der Import nicht erfolgreich war, erhalten Sie eine Fehlermeldung mit dem Problem. Versuchen Sie, das Feld, das Blatt und die Zeilennummer, in der das Problem aufgetreten ist, zu identifizieren und die Informationen in der Excel-Datei zu korrigieren. Versuchen Sie dann erneut, die Datei zu importieren.
 

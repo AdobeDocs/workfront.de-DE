@@ -8,9 +8,9 @@ description: Wenn Benutzer benutzerdefinierte Felder regelmäßig aktualisieren 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 Wenn Benutzer benutzerdefinierte Felder regelmäßig aktualisieren und Sie ein Protokoll aller an einem Feld vorgenommenen Änderungen sowie ein Datum, an dem die Änderungen vorgenommen werden, erfassen möchten, können Sie diese Informationen in einem berechneten benutzerdefinierten Feld erfassen.
 
-Das folgende Beispiel zeigt, wie Sie das berechnete Feld *Anweisungen zum Bearbeiten des Verlaufs* erstellen, um alle Änderungen an einem einzeiligen Textfeld namens *Anweisungen* zu erfassen.
+Im folgenden Beispiel erfahren Sie, wie Sie das berechnete Feld Anweisungen zum Bearbeiten des Verlauf erstellen, um alle Änderungen an einem einzeiligen Textfeld namens Anweisungen zu erfassen.
 
 >[!TIP]
 >
 >In diesem Beispiel können Sie für alle Typen von benutzerdefinierten Feldern folgen, nicht nur für einzeilige Textfelder.
 
-Dies geschieht folgendermaßen: 
+Dies geschieht folgendermaßen:
 
-* Beschränkt das Feld *Anweisungen zum Bearbeiten des Verlaufs* auf die letzten 2000 Zeichen, damit es in der Workfront-Datenbank verbleibt.
-* Überprüft, ob der aktuelle Wert des Felds *Anweisungen* mit der Vorderseite des Werts *Bearbeitungsverlauf für Anweisungen* übereinstimmt. Es wird davon ausgegangen, dass es leer ist. Ist dies nicht der Fall, wird Folgendes ausgeführt: 
+* Beschränkt das Feld Anweisungen zum Bearbeiten des Verlaufs auf die letzten 2000 Zeichen, um innerhalb der Workfront-Datenbankbegrenzung zu bleiben.
+* Überprüft, ob der aktuelle Wert des Felds Anweisungen mit dem Vorder-Wert des Werts Bearbeitungsverlauf für Anweisungen übereinstimmt. Es wird davon ausgegangen, dass er leer ist. Ist dies nicht der Fall, wird Folgendes ausgeführt:
 
-   * Wenn sie übereinstimmen, bleiben die *Anweisungen Verlauf bearbeiten* unverändert.
-   * Wenn sie nicht übereinstimmen, wird der *Bearbeitungsverlauf der Anweisungen* durch den neuesten Wert im Feld *Anweisungen* ersetzt, gefolgt vom aktuellen Datum in Klammern, einem vertikalen Balken und dem vorherigen *Bearbeitungsverlauf für Anweisungen*, in dem die vorherigen Werte und das Datum der Eingabe beibehalten werden.
+   * Wenn sie übereinstimmen, bleiben die Anweisungen Verlauf bearbeiten unverändert.
+   * Wenn sie nicht übereinstimmen, wird der Bearbeitungsverlauf für Anweisungen durch den neuesten Wert im Feld Anweisungen ersetzt, gefolgt vom aktuellen Datum in Klammern, einem vertikalen Balken und dem Bearbeitungsverlauf für frühere Anweisungen, in dem die vorherigen Werte und das Datum bzw. die Daten, zu denen sie eingegeben wurden, beibehalten werden.
 
 ## Zugriffsanforderungen
 
@@ -78,31 +78,30 @@ Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, das de
 
 1. Gehen Sie wie folgt vor, um das benutzerdefinierte Feld für einzeiligen Text zu erstellen:
 
-   1. Klicken Sie auf **Einzeiliges Textfeld**.
-   1. Geben Sie eine **Beschriftung** für das benutzerdefinierte Feld an, z. B. *Anweisungen*.
-   1. Klicken Sie auf **Applye**.
+   1. Klicken Sie auf **Einzelzeilentext**.
+   1. Geben Sie eine **Beschriftung** für das benutzerdefinierte Feld an. Sie können ihn beispielsweise &quot;Instructions&quot;nennen.
+   1. Klicken Sie auf **Anwenden**.
 
-1. Wählen Sie **Feld hinzufügen** und dann **Berechnet** aus, um dem Formular ein berechnetes benutzerdefiniertes Feld hinzuzufügen.
-1. Geben Sie eine **Beschriftung** für das berechnete benutzerdefinierte Feld an, z. B. *Anweisungen zum Bearbeiten des Verlaufs*.
+1. Klicken Sie auf **Berechnet** , um dem Formular ein berechnetes benutzerdefiniertes Feld hinzuzufügen.
+1. Geben Sie eine **Beschriftung** für das berechnete benutzerdefinierte Feld an. Sie können ihn beispielsweise &quot;Anweisungen zum Bearbeiten des Verlaufs&quot;nennen.
 
-   Dies ist das Feld, das alle Änderungen erfasst, die an dem ersten von Ihnen erstellten Feld (*Anweisungen*) vorgenommen wurden.
+   Dies ist das Feld, das alle Änderungen erfasst, die an dem ersten von Ihnen erstellten Feld (&quot;Anweisungen&quot;) vorgenommen wurden.
 
-1. Klicken Sie auf **Speichern + schließen**.
+1. Klicken Sie auf **Speichern und schließen**.
 1. Klicken Sie auf den Namen des Formulars, dem Sie nun zwei Felder hinzugefügt haben, um es erneut zu öffnen.
-1. Klicken Sie auf das berechnete benutzerdefinierte Feld *Anweisungen zum Bearbeiten des Verlaufs* und kopieren Sie dann Folgendes in das Feld &quot;Berechnung&quot;:
-1. Geben Sie im Feld **Berechnung** die folgende Berechnung für Ihr benutzerdefiniertes Feld an:
+1. Klicken Sie auf das berechnete benutzerdefinierte Feld **Anweisungen zum Bearbeiten des Verlaufs** und kopieren Sie dann Folgendes in das Feld **Berechnung**:
 
    ```
    LEFT(IF(LEFT({DE:Instructions Edit History},LEN(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})))={DE:Instructions},{DE:Instructions Edit History},CONCAT(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})," (",$$NOW,") | ",{DE:Instructions Edit History})),2000)
    ```
 
 1. (Empfohlen) Fügen Sie dieselbe Berechnung in das Feld **Anweisungen** im berechneten Feld im Formular ein.
-1. Stellen Sie sicher, dass  **Text** ist im Feld **Format** ausgewählt, um das berechnete benutzerdefinierte Feld als Text zu formatieren.
+1. Stellen Sie sicher, dass **Text** im Feld **Format** ausgewählt ist, um das berechnete benutzerdefinierte Feld als Text zu formatieren.
 
    Dies ist die Standardeinstellung.
 
-1. Klicken Sie auf **Speichern+Schließen**.
+1. Klicken Sie auf **Speichern und schließen**.
 
-   Wenn Sie jetzt das benutzerdefinierte Formular an ein Objekt anhängen und dann die Informationen im Feld *Anweisungen* ändern, zeigt das Feld *Anweisungen zum Bearbeitungsverlauf&quot;den neuesten Wert an, gefolgt vom aktuellen Datum in Klammern und einer vertikalen Leiste. Wenn weitere Änderungen vorgenommen werden, werden sie auf die gleiche Weise zu diesen Informationen hinzugefügt.
+   Wenn Sie jetzt das benutzerdefinierte Formular an ein Objekt anhängen und dann die Informationen im Feld **Anweisungen** ändern, zeigt das Feld **Bearbeitungsverlauf für Anweisungen** den neuesten Wert an, gefolgt vom aktuellen Datum in Klammern und einem vertikalen Balken. Wenn weitere Änderungen vorgenommen werden, werden sie auf die gleiche Weise zu diesen Informationen hinzugefügt.
 
-   In der obigen Berechnung können Sie *Anweisungen* durch den genauen Namen Ihres einzeiligen Textfelds ersetzen, dessen Verlauf Sie verfolgen möchten, und *Anweisungen zum Bearbeiten des Verlaufs* durch den genauen Namen Ihres berechneten Felds.
+   In der obigen Berechnung können Sie *Anweisungen* durch den genauen Namen Ihres einzeiligen Textfelds ersetzen, dessen Verlauf Sie verfolgen möchten, und **Anweisungen zum Bearbeiten des Verlaufs** durch den genauen Namen Ihres berechneten Felds.

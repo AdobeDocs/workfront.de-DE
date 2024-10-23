@@ -6,9 +6,9 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2300'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Ein Workfront-Administrator muss die folgenden Komponenten einer Anforderungswar
   Weitere Informationen finden Sie im Artikel [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Optional) Anfordern Sie ein benutzerdefiniertes Formular.\
-  Weitere Informationen finden Sie im Artikel [Formular mit dem Formularentwickler entwerfen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Weitere Informationen finden Sie im Artikel [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * (Optional) Genehmigungsprozess anfordern.\
   Weitere Informationen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

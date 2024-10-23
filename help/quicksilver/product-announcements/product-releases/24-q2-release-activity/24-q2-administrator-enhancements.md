@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Weitere Informationen zur Vorschau eines benutzerdefinierten Formulars im Formul
 
 Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind jetzt verfügbar, wenn Sie ein benutzerdefiniertes Formular an ein Unternehmen oder einen Benutzer anhängen. Die erweiterten Funktionen sind auf den Seiten &quot;Firmendetails&quot;und &quot;Benutzerdetails&quot;verfügbar, nicht in den Dialogfeldern &quot;Unternehmen bearbeiten&quot;und &quot;Benutzer bearbeiten&quot;. Das benutzerdefinierte Formular muss im neuen Formularentwickler erstellt werden, um diese Feldtypen nutzen zu können.
 
-Weitere Informationen zu benutzerdefinierten Formularfeldern finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Formularfeldern finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## JumpSeat-Integration jetzt für neue Pakettypen verfügbar
 
@@ -64,7 +64,7 @@ Native Felder, die in benutzerdefinierten Formularen verwendet werden, stehen in
 
 Diese Funktion ist nur in der Beta-Version des Formulardesigners verfügbar, nicht aber in der Legacy-Form-Builder.
 
-Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 [Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

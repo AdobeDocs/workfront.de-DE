@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2e526059e240c45ca333bb52cd57e61f87a032f2
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Sie können ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereic
 
 Sie können auch die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in benutzerdefinierten Formularen verwendet wird. Dazu gehören der Titel, der Name, Anweisungen usw. des Elements.
 
-Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
 
@@ -64,7 +64,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicken Sie auf **Neues benutzerdefiniertes Feld**.
 1. Geben Sie in das angezeigte Feld die erforderlichen und optionalen Informationen für das Element ein, das Sie hinzufügen möchten.
 
-   Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -77,6 +77,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Wählen Sie das benutzerdefinierte Feld, den Abschnittsumbruch oder das Widget aus und klicken Sie dann auf ![Symbol &quot;Bearbeiten&quot;](assets/edit-icon.png).
 1. Ändern Sie in dem angezeigten Feld die verfügbaren Optionen für das Element, das Sie bearbeiten.
 
-   Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Wenn Sie fertig sind, klicken Sie auf **Bearbeiten**.

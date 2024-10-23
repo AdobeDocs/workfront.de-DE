@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '845'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * [Routing-Regeln erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Wechseln Sie zu dem Projekt, das Sie als Warteschlange für Hilfeanfragen aktiviert haben und in dem Sie ein neues Warteschlangenthema erstellen möchten.\
    Weitere Informationen dazu, wie Sie ein Projekt als Warteschlange für Hilfeanfragen festlegen, finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).

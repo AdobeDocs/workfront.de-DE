@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Stellen Sie die folgenden Fragen:
   Weitere Informationen zum Definieren der Aktualisierungen, die in Workfront verfolgt werden sollen, finden Sie im Artikel [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md) .
 
 * Gibt es Informationen, die Sie nachverfolgen müssen und in denen kein Feld in Workfront zum Speichern vorhanden ist? Wenn ja, erstellen Sie benutzerdefinierte Forms für Projekte oder Aufgaben, in denen Sie diese Informationen speichern können.\
-  Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Erstellen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Gibt es Validierungspunkte, die erteilt werden müssen, bevor die Arbeit an einem Projekt fortgesetzt werden kann? Wenn ja, erstellen Sie Genehmigungsprozesse für Projekte oder Aufgaben, die Sie beim Erstellen Ihres Projekts verwenden können.\
   Weitere Informationen zu Genehmigungsprozessen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

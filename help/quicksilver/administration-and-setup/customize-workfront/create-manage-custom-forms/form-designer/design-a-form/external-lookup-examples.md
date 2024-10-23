@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ein externes Suchfeld in einem benutzerdefinierten Formular ruft eine externe AP
 
 Dieser Artikel enthält Beispiele für die Verwendung des externen Suchfelds, um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen. Sie können die externe Suche auch verwenden, um mit einem externen System wie Jira, Salesforce oder ServiceNow zu kommunizieren.
 
-Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular und zusätzliche Definitionen der externen Lookup-Komponenten finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular und zusätzliche Definitionen der externen Lookup-Komponenten finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Richten Sie ein externes Suchfeld für dieselbe Instanz von Workfront ein
 

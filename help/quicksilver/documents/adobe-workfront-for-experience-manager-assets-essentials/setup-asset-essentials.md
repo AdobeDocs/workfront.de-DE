@@ -6,9 +6,9 @@ description: Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,7 @@ Ordnen Sie Workfront-Objektdaten Asset-Medienfeldern in Experience Manager Asset
 Bevor Sie beginnen, müssen Sie
 
 * Konfigurieren Sie ein Metadatenschema in Experience Manager Assets Essentials, wie in [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en) beschrieben.
-* (Optional) Konfigurieren Sie benutzerdefinierte Formularfelder in Workfront. Workfront verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* (Optional) Konfigurieren Sie benutzerdefinierte Formularfelder in Workfront. Workfront verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Unterstützte Workfront- und Experience Manager Assets-Felder
 

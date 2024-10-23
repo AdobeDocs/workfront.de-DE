@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '768'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ Die Schaltflächen &quot;Bearbeiten&quot;und &quot;Fertig&quot;sind für Benutze
 
 * Eine Standardlizenz (neu) oder eine Plan- oder Arbeitslizenz (aktuell)
 * Eingeschränkter Bearbeitungszugriff oder höher für Aufgaben oder Probleme
+
+>[!NOTE]
+>
+>Die Schaltfläche Fertig wird als Markierung angezeigt, wie in allen Bereichen von Workfront ausgeführt.
 
 ## Bearbeiten Sie die Namen der Schaltfläche &quot;Fertig&quot;.
 
@@ -47,9 +51,9 @@ Je nachdem, in welchem Bereich von Workfront Sie auf Ihre Aufgabe oder Ihr Probl
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-## Suchen Sie nach der Bearbeitung und markieren Sie die Schaltfläche &quot;Fertig&quot;. {#locate-the-work-on-it-and-done-button}
+## Suchen Sie die Schaltfläche &quot;Bearbeiten und Fertig&quot;. {#locate-the-work-on-it-and-done-button}
 
-Sie können die Schaltfläche &quot;Bearbeiten&quot;und &quot;Als fertig markieren&quot;in den folgenden Bereichen von Workfront suchen:
+Die Schaltflächen Bearbeiten und Fertig finden Sie in den folgenden Bereichen von Workfront:
 
 * Der Startbereich im Widget &quot;Meine Arbeit&quot;
 
@@ -63,9 +67,9 @@ Sie können die Schaltfläche &quot;Bearbeiten&quot;und &quot;Als fertig markier
 
   Weitere Informationen zur Verwendung des Bedienfelds &quot;Zusammenfassung&quot;finden Sie unter [Überblick über die Zusammenfassung](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Übersicht über Felder, die automatisch aktualisiert werden, wenn Sie auf die Schaltfläche &quot;Bearbeiten&quot;und &quot;Als fertig markieren&quot;klicken
+## Übersicht über Felder, die automatisch aktualisiert werden, wenn Sie auf die Schaltflächen &quot;Bearbeiten&quot;oder &quot;Fertig&quot;klicken
 
-Der Vorteil der Verwendung der Schaltflächen &quot;Bearbeiten&quot;und &quot;Markieren&quot;besteht darin, dass Sie Workfront erlauben können, automatisch Informationen zum Ihnen zugewiesenen Arbeitselement zu aktualisieren.
+Der Vorteil der Verwendung der Schaltflächen &quot;Bearbeiten&quot;und &quot;Fertig&quot;besteht darin, dass Sie Workfront erlauben können, automatisch Informationen über das Ihnen zugewiesene Arbeitselement zu aktualisieren.
 
 * [Bearbeiten der Schaltfläche &quot;Bearbeiten&quot;](#work-on-it-button)
 * [Schaltfläche &quot;Start&quot;](#start-button)
@@ -111,10 +115,6 @@ Zusätzlich zu den Feldern, die aktualisiert werden, wenn Sie auf die Schaltflä
 >
 
 ### Schaltfläche &quot;Fertig&quot; {#the-done-button}
-
->[!NOTE]
->
->Die Schaltfläche Fertig wird als Markierung angezeigt, wie in allen Bereichen von Workfront ausgeführt.
 
 Wenn Sie Zugriff auf Bearbeitungsteams haben, können Sie die Schaltfläche Fertig für ein Team konfigurieren, um die Aufgabe zu aktualisieren oder den Status eines Problems zu ändern, wenn Sie ein Element als abgeschlossen markieren. Wenn Benutzer mit diesem Team als Startseite auf die Schaltfläche Als fertig markieren in den entsprechenden Elementen klicken, werden die folgenden Felder automatisch zu einer Aufgabe oder einem Problem aktualisiert:
 

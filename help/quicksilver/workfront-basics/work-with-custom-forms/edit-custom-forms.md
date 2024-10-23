@@ -7,9 +7,9 @@ description: Sie können Informationen in einem benutzerdefinierten Formular bea
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Voraussetzungen
 
-* Ihr Workfront-Administrator oder ein Planbenutzer mit Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Ihr Workfront-Administrator oder ein Planbenutzer mit Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Sie müssen benutzerdefinierte Formulare an ein Objekt anhängen.
 
   Informationen zum Anwenden benutzerdefinierter Formulare auf ein Objekt finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -91,7 +91,7 @@ Die Informationen in einem benutzerdefinierten Formular, das an ein Objekt angeh
    * Textfelder (fett, kursiv oder unterstrichen) können nur formatiert werden, wenn der Benutzer, der das Formular erstellt hat, sie als Textfeld mit Feldtyp &quot;Formatierung&quot;eingerichtet hat. Einzelzeilentextfelder und Absatztextfelder können nicht formatiert werden.
    * Sie können die Tageszeit in einem Datumsfeldtyp nur dann aktualisieren, wenn der Benutzer, der das Formular erstellt hat, es bei der Erstellung des Felds eingeschlossen hat.
 
-   Weitere Informationen zu allen Feldtypen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Weitere Informationen zu allen Feldtypen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicken Sie auf **Änderungen speichern**.
 

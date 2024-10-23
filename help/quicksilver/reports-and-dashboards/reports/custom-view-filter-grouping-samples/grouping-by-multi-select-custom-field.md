@@ -7,9 +7,9 @@ description: Sie können in einem Adobe Workfront-Bericht nur mithilfe des Textm
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 Um eine Gruppierung nach einem benutzerdefinierten Mehrfachfeld zu ermöglichen, müssen folgende Voraussetzungen erfüllt sein:
 
 * Erstellen Sie das benutzerdefinierte Mehrfachauswahlfeld in einem benutzerdefinierten Formular.\
-  Informationen zum Erstellen benutzerdefinierter Formulare und zum Hinzufügen benutzerdefinierter Felder finden Sie im Artikel [Formular mit dem Formularentwickler entwerfen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Informationen zum Erstellen benutzerdefinierter Formulare und zum Hinzufügen benutzerdefinierter Felder finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Hängen Sie das benutzerdefinierte Formular an Objekte an.
 * Füllen Sie das benutzerdefinierte Feld mit Mehrfachauswahl mit einem Wert für jedes Objekt. 

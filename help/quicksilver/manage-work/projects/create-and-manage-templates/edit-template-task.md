@@ -7,9 +7,9 @@ description: Nach der Erstellung einer Vorlage können Sie Informationen zu den 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2406'
 ht-degree: 4%
 
 ---
@@ -362,7 +362,7 @@ Sie können auch benutzerdefinierte Formulare zu künftigen Aufgaben eines Proje
 
    Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können.
 In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
-Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 Sie können einer Vorlagenaufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen.
 Die Formulare werden automatisch zu den aus der Vorlage erstellten Aufgaben hinzugefügt.
 1. (Bedingt und optional) Wenn Sie ein benutzerdefiniertes Formular an die Vorlagenaufgabe angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie die Vorlagenaufgabe speichern können.

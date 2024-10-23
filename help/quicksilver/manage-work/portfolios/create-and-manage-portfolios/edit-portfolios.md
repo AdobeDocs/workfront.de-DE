@@ -6,9 +6,9 @@ description: Sie können Informationen zu Portfolios bearbeiten, die Sie erstell
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -175,7 +175,7 @@ Sie können ein [!UICONTROL Portfolio] auf der Portfolioseite bearbeiten oder Po
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihr [!DNL Workfront] -Administrator die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festlegt, können nicht alle die gleichen Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern in einem Abschnitt eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für das Portfolio selbst haben. Informationen zum Festlegen von Berechtigungen für Abschnitte eines benutzerdefinierten Formulars finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Je nachdem, wie Ihr [!DNL Workfront] -Administrator die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festlegt, können nicht alle die gleichen Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern in einem Abschnitt eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für das Portfolio selbst haben. Weitere Informationen zum Festlegen von Berechtigungen für Abschnitte eines benutzerdefinierten Formulars finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Aktualisieren Sie alle Felder in den benutzerdefinierten Formularen und klicken Sie dann auf **[!UICONTROL Änderungen speichern]** oder fahren Sie mit dem folgenden Abschnitt fort.
 

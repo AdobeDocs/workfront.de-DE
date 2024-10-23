@@ -5,9 +5,9 @@ title: Arbeiten über Zeitzonen hinweg
 description: Es kann hilfreich sein, zu verstehen, wie [!DNL Adobe Workfront] Zeitzonen verwendet, um Zeitfelder für Objekte und Uhrzeiten in anderen Bereichen wie E-Mails zu berechnen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ Weitere Informationen finden Sie unter [Berechnete Felder zu einem Formular hinz
 
 Wenn Sie nicht möchten, dass [!DNL Workfront] die Zeiten, für die Sie in einem Objekt konfigurieren, für Benutzer in verschiedenen Zeitzonen konvertiert, können Sie ein Textfeld in einem benutzerdefinierten Formular verwenden, das Sie an ein Objekt anhängen, und nicht ein Datumsfeld. Auf diese Weise zeigt die Zeit die Zeit an, die Sie für jeden im Projekt eingeben.
 
-Wenn Sie dies tun, empfehlen wir, die Benutzer des Formulars daran zu erinnern, den Unterschied zwischen ihrer Zeitzone und Ihrer zu berechnen, damit sie bestimmen können, wann die Arbeit beginnen und enden soll. Sie können dies in die Anweisungen aufnehmen, die Sie für das benutzerdefinierte Formular eingeben, oder in eine QuickInfo für dieses Feld. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Wenn Sie dies tun, empfehlen wir, die Benutzer des Formulars daran zu erinnern, den Unterschied zwischen ihrer Zeitzone und Ihrer zu berechnen, damit sie bestimmen können, wann die Arbeit beginnen und enden soll. Sie können dies in die Anweisungen aufnehmen, die Sie für das benutzerdefinierte Formular eingeben, oder in eine QuickInfo für dieses Feld. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

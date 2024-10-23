@@ -6,9 +6,9 @@ description: Die Erstellung und Verwaltung von Ausgaben ist für Projekt- und Au
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Das Dialogfeld **Hinzufügen von Ausgaben** wird angezeigt.
    * **Abrechenbar:** Wählen Sie diese Option, wenn Sie diese Kosten in Rechnung stellen möchten. Bei der Erstellung von Rechnungsdatensätzen ist es wichtig, eine Ausgabe als abrechnungsfähig zu kategorisieren.
    * **Erstattbar:** Wählen Sie diese Option, wenn die Kosten erstattet werden müssen. Sie können die Kosten dann nach Rückerstattung der Kosten als erstattet kennzeichnen.
 
-1. Wählen Sie ein **benutzerdefiniertes Formular** aus und geben Sie zusätzliche erforderliche Informationen an. Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einer Ausgabe verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Formular mit dem Formularentwickler entwerfen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Wählen Sie ein **benutzerdefiniertes Formular** aus und geben Sie zusätzliche erforderliche Informationen an. Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einer Ausgabe verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicken Sie auf **Änderungen speichern**.
 

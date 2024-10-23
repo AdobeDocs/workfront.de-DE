@@ -5,9 +5,9 @@ description: Zusätzlich zur Einrichtung von Umsatz- und Tracking-Ausgaben könn
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1931'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Beachten Sie bei der Planung der Verwendung von Rechnungsdatensätzen Folgendes:
 
 1. (Optional) Wählen Sie unter **Benutzerdefinierter Forms** ein benutzerdefiniertes Formular für die Rechnungsstellung für Datensätze aus, das Sie zum Rechnungsdatensatz hinzufügen möchten.
 
-   Sie (oder ein anderer Benutzer mit Zugriff auf benutzerdefinierte Formulare) müssen ein benutzerdefiniertes Formular für die Rechnungsstellung erstellen, bevor Sie es hier auswählen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Sie (oder ein anderer Benutzer mit Zugriff auf benutzerdefinierte Formulare) müssen ein benutzerdefiniertes Formular für die Rechnungsstellung erstellen, bevor Sie es hier auswählen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    Sie können diesen Schritt wiederholen, um andere benutzerdefinierte Formulare hinzuzufügen, die Sie für den Rechnungsdatensatz benötigen.
 

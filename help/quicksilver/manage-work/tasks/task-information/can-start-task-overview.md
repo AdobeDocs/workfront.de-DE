@@ -7,7 +7,7 @@ description: Wenn eine Aufgabe startbereit ist, fügt Adobe Workfront der Aufgab
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Workfront sucht nach den folgenden Elementen, bevor eine Aufgabe für das Feld K
 
 * Gibt an, ob der Wert Kann starten für das übergeordnete Element auf True festgelegt ist, wenn die Aufgabe übergeordnet ist. Wenn der Wert für das übergeordnete Element False ist, haben alle Unteraufgaben auch den Wert &quot;Can Start&quot;auf &quot;False&quot; gesetzt.
 * Ob die Vorgänger der Aufgabe sowie die Vorgänger ihrer Eltern fertig sind. Wenn sie abgeschlossen sind, wird der Kann-Start-Wert für die Aufgabe auf &quot;True&quot;gesetzt. Wenn einer der Aufgabenverfasser oder der Vorgänger der übergeordneten Elemente nicht abgeschlossen ist oder den Status &quot;Genehmigung abgeschlossen/ausstehend&quot;aufweist, wird der Wert Kann starten für die Aufgabe auf &quot;False&quot;gesetzt.
-* Gibt an, ob der Aufgabenabhängigkeitstyp &quot;Start-Start&quot;oder &quot;Start-Finish&quot;ist. Wenn der Abhängigkeitstyp Start-Start oder Start-Ende ist, wird für die abhängige Aufgabe das Flag &quot;Kann starten&quot;auf &quot;True&quot;gesetzt, nachdem die übergeordnete Aufgabe ausgeführt wurde (oder nachdem der Prozentsatz des Abschlusses der übergeordneten Aufgabe größer als 1 % ist). <!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
+* Gibt an, ob der Aufgabenabhängigkeitstyp &quot;Start-Start&quot;oder &quot;Start-Finish&quot;ist. Wenn der Abhängigkeitstyp Start-Start oder Start-Finish ist, wird für die abhängige Aufgabe das Flag &quot;Kann starten&quot;auf &quot;True&quot;gesetzt, nachdem die Vorgängeraufgabe ausgeführt wurde (oder nachdem der prozentuale Abschluss der Vorgängeraufgabe größer als 1 % ist).
 
   Weitere Informationen zu Aufgabenvorgängen finden Sie unter [Übersicht über Aufgabenvorstufen](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

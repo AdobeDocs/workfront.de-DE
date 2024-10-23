@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sie können eine benutzerdefinierte Ansicht im Bereich &quot;Benutzerdefinierter Forms&quot;hinzufügen, die anzeigt, welche Berichte ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden. Dies ist nützlich, wenn Sie das Feld oder Widget bearbeiten oder löschen müssen, da es möglicherweise bereits in einem oder mehreren Berichten implementiert ist. Es ist wichtig zu beurteilen, ob diese Berichte angepasst werden müssen, damit sie weiterhin ordnungsgemäß funktionieren.
 
-Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
 

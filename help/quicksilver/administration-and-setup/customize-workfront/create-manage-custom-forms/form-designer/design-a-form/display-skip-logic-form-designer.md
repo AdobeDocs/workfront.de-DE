@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Wählen Sie ein Feld mit angewendeter Logik aus, um die vorhandenen Logikregeln 
 ## Überlegungen zur Verwendung der Anzeigelogik und der Logik zum Überspringen
 
 * Um eine Anzeigerlogik zu einem benutzerdefinierten Feld, Widget oder Abschnittsumbruch hinzuzufügen, muss mindestens ein Auswahlfeld (Optionsfelder, Dropdown-Menüs oder Kontrollkästchen) vor dem Feld im Formular positioniert werden.
-Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Sie können einem Widget oder einer Abschnittsumbruch keine Logik zum Überspringen hinzufügen. Sie können sie nur zu einem Multiple-Choice-Feld hinzufügen (Optionsfelder, Dropdown-Listen oder Kontrollkästchen).
 * Sie können einem benutzerdefinierten Feld sowohl die Anzeigenlogik als auch die Logik überspringen, wenn Folgendes für das benutzerdefinierte Feld zutrifft:
 
@@ -98,7 +98,7 @@ Die Anzeigereihenfolge definiert, welche benutzerdefinierten Felder im Formular 
 {{step-1-to-setup}}
 
 1. Klicken Sie auf **Benutzerdefinierter Forms**.
-1. Erstellen Sie ein neues benutzerdefiniertes Formular oder öffnen Sie ein vorhandenes Formular. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) .
+1. Erstellen Sie ein neues benutzerdefiniertes Formular oder öffnen Sie ein vorhandenes Formular. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) .
 1. Fügen Sie dem Formular nach Bedarf Felder hinzu. Vor dem anzuzeigenden Zielfeld muss mindestens ein Multiple-Choice-Feld (Optionsfeld, Dropdown-Menü oder Kontrollkästchen) positioniert werden.
 1. Wählen Sie das Zielfeld aus und klicken Sie unten links im Bildschirm auf **Logik hinzufügen** .
 1. Wählen Sie die Registerkarte **Logik anzeigen** aus.
@@ -128,7 +128,7 @@ Logik überspringen definiert benutzerdefinierte Formularfelder, die übersprung
 {{step-1-to-setup}}
 
 1. Klicken Sie auf **Benutzerdefinierter Forms**.
-1. Erstellen Sie ein neues benutzerdefiniertes Formular oder öffnen Sie ein vorhandenes Formular. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) .
+1. Erstellen Sie ein neues benutzerdefiniertes Formular oder öffnen Sie ein vorhandenes Formular. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) .
 1. Fügen Sie dem Formular nach Bedarf Felder hinzu. Das definierende Feld für die Logik zum Überspringen muss ein Multiple-Choice-Feld sein (Optionsfeld, Dropdown-Menü oder Kontrollkästchen).
 1. Wählen Sie das definierende Feld aus und klicken Sie unten links im Bildschirm auf **Logik hinzufügen** .
 1. Wählen Sie die Registerkarte **Logik überspringen** aus.

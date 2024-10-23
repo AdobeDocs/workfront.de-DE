@@ -5,15 +5,17 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 1%
 
 ---
 
-
 # Übersicht über verbundene Datensatztypen
+
+<!--see the commented out markers below for the Planning connection field, might not display in green; also add Preview tags for the article-->
 
 Sie können angeben, dass einzelne Datensatztypen miteinander oder mit Objekten aus anderen Anwendungen in Beziehung stehen, indem Sie sie verbinden.
 
@@ -70,8 +72,10 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
 
       * Ein verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, aus dem Sie eine Verbindung herstellen. Für den Objekttyp der anderen Anwendung wird kein verknüpftes Datensatzfeld erstellt.
       * Über Workfront-Objekte ist der Zugriff auf die Felder für die Planung von Datensätzen nicht möglich.
-      * Die Planung von Datensatzfeldern ist über Experience Manager-Assets verfügbar, wenn der Workfront-Administrator die Metadaten-Zuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
       * Auf der Registerkarte Planung des Workfront-Objekts werden Planungsdatensätze angezeigt. Weitere Informationen finden Sie unter [Verwalten von Datensätzen im Abschnitt &quot;Planung&quot;von Adobe Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+     <!--* Planning records are visible from a Workfront object's custom form when you add the Planning connection field type to the form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). -->
+      * Die Planung von Datensatzfeldern ist über Experience Manager-Assets verfügbar, wenn der Workfront-Administrator die Metadaten-Zuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
    * **Wenn Sie Suchfelder aus dem Datensatz oder Objekt hinzufügen, mit dem Sie eine Verbindung herstellen,**: Zusätzlich zur Erstellung eines verknüpften Datensatzfelds können Sie auch eine Verbindung zu Feldern des verbundenen Datensatzes oder Objekttyps herstellen, die als Lookup-Felder bezeichnet werden. Ein verknüpftes (oder Lookup-Feld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, wird auf dem Datensatz angezeigt, von dem Sie eine Verbindung herstellen.
 
@@ -159,8 +163,3 @@ Wenn Sie beispielsweise Kampagnen mit Projekten verbinden und diese Art der Verb
 Ein echtes Beispiel für eine Eins-zu-Eins-Beziehung ist die Beziehung zwischen einer Person und der eindeutigen Kennung ihres Landes (z. B. Sozialversicherungsnummer, Pass-ID, lokale Identifikationsnummer): Jede Person hat nur eine eindeutige Kennung für ein Land und jede eindeutige Kennung kann nur mit einer Person verknüpft werden.
 
 Wenn Sie diesen Verbindungstyp auswählen, können Sie ihn später in einen anderen Verbindungstyp ändern.
-
-
-
-
-

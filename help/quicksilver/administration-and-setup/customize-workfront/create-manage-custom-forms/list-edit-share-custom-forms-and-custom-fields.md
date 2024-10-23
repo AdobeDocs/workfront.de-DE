@@ -6,9 +6,9 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 hidefromtoc: true
 hide: true
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Wenn Sie eine Liste der benutzerdefinierten Formulare Ihres Unternehmens sowie der benutzerdefinierten Felder und Widgets anzeigen, die ihnen hinzugefügt wurden, können Sie mithilfe der Optionen in der Symbolleiste deren Eigenschaften bearbeiten, einschränken, für wen sie freigegeben wurden, sie kopieren und löschen. Sie können auch andere Informationen in den angezeigten Spalten anzeigen, z. B. mit welchen Objekttypen die einzelnen benutzerdefinierten Formulare verknüpft sind.
 
-Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
 
@@ -55,7 +55,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
 
    Informationen dazu, was Sie tun können, wenn Sie ein benutzerdefiniertes Formular in der Liste auswählen, finden Sie in den folgenden Artikeln:
 
-   * [Formular mit dem Formularentwickler erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Freigeben eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
    * [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Löschen oder Deaktivieren eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)

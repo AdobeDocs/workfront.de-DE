@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2529'
+source-wordcount: '2523'
 ht-degree: 2%
 
 ---
@@ -324,13 +324,13 @@ Sie können ein Problem in den Bereichen Problem bearbeiten oder Problemdetails 
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. Wählen Sie im Feld **Benutzerdefiniertes Formular hinzufügen** das benutzerdefinierte Formular oder die Formulare aus, die Sie mit dem Problem verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einem Problem bis zu zehn benutzerdefinierte Formulare hinzufügen.
+1. Wählen Sie im Feld **Benutzerdefiniertes Formular hinzufügen** das benutzerdefinierte Formular oder die Formulare aus, die Sie mit dem Problem verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einem Problem bis zu zehn benutzerdefinierte Formulare hinzufügen.
 
 1. (Bedingt) Wenn Sie ein benutzerdefiniertes Formular an das Problem angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie das Problem speichern können.
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihr Workfront-Administrator die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festgelegt hat, können nicht alle die gleichen Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern in einem Abschnitt eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für das Problem selbst haben. Informationen zum Festlegen von Berechtigungen für Abschnitte eines benutzerdefinierten Formulars finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Weitere Informationen zum Festlegen von Berechtigungen für Probleme finden Sie unter [Freigeben eines Problems](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >Je nachdem, wie Ihr Workfront-Administrator die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festgelegt hat, können nicht alle die gleichen Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern in einem Abschnitt eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für das Problem selbst haben. Weitere Informationen zum Festlegen von Berechtigungen für Abschnitte eines benutzerdefinierten Formulars finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Weitere Informationen zum Festlegen von Berechtigungen für Probleme finden Sie unter [Freigeben eines Problems](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 1. Klicken Sie auf **Speichern** oder fahren Sie mit der Bearbeitung des folgenden Abschnitts fort.
 

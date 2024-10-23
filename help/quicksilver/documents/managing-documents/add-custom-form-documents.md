@@ -6,9 +6,9 @@ description: Sie können ein benutzerdefiniertes Formular zu einem Dokument oder
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ So fügen Sie einem Dokument ein benutzerdefiniertes Formular hinzu:
 
    >[!NOTE]
    >
-   >Im Dropdown-Menü werden nur aktive benutzerdefinierte Formulare angezeigt. Sie können bis zu 10 benutzerdefinierte Formulare pro Dokument hinzufügen. Wenn Sie ein benutzerdefiniertes Formular erstellen müssen, finden Sie weitere Informationen unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Im Dropdown-Menü werden nur aktive benutzerdefinierte Formulare angezeigt. Sie können bis zu 10 benutzerdefinierte Formulare pro Dokument hinzufügen. Wenn Sie ein benutzerdefiniertes Formular erstellen müssen, finden Sie weitere Informationen unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Bearbeiten eines benutzerdefinierten Formulars
 

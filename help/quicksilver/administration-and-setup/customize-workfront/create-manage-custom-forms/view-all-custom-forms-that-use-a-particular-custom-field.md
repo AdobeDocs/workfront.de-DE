@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Sie können herausfinden, welche benutzerdefinierten Formulare ein benutzerdefiniertes Feld oder Widget verwenden, das Sie ändern oder löschen möchten. Es ist wichtig zu bewerten, ob diese benutzerdefinierten Formulare Anpassungen erfordern, damit sie weiterhin ordnungsgemäß funktionieren oder nach dem Ändern oder Löschen des Felds oder Widgets weiterhin nützlich sind.
 
-Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
 

@@ -6,9 +6,9 @@ description: Ihr [!DNL Adobe Workfront] Profil enthält Informationen über Sie 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3303'
 ht-degree: 1%
 
 ---
@@ -524,7 +524,7 @@ Sie müssen über einen der folgenden Zugriff oder eine der folgenden Berechtigu
 
 Alle Benutzer können benutzerdefinierte Formulare sehen, die mit ihren Profilen verknüpft wurden.
 
-Ihr [!DNL Workfront] -Administrator muss benutzerdefinierte Formulare für das Benutzerobjekt konfigurieren, damit Sie ein benutzerdefiniertes Formular an Ihr Benutzerprofil anhängen können. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Ihr [!DNL Workfront] -Administrator muss benutzerdefinierte Formulare für das Benutzerobjekt konfigurieren, damit Sie ein benutzerdefiniertes Formular an Ihr Benutzerprofil anhängen können. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Kommentar]
 

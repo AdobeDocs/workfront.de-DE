@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '380'
 ht-degree: 11%
 
 ---
@@ -29,7 +29,7 @@ Sie können beispielsweise ein benutzerdefiniertes Formular mit dem Namen &quot;
 
 Der Formularentwickler verfügt über einen Arbeitsbereich im Arbeitsbereich, mit dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können. Außerdem können Sie Felder in die Abschnitte ziehen, während Sie Ihr Formular entwerfen. Sie können die Größe der rechten Seite des Bildschirms ändern, um mehr Platz für die Feldoptionen bereitzustellen.
 
-Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ![Beispielformulardesigner](assets/form-designer-example.png)
 

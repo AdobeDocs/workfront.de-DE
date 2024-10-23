@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '7534'
+source-wordcount: '7528'
 ht-degree: 1%
 
 ---
@@ -340,7 +340,7 @@ So bearbeiten Sie Informationen zu benutzerdefinierten Formularen beim Bearbeite
 
    >[!NOTE]
    >
-   >Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einem Projekt bis zu zehn benutzerdefinierte Formulare hinzufügen.
+   >Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einem Projekt bis zu zehn benutzerdefinierte Formulare hinzufügen.
 
 
 1. (Bedingt) Wenn Sie ein benutzerdefiniertes Formular an das Projekt angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie das Projekt speichern können.
@@ -562,7 +562,7 @@ Informationen dazu, wie sich diese Einstellungen auf die Erstellung neuer Aufgab
    * Wenn Sie mehrere Projekte aus derselben Gruppe auswählen, werden in diesem Feld sowohl systemspezifische als auch gruppenspezifische Aufgabengenehmigungsprozesse angezeigt.
    * Wenn Sie mehrere Projekte aus verschiedenen Gruppen auswählen, werden in diesem Feld nur Aufgabengenehmigungsprozesse auf Systemebene angezeigt.
 
-1. Wählen Sie im Feld **Task Default Custom Forms** das benutzerdefinierte Formular oder die Formulare aus, die beim Hinzufügen zum Projekt mit allen neuen Aufgaben verknüpft werden sollen. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können bis zu zehn benutzerdefinierte Formulare mit einer Aufgabe verknüpfen.
+1. Wählen Sie im Feld **Task Default Custom Forms** das benutzerdefinierte Formular oder die Formulare aus, die beim Hinzufügen zum Projekt mit allen neuen Aufgaben verknüpft werden sollen. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können bis zu zehn benutzerdefinierte Formulare mit einer Aufgabe verknüpfen.
 1. (Optional) Wählen Sie **Arbeitsaufwand verwenden, um die geplante Aufgabe automatisch zu berechnen**, wenn Sie die Verwaltung des Arbeitsaufwands durch Verwendung von Arbeitsaufwand anstelle von geplanten Stunden aktivieren möchten.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

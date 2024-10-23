@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Bevor Sie beginnen, müssen Sie über Folgendes verfügen:
 
    Sie benötigen den richtigen Zugriff, um ein benutzerdefiniertes Formular anzuhängen und die Informationen im Formular zu bearbeiten.
 
-Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Weitere Informationen zum Anhängen von Formularen an Objekte finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

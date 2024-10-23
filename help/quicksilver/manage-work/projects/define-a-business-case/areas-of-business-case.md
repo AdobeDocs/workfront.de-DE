@@ -6,9 +6,9 @@ description: In diesem Artikel werden die Bereiche des Geschäftsfalls eines Pro
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1603'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ Weitere Informationen zum Aktivieren der Bereiche des Geschäftsfalls finden Sie
 
 Um ein benutzerdefiniertes Formular anzuwenden, muss Ihr Workfront-Administrator zunächst ein benutzerdefiniertes Formular erstellen.
 
-Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Sie können benutzerdefinierte Formulare verwenden, um zusätzliche Informationen zu erfassen, die nicht in den anderen Feldern des Geschäftsfalls angezeigt werden.
 

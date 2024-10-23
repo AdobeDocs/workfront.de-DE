@@ -6,10 +6,10 @@ description: Dieses Integrationsszenario verknüpft ein [!DNL Adobe Workfront] P
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 1%
+source-wordcount: '729'
+ht-degree: 2%
 
 ---
 
@@ -112,7 +112,7 @@ Sie müssen Folgendes in [!DNL Workfront] haben, um dieses Szenario zu verwenden
    </tbody> 
   </table>
 
-  Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Ein Projekt, das als Anforderungswarteschlange zum Erfassen neuer Kampagnenanforderungen eingerichtet wurde. An diese Anfragen muss das Formular [!UICONTROL Kampagnenbeschreibung] angehängt werden.
 

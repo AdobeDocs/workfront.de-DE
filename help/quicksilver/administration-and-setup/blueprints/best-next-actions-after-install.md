@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ Die Einführung eines neuen Dashboards und seiner Berichte kann es ermöglichen,
 
 ### Verteilen benutzerdefinierter Daten in relevante Formulare
 
-Einige Berichte, die in einem Dashboard-Blueprint enthalten sind, verfügen entweder über benutzerdefinierte Datenfelder in der Ansicht, im Filter oder in der Gruppierung des Berichts. In einigen Fällen enthält der Blueprint auch ein Formular, mit dem diese Felder verknüpft sind. In den meisten Fällen werden die benutzerdefinierten Felder jedoch nicht auf ein benutzerdefiniertes Formular angewendet. Damit die Spalten, Filter oder Gruppierungen ordnungsgemäß funktionieren, müssen diese Felder mit Formularen verknüpft sein, die mit einem Benutzer, Projekt, einer Aufgabe oder einem anderen Objektdatensatz verbunden sind. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Einige Berichte, die in einem Dashboard-Blueprint enthalten sind, verfügen entweder über benutzerdefinierte Datenfelder in der Ansicht, im Filter oder in der Gruppierung des Berichts. In einigen Fällen enthält der Blueprint auch ein Formular, mit dem diese Felder verknüpft sind. In den meisten Fällen werden die benutzerdefinierten Felder jedoch nicht auf ein benutzerdefiniertes Formular angewendet. Damit die Spalten, Filter oder Gruppierungen ordnungsgemäß funktionieren, müssen diese Felder mit Formularen verknüpft sein, die mit einem Benutzer, Projekt, einer Aufgabe oder einem anderen Objektdatensatz verbunden sind. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

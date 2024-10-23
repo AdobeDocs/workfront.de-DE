@@ -7,9 +7,9 @@ description: Sie können einem der unten aufgeführten Objekte ein vorhandenes b
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '820'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Voraussetzungen
 
-Ihr Workfront-Administrator oder ein Benutzer mit einer Planungslizenz und Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen, bevor Sie sie zu Objekten hinzufügen können. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Ihr Workfront-Administrator oder ein Benutzer mit einer Planungslizenz und Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen, bevor Sie sie zu Objekten hinzufügen können. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Benutzerdefiniertes Formular zu einem Objekt hinzufügen
 

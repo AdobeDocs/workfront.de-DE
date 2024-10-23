@@ -6,9 +6,9 @@ description: Sie können die Reihenfolge aktualisieren, in der die an ein Objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 
 ## Voraussetzungen
 
-* Ihr Workfront-Administrator oder ein Planbenutzer mit Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen. Weitere Informationen finden Sie unter [Entwerfen eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Ihr Workfront-Administrator oder ein Planbenutzer mit Administratorzugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Sie müssen benutzerdefinierte Formulare an ein Objekt anhängen.
 
   Informationen zum Anwenden benutzerdefinierter Formulare auf ein Objekt finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
