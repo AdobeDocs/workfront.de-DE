@@ -7,14 +7,16 @@ description: Mit Adobe Workfront können Sie Nachrichten, die nicht mit einem Ar
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
+source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Direktnachrichten an andere Benutzer senden
+
+{{highlighted-preview}}
 
 Mit [!DNL Adobe Workfront] können Sie Nachrichten, die nicht mit einem Arbeitselement in Verbindung stehen, schnell und einfach direkt an andere [!DNL Workfront] -Benutzer senden. Wie in diesem Abschnitt beschrieben gesendete Nachrichten werden auf der Registerkarte [!UICONTROL Aktualisierungen] auf der Profilseite des Benutzers angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Aktualisieren von Arbeitselementen und Anzeigen von Updates: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
@@ -72,17 +74,18 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicken Sie auf **[!UICONTROL Aktualisieren].**
 Die Nachricht wird oben in der Liste der Nachrichten auf der Registerkarte **[!UICONTROL Aktualisierungen]** auf der Profilseite des Benutzers veröffentlicht.
 
-<!--
-## Send a message to one or more users from the User list
+## Nachricht von der Liste &quot;Benutzer&quot;an einen oder mehrere Benutzer senden
 
-This option is only available if you have a Standard, Plan, or Work license.
+Diese Option ist nur verfügbar, wenn Sie über eine Standard-, Plan- oder Work-Lizenz verfügen.
 
 {{step-1-to-users}}
 
-1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
-1. Type your message in the [!UICONTROL Send update to user] window.
-1. (Optional) Search for any additional users you want to tag on the message. You do not need to tag the users you already selected in the user list.
-1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
-1. Click [!UICONTROL **Send**].
-   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each user's profile page.
--->
+1. Wählen Sie den Benutzer aus, an den Sie eine Nachricht senden möchten, und klicken Sie auf [!UICONTROL **Aktualisierung an Benutzer senden**].
+1. Geben Sie Ihre Nachricht in das Fenster [!UICONTROL Aktualisierung an Benutzer senden] ein.
+
+   <span class="preview">![Nachrichtenbenutzer im Fenster &quot;Update an Benutzer senden&quot;](assets/send-message-to-user-dialog-from-user-list.png)</span>
+
+1. (Optional) Suchen Sie nach weiteren Benutzern, die Sie in der Nachricht taggen möchten. Sie müssen die bereits in der Benutzerliste ausgewählten Benutzer nicht mit Tags versehen.
+1. (Optional) Wählen Sie **[!UICONTROL Für mein Unternehmen privat]** aus, damit diese Nachricht nur für andere Benutzer in Ihrem Unternehmen sichtbar ist.
+1. Klicken Sie auf [!UICONTROL **Senden**].
+Die Nachricht wird oben in der Liste der Nachrichten auf der Registerkarte **[!UICONTROL Aktualisierungen]** auf der Profilseite jedes Benutzers veröffentlicht.
