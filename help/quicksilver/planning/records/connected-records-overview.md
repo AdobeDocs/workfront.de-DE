@@ -6,16 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # Übersicht über verbundene Datensätze
 
-<!--for the Planning connection field, see commented out below; also add preview tags-->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
 
 {{planning-important-intro}}
 
@@ -56,6 +58,6 @@ In den folgenden Bereichen können Sie Datensätze mit anderen Datensätzen oder
 * In den folgenden Bereichen können Sie Workfront-Objekte mit Datensätzen in der Workfront-Planung verbinden:
 
    * Im Planungsabschnitt eines Workfront-Objekts.
-  <!--* From a Planning connection field on a Workfront object's custom form. -->
+   * <span class="preview">In einem Verbindungsfeld für die Planung im benutzerdefinierten Formular eines Workfront-Objekts. </span>
 
   Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen von Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
