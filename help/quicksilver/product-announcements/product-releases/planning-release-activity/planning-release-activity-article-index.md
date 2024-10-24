@@ -6,13 +6,13 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
+source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront Planning-Release-Aktivität: Artikelindex
 
@@ -30,6 +30,7 @@ ht-degree: 0%
 
 Dieser Artikel enthält eine Liste der Artikel zu Release-Aktivitäten zum Adobe Workfront-Planungsprodukt.
 
+* [Aktivität &quot;Erste Quartal 2025&quot; für die Adobe Workfront-Planung](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 * [Aktivität vom vierten Quartal 2024 für die Adobe Workfront-Planung](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 <!-- remove this after 25.1 and consider removing the pages too-->
