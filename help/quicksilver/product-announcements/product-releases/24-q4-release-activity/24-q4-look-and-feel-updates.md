@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,12 @@ Die Benutzeroberfläche des Berichts wurde entsprechend dem Design anderer Berei
 
 * In Berichten wurde eine erweiterte Farbpalette für Regeln zur bedingten Formatierung hinzugefügt. Weitere Informationen zur bedingten Formatierung finden Sie unter [Bedingte Formatierung in Ansichten verwenden](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 * Es wurde eine neue Schaltfläche &quot;Textmodus bearbeiten&quot;hinzugefügt, mit der Sie beim Bearbeiten einer Spalte in ReportBuilder in den Textmodus wechseln können. Weitere Informationen zum Bearbeiten von Berichtsansichten im Textmodus finden Sie unter [Bearbeiten einer Ansicht im Textmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* Sie können den Titel eines Berichts nicht mehr bearbeiten, indem Sie auf seinen Titel klicken. Sie können einen Berichtstitel weiterhin bearbeiten, indem Sie auf Berichtaktionen > Bearbeiten klicken und dann den Titel ändern. Weitere Informationen zum Bearbeiten von Berichten finden Sie unter [Berichteinstellungen bearbeiten](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
+* Sie können eine Gruppierung nicht mehr erstellen, indem Sie im Gruppierungs-Builder auf einen Spaltennamen klicken. Sie können eine Gruppierung auch dann auf der Basis einer existierenden Spalte in einem Bericht erstellen, wenn Sie das entsprechende Feld in der Feldliste Gruppieren nach: auswählen. Weitere Informationen zum Erstellen von Gruppierungen finden Sie unter [Erstellen von Gruppierungen in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * Es wurde ein neuer Umschalter zur Benutzeroberfläche für Berichtsfilter hinzugefügt, um beim Filtern nach Datumsfeldern zwischen einer Datumsauswahl im Kalender und einem Textfeld im relativen Platzhaltertext für Daten zu wechseln. Darüber hinaus werden durch die Auswahl eines relativen Datums-Platzhalters in der Berichtsfilteroberfläche die zugehörigen Platzhalterfelder automatisch auf Grundlage Ihrer Auswahl gefüllt. Weitere Informationen zur Verwendung von relativen Datums-Platzhaltern in Berichtsfiltern finden Sie unter [Verwenden datumsbasierter Platzhalter zum Generalisieren von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 * Benutzerbasierte Platzhalter in Berichtsfiltern legen nun basierend auf Ihrem ausgewählten Feldtyp relevante Platzhalter für die automatische Vervollständigung vor. Weitere Informationen zu nutzerbasierten Platzhaltern in Berichtsfiltern finden Sie unter [Verwenden benutzerbasierter Platzhalter zum Generalisieren von Berichten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 * Berichte mit Aufforderungen, die öffentlich freigegeben werden, werden jetzt ohne Aufforderung angezeigt, alle Benutzer, die über den öffentlichen Freigabe-Link darauf zugreifen, werden aufgefordert, darauf zuzugreifen. Angemeldete Benutzer, die direkt auf den Bericht zugreifen, können weiterhin Eingabeaufforderungen anwenden. Weitere Informationen zu Berichtsaufforderungen finden Sie unter [Eine Eingabeaufforderung zu einem Bericht hinzufügen](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
-* Änderungen an vorhandenen Berichten, die ihre Kompatibilität mit Canvas-Dashboards verbessern.
+* Wir haben Änderungen an vorhandenen Berichten vorgenommen, die deren Kompatibilität mit Canvas-Dashboards verbessern.
 
 _Diese Aktualisierungen werden ab der Version 24.10 vom 17. Oktober 2024 schrittweise in der Produktion implementiert. Änderungen stehen zunächst nur einer kleinen Anzahl von Kunden zur Verfügung und werden im Laufe der Zeit immer häufiger verfügbar, bis sie bis zum 8. November 2024 für alle Kunden vollständig verfügbar sind._
 
@@ -58,9 +60,9 @@ _Diese Aktualisierungen werden ab der Version 24.10 vom 17. Oktober 2024 schritt
 
 Wir haben die Benutzeroberflächen für Ansichten, Gruppierungen und veraltete Filter in Listen aktualisiert, um sie an das Design anderer Bereiche von Workfront anzupassen. Diese Aktualisierungen umfassen zusätzliche Änderungen an Ansichten, Gruppierungen und veralteten Filtern in Listen:
 
-* Eine erweiterte Farbpalette für Regeln zur bedingten Formatierung in Berichten. Weitere Informationen zur bedingten Formatierung finden Sie unter [Bedingte Formatierung in Ansichten verwenden](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-* Eine neue Schaltfläche &quot;Textmodus bearbeiten&quot;, mit der Sie beim Bearbeiten einer Spalte während der Erstellung einer neuen Ansicht in den Textmodus wechseln können. Weitere Informationen zum Bearbeiten von Ansichten im Textmodus finden Sie unter [Bearbeiten einer Ansicht im Textmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
-* Ein neuer Umschalter in die alte Filterschnittstelle ermöglicht den Wechsel zwischen einer Kalenderdatumsauswahl und einem relativen Textfeld mit dem Datumsfenster, wenn nach einem Datumsfeld gefiltert wird. Darüber hinaus werden durch die Auswahl eines relativen Datums-Platzhalters in der Berichtsfilteroberfläche die zugehörigen Platzhalterfelder automatisch auf Grundlage Ihrer Auswahl gefüllt.
+* In Berichten wurde eine erweiterte Farbpalette für Regeln zur bedingten Formatierung hinzugefügt. Weitere Informationen zur bedingten Formatierung finden Sie unter [Bedingte Formatierung in Ansichten verwenden](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* Es wurde eine neue Schaltfläche &quot;Textmodus bearbeiten&quot;hinzugefügt, mit der Sie beim Bearbeiten einer Spalte während der Erstellung einer neuen Ansicht in den Textmodus wechseln können. Weitere Informationen zum Bearbeiten von Ansichten im Textmodus finden Sie unter [Bearbeiten einer Ansicht im Textmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* Es wurde ein neuer Umschalter zur alten Filterschnittstelle hinzugefügt, um beim Filtern nach einem Datumsfeld zwischen einer Kalenderdatumsauswahl und einem relativen Platzhalterfeld für Daten zu wechseln. Darüber hinaus werden durch die Auswahl eines relativen Datums-Platzhalters in der Berichtsfilteroberfläche die zugehörigen Platzhalterfelder automatisch auf Grundlage Ihrer Auswahl gefüllt.
 * Benutzerbasierte Platzhalter in veralteten Filtern schlagen nun basierend auf Ihrem ausgewählten Feldtyp relevante Platzhalter für die automatische Vervollständigung vor. Weitere Informationen zur Verwendung älterer Filter finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 _Diese Aktualisierungen werden ab der Version 24.10 vom 17. Oktober 2024 schrittweise in der Produktion implementiert. Änderungen stehen zunächst nur einer kleinen Anzahl von Kunden zur Verfügung und werden im Laufe der Zeit immer häufiger verfügbar, bis sie bis zum 8. November 2024 für alle Kunden vollständig verfügbar sind._
