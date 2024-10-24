@@ -4,7 +4,7 @@ description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8dba597ac5f91a88ff71f57b13b563c398ef4c9b
+source-git-commit: e2db8c095acca049be72ad26ec090867f9590c04
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 >|----|----|
 >| <ul><li>24.11 (14. November 2024)</li><li>24.12 (12. Dezember 2024)</li><li>25.1 (15. Januar 2025)</li></ul> | <ul><li>25.1 (16. Januar 2025)</li></ul> |
 >
->Beachten Sie, dass für die endgültige Version jedes Quartals (24.10 in diesem Quartal) die Benutzer des Zeitplans für die schnelle Veröffentlichung die Version einen Tag früher erhalten.
+>Beachten Sie, dass für die endgültige Version jedes Quartals (25.1 in diesem Quartal) die Benutzer des Zeitplans für die schnelle Veröffentlichung die Version einen Tag früher erhalten.
 >
 >Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter [Aktivieren oder Deaktivieren des Prozesses der schnellen Veröffentlichung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
