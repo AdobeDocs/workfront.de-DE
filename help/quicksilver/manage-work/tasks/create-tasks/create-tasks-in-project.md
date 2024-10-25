@@ -7,24 +7,41 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '959'
 ht-degree: 1%
 
 ---
 
 # Erstellen von Aufgaben in einem Projekt
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
-Sie können Aufgaben in einem Projekt erst erstellen, nachdem Sie das Projekt erstellt haben.
+Sie können Aufgaben in Adobe Workfront wie folgt erstellen:
 
-Beispielsweise können Sie nach der Erstellung eines Projekts Aufgaben hinzufügen und ändern, um den Projektplan zu organisieren. Weitere Informationen zum Erstellen eines Projekts finden Sie unter [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
+* Erstellen Sie eine Aufgabe in einem Projekt von Grund auf neu, nachdem das Projekt erstellt wurde.
 
-<!--Not possible anymore, after new Home: For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items and projects from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).-->
+  Nach der Erstellung eines Projekts können Sie Aufgaben hinzufügen und ändern, um den Projektplan zu organisieren. Weitere Informationen zum Erstellen eines Projekts finden Sie unter [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
-In diesem Artikel wird beschrieben, wie Sie Aufgaben von Grund auf neu erstellen. Sie können Aufgaben auch wie folgt erstellen:
+* Erstellen Sie Aufgaben durch Hinzufügen einer Vorlage zu einem Projekt.
+
+  Weitere Informationen finden Sie unter [Anhängen einer Vorlage an ein Projekt](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+
+* Erstellen Sie persönliche Aufgaben und verschieben Sie sie in ein Projekt.
+
+  Sie können persönliche Aufgaben erstellen, indem Sie einen der folgenden Schritte ausführen:
+
+   * Erstellen einer Ad-hoc-Arbeitserforderung und Senden an einen Benutzer
+   * Erstellen eines zu erledigenden Elements im Bereich &quot;Home&quot;
+
+  Informationen zum Erstellen persönlicher Aufgaben, die sich nicht auf ein Projekt beziehen, finden Sie unter [Persönliche Aufgaben erstellen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+
+  Sie können persönliche Aufgaben in ein Projekt verschieben und sie werden zu Arbeitsaufgaben.
+
+In diesem Artikel wird beschrieben, wie Sie Aufgaben von Grund auf neu erstellen und persönliche Aufgaben in ein Projekt verschieben können.
+
+Sie können Aufgaben auch wie folgt erstellen:
 
 * Durch Kopieren oder Duplizieren vorhandener Aufgaben. Weitere Informationen finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 * durch Verschieben von Aufgaben von einem Projekt in ein anderes. Weitere Informationen finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md).
@@ -152,3 +169,21 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
          * Klicken Sie jederzeit auf **Rückgängig** , um Ihre letzte Änderung rückgängig zu machen, oder auf **Abbrechen** , um alle Änderungen rückgängig zu machen, die Sie an der Aufgabenliste vorgenommen haben.
          * Wenn Sie zuvor auf **Rückgängig** geklickt haben, klicken Sie auf **Wiederholen** , um die letzte Änderung, die Sie abgebrochen haben, erneut anzuwenden.
          * Klicken Sie auf **Speichern** , um Ihre Änderungen in der Aufgabenliste zu speichern.
+
+## Erstellen von Aufgaben durch Verschieben einer persönlichen Aufgabe in ein Projekt
+
+1. (Bedingt) Stellen Sie sicher, dass Sie oder andere Benutzer persönliche Aufgaben erstellt haben.
+
+   Weitere Informationen finden Sie unter [Persönliche Aufgaben erstellen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+1. Erstellen Sie einen Filter für persönliche Aufgaben und wenden Sie ihn auf einen Aufgabenbericht oder eine Aufgabenliste an.
+
+   Weitere Informationen finden Sie unter [Filter: persönliche Aufgaben](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+
+   ![](assets/personal-tasks-report.png)
+1. Klicken Sie auf einen Aufgabennamen im Bericht &quot;Persönliche Aufgabe&quot;, um ihn zu öffnen.
+
+   Workfront speichert persönliche Aufgaben in einem nicht aufgelisteten persönlichen Projekt, das immer nach folgendem Muster benannt ist: &quot;&lt; vollständiger Name des Benutzers > Aufgaben des Benutzers. Beispielsweise könnte ein persönliches Projekt &quot;Rick&#39;s Tasks&quot;heißen.
+
+1. Klicken Sie auf der Aufgabenseite auf das Menü **Mehr** ![](assets/more-icon.png) und dann auf **Verschieben**. Weitere Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+
+   Nachdem Sie die Aufgabe abgeschlossen haben, wird die Aufgabe im ausgewählten Projekt angezeigt. Die Timeline des Projekts kann von der Timeline der neuen Aufgabe betroffen sein.

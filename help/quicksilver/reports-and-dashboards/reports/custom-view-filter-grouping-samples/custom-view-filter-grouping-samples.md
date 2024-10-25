@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,7 @@ Dieser Abschnitt enthält Beispiele für benutzerdefinierte Ansichten, Filter un
 
 * [Filter: unvollständige projektübergreifende Vorgänger anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
 * [Filter: unvollständige projektübergreifende Nachfolger anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+* [Filter: persönliche Aufgaben](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
 * [Filter: Anzeige der aktuellen Projekte, deren Genehmigung aussteht](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
 * [Filter: Nur Elemente mit einem Genehmigungsstatus anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [Filter: Löscht Elemente in einer Liste, indem zwei Felder verglichen werden](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)

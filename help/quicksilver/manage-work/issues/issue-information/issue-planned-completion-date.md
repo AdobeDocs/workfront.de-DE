@@ -6,9 +6,9 @@ description: Das geplante Abschlussdatum eines Problems ist das Datum, bis zu de
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Sie müssen Zugriff auf Probleme bearbeiten und Berechtigungen zum Verwalten des
 Sie können das geplante Abschlussdatum eines Problems in den folgenden Bereichen von Workfront manuell festlegen:
 
 * Im Feld Problem bearbeiten oder im Bereich Problemdetails beim Erstellen oder Bearbeiten eines Problems. Weitere Informationen finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
-* Im Bereich Startseite , wenn das geplante Abschlussdatum bei der Anzeige eines Problems angezeigt wird. Weitere Informationen finden Sie unter [Aktualisieren oder Bearbeiten eines Arbeitselements im Startbereich](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* Im Bereich Startseite , wenn das geplante Abschlussdatum im Bereich Zusammenfassung eines Problems angezeigt wird. Weitere Informationen finden Sie unter [Aktualisieren oder Bearbeiten eines Arbeitselements im Startbereich](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * In der Ausgabe-Kopfzeile. Weitere Informationen finden Sie unter [Neue Objektüberschriften](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In einer Problemliste oder einem Bericht, wenn das Feld Geplantes Abschlussdatum in der Ansicht angezeigt wird.
 

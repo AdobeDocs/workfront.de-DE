@@ -6,10 +6,10 @@ description: Sie können Arbeitselemente und Projekte aus dem Bereich [!UICONTRO
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 3%
+source-wordcount: '761'
+ht-degree: 2%
 
 ---
 
@@ -54,16 +54,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Persönliches Element erstellen
 
-Sie können ein persönliches Element erstellen, das nur Ihnen im Bereich [!UICONTROL Home] zur Verfügung steht:
+Sie können ein persönliches Element im Bereich [!UICONTROL Home] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie für sich selbst erstellen.
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. (Bedingt) Fügen Sie Ihrem Startbildschirm das zu erledigende Widget hinzu. Klicken Sie auf **Anpassen** und suchen Sie nach **Aufgaben**.
+Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlichen Aufgabenbericht anzeigen. Von dort aus können sie sie bei Bedarf zu Projekten hinzufügen.
+
+So erstellen Sie ein zu erledigendes Element:
+
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Klicken Sie auf **Anpassen** und dann auf **Aufgaben** , um das zu erledigende Widget Ihrem Startbildschirm hinzuzufügen.
 1. Wechseln Sie zum Widget **Aufgaben** und klicken Sie dann auf **Aufgaben hinzufügen**.
-1. Geben Sie die
+1. Geben Sie den Namen für Ihr persönliches Element ein und klicken Sie dann auf &quot;Eingabetaste&quot;.
 1. (Optional) Klicken Sie auf das Symbol **Datum** ![](assets/date-icon.png), um ein Fälligkeitsdatum für das Element hinzuzufügen.
    ![](assets/my-work-to-dos.png)
-
-
+1. (Optional) Erstellen Sie einen Bericht oder Filter für eine persönliche Aufgabe. Informationen zum Erstellen eines Filters für persönliche Aufgaben finden Sie unter [Filter: persönliche Aufgabe](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+Sie können Ihre Aufgabenelemente sowie die Aufgabenelemente anderer Benutzer im Bericht zu persönlichen Aufgaben anzeigen.
 
 ## Aufgabe zu einem Projekt hinzufügen
 

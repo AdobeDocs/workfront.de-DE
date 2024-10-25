@@ -7,10 +7,10 @@ description: Dieser Aufgabenfilter gibt unvollständige projektübergreifende Vo
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
@@ -54,11 +54,11 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 So wenden Sie diesen Filter an:
 
-1. Gehen Sie zu einer Liste von Aufgaben.
+1. Gehen Sie zu einer Aufgabenliste oder einem Aufgabenbericht.
 1. Wählen Sie aus dem Dropdownmenü **Filter** die Option **Neuer Filter** aus.
 
-1. Klicken Sie auf **Wechseln zum Textmodus**.
-1. Fügen Sie im Bereich **Filterregeln für Ihren Bericht festlegen** den folgenden Code ein:
+1. (Bedingt) Klicken Sie auf **Textmodus** , wenn Sie von einer Liste aus auf den Filter zugegriffen haben, oder auf **Wechseln in Textmodus** , wenn Sie über einen Bericht auf den Filter zugegriffen haben.
+1. Fügen Sie in den neuen Bereich den folgenden Code ein:
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. Klicken Sie auf **Filter speichern**.
+1. (Bedingt) Klicken Sie auf **Filter speichern** , wenn Sie aus einem Bericht auf den Filter zugegriffen haben, oder auf **Anwenden** und dann auf **Als neu speichern** , wenn Sie über eine Aufgabenliste auf den Filter zugegriffen haben.
