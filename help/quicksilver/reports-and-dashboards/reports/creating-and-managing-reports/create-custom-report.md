@@ -6,7 +6,7 @@ description: Sie können Zugriff auf die Informationen gewähren, die Ihr Untern
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Benutzerdefinierten Bericht erstellen
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 Sie können Zugriff auf die Informationen gewähren, die Ihr Unternehmen in Adobe Workfront benötigt, indem Sie Berichte erstellen. Sie können jeden der integrierten Berichte verwenden, die in Workfront verfügbar sind, oder Sie können Ihre benutzerdefinierten Berichte von Grund auf neu erstellen.
 
@@ -126,7 +126,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Um eine vorhandene Spalte zu ändern, klicken Sie auf die Spalte, klicken Sie auf das Symbol **Entfernen** ![](assets/x-icon-circled.png) links neben dem aktuellen Feld im Feld **In diesem Spaltenfeld anzeigen** oben links im Report Builder. Geben Sie dann ein neues Feld ein und klicken Sie darauf, wenn es in der Liste angezeigt wird.
+   Um eine vorhandene Spalte zu ändern, klicken Sie auf die Spalte, klicken Sie auf das Symbol **Entfernen** ![](assets/remove-column-icon.png) rechts neben dem aktuellen Feld im Bereich **In diesem Spaltenfeld anzeigen** oben links im Report Builder. Geben Sie dann ein neues Feld ein und klicken Sie darauf, wenn es in der Liste angezeigt wird.
 
    Weitere Informationen zu den Feldern, die in den Spalten angezeigt werden, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

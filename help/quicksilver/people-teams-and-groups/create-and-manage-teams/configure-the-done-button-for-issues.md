@@ -6,9 +6,9 @@ description: Mit der Schaltfläche Fertig kann automatisch der Status einer Aufg
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme
 
 Mit der Schaltfläche [!UICONTROL Fertig] können Sie automatisch den Status einer Aufgabe oder eines Problems festlegen. Standardmäßig markiert [!DNL Adobe Workfront] ein Problem als [!UICONTROL Gelöst], wenn ein Bevollmächtigter auf [!UICONTROL Fertig] für sein Arbeitselement klickt.
+
+>[!NOTE]
+>
+>Die Schaltfläche Fertig wird als Markierung angezeigt, wie in allen Bereichen von Workfront ausgeführt.
 
 ## Übersicht
 

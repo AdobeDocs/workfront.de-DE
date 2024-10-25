@@ -6,9 +6,9 @@ description: Sie können ein Arbeitselement im Bereich [!UICONTROL Startseite] i
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '678'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Sie können Aktualisierungen für jedes Arbeitselement in der [!UICONTROL Arbeit
 
 Sie können Aktualisierungen für jedes Arbeitselement in der Liste [!UICONTROL Arbeit] bereitstellen:
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
 1. (Bedingt) Klicken Sie auf **Anpassen** , um eines der folgenden Widgets hinzuzufügen:
 
    | Widget | Beschreibung |
@@ -102,7 +102,7 @@ Weitere Informationen zum Hinzufügen von Aktualisierungen finden Sie unter [Hin
 
 Sie können jedes Feld eines beliebigen Arbeitselements bearbeiten, auf das Sie Zugriff haben.
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
 1. (Bedingt) Klicken Sie auf **Anpassen** , um eines der folgenden Widgets hinzuzufügen:
 
    | Widget | Beschreibung |
