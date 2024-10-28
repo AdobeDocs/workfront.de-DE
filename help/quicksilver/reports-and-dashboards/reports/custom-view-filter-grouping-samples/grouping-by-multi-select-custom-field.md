@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Gruppieren eines Berichts nach einem benutzerdefinierten Mehrfachfeld
+title: Gruppieren eines Berichts mit einem aus mehreren Auswahlen bestehenden benutzerdefinierten Feld
 description: Sie können in einem Adobe Workfront-Bericht nur mithilfe des Textmodus nach dem Wert in einem benutzerdefinierten Mehrfachfeld gruppieren.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 # Gruppieren eines Berichts nach einem benutzerdefinierten Mehrfachfeld
+
+<!--Audited: 10/2024-->
 
 Sie können in einem Adobe Workfront-Bericht nur mithilfe des Textmodus nach dem Wert in einem benutzerdefinierten Mehrfachfeld gruppieren.
 
@@ -37,6 +39,8 @@ Informationen zur Verwendung des Textmodus finden Sie im Artikel [Textmodus - Ü
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -44,28 +48,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung zur Änderung einer Gruppierung </p>
-   <p>Berichtänderung planen</p> </td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Filteranforderung </p></li>
+   <li><p>Berichtänderung planen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Gruppierung zu ändern</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gruppieren eines Berichts nach benutzerdefinierten Feldern mit Mehrfachauswahl
 
@@ -75,17 +85,17 @@ Um eine Gruppierung nach einem benutzerdefinierten Mehrfachfeld zu ermöglichen,
   Informationen zum Erstellen benutzerdefinierter Formulare und zum Hinzufügen benutzerdefinierter Felder finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Hängen Sie das benutzerdefinierte Formular an Objekte an.
-* Füllen Sie das benutzerdefinierte Feld mit Mehrfachauswahl mit einem Wert für jedes Objekt. 
+* Füllen Sie das benutzerdefinierte Feld mit Mehrfachauswahl mit einem Wert für jedes Objekt.
 
 So gruppieren Sie ein benutzerdefiniertes Feld mit Mehrfachauswahl in einem Bericht:
 
 1. Erstellen Sie einen Bericht oder bearbeiten Sie einen vorhandenen Bericht, in dem Sie eine Gruppierung für ein benutzerdefiniertes Feld mit Mehrfachauswahl hinzufügen möchten.\
    Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
+1. Klicken Sie auf **Berichtaktionen** und dann auf **Bearbeiten**.
 1. Wählen Sie die Registerkarte **Gruppierungen** aus.
 1. Klicken Sie auf **Wechseln zum Textmodus**.
 
-1. Wählen Sie den Text im Feld **Gruppieren Sie Ihren Bericht** aus und ersetzen Sie ihn durch den folgenden Code:
+1. Wählen Sie den Text im Feld **Gruppieren nach** aus und ersetzen Sie ihn durch den folgenden Code:
 
    <pre>
    group.0.displayName=Multi-select Custom Field Name
@@ -94,7 +104,7 @@ So gruppieren Sie ein benutzerdefiniertes Feld mit Mehrfachauswahl in einem Beri
    group.0.textmode=true
    </pre>
 
-1. Ersetzen Sie &quot;Benutzerdefinierter Feldname mit Mehrfachauswahl&quot;durch den tatsächlichen Namen Ihres benutzerdefinierten Mehrfachauswahlfelds, wie er in Workfront angezeigt wird.
+1. Ersetzen Sie &quot;Benutzerdefinierter Feldname mit Mehrfachauswahl&quot;durch den tatsächlichen Namen Ihres benutzerdefinierten Mehrfachauswahlfelds, wie er in Ihrer Workfront-Instanz angezeigt wird.
 1. Klicken Sie auf **Speichern und schließen**.
 
    Die Objekte im Bericht werden nach den Werten des benutzerdefinierten Mehrfachauswahlfelds gruppiert.

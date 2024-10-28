@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: Erstellen Sie mehrere Filterregeln, die auf dasselbe Feld verweisen ('AND'-Anweisungen)"
+title: '"Filter: Mehrere Filterregeln erstellen, die auf dasselbe Feld verweisen ("AND"-Anweisungen)"'
 description: Wenn Sie in der Benutzeroberfläche des Standardmodus versuchen, mehrere Filter zu erstellen, die auf dasselbe Feld verweisen (mithilfe des AND-Qualifizierers), wird einer der Filter beim Speichern des Berichts und Beenden des ReportBuilder gelöscht.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Filter: Erstellen Sie mehrere Filterregeln, die auf dasselbe Feld verweisen (&quot;AND&quot;-Anweisungen)
+
+<!--Audited: 10/2024-->
 
 Wenn Sie in der Benutzeroberfläche des Standardmodus versuchen, mehrere Filter zu erstellen, die auf dasselbe Feld verweisen (mithilfe des AND-Qualifizierers), wird einer der Filter beim Speichern des Berichts und Beenden des ReportBuilder gelöscht.
 
@@ -27,6 +29,8 @@ Sie können diesen Filter jedoch im Textmodus erstellen.
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -34,36 +38,41 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Filteranforderung </p>
-   <p>Berichtänderung planen</p> </td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Filteranforderung </p></li>
+   <li><p>Berichtänderung planen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Mehrere Filterregeln erstellen, die auf dasselbe Feld verweisen
 
 1. Gehen Sie zu einer Liste von Aufgaben.
 1. Wählen Sie aus dem Dropdownmenü **Filter** die Option **Neuer Filter** aus.
-1. Klicken Sie auf **Wechseln zum Textmodus**.
-1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Fügen Sie im Bereich Filterregeln für Ihren Bericht festlegen den folgenden Code hinzu:
+1. Klicken Sie auf **Textmodus**.
+1. Fügen Sie im angezeigten Feld den folgenden Code hinzu:
 
    ```
    name=green
@@ -89,4 +98,4 @@ Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, 
    >   
    >Bei diesen Anweisungen wird zwischen Groß- und Kleinschreibung unterschieden.
 
-1. Klicken Sie auf **Fertig** und dann auf **Filter speichern**.
+1. Klicken Sie auf **Anwenden** und dann auf **Als neu speichern**.
