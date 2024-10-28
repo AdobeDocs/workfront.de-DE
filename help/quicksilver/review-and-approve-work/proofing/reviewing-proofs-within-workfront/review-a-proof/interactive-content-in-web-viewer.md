@@ -6,14 +6,19 @@ description: Es wird empfohlen, alle interaktiven Inhalte mit dem Desktop Proofi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
 # Einrichten der interaktiven Inhaltsüberprüfung im Web Proofing-Viewer
+
+>[!IMPORTANT]
+>
+>Dies ist eine veraltete Browsererweiterung und wird nicht mehr unterstützt. Es wird empfohlen, die neue Browsererweiterung zu installieren, die sich derzeit in der Beta-Phase befindet: [Adobe Workfront-Überprüfungstool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+
 
 Es wird empfohlen, alle interaktiven Inhalte mit dem Desktop Proofing Viewer zu überprüfen. Wenn die Richtlinien Ihres Unternehmens dies jedoch verhindern, kann Ihr Workfront-Administrator Ihr System so konfigurieren, dass der Web Proofing Viewer für interaktive Testsendungen verwendet wird. Vergleichsinformationen zu diesen beiden Viewern finden Sie unter [Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
@@ -47,5 +52,3 @@ Der Web Proofing Viewer weist die folgenden Einschränkungen auf:
 1. Klicken Sie im Web Proofing Viewer auf **Testversand neu laden**.
 
 Wenn die Erweiterung im Browser installiert ist, erstellt der Testversand-Viewer jedes Mal, wenn Sie auf **Kommentar hinzufügen** klicken, einen statischen Screenshot Ihres Inhalts. In diesem Screenshot können Sie Kommentare mit Markups hinzufügen.
-
- 

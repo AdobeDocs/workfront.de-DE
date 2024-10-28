@@ -5,9 +5,9 @@ title: Überprüfen interaktiver Inhalte in der Web-Proofing-Viewer-Erweiterung
 description: Das Adobe Workfront-Überprüfungstool ist eine Browsererweiterung, mit der Sie interaktive Inhalte in einer ZIP-Datei oder mit einer URL testen können.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: def2526e2e1bb83998f0adc221b3011c471f72f8
+source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 # Überprüfen interaktiver Inhalte mit dem Adobe Workfront-Überprüfungstool
 
-<span class="preview">Das Adobe Workfront-Überprüfungstool ist ab dem 1. November 2024 verfügbar.</span>
+<span class="preview">Das Adobe Workfront-Überprüfungstool ist ab dem 7. November 2024 verfügbar. Diese Erweiterung befindet sich derzeit in der Betaphase.</span>
 
-Das Adobe Workfront-Überprüfungstool ist eine Browsererweiterung, mit der Sie interaktive Inhalte in einer ZIP-Datei oder mit einer URL testen können. Das Adobe Workfront-Überprüfungstool ist in den folgenden Browsern verfügbar:
+Das Adobe Workfront-Überprüfungstool ist eine webbasierte Browsererweiterung, mit der Sie interaktive Inhalte in einer ZIP-Datei oder mit einer URL testen können. Das Adobe Workfront-Überprüfungstool ist in den folgenden Browsern verfügbar:
 
 * Firefox
 * Chrome
@@ -25,24 +25,38 @@ Das Adobe Workfront-Überprüfungstool ist eine Browsererweiterung, mit der Sie 
 
 Für Websites, die das Öffnen ihrer Site in iFrames verhindern, wie z. B. Figma, empfehlen wir die Verwendung des Desktop Proof Viewers.
 
-## Voraussetzungen
 
-Um das Webüberprüfungs-Tool zu verwenden, muss ein Workfront-Administrator die Einstellung deaktivieren, mit der der Desktop Proofing Viewer automatisch für interaktive Inhalte geöffnet wird:
+## Adobe Workfront-Überprüfungs-Tool zum Standard-Viewer für URL- und ZIP-Testsendungen machen
+
+Um das Webüberprüfungs-Tool für URL- und ZIP-Testsendungen zu verwenden, muss ein Workfront-Administrator die Standardeinstellung für interaktive Testsendungen anpassen.
 
 1. Klicken Sie im Hauptmenü von Workfront auf **Testversand**.
 1. Klicken Sie auf **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen**.
 1. Suchen Sie im Abschnitt **Testversand-Standardeinstellungen** nach **Desktop-Testversand-Viewer für interaktive Prüfung** und klicken Sie auf **Einrichten**.
-1. Wählen Sie im Dropdown-Menü **Deaktiviert** aus.
+1. Wählen Sie im Dropdown-Menü **Deaktiviert** aus. Interaktive Testsendungen, die über eine URL- oder ZIP-Datei erstellt wurden, werden jetzt automatisch im Adobe Workfront-Überprüfungs-Tool geöffnet, einem webbasierten Browser.
 1. Klicken Sie auf **Speichern**.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Diese Änderung gilt für alle interaktiven Testsendungen in Ihrer Vorschau- und Produktionsumgebung. Es wird empfohlen, das neue Erlebnis in Ihrer Vorschau-Umgebung zu testen, bevor es in der Produktion aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Kontoeinstellung wieder auf **Aktiviert für alle interaktiven Testsendungen** oder **Nur für interaktive Testsendungen aktiviert, die über eine URL** erstellt wurden, ändern.
+>Diese Änderung gilt für alle interaktiven Testsendungen in Ihrer Vorschau- und Produktionsumgebung. Es wird empfohlen, das neue Erlebnis in Ihrer Vorschau-Umgebung zu testen, bevor es in der Produktion aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Kontoeinstellung für alle interaktiven Testsendungen auf **Aktiviert** zurücksetzen.
 
+## Machen Sie das Adobe Workfront-Überprüfungstool zum standardmäßigen Viewer nur für ZIP-Testsendungen
+
+Um das Webüberprüfungs-Tool nur für ZIP-Testsendungen zu verwenden, muss ein Workfront-Administrator die Standardeinstellung für interaktive Testsendungen anpassen.
+
+1. Klicken Sie im Hauptmenü von Workfront auf **Testversand**.
+1. Klicken Sie auf **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen**.
+1. Suchen Sie im Abschnitt **Testversand-Standardeinstellungen** nach **Desktop-Testversand-Viewer für interaktive Prüfung** und klicken Sie auf **Einrichten**.
+1. Wählen Sie im Dropdown-Menü **Nur für interaktive Testsendungen aktiviert aus, die über eine URL erstellt wurden**. Interaktive Testsendungen, die aus einer ZIP-Datei erstellt wurden, werden jetzt automatisch im Adobe Workfront-Überprüfungs-Tool geöffnet, einem webbasierten Browser. Interaktive Testsendungen, die über eine URL erstellt wurden, werden weiterhin im Desktop Proofing Viewer geöffnet.
+1. Klicken Sie auf **Speichern**.
+
+>[!NOTE]
+>
+>Diese Änderung gilt für alle interaktiven Testsendungen in Ihrer Vorschau- und Produktionsumgebung. Es wird empfohlen, das neue Erlebnis in Ihrer Vorschau-Umgebung zu testen, bevor es in der Produktion aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Kontoeinstellung für alle interaktiven Testsendungen auf **Aktiviert** zurücksetzen.
 
 ## Installieren der Erweiterung
 
-Überprüfer und Genehmiger müssen die Adobe Workfront-Überprüfung in einem der folgenden Browser installieren:
+Überprüfer und Genehmiger müssen das Adobe Workfront-Überprüfungstool installieren. in einem der folgenden Browser:
 
 * [Firefox-Erweiterung](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
@@ -52,8 +66,10 @@ Um das Webüberprüfungs-Tool zu verwenden, muss ein Workfront-Administrator die
 
 Nach der Installation der Erweiterung werden interaktive Testsendungen automatisch im Adobe Workfront-Überprüfungstool geöffnet.
 
+>[!IMPORTANT]
+>
+>Sie müssen die ältere Web Viewer-Erweiterung entfernen, um das Adobe Workfront Review-Tool verwenden zu können.
 
-Die Einstellung zum Öffnen des Desktop Proofing-Viewers für interaktive Testsendungen muss deaktiviert sein, damit das Workfront-Überprüfungstool verwendet werden kann. Informationen zum Deaktivieren dieser Einstellung finden Sie im Abschnitt [Voraussetzungen](#prerequisites) weiter oben.
 
 
 
