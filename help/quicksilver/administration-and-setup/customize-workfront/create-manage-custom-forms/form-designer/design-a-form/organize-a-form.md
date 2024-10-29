@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
+source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,10 @@ Wenn Sie in einem benutzerdefinierten Formular mit einer Abschnittspause, die mi
 
 1. (Optional) Um ein benutzerdefiniertes Feld oder Widget über oder unter einem anderen zu positionieren, ziehen Sie es über oder unter, bis eine horizontale blaue Linie zwischen den Elementen angezeigt wird.
 
-<div class="preview">
+1. Um ein benutzerdefiniertes Feld in einen anderen Abschnitt im Formular zu verschieben, können Sie es per Drag-and-Drop an die gewünschte Position ziehen, <span class="preview">oder auf das Symbol **Verschieben nach** im Feld klicken und den Abschnitt auswählen, in den Sie es verschieben möchten.</span>
 
-1. Um ein benutzerdefiniertes Feld in einen anderen Abschnitt im Formular zu verschieben, können Sie es per Drag-and-Drop an die gewünschte Position ziehen oder auf das Symbol **Verschieben nach** im Feld klicken und den Abschnitt auswählen, in den Sie es verschieben möchten.
-
+   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
    ![Feld in einen Abschnitt verschieben](assets/move-field-to-section.png)
-
-</div>
 
 1. Klicken Sie zum Speichern Ihrer Änderungen auf **Anwenden** .
 
