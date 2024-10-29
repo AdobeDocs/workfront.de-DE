@@ -4,9 +4,9 @@ description: Verbesserungen der Dokumentenverwaltung im vierten Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten
 >[!NOTE]
 >
 >~~Vorschau-Version: 3. Oktober 2024~~; Produktion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)
->
->_Diese Funktion wurde vorübergehend aus der Vorschau entfernt._
 
 Der Entscheidungsstatus eines Dokuments kann jetzt direkt in der Dokumentliste angezeigt werden.
 
