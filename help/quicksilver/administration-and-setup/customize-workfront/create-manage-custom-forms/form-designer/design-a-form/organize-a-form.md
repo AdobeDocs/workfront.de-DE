@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
 
 # Formular organisieren und in der Vorschau anzeigen
+
+{{highlighted-preview}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler organisieren und eine Vorschau davon anzeigen, um zu überprüfen, ob es korrekt eingerichtet ist.
 
@@ -157,6 +159,14 @@ Wenn Sie in einem benutzerdefinierten Formular mit einer Abschnittspause, die mi
    >* Benutzerdefinierte Felder und Widgets werden im Formular möglicherweise nicht immer auf die gleiche Weise angezeigt, je nachdem, wie viel Platz auf dem Bildschirm verfügbar ist, wenn ein Benutzer das Formular anzeigt. Beispielsweise kann das dritte Feld in einer Zeile von Feldern zur nächsten Zeile von Feldern umbrechen, wenn der horizontale Bereich begrenzt ist.
 
 1. (Optional) Um ein benutzerdefiniertes Feld oder Widget über oder unter einem anderen zu positionieren, ziehen Sie es über oder unter, bis eine horizontale blaue Linie zwischen den Elementen angezeigt wird.
+
+<div class="preview">
+
+1. Um ein benutzerdefiniertes Feld in einen anderen Abschnitt im Formular zu verschieben, können Sie es per Drag-and-Drop an die gewünschte Position ziehen oder auf das Symbol **Verschieben nach** im Feld klicken und den Abschnitt auswählen, in den Sie es verschieben möchten.
+
+   ![Feld in einen Abschnitt verschieben](assets/move-field-to-section.png)
+
+</div>
 
 1. Klicken Sie zum Speichern Ihrer Änderungen auf **Anwenden** .
 

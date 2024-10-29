@@ -7,9 +7,9 @@ description: Mit Adobe Workfront können Sie Nachrichten, die nicht mit einem Ar
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
+source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,8 @@ Diese Option ist nur verfügbar, wenn Sie über eine Standard-, Plan- oder Work-
 
 1. Wählen Sie den Benutzer aus, an den Sie eine Nachricht senden möchten, und klicken Sie auf [!UICONTROL **Aktualisierung an Benutzer senden**].
 1. Geben Sie Ihre Nachricht in das Fenster [!UICONTROL Aktualisierung an Benutzer senden] ein.
+
+   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
 
    <span class="preview">![Nachrichtenbenutzer im Fenster &quot;Update an Benutzer senden&quot;](assets/send-message-to-user-dialog-from-user-list.png)</span>
 
