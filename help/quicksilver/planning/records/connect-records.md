@@ -1,14 +1,14 @@
 ---
 title: Datensätze verbinden
-description: Nachdem Sie Verbindungen zwischen Datensatztypen hergestellt haben, können Sie einzelne Datensätze miteinander verbinden.
+description: Nachdem Sie Verbindungen zwischen Datensatztypen hergestellt haben, können Sie einzelne Datensätze miteinander verbinden. Sie können Informationen aus einem Datensatz in einem anderen Datensatz anzeigen, wenn Sie ihn verbinden.
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '2988'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 1%
 
 # Datensätze verbinden
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+
 {{planning-important-intro}}
 
-Sie können Adobe Workfront Planning-Datensätze miteinander oder mit Objekten aus anderen Anwendungen verbinden.
+Sie können Adobe Workfront Planning-Datensätze miteinander oder mit Objekten aus anderen Anwendungen verbinden. Sie können Informationen aus einem Datensatz in einem anderen Datensatz anzeigen, wenn Sie ihn verbinden.
 
 In diesem Artikel wird beschrieben, wie Sie Datensätze verbinden können. Allgemeine Informationen zum Verbinden von Datensätzen finden Sie unter [Übersicht über verbundene Datensätze](/help/quicksilver/planning/records/connected-records-overview.md).
 
@@ -129,11 +133,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-## Voraussetzungen für das Verbinden von Datensätzen
+## Überlegungen zum Verbinden von Datensätzen
 
-Um Datensätze mit anderen Datensätzen oder Objekten zu verbinden, müssen Sie über Folgendes verfügen:
+* Um Datensätze mit anderen Datensätzen oder Objekten zu verbinden, müssen Sie über Folgendes verfügen:
 
-* Mindestens ein Arbeitsbereich, ein Datensatztyp und ein Datensatz.
+   * Mindestens ein Arbeitsbereich, ein Datensatztyp und ein Datensatz.
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
@@ -141,7 +145,9 @@ Um Datensätze mit anderen Datensätzen oder Objekten zu verbinden, müssen Sie 
    * [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md)
    * [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
 
-* Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und Objekten aus anderen Anwendungen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und Objekten aus anderen Anwendungen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+* Sie können einen oder mehrere Datensätze oder Objekte miteinander verbinden. Dies hängt vom Verbindungstyp ab, den Sie beim Verbinden des Datensatzes oder der Objekttypen ausgewählt haben. Weitere Informationen finden Sie unter [Übersicht über die Verbindungstypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Datensätze aus der Workfront-Planung verbinden
 
@@ -172,9 +178,10 @@ In den folgenden Bereichen eines Planungsdatensatzes können Sie Datensätze aus
 
    >[!TIP]
    >
-   >    Wenn nur das Bild des Datensatzes ausgewählt wurde, um angezeigt zu werden, wenn die Datensatztypen verbunden waren, wird nur die Miniaturansicht oder das Symbol des Datensatzes im verbundenen Feld angezeigt. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >Wenn nur das Bild des Datensatzes ausgewählt wurde, um angezeigt zu werden, wenn die Datensatztypen verbunden waren, wird nur die Miniaturansicht oder das Symbol des Datensatzes im verbundenen Feld angezeigt. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >
 
-
+1. <span class="preview"> (Bedingt) Wenn Sie beim Herstellen einer Verbindung zwischen den Datensatztypen &quot;Eins zu viele&quot;oder &quot;Eins zu eins&quot;für den Verbindungstyp ausgewählt haben und Sie versuchen, einen Datensatz oder ein Objekt, das bereits an anderer Stelle verbunden ist, zu verbinden, erhalten Sie eine Warnung, dass die Verbindung erneut zur ursprünglichen Verbindung führt. Klicken Sie auf **Verbinden** , um das Entfernen zu erlauben und den Datensatz zu verbinden, oder auf **Abbrechen** , um zum Feld zurückzukehren und einen weiteren Datensatz auszuwählen.</span>
 1. (Optional) Wenn Sie einen Datensatz oder ein Objekt zum Verbinden nicht finden und ihn hinzufügen möchten, klicken Sie auf **+ Hinzufügen** , um einen neuen Datensatz hinzuzufügen. Weitere Informationen finden Sie im Abschnitt &quot;Erstellen von Datensätzen während der Verbindung mit ihnen&quot;im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]

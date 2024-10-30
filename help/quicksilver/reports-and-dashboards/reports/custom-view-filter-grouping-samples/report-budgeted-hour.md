@@ -4,17 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Report: Budgeted Hour"
 description: "Report: Budgeted Hour"
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
 
 # Bericht: Budgetierte Stunde
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
@@ -26,9 +28,11 @@ Wenn Sie Budgeted Hour-Informationen mit anderen Benutzern teilen möchten, die 
 >
 >Budgetierte Stunden werden in der Adobe Workfront-Datenbank in der Regel stündlich aktualisiert (selten kann dies bis zu drei Stunden dauern). Beim Aktualisieren des Berichts werden die Stundeninformationen nicht unbedingt aktualisiert. Sie können die seit der letzten Aktualisierung verstrichene Zeit in der rechten oberen Ecke eines jeden Berichts zur budgetierten Stunde anzeigen. Beim Aktualisieren des Berichts werden die darin enthaltenen Informationen nur aktualisiert, wenn seit der letzten Aktualisierung mehr als eine Stunde vergangen ist.
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
+>![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -37,66 +41,63 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Filteranforderung </p></li>
+   <li><p>Berichtänderung planen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erstellen eines budgetierten Stundenberichts
 
-1. Klicken Sie oben rechts auf das Hauptmenü **![](assets/main-menu-icon.png) und dann auf** Berichte **.**
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts oder, falls verfügbar, auf das Symbol **Hauptmenü** oben links, das Symbol ![](assets/lines-main-menu.png) und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
 
-1. Klicken Sie auf **Neuer Bericht > Budgetierte Stunde**.
+1. Klicken Sie auf **Neuer Bericht** > **Mehr** > **Budgetierte Stunde**.
 
    Die Standardansicht wird auf den Bericht angewendet.
 
-1. (Optional) Um den Bericht leichter zu lesen, klicken Sie auf die Spalte **Budgetierte Stunden** , dann auf **Wechseln in Textmodus** und ändern Sie dann die
-
-   ```
-   valuefield
-   ```
-
-   Linie zu
-
-   ```
-   valueexpreesion
-   ```
-
-   und geben Sie den Rundungsausdruck ein.
+1. (Optional) Um den Bericht leichter zu lesen, klicken Sie auf den **Bud. Stunden** , dann **in den Textmodus wechseln** und dann auf **Textmodus bearbeiten** klicken.
+1. Ändern Sie die Zeile `valuefield` in `valueexpreesion` und geben Sie den Rundungsausdruck ein.
 
    Dadurch wird die Anzahl der geplanten Stunden auf eine Anzahl von Dezimalstellen gerundet, die Sie angeben.
 
    Weitere Informationen zum Umrunden einer Zahl in Workfront finden Sie im Artikel [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
+1. Klicken Sie auf **Fertig**.
 1. (Optional) Klicken Sie auf **Spalte hinzufügen** , um zusätzliche Spalten hinzuzufügen.
 1. (Optional) Um das Lesen des Berichts zu vereinfachen, wird empfohlen, ihm eine Gruppierung hinzuzufügen. Wir empfehlen die folgende Gruppierung:
 
    Klicken Sie auf die Registerkarte **Gruppierungen** und führen Sie dann einen oder mehrere der folgenden Schritte aus:
 
-   1. Klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Projektname&quot;. Wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird.
-   1. Klicken Sie auf &quot;**Gruppierung hinzufügen**&quot;, geben Sie &quot;Auftragsrollenname&quot;ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-   1. Klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von **Zuordnungsdatum**, wählen Sie diese aus, wenn sie in der Liste angezeigt wird, und wählen Sie dann den Zeitrahmen aus, nach dem Sie eine Gruppe bilden möchten, aus dem Feld **Datumsgruppen nach**.
+   * Klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Projektname&quot;. Wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird.
+   * Klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Auftragsrollenname&quot;. Wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird.
+   * Klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe &quot;Zuordnungsdatum&quot;, wählen Sie es aus, wenn es in der Liste angezeigt wird, und wählen Sie dann den Zeitrahmen aus, nach dem Sie die Gruppe im Feld **Datumsgruppen nach** gruppieren möchten.
 
 1. (Optional) Klicken Sie auf **Filter** , um dem Bericht Filter hinzuzufügen.
 1. (Optional) Klicken Sie auf **Diagramm** , um dem Bericht ein Diagramm hinzuzufügen.
-1. Klicken Sie auf **Speichern + Schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 
 ## Überprüfung des Berichts über die budgetierte Stunde
 

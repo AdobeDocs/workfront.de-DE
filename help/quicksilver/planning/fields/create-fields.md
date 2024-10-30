@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 95f21f064c5298dc6d2e1c24872ee049f77c3fac
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '3612'
+source-wordcount: '3689'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 2%
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # Felder erstellen
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+
 
 {{planning-important-intro}}
 
@@ -233,7 +238,7 @@ Einzelzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie k
 
 1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spaltenüberschrift eines Felds in einer Tabelle bewegen.
+   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger in einer Tabelle über die Spaltenüberschrift des Felds bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
 1. Klicken Sie auf **Erstellen**.
 
    Das neue einzeilige Feld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
@@ -366,7 +371,7 @@ Zahlenfeldtypen erfassen Informationen im Zahlenformat.
 
 Prozentfeldtypen erfassen Informationen in einem Zahlenformat, gefolgt von einem Prozentzeichen.
 
-1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Felder von Grund auf erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Prozentsatz** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Felder von Grund auf erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Prozentsatz** aus. <!--change screen shot for preview-->
 
    ![](assets/percentage-field-type.png)
 
@@ -376,9 +381,23 @@ Prozentfeldtypen erfassen Informationen in einem Zahlenformat, gefolgt von einem
    * **Präzision**: Die Anzahl der Dezimalstellen, die für das Feld aufgezeichnet werden sollen. Sie können bis zu 6 Dezimalstellen anzeigen.
    * **Negative Zahlen zulassen**: Wählen Sie diese Option aus, wenn Sie negative Prozentwerte in diesem Feld zulassen möchten. Diese Option ist standardmäßig deaktiviert.
 
-   >[!NOTE]
-   >
-   >    Wenn Sie negative Zahlen zulassen auswählen und negative Werte auf den Datensätzen gespeichert werden, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
+     >[!NOTE]
+     >
+     >    Wenn Sie negative Zahlen zulassen auswählen und negative Werte auf den Datensätzen gespeichert werden, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
+
+   <!--<div class="preview">  
+
+    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
+        * **Number**: The percent value displays as a number followed by the percentage sign. 
+        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
+        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+
+    >[!NOTE]
+    >
+    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
+    >* You can change the Show as selection when editing the field later. 
+    </div>-->
+
 
 1. Klicken Sie auf **Erstellen**.
 

@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Bericht: kombinierte Aufgabe und Problemansicht und Gruppierung"
+title: "Report: Combined Task and Issue View and Grouping"
 description: Dieser Arbeitselement-Bericht zeigt sowohl Aufgaben als auch Probleme an, an denen Benutzer die Arbeit in einem Bericht akzeptiert haben. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bc99e303047b989b972974b398420a9180e40874
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 1%
+source-wordcount: '411'
+ht-degree: 0%
 
 ---
 
 # Bericht: kombinierte Aufgabe und Problemansicht und -gruppierung
+
+<!--Audited: 10/2024-->
 
 Dieser Arbeitselement-Bericht zeigt sowohl Aufgaben als auch Probleme an, an denen Benutzer die Arbeit in einem Bericht akzeptiert haben. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
 
@@ -22,11 +24,13 @@ Dieser Bericht verwendet `sharecol=true` in der Ansicht, um mehrere Felder unter
 
 >[!TIP]
 >
-> In der Ansicht &quot;Work Item&quot;werden nur Aufgaben und Probleme angezeigt, die von den ihnen zugewiesenen Benutzern akzeptiert wurden. Dieser Bericht zeigt keine Arbeitselemente an, die nicht aus den Listen &quot;Arbeitsanforderungen&quot;oder &quot;Team-Anforderungen&quot;in die Liste &quot;Arbeitsaufgaben&quot;des Benutzers verschoben wurden.
+>  In der Ansicht &quot;Work Item&quot;werden nur Aufgaben und Probleme angezeigt, die von den ihnen zugewiesenen Benutzern akzeptiert wurden. Dieser Bericht zeigt keine Arbeitselemente an, die nicht aus den Listen &quot;Arbeitsanforderungen&quot;oder &quot;Team-Anforderungen&quot;in die Liste &quot;Arbeitsaufgaben&quot;des Benutzers verschoben wurden.
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,40 +39,47 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Filteranforderung </p></li>
+   <li><p>Berichtänderung planen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erstellen eines Berichts mit einer kombinierten Aufgabe und Problemansicht und -gruppierung
 
 So erstellen Sie einen Bericht mit dieser Ansicht:
 
-1. Klicken Sie im **Hauptmenü** ![](assets/main-menu-icon.png) auf **Berichte**.
+1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts oder, falls verfügbar, auf das Symbol **Hauptmenü** oben links, das Symbol ![](assets/lines-main-menu.png) und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
 
-1. Klicken Sie auf **Neuer Bericht** und wählen Sie das Objekt **Arbeitselement** aus dem Dropdownmenü aus.
+1. Klicken Sie im Dropdownmenü auf **Neuer Bericht** > **Mehr** > **Arbeitselement** .
 
-1. Klicken Sie im Bereich **Spaltenvorschau** auf die Kopfzeile der einzigen angezeigten Spalte.
+1. Klicken Sie im Bereich **Spaltenvorschau** auf die Kopfzeile der einzigen angezeigten Spalte. Dies ist die Spalte **Ext Ref** .
 1. Klicken Sie auf **Wechseln zum Textmodus**.
-1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Textmodus bearbeiten** .
+1. Entfernen Sie den Text, den Sie im Textfeld finden, und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.description=Task or Issue 
@@ -259,8 +270,9 @@ So erstellen Sie einen Bericht mit dieser Ansicht:
    column.15.width=1
    ```
 
+1. Klicken Sie auf **Fertig**.
 1. (Optional) Klicken Sie auf **Gruppierungen** , um dem Bericht eine Gruppierung hinzuzufügen.
-1. (Optional) Wenn Sie eine Gruppierung hinzufügen, klicken Sie auf **In Textmodus wechseln**.
+1. (Optional und bedingt) Wenn Sie eine Gruppierung hinzufügen, klicken Sie auf **In den Textmodus wechseln**.
 1. (Optional) Ersetzen Sie den Text im Textmodusbereich der Gruppierung durch den folgenden Code:
 
    ```
@@ -273,3 +285,4 @@ So erstellen Sie einen Bericht mit dieser Ansicht:
    Diese Gruppierung fasst alle Aufgaben zusammen und alle Probleme zusammen.
 
 1. Klicken Sie auf **Speichern + schließen**.
+1. (Optional) Aktualisieren Sie den Namen des Berichts und klicken Sie dann auf **Anwenden**.

@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: Projekte nach Datum der Einreichung"
+title: "Gruppierung: Projekte nach Einstiegsdatum"
 description: Bei dieser benutzerdefinierten Projektgruppierung können Sie Projekte anzeigen, die nach ihren Datumswerten für die Einsendung gruppiert sind.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Gruppierung: Projekte nach Datum der Einsendung
+
+<!--Audited: 10/2024-->
 
 Bei dieser benutzerdefinierten Projektgruppierung können Sie Projekte anzeigen, die nach ihren Datumswerten für die Einsendung gruppiert sind.
 
@@ -76,11 +78,14 @@ So wenden Sie diese Gruppierung an:
 1. Entfernen Sie den Text im Bereich **Gruppieren nach** .
 1. Ersetzen Sie den Text durch den folgenden Code:
 
+
+   ```
    group.0.linkedname=direct
-group.0.name=Project Entry
-group.0.valueExpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))&lt;=30,&quot;Last 30 Days&quot;,IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&amp;&amp;ABS(DATEDIFF({entryDate},$$TODAY))&lt;=60,&quot;3 -60 Tage&quot;,&quot;älter als 60 Tage&quot;))
-group.0.valueFormat=atDateAsMonthString
-textmode=true
+   group.0.name=Project Entry
+   group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))<=30,"Last 30 Days",IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&&ABS(DATEDIFF({entryDate},$$TODAY))<=60,"30-60 Days","Older than 60 days"))
+   group.0.valueformat=atDateAsMonthString
+   textmode=true
+   ```
 
 1. Klicken Sie auf **Fertig** > **Gruppierung speichern**.
 1. (Optional) Aktualisieren Sie den Namen der Gruppierung und klicken Sie dann auf **Gruppierung speichern**.

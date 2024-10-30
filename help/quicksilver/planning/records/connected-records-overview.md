@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Informationen dazu, wie Sie Datensätze miteinander oder mit einem anderen Objek
 
 * Jeder, der Zugriff auf die Workfront-Planung und -Ansicht oder höhere Berechtigungen für den Arbeitsbereich hat, kann die Verbindungen sehen, die Sie zwischen Datensätzen oder zwischen Datensätzen und Objekten anderer Anwendungen herstellen. Sie können verbundene Datensätze und Objekte unabhängig von ihren Berechtigungen in den Anwendungen anzeigen, mit denen Sie eine Verbindung herstellen.
 * Sie können die Verbindungen aller anderen Benutzer anzeigen und bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, in dem die verbundenen Datensätze gespeichert sind.
-* Sie können einen Datensatz mit einem oder mehreren Objekten aus einer anderen Anwendung verbinden. Weitere Informationen finden Sie im Abschnitt &quot;Verbindungstypen&quot;im Artikel [Übersicht über Connected record types](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+* Sie können einen Datensatz mit einem oder mehreren Objekten aus einer anderen Anwendung verbinden. Dies hängt vom Verbindungstyp ab, den Sie beim Verbinden der Datensatztypen ausgewählt haben. Weitere Informationen finden Sie im Abschnitt &quot;Verbindungstypen&quot;im Artikel [Übersicht über Connected record types](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Bereiche, in denen Sie Datensätze verbinden können
 

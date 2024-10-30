@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2363'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,10 @@ ht-degree: 1%
 
 # Datensatztypen verbinden
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+
 
 {{planning-important-intro}}
 
@@ -242,6 +245,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      ![](assets/many-to-many-connection-picker.png)
 
      Weitere Informationen zu Verbindungstypen finden Sie unter [Übersicht über Connected Record Types](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+     >[!NOTE]
+     >
+     ><span class="preview"> Wenn Sie für den Verbindungstyp &quot;Eins zu viele&quot;oder &quot;Eins zu eins&quot;auswählen und später einen Datensatz oder ein Objekt verbinden möchten, das bereits an einer anderen Stelle verbunden ist, erhalten Sie eine Warnung, dass die Verbindung erneut zur ursprünglichen Verbindung führt. Sie können das Entfernen zulassen oder einen anderen Datensatz auswählen.</span>
 
    * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie verknüpft sind. Die Verknüpfung zeigt Informationen aus dem Datensatz oder Objekt an, mit dem Sie in dem Datensatz verknüpfen, von dem Sie die Verknüpfung herstellen. Diese Option ist standardmäßig aktiviert.
 
