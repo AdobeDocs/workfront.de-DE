@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 06c3cb557cf35d79b09e4f68e0f3e8cb69fbe4a6
+source-git-commit: a01ca10fdd4e8faaefcac861c9d64843b71ed9c8
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1666'
 ht-degree: 11%
 
 ---
@@ -27,8 +27,8 @@ Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zug
 
 >[!NOTE]
 >
->In diesem Artikel werden die Funktionen beschrieben, die für den Zugriff auf die Ebenen im neuen Workfront-Planmodell verfügbar sind. Informationen zu den im aktuellen Planmodell verfügbaren Funktionen finden Sie unter [Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
-
+>* In diesem Artikel werden die Funktionen beschrieben, die für den Zugriff auf die Ebenen im neuen Workfront-Planmodell verfügbar sind. Informationen zu den im aktuellen Planmodell verfügbaren Funktionen finden Sie unter [Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+> * Eine Liste der Funktionen, die den verschiedenen Plänen im neuen Planungsmodell zur Verfügung stehen, finden Sie unter [Adobe Workfront-Preise und -Verpackungen](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekte
 
