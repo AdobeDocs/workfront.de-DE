@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Es werden drei einfache Schritte ausgeführt:
 
-**Schritt 1**: Laden Sie die Datei in Workfront Proof hoch, indem Sie sie über eine Post-Anfrage an senden.  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Wir werden Ihnen den Datei-Hash zurückgeben - das ist sehr wichtig! Beachten Sie, dass Sie in dieser Phase nichts in Ihrem Konto sehen werden, alles was Sie bisher getan haben, ist uns die Datei zu schicken, aber nicht gesagt, was wir damit tun sollen.
+**Schritt 1**: Laden Sie die Datei in Workfront Proof hoch, indem Sie sie über eine POST-Anfrage an senden.  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Wir werden Ihnen den Datei-Hash zurückgeben - das ist sehr wichtig! Beachten Sie, dass Sie in dieser Phase nichts in Ihrem Konto sehen werden, alles was Sie bisher getan haben, ist uns die Datei zu schicken, aber nicht gesagt, was wir damit tun sollen.
 
 **Schritt 2**: Wenn Sie noch keine Sitzungs-ID haben, können Sie eine mit den Methoden doLogin() oder getSessionID() abrufen. Verwenden Sie die erste Methode, um sich mit der E-Mail-Adresse und dem Passwort eines Benutzers anzumelden, oder die zweite Methode, wenn Sie über die E-Mail-Adresse und das Authentifizierungstoken des Benutzers verfügen.
 
@@ -69,7 +69,4 @@ Beispielsweise die URL für die minimierte Suche
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` muss als 
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=`, damit die benutzerdefinierten Parameter weitergegeben werden.
 
-## Wie erstelle ich einen Java Web Service Client?
-
-[In diesem Video](https://screencast.com/t/xsSNrqs5b) wird gezeigt, wie Sie einen Java-Webdienstclient mithilfe von Eclipse und der Workfront Proof-WSDL-Definition erstellen können.
 
