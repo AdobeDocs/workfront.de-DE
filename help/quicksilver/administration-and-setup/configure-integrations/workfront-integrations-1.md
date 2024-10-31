@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
     <ul> 
      <li> <p>Integrieren Sie in eine webbasierte Version von [!DNL Outlook] in der Cloud-gehosteten Version [!DNL Office 365] oder [!DNL Outlook Live.]. </p> </li> 
      <li> <p>Zeigen Sie alle Ereignisse aus Ihrem [!DNL Outlook] -Kalender sowie alle von Ihnen ausgewählten Kalender (z. B. Geburtstags- und Urlaubskalender) in Ihrem [!UICONTROL Home Calendar] an.</p> </li> 
-    </ul> <p><b>HINWEIS</b>: Die [!UICONTROL Outlook]-Kalenderkonfiguration ist vollständig getrennt vom [!DNL Outlook] Add-in ([!DNL Outlook] Integration oder [!DNL Workfront for Outlook]). Zum Konfigurieren des Kalenders ist keine Installation erforderlich.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Einstellungen für die Ansicht im [!UICONTROL Home Calendar] konfigurieren</a>.</p> </td> 
+    </ul> <p><b>HINWEIS</b>: Die [!UICONTROL Outlook]-Kalenderkonfiguration ist vollständig getrennt vom [!DNL Outlook] Add-in ([!DNL Outlook] Integration oder [!DNL Workfront for Outlook]). Zum Konfigurieren des Kalenders ist keine Installation erforderlich.</p></td> 
    <td> </td> 
    <td> </td> 
   </tr> 

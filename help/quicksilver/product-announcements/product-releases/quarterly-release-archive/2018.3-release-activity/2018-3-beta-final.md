@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,6 @@ Die endgültige Version 2018.3 von Beta enthält folgende Verbesserungen:
 Wenn Sie Ihren Home-Kalender so konfigurieren, dass er mit Ihrem Outlook-Kalender synchronisiert wird, werden Elemente aus Ihrem Home-Kalender jetzt in Ihrem Outlook-Kalender angezeigt.
 
 Zuvor war es nur möglich, Elemente aus dem Outlook-Kalender mit dem Home-Kalender zu synchronisieren.
-
-Informationen zum Konfigurieren des Home-Kalenders für die Synchronisation mit Outlook finden Sie unter [Einstellungen für die Home-Kalender-Ansicht konfigurieren](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
 ## Aktualisierungen für das Hinzufügen neuer Aufgaben auf der Startseite {#updates-for-adding-new-tasks-in-home}
 

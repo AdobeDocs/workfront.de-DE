@@ -6,9 +6,9 @@ description: Genehmigungen zur Prüfung werden nur dann im Bereich "Home"angezei
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -52,26 +52,16 @@ Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, 
 
 ## Anzeigen gesendeter Testversandgenehmigungen
 
-1. Klicken Sie oben links in Adobe Workfront auf das Symbol **Startseite** ![](assets/home-icon-30x29.png) .
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Genehmigungen** hinzuzufügen.
+1. (Bedingt) Klicken Sie auf das Dropdown-Menü **Filter** und wählen Sie dann **Von mir gesendete Genehmigungen** aus, um die von Ihnen gesendeten Genehmigungen anzuzeigen.
 
-   >[!NOTE]
-   >
-   >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
-   >
-   >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
-   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf das **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und klicken Sie dann auf **Startseite**.
-
-1. Gehen Sie im Bereich **Arbeitsliste** zur Gruppe **Von mir gesendete Genehmigungen** .
-
-1. Klicken Sie auf eine **Proof** -Genehmigung in der Arbeitsliste.
-
-   Dadurch wird die Testversand-Validierung rechts neben der Liste &quot;Arbeit&quot;geöffnet.
+   ![](assets/proof-approval.png)
 
    >[!NOTE]
    >
    > Wenn Sie eine Genehmigung an einen Benutzer senden, der die Gastprüfung durchführt, wird die Genehmigung nicht auf der Startseite angezeigt.
 
-   ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
 1. (Optional) Klicken Sie in der rechten oberen Ecke des rechten Bedienfelds auf **Gehe zu Testversand** , um den Testversand-Viewer zu starten.
 

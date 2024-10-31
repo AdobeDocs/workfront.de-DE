@@ -6,9 +6,9 @@ description: Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmig
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ Sie können Genehmigungen in den folgenden Bereichen anzeigen oder verwalten:
 
 * Im Startbereich
 
-   * Alle Projekte, Aufgaben, Probleme, Timesheets, Dokumente und Zugriffe, die auf Ihre Genehmigung warten, werden im Bereich Startseite angezeigt, wenn Sie Alle oder Genehmigungen anzeigen.
-   * Genehmigungen, die Sie selbst eingereicht haben, werden auch im Bereich &quot;Startseite&quot;im Abschnitt &quot;Von mir gesendete Genehmigungen&quot;der Arbeitsliste angezeigt. Weitere Informationen finden Sie im Abschnitt [Arbeiten zur Überprüfung, die Sie zur Genehmigung im Startbereich einreichen](#review-work-you-submit-for-approval-in-the-home-area) in diesem Artikel.
-   * Genehmigungen werden aus dem Startbereich entfernt, wenn das zugehörige Projekt, die Aufgabe oder das Problem mit &quot;Gelöst&quot;, &quot;Auf Halten&quot;, &quot;Geschlossen&quot;oder &quot;Abgebrochen&quot;markiert ist.
+   * Alle Projekte, Aufgaben, Probleme, Timesheets, Dokumente und Zugriffe, die auf Ihre Genehmigung warten, werden im Widget Meine Genehmigungen im Bereich Home angezeigt.
+   * Genehmigungen, die Sie selbst eingereicht haben, werden auch im Widget Meine Genehmigungen im Bereich Startseite angezeigt, wenn Sie die Filteroption Von mir gesendete Genehmigungen auswählen. Weitere Informationen finden Sie im Abschnitt [Arbeiten zur Überprüfung, die Sie zur Genehmigung im Startbereich einreichen](#review-work-you-submit-for-approval-in-the-home-area) in diesem Artikel.
+   * Genehmigungen werden aus dem Widget Meine Genehmigungen im Bereich Home entfernt, wenn das zugehörige Projekt, die zugehörige Aufgabe oder das zugehörige Problem mit &quot;Gelöst&quot;, &quot;Auf Halten&quot;, &quot;Geschlossen&quot;oder &quot;Abgebrochen&quot;markiert ist.
 
   Informationen zur Verwendung von Home finden Sie unter [Erste Schritte mit Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
@@ -82,19 +82,10 @@ Sie können Genehmigungen in den folgenden Bereichen anzeigen oder verwalten:
 
 ## Überprüfen Sie die Arbeit, die Sie zur Genehmigung im Startbereich einreichen. {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klicken Sie oben links in Adobe Workfront auf das Symbol **Startseite** ![](assets/home-icon-30x29.png) .
+1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
+1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Genehmigungen** hinzuzufügen.
+1. (Bedingt) Klicken Sie auf das Dropdown-Menü **Filter** und wählen Sie dann **Von mir gesendete Genehmigungen** aus, um die von Ihnen gesendeten Genehmigungen anzuzeigen.
 
-   >[!NOTE]
-   >
-   >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
-   >
-   >* Ersetzen Sie sie durch ein Bild, das zur Veranschaulichung Ihrer Organisation angepasst wurde. In diesem Fall sieht das Symbol anders aus als in diesem Artikel.
-   >* Ersetzen Sie die verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf das **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und klicken Sie dann auf **Startseite**.
-
-1. Wählen Sie **Arbeitsliste**, klicken Sie dann auf das Dropdown-Menü **Filter** und wählen Sie **Genehmigungen** aus.
-1. Erweitern Sie den Abschnitt **Gesendete Genehmigungen** und suchen Sie nach den von Ihnen gesendeten Genehmigungen.
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## Genehmigungsstatus eines Objekts anzeigen
 

@@ -6,9 +6,9 @@ description: Sie können ein freigegebenes Dokument in Adobe Workfront freigeben
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,6 @@ Weitere Informationen zum Objektbericht für Testsendungen finden Sie im Abschni
 
 ## Freigegebenen Testversand genehmigen
 
-Wenn ein Benutzer Sie zu einem Testversand hinzufügt und entweder die Rolle &quot;Genehmiger&quot;oder die Rolle &quot;Genehmiger und Genehmiger&quot;mithilfe des automatisierten Workflows gewährt, wird die Genehmigungsanfrage auf der Registerkarte &quot;Genehmigungen&quot;in Ihrer Startseite oder im Arbeitsbereich angezeigt. Sie können den Testversand ansehen und direkt in Workfront eine Validierungsentscheidung für den Testversand treffen.
+Wenn ein Benutzer Sie zu einem Testversand hinzufügt und entweder die Rolle &quot;Genehmiger&quot;oder die Rolle &quot;Validierer und Genehmiger&quot;mit dem automatisierten Workflow gewährt, wird die Genehmigungsanfrage im Widget Meine Genehmigungen im Bereich Startseite angezeigt. Sie können den Testversand ansehen und direkt in Workfront eine Validierungsentscheidung für den Testversand treffen.
 
-Weitere Informationen dazu, wie Sie Genehmigungsentscheidungen aus dem Arbeitsbereich &quot;Meine Arbeit&quot;treffen, finden Sie unter [Arbeit aus dem Startbereich genehmigen](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) oder [Arbeit genehmigen](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Arbeit genehmigen](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Informationen dazu, wie Sie Genehmigungsentscheidungen über das Widget Meine Genehmigungen treffen, finden Sie unter [Arbeiten im Startbereich genehmigen](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) oder [Arbeit validieren](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Arbeit validieren](../../../review-and-approve-work/manage-approvals/approving-work.md).

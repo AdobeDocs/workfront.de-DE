@@ -6,9 +6,9 @@ description: Sie können einen Testversand aus dem Testversand-Viewer freigeben,
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Wenn der Testversand über einen automatisierten Workflow verfügt, können Sie 
 Standardmäßig werden Benutzer, die Sie zum Testversand hinzufügen, wie folgt bewertet:
 
 * Erhalten Sie eine E-Mail-Benachrichtigung mit einem Link zum Testversand.
-* Kann Genehmigungsentscheidungen für den Testversand vom Home- oder Arbeitsbereich treffen, wie in [Validieren der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md) beschrieben.
+* Kann Genehmigungsentscheidungen für den Testversand im Home-Bereich treffen, wie unter [Validierung der Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md) beschrieben.
 * Die Testversandfunktion muss nicht aktiviert sein, damit der Testversand überprüft werden kann.
 
 Wenn der automatisierte Workflow aktiviert ist und Sie einen Benutzer zum Testversand hinzufügen, für den die Testversand-Funktion in Workfront nicht aktiviert ist, wird im automatisierten Workflow eine neue Phase erstellt. Der Benutzer, den Sie hinzufügen, wird automatisch zu dieser neuen Phase hinzugefügt, wenn er den Testversand zum ersten Mal anzeigt. Weitere Informationen finden Sie unter [Überblick über den automatisierten Workflow](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).

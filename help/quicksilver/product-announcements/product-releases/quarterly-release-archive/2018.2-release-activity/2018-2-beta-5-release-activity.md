@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3158'
 ht-degree: 1%
 
 ---
@@ -59,8 +59,6 @@ Jetzt können Sie Ihre persönlichen Arbeitsaufgaben und Zeitpläne in der Ansic
 * Aktualisieren von zugewiesenen Aufgaben
 
 Wenn Sie einen Kalender in Outlook verwenden, können Sie Ihren Kalender integrieren, um Ihre Outlook-Ereignisse in Ihrer Home-Kalender-Ansicht anzuzeigen.
-
-Weitere Informationen finden Sie unter [Ansicht &quot;Home Calendar&quot;](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 ## Zusätzliche Aktualisierungen der Arbeitsliste (linker Bereich) auf der Startseite {#additional-updates-to-the-work-list-left-panel-in-home}
 

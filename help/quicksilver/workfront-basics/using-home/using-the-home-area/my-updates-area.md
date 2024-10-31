@@ -6,7 +6,7 @@ description: Sie können den Bereich [!UICONTROL Meine Aktualisierungen] verwend
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -146,8 +146,6 @@ Sie müssen Folgendes haben, bevor Sie beginnen:
 1. (Optional) Klicken Sie auf **[!UICONTROL Ignorieren]** , um die Zugriffsanforderung aus Ihrer Genehmigungsliste zu löschen, ohne sie zu vergeben.
 1. Klicken Sie auf **[!UICONTROL Meine Genehmigungen delegieren]** , um die Ihnen übermittelten Genehmigungen zu delegieren, wenn Sie für einige Zeit nicht für Genehmigungsentscheidungen verfügbar sind. Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Genehmigungsanfrage delegieren](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Scrollen Sie unter Ihren Genehmigungen zum Bereich **[!UICONTROL Erwähnungen]**. Hier können Sie alle Elemente anzeigen, die in eine Konversation einbezogen wurden.
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >
