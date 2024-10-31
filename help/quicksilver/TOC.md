@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 45fc22a324672bced5235e3bbb0fa7c662a7fed4
+source-git-commit: 8facde17caa9054354c3a632ea3a3ab2ba112a5e
 workflow-type: tm+mt
-source-wordcount: '14534'
+source-wordcount: '14547'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 2%
       * [Vorbereitung auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
       * Version Q1 2025 {#release-25-q1}
          * [Übersicht über die Version 2025 Q1](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+         * [2025 Q1 Administrator-Verbesserungen](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)<!--* [2025 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)-->
+         * [Weitere Verbesserungen während des Zeitrahmens der Version vom ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [Look-and-Feel-Aktualisierungen während des Veröffentlichungszeitrahmens für das Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * Version 4. Quartal 2024 {#release-24-q4}
          * [Übersicht über die Version 2024 im 4. Quartal](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)

@@ -7,9 +7,9 @@ description: Berichte bieten einen Überblick darüber, was mit Benutzern und de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3296'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,7 @@ Zur Erweiterung Ihrer Berichte können Sie die folgenden Elemente hinzufügen:
 
 Beim Erstellen eines Berichts können Sie jedes dieser Elemente im ReportBuilder einzeln ändern.
 
-Eine weitere Möglichkeit, die Relevanz der in Ihren Berichten enthaltenen Informationen zu verbessern, besteht darin, eine bedingte Formatierung auf Ihre Ansichten anzuwenden.\
-Informationen zur Verwendung von bedingter Formatierung finden Sie unter [Bedingte Formatierung in Ansichten verwenden](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Eine weitere Möglichkeit, die Relevanz der in Ihren Berichten enthaltenen Informationen zu verbessern, besteht darin, eine bedingte Formatierung auf Ihre Ansichten anzuwenden. Informationen zur Verwendung von bedingter Formatierung finden Sie unter [Bedingte Formatierung in Ansichten verwenden](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Systemberichte
 
@@ -81,17 +80,20 @@ Zusätzlich zu den von Workfront bereitgestellten Systemberichten können Sie au
 Gehen Sie wie folgt vor, um einen Bericht zu erstellen:
 
 * Erstellen Sie einen neuen Bericht.
-* Existierenden Bericht kopieren.\
+* Existierenden Bericht kopieren.
+
   Sie müssen mindestens über die Berechtigung Ansicht verfügen, um einen von einer anderen Person erstellten Bericht zu kopieren. Weitere Informationen zum Kopieren eines Berichts finden Sie unter [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Informationen zum Erstellen von Berichten finden Sie unter [Übersicht über Kalenderberichte](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Voraussetzungen für die Berichterstellung {#prerequisites-for-creating-reports}
 
-* Sie benötigen eine Planungslizenz (aktuelle Lizenzen) oder eine Standardlizenz (neue Lizenzen), um Ihre eigenen Berichte erstellen zu können.\
+* Sie benötigen eine Planungslizenz (aktuelle Lizenzen) oder eine Standardlizenz (neue Lizenzen), um Ihre eigenen Berichte erstellen zu können.
+
   Informationen zu den Workfront-Lizenztypen finden Sie unter [Überblick über Lizenzen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für die aktuellen Lizenzen und unter [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) für die neuen Lizenzen.
 
-* Ihr Workfront-Administrator muss Ihnen Zugriff auf die Option Berichte bearbeiten in Ihrer Zugriffsebene gewähren.\
+* Ihr Workfront-Administrator muss Ihnen Zugriff auf die Option Berichte bearbeiten in Ihrer Zugriffsebene gewähren.
+
   Informationen zur Gewährung des Zugriffs auf &quot;Berichte bearbeiten&quot;finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Ihr Workfront-Administrator muss Ihnen Zugriff auf die Optionen Filter, Ansichten und Gruppierungen bearbeiten auf Ihrer Zugriffsebene gewähren.
@@ -109,7 +111,7 @@ Informationen zum Kopieren von Berichten finden Sie unter [Erstellen einer Kopie
 
 Sie können sehen, wem ein Bericht gehört, indem Sie das Feld **Eingestiegen von** überprüfen.
 
-![Eingegeben durch Feld](assets/nwe-entered-by-350x218.png)
+![Eingegeben durch Feld](assets/unshimmed-entered-by.png)
 
 ### Erstellen von Berichten in der Builder-Oberfläche {#create-reports-in-the-builder-interface}
 
