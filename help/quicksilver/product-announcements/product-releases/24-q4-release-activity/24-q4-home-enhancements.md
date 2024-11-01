@@ -4,9 +4,9 @@ description: Verbesserungen für das vierte Quartal 2024 - Startseite
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,16 @@ Weitere Informationen finden Sie unter [Erste Schritte mit Prioritäten](/help/q
 
 Mit der Version 24.10 werden wir offiziell das alte Home-Erlebnis einstellen.
 
-Mit dieser Änderung werden die folgenden Bereiche der Layout-Vorlage umbenannt:
+Mit dieser Änderung werden die folgenden Bereiche betroffen sein:
+
+**Layout-Vorlage**
 
 * Der Bereich _Home workspace_ wird in _Home_ umbenannt.
 * Der Bereich _Home und Summary_ wird in _Summary panel_ umbenannt. Anpassungen in diesem Bereich gelten weiterhin für das Bedienfeld &quot;Zusammenfassung&quot;im neuen Startseite. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+**Genehmigungen verwalten**
+
+* Sie können Benutzer nicht mehr in der Startseite von den eingereichten Genehmigungen abrufen, daran erinnern oder sie daraus entfernen. Stattdessen können Sie dies in der Validierung selbst verwalten.
 
 Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird. Weitere Informationen zur Umstellung, einschließlich Hinweise dazu, was Benutzer und Administratoren zur Vorbereitung tun können, finden Sie im [Handbuch zur veralteten Home-Version](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 

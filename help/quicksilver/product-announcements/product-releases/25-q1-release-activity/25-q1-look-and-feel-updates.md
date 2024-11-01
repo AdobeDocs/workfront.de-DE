@@ -4,9 +4,9 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ Eine Liste aller Änderungen, die mit der Version vom ersten Quartal 2025 verfü
 
 Die Navigationsleiste von Workfront wurde aktualisiert, um ihre Leistung zu verbessern. Die Änderungen am Erscheinungsbild sind minimal.
 
-Die auffälligste Änderung ist, dass die Dropdownbildschirme Favoriten und Letzte Elemente keine Schließen-Schaltfläche mehr haben. Sie können einfach auf den Bildschirm klicken oder auf die Esc-Taste drücken, um ihn zu schließen.
+Die auffälligsten Änderungen sind:
+
+* Die Dropdownbildschirme Favoriten und Letzte haben keine Schließen-Schaltfläche mehr. Sie können einfach auf den Bildschirm klicken oder auf die Esc-Taste drücken, um ihn zu schließen.
+* Sie können keine fixierten Seiten mehr per Drag &amp; Drop anordnen. Stattdessen gibt es ein Dropdown-Menü mit Schaltflächen, mit denen Sie Ihre fixierten Seiten verschieben können.
 
 ## Look-and-Feel-Aktualisierung für das Fenster &quot;Update an Benutzer senden&quot;
 
