@@ -7,7 +7,7 @@ description: Sie können verschiedene Dateitypen für Ihre Validierer freigeben 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
+source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -49,6 +49,7 @@ Workfront hat die folgenden Beschränkungen:
 > * PPSX - Microsoft PowerPoint-Bildschirmpräsentation
 > * XLT - Microsoft Excel-Vorlage
 > * XLTX - Microsoft Excel-Vorlage
+> * EPS - Encapsulated PostScript
 
 * ABC - LEAD Advanced Bitonal Compression
 * ABIC - Adaptive Bild-Komprimierung auf biologischer Ebene
@@ -177,19 +178,18 @@ Workfront hat die folgenden Beschränkungen:
 > * DOTX - Microsoft Word-Dokumentvorlage
 > * POT - Microsoft PowerPoint-Vorlage
 > * POTX - Microsoft PowerPoint-Vorlage
-> * PPS - Microsoft PowerPoint-Bildschirmpräsentation
-> * PPSX - Microsoft PowerPoint-Bildschirmpräsentation
-> * XLT - Microsoft Excel-Vorlage
-> * XLTX - Microsoft Excel-Vorlage
-> * EPS - Encapsulated PostScript
+> * PPS: Microsoft PowerPoint-Diashow
+> * PPSX: Microsoft PowerPoint-Diashow
+> * XLT: Microsoft Excel-Vorlage
+> * XLTX: Microsoft Excel Vorlage
 
 
-* AI - Adobe Illustrator Artwork
-* AIT - Adobe Illustrator-Vorlage
+* KI – Adobe Illustrator Kunstwerk
+* AIT - Adobe Illustrator Vorlage
 * DOC - Microsoft Word-Dokument
 * DOCX - Microsoft Word-Dokument
-* PDF - Adobe Portable Document File
-* PPT - PowerPoint-Präsentation
+* PDF - Adobe Systems Portable Document Datei
+* PPT- PowerPoint-Präsentation
 * PPTX - PowerPoint Präsentation 2007 PS - PostScript-Datei
 * PSD - PHOTOSHOP
 * RTF - Rich-Text
