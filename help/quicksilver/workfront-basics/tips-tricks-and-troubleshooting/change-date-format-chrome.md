@@ -6,7 +6,7 @@ title: Datumsformat in  [!DNL Adobe Workfront] ändern
 description: Um das Datumsformat für die Datumsangaben in [!DNL Adobe Workfront] zu ändern, müssen Sie die Spracheinstellungen in Ihrem Browser ändern.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Sie können Datumsformate in Workfront auf folgende Weise ändern, je nachdem, w
   Wenn die Standardsprache in Ihrem Browser beispielsweise auf *[!UICONTROL Englisch (USA)]* festgelegt ist, werden die Datumsangaben in den folgenden Formaten angezeigt:
 
    * MM/TT/JJJJ
-   * Monat TT, JJJJ
+   * Mo. DD, JJJJ
 
   Um die Spracheinstellungen in [!DNL Chrome] oder einem anderen Browser zu ändern, müssen Sie die Einstellungen dieses Browsers ändern. Die Schritte zum Ändern der Einstellungen eines Browsers variieren von Browser zu Browser. Informationen zum Ändern der Einstellungen finden Sie in den Bereichen [!UICONTROL Hilfe], [!UICONTROL Voreinstellungen] oder [!UICONTROL Einstellungen] Ihres Browsers.
 

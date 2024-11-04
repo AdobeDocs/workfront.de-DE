@@ -7,9 +7,9 @@ description: Erfahren Sie, wie Sie ein Trigger-Modul hinzufügen, damit das Szen
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Sie müssen das unter [Basisszenario erstellen](/help/quicksilver/workfront-fusi
 1. Wählen Sie **Datensatz überwachen** aus.
 1. Stellen Sie sicher, dass das Modul dieselbe Verbindung wie die anderen Module im Szenario verwendet.
 1. Wählen Sie im Filterfeld **Nur neue Datensätze** aus.
+1. Wählen Sie im Feld &quot;Record Type&quot;die Option **Issue** aus.
 1. Wählen Sie im Feld &quot;Outputs&quot;die Optionen `ID`, `Name` und `Project ID` aus.
 1. Klicken Sie auf **OK** , um die Moduleinstellungen zu speichern.
 
