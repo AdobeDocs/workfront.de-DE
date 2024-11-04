@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Unterschiede bei Uhrzeit und Datum berechnen"
+title: "Ansicht: Zeit- und Datumsunterschiede berechnen"
 description: Erfahren Sie, wie Sie Zeit- und Datumsunterschiede berechnen können.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # Ansicht: Zeit- und Datumsunterschiede berechnen
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -109,10 +109,8 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum e
 
 1. Klicken Sie auf **Spalte hinzufügen** und beginnen Sie mit der Eingabe von &quot;Geplantes Abschlussdatum&quot;im Feld **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken Sie auf **Spalte hinzufügen** und dann auf **Wechseln zum Textmodus**.
-
-1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch einen der folgenden Codes:
+1. Klicken Sie auf **Spalte hinzufügen** und dann auf **Wechseln zum Textmodus** > **Textmodus bearbeiten**.
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch einen der folgenden Codes:
 
    * So zeigen Sie den Unterschied zwischen dem geplanten Abschlussdatum des Projekts und dem der Aufgabe an:
 
@@ -131,4 +129,4 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum e
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.
+1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.

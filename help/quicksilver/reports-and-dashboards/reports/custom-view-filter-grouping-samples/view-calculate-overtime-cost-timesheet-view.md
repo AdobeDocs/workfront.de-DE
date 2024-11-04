@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Berechnung der Überstunden in einer Timesheet-Ansicht"
+title: "Ansicht: Berechnung der Zeitverlaufskosten in einer Timesheet-Ansicht"
 description: Die Zeitüberschreitung wird in Adobe Workfront nicht standardmäßig berechnet, Sie können jedoch einen Zeitplanbericht erstellen, der die Zeitdauer berechnet.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 1%
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
 # Ansicht: Berechnung der Zeitüberschreitungskosten in einer Timesheet-Ansicht
+
+<!--Audited: 11/2024-->
 
 Die Zeitüberschreitung wird in Adobe Workfront nicht standardmäßig berechnet, Sie können jedoch einen Zeitplanbericht erstellen, der die Zeitdauer berechnet.
 
@@ -25,7 +27,11 @@ Informationen zum Verknüpfen von Benutzern mit den Kosten pro Stunde finden Sie
 >
 >Das Feld Überstunden , das Sie einer Timesheet-Ansicht in einer Liste oder einem Bericht hinzufügen können, zeigt die im Feld Überstunden des Zeitplans enthaltenen Informationen an. Diese Informationen werden von einem Benutzer, der Zugriff auf die Änderung des Zeitblatts hat, manuell aktualisiert. Weitere Informationen zum Feld &quot;Zeitüberschreitung&quot;in einem Zeitblatt finden Sie im Artikel [Übersicht über das Zeitblatt-Layout](../../../timesheets/timesheets/timesheet-layout.md).
 
+![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
+
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -34,61 +40,63 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung zum Ändern einer Ansicht </p>
-   <p>Berichtänderung planen</p> </td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Filteranforderung </p></li>
+   <li><p>Berichtänderung planen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Berechnung der Überstunden in einer Timesheet-Ansicht
 
 So fügen Sie einer Timesheet-Ansicht eine Spalte für die berechnete Zeitdauer hinzu:
 
-1. Gehen Sie zu einer Liste von Timesheets oder erstellen Sie einen Timesheet-Bericht.
+1. Gehen Sie zu einer Liste von Timesheets.
 
-   Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
-1. Klicken Sie in einer Liste mit Timesheets auf **Ansicht anpassen** .
-
-   Oder
-
-   Wählen Sie die Registerkarte **Spalten (Ansicht)** in einem Zeitblatt-Bericht aus.
+1. Klicken Sie auf das Dropdownmenü **Ansicht** und dann auf **Neue Ansicht**.
 
 1. Klicken Sie auf **Spalte hinzufügen**.
-1. Klicken Sie auf **Wechseln zum Textmodus**.
-1. Klicken Sie im Bereich **In dieser Spalte anzeigen** auf **Klicken, um Text zu bearbeiten**.
-1. Kopieren Sie den folgenden Textmoduscode und fügen Sie ihn im Dialogfeld **Textmodus** ein.
-   <pre>displayName=Calculated Overtime Cost<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueExpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour}, {totalHours}*{user}.{costPerHour})<br>valueFormat=currencyStringCurrencyRounded</pre>
+1. Klicken Sie auf **Wechseln zum Textmodus** und dann auf **Textmodus bearbeiten**.
+1. Entfernen Sie im Feld **Textmodus bearbeiten** den Text im Feld, kopieren Sie dann den folgenden Textmoduscode und fügen Sie ihn ein:
+
+   ```
+   displayname=Calculated Overtime Cost
+   linkedname=direct
+   namekey=totalHours
+   querysort=totalHours 
+   textmode=true
+   valueexpression=IF({totalHours}>40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})
+   valueformat=currencyStringCurrencyRounded
+   ```
 
    >[!NOTE]
    >
    >Bei dieser Berechnung wird davon ausgegangen, dass der Benutzer normalerweise eine Woche mit 40 Stunden arbeitet.
 
-1. Klicken Sie auf &quot;**Speichern**&quot;, geben Sie der neuen Ansicht einen Namen und klicken Sie in einer Liste mit Zeitleisten auf &quot;**Ansicht speichern**&quot;.
-
-   Oder
-
-   Klicken Sie in einem Timesheet-Bericht auf **Speichern + Schließen** .
-
-1. (Optional und bedingt) Wenn Sie einen Timesheet-Bericht erstellen, geben Sie einen Namen für den Bericht ein und klicken Sie dann auf **Bericht speichern**.
+1. Klicken Sie auf **Fertig**, geben Sie der neuen Ansicht einen Namen und klicken Sie in einer Liste mit Timesheets auf **Ansicht speichern** .
 
    Die Kosten der Überstunden der einzelnen Benutzer werden in der Spalte **Berechnete Überstunden-Kosten** angezeigt.
 
-   ![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
+

@@ -4,17 +4,19 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Ansicht: Anzeigen eines Bildes anstelle einer Zeichenfolge in einer Spalte"
 description: Sie können den Namen eines Objekts in einer Ansicht mithilfe des Textmodus durch ein Bild ersetzen. Sie können auch einen Link zum Bild hinzufügen, der das von ihm ersetzte Objekt öffnen kann.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Ansicht: Anzeigen eines Bildes anstelle einer Zeichenfolge in einer Spalte
+
+<!--Audited: 11/2024-->
 
 Sie können den Namen eines Objekts in einer Ansicht mithilfe des Textmodus durch ein Bild ersetzen. Sie können auch einen Link zum Bild hinzufügen, der das von ihm ersetzte Objekt öffnen kann.
 
@@ -26,6 +28,8 @@ Sie können den Namen eines Objekts in einer Ansicht mithilfe des Textmodus durc
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -33,28 +37,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung zum Ändern einer Ansicht </p>
-   <p>Berichtänderung planen</p> </td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Filteranforderung </p></li>
+   <li><p>Berichtänderung planen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Beispiel: Ersetzen Sie den Namen eines Projekts in einer Projektansicht durch ein Bild:
 
@@ -79,59 +89,26 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 1. Wechseln Sie zu einem Projekt, klicken Sie auf das Menü **Mehr** neben dem Namen des Projekts und klicken Sie dann auf **Bearbeiten**.![](assets/more-icon-45x33.png)
 
 1. Fügen Sie im Feld **URL** den Link zum Bild hinzu.
-1. Navigieren Sie zu einer Projektansicht in einer Liste oder einem Bericht und passen Sie die Ansicht an.
+1. Wechseln Sie in einer Projektliste zu einer Projektansicht.
+1. Klicken Sie auf das Dropdownmenü **Ansicht** und dann auf **Neue Ansicht**.
 1. Klicken Sie auf die Kopfzeile der Spalte für den **Projektnamen** und dann auf **Wechseln zum Textmodus**.
 
 1. Fügen Sie der Spalte den folgenden Code zum vorhandenen Code hinzu:
 
    ```
    displayname=Link Project
-   ```
-
-   ```
    image.name=Link Project
-   ```
-
-   ```
    image.valuefield=URL
-   ```
-
-   ```
    link.linkproperty.0.name=projectID
-   ```
-
-   ```
    link.linkproperty.0.value=ID
-   ```
-
-   ```
    link.lookup=link.edit
-   ```
-
-   ```
    link.page=/view
-   ```
-
-   ```
    link.valuefield=objCode
-   ```
-
-   ```
    link.valueformat=val
-   ```
-
-   ```
    textmode=true
-   ```
-
-   ```
    type=image
-   ```
-
-   ```
    valueformat=
    ```
 
-   Das ausgewählte Bild ersetzt den Projektnamen in der Projektansicht und das Bild ist ein Link zum Projekt.
-
-1. Klicken Sie auf **Ansicht speichern**.
+1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+Das ausgewählte Bild ersetzt den Projektnamen in der Projektansicht und das Bild ist ein Link zum Projekt.

@@ -7,14 +7,16 @@ description: Sie können den Textmodus in einer Spalte verwenden, um eine Berech
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
 # Ansicht: Anzeigen des Ergebnisses einer Berechnung zwischen zwei Feldern einer Spalte
+
+<!--Audited: 11/2024-->
 
 Sie können den Textmodus in einer Spalte verwenden, um eine Berechnung zwischen zwei Feldern anzuzeigen.
 
@@ -26,6 +28,8 @@ Weitere Informationen zu berechneten Datenausdrücken finden Sie unter [Übersic
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -33,28 +37,35 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung zum Ändern einer Ansicht </p>
-   <p>Berichtänderung planen</p> </td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Filteranforderung </p></li>
+   <li><p>Berichtänderung planen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Anzeigen des Ergebnisses einer Berechnung zwischen zwei Feldern einer Spalte
 
@@ -63,11 +74,15 @@ So fügen Sie diese Spalte einer Aufgabenansicht hinzu:
 1. Gehen Sie zu einer Liste von Aufgaben.
 1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
 
-1. Klicken Sie auf **Spalte hinzufügen** und dann auf **In den Textmodus wechseln**.
-
-1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
+1. Klicken Sie auf **Spalte hinzufügen** und dann auf **Wechseln zum Textmodus** > **Textmodus bearbeiten**.
 1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
-   <pre>displayName=Week Day Difference<br>textmode=true<br>valueExpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueFormat=HTML</pre>
+
+   ```
+   displayname=Week Day Difference
+   textmode=true
+   valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})
+   valueformat=HTML
+   ```
 
 1. (Optional) Um die in der Ansicht angezeigten Werte in einer Gruppierung zu aggregieren, führen Sie die unter [Gruppierung: Zeigen Sie das Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md) beschriebenen Schritte an.
-1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.
+1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.

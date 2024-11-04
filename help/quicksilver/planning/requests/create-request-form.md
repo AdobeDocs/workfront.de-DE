@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -139,20 +139,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * In der Tabellenansicht des ausgewählten Datensatztyps verfügbare Datensatzfelder. <!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > Je nachdem, welche Umgebung Sie zum Erstellen eines Anfrageformulars verwenden, gibt es die folgenden Szenarien:
-     >
-     >* Felder der folgenden Typen werden nicht im Anfrageformular <span class="preview">in der Vorschau </span>- oder Produktionsumgebung angezeigt:
-     >
-     >    * Personen (einschließlich Erstellt von und Zuletzt geändert von)
-     >    * Formel
-     >    * Erstellungsdatum
-     >    * Zuletzt geändert am
-     >    * Verbindungsfelder oder Suchfelder von Workfront-Objekten
-     >    * Workfront-Planen der verbundenen Suchfelder von Datensätzen
-     >* Felder der folgenden Typen werden nicht im Anfrageformular in der Produktionsumgebung angezeigt. <span class="preview">Sie werden in der Vorschau-Umgebung angezeigt:</span>
-     >    * <span class="preview"> Verbindungsfelder der Workfront-Planungsdatensätze (einschließlich Verbindungen mit Workfront und Experience Manager-Assets)</span>
+   >[!IMPORTANT]
+   >
+   > Je nachdem, welche Umgebung Sie zum Erstellen eines Anfrageformulars verwenden, gibt es die folgenden Szenarien:
+   >
+   >* Felder der folgenden Typen werden nicht im Anfrageformular <span class="preview">in der Vorschau </span>- oder Produktionsumgebung angezeigt:
+   >
+   >    * Personen (einschließlich Erstellt von und Zuletzt geändert von)
+   >    * Formel
+   >    * Erstellungsdatum
+   >    * Zuletzt geändert am
+   >    * Verbindungsfelder oder Suchfelder von Workfront-Objekten
+   >    * Workfront-Planen der verbundenen Suchfelder von Datensätzen
+   >* Felder der folgenden Typen werden nicht im Anfrageformular in der Produktionsumgebung angezeigt. <span class="preview">Sie werden in der Vorschau-Umgebung angezeigt:</span>
+   >    * <span class="preview"> Verbindungsfelder der Workfront-Planungsdatensätze</span>
 
 
    * **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anforderungsformular anwendet. Der Abschnitt Standard kann nicht umbenannt oder entfernt werden.
