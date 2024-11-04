@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 8%
+source-wordcount: '1028'
+ht-degree: 7%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 8%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+{{highlighted-preview}}
 
 Als Adobe Workfront-Administrator können Sie den Kick-Starts-Datenexporteur verwenden, um Daten aus Workfront zu exportieren. Sie können sie nach dem Export in anderen Anwendungen verwenden.
 
@@ -334,11 +336,15 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
 
    Matrix-Berichte können nicht exportiert werden. Weitere Informationen zu Matrix-Berichten finden Sie unter [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   Kick-Starts unterstützt keine Textmodus-Filter. Für einen erfolgreichen Export müssen die Berichtsfilter in den Standardmodus umgestellt werden.
+   Kick-Starts unterstützt keine Textmodus-Filter oder -Gruppierungen. Für einen erfolgreichen Export müssen die Berichtsfilter und Gruppierungen in den Standardmodus umgestellt werden.
 
    Sie können bis zu 100 Dashboards und 100 Berichte in einem Export auswählen.
 
-   ![](assets/kickstart-export-350x381.png)
+   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
+   ![Schnellstartexport](assets/kickstart-export-spreadsheet-options.png)
+
+   Beispielbild in der Produktionsumgebung:
+   ![Schnellstartexport](assets/kickstart-export-350x381.png)
 
    Sie können mehrere Objekte gleichzeitig exportieren.
 
@@ -346,4 +352,3 @@ Beim Datenexport über Kick-Start (Daten werden im Excel-Dateiformat exportiert)
 
    Bei umfangreichen Exporten erzeugt Workfront im Hintergrund die Excel-Datei und erzeugt eine Warnmeldung über die Verzögerung. Die Kick-Start-Datei wird Ihnen per E-Mail zugeschickt, wenn der Download abgeschlossen ist.
 
-   ![](assets/large-kick-start-file-warning-350x65.png)

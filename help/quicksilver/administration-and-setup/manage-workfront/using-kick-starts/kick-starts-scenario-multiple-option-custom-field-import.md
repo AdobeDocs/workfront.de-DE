@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2175'
 ht-degree: 0%
 
 ---
 
 # Szenario &quot;Kick-Starts&quot;: Importieren von benutzerdefinierten Feldern mit mehreren Optionen in Workfront
+
+{{highlighted-preview}}
 
 Mit der Kick-Start-Funktion können Sie benutzerdefinierte Felder mit mehreren Optionen in Adobe Workfront importieren.
 
@@ -86,23 +88,23 @@ So exportieren Sie vorhandene Daten aus Workfront:
 
 1. Erweitern Sie **System** im linken Menü und klicken Sie dann auf **Daten exportieren (Kick-Starts)**.
 
-   ![](assets/export-data-kick-starts-link-in-setup.png)
-
 1. Wählen Sie **Benutzerdefinierte Daten** im Abschnitt **Was soll eingeschlossen werden** aus.
 
-   ![](assets/existing-custom-data-box-checked-kick-starts.png)
+   Beispielbild in der Vorschau-Umgebung:
+   ![Benutzerdefinierte Daten auswählen](assets/kickstarts-select-existing-data.png)
+
+   Beispielbild in der Produktionsumgebung:
+   ![Benutzerdefinierte Daten auswählen](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Wählen Sie die Datei **.xlsx** im Abschnitt **Download-Format** aus.
 
    >[!TIP]
    >
-   >    Je nachdem, wie viele benutzerdefinierte Daten Sie in Ihrem System haben, kann dies lange dauern.
+   >Je nachdem, wie viele benutzerdefinierte Daten Sie in Ihrem System haben, kann dies lange dauern.
 
-   ![](assets/download-button-for-kick-starts.png)
+1. Klicken Sie auf **Herunterladen**. Eine .xlsx-Datei wird auf Ihren Computer heruntergeladen. Navigieren Sie dazu und öffnen Sie es.
 
-1. Klicken Sie auf **Herunterladen**. Eine .xlsx-Datei wird auf Ihren Computer heruntergeladen. Navigieren Sie zu und öffnen Sie es.
-
-   ![](assets/existing-data-excel-parameter-sheet.png)
+   ![Exportierte Daten in Excel](assets/existing-data-excel-parameter-sheet.png)
 
 1. Überprüfen Sie die heruntergeladene Datei und beachten Sie die folgenden Details:
 
@@ -126,9 +128,10 @@ Nachdem Sie die Informationen zu vorhandenen benutzerdefinierten Feldern in Ihre
 
 1. Klicken Sie auf **Daten importieren (Kick-Starts)**.
 
-   ![](assets/import-data-kick-starts-link-in-setup.png)
+1. Aktivieren Sie im Bereich **Herunterladen einer leeren Kick-Start-Tabelle** das Kontrollkästchen **Benutzerdefinierte Daten** und klicken Sie auf **Download**.
 
-1. Aktivieren Sie im Bereich **Herunterladen einer leeren Kick-Start-Tabelle** das Kontrollkästchen **Benutzerdefinierte Daten** und klicken Sie auf **Herunterladen** .
+   Beispielbild in der Vorschau-Umgebung:
+   ![Benutzerdefinierte Daten auswählen](assets/kickstarts-select-existing-data.png)
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -280,7 +283,7 @@ Nachdem Sie die in den vorherigen Abschnitten beschriebenen Schritte ausgeführt
 
 1. Klicken Sie unter dem Abschnitt **Daten mit Kick-Start-Tabelle hochladen** auf **Datei auswählen** .
 
-1. Suchen Sie auf Ihrem Computer nach der von Ihnen vorbereiteten Excel-Tabelle und wählen Sie sie aus, wenn Sie sie finden.  Wenn die Datei von Workfront erkannt wird, wird die Schaltfläche Hochladen blau.
+1. Suchen Sie auf Ihrem Computer nach der von Ihnen vorbereiteten Excel-Tabelle und wählen Sie sie aus, wenn Sie sie finden. Wenn Workfront die Datei erkennt, wird die Schaltfläche Hochladen blau.
 1. Klicken Sie auf **Hochladen.**
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
