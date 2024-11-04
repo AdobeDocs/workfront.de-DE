@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 81b003607634f39fbe2dd0ad076f88ce86d275cb
+source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 0%
@@ -23,31 +23,19 @@ Ein berechnetes benutzerdefiniertes Feld kann Folgendes enthalten:
 
 * Ein einfacher Verweis auf ein einzelnes integriertes Feld.
 
-<div style="padding-left: 2em">
-
->[!BEGINSHADEBOX]
-
-**Beispiel:** Um den Umsatz zu berechnen, der durch Projekte und Aufgaben generiert wurde, können Sie ein berechnetes benutzerdefiniertes Feld erstellen, das das integrierte Feld &quot;Tatsächlicher Umsatz&quot;enthält. Wenn ein Benutzer das benutzerdefinierte Formular an ein Projekt oder eine Aufgabe anhängt, wird der Umsatz für das Projekt oder die Aufgabe im Feld angezeigt.
-
->[!ENDSHADEBOX]
-
-</div>
+  >[!INFO]
+  >
+  >**Beispiel:** Um den Umsatz zu berechnen, der durch Projekte und Aufgaben generiert wurde, können Sie ein berechnetes benutzerdefiniertes Feld erstellen, das das integrierte Feld &quot;Tatsächlicher Umsatz&quot;enthält. Wenn ein Benutzer das benutzerdefinierte Formular an ein Projekt oder eine Aufgabe anhängt, wird der Umsatz für das Projekt oder die Aufgabe im Feld angezeigt.
 
 * Ein Ausdruck, der auf ein oder mehrere Felder verweist. Dabei kann es sich um benutzerdefinierte Felder, andere berechnete benutzerdefinierte Felder und integrierte Felder handeln.
 
-<div style="padding-left: 2em">
-
->[!BEGINSHADEBOX]
-
-**Beispiel:** Um den Gewinn zu berechnen, der durch Projekte und Aufgaben generiert wurde, können Sie ein berechnetes benutzerdefiniertes Feld namens &quot;Profit&quot;erstellen, das einen mathematischen Ausdruck enthält, der Kosten vom Umsatz abzieht.
-
-Dazu können Sie den mathematischen Ausdruck SUB (subtract) mit den integrierten Workfront-Feldern Tatsächliche Kosten und tatsächliche Umsätze verwenden.
-
-In den folgenden Schritten sehen Sie, wie Sie einen Ausdruck wie diesen erstellen.
-
->[!ENDSHADEBOX]
-
-</div>
+  >[!INFO]
+  >
+  >**Beispiel:** Um den Gewinn zu berechnen, der durch Projekte und Aufgaben generiert wurde, können Sie ein berechnetes benutzerdefiniertes Feld namens &quot;Profit&quot;erstellen, das einen mathematischen Ausdruck enthält, der Kosten vom Umsatz abzieht.
+  >
+  >Dazu können Sie den mathematischen Ausdruck SUB (subtract) mit den integrierten Workfront-Feldern Tatsächliche Kosten und tatsächliche Umsätze verwenden.
+  >
+  >In den folgenden Schritten sehen Sie, wie Sie einen Ausdruck wie diesen erstellen.
 
 >[!NOTE]
 >
