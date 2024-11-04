@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ So exportieren Sie vorhandene Daten aus Workfront:
 
 1. Wählen Sie **Benutzerdefinierte Daten** im Abschnitt **Was soll eingeschlossen werden** aus.
 
-   Beispielbild in der Vorschau-Umgebung:
+   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
    ![Benutzerdefinierte Daten auswählen](assets/kickstarts-select-existing-data.png)
 
    Beispielbild in der Produktionsumgebung:
@@ -130,10 +130,11 @@ Nachdem Sie die Informationen zu vorhandenen benutzerdefinierten Feldern in Ihre
 
 1. Aktivieren Sie im Bereich **Herunterladen einer leeren Kick-Start-Tabelle** das Kontrollkästchen **Benutzerdefinierte Daten** und klicken Sie auf **Download**.
 
-   Beispielbild in der Vorschau-Umgebung:
+   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
    ![Benutzerdefinierte Daten auswählen](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   Beispielbild in der Produktionsumgebung:
+   ![Benutzerdefinierte Daten auswählen](assets/blank-custom-data-option-checked-kick-starts.png)
 
    Eine leere Schnellstartdatei wird auf Ihren Computer heruntergeladen.
 
@@ -143,7 +144,7 @@ Nachdem Sie die Informationen zu vorhandenen benutzerdefinierten Feldern in Ihre
 
 ## Füllen der Excel Kick-Start-Tabelle
 
-Laden Sie vor dem Ausfüllen der Excel-Tabelle die Kick-Start-Vorlage wie im obigen Abschnitt beschrieben herunter.
+Laden Sie vor dem Ausfüllen der Excel-Tabelle die Kick-Start-Vorlage herunter, wie im obigen Abschnitt beschrieben.
 
 >[!IMPORTANT]
 >
@@ -182,7 +183,7 @@ So füllen Sie das Excel-Arbeitsblatt mit Informationen für die neuen benutzerd
 
      >[!TIP]
      >
-     >    Wenn eine Zeile ein vorhandenes Feld in Workfront darstellt, geben Sie **`isNew`** = **`FALSE`** ein.
+     >Wenn eine Zeile ein vorhandenes Feld in Workfront darstellt, geben Sie **`isNew`** = **`FALSE`** ein.
 
    * **`ID`** = muss eine eindeutige Zahl für jede Zeile sein, die ein neues Feld darstellt. Sie können eine beliebige Zahl verwenden, die mit 1 beginnt, solange jedes neue Feld eine eindeutige Nummer aufweist.
    * **`setDataType`** = für jede Zeile, die ein neues Feld darstellt, geben Sie den Datentyp ein, den das Feld unterstützt. Der Datentyp muss so eingegeben werden, wie er in der Datenbank angezeigt wird. Wählen Sie aus den folgenden Datentypen aus:
