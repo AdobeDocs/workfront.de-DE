@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
+source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
 workflow-type: tm+mt
-source-wordcount: '3652'
+source-wordcount: '3657'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Leicht oder höher, um Stunden für ein Projekt, eine Aufgabe, ein Problem oder allgemeine Stunden auf einem Timesheet zu protokollieren</p>
+   <td> <p>Neu:</p>
+   <ul><li><p> Leicht oder höher, um Stunden für eine Aufgabe, ein Problem oder allgemeine Stunden auf einem Zeitblatt zu protokollieren</p>
+   <li><p>Standardmäßige Protokollzeiten für Projekte</p></li></ul>
+   <p>
    <p>Aktuell: 
    <ul><li>Überprüfen oder höher zur Protokollierung der allgemeinen Stunden in einem Zeitblatt</li>
    <li>Arbeiten oder höher zur Protokollierung von Stunden in einem Projekt, einer Aufgabe oder einem Problem</li></ul> </td> 
