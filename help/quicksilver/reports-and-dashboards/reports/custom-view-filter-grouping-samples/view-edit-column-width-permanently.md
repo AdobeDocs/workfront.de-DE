@@ -4,19 +4,19 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Ansicht: Breite einer Spalte dauerhaft bearbeiten"
 description: Sie können die Breite von Spalten vorübergehend ändern, indem Sie die Ränder an die gewünschte Breite ziehen und dort ablegen. Weitere Informationen finden Sie unter Spaltenbreite und -reihenfolge ändern .
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # Ansicht: Breite einer Spalte dauerhaft bearbeiten
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Sie können die Breite von Spalten vorübergehend ändern, indem Sie die Ränder an die gewünschte Breite ziehen und dort ablegen. Weitere Informationen finden Sie unter [Spaltenbreite und -reihenfolge ändern](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
@@ -73,7 +73,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Klicken Sie auf die Spaltenüberschrift einer vorhandenen Spalte.
 
 1. Klicken Sie auf **Wechseln zum Textmodus**.
-1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken, um Text zu bearbeiten**.
+1. Klicken Sie auf **Textmodus bearbeiten**.T
 1. Fügen Sie den folgenden Code zum Textmodus der Spalte hinzu:
 
    ```
@@ -83,6 +83,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Geben Sie für die Zeile **width** eine beliebige Zahl (in Pixel) an, die angibt, wie breit die Spalte in der Ansicht angezeigt werden soll.
 
-1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.
+1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.
 
 

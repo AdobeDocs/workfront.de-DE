@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Zeigt Informationen zu ursprünglichen Problemen in Aufgaben- und Projektlisten an"
+title: "Ansicht: Informationen zum ursprünglichen Problem in Aufgaben- oder Projektlisten anzeigen"
 description: Sie können Informationen aus dem ursprünglichen Problem in einer Ansicht von Aufgaben- und Projektlisten anzeigen, nachdem das Problem in die Aufgaben und Projekte in der Liste konvertiert wurde.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 5%
 
 ---
 
-# Ansicht: Zeigt Informationen zu ursprünglichen Problemen in Aufgaben- und Projektlisten an
+# Ansicht: Zeigt Informationen zu ursprünglichen Problemen in Aufgaben- oder Projektlisten an
 
 Sie können die folgenden Informationen aus dem ursprünglichen Problem in einer Ansicht von Aufgaben- und Projektlisten anzeigen, nachdem das Problem in die Aufgaben und Projekte in der Liste konvertiert wurde:
 

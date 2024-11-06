@@ -4,19 +4,19 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte"
 description: Sie können die Informationen, die in mehreren separaten Spalten angezeigt werden, zusammenführen und in einer gemeinsamen Spalte anzeigen.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Sie können die Informationen, die in mehreren separaten Spalten angezeigt werden, zusammenführen und in einer gemeinsamen Spalte anzeigen.
 
@@ -94,7 +94,10 @@ Sie können die Daten aus mehreren separaten Spalten zusammenführen, um sie in 
 
 So führen Sie Daten aus zwei Spalten ohne Zeilenumbruch zusammen:
 
-1. Fügen Sie im Textmodus für eine Ansicht den folgenden Text zur ersten Spalte hinzu, die Sie zusammenführen möchten:
+1. Navigieren Sie zu einer Liste von Objekten.
+1. Wählen Sie aus der Dropdownliste **Ansicht** eine Ansicht aus und klicken Sie dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png), um die Ansicht zu bearbeiten.
+1. Wechseln Sie zur ersten Spalte, die Sie zusammenführen möchten, und klicken Sie dann auf **In Textmodus wechseln** > **Textmodus bearbeiten** .
+1. Fügen Sie der ersten Spalte, die Sie zusammenführen möchten, den folgenden Text hinzu:
 
    `sharecol=true`
 
@@ -104,32 +107,31 @@ So führen Sie Daten aus zwei Spalten ohne Zeilenumbruch zusammen:
 
    Wenn Sie mehr als eine Spalte freigeben, stellen Sie sicher, dass Sie die Spaltennummer in den Codezeilen hinzufügen, die die Freigabeinformationen für jede Spalte enthalten.
 
-   **Beispiel:** Im Folgenden finden Sie den Textmoduscode für eine zusammengeführte Spalte, die drei separate Spalten enthält, beginnend mit der zweiten Spalte der Liste. Die zusammengeführten Werte sind &quot;Projektname&quot;, &quot;Geplantes Startdatum&quot;und &quot;Name des Projekteigentümers&quot;. Zwischen den drei Werten gibt es keinen Umbruch:
 
-   `column.1.valuefield=name`
+   **BEISPIEL:** Der folgende Textmoduscode für eine zusammengeführte Spalte, die drei separate Spalten enthält, beginnend mit der zweiten Spalte der Liste. Die zusammengeführten Werte sind &quot;Projektname&quot;, &quot;Geplantes Startdatum&quot;und &quot;Name des Projekteigentümers&quot;. Zwischen den drei Werten gibt es keinen Umbruch:
 
-   `column.1.valueformat=HTML`
+   ```
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.sharecol=true
+   column.3.valuefield=owner:name
+   column.3.valueformat=HTML
+   ```
 
-   `column.1.sharecol=true`
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-   `column.2.valuefield=plannedStartDate`
 
-   `column.2.valueformat=atDate`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=owner:name`
-
-   `column.3.valueformat=HTML`
-
-![](assets/shared-column-no-line-breaks-350x142.png)
-
-1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.
+1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.
 
 ## Zusammenführen von Daten aus zwei Spalten mit einem Zeilenumbruch
 
 Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusammenzuführen und in einer gemeinsamen Spalte mit einem Zeilenumbruch zwischen den Werten der einzelnen Spalten anzuzeigen:
 
+1. Navigieren Sie zu einer Liste von Objekten.
+1. Wählen Sie aus der Dropdownliste **Ansicht** eine Ansicht aus und klicken Sie dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png), um die Ansicht zu bearbeiten.
 1. Fügen Sie zwischen den beiden Spalten, die Sie zusammenführen möchten, eine dritte Spalte hinzu.
 
    >[!TIP]
@@ -137,18 +139,16 @@ Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusamm
    >* Die Spalten, die Sie zusammenführen möchten, müssen nebeneinander liegen.
    >* Sie müssen auf die erste Spalte klicken, die Sie zusammenführen möchten.
 
-1. Klicken Sie auf **Wechseln zum Textmodus** und fügen Sie in der mittleren Spalte, die Sie in Schritt 1 hinzugefügt haben, den folgenden Code hinzu:
+1. Klicken Sie auf **Wechseln zum Textmodus** > **Textmodus bearbeiten** und fügen Sie den folgenden Code in die mittlere Spalte hinzu, den Sie in Schritt 1 hinzugefügt haben:
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-
-   `width=1`
-
-   `sharecol=true`
-
-
-1. Klicken Sie auf die erste Spalte und klicken Sie auf **In Textmodus wechseln**. Fügen Sie dann der Spalte den folgenden Text hinzu:
+1. Klicken Sie auf die erste Spalte und klicken Sie auf **In Textmodus wechseln** > **Textmodus bearbeiten**. Fügen Sie dann der Spalte den folgenden Text hinzu:
 
    `sharecol=true`
 
@@ -158,49 +158,30 @@ Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusamm
 
    Wenn Sie mehr als eine Spalte freigeben, stellen Sie sicher, dass Sie die Spaltennummer in den Codezeilen hinzufügen, die die Freigabeinformationen enthalten.
 
-   **Beispiel:** Der folgende Textmoduscode für eine freigegebene Spalte enthält den Projektnamen, das geplante Startdatum und den Namen des Projektinhabers mit einem Zeilenumbruch. Die freigegebene Spalte ist die zweite Spalte einer Projektansicht.
+   **BEISPIEL:** Der folgende Textmoduscode für eine freigegebene Spalte enthält den Projektnamen, das geplante Startdatum und den Namen des Projektinhabers mit einem Zeilenumbruch. Die freigegebene Spalte ist die zweite Spalte einer Projektansicht.
 
-
-   `column.1.displayname=Project_StartDate_Owner`
-
-   `column.1.sharecol=true`
-
-   `column.1.textmode=true`
-
-   `column.1.valuefield=name`
-
-   `column.1.valueformat=HTML`
-
-   `column.2.value=<br>`
-
-   `column.2.width=1`
-
-   `column.2.valueformat=HTML`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=plannedStartDate`
-
-   `column.3.valueformat=atDate`
-
-   `column.3.sharecol=true`
-
-   `column.4.value=<br>`
-
-   `column.4.width=1`
-
-   `column.4.valueformat=HTML`
-
-   `column.4.sharecol=true`
-
-   `column.5.textmode=true`
-
-   `column.5.valuefield=owner:name`
-
-   `column.5.valueformat=HTML`
-
+   ```
+   column.1.displayname=Project_StartDate_Owner
+   column.1.sharecol=true
+   column.1.textmode=true
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.2.value=<br>
+   column.2.width=1
+   column.2.valueformat=HTML
+   column.2.sharecol=true
+   column.3.valuefield=plannedStartDate
+   column.3.valueformat=atDate
+   column.3.sharecol=true
+   column.4.value=<br>
+   column.4.width=1
+   column.4.valueformat=HTML
+   column.4.sharecol=true
+   column.5.textmode=true
+   column.5.valuefield=owner:name
+   column.5.valueformat=HTML 
+   ```
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.
+1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.

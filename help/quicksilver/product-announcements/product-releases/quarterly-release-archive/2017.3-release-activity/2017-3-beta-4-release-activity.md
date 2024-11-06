@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -151,7 +151,7 @@ Diese Informationen können in einem Aufgaben- oder Projektbericht oder einer Li
 
 Vor dieser Änderung konnten Sie keine Berichte zu diesen Informationen erstellen.
 
-Weitere Informationen zum Erstellen der benutzerdefinierten Textmodusansicht, in der die Informationen aus dem ursprünglichen Problem erfasst werden, finden Sie unter [Ansicht: Informationen zu ursprünglichen Problemen in Aufgaben- und Projektlisten anzeigen](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Weitere Informationen zum Erstellen der benutzerdefinierten Textmodusansicht, in der die Informationen aus dem ursprünglichen Problem erfasst werden, finden Sie unter [Ansicht: Informationen zu ursprünglichen Problemen in Aufgaben- oder Projektlisten anzeigen](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Filtern von Systemaktualisierungen im Aktualisierungs-Stream ist jetzt über Objekte hinweg persistent {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 

@@ -7,7 +7,7 @@ description: Ein auflösbares Objekt ist ein Problem, dessen Auflösung an ein a
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 1%
@@ -228,7 +228,7 @@ Die folgende Tabelle zeigt, welche Felder angezeigt werden können und in welche
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Ursprünglicher Name des Problems, Ursprüngliches Datum der Ausgabe, Urheber-Name</strong>: Zeigt den Namen und das Eintragsdatum des ursprünglichen Problems sowie den Namen des Benutzers an, der das Problem in einer angepassten Textmodus-Ansicht erstellt hat.<br>Weitere Informationen zum Erstellen einer benutzerdefinierten Ansicht für einen Textmodus für einen Projekt- oder Aufgabenbericht oder eine Liste zur Anzeige von Informationen zum ursprünglichen Problem finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Ansicht: Informationen zu ursprünglichen Problemen in Aufgaben- und Projektlisten anzeigen</a>.<br></td> 
+   <td><strong>Ursprünglicher Name des Problems, Ursprüngliches Datum der Ausgabe, Urheber-Name</strong>: Zeigt den Namen und das Eintragsdatum des ursprünglichen Problems sowie den Namen des Benutzers an, der das Problem in einer angepassten Textmodus-Ansicht erstellt hat.<br>Weitere Informationen zum Erstellen einer benutzerdefinierten Ansicht für einen Textmodus für einen Projekt- oder Aufgabenbericht oder eine Liste zur Anzeige von Informationen zum ursprünglichen Problem finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Ansicht: Informationen zu ursprünglichen Problemen in Aufgaben- oder Projektlisten anzeigen</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
