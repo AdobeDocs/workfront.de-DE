@@ -9,9 +9,9 @@ description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector ve
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
+source-git-commit: d14ea876ef58c190a38f1b3b1bfc205df5681bca
 workflow-type: tm+mt
-source-wordcount: '6621'
+source-wordcount: '6797'
 ht-degree: 2%
 
 ---
@@ -282,7 +282,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>(Wird angezeigt, nachdem Sie einen <strong>Filter</strong> ausgewählt haben.) Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, den das Modul überwachen soll.</p> <p>Wenn Sie beispielsweise jedes Mal, wenn ein neues Projekt erstellt wird, das Szenario starten möchten, wählen Sie [!UICONTROL Projekt]</p> </td> 
+   <td> <p>(Wird angezeigt, nachdem Sie einen <strong>Filter</strong> ausgewählt haben.) Wählen Sie den Typ des [!DNL Workfront] Datensatzes aus, den das Modul überwachen soll.</p> <p>Wenn Sie beispielsweise jedes Mal, wenn ein neues Projekt erstellt wird, das Szenario starten möchten, wählen Sie [!UICONTROL Projekt]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ausgaben]</td> 
@@ -631,7 +631,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Aktion]</td> 
-   <td> <p>Wählen Sie die Aktion aus, die das Modul ausführen soll.</p> <p>Je nach ausgewähltem [!UICONTROL Record Type] und [!UICONTROL Action] müssen Sie möglicherweise zusätzliche Felder ausfüllen. Einige Kombinationen dieser beiden Einstellungen erfordern möglicherweise nur eine Datensatz-ID, während andere (z. B. Projekt für den <strong>[!UICONTROL Record Type]</strong> und [!UICONTROL Attach Template] für die <strong>[!UICONTROL Action]</strong>) zusätzliche Informationen benötigen (z. B. eine Objekt-ID und eine Vorlagen-ID).</p> <p>Weitere Informationen zu einzelnen Feldern finden Sie in der <a href="http://developer.workfront.com/">Workfront-Entwicklerdokumentation</a>. <p><strong>Hinweis</strong>: Die Entwicklerdokumentations-Site enthält Informationen nur über API-Version 14, enthält aber trotzdem wertvolle Informationen für API-Aufrufe. </p> 
+   <td> <p>Wählen Sie die Aktion aus, die das Modul ausführen soll.</p> <p>Je nach ausgewähltem [!UICONTROL Record Type] und [!UICONTROL Action] müssen Sie möglicherweise zusätzliche Felder ausfüllen. Einige Kombinationen dieser beiden Einstellungen erfordern möglicherweise nur eine Datensatz-ID, während andere (z. B. Projekt für den <strong>[!UICONTROL Record Type]</strong> und [!UICONTROL Attach Template] für die <strong>[!UICONTROL Action]</strong>) zusätzliche Informationen benötigen (z. B. eine Objekt-ID und eine Vorlagen-ID).</p><p>Für Optionen, die für einige Aktionen verfügbar sind, siehe <a href="#misc-action-options" class="MCXref xref">Optionen für falsche Aktionen</a> in diesem Artikel.</p> <p>Weitere Informationen zu einzelnen Feldern finden Sie in der <a href="http://developer.workfront.com/">Workfront-Entwicklerdokumentation</a>. <p><strong>Hinweis</strong>: Die Entwicklerdokumentations-Site enthält Informationen nur über API-Version 14, enthält aber trotzdem wertvolle Informationen für API-Aufrufe. </p> 
     <ol> 
      <li value="1"> <p>Wählen Sie im linken Navigationsbereich auf der Seite mit der Entwicklerdokumentation die Art des Datensatzes aus. [!DNL Workfront] Die folgenden Typen haben eigene Seiten:</p> 
       <ul> 
@@ -653,6 +653,156 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 </table>
 
 Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+
+#### Optionen für falsche Aktionen
+
+##### Aufgabe
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Aktion</th> 
+   <th>Optionen</th> 
+  </tr> 
+  <tr> 
+   <td>Kopieren</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearConstraints</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Löscht die Finanzdaten</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Löscht Erinnerungsbenachrichtigungen</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Verschieben</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearDocuments</li>
+   <li>clearConstraints</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Löscht die Finanzdaten</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Löscht Erinnerungsbenachrichtigungen</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Problem
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Aktion</th> 
+   <th>Optionen</th> 
+  </tr> 
+  <tr> 
+   <td>Kopieren</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearPermissions</li>
+   <li>clearProgress</li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>In Aufgabe umwandeln</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an diese Aufgabe</p></li>
+   <li>preservePrimaryContact<p>Zugriff des Hauptkontakts des Problems auf diese Aufgabe zulassen</p></li>
+   <li>preserveCompletionDate<p>Plantes Abschlussdatum des Problems beibehalten</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>In Projekt konvertieren</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an diese Aufgabe</p></li>
+   <li>preservePrimaryContact<p>Zugriff des Hauptkontakts des Problems auf diese Aufgabe zulassen</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+##### Projekt
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Aktion</th> 
+   <th>Optionen</th> 
+  </tr> 
+  <tr> 
+   <td>Kopieren</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Löscht die Finanzdaten</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Löscht Erinnerungsbenachrichtigungen</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Vorlage anhängen/Als Vorlage speichern</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearBillingRates</li>
+   <li>clearConstraints</li>
+   <li>clearDeliverables<p>Löscht Ziele</p></li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Löscht die Finanzdaten</p></li>
+   <li>clearHourTypes</li>
+   <li>clearIssueSetup<p>Löscht Warteschlangeneigenschaften und Problemeinrichtung</p></li>
+   <li>clearPredecessors</li>
+   <li>clearRisks</li>
+   <li>clearSharingOptions</li>
+   <li>clearTimedNotifications<p>Löscht Erinnerungsbenachrichtigungen</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 +++
 
@@ -929,6 +1079,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
  </tbody> 
 </table>
+
 +++
 
 +++ **[!UICONTROL Suche (veraltet)]**
