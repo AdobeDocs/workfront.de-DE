@@ -6,16 +6,16 @@ description: Adobe Workfront verfügt über eine umfassende Liste integrierter B
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2964'
 ht-degree: 10%
 
 ---
 
 # Integrierte Adobe Workfront-Berichte verwenden
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2024-->
 
 Adobe Workfront verfügt über eine umfassende Liste integrierter Berichte, die Sie verwenden können.
 
@@ -27,6 +27,8 @@ Weitere Informationen dazu, wie Sie integrierte Berichte ausblenden, finden Sie 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -37,8 +39,16 @@ Weitere Informationen dazu, wie Sie integrierte Berichte ausblenden, finden Sie 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Mitarbeiter oder höher</p>  
-   <p>Aktuell: Anforderung oder höher</p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Mitwirkende oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Anforderung oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 

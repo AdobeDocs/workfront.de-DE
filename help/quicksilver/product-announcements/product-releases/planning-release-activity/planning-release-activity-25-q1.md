@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 0%
 >
 >Eine vollständige Liste der Anforderungen für den Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 >Einen Überblick über die Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
->
 
 In diesem Artikel werden die Funktionen beschrieben, die während der Version des ersten Quartals 2025 für die Workfront-Planung verfügbar sind.
 
@@ -33,6 +32,24 @@ In diesem Artikel werden die Funktionen beschrieben, die während der Version de
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Eine Liste aller Funktionen, die nach der allgemeinen Release vom 28. August 2024 für die Adobe Workfront-Planung freigegeben wurden, finden Sie unter [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Neue Anzeigetypen für Prozentfelder in der Tabellenansicht
+
+>[!NOTE]
+>
+>Vorschau-Version: 7. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Um die Lesbarkeit von Zahlen in der Tabellenansicht zu vereinfachen, können Sie jetzt aus den folgenden Optionen auswählen, um zu ändern, wie ein Feld vom Typ Prozentsatz in der Tabellenansicht angezeigt wird:
+
+* Zahl
+* Balken
+* Kreis
+
+Dieser Anzeigetyp wird nur in der Tabellenansicht unterstützt.
+
+Vor dieser Verbesserung konnten Sie Prozentwerte nur als Zahlen anzeigen.
+
+Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Verbindungsfelder werden jetzt in Anfrageformularen unterstützt
 

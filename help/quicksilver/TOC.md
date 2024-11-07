@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 82d02cdb0f3f95b79b1cc921bd7e3bdf07daa293
+source-git-commit: 413099ef0ad1cb430e3d0cbdd8f613bd8f579a44
 workflow-type: tm+mt
-source-wordcount: '14554'
+source-wordcount: '14567'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,9 @@ ht-degree: 2%
       * Version Q1 2025 {#release-25-q1}
          * [Übersicht über die Version 2025 Q1](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025 Q1 Administrator-Verbesserungen](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)<!--* [2025 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)-->
+         * [Verbesserungen der Dokumentenverwaltung in Q1 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
+         * [Verbesserungen für Q1 2025 - Startseite](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
+         * [Verbesserungen bei Testsendungen in Q1 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
          * [Weitere Verbesserungen während des Zeitrahmens der Version vom ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [Look-and-Feel-Aktualisierungen während des Veröffentlichungszeitrahmens für das Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * Version 4. Quartal 2024 {#release-24-q4}
