@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
 workflow-type: tm+mt
-source-wordcount: '3689'
+source-wordcount: '3847'
 ht-degree: 2%
 
 ---
@@ -383,21 +383,20 @@ Prozentfeldtypen erfassen Informationen in einem Zahlenformat, gefolgt von einem
 
      >[!NOTE]
      >
-     >    Wenn Sie negative Zahlen zulassen auswählen und negative Werte auf den Datensätzen gespeichert werden, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
+     >Wenn Sie negative Zahlen zulassen auswählen und negative Werte auf den Datensätzen gespeichert werden, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
 
-   <!--<div class="preview">  
+   <div class="preview">
 
-    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
-        * **Number**: The percent value displays as a number followed by the percentage sign. 
-        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
-        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+   * **Anzeigen als**: Wählen Sie aus dem Dropdownmenü aus, wie die Prozentwerte in der Tabellenansicht angezeigt werden sollen. Wählen Sie aus den folgenden Optionen aus:
+      * **Zahl**: Der Prozentwert wird als Zahl gefolgt vom Prozentzeichen angezeigt.
+      * **Balken**: Der Prozentwert wird als Balken neben der Prozentzahl angezeigt. Die Füllfarbe des Balkens gibt den Prozentwert an.
+      * **Kreis**: Der Prozentwert wird als Umriss eines Kreises neben der Prozentzahl angezeigt. Die Füllfarbe des Umrisses des Kreises gibt den Prozentwert an.
 
-    >[!NOTE]
-    >
-    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
-    >* You can change the Show as selection when editing the field later. 
-    </div>-->
-
+   >[!NOTE]
+   >
+   >* Die Auswahl, die Sie im Feld Anzeigen als vornehmen, gilt nur für den Prozentwert, der in der Tabellenansicht angezeigt wird. Der Prozentwert des Felds wird als Zahl angezeigt, gefolgt vom Prozentzeichen an allen anderen Stellen in der Workfront-Planung. Dies gilt auch für das Feld vom Typ Prozentsatz , wenn es in den Tabellenansichten anderer Datensätze als Suchfeld angezeigt wird.
+   >* Sie können die Option Als Auswahl anzeigen ändern, wenn Sie das Feld später bearbeiten.
+   </div>
 
 1. Klicken Sie auf **Erstellen**.
 
