@@ -6,14 +6,16 @@ description: Sie können den Informationstyp, den Sie auf dem Bildschirm anzeige
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1718'
 ht-degree: 1%
 
 ---
 
 # Erstellen oder Bearbeiten von Ansichten in Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 Sie können den Informationstyp, den Sie auf dem Bildschirm anzeigen, mithilfe von Ansichten anpassen. Sie können mehrere Arten von Ansichten in Adobe Workfront verwenden.
 
@@ -30,25 +32,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Abo</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Mitwirkende oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Anforderung oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Ansicht in einem Bericht zu erstellen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Ansicht in einem Bericht zu erstellen</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten, um eine Ansicht in einem Bericht zu erstellen oder zu bearbeiten</p> <p>Berechtigungen für eine Ansicht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader"><strong>Objektberechtigungen*</strong></td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten, um eine Ansicht in einem Bericht zu erstellen oder zu bearbeiten</p> <p>Berechtigungen für eine Ansicht verwalten</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,10 +77,11 @@ Der Prozess zum Erstellen oder Anpassen einer Ansicht hängt davon ab, ob Sie ei
 Sie können eine neue Standardansicht erstellen oder eine vorhandene Standardansicht anpassen, die Sie zuvor erstellt haben.
 
 1. Klicken Sie in einer Liste, in der Sie eine Ansicht erstellen oder anpassen möchten, auf das Dropdownmenü **Ansicht** .
-1. (Optional) Um eine vorhandene Ansicht anzupassen, wählen Sie die Standardansicht aus, die Sie anpassen möchten.\
-   Standardansichten sind in Workfront für jeden Listentyp verfügbar, z. B. für einen Bericht, eine Projektliste oder eine Aufgabenliste.
-1. Klicken Sie auf das Dropdownmenü **Ansicht** und dann auf **Ansicht anpassen** oder **Neue Ansicht**.\
-   Das Dialogfeld **Ansicht anpassen** wird angezeigt.
+
+1. Klicken Sie auf die Schaltfläche **+ Neue Ansicht** , um eine neue Ansicht zu erstellen.
+Oder
+Klicken Sie auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png) , das beim Bewegen der Maus über die rechte Seite einer vorhandenen Ansicht angezeigt wird, die Sie bearbeiten möchten.
+Das Dialogfeld **Ansicht anpassen** wird angezeigt.
 
 1. Führen Sie im Abschnitt **Spaltenvorschau** einen der folgenden Schritte aus:
 
@@ -121,7 +135,7 @@ Sie können eine neue Standardansicht erstellen oder eine vorhandene Standardans
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Spaltenregeln</strong></td> 
-           <td><p>Klicken Sie auf <strong>Regel für diese Spalte hinzufügen</strong> , um eine Regel für die Spalte zu definieren. Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile definieren, anhand derer Felder angezeigt werden, die dieser Regel entsprechen. Klicken Sie auf <strong>Regel hinzufügen</strong> , nachdem Sie die Definition der Regel abgeschlossen haben.</p></td> 
+           <td><p>Klicken Sie auf <strong>+ Regel für diese Spalte hinzufügen</strong> , um eine Regel für die Spalte zu definieren. Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile definieren, anhand derer Felder angezeigt werden, die dieser Regel entsprechen. Klicken Sie auf <strong>Regel hinzufügen</strong> , nachdem Sie die Definition der Regel abgeschlossen haben.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -234,7 +248,7 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
     </tbody> 
    </table>
 
-1. Klicken Sie im Bereich **Agile** im Bereich **Zusätzliche Felder** auf **Feld hinzufügen** und wählen Sie dann das Feld aus, das Sie den Storykarten hinzufügen möchten. (Dies sind dieselben Felder, die Sie beim Erstellen einer Ansicht oder beim Erstellen von Spalten für einen Bericht hinzufügen können.)\
+1. Klicken Sie im Bereich **Zusätzliche Felder** auf **Feld hinzufügen** und wählen Sie dann das Feld aus, das Sie den Storykarten hinzufügen möchten. (Dies sind dieselben Felder, die Sie beim Erstellen einer Ansicht oder beim Erstellen von Spalten für einen Bericht hinzufügen können.)\
    Wiederholen Sie diesen Vorgang, um bis zu drei weitere Felder zu den Storykarten hinzuzufügen.\
    Wenn Sie Felder zu Storykarten hinzufügen, sind die Felder schreibgeschützt und werden nur angezeigt, wenn das Feld ausgefüllt ist.
 

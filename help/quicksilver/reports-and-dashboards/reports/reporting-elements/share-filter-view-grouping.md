@@ -6,21 +6,19 @@ description: Sie können Filter, Ansichten und Gruppierungen, auf die Sie Zugrif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
 
 # Filter, Ansichten oder Gruppierungen freigeben
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)</p>
-<p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
-</div>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
 
 Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf die Ansicht oder Bearbeitung von Objekten, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Objekte finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -38,7 +36,9 @@ Informationen zum Erstellen eines Filters, einer Ansicht oder einer Gruppierung 
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,26 +50,35 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Mitwirkende oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Anforderung oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen anzeigen oder höher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Anzeigen oder höherer Berechtigungen mit Zugriff auf die Freigabe für Ansichten, Filter oder Gruppierungen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td><p>Anzeigen oder höherer Berechtigungen mit Zugriff auf die Freigabe für Ansichten, Filter oder Gruppierungen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Filter, Ansichten oder Gruppierungen freigeben
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
--->
+<!--(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)-->
 
 Die Freigabe von Filtern in ausgewählten Listen hängt davon ab, von welcher Benutzeroberfläche aus Sie den Filter freigeben: Standard oder veraltet. Informationen zu den Typen von Filtererstellungs-Schnittstellen finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 

@@ -6,14 +6,16 @@ description: Lesen Sie diesen Artikel, um mehr über die Richtlinien zur Spalten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
 # Spaltenbreite und -reihenfolge ändern
+
+<!-- Audited: 11/2024 -->
 
 Im Folgenden finden Sie Richtlinien zur Funktionsweise von Spaltenbreiten in Adobe Workfront:
 
@@ -36,6 +38,8 @@ Im Folgenden finden Sie Richtlinien zur Funktionsweise von Spaltenbreiten in Ado
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -48,20 +52,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Anforderung oder höher </p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Mitwirkende oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Anforderung oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um die Ansicht in einem Bericht zu bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um die Ansicht in einem Bericht zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten einer Ansicht in einem Bericht verwalten</p> <p>Berechtigungen für eine Ansicht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten einer Ansicht in einem Bericht verwalten</p> <p>Berechtigungen für eine Ansicht verwalten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Spaltenbreite und -reihenfolge ändern
 
@@ -113,17 +128,13 @@ Weitere Informationen zum Exportieren von Daten aus Listen und Berichten finden 
 #### Spaltengröße vorübergehend ändern {#resize-columns-temporarily}
 
 1. Markieren Sie die Liste, die Sie ändern möchten.
-1. Ziehen Sie den Rand einer Spalte, bis die Spalte die gewünschte Größe erreicht.\
+1. Ziehen Sie den Rand einer Spaltenüberschrift, bis die Spalte die gewünschte Größe erreicht.\
    ![](assets/column-resize-350x124.png)
 
 #### Spalten vorübergehend neu ordnen {#reorder-columns-temporarily}
 
 1. Markieren Sie die Liste, die Sie ändern möchten.
-1. Klicken Sie auf eine Spalte, die Sie an eine andere Position verschieben möchten, um die Spalte auszuwählen.
-1. Ziehen Sie die Spalte an die richtige Position.
-1. Ziehen Sie die Spalte an die gewünschte Position, um sie zu verschieben.
-
-   ![](assets/column-reorder-350x118.png)
+1. Klicken Sie auf die Spaltenüberschrift, die Sie an die gewünschte Position verschieben möchten, und ziehen Sie sie.
 
 >[!TIP]
 >

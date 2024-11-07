@@ -6,24 +6,22 @@ description: Die Hauptelemente, die jede Liste und jeder Bericht in Workfront au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Berichtselemente: Filter, Ansichten und Gruppierungen
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 Es gibt mehrere Elemente, die eine Liste oder einen Bericht in Adobe Workfront ermöglichen. Die wichtigsten Elemente jeder Liste und jedes Berichts sind ein Filter, eine Ansicht und eine Gruppierung. Jedes Element liefert unterschiedliche Informationen in jedem Bericht.
 
@@ -56,11 +54,10 @@ Einige Attribute von Filtern sind:
 
   Weitere Informationen zu Filtern finden Sie im Artikel [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Filtersymbol](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## Ansichten
 
-Durch Definition der Ansicht eines Berichts legen Sie fest, welche Informationen Sie in den Bericht aufnehmen. Wie alle Berichterstellungselemente basieren Ansichten auf einem Objekttyp.\
+Durch Definition der Ansicht eines Berichts legen Sie fest, welche Informationen Sie in den Bericht aufnehmen. Wie alle Berichterstellungselemente basieren Ansichten auf einem Objekttyp.
+
 Beispielsweise könnte eine Ansicht für einen Aufgabenbericht Fälligkeitsdaten anzeigen, wichtige Finanzdetails wie Kosten einschließen oder zur Anzeige von Zuweisungen und Versanddatumsdetails verwendet werden. Ansichten können verwendet werden, um eine Vielzahl von Details zu den Daten im Bericht bereitzustellen.
 
 Einige Attribute von Ansichten sind:

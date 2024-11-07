@@ -6,16 +6,16 @@ description: Wenn Sie Ihre Berichte mit anderen Benutzern in Adobe Workfront tei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1162'
 ht-degree: 3%
 
 ---
 
 # Bedingte Formatierung in Ansichten verwenden
 
-<!--Audited: 01/2024-->
+<!-- Audited: 11/2024 -->
 
 Wenn Sie Ihre Berichte mit anderen Benutzern in Adobe Workfront teilen, sollten Sie die Ansicht der Berichte anpassen, um das Lesen bestimmter Informationen zu vereinfachen oder einfach nur zu erkennen.
 
@@ -54,24 +54,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p>Neu:</p> 
    <ul><li>Standard für Berichtsansichten</li>
   <li> Mitwirkende oder höher für Listenansichten</li></ul>
-
-<p>Aktuell:</p>
+   <p>Aktuell:</p>
    <ul>
     <li> Berichtansichten planen </li>
     <li> Anforderung oder höher für Listenansichten </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Ansicht in einem Bericht zu bearbeiten</p> <p><b>NOTIZ</b></p> <p>Wenn Sie keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Ansicht in einem Bericht zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten, um eine Ansicht in einem Bericht zu erstellen oder zu bearbeiten</p> <p>Berechtigungen für eine Ansicht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten, um eine Ansicht in einem Bericht zu erstellen oder zu bearbeiten</p> <p>Berechtigungen für eine Ansicht verwalten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

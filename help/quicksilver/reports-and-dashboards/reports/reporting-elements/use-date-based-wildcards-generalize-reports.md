@@ -6,14 +6,16 @@ description: Sie können einen Bericht beim Erstellen bestimmter Berichterstellu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
 
 # Verwenden datumsbasierter Platzhalter zum Generalisieren von Berichten
+
+<!-- Audited: 11/2024 -->
 
 Sie können einen Bericht beim Erstellen bestimmter Berichterstellungselemente durch Verwendung von Platzhaltern anstelle spezifischer Informationen verallgemeinern.
 
@@ -29,6 +31,8 @@ Beim Erstellen der folgenden Berichterstellungselemente können Sie datumsbasier
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -41,20 +45,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Berichterstellungselemente in einem Bericht zu bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Berichterstellungselemente in einem Bericht zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten von Berichterstellungselementen in einem Bericht verwalten</p> <p>Berechtigungen für Ansichten oder Filter verwalten, um sie zu bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten von Berichterstellungselementen in einem Bericht verwalten</p> <p>Berechtigungen für Ansichten oder Filter verwalten, um sie zu bearbeiten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 

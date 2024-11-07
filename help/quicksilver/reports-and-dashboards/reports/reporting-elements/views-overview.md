@@ -7,7 +7,7 @@ description: Sie können die Art der Informationen, die in einer Liste oder eine
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Ansichten - Übersicht in Adobe Workfront
 
-<!--Audited: 01/2024-->
+<!--Audited: 11/2024-->
 
 Sie können die Art der Informationen, die in einer Liste oder einem Bericht angezeigt werden, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und deren Attribute in einer Ansicht anzeigen. Weitere Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront verstehen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 

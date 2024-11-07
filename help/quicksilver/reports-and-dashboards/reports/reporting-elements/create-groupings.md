@@ -6,24 +6,26 @@ description: Sie können eine benutzerdefinierte Gruppierung von Grund auf neu e
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 # Erstellen von Gruppierungen in Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
 Die Ergebnisse eines Berichts oder einer Liste können in Form einer Gruppierung zusammengefasst werden. Gruppierungen kategorisieren Informationen basierend auf einer bestimmten Information.
 
 Sie können eine benutzerdefinierte Gruppierung von Grund auf neu erstellen oder eine bestehende Gruppierung anpassen. Gehen Sie wie folgt vor, um eine neue Gruppierung zu erstellen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -37,20 +39,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Anforderung oder höher </p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Mitwirkende oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Anforderung oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Gruppierung in einem Bericht zu erstellen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Gruppierung in einem Bericht zu erstellen</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten einer Gruppierung in einem Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td><p>Berechtigungen für einen Bericht zum Bearbeiten einer Gruppierung in einem Bericht verwalten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gruppierung erstellen
 
@@ -59,10 +72,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![Neue Gruppierung auswählen](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Klicken Sie auf **Neue Gruppierung**.
+1. Klicken Sie auf **+ Neue Gruppierung**.
 Der Interface Builder zum Erstellen der Gruppierungsstarts.
 
-1. Klicken Sie im Abschnitt **Gruppierungsvorschau** auf **Gruppierung hinzufügen** , um festzulegen, wie die Informationen im Bericht organisiert werden sollen. Unten finden Sie eine Vorschau der Gruppierung im Bericht.
+1. Klicken Sie im Bereich **Gruppierungsvorschau** auf **Gruppierung hinzufügen** , um festzulegen, wie die Informationen im Bericht organisiert werden sollen. Unten finden Sie eine Vorschau der Gruppierung im Bericht.
 
 1. Beginnen Sie mit der Eingabe des Namens des Felds, das die Art und Weise darstellt, wie Sie Informationen im Bericht organisieren möchten, und klicken Sie dann darauf, wenn es in der Dropdown-Liste angezeigt wird.
 1. (Optional und bedingt) Wenn Sie eine Gruppierung in einer aktualisierten Liste erstellen, wählen Sie **Diese Gruppierung standardmäßig ausblenden** aus, wenn die Ergebnisse in der Gruppierung ausgeblendet statt erweitert angezeigt werden sollen. Diese Einstellung ist standardmäßig deaktiviert und die Ergebnisse der Gruppierung werden immer in der erweiterten Liste angezeigt.

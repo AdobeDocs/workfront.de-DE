@@ -6,16 +6,16 @@ description: Mit einem Filter können Sie die Anzahl der angezeigten Information
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2419'
 ht-degree: 1%
 
 ---
 
 # Filter in Adobe Workfront erstellen oder bearbeiten
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 Mit einem Filter können Sie die Anzahl der angezeigten Informationen in einer Liste von Elementen einschränken. Sie können bestimmte Kriterien basierend auf bestimmten Informationen über ein Objekt definieren und nur die Objekte anzeigen, die diesen Kriterien entsprechen.
 
@@ -47,42 +47,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Neu: Mitarbeiter oder höher</p>
-
-Oder
-
-<p>Aktuell: Anforderung oder höher</p>
-
-<p><b>NOTE:</b></p>
-
-Um einen Filter in einem Bericht zu bearbeiten, benötigen Sie die folgende Lizenz:
-
-<p>Neu: Standard</p>
-
-Oder
-
-<p>Aktuell: Plan</p>
-
-</td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Mitwirkende bei der Änderung eines Filters</p></li>
+         <li><p>Standard zum Ändern eines Filters in einem Bericht</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Filteranforderung</p></li>
+         <li><p>Filter in einem Bericht ändern</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
    <td> <ul><li><p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten</p></li></ul>
-    <p><b>NOTE:</b></p>
-   Um einen Filter in einem Bericht zu bearbeiten, müssen Sie über die folgende Konfiguration auf Zugriffsebene verfügen, zusätzlich zum Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten:
 
-<ul><li><p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p></li></ul>
+Um einen Filter in einem Bericht zu bearbeiten, müssen Sie über die folgende Konfiguration auf Zugriffsebene verfügen, zusätzlich zum Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten:
 
-<p><b>NOTE:</b></p> <p> Wenn Sie keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+<ul><li><p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p></li></ul>   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für Filter verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader"><strong>Objektberechtigungen*</strong></td> 
+   <td> <p>Berechtigungen für Filter verwalten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -369,19 +363,17 @@ Sie können veraltete Filter in Listen und Berichten wie folgt erstellen:
 Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist das Erstellen eines Filters von Grund auf oder aus einem vorhandenen Filter ähnlich.
 
 1. Markieren Sie eine Liste oder einen Bericht mit dem anzupassenden Filter.
-1. Klicken Sie auf das Symbol **Filter** ![Filtersymbol](assets/filter-nwepng.png).
+1. Klicken Sie auf das Symbol &quot;**Filter**&quot;![Filter &quot;](assets/filter-nwepng.png)&quot;, klicken Sie dann auf das Symbol &quot;**Mehr**&quot;![Mehr &quot;](assets/more-icon.png) und klicken Sie auf &quot;**Zurück zu Legacy-Filtern&quot;**.
 
    >[!TIP]
    >
    >Der Ersteller des Berichts muss die Bearbeitung von Filtern zulassen, damit die Dropdownliste Filter in einem Bericht angezeigt werden kann. Der Filter Berichtsstandard wird standardmäßig auf einen Bericht angewendet. Der Filter Berichtsstandard kann nur angepasst werden, wenn Sie den Bericht bearbeiten.
 
-   ![Filter-Dropdown-Liste](assets/filter-drop-down-expanded-nwe.png)
-
-1. Klicken Sie oben in der Filterliste auf **Neuer Filter** .
+1. Klicken Sie oben in der Filterliste auf **+ Neuer Filter** .
 
    Oder
 
-   Bewegen Sie den Mauszeiger über den Filter, den Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+   Bewegen Sie den Mauszeiger über den zu ändernden Filter und klicken Sie auf das Symbol **Bearbeiten** ![Bearbeiten-Symbol](assets/edit-icon.png).
 
    Der Builder zum Anpassen der Filterstarts.
 
@@ -423,7 +415,7 @@ Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist da
 
    Oder
 
-   Klicken Sie auf **Als neuen Filter speichern** , um einen Filter aus dem ausgewählten Filter zu erstellen.
+   Klicken Sie auf **Als neuen Filter speichern** , um einen neuen Filter aus dem ausgewählten Filter zu erstellen.
 
    Der neue Filter wird in der Filterliste angezeigt und automatisch auf die ausgewählte Liste oder den ausgewählten Bericht angewendet.
 

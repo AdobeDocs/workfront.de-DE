@@ -6,20 +6,24 @@ description: Sie können Filter, Ansichten oder Gruppierungen aus Listen und Ber
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
 
 # Entfernen von Filtern, Ansichten und Gruppierungen
 
+<!-- Audited: 11/2024 -->
+
 Sie können Filter, Ansichten oder Gruppierungen aus Listen und Berichten entfernen, wenn Sie sie erstellt haben oder für Sie freigegeben haben. Standardfilter, Ansichten oder Gruppierungen können nicht entfernt werden.
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,20 +37,32 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Mitwirkende oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Anforderung oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td><p>Zugriff auf Filter, Ansichten, Gruppierungen anzeigen oder höher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen mit Zugriff auf die Freigabe für Filter, Ansichten oder Gruppen anzeigen, die Sie entfernen möchten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td><p>Berechtigungen mit Zugriff auf die Freigabe für Filter, Ansichten oder Gruppen anzeigen, die Sie entfernen möchten</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Entfernen oder Löschen von Filtern mit dem Standard-Builder
 
@@ -69,9 +85,6 @@ Die folgenden Szenarien stehen zur Verfügung, wenn Sie einen Filter mit dem Sta
 1. Gehen Sie zu einer Liste von Projekten, Aufgaben, Problemen, Portfolios, Programmen, Benutzern, Vorlagen oder Gruppen.
 1. Klicken Sie auf das Symbol **Filter** ![Filtersymbol](assets/filter-nwepng.png).
 1. Bewegen Sie den Mauszeiger über einen Filter unter **Für mich freigegeben**, klicken Sie auf das Symbol **Mehr** Menü ![Mehr und klicken Sie dann auf ](assets/more-icon-spectrum.png) und dann auf **Entfernen**.
-
-   ![Filter entfernen](assets/new-filters-more-menu-remove-filter.png)
-
 1. Wählen Sie in der Bestätigungsmeldung **Entfernen** aus, um den Filter dauerhaft zu entfernen.
 
 ### Filter mit dem Standard-Builder löschen

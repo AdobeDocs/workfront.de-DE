@@ -7,18 +7,18 @@ description: Sie können Gruppierungen hinzufügen, um das Layout der Informatio
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Gruppierungsübersicht in Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 Sie können Gruppierungen hinzufügen, um das Layout der Informationen in Ihren Berichten und Listen zu verwalten.
 
@@ -32,13 +32,13 @@ Es gibt folgende Möglichkeiten, Berichte mit Gruppierungen zu versehen:
 
   Informationen zum Erstellen einer neuen Gruppierung finden Sie unter [Erstellen von Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-Standardmäßig werden Gruppierungen in einem grau oder blau hervorgehobenen Bericht oder in Ihrer Liste angezeigt. Die Ergebnisse des Berichts bzw. der Liste werden ohne Hervorhebung in ihrer individuellen Gruppierung aufgelistet.
+Standardmäßig werden Gruppierungen in einem grau hervorgehobenen Bericht oder einer Liste angezeigt. Die Ergebnisse des Berichts bzw. der Liste werden ohne Hervorhebung in ihrer individuellen Gruppierung aufgelistet.
+
+![Gruppierungsbeispiel](assets/grouping-example-blue.png)
 
 Sie können einem Bericht bis zu drei Gruppierungen hinzufügen. Sie können Ihre Informationen mit bis zu vier Gruppierungen organisieren, indem Sie einen Matrix-Bericht erstellen. Weitere Informationen zu Matrix-Berichten finden Sie unter [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-In einem standardmäßigen Gruppierungsbericht ist die erste Gruppierung eine dunklere Farbe, die zweite und dritte Gruppierung sind heller. Sie können weder die Farbe der Hervorhebung für die Gruppierung noch die Schriftart des Gruppierungsnamens anpassen. Die Zahl in Klammern hinter dem Gruppierungsnamen stellt die Anzahl der Ergebnisse unter dieser Gruppierung dar. Wenn Ihr Bericht mehrere Seiten umfasst, stellen Sie sicher, dass Sie die Ergebnisse im Bericht oder in der Liste mit &quot;*Alle*&quot; anzeigen, um unter jeder Gruppierung eine genaue Anzahl Ihrer Ergebnisse zu erhalten.
-
-![Beispielgruppierung](assets/grouping-example-blue.png)
+Die Zahl in Klammern hinter dem Gruppierungsnamen stellt die Anzahl der Ergebnisse unter dieser Gruppierung dar. Wenn Ihr Bericht mehrere Seiten umfasst, stellen Sie sicher, dass Sie die Ergebnisse im Bericht oder in der Liste mit &quot;*Alle*&quot; anzeigen, um unter jeder Gruppierung eine genaue Anzahl Ihrer Ergebnisse zu erhalten.
 
 Beachten Sie beim Arbeiten mit Gruppierungen Folgendes:
 

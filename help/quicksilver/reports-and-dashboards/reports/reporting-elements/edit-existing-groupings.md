@@ -4,22 +4,24 @@ description: Bestehende Gruppierungen bearbeiten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # Bestehende Gruppierungen bearbeiten
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is the third part of a former artcle split in 3: two how-tos and one refernece article about creating and customizing groupings)</p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--NOTE: This is the third part of a former article split in 3: two how-tos and one reference article about creating and customizing groupings)-->
 
 Sie können eine bestehende Gruppierung anpassen, die Sie ursprünglich erstellt oder für Sie freigegeben haben. Anschließend können Sie sie als neue Gruppierung speichern.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,20 +35,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Anforderung oder höher </p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Mitwirkende oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Anforderung oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Gruppierung in einem Bericht zu bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Gruppierung in einem Bericht zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten einer Gruppierung in einem Bericht verwalten</p> <p>Berechtigungen für eine Gruppierung verwalten </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten einer Gruppierung in einem Bericht verwalten</p> <p>Berechtigungen für eine Gruppierung verwalten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -58,7 +71,7 @@ Informationen zum Erstellen einer Gruppierung finden Sie unter [Erstellen von Gr
 
 1. Gehen Sie zu einer Liste von Objekten, die die anzupassende Gruppierung enthalten.
 1. Klicken Sie auf das Symbol **Gruppierung** .
-1. Wählen Sie die anzupassende Gruppierung aus und klicken Sie dann auf das Symbol **Bearbeiten** .
+1. Wählen Sie die anzupassende Gruppierung aus und klicken Sie dann auf das Symbol **Bearbeiten** ![Bearbeiten-Symbol](assets/edit-icon.png).
 
    ![Wählen Sie das Bearbeitungssymbol aus.](assets/customizegrouping-nwe-standard-350x291.png)
 
@@ -83,4 +96,4 @@ Informationen zum Erstellen einer Gruppierung finden Sie unter [Erstellen von Gr
 1. Wiederholen Sie die Schritte 4, 5 und 6, um weitere Gruppierungen zu definieren.\
    Sie können bis zu drei Gruppierungen definieren, um Informationen zu organisieren. Sie können Ihre Informationen mithilfe von bis zu vier Gruppierungen weiter organisieren, indem Sie einen Matrix-Bericht erstellen. Weitere Informationen zu Matrix-Berichten finden Sie unter [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Klicken Sie auf **Als neue Gruppierung speichern** , um die aktuelle Gruppierung durch Ihre Änderungen zu ersetzen.
+1. Klicken Sie auf **Gruppierung speichern** , um die aktuelle Gruppierung durch Ihre Änderungen zu ersetzen.
