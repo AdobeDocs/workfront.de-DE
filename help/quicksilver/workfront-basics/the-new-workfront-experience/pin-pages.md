@@ -5,10 +5,10 @@ description: Sie können Ihre wichtigste Arbeit [!DNL Adobe Workfront] für mehr
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: b42028c7f4934d7d2538e078372dd32262232729
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
@@ -70,33 +70,32 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Sie können den Namen einer fixierten Seite so ändern, dass er für Sie aussagekräftiger ist.
 
 1. Bewegen Sie den Mauszeiger in der oberen Navigation über die fixierte Seite oder über das Menü **[!UICONTROL Mehr&quot;]**.
-1. Klicken Sie auf den Pfeil neben dem Pin-Namen und wählen Sie **[!UICONTROL Pin umbenennen]**.
+1. Klicken Sie auf das Symbol &quot;Mehr&quot;![](assets/more-icon.png) neben dem Pin-Namen und wählen Sie **[!UICONTROL Pin umbenennen]** aus.
 
-   ![PIN umbenennen](assets/rename-remove-pin.png)
+   ![PIN umbenennen](assets/pin-menu.png)
 
-1. Geben Sie den Namen des neuen Pins ein und klicken Sie auf das Häkchen oder drücken Sie die Eingabetaste.
+1. Geben Sie den neuen PIN-Namen ein und klicken Sie auf **Speichern**.
 
-   ![Klicken Sie auf das Häkchen, um Pin](assets/rename-pin-click-checkmark.png) umzubenennen.
+   ![Klicken Sie auf das Häkchen, um Pin](assets/new-pin-name.png) umzubenennen.
 
-   Ein kleines Popup-Fenster wird mehrere Sekunden angezeigt, nachdem Sie auf das Häkchen geklickt oder die Eingabetaste drücken, sodass Sie die Änderung des PIN-Namens vor dem Speichern rückgängig machen können.
 
 ## Neuanordnen von fixierten Seiten
 
 Sie können die Reihenfolge der eingefügten Seiten neu anordnen.
 
-1. Bewegen Sie den Mauszeiger in der oberen Navigation über die fixierte Seite oder über das Menü **[!UICONTROL Mehr&quot;]**. Wenn der Handzeiger angezeigt wird, klicken Sie auf und ziehen Sie den Stift in die gewünschte Reihenfolge.
+1. Bewegen Sie den Mauszeiger über die zu verschiebende fixierte Seite und klicken Sie dann auf das Symbol **Mehr** .
+1. Wählen Sie **Nach links verschieben** oder **Nach rechts verschieben** aus, um Ihren Pin zu verschieben.
+1. (Optional) Wählen Sie **Nach vorne verschieben** aus, um den Pin an die ganz rechte Position der Pin-Leiste zu verschieben.
+
+   ![Pins verschieben](assets/pin-menu.png)
 
    Ihre Änderungen werden automatisch gespeichert und beim nächsten Zugriff auf Workfront gespeichert.
 
 ## Eine fixierte Seite entfernen
 
-1. Klicken Sie auf die fixierte Seite, die Sie entsperren möchten.
-1. Klicken Sie oben auf dem Bildschirm auf **[!UICONTROL Aufheben der Einbindung der aktuellen Seite]** .
+1. Klicken Sie neben dem zu entfernenden Pin auf das Symbol &quot;Mehr&quot;![](assets/more-icon.png) .
+1. Klicken Sie auf **Pin entfernen**.
 
-   Oder
-
-   Klicken Sie auf den Pfeil neben dem Pin-Namen und wählen Sie **[!UICONTROL Pin entfernen]** aus.
-
-   ![Pin entfernen](assets/rename-remove-pin.png)
+   ![Pin entfernen](assets/pin-menu.png)
 
    Die Seite kann nicht mehr oben auf einer Seite in [!DNL Workfront] aufgerufen werden.

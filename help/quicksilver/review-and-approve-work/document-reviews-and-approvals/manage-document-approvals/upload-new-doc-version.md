@@ -5,9 +5,9 @@ title: Eine neue Dokumentversion hochladen und eine Genehmigung anfordern
 description: Sie können eine neue Dokumentversion hochladen und die Genehmigung von anderen Benutzern in Adobe Workfront anfordern.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 66aa4c29743c031b1aff3b67364ff95f2b810ef8
+source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Wenn ein Dokument als erforderlich gekennzeichnet ist, eine vorherige Überprüfung durchzuführen, können Sie eine neue Version in das Originaldokument hochladen und eine weitere Genehmigungsrunde starten.
 
 Wenn sich der Dateiname der neuen Version vom Dateinamen der vorherigen Version unterscheidet, zeigt Workfront das Dokument mit dem neueren Dateinamen an.
+
+Wenn einem Dokument eine neue Version mit ausstehenden Genehmigungen hinzugefügt wird, wird die Genehmigung in der vorherigen Version als zurückgezogen angezeigt. Der vorherige Genehmigungsprozess wird beendet, auch wenn einige Teilnehmer noch keine Entscheidung getroffen haben.
 
 ## Zugriffsanforderungen
 
