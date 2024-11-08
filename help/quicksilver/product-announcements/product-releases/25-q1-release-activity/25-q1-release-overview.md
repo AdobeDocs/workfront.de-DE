@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Neuer Status "Entzogen", der für Genehmigungen für Dokumentversionen verfügbar ist</a></p>
-                <p>Wenn einem Dokument eine neue Version mit ausstehenden Genehmigungen hinzugefügt wird, werden die Genehmigungen in der vorherigen Version jetzt als zurückgezogen angezeigt. Der vorherige Genehmigungsprozess wird beendet, auch wenn einige Teilnehmer noch keine Entscheidung getroffen haben.</p>
+                <p>Wenn einem Dokument eine neue Version mit ausstehenden Genehmigungen hinzugefügt wird, wird die Genehmigung für die vorherige Version jetzt als "Zurückgezogen"angezeigt, was bedeutet, dass der vorherige Genehmigungsprozess aufgrund der neuen Version abgeschlossen wurde.</p>
             </td>
             <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                 <ul>
@@ -238,7 +238,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-Assistent kann jetzt mit Projekten, Aufgaben und Problemen arbeiten</a></p>
-                <p>Um die Verwaltung Ihrer Arbeitselemente in Workfront zu vereinfachen, haben wir den KI-Assistenten aktualisiert, um mit Projekten, Aufgaben und Problemen zu arbeiten. Jetzt kann der KI-Assistent Projekte, Aufgaben und Probleme basierend auf von Ihnen festgelegten Kriterien suchen oder erstellen.</p>
+                <p>Um die Verwaltung Ihrer Arbeitselemente in Workfront zu vereinfachen, haben wir den KI-Assistenten aktualisiert, um mit Projekten, Aufgaben und Problemen zu arbeiten. Jetzt kann AI Assistant Projekte, Aufgaben und Probleme basierend auf von Ihnen festgelegten Kriterien finden.</p>
             </td>
             <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                 <ul>
