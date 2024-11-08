@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
+source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
 workflow-type: tm+mt
 source-wordcount: '3847'
 ht-degree: 2%
@@ -334,7 +334,7 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
       * **Long**: 16. Mai 2023
       * **europäisch**: 16.05.2023
       * **ISO**: 2023-05-16
-   * **Ein Zeitfeld einschließen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einschließen möchten. Diese Option ist standardmäßig deaktiviert. <!--update this setting name - submitted bug for it to be changed-->
+      * **Ein Zeitfeld einschließen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einschließen möchten. Diese Option ist standardmäßig deaktiviert. <!--update this setting name - submitted bug for it to be changed-->
 
      Wählen Sie aus den folgenden Optionen aus:
 
@@ -610,6 +610,7 @@ Sie können den Feldtyp Letzte Änderung des Datums verwenden, um das Datum hinz
       * **Long**: 16. Mai 2023
       * **europäisch**: 16.05.2023
       * **ISO**: 2023-05-16
+
    * **Ein Zeitfeld einschließen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einschließen möchten. Diese Option ist standardmäßig deaktiviert. <!--submitted a UI text change for this - check the UI-->
 
      Wählen Sie aus den folgenden Optionen aus:
