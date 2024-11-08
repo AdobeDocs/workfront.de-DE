@@ -4,9 +4,10 @@ description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
+source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -49,19 +50,6 @@ Informationen zu Wechselkursen finden Sie unter [Einrichten von Wechselkursen](/
 Wir haben die Seite &quot;Daten exportieren&quot;(Kick-Starts) im Bereich &quot;Setup&quot;mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
 Weitere Informationen finden Sie unter [Exportieren von Daten aus Workfront über Kick-Starts](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
-
-## Look-and-Feel-Aktualisierungen der Workfront-Navigationsleiste
-
->[!NOTE]
->
->Produktionsversion für alle Kunden: Vor der Version 24.11 (14. November 2024)
-
-Die Navigationsleiste von Workfront wurde aktualisiert, um ihre Leistung zu verbessern. Die Änderungen am Erscheinungsbild sind minimal.
-
-Die auffälligsten Änderungen sind:
-
-* Die Dropdownbildschirme Favoriten und Letzte haben keine Schließen-Schaltfläche mehr. Sie können einfach auf den Bildschirm klicken oder auf die Esc-Taste drücken, um ihn zu schließen.
-* Sie können keine fixierten Seiten mehr per Drag &amp; Drop anordnen. Stattdessen gibt es ein Dropdown-Menü mit Schaltflächen, mit denen Sie Ihre fixierten Seiten verschieben können.
 
 ## Look-and-Feel-Aktualisierung für das Fenster &quot;Update an Benutzer senden&quot;
 
