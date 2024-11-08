@@ -4,9 +4,10 @@ description: Weitere Verbesserungen während des Zeitrahmens der Version vom ers
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
+source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,10 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des erst
 >
 >Vorschau-Version: 31. Oktober 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
-Um die Verwaltung Ihrer Arbeitselemente in Workfront zu vereinfachen, haben wir den KI-Assistenten aktualisiert, um mit Projekten, Aufgaben und Problemen zu arbeiten. Jetzt kann AI Assistant Projekte, Aufgaben und Probleme anhand von von von Ihnen festgelegten Kriterien finden, z. B. &quot;Meine Aufgaben finden, die in dieser Woche fällig sind&quot;.
+Um die Verwaltung Ihrer Arbeitselemente in Workfront zu vereinfachen, haben wir den KI-Assistenten aktualisiert, um mit Projekten, Aufgaben und Problemen zu arbeiten. Der KI-Assistent kann jetzt:
+
+* Suchen Sie Projekte, Aufgaben und Probleme basierend auf von Ihnen angegebenen Kriterien, z. B. &quot;Meine Aufgaben finden, die in dieser Woche anstehen&quot;.
+* Erstellen Sie Projekte, Aufgaben und Probleme basierend auf den von Ihnen bereitgestellten Informationen, z. B. &quot;Erstellen Sie eine Aufgabe mit dem Namen &quot;Testversand in der Projekt-Frühlingskampagne überprüfen&quot;.
 
 Zuvor war die KI-Assistenzkraft nicht in der Lage, direkt mit Projekten, Aufgaben und Problemen zu arbeiten.
 

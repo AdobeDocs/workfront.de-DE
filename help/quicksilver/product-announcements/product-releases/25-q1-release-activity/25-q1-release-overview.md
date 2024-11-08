@@ -4,9 +4,10 @@ description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
+source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -237,7 +238,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-Assistent kann jetzt mit Projekten, Aufgaben und Problemen arbeiten</a></p>
-                <p>Um die Verwaltung Ihrer Arbeitselemente in Workfront zu vereinfachen, haben wir den KI-Assistenten aktualisiert, um mit Projekten, Aufgaben und Problemen zu arbeiten. Jetzt kann AI Assistant Projekte, Aufgaben und Probleme anhand von von von Ihnen festgelegten Kriterien finden, z. B. "Meine Aufgaben finden, die in dieser Woche fällig sind".</p>
+                <p>Um die Verwaltung Ihrer Arbeitselemente in Workfront zu vereinfachen, haben wir den KI-Assistenten aktualisiert, um mit Projekten, Aufgaben und Problemen zu arbeiten. Jetzt kann der KI-Assistent Projekte, Aufgaben und Probleme basierend auf von Ihnen festgelegten Kriterien suchen oder erstellen.</p>
             </td>
             <td><p><b>Verfügbar zu diesen Terminen:</b></p>
                 <ul>
