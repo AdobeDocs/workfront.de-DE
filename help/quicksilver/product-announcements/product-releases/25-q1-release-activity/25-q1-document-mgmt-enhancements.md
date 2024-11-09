@@ -4,9 +4,10 @@ description: Verbesserungen der Dokumentenverwaltung im ersten Quartal 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -27,4 +28,6 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des erst
 >
 >Vorschau-Version: 7. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
-Wenn einem Dokument eine neue Version mit ausstehenden Genehmigungen hinzugefügt wird, werden die Genehmigungen in der vorherigen Version jetzt als zurückgezogen angezeigt. Der vorherige Genehmigungsprozess wird beendet, auch wenn einige Teilnehmer noch keine Entscheidung getroffen haben.
+Wenn einem Dokument eine neue Version mit ausstehenden Genehmigungen hinzugefügt wird, wird die Genehmigung für die vorherige Version jetzt als &quot;Zurückgezogen&quot;angezeigt, was bedeutet, dass der vorherige Genehmigungsprozess aufgrund der neuen Version abgeschlossen wurde.
+
+Weitere Informationen finden Sie unter [Laden Sie eine neue Dokumentversion hoch und fordern Sie eine Genehmigung an](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
