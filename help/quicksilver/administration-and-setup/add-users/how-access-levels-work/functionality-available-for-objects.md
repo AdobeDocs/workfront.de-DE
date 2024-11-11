@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
+source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1668'
 ht-degree: 11%
 
 ---
@@ -228,7 +228,7 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 | Details bearbeiten | ✓ | ✓ | ✓ |   |
 | Download | ✓ | ✓ | ✓ | ✓ |
 | Checkout | ✓ | ✓ | ✓ |   |
-| Hinzufügen von Genehmigern | ✓ | ✓ | ✓ |   |
+| Hinzufügen von Genehmigern (Dokumente) | ✓ | ✓ | ✓ |   |
 | Dokumente genehmigen | ✓ | ✓ | ✓ | ✓ |
 | Benutzerdefinierte Formulare anhängen | ✓ | ✓ | ✓ |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ | ✓ | ✓ |   |
@@ -238,8 +238,8 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 | Neue Version hochladen | ✓ | ✓ | ✓ |   |
 | Version löschen | ✓ | ✓ | ✓ |   |
 | Vorschau | ✓ | ✓ | ✓ | ✓ |
-| Korrekturabzug | ✓ | ✓ | ✓ | ✓ |
-| Testversand erzeugen | ✓ |   |   |   |
+| Testsendungen genehmigen | ✓ | ✓ | ✓ | ✓ |
+| Testsendungen generieren | ✓ |   |   |   |
 | Testversand durchführen | ✓ | ✓ | ✓ |   |
 | Hinzufügen/Entfernen&#42;&#42; | ✓ | ✓ | ✓ |   |
 | Umbenennen&#42;&#42; | ✓ | ✓ | ✓ |   |
