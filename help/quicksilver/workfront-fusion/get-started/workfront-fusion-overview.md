@@ -8,7 +8,7 @@ description: Die Aufgabe von [!DNL Adobe Workfront Fusion] ist es, Ihre Prozesse
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 6c55cb0ad06e25f9ab3b7c483aada91c701f56f1
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -78,7 +78,9 @@ Wenn Sie mit der Arbeit mit Workfront Fusion beginnen, sind möglicherweise die 
 
 * Informationen zu Workfront Fusion-Schulungsressourcen finden Sie unter [Übersicht über die Workfront-Fusion-Schulungen](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
+
 * Weitere Informationen zu Szenarien finden Sie unter [Szenario - Übersicht](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md).
+
 
 * Informationen zum Erstellen von Praxisszenarien finden Sie unter [Erstellen von Praxisszenarien](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 
