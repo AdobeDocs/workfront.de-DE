@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
+source-git-commit: 8cb79a06f46c9a379f7394a6bef14f97d4ff7f98
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1143'
 ht-degree: 0%
 
 ---
@@ -65,15 +65,55 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 
 Sie können eine Verbindung zu Ihrem [!DNL Workfront Planning]-Konto direkt aus einem [!DNL Workfront Fusion]-Modul erstellen.
 
-1. Klicken Sie in einem beliebigen [!DNL Workfront Planning]-App-Modul neben dem Feld [!UICONTROL Verbindung] auf **[!UICONTROL Hinzufügen]** .
-1. Geben Sie einen Namen für diese Verbindung ein.
-1. Wählen Sie aus, ob Sie eine Verbindung zu einer Produktionsumgebung oder einer Nicht-Produktionsumgebung herstellen möchten.
-1. Wählen Sie aus, ob Sie eine Verbindung zu einem Dienstkonto oder einem persönlichen Konto herstellen möchten.
-1. Klicken Sie auf **[!UICONTROL SAML log in]** , um die Verbindung zu erstellen und zum Modul zurückzukehren.
+1. Klicken Sie in einem beliebigen [!DNL Adobe Workfront Planning]-Modul neben dem Feld &quot;Verbindung&quot;auf **[!UICONTROL Hinzufügen]** .
+
+1. Füllen Sie die folgenden Felder aus:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Verbindungsname]</td>
+          <td>
+            <p>Geben Sie einen Namen für diese Verbindung ein.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Umgebung]</td>
+          <td>Wählen Sie aus, ob Sie eine Verbindung zu einer Produktions- oder Nicht-Produktionsumgebung herstellen möchten.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Typ]</td>
+          <td>Wählen Sie aus, ob Sie eine Verbindung zu einem Dienstkonto oder einem persönlichen Konto herstellen möchten.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client-ID]<p>(Optional)</p></td>
+          <td>Geben Sie Ihre [!DNL Adobe] [!UICONTROL Client-ID] ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]<p>(Optional)</p></td>
+          <td>Geben Sie Ihren [!DNL Adobe] [!UICONTROL Client Secret] ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Authentifizierungs-URL]<p>(Optional)</p></td>
+          <td>Geben Sie die URL ein, die Ihre Instanz von Workfront zum Authentifizieren dieser Verbindung verwendet. <p>Der Standardwert ist <code>https://oauth.my.workfront.com/integrations/oauth2</code>.</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Host-Präfix]</td>
+          <td>Geben Sie Ihr Host-Präfix ein.<p>Der Standardwert ist <code>origin-</code>.</p>
+        </tr>
+      </tbody>
+    </table>
+1. Klicken Sie auf **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 ## [!DNL Adobe Workfront Planning] Module und ihre Felder
 
-### Ereignisse beobachten
+### Trigger
+
+#### Ereignisse beobachten
 
 Dieses Trigger-Modul startet ein Szenario, wenn ein Datensatz, ein Datensatztyp oder ein Arbeitsbereich in der Workfront-Planung erstellt, aktualisiert oder gelöscht wird.
 
@@ -110,7 +150,12 @@ Dieses Trigger-Modul startet ein Szenario, wenn ein Datensatz, ein Datensatztyp 
   </tbody>
 </table>
 
-### Löschen eines Datensatztyps
+### Aktionen
+
+* [Löschen eines Datensatztyps](#delete-a-record-type)
+* [Erstellen eines benutzerdefinierten KI-Aufrufs](#make-a-custom-api-call)
+
+#### Löschen eines Datensatztyps
 
 Dieses Aktionsmodul löscht einen einzelnen Datensatztyp in der Workfront-Planung anhand seiner Kennung.
 
@@ -135,7 +180,7 @@ Dieses Aktionsmodul löscht einen einzelnen Datensatztyp in der Workfront-Planun
   </tbody>
 </table>
 
-### Benutzerdefinierte API-Aufrufe durchführen
+#### Benutzerdefinierte API-Aufrufe durchführen
 
 Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Workfront Planning] -API durch.
 
@@ -149,26 +194,10 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Work
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Path]</p>
+        <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>Geben Sie einen Pfad relativ zu https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/ ein.</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API-Version]</p>
-      </td>
-      <td>
-        <p>Wählen Sie die API-Version aus, die Sie verwenden möchten. Wenn Sie keine Version auswählen, wird standardmäßig die neueste Version verwendet.</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API Path override]</p>
-      </td>
-      <td>
-        <p>Geben Sie einen Pfad relativ zu https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/ ein.</p>
+        <p>Geben Sie einen Pfad relativ zu ein <code>https://(YOUR_WORKFRONT_DOMAIN)/maestro/api/</code></p>
       </td>
     </tr>
     <tr>
@@ -201,57 +230,18 @@ Dieses Modul führt einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Work
 </table>
 
 <!--
+### Searches
 
-### Delete a field
+#### Search records
 
-This action module deletes a single field in Workfront Planning by its ID.
-
->[!WARNING]
->
->Deleting a field in Workfront Planning deletes it and any data in it from every object of that record type in Workfront Planning.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the record type you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
-
-### Get a field 
-
-
-This action module retrieves a single field in Workfront Planning by its ID.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the field you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
+This action module retrieves a list of records based on criteria you specify.
 
 -->
 
-### Datensatz erstellen
+### Nicht kategorisiert
+
+
+#### Datensatz erstellen
 
 Dadurch wird ein einzelner Datensatz in der Workfront-Planung erstellt.
 
@@ -414,11 +404,3 @@ Mit dieser Aktion wird ein einzelner Datensatz in der Workfront-Planung aktualis
      <tr>
   </tbody>
 </table>
-
-### Suchdatensätze
-
-Dieses Aktionsmodul ruft anhand der von Ihnen angegebenen Kriterien eine Liste von Datensätzen ab.
-
->[!NOTE]
->
->Dieses Modul befindet sich im Bau.
