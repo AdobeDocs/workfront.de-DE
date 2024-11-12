@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
+source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,10 @@ Die Arbeitsautomatisierung erfordert eine schnelle Verarbeitung, daher ist [!DNL
 ## Dateien
 
 * Die Gesamtverarbeitungskapazität von Fusion für Dateien beträgt **1 GB**. Die Begrenzung basiert auf den Gesamtspeicherkosten. Jeder Vorgang trägt zu diesen Kosten bei. Wenn eine einzelne Datei von 400 MB heruntergeladen und hochgeladen wird, belaufen sich die Gesamtkosten für die Dateikapazität auf 800 MB.
+* Organisationen mit Workfront Ultimate-Abo haben Zugriff auf eine Dateiverarbeitungssteigerung von mehr als 1 GB. Die Fusion-Plattform kann einzelne Dateien mit bis zu 15 GB für eine einzelne Aktion unterstützen (z. B. Upload-Datei). Es gibt jedoch andere Faktoren, die sich auf die Datenübertragung auswirken. Die Dateigrößenbeschränkung für einzelne Aktionen hängt vom Webdienst ab, mit dem Fusion eine Verbindung herstellt. Die Datenübertragung ist die Gesamtverarbeitung für eine einzelne Ausführung. Das bedeutet, dass mehrere Aktionen in einer Ausführung zur gesamten Datenübertragung beitragen. Fusion verarbeitet die Dateien, bis die Ausführungsgrenze von 40 Minuten erreicht ist.
+
+  Weitere Informationen finden Sie unter [Arbeiten mit großen Dateien in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md).
+
 
 ## Speichernutzung des Servers
 
