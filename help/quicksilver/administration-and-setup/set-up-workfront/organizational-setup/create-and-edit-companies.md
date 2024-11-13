@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ So fügen Sie ein Unternehmen hinzu oder bearbeiten es:
      </tr>
      <tr> 
       <td role="rowheader">Abschnitt "Benutzerdefinierter Forms"</td> 
-      <td> <p>Wenn Sie Ihrem Unternehmen Felder hinzufügen möchten, die in [!DNL Workfront] nicht verfügbar sind, können Sie ein benutzerdefiniertes Formular erstellen und es mit Ihrem Unternehmen verknüpfen. </p> <p>Sie können dieses Formular an Ihr Unternehmen anhängen, indem Sie es aus dem Dropdown-Menü auswählen. Im Menü werden nur aktive benutzerdefinierte Formulare aufgeführt.</p> <p><strong>Hinweis:</strong> Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind nur verfügbar, wenn Sie den Firmendatensatz auf der Detailseite und nicht im Dialogfeld "Unternehmen bearbeiten"öffnen. (Klicken Sie in der Liste der Unternehmen auf den Unternehmensnamen, um die Details zu öffnen.)</p> <p> Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Entwerfen eines Formulars mit dem Formularentwickler</a>. </p> </td>
+      <td> <p>Wenn Sie Ihrem Unternehmen Felder hinzufügen möchten, die in [!DNL Workfront] nicht verfügbar sind, können Sie ein benutzerdefiniertes Formular erstellen und es mit Ihrem Unternehmen verknüpfen. </p> <p>Sie können dieses Formular an Ihr Unternehmen anhängen, indem Sie es aus dem Dropdown-Menü auswählen. Im Menü werden nur aktive benutzerdefinierte Formulare aufgeführt.</p> <p><strong>Hinweis:</strong> Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind nur verfügbar, wenn Sie den Firmendatensatz auf der Detailseite und nicht im Dialogfeld "Unternehmen bearbeiten"öffnen. (Klicken Sie in der Liste der Unternehmen auf den Unternehmensnamen, um die Details zu öffnen.)</p> <p> Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Erstellen eines benutzerdefinierten Formulars</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>

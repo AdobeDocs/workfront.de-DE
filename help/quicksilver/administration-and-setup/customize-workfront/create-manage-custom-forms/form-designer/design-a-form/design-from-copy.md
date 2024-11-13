@@ -1,23 +1,23 @@
 ---
-title: Entwerfen eines Formulars aus einer Kopie
+title: Erstellen eines Formulars aus einer Kopie
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Sie können ein benutzerdefiniertes Formular aus einer Kopie mit dem Formularentwickler entwerfen.
+description: Sie können ein benutzerdefiniertes Formular aus einer Kopie mit dem Formularentwickler erstellen.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines Formulars aus einer Kopie
 
-<!--add preview tags and see below in commet out-->
+<!--add preview tags and see below in comment out-->
 
 Sie können ein neues benutzerdefiniertes Formular entwerfen, das auf einem vorhandenen basiert. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 
@@ -89,12 +89,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Nehmen Sie alle Änderungen am Formular vor, wie in den folgenden Abschnitten des Artikels [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben:
 
    * [Vorhandenes Feld oder Widget in einem anderen benutzerdefinierten Formular wiederverwenden](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
-      * [Textfelder hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
-      * [Berechnete Felder hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
-      * [Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
-      * [Typevorschau- und Datumsfelder hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
-      * [Bilder, PDF und Videos hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
-      * [Hinzufügen von Adobe XD-Dateien](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
-        <!--* [Add Planning connection fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)-->
+   * [Textfelder hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
+   * [Berechnete Felder hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
+   * [Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Typevorschau- und Datumsfelder hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
+   * [Bilder, PDF und Videos hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
+   * [Hinzufügen von Adobe XD-Dateien](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
+     <!--* [Add Planning connection fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)-->
 
-1. (Optional) Nachdem Sie auf &quot;**Speichern+Schließen**&quot;geklickt haben, fügen Sie das Formular an das Objekt an, in dem Sie es verwenden möchten, wie unter &quot;[Benutzerdefiniertes Formular zu einem Objekt hinzufügen](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)&quot;beschrieben.
+1. (Optional) Nachdem Sie auf &quot;**Speichern und schließen**&quot;geklickt haben, fügen Sie das Formular an das Objekt an, in dem Sie es verwenden möchten, wie in [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) beschrieben.

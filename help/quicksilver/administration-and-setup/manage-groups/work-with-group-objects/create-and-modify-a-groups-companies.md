@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
      </tr>
      <tr> 
       <td role="rowheader">Benutzerspezifischer Forms-Abschnitt</td> 
-      <td> <p>Wenn Sie Ihrem Unternehmen Felder hinzufügen möchten, die in Workfront nicht verfügbar sind, können Sie ein benutzerdefiniertes Formular erstellen und es mit Ihrem Unternehmen verknüpfen. Sie können dieses Formular an Ihr Unternehmen anhängen, indem Sie es aus dem Dropdown-Menü auswählen. Im Dropdown-Menü werden nur aktive Unternehmen aufgeführt. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Entwerfen eines Formulars mit dem Formularentwickler</a>. </p> </td> 
+      <td> <p>Wenn Sie Ihrem Unternehmen Felder hinzufügen möchten, die in Workfront nicht verfügbar sind, können Sie ein benutzerdefiniertes Formular erstellen und es mit Ihrem Unternehmen verknüpfen. Sie können dieses Formular an Ihr Unternehmen anhängen, indem Sie es aus dem Dropdown-Menü auswählen. Im Dropdown-Menü werden nur aktive Unternehmen aufgeführt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Erstellen eines benutzerdefinierten Formulars</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>

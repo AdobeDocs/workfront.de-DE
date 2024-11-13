@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -232,7 +232,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Benutzerdefinierte Formulare</td> 
-      <td><p>Verknüpfen Sie diesem Benutzer ein benutzerdefiniertes Benutzerformular. Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einem Benutzer verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Felder, auf die Sie keinen Zugriff haben, werden nicht in einem benutzerdefinierten Formular angezeigt.</p> <p><strong>Hinweis:</strong> Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind nur verfügbar, wenn Sie den Benutzerdatensatz auf der Detailseite und nicht im Dialogfeld "Benutzer bearbeiten"öffnen. (Klicken Sie in der Liste der Benutzer auf den Benutzernamen, um die Details zu öffnen.)</p> <p>Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Entwerfen eines Formulars mit dem Formularentwickler</a>.</p></td> 
+      <td><p>Verknüpfen Sie diesem Benutzer ein benutzerdefiniertes Benutzerformular. Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einem Benutzer verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Felder, auf die Sie keinen Zugriff haben, werden nicht in einem benutzerdefinierten Formular angezeigt.</p> <p><strong>Hinweis:</strong> Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind nur verfügbar, wenn Sie den Benutzerdatensatz auf der Detailseite und nicht im Dialogfeld "Benutzer bearbeiten"öffnen. (Klicken Sie in der Liste der Benutzer auf den Benutzernamen, um die Details zu öffnen.)</p> <p>Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Erstellen eines benutzerdefinierten Formulars</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kommentar</td> 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2210'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
        <p>Weitere Informationen zu Ressourcen-Pools finden Sie unter <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Überblick über Ressourcen-Pools </a>.</p> </li> 
        <li><b>Kosten pro Stunde</b>: Die Kosten pro Stunde für den Benutzer. </li> 
        <li><b>Abrechnung pro Stunde</b>: Die Höhe der Abrechnung pro Stunde für den Benutzer.</li> 
-       <li><b>Benutzerdefinierter Forms</b>: Verknüpfen Sie ein benutzerdefiniertes Benutzerformular mit den Benutzern. Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einem Benutzer verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Entwerfen eines Formulars mit dem Formularentwickler</a>.</li> 
+       <li><b>Benutzerdefinierter Forms</b>: Verknüpfen Sie ein benutzerdefiniertes Benutzerformular mit den Benutzern. Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einem Benutzer verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Erstellen eines benutzerdefinierten Formulars</a>.</li> 
        <li><b>Kommentar</b>: Geben Sie einen Kommentar in das Feld ein. Alle ausgewählten Benutzer erhalten eine In-App-Benachrichtigung sowie eine E-Mail-Benachrichtigung mit Ihrem Kommentar. Der Kommentar wird im Tab Aktualisierungen des Benutzerprofils angezeigt.</li> 
        </ul> </td> 
      </tr> 

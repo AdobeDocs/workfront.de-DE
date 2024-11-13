@@ -5,9 +5,9 @@ description: Sie können Listen von Objekten in [!DNL Adobe Workfront] anzeigen,
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2386'
 ht-degree: 0%
 
 ---
@@ -622,7 +622,7 @@ Die folgende Tabelle zeigt einige Unterschiede zwischen den alten und aktualisie
   </tr> 
   <tr> 
    <td>Benutzerdefinierte Felder mit Rich-Text-Formatierung können nicht inline bearbeitet werden.</td> 
-   <td> <p>Text in benutzerdefinierten Feldern mit Formatierung kann so konfiguriert werden, dass fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen zulässig sind.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Entwerfen eines Formulars mit dem Formularentwickler</a>.</p> </td> 
+   <td> <p>Text in benutzerdefinierten Feldern mit Formatierung kann so konfiguriert werden, dass fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen zulässig sind.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Benutzerdefiniertes Formular erstellen/a&gt;.</p> </td> 
   </tr> 
   <tr> 
    <td>Durch die bedingte Formatierung kann die Textfarbe von Links in einer Liste geändert werden</td> 

@@ -7,9 +7,9 @@ description: Berichte bieten einen Überblick darüber, was mit Benutzern und de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '3296'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -325,7 +325,7 @@ Die folgenden Begriffe werden als Verweis auf Workfront-Berichte verwendet:
   </tr> 
   <tr> 
    <td>Felder</td> 
-   <td> <p>Bezieht sich auf die Attribute Ihrer Objekte. Beispielsweise ist "Status"ein Feld für Projekte, Aufgaben oder Probleme. "Portfolio Manager"ist ein Feld für das Portfolio-Objekt.</p> <p>Sie können auch benutzerdefinierte Felder verwenden, die Sie selbst erstellen und zu benutzerdefinierten Formularen hinzufügen.<br>Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Formular mit dem Formularentwickler entwerfen</a>.</p> </td> 
+   <td> <p>Bezieht sich auf die Attribute Ihrer Objekte. Beispielsweise ist "Status"ein Feld für Projekte, Aufgaben oder Probleme. "Portfolio Manager"ist ein Feld für das Portfolio-Objekt.</p> <p>Sie können auch benutzerdefinierte Felder verwenden, die Sie selbst erstellen und zu benutzerdefinierten Formularen hinzufügen.<br>Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Erstellen eines benutzerdefinierten Formulars</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Feldname </td> 

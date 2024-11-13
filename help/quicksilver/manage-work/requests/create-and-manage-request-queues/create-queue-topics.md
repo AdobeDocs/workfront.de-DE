@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Benutzerdefinierte Formulare</strong> </td> 
-      <td>Wählen Sie alle benutzerdefinierten Formulare aus, die Sie mit dem Warteschlangenthema verknüpfen möchten. Sie müssen benutzerdefinierte Formulare für Probleme erstellen, bevor Sie sie mit Warteschlangenthemen verknüpfen können. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Entwerfen eines Formulars mit dem Formularentwickler</a>.</td> 
+      <td>Wählen Sie alle benutzerdefinierten Formulare aus, die Sie mit dem Warteschlangenthema verknüpfen möchten. Sie müssen benutzerdefinierte Formulare für Probleme erstellen, bevor Sie sie mit Warteschlangenthemen verknüpfen können. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Erstellen eines benutzerdefinierten Formulars</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standardgenehmigung</strong></td> 
