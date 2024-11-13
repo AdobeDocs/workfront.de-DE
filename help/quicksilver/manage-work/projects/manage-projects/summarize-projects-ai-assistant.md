@@ -5,9 +5,10 @@ title: Zusammenfassen von Projekten mit AI Assistant
 description: Der Projekt-Header enthält eine Schaltfläche, mit der der KI-Assistent zur Zusammenfassung von Projekten verwendet wird.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
+exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 1%
 Der AI-Assistent von Workfront kann Projekte zusammenfassen, sodass Sie Projektinformationen wie Projektzweck und -status schnell verstehen können. Er enthält Beispiele für abgeschlossene und noch ausstehende Aufgaben sowie weitere Details und Hinweise.
 
 Sie können die Schaltfläche Projektzusammenfassung verwenden, um eine Zusammenfassung zu generieren, oder Sie können eine Eingabeaufforderung in den KI-Assistenten eingeben.
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 >[!NOTE]
 >
@@ -69,8 +68,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 
 
-<div class="preview">
-
 ## Mithilfe der Schaltfläche &quot;Projektzusammenfassung&quot;zusammenfassen
 
 1. Navigieren Sie zum Aktualisierungsstream, den Sie zusammenfassen möchten.
@@ -82,8 +79,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Zeigen Sie die KI-Zusammenfassung im Bereich &quot;KI-Assistent&quot;an.
 1. (Optional) Verfeinern Sie die Eingabeaufforderung, um sicherzustellen, dass Sie die benötigten Informationen erhalten.
-
-   </div>
 
 ## Zusammenfassen eines Objekts im AI-Assistenten
 
@@ -99,4 +94,3 @@ So zeigen Sie eine Zusammenfassung eines Objekts an:
    Je nachdem, wie groß oder komplex das Objekt ist, kann es einen Moment dauern, bis der KI-Assistent die Zusammenfassung generiert.
 
 1. Zeigen Sie die KI-Zusammenfassung im Bereich &quot;KI-Assistent&quot;an.
-

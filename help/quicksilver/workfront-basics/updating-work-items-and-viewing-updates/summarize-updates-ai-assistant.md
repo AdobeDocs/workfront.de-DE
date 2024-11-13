@@ -5,9 +5,10 @@ title: Zusammenfassen von Aktualisierungen mit dem KI-Assistenten
 description: Die Updates sind von einem Objekt enthalten eine Schaltfläche, die den AI-Assistenten verwendet, um Aktualisierungen zusammenzufassen.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 0%
 Der AI-Assistent von Workfront kann den Inhalt des Aktualisierungsstreams zusammenfassen, sodass Sie die Kommentare und Diskussionen rund um ein Workfront-Objekt schnell verstehen können.
 
 Sie können die Schaltfläche Inhalt zusammenfassen verwenden, um eine Zusammenfassung zu generieren, oder Sie können eine Eingabeaufforderung in den KI-Assistenten eingeben.
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 >[!NOTE]
 >
@@ -60,8 +59,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
   Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
-<div class="preview">
-
 ## Mithilfe der Schaltfläche &quot;Inhalt zusammenfassen&quot;
 
 1. Navigieren Sie zum Aktualisierungsstream, den Sie zusammenfassen möchten.
@@ -75,8 +72,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. (Optional) Verfeinern Sie die Eingabeaufforderung, um sicherzustellen, dass Sie die benötigten Informationen erhalten.
 
    Beispielsweise können Sie die Aufforderung zum Zusammenfassen von Inhalten verfeinern, um die Kommentare für die letzten 14 Tage anstatt für die letzten 7 Tage zusammenzufassen.
-
-   </div>
 
 ## Zusammenfassen eines Objekts im AI-Assistenten
 
@@ -92,4 +87,3 @@ So zeigen Sie eine Zusammenfassung eines Objekts an:
    Je nachdem, wie groß oder komplex das Objekt ist, kann es einen Moment dauern, bis der KI-Assistent die Zusammenfassung generiert.
 
 1. Zeigen Sie die KI-Zusammenfassung im Bereich &quot;KI-Assistent&quot;an.
-
