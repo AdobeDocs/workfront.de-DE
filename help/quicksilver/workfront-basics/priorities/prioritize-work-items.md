@@ -5,13 +5,13 @@ description: Prioritäten sind ein optimiertes, intuitives Erlebnis, das auf Auf
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
+source-git-commit: 2125639c11513439fdd3ae872b336814f8f77adb
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '184'
 ht-degree: 1%
 
 ---
-
 
 # Wichtige Arbeitselemente priorisieren
 
@@ -26,14 +26,13 @@ Sie können die Spalte Mein Fokus verwenden, um Ihre Arbeit zu priorisieren. Die
 
    | Fokus | Beschreibung |
    |-----------|-------------|
-   | **dringend** | Es ist dringend geboten, Arbeit zu leisten, die sofortige Aufmerksamkeit erfordert. |
-   | **Primär** | Primär ist für die Arbeit, auf die Sie sich diese Woche konzentrieren wollen. |
-   | **Sekundär** | Sekundär ist die Arbeit, die Sie planen, nach Abschluss Ihrer Hauptaufgaben fortzufahren. |
-   | **Normal** | Normal ist für Arbeit, auf die man sich noch nicht konzentrieren muss.  Normal ist die Standardeinstellung für alle Aufgaben und Probleme. |
+   | **dringend** | Für Arbeitselemente, die sofortige Aufmerksamkeit erfordern, ist dringend erforderlich. Dringende Arbeitselemente sollten vor allen anderen prioritär behandelt und so bald wie möglich behandelt werden. |
+   | **Hoch** | Hoch ist für wichtige Arbeitselemente, die Sie nach Abschluss der dringenden Arbeit bearbeiten möchten. |
+   | **Normal** | Normal ist für routinemäßige Arbeitselemente vorgesehen, an denen Sie arbeiten werden, nachdem dringende und hochprioritäre Elemente abgeschlossen sind. Dies ist die Standardeinstellung für Aufgaben und Probleme. |
+   | **Niedrig** | &quot;Niedrig&quot;gilt für Arbeitselemente, die keine sofortige Aufmerksamkeit benötigen und die verschoben werden können, bis alle Arbeitselemente mit höherer Priorität abgeschlossen sind. |
 
    ![](assets/my-focus.png)
 
    >[!TIP]
    >
    >Sie können Ihre Arbeit nach Fokusebenen filtern und gruppieren.
-

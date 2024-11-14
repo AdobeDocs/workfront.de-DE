@@ -5,13 +5,13 @@ description: Informationen zu kommenden Prioritätenfreigaben anzeigen
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e103da5f938fabf01fead5161263c4324e1c703
+exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
+source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Prioritäten: Bevorstehende Versionen
 
@@ -21,8 +21,8 @@ Wir freuen uns, Ihnen zu zeigen, was wir für Prioritäten haben. Verwenden Sie 
   <tr>
     <td><strong> Bevorstehende Änderungen</strong>
     <ul>
-    <li><strong>Zugriff auf Projektdetails über die Arbeitsliste</strong>: Auf der Registerkarte "Projektdetails"werden die Details, Kommentare und Dokumente des Projekts angezeigt.</li>
-   <li><strong>Dokumente auf der Registerkarte "Dokumente"anzeigen</strong>: Auf der Registerkarte "Dokumente"können Sie Dokumente anzeigen, die in Aufgaben und Probleme hochgeladen wurden. Sie können eine Vorschau anzeigen und Kommentare zu einem Dokument hinterlassen. </li>
+
+<li><strong>Dokumente auf der Registerkarte "Dokumente"anzeigen</strong>: Auf der Registerkarte "Dokumente"können Sie Dokumente anzeigen, die in Aufgaben und Probleme hochgeladen wurden. Sie können eine Vorschau anzeigen und Kommentare zu einem Dokument hinterlassen. </li>
     </ul>
     </td>
   </tr>
