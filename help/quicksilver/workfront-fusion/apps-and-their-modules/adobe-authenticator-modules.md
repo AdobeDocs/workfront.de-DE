@@ -9,9 +9,9 @@ description: Mit dem Adobe Authenticator-Modul können Sie über eine einzige Ve
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1209'
 ht-degree: 1%
 
 ---
@@ -178,15 +178,16 @@ So erstellen Sie eine Verbindung:
 
 1. Klicken Sie auf **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
 
-## Modul
+## Module
+
+* [Benutzerdefinierte API-Aufrufe durchführen](#make-a-custom-api-call)
+* [Benutzerdefinierte API-Aufrufe durchführen (veraltet)](#make-a-custom-api-call-legacy)
 
 ### Benutzerdefinierte API-Aufrufe durchführen
 
-Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen.
+Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen. Es unterstützt große Dateien anstelle von Nur-Text-Texten.
 
->[!TIP]
->
->Sie müssen die gesamte URL für die API eingeben, mit der Sie eine Verbindung herstellen möchten. Dieses Modul akzeptiert keine relativen URLs.
+Dieses Modul wurde am 14. November 2024 bereitgestellt. Jeder Adobe Authenticator > Vor diesem Datum konfigurierte benutzerdefinierte API-Aufruf behandelt keine großen Dateien und wird jetzt als Modul Benutzerdefinierten API-Aufruf (Legacy) betrachtet.
 
 <table>
   <col/>
@@ -198,10 +199,83 @@ Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen.
     </tr>
     <tr>
       <td role="rowheader">
+        <p>[!UICONTROL Basis-URL]</p>
+      </td>
+      <td>
+        <p>Geben Sie die Basis-URL des API-Punkts ein, mit dem Sie eine Verbindung herstellen möchten.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
         <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>Geben Sie die gesamte URL des API-Punkts ein, mit dem Sie eine Verbindung herstellen möchten.</p>
+        <p>Geben Sie den Pfad relativ zur Basis-URL ein.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Methode]</p>
+   <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anforderungsmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Header]</td>
+      <td>
+        <p>Fügen Sie die Header der Anfrage in Form eines standardmäßigen JSON-Objekts hinzu.</p>
+        <p>Beispiel: <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion fügt Autorisierungskopfzeilen automatisch hinzu.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Abfragezeichenfolge]  </td>
+      <td>
+        <p>Geben Sie die Abfragezeichenfolge der Anfrage ein.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Textkörper]</td>
+   <td> Wählen Sie den Nachrichtentyp für diese API-Anfrage aus:
+   <ul>
+   <li>application/x-www-form-urlencoded</li>
+   <li>Raw</li>
+   <li>multipart/form-data</li>
+   </ul>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Felder]  </td>
+      <td>
+        <p>Klicken Sie für jede Datei, die Sie der APU-Anforderung hinzufügen möchten, auf "<b>Element hinzufügen</b>"und geben Sie den Text der Datei ein (für Rohdaten) oder geben Sie den Schlüssel "<code>uploadedFile</code>"ein und ordnen Sie die Daten der Datei zu.</p>
+      </td>
+    </tr>
+    </tr>
+  </tbody>
+</table>
+
+### Benutzerdefinierte API-Aufrufe durchführen (veraltet)
+
+Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[!UICONTROL Verbindung]</td>
+     <td>Anweisungen zum Erstellen einer Verbindung mit dem Adobe Authenticator-Modul finden Sie in diesem Artikel unter <a href="#create-a-connection" class="MCXref xref" >Erstellen einer Verbindung</a> .</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Basis-URL]</p>
+      </td>
+      <td>
+        <p>Geben Sie die Basis-URL des API-Punkts ein, mit dem Sie eine Verbindung herstellen möchten.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>Geben Sie den Pfad relativ zur Basis-URL ein.</p>
       </td>
     </tr>
     <tr>
