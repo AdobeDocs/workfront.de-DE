@@ -7,9 +7,9 @@ description: Mit Adobe Workfront können Sie Nachrichten, die nicht mit einem Ar
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Neu: Licht oder höher</p>
-   <p>oder</p>
-   <p>Aktuell: Überprüfen oder höher</p>
-   </td>
+   <p>Um eine Nachricht von der Profilseite des Benutzers zu senden, benötigen Sie:<br>
+   Neu: Licht oder höher<br>
+   oder<br>
+   Aktuell: Überprüfen oder höher</p>
+   <p>Um eine Nachricht aus der Benutzerliste zu senden, benötigen Sie:<br>
+   Neu: Standard<br>
+   oder<br>
+   Aktuell: Arbeit oder höher</p></td>
   </tr> 
  </tbody> 
 </table>
