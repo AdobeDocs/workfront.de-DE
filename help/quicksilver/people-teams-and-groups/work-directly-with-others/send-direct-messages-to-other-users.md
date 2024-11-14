@@ -7,7 +7,7 @@ description: Mit Adobe Workfront können Sie Nachrichten, die nicht mit einem Ar
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
+source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Direktnachrichten an andere Benutzer senden
 
-{{highlighted-preview}}
+{{preview-fast-release-general}}
 
 Mit [!DNL Adobe Workfront] können Sie Nachrichten, die nicht mit einem Arbeitselement in Verbindung stehen, schnell und einfach direkt an andere [!DNL Workfront] -Benutzer senden. Wie in diesem Abschnitt beschrieben gesendete Nachrichten werden auf der Registerkarte [!UICONTROL Aktualisierungen] auf der Profilseite des Benutzers angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Aktualisieren von Arbeitselementen und Anzeigen von Updates: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
