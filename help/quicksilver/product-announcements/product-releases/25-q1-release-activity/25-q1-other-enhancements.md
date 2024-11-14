@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2025 verfügbar sind, finden Sie unter [Versionsübersicht für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Abschnitte in einem benutzerdefinierten Formular sind jetzt ausblendbar und erweiterbar
+
+>[!NOTE]
+>
+>Vorschau-Version: 11. November 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.12 (Dezember 2024); Produktion für vierteljährliche Veröffentlichung: Mit Version 25.1 (Januar 2025)
+
+Wenn ein benutzerdefiniertes Formular mit mehreren Abschnitten an ein Objekt angehängt wird, können Sie jetzt alle Abschnitte mit Ausnahme des Standardabschnitts oben im Formular ausblenden und erweitern. Der Administrator kann diese Funktion auch bei der Vorschau des Formulars im Formularentwickler sehen.
+
+Informationen zum Hinzufügen eines Abschnitts zu einem benutzerdefinierten Formular finden Sie unter [Formular organisieren und in der Vorschau anzeigen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Der KI-Assistent kann jetzt mit Projekten, Aufgaben und Problemen arbeiten
 

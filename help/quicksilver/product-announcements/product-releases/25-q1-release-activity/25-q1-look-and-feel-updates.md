@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ ht-degree: 0%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens der Version vom ersten Quartal 2025 vorgenommen wurden.
 
 Eine Liste aller Änderungen, die mit der Version vom ersten Quartal 2025 verfügbar sind, finden Sie unter [Versionsübersicht für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Look-and-Feel-Aktualisierungen für Dokumentintegrationen
+
+>[!NOTE]
+>
+>Vorschau-Version: 14. November 2024; Produktionsversion für alle Kunden: 14. November 2024
+
+Wir haben Leistungs-Upgrades für den Bereich im Setup durchgeführt, in dem Sie benutzerdefinierte Integrationen konfigurieren: Einrichtung > Dokumente > Benutzerdefinierte Integration. Dieses Upgrade umfasst geringfügige visuelle Änderungen am Bereich. Die Funktionalität wurde nicht geändert.
+
+## Look-and-Feel-Aktualisierungen für die Seiten &quot;Firmenmitglieder&quot;und &quot;Abrechnungsentgelte&quot;
+
+>[!NOTE]
+>
+>Vorschau-Version: 4. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Wir haben die Seiten &quot;Firmenmitglieder&quot;und &quot;Unternehmenskurse&quot;mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Der Zugriff auf Unternehmensmitgliedschaften erfolgt über Einrichtung > Unternehmen > Firmennamen auswählen > Unternehmensmitglieder auswählen im linken Bereich. Auf die Abrechnungsraten von Unternehmen kann über Einrichtung > Unternehmen > Unternehmensnamen > Auswahl der Option Abrechnungsraten im linken Bereich zugegriffen werden.
+
+Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) und [Verwalten von Unternehmensmitgliedschaften](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Look-and-Feel-Aktualisierungen für die wichtigsten und sekundären Navigationsbereiche
 
