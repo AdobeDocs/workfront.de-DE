@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: Erste Schritte mit Listen in [!DNL Adobe Workfront]
 description: Sie können Listen von Objekten in [!DNL Adobe Workfront] anzeigen, um Informationen zu ihnen zu erhalten, wie z. B. ihr Start- und Fälligkeitsdatum, die ihnen zugewiesenen Benutzer und andere ihnen zugeordnete Objekte.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2284'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit Listen in [!DNL Adobe Workfront]
+
+<!--Audited: 11/2024-->
 
 Sie können Listen von Objekten in [!DNL Adobe Workfront] anzeigen, um Informationen zu ihnen zu erhalten, wie z. B. ihr Start- und Fälligkeitsdatum, die ihnen zugewiesenen Benutzer und andere ihnen zugeordnete Objekte.
 
@@ -29,6 +31,8 @@ Im Folgenden finden Sie einige Merkmale von Listen in [!DNL Workfront]:
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -36,25 +40,64 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende oder höher </p></li>
+   </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Anforderung oder höher</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Ansicht] oder höher Zugriff auf Filter, Ansichten, Gruppierungen</p> <P>Für Elemente im Bereich [!UICONTROL Setup] benötigen Sie Administratorzugriff für das Element oder die Zugriffsstufe [!UICONTROL Systemadministrator].</P> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebene erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL Ansicht] oder höhere Berechtigungen mit Zugriff auf die Freigabe</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td>
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Anzeigen oder Hinzufügen höherer Berechtigungen für Filter, Ansichten oder Gruppen mit Zugriff auf die Freigabe </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old access: 
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL View] or higher access to filters, views, groupings</p> <P>For items in the [!UICONTROL Setup] area, you need administrative access for the item or the [!UICONTROL System Administrator] access level.</P> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL View] or higher permissions with access to share</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
+  </tr> 
+ </tbody> 
+</table>
+
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+-->
 
 ## Objektlisten
 
@@ -315,19 +358,23 @@ Sie können die folgenden Aktionen in einer Liste ausführen:
  <tbody> 
   <tr> 
    <td><strong>Inline-Bearbeitung</strong> </td> 
-   <td> <p>Bearbeiten Sie Objekte und deren Informationen direkt in der Liste.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Inline-Elemente in einer Liste in [!DNL Adobe Workfront]</a> bearbeiten.</p> </td> 
+   <td> <p>Bearbeiten Sie Objekte und deren Informationen direkt in der Liste.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Inline-Elemente in einer Liste in [!DNL Adobe Workfront]</a> bearbeiten.</p> 
+   <p><b>NOTE:</b></p>
+   <p>Eine Inline-Bearbeitung ist in einer Gruppierung nicht möglich.</p>
+
+</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>Aktualisieren mit der [!UICONTROL Zusammenfassung]</strong> </td> 
-   <td> <p>Aktualisieren Sie Aufgaben und Probleme auf Projektebene mithilfe des Bereichs [!UICONTROL Zusammenfassung] .</p> <p>Tipp: Die Zusammenfassung ist nicht für alle Objekte verfügbar und nicht in Aufgaben- oder Problemberichten verfügbar.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Übersicht der Zusammenfassung</a>.</p> </td> 
+   <td> <p>Aktualisieren Sie Aufgaben und Probleme auf Projektebene mithilfe des Bereichs [!UICONTROL Zusammenfassung] .</p> <p><b>TIPP:</b></p> <p>Die Zusammenfassung ist nicht für alle Objekte verfügbar und steht nicht in Aufgaben- oder Problemberichten zur Verfügung.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Übersicht der Zusammenfassung</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Listenanzeige anpassen</strong> </td> 
-   <td> <p>Passen Sie das Erscheinungsbild einer Liste, Spaltenanordnung, Sortierreihenfolge von Elementen oder Anzahl der angezeigten Elemente an.</p> <p>Hinweis: Änderungen, die Sie an der Anzahl der Elemente vornehmen, die auf einer Seite angezeigt werden sollen, werden rückgängig gemacht, wenn Sie sich von [!DNL Workfront] abmelden oder Ihren Browser schließen. Änderungen können auch nach einem Zeitraum von 8 Stunden rückgängig gemacht werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Anzeige einer Liste ändern</a>.</p> </td> 
+   <td> <p>Passen Sie das Erscheinungsbild einer Liste, Spaltenanordnung, Sortierreihenfolge von Elementen oder Anzahl der angezeigten Elemente an.</p> <p><b>NOTE:</b></p> <p>Änderungen, die Sie an der Anzahl der Elemente vornehmen, die auf einer Seite angezeigt werden sollen, werden rückgängig gemacht, wenn Sie sich bei [!DNL Workfront] abmelden oder Ihren Browser schließen. Änderungen können auch nach einem Zeitraum von 8 Stunden rückgängig gemacht werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Anzeige einer Liste ändern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Schnellfilter</strong> </td> 
-   <td> <p>Wenden Sie einen Schnellfilter an, um nur Elemente zu finden, die für Sie wichtig sind, damit Sie sie schnell überprüfen, aktualisieren oder für andere freigeben können.</p> <p>Wichtig: Mithilfe des Schnellfilters können Sie Elemente finden, die ein Suchwort enthalten, unabhängig davon, ob dieses Element auf dem Bildschirm sichtbar ist oder angezeigt wird, nachdem Sie zum unteren Seitenrand gescrollt haben. Wenn Sie die Suchfunktionen Ihres Browsers verwenden, können Sie nur Elemente finden, die bereits auf dem Bildschirm sichtbar sind. Wenn Ihre Liste mehrere Seiten enthält, finden Schnellfilter nur die Elemente auf der aktuellen Seite.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Anwenden des Schnellfilters auf eine Liste</a>.</p> </td> 
+   <td> <p>Wenden Sie einen Schnellfilter an, um nur Elemente zu finden, die für Sie wichtig sind, damit Sie sie schnell überprüfen, aktualisieren oder für andere freigeben können.</p> <p><b>WICHTIG:</b></p> <p> Mithilfe des Schnellfilters können Sie Elemente finden, die ein Suchwort enthalten, unabhängig davon, ob dieses Element auf dem Bildschirm sichtbar ist oder angezeigt wird, nachdem Sie zum unteren Seitenrand gescrollt haben. Wenn Sie die Suchfunktionen Ihres Browsers verwenden, können Sie nur Elemente finden, die bereits auf dem Bildschirm sichtbar sind. Wenn Ihre Liste mehrere Seiten enthält, finden Schnellfilter nur die Elemente auf der aktuellen Seite.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Anwenden des Schnellfilters auf eine Liste</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Export</strong> </td> 
@@ -443,7 +490,7 @@ In der folgenden Tabelle sind viele der in der Symbolleiste verfügbaren Symbole
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Zusammenfassung]</td> 
-   <td> <p>Anzeigen oder Ausblenden des Felds [!UICONTROL Zusammenfassung] für das ausgewählte Element</p> <p>Dies ist nur für Aufgaben und Probleme verfügbar.</p> <p>Weitere Informationen zum Bedienfeld [!UICONTROL Zusammenfassung] im neuen [!DNL Adobe Workfront]-Erlebnis finden Sie unter <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Übersicht der Zusammenfassung</a>.</p> </td> 
+   <td> <p>Anzeigen oder Ausblenden des Felds [!UICONTROL Zusammenfassung] für das ausgewählte Element</p> <p>Dies ist nur für Aufgaben und Probleme verfügbar.</p> <p>Weitere Informationen zum Bedienfeld [!UICONTROL Zusammenfassung] finden Sie unter <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Zusammenfassung - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -583,13 +630,6 @@ Es gibt zwei Arten von Listen in [!DNL Workfront]:
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-Beide Listentypen werden im [!DNL Adobe Workfront] angezeigt.
-
-Alle Listen und Berichte in den [!DNL Adobe Workfront] werden aktualisiert, mit Ausnahme der folgenden:
-
-* Listen im Bereich [!UICONTROL Setup]
-* Listen im Bereich [!UICONTROL Berichte]
-
 Die folgende Tabelle zeigt einige Unterschiede zwischen den alten und aktualisierten Listen in [!DNL Workfront]:
 
 <!--
@@ -604,16 +644,7 @@ Die folgende Tabelle zeigt einige Unterschiede zwischen den alten und aktualisie
    <td><b>Alte Listen</b></td> 
    <td><b>Aktualisierte Listen</b></td> 
   </tr> 
-  <tr> 
-   <td> <p>Alte Schriftarten, Spaltenüberschriften, blaues Gruppierungsfarbschema</p> </td> 
-   <td> <p>Aktualisierte Schriftarten, Spaltenüberschriften, Farbschema für graue Gruppierung</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Langsame Inline-Bearbeitung</p> </td> 
-   <td> <p>Schnellere Inline-Bearbeitung</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Standardmäßig <strong>100</strong> Elemente anzeigen</p> </td> 
+  <td> <p>Standardmäßig <strong>100</strong> Elemente anzeigen</p> </td> 
    <td> <p>Standardmäßig <strong>Alle</strong> oder bis <strong>2000</strong> Elemente anzeigen</p> </td> 
   </tr> 
   <tr> 
@@ -622,7 +653,7 @@ Die folgende Tabelle zeigt einige Unterschiede zwischen den alten und aktualisie
   </tr> 
   <tr> 
    <td>Benutzerdefinierte Felder mit Rich-Text-Formatierung können nicht inline bearbeitet werden.</td> 
-   <td> <p>Text in benutzerdefinierten Feldern mit Formatierung kann so konfiguriert werden, dass fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen zulässig sind.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Benutzerdefiniertes Formular erstellen/a&gt;.</p> </td> 
+   <td> <p>Text in benutzerdefinierten Feldern mit Formatierung kann so konfiguriert werden, dass fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen zulässig sind.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Benutzerdefiniertes Formular erstellen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Durch die bedingte Formatierung kann die Textfarbe von Links in einer Liste geändert werden</td> 

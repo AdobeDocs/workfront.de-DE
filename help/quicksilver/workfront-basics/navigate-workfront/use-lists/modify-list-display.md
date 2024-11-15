@@ -1,18 +1,20 @@
 ---
 navigation-topic: use-lists
-title: Anzeige einer Liste ändern
+title: Anzeige von Listen ändern
 description: In [!DNL Adobe Workfront] können Sie anpassen, wie eine Liste für Sie angezeigt wird. Andere Benutzer, die die Liste anzeigen, sehen Ihre Änderungen nicht.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Anzeige einer Liste ändern
+
+<!--Audited: 11/2024-->
 
 In [!DNL Adobe Workfront] können Sie anpassen, wie eine Liste für Sie angezeigt wird. Andere Benutzer, die die Liste anzeigen, sehen Ihre Änderungen nicht.
 
@@ -32,6 +34,8 @@ Informationen zum Ändern der in Ihrer Liste angezeigten Informationen finden Si
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -39,27 +43,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende oder höher </p></li>
+   </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Anforderung oder höher</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf den Bereich, in dem sich die Liste befindet</p> <p>Um beispielsweise die Ansicht eines Projekts zu ändern, benötigen Sie Zugriff auf die [!UICONTROL Ansicht] auf Projekte.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebene erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf den Bereich, in dem sich die Liste befindet</p> <p>Um beispielsweise die Ansicht eines Projekts zu ändern, benötigen Sie Zugriff auf die [!UICONTROL Ansicht] auf Projekte.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL Ansicht] oder höhere Berechtigungen für die Ansicht, die auf die Liste angewendet wird</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>[!UICONTROL Ansicht] oder höhere Berechtigungen für die Ansicht, die auf die Liste angewendet wird</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Anzeige einer Liste ändern
++++
+
+## Liste ändern
 
 1. Rufen Sie die Liste in [!DNL Workfront] auf, die Sie ändern möchten.
 
@@ -101,7 +114,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Um die Spalten in einer Liste neu anzuordnen, halten Sie den Mauszeiger über eine Spaltenüberschrift, um das Handwerkzeug anzuzeigen, und klicken Sie dann auf , um die Spalte an die gewünschte Position zu ziehen.
 
-   Die Position der Spalte wird gespeichert, bis Sie die Seite aktualisieren.\
+   Die Position der Spalte wird gespeichert, bis Sie die Seite aktualisieren.
+
    Weitere Informationen zum Anpassen der Breite und Reihenfolge der Spalten in einer Liste finden Sie im Artikel [Spaltenbreite und -reihenfolge ändern](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 1. Um die Sortierreihenfolge einer Liste anzupassen, klicken Sie auf eine Spaltenüberschrift, um sie auszuwählen. Halten Sie dann die CMD-Taste (bei [!DNL Mac]) oder die STRG-Taste (bei [!DNL Windows]) auf der Tastatur gedrückt und wählen Sie bis zu 2 zusätzliche Spaltenüberschriften aus, um nach ihnen zu sortieren.

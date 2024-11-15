@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: externe URL mit benutzerdefiniertem Datenfeld"
+title: "Ansicht: Externe URL mit benutzerdefiniertem Datenfeld"
 description: Sie können einen Link zu einer internen benutzerdefinierten URL anzeigen, indem Sie in einer Aufgabenansicht ein berechnetes benutzerdefiniertes Feld namens "Benutzerdefinierte URL"verwenden.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
 # Ansicht: externe URL mit benutzerdefiniertem Datenfeld
+
+<!--Audited: 11/2024-->
 
 Sie können einen Link zu einer internen benutzerdefinierten URL anzeigen, indem Sie ein **berechnetes benutzerdefiniertes Feld** mit dem Namen &quot;Benutzerdefinierte URL&quot;in einer **Aufgabenansicht** verwenden.
 
@@ -28,6 +30,8 @@ Mit denselben Schritten können Sie ähnliche berechnete benutzerdefinierte Feld
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -35,28 +39,39 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung zum Ändern einer Ansicht </p>
-   <p>Berichtänderung planen</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p> Aktuell: 
+   <ul>
+   <li>Anforderung zum Ändern einer Ansicht</li> 
+   <li>Berichtänderung planen</li>
+   </ul>
+     </p>
+     <p> Neu: 
+   <ul>
+   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Standard zum Ändern eines Berichts</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
-</tr>  
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erstellen Sie das berechnete benutzerdefinierte Feld &quot;Benutzerdefinierte URL&quot;
 
@@ -69,15 +84,7 @@ Wenn Sie Zugriff haben, um ein benutzerdefiniertes Formular zu erstellen, könne
 
    CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com&quot;,&quot;/&quot;,&quot;task/&quot;,ID,&quot;/overview&#39;&#39;)
 
-1. Ersetzen Sie &quot;`<domain>`&quot; durch Ihren tatsächlichen Domänennamen ohne die Klammern.
-
-   Der/Die/Das
-
-   ```
-   /overview
-   ```
-
-   -Teil dieser URL leitet den Link zum Abschnitt **Übersicht** im linken Bereich der Aufgabe weiter.
+1. Ersetzen Sie &quot;`<domain>`&quot; durch Ihren tatsächlichen Domänennamen ohne die Klammern. Der Abschnitt `/overview` dieser URL leitet den Link zum Abschnitt **Übersicht** im linken Bereich der Aufgabe weiter.
 
 1. Fügen Sie nach der Erstellung Ihres **berechneten benutzerdefinierten Felds** das Feld **Benutzerdefiniertes Formular** mit diesem Feld an mehrere Aufgaben in Adobe Workfront an, die in Ihrer neuen Ansicht angezeigt werden sollen.
 
@@ -94,10 +101,51 @@ So passen Sie diese Ansicht an:
 1. Klicken Sie auf **Ansicht anpassen**.
 1. Entfernen Sie alle Spalten in der Ansicht, mit Ausnahme der ersten Spalte.
 1. Klicken Sie auf die Kopfzeile der ersten Spalte.
-1. Klicken Sie oben rechts auf der Benutzeroberfläche auf **In den Textmodus wechseln** .
-1. Klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Fügen Sie den Textmodus unten in Ihre Spalte ein.\
-   In diesem Beispiel ist &quot;column.1&quot;. zeigt den Wert im Feld &quot;Benutzerdefinierte URL&quot;als Link in die **Übersicht** der Aufgabe an. &quot;Column.2.&quot; zeigt den Wert an, der im **URL-Feld** der Aufgabe gespeichert ist.
-   <pre>column.0.descriptionkey=name<br>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valueField=ID<br>column.0.link.linkproperty.0.valueFormat= int<br>column.0.link.lookup=link.view<br>column.0.link.valueField= objCode<br> column.0.link.valueFormat= val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.extending=10<br>column.0.valueField=name<br>column.0.valueFormat=HTML<br>column.0.width=150<br>column.1.description=Custom URL<br>column.1.link.isnewwindow=true<br>column.1.link.url=customDataLabelsAsString(Custom URL){1 8}column.1.linkedname=direct<br>column.1.listsort=customDataLabelsAsString(Custom URL)<br>column.1.name=Custom URL<br>column.1.querysort=URL<br>column.1.shortview=false<br>column.1.gestreckch=0<br>column.1 efield=Custom URL<br>column.1.valueFormat=customDataLabelsAsString<br>column.1.width=150<br>column.2.descriptionkey=url<br>column.2.linkedname=direct<br>column.2.listsort=string(URL)<br>column.2 ekey=url.abbr<br>column.2.querysort=URL<br>column.2.shortview=false<br>column.2.gestreckch=0<br>column.2.valueField=URL<br>column.2.valueFormat=HTML<br>column.2.width=150<br></pre>
+1. Klicken Sie auf **Wechseln zum Textmodus** > **Textmodus bearbeiten**.
+1. Entfernen Sie den Text im Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
-1. Klicken Sie auf **Ansicht speichern**.
+
+   ```
+   column.0.descriptionkey=name
+   column.0.link.linkproperty.0.name=ID
+   column.0.link.linkproperty.0.valuefield=ID
+   column.0.link.linkproperty.0.valueformat= int
+   column.0.link.lookup=link.view
+   column.0.link.valuefield= objCode
+   column.0.link.valueformat= val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=150
+   column.1.description=Custom URL
+   column.1.link.isnewwindow=true
+   column.1.link.url=customDataLabelsAsString(Custom URL)
+   column.1.linkedname=direct
+   column.1.listsort=customDataLabelsAsString(Custom URL)
+   column.1.name=Custom URL
+   column.1.querysort=URL
+   column.1.shortview=false
+   column.1.stretch=0
+   column.1.valuefield=Custom URL
+   column.1.valueformat=customDataLabelsAsString
+   column.1.width=150
+   column.2.descriptionkey=url
+   column.2.linkedname=direct
+   column.2.listsort=string(URL)
+   column.2.namekey=url.abbr
+   column.2.querysort=URL
+   column.2.shortview=false
+   column.2.stretch=0
+   column.2.valuefield=URL
+   column.2.valueformat=HTML
+   column.2.width=150
+   ```
+
+   In diesem Beispiel ist &quot;column.1&quot;. -Zeilen zeigen den Wert im Feld &quot;Benutzerdefinierte URL&quot;als Link in den Abschnitt **Überblick** der Aufgabe; &quot;Spalte.2&quot;an. zeigt den Wert an, der im **URL-Feld** der Aufgabe gespeichert ist.
+
+1. Klicken Sie auf **Fertig** > **Ansicht speichern**.

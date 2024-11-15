@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Bericht anhand eines benutzerdefinierten Mehrfachauswahlfelds grafisch darstellen
+title: Bericht durch Mehrfachauswahl eines benutzerdefinierten Felds im Diagramm darstellen
 description: Sie können einen Bericht nur dann anhand eines benutzerdefinierten Mehrfachfelds grafisch darstellen, wenn Sie ein zusätzliches berechnetes Feld erstellt haben, das die im benutzerdefinierten Mehrfachfeld ausgewählten Optionen erfasst.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
 
 # Bericht anhand eines benutzerdefinierten Mehrfachauswahlfelds grafisch darstellen
+
+<!--Audited: 11/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -39,6 +41,8 @@ Wenn es jedoch nicht möglich ist, für jede Option eines Mehrfachauswahlfelds s
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -46,25 +50,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Filteranforderung </p></li>
+   <li><p>Berichtänderung planen</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -114,12 +127,12 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Optional) Wenn sich das benutzerdefinierte Feld mit mehreren Auswahlen bereits in diesem Formular befindet und dieses Formular bereits an Objekte angehängt ist, aktivieren Sie die Option **Vorherige Berechnungen aktualisieren (im Hintergrund)** .
+1. (Optional) Wenn sich das benutzerdefinierte Feld mit mehreren Auswahlen bereits in diesem Formular befindet und dieses Formular bereits an Objekte angehängt ist, aktivieren Sie die Option **Auf vorhandene Berechnungen anwenden** .
 
    Dadurch wird sichergestellt, dass das neue berechnete Feld automatisch mit dem Wert aus dem benutzerdefinierten Mehrfachfeld ausgefüllt wird, da es zu den Formularen hinzugefügt wird, die bereits an die Objekte angehängt sind.
 
-1. Klicken Sie auf **Fertig**.
-1. Klicken Sie auf **Speichern + schließen**.
+1. Klicken Sie auf **Anwenden**.
+1. Klicken Sie auf **Speichern und schließen**.
 
    Das berechnete benutzerdefinierte Feld wird dem benutzerdefinierten Formular hinzugefügt. Wenn das Formular derzeit an Objekte angehängt ist, wird das Feld mit Informationen aus dem benutzerdefinierten Mehrfachfeld gefüllt.
 
@@ -142,9 +155,9 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
    Wählen Sie beispielsweise ein **Spalten** -Diagramm.
    <br>Informationen zum Hinzufügen eines Diagramms zu einem Bericht finden Sie im Abschnitt <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Hinzufügen eines Diagramms zu einem Bericht</a> im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Erstellen eines benutzerdefinierten Berichts</a>.
-1. Wählen Sie im Feld **Untere (X) Achse** das Feld <strong>Berechnetes Mehrfachauswahlfeld </strong> aus, das im Diagramm angezeigt werden soll.
+1. Wählen Sie im Feld **Untere (X) Achse** das Feld <strong>Berechnetes Mehrfachauswahlfeld</strong> aus, das im Diagramm angezeigt werden soll.
 1. Klicken Sie auf <strong>Speichern + schließen</strong>.
 
-   Der Bericht zeigt die Ergebnisse, die nach dem Feld für die Mehrfachauswahl mit berechneten Werten in einer Grafik gruppiert sind.
+   Der Bericht zeigt die Ergebnisse, gruppiert nach dem Feld mit berechneter Mehrfachauswahl in einer Grafik.
 
    ![](assets/chart-multi-select-field-column-chart-example.png)

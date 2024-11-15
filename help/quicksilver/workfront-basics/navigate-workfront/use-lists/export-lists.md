@@ -3,22 +3,26 @@ navigation-topic: use-lists
 title: Liste exportieren
 description: Sie können eine Liste von Objekten aus Adobe Workfront exportieren. Wenn die Objektliste in Workfront mehr als 2000 Elemente enthält, ist der Listenexport die einzige Möglichkeit, alle Elemente in der Liste auf einer Seite zu überprüfen.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
 # Liste exportieren
 
+<!--Audited: 11/2024-->
+
 Sie können eine Liste von Objekten aus [!DNL Adobe Workfront] exportieren. Wenn die Liste der Objekte in [!DNL Workfront] mehr als 2000 Elemente enthält, ist der Export der Liste die einzige Möglichkeit, alle Elemente in der Liste auf einer Seite zu überprüfen.
 
 Informationen zu Exportformaten und -beschränkungen finden Sie unter [Daten exportieren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -27,31 +31,40 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende oder höher </p></li>
+   </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Anforderung oder höher</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf den Bereich, in dem sich die Liste befindet</p> <p>Um beispielsweise die Aufgabenliste eines Projekts zu exportieren, benötigen Sie Zugriff auf Projekte in der [!UICONTROL Ansicht].</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebene erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf den Bereich anzeigen, in dem sich die Liste befindet</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL Ansicht]</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>[!UICONTROL Ansicht] Berechtigungen für das Objekt, in dem sich die Liste befindet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Liste exportieren
 
 1. Navigieren Sie zu einer Liste von Objekten.
-1. (Optional) Wählen Sie vor dem Export alle Filter, Ansichten und Gruppierungen aus, die auf die Liste angewendet werden sollen.\
-   Informationen zu Filtern, Ansichten und Gruppierungen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+1. (Optional) Wählen Sie vor dem Export alle Filter, Ansichten und Gruppierungen aus, die auf die Liste angewendet werden sollen.
+Informationen zu Filtern, Ansichten und Gruppierungen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 1. (Optional) Um nur bestimmte Elemente in einer Liste zu exportieren, wählen Sie alle Elemente in der Liste aus, die Sie in der exportierten Datei verwenden möchten.
 
@@ -69,7 +82,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. Klicken Sie auf **[!UICONTROL Export]** ![Export](assets/export.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Exportieren]** ![Exportieren](assets/export.png).
 
 1. Wählen Sie aus den folgenden Formaten aus:
 
@@ -80,5 +93,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      Dadurch wird eine Kopie der Liste in eines dieser Formate exportiert und auf Ihrem Computer gespeichert.
 
-1. (Optional) Öffnen Sie die exportierte Liste mit der entsprechenden Anwendung.\
-   Alle Elemente in der Liste werden in der exportierten Datei angezeigt, unabhängig davon, ob sie auf dem Bildschirm der Webanwendung angezeigt werden.
+1. (Optional) Öffnen Sie die exportierte Liste mit der entsprechenden Anwendung.
+Alle Elemente in der Liste werden in der exportierten Datei angezeigt, unabhängig davon, ob sie auf dem Bildschirm der Webanwendung angezeigt werden.

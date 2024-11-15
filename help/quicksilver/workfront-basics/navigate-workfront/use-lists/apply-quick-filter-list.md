@@ -3,20 +3,18 @@ navigation-topic: use-lists
 title: Schnellfilter auf Listen anwenden
 description: Sie können den Schnellfilter in einer Liste von Objekten verwenden, um nur für Sie wichtige Elemente zu finden, damit Sie sie schnell überprüfen, aktualisieren oder für andere freigeben können.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Schnellfilter auf Listen anwenden
 
-<!--
-{{highlighted-preview}}
--->
+<!--Audited:11/2024-->
 
 Sie können den Schnellfilter in einer Liste von Objekten verwenden, um nur für Sie wichtige Elemente zu finden, damit Sie sie schnell überprüfen, aktualisieren oder für andere freigeben können.
 
@@ -35,6 +33,7 @@ Sie können temporäre Schnellfilter in allen Listen verwenden, mit Ausnahme der
 * Der Bereich [!UICONTROL Berichte]
 * Dokumentlisten und Berichte
 * Mehrere [!UICONTROL Setup] -Bereiche
+
   >[!NOTE]
   >
   >Schnellfilter sind in den folgenden Einrichtungsbereichen verfügbar: [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Unternehmen], [!UICONTROL Zeitpläne], [!UICONTROL Layoutvorlagen] und [!UICONTROL Benutzerdefinierter Forms].
@@ -52,6 +51,8 @@ Beachten Sie beim Anwenden von Schnellfiltern auf eine Liste Folgendes:
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -59,25 +60,35 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] plan*</b></td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] license*</b></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> 
+    <p>Neu:</p>
+   <ul><li><p>Mitwirkende oder höher </p></li>
+   </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Anforderung oder höher</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Konfigurationen auf Zugriffsebene*</b></td> 
-   <td> <p>Zugriff auf den Bereich anzeigen, in dem sich die Liste befindet</p> <p>Um beispielsweise einen Schnellfilter auf ein Projekt anzuwenden, benötigen Sie Zugriff auf die [!UICONTROL Ansicht] auf Projekte.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebene erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Zugriff auf den Bereich anzeigen, in dem sich die Liste befindet</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Objektberechtigungen</b></td> 
-   <td> <p>[!UICONTROL Ansicht]</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>[!UICONTROL Ansicht] Berechtigungen für das Objekt, in dem sich die Liste befindet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Kurzfilter auf Listen anwenden
 
@@ -109,7 +120,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    1. Wählen Sie alle oder mehrere Elemente in der Liste aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]** , um die Elemente stapelweise zu bearbeiten.
    1. Klicken Sie nach Abschluss der Änderungen auf **[!UICONTROL Änderungen speichern]**.
 
-1. (Optional) Um die durch den Schnellfilter gefundenen Elemente zu exportieren, wählen Sie alle oder mehrere Elemente in der Liste aus und klicken Sie dann auf **[!UICONTROL Exportieren]**.
+1. (Optional) Um die durch den Schnellfilter gefundenen Elemente zu exportieren, wählen Sie alle oder mehrere Elemente in der Liste aus und klicken Sie dann auf das Symbol **[!UICONTROL Exportieren]** ![](assets/export.png).
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -118,6 +129,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >Nur die Elemente, die Sie in der Schnellfiltersuche gefunden haben, werden in die ausgewählte Datei exportiert. Wenn Sie vor dem Export der Liste keine Elemente auswählen, wird die vollständige, ungefilterte Liste exportiert.\
    >Weitere Informationen finden Sie unter [Liste exportieren](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
-1. (Optional) Um die gefilterten Ergebnisse zu löschen, klicken Sie oben rechts im Fenster auf das Symbol **[!UICONTROL Schnellfilter]** .\
-   Oder\
-   Aktualisieren Sie die Seite.
+1. (Optional) Um die gefilterten Ergebnisse zu löschen, klicken Sie oben rechts im Fenster auf das Symbol **[!UICONTROL Schnellfilter]** .
+Oder
+Aktualisieren Sie die Seite.

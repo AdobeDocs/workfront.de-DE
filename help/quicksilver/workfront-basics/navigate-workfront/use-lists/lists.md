@@ -1,21 +1,25 @@
 ---
 navigation-topic: navigate-workfront
 title: Listen in [!DNL Adobe Workfront]
-description: Lesen Sie diese Artikel, um zu erfahren, wie Sie Listen in Adobe Workfront verwenden.
+description: Sie können Objekte in Adobe Workfront in Listen anzeigen. Sie können Filter, Ansichten oder Gruppierungen auf eine Liste anwenden, um die angezeigten Informationen zu ändern. Dieser Abschnitt enthält die folgenden Artikel zu Listen
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 recommendations: noDisplay, noCatalog
 exl-id: 71819834-2e2d-4bdd-8c82-a01d2849355e
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
 
 # Listen in [!DNL Adobe Workfront]
 
-Dieser Abschnitt enthält die folgenden Artikel:
+<!--Audited: 11/2024-->
+
+Sie können Objekte in Adobe Workfront in Listen anzeigen. Sie können Filter, Ansichten oder Gruppierungen auf eine Liste anwenden, um die angezeigten Informationen zu ändern.
+
+Dieser Abschnitt enthält die folgenden Artikel zu Listen:
 
 * [Erste Schritte mit Listen in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [Schnellfilter auf Listen anwenden](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
