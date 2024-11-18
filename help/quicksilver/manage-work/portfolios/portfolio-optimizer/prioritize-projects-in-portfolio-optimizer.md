@@ -6,9 +6,9 @@ description: Sie können Ihre Portfolio Optimizer-Projekte priorisieren, um die 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Portfolio</p> <p>Contribute oder höhere Berechtigungen für Projekte</p>  </td> 
+   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Portfolio</p> <p>Contribute oder höhere Berechtigungen für Projekte</p> 
+   <p>Sie müssen über Verwaltungsberechtigungen für alle Projekte in der Liste verfügen, um <b>Projektpriorität festlegen</b> verwenden zu können.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

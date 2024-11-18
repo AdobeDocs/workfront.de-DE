@@ -7,9 +7,9 @@ description: Der [!UICONTROL Portfolio Optimizer] ist das Tool für die Projektb
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,9 @@ Die folgenden Symbole und Optionen sind für den [!UICONTROL Portfolio Optimizer
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
    <td>[!UICONTROL Projektpriorität festlegen]</td> 
-   <td>Verwenden Sie dieses Symbol, wenn Sie die Projektreihenfolge basierend auf ihrer Priorität speichern möchten. </td> 
+   <td><p>Verwenden Sie dieses Symbol, wenn Sie die Projektreihenfolge basierend auf ihrer Priorität speichern möchten.</p>
+   <p>Sie müssen über Verwaltungsberechtigungen für alle Projekte in der Liste verfügen, um <b>Projektpriorität festlegen</b> verwenden zu können.</p>.
+    </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 
