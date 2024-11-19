@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
+source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ Ja. Sie können beispielsweise von Sandbox zur Produktion oder von Produktion zu
 
 Nein, die Freigabe wird derzeit nicht unterstützt.
 
-## Wann wird eine Rollback-Funktion verfügbar?
+## Ist das Paket-Rollback verfügbar?
 
 ### Antwort
 
-Das Rollback hat oberste Priorität und befindet sich derzeit in der Entwicklung. Wir gehen davon aus, dass die Rollback-Funktion im 3. Quartal oder im 4. Quartal 2024 veröffentlicht wird.
+Das Paket-Rollback ist für das neueste Paket innerhalb von 24 Stunden nach der Paketinstallation verfügbar.
 
 ## Gibt es eine Option, die Promotion einzelner Komponenten zu überspringen? Wo die Optionen `Use Existing`, `Overwrite` und `Save with a new Name` vorhanden sind, kann `Skip` hinzugefügt werden, damit Sie die Promotion einzelner Parameter überspringen können?
 
