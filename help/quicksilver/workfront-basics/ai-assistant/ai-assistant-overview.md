@@ -1,17 +1,22 @@
 ---
-title: "Übersicht über KI-Assistenzkräfte"
+title: Übersicht über den KI-Assistenten
 content-type: reference
 description: Übersicht über den KI-Assistenten
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
+source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 0%
+source-wordcount: '711'
+ht-degree: 1%
 
 ---
 
 # Übersicht über den KI-Assistenten
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist in der Vorschau -Umgebung für alle Kunden und in der Produktionsumgebung für Kunden verfügbar, die monatliche Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
 
 Der KI-Assistent von Workfront hilft Ihnen bei der Erledigung Ihrer Arbeit, indem er In-App-Informationen und -Vorschläge in einem in natürlicher Sprache geführten Gespräch anbietet. Der KI-Assistent bietet Ihnen eine reibungslosere Arbeitserfahrung durch
 
@@ -79,13 +84,35 @@ Der KI-Assistent bietet derzeit die folgenden Funktionen:
 
   Weitere Informationen finden Sie unter [Hilfe vom AI-Assistenten erhalten](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
-* Erstellen oder verfeinern Sie Formeln für berechnete benutzerdefinierte Felder.
+<div class="preview">
+
+* Suchen nach bestimmten Elementen in Workfront.
+
+  Weitere Informationen finden Sie unter [Verwenden des AI-Assistenten zum Arbeiten mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+
+</div>
+
+* Rezepturen für berechnete benutzerdefinierte Felder erstellen oder verfeinern.
 
   >[!NOTE]
   >
   >Diese Funktion steht nur Unternehmen zur Verfügung, die die Pläne von Prime oder Ultimate Workfront verfolgen.
 
   Weitere Informationen finden Sie unter [Berechnete Feldformeln mit dem KI-Assistenten erstellen oder überarbeiten](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
+
+## Für den AI-Assistenten verfügbare Objekttypen
+
+Der KI-Assistent kann Daten abfragen, die mit den folgenden Objekttypen verknüpft sind, wenn der Benutzer über gültige Berechtigungen in Workfront verfügt:
+
+* Portfolios
+* Programme
+* Projekte
+* Aufgaben
+* Probleme
+* Benutzerdefinierte Formulare
+* Benutzende
+* Workfront-Planungsaufzeichnungen
+
 
 ## Access AI Assistant
 
@@ -113,5 +140,3 @@ So fordern Sie die Adobe Gen AI-Vereinbarung an:
 1. Geben Sie den Namen und die E-Mail-Adresse der Person in Ihrem Unternehmen ein, die die Adobe Gen AI-Vereinbarung unterzeichnet.
 
    Die Vereinbarung wird dieser Person zur Unterzeichnung übermittelt. Nach der Unterzeichnung und Rückgabe wird der KI-Assistent für Ihre Organisation aktiviert.
-
-
