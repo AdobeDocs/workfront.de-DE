@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
+source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
 workflow-type: tm+mt
-source-wordcount: '14607'
+source-wordcount: '14611'
 ht-degree: 2%
 
 ---
@@ -612,7 +612,7 @@ ht-degree: 2%
          * [Objektüberschriften mithilfe einer Layoutvorlage anpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [Anpassen des linken Bedienfelds](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [Detailansicht anpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-         * [Anpassen von Startseite und Zusammenfassung](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [Anpassen des Zusammenfassungsbereichs mithilfe einer Layoutvorlage](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [Neue Startseite anpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [Anpassen von fixierten Seiten](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [Anpassen von Filtern, Ansichten, Gruppierungen](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)

@@ -5,13 +5,13 @@ title: Verwalten Ihrer Arbeit mit dem Widget "Meine Arbeit"
 description: Das Widget Meine Arbeit zeigt alle zugewiesenen Aufgaben, Probleme und Anforderungen an einem Ort an. Hier können Sie Ihre Arbeit filtern und organisieren, die Zeit protokollieren, Aktualisierungen vornehmen und Arbeitselemente als abgeschlossen markieren.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: de782d54a5ab6370b91e7447ed33e5d7511cc50d
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
 
 ---
-
 
 # Verwalten Ihrer Arbeit mit dem Widget &quot;Meine Arbeit&quot;
 
@@ -157,7 +157,7 @@ Sie können das Bedienfeld Zusammenfassung öffnen, um Informationen in einer Au
 * Aktualisierung hinzufügen
 * Navigieren Sie zum Dokumentbereich, um ein Dokument hochzuladen.
 * Anzeigen von Arbeitselementdetails und Aktualisieren benutzerdefinierter Felder
-Workfront-Administratoren können anpassen, welche Felder in der Zusammenfassung in der Layoutvorlage angezeigt werden. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Workfront-Administratoren können anpassen, welche Felder in der Zusammenfassung in der Layoutvorlage angezeigt werden. Weitere Informationen finden Sie unter [Anpassen des Zusammenfassungsbereichs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Status des Arbeitselements ändern
 * Unteraufgaben anzeigen
 * Zeit erfassen
@@ -190,7 +190,3 @@ Genehmigungen und Teamanfragen werden nicht im Widget Meine Arbeit angezeigt. We
 * Team-Anforderungen
 
 Weitere Informationen zum Hinzufügen von Widgets zur neuen Startseite finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-
-
-
-
