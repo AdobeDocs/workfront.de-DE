@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # Geschäftsregeln erstellen und bearbeiten
+
+{{preview-fast-release-general}}
 
 Mit einer Geschäftsregel können Sie eine Validierung auf Workfront-Objekte anwenden und verhindern, dass Benutzer ein Objekt erstellen, bearbeiten oder löschen, wenn bestimmte Bedingungen erfüllt sind. Geschäftsregeln helfen bei der Verbesserung der Datenqualität und der betrieblichen Effizienz, indem sie Aktionen verhindern, die die Datenintegrität beeinträchtigen könnten.
 
@@ -131,6 +133,10 @@ IF(
    * Die Aktion ist der Trigger, den Sie für die Regel ausgewählt haben: Erstellen, Bearbeiten oder Löschen des Objekts.
    * Da das Objekt und die Aktion bereits definiert sind, werden sie nicht in die Formel aufgenommen.
    * Die benutzerdefinierte Fehlermeldung wird dem Benutzer beim Trigger der Geschäftsregel angezeigt. Sie sollte klare Anweisungen dazu enthalten, was falsch gelaufen ist und wie das Problem zu beheben ist.
+
+     <span class="preview">Sie können eine statische URL in die Fehlermeldung einfügen, um eine Verknüpfung zu Dokumentation oder anderen hilfreichen Seiten herzustellen, die den Benutzer bei der Änderung seiner Aktion innerhalb der Beschränkung der Regel anleiten.</span>
+
+     <span class="preview">In diesem Beispiel wird &quot;Weitere Informationen&quot;mit der URL verknüpft. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` Die URL muss in Klammern stehen, der Linktext in Klammern ist jedoch nicht erforderlich. Sie können die vollständige URL anzeigen und es wird sich um einen anklickbaren Link handeln.</span>
 
    ![Dialogfeld &quot;Geschäftsregel hinzufügen&quot;](assets/add-business-rule-dialog-no-ai-button.png)
 
