@@ -7,18 +7,22 @@ description: Sie können eine Kopie jedes Berichts erstellen, auf den Sie Zugrif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
 
 # Berichtkopie erstellen
 
+<!-- Audited: 11/2024 -->
+
 Sie können eine Kopie jedes Berichts erstellen, auf den Sie Zugriff haben. Sie können entweder eine exakte Kopie eines benutzerspezifischen Berichts erstellen oder eine neue Version eines Standardberichts speichern. Nachdem Sie einen Bericht kopiert haben, werden Sie zum Eigentümer des kopierten Berichts und dieser wird im Abschnitt Meine Berichte angezeigt.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -32,29 +36,40 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Objektberechtigungen*</td> 
+   <td><p>Berechtigungen für einen Bericht anzeigen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Erstellen einer exakten Kopie eines Berichts
 
-Wenn Sie eine Kopie eines Berichts erstellen möchten, dessen Eigentümer Sie sind, gehen Sie wie folgt vor:
+Wenn Sie eine Kopie eines benutzerspezifischen Berichts erstellen möchten, gehen Sie wie folgt vor:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Berichte]**.
 
-1. Klicken Sie auf **Berichte** und dann auf **Alle Berichte**.
-1. Öffnen Sie einen Bericht.
+1. Klicken Sie auf **Alle Berichte** und öffnen Sie dann einen Bericht.
+
 1. Klicken Sie auf **Berichtaktionen** und dann auf **Kopieren**.
 
    >[!TIP]
@@ -62,15 +77,11 @@ Wenn Sie eine Kopie eines Berichts erstellen möchten, dessen Eigentümer Sie si
    >Wenn es sich bei dem Bericht um einen Standardbericht handelt, wird die Option Kopieren nicht im Menü Berichtaktionen angezeigt.\
    >Informationen zum Erstellen einer Kopie eines Standardberichts finden Sie unter [Erstellen einer neuen Version eines Berichts](#create-a-new-version-of-a-report).
 
-   ![Bericht kopieren](assets/nwe-fulllistofreportactions-2022.png)
+   ![Bericht kopieren](assets/unshimmed-report-actions-copy.png)
 
-   Eine Kopie des ursprünglichen Berichts wird mit dem Standardnamen *Kopie von [Name des ursprünglichen Berichts]* erstellt. Zum Beispiel hätte der Bericht &quot;Abgeschlossene Aufgaben im 4. Quartal&quot;den Namen &quot;Kopie der abgeschlossenen Aufgaben im 4. Quartal&quot;.
+   Eine Kopie des ursprünglichen Berichts wird mit dem Standardnamen _[Name des ursprünglichen Berichts] (Kopie)_ erstellt. Eine Kopie des Berichts &quot;Abgeschlossene Aufgaben im 4. Quartal&quot;würde beispielsweise &quot;Abgeschlossene Aufgaben im 4. Quartal (Kopie)&quot;heißen.
 
-1. (Optional) Um den Bericht umzubenennen, geben Sie einen neuen Namen ein.
-
-   >[!TIP]
-   >
-   >Wenn Sie die Auswahl des Titels aufheben, bevor Sie den neuen Namen eingeben, wählen Sie den Berichtstitel aus, löschen Sie den Namen und geben Sie den neuen Namen ein.
+1. (Optional) Um den Bericht umzubenennen, klicken Sie auf **Berichtaktionen** und dann auf **Bearbeiten**. Geben Sie in das Textfeld oben links einen neuen Namen ein und klicken Sie dann zum Abschluss auf **Speichern + Schließen** .
 
 1. (Optional) Um die neue Version des Berichts für andere Benutzer freizugeben, klicken Sie auf **Berichtaktionen** und dann auf **Freigabe**.
 
@@ -84,9 +95,10 @@ Wenn Sie eine Kopie eines Berichts erstellen möchten, dessen Eigentümer Sie si
    Gehen Sie wie folgt vor, um den ursprünglichen Bericht zu löschen:
 
    1. Navigieren Sie zum Bericht.
+
    1. Klicken Sie auf **Berichtaktionen** und dann auf **Löschen**.
 
-   1. Klicken Sie auf **Ja, löschen Sie ihn** , um zu bestätigen, dass Sie den Bericht löschen möchten.
+   1. Klicken Sie auf **Ja, löschen Sie es** , um zu bestätigen, dass Sie den Bericht löschen möchten.
 
 ## Neue Berichtversion erstellen {#create-a-new-version-of-a-report}
 
@@ -98,7 +110,7 @@ Wenn Sie eine Kopie eines Standardberichts erstellen möchten, gehen Sie wie fol
 1. Klicken Sie auf den Namen eines Standardberichts, um ihn zu öffnen.
 1. Klicken Sie auf **Berichtaktionen** und dann auf **Bearbeiten**.
 
-   ![Bericht bearbeiten](assets/nwe-reportactionsfordefaultreport-2022.png)
+   ![Bericht bearbeiten](assets/unshimmed-report-actions-default-report.png)
 
 1. Nehmen Sie in den folgenden Registerkarten des Berichts die erforderlichen Änderungen vor:
 
@@ -112,6 +124,6 @@ Wenn Sie eine Kopie eines Standardberichts erstellen möchten, gehen Sie wie fol
 1. Klicken Sie auf **Fertig**.
 1. Klicken Sie auf **Als neuen Bericht speichern**.
 
-   ![](assets/nwe-save-as-new-report-350x220.png)
+   ![](assets/unshimmed-save-as-new-report.png)
 
 1. (Optional) Um die neue Version des Berichts für andere Benutzer freizugeben, klicken Sie auf **Berichtaktionen** und dann auf **Freigabe**.

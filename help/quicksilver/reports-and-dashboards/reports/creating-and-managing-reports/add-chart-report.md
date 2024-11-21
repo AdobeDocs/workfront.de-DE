@@ -6,16 +6,16 @@ description: Sie können Ihre Berichte durch Hinzufügen eines Diagramms erweite
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '2768'
+source-wordcount: '2734'
 ht-degree: 0%
 
 ---
 
 # Diagramm zu einem Bericht hinzufügen
 
-<!--Audited: 01/2024-->
+<!--Audited: 11/2024-->
 
 Sie können Ihre Berichte durch Hinzufügen eines Diagramms erweitern. Sie können Diagramme zu vorhandenen Berichten oder zu Berichten hinzufügen, die Sie erstellen.
 
@@ -47,9 +47,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktuell: Plan </p>
-   Oder
-   <p>Neu: Standard</p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene</td> 
@@ -62,14 +69,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Diagramm zu einem Bericht hinzufügen
 
 1. Öffnen Sie einen vorhandenen Bericht oder erstellen Sie einen neuen. Weitere Informationen zum Erstellen eines neuen Berichts finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
 1. (Bedingt) Wenn Sie zu einem vorhandenen Bericht gewechselt sind, klicken Sie auf **Berichtaktionen** > **Bearbeiten**.
 
 1. Stellen Sie sicher, dass die Registerkarte **Spalten (Ansicht)** aktualisiert wurde, um die Informationen anzuzeigen, die Sie im Bericht grafisch darstellen möchten.
@@ -87,8 +94,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Weitere Informationen zum Erstellen von Gruppierungen finden Sie unter [Erstellen von Gruppierungen in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Wählen Sie die Registerkarte **Diagramm** aus.
+
 1. Klicken Sie auf einen Diagrammtyp, um ihn auszuwählen.\
-   ![](assets/qs-report-builder-chart-350x265.png)
+   ![Grafiktyp auswählen](assets/unshimmed-report-builder-chart.png)
 
 1. Wählen Sie aus den folgenden Grafiktypen aus:
 
@@ -106,12 +114,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 So fügen Sie Ihrem Bericht ein **Spalte** -Diagramm hinzu:
 
 1. Beginnen Sie mit dem Hinzufügen eines Diagramms zu Ihrem Bericht, wie unter [Hinzufügen eines Diagramms zu einem Bericht](#add-a-chart-to-a-report) beschrieben.
-1. Wählen Sie im Feld **Linke (Y) Achse** die Werte aus, die Sie auf der Y-Achse des Diagramms einbeziehen möchten, sowie die Art und Weise, wie die Informationen zusammengefasst werden sollen.
-1. Wählen Sie im Feld **Untere (X) Achse** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten.
-1. (Optional) Wählen Sie **Benutzerdefinierte Farben** aus, um jeder Spalte die gewünschten Farben zuzuweisen.\
+
+1. Wählen Sie im Feld **Linke (Y) Achse** die Werte aus, die Sie auf der Y-Achse des Diagramms einbeziehen möchten, und wählen Sie dann aus, wie die Informationen im Feld **Zusammengefasst von** dargestellt werden sollen.
+
+1. (Optional) Klicken Sie auf **Benutzerdefinierte Farben** , um jeder Spalte die gewünschten Farben zuzuweisen.\
    Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Anpassen der Diagrammfarben](#customize-chart-colors).
 
-1. (Optional) Wählen Sie **In 3D anzeigen** aus, um das Diagramm in einer dreidimensionalen Ansicht anzuzeigen.
+1. Wählen Sie im Feld **Untere (X) Achse** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten.
+
+1. (Optional) Klicken Sie auf **In 3D anzeigen** , um das Diagramm in einer dreidimensionalen Ansicht anzuzeigen.
+
 1. (Optional) **Gruppenspalten**: Wählen Sie diese Option, um festzulegen, wie die Spalten gruppiert werden sollen.\
    Wählen Sie aus den folgenden Optionen aus:
 
@@ -122,15 +134,14 @@ So fügen Sie Ihrem Bericht ein **Spalte** -Diagramm hinzu:
       * **Gestapelt zu 100 %**
 
    * Wählen Sie die Gruppierung, die Sie in die Grafik aufnehmen möchten, aus dem Dropdown-Menü **Gruppendaten nach** aus.
-   * (Optional) Wählen Sie **Benutzerdefinierte Farben** aus, um die Farben der Spalten anzupassen.\
+   * (Optional) Klicken Sie auf **Benutzerdefinierte Farben** , um die Farben der Spalten anzupassen.\
      Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Anpassen der Diagrammfarben](#customize-chart-colors).
 
-1. (Optional) Wählen Sie **Kombinationsdiagramm** aus, um einen zusätzlichen Wert in das Diagramm aufzunehmen und festzulegen, wie die Informationen zusammengefasst werden sollen.\
+1. (Optional) Klicken Sie auf **Kombinationsdiagramm** , um einen zusätzlichen Wert in das Diagramm aufzunehmen und festzulegen, wie die Informationen zusammengefasst werden sollen.\
    Beachten Sie die folgenden Optionen:
 
    * **Auf Sekundäre Achse zeichnen**: Wählen Sie diese Option, um die Daten auf der rechten Seite des Diagramms darzustellen.
-   * **Diagrammtyp**: Wählen Sie aus, ob dieser zusätzliche Wert als Zeile oder dritte Spalte angezeigt werden soll.\
-     ![](assets/qs-column-chart-350x163.png)
+   * **Diagrammtyp**: Wählen Sie aus, ob dieser zusätzliche Wert als Zeile oder dritte Spalte angezeigt werden soll.
 
 1. Klicken Sie auf **Speichern + Schließen** , um das Diagramm und den Bericht zu speichern.
 
@@ -139,13 +150,17 @@ So fügen Sie Ihrem Bericht ein **Spalte** -Diagramm hinzu:
 So fügen Sie Ihrem Bericht ein **Balkendiagramm** hinzu:
 
 1. Beginnen Sie mit dem Hinzufügen eines Diagramms zu Ihrem Bericht, wie unter [Hinzufügen eines Diagramms zu einem Bericht](#add-a-chart-to-a-report) beschrieben.
-1. Wählen Sie im Feld **Untere (X) Achse** die Werte aus, die auf der X-Achse des Diagramms angezeigt werden sollen, sowie die Art und Weise, wie die Informationen zusammengefasst werden sollen.
-1. Wählen Sie im Feld **Linke (Y) Achse** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten.
-1. (Optional) Wählen Sie **Benutzerdefinierte Farben** aus, um die Farben der Balken anzupassen.\
+
+1. Wählen Sie im Feld **Untere (X) Achse** die Werte aus, die Sie auf der X-Achse des Diagramms einbeziehen möchten, und wählen Sie dann aus, wie die Informationen im Feld **Zusammengefasst durch** zusammengefasst werden sollen.
+
+1. (Optional) Klicken Sie auf **Benutzerdefinierte Farben** , um die Farben der Balken anzupassen.\
    Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Anpassen der Diagrammfarben](#customize-chart-colors).
 
-1. (Optional) Wählen Sie **In 3D anzeigen** aus, um das Diagramm in einer dreidimensionalen Ansicht anzuzeigen.
-1. (Optional) Wählen Sie **Gruppenbalken** aus, um festzulegen, wie die Balken gruppiert werden sollen.\
+1. Wählen Sie im Feld **Linke (Y) Achse** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten.
+
+1. (Optional) Klicken Sie auf **In 3D anzeigen** , um das Diagramm in einer dreidimensionalen Ansicht anzuzeigen.
+
+1. (Optional) Klicken Sie auf **Gruppenbalken** , um festzulegen, wie die Balken gruppiert werden sollen.\
    Wählen Sie aus den folgenden Optionen aus:
 
    * Klicken Sie auf eine der folgenden Optionen, um festzulegen, wie die gruppierten Balken angezeigt werden sollen:
@@ -155,11 +170,10 @@ So fügen Sie Ihrem Bericht ein **Balkendiagramm** hinzu:
       * **Gestapelt zu 100 %**
 
    * Wählen Sie aus dem Dropdownmenü **Gruppendaten nach** aus, wie Sie die Informationen im Diagramm gruppieren möchten.
-   * (Optional) Wählen Sie **Benutzerdefinierte Farben** aus, um die Farben Ihrer Spalten anzupassen.\
+   * (Optional) Klicken Sie auf **Benutzerdefinierte Farben** , um die Farben Ihrer Spalten anzupassen.\
      Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Anpassen der Diagrammfarben](#customize-chart-colors).
 
-1. (Optional) Wählen Sie **Kombinationsdiagramm** aus, um einen zusätzlichen Wert in das Diagramm aufzunehmen und festzulegen, wie die Informationen zusammengefasst werden sollen.\
-   ![](assets/qs-bar-chart-350x167.png)
+1. (Optional) Klicken Sie auf **Kombinationsdiagramm** , um einen zusätzlichen Wert in das Diagramm aufzunehmen und festzulegen, wie die Informationen zusammengefasst werden sollen.
 
 1. Klicken Sie auf **Speichern + Schließen** , um das Diagramm und den Bericht zu speichern.
 
@@ -172,18 +186,19 @@ So fügen Sie Ihrem Bericht ein **Balkendiagramm** hinzu:
 So fügen Sie Ihrem Bericht ein **Tortendiagramm** hinzu:
 
 1. Beginnen Sie mit dem Hinzufügen eines Diagramms zu Ihrem Bericht, wie unter [Hinzufügen eines Diagramms zu einem Bericht](#add-a-chart-to-a-report) beschrieben.
-1. Wählen Sie im Feld **Werte** die Werte aus, die im Bericht angezeigt werden sollen, sowie die Art und Weise, wie sie zusammengefasst werden sollen.\
+
+1. Wählen Sie im Feld **Werte** die Werte aus, die im Bericht angezeigt werden sollen, und wählen Sie dann aus, wie die Informationen im Feld **Zusammengefasst durch** zusammengefasst werden sollen.\
    Wählen Sie im Feld **Kanten** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten. Die Gruppierung wird durch die Kanten der Grafik dargestellt.
 
-1. (Optional) Wählen Sie **Benutzerdefinierte Farben** aus, um die Farben der Kanten im Diagramm anzupassen.\
+1. (Optional) Klicken Sie auf **Benutzerdefinierte Farben** , um die Farben der Kanten im Diagramm anzupassen.\
    Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Anpassen der Diagrammfarben](#customize-chart-colors).
 
-1. (Optional) Wählen Sie **In 3D anzeigen** aus, um das Diagramm in einer dreidimensionalen Ansicht anzuzeigen.
+1. (Optional) Klicken Sie auf **In 3D anzeigen** , um das Diagramm in einer dreidimensionalen Ansicht anzuzeigen.
+
 1. Wählen Sie im Feld **Ergebnisse anzeigen als** aus, wie die Ergebnisse im Diagramm dargestellt werden sollen. Beachten Sie die folgenden Optionen:
 
    * **Prozentsatz**: Die Diagrammergebnisse werden als Prozentsatz angezeigt.
-   * **Zahlen**: Die Diagrammergebnisse werden als Zahl angezeigt.\
-     ![](assets/qs-pie-chart-350x171.png)
+   * **Zahlen**: Die Diagrammergebnisse werden als Zahl angezeigt.
 
 1. Klicken Sie auf **Speichern + Schließen** , um das Diagramm und den Bericht zu speichern.
 
@@ -192,19 +207,20 @@ So fügen Sie Ihrem Bericht ein **Tortendiagramm** hinzu:
 So fügen Sie Ihrem Bericht ein **Liniendiagramm** hinzu:
 
 1. Beginnen Sie mit dem Hinzufügen eines Diagramms zu Ihrem Bericht, wie unter [Hinzufügen eines Diagramms zu einem Bericht](#add-a-chart-to-a-report) beschrieben.
-1. Wählen Sie im Feld **Linke (Y) Achse** die Werte aus, die Sie auf der Y-Achse des Diagramms einbeziehen möchten, sowie die Art und Weise, wie die Informationen zusammengefasst werden sollen.
+
+1. Wählen Sie im Feld **Linke (Y) Achse** die Werte aus, die Sie auf der Y-Achse des Diagramms einbeziehen möchten, und wählen Sie dann aus, wie die Informationen im Feld **Zusammengefasst von** dargestellt werden sollen.
+
 1. Wählen Sie im Feld **Untere (X) Achse** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten.
-1. (Optional) Wählen Sie eine Farbe, um die Farbe der Linie anzupassen.
-1. (Optional) Wählen Sie **Gruppenlinien** aus, um eine zusätzliche Gruppierung für das Diagramm auszuwählen.\
-   (Optional) Wählen Sie **Benutzerdefinierte Farben** aus, um die Farben für die neue Gruppierung anzupassen.\
+
+1. (Optional) Klicken Sie auf **Gruppenzeilen** , um eine zusätzliche Gruppierung für das Diagramm auszuwählen.\
+   (Optional) Klicken Sie auf **Benutzerdefinierte Farben** , um die Farben für die neue Gruppierung anzupassen.\
    Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Anpassen der Diagrammfarben](#customize-chart-colors).
 
-1. (Optional) Wählen Sie **Kombinationsdiagramm** aus, um Ihre Zeilen mit einem zusätzlichen Wert zu kombinieren.\
+1. (Optional) Klicken Sie auf **Kombinationsdiagramm** , um Ihre Zeilen mit einem zusätzlichen Wert zu kombinieren.\
    Beachten Sie die folgenden Optionen:
 
    * Wählen Sie den Wert aus, den Sie in die Grafik aufnehmen möchten, sowie die Art und Weise, wie die Informationen zusammengefasst werden sollen.
-   * Wählen Sie das Feld **Auf Sekundäre Achse zeichnen** aus, um die Daten auf der rechten Seite des Diagramms darzustellen.\
-     ![](assets/qs-line-chart-350x172.png)
+   * Klicken Sie auf das Feld **Auf Sekundäre Achse positionieren** , um die Daten auf der rechten Seite des Diagramms darzustellen.
 
 1. Klicken Sie auf **Speichern + Schließen** , um das Diagramm und den Bericht zu speichern.
 
@@ -215,16 +231,17 @@ Ein Diagramm **Messung** zeigt die Anzahl der Datensätze an, die bestimmte Krit
 So fügen Sie Ihrem Bericht ein **Seiten**-Diagramm hinzu:
 
 1. Beginnen Sie mit dem Hinzufügen eines Diagramms zu Ihrem Bericht, wie unter [Hinzufügen eines Diagramms zu einem Bericht](#add-a-chart-to-a-report) beschrieben.
-1. Wählen Sie im Feld **Werte** die Werte aus, die im Bericht angezeigt werden sollen, sowie die Art und Weise, wie sie zusammengefasst werden sollen. Wenn Sie **Anzahl der Datensätze** auswählen, sind die angezeigten Werte das Objekt des Berichts.
+
+1. Wählen Sie im Feld **Werte** die Werte aus, die im Bericht angezeigt werden sollen, und wählen Sie dann aus, wie die Informationen im Feld **Zusammengefasst durch** zusammengefasst werden sollen. Wenn Sie **Anzahl der Datensätze** auswählen, sind die angezeigten Werte das Objekt des Berichts.
 
 1. Wählen Sie im Feld **Indikatoren** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten. Die Gruppierung wird durch die Indikatorlinie im Diagramm dargestellt.\
    Wenn die Gruppierung zwei Elemente enthält, werden zwei Indikatoren im Diagramm angezeigt.\
    Wenn Sie z. B. eine Gruppierung des Projektstatus haben und zwei Projektstatus vorliegen (Aktuell und Bei Halten), enthält Ihr Bilddiagramm zwei Kennzahlindikatoren. Sie werden auf die Anzahl der Projekte verweisen, die sich in diesem Status befinden.\
    (Optional) Wählen Sie **Total** im Feld **Indicators** aus, um die Gesamtzahl der im Feld **Werte** ausgewählten Objekte anzuzeigen.
 
-1. Geben Sie im Feld **Wertebereich** den Wertebereich und die Farbe an, die für die Werte gelten sollen, die im Diagrammdiagramm angezeigt werden sollen.
-1. (Optional) Klicken Sie auf **Neuen Wertebereich hinzufügen** , um dem Diagramm weitere Wertebereiche hinzuzufügen.\
-   ![](assets/qs-gauge-chart-350x181.png)
+1. (Optional) Klicken Sie auf **Neuen Wertebereich hinzufügen** , um dem Diagramm einen Wertebereich hinzuzufügen.
+
+1. (Optional) Geben Sie im Feld **Wertebereich** den Wertebereich und die Farbe an, die für die Werte gelten sollen, die im Diagrammdiagramm angezeigt werden sollen.
 
 1. Klicken Sie auf **Speichern + Schließen** , um das Diagramm und den Bericht zu speichern.
 
@@ -235,7 +252,9 @@ Sie können bis zu drei Felder eines Objekts in einem **Punktdiagramm** anzeigen
 So fügen Sie Ihrem Bericht ein **Punktdiagramm** hinzu:
 
 1. Beginnen Sie mit dem Hinzufügen eines Diagramms zu Ihrem Bericht, wie unter [Hinzufügen eines Diagramms zu einem Bericht](#add-a-chart-to-a-report) beschrieben.
-1. Wählen Sie im Feld **Linke (Y) Achse** die Werte aus, die Sie auf der Y-Achse des Diagramms einbeziehen möchten. Die Werte stammen aus der Sicht des Berichts. Geben Sie an, wie die Informationen zusammengefasst werden sollen.
+
+1. Wählen Sie im Feld **Linke (Y) Achse** die Werte aus, die Sie auf der Y-Achse des Diagramms einbeziehen möchten. Die Werte stammen aus der Sicht des Berichts. Geben Sie an, wie die Informationen im Feld **Zusammengefasst von** zusammengefasst werden sollen.
+
 1. Wählen Sie im Feld **Untere (X) Achse** die Werte aus, die Sie auf der X-Achse des Diagramms einbeziehen möchten. Die Werte stammen aus der Sicht des Berichts. Geben Sie an, wie die Informationen zusammengefasst werden sollen.
 
    >[!NOTE]
@@ -251,40 +270,20 @@ So fügen Sie Ihrem Bericht ein **Punktdiagramm** hinzu:
    >Weitere Informationen zur Zusammenfassung der Informationen in einer Berichtsspalte finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Wählen Sie im Feld **Blasen** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten. Die Gruppierung wird durch die Platzierung der Punkte im Diagramm dargestellt.
+
 1. Wählen Sie im Feld **Blasenfarbe** das Feld aus, das durch die Farben der Blasen dargestellt werden soll.
 
-   ![](assets/qs-bubble-chart-350x103.png)
+   Die **Blasenfarbe** kann eine Gruppierung sein, die Sie im Bericht definieren. Die Option ist jedoch nur verfügbar, wenn Sie eine Gruppierung im Feld **Blasen** auswählen, die den **Namen** eines übergeordneten Objekts relativ zum Objekt des Berichts enthält, z. B. **Projektname** für einen Aufgabenbericht oder **Programmname** für einen Projektbericht.
 
-
-   Die **Blasenfarbe** kann eine Gruppierung sein, die Sie im Bericht definieren. Sie ist jedoch nur verfügbar, wenn Sie die Spalte **Name** für das Objekt des Berichts im Feld **Blasen** auswählen.
-
-   Wenn Sie beispielsweise **Aufgabenname** in einem Aufgabenbericht ausgewählt haben, können Sie **Aufgabenstatus** als Feld **Blasenfarbe** hinzufügen.
+   Wenn Sie beispielsweise **Projektname** in einem Aufgabenbericht ausgewählt haben, können Sie **Aufgabenstatus** als Feld **Blasenfarbe** hinzufügen.
 
    ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
-   Wenn Sie jedoch **Aufgabenstatus** für das Feld **Blasen** ausgewählt haben, können Sie kein Feld **Blasenfarbe** auswählen. Sie können auch nicht &quot;**Projektname**&quot;für das Feld **Blasenfarbe**&quot;auswählen, selbst wenn Sie für das Feld **Blase** den Wert **Aufgabenname** auswählen.
+   Wenn Sie jedoch **Aufgabenstatus** für das Feld **Blasen** ausgewählt haben, können Sie kein Feld **Blasenfarbe** auswählen. Sie können auch nicht &quot;**Projektname**&quot;für das Feld **Blasenfarbe**&quot;auswählen, selbst wenn Sie &quot;**Projektname**&quot;für das Feld **Blasen**&quot;auswählen.
 
    ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
-
 1. Klicken Sie auf **Speichern + Schließen** , um die Änderungen am Oberflächenaufbau zu speichern.
-
-## Grafik exportieren
-
-Sie können ein Diagramm in eine PDF-Datei exportieren.
-
-So exportieren Sie eine Grafik:
-
-1. Klicken Sie auf **Exportieren** , um das Diagramm in .pdf zu exportieren.\
-   Eine PDF-Datei wird auf Ihren Computer heruntergeladen.
-
-1. Öffnen Sie die PDF-Datei.\
-   Die exportierte Datei enthält die folgenden Informationen:
-
-   * Ein Bild des Diagramms.
-   * Ein Titel, der den Namen des Berichts angibt.
-   * Ein eindeutiger Dateiname, der den Namen des Berichts angibt.
-   * Fußzeile mit Datum und Uhrzeit des Exports des Berichts und der Seitenzahl.
 
 ## Grafikfarben anpassen {#customize-chart-colors}
 
@@ -299,12 +298,13 @@ Sie können nur eine Farbe für die Felder auswählen, die in der Berichtansicht
 So passen Sie Diagrammfarben an:
 
 1. Gehen Sie beim Erstellen eines Berichts zur Registerkarte **Diagramm** in ReportBuilder.
+
 1. Wählen Sie einen Diagrammtyp aus, den Sie Ihrem Bericht hinzufügen möchten.\
    Weitere Informationen zum Hinzufügen eines Diagramms zum Bericht finden Sie unter [Hinzufügen eines Diagramms zu einem Bericht](#add-a-chart-to-a-report).
 
 1. Klicken Sie auf **Benutzerdefinierte Farben** , wenn dieses Feld verfügbar ist.\
    Das Dialogfeld Benutzerdefinierte Farben wird angezeigt.\
-   ![](assets/custom-colors-in-charts-350x286.png)
+   ![](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >
@@ -313,33 +313,49 @@ So passen Sie Diagrammfarben an:
 1. Wählen Sie eine der folgenden Optionen aus:
 
    * **Use one color**: Alle Elemente des Diagramms werden in der ausgewählten Farbe angezeigt.
+   * **Farbe hinzufügen**: Fügen Sie eine benutzerdefinierte Farbe für einen möglichen Wert des ausgewählten Felds hinzu.
+   * **Alle entfernen**: Wählen Sie diese Option, um alle oben angegebenen Feldwerte und Farben zu entfernen.
+   * **Kein Wert**: Wählen Sie dieses Feld und eine benutzerdefinierte Farbe aus, um die Diagrammspalte anzuzeigen, in der &quot;kein Wert&quot;gruppiert ist. Dies sind Elemente, die nicht nach einer der Optionen des in Ihrer Gruppierung ausgewählten Felds gruppiert werden können.
+   * **Alle anderen Werte**: Wählen Sie dieses Feld und eine benutzerdefinierte Farbe aus, um alle anderen Diagrammelemente anzuzeigen, deren Optionen oben nicht definiert sind.
 
-      1. Geben Sie den Namen einer Option des ausgewählten Felds ein und wählen Sie dann eine Farbe aus. Diese Option wird in der ausgewählten Farbe des Diagramms angezeigt.
-      1. (Optional) Geben Sie einen hexadezimalen Farbwert für Ihre Farbe an, anstatt einen aus den verfügbaren Farbbeispielen auszuwählen.\
-         Oder\
-         Klicken Sie auf die Farbauswahl, die nach dem Klicken auf den Hexadezimalcode angezeigt wird, und wählen Sie eine andere Farbe aus.
+     >[!NOTE]
+     >
+     >Die zuletzt bearbeiteten Farben werden rechts neben der Schaltfläche **Benutzerdefinierte Farben** angezeigt. Wenn Sie den Mauszeiger über eine Farbe bewegen, wird der Name des mit ihr verknüpften Felds angezeigt. Sie können auch auf eine Farbe klicken, um sie zu bearbeiten, ohne erneut **Benutzerdefinierte Farben** zu öffnen.
 
-   * **Farbe hinzufügen**: Fügen Sie weiterhin benutzerdefinierte Farben für alle anderen möglichen Optionen des ausgewählten Felds hinzu.
-   * **Alle entfernen**: Wählen Sie diese Option, um alle Farben und Optionen des oben ausgewählten Felds zu entfernen.
-   * **Erweiterte Optionen**: Wählen Sie aus den folgenden Optionen aus:
+1. So wählen Sie eine Farbe:
+Klicken Sie in die Farbauswahl, um eine Farbe auszuwählen.
+ODER
+Geben Sie einen hexadezimalen Farbwert für Ihre Farbe an.
 
-      * **Kein Wert**: Wählen Sie dieses Feld und eine benutzerdefinierte Farbe aus, um die Spalte des Diagramms anzuzeigen, in der Elemente ohne Wert gruppiert sind. Dies sind Elemente, die nicht nach einer der Optionen des in Ihrer Gruppierung ausgewählten Felds gruppiert werden können.
-      * **Alle anderen Werte**: Wählen Sie dieses Feld und eine benutzerdefinierte Farbe aus, um alle anderen Diagrammelemente anzuzeigen, deren Optionen oben nicht ausgewählt sind.
+1. Klicken Sie auf eine beliebige Stelle außerhalb des Dialogfelds &quot;Benutzerdefinierte Farben&quot;, um es zu schließen. Die ausgewählten Farben werden automatisch gespeichert.
 
-        >[!NOTE]
-        >
-        >Die zuletzt verwendeten Farben werden oben im Dialogfeld Benutzerdefinierte Farben angezeigt. Wenn Sie den Mauszeiger über eine Farbe bewegen, die kürzlich verwendet wurde, wird der Name des damit verknüpften Felds angezeigt.
-
-1. Klicken Sie auf das &quot;x&quot;in der oberen rechten Ecke der benutzerdefinierten Farben, um das Dialogfeld Benutzerdefinierte Farben zu schließen. Die ausgewählten Farben werden automatisch gespeichert.
 1. Klicken Sie auf **Speichern + Schließen** , um das Diagramm zu speichern und den Bericht auszuführen.
+
+## Grafik exportieren
+
+Sie können ein Diagramm in eine PDF-Datei exportieren.
+
+So exportieren Sie eine Grafik:
+
+1. Klicken Sie auf der Registerkarte &quot;Diagramm&quot;eines Berichts auf **Exportieren** , um das Diagramm in das PDF-Format zu exportieren.\
+   Eine PDF-Datei wird auf Ihren Computer heruntergeladen.
+
+1. Öffnen Sie die PDF-Datei.\
+   Die exportierte Datei enthält die folgenden Informationen:
+
+   * Ein Bild des Diagramms.
+   * Ein Titel, der den Namen des Berichts angibt.
+   * Ein eindeutiger Dateiname, der auf dem Namen des Berichts basiert.
+   * Fußzeile mit Datum und Uhrzeit des Exports des Berichts und der Seitenzahl.
 
 ## Grafiken aus Berichten entfernen
 
 So entfernen Sie ein Diagramm aus einem Bericht:
 
 1. Öffnen Sie die Registerkarte **Diagramm** des ReportBuilder.
-1. Bewegen Sie den Mauszeiger über das Symbol des gewählten Diagrammtyps und oben rechts im Symbol wird die Schaltfläche &quot;x&quot; angezeigt.
-1. Klicken Sie auf das &quot;x&quot;, um das Diagramm zu entfernen.
+
+1. Klicken Sie auf die Schaltfläche &quot;x&quot;rechts neben den Grafiktypen, um die Grafik zu entfernen.
+
 1. Klicken Sie auf **Speichern + schließen**.
 
 ## Einschränkungen beim Arbeiten mit Diagrammen
