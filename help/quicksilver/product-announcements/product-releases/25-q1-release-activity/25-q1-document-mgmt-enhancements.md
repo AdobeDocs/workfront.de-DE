@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,19 @@ Auf dieser Seite werden alle Verbesserungen der Dokumentenverwaltung beschrieben
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2025 verfügbar sind, finden Sie unter [Versionsübersicht für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Mehrere Dokumente gleichzeitig bearbeiten
+
+>[!NOTE]
+>
+>Vorschau-Version: 21. November 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.12 (Dezember 2024); Produktion für vierteljährliche Veröffentlichung: Mit Version 25.1 (Januar 2025)
+
+Sie können jetzt mehrere Dokumente gleichzeitig bearbeiten. Sie können die Beschreibungen bearbeiten und benutzerdefinierte Formulare aktualisieren.
+
+<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
+
 >[!IMPORTANT]
 >
->Die auf dieser Seite aufgeführten Funktionen sind Teil einer stufenweisen Veröffentlichung und stehen nur bestimmten Kunden zur Verfügung.
+>Die folgenden Funktionen sind Teil einer schrittweisen Veröffentlichung und stehen nur bestimmten Kunden zur Verfügung.
 
 ## Neuer Status &quot;Entzogen&quot;für Genehmigungen von Dokumentversionen verfügbar
 

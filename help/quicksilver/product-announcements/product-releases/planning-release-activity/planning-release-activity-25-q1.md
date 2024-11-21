@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -32,6 +33,29 @@ In diesem Artikel werden die Funktionen beschrieben, die während der Version de
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Eine Liste aller Funktionen, die nach der allgemeinen Release vom 28. August 2024 für die Adobe Workfront-Planung freigegeben wurden, finden Sie unter [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Adobe AI Assistant verfügbar in den Datensatzdetailbereichen
+
+>[!NOTE]
+>
+>Vorschau-Version: 21. November 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.12 (Dezember 2024); Produktion für vierteljährliche Veröffentlichung: Mit Version 25.1 (Januar 2025)
+
+Um Ihnen die Arbeit zu erleichtern, haben wir den Adobe AI-Assistenten zur Detailvorschau oder Datensatzseite hinzugefügt. Sie können den KI-Assistenten innerhalb einer Datensatzseite verwenden, um Informationen zum Datensatz zu aktualisieren.
+
+Weitere Informationen finden Sie unter [Adobe Workfront Planning AI Assistant Overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+## Neues Erlebnis beim Hinzufügen einer Miniaturansicht und eines Titelbilds zu einer Datensatzseite
+
+>[!NOTE]
+>
+>Vorschau-Version: 20. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Wenn Sie die Vorschau oder Seite eines Datensatzes öffnen und der Datensatz keine Miniaturansicht oder kein Titelbild aufweist, müssen Sie jetzt den Mauszeiger über den Bereich über dem Datensatznamen in der Kopfzeile bewegen, um die Optionen zum Hinzufügen eines Titelbilds und eines Miniaturbilds zum Datensatz anzuzeigen. Vor dieser Verbesserung werden die leeren Platzhalterbilder für die Miniaturansicht und das Deckblatt über dem Datensatznamen angezeigt.
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Hinzufügen eines Miniaturbilds zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Neue Anzeigetypen für Prozentfelder in der Tabellenansicht
 

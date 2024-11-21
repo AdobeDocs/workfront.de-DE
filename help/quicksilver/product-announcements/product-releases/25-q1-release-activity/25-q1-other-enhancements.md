@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,17 @@ ht-degree: 0%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2025 verfügbar sind, finden Sie unter [Versionsübersicht für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Aktualisierung der Verwaltung von verschobenen oder gelöschten Assets in verknüpften Ordnern
+
+>[!NOTE]
+>
+>Vorschau-Version: 21. November 2024; Produktionsversion für alle Kunden: 5. Dezember 2024
+
+Die Handhabung von verschobenen und gelöschten Assets bei der Verwendung der Adobe Workfront-Integration mit Experience Manager Assets und Assets Essentials wurde geändert:
+
+* Gelöschte Assets: Wenn ein Asset innerhalb eines verknüpften Ordners in Assets oder Assets Essentials gelöscht wird, wird das gelöschte Asset im Bereich Projektdokumente beibehalten.
+* Verschiebte Assets: Wenn ein Asset in Assets- oder Assets-Grundlagen aus einem verknüpften Ordner verschoben wird, wird das verschobene Asset im Bereich &quot;Projekte - Dokumente&quot;beibehalten.
 
 ## Abschnitte in einem benutzerdefinierten Formular sind jetzt ausblendbar und erweiterbar
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: cea70727aaaa867b55ce999f68a675c453840d41
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 * [Verbesserungen bei der Dokumentenverwaltung](#document-management-enhancements)
 * [Verbesserungen der Startseite](#home-enhancements)
 * [Verbesserungen bei der Überprüfung](#proofing-enhancements)
+* [Verbesserungen bei Berichten und Dashboards](#report-and-dashboard-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Administratorverbesserungen
@@ -52,6 +53,54 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         </td>
         <td>
             <p><span class="bold">Veröffentlichungsdaten</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Verwendung des Projekt- oder Benutzerzeitplans für Einzelzuweisungsaufgaben</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Voreinstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden sollte, um die Timeline des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Terminen:</b></p>
+            <ul>
+                <li>Vorschau-Version: 21. November 2024</li>
+                <li>Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Geschäftsregeln unterstützen jetzt Hyperlinks</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um den Benutzer darauf hinzuweisen, wie er seine Aktion innerhalb der Beschränkung der Regel ändern kann. Die statische URL kann mit der Dokumentation oder anderen Seiten verknüpft werden, die für den Benutzer hilfreich sind.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Terminen:</b></p>
+            <ul>
+                <li>Vorschau-Version: 21. November 2024</li>
+                <li>Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Filtern nach nativen Typeahead-Feldern ist jetzt verfügbar</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Wenn Sie einen nativen Feldverweis zu einem benutzerdefinierten Formular hinzufügen und auf ein Typeahead-Feld verweisen (z. B. Portfolio, Firma oder Eigentümer), ist jetzt eine Filteroption verfügbar. Mit dem Filter können Sie die Objekte einschränken, die Benutzer bei der Verwendung des Felds auswählen können. Dieser benutzerdefinierte Filter funktioniert genauso wie ein Filter für ein benutzerdefiniertes typeahead-Feld, wobei der Textmodus zum Definieren des Filters verwendet wird.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Terminen:</b></p>
+            <ul>
+                <li>Vorschau-Version: 21. November 2024</li>
+                <li>Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (Januar 2025)</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -122,6 +171,22 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Mehrere Dokumente gleichzeitig bearbeiten</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Sie können jetzt mehrere Dokumente gleichzeitig bearbeiten. Sie können die Beschreibungen bearbeiten und benutzerdefinierte Formulare aktualisieren.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Terminen:</b></p>
+            <ul>
+                <li>Vorschau-Version: 21. November 2024</li>
+                <li>Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Neuer Status "Entzogen"für Genehmigungen von Dokumentversionen verfügbar</a></p>
             [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
             <p>Wenn einem Dokument eine neue Version mit ausstehenden Genehmigungen hinzugefügt wird, wird die Genehmigung für die vorherige Version jetzt als "Zurückgezogen"angezeigt, was bedeutet, dass der vorherige Genehmigungsprozess aufgrund der neuen Version abgeschlossen wurde.</p>
@@ -133,6 +198,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <li>Produktion für schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (Januar 2025)</li>
             </ul>
+            <p><i>Diese Funktion ist Teil einer stufenweisen Veröffentlichung und steht nur bestimmten Kunden zur Verfügung.</i></p>
         </td>
     </tr>
 </tbody>
@@ -225,12 +291,62 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 </tbody>
 </table>
 
+## Verbesserungen bei Berichten und Dashboards
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Funktion</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Veröffentlichungsdaten</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Schaltfläche zur ersten Erstellung von Leserkonten für Data Connect</a></p>
+            <p>Administratoren, die erstmals auf Data Connect zugreifen, haben jetzt die Möglichkeit, ein neues Snowflake-Leserkonto zu erstellen, indem sie auf eine Schaltfläche klicken. Der Vorgang dauert einige Minuten, erfordert jedoch keine weiteren Maßnahmen.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Terminen:</b></p>
+            <ul>
+                <li>Vorschau-Version: 14. November 2024</li>
+                <li><span class="preview">Produktionsversion für alle Kunden: 14. November 2024</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
 ### Weitere Verbesserungen
 
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Aktualisierung der Verwaltung von verschobenen oder gelöschten Assets in verknüpften Ordnern</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Die Handhabung von verschobenen und gelöschten Assets bei der Verwendung der Adobe Workfront-Integration mit Experience Manager Assets und Assets Essentials wurde geändert:</p>
+            <ul>
+                <li>Gelöschte Assets: Wenn ein Asset innerhalb eines verknüpften Ordners in Assets oder Assets Essentials gelöscht wird, wird das gelöschte Asset im Bereich Projektdokumente beibehalten.</li>
+                <li>Verschiebte Assets: Wenn ein Asset in Assets- oder Assets-Grundlagen aus einem verknüpften Ordner verschoben wird, wird das verschobene Asset im Bereich "Projekte - Dokumente"beibehalten.</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Terminen:</b></p>
+            <ul>
+                <li>Vorschau-Version: 21. November 2024</li>
+                <li><span class="preview">Produktionsversion für alle Kunden: 5. Dezember 2024</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
