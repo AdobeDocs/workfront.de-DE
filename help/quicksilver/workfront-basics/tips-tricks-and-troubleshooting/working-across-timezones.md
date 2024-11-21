@@ -5,9 +5,9 @@ title: Arbeiten über Zeitzonen hinweg
 description: Es kann hilfreich sein, zu verstehen, wie [!DNL Adobe Workfront] Zeitzonen verwendet, um Zeitfelder für Objekte und Uhrzeiten in anderen Bereichen wie E-Mails zu berechnen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,9 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
-
--->
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
 
 Es kann hilfreich sein, zu verstehen, wie [!DNL Adobe Workfront] Zeitzonen verwendet, um Folgendes zu berechnen:
 
@@ -103,18 +100,16 @@ Sie können Benutzern auf verschiedene Weise dabei helfen, einfacher über mehre
    * Die Zeitzone für den Zeitplan des primären Eigentümers der Aufgabe
    * Die Zeitzone für den Zeitplan des Projekts.
 
-<!--
-   <div class="preview">
+  <div class="preview">
 
-   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
+  Wenn ein Benutzer einer Aufgabe zugewiesen ist, verwendet das System eine der folgenden Optionen, wie in den systemweiten oder gruppenweiten Projekteigenschaften konfiguriert:
 
-   * The time zone for the schedule of the task's assignee
-   * The time zone for the schedule of the project.
+   * Die Zeitzone für den Zeitplan des Verantwortlichen der Aufgabe
+   * Die Zeitzone für den Zeitplan des Projekts.
 
-   </div>
--->
+  </div>
 
-Dies kann dazu führen, dass sich die Aufgabendaten ändern.
+  Dies kann dazu führen, dass sich die Aufgabendaten ändern.
 
 >[!BEGINSHADEBOX]
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2721'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+
 
 Als [!DNL Adobe Workfront] -Administrator können Sie die Standardeinstellungen für alle im System erstellten Projekte konfigurieren. Diese Voreinstellungen wirken sich auf Projekt-, Aufgaben- und Problemverhalten aus.
 
@@ -214,8 +213,23 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
      <li><strong>[!UICONTROL Primäre Zuweisung]</strong>: [!DNL Workfront] verwendet den Zeitplan der Primären Zuweisung für die Aufgabe zur Berechnung der Zeitpläne.</li> 
      <li><strong>[!UICONTROL Projekt]</strong>: [!DNL Workfront] verwendet den Zeitplan des Projekts zur Berechnung der Zeitleiste jeder Aufgabe.</li> 
     </ul> <p>Weitere Informationen zu Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Erstellen eines Zeitplans</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
+  </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"> <p><span class="preview">Wenn eine Benutzerin bzw. ein Benutzer einer Aufgabe zugeteilt ist, den Zeitplan verwenden von …</span></p> </td> 
+   <td> <div class="preview">
+<p>Wenn einem Projekt kein Zeitplan zugewiesen ist oder den Benutzern kein Zeitplan zugewiesen wurde, verwendet [!DNL Workfront] den standardmäßigen Systemzeitplan zur Berechnung der Zeitleiste der Aufgaben.</p>
+
+<p>Wenn Sie einen Benutzer einer Aufgabe in einem Projekt zuweisen und sowohl dem Projekt als auch dem den Aufgaben zugewiesenen Benutzer Zeitpläne zugeordnet sind, verwendet [!UICONTROL Workfront] die folgenden Zeitpläne:</p> 
+    <ul> 
+     <li><strong>[!UICONTROL Benutzer]</strong>: [!DNL Workfront] verwendet den Zeitplan des zugewiesenen Benutzers für die Aufgabe zur Berechnung der Zeitleisten.</li> 
+     <li><strong>[!UICONTROL Projekt]</strong>: [!DNL Workfront] verwendet den Zeitplan des Projekts zur Berechnung der Zeitleiste der Aufgabe.</li> 
+    </ul> <p>Weitere Informationen zu Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Erstellen eines Zeitplans</a>.</p>
+</div></td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Timeline-Berechnungen] </p> </td> 
    <td> 
     <ul> 
@@ -232,18 +246,12 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
  </tbody> 
 </table>
 
-<!--Add this to the table (under the "When multiple users are assigned ..." setting):
 
-<span class="preview">When one user is assigned to a task, use the schedule of the...</span>
 
-<div class="preview">
-<p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign one user to a task in a project and the project has an assigned schedule and the user assigned to the tasks also has a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] uses the schedule of the assigned user on the task to calculate timelines.</li> 
-     <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] uses the schedule of the project to calculate the timeline of the task.</li> 
-    </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p>
-</div>
--->
+
+
+
+
 
 ### [!UICONTROL Geschäftsszenarios] {#business-cases}
 
