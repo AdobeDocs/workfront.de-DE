@@ -9,9 +9,9 @@ description: In einem [!DNL Adobe Workfront Fusion] szenario können Sie Workflo
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 86be8b6e1c21f3fd5f5b66afa3bf930d6bafbd63
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '3208'
+source-wordcount: '3230'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,29 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 >Dropbox muss Anwendungen mit mehr als 50 Nutzern genehmigen.
 >
 >Weitere Informationen finden Sie unter &quot;Produktionsgenehmigung&quot;im Dropbox-Entwicklerhandbuch.
+
+## Dropbox-API-Informationen
+
+Der Dropbox-Connector verwendet Folgendes:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td> https://api.dropboxapi.com/2    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-Version</td> 
+   <td> 2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-Tag</td> 
+   <td><ul><li><p>Dropbox</p><p>v5.3.9</p></li><li><p>Dropbox Business</p><p>v1.0.12</p></li></ul></td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 ## Erstellen einer Verbindung zu [!DNL Dropbox]

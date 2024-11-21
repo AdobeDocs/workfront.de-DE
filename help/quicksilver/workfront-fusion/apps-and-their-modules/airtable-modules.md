@@ -10,10 +10,10 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 1%
+source-wordcount: '1877'
+ht-degree: 2%
 
 ---
 
@@ -60,6 +60,25 @@ Sie müssen über ein Airtable-Konto verfügen, um die Funktionalität dieses Ar
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
 -->
+
+## Airtable API-Informationen
+
+Der Airtable-Connector verwendet Folgendes:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://api.airtable.com/v0</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-Tag</td> 
+   <td>v3.3.28</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Verbinden von Airtable mit Workfront Fusion {#connect-airtable-to-workfront-fusion}
 

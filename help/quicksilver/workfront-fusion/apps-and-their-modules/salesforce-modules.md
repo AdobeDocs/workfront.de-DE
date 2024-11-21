@@ -9,9 +9,9 @@ description: In einem Adobe Workfront Fusion-Szenario können Sie Workflows auto
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,29 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 ## Voraussetzungen
 
 Um [!DNL Salesforce] -Module zu verwenden, müssen Sie über ein [!DNL Salesforce] -Konto verfügen.
+
+## Salesforce-API-Informationen
+
+Der Salesforce-Connector verwendet Folgendes:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td> {connection.instanceUrl}</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-Version</td> 
+   <td> v46.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-Tag</td> 
+   <td>v1.15.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Über die Suche nach [!DNL Salesforce] -Objekten
 

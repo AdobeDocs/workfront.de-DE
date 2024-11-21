@@ -9,9 +9,9 @@ description: Mit den Adobe Photoshop-Modulen können Sie ein Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: c3187e3dc21b4705a0e249ed8cc6df66575ef06b
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '4308'
+source-wordcount: '4325'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,25 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
 Bevor Sie den Connector [!DNL Adobe Photoshop] verwenden können, müssen Sie sicherstellen, dass die folgenden Voraussetzungen erfüllt sind:
 
 * Sie müssen über ein aktives [!DNL Adobe Photoshop] -Konto verfügen.
+
+## Adobe Photoshop-API-Informationen
+
+Der Adobe Photoshop-Connector verwendet Folgendes:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://image.adobe.io/pie/psdService</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-Tag</td> 
+   <td>v1.12.31</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Erstellen einer Verbindung zu [!DNL Adobe Photoshop]
 

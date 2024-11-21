@@ -9,10 +9,10 @@ description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflo
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 0%
+source-wordcount: '864'
+ht-degree: 1%
 
 ---
 
@@ -66,6 +66,21 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 ## Voraussetzungen
 
 Um [!DNL Datadog] -Module zu verwenden, müssen Sie über ein [!DNL Datadog] -Konto verfügen.
+
+## Daten-API-Informationen
+
+Der Datadog-Connector verwendet Folgendes:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-Tag</td> 
+   <td>1,0,11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Datadog] mit [!DNL Workfront Fusion] verbinden {#connect-datadog-to-workfront-fusion}
 
@@ -128,10 +143,10 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 ### Aktionen
 
-* [[!UICONTROL Post Timeseries-Punkte]](#post-timeseries-points)
+* [[!UICONTROL POST-Timeseries-Punkte]](#post-timeseries-points)
 * [[!UICONTROL API-Aufruf durchführen]](#make-an-api-call)
 
-#### [!UICONTROL Post Timeseries-Punkte]
+#### [!UICONTROL POST-Timeseries-Punkte]
 
 Mit dem -Modul können Sie Zeitreihendaten posten, die auf den Dashboards von [!DNL Datadog] dargestellt werden können.
 

@@ -9,9 +9,9 @@ description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: d281d9eae03254d9cab4ff4bd86cd2d621cc7393
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,29 @@ Bevor Sie den Connector [!DNL Anaplan] verwenden können, müssen Sie sicherstel
 
 * Sie müssen über ein aktives [!UICONTROL Anaplan] -Konto verfügen.
 * Sie müssen Arbeitsbereiche, Modelle und andere [!DNL Anaplan] -Objekte in Ihrem [!UICONTROL Anaplan] -Konto konfigurieren, bevor [!DNL Workfront Fusion] mit ihnen interagieren kann.
+
+## API-Informationen für Anaplan
+
+Der Anaplan-Connector verwendet Folgendes:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td>https://api.anaplan.com/2/0/
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-Version</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-Tag</td> 
+   <td>v1.11.5/td&gt; 
+ </tbody> 
+</table>
 
 ## [!DNL Anaplan] mit [!DNL Workfront Fusion] verbinden {#connect-anaplan-to-workfront-fusion}
 

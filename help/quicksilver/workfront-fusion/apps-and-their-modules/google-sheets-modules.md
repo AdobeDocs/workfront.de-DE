@@ -9,9 +9,9 @@ description: Um die Erweiterung [!DNL Google Sheets] mit der Erweiterung [!DNL A
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '4000'
+source-wordcount: '4023'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 ## Voraussetzungen
 
 Um die Module [!UICONTROL Google Tabellen] zu verwenden, müssen Sie über ein [!UICONTROL Google] -Konto verfügen.
+
+## Google Tabellen-API-Informationen
+
+Der Google Tabellen-Connector verwendet Folgendes:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td> https://sheets.googleapis.com/v4</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-Version</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-Tag</td> 
+   <td>v2.5.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Trigger
 
@@ -720,7 +743,7 @@ Verwenden Sie das Modul [!UICONTROL Suchzeilen (erweitert)] und rufen Sie mit di
    * Der Name der Funktion muss dem in Schritt 9 angegebenen Namen entsprechen.
    * Ersetzen Sie die URL durch die URL des Webhooks, den Sie in Schritt 2 kopiert haben.
 
-     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("&lt;Webhook you copy&gt;");</pre><pre>}</pre>
 
 1. Drücken Sie **[!UICONTROL Strg+S]**, um die Skriptdatei zu speichern, geben Sie einen Projektnamen ein und klicken Sie auf **[!UICONTROL OK]**.
 

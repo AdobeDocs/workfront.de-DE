@@ -9,9 +9,9 @@ description: Mit den [!DNL Adobe Workfront Fusion Google Drive] Modulen können 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2958'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
 Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Google Drive-API-Informationen
+
+Der Google Drive-Connector verwendet Folgendes:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Basis-URL</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-Version</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-Tag</td> 
+   <td>v4.1.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 
@@ -867,13 +890,13 @@ Alle Beispiele auf dieser Seite zeigen den nicht kodierten Parameter `<q>q</q>`,
   <pre>fullText enthält '"hello world"'fullText enthält '"hello_world"'</pre>
 * Suchen Sie nach Dateien mit einer Abfrage, die das Zeichen &quot;\&quot;enthält (z. B. &quot;\authors&quot;).
   <pre>fullText enthält '\\authors'</pre>
-* Suchen Sie nach Dateien, die vom Benutzer &quot;test@example.org&quot;geschrieben werden können.
+* Suchen Sie nach Dateien, die vom Benutzer `test@example.org` geschrieben werden können.
   <pre>"test@example.org"in [!DNL writers]</pre>
 * Suchen Sie in der `parents` -Sammlung nach der ID `1234567` . Dadurch werden alle Dateien und Ordner gefunden, die sich direkt im Ordner befinden, dessen Kennung `1234567` lautet.
   <pre>"1234567"in [!UICONTROL Eltern]</pre>
 * Suchen Sie in der `parents` -Sammlung nach der Alias-ID `appDataFolder` . Dadurch werden alle Dateien und Ordner gefunden, die sich direkt im Ordner [Anwendungsdaten](https://developers.google.com/drive/api/v2/appdata) befinden.
   <pre>"appDataFolder"in übergeordneten Elementen</pre>
-* Suchen Sie nach Dateien, die von den Benutzern &quot;test@example.org&quot;und &quot;test2@example.org&quot;geschrieben werden können.
+* Suchen Sie nach Dateien, die von den Benutzern `test@example.org` und `test2@example.org` geschrieben werden können.
   <pre>"test@example.org"in Schriftstellern und "test2@example.org"in Schriftstellern</pre>
 * Suchen Sie nach Dateien mit dem Text &quot;wichtig&quot;, die sich im Papierkorb befinden.
   <pre>fullText enthält "wichtig"und ist durchgestrichen = true</pre>

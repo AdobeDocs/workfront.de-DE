@@ -8,9 +8,9 @@ description: Sie können das Text-Parser-Tool verwenden, um Text zur Verwendung 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
 Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Informationen zur Text Parser-API
+
+Der Text-Parser-Connector verwendet Folgendes:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-Tag</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Text parser] -Module und ihre Felder
 
@@ -180,7 +195,7 @@ Eine Diskussion über reguläre Ausdrücke geht über den Rahmen dieses Artikels
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Aktivieren Sie diese Option, um sicherzustellen, dass der Punkt (.) entspricht Zeilenumbruchzeichen (<code>\n</code>).</td> 
+   <td>Aktivieren Sie diese Option, um sicherzustellen, dass der Punkt (.) mit Zeilenumbruchzeichen (<code>\n</code>) übereinstimmt.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Fortfahren der Routenausführung, selbst wenn das Modul keine Ergebnisse zurückgibt]</td> 
@@ -223,7 +238,7 @@ Sucht den eingegebenen Text nach einem bestimmten Wert oder regulären Ausdruck 
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Aktivieren Sie diese Option, um sicherzustellen, dass der Punkt (.) entspricht Zeilenumbruchzeichen (<code>\n</code>).</td> 
+   <td>Aktivieren Sie diese Option, um sicherzustellen, dass der Punkt (.) mit Zeilenumbruchzeichen (<code>\n</code>) übereinstimmt.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Text] </td> 
