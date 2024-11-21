@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6537'
 ht-degree: 5%
 
 ---
@@ -263,6 +263,10 @@ Hinzufügen eines Textfelds:
     <td> Wenn Sie einen Hyperlink auf den eingegebenen Text anwenden möchten, fügen Sie ihn hier hinzu. Der beschreibende Text wird als Link auf Objekten angezeigt, an die das Formular angehängt ist.</td>
     <td><ul><li>Beschreibender Text</li></ul></td>
     </tr>
+    <tr> 
+      <td role="rowheader">Zu einem Pflichtfeld machen</td>
+      <td><p>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann.</p></td>
+    </tr> 
    </table>
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
@@ -837,6 +841,27 @@ Diese Tabelle listet die verfügbaren nativen Felder für bestimmte Workfront-Ob
       <td role="rowheader">Referenzfeld</td> 
       <td><p>(Erforderlich) Wählen Sie ein natives Workfront-Feld aus.<p><p>Es sind nur native Felder für die Objekte des Formulars verfügbar. Wenn beispielsweise in der Liste "Objekttypen"oben im Formularentwickler "Projekt"angezeigt wird, können Sie native Felder für Projekte auswählen, jedoch nicht für Aufgabenfelder.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Filter hinzufügen</span></td>
+      <td><span class="preview"><p>Fügen Sie einen Filter für das Referenzfeld hinzu, um die Liste der Elemente zu beschränken, aus denen Benutzer wählen können, wenn sie das Feld verwenden. </p> <p>Sie können beispielsweise ein Feld so einschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
+       <ul>
+        <li>Sie gehören zu einer oder mehreren Gruppen, die Sie angeben</li> 
+        <li>Sie sind mit einer von Ihnen angegebenen Rolle oder Berufsbezeichnung verknüpft.</li> 
+        <li>Sie gehören zur gleichen Gruppe wie die Person, die das Feld verwendet</li> 
+       </ul>
+       <p>Sie müssen den Filter für das ausgewählte Referenzfeld mithilfe der Textmodus-Syntax definieren. Informationen zum Erstellen eines Filters mit dem Textmodus finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Bearbeiten eines Filters mit dem Textmodus</a>.</p>
+       <p><b>NOTE</b>:
+       <ul> 
+        <li>Die Filteroption ist nur verfügbar, wenn Sie auf ein natives Typenvorlagenfeld wie Portfolio, Unternehmen oder Eigentümer verweisen.</li>
+        <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden durch Hinzufügen eines Filters zu einem nativen Feld keine Objekte (außerhalb des Filterbereichs) entfernt, die Benutzer bereits über das Feld hinzugefügt haben.</li> 
+        <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein natives Feld verwenden, wird das Feld auf den Mobilgeräten der Benutzer angezeigt, die vom Filter nicht betroffen sind.</li> 
+        </ul></p></span></td> 
+      <td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Zu einem Pflichtfeld machen</td>
+      <td><p>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann.</p></td>
+     </tr> 
      <tr> 
       <td role="rowheader">Größe</td> 
       <td>(Optional) Ändern Sie bei Bedarf die Anzeigegröße des Felds.</td> 
