@@ -9,7 +9,7 @@ description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Ihr E-M
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebene Funktionalität nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
    <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
@@ -539,7 +539,7 @@ Gibt E-Mails zurück, die den angegebenen Kriterien entsprechen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL E-Mail-ID (UID)]</td> 
-   <td> <p> Geben Sie die E-Mail-ID (UID) der E-Mail ein, deren Details Sie abrufen möchten.</p> <p>Sie können die UID der E-Mail mit dem Modul [!UICONTROL Watch Email] oder dem Modul [!UICONTROL Search Email] von [!DNL Workfront Fusion] abrufen.</p> </td> 
+   <td> <p> Geben Sie die E-Mail-ID (UID) der E-Mail ein, deren Details Sie abrufen möchten.</p> <p>Sie können die UID der E-Mail mit dem Modul [!UICONTROL Watch Email] von [!DNL Workfront Fusion] oder dem Modul [!UICONTROL Search Email] abrufen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximale Ergebnisanzahl]</td> 

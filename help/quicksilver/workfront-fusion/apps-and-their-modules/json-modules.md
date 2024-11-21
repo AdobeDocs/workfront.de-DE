@@ -8,7 +8,7 @@ description: Die Adobe Workfront Fusion JSON-App bietet Module zur Verarbeitung 
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebene Funktionalität nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
    <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
@@ -88,7 +88,7 @@ Wenn das Feld JSON-Zeichenfolge eine Sammlung `{ ... }` enthält, ist die Ausgab
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Wenn das JSON-Zeichenfolgenfeld ein Array `[ ... ]` enthält, ist die Ausgabe ei
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -248,26 +248,25 @@ Dieses Aktionsmodul wandelt ein Objekt in eine JSON-Zeichenfolge um.
 >
 **Beispiel:**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Feld [!UICONTROL Spezifikation] in der Datenstruktur enthält jetzt die generierte Struktur.
 1. Ändern Sie den Namen Ihrer Datenstruktur in etwas spezifischeres und klicken Sie auf **[!UICONTROL Speichern]**. Ein Feld, das dem Root-Array-Attribut entspricht, wird als zuordnbares Feld in der Einrichtung des JSON-Moduls angezeigt.

@@ -10,7 +10,7 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '4070'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebene Funktionalität nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
    <p>Oder</p>
    <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
    </td> 
@@ -996,11 +996,11 @@ Informationen zu Feldern finden Sie unter [Auftrag abspielen](https://docs.gitla
 
 +++
 
-+++**[!UICONTROL Post-Kommentar zum Bestätigen]**
++++**[!UICONTROL Kommentar zum Bestätigen posten]**
 
 Dieses Aktionsmodul fügt einem Commit einen Kommentar hinzu.
 
-Weitere Informationen zu Feldern finden Sie unter [Post-Kommentar zu commit](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) in der [!DNL GitLab] -Dokumentation.
+Informationen zu Feldern finden Sie unter [Kommentar zum Commit posten](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) in der Dokumentation zu [!DNL GitLab].
 
 +++
 
