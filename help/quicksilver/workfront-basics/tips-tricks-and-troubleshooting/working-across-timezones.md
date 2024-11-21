@@ -5,9 +5,9 @@ title: Arbeiten über Zeitzonen hinweg
 description: Es kann hilfreich sein, zu verstehen, wie [!DNL Adobe Workfront] Zeitzonen verwendet, um Zeitfelder für Objekte und Uhrzeiten in anderen Bereichen wie E-Mails zu berechnen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,13 @@ ht-degree: 0%
 # Arbeiten über Zeitzonen hinweg
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 Es kann hilfreich sein, zu verstehen, wie [!DNL Adobe Workfront] Zeitzonen verwendet, um Folgendes zu berechnen:
 
@@ -91,20 +98,37 @@ Sie können Benutzern auf verschiedene Weise dabei helfen, einfacher über mehre
 
   Dieser Zeitplan unterscheidet sich möglicherweise von einem Projektplan. Wenn beispielsweise jemand eine Aufgabe im Projekt erstellt und ihr noch niemand zugewiesen hat, verwendet die Aufgabe den Projektplan. Wenn ein Benutzer der Aufgabe zugewiesen ist, verwendet die Aufgabe den Zeitplan dieses Benutzers.
 
-  Wenn einer Aufgabe mehrere Benutzer zugewiesen sind, verwendet das System eine der folgenden Optionen, wie in den systemweiten Projektvoreinstellungen konfiguriert:
+  Wenn einer Aufgabe mehrere Benutzer zugewiesen sind, verwendet das System eine der folgenden Optionen, wie in den systemweiten oder gruppenweiten Projektvoreinstellungen konfiguriert:
 
    * Die Zeitzone für den Zeitplan des primären Eigentümers der Aufgabe
    * Die Zeitzone für den Zeitplan des Projekts.
 
-  Dies kann dazu führen, dass sich die Aufgabendaten ändern.
+<!--
+   <div class="preview">
 
-  **Beispiel:** Ein EST-Benutzer wird einer eintägigen Aufgabe zugewiesen, die für den Start um 9:00 Uhr PST geplant ist, also um 12:00 Uhr EST. Da dem EST-Benutzer für den Tag nur noch zwei Arbeitsstunden verbleiben, erstreckt sich das Abschlussdatum der Aufgabe um etwa 6 Stunden bis zum nächsten Arbeitstag.
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  Weitere Informationen zum Bereich [!UICONTROL Projektvoreinstellungen] von [!UICONTROL Einrichtung] finden Sie unter [Systemweite Projektanvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  Anweisungen zum Zuweisen eines Zeitplans zu einem Projekt oder Benutzer finden Sie unter [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   </div>
+-->
 
-  Informationen dazu, wie sich die in Ihrem Zeitplan konfigurierte Zeitzone auf die Verteilung von [!UICONTROL geplanten Stunden] im [!UICONTROL Lastenausgleich] auswirkt, finden Sie unter [Verwalten von Benutzerzuordnungen im [!UICONTROL Lastenausgleich]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Dies kann dazu führen, dass sich die Aufgabendaten ändern.
+
+>[!BEGINSHADEBOX]
+
+**BEISPIEL:**
+Ein EST-Benutzer wird einer eintägigen Aufgabe zugewiesen, die für den Start um 9:00 Uhr PST geplant ist, also um 12:00 Uhr EST. Da dem EST-Benutzer für den Tag nur noch zwei Arbeitsstunden verbleiben, erstreckt sich das Abschlussdatum der Aufgabe um etwa 6 Stunden bis zum nächsten Arbeitstag.
+
+
+>[!ENDSHADEBOX]
+
+Weitere Informationen zum Bereich [!UICONTROL Projektvoreinstellungen] von [!UICONTROL Einrichtung] finden Sie unter [Systemweite Projektanvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+Anweisungen zum Zuweisen eines Zeitplans zu einem Projekt oder Benutzer finden Sie unter [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+Informationen dazu, wie sich die in Ihrem Zeitplan konfigurierte Zeitzone auf die Verteilung von [!UICONTROL geplanten Stunden] im [!UICONTROL Lastenausgleich] auswirkt, finden Sie unter [Verwalten von Benutzerzuordnungen im [!UICONTROL Lastenausgleich]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Berechnete Zeitfelder in einem benutzerdefinierten Formular verwenden {#use-calculated-time-fields-in-a-custom-form}

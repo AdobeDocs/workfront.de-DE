@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
+source-wordcount: '4129'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
 <p>Alle </p> 
 <p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
@@ -206,6 +206,9 @@ OLD:
    Bewegen Sie den Mauszeiger über die Kopfzeile einer Spalte, klicken Sie auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Links einfügen** oder **Rechts einfügen** , um das neue Feld hinzuzufügen.
 1. Suchen Sie auf der Registerkarte **Neues Feld** im Feld **Feldtyp** nach einem Feldtyp oder wählen Sie aus den folgenden Feldtypen aus:
 
+   Suchen Sie auf der Registerkarte **Neues Feld** im Feld **Feldtyp** nach einem Feldtyp <!--using any related keyword--> oder wählen Sie aus den unten aufgeführten Feldtypen aus.
+
+
    * [Einzeiliger Text](#single-line-text)
    * [Absatz](#paragraph)
    * [Mehrfachauswahl](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    Der Feldtyp kann nach dem Speichern nicht mehr geändert werden.
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. Fahren Sie mit dem Hinzufügen der einzelnen Felder fort, wie in den folgenden Abschnitten beschrieben.
 

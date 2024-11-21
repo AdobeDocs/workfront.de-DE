@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -64,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td>
    <td>
 <p>Alle </p>  
 <p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </td>
@@ -166,7 +166,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Entfernen Sie beispielsweise das Feld **Betreff** , da dies in der Workfront-Planung nicht sichtbar ist. <!--remove this step when we connect intake with the Requests area in Workfront-->
 1. Klicken Sie auf ein beliebiges Feld und verwenden Sie dann die Steuerelemente im rechten Bereich im Formular, um deren Größe oder eine der folgenden Informationen zu definieren:
 
-   * **Beschriftung**: Dies ist der Name des Felds, wie er im Anfrageformular angezeigt wird. Dadurch wird der Name des Datensatzfelds nicht geändert.
+   * **Beschriftung**: Dies ist der Name des Felds, wie es im Anfrageformular angezeigt wird. Dadurch wird der Name des Datensatzfelds nicht geändert.
    * **Anweisungen**: Fügen Sie weitere Informationen zum Feld hinzu.
    * **Machen Sie ein erforderliches Feld**: Wenn ausgewählt, muss das Feld einen Wert enthalten. Andernfalls kann das Formular nicht gesendet werden.
    * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird.
@@ -205,7 +205,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Jede Person mit Zugriff auf den Arbeitsbereich (Beitrag oder höher)
    * Jede Person mit dem Link
 
-   >[!IMPORTANT]
+   >[!WARNING]
+   >
    >
    >Wenn Sie **Jeder, der über den Link** verfügt, auswählen, kann jeder auf das Formular zugreifen und einen neuen Datensatz senden, selbst Personen außerhalb Ihres Unternehmens, die kein Workfront-Konto haben.
 

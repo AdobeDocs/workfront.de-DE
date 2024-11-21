@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
 
 
 # Hinzufügen eines Titelbilds zu einem Datensatz
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
 
 {{planning-important-intro}}
 
@@ -56,10 +60,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
 <p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Weitere Informationen zu den in den einzelnen Workfront-Planungspaketen enthaltenen Elementen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
@@ -96,65 +100,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-
-<!--
-
-OLD: 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>  
-   <p>Current: Plan</p>   
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td>  <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfornt documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
 
 ## Überlegungen zu Hintergrundbildern von Datensatzseiten
 
@@ -203,8 +148,7 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    ![](assets/details-page.png)
 
-1. Klicken Sie in der Datensatzvorschau oder -seite auf **Deckblatt hinzufügen** .
-
+1. Klicken Sie in der Vorschau oder Seite des Datensatzes auf **cover** in der Produktionsumgebung hinzufügen, auf <span class="preview"> oder bewegen Sie den Mauszeiger über den Bereich über dem Datensatznamen und klicken Sie dann in der Vorschau-Umgebung auf **cover** hinzufügen</span> .
 
    Oder
 

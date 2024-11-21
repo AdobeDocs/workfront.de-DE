@@ -6,15 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
 
 
 # Hinzufügen einer Miniaturansicht zu einem Datensatz
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+
 
 {{planning-important-intro}}
 
@@ -55,7 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
 <p>Alle </p> 
 <p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
@@ -94,66 +99,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 *Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--OLD:
-
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p> 
-   <p>Current: Plan</p>
-    
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td>  <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfornt documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
 
 ## Überlegungen zu Miniaturansichten von Datensätzen
 
@@ -238,7 +183,12 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
 1. (Optional) Klicken Sie oben rechts auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) .
 
    Die Detailseite des Datensatzes wird geöffnet.
-1. Bewegen Sie den Mauszeiger über das Miniaturbild oder Symbol ![](assets/record-thumbnail-icon-on-details-page.png) und klicken Sie dann auf das Menü **Mehr** > ![](assets/more-menu.png) > **Miniatur bearbeiten** .
+
+1. (Bedingt) Bewegen Sie in der Datensatzvorschau oder -seite den Mauszeiger über das Miniaturbild oder Symbol ![](assets/record-thumbnail-icon-on-details-page.png) und klicken Sie dann in der Produktionsumgebung auf das Menü **Mehr** > ![](assets/more-menu.png) > **Miniatur bearbeiten** .
+
+   Oder
+
+   <span class="preview">Bewegen Sie den Mauszeiger über den Bereich über dem Datensatznamen und klicken Sie dann in der Vorschauumgebung auf **Miniatur hinzufügen** oder **Miniatur bearbeiten** .</span>
 
    Die Registerkarte **Hochladen** wird standardmäßig im Feld **Miniaturansicht aufzeichnen** geöffnet.
 

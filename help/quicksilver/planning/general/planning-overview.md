@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2106'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 1%
 >
 >Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 >
->* Ein neuer Workfront-Plan und eine neue -Lizenz. Die Workfront-Planung ist nicht für ältere Workfront-Pläne oder -Lizenzen verfügbar.
->* Eine zusätzliche Lizenz für Workfront Planning.
+>* Ein neues Workfront-Paket und eine neue -Lizenz. Die Workfront-Planung ist nicht für ältere Workfront-Pakete oder -Lizenzen verfügbar.
+>* Ein Workfront-Planungspaket.
 >* Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein.
 >
 > Eine vollständige Liste der Anforderungen für den Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht für die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md).

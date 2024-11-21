@@ -6,9 +6,9 @@ description: Sie können das Übermittlungsdatum einer Aufgabe oder eines Proble
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,9 @@ Sie können das Übermittlungsdatum einer Aufgabe oder eines Problems, dem Sie z
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Aufgaben oder Probleme verwalten</p> </td> 
+   <td> <p>Berechtigungen für Aufgaben oder Probleme verwalten</p>
+   <p> Sie müssen der Aufgabe oder dem Problem zugewiesen sein, um das Datum der Übertragung zu aktualisieren </p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

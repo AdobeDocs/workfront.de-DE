@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td>
    <td>
 <p>einen der folgenden Workfront-Planungspläne:</p>
 <ul><li>In Planung</li>

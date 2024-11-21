@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Planungsplan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
 <p>Alle </p> 
 <p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -276,7 +276,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
    Die Landingpage für die Workfront-Planung wird geöffnet.
 
-1. (Optional und bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf die folgenden Registerkarten:
+1. (Optional und bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
 
    * **Meine Arbeitsbereiche**: Zeigt die von Ihnen erstellten Arbeitsbereiche an.
    * **Sonstige Arbeitsbereiche**: Zeigt alle Arbeitsbereiche in der Workfront-Planung an, einschließlich der für Sie freigegebenen Arbeitsbereiche.
@@ -291,8 +291,8 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 >
 >Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
 >
->* Ein neuer Workfront-Plan und eine neue -Lizenz. Die Workfront-Planung ist nicht für ältere Workfront-Pläne oder -Lizenzen verfügbar.
->* Eine zusätzliche Lizenz für Workfront Planning.
+>* Ein neues Workfront-Paket und eine neue -Lizenz. Die Workfront-Planung ist nicht für ältere Workfront-Pakete oder -Lizenzen verfügbar.
+>* Ein Workfront-Planungspaket.
 >* Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein.
 >
 > Eine vollständige Liste der Anforderungen für den Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).

@@ -6,15 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
 
 
 # Übersicht über den Adobe Workfront Planning AI Assistant
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
 
 {{planning-important-intro}}
 
@@ -59,9 +65,21 @@ Sie können den AI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 * Datensätze löschen
 * Wiederherstellen von gerade gelöschten Datensätzen
 
+
+<!-- ## Locate the AI Assistant in Workfront Planning
+
+You can locate the AI Assistant in the following areas of Workfront Planning:
+
+* The main navigation bar, in the upper-right corner of the screen.
+* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
+
+-->
+
 ## Zugriff auf die KI-Assistenzkraft im Planungsbereich
 
-1. Melden Sie sich bei Workfront an und wechseln Sie dann zum Bereich **Planung** .
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben rechts im Bildschirm auf das Symbol **Hauptmenü** ![](assets/dots-main-menu.png) oder, falls verfügbar, auf das Symbol **Hauptmenü** ![](assets/lines-main-menu.png) oben links.
+
+. Klicken Sie auf **Planung**. Der Planungsbereich wird geöffnet.
 
 1. Klicken Sie auf eine **Workspace-Karte**.
 
@@ -69,7 +87,7 @@ Sie können den AI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 
 1. (Optional) Klicken Sie auf einen **Datensatz** , um die Seite **Details** des Datensatzes zu öffnen.
 
-1. Klicken Sie in der globalen Navigationsleiste oben rechts im Bildschirm auf das Symbol **AI-Assistent** .
+1. Klicken Sie in der oberen rechten Ecke des Bildschirms in der globalen Navigationsleiste auf das Symbol **AI-Assistent** .<!--or in the upper-right corner of the record's preview or page.-->
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
@@ -87,3 +105,6 @@ Sie können den AI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
    Ein visueller Indikator wird angezeigt, während der AI-Assistent Befehle verarbeitet und Erwartungen für die Reaktionszeit festlegt.
 
    Nachdem Sie eine erfolgreiche Antwort erhalten haben, folgen Sie den angegebenen Links oder beachten Sie die Änderungen auf der linken Seite.
+
+
+
