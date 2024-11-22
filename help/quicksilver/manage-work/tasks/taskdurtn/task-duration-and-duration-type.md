@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1647'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,13 @@ Der Aufgabentyp gibt die Beziehung zwischen der Anzahl der einer Aufgabe zugewie
 
 Wenn das tatsächliche Start- und das tatsächliche Abschlussdatum der Aufgabe außerhalb des Zeitplans des Projekts, des primären Verantwortlichen oder des Standardzeitplans liegen, beträgt die Aufgabendauer null.
 
-**Beispiel:** Wenn Sie einen Zeitplan haben, der um 9:00 Uhr beginnt und um 23:00 Uhr endet und für eine Aufgabe geplant ist, die um 14:00 Uhr beginnt und um 16:00 Uhr endet, beträgt die Dauer der Aufgabe null.
+>[!BEGINSHADEBOX]
+
+**BEISPIEL**
+Wenn Sie einen Zeitplan haben, der um 9:00 Uhr beginnt und um 23:00 Uhr endet und für eine Aufgabe geplant ist, die um 14:00 Uhr beginnt und um 16:00 Uhr endet, beträgt die Dauer der Aufgabe null.
+
+
+>[!ENDSHADEBOX]
 
 Im Folgenden finden Sie zwei Szenarien, in denen die Dauer in Adobe Workfront berechnet wird:
 
@@ -70,6 +76,14 @@ Im Folgenden finden Sie zwei Szenarien, in denen die Dauer in Adobe Workfront be
 >[!NOTE]
 >
 >Unter Berücksichtigung der Projektzeit des Primären Verantwortlichen können sich die geplanten Aufgabendaten anpassen, die Aufgabendauer bleibt jedoch gleich. Weitere Informationen zur Berücksichtigung der Zeitdauer des Primären Verantwortlichen bei der Projektplanung finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+## Die ursprüngliche Dauer einer übergeordneten Aufgabe
+
+Die ursprüngliche Dauer einer Aufgabe ist die Dauer in Minuten, die eine Aufgabe hatte, bevor sie zur übergeordneten Aufgabe wurde.
+
+Wenn eine Aufgabe übergeordnet wird, wird die Dauer zwischen dem geplanten Startdatum des frühesten untergeordneten Elements und dem geplanten Abschlussdatum des letzten untergeordneten Elements in die übergeordnete Aufgabe aggregiert und wird zur Dauer der übergeordneten Aufgabe. Dadurch wird die Dauer der ursprünglichen Aufgabe ersetzt.
+
+Weitere Informationen finden Sie unter [Übersicht über die ursprüngliche Dauer der Aufgabe und die ursprünglich geplanten Stunden](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Zeiteinheiten für Aufgabendauer
 

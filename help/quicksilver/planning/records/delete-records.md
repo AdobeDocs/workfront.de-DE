@@ -1,14 +1,14 @@
 ---
 title: Datensätze löschen
-description: Sie können von Ihnen oder einem anderen Benutzer erstellte Datensätze löschen. Gelöschte Datensätze können nicht wiederhergestellt werden.
+description: Sie können von Ihnen oder einem anderen Benutzer erstellte Datensätze löschen.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '764'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 2%
 
 # Datensätze löschen
 
+<!--take Preview and Production references out at release-->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+
 {{planning-important-intro}}
 
-Sie können nicht mehr relevante Datensätze aus der Adobe Workfront-Planung löschen.
+Sie können nicht mehr relevante Datensätze aus der Adobe Workfront-Planung löschen. <span class="preview">Sie können gelöschte Datensätze 30 Tage nach dem Löschen wiederherstellen. Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Gelöschte Datensätze wiederherstellen](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
 
 ## Zugriffsanforderungen
 
@@ -156,10 +162,9 @@ OLD
 ## Überlegungen zum Löschen von Datensätzen
 
 * Sie können von Ihnen oder einem anderen Benutzer erstellte Datensätze löschen.
-* Gelöschte Datensätze können nicht wiederhergestellt werden. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* Gelöschte Datensätze können nicht in der Produktionsumgebung abgerufen werden. <span class="preview">Sie können gelöschte Datensätze in der Vorschau-Umgebung wiederherstellen.</span>
 * Wenn die gelöschten Datensätze mit anderen Datensätzen verknüpft sind, werden die verknüpften Datensätze nicht gelöscht, aber auch die Informationen aus dem gelöschten Datensatz werden gelöscht.
-* Es ist nicht möglich, Datensätze stapelweise zu löschen. <!--this will probably change-->
-* Datensätze können nicht aus der Timeline-Ansicht gelöscht werden.
+* Datensätze aus der Timeline oder den Kalenderansichten können nicht gelöscht werden.
 
 ## Datensätze löschen
 
@@ -192,7 +197,10 @@ Sie können einen Datensatz aus den folgenden Bereichen löschen:
 1. Klicken Sie auf das Menü **Mehr** rechts neben dem Datensatznamen, klicken Sie dann auf **Löschen** und dann erneut auf **Löschen** , um dies zu bestätigen.![](assets/more-menu.png)
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-Der Datensatz wird gelöscht und kann nicht wiederhergestellt werden.
+Der Datensatz wird gelöscht.
+1. (Optional und bedingt) Wenn Sie den Datensatz in der Vorschauumgebung löschen, wechseln Sie zur Tabellenansicht der Datensatzseite, klicken Sie auf das Symbol **Rückgängig** ![](assets/undo-icon.png) oben rechts in der Ansicht und klicken Sie dann auf **Kürzlich gelöscht** , um die gelöschten Datensätze wiederherzustellen.
+
+Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Gelöschte Datensätze wiederherstellen](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ### Datensatz aus der Tabellenansicht des Datensatztyps löschen
 
@@ -211,15 +219,22 @@ Der Datensatz wird gelöscht und kann nicht wiederhergestellt werden.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie mit der rechten Maustaste auf eine Datensatzzeile und klicken Sie dann auf **Löschen**.
-   * Klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) rechts neben dem Datensatznamen und dann auf **Löschen**
+   * Klicken Sie auf das Menü **Mehr** rechts neben dem Datensatznamen und dann auf **Löschen**.![](assets/more-menu.png)
 
      ![](assets/contextual-menu-for-record-row.png)
 
    * Klicken Sie auf das Symbol **Details öffnen** ![](assets/open-details-icon-in-table-name-field.png) , um das Feld mit den detaillierten Informationen des Datensatzes zu öffnen, und klicken Sie auf **Mehr** ![](assets/more-menu.png) rechts neben dem Datensatznamen und dann auf **Löschen**.
 
-   Der Datensatz wird gelöscht und kann nicht wiederhergestellt werden.
+   Der Datensatz wird gelöscht.
 
-1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Löschen eines Datensatzes rückgängig zu machen oder wiederherzustellen:
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um das Löschen eines Datensatzes rückgängig zu machen oder wiederherzustellen:
 
-   * STRG + Z ( ⌘ + Z für Mac) zum Rückgängigmachen einer Änderung
-   * STRG + Umschalt + Z ( ⌘ + Umschalt + Z für Mac) zum Wiederholen einer Änderung
+   * <span class="preview">Klicken Sie auf das Symbol **Rückgängig** ![](assets/undo-icon.png) und dann auf **Kürzlich gelöscht** , um die gelöschten Datensätze wiederherzustellen. Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Gelöschte Datensätze wiederherstellen](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+   * Verwenden Sie die folgenden Tastaturbefehle, um das Löschen eines Datensatzes rückgängig zu machen oder wiederherzustellen:
+
+      * STRG + Z ( ⌘ + Z für Mac) zum Rückgängigmachen des Löschens eines Datensatzes
+      * STRG + Umschalt + Z ( ⌘ + Umschalt + Z für Mac) zum erneuten Löschen von Datensätzen
+
+
+
+

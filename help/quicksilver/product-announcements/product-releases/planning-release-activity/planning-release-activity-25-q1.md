@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,21 @@ In diesem Artikel werden die Funktionen beschrieben, die während der Version de
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Eine Liste aller Funktionen, die nach der allgemeinen Release vom 28. August 2024 für die Adobe Workfront-Planung freigegeben wurden, finden Sie unter [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Gelöschte Datensätze wiederherstellen
+
+>[!NOTE]
+>
+>Vorschau-Version: 22. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Nachdem die Datensätze gelöscht wurden, werden sie nun 30 Tage lang vorübergehend in eine kürzlich gelöschte Klasse verschoben. Sie können auf die kürzlich gelöschte Klasse von der Seite des Datensatztyps zugreifen und sie enthält nur Datensätze eines bestimmten Typs.
+
+Workspace-Manager können bis zu 30 Tage nach dem Löschen Datensätze aus dem Papierkorb wiederherstellen. Verbundene Datensätze und ihre Feldinformationen werden ebenfalls wiederhergestellt.
+
+Vor dieser Verbesserung konnten gelöschte Datensätze nicht wiederhergestellt werden.
+
+Weitere Informationen finden Sie unter [Gelöschte Datensätze wiederherstellen](/help/quicksilver/planning/records/records-information.md).
 
 ## Adobe AI Assistant verfügbar in den Datensatzdetailbereichen
 
