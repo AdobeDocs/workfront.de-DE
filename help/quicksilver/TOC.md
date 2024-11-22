@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
+source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
 workflow-type: tm+mt
 source-wordcount: '14611'
 ht-degree: 2%
@@ -432,7 +432,6 @@ ht-degree: 2%
       * [Ankündigungen](product-announcements/announcements/announcements.md)
       * [Zeitplan von nicht mehr unterstützten Funktionen](product-announcements/announcements/feature-removal-timeline.md)
       * [Verbessertes Handbuch zur Einstellung von Analytics](product-announcements/announcements/enhanced-analytics-deprecation.md)
-      * [Handbuch zur veralteten Homepage-Einstellung](product-announcements/announcements/legacy-home-deprecation.md)
       * [Häufig gestellte Fragen zum Wartungsfenster](product-announcements/announcements/maintenance-window-faq.md)
       * [Zum Hinzufügen von Testsendungen zu Ihrer Zulassungsliste erforderliche Änderung](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Abmeldung von Nachrichten aus dem Ankündigungs-Center im neuen Adobe Workfront-Erlebnis](product-announcements/announcements/unsubscribe-from-ac-messages.md)
@@ -1163,6 +1162,7 @@ ht-degree: 2%
       * [Überprüfen der Dokumentenspeicherbeschränkungen](documents/managing-documents/check-document-storage.md)
       * [Dokumente löschen](documents/managing-documents/delete-documents.md)
       * [Bilder aus der Zwischenablage einfügen](documents/managing-documents/paste-image-clipboard.md)
+      * [Stapelweises Bearbeiten von Dokumenten](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
       * [AddBuilder in Workfront Document Details](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * Dokumente organisieren {#organize-documents}
       * [Dokumente organisieren](documents/organizing-documents/organize-documents.md)

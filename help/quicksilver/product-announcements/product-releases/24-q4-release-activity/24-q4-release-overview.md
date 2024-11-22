@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
+source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
@@ -561,7 +561,7 @@ Die folgende Funktion wird in Kürze aus Workfront entfernt:
 
 #### Veraltetes Home-Erlebnis mit Version 24.10
 
-Mit der Version 24.10 werden wir offiziell das alte Home-Erlebnis einstellen. Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird. Weitere Informationen zur Umstellung, einschließlich Hinweise dazu, was Benutzer und Administratoren zur Vorbereitung tun können, finden Sie im [Handbuch zur veralteten Home-Version](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Mit der Version 24.10 werden wir offiziell das alte Home-Erlebnis einstellen. Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird.
 
 ## Ankündigungen
 

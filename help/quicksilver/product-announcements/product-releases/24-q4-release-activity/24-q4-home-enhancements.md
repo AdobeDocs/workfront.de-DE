@@ -4,9 +4,10 @@ description: Verbesserungen für das vierte Quartal 2024 - Startseite
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
+source-git-commit: 01ea4c72e61cbc808ed76cb18e3f67d893bacf69
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -63,12 +64,18 @@ Mit dieser Änderung werden die folgenden Bereiche betroffen sein:
 
 * Der Bereich _Home workspace_ wird in _Home_ umbenannt.
 * Der Bereich _Home und Summary_ wird in _Summary panel_ umbenannt. Anpassungen in diesem Bereich gelten weiterhin für das Bedienfeld &quot;Zusammenfassung&quot;im neuen Startseite. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Die folgenden Registerkarten werden aus dem Bedienfeld Startseite und Zusammenfassung entfernt:
+   * Projekte
+   * Dokumente
+   * Dokumentversionen
+
+Hinweis: Die Dokument- und Dokumentversionen wurden nur auf die alte Startseite angewendet. Sie haben es nicht ermöglicht, die Zusammenfassung im Bereich &quot;Dokumente&quot;anzupassen.
 
 **Genehmigungen verwalten**
 
 * Sie können Benutzer nicht mehr in der Startseite von den eingereichten Genehmigungen abrufen, daran erinnern oder sie daraus entfernen. Stattdessen können Sie dies in der Validierung selbst verwalten.
 
-Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird. Weitere Informationen zur Umstellung, einschließlich Hinweise dazu, was Benutzer und Administratoren zur Vorbereitung tun können, finden Sie im [Handbuch zur veralteten Home-Version](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird.
 
 >[!NOTE]
 >

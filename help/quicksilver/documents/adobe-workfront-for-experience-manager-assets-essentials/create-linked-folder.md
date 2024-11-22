@@ -7,9 +7,9 @@ description: Sie können einen Ordner erstellen, der mit Experience Manager Asse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 96830bad7480a99ca8f318dbd791ebcaceddd01e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Erstellen eines Ordners, der mit Experience Manager Assets oder Assets Essentials verknüpft ist
 
 Sie können einen Ordner erstellen, der mit Experience Manager Assets oder Assets Essentials verknüpft ist, während Sie sich in Workfront befinden. Da der Ordner verknüpft ist, werden alle dem Ordner hinzugefügten Assets automatisch sowohl in Workfront als auch in Experience Manager angezeigt. Sie müssen das Asset nicht manuell senden, wenn es sich in einem verknüpften Ordner befindet.
+
+Wenn ein Asset aus einem verknüpften Ordner in Experience Manager Assets oder Assets Essentials gelöscht oder verschoben wird, behält Workfront eine Kopie des Assets im Bereich Projekt > Dokumente bei.
 
 
 ## Zugriffsanforderungen

@@ -5,9 +5,9 @@ description: '''In-App-Benachrichtigungen informieren Sie über zwei Arten von I
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Das nummerierte Symbol in der oberen rechten Ecke von [!DNL Workfront] zeigt die
 
    ![Letzte Benachrichtigungen bezüglich nicht gelesener Nachrichten](assets/qs-notifications-350x330.png)
 
-   Bis zu 80 Benachrichtigungen werden in einer bildlauffähigen Liste angezeigt. Um weitere Informationen anzuzeigen, können Sie unten in der Liste auf **[!UICONTROL Alle Benachrichtigungen]** klicken, um bis zu 100 Benachrichtigungen anzuzeigen. Benachrichtigungen werden nach 30 Tagen automatisch gelöscht.
+   Das Zahlensymbol zeigt eine Liste mit bis zu 80 Benachrichtigungen an. Um weitere Informationen anzuzeigen, können Sie unten in der Liste auf **[!UICONTROL Alle Benachrichtigungen]** klicken, um bis zu 500 Benachrichtigungen anzuzeigen. Benachrichtigungen werden nach 30 Tagen automatisch gelöscht.
 
    Am unteren Rand jeder Benachrichtigung werden der [!UICONTROL Benachrichtigungstyp] und ein entsprechendes Identifizierungssymbol angezeigt. Auf diese Weise können Sie erkennen, was mit dem erwähnten [!DNL Workfront] -Element passiert ist, und Sie werden benachrichtigt, wenn Sie über ein Aktionselement verfügen:
 
