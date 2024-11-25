@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: df3885233140c5d0af542c8999226f7934c1329f
+source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1643'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,7 @@ Weitere Informationen finden Sie im Abschnitt [Cluster- und Workfront-Plan Ihrer
 * [IP-Adressen für die Verwendung von Clustern 1, 2, 3, 5, 7, 8 und 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP-Adressen für Cluster 4](#ip-addresses-to-allow-for-cluster-4)
 * [IP-Adressen für Cluster 6](#ip-addresses-to-allow-for-cluster-6)
+* [IP-Adressen für Cluster 10](#ip-addresses-to-allow-for-cluster-10)
 * [IP-Adressen, um ein Testlaufwerk zu ermöglichen](#IP%20Addre2)
 * [IP-Adressen, die bei der Implementierung von Ereignisabonnements zulässig sind](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [IP-Adressen, um eine erweiterte Authentifizierung zu ermöglichen](#ip-addresses-to-allow-for-enhanced-authentication)
