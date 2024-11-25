@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
-source-git-commit: 27158301e491d4ff45ce7987a81f841fb4525b2a
+source-git-commit: f8ea4a1c40cd3fc4664a5a3b1c3a900e874d78b1
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,48 @@ ht-degree: 0%
 Die Aufgabe von [!DNL Adobe Workfront Fusion] besteht darin, Ihre Prozesse zu automatisieren, sodass Sie sich auf neue Aufgaben konzentrieren können, anstatt dieselben Aufgaben immer wieder zu wiederholen. Es funktioniert durch die Verknüpfung von Aktionen innerhalb und zwischen Apps und Diensten, um ein Szenario zu erstellen, in dem Ihre Daten automatisch übertragen und transformiert werden. Das Szenario, in dem Sie Watches für Daten in einer App oder einem Dienst erstellen und diese Daten verarbeiten, um das gewünschte Ergebnis zu liefern.
 
 Ein Szenario besteht aus einer Reihe von Modulen, die angeben, wie Daten in einer App umgewandelt oder zwischen Apps und Webdiensten übertragen werden sollen.
+
+## Übersicht über die Elemente eines Szenarios
+
+Ein Szenario besteht aus verschiedenen Elementen. Die Kenntnis der Terminologie dieser Elemente erleichtert die Verwendung der Dokumentation.
+
+### Szenario
+
+Ein **szenario** ist eine vom Benutzer erstellte Reihe automatisierter Schritte, die zum Verschieben und Bearbeiten von Daten erstellt wurden. Der Begriff &quot;Szenario&quot;bezieht sich auf die gesamte Gruppe verbundener Schritte.
+
+![Szenario](assets/entire-scenario-scenario.png)
+
+### Trigger
+
+Ein Szenario beginnt mit einem **Trigger**. Der Trigger sucht nach neuen und aktualisierten Daten und startet das Szenario, wenn bestimmte im Modul konfigurierte Bedingungen zutreffen. Trigger können so konfiguriert werden, dass sie ein Szenario mit einem Zeitplan (Abruf) oder mit jeder Datenänderung (Sofort) starten.
+
+![Trigger](assets/scenario-trigger.png)
+
+### Modul
+
+Dem Trigger folgt eine Reihe von **Modulen**. Ein Modul stellt einen einzelnen Schritt in einem Szenario dar, das eine bestimmte Aktion ausführt. Module werden konfiguriert und miteinander verkettet, um Szenarien zu erstellen.
+
+![Modul](assets/scenario-module.png)
+
+### Route
+
+Ein Szenario kann in **Routen** unterteilt werden. Eine Route ist ein Abschnitt des Szenarios, der für ein bestimmtes Datenbündel verwendet werden kann oder nicht. Routen werden mithilfe eines Router-Moduls und von Filtern eingerichtet.
+
+![Route](assets/scenario-route.png)
+
+### Szenario-Segment
+
+Ein Szenario-Segment ist ein Abschnitt eines Szenarios, das aus einer Reihe zusammenhängender Module besteht, die alle mit derselben Anwendung verbunden sind. Szenario-Segmente stellen oft einen kurzen Workflow in der Anwendung dar.
+
+![Szenario-Segment](assets/scenario-segment.png)
+
+### Connector
+
+Ein Connector ist der Satz von Modulen für eine bestimmte Anwendung. Workfront Fusion bietet Connectoren für viele gängige Arbeitsanwendungen wie Workfront, Salesforce und Jira sowie allgemeine Connectoren, die für jeden Webdienst verwendet werden können.
+
+![Connectors](assets/scenario-connectors.png)
+
+
 
 ## Beispiel: Automatisieren von Prozessen innerhalb von [!DNL Adobe Workfront]
 
