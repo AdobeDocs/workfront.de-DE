@@ -9,7 +9,7 @@ description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflo
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: a4c9f4cd4f28c28222826187a68ca4122eec1a8f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -293,7 +293,7 @@ Dieses Aktionsmodul generiert und erstellt ein Bild basierend auf einer von Ihne
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Vorgaben]</td> 
-   <td>Wenn Sie einen Vorgabenstil verwenden möchten, klicken Sie auf Element hinzufügen und geben Sie den gewünschten Stil ein oder ordnen Sie ihn zu.<p>Eine Liste der Vorgabenstile finden Sie unter <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Bildmodellstile</a> in der Adobe-Entwicklerdokumentation.</td> 
+   <td>Wenn Sie einen Vorgabenstil verwenden möchten, klicken Sie auf Element hinzufügen und geben Sie den gewünschten Stil ein oder ordnen Sie ihn zu.<p>Eine Liste der Vorgabenstile finden Sie unter <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" >Bildmodellstile</a> in der Adobe-Entwicklerdokumentation.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Negative Eingabeaufforderung]</td> 
