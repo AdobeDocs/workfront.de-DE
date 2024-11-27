@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 2%
 
 ---
@@ -145,14 +145,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >* Felder der folgenden Typen werden nicht im Anfrageformular <span class="preview">in der Vorschau </span>- oder Produktionsumgebung angezeigt:
    >
-   >    * Personen (einschließlich Erstellt von und Zuletzt geändert von)
+   >    * Erstellt von und zuletzt geändert von
    >    * Formel
-   >    * Erstellungsdatum
-   >    * Zuletzt geändert am
-   >    * Verbindungsfelder oder Suchfelder von Workfront-Objekten
-   >    * Workfront-Planen der verbundenen Suchfelder von Datensätzen
+   >    * Erstellungsdatum und Datum der letzten Änderung
+   >    * Suchfelder für Workfront-Objekte
+   >    * Workfront Planen der Suchfelder verbundener Datensätze
+   >    * Mit AEM Assets verbundene Felder
    >* Felder der folgenden Typen werden nicht im Anfrageformular in der Produktionsumgebung angezeigt. <span class="preview">Sie werden in der Vorschau-Umgebung angezeigt:</span>
    >    * <span class="preview"> Verbindungsfelder der Workfront-Planungsdatensätze</span>
+   >    * <span class="preview">Personen </span>
+   >    * <span class="preview">Verbindungsfelder der Workfront-Objekte</span>
+   >    * <span class="preview">AEM Assets-verbundene Felder </span>
+
 
 
    * **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anforderungsformular anwendet. Der Abschnitt Standard kann nicht umbenannt oder entfernt werden.
@@ -208,7 +212,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >[!WARNING]
    >
    >
-   >Wenn Sie **Jeder, der über den Link** verfügt, auswählen, kann jeder auf das Formular zugreifen und einen neuen Datensatz senden, selbst Personen außerhalb Ihres Unternehmens, die kein Workfront-Konto haben.
+   >* Wenn Sie **Jeder, der über den Link** verfügt, auswählen, kann jeder auf das Formular zugreifen und einen neuen Datensatz senden, selbst Personen außerhalb Ihres Unternehmens, die kein Workfront-Konto haben.
+   >
+   > * <span class="preview">Ein Formular, das die folgenden Feldtypen enthält, kann nicht öffentlich freigegeben werden:</span>
+   >
+   >     * <span class="preview">Formel</span>
+   >     * <span class="preview">Workfront- oder AEM Assets-Verbindungen</span>
+   >     * <span class="preview">Suchfelder</span>
+   >     * <span class="preview">Personen</span>
+   >
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt **Jeder Benutzer mit dem Link** ausgewählt haben, wählen Sie im verfügbaren Kalender das **Ablaufdatum des Links** aus. Personen erhalten nach Ablauf des Links einen Fehler. Sie müssen das Link-Datum aktualisieren, bevor sie erneut auf das Formular zugreifen können.
 

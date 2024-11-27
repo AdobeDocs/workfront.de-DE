@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
 
 
 # Verwalten von Datensatzansichten
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+
 
 {{planning-important-intro}}
 
@@ -218,6 +223,9 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 | Suche nach bestimmten Datensätzen | ✓ | ✓ |
 | Ansicht für andere freigeben | ✓ | ✓ | ✓ |
 | Öffnen Sie die Seite des Datensatzes in der Ansicht | ✓ | ✓ |    |
+| Datensätze nach Jahr und Quartal anzeigen |           | ✓ |    |
+| Anzeigen von Datensätzen nach Monat |           | ✓ | ✓ |
+| <span class="preview">Anzeigen von Datensätzen nach Woche</span> |           |               | ✓ |
 
 
 ## Ansichten erstellen oder bearbeiten {#create-or-edit-views}

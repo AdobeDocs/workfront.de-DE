@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Übersicht über die Objektbeschränkungen für Adobe Workfront Planung
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
 
 {{planning-important-intro}}
 
@@ -40,6 +44,9 @@ Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die
 | Dateigröße, die Sie über die API für eine Datentyptabelle importieren können | 1,5 MB |
 | Die Rate, mit der API-Anfragen gestellt werden können | 200 Anfragen pro Minute |
 | Anzahl der Ansichten, die ein Benutzer für einen Datensatztyp erstellen kann | 100 |
+| Größe der CSV-Datei von Excel, die Sie importieren können, um Datensatztypen zu erstellen | 5 MB |
+| <span class="preview">Anzahl der Zeilen, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen</span> | 10.000 |
+| <span class="preview">Anzahl der Spalten, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen</span> | 500 |
 
 *Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese sich als schwierig erweisen könnten und Ihre Arbeitsabläufe zu fragmentiert sein könnten.
 
@@ -47,7 +54,7 @@ Informationen zu Preisen und Verpackungen für die Workfront-Planung finden Sie 
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
-| Size of CSV of Excel file you can import** | 5MB |
+
 **This functionality has been temporarily removed and it will be available at a later date.**********************
 -->
 

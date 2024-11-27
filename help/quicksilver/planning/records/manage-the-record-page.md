@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
 
 
 # Layout der Datensatzseite verwalten
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ Folgendes geschieht:
    Die neue Position des Felds wird sowohl in der Vorschau als auch auf der Seite aller Datensätze desselben Typs für alle Benutzer aktualisiert, die die Datensätze anzeigen.
 
    Alle Änderungen am Layout der Datensatzvorschau oder der Seite werden automatisch gespeichert.
+
+<span class="preview">
+
+## Hinzufügen der Seite &quot;Verbundene Ansicht&quot;zur Datensatzseite
+
+Sie können der Datensatzseite eine Seite vom Typ Verbundene Ansicht hinzufügen.
+
+Sie können dem Vorschaubereich eines Datensatzes keine verbundene Ansichtsseite hinzufügen.
+
+Verbundene Ansichtsseiten zeigen eine verbundene Datensatzseite in der Tabellenansicht an. Die Tabellenansicht ist schreibgeschützt.
+
+Sie können für jeden verbundenen Datensatztyp eine verbundene Ansichtsseite hinzufügen.  <!--edit this when we can remove fields from this page-->
+
+So fügen Sie eine Seite für eine verbundene Ansicht hinzu:
+
+1. Klicken Sie in einer Datensatzseitenansicht auf den Namen eines Datensatzes, um ihn zu öffnen, und klicken Sie dann oben rechts auf der Vorschauseite auf das Symbol &quot;In neuer Registerkarte öffnen&quot;![](assets/open-details-in-a-new-tab-icon.png) .
+1. Klicken Sie auf **Seite hinzufügen** > **Verbundene Ansicht**.
+1. Fügen Sie den **Seitennamen** hinzu und klicken Sie dann auf **Erstellen**.
+
+   Auf einer neuen Registerkarte wird der Datensatzseite eine zusätzliche Seite hinzugefügt.
+1. Suchen oder klicken Sie in der Liste auf den Namen eines verbundenen Datensatzes oder Objekttyps.
+Die Tabellenansicht des ausgewählten Datensatztyps wird angezeigt und die verbundenen Datensätze werden in der Tabellenansicht angezeigt.
+Die Tabellenansicht ist schreibgeschützt.
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Optional) Doppelklicken Sie auf den Namen der Registerkarte
+
+   Oder
+
+   Bewegen Sie den Mauszeiger über den Namen der Registerkarte, klicken Sie dann auf **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Umbenennen** , um in die neue Registerkarte &quot;Connected view&quot;umzubenennen.
+1. (Optional) Verwenden Sie beliebige Ansichtselemente in der Symbolleiste, um die Tabellenansicht zu verwalten. Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

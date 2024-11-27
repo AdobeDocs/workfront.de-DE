@@ -6,16 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 0%
 
 ---
+
 
 # Planungsanfragen für Adobe Workfront zur Erstellung von Datensätzen übermitteln
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
 
 {{planning-important-intro}}
 
@@ -112,17 +117,21 @@ Bevor Sie eine Anfrage an ein Workfront Planning-Anfrageformular senden können,
 
 * Das Anfrageformular muss für einen Link freigegeben werden, damit Sie darauf zugreifen können. Die folgenden Szenarien existieren:
 
-   * Wenn Sie über ein Workfront-Konto verfügen, wurde der Link nur für interne Personen freigegeben und Sie haben Zugriff auf den Arbeitsbereich. Personen außerhalb von Workfront können nicht auf einen intern freigegebenen Link zugreifen.
+   * Wenn Sie über ein Workfront-Konto verfügen, wurde der Link nur für interne Personen freigegeben, und Sie haben einen Beitrag oder einen höheren Zugriff auf den Arbeitsbereich. Personen außerhalb von Workfront können nicht auf einen intern freigegebenen Link zugreifen.
    * Wenn Sie kein Workfront-Konto haben, wurde der Link für externe Personen freigegeben. Workfront-Benutzer können auch auf einen Link zugreifen, der für externe Personen freigegeben wurde.
 
 * Der Link zum Formular darf nicht abgelaufen sein.
 
 ## Überlegungen zum Senden von Anfragen an die Workfront-Planung
 
-* Sie können nicht auf die Anforderungsformulare für Workfront-Planungsanfragen zugreifen, ohne dass ein bestimmter Link zu den Formularen vorhanden ist.
+* Sie können auf ein Anforderungsformular für Workfront-Planungsanfragen nur über einen bestimmten Link zum Formular zugreifen.
 * Sie können eine Anforderung nicht bearbeiten, nachdem Sie sie an die Workfront-Planung übermittelt haben.
-* Jede gesendete Anfrage erstellt einen Datensatz für den Datensatztyp, der mit dem von Ihnen verwendeten Formular verknüpft ist.
+* Jede gesendete Anfrage erstellt einen Datensatz für den Datensatztyp, der mit dem Formular verknüpft ist, das Sie <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> --> verwenden
 * Datensätze, die durch die Übermittlung von Anfrageformularen erstellt wurden, können nicht von Datensätzen unterschieden werden, die über eine andere Methode hinzugefügt wurden. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+* <span class="preview">Gesendete Anforderungen werden auf der Registerkarte &quot;Planung&quot;des Abschnitts &quot;Gesendet&quot;im Bereich &quot;Anforderungen&quot;von Workfront angezeigt </span>.
+
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+
 
 ## Anfrage an die Workfront-Planung senden
 
@@ -132,8 +141,35 @@ Bevor Sie eine Anfrage an ein Workfront Planning-Anfrageformular senden können,
 
    >[!TIP]
    >
-   >   Wenn das Feld Workfront **Betreff** verfügbar ist, ist es möglicherweise nicht in der Workfront-Planung sichtbar. Es wird empfohlen, so viele Felder in Ihrer Anfrage wie möglich zu aktualisieren, damit der neue Datensatz beim Hinzufügen zum Datensatztyp identifizierbar ist.
+   >   Wenn das Feld **Betreff** verfügbar ist, wird es nach dem Senden der Anfrage in der Workfront-Planung nicht mehr angezeigt.
+   >
+   >Es wird empfohlen, so viele Felder in Ihrer Anfrage wie möglich zu aktualisieren, damit der neue Datensatz beim Hinzufügen zum Datensatztyp in der Workfront-Planung identifizierbar ist.
 
 1. Klicken Sie auf **Senden**.
 
-   Ihr Formular wird gesendet und dem mit dem Formular verknüpften Datensatztyp wird ein neuer Datensatz hinzugefügt.
+   Ihr Formular wird gesendet und die folgenden Vorgänge treten auf:
+
+   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->Dem mit dem Formular verknüpften Datensatztyp wird ein neuer Datensatz hinzugefügt.
+
+
+   * <!--If the request form was not associated with an approval, the--> <span class="preview"> Die Anforderung wird zum Abschnitt &quot;Gesendet&quot;des Workfront-Anforderungsbereichs hinzugefügt und der Seite mit dem Datensatztyp wird ein neuer Datensatz hinzugefügt.</span>
+
+     ![](assets/planning-tab-in-requests.png)
+
+     >[!IMPORTANT]
+     >
+     ><span class="preview">Alle Benutzer, die Zugriff auf mindestens einen Arbeitsbereich haben, können die Registerkarte Planung im Bereich Anforderungen anzeigen. Sie können nur die von Ihnen gesendeten Anfragen anzeigen. Workfront-Administratoren können alle Anforderungen im System anzeigen. </span> <!--ensure this is correct; asking team in slack-->
+
+   <!--
+   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+
+      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   -->
+   <!--
+
+   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
+   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
+   -->
+
+
+

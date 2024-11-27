@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Datensätze erstellen
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
 
 {{planning-important-intro}}
 
@@ -28,6 +32,8 @@ Sie können Datensätze anhand einer der folgenden Methoden erstellen:
 * [Datensätze aus einer Tabellenansicht duplizieren](#create-records-by-duplicating-them)
 * [Erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden](#create-records-as-you-connect-them)
 * [Erstellen Sie sie, indem Sie ein Anfrageformular an einen Datensatztyp senden](#create-records-by-submitting-a-request-form-to-a-record-type)
+* <span class="preview">[Erstellen von Datensätzen beim Import von Datensatztypen aus einer CSV- oder Excel-Datei](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+
 
 Informationen zum Verwalten von Datensätzen in der Tabellen- oder Timeline-Ansicht finden Sie in den folgenden Artikeln:
 
@@ -270,3 +276,13 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anforderun
 Sowohl Workfront-Benutzer als auch externe Benutzer Ihrer Organisation können Anfragen an die Planung von Datensatztypen senden und Datensätze erstellen, sofern sie über eine Verknüpfung mit dem Anfrageformular verfügen.
 
 Weitere Informationen finden Sie unter [Planungsanfragen zur Erstellung von Datensätzen mit Adobe Workfront senden](/help/quicksilver/planning/requests/submit-requests.md).
+
+<div class="preview">
+
+## Erstellen von Datensätzen beim Import von Datensatztypen aus einer CSV- oder Excel-Datei
+
+Datensätze können beim Import von Datensatztypen mithilfe einer CSV- oder Excel-Datei importiert werden.
+
+Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+
+</div>

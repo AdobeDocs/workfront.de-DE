@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
 # Kalenderansicht verwalten
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
 
 {{planning-important-intro}}
 
@@ -179,7 +183,16 @@ So verwalten Sie eine Kalenderansicht:
    * Klicken Sie auf **Heute** , um den Kalender auf das aktuelle Datum zu zentrieren.
    * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü für den Zeitrahmen aus, um die Zeitabstände zu aktualisieren:
 
-      * Monat
+      * **Monat**: Die Datensätze werden in einem monatlichen Kalender angezeigt.
+
+     <div class="preview">
+
+      * **Woche**: Datensätze werden in den folgenden Bereichen angezeigt:
+
+         * Datensätze, die sich über mehrere Tage erstrecken, werden oben im Kalender angezeigt.
+         * Datensätze, die einen Tag oder weniger dauern, werden in der unteren Hälfte der Kalenderansicht angezeigt. Wenn Sie ausgewählt haben, um die Stunde der Start- und Enddaten anzuzeigen, wird der Datensatz zu der gewünschten Zeit innerhalb des Tages angezeigt, an dem er auftritt.
+     </div>
+
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)
    * [Einstellungen](#edit-the-calendar-view-settings)

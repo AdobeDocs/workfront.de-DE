@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
+source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,115 @@ In diesem Artikel werden die Funktionen beschrieben, die während der Version de
 
 Eine Liste aller Funktionen, die nach der allgemeinen Release vom 28. August 2024 für die Adobe Workfront-Planung freigegeben wurden, finden Sie unter [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Vorhandene Workfront-Felder in Datensatztypen für die Workfront-Planung importieren
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Wenn Sie nun Felder zu einem Datensatztyp hinzufügen, können Sie vorhandene benutzerdefinierte oder native Workfront-Felder importieren und mit dem ausgewählten Datensatztyp verknüpfen.
+
+Vor dieser Verbesserung mussten Sie alle Felder manuell erstellen und sie mit Datensatztypen verknüpfen.
+
+Berechnete Felder werden derzeit nicht unterstützt.
+
+Weitere Informationen finden Sie unter [Importieren von Feldern aus Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
+
+## Datensatztypen, Datensätze und Felder durch Importieren einer CSV- oder Excel-Datei erstellen
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Sie können jetzt neue Datensatztypen importieren, indem Sie eine CSV- oder Excel-Datei importieren.
+
+Die folgenden Informationen werden importiert:
+
+* Der Name des Blatts oder der Datei wird als Name des Datensatztyps importiert.
+
+* Die erste Zeile jeder Spalte wird als neues Feld importiert. Sie können bis zu 500 Felder in jedem importierten Blatt haben.
+
+* Jede Zeile wird als neuer Datensatz importiert. Sie können bis zu 10.000 Datensätze pro Blatt haben.
+
+Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Vermeiden von Zirkelverweisen in Formeln
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Wir haben eine Warnmeldung beim Bearbeiten oder Erstellen eines Formelfelds eingeführt, das möglicherweise einen kreisförmigen Verweis auf sich selbst oder freigegebene Felder erstellt. Sie können kein Formelfeld speichern, das sich entweder auf sich selbst oder auf Elemente bezieht, auf die in der Berechnung verwiesen wird.
+
+Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+
+## Hinzufügen von verbundenen Ansichtsseiten zur Seite eines Datensatzes, um verbundene Datensätze in einer Tabellenansicht anzuzeigen
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Sie können dem Detailbereich eines Datensatzes Seiten hinzufügen, um verbundene Datensätze in einer Tabellenansicht anzuzeigen. Sie können pro verknüpften Datensatz eine Seite hinzufügen.
+
+Die hinzugefügten Seiten sind schreibgeschützt.
+
+Weitere Informationen finden Sie unter [Layout der Datensatzseite verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Neue Registerkarte &quot;Planung&quot;im Bereich &quot;Gesendet&quot;im Bereich &quot;Anforderungen&quot;
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Workfront-Planungsanfragen finden Sie jetzt im Abschnitt &quot;Gesendet&quot;des Anforderungsbereichs von Workfront. Im Bereich &quot;Gesendet&quot;werden nun zwei Registerkarten angezeigt: die in Workfront auf der Registerkarte Workfront gesendeten Anfragen und die mit einem Workfront-Planungsanfrageformular gesendeten Anfragen auf der Registerkarte Planung .
+
+Sie müssen einen Link zum Anforderungsformular verwenden, um Anforderungen zu einem Datensatztyp für die Workfront-Planung hinzufügen zu können. Die Übermittlung einer Workfront-Planungsanfrage aus dem Workfront-Anforderungsbereich ist zu einem späteren Zeitpunkt verfügbar.
+
+Ihr Unternehmen muss ein Workfront-Planungspaket kaufen, bevor Ihnen im Bereich Anforderungen die Registerkarte Planung zur Verfügung steht.
+
+Weitere Informationen finden Sie unter [Planungsanfragen zur Erstellung von Datensätzen mit Adobe Workfront senden](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Zusätzliche Feldtypen werden jetzt in Anforderungsformularen unterstützt
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Sie können jetzt die folgenden Feldtypen zu einem Anforderungsformular vom Typ Datensatz in der Workfront-Planung hinzufügen:
+
+* Personen
+* Workfront-Verbindungen
+
+Vor dieser Verbesserung konnten diese Feldtypen nicht zu Anforderungsformularen in der Workfront-Planung hinzugefügt werden.
+
+Weitere Informationen finden Sie unter Anforderungsformular erstellen und verwalten in der Adobe Workfront-Planung (/help/quicksilver/planning/requests/create-request-form.md).
+
+## Beschränken der öffentlichen Freigabe von Anforderungsformularen, die bestimmte Feldtypen enthalten
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Sie können ein Anforderungsformular nicht mehr öffentlich freigeben, wenn das Formular einen der folgenden Feldtypen enthält:
+
+* Formel
+* Verbindungen
+* Suchfelder
+* Personen
+
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anforderungsformulars in der Adobe Workfront-Planung](/help/quicksilver/planning/requests/create-request-form.md).
+
+
+## Anzeigen von Datensätzen in der Kalenderansicht nach Woche
+
+>[!NOTE]
+>
+>Vorschau-Version: 26. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Sie können Datensätze nun wöchentlich in der Kalenderansicht anzeigen. Vor dieser Verbesserung konnten Sie die Kalenderansicht nur pro Monat anzeigen.
+
+Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Gelöschte Datensätze wiederherstellen
 

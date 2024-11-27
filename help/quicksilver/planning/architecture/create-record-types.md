@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 2%
+source-wordcount: '1453'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 2%
 <!--this is linked to the UI in an empty workspace screen-->
 
 # Erstellen von Datensatztypen
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
 
 {{planning-important-intro}}
 
@@ -95,64 +99,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 +++
 
 
-<!--
-OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td> Adobe Workfront
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Current: Plan</p>
-   Or
-   <p>New: Standard </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
 ## Überlegungen zum Erstellen von Datensatztypen
 
 * Sie können Datensatztypen in einem Arbeitsbereich wie folgt erstellen:
@@ -162,15 +108,12 @@ OLD:
 
         Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-     <!--* When you import them using an Excel or CSV file. 
+      * <span class="preview">Wenn Sie sie mit einer Excel- oder CSV-Datei importieren. </span>
 
-            >[!IMPORTANT]
-            >
-            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
+     >[!TIP]
+     >
+     ><span class="preview">Beim Import eines Datensatztyps aus einer Excel- oder CSV-Datei können auch Datensätze und Felder importiert werden.</span>
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
-        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-        For information about connecting objects with records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
    * Manuell:
 
       * Von Grund auf neu.
@@ -204,7 +147,7 @@ Informationen dazu, welche Datensatztypen in den einzelnen Vorlagen enthalten si
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. (Optional) Klicken Sie auf **Abschnitt hinzufügen** , um einen neuen Abschnitt zum Arbeitsbereich hinzuzufügen.
-1. Klicken Sie auf **Hinzufügen des Datensatztyps**.
+1. Klicken Sie auf **Record Type hinzufügen** und dann auf <span class="preview">**New**</span>.
 
    Das Feld Datensatztyp hinzufügen wird geöffnet.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -232,8 +175,6 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
    ![](assets/operational-record-type-blank.png)
 
    Die Seite vom Typ Datensatz wird standardmäßig in der Tabellenansicht angezeigt. Die Spalten der Tabelle sind Felder, die mit dem neuen Datensatztyp verknüpft sind. Jede Zeile ist ein eindeutiger Datensatz, den Sie hinzufügen müssen.
-
-   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    Standardmäßig werden die folgenden Felder in den Tabellenansichtsspalten eines operationellen Datensatztyps angezeigt:
 
@@ -267,69 +208,76 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
    * [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md)
 
-<!--
-## Create record types by importing an Excel or CSV file
+<div class="preview">
 
->[!IMPORTANT]
->
->This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
+## Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei
 
-Consider the following when importing record types using an Excel or CSV file: 
+Beachten Sie beim Importieren von Datensatztypen mit einer Excel- oder CSV-Datei Folgendes:
 
-* Each sheet of the Excel file becomes a record type. 
-* The columns of each sheet become the fields associated with each record type. 
-* Fields are unique for their respective record types. 
-* Each row in each sheet becomes a unique record associated with its respective record type. 
-* Each sheet of the Excel file should not exceed the following: 
-    * 50,000 rows
-    * 500 columns
-* The Excel file should not be larger than 5MB.
-* Empty sheets are not supported. 
+* Jedes Blatt der Excel-Datei wird zu einem Datensatztyp. Der Name des Blattes wird zum Namen des Datensatztyps.
+* Wenn es nur ein Blatt gibt oder Sie eine CSV-Datei importieren, wird der Name der Datei zum Namen des Datensatztyps.
+* Die Spaltenüberschriften der einzelnen Blätter werden zu den Feldern, die mit jedem Datensatztyp verknüpft sind.
+* Felder sind für ihre jeweiligen Datensatztypen eindeutig.
+* Jede Zeile in jedem Blatt wird zu einem eindeutigen Datensatz, der mit dem jeweiligen Datensatztyp verknüpft ist.
+* Jedes Blatt der Excel-Datei darf nicht größer sein als:
+   * 10.000 Zeilen
+   * 500 Spalten
+* Die Excel-Datei sollte nicht größer als 5 MB sein.
+* Leere Arbeitsblätter werden nicht unterstützt.
 
-To import record types using an Excel file: 
+So importieren Sie Datensatztypen mit einer Excel- oder CSV-Datei:
 
 {{step1-to-planning}}
 
-1. Click the workspace where you want to create record types, 
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensatztypen erstellen möchten.
 
-    Or
+   Oder
 
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
-1. Click **Add record type**. 
-1. Click **Excel/CSV**.
-1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
-1. Click **Review your data**.
-    
-    The Preview and edit box displays with the following information: 
+   Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+1. Klicken Sie auf **Hinzufügen des Datensatztyps**.
+1. Klicken Sie auf **Aus Datei**.
+1. Ziehen Sie eine zuvor gespeicherte Excel- oder CSV-Datei in den Arbeitsbereich oder klicken Sie auf **Wählen Sie eine CSV- oder Excel-Datei aus**, um nach einer Datei zu suchen.
+1. Klicken Sie auf **Vorschau anzeigen und bearbeiten**.
 
-    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
-    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
-    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
+   Das Feld **Vorschau und Bearbeitung** wird mit den folgenden Informationen angezeigt:
 
-    ![](assets/preview-and-edit-box.png)
+   * Die Namen der Blätter oder der künftigen Datensatztypen werden im linken Bereich angezeigt. Workfront Planning wählt standardmäßig ein Symbol und eine Farbe für jeden neuen Datensatztyp aus.
+   * Die erste Tabelle oder der erste Datensatztyp wird ausgewählt und die Namen der Felder, die mit ihr verknüpft sind, werden als Spaltenüberschriften angezeigt. Der Feldtyp wird standardmäßig ausgewählt.
+   * Jede Zeile stellt einen neuen Datensatz dar. Nur die ersten zehn Datensätze werden im Feld Vorschau und Bearbeitung angezeigt.
 
-1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+   ![](assets/preview-and-edit-box.png)
 
-    >[!NOTE]
-    >
-    >    Sheets that are empty are not supported and are dimmed. 
+1. (Optional) Klicken Sie im linken Bereich auf den Namen der einzelnen Blätter, um die darin enthaltenen Informationen zu überprüfen.
 
+   >[!NOTE]
+   >
+   >Leere Blätter werden nicht unterstützt und sind abgeblendet.
 
-1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+1. (Optional) Deaktivieren Sie im linken Bereich die Tabellen, die Sie nicht importieren möchten.
 
-    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
-    Sheets you deselected display with a gray background. 
+   Sie können die Auswahl der Anzeige mit grauem Hintergrund deaktivieren.
 
-1. Click **Import** when you are ready to import your file. 
+1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben der Spaltenüberschrift, um einen der folgenden Schritte auszuführen:
 
-    The following information imports in to Workfront Planning:
+   * Umbenennen eines der Felder
+   * Ändern des **Feldtyps**
+   * Aktualisieren Sie das Feld **Beschreibung**
 
-    * New record types
-    * New fields associated with each record type
-    * New records associated with each record type
+1. (Bedingt) Klicken Sie nach dem Aktualisieren der Informationen zum Feld auf **Speichern**.
 
-    You can start managing fields and records on the record types pages. 
-    
-    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+1. Klicken Sie auf **Importieren** , wenn Sie zum Importieren Ihrer Datei bereit sind.
+
+   Die folgenden Informationen werden in die Workfront-Planung importiert:
+
+   * Neue Datensatztypen
+   * Neue Felder, die jedem Datensatztyp zugeordnet sind
+   * Neue Datensätze, die mit jedem Datensatztyp verknüpft sind
+
+   Sie können mit der Verwaltung von Feldern und Datensätzen auf den Seiten mit den Datensatztypen beginnen.
+
+   Jeder, der Zugriff auf Workfront Planning hat, kann jetzt die importierten Datensatztypen und ihre Informationen anzeigen und bearbeiten.
+
+</div>
 

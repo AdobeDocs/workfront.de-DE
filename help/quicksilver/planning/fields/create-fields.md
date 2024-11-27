@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4287'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,9 @@ In der Workfront-Planung können Sie Felder auf folgende Weise erstellen:
 * Durch Verbinden von Datensatztypen
 * Erstellen eines Datensatztyps
 * Erstellen eines Arbeitsbereichs aus einer Vorlage
-  <!--* By importing record types using an Excel or CSV file-->
+* <span class="preview">Durch Importieren von Datensatztypen mit einer Excel- oder CSV-Datei</span>
+* <span class="preview">Durch Importieren von Kopien vorhandener Workfront-Felder</span>
+
 
 Weitere Informationen zu Workfront-Planungsfeldern finden Sie unter [Feldübersicht](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -178,6 +180,8 @@ OLD:
 ## Felder von Grund auf neu erstellen {#create-fields-from-scratch}
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -340,7 +344,7 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
       * **Long**: 16. Mai 2023
       * **europäisch**: 16.05.2023
       * **ISO**: 2023-05-16
-      * **Ein Zeitfeld einschließen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einschließen möchten. Diese Option ist standardmäßig deaktiviert. <!--update this setting name - submitted bug for it to be changed-->
+      * **Zeit einschließen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einschließen möchten. Diese Option ist standardmäßig deaktiviert. Sie können keine Zeit einschließen, nachdem Sie das Feld abgesichert haben.
 
      Wählen Sie aus den folgenden Optionen aus:
 
@@ -467,6 +471,12 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    ![](assets/description-of-formula-expression.png)
 
    Weitere Informationen dazu, welche Ausdrücke unterstützt werden, finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/planning/fields/formula-fields.md).
+
+
+   >[!TIP]
+   >
+   ><span class="preview">Sie erhalten eine Warnmeldung, wenn Sie ein Formelfeld bearbeiten oder erstellen, das einen Zirkelverweis auf sich selbst oder freigegebene Felder verursachen kann. Sie können kein Formelfeld speichern, das sich entweder auf sich selbst oder auf Elemente bezieht, auf die in der Berechnung verwiesen wird.  </span>
+
 
 1. Fügen Sie Feldnamen hinzu, wie sie in der Workfront-Planung angezeigt werden, um sie in einer Formel zu referenzieren.
 
@@ -647,3 +657,21 @@ Beim Erstellen eines Datensatztyps werden standardmäßig auch mehrere mit dem n
 Adobe Workfront Planning erstellt Felder für Datensatztypen, wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen.
 
 Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+<div class="preview">
+
+## Erstellen von Feldern beim Import von Datensatztypen aus einer CSV- oder Excel-Datei
+
+Sie können Felder importieren, wenn Sie Datensatztypen mithilfe einer CSV- oder Excel-Datei importieren.
+
+Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Erstellen von Feldern durch Importieren aus Workfront
+
+Sie können Kopien vorhandener Workfront-Felder importieren. Beim Importieren von Feldern aus Workfront wird eine Kopie jedes Felds für den Datensatztyp Workfront Planning erstellt.
+
+Nachdem Sie die Felder kopiert haben, sind die Felder unabhängig voneinander und tauschen keine Informationen aus.
+
+Weitere Informationen finden Sie unter [Importieren von Feldern aus Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+
+</div>
