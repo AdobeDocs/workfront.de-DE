@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: fedea99941b6ecb2114d8236d54ce1af70cec6e4
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,10 @@ ht-degree: 2%
 
 # Feldübersicht
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
--->
+<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+
 
 {{planning-important-intro}}
 
@@ -54,10 +53,12 @@ Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebe
 
         Weitere Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-     <!--* By importing existing fields from Workfront. 
-            For information, see [Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).-->
+      * <span class="preview">Durch Importieren vorhandener Felder aus Workfront. </span>
+        <span class="preview">Weitere Informationen finden Sie unter [Importieren von Feldern aus Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).</span>
 
-     <!--* By importing record types using an Excel or CSV file. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). -->
+      * <span class="preview">Durch Importieren von Datensatztypen mit einer Excel- oder CSV-Datei. </span>
+
+        <span class="preview">Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).</span>
 
    * Automatisch:
 

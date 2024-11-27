@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,14 @@ Beim Aktualisieren der Dauer von Aufgaben in einer Liste können Sie die folgend
 
 {style="table-layout:auto"}
 
-**Beispiel:** Wenn Sie angeben möchten, dass die Dauer einer Aufgabe 3 Tage ist, geben Sie &quot;3 ED&quot;in das Feld Dauer in eine Aufgabenliste ein.  Sie können auch die bevorzugte Option für die Zeiteinheit im verfügbaren Dropdownmenü beim Bearbeiten einer Aufgabe oder im Abschnitt Aufgabendetails auswählen. Weitere Informationen zum Bearbeiten von Aufgaben finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>[!BEGINSHADEBOX]
+
+**BEISPIEL**
+
+Wenn Sie angeben möchten, dass die Dauer einer Aufgabe 3 Tage ist, geben Sie &quot;3 ED&quot;in das Feld Dauer in eine Aufgabenliste ein.  Sie können auch die bevorzugte Option für die Zeiteinheit im verfügbaren Dropdownmenü beim Bearbeiten einer Aufgabe oder im Abschnitt Aufgabendetails auswählen. Weitere Informationen zum Bearbeiten von Aufgaben finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,8 +124,8 @@ Beim Aktualisieren der Dauer von Aufgaben in einer Liste können Sie die folgend
 Beachten Sie Folgendes bei der Angabe der Dauer einer Aufgabe:
 
 * Die verstrichene Zeit ist eine Zeiteinheit für die Dauer einer Aufgabe. Dies ist die Zeit zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum einer Aufgabe, die Feiertage, Wochenenden und eine Verspätung umfasst. Mit anderen Worten, vergangene Zeit ist der Durchgang von Kalendertagen.
-* Bei der regulären Zeit werden Feiertage, Wochenenden und eine Zeitüberschreitung berücksichtigt und von der Dauer der Aufgabe ausgeschlossen.
-
+* Tage stellen die im System definierten Arbeitstage dar und können im Bereich Einrichtung konfiguriert werden. In den meisten Fällen besteht ein Tag aus 8 Stunden.
+* Die reguläre Zeit (Tage oder Arbeitstage) berücksichtigt Feiertage, Wochenenden und Auszeiten und schließt sie von der Dauer der Aufgabe aus.
 * Wenn Sie die Dauer einer Aufgabe in Wochen angeben, berechnet Workfront die Dauer in Tagen und Stunden anhand der von Ihrem Workfront-Administrator im Bereich &quot;Projekteinstellungen&quot;festgelegten Einstellungen für die typischen Wochentage und die typischen Stunden pro Arbeitstag.
 * Workfront verwendet die Standarddauer von 4 Wochen für einen Monat bei der Berechnung der Dauer in Monaten.
 

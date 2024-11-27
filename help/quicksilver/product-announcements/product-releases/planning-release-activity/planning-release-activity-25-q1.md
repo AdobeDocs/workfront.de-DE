@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Eine Liste aller Funktionen, die nach der allgemeinen Release vom 28. August 202
 >
 >Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
-Wenn Sie nun Felder zu einem Datensatztyp hinzufügen, können Sie vorhandene benutzerdefinierte oder native Workfront-Felder importieren und mit dem ausgewählten Datensatztyp verknüpfen.
+Wenn Sie nun Felder zu einem Datensatztyp hinzufügen, können Sie vorhandene benutzerdefinierte oder native Workfront-Felder importieren und mit dem ausgewählten Datensatztyp verknüpfen. Durch den Import vorhandener Felder wird eine Kopie der Workfront-Felder in der Workfront-Planung erstellt. Die kopierten Felder sind unabhängig von den Originalversionen.
 
 Vor dieser Verbesserung mussten Sie alle Felder manuell erstellen und sie mit Datensatztypen verknüpfen.
 
@@ -89,13 +89,16 @@ Die hinzugefügten Seiten sind schreibgeschützt.
 
 Weitere Informationen finden Sie unter [Layout der Datensatzseite verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 
-## Neue Registerkarte &quot;Planung&quot;im Bereich &quot;Gesendet&quot;im Bereich &quot;Anforderungen&quot;
+## Neue Registerkarten für Workfront und Planung im Bereich &quot;Gesendet&quot;des Bereichs Anforderungen
 
 >[!NOTE]
 >
 >Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
-Workfront-Planungsanfragen finden Sie jetzt im Abschnitt &quot;Gesendet&quot;des Anforderungsbereichs von Workfront. Im Bereich &quot;Gesendet&quot;werden nun zwei Registerkarten angezeigt: die in Workfront auf der Registerkarte Workfront gesendeten Anfragen und die mit einem Workfront-Planungsanfrageformular gesendeten Anfragen auf der Registerkarte Planung .
+Workfront-Planungsanfragen finden Sie jetzt im Abschnitt &quot;Gesendet&quot;des Anforderungsbereichs von Workfront. Im Abschnitt &quot;Gesendet&quot;werden jetzt die folgenden Registerkarten angezeigt:
+
+* Workfront: Zeigt die in Workfront gesendeten Anforderungen an.
+* Planung: Zeigt Anfragen an, die mit einem Workfront Planning-Anfrageformular eingereicht wurden.
 
 Sie müssen einen Link zum Anforderungsformular verwenden, um Anforderungen zu einem Datensatztyp für die Workfront-Planung hinzufügen zu können. Die Übermittlung einer Workfront-Planungsanfrage aus dem Workfront-Anforderungsbereich ist zu einem späteren Zeitpunkt verfügbar.
 
@@ -127,7 +130,7 @@ Weitere Informationen finden Sie unter Anforderungsformular erstellen und verwal
 Sie können ein Anforderungsformular nicht mehr öffentlich freigeben, wenn das Formular einen der folgenden Feldtypen enthält:
 
 * Formel
-* Verbindungen
+* Workfront- und AEM Assets-Verbindungen
 * Suchfelder
 * Personen
 

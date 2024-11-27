@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 1%
+source-wordcount: '1803'
+ht-degree: 2%
 
 ---
 
@@ -61,57 +61,59 @@ Im Folgenden finden Sie einige der wichtigsten Funktionen:
 * Passen Sie Ihre Workflows vollständig an, indem Sie entscheiden, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, und konfigurieren Sie, wie diese Objekte miteinander verknüpft werden.
 * Relation zu Objektarten aus anderen Systemen, Erstellung eines kohärenten Frameworks für alle Ihre Prozesse.
 
-## Derzeit verfügbare Workfront-Planungsfunktionen
+<!--
+## Currently available Workfront Planning features
+(*****for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section*****)
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
+(*****at GA: update the link below to the new place for release notes *****)
 
-<!--at GA: update the link below to the new place for release notes-->
+For information about new features and when they are released, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md). 
 
-Weitere Informationen zu neuen Funktionen und zu dem Zeitpunkt ihrer Veröffentlichung finden Sie unter [Adobe Workfront Planning Release-Aktivität für 2024](/help/quicksilver/planning/general/release-activity.md).
+The following features are currently available in Workfront Planning:
 
-Die folgenden Funktionen sind derzeit in der Workfront-Planung verfügbar:
-
-* Erstellen von Arbeitsbereichen
-* Erstellen von Datensatztypen
-* Benutzerdefinierte Datensatzfelder erstellen\
-  <!--* Import record types and fields using an Excel or CSV file-->
-
-* Anzeigen von Datensätzen in einer Tabellenansicht
-* Anzeigen von Datensätzen in einer Timeline-Ansicht
-* Anzeigen von Datensätzen in einer Kalenderansicht
-* Datensätze in einer Tabellenansicht filtern, sortieren und gruppieren
-* Filtern, Gruppieren und Farbcode-Datensätze in der Timeline-Ansicht
-* Filtern von Datensätzen in der Kalenderansicht
-* Suche nach Datensätzen in der Tabellen- und Timeline-Ansicht
-* Datensätze verbinden, die zum selben Arbeitsbereich gehören
-* Datensätze verbinden, die zu verschiedenen Arbeitsbereichen gehören
-* Verbinden von Workfront-Planungsdatensätzen mit Workfront-Projekten, -Programmen, -Portfolios, -Unternehmen, -Gruppen
-* Verbinden von Workfront-Planungsdatensätzen mit Adobe Experience Manager-Assets\
-  Sie müssen über eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront verfügen.
-Weitere Informationen finden Sie unter [Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
-* Datensatzinformationen auf der Registerkarte &quot;Details&quot;anzeigen
-* Datensatzverbindungen auf der Registerkarte Verbindungen anzeigen
-* Layout der Seite eines Datensatzes anpassen
-* Freigeben von Arbeitsbereichen
-* Ansichten freigeben
-* Öffentliche Freigabe von Ansichten für externe Ressourcen, auch für Personen, die nicht Workfront-Benutzer sind
-* Doppelte Ansichten
-* Senden von Anforderungen zum Erstellen von Datensätzen
-* Exportieren Sie Datensatzdetails in Word und PDF.
-* Kommentare zu Datensätzen hinzufügen
-* In-App-Benachrichtigungen empfangen
-* E-Mail-Benachrichtigungen empfangen
-* Miniaturansichten und Titelseiten zu Datensätzen hinzufügen
-* Verlauf der Änderungen eines Datensatzes anzeigen
-* Rich-Text-Formatierung für Absatzfelder
-* Auf Planungsdatensätze von Workfront-Objekten zugreifen
-* Datensätze aus Workfront-Objekten verbinden und trennen
-* Erstellen von Planungsdatensätzen durch Senden eines Anfrageformulars
-* Workfront Planning Public API
-* Adobe Workfront-Planungsmodule für Adobe Workfront Fusion
+* Create workspaces             
+* Create record types             
+* Create record custom fields             
+(************ * Import record types and fields using an Excel or CSV file*****)
+          
+* Display records in a table view            
+* Display records in a timeline view            
+* Display records in a calendar view            
+* Filter, sort, and group records in a table view
+* Filter, group, and color code records in the timeline view
+* Filter records in the calendar view 
+* Search for records in the table and timeline views             
+* Connect records that belong to the same workspace  
+* Connect records that belong to different workspaces   
+* Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups             
+* Connect Workfront Planning records to Adobe Experience Manager assets          
+    You must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront.
+    For information, see [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md). 
+* View record information in the Details tab
+* View record connections in the Connections tab
+* Customize the layout of a record's page             
+* Share workspaces             
+* Share views             
+* Share views publicly with any external resource, even people who are not Workfront users         
+* Duplicate views             
+* Submit requests to create records            
+* Export record details to Word and PDF.
+* Add comments to records             
+* Receive in-app notifications             
+* Receive email notifications             
+* Add thumbnails and cover pages to records             
+* View the history of changes on a record             
+* Rich Text formatting for Paragraph fields             
+* Access Planning records from Workfront objects             
+* Connect and disconnect Planning records from Workfront objects 
+* Create Planning records by submitting a request form            
+* Workfront Planning public API             
+* Adobe Workfront Planning modules for Adobe Workfront Fusion             
 * Workfront Planning AI Assistant
-* Reporting zu Workfront-Planungsinformationen
-Über das Dashboard der Arbeitsfläche können Sie Berichte zu Planungsinformationen erstellen. Weitere Informationen finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* Reporting on Workfront Planning information
+    You can report on Planning information using the Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md). 
+
+-->
 
 <!--OLD: 
 
@@ -325,7 +327,7 @@ Um die Adobe Planning zu finden, stellen Sie sicher, dass Ihr Unternehmen Zugrif
 
 So suchen Sie die Workfront-Planung:
 
-1. Melden Sie sich bei Adobe Workfront an.
+1. Melden Sie sich bei Workfront an.
 
 {{step1-click-main-menu}}
 

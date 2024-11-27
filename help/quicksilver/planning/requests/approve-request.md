@@ -3,9 +3,9 @@ title: Eine Anforderung genehmigen
 description: Wenn ein Benutzer eine Anforderung an ein Anforderungsformular sendet, das mit einer Genehmigung in der Adobe Workfront-Planung verknüpft ist, erhalten Genehmiger eine Benachrichtigung und eine E-Mail über die ausstehende Genehmigung. Sie müssen die Anfrage genehmigen, bevor Workfront Planning ein Objekt erstellt.
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '783'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Es wird empfohlen, auch die folgenden Artikel anzuzeigen:
 Gesendete Anfragen werden im Tab Planung des Abschnitts Gesendet im Bereich Anforderungen von Workfront mit einem der folgenden Anfragestatus angezeigt:
 
 * **Ausstehende Überprüfung**: Dieser Status wird angezeigt, wenn keiner der Genehmiger das Anfrageobjekt geöffnet hat.
-* **Im Review**: Der Status ändert sich in **Im Review** , wenn mindestens ein Genehmiger das Anfrageobjekt öffnet.
+* **Im Review**: Der Status ändert sich in **Im Review** , wenn mindestens ein Genehmiger das Anfrageobjekt öffnet. Der Status der Anfrage bleibt **Im Review**, bis alle Genehmiger die Anfrage genehmigt haben.
 * **Genehmigt**: Wenn ein Genehmiger das Anfrageobjekt genehmigt, wird sein individueller Status zu
 * **Genehmigt**, aber der Gesamtstatus des Anfrageobjekts bleibt **In Überprüfung**, bis alle Genehmiger ihre Entscheidungen getroffen haben.
 * **Abgeschlossen**: Wenn alle Genehmiger das Anfrageobjekt genehmigen, ändert sich sein Status in **Abgeschlossen** oder wenn für die Anfrage keine Genehmigung erforderlich ist.
@@ -152,7 +152,13 @@ So genehmigen Sie eine Anforderung:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie in Ihrem Workfront-Hauptmenü **** ![](assets/dots-menu.png) oben rechts auf dem Bildschirm oder, falls verfügbar, im Menü **Hauptmenü** ![](assets/lines-menu.png) oben links auf **Anforderungen** > **Gesendet** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Im Review** <!--did they change this to Pending approval; logged  a bug-->. 4}
+   * Wenn Sie Zugriff auf die Workfront-Planung haben, klicken Sie oben rechts im Bildschirm auf **Hauptmenü** ![](assets/dots-menu.png) oder, falls verfügbar, auf das Menü **Hauptmenü** ![](assets/lines-menu.png) oben links. Klicken Sie dann auf **Anforderungen** > **Gesendet** > **Planung** und klicken Sie auf die Anforderung mit dem Status **Im Review 13. <!--did they change this to Pending approval; logged  a bug-->**
+
+     >[!TIP]
+     >
+     >    Wenn Sie keinen Zugriff auf die Workfront-Planung haben, können Sie nur über Ihre Benachrichtigungen auf eine Validierungsanfrage zugreifen.
+
+
    * Gehen Sie in den Bereich **Benachrichtigungen** oben rechts im Bildschirm und klicken Sie auf die Benachrichtigung über eine Anforderung, deren Genehmigung aussteht, um die Anfrage zu öffnen.
    * Rufen Sie die E-Mail-Benachrichtigung in Ihrer E-Mail auf, die Sie über eine Anforderung informiert, deren Genehmigung noch aussteht, und klicken Sie dann auf , um die Anfrage zu öffnen. <!--add the name of the button here, from the email-->
 
@@ -162,5 +168,5 @@ So genehmigen Sie eine Anforderung:
 1. (Optional) Klicken Sie oben rechts in der Anfrage auf das Symbol **Genehmigungen** ![](assets/approvals-icon.png) , um die Genehmiger anzuzeigen.
 1. Klicken Sie auf **Überprüfen und genehmigen** und wählen Sie dann eine der folgenden Optionen: <!--did they fix the button and removed the &??-->
 
-   * **Genehmigen**: Um die Anfrage zu genehmigen. Für den mit dem Anfrageformular verknüpften Datensatztyp wird sofort ein Datensatz erstellt.
-   * **Ablehnen**: Um die Anfrage abzulehnen. Für den mit dem Anfrageformular verknüpften Datensatztyp wird kein Datensatz erstellt. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **Genehmigen**: Damit wird die Anfrage genehmigt. Für den mit dem Anfrageformular verknüpften Datensatztyp wird sofort ein Datensatz erstellt.
+   * **Ablehnen**: Dadurch wird die Anfrage zurückgewiesen. Für den mit dem Anfrageformular verknüpften Datensatztyp wird kein Datensatz erstellt. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->
