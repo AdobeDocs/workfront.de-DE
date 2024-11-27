@@ -9,9 +9,9 @@ description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflo
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1733'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatis
 >[!NOTE]
 >
 >Der [!DNL Microsoft Dynamics 365]-Connector unterstützt [!DNL Dynamics Finance and Operations] nicht.
+>
+>Die Microsoft Dynamics 365 Finance- und Operations-Module finden Sie unter [[!DNL Microsoft Dynamics 365 Finance and Operations modules]](/help/quicksilver/workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md).
 
 Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
