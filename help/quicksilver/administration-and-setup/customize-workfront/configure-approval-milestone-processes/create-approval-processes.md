@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d2a5040c6a9430dc404097c9836ea38bd8b1c648
+source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2191'
 ht-degree: 1%
 
 ---
@@ -52,8 +52,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td><p>System- und Arbeitselemensebene: Beliebig</p>
-   <p>Gruppenebene: Prime oder Ultimate</p></td> 
+   <td><p>Genehmigungsverfahren auf Systemebene oder für den einmaligen Gebrauch: Beliebige</p>
+   <p>Validierungsprozess auf Gruppenebene: Prime oder Ultimate</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 

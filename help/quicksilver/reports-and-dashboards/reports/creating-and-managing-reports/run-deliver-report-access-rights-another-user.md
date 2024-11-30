@@ -6,14 +6,16 @@ description: Standardmäßig können Benutzer nur die Objekte in einem Bericht s
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
 
 # Einen Bericht mit Zugriffsrechten für einen anderen Benutzer ausführen und bereitstellen
+
+<!-- Audited: 11/2024 -->
 
 Standardmäßig können Benutzer nur die Objekte in einem Bericht sehen, für die sie zur Ansicht berechtigt sind.
 
@@ -28,6 +30,8 @@ Wenn Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers ausführe
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -40,20 +44,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+      <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht anzeigen (zum Anzeigen des gelieferten Berichts)</p> <p>Berechtigungen für einen Bericht verwalten (zum Ausführen des Berichts)</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht anzeigen (zum Anzeigen des gelieferten Berichts)</p><p>Berechtigungen für einen Bericht verwalten (zum Ausführen des Berichts)</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Bericht mit Zugriffsrechten für einen anderen Benutzer anzeigen
 
@@ -63,7 +78,7 @@ Die Benutzer, die auf den Bericht zugreifen, müssen mindestens über Anzeigeber
 
 So führen Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers aus:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Workfront und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
+1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Berichte]**.
 
 1. Wählen Sie den Bericht aus, der mit den Zugriffsrechten eines anderen Benutzers angezeigt werden soll.
 1. Klicken Sie auf **Berichtaktionen** und dann auf **Bearbeiten**.
@@ -71,7 +86,7 @@ So führen Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers aus
 1. Klicken Sie auf **Berichtseinstellungen**.
 
 1. Geben Sie im Feld **Diesen Bericht mit Zugriffsrechten ausführen von:** den Namen des Benutzers ein, als den der Bericht angezeigt werden soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.\
-   ![](assets/qs-access-rights-of-350x251.png)
+   ![](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -101,7 +116,7 @@ So senden Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers:
 1. Klicken Sie auf **Bericht senden**.
 
 1. Geben Sie im Feld **Diesen Bericht mit den Zugriffsrechten von:** an, wie der Bericht in einer E-Mail-Versand dargestellt werden soll, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Die Standardeinstellung ist der Name des Benutzers, der den Bericht erstellt.\
-   ![](assets/qs-send-report-access-rights-of-350x446.png)
+   ![](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -111,8 +126,8 @@ So senden Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers:
 
    * HTML
    * PDF
-   * MS Excel
-   * MS Excel (.xlsx)
+   * Excel
+   * Excel (.xlsx)
    * TSV
 
 1. Klicken Sie auf **Jetzt senden** , um es sofort zu senden.\
@@ -138,20 +153,22 @@ Sie können beispielsweise Folgendes zu einem Bericht mit einer Source-Spalte hi
 * Die Spalten &quot;Projektname&quot;oder &quot;Aufgabenname&quot;für einen Problembericht.
 * Eine Spalte mit Textmodusausdrücken, die auf alle drei Objekte verweisen. Im Folgenden finden Sie ein Beispiel für einen Stundenbericht:
 
-  `displayname=Custom Source`
-
-  `linkedname=opTask`
-
-  `namekey=view.relatedcolumn`
-
-  `namekeyargkey.0=opTask`
-
-  `namekeyargkey.1=name`
-
-  `textmode=true`
-
-  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
-
-  `valueformat=HTML`
+  ```
+  displayname=Custom Source
+  
+  linkedname=opTask
+  
+  namekey=view.relatedcolumn
+  
+  namekeyargkey.0=opTask
+  
+  namekeyargkey.1=name
+  
+  textmode=true
+  
+  valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))
+  
+  valueformat=HTML
+  ```
 
   Weitere Informationen zu Textmodusansichten finden Sie unter [Bearbeiten einer Ansicht im Textmodus](../text-mode/edit-text-mode-in-view.md).

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: cea70727aaaa867b55ce999f68a675c453840d41
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Verwendung des Projekt- oder Benutzerzeitplans für Einzelzuweisungsaufgaben</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Voreinstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden sollte, um die Timeline des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
         </td>
         <td>
@@ -75,7 +74,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Geschäftsregeln unterstützen jetzt Hyperlinks</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um den Benutzer darauf hinzuweisen, wie er seine Aktion innerhalb der Beschränkung der Regel ändern kann. Die statische URL kann mit der Dokumentation oder anderen Seiten verknüpft werden, die für den Benutzer hilfreich sind.</p>
         </td>
         <td>
@@ -91,7 +89,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Filtern nach nativen Typeahead-Feldern ist jetzt verfügbar</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Wenn Sie einen nativen Feldverweis zu einem benutzerdefinierten Formular hinzufügen und auf ein Typeahead-Feld verweisen (z. B. Portfolio, Firma oder Eigentümer), ist jetzt eine Filteroption verfügbar. Mit dem Filter können Sie die Objekte einschränken, die Benutzer bei der Verwendung des Felds auswählen können. Dieser benutzerdefinierte Filter funktioniert genauso wie ein Filter für ein benutzerdefiniertes typeahead-Feld, wobei der Textmodus zum Definieren des Filters verwendet wird.</p>
         </td>
         <td>
@@ -172,7 +169,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Mehrere Dokumente gleichzeitig bearbeiten</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Sie können jetzt mehrere Dokumente gleichzeitig bearbeiten. Sie können die Beschreibungen bearbeiten und benutzerdefinierte Formulare aktualisieren.</p>
         </td>
         <td>
@@ -309,6 +305,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Schaltfläche zur ersten Erstellung von Leserkonten für Data Connect</a></p>
+            [!BADGE In Production ]{type=Informative}
             <p>Administratoren, die erstmals auf Data Connect zugreifen, haben jetzt die Möglichkeit, ein neues Snowflake-Leserkonto zu erstellen, indem sie auf eine Schaltfläche klicken. Der Vorgang dauert einige Minuten, erfordert jedoch keine weiteren Maßnahmen.</p>
         </td>
         <td>
@@ -332,7 +329,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Aktualisierung der Verwaltung von verschobenen oder gelöschten Assets in verknüpften Ordnern</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Die Handhabung von verschobenen und gelöschten Assets bei der Verwendung der Adobe Workfront-Integration mit Experience Manager Assets und Assets Essentials wurde geändert:</p>
             <ul>
                 <li>Gelöschte Assets: Wenn ein Asset innerhalb eines verknüpften Ordners in Assets oder Assets Essentials gelöscht wird, wird das gelöschte Asset im Bereich Projektdokumente beibehalten.</li>

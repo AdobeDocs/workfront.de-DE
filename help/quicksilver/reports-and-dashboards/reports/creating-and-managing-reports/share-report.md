@@ -6,14 +6,16 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf da
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
 # Bericht in Adobe Workfront freigeben
+
+<!-- Audited: 11/2024 -->
 
 Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff auf das Anzeigen oder Bearbeiten von Berichten, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zur Gewährung des Zugriffs auf Probleme finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ Berechtigungen beziehen sich auf ein Element in Workfront und legen fest, welche
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+      <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Licht oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Überprüfen oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender oder höher anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender oder höher anzeigen</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für den Bericht</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für den Bericht</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen zur Freigabe von Berichten
 
@@ -79,7 +94,7 @@ Die Freigabe eines oder mehrerer Berichte aus einer Liste ist identisch.
 
    Klicken Sie auf den Namen eines Berichts und dann auf **Berichtsaktionen >****Freigabe**.
 
-   ![](assets/qs-report-actions-sharing.png)
+   ![](assets/unshimmed-report-actions-sharing.png)
 
 1. Geben Sie in dem angezeigten Feld &quot;**Personen, Teams, Rollen, Gruppen oder Unternehmen hinzufügen...**&quot;den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für den/die Sie den Bericht freigeben möchten, und drücken Sie dann die Eingabetaste **Enter** , wenn der Name angezeigt wird.
 
@@ -91,7 +106,7 @@ Die Freigabe eines oder mehrerer Berichte aus einer Liste ist identisch.
     <tbody> 
      <tr> 
       <td role="rowheader">Anzeigen</td> 
-      <td> <p>Ermöglicht Ihrem Empfänger den Zugriff auf den Bericht im Bereich <strong>Berichte</strong> <img src="assets/reports-in-main-menu.png"> und führt ihn aus.</p> <p>Sie können auf <strong>Erweiterte Einstellungen</strong> klicken, um anzugeben, ob der Benutzer oder die Benutzer diese für alle Benutzer im System freigeben können sollen.<strong></strong></p> </td> 
+      <td> <p>Ermöglicht Ihrem Empfänger den Zugriff auf den Bericht im Bereich <strong>Berichte</strong> und führt ihn aus.</p> <p>Sie können auf <strong>Erweiterte Einstellungen</strong> klicken, um anzugeben, ob der Benutzer oder die Benutzer diese für alle Benutzer im System freigeben können sollen.<strong></strong></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verwalten</td> 
@@ -101,9 +116,15 @@ Die Freigabe eines oder mehrerer Berichte aus einer Liste ist identisch.
    </table>
 
 1. (Optional) Wiederholen Sie die beiden vorherigen Schritte, um der Liste weitere Namen hinzuzufügen und ihre Optionen zu konfigurieren.
-1. (Optional) Klicken Sie oben rechts im Freigabefeld auf das Symbol **Zahnrad** ![](assets/gear-icon-settings-with-dn-arrow.jpg) und wählen Sie dann eine der folgenden Optionen aus:
+1. (Optional) Klicken Sie im Freigabefeld auf das Dropdown-Menü **Nur eingeladene Personen können auf** zugreifen und wählen Sie dann eine der folgenden Optionen aus:
 
-   * **Gestalten Sie dies für externe Benutzer öffentlich:** Wählen Sie diese Option, um eine URL zu generieren, die für andere freigegeben werden kann. Jeder mit der URL kann auf den Bericht zugreifen, ohne über eine Adobe Workfront-Lizenz zu verfügen.
+   * **Nur eingeladene Personen können auf den Bericht zugreifen** Wählen Sie diese Option aus, damit nur Benutzer, denen Zugriff auf den Bericht gewährt wurde, ihn anzeigen können.
+
+   * **Alle Benutzer im System können diese Option anzeigen** Wählen Sie diese Option aus, damit jeder in Workfront mit Zugriff auf Berichte den Bericht anzeigen kann.
+
+1. (Optional) Klicken Sie oben rechts im Freigabefeld auf das Symbol **Zahnrad** ![](assets/gear-icon-settings-with-dn-arrow.jpg) und wählen Sie optional die folgende Option aus:
+
+   * **Gestalten Sie diese für externe Benutzer öffentlich** Wählen Sie diese Option, um eine URL zu generieren, die für andere freigegeben werden kann. Jeder mit der URL kann auf den Bericht zugreifen, ohne über eine Adobe Workfront-Lizenz zu verfügen.
 
      >[!CAUTION]
      >
@@ -112,7 +133,5 @@ Die Freigabe eines oder mehrerer Berichte aus einer Liste ist identisch.
      >[!NOTE]
      >
      >Wenn der Bericht eine Eingabeaufforderung enthält und Sie ihn öffentlich freigeben, können Benutzer, die den Bericht über den öffentlichen Freigabe-Link ausführen, den Bericht nicht über die Eingabeaufforderung ausführen. Der Bericht wird angezeigt, ohne dass die Eingabeaufforderung darauf angewendet wird, es sei denn, er meldet sich bei Workfront an und greift auf den Bericht zu, ohne den öffentlichen Freigabe-Link zu verwenden. Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten für Aufforderungen finden Sie im Abschnitt [Einschränkungen für die Freigabe erforderlicher Berichte](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) im Artikel [Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
-
-   * **Diese Option systemweit anzeigen:** Wählen Sie diese Option aus, damit jeder in Workfront mit Zugriff auf Berichte den Bericht sehen kann.
 
 1. Klicken Sie auf **Speichern**.

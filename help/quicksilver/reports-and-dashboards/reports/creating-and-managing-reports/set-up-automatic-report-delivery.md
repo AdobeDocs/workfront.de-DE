@@ -6,14 +6,16 @@ description: Planen eines automatischen Berichtversands
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1197'
 ht-degree: 2%
 
 ---
 
 # Planen eines automatischen Berichtversands
+
+<!-- Audited: 11/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -24,6 +26,8 @@ Sie können Berichte so planen, dass sie den Benutzern automatisch nach einem fe
 Weitere Informationen, einschließlich Größenbeschränkungen, die sich auf die Bereitstellung Ihrer Berichte auswirken können, finden Sie unter [Übersicht über die Berichtbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -37,20 +41,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+      <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -172,13 +187,13 @@ So planen Sie einen Bericht für die automatische Bereitstellung oder zum Bearbe
    1. Klicken Sie im Bedienfeld **Sich wiederholende Sendungen** auf den geplanten Versand und dann auf **Löschen**.
    1. Klicken Sie zur Bestätigung auf **Löschen** .
 
-## Video-Beispiel
+<!--## Video walk-through
 
-Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie einen Berichtversand planen. Dieses Video wurde in Workfront Classic aufgezeichnet. Der Inhalt gilt jedoch auch für das neue Workfront-Erlebnis.
+View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 
-[![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
+[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
-<!--
+
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>
 -->
 
