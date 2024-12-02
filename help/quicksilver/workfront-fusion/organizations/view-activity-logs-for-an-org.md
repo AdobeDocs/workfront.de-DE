@@ -9,7 +9,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 686113b6dd658db6390b425946e5b80593a4dbd1
+exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
+source-git-commit: ff455b5da1db6a4edb9f6de5d9ff50a7658f91bb
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -105,8 +106,4 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 1. Wählen Sie den Datumsbereich aus dem Kalender aus und geben Sie die Uhrzeit (optional) ein.
 1. Wählen Sie aus, ob eine Excel-Datei oder eine CSV-Datei exportiert werden soll.
 1. Klicken Sie auf **Anwenden**.
-
-
-
-
 
