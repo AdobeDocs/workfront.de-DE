@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -40,6 +40,7 @@ Kunden müssen sicherstellen, dass alle Endpunkte, die ausgehende Nachrichten au
 * Eine Anmelde-URL ist **eingefroren** , wenn sie mehr als 2.000 aufeinander folgende Fehler aufweist und der letzte Erfolg vor mehr als 72 Stunden erfolgte ODER wenn innerhalb eines beliebigen Zeitraums 50.000 aufeinander folgende Fehler aufgetreten sind.
 * Eine **disabled**-Anmelde-URL versucht weiterhin alle 10 Minuten, einen Versand durchzuführen, und wird bei einem erfolgreichen Versand wieder aktiviert.
 * Eine Abonnement-URL vom Typ **frozen** versucht nie, den Versand durchzuführen, es sei denn, sie wird durch eine API-Anfrage manuell aktiviert.
+
 
 
 

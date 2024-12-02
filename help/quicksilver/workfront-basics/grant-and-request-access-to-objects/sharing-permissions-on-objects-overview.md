@@ -6,7 +6,7 @@ description: Sie können Berechtigungen für ein von Ihnen erstelltes Objekt ode
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -166,6 +166,7 @@ Weitere Informationen zur Hierarchie und Interdependenz von Objekten in Workfron
 Wenn Sie einer Benutzergruppe für ein Objekt Verwaltungsberechtigungen erteilen und Sie einem einzelnen Benutzer in dieser Gruppe Ansichtsberechtigungen für dasselbe Objekt erteilen, hat der Benutzer die höchsten Berechtigungen (Verwalten), die durch die Gruppenmitgliedschaft für das Objekt gewährt werden. 
 
 Wenn Sie Benutzern, die bereits Teil einer Organisationseinheit sind (Gruppe, Team, Auftragsrolle oder Firma) mit einer höheren Berechtigungsstufe, niedrigere Berechtigungen erteilen möchten, müssen Sie die Berechtigungen aus der Organisationseinheit entfernen und Benutzer einzeln mit niedrigeren Berechtigungen hinzufügen.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
