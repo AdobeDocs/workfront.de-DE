@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: e2c8af4428fa7ef910dad3a29abcc375760855cb
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -45,3 +45,9 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Kopieren von Modulen oder Szenarien in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 * [Aktualisieren eines Moduls auf eine neue Version in einem [!DNL Adobe Workfront Fusion] szenario](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Sperrte Szenarien in [!DNL Adobe Workfront Fusion] anzeigen und verwalten](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
+* [Ausführen des Szenario-Scoring-Experten in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+
+
+
+
+
