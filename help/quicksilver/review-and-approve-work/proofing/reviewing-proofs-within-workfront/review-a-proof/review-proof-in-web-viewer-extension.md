@@ -5,13 +5,13 @@ title: Überprüfen interaktiver Inhalte in der Web-Proofing-Viewer-Erweiterung
 description: Das Adobe Workfront-Überprüfungstool ist eine Browsererweiterung, mit der Sie interaktive Inhalte in einer ZIP-Datei oder mit einer URL testen können.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
-
 
 # Überprüfen interaktiver Inhalte mit dem Adobe Workfront-Überprüfungstool
 
@@ -23,7 +23,11 @@ Das Adobe Workfront-Überprüfungstool ist eine webbasierte Browsererweiterung, 
 * Chrome
 * Edge
 
-Für Websites, die das Öffnen ihrer Site in iFrames verhindern, wie z. B. Figma, empfehlen wir die Verwendung des Desktop Proof Viewers.
+Es wird empfohlen, den Desktop Proofing Viewer zu verwenden, wenn sich der zu überprüfende Inhalt auf einer Website befindet, die
+
+* SSO-Authentifizierung erforderlich
+* Ermöglicht das Öffnen der Website in iFrames, z. B. Figma
+
 
 
 ## Adobe Workfront-Überprüfungs-Tool zum Standard-Viewer für URL- und ZIP-Testsendungen machen
@@ -69,7 +73,3 @@ Nach der Installation der Erweiterung werden interaktive Testsendungen automatis
 >[!IMPORTANT]
 >
 >Sie müssen die ältere Web Viewer-Erweiterung entfernen, um das Adobe Workfront Review-Tool verwenden zu können.
-
-
-
-

@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d5f21f3568f72273aa0843a45b17053fc9ebf727
+source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1154'
 ht-degree: 3%
 
 ---
@@ -38,6 +38,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 
 <table>
 <col style="width: 20%;" />
+<col style="width: 50%;" />
 <tbody>
     <tr>
     <td>Bereich</td>
@@ -89,7 +90,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
-            [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
             <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
         </td>
         <td>Mittwoch, 29. Oktober 2024</td>
@@ -173,8 +173,6 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
-            [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
             <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
         </td>
         <td>Mittwoch, 29. Oktober 2024</td>
