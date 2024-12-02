@@ -6,9 +6,9 @@ description: Sie können Berechtigungen für ein von Ihnen erstelltes Objekt ode
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -108,6 +108,7 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
     <ul> 
      <li><p>Anzeigen des Objekts</p></li> 
      <li><p>Hinzufügen von Dokumenten zum Objekt</p></li> 
+     <li><p>Hinzufügen von Problemen zum Objekt (wenn es sich um eine Aufgabe oder ein Projekt handelt)</p></li> 
      <li><p>Anzeigen von Finanzinformationen zum Objekt</p></li> 
      <li> <p>Objekt freigeben<br></p> <p>Wenn Sie das Objekt freigeben, können Sie anderen Benutzern die gleiche Berechtigungsstufe gewähren, die Sie nur für das Objekt und nicht für eine höhere Ebene haben.</p> </li> 
     </ul> </td> 
@@ -118,7 +119,6 @@ Die folgende Tabelle zeigt die Höhe der Berechtigungen, die Sie beim Freigeben 
     <ul> 
      <li>Alle Aktionen, die mit der Berechtigung Ansicht enthalten sind.</li> 
      <li>Ausgaben hinzufügen</li> 
-     <li>Hinzufügen von Problemen (wenn es sich um eine Aufgabe oder ein Projekt handelt)</li> 
      <li>Aufgaben hinzufügen (falls es sich um ein Projekt handelt)</li> 
      <li>Benutzerdefinierte Forms bearbeiten</li> 
      <li>Protokollzeiten für das Objekt</li> 
