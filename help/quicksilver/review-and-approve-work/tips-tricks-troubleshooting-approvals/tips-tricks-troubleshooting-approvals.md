@@ -1,5 +1,5 @@
 ---
-title: "Tipps, Tricks und Fehlerbehebung für Genehmigungen: Artikelindex"
+title: 'Tipps, Tricks und Fehlerbehebung bei Genehmigungen: Artikelindex'
 description: Tipps, Tricks und Fehlerbehebung bei Genehmigungen
 author: Courtney
 draft: Probably

@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: "Erste Schritte mit [!DNL Workfront Proof]: Artikelindex"
+title: 'Erste Schritte mit [!DNL Workfront Proof]: Artikelindex'
 description: Erfahren Sie mehr über die ersten Schritte mit Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents

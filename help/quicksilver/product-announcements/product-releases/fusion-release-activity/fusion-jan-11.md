@@ -44,7 +44,7 @@ Sie können jetzt Workfront Fusion verwenden, um eine Verbindung zu Ihrem Datado
 
 Mit den Datadog-Modulen können Sie:
 
-* Post-Zeitreihenpunkte
+* Zeitpunkte für Beiträge
 * Ausführen eines benutzerdefinierten API-Aufrufs
 
 Weitere Informationen zu Datadog-Modulen finden Sie unter [Datadog-Module](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
@@ -66,7 +66,7 @@ Weitere Informationen zu den verfügbaren Cvent-Modulen finden Sie unter [Cvent 
 
 ## Microsoft Dynamics 365-Connector und -Module jetzt verfügbar
 
-Sie können jetzt mit Workfront Fusion 2.0 eine Verbindung zu Ihrem Microsoft Dynamics 365-Konto herstellen. Mit den Microsoft Dynamics 365-Modulen können Sie:
+Sie können jetzt mit Workfront Fusion 2.0 eine Verbindung zu Ihrem Microsoft Dynamics 365-Konto herstellen. Mit den Microsoft Dynamics 365-Modulen haben Sie folgende Möglichkeiten:
 
 * Trigger eines Szenarios beim Hinzufügen oder Aktualisieren von Datensätzen in Microsoft Dynamics 365
 * Erstellen, Lesen, Aktualisieren oder Löschen eines Microsoft Dynamics 365-Datensatzes

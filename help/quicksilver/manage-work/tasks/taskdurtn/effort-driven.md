@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Duration Type overview: Effort Driven'
+title: 'Übersicht über den Durationstyp: Aufwandsorientiert'
 description: '"Anstrengung gesteuert"ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Durationstypen in Workfront finden Sie unter Übersicht über die Aufgabendauer und -dauer.'
 author: Alina
 feature: Work Management

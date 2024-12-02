@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte"
+title: 'Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte'
 description: Sie können die Informationen, die in mehreren separaten Spalten angezeigt werden, zusammenführen und in einer gemeinsamen Spalte anzeigen.
 author: Nolan
 feature: Reports and Dashboards

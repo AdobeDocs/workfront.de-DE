@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Unternehmen und Startseite des zugewiesenen Benutzers"
+title: 'Ansicht: Unternehmen und Startseite des zugewiesenen Benutzers'
 description: In dieser Aufgabenansicht werden das Unternehmen und die Home-Gruppe des Primären Eigentümers der Aufgabe angezeigt. Hierbei handelt es sich um Werte, die in der Standardoberfläche nicht verfügbar sind, aber über den Textmodus auf sie zugegriffen werden kann.
 author: Nolan
 feature: Reports and Dashboards

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht und Gruppierung: Anzeige der tatsächlichen Projektdauer, aggregiert durch den Durchschnitt in einer Gruppierung"
+title: 'Ansicht und Gruppierung: Anzeige der tatsächlichen Projektdauer, aggregiert durch den Durchschnitt in einer Gruppierung'
 description: Sie können die folgende Spalte zu einem Projektbericht hinzufügen, um die tatsächliche Dauer als Durchschnitt in einer Gruppierung anzuzeigen.
 author: Nolan
 feature: Reports and Dashboards

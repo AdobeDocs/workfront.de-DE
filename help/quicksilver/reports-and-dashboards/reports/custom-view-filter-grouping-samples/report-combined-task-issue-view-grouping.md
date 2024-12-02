@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Report: Combined Task and Issue View and Grouping"
+title: 'Bericht: Kombinierte Aufgaben- und Problemansicht und -gruppierung'
 description: Dieser Arbeitselement-Bericht zeigt sowohl Aufgaben als auch Probleme an, an denen Benutzer die Arbeit in einem Bericht akzeptiert haben. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
 author: Nolan
 feature: Reports and Dashboards

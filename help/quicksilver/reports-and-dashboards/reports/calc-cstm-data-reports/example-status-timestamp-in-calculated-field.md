@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "Berechnetes benutzerdefiniertes Feldbeispiel: Anzeigen eines Status-Zeitstempels in einem benutzerdefinierten Formular"
+title: 'Beispiel für ein berechnetes benutzerdefiniertes Feld: Anzeigen eines Status-Zeitstempels in einem benutzerdefinierten Formular'
 description: Das folgende berechnete Feld zeigt das Datum, an dem der Objektstatus als In Bearbeitung (INP) markiert ist. Sie können dieselben Informationen für berechnete benutzerdefinierte Felder für Probleme, Aufgaben oder Projekte verwenden.
 author: Nolan
 feature: Reports and Dashboards

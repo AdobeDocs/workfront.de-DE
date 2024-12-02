@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filter: Anzeige der aktuellen Projekte, deren Genehmigung aussteht'
+title: 'Filter: Zeigt Ihre aktuellen Projekte an, deren Genehmigung aussteht'
 description: Der folgende Projektfilter zeigt Projekte im Status Aktuell - Ausstehende Genehmigung an, wobei der angemeldete Benutzer entweder der Projektsponsor oder der Portfolio Manager ist.
 author: Lisa and Nolan
 feature: Reports and Dashboards

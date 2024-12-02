@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: "Verwalten von Testversandfristen: Artikelindex"
+title: 'Verwalten von Testversandfristen: Artikelindex'
 description: Hinzufügen, Bearbeiten oder Löschen eines Termins für eine Phase
 author: Courtney
 feature: Digital Content and Documents

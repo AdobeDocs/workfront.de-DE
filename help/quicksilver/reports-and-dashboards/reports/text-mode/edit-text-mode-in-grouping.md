@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Textmodus in einer Gruppierung bearbeiten
-description: "HINWEIS: Alle FVG-Artikel für die Bearbeitung im Textmodus gleich machen"
+description: 'HINWEIS: Alle FVG-Artikel müssen für die Bearbeitung im Textmodus gleich sein.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf

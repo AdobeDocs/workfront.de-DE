@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: "E-Mail-Benachrichtigungen: Artikelindex"
+title: 'E-Mail-Benachrichtigungen: Artikelindex'
 description: Als Adobe Workfront-Administrator können Sie die Ereignisbenachrichtigungen, Erinnerungsbenachrichtigungen und E-Mail-Vorlagen für Ihre Benutzer konfigurieren.
 author: Nolan
 feature: System Setup and Administration

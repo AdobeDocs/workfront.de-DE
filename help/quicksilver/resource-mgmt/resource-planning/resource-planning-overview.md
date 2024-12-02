@@ -2,7 +2,7 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: "Ressourcenplanung: Artikelindex"
+title: 'Ressourcenplanung: Artikelindex'
 description: Die Artikel in diesem Abschnitt enthalten Informationen zur Funktionalität in den Abschnitten Planer und Ressourcenpools im Bereich "Ressourcen"von Adobe Workfront.
 author: Lisa
 feature: Resource Management

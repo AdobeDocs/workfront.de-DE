@@ -1,5 +1,5 @@
 ---
-title: "Custom Forms: Article Index"
+title: 'Benutzerdefinierte Forms: Artikelindex'
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -13,7 +13,7 @@ exl-id: a732344d-aca5-4825-b360-a4b49076b4d0
 source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

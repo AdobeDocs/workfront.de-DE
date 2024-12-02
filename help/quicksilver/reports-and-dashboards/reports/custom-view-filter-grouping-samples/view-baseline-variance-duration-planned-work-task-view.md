@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Grundlegende Varianz für Dauer und geplante Arbeit in einer Aufgabenansicht"
+title: 'Ansicht: Grundlegende Varianz für Dauer und geplante Arbeit in einer Aufgabenansicht'
 description: Zeigen Sie die Grundlinienvarianz für Dauer und geplante Arbeit an.
 author: Nolan
 feature: Reports and Dashboards

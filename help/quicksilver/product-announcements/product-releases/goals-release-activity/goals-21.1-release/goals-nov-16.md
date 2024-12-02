@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: 'Aktivität "Adobe Workfront Goals 21.1": Woche vom 16. November 2020'
+title: 'Adobe Workfront Goals-Version 21.1: Woche vom 16. November 2020'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 21.1 für Adobe Workfront-Ziele in der Vorschau-Umgebung in der Woche vom 30. November 2020 vorgenommen wurden. Diese Verbesserungen werden im ersten Quartal 21.1 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements, Workfront Goals

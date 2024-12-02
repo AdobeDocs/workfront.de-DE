@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Von Zeitplanausnahmen betroffene Aufgaben"
+title: 'Ansicht: Von Zeitplanausnahmen betroffene Aufgaben'
 description: In dieser Aufgabenansicht werden Aufgaben identifiziert, die aufgrund von Wochenenden, persönlicher Zeitüberschreitung oder anderen Zeitplanausnahmen zu spät abgeschlossen werden müssen.
 author: Nolan
 feature: Reports and Dashboards

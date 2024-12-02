@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Asset- und Dokumentgenehmigungen einrichten und verwalten: Artikelindex"
+title: 'Asset- und Dokumentgenehmigungen einrichten und verwalten: Artikelindex'
 description: Dieser Abschnitt enthält Artikel zum Verwalten von Asset- und Dokumentgenehmigungen in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents

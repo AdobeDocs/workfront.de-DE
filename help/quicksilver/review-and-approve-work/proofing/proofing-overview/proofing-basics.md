@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: "Testversandübersicht: Artikelindex"
+title: 'Testversandübersicht: Artikelindex'
 description: Übersicht über das Profil für Testberechtigungen
 author: Courtney
 feature: Digital Content and Documents

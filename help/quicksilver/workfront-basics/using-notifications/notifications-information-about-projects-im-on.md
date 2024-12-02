@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Benachrichtigungen: Informationen zu Projekten, die ich verwende"
+title: 'Benachrichtigungen: Informationen zu Projekten, die ich verwende'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten in Projekten, an denen Sie arbeiten.
 author: Lisa
 feature: Get Started with Workfront

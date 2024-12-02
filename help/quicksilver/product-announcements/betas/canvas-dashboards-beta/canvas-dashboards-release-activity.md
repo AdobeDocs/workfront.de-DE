@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Canvas Dashboards beta: Veröffentlichungsaktivität"
+title: 'Canvas Dashboards Beta-Version: Veröffentlichungsaktivität'
 description: Aktivität "Wöchentliche Veröffentlichung"für die Beta-Version der Adobe Workfront Canvas-Dashboards
 author: Nolan
 feature: Product Announcements

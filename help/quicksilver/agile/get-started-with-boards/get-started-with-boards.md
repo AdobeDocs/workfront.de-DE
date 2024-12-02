@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: "Erste Schritte mit Pinnwänden: Artikelindex"
+title: 'Erste Schritte mit Pinnwänden: Artikelindex'
 description: Lesen Sie diese Artikel, um zu erfahren, wie Pinnwände in Workfront verwendet werden.
 author: Lisa
 feature: Agile

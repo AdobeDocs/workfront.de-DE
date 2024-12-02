@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: "Fehlermeldung in der  [!DNL Adobe Workfront] Mobile App: 'Ihr Konto ist nicht für die API aktiviert.'"
-description: "Fehlermeldung in der  [!DNL Adobe Workfront] Mobile App: 'Ihr Konto ist nicht für die API aktiviert.'"
+title: 'Fehlermeldung in der  [!DNL Adobe Workfront] Mobile App: ''Ihr Konto ist nicht für die API aktiviert.'''
+description: 'Fehlermeldung in der  [!DNL Adobe Workfront] Mobile App: ''Ihr Konto ist nicht für die API aktiviert.'''
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0

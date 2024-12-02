@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Show Name of Parent Tasks as All Caps"
+title: 'Ansicht: Name übergeordneter Aufgaben als "Alle Karten"anzeigen'
 description: Sie können diese Spalte zu einer Aufgabenansicht hinzufügen, um den Namen der übergeordneten Aufgaben in allen Großbuchstaben anzuzeigen.
 author: Nolan
 feature: Reports and Dashboards

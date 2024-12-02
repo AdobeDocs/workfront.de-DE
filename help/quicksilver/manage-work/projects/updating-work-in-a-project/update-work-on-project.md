@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Aktualisieren der Arbeit an einem Projekt: Artikelindex"
+title: 'Arbeit an einem Projekt aktualisieren: Artikelindex'
 description: Um den Status und den Fortschritt eines Projekts zu aktualisieren, müssen Sie den Status und den Fortschritt seiner Aufgaben aktualisieren. Das wird schließlich wieder aufgenommen, um den Fortschritt des Projekts zu zeigen.
 author: Alina
 feature: Work Management

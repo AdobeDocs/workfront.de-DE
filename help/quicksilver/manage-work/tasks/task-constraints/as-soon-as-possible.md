@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint Overview: so bald wie möglich"
+title: 'Übersicht über Aufgabenbegrenzungen: Sofort wie möglich'
 description: Sofort wie möglich ist eine Aufgabenbegrenzung, die die Startzeit der Aufgabe so nah wie möglich am Anfang des Projekts platziert.
 author: Alina
 feature: Work Management

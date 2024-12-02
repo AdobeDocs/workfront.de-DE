@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: unvollständige projektübergreifende Nachfolger anzeigen"
+title: 'Filter: unvollständige projektübergreifende Nachfolger anzeigen'
 description: Dieser Aufgabenfilter gibt unvollständige projektübergreifende Nachfolger zurück.
 author: Lisa and Nolan
 feature: Reports and Dashboards

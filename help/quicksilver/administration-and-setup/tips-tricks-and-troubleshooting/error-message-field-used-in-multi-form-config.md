@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Fehlermeldung: Es gibt ein leichtes Problem. Dieses Feld wird in einer Konfiguration mit mehreren Formularen verwendet."
+title: 'Fehlermeldung: Es gibt ein leichtes Problem. Dieses Feld wird in einer Konfiguration mit mehreren Formularen verwendet'
 description: Wenn Sie eine Berechnung in einem berechneten benutzerdefinierten Feld in einem benutzerdefinierten Formular ändern und eine Fehlermeldung angibt, dass das Feld in einer Konfiguration mit mehreren Formularen verwendet wird, müssen Sie das Feld durch ein neues Feld ersetzen, das die gewünschte Berechnung enthält.
 author: Lisa
 feature: System Setup and Administration

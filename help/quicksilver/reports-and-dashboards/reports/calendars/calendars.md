@@ -2,7 +2,7 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: "Kalender: Artikelindex"
+title: 'Kalender: Artikelindex'
 description: Ein Kalenderbericht ist ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. Sie können Datumsinformationen in einem Kalenderbericht für Projekte, Aufgaben und Probleme anzeigen. Lesen Sie diese Artikel, um ein Verständnis der Kalenderberichte in Adobe Workfront zu erhalten.
 author: Lisa
 feature: Reports and Dashboards

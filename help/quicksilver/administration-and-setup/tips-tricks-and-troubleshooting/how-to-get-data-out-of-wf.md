@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Exportieren historischer Daten aus Adobe Workfront: Vorteile und Nachteile"
+title: 'Exportieren historischer Daten aus Adobe Workfront: Vorteile und Nachteile'
 description: In diesem Artikel werden die Vor- und Nachteile von 4 Optionen erläutert, mit denen Sie historische Daten aus Workfront exportieren können.
 author: Lisa
 feature: System Setup and Administration

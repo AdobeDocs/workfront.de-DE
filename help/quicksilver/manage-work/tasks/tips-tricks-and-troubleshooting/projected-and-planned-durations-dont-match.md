@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: Die projizierte Dauer stimmt nicht mit der geplanten Dauer überein
-description: '"Sie erhalten die folgende Fehlermeldung: "Die projizierte Dauer einer Aufgabe/eines Problems wurde auf 0 festgelegt und entspricht nicht der geplanten Dauer."'
+description: 'Sie erhalten die folgende Fehlermeldung: "Die projizierte Dauer einer Aufgabe/eines Problems wurde auf 0 festgelegt und entspricht nicht der geplanten Dauer."'
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116

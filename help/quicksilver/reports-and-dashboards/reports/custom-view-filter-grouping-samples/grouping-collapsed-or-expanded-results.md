@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppierung: Geben Sie an, ob die Ergebnisse einer Gruppierung mithilfe des Textmodus reduziert oder erweitert werden sollen.'
-description: 'Gruppierung: Geben Sie an, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen.'
+title: 'Gruppierung: Geben Sie im Textmodus an, ob die Ergebnisse einer Gruppierung reduziert oder erweitert werden sollen'
+description: 'Gruppierung: Gibt an, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee

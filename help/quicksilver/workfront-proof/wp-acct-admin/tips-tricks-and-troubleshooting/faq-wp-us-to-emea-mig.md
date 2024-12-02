@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: "Häufig gestellte Fragen: Migration von Workfront Proof zu USA nach EMEA"
+title: Häufig gestellte Fragen zur Migration von Workfront Proof zu USA nach EMEA
 description: Workfront kontaktiert direkt alle von der Migration durch die Workfront Proof USA betroffenen Organisationen zur EMEA.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents

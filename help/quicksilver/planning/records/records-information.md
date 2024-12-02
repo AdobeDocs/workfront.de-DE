@@ -1,5 +1,5 @@
 ---
-title: "Datensätze: Artikelindex"
+title: 'Aufzeichnungen: Artikelindex'
 description: Nachdem Sie in der Adobe Workfront-Planung Datensatztypen erstellt haben, können Sie einzelne Datensätze dieser Typen erstellen. In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in der Adobe Workfront-Planung erstellen und verwalten können.
 author: Alina
 feature: Workfront Planning

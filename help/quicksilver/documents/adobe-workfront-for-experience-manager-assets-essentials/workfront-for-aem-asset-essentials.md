@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: "Adobe Workfront for Experience Manager Assets Essentials: Artikelindex"
+title: 'Adobe Workfront for Experience Manager Assets Essentials: Artikelindex'
 description: Grundlagen zu Adobe Workfront für Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps

@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint overview: start not later als"
+title: 'Übersicht über Aufgabenbegrenzungen: Start nicht später als'
 description: Start nicht später als (SNLT) ist eine Aufgabenbegrenzung, die den Beginn einer Aufgabe vor dem von Ihnen angegebenen Datum plant.
 author: Alina
 feature: Work Management

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: Projekte nach Einstiegsdatum"
+title: 'Gruppierung: Projekte nach Entrypdatum'
 description: Bei dieser benutzerdefinierten Projektgruppierung können Sie Projekte anzeigen, die nach ihren Datumswerten für die Einsendung gruppiert sind.
 author: Nolan
 feature: Reports and Dashboards

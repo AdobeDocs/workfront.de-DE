@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Benachrichtigungen: Informationen über die mir zugewiesenen Aufgaben"
+title: 'Benachrichtigungen: Informationen über die mir zugewiesenen Aufgaben'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten, die mit einem Ihnen zugewiesenen Arbeitselement stattfinden.
 author: Lisa
 feature: Get Started with Workfront

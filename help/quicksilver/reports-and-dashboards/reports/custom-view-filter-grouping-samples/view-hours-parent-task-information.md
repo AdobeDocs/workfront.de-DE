@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Hours with Parent Task Information"
+title: 'Anzeigen: Stunden mit Informationen zu übergeordneten Aufgaben'
 description: Diese Stundenansicht zeigt den Namen der Aufgabe, in der die Stunden protokolliert wurden, sowie den Namen der übergeordneten Aufgabe an.
 author: Nolan
 feature: Reports and Dashboards

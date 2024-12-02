@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: mehrzeilige Projektansicht"
+title: 'Ansicht: Mehrzeilige Projektansicht'
 description: Erfahren Sie mehr über die mehrzeilige Projektansicht in Berichten.
 author: Nolan
 feature: Reports and Dashboards

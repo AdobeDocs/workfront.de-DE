@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppierung: Organisieren von Listenergebnissen anhand eines berechneten Werts, der allen Objekten in der Gruppierung gemeinsam ist'
+title: 'Gruppierung: Organisieren Sie die Listenergebnisse anhand eines berechneten Werts, der allen Objekten in der Gruppierung gemeinsam ist.'
 description: Möglicherweise möchten Sie Ihre Aufgaben nach Prozent Abgeschlossen in Bereichen von 0-25, 26-50, 51-75, 75-99 und 100 gruppieren. Sie können hierzu mithilfe des Textmodus eine Gruppierung erstellen.
 author: Nolan
 feature: Reports and Dashboards

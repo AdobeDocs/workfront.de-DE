@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Fehlermeldung: ungültiger Parameter: Konversionswert"
-description: '"Sie erhalten die folgende Fehlermeldung, wenn Sie versuchen, das Format eines benutzerdefinierten Felds in einem vorhandenen benutzerdefinierten Formular zu ändern: "Ungültiger Parameter: Konvertierungswert `&lt;..&gt;`"'
+title: 'Fehlermeldung: ungültiger Parameter: Konversionswert'
+description: 'Sie erhalten die folgende Fehlermeldung, wenn Sie versuchen, das Format eines benutzerdefinierten Felds in einem vorhandenen benutzerdefinierten Formular zu ändern: "Ungültiger Parameter: Konvertierungswert `&lt;..&gt;`''"'
 author: Lisa
 feature: System Setup and Administration
 role: Admin

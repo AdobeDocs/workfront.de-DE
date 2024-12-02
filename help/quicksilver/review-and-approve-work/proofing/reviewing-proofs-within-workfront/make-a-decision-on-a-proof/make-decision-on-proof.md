@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: "Entscheidungsfindung über einen Testversand: Artikelindex"
+title: 'Entscheidungsfindung über einen Testversand: Artikelindex'
 description: Testversand genehmigen
 author: Courtney
 feature: Digital Content and Documents

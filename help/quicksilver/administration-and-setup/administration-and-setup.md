@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: "Administration und Einrichtung: Artikelindex"
+title: 'Administration und Einrichtung: Artikelindex'
 description: Hier finden Sie die notwendigen Informationen zum Verwalten des Workfront-Systems.
 feature: System Setup and Administration
 role: Admin

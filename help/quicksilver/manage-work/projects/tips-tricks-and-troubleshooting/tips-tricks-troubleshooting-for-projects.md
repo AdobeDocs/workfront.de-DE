@@ -1,5 +1,5 @@
 ---
-title: "Tipps, Tricks und Fehlerbehebung für Projekte: Artikelindex"
+title: 'Tipps, Tricks und Fehlerbehebung für Projekte: Artikelindex'
 description: Tipps, Tricks und Fehlerbehebung für Projekte
 author: Alina
 draft: Probably

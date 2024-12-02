@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Probleme beim Auflösen von Objektdetails"
+title: 'Ansicht: Probleme beim Auflösen von Objektdetails'
 description: In dieser Problemansicht werden der Name und der Prozentsatz der Fertigstellung des Auflösungsobjekts des Problems angezeigt, sodass der Problemersteller Einblicke in den Fortschritt des Problems erhalten kann, selbst wenn er keinen Zugriff auf die Auflösungsaufgabe oder das Projekt hat.
 author: Nolan
 feature: Reports and Dashboards

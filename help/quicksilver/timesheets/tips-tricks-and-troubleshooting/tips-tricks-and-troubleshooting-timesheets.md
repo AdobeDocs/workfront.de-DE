@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting;reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "Tipps, Tricks und Fehlerbehebung für Timesheets: Artikelindex"
+title: 'Tipps, Tricks und Fehlerbehebung für Timesheets: Artikelindex'
 description: In den folgenden Artikeln erfahren Sie mehr über das gängige Timesheet-Verhalten oder wie potenzielle Probleme mit Timesheets behoben werden können.
 author: Alina
 feature: Timesheets

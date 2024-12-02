@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Projekte verwalten: Artikelindex"
+title: 'Projekte verwalten: Artikelindex'
 description: In den folgenden Artikeln finden Sie Informationen zur Projektverwaltung.
 author: Alina
 feature: Work Management

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: Anzeigename in einer Gruppierung bearbeiten"
+title: 'Gruppierung: Bearbeiten des Anzeigennamens in einer Gruppierung'
 description: Sie können Gruppierungen in Listen und Berichten so umbenennen, dass sie Ihren Benutzern besser bekannt sind.
 author: Nolan
 feature: Reports and Dashboards

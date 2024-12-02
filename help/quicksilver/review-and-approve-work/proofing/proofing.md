@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: "Testing: article index"
+title: 'Testversand: Artikelindex'
 description: Überprüfen und kommentieren Sie im selben Dokument, in dem Kreativteams arbeiten. Mit Workfront Testing können Sie Feedback anfordern, Kommentare anzeigen und Benachrichtigungen für ausstehende und abgeschlossene Genehmigungen abrufen - und dabei gleichzeitig ein Audit-Protokoll mit Kommentaren und Versionen verwalten.
 author: Courtney
 feature: Digital Content and Documents

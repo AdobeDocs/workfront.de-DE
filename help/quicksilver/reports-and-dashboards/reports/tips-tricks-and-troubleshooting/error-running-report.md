@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: "Fehlermeldung bei Ausführung eines Berichts: 'Sie sind derzeit nicht angemeldet.'"
+title: 'Fehlermeldung bei Ausführung eines Berichts: ''Sie sind derzeit nicht angemeldet.'''
 description: Erfahren Sie mehr über die Fehlermeldung "Sie sind derzeit nicht angemeldet".
 author: Nolan
 feature: Reports and Dashboards

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht"
+title: 'Anzeigen: Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht'
 description: Diese Aufgabenansicht zeigt das Programm und das Portfolio an, die mit dem Aufgabenprojekt verknüpft sind. Diese Informationen sind in ReportBuilder beim Erstellen einer Aufgabenansicht nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
 author: Nolan
 feature: Reports and Dashboards

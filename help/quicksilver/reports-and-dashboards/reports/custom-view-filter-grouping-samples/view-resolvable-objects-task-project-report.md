@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Auflösbare Objekte in einem Aufgaben- oder Projektbericht"
+title: 'Ansicht: Auflösbare Objekte in einem Aufgaben- oder Projektbericht'
 description: Sie können eine Liste aller auflösbaren Objekte in einer Projekt- oder Aufgabenansicht oder einem Bericht anzeigen.
 author: Nolan
 feature: Reports and Dashboards

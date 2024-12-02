@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: "Erste Schritte mit Adobe Workfront Administration: Artikelindex"
+title: 'Erste Schritte mit Adobe Workfront Administration: Artikelindex'
 description: In diesem Abschnitt finden Sie Informationen und Anweisungen zur Ersteinrichtung von Adobe Workfront sowie Informationen, die Sie als Workfront-Administrator benötigen.
 author: Lisa
 feature: System Setup and Administration

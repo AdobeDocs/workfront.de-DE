@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Mitteilungen: Verschiedene Informationen"
+title: 'Mitteilungen: Verschiedene Informationen'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten, die an einem Projekt durchgeführt werden, das Sie sponsern.
 author: Lisa
 feature: Get Started with Workfront

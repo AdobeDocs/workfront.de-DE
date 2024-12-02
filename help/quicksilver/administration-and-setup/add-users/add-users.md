@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-title: "User Management: Article Index"
+title: 'Benutzerverwaltung: Artikelindex'
 description: Sie können Benutzer in Adobe Workfront hinzufügen, indem Sie einzelne Benutzer von Grund auf neu erstellen oder vorhandene Benutzer kopieren.
 author: Lisa
 feature: System Setup and Administration

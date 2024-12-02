@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: Home Group of Project Owner in a List of Hours'
+title: 'Gruppierung: Gruppe des Projekteigentümers in einer Liste von Stunden'
 description: Sie können den Namen der Home-Gruppe des Projekteigentümers in einer Stündliste oder einem Bericht anzeigen.
 author: Nolan
 feature: Reports and Dashboards

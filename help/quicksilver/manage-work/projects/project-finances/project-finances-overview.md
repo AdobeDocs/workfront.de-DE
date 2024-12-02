@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Projektfinanzierung: Artikelindex"
+title: 'Projektfinanzen: Artikelindex'
 description: Die folgenden Artikel enthalten Informationen zu Bereichen, in denen Sie finanzielle Informationen zu Projekten erhalten und wie Sie Projektfinanzierungen verwalten können.
 author: Alina
 feature: Work Management

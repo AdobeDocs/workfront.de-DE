@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: "Verwalten von Testversand-Versionen: Artikelindex"
+title: 'Verwalten von Testversandversionen: Artikelindex'
 description: Erstellen einer neuen Testversion
 author: Courtney
 feature: Digital Content and Documents

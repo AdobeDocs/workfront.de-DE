@@ -1,5 +1,5 @@
 ---
-title: "Felder: Artikelindex"
+title: 'Felder: Artikelindex'
 description: Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebenszyklus Ihres Unternehmens widerspiegeln. Felder sind Attribute von Datensatztypen.
 feature: Workfront Planning
 role: User, Admin

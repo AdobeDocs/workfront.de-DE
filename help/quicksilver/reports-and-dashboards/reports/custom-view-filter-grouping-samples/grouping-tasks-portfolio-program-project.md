@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: Aufgaben nach Portfolio, Programm und Projekt"
+title: 'Gruppierung: Aufgaben nach Portfolio, Programm und Projekt'
 description: Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm und dann nach dem Projekt zu gruppieren, mit dem sie verknüpft sind.
 author: Nolan
 feature: Reports and Dashboards

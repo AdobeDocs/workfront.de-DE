@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: "Testversand überprüfen: Artikelindex"
+title: 'Testversand überprüfen: Artikelindex'
 description: Inhalt in einem Testversand anzeigen
 author: Courtney
 feature: Digital Content and Documents

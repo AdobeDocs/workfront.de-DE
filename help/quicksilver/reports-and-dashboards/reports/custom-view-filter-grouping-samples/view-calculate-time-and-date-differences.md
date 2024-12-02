@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Zeit- und Datumsunterschiede berechnen"
+title: 'Ansicht: Zeit- und Datumsunterschiede berechnen'
 description: Erfahren Sie, wie Sie Zeit- und Datumsunterschiede berechnen können.
 author: Nolan
 feature: Reports and Dashboards

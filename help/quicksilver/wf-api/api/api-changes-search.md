@@ -3,7 +3,7 @@ filename: api-changes-search
 content-type: api
 keywords: object,status,search,best,practice,response
 navigation-topic: api-navigation-topic
-title: "Core API changes: Status search responses"
+title: 'Core-API-Änderungen: Status-Suchantworten'
 description: Änderungen in der Art und Weise, wie Workfront Statusobjekte speichert.
 feature: Workfront API
 role: Developer

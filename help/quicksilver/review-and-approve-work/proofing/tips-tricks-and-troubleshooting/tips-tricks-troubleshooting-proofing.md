@@ -1,5 +1,5 @@
 ---
-title: "Tipps, Tricks und Fehlerbehebung für die Prüfung in Adobe Workfront: Artikelindex"
+title: 'Tipps, Tricks und Fehlerbehebung für die Prüfung in Adobe Workfront: Artikelindex'
 description: Tipps, Tricks und Fehlerbehebung für die Prüfung in Adobe Workfront
 author: Courtney
 draft: Probably

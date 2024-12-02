@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Display Task Intents in a Task List"
+title: 'Ansicht: Anzeigen von Aufgabeinsätzen in einer Aufgabenliste'
 description: In dieser Aufgabenansicht können Sie der Spalte "Task Name"Code hinzufügen, um die Aufgaben, die gemäß der Arbeitsaufschlüsselungsstruktur des Projekts eingerückt sind, anzuzeigen.
 author: Nolan
 feature: Reports and Dashboards

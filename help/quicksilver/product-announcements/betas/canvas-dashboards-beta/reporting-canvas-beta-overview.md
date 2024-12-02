@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Reporting Canvas beta: overview"
+title: Reporting-Arbeitsfläche - Beta-Übersicht
 description: Informationen zum Betaprogramm für das bevorstehende Tool zur Berichtsarbeitsfläche für Adobe Workfront
 author: Nolan
 feature: Product Announcements

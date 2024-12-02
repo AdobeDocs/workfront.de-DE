@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: "Benutzerdefinierte Beispiele für Ansicht, Filter und Gruppierung: Artikelindex"
+title: 'Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex'
 description: Dieser Abschnitt enthält Beispiele für benutzerdefinierte Ansichten, Filter und Gruppierungen, die Sie in Ihrem Adobe Workfront-Konto verwenden können.
 author: Nolan
 feature: Reports and Dashboards

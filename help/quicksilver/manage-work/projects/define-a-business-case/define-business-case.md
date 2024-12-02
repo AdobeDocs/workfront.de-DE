@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: "Definieren Sie einen Geschäftsfall: Artikelindex"
+title: 'Geschäftsfall definieren: Artikelindex'
 description: Sie können ein Projekt formell und effizient anfordern, indem Sie einen Geschäftsfall erstellen. In den folgenden Artikeln werden die Informationen beschrieben, die Sie zum Definieren des Geschäftsfalls eines Projekts benötigen.
 author: Alina
 feature: Work Management

@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Benachrichtigungen: Informationen über Projekte, deren Inhaber ich bin"
+title: 'Benachrichtigungen: Informationen zu Projekten, die ich besitze'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten, die in einem Projekt durchgeführt werden, dessen Eigentümer Sie sind. Informationen zum Konfigurieren der Benachrichtigungen, die Sie erhalten, finden Sie unter Ändern Ihrer eigenen E-Mail-Benachrichtigungen.
 author: Lisa
 feature: Get Started with Workfront

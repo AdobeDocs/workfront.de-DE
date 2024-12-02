@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: "Übungsszenarien erstellen: Artikelindex"
+title: 'Erstellen von Praxisszenarien: Artikelindex'
 description: In diesen Beispielen erfahren Sie, wie Sie Szenarien in Adobe Workfront Fusion erstellen
 author: Becky
 feature: Workfront Fusion

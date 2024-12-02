@@ -1,5 +1,5 @@
 ---
-title: "Adobe Workfront Planning Notifications: Article Index"
+title: 'Adobe Workfront-Planungsbenachrichtigungen: Artikelindex'
 description: Sie können eine E-Mail oder eine In-App-Benachrichtigung erhalten, wenn jemand Sie in einem Datensatzkommentar markiert oder Sie um Berechtigungen für eine Ansicht oder einen Arbeitsbereich bittet oder ihnen erteilt. In den folgenden Artikeln wird beschrieben, welche Art von Workfront-Planungs-Benachrichtigungen Sie erhalten können und wie Sie Ihre Benachrichtigungseinstellungen verwalten.
 author: Alina
 feature: Workfront Planning

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Berechnung der Zeitverlaufskosten in einer Timesheet-Ansicht"
+title: 'Ansicht: Berechnung der Zeitüberschreitungskosten in einer Timesheet-Ansicht'
 description: Die Zeitüberschreitung wird in Adobe Workfront nicht standardmäßig berechnet, Sie können jedoch einen Zeitplanbericht erstellen, der die Zeitdauer berechnet.
 author: Nolan
 feature: Reports and Dashboards

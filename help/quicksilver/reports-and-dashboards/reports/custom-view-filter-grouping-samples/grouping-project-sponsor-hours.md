@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: Projekt-Sponsor für Stunden"
+title: 'Gruppierung: Projekt-Sponsor für Stunden'
 description: Diese Stundengruppierung organisiert Stunden nach dem Sponsor des Projekts, in dem die Stunden protokolliert werden. Die standardmäßige ReportBuilder-Oberfläche für Stundengruppierungen enthält keine Zuordnung zum Feld Projektsponsor . Sie müssen die Benutzeroberfläche des Textmodus verwenden, um auf dieses Feld zuzugreifen.
 author: Nolan
 feature: Reports and Dashboards

@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Fehlermeldung: XML Digital Signature konnte nicht validiert werden"
+title: 'Fehlermeldung: XML Digital Signature konnte nicht überprüft werden'
 description: Sie können keine erfolgreiche Verbindung zu ADFS herstellen.
 author: Lisa
 feature: System Setup and Administration

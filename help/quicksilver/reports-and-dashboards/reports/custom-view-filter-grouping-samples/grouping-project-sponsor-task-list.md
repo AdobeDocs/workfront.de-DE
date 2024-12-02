@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: Projekt-Sponsor für eine Aufgabenliste"
+title: 'Gruppierung: Projekt-Sponsor für eine Aufgabenliste'
 description: Mit dieser Aufgabengruppierung können Sie Aufgaben nach dem Projektsponsor gruppieren.
 author: Nolan
 feature: Reports and Dashboards

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Anzeigen der übergeordneten/untergeordneten Beziehung in einer Aufgabe durch Einzug der Aufgaben"
+title: 'Ansicht: Anzeigen der übergeordneten/untergeordneten Beziehung in einer Aufgabe durch Einzug der Aufgaben'
 description: Sie können die Unterscheidung zwischen übergeordneten und untergeordneten Beziehungen in einer exportierten Aufgabenliste beibehalten, indem Sie der Aufgabenliste eine benutzerdefinierte Ansicht hinzufügen und sicherstellen, dass diese Ansicht ausgewählt ist, bevor Sie die Liste exportieren.
 author: Nolan
 feature: Reports and Dashboards

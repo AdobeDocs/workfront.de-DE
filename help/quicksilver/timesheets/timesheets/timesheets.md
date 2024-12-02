@@ -2,7 +2,7 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "Timesheet details: article index"
+title: 'Datenblatt-Details: Artikelindex'
 description: In den folgenden Artikeln erfahren Sie mehr über Timesheets und ihr Layout.
 author: Alina
 feature: Timesheets

@@ -1,5 +1,5 @@
 ---
-title: "Design a Form: Article Index"
+title: 'Formular erstellen: Artikelindex'
 user-type: administrator
 content-type: reference
 product-area: system-administration

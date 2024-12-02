@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: "Gruppen: Artikelindex"
+title: 'Gruppen: Artikelindex'
 description: Gruppen sind ähnlich, unterscheiden sich aber von Teams und Unternehmen. Der Workfront-Administrator gewährt Gruppen Zugriff auf die Bereiche der Workfront, in denen sie arbeiten und kommunizieren müssen.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups

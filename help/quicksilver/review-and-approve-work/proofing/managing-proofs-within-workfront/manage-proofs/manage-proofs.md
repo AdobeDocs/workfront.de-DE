@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: "Testsendungen verwalten: Artikelindex"
+title: 'Testsendungen verwalten: Artikelindex'
 description: Testversandeinstellungen bearbeiten
 author: Courtney
 feature: Digital Content and Documents

@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Fehlerbehebung bei der Adobe Experience Manager-Integration
-description: "Problem: Assets wird nicht in Adobe Experience Manager gespeichert"
+description: 'Problem: Assets wird nicht in Adobe Experience Manager gespeichert'
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f7e31e20-01e3-462d-9020-005e155f0259

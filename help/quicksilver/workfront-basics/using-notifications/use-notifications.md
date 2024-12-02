@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: "Benachrichtigungen verwenden: Artikelindex"
+title: 'Benachrichtigungen verwenden: Artikelindex'
 description: Lesen Sie diese Artikel, um zu erfahren, wie Sie Benachrichtigungen in Adobe Workfront verwenden.
 author: Nolan
 feature: Get Started with Workfront

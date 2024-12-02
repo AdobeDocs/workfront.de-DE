@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Berichte oder Listen: Benutzer anzeigen, die mit einem Objekt verknüpft sind"
+title: 'Berichte oder Listen: Benutzer anzeigen, die mit einem Objekt verknüpft sind'
 description: Sie können in Berichten oder Listen Benutzer, Vorgangsrollen und Teams anzeigen, die mit Objekten verknüpft sind, und sie in Filtern referenzieren. Sie können keine Gruppe nach Benutzern, Auftragsrollen oder Teams erstellen, die mit Objekten verknüpft sind.
 author: Lisa and Nolan
 feature: Reports and Dashboards

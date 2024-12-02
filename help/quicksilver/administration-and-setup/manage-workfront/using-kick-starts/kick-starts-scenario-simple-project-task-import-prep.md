@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Kick-Starts-Szenario: Vorbereitung des einfachen Projekts und des Aufgabenimports"
+title: 'Kick-Start-Szenario: Vorbereitung des einfachen Projekts und des Aufgabenimports'
 description: Beschreibt ausführlich die verfügbaren Einstellungen und Steuerelemente für ein einfaches Projekt und den Import von Aufgaben mithilfe der Kick Start-Methode.
 author: Lisa
 feature: System Setup and Administration

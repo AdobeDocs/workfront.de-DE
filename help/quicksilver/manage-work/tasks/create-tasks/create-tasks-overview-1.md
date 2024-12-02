@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: "Aufgaben erstellen: Artikelindex"
+title: 'Aufgaben erstellen: Artikelindex'
 description: Sie können Aufgaben in einem bestimmten Projekt erstellen.
 author: Alina
 feature: Work Management

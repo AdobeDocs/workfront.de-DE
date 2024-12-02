@@ -2,7 +2,7 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "Timesheets: Artikelindex"
+title: 'Timesheets: Artikelindex'
 description: In den folgenden Abschnitten erfahren Sie mehr über das Erstellen, Bearbeiten, Genehmigen und Verwalten von Timesheets, Timesheet-Profilen und Stundentypen.
 author: Alina
 feature: Timesheets

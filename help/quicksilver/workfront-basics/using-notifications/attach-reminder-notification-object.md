@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Erinnerungsbenachrichtigung an ein Objekt anhängen
-description: "Sie können Erinnerungsbenachrichtigungen mit verschiedenen Objekttypen verknüpfen: Projekten, Aufgaben, Problemen, Timesheets, Vorlagen, Vorlagenaufgaben und wiederkehrenden Timesheet-Profilen."
+description: 'Sie können Erinnerungsbenachrichtigungen mit verschiedenen Objekttypen verknüpfen: Projekten, Aufgaben, Problemen, Timesheets, Vorlagen, Vorlagenaufgaben und wiederkehrenden Timesheet-Profilen.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0

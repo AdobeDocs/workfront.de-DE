@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: "Textmodus-Ressourcen: Artikelindex"
+title: 'Textmodus-Ressourcen: Artikelindex'
 description: Textmodus-Ressourcen
 author: Nolan
 feature: Reports and Dashboards

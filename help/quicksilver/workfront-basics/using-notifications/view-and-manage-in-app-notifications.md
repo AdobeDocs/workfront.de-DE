@@ -1,7 +1,7 @@
 ---
 navigation-topic: notifications
 title: Anzeigen und Verwalten von In-App-Benachrichtigungen
-description: '''In-App-Benachrichtigungen informieren Sie über zwei Arten von Informationen: Benachrichtigungen zu Mitteilungen und Benachrichtigungen zu Arbeitselementen. Sie sind sowohl in der Webanwendung als auch in der Mobile App verfügbar."'
+description: 'In-App-Benachrichtigungen informieren Sie über zwei Arten von Informationen: Benachrichtigungen zu Mitteilungen und Benachrichtigungen zu Arbeitselementen. Sie sind sowohl in der Webanwendung als auch in der Mobile App verfügbar.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6

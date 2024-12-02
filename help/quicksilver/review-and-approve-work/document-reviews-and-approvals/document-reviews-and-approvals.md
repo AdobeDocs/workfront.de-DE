@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Asset- und Dokumentüberprüfung und -genehmigung: Artikelindex"
+title: 'Asset- und Dokumentüberprüfung und -genehmigung: Artikelindex'
 description: Dieser Abschnitt enthält Artikel über Dokumentgenehmigungen in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents

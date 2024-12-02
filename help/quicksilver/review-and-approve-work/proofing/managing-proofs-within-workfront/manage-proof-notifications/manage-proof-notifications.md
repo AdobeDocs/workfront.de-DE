@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: "Verwalten von Testversandbenachrichtigungen: Artikelindex"
+title: 'Verwalten von Testversandbenachrichtigungen: Artikelindex'
 description: Benachrichtigungen für Testversandkommentare und -entscheidungen verwalten
 author: Courtney
 feature: Digital Content and Documents

@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Mitteilungen: Kommunikation"
+title: 'Mitteilungen: Kommunikation'
 description: Die folgenden Benachrichtigungen informieren Sie über die Kommunikation, z. B. über einen Aktualisierungskommentar, der für ein Arbeitselement erfolgt, mit dem Sie befasst sind. Informationen zum Konfigurieren der Benachrichtigungen, die Sie erhalten, finden Sie unter Ändern Ihrer eigenen E-Mail-Benachrichtigungen.
 author: Lisa
 feature: Get Started with Workfront

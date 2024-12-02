@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: persönliche Zeitdauer des Benutzers"
-description: "Ansicht: Persönliche Zeit des Benutzers aus"
+title: 'Ansicht: persönliche Zeitdauer des Benutzers'
+description: 'Ansicht: Persönliche Zeit des Benutzers aus'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb

@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint overview: Finish No before than"
+title: 'Aufgabenbegrenzung - Übersicht: Beenden nicht früher als'
 description: '"Finish No Previlier Than (FNET)"ist eine Aufgabenbegrenzung, die den Abschluss einer Aufgabe nach dem von Ihnen angegebenen Datum plant.'
 author: Alina
 feature: Work Management

@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: Aufschlüsselung nach Projekt-Prozent 2"
-description: '''In dieser benutzerdefinierten Projektgruppierung können Sie Projekte anzeigen, die nach einem Bereich ihrer vollständigen Prozentwerte gruppiert sind. Die Aufschlüsselungen zeigen den vollständigen Prozentwert von 10 Prozentpunktinkrementen an: 0-10 %, 11-20 %, 21-30 % usw."'
+title: 'Gruppierung: Aufschlüsselung des Projektprozentsatzes 2'
+description: Bei dieser benutzerdefinierten Projektgruppierung können Sie Projekte anzeigen, die nach einem Bereich ihrer vollständigen Prozentwerte gruppiert sind. Die Aufschlüsselungen zeigen den vollständigen Prozentwert von 10 Prozentpunkten (0-10 %, 11-20 %, 21-30 % usw.).
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f

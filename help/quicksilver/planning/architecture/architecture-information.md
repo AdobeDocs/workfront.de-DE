@@ -1,5 +1,5 @@
 ---
-title: "Architektur: Artikelindex"
+title: 'Architektur: Artikelindex'
 description: In den folgenden Artikeln wird beschrieben, wie Sie die Architektur der Adobe Workfront-Planung konfigurieren können. Im Rahmen dieser Konfiguration erfahren Sie, wie Sie Arbeitsbereiche, Datensatztypen und benutzerdefinierte Felder erstellen, um die Workflows abzubilden, die Sie in der Workfront-Planung verwalten möchten.
 author: Alina
 feature: Workfront Planning

@@ -1,6 +1,6 @@
 ---
 navigation-topic: get-started-with-workfront
-title: "Prioritäten: bevorstehende Versionen"
+title: 'Prioritäten: Bevorstehende Versionen'
 description: Informationen zu kommenden Prioritätenfreigaben anzeigen
 author: Courtney
 feature: Get Started with Workfront

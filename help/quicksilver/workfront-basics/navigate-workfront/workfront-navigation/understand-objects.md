@@ -1,8 +1,8 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: "[!DNL Adobe Workfront] Objektübersicht"
-description: "Die Informationen, die Sie in [!DNL Adobe Workfront] anzeigen, werden durch Objekte dargestellt, die in der [!DNL Workfront] Datenbank gespeichert sind. Die Objekte sind das, was die Informationen in [!DNL Workfront] antreibt. Weitere Informationen zu diesen Objekten finden Sie in diesem Artikel."
+title: Überblick über [!DNL Adobe Workfront] Objekte
+description: Die Informationen, die Sie in [!DNL Adobe Workfront] anzeigen, werden durch Objekte dargestellt, die in der [!DNL Workfront] Datenbank gespeichert sind. Die Objekte sind das, was die Informationen in [!DNL Workfront] antreibt. Weitere Informationen zu diesen Objekten finden Sie in diesem Artikel.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90

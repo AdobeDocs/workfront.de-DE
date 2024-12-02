@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Gruppierung: Aufschlüsselung des Projektprozentsatzes 1"
+title: 'Gruppierung: Aufschlüsselung 1 des Projektprozentsatzes'
 description: Bei dieser benutzerdefinierten Projektgruppierung können Sie Projekte anzeigen, die nach einem Bereich ihrer vollständigen Prozentwerte gruppiert sind.
 author: Nolan
 feature: Reports and Dashboards

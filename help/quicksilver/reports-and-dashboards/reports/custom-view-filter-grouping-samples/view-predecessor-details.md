@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Details des Vorgängers"
+title: 'Ansicht: Details zum Vorgänger'
 description: Diese Aufgabenansicht zeigt Details zu den Vorgängern der Aufgaben, die eine Sammlungsansicht verwenden. In einer Sammlungsansicht können Sie Informationen zu Objekten anzeigen, die sich in einer Eins-zu-viele-Beziehung befinden. In diesem Fall kann jede Aufgabe (eine) mehrere Vorgänger (viele) haben. In der Ansicht werden der Name der Aufgaben sowie die Namen der Vorgänger, die Projektnamen der Vorgänger, die geplanten Abschlussdaten der Vorgänger und die Status der Vorgänger angezeigt.
 author: Nolan
 feature: Reports and Dashboards

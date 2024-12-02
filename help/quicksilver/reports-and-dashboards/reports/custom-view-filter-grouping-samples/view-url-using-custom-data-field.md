@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Externe URL mit benutzerdefiniertem Datenfeld"
+title: 'Ansicht: Externe URL mit benutzerdefiniertem Datenfeld'
 description: Sie können einen Link zu einer internen benutzerdefinierten URL anzeigen, indem Sie in einer Aufgabenansicht ein berechnetes benutzerdefiniertes Feld namens "Benutzerdefinierte URL"verwenden.
 author: Nolan
 feature: Reports and Dashboards

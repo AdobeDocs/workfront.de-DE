@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Originating issue Details for Tasks and Projects"
+title: 'Ansicht: Informationen zum ursprünglichen Problem für Aufgaben und Projekte'
 description: Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine aufgelöste Objektbeziehung zwischen der Aufgabe oder dem Projekt und dem Problem hergestellt. Diese Ansicht zeigt die Felder des Problems an, die automatisch abgeschlossen werden, wenn die Aufgabe oder das Projekt abgeschlossen ist.
 author: Nolan
 feature: Reports and Dashboards

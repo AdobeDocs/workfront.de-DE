@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Übermittlungspfad für Probleme"
+title: 'Ansicht: Übermittlungspfad für Probleme'
 description: Sie können den Pfad, über den ein Problem gesendet wurde, in der Ansicht eines Problemberichts anzeigen. Der Pfad gibt die Warteschlange, die Themengruppe und das Warteschlangenthema an, an das das Problem ursprünglich gesendet wurde.
 author: Nolan
 feature: Reports and Dashboards

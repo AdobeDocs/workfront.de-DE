@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Projekt mit allen Anwendern und Rollen des Projektteams"
+title: 'Ansicht: Projekt mit allen Anwendern und Rollen des Projektteams'
 description: Diese Projektansicht zeigt eine Liste von Benutzern und Auftragsrollen, die dem Projektteam zugewiesen sind.
 author: Nolan
 feature: Reports and Dashboards

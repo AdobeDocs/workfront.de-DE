@@ -1,5 +1,5 @@
 ---
-title: "Adobe Workfront Planning General Information: Article Index"
+title: 'Allgemeine Informationen zur Adobe Workfront-Planung: Artikelindex'
 description: Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams organisieren. In den Artikeln in diesem Abschnitt werden allgemeine Konzepte zur Workfront-Planung, Best Practices zu ihrer Implementierung und ein Überblick über einige der derzeit verfügbaren Funktionen beschrieben.
 author: Alina
 feature: Workfront Planning

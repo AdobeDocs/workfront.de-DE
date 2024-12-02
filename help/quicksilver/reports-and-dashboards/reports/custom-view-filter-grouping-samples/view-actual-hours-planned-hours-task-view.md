@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Tatsächliche Stunden über geplante Stunden in derselben Spalte einer Aufgabenansicht"
+title: 'Ansicht: Tatsächliche Stunden über geplante Stunden in derselben Spalte einer Aufgabenansicht'
 description: In dieser Aufgabenansicht wird die tatsächlich aufgezeichnete Anzahl von Stunden für eine Aufgabe über die für jede Aufgabe geplanten Stunden hinweg angezeigt. Die Stundenvarianz zwischen der geplanten und der tatsächlichen Stunde wird ebenfalls in einer separaten Spalte angezeigt.
 author: Nolan
 feature: Reports and Dashboards

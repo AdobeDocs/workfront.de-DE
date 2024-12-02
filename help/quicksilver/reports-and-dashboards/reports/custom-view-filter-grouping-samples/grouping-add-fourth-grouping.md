@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppierung: Einer Liste eine vierte Gruppierung hinzufügen'
+title: 'Gruppierung: Fügt einer Liste eine vierte Gruppierung hinzu'
 description: Ein Matrix-Bericht kann vier Gruppierungen enthalten. Weitere Informationen zu Matrix-Berichten finden Sie unter Erstellen eines Matrix-Berichts.
 author: Nolan
 feature: Reports and Dashboards

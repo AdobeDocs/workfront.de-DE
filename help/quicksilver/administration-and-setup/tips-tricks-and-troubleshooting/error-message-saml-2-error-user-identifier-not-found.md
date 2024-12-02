@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Fehlermeldung: SAML 2.0-Fehler: Benutzer-ID nicht gefunden"
+title: 'Fehlermeldung: SAML 2.0-Fehler: Benutzer-ID nicht gefunden'
 description: Sie können keine erfolgreiche Verbindung zu ADFS herstellen.
 author: Lisa
 feature: System Setup and Administration

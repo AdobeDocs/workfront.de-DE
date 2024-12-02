@@ -2,7 +2,7 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: "Der Lastenausgleich: Artikelindex"
+title: 'Der Lastenausgleich: Artikelindex'
 description: Der Workflow-Lastenausgleich ist ein Tool zur Ressourcenplanung in Adobe Workfront, mit dem Sie Ihren Personalressourcen Aufgaben und Probleme zuweisen können.
 author: Lisa
 feature: Resource Management

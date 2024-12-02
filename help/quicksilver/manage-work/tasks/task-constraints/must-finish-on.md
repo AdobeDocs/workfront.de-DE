@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint Overview: Must Finish On"
+title: 'Übersicht über Aufgabenbegrenzungen: Muss fertig gestellt sein am'
 description: Sie können die Task-Beschränkung Must Finish On (MFO) verwenden, um eine Aufgabe so zu planen, dass sie an einem bestimmten Datum endet.
 author: Alina
 feature: Work Management

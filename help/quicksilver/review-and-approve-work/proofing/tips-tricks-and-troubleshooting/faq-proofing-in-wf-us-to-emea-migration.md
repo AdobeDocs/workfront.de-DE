@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: "Häufig gestellte Fragen: Testversand innerhalb von Adobe Workfront - Migration zwischen den USA und der EMEA"
+title: 'Häufig gestellte Fragen: Testversand innerhalb von Adobe Workfront - Migration von USA zu EMEA'
 description: Adobe Workfront kontaktiert direkt alle von der Migration durch die Workfront Proof USA betroffenen Organisationen zur EMEA.
 author: Courtney
 feature: Digital Content and Documents

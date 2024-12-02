@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Aufgabe mit Varianz aller Daten"
+title: 'Ansicht: Aufgabe mit Varianz aller Daten'
 description: Diese Aufgabenansicht ähnelt der Ansicht "Alle Daten", die mit Ihrem Adobe Workfront-Konto bereitgestellt wird. Diese spezielle Ansicht enthält Varianzspalten, die die Differenz in Tagen zwischen den Daten berechnen.
 author: Nolan
 feature: Reports and Dashboards

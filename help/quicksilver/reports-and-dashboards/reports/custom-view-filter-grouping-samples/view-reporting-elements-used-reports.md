@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: In Berichten verwendete Berichtelemente"
+title: 'Ansicht: In Berichten verwendete Berichterstellungselemente'
 description: Diese Ansicht zeigt die Ansicht, den Filter und die Gruppierung an, die zum Erstellen der einzelnen Berichte in Adobe Workfront verwendet werden, wenn Sie sie in einer Berichtsliste verwenden.
 author: Nolan
 feature: Reports and Dashboards

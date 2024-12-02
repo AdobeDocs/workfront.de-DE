@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Anzeigen eines Bildes anstelle einer Zeichenfolge in einer Spalte"
+title: 'Ansicht: Anzeigen eines Bildes anstelle einer Zeichenfolge in einer Spalte'
 description: Sie können den Namen eines Objekts in einer Ansicht mithilfe des Textmodus durch ein Bild ersetzen. Sie können auch einen Link zum Bild hinzufügen, der das von ihm ersetzte Objekt öffnen kann.
 author: Nolan
 feature: Reports and Dashboards

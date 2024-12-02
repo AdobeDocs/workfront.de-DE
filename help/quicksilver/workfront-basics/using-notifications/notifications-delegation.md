@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Benachrichtigungen: Delegation"
+title: 'Benachrichtigungen: Delegation'
 description: Die folgenden Benachrichtigungen informieren Sie über Aufgaben- und Problemdelegationen, die Sie für Sie in Adobe Workfront durchgeführt haben oder andere für Sie durchgeführt haben.
 author: Lisa
 feature: Get Started with Workfront

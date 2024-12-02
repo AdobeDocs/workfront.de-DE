@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Informationen zum ursprünglichen Problem in Aufgaben- oder Projektlisten anzeigen"
+title: 'Ansicht: Informationen zum ursprünglichen Problem in Aufgaben- oder Projektlisten anzeigen'
 description: Sie können Informationen aus dem ursprünglichen Problem in einer Ansicht von Aufgaben- und Projektlisten anzeigen, nachdem das Problem in die Aufgaben und Projekte in der Liste konvertiert wurde.
 author: Nolan
 feature: Reports and Dashboards

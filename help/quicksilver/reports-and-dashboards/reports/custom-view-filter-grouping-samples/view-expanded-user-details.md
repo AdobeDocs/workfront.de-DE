@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Erweiterte Benutzerdetails"
+title: 'Ansicht: Erweiterte Benutzerdetails'
 description: In dieser Benutzeransicht werden Informationen zu Ihren Benutzern angezeigt. Neben ihrem Namen, ihren Zugriffsstufen und ihrem Unternehmen werden hier auch Listen ihrer Gruppen, Teams und Jobrollen angezeigt.
 author: Nolan
 feature: Reports and Dashboards

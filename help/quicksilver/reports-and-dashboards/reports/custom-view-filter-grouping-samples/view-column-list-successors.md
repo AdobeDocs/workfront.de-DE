@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Hinzufügen einer Liste von Aufgabenerfolgern in einer Spalte"
+title: 'Ansicht: Hinzufügen einer Liste von Aufgabenerfolgern in einer Spalte'
 description: Sie können einer Aufgabenansicht eine Spalte hinzufügen, um eine Liste der Nachfolger der Aufgaben anzuzeigen. Die Spalte "Aufgabenerfolger"enthält die Nummer des Nachfolgers sowie den Namen.
 author: Nolan
 feature: Reports and Dashboards

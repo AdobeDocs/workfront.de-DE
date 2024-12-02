@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint Overview: Must Start On"
+title: 'Übersicht über Aufgabenbegrenzungen: Muss beginnen bei'
 description: Verwenden Sie die Task-Beschränkung Must Start On (MSO) , um eine Aufgabe so zu planen, dass sie genau an einem bestimmten Datum beginnt.
 author: Alina
 feature: Work Management

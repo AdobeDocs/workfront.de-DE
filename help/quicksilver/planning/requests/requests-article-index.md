@@ -1,5 +1,5 @@
 ---
-title: "Adobe Workfront Planning Requests: Article Index"
+title: 'Adobe Workfront-Planungsanfragen: Artikelindex'
 description: Sie können ein Anfrageformular für jeden Datensatztyp erstellen, es für Benutzer freigeben und neue Datensätze hinzufügen, indem Sie das Formular ausfüllen und senden.
 feature: Workfront Planning
 role: User, Admin

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: "Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex"
+title: 'Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex'
 description: Sie können den Abschnitt Updates der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder systemtrackte Aktualisierungen zu Änderungen am Objekt zu verfolgen.
 author: Alina
 feature: Get Started with Workfront

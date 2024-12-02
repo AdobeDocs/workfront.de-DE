@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Fehler: SSO-Benutzer können sich aufgrund verschiedener Fehler nicht bei [!DNL Adobe Workfront] anmelden."
+title: 'Fehler: SSO-Benutzer können sich aufgrund verschiedener Fehler nicht bei [!DNL Adobe Workfront] anmelden'
 description: Wenn Sie einen Anmeldefehler über Federated Single Sign-on erhalten, verwenden Sie Ihre Benutzername-/Passwort-Kombination oder Ihr Zugriff auf die [!DNL Workfront], the problem might be that your [!DNL Workfront] Instanz SSO und Sie versuchen, sich mit einer falschen URL anzumelden.
 author: Lisa
 feature: System Setup and Administration

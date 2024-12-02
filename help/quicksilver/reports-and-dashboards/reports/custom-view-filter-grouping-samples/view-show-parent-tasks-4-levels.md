@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Übergeordnete Aufgaben bis zu 4 Ebenen tief anzeigen"
+title: 'Ansicht: Übergeordnete Aufgaben bis zu 4 Ebenen tief anzeigen'
 description: Diese Aufgabenansicht zeigt den Aufgabennamen in der ersten Spalte und (falls vorhanden) bis zu 4 übergeordnete Aufgaben in separaten Spalten in derselben Liste an.
 author: Nolan
 feature: Reports and Dashboards

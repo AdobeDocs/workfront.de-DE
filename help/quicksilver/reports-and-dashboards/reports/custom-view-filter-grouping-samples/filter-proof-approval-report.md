@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: "Filter: Bericht zur Bestätigung der Genehmigung, um frühere Testversionen auszuschließen"
+title: 'Filter: Bericht zur Testbestätigung , um frühere Testversandversionen auszuschließen'
 description: Sie können den Filter Aktuelle Dokumentversion verwenden, um in einem Bericht zur Bestätigung nur die aktuellen Testversionen aufzunehmen, die auf Ihre Genehmigung warten.
 author: Nolan
 feature: Reports and Dashboards

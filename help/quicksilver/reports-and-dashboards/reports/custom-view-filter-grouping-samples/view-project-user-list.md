@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Liste der Projektbenutzer mit Auftragsrollen"
+title: 'Ansicht: Liste der Projektbenutzer mit Auftragsrollen'
 description: Sie können diese Ansicht in einer Projektliste oder einem Bericht anwenden, um eine Liste der mit dem Projekt verknüpften Benutzer sowie eine Liste der vom Projekt ausgeführten Auftragsrollen anzuzeigen.
 author: Nolan
 feature: Reports and Dashboards

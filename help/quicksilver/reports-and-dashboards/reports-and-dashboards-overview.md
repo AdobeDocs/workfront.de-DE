@@ -2,7 +2,7 @@
 content-type: reference;overview
 product-area: reporting;dashboards
 navigation-topic: reports-and-dashboards
-title: "Berichte und Dashboards: Artikelindex"
+title: 'Berichte und Dashboards: Artikelindex'
 description: Sie können Informationen in Berichten in Adobe Workfront organisieren. Sie können mehrere Berichte in einem Dashboard platzieren. Sie können sowohl Berichte als auch Dashboards für andere freigeben, um eine bessere Zusammenarbeit zu erzielen.
 author: Nolan
 feature: Reports and Dashboards

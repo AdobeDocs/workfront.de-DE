@@ -2,7 +2,7 @@
 content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
-title: "Erstellen und Verwalten von Projektvorlagen: Artikelindex"
+title: 'Erstellen und Verwalten von Projektvorlagen: Artikelindex'
 description: In den folgenden Artikeln erfahren Sie, wie Sie Projektvorlagen erstellen und verwalten.
 author: Alina
 feature: Work Management

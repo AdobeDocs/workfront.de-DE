@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Probleme mit Genehmigungsinformationen"
+title: 'Anzeigen: Probleme mit Genehmigungsinformationen'
 description: Die folgende Problemansicht zeigt den Genehmigungsprozess, den Schritt, die Namen der Genehmiger und den Status des Problems, bevor die Genehmigung erteilt wurde. Einige dieser Felder sind nicht über den Standard-Interface-Builder zugänglich.
 author: Nolan
 feature: Reports and Dashboards

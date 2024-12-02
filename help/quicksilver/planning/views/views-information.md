@@ -1,5 +1,5 @@
 ---
-title: "Ansichten: Artikelindex"
+title: 'Ansichten: Artikelindex'
 description: Sie können Adobe Workfront-Planungsdatensätze in einer Tabellen-, Timeline- oder Kalenderansicht anzeigen. Dieser Artikel enthält Links zu Artikeln, in denen beschrieben wird, wie Sie Ansichten erstellen und vorhandene Ansichten bearbeiten oder löschen können.
 author: Alina
 feature: Workfront Planning

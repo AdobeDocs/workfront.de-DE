@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: "Task Constraints: article index"
+title: 'Aufgabenbeschränkungen: Artikelindex'
 description: Aufgabenbegrenzungen bestimmen, wann eine Aufgabe in einem Projekt gestartet und beendet werden soll. Sie können mehrere Aufgabenbeschränkungen verwenden, um anzugeben, wann eine Aufgabe gestartet und beendet werden soll. Informationen zu allen Aufgabenbeschränkungen in Workfront finden Sie in den folgenden Artikeln.
 author: Alina
 feature: Work Management

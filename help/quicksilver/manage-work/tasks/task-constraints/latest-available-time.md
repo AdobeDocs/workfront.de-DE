@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint Overview: Neueste verfügbare Zeit"
+title: 'Übersicht über Aufgabenbeschränkungen: Aktuelle verfügbare Zeit'
 description: Die neueste verfügbare Zeit (LAT) ist eine Art von Aufgabenbegrenzung in Adobe Workfront.
 author: Alina
 feature: Work Management

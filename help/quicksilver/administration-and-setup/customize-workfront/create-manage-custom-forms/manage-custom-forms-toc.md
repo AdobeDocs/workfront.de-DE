@@ -1,5 +1,5 @@
 ---
-title: "Verwalten benutzerdefinierter Forms- und Felder: Artikelindex"
+title: 'Benutzerdefinierte Forms und Felder verwalten: Artikelindex'
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms

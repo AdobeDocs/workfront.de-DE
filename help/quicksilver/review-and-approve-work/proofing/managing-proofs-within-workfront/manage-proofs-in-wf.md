@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: "Verwalten von Testsendungen in Adobe Workfront: Artikelindex"
+title: 'Verwalten von Testsendungen in Adobe Workfront: Artikelindex'
 description: Erfahren Sie, wie Sie Testsendungen in Adobe Workfront verwalten.
 author: Courtney
 feature: Digital Content and Documents

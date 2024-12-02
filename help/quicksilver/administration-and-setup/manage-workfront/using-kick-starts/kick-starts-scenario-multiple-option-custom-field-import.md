@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Kick-Start-Szenario: Importieren von benutzerdefinierten Feldern mit mehreren Optionen in Workfront"
+title: 'Kick-Start-Szenario: Importieren von benutzerdefinierten Feldern mit mehreren Optionen in Workfront'
 description: Mit der Kick-Start-Funktion können Sie benutzerdefinierte Felder mit mehreren Optionen in Adobe Workfront importieren.
 author: Lisa
 feature: System Setup and Administration

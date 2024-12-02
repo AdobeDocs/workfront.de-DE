@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Duration Type overview: Calculated Work'
+title: 'Übersicht über den Dauer-Typ: Berechnete Arbeit'
 description: '"Berechnete Arbeit"ist eine Dauer, die Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Durationstypen in Workfront finden Sie unter Übersicht über die Aufgabendauer und -dauer.'
 author: Alina
 feature: Work Management

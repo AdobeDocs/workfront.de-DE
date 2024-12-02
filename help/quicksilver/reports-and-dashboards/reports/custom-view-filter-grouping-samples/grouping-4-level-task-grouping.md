@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppierung: Aufgabengruppierung auf 4 Ebenen für Portfolio-Eigentümer, Programmeigentümer, Projekteigentümer und Projektstatus'
+title: 'Gruppierung: Vierstufige Aufgabengruppierung für Portfolio-Eigentümer, Programmeigentümer, Projektinhaber und Projektstatus'
 description: Diese Aufgabengruppierung bietet vier Gruppierungsebenen. In diesem Fall werden Aufgaben nach Portfolio-Eigentümer, Programmeigentümer, Projekteigentümer und Projektstatus gruppiert. Auf der Standardschnittstelle können Sie nur bis zu drei Gruppierungsebenen verwenden. Um eine vierte Ebene hinzuzufügen, müssen Sie den Textmodus verwenden. Sie können Berichte nicht nach mehr als 4 Kriterien gleichzeitig gruppieren.
 author: Nolan
 feature: Reports and Dashboards

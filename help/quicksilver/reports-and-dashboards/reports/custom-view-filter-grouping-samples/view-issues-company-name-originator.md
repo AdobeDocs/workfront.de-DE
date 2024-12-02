@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Probleme mit dem Firmennamen des Urhebers"
+title: 'Ansicht: Probleme mit dem Firmennamen des Urhebers'
 description: In dieser Problemansicht wird der Unternehmensname angezeigt, der mit dem Benutzer verknüpft ist, der das Problem gesendet hat.
 author: Nolan
 feature: Reports and Dashboards

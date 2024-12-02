@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filter: Löscht Elemente in einer Liste durch Vergleich zweier Felder.'
+title: 'Filter: Löscht Elemente in einer Liste durch Vergleich zweier Felder'
 description: Sie können Elemente aus einer Liste filtern, indem Sie zwei ihrer Felder miteinander vergleichen. Beispielsweise können Sie nur Aufgaben anzeigen, bei denen das tatsächliche Abschlussdatum der Aufgabe größer als das geplante Abschlussdatum ist.
 author: Lisa and Nolan
 feature: Reports and Dashboards

@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Login Error: The following fields are invalid: emailAddr cannot be null"
-description: Wenn ich versuche, mich bei der URL für meine Domäne anzumelden, werde ich zum SAML-Anmeldungsportal umgeleitet und dann zurück zu  [!DNL Workfront] umgeleitet. Dabei wird ein Fehler ausgegeben, der besagt, dass das Feld emailAddr nicht null sein darf. [!DNL Adobe Workfront]
+title: 'Anmeldefehler: Die folgenden Felder sind ungültig: emailAddr darf nicht null sein'
+description: 'Wenn ich versuche, mich bei der URL für meine Domäne anzumelden, werde ich zum SAML-Anmeldungsportal umgeleitet und dann zurück zu  [!DNL Workfront] umgeleitet. Dabei wird ein Fehler ausgegeben, der besagt, dass das Feld emailAddr nicht null sein darf. [!DNL Adobe Workfront] '
 author: Lisa
 feature: System Setup and Administration
 role: Admin
