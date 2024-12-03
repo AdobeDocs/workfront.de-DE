@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
+source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1388'
 ht-degree: 3%
 
 ---
@@ -126,7 +126,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 
 ### Administratorverbesserungen
 
-<table style="table-layout:auto">
+<table>
 <col style="width: 50%;" />
 <tbody>
     <tr>
@@ -243,6 +243,53 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 </tbody>
 </table>
 
+### Verbesserungen bei der Dokumentenverwaltung
+
+
+<table>
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Funktion</span></p>
+        </td>
+        <td>Vorschau</td>
+        <td>Schnelle Veröffentlichung</td>
+        <td>Vierteljährlich</td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Verwendung des Projekt- oder Benutzerzeitplans für Einzelzuweisungsaufgaben</a></p>
+            <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Voreinstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden sollte, um die Timeline des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
+        </td>
+        <td><p>16. November 2024</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td>Dezember 2024</td>
+        <td>25,1</td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Geschäftsregeln unterstützen jetzt Hyperlinks</a></p>
+            <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um den Benutzer darauf hinzuweisen, wie er seine Aktion innerhalb der Beschränkung der Regel ändern kann. Die statische URL kann mit der Dokumentation oder anderen Seiten verknüpft werden, die für den Benutzer hilfreich sind.</p>
+        </td>
+        <td>14. November </td>
+        <td><p>14. November</p> <p>[!BADGE Out-of-Cycle ]{type=Negative}</p></td>
+        <td><p>14. November</p> <p>[!BADGE Out-of-Cycle ]{type=Negative}</p></td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
+            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
+        </td>
+        <td>29. Oktober</td>
+          <td><p>Dezember 2024</p><p> [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE In Produktion]{type=Positive}</p></td>
+    </tr>
+</tbody>
+</table>
+
 <!--
 ### Functionality soon to be removed from Workfront
 
@@ -253,6 +300,9 @@ The following functionality is soon to be removed from Workfront:
 
 * [Adobe Workfront Fusion-Release-Aktivität](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 * [Adobe Workfront-Planung - Aktivität vom ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+
+Zu diesem Zeitpunkt in der Version gibt es keine Aktualisierungen für Folgendes:
+
 * Szenarienplaner
 * Korrekturabzug
 * Ziele
