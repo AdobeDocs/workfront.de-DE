@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Zugriff auf Objekte anfordern
 description: Die Sichtbarkeit der Objekte in Adobe Workfront hängt von Ihrem Zugriff auf diesen Objekttyp sowie von Ihren Berechtigungen für einzelne Objekte ab.
-author: Alina
+author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
 
 # Zugriff auf Objekte anfordern
+
+{{preview-fast-release-general}}
 
 Die Sichtbarkeit der Objekte in Adobe Workfront hängt von Ihrem Zugriff auf diesen Objekttyp sowie von Ihren Berechtigungen für einzelne Objekte ab.
 
@@ -92,14 +94,18 @@ So fordern Sie den anfänglichen Zugriff auf ein Objekt an:
 1. Klicken Sie auf **Zugriff anfordern**.\
    Das Dialogfeld **Zugriff anfordern** wird angezeigt.
 
-1. (Bedingt) Wenn mehr als ein Benutzer über den entsprechenden Zugriff verfügt, um Ihnen zusätzlichen Zugriff zu gewähren, wird neben dem Namen des Benutzers ein Dropdown-Pfeil angezeigt.
-1. Wählen Sie den Benutzer aus der Dropdown-Liste aus, der Ihre Zugriffsanfrage erhalten soll.\
+1. (Bedingt) Wenn mehr als ein Benutzer über den entsprechenden Zugriff verfügt, um Ihnen zusätzlichen Zugriff zu gewähren, wird neben dem Namen des Benutzers ein Dropdown-Pfeil angezeigt. Wählen Sie den Benutzer aus der Dropdownliste aus, der Ihre Zugriffsanfrage erhalten soll.
+
    In der Dropdown-Liste werden nur zehn Benutzer angezeigt. Die Liste ist alphabetisch sortiert.\
    Weitere Informationen zur Reihenfolge der in diesem Dropdown-Menü aufgeführten Benutzer finden Sie unter [Hierarchie der Dropdown-Menüs &quot;Zugriff anfordern&quot;und &quot;Mehr Zugriff anfordern&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Wählen Sie aus der Dropdown-Liste den gewünschten Zugriffstyp aus.
 1. (Optional) Geben Sie im Feld **P.S.** einen Hinweis für den Benutzer an, warum Sie zusätzlichen Zugriff benötigen.
 
+   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
+   ![Dialogfeld &quot;Zugriff anfordern&quot;](assets/request-access-to-project.png)
+
+   Beispielbild in der Produktionsumgebung:
    ![](assets/request-access-dialog-350x314.png)
 
 Wenn Sie keine Zugriffsberechtigung für ein Objekt haben und versuchen, über einen Link auf dieses Objekt zuzugreifen, wird ein Bildschirm angezeigt, in dem Sie informiert werden, dass Sie sich an den Workfront-Administrator wenden können.
@@ -115,7 +121,7 @@ So fordern Sie zusätzlichen Zugriff auf ein Objekt an, auf das Sie bereits eing
 
 1. Klicken Sie auf das Menü **Mehr** rechts neben dem Projektnamen und dann auf **Mehr Zugriff anfordern**.
 
-   ![](assets/request-access-in-project-350x201.png)
+   ![Mehr Zugriff anfordern](assets/more-menu-request-more-access.png)
 
 1. (Bedingt) Wenn mehr als ein Benutzer über den entsprechenden Zugriff verfügt, um Ihnen zusätzlichen Zugriff zu gewähren, wird neben dem Namen des Benutzers ein Dropdown-Pfeil angezeigt.
 1. Wählen Sie den Benutzer aus der Dropdown-Liste aus, der Ihre Zugriffsanfrage erhalten soll.\
@@ -124,7 +130,12 @@ So fordern Sie zusätzlichen Zugriff auf ein Objekt an, auf das Sie bereits eing
 
 1. Wählen Sie aus der Dropdown-Liste die Zugriffsstufe aus, die Sie anfordern.
 1. (Optional) Geben Sie im Feld **P.S.** einen Hinweis an, warum Sie zusätzlichen Zugriff benötigen.
-1. Klicken Sie auf **Zugriff anfordern**.\
+1. Klicken Sie auf **Zugriff anfordern**.
+
+   <span class="preview">Beispielbild in der Vorschauumgebung:</span>
+   ![Dialogfeld &quot;Zugriff anfordern&quot;](assets/request-access-to-project.png)
+
+   Beispielbild in der Produktionsumgebung:
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hierarchie der Dropdown-Menüs &quot;Zugriff anfordern&quot;und &quot;Zugriff anfordern&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
