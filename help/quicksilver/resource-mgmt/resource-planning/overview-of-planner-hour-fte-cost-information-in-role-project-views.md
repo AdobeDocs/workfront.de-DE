@@ -7,9 +7,9 @@ description: Übersicht über Stunden, FTE und Kosteninformationen in den Projek
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3086'
 ht-degree: 0%
 
 ---
@@ -217,12 +217,6 @@ Beachten Sie bei der Anzeige der geplanten Stunden Folgendes:
 
 Beachten Sie beim Arbeiten mit Budgetzeit Folgendes:
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
-
 * Sie können Ressourcen nur mit Berechtigungen zum Bearbeiten des Zugriffs auf Ressourcen-Management und Finanzdaten sowie zum Verwalten von Finanzberechtigungen für die Projekte budget.
 
   Weitere Informationen zum Zugriff für Budgetierungsressourcen finden Sie im Artikel [Für Budgetressourcen in Adobe Workfront benötigter Zugriff](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
@@ -232,15 +226,23 @@ Beachten Sie beim Arbeiten mit Budgetzeit Folgendes:
   Weitere Informationen zu Projekt- und Rollenoptionen finden Sie im Abschnitt [Übersicht über Stunden, FTE und Kosten-Informationen in den Projekt- und Rollenansichten des Ressourcenplaners](#Budget) in diesem Artikel.
 
 * Die kleinste Zeitspanne, für die Sie Stunden, FTE oder Kosten einplanen können, ist eine Woche. Sie können keine Stunden, FTE oder Kosten für einen Tag einplanen.
-* Budgetierte Stunden werden für jede ihnen zugewiesene Ressource gleichmäßig auf jeden Tag innerhalb der Dauer der Aufgaben verteilt. Die Aufgabendauer basiert auf der Aufgabe Geplante Start- und Abschlussdaten und umfasst jeden Kalendertag innerhalb dieses Zeitraums.\
-  Workfront berücksichtigt den Zeitplan des Benutzers oder des Projekts bei der Verteilung der Budgetzeit an Benutzer oder Projekte. In diesem Fall werden die budgetierten Stunden innerhalb der Dauer der Aufgaben (außer Wochenenden) gleichmäßig auf jeden Tag verteilt, wobei Ausnahmen und Zeitpläne ausgeschlossen sind.\
+* Budgetierte Stunden werden für jede ihnen zugewiesene Ressource gleichmäßig auf jeden Tag innerhalb der Dauer der Aufgaben verteilt. Die Aufgabendauer basiert auf der Aufgabe Geplante Start- und Abschlussdaten und umfasst jeden Kalendertag innerhalb dieses Zeitraums.
+
+  Workfront berücksichtigt den Zeitplan des Benutzers oder des Projekts bei der Verteilung der Budgetzeit an Benutzer oder Projekte. In diesem Fall werden die budgetierten Stunden innerhalb der Dauer der Aufgaben (außer Wochenenden) gleichmäßig auf jeden Tag verteilt, wobei Ausnahmen und Zeitpläne ausgeschlossen sind.
+
   Wenn Sie beispielsweise den Ressourcenplaner nach Woche anzeigen und Aufgaben mit mehreren Wochen ausführen, hängt die Anzahl der pro Woche geplanten Stunden davon ab, wie viele Tage in dieser Woche Teil der Aufgabendauer sind. Wochenendtage sind von dieser Verteilung ausgeschlossen. Dies funktioniert auf ähnliche Weise, wenn der Ressourcenplaner nach Monat oder Quartal angezeigt wird und Aufgaben mehrere Monate oder Quartale umfassen.
 
-* Sie können einen Bericht über die budgetierten Stunden erstellen, indem Sie die budgetierte Stunde als Berichtsobjekt für einen neuen Bericht auswählen.\
-  Informationen dazu, über welche Objekte Sie in Workfront Berichte erstellen können, finden Sie im Abschnitt &quot;Berichte zu Objekten&quot;im Artikel [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+* Sie können einen Bericht über die budgetierten Stunden erstellen, indem Sie die budgetierte Stunde als Berichtsobjekt für einen neuen Bericht auswählen.
+
+  Informationen dazu, über welche Objekte Sie in Workfront Berichte erstellen können, finden Sie im Abschnitt &quot;Berichte zu Objekten&quot;im Artikel [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
   Informationen zum Erstellen eines Budgeting-Stunden-Berichts finden Sie im Artikel [Bericht: Budgetierte Stunde](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * Stunden, die zuvor für Benutzer, die später deaktiviert wurden, budgetiert wurden, werden nicht angezeigt.
+
+  Beachten Sie, dass die budgetierten Arbeitskosten eines Projekts weiterhin die geplanten Arbeitszeiten für Benutzer enthält, die im Ressourcenplaner deaktiviert wurden.
+
+  Beispiel: Wenn eine Rolle zwei Benutzern zugewiesen wird und die geplanten Stunden hinzugefügt werden (20 Stunden pro Benutzer, insgesamt 40 Stunden) und dann die Gesamtsumme manuell für die Rolle festgelegt wird, bewirkt das Deaktivieren eines Benutzers im Ressourcen-Planer, dass dessen Stunden nicht mehr in der Berechnung berücksichtigt werden (wodurch die Gesamtdauer auf 20 Stunden reduziert wird). Beim Projekt-Budgeting wird jedoch der manuell festgelegte Gesamtwert für die Rolle korrekt beibehalten, sodass die Stunden des deaktivierten Benutzers weiterhin in die Berechnung einbezogen werden (verbleiben bei 40 Stunden).
 
 ### Die Spalte VAR (Varianz) {#the-var-variance-column}
 
