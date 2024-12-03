@@ -2,16 +2,14 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Ausführen des Szenario-Scoring-Experten
-description: Verwalten gesperrter Szenarien in  [!DNL Adobe Workfront Fusion]
+title: Ausführen des Szenario-Scoring-Experten in Adobe Workfront Fusion
+description: Der Scoring-Experte für Szenarien kann Ihnen dabei helfen sicherzustellen, dass Ihr Szenario so konfiguriert ist, dass Best Practices befolgt werden. Es überprüft Ihr Szenario und gibt Empfehlungen für seine Struktur und Organisation.
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
-source-git-commit: 7bc49dcd8988ef7fd781fb88eba5b03576ca7054
+source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
