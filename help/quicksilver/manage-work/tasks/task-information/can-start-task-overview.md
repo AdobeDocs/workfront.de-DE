@@ -7,7 +7,7 @@ description: Wenn eine Aufgabe startbereit ist, fügt Adobe Workfront der Aufgab
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: 2db5d3366da085ab7f0de8505d23fe0729365c5e
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
