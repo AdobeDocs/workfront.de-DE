@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: be5c1dcba32efd95ae484c015b66977398f4b762
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2173'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Portfolio
 * Programm
 * Projekt
-* Datensatz
+* Eintrag
 * Datensatztyp
 * Bericht
 * Aufgabe
@@ -154,7 +154,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col"><p>PROJ</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Datensatz</p></td> 
+        <td scope="col"><p>Eintrag</p></td> 
         <td scope="col"><p>AUFZEICHNUNG</p></td> 
        </tr> 
        <tr> 
@@ -648,6 +648,42 @@ Durch diesen Connector wird der Filter auf den neuen Status oder den alten Statu
             "state": "oldState"
         }
     ]
+}
+```
+
+### Verwenden verschachtelter Filter
+
+Ereignisabonnement unterstützt das Filtern verschachtelter Ereignisfelder mithilfe des Suchbegriffs `fieldValue.fields` .
+
+```
+{
+    "objCode": "RECORD",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedRecords",
+    "filters": [
+        {
+            "fieldName": "data",
+            "fieldValue": {
+                "fields": {
+                    "customerID": "customer1234"
+                }
+            },
+            "comparison": "eq",
+            "state": "newState"
+        },
+        {
+            "fieldName": "options",
+            "fieldValue": {
+                "objects": {
+                    "projectID": "project1234"
+                }
+            },
+            "comparison": "contains",
+            "state": "newState"
+        },
+    ],
+    "filterConnector": 'AND'
 }
 ```
 

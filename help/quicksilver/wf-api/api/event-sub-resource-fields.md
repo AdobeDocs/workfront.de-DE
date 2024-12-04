@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '757'
 ht-degree: 9%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 9%
 # Ressourcen-Felder für Ereignisabonnements
 
 Die Felder der Ereignisabonnement-Ressource stellen Trigger für Ereignisse dar, die dazu führen, dass ein Ereignisabonnement eine ausgehende Nachricht an einen konfigurierten Endpunkt sendet. Wenn ein Ressourcenfeld bearbeitet wird, wird ein UPDATE-Ereignis ausgelöst.
+
+Beachten Sie, dass Daten mithilfe verschachtelter Filter gefiltert werden können. Weitere Informationen finden Sie unter [Verwenden verschachtelter Filter](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) in der Artikel Ereignis-Abonnement-API.
 
 In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Abonnement von Ereignissen verfügbar sind:
 
@@ -1840,7 +1842,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
    <td><span>requesterID</span> </td> 
   </tr> 
   <tr> 
-   <td>Datensatz</td> 
+   <td>Eintrag</td> 
    <td>AUFZEICHNUNG</td> 
    <td>createdAt</td> 
   </tr> 
