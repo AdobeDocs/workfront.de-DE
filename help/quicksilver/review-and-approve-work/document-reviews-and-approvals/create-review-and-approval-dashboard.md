@@ -5,12 +5,10 @@ title: Dashboard für Überprüfung und Genehmigung erstellen
 description: Sie können Genehmigungsmetriken in Leinwand-Dashboards überprüfen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
+source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2054'
 ht-degree: 1%
 
 ---
@@ -48,10 +46,9 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 
 ### KPIs
 
-<!--
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
+>Die neuen Dokumentgenehmigungsdaten werden derzeit während der Abende in der Zeitzone des US-Berges aktualisiert. Echtzeit-Updates sind geplant und werden in Kürze verfügbar sein.
 
 ![KPI-Beispiele](assets/kpi-dashboard.png)
 
@@ -132,6 +129,10 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 
 ### Diagramme
 
+>[!IMPORTANT]
+>
+>Die neuen Dokumentgenehmigungsdaten werden derzeit während der Abende in der Zeitzone des US-Berges aktualisiert. Echtzeit-Updates sind geplant und werden in Kürze verfügbar sein.
+
 ![Diagrammbeispiele](assets/chart-dashboard.png)
 
 #### Validierungen nach Entscheidungstraktdiagramm
@@ -178,6 +179,10 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
 
 ## Hinzufügen detaillierter Überprüfungs- und Genehmigungsinformationen mit Tabellen
+
+>[!IMPORTANT]
+>
+>Die neuen Dokumentgenehmigungsdaten werden derzeit während der Abende in der Zeitzone des US-Berges aktualisiert. Echtzeit-Updates sind geplant und werden in Kürze verfügbar sein.
 
 ![Tabellenbeispiel](assets/table-dashboard.png)
 
