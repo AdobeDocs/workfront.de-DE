@@ -3,9 +3,9 @@ title: Eine Anforderung genehmigen
 description: Wenn ein Benutzer eine Anforderung an ein Anforderungsformular sendet, das mit einer Genehmigung in der Adobe Workfront-Planung verknüpft ist, erhalten Genehmiger eine Benachrichtigung und eine E-Mail über die ausstehende Genehmigung. Sie müssen die Anfrage genehmigen, bevor Workfront Planning ein Objekt erstellt.
 hide: true
 hidefromTOC: true
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Gesendete Anfragen werden im Tab Planung des Abschnitts Gesendet im Bereich Anfo
 * **Genehmigt**: Wenn ein Genehmiger das Anfrageobjekt genehmigt, wird sein individueller Status zu
 * **Genehmigt**, aber der Gesamtstatus des Anfrageobjekts bleibt **In Überprüfung**, bis alle Genehmiger ihre Entscheidungen getroffen haben.
 * **Abgeschlossen**: Wenn alle Genehmiger das Anfrageobjekt genehmigen, ändert sich sein Status in **Abgeschlossen** oder wenn für die Anfrage keine Genehmigung erforderlich ist.
-* **Abgelehnt**: Wenn ein Genehmiger das Anfrageobjekt ablehnt, erhält der Status den Status **Abgelehnt** .
+* **Abgelehnt**: Wenn ein Genehmiger das Anfrageobjekt ablehnt, erhält der Status den Status **Abgelehnt** . Es wird kein Datensatz erstellt und es muss eine neue Anfrage gesendet werden, um den Datensatz zu erstellen.
 
 ## Zugriffsanforderungen
 

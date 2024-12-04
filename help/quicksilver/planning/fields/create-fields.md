@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 1%
@@ -298,6 +298,16 @@ Sie können ein Mehrfachauswahlfeld verwenden, um zusätzliche Informationen in 
    **Sortieren Sie die Optionen A-Z** , wenn die Auswahl automatisch in alphabetischer Reihenfolge aufgeführt werden soll. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) Um eine Auswahl zu entfernen, klicken Sie auf das Symbol **x** rechts davon.
 1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
+
+   <!--
+    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+
+        <span class="preview">Or</span>
+
+        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
+        </span>
+    1. <span class="preview:>Click outside the color box to close it. </span>     
+    -->
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Mehrfachauswahlfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
@@ -320,6 +330,16 @@ Felder mit einmaliger Auswahl erfassen zusätzliche Informationen in einem belie
 1. (Optional) Ziehen Sie jede Auswahl manuell in die gewünschte Reihenfolge oder wählen Sie die Option **Sortieroptionen A-Z** aus, wenn die Auswahlmöglichkeiten automatisch in alphabetischer Reihenfolge aufgeführt werden sollen. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) Um eine Auswahl zu entfernen, klicken Sie auf das Symbol **x** rechts davon.
 1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
+
+   <!--
+        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+
+            <span class="preview">Or</span>
+
+            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
+            </span>
+        1. <span class="preview:>Click outside the color box to close it. </span>     
+        -->
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Einzelauswahlfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.

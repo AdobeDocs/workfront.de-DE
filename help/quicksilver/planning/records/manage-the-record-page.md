@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -256,23 +256,29 @@ Folgendes geschieht:
 
 <span class="preview">
 
-## Hinzufügen der Seite &quot;Verbundene Ansicht&quot;zur Datensatzseite
+## Hinzufügen einer Seite mit der Verbindungsansicht zur Seite eines Datensatzes
 
-Sie können der Datensatzseite eine Seite vom Typ Verbundene Ansicht hinzufügen.
+Beachten Sie beim Hinzufügen einer Verbindungsansicht zu einer Datensatzseite Folgendes:
 
-Sie können dem Vorschaubereich eines Datensatzes keine verbundene Ansichtsseite hinzufügen.
+* Sie können der Seite eines Datensatzes eine Seite zur Ansicht &quot;Verbindung&quot;hinzufügen.
 
-Verbundene Ansichtsseiten zeigen eine verbundene Datensatzseite in der Tabellenansicht an. Die Tabellenansicht ist schreibgeschützt.
+* Es ist nicht möglich, dem Vorschaubereich eines Datensatzes eine Seite mit der Verbindungsansicht hinzuzufügen.
 
-Sie können für jeden verbundenen Datensatztyp eine verbundene Ansichtsseite hinzufügen.  <!--edit this when we can remove fields from this page-->
+* Auf den Seiten der Verbindungsansicht wird eine verbundene Datensatzseite in der Tabellenansicht angezeigt. Die Tabellenansicht ist schreibgeschützt.
 
-So fügen Sie eine Seite für eine verbundene Ansicht hinzu:
+* Sie können für jeden verbundenen Datensatztyp eine Ansichtsseite &quot;Verbindung&quot;hinzufügen.  <!--edit this when we can remove fields from this page-->
 
-1. Klicken Sie in einer Datensatzseitenansicht auf den Namen eines Datensatzes, um ihn zu öffnen, und klicken Sie dann oben rechts auf der Vorschauseite auf das Symbol &quot;In neuer Registerkarte öffnen&quot;![](assets/open-details-in-a-new-tab-icon.png) .
-1. Klicken Sie auf **Seite hinzufügen** > **Verbundene Ansicht**.
-1. Fügen Sie den **Seitennamen** hinzu und klicken Sie dann auf **Erstellen**.
+* Nachdem Sie die Seite Verbindungsansicht zu einer Datensatzseite hinzugefügt haben, ist die Seite im Vorschaubereich des Datensatzes sichtbar.
 
-   Auf einer neuen Registerkarte wird der Datensatzseite eine zusätzliche Seite hinzugefügt.
+So fügen Sie eine Seite zur Ansicht der Verbindung hinzu:
+
+1. Klicken Sie in einer Datensatzseitenansicht auf den Namen eines Datensatzes, um ihn zu öffnen, und klicken Sie dann oben rechts auf der Vorschauseite auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) .
+1. Klicken Sie auf **Seite hinzufügen** > **Verbindungsansicht**.
+
+   ![](assets/add-connection-view-page-modal.png)
+1. Fügen Sie den **Seitennamen** hinzu, klicken Sie auf **Verbindungsansicht** und dann auf **Erstellen**.
+
+   Der Datensatzseite wird eine neue Registerkarte hinzugefügt.
 1. Suchen oder klicken Sie in der Liste auf den Namen eines verbundenen Datensatzes oder Objekttyps.
 Die Tabellenansicht des ausgewählten Datensatztyps wird angezeigt und die verbundenen Datensätze werden in der Tabellenansicht angezeigt.
 Die Tabellenansicht ist schreibgeschützt.
@@ -284,6 +290,7 @@ Die Tabellenansicht ist schreibgeschützt.
 
    Bewegen Sie den Mauszeiger über den Namen der Registerkarte, klicken Sie dann auf **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Umbenennen** , um in die neue Registerkarte &quot;Connected view&quot;umzubenennen.
 1. (Optional) Verwenden Sie beliebige Ansichtselemente in der Symbolleiste, um die Tabellenansicht zu verwalten. Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte, klicken Sie auf **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Löschen** , um die Registerkarte &quot;Connected view&quot;zu entfernen.
 
 </span>
 
