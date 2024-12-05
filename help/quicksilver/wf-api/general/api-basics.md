@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
 workflow-type: tm+mt
-source-wordcount: '4419'
+source-wordcount: '4383'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,6 @@ Eine Kenntnis des Workfront-Schemas hilft Ihnen dabei, die Datenbankbeziehungen 
 Um eine konsistente On-Demand-Systemleistung von Workfront sicherzustellen, beschränkt die Workfront-API gleichzeitige API-Threads. Diese Schutzmaßnahme verhindert Systemprobleme, die durch missbräuchliche API-Aufrufe verursacht werden. In der Sandbox-Umgebung gibt es dieselbe Grenze für gleichzeitige API-Threads, die es Kunden und Partnern ermöglicht, API-Aufrufe genau zu testen, bevor Code für die Produktion freigegeben wird.
 
 Für Produktions-, Vorschau- und Testumgebungen haben Endbenutzeranforderungen eine maximale URI-Länge von 8892 Byte, da sie über das Workfront CDN (Akamai) weitergeleitet werden. Diese Beschränkung gilt nur für URIs, die über das CDN weitergeleitet werden.
-
->[!NOTE]
->
->Diese Beschränkung gilt nicht für Sandbox-Umgebungen, da Sandbox-Umgebungen nicht über das CDN weitergeleitet werden.
 
 ### Haftungsausschluss
 
@@ -75,7 +71,7 @@ Die standardmäßigen HTTP-Methoden entsprechen den folgenden Vorgängen:
 Um Client-Mängel oder Beschränkungen der Protokolllänge zu umgehen, kann der Methodenparameter verwendet werden, um das HTTP-Verhalten zu überschreiben. Beispielsweise kann ein GET-Vorgang durch Posten des folgenden URI implementiert werden:
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
-### Reaktion
+### Antwort
 
 Jede Anfrage erhält eine Antwort im JSON-Format. Die Antwort verfügt entweder über ein Datenattribut, wenn die Anfrage erfolgreich war, oder über ein Fehlerattribut, wenn ein Problem aufgetreten ist. Beispielsweise die Anfrage
 
@@ -110,14 +106,6 @@ Im Folgenden finden Sie ein Beispiel für eine Anfrage-Kopfzeile:
 ```
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
-```
-
-#### Authentifizierung von Anfrageparametern
-
-Sie können sich authentifizieren, indem Sie einen Anforderungsparameter namens sessionID übergeben, wie im folgenden Beispiel gezeigt: 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### Cookie-basierte Authentifizierung
