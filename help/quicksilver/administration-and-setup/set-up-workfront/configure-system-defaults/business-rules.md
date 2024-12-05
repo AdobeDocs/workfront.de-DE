@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,10 @@ Weitere Informationen zu nutzerbasierten Platzhaltern finden Sie unter [Verwende
 
 Informationen zu datumsbasierten Platzhaltern finden Sie unter [Verwenden datumsbasierter Platzhalter zum Generalisieren von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-In Geschäftsregeln ist auch ein API-Platzhalter verfügbar. Sie können `$$ISAPI` verwenden, um die Regel nur in der Benutzeroberfläche oder nur in der API Trigger.
+In Geschäftsregeln ist auch ein API-Platzhalter verfügbar. Verwenden Sie `$$ISAPI` , um die Regel nur in der API Trigger. Verwenden Sie `!$$ISAPI` , um die Regel nur in der Benutzeroberfläche zu erzwingen und es Benutzern zu ermöglichen, die Regel über die API zu umgehen.
+
+* Diese Regel verbietet beispielsweise Benutzern, abgeschlossene Projekte über die API zu bearbeiten. Wenn der Platzhalter nicht verwendet wurde, blockierte die Regel die Aktion sowohl in der Benutzeroberfläche als auch in der API.
+  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
 
 Die Platzhalter `$$BEFORE_STATE` und `$$AFTER_STATE` werden in Ausdrücken verwendet, um vor und nach jeder Änderung auf die Feldwerte des Objekts zuzugreifen.
 
