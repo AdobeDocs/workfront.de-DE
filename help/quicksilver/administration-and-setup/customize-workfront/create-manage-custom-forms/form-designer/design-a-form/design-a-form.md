@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6524'
 ht-degree: 5%
 
 ---
@@ -750,11 +750,11 @@ So fügen Sie Bilder, PDF oder Videos hinzu:
 
    Klicken Sie auf **Speichern und schließen**.
 
-#### Hinzufügen eines Video-Widgets zu einem benutzerdefinierten Formular aus dem Bereich &quot;Dokumente&quot;{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Hinzufügen eines Bildes oder Videos zu einem benutzerdefinierten Formular aus dem Bereich &quot;Dokumente&quot;{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->Wenn Sie einem benutzerdefinierten Formular auf diese Weise ein Video hinzufügen, gelten nur die für das benutzerdefinierte Formular festgelegten Berechtigungen für das Video, wenn Benutzer auf das Formular eines Objekts zugreifen, nicht die Berechtigungen, die für das Video im Bereich &quot;Dokumente&quot;festgelegt wurden.
+>Wenn Sie einem benutzerdefinierten Formular auf diese Weise ein Video hinzufügen, werden die im Bereich &quot;Dokumente&quot;festgelegten Berechtigungen auf das Video angewendet, wenn Benutzer auf das Formular eines Objekts zugreifen.
 
 1. Gehen Sie zum Video im Bereich &quot;Dokumente&quot;und generieren Sie einen Testversand dafür, wie unter [Erstellen eines interaktiven Testversands für eine Website oder andere Webinhalte](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md) beschrieben.
 1. Öffnen Sie den Testversand.
