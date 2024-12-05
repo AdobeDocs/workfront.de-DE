@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
-source-wordcount: '4287'
+source-wordcount: '4370'
 ht-degree: 1%
 
 ---
@@ -210,7 +210,12 @@ OLD:
    Bewegen Sie den Mauszeiger über die Kopfzeile einer Spalte, klicken Sie auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Links einfügen** oder **Rechts einfügen** , um das neue Feld hinzuzufügen.
 1. Suchen Sie auf der Registerkarte **Neues Feld** im Feld **Feldtyp** nach einem Feldtyp oder wählen Sie aus den folgenden Feldtypen aus:
 
-   Suchen Sie auf der Registerkarte **Neues Feld** im Feld **Feldtyp** nach einem Feldtyp <!--using any related keyword--> oder wählen Sie aus den unten aufgeführten Feldtypen aus.
+   Suchen Sie auf der Registerkarte **Neues Feld** im Feld **Feldtyp** nach einem Feldtyp mit einem verwandten Suchbegriff oder wählen Sie aus den unten aufgeführten Feldtypen aus.
+
+   >[!TIP]
+   >
+   >    Sie können &quot;Budget&quot;eingeben und die Feldtypen Zahl und Währung in einer kurzen Liste anzeigen.
+
 
 
    * [Einzeiliger Text](#single-line-text)
@@ -299,15 +304,13 @@ Sie können ein Mehrfachauswahlfeld verwenden, um zusätzliche Informationen in 
 1. (Optional) Um eine Auswahl zu entfernen, klicken Sie auf das Symbol **x** rechts davon.
 1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
 
-   <!--
-    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+1. <span class="preview">Klicken Sie auf **Farbfelder** , um eine vordefinierte Farbe auszuwählen</span>
 
-        <span class="preview">Or</span>
+   <span class="preview">Oder</span>
 
-        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-        </span>
-    1. <span class="preview:>Click outside the color box to close it. </span>     
-    -->
+   <span class="preview">Klicken Sie auf **Benutzerdefiniert** , um eine benutzerdefinierte Farbe mit einer Farbauswahl oder einem Hexadezimalcode auszuwählen.
+   </span>
+1. Klicken Sie außerhalb des Farbfelds, um es zu schließen.
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Mehrfachauswahlfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
@@ -330,16 +333,13 @@ Felder mit einmaliger Auswahl erfassen zusätzliche Informationen in einem belie
 1. (Optional) Ziehen Sie jede Auswahl manuell in die gewünschte Reihenfolge oder wählen Sie die Option **Sortieroptionen A-Z** aus, wenn die Auswahlmöglichkeiten automatisch in alphabetischer Reihenfolge aufgeführt werden sollen. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) Um eine Auswahl zu entfernen, klicken Sie auf das Symbol **x** rechts davon.
 1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
+1. <span class="preview">Klicken Sie auf **Farbfelder** , um eine vordefinierte Farbe auszuwählen</span>
 
-   <!--
-        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+   <span class="preview">Oder</span>
 
-            <span class="preview">Or</span>
-
-            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-            </span>
-        1. <span class="preview:>Click outside the color box to close it. </span>     
-        -->
+   <span class="preview">Klicken Sie auf **Benutzerdefiniert** , um eine benutzerdefinierte Farbe mit einer Farbauswahl oder einem Hexadezimalcode auszuwählen.
+   </span>
+1. Klicken Sie außerhalb des Farbfelds, um es zu schließen.
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Einzelauswahlfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
