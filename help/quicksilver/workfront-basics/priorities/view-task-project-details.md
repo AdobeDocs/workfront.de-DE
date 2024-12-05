@@ -5,13 +5,13 @@ description: Sie können Projekt- und Aufgabendetails in der Liste der Prioritä
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 8384c2ce2e83aa07c504c56193b19a557226d15a
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
+source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
-
 
 # Anzeigen von Projekt- und Aufgabendetails in der Arbeitsliste &quot;Prioritäten&quot;
 
@@ -67,8 +67,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Anzeigen und Hinzufügen von Kommentaren zum Projekt
    * Zeit erfassen
    * Datei hinzufügen
+   * <span class="preview">Direkt zum Projekt wechseln</span>
 
-   ![Projektdetails](assets/project-details.png)
+<!-- ![project details](assets/project-details.png)-->
 
 ## Aufgabendetails anzeigen
 
@@ -83,4 +84,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Datei hinzufügen
    * Schnelllinks hinzufügen
 
-   ![Aufgabendetails](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
