@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Empfangen von E-Mail-Einladungen und Erstellen eines Kennworts für  [!DNL Adobe Workfront]
 description: Wenn ein [!DNL Workfront] Administrator einen neuen Benutzer erstellt, erhält der neue Benutzer möglicherweise eine Einladungs-E-Mail, die auf mehreren Faktoren basiert.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
