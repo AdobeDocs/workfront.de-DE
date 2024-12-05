@@ -9,7 +9,7 @@ description: Mit den Adobe Lightroom-Modulen können Sie ein Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
 source-wordcount: '2370'
 ht-degree: 0%
@@ -18,7 +18,6 @@ ht-degree: 0%
 
 # [!DNL Adobe Lightroom] Module
 
-<!--Add Connection info-->
 
 In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!DNL Adobe Lightroom] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
 

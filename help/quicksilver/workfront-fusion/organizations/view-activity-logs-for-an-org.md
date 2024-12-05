@@ -8,10 +8,10 @@ description: Sie können ein Protokoll mit Aktivitäten für Ihr Unternehmen anz
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '528'
+ht-degree: 0%
 
 ---
 
@@ -47,11 +47,14 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
    <p>Veraltet: Beliebig </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Sie müssen Fusion-Administrator sein, um das Aktivitätsprotokoll verwenden zu können.</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Neu: [!DNL Workfront Fusion] ist im Ultimate Workfront-Plan enthalten.</p> <p>Oder</p>
-   <p>Aktuell: Nicht verfügbar</p>
+   <p>Diese Funktion ist nur für Unternehmen mit dem Ultimate Workfront-Plan verfügbar, der [!DNL Workfront Fusion] enthält. Es ist kein weiterer Produktkauf erforderlich.</p>
    </td> 
   </tr>
  </tbody> 
