@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens der Version vom ersten Quartal 2025 vorgenommen wurden.
 
 Eine Liste aller Änderungen, die mit der Version vom ersten Quartal 2025 verfügbar sind, finden Sie unter [Versionsübersicht für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Aktualisiertes Erlebnis auf der Seite &quot;Cloud-Anbieter&quot;im Bereich &quot;Einrichtung&quot;
+
+>[!NOTE]
+>
+>Vorschau-Version: 5. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 24.12 (12. Dezember 2024)
+
+Um die Leistung zu verbessern, haben wir im Bereich &quot;Einrichtung&quot;visuelle Aktualisierungen an der Seite &quot;Cloud-Anbieter&quot;vorgenommen.
+
+Eine kleine Funktionsänderung wurde auf die Schnellintegration angewendet. Anstatt Client-ID und Client-Geheimnis direkt auf der Seite &quot;Cloud-Anbieter&quot;einzugeben, müssen Sie auf das Symbol Bearbeiten klicken, um diese Felder sichtbar zu machen.
+
+## Look-and-Feel-Aktualisierung für Dialogfeld &quot;Zugriff anfordern&quot;
+
+>[!NOTE]
+>
+>Vorschau: 28. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Das Dialogfeld zum Anfordern des Zugriffs auf Objekte wurde aktualisiert und ist jetzt in einem moderneren Design verfügbar, das mit anderen Bereichen von Workfront konsistent ist. Dieses Dialogfeld ist verfügbar, wenn Sie Zugriff auf Projekte, Aufgaben, Probleme, Programme, Portfolios, Vorlagen und Vorlagenaufgaben anfordern.
+
+Weitere Informationen finden Sie unter [Anfordern des Zugriffs auf Objekte](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Look-and-Feel-Aktualisierungen für Dokumentintegrationen
 
@@ -30,7 +50,7 @@ Wir haben Leistungs-Upgrades für den Bereich im Setup durchgeführt, in dem Sie
 
 >[!NOTE]
 >
->Vorschau-Version: 4. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 4. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Wir haben die Seiten &quot;Firmenmitglieder&quot;und &quot;Unternehmenskurse&quot;mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Der Zugriff auf Unternehmensmitgliedschaften erfolgt über Einrichtung > Unternehmen > Firmennamen auswählen > Unternehmensmitglieder auswählen im linken Bereich. Auf die Abrechnungsraten von Unternehmen kann über Einrichtung > Unternehmen > Unternehmensnamen > Auswahl der Option Abrechnungsraten im linken Bereich zugegriffen werden.
 
@@ -53,7 +73,7 @@ Die auffälligsten Änderungen sind:
 
 >[!NOTE]
 >
->Vorschau-Version: 4. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 4. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Im Workfront-Setup-Bereich wird ein neues Listenformat eingeführt, und die Wechselkursliste ist die erste Seite, die dieses Tabellenformat verwendet. Die Funktionalität für die Hinzufügung neuer Wechselkurse und die Suche nach Wechselkursen hat sich nicht geändert.
 
@@ -63,7 +83,7 @@ Informationen zu Wechselkursen finden Sie unter [Einrichten von Wechselkursen](/
 
 >[!NOTE]
 >
->Vorschau-Version: 4. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 4. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Wir haben die Seite &quot;Daten exportieren&quot;(Kick-Starts) im Bereich &quot;Setup&quot;mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 

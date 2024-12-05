@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Die Handhabung von verschobenen und gelöschten Assets bei der Verwendung der Ad
 
 >[!NOTE]
 >
->Vorschau-Version: 11. November 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.12 (Dezember 2024); Produktion für vierteljährliche Veröffentlichung: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 11. November 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.12 (12. Dezember 2024); Produktion für vierteljährliche Veröffentlichung: Mit Version 25.1 (Januar 2025)
 
 Wenn ein benutzerdefiniertes Formular mit mehreren Abschnitten an ein Objekt angehängt wird, können Sie jetzt alle Abschnitte mit Ausnahme des Standardabschnitts oben im Formular ausblenden und erweitern. Der Administrator kann diese Funktion auch bei der Vorschau des Formulars im Formularentwickler sehen.
 

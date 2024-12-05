@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des erst
 
 >[!NOTE]
 >
->Vorschau-Version: 21. November 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.12 (Dezember 2024); Produktion für vierteljährliche Veröffentlichung: Mit Version 25.1 (Januar 2025)
+>Vorschau: 21. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Als System- oder Gruppenadministrator haben Sie jetzt eine neue Voreinstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden sollte, um die Timeline des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind. Vor dieser Verbesserung gab es diese Einstellung für mehrere Benutzerzuweisungen. Die Einstellung ist jetzt für Einzelbenutzerzuweisungen an Aufgaben verfügbar.
 
@@ -32,7 +32,7 @@ Weitere Informationen finden Sie unter [Systemweite Projekteigenschaften konfigu
 
 >[!NOTE]
 >
->Vorschau-Version: 21. November 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.12 (Dezember 2024); Produktion für vierteljährliche Veröffentlichung: Mit Version 25.1 (Januar 2025)
+>Vorschau: 21. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um den Benutzer darauf hinzuweisen, wie er seine Aktion innerhalb der Beschränkung der Regel ändern kann. Die statische URL kann mit der Dokumentation oder anderen Seiten verknüpft werden, die für den Benutzer hilfreich sind.
 
@@ -42,7 +42,7 @@ Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsr
 
 >[!NOTE]
 >
->Vorschau-Version: 21. November 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.12 (Dezember 2024); Produktion für vierteljährliche Veröffentlichung: Mit Version 25.1 (Januar 2025)
+>Vorschau: 21. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Wenn Sie einen nativen Feldverweis zu einem benutzerdefinierten Formular hinzufügen und auf ein Typeahead-Feld verweisen (z. B. Portfolio, Firma oder Eigentümer), ist jetzt eine Filteroption verfügbar. Mit dem Filter können Sie die Objekte einschränken, die Benutzer bei der Verwendung des Felds auswählen können. Dieser benutzerdefinierte Filter funktioniert genauso wie ein Filter für ein benutzerdefiniertes typeahead-Feld, wobei der Textmodus zum Definieren des Filters verwendet wird.
 

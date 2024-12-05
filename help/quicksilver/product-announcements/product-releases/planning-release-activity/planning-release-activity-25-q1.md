@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1920'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,31 @@ In diesem Artikel werden die Funktionen beschrieben, die während der Version de
 
 Eine Liste aller Funktionen, die nach der allgemeinen Release vom 28. August 2024 für die Adobe Workfront-Planung freigegeben wurden, finden Sie unter [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Intelligente Suche bei der Suche nach einem Feldtyp
+
+>[!NOTE]
+>
+>Vorschau-Version: 5. Dezember 2024; Produktionsversion für alle Kunden: 5. Dezember 2024
+
+Bei der Suche nach einem Feldtyp in der Workfront-Planung wurde eine intelligente Suchfunktion hinzugefügt. Jetzt können Sie bei der Eingabe eines Suchbegriffs Feldtypen finden. Wenn Sie beispielsweise &quot;Preis&quot;eingeben, werden die Feldtypen Zahl und Währung gesucht. Vor dieser Verbesserung konnten Sie nur nach dem tatsächlichen Feldtypnamen suchen.
+
+Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+
+## Benutzerdefinierte Farbauswahl für farbcodierte Optionen von Ein- oder Mehrfachauswahlfeldern
+
+>[!NOTE]
+>
+>Vorschau-Version: 5. Dezember 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+
+Jetzt können Sie beim Erstellen oder Bearbeiten eines ein- oder mehrseitigen Felds benutzerdefinierte Farbentscheidungen treffen. Wenn Sie Felder mit farbcodierten Optionen erstellen oder bearbeiten, wird durch Klicken auf das Farbsymbol ein Farbauswahlfeld geöffnet. Sie können aus vordefinierten Farben wählen oder benutzerdefinierte Farben mithilfe von Hexadezimalcodes oder einem Farbspektrum erstellen.
+
+Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Vorhandene Workfront-Felder in Datensatztypen für die Workfront-Planung importieren
 
 >[!NOTE]
 >
->Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Wenn Sie nun Felder zu einem Datensatztyp hinzufügen, können Sie vorhandene benutzerdefinierte oder native Workfront-Felder importieren und mit dem ausgewählten Datensatztyp verknüpfen. Durch den Import vorhandener Felder wird eine Kopie der Workfront-Felder in der Workfront-Planung erstellt. Die kopierten Felder sind unabhängig von den Originalversionen.
 
@@ -53,7 +72,7 @@ Weitere Informationen finden Sie unter [Importieren von Feldern aus Adobe Workfr
 
 >[!NOTE]
 >
->Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Sie können jetzt neue Datensatztypen importieren, indem Sie eine CSV- oder Excel-Datei importieren.
 
@@ -71,7 +90,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quic
 
 >[!NOTE]
 >
->Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Wir haben eine Warnmeldung beim Bearbeiten oder Erstellen eines Formelfelds eingeführt, das möglicherweise einen kreisförmigen Verweis auf sich selbst oder freigegebene Felder erstellt. Sie können kein Formelfeld speichern, das sich entweder auf sich selbst oder auf Elemente bezieht, auf die in der Berechnung verwiesen wird.
 
@@ -81,7 +100,7 @@ Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/plan
 
 >[!NOTE]
 >
->Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Sie können dem Detailbereich eines Datensatzes Seiten hinzufügen, um verbundene Datensätze in einer Tabellenansicht anzuzeigen. Sie können pro verknüpften Datensatz eine Seite hinzufügen.
 
@@ -93,7 +112,7 @@ Weitere Informationen finden Sie unter [Layout der Datensatzseite verwalten](/he
 
 >[!NOTE]
 >
->Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Workfront-Planungsanfragen finden Sie jetzt im Abschnitt &quot;Gesendet&quot;des Anforderungsbereichs von Workfront. Im Abschnitt &quot;Gesendet&quot;werden jetzt die folgenden Registerkarten angezeigt:
 
@@ -110,7 +129,7 @@ Weitere Informationen finden Sie unter [Planungsanfragen zur Erstellung von Date
 
 >[!NOTE]
 >
->Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Sie können jetzt die folgenden Feldtypen zu einem Anforderungsformular vom Typ Datensatz in der Workfront-Planung hinzufügen:
 
@@ -125,7 +144,7 @@ Weitere Informationen finden Sie unter Anforderungsformular erstellen und verwal
 
 >[!NOTE]
 >
->Vorschau-Version: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau: 27. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Sie können ein Anforderungsformular nicht mehr öffentlich freigeben, wenn das Formular einen der folgenden Feldtypen enthält:
 
@@ -141,7 +160,7 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anforderun
 
 >[!NOTE]
 >
->Vorschau-Version: 26. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau: 26. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Sie können Datensätze nun wöchentlich in der Kalenderansicht anzeigen. Vor dieser Verbesserung konnten Sie die Kalenderansicht nur pro Monat anzeigen.
 
@@ -151,7 +170,7 @@ Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/qui
 
 >[!NOTE]
 >
->Vorschau-Version: 22. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau: 22. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Nachdem die Datensätze gelöscht wurden, werden sie nun 30 Tage lang vorübergehend in eine kürzlich gelöschte Klasse verschoben. Sie können auf die kürzlich gelöschte Klasse von der Seite des Datensatztyps zugreifen und sie enthält nur Datensätze eines bestimmten Typs.
 
@@ -165,7 +184,7 @@ Weitere Informationen finden Sie unter [Gelöschte Datensätze wiederherstellen]
 
 >[!NOTE]
 >
->Vorschau-Version: 21. November 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.12 (Dezember 2024); Produktion für vierteljährliche Veröffentlichung: Mit Version 25.1 (Januar 2025)
+>Vorschau: 21. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Um Ihnen die Arbeit zu erleichtern, haben wir den Adobe AI-Assistenten zur Detailvorschau oder Datensatzseite hinzugefügt. Sie können den KI-Assistenten innerhalb einer Datensatzseite verwenden, um Informationen zum Datensatz zu aktualisieren.
 
@@ -175,7 +194,7 @@ Weitere Informationen finden Sie unter [Adobe Workfront Planning AI Assistant Ov
 
 >[!NOTE]
 >
->Vorschau-Version: 20. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau: 20. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Wenn Sie die Vorschau oder Seite eines Datensatzes öffnen und der Datensatz keine Miniaturansicht oder kein Titelbild aufweist, müssen Sie jetzt den Mauszeiger über den Bereich über dem Datensatznamen in der Kopfzeile bewegen, um die Optionen zum Hinzufügen eines Titelbilds und eines Miniaturbilds zum Datensatz anzuzeigen. Vor dieser Verbesserung werden die leeren Platzhalterbilder für die Miniaturansicht und das Deckblatt über dem Datensatznamen angezeigt.
 
@@ -188,7 +207,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 >[!NOTE]
 >
->Vorschau-Version: 7. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 7. November 2024; Produktion für schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
 Um die Lesbarkeit von Zahlen in der Tabellenansicht zu vereinfachen, können Sie jetzt aus den folgenden Optionen auswählen, um zu ändern, wie ein Feld vom Typ Prozentsatz in der Tabellenansicht angezeigt wird:
 

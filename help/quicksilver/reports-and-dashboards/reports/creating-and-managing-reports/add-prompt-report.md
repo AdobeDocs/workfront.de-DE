@@ -6,9 +6,9 @@ description: Filter und Eingabeaufforderungen 채hneln sich insofern, als sie bei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -172,3 +172,5 @@ Die Freigabe erforderlicher Berichte aus Workfront unterliegt folgenden Einschr�
 * Wenn Sie einen Bericht planen, der zur Bereitstellung aufgefordert wird, enth채lt der Bericht im E-Mail-Anhang die Daten des Berichts, die nicht angefordert werden. Wenn der Benutzer auf den Link in der E-Mail klickt, um auf den Bericht zuzugreifen, muss er sich zuerst anmelden, um den Bericht anzuzeigen und die Eingabeaufforderung selbst auszuf체hren.
 
   Informationen zum Planen eines gelieferten Berichts finden Sie unter [Planen einer automatischen Berichtbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
+* Wenn Sie einen Bericht mit einer datumsbasierten Eingabeaufforderung ausf체hren, werden die Berichtsergebnisse anhand der Zeitzoneneinstellungen Ihres Browsers gefiltert. Dies kann zu leichten Abweichungen zwischen den Datumsbereichen f체hren, die in einem aufgerufenen Bericht f체r Datumsangaben am Anfang oder Ende eines Monats angezeigt werden. Wenn die Zeitzoneneinstellungen Ihres Browsers an einen bestimmten Ort gebunden sind, werden auch Variationen der lokalen Zeit dieses Standorts (z. B. Einhaltung der Sommerzeit) in den Datumsangaben ber체cksichtigt, die f체r einen aufgerufenen Bericht angezeigt werden. Dies kann zu leichten Abweichungen zwischen den Datumsbereichen zwischen Benutzern in derselben Zeitzone, aber mit unterschiedlichen Standorteinstellungen f체hren.
