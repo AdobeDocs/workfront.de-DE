@@ -6,10 +6,10 @@ description: Startseite hilft Ihnen bei der Verwaltung Ihrer Arbeit. Sie können
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 1347911f2d0c03874c759f02b207e3fa93ca5bb4
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 3%
+source-wordcount: '1015'
+ht-degree: 4%
 
 ---
 
@@ -148,32 +148,6 @@ Sie können Ihrer Startseite ein wenig persönliches Erlebnis hinzufügen, indem
    Das Bedienfeld Anpassen wird geöffnet.
 
 1. Klicken Sie im Bereich **Hintergrund** des Bedienfelds **Anpassen** auf die Farbe, die Sie für Ihren Home-Hintergrund auswählen möchten. Sie können auch auf **Keine** klicken, um den Hintergrund zu entfernen.
-
-## Zurück zum aktuellen Starterlebnis
-
-Wenn Sie das vorhandene Home-Erlebnis bevorzugen, können Sie das neue Home-Erlebnis umschalten.
-
-So gehen Sie zurück zum aktuellen Starterlebnis:
-
-1. Gehen Sie zur Startseite, indem Sie einen der folgenden Schritte ausführen:
-
-   * Wenn Home als Landingpage festgelegt ist, klicken Sie auf das Symbol **Adobe Workfront** ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben links auf Ihrem Bildschirm.
-   * Klicken Sie oben rechts im Bildschirm auf das Symbol **Hauptmenü** oder, falls verfügbar, auf das Symbol **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) oben links und klicken Sie dann auf **Startseite**.
-
-1. Klicken Sie unten rechts auf der Seite auf die Schaltfläche &quot;**Zurück zur aktuellen Startseite**&quot;.
-
-   ![Zurück zur aktuellen Schaltfläche &quot;Home&quot;](assets/customize-button.png)
-
-   Ein Bestätigungsfenster wird angezeigt.
-
-1. Nehmen Sie eine kurze Umfrage zu Ihrem Erlebnis mit der neuen Startseite vor oder klicken Sie auf **Zurück zur aktuellen Startseite** , um zum aktuellen Starterlebnis zurückzukehren.
-
->[!NOTE]
->
-> Systemadministratoren können die neue Startseite als Standard für ihre Benutzer deaktivieren. Informationen zum Ändern des standardmäßigen Home-Erlebnisses für Benutzer in einem System finden Sie unter [Systemvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
-
-
 
 
 

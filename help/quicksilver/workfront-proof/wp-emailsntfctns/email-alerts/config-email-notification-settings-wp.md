@@ -7,9 +7,9 @@ description: Von Workfront Proof generierte E-Mail-Benachrichtigungen informiere
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Sie können Testversand-Einstellungen für von Ihnen erstellte Testsendungen kon
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Persönliche Einstellungen]**.
+1. Klicken Sie oben rechts auf Ihr Profilbild und dann auf **[!UICONTROL Persönliche Einstellungen]**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Testversand-Standardwerte]** .
 1. Klicken Sie auf **[!UICONTROL Standard-E-Mail-Benachrichtigungseinstellungen]** , um sie zu erweitern.
@@ -163,7 +163,7 @@ Sie können E-Mail-Warnungen für einen bestimmten Empfänger in einer Batch-Akt
 
 Wenn Sie ein [!DNL Workfront Proof] -Administrator sind, können Sie für Benutzer in Ihrem Konto Testversandstandards festlegen.
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]**.
+1. Klicken Sie oben im Bildschirm auf **[!UICONTROL Kontoeinstellungen]** .
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Benutzer]** .
 1. Öffnen Sie das Menü **[!UICONTROL Mehr]** ![Mehr_Button_klein.png](assets/more-button-small.png) rechts neben dem Benutzernamen.
