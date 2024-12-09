@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>Bereich</td>
@@ -247,7 +247,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             Verwendung des Projekt- oder Benutzerzeitplans für Einzelzuweisungsaufgaben</a></p>
             <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Voreinstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden sollte, um die Timeline des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
         </td>
-        <td><p>16. November 2024</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td><p>16. November 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
         <td>Dezember 2024</td>
         <td>25,1</td>
     </tr>     
@@ -284,8 +284,8 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
         </td>
         <td>29. Oktober</td>
-          <td><p>Dezember 2024</p><p> [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE In Produktion]{type=Positive}</p></td>
+          <td><p>Dezember 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
