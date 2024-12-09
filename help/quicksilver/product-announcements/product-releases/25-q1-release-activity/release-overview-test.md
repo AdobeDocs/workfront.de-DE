@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
+source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 3%
+source-wordcount: '878'
+ht-degree: 2%
 
 ---
 
@@ -33,92 +33,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 >Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter [Aktivieren oder Deaktivieren des Prozesses der schnellen Veröffentlichung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 
-## Adobe Workfront-Verbesserungen
-
-
-<table>
-<col style="width: 20%;" />
-<col style="width: 75%;" />
-<tbody>
-    <tr>
-    <td>Bereich</td>
-        <td>
-            <p><span class="bold">Funktion</span></p>
-        </td>
-        <td>Vorschau</td>
-        <td>Schnelle Veröffentlichung</td>
-        <td>Vierteljährlich</td>
-    </tr>
-    <tr>
-     <td>Admin und Einrichtung</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Verwendung des Projekt- oder Benutzerzeitplans für Einzelzuweisungsaufgaben</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Voreinstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden sollte, um die Timeline des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
-        </td>
-        <td>21. November 2024</td>
-        <td>Dezember 2024</td>
-        <td>25,1</td>
-    </tr>     
-    <tr>
-     <td>Admin und Einrichtung</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Geschäftsregeln unterstützen jetzt Hyperlinks</a></p>
-            [!BADGE Out-of-Cycle]{type=Caution}
-            <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um den Benutzer darauf hinzuweisen, wie er seine Aktion innerhalb der Beschränkung der Regel ändern kann. Die statische URL kann mit der Dokumentation oder anderen Seiten verknüpft werden, die für den Benutzer hilfreich sind.</p>
-        </td>
-        <td>Freitag, 14. November 2024</td>
-        <td>Freitag, 14. November 2024</td>
-        <td>Freitag, 14. November 2024</td>
-    </tr>    
-    <tr>
-     <td>Admin und Einrichtung</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Filtern nach nativen Typeahead-Feldern ist jetzt verfügbar</a></p>
-            [!BADGE Out-of-Cycle ]{type=Negative}
-            <p>Wenn Sie einen nativen Feldverweis zu einem benutzerdefinierten Formular hinzufügen und auf ein Typeahead-Feld verweisen (z. B. Portfolio, Firma oder Eigentümer), ist jetzt eine Filteroption verfügbar. Mit dem Filter können Sie die Objekte einschränken, die Benutzer bei der Verwendung des Felds auswählen können. Dieser benutzerdefinierte Filter funktioniert genauso wie ein Filter für ein benutzerdefiniertes typeahead-Feld, wobei der Textmodus zum Definieren des Filters verwendet wird.</p>
-        </td>
-        <td>21. November</td>
-        <td>25,12</td>
-        <td>25,1</td>
-    </tr>
-    <tr>
-     <td>Admin und Einrichtung</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
-            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
-        </td>
-        <td>Mittwoch, 29. Oktober 2024</td>
-          <td>Dezember 2024</td>
-        <td>25,1</td>
-    </tr>
-</tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Workfront-Verbesserungen
-
-
-
-
-
 
 
 * [Verbesserungen für Administratoren](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
@@ -127,7 +42,10 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 ### Administratorverbesserungen
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -163,91 +81,25 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Filtern nach nativen Typeahead-Feldern ist jetzt verfügbar</a></p>
-            [!BADGE Out-of-Cycle ]{type=Negative}
             <p>Wenn Sie einen nativen Feldverweis zu einem benutzerdefinierten Formular hinzufügen und auf ein Typeahead-Feld verweisen (z. B. Portfolio, Firma oder Eigentümer), ist jetzt eine Filteroption verfügbar. Mit dem Filter können Sie die Objekte einschränken, die Benutzer bei der Verwendung des Felds auswählen können. Dieser benutzerdefinierte Filter funktioniert genauso wie ein Filter für ein benutzerdefiniertes typeahead-Feld, wobei der Textmodus zum Definieren des Filters verwendet wird.</p>
         </td>
         <td>21. November</td>
         <td>25,12</td>
         <td>25,1</td>
     </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
-        </td>
-        <td>Mittwoch, 29. Oktober 2024</td>
-          <td>Dezember 2024</td>
-        <td>25,1</td>
-    </tr>
+
 </tbody>
 </table>
+
 
 ### Verbesserungen bei der Dokumentenverwaltung
 
 
 <table>
-<col style="width: 50%;" />
-<tbody>
-    <tr>
-        <td>
-            <p><span class="bold">Funktion</span></p>
-        </td>
-        <td>Vorschau</td>
-        <td>Schnelle Veröffentlichung</td>
-        <td>Vierteljährlich</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Verwendung des Projekt- oder Benutzerzeitplans für Einzelzuweisungsaufgaben</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Voreinstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden sollte, um die Timeline des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
-        </td>
-        <td>21. November 2024</td>
-        <td>Dezember 2024</td>
-        <td>25,1</td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Geschäftsregeln unterstützen jetzt Hyperlinks</a></p>
-            [!BADGE New in Preview ]{type=Caution}
-            <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um den Benutzer darauf hinzuweisen, wie er seine Aktion innerhalb der Beschränkung der Regel ändern kann. Die statische URL kann mit der Dokumentation oder anderen Seiten verknüpft werden, die für den Benutzer hilfreich sind.</p>
-        </td>
-        <td>Freitag, 14. November 2024</td>
-        <td>Freitag, 14. November 2024</td>
-        <td>Freitag, 14. November 2024</td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Filtern nach nativen Typeahead-Feldern ist jetzt verfügbar</a></p>
-            [!BADGE Out-of-Cycle ]{type=Negative}
-            <p>Wenn Sie einen nativen Feldverweis zu einem benutzerdefinierten Formular hinzufügen und auf ein Typeahead-Feld verweisen (z. B. Portfolio, Firma oder Eigentümer), ist jetzt eine Filteroption verfügbar. Mit dem Filter können Sie die Objekte einschränken, die Benutzer bei der Verwendung des Felds auswählen können. Dieser benutzerdefinierte Filter funktioniert genauso wie ein Filter für ein benutzerdefiniertes typeahead-Feld, wobei der Textmodus zum Definieren des Filters verwendet wird.</p>
-        </td>
-        <td>21. November</td>
-        <td>25,12</td>
-        <td>25,1</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
-            [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
-            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
-        </td>
-        <td>Mittwoch, 29. Oktober 2024</td>
-          <td>Dezember 2024</td>
-        <td>25,1</td>
-    </tr>
-</tbody>
-</table>
-
-### Verbesserungen bei der Dokumentenverwaltung
-
-
-<table>
-<col style="width: 75%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -264,8 +116,8 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Voreinstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden sollte, um die Timeline des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
         </td>
         <td><p>16. November 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
-        <td>Dezember 2024</td>
-        <td>25,1</td>
+        <td><p>24,12</p></td>
+        <td><p>25,1</p></td>
     </tr>     
     <tr>
         <td>
@@ -273,9 +125,9 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             Geschäftsregeln unterstützen jetzt Hyperlinks</a></p>
             <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um den Benutzer darauf hinzuweisen, wie er seine Aktion innerhalb der Beschränkung der Regel ändern kann. Die statische URL kann mit der Dokumentation oder anderen Seiten verknüpft werden, die für den Benutzer hilfreich sind.</p>
         </td>
-        <td>14. November </td>
-        <td><p>14. November</p> <p>[!BADGE Out-of-Cycle ]{type=Negative}</p></td>
-        <td><p>14. November</p> <p>[!BADGE Out-of-Cycle ]{type=Negative}</p></td>
+        <td><p>14. November</p> </td>
+        <td><p>Dezember 2024</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>25,1</p> </td>
     </tr>    
     <tr>
         <td>
@@ -283,9 +135,29 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
             <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
         </td>
-        <td>29. Oktober</td>
-          <td><p>Dezember 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE Production]{type=Positive}</p></td>
+        <td><p>5. Dezember</p></td>
+          <td><p>15. Dezember</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>15. Dezember</p> <p> [!BADGE Available ]{type=Positive}</p> <p>[!BADGE Out-of-Cycle ]{type=Caution}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
+            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
+        </td>
+        <td><p>5. Dezember</p><p>[!BADGE Out-of-Cycle ]{type=Caution}</p></td>
+          <td><p>15. Dezember</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>15. Dezember</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
+            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
+        </td>
+        <td><p>1. November</p></td>
+          <td><p>24,11</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>25,1</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
