@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1791'
 ht-degree: 1%
 
 ---
@@ -76,14 +76,6 @@ Im Folgenden finden Sie zwei Szenarien, in denen die Dauer in Adobe Workfront be
 >[!NOTE]
 >
 >Unter Berücksichtigung der Projektzeit des Primären Verantwortlichen können sich die geplanten Aufgabendaten anpassen, die Aufgabendauer bleibt jedoch gleich. Weitere Informationen zur Berücksichtigung der Zeitdauer des Primären Verantwortlichen bei der Projektplanung finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
-## Die ursprüngliche Dauer einer übergeordneten Aufgabe
-
-Die ursprüngliche Dauer einer Aufgabe ist die Dauer in Minuten, die eine Aufgabe hatte, bevor sie zur übergeordneten Aufgabe wurde.
-
-Wenn eine Aufgabe übergeordnet wird, wird die Dauer zwischen dem geplanten Startdatum des frühesten untergeordneten Elements und dem geplanten Abschlussdatum des letzten untergeordneten Elements in die übergeordnete Aufgabe aggregiert und wird zur Dauer der übergeordneten Aufgabe. Dadurch wird die Dauer der ursprünglichen Aufgabe ersetzt.
-
-Weitere Informationen finden Sie unter [Übersicht über die ursprüngliche Dauer der Aufgabe und die ursprünglich geplanten Stunden](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Zeiteinheiten für Aufgabendauer
 
@@ -181,6 +173,27 @@ Der Typ der Dauer hilft bei der Beantwortung der folgenden Fragen:
 ## Der Typ der neuen Aufgaben mit Dauer
 
 Der Dauer-Typ einer neuen Aufgabe entspricht dem in Ihrem System eingerichteten Dauer-Typ. Der Standardtyp für die Dauer ist &quot;Berechnete Zuweisung&quot;. Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standardtyp für die Dauer des Projekts für Ihr System oder die mit dem Projekt verknüpfte Gruppe aktualisieren. Weitere Informationen finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
+## Die ursprüngliche Dauer einer übergeordneten Aufgabe
+
+Die ursprüngliche Dauer einer Aufgabe ist die Dauer in Minuten, die eine Aufgabe hatte, bevor sie zur übergeordneten Aufgabe wurde.
+
+Wenn eine Aufgabe übergeordnet wird, wird die Dauer zwischen dem geplanten Startdatum des frühesten untergeordneten Elements und dem geplanten Abschlussdatum des letzten untergeordneten Elements in die übergeordnete Aufgabe aggregiert und wird zur Dauer der übergeordneten Aufgabe. Dadurch wird die Dauer der ursprünglichen Aufgabe ersetzt.
+
+Wenn Kinder die Zeiteinheit &quot;Verstrichene Tage&quot;verwenden und ihr übergeordnetes Element die Zeiteinheit &quot;Tage&quot;verwendet, kann es zu Abweichungen bei der Berechnung der Dauer der übergeordneten Aufgabe durch Workfront kommen.
+
+Beachten Sie Folgendes:
+
+* Die Zeiteinheit &quot;Elapsed Days&quot;stellt Kalendertage dar, die immer aus 24 Stunden pro Tag bestehen.
+* Die Tage der Zeiteinheit für die Dauer stellen den im System definierten Arbeitstag dar und sind konfigurierbar. In den meisten Fällen besteht er aus 8 Stunden pro Tag.
+* Die Formel zur Berechnung der Dauer der übergeordneten Aufgabe lautet wie folgt:
+
+  `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
+
+* Bei der Berechnung der Dauer der Hauptaufgabe berechnet das System zunächst die Dauer anhand der obigen Formel und wendet dann den Zeitplan an.
+
+
+Weitere Informationen finden Sie unter [Übersicht über die ursprüngliche Dauer der Aufgabe und die ursprünglich geplanten Stunden](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Ändern der Dauer einer Aufgabe
 

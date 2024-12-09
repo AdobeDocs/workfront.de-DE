@@ -1,13 +1,13 @@
 ---
-title: Bericht zum Bereich "Updates"
+title: Bericht zum Aktualisierungsbereich
 description: Der Bericht Journaleintrag enthält Systemaktualisierungen aus dem Bereich Updates für Projekte, Aufgaben, Probleme und andere Objekte, die zuvor nur über die Adobe Workfront-API verfügbar waren. Obwohl es sich hierbei um einen erweiterten Bericht handelt, der für bestimmte Anwendungsfälle gedacht ist, erleichtert das besser lesbare Format die Berichterstellung über Projektaktivitäten und Systemaktualisierungen in Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2757'
 ht-degree: 4%
 
 ---
@@ -339,7 +339,7 @@ So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
 1. Klicken Sie auf der Registerkarte **Filter** auf **Filterregel hinzufügen** und fügen Sie dann die folgenden Filter hinzu:
 
    * **Änderungstyp** > **Equal** > **Delete**
-   * **Projekt-ID** > **Equal** > **`<project>`**
+   * **Projekt-ID** > **Equal** > **&lt; Projektname >**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -383,7 +383,7 @@ So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyk
 
    Die Berichterstellung wird geladen.
 
-1. Fügen Sie auf der Registerkarte **Spalten (Ansicht)** die folgenden Spalten hinzu:
+1. Vergewissern Sie sich auf der Registerkarte **Spalten (Ansicht)** , dass Sie über **Spalte hinzufügen** verfügen oder klicken, um die folgenden Spalten hinzuzufügen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -446,9 +446,9 @@ So sehen Sie, wie sich benutzerdefinierte Felder im Verlauf des Projektlebenszyk
 
      >[!TIP]
      >
-     >Um diesen Bericht auf bestimmte benutzerdefinierte Felder zu beschränken, fügen Sie die Filterregel **Journal Entry Field Name** > **Equal** > **`<custom field>`** hinzu.
+     >Um diesen Bericht auf bestimmte benutzerdefinierte Felder zu beschränken, fügen Sie die Filterregel **Journaleintragsfeldname** > **Gleich** > **&lt; benutzerdefinierter Feldname>** hinzu.
 
-   * **Projekt-ID** > **Equal** > **`<project>`**
+   * **Projekt-ID** > **Equal** > **&lt; Projekt >**.
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -549,7 +549,7 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
 1. Klicken Sie auf der Registerkarte **Filter** auf **Filterregel hinzufügen** und fügen Sie dann Folgendes hinzu:
 
    * **Feldname** > **Equal** > **Datum**
-   * **Projekt-ID** > **Equal** > **`<project>`**
+   * **Projekt-ID** > **Equal** > **&lt; Projektname >**.
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -638,7 +638,7 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
 1. Klicken Sie auf der Registerkarte **Filter** auf **Filterregel hinzufügen** und fügen Sie dann Folgendes hinzu:
 
    * **Feldname** > **Equal** > **ownerID**
-   * **Projekt-ID** > **Equal** > **`<project name>`**
+   * **Projekt-ID** > **Equal** > **&lt; Projektname >**.
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -662,4 +662,4 @@ Sie können den Journaleintragsbericht so einrichten, dass er anzeigt, wie oft s
 
 1. Klicken Sie auf **Speichern + schließen**.
 
-   Ihr neuer Bericht wird geladen.
+   Der neue Journaleintragsbericht wird angezeigt.

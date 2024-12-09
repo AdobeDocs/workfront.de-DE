@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Erstellen projektübergreifender Vorgänger
+title: Erstellen von projektübergreifenden Vorgängern
 description: Ein projektübergreifender Vorgänger ist eine Aufgabe, von der eine andere Aufgabe (als Nachfolgeaufgabe bezeichnet) in einem anderen Projekt abhängt. Der Vorgänger ist die Aufgabe, die Vorrang vor der abhängigen (Nachfolger-)Aufgabe hat. Sie können beispielsweise eine Abhängigkeit erstellen, bei der die Vorgängeraufgabe zuerst als Fertig gestellt markiert werden muss, bevor die abhängige Aufgabe beginnen kann.
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # Erstellen projektübergreifender Vorgänger
 
-<!--Audited: 12/2023-->
+<!--Audited: 12/2024-->
 
 Ein projektübergreifender Vorgänger ist eine Aufgabe, von der eine andere Aufgabe (als Nachfolgeaufgabe bezeichnet) in einem anderen Projekt abhängt. Der Vorgänger ist die Aufgabe, die Vorrang vor der abhängigen (Nachfolger-)Aufgabe hat. Sie können beispielsweise eine Abhängigkeit erstellen, bei der die Vorgängeraufgabe zuerst als Fertig gestellt markiert werden muss, bevor die abhängige Aufgabe beginnen kann.
 
@@ -72,12 +72,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Erstellen eines projektübergreifenden Vorgängers
 
 1. Wechseln Sie zu der Aufgabe, die Ihr Nachfolger ist (abhängige Aufgabe).
-1. Klicken Sie im linken Bereich auf **Vorgänger** .
+1. Klicken Sie im linken Bereich auf **Vorgänger** . Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
+
+   >[!TIP]
+   >
+   >   Ihr Workfront- oder Gruppenadministrator kann den Abschnitt **Vorgänger** oder andere Abschnitte aus dem linken Bereich entfernen.
+
 1. Klicken Sie auf **Vorgänger hinzufügen**.
 1. Geben Sie im Feld **Übergeordnetes Projekt** den Namen des Projekts ein, das die Aufgabe enthält, die Sie der aktuellen Aufgabe voranstellen möchten.
 1. Klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 1. Geben Sie im Feld **Aufgaben** den Namen der Aufgabe ein, die der Vorgänger der aktuellen Aufgabe sein soll.
 1. Geben Sie die folgenden Informationen zum Definieren der Beziehung zwischen dem Vorgänger und der abhängigen Aufgabe an:
+
 
    * **Abhängigkeitstyp:** Wählen Sie die Beziehung aus, die die Vorgängeraufgabe mit der abhängigen Aufgabe haben soll. Die Standardbeziehung lautet &quot;Finish-Start&quot;. Das bedeutet, dass die Vorgängeraufgabe beendet werden muss, bevor die abhängige Aufgabe beginnen kann. Weitere Informationen zu den verschiedenen Abhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 

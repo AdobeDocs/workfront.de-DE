@@ -6,9 +6,9 @@ description: Um Arbeitselemente effizient zu finden und uns auf die von Ihnen ve
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2458'
 ht-degree: 0%
 
 ---
@@ -179,8 +179,6 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 
 1. Klicken Sie auf **Neuer Filter.**
 
-   ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
-
 1. Gehen Sie wie folgt vor, um einen Filter zu erstellen:
 
    1. Wählen Sie im ersten Dropdown-Menü einen Feldnamen aus oder klicken Sie auf **Felder durchsuchen** , um mit der Eingabe des Namens eines Felds zu beginnen, das nicht standardmäßig angezeigt wird.
@@ -198,7 +196,7 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
       >Sie können ein Feld aus den folgenden Abschnitten auswählen:
       >
       >* **Letzte Auswahlen**: Die Felder, nach denen Sie kürzlich gefiltert haben.
-      >* **Vorgeschlagene Felder**: Die am häufigsten verwendeten Felder.
+      >* **Vorgeschlagen**: Die am häufigsten verwendeten Felder.
 
 
    1. Wählen Sie einen Modifikator aus dem zweiten Dropdownmenü aus. Weitere Informationen zu Workfront-Filtermodifikatoren finden Sie unter [Filter und Bedingungsmodifikatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -206,13 +204,13 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 
       >[!NOTE]
       >
-      > Wenn Sie Arbeitsobjekte aus einem bestimmten Portfolio anzeigen möchten, können Sie den folgenden Filter anwenden: &quot;Portfolio name contains marketing&quot;. Dadurch werden Arbeitselemente angezeigt, die zu einem Portfolio gehören, das &quot;Marketing&quot;im Namen enthält.
+      > Wenn Sie Arbeitsobjekte aus einem bestimmten Portfolio anzeigen möchten, können Sie den folgenden Filter anwenden: &quot;Portfolio-ID entspricht &lt; Portfolioname >&quot;.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
-
-      >[!NOTE]
       >
-      >Um Projekte mit dem Status &quot;On Hold&quot;auszuschließen, müssen Sie den folgenden Filter anwenden: &quot;Project: Status does not equal On Hold&quot;(Projekt: Status ist nicht gleich &quot;On Hold&quot;). Dadurch wird verhindert, dass Arbeitselemente aus On Hold-Projekten im Arbeitslade-Balancer angezeigt werden.
+      >Um Projekte mit dem Status On Hold auszuschließen, müssen Sie den folgenden Filter anwenden: &quot;Projekt: Status ist nicht gleich bei Halten&quot;. Dadurch wird verhindert, dass Arbeitselemente aus On Hold-Projekten im Arbeitslade-Balancer angezeigt werden.
+      >
+      >![](assets/project-status-filter-statement-wb.png)
 
    1. (Optional) Klicken Sie auf das Symbol **Löschen** ![](assets/delete.png) , um ein Filterkriterium zu entfernen.
 
@@ -240,8 +238,8 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
    >
    >Wenn Sie jederzeit auf **Abbrechen** klicken, gelangen Sie zurück zum Filterbaubereich.
 
-1. Wählen Sie **Unbenannter Filter** aus und geben Sie stattdessen den Namen des neuen Filters ein.
-1. Wählen Sie aus dem Dropdownmenü **Symbol** ein Symbol für den neuen Filter aus.
+1. Klicken Sie in das Feld **Unbenannter Filter** und geben Sie den Namen des neuen Filters ein.
+1. (Optional) Wählen Sie aus dem Dropdownmenü **Symbol** ein Symbol für den neuen Filter aus.
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
