@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '596'
 ht-degree: 3%
 
 ---
@@ -21,8 +21,7 @@ Weitere Informationen zu Teams finden Sie unter [Übersicht über Teams](../../.
 >[!NOTE]
 >
 >* Ein Gruppenadministrator kann die Einstellungen eines Teams für eine von ihm verwaltete Gruppe bearbeiten. Weitere Informationen finden Sie unter [Erstellen und Ändern von Teams einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* Ein Benutzer mit einer Planungslizenz kann die Einstellungen eines Teams im Bereich Personen bearbeiten. Weitere Informationen finden Sie unter [Bearbeiten von Teameinstellungen](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
->
+>* Benutzer mit einer Standard- oder Planlizenz können die Einstellungen eines Teams im Bereich Teams bearbeiten. Weitere Informationen finden Sie unter [Bearbeiten von Teameinstellungen](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
 ## Zugriffsanforderungen
 

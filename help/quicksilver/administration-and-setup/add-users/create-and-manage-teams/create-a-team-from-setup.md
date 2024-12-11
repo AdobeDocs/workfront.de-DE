@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 5%
+source-wordcount: '542'
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,7 @@ Als Adobe Workfront-Administrator können Sie im Bereich &quot;Einrichtung&quot;
 >[!NOTE]
 >
 >* Ein Gruppenadministrator kann ein Team für eine Gruppe erstellen, die er verwaltet, und zwar über den Bereich Einrichtung . Weitere Informationen finden Sie unter [Erstellen und Ändern von Teams einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* Ein Benutzer mit einer Planungslizenz kann auch ein Team aus dem Bereich Personen erstellen. Weitere Informationen finden Sie unter [Team erstellen](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
->
+>* Ein Benutzer mit einer Standard- oder Planlizenz kann auch ein Team aus dem Bereich Teams erstellen. Weitere Informationen finden Sie unter [Team erstellen](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 ## Zugriffsanforderungen
 

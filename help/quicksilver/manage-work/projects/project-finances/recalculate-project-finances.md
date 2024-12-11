@@ -3,12 +3,12 @@ title: Neuberechnung der Projektfinanzen
 product-area: projects
 navigation-topic: financials
 description: Die Finanzmittel werden für ein Projekt berechnet, da Änderungen in den für das Projekt angemeldeten Stunden oder in den zur Berechnung der Kosten und Einnahmen verwendeten Raten auftreten.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Wenn sich die Rate eines Benutzers oder einer Rolle während der Lebensdauer ein
 
 * Wenn die Änderung vorgenommen wird, wird die aktualisierte Rate ab diesem Zeitpunkt verwendet, da Stunden protokolliert und die Finanzinformationen berechnet werden. Eine Änderung der Rate hat keinen Einfluss darauf, wie die Dinge vor der Änderung berechnet wurden. Für alle vorhandenen Stunden wird der alte Satz zur Berechnung der Finanzinformationen verwendet.
 * Mit der Option Finanzen neu berechnen können Sie Adobe Workfront zwingen, die neue Rate rückwirkend für alle bisher angemeldeten Stunden zu verwenden. Dies zwingt Workfront dazu, alle zuvor eingegebenen Stunden, geplanten Kosten und Einnahmen entsprechend den neuen Ratsinformationen rückwirkend neu zu berechnen.
+
+Der Berichtstyp Projekt (Finanzdaten) wird vor dem Laden der Daten nicht automatisch neu berechnet. Um die Daten dieses Berichtstyps zu aktualisieren, müssen Sie die Finanzen für einzelne Projekte manuell neu berechnen.
 
 >[!CAUTION]
 >
