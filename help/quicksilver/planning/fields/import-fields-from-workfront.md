@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 7%
+source-wordcount: '760'
+ht-degree: 6%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -180,3 +180,8 @@ Alle anderen Workfront-Feldtypen werden in der Workfront-Planung nicht unterstü
 1. Klicken Sie auf **+** und dann auf **Felder hinzufügen**.
 Die Felder werden der Tabellenansicht und den Detailseiten der Datensätze hinzugefügt.
 
+   >[!IMPORTANT]
+   >
+   >    Für jeden Datensatztyp sind maximal 500 Felder zulässig. Die vorhandenen Felder sowie die importierten Felder tragen zu dieser Begrenzung bei.
+
+   Die hinzugefügten Felder sind Kopien der Workfront-Felder und stellen keine Verbindung mehr zu den ursprünglichen Feldern in Workfront her.

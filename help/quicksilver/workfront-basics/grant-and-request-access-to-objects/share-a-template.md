@@ -6,9 +6,9 @@ description: Als Adobe Workfront-Administrator können Sie Benutzern Zugriff auf
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,8 @@ Berechtigungen beziehen sich auf ein Element in Workfront und legen fest, welche
   Informationen zum Verwalten des Zugriffs auf Vorlagenaufgaben und Probleme im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im Abschnitt [Zugriff](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) im Artikel [Bearbeiten von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 * Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten in der Zugriffsebene des Benutzers erben sollen. Weitere Informationen zum Einschränken von geerbten Berechtigungen auf Dokumente finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* Vorlagenaufgaben können nicht einzeln freigegeben werden. Durch die Freigabe einer Vorlage werden auch die Vorlagenaufgaben freigegeben. Durch die Freigabe des Projekts aus der Vorlage werden auch die zukünftigen Projektaufgaben freigegeben.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

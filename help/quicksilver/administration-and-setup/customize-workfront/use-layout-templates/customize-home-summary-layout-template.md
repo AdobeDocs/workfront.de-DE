@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '943'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 Sie können eine Layout-Vorlage verwenden, um zu konfigurieren, was Benutzer beim Klicken auf eine Aufgabe oder ein Problem im Bedienfeld &quot;Zusammenfassung&quot;sehen. Jede Konfiguration, die Sie mithilfe der folgenden Schritte vornehmen, wirkt sich auf das Bedienfeld &quot;Zusammenfassung&quot;aus. Diese Anpassungen gelten nicht für das Bedienfeld &quot;Dokumentzusammenfassung&quot;.
@@ -101,7 +101,7 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
       <td role="rowheader">Projekte</td> 
       <td><ul><li><p>Wenn auf der Startseite ein Benutzer auf eine ihm zugewiesene Projektgenehmigung klickt, wirkt sich Ihre Konfiguration für diese Einstellung auf den Bereich rechts neben der Genehmigung aus.</p>
       <p><b>WICHTIG:</b> </p><p>Diese Funktion wird nicht mehr unterstützt. Alle Änderungen, die Sie an diesem Bereich vornehmen, beziehen sich auf eine Funktion, die von Workfront entfernt wurde. Diese Option wird mit einem späteren Wartungs-Update aus Workfront entfernt.</p></li>
-      <li><span class="preview"><p>Dieser Bereich wurde aus der Vorschau-Umgebung entfernt.</p></li></span></ul> 
+      </ul> 
       </td> 
      </tr> 
      <tr> 
@@ -109,14 +109,14 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
       <td>
      <ul><li><p>Wenn auf der Startseite ein Benutzer auf eine ihm zugewiesene Dokumentgenehmigung klickt, wirkt sich Ihre Konfiguration für diese Einstellung auf den Bereich rechts neben der Genehmigung aus.</p>
       <p><b>WICHTIG:</b> </p><p> Diese Funktion wird nicht mehr unterstützt. Alle Änderungen, die Sie an diesem Bereich vornehmen, beziehen sich auf eine Funktion, die von Workfront entfernt wurde. Diese Option wird mit einem späteren Wartungs-Update aus Workfront entfernt.</p></li>
-      <li><span class="preview"><p>Dieser Bereich wurde aus der Vorschau-Umgebung entfernt.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dokumentversionen</td> 
       <td><ul><li><p>Wenn auf der Startseite ein Benutzer auf eine Genehmigung klickt, die ihm für eine bestimmte Version eines Dokuments zugewiesen wurde, wirkt sich Ihre Konfiguration für diese Einstellung auf den Bereich rechts neben der Genehmigung aus.</p>
       <p><p><b>WICHTIG:</b></p> Diese Funktion wird nicht mehr unterstützt. Alle Änderungen, die Sie an diesem Bereich vornehmen, beziehen sich auf eine Funktion, die von Workfront entfernt wurde. Diese Option wird mit einem späteren Wartungs-Update aus Workfront entfernt.</p></li>
-      <li><span class="preview"><p>Dieser Bereich wurde aus der Vorschau-Umgebung entfernt.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
     </tbody> 
@@ -128,15 +128,15 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt auf Aufgaben oder Probleme geklickt haben, wählen Sie die Kategorie der Aufgabe oder des Problems aus, die Sie anpassen möchten.
 
-   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
+   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Bedingt) Wenn das Dropdown-Menü **Schaltfläche &quot;Primäre Aktion festlegen&quot;** angezeigt wird (wenn Sie in der Liste auf der linken Seite die Option **Aufgaben** oder **Probleme** auswählen), klicken Sie auf die primäre Aktion (**Fertig** oder **Status**), die Benutzern im Zusammenfassungsbereich zur Verfügung stehen soll, wenn sie eine Aufgabe oder ein Problem anzeigen.
 
-   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
+   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
 1. Fügen Sie ![](assets/add-item-plus-in-circle-blue.png) hinzu oder blenden Sie ![](assets/close-or-hide---x.png) -Felder für den ausgewählten Objekttyp aus.
 
-   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
+   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Wiederholen Sie die Schritte 3 bis 6, um den Bereich &quot;Zusammenfassung&quot;für alle anderen Objekttypen anzupassen.
 1. Klicken Sie unten links auf **Globale Einstellungen** und aktivieren oder deaktivieren Sie dann eine der folgenden Optionen, die sich auf Adobe Workfront-Objekte in der Zusammenfassung beziehen:

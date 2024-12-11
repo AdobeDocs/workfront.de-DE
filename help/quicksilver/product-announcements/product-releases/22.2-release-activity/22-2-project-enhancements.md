@@ -1,14 +1,14 @@
 ---
-title: 22.2&nbsp;Projektverbesserungen
-description: 22.2&nbsp;Projektverbesserungen
+title: 2.2 Projektverbesserungen
+description: 2.2 Projektverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1093'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Weitere Informationen finden Sie unter [Kopieren eines Projekts](../../../manage
 Wir haben ein neues Menü &quot;Mehr&quot;in Projektlisten und Berichten hinzugefügt, über das Sie die folgenden Aktionen aus diesen Bereichen durchführen können:
 
 * Für mehrere Projekte gleichzeitig:
-* Zeitleiste neu berechnen
+* Timeline neu berechnen
 * Finanzdaten neu berechnen
 * Benutzerdefinierte Ausdrücke neu berechnen
 * Für ein einzelnes Projekt:

@@ -6,9 +6,9 @@ description: Das [!DNL Adobe Workfront] Glossar listet häufig verwendete Begrif
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '20875'
+source-wordcount: '20930'
 ht-degree: 0%
 
 ---
@@ -812,7 +812,15 @@ Die folgende Tabelle enthält eine Liste häufig verwendeter Begriffe in Adobe W
   <tr> 
    <td>[!UICONTROL Dokumentversion]</td> 
    <td> <p>Jedes Mal, wenn dasselbe Dokument in dasselbe Objekt hochgeladen wird, wird ihm eine Versionsnummer zugewiesen. Benutzer können mehrere Optionen für eine frühere Version eines Dokuments anzeigen und ändern.</p> <p>Weitere Informationen finden Sie unter <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">Dokumentversionen verwalten</a>.</p> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Fälligkeitsdatum]</td> 
+   <td> <p>Das Datum, an dem eine Aufgabe oder ein Problem abgeschlossen werden soll. Das Fälligkeitsdatum einer Aufgabe oder eines Problems ist dasselbe Datum wie das geplante Abschlussdatum.</p>
+    <p>Die Aufgabe und das Problem Fälligkeitsdatum sind in den Aufgaben- und Problemlisten und Berichten sichtbar.</p> 
+    <p>Siehe auch Geplantes Abschlussdatum in dieser Tabelle. 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Dauer]</td> 
    <td> <p>Das Zeitfenster, das für den Abschluss eines Aufgabenproblems oder Projekts zugewiesen wird (bestimmt durch die Anzahl der Tage zwischen dem geplanten Start von [!UICONTROL und dem geplanten Abschluss).</p> 

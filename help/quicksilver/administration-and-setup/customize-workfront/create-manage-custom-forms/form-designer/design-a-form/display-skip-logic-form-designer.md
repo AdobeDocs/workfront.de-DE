@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Wählen Sie ein Feld mit angewendeter Logik aus, um die vorhandenen Logikregeln 
 * Um eine Anzeigerlogik zu einem benutzerdefinierten Feld, Widget oder Abschnittsumbruch hinzuzufügen, muss mindestens ein Auswahlfeld (Optionsfelder, Dropdown-Menüs oder Kontrollkästchen) vor dem Feld im Formular positioniert werden.
 Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Sie können einem Widget oder einer Abschnittsumbruch keine Logik zum Überspringen hinzufügen. Sie können sie nur zu einem Multiple-Choice-Feld hinzufügen (Optionsfelder, Dropdown-Listen oder Kontrollkästchen).
-* Für Optionen eines Mehroptionen-Felds können Sie keine Anzeige- oder Auslassungslogik anwenden. Beispielsweise können Sie die Anzeige der Optionen eines Dropdown-Menüs, einer Kontrollkästchengruppe oder eines Optionsfelds nicht auf der Grundlage der Anzeige- oder Übersprunglogik eines anderen Felds einschränken.
+* Sie können keine Anzeige- oder Auslassungslogik anwenden, um die Optionen eines Felds mit mehreren Optionen ein- oder auszublenden. Sie können beispielsweise die Auswahlmöglichkeiten, die für ein Dropdown-Menü, eine Kontrollkästchen-Gruppe oder ein Optionsfeld angezeigt werden, nicht auf der Grundlage der Anzeige- oder Überspringen-Logik eines anderen Felds einschränken.
 * Sie können einem benutzerdefinierten Feld sowohl die Anzeigenlogik als auch die Logik überspringen, wenn Folgendes für das benutzerdefinierte Feld zutrifft:
 
    * Es handelt sich um ein Multiple-Choice-Feld (Optionsfelder, Dropdown-Listen oder Kontrollkästchen).
