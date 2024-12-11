@@ -6,9 +6,9 @@ description: Sie können Berechtigungen für ein von Ihnen erstelltes Objekt ode
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
@@ -89,6 +89,13 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
   >
   >* [Einen Plan im Szenario-Planer freigeben](../../scenario-planner/share-a-plan.md)
   >* [Ziel in Workfront freigeben](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+
+* Workfront sendet Benachrichtigungen an Benutzer, wenn Sie ein Objekt für sie freigeben. Benachrichtigungen werden gesendet, wenn beide Einstellungen aktiviert sind:
+
+   * Die E-Mail-Benachrichtigungen **Objektfreigabe für Benutzer** und **Objektfreigabe für Team** werden im Bereich &quot;Einrichtung&quot;von einem System- oder Gruppenadministrator aktiviert. Weitere Informationen finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   * Der **Jemand gibt ein Objekt für mich frei** und **Jemand teilt ein Objekt mit meinem Team** . Benachrichtigungen werden auf der Profilseite des Benutzers aktiviert. Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+  Die Einstellungen auf System- oder Gruppenebene müssen zuerst aktiviert werden, bevor Sie die Benachrichtigungseinstellungen für den Benutzer aktivieren können.
 
 ## Freigabebeschränkungen
 

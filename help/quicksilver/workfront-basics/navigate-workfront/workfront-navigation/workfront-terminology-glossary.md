@@ -6,9 +6,9 @@ description: Das [!DNL Adobe Workfront] Glossar listet häufig verwendete Begrif
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '20901'
+source-wordcount: '20875'
 ht-degree: 0%
 
 ---
@@ -1252,12 +1252,9 @@ Stündeinträge können in Workfront einen der folgenden Status aufweisen:
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Bibliotheksaufgabe]</td> 
-   <td>Eine Vorlage für eine einzelne Aufgabe, die für eine konsistente Benennung von [!UICONTROL Aufgaben] und [!UICONTROL Vorlagenaufgaben] in der gesamten Anwendung verwendet wird.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Lizenztyp]</td> 
    <td>Die Art der Lizenz, die einer [!UICONTROL Zugriffsstufe] zugewiesen wurde. Es handelt sich entweder um [!UICONTROL Full User], [!UICONTROL Limited User] oder [!UICONTROL Requester].</td> 
   </tr> 
