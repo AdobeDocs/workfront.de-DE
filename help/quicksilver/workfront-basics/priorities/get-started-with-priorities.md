@@ -5,13 +5,13 @@ description: Prioritäten sind ein optimiertes, intuitives Erlebnis, das auf Auf
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 3%
 
 ---
-
 
 # Erste Schritte mit [!DNL Priorities]
 
@@ -91,7 +91,6 @@ Finden Sie Ihre wichtigste Arbeit mit Filtern. Sie können Ihnen zugewiesene Auf
 
 Nach Filtern Ihrer Arbeit können Sie Elemente nach
 
-* Keine
 * Mein Fokus
 * Fällige Woche
 * Status
@@ -104,15 +103,16 @@ Weitere Informationen finden Sie unter [Filtern und Gruppieren Ihrer Arbeit in P
 &quot;Mein Fokus&quot;ist eine Spalte in der Arbeitsliste, mit der Sie Ihre Arbeit priorisieren können. Der Wert My Focus ist persönlich und hat keine Auswirkungen auf Projekt-, Aufgaben- oder Ausgabedaten. Sie können die folgenden Fokusebenen verwenden:
 
 * Dringend
-* Primäre
-* Sekundär
+* Hoch
 * Normal (Standard)
+* Niedrig
 
 Nachdem Sie Ihren Arbeitselementen Fokusebenen zugewiesen haben, können Sie die Spalte so sortieren, dass dringende Elemente oben in Ihrer Arbeitsliste angezeigt werden.
 
 Weitere Informationen finden Sie unter [Wichtige Arbeitselemente priorisieren](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### Verwenden der Kalenderansicht [!BADGE In Kürze verfügbar]{type=Informative}
 
@@ -141,6 +141,7 @@ Im Abschnitt Updates werden Systemaktualisierungen und bis zu 200 der neuesten U
 Weitere Informationen finden Sie unter [Hinzufügen und Anzeigen von Kommentaren in Prioritäten](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Zeit erfassen
 
@@ -149,6 +150,7 @@ Sie können die Arbeitszeit für Arbeitselemente protokollieren, um die Anzahl d
 Weitere Informationen finden Sie unter [Protokollzeit in Prioritäten](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Dateien hochladen
 
@@ -162,6 +164,7 @@ Laden Sie Dateien direkt in den Bereich &quot;Dokumente&quot;der Aufgabe oder de
 Weitere Informationen finden Sie unter [Hochladen von Dateien in Prioritätenlisten](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Dokumente anzeigen [!BADGE In Kürze verfügbar]{type=Informative}
 
@@ -197,5 +200,3 @@ Verwenden Sie die Funktion &quot;[!DNL Catch me up]&quot;, um zu sehen, was Sie 
 
 * Workfront-Administratoren können die Prioritäten derzeit nicht über die Layout-Vorlage anpassen.
 * Der Zugriff auf Aufgaben in Prioritäten erfolgt über verschiedene Registerkarten. In Zukunft werden weitere Registerkarten wie Dokumente, Unteraufgaben, Genehmigungen usw. hinzugefügt. Teilen Sie uns mit, dass Sie diese Elemente benötigen, indem Sie mithilfe der Schaltfläche **Feedback geben** Feedback senden.
-
-

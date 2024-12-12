@@ -5,15 +5,17 @@ description: Sie können die Spalten in der Arbeitsliste in Prioritäten anpasse
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
+source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-
 # Anpassen der Spalten der Prioritätenliste
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
 
 Sie können die Spalten in der Arbeitsliste in Prioritäten anpassen, um Ihre Arbeitsweise zu unterstützen.
 
@@ -59,7 +61,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-## Spalten aktivieren oder deaktivieren
+## Anpassen der Spalten der Prioritätenliste in der Produktion
+
+### Spalten aktivieren oder deaktivieren
 
 {{step1-to-priorities}}
 
@@ -67,7 +71,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    ![](assets/columns.png)
 1. Verwenden Sie die Umschalter, um Spalten in der Arbeitsliste zu aktivieren oder zu deaktivieren.
 
-## Neuanordnen der Spalten
+### Neuanordnen der Spalten
 
 {{step1-to-priorities}}
 
@@ -75,10 +79,37 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf das Symbol **Ziehen** und verschieben Sie die Spalte an die gewünschte Position. Das Verschieben von Spalten wird automatisch in der Arbeitsliste aktualisiert.
    ![](assets/reorder-columns.png)
 
-## Spaltenbreiten zurücksetzen
+### Spaltenbreiten zurücksetzen
 
 {{step1-to-priorities}}
 
 1. Klicken Sie rechts auf dem Bildschirm auf **Spalten** .
 1. Klicken Sie auf das Symbol **Mehr** ![](assets/more-icon.png) und wählen Sie **Spaltenbreiten zurücksetzen**.
    ![](assets/columns.png)
+
+<div class="preview">
+
+## Anpassen der Spalten der Prioritätenliste in der Vorschau
+
+### Spalten aktivieren oder deaktivieren
+
+{{step1-to-priorities}}
+
+1. Klicken Sie auf der linken Seite des Bildschirms auf **Spalten** .
+   ![](assets/columns-new.png)
+1. Verwenden Sie die Umschalter, um Spalten in der Arbeitsliste zu aktivieren oder zu deaktivieren.
+
+### Neuanordnen der Spalten
+
+{{step1-to-priorities}}
+
+1. Klicken Sie auf der linken Seite des Bildschirms auf **Spalten** .
+1. Klicken Sie auf das Symbol **Ziehen** und verschieben Sie die Spalte an die gewünschte Position. Das Verschieben von Spalten wird automatisch in der Arbeitsliste aktualisiert.
+   ![](assets/reorder-columns-new.png)
+
+>[!NOTE]
+>
+>Die Spalte &quot;Name&quot;ist fest und kann nicht verschoben werden.
+
+
+</div>

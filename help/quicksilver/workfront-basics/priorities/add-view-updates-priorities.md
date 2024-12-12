@@ -5,13 +5,13 @@ description: Sie können eine Aufgabe oder ein Problem aktualisieren, um andere 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # Hinzufügen und Anzeigen von Kommentaren zu Prioritäten
 
@@ -65,6 +65,7 @@ Sie können einen Kommentar aus der Arbeitsliste hinzufügen:
 1. Suchen Sie das Arbeitselement, das Sie aktualisieren möchten.
 1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf **Neues Update hinzufügen**.
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Beginnen Sie mit der Eingabe Ihres Kommentars.
 1. (Optional) Beginnen Sie im Feld **Personen oder Teams taggen** mit der Eingabe des Namens oder der E-Mail eines Benutzers oder eines Teams, das Sie in diesen Kommentar aufnehmen möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis, Links oder Bilder zu Ihrem Kommentar hinzuzufügen, um Ihren Inhalt zu verbessern.

@@ -5,13 +5,13 @@ description: Sie können Dateien aus der Prioritätenliste oder aus einzelnen Ar
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
 
 ---
-
 
 # Hochladen von Dateien in Prioritäten
 
@@ -54,6 +54,7 @@ Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, 
 
 1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf **Hochladen**.
    ![](assets/upload-file.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. (Optional) Wählen Sie einen Ordner aus.
 1. Ziehen Sie die Datei oder Befehl/Strg + V in den Arbeitsbereich, um sie aus der Zwischenablage einzufügen.
 oder

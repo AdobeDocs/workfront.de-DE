@@ -5,13 +5,13 @@ description: Sie können neue Aufgaben und Probleme direkt aus Prioritäten erst
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 3%
+source-wordcount: '241'
+ht-degree: 4%
 
 ---
-
 
 # Erstellen einer neuen Aufgabe oder eines neuen Problems in Prioritäten
 
@@ -69,6 +69,7 @@ So erstellen Sie eine Aufgabe oder ein Problem in einem Projekt:
 
 1. Klicken Sie oben rechts auf **Neu erstellen** .
    ![](assets/create-new.png)
+&lt;!—neuer Bildschirm für prod ![](assets/create-new--.png)—>
 1. Geben Sie die folgenden Informationen an:
 
    | Feld | Anleitung |
@@ -81,4 +82,3 @@ So erstellen Sie eine Aufgabe oder ein Problem in einem Projekt:
    | Fälligkeitsdatum (optional) | Wählen Sie ein Fälligkeitsdatum aus. |
 
 1. Klicken Sie auf **Erstellen**.
-

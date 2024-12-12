@@ -5,13 +5,13 @@ description: Sie können die Arbeitszeit für Arbeitselemente in Adobe Workfront
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 410963f404aa496b2ac4aa43098917d03fc1ca75
+exl-id: 5457f516-c213-4b82-b033-bc8db943a217
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
 
 ---
-
 
 # Protokollzeit in Prioritäten
 
@@ -61,6 +61,7 @@ Sie können die Zeit direkt über die Arbeitsliste protokollieren:
 
 1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf **Protokollzeit**.
    ![](assets/log-time.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Wählen Sie im Dropdown-Menü **Stündentyp** den entsprechenden Stundentyp aus. Stündungstypen sind verfügbar, je nachdem, was auf System-, Projekt- und Benutzerebene definiert wurde, wie unter Definieren von Stündentypen und -verfügbarkeit beschrieben.
 
 1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die manuelle Einstellung &quot;Auftragsrollen Stundeneinträgen zuweisen&quot;aktiviert hat, wählen Sie im Dropdownmenü eine Auftragsrolle aus. Die Rolle, die beim Zuweisen zum Arbeitselement angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen keine Rolle für das Objekt zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Wenn Ihnen keine Primäre Rolle zugewiesen ist, wird die Rolle &quot;Kein Auftrag&quot;angezeigt.
@@ -83,4 +84,3 @@ Sie können die Zeit in einem einzelnen Arbeitselement protokollieren:
 1. Geben Sie die Zeit ein, die Sie protokollieren möchten, und klicken Sie dann auf **Protokollzeit**.
 
    ![](assets/log-time-dialog.png)
-
