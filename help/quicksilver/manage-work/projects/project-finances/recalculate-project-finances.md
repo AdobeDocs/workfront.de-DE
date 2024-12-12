@@ -6,7 +6,7 @@ description: Die Finanzmittel werden für ein Projekt berechnet, da Änderungen 
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
+source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 Die Finanzmittel werden für ein Projekt berechnet, da Änderungen in den für das Projekt angemeldeten Stunden oder in den zur Berechnung der Kosten und Einnahmen verwendeten Raten auftreten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,6 +46,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Überlegungen zur Finanzberechnung in Adobe Workfront
@@ -58,13 +64,11 @@ Wenn sich die Rate eines Benutzers oder einer Rolle während der Lebensdauer ein
 * Wenn die Änderung vorgenommen wird, wird die aktualisierte Rate ab diesem Zeitpunkt verwendet, da Stunden protokolliert und die Finanzinformationen berechnet werden. Eine Änderung der Rate hat keinen Einfluss darauf, wie die Dinge vor der Änderung berechnet wurden. Für alle vorhandenen Stunden wird der alte Satz zur Berechnung der Finanzinformationen verwendet.
 * Mit der Option Finanzen neu berechnen können Sie Adobe Workfront zwingen, die neue Rate rückwirkend für alle bisher angemeldeten Stunden zu verwenden. Dies zwingt Workfront dazu, alle zuvor eingegebenen Stunden, geplanten Kosten und Einnahmen entsprechend den neuen Ratsinformationen rückwirkend neu zu berechnen.
 
-Der Berichtstyp Projekt (Finanzdaten) wird vor dem Laden der Daten nicht automatisch neu berechnet. Um die Daten dieses Berichtstyps zu aktualisieren, müssen Sie die Finanzen für einzelne Projekte manuell neu berechnen.
+Der Berichtstyp Projekt (Finanzdaten) führt nicht automatisch eine Neuberechnung Ihrer Finanzdaten durch. Um die Daten dieses Berichtstyps zu aktualisieren, müssen Sie die Finanzen für einzelne Projekte manuell neu berechnen.
 
 >[!CAUTION]
 >
 >Vor der manuellen Neuberechnung der Finanzen für ein bestimmtes Projekt möchten Sie möglicherweise alle Finanzdaten beibehalten, die bereits zu einem früheren Zeitpunkt berechnet wurden. Es wird empfohlen, die Option &quot;Finanzen neu berechnen&quot;nur zu verwenden, wenn Sie sicher sind, dass Sie keine Änderungen an vorhandenen Informationen vornehmen, oder nur, wenn solche Änderungen gewünscht werden.
->
->Beachten Sie, dass beim Ausführen eines Berichts über ein Projekt (Finanzdaten) Ihre Finanzdaten neu berechnet werden. Daher sollten Sie dieselben Überlegungen anstellen, bevor Sie den Bericht ausführen.
 
 ## Finanzielle Daten für Aufgaben mit vorhandenen Stunden beibehalten {#preserve-financial-data-for-tasks-with-existing-hours}
 
