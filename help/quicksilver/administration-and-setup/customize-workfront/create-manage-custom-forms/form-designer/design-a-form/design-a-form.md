@@ -1,41 +1,41 @@
 ---
-title: Benutzerdefiniertes Formular erstellen
+title: Erstellen eines benutzerdefinierten Formulars
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
+description: Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten über diese Objekte zu erfassen.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
 source-wordcount: '6534'
 ht-degree: 5%
 
 ---
 
-# Benutzerdefiniertes Formular erstellen
+# Erstellen eines benutzerdefinierten Formulars
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-Sie können ein benutzerdefiniertes Formular mit dem Formularentwickler in Adobe Workfront entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
+Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer in Adobe Workfront entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten über diese Objekte zu erfassen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
-   <td>Alle</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -45,98 +45,98 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Administrativer Zugriff auf benutzerdefinierte Formulare</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen eines benutzerdefinierten Formulars
+## Beginnen Sie mit dem Entwurf eines benutzerdefinierten Formulars
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** .
+1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
 
 1. Klicken Sie auf **Neues benutzerdefiniertes Formular.**
-1. Wählen Sie die Objekttypen aus, an die das benutzerdefinierte Formular angehängt werden soll, und klicken Sie dann auf **Weiter**.
+1. Wählen Sie aus, an welche Objekttypen Sie das benutzerdefinierte Formular anhängen möchten, und klicken Sie dann auf **Weiter**.
 
    ![](assets/choose-object-type.jpg)
 
-1. Geben Sie im Bereich **Titel ist erforderlich** den Titel des benutzerdefinierten Formulars ein.
-1. (Optional) Wenn Sie weitere Objekttypen zum Formular hinzufügen möchten, damit es an weitere Objekte angehängt werden kann, klicken Sie nach **Objekttypen** auf das Symbol **Hinzufügen** ![](assets/add-objects-icon.png) und wählen Sie dann im angezeigten Menü den gewünschten Typ aus. Sie können dies wiederholen, um beliebig viele Objekttypen hinzuzufügen.
+1. Geben **im Bereich „Titel ist erforderlich** den benutzerdefinierten Formulartitel ein.
+1. (Optional) Wenn Sie dem Formular weitere Objekttypen hinzufügen möchten, damit es mit weiteren Objekten verbunden werden kann, klicken Sie auf das **Hinzufügen**-Symbol ![](assets/add-objects-icon.png) nach **Objekttypen** und wählen Sie dann im angezeigten Menü den gewünschten Typ aus. Sie können dies wiederholen, um beliebig viele Objekttypen hinzuzufügen.
 
-   Sie können auch auf das X für einen Objekttyp klicken, um ihn aus dem Formular zu löschen.
+   Sie können auch auf das X auf einem Objekttyp klicken, um ihn aus dem Formular zu löschen.
 
    >[!CAUTION]
    >
-   >Beim Löschen eines benutzerdefinierten Formulars werden auch alle benutzerdefinierten Daten zu den mit dem Formular verknüpften Objekten gelöscht. Die gelöschten Daten können nicht wiederhergestellt werden. Ziehen Sie stattdessen die Deaktivierung eines benutzerdefinierten Formulars in Betracht. Wenn Sie ein benutzerdefiniertes Formular deaktivieren, das Sie nicht mehr verwenden, behalten Sie alle zugehörigen historischen Daten bei.
+   >Beim Löschen eines benutzerdefinierten Formulars werden auch alle benutzerdefinierten Daten in den mit dem Formular verknüpften Objekten gelöscht. Die gelöschten Daten können nicht wiederhergestellt werden. Deaktivieren Sie stattdessen ggf. ein benutzerdefiniertes Formular. Wenn Sie ein benutzerdefiniertes Formular deaktivieren, das Sie nicht mehr verwenden, behalten Sie alle zugehörigen historischen Daten bei.
    >
    >Weitere Informationen finden Sie unter [Hinzufügen oder Löschen von Objekttypen aus einem vorhandenen benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) und [Deaktivieren oder Reaktivieren eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md).
 
 
-1. Als Nächstes können Sie Ihrem benutzerdefinierten Formular Felder hinzufügen. Siehe die folgenden Abschnitte:
-   * [Vorhandenes Feld oder Widget in einem anderen benutzerdefinierten Formular wiederverwenden](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
-   * [Hinweise zu Feldnamen und -bezeichnungen](#notes-on-field-names-and-labels)
+1. Als Nächstes können Sie damit beginnen, Ihrem benutzerdefinierten Formular Felder hinzuzufügen. Siehe die folgenden Abschnitte:
+   * [Vorhandenes Feld oder Widget wiederverwenden, das bereits in einem anderen benutzerdefinierten Formular verwendet wurde](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Hinweise zu Feldnamen und Kennzeichnungen](#notes-on-field-names-and-labels)
    * [Textfelder hinzufügen](#add-text-fields)
    * [Berechnete Felder hinzufügen](#add-calculated-fields)
-   * [Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzufügen](#add-radio-buttons-checkboxes-and-dropdowns)
-   * [Typevorschau- und Datumsfelder hinzufügen](#add-typeahead-and-date-fields)
-   * [Externe Suchfelder hinzufügen](#add-external-lookup-fields)
+   * [Hinzufügen von Optionsfeldern, Kontrollkästchen-Gruppen und Dropdown-Listen](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Felder für automatische Textvervollständigung und Datum hinzufügen](#add-typeahead-and-date-fields)
+   * [Hinzufügen externer Suchfelder](#add-external-lookup-fields)
    * [Bilder, PDF und Videos hinzufügen](#add-images-pdfs-and-videos)
-   * [Hinzufügen nativer Workfront-Felder](#add-workfront-native-fields)
-   * [Hinzufügen von Adobe XD-Dateien](#add-adobe-xd-files)
-   * <span class="preview">[Planungsverbindungsfelder hinzufügen](#add-planning-connection-fields)</span>
+   * [Native Workfront-Felder hinzufügen](#add-workfront-native-fields)
+   * [Adobe XD-Dateien hinzufügen](#add-adobe-xd-files)
+   * <span class="preview">[Planungs-Verbindungsfelder hinzufügen](#add-planning-connection-fields)</span>
 
-## Hinzufügen neuer oder vorhandener Felder zu Ihrem benutzerdefinierten Formular
+## Hinzufügen neuer oder vorhandener Felder zum benutzerdefinierten Formular
 
-Sie können beim Entwerfen Ihres benutzerdefinierten Formulars neue oder vorhandene Felder verwenden.
+Sie können neue oder vorhandene Felder beim Entwerfen Ihres benutzerdefinierten Formulars verwenden.
 
-Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten links zeigt an, wie viele Felder im Formular verwendet werden, und er ist immer sichtbar, wenn Sie im Formularentwickler scrollen.
+Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten links zeigt an, wie viele Felder im Formular verwendet werden. Er ist immer sichtbar, wenn Sie im Formular-Designer scrollen.
 
-### Vorhandenes Feld oder Widget in einem anderen benutzerdefinierten Formular wiederverwenden
+### Vorhandenes Feld oder Widget wiederverwenden, das bereits in einem anderen benutzerdefinierten Formular verwendet wurde
 
-1. Klicken Sie oben links im Bildschirm auf **Feldbibliothek**.
+1. Klicken Sie oben links im Bildschirm auf &quot;**&quot;**.
 
-1. Ziehen Sie das Feld oder Widget in das benutzerdefinierte Formular.
+1. Ziehen Sie das Feld oder Widget an die Stelle im benutzerdefinierten Formular, an der Sie es haben möchten.
 1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
 
    >[!NOTE]
    >
-   >Sie können bis zu 500 Felder und Widgets in einem einzelnen benutzerdefinierten Formular hinzufügen. Je nach Komplexität eines Formulars kann die Leistung jedoch beeinträchtigt werden, wenn mehr als 100 Formulare vorhanden sind.
+   >Sie können bis zu 500 Felder und Widgets in einem einzelnen benutzerdefinierten Formular hinzufügen. Je nach Komplexität eines Formulars kann es jedoch zu Leistungseinbußen kommen, wenn mehr als 100 auf dem Formular vorhanden sind.
    >
    >
-   >Beispiele für komplexe Formulare sind Formulare mit kaskadierenden Parametern, berechnete benutzerdefinierte Datenfelder und Optionen mit mehreren Werten in einem einzelnen Feld.
+   >Beispiele für komplexe Formulare sind Formulare mit kaskadierenden Parametern, berechneten benutzerdefinierten Datenfeldern und mehreren Wertoptionen in einem einzigen Feld.
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie auf **Speichern und schließen**.
+   Klicken Sie **Speichern und schließen**.
 
-### Hinweise zu Feldnamen und -bezeichnungen {#notes-on-field-names-and-labels}
+### Hinweise zu Feldnamen und Kennzeichnungen {#notes-on-field-names-and-labels}
 
-Die **Beschriftung** ist für die meisten Felder verfügbar. Es handelt sich um eine beschreibende Bezeichnung, die über dem Feld oder Widget im benutzerdefinierten Formular angezeigt wird. Sie können den Titel jederzeit ändern.
+Der **label** ist für die meisten Felder verfügbar. Dies ist eine beschreibende Beschriftung, die über dem Feld oder Widget im benutzerdefinierten Formular angezeigt wird. Sie können den Titel jederzeit ändern.
 
 >[!NOTE]
 >
->Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt.
+>Verwenden Sie in dieser Beschriftung keine Sonderzeichen. Sie werden in Berichten nicht korrekt angezeigt.
 
-Für jedes Feld ist ein **Name** erforderlich. So identifiziert das System das benutzerdefinierte Feld, wenn Sie es zu verschiedenen Bereichen in Workfront hinzufügen, z. B. Berichten, Startseite und API-Interaktionen. Wenn Sie das Feld oder Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.
+Für **Feld** ein „Name“ erforderlich. Mit diesem Namen identifiziert das System das benutzerdefinierte Feld, wenn Sie es verschiedenen Bereichen in Workfront hinzufügen, z. B. Berichten, der Startseite und API-Interaktionen. Wenn Sie das Feld oder Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Beschriftung und Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.
 
 Jeder benutzerdefinierte Feldname muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie ein bereits für ein anderes benutzerdefiniertes Formular erstelltes Formular wiederverwenden.
 
 >[!NOTE]
 >
->Obwohl dies möglich ist, sollten Sie diesen Namen nicht ändern, nachdem Sie oder andere Benutzer mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Wenn dies der Fall ist, erkennt das System das benutzerdefinierte Feld nicht mehr, in dem es jetzt in anderen Bereichen von Workfront referenziert werden kann.
->Wenn Sie beispielsweise das benutzerdefinierte Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es nicht im Bericht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter Verwendung des neuen Namens erneut hinzu.
+>Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzende mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Andernfalls erkennt das System das benutzerdefinierte Feld nicht mehr, in dem jetzt in anderen Bereichen von Workfront darauf verwiesen werden kann.
+>Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es im Bericht nicht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter dem neuen Namen erneut hinzu.
 >
->Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wurde.
+>Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wird.
 >
->Es wird empfohlen, das Punkt-/Punkt-Zeichen nicht im benutzerdefinierten Feldnamen zu verwenden, um Fehler bei der Verwendung des Felds in verschiedenen Bereichen von Workfront zu vermeiden.
+>Es wird empfohlen, im benutzerdefinierten Feldnamen keinen Punkt bzw. Punkt zu verwenden, um Fehler zu vermeiden, wenn das Feld in verschiedenen Bereichen von Workfront verwendet wird.
 
 Die folgenden Sonderzeichen werden in benutzerdefinierten Feldbezeichnungen und -namen nicht unterstützt.
 
@@ -156,27 +156,27 @@ Die folgenden Sonderzeichen werden in benutzerdefinierten Feldbezeichnungen und 
 
 Sie können einem benutzerdefinierten Formular mehrere verschiedene Textfelder hinzufügen.
 
-+++ **Erweitern, um Beschreibungen der verfügbaren Textfelder anzuzeigen**
++++ **Erweitern Sie , um Beschreibungen der verfügbaren Textfelder anzuzeigen**
 
-* **Einzeiliges Textfeld**: Ermöglicht Benutzern die Eingabe einer einzelnen Textzeile in das Feld.
-* **Absatzfeld**: Ermöglicht Benutzern die Eingabe mehrerer Textzeilen in das Feld.
-* **Textfeld mit Formatierung**: Ermöglicht dem Benutzer die Eingabe mehrerer Textzeilen in das Feld und die Formatierung des Textes mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Eine Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.
+* **Einzeiliges Textfeld**: Ermöglicht Benutzern, eine einzelne Textzeile in das Feld einzugeben.
+* **Absatzfeld**: Ermöglicht Benutzern, mehrere Textzeilen in das Feld einzugeben.
+* **Textfeld mit Formatierung**: Ermöglicht Benutzern, mehrere Textzeilen in das Feld einzugeben und den Text mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierungen, Hyperlinks und Blockanführungszeichen zu formatieren. Eine Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.
 
-  Dieser benutzerdefinierte Feldtyp wird in Filtern für Listen und Berichte nicht unterstützt.
+  Dieser benutzerdefinierte Feldtyp wird in Filtern in Listen und Berichten nicht unterstützt.
 
-  Informationen zum Zugriff auf dieses Feld über die API finden Sie unter [Speicherung von Rich-Text-Feldern in der API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+  Informationen zum Zugriff auf dieses Feld über die API finden Sie unter [Rich-Text-Feldspeicher in der API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
-  >Textfelder mit Formatierung sind nicht für mobile Workfront-Apps verfügbar (in den kommenden Versionen verfügbar).
+  >Textfelder mit Formatierung sind für Workfront Mobile Apps nicht verfügbar (in kommenden Versionen verfügbar).
 
-* **Beschreibender Text**: Ermöglicht Ihnen das Einschließen von Anweisungen und das Verknüpfen zu Seiten außerhalb von Workfront.
+* **Beschreibungstext**: Ermöglicht das Einfügen von Anweisungen und Links zu Seiten außerhalb von Workfront.
 
 +++
 
 Hinzufügen eines Textfelds:
 
-1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Textfelder und ziehen Sie es in einen Bereich auf der Arbeitsfläche:
+1. Suchen Sie auf der linken Seite des Bildschirms eines der folgenden Textfelder und ziehen Sie es in einen Bereich auf der Arbeitsfläche:
 
    * Einzeiliger Text
    * Absatz
@@ -185,7 +185,7 @@ Hinzufügen eines Textfelds:
 
    ![](assets/drag-field-to-section.png)
 
-1. Konfigurieren Sie auf der rechten Bildschirmseite die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
+1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
 
    <table>
     <tr>
@@ -195,7 +195,7 @@ Hinzufügen eines Textfelds:
     </tr>
     <tr>
     <td>Größe</td>
-    <td><p>Ändern Sie die Größe der Textfelder im Formular.<p>
+    <td><p>Ändern der Größe der Textfelder im Formular.<p>
    </td>
     <td><ul>
     <li>Einzeiliger Text</li>
@@ -206,8 +206,8 @@ Hinzufügen eines Textfelds:
     </tr>
     <tr>
     <td>Label</td>
-    <td><p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.<p>
-    <p>WICHTIG: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p></td>
+    <td><p>(Erforderlich) Geben Sie einen beschreibenden Titel ein, der über dem Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.<p>
+    <p>WICHTIG: Verwenden Sie in dieser Kennzeichnung keine Sonderzeichen. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p></td>
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
@@ -216,8 +216,8 @@ Hinzufügen eines Textfelds:
     </tr>
     <tr>
      <td>Name</td>
-    <td><p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
-    <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p>
+    <td><p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Beschriftung und Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
+    <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p>
     </td>
     <td><ul>
     <li>Einzeiliger Text</li>
@@ -228,7 +228,7 @@ Hinzufügen eines Textfelds:
     </tr>
     <tr>
     <td>Anleitung</td>
-    <td>Geben Sie weitere Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
+    <td>Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -239,11 +239,11 @@ Hinzufügen eines Textfelds:
     </tr>
     <tr>
     <td>Format</td>
-    <td><p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p> <p><b>NOTE</b>:   
+    <td><p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p> <p><b>HINWEIS</b>:   
     <ul> 
-    <li>Dieses Feld kann nach dem Speichern des Formulars nicht mehr bearbeitet werden. Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlenformat oder ein Währungsformat auswählen.</li> 
-    <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li>
-    <li>Die Zeichenbeschränkung für Zahlenfelder beträgt 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und die Begrenzung zu vermeiden.</li>
+    <li>Dieses Feld kann nach dem Speichern des Formulars nicht mehr bearbeitet werden. Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlen- oder Währungsformat auswählen.</li> 
+    <li>Wenn Sie Zahl oder Währung auswählen, kürzt das System automatisch Zahlen, die mit 0 beginnen.</li>
+    <li>Die Zeichenbeschränkung für Zahlenfelder ist 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und das Limit zu vermeiden.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Einzeiliger Text</li>
@@ -252,7 +252,7 @@ Hinzufügen eines Textfelds:
     </tr>
     <tr>
     <td>Anzeigetyp</td>
-    <td>Zwischen einzelnen Zeilen- und Absatztextfeldern wechseln.</td>
+    <td>Zwischen einzeiligen und Absatztextfeldern wechseln.</td>
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
@@ -260,7 +260,7 @@ Hinzufügen eines Textfelds:
     </tr>
     <tr>
     <td>Hyperlink</td>
-    <td> Wenn Sie einen Hyperlink auf den eingegebenen Text anwenden möchten, fügen Sie ihn hier hinzu. Der beschreibende Text wird als Link auf Objekten angezeigt, an die das Formular angehängt ist.</td>
+    <td> Wenn Sie einen Hyperlink auf den eingegebenen beschreibenden Text anwenden möchten, fügen Sie ihn hier hinzu. Der beschreibende Text wird als Link auf Objekten angezeigt, an die das Formular angehängt ist.</td>
     <td><ul><li>Beschreibender Text</li></ul></td>
     </tr>
     <tr> 
@@ -275,40 +275,40 @@ Hinzufügen eines Textfelds:
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
-   ![Kopiersymbol](assets/copy-field.png)
+   ![copy icon](assets/copy-field.png)
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie auf **Speichern und schließen**.
+   Klicken Sie **Speichern und schließen**.
 
 ### Berechnete Felder hinzufügen
 
 In einem benutzerdefinierten Formular können Sie ein berechnetes benutzerdefiniertes Feld hinzufügen, das vorhandene Daten verwendet, um neue Daten zu generieren, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird.
 
-Informationen zum Hinzufügen eines berechneten Felds finden Sie unter [Hinzufügen berechneter Felder mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Informationen zum Hinzufügen eines berechneten Felds finden Sie unter [Hinzufügen berechneter Felder mit dem Formular-Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-### Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzufügen
+### Hinzufügen von Optionsfeldern, Kontrollkästchen-Gruppen und Dropdown-Listen
 
-Sie können einem benutzerdefinierten Formular Optionsfelder, Kontrollkästchengruppen, Dropdown-Menüs und Dropdown-Menüs mit Mehrfachauswahl hinzufügen.
+Sie können Optionsfelder, Kontrollkästchen-Gruppen, Dropdown-Listen und Dropdown-Listen mit Mehrfachauswahl zu einem benutzerdefinierten Formular hinzufügen.
 
-+++ **Erweitern, um Beschreibungen der verfügbaren Felder anzuzeigen**
++++ **Erweitern , um Beschreibungen der verfügbaren Felder anzuzeigen**
 
 * **Optionsfelder**: Erfordert, dass Benutzer nur eine Auswahl auswählen.
-* **Kontrollkästchengruppe**: Ermöglicht Benutzern die Auswahl mehrerer Auswahlmöglichkeiten.
+* **Kontrollkästchen-Gruppe**: Ermöglicht Benutzern die Auswahl mehrerer Auswahlmöglichkeiten.
 * **Dropdown-Liste mit Einzelauswahl**: Bietet eine Liste mit Dropdown-Optionen.
-* **Dropdown für mehrere Auswahlen**: Ermöglicht Benutzern die Auswahl mehrerer Auswahlmöglichkeiten aus einer Dropdown-Liste.
+* **Mehrfachauswahl-Dropdown**: Ermöglicht Benutzern die Auswahl mehrerer Auswahlmöglichkeiten aus einer Dropdown-Liste.
 
 +++
 
 >[!NOTE]
 >
->Felder, die mehrere Auswahlmöglichkeiten zulassen, wie z. B. die Checkbox-Gruppe und das Dropdown-Menü mit mehreren Auswahlen, sind in Berichten schwer zu grafisch und gruppieren. Um eine einfachere Diagrammerstellung und Gruppierung in Berichten zu ermöglichen, können Sie für jede Auswahl separate Felder erstellen (z. B. ein einzeiliges Textfeld).
+>Felder, die mehrere Auswahlmöglichkeiten zulassen, z. B. die Kontrollkästchen-Gruppe und das Mehrfachauswahl-Dropdown-Menü, sind in Berichten schwer zu kartieren und zu gruppieren. Um Diagramme und Gruppierungen in Berichten zu erleichtern, können Sie für jede Auswahl separate Felder erstellen (z. B. ein einzeiliges Textfeld).
 
 So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
 
-1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Suchen Sie auf der linken Seite des Bildschirms eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    * Optionsschaltflächen
    * Kontrollkästchen-Gruppe
@@ -317,7 +317,7 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
 
    ![Ziehen Sie ein Feld auf die Arbeitsfläche](assets/drag-field-to-section.png)
 
-1. Konfigurieren Sie auf der rechten Bildschirmseite die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
+1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -328,7 +328,7 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </tr>
     <tr> 
      <td role="rowheader">Label</td> 
-     <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: </p> <p>Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td> 
+     <td> <p>(Erforderlich) Geben Sie einen beschreibenden Titel ein, der über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: </p> <p>Verwenden Sie in dieser Beschriftung keine Sonderzeichen. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p> </td> 
      <td><ul>
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
@@ -338,8 +338,8 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
      </tr> 
      <tr> 
     <td role="rowheader">Name</td> 
-     <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> 
-    <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td>
+     <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Beschriftung und Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> 
+    <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p> </td>
      <td><ul>
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
@@ -349,7 +349,7 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </tr> 
     <tr> 
     <td role="rowheader">Anleitung</td> 
-    <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> 
+    <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> 
     <p>  <img src="assets/instructions-form-designer.png"> </p>
     </td> 
     <td><ul>
@@ -361,11 +361,11 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </tr> 
     <tr> 
     <td role="rowheader">Format</td> 
-    <td> <p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p> <p><b>NOTE</b>:   
+    <td> <p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p> <p><b>HINWEIS</b>:   
      <ul> 
-    <li>Dieses Feld kann nach dem Speichern des Formulars nicht mehr bearbeitet werden. Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlenformat oder ein Währungsformat auswählen.<br></li> 
-    <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li>
-    <li>Die Zeichenbeschränkung für Zahlenfelder beträgt 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und die Begrenzung zu vermeiden.</li>
+    <li>Dieses Feld kann nach dem Speichern des Formulars nicht mehr bearbeitet werden. Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlen- oder Währungsformat auswählen.<br></li> 
+    <li>Wenn Sie Zahl oder Währung auswählen, kürzt das System automatisch Zahlen, die mit 0 beginnen.</li>
+    <li>Die Zeichenbeschränkung für Zahlenfelder ist 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und das Limit zu vermeiden.</li>
      </ul></p></td> 
      <td><ul>
     <li>Optionsschaltflächen</li>
@@ -376,7 +376,7 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </tr> 
     <tr> 
      <td role="rowheader">Anzeigetyp</td> 
-    <td>Wechseln Sie zwischen Optionsfeldern, Kontrollkästchengruppe, Dropdown-Liste mit Einzelauswahl oder Dropdown-Liste mit Mehrfachauswahl für das Feld.</td> 
+    <td>Wechseln Sie zwischen Optionsfeldern, Kontrollkästchen-Gruppen, Einzelauswahl-Dropdown-Listen oder Mehrfachauswahl-Dropdown-Listen für das Feld.</td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
     <li>Kontrollkästchen-Gruppe</li>
@@ -398,23 +398,23 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     <td role="rowheader">Auswahl </td> 
     <td> 
     <ol> 
-    <li> <p>Klicken Sie auf <b>Optionen</b> und aktivieren Sie dann eine der folgenden Optionen:</p> 
+    <li> <p>Klicken Sie <b>Optionen</b> und aktivieren Sie dann einen der folgenden Schritte:</p> 
     <ul> 
     <li><strong>Werte anzeigen</strong>: Zeigt die Werte jeder Auswahl im Feld an. Der Titel jeder Auswahl wird standardmäßig angezeigt.</li> 
-     <li><strong>Sortieroptionen A-Z</strong>: Sortiert die Auswahlmöglichkeiten, die Sie dem Feld alphabetisch hinzufügen.</li> 
+     <li><strong>Auswahl A-Z sortieren</strong>: Sortiert die Auswahlmöglichkeiten, die Sie dem Feld hinzufügen.</li> 
     </ul> 
     </li> 
-    <li> <p>Klicken Sie für jede Auswahlmöglichkeit, die Sie für den Benutzer hinzufügen, auf das Zahnradsymbol <img src="assets/gear-icon-settings.png"> und wählen Sie dann eine der folgenden Optionen aus:</p> 
+    <li> <p>Klicken Sie für jede Auswahl, die Sie dem Benutzer hinzufügen, auf das Zahnradsymbol <img src="assets/gear-icon-settings.png"> und wählen Sie dann eine der folgenden Optionen aus:</p> 
     <ul> 
-    <li><strong>Standardmäßig auswählen</strong>: Wählen Sie im Feld standardmäßig die Auswahl aus.</li> 
-    <li> <p><strong>Auswahl ausblenden</strong>: Blendet die Auswahl im Feld aus. Ausgeblendete Optionen stehen in Berichten weiterhin zur Verfügung.</p> </li> 
-    <li> <p><strong>Auswahl entfernen</strong>: Entfernt die Auswahl aus dem Feld.</p> <p><b>WARNUNG</b>: Wenn Sie aktuelle Objekte haben, die diese Auswahl verwenden, entfernen Sie sie nicht aus dem Feld. Wenn Sie sie entfernen, gehen historische Daten verloren. Wählen Sie stattdessen die Option aus, um sie auszublenden. Dies verhindert, dass Benutzer sie in Zukunft auswählen.</p> </li> 
+    <li><strong>Standardmäßig auswählen</strong>: Wählen Sie im Feld die Standardauswahl aus.</li> 
+    <li> <p><strong>Auswahl ausblenden</strong>: Blendet die Auswahl im Feld aus. Ausgeblendete Auswahlmöglichkeiten bleiben in Berichten verfügbar.</p> </li> 
+    <li> <p><strong>Auswahl entfernen</strong>: Entfernen der Auswahl aus dem Feld.</p> <p><b>WARNUNG</b>: Wenn Sie aktuelle Objekte haben, die diese Auswahl verwenden, entfernen Sie sie nicht aus dem Feld. Durch Entfernen gehen historische Daten verloren. Wählen Sie stattdessen die Option aus, um sie auszublenden, sodass die Benutzer sie in Zukunft nicht mehr auswählen können.</p> </li> 
     </ul> 
      </li> 
     </ol>
 
-   <p><b>NOTE:</b></p>
-    <p>Es gibt keine Beschränkung für die Anzahl der Auswahlmöglichkeiten. </p>    
+   <p><b>HINWEIS:</b></p>
+    <p>Es gibt keine Begrenzung dafür, wie viele Auswahlmöglichkeiten Sie auswählen können. </p>    
     </td> 
     <td><ul>
     <li>Optionsschaltflächen</li>
@@ -433,21 +433,21 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
-   ![Kopiersymbol](assets/copy-field.png)
+   ![copy icon](assets/copy-field.png)
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie auf **Speichern und schließen**.
+   Klicken Sie **Speichern und schließen**.
 
-### Typevorschau- und Datumsfelder hinzufügen
+### Felder für automatische Textvervollständigung und Datum hinzufügen
 
-Sie können einem benutzerdefinierten Formular Typeahead- und Datumsfelder hinzufügen.
+Sie können einem benutzerdefinierten Formular Felder für automatische Textvervollständigung und Datum hinzufügen.
 
-+++ **Erweitern, um Beschreibungen der verfügbaren Felder anzuzeigen**
++++ **Erweitern , um Beschreibungen der verfügbaren Felder anzuzeigen**
 
-* **typahead**: Ermöglicht Benutzern die Eingabe des Namens eines Objekts, das in Workfront vorhanden ist. Eine Liste mit Vorschlägen wird angezeigt, wenn der Benutzer mit der Eingabe beginnt. Dieser Feldtyp unterstützt die folgenden Objekte:
+* **typeahead**: Ermöglicht Benutzern, den Namen eines Objekts einzugeben, das in Workfront vorhanden ist. Eine Liste mit Vorschlägen wird angezeigt, wenn Benutzende mit der Eingabe beginnen. Dieser Feldtyp unterstützt die folgenden Objekte:
    * Benutzerin oder Benutzer
    * Gruppe
    * Aufgabengebiet
@@ -457,20 +457,20 @@ Sie können einem benutzerdefinierten Formular Typeahead- und Datumsfelder hinzu
    * Team
    * Vorlage
    * Firma
-* **Datum**: Zeigt einen Kalender an, in dem Benutzer Datum und Uhrzeit auswählen können.
+* **Datum**: Zeigt einen Kalender an, in dem Benutzer ein Datum und eine Uhrzeit auswählen können.
 
 +++
 
-So fügen Sie Eingabe- und Datumsfelder hinzu:
+So fügen Sie Felder für automatische Textvervollständigung und Datum hinzu:
 
-1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Suchen Sie auf der linken Seite des Bildschirms eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    * Typeahead
    * Datum
 
    ![](assets/drag-field-to-section.png)
 
-1. Konfigurieren Sie auf der rechten Bildschirmseite die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
+1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -481,7 +481,7 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
     </tr>
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie einen beschreibenden Titel ein, der über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Verwenden Sie in dieser Kennzeichnung keine Sonderzeichen. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
     <li>Datum</li>
@@ -489,8 +489,8 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> 
-      <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td>
+      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Beschriftung und Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> 
+      <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p> </td>
     <td><ul>
     <li>Typeahead</li>
     <li>Datum</li>
@@ -498,7 +498,7 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
      </tr> 
      <tr> 
       <td role="rowheader">Anleitung</td> 
-      <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> 
+      <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
          <td><ul>
@@ -508,17 +508,17 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
      </tr> 
      <tr> 
       <td role="rowheader">Tageszeit anzeigen</td> 
-      <td>Aktivieren Sie diese Option, wenn Sie die Tageszeit zusammen mit dem Datum im Feld anzeigen möchten.</td> 
+      <td>Wählen Sie diese Option aus, wenn Sie die Tageszeit zusammen mit dem Datum im Feld anzeigen möchten.</td> 
          <td><ul>
     <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Referenzierter Objekttyp</td> 
-      <td> <p>Wählen Sie den Objekttyp aus, den Sie mit dem Feld verknüpfen möchten.</p> <p>Nachdem Sie auf Übernehmen oder Speichern+Schließen geklickt haben, können Sie den Objekttyp für das Feld nicht mehr ändern.</p> <p><b>NOTE</b>:   
+      <td> <p>Wählen Sie den Objekttyp aus, den Sie mit dem Feld verknüpfen möchten.</p> <p>Nachdem Sie auf Anwenden oder Speichern+Schließen geklickt haben, können Sie den Objekttyp für das Feld nicht mehr ändern.</p> <p><b>HINWEIS</b>:   
         <ul> 
-         <li>Wenn Ihr Workfront-Administrator den Namen für Portfolios, Programme oder Projekte in der Benutzeroberfläche von Workfront angepasst hat, wird der standardmäßige Workfront-Name für das Objekt in dieser Dropdown-Liste und nicht der benutzerdefinierte Name angezeigt. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie Hilfe dazu benötigen.<br></li> 
-         <li>Die folgenden Objekttypen werden in den mobilen Apps von iOS und Android Workfront unterstützt: Benutzer, Unternehmen, Gruppe, Auftragsrolle, Portfolio, Programm, Projekt und Vorlage.</li> 
+         <li>Wenn der Workfront-Administrator bzw. die Administratorin den Namen für Portfolios, Programme oder Projekte in der Workfront-Benutzeroberfläche angepasst hat, wird in dieser Dropdown-Liste der standardmäßige Workfront-Name für das Objekt und nicht der benutzerdefinierte Name angezeigt. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie Hilfe benötigen.<br></li> 
+         <li>Die folgenden Objekttypen werden in iOS und Android Workfront Mobile Apps unterstützt: Benutzer, Unternehmen, Gruppe, Aufgabengebiet, Portfolio, Programm, Projekt und Vorlage.</li> 
         </ul> </p> </td> 
          <td><ul>
     <li>Typeahead</li>
@@ -526,16 +526,16 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
      </tr>
      <tr>
       <td role="rowheader">Filter hinzufügen</td>
-      <td><p>Fügen Sie einen Filter für einen Objekttyp hinzu, um die Objekte zu beschränken, die Benutzer bei der Verwendung des Felds auswählen können. </p> <p>Sie können beispielsweise ein Feld so einschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
+      <td><p>Fügen Sie einen Filter für einen Objekttyp hinzu, um die Objekte zu begrenzen, die Benutzer auswählen können, wenn sie das Feld verwenden. </p> <p>Sie können beispielsweise ein Feld so beschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
        <ul> 
         <li>Sie gehören zu einer oder mehreren Gruppen, die Sie angeben</li> 
-        <li>Sie sind mit einer von Ihnen angegebenen Rolle oder Berufsbezeichnung verknüpft.</li> 
-        <li>Sie gehören zur gleichen Gruppe wie die Person, die das Feld verwendet</li> 
-       </ul> <p>Sie müssen den Filter für den ausgewählten Objekttyp mithilfe der Textmodus-Syntax definieren. Informationen zum Erstellen eines Filters mit dem Textmodus finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Bearbeiten eines Filters mit dem Textmodus</a>.</p>
-       <p><b>NOTE</b>:
+        <li>Sie sind mit einer von Ihnen angegebenen Funktion oder einem von Ihnen angegebenen Titel verknüpft</li> 
+        <li>Sie gehören zur selben Gruppe wie die Person, die das Feld verwendet</li> 
+       </ul> <p>Sie müssen den Filter für den ausgewählten Objekttyp mithilfe der Textmodus-Syntax definieren. Weitere Informationen zum Erstellen eines Filters im Textmodus finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Bearbeiten eines Filters im Textmodus</a>.</p>
+       <p><b>HINWEIS</b>:
        <ul> 
-        <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden durch Hinzufügen eines Filters zu einem Feld vom TypAhead keine Objekte (außerhalb des Filterbereichs) entfernt, die Benutzer bereits über das Feld hinzugefügt haben.</li> 
-        <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein Feld vom Typ voraus verwenden, wird das Feld auf den Mobilgeräten der Benutzer angezeigt, die vom Filter nicht betroffen sind.</li> 
+        <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden beim Hinzufügen eines Filters zu einem Feld mit automatischer Textvervollständigung keine Objekte entfernt (außerhalb des Bereichs des Filters), die Benutzende bereits mithilfe des Felds hinzugefügt haben.</li> 
+        <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein Feld mit automatischer Textvervollständigung verwenden, wird das Feld auf den Mobilgeräten der Benutzenden angezeigt, ohne vom Filter betroffen zu sein.</li> 
         </ul></p></td> 
       <td>
        <ul>
@@ -560,15 +560,15 @@ So fügen Sie Eingabe- und Datumsfelder hinzu:
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
-   ![Kopiersymbol](assets/copy-field.png)
+   ![copy icon](assets/copy-field.png)
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie auf **Speichern und schließen**.
+   Klicken Sie **Speichern und schließen**.
 
-### Externe Suchfelder hinzufügen
+### Hinzufügen externer Suchfelder
 
 Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen. Das externe Suchfeld ist auch in Listen und Berichten verfügbar.
 
@@ -577,12 +577,12 @@ Beispiele für die Verwendung des externen Suchfelds zum Aufrufen derselben Inst
 >[!NOTE]
 >
 >* Externe Suchfelder werden im Outlook-Plug-in nicht unterstützt.
->* Externe Suchfelder sind in Listen nicht verfügbar, wenn das Feld von einem anderen Feld abhängig ist.
+>* Externe Suchfelder sind nicht in Listen verfügbar, wenn das Feld eine Abhängigkeit von einem anderen Feld aufweist.
 
 So fügen Sie eine externe Suche hinzu:
 
-1. Suchen Sie auf der linken Seite des Bildschirms nach **Externer Suchvorgang** und ziehen Sie ihn in einen Bereich auf der Arbeitsfläche.
-1. Konfigurieren Sie rechts im Bildschirm die Optionen für das benutzerdefinierte Feld:
+1. Suchen Sie auf der linken Seite des Bildschirms nach **Externe Suche** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -590,59 +590,59 @@ So fügen Sie eine externe Suche hinzu:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie einen beschreibenden Titel ein, der über dem benutzerdefinierten Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Verwenden Sie in dieser Kennzeichnung keine Sonderzeichen. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
-      <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td>
+      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Beschriftung und Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
+      <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p> </td>
      </tr> 
       <td role="rowheader">Anleitung</td> 
-      <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
+      <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Format</td>
       <td><p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p>
-      <p><strong>NOTE:</strong></p>
-      <ul><li>Sie können den Formattyp nach dem Speichern des Formulars ändern, mit einer Einschränkung: Alle vorhandenen Werte für Objekte müssen in der Lage sein, in den neuen Typ zu konvertieren. (Wenn der Formattyp beispielsweise Text ist und ein Objekt den Wert "abc"speichert, können Sie das Feld nicht konvertieren und erhalten eine Fehlermeldung, dass das System "abc"nicht in Zahl/Währung konvertieren kann.) Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlenformat oder ein Währungsformat auswählen.</li>
-      <li>Wenn Sie "Zahl"oder "Währung"auswählen, schneidet das System automatisch Zahlen ab, die mit 0 beginnen.</li>
-      <li>Die Zeichenbeschränkung für Zahlenfelder beträgt 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und die Begrenzung zu vermeiden.</li>
+      <p><strong>HINWEIS:</strong></p>
+      <ul><li>Sie können den Formattyp nach dem Speichern des Formulars ändern, mit einer Einschränkung: Alle vorhandenen Werte auf Objekten müssen in den neuen Typ konvertiert werden können. (Wenn beispielsweise der Formattyp Text lautet und ein Objekt den Wert „abc“ speichert, können Sie das Feld nicht konvertieren und erhalten die Fehlermeldung, dass das System „abc“ nicht in Zahl/Währung konvertieren kann.) Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, stellen Sie sicher, dass Sie ein Zahlen- oder Währungsformat auswählen.</li>
+      <li>Wenn Sie Zahl oder Währung auswählen, kürzt das System automatisch Zahlen, die mit 0 beginnen.</li>
+      <li>Die Zeichenbeschränkung für Zahlenfelder ist 16. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und das Limit zu vermeiden.</li>
       </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Basis-API-URL</td> 
-      <td><p>Geben Sie die URL für die API ein oder fügen Sie sie ein.</p><p>Die API-URL muss einen JSON-Inhalt der Optionen zurückgeben, die Sie im Dropdown-Menü anzeigen möchten. Sie können das Feld JSON-Pfad verwenden, um die spezifischen Werte aus den zurückgegebenen JSON-Optionen auszuwählen, die Dropdown-Optionen sein sollen.</p><p>Beim Eingeben der API-URL können Sie optional die folgenden Werte in die URL übergeben:</p>
+      <td><p>Geben Sie die URL für die API ein oder fügen Sie sie ein.</p><p>Die API-URL muss einen JSON-Inhalt der Optionen zurückgeben, die Sie in der Dropdown-Liste anzeigen möchten. Sie können das Feld JSON-Pfad verwenden, um die spezifischen Werte aus der zurückgegebenen JSON als Dropdown-Optionen auszuwählen.</p><p>Bei der Eingabe der API-URL können Sie optional die folgenden Werte in die URL eingeben:</p>
       <ul>
-      <li>$$HOST - Dies stellt den aktuellen Workfront-Host dar und kann verwendet werden, um /search API-Aufrufe an die Workfront-API durchzuführen. Wenn dieser Platzhalter verwendet wird, wird die Authentifizierung verarbeitet und Benutzer müssen keine Authentifizierungskopfzeilen senden. (Beispielsweise können Benutzer Aufgaben mithilfe der Basis-URL <code>$$HOST/attask/api/task/search</code> durchsuchen und Aufgaben suchen sowie Werte aus einer zurückgegebenen Aufgabenliste auswählen.)</li>
-      <li><p>$$QUERY - Dies stellt den Suchtext dar, den der Endbenutzer in das Feld eingibt, und ermöglicht Ihnen die Implementierung der Abfragefilterung für Ihre Endbenutzer. (Der Benutzer sucht im Dropdown-Menü nach dem Wert.)</p>
-      <p>Wenn die API, auf die Sie verweisen, dies zulässt, können Sie in Ihre Suchabfrage auch Modifikatoren einfügen, um festzustellen, wie die Suche funktionieren soll. Beispielsweise können Sie Folgendes als Basis-API-URL verwenden, um Personen die Suche nach Workfront-Projekten zu ermöglichen, die bestimmten Text enthalten: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Weitere Informationen zu den Workfront-Suchmodifikatoren finden Sie in den <a href="/help/quicksilver/wf-api/general/api-basics.md">API-Grundlagen</a>.</p>
-      <p><strong>HINWEIS:</strong> Wenn Sie $$QUERY nicht verwenden und der Benutzer Text in das Suchfeld eingibt, werden die bereits vorhandenen Auswahlmöglichkeiten eingegrenzt. Wenn Sie jedoch $$QUERY verwenden und der Benutzer alles eingibt, wird ein neuer Netzwerkaufruf an Ihre API durchgeführt. Wenn Sie mehr als 2000 Werte in Ihrer API haben und die API Abfragen unterstützt, können Sie $$QUERY verwenden, um nicht nur aus den vorhandenen 2000 Werten zu suchen, sondern auch aus der ursprünglichen API mit den eingeschränkten Optionen.</p></li>
-      <li><p>{fieldName} - Dabei ist fieldName ein benutzerdefiniertes oder natives Feld in Workfront. Auf diese Weise können Sie Dropdown-Optionsfilter für die Kaskadierung implementieren, wenn Sie den Wert eines bereits ausgewählten Felds an das externe Suchfeld übergeben, um Optionen nach unten zu filtern. (Beispielsweise ist das Feld Region bereits im Formular vorhanden und Sie schränken eine Liste von Ländern von der API auf Länder ein, die sich in einer bestimmten Region befinden.)</p>
-      <p>Bei einem externen Suchfeld, das von anderen Feldern abhängig ist (unter Verwendung der Syntax {fieldName} ), sind die von der API zurückgegebenen Optionen auf die Optionen beschränkt, die mit den Zeichenfolgen oder Werten übereinstimmen, die in den anderen Feldern eingegeben wurden. (Diese Funktion wird in Listen und Berichten nicht unterstützt.)</p></li>
-      <li>{referenceObject}.{fieldName} - Wobei das Feld Teil eines Objekts ist. Diese Syntax ähnelt benutzerdefinierten Ausdrücken. (Beispiel: PortfolioID={project}.{portfolioID})</li></ul>
-      <p><strong>HINWEIS:</strong> Überprüfen Sie die Dokumentation für die API, mit der Sie arbeiten, für die spezifischen Abfragen, die Sie definieren können.</p></td>
+      <li>$$HOST - Stellt den aktuellen Workfront-Host dar und kann verwendet werden, um /search-API-Aufrufe an die Workfront-API durchzuführen. Wenn dieser Platzhalter verwendet wird, wird die Authentifizierung verarbeitet und die Benutzer müssen keine Authentifizierungs-Header senden. (Benutzerinnen und Benutzer können beispielsweise Aufgaben mithilfe des Basis-URL-<code>$$HOST/attask/api/task/search</code> suchen. Dadurch können sie Aufgaben suchen und Werte aus einer zurückgegebenen Aufgabenliste auswählen.)</li>
+      <li><p>$$QUERY - Stellt den Suchtext dar, den der Endbenutzer in das Feld eingibt, und ermöglicht Ihnen die Implementierung der Abfragefilterung für Ihre Endbenutzer. (Der Benutzer sucht nach dem Wert in der Dropdown-Liste.)</p>
+      <p>Wenn die API, auf die Sie verweisen, dies zulässt, können Sie auch Modifikatoren in Ihre Suchanfrage einbeziehen, um zu ermitteln, wie die Suche funktionieren sollte. Beispielsweise können Sie Folgendes als Basis-API-URL verwenden, damit Benutzer nach allen Workfront-Projekten suchen können, die bestimmten Text enthalten: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Weitere Informationen zu den Workfront-Suchmodifikatoren finden Sie unter <a href="/help/quicksilver/wf-api/general/api-basics.md">API-Grundlagen</a>.</p>
+      <p><strong>HINWEIS:</strong> Wenn Sie $$QUERY nicht verwenden und der Text der Benutzenden in das Suchfeld eingeben, werden die bereits verfügbaren Auswahlmöglichkeiten eingeschränkt. Wenn Sie jedoch $$QUERY verwenden und der Benutzer etwas eingibt, wird ein neuer Netzwerkaufruf an Ihre API durchgeführt. Wenn Ihre API also mehr als 2.000 Werte enthält und die API Abfragen unterstützt, können Sie mit $$QUERY nicht nur nach den vorhandenen 2.000 Werten, sondern auch nach der ursprünglichen API mit den eingeschränkten Optionen suchen.</p></li>
+      <li><p>{fieldName} - Wobei fieldName ein benutzerdefiniertes oder natives Feld in Workfront ist. Auf diese Weise können Sie kaskadierende Dropdown-Optionsfilter implementieren, wenn Sie den Wert eines bereits ausgewählten Felds an das externe Suchfeld übergeben, um Optionen nach unten zu filtern. (Das Feld Region existiert beispielsweise bereits im Formular und Sie grenzen die Liste der Länder von der API auf die Länder ein, die sich in einer bestimmten Region befinden.)</p>
+      <p>Bei einem externen Suchfeld, das (unter Verwendung der {fieldName} Syntax) eine Abhängigkeit von anderen Feldern aufweist, sind die von der API zurückgegebenen Optionen auf die Optionen beschränkt, die mit den in den anderen Feldern eingegebenen Zeichenfolgen oder Werten übereinstimmen. (Diese Funktion wird in Listen und Berichten nicht unterstützt.)</p></li>
+      <li>{referenceObject}.{fieldName} : Wobei das Feld Teil eines Objekts ist. Diese Syntax ähnelt benutzerdefinierten Ausdrücken. (Beispiel: portfolioID={project}.{portfolioID})</li></ul>
+      <p><strong>HINWEIS</strong> Lesen Sie die Dokumentation für die API, mit der Sie arbeiten, für die spezifischen Abfragen, die Sie definieren können.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">HTTP-Methode</td> 
-      <td>Wählen Sie <strong>Get</strong>, <strong>Post</strong> oder <strong>Put</strong> für die Methode aus.</td> 
+      <td>Wählen Sie <strong> Methode </strong>GET<strong>, POST</strong> oder <strong>PUT</strong>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">JSON-Pfad</td>
-      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der JSON-Datei, die von der API-URL zurückgegeben wird. Es dient dazu, festzulegen, welche Werte aus dem JSON-Bereich in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt:</br>
+      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Sie dient als Möglichkeit, festzulegen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON in folgendem Format zurückgibt:</br>
       <pre>
       {
-       data: {
-         { name: "USA"},
-         { name: "Canada"}
+       Daten: {
+         { name: „USA“},
+         { name: „Canada“}
        }
       }
       </pre>
       </p>
-      <p>dann können Sie "$.data[*].name"verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen.</p> <p>Weitere Informationen zum JSON-Pfad und zum Sicherstellen des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+      <p>dann können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen.</p> <p>Weitere Informationen zum JSON-Pfad und zum Schreiben des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Kopfzeilen</td>
-      <td><p>Klicken Sie auf <strong>Kopfzeile hinzufügen</strong> und geben Sie das Schlüssel-Wert-Paar ein oder fügen Sie es ein, das für die Authentifizierung mit der API erforderlich ist.</p><p><strong>HINWEIS:</strong> Die Kopfzeilenfelder sind kein sicherer Ort, um Anmeldeinformationen zu speichern. Achten Sie darauf, was Sie eingeben und speichern.</p></td>
+      <td><p>Klicken Sie <strong>Kopfzeile hinzufügen</strong> und geben Sie das für die Authentifizierung mit der API erforderliche Schlüssel-Wert-Paar ein oder fügen Sie es ein.</p><p><strong>HINWEIS</strong> Die Header-Felder sind kein sicherer Ort zum Speichern von Anmeldeinformationen, und Sie sollten darauf achten, was Sie eingeben und speichern.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Mehrfachauswahl-Dropdown</td>
@@ -656,28 +656,28 @@ So fügen Sie eine externe Suche hinzu:
     </tbody>
    </table>
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie auf **Speichern und schließen**.
+   Klicken Sie **Speichern und schließen**.
 
 >[!NOTE]
 >
->Die folgenden Elemente sind technische Einschränkungen des Aufrufs an die externe API:
+>Bei den folgenden Elementen handelt es sich um technische Einschränkungen des Aufrufs an die externe API:
 >
->* Maximale Anzahl an Optionen: 2000 (nur die ersten 2000 eindeutigen Optionen aus der zurückgegebenen JSON werden angezeigt)
->* Zeitüberschreitung: 3 Sekunden
+>* Maximale Anzahl von Optionen: 2000 (es werden nur die ersten 2000 eindeutigen Optionen aus der zurückgegebenen JSON-Datei angezeigt)
+>* Maximale Wartezeit: 3 Sekunden
 >* Anzahl weiterer Versuche: 3
->* Wartezeit zwischen Wiederholungen: 500 ms
+>* Wartezeit zwischen weiteren Zustellversuchen: 500 ms
 >* Erwartete Antwortstatus: 2xx
 
 ### Bilder, PDF und Videos hinzufügen
 
-Sie können einem benutzerdefinierten Formular Bilder, PDF und Videos hinzufügen. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können das Bild, die PDF oder das Video nur in den folgenden Bereichen anzeigen:
+Sie können einem benutzerdefinierten Formular Bilder, PDF und Videos hinzufügen. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können das Bild, die PDF oder das Video nur in den folgenden Bereichen sehen:
 
-* Der Detailbereich des Objekts (z. B. für ein Projekt, den Bereich Projektdetails )
-* Das Feld &quot;Bearbeiten&quot;für das Objekt, wenn das neue Adobe Workfront-Erlebnis wie &quot;Projekt bearbeiten&quot;und &quot;Aufgabe bearbeiten&quot;angezeigt wird
+* Der Bereich Details des Objekts (z. B. für ein Projekt der Bereich Projektdetails)
+* Das Bearbeitungsfeld für das Objekt, wenn es das neue Erscheinungsbild von Adobe Workfront aufweist (z. B. die Felder Projekt bearbeiten und Aufgabe bearbeiten )
 
 <!-- Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
@@ -686,17 +686,17 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
-+++ **Erweitern, um Beschreibungen der verfügbaren Felder anzuzeigen**
++++ **Erweitern , um Beschreibungen der verfügbaren Felder anzuzeigen**
 
-* **Bild**: Ermöglicht Benutzern das Hinzufügen von Bilddateien.
-* **PDF**: Ermöglicht Benutzern das Hinzufügen von PDF
+* **Image**: Ermöglicht Benutzern das Hinzufügen von Bilddateien.
+* **PDF**: Ermöglicht Benutzenden das Hinzufügen von PDFs
 * **Videos**: Ermöglicht Benutzern das Hinzufügen von Videodateien.
 
 +++
 
 So fügen Sie Bilder, PDF oder Videos hinzu:
 
-1. Suchen Sie auf der linken Bildschirmseite eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Suchen Sie auf der linken Seite des Bildschirms eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    * Bild
    * PDF
@@ -712,27 +712,27 @@ So fügen Sie Bilder, PDF oder Videos hinzu:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Widget angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie eine beschreibende Beschriftung ein, die über dem Widget angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Verwenden Sie in dieser Kennzeichnung keine Sonderzeichen. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Widget. Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td> 
+      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Widget. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Beschriftung und Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
-      <td> <p>(Erforderlich) Geben oder fügen Sie die URL des Widgets ein, in dem es im Internet gespeichert ist.</p> 
-      <p>Wenn Sie ein Video-Widget hinzufügen, können Sie dies derzeit tun, indem Sie Folgendes in das URL-Feld hinzufügen:</p> 
+      <td> <p>(Erforderlich) Geben Sie die URL des Widgets ein, in dem es im Internet gespeichert ist, oder fügen Sie sie ein.</p> 
+      <p>Wenn Sie ein Video-Widget hinzufügen, können Sie dies derzeit tun, indem Sie Folgendes in das URL-Feld einfügen:</p> 
       <ul> 
-      <li> <p>YouTube- oder Vimeo-Link</p> </li> 
-      <li> <p>Videolink "Google Drive"</p> </li> 
+      <li> <p>Link zu YouTube oder Vimeo</p> </li> 
+      <li> <p>Videolink auf Google Drive</p> </li> 
       <li> <p>Link zum Video mit MP4- und MOV-Erweiterung</p> </li> 
-      <li> <p>Link zu Video, das bereits in den Bereich "Dokumente"in Ihrer Workfront-Instanz hochgeladen wurde. Anweisungen finden Sie unter <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Hinzufügen eines Video-Widgets zu einem benutzerdefinierten Formular aus dem Bereich "Dokumente"</a> in diesem Artikel.</p> </li> 
+      <li> <p>Link zu Video, das bereits in den Bereich Dokumente in Ihrer Workfront-Instanz hochgeladen wurde. Anweisungen finden Sie unter <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Hinzufügen eines Video-Widgets zu einem benutzerdefinierten Formular aus dem Bereich Dokumente</a> in diesem Artikel.</p> </li> 
       </ul> 
        </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anleitung</td> 
-      <td> <p>Geben Sie weitere Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
+      <td> <p>Geben Sie zusätzliche Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Größe</td> 
@@ -747,37 +747,37 @@ So fügen Sie Bilder, PDF oder Videos hinzu:
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
-   ![Kopiersymbol](assets/copy-field.png)
+   ![copy icon](assets/copy-field.png)
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie auf **Speichern und schließen**.
+   Klicken Sie **Speichern und schließen**.
 
-#### Hinzufügen eines Videos zu einem benutzerdefinierten Formular aus dem Bereich &quot;Dokumente&quot;{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Hinzufügen eines Videos zu einem benutzerdefinierten Formular aus dem Bereich Dokumente{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->Wenn Sie einem benutzerdefinierten Formular auf diese Weise ein Video hinzufügen, werden die im Bereich &quot;Dokumente&quot;festgelegten Berechtigungen auf das Video angewendet, wenn Benutzer auf das Formular eines Objekts zugreifen.
+>Wenn Sie auf diese Weise ein Video zu einem benutzerdefinierten Formular hinzufügen, gelten die im Bereich Dokumente festgelegten Berechtigungen für das Video, wenn Benutzer auf das Formular auf einem Objekt zugreifen.
 
-1. Gehen Sie zum Video im Bereich &quot;Dokumente&quot;und generieren Sie einen Testversand dafür, wie unter [Erstellen eines interaktiven Testversands für eine Website oder andere Webinhalte](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md) beschrieben.
-1. Öffnen Sie den Testversand.
-1. Klicken Sie mit der rechten Maustaste auf eine beliebige Stelle im Video und wählen Sie dann **Videobericht kopieren** aus.
-1. Fügen Sie im benutzerdefinierten Formular, in das Sie das Video-Widget einfügen, die kopierte Adresse in das Feld **URL** ein.
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
+1. Gehen Sie zum Video im Bereich Dokumente und generieren Sie einen Korrekturabzug dafür, wie in [Erstellen eines interaktiven Korrekturabzugs für eine Website oder andere Web-Inhalte](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md) beschrieben.
+1. Öffnen Sie den Korrekturabzug.
+1. Klicken Sie mit der rechten Maustaste auf eine beliebige Stelle im Video und wählen Sie **Videoadresse kopieren**.
+1. Fügen Sie im benutzerdefinierten Formular, in dem Sie das Video-Widget hinzufügen, die kopierte Adresse in das Feld **URL** ein.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie auf **Speichern und schließen**.
+   Klicken Sie **Speichern und schließen**.
 
-### Hinzufügen nativer Workfront-Felder
+### Native Workfront-Felder hinzufügen
 
-Sie können Ihren benutzerdefinierten Formularen native Workfront-Felder hinzufügen. Wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, wird das Feld aus den Objektdaten ausgefüllt. Beispielsweise ruft das Feld Beschreibung in einem benutzerdefinierten Formular, das an ein Projekt angehängt ist, die Projektbeschreibung ab. (Wenn keine Daten verfügbar sind, kann im Feld &quot;K. A.&quot;angezeigt werden.)
+Sie können Ihren benutzerdefinierten Formularen native Workfront-Felder hinzufügen. Wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, wird das Feld aus den Objektdaten gefüllt. Beispielsweise ruft das Feld Beschreibung in einem benutzerdefinierten Formular, das an ein Projekt angehängt ist, die Projektbeschreibung ab. (Wenn keine Daten verfügbar sind, kann das Feld „K. A.“ anzeigen.)
 
-+++ **Erweitern Sie die Liste der unterstützten nativen Felder**
++++ **Erweitern Sie , um die Liste der unterstützten nativen Felder anzuzeigen**
 
-Diese Tabelle listet die verfügbaren nativen Felder für bestimmte Workfront-Objekte in einem benutzerdefinierten Formular auf.
+In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-Objekte in einem benutzerdefinierten Formular aufgeführt.
 
 | Feldname | Projekt | Aufgabe | Problem | Vorlage | Vorlagenaufgabe | Portfolio | Programm | Gruppe |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
@@ -822,8 +822,8 @@ Diese Tabelle listet die verfügbaren nativen Felder für bestimmte Workfront-Ob
 
 +++
 
-1. Suchen Sie auf der linken Seite des Bildschirms nach **Nativer Feldverweis** und ziehen Sie ihn in einen Bereich auf der Arbeitsfläche.
-1. Konfigurieren Sie rechts im Bildschirm die Optionen für das benutzerdefinierte Feld:
+1. Suchen Sie auf der linken Seite des Bildschirms nach **nativer Feldverweis** und ziehen Sie ihn in einen Bereich auf der Arbeitsfläche.
+1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -831,35 +831,35 @@ Diese Tabelle listet die verfügbaren nativen Felder für bestimmte Workfront-Ob
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie einen beschreibenden Titel ein, der über dem Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Verwenden Sie in dieser Kennzeichnung keine Sonderzeichen. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td>
-      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Feld zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
-      <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p></td> 
+      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Feld. Wenn Sie das Feld zum ersten Mal konfigurieren und die Bezeichnung eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Beschriftung und Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
+      <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anleitung</td> 
-      <td> <p>Geben Sie weitere Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</td> 
+      <td> <p>Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Referenzfeld</td> 
-      <td><p>(Erforderlich) Wählen Sie ein natives Workfront-Feld aus.<p><p>Es sind nur native Felder für die Objekte des Formulars verfügbar. Wenn beispielsweise in der Liste "Objekttypen"oben im Formularentwickler "Projekt"angezeigt wird, können Sie native Felder für Projekte auswählen, jedoch nicht für Aufgabenfelder.</p></td>
+      <td><p>(Erforderlich) Wählen Sie ein natives Workfront-Feld aus.<p><p>Für die Objekte des Formulars sind nur native Felder verfügbar. Wenn beispielsweise die Liste Objekttypen oben im Formular-Designer „Projekt“ anzeigt, können Sie native Felder für Projekte auswählen, jedoch keine Felder, die speziell für Aufgaben verwendet werden.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><span class="preview">Filter hinzufügen</span></td>
-      <td><span class="preview"><p>Fügen Sie einen Filter für das Referenzfeld hinzu, um die Liste der Elemente zu beschränken, aus denen Benutzer wählen können, wenn sie das Feld verwenden. </p> <p>Sie können beispielsweise ein Feld so einschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
+      <td><span class="preview"><p>Fügen Sie einen Filter für das Referenzfeld hinzu, um die Liste der Elemente zu begrenzen, aus denen Benutzerinnen und Benutzer bei der Verwendung des Felds auswählen können. </p> <p>Sie können beispielsweise ein Feld so beschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
        <ul>
         <li>Sie gehören zu einer oder mehreren Gruppen, die Sie angeben</li> 
-        <li>Sie sind mit einer von Ihnen angegebenen Rolle oder Berufsbezeichnung verknüpft.</li> 
-        <li>Sie gehören zur gleichen Gruppe wie die Person, die das Feld verwendet</li> 
+        <li>Sie sind mit einer von Ihnen angegebenen Funktion oder einem von Ihnen angegebenen Titel verknüpft</li> 
+        <li>Sie gehören zur selben Gruppe wie die Person, die das Feld verwendet</li> 
        </ul>
-       <p>Sie müssen den Filter für das ausgewählte Referenzfeld mithilfe der Textmodus-Syntax definieren. Informationen zum Erstellen eines Filters mit dem Textmodus finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Bearbeiten eines Filters mit dem Textmodus</a>.</p>
-       <p><b>NOTE</b>:
+       <p>Sie müssen den Filter für das von Ihnen ausgewählte Referenzfeld mithilfe der Textmodussyntax definieren. Weitere Informationen zum Erstellen eines Filters im Textmodus finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Bearbeiten eines Filters im Textmodus</a>.</p>
+       <p><b>HINWEIS</b>:
        <ul> 
-        <li>Die Filteroption ist nur verfügbar, wenn Sie auf ein natives Typenvorlagenfeld wie Portfolio, Unternehmen oder Eigentümer verweisen.</li>
-        <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden durch Hinzufügen eines Filters zu einem nativen Feld keine Objekte (außerhalb des Filterbereichs) entfernt, die Benutzer bereits über das Feld hinzugefügt haben.</li> 
-        <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein natives Feld verwenden, wird das Feld auf den Mobilgeräten der Benutzer angezeigt, die vom Filter nicht betroffen sind.</li> 
+        <li>Die Filteroption ist nur verfügbar, wenn Sie auf ein natives Feld mit automatischer Textvervollständigung verweisen, z. B. Portfolio, Unternehmen oder Inhaber.</li>
+        <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden beim Hinzufügen eines Filters zu einem nativen Feld keine Objekte entfernt (außerhalb des Bereichs des Filters), die Benutzende bereits mithilfe des Felds hinzugefügt haben.</li> 
+        <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein natives Feld verwenden, wird das Feld auf den Mobilgeräten der Benutzer angezeigt, ohne vom Filter betroffen zu sein.</li> 
         </ul></p></span></td> 
       <td>
      </tr>
@@ -869,27 +869,27 @@ Diese Tabelle listet die verfügbaren nativen Felder für bestimmte Workfront-Ob
      </tr> 
      <tr> 
       <td role="rowheader">Größe</td> 
-      <td>(Optional) Ändern Sie bei Bedarf die Anzeigegröße des Felds.</td> 
+      <td>(Optional) Ändern Sie die Anzeigegröße des Felds nach Bedarf.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie auf **Speichern und schließen**.
+   Klicken Sie **Speichern und schließen**.
 
-### Hinzufügen von Adobe XD-Dateien
+### Adobe XD-Dateien hinzufügen
 
-Sie können einen Adobe XD-Prototyp direkt zu einem benutzerdefinierten Formular hinzufügen. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können die Adobe XD-Datei nur in den folgenden Bereichen anzeigen:
+Sie können einen Adobe XD-Prototyp direkt zu einem benutzerdefinierten Formular hinzufügen. Benutzende, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können die Adobe XD-Datei nur in den folgenden Bereichen sehen:
 
-* Der Detailbereich des Objekts (z. B. für ein Projekt, den Bereich Projektdetails )
-* Das Feld &quot;Bearbeiten&quot;für das Objekt, wenn das neue Adobe Workfront-Erlebnis wie &quot;Projekt bearbeiten&quot;und &quot;Aufgabe bearbeiten&quot;angezeigt wird
+* Der Bereich Details des Objekts (z. B. für ein Projekt der Bereich Projektdetails)
+* Das Bearbeitungsfeld für das Objekt, wenn es das neue Erscheinungsbild von Adobe Workfront aufweist (z. B. die Felder Projekt bearbeiten und Aufgabe bearbeiten )
 
 Hinzufügen einer Adobe XD-Datei:
 
-1. Suchen Sie auf der linken Bildschirmseite nach **Adobe XD** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Suchen Sie auf der linken Bildschirmseite nach **Adobe XD** und ziehen Sie es in einen Abschnitt auf der Arbeitsfläche.
 1. Geben Sie eine der folgenden Eigenschaften für das Widget ein oder bearbeiten Sie sie:
 
    <table style="table-layout:auto"> 
@@ -898,27 +898,27 @@ Hinzufügen einer Adobe XD-Datei:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Widget angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie eine beschreibende Beschriftung ein, die über dem Widget angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Verwenden Sie in dieser Kennzeichnung keine Sonderzeichen. Sie werden in Berichten nicht korrekt angezeigt. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Widget. Wenn Sie das Widget zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
-    <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -beschriftungen</a>.</p></td> 
+      <td> <p>(Erforderlich) Mit diesem Namen identifiziert das System das Widget. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Beschriftung und Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
+    <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und Beschriftungen</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
-      <td> <p>(Erforderlich) Geben Sie einen gültigen XD Prototyplink ein oder fügen Sie ihn ein.</p> 
-      <p>Hinweis: Die Einstellung Link-Zugriff auf die Registerkarte Freigabe in Adobe XD muss auf Jeder mit dem Link festgelegt sein. Andernfalls können Benutzer den Prototyp nicht anzeigen. 
+      <td> <p>(Erforderlich) Geben Sie einen gültigen XD-Prototyp-Link ein oder fügen Sie ihn ein.</p> 
+      <p>Hinweis: Die Einstellung „Link-Zugriff“ auf der Registerkarte Freigeben in Adobe XD muss auf „Jeder, der über den Link verfügt“ festgelegt sein. Andernfalls können Benutzende den Prototyp nicht anzeigen. 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anleitung</td> 
-      <td> <p>Geben Sie weitere Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
+      <td> <p>Geben Sie zusätzliche Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Größe</td> 
-      <td>(Optional) Ändern Sie bei Bedarf die Anzeigegröße des Widgets.</td> 
+      <td>(Optional) Ändern Sie die Anzeigegröße des Widgets nach Bedarf.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -929,44 +929,44 @@ Hinzufügen einer Adobe XD-Datei:
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
-   ![Kopiersymbol](assets/copy-field.png)
+   ![copy icon](assets/copy-field.png)
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie auf **Speichern und schließen**.
+   Klicken Sie **Speichern und schließen**.
 
 <div class="preview">
 
-### Planungsverbindungsfelder hinzufügen
+### Planning-Verbindungsfelder hinzufügen
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Abschnitt beziehen sich auf die Adobe Workfront-Planung, eine zusätzliche Funktion von Adobe Workfront.
+>Die Informationen in diesem Abschnitt beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
 >
->Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+>Für den Zugriff auf Workfront Planning sind folgende Voraussetzungen erforderlich:
 >
->* Ein neuer Workfront-Plan und eine neue -Lizenz. Die Workfront-Planung ist nicht für ältere Workfront-Pläne oder -Lizenzen verfügbar.
->* Eine zusätzliche Lizenz für Workfront Planning.
->* Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein.
+>* Ein neuer Workfront-Plan und eine neue Lizenz. Workfront Planning ist nicht für ältere Workfront-Pläne oder -Lizenzen verfügbar.
+>* Ein Zusatzpaket für Workfront Planning.
+>* Die Workfront-Instanz Ihres Unternehmens muss in das einheitliche Adobe-Erlebnis integriert werden.
 >
-> Eine vollständige Liste der Anforderungen für den Zugriff auf die Workfront-Planung finden Sie unter [Übersicht über den Zugriff auf die Adobe Workfront-Planung](/help/quicksilver/planning/access/access-overview.md).
+> Eine vollständige Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht für Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
->Weitere Informationen zur Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
+>Weitere Informationen zu Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
 
-Sie können Datensätze, die über die Workfront-Planung verbunden sind, in einem benutzerdefinierten Feld auf einem Workfront-Objekt anzeigen, indem Sie dem benutzerdefinierten Formular eines Objekts ein Feld für eine Planungsverbindung hinzufügen.
+Sie können Datensätze, die über Workfront Planning verbunden sind, in einem benutzerdefinierten Feld eines Workfront-Objekts anzeigen, indem Sie dem benutzerdefinierten Formular eines Objekts ein benutzerdefiniertes Feld für die Planning-Verbindung hinzufügen.
 
-Sie können das Verbindungsfeld Planung zu den benutzerdefinierten Formularen aller Objekte hinzufügen. Sie können jedoch verbundene Datensätze nur in den benutzerdefinierten Formularen anzeigen, die mit Workfront-Objekten verknüpft sind und über die Workfront-Planung verbunden werden können.
+Sie können das Feld Planning-Verbindung zu den benutzerdefinierten Formularen aller Objekte hinzufügen. Sie können verbundene Datensätze jedoch nur in den benutzerdefinierten Formularen anzeigen, die mit Workfront-Objekten verknüpft sind und über Workfront Planning verbunden werden können.
 
 >[!NOTE]
 >
->Benutzer, die Informationen im benutzerdefinierten Feld anzeigen, müssen Zugriff auf die Workfront-Planung und auf die Arbeitsbereiche haben, die die mit Workfront-Objekten verbundenen Datensatztypen enthalten.
+>Benutzer, die Informationen im benutzerdefinierten Feld anzeigen, müssen Zugriff auf Workfront Planning und auf die Arbeitsbereiche haben, die die mit Workfront-Objekten verbundenen Datensatztypen enthalten.
 
-So fügen Sie ein Verbindungsfeld Planung hinzu:
+So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
-1. Suchen Sie auf der linken Seite des Bildschirms nach **Verbindung planen** und ziehen Sie sie in einen Bereich auf der Arbeitsfläche.
-1. Konfigurieren Sie rechts im Bildschirm die Optionen für das benutzerdefinierte Feld:
+1. Suchen Sie auf der linken Seite des Bildschirms nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -974,39 +974,39 @@ So fügen Sie ein Verbindungsfeld Planung hinzu:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie eine beschreibende Bezeichnung ein, die über dem Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>:</p> <p>Vermeiden Sie die Verwendung von Sonderzeichen in dieser Bezeichnung.</p> 
-      <p>Es wird empfohlen, einen Titel zu wählen, mit dem Sie leicht erkennen können, woher der Planungsdatensatz stammt. Fügen Sie Informationen wie den Namen des Arbeitsbereichs oder den Namen des Datensatztyps hinzu. </p>   </td> 
+      <td> <p>(Erforderlich) Geben Sie einen beschreibenden Titel ein, der über dem Feld angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>:</p> <p>Verwenden Sie in dieser Beschriftung keine Sonderzeichen.</p> 
+      <p>Es wird empfohlen, einen Titel auszuwählen, anhand dessen Sie leicht erkennen können, woher der Planungsdatensatz stammt. Fügen Sie Informationen wie den Namen des Arbeitsbereichs oder den Namen des Datensatztyps hinzu. </p>   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td>
-      <td> <p>(Erforderlich) Der Name gibt an, wie das System das Feld identifiziert. Wenn Sie das Feld zum ersten Mal konfigurieren und den Titel eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Titel und Name werden jedoch nicht synchronisiert. Dies gibt Ihnen die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p></td> 
+      <td> <p>(Erforderlich) Der Name gibt an, wie das System das Feld identifiziert. Wenn Sie das Feld zum ersten Mal konfigurieren und die Bezeichnung eingeben, wird das Feld Name automatisch entsprechend ausgefüllt. Die Felder Beschriftung und Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anleitung</td> 
-      <td> <p>(Empfohlen) Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen-Symbol bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p>
-      <p>Hier können Sie explizite Informationen zum Datensatz und den Objekten hinzufügen, die Sie verbinden. </p>
+      <td> <p>(Empfohlen) Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p>
+      <p>Hier können Sie explizite Informationen über den Datensatz und die Objekte hinzufügen, die Sie verbinden. </p>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Objekttyp</td> 
-      <td><p>(Erforderlich) Wählen Sie einen Workfront-Objekttyp aus, der in der Workfront-Planung mit einem Datensatztyp verbunden ist.</p>
+      <td><p>(Erforderlich) Wählen Sie einen Workfront-Objekttyp aus, der mit einem Datensatztyp in Workfront Planning verbunden ist.</p>
       Sie können aus den folgenden Objekttypen auswählen:
       <ul><li> Projekt</li>
       <li> Portfolio</li><li> Programm</li><li> Firma</li><li> Gruppe</li></ul>
-       <p>Es sind nur Workfront-Objekttypen für die Objekttypen des Formulars verfügbar.</p> <p> Wenn beispielsweise in der Liste "Objekttypen"oben im Formularentwickler Projekt angezeigt wird, können Sie nur Projekt in diesem Feld auswählen. Sie können keine Portfolio auswählen, obwohl Portfolios auch mit Datensatztypen verbunden werden können.</p>
+       <p>Es sind nur Workfront-Objekttypen für die Objekttypen des Formulars verfügbar.</p> <p> Wenn beispielsweise in der Liste „Objekttypen“ oben im Formular-Designer „Projekt“ angezeigt wird, können Sie in diesem Feld nur „Projekt“ auswählen und keine Portfolios auswählen. Es ist aber auch möglich, Portfolios mit Datensatztypen zu verbinden.</p>
       </td>
      </tr>
      <tr> 
       <td role="rowheader">Arbeitsbereich</td> 
-      <td> <p>(Erforderlich) Wählen Sie den Arbeitsbereich Planung aus, aus dem die in Workfront anzuzeigenden Datensätze stammen.</p> <p> Es werden nur Arbeitsbereiche angezeigt, die mit den Objekttypen verbunden sind, die Sie im Feld Objekttyp ausgewählt haben. </td> 
+      <td> <p>(Erforderlich) Wählen Sie den Arbeitsbereich Planung aus, aus dem die Datensätze stammen, die in Workfront angezeigt werden sollen.</p> <p> Es werden nur Arbeitsbereiche angezeigt, die mit den im Feld Objekttyp ausgewählten Objekttypen verbunden sind. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Datensatztyp</td> 
-      <td><p>(Erforderlich) Wählen Sie den Datensatztyp für die Workfront-Planung aus, der eine Verbindung zum Workfront-Objekttyp aufweist.</p><p>Es werden nur Datensatztypen angezeigt, die Verbindungen zum Objekttyp haben, den Sie im Feld Objekttyp ausgewählt haben. </p></td> 
+      <td><p>(Erforderlich) Wählen Sie den Workfront Planning-Datensatztyp aus, der über eine Verbindung mit dem Workfront-Objekttyp verfügt.</p><p>Es werden nur Datensatztypen angezeigt, die Verbindungen zu dem im Feld Objekttyp ausgewählten Objekttyp haben. </p></td> 
      </tr>
      <tr> 
       <td role="rowheader">Verbindungsfeld</td> 
-      <td><p>(Erforderlich) Wählen Sie das Verbindungsfeld zwischen dem ausgewählten Planungs-Datensatztyp, der für die Workfront-Objekte angezeigt werden soll, und dem Workfront-Objekttyp aus. </p> <p> <b>NOTE</b></p><p>Sie können mehrere Verbindungsfelder zwischen demselben Objekt und denselben Datensatztypen haben, Sie können jedoch nur ein Feld auswählen.</p>  </td> 
+      <td><p>(Erforderlich) Wählen Sie das Verbindungsfeld zwischen dem ausgewählten Planungs-Datensatztyp, den Sie auf den Workfront-Objekten anzeigen möchten, und dem Workfront-Objekttyp aus. </p> <p> <b>HINWEIS</b></p><p>Sie können mehrere Verbindungsfelder zwischen demselben Objekt und Datensatztyp haben, aber Sie können nur ein Feld auswählen.</p>  </td> 
      </tr>
     </tbody> 
    </table>
@@ -1017,23 +1017,23 @@ So fügen Sie ein Verbindungsfeld Planung hinzu:
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
-   ![Kopiersymbol](assets/copy-field.png)
+   ![copy icon](assets/copy-field.png)
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und fahren Sie mit einem anderen Abschnitt fort, um mit dem Erstellen Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie auf **Speichern und schließen**.
+   Klicken Sie **Speichern und schließen**.
 
-   Sie können das Formular jetzt an ein Objekt anhängen, das über die Workfront-Planung verbunden ist, und einen der folgenden Schritte ausführen:
+   Sie können das Formular jetzt an ein Objekt anhängen, das über Workfront Planning verbunden ist, und einen der folgenden Schritte ausführen:
 
-   * Zeigen Sie die mit dem Workfront-Objekt verknüpften Datensatztypen für die Workfront-Planung an, sofern vorhanden.
-   * Verbinden oder trennen Sie Datensätze vom Workfront-Objekt.
+   * Anzeigen von Workfront Planning-Datensatztypen, die mit dem Workfront-Objekt verbunden sind, falls vorhanden.
+   * Verbinden von Datensätzen mit dem Workfront-Objekt oder Trennen von Datensätzen.
 
-   Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen von Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+   Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
 </div>
 
-## Organisieren und Anzeigen einer Vorschau eines Formulars mit dem Formularentwickler
+## Organisieren und Vorschau eines Formulars mit dem Formular-Designer
 
-Informationen zum Organisieren eines benutzerdefinierten Formulars mit Abschnittspausen und zum Anzeigen einer Vorschau des Formulars finden Sie unter [Organisieren und Anzeigen einer Vorschau eines Formulars mit dem Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Informationen zum Organisieren eines benutzerdefinierten Formulars mit Abschnittsumbrüchen und zum Anzeigen einer Vorschau des Formulars finden Sie unter [Organisieren und Vorschau eines Formulars mit dem Formular-Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
