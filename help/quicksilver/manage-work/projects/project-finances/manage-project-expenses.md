@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: financials
 title: Verwalten von Projektausgaben
-description: Die Erstellung und Verwaltung von Ausgaben ist für Projekt- und Aufgabenausgaben identisch. Alle Ausgaben, die dem Projekt im Geschäftsfall hinzugefügt werden, werden dem Tab Ausgaben als geplante Ausgaben hinzugefügt. Weitere Informationen zum Geschäftsfall finden Sie im Artikel Geschäftsszenario für ein Projekt erstellen .
-author: Alina
+description: Die Erstellung und Verwaltung von Ausgaben ist für Projekt- und Aufgabenausgaben identisch. Alle Ausgaben, die dem Projekt im Geschäftsfall hinzugefügt werden, werden dem Tab Ausgaben als geplante Ausgaben hinzugefügt. Weitere Informationen zum Geschäftsfall finden Sie im Artikel Erstellen eines Geschäftsfeldes für ein Projekt.
+author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '542'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ Der Gesamtbetrag Ihrer Ausgaben für alle Aufgaben und das Projekt trägt zu den
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -29,25 +31,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Arbeit oder höher </p> </td> 
+   <td>
+   <p>Neu: Standard</p>
+   <p>oder</p>
+   <p>Aktuell: Arbeit oder höher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> <p><b>NOTE</b> </p>
-   <p> Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td>Zugriff auf Projekte und Finanzdaten bearbeiten</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute oder höhere Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen oder Verwalten von Finanzmitteln</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td>Contribute oder höhere Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen oder Verwalten von Finanzmitteln</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ausgaben hinzufügen
 

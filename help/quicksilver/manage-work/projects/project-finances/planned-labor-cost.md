@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Planete Arbeitskosten berechnen
 description: Während Sie die Arbeit an Ihren Projekten planen, berechnet Adobe Workfront die geplanten Arbeitskosten für die dieser Arbeit zugewiesenen Rollen und Benutzer anhand ihrer Kosten pro Stunde .
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: af053e9a-09dc-4b4d-8ed4-f681ed611a59
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%

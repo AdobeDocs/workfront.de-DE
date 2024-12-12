@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Nettowert berechnen
 description: Der Nettowert eines Projekts ist der erwartete Gesamtwert des Projekts nach der Berechnung seines Vorteils und der Beseitigung der Kosten.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # Nettowert berechnen
 
-Der Nettowert eines Projekts ist der erwartete Gesamtwert des Projekts nach der Berechnung seines Vorteils und der Beseitigung der Kosten. 
+Der Nettowert eines Projekts ist der erwartete Gesamtwert des Projekts nach der Berechnung seines Vorteils und der Beseitigung der Kosten.
 
 ## Übersicht über den Projektkostenwert
 
-Adobe Workfront berechnet den Nettowert eines Projekts nach folgender Formel: 
+Adobe Workfront berechnet den Nettowert eines Projekts nach folgender Formel:
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: financials
 title: Verwalten von Informationen im Bereich "Projekt-Finanzen"
-description: Verwalten von Informationen im Bereich "Projekt-Finanzen"
-author: Alina
+description: Sie können die Finanzinformationen eines Projekts anzeigen oder bearbeiten, indem Sie auf den Bereich "Finanzen"im Abschnitt "Projektdetails"zugreifen.
+author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1285'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ Sie können die Finanzinformationen eines Projekts anzeigen oder bearbeiten, ind
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -30,26 +32,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td>
+   <td>
+   <p>Neu: Licht oder höher</p>
+   <p>oder</p>
+   <p>Aktuell: Überprüfen oder höher</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder Verbessern des Zugriffs auf Projekte und Finanzdaten</p> <p>Zugriff auf Projekte und Finanzdaten bearbeiten, um Finanzinformationen zu dem Projekt zu bearbeiten</p> <p><b>NOTIZ</b></p>
-   <p> Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td> <p>Anzeigen oder Verbessern des Zugriffs auf Projekte und Finanzdaten</p> <p>Zugriff auf Projekte und Finanzdaten bearbeiten, um Finanzinformationen zu dem Projekt zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen für ein Projekt oder höher, die View Finance-Berechtigungen enthalten</p> <p>Verwalten von Berechtigungen für das Projekt, die "Verwalten von Finanzinformationen"zum Bearbeiten von Finanzinformationen für das Projekt enthalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen für ein Projekt oder höher, die View Finance-Berechtigungen enthalten</p> <p>Verwalten von Berechtigungen für das Projekt, die "Verwalten von Finanzinformationen"zum Bearbeiten von Finanzinformationen für das Projekt enthalten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Übersicht über den Finanzbereich
 

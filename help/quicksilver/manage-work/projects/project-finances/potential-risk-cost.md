@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Potenzielle Risikokosten berechnen
 description: Die potenziellen Risikokosten eines Projekts berücksichtigen die potenziellen Kosten der Projektrisiken und deren Wahrscheinlichkeit des Auftretens.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,8 +28,8 @@ Potential Risk Cost =SUM(Potential Risk Costs * Risk Probability)
 
 Beachten Sie bei der Überprüfung der potenziellen Risikokosten eines Projekts Folgendes:
 
-* Die geplanten Risikokosten eines Projekts entsprechen den potenziellen Risikokosten. 
-* Die potenziellen Risikokosten werden nicht in die geplanten Kosten eines Projekts einbezogen. Stattdessen wird er zur Bestimmung seines Nettowerts verwendet. .
+* Die geplanten Risikokosten eines Projekts entsprechen den potenziellen Risikokosten.
+* Die potenziellen Risikokosten werden nicht in die geplanten Kosten eines Projekts einbezogen. Stattdessen wird er zur Bestimmung seines Nettowerts verwendet.
 
 ## Potenzielle Risikokosten eines Projekts ermitteln
 

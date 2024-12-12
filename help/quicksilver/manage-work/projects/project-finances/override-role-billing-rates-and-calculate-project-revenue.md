@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Übersicht über die Außerkraftsetzung der Abrechnungsraten von Auftragsrollen und die Berechnung des Umsatzes eines Projekts
+title: Übersicht über das Überschreiben der Abrechnungsraten für Auftragsrollen und Berechnung des Umsatzes in einem Projekt
 description: Sie können die Abrechnungssätze verwenden, um den Umsatz Ihrer Projekte zu berechnen, wenn Sie diese mit den im Projekt verbrachten Stunden multiplizieren. Weitere Informationen zu Abrechnungsraten und Umsätzen finden Sie im Artikel Übersicht über Abrechnung und Umsatz .
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%

@@ -2,12 +2,12 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Projektfinanzen in Projektgrundlagen
+title: Projektfinanzierung in Projektgrundlagen
 description: Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem bestimmten Zeitpunkt aussah. Sie speichern wichtige Informationen zum Projekt, wie z. B. Schlüsseldaten, Fortschritt, Kosten und Umsatzwerte.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 705156d0-0daa-40bf-a511-144d56316136
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 14%
