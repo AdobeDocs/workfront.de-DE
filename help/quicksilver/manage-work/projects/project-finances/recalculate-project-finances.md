@@ -6,7 +6,7 @@ description: Die Finanzmittel werden für ein Projekt berechnet, da Änderungen 
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
+source-git-commit: 946b2697d8988fae252a13d982c9aa6685961d43
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -46,11 +46,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
 
 ## Überlegungen zur Finanzberechnung in Adobe Workfront
 
