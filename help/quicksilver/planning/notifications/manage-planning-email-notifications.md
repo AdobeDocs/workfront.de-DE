@@ -1,35 +1,47 @@
 ---
-title: E-Mail-Benachrichtigungen für die Adobe Workfront-Planung verwalten
-description: Wenn Sie in der Adobe Workfront-Planung mit einem Kommentar versehen werden, erhalten Sie eine E-Mail-Benachrichtigung zu diesem Tag.
+title: Verwalten von Adobe Workfront Planning-E-Mail-Benachrichtigungen
+description: Wenn Sie in Adobe Workfront Planning in einem Datensatzkommentar getaggt werden, erhalten Sie eine E-Mail-Benachrichtigung für dieses Tag.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 1%
+source-wordcount: '717'
+ht-degree: 0%
 
 ---
 
 
-# Verwalten von Adobe Workfront-Planungs-E-Mail-Benachrichtigungen
+# Verwalten von Adobe Workfront Planning-E-Mail-Benachrichtigungen
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
-Sie können E-Mail-Benachrichtigungen von der Workfront-Planung erhalten, wenn die folgenden Szenarien vorliegen:
+Sie können E-Mail-Benachrichtigungen von Workfront Planning erhalten, wenn die folgenden Szenarien vorliegen:
 
-* Jemand markiert Sie in einem Datensatz-Kommentar
+* Jemand versieht Sie mit Tags in einem Datensatzkommentar
 
-  Weitere Informationen zum Tagging anderer Kommentare in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
-* Jemand bittet um Ihre Erlaubnis, auf eine Ansicht oder einen Arbeitsbereich zuzugreifen
-* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen Arbeitsbereich gewährt wurde <!--Isk confirmed that there is nno email for denying access but did not test-->
+  Informationen zum Tagging anderer Personen in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
+* Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht oder einen Arbeitsbereich
+* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen <!--Isk confirmed that there is nno email for denying access but did not test--> gewährt wurde
+
+<div class="preview">
+
+* Sie senden eine Workfront Planning-Anfrage. Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* Jemand genehmigt oder lehnt eine von Ihnen gesendete Workfront Planning-Anfrage ab. Weitere Informationen finden Sie unter [Genehmigen einer Anfrage in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
+* Der Status ändert sich in eine von Ihnen gesendete Workfront Planning-Anfrage.
+
+</div>
 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -48,51 +60,51 @@ Sie können E-Mail-Benachrichtigungen von der Workfront-Planung erhalten, wenn d
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> 
-<p>Die folgenden Workfront-Pläne:</p> 
+<p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
 <li>Erstklassig</li> 
 <li>Ultimativ</li></ul> 
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebig </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein.</p> 
-<p>Die Benutzer in Ihrem Unternehmen erhalten nur Benachrichtigungen von Workfront Planning, wenn Ihr Unternehmen mit dem Adobe Unified Experience integriert ist. </p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Die Workfront-Instanz Ihres Unternehmens muss in das einheitliche Adobe-Erlebnis integriert werden.</p> 
+<p>Die Benutzenden in Ihrem Unternehmen erhalten nur dann Benachrichtigungen von Workfront Planning, wenn Ihr Unternehmen zum einheitlichen Adobe-Erlebnis hinzugefügt wird. </p>
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td><p> Standard, Light oder Contributor</p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+   <td><p> Standard, Licht oder Mitwirkende</p>
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>   
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Anzeigen oder höherer Berechtigungen für einen Arbeitsbereich</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p> </td> 
+   <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> </td> 
+   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -153,23 +165,42 @@ OLD:
 -->
 
 
-## Verwalten von E-Mail-Benachrichtigungen, wenn Sie von einem Benutzer in einem Kommentar getaggt werden
+## Verwalten von E-Mail-Benachrichtigungen, wenn jemand Sie in einem Kommentar taggt
 
-1. (Bedingt) Nachdem jemand Sie in einem Kommentar zu einem Datensatz getaggt hat, gehen Sie zur E-Mail-Benachrichtigung, die Sie über das Tag und den Kommentar informiert. Der Absender der E-Mail ist Adobe Experience Cloud.
+1. (Bedingt und optional) Nachdem Sie in einem Kommentar zu einem Datensatz getaggt wurden, wechseln Sie zu der E-Mail-Benachrichtigung, die Sie über das Tag und den Kommentar informiert. Der Absender der E-Mail ist Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
-1. Klicken Sie auf die Meldung im Feld **Workfront**.
+1. (Optional) Klicken Sie auf die Nachricht im Feld **Workfront** in der E-Mail.
 
-   Die Seite mit den Datensatzdetails wird in Workfront geöffnet. Sie können den Datensatz aktualisieren oder auf den Kommentar antworten.
+   Die Seite mit den Datensatzdetails wird in Workfront geöffnet. Sie können Aktualisierungen am Datensatz vornehmen oder auf den Kommentar antworten.
 
-1. (Bedingt) Wenn verfügbar, klicken Sie auf **Alle Benachrichtigungen anzeigen**. <!--check with Lilit - do non-IMS users have this button??-->
-Die Seite **Benachrichtigungen** wird in Adobe Experience Cloud geöffnet. Alle Benachrichtigungen aus allen Adobe Experience Cloud-Anwendungen werden angezeigt.
+1. (Bedingt) Klicken Sie, falls verfügbar, auf **Alle Benachrichtigungen anzeigen**. <!--check with Lilit - do non-IMS users have this button??-->
+Die **Benachrichtigungen** wird in Adobe Experience Cloud geöffnet. Alle Benachrichtigungen von allen Adobe Experience Cloud-Programmen werden angezeigt.
 
 ## Verwalten von E-Mail-Benachrichtigungen beim Anfordern und Gewähren von Berechtigungen
 
-Sie erhalten E-Mail-Benachrichtigungen, wenn jemand Ihnen Berechtigungen für eine Ansicht oder einen Arbeitsbereich erteilt.
+1. (Bedingt und optional) Nachdem Sie von einer Person aufgefordert oder Ihnen Berechtigungen für den Zugriff auf eine Ansicht oder einen Arbeitsbereich erteilt wurden, wechseln Sie zu der E-Mail, in der Sie über die Berechtigungsanfrage informiert werden. Der Absender der E-Mail ist Adobe Experience Cloud.
 
-Informationen zum Anfordern, Gewähren oder Ablehnen von Berechtigungen für eine Ansicht oder einen Arbeitsbereich finden Sie unter [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](/help/quicksilver/planning/access/request-permissions.md).
+1. (Optional) Klicken Sie auf die Nachricht im Feld **Workfront** in der E-Mail.
 
-Informationen zum Verwalten von Workfront-Planungs-Benachrichtigungen finden Sie unter [Voreinstellungen für Adobe Workfront-Planungs-Benachrichtigungen verwalten](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+   Die Seite mit den Datensatzdetails wird in Workfront geöffnet. Sie können Aktualisierungen am Datensatz vornehmen oder auf den Kommentar antworten.
+
+1. (Bedingt) Klicken Sie, falls verfügbar, auf **Alle Benachrichtigungen anzeigen**.
+Die **Benachrichtigungen** wird in Adobe Experience Cloud geöffnet. Alle Benachrichtigungen von allen Adobe Experience Cloud-Programmen werden angezeigt.
+
+
+Informationen zum Anfordern, Gewähren oder Verweigern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich finden Sie [Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern](/help/quicksilver/planning/access/request-permissions.md).
+
+Informationen zum Verwalten Ihrer Workfront Planning-Benachrichtigungen finden Sie unter [Verwalten von Adobe Workfront Planning-Benachrichtigungseinstellungen](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Verwalten von E-Mail-Benachrichtigungen zum Senden, Genehmigen oder Ablehnen von Workfront Planning-Anfragen
+
+1. (Optional) Wechseln Sie zu der E-Mail, die Workfront Ihnen sendet
+nachdem Sie eine Anforderung gesendet haben oder nachdem eine von Ihnen gesendete Anforderung genehmigt oder abgelehnt wurde. Der Absender der E-Mail ist Adobe Workfront.
+
+1. (Optional) Klicken Sie auf **Anfrage öffnen**. Dadurch wird die Anfrage in Workfront Planning geöffnet.
+
+1. Klicken Sie auf **Symbol** Benachrichtigungen![](assets/notifications-area-icon-unified-shell.png) in der rechten oberen Ecke des Bildschirms, um auf die Seite **Benachrichtigungen** zuzugreifen.
+
+   Informationen zum Verwalten Ihrer Workfront Planning-Benachrichtigungen finden Sie unter [Verwalten von Adobe Workfront Planning-Benachrichtigungseinstellungen](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
