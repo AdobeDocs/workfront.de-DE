@@ -2,45 +2,47 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Persönliche Aufgaben erstellen
-description: Persönliche Aufgaben sind Ad-hoc-Arbeitsanfragen, die Sie an einen Benutzer senden, oder Aufgaben, die Sie für sich selbst in Ihrem Home-Bereich erstellen. Workfront speichert Ad-hoc-Arbeitsanfragen und führt Elemente als persönliche Aufgaben aus.
+description: Persönliche Aufgaben sind Ad-hoc-Arbeitsanfragen, die Sie an einen Benutzer bzw. an sich selbst senden, oder Aufgaben, die Sie für sich selbst in Ihrem Home-Bereich erstellen. Workfront speichert Ad-hoc-Arbeitsanfragen und erledigt Elemente als persönliche Aufgaben.
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
-
 
 # Persönliche Aufgaben erstellen
 
 <!--Audited: 10/2024-->
 
-Persönliche Aufgaben sind Ad-hoc-Arbeitsanfragen, die Sie an einen Benutzer senden, oder Aufgaben, die Sie für sich selbst in Ihrem Home-Bereich erstellen.
+Persönliche Aufgaben sind Ad-hoc-Arbeitsanfragen, die Sie an einen Benutzer senden oder selbst an ihn senden oder hinzufügen.
 
-Workfront speichert Ad-hoc-Arbeitsanfragen und führt Elemente als persönliche Aufgaben aus.
+Adobe Workfront speichert Ad-hoc-Arbeitsanfragen und erledigt Elemente als persönliche Aufgaben.
 
-Standardmäßig verfügen alle Benutzer in Workfront über ein Projekt mit dem Namen &quot;&lt; Name (vollständig)&quot;> &quot;Aufgaben&quot;. Beispiel: &quot;Aufgaben von Rick Kuvec&quot;.
+Standardmäßig verfügen alle Workfront-Benutzer über ein persönliches Projekt mit dem Namen „Aufgaben von &quot;&lt; Vollständiger Name des Benutzers>&quot;. Beispiel: „Aufgaben von John Smith“.
 
-Dieses Projekt wird nicht in Suchvorgängen angezeigt und ist ausgeblendet. Alle persönlichen Aufgaben werden in diesem Projekt gespeichert.
+Das persönliche Projekt jedes Benutzers wird nicht in Suchvorgängen angezeigt und es ist ausgeblendet. Alle persönlichen Aufgaben werden in diesem Projekt gespeichert.
 
-Sie können bei Bedarf persönliche Aufgaben in ein Projekt verschieben.
+Bei Bedarf können Sie persönliche Aufgaben in ein Projekt verschieben.
 
 Sie können persönliche Aufgaben wie folgt erstellen:
 
-* Erstellen Sie ein zu bearbeitendes Element in Ihrem Startbereich
+* Erstellen eines Aufgabenelements im Bereich Startseite
 
-  Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen und Projekten aus dem Startbereich](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  Weitere Informationen finden Sie [Erstellen von Arbeitselementen und Projekten im Bereich Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-* Erstellen einer persönlichen Arbeitserfordernis für einen anderen Benutzer
-* Erstellen einer persönlichen Arbeitanfrage für Ihren Benutzer
+* Erstellen und Senden einer persönlichen Arbeitsanfrage an einen anderen Benutzer über die Benutzerprofilseite
+* Erstellen Sie eine persönliche Arbeitsanfrage und senden Sie sie über Ihre Benutzerprofilseite an sich selbst.
 
-In diesem Artikel wird beschrieben, wie Sie eine persönliche Arbeitsanfrage für einen Benutzer erstellen können.
+In diesem Artikel wird beschrieben, wie Sie eine persönliche Arbeitsanfrage für einen Benutzer oder für sich selbst über die Benutzerprofilseite erstellen können.
+
+Unabhängig davon, wie Sie eine persönliche Aufgabe hinzufügen, finden Sie sie in denselben Bereichen von Workfront. Weitere Informationen finden Sie im Abschnitt [Persönliche Aufgabe suchen](#locate-personal-tasks) in diesem Artikel.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -51,66 +53,64 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Abo</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
    <td> 
-   <p>Aktuell: Planen Sie den Versand von Anfragen an andere Benutzer. Alle Benutzer können für sich selbst eine Arbeitsanfrage erstellen.</p>
-   <p>Neu: Standard zum Senden von Anforderungen an andere Benutzer. Alle Benutzer können für sich selbst eine Arbeitsanfrage erstellen.</p> 
-   </td> 
+   <p>Neu: Standard zum Senden von Anfragen an andere Benutzer. Alle Benutzer können einen Arbeitsauftrag für sich selbst erstellen.</p> 
+   <p>Aktuell: Anfragen an andere Benutzer senden. Alle Benutzer können einen Arbeitsauftrag für sich selbst erstellen.</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td> 
-   <td> <p>Bearbeiten Sie den Zugriff auf Benutzer, um eine Arbeitserfordernis für sie zu erstellen. Zeigen Sie den Zugriff an, um eine persönliche Arbeitserfordernis für Sie zu erstellen. </p>
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>Bearbeiten Sie den Zugriff auf Benutzer, um einen Arbeitsauftrag für sie zu erstellen. Zeigen Sie den Zugriff an, um einen persönlichen Arbeitsauftrag für sich selbst zu erstellen. </p>
    </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-## Persönliche Arbeitserfordernisse erstellen
+## Persönlichen Arbeitsauftrag erstellen
 
-1. Gehen Sie zur Profilseite Ihres Benutzers oder zur Profilseite eines anderen Benutzers, auf den Sie Zugriff haben.
+1. Wechseln Sie zur Profilseite Ihres Benutzers oder zur Profilseite eines anderen Benutzers, auf die Sie Zugriff haben.
 
    >[!TIP]
    >
-   >Ihr Workfront-Administrator kann verhindern, dass bestimmte Benutzer angezeigt werden, wenn sie Ihre Zugriffsebene konfigurieren.
+   >Ihr Workfront-Administrator kann möglicherweise verhindern, dass bestimmte Benutzende angezeigt werden, wenn sie Ihre Zugriffsebene konfigurieren.
 
-1. Klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) rechts neben dem Namen des Benutzers in der Kopfzeile.
-1. Klicken Sie auf **Geschäftliche Anfrage senden** .
-Das Feld **Senden einer Arbeitserforderung an einen Benutzer** wird angezeigt.
+1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-menu.png) rechts neben dem Namen des Benutzers in der Kopfzeile.
+1. Klicken Sie **Arbeitsauftrag senden**.
+Das **Benutzer eine Arbeitsanfrage senden** wird angezeigt.
 
    ![](assets/personal-task-box.png)
 1. Aktualisieren Sie die folgenden Informationen:
 
-   * **Aufgabenname**: Dies ist der Name der Ad-hoc-Arbeitanfrage oder der persönlichen Aufgabe.
+   * **Aufgabenname**: Dies ist der Name der Ad-hoc-Arbeitsanfrage oder der persönlichen Aufgabe.
    * **Beschreibung**: Fügen Sie eine Beschreibung für die Aufgabe hinzu.
    * **Zuweisen zu**: Der Name des ausgewählten Benutzers wird standardmäßig angezeigt. Sie können weitere Benutzer oder Teams hinzufügen.
-   * **Fälligkeitsdatum**: Dies ist das Datum, bis zu dem diese Aufgabe abgeschlossen werden soll. Standardmäßig ist dies das heutige Datum. Ein Datum aus der Vergangenheit kann nicht ausgewählt werden
-   * **Zeit**: Dies ist der Zeitpunkt, zu dem diese Aufgabe abgeschlossen werden soll. Standardmäßig ist dies die aktuelle Zeit.
+   * **Fälligkeitsdatum**: Dies ist das Datum, bis zu dem diese Aufgabe abgeschlossen sein soll. Standardmäßig ist dies das heutige Datum. Es kann kein Datum in der Vergangenheit ausgewählt werden
+   * **Zeit**: Dies ist der Zeitpunkt, zu dem diese Aufgabe abgeschlossen sein soll. Standardmäßig ist dies die aktuelle Zeit.
 
-1. Klicken Sie auf **Anfrage senden** , um die Arbeitserforderung zu speichern.
+1. Klicken Sie **Anforderung senden** um die Arbeitsanfrage zu speichern.
 
-   Die Arbeitsanforderung wird als persönliche Aufgabe in Workfront gespeichert und Ihrem Aufgaben-Widget im Home-Bereich hinzugefügt.
-
-   <!--this last step will need to be updated when they fix this functionality and the work requests you create for others actually go to their To do widget instead of yours-->
-
-## Lokalisieren von persönlichen Aufgaben
-
-Sie können persönliche Aufgaben in den folgenden Bereichen finden:
-
-* Das Widget Aufgaben im Bereich Startseite . Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen und Projekten aus dem Startbereich](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
-
-* Ein persönlicher Aufgabenbericht oder eine Liste. Sie können einen Filter für persönliche Aufgaben erstellen und auf einen Aufgabenbericht oder eine Aufgabenliste anwenden. Weitere Informationen finden Sie unter [Filtern: persönliche Aufgaben](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+   Die Arbeitsanfrage wird in Workfront als persönliche Aufgabe gespeichert und dem Aufgaben-Widget des Benutzers auf seiner Startseite hinzugefügt. Wenn Sie die Arbeitsanfrage an sich selbst senden, wird sie in Ihrem Aufgaben-Widget auf der Startseite angezeigt.
 
 
+## Persönliche Aufgaben suchen
 
+Sie können persönliche Aufgaben in den folgenden Bereichen suchen:
 
+* Das Aufgaben-Widget im Home-Bereich des Benutzers, an den die persönliche Anfrage gesendet wurde.
 
+  Weitere Informationen finden Sie [Erstellen von Arbeitselementen und Projekten im Bereich Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+
+* Ein persönlicher Aufgabenbericht oder eine Liste. Sie können einen Filter für persönliche Aufgaben erstellen und auf einen Aufgabenbericht oder eine Aufgabenliste anwenden, um nur persönliche Aufgaben anzuzeigen und Projektaufgaben auszuschließen.
+
+  Weitere Informationen finden Sie [Filter: Persönliche Aufgaben](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).

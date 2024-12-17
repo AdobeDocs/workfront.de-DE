@@ -1,16 +1,16 @@
 ---
 content-type: release-notes
-keywords: Version
+keywords: freilassen
 navigation-topic: product-announcements
 title: Adobe Workfront-Veröffentlichungszeitplan und -prozess
-description: Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktionen aktualisiert. Diese Funktionen werden in den Versionshinweisen für die bevorstehende vierteljährliche Version kommuniziert.
+description: Die Vorschau-Umgebung wird einmal wöchentlich mit neuen Funktionen aktualisiert. Diese Funktionen werden in den Versionshinweisen für die kommende vierteljährliche Version beschrieben.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -19,80 +19,80 @@ ht-degree: 0%
 
 ## Zeitplan für die Vorschau aktualisieren
 
-Die Vorschau -Umgebung wird einmal wöchentlich mit neuen Funktionen aktualisiert. Diese Funktionen werden in den Versionshinweisen für die bevorstehende vierteljährliche Version kommuniziert.
+Die Vorschau-Umgebung wird einmal wöchentlich mit neuen Funktionen aktualisiert. Diese Funktionen werden in den Versionshinweisen für die kommende vierteljährliche Version beschrieben.
 
-Die Versionen finden in der Regel um 20-22 Uhr US Mountain Time statt.
+Veröffentlichungen finden in der Regel um 8-22 Uhr US Mountain Time statt.
 
 ## Zeitplan für die Produktion aktualisieren
 
 ### Produktfunktionen
 
 
-Adobe Workfront verfügt über zwei Modelle zur Veröffentlichung neuer Funktionen und Updates. Ihr Unternehmen kann entscheiden, ob es neue Funktionen vierteljährlich oder nach einem Zeitplan für eine schnellere Veröffentlichung erhält.
+Adobe Workfront verfügt über zwei Modelle zur Veröffentlichung neuer Funktionen und Aktualisierungen. Ihr Unternehmen kann wählen, ob es neue Funktionen vierteljährlich oder einen schnelleren Veröffentlichungszeitplan erhält.
 
-Die monatlichen und vierteljährlichen Versionen sollen am Donnerstag der zweiten vollen Woche des Monats verfügbar sein, sofern nichts anderes angegeben ist. Bevorstehende Datumsangaben finden Sie in der neuesten [Versionsübersicht](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen am Donnerstag der zweiten vollen Woche des Monats verfügbar. Informationen zu kommenden Terminen finden Sie im aktuellen [Versionsübersicht](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-Versionen finden in der Regel um 20-22 Uhr US Mountain Time am Abend vor dem Veröffentlichungsdatum statt.
+Veröffentlichungen finden in der Regel um 8-22 Uhr US Mountain Time am Abend vor dem Veröffentlichungsdatum statt.
 
-In der Regel werden Funktionen in der Vorschau in Ihrer Produktionsumgebung mit der nächsten Version verfügbar gemacht. In einigen Fällen werden Funktionen jedoch außerhalb einer geplanten Version in der Produktionsumgebung bereitgestellt. Diese Änderungen bleiben mindestens 2 Wochen in der Vorschau, um Ihnen ausreichend Zeit zu geben, die Änderungen kennenzulernen. Diese Änderungen werden auch über das Ankündigungszentrum mitgeteilt, sobald sie der Vorschau hinzugefügt werden.
+Normalerweise werden Funktionen in der Vorschau mit der nächsten Version in Ihrer Produktionsumgebung bereitgestellt. In einigen Fällen werden Funktionen jedoch auch außerhalb einer geplanten Version in der Produktionsumgebung bereitgestellt. Diese Änderungen bleiben in der Regel mindestens 2 Wochen in der Vorschau, um Ihnen ausreichend Zeit zu geben, sich mit den Änderungen vertraut zu machen.
 
-Weitere Informationen zu Quartals- und Fast-Release-Prozessen finden Sie unter [Aktivieren oder Deaktivieren von Fast-Releases für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+Weitere Informationen zu den vierteljährlichen und Schnellveröffentlichungsprozessen finden Sie unter [Aktivieren oder Deaktivieren von Schnellveröffentlichungen für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-### Wartungsaktualisierungen
+### Wartungs-Updates
 
-Problembehebungen für das Adobe Workfront-Produkt werden wöchentlich in der Produktionsumgebung bereitgestellt. Auf der Seite [Workfront-Wartungsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) erfahren Sie, was kürzlich behoben wurde.
+Problembehebungen für das Adobe Workfront-Produkt werden wöchentlich in der Produktionsumgebung bereitgestellt. Auf der Seite [Wartungs-Updates für ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)Workfront) finden Sie Fehlerbehebungen für die letzte Zeit.
 
 ## Aus einer geplanten Version entfernte Funktionen
 
-Alle Funktionen, die mit einer bestimmten Version (monatlich oder vierteljährlich) verknüpft sind, stehen mindestens 2 bis 4 Wochen vor der endgültigen Veröffentlichung in der Produktions-Vorschau zum Testen zur Verfügung. Wenn Funktionen vor diesem Zeitpunkt aus der geplanten Version entfernt werden, werden die folgenden Aktionen ausgeführt, um Kunden zu informieren:
+Alle mit einer bestimmten Version verbundenen Funktionen (monatlich oder vierteljährlich) können mindestens 2-4 Wochen vor der endgültigen Veröffentlichung in der Vorschau getestet werden. Wenn Funktionen vor diesem Zeitpunkt aus der geplanten Version entfernt wurden, werden die folgenden Aktionen durchgeführt, um Kundinnen und Kunden zu informieren:
 
-* Die Versionshinweise für die geplante Version (zu finden auf der Seite [Produktversionen](../../product-announcements/product-releases/product-releases.md) ) werden aktualisiert und zeigen an, dass die Funktion entfernt wurde.
+* Die Versionshinweise für die geplante Version (auf der Seite [Produktversionen](../../product-announcements/product-releases/product-releases.md)) werden aktualisiert, um anzugeben, dass die Funktion entfernt wurde.
 
-Wenn Funktionen aus der geplanten Version entfernt werden, nachdem alle Funktionen in der Vorschau getestet werden können, werden die folgenden Aktionen ausgeführt, um die Kunden zu informieren:
+Wenn Funktionen aus der geplanten Version entfernt werden, nachdem alle Funktionen zum Testen in der Vorschau verfügbar sind, werden die folgenden Aktionen ausgeführt, um Kunden zu informieren:
 
-* Die Versionshinweise für die Version (zu finden auf der Seite [Produktversionen](../../product-announcements/product-releases/product-releases.md) ) werden aktualisiert und zeigen an, dass die Funktion entfernt wurde.
-* Der Workfront-Community wird ein Beitrag hinzugefügt, in dem erklärt wird, dass die Funktion entfernt wurde.
-* Über das Ankündigungszentrum wird allen Kunden eine Nachricht gesendet, in der darauf hingewiesen wird, dass die Funktion entfernt wurde. (Das Kommunikationszentrum ist das In-App-Benachrichtigungszentrum von Workfront. Weitere Informationen finden Sie unter [Mitteilungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+* Die Versionshinweise für die Version (auf der Seite [Produktversionen](../../product-announcements/product-releases/product-releases.md)) werden aktualisiert, um anzugeben, dass die Funktion entfernt wurde.
+* Ein Beitrag wurde der Workfront-Community hinzugefügt, der darauf hinweist, dass die Funktion entfernt wurde.
+* Über das Announcement Center wird eine Nachricht an alle Kunden gesendet, in der darauf hingewiesen wird, dass die Funktion entfernt wurde. (Das Ankündigungszentrum ist das In-App-Benachrichtigungszentrum von Workfront. Weitere Informationen finden Sie unter [Ankündigungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
 ## Beta-Versionen
 
-Manchmal veröffentlicht Workfront neue Funktionen als Teil eines Betaprogramms.
-Die spezifischen Informationen zu den einzelnen Beta-Versionen, einschließlich der Teilnahme, werden bei jedem Start eines Betaprogramms und aller Betaprogramme unterschiedlich veröffentlicht.
+Gelegentlich veröffentlicht Workfront neue Funktionen als Teil eines Beta-Programms.
+Die spezifischen Informationen zu jeder Beta-Version, einschließlich der Teilnahme, der Veröffentlichung, wenn jedes Beta-Programm gestartet wird, und aller Beta-Programme sind unterschiedlich.
 
-Die folgenden Betaprogramme sind in Workfront verfügbar:
+Die folgenden Beta-Programme sind in Workfront verfügbar:
 
-* **Geschlossene oder private Beta-Version**: Die folgenden Merkmale sind bei einer geschlossenen oder privaten Beta-Version vorhanden:
+* **Geschlossene oder private Beta**: Im Folgenden finden Sie die Merkmale einer geschlossenen oder privaten Beta-Version:
 
    * Funktionen stehen nur einer kleinen Gruppe von Kunden zur Verfügung, die sorgfältig von Workfront ausgewählt wurden.
-   * Teilnehmer arbeiten normalerweise mit einem Produkt-Manager zusammen und geben regelmäßig Feedback.
-   * Neue Funktionen, die Teil der Beta-Version sind, können entweder für die Vorschau oder die Produktion oder in einer separaten Umgebung veröffentlicht werden, die für die Zwecke des Betaprogramms zur Verfügung gestellt wird. Geschlossene Beta-Funktionen werden in zufälligen Abständen und ohne Warnung veröffentlicht.
-   * Auf den Seiten zur Produktversion gibt es keine Versionsinformationen für geschlossene Betas.
+   * Die Teilnehmer arbeiten in der Regel mit einem Produkt-Manager zusammen und geben regelmäßig Feedback.
+   * Neue Funktionen, die Teil der Beta-Version sind, können entweder für die Vorschau oder die Produktion oder in einer separaten Umgebung veröffentlicht werden, die für die Zwecke des Beta-Programms zur Verfügung gestellt wird. Geschlossene Beta-Funktionen werden in zufälligen Intervallen und ohne Warnung veröffentlicht.
+   * Es gibt keine Versionsinformationen zu geschlossenen Betas auf den Produktversionsseiten.
 
-* **Öffnen oder öffentliche Beta-Version**: Die folgenden Merkmale sind bei einer öffentlichen Beta-Version verfügbar:
+* **Offene oder öffentliche Beta**: Im Folgenden finden Sie Merkmale einer offenen oder öffentlichen Beta-Version:
 
-   * Die Funktionen sind für alle Workfront-Kunden verfügbar, befinden sich jedoch in der Beta-Phase. Sie sind möglicherweise nicht immer vollständig funktionsfähig und Feedback ist immer willkommen.
-   * Die Teilnahme an einer öffentlichen Beta-Version ist optional und die Kunden können entscheiden, ob sie die Beta-Funktionen selbst aktivieren.
+   * Die Funktionen stehen allen Workfront-Kunden zur Verfügung, befinden sich jedoch in einem Beta-Zustand. Sie sind möglicherweise nicht immer voll funktionsfähig und Feedback ist immer willkommen.
+   * Die Teilnahme an einer öffentlichen Beta-Version ist optional und Kunden können selbst entscheiden, ob sie die Beta-Funktionen aktivieren möchten.
    * Neue Funktionen, die Teil der Beta-Version sind, können entweder in der Vorschau oder in der Produktion veröffentlicht werden.
-   * Funktionen werden möglicherweise häufiger veröffentlicht als die üblichen Veröffentlichungsmuster für Workfront.
-   * Informationen darüber, wann Funktionen für eine öffentliche Beta-Version veröffentlicht werden, finden Sie auf den Seiten zur Produktversion.
+   * Funktionen werden möglicherweise häufiger veröffentlicht als die regulären Veröffentlichungsmuster für Workfront.
+   * Informationen darüber, wann Funktionen in einer öffentlichen Beta-Version veröffentlicht werden, finden Sie auf den Produktversionsseiten.
 
-Weitere Informationen zu den Versionshinweisen finden Sie unter [Produktversionen](../../product-announcements/product-releases/product-releases.md).
+Informationen zu Produktversionshinweisen finden Sie unter [Produktversionen](../../product-announcements/product-releases/product-releases.md).
 
 ## Andere Versionen
 
-Manchmal veröffentlicht Workfront Funktionen, die möglicherweise nicht in den Versionshinweisen, Wartungsaktualisierungen oder in den Dokumentationsartikeln dokumentiert sind. Dies geschieht in dem Bemühen, neue Funktionen zu testen, bevor sie dauerhaft werden. Normalerweise werden diese Tests für eine begrenzte Anzahl von Kunden freigegeben, aber es kann auch vorkommen, dass sie für alle freigegeben werden. Sie können entweder in der Vorschau- oder in der Produktionsumgebung freigegeben werden.
+Manchmal veröffentlicht Workfront Funktionen, die möglicherweise nicht in den Versionshinweisen, Wartungs-Updates oder in anderen Dokumentationsartikeln dokumentiert sind. Dies geschieht, um neue Funktionen zu testen, bevor sie dauerhaft gemacht werden. Normalerweise werden diese Tests für eine begrenzte Anzahl von Kunden freigegeben, aber es kann eine Zeit geben, in der sie für alle freigegeben werden. Sie können entweder in der Vorschau- oder in der Produktionsumgebung veröffentlicht werden.
 
-Wenn Sie im System auf etwas stoßen, das nicht mit der Dokumentation übereinstimmt und zu dem Sie möglicherweise Fragen haben, wenden Sie sich an unser Support-Team. Weitere Informationen finden Sie unter [Wenden Sie sich an den Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Wenn Sie im System auf etwas stoßen, das nicht der Dokumentation entspricht und zu dem Sie Fragen haben, wenden Sie sich bitte an unser Kundensupportteam. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Versionshinweise
 
-Verwenden Sie die Versionshinweise für die bevorstehende geplante Version, um zu sehen, welche neuen Funktionen in der Vorschau verfügbar sind und wann sie für die Produktion freigegeben werden.
+Verwenden Sie die Versionshinweise für die kommende geplante Version, um zu sehen, welche neuen Funktionen in der Vorschau verfügbar sind und wann sie in der Produktion veröffentlicht werden.
 
-Die Versionshinweise für die nächste geplante Version finden Sie unter [Produktversionen](../../product-announcements/product-releases/product-releases.md) und klicken Sie dann auf den Link, um zur Übersichtsseite für die nächste Version zu gelangen.
+Die Versionshinweise für die nächste geplante Version finden Sie unter [Produktversionen](../../product-announcements/product-releases/product-releases.md). Klicken Sie dann auf den Link, um zur Seite mit der Versionsübersicht für die kommende Version zu gelangen.
 
-Die Versionshinweise enthalten eine Tabelle mit einer Liste der Funktionen in der linken Spalte und eine kurze Beschreibung der einzelnen Funktionen. Sie können auf einen Funktionslink klicken, um ein Demovideo der neuen Funktion anzuzeigen, und auf die Dokumentation zur neuen Funktion zugreifen. In der rechten Spalte sehen Sie die folgenden Informationen für jede Funktion:
+Die Versionshinweise enthalten eine Tabelle mit einer Liste von Funktionen in der linken Spalte mit einer kurzen Beschreibung jeder Funktion. Sie können auf einen Funktions-Link klicken, um ein Demovideo der neuen Funktion anzuzeigen und auf die Dokumentation zur neuen Funktion zuzugreifen. In der rechten Spalte werden für jede Funktion die folgenden Informationen angezeigt:
 
-* Versionsdatum der Vorschau
+* Vorschau des Veröffentlichungsdatums
 * Produktionsveröffentlichungsdatum
 
 Beispiel:
