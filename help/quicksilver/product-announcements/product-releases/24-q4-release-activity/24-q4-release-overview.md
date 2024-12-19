@@ -1,50 +1,50 @@
 ---
-title: Übersicht über die Version 2024 im vierten Quartal
-description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version vom vierten Quartal 2024 enthalten sind. Diese Verbesserungen sollen während des gesamten Quartals in der Produktionsumgebung verfügbar sein.
+title: Versionsübersicht für das vierte Quartal 2024
+description: Diese Seite enthält Informationen zur Funktionalität, die in der Version vom vierten Quartal 2024 enthalten ist. Diese Verbesserungen werden voraussichtlich im gesamten Quartal in der Produktionsumgebung verfügbar sein.
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
 
-# Übersicht über die Version 2024 im vierten Quartal
+# Versionsübersicht für das vierte Quartal 2024
 
-Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version vom vierten Quartal 2024 enthalten sind. Diese Verbesserungen sollen während des gesamten Quartals in der Produktionsumgebung verfügbar sein.
+Diese Seite enthält Informationen zur Funktionalität, die in der Version vom vierten Quartal 2024 enthalten ist. Diese Verbesserungen werden voraussichtlich im gesamten Quartal in der Produktionsumgebung verfügbar sein.
 
-<span class="preview">Off-Cycle-Funktionen (diejenigen, die vor dem Veröffentlichungsdatum des vierten Quartals 2024 für die Produktion freigegeben wurden) sind gelb hervorgehoben.</span>
+<span class="preview">Off-Cycle-Funktionen (die vor dem Veröffentlichungsdatum des vierten Quartals 2024 in der Produktion veröffentlicht wurden) sind gelb hervorgehoben.</span>
 
 >[!IMPORTANT]
 >
->Die Version 23.3 beinhaltet die Option, Ihr Unternehmen auf monatliche Releases umzustellen. Daher hat Workfront das Nummerierungsschema der Veröffentlichungen geändert, um sowohl die monatlichen als auch die vierteljährlichen Versionsspuren zu berücksichtigen. Die erste Zahl bezeichnet das Jahr und die zweite Zahl den Monat der Veröffentlichung. Beispiel: Die Version für April 2024 lautet 24.4.
+>Die Version 23.3 enthielt die Option, Ihr Unternehmen auf monatliche Versionen umzustellen. Aus diesem Grund hat Workfront das Nummerierungsschema der Versionen geändert, um sowohl monatliche als auch vierteljährliche Veröffentlichungsspuren zu berücksichtigen. Die erste Zahl bezeichnet das Jahr und die zweite Zahl den Monat der Veröffentlichung. Beispiel: Die Version für April 2024 lautet wie 24.4.
 >
->Die monatlichen und vierteljährlichen Versionen sollen am Donnerstag der zweiten vollen Woche des Monats verfügbar sein, sofern nichts anderes angegeben ist.
+>Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen am Donnerstag der zweiten vollen Woche des Monats verfügbar.
 >
->| Monatliche Version | Quartalsversion |
+>| Monatliche Version | Vierteljährliche Veröffentlichung |
 >|----|----|
->| <ul><li>24.8 (15. August 2024)</li><li>24.9 (12. September 2024)</li><li>24.10 Uhr (17. Oktober 2024)</li></ul> | <ul><li>24.10 Uhr (17. Oktober 2024)</li></ul> |
+>| <ul><li>24.8 (15. August 2024)</li><li>24.9 (12. September 2024)</li><li>24.10 (17. Oktober 2024)</li></ul> | <ul><li>24.10 (17. Oktober 2024)</li></ul> |
 >
->Beachten Sie, dass für die endgültige Version jedes Quartals (24.10 in diesem Quartal) die Benutzer des Zeitplans für die schnelle Veröffentlichung die Version einen Tag früher erhalten.
+>Beachten Sie, dass die Benutzer des Zeitplans für die schnelle Veröffentlichung jedes Quartals (24.10 in diesem Quartal) die Veröffentlichung einen Tag früher erhalten werden.
 >
->Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter [Aktivieren oder Deaktivieren des Prozesses der schnellen Veröffentlichung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Weitere Informationen zum Schnellfreigabeprozess finden Sie unter [Aktivieren oder Deaktivieren des Schnellfreigabeprozesses](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Adobe Workfront-Verbesserungen
 
-* [Administratorverbesserungen](#administrator-enhancements)
-* [Verbesserungen bei der Dokumentenverwaltung](#document-management-enhancements)
-* [Verbesserungen der Startseite](#home-enhancements)
+* [Administrator-Verbesserungen](#administrator-enhancements)
+* [Verbesserungen beim Dokumentenmanagement](#document-management-enhancements)
+* [Home-Verbesserungen](#home-enhancements)
 * [Integrationsverbesserungen](#integration-enhancements)
 * [Projektverbesserungen](#project-enhancements)
-* [Verbesserungen bei der Überprüfung](#proofing-enhancements)
-* [Verbesserungen bei Berichten und Dashboards](#report-and-dashboard-enhancements)
+* [Proofing-Verbesserungen](#proofing-enhancements)
+* [Verbesserungen an Berichten und Dashboards](#report-and-dashboard-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 * [Funktion wird bald aus Workfront entfernt](#functionality-soon-to-be-removed-from-workfront)
 
-### Administratorverbesserungen
+### Administrator-Verbesserungen
 
 <table>
     <col style="width: 50%;" />
@@ -62,14 +62,14 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Zugriffsebene ist jetzt in der Umgebungsförderung verfügbar</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Zugriffsebene jetzt in der Umgebungsförderung verfügbar</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Um die Funktionen der Umgebungsförderungsfunktion zu erweitern, haben wir die Möglichkeit hinzugefügt, Zugriffsebenen einzubeziehen. Jetzt können Sie eine Zugriffsebene in einer Sandbox-Umgebung konfigurieren und diese Zugriffsebene dann in Ihre Produktionsumgebung weiterleiten.</p>
+                    <p>Um die Funktionen der Umgebungsförderung zu erweitern, haben wir die Möglichkeit hinzugefügt, Zugriffsebenen einzuschließen. Jetzt können Sie eine Zugriffsebene in einer Sandbox-Umgebung konfigurieren und diese Zugriffsebene dann in Ihre Produktionsumgebung übertragen.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 17. Oktober 2024</p>
+                            <p>Vorschau der Version: 17. Oktober 2024</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -79,14 +79,14 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ein Zähler für benutzerdefinierte Formulare zeigt die Anzahl der Felder an</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ein Zähler in benutzerdefinierten Formularen zeigt die Anzahl der Felder an</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Langfristig kann es schwierig sein zu wissen, wie viele Felder im Formular vorhanden sind und ob Sie die Grenze erreichen. Den benutzerdefinierten Formularen unten links wurde ein Zähler hinzugefügt. Der Zähler zeigt an, wie viele Felder im Formular verwendet werden, und er ist immer sichtbar, wenn Sie im Formularentwickler einen Bildlauf durchführen.</p>
+                    <p>Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Bei einem langen Formular kann es schwierig sein zu wissen, wie viele Felder sich im Formular befinden und ob Sie sich dem Limit nähern. Benutzerdefinierte Formulare wurden links unten um einen Zähler erweitert. Der Zähler zeigt an, wie viele Felder im Formular verwendet werden. Er ist immer sichtbar, wenn Sie im Formular-Designer scrollen.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 1. Oktober 2024</p>
+                            <p>Vorschau der Version: 1. Oktober 2024</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -96,11 +96,11 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">In Layoutvorlagen ist jetzt die Option "Alle auswählen"verfügbar</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> Option „Alle auswählen“ ist jetzt in Layout-Vorlagen verfügbar</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Um das Anzeigen und Ausblenden von Feldern mit Layoutvorlagen zu vereinfachen, wurde den Bereichen Übersicht und Finanzen in der Detailansicht in einer Layoutvorlage das Kontrollkästchen "Alle auswählen"hinzugefügt. Diese Option ist verfügbar, wenn Sie Projekt, Aufgabe, Problem, Portfolio oder Programm unter "Anpassen, was Benutzer sehen"ausgewählt haben.</p>
+                    <p>Damit Sie Felder mit Layout-Vorlagen leichter anzeigen und ausblenden können, wurde ein Kontrollkästchen „Alle auswählen“ zu den Bereichen Übersicht und Finanzen der Detailansicht in einer Layout-Vorlage hinzugefügt. Diese Option ist verfügbar, wenn Sie Projekt, Aufgabe, Problem, Portfolio oder Programm unter „Anpassen, was Benutzer sehen“ ausgewählt haben.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
                             <p>Vorschau-Version: 29. August 2024</p>
@@ -113,17 +113,17 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Weiterleiten von Umgebungs-Promotion-Paketen</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Zurücksetzen von Umgebungs-Promotion-Paketen</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Um die Umgebungsförderung flexibler und benutzerfreundlicher zu gestalten, haben wir die Rollback-Funktion aktiviert. Jetzt können Sie Pakete innerhalb von 24 Stunden zurücksetzen, um frühere Konfigurationen, die von einem Umgebungs-Promotionpaket betroffen sind, leichter wiederherzustellen.</p>
+                    <p>Um die Umgebungsförderung flexibler und benutzerfreundlicher zu gestalten, haben wir die Rollback-Funktion aktiviert. Jetzt können Sie Pakete innerhalb von 24 Stunden zurücksetzen, sodass Sie frühere Konfigurationen, die von einem Umgebungs-Promotion-Paket betroffen waren, einfacher wiederherstellen können.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
                             <p>Vorschau-Version: 29. August 2024</p>
                         </li>
                         <li>
-                            <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.9 (12. September 2024)</p>
+                            <p>Produktion für die schnelle Veröffentlichung: Mit der Version 24.9 (12. September 2024)</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -133,32 +133,32 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Layout-Schaltfläche im benutzerdefinierten Formularentwickler erlaubt zwei oder drei Spalten</a></p>
-                    <p>Mit der Schaltfläche "Layout"im benutzerdefinierten Formularentwickler können Sie aus einem zweispaltigen oder dreiseitigen Arbeitsbereich wählen. Der ursprüngliche Formularentwickler verwendet drei Spalten und die Feldeinstellungen werden in der Spalte ganz rechts angezeigt. Wenn Sie zwei Spalten auswählen, werden die Feldeinstellungen in der Spalte ganz links neben der Feldbibliothek angezeigt.</p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Die Schaltfläche „Layout“ im benutzerdefinierten Formular-Designer lässt zwei oder drei Spalten zu</a></p>
+                    <p>Mit der Schaltfläche „Layout“ im benutzerdefinierten Formular-Designer können Sie aus einem zwei- oder dreispaltigen Arbeitsbereich auswählen. Der ursprüngliche Formular-Designer verwendet drei Spalten, und die Feldeinstellungen werden in der ganz rechten Spalte angezeigt. Wenn Sie zwei Spalten auswählen, werden die Feldeinstellungen neben der Feldbibliothek in der ganz linken Spalte angezeigt.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
                             <p><s>Vorschau-Version: 12. August 2024</s></p>
                         </li>
                         <li>
-                            <p>Produktion für schnelle Veröffentlichung: nicht zutreffend</p>
+                            <p>Produktion für schnelle Freigabe: Nicht zutreffend</p>
                         </li>
                         <li>
-                            <p>Produktionsversion für alle Kunden: nicht verfügbar</p>
+                            <p>Produktionsfreigabe für alle Kunden: Nicht zutreffend</p>
                         </li>
                     </ul>
-                    <p><i>Diese Funktion wurde aus der Vorschau entfernt und wird bei zukünftigen Versionen nicht veröffentlicht.</i></p>
+                    <p><i>Diese Funktion wurde aus der Vorschau entfernt und wird in zukünftigen Versionen nicht mehr veröffentlicht.</i></p>
                 </td>
             </tr>
         </tbody>
 </table>
 
-### Verbesserungen bei der Dokumentenverwaltung
+### Verbesserungen beim Dokumentenmanagement
 
 >[!IMPORTANT]
 >
->Die in den **Verbesserungen der Dokumentenverwaltung** aufgelisteten Funktionen sind Teil einer schrittweisen Veröffentlichung und stehen nur bestimmten Kunden zur Verfügung.
+>Die in **Document Management-Verbesserungen** aufgelisteten Funktionen sind Teil einer stufenweisen Veröffentlichung und nur für bestimmte Kundinnen und Kunden verfügbar.
 
 <table>
     <col style="width: 50%;" />
@@ -176,13 +176,13 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Status der Dokumententscheidung direkt in der Dokumentliste anzeigen</a></p>
-                    <p>Der Entscheidungsstatus eines Dokuments kann jetzt direkt in der Dokumentliste angezeigt werden.</p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Dokumententscheidungsstatus direkt in der Dokumentliste anzeigen</a></p>
+                    <p>Sie können jetzt den Entscheidungsstatus eines Dokuments direkt in der Dokumentliste anzeigen.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p><s>Vorschau-Version: 3. Oktober 2024</s></p>
+                            <p><s>Vorschau der Version: 3. Oktober 2024</s></p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -192,14 +192,14 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> Schnelles Hinzufügen früherer Überprüfer und Genehmiger zu neuen Dokumentversionen</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Schnelles Hinzufügen früherer Prüfer und genehmigender Personen zu neuen Dokumentversionen</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Sie können jetzt schnell Überprüfer und Genehmiger aus früheren Dokumentversionen hinzufügen.</p>
+                    <p>Sie können jetzt schnell Reviewer und genehmigende Personen aus früheren Dokumentversionen hinzufügen.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 3. Oktober 2024</p>
+                            <p>Vorschau der Version: 3. Oktober 2024</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -210,7 +210,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         </tbody>
 </table>
 
-### Verbesserungen der Startseite
+### Home-Verbesserungen
 
 <table>
     <col style="width: 50%;" />
@@ -228,19 +228,19 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Aktualisierungen für das Warten auf mein Genehmigungs-Widget auf der neuen Startseite</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Aktualisierungen des Widgets „Warten auf meine Genehmigung“ in der neuen Startseite</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Wir haben die folgenden Änderungen am Widget Erwartung meiner Genehmigung vorgenommen:</p>
+                    <p>Wir haben die folgenden Änderungen am Widget „Warten auf meine Genehmigung“ vorgenommen:</p>
                         <ul>
-                            <li>Das Widget wurde umbenannt: Der Name dieses Widgets lautet jetzt Meine Genehmigungen .</li>
-                            <li>Hinzufügung von Validierungen, die ich als Filteroption gesendet habe: Sie können jetzt mit diesem Widget auf der neuen Startseite gesendete Genehmigungen anzeigen.</li>
-                            <li>Deadline: Sie können jetzt die Testversand-Deadline sehen, wenn eine festgelegt wurde. Wenn kein Termin festgelegt ist, wird als Frist standardmäßig das Erstellungsdatum verwendet.</li>
+                            <li>Das Widget wurde umbenannt: Der Name dieses Widgets lautet jetzt „Meine Genehmigungen“.</li>
+                            <li>Meine als Filteroption übermittelten Genehmigungen wurden hinzugefügt: Mit diesem Widget können Sie jetzt die Genehmigungen anzeigen, die Sie auf der neuen Startseite gesendet haben.</li>
+                            <li>Frist: Sie können jetzt die Frist für den Korrekturabzug sehen, sofern eine Frist festgelegt wurde. Wenn kein Termin festgelegt ist, wird für den Termin standardmäßig das Erstellungsdatum verwendet.</li>
                         </ul>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 10. Oktober 2024</p>
+                            <p>Vorschau der Version: 10. Oktober 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 10. Oktober 2024</span></p>
@@ -252,18 +252,18 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Einführung von Prioritäten: Ein einfacheres, optimiertes und intuitives Workfront-Erlebnis für Aufgabenbesitzer</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Prioritätensetzung verbessert Fokus und Produktivität, um Kunden zu helfen, in kürzerer Zeit mehr zu erreichen.</p>
-                    <p>Bei Prioritäten haben Sie folgende Möglichkeiten:</p>
+                    <p>Prioritäten verbessern die Fokussierung und Produktivität, damit Kunden in kürzerer Zeit mehr erreichen können.</p>
+                    <p>Mit Prioritäten können Sie Folgendes genießen:</p>
                         <ul>
-                            <li>Verwaltung und Priorisierung von täglichen Aufgaben: Organisieren Sie Ihren Tag oder Ihre Woche mit konsolidierter Navigation, um mehr Klarheit zu schaffen.</li>
-                            <li>Höhere Produktivität: Greifen Sie auf den Projektkontext zu und führen Sie Aufgaben schneller mit weniger Klicks durch.</li>
+                            <li>Tägliche Aufgaben verwalten und priorisieren: Organisieren Sie Ihren Tag oder Ihre Woche mit konsolidierter Navigation für mehr Klarheit.</li>
+                            <li>Höhere Produktivität: Greifen Sie auf den Projektkontext zu und führen Sie Aufgaben schneller mit weniger Klicks aus.</li>
                             <li>Personalisierte Funktionen: Profitieren Sie von Funktionen, die speziell für Aufgabenbesitzer entwickelt wurden.</li>
                         </ul>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 3. Oktober 2024</p>
+                            <p>Vorschau der Version: 3. Oktober 2024</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -292,14 +292,14 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei der Anmeldung bei Outlook-Integrationen</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen bei der Anmeldung zur Outlook-Integration</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Die Anmeldeerfahrung für die Outlook-Integration wurde optimiert, sodass alle Kunden dieselbe Schaltfläche sehen, um sich bei Workfront anzumelden, unabhängig davon, ob sie IMS-fähig sind oder nicht. Die nachfolgenden Anmeldeschritte bleiben für IMS- und Nicht-IMS-Instanzen unterschiedlich, die Anfangsseite ist jedoch für alle Benutzer gleich.</p>
+                    <p>Die Integration der Anmeldung für Outlook wurde optimiert, sodass alle Kunden dieselbe Schaltfläche für die Anmeldung bei Workfront sehen, unabhängig davon, ob sie IMS-fähig sind oder nicht. Die nachfolgenden Anmeldeschritte unterscheiden sich zwischen IMS- und Nicht-IMS-Instanzen, aber die Anfangsseite ist für alle Benutzer gleich.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 6. August 2024</p>
+                            <p>Vorschau der Version: 6. August 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 6. August 2024</span></p>
@@ -328,48 +328,44 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Weitere relevante Zuweisungen wurden dem Workflow "Neue Aufgabe"hinzugefügt</a></p>
-                    [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
-                    <p>Dieselbe Funktionalität für relevantere Smart-Zuweisungen wurde dem Feld Zuweisungen im Feld Neue Aufgabe hinzugefügt, wenn eine Aufgabe zu einem Projekt und in einer Projektaufgabenliste hinzugefügt wird.</p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Relevantere Zuweisungen zum Workflow Neue Aufgabe hinzugefügt</a></p>
+                    [!BADGE In Production for Fast Release ]{type=Positive}
+                    <p>Wir haben dem Feld Zuweisungen im Feld Neue Aufgabe dieselbe Funktion für relevantere Smart-Zuweisungen hinzugefügt, wenn eine Aufgabe zu einem Projekt und in einer Projektaufgabenliste hinzugefügt wird.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 13. Februar 2024</p>
+                            <p>Vorschau der Version: 13. Februar 2024</p>
                         </li>
                         <li>
-                            <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
-                        </li>
-                        <li>
-                            <p>Produktionsversion für alle Kunden: Ankündigung</p>
+                            <p>Produktion für die schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
                         </li>
                     </ul>
+                <p><i>Diese Funktion wird am 19. Dezember 2024 aus der Vorschau-Umgebung und mit 25.1 (Januar 2025) aus der Fast-Release-Produktion entfernt.</i></p>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Weitere relevante Smart-Zuweisungen</a></p>
-                    [!BADGE In Produktion für schnelle Veröffentlichung ]{type=Positive}
-                    <p>Wir haben den Algorithmus geändert, den Workfront zum Berechnen und Vorschlagen von intelligenten Zuweisungen für Aufgaben verwendet. Der neue Algorithmus wird in den folgenden Bereichen in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, Zuweisungsbereich in der Aufgabenkopf, Startseite und Zusammenfassungsbereich.</p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Relevantere Smart-Zuweisungen</a></p>
+                    [!BADGE In Production for Fast Release ]{type=Positive}
+                    <p>Wir haben den Algorithmus geändert, den Workfront verwendet, um smarte Zuweisungen für Aufgaben zu berechnen und vorzuschlagen. Der neue Algorithmus wird auf die folgenden Bereiche in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, der Bereich „Zuweisungen“ in der Aufgabenkopfzeile, Startseite und das Bedienfeld „Zusammenfassung“.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
                             <p>Vorschau-Version: 21. Dezember 2023</p>
                         </li>
                         <li>
-                            <p>Produktion für schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
-                        </li>
-                        <li>
-                            <p>Produktionsversion für alle Kunden: Ankündigung</p>
+                            <p>Produktion für die schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
                         </li>
                     </ul>
+                <p><i>Diese Funktion wird am 19. Dezember 2024 aus der Vorschau-Umgebung und mit 25.1 (Januar 2025) aus der Fast-Release-Produktion entfernt.</i></p>
                 </td>
             </tr>
         </tbody>
 </table>
 
-### Verbesserungen bei der Überprüfung
+### Proofing-Verbesserungen
 
 <table>
     <col style="width: 50%;" />
@@ -387,15 +383,15 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Problembehebung beim Kopieren/Einfügen für den Desktop Proofing Viewer</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Problembehebung zum Kopieren/Einfügen für den Desktop Proofing Viewer</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Es wurde ein Problem behoben, bei dem Inhalte im Abschnitt Updates des Desktop Proofing-Viewers falsch eingefügt wurden.</p>
+                    <p>Es wurde ein Problem behoben, bei dem Inhalte im Abschnitt Aktualisierungen der Desktop Proofing Viewer falsch eingefügt wurden.</p>
                     <p>Neue Version: 2.1.39</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 2. Oktober 2024</p>
+                            <p>Vorschau der Version: 2. Oktober 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 2. Oktober 2024</span></p>
@@ -405,15 +401,15 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Leere Bildschirmkorrektur für Benutzer von Windows mit Desktop Proofing für Windows-Desktop-Computer</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Fehlerbehebung bei leerem Bildschirm für Windows-Benutzer des Desktop Proofing Viewers</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Es wurde ein Problem mit der neuen Version 2.1.36 des Desktop Proofing-Viewers behoben, bei dem einige Windows-Benutzer nach dem Öffnen des Viewers einen leeren Bildschirm angezeigt haben. </p>
+                    <p>Es wurde ein Problem mit der neuen Desktop Proofing Viewer-Version 2.1.36 behoben, das dazu führte, dass einige Windows-Benutzer nach dem Öffnen des Viewers einen leeren Bildschirm sahen. </p>
                     <p>Neue Version für Windows-Benutzer: 2.1.37</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 30. August 2024</p>
+                            <p>Vorschau der Version: 30. August 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 30. August 2024</span></p>
@@ -425,9 +421,9 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium-Update für den Desktop Proofing Viewer</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Wir aktualisieren den Desktop Proofing Viewer, um Chromium 126.0.6478.127 zu unterstützen, das Probleme mit UI-Elementen in interaktiven Testsendungen behebt.</p>
+                    <p>Wir aktualisieren den Desktop Proofing Viewer, um Chromium-126.0.6478.127 zu unterstützen, die Probleme mit Benutzeroberflächenelementen in interaktiven Korrekturabzügen beheben.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
                             <p>Vorschau-Version: 29. August 2024</p>
@@ -441,7 +437,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         </tbody>
 </table>
 
-### Verbesserungen bei Berichten und Dashboards
+### Verbesserungen an Berichten und Dashboards
 
 <table>
     <col style="width: 50%;" />
@@ -459,17 +455,17 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Data Connect ist für neue Pläne verfügbar</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Data Connect für neue Pläne verfügbar</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Workfront Data Connect steht Unternehmen für einen der neuen Workfront-Pläne zur Verfügung. Data Connect ermöglicht Unternehmen den Zugriff auf ihre Daten als sicheren und skalierbaren Data Lake, der mithilfe von Business Intelligence-Tools analysiert und visualisiert oder extern gespeichert werden kann. Darüber hinaus können Unternehmen Data Connect verwenden, um Datenanalysen anzuzeigen, die zuvor nicht verfügbar waren, z. B. zeitbasierte Trendanalyse, Variablenzuordnung und Analyse externer Systemdaten in Kombination mit Workfront-Daten.</p>
+                    <p>Workfront Data Connect wird für Unternehmen mit einem der neuen Workfront-Pläne verfügbar. Data Connect ermöglicht Unternehmen den Zugriff auf ihre Daten als sicheren und skalierbaren Data Lake, der mithilfe von Business Intelligence-Tools analysiert und visualisiert oder extern gespeichert werden kann. Darüber hinaus können Unternehmen Data Connect verwenden, um zuvor nicht verfügbare Datenanalysen anzuzeigen, z. B. zeitbasierte Trendanalysen, Variablenzuordnungen und Analysen externer Systemdaten in Kombination mit Workfront-Daten.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
                         </li>
                     </ul>
-                    <p><i>Nur für Unternehmen verfügbar, die an einem der neuen Adobe Workfront-Pläne teilnehmen. Data Connect ist im Ultimate-Plan enthalten und wird als Add-on für die Prime- und Select-Pläne im ersten Halbjahr 2025 zum Kauf angeboten.</i></p>
+                    <p><i>Nur für Organisationen mit einem der neuen Adobe Workfront-Pläne verfügbar. Data Connect ist im Ultimate-Plan enthalten und wird im ersten Halbjahr 2025 als Add-on für die Prime- und Select-Pläne zum Kauf bereitgestellt.</i></p>
                 </td>
             </tr>
         </tbody>
@@ -485,12 +481,12 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Zusammenfassen von Projekten oder Aktualisierungen mit einem Klick</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Um die Highlights eines Projekts oder eines Aktualisierungsstreams schneller anzuzeigen, haben wir die Schaltflächen Zusammenfassen zu diesen Bereichen von Workfront hinzugefügt. Jetzt können Sie auf die Schaltfläche klicken, um eine Zusammenfassung im KI-Assistenten zu generieren.</p><p>Zuvor konnten Benutzer den AI-Assistenten öffnen und eine Eingabeaufforderung eingeben, um eine Zusammenfassung des Projekts oder den Aktualisierungsstream zu erstellen.</p>
+                    <p>Um die schnelle Anzeige von Highlights eines Projekts oder eines Aktualisierungs-Streams zu erleichtern, haben wir zu diesen Bereichen von Workfront Schaltflächen zum Zusammenfassen hinzugefügt. Jetzt können Sie auf die Schaltfläche klicken, um im KI-Assistenten eine Zusammenfassung zu erstellen.</p><p>Zuvor konnten Benutzende den KI-Assistenten öffnen und eine Eingabeaufforderung eingeben, um eine Zusammenfassung des Projekts oder Aktualisierungs-Streams zu erstellen.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 3. Oktober 2024</p>
+                            <p>Vorschau der Version: 3. Oktober 2024</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -500,12 +496,12 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Allgemeine Verfügbarkeit der Adobe Workfront-Planung</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Allgemeine Verfügbarkeit von Adobe Workfront Planning</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Workfront Planning steht allen Kunden zur Verfügung, die zusätzlich zu ihrer Workfront-Lizenz eine Workfront Planning-Lizenz erworben haben. Weitere Informationen zur Workfront-Planung erhalten Sie von Ihrem Kundenbetreuer.</p>
-                    <p>Die neuesten Informationen zur Workfront Planning-Version pro Quartal finden Sie unten im Abschnitt <a href="#workfront-planning-enhancements">Verbesserungen der Workfront-Planung</a> .</p>
+                    <p>Workfront Planning steht allen Kunden zur Verfügung, die zusätzlich zu ihrer Workfront-Lizenz eine Workfront Planning-Lizenz erworben haben. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie weitere Informationen zu Workfront Planning benötigen.</p>
+                    <p>Die neuesten Workfront Planning-Versionsinformationen pro Quartal finden Sie im Abschnitt <a href="#workfront-planning-enhancements">Workfront Planning Enhancements</a> unten.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 28. August 2024</span></p>
@@ -515,20 +511,20 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI-Assistent in Workfront verfügbar</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe-KI-Assistent in Workfront verfügbar</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Um Ihnen die Arbeit zu erleichtern, haben wir Adobe I Assistant zu Workfront hinzugefügt. Der KI-Assistent kann Sie bei Folgendem unterstützen:</p>
+                    <p>Um Ihnen die Durchführung Ihrer Arbeit zu erleichtern, haben wir den KI-Assistenten für die Adobe zu Workfront hinzugefügt. Der KI-Assistent kann Ihnen helfen, indem er:</p>
                     <ul>
-                        <li>Zusammenfassung von Arbeitselementen und Dokumenten, sodass Sie schnell ein allgemeines Verständnis von Aufgaben, Projekten und Assets gewinnen können.</li>
-                        <li>Bereitstellung von Informationen aus der Experience League-Dokumentation, Einbringen von Anweisungen und Referenzmaterial in Workfront und Verknüpfung zu einer ausführlicheren Dokumentation.</li>
+                        <li>Zusammenfassen von Arbeitselementen und Dokumenten, sodass Sie schnell ein allgemeines Verständnis über Aufgaben, Projekte und Assets erhalten.</li>
+                        <li>Bereitstellen von Informationen aus der Experience League-Dokumentation, Einbringen von Anweisungen und Referenzmaterial in Workfront und Links zu ausführlicheren Dokumentationen.</li>
                         <li>Erstellen und Verfeinern von Formeln für berechnete benutzerdefinierte Formularfelder, Generieren von Formeln aus Textaufforderungen oder Auffinden von Fehlern in vorhandenen Formeln.</li>
                         </ul>
-                        <p>Ihr Workfront-Administrator kann den KI-Assistenten für Ihr Unternehmen aktivieren oder deaktivieren. Der KI-Assistent steht für Instanzen mit Select-, Prime- und Ultimate-Plänen zur Verfügung.</p>
+                        <p>Ihr Workfront-Administrator kann den KI-Assistenten für Ihr Unternehmen aktivieren oder deaktivieren. Der KI-Assistent ist für Instanzen mit Select-, Prime- und Ultimate-Plänen verfügbar.</p>
                     </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Version: 28. August 2024</p>
+                            <p>Vorschau der Version: 28. August 2024</p>
                         </li>
                         <li>
                             <p class="preview">Produktionsversion: 28. August 2024</p>
@@ -538,16 +534,16 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-Feel-Aktualisierungen im vierten Quartal 2024-Zeitrahmen</a></p>
-                    <p>Im vierten Quartal 2024 wurden kleinere Änderungen am Erscheinungsbild verschiedener Bereiche der Adobe Workfront-Anwendung vorgenommen. Prüfen Sie die einzelnen Versionshinweise auf bestimmte Veröffentlichungstermine.</p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-Feel-Updates im vierten Quartal 2024</a></p>
+                    <p>Im vierten Quartal 2024 werden kleinere Aktualisierungen am Erscheinungsbild verschiedener Bereiche der Adobe Workfront-Anwendung vorgenommen. Lesen Sie die einzelnen Versionshinweise für bestimmte Veröffentlichungstermine.</p>
                 </td>
-                <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Vorschau-Veröffentlichung: Im gesamten Veröffentlichungszeitrahmen des vierten Quartals 2024</p>
+                            <p>Vorschau der Version: Im gesamten Zeitrahmen der Version für das vierte Quartal 2024</p>
                         </li>
                         <li>
-                            <p><span class="preview">Produktionsversion: Versionshinweise zu bestimmten Daten lesen</span></p>
+                            <p><span class="preview">Produktionsversion: Lesen Sie die Versionshinweise für bestimmte Daten</span></p>
                         </li>
                     </ul>
                 </td>
@@ -559,44 +555,44 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 
 Die folgende Funktion wird in Kürze aus Workfront entfernt:
 
-#### Veraltetes Home-Erlebnis mit Version 24.10
+#### Einstellung des alten Startseiten-Erlebnisses mit 24.10
 
-Mit der Version 24.10 werden wir offiziell das alte Home-Erlebnis einstellen. Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird.
+Mit der Version 24.10 werden wir das veraltete Startseiten-Erlebnis offiziell einstellen. Die Benutzer werden ermutigt, mit der Verwendung der neuen Startseite zu beginnen, die vor der Einstellung weiterhin durch zusätzliche Funktionen erweitert wird.
 
 ## Ankündigungen
 
 ### Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung außerhalb des Veröffentlichungszeitplans für das vierte Quartal 2024 verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für das vierte Quartal 2024 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-### Verbesserungen der Workfront-Planung
+### Workfront-Planungsverbesserungen
 
-Neue Funktionen in der Workfront-Planung sind in der Produktion verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront-Planungs-Aktivität für das vierte Quartal 2024](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md).
+Neue Funktionen in Workfront Planning sind in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Planning - Aktivität vom vierten Quartal 2024](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md).
 
-### Verbesserungen am Workfront-Szenario-Planer
+### Verbesserungen am Workfront-Szenarioplaner
 
-Zu diesem Zeitpunkt der Version gibt es keine Aktualisierungen des Szenario-Players. Dieser Bereich wird aktualisiert, sobald Updates verfügbar sind.
+Es gibt derzeit keine Szenario-Planer-Aktualisierungen in der Version. Dieser Bereich wird aktualisiert, sobald Aktualisierungen verfügbar sind.
 
 ### Workfront Proof-Verbesserungen
 
-Es gibt derzeit keine Workfront Proof-Updates in der Version. Dieser Bereich wird aktualisiert, sobald Updates verfügbar sind.
+Es gibt derzeit keine Workfront Proof-Updates in der Version. Dieser Bereich wird aktualisiert, sobald Aktualisierungen verfügbar sind.
 
-### Verbesserungen bei Workfront-Zielen
+### Workfront-Zielverbesserungen
 
-Es gibt derzeit keine Aktualisierungen zu Workfront Goals in der Version. Dieser Bereich wird aktualisiert, sobald Updates verfügbar sind.
+Es gibt derzeit keine Updates zu Workfront Goals in der Version. Dieser Bereich wird aktualisiert, sobald Aktualisierungen verfügbar sind.
 
 ### API-Version 19
 
-Für API Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere vereinfachen die Verwendung der über die API verfügbaren Informationen.
+Für API-Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
 
-Weitere Informationen zu den neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungsupdates, die in der Version vom 4. Quartal 2024 vorgenommen wurden, finden Sie unter [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Informationen zu den Wartungs-Updates, die im vierten Quartal 2024 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
-Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt &quot;Neue Funktionen&quot;auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).

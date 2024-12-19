@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,14 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
 
 ## Adobe Workfront-Verbesserungen
 
-* [Verbesserungen für Administratoren](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
+* [Administrator-Verbesserungen](#administrator-enhancements)
+* [Verbesserungen für Pinnwände](#boards-enhancements)
 * [Verbesserungen beim Dokumentenmanagement](#document-management-enhancements)
 * [Home-Verbesserungen](#home-enhancements)
+* [Projektverbesserungen](#project-enhancements)
 * [Proofing-Verbesserungen](#proofing-enhancements)
 * [Verbesserungen an Berichten und Dashboards](#report-and-dashboard-enhancements)
+* [Verbesserungen beim Aktualisierungsverlauf](#update-stream-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Administrator-Verbesserungen
@@ -55,6 +58,20 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><span class="bold">Veröffentlichungstermine</span></p>
         </td>
     </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Verschieben von Aufgaben bei protokollierten Stunden verhindern</a></p>
+            <p>Da das Verschieben von Aufgaben oder Problemen, bei denen Stunden protokolliert wurden, manchmal Probleme mit der Compliance oder der Prüfung verursachen kann, haben wir im Bereich „Setup“ unter „Voreinstellungen für Aufgaben und Probleme“ eine Voreinstellung hinzugefügt, mit der Sie verhindern können, dass Benutzer Aufgaben und Probleme verschieben, wenn Stunden darauf protokolliert wurden.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
+                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>  
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -121,7 +138,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
 </tbody>
 </table>
 
-<!--### Boards enhancements
+### Verbesserungen für Pinnwände
 
 <table>
 <col style="width: 50%;" />
@@ -129,29 +146,29 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
 <tbody>
     <tr>
         <td>
-            <p><span class="bold">Feature</span></p>
+            <p><span class="bold">Funktion</span></p>
         </td>
         <td>
-            <p><span class="bold">Release dates</span></p>
+            <p><span class="bold">Veröffentlichungstermine</span></p>
         </td>
     </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Change the owner of a board</a></p>
-            <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+            Besitzer einer Pinnwand ändern</a></p>
+            <p>Der Ersteller einer Pinnwand ist standardmäßig der Besitzer. Der Board-Besitzer ist die einzige Person, die diese Pinnwand löschen oder ihre Filter im Bedienfeld „Konfigurieren“ aktualisieren kann.</p>
+            <p>Es wurde eine Funktion hinzugefügt, mit der Workfront-Systemadministratoren den Besitzer einer Pinnwand ändern können. Der aktuelle Eigentümer eines Boards kann auch den Eigentümer dieses Boards ändern.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Preview release: October 31, 2024</li>
-                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Vorschau-Version: 18. Dezember 2024</li>
+                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
             </ul>
         </td>
     </tr>
 </tbody>
-</table>-->
+</table>
 
 ### Verbesserungen beim Dokumentenmanagement
 
@@ -217,11 +234,79 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><span class="bold">Veröffentlichungstermine</span></p>
         </td>
     </tr>
+    <!--<tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Catch up on work in Priorities</a></p>
+            <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
+            <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 20, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>-->
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Änderungen live auf der Detailseite in „Prioritäten“ anzeigen</a></p>
+            <p>Sie können jetzt Echtzeitaktualisierungen auf der Detailseite einer Aufgabe oder eines Problems anzeigen. Mit Echtzeit-Präsenzindikatoren können Sie auch sehen, ob andere Benutzer die Seite gleichzeitig mit Ihnen ansehen.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
+                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Hochladen und Anzeigen von Dokumenten und Testsendungen in den Prioritäten</a></p>
+            <p>Sie können jetzt mit Dokumenten und Testsendungen für Aufgaben und Probleme interagieren. Auf der neuen Registerkarte Dokumente haben Sie folgende Möglichkeiten</p>
+            <ul>
+                <li>Hochladen eines Dokuments</li>
+                <li>Erstellen eines Korrekturabzugs</li>
+                <li>Proofing Viewer starten</li>
+                <li>Und mehr</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
+                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Kalenderansicht jetzt in Prioritäten verfügbar</a></p>
+            <p>Verfolgen Sie Ihre Arbeit einfach mit einem klaren, visuellen Monatskalender. Mit dem Prioritätskalender können Sie</p>
+            <ul>
+                <li>Verwenden von Filtern, um Ihre Arbeit zu finden</li>
+                <li>Anzeigen von Feldern wie Status und Fokusebene</li>
+                <li>Farben für schnelle Priorisierung anwenden</li>
+                <li>Und mehr</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
+                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Aktualisierungen der Arbeitsliste „Prioritäten“</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Wir haben die Prioritätenarbeitsliste aktualisiert, um die Funktionen zu verbessern und sie an andere Anwendungsbereiche anzupassen.</p>
         </td>
         <td>
@@ -286,7 +371,38 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
 </tbody>
 </table>
 
-## Proofing-Verbesserungen
+### Projektverbesserungen
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Funktion</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Veröffentlichungstermine</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Wichtigere Zuweisungen aus der Vorschau- und Produktionsumgebung für Fast Release-Umgebungen entfernt</a></p>
+            <p>Eine Funktion, die sich seit Dezember 2023 in der Vorschau-Umgebung und seit März 2024 in der Fast-Release-Produktionsumgebung befindet, wurde jetzt entfernt. Die Funktionen haben beim Zuweisen von Aufgaben relevantere Smart-Assignment-Vorschläge hinzugefügt.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
+                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+### Proofing-Verbesserungen
 
 <table>
 <col style="width: 50%;" />
@@ -319,7 +435,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
 </tbody>
 </table>
 
-## Verbesserungen an Berichten und Dashboards
+### Verbesserungen an Berichten und Dashboards
 
 <table>
 <col style="width: 50%;" />
@@ -336,6 +452,20 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Beschränkung auf 25 Berichte, externe Seiten oder Kalender in Dashboards</a></p>
+            <p>Um die Dashboard-Leistung aufrechtzuerhalten, haben wir eine Begrenzung für die Gesamtzahl der Berichte, externen Seiten oder Kalender implementiert, die in einem Dashboard platziert werden können. Beim Erstellen eines neuen Dashboards können maximal 25 Elemente hinzugefügt werden.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau-Version: 16. Dezember 2024</li>
+                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Schaltfläche zur Erstellung des erstmaligen Leserkontos für Data Connect</a></p>
             [!BADGE In Production ]{type=Informative}
             <p>Admins, die zum ersten Mal auf Data Connect zugreifen, haben jetzt die Möglichkeit, durch Anklicken einer einzigen Schaltfläche ein neues Snowflake-Leserkonto zu erstellen. Der Vorgang dauert einige Minuten, erfordert jedoch keine weiteren Maßnahmen.</p>
@@ -345,6 +475,37 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <ul>
                 <li>Vorschau-Version: 14. November 2024</li>
                 <li><span class="preview">Produktionsversion für alle Kunden: 14. November 2024</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+### Verbesserungen beim Aktualisierungsverlauf
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Funktion</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Veröffentlichungstermine</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Aktualisiertes Kommentierungserlebnis im Erwähnungen -Widget auf der Startseite und im Bereich Meine Aktualisierungen</a></p>
+            <p>Das Kommentierungserlebnis im Erwähnungen-Widget auf der Startseite und im Abschnitt Erwähnungen im Bereich Meine Aktualisierungen wird aktualisiert. Dasselbe Erlebnis im Bereich „Updates“ für die meisten Workfront-Objekte ist jetzt auch im Erwähnungen-Widget und im Abschnitt „Erwähnungen“ unter „Meine Aktualisierungen“ verfügbar.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
+                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
             </ul>
         </td>
     </tr>
