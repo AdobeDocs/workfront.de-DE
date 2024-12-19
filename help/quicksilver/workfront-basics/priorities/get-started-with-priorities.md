@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
+source-git-commit: b637694c598540343383af15658a069c305f6bbf
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 2%
+source-wordcount: '988'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,8 @@ Unter „Prioritäten“ können Sie Ihre Arbeit filtern und gruppieren, damit S
 
 ### Arbeiten mit Filtern suchen
 
-Finden Sie Ihre wichtigste Arbeit mit Filtern. <span class="preview">Sie können eine natürliche Sprache verwenden, um mit dem Smart-Filter Arbeit zu finden</span> oder Sie können den Standardfilter verwenden, um die Ihnen zugewiesenen Aufgaben und Probleme zu finden:
+Finden Sie Ihre wichtigste Arbeit mit Filtern. <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+Sie können den Standardfilter verwenden, um die Ihnen zugewiesenen Aufgaben und Probleme zu finden:
 
 <table>
   <tbody>
