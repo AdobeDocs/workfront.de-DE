@@ -6,10 +6,11 @@ title: Verwenden von cURL zum Hinzufügen eines HTTP-Moduls
 description: Sie können eine cURL-Anfrage in Ihr Szenario einfügen, und Fusion erstellt ein HTTP-Modul, das aus der cURL-Anfrage konfiguriert ist.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
+source-git-commit: 785f39fabcb19233fd1bc79c14222225a3ea72a2
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 1%
 
 ---
 
@@ -69,10 +70,6 @@ Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Wor
 So erstellen Sie ein HTTP-Modul mit cURL:
 
 1. Erstellen Sie den Text der cURL-Anfrage außerhalb von Fusion, z. B. in einem Texteditor.
-
-   >[!IMPORTANT]
-   >
-   >Wenn Sie Fusion auf einem Windows-Computer verwenden, darf Ihre cURL-Anfrage keine Zeilenumbrüche enthalten.
 1. Kopieren Sie die cURL-Anfrage in die Zwischenablage.
 1. Klicken Sie auf **[!UICONTROL Registerkarte]** Szenario“ im linken Bedienfeld.
 1. Wählen Sie das Szenario aus, in dem Sie das Modul erstellen möchten.
@@ -89,10 +86,6 @@ So erstellen Sie ein HTTP-Modul mit cURL:
 
 ## Fehlerbehebung
 
-Wenn Ihre cURL nicht in Ihr Szenario eingefügt wird, überprüfen Sie Folgendes:
-
-* Überprüfen Sie Ihre Browser-Einstellungen, um sicherzustellen, dass das Einfügen aus der Zwischenablage aktiviert ist.
-* Wenn Sie Windows ausführen, überprüfen Sie die cURL-Anfrage, um sicherzustellen, dass sie keine Zeilenumbrüche enthält.
-
+Wenn Ihre cURL nicht in Ihr Szenario eingefügt wird, überprüfen Sie Ihre Browser-Einstellungen, um sicherzustellen, dass das Einfügen aus der Zwischenablage aktiviert ist.
 
 
