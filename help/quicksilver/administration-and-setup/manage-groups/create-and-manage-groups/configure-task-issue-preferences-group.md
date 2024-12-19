@@ -9,14 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 2%
+source-wordcount: '2226'
+ht-degree: 1%
 
 ---
 
 # Konfigurieren der Voreinstellungen für Aufgaben und Probleme für eine Gruppe
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Wenn Gruppen in Ihrem Unternehmen eine Aufgaben- oder Problem-Voreinstellung unabhängig von der Konfiguration auf Systemebene konfigurieren müssen, kann ein Adobe Workfront-Administrator die Voreinstellung entsperren. Als Gruppenadministrator können Sie dann die Voreinstellung für Ihre Gruppe konfigurieren. Dies wirkt sich auf alle Aufgaben oder Probleme Ihrer Gruppe aus.
 
@@ -91,10 +95,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * [Standardeinstellungen für neue Aufgaben](#new-task-defaults)
    * [Probleme](#issues)
    * [Löschen](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[Verschieben](#move)</span>
    * [Tatsächliche Termine](#actual-dates)
+   * [Delegierung](#delegation)
    * [Zugriff](#access)
 
 ### Voreinstellungen für neue Aufgabe {#new-task-defaults}
@@ -166,7 +169,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Benutzenden das Löschen von Aufgaben und Problemen mit protokollierten Stunden ermöglichen</td> 
+      <td role="rowheader">Benutzern erlauben, Aufgaben und Probleme mit protokollierten Stunden zu löschen</td> 
       <td> <p> Hiermit können Sie bestimmen, ob Sie das Löschen von Aufgaben oder Problemen zulassen, bei denen Stunden protokolliert werden. Diese Option ist standardmäßig ausgewählt.</p> 
        <div> 
         <p><b>Tipp</b>: Diese Einstellung gilt auch für das Löschen von Projekten, in denen Aufgaben oder Probleme mit Stunden protokolliert wurden. Diese Einstellung gilt nicht für das Löschen von Projekten, bei denen die Zeit direkt für das Projekt protokolliert wird. </p> 
@@ -181,31 +184,27 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    </table>
 
 
-<!-- *****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Verschieben
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
-      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
-       <p>Consider the following:</p> 
+      <td role="rowheader">Benutzern erlauben, Aufgaben und Probleme mit protokollierten Stunden zu verschieben</td> 
+      <td> <p> Hiermit können Sie bestimmen, ob Sie das Verschieben von Aufgaben oder Problemen zulassen, bei denen Stunden protokolliert werden. Diese Option ist standardmäßig ausgewählt.</p> 
+       <p>Beachten Sie Folgendes:</p> 
         <ul> 
-         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
-      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+         <li> Wenn es ausgewählt ist, können Sie Aufgaben und Probleme verschieben, für die Zeit protokolliert wurde. Die Stunden werden auch mit den Aufgaben oder Problemen verschoben. </li>
+      <li>Wenn Sie diese Option deaktivieren, erhalten Sie eine unzulässige Warnung, wenn Sie eine Aufgabe oder ein Problem mit protokollierten Stunden verschieben. Die Warnung gibt an, dass der Administrator nicht zulässt, dass Aufgaben oder Probleme mit protokollierten Stunden verschoben werden. Die Aufgaben oder Probleme, für die Stunden protokolliert wurden, können nicht verschoben werden. </li></ul>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
 </div>
-
--->
 
 ### Tatsächliche Termine {#actual-dates}
 
@@ -255,6 +254,28 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
    If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
+
+### Delegierung
+
+Wenn die Einstellung **[!UICONTROL Erlauben Sie Benutzern, ihre Aufgaben und Probleme zu delegieren]** aktiviert ist, können alle Benutzer in der Gruppe ihre Arbeit vorübergehend an andere delegieren.
+
+Wenn diese Einstellung aktiviert ist, können Gruppenbenutzer Folgendes sehen:
+
+* Die [!UICONTROL **Delegieren**] in ihren Widgets [!UICONTROL Meine ]), [!UICONTROL Meine Aufgaben] oder [!UICONTROL Meine Probleme] im Bereich [!UICONTROL Home]. Dort können sie Aufgaben- und Problemzuweisungen delegieren.
+
+  >[!NOTE]
+  >
+  >  Der [!UICONTROL **Genehmigungen delegieren**] ist immer im Bereich [!UICONTROL Startseite] aktiviert.
+
+* Ein Hinweis darauf, dass eine Aufgabe oder ein Problem an einen anderen Benutzer im Bereich [!UICONTROL Zuweisungen und Zuweisungen] in der Aufgaben- oder Problem-Kopfzeile delegiert wurde.
+* Ein Hinweis darauf, dass eine Aufgabe oder ein Problem an einen anderen Benutzer in seinem Widget [!UICONTROL Meine Arbeit] in [!UICONTROL Startseite] delegiert wurde.
+
+  Wenn Sie die Einstellung [!UICONTROL Erlauben Sie Benutzern, ihre Aufgaben und Probleme zu delegieren] deaktivieren, werden die aktuell geplanten Delegierungen beendet und die delegierten Benutzer erhalten eine E-Mail-Benachrichtigung, dass die Delegierung gestoppt wurde.
+
+Informationen zum Delegieren von Arbeit an andere finden Sie in den folgenden Artikeln:
+
+* [Delegieren von Arbeit - Übersicht](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [Delegieren von Aufgaben und Problemen](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 ### Zugriff {#access}
 

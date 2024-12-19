@@ -1,27 +1,32 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Aktualisieren oder Bearbeiten eines Arbeitselements im Startbereich
-description: Sie können ein Arbeitselement im Bereich [!UICONTROL Startseite] in Adobe Workfront anzeigen und ihm Aktualisierungen hinzufügen. Sie können auch andere Daten im Zusammenhang mit dem Arbeitselement bearbeiten, wenn Sie Zugriff darauf haben.
+title: Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich Startseite
+description: Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!UICONTROL Startseite] in Adobe Workfront anzeigen und hinzufügen. Sie können auch andere mit dem Arbeitselement verknüpfte Daten bearbeiten, wenn Sie Zugriff zur Bearbeitung haben.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 4%
+source-wordcount: '906'
+ht-degree: 6%
 
 ---
 
-# Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich [!UICONTROL Home]
+# Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich [!UICONTROL Startseite]
 
 <!--Audited: April 2024-->
 
-Sie können ein Arbeitselement im Bereich [!UICONTROL Startseite] in [!DNL Adobe Workfront] anzeigen und ihm Aktualisierungen hinzufügen. Sie können auch andere Daten im Zusammenhang mit dem Arbeitselement bearbeiten, wenn Sie Zugriff darauf haben.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!UICONTROL Startseite] in [!DNL Adobe Workfront] anzeigen und hinzufügen. Sie können auch andere mit dem Arbeitselement verknüpfte Daten bearbeiten, wenn Sie Zugriff zur Bearbeitung haben.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,18 +38,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
    <td> <p>Neu: Standard</p>
    Oder
 
-<p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+<p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
-   <td> <p>[!UICONTROL Zugriff auf Aufgaben und Probleme bearbeiten</p> </td> 
+   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf Aufgaben und Probleme</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
@@ -53,72 +58,109 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anzeigen von Aktualisierungen für ein Arbeitselement
+<!--not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
 
-Sie können Aktualisierungen für jedes Arbeitselement in der [!UICONTROL Arbeitsliste] anzeigen:
+## View updates on a work item
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. Wählen Sie im Bereich **[!UICONTROL Arbeitsliste]** das Element aus, für das Sie Aktualisierungen anzeigen möchten.\
-   Aktualisierungen werden im rechten Bereich angezeigt.
+You can view updates on any work item in the [!UICONTROL Work List]:
 
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
+   Updates are displayed in the right panel.
 
+-->
 
-## Hinzufügen eines Kommentars zu einem Arbeitselement
+## Übersicht über Widgets, in denen Sie Kommentare hinzufügen oder Elemente im Bereich „Startseite“ bearbeiten können
 
-Sie können Aktualisierungen für jedes Arbeitselement in der Liste [!UICONTROL Arbeit] bereitstellen:
+Sie können in den folgenden Widgets im Bereich Startseite Kommentare hinzufügen:
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. (Bedingt) Klicken Sie auf **Anpassen** , um eines der folgenden Widgets hinzuzufügen:
+| Widget | Beschreibung |
+|--------------|---------------------------------------------------------------------------------------------------|
+| Pinnwände | Zeigt alle Boards an, die Sie erstellt haben oder zur Verwendung eingeladen wurden |
+| Meine Arbeit | Zeigt Ihnen zugewiesene Aufgaben und Probleme an |
+| Meine Projekte | Zeigt Projekte an, deren Inhaber Sie sind oder an denen Sie mitarbeiten |
+| Meine Aufgaben | Zeigt die Ihnen zugewiesenen Aufgaben an |
+| Meine Probleme | Zeigt Ihnen zugewiesene Probleme an |
+| Meine Anfragen | Zeigt alle von Ihnen gesendeten Anfragen an |
+| Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an |
+| Erwähnungen | Zeigt aktuelle Kommentar-Threads in Workfront an, ähnlich wie auf der Seite „Meine Updates“, sowie eine Schaltfläche zum Antworten, mit der Sie eine Antwort im Widget erstellen können. |
 
-   | Widget | Beschreibung |
-   |--------------|---------------------------------------------------------------------------------------------------|
-   | Pinnwände | Zeigt alle Pinnwände an, die Sie erstellt haben oder zur Verwendung eingeladen wurden |
-   | Meine Arbeit | Zeigt Ihnen zugewiesene Aufgaben und Probleme an |
-   | Meine Projekte | Zeigt Projekte an, deren Inhaber Sie sind, oder Projekte, auf denen Sie sich befinden |
-   | Meine Aufgaben | Zeigt Ihnen zugewiesene Aufgaben an |
-   | Meine Probleme | Zeigt Ihnen zugewiesene Probleme an |
-   | Meine Anfragen | Zeigt alle Anfragen an, die Sie gesendet haben |
-   | Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, zugewiesenen und gesendeten Genehmigungen an |
+Sie können Arbeitselemente in den folgenden Widgets im Bereich Startseite bearbeiten:
 
-1. Suchen Sie das Arbeitselement, das Sie aktualisieren möchten.
-1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf **Neues Update hinzufügen**.
+| Widget | Beschreibung |
+|--------------|---------------------------------------------------------------------------------------------------|
+| Pinnwände | Zeigt alle Boards an, die Sie erstellt haben oder zur Verwendung eingeladen wurden |
+| Meine Arbeit | Zeigt Ihnen zugewiesene Aufgaben und Probleme an |
+| Meine Projekte | Zeigt Projekte an, deren Inhaber Sie sind oder an denen Sie mitarbeiten |
+| Meine Aufgaben | Zeigt die Ihnen zugewiesenen Aufgaben an |
+| Meine Probleme | Zeigt Ihnen zugewiesene Probleme an |
+| Meine Anfragen | Zeigt alle von Ihnen gesendeten Anfragen an |
+| Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an |
+
+## Hinzufügen eines Kommentars zu einem Arbeitselement im Widget Meine Arbeit
+
+Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL  Arbeit“ ]:
+
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das ![](assets/lines-main-menu.png) **Hauptmenü** in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Startseite]**.
+1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget [!UICONTROL **Meine Arbeit**] hinzuzufügen.
+
+1. Suchen Sie das Arbeitselement, das Sie aktualisieren möchten, im Widget [!UICONTROL **Meine Arbeit**].
+1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf das Symbol **Neue Aktualisierung hinzufügen**.
+
    ![](assets/add-update-on-widget.png)
+
 1. Beginnen Sie mit der Eingabe Ihres Kommentars.
-1. (Optional) Beginnen Sie im Feld **Personen oder Teams taggen** mit der Eingabe des Namens oder der E-Mail eines Benutzers oder eines Teams, das Sie in diesen Kommentar aufnehmen möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis, Links oder Bilder zu Ihrem Kommentar hinzuzufügen, um Ihren Inhalt zu verbessern.
-1. Klicken Sie auf **Senden** , um den Kommentar zum Arbeitselement hinzuzufügen.
+1. (Optional) Geben Sie in das Feld **Personen oder Teams taggen** den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams ein, das Sie in diesen Kommentar einbeziehen möchten, und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Ihrem Kommentar Emojis, Links oder Bilder hinzuzufügen, um Ihre Inhalte zu verbessern.
+1. Klicken Sie **Senden**, um den Kommentar zum Arbeitselement hinzuzufügen.
 
    >[!IMPORTANT]
    >
-   >Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Um einen Kommentar zu bearbeiten, klicken Sie auf das Menü **Mehr** in der oberen rechten Ecke des Kommentars und dann auf **Bearbeiten**.
+   >Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Um einen Kommentar zu bearbeiten, klicken Sie auf das **Mehr**-Menü in der oberen rechten Ecke des Kommentars und dann auf **Bearbeiten**.
 
-Weitere Informationen zum Hinzufügen von Aktualisierungen finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Weitere Informationen zum Hinzufügen von Aktualisierungen finden Sie unter [Aktualisierungsarbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-## Arbeitselement bearbeiten
 
-Sie können jedes Feld eines beliebigen Arbeitselements bearbeiten, auf das Sie Zugriff haben.
+## Hinzufügen eines Kommentars zu einem Element im Erwähnungen-Widget
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) oder, falls verfügbar, auf das Menü** Hauptmenü&#x200B;**![](assets/lines-main-menu.png) in der oberen linken Ecke und klicken Sie dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. (Bedingt) Klicken Sie auf **Anpassen** , um eines der folgenden Widgets hinzuzufügen:
+1. Fügen Sie das Widget **Erwähnungen** zu Ihrem Bereich „Startseite“ hinzu.
 
-   | Widget | Beschreibung |
-   |--------------|---------------------------------------------------------------------------------------------------|
-   | Pinnwände | Zeigt alle Pinnwände an, die Sie erstellt haben oder zur Verwendung eingeladen wurden |
-   | Meine Arbeit | Zeigt Ihnen zugewiesene Aufgaben und Probleme an |
-   | Meine Projekte | Zeigt Projekte an, deren Inhaber Sie sind, oder Projekte, auf denen Sie sich befinden |
-   | Meine Aufgaben | Zeigt Ihnen zugewiesene Aufgaben an |
-   | Meine Probleme | Zeigt Ihnen zugewiesene Probleme an |
-   | Meine Anfragen | Zeigt alle Anfragen an, die Sie gesendet haben |
-   | Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, zugewiesenen und gesendeten Genehmigungen an |
+1. Suchen Sie das Element, das in einer Aktualisierung enthalten war und auf das Sie antworten möchten.
 
-1. Bewegen Sie den Mauszeiger über das Arbeitselement und klicken Sie dann auf das Symbol **Zusammenfassung** .
+1. Klicken Sie **Antworten**.
+
+   <div class="preview">
+
+   ![](assets/reply-to-comment-in-mentions-widget.png)
+
+   </div>
+
+1. Beginnen Sie mit der Eingabe Ihres Kommentars.
+1. (Optional) Beginnen Sie im Feld <span class="preview">**Personen taggen**</span> mit der Eingabe des Namens eines Benutzers oder Teams, das in diesen Kommentar aufgenommen werden soll, und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird.
+1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Ihrem Kommentar Emojis, Links oder Bilder hinzuzufügen, um Ihre Inhalte zu verbessern.
+1. <span class="preview">Klicken Sie auf **Senden**, um den Kommentar zum Arbeitselement hinzuzufügen.</span>
+
+   >[!IMPORTANT]
+   >
+   ><span class="preview">Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Um einen Kommentar zu bearbeiten, klicken Sie auf das **Mehr**-Menü in der oberen rechten Ecke des Kommentars und dann auf **Bearbeiten**.</span>
+
+   <span class="preview">Weitere Informationen zum Hinzufügen von Aktualisierungen finden Sie unter [Aktualisierungsarbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
+
+## Bearbeiten eines Arbeitselements
+
+Sie können jedes Feld in jedem Arbeitselement bearbeiten, zu dessen Bearbeitung Sie Zugriff haben.
+
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das ![](assets/lines-main-menu.png) **Hauptmenü** in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Startseite]**.
+1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Arbeit** hinzuzufügen.
+
+1. Bewegen Sie den Mauszeiger über das Arbeitselement und klicken Sie dann auf das Symbol **Zusammenfassung**.
    ![](assets/open-summary-new-home.png)
 
-1. Bewegen Sie im Bereich &quot;Zusammenfassung&quot;den Mauszeiger über das Feld, das Sie bearbeiten möchten.
-Wenn Sie berechtigt sind, das Feld zu bearbeiten, wird das Feld hervorgehoben, während Sie den Mauszeiger darüber bewegen.
-1. Klicken Sie auf das Feld, das Sie bearbeiten möchten, und nehmen Sie die gewünschte Aktualisierung vor.
-1. Klicken Sie aus dem Feld weg, um Ihre Änderungen zu speichern.
+1. Bewegen Sie im Bedienfeld Zusammenfassung den Mauszeiger über das Feld, das Sie bearbeiten möchten.
+Wenn Sie berechtigt sind, das Feld zu bearbeiten, wird das Feld hervorgehoben, wenn Sie den Mauszeiger darüber bewegen.
+1. Klicken Sie auf das Feld, das Sie bearbeiten möchten, und nehmen Sie dann die gewünschte Aktualisierung vor.
+1. Klicken Sie auf eine Stelle außerhalb des Felds, um Ihre Änderungen zu speichern.
